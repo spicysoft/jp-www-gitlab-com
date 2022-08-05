@@ -1044,3 +1044,13 @@
   bio: FullStack Engineer ❤️ OpenSource Contributor @Gitlab  
   gitlab: anshulriyal
   picture: anshulriyal.jpg
+
+- type: person
+  name: Steven Pritchard
+  locality: St Louis
+  country: United States
+  role: GitLab Hero
+  twitter: silug
+  bio: Linux and Open Source advocate
+  gitlab: silug
+  picture: stevenpritchard.jpg
