@@ -1,0 +1,24 @@
+---
+name: Bogdan Denkovych
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer</a>, Manage:Authentication
+  and Authorization
+reports_to: michellegill
+picture: bdenkovych.jpg
+twitter: bogdanvlviv
+gitlab: bdenkovych
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Authentication and Authorization BE Team
+projects:
+  gitlab: reviewer backend
+domain_expertise:
+- ruby
+- rails
+story: <a href="https://bogdanvlviv.com/about.html" target="_blank">https://bogdanvlviv.com/about.html</a>
+specialty:
+- 'Manage: Authentication and Authorization'
+

@@ -293,11 +293,6 @@ If your GC is optional and you need to move the date, please work with your depa
 | [Development](/handbook/engineering/development/) | Christopher Lefelhocz | Yes | Every other month | | EBA to Engineering | 
 | [Quality](/handbook/engineering/quality/) | Mek Stittri | Yes | Every other month | | EBA to Engineering | 
 | [General](/handbook/ceo/) | Sid Sijbrandij | No | Every other month | | EBA to CEO|
-| [Portfolio Marketing](/handbook/marketing/strategic-marketing/) | Cindy Blake | No | Quarterly| |  EBA to CMSO | 
-| [Digital Experience](/handbook/marketing/digital-experience/) | Michael Preuss | No | Quarterly | | EBA to CMSO | 
-| [Brand Activation](/handbook/marketing/corporate-marketing/brand-activation/) | Adam Mittner |No | Quarterly| | EBA to CMSO | 
-| [Community Relations](/handbook/marketing/community-relations/) | John Coghlan | No | Quarterly| | EBA to CMSO | 
-| [Sales Development](/handbook/marketing/revenue-marketing/) | Jean-Baptiste Larramendy | No | Quarterly - Beginning of each quarter| | EBA to CMSO | 
 | [Alliances](/handbook/alliances/) | Nima Badiey | No | Quarterly | | EBA to VP of Alliances |
 
 | AMAs | DRI |  AMA Frequency | Alternate Hosts | Scheduling DRI |
@@ -319,61 +314,60 @@ If your GC is optional and you need to move the date, please work with your depa
 | Wednesday July 20 | Finance | | 2022-07-20 |
 | Thursday July 21 | General (CEO)| Sid Sijbrandij | Key Review Date|
 | Tuesday July 26 | **Available** |  | |
-| Wednesday July 27 | Product | Product Leadership | Key Review Date|
+| Wednesday July 27 | Product | Product Leadership | July 21|
 | Thursday July 28 | Digital Experience | Michael Preuss | N/A |
-| Tuesday Aug 2 | Available | | Key Review Date? |
-| Wednesday Aug 3 | Available | | Key Review Date? |
-| Thursday Aug 4 | Available | | Key Review Date? |
-| Tuesday August 9 | People | People | July 27th |
+| Tuesday Aug 2 | EBA AMA | EBA's | N/A |
+| Wednesday Aug 3 | **Available** | | Key Review Date? |
+| Thursday Aug 4 | Development | Christopher Lefelhocz | July 27 |
+| Tuesday August 9 | People | People | July 27 |
 | Wednesday August 10 | Pet Friendly AMA | Robin Schulman | N/A|
-| Thursday August 11 | Available | | Key Review Date? |
-| Tuesday August 16 | Available | | Key Review Date? |
-| Wednesday August 17 | Available | | Key Review Date? |
-| Thursday August 18 | Available | | Key Review Date? |
-| Tuesday August 23 | Available | | Key Review Date? |
-| Wednesday August 24 | Available | | Key Review Date? |
+| Thursday August 11 | Infrastructure | Steve Loyd | August 3|
+| Tuesday August 16 | Support | Tom Cooney | August 3 |
+| Wednesday August 17 | Security | Johnathan Hunt | N/A |
+| Thursday August 18 | **Available** || N/A |
+| Tuesday August 23 | Quality | Mek Stittri | August 3 |
+| Wednesday August 24 | Product | Product Leadership | N/A |
 | Thursday August 25 | People | People Leadership | August 18th |
-| Tuesday August 30 | Available | | Key Review Date? |
-| Wednesday August 31 | Available | | Key Review Date? |
-| Thursday September 1 | Available | | Key Review Date? |
-| Tuesday September 6 | Available | | Key Review Date? |
-| Wednesday September 7 | Available | | Key Review Date? |
-| Thursday September 8 | Available | | Key Review Date? |
-| Tuesday September 13 | Available | | Key Review Date? |
-| Wednesday September 14 | Available | | Key Review Date? |
-| Thursday September 15 | Available | | Key Review Date? |
-| Tuesday September 20 | Available | | Key Review Date? |
-| Wednesday September 21 | Available | | Key Review Date? |
-| Thursday September 22 | Available | | Key Review Date? |
-| Tuesday September 27 | Available | | Key Review Date? |
-| Wednesday September 28 | Available | | Key Review Date? |
-| Thursday September 29 | Available | | Key Review Date? |
-| Tuesday October 4 | Available | | Key Review Date? |
-| Wednesday October 5 | Available | | Key Review Date? |
-| Thursday October 6 | Available | | Key Review Date? |
-| Tuesday October 11 | Available | | Key Review Date? |
-| Wednesday October 12 | Available | | Key Review Date? |
-| Thursday October 13 | Available | | Key Review Date? |
-| Tuesday October 18 | Available | | Key Review Date? |
-| Wednesday October 19  | Available | | Key Review Date? |
+| Tuesday August 30 | **Available** | | Key Review Date? |
+| Wednesday August 31 | Finance | Brian Robbins | August 23 |
+| Thursday September 1 | CRO | Ryan O'Nell | August 25 |
+| Tuesday September 6 | Marketing | Marketing Leadership | August 25 |
+| Wednesday September 7 | **Available** | | Key Review Date? |
+| Thursday September 8 | Product | Product Leadership | September 1 |
+| Tuesday September 13 | **Available** |  |  |
+| Wednesday September 14 | **Available** | | Key Review Date? |
+| Thursday September 15 | **Available** | |  |
+| Tuesday September 20 | CosT  | Stella Treas | N/A |
+| Wednesday September 21 | General (CEO) | Sid Sijbrandij | N/A |
+| Thursday September 22 | Infrastructure | Steve Loyd | September 14 |
+| Tuesday September 27 | CRO | Mike Pyle | N/A|
+| Wednesday September 28 | Support | Tom Cooney| September 14 |
+| Thursday September 29 | MECC AMA | Darren Murph | N/A |
+| Tuesday October 4 | Finance | Brian Robbins | September 27 |
+| Wednesday October 5 | Quality | Mek Stittri | September 22 |
+| Thursday October 6 | Development | Christopher Lefelhocz | September 28 |
+| Tuesday October 11 | **Available** | | Key Review Date? |
+| Wednesday October 12 | **Available** | | Key Review Date? |
+| Thursday October 13 | CRO Group Conversation | CRO Leadership | N/A |
+| Tuesday October 18 | Product | Product Leadership | October 13 |
+| Wednesday October 19  | UX | Christie Lenneville | N/A |
 | Thursday Oct 20 | People | People Leadership | Oct 12 |
-| Tuesday October 25 | Available | | Key Review Date? |
-| Wednesday October 26  | Available | | Key Review Date? |
-| Thursday October 27 | Available | | Key Review Date? |
-| Tuesday November 1 | Available | | Key Review Date? |
-| Wednesday November 2 | Available | | Key Review Date? |
-| Thursday November 3 | Available | | Key Review Date? |
-| Tuesday November 8 | Available | | Key Review Date? |
-| Wednesday November 9 | Available | | Key Review Date? |
-| Thursday November 10 | Available | | Key Review Date? |
-| Tuesday November 15 | Available | | Key Review Date? |
-| Wednesday November 16  | Available | | Key Review Date? |
-| Thursday November 17 | Available | | Key Review Date? |
-| Tuesday November 22 | Available | | Key Review Date? |
-| Wednesday November 23 | Available | | Key Review Date? |
-| Thursday November 24 | Available | | Key Review Date? |
+| Tuesday October 25 | Revenue Marketing | JB Larramendy | N/A |
+| Wednesday October 26  | Alliances | Nima Badiey | N/A |
+| Thursday October 27 | Marketing | Marketing Leadership | October 13 |
+| Tuesday November 1 | **Available** | | Key Review Date? |
+| Wednesday November 2 | **Available** | | Key Review Date? |
+| Thursday November 3 | Security | Johnathan Hunt | October 25 |
+| Tuesday November 8 | Infrastructure | Steve Loyd | October 27 |
+| Wednesday November 9 | Support | Tom Cooney | October 26 |
+| Thursday November 10 | **Available** | | Key Review Date? |
+| Tuesday November 15 | **Available** | | Key Review Date? |
+| Wednesday November 16  | **Available** | | Key Review Date? |
+| Thursday November 17 | **Available** | | Key Review Date? |
+| Tuesday November 22 | **Available** | | Key Review Date? |
+| Wednesday November 23 | **Available** | | Key Review Date? |
+| Thursday November 24 | **Available** | | Key Review Date? |
 | Wednesday Nov 30 | People | People Leadership | Nov 10 | 
-| Thursday December 1 | Available | | Key Review Date? |
 
 ## Examples of Past Group Conversations
 

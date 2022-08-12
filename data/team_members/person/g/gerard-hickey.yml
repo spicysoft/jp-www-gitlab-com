@@ -1,0 +1,33 @@
+---
+name: Gerard Hickey
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#distribution">Senior
+  Distribution Engineer, Distribution:Deploy</a>
+reports_to: chun-d
+picture: gerardhickey.jpg
+twitter: wt0f
+gitlab: ghickey
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Distribution Deploy BE Team
+projects:
+  gitlab-chart: reviewer
+  omnibus-gitlab: reviewer
+  gitlab-omnibus-builder: reviewer
+  cng: reviewer
+expertise: '<li><a href="https://docs.gitlab.com/ee/user/project/clusters/index.html">Kubernetes</a>
+  <a href="/company/team/structure/#expert">expert</a></li>
+
+  '
+story: |
+  Gerard started working with computers using a Sinclair ZX81 back
+  when everthing had to be self-taught. Fast forward a couple of
+  years and as he started working with IBM PCs he started interacting
+  with an AT&T Unix system and found nirvana working with Unix.
+  Lately, he has been working with Kubernetes and thinks that he
+  has found nirvana again.
+specialty: Distribution
+

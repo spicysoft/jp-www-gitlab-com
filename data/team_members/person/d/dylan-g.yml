@@ -1,0 +1,31 @@
+---
+name: Dylan Griffith
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer, Pods</a>
+reports_to: gitlabbarry
+picture: dgriffith.jpg
+twitter:
+gitlab: DylanGriffith
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Pods BE Team
+projects:
+  gitlab:
+  - maintainer backend
+  - maintainer database
+  auto-deploy-image: maintainer
+  gitlab-elasticsearch-indexer: maintainer
+  gitlab-technical-interviews-backend: maintainer
+story: |
+  Dylan is a programming geek. He loves learning new programming languages and working with new technologies and is a big fan and long time user of GitLab CI/CD.
+  In his free time he likes snowboarding, tennis, soccer and table tennis.
+domain_expertise:
+- rails
+- cicd
+- kubernetes
+- elasticsearch
+specialty: 'Enablement: Pods'
+

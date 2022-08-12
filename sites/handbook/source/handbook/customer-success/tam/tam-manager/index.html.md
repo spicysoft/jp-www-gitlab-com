@@ -1,0 +1,204 @@
+---
+layout: handbook-page-toc
+title: "TAM Manager Handbook"
+description: "Field guide for TAM Managers on standard and recurring practices."
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+View the [TAM Handbook homepage](/handbook/customer-success/tam/) for additional TAM-related handbook pages.
+
+---
+
+## Purpose
+
+This page provides an overview on relevant TAM leadership processes.
+
+## TAM Leadership
+
+| Name | Region | Role | [Sales Segment](/handbook/sales/field-operations/gtm-resources/#segmentation) | [TAM Segment](/handbook/customer-success/tam/segment/) |
+|--------------------------------------------------------------------------------|-----------|-------------|-------------------------|-----------------------|
+| [Sherrod Patching](https://about.gitlab.com/company/team/#spatching)           | Global    | Sr Director | All (ENT, COMM, PubSec) | All TAM Segments      |
+| [Christiaan Conover](https://about.gitlab.com/company/team/#christiaanconover) | AMER      | Director    | Enterprise              | Strategic & Mid-Touch |
+| [Taylor Lund](https://about.gitlab.com/company/team/#taylorlund)               | Global    | Manager     | All (ENT, COMM, PubSec) | Scale                 |
+| [Chloe Whitestone](https://about.gitlab.com/company/team/#chloe)               | AMER      | Manager     | All (ENT, COMM, PubSec) | Mid-Touch             |
+| [Christina Souleles](https://about.gitlab.com/company/team/#csouleles)         | EMEA      | Manager     | Enterprise & Commercial | Mid-Touch             |
+| [Patrick Harlan](https://about.gitlab.com/company/team/#pharlan)               | Global    | Sr Manager  | Commercial              | Strategic             |
+| [Sophie Pouliquen](https://about.gitlab.com/company/team/#spouliquen1)         | AMER East | Manager     | Enterprise              | Strategic             |
+| [John Woods](https://about.gitlab.com/company/team/#jwoods06)                  | AMER West | Sr Manager  | Enterprise              | Strategic             |
+| [Jamie Reid](https://about.gitlab.com/company/team/#jrreid)                    | AMER West | Manager     | Enterprise              | Strategic             |
+| [Dave Thompson](https://about.gitlab.com/company/team/#dthompson3)             | APAC      | Manager     | Enterprise              | Strategic             |
+| [Michael Leutz](https://about.gitlab.com/company/team/#mrleutz)                | EMEA      | Sr Manager  | Enterprise              | Strategic             |
+| [James Wormwell](https://about.gitlab.com/company/team/#jwormwell)             | EMEA      | Manager     | Enterprise              | Strategic             |
+| [Robert Clark](https://about.gitlab.com/company/team/#robclark14)              | PubSec    | Manager     | PubSec                  | Strategic             |
+| [Steven Terhar](https://about.gitlab.com/company/team/#SteveTerhar)            | PubSec    | Manager     | PubSec                  | Strategic             |
+
+## Review Processes
+
+Below are some of the top processes to be performed by TAM Managers on a recurring cadence. The overall goal is to ensure the TAM Manager has a strong grasp on their team's group of customers through various data points (health, Support tickets, Onboarding objects, renewals, etc.). Resources such as Dashboards and videos are included for easy reference.
+
+### Review Checklist
+
+For TAM Managers, here is a short checklist to assist in the review:
+
+- [Account assignment:](#account-assignment) Accounts have been reviewed and are assigned or are in review
+- [Customer Onboarding:](#customer-onboarding-review) Customers in the Onboarding phase have been reviewed and onboarding status and notes are complete
+- [Success Plans:](#success-plan-review) Customers have a Success Plan, it is being communicated with the customer, and the TAM is using it as the guiding document
+- [Triage and Health:](#triage-and-health-review) Health for all TAM-assigned accounts have been updated within the last month, and any accounts in Triage are being evaluated
+- [Renewal Review:](#renewal-review) Upcoming customer renewals have been reviewed — the TAM has updated customer health and communicated with the SAL and SA for the upcoming renewal
+
+### Account Assignment
+
+Accounts are assigned at point of sale by the TAM Manager when a new Account in their region fits the criteria in [TAM Responsibilities and Services](/handbook/customer-success/tam/services/#tam-alignment).
+
+When an Account meets the critera, the following will happen:
+
+- The TAM Manager assigns the TAM by populating the `TAM Name` field on the C360 account page in Gainsight (only managers have the ability to edit this field)
+- Once the field has been updated with the TAM name, Gainsight will fire the onboarding playbook
+- **If** the account meets the above criteria and the TAM is not assigned, Gainsight will fire a CTA (call to action) for the TAM manager asking them to assign the account.  Gainsight will then 'listen' for the TAM field to be populated and will fire the onboarding playbook once the field has been updated with the TAM name
+
+While the SAL owns the transition-to-TAM aspect, the TAM Manager will then ensure the new account is assigned to a TAM and Onboarding has commenced.
+
+#### Assignment Resources
+
+- [Onboarding Handbook](/handbook/customer-success/tam/onboarding/)
+- Gainsight Dashboard - **CS Leadership**
+
+### Customer Onboarding Review
+
+On a regular basis, the TAM Manager should review their team's active Onboarding plays. The Onboarding plays can be reviewed with each individual in one-on-one meetings. Onboarding is measured by the [time to value metrics](/handbook/customer-success/vision/#time-to-value-kpis). Consider:
+
+1. How many and which accounts are in onboarding?
+1. What do Time to Value metrics look like? 
+1. After looking at the detail, what are areas we want to improve and areas to celebrate?
+
+#### Onboarding Resources
+
+- [Account Onboarding Handbook](/handbook/customer-success/tam/onboarding/)
+- Gainsight Dashboard - **TAM Portfolio** or **Customer Onboarding**
+
+### Success Plan Review
+
+On a regular basis the TAM Manager should review their team's [Success Plans](/handbook/customer-success/tam/success-plans/). At a minimum, the review should include:
+
+1. What is the customer's documented strategy and is that aligned to why they bought?
+1. Are all parties (SAL/AE, SA, TAM, customer) aligned on the stated goals?
+1. If the objectives are met, are they in the customer's best interest?
+1. Are the outcomes measurable (either as a deliverable or quantifiable)?
+1. Is the customer on track to meet or exceed their business outcomes?
+1. Are the next steps for demonstrating value defined and in place?
+
+The TAM Manager should then work with their team to help the TAM drive up and demonstrate value to the customer.
+
+#### Success Plan Resources
+
+- [Success Plan Handbook](/handbook/customer-success/tam/success-plans/)
+- Gainsight Dashboard - **TAM Portfolio** or **CS Leadership**
+
+### Triage and Health Review
+
+On at least a monthly basis, review accounts within your region for upcoming one-one-ones and the team triage call. This includes reviewing:
+
+1. Gainsight region dashboard for unhealthy accounts
+   1. Red accounts to inquire about in upcoming one-on-ones
+   1. Outdated customer health reviews to discuss in upcoming one-on-ones
+1. The GitLab Triage board for accounts in triage
+
+#### Triage Resources
+
+- [Account Triage Handbook](/handbook/customer-success/tam/health-score-triage/)
+- [Account Triage Board](https://gitlab.com/gitlab-com/customer-success/account-triage/-/boards/703769)
+- Gainsight Dashboard - **TAM Portfolio** or **CS Leadership**
+
+### Renewal Review
+
+At least twice-monthly the TAM Manager should review their region's dashboard for upcoming renewals and review questions such as:
+
+1. Which renewals are coming this quarter?
+1. Which renewals are coming in the next 2-3 quarters?
+1. What is the health of the accounts?
+1. Is the health of each account up to date?
+1. Based on this analysis, what are my next steps for the customer's success and our Gross and Net Retention goals?
+
+The TAM Manager should then work with their TAM to ensure collaboration with the GitLab team (SAL/AE, SA, and TAM) for a successful renewal.
+
+## Renewal Resources
+
+- [Renewal Review Handbook](/handbook/customer-success/tam/renewals/)
+- [TAM Regional Dashboard](https://gitlab.my.salesforce.com/01Z4M000000slMT)
+- Gainsight Dashboard
+
+## Quarterly Business Review (QBR)
+
+The TAM Manager is responsible for developing and delivering a [Quarterly Business Review](/handbook/sales/qbrs/) for their team each quarter.
+
+[TAM Manager QBR details](/handbook/customer-success/tam/tam-manager/qbr/)
+
+- Gainsight Dashboard - **TAM Portfolio** or **CS Leadership**
+- [SFDC: WW Renewal Forecast](https://gitlab.my.salesforce.com/00O4M000004aARC)
+
+## Gainsight/Customer Review in Director/TAM Manager 1:1 Cadence: 
+
+1st week: 
+- Onboarding Metrics, Overdue onboarding (burn-down) EBRs due & completed
+- Development: Personal Growth Plan
+- Recruiting update: open headcount hiring status, quality and pipeline
+- Discussion
+
+2nd week:
+- Success Plan Review (2 SPs)
+- OKR /Big Rock initiatives progress
+- Discussion
+
+3rd week:
+- Adoption/Expansion Playbooks by TAM, Adoption Metrics (TAM Proactive Dashboard) 
+- Recruiting update: open headcount hiring status, quality and pipeline
+- Discussion
+
+4th week: 
+- Renewals, At Risk Accounts, Red Scorecards
+- OKR /Big Rock initiatives progress
+- Discussion
+
+
+
+## Annual Processes
+
+### President's Club Calculations
+
+The following process is that used to calculate the President's Club Performance: 
+
+
+
+#### Nomination Criteria (equally weighted):
+
+1. % Contribution to Net ARR bookings (growth).  The calculation calls for tallying the netARR for closed opps in which the TAM is assigned.  Then dividing that by the ending ARR managed by the TAM.
+1. % of Accounts with EBRs completed
+1. % of Accounts with Green Success Plans (Based on accounts >30 days from onboarding start date)
+1. % of Accounts with Closed-Won Use Case/Stage Adoption Plays (Expansion, Enablement) in past 12 months
+1. Total number of workshops delivered where a workshop is defined as a specifically scheduled event in which the TAM presents enablement content/information.
+
+
+#### Scoring Process for each of the 4 categories:
+1. 1st place: 50 points
+1. 2nd place: 35 points
+1. 3rd place: 15 points
+
+#### Conditions:
+1. No points for anything following top 3 positions unless there are multiple TAMs with 100% (success plans for example), in which case each TAM scoring 100% would receive 50 points
+1. If there are two or more TAMs tying for a position across the other categories, 50 points each for top place
+1. In a smaller team, if a TAM scores 0 for any category, they do not get points in simply defaulting to 3rd place - this TAM/s would score 0 and 1st/2nd place would remain at 50/35 points respectively
+
+
+**Final Tally: Top TAMs per team by points**
+
+
+## Team Member Performance
+
+Managers have the responsibility of evaluating and providing feedback on team member performance. We have resources available to help with this:
+
+- [Individual FY Plan](https://docs.google.com/document/d/1Etn2bCNewGYe6BLv4VmrjuGfEqtxqzUk14f0geTaVBM/edit?usp=sharing): One-sheet outline of the key metrics & criteria for a team member to achieve in a given fiscal year, tailored to the team member. This is best used at the beginning of the fiscal year, assembled by the manager and discussed with the team member. Categories and metrics should be agreed upon by manager and team member, and performance against these reviewed regularly throughout the year.

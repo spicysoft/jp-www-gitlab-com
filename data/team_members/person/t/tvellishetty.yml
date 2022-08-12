@@ -1,0 +1,31 @@
+---
+name: Tarun Vellishetty
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer</a>,
+  Fulfillment:Fulfillment Platform
+reports_to: james-l
+picture: tarunvellishetty.jpg
+pronouns: he/him
+pronunciation:
+twitter:
+linkedin: tarun-velli
+gitlab: tvellishetty
+departments:
+- Engineering Function
+- Development Department
+- Fulfillment Section
+- Fulfillment Sub-department
+- Fulfillment:Fulfillment Platform Team
+projects:
+  gitlab:
+  - reviewer backend
+  - reviewer product_intelligence
+  version-gitlab-com:
+  - reviewer backend
+  customers-app:
+  - reviewer backend
+specialty: Fulfillment Platform
+expertise:
+story:
+

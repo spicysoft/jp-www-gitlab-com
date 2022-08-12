@@ -1,0 +1,73 @@
+---
+layout: markdown_page
+title: "Group Direction - Editor"
+description: "Overall direction for the Editor group"
+canonical_path: "/direction/create/editor/"
+---
+
+- TOC
+{:toc}
+
+## The Editor group
+
+**Content last reviewed on 2022-08-03**
+
+This is the direction page for the Editor group which is part of the [Create stage](/direction/dev/index.html#create) of the DevOps lifecycle and is responsible for the following categories: 
+
+|  Category   |   Direction  |  Description | Maturity  |
+|  ---   |   ---   |   ---   |  ---  |
+| Web IDE | [Direction page](/direction/create/editor/web_ide/) | A web-based multi-file code editor |  [Viable](/direction/maturity/) |
+| Remote Development | [Direction page](/direction/create/editor/remote_development/) | Server-side runtime environments | [Planned](/direction/maturity/) |
+| Snippets | [Direction page](/direction/create/editor/snippets/) | Small, sharable bits of code saved for easy access  |  [Complete](/direction/maturity/) |
+| Wiki | [Direction page](/direction/create/editor/wiki/) | Built-in, git-backed knowledge base |  [Viable](/direction/maturity/) |
+| Pages | [Direction page](/direction/create/editor/pages/) | Deploy and host static sites |  [Complete](/direction/maturity/) |
+
+In support of these categories, the Editor group created and maintains two core editing components. These editors are intended to be flexible, extensible, and reusable across GitLab and while they don't meet the traditional definition of a category, they do have distinct strategies and backlogs. They are: 
+
+| Component | Direction | Description | Strategy epic |
+|  ---  |  ---  |  ---  |  ---  |
+| Source Editor | [Direction page](/direction/create/editor/source_editor/) | Our underlying `code` editor |  [Epic](https://gitlab.com/groups/gitlab-org/-/epics/4861)  |
+| Content Editor | [Direction page](/direction/create/editor/content_editor/) | A visual Markdown editor |  [Epic](https://gitlab.com/groups/gitlab-org/-/epics/5401)  |
+
+## What are we working on and why?
+
+With 5 categories and 2 foundational editor components, the Editor group has to prioritize aggressively. In general, the group's goals revolve around consolidation and standardization of editing experiences to improve consistency and maintainability. Our current focus areas and engineering investment are broken down by category below, percentages represent how much engineering time on average is allocated in each milestone.
+
+#### Web IDE – 25%
+
+The Web IDE is a very capable multi-file editor, offering a streamlined way to contribute to projects without cloning a repository or reconfiguring your local development environment. There are features, however, that don't meet a developer's expectations when it comes to making more complex edits. We are in the process of building the [next iteration of the Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/7683), based on the open-source VS Code project and running entirely in the browser. This will not only bring a more robust, mature feature set to the Web IDE, but it will lay a strong foundation for our Remote Development category. 
+
+#### Remote Development - 25%
+
+The Web IDE makes it possible for anyone to contribute to a project right from their web browser. Editing the actual code, however, is only a small part of a developer's workflow. Local IDEs, combined with properly-configured development environments, make it possible to run tests, lint code, generate previews, and offer features that improve developer efficiency like code completion. Without these features, developers can't fully adopt a tool. Remote Development is an early stage category that aims to provide a server-based runtime environment that can be accessed from the Web IDE or your local IDE, eliminating the need for managing a complex set of dependencies on your local machine. 
+
+#### Content Editor - 20%
+
+In GitLab 14.0, we [introduced a WYSIWYG Markdown editor](https://gitlab.com/groups/gitlab-org/-/epics/5403), what we've come to call the Content Editor, that provides a rich text editing experience to make it easier for everyone to contribute. Initially available in the Wiki, the highest priority for the Editor group here is to build [complete support for GitLab Flavored Markdown](https://gitlab.com/groups/gitlab-org/-/epics/5438) so that the Content Editor can be used as a production-ready, default editing experience for Wiki. Afterward, the Content Editor can be introduced anywhere Markdown content is written in GitLab. This includes issue and epic descriptions, comments, and even when editing Markdown files directly in the Repository view or Web IDE. 
+
+#### Source Editor - 10%
+
+The [Source Editor](https://gitlab.com/groups/gitlab-org/-/epics/4861) is a flexible and extensible code editing component, based on [Monaco](https://microsoft.github.io/monaco-editor/), used in several places across GitLab including the [Web Editor](https://docs.gitlab.com/ee/user/project/repository/web_editor.html) (also referred to as the Single File Editor, what you use when you edit a file from the repository view), the [Pipeline Editor](https://docs.gitlab.com/ee/ci/pipeline_editor/), and the Snippet editor. One of the primary goals for the category is to bridge the gap between the Web Editor and the more complex, but powerful, Web IDE. We are currently focusing on extending the underlying Source Editor itself and enabling more advanced workflows like [live Markdown preview](https://gitlab.com/groups/gitlab-org/-/epics/4859) or [inline merge request discussions](https://gitlab.com/groups/gitlab-org/-/epics/72). 
+
+#### Pages - 10%
+
+GitLab Pages offers a streamlined way to deploy and host your statically generated website on our shared infrastructure. The current implementation is focused primarily on making the connection between the CI build process and the deployment of static assets, there is huge potential to improve the user experience around managing, editing, and collaborating on static assets from within GitLab. Pages is a critical piece of the Editor group's strategy for enabling everyone to contribute. 
+
+#### Wiki – 0-5%
+
+The Wiki is one of our most used categories and there are several opportunities to improve the experience and drive growth. We are wrapping up an effort to migrate the wiki functionality to native Gitaly RPCs, which will bring performance and stability improvements. Following that, however, we will reduce our investment in Wiki to support only the most critical and severe bug fixes while we shift our attention to building an MVC for Remote Development. 
+
+#### Snippets – 0-5%
+
+Snippets reached Complete maturity in late 2020 with the introduction of [versioned](https://gitlab.com/groups/gitlab-org/-/epics/239) and [multi-file snippets](https://gitlab.com/groups/gitlab-org/-/epics/2829). Snippets are powered by Source Editor, so improvements to that experience can in turn benefit the editing experience of Snippets. The next category-specific features we would like to focus on are around [organization](https://gitlab.com/groups/gitlab-org/-/epics/3204) and [sharing](https://gitlab.com/groups/gitlab-org/-/epics/1496) but the team will focus first on categories with larger user bases and wider potential reach.
+
+## Recent opportunity canvases (GitLab internal)
+
+1. [Quickly get started developing in standardized environments](https://docs.google.com/document/d/1t1j98Wl1erG9b8cUT77yDsNUEPvCOMOp0ktbOkYZfWc/edit#heading=h.4mt5fmtn0ax4)
+1. [Build a first-class rich text editor in GitLab](https://docs.google.com/document/d/1L84Z0gdno_WenZ9QWDhuiSsJ0YrPosxUJor7ixtUnZ8/edit)
+
+## Links and resources
+
+- [Editor Group HQ - group strategy epic](https://gitlab.com/groups/gitlab-org/-/epics/5065)
+- [Editor Team Handbook page](https://about.gitlab.com/handbook/engineering/development/dev/create/editor/)
+- [GitLab Unfiltered Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRQhnSYRNh1s1mEUypx67-)

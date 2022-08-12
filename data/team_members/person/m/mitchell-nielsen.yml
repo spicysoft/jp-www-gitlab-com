@@ -1,0 +1,26 @@
+---
+name: Mitch Nielsen
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#distribution">Distribution
+  Engineer, Distribution:Deploy</a>
+reports_to: chun-d
+picture: mitchellnielsen.png
+twitter:
+gitlab: mnielsen
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Distribution Deploy BE Team
+projects:
+  gitlab-chart: reviewer
+  omnibus-gitlab: reviewer
+  gitlab-omnibus-builder: reviewer
+  cng: reviewer
+  gitlab-operator: maintainer
+story: |
+  Mitch is passionate about container-native technologies, CI/CD, learning about all kinds of engineering topics.
+  In his free time, he is usually playing with his Australian Shepherd, binging TV shows, or building mechanical keyboards.
+specialty: Distribution
+

@@ -1,0 +1,33 @@
+---
+name: Taurie Davis
+locality:
+country: Remote
+role: <a href="/job-families/engineering/product-design-management/#product-design-manager">Product
+  Design Manager</a>, Ecosystem & ModelOps
+reports_to: christielenneville
+picture: taurie.jpg
+twitter: tauried
+gitlab: tauriedavis
+pronouns: she/her
+departments:
+- Engineering Function
+- UX Department
+- Dev UX Team
+- Ecosystem:Foundations Team
+- ModelOps Section
+projects:
+  gitlab-design: maintainer
+  design.gitlab.com: maintainer UX
+  gitlab-ui: reviewer UX
+  gitlab-svgs: maintainer UX
+story: |
+  Taurie is passionate about identifying problems, creating reliable solutions,
+  and crafting intuitive experiences. She enjoys implementing her own designs while
+  understanding each step in the development process, ensuring that
+  the user experience stays the top priority. When she is not working, Taurie spends
+  most of her time training as an aerialist, enjoying the beautiful Pacific Northwest,
+  or cuddling up at home with a movie and her cat.
+specialty:
+- Ecosystem
+- ModelOps
+

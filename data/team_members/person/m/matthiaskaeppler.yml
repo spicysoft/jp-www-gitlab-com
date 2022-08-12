@@ -1,0 +1,33 @@
+---
+name: Matthias Käppler
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend">Staff Backend Engineer,
+  Memory</a>
+reports_to: cliu
+picture: matthiaskaeppler.jpg
+twitter: mttkay
+gitlab: mkaeppler
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Memory BE Team
+projects:
+  gitlab:
+  - maintainer backend
+  labkit-ruby: maintainer
+  gitlab-compose-kit: maintainer
+  gitlab-technical-interviews-backend: maintainer
+  gitlab-metrics-exporter: maintainer
+story: |
+  Matthias has been working with computers since he first made ASCII based treasure maps as a kid in the mid-80s.
+  Realizing that there's no career in treasure maps, he started to direct his attention to more promising pursuits,
+  such as mobile application development, backend development, and a personal video game that he is unlikely to ever finish.
+  Outside of work he likes to go on walks, watch Netflix with his wife and cat, and play Xbox.
+specialty: Memory
+domain_expertise:
+- prometheus
+- ruby
+- tooling_workflow

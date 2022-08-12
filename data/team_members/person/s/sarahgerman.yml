@@ -1,0 +1,28 @@
+name: Sarah German
+locality: 
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/#senior-frontend-engineer">Senior 
+  Frontend Engineer, Technical Writing</a>
+reports_to: leipert
+picture: sarahgerman.jpg
+pronouns: she/her
+pronunciation:
+twitter: hey_germano
+linkedin: sarahgerman
+gitlab: sarahgerman
+departments:
+  - Engineering Function
+  - Development Department
+  - UX Department
+  - Technical Writing
+specialty: "Ecosystem"
+expertise:
+projects:
+  gitlab-docs: maintainer
+  gitlab-svgs: trainee_maintainer frontend
+story: |
+  Sarah is a senior software engineer with many years of experience implementing 
+  web projects with open source technologies. Sarah likes developing tools 
+  that help teams deploy and maintain the things they build. Offline, Sarah enjoys playing music, 
+  exploring the outdoors, exploring breweries, and reading library books.
+

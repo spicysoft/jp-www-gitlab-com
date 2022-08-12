@@ -1,0 +1,156 @@
+---
+layout: markdown_page
+title: "Category Direction - Importers"
+description: "This GitLab group is focused on enabling GitLab.com adoption through the introduction of group import/export. Find more information here!"
+canonical_path: "/direction/manage/importers/"
+---
+
+- TOC
+{:toc}
+
+Last Reviewed: 2022-07-25
+
+## Introduction and how you can help
+
+Thanks for visiting the direction page for Importers in GitLab. This page belongs to the [Import](https://about.gitlab.com/handbook/product/categories/#import-group) group of the [Manage](https://about.gitlab.com/direction/manage/) stage. This vision is a work in progress and everyone can contribute. If you'd like to provide feedback or contribute to this vision, please feel free to comment directly on issues and epics at GitLab.com.
+
+## Mission
+
+<%= partial("direction/manage/importers/templates/overview") %>
+
+#### Areas of focus:
+
+##### Reliability
+A large portion of our current importer issues are related to the reliability of the solution. Our imports don't always succeed and when they fail, there is little guidance for the user on steps they can take to remedy the failure. We will need to make our importers more reliable for our customers to have confidence in the migration process.
+
+##### Importer coverage
+Offering importers for the main competitors is crucial to enabling sales when competing against an incumbant solution. Our data shows that the most used importers for 3rd party solutions are GitHub, Bitbucket Cloud and Git importers. In addition to the GitLab importer, these importers are our main focus. Additionally, we will continue to evaluate building importers for solutions that we currently don't support.
+
+##### Ease of use
+Customers looking to import their data sometimes struggle to find the place in GitLab where they can initiate imports. Once found, the user interactions are not always intuitive and the flow is not fully user-friendly. Improving the user experience in this area will make our importers more lovable.
+
+## Overview of existing Importers
+
+This table provides a quick overview of what GitLab Importers exist today and which most important objects they each support. This list is not exhaustive and the detailed information can be found on the [Importers documentation page](https://docs.gitlab.com/ee/user/project/import/).
+
+[tanuki]: https://about.gitlab.com/ico/favicon-16x16.png "GitLab"
+[tan2]: <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true">
+
+| Import source                                                                                 | Repos       | MRs        | Issues     | Epics     | Milestones | Wiki       | Designs   | API <sup>*</sup> |
+|-----------------------------------------------------------------------------------------------|-------------|------------|------------|-----------|------------|------------|-----------|------------|
+| [<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.0em" aria-hidden="true"></i> GitLab Migration](https://docs.gitlab.com/ee/user/group/import/)           | ✅          | ✅          | ✅          | ✅       | ✅          | ✅         | ✅        | ✅         |
+| [<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.0em" aria-hidden="true"></i> Group Export](https://docs.gitlab.com/ee/user/group/settings/import_export.html)     | ➖ | ➖         | ➖          | ✅       | ✅          | ➖         | ➖        | ✅         |
+| [<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.0em" aria-hidden="true"></i> Project Export](https://docs.gitlab.com/ee/user/project/settings/import_export.html) | ✅ | ✅         | ✅          | ➖       | ✅          | ✅         | ✅        | ✅         |
+| [<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.0em" aria-hidden="true"></i> GitLab .com](https://docs.gitlab.com/ee/user/project/import/gitlab_com.html)         | ✅ | ❌         | ✅          | ➖       | ❌          | ❌         | ❌        | ✅         |
+| [GitHub](https://docs.gitlab.com/ee/user/project/import/github.html)                          | ✅          | ✅          | ✅          | ➖       | ✅          | ✅         | ➖        | ✅         |
+| [Bitbucket Cloud](https://docs.gitlab.com/ee/user/project/import/bitbucket.html)              | ✅          | ✅          | ✅          | ➖       | ✅          | ✅         | ➖        | ❌         |
+| [Bitbucket Server](https://docs.gitlab.com/ee/user/project/import/bitbucket_server.html)      | ✅          | ✅          | ❌          | ➖       | ❌          | ➖         | ➖        | ✅         |
+| [Gitea](https://docs.gitlab.com/ee/user/project/import/gitea.html)                            | ✅          | ✅          | ✅          | ➖       | ✅          | ➖         | ➖        | ❌         |
+| [Git (Repo by URL)](https://docs.gitlab.com/ee/user/project/import/repo_by_url.html)          | ✅          | ✅          | ➖          | ➖       | ➖          | ➖         | ➖        | ❌         |
+| [Manifest file](https://docs.gitlab.com/ee/user/project/import/manifest.html)                 | ✅          | ✅          | ➖          | ➖       | ➖          | ➖         | ➖        | ❌         |
+| [CSV](https://docs.gitlab.com/ee/user/project/issues/csv_import.html)                         | ➖          | ➖          | ✅          | ➖       | ➖          | ➖         | ➖        | ❌         |
+| [Jira](https://docs.gitlab.com/ee/user/project/import/jira.html)                              | ➖          | ➖          | ✅          | ❌       | ➖          | ➖         | ➖        | ❌         |
+| [FogBugz](https://docs.gitlab.com/ee/user/project/import/fogbugz.html)                        | ➖          | ➖          | ✅          | ➖       | ➖          | ➖         | ➖        | ❌         |
+| [Phabricator](https://docs.gitlab.com/ee/user/project/import/phabricator.html)                | ➖          | ➖          | ✅          | ➖       | ➖          | ➖         | ➖        | ❌         |
+
+* ✅ : Supported
+* ❌ : Not supported
+* ➖ : Not applicable
+
+**_<sup>*</sup> This column indicates whether this importer is accessible via API, in addition to the UI._**
+
+## Maturity Plan
+
+Importers is a **non-marketable category**, and is therefore not assigned a maturity level. However, we use [GitLab's Maturity framework](https://about.gitlab.com/direction/maturity/) to visualize the current state of the high priority importers and discuss their future roadmap. Generally speaking:
+
+* A Minimal importer is only usable via the API, with only basic importing capabilities and no UI controls.
+* A Viable importer has a UI component, but imports an incomplete set of objects. Users are not included.
+* A Complete importer is stable, handles large-scale imports, and imports over most objects.
+* A Lovable importer has a terrific user experience, recovers gracefully from errors, and imports over nearly 100% of relevant objects.
+
+#### GitLab Importer
+
+The GitLab Importer functionality currently consists of two separate importers, the [Single Project Importer](https://docs.gitlab.com/ee/user/project/settings/import_export.html) and the [Single Group Importer](https://docs.gitlab.com/ee/user/group/settings/import_export.html). Together, they allow for Group and Project migrations between two instances of GitLab.
+
+The GitLab Importer is currently a **Viable** feature in GitLab. Both the Single Group and the Single Project importers are available through the API and the UI and most of the objects in each are being exported and imported. We recognize that larger customers have needs that exceed the capabilities of the current importer. Therefore, we are focused on developing a fast and scalable replacement to GitLab Importer (see GitLab Migration below).
+
+#### GitLab Migration
+
+GitLab Migration (fka. GitLab Group Migration) is the next step in our quest to make GitLab-to-GitLab migrations seemless and easy to use and this feature can be tracked in [this epic](https://gitlab.com/groups/gitlab-org/-/epics/2771). On our path to reach the **Complete** maturity level, we are creating a user-friendly migration tool that will be able to migrate entire groups with all of the belonging subgroups and projects in a single click. This maturity level will also include the ability to migrate users, which has been identified as the highest priority gap in the current functionality.
+
+Once GitLab Migration reaches feature parity with the existing GitLab Importers, these file-based solutions will be [disabled by feature flag](https://docs.gitlab.com/ee/administration/feature_flags.html), and only the GitLab Migration will be available in the UI and API. Customers that are using air-gapped networks, with no network connectivity between their GitLab instances, will need to [enable](https://docs.gitlab.com/ee/administration/feature_flags.html) the export/import solution, as they can't use the GitLab Migration, which requires a direct connection between the migrated instances. 
+
+
+#### GitHub Importer
+
+The [GitHub Importer](https://docs.gitlab.com/ee/user/project/import/github.html) is currently a **Viable** feature in GitLab. It is accessible through both the API and the UI and uses a direct link to the GitHub server to import the highest priority objects, such as merge requests, issues, milestones and wiki pages, in addition to the repository. 
+
+[Haris Delalić](https://gitlab.com/hdelalic) walks through the current experience of importing from GitHub into GitLab:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RviEqHe-Fzk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This is the [planning Epic](https://gitlab.com/groups/gitlab-org/-/epics/2860) to reach the **Complete** maturity level for GitHub Importer. Currently we are working on [migrating issue events history](https://gitlab.com/groups/gitlab-org/-/epics/7655), so after the migration, any existing event in GitHub issues, such as who added/removed labels, milestones, assignees, etc, will be migrated into GitLab Issues.  
+
+The next effort will be [migrating oreganizations into GitLab Groups](https://gitlab.com/groups/gitlab-org/-/epics/7307), we are checking what would be the best way to migrate Organizations to GitLab, one of the options we consider is to create GitLab group for each Organization and copy all projects from the Organizations to the groups. User migrations and permissions are out of scope of this efforts and will be planned in later stage. Our main goal is to reach feature parity, and to import the majority of what are users regularly use, so that they can seamlessly start working inside GitLab. This maturity level will allow the user to easily import a large number of projects and include most of the available objects, such as releases, snippets and members. 
+
+#### Bitbucket Cloud Importer
+
+The [Bitbucket Cloud Importer](https://docs.gitlab.com/ee/user/project/import/bitbucket.html) is currently a **Viable** feature in GitLab. It is accessible through the UI and uses a direct link to the Bitbucket Cloud repository to import the highest priority objects, such as merge requests, issues, and milestones, in addition to the repository. 
+
+There is currently no ongoing work to achieve the **Complete** maturity level for Bitbucket Cloud Importer. This maturity level would include most of the available objects and ability to invoke the import via the API.
+
+#### Git Importer
+
+The [Git Importer](https://docs.gitlab.com/ee/user/project/import/repo_by_url.html) is currently a **Complete** feature in GitLab. This is a basic importer that migrates any Git repository into GitLab. Most of our competitors (i.e. GitHub, Microsoft Azure, Atlassian Bitbucket) only offer this type of importer.
+
+There is currently no ongoing work to achieve the **Lovable** maturity level for Git Importer. This maturity level would include an improved user experience.
+
+## Consuming Import capabilities
+
+While the long-term goal for the Import group is to provide all the GitLab importing capabilities needed by our customers in our application, we recognize that GitLab's native capabilities may not support specific migration scenarios. Often, we're not aware of these requirements until a large customer provides us with specific migration requirements.
+
+To support such requirements, GitLab's import capabilities are addressed in 3 ways: 
+
+##### UI 
+Selecting **Import project** on the [**New project**](https://gitlab.com/projects/new) page and **Import group** on the [**New group**](https://gitlab.com/groups/new) page allows you to create a new project or group by importing from existing data using an intuitive user interface.
+
+##### Import API
+The import/export API allows you to script project imports from [GitHub](https://docs.gitlab.com/ee/api/import.html#import-repository-from-github), [Bitbucket Server](https://docs.gitlab.com/ee/api/import.html#import-repository-from-bitbucket-server), trigger the [GitLab Project Export/Import](https://docs.gitlab.com/ee/api/project_import_export.html), or the [GitLab Group Export/Import](https://docs.gitlab.com/ee/api/group_import_export.html).
+
+##### Professional Services
+Our [Professional Services](https://about.gitlab.com/services/) team builds customizable tools that leverage the Import API to help customers automate scaled migrations. These tools allow Professional Services to quickly react to customer needs. An example of those tools is [Congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate), which can be used to [coordinate and customize large migration projects](https://about.gitlab.com/services/migration/enterprise/). 
+
+#### Note
+When import capabilities are already available in the API, Professional Services is typically the fastest way of responding to urgent customer requests. In the interest of a quick response, Professional Services may even add a capability to the API and then use it in Congregate, which builds out the capabilities of our Importers. 
+
+When capabilities are not available (via API or UI) and Professional Services is blocked, the Import group will prioritize improvements to fill the gap. 
+
+Over time, we see Professional Services focusing entirely on white-glove migration work for customers rather than scripting functional gaps. To support, the Import group will move API-only features into the UI and prioritize API improvements whenever needed. [This epic](https://gitlab.com/groups/gitlab-org/-/epics/2771) tracks the work that will allow us to port the GitLab migration business logic from Congregate.
+
+Please note that the Import Group does not maintain or contribute to the [Congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate) code. Congregate is owned and maintained by the [Professional Services](https://about.gitlab.com/services/) team.
+
+## 1 Year Plan
+
+Supporting the _Easy adoption_ product theme, the Import group is working toward making imports easier at any scale. Large-scale moves to GitLab should be significantly easier. We will particularly focus on the user experience migrating from 2-3 key competitors, including gracefully recovering from failures.
+
+Following the vision laid out in our [roadmap](https://gitlab.com/gitlab-com/Product/-/issues/2680), we are focused on these goals for 2022:
+* First-class GitLab-to-GitLab migration experience. Allow an easy self-serviced migration of Groups and Projects from a self-managed instance to SaaS and vice versa.
+* Reliable and scaleable imports from GitHub. Support the import of all relevant GitHub concepts for projects of all sizes.
+
+## Recent accomplishments
+##### Project imports
+* [View history of all project imports on a single page](https://gitlab.com/gitlab-org/gitlab/-/issues/267788)
+
+## What's next & why
+
+<%= partial("direction/manage/importers/templates/next") %>
+
+## What is not planned right now
+
+<%= partial("direction/manage/importers/templates/not_doing") %>
+
+#### Note
+
+* While the Import group’s main focus is Importers, other groups may choose to contribute to individual Importers based on their strategic importance and adoption of their features. This is in keeping with GitLab’s mission that [everyone can contribute](https://about.gitlab.com/handbook/values/#mission). 
+
+If you'd like to contribute feedback on areas you'd like to see prioritized, please add them as comments in the corresponding [epic](https://gitlab.com/groups/gitlab-org/-/epics/2721) for this category.

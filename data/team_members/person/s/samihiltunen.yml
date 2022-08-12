@@ -1,0 +1,26 @@
+---
+name: Sami Hiltunen
+role: <a href="/job-families/engineering/development/backend/#gitaly">Senior Backend Engineer,
+  Gitaly</a>
+reports_to: andrashorvath
+picture: samihiltunen.jpg
+gitlab: samihiltunen
+pronouns: he/him
+locality:
+country: Remote
+departments:
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Gitaly Team
+  - Gitaly BE Team
+projects:
+  gitaly:
+    - reviewer
+    - maintainer
+story: |
+  Originally from Finland, Sami has been moving around and experiencing new places until finally ending up in Berlin.
+  Simplifying complex problems drives him professionally and he firmly believes that there is always a chance to delete
+  some code. Outside of tech, he enjoys expanding his cooking and piano repertoires, playing games with friends (especially
+  stash tetris in Escape from Tarkov) and trying out whether his parachute still works.
+specialty: Gitaly

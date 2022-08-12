@@ -1,0 +1,14 @@
+name: New Vacancy
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Create:Source Code</a>
+reports_to: sean-carroll
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+  - Development
+  - Create:Source Code BE Team
+story: |
+  Open Position

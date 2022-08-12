@@ -1,0 +1,27 @@
+---
+name: James Fargher
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Gitaly</a>
+reports_to: andrashorvath
+picture: jamesfargher.png
+twitter: proglottis
+gitlab: proglottis
+departments:
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Gitaly Team
+  - Gitaly BE Team
+projects:
+  gitlab:
+    - maintainer backend
+    - reviewer go
+  gitaly:
+    - reviewer
+    - maintainer
+  gitlab-pages: reviewer
+  gitlab-shell: reviewer
+story:
+specialty: Gitaly

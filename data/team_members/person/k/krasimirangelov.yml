@@ -1,0 +1,33 @@
+---
+name: Krasimir Angelov
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Database</a>
+reports_to: alexives
+picture: krasimirangelov.jpg
+twitter: qrasio
+gitlab: krasio
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Database BE Team
+projects:
+  gitlab:
+  - reviewer backend
+  - maintainer database
+  release-cli: reviewer
+  customers-app:
+  - maintainer database
+story: 'Kras is a software developer interested in all things backend, ops and automation.
+  He loves fishing and spending time outdoors with his family.
+
+  '
+domain_expertise:
+- rails
+- postgresql
+specialty:
+- 'Enablement: Database'
+

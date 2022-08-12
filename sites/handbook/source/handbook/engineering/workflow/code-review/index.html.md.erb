@@ -1,0 +1,302 @@
+---
+layout: handbook-page-toc
+title: Code Review Guidelines
+description: "Code reviews are mandatory for every merge request, you should get familiar with and follow our Code Review Guidelines."
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Overview
+
+Code reviews are mandatory for every merge request, you should get familiar with and follow our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html). Because of the [recognized criticality of building a community of contributors](/handbook/product/product-processes/#community-considerations) we put a high priority on ensuring community contributions receive a swift response to their submissions including a [first-response SLO](#first-response-slo).
+
+These guidelines also describe who would need to review, approve and merge your, or a community member's, merge request.
+
+## Values
+
+Every reviewer at GitLab must strive for our [reviewer values](/handbook/engineering/workflow/reviewer-values/).
+
+## Reviewer
+
+All GitLab engineers can, and are encouraged to, perform a code review on merge requests of colleagues and community contributors. If you want to review merge requests, you can wait until someone assigns you one, but you are also more than welcome to browse the list of open merge requests and leave any feedback or questions you may have.
+
+You can find someone to review your merge requests by looking on the [team page](/company/team/), or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/), both of which are fed by YAML files under `data/team_members/person/*`.
+
+You can also help community contributors get their merge requests ready, by becoming a [Merge Request Coach](/job-families/expert/merge-request-coach/).
+
+Note that while all engineers can review all merge requests, the ability to _accept_ merge requests is restricted to maintainers.
+
+## Maintainer
+
+Maintainers are GitLab engineers who are experts at code review, know the GitLab product and codebase very well, and are empowered to accept merge requests in one or several [GitLab Engineering Projects](/handbook/engineering/projects/).
+
+Every project should have at least two maintainers, but most should have more. Some projects have separate maintainers for different specialties. For example, [the main GitLab codebase](https://gitlab.com/gitlab-org/gitlab) has separate maintainers for frontend, backend, and database.
+
+[We do not expect maintainers to know every single part of such a massive project](https://about.gitlab.com/handbook/values/#its-impossible-to-know-everything). That expectation simply doesn't scale with an organization of our size. As such we expect our reviewers and maintainers to know their limits and pass to or request additional reviews from domain experts if they feel they don't fully understand the code in question.
+
+Becoming a reviewer/maintainer means you are taking on a broader responsibility beyond your immediate group. Your available capacity should be adjusted accordingly to make room for you to work effectively. There is no strict formula for this as each project comes with a different workload, but do make sure to discuss this with your manager to avoid burnout and to ensure your manager understands how this may impact your team's capacity.
+
+To protect and ensure the quality of the codebase and the product as a whole, people become maintainers only once they have convincingly demonstrated that their reviewing skills are at a comparable level to those of existing maintainers.
+
+As with regular reviewers, maintainers can be found on the [team page](/company/team/), or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/).
+
+### Senior+ Maintainers
+
+For senior+ engineers, being a maintainer is part of their job family unless they have discussed with their manager or Team Member Relations in line with our [reasonable accommodation process](/handbook/people-policies/inc-usa/#reasonable-accommodation). Effective 2022-08-01, we use the following table for the timeframe expectations of maintainership:
+
+| Description | Timeframe |
+| ----------- | --------- |
+| Intermediate Engineers | Maintainership is optional |
+| Existing Senior+ Engineer | Existing senior+ engineers who are not already maintainers are encouraged to complete the trainee program in support of our team's productivity and motivation. There is no expected completion timeframe of the trainee program. |
+| Newly hired Senior+ | During onboarding, newly hired senior+ engineers will be asked to become trainee maintainers instead of reviewers. We expect their maintainership to be complete within 12 months of their onboarding completion.
+| Promotions to Senior | For engineers moving into the Senior role, we expect that they have already become a maintainer prior to promotion. |
+
+
+### Meeting the reviewer/maintainer
+
+Communication happens easier when you are familiar with the person reviewing the code. Take opportunities (for example coffee chats) to get to know reviewers to break the ice and facilitate future communication.
+
+### How to become a project maintainer
+
+**This applies specifically to backend, frontend and database maintainers. Other areas (docs, etc.) may have separate processes.**
+
+As a reviewer, a great way to improve your reviewing skills is to participate in MRs. Add your review notes, pass them on to maintainers, and follow the conversation until the MR is closed. If a comment doesn't make sense to you, ask the commenter to explain further. If you missed something in your review, figure out why you didn't see it, and note it down for next time.
+
+We have two guidelines for project maintainership, but no concrete rules:
+
+1. In general, the further along in their career someone is, the more we expect them to be capable of becoming a maintainer.
+1. Maintainers should have an advanced understanding of the GitLab project that they wish to maintain. Before applying for maintainership, a person should get a good feel for the project codebase, expertise in one or more domains, and deep understanding of our coding standards.
+
+Apart from that, someone can be considered as a project maintainer when both:
+
+1. The MRs they've reviewed consistently make it through maintainer review without significant additionally required changes.
+1. The MRs they've written consistently make it through reviewer and maintainer review without significant required changes.
+
+Once those are done, they should:
+
+1. Create a MR to add the maintainership for the project they wish to maintain to their team page entry.
+1. Explain in the MR body why they are ready to take on that responsibility.
+1. Use specific examples of recent "maintainer-level" reviews that they have performed. These include but are not limited to:
+    1. MRs that introduce non-trivial changes (architectural changes, refactors, developer experience upgrades)
+    1. MRs that improve our quality of the project (tests, performance)
+    1. MRs that deliver full features (ideally this is done iteratively, so a good maintainer can guide someone to break down large MRs to smaller ones)
+    1. **Note:** MRs that introduce very simple changes are good, but should not be the only source of reviews
+1. Assign the MR to their manager and mention the existing maintainers of the relevant project (GitLab, GitLab Shell, etc) and area (backend, frontend, etc.).
+
+The approval process to follow is:
+
+1. The MR will remain open for 5 working days.
+   1. For a maintainer category that consists of 10 or fewer maintainers, if **more than half** of the existing maintainers of the relevant engineering group (e.g. backend) approve the MR,
+**and** there are no blocking concerns raised during this period; we've got a new maintainer!
+   1. For a maintainer category that consists of 11 or more maintainers, if 5 existing maintainers of the relevant engineering group (e.g. backend) approve the MR,
+**and** there are no blocking concerns raised during this period; we've got a new maintainer!
+   1. Maintainers should consider being an approver only if they can support the approval with multiple examples of the trainee's skills, likely from MRs they reviewed together.
+1. If the MR does not have enough approvals after this period, **and** no blocking concerns, then the manager
+should mention the existing maintainers again in a new comment as well as in the relevant Slack channel (e.g. `#backend`) and keep the MR open for 5 more working days.
+1. After the extra period, any missing feedback from a maintainer should be counted as a neutral response and the manager can merge the MR given no blocking concerns were raised!
+1. Normal non-blocking feedback should be submitted as comments to the MR. To support Gitlab Values and avoid [groupthink](https://en.wikipedia.org/wiki/Groupthink), any [blocking negative feedback](https://about.gitlab.com/handbook/values/#negative-feedback-is-1-1) should be instead submitted to the manager of the aspiring maintainer. The manager will then share the feedback with the aspiring maintainer and post a generic message with a "TL;DR" in the MR.
+1. If _there are blocking concerns_ raised at any point in the approval process, the maintainers who raised the concern should actively work with the maintainer nominee's manager to develop a plan on how to resolve the concern.
+
+Since the manager of the new maintainer is the MR assignee, they should be the one merging the MR.
+
+It is helpful if the person merging the MR also leaves a comment with a summary, see [example 1](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/22212#note_166997960) or [example 2](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29148#note_212342171) for reference.
+
+When the manager merges the MR, they should announce this change in the applicable channels listed under [keeping yourself informed section of the engineering handbook](/handbook/engineering/#keeping-yourself-informed) and `#backend_maintainers`/`#frontend_maintainers` and `#backend`/`#frontend`. We should also update the **Engineering Week-in-Review document**. The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
+
+#### After becoming a maintainer
+
+If you've become a new maintainer, follow these instructions to request relevant permissions that will allow you to fulfill your role:
+
+- Join the maintainer's group channel on Slack: `#frontend_maintainers`, `#backend_maintainers`, `#database_maintainers` etc.
+- Ask the maintainers in your group to invite you to any maintainer-specific meeting if one exists.
+- Request access to the GitLab maintainer group you belong: [frontend](https://gitlab.com/gitlab-org/maintainers/frontend), [backend](https://gitlab.com/gitlab-org/maintainers/rails-backend), or [database](https://gitlab.com/gitlab-org/maintainers/database).
+- Request maintainer permissions on the projects you will act as a maintainer using the [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) issue template. Once you've created the issue, request another maintainer to grant you those permissions.
+
+#### Trainee maintainer
+
+To help grow the maintainer base with the team, we allow for 'trainee maintainers'. These are reviewers who have shown a specific interest in becoming a maintainer, and are actively working towards that goal.
+
+Anyone may nominate themselves as a trainee by opening a tracking issue using the [Trainee backend maintainer template], [Trainee frontend maintainer template], [Trainee database maintainer template], or [Trainee quality maintainer template]. It's normally a good idea to check with at least one maintainer or your manager before creating the issue, but it's not required.
+
+After opening your tracking issue, create a Merge Request for the [team page](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person) proposing yourself as a trainee maintainer.
+
+Most backend trainees, working full-time without significant interruptions (for example, parental leave) reach the point where they are ready to become a maintainer in five to seven months. If it takes longer, that's OK.
+
+Trainees should feel free to discuss process or progress with their manager or any maintainer, at any time. We recommend that the managers of trainee maintainers arrange a check-in every six weeks or so during the process, to assess where they are and what remains to be done.
+
+If you'd like to work towards becoming a maintainer, discuss it in your regular [1:1 meetings] with your manager. They will help you to identify areas to work on before following the process above.
+
+#### Trainee maintainer mentorship pilot program
+
+Training and onboarding new maintainers is an important process. As the engineering team grows and the total number of MRs rapidly expands, the number of MR reviews per maintainer quickly becomes unsustainable.
+
+[Recent research](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8504) has shown that the trainee process for new maintainers is hindered by several key factors:
+
+- Trainees self-perceived readiness and confidence
+- Trainees ability to review a substantial quantity of MRs
+- Trainees ability to review a diversity of MRs covering enough breadth across the codebase
+
+Structure
+
+1. Participation is voluntary for both Maintainers and Trainees.
+1. Maintainers may directly mentor up to 4 Trainees at a time.
+1. Mentor / Trainee assignments are coordinated within a [maintainer_mentorship.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/maintainer_mentorship.yml) file.
+1. New Trainees need to locate an existing Maintainer that has an opening available in [maintainer_mentorship.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/maintainer_mentorship.yml) and contact the Maintainer directly.
+1. Trainees and mentors can join the `#trainee_maintainers` Slack channel to discuss the program or ask questions.
+1. Every 6 weeks the Maintainer will check-in with each Trainee. This could happen async or via Coffee chat.
+1. The goal of the checkin is to: review MRs, answer questions, clarify any doubts, and track readiness toward graduating.
+1. Mentorship is capped at 12 months by which the Trainee should be prepared to graduate.
+1. At least 1 additional check-in should be scheduled once the Trainee has graduated to celebrate the achievement and answer any further questions.
+1. Make sure to remove the graduated Trainee to make space for new Trainees.
+
+Benefits
+
+1. It develops and expands mentorship skills among maintainers
+1. Gives trainees a regular touch point for skilling-up in deficient areas
+1. Creates stronger networks amongst trainees/maintainers than currently exists
+1. Mentoring directly under a maintainer should catalyze more competence and confidence in taking ownership of the GitLab codebase.
+
+#### After becoming a maintainer
+
+If you’ve become a new maintainer, follow these instructions to request relevant permissions that will allow you to fulfill your role:
+
+- Join the maintainer’s group channel on Slack: `#frontend_maintainers`, `#backend_maintainers`, etc.
+- Ask the maintainers in your group to invite you to any maintainer-specific meeting if one exists.
+- Request access to the GitLab maintainer group you belong: [frontend](https://gitlab.com/gitlab-org/maintainers/frontend), [backend](https://gitlab.com/gitlab-org/maintainers/rails-backend), or [database](https://gitlab.com/gitlab-org/maintainers/database).
+- Request maintainer permissions on the projects you will act as a maintainer using the [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) issue template. Once you’ve created the issue, request another maintainer to grant you those permissions.
+
+##### Transitioning away from being a reviewer/maintainer
+
+After consultation with your manager, you may wish or need to transition away
+from being a reviewer/maintainer. Regardless of the circumstances, it's
+perfectly OK for this to happen! Responsibilities and workloads change; projects
+evolve. So it's important to ensure your time is spent on the areas that are
+most important.  To make the change official and to be removed from [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette):
+
+1. See the [Team Member Database](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/team_database.md)
+   document for how to update your YAML file.
+1. Create a new MR and assign the MR to your manager.
+
+##### Returning to become a reviewer/maintainer
+
+After a period of transitioning away from being a reviewer/maintainer, you may
+wish to return to performing these duties. To make the request official, see
+the section on becoming a [Trainee maintainer](#trainee-maintainer), creating
+the tracking issue and Merge Request, referencing previous tracking issue(s)
+and Merge Request(s) for context. The newly created Merge Request should be
+assigned to your manager for immediate review as the process can usually be
+fast tracked.
+
+### Maintainership process for smaller projects
+
+**This is a general purpose template that projects belonging to a specific group and/or projects with less than 10 internal contributors can use to define and document their maintainership process.**
+
+Projects may adopt these guidelines for maintainership to help grow maintainers in projects where there are not enough maintainers.
+
+- All team members should consult the [engineering development roles](https://about.gitlab.com/job-families/engineering/development/) and become a reviewer or maintainer.
+- Enable Danger Review using [`simple_roulette`](https://gitlab.com/gitlab-org/ruby/gems/gitlab-dangerfiles/-/tree/master#simple_roulette) within the project to identify MR reviewers.
+- Create an [issue template](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/.gitlab/issue_templates) for maintainer trainees. A [lightweight template](#trainee-maintainer-issue-template) is provided.
+- Reduce the number of Merge Request reviews required to be considered a maintainer.
+- Require a maintainer mentor to help speed up the process.
+- Consider creating project-specific development guidelines if they don't already exist for the project.
+- Add instructions on how to become a project maintainer to the project README.
+
+#### Trainee maintainer issue template
+
+Use this lightweight template as a starting point for creating your project's trainee maintainer issue template.
+
+```markdown
+- [ ] Complete project-specific language training if the programming language is not used in the main GitLab project (example: [golang training](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/golang_training.md)).
+- [ ] Review general [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html).
+- [ ] Review project-specific release process (if one exists).
+- [ ] Create a merge request and indicate your role as a `project-name: reviewer` or `project-name: trainee_maintainer` in your [team member entry](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person). Assign MR to your manager for merge.
+- [ ] _Optional:_ Reach out to an existing maintainer to [help you become](https://about.gitlab.com/handbook/engineering/workflow/code-review/#trainee-maintainer-mentorship-pilot-program) a maintainer.
+```
+
+### Maintainer ratios
+
+We aim to keep the engineer : maintainer ratio under 6, for both frontend and backend. We track this in the [Engineer : Maintainer Ratio dashboard][dashboard]:
+
+<embed width="100%" height="100%" style="min-height:850px;" src="<%= signed_periscope_url(dashboard: 475647, embed: 'v2') %>">
+
+### Maintainer load
+
+We aim to keep the merge request per maintainer type at a reasonable level as well. We track this in the [Merge Requests: MR Count and Ratio by FE/BE/DB][ratio]:
+
+<embed width="100%" height="100%" style="min-height:400px;" src="<%= signed_periscope_url(dashboard: 655064, embed: 'v2') %>">
+
+## Domain Experts
+
+Our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html) states that we default to assigning reviews to team members with domain expertise.
+
+### What makes a domain expert?
+
+We currently don't provide rigid rules for what qualifies a team member as a domain expert and instead we use a boring solution of implicit and self-identification.
+
+Implicit:
+
+- Team members working in a specific stage/group (e.g. Create: Source Code) are implicitly considered domain experts for that area of the app they work on.
+- Team members working on a specific feature (e.g. search) are implicitly considered domain experts for that feature.
+
+Self-identification:
+
+- Team members can self-identify as a domain expert for a specific feature (e.g. file uploads).
+- Team members can self-identify as a domain expert for a specific technology (e.g. GraphQL), product feature (e.g. file uploads) or area of the codebase (e.g. CI).
+
+### How to self-identify as a domain expert
+
+The only requirement to be considered a domain expert is to have substantial experience with a specific technology, product feature or area of the codebase. We leave it up to the team member to decide whether they meet this criteria.
+
+1. Define a new, or use an existing domain expertise key, located in [`data/domain_expertise.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/domain_expertise.yml).
+1. Update your entry in your own [YAML file](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person) with a new `domain_expertise` property and list all domain expertise keys.
+
+Example:
+
+**domain_expertise.yml**
+
+``` yaml
+webpack:
+  display_name: Webpack
+  link: https://webpack.js.org/
+frontend_architecture:
+  display_name: Frontend Architecture
+  link: https://docs.gitlab.com/ee/development/fe_guide/architecture.html
+```
+
+**your_handle.yml**
+
+``` yaml
+domain_expertise:
+    - webpack
+    - frontend_architecture
+```
+
+When self-identifying as a domain expert, it is recommended to assign the MR to be merged by an already established Domain Expert or a corresponding Engineering Manager.
+
+### Where can I find a list of people with domain expertise?
+
+The expertise of a team member can be seen on the [Engineering Projects](/handbook/engineering/projects/) page.
+
+## First-response SLO
+
+To ensure swift feedback to ready-to-review code, we maintain a `first-response` Service-level Objective (SLO). The SLO is defined as:
+
+> - first-response SLO = (time when first response is provided) - (time MR is submitted and no longer marked WIP) < 2 business days
+
+### Managing expectation
+
+When you are assigned to review an MR and you are not able to get to it within the `First-response` SLO, you should leave a comment on the MR informing the author of your delayed response. If possible, you should also indicate when the author can expect your feedback or help them find an alternative reviewer.
+
+As the author of an MR you should reassign to another reviewer or maintainer if the `First-response` SLO has not been met and you have been unable to contact the assignee.
+
+[Trainee backend maintainer template]: https://gitlab.com/gitlab-com/www-gitlab-com/issues/new?issuable_template=trainee-backend-maintainer
+[Trainee frontend maintainer template]: https://gitlab.com/gitlab-com/www-gitlab-com/issues/new?issuable_template=trainee-frontend-maintainer
+[Trainee database maintainer template]: https://gitlab.com/gitlab-com/www-gitlab-com/issues/new?issuable_template=trainee-database-maintainer
+[Trainee quality maintainer template]: https://gitlab.com/gitlab-com/www-gitlab-com/issues/new?issuable_template=trainee-quality-maintainer
+[1:1 meetings]: /handbook/leadership/1-1/
+[dashboard]: https://app.periscopedata.com/app/gitlab/475647/Engineer-:-Maintainer-Ratio
+[ratio]: https://app.periscopedata.com/app/gitlab/655064/Merge-Requests:-MR-Count-and-Ratio-by-FE-BE-DB

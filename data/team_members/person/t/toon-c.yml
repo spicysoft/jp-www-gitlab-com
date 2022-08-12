@@ -1,0 +1,38 @@
+---
+name: Toon Claes
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#gitaly">Senior Backend
+  Engineer, Gitaly</a>
+reports_to: andrashorvath
+picture: toon.jpg
+twitter: to1ne
+gitlab: toon
+pronouns: he/him
+departments:
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Gitaly Team
+  - Gitaly BE Team
+projects:
+  gitlab-development-kit: maintainer
+  gitaly:
+    - reviewer
+    - maintainer
+domain_expertise:
+  - c
+  - geo
+  - git
+  - makefiles
+  - postgresql
+story: |
+  Toon's interest in electronics and computers started when he was a young boy. He
+  learned how to solder using broken circuit boards his father replaced while
+  repairing televisions. And when his parents got their first computer, he learned
+  MS-DOS and started programming by typing over BASIC programs from
+  magazines. Over the years the interest in computer kept growing.
+  Most of the time Toon lives inside Emacs typing on one of his
+  mechanical ergonomic keyboards, which he might have soldered himself.
+specialty: Gitaly
+

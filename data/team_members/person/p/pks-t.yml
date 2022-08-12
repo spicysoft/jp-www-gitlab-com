@@ -1,0 +1,36 @@
+---
+name: Patrick Steinhardt
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer,
+  Gitaly</a>
+reports_to: andrashorvath
+picture: patricksteinhardt.png
+twitter:
+gitlab: pks-t
+pronouns: he/him
+departments:
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Gitaly Team
+  - Gitaly BE Team
+projects:
+  gitaly:
+    - reviewer
+    - maintainer
+story: |
+  Patrick is a software engineer with a love for open source software
+  in general and the Git and Linux ecosystems in particular. He loves
+  tinkering around with components in the low-level userspace and
+  bending operating systems to his will, often until they break. In his
+  free time, he regularly visits fitness and bouldering gyms, plays
+  badminton or goes for a swim.
+specialty: Gitaly
+domain_expertise:
+- c
+- cmake
+- git
+- go
+- makefiles
+

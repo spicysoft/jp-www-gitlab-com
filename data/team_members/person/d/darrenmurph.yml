@@ -1,0 +1,36 @@
+---
+name: Darren Murph
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/marketing/all-remote-marketing/">Head of Remote</a>
+reports_to: stella-treas
+picture: darrenmurph.jpg
+twitter: darrenmurph
+linkedin: darrenmurph
+mentor: true
+pronouns: he/him
+gitlab: dmurph
+departments:
+- Marketing
+- Corporate Marketing
+- Parental Leave Reentry buddy
+expertise: |
+  <li><a href="/handbook/people-group/general-onboarding/parental-leave-buddy/">Parental Leave Reentry buddy</a></li>
+  <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge Request Buddy</a></li>
+  <li><a href="/company/team/structure/#mentor">Mentor</a> - Remote Work, External and Internal to GitLab</li>
+story: 'Darren holds a Guinness World Record in publishing. He has over 12 years of
+  experience recruiting and leading globally distributed teams in media, communications
+  and marketing. He''s an explorer at heart, having traversed nearly 50 countries
+  and all 50 US states, becoming a Delta Million Miler along the way. He''s passionate
+  about enabling remote work for all and advocating for adoption.
+
+  '
+remote_story: 'My wife and I experienced the beautiful and transformative journey
+  of adoption because I worked for an employer that trusted me to excel from a place
+  I needed to be to see it through. I’ve met countless GitLab team members who have
+  never been happier, more fulfilled, or more engaged with their family and community,
+  all because they’re empowered to work remotely.
+
+  '
+

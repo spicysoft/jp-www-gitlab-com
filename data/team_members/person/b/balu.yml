@@ -1,0 +1,35 @@
+---
+name: Balasankar 'Balu' C
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#distribution">Senior Distribution
+  Engineer, Distribution:Build</a>
+reports_to: david-mountney
+projects:
+  omnibus-gitlab: maintainer
+  gitlab-omnibus-builder: maintainer
+  gitlab-chart: trainee_maintainer
+  cng: maintainer
+  gitlab-build-images: maintainer
+picture: balasankarc.jpg
+twitter: cbalasankar
+gitlab: balasankarc
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Distribution Build BE Team
+story: 'Balu is from Kerala, southern most part of India and is passionate about anything
+  related to Freedom and Privacy. He has been contributing to different Free Software
+  and language computing communities for quite some time, especially in Packaging
+  (he is currently a Debian Developer), Software Development, Localization, and Evangelism.
+  Other than a computer geek, he is mainly a procaffinator and a bibliophile. He enjoys
+  reading (and sometimes even writing) poetry too.
+
+  '
+specialty: Distribution
+domain_expertise:
+- cicd
+- git
+- tooling_pipelines
+- shell
