@@ -25,7 +25,7 @@ The purpose of this page is to be a _quick reference_ to help the sales team nav
 - [Security and Compliance Capabilities Deck](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit?usp=sharing) (GitLab-internal)
 - [Case Study Board](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878) - Self-serve resource, search by Usecase, Value Driver, Competitor Replaced, etc.
 - [Data Sheet - Digital Transformation with GitLab](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/uploads/da184544b2ec5b808bd9fbb237459208/Digital_Transformation_with_GitLab_-_unbranded.pdf)
-- [Capabilities Statement](https://about.gitlab.com/images/press/gitlab-capabilities-statement.pdf)
+- [Capabilities Statement](https://cdn.pathfactory.com/assets/10519/contents/430162/ba2b7fd5-ba10-4065-8eb2-d4f90ce9a1d2.pdf)
 
 ## Command of the Message
 
@@ -174,7 +174,7 @@ Key Whitepapers:
 
 ## Datasheets
 
-- [GitLab Capabilities](/images/press/gitlab-capabilities-statement.pdf)
+- [GitLab Capabilities](https://cdn.pathfactory.com/assets/10519/contents/430162/ba2b7fd5-ba10-4065-8eb2-d4f90ce9a1d2.pdf)
 - [GitLab Data Sheet](/images/press/gitlab-data-sheet.pdf)
 - [GitLab Data Sheet (2020 Update, Unbranded)](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/uploads/da184544b2ec5b808bd9fbb237459208/Digital_Transformation_with_GitLab_-_unbranded.pdf)
 - [GitLab on AWS Concurrent DevOps Solution Brief](/resources/downloads/GitLab_AWS_Solution_Brief.pdf)

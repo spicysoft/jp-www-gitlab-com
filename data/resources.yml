@@ -1223,7 +1223,7 @@ leaders make the right choice."
   teaser: 'Learn how to implement Git and take the first steps towards a more collaborative and efficient software development lifecycle.'
 
 - title: 'GitLab capabilities statement'
-  url: /images/press/gitlab-capabilities-statement.pdf
+  url: https://cdn.pathfactory.com/assets/10519/contents/430162/ba2b7fd5-ba10-4065-8eb2-d4f90ce9a1d2.pdf
   image: /images/resources/gitlab.png
   type: 'One-pager'
   topics:

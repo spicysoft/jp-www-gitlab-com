@@ -157,7 +157,7 @@ Ungated asset links can be found on [this document](https://docs.google.com/docu
 * [Biden administration accelerates software supply chain security expectations a year into Executive Order (blog)](https://about.gitlab.com/blog/2022/05/12/biden-administration-celebrates-1-year-anniversary-of-eo-by-accelerating-software-supply-chain-security/)
 * [GitLab and AWS Make DevOps Easier](https://docs.google.com/document/d/1ilcgjvHBJp0zK5vGQrnvuTUoHDZFXNHbGV6A6iqTACk/edit?usp=sharing)
 * [Comply with NIST's secure software supply chain framework with GitLab (blog)](https://about.gitlab.com/blog/2022/03/29/comply-with-nist-secure-supply-chain-framework-with-gitlab/)  
-* [GitLab Public Sector Capabilities Statement](https://about.gitlab.com/images/press/gitlab-capabilities-statement.pdf)  
+* [GitLab Public Sector Capabilities Statement](https://cdn.pathfactory.com/assets/10519/contents/430162/ba2b7fd5-ba10-4065-8eb2-d4f90ce9a1d2.pdf)  
 * [Speed to Mission (whitepaper)](https://about.gitlab.com/resources/whitepaper-speed-to-mission/)
 * [The Hidden Costs of DevOps Toolchains (with guest speaker from Forrester)(webcast)](https://about.gitlab.com/webcast/simplify-to-accelerate/)
 * [DevOps Powering Your Speed to Mission (webcast)](https://about.gitlab.com/webcast/devops-speed-to-mission/)

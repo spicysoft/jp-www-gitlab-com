@@ -210,7 +210,7 @@ Latest collateral can be found on the [Portfolio Marketing Group Convo slides](h
 Our top-performing collateral includes: 
 
 - [GitLab DataSheet on Digital Transformation](/images/press/gitlab-data-sheet.pdf)
-- [GitLab Federal Capabilities One-pager](/images/press/gitlab-capabilities-statement.pdf)
+- [GitLab Federal Capabilities One-pager](https://cdn.pathfactory.com/assets/10519/contents/430162/ba2b7fd5-ba10-4065-8eb2-d4f90ce9a1d2.pdf)
 - [Reduce cycle time whitepaper](/resources/downloads/201906-whitepaper-reduce-cycle-time.pdf)
 - [Shift security left white paper](https://about.gitlab.com/resources/whitepaper-seismic-shift-application-security/)
 - [Ten steps every CISO should take to secure cloud native applications](https://about.gitlab.com/resources/ebook-ciso-secure-software/)
