@@ -77,11 +77,11 @@ For example:
 ### Next steps
 
 - Reduce storage consumption by following the suggestions in the [Managing Your Storage](#managing-your-storage-usage) section of this page.
-- [Start a trial](/free-trial/) or [upgrade to GitLab Premium or Ultimate](/pricing) which include higher limits and features that enable growing teams to ship faster without sacrificing on quality.
-- Apply for [GitLab for Education](/solutions/education/join/) or [GitLab for Open Source](/solutions/open-source/join/) if you meet the eligibility requirements.
-- [Purchase additional storage](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#purchase-more-storage-and-transfer) units at $60/year for 10GB of storage.
-- [Talk to an expert](https://page.gitlab.com/usage_limits_help.html) to learn more about your options and ask questions.
+- Apply for [GitLab for Education](/solutions/education/join/), [GitLab for Open Source](/solutions/open-source/join/), or [GitLab for Startups](/solutions/startups/) if you meet the eligibility requirements.
 - Consider using a [self-managed instance](https://docs.gitlab.com/ee/subscriptions/self_managed/) of GitLab which does not have these limits on the free tier.
+- [Purchase additional storage](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#purchase-more-storage-and-transfer) units at $60/year for 10GB of storage.
+- [Start a trial](/free-trial/) or [upgrade to GitLab Premium or Ultimate](/pricing) which include higher limits and features that enable growing teams to ship faster without sacrificing on quality.
+- [Talk to an expert](https://page.gitlab.com/usage_limits_help.html) to learn more about your options and ask questions.
 
 ## User Limits on GitLab SaaS Free Tier
 
@@ -134,10 +134,10 @@ Free tier users can also consider using the self-managed deployment option that 
 
 ### Next Steps
 
-- [Start a trial](/free-trial/) or [upgrade to GitLab Premium or Ultimate](/pricing) which doesn't have a user limit, has higher storage limits, and features that enable growing teams to ship faster without sacrificing on quality.
-- Apply for [GitLab for Education](/solutions/education/join/) or [GitLab for Open Source](/solutions/open-source/join/) if you meet the eligibility requirements.
-- [Talk to an expert](https://page.gitlab.com/usage_limits_help.html) to learn more about your options and ask questions.
+- Apply for [GitLab for Education](/solutions/education/join/), [GitLab for Open Source](/solutions/open-source/join/), or [GitLab for Startups](/solutions/startups/) if you meet the eligibility requirements.
 - Consider using a [self-managed instance](https://docs.gitlab.com/ee/subscriptions/self_managed/) of GitLab which does not have these limits on the free tier.
+- [Start a trial](/free-trial/) or [upgrade to GitLab Premium or Ultimate](/pricing) which include higher limits and features that enable growing teams to ship faster without sacrificing on quality.
+- [Talk to an expert](https://page.gitlab.com/usage_limits_help.html) to learn more about your options and ask questions.
 
 ## Public projects on GitLab SaaS Free Tier
 ### Overview
