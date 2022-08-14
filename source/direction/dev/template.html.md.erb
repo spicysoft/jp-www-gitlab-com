@@ -14,7 +14,7 @@ Last Reviewed: 2022-07-28
 
 ## Dev Section Overview
 
-The Dev Section is made up of the [Manage](/handbook/product/categories/#manage-stage), [Plan](/handbook/product/categories/#plan-stage), [Create](/handbook/product/categories/#create-stage) and [Ecosystem](/handbook/product/categories/#ecosystem-stage) stages of the DevOps lifecycle. The scope for the Dev section is wide and encompasses a number of analyst categories including [Value Stream Management (VSM)](/solutions/value-stream-management/), Project Portfolio Management (PPM), Enterprise Agile Planning Tools (EAP), Source Code Management (SCM), Integrated Development Environments (IDEs), Design Management, and even Information Technology Service Management (ITSM). It is difficult to truly estimate Total Available Market (TAMkt) for the Dev Section, as our scope includes so many components from various industries, but market research from the analyst firm [IDC](https://www.idc.com/about) indicates the estimated [TAM](https://docs.google.com/spreadsheets/d/1LO57cmXHDjE4QRf6NscRilpYA1mlXHeLFwM_tWlzcwI/edit?ts=5ddb7489#gid=1474156035) in 2020 is roughly ~$2B, growing to ~$4.3B in 2024 (18.31% CAGR). Analysis: [Manage](https://docs.google.com/spreadsheets/d/1357Zwbf0yTjcFBuCdX2HnNLBaF9uWnW7Auv4F94aoSo/edit#gid=0) [Plan](https://docs.google.com/spreadsheets/d/1dDNSR_mE4peeOc_3Xhqm_VLoTyk4gSbcbiGfuMrOg6g/edit#gid=0) [Create](https://docs.google.com/spreadsheets/d/1KSwTVPIvMO8IXkMqA40Ms1rL-glmo-w7MjZvUrjMFGA/edit#gid=0). NOTE: The large disparity in the TAM/SAM (Serviceable Available Market) approaches is due to percentage attribution of DevOps revenue. For example, in the IDC report, it specified a certain percentage of Atlassian revenue for DevOps, but in the bottoms up analysis most of Atlassian revenue would have been counted since we looked at all project/portfolio management revenue.
+The Dev Section is made up of the [Manage](/handbook/product/categories/#manage-stage), [Plan](/handbook/product/categories/#plan-stage), [Create](/handbook/product/categories/#create-stage) and [Ecosystem](/handbook/product/categories/#ecosystem-stage) stages of the DevOps lifecycle. The scope for the Dev section is wide and encompasses a number of analyst categories including [Value Stream Management (VSM)](/solutions/value-stream-management/), Project Portfolio Management (PPM), Enterprise Agile Planning Tools (EAP), Source Code Management (SCM), Integrated Development Environments (IDEs), Design Management, and even Information Technology Service Management (ITSM). It is difficult to truly estimate Total Available Market (TAMkt) for the Dev Section, as our scope includes so many components from various industries, but market research from the analyst firm [IDC](https://www.idc.com/about) indicates the estimated [TAM](https://docs.google.com/spreadsheets/d/1LO57cmXHDjE4QRf6NscRilpYA1mlXHeLFwM_tWlzcwI/edit?ts=5ddb7489#gid=1474156035) in 2020 is roughly ~$2B, growing to ~$4.3B in 2024 (18.31% CAGR). Analysis: [Manage](https://docs.google.com/spreadsheets/d/1357Zwbf0yTjcFBuCdX2HnNLBaF9uWnW7Auv4F94aoSo/edit#gid=0) [Plan](https://docs.google.com/spreadsheets/d/1dDNSR_mE4peeOc_3Xhqm_VLoTyk4gSbcbiGfuMrOg6g/edit#gid=0) [Create](https://docs.google.com/spreadsheets/d/1KSwTVPIvMO8IXkMqA40Ms1rL-glmo-w7MjZvUrjMFGA/edit#gid=0). 
 
 Nearly [half of organizations](https://drive.google.com/file/d/17ZSI2hGg3RK168KHktFOiyyzRA93uMbd/view?usp=sharing) still have not adopted DevOps methodologies, despite [data](https://drive.google.com/file/d/17MNecg84AepxWlSDB5HjNBrCJggaS9tP/view?usp=sharing) that indicates far higher revenue growth for organizations that do so. Migrating a code base to a modern, Git-backed source control platform like GitLab can often be the first step in a DevOps transformation. As such, we must provide industry-leading solutions in source code and code review, as this is not only the entry into DevOps for our customers, but typically the entry into the GitLab platform. Once a user has begun utilizing repositories and code review features like Merge Requests, they often shift “left” and “right” to explore and utilize other capabilities in GitLab, such as CI and project management features.
 
@@ -238,9 +238,12 @@ GitLab in one or more of these areas.
 
 Please see the [categories page](/handbook/product/categories/#dev-section) for a more detailed look at Dev's plan by exploring `Direction` links in areas of interest. This page will highight direction themes for both one year and three year timelines.
 
-<%= partial("direction/dev/plans/manage") %>
 
-<%= partial("direction/dev/plans/plan") %>
+<%= partial("direction/manage/templates/next") %>
+
+### Plan
+
+<%= partial("direction/plan/templates/next") %>
 
 ### Create
 
@@ -248,7 +251,7 @@ Please see the [categories page](/handbook/product/categories/#dev-section) for 
 
 ### Ecosystem
 
-<%= partial("direction/dev/plans/ecosystem") %>
+<%= partial("direction/ecosystem/templates/next") %>
 
 ### Themes that cross all Dev stages
 **Performance and availability:** We must invest in the performance, stability, and availability of our application. We will do this by focusing on [application limits](https://gitlab.com/groups/gitlab-org/-/epics/1737), [diff load times](https://gitlab.com/groups/gitlab-org/-/epics/1816), and ensuring [availability](https://about.gitlab.com/handbook/product/product-processes/#how-we-prioritize-work) is top of mind.
@@ -275,3 +278,4 @@ Choosing to invest in the above areas in 2022 means we will choose not to:
 ## What's Next
 
 <%= direction["all"]["all"] %>
+ 

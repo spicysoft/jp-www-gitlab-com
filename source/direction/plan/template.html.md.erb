@@ -1,0 +1,117 @@
+---
+layout: markdown_page
+title: Product Stage Direction - Plan
+description: "The Plan stage enables teams to effectively plan features and projects in a single application"
+canonical_path: "/direction/plan/"
+---
+
+Content last reviewed on 2022-07-13
+
+- TOC
+{:toc}
+
+<p align="center">
+    <font size="+2">
+        <b>Enable teams to effectively plan and execute work in a single application</b>
+    </font>
+</p>
+
+<%= partial("direction/plan/templates/overview") %>
+
+<%= devops_diagram(["Plan"]) %>
+
+## Stage Overview
+
+The Plan Stage provides tools for teams to manage their work. As an end-to-end DevOps platform, GitLab is uniquely positioned to deliver a planning suite that enables business leaders to drive their vision and DevOps teams to deliver value while improving how they work. In addition, the unification of the DevOps process allows GitLab to interlink data across every stage of development, from initial analysis, to planning, implementation, deployment, and monitoring.
+
+### Groups
+
+The Plan Stage is made up of three groups supporting all major categories needed to plan work for DevOps organizations, including:
+
+* The Project Management group focuses on Issues, [Work Items](https://docs.gitlab.com/ee/development/work_items.html) and Boards to help teams plan, track, triage, and complete their work.
+* The Product Planning group focuses on Epics and Roadmaps to help leaders align objectives and increase visibility into the work for all teams in their organization.
+* The Certify group focuses on Requirements Management and Quality Management to help organizations document, trace, and control changes to agreed-upon requirements in a system. 
+
+### Resourcing and Investment
+The existing team members for the Plan Stage can be found in the links below:
+
+* [Project Management](https://about.gitlab.com/handbook/engineering/development/dev/plan-project-management/)
+* [Product Planning and Certify](https://about.gitlab.com/handbook/engineering/development/dev/plan/product-planning-certify/)
+
+## 3 Year Stage Themes
+<%= partial("direction/plan/templates/themes") %>
+ 
+## 3 Year Strategy
+
+In three years, the Plan Stage market will:
+* Continue to shift from project to product and focus on outcomes instead of output.
+* Continue to move away from command and control mentality and instead empower teams to determine how they can contribute toward business objectives.
+* Embrace machine learning and automation within the Plan stage of the DevOps toolchain and lifecycle.
+* Shift toward consolidation into a single platform for all stages of the DevOps lifecycle.
+
+As a result, in three years, Gitlab will:
+* Provide support for individual DevOps teams and entire organizations using scaled Agile frameworks.
+* Allow GitLab to capture and tie metrics to [Work Items](https://docs.gitlab.com/ee/development/work_items.html) to reflect business outcomes. 
+* Support frameworks like OKRs that encourage bottom-up contributions. 
+* Use downstream DevOps data for automation and machine learning to help teams improve their plans.
+* Make it easy for non-Developer Personas to contribute and read and edit planning data in GitLab. 
+
+## 1 Year Plan
+
+### What We Recently Completed
+
+* [Epic Linking](hhttps://gitlab.com/groups/gitlab-org/-/epics/7546) - Relating epics to each other with "Related", "Blocking" or "Blocked By" relationships. Enables users to manage cross team dependencies at the portfolio level. 
+* [Internal Notes](https://gitlab.com/groups/gitlab-org/-/epics/7407) - Individuals with the appropriate permissions level can now redact discussions with internal or customer data that should only be visible to certain people while keeping the core details about an issue public. Internal notes in issues or epics can only be seen by the issue author, assignee, and group or project members with at least the Reporter role.
+<%= partial("direction/plan/project_management/team_planning/recent_accomplishments") %>
+<%= partial("direction/plan/project_management/planning_analytics/recent_accomplishments") %>
+
+### What We Are Currently Working On
+
+* The Plan stage is currently collaborating with the Manage stage on [Workspaces](https://gitlab.com/groups/gitlab-org/-/epics/6473) initiative. We successfully completed Phase 1 of the work and plan to wrap up our involvement in helping build Workspaces foundational components by mid-July.
+* [Unified work item architecture and refactored/revamped UI/UX](https://gitlab.com/groups/gitlab-org/-/epics/6033) - A unified implementation for [Work Items](https://docs.gitlab.com/ee/development/work_items.html) will reduce rework and allow us to iterate faster. Our first iteration will introduce [Tasks](https://gitlab.com/groups/gitlab-org/-/epics/7103) as a way to decompose Issues into smaller increments of work. We will then add functionality to allow us to accommodate all the desired attributes and behaviors of [epics](https://gitlab.com/groups/gitlab-org/-/epics/6033) and [requirements](https://gitlab.com/gitlab-org/gitlab/-/issues/323779).
+* Enable epics to have child items from [different top-level groups](https://gitlab.com/gitlab-org/gitlab/-/issues/205155) - Allowing child items from other top-level groups will enable a more accurate representation of work that crosses teams and organizational lines. This has been a common feedback item from large customers and a blocker for adopting portfolio planning at GitLab. 
+* [Adding additional new work item types](https://gitlab.com/gitlab-org/gitlab/-/issues/323404) - Customers will have additional ways to classify and report on their work.  
+* Improving performance will continue to be a top priority in the near term. The rapid growth of GitLab.com has uncovered the need for continue focus on [database and query optimization](https://gitlab.com/groups/gitlab-org/-/epics/5804).
+
+<%= partial("direction/plan/templates/next") %>
+
+
+### Cross-Stage Initiatives
+
+Plan offers functionality that ties into workflows in other stages.  We are actively collaborating with other stages that are building upon Plan functionality to meet their users needs.
+
+* The Ecosystem stage has built a Jira integration that displays Jira Issue data within GitLab. We will collaborate with that team to tie Jira Issues into more workflows like reporting and tying Jira Issues to higher level work items.
+* The Ecosystem stage owns the [Jira importer](https://docs.gitlab.com/ee/user/project/import/jira.html) to allow Jira issues to be migrated to GitLab. We will continue to work with that team to extend GitLab work items to accomodate more critical data elements from Jira to ensure a seamless import process.
+* The Plan:Project Management and Create:Editor groups will work together to incroporate the new WSWYG markdown editor into Work Items.
+* The Plan and Manage stages are collaborating on the [Workspaces](https://gitlab.com/groups/gitlab-org/-/epics/6473) initiative to simplify the management of work and team hierarchies in GitLab.
+* The Monitor:Respond group built Incidents based on Issues with guidance from the Plan:Project Management group. We will continue to collaborate as we move to our new architecture with Work Items.
+* Plan:Project Management, Manage:Compliance, Verify, and Release are working together on CloudEvents and Eventing as part of Workflows & Automations validation (gitlab-org/gitlab#344136).
+
+Please explore the individual [Category](https://about.gitlab.com/direction/plan/#categories) Direction pages for more information on 12 month plans.
+
+### Target audience
+
+<%= partial("direction/plan/templates/target_audience") %>
+
+### Categories
+
+<%= partial("direction/categories-content", locals: { :stageKey => "plan" }) %>
+
+### Pricing
+
+<%= partial("direction/plan/templates/pricing") %>
+
+An example of what the end result data model and pricing could look like based on these pricing principles:
+
+![Work Items Hierarchy](/images/direction/plan/workitemhierarchy.png)
+
+
+### Jobs To Be Done 
+
+[View the Plan stage JTBD](/direction/plan/jtbd.html)
+
+## Upcoming Releases
+
+<%= direction["all"]["all"] %>
+
+<%= partial("direction/other", :locals => { :stage => "plan" }) %>
