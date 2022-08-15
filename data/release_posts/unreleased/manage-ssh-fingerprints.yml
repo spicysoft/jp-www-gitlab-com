@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "New links to SSH Fingerprints"
+  - name: "New links to SSH fingerprints"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
