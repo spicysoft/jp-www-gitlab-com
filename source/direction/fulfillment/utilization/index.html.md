@@ -2,7 +2,6 @@
 layout: markdown_page
 title: "Category Direction - Utilization"
 description: "The Utilization strategy page belongs to the Utilization group of the Fulfillment stage"
-canonical_path: "/direction/fulfillment/utilization"
 ---
 
 - TOC
