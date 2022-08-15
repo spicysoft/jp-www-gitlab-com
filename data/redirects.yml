@@ -4419,12 +4419,10 @@
   target: /handbook/product/product-processes#cross-functional-dashboard-reviews
   comp_op: '='
 - sources:
-  - /15
   - /15/
   - /fifteen/
-  - /fifteen
   target: https://page.gitlab.com/fifteen
-  comp_op: '='
+  comp_op: '~'
 - sources:
   - /handbook/engineering/development/dev/gitaly/
   target: /handbook/engineering/development/enablement/systems/gitaly/
