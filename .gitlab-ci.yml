@@ -150,7 +150,7 @@ variables:
 
 .dependency-cache:
   cache:
-    key: "web_ruby-3.0-buster"
+    key: "web_ruby-3.0-bullseye"
     policy: pull
     paths:
       - vendor
@@ -562,7 +562,7 @@ uncategorized-build-and-prod-deploy:
     INCLUDE_GENERATORS: 'true'
     CI_BUILD_PROXY_RESOURCE: 'true'
   cache:
-    key: "build_proxy_resource_ruby-3.0-buster"
+    key: "build_proxy_resource_ruby-3.0-bullseye"
     policy: pull-push
     paths:
       - tmp/cache
