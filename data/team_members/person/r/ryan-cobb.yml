@@ -19,13 +19,11 @@ departments:
 - Backend
 projects:
   gitlab: reviewer backend
-  customers-app: 
-    - trainee_maintainer backend
+  customers-app:
+  - trainee_maintainer backend
 story: 'Ryan is a software developer who enjoys building things and solving problems.
   He loves to create, travel and spend time outside.
 
   '
-specialty:
-- 'Fulfillment: Purchase'
-- " Fulfillment"
+specialty: Billing and Subscription Management
 

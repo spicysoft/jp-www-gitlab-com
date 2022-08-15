@@ -2,8 +2,8 @@
 name: Ragnar Hardarson
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering
-  Manager, Fulfillment:Purchase</a>
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack
+  Engineering Manager, Fulfillment:Purchase</a>
 reports_to: jeromeng
 picture: ragnarhardarson.jpg
 twitter: ragnar_ha
@@ -22,5 +22,5 @@ story: 'Ragnar has been building products for web and mobile since his school da
   help his caffeine addiction.
 
   '
-specialty: Purchase
+specialty: Billing and Subscription Management
 
