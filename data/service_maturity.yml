@@ -5870,7 +5870,7 @@
                      },
                      {
                         "title": "📖 Kibana: urgent-authorized-projects slow request logs",
-                        "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.class,json.queue,json.meta.project,json.job_status,json.scheduling_latency_s,json.duration_s),filters:!((meta:(key:json.type.keyword,params:sidekiq,type:phrase),query:(match:(json.type.keyword:(query:sidekiq,type:phrase)))),(meta:(key:json.shard.keyword,params:'urgent-authorized-projects',type:phrase),query:(match:(json.shard.keyword:(query:'urgent-authorized-projects',type:phrase)))),(meta:(key:json.duration_s,params:(gte:10),type:range),query:(range:(json.duration_s:(gte:10))))),index:'AWNABDRwNDuQHTm2tH6l',sort:!(!(json.duration_s,desc)))&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
+                        "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.class,json.queue,json.meta.project,json.job_status,json.scheduling_latency_s,json.duration_s),filters:!((meta:(key:json.type.keyword,params:sidekiq,type:phrase),query:(match:(json.type.keyword:(query:sidekiq,type:phrase)))),(meta:(key:json.shard.keyword,params:'urgent-authorized-projects',type:phrase),query:(match:(json.shard.keyword:(query:'urgent-authorized-projects',type:phrase)))),(meta:(key:json.duration_s,params:(gte:300),type:range),query:(range:(json.duration_s:(gte:300))))),index:'AWNABDRwNDuQHTm2tH6l',sort:!(!(json.duration_s,desc)))&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
                      },
                      {
                         "title": "📖 Kibana: urgent-authorized-projects failed request logs",
