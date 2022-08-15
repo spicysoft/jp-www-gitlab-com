@@ -5,6 +5,7 @@ features:
     available_in: [premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/ci/environments/deployment_approvals.html#approve-or-reject-a-deployment-using-the-ui'
+    image_url: '/images/unreleased/release-deployment-approval-comment.png'
     reporter: cbalane
     stage: release
     categories:
