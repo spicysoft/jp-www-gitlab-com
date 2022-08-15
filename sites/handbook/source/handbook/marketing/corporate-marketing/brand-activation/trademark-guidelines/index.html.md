@@ -17,7 +17,7 @@ These Trademark Guidelines (“**Guidelines**”) apply to all trademarks of Git
 To request use of the Trademarks in a manner, or for a purpose, not expressly permitted in these Guidelines, including use for any purpose of the Logos, email [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
 
 
-**1. Use of the Trademarks**
+### **1. Use of the Trademarks**
     
 &nbsp;&nbsp; 1.1. You can use the GitLab Name to truthfully and accurately refer to, or identify, GitLab and its products and services, including in the following instances:
 
@@ -43,7 +43,7 @@ To request use of the Trademarks in a manner, or for a purpose, not expressly pe
 
 <!-- blank line -->
 
-**2. Prohibited Use of the Trademarks**
+### **2. Prohibited Use of the Trademarks**
 
 &nbsp;&nbsp; 2.1.    Unless otherwise expressly permitted in these Guidelines, you must never:
 
@@ -63,7 +63,7 @@ To request use of the Trademarks in a manner, or for a purpose, not expressly pe
 
 <!-- blank line -->
 
-**3. Other terms**      
+### **3. Other terms**      
 
 &nbsp;&nbsp; 3.1. GitLab Inc. retains all right, title, and interest in and to the Trademarks, and you agree never to challenge, contest, or question the validity, or GitLab Inc.’s exclusive ownership, of the Trademarks.
 
@@ -74,7 +74,7 @@ To request use of the Trademarks in a manner, or for a purpose, not expressly pe
 <!-- blank line -->
 
 
-**4. If you spot unauthorized use of the Trademarks**
+### **4. If you spot unauthorized use of the Trademarks**
 
 &nbsp;&nbsp; If you become aware of any unauthorized use of the Trademarks, please let us know:
 
