@@ -18,6 +18,16 @@
   social_tags:
   event_url: https://about.gitlab.com/events/commit/
 
+- topic: Beyond Code on Twitter Spaces
+  type: Meetup
+  date_starts: August 16, 2022
+  date_ends: August 16, 2022
+  description: Beyond Code on Twitter Spaces episode four is titled, Let's Doc About It. Join in on the conversation about documentation cultures, strategies, and lessons learned with our special guests Christina Ausley, Technical writer, Camunda, Justin Garrison, Sr. Developer advocate, AWS and Darren Murph, Head of Remote, GitLab. 
+  location: Virtual 
+  region: 
+  social_tags: #beyondcode 
+  event_url: https://bit.ly/3BZcYaN
+
 - topic: IDC IT Security Conference
   type: Conference
   date_starts: September 27, 2022
