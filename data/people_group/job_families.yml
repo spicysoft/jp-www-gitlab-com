@@ -191,6 +191,8 @@
   description: "/job-families/legal/legal-counsel/"
 - title: Director of Legal
   description: "/job-families/legal/director-legal-us/"
+- title: Senior Director of Legal, Litigation & Risk Management
+  description: "/job-families/legal/director-legal-us/"
 - title: Senior Director, ESG
   description: "/job-families/legal/director-legal-us/"
 - title: Learning and Development
@@ -267,7 +269,7 @@
 - title: Alliances Marketing
   description: "/job-families/marketing/channel-and-alliances-marketing/"
 - title: Partner Programs
-  description: "/job-families/marketing/channel-and-alliances-marketing/"  
+  description: "/job-families/marketing/channel-and-alliances-marketing/"
 - title: Professional Services Operations
   description: "/job-families/sales/professional-services-operations/"
 - title: Marketing & Communications Program Manager, Security
@@ -371,7 +373,7 @@
   description: "/job-families/engineering/support-engineer/"
 - title: Engineering Leadership (Support)
   description: "/job-families/engineering/support-engineer/"
-- title: Support Operations Specialist
+- title: Support Readiness Specialist
   description: "/job-families/engineering/support-operations-specialist/"
 - title: People Technology and Analytics
   description: "/job-families/people-ops/people-systems-and-analytics/"
