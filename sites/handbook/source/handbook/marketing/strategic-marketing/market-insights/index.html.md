@@ -11,7 +11,7 @@ title: Market Insights
 
 ## Market Insights at GitLab
 
-Market Insights is a function of the Market Strategy & Insights team in Portfolio Marketing. 
+Market Insights is a function of the Market Strategy & Insights team in Product Marketing. 
 
 _What is the Market Insights Program?_ 
 
