@@ -27,3 +27,4 @@ tertiary:
       - [Service Desk seems to ignore &quot;Accepted Headers&quot;](https://gitlab.com/gitlab-org/gitlab/-/issues/364683)
       - [Transferring project creates empty duplicate epics](https://gitlab.com/gitlab-org/gitlab/-/issues/363102)
       - [Moving board lists fails when label is deleted](https://gitlab.com/gitlab-org/gitlab/-/issues/340063)
+      - [Fix or add file attachment status in Design tab comments](https://gitlab.com/gitlab-org/gitlab/-/issues/369003)
