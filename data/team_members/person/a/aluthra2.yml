@@ -21,8 +21,7 @@ departments:
 - Backend
 projects:
   customers-app: reviewer backend
-specialty:
-- 'Fulfillment: Purchase'
+specialty: Billing and Subscription Management
 expertise:
 story: Aman has worked across the tech-stack in a variety of domains and is passionate
   about problem solving, and coffee. When he is not trying to brew his own coffee
