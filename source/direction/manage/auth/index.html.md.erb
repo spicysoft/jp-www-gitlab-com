@@ -13,7 +13,7 @@ canonical_path: "/direction/manage/auth/"
 | Stage | [Manage](https://about.gitlab.com/handbook/product/categories/#manage-stage) |
 | Group | [Authentication & Authorization](https://about.gitlab.com/handbook/product/categories/#authentication--authorization-group) |
 | Maturity | [Complete](/direction/maturity/) |
-| Content Last Reviewed | `2022-08-04` |
+| Content Last Reviewed | `2022-08-15` |
 
 
 <%= partial("direction/manage/auth/templates/intro") %>
@@ -49,9 +49,11 @@ We are also acutely aware of the increasing security needs in Authentication and
 
 ### Near-Term Goals
 
-1. Continue progress on  [Customizable Roles and Permissions](https://gitlab.com/groups/gitlab-org/-/epics/4035). We have completed [technical discovery](https://gitlab.com/gitlab-org/gitlab/-/issues/352891) and are now writing our [first code](https://gitlab.com/gitlab-org/gitlab/-/issues/364128) against this feature, which is exciting for us.
+1. Continue progress on  [Customizable Roles and Permissions](https://gitlab.com/groups/gitlab-org/-/epics/4035). We have completed [technical discovery](https://gitlab.com/gitlab-org/gitlab/-/issues/352891) and have written our [first code](https://gitlab.com/gitlab-org/gitlab/-/issues/364128) and a also have completed a [second MR](https://gitlab.com/gitlab-org/gitlab/-/issues/367988) against this feature, which is exciting for us. Note that these are not user facing, but are laying the groundwork for what will become customizable roles.
 
-2. We have finalized our MVC for [Domain Verification](https://gitlab.com/gitlab-org/gitlab/-/issues/353030) and have this scheduled for development in 15.3. This will be the first step in our [Enterprise Users](https://gitlab.com/groups/gitlab-org/-/epics/5299) Epic. The first thing we are going to do once we have verified domains is to [bypass e-mail verificaion](https://gitlab.com/gitlab-org/gitlab/-/issues/238461) for any e-mail address belonging to the domain, which is something that our customers have been requesting. 
+2. Support GitLab's [FedRAMP certification](https://about.gitlab.com/solutions/public-sector/fedramp/). Since our team touches a lot of areas of the product that are analyzed during the audit, we have a some open issues to tackle.
+
+3. Our MVC for [Domain Verification](https://gitlab.com/gitlab-org/gitlab/-/issues/353030) is under development and is expected to be completed early in the %15.4 milestone. This is be the first step in our [Enterprise Users](https://gitlab.com/groups/gitlab-org/-/epics/5299) Epic. Once this issue is complete, we plan to allow our users to [bypass e-mail verificaion](https://gitlab.com/gitlab-org/gitlab/-/issues/238461) for any e-mail address belonging to the domain, which is something that our customers have been requesting.  
 
 ### Mid-Term Goals
 
