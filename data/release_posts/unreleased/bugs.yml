@@ -23,3 +23,7 @@ tertiary:
       - [Deleting last file leaves empty package in UI](https://gitlab.com/gitlab-org/gitlab/-/issues/350615)
       - [Partial cleanup tooltip does not display time](https://gitlab.com/gitlab-org/gitlab/-/issues/364609)
       - [Users can't upload jpg files during issue creation on the GitLab Omnibus Docker image](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/6951)
+      - [Something went wrong while fetching Epics](https://gitlab.com/gitlab-org/gitlab/-/issues/328429)
+      - [Service Desk seems to ignore &quot;Accepted Headers&quot;](https://gitlab.com/gitlab-org/gitlab/-/issues/364683)
+      - [Transferring project creates empty duplicate epics](https://gitlab.com/gitlab-org/gitlab/-/issues/363102)
+      - [Moving board lists fails when label is deleted](https://gitlab.com/gitlab-org/gitlab/-/issues/340063)
