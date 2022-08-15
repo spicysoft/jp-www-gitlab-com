@@ -16,7 +16,6 @@ projects:
   gitlab:
   - maintainer backend
   - maintainer database
-  auto-deploy-image: maintainer
   gitlab-elasticsearch-indexer: maintainer
   gitlab-technical-interviews-backend: maintainer
 story: |
