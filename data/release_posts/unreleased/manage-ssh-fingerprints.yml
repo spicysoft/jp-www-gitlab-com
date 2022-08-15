@@ -4,7 +4,7 @@ features:
   - name: "New links to SSH fingerprints"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/ssh.html#verify-that-you-can-connect'
     reporter: hsutor
     stage: manage
     categories:
