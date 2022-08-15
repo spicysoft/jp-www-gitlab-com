@@ -31,4 +31,5 @@ tertiary:
       - [Fix GraphQL for /merge quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/359844)
       - [The merge train button should not be enabled if there are MR dependencies](https://gitlab.com/gitlab-org/gitlab/-/issues/267092)
       - [Search result with long line changes displayed as horizontal scrolling](https://gitlab.com/gitlab-org/gitlab/-/issues/357066)
+      - [Consider latest security report if base pipeline does not exist](https://gitlab.com/gitlab-org/gitlab/-/issues/366833)
 
