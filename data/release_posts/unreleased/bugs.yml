@@ -37,3 +37,6 @@ tertiary:
       - [Description template for new issues overwrite local storage with unsaved data](https://gitlab.com/gitlab-org/gitlab/-/issues/364818)
       - [&quot;Assign to commenting user&quot; is visible to users without permission](https://gitlab.com/gitlab-org/gitlab/-/issues/332270)
       - [timestamp in &quot;issue moved&quot; activity is incorrect](https://gitlab.com/gitlab-org/gitlab/-/issues/363380)
+      - [SAST - nodejs-scan should work with directories that contain symlinks](https://gitlab.com/gitlab-org/gitlab/-/issues/369062)
+      - [SAST - Analyzers bug with Custom CA on OpenShift invalid permissions](https://gitlab.com/gitlab-org/gitlab/-/issues/350625)
+      - [SAST - ADDITIONAL_CA_CERT_BUNDLE doesn't work for some analyzers](https://gitlab.com/gitlab-org/gitlab/-/issues/327438)
