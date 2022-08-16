@@ -20,7 +20,7 @@ canonical_path: "/pricing/faq-paid-storage-transfer/"
 ## GitLab SaaS Premium and Ultimate
 
 **Q. What is changing with Storage and Transfer limits?**  
-A. We are introducing storage and transfer limits to the [GitLab SaaS offerings](https://about.gitlab.com/pricing).
+A. We are introducing storage and transfer limits to the [GitLab SaaS offerings](/pricing/).
 
 | GitLab SaaS Tier                         | Free | Premium | Ultimate |
 |------------------------------------------|:----:|:-------:|:--------:|
@@ -40,11 +40,11 @@ A. Yes, GitLab Trial will receive entitlements from GitLab Ultimate.
 A. For existing paid tier users:
 
 - These limits will not apply immediately and will be applicable to your subscription at your next renewal on or after **2022-10-15**.
-- Storage limits will be enforced for applicable subscriptions from **2023-02-15**.
-- Transfer limits will not be enforced until further communication from GitLab.
+- Storage limits will be applicable for impacted subscriptions from **2023-02-15**.
+- Transfer limits will not be applicable until further communication from GitLab.
 
-**Q. Will enforcement start when both storage and transfer are available?**  
-A. No, enforcement of storage and transfer will be independent of each other. Storage usage visibility and enforcement will be first, transfer usage visibility and enforcement will follow.
+**Q. Will limits apply only once both storage and transfer are available?**  
+A. No, application of storage and transfer limits will be independent of each other. Storage usage visibility, and storage limits will be first, transfer usage visibility and transfer limits will follow.
 
 ### Managing your Storage Usage
 
@@ -82,7 +82,7 @@ The primary use cases affected by transfer limits are end users working with cod
 Future product features that allow transfer of data will also be incorporated into the transfer usage count, when available.
 
 **Q. Can I proactively monitor and reduce my transfer usage?**  
-A. Viewing transfer usage is not yet available. Until the usage report is available on the Group Settings Usage `Quota Page`, transfer limits will not be programmatically enforced. If your usage is significantly high, the GitLab team will reach out to you to help manage your usage.
+A. Viewing transfer usage is not yet available. Until the usage report is available on the Group Settings Usage `Quota Page`, transfer limits will not be programmatically applied. If your usage is significantly high, the GitLab team will reach out to you to help manage your usage.
 
 ### Purchasing additional Storage and Transfer
 

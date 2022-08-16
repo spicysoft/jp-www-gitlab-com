@@ -20,7 +20,7 @@ canonical_path: "/pricing/faq-efficient-free-tier/"
 ## Storage limits on GitLab SaaS Free Tier
 
 **Q. What is changing with storage?**  
-A. We are introducing a storage limit of 5GB per top level namespace to the [GitLab SaaS Free tier](https://about.gitlab.com/pricing).
+A. We are introducing a storage limit of 5GB per top-level namespace to the [GitLab SaaS Free tier](/pricing/).
 
 | GitLab SaaS Tier              | Free | Premium | Ultimate |
 |-------------------------------|:----:|:-------:|:--------:|
@@ -35,10 +35,10 @@ Customers who are still on the Bronze subscription are not impacted by this chan
 A. Yes, GitLab Ultimate Trial and Premium Trial will receive entitlements from GitLab Ultimate and Premium respectively.
 
 **Q. Is this change applicable to public projects as well?**  
-A. Yes, the change is applicable to both public and private projects. Free tier users using GitLab for public open source projects should consider applying for the [GitLab for Open Source program](https://about.gitlab.com/solutions/open-source/), which provides access to the GitLab Ultimate features and entitlements for free.
+A. Yes, the change is applicable to both public and private projects. Free tier users using GitLab for public open source projects should consider applying for the [GitLab for Open Source program](/solutions/open-source/), which provides access to the GitLab Ultimate features and entitlements for free.
 
 **Q. What is the effective date of the changes?**  
-A. For existing free tier users, storage limits will be enforced starting **2022-10-19**.
+A. For existing free tier users, storage limits will not be applied before **2022-10-19**.
 
 ### Managing your Storage Usage
 
@@ -80,30 +80,28 @@ For example:
 - Apply for [GitLab for Education](/solutions/education/join/), [GitLab for Open Source](/solutions/open-source/join/), or [GitLab for Startups](/solutions/startups/) if you meet the eligibility requirements.
 - Consider using a [self-managed instance](https://docs.gitlab.com/ee/subscriptions/self_managed/) of GitLab which does not have these limits on the free tier.
 - [Purchase additional storage](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#purchase-more-storage-and-transfer) units at $60/year for 10GB of storage.
-- [Start a trial](/free-trial/) or [upgrade to GitLab Premium or Ultimate](/pricing) which include higher limits and features that enable growing teams to ship faster without sacrificing on quality.
+- [Start a trial](/free-trial/) or [upgrade to GitLab Premium or Ultimate](/pricing/) which include higher limits and features that enable growing teams to ship faster without sacrificing on quality.
 - [Talk to an expert](https://page.gitlab.com/usage_limits_help.html) to learn more about your options and ask questions.
 
 ## User Limits on GitLab SaaS Free Tier
 
 **Q. What is changing with user limits?**  
-A. GitLab [announced](/blog/2022/03/24/efficient-free-tier)  updates to the user limits for the free tier of the GitLab SaaS offering. The new limits are as follows:
-
-| GitLab SaaS Tier                                                       |  Free |
-|----------------------------------------------------------|:-----:|
-| Price                                                                              |   $0  |
-| Users (per top level namespace) | 5 |
+A. There will be a 5-user limit for top-level namespaces with private visibility. At this time, top-level namespaces with public visibility will not have a user limit.
 
 **Q. Who do these changes apply to?**  
-A. These user limits are applicable only to users of the free tier of the GitLab SaaS offering. These changes do not apply to the paid tiers, the free tier of the self-managed offering and [community programs](https://about.gitlab.com/community), including GitLab for Open Source, GitLab for Education, and GitLab for Startups users.
+A. These user limits are applicable only to users of the free tier of the GitLab SaaS offering in a top-level namespace with private visibility. These changes do not apply to users of the the free tier of the GitLab SaaS offering in a public top-level namespace, paid tiers, the free tier of the self-managed offering and [community programs](/community/), including GitLab for Open Source, GitLab for Education, and GitLab for Startups users.
 
 **Q. Do these changes apply to Trials?**  
 A. No. These user limits do not apply to Trials during the trial period.
 
 **Q. Do these changes apply to public projects as well?**  
-A. Yes. these changes are applicable to both public and private projects. Free-tier users using GitLab for public open source projects should consider applying for the [GitLab for Open Source Program](https://about.gitlab.com/solutions/open-source/), which provides access to the GitLab Ultimate features and entitlements for free.
+A. No, these changes are applicable to top-level namespaces with private visibility. At this time, public projects in a top-level namespace with public visibility do not have a user limit. If you're a public open source project, you should consider applying for the [GitLab for Open Source Program](/solutions/open-source/), which provides access to the GitLab Ultimate features and entitlements for free.
+
+**Q. Do these changes apply to private projects within a top-level namespace with public visibility?
+A. User limits are currently applied based on the visibility of the top-level namespace. We will monitor how top-level namespaces with public visibility are using private projects to identify whether any limits on such projects are needed.
 
 **Q. When are these changes effective?**  
-A. The new user limit on the free tier will be enforced on new and existing free SaaS namespaces starting 2022-10-19.
+A. The new user limit on the free SaaS tier will not be applied before 2022-10-19 to new and existing free SaaS top-level namespaces with private visibility.
 
 **Q. Will I be personally notified of the changes?**  
 A. Namespaces impacted by this change will receive an in-product notification in the coming weeks. Those who do not engage with the in-app notification will also receive an email notification approximately four weeks prior to the effective date.
@@ -111,10 +109,10 @@ A. Namespaces impacted by this change will receive an in-product notification in
 ### Managing User Limits (Free tier only)
 
 **Q. What does namespace in the context of user limits refer to?**  
-A. In GitLab, a [namespace](https://docs.gitlab.com/ee/user/group/#namespaces) is a unique name for a user, a group, or subgroup, under which a project can be created. User limits are implemented at the **top level group or personal namespace**.
+A. In GitLab, a [namespace](https://docs.gitlab.com/ee/user/group/#namespaces) is a unique name for a user, a group, or subgroup, under which a project can be created. User limits are implemented at the **top-level group or personal namespace**.
 
 **Q. How are the total number of users in my namespace calculated?**  
-A. We count the sum of unique users within a namespace which includes the users in the parent namespace (group), subgroups, and projects. For example:
+A. We count the sum of unique users within a namespace which includes the users in the top-level namespace (group), subgroups, and projects. For example:
 If a user has a group named `top` and two sub-groups under `top` named `child1` and `child2` with 4 different unique users in each group, then the `top` namespace will have a total of 8 users, which is above the user limit of 5. If the two sub-groups contain the same 4 users, then `top` would only have 4 total users.
 
 **Q. Where can I view and manage the number of users in my namespace?**  
@@ -124,19 +122,19 @@ A. Users can view and manage the users in their namespace by going to Group > Gr
 A. If your project is not located within a group, you can manage the users in each of your personal projects but the sum of the unique users within all your personal projects cannot exceed 5.
 GitLab strongly encourages personal projects to be moved into Groups which will allow these projects to access all GitLab features as well as give you the ability to manage all users from the Usage Quotas page, start a trial, and purchase a subscription.
 
-**Q. What happens if I don’t reduce my user count before the enforcement date?**  
-A. When the 5 user limit is applied, only the most recently active 5 users can continue to access the namespace. The remaining users will be moved to the over-limit user state. These users will not be able to access the namespace. The namespace owner will be able to manage users from the Usage Quotas page - including deleting users, moving users from over-limit to active and vice versa.
+**Q. What happens if I don’t reduce my user count before the date they're applied?**  
+A. When the 5-user limit is applied to top-level namespaces with private visibility, only the most recently active 5-users can continue to access the namespace. The remaining users will be moved to the over-limit user state. These users will not be able to access the namespace. The namespace owner will be able to manage users from the Usage Quotas page - including deleting users, moving users from over-limit to active and vice versa.
 
 **Q. How can I add users beyond the limit of 5 users?**  
-A. The free tier has a limit of 5 users which cannot be increased. GitLab recommends the paid tiers - Premium or Ultimate - for larger teams as there are no user limits and they contain features designed to increase your team’s productivity. We recommend starting a [free trial](https://gitlab.com/-/trial_registrations/new?glm_source=about.gitlab.com&glm_content=storage-usage-blog-post) of GitLab Ultimate to experience the value of the paid features while also getting access to unlimited users for the trial period.
+A. The free tier has a limit of 5 users on top-level namespaces with private visibility which cannot be increased. GitLab recommends the paid tiers - Premium or Ultimate - for larger teams as there are no user limits and they contain features designed to increase your team’s productivity. We recommend starting a [free trial](https://gitlab.com/-/trial_registrations/new?glm_source=about.gitlab.com&glm_content=storage-usage-blog-post) of GitLab Ultimate to experience the value of the paid features while also getting access to unlimited users for the trial period.
 
-Free tier users can also consider using the self-managed deployment option that does not have user limits. GitLab also has special programs for Open Source projects and students/educators granting access to GitLab Ultimate. If you believe you could qualify for one of these programs you can learn more [here](/community).
+Free tier users can also consider using the self-managed deployment option that does not have user limits. GitLab also has special programs for Open Source projects and students/educators granting access to GitLab Ultimate. If you believe you could qualify for one of these programs you can learn more [here](/community/).
 
 ### Next Steps
 
 - Apply for [GitLab for Education](/solutions/education/join/), [GitLab for Open Source](/solutions/open-source/join/), or [GitLab for Startups](/solutions/startups/) if you meet the eligibility requirements.
 - Consider using a [self-managed instance](https://docs.gitlab.com/ee/subscriptions/self_managed/) of GitLab which does not have these limits on the free tier.
-- [Start a trial](/free-trial/) or [upgrade to GitLab Premium or Ultimate](/pricing) which include higher limits and features that enable growing teams to ship faster without sacrificing on quality.
+- [Start a trial](/free-trial/) or [upgrade to GitLab Premium or Ultimate](/pricing/) which include higher limits and features that enable growing teams to ship faster without sacrificing on quality.
 - [Talk to an expert](https://page.gitlab.com/usage_limits_help.html) to learn more about your options and ask questions.
 
 ## Public projects on GitLab SaaS Free Tier
@@ -144,13 +142,13 @@ Free tier users can also consider using the self-managed deployment option that 
 **Q. What is changing with public projects?**  
 The GitLab for Open Source Program was created to give back to the open source community by encouraging individuals and teams to contribute to open source. Public open source projects will need to be part of the GitLab for Open Source program to continue to receive GitLab Ultimate features.
 
-As previously announced, [all free tier public projects will not receive Ultimate by default](https://about.gitlab.com/blog/2022/02/04/ultimate-perks-for-open-source-projects/), and [all public projects will be subject to CI/CD minutes quotas applicable to their plan](https://about.gitlab.com/blog/2021/11/11/public-project-minute-limits/). Free tier users using GitLab for public open source projects should consider applying to the [GitLab for Open Source program](https://about.gitlab.com/solutions/open-source/) to continue to take advantage of GitLab Ultimate features such as portfolio management, advanced security testing, security risk mitigation, and compliance.
+As previously announced, [all free tier public projects will not receive Ultimate by default](/blog/2022/02/04/ultimate-perks-for-open-source-projects/), and [all public projects will be subject to CI/CD minutes quotas applicable to their plan](/blog/2021/11/11/public-project-minute-limits/). Free tier users using GitLab for public open source projects should consider applying to the [GitLab for Open Source program](/solutions/open-source/) to continue to take advantage of GitLab Ultimate features such as portfolio management, advanced security testing, security risk mitigation, and compliance.
 
 **Q. Which users are these changes applicable to?**  
 A. These changes are applicable to users with public projects on the free tier of GitLab SaaS. These changes do not apply to self-managed free and paid tier users, SaaS paid tier users, and community programs - including GitLab for Open Source, Education and Startups users.
 
 **Q. What is the effective date of the changes?**  
-A. The CI/CD limits on public projects will be enforced for all users including paid and free tier with public projects starting June 1, 2022.  
+A. The CI/CD limits on public projects will be applicable for all users including paid and free tier with public projects starting June 1, 2022.  
 Public projects on the free tier will stop receiving Ultimate entitlements by default starting July 1, 2022.  
 
 **Q. How can I retain the Ultimate entitlements for my public projects?**  
@@ -185,10 +183,10 @@ A. If you are not part of the GitLab for Open Source program, after July 1, 2022
 You will not lose any data, but you will not be able to create any new jobs or artifacts nor access Ultimate features if you have exceeded the usage limits of the free tier.
 
 **Q. Can I apply for GitLab’s Open Source program with some public projects and some private projects in my group?**  
-A. No. In order to meet the [requirements of the Open Source Program](https://about.gitlab.com/solutions/open-source/join/), **all** of the code you host in this GitLab group must be published under [OSI-approved open source licences](https://opensource.org/licenses/category). All projects under this group must have public visibility. Individual projects are not eligible for the Open Source Program. Additionally, your organization must not seek to make a profit. Please check all the eligibility requirements for the Open Source program [here](https://about.gitlab.com/solutions/open-source/join/).
+A. No. In order to meet the [requirements of the Open Source Program](/solutions/open-source/join/), **all** of the code you host in this GitLab group must be published under [OSI-approved open source licences](https://opensource.org/licenses/category). All projects under this group must have public visibility. Individual projects are not eligible for the Open Source Program. Additionally, your organization must not seek to make a profit. Please check all the eligibility requirements for the Open Source program [here](/solutions/open-source/join/).
 
 **Q. Do I need to apply for GitLab for Open Source Program for each individual project?**  
-A. No. You will need to apply for GitLab for Open Source Program at the top level [namespace](https://docs.gitlab.com/ee/user/group/#namespaces).
+A. No. You will need to apply for GitLab for Open Source Program at the top-level [namespace](https://docs.gitlab.com/ee/user/group/#namespaces).
 
 - All projects under this group must have public visiblity
 - All projects must be published under [OSI-approved open source licences](https://opensource.org/licenses/category).
@@ -197,5 +195,5 @@ A. No. You will need to apply for GitLab for Open Source Program at the top leve
 
 ### Next Steps
 
-- [Click here](https://about.gitlab.com/solutions/open-source/join/) to join the GitLab for Open Source program
-- [Purchase online](https://customers.gitlab.com) or contact [GitLab Sales](https://about.gitlab.com/sales) to upgrade to a paid GitLab.com tier - which have advanced capabilities and higher usage limits.
+- [Click here](/solutions/open-source/join/) to join the GitLab for Open Source program
+- [Purchase online](https://customers.gitlab.com) or contact [GitLab Sales](/sales/) to upgrade to a paid GitLab.com tier - which have advanced capabilities and higher usage limits.
