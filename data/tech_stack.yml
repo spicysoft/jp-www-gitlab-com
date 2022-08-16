@@ -2456,9 +2456,9 @@
   access_to: People Operations/People Experience
   provisioner: "@gl-people-exp"
   deprovisioner: "@gl-people-exp"
-  group_owner: People Experience Team
+  group_owner: People Connect Team
   group_owner_slack_channel: "#people-connect"
-  business_owner: People Experience Team
+  business_owner: People Connect Team
   technical_owner: Alex Venter, Ashley Jones, Emily Mowry
   data_classification: Orange
   integration_method: Email and Password login
@@ -3646,7 +3646,7 @@
   access_to: GitLab Team Members, @gl-people-exp team for admin access
   provisioner: '@gl-people-exp (provisioning integrated with BambooHR and Slack)'
   deprovisioner: '@gl-people-exp (deprovisioning integrated with BambooHR and Slack)'
-  group_owner: People Experience Team
+  group_owner: People Connect Team
   group_owner_slack_channel: '#people-connect'
   business_owner: Pattie Egan
   technical_owner: Alex Venter, Ashley Jameson, Ashley Jones, Emily Mowry, Sarah Hensiek

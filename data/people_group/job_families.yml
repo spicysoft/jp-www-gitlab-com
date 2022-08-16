@@ -235,7 +235,7 @@
   description: "/job-families/people-ops/total-rewards/"
 - title: People Business Partner
   description: "/job-families/people-ops/people-business-partner/"
-- title: People Operations
+- title: People Connect
   description: "/job-families/people-ops/people-operations/"
 - title: Director, People Tools and Technology
   description: "/job-families/people-ops/leadership-people-operations-tech-analytics/"
@@ -243,8 +243,6 @@
   description: "/job-families/people-ops/leadership-people-operations-tech-analytics/"
 - title: People Compliance
   description: "/job-families/people-ops/people-compliance/"
-- title: People Experience
-  description: "/job-families/people-ops/people-experience-associate/"
 - title: Public Relations
   description: "/job-families/marketing/pr-manager/"
 - title: Pricing
