@@ -3,7 +3,7 @@ name: Matthias Käppler
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend">Staff Backend Engineer,
-  Memory</a>
+  Application Performance</a>
 reports_to: cliu
 picture: matthiaskaeppler.jpg
 twitter: mttkay
@@ -13,7 +13,7 @@ departments:
 - Engineering Function
 - Development Department
 - Enablement Sub-department
-- Memory BE Team
+- Application Performance BE Team
 projects:
   gitlab:
   - maintainer backend
@@ -26,7 +26,7 @@ story: |
   Realizing that there's no career in treasure maps, he started to direct his attention to more promising pursuits,
   such as mobile application development, backend development, and a personal video game that he is unlikely to ever finish.
   Outside of work he likes to go on walks, watch Netflix with his wife and cat, and play Xbox.
-specialty: Memory
+specialty: Application Performance
 domain_expertise:
 - prometheus
 - ruby

@@ -1,12 +1,12 @@
 ---
 layout: job_family_page
-title: Senior Backend Engineer
+title: Staff Backend Engineer
 ---
 
 Backend Engineers at GitLab work on our product. This includes both the open source version of GitLab, the enterprise editions, and the GitLab.com service as well. They work with peers on teams dedicated to areas of the product. They work together with product managers, designers, and frontend engineers towards common goals.
 
 ## Job Grade
-The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff Backend Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ## Responsibilities
 * Develop features and improvements to the GitLab product in a secure, well-tested, and performant way.
@@ -17,7 +17,7 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 * Recognize impediments to our efficiency as a team ("technical debt"), propose and implement solutions.
 * Represent GitLab and its values in public communication around specific projects and community contributions.
 * Ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-* Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+* Participate in either Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
 
 ## Requirements
 * Ability to use GitLab.
@@ -39,23 +39,23 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 
 ## Levels
 * [Intermediate](/job-families/engineering/development/backend/intermediate/)
-* Senior
-* [Staff](/job-families/engineering/development/backend/staff/)
+* [Senior](/job-families/engineering/development/backend/senior/)
+* Staff
 * [Backend Engineering Manager](/job-families/engineering/backend-engineer/#backend-engineering-manager)
 
-### Senior
-#### Senior Responsibilities
-* Advocate for improvements to product quality, security, and performance that have particular impact across your team.
-* Solve technical problems of high scope and complexity.
-* Exert influence on the overall objectives and long-range goals of your team.
-* Experience with performance and optimization problems, particularly at large scale, and a demonstrated ability to both diagnose and prevent these problems.
-* Help to define and improve our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
-* Represent GitLab and its values in public communication around broader initiatives, specific projects, and community contributions.
-* Provide mentorship for Junior and Intermediate Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
-* Confidently ship moderately sized features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-* Improves the [engineering projects](/handbook/engineering/projects/) at GitLab as a [project maintainer](/handbook/engineering/workflow/code-review/#maintainer). For more information regarding timelines and exceptions, [see this page](/handbook/engineering/workflow/code-review/#senior-maintainers).
+### Staff
+#### Staff Responsibilities
+* Advocate for improvements to product quality, security, and performance that have particular impact across your team and others.
+* Solve technical problems of the highest scope and complexity for your team.
+* Exert significant influence on the overall objectives and long-range goals of your team.
+* Shepherd the definition and improvement of our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
+* Drive innovation on the team with a willingness to experiment and to boldly confront problems of immense complexity and scope.
+* Actively seek out difficult impediments to our efficiency as a team ("technical debt"), propose and implement solutions that will enable the entire team to iterate faster
+* Represent GitLab and its values in public communication around broad initiatives, specific projects, and community contributions. Interact with customers and other external stakeholders as a consultant and spokesperson for the work of your team.
+* Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
+* Confidently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 
-#### Senior Requirements
+#### Staff Requirements
 * TBD
 
 ## Specialties
@@ -89,8 +89,8 @@ Distribution Build engineering regularly interfaces with broader development tea
 
 ### Distribution:Deploy
 
-Deploy team closely partners with our greater engineering organization to configure and automate GitLab deployments.
-Deploy team is tasked with delivering an intuitive, clear, and frictionless installation experience, followed by smooth, seamless upgrade and maintenance processes for deployments of any scale. We strive to deliver ongoing operational behaviors for scaling, little to zero downtime upgrades, and highly reliable experiences for not only instance administrators but their users.
+The Deploy team closely partners with our greater engineering organization to configure and automate GitLab deployments.
+The Deploy team is tasked with delivering an intuitive, clear, and frictionless installation experience, followed by smooth, seamless upgrade and maintenance processes for deployments of any scale. We strive to deliver ongoing operational behaviors for scaling, little to zero downtime upgrades, and highly reliable experiences for not only instance administrators but their users.
 
 Distribution Deploy engineering regularly interfaces with broader development teams in supporting newly created features.
 Notably, our infrastructure team is the deploy team's biggest internal customer, so there is significant team interdependency.
@@ -115,24 +115,15 @@ The Distribution Deploy team is involved with diverse projects and tasks that in
 * Research of clouds and platforms for integration to existing tools
 
 ### Package
-Package engineers are focused on creating and maintaining the dependency management system that extends GitLab to function as a universal package management tool. The Package team is also improving the [Container Registry](https://gitlab.com/gitlab-org/container-registry) and is responsible for items listed under [Package product category](/handbook/product/categories/#package-stage).
+Package engineers are focused on creating the binary repository management system that will extend our Continuous Integration (CI) functionality to allow access and management of artifacts manipulated by projects.
 
-#### Requirements
-* Strong experience with Ruby on Rails and/or Golang.
-* Experience building highly available and performant business-critical product features.
-* Previous work with packaging and distribution technologies (example: npm, Maven, RPM) and/or Docker.
-* Understanding of how to build instrumented, observable software systems.
-* Desirable: DevOps experience, working with Linux, GCP/AWS, Chef/Ansible/Terraform, Helm/Kubernetes, or similar products.
+By extending the current CI artifacts system, the Package team will expose GitLab as a package repository allowing access to the most common package managers, e.g. Maven and APT and similar. Additionally, the Package team is improving the Container Registry and is responsible for items listed under [Package product category](/handbook/product/categories/#package).
 
-### Runner
-Runner engineers are primarily responsible for the [GitLab-Runner](https://gitlab.com/gitlab-org/gitlab-runner). The GitLab-Runner service acts as the interface between the rest of GitLab and a user's CI infrastructure, so that whether CI is running on a cluster of Raspberry Pis, a super-computer, or, as in the case with GitLab.com, thousands of virtual machines running in the cloud - it’s the GitLab-Runner that makes this happen. You can learn more about the Runner group on the [Runner product category](/handbook/product/categories/#runner-group) handbook page.
-
-#### Requirements
-* Experience with Ruby on Rails and/or Golang.
-* Experience building highly available and performant business-critical product features.
-* Understanding of how to build instrumented, observable software systems.
-* Desirable: DevOps experience, working with Linux, GCP/AWS, Chef/Ansible/Terraform, Helm/Kubernetes, or similar products.
-* Desirable: Strong experience with observability tools, including metrics (Prometheus is a plus), structured logging and distributed tracing.
+#### Responsibilities
+* Develop the architecture by extending existing features.
+* Work with the Distribution team on replacing their current delivery system.
+* Create and maintain observability of the newly defined features.
+* Work with customers on defining their needs to replace existing package repository solutions.
 
 ### Protect
 
@@ -225,42 +216,13 @@ The CI/CD Engineering Manager also does weekly stand-up with a team and product 
 * In-depth experience with Ruby on Rails, Go, and/or Git.
 * Experience with provisioning tools is beneficial but not essential.
 
-### Growth: Analytics and Experimentation
-Growth: Analytics and Experimentation Engineers build, maintain, and integrate with GitLab the tools necessary for experimentation and gathering analytics in a privacy-focused manner to enable product teams at GitLab to develop and report on product-led experiments and features.
+### Growth
+Growth Engineers work with a cross-functional team to influence the growth of GitLab as a business. In helping us iterate and learn rapidly, these engineers enable us to more effectively meet the needs of potential users.
 
 #### Requirements
 * Strong self-direction (this team is being bootstrapped).
 * Experience with A/B, multivariate, or other data-driven methods of testing.
 * Comfort multitasking in a highly iterative environment.
-
-##### Nice to have
-* Proven experimentation platform development experience
-* Familiarity with third party experimentation tools
-* Experience with Snowplow
-* Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
-
-### Product Intelligence
-Senior Backend Engineers in the Product Intelligence group play a key role in implementing analytics and data collection tools within the GitLab product in a privacy-focused manner.
-The group focuses on providing GitLab's team with data-driven product insights to build a better GitLab.
-
-The Senior Backend Engineer for Product Intelligence extends the Senior Backend Engineer requirements with these additional requirements and responsibilities.
-
-#### Requirements
-
-##### Nice to have
-* Proven database development experience with SQL.
-* Postgres database experience with replication, backup, indexing, and partitioning.
-* DevOps experience working with and configuring infrastructure (GCP/AWS, GKE, GCS, IAM).
-* Experience with dbt, or other related data engineering tools.
-* Experience with Snowflake and Snowpipe.
-* Experience with Snowplow collector.
-* Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
-
-#### Responsibilities
-* Build tooling to collect metrics from GitLab.com and self managed instances.
-* Work closely with GitLab's Data team to analyse data pipelines.
-* Build automation to ensure the quality of our collected metrics.
-* Build monitoring to ensure the reliability of our data pipelines.
 
 ### Engineering Productivity
 Engineering Productivity Engineers are full-stack engineers primarily tasked with improving the productivity of the GitLab developers (from both GitLab Inc and the rest of the community), and making the GitLab project maintainable in the long-term.
@@ -290,6 +252,7 @@ to understand what is working and what is not.
 See the description of the [Quality team](/handbook/engineering/quality/) for more details. The position also involves working with the community as [Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with our [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and address issues from the community.
 
 ### Application Performance
+
 The Application Performance team works to improve availability, reliability, and performance of the application. We analyze the behavior, recognize bottlenecks, and propose changes. We work to make GitLab a responsive and performant DevOps platform, which offers a great user experience at any scale.
 
 #### Responsibilities
@@ -449,7 +412,9 @@ performance through improving the reliability, availability and performance of i
 - Work with other engineering stakeholders on resolving larger architectural bottlenecks and participate as a representative of GitLab.com.
 - Provide guidance to other engineering stakeholders on scaling considerations.
 - Work closely with embedded Site Reliability Engineers to prepare and perform production changes.
-- Deliver scaling projects as a [Directly Responsible Individual (DRI)](/handbook/engineering/infrastructure/team/scalability/#project-ownership).
+- Prepare and deliver scaling projects as a Directly Responsible Individual (DRI).
+- Participate in many scaling initiatives concurrently.
+- Enable others to perform systems analysis on scaling problems.
 
 #### Requirements
 
@@ -458,8 +423,8 @@ Candidate should ideally be:
 - Methodical when troubleshooting and solving problems.
 - Experienced in working on large scale systems.
 - Experienced in application and systems observability.
-- Have working knowledge of one or more of the [technologies](https://docs.gitlab.com/ee/development/architecture.html) used to deliver GitLab.com.
-- Able to articulate systems performance concepts to other engineers.
+- Have working knowledge of one or more of the services used to deliver GitLab.com.
+- Able to articulate systems performance concepts to team members outside of Engineering.
 
 Other qualifications include:
 
@@ -487,7 +452,6 @@ Elasticsearch engineers are focused on delivering a first class global search ex
 * [Backend Unit Test Coverage](/handbook/engineering/development/performance-indicators/#backend-unit-test-coverage)
 * [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
 * [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
-
 
 ## Hiring Process
 Candidates for this position can generally expect the hiring process to follow the order below. Note that as candidates indicate preference or aptitude for one or more specialties, the hiring process will be adjusted to suit. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/company/team/).
