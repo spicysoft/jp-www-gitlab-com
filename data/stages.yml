@@ -1250,9 +1250,9 @@ stages:
       - "release"
     pm: Kevin Chu
     pmm: Saumya Upadhyaya
-    pdm: 
+    pdm:
       - Justin Mandell
-    spd: 
+    spd:
       - Andy Volpe
     section: ops
     slack:
@@ -1351,7 +1351,7 @@ stages:
         support: Cody West
         pdm:
           - Justin Mandell
-        spd: 
+        spd:
           - Andy Volpe
         ux:
           - Amelia Bauerly
@@ -1890,7 +1890,7 @@ stages:
         roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Adistribution&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
         pm: Dilan Orrino
         pmm: Saumya Upadhyaya
-        backend_engineering_manager: Steven Wilson
+        backend_engineering_manager: DJ Mountney (Interim)
         be_team_tag: Distribution Deploy BE Team
         fe_team_tag:
         support:
@@ -2267,7 +2267,7 @@ stages:
         # usage_driver_score: 5
         # asp_driver_score: 4
         # sam_driver_score:
-          
+
       pubsec_services:
         name: "US Public Sector Services"
         focus: GMAU
