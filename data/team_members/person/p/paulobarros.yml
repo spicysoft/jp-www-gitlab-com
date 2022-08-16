@@ -1,7 +1,9 @@
+---
 name: Paulo Barros
-locality: 
+locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
+  Engineer</a>
 reports_to: michael-lunoe
 picture: paulobarros.jpg
 pronouns: he/his
@@ -17,7 +19,7 @@ departments:
 - Fulfillment:Provision Team
 - Fulfillment:Provision BE Team
 - Backend
-specialty:
-  - 'Fulfillment: Provision'
+specialty: Fulfillment
 expertise:
 story:
+

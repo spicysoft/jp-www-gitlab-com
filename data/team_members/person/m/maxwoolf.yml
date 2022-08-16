@@ -1,0 +1,36 @@
+---
+name: Max Woolf
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
+  Manage:Compliance
+reports_to: dennis
+picture: maxwoolf.jpg
+gitlab: mwoolf
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Compliance BE Team
+- Merge Request Coach
+expertise: '<li><a href="/job-families/expert/merge-request-coach/">Merge Request
+  Coach</a></li>
+
+  '
+projects:
+  gitlab:
+  - maintainer backend
+  - reviewer database
+  gitlab-technical-interviews-backend: maintainer
+  tanuki_emoji: maintainer
+story: |
+  Max is an experienced Software Engineer based in Birmingham, England. He's spent his entire career working with Ruby on Rails projects of varying sizes and is a strong advocate of DevOps culture and cloud native development.
+  When he's not programming, he can usually be found hiking with his wife Ciara and dog Winston, baking or playing the piano.
+domain_expertise:
+- rails
+- ruby
+- manage
+- audit_events
+specialty: Analytics
+
