@@ -21,6 +21,7 @@ departments:
 - Backend
 projects:
   customers-app: reviewer backend
+  gitlab: reviewer backend
 specialty: Billing and Subscription Management
 expertise:
 story: Aman has worked across the tech-stack in a variety of domains and is passionate
