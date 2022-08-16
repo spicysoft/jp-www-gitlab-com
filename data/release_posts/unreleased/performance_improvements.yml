@@ -15,3 +15,5 @@ tertiary:
       - [GraphQL query timeout in MR page](https://gitlab.com/gitlab-org/gitlab/-/issues/355838)
       - [GraphQL: N+1 query issue when listing milestones](https://gitlab.com/gitlab-org/gitlab/-/issues/218975)
       - [Inefficient Gitaly#get_blobs calls for paginated content](https://gitlab.com/gitlab-org/gitlab/-/issues/363065)
+      - [Changes how project export tarballs are uploaded to external website](https://gitlab.com/gitlab-org/gitlab/-/issues/31744)
+      
