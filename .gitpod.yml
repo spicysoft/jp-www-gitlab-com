@@ -1,4 +1,4 @@
-image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com-ruby-3.0-node-16
+image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com-debian-bullseye-ruby-3.0-node-16
 
 ports:
   - port: 4567
