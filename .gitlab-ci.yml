@@ -84,7 +84,7 @@ default:
   # Note that the rspec job below uses a different image that also
   # includes chromedriver. If we update the Ruby version for this image,
   # we should also update it for the rspec job.
-  image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com-ruby-3.0-node-16
+  image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com-debian-${DEBIAN_VERSION}-ruby-3.0-node-16
   tags:
     - gitlab-org
   interruptible: true # All jobs are interruptible by default
@@ -117,7 +117,8 @@ variables:
   EXECUTOR_JOB_SECTION_ATTEMPTS: "3"
   # Performs an error check after each Bash script command is executed, and exits if the previously executed command returned a non-zero exit code
   # https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2671
-  FF_ENABLE_BASH_EXIT_CODE_CHECK: "true" 
+  FF_ENABLE_BASH_EXIT_CODE_CHECK: "true"
+  DEBIAN_VERSION: "bullseye"
 
 ### RULES REUSED VIA YAML ANCHORS:
 # YAML anchors reference: https://docs.gitlab.com/ee/ci/yaml/yaml_optimization.html#anchors
