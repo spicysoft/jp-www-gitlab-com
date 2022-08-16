@@ -1597,7 +1597,7 @@ container_scanning:
   stage: protect
   documentation: https://docs.gitlab.com/ee/user/application_security/container_scanning/
   direction: /direction/protect/container-scanning/
-  description: "Check Docker images for known vulnerabilities in the application environment. Analyze image contents against public vulnerability databases using the open source tool, Clair, that is able to scan any kind of Docker (or App) image. Vulnerabilities are shown in-line with every merge request."
+  description: "Scan container image dependencies against public vulnerability databases using the open source tools, Trivy or Grype."
   roi: true
   available: 2018-01-01
   viable: 2019-05-22
