@@ -9,7 +9,7 @@ description: "To convey the state of our GitLab feature set and be transparent, 
 canonical_path: "/competition/"
 ---
 
-- competitors = ["github"]
+- competitors = ["GitHub"]
 - stages = Gitlab::Homepage::Stage.all!.select(&:marketing)
 - totals = stage_maturity(stages)
 
@@ -26,15 +26,15 @@ canonical_path: "/competition/"
                 %p #{stage.display_name}
 
         %tr.stage-row
-          %td.stage-icon
-            = image_tag "/images/devops-tools/gitlab-logo.svg", alt: "GitLab logo", loading: 'lazy'
+          %td.stage-icon.h4
+            GitLab
           - stages.each do |stage|
             %td.stage-icon= totals[stage.key]['gitlab']
 
         - competitors.each do | competitor |
           %tr.stage-row
-            %td.stage-icon
-              = image_tag "/images/devops-tools/#{competitor}-logo.svg", alt: "#{competitor} logo", loading: 'lazy'
+            %td.stage-icon.h4
+              #{competitor}
             - stages.each do |stage|
               %td.stage-icon= totals[stage.key][competitor] || 0
 
@@ -52,11 +52,11 @@ canonical_path: "/competition/"
               %a{href: "##{stage.key}"}
                 = image_tag "/images/sdlc-icons/#{stage.key}.svg", alt: "#{stage.key}"
                 %p #{stage.display_name}
-            %td.stage-icon
-              = image_tag "/images/devops-tools/gitlab-logo.svg", alt: "GitLab logo", loading: 'lazy'
+            %td.stage-icon.h4
+              GitLab
             - competitors.each do | competitor |
-              %td.stage-icon
-                = image_tag "/images/devops-tools/#{competitor}-logo.svg", alt: "#{competitor} logo", loading: 'lazy'
+              %td.stage-icon.h4
+                #{competitor}
           - categories.each do |category|
             %tr.maturity-row
               %td
