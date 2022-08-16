@@ -16,7 +16,7 @@ departments:
 projects:
   gitlab:
     - reviewer backend
-    - reviewer ci_template
+    - trainee_maintainer ci_template
   gitlab-technical-interviews-backend: maintainer
   secure-analyzers: reviewer go
   secure-common-command: maintainer backend
