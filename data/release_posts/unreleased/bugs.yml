@@ -32,4 +32,8 @@ tertiary:
       - [The merge train button should not be enabled if there are MR dependencies](https://gitlab.com/gitlab-org/gitlab/-/issues/267092)
       - [Search result with long line changes displayed as horizontal scrolling](https://gitlab.com/gitlab-org/gitlab/-/issues/357066)
       - [Consider latest security report if base pipeline does not exist](https://gitlab.com/gitlab-org/gitlab/-/issues/366833)
-
+      - [Issue or MR Task checkbox cannot be clicked for ordered lists](https://gitlab.com/gitlab-org/gitlab/-/issues/370297)
+      - [Switching browser (Firefox) tabs will trigger shift left/right shortcuts](https://gitlab.com/gitlab-org/gitlab/-/issues/369901)
+      - [Description template for new issues overwrite local storage with unsaved data](https://gitlab.com/gitlab-org/gitlab/-/issues/364818)
+      - [&quot;Assign to commenting user&quot; is visible to users without permission](https://gitlab.com/gitlab-org/gitlab/-/issues/332270)
+      - [timestamp in &quot;issue moved&quot; activity is incorrect](https://gitlab.com/gitlab-org/gitlab/-/issues/363380)
