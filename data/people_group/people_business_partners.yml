@@ -1,0 +1,56 @@
+- name: Anjali Kaufmann
+  present: "Finance: Accounting, Business Technology, Data and Analytics, Information Technology, Enterprise Applications, and Procurement; G&A: People Success, Talent Acquisition, and Legal; CEO; Chief of Staff to the CEO" 
+  divisions_or_departments:
+  - Accounting
+  - Business Technology
+  - Data and Analytics
+  - Information Technology
+  - Enterprise Applications
+  - Procurement
+  - People Success
+  - Talent Acquisition
+  - Legal
+  - Chief of Staff to the CEO
+- name: Denise Parsonage
+  present: "Marketing: Awareness, Brand Activation, Campaigns, CMO Executive, Communications, Community Relations, Content Marketing, Digital Design, Digital Marketing, Field Marketing, Marketing Ops, Partner Marketing, Sales Development, and Search Marketing"
+  divisions_or_departments:
+  - Awareness 
+  - Brand Activation
+  - Campaigns
+  - CMO Executive
+  - Communications
+  - Community Relations 
+  - Content Marketing 
+  - Digital Design
+  - Digitial Marketing
+  - Field Marketing 
+  - Marketing Ops 
+  - Partner Marketing
+  - Sales Development 
+  - Search Marketing
+- name: Carolyn Bednarz
+  present: "Sales: Commercial Sales, Enterprise Sales, Field Operations"
+  divisions_or_departments:
+    - Commercial Sales
+    - Enterprise Sales
+    - Field Operations
+- name: Carlie Russell
+  present: "Sales: Customer Success, Channel and Alliances."
+  divisions_or_departments:
+    - Customer Success 
+    - Channel
+    - Alliances
+- name: Thilene Samuel 
+  present: "Engineering: Customer Support, Infrastructure, Quality, Security and UX"
+  divisions_or_departments:
+    - Customer Support
+    - Infrastructure
+    - Quality
+    - Security
+    - UX
+- name: Giuliana Lucchesi
+  present: "Engineering: Development and Incubation Engineering; Product: Product Management" 
+  divisions_or_departments:
+    - Development
+    - Incubation Engineering
+    - Product Management
