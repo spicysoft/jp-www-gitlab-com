@@ -20,6 +20,11 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 - `GitLab Team` contains reports that have been validated by the HackerOne triage team, but are yet to be assigned to a specific GitLab team member
 - `H1 Triage` are reports being triaged by the HackerOne triage team
 
+#### GitLab Team On-boarding
+
+- New members of the GitLab security team are granted access to the GitLab HackerOne team via an access request issue using the appropriate [role based entitlement template](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
+- During onboarding, new GitLab security team members will be invited to join the HackerOne program if their role requires it.
+
 #### Working the Queue
 
 - When beginning work on a report, the security team member should assign the
