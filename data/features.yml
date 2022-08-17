@@ -231,6 +231,31 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
+  - title : "Tasks"
+    description: "Tasks provide a robust way to refine an issue into smaller, discrete work units."
+    screenshot_url: tasks.png
+    link_description: "Learn more about Tasks"
+    link: https://docs.gitlab.com/ee/user/tasks.html
+    category:
+        - team_planning
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    bitbucket: false # BB Cloud very limited, not "powerful". BB server has none.
+    gogs: false
+    gitea: false
+    jira: true
+    broadcom_rally: true
+    fogbugz: partially
+    blueprint_storyteller: partially
+    basecamp: partially
+    microfocus_alm_octane: partially
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "Description Templates"
     description: "By adding a description template to your issues or merge requests, users who create a new issue or merge request can select a template to help them to communicate effectively."
     link: 'https://docs.gitlab.com/ee/user/project/description_templates.html'
@@ -253,10 +278,10 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-  - title : "Task Lists"
-    description: "Use task lists in issues, merge requests, and epics to manage tasks and track their completion using checkboxes."
+  - title : "Check Lists"
+    description: "Use check lists in issues, merge requests, and epics to manage tasks and track their completion using checkboxes."
     link: 'https://docs.gitlab.com/ee/user/markdown.html#task-lists'
-    link_description: "Learn more about Task Lists"
+    link_description: "Learn more about Check Lists"
     screenshot_url: task-lists.png
     category:
       - team_planning
