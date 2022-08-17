@@ -9721,6 +9721,25 @@ discussion to be focused on."
     pps_recent: 0
     pricing_theme: "Value stream management"
 
+  - title : "Insights: Custom DORA reporting"
+    description: |
+      Custom charts to visualize DORA data with Insights YAML-based reports.
+    link_description: "Learn more about Insights custom DORA reporting"
+    link: "https://docs.gitlab.com/ee/user/project/insights/"
+    solution: Manage
+    category:
+      - value_stream_management
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    gitlab_com: true
+    collabnet_continuum: true
+    splunk: true
+    pps_aggregate: 0
+    pps_recent: 0
+    pricing_theme: "Value stream management"
+
   - title : "Trigger pipeline on any event in code repository"
     description: |
       Enables pipelines/workflows to be started based on when any defined event is executed in the code repository. For example, could run a workflow to send a welcome email on adding a new member to a repository or project.
