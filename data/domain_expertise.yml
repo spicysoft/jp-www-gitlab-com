@@ -75,7 +75,7 @@ frontend_tooling:
   link: https://docs.gitlab.com/ee/development/fe_guide/tooling.html#tooling
 foundations_buddy:
   display_name: Foundations Buddy
-  link: https://about.gitlab.com/direction/create/ecosystem/#foundations-buddies
+  link: https://about.gitlab.com/direction/ecosystem/foundations/
 geo:
   display_name: Geo
   link: https://docs.gitlab.com/ee/administration/geo/index.html

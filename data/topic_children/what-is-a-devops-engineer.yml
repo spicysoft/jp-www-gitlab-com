@@ -1,0 +1,132 @@
+title: What Is a DevOps engineer?
+description: DevOps Engineers are responsible for managing and monitoring servers, networks, and other IT infrastructure. Learn more here!
+header_body: A developer who works on infrastructure is called a DevOps Engineer. They are responsible for building and maintaining the systems that support the application.
+canonical_path: /topics/devops/what-is-a-devops-engineer/
+file_name: what-is-a-devops-engineer
+parent_topic: devops
+body: >-
+  DevOps engineers are a main component to a successful [DevOps](/topics/devops/) implementation. Their responsibilities and objectives are centered on managing the development life cycle, reducing the complexity of the development process, and helping make applications more reliable. They also work to prevent silos and promote a [culture of collaboration](/stages-devops-lifecycle/).
+
+
+  DevOps engineers introduce processes, tools, and methodologies that streamline and secure the relationship between writing, deploying, and updating code when enhancements or fixes are made, and maintaining environments so they’re able to scale as required. 
+
+
+  Here, we’ll explore how DevOps engineers benefit software teams and the overall organization. We’ll also highlight DevOps engineers’ responsibilities; what skills, experience, and education are necessary to be a DevOps engineer, and what attaining the position can mean for an IT career.
+
+
+  ## How a DevOps engineer can help your team and company
+  
+  The more efficiently code changes can be deployed, the faster DevOps teams can iterate, and meet the needs of customers and a changing marketplace. DevOps engineers help make this happen.
+
+
+  The goal of a DevOps engineer is to reduce the complexity of the system development life cycle. By automating processes used in application maintenance and management, DevOps engineers enable seamless operations between different processes and development stages. This enables continuous integration and continuous delivery (CI/CD) practices, and the delivery of high-quality, well-tested code.
+
+
+  To do all of that, DevOps engineers introduce processes, tools, and methodologies that streamline and secure the relationship between writing, deploying and updating code when enhancements or fixes are made. 
+
+
+  ## Roles and responsibilities of a DevOps engineer
+  
+  DevOps engineers have a variety of functions that might differ between organizations. However, some common ones include:-
+
+
+  - Automating and improving code development, testing, and deployment
+
+
+  - Establishing processes and integrating tools that protect systems against cybersecurity threats
+
+
+  - Ensuring systems and processes are documented
+
+
+  - Performing system analyses to identify processes that can be automated, and improving on current automation. 
+
+
+  Additionally, DevOps engineers need to be able to work together with development and operations teams - as well as with other departments in the company - to continually improve collaboration and processes.
+  
+  
+  
+  ## Skills needed for the job
+
+  Individual companies generally have [different skill and experience requirements](/blog/2022/03/10/if-its-time-to-learn-devops-heres-where-to-begin/) for anyone taking on this role. However, there are some standard skills employers are looking for:-
+
+
+  ### Good communication
+    
+  Since DevOps engineers need to be able to collaborate with development and operations teams, they need to be able to bridge the gap that can exist between developers, who want to roll out new software features and modifications as quickly as possible, and operations team members, who want to ensure and maintain the stability of that software. 
+
+  [Communication is key](/blog/2020/11/23/collaboration-communication-best-practices/) to establish and maintain an efficient and smooth development life cycle; determining and meeting DevOps objectives; supporting and advising colleagues when required, and communicating development goals and progress to stakeholders.
+
+
+  ### Project management capabilities
+  
+  Project management is important in developing a solid DevOps culture, and engineers are largely responsible for it. Project management goes hand-in-hand with being able to communicate effectively. DevOps engineers facilitate cross-team collaboration to help all teams work together toward a common goal. These project management and communication skills also enable DevOps engineers to cooperate with colleagues in various departments, such as the C-Suite, finance and marketing.
+
+
+  ### The ability to optimize automation
+  
+  Automation is a critical part of an efficient DevOps lifecycle, decreasing hands-on work, and [speeding testing](/blog/2021/09/30/want-faster-releases-your-answer-lies-in-automated-software-testing/), [documentation](/blog/2022/01/11/16-ways-to-get-the-most-out-of-software-documentation/) and deployment. Once a process is automated, it needs to be continually improved upon, as needs and requirements throughout the process change. DevOps engineers are called on to continuously look for opportunities to improve, streamline, and automate the development and deployment process.
+
+
+  ### Familiarity with programming languages
+
+  While DevOps engineers don’t wear a software developer hat, familiarity with varying programming languages is beneficial, if not, often, required. Familiarity with several programming languages enables a DevOps engineer to more clearly identify opportunities to automate the development process. Popular languages, such as Python, Java, and JavaScript, are all good candidates for DevOps engineers to know.
+
+
+  ### An understanding of infrastructure
+  
+  Understanding infrastructure is essential for successful automation. And [Infrastructure as Code (IaC)](/blog/2022/02/17/fantastic-infrastructure-as-code-security-attacks-and-how-to-find-them/) is an important concept, since it can prevent common deployment problems by enabling applications to be tested in production-like environments early in the development process. Additionally, DevOps engineers should be able to design and manage infrastructures that are located on-premise, as well as those in the cloud.
+
+
+  ## Career benefits for DevOps engineers 
+
+  According to [the Robert Walters Group](https://www.robertwalters.co.uk/career-advice/latest-technology-advice/six-benefits-of-pursuing-a-devops-career.html) a global professional recruitment consultancy, there are several benefits to working as a DevOps engineer:-
+
+  - A high availability of job opportunities in an on-going skills shortage
+
+  - DevOps is a relatively new and evolving field, making working in it an exciting, educational, and challenging profession
+
+  - With a growing number of companies utilizing DevOps, job openings continue to grow.
+
+
+  ## Job skills and experience
+
+  To become a DevOps engineer typically calls for a tertiary qualification in computer science or a related area of study. To round out having job experience, [certifications are beneficial](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/). Soft skills also are recommended, enabling engineers to collaborate with different teams and departments, and communicate effectively and clearly with customers and colleagues on the business side of the company. 
+
+
+  ## Common interview questions for DevOps engineers
+
+  DevOps engineer job interview questions are often a mix between tooling and methodology. Some questions might include:-
+
+
+  - What are CI and CD? How are they different from each other?
+
+
+  - Why is CI needed?
+
+
+  - What role does continuous testing play in DevOps?
+
+
+  - Why is configuration management important?
+
+
+  - What are the different DevOps stages? How might each be implemented?
+
+
+  - What is the role of branching in version control systems like Git?
+
+
+  - What do you understand about the concept of IaC?
+
+
+  - How would you use hooks in the code repository when commits are made?
+
+  
+
+  ## Conclusion
+  
+  The future of DevOps engineering looks bright, but it isn’t something anyone can just jump into. Because of its direct involvement with both development and operations, as well as, its complex, many-hat-wearing nature, DevOps engineering requires a wide range of knowledge, a level of industry experience, and generally a tertiary qualification, like post-secondary education. 
+
+  DevOps engineering is rewarding, challenging, and offers an opportunity to learn and evolve.
+
