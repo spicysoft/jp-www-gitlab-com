@@ -181,6 +181,8 @@
   description: "/job-families/finance/it-operations-system-engineer/"
 - title: IT Security Analyst
   description: "/job-families/finance/it-security-analyst/"
+- title: IT Security Engineer
+  description: "/job-families/finance/it-security-analyst/"
 - title: Manager, IT Security Operations
   description: "/job-families/finance/manager-it-security-operations/"
 - title: Manager, IT
@@ -236,6 +238,8 @@
 - title: People Business Partner
   description: "/job-families/people-ops/people-business-partner/"
 - title: People Connect
+  description: "/job-families/people-ops/people-operations/"
+- title: People Operations Leadership
   description: "/job-families/people-ops/people-operations/"
 - title: Director, People Tools and Technology
   description: "/job-families/people-ops/leadership-people-operations-tech-analytics/"
