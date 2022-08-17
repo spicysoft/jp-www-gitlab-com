@@ -31,9 +31,6 @@ gem 'webrick', '~> 1.7'
 # OpenSSL for signing periscope URLs with SHA256 HMAC
 gem 'openssl', '~> 2.2.0'
 
-# Replacement of therubyracer
-gem 'mini_racer', '~> 0.4.0'
-
 # For feed.xml.builder
 gem 'builder', '~> 3.0'
 
