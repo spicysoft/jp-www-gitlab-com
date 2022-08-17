@@ -9,19 +9,20 @@ tertiary:
     description: |
       Some of the notable bug fixes in 15.3 are:
 
-      - [Cascade Parent/Child pipeline cancellation](https://gitlab.com/gitlab-org/gitlab/-/issues/273378).
-      - [Return latest job in Pipeline.job](https://gitlab.com/gitlab-org/gitlab/-/issues/368804).
+      - [Cascade Parent/Child pipeline cancellation](https://gitlab.com/gitlab-org/gitlab/-/issues/273378)
+      - [Return latest job in Pipeline.job](https://gitlab.com/gitlab-org/gitlab/-/issues/368804)
       - [Tags search doesn't work on older tags](https://gitlab.com/gitlab-org/gitlab/-/issues/367667)
       - [Invalid environment external_url disturbs the entire environment update process](https://gitlab.com/gitlab-org/gitlab/-/issues/337417)
-      - [Ability to configure auditor status of users via API](https://gitlab.com/gitlab-org/gitlab/-/issues/366404).
-      - [After GitLabv15.1, specific SAML Group Links scenarios result in the last owner of a group being removed](https://gitlab.com/gitlab-org/gitlab/-/issues/367953).
-      - [Starring projects shows wrong info about when project has been last updated](https://gitlab.com/gitlab-org/gitlab/-/issues/30247).
-      - [Anchor links on wiki pages don't work](https://gitlab.com/gitlab-org/gitlab/-/issues/362163).
-      - [Toggling between source and rich text editing on a wiki page can lose edits](https://gitlab.com/gitlab-org/gitlab/-/issues/369869).
+      - [Ability to configure auditor status of users via API](https://gitlab.com/gitlab-org/gitlab/-/issues/366404)
+      - [After GitLabv15.1, specific SAML Group Links scenarios result in the last owner of a group being removed](https://gitlab.com/gitlab-org/gitlab/-/issues/367953)
+      - [Starring projects shows wrong info about when project has been last updated](https://gitlab.com/gitlab-org/gitlab/-/issues/30247)
+      - [Anchor links on wiki pages don't work](https://gitlab.com/gitlab-org/gitlab/-/issues/362163)
+      - [Toggling between source and rich text editing on a wiki page can lose edits](https://gitlab.com/gitlab-org/gitlab/-/issues/369869)
       - [Going to the vulnerability report page returns an error](https://gitlab.com/gitlab-org/gitlab/-/issues/366841)
       - [Upgrades after db restore of 15.1.x fails with duplicate function insert_vulnerability_reads_from_vulnerability](https://gitlab.com/gitlab-org/gitlab/-/issues/368428)
       - [Deleting last file leaves empty package in UI](https://gitlab.com/gitlab-org/gitlab/-/issues/350615)
       - [Partial cleanup tooltip does not display time](https://gitlab.com/gitlab-org/gitlab/-/issues/364609)
+      - [Fix package details files row alignment when action column is visible)(https://gitlab.com/gitlab-org/gitlab/-/issues/362456)
       - [Users can't upload jpg files during issue creation on the GitLab Omnibus Docker image](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/6951)
       - [Something went wrong while fetching Epics](https://gitlab.com/gitlab-org/gitlab/-/issues/328429)
       - [Service Desk seems to ignore &quot;Accepted Headers&quot;](https://gitlab.com/gitlab-org/gitlab/-/issues/364683)
