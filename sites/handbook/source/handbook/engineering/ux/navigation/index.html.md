@@ -19,7 +19,7 @@ affects the usability and discoverability of our products.
 
 Navigation includes two distinct areas: 
 
-* **Top menu**: The top horizontal navigation that includes global links to areas such as your todos, issues, and merge requests across projects and groups.
+* **Top bar**: The top horizontal navigation that includes global links to areas such as your todos, issues, and merge requests across projects and groups.
 * **Left sidebar**: The contextual navigation that is dependent on the page being viewed.
 
 More details regarding Navigation can be found in the [Pajamas documentation](https://design.gitlab.com/regions/navigation).
