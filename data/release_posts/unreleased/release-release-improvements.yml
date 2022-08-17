@@ -14,5 +14,5 @@ features:
     - 'https://gitlab.com/gitlab-org/gitlab/-/issues/199429'
     - 'https://gitlab.com/gitlab-org/gitlab/-/issues/39471'
     description: |
-      In 15.3, we made several improvements that made GitLab Releases easier to use. Users can now [delete a release directly in the UI](https://gitlab.com/gitlab-org/gitlab/-/issues/39471), [set the release date in the UI](https://gitlab.com/gitlab-org/gitlab/-/issues/208948), [edit the release_at date in the UI](https://gitlab.com/gitlab-org/gitlab/-/issues/39471), and [easily identify a historical release](https://gitlab.com/gitlab-org/gitlab/-/issues/199429).
+      In 15.3, we made several improvements that made GitLab Releases easier to use. Users can now [delete a release directly in the UI](https://gitlab.com/gitlab-org/gitlab/-/issues/39471), [set the release date in the UI](https://gitlab.com/gitlab-org/gitlab/-/issues/208948), [edit the `release_at` date in the UI](https://gitlab.com/gitlab-org/gitlab/-/issues/39471), and [easily identify a historical release](https://gitlab.com/gitlab-org/gitlab/-/issues/199429).
       
