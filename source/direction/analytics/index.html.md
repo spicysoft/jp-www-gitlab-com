@@ -131,6 +131,8 @@ We will likely [need additional personas](https://gitlab.com/gitlab-com/Product/
 
 Some nuance can be added to our personas and how we approach them. Nearly all analytics questions, workflows, funnels, or any metrics gathering will require technical work to add instrumentation, test, and deploy it. This is the reason we are focusing on Sasha as our primary persona before Parker. We are addressing Sasha in the context that they are supporting Analytics efforts for their team. This means they are interested in how to do tasks related to adding instrumentation code, deploying it, and debugging it in support of analytics-related questions and projects. This is a more focused version of the Sasha overall persona.
 
+As part of considering these personas, consider what personas we are _not_ including in this initial list. Specifically, we are not targeting executive personas or Directors with the initial offering. Sasha and Parker are individual contributors and have unique needs different than Directors or executives. They are focused mainly on specific applications and the analytics related to them, whereas executives and Directors will be concerned about multiple, or a "fleet", of applications. We intend to go after these personas eventually and will not intentionally create capabilities that exclude them, but they are not our primary focus at this point.
+
 ## Pricing
 Our tiering plan will leverage our buyer-based model. The Analytics section, as a bridge from Ops to Dev (Plan) is an inherently collaborative stage. As a result, there are significant Paid Tier possibilities. Core will be seen primarily as a developer on-ramp.
 - **Core - Developer Buyer**
