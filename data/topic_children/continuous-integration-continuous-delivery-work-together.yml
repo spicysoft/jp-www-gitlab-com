@@ -1,0 +1,62 @@
+title: How continuous integration and continuous delivery work together
+description: Learn how continuous integration and continuous delivery use CI/CD
+  pipelines to help teams deploy faster.
+header_body: Learn how continuous integration and continuous delivery use CI/CD
+  pipelines to help teams deploy faster.
+canonical_path: /topics/ci-cd/continuous-integration-continuous-delivery-work-together/
+file_name: continuous-integration-continuous-delivery-work-together
+parent_topic: ci-cd
+twitter_image: /images/opengraph/ci-cd-opengraph.png
+cover_image: /images/topics/g_gitlab-ci-cd.svg
+body: >-
+  CI/CD helps DevOps teams release better quality software, faster. Continuous
+  integration and continuous delivery do this by automating the way teams build,
+  package, test, and deploy applications to users. 
+
+
+  Continuous integration encourages teams to commit small, frequent code changes to a central repository multiple times a day. All code changes are continually validated against other code changes integrated into the same repository. 
+
+
+
+  # CI/CD pipelines 
+
+
+  Code is tested at each stage through [automated CI/CD pipelines](https://about.gitlab.com/topics/ci-cd/cicd-pipeline/). If all jobs in a pipeline pass their tests, the pipeline proceeds to the next stage. If any job in a pipeline fails, the pipeline stops early. Developers can then fix the problems found in the tests, and with smaller code changes, this is a much easier task. CI/CD pipelines maintain the integrity of the shared repository because they ensure that only code that meets certain standards is integrated.
+
+
+  Once all code has passed the quality and security testing, it’s ready to be released. This is where continuous delivery takes over.
+
+
+  [Continuous delivery](https://about.gitlab.com/stages-devops-lifecycle/continuous-delivery/) automates the application release process for CI-validated code. Continuous delivery can cover everything from provisioning the infrastructure environment to deploying the tested application to test/staging or production environments. Continuous delivery uses pipelines to make sure that the application code is packaged with everything it needs to deploy to [any environment](https://about.gitlab.com/topics/multicloud/) you choose. 
+
+
+
+  # How continuous delivery works
+
+
+  The goal for organizations practicing continuous delivery is to make the software release process automated and repeatable (i.e. [boring](https://about.gitlab.com/blog/2020/08/18/boring-solutions-faster-iteration/)). CD allows teams to plan their release processes and schedules, automate infrastructure and deployments, and manage their [cloud resources](https://devops.com/cloud-and-devops-ci-cd-and-market-analysis/) more effectively. 
+
+
+  Deployment environments and architectures have grown more complex as development velocity has increased. Teams working in cloud environments may use containers and rely on orchestration tools like Kubernetes to ship applications. Other teams may have adopted a [microservices](https://about.gitlab.com/topics/microservices/) architecture. Continuous delivery needs to accommodate a vast array of deployment scenarios in order to be successful. This is why releases are often a bottleneck in the software delivery process.
+
+
+  Continuous integration and continuous delivery are the software processes that embody the DevOps philosophy. In the [ideal DevOps](https://about.gitlab.com/topics/devops/build-a-devops-team/) team structure, there is visibility and communication throughout the software development lifecycle. Information silos are limited so that dev and ops can work together. Similarly, CI can represent devs and CD can represent ops.
+
+
+  CI/CD is a DevOps best practice because it addresses the challenge between developers who want to move fast, with operations that want stability and reliability. With CI/CD automation, developers can push changes more frequently. Operations teams see greater stability because environments have standard configurations, there is continuous testing in the delivery process, and releases are repeatable and predictable.
+cta_banner:
+  - title: GitLab CI/CD
+    body: Powerful automation to build and test faster at any scale
+    cta:
+      - text: Learn more
+        url: /stages-devops-lifecycle/continuous-integration/
+resources_title: More on continuous integration
+resources:
+  - url: /blog/2016/12/14/continuous-delivery-of-a-spring-boot-application-with-gitlab-ci-and-kubernetes/
+    title: Continuous delivery of a Spring Boot application with GitLab CI and
+      Kubernetes
+    type: Blog
+suggested_content:
+  - url: /blog/2019/04/02/why-gitlab-ci-cd/
+  - url: /blog/2018/01/22/a-beginners-guide-to-continuous-integration/
+  - url: /blog/2019/06/21/business-impact-ci-cd/
