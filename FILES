@@ -23,6 +23,7 @@
 ./LICENCE
 ./README.md
 ./Rakefile
+./app
 ./babel.config.js
 ./bin
 ./comparison_pdfs.sh
