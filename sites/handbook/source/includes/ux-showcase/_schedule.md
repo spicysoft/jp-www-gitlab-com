@@ -2,8 +2,6 @@
 
 | Date ('22) | Host          | Presenter 1     | Presenter 2     | Presenter 3      | 
 | ---------- | ------------- | --------------- | --------------- | ---------------- | 
-| 8/3        | Justin        | Emily Bauman    | Amelia Bauerly  | Daniel Mora      | 
-| 8/17       | Taurie        | William Leidheiser | Emily Sybrant | Matej Latin     | 
 | 8/31       | TBD (APAC)    | Katie Macoy     | Michael Le      |                  | 
 | 9/14       | Marcel        | Nick Brandt     | Matt Nearents   | Nick Leonard     | 
 | 9/28       | Rayana        | Sunjung Park    | Michael Fangman | Camellia X Yang  | 
