@@ -9,8 +9,6 @@ title: "POA&M Vulnerability Deviation Request Procedure"
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-### Banner
-<!--HTML Parser Markup-->
 {::options parse_block_html="true" /}
 
 <div class="panel panel-gitlab-orange">
@@ -20,6 +18,7 @@ title: "POA&M Vulnerability Deviation Request Procedure"
 
 Inline with GitLab's regulatory obligations, changes to [controlled documents](https://about.gitlab.com/handbook/engineering/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged. 
 
+</div>
 </div>
 
 ---------------------
@@ -45,8 +44,9 @@ Not in scope:
 - Date adjustments (not allowed)
 
 ## Roles & Responsibilities
+
 | Role | Responsibility |
-| ---- | ------------- |
+| ------- | ------- |
 | GitLab Team Members | Submit the completed DR using the appropriate GitLab issue template, provide evidence | 
 | Security (AppSec or Vuln Management teams) | Complete technical review and approval of DR |
 | ISSO (Dedicated Compliance) | Complete compliance review of DR and upgrade to POA&M |
@@ -57,9 +57,9 @@ Anyone at GitLab can submit a deviation request (DR) via a [GitLab issue in this
 
 To open the DR the applicable issue template must be selected and all information must be completed prior to submitting the issue for internal review. Each DR will undergo three rounds of review:
 
-1) First a technical review will be completed to ensure the DR is technically required and there are no alternative options. 
-2) Second an ISSO review will be completed to determine the level of impact the DR will have on security controls, compensating control opportunities and, if approved, upgrade to the GitLab POA&M.
-3) Finally an [authorizing official (AO)](https://csrc.nist.gov/glossary/term/authorizing_official) from our sponsoring Agency will review the request in accordance with the [Continuous Monitoring (ConMon) Guidance](https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf). This is the ultimate decision maker. Note: Risk acceptance by GitLab (the business) is not allowed (i.e. we cannot ignore a legitimate vulnerability) as this responsibility lays with the AO.
+1. First a technical review will be completed to ensure the DR is technically required and there are no alternative options. 
+1. Second an ISSO review will be completed to determine the level of impact the DR will have on security controls, compensating control opportunities and, if approved, upgrade to the GitLab POA&M.
+1. Finally an [authorizing official (AO)](https://csrc.nist.gov/glossary/term/authorizing_official) from our sponsoring Agency will review the request in accordance with the [Continuous Monitoring (ConMon) Guidance](https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf). This is the ultimate decision maker. Note: Risk acceptance by GitLab (the business) is not allowed (i.e. we cannot ignore a legitimate vulnerability) as this responsibility lays with the AO.
 
 If denied, a remediation plan must be developed and this item will remain on the POA&M. 
 
