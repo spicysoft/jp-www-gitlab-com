@@ -1,7 +1,7 @@
 ---
 features:
   primary:
-  - name: Simulate default branch pipeline in the Pipeline Editor"
+  - name: "Simulate default branch pipeline in the Pipeline Editor"
     available_in: [core, premium, ultimate]
     documentation_link: 'https://docs.gitlab.com/ee/ci/pipeline_editor/'
     video: 'https://www.youtube.com/embed/yYjmd-lgzMk'
