@@ -1,7 +1,9 @@
+---
 name: Roy Zwambag
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend">Backend Engineer, Application Performance</a>
+role: <a href="/job-families/engineering/development/backend">Backend Engineer, Application
+  Performance</a>
 reports_to: cliu
 picture: rzwambag.jpg
 pronouns: he/him
@@ -18,8 +20,9 @@ projects:
   gitlab:
   - reviewer backend
   - trainee_maintainer backend
-specialty: Application Performance
+specialty: Memory
 expertise:
 story: |
   Roy is a backend engineer from the Netherlands. He enjoys solving problems and learning new things.
   In his free time he enjoys playing video games, reading books, travelling and learning new skills (such as cooking).
+
