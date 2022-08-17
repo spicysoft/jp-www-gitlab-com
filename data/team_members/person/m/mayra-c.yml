@@ -1,0 +1,26 @@
+---
+name: Mayra Cabrera
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/#delivery">Senior Backend Engineer, Delivery</a>
+reports_to: amyphillips
+picture: mayra.jpg
+twitter: may_cabrera
+gitlab: mayra-cabrera
+specialty: <a href="/handbook/engineering/infrastructure/team/delivery/">Delivery</a>
+departments:
+- Engineering Function
+- Infrastructure Department
+- Platform Subdepartment
+- Delivery Team
+- Merge Request Buddy
+projects:
+  gitlab:
+  - maintainer backend
+  - maintainer database
+  release-tools: maintainer
+story: 'Mayra is a software engineer that values clean, well-crafted code created through best practices and patterns over anything else. In her spare time, Mayra enjoys traveling, books, neuroscience, linguistic fun, and of course, cats.'
+expertise: |
+  <li><a href="https://gitlab.com/gitlab-org/release/">Release</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge Request Buddy</a></li>
+  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
