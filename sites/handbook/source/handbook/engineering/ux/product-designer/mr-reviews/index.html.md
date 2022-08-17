@@ -40,7 +40,7 @@ Community submitted MRs require more context to review and are assigned to the d
 
 ## Workload and response times
 
-MR review requests are the [number one priority for Product Designers](/handbook/engineering/ux/product-designer/#priorities). Respond to them per our [first-response Service-Level Objective](/handbook/engineering/workflow/code-review/#first-response-slo). 
+MR review requests are the [number one priority for Product Designers](/handbook/engineering/ux/product-designer/#priorities). Respond to them per our [review-response Service-Level Objective](/handbook/engineering/workflow/code-review/#review-response-slo). 
 
 Balancing MR reviews with other priorities is a challenge, as they can be unpredictable. To avoid disruptions and context-switching, we suggest you block some time every day to review MRs (for example, 30 minutes or 1 hour per day).
 
