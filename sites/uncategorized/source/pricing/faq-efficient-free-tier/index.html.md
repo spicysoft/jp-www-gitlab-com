@@ -89,7 +89,7 @@ For example:
 A. There will be a 5-user limit for top-level namespaces with private visibility. At this time, top-level namespaces with public visibility will not have a user limit.
 
 **Q. Who do these changes apply to?**  
-A. These user limits are applicable only to users of the free tier of the GitLab SaaS offering in a top-level namespace with private visibility. These changes do not apply to users of the the free tier of the GitLab SaaS offering in a public top-level namespace, paid tiers, the free tier of the self-managed offering and [community programs](/community/), including GitLab for Open Source, GitLab for Education, and GitLab for Startups users.
+A. These user limits are applicable only to users of the free tier of the GitLab SaaS offering in a top-level namespace with private visibility. These changes do not apply to users of the free tier of the GitLab SaaS offering in a public top-level namespace, paid tiers, the free tier of the self-managed offering and [community programs](/community/), including GitLab for Open Source, GitLab for Education, and GitLab for Startups users.
 
 **Q. Do these changes apply to Trials?**  
 A. No. These user limits do not apply to Trials during the trial period.
