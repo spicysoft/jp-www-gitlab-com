@@ -130,4 +130,5 @@
   domains:
     - backend
   max_trainees: 2
-  trainees: []
+  trainees:
+    - Drew Blessing (@dblessing)

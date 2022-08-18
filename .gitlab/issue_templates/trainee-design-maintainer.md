@@ -30,7 +30,7 @@ together with your manager and current maintainers.
 
 All designers are maintainers of [`gitlab-design`](https://gitlab.com/gitlab-org/gitlab-design)
 project. If you are interested in becoming a Maintainer of UI (`.scss`) for
-`gitlab-ce`, `gitlab-ee`, and `gitlab-ui` projects, please follow the [Engineering Review Workflow](/handbook/engineering/workflow/code-review).
+`gitlab-ce`, `gitlab-ee`, and `gitlab-ui` projects, please follow the [Engineering Review Workflow](https://about.gitlab.com/handbook/engineering/workflow/code-review/).
 
 It is up to you to ensure that you are getting enough MRs to review, and of varied
 types. You could also seek out more reviews from your team, for example by asking
@@ -84,17 +84,17 @@ time.
     1. [ ] `design.gitlab.com: maintainer UX`
     1. [ ] `gitlab-svgs: maintainer Figma`
     1. [ ] `gitlab-svgs: maintainer UX`
-1. [ ] Create a merge request for CODEOWNERS of [`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
-    or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs), adding yourself
+1. [ ] Create a merge request for CODEOWNERS of [`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/.gitlab/CODEOWNERS)
+    or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs/-/blob/main/.gitlab/CODEOWNERS), adding yourself
     accordingly, and ask a maintainer to review it.
     1. As maintainer, you must keep [relying on others](https://about.gitlab.com/handbook/values/#its-impossible-to-know-everything) for the expertise they have that you don't. In the MR description, highlight the efforts that showcase your results at a maintainer-level, what skills you want to continue working on, and add a link to this issue. ([Example](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/2395)). 
     1. [ ] [design.gitlab.com CODEOWNERS file](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/blob/main/.gitlab/CODEOWNERS)
     1. [ ] [gitlab-svgs CODEOWNERS file](https://gitlab.com/gitlab-org/gitlab-svgs/-/blob/main/.gitlab/CODEOWNERS)
 1. [ ] Ask a current project owner or maintainer to change your role on the project to **Maintainer**.
-1. [ ] After your team member entry merge request has merged, ask your manager to share the news in the following:
-   1. [ ] [UX Weekly](https://docs.google.com/document/d/189WZO7uTlZCznzae2gqLqFn55koNl3-pHvU-eVnvG9c/)
-   1. [ ] [Engineering week in review](https://docs.google.com/document/d/1GQbnOP_lr9KVMVaBQx19WwKITCmh7H3YlgO-XqVwv0M/)
-   1. [ ] [#ux-maintainers](https://gitlab.slack.com/archives/CU0V3DVRC) and [#ux](https://gitlab.slack.com/archives/C03MSG8B7) Slack channels
+1. [ ] After your team member entry merge request has merged, ask your manager or maintainer buddy to share the news in the following:
+   1. [ ] [UX Weekly](https://docs.google.com/document/d/1fSRyTboySDpWPrQiiFIcIOhg09-9G54haIippIVtcCY/)
+   1. [ ] [Engineering week in review](https://docs.google.com/document/d/1JBdCl3MAOSdlgq3kzzRmtzTsFWsTIQ9iQg0RHhMht6E/edit)
+   1. [ ] [#ux](https://gitlab.slack.com/archives/C03MSG8B7) Slack channels
 1. [ ] Keep reviewing, start merging 😃
 
 /label ~"trainee maintainer" ~Pajamas

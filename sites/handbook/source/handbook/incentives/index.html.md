@@ -413,7 +413,7 @@ In addition to transportation, team members can expense hotels when traveling ou
 
 ##### Additional spending guidelines
 
-All individual plane travel must be booked through [TripActions](/handbook/travel/#booking-travel-and-lodging) when possible. You may also choose to book lodging and other travel through TripActions. In TripActions, you should put "FY23-Q3 Visiting Grant" in the *Purpose* field when booking.
+All individual plane travel must be booked through [TripActions](/handbook/travel/#booking-travel-and-lodging) when possible. You may also choose to book lodging and other travel through TripActions. In TripActions, you should put "FY23-Q3 Visiting Grant" in the *Purpose* field when booking. For flights booked outside of TripActions, team members should expense tickets up to the maximum amount through Expensify. Be aware that by not using TripActions, team members will be responsible for potential fees associated with any transport issues (ie. cancellations). 
 
 Preference using your budget toward booking air travel through TripActions before you spend any of your allocation on other expenses. Unless you receive an exception, **if you spend over $1,000 on airfare, you will need to reimburse GitLab for the overage. When your expense cap is exceeded, do not expense additional expenses, for example, hotel, events, and food, associated with your travels.** If you choose to spend above your budget on air travel, you should still book through TripActions, but you will be responsible for your overages. You will also be responsible for any overages in Expensify.
 
@@ -435,6 +435,7 @@ Team members should be aware of key GitLab policies and asks.
 
 1. Activities should be consistent with GitLab's [values](/handbook/values/).
 1. Any travel should be in line with our [travel policy](/handbook/travel/) and associated activities should comply with company [COVID policy around testing, masking, vaccination, etc...](/handbook/travel/#travel-guidance-covid-19).
+1. Team members should review [GitLab's Business Travel Accident Policy](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#business-travel-accident-policy) and familiarize themselves with the company's [travel insurance](https://drive.google.com/file/d/0B4eFM43gu7VPVl9rYW4tXzIyeUlMR0hidWIzNk1sZjJyLUhB/view?resourcekey=0-CDrQbA3YfmHHDM69Zuzxlg). GitLab will not be responsible for activities that fall outside of the policy. 
 1. Team members should adhere to the [GitLab Code of Conduct](/company/culture/contribute/coc/).
 1. Team members should refer to our [contracts and vendor policies](/legal/procurement-guide-collaborating-with-gitlab-legal/#signing-contracts) and refrain from signing contracts on behalf of GitLab. 
 1. Associated activities should comply with local laws.

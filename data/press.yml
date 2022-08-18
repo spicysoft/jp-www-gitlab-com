@@ -1,5 +1,45 @@
 recent_news:
 
+  - title: "ExecutiveBiz: Industry Vets Janelle Romano, Patty Molthen Appointed to GitLab’s Federal Advisory Board"
+    logo: /images/press/ExecutiveBiz-logo.png
+    link: "https://blog.executivebiz.com/2022/08/janelle-romano-patty-molthen-appointed-to-gitlabs-federal-advisory-board/"
+    date: 2022-08-04
+
+  - title: "DBTA: CircleCI Provides Native Support for GitLab Customers"
+    logo: /images/press/dbta-logo.png
+    link: "https://www.dbta.com/Editorial/News-Flashes/CircleCI-Provides-Native-Support-for-GitLab-Customers-154187.aspx"
+    date: 2022-08-01
+
+  - title: "The Lab with Brendan O’Leary EP #15"
+    logo: /images/press/digital-anarchist-logo.png
+    link: "https://digitalanarchist.com/videos/the-lab/the-lab-with-brendan-oleary-ep-15"
+    date: 2022-07-29
+
+  - title: "InfoQ: GitLab 15 Improves Editing, Metrics, Container Scanning, Security and More"
+    logo: /images/press/infoQ-logo.png
+    link: "https://www.infoq.com/news/2022/07/gitlab-15-releases/"
+    date: 2021-07-28
+
+  - title: "DevOps.com: CircleCI Integrates CI/CD Platform With GitLab"
+    logo: /images/press/devops-dot-com-logo.png
+    link: "https://devops.com/circleci-integrates-ci-cd-platform-with-gitlab/"
+    date: 2022-07-27
+
+  - title: "Federal News Network: To institutionalize DevSecOps, Navy’s Black Pearl aims to ‘commoditize the boring stuff’"
+    logo: /images/press/fnn-logo.svg
+    link: "https://federalnewsnetwork.com/on-dod/2022/07/to-institutionalize-devsecops-navys-black-pearl-aims-to-commoditize-the-boring-stuff/"
+    date: 2022-07-27
+
+  - title: "TechCrunch: CircleCI partners with GitLab"
+    logo: /images/press/techcrunch-logo.svg
+    link: "https://techcrunch.com/2022/07/26/circleci-partners-with-gitlab/"
+    date: 2022-07-26
+
+  - title: "The New Stack: Investing in the Next Generation of Tech Talent"
+    logo: /images/press/the-new-stack-logo.svg
+    link: "https://thenewstack.io/investing-in-the-next-generation-of-tech-talent/"
+    date: 2022-07-21
+
   - title: "Dev interrupted: What a Healthy Relationship with Open Source Looks Like ft. GitLab's John Coghlan"
     logo: /images/press/dev-interrupted-logo.png
     link: "https://devinterrupted.com/podcast/what-a-healthy-relationship-with-open-source-looks-like/"
