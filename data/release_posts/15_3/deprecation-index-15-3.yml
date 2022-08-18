@@ -7,4 +7,3 @@
     - feature_name: Redis 5 deprecated
     - feature_name: Security report schemas version 14.x.x
     - feature_name: Use of id field in vulnerabilityFindingDismiss mutation
-  
