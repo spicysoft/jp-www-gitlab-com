@@ -160,7 +160,7 @@ The following active SKUs are related to the GitLab for Open Source Program:
  * `[OSS Program] Self-Managed - Ultimate - 1 Year`
  
 # <i class="far fa-newspaper" id="biz-tech-icons"></i> GitLab Open Source Partners
-The [GitLab Open Source Partners](https://about.gitlab.com/solutions/open-source/partners/) program exists to build relationships with prominent open source projects using GitLab as a critical component of their infrastructure. While most partners are also members of the GitLab for Open Source Program, not all are (as some partners are commercial open source entities and therefore ineligible for the program). Most partners use GitLab Ultimate (either SaaS or self-managed); however, some prefer using the fully open source [Community Edition](https://about.gitlab.com/install/ce-or-ee/) because of their strong commitment to using only open source tools.
+The [GitLab Open Source Partners](/solutions/open-source/partners/) program exists to build relationships with prominent open source projects using GitLab as a critical component of their infrastructure. By building these relationships, GitLab hopes to strengthen the open source ecosystem.
 
 Open source partners receive [specific benefits](/handbook/marketing/community-relations/opensource-program/#what-are-the-benefits-of-being-a-member-of-the-gitlab-open-source-partners-program) by joining the program. GitLab benefits from these partnerships when open source partners provide valuable feedback and data on their use of GitLab, even contribute to GitLab's open core. All parties jointly benefit when they're able to collaborate on community outreach, co-marketing, joint announcements, and special initiatives.
 
@@ -187,6 +187,8 @@ Members of the GitLab Open Source Partners program agree to:
 
 ### Who qualifies for the GitLab Open Source Partners program?
 
+While most partners are also members of the GitLab for Open Source Program, not all are (as some partners are commercial open source entities and therefore ineligible for the program). Most partners use GitLab Ultimate (either SaaS or self-managed); however, some prefer using the fully open source [Community Edition](https://about.gitlab.com/install/ce-or-ee/) because of their strong commitment to using only open source tools.
+
 Membership in GitLab Open Source Partners program is largely by invitation. Members of the open source program team extend invitations to longtime members of the GitLab for Open Source Program, projects using GitLab in interesting and innovative ways from which others can learn, or projects with large communities and brand recognition already using GitLab for everyday operations.
 
 Additionally, GitLab team members can nominate open source projects or organizations to become partners. To do so, they can simply open an issue in the [Open Source Partners Program project](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program) and use the `open-source-partner-nomination` issue template.
@@ -196,81 +198,62 @@ Additionally, GitLab team members can nominate open source projects or organizat
 
 ## Program management resources
 
+### Managing projects
+
+Work on the GitLab Open Source Partners program occurs in two primary locations:
+
+* [GitLab Open Source Partners](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners), a **public group** and the default location for program activity. Program members receive access to the project and `Developer`-level persmission inside it. It's the place where program members, GitLab team memebers, and the wider open source community can interact, collaborate, share, and build.
+
+* [Open Source Partners Program](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program), a **private project** accessible only to GitLab team members. This project is private because it contains sensitive personal data pertaining to open source partners and features a private service desk exclusively for GitLab Open Source Partners working on non-public issues. See the [Community Relations Program Management handbook section](/handbook/marketing/community-relations/project-management/) to learn more.
+
 ### Welcoming new partners
 
-We maintain [email templates](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program/-/tree/master/templates) to help us interact with prospective and current partners. When an organization has joined the GitLab Open Source Partners program, we send [an onboarding packet](https://docs.google.com/presentation/d/1VvRza5K_fAYTXVfxGF494cQM7vIUxSv7vPMTtmo-PmY/edit#slide=id.gd40831fb97_0_0).
+We maintain [email templates](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program/-/tree/master/templates) to help us interact with prospective and current partners. When an organization has joined the GitLab Open Source Partners program, we send a comprehensive [program guide](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-resources/-/blob/main/program-guide/gitlab-open-source-partners-program-guide.pdf).
 
-### Collecting partner contact information
-We need to make sure that we have the right contact information for our open source partners.
+### Collecting and managing partner contact details
 
-Suggested touchpoints for requesting contact information and updates:
+We maintain a confidential, non-public [register of our partners' contact details](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program/-/tree/master/current-partners) so we can remain connected to them.
 
- * Onboarding new OSS Partners (within first 30 days) -- make sure initial contacts are given.
- * Once a year (during Q4) request a refresh
+When partners join the program, we instruct them to submit key community contact information to the private partner service desk at `ospartners@gitlab.com`. The Open Source Program Manager responds to these requests and updates internal documentation.
 
-Some OSS Partners will not have contacts for each function. If that's the case, the contact for that function should be left blank and the Primary contact should be contacted instead.
+We periodically request updated contact information from partners to ensure we remain connected to the proper community representatives.
 
-Multiple contacts can be added for each of these functions except the primary contact. We maintain contact lists that include the following functions:
+We try to maintain partner registries containing the following community contacts:
 
- * **Primary:** Represents OSS Partner at meetings and is our main line of contact. Main relationship owner.
- * **Alternate:** Will be contacted if we are unable to reach the Primary contact and will be the backup representative.
- * **Marketing:** Contacted when event and marketing opportunities for OSS Partners arise.
- * **Technical:** Contacted for participation in surveys or focus studies that require technical expertise, or when something at GitLab may require input from technical contacts from our OSS Partner orgs. Usually someone from the SysAdmin team is listed as the Technical contact.
- * **Legal:** (optional) The person or team who can weigh in on legal matters like updates to terms of service agreements or partnership activities.
- * **Others:** Anyone else who is a key stakeholder to the OSS Partner org. Please specify their role and when to contact.
+* **Primary:** The person representing the project and/or community at meetings and serving as our principal connection to the project.
+* **Alternate:** The person we can contact if we're unable to reach the primary contact.
+* **Marketing:** The person we contact when partner event and marketing opportunities arise.
+* **Technical:** The person we contact regarding participation in surveys or focus studies that require technical expertise, or when something at GitLab may require input from technical contacts at open source partner organizations.
+* **Legal:** (optional) The person we contact to weigh in on legal matters, such as updates to terms of service agreements, partnership activities, or permission to use a project's logo.
 
-**Related Documents:**
- * **[OSS Partners Contact Info](https://docs.google.com/spreadsheets/d/1UFaRATA8I2mmcZ-77KBXMoNZCmut5TalZytIzWCh1HQ/edit#gid=484404042)** -- This is confidential, internal information and requires a GitLab team member login. OSS Partners can request updates or removal of information at any time.
- * **[Email Templates](https://docs.google.com/document/d/1et0t3CLQdT8I2UbxBVrpFqMXmnd6cEtMZuE61V1DiXM/edit#heading=h.jc6mgcides78)** -- This document contains email templates that are useful for asking for contact information at the suggested times.
+### Tracking partner issues
 
-### Using issue trackers
-We use [public issue trackers](https://gitlab.com/gitlab-org/gitlab/-/boards/1625116?&label_name[]=Open%20Source%20Partners) to help our [OSS Partners](/solutions/open-source/partners/) through and beyond migration.
+Gitlab's open source partners requesting support track most of their issues publicly. They do this via issue trackers located in the [GitLab Open Source Partners](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners) group—most commonly the [Community Support](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues) project. Here, fellow open source partners partners and GitLab team members can collaborate on supporting GitLab's open source partners.
 
-Public issue trackers help us understand the priority of various feature requests and bugs for our Open Source Partners (priority is denoted as: blockers, urgent, important, and nice-to-have). When OSS Partners set up a public issue tracker, it has the added benefit of helping them get used to our workflow so that they can start giving us more product feedback and helping us improve the product together.
+Often, partners wish to open issues related to their work migrating infrastructure from legacy infrastructure to GitLab (for instance, note examples from [KDE](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/7), [Drupal](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/4), and [Freedesktop.org](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/9)). To create migration-focused issues, partners can use the `open-source-partner-migration` issue template.
 
-We ask that a representative of the OSS Partner org opens the issue tracker so that they are able to edit the description section. If someone at GitLab opens the issue on the OSS Partner's behalf, the OSS Partner will not have edit access.
+### Sharing partner stories
 
-Follow these steps to create a public issue tracker:
+The GitLab Open Source Partners program is a commuinity-focused marketing effort designed to highlight ways high-profile open source communities are using—and succeeding with—GitLab. As such, we aim to share partner stories whenever possible.
 
-1. Create a [New Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new) in the `gitlab.com/gitlab-org/gitlab` [project](https://gitlab.com/gitlab-org/gitlab/)
-1. Select the `OSS_Partner` template where it prompts you to select a template, and click on `Apply template`
-1. Add in as much information as possible. Once finished, submit it.
+We do this in many ways, including:
 
-Examples of public issue trackers:
-* [KDE](https://gitlab.com/gitlab-org/gitlab/-/issues/24900)
-* [Eclipse Foundation](https://gitlab.com/gitlab-org/gitlab/-/issues/195865)
-* [Freedesktop](https://gitlab.com/gitlab-org/gitlab/-/issues/217107)
+* posts on the GitLab blog
+* case studies for GitLab.com
+* webcasts and webniars for GitLab's video channels
+* event showcases and presentations
 
-### Project Management for open source partners
-We use the [GitLab Open Source Partners project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/oss-partners-program/-/boards) to keep internal notes around collaboration with our OSS Partners. This project is accissible only by GitLab team members only as it contains sensitive information that should not be made publicly available. This board also contains a view of all Open Source Partners and has labels to help us identify if they align with any of our GTM messaging.
+When we publish new partner-related stories, we link to them on the GitLab Open Source Partners [program page](/solutions/open-source/partners/) and the GitLab for Open Source [solutions page](/solutions/open-source/partners/).
 
-We use the GitLab Open Source Partners project to track the main issues for the partnership. Issues relating to strategic initiatives with our OSS Parrtner are added to the [`general` OSS program board](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/general/-/boards/1755105) and are linked back to the relevant main OSS Partner issue.
+We often connect with partners when we feel we can help them share stories related to:
 
-More information about the project management for this program can be found on the main [Community Relations project management page](https://about.gitlab.com/handbook/marketing/community-relations/project-management/).
-
-### Linux Foundation Partnership
-We are exploring ways to partner with the Linux Foundation to make it easier for Linux Foundation member projects to apply for and qualify for the GitLab for Open Source program. We are using the [GitLab <> LF project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/linux-foundation) to collaborate with their team on various initiatives.
-
-The application process for LF members projects [can be found here](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/94599).FIXME
-
-Note: In addition to having the Linux Foundation as an Open Source Partner, we are a paying member of the Linux Foundation through their consortium membership program. More information about this consortium membership can be found [in the section below](/handbook/marketing/community-relations/opensource-program/#current-memberships).
-
-### Editorial plan for open source partners
-The Open Source Program Manager worked with the Content team on an editorial strategy to meet the needs of the Open Source Partners program. Posts about technical content and open source partner migrations tend to be very popular, so the Content team collaborates by brainstorming topics and doing reviews.
-
-The plan is to publish posts on the [GitLab Blog](/blog/) that are related to the Open Source Partner program and to feature these on the [Open Source Partners page](/solutions/open-source/partners/).
-
-Marketing opportunities:
-* Migration announcement
-* Migration phase complete
-* Case Study
-* Technical challenge and resolution, use case that aligns with other marketing campaigns such as CI/CD, security, or project management
-
-Resources:
- * [Template - OSS Partner Use Case Blog Posts](https://docs.google.com/document/d/1oRwrwoo6PkuqafAsde11mqCnMvAI2KNZ9E7AfnGg9Fw/edit#) - includes template blog post questions to ask OSS Partners in order to publish posts about migrations, CI/CD, Security, and Project Management use cases.
- * [OSS Blog Posts and Views](https://docs.google.com/spreadsheets/d/1LpgSudtcgXDkPb7XX-4s2PW6vYAQZpDgQRdGw7OWqBY/edit#gid=0)
+* Their plans to migrate infrastructure to GitLab
+* Their success at migrating infrastructure to GitLab
+* Their innovative use of GitLab to build something notatble or solve a tehnical/social challenge for their project and community
+* Their resolution of critical technical challenges that align with themes central to other GitLab marketing campaigns (e.g., CI/CD, security, or project management)
 
 ### Adding a new logo to the Open Source Partners program page
+
 Our Open Source Partners are shown on the [Open Source Partners](/solutions/open-source/partners) page and the main [GitLab for Open Source program](/solutions/open-source/) page. These are the steps to add a new logo to those sections.
 
 **Step 1: Add a new org to the Organizations list**
@@ -406,6 +389,7 @@ We are currently members of the following consortia:
 ## Program management resources
 
 ### Elections for Board of Directors opportunities
+
 Some of the consortia in which we participate allow members to run for their respective Boards of Directors. Anyone interested in becoming more involved in any of the consortia GitLab supports should visit the `Consortium Memberships` [project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/consortium-memberships) and open an issue.
 
 Review the information below if you're thinking of seeking nomination for (or election to) consortium positions.
@@ -420,11 +404,20 @@ Once GitLab candidates are nominated, the Community Relations team can help them
 The social media team is able to promote elections notification news. They simply need a place to point people, preferably an updated webpage that lists the board of directors or a social media post from the organization that mentions the election results.
 
 ### Event sponsorships
+
 GitLab's open source program has a small budget to sponsor events that allow GitLab to engage with and build relationships among open source partner communities. GitLab's [field marketing team](/handbook/marketing/field-marketing/#3rd-party-events) manages all other event sponsorship requests.  
 
 The open source program team tracks event partication in the `Open Source Marketing` [project on GitLab](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/open-source-marketing). To suggest an open source event sponsorship, open an issue in this project and use the `event` issue template to file your request.
 
 Event organizers and consortium leads working with GitLab will find GitLab's brand-related assets (such as logo files, press release boilerplate, and trademark information) in [GitLab's press kit](https://about.gitlab.com/press/press-kit/).
+
+### Linux Foundation Partnership
+
+We are exploring ways to partner with the Linux Foundation to make it easier for Linux Foundation member projects to apply for and qualify for the GitLab for Open Source program. We are using the [GitLab <> LF project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/linux-foundation) to collaborate with their team on various initiatives.
+
+The application process for LF members projects [can be found here](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/94599).FIXME
+
+Note: In addition to having the Linux Foundation as an Open Source Partner, we are a paying member of the Linux Foundation through their consortium membership program. More information about this consortium membership can be found [in the section below](/handbook/marketing/community-relations/opensource-program/#current-memberships).
 
 # <i class="far fa-newspaper" id="biz-tech-icons"></i> Measuring our success
 
