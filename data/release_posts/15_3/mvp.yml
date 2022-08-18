@@ -3,12 +3,12 @@ mvp:
   fullname: "Marco Zille"
   gitlab: zillemarco
   description: |
-    We recognise Marco Zille as MVP this month for their consistent contributions to GitLab.
+    This month we recognize Marco Zille, who has provided consistent contributions to GitLab, as our MVP!
 
-    Marco has been contributing a series of UI polish improvements across GitLab 15.2, and GitLab 15.3,
+    Marco has been contributing a series of UI polish improvements across GitLab 15.2 and GitLab 15.3,
     as well as iteratively building out the Timelog feature in collaboration with others.
     
     Finally, Marco contributed the ability to
     [link directly to markdown source files](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/91810).
     
-    Fantastic ! Thank you, Marco.
+    Fantastic work! Thank you, Marco.
