@@ -1,6 +1,6 @@
 ---
 release_number: "15.3" # version number - required
-title: "GitLab 15.3 released with Feature A and Feature B" # short title (no longer than 62 characters) - required
+title: "GitLab 15.3 released with tasks for managing your work and free GitOps features" # short title (no longer than 62 characters) - required
 author: Amanda Rueda # author name and surname - required
 author_gitlab: amandarueda # author's gitlab.com username - required
 image_title: '/images/15_3/15_3-cover-image.jpg' # cover image - required
@@ -34,7 +34,7 @@ Read through the Release Posts Handbook for more information:
 https://about.gitlab.com/handbook/marketing/blog/release-posts/#introduction
 -->
 
-Today, we are excited to announce the release of GitLab 15.3 with [Create tasks in issues](#create-tasks-in-issues), [GitOps features are now free](#gitops-features-are-now-free), [Maintain SAML Group Links with API](#maintain-saml-group-links-with-api), [Define password complexity requirements](#define-password-complexity-requirements) and much more!
+Today, we are excited to announce the release of GitLab 15.3 with [tasks in issues](#create-tasks-in-issues), [free GitOps features](#gitops-features-are-now-free), [SAML group link API maintenance](#maintain-saml-group-links-with-api), [advanced password complexity requirements](#define-password-complexity-requirements) and much more!
 
 These are just a few highlights from the 63 improvements in this release. Read on to check out all of the great updates below.
 
