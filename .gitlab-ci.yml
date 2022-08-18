@@ -777,8 +777,8 @@ include:
   # - template: Security/Secret-Detection.gitlab-ci.yml
   - remote: https://gitlab.com/gitlab-org/gitlab/-/raw/theoretick-master-patch-92466/lib/gitlab/ci/templates/Jobs/Secret-Detection.gitlab-ci.yml
   - template: Dependency-Scanning.gitlab-ci.yml
-  - project: 'gitlab-org/frontend/untamper-my-lockfile'
-    file: 'templates/merge_request_pipelines.yml'
+  # - project: 'gitlab-org/frontend/untamper-my-lockfile'
+  #   file: 'templates/merge_request_pipelines.yml'
   # Include Reviewers.gitlab-ci.yml to recommend code reviewers for a given MR
   - project: gitlab-org/modelops/applied-ml/review-recommender/ci-templates
     ref: v0.2.1
