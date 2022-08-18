@@ -246,23 +246,18 @@ GitLab社のCEOからの[発案](https://gitlab.com/gitlab-com/www-gitlab-com/me
 
 ##### コラボレーションはコンセンサスではない {#collaboration-is-not-consensus}
 {:.no_toc}
-コラボレーションをするときは、常にレーダーを超えず、[透明性](/handbook/values/#transparency)を持って仕事をすることが重要ですが、コラボレーションは[合意](/handbook/leadership/#making-decisions)ではないです。
-When collaborating, it is always important to stay above radar and work [transparently](/handbook/values/#transparency), but collaboration is [not consensus](/handbook/leadership/#making-decisions).
-人に意見を求める必要はありませんし、"なぜ私に聞かなかったの？"と聞かれることもないはずです。
-You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?"
-人に聞いたのならともかく、人が意見を出すのを待つ必要はないのです。
-You don't have to wait for people to provide input, if you did ask them.
-私たちは、人を巻き込む必要はなく、誰もが貢献できるパーミッションレス・イノベーションを信条としています。
-We believe in permissionless innovation—you don't need to involve people, but everyone can contribute.
-これは、私たちの[反復](/handbook/values/#iteration)の方法の核心であり、大きなチームがゆっくりと合意を得るよりも、小さなチームが素早く動くことを望んでいるからです。
-This is core to how we [iterate](/handbook/values/#iteration), since we want smaller teams moving quickly rather than large teams achieving consensus slowly.
+何事も隠さずに[透明性](/handbook/values/#transparency)を持ち仕事をすることが、コラボレーションにとって常に大事です。しかしコラボレーションは、[合意をとる](/handbook/leadership/#making-decisions)ことではありません。
+
+人に意見を求める必要はありません。「なぜ私に聞かなかったの？」と聞かれることもないはずです。
+例え人に質問をしたとしても、相手の意見を待つ必要はありません。
+人を巻き込む必要はありません。誰もが自分の意思で貢献できる「決裁不要なイノベーション」を信条としています。
+
+これは[イテレーション](/handbook/values/#iteration)というやり方の核心です。合意を取りつけながらゆっくり進める大きなチームより、小さなチームで素早く動くことを期待しています。
 
 ##### コラボレーション・コンピテンシー {#collaboration-competency}
 {:#collaboration-competency .no_toc}
-[コンピテンシー](/handbook/competencies/)は、チームメンバーが学ぶべき事柄を示すSSoT（Single Source of Truth）フレームワークです。
-[Competencies](/handbook/competencies/) are the Single Source of Truth (SSoT) framework for things we need team members to learn.
-私たちは、他者を助けるために行動し、他者（社内外）の意見（ヘルプとフィードバックの両方）を取り入れることで、最良の結果を得るためにコラボレーションを発揮します。
-We demonstrate collaboration when we take action to help others and include other's (both internal and external) input (both help and feedback) to achieve the best possible outcome.
+[コンピテンシー](/handbook/competencies/)は、チームメンバーが学ぶべき事がまとまっている、SSoT（唯一無二の情報源）の場所です。
+他者を助けたり社内外の他者の意見（ヘルプやフィードバックの両方）を取り入れて最高の結果を達成することが、真のコラボレーションです。
 
 <table class="tg">
   <tr>
@@ -272,56 +267,46 @@ We demonstrate collaboration when we take action to help others and include othe
   </tr>
   <tr>
     <td class="tg-0lax">5</td>
-    <td class="tg-0lax">他のチームメンバーから学ぶことで、コラボレーション能力を開発する。
-    Develops collaboration skills by learning from other team members</td>
-    <td class="tg-0lax" rowspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdeehhYsNgUapGmQjq9LDsXnwhFVU4uIy0SSYQ3Dks85IG0BQ/viewform">Knowledge Assessment for Individual Contributors</a></td>
+    <td class="tg-0lax">他のチームメンバーから学びコラボレーション能力を開発する</td>
+    <td class="tg-0lax" rowspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdeehhYsNgUapGmQjq9LDsXnwhFVU4uIy0SSYQ3Dks85IG0BQ/viewform">プレイヤーのためのナレッジアセスメント</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">6</td>
-    <td class="tg-0lax">様々なタイプのコミュニケーションを使い分けることで、コラボレーションスキルを伸ばします。課題を適切にファイルし、正しいSlackチャンネルで尋ね、正しいラベルを使用します。
-    Grows collaboration skills by using different types of communication; files issues appropriately, asks in the right Slack channels and uses the right labels.</td>
+    <td class="tg-0lax">様々なタイプのコミュニケーションを使い分けることで、コラボレーションスキルを伸ばします。Issueを適切に発行できる、正しいSlackチャンネルで尋ねられる、正しいラベルを使用できる</td>
   </tr>
   <tr>
     <td class="tg-0lax"><br>7</td>
-    <td class="tg-0lax">チームメンバーやグループ内の他者に対して、協調的な行動の模範となる。
-    Models collaborative behavior for fellow team members and others within the group.</td>
+    <td class="tg-0lax">チームメンバーやグループ内の他者に対して、コラボレーションの模範となる行動ができる。</td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
     <td class="tg-0lax">
-    チームメンバーに対して、より効果的なコラボレーション方法を指導し、コラボレーションを行うための適切なチャネルを紹介する。
-    Coaches team members on how to collaborate more effectively and pointing team members to the right channels to collaborate.</td>
-    <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd09nkhy80zAziFbdDgaq7LLqJD_LFxPloyPhVSBZjf1Ghgug/viewform">Knowledge Assessment for People Leaders</a></td>
+    チームメンバーに対して、より効果的なコラボレーション方法を指導し、コラボレーションを行うための適切なチャネルを紹介する。</td>
+    <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd09nkhy80zAziFbdDgaq7LLqJD_LFxPloyPhVSBZjf1Ghgug/viewform">マネージャーのためのナレッジ・アセスメント</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
-    <td class="tg-0lax">部門を超えた協力的な意思決定と問題解決を促進する。
-    Fosters collaborative decision making and problem solving across the departments.</td>
+    <td class="tg-0lax">部門を超えてコラボレーションという考えに沿った意思決定をしたり問題解決ができる。</td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>
     <td class="tg-0lax">
-    部門/部署、サイロ、部門の垣根を越えたチームコラボレーションを推進する。
-    Drives team collaboration across divisions/departments, silos, and division boundaries.</td>
+    部門/部署、サイロ、部門の垣根を越えてチームコラボレーションを推進できる。</td>
   </tr>
   <tr>
     <td class="tg-0lax">11</td>
     <td class="tg-0lax">
-    ネットワークとパートナーシップを構築し、部門横断的な活動を行い、境界を越えて協力し、幅広いステークホルダーとの共通点を見出すことができる。 人脈を活用し、社内のサポート基盤を構築・強化する。
-    Develops networks and builds partnerships, engages in cross-functional activities; collaborates across boundaries, and finds common ground with a widening range of stakeholders.  Utilizes contacts to build and strengthen internal support base</td>
+    人脈とパートナーシップを構築し、部門横断的な活動を行い、垣根を越えてコラボレーションし、多くのステークホルダーと間で共通利害を見出すことができる。 人脈を活用し社内からサポート関係を構築し強化する</td>
   </tr>
   <tr>
     <td class="tg-0lax">12</td>
     <td class="tg-0lax">
-    日常業務におけるコラボレーションとチームワークをリードし、部門/部署を超えた交流、情報共有、リアルタイムの意思決定を優先させる。Eチームリーダー間の部門横断的なコラボレーションを促進する。
-    Leads collaboration and teamwork in daily routines, prioritizing interactions, information sharing, and real time decision making across divisions/departments. Encourages greater cross-functional collaboration among e-team leaders.</td>
+    部門/部署を超えた優先順位をつけた交流や情報共有やリアルタイムな意思決定による、日常業務でのコラボレーションとチームワークを実現できる。幹部間の部門横断的なコラボレーションを促進する。</td>
   </tr>
   <tr>
     <td class="tg-0lax">14</td>
     <td class="tg-0lax">
-    日常業務の中でコラボレーションとチームワークを推進し、部門や部署を超えた交流、情報共有、リアルタイムの意思決定を優先させる。e-チームリーダーとGitLabの機能横断的なコラボレーションを促進する。
-
-    Champions collaboration and teamwork into daily routines, prioritizing interactions, information sharing, and real time decision making across divisions/departments. Champions cross-functional collaboration among e-team leaders and GitLab.</td>
+    部門/部署を超えた優先順位をつけた交流や情報共有やリアルタイムな意思決定による、日常業務の中でコラボレーションとチームワークの率先垂範する。幹部と会社の間での部門横断的なコラボレーションを率先垂範する</td>
   </tr>
 </table>
 
