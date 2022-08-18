@@ -29,7 +29,6 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
 * {:.trans-00}[ミッション](/company/mission/)
 * {:.trans-00}[ビジョン](/company/vision/)
 * {:.trans-00}[戦略](/company/strategy/)
-
 * {:.trans-20}[コミュニケーション](/handbook/communication/)
   * {:.trans-10}[YouTube](/handbook/marketing/marketing-operations/youtube/)
   * {:.trans-10}[Zoom ウェビナー](/handbook/communication/zoom/webinars/)
