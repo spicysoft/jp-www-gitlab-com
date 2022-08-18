@@ -34,10 +34,10 @@ Read through the Release Posts Handbook for more information:
 https://about.gitlab.com/handbook/marketing/blog/release-posts/#introduction
 -->
 
-Today, we are excited to announce the release of GitLab 15.3 with `Feature A`, `Feature B`, `Feature C`, `Feature D` and much more!
+Today, we are excited to announce the release of GitLab 15.3 with [Create tasks in issues](#create-tasks-in-issues), [GitOps features are now free](#gitops-features-are-now-free), [Maintain SAML Group Links with API](#maintain-saml-group-links-with-api), [Define password complexity requirements](#define-password-complexity-requirements) and much more!
 
-These are just a few highlights from the `XX` improvements in this release. Read on to check out all of the great updates below.
+These are just a few highlights from the 63 improvements in this release. Read on to check out all of the great updates below.
 
-We thank our community for the `XX` contributions they provided to GitLab 15.3! At GitLab, everyone can contribute and we couldn't have done it without you!
+We thank our community for the 346 contributions they provided to GitLab 15.3! At GitLab, everyone can contribute and we couldn't have done it without you!
 
 To preview what's coming in next month’s release, check out our [Upcoming Releases page](/direction/kickoff/), which includes our 15.4 release kickoff video.
