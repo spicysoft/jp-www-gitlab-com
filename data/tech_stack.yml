@@ -2453,13 +2453,13 @@
   team_member_baseline_entitlement: false
   subprocessor: false
   description: I-9 Completion and Data Retention
-  access_to: People Operations/People Experience
-  provisioner: "@gl-people-exp"
-  deprovisioner: "@gl-people-exp"
+  access_to: People Connect
+  provisioner: "@gl-people-connect-team"
+  deprovisioner: "@gl-people-connect-team"
   group_owner: People Connect Team
   group_owner_slack_channel: "#people-connect"
   business_owner: People Connect Team
-  technical_owner: Alex Venter, Ashley Jones, Emily Mowry
+  technical_owner: Alex Venter, Ashley Jones, Emily Mowry, Ashley Jameson, Sarah Hensiek
   data_classification: Orange
   integration_method: Email and Password login
   need_move_to_okta: null
@@ -3643,9 +3643,9 @@
   team_member_baseline_entitlement: true
   subprocessor: false
   description: "Leave administration tool i.e. request, track, approve and analyze time off."
-  access_to: GitLab Team Members, @gl-people-exp team for admin access
-  provisioner: '@gl-people-exp (provisioning integrated with BambooHR and Slack)'
-  deprovisioner: '@gl-people-exp (deprovisioning integrated with BambooHR and Slack)'
+  access_to: GitLab Team Members, @gl-people-connect-team for admin access
+  provisioner: '@gl-people-connect-team (provisioning integrated with BambooHR and Slack)'
+  deprovisioner: '@gl-people-connect-team (deprovisioning integrated with BambooHR and Slack)'
   group_owner: People Connect Team
   group_owner_slack_channel: '#people-connect'
   business_owner: Pattie Egan
