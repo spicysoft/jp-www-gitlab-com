@@ -27,6 +27,7 @@ There are additional ideas within the [Real-time collaboration Epic](https://git
 
 | | Date | Topic | Description | Video |
 |---|:----------:|-----------------------------------|-----|-----|
+| 7 | 2022-08-18 | Ruby+Rust | Awareness feature about to ship, and a little intro to how Ruby+Rust bindings work. | https://www.youtube.com/watch?v=ng20jSo2TIs |
 | 6 | 2022-08-05 | Progress & Roadmap | Progress on the work to ship the Awareness widget, and an outlook for what is coming next. | https://www.youtube.com/watch?v=ZSdpj_YxsCE |
 | 5 | 2022-07-22 | JBDT and Progress Update | JBDT (Jobs to be done) and Iteration on the Awareness UI | https://www.youtube.com/watch?v=S0s-s45zVv8&list=PL05JrBw4t0KpPmRsaVaDOoWyIp1iKacZo&index=2 |
 | 4 | 2022-07-06 | Awareness UI/UX and a CRDT database | Where and how to add the presence indicators on the issue page. A database for CRDTs is usually not necessary, but can become interesting for cases where we need a simple way to fetch the initial document state. | https://www.youtube.com/watch?v=B094U_DvL-s&list=PL05JrBw4t0KpPmRsaVaDOoWyIp1iKacZo&index=3 |

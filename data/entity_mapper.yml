@@ -117,6 +117,7 @@
   notice_after_probation: "30 days for less than one year's tenure. This is increased by 3 days per additional year of service up to a maximum of 90 days. (Ex. A team member with 3 years + 2 months of service needs 36 days' notice.)"
 - greenhouse_entity: Remote Technology - Brazil
   bhr_location: Remote Technology - Brazil
+  bhr_payroll_type: Employee-PEO
   probation_months: 3
   country: Brazil
   notice_during_probation: "No notice, but there are termination costs. Employers must pay team members half of the the time remaining until the end of the probation period. (Example: Start date 2020-04-01, termination 2020-06-20, 10 days remaining until meeting 90-day probation period. Payment due for 5 days.)"

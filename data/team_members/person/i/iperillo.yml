@@ -1,13 +1,13 @@
 name: Inan Perillo
 locality: 
 country: Remote
-role: <a href="">Manager, Support Engineering</a>
+role: <a href="/job-families/engineering/support-management/">Manager, Support Engineering (APAC)</a>
 reports_to: shaun-mccann
-picture: ../gitlab-logo-extra-whitespace.png
+picture: inanperillo.jpg
 pronouns:
-pronunciation:
+pronunciation: "EE-nan puh-REEL-yo"
 twitter:
-linkedin:
+linkedin: ferdinand-perillo
 gitlab: iperillo
 departments:
   - Customer Support
