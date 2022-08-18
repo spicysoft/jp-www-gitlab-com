@@ -575,7 +575,7 @@ stages:
           - Libor Vanc
         uxr:
           - TBD
-        tech_writer: Kati Paizee
+        tech_writer: Ashraf Khamis
         appsec_engineer: Dominic Couture
         slack:
           channel: g_ecosystem_integrations
@@ -2090,7 +2090,7 @@ stages:
           - Will Leidheiser
         sets:
           - Erick Banks
-        tech_writer: Suzanne Selhorn
+        tech_writer: Ashraf Khamis
         slack:
           channel: g_global_search
         gitlab_group: gitlab-org/search-team
