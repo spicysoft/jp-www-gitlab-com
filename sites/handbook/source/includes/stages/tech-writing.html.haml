@@ -1,0 +1,97 @@
+%section
+  %table.table-responsive{:style => "margin-bottom: 25px; white-space: nowrap; display: block;"}
+    %thead
+      %tr
+        %th
+          Section
+        %th
+          Stage
+        %th
+          Group
+        %th
+          Assigned technical writer
+    - data.stages.stages.select{|stageKey,stage| stage.tw}.sort_by{|stageKey, stage| stage.section}.each do |key, stage|
+      %tbody{:style => "border-top: 3px solid rgba(240,115,40, .4);"}
+        - stage.groups.select.each do |key, group|
+          %tr
+            %td
+              - if stage.section == "cicd"
+                = "CI/CD"
+              - elsif stage.section == "seg"
+                %a{:href => "/handbook/product/categories/#single-engineer-groups-section"}
+                  = "Single-engineer groups"
+              - else
+                %a{:href => "/handbook/product/categories/##{stage.section}-section"}
+                  = stage.section.capitalize
+            %td
+              %a{:href => "/handbook/product/categories/##{stage.display_name.downcase}-stage"}
+                = stage.display_name
+            %td
+              %a{:href => "/handbook/product/categories/##{group.name.downcase.gsub(' ', '-').gsub(':', '')}-group"}
+                = group.name
+            / Assigned technical writer
+            - if group.tech_writer
+              - group.tech_writer do |docsteam|
+                - case docsteam
+                  - when "Axil"
+                    %td
+                      %a{:href => "https://gitlab.com/axil"}
+                        = docsteam
+                  - when "Evan Read"
+                    %td
+                      %a{:href => "https://gitlab.com/eread"}
+                        = docsteam
+                  - when "Russell Dickenson"
+                    %td
+                      %a{:href => "https://gitlab.com/rdickenson"}
+                        = docsteam
+                  - when "Marcel Amirault"
+                    %td
+                      %a{:href => "https://gitlab.com/marcel.amirault"}
+                        = docsteam
+                  - when "Kati Paizee"
+                    %td
+                      %a{:href => "https://gitlab.com/kpaizee"}
+                        = docsteam
+                  - when "Amy Qualls"
+                    %td
+                      %a{:href => "https://gitlab.com/aqualls"}
+                        = docsteam
+                  - when "Suzanne Selhorn"
+                    %td
+                      %a{:href => "https://gitlab.com/sselhorn"}
+                        = docsteam
+                  - when "Fiona Neill"
+                    %td
+                      %a{:href => "https://gitlab.com/fneill"}
+                        = docsteam
+                  - when "Marcin Sędłak-Jakubowski"
+                    %td
+                      %a{:href => "https://gitlab.com/msedlakjakubowski"}
+                        = docsteam
+                  - when "Marcin Sedlak-Jakubowski" # Alternative spelling
+                    %td
+                      %a{:href => "https://gitlab.com/msedlakjakubowski"}
+                        = docsteam
+                  - when "Clayton Cornell"
+                    %td
+                      %a{:href => "https://gitlab.com/claytoncornell"}
+                        = docsteam
+                  - when "Phillip Wells"
+                    %td
+                      %a{:href => "https://gitlab.com/phillipwells"}
+                        = docsteam
+                  - when "Ashraf Khamis"
+                    %td
+                      %a{:href => "https://gitlab.com/ashrafkhamis"}
+                        = docsteam
+                  - when "#docs Slack channel"
+                    %td
+                      %a{:href => "https://gitlab.slack.com/archives/C16HYA2P5"}
+                        = docsteam
+                  - else
+                    %td
+                      = "---"
+            - else
+              %td
+                = "---"

@@ -1,0 +1,38 @@
+---
+name: Fiona Neill
+locality:
+country: Remote
+role: <a href="/job-families/engineering/technical-writer/">Senior Technical Writer</a>,
+  Manage (Optimize, Workspace), Growth (Product Intelligence)
+reports_to: kpaizee
+picture: fionaneill.jpg
+pronouns: she/her
+pronunciation:
+twitter:
+linkedin: fneill
+gitlab: fneill
+departments:
+- Engineering Function
+- UX Department
+- Technical Writing
+projects:
+  gitlab: maintainer docs
+  gitlab-docs: maintainer
+  gitlab-development-kit: maintainer docs
+  omnibus-gitlab: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
+specialty:
+- 'Manage: Optimize'
+- 'Secure: Threat Insights'
+- 'Secure: Vulnerability Research'
+- 'Growth: Product Intelligence'
+- Fulfillment
+- 'Manage: Workspace'
+expertise:
+story: Fiona has a background in English and Psychology and has written documentation
+  for a variety of product areas, from HVAC Systems to Financial Technology, and now
+  DevOps. She is passionate about simplifying complex content, and how humans process
+  information. When she's not working, Fiona enjoys running, traveling, music, and
+  trying out new recipes.
+

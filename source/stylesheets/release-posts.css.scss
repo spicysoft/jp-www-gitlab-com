@@ -1,0 +1,622 @@
+@import "variables";
+@import "vendor/bootstrap/bootstrap/variables";
+@import "vendor/bootstrap/bootstrap/mixins";
+
+$top-row-badge-color: #fa6f35;
+$bottom-row-badge-color: #fba338;
+$hr-border-color: #eee;
+
+body {
+  overflow-x: hidden;
+}
+
+.secondary-release-column {
+  width: 100%;
+  padding: 0 80px;
+
+  .secondary-column-feature {
+    margin: 60px auto 90px;
+    max-width: 800px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    ul, ol {
+      margin-bottom: 40px;
+    }
+
+    @media all and (max-width: $screen-lg-min) {
+      padding: 0 15px;
+    }
+
+    @media all and (max-width: $screen-sm-min) {
+      margin: 0 auto 45px;
+    }
+  }
+
+  &:last-child {
+    border-left: 1px solid $hr-border-color;
+
+    @media all and (max-width: $screen-lg-min) {
+      border-left: 0;
+    }
+  }
+
+  @media all and (max-width: $screen-lg-min) {
+    padding: 0;
+
+    .title-with-stage {
+      margin: 0 16px 3.2rem 16px;
+    }
+  }
+}
+
+.column-layout {
+  column-count: 2;
+  column-width: 50%;
+  column-gap: 100px;
+  padding: 0 100px;
+
+  .column-item {
+    display: inline-block;
+    margin: 0 0 1em;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 30px;
+
+    hr {
+      margin-top: 80px;
+    }
+
+    @media all and (max-width: $screen-lg-min) {
+      margin: auto;
+      margin-bottom: 0;
+      padding: 0 15px;
+    }
+  }
+
+  @media all and (max-width: $screen-lg-min) {
+    padding: 0;
+    column-count: 1;
+    column-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@mixin badge($badge-color) {
+  border: 1px solid rgba($color-white, .2);
+  background-color: transparent;
+  color: $color-white-alt;
+  display: grid;
+  line-height: 22px;
+  border-radius: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  letter-spacing: .4px;
+
+  &.available {
+    border: 1px solid $badge-color;
+    background-color: $badge-color;
+    color: $color-white;
+  }
+
+  .badge-container.dark & {
+    color: $color-gray;
+    border-color: $color-gray-medium;
+    background-color: $color-white-rad-event;
+
+    &.available {
+      color: $color-white;
+      background-color: $badge-color;
+      border-color: $badge-color;
+    }
+  }
+}
+
+.badge-with-tiers {
+  display: flex;
+  align-items: center;
+
+  .stage-badge {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+
+    svg {
+      height: 100%;
+      fill: $color-primary;
+    }
+  }
+}
+
+.content {
+  overflow-x: hidden;
+
+  hr {
+    width: 100%;
+    margin: 40px auto;
+  }
+}
+
+.badge-container {
+  margin: 16px 0;
+  line-height: 1em;
+
+  a {
+    display: inline-block;
+    min-width: 80px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cta {
+  padding-bottom: 70px;
+}
+
+.blog {
+  .wrapper {
+    max-width: none;
+
+    &.body {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &.article {
+    @media (max-width: $screen-xs) {
+      .content {
+        font-size: 18px;
+      }
+    }
+
+    @media (min-width: $screen-sm-min) {
+      .features-released {
+        font-size: 44px;
+      }
+    }
+
+    h1 {
+      font-weight: 300;
+      font-size: 5vh;
+      line-height: 1.25;
+      max-width: 1100px;
+      margin-bottom: 30px;
+      overflow-wrap: break-word;
+
+      @media (max-width: $screen-md-max) {
+        font-size: 5vh;
+      }
+
+      @media (max-width: $screen-xs-max) {
+        font-size: 6vw;
+      }
+
+      @media (max-width: $screen-xs) {
+        font-size: 32px;
+        font-weight: 500;
+      }
+    }
+
+    h2 {
+      font-weight: normal;
+      line-height: 1.2;
+      overflow-wrap: break-word;
+
+      @media (min-width: $screen-sm-min) {
+        font-size: 35px;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    h3 {
+      font-weight: normal;
+      line-height: 1.2;
+      overflow-wrap: break-word;
+
+      @media (min-width: $screen-sm-min) {
+        font-size: 33px;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .overlay {
+      background: linear-gradient(to top, rgba($color-white, 1) 15%, transparent 40%);
+      height: 100%;
+      display: flex;
+
+      @media (max-width: $screen-xs-max) {
+        background: linear-gradient(to top, rgba($color-white, 1) 25%, transparent 55%);
+      }
+    }
+
+    .overlay-dark {
+      background: linear-gradient(to top, rgba($color-dark, .7) 1%, rgba($color-dark, .3) 35%, transparent 60%);
+      height: 100%;
+      display: flex;
+
+      @media (max-width: $screen-xs-max) {
+        background: linear-gradient(to top, rgba($color-dark, .7) 1%, rgba($color-dark, .3) 25%, transparent 55%);
+      }
+    }
+
+    .header {
+      color: $color-dark;
+      text-align: center;
+      align-self: center;
+    }
+
+    .dark-header {
+      color: $color-white;
+    }
+
+    .light-header {
+      color: $color-dark;
+    }
+
+    .author a,
+    .author-twitter i,
+    .author-gitlab i {
+      color: $color-dark;
+    }
+
+    .author-twitter i:hover {
+      color: $color-twitter;
+    }
+
+    .author.dark-header a,
+    .author-twitter.dark-header i,
+    .author-gitlab.dark-header i {
+      color: $color-white;
+    }
+
+    .author.dark-header a:hover {
+      color: $color-primary-alt;
+    }
+
+    .author-twitter.dark-header i:hover {
+      color: $color-twitter;
+    }
+
+    .author-gitlab.dark-header i:hover {
+      color: $color-secondary;
+    }
+
+    .comments,
+    .signup {
+      max-width: 900px;
+    }
+
+    kbd {
+      background-color: $color-gray-features;
+      border-radius: 4px;
+      box-shadow: none;
+      font-size: 1em;
+      overflow-wrap: break-word;
+    }
+  }
+
+  .pager {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
+
+.release-number {
+  color: $color-white;
+  font-size: 22vh;
+  line-height: 1.2;
+
+  @media (max-width: $screen-xs-max) {
+    font-size: 30vw;
+  }
+
+  @media (max-width: $screen-xs) {
+    font-size: 35vw;
+  }
+
+  .release-number-image {
+    width: 40vh;
+    padding-bottom: 50px;
+  }
+}
+
+.release-number-dark {
+  color: $color-dark;
+}
+
+.description {
+  display: none;
+}
+
+.release-post-section {
+  padding: 0 16px;
+  margin: 0 auto 90px;
+
+  @media (max-width: $screen-xs) {
+    margin: 0 auto 45px;
+  }
+}
+
+.btn-red {
+  margin-bottom: 5px;
+}
+
+.header-link {
+  padding: 0 12px;
+  position: absolute;
+  margin-left: -1em;
+  margin-top: -.1em;
+
+  i {
+    font-size: .5em;
+    opacity: 0;
+    color: $color-dark;
+  }
+
+  &:hover {
+    color: $color-primary-alt;
+    text-decoration: none;
+  }
+}
+
+h2,
+h3,
+.header-link {
+  &:hover {
+    i {
+      opacity: 1;
+    }
+  }
+}
+
+.gray-section {
+  background-color: $body-bg;
+  border-top: 1px solid $landing-organization-color;
+  border-bottom: 1px solid $landing-organization-color;
+  padding: 20px 0;
+}
+
+// sass-lint:disable no-important
+@media (min-width: $screen-lg-min) {
+  h2.intro-header {
+    font-size: 33px !important;
+    margin-top: 20px !important;
+  }
+
+  h3.intro-header-h3 {
+    font-size: 28px !important;
+    margin-top: 20px !important;
+  }
+}
+// sass-lint:enable no-important
+
+.top-feature.release-post-section {
+  max-width: 800px;
+}
+
+.release-post-section#intro-section,
+.release-post-section#tertiary,
+.release-post-section#deprecations,
+.release-post-section#removals,
+.release-post-section#extras {
+  max-width: 800px;
+}
+
+.mvp {
+  text-align: center;
+  margin-bottom: 90px;
+
+  .release-post-section {
+    margin-bottom: 0;
+    max-width: 800px;
+  }
+
+  img {
+    height: 200px;
+    width: auto;
+    margin: 0;
+
+    &.mvp-gift {
+      height: 400px;
+    }
+  }
+
+  @media (min-width: $screen-lg-min) {
+    h2 {
+      width: 150%;
+      margin-left: -25%;
+    }
+  }
+}
+
+.top-row,
+.bottom-row {
+  display: table;
+}
+
+.badge-container-type {
+  color: $color-gray-dark;
+  font-size: 90%;
+  padding-bottom: 4px;
+}
+
+.feature-gallery .badge-container-type {
+  color: #d9ccff;
+}
+
+.badge-container .top-row {
+  margin-bottom: 4px;
+}
+
+.top-row .badge {
+  @include badge($top-row-badge-color);
+}
+
+.bottom-row .badge {
+  @include badge($bottom-row-badge-color);
+  margin-bottom: 0;
+}
+
+.feature-gallery {
+  .badge-container a {
+    min-width: unset;
+  }
+
+  .bottom-row,
+  .top-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .badge {
+    margin-bottom: 4px;
+    width: 72px;
+    display: block;
+  }
+}
+
+.release-row {
+  @include make-row();
+  max-width: 1300px;
+  margin: 60px auto 90px;
+
+  @media (max-width: $screen-xs) {
+    margin: 0 auto 45px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    display: flex;
+    max-width: 1600px;
+  }
+
+  .column {
+    @include make-lg-column(6);
+    padding: 0 45px;
+    align-self: center;
+    max-width: 800px;
+
+    @media (max-width: $screen-md-max) {
+      padding: 0;
+      margin: auto;
+    }
+  }
+
+  @media (min-width: $screen-lg-min) {
+    &.divider .column {
+      margin-top: 50px;
+      font-size: 18px;
+
+      h3:first-child {
+        margin-top: 0;
+      }
+    }
+
+    &.divider .column:nth-child(1) {
+      padding-right: 90px;
+    }
+
+    &.divider .column:nth-child(2n+2) {
+      border-left: 1px solid $hr-border;
+      padding-left: 90px;
+    }
+  }
+
+  &.image-left {
+    .image-column {
+      @include make-lg-column-pull(6);
+    }
+
+    .text-column {
+      @include make-lg-column-push(6);
+    }
+  }
+
+  &.align-top .column {
+    align-self: flex-start;
+  }
+}
+
+.reference-buttons {
+  .btn-default {
+    border-color: $color-gray-extra-light;
+    color: $text-color-light;
+    margin-bottom: 3px;
+
+    &:hover {
+      transition: all .15s ease;
+    }
+  }
+}
+
+.ref-buttons-second-features {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  .btn-xs {
+    font-size: 14px;
+  }
+}
+
+.ref-buttons-tertiary-features {
+  margin-top: 26px;
+  margin-bottom: 20px;
+
+  .btn-xs {
+    font-size: 14px;
+  }
+}
+
+.product-icon {
+  display: inline-flex;
+  align-self: center;
+
+  svg {
+    height: 1em;
+    width: 1em;
+    fill: $text-color-light;
+    fill-rule: nonzero;
+    margin-top: 4px;
+    margin-right: 5px;
+  }
+}
+
+.product-icon-xm {
+  display: inline-flex;
+  align-self: center;
+
+  svg {
+    height: 1em;
+    width: 1em;
+    fill: $text-color-light;
+    fill-rule: nonzero;
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+}
+
+.zero-bottom-margin {
+  margin-bottom: 0;
+}
+
+.changelog {
+  margin: 70px 0;
+}

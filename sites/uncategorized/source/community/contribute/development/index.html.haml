@@ -1,0 +1,86 @@
+---
+layout: default
+title: "Contributing to Development"
+description: "Learn how to contribute code to GitLab."
+canonical_path: "/community/contribute/development/"
+extra_css:
+  - contributing.css
+  - community.css
+  - bl-modal.css
+extra_js:
+  - libs/slick.min.js
+---
+.wrapper
+  #content
+    .wrapper.container.contributing-content{role: "main"}
+      .block
+        .block-content
+          %h2#events.block-title Join our upcoming events
+          :markdown
+            Join the next quarterly [GitLab Hackathon](https://about.gitlab.com/community/hackathon/) to learn more and win amazing prizes!
+            <br>
+            Check out [our virtual meetups group](https://www.meetup.com/gitlab-virtual-meetups/) for the next event that might be tomorrow. 
+
+      .block
+        .block-content
+          %h2#discover.block-title Finding an issue or a project to contribute to
+          :markdown
+            1. GitLab consists of a number of projects that use different technologies. In [the issues to contribute table below](#issues-to-contribute), you can explore issues seeking contributions based on the available projects and the five available contributions areas: front-end, back-end, security, documentation, website/handbook.
+            1. When finding issues to contribute to, start by leaving a comment. This helps the GitLab team and members of the wider GitLab community know that you will be working on that issue.
+            1. If you would like to work on something that is not already captured in an issue, a feature for example, please open a [new issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issue%5Bmilestone_id%5D=), select the appropriate template, and add all the necessary information about the work you are planning on doing. That way you can get more guidance and support from GitLab team members. 
+            1. You can find more information about [GitLab's architecture in our docs](https://docs.gitlab.com/ee/development/architecture.html). 
+
+
+      .block
+        .block-content
+          %h2#setup-the-development-enviroment.block-title Setting up the Development Enviroment
+          :markdown
+            1. Create a public [fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#creating-a-fork) of any of the [GitLab projects you would like to contribute to](https://gitlab.com/gitlab-org). 
+            1. Some GitLab projects have a detailed contributing guide located in the README or CONTRIBUTING files in the repo. Reviewing these files before setting up your development environment will help ensure you get off to a good start.
+            1. For setting up GitLab's development environment, you can do one of the following:
+                - Download and set up the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit), see the [GDK README](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/README.md) for instructions on setting it up and [Troubleshooting](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/troubleshooting.md) if you get stuck. Alternatively, you can use [GDK with Gitpod](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md) to run a pre-configured GDK instance in the cloud.
+                    - GDK is heavy. If you need to build something fast, by trial and error, you can consider doing so with an empty rails app and port it to GDK after.
+                - Use [Gitpod](https://docs.gitlab.com/ee/integration/gitpod.html) by selecting the caret (angle-down) next to Web IDE, and selecting Gitpod from the list when you are at the projects repo.
+            1. If you want to contribute to the [website](https://about.gitlab.com/) or the [handbook](https://about.gitlab.com/handbook/), you can do it through the [WebIDE](https://docs.gitlab.com/ee/user/project/web_ide/) by clicking "Edit in Web IDE" located in the footer of the page you wish to edit. 
+            1. More detailed information on how to contribute to GitLab and related projects can be [found in our docs](https://docs.gitlab.com/ee/development/). 
+
+      .block
+        .block-content
+          %h2#openning-a-merge-request.block-title Opening a Merge Request
+          :markdown
+            1. [Open a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) to merge your code and its documentation. The earlier you open a merge request, the sooner you can get feedback. You can [mark it as a draft](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html) to signal that you’re not done yet. 
+                - If it's a feature change that impacts users or admins, [update the documentation](https://docs.gitlab.com/ee/development/documentation/). If you're including documentation changes or need help with documentation, mention `@gl-docsteam` in the merge request description.
+            1. When opening the merge request, make sure to fill out all the information requested in the template, such as why you are introducing these changes and a link to the issue this merge request is attempting to close/fix.
+            1. [Add tests if needed](https://docs.gitlab.com/ee/development/testing_guide/best_practices.html), as well as [a changelog entry](https://docs.gitlab.com/ee/development/changelog.html).
+            1. More detailed information for opening a merge request can be found at the [Merge Requests Workflow documentation](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-guidelines).
+
+      .block
+        .block-content
+          %h2#triaging-community-merge-requests.block-title Triaging Community Merge Requests
+          :markdown
+            1. When you open a merge request, our [@gitlab-bot](https://gitlab.com/gitlab-bot) will automatically apply the ["~Community contribution"](https://about.gitlab.com/handbook/engineering/quality/triage-operations/#ensure-quick-feedback-for-community-contributions) label.
+            1. In the next 24-48 hours after opening the merge request, a [Merge Request Coach](https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/resources/merge-request-coach-lifecycle.html) will review your merge request and apply stage, group, and type labels.
+            1. After the appropriate labels are applied, a reviewer will be assigned to your merge request by an [Engineering Manager](https://about.gitlab.com/handbook/engineering/quality/triage-operations/#community-merge-requests-requiring-attention).
+            1. The goal is to have a merge request reviewed within a week after a reviewer is assigned. At times this may take longer due to high workload, holidays, or other reasons.
+            1. Detailed information, along with expected timelines and how you can request help or escalate a merge request can be found in the [Wider Community Merge Request guide](https://about.gitlab.com/handbook/engineering/quality/merge-request-triage/).
+            1. Once your merge request is reviewed and merged, your changes will be deployed to GitLab.com and included in the next release!
+      
+      .block
+        .block-content
+          %h2#need-help.block-title Need Help?
+          :markdown     
+            - Check out the [Get Help section!](https://about.gitlab.com/community/contribute/#getting-help)
+            - Did you run out of CI/CD minutes or you need an Ultimate license for contributing? You can [open an issue at the Code Contributor Program repository.](https://gitlab.com/gitlab-com/marketing/community-relations/contributor-program/general/-/issues/new?issuable_template=cicd-minutes-request)
+
+      .block
+      .block-content
+        %h2#issues-to-contribute.block-title Contribution areas and issues
+        :markdown
+          | Contribution Area  | Guides | Qualifying (for 5 points) Issues |
+                      |---------------|-----------------------|--------|----------------------------------|
+                      | Security | [Contributing to GitLab guide](https://about.gitlab.com/community/contribute/development/#development) | [Qualifying issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Security+Hackathon) |
+                      | Front-end | [Frontend Development Guidelines](https://docs.gitlab.com/ee/development/fe_guide/) <br> - [Design and User Interface Changes guide](https://docs.gitlab.com/ee/development/contributing/design.html) | - [UX-related Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=weight&state=opened&label_name[]=UX&label_name[]=Accepting+merge+requests) <br> - [Frontend-related Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=weight&state=opened&label_name[]=frontend&label_name[]=Accepting+merge+requests)|
+                      | Back-end | [Contributing to GitLab guide](https://about.gitlab.com/community/contribute/development/#development) <br> - [GitLab's Architecture](https://docs.gitlab.com/ee/development/architecture.html) | - [GitLab Agent for Kubernetes](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/issues?label_name%5B%5D=good+for+new+contributors) <br> - [Stage: Package](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name%5B%5D=group::package&label_name%5B%5D=good+for+new+contributors) <br> - [Group: Respond](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name[]=group::respond&label_name[]=Accepting+merge+requests) <br> - [Group: Optimize](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=group::optimize&label_name[]=Seeking+community+contributions) <br> - [Group: Source Code](https://gitlab.com/groups/gitlab-org/-/issues?search=client-side&sort=created_date&state=opened&epic_id=217419&label_name[]=Hackathon) <br> - [Group: Editor](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name[]=group::editor&label_name[]=Accepting+merge+requests&weight=1&assignee_id=None) <br> - [Group: Import](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name%5B%5D=Seeking+community+contributions&label_name%5B%5D=group::import)<br> - [Group: Pipeline execution](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name[]=group::pipeline+execution&label_name[]=Seeking+community+contributions)<br> - [Group: Release](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name[]=group::release&label_name[]=Seeking+community+contributions) |
+                      | Technical Writing | [Contributing to documentation](https://about.gitlab.com/community/contribute/documentation/) | [Documentation issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&state=opened&label_name%5B%5D=good%20for%20new%20contributors&label_name%5B%5D=Accepting%20merge%20requests&label_name%5B%5D=documentation) | 
+                      | [Website](https://gitlab.com/), [Handbook](https://about.gitlab.com/handbook/) | You can contribute to any page, by clicking "Edit in Web IDE" located in the footer of the page. | Although there is not a specific list of issues to contribute to, we encourage Hackathon participants to explore the website for typos, broken links and outdated information.  |
+          

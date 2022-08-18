@@ -1,0 +1,53 @@
+description: GitLab Flow prevents the overhead of releasing, tagging, and
+  merging to streamline development
+canonical_path: /topics/version-control/what-is-gitlab-flow/
+parent_topic: version-control
+file_name: what-is-gitlab-flow
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: What is GitLab Flow?
+header_body: GitLab Flow prevents the overhead of releasing, tagging, and
+  merging to streamline development.
+body: >-
+  Git simplifies branching and merging, leading software development teams to
+  move away from other source control tools, like SVN, and adopt a workflow to
+  simplify development. Organizations moving to Git from other [version
+  control](https://about.gitlab.com/topics/version-control/) systems may have
+  difficulty identifying an effective workflow. GitLab Flow creates a seamless
+  approach to software development by integrating a Git workflow with an issue
+  tracking system.
+
+
+  ## What is GitLab Flow?[](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/#what-is-gitlab-flow)
+
+
+  GitLab Flow is a simpler alternative to [GitFlow](https://about.gitlab.com/blog/2020/03/05/what-is-gitlab-flow/) and combines feature driven development and feature branches with issue tracking. With GitLab Flow, all features and fixes go to the `main` branch while enabling `production` and `stable` branches. GitLab Flow includes a set of [best practices](/topics/version-control/what-are-gitlab-flow-best-practices/) and guidelines to ensure software development teams follow a smooth process to ship features collaboratively.
+
+
+  ## How does GitLab Flow work?[](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/#how-does-gitlab-flow-work)
+
+
+  With GitFlow, developers create a `develop` branch and make that the default, while GitLab Flow works with the ‘main’ branch right away. GitLab Flow incorporates a pre-production branch to make bug fixes before merging changes back to `main` before going to production. Teams can add as many pre-production branches as needed — for example, from `main` to test, from test to acceptance, and from acceptance to production.
+
+
+  Essentially, teams practice feature branching, while also maintaining a separate production branch. Whenever the ‘main’ branch is ready to be deployed, users merge it into the production branch and release. GitLab Flow is often used with release branches. Teams that require a public API may need to maintain different versions. Using GitLab Flow, teams can make a `v1` branch and a `v2` branch that can be maintained individually, which can be helpful if the team identifies a bug during [code reviews](/topics/version-control/what-is-code-review/) that goes back to `v1.`
+
+
+  ## What are the benefits of GitLab Flow?[](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/#what-are-the-benefits-of-gitlab-flow)
+
+
+  GitLab Flow offers a simple, transparent, and effective way to work with Git. Using [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html), developers can collaborate on and maintain several versions of software in different environments. GitLab Flow decreases the overhead of releasing, tagging, and merging, which is a common challenge encountered with other types of Git [workflows](https://git-scm.com/), to create an easier way to deploy code. Commits flow downstream to ensure that every line of code is tested in all environments. Teams of any size can use GitLab FLow, and it has the flexibility to adapt to various needs and challenges.
+cta_banner:
+  - body: GitLab streamlines software development with comprehensive version control
+      and collaboration.
+    title: Discover how GitLab streamlines development
+    cta:
+      - url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
+        text: Learn More
+resources_title: Ready to learn more about Git and version control?
+resources:
+  - title: Learn how to deliver faster with GitLab
+    url: https://about.gitlab.com/webcast/collaboration-without-boundaries/
+    type: Webcast
+  - url: https://about.gitlab.com/resources/ebook-git-branching-strategies/
+    type: Books
+    title: Download the Git branching strategies eBook to simplify your workflow

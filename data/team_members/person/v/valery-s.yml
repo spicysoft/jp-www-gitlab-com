@@ -1,0 +1,29 @@
+---
+name: Valery Sizov
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Geo</a>
+reports_to: juan-silva
+picture: picture_vsizov.png
+gitlab: vsizov
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Geo BE Team
+projects:
+  gitlab: reviewer backend
+  sidekiq-reliable-fetch: maintainer backend
+expertise: |
+  <li><a href="https://docs.gitlab.com/ee/user/project/merge_requests/approvals/">Merge Request approvals</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/integration/elasticsearch.html">Elasticsearch</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/administration/server_hooks.html">Git hooks</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/project/import/bitbucket.html">Bitbucket import</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html">Slack application</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/administration/geo/">Geo</a> <a href="/company/team/structure/#expert">expert</a></li>
+story: |
+  I started GitLab together with Dmitriy Zaporozhets in 2011. I'm very passionate about developer tools and CI. I like Ruby, Go, UNIX, git, PostgreSQL and other cool technologies.
+  I have a very strong desire to improve the world by making all things easier. Simplicity is my religion.
+specialty: Geo
+

@@ -1,0 +1,32 @@
+---
+name: Ian Baum
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#senior-backend-engineer">Senior
+  Backend Engineer, Geo</a>
+reports_to: juan-silva
+picture: ibaum.jpg
+twitter: thessbaum
+gitlab: ibaum
+projects:
+  omnibus-gitlab: maintainer
+  gitlab-omnibus-builder: maintainer
+  gitlab-chart: trainee_maintainer
+  cng: trainee_maintainer
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Geo BE Team
+story: 'Ian has been interested in computers from an early age. Both making them do
+  things, and figuring out why they do other things. His professional career has been
+  mostly systems oriented, with an occasional foray into the software development
+  world. In his spare time, he enjoys brewing and drinking beer, trying new restaurants,
+  and exploring Minnesota.
+
+  '
+domain_expertise:
+- kubernetes
+- postgresql
+specialty: Geo
+

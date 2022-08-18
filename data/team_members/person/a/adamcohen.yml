@@ -1,0 +1,27 @@
+---
+name: Adam Cohen
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#secure">Senior Backend
+  Engineer, Secure:Composition Analysis</a>
+reports_to: olivier-g
+picture: adamcohen.png
+gitlab: adamcohen
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Composition Analysis BE Team
+projects:
+  secure-DS-gemnasium: maintainer backend
+  secure-DS-gemnasium-maven: maintainer backend
+  secure-DS-gemnasium-python: maintainer backend
+  secure-LC-license-finder: reviewer backend
+story: 'Adam is a Backend Engineer originally from Toronto, Canada, but now living
+  in Sydney, Australia.  He has spent many years working on payment gateway systems,
+  product ingestion tools for retailer integration and identity management platforms.  When
+  he''s not coding, he enjoys playing beach volleyball, riding his motorcycle, cooking
+  and reading.
+
+  '
+specialty: Composition Analysis

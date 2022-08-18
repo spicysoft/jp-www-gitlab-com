@@ -1,0 +1,19 @@
+---
+name: Dominic Couture
+locality:
+country: Remote
+role: <a href="/job-families/engineering/application-security/#staff-application-security-engineer">Staff
+  Security Engineer, Application Security</a>, Verify (Pipeline Execution, Pipeline Authoring, Runner, Testing), Release (Release)
+reports_to: andrewkelly
+picture: dcouture.jpg
+twitter: dee__see
+gitlab: dcouture
+departments:
+- Engineering Function
+- Security Department
+story: |
+  Dominic enjoys building and helping others build secure software.
+  When not at his computer, Dominic can be found roaming the forests of Québec with his dogs.
+specialty: Application Security
+projects:
+  gitlab: maintainer security

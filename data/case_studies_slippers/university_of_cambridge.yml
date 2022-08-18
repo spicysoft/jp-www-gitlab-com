@@ -1,0 +1,116 @@
+title: University of Cambridge
+file_name: university of cambridge
+canonical_path: /customers/university_of_cambridge/
+cover_image: /images/blogimages/cambridge_university_cover_image.jpg
+cover_title: |
+  University of Cambridge Information Services paves path to DevOps with GitLab
+cover_description: |
+  The need to keep pace with a more rapid rate of versioning, as well as new demands of global research, led a leading university to explore DevOps software. 
+twitter_image: /images/blogimages/cambridge_university_cover_image.jpg
+twitter_text: University of Cambridge Information Services paves path to DevOps with GitLab @Cambridge_Uni
+customer_logo: /images/case_study_logos/uni_cambridge_logo.jpeg
+customer_logo_css_class: brand-logo-tall
+customer_industry: Education
+customer_location: Cambridge, UK
+customer_solution: GitLab Self Managed Ultimate
+customer_employees: |
+  24,450 students
+customer_overview: |
+ University Information Services (UIS) is helping to drive improved collaboration across departments and evolve new processes along with new digital transformation initiatives. 
+customer_challenge: |
+ To mount DevOps effort, while ensuring continuity for long-running research projects.
+key_benefits: >-
+
+  
+    Increased collaboration across teams
+
+  
+    Shared open source value alignment 
+
+  
+    Successful workflow implementation
+
+
+    Enables user self-service management
+
+
+    One complete DevOps platform
+
+
+    Quick adoption by non-technical collaborators
+
+
+customer_stats:
+  - stat:  500 to 4,000
+    label: Project growth
+  - stat:  100s to 50,000
+    label: Issue tracking growth
+  - stat:  0 to over 12,700
+    label: Merge request growth
+
+customer_study_content:
+  - title: the customer
+    subtitle: Leading Oxbridge University transforms its DevOps function
+    content: >-
+  
+        At the the Development and Operations (DevOps) Division within University Information Services (UIS) at the University of Cambridge, GitLab now serves as part of efforts to manage software builds and updates across a highly active and varied user base. The GitLab instance is maintained by the Development and Operations (DevOps) Division within University Information Services (UIS) at the University of Cambridge. It has used GitLab as it works to achieve better visibility and collaboration in and among diverse academic and research programs. Such tooling is part of the effort to continually improve the educational and research capabilities of the institution. UIS provides University-wide services to staff and students with a wide scope of requirements. These range from Student Groups like the Cambridge University Robotics Lab or Cam FM, Cambridge and Anglia Ruskin Student Radio, to Research Groups like the Computational and Digital Archaeology Lab; the Cambridge Advanced Imaging Centre; Cancer Research UK, Cambridge Institute; and the Wolfson Brain Imaging Centre. UIS also supports academic services, including Moodle and student admissions systems that were stress tested during the Covid-19 pandemic. This all translates into a dynamic, ever-changing environment. The focus is on delivering internal services that display the same fit and finish that public-facing services present.
+
+
+  - title: the challenge
+    subtitle:  Fragmented tools led to inefficiencies and siloed teams
+    content: >-
+    
+
+        BUIS faced a number of issues that led teams to explore new source code management options. It was difficult to keep up with the rapid pace of modern versioning, or gain adequate visibility into operations. Teams wanted to evolve new paths toward automated software development practices. Among the challenges identified by UIS was the deployment of software components that required separate and continual on-premises tool versioning. Also, development teams looked to ensure academic researchers’ efforts to use more open data sets, and open-source software development, were supported. Add to this challenge the fact that different University departments were maintaining and using their own different tooling. Overall, a more unified approach to the process was desired. After a series of interviews with users, the group chose to upgrade from basic use of Git repository services, while ensuring reliable continuity for long-running research projects. 
+
+
+
+  - title: the solution
+    subtitle:  A robust code repository facilitates collaboration
+    content: >-
+
+
+        GitLab was employed to help support production, staging and development for the group, as well as to achieve greater coherence for development and operations. GitLab’s open-source lineage also fits within University of Cambridge’s overarching goal to support open-source culture. “Having an institutionally supported git hosting service provides a useful way to share materials collaboratively with colleagues. Mirroring functionality lets me keep copies of open-source projects that I am using in corpora for research" explains Professor Andrew Rice, Computer Science in The University of Cambridge Department of Computer Science and Technology.
+
+      
+
+  - title: the results
+    subtitle:   A unified, optimized workflow
+    content: >-
+
+        GitLab is used to integrate the varied parts of full-cycle DevOps over the array of the University’s customer departments. In doing this, it allows the UIS team to focus on deploying a single tool that enables a broad range of development options. The software provides a unified platform for complex pipelines, including building, different types of testing, integration, and deployment. Agile responses to pressing pandemic challenges were among the successes for these projects. While the University had already started developing digital tooling to aid admission processes, the events of 2020 brought this into sharp focus. GitLab served as a central tool in adapting to the new normal. GitLab CI/CD tooling was instrumental in allowing daily and even hourly releases – some of which by necessity were continually adjusted to the changing demands of pandemic response. GitLab has supported the University to continue its focus on innovation and providing its stakeholder groups with one DevOps platform.
+
+
+
+
+   
+
+        ## Learn more about GitLab solutions
+    
+  
+        [Security with GitLab](/solutions/dev-sec-ops/)
+    
+  
+        [CI with GitLab](/stages-devops-lifecycle/continuous-integration/)
+    
+  
+        [Choose a plan that suits your needs](/pricing/)
+customer_study_quotes:
+  - blockquote: Cloud native GitLab efforts aligned well with our internal deployment processes.
+    attribution:  Dr Abraham Martin
+    attribution_title:  Head of Development and Operations (DevOps) at University of Cambridge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

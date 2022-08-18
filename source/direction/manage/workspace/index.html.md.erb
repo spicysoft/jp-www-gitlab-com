@@ -1,0 +1,91 @@
+---
+layout: markdown_page
+title: "Category Direction - Workspace"
+description: " "
+canonical_path: "/direction/manage/workspace/"
+---
+
+- TOC
+{:toc}
+
+## The Workspace group
+
+**Content last reviewed on 2022-06-01**
+
+This is the direction page for the Workspace group which is part of the [Manage stage](/direction/dev/index.html#manage) of the DevOps lifecycle and is responsible for the following categories: 
+
+|  Category   |   Direction  |  Description | Maturity  |
+|  ---   |   ---   |   ---   |  ---  |
+| Subgroups | [Direction Page](https://about.gitlab.com/direction/manage/subgroups/)| Groups represent collections of users or projects.| [Complete](https://about.gitlab.com/direction/maturity/)|
+| Projects | |Projects are containers of resources used to host your codebase, track issues, plan work, and continuously build, test, and use built-in CI/CD to deploy your app.| [Not Applicable](https://about.gitlab.com/direction/maturity/)|
+| User Profile |[Directon Page](https://about.gitlab.com/direction/manage/user-profile/)|Users represent individuals using GitLab.| [Not Applicable](https://about.gitlab.com/direction/maturity/) |
+
+
+## Introduction and how you can help
+Thanks for visiting this category page on Workspace in GitLab. This vision and direction is a work in progress and sharing your feedback directly on issues and epics on GitLab.com is the best way to contribute.
+
+### Overview
+
+<%= partial("direction/manage/workspace/templates/overview") %>
+
+### Vision
+
+The video below contains a discussion with Sid on this topic outlining the problem and the concept of an "instance group". We have since moved away from the term "instance group" and are instead using the term "workspace".
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/U8wTrxM35ow" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+The video below gives a walkthrough of our MVC plan for Workspace
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/BJ9XYpbzuoI" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+Today, GitLab's features exist at 3 levels:
+
+| Level | Description | Example |
+| ------ | ------ | ------ |
+| Instance | Features for the entire instance. These are generally admin features (restricted to the admin panel or via a config like `gitlab.rb`), but not always ([Operations Dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/)). | [LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/#configuration-core-only), [admin-level push rules](https://docs.gitlab.com/ee/user/admin_area/#admin-area-sections) |
+| Group | Features configured and used at the group-level. These generally inherit behavior or objects down into subgroups (like epics, settings, or memberships). | [Epics](https://docs.gitlab.com/ee/user/group/epics/) |
+| Project | Features used at the project level. | [Requirements Management](https://docs.gitlab.com/ee/user/project/requirements/) |
+
+This leads to a few problems:
+* 3 ways to build a feature leads to follow-on requests to build a feature at some other level (see meta issues like [group level things](https://gitlab.com/gitlab-org/gitlab/-/issues/17836)) and additional engineering effort.
+* Restricts the audience, especially with instance-level features. Many of these features are admin-only, which is a tiny percentage of most users on an instance. If we make a feature instance level, we're locking ourselves into a few thousand self-managed users and locking out GitLab.com users.
+* Poor UX. Inconsistencies between the features available at the project and group levels create navigation and usability issues. Moreover, there isn't a dedicated place for instance-level features, so cool features like the Operations Dashboard and the Security Dashboard get relegated to the "More" dropdown in the top Navigation Bar.
+
+While it would be ideal to have one way to build a new feature, most GitLab functionality should exist at the group level rather than the instance level at a minimum.
+
+We should extract features from the admin panel into a new object called a *Workspace* that cascades behavior to all the projects and groups that are owned by the same user or organization. 
+* A workplace includes settings, data, and features from all groups, subgroups, and projects under the same owner (including personal namespaces).
+* Data from all groups, subgroups and projects in a workspace can be aggregated. 
+
+### Goals
+
+<%= partial("direction/manage/workspace/templates/goals") %>
+
+### Jobs to be done
+
+<%= partial("direction/jtbd-list", locals: { stage_key: "Workspace" }) %>
+
+### Terminology 
+
+Namespace is the logical object container in the code. 
+Workspace is the name for the top level group.
+
+### What's next and why
+
+<%= partial("direction/manage/workspace/templates/next") %>
+
+## Demo of introducing the new hierarchy concept for groups and projects for epics
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/fE74lsG_8yM" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+## What is Not Planned Right Now
+
+* The Workspace team will not be responsible for migrating all features from a Group or Project to a Namespace. We will build a framework and document the process for features to be migrated. We'll then collaborate with the respective teams to migrate existing functionality to Namespace.
+* Since we're focused on merging groups and projects at this time, we don't plan to make significant improvements to them, as this would create redundant work.
+* We are not planning to make improvements to Users since the Worspace group's capacity will be dedicated to merging groups and projects.

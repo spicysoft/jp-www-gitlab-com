@@ -1,0 +1,152 @@
+title: Continuous delivery
+seo_title: Continuous delivery (CD)
+description: Learn how continuous delivery automates the application release process
+header_body: >-
+  Continuous delivery automates the application release process so that
+  deployments are predictable and repeatable.
+canonical_path: /topics/continuous-delivery/
+file_name: continuous-delivery
+twitter_image: /images/opengraph/ci-cd-opengraph.png
+related_content:
+  - title: How continuous integration and continuous delivery work together
+    url: /topics/ci-cd/continuous-integration-continuous-delivery-work-together/
+cover_image: /images/topics/g_gitlab-ci-cd.svg
+body: >+
+
+  ## What is Continuous Delivery (CD)
+
+  As the name suggests, continuous delivery (CD) is a software development practice that works in conjunction with continuous integration to automate the application release process. Software developers release updates to code in short but continuous cycles using automation to speed the release. CD includes all the steps in the production cycle - build, test, configure and deploy. The ultimate goal is to get software into users’ hands.
+
+
+  CD can be thought of as an extension of continuous integration, at times referenced together as [CICD](/topics/ci-cd/), which is the practice of integrating code into a shared repository and building/testing each change as soon as possible, automatically, and typically several times a day.
+
+  
+  Once continuous integration builds and tests code in a shared repository, continuous delivery takes over during the final stages to ensure software releases are low-risk, consistent, and repeatable.
+
+    
+  ##  What is the difference between Continuous Delivery and Continuous Deployment?
+
+  
+  [Continuous delivery](/stages-devops-lifecycle/continuous-delivery/) is often used interchangeably with continuous deployment, but there is a subtle difference between the two. Continuous deployment means that all CI-validated code deploys to production *automatically*, whereas continuous delivery means that this code *can* be deployed. The flexibility for code to be deployed at any time is what differentiates delivery from deployment, and practicing continuous deployment is possible when continuous delivery is already in place.
+
+
+  ## What are the benefits of Continuous Delivery?
+
+  
+  Development teams will see many other benefits when they deliver software through the software development lifecycle (SDLC). These include:-
+
+   - Automation of the software release process
+
+   - Lower costs than with traditional software development
+
+   - Improved productivity
+
+   - Quickly identify and address bug issues 
+
+   - Faster time to market through continuous testing and development
+  
+  Releases are low risk -- which translates to painless and boring. CD also removes deployment bottlenecks so that the pipeline flows all the way to the end users. It is easier to deploy with confidence because code can be rolled out and rolled back on demand.
+
+
+  ## How does Continuous Delivery work?
+
+
+  CD is often applied in tandem with DevOps and produces software in short cycles. This way, teams can build, test, configure, and release software more frequently. Comprehensive testing is done on the code to ensure all functions are working to reduce unexpected performance problems in production. Any component that passes the automated tests is a valid candidate for release. In the final stage, there is a final human check and then a push to deployment.
+  
+
+  ## What are the components of Continuous Delivery?
+
+
+  - **Stages:** build, test, configure, and deploy
+
+  - **Workflows:** usually, a developer writes code, and checks in code using a version control system or configuration management tool. Then it is built and packaged into an artifact, which is stored within a repository.
+
+  - **Environments:** this is the targeted infrastructure for deployment and can include a Kubernetes cluster, public cloud instance, or private, on-premises data center.
+
+  - **Pipelines:** typical pipelines focus on subject areas including automated builds, tests, and staging deployments in one continuous process. 
+
+  - **Triggers:** a trigger starts an event that kicks off the pipeline process. A trigger can be manual or automated in the CI/CD pipeline. Examples could be a new artifact or a recurring time.
+  
+
+  ## What is the role of pipeline automation in Continuous Delivery?
+
+
+  One of the key features of an automated CD pipeline is the ability to do automated testing and release. The testing phase should include both functional and non-functional testing. A pipeline that is automated for releases allows for a “fail fast” approach and the tests that are most likely to fail first are the ones that are run first.
+
+
+  An automated pipeline also provides visibility into the code, increasing confidence in its viability as it progresses through the various stages of CD.
+
+
+  With an automated software delivery pipeline, there is no need for manual tasks that are often error-prone, as well as expensive. Teams can also detect code that is not ready for delivery and reject it, and then provide feedback quickly.
+
+
+  ## How do Application Security Testing and Continuous Delivery work together?
+
+
+  Security should not be sacrificed in the SDLC. The key is making sure security and developer teams communicate and work together to understand their different priorities and goals.
+
+
+  When the continuous delivery mentality is applied to security testing it will streamline the process and reduce the burden on security teams. Each new piece of code deployed in continuous release models can be scanned faster, which makes flaws easier to find and fix.
+
+
+  The assembly line model of application development is no longer viable. If security teams have to wait for an application to be finished before fixing vulnerabilities, they will never be able to keep up with the pace and demand for innovations.
+
+
+  To utilize CD to its fullest requires teams to be in constant communication and collaborate throughout the entire DevSecOps process. This requires a shift in thinking so that developers and security teams leverage its benefits.
+
+
+  ## How is Continuous Delivery related to DevOps?
+
+
+  Continuous delivery is a software development practice where software is built in such a way that it can be released to production at any time. It works within DevOps as a support beam in the bridge that closes the gap between developers and ops teams.
+
+
+  DevOps is a software development strategy that bridges the gap between the dev and ops teams within a company. A DevOps culture breaks down the siloed mentality and unifies people, processes, and technology to improve collaboration and coordination. The process is used to get a new feature, enhancement, or code change to production to reach the customer as soon as possible.
+  
+  
+  However, the software delivery process remains complex – even with development, IT operations, quality engineering, and security teams all working closely together under DevOps. DevOps organizes software delivery into several phases:- plan, develop, deliver, deploy, and operate.
+
+
+benefits_title: What are the benefits of continuous delivery?
+benefits_description: "\n"
+benefits:
+  - title: Releases are low-risk
+    description: The ultimate goal for software deployments are to make them as
+      boring as possible. A low-risk event, by its very nature, will be painless
+      and boring. That sounds like a perfect deployment to us.
+    image: /images/icons/gitlab-pipeline.svg
+  - title: Deploy more frequently
+    description: If deployments are boring and low-risk, teams will do them more often.
+    image: /images/icons/header-double-arrow-right.svg
+  - title: Remove deployment bottlenecks
+    description: No more barriers – continuous delivery keeps the pipeline going all
+      the way to end users.
+    image: /images/icons/gitlab-rocket.svg
+  - title: Roll out and rollback on demand
+    description: "Deploy with confidence "
+    image: /images/icons/mvp.png
+resources_title: Continuous delivery resources
+resources_intro: >-
+  Use these resources to learn more about continuous delivery. We would love to
+  get your recommendations on books, blogs, videos, podcasts and other resources
+  that
+
+  tell a great CD story or offer valuable insight on the definition or
+
+  implementation of the practice.
+
+
+  Please share your favorites with us by tweeting us [@gitlab](https://twitter.com/gitlab)!
+resources:
+  - title: Voted as a Strong Performer in The Forrester Wave™ Continuous Delivery
+      And Release Automation, Q2 2020
+    url: https://about.gitlab.com/analysts/forrester-cdra20/
+    type: Reports
+  - title: Hemmersbach reorganized their build chain and increased build speed 59x
+    url: /customers/hemmersbach/
+    type: Case studies
+suggested_content:
+  - url: https://about.gitlab.com/blog/2019/08/06/feature-flags-continuous-delivery/
+  - url: https://about.gitlab.com/blog/2020/07/23/safe-deploys/
+  - url: https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/
+  - url: https://about.gitlab.com/blog/2019/10/30/secure-journey-continuous-delivery/

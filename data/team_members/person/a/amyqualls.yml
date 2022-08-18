@@ -1,0 +1,35 @@
+---
+name: Amy Qualls
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/technical-writer/">Senior Technical Writer</a>,
+  Create (Source Code, Code Review, Editor), Enablement (Database)
+reports_to: dianalogan
+picture: amyqualls.jpg
+twitter: domesticat
+gitlab: aqualls
+pronouns: she/her
+pronunciation: A-mee kwahls, or <a href="http://ipa-reader.xyz/?text=e%C9%AA.mi%20q%CC%9F%CA%89%C3%A4lls">/eɪ.mi
+  q̟ʉälls/ (audio link)</a>
+departments:
+- Engineering Function
+- UX Department
+- Technical Writing
+- Create:Code Review
+projects:
+  gitlab: maintainer docs
+  gitlab-docs: maintainer
+  omnibus-gitlab: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
+story: |
+  Amy converts cups of tea to polished writing. While a technical writer by day, she makes math quilts and math art by night. She shares a tiny condo (crammed full of books) with her husband, their astonishingly terrible house panther, and a murderous tuxie catbeast.
+
+  She reads constantly and voraciously, and adores everything from literary fiction to comic books. She's watched every existing film that won an Oscar for Best Picture or any of the Best Screenplay awards.
+specialty:
+- Create:Editor
+- Create:Code Review
+- Create:Source Code
+- 'Enablement: Database'
+

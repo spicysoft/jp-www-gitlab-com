@@ -1,0 +1,28 @@
+---
+name: Kyle Wiebers
+locality:
+country: Remote
+role: <a href="/job-families/engineering/engineering-management-quality/#engineering-manager-quality">Backend
+  Engineering Manager</a>, Engineering Productivity
+reports_to: mek
+picture: kylewiebers.jpg
+twitter: wiebersk
+gitlab: kwiebers
+pronouns: he/him
+departments:
+- Engineering Function
+- Quality Department
+- Engineering Productivity Team
+projects:
+  gitlab:
+    - reviewer tooling
+  gitlab-triage: maintainer
+  gitlab-styles: reviewer
+  gitlab-dangerfiles: reviewer
+  quality-pipeline-common: reviewer
+  triage-ops: maintainer
+story: |
+  Kyle is an engineer with a relentless pursuit of shortening feedback loops. He
+  has worked in large enterprises and small companies in engineering and automation
+  roles. Whenever Kyle has the opportunity, he enjoys working out, listening to
+  podcasts, spending time with his family, and cooking.

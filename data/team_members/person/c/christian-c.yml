@@ -1,0 +1,31 @@
+---
+name: Christian Couder
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Gitaly</a>
+reports_to: andrashorvath
+picture: christiancouder.jpg
+twitter: ChristianCouder
+gitlab: chriscool
+departments:
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Gitaly Team
+  - Gitaly BE Team
+specialty: Gitaly
+projects:
+  gitaly:
+    - reviewer
+    - maintainer
+expertise: |
+  <li><a href="https://en.wikipedia.org/wiki/C_(programming_language)">C language</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Shell_script">Shell script</a> <a href="/company/team/structure/#expert">expert</a></li>
+domain_expertise:
+- git
+- c
+- shell
+story: 'Based near Paris, France, Christian has been developing Git since 2006. He
+  is passionate about open source projects, especially development tools. '
+

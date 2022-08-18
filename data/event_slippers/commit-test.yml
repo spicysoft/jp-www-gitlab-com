@@ -1,0 +1,721 @@
+title: Register for GitLab Commit and join us for free!
+header_body: Innovate Together
+description: Commit Aug 3 - 4, 2021 is a 2 day virtual experience filled with
+  practical DevOps strategies shared by leaders in development, operations, and
+  security. You’ll discover innovative solutions to help you solve your
+  industry's greatest challenges, including enhancing culture and shortening
+  release times.
+file_name: commit
+schema:
+  code: >-
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "GitLab Commit 2021",
+      "description": "Commit Aug 3-4, 2021 is a 2 day virtual experience filled with practical DevOps strategies shared by leaders in development, operations, and security. You’ll discover innovative solutions to help you solve your industry's greatest challenges, including enhancing culture and shortening release times.",
+      "organizer" : "GitLab",
+      "startDate": "2021-08-03",
+      "endDate": "2021-08-04",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://about.gitlab.com/events/commit/"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Attend for Free",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "",
+        "url": "https://www.eventbrite.com/e/gitlab-commit-virtual-registration-105130995638?aff=sched",
+        "availability": ""
+      }
+    }
+twitter_image: /images/opengraph/commit-opengraph.png
+navigation:
+  brand_link: https://about.gitlab.com/
+  cta_text: View 2020 on demand
+  cta_link: https://www.youtube.com/c/Gitlab/playlists?view=50&sort=dd&shelf_id=5
+  location: Virtual Event
+  date: August 3-4, 2021
+  links:
+    - title: What is Commit?
+      href: "#what-is-commit"
+    - title: Speakers
+      href: "#speakers"
+    - title: Countdown
+      href: "#countdown"
+    - title: Tracks
+      href: "#tracks"
+    - title: Schedule
+      href: "#schedule"
+    - title: What to Expect
+      href: "#what-to-expect"
+    - title: Partners
+      href: "#partners"
+    - title: Events
+      href: "#events"
+    - title: Get in Touch
+      href: "#get-in-touch"
+header:
+  event_name: Commit 2021
+  heading: Innovate Together
+  date: Aug 3rd -  4th, 2021
+  location: Virtual
+  cta_text: View 2020 on demand
+  cta_link: https://www.youtube.com/c/Gitlab/playlists?view=50&sort=dd&shelf_id=5
+  image_source: /images/events/gitlab-commit/gitlab-commit.svg
+video_carousel:
+  event_name: GitLab Commit Virtual 2020
+  videos:
+    - id: xn_WP4K9dl8
+      title: "Opening Keynote: The Power of GitLab - Sid Sijbrandij"
+      thumbnail: /images/events/gitlab-commit/VideoThumb1.png
+    - id: pPtIljkInqI
+      title: "Commit Virtual 2020: Leading Transformation Track Intro with Cormac
+        Foster"
+      thumbnail: /images/events/gitlab-commit/VideoThumb2.png
+    - id: PaKPWLCzNsk
+      title: "Commit Virtual 2020: PubSec Track Introduction with Tracie
+        Robinson-Williams"
+      thumbnail: /images/events/gitlab-commit/VideoThumb3.png
+    - id: AopRnEbvgzE
+      title: GitLab Summit - Live from Crete Day 2
+      thumbnail: /images/events/gitlab-commit/VideoThumb1.png
+copy_1:
+  - heading: What is Commit?
+    icon: /icons/slp-ellipse.svg
+    subheading: Bringing together the GitLab community, Commit shares stories from
+      across the software development lifecycle to inspire and connect teams to
+      innovate together.
+    bodyColOne: >-
+      GitLab Commit showcases how software professionals
+      iterate to spark transformation, innovation, and collaboration. During
+      this two-day conference, attendees learn practical techniques and useful
+      insights to implement at their organizations. As the DevOps platform,
+      GitLab supports teams to change how software is delivered. Commit
+      amplifies these stories of transformation to empower DevOps teams to
+      increase velocity, collaboration, and visibility.
+    imageSourceTwo: /images/events/gitlab-commit/intro.jpg
+copy_2:
+  - heading: What to expect
+    icon: /icons/slp-ellipse.svg
+    subheading: Commit brings together the GitLab community to learn how to innovate the
+      future of software development. 
+    bodyColOne: >-
+      Through practical lessons, high level discussions, and in-depth training, contributors from across the development lifecycle learn how to accelerate velocity, strengthen collaboration, and increase visibility. Software professionals at any organizational level can benefit.
+    bodyColTwo: from the DevOps stories shared at Commit, as these solution-focused
+      lessons have been learned through real-world application. Whether you’re
+      just starting your DevOps journey or looking for unique insights, Commit
+      offers a diverse collection of stories to help your team innovate
+      together.
+partners_heading: Partners
+partners_body: Email the Commit team to become a partner
+partners_cta_text: Contact us
+partners_cta_link: null
+partners_tiers:
+  - heading: Tier A
+    image_size: 1
+    logos:
+      - logo: /images/logos/aws-logo.svg
+      - logo: /images/logos/redhat_logo.svg
+      - logo: /images/logos/google_cloud.svg
+      - logo: /images/logos/harshicorp.svg
+      - logo: /images/logos/Pulumi.png
+  - heading: Tier B
+    image_size: 0.9
+    logos:
+      - logo: /images/logos/vm_ware_tanzu.svg
+      - logo: /images/logos/ibm_logo.svg
+      - logo: /images/logos/Techex.png
+      - logo: /images/logos/Microsoft.png
+  - heading: Tier C
+    image_size: 0.8
+    logos:
+      - logo: /images/logos/Vimeo.png
+      - logo: /images/logos/Philo.png
+      - logo: /images/logos/NS1.png
+      - logo: /images/logos/Theo.png
+      - logo: /images/logos/harshicorp.svg
+      - logo: /images/logos/google_cloud.svg
+      - logo: /images/logos/Pulumi.png
+      - logo: /images/logos/aws-logo.svg
+  - heading: Tier D
+    image_size: 0.7
+    logos:
+      - logo: /images/logos/Drupal.png
+      - logo: /images/logos/Gnome.png
+speakers_block:
+  heading: Speakers
+  body: The committee will select a diverse group of speakers who will share their
+    unique stories of innovation and transformation. Speakers will be announced
+    in June.
+  speakers_are_current: false
+  speakers:
+    - name: Shaaron Alvares
+      title: Senior Agile DevOps Transformation Coach
+      company: T-Mobile
+      headshot: /images/events/gitlab-commit/speakers/shaaron-alvares.jpg
+    - name: Nicolas Chaillan
+      title: Chief Software Officer, US Air Force
+      company: United States Air Force
+      headshot: /images/events/gitlab-commit/speakers/nicolas-chaillan.jpeg
+    - name: Sid Sijbrandij
+      title: Co-founder & CEO
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/sid-sijbrandij.jpg
+    - name: VM (Vicky) Brasseur
+      title: Corporate Strategist, Open Source & Technical Leader, Author, Speaker
+      company: Corporate Strategist
+      headshot: /images/events/gitlab-commit/speakers/vm-vicky-brasseur.jpg
+    - name: Joni Klippert
+      title: Co-Founder & CEO
+      company: StackHawk
+      headshot: /images/events/gitlab-commit/speakers/joni-klippert.jpg
+    - name: Dina Graves Portman
+      title: Google Gloud Developer Programs Engineer
+      company: Google
+      headshot: /images/events/gitlab-commit/speakers/dina-graves-portman.jpg
+    - name: Nathen Harvey
+      title: Cloud Developer Advocate
+      company: Google
+      headshot: /images/events/gitlab-commit/speakers/nathen-harvey.jpg
+    - name: Lisa Cockrell
+      title: Director of Development
+      company: IssueTrak
+      headshot: /images/events/gitlab-commit/speakers/lisa-cockrell.png
+    - name: Jordan Upperman
+      title: Web Developer
+      company: IssueTrak
+      headshot: /images/events/gitlab-commit/speakers/jordan-upperman.png
+    - name: Nnamdi Iregbulem
+      title: Partner
+      company: Lightspeed Venture Partners
+      headshot: /images/events/gitlab-commit/speakers/nnamdi-iregbulem.jpg
+    - name: Eriol Fox
+      title: Designer
+      company: Third Sector Design & Open Source Design
+      headshot: /images/events/gitlab-commit/speakers/eriol-fox.png
+    - name: Abel Wang
+      title: Principal Cloud Advocate, DevOps Lead
+      company: Microsoft
+      headshot: /images/events/gitlab-commit/speakers/abel-wang.jpeg
+    - name: Bobbi Wenzler
+      title: Senior Product Manager
+      company: Northwestern Mutual
+      headshot: /images/events/gitlab-commit/speakers/bobbi-wenzler.jpg
+    - name: Nicole Schultz
+      title: Assistant Director, Engineering
+      company: Northwestern Mutual
+      headshot: /images/events/gitlab-commit/speakers/nicole-schultz.jpg
+    - name: Karl Cardenas
+      title: Architecture Manager - Public Cloud
+      company: State Farm
+      headshot: /images/events/gitlab-commit/speakers/karl-cardenas.jpg
+    - name: Laurel Farrer
+      title: CEO
+      company: Distribute Consulting & Remote Work Association
+      headshot: /images/events/gitlab-commit/speakers/laurel-farrer.jpg
+    - name: Captain Ben Allison
+      title: Course Manager
+      company: US Army Cyber School
+      headshot: /images/events/gitlab-commit/speakers/benjamin-allison.jpg
+    - name: Cora Iberkleid
+      title: Developer Advocate
+      company: VMware
+      headshot: /images/events/gitlab-commit/speakers/cora-iberkleid.jpg
+    - name: Andreas Evers
+      title: Senior Solutions Architect
+      company: VMware
+      headshot: /images/events/gitlab-commit/speakers/andreas-evers.jpg
+    - name: Alexandra Sunderland
+      title: Engineering Manager
+      company: Fellow.app
+      headshot: /images/events/gitlab-commit/speakers/alexandra-sunderland.jpg
+    - name: Luke Thomas
+      title: Founder, CEO
+      company: Friday.app
+      headshot: /images/events/gitlab-commit/speakers/luke-thomas.jpg
+    - name: Eimear Marrinan
+      title: Director of Culture
+      company: HubSpot
+      headshot: /images/events/gitlab-commit/speakers/eimear-marrinan.jpeg
+    - name: Meaghan Williams
+      title: Remote Work & Inclusion Program Manager
+      company: Hubspot
+      headshot: /images/events/gitlab-commit/speakers/meaghan-williams.jpg
+    - name: Paul Rothrock
+      title: Customer Community Manager
+      company: Mattermost
+      headshot: /images/events/gitlab-commit/speakers/paul-rothrock.jpeg
+    - name: Aaron Rothschild
+      title: Senior Product Manager
+      company: Mattermost
+      headshot: /images/events/gitlab-commit/speakers/aaron-rothschild.jpeg
+    - name: Alberto Dominguez
+      title: Managing Partner
+      company: Sperta Consulting
+      headshot: /images/events/gitlab-commit/speakers/alberto-dominguez.jpg
+    - name: Amy Demartine
+      title: VP, Research Director Serving Security & Risk Professionals
+      company: Forrester
+      headshot: /images/events/gitlab-commit/speakers/amy-demartine.jpg
+    - name: Anshuman (Andy) Patel
+      title: CEO
+      company: Jasper Solutions
+      headshot: /images/events/gitlab-commit/speakers/andy-patel.png
+    - name: Asad Raza
+      title: Coder-in-Chief
+      company: Coder-in-Chief
+      headshot: /images/events/gitlab-commit/speakers/asad-raza.jpeg
+    - name: Benson Muite
+      title: Software Developer
+      company: Kichakato Kizito
+      headshot: /images/events/gitlab-commit/speakers/benson-muite.png
+    - name: Bernard Banta
+      title: CTO and Co-founder
+      company: Finplus
+      headshot: /images/events/gitlab-commit/speakers/bernard-banta.png
+    - name: Bethan Vincent
+      title: Marketing Director
+      company: Netsells
+      headshot: /images/events/gitlab-commit/speakers/bethan-vincent.jpg
+    - name: Brandon Dewitt
+      title: CTO
+      company: MX
+      headshot: /images/events/gitlab-commit/speakers/brandon-dewitt.png
+    - name: Daniel Pupius
+      title: Co-founder and CEO
+      company: Range
+      headshot: /images/events/gitlab-commit/speakers/daniel-pupius.jpg
+    - name: Nicholas Walsh
+      title: CMO
+      company: Range
+      headshot: /images/events/gitlab-commit/speakers/nick-walsh.jpeg
+    - name: David DeSanto
+      title: Director, Product
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/david-desanto.png
+    - name: Diego Camizotti
+      title: Developer Master
+      company: CI&T
+      headshot: /images/events/gitlab-commit/speakers/diego-camizotti.jpg
+    - name: Edmond Kuqo
+      title: Lead Engineer
+      company: NIWC Atlantic
+      headshot: /images/events/gitlab-commit/speakers/edmond-kuqo.jpg
+    - name: Eric Mosher
+      title: Technical Lead
+      company: NSA
+      headshot: /images/events/gitlab-commit/speakers/eric-mosher.jpg
+    - name: Feu Mourek
+      title: GitLab Trainer
+      company: NETWAYS
+      headshot: /images/events/gitlab-commit/speakers/feu-mourek.jpeg
+    - name: Gideon Wulfsohn
+      title: Sr. Solutions Engineer
+      company: HashiCorp
+      headshot: /images/events/gitlab-commit/speakers/gideon-wulfsohn.jpg
+    - name: Jackie Meshell
+      title: Senior Product Manager
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/jackie-meshell.png
+    - name: James Brotsos
+      title: Solutions Engineer
+      company: Checkmarx
+      headshot: /images/events/gitlab-commit/speakers/james-brotsos.jpg
+    - name: John Willis
+      title: Senior Director, Global Transformation Office
+      company: Red Hat
+      headshot: /images/events/gitlab-commit/speakers/john-willis.png
+    - name: Josh Dzielak
+      title: Co-Founder & CTO
+      company: Orbit
+      headshot: /images/events/gitlab-commit/speakers/josh-dzielak.png
+    - name: Keith Rhea
+      title: Cloud Automation Engineer
+      company: MindPoint Group
+      headshot: /images/events/gitlab-commit/speakers/keith-rhea.jpg
+    - name: Leonn Paiva
+      title: Senior Software Engineer
+      company: Brazilian Federal Public Ministry
+      headshot: /images/events/gitlab-commit/speakers/leonn-paiva.png
+    - name: Liran Haimovitch
+      title: Co-Founder and CTO
+      company: Rookout
+      headshot: /images/events/gitlab-commit/speakers/liran-haimovitch.jpg
+    - name: Marc Kriz
+      title: Strategic Leader, National Security Programs
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/marc-kriz.jpg
+    - name: Mario García
+      title: GitLab Hero
+      company: Mozilla Reps
+      headshot: /images/events/gitlab-commit/speakers/mario-garcia.jpg
+    - name: Mario Kleinsasser
+      title: Team Leader Cloud Solutions
+      company: STRABAG BRVZ IT
+      headshot: /images/events/gitlab-commit/speakers/mario-kleinsasser.jpg
+    - name: Mark Peters
+      title: Lead IA/Security Engineer
+      company: Technica Corporation
+      headshot: /images/events/gitlab-commit/speakers/mark-peters.jpg
+    - name: Mary Thengvall
+      title: Director, Developer Relations
+      company: Camunda
+      headshot: /images/events/gitlab-commit/speakers/mary-thengvall.jpeg
+    - name: Mattia Montanari
+      title: Associate Researcher
+      company: Oxford University
+      headshot: /images/events/gitlab-commit/speakers/mattia-montanari.jpg
+    - name: Molly de Blanc
+      title: Strategic Initiatives Manager
+      company: GNOME Foundation
+      headshot: /images/events/gitlab-commit/speakers/molly-deblanc.jpg
+    - name: Monmayuri Ray
+      title: MLOps/DevOps Solutions Architect
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/monmayuri-ray.png
+    - name: Nico Meisenzahl
+      title: Senior Cloud & DevOps Consultant
+      company: White Duck GmbH
+      headshot: /images/events/gitlab-commit/speakers/nico-meisenzahl.jpg
+    - name: Nuritzi Sanchez
+      title: Sr. Open Source Program Manager
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/nuritzi-sanchez.jpeg
+    - name: Philippe Lafoucrière
+      title: Distinguished Engineer - Secure & Defend
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/philippe-lafoucriere.jpg
+    - name: Rayvn Manuel
+      title: Senior Application Developer/Architect and Lead DevOps Engineer
+      company: National Museum of African American History and Culture
+      headshot: /images/events/gitlab-commit/speakers/rayvn-manuel.png
+    - name: Rhys Arkins
+      title: Director of Product Management
+      company: WhiteSource
+      headshot: /images/events/gitlab-commit/speakers/rhys-arkins.png
+    - name: Robbie Dyer
+      title: DevOps Consultant
+      company: Eficode
+      headshot: /images/events/gitlab-commit/speakers/robbie-dyer.jpg
+    - name: Rodrigo Domingues
+      title: Principal Architect
+      company: CI&T
+      headshot: /images/events/gitlab-commit/speakers/rodrigo-domingues.jpg
+    - name: Sam Kerr
+      title: Principal Product Manager
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/sam-kerr.jpg
+    - name: Saumya Upadhyaya
+      title: Sr. Product Marketing Manager
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/saumya-upadhyaya.jpeg
+    - name: Savannah Peterson
+      title: Founder & Chief Unicorn
+      company: Savvy Millennial
+      headshot: /images/events/gitlab-commit/speakers/savannah-peterson.png
+    - name: Scott Adams
+      title: Performance Methods Lead
+      company: Rolls-Royce
+      headshot: /images/events/gitlab-commit/speakers/scott-adams.jpg
+    - name: Shea Stewart
+      title: Partner
+      company: Arctiq Inc.
+      headshot: /images/events/gitlab-commit/speakers/shea-stewart.png
+    - name: Tim Jones
+      title: Cloud Automation Engineer
+      company: MindPoint Group
+      headshot: /images/events/gitlab-commit/speakers/tim-jones.jpg
+    - name: Tracey Jaquith
+      title: TV Architect
+      company: Internet Archive
+      headshot: /images/events/gitlab-commit/speakers/tracey-jaquith.jpeg
+    - name: Trishank Karthik Kuppusamy
+      title: Staff Security Engineer
+      company: Datadog
+      headshot: /images/events/gitlab-commit/speakers/trishank-kuppusamy.jpg
+    - name: Wayne Haber
+      title: Director Engineering, Defend
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/wayne-haber.png
+    - name: Krasimir Angelov
+      title: Backend Engineer, Release
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/krasimir-angelov.jpg
+    - name: Bob Wise
+      title: General Manager
+      company: AWS
+      headshot: /images/events/gitlab-commit/speakers/bob-wise.jpg
+    - name: Frank Ford
+      title: Application Development Manager
+      company: Genworth
+      headshot: /images/events/gitlab-commit/speakers/frank-ford.jpg
+    - name: Clay Smith
+      title: Partnership Engineer
+      company: Lightstep
+      headshot: /images/events/gitlab-commit/speakers/clay-smith.jpg
+    - name: Danny Smith
+      title: DevOps Solutions Lead | Senior Advisory Solution Architect
+      company: ServiceNow
+      headshot: /images/events/gitlab-commit/speakers/danny-smith.jpg
+    - name: Greg Sloan
+      title: Senior Field Solutions Architect
+      company: Chef
+      headshot: /images/events/gitlab-commit/speakers/greg-sloan.jpg
+    - name: John Senegal
+      title: Global Solutions Architect, Red Hat
+      company: Red Hat
+      headshot: /images/events/gitlab-commit/speakers/john-senegal.jpg
+    - name: Jonah Jones
+      title: PSA (Partner Solutions Architect) Containers
+      company: AWS
+      headshot: /images/events/gitlab-commit/speakers/jonah-jones.jpg
+    - name: Praneet Loke
+      title: Software Engineer
+      company: Pulumi
+      headshot: /images/events/gitlab-commit/speakers/praneet-loke.jpg
+    - name: Abubakar Siddiq Ango
+      title: Technical Evangelism Program Manager
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/abubakar-siddiq-ango.jpg
+    - name: Clement Ho
+      title: Frontend Engineering Manager
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/clement-ho.jpg
+    - name: William Galindez Arias
+      title: Technical Marketing Manager
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/william-galindez-arias.jpg
+    - name: Ivan Tarin
+      title: Product Marketing Manager
+      company: VMware
+      headshot: /images/events/gitlab-commit/speakers/ivan-tarin.jpg
+    - name: Keith Lee
+      title: Sr. Tech Marketing Architect
+      company: VMware
+      headshot: /images/events/gitlab-commit/speakers/keith-lee.jpg
+    - name: Jeff Simpson
+      title: Business Development Manager
+      company: Oracle
+      headshot: /images/events/gitlab-commit/speakers/jeff-simpson.jpg
+    - name: Josh Tatum
+      title: Senior Cloud Engineer
+      company: Oracle
+      headshot: /images/events/gitlab-commit/speakers/josh-tatum.jpg
+    - name: Joe Lust
+      title: Cloud Infrastructure Lead
+      company: Mabl
+      headshot: /images/events/gitlab-commit/speakers/joe-lust.jpg
+    - name: Chris Smith
+      title: Software Engineer
+      company: Pulumi
+      headshot: /images/events/gitlab-commit/speakers/chris-smith.jpg
+    - name: Anoop Dawar
+      title: Product Manager
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/anoop-dawar.jpg
+    - name: Christie Lenneville
+      title: VP of User Experience
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/christie-lenneville.jpg
+    - name: Jaynene Hapanowicz
+      title: Senior Vice President of Technology Transformation
+      company: Dell
+      headshot: /images/events/gitlab-commit/speakers/jaynene-hapanowicz.jpg
+    - name: Kurt Dusek
+      title: Solutions Architect
+      company: GitLab
+      headshot: /images/events/gitlab-commit/speakers/kurt-dusek.jpg
+    - name: Mike Ensor
+      title: Cloud Solutions Architect
+      company: Google
+      headshot: /images/events/gitlab-commit/speakers/mike-ensor.jpg
+    - name: Jonathan Schreiber
+      title: Principal Product Manager
+      company: Oracle
+      headshot: /images/events/gitlab-commit/speakers/jonathan-schreiber.jpg
+    - name: Ram Kailasanathan
+      title: Senior Director of Product Management
+      company: Oracle
+      headshot: /images/events/gitlab-commit/speakers/ram-kailasanathan.jpg
+    - name: Rand Waldron
+      title: Vice President, Global Government Sector
+      company: Oracle
+      headshot: /images/events/gitlab-commit/speakers/rand-waldron.jpg
+tracks:
+  heading: Tracks
+  body: For 2021, six tracks highlight how GitLab’s DevOps platform enables
+    us to innovate together.
+  icon: /icons/slp-tracks.svg
+  type: event
+  card:
+    - heading: GitLab tips and tricks
+      body: Learn from GitLab users and technical practitioners as they share their
+        successes and setbacks about using GitLab at their organizations. You’ll
+        discover practical insights and useful takeaways that you can put into
+        practice with your team.
+      icon: /icons/slp-bulb.svg
+      icon_color: slp-bg-ui-tertiary-dark
+    - heading: Leading transformation
+      body: Digital transformation creates new opportunities to drive innovation and
+        efficiency in an effort to improve customer experiences. Learn practical
+        advice on how to use GitLab’s DevOps platform to plan, shape, and
+        lead a digital transformation within your organization.
+      icon: /icons/slp-cog.svg
+      icon_color: slp-bg-brand-orange
+    - heading: Cloud native
+      body: High-performing teams embrace microservices and cloud native applications
+        to build and run applications better and faster. Learn how teams use
+        GitLab to leverage cloud native technologies, like Kubernetes,
+        severless, and multicloud, to increase speed, reliability, and scale.
+      icon: /icons/slp-cloud.svg
+      icon_color: slp-bg-status-error
+    - heading: CI/CD
+      body: Teams need the right tools to automate their deployments so that
+        designing, building, and optimizing pipelines accelerate delivery. Learn
+        how teams use GitLab’s built-in CI/CD as a part of a DevOps
+        platform to create automated workflows.
+      icon: /icons/slp-continuous-delivery.svg
+      icon_color: slp-bg-brand-blue
+    - heading: DevSecOps
+      body: When teams increase DevOps velocity, they must ensure application security
+        is a critical component in the development lifecycle. Learn how teams
+        reduce risk, shift security left, and address security and compliance
+        challenges with GitLab’s integrated security capabilities.
+      icon: /icons/slp-devops.svg
+      icon_color: slp-bg-ui-secondary-dark
+    - heading: Education
+      body: Educational institutions use software to transform teaching and learning,
+        advance scientific research, and modernize campus infrastructure. Learn
+        how institutions have solved unique challenges with creative solutions
+        powered by GitLab.
+      icon: /icons/slp-earth.svg
+      icon_color: slp-bg-brand-yellow
+iframe:
+  heading: Schedule
+  subheading: Commit will take place over two days on August 3-4, 2021 and will
+    provide virtual programming for attendees across time zones. The schedule
+    will be released in June.
+  icon: /icons/slp-calendar-purple.svg
+  image: /images/events/gitlab-commit/2020-hero.jpg
+cta:
+  - title: September 17, 2019
+    description: Williamsburg Hotel
+    image: /images/events/gitlab-commit/gitlab-commit-brooklyn-logo.png
+    button_text: Commit Brooklyn 2019 Recap
+    button_url: /
+    button_class: null
+  - title: October 9, 2019
+    description: The Brewery
+    image: /images/events/gitlab-commit/gitlab-commit-london-logo.png
+    button_text: Commit London 2019 Recap
+    button_url: /
+    button_class: null
+announcement:
+  - title: Events Code of Conduct
+    body: GitLab is committed to providing a safe and welcoming experience for every
+      attendee at all of our events whether they are virtual or onsite. Please
+      review our code of conduct
+    body_after_link: to ensure Commit is a friendly, inclusive, and comfortable
+      environment for all participants.
+    link_url: /company/culture/ecoc/
+    link_text: code of conduct
+countdown:
+  - heading: Countdown
+    background: /images/events/gitlab-commit/eventHeaderBackground.png
+    countdownDate: Aug 3, 2021 09:00:00
+connect:
+  body: If you have questions about Commit or the CFP process, please [email
+    us](mailto:commit%40gitlab.com) for more information. We’re here to support
+    and amplify your voices.
+  heading: Get in touch
+  icon: /icons/slp-connect.svg
+  subheading: Our community is essential to GitLab, and your unique points of view
+    enrich Commit.
+  form_id: mktoForm_2425
+  form:
+    code: >-
+      <form class=u-margin-top-xs id=mktoForm_2425></form>
+
+      <script>
+
+
+      MktoForms2.setOptions(
+
+
+      {
+        formXDPath : "/rs/194-VVC-221/images/marketo-xdframe-relative.html"
+      });
+
+
+      MktoForms2.loadForm("//page.gitlab.com", "194-VVC-221", 2425, function(form) 
+
+
+      {
+
+        var mktoFormLabels = document.getElementsByClassName('mktoLabel');
+        for ( var count = 0; count < mktoFormLabels.length; count++ ) 
+        {
+          if (mktoFormLabels[count].htmlFor != '') 
+          {
+            var labelValue = mktoFormLabels[count].htmlFor.toLowerCase();
+            mktoFormLabels[count].closest('.mktoFormRow').classList.add(labelValue);
+          };
+        };
+
+        document.querySelector('#Email').placeholder='Enter your email address to stay informed';
+
+        form.onSuccess(function(values, followUpUrl) 
+        {
+          dataLayer.push(
+          {
+            'event' : 'mktoLead', 
+            'mktoFormId' : form.getId(),
+            'eventCallback' : function()
+            {
+              form.getFormElem().hide();
+              document.getElementById('confirmform').style.visibility = 'visible';
+            }, 'eventTimeout' : 3000
+          });
+          return false;
+        });
+
+      });
+
+
+      </script>
+satellite_events:
+  heading: Satellite Events
+  icon: /icons/slp-community.svg
+  type: event
+  cards:
+    - heading: Remote by GitLab
+      icon: /icons/slp-calendar.svg
+      date: June 29th, 2021
+      event_type: Virtual Event
+      cta: Learn More
+      destinationUrl: https://remotebygitlab.com/
+      bannerImageSource: /images/events/remote-by-gitlab.png
+    - heading: Advanced CI/CD Workshop for Public Sector
+      icon: /icons/slp-calendar.svg
+      date: July 13, 2021
+      event_type: Virtual Event
+      cta: Learn More
+      destinationUrl: https://page.gitlab.com/pubsec-cicd-workshop-registration.html
+      bannerImageSource: /images/events/satalight-event-defualt.png
+    - heading: Jenkins to GitLab Migration Virtual Workshop
+      icon: /icons/slp-calendar.svg
+      date: July 21, 2021
+      event_type: Virtual Event
+      cta: Learn More
+      destinationUrl: https://page.gitlab.com/jenkins-virtual-registration-july-21.html
+      bannerImageSource: /images/events/satalight-event-defualt.png
+cta_banner:
+  - title: Cant wait for Commit?
+    subtitle: Try GitLab now!
+    buttons:
+      - button_url: https://about.gitlab.com/sales/
+        button_text: Talk to an expert

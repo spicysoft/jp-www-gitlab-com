@@ -1,0 +1,36 @@
+---
+name: João Alexandre Prado Tavares Cunha
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Configure</a>
+reports_to: nicolo-maria-mezzopera
+picture: joaocunha.jpg
+twitter:
+gitlab: Alexand
+departments:
+- Engineering Function
+- Development Department
+- Ops Section
+- Configure BE Team
+- Configure Group
+projects:
+  gitlab:
+  - reviewer backend
+  - maintainer database
+  gitlab-agent: trainee_maintainer
+  auto-deploy-image: trainee_maintainer
+  auto-build-image: maintainer
+  cluster-applications: maintainer
+domain_expertise:
+- rails
+- cicd
+- kubernetes
+story: 'João is a Backend Engineer who has discovered his love for DevOps. After a
+  long relationship with Ruby, now Docker and Gitlab CI have become his professional
+  passions. Outside the work environment, João is a family guy who loves his wife,
+  family and friends. Favourite activities include: watching movies/series, playing
+  FIFA, playing guitar, supporting C. R. Flamengo, kitesurfing and snowboarding.
+
+  '
+specialty: Configure
+

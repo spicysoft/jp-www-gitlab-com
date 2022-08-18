@@ -1,0 +1,21 @@
+---
+name: New Vacancy
+start_date: 2021-11-01
+location_factor: 0.7
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/">Senior Backend Engineer</a>
+reports_to: amarpatel
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+  - Engineering Function
+  - Development Department
+  - Sec Section
+  - Secure:Static Analysis BE Team
+expertise:
+story: |
+  Open Position
+

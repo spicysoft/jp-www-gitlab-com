@@ -1,0 +1,223 @@
+- name: Meetups per month
+  base_path: "/handbook/marketing/community-relations/performance-indicators/"
+  definition: A GitLab
+    Meetup is defined as a meetup with a presentation given by a GitLab team member
+    or a wider community member about GitLab or a tangential topic. It does not include
+    meetups without GitLab content where GitLab only provides support. This KPI is
+    tracked by counting the number of issues in the GitLab.com data with the <a href="https://gitlab.com/groups/gitlab-com/marketing/-/boards/962542?label_name[]=Meetups">Meetups
+    label</a> in the Marketing group.<br><br> Each event should have one associated issue
+    with the <em>Meetups</em> label. The issue due date should be set to the event date.
+    The combination of <em>Meetups</em> label and due date will be used by our data dashboard
+    to count the number of meetups each month. This method of tracking can results
+    in errors when meetup issues are created in other groups or when GitLab-related
+    presentations at meetups are not shared with the Community Relations team.
+  target: 
+  org: Community Relations Department
+  is_key: true
+  public: true
+  health:
+    level: 1
+    reasons:
+    - GitLab is not currently supporting in-person meetups in order to encourage responsible
+      physical distancing within our community. We have increased efforts to organize
+      virtual events.
+- name: Wider Community merged MRs per release
+  base_path: "/handbook/marketing/community-relations/performance-indicators/"
+  definition: The Wider community contributions per milestone metric reflects the
+    number of merge requests (MRs) merged from the wider GitLab community for each
+    milestone from our GitLab.com data. To count as a contribution the MR must have
+    been merged, have the <a href="https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&label_name[]=Community%20contribution">Community
+    contribution</a> label, have a GitLab milestone set (e.g <em>11.11</em>, <em>12.0</em>, etc.)
+    and be against one of the <a href="https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/#monitored-projects">monitored
+    gitlab-org group projects</a>.<br><br> Wider community metrics are more reliable
+    after 2015 when the Community contribution label was created, and lastly, there
+    is ongoing work to provide deeper insights into this metric in the <a href="https://app.periscopedata.com/app/gitlab/593556/Wider-Community-Dashboard">Wider
+    Community Sisense dashboard</a>. Further time
+    period representations are provided on the <a href="https://gitlab.biterg.io/app/kibana#/dashboard/1a47afc0-b950-11eb-a6f8-03728e7a4c82?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-10y%2Cmode%3Arelative%2Cto%3Anow))">Contributions and contributors over time dashboard</a>
+  target: 
+  org: Community Relations Department
+  is_key: true
+  public: true
+  health:
+    level: 2
+    reasons:
+    - Under target, but showing steady increasing trend, amplified by the collaboration with the Quality Department.
+    - Reached baseline for making current contribution process more effective. Ongoing longer term focus on improving the overall contributor journey.
+  lessons:
+    learned:
+    - There is a seasonality to wider community contributions (e.g. lower activities
+      during holiday periods).
+    - The GitLab Hackathon has a direct impact in increasing a release's contributions.
+    - Contributions to the www-gitlab-com repository (website and handbook) are generally not represented due to them not having a target milestone.
+  sisense_data:
+    chart: 7765561
+    dashboard: 593556
+    embed: v2
+- name: Wider Community merged MRs per month
+  base_path: "/handbook/marketing/community-relations/performance-indicators/"
+  definition: The Wider community contributions per month metric reflects the
+    number of merge requests (MRs) merged from the wider GitLab community for each
+    month from our GitLab.com data. To count as a contribution the MR must have
+    been merged, have the <a href="https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&label_name[]=Community%20contribution">Community
+    contribution</a> label
+    and be against one of the <a href="https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/#monitored-projects">monitored
+    gitlab-org group projects</a>.<br><br> Wider community metrics are more reliable
+    after 2015 when the Community contribution label was created. This PI is also represented by the below
+    <a href="https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/#bitergia-dashboard">Bitergia chart</a>.
+    Further time
+    period representations are provided on the <a href="https://gitlab.biterg.io/app/kibana#/dashboard/1a47afc0-b950-11eb-a6f8-03728e7a4c82?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-10y%2Cmode%3Arelative%2Cto%3Anow))">Contributions and contributors over time dashboard</a>
+    <br><br>
+    <iframe src="https://gitlab.biterg.io/app/kibana#/dashboard/601dfb10-b94d-11eb-a6f8-03728e7a4c82?embed=true&_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-2y%2Cmode%3Aquick%2Cto%3Anow))" height="600" width="800"></iframe>
+    <br/>
+  target:
+  org: Community Relations Department
+  is_key: false
+  public: true
+  health:
+    level: 2
+    reasons:
+    - Under target, but showing steady increasing trend, amplified by the collaboration with the Quality Department.
+    - Reached baseline for making current contribution process more effective. Ongoing longer term focus on improving the overall contributor journey.
+  lessons:
+    learned:
+    - There is a seasonality to wider community contributions (e.g. lower activities
+      during holiday periods).
+    - The GitLab Hackathon has a direct impact in increasing a contributions on a given month and the next.
+- name: Unique Wider Community Contributors per Month
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Distribution of unique authors for all merged Community contribution MRs by month. This
+    is a shared performance indicator with the Quality team.
+    <br><br>Wider community metrics are more reliable
+    after 2015 when the Community contribution label was created. 
+    This PI is also represented by the below
+    <a href="https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/#bitergia-dashboard">Bitergia chart</a>. Further time
+    period representations are provided on the <a href="https://gitlab.biterg.io/app/kibana#/dashboard/1a47afc0-b950-11eb-a6f8-03728e7a4c82?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-10y%2Cmode%3Arelative%2Cto%3Anow))">Contributions and contributors over time dashboard</a>
+    <br><br>
+    <iframe src="https://gitlab.biterg.io/app/kibana#/dashboard/824a69e0-b94c-11eb-a6f8-03728e7a4c82?embed=true&_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-1y%2Cmode%3Aquick%2Cto%3Anow))" height="600" width="800"></iframe>
+    <br/>
+  target: Above 150 contributors per month
+  org: Community Relations Department
+  is_key: false
+  health:
+    level: 1
+    reasons:
+      - This metric is new and we are working with the Quality team to identify target
+  sisense_data:
+    chart: 9522755
+    dashboard: 729542
+    embed: v2
+- name: First time contributors per month
+  base_path: "/handbook/marketing/community-relations/performance-indicators/"
+  definition: The First time contributors per month metric reflects the
+    number of wider GitLab community members that contribute for the first time to GitLab on a given month.
+    To count as a first time contributor, their MR must have
+    been merged, have the <a href="https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/#contribution-labels>1st-time-contributor label</a>
+    and be against one of the <a href="https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/#monitored-projects">monitored
+    gitlab-org group projects</a>.<br><br> Wider community metrics are more reliable
+    after 2018 when the 1st-time-contributor label was created. This PI is also represented by the below
+    <a href="https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/#bitergia-dashboard">Bitergia chart</a>.
+    Further time
+    period representations are provided on the <a href="https://gitlab.biterg.io/app/kibana#/dashboard/1a47afc0-b950-11eb-a6f8-03728e7a4c82?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-10y%2Cmode%3Arelative%2Cto%3Anow))">Contributions and contributors over time dashboard</a>
+    <br><br>
+    <iframe src="https://gitlab.biterg.io/app/kibana#/dashboard/7d6c0050-bd52-11eb-a6f8-03728e7a4c82?embed=true&_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-2y%2Cmode%3Aquick%2Cto%3Anow))" height="600" width="800"></iframe>
+    <br/>
+    <strong>Note</strong> - if you cannot see this chart, please <a href="https://gitlab.biterg.io/app/kibana#/dashboard/7d6c0050-bd52-11eb-a6f8-03728e7a4c82?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-2y%2Cmode%3Aquick%2Cto%3Anow))">go to the original Bitergia chart</a>.
+  target: 
+  org: Community Relations Department
+  is_key: false
+  public: true
+  health:
+    level: 1
+    reasons:
+    - Unknown at this time, further research is required.
+- name: Developer Evangelism Monthly Impressions
+  base_path: "/handbook/marketing/performance-indicators/"
+  definition: The Developer Evangelism team aims to build thought leadership accross several mediums, primarily through content while exploring various other means. We track impressions of content generated to understand the reach of the generated content, currently we are tracking Twitter impressions, while exploring ways to track other mediums in subsequent iterations.
+  target: 
+  org: Community Relations Department
+  is_key: true
+  public: true
+  health:
+    level: 3
+    reasons:
+    - KPI has consistently exceeded threshold in the past 12 months
+- name: GitLab for Education Quarterly Active Seats
+  base_path: "/handbook/marketing/performance-indicators/"
+  definition: The GitLab for Education team aims to facilitate and drive adoption of GitLab at educational institutions around the world and build an engaged community of GitLab Evangelists in the next generation of the workforce. We track the number of active seats in the GitLab for Education Program on a quarterly basis as a gauge of program enrollment and rentention. The number of active seats is determied by the number of seats from New Business, Add-ons, and Renewals.
+  target: 
+  org: Community Relations Department
+  is_key: true
+  public: true
+  health:
+    level: 2
+    reasons:
+    - All growth prior to FY22Q1 has been organic. Outreach efforts are underway to promote the program.
+    - Ongoing longer term focus on outreach (new) and enablement for existing program members (renewals).
+- name: GitLab for Education Quarterly New Institutions
+  base_path: "/handbook/marketing/performance-indicators/"
+  parent: "/handbook/marketing/performance-indicators/#gitlab-for-education-quarterly-active-seats"
+  definition: We track the number of new intitutions joining the GitLab for Education Program on a quarterly basis. The number of new institutions is a gauge for program awareness and expansion.
+  target: 
+  org: Community Relations Department
+  is_key: false
+  public: true
+  health:
+    level: 2
+    reasons:
+      - All growth prior to FY22Q1 has been organic. Outreach efforts are underway to promote the program.
+- name: GitLab for Education Quarterly New Seats
+  base_path: "/handbook/marketing/performance-indicators/"
+  parent: "/handbook/marketing/performance-indicators/#gitlab-for-education-quarterly-active-seats"
+  definition: We track the number of new seats in GitLab for Education Program on a quarterly basis. The number of new seats is a gauge for GitLab adoption.
+  target: 
+  org: Community Relations Department
+  is_key: false
+  public: true
+  health:
+    level: 2
+    reasons:
+      - All growth prior to FY22Q1 has been organic. Outreach efforts are underway to promote the program.
+- name: GitLab Community Forum Likes Per Quarter
+  base_path: "/handbook/marketing/performance-indicators/"
+  definition: The Community Relations team supports the GitLab Community Forum as an official place for the wider community to seek technical support and assistance with GitLab. We track the average number of likes on comments across the forum over the quarter as a measure of helpful comments and impressions. We are also exploring other ways to track forum success.
+  target: 
+  org: Community Relations Department
+  is_key: false
+  public: true
+  health:
+    level: 3
+    reasons:
+    - This metric is new and is performing at the same threshold as last year.
+- name: GitLab Subreddit Unique Page Views Per Quarter
+  base_path: "/handbook/marketing/performance-indicators/"
+  definition: The Community Relations team supports the GitLab Subreddit r/gitlab as a place to ask questions, get technical support, and projects related to GitLab. We track the number of unique visitors per quarter to gauge the engagement of growth of our subscriber community.
+  target: 
+  org: Community Relations Department
+  is_key: false
+  public: true
+  health:
+    level: 3
+    reasons:
+    - This metric is new and is performing on track compared to the last quarter.
+- name: Community Relations Karma on HackerNews
+  base_path: "/handbook/marketing/performance-indicators/"
+  definition: The Community Relations team engages with the community on HackerNews. It's important to build karma on content unrelated to GitLab as well and be a member of the HackerNews community. We track the cumulative karma of our team over time.
+  target: 
+  org: Community Relations Department
+  is_key: false
+  public: true
+  health:
+    level: 1
+    reasons:
+    - This metric is new and we are still working to identify a target threshold.
+- name: Stack Overflow GitLab Collective Engagement Per Quarter
+  base_path: "/handbook/marketing/performance-indicators/"
+  definition: The GitLab Collective on Stack Overflow is a space where the Community Relations team can share content related to GitLab, users can collaborate, and share expertise. We track the ratio of questions to answers to measure contributor engagement over the quarter.
+  target: 
+  org: Community Relations Department
+  is_key: false
+  public: true
+  health:
+    level: 1
+    reasons:
+    - This metric is new and we are still working to identify a target threshold.

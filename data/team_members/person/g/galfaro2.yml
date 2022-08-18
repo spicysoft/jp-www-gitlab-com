@@ -1,0 +1,19 @@
+name: Greg Alfaro
+locality:
+country: Remote
+role: <a href="/job-families/engineering/application-security/">Senior Security Engineer</a>
+reports_to: andrewkelly
+picture: ../gitlab-logo-extra-whitespace.png
+pronouns:
+pronunciation:
+twitter:
+linkedin:
+gitlab: galfaro2
+departments:
+  - Security
+  - Security Department
+specialty: Application Security
+expertise:
+story:
+projects:
+  gitlab: maintainer security

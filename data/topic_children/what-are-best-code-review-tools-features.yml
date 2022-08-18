@@ -1,0 +1,86 @@
+description: Software development teams should select a code review tool to
+  increase collaboration, consistency, and code quality.
+canonical_path: /topics/version-control/what-are-best-code-review-tools-features/
+parent_topic: version-control
+file_name: what-are-best-code-review-tools-features
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: What are the most effective features for code review tools?
+header_body: Software development teams should select a code review tool to
+  increase collaboration, consistency, and code quality.
+body: >-
+  Selecting a [code review](/topics/version-control/what-is-code-review/) tool is an important part of ensuring code quality and
+  consistency. The code review process can be a time-consuming effort, and
+  software development teams may struggle to balance daily tasks with peer
+  reviews. Conducting quality assurance on a piece of code is an excellent way
+  of spreading knowledge, but it can also result in rushed examinations if
+  developers have to complete them within a specific review time period in order
+  to meet a release. Fortunately, automated tooling can help developers maintain
+  a clean code base. Selecting the right code review tool depends on a team’s
+  goals, workflow, and needs. This article examines what teams should look for
+  in code review tools to assess all lines of code.
+
+
+  ![Lines of code in the middle surrounded by four people, a magnifying glass, and a pair of eyes to illustrate code review](https://about.gitlab.com/images/illustration_code-review-16.png)
+
+
+  # The most effective features to look for in code review tools
+
+
+  ## Collaboration
+
+
+  When selecting a code review tool, teams should assess features to ensure they’re designed to not only ship high quality code, but also facilitate collaboration. A code review tool should make collaboration easy with its commenting features designed to spark [discussions](https://about.gitlab.com/blog/2018/01/04/comment-on-commits-feature-tutorial/). Oftentimes, open source code review tools are built to help teams of any size improve code quality and collaboration with features like in-line commenting and threaded discussions. With [collaboration](https://about.gitlab.com/blog/2020/11/23/collaboration-communication-best-practices/) features, users across the software development lifecycle can document decisions and work through complex problems.
+
+
+  Software development teams that seek a highly collaborative code review process should look for a tool that includes a staging area that enables developers to make notes and comments about changes so that team members can discuss ideas. If teams are distributed or have packed workloads that make synchronous reviews difficult, designated discussion areas facilitate [effective](https://about.gitlab.com/blog/2020/09/08/efficient-code-review-tips/) asynchronous communication. Team members can join a conversation at a time that’s most convenient for them and document ideas for others to read.
+
+
+  ## Security
+
+
+  Selecting an option that functions as a secure static analysis tool and can be hosted on a team’s own server adds an additional layer to application security. Teams should look to implement a robust, [secure](https://about.gitlab.com/blog/2019/08/12/developer-intro-sast-dast/) code review tool that has an immediate impact across the development lifecycle with automated testing that enforces compliance and code standards. Automated tooling helps developers identify vulnerabilities earlier in the lifecycle, so users don’t have to reacquaint themselves with code that was written months prior, which can result in low quality fixes. When security begins at first commit, teams have more opportunities to scan code and remediate vulnerabilities. With automated static application security testing (SAST) at every commit, teams ensure that every line of code has been scanned at least once. Security testing helps teams prioritize code reviews and bugs based on threat level.
+
+
+  Some code review tools incorporate behavioral code analysis to examine the source code for patterns and hidden risks to improve overall [workflow improvements](https://about.gitlab.com/blog/2020/11/11/gitlab-for-agile-portfolio-planning-project-management/). Automated testing can improve code health due to the constant monitoring of [technical debt](https://about.gitlab.com/blog/2020/10/05/tech-debt/). Some code review tools can detect and prioritize technical debt by integrating the tool into their delivery pipeline. With these tools, software development teams can predict risks and set quality gates.
+
+
+  ## Integrations
+
+
+  Having robust integrations helps developers conduct code reviews with less friction, so tools that work seamlessly with various source code management solutions, like [Git](https://about.gitlab.com/blog/2020/04/07/15-git-tips-improve-workflow/), SVN, CVS, Perforce, and Mercurial, are a good option in case a team ever decides to move to a different [version control system](/topics/version-control/). Because Git is the most common source code management system, teams often look for a tool that can manage Git [repositories](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository), scale to multiple servers, and examine [merged](https://about.gitlab.com/blog/2020/10/13/merge-request-reviewers/) code. Tools that include [CI/CD](https://about.gitlab.com/blog/2020/12/10/basics-of-gitlab-ci-updated/) and [merge request](https://about.gitlab.com/blog/2020/12/14/merge-trains-explained/) integrations enable teams to organize code reviews based on risk level, determine quality gates, and streamline resolution.
+
+
+  The best code review tools are ones that can be self-managed or web-based to offer flexibility to a team’s changing needs. If teams don’t have the bandwidth to maintain a tool, they can opt to use the cloud-based option so that users don’t have to deal with maintenance overhead. A highly flexible tool that offers integrations with numerous source code management systems and [integrated development environments](https://about.gitlab.com/blog/2020/05/28/using-gitlab-web-ide-gitlab-ci-cd/), review templates, notification preferences and review rules, and reports can enhance efficiency and simplify a team’s toolchain.
+
+
+  ## Analysis and metrics
+
+
+  A versatile code review tool should offer teams a customizable experience. Successfully completing the code quality assurance stage involves having the ability to analyze and report key metrics on the code review process. Development teams must ship high quality code in order to consistently deliver customer and business value, so tools that offer strong analytics set up teams for success. With code quality reports, users should be able to see potential changes directly in merge requests and to compare reports for code violations. Code quality reports can help cultivate a culture of continuous improvement, because team members can consult the data until there are no degradations and only improvements.
+
+
+  ## A single platform
+
+
+  When teams can use a code review tool across the software development lifecycle, they benefit from keeping every conversation in a single platform. A tool that has several features to support teams in various lifecycle stages includes an issue tracker to identify features and bugs, security testing, integrated unit tests, and wikis for documentation. Comprehensive code review tools improve the overall development process by supporting pre-commit and post-commit reviews, multiline commenting, and syntax-highlighted diffs. Users across the development lifecycle should be able to use a single tool to review various files, including designs, documentation, wireframes, release announcements, mockups, and feature specifications. With one platform, teams can enhance collaboration and communication by viewing changes and identifying [bugs](https://about.gitlab.com/blog/2019/01/09/marker-io-gitlab-integration/).
+
+
+  Features that support every stage of the lifecycle minimize context switching and tool maintenance, which are [challenges](https://about.gitlab.com/blog/2020/07/03/challenges-of-code-reviews/) that can often slow down the development process. When several teams can use issues and merge requests to discuss code changes, the discussions build a single source of truth, and team members can refer back to comments and anecdotes to gain context and insight at any point in time.
+cta_banner:
+
+  - title: Learn how GitLab modernizes software development
+    cta:
+      - text: Learn More
+        url: /stages-devops-lifecycle/source-code-management/
+    body: GitLab streamlines software development with comprehensive version control
+      and collaboration.
+resources_title: Want to learn more about code reviews and collaboration?
+resources:
+  - title: Download the version control best practices eBook to strengthen
+      collaboration
+    url: /resources/ebook-version-control-best-practices/
+    type: Books
+suggested_content:
+  - url: /blog/2020/09/08/efficient-code-review-tips/
+  - url: /blog/2017/03/17/demo-mastering-code-review-with-gitlab/
+  - url: /blog/2020/07/03/challenges-of-code-reviews/

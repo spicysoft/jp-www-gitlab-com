@@ -1,0 +1,31 @@
+name: Jennifer Li
+locality: 
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/#engineering-productivity">Senior Backend Engineer, Engineering Productivity</a>
+reports_to: kyle-wiebers
+picture: jenniferli_dp.png
+pronouns: she/her
+twitter:
+linkedin: ldn-jennifer
+gitlab: jennli
+departments:
+  - Engineering Function
+  - Quality Department
+  - Engineering Productivity Team
+specialty: Engineering Productivity
+projects:
+  gitlab:
+    - reviewer tooling
+  gitlab-triage: reviewer
+  gitlab-styles: reviewer
+  gitlab-dangerfiles: reviewer
+  quality-pipeline-common: reviewer
+  triage-ops: reviewer
+expertise:
+story:  |
+  Jennifer is a software engineer with passion in improving fullstack engineering 
+  productivity. With her combined experience in building web applications, test
+  automation and tooling development, Jennifer brings a holistic view to identifying
+  and addressing development bottlenecks. When Jennifer is not working, she's
+  likely watching youtube videos, running, getting a delicous bubble tea, or
+  enjoying family time.

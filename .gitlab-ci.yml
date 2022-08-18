@@ -118,7 +118,6 @@ variables:
   # Performs an error check after each Bash script command is executed, and exits if the previously executed command returned a non-zero exit code
   # https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2671
   FF_ENABLE_BASH_EXIT_CODE_CHECK: "true" 
-  DEBIAN_VERSION: "bullseye"
 
 ### RULES REUSED VIA YAML ANCHORS:
 # YAML anchors reference: https://docs.gitlab.com/ee/ci/yaml/yaml_optimization.html#anchors
@@ -793,10 +792,6 @@ code_quality:
     - <<: *if-master-original-repo-or-merge-request # specific
       when: manual
   needs: []
-  artifacts:
-    paths:
-      - coffeelint.json
-      - gl-code-quality-report.json
 
 # == Dependency Scanning
 # Override https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Security/Dependency-Scanning.gitlab-ci.yml

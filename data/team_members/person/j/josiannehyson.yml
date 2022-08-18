@@ -1,0 +1,30 @@
+---
+name: Josianne Hyson
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Fulfillment:Purchase</a>
+reports_to: fullstack-engineering-manager-self-service-purchase
+picture: josiannehyson.jpg
+twitter:
+gitlab: jhyson
+departments:
+- Engineering Function
+- Development Department
+- Fulfillment Section
+- Fulfillment Sub-department
+- Fulfillment:Purchase Team
+- Fulfillment:Purchase BE Team
+- Backend
+projects:
+  gitlab: reviewer backend
+  customers-app: maintainer backend
+story: 'Josianne is a software engineer from New Zealand. In her spare time she enjoys
+  hiking, boardgames, and photography.
+
+  '
+domain_expertise:
+- rails
+specialty:
+- 'Fulfillment: Purchase'
+- " Fulfillment"
+

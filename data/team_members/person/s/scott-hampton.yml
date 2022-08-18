@@ -1,0 +1,24 @@
+---
+name: Scott Hampton
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/management/fullstack-manager">Fullstack
+  Engineering Manager, Verify:Pipeline Insights</a>
+reports_to: cheryl-li
+picture: scotthampton.png
+twitter: iamshampton
+gitlab: shampton
+departments:
+- Engineering Function
+- Development Department
+- Ops Section
+- Verify:Pipeline Insights Group
+projects:
+  gitlab: maintainer frontend
+  gitlab-ui: reviewer frontend
+story: |
+  Scott loves problem-solving and being creative. He enjoys his job at GitLab, because
+  it allows him to do both. Outside of work, he enjoys writing and recording music.
+specialty:
+- Verify:Pipeline Insights
+

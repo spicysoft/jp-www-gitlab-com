@@ -1,0 +1,27 @@
+---
+name: Dmytro Biryukov
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Verify:Pipeline Insights</a>
+reports_to: scott-hampton
+picture: dbiryukov.jpeg
+gitlab: dbiryukov
+projects:
+  gitlab:
+  - reviewer backend
+  - reviewer database
+  verify-accessibility: maintainer
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Pipeline Insights Group
+- Verify:Pipeline Insights BE Team
+story: Dima is a backend engineer withing a passion for Ruby, test-driven development,
+  and clean code.
+domain_expertise:
+- cicd
+specialty: Verify
+

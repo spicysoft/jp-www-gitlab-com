@@ -1,0 +1,30 @@
+---
+name: Hordur Freyr Yngvason
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer, Configure</a>
+reports_to: nicolo-maria-mezzopera
+picture: hordurfreyryngvason.jpg
+twitter: vindvaki
+gitlab: hfyngvason
+departments:
+- Engineering Function
+- Development Department
+- Ops Section
+- Configure Group
+- Configure BE Team
+projects:
+  gitlab:
+  - reviewer backend
+  - maintainer ci_template
+  gitlab-agent: maintainer
+  gitlab-agent-chart: maintainer
+  auto-build-image: maintainer
+  auto-deploy-image: maintainer
+  cluster-applications: maintainer
+story: |
+  Hordur is a polyglot Backend Engineer with a background in Math and Computer
+  Science.  He's based in Toronto, Ontario, Canada, with his wife, their baby
+  son, and their cats. Outside of work, he spends most of his time with his
+  family, enjoying the little things in life.
+specialty: Configure

@@ -1,0 +1,147 @@
+---
+title: Self-Managed Rapid Results Consulting
+suppress_header: true
+description: "Quickly implement your GitLab solution and enable your organization to take advantage of your GitLab purchase."
+canonical_path: "/services/rapid-results/self-managed/"
+extra_css:
+  - services.css
+---
+
+.wrapper
+  .simple-header
+    %h1
+      Self-Managed Rapid Results Consulting
+    %h3.headline-subtitle
+      Enterprise-ready, scalable GitLab installation designed by experts
+
+.services-inner
+  .page-container.container
+    %ol.breadcrumb
+      %li 
+      = breadcrumbs(current_page)
+    .row
+      .col-md-10.col-md-offset-1.tile
+        %h2 Overview
+        %p.service-para
+          The GitLab Rapid Results Consulting package helps you quickly implement your GitLab solution and enable your organization to take advantage of your GitLab purchase quickly. Our Professional Services Engineers aid in installing and configuring your GitLab solution so that it runs as smoothly as possible. The Professional Services Engineer will be dedicated to working with your team to architect and advise on best practices for getting the most value possible from your GitLab purchase. 
+          <br/><br/>
+          This service can be delivered remotely or at the customer’s location.
+        %h2 Duration
+        %p.service-para
+          The estimated duration for the scope below is 4 weeks total, not necessarily continuous.  
+        %h2 Who is this for?
+        %ul
+          %li Customers who are purchasing GitLab self-managed for up to 5,000 users that want to minimize transition time to their GitLab solution.
+          %li Customers who are deploying to Amazon Web Services, Google Cloud Platform or Microsoft Azure. (This excludes Cloud Native deployments, including EKS, GKE or AKS)
+          %li Customers who have aggressive uptime and performance requirements.
+          %li Customers who are interested in setting up standardized Disaster Recovery capabilities. 
+        %h2 What’s Included
+        %ul
+          %li Solution planning to assess current tech stack and plan for changes
+          %li Solution roadmap providing clear on-boarding path for teams
+          %li 
+            Installation & Configuration of GitLab
+            %ul
+              %li Self-managed in your cloud environment
+              %li Delivered as Infrastructure-as-code (Terraform) and Configuration Automation (Ansible) for deployment maintainability
+          %li High Availability and Disaster Recovery planning
+          %li Best Practices planning and recommendations
+          %li End user and System Administrator training to create GitLab evangelists within your organization
+          %li You can view the #{link_to 'Rapid Results template Statement of Work', 'https://docs.google.com/document/d/1a60Nmqc1s2EfzD1nlx-peyoiSjA6kUuW_KTs3i24D2Y/edit?usp=sharing'} that further defines the activities, assumptions and outcomes of this package.
+        .row 
+          .col-md-12
+            %h2 Sample Agenda
+            %table
+              %colgroup
+                %col{:width => "25%"}
+                %col{:width => "70%"}
+              %tbody
+                %tr
+                  %th
+                    %h4
+                      %strong 
+                        Week 1:
+                        %br
+                        Solution Planning
+                  %td
+                    %ul
+                      %li Kick-off and Current State assessment
+                      %li Introduction to GitLab team and Rapid Results program
+                      %li Set up a regular cadence
+                      %li 
+                        Establish key personnel from each side that will be entrusted to make the project a success
+                        %ul
+                          %li Executive sponsor(s)
+                          %li Project Manager
+                          %li Super Users and System Administrator(s)
+                          %li Development and Operations leaders
+                      %li Establish connectivity and access to the deployment environment
+                      %li Current technical stack evaluation
+                      %li 
+                        Future State discussion and design
+                        %ul
+                          %li Discuss needs for single sign-on and identity management
+                          %li Review GitLab hardware requirements
+                          %li Architecture planning
+                      %li Create system architecture and design
+                      %li 
+                        %strong Deliverable: Solution Roadmap
+                %tr
+                  %th
+                    %h4
+                      %strong 
+                        Week 2: 
+                        %br
+                        IaC Development, Testing, Training
+                  %td
+                    %ul
+                      %li Verify connectivity to production and test environments
+                      %li Develop planned architecture in Infrastructure-as-Code methodology leveraging Terraform and Ansible
+                      %li "We guide, you drive" deployment of GitLab to non-production environment
+                      %li Configure GitLab non-prod with necessary connections to other corporate services (e.g. LDAP)
+                      %li 
+                        Discuss data and migration considerations, create migration assessment
+                        %ul
+                          %li Note: the rapid results program does not include direct migration services
+                      %li Discuss and plan for integration with additional enterprise systems
+                      %li Discuss and Plan for GitLab Runner deployment methodology: shared compute, bring-your-own-compute for teams or a combination.
+                      %li GitLab Administration Training (#{link_to 'Basics', '/services/education/admin/'} and #{link_to 'Advanced', '/services/education/admin/'}) for System Administrators and Super Users
+                      %li 
+                        %strong Deliverable: Infrastructure-as-Code to deploy GitLab to Customer environment, Infrastructure design document
+                %tr
+                  %th
+                    %h4
+                      %strong
+                        Week 3: 
+                        %br
+                        Training & Deployment
+                  %td
+                    %ul
+                      %li Test non-prod deployment for HA characteristics
+                      %li Configure GitLab non-prod with necessary connections to other corporate services (e.g. LDAP)
+                      %li "We guide, you drive" deployment of GitLab to production environment
+                      %li Configure integratations to other corporate services. 
+                      %li #{link_to 'GitLab with git basics Training', '/services/education/gitlab-basics/'} for any team members new to git or GitLab. Students earn GitLab Associate Certification. 
+                      %li 
+                        #{link_to 'GitLab CI/CD Training', '/services/education/gitlab-ci/'} for Development Team Leads and other DevOps personnel. Students earn GitLab CI/CD Specialist Certification.
+                        %ul
+                          %li Note: GitLab Associate Certification is required for students to be eligible for CI/CD Training
+                      %li 
+                        %strong Deliverable: Access to GitLab Certification Assessments
+                  %tr
+                    %th
+                      %h4
+                        %strong
+                          Week 4: 
+                          %br
+                          Deployment Verification
+                    %td
+                      %ul
+                        %li Test GitLab deployment for expected HA and performance requirements
+                        %li Iterate on deployment configuration from test findings. 
+                        %li Discuss and plan for future software upgrades. 
+                        %li Project wrap up & introduction to Technical Account Management and GitLab Support for on-going engagement
+                        %li 
+                          %strong Deliverable: Final IaC and Automation Configuration files, final project package
+
+= partial "includes/services-contact-form"

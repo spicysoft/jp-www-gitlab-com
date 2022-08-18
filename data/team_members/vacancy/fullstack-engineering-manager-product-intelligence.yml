@@ -1,0 +1,17 @@
+---
+name: New Vacancy
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering Manager, Product Intelligence</a>
+reports_to: tim-z
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+- Engineering Function
+- Development Department
+- Analytics Section
+- Product Intelligence Team
+expertise:
+story:

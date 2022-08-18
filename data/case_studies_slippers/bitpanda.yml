@@ -1,0 +1,119 @@
+title: Bitpanda
+file_name: bitpanda
+canonical_path: /customers/bitpanda/
+cover_image: /images/blogimages/bitpanda_cover_image.jpg
+cover_title: |
+  Bitpanda uses GitLab to enable dynamic growth of its DevOps function 
+cover_description: |
+  GitLab enables robust scaling for hypergrowth fintech Bitpanda
+twitter_image: /images/blogimages/bitpanda_cover_image.jpg
+twitter_text: Bitpanda uses GitLab to enable dynamic growth of its DevOps teams and projects @bitpanda
+customer_logo: /images/case_study_logos/U-bitpanda-logo.svg
+customer_logo_css_class: brand-logo-tall
+customer_industry: Financial Services
+customer_location: Vienna, Austria
+customer_solution: GitLab Self Managed Premium
+customer_employees: |
+  600+
+customer_overview: |
+ Digital assets, cryptocurrencies, blockchain technology, and commission-free fractional stocks are just some of the expansive services the Bitpanda technical team builds and deploys. 
+customer_challenge: |
+ Gain better visibility into critical processes, while supporting continuous application delivery of fintech services.
+key_benefits: >-
+
+  
+    Fast developer onboarding 
+
+  
+    Deep visibility into project status
+
+  
+    Scalable support for dynamic growth
+
+
+    Facilitating AGILE workflow
+
+
+    Seamlessly deployed GitLab via AWS EKS 
+
+
+    Decreased manual loads with GitOps
+
+
+    Regular release cycle enables innovation
+
+
+    Ensures compliance with audits
+
+customer_stats:
+  - stat:  5 to 100
+    label: Developer growth from 5 to 100 in 7 years
+  - stat:  15 to 480
+    label: Project growth from 15 to 480 in 7 years
+  - stat:  0 to 320,000
+    label: Pipeline growth from 0 to 320k in 7 years
+
+customer_study_content:
+  - title: the customer
+    subtitle: Empowering individual investors through innovative fintech
+    content: >-
+  
+        [Bitpanda](https://www.bitpanda.com/en), based in Vienna, Austria, is an innovative 7-year-old  financial technology (fintech) company . Rooted on the tenet that investing should be safe, easy and accessible for everyone, the company has built a digital investment service, a ​​user-friendly, trade-everything platform created to empower users to invest in stocks, cryptocurrencies and metals -- with any amount of money.. Working to redefine investment possibilities for people who might be left on the margins of traditional finance, Bitpanda  has grown to have more than 3 million users. Focused on innovative technology, like digital assets and blockchain, that aims to compete with traditional financial methods, Bitpanda’s solutions allow both established and emerging players to accelerate digital transformation and customize products for end users. Bitpanda’s DevOps teams collaborate to create and deploy innovative, cutting-edge systems that support the company’s mission to empower individual investors. 
+
+
+  - title: the challenge
+    subtitle:  Effectively support scalable, dynamic growth of teams and pipelines
+    content: >-
+    
+
+        Bitpanda has grown dramatically, going from just two or three developers relying on subversion tools to creating teams with  several hundred developers in less than a decade. To support Bitpanda’s mission and to keep up with this growth, its DevOps teams needed to gain better visibility into their fast-paced and complicated work. As the number of pipelines multiplied, tracking development and deployment processes became more complicated. At the same time, code version and control point tools, like subversion, were unable to meet these necessary objectives. It wasn’t tenable. To fix the situation, they began searching for a unifying approach, evaluating platforms from GitLab, GitBucket, GitHub and Cheetah.The answer lay with GitLab. And it’s been the answer for every team at Bitpanda.
+
+
+
+  - title: the solution
+    subtitle:  Efficient operations and simplified workflow
+    content: >-
+
+
+        GitLab provides an integrated solution for pipeline creation that enables developers to be self-sufficient. With GitLab CI/CD, live updates are easier to accomplish, supporting continuous release of services. Through use of multiple GitLab labels, epics and boards, each team can readily monitor work underway. This supports simplified workflow and greater operational efficiency, while allowing scrum leads and others to tailor tooling around individual requirements. And even rollbacks, when necessary, are supported, as well. To simplify work even more, GitLab tools are a ready fit with the AWS Elastic Kubernetes Service. Since Bitpanda has been dramatically growing its team of developers, another major benefit of going with GitLab has been efficiently onboarding new engineers. Being able to rapidly and successfully scale up their DevOps teams has enabled the company to continue to be innovative and address new markets.
+
+      
+
+  - title: the results
+    subtitle:   One DevOps platform enables agile productivity and maintains high standards
+    content: >-
+
+        By adopting GitLab Premium, Bitpanda has been able to build and deploy pipelines using a single, comprehensive tool. “In the end, we decided on GitLab because it was a tool that basically had everything in one place,” said Christian Trummer, chief technology officer at Bitpanda. The software allows teams to quickly move work forward, while ensuring quality and compliance, and adapting to spikes in workloads. GitLab removes the need for its DevOps teams to spend extensive time and money doing heavy, manual work to obtain operation metrics. The tools uncover link issues across teams, while also monitoring lead times, cycle times, sprint editions and plan-versus-actual status. In regulated industries, this kind of monitoring is crucial to compliance. "With GitLab we know we have a well defined change process. GitLab is very intuitive, when you compare it with Jira, which is much more complicated. It is very handy in terms of audits. There is always full visibility,” said Trummer, who also commended GitLab for transparency in pricing. “With GitLab, everything is open.”
+
+
+
+   
+
+        ## Learn more about GitLab solutions
+    
+  
+        [Security with GitLab](/solutions/dev-sec-ops/)
+    
+  
+        [CI with GitLab](/stages-devops-lifecycle/continuous-integration/)
+    
+  
+        [Choose a plan that suits your needs](/pricing/)
+customer_study_quotes:
+  - blockquote: We don’t have a fixed release day. We are deploying every day, every hour.
+    attribution:  David Papp
+    attribution_title: Head of Development, Bitpanda 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,260 @@
+description: Pipelines are fundamental to continuous integration. Learn how
+  CICD pipelines work and how they automate code tests and
+  builds.
+canonical_path: /topics/ci-cd/cicd-pipeline/
+parent_topic: ci-cd
+file_name: cicd-pipeline
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: What is a CICD Pipeline?
+header_body: Pipelines are fundamental to continuous integration and delivery. Learn how
+  CICD pipelines work and how they automate code tests and
+  builds.
+body: >-
+  ## CI/CD Pipeline Overview
+
+
+  For decades, developers have been seeking to automate arduous, repetitive elements of coding, so they can focus on innovation and avoid burnout. [CI/CD](/topics/ci-cd/) arrived as the perfect solution, resolving all too familiar problems associated with integrating new code. Continuous integration, continuous delivery and continuous deployment streamline the process of combining work from separate teams into a cohesive product.
+
+  CI/CD provides a single repository for storing work and consistently automates integration and testing. But what is a CI/CD pipeline, and how does it work? Keep reading to discover the answers and find out more about the benefits of CI/CD pipelines for engineers and enterprises.
+
+
+  ## CICD pipelines defined
+
+  A CI/CD pipeline is a series of steps that streamline the software delivery process. Via a DevOps or site reliability engineering approach, continuous integration/continuous delivery improves app development using monitoring and automation. This is particularly useful when it comes to integration and testing, which are typically difficult to perform, time-consuming and require the creation of stubs and drivers. 
+
+  Automated pipelines prevent manual errors, enable swift product iterations and provide standardized feedback loops. Each step of a CI/CD pipeline is a subset of tasks grouped into pipeline stages, which we discuss in detail further down in this article.
+
+
+  ## Continuous Integration vs. Continuous Delivery vs. Continuous Deployment Definitions and Benefits
+
+  CI and CD are common modern development and DevOps best practices. While CI means continuous integration, CD has two meanings; continuous delivery and continuous deployment.
+
+
+  ### Continuous Integration
+
+  In today's fast-paced tech world, developers need to be able to work simultaneously on different elements of an app. If engineers have to wait until merge day to integrate changes back to the main branch, the resulting work is time-consuming, labor-intensive and frankly, mind-numbing. Because everyone's making changes in isolation, conflicts with other team members can occur. 
+
+  When you practice CI, you continuously merge changes into a central repository as frequently as possible. Changes are validated by an automated build, with unit and integration tests ensuring any changes made haven't broken the application. If testing uncovers a conflict between new and existing code, CI makes fixing bugs faster and more frequent.   
+
+
+  #### Requirements
+
+  - Writing each automated test for improvements, new features and bug fixes
+
+  - Merging changes as often as possible, ideally once per day
+
+  - Using a continuous integration server to monitor the repository and run automated tests for new commits
+
+
+  #### Benefits 
+
+  - Automated tests capture regressions early, so fewer bugs make it to production.
+
+  - Problems with integration are quickly solved, so building the release is easier.
+
+  - Developers do less context-switching because they're alerted to bugs as soon as they break the build.
+
+  - CI servers run hundreds of tests in seconds, reducing testing costs.
+
+
+  ### Continuous Deployment
+
+  The second definition of CD and the final stage of a CI/CD pipeline is continuous deployment. Code changes are released automatically to end users following the successful completion of predefined tests. Keep in mind that there's no manual barrier in place before production, so watertight test automation is essential. For developers, this means changes to cloud applications could go live within moments, making it easier to receive and act on end user feedback.
+  Taking a CI/CD pipeline approach negates many of the risks associated with deployment. This is because it's easier to release changes in small batches, as opposed to attempting them all in one go. 
+
+
+  #### Requirements
+
+  - The quality of your test suite dictates the quality of your releases.
+
+  - Documentation needs to be able to maintain the same pace as production.
+
+  - Feature flags are nonnegotiable, so you can effectively coordinate with other departments.
+
+
+  #### Benefits
+
+  - You don't need to pause development for new releases, streamlining the entire process.
+
+  - Releases are easier to fix and less risky.
+
+  - Improvements are made continuously, and these increases in quality are clearly defined for customers.
+
+
+  ## CI/CD Pipeline Stages
+
+  While a CI/CD pipeline might sound like additional work, it's quite the opposite. It's simply a process you can perform to deliver new products quickly and with fewer problems. Without the automated pipeline, you'd perform the same steps manually, which is slower and less efficient.
+
+  Below are the stages of a DevOps CI/CD pipeline. Failure at any stage triggers a notification to alert the engineer responsible. If a product passes all tests without issue, all team members get a notification following each successful deployment to production.
+
+
+  ### Source
+
+  A pipeline is usually triggered by a source code repository. Changes in code activate a notification in the CI/CD pipeline tool, which operates the corresponding pipeline. Other triggers you might see frequently include user-initiated or automatically scheduled workflows, as well as results of other pipelines. 
+
+
+  ### Build
+
+  During the build phase, engineers share the code they've developed via a repository to build a runnable iteration of the product. You'll need to compile programs written using C/C++, Go and Java, but programs written in JavaScript, Python and Ruby work without this step.
+
+  Generally speaking, you'd use Docker to deploy cloud-native software, and this stage of the pipeline builds the necessary Docker containers. If an app doesn't pass this stage, you should address it immediately because it suggests something is fundamentally wrong with the configuration.
+
+
+  ### Test
+
+  During testing, you validate the code and get a chance to observe how the product behaves. It's an essential safety net that prevents bugs from reaching end users. As a developer, you need to write the automated tests, and the more extensive your test suite, the quicker the product goes to market and the less likely it is to require redeployment.
+
+
+  Failure at this stage exposes issues you didn't conceive of when writing the code. The aim of this stage is to give engineers feedback quickly, while the cause of the problem is fresh in their minds, so their flow state won't be thrown off course.
+
+
+  ### Deploy
+
+  Once a runnable instance of all code has been built and tested, it's ready for deployment. You can configure your pipeline to deploy code according to a schedule and choose between rolling out products to a select group of customers or all of them. It can even automate the process of rolling back a release in case of an issue.
+
+
+  The result is that you get to decide what works best, and you can automate it as part of your CI/CD pipeline. 
+
+
+  ### Tools
+
+  There are a wide number of CI/CD pipeline tools used when implementing CI/CD into your DevOps process, including:
+
+
+  - GitLab CI/CD
+
+
+  - [AutoDevOps](https://docs.gitlab.com/ee/topics/autodevops/)
+
+
+  - ChatOps
+
+
+  - Docker
+
+
+  - Kubernetes
+
+
+  - OpenID Connect
+
+
+  - Bitbucket Cloud
+
+
+  - GitLab Runner
+
+
+  - SSH Keys
+
+
+  - Feature Flags
+
+  - UAT
+
+
+  ## What Makes a Good Pipeline?
+
+
+  Not all CI and CD pipelines are built equal. Because their aim is to generate accurate, reliable products quickly, with comprehensive feedback across the development cycle, accuracy, reliability and speed are at the heart of an effective pipeline. Let's look at why:
+
+
+  - **Speed:** Continuous integration must be fast with instant feedback, or flow is disrupted and productivity tanks.
+
+
+  - **Accuracy:** Automating the deployment process requires pinpoint accuracy to avoid human interference.
+
+
+  - **Reliability:** The pipeline must be reliable, with watertight testing code and stable output.
+
+
+  ## CI/CD Pipeline Example
+
+  Below is a brief example of a CI/CD pipeline diagram:
+
+
+  - **Source code control:** Host code on GitLab to integrate your app with major software and services. 
+
+   
+  - **CI/CD:** Use GitLab CI/CD to commit all code, build and run the required tests.
+
+   
+  - **Deploy code to UAT:** Configure GitLab CI/CD to deploy code to the UAT server.
+
+
+  - **Deploy to production:** Repeat the CI/CD step to deploy code to UAT.
+
+
+  ## Why Should IT Leaders Use CI/CD Pipelines?
+
+  There are a number of clear advantages to using CI/CD pipelines, which we summarize below:
+
+
+  - Simplifies building and testing
+
+
+  - Improves code quality and consistency
+
+
+  - Streamlines communication
+
+
+  - Automates much of the software delivery process
+
+
+  - Inspires faster feedback
+
+
+  - Increases product visibility
+
+
+  - Lets you quickly fix manual errors
+
+
+  - Reduces labor costs
+
+
+  - Speeds up the development lifecycle
+
+
+  - Facilitates a rapid feedback loop between engineers and clients
+
+
+  - Automated tests save money and minimize issues for end users
+
+
+  ## Why Is Everyone Moving to GitLab?
+
+  [GitLab](https://about.gitlab.com/why-gitlab/) is one of the most popular DevOps tools, and more people are registering than ever before. We've got an approximate 30 million users and are growing. Here are some of the reasons they've chosen us:
+
+
+  1. When it comes to CI/CD, GitLab has an advantage over all major repositories because we have an integrated tool that requires practically no setup.
+
+  1. GitLab offers 400 free CI/CD minutes.
+
+  1. There's a free analytics tool, which can help speed up deployment by allowing you to avoid bottlenecks.
+
+  1. GitLab is open source, letting you install the platform on a private server.
+
+  1. The issue tracking is feature-rich and extensive, facilitating effective communication.
+
+  1. GitLab is the best tool for exporting and importing code, with [comprehensive documentation](https://docs.gitlab.com/ee/user/project/settings/import_export.html) walking you through the process, so you can future-proof your builds.
+
+
+
+  ## How CI/CD pipelines support DevOps
+
+  A continuous integration pipeline improves code quality by ensuring that all code changes go through the same process. Code changes are validated against other changes being committed to the same shared code repository. Automated tests and builds decrease the chance of human error, creating faster iterations and better quality code.
+
+
+resources_title: More about optimized continuous integration
+resources:
+  - url: /resources/scaled-ci-cd/
+    title: Scaled continuous integration and delivery
+    type: Books
+  - title: Mastering continuous software development
+    url: /webcast/mastering-ci-cd/
+    type: Webcast
+  - title: Modernize your CI/CD
+    url: /resources/ebook-fuel-growth-cicd/
+    type: Books

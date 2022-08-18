@@ -1,0 +1,852 @@
+devops_tools:
+  # -- Defines the ASG Comparison table for BitBucket --
+  bitbucket:
+    name: "Bitbucket"
+    description: See how Bitbucket compares to GitLab single application that covers the entire DevOps Tool Chain.
+    short_name: "Bitbucket"
+    logo: "/images/devops-tools/bitbucket-logo.png"
+    header: includes/devops-tools/headers/header.html.haml
+    header_link: /images/devops-tools/pdfs/gitlab-vs-bitbucket.pdf
+    add_feature_comparison_table: true
+    strips:
+      - template: gitlab-advantage
+      - template: carousel
+        content:
+          title: "GitLab in Action"
+          subtitle: "Short live demos that get right to the point."
+          items:
+            - title: "Foster Collaboration"
+              link: "https://www.youtube.com/embed/OFNUjvgm2_4"
+              image: "/images/devops-tools/demo-thumbnails/foster-collaboration.png"
+              #image aspect ratio should be 540x390 pixels
+              type: "video"
+            - title: "Benefits of a Single App"
+              link: "https://www.youtube.com/embed/MNxkyLrA5Aw"
+              image: "/images/devops-tools/demo-thumbnails/benefits-single-app.png"
+              type: "video"
+            - title: "How to Import Bitbucket Project to GitLab"
+              link: "https://www.youtube.com/embed/CPcKA2OYtoQ"
+              image: "/images/devops-tools/demo-thumbnails/import-bitbucket-to-gitlab.png"
+              type: "video"
+            - title: "Version Control - Maintain, Track and Manage Access"
+              link: "https://www.youtube.com/embed/nRxCz4vMv5Q"
+              image: "/images/devops-tools/demo-thumbnails/vcc-manage-access.png"
+              type: "video"
+            - title: "Managing Security Vulnearbilities"
+              link: "https://www.youtube.com/embed/t-3TSlChHy4"
+              image: "/images/devops-tools/demo-thumbnails/manage-security-vulnerabilities.png"
+              type: "video"
+            - title: "GitLab CI for Visibility and Collaboration"
+              link: "https://www.youtube.com/embed/z8r3rFQT8xg"
+              image: "/images/devops-tools/demo-thumbnails/ci-visibility-collaboration.png"
+              type: "video"
+      - template: carousel
+        content:
+          title: "5 star peer reviews on G2"
+          subtitle: "Reviews by users across a broad spectrum of companies."
+          items:
+            - title: ""
+              link: "https://www.g2.com/products/gitlab/reviews/gitlab-review-4194470"
+              image: "/images/devops-tools/review-thumbnails/marton_n.png"
+              type: "new_tab"
+            - title: ""
+              link: "https://www.g2.com/products/gitlab/reviews/gitlab-review-4183198"
+              image: "/images/devops-tools/review-thumbnails/prakash_c.png"
+              type: "new_tab"
+            - title: ""
+              link: "https://www.g2.com/products/gitlab/reviews/gitlab-review-4214537"
+              image: "/images/devops-tools/review-thumbnails/haim_a.png"
+              type: "new_tab"
+            - title: ""
+              link: "https://www.g2.com/products/gitlab/reviews/gitlab-review-4204289"
+              image: "/images/devops-tools/review-thumbnails/rohit_c.png"
+              type: "new_tab"
+      - template: carousel
+        content:
+          title: "Case Studies"
+          subtitle: "."
+          items:
+            - title: '"GitLab is vastly outpacing SCM competitors such as Bitbucket."'
+              link: "https://about.gitlab.com/customers/EAB/"
+              image: "/images/devops-tools/casestudy-thumbnails/eab.png"
+              type: "pdf"
+            - title: '"Our team develops software, and we are also flying spacecraft."'
+              link: "https://about.gitlab.com/customers/european-space-agency/"
+              image: "/images/devops-tools/casestudy-thumbnails/esa.png"
+              type: "pdf"
+            - title: "If you want to speed up the delivery cycle, you need to simplify your ecosystem. And we've been doing that with GitLab."
+              link: "https://about.gitlab.com/customers/axway-devops/"
+              image: "/images/devops-tools/casestudy-thumbnails/axway.png"
+              type: "pdf"
+
+  jira:
+    name: "Jira"
+    short_name: "Jira"
+    logo: "/images/devops-tools/jira-logo.png"
+    header: includes/devops-tools/headers/header.html.haml
+    header_link: /images/devops-tools/pdfs/gitlab-vs-jira.pdf
+    add_feature_comparison_table: true
+    strips:
+      - template: markdown
+        content:
+          outer_background: none
+          inner_background: white
+          text: |
+            # GitLab vs Jira Overview
+            Jira Software is an issue tracker and agile project management application.
+            Portfolio for Jira Portfolio is a separate add-on that enables portfolio management in Jira Software.
+            Jira Service Desk is a separate application to enable IT and customer service capablilities.
+            Jira Core is a scaled down version of Jira Software that contains the general project management capabilities without the software and agile-specific functionality of Jira Software.
+
+            Jira is available via 3 deploment models:
+
+            - Cloud: SaaS version of Jira hosted and managed by Atlassian
+            - Server: self-managed version that can be deployed on a single server
+            - Data Center: self-managed version that can be deployed to multiple servers for high availability.
+
+            ## Gaps
+
+            * Extending the native functionality of Jira is done through plugins. Plugins are expensive to maintain, secure, and upgrade. In contrast, GitLab is [open core](https://about.gitlab.com/blog/2016/07/20/gitlab-is-open-core-github-is-closed-source/) and anyone can contribute changes directly to the codebase, which once merged would be automatically tested and maintained with every change.
+
+            ## Comments/Anecdotes
+            * From [customer comment](https://gitlab.com/gitlab-org/gitlab-ce/issues/50478#note_95584769) on why they won't switch from Jira:
+               > Probably some of these features could be worked around in GitLab (e.g. by using labels exclusively). In particular for our organization we have been using Jira for much longer than GitLab. Migrating to another issue tracking system for existing project would be less than trivial, i.e. if one wants to maintain the history.
+            * From [HackerNews JIRA customer](https://news.ycombinator.com/item?id=18145109) about JRA and how it makes their developers feel:
+               - > Agreed that the problem isn't directly Jira, but (anecdotally maybe) there seems a clear correlation between Jira and unhappy developers who feel their tracker has way too much process. Jira doesn't cause the root problem, but Atlassian are profiting from it existing, and so maybe people are encouraged to use it in those ways. I'm not letting it off the hook so easily.
+
+               - > JIRA makes it dangerously easy to implement overly bureaucratic processes. A certain kind of organization is drawn to it for that reason. Even a healthy organization switching to JIRA can get carried away with the tools now at its disposal.
+
+            ## Resources
+            * [Jira Software](https://www.atlassian.com/software/jira)
+            * [Jira Portfolio](https://www.atlassian.com/software/jira/portfolio)
+            * [Jira Service Desk](https://www.atlassian.com/software/jira/service-desk)
+            * [Jira Core](https://www.atlassian.com/software/jira/core)
+
+
+            ## Integrations
+            GitLab has [Jira integration](https://about.gitlab.com/solutions/jira/) that allows Jira Software to be used as an issue tracker for the planning stage while using GitLab for the rest of the DevOps lifecycle: source code management, CI/CD, and monitoring.
+
+            ## Pricing
+            [Jira Software pricing](https://www.atlassian.com/software/jira/pricing)
+            - Cloud
+              - Flat $10 per month for up to 10 users
+              - $7 per user/month for 11-100 users
+            - Server: $3,600 one-time payment (50 users)
+            - Data Center: $12,000 per year (500 users)
+
+            [Portfolio for Jira pricing](https://www.atlassian.com/software/jira/portfolio/pricing)
+            - Cloud
+              - Flat $10 per month for up to 10 users
+              - $3.50 per user/month for 11-100 users
+            - Server: $9,900 one-time payment (500 users)
+            - Data Center: n/a
+
+            [Jira Service Desk pricing](https://www.atlassian.com/software/jira/service-desk/pricing)
+            - Cloud
+              - Flat $10 per month for up to 3 agents
+              - $20 per agent/month
+            - Sever: $13,200 one-time payment (50 agents)
+            - Data Ceneter: $60,000 per year (500 agents)
+
+            [Jira Core pricing](https://www.atlassian.com/software/jira/core/pricing)
+            - Cloud
+              - Flat $10 per month for up to 10 users
+              - $5 per user/month for 11-100 users
+            - Small teams: $10 One-time payment for up to 10 users
+            - Growing teams: $13,200 one-time payment (500 users)
+
+            ## Comparison
+
+            A few missing features in GitLab that JIRA has from [this comment](https://gitlab.com/gitlab-org/gitlab-ce/issues/50478#note_95584769)
+            - The concept of "Components" with a configurable set of default assignee's and associate component watchers (this is separate from "Labels", which also exist in Jira)
+            - Multiple issue types
+            - Configurable set of fields and screens for each issue type
+            - Workflow definition (e.g. allowed transitions for each issue status) for each issue type
+            - Fine-grained notifications control for each issue action
+
+# ------------------------------------------------------ Create stage ------------------------------------------------------
+
+# Defines the Comparison table from GitLab for Example
+#  example:
+#    name: "Example"
+#    short_name: "Example"
+#    logo: "/images/devops-tools/example-logo.svg"
+#    header: includes/devops-tools/headers/no-button.html.haml
+#    header_link: /images/devops-tools/pdfs/gitlab-vs-competitor.pdf
+#    add_feature_comparison_table: true
+#    strips:
+#      - template: markdown
+#        content:
+#          outer_background: none
+#          inner_background: white
+#          text: |
+#            ## Start your text here
+#
+
+# Defines the Comparison table from GitLab for CircleCI
+  circle_ci:
+    description: See how CircleCI compares to Gitlab single application that covers the entire DevOps Tool Chain.
+    name: "CircleCI"
+    short_name: "CircleCI"
+    logo: "/images/devops-tools/circleci-logo.png"
+    header: includes/devops-tools/headers/header.html.haml
+    header_link: /images/devops-tools/pdfs/gitlab-vs-circle-ci.pdf
+    add_feature_comparison_table: true
+    strips:
+      - template: markdown
+        content:
+          outer_background: none
+          inner_background: white
+          text: |
+            # CircleCI Summary
+
+            What is CircleCI? Founded in 2011 and headquartered in San Francisco, Ca., CircleCI  provides a service that automates the Continuous Integration stage of the Software Development Life Cycle (SDLC).  Their CI service offering can be hosted in the cloud or on a private server.  CI jobs are built within four different environments: a Docker image, a Linux VM, Windows VM, or a MacOS VM.  They demonstrate their support of the Open Source Community by providing organizations with free credits for Open Source builds.
+
+            **CircleCI Orbs**
+
+            CircleCI can provide automated services for other stages of the Software Development Life Cycle (SDLC) using third party plug-ins that they call “Orbs”.  They define Orbs as reusable/sharable packages of YAML configurations that condenses repeated pieces of configs into a single line of code. In other words, think of Orbs as a pointer that is included in the YAML configuration file that activates a piece of code during the build process that performs a function.  The Orbs are housed in an open source code library.
+
+# Defines the comparison table for GitHub
+
+  github:
+    description: See how GitHub compares to GitLab single application that covers the entire DevOps Tool Chain.
+    name: "GitHub"
+    short_name: "GitHub"
+    logo: "/images/devops-tools/github-logo-small.png"
+    header: includes/devops-tools/headers/landing-header-no-button.html.haml
+#    header_link: /images/devops-tools/github.pdf
+    add_feature_comparison_table: false
+    strips:
+      - template: markdown
+        content:
+          outer_background: none
+          inner_background: white
+          text: |
+            <style>
+              table.github-comparison-table p {color: rgb(51, 51, 51);}
+            </style>
+            <table class="github-comparison-table">
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>GitLab</th>
+                        <th>GitHub</th>
+                        <th>Advantage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>System requirements</td>
+                        <td>Minimum hardware requirements: 4 vCPU and 4 GB RAM support up to 500 users. No specific recommendation for disk size.</td>
+                        <td>
+                            <p>Minimum hardware requirements: 4 vCPUs, 32 GB RAM, 150 GB attached storage, 200 GB root storage support up to 20 light users.</p>
+                            <p>Supporting up to 3000 users, requires 8 vCPUs, 48 GB RAM, 300 GB attached storage, 200 GB root storage.
+                            </p>
+                        </td>
+                        <td>GitLab (fewer requirements)</td>
+                    </tr>
+                    <tr>
+                        <td>Installation</td>
+                        <td>
+                            <p>GitLab installs on most standard Linux distributions.
+                            </p>
+                            <p>GitLab has a number of installation methods, the most popular being “Omnibus” installation on Linux, Helm charts for installation on K8S and Docker installation.</p>
+                            <p>Installing GitLab using the Docker installation, server provisioning and Gitlab installation took about 2.5 hours.</p>
+                        </td>
+                        <td>
+                            <p> GitHub provides its own virtual machine image.</p>
+                            <p>On GCP, it provides a set of gcloud compute
+                                <a href="https://docs.github.com/en/enterprise-server@3.3/admin/installation/setting-up-a-github-enterprise-server-instance/installing-github-enterprise-server-on-google-cloud-platform" target="_blank">commands</a>, which provision
+                                all needed resources and install GitHub.
+                            </p>
+                            <p>The whole installation process took about 2.5 hours.</p>
+                        </td>
+                        <td>Similar</td>
+                    </tr>
+                    <tr>
+                        <td>Configuration</td>
+                        <td>All configuration is done by editing the GitLab configuration file (gitlab.rb) and running
+                            <i>reconfigure</i>.
+                        </td>
+                        <td>All configuration is done using GitHub admin web interface (“Management Console”) and clicking
+                            <i>Save changes</i>.
+                        </td>
+                        <td>Similar. GitHub is more user-friendly as it does not require familiarity with Linux shell. On the other hand, GitHub’s Save Changes takes a very long time, about 10 min, while GitLab’s <i>reconfigure</i> is stored as-code and takes
+                            about a minute.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Backup</td>
+                        <td>
+                            <p>GitLab backup is a command-line utility, which runs on the same Linux server as GitLab. It can be configured to run at regular intervals as a cron job.</p>
+                            <p>There are also alternative GitLab backup methods like file system snapshot and GitLab Geo (Premium and Ultimate)</p>
+                        </td>
+                        <td>GitHub Enterprise Server Backup Utilities is a backup system installed on a separate host. It takes backup snapshots of the GitHub Enterprise Server instance at regular intervals over a secure SSH network connection. Use a snapshot
+                            to restore an existing GitHub Enterprise Server instance to a previous state from the backup host.
+                        </td>
+                        <td>GitLab (does not require a dedicated backup host)</td>
+                    </tr>
+                    <tr>
+                        <td>Maintenance Mode</td>
+                        <td>GitLab has a maintenance mode, which blocks all external actions that change its internal state. There are three ways to enable maintenance mode: web UI, API and Rails console.</td>
+                        <td>GitHub has a maintenance mode, takes the GitHub Enterprise Server instance offline and users can’t access it. Use the Management Console.
+                        </td>
+                        <td>GitLab (maintenance mode allows read access)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Upgrades</td>
+                        <td><a href="https://docs.gitlab.com/ee/update/package/index.html#downtime" target="_blank">For single
+                                node installations</a>, GitLab is not available to users while an upgrade is in progress. For multi-node installations, there is a possibility to perform <a href="https://docs.gitlab.com/ee/update/zero_downtime.html" target="_blank">zero
+                                downtime upgrades</a>.
+                        </td>
+                        <td>
+                            <p>There are two types of GHES upgrades, hotpatch and feature release.</p>
+                            <p>A <a href="https://docs.gitlab.com/ee/update/zero_downtime.html" target="_blank">hotpatch</a> does not require a maintenance window and usually does not require a reboot, It can be installed using the Management Console or an administrative
+                                shell utility.</p>
+                            <p>A feature upgrade does require a maintenance window and can be installed only using the administrative shell utility.</p>
+                        </td>
+                        <td>GitLab, with better support for zero-downtime upgrades</td>
+                    </tr>
+                    <tr>
+                        <td>Architecture and Scalability</td>
+                        <td>
+                            <p>Gitlab is a modular application, built of a number of components like GitLab Workhorse, Nginx, Redis, Gitaly, PostgreSQL, etc.</p>
+                            <p>In the basic configuration the components can all exist in a single node, but to scale, they can be distributed to separate nodes. One or more nodes can be dedicated to the same component (e.g., two or more
+                                Gitaly storage servers).
+                            </p>
+                            <p>To install a single component on a node, install the same Omnibus image and then activate only that component by editing the Gitlab configuration file (gitlab.rb).</p>
+                            <p>Horizontal scaling is supported for App Server nodes without downtime. It could be configured in an automatic way like the example for <a href="https://docs.gitlab.com/ee/install/aws/manual_install_aws.html#architecture">HA
+                                    installation of GitLab on AWS.</a></p>
+                        </td>
+                        <td>GHES is a monolith, which cannot be split into a number of components. The only way to scale it is to move to a bigger server (vertical scaling requiring downtime).</td>
+                        <td>GitLab, as it allows horizontal scaling</td>
+                    </tr>
+                    <tr>
+                        <td>High Availability</td>
+                        <td>
+                            <p>GitLab high availability is achieved by having full redundancy of all components and automatic failover (i.e. if a component fails, its counterpart automatically takes over).</p>
+                            <p>The parts include:</p>
+                            <ul>
+                                <li><a target="_blank" href="https://docs.gitlab.com/ee/administration/reference_architectures/#traffic-load-balancer">Multiple
+                                        Application Server nodes</a> with a load balancer (Premium)</li>
+                                <li><a href="https://docs.gitlab.com/ee/administration/gitaly/">Gitaly cluster</a>.</li>
+                                <li>Omnibus installation with database redundancy and automatic failover (<a href="https://docs.gitlab.com/ee/administration/postgresql/replication_and_failover.html">PostgreSQL</a> and <a href="https://docs.gitlab.com/ee/administration/redis/replication_and_failover.html">Redis</a>)
+                                    failover (Premium).</li>
+                            </ul>
+                        </td>
+                        <td>There is no truly HA configuration of GitHub. </td>
+                        <td>GitLab (has true HA)</td>
+                    </tr>
+                    <tr>
+                        <td>Disaster Recovery</td>
+                        <td><a target="_blank" href="https://docs.gitlab.com/ee/administration/geo">GitLab Geo</a> (Premium) allows replication of a GitLab instance to other geographical locations as a read-only fully operational instance that can also be promoted
+                            in case of disaster.</td>
+                        <td>
+                            <p>
+                                GHES has a <a href="https://docs.github.com/en/enterprise-server@3.1/admin/enterprise-management/configuring-high-availability/about-high-availability-configuration">configuration</a>, in which a fully redundant secondary GitHub
+                                Enterprise Server appliance is kept in sync with the primary appliance through replication of all major datastores.
+                            </p>
+                            <p>No additional costs are involved.
+                            </p>
+                            <p>GitHub calls this configuration HA, but since the failover is manual, it's defined here as a DR.</p>
+                        </td>
+                        <td>Similar</td>
+                    </tr>
+                    <tr>
+                        <td>Workflow</td>
+                        <td>
+                            <p>GitLab proposes more workflow models than GitHub, with feature, development, production, environment and release branches.
+                                <br><a href="https://docs.gitlab.com/ee/topics/gitlab_flow.html">GitLab Flow</a> is the standard.</p>
+                            <p>GitLab workflow is supported by merge requests (MRs), which are a framework for code review before merging.</p>
+                        </td>
+                        <td>
+                            <p>GitHub proposes a <a href="https://guides.github.com/introduction/flow/index.html">simple workflow</a>, which has feature branches and a main branch.</p>
+                            <p>GitHub workflow is supported by pull requests (PRs), which are essentially the same as GitLab MRs.</p>
+                            <p>Note that nothing prevents using GitLab flow on GitHub and vice versa.</p>
+                        </td>
+                        <td>Similar (because any workflow works on both systems)</td>
+                    </tr>
+                    <tr>
+                        <td>Issue Tracking</td>
+                        <td>
+                            <p><a href="https://docs.gitlab.com/ee/user/project/issues/">GitLab Issues</a> is an issue tracking system, seamlessly integrated with commits and Merge Requests.</p>
+                            <p>
+                                There is a limited number of fields and statuses, but some of the missing functionality is achieved by using labels, in particular scoped labels (Premium), which can stand in for list-of-values fields and statuses.
+                            </p>
+                            <p>GitLab also has Epics (Premium), which are similar to Issues, but sharing a theme across several projects and milestones. An Epic can be a parent of one or more child Epics and of one or more Issues
+                            </p>
+                        </td>
+                        <td>
+                            <p>GitHub Issues is a similar issue tracking system.</p>
+                            <p>There is a limited number of fields and statuses, and there is no feature similar to GitLab’s scoped labels.</p>
+                            <p>However, there is a beta program, which promises many new features, like custom fields and custom flows.</p>
+                            <p>There is no feature parallel to GitLab’s epics.</p>
+                        </td>
+                        <td>
+                            <p>Currently, GitLab (epics and scoped labels).</p>
+                            <p>However, GitHub may jump ahead with their beta features.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Groups</td>
+                        <td>
+                            <p>In GitLab, developers can use groups to manage one or more related projects at the same time.</p>
+                            <p>One can use groups to manage permissions for his projects. If someone has access to the group, they get access to all the projects in the group.</p>
+                            <p>GitLab also supports up to 20 levels of subgroups, which is useful for large organizations or large applications.</p>
+                        </td>
+                        <td>
+                            <p>In GitHub, repos can be grouped using organizations.</p>
+                            <p>However, organizations can’t be used for giving access to projects. For example, being a member of an organization is not enough for being able to pull and push from that organization’s repos (see <a href="https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-roles">here</a>)</p>
+                            <p>There is no feature similar to GitLab’s subgroups (there are no “sub-organizations”).</p>
+                        </td>
+                        <td>GitLab (groups and subgroups are much more useful than GitHub’s organizations) </td>
+                    </tr>
+                    <tr>
+                        <td>CI/CD - Setup</td>
+                        <td>
+                            <p>In GitLab, a user has to generate an access token, provision a runner server, install runner software on it and register it vis-a-vis GitLab using the token.</p>
+                            <p>There are a number of
+                                <a href="https://docs.gitlab.com/runner/executors/" target="_blank"></a>executors, like shell, Docker, Kubernetes.</p>
+                            <p>Runner installation on K8S is supported by GitLab’s web UI. In particular one can create a cluster on Amazon EKS or Google GKE and install a runner on it, all from the GitLab’s web UI.</p>
+                        </td>
+                        <td>
+                            <p> To enable GitHub Actions on GHES, one must have access to <a href="https://docs.github.com/en/enterprise-server@3.3/admin/github-actions/enabling-github-actions-for-github-enterprise-server/getting-started-with-github-actions-for-github-enterprise-server#external-storage-requirements"
+                                    target="_blank">external blob storage</a>. Only Azure Blob storage, AWS S3 or S3-compatible MinIO Gateway for NAS are suitable. GCP storage won't work.</p>
+                            <p>Requires opening an account on AWS, creating an S3 bucket, and setting it up.</p>
+                            <p>Runner setup is a little simpler than in GitLab: all setup commands are provided on an instance/organization/project’s page (depending on the runner’s scope) and the access token is generated automatically. There is third-party
+                                software which run GitHub Actions on K8S (e.g. <a href="https://github.com/actions-runner-controller/actions-runner-controller" target="_blank">here</a>).
+                            </p>
+                        </td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>CI/CD - Basic Pipeline Configuration</td>
+                        <td>
+                            <p>In GitLab, a CI/CD pipeline is configured using a YAML file.</p>
+                            <p>A GitLab pipeline’s <a href="https://docs.gitlab.com/ee/ci/pipelines/">major building blocks</a> are stages and jobs. A stage consists of jobs, which run in parallel. Stages are executed sequentially: if all jobs in a stage succeed,
+                                the pipeline moves on to the next stage.</p>
+                            <p>Recently (14.2), GitLab also introduced stageless pipelines, which use the same needs keyword as GitHub.</p>
+                            <p>A developer can use the extends keyword to reuse configuration sections.</p>
+                        </td>
+                        <td>
+                            <p>In GitHub uses the term "workflow" instead of “pipeline”. A workflow is also configured using a YAML file, with syntax <a href="https://docs.github.com/en/actions/migrating-to-github-actions/migrating-from-gitlab-cicd-to-github-actions">quite similar</a>                        to that of GitLab.</p>
+                            <p>In GitHub, there are no stages, but a similar functionality is achieved using the <a href="https://docs.github.com/en/actions/learn-github-actions/managing-complex-workflows#creating-dependent-jobs">needs</a> keyword.</p>
+                            <p>Because of the lack of extends, users need to cut and paste code, making their configuration files longer and less maintainable.</p>
+                            <p>GitHub Actions can be triggered on non-code events, such as creation of new issues.</p>
+                        </td>
+                        <td>GitLab (because of the ability to re-run a single job) but also GitHub (because of ability to trigger on other events)</td>
+                    </tr>
+                    <tr>
+                        <td>CI/CD - Advanced Features (major differences)</td>
+                        <td>
+                            <p>GitLab Auto DevOps recognizes the code and automatically sets up the end to end template.</p>
+                            <p><a target="_blank" href="https://docs.gitlab.com/ee/ci/review_apps/">Preview App</a> before merge to reduce defects, shorten development time.</p>
+                            <p><a href="https://docs.gitlab.com/ee/ci/pipelines/multi_project_pipelines.html" target="_blank"> Multi-project pipelines</a> - Set up GitLab CI/CD across multiple projects, so that a pipeline in one project can trigger a pipeline
+                                in another project. Visualize the entire pipeline in one place, including all cross-project interdependencies.
+                            </p>
+                            <p><a target="_blank" href="https://docs.gitlab.com/ee/ci/pipelines/parent_child_pipelines.html">Parent-Child pipelines</a>, which can run concurrently and save pipeline run times.</p>
+                            <p><a href="https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html" target="_blank">Merge trains</a> (Premium) to keep the target branch green.</p>
+                            <p>In GitLab, it's possible to place the CI/CD configuration file outside the repository, and thus use the same configuration file for a number of projects.
+                            </p>
+                        </td>
+                        <td>
+                            <p>Workflow templates for a variety of languages and tooling. When setting up workflows in a repository, GitHub analyzes the code in the repository and recommends workflows based on the language and framework in the repository. However,
+                                there is no feature similar to GitLab’s Auto DevOps.
+                            </p>
+                            <p>No feature similar to Review Apps. </p>
+                            <p>There is a third-party <a target="_blank" href="https://github.com/marketplace/actions/github-action-build-chain-cross-repo-builds">Github Action Build Chain</a>. It is a tool for GitHub actions to build multiple projects from different
+                                repositories in a single action.
+                            </p>
+                            <p>In GitHub, there is no parent-child workflow feature, resulting in longer pipeline run times.</p>
+                            <p>No feature similar to Merge Trains.</p>
+                            <p>In GitHub, workflow configuration files must be stored in the <i>.github/workflows</i> directory of the repository. If multiple projects using the same build procedure, there need to be multiple copies of the workflow file.
+                            </p>
+                        </td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>Container Scanning</td>
+                        <td><a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/container_scanning/index.html">Container Scanning</a> - Scan Docker containers for known vulnerabilities</td>
+                        <td></td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>Dependency List</td>
+                        <td><a href="https://docs.gitlab.com/ee/user/application_security/dependency_list/">Dependency List</a> - View a project’s dependencies and their known vulnerabilities.</td>
+                        <td>Dependabot - Receive alerts of new vulnerabilities that affect dependencies. Requires <a target="_blank" href="https://github.blog/2019-12-05-security-best-practices-for-github-enterprise-server/#enable-security-alerts-for-vulnerable-dependencies">connecting the Enterprise Server to Enterprise Cloud.</a></td>
+                        <td>Similar</td>
+                    </tr>
+                    <tr>
+                        <td>DAST</td>
+                        <td><a href="https://docs.gitlab.com/ee/user/application_security/dast/index.html">Dynamic Application Security Testing (DAST)</a> - Analyze running web applications for known vulnerabilities.</td>
+                        <td></td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>DAST for APIs</td>
+                        <td><a href="https://docs.gitlab.com/ee/user/application_security/dast_api/index.html">DAST API</a> - Analyze running web APIs for known vulnerabilities.</td>
+                        <td></td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>API Fuzzing</td>
+                        <td><a href="https://docs.gitlab.com/ee/user/application_security/api_fuzzing/index.html">API
+                                fuzzing</a> - Find unknown bugs and vulnerabilities in web APIs with fuzzing.</td>
+                        <td></td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>Secret Detection</td>
+                        <td><a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/secret_detection/index.html">Secret
+                                Detection</a> - Analyze Git history for leaked secrets.</td>
+                        <td>Secret scanning - Detect secrets, for example keys and tokens, that have been checked into the repository. Part of GitHub Advanced Security</td>
+                        <td>Similar</td>
+                    </tr>
+                    <tr>
+                        <td>SAST</td>
+                        <td><a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/sast/index.html">Static Application
+                                Security</a> Testing (SAST) - Analyze source code for known vulnerabilities.</td>
+                        <td><a target="_blank" href="https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning">Code
+                                scanning</a> - Search for potential security vulnerabilities and coding errors in code. Set up code scanning to use the CodeQL product maintained by GitHub or a third-party code scanning tool. Part of GitHub Advanced
+                            Security.
+                        </td>
+                        <td>Similar</td>
+                    </tr>
+                    <tr>
+                        <td>IAC Scanning</td>
+                        <td><a href="https://docs.gitlab.com/ee/user/application_security/iac_scanning/index.html">Infrastructure
+                                as Code (IaC) Scanning</a> - Analyze IaC configuration files for known vulnerabilities.
+                        </td>
+                        <td></td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>Coverage fuzzing</td>
+                        <td><a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/index.html">Coverage
+                                fuzzing</a> - Find unknown bugs and vulnerabilities with coverage-guided fuzzing</td>
+                        <td></td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>Cluster image scanning</td>
+                        <td><a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/cluster_image_scanning/index.html">Cluster
+                                Image Scanning</a> - Scan Kubernetes clusters for known vulnerabilities</td>
+                        <td></td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>License compliance</td>
+                        <td><a target="_blank" href="https://docs.gitlab.com/ee/user/compliance/license_compliance/">License
+                                Compliance</a> - Search a project’s dependencies for licenses that are not compliant with the project's policy.
+                        </td>
+                        <td></td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>Security Dashboard</td>
+                        <td>Security Dashboard - View vulnerabilities in an individual project or across a group.</td>
+                        <td>Dependency review - Show the full impact of changes to dependencies and see details of any vulnerable versions before merging a pull request.</td>
+                        <td>GitLab has a full dashboard; GitHub’s capability is limited</td>
+                    </tr>
+                    <tr>
+                        <td>Integrations with Third Parties</td>
+                        <td>
+                            <p>GitLab has about 30 integrations with 3rd party tools.</p>
+                            <p>Some integrations (e.g., Elasticsearch and Jira) are set up on the instance level, while some (e.g. Jenkins) are set up on project level.</p>
+                            <p>All integrations are variable for all tiers, except for the
+                                <a target="_blank" href="https://docs.gitlab.com/ee/integration/elasticsearch.html">Elasticsearch</a> and <a href="https://docs.gitlab.com/ee/user/project/integrations/github.html" target="_blank">GitHub</a> integrations (Premium).
+                            </p>
+                            <p>All GitLab integrations are part of the GitLab installation, are documented and supported by GitLab.
+                            </p>
+                        </td>
+                        <td>
+                            <p>GitHub has a <a target="_blank" href="https://github.com/marketplace">Marketplace</a> of third party tools. These tools are divided into apps and actions.</p>
+                            <p><a href="https://docs.github.com/en/developers/apps/getting-started-with-apps/about-apps">Apps</a> on GitHub allow to automation and workflow improvement. E.g., GitHub <a href="https://github.com/marketplace/jira-software-github"
+                                    target="_blank">integration with
+                                    Jira</a>. Apps are set up on organization level. Currently there are <a href="https://github.com/marketplace?type=apps">493 apps</a> in the GitHub marketplace.
+                            </p>
+                            <p><a href="https://docs.github.com/en/actions/creating-actions/about-custom-actions#about-custom-actions">Actions</a> are individual tasks that can be combine to create jobs and customize workflows. E.g., <a href="https://github.com/marketplace/actions/close-stale-issues">Close Stale Issues</a>,
+                                which warns and then closes issues and PRs that have had no activity for a specified amount of time. Actions are set up on repository level. Currently there are <a href="https://github.com/marketplace?type=actions">10857 actions</a>                        in the GitHub marketplace.
+                            </p>
+                            <p>Support of GitHub Marketplace tools is provided by <a href="https://docs.github.com/en/github/working-with-github-support/github-marketplace-support" target="_blank">tools’ providers</a>.</p>
+                        </td>
+                        <td>Similar but different. GitHub’s Marketplace provides more capabilities. On the other hand, GitHub integrations require more maintenance, because they are not part of the GitHub installation, are not supported by GitHub
+                            and must be upgraded separately</td>
+                    </tr>
+                    <tr>
+                        <td>Integrations with K8S - Application Installation</td>
+                        <td>Install a GitLab server on K8S using <a target="_blank" href="https://docs.gitlab.com/charts/installation/operator.html">Helm Chart/GitLab Operator</a>.
+                        </td>
+                        <td>There is no option of installing GHES on K8S.</td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>Integrations with K8S - CI/CD</td>
+                        <td>
+                            <p>Install GitLab runner on K8S using <a target="_blank" href="https://docs.gitlab.com/runner/install/kubernetes.html">Helm Chart/GitLab
+                                    Operator</a>.</p>
+                            <p>Integrate GitLab with K8S for <a target="_blank" href="https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_tunnel.html">application
+                                    deployment using Kubernetes Agent Server (KAS)</a>.</p>
+                            <p><a href="https://docs.gitlab.com/ee/topics/autodevops/" target="_blank">Auto DevOps</a> including auto deployment and auto monitoring <a href="https://docs.gitlab.com/ee/user/clusters/management_project_template.html" target="_blank">Manage cluster applications using KAS.</a>
+                            </p>
+                        </td>
+                        <td>
+                            <p> <a href="https://docs.github.com/en/enterprise-server@3.3/actions/deployment/deploying-to-your-cloud-provider/deploying-to-google-kubernetes-engine">Deploy
+                                    to Google Kubernetes Engine</a> - Deploy to Google Kubernetes Engine as part of continuous deployment (CD) workflows.</p>
+                            <p>Red Hat GitHub Actions - Red Hat has released a series of <a href="https://github.com/redhat-actions/" target="_blank">GitHub Actions</a> to ease integrating Red Hat OpenShift with GitHub’s Actions. (Third party)</p>
+                            <p>
+
+                                Open source <a target="_blank" href="https://github.com/actions-runner-controller/actions-runner-controller">actions-runner-controller</a> - Kubernetes controller for GitHub Actions self-hosted runners. (Third party)</p>
+                        </td>
+                        <td>GitLab</td>
+                    </tr>
+                    <tr>
+                        <td>Caching</td>
+                        <td><a target="_blank" href="https://docs.gitlab.com/ee/ci/caching/">Caching</a> - A cache is one or more files that a job downloads and saves. Subsequent jobs that use the same cache don’t have to download the files again, so they execute
+                            more quickly</td>
+                        <td><a href="https://docs.github.com/en/actions/advanced-guides/caching-dependencies-to-speed-up-workflows" target="_blank">Caching</a> - Similarly to GitLab, create and use caches for dependencies and other commonly reused files.</td>
+                        <td>Similar</td>
+                    </tr>
+                    <tr>
+                        <td>Artifacts</td>
+                        <td>
+                            <p>GitLab Artifacts - Jobs can output an archive of files and directories. This output is known as a job artifact.<br> To share data between jobs:</p>
+                            <ul>
+                                <li> Creating artifacts - To create job <i>artifacts</i>, use the artifacts keyword in the .gitlab-ci.yml file.</li>
+                                <li>Using artifacts - By default, jobs in later stages automatically download all the artifacts created by jobs in earlier stages. Control artifact download behavior in jobs with
+                                    <a target="_blank" href="https://docs.gitlab.com/ee/ci/yaml/#dependencies">dependencies</a>.
+                                </li>
+                            </ul>
+                            <p><a target="_blank" href="https://docs.gitlab.com/ee/administration/job_artifacts.html#storing-job-artifacts">Artifact
+                                    Storage</a> - By default, GitLab uses the local disk where GitLab is installed to store the artifacts. Alternatively, use an object storage like AWS S3.</p>
+                            <p>Downloading Artifacts - Download artifacts both by using <a href="https://docs.gitlab.com/ee/ci/pipelines/job_artifacts.html#download-job-artifacts" target="_blank">the web UI</a> or <a href="https://docs.gitlab.com/ee/api/job_artifacts.html#get-job-artifacts"
+                                    target="_blank">the REST API</a>.</p>
+                        </td>
+                        <td>
+                            <p><a target="_blank" href="https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts">GitHub
+                                    Artifacts</a> allow sharing of data between jobs in a workflow and store data once that workflow has completed.<br> To share data between jobs:
+                            </p>
+                            <ul>
+                                <li> Creating artifacts - Give the uploaded file a name and upload the data (using the <a target="_blank" href="https://github.com/actions/upload-artifact">actions/upload-artifact</a> action) before the job ends.</li>
+                                <li> Using artifacts - It is only possible to download artifacts (using the actions/download-artifact action) that were uploaded during the same workflow run.</li>
+                            </ul>
+                            <p>
+                                Jobs that are dependent on a previous job's artifacts must wait for the dependent job to complete successfully.</p>
+                            <p>Artifact Storage - In GHES, artifacts are stored in the <a target="_blank" href="https://docs.github.com/en/enterprise-server@3.3/admin/github-actions/enabling-github-actions-for-github-enterprise-server/getting-started-with-github-actions-for-github-enterprise-server#external-storage-requirements">external
+                                    blob storage</a>.</p>
+                            <p><a href="https://docs.github.com/en/actions/managing-workflow-runs/downloading-workflow-artifacts" target="_blank">Downloading Artifacts</a> - Download Similar artifacts by using web UI, GitHub CLI or REST API.</p>
+                        </td>
+                        <td>Similar</td>
+                    </tr>
+                    <tr>
+                        <td>CLI</td>
+                        <td>
+                            <p><a href="https://glab.readthedocs.io/en/latest/">GLab</a> is a third party open source Gitlab CLI tool written in Go (golang) to help work seamlessly with Gitlab from the command line. Work with issues, merge requests, watch running
+                                pipelines directly from the CLI among other features.
+                            </p>
+                            <p>Core Commands</p>
+                            <ul>
+                                <li>glab mr [list, create, close, reopen, delete, ...]</li>
+                                <li>glab issue [list, create, close, reopen, delete, ...]</li>
+                                <li>glab pipeline [list, delete, ci status, ci view, ...]</li>
+                                <li>glab release</li>
+                                <li>glab repo</li>
+                                <li>glab label</li>
+                                <li>glab alias</li>
+                            </ul>
+                            <p>GLab can be <a href="https://github.com/profclems/glab#installation" target="_blank">installed</a> on MacOS, Linux and Windows.</p>
+                        </td>
+                        <td>
+                            <p>gh, <a href="https://docs.github.com/en/github-cli/github-cli/about-github-cli">GitHub CLI</a>, is an open source tool for using GitHub from a local computer's command line.</p>
+                            <p>GitHub CLI includes GitHub features such as:</p>
+                            <ul>
+                                <li>View, create, clone, and fork repositories</li>
+                                <li>Create, close, edit, and view issues and pull requests</li>
+                                <li>Review, diff, and merge pull requests</li>
+                                <li>Run, view, and list workflows</li>
+                                <li>Create, list, view, and delete releases</li>
+                                <li>Create, edit, list, view, and delete gists</li>
+                                <li>List, create, delete, and connect to a codespace</li>
+                            </ul>
+                            <p>
+
+                                Use GitHub CLI in <a href="https://docs.github.com/en/actions/advanced-guides/using-github-cli-in-workflows">GitHub
+                                    Actions workflows</a>. For example, use the <i>gh issue comment</i> subcommand to add a comment when an issue is opened.</p>
+                            <p> Also execute API calls through GitHub CLI.
+                                <p>GitHub CLI can be <a href="https://github.com/cli/cli#installation">installed</a> on MacOS, Linux, BSD and Windows</p>
+                            </p>
+                        </td>
+                        <td>The functionality looks similar. The major difference is that <i>gh is the official</i> supported tool of GitHub, while GLab is a 3rd-party tool.</td>
+                    </tr>
+                    <tr>
+                        <td>Desktop Application</td>
+                        <td><a target="_blank" href="https://gitlab.com/mvanremmerden/gitdock">GitDock</a> is a MacOS/Windows/Linux app that displays all GitLab activities in one place. Instead of the GitLab typical projector group-centric approach, it collects
+                            all the information from a user-centric perspective. It’s very much an MVC and not yet a fully supported GitLab product.</td>
+                        <td>
+                            <p><a target="_blank" href="https://desktop.github.com/">GitHub Desktop</a> is essentially a Git GUI application, which is seamlessly integrated with GitHub.</p>
+                            <p>In addition to standard Git actions, starting some GitHub actions, like creating an issue and opening a pull request.</p>
+                        </td>
+                        <td>There's no significant advantage over other Git GUIs like Sourcetree.</td>
+                    </tr>
+                    <tr>
+                        <td>Cloud-based Environments</td>
+                        <td>
+                            <p><a href="https://www.gitpod.io/" target="_blank">GitPod</a> is a <a target="_blank" href="https://www.gitpod.io/pricing">paid service</a>, which spins up pre-configured, standardized dev environments from any git context when needed
+                                them and closes them when done. Runs VS Code and any JetBrains IDE.</p>
+                            <p>GitPod monitors changes in the Git repository and prepares dev environments with every change. That preparation not only includes setting up the tools and checking for the right git branch, but perhaps more importantly, compiling the
+                                code, downloading all dependencies, and initializing everything else needed by the developer to become productive. When the developer is ready to start working, he/she gets a fresh, ready-to-code dev environment within seconds.
+                            </p>
+                            <p>GitPod can be also self-hosted on GKE, EKS, AKS and K3s.</p>
+                            <p>GitPod works with GitLab, GitHub and BitBucket,
+                            </p>
+                        </td>
+                        <td>
+                            <p><a href="https://www.telerik.com/blogs/introduction-github-codespaces" target="_balnk">GitHub
+                                    Codespaces</a> is a <a href="https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-codespaces#codespaces-pricing" target="_blank">paid service</a> that provides developers with on-demand
+                                access to a secure development environment running a given codebase (Git repository) on a remote server.
+                            </p>
+                            <p>It also allows the developer to debug, maintain and make changes via a full-featured (with syntax highlighting, themes, extensions, version control, etc.) browser-based or locally installed Visual Studio Code IDE from their local machine.</p>
+                        </td>
+                        <td>GitHub (CodeSpaces configuration is powerful)</td>
+                    </tr>
+                    <tr>
+                        <td>IDE Integrations</td>
+                        <td>
+                            <p>GitLab Workflow - <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow">GitLab VS
+                                    Code extension</a> - It helps view issues, create and review merge requests, validate GitLab CI configuration, view the status of a pipeline, create and paste snippets to, and from, the editor. It is maintained
+                                by GitLab.</p>
+                            <p><a href="https://www.codestream.com/blog/codestream-launches-the-most-full-featured-gitlab-integration-for-jetbrains-editors" target="_blank">CodeStream’s GitLab integration for IntelliJ IDEA, WebStorm, PyCharm, and
+                                    all other JetBrains IDEs</a> - The integration, which works with both GitLab Cloud and GitLab Self-Managed, lets developers create, review, and merge GitLab merge requests without ever leaving the JetBrains editor, all with full
+                                source-tree and full file access, keybindings, and all the code intelligence embedded in the development environment.
+                            </p>
+                        </td>
+                        <td>
+                            <p><a target="_blank" href="https://blog.bitsrc.io/recommended-github-integrations-for-2020-35042c71cb69">Here</a> are some GitHub (not just Git) IDE integrations:</p>
+                            <p><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github" target="_blank">GitHub Pull Requests and Issues for VS Code</a> - This extension allows reviewing and managing GitHub pull requests and
+                                issues in Visual Studio Code.
+                            </p>
+                            <p><a href="https://packagecontrol.io/packages/sublime-github" target="_blank"> Sublime-github</a> for Sublime Text - Provides a number of useful commands for GitHub, including creating and browsing Gists (code snippets), opening and
+                                editing files on GitHub, and bringing up the blame and commit history views
+                            </p>
+                            <p><a target="_blank" href="https://www.jetbrains.com/idea/">Intellij</a> - Provides integration out of the box. Create or clone projects, open the version of a file directly in GitHub (i.e if working on a particular file
+                                and need to check against the original GitHub version, do it with a few clicks) a even create new Gists directly from the IDE.</p>
+                        </td>
+                        <td>Similar</td>
+                    </tr>
+                    <tr>
+                        <td>AI Pair programming</td>
+                        <td>Still under consideration</td>
+                        <td>
+                            <p><a href="https://medium.com/analytics-vidhya/github-copilot-all-you-need-to-know-8e6fc1d5ccc" target="_blank">GitHub Copilot</a> is an AI pair programmer. GitHub Copilot is powered by a new AI system developed by OpenAI Codex and is
+                                coming soon to Visual Studio Code. It aims to help Programmers code faster. It basically draws context from the code itself, suggesting whole lines or entire functions. </p>
+
+                            <p>The GitHub Copilot editor extension sends comments and code to the GitHub Copilot service, which then uses OpenAI Codex to synthesize and suggest code.</p>
+                            <p>It actually works by reading through all the open-source code on the GitHub repos worldwide and then collecting the data and trying to find the best possible code related to it.</p>
+                            <p>For now, GitHub Copilot will only be made available to use in Visual Studio Code and the access is limited to a small group of testers. The preview version is available for free.
+                            </p>
+                        </td>
+                        <td>GitHub</td>
+                    </tr>
+                    <tr>
+                        <td>Code Navigation</td>
+                        <td>Possible to <a href="https://docs.gitlab.com/ee/integration/sourcegraph.html" target="_blank">integrate with SourceGraph</a> on GitLab.com for code navigation.</td>
+                        <td>Programming language-aware <a href="https://docs.github.com/en/repositories/working-with-files/using-files/navigating-code-on-github" target="_blank">code navigation</a> allows developers to jump directly to definitions and references
+                            for specific identifiers.
+                        </td>
+                        <td>GitHub</td>
+                    </tr>
+                    <tr>
+                        <td>Code Search</td>
+                        <td>Search within code, as well as issues etc. using <a href="https://docs.gitlab.com/ee/user/search/advanced_search.html" target="_blank">GitLab Advanced Search</a>.</td>
+                        <td>New <a href="https://github.blog/2021-12-08-improving-github-code-search/" target="_blank">Code Search</a> feature set includes advanced syntax for finding content within code and links directly to the Code Navigation features.
+                        </td>
+                        <td>GitHub</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+# Defines the comparison table for Azure DevOps
+
+  azure_devops:
+    description: See how Azure DevOps compares to GitLab single application that covers the entire DevOps Tool Chain.
+    name: "Azure DevOps"
+    short_name: "Azure DevOps"
+    logo: "/images/devops-tools/azure-devops-logo-small.png"
+    header: includes/devops-tools/headers/landing-header-no-button.html.haml
+#    header_link: /images/devops-tools/azure-devops.pdf
+    add_feature_comparison_table: true
+    strips:
+      - template: markdown
+        content:
+          outer_background: none
+          inner_background: white
+          text: |
+            # Azure DevOps vs GitLab
+
+            What is Azure DevOps? Azure DevOps offers functionality that covers multiple stages of the DevOps lifecycle including planning tools, source code management (SCM), and CI/CD.   Azure DevOps got there by rebranding some products to Azure DevOps and by integrating some of the tools that make up the DevOps Toolchain.  For example, on September 10, 2018 Microsoft renamed VSTS to Azure DevOps and later renamed TFS to Azure DevOps Server, and upgraded both with the same new user interface.
+
+            GitLab has built a single application that covers the entire DevOps Tool Chain - planning, source code management, continuous integration, continuous delivery, security too monitoring.  This enable close and seamless exchange of information and actions from one point in the DevOps lifecycle to another.
+
+# Defines the comparison table for Jenkins
+
+  jenkins:
+    description: See how Jenkins compares to Gitlab single application that covers the entire DevOps Tool Chain.
+    name: "Jenkins"
+    short_name: "Jenkins"
+    logo: "/images/devops-tools/jenkins-logo-small.png"
+    header: includes/devops-tools/headers/landing-header-no-button.html.haml
+#    header_link: /images/devops-tools/azure-devops.pdf
+    add_feature_comparison_table: true
+    strips:
+      - template: markdown
+        content:
+          outer_background: none
+          inner_background: white
+          text: |
+            # Jenkins Overview
+            Jenkins is one of the most popular self-managed open source build automation and CI/CD developer tools in the world. It derives its incredible flexibility from incorporating capabilities from hundreds of available plugins, enabling it to support building, deploying, and automating any project.
+
+            It's important to understand that Jenkins is not the same as CloudBees.  CloudBees is the company that primarily maintains Jenkins.  The four products used by the Jenkins community are:
+
+            * Jenkins Open Source
+            * Jenkins X
+            * CloudBees Jenkins Distribution
+            * CloudBees Core
+
+            **Jenkins Open Source** natively supports application building, artifact packaging, application testing, and pull requests.  Extending the native functionality of Jenkins to support Continuous Delivery is done through plugins.
+
+            **Jenkins X** is meant to make running a pipeline out of the box with Kubernetes easier.  Jenkins X natively integrates Jenkins CI/CD server, Kubernetes, Helm, and other tools to offer a prescriptive CI/CD pipeline with best practices built-in, such as using GitOps to manage environments. It deploys Jenkins into Kubernetes containers to get around the complexities of installing and integrating Jenkins. However, it is a complex pairing of many tools including the fragile Jenkins server.
+
+            **CloudBees Core** is a distinct product built on top of open source Jenkins and is a paid tool.  CloudBees CI has two components: the Client Master and the Operations Center. The Client Master is a Jenkins master, whose main function is to coordinate the building of projects such as Pipelines.  When a CloudBees CI installation consists of two or more Client Masters, it is usually a good idea to install an Operations Center instance to manage these Client Masters.
+
+            **CloudBees Jenkins Distribution** is free software that provides developers with a Jenkins environment built on the most recent supported Jenkins release. The distribution comes with a recommended catalog of tested plugins available through the CloudBees Assurance Program.
+
+  jfrog:
+    description: See how JFrog compares to GitLab single application that covers the entire DevOps Tool Chain.
+    name: "JFrog"
+    short_name: "JFrog"
+    logo: "/images/devops-tools/jfrog-logo.png"
+    header: includes/devops-tools/headers/landing-header-no-button.html.haml
+#    header_link: /images/devops-tools/azure-devops.pdf
+    add_feature_comparison_table: true
+    strips:
+      - template: markdown
+        content:
+          outer_background: none
+          inner_background: white
+          text: |
+            # JFrog Overview
+
+            JFrog has transitioned from an artifact repository to a DevOps Platform that includes CI and CD capabilities through its acquisition of Shippable in Feb 2019. Recently in March 2020, JFrog announced the launch of its DevOps platform called 'JFrog Platform', a pre-integrated solution with a common UI across JFrog Pipelines, JFrog X-Ray and JFrog Source Composition Analysis products. This solution is backed by a common meta data model that facilitates information integration between these separate product.  In addition to three primary products JFrog Artifactory, JFrog Pipelines and JFrog Xray, JFrog also provides other products such as JFrog Distribution, JFrog Mission Control and JFrog Container Registry.
+
+            **JFrog Artifactory** <br> JFrog Artifactory is a tool designed to store the binary output of the build process for use in distribution and deployment. *Artifactory is an industry leading product and provides support for **25** package formats (as of 14 Oct, 2020)*.  JFrog Artifactory provides a single source of truth for build artifacts and works with JFrog Distribution to efficiently distribute large artifacts across the enterprise.
+
+            GitLab package registry supports 8 different package types.
+
+            **JFrog Pipelines** <br> JFrog Pipelines is a CI-CD product that works well with its Artifactory repository.  JFrog pipelines works through a combination of native steps and resources.  Native steps are a set of higher order steps built on bash.  Resources inputs into a step or outputs from native steps.  Resources can be any type such as a build, integration etc.  JFrog pipelines is a functional CI-CD product, though it lacks several capabilities typically found in enterprise class products.
+
+            **JFrog Xray** <br> JFrog Xray is a security product that can be built-into various steps within a JFrog pipeline.  Xray supports detecting security vulnerabilities in all dependent code and also provides license compliance capabilities.  *JFrog X-Ray supports **14** package formats (as of 14 Oct, 2020)*.
+
+            GitLab dependency scanning supports 15 package managers spanning [8 languages.](https://docs.gitlab.com/ee/user/packages/)

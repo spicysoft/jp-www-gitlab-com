@@ -1,0 +1,26 @@
+name: John McDonnell
+locality:
+country: Remote
+role: <a href="/job-families/engineering/software-engineer-in-test/">Senior Software
+ Engineer in Test</a>, Systems:Gitaly
+reports_to: vincywilson
+picture: johnmcdonnell.jpg
+pronouns: he/him
+pronunciation:
+twitter:
+linkedin: johnmcdonnell439
+gitlab: john.mcdonnell
+departments:
+  - Engineering Function
+  - Quality Department
+  - Sec & Enablement QE Team
+  - Enablement Sub-department
+specialty: 
+expertise:
+projects:
+  gitlab: reviewer qa
+  gitlab-qa: reviewer
+story: 'John is passionate about quality and efficiency, to deliver an optimal 
+experience to the customer. While not working, John enjoys hiking, running and photography.
+'
+

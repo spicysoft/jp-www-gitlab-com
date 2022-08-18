@@ -1,0 +1,271 @@
+---
+layout: secure_and_protect_direction
+title: Product Stage Direction - ModelOps
+description: "The ModelOps Stage focuses on extending GitLab with data science features and enabling customers to leverage data science workloads within GitLab."
+canonical_path: "/direction/modelops/"
+---
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+
+<p align="center">
+    <font size="+2">
+        <b>Enable and empower data science workloads on GitLab</b>
+    </font>
+</p>
+
+## Stage Overview
+
+GitLab ModelOps aims to bring data science into GitLab both within existing features to make them smarter and more intelligent, but also empowering GitLab customers to [build and integrate data science workloads within GitLab](/solutions/data-science/).
+
+The ModelOps Stage is currently outside of the GitLab DevOps lifecycle. We believe that data science features can span across all DevOps stages, making existing features more intelligent and automated.
+
+### Stage Direction Walkthrough & Commit Talk
+Watch VP of Product David DeSanto, Engineering Manager Monmayuri Ray, and Principal Product Manager Taylor McCaslin discuss an overview of the GitLab ModelOps stage. They discuss the three pillars of ModelOps, including how to integrate Data Science into DevOps. This includes a brief history on how we got here, as well as where we are going. It discusses GitLab’s recent acquisition of UnReview and how GitLab plans to leverage ML/AI within our platform to improve user experience, as well as empower users to include ML/AI within their applications.
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7mUgGFgab4E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+
+### Lots of Moving Pieces
+Looking back over the past decade of software engineering we've seen a transition of companies going through digital transformations to become software companies. Today most companies are software companies. Part of GitLab's historical success has been helping companies streamline complex software development lifecycles into our single application DevOps platform reducing complexity and speeding up time to value. We're now seeing these software companies embrace data science with many of the same challenges as before:
+
+* Complex data science toolchains
+* Many expensive specialized vendors
+* Lack of integration with existing tools
+
+![Reduce Complexity](/images/direction/modelops/complexity.jpg)
+
+One of our primary goals for our ModelOps stage is to reduce the complexities of data science workloads and integrate them to easily be managed and developed within GitLab.
+
+### Lack of Repeatability
+Data scientists do not have the experience of DevOps engineers (and vice-versa). Their skills are not focused on building robust and production-ready systems. Much of data science work is experimentation, cobbling together whatever is needed to identify and produce value. Throughout this experimentation, lots of data, packages, tools, and code get written on a data scientist's machine. This creates a bespoke environment that is hard to reproduce, adds friction to handoffs, and diverges from production systems.
+
+![It works on my machine](/images/direction/modelops/worksforme.jpg)
+
+We want to help data scientists create repeatable environments with source code management and CI/CD at the heart of them. It should be easy for anyone on the team to explore the latest model experiment and iterate on it.
+
+### Difficult handoffs
+Because of the challenges with complex toolchains and lack of repeatable environments, handoffs can be a challenge with data science teams. These teams may produce amazingly valuable models and insights for an organization but when it comes time to deploy those models to production, it can take months. We want to help different teams across the software development lifecycle (SDLC) to better collaborate and handoff data, code, and models. We want to do that with the toolchain software engineering teams are already using.
+
+![Smoother Handoffs](/images/direction/modelops/handoffs.jpg)
+
+All together, these challenges lead data science teams to use specialized tools that don't integrate with each other or the existing software development lifecycle tools organizations already use. It leads teams to work in silos creating handoff friction and finger-pointing as well as guesswork and lack of predictability. Applications end up not leveraging data well and models take months to get into production and security is an afterthought. This creates risk for organizations, slows innovation, increases complexity, and increases the time to value. All of this could be avoided with an integrated DevOps platform that natively supports data science workloads. That's exactly what we are building.
+
+![ModelOps of Tomorrow](/images/direction/modelops/future.jpg)
+
+We are taking best practices from DevOps and applying them to data science workloads: From the processing of data workloads with Dataops to the productionization of data science models. Teams streamline handoffs because they are working in the same platform based on source code management with CI/CD and integrated security testing. Organizations can reduce risks associated with ML/AI, speed up innovation, reduce complexity, and reduce time to value.
+
+
+### Groups
+
+There are two areas of relevance to GitLab ModelOps which we believe are critical to having end to end functioning data science workloads on GitLab:
+
+* [MLOps](/direction/modelops/mlops) - Enabling customer data science use cases which include accessing and interacting with data, AI/ML toolchain integrations, and compute environment integrations.
+* [DataOps](/direction/modelops/dataops) - Enabling data processing use cases like building, running & orchestrating Extract, Load, Transform (ELT) data pipelines to shape and process data for useful analysis.
+
+With our learnings about building and deploying data science workloads with DataOps and MLOps, we will be putting that experience into practice with the stage's other groups:
+
+* [Applied ML](/direction/modelops/applied_ml/) - Infusing data science into existing GitLab features.
+
+### Team and Investment
+
+GitLab ModelOps is currently composed of four groups with a variety of open roles we are actively recruiting with more roles opening throughout 2022:
+* [MLOps](/handbook/engineering/incubation/mlops/) - An [experimental single-engineer groups](https://about.gitlab.com/company/team/structure/#single-engineer-groups)
+   * Future openings include: Data Scientist, QA, and UX Design, Engineers.
+* [Applied ML](/direction/modelops/applied-ml) - A [product group](/handbook/product/categories/#modelops-stage)
+  * [Senior Backend Engineer Opening](https://boards.greenhouse.io/gitlab/jobs/5429916002)
+  * [Backend Engineer Opening](https://boards.greenhouse.io/gitlab/jobs/5642988002)
+* [DataOps](/direction/modelops/dataops) - currently unstaffed, but a planned future product group
+
+To learn more about GitLab’s investment areas, please visit the [Product Investments](https://internal-handbook.gitlab.io/handbook/product/investment/) section of the GitLab Handbook.
+
+## Accomplishments, News, and Updates
+
+### Section & team member updates
+
+Today, the ModelOps Stage is actively staffing up. We've recently hired multiple engineering roles and are actively hiring for many more throughout 2022 (see above).
+
+Internal team members can watch/read our latest updates from our latest ModelOps Group Conversation ( [slides](https://docs.google.com/presentation/d/1_DQUakfy8WaZRX9r1j8W1O2wPxy5OlGTYzmIqAV6pAk/edit#slide=id.g29a70c6c35_0_68), [video](https://www.youtube.com/watch?v=F23C9vZv6sc) )
+
+### Important PI milestones
+
+We've established a [ModelOps internal handbook PI page](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/modelops-section/) (internal link) which will be updated monthly as part of [PI review meetings](https://about.gitlab.com/handbook/product/#product-performance-indicators). We're still working to actively orchestrate all our performance indicator metrics.
+
+### Recent accomplishments
+
+* Announced [limited beta](https://docs.google.com/forms/d/e/1FAIpQLScpmCwpwyBr0GrXxBQ6vE02eokclFAs9lFk_g5dcyuGaHqFuQ/viewform) of Suggested Reviewers, an ML-based reviewer recommender. [Learn more about our plans](https://about.gitlab.com/blog/2022/01/04/the-road-to-smarter-code-reviewer-recommendations/).
+* 14.5 - [Cleaner Python Notebook Diffs](https://about.gitlab.com/releases/2021/11/22/gitlab-14-5-released/) - [Video demo](https://www.youtube.com/watch?v=WokWwRLLfIE&ab_channel=GitLab) - [Docs](https://docs.gitlab.com/ee/user/project/repository/jupyter_notebooks/#cleaner-diffs)
+* 13.9 - [Exposing GPU to GitLab Runner](https://docs.gitlab.com/runner/configuration/gpus.html) - [Video Demo](https://www.youtube.com/watch?v=x9nj-tksQDk) - [Docs](https://docs.gitlab.com/runner/configuration/gpus.html)
+* Internal Feature - Automatic Issue labeling model that is based on GitLab's internal issue tracking and label usage. This was our first small feature experiment to see if data science workloads could bring benefits to existing GitLab features. You can explore this working prototype in the Slack channel: #feed_tanuki-stan
+
+### What's Ahead
+
+* [UI for Suggested Reviewers](https://gitlab.com/gitlab-org/gitlab/-/issues/341873/), part of [UnReview](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html) [Integration MVC](https://gitlab.com/groups/gitlab-org/-/epics/6113)
+* Exploring potential partners in this space to quickly integrate with vendors who have existing GitLab customers. [Propose a partner or integration here](https://gitlab.com/gitlab-org/incubation-engineering/mlops/meta/-/issues/24#note_711044721).
+* Customer interviews as we explore the space to understand both customer personas and areas of potential product opportunities.
+* [Improved Python Notebook experience](https://gitlab.com/groups/gitlab-org/-/epics/6589)
+* [Potential idea list](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name%5B%5D=group%3A%3Amachine+learning)
+
+## 3 Year Section Themes
+
+### Reduce complexity
+With complex toolchains and new vendors emerging every day the data science landscape is a lot of glue and ducktape holding many systems together. We want to streamline [this complexity](#lots-of-moving-pieces) into the GitLab platform to reduce complexity, remove maintenance burden, and enable faster model development and exploration.
+
+As examples, GitLab will provide:
+* Native integrations to popular data science toolchains and open-source frameworks.
+* First-party solutions for DataOps and MLOps workloads.
+* Open APIs to allow flexibility through the platforms.
+
+
+### Repeatability for Collaboration
+Many data science teams struggle with [lack of repeatibility](#lack-of-repeatibility) cobbling together environments on local machines. These environments rarely have source code management or CI. We want to bring the best practices of DevOps with SCM and CI/CD to data sciences and make it easy for them to start with repeatable and stable environments.
+
+As examples, GitLab will provide:
+* Improved Python Notebook experience across GitLab
+* Support for more powerful compute within GitLab runner
+* Simplified CI configuration for popular data science toolchains
+
+### Smooth HandOffs
+Model handoffs are only one part of the collaboration needed to make data science handoffs smooth. We want to create seamless handoffs across the software development lifecycle of data science workloads, from connecting data to pipelines, managing model code, and the deployment to production. GitLab already is critical for modern software developers managing production applications. We'll bring the best of our existing DevOps platform to data scientists.
+
+As examples, GitLab will provide:
+* Model registry
+* Open APIs for smooth handoffs whether you are using GitLab tools or integrating your choice toolchains
+* Integrations across existing GitLab features to better support data science workloads
+
+### Data in Motion
+Long gone are the days of stale data. Today data is in motion. It's always being created, moved, transformed, and drifting. It's in the cloud and sometimes many clouds. Modern data science toolchains need to support cloud-native, data in motion.
+
+As examples, GitLab will provide:
+* Native data connectors to cloud-native data warehouses
+* Basic ELT tools to prepare data for data science workloads
+* Integrated data versioning and feature stores for tracking data definitions
+
+## 1 Year Plan
+
+###  What We Recently Completed
+
+The Modelops stage is actively working on staffing the team and implementing quality of life improvements to improve the GitLab experience for data scientists. The following are some highlights from recent GitLab releases:
+* **Python Notebook Improvements** Making python notebooks 'just work' across GitLab CI/CD and SCM.
+* **Runner GPU Support** Allowing pipeline jobs to leverage GitLab Runner's GPU for data science use cases.
+
+### What We Are Currently Working On
+The ModelOps team is actively working to integrate machine learning into GitLab and the following outlines where we are currently investing our efforts:
+* **UnReview Integration with Suggested Reviewers** Empowering developers to choose the best reviewer for a merge request with ML recommendations.
+* **Dogfooding** We are working across GitLab to leverage existing GitLab features through the lens of data science to use our own features and reimagine how they could better support data science use cases in the future. [Learn more about Dogfooding at GitLab](https://about.gitlab.com/direction/dogfooding/).
+
+
+### What We're Not Doing
+
+The following will NOT be a focus over the next 12 months:
+* Advanced Computing - While we understand that AI models can require advanced computing resources we are not currently working on next-generation compute resources for GitLab Runner. Customers with these use cases can expose compute leveraging [self-hosted runners and executors](https://docs.gitlab.com/runner/) or leverage existing APIs from advanced computing vendors directly.
+* Non-cloud native data stores - Data can live in many places. However, if it's not in the cloud accessible with modern APIs it will not be a focus for GitLab in the next year. We are focused on cloud-native data stores.
+* Air-Gapped Environments - Many advanced data science use cases today exist within government and high-security environments. These environments pose many complex challenges like accessing data and compute resources. Our focus for the next year will be on our .com SaaS offering to bring ModelOps capabilities to as many customers as quickly as possible. We will aim to support self-hosted GitLab environments and eventually air-gapped environments, but it is not our primary focus today.
+
+## Pricing
+
+ModelOps is focused on empowering data science workloads across GitLab and enriching existing GitLab features with ML.
+
+We expect ModelOps will provide multiple monetization strategies across all GitLab plans with features targeted for data science use cases. ModelOps paid features will follow GitLab's [pricing themes](https://about.gitlab.com/company/pricing/#current-theme-list) to determine how to package various features we develop.
+
+### Ultimate
+
+ModelOps aims to make GitLab smarter and more automated using ML. Features we develop will help organizations [automate their portfolio management](https://about.gitlab.com/direction/modelops/applied_ml/workflow-automation) and [improve their security posture](https://about.gitlab.com/direction/modelops/applied_ml/intelligent-code-security)
+
+As a general rule of thumb, features will fall in the Ultimate/Gold tier when they meet one or more of the following criteria:
+
+* The feature is focused on enabling an organization or enterprise to operate at scale rather than an individual with a few smaller personal projects
+* The feature is natively developed or [acquired by GitLab](https://about.gitlab.com/handbook/acquisitions/) rather than being provided by an open-source project
+* The feature has a significant ongoing cost for GitLab to maintain and update the feature
+
+Some examples include:
+* Features provided by our [acquisition of UnReview](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html)
+
+### Premium
+
+Features targeted at premium will include a focus on enabling data science use cases across existing GitLab features like source code management (SCM), CI/CD. We want GitLab natively to support data science workloads and much of the value of managing workloads is found in the premium tier which ModelOps will seek to enhance.
+
+### Free
+
+Although paid features are the primary focus, there are several reasons why features for unpaid tiers might be prioritized above paid features:
+
+1. Data Science workloads are increasing across all industries and verticles, though many organizations are still only dabbling in ML/AI. We want to ensure we support these organizations at every stage of the software development lifecycle which in turn will encourage them to find more value in our paid tiers as they become more advanced with their use cases.
+1. Data Science is still very new. The wider open source community has contributed greatly to many frameworks and tools to enable the foundations of AI/ML as we currently know them. To be [good stewards in the open-source community](https://about.gitlab.com/company/stewardship/) basic integrations we support to popular open-source data science tools will be available in an unpaid tier by default, along with the "table stakes" set of functionality required to allow that feature to be usable with GitLab.
+
+As a general rule of thumb, features will fall in the Core/Free tier when they meet one or more of the following criteria:
+
+* The feature is primarily for an individual with a few small projects rather than meeting the needs of an organization or enterprise that is operating at scale
+* The feature is provided by an integration with an open-source project rather than being natively developed by GitLab
+* The ongoing cost for GitLab to maintain and update the feature is relatively minimal
+
+Some examples include:
+* Basic support for Python notebooks in source code management (SCM)
+* Basic GPU support in GitLab Runner
+
+## Upcoming Releases
+
+TBD
+
+## Target audience
+
+GitLab identifies who our DevSecOps application is built for utilizing the following categorization. We list our view of who we will support when in priority order:
+
+* 🟩 - Targeted with strong support
+* 🟨 - Targeted but incomplete support
+* ⬜️ - Not targeted but might find value
+
+### Today
+
+To capitalize on the potential opportunities, the ModelOps Stage has features that make it useful to the following personas today:
+
+1. 🟨 - Developers
+1. 🟨 - Data scientists
+1. 🟨 - Data analysts
+1. ⬜️ - Security Teams
+1. ⬜️ - QA engineers / QA Teams
+
+### Medium Term (1-2 years)
+As we execute our [3 year strategy](#3-year-strategy), our medium-term (1-2 year) goal is to provide a single DevSecOps application that enables collaboration between developers, data teams, data scientists, and engineers across organizations.
+1. 🟩 - Developers
+1. 🟩 - Data scientists
+1. 🟩 - Data analysts
+1. 🟨 - Security Teams
+1. 🟨  - QA engineers / QA Teams
+
+### Developers
+
+Data Science workloads can be complicated and can leverage specialized hardware and development environments not common to traditional software development teams. The ModelOps stage is focused on the intersection of data scientists exploring models and feature development and the developers who must then deploy those data science features into production.
+
+Personas
+* [Sasha - Software Developer](/handbook/product/personas/#sasha-software-developer)
+* [Delaney - Development Team Lead](/handbook/product/personas/#delaney-development-team-lead)
+
+### Data Scientists
+
+Data scientists have unique roles within organizations. They are more scientists than developers, following hypotheses and data to explore models and develop data science-powered features.
+
+We aim to serve data scientists as they balance art and science within software engineering teams. Data scientists wear a lot of hats to get from hypothesis to data science feature that generates value. GitLab is not a tool of choice for data scientists and we aim to change that by making it easy to configure, build, and execute data science feature development within GitLab.
+
+Personas
+* Daphne - Data Scientist - a new persona for GitLab we are actively exploring for use cases and workflows.
+
+### Security Teams
+
+The larger the organization, the harder it is for security teams to stay on top of everything happening in complex, ever-changing environments. As an organization's source code management and DevSecOps platform, GitLab holds a lot of sensitive, high-value data. We want to help security teams secure that data. This is a job to which automated data science features can be well suited, including monitoring high-value assets around the clock.
+
+Personas
+* [Sam - Security Analyst](/handbook/product/personas/#sam-security-analyst)
+* [Alex - Security Operations Engineer](/handbook/product/personas/#alex-security-operations-engineer)
+
+
+<p align="center">
+    <i><br>
+      Last Reviewed: 2022-03-15<br>
+      Last Updated: 2022-03-15
+    </i>
+</p>

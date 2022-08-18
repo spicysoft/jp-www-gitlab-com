@@ -1,0 +1,218 @@
+---
+layout: markdown_page
+title: "Product Direction - Configure"
+description: "GitLab's Configure stage solves user problems related to the configuration and operation of applications and infrastructure. Learn more!"
+canonical_path: "/direction/configure/"
+---
+
+- TOC
+{:toc}
+
+This is the product direction for the Configure stage. This direction is aligned with the broader [Deployment Direction](/direction/deployment).
+
+## Mission
+
+The mission of the Configure stage is to make operators and platform engineers more productive and efficient in executing configuration and operational tasks in various deployment environments. The Configure stage is closely related to release management and [continuous delivery](/direction/release/continuous_delivery/) and to [the monitoring of environments](/direction/monitor/). We do this by providing integrated workflows all within GitLab, a complete [Value Stream Delivery Platform](https://www.gartner.com/document/3979558).
+
+## Vision
+
+Our vision is that DevOps teams will use GitLab as their primary day-to-day tool as it will provide first-class operator support.
+
+- See a high-level
+  [roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=opened&sort=end_date_asc&label_name%5B%5D=devops%3A%3Aconfigure&label_name%5B%5D=Roadmap).
+
+## Letter from the editor - 2022-04-26
+
+To the GitLab Community and customers,
+
+TL;DR: We will start Q2 by focusing on [migrating from certificate-based cluster connection to the GitLab agent for Kubernetes](https://gitlab.com/groups/gitlab-org/configure/-/epics/8). As our future Kubernetes cornerstone, we want to improve various use cases around the agent. Significant improvements planned for the next quarter include adding support for [Helm and Kustomize in the GitOps workflow](https://gitlab.com/gitlab-org/gitlab/-/issues/329773), allowing scaling setups through [multiple manifest repositories](https://gitlab.com/groups/gitlab-org/-/epics/7704) and enabling users to [observe the resources deployed into a cluster](https://gitlab.com/groups/gitlab-org/-/epics/2493).
+
+Our primary focus in the past quarter was to get ready for the next major GitLab release; our one opportunity to disable certificate-based cluster integration, a breaking change to the product. Last quarter, we also did an [initial exploration around the deployment management direction](https://gitlab.com/gitlab-org/gitlab/-/issues/352361) and shipped several performance improvements for the agent for Kubernetes.
+
+Besides the delivery work, we managed to find a new home for [the Secrets Management product category](https://about.gitlab.com/direction/verify/secrets_management/) now owned by the Pipeline Authoring team. We believe that they will be able to provide the focus the category deserves.
+
+Looking ahead, we expect to move the Kubernetes Management category to Complete during Q4, instead of our first plan in Q3. At the same time, we are looking for other ways to push forward [the work on the Infrastructure as Code category](https://gitlab.com/gitlab-com/Product/-/issues/3832), especially various Terraform features.
+
+## Target personas
+
+We build solutions targeting the following personas:
+
+* [Application Operator](https://about.gitlab.com/handbook/product/personas/#allison-application-ops)
+* [Platform engineer](https://about.gitlab.com/handbook/product/personas/#allison-application-ops)
+​
+On small teams, these personas may be just one individual, while on larger teams they may be dedicated roles.
+
+In keeping with our [single application](https://about.gitlab.com/handbook/product/single-application/) promise, we want
+GitLab to be a robust, best-of-breed tool for operators as much as it is for developers. Our vision is that operators
+will use GitLab as their main day-to-day tool for provisioning, configuring, testing, and decomissioning infrastructure.
+
+## Pricing
+
+GitLab's Configure stage is focused on providing enterprise ready configure capabilities to enable users to operate and deploy modern applications and cloud infrastructure. Given the area of our operation, our users typically assume a higher level buyer persona who decided to set up a dedicated Platform or Ops team. As a result, the majority of our features is either Premium or Ultimate.
+
+However, since all application code needs a form of infrastructure, there will continue to be basic offering that targets Free users.
+
+The tiering can have many forms, from feature availability to permissions management possibilities. We expect Ultimate features mostly around use cases that involve a level of reporting.
+
+In many situations, our features might be considered to be building blocks for other product teams within GitLab. In these situations, the other teams decides about the pricing of the features they release.
+
+## Strategic directions
+
+We build products primarily for an 8 team SaaS product company, likely with a serverless or container based architecture.
+In the latter case, we assume it's deployed either to Kubernetes or with Terraform to anything that Terraform supports.
+
+### Challenges
+
+We operate in a space full of high-quality open source applications, and we expect GitLab to co-exist with tools which teams have already invested considerable time and
+money. As a result, we want to build on existing best practices and we want to provide an integrated experience with the
+preferred tools in the industry. Keeping up with the quickly changing nature of these tools is our primary challenge.
+
+The technologies where we want to provide an outstanding, integrated experience with are
+
+- Kubernetes deployment, management, and monitoring
+- Terraform usage, planning, and application
+- Configuration management behind Terraform scripts
+
+#### Prioritization
+
+Given the wide breadth of the Configure group, we have to maintain a wide range of features. For this reason, our priorities extend the general [GitLab prioritization framework](https://about.gitlab.com/handbook/product/product-processes/#prioritization).
+
+- Falling behind upstream projects might result in a `security`, `bug:vulnerability` or `regression` issue. We aim to prioritize related issues accordingly. Example: the cluster management project template ships Cert-Manager. An outdated Cert-Manager might be incompatible with the recent Kubernetes version is a `regression`, an outdated Cert-Manager with known CVEs might be a `security` issue.
+- Primarily the Configure team drives the list of cluster versions supported by our Kubernetes integrations. Falling behind on supported cluster versions is considered a `regression`.
+
+To avoid much manual workaround keeping our systems up to date, we aim to automate most of the maintenance processes.
+
+### Opportunities
+
+Our opportunities in the Configure stage are derived from the [Ops Section opportunities](/direction/ops/#opportunities).
+Namely:
+
+* **IT operations skills gap:** Operations skills are difficult to attract. We'll make it easier for you to leverage your
+operations expertise by efficiently managing your infrastructure platform.
+* **Clear winner is Kubernetes:** Our focus on enabling cloud-native applications based on the winner in container
+orchestration, Kubernetes, means you can leverage the broader Cloud Native ecosystem as you adopt modern
+application architectures.
+* **Infrastructure as Code:** is the second most looked after investment target in 2021. As more and more companies turn their 
+attention towards automating their infrastructures, they need support in transitioning and operating large scale, code-provisioned
+fleets.
+
+This leads us to look into common workflows that we would like to support with a market-leading experience:
+
+1. Flexible and robust Kubernetes cluster integration
+1. Deployment Management
+1. Infrastructure as Code, Policy as Code
+
+Other categories that fall under the Configure direction, but we are not actively investing in are
+
+1. Secrets Management
+1. ChatOps
+
+## Product principles
+
+We aim to achieve these by focusing on the following principles.
+
+### Embrace the cloud-native ecosystem
+
+We want to be good cloud-native citizens, build on top of and contribute back into open source tools. We believe in the power 
+of the open source community and GitLab's everyone can contribute ethos.
+
+### Aim for experienced cloud users, but make it easy to get started for new users
+
+We understand that Infrastructure as Code and cluster management at scale are complex, and best of breed technologies and much 
+customization is required to fulfill advanced workflows. We want to support such advanced use cases. At the same time, we believe
+that many new users will become advanced users, and we can support them as well by providing production ready, turn-key solutions that incorporate
+the best practices followed by experts.
+
+### Provide an integrated experience
+
+At GitLab we build a single application for the whole Dev(Sec)Ops pipeline. Our solutions should integrate deeply with and should support other GitLab
+features. We are paying special attention to security and collaboration oriented features.
+
+### Be enterprise ready
+
+While we want to provide supporting products for every company size, we expect enterprise users to have special needs that our integrated approach can serve well. 
+Focusing on their use cases we can reduce their costs and enable faster go to market.
+
+## Performance Indicators (PIs)
+
+Our [Key Performance Indicator](https://about.gitlab.com/handbook/ceo/kpis/) for the Configure stage is the **Configure
+SMAU** ([stage monthly active users](https://about.gitlab.com/handbook/product/performance-indicators/#stage-monthly-active-users-smau)).
+
+See the corresponding [Sisense dashboard](https://app.periscopedata.com/app/gitlab/511813/Configure-team-business-metrics) (internal) for our primary KPIs.
+
+<%= partial("direction/contribute", :locals => { :stageKey => "configure" }) %>
+
+## Configure Categories
+
+### Auto DevOps
+
+Our vision for “[Auto DevOps](https://www.youtube.com/watch?v=KGrJguM361c)” is
+to leverage our [single application](/handbook/product/single-application/) to
+assist users in every phase of the development and delivery process,
+implementing automatic tasks that can be customized and refined to get the best
+fit for their needs. We believe that using Auto DevOps we simplify the adoption of a DevOps culture and best practices.
+
+[Learn more](/stages-devops-lifecycle/auto-devops/) • [Documentation](https://docs.gitlab.com/ee/topics/autodevops/) • [Direction](/direction/configure/auto_devops/)
+
+### Kubernetes Management
+
+Creating integrated, easy to use workflows from source code management to Kubernetes based deployments and monitoring is a complex, time-consuming task. 
+We target experienced users and provide solutions for production use cases. At the same time, we try to offer higher level abstractions and automation to support less experienced users too.
+
+[Learn more](/solutions/kubernetes/) • [Documentation](https://docs.gitlab.com/ee/user/project/clusters/) • [Direction](/direction/configure/kubernetes_management/)
+
+### Deployment Management
+
+Deployments are becoming increasingly complex as we try to automate the propagation of a release from development towards production, and as new deployment strategies emerge. 
+We believe that even business critical automation code should follow programming best practices, and this is rather hard with the current offering available in the industry.
+We want to make sure that our users can use GitLab for deployments on the long run. For this reason, we are starting a dedicated Deployment Management product direction at GitLab.
+
+Learn more • [Documentation](https://docs.gitlab.com/ee/topics/release_your_application.html) • [Direction](/direction/configure/deployment_management/)
+
+### Infrastructure as Code
+
+[Infrastructure as code](/topics/gitops/infrastructure-as-code/) (IaC) is the practice of managing and provisioning infrastructure through
+machine-readable definition files, rather than manual hardware configuration or interactive
+configuration tools. The IT infrastructure managed by this comprises both physical equipment
+such as bare-metal servers as well as virtual machines and associated configuration resources.
+The definitions are stored in a version control system. IaC takes proven coding techniques and
+extends them to your infrastructure directly, effectively blurring the line between what is an
+application and what is the environment.
+
+Today, we provide tight integration with Terraform.
+
+[Direction](/direction/configure/infrastructure_as_code/)
+
+### Cluster Cost Optimization
+
+Compute costs are a significant expenditure for many companies, whether they
+are in the cloud or on-premise. Managing these costs is an important function
+for many companies. We aim to provide easy-to-understand analysis of your infrastructure
+that could identify overprovisioned infrastructure (leading to waste), recommended changes,
+estimated costs, and automatic resizing.
+
+[Direction](/direction/configure/cluster_cost_optimization/)
+
+### ChatOps
+
+The next generation of our ChatOps implementation will allow users to have a
+dedicated interface to configure, invoke, and audit ChatOps actions, doing it in
+a secure way through RBAC.
+
+[Documenation](https://docs.gitlab.com/ee/ci/chatops/) • [Direction](/direction/configure/chatops/)
+
+## Prioritization Process
+
+In general, we follow the same [prioritization guidelines](/handbook/product/product-processes/#how-we-prioritize-work)
+as the product team at large. Issues will tend to flow from having no milestone,
+to being added to the backlog, to being added to this page and/or a specific
+milestone for delivery.
+
+You can see our entire public backlog for Configure at this
+[link](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Aconfigure);
+filtering by labels or milestones will allow you to explore. If you find
+something you're interested in, you're encouraged to jump into the conversation
+and participate. At GitLab, everyone can contribute!
+
+Issues with the `~direction` label have been flagged as being particularly
+interesting, and are listed in the sections below.

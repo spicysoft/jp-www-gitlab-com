@@ -1,0 +1,161 @@
+---
+layout: markdown_page
+title: "Category Strategy - Disaster Recovery"
+description: "GitLab want disaster recovery to be robust and easy to use for systems administrators - especially in a potentially stressful recovery situation. Learn more!"
+canonical_path: "/direction/geo/disaster_recovery/"
+---
+
+- TOC
+{:toc}
+
+## 🚨 Disaster Recovery
+
+**Last updated**: 2021-07-05
+
+### Introduction and how you can help
+Thanks for visiting this category strategy page for GitLab Geo Disaster Recovery. This page belongs to the [Geo group](https://about.gitlab.com/handbook/product/categories/#geo-group).
+
+Please reach out to Sampath Ranasinghe, Product Manager for the Geo group ([Email](mailto:sranasinghe@gitlab.com)) if you'd like to provide feedback or ask any questions related to this product category.
+
+This strategy is a work in progress, and everyone can contribute. Please comment and contribute in the linked [issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Ageo&label_name[]=Category%3ADisaster%20Recovery) and [epics](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Ageo&label_name[]=Category%3ADisaster%20Recovery) on this page. Sharing your feedback directly on GitLab.com is the best way to contribute to our strategy and vision.
+
+Useful resources 
+- [Roadmap for Disaster Recovery](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Ageo&label_name[]=geo%3A%3Aactive&label_name[]=Category%3ADisaster%20Recovery)
+- [Maturity: <%= data.categories["disaster_recovery"].maturity.capitalize %>](/direction/maturity/)
+- [Documentation](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/)
+- [Lovable Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/4988)
+- [All Epics](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Ageo&label_name[]=Category%3ADisaster%20Recovery)
+
+### Overview
+
+⚠️ Currently, there are [some limitations](https://docs.gitlab.com/ee/administration/geo/index.html#current-limitations) of what data is replicated. Please make sure to check the documentation!
+{: .alert .alert-warning}
+
+Disaster Recovery helps our customers fulfill their business continuity plans by creating processes that allow the recovery of a GitLab instance following a natural or human-created disaster in the data center the GitLab instance is operating in. 
+
+Disaster Recovery provides an easily configurable warm standby (Geo site) in an additional region, which can quickly take over in the event of an issue with the primary. 
+
+Setting up a Disaster Recovery solution for GitLab requires significant
+investment and is cumbersome in more complex setups. [Geo replicates around 90% of GitLab's data](https://docs.gitlab.com/ee/administration/geo/replication/datatypes.html#limitations-on-replicationverification), which means that systems administrators
+need to be aware of what is automatically covered and what parts need to be backed up separately, for example via `rsync`. Geo provides documentation for [planned and unplanned failover processes](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/planned_failover.html).
+
+### Vision
+
+We envision the GitLab Disaster recovery solution to be semi-autonomous, detecting fault conditions and failing over automatically to a suitable secondary site. The failover will be seamless and transparent to end users.
+
+In the future, our users should be able to:
+
+- Use a GitLab Disaster Recovery solution that fits their business continuity plan.
+- Configure GitLab's DR solution to meet their Recovery Time Objective (RTO) and Recovery Point Objective (RPO)
+- Confidently set up a DR solution for up to 50k users following our reference architectures.
+- Trigger a failover to recover a working GitLab installation with a single instruction or click of a button on the UI even on multi-node architectures.
+- Confidently and regularly test failovers with minimal interruption to end-users.
+- Automatically detect certain fault conditions and failover to the most suitable secondary site with minimal user intervention.
+
+GitLab's Disaster Recovery processes and solution should:
+
+- Cover different scenarios based on acceptable Recovery Time Objective (RTO)
+  and Recovery Point Objective (RPO). There is always a trade off between the
+  complexity of the system needed given the requirements in a disaster recovery.
+  GitLab's DR strategies should make this explicit to users.
+- Support all [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) from small installations with hundreds of users to extremely large installations with millions of users.
+- Allow the [recovery of *all* customer relevant data](#improved-data-verification) that was available on the production instance. Users should not need to consider caveats or exclusions.
+- Have a [central console from which to initiate and manage the failover](#simplifying-promotion-of-secondary-sites) for both single node and multi-node architectures.
+- Be complemented by monitoring that can detect a potential fault conditions or degradation in performance on the primary site.
+- Be [actively used on GitLab Dedicated](#available-to-gitLab-dedicated-customers) and [GitLab.com](#enable-geo-on-gitLabcom-for-disaster-recovery) to ensure that all best practices are followed and to ensure that we dogfood our own solutions.
+- Have [end-to-end observability](#improve-observability) of the replication process for each site via the UI with capabilities to troubleshoot and remediate failures. Empower the systems administrator to detect and resolve replication issues ensuring minimizing risk of data loss and guranteeing a successful recovery.
+
+
+
+### Target audience and experience
+
+#### [Sidney - (Systems Administrator)](https://about.gitlab.com/handbook/product/personas/#sidney-systems-administrator)
+
+- 🙂 **Minimal** - Sidney can manually configure a DR solution using Geo sites.
+  More complex configurations, such as HA, are supported but are highly manual
+  to set up. Some data may not be replicated. Failovers are manual.
+- 😊 **Viable** - Sidney can follow a set of clearly defined procedures for
+  planned failovers. DR is available for all reference architectures; some data
+  may not be replicated yet.
+- 😁 **Complete** - All Git and File data is replicated and verified. A dashboard informs users
+  of the current data replication and verification status. A recovery process is less than <10 steps.
+- 😍 **Lovable** - Automatic failovers are supported and it's possible to initiate a planned failover using the UI.
+
+For more information on how we use personas and roles at GitLab, please
+[click here](https://about.gitlab.com/handbook/product/personas/).
+
+### What's Next & Why
+
+A complete overview of work required to reach lovable maturity is available in
+the [Disaster Recovery lovable maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/4988).
+
+#### Improved data verification
+
+As of June 2022, [Geo replicates ~90% and verifies ~71% of all planned data](https://docs.gitlab.com/ee/administration/geo/replication/datatypes.html#limitations-on-replicationverification); however, not all data is automatically verified. We've created a [self-service framework](https://docs.gitlab.com/ee/development/geo/framework.html) that supports replication strategies for Git repositories and blobs (files). We are currently expanding support for [verification of blob data types](https://gitlab.com/groups/gitlab-org/-/epics/5285).
+
+#### Simplifying Promotion of Secondary Sites
+
+It is possible to promote a secondary site to a primary site, either during a planned failover or in a genuine disaster recovery situation. Geo supports promotion for a single node installation and for an HA configuration. The current promotion process consists of a large number of manual preflight checks, followed by the actual promotion. The promotion is only possible in the command line; no UI flow is possible and for high-availability configurations modifications to the `gitlab.rb` file are required on almost all nodes. Given the critical nature of this process, Geo should make it [simple to promote a secondary](https://gitlab.com/groups/gitlab-org/-/epics/3131), especially for more complex high-availability configurations.
+
+#### Migrating existing datatypes to the Self Service Framework
+
+Some of our existing datatypes, such as Projects and Wikis, do not yet use the self service framework. We are [migrating these datatypes](https://gitlab.com/groups/gitlab-org/-/epics/3588) over to reduce technical debt and so that all datatypes can benefit from new features that are added to the framework.
+
+#### Improve observability
+
+[Improve observability](https://gitlab.com/groups/gitlab-org/-/epics/8240) of replication and verification operations will allow systems administrators to monitor the health of the warm standby secondary site(s). It will help identify any fault conditions in the replication and verification process and aid in the remediation of these faults. By surfacing the underlying error(s) in the UI, it will provide easy access to this information and speed up and recovery actions needed on the part of the systems administrators.
+
+#### Available to GitLab Dedicated customers
+
+[GitLab Dedicated](https://about.gitlab.com/direction/saas-platforms/dedicated/) provides a GitLab SaaS offering to large enterprises and customers in industries with strict security and compliance requirements. We will make [Disaster Recovery available to these customers](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/2).
+
+### In a year
+
+#### Simplify Demotion of Primary Sites
+
+After a failover, an administrator may want to re-add the demoted primary site back as a secondary site in order to failback to the original primary at some point. This is currently possible. However, the process is highly manual and not well-documented. After we have simplified the promotion process, we want to [simplify demoting a secondary site](https://gitlab.com/groups/gitlab-org/-/epics/2153) site of any size by reducing the steps required and making the process easily automatable.
+
+#### Enable Geo on GitLab.com for Disaster Recovery
+
+GitLab.com is by far the largest GitLab instance and is used by GitLab to [dogfood GitLab itself](https://about.gitlab.com/handbook/engineering/index.html#dogfooding). GitLab.com does not use GitLab Geo for DR purposes. This has many disadvantages and the Geo Team is [working with Infrastructure to enable Geo on GitLab.com](https://about.gitlab.com/company/team/structure/working-groups/disaster-recovery/).
+
+### What is not planned right now
+
+We currently don't plan to replace PostgreSQL with a different database e.g. CockroachDB.
+
+### Maturity plan
+
+This category is currently at the <%= data.categories["disaster_recovery"].maturity %>
+maturity level, and our next maturity target is lovable (see our [definitions of maturity levels](/direction/maturity/)).
+
+In order to move this category from  <%= data.categories["disaster_recovery"].maturity %>
+to lovable we are working on all items in the [lovable maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/4988).
+
+### Metrics
+
+We currently track 
+* [The total number of replication events](https://app.periscopedata.com/app/gitlab/500159/Enablement::Geo-Metrics?widget=10278011&udv=0), which scales with the overall amount of data and our ability to replicate more data types.
+
+
+### Competitive landscape
+
+GitHub Enterprise Server 2.22 supports a [passive replica server](https://docs.github.com/en/enterprise-server@2.22/admin/enterprise-management/configuring-high-availability-replication-for-a-cluster) that can be used for disaster recovery purposes.
+
+### Top customer success/sales issue(s)
+
+- [Geo: Create a single command that can be run on any node to promote a secondary to primary](https://gitlab.com/groups/gitlab-org/-/epics/3341)
+- [GitLab Environment Toolkit: Add ability to perform Geo failover for Hybrid architectures](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/issues/133)
+
+### Top user issues
+
+- [Category issues listed by popularity](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Ageo&label_name[]=Category%3ADisaster%20Recovery)
+
+### Top internal customer issues/epics
+
+- [Geo for DR on GitLab.com](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/12)
+
+### Top strategy item(s)
+
+- [Verify all blob replicators](https://gitlab.com/groups/gitlab-org/-/epics/5285)
+- [Geo: Promoting a secondary should be simple](https://gitlab.com/groups/gitlab-org/-/epics/3131)
+- [Geo: Simplify the demotion process](https://gitlab.com/groups/gitlab-org/-/epics/2153)

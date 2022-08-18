@@ -1,0 +1,52 @@
+### Verify
+
+Enabling the Continuous Integration [use case](/handbook/marketing/strategic-marketing/usecase-gtm/ci/) is currently spread across four product groups ([Pipeline Authoring](/handbook/product/categories/#pipeline-authoring-group), [Pipeline Execution](/handbook/product/categories/#pipeline-execution-group), [Pipeline Insights](/handbook/product/categories/#pipeline-insights-group), and [Runner](/handbook/product/categories/#runner-group)). In order to define our top focuses and intiatives, the Verify Stage needs to have a concerted perspective on what GitLab will offer for Continuous Integration. We are targeting the [Ops Section Direction personas](/direction/ops/#medium-term-1-2-years) and will support these users with our Continuous Integration [mission](/direction/verify/verify/#continuous-integration-mission), [vision](/direction/verify/verify/#continuous-integration-vision), and one-year direction. 
+
+#### One-year direction 
+
+The Continuous Integration vision is a longer term investment. A core capability GitLab CI unlocks is the DevSecOps workflow. A key focus for the Verify Stage is supporting the automation of secure workflows in GitLab. In the next year, we expect to make progress on the following categories to support our target of being the leading CI platform of choice: 
+
+1. **[Pipeline Authoring](/direction/verify/pipeline_authoring/)** - Unlock [Ops as code](/direction/ops/#ops-as-code) and [Operations for all](/direction/ops/#operations-for-all) by reducing friction for authoring, linting, and building `.gitlab-ci.yml` files. 
+1. **[Secrets Management](/direction/verify/secrets_management/)** - A powerful tool to unlock secure workflows and permissions in GitLab is the investment in CI Variables and overarching Secrets Management Strategy. 
+1. **[Runner SaaS](/direction/verify/runner_saas/)** - Lay the foundation for scale by focusing on [GitLab Hosted First](/direction/#gitlab-hosted-first) to support [speedy, reliable pipelines](/direction/ops/#speedy-reliable-pipelines) at large organizations.  
+1. **[Continuous Integration](/direction/verify/continuous_integration/)** - Move this category to ["Lovable"](https://about.gitlab.com/direction/maturity/) by unblocking the Enterprise adoption of CI by investing in the [pipelines as code](/direction/ops/#pipelines-as-code) experience and CI/CD minute visibility to inform team decisions on pipeline optimizations, delivering an [Ops for all](/direction/ops/#operations-for-all) capability. 
+1. **[CI Scaling](/direction/verify/continuous_integration_scaling/)** -  Execute on a [GitLab Hosted First](/direction/#gitlab-hosted-first) to extend the upper bounds of jobs, pipelines, and queuing limits on GitLab.com 
+1. **[Review Apps](/direction/verify/review_apps/)** - Invest in the [Ops for all](/direction/ops/#operations-for-all) capability for teams to preview changes to code before deploying. 
+1. **[Build Artifacts](https://about.gitlab.com/direction/verify/build_artifacts/)** - Support [GitLab Hosted First](/direction/#gitlab-hosted-first) by empowering users to manage artifacts easily. 
+1. **[Runner Fleet](/direction/verify/runner_fleet/)** - Drive optimizations for pipelines to help GitLab Admins and DevOps Engineers achieve [speedy, reliable pipelines](/direction/ops/#speedy-reliable-pipelines) with a single view for managing Runners. 
+
+#### What's next
+
+- Pipeline Authoring Group: [Pipeline Authoring Category](https://about.gitlab.com/direction/verify/pipeline_authoring/#whats-next--why)
+- Pipeline Authoring Group: [Secrets Managment Category](/direction/verify/secrets_management/#next-6-months)
+- Pipeline Execution Group: [Continuous Integration Category](https://about.gitlab.com/direction/verify/continuous_integration/#whats-next--why)
+- Pipeline Execution Group: [CI Scaling Category](https://about.gitlab.com/direction/verify/continuous_integration_scaling/#whats-next--why)
+- Runner Group: [Runner Core Category](/direction/verify/runner_core/#strategic-priorities)
+- Runner Group: [Runner SaaS Category](/direction/verify/runner_saas/#strategic-priorities)
+- Runner Group: [Runner Fleet Category](/direction/verify/runner_fleet/#strategic-priorities)
+- Pipeline Insights Group: [Build Artifacts Category](https://about.gitlab.com/direction/verify/build_artifacts/#whats-next--why)
+- Pipeline Insights Group: [Review Apps Category](https://about.gitlab.com/direction/verify/review_apps/#whats-next--why)
+
+#### What we aren't focused on now
+There are important things we won't work on to focus on our one year plan.
+
+1. **[Jenkins Importer](https://about.gitlab.com/direction/verify/jenkins_importer/)** - While Jenkins is definitely apart of the competitive landscape, in the year we need to prioritize our scale and position against GitHub actions.  
+1. **[Performance Testing](https://about.gitlab.com/direction/verify/performance_testing/)** - Our viable offering seems to be meeting the base requirements for users and more research is needed to validate this requirements for this category. 
+1. **[[Code Testing and Coverage](https://about.gitlab.com/direction/verify/code_testing/)]** - Our users are looking for improved experiences in Review Apps and Build Artifacts. We are trading off investing in other visualizations and testing capabilities to unlock those features. 
+1. **[Merge Trains](https://about.gitlab.com/direction/verify/merge_trains/)** - Our core strategy in 2022 is to support secure workflows, support building at scale, and implementing CI/CD minute quotas for public projects to support our greater Free User Strategy. As a result, we are not investing in Merge Trains. 
+
+#### Verify Investment Cases 
+
+In the Verify Stage, we have several [investment cases](/direction/ops/#future-investment) highlighted as top priorities for future investment in the Ops Section. Additionally, there are investment cases beyond the ones identified stack ranked by potential return on investment as indicated by priority below: 
+
+1. [Priority 1 Investment Cases](https://gitlab.com/gitlab-com/Product/-/issues?scope=all&state=opened&label_name[]=Investment%20Case&label_name[]=devops%3A%3Averify&label_name[]=priority%3A%3A1)
+1. [Priority 2 Investment Cases](https://gitlab.com/gitlab-com/Product/-/issues?scope=all&state=opened&label_name[]=Investment%20Case&label_name[]=devops%3A%3Averify&label_name[]=priority%3A%3A2)
+1. [Priority 3 Investment Cases](https://gitlab.com/gitlab-com/Product/-/issues?scope=all&state=opened&label_name[]=Investment%20Case&label_name[]=devops%3A%3Averify&label_name[]=priority%3A%3A3)
+
+#### Verify Stage Categories
+
+<%= partial("direction/categories-content", :locals => { :stageKey => "verify" }) %>
+
+#### Pricing
+
+<%= partial("direction/ops/tiering/verify") %>

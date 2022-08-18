@@ -1,0 +1,40 @@
+---
+name: Kassio Borges
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>, Create:Editor
+reports_to: davidoregan
+picture: kassioborges.jpg
+twitter: kassioborgesm
+gitlab: kassio
+linkedin: kassioborges
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Create:Editor BE Team
+projects:
+  gitlab: 
+    - reviewer backend
+    - reviewer go
+  gitlab-pages: 
+    - reviewer
+    - trainee_maintainer
+story: |
+  Kassio is a passionate software engineer who enjoys communication and solve
+  the right problem. In his spare time, Kassio likes to travel, watch movies and
+  experiencing new food.
+remote_story: |
+  Remote work has enabled Kassio to enjoy his trips with his wife, who
+  also works remote.
+domain_expertise:
+- rails
+- ruby
+- shell
+- git
+- merge_requests
+- pages
+specialty: Create
+expertise: |
+  <li><a href="https://gitlab.com/kassio/kassio/-/blob/main/README.md">README</a></li>

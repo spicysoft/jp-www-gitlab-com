@@ -1,0 +1,35 @@
+---
+name: Tim Zallmann
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/management/senior-director/">Senior Director
+  of Engineering, Dev</a>
+reports_to: christopher-l
+picture: timzallmann.jpg
+twitter: tpmtim
+gitlab: timzallmann
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Frontend
+projects:
+  gitlab-svgs: maintainer frontend
+  gitlab-ui: reviewer frontend
+  gitlab-eslint-config: maintainer
+  status-page: maintainer frontend
+expertise: '<li><a href="https://docs.gitlab.com/ee/development/new_fe_guide/development/performance.html#monitoring">Frontend
+  monitoring <a href="/job-families/expert/">expert</a></a></li>
+
+  '
+story: 'Tim started building websites professionally 18 years ago as a full-stack
+  engineer. Through his career, he has built online games, Websites, mobile apps for
+  music festivals, and complete online banking solutions. In the last years he focused
+  on Javascript and Unity3D. Tim enjoys hanging out with his wife, playing football,
+  supporting his favorite football club "SK Rapid Wien", doing water sports (scuba
+  diving, kayaking, fishing except swimming), and playing video games with friends.
+
+  '
+specialty: Dev
+

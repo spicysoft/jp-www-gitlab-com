@@ -1,0 +1,24 @@
+name: James Rushford
+locality: Berlin
+country: Remote
+role: <a href="">Frontend Engineer, Monitor:Respond</a>
+reports_to: crystalpoole
+picture: ../gitlab-logo-extra-whitespace.png
+pronouns: He/Him
+pronunciation:
+twitter:
+linkedin: rushfordj
+gitlab: jrushford
+departments:
+- Engineering Function
+- Development Department
+- Ops Section
+- Monitor:Respond FE Team
+- Monitor:Respond
+- Frontend
+specialty: "Monitor"
+expertise: Teaching technical things to non technical people. Spreadsheets
+projects:
+  gitlab: reviewer frontend
+story: After working in advertising sales for 10 years, I build a spreasheet to optimise my workflow, learnt JavaScript in order to automate it (with the help of  <a href="https://about.gitlab.com/company/team/#tristan.read">Tristan Read</a>), one thing lead to another, now I'm a Frontend Engineer :) 
+

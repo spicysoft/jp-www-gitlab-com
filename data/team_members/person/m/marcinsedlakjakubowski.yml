@@ -1,0 +1,38 @@
+---
+name: Marcin Sędłak-Jakubowski
+locality:
+country: Remote
+role: <a href="/job-families/engineering/technical-writer/">Technical Writer</a>,
+  Plan
+reports_to: dianalogan
+picture: msedlakjakubowski.png
+twitter: manualcookie
+gitlab: msedlakjakubowski
+pronouns: he/him
+pronunciation: MAR-chin SEND-whack ya-koo-BOV-ski
+departments:
+- Engineering Function
+- UX Department
+- Technical Writing
+- Merge Request Buddy
+projects:
+  gitlab: maintainer docs
+  gitlab-docs: maintainer
+  omnibus-gitlab: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
+expertise: '<li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge
+  Request Buddy</a></li>
+
+  '
+story: |
+  Marcin has worked for several years as an English teacher. Then he found out he can play around with computers while also explaining complex matters to readers clearly as a technical writer.
+  He used to co-organize PyLight, a Python meetup in Warsaw, and serve as the Risk Manager for the Warsaw chapter of <a href="https://cisv.org/">CISV International</a>, a youth peace education non-profit.
+  And he thinks building bridges is better than building walls.
+specialty:
+- 'Monitor: Monitor'
+- " Monitor:Observability"
+- " Plan: Project Management"
+- " Plan: Product Planning"
+- " Plan: Certify"
+

@@ -1,0 +1,281 @@
+---
+layout: secure_and_protect_direction
+title: "Product Section Direction - Dev"
+description: "The Dev Section is made up of the Manage, Plan, and Create stages of the DevOps lifecycle and encompasses a number of analyst categories"
+canonical_path: "/direction/dev/"
+---
+
+- TOC
+{:toc}
+
+Last Reviewed: 2022-07-28
+
+<%= devops_diagram(["Manage","Plan","Create","Ecosystem"]) %>
+
+## Dev Section Overview
+
+The Dev Section is made up of the [Manage](/handbook/product/categories/#manage-stage), [Plan](/handbook/product/categories/#plan-stage), [Create](/handbook/product/categories/#create-stage) and [Ecosystem](/handbook/product/categories/#ecosystem-stage) stages of the DevOps lifecycle. The scope for the Dev section is wide and encompasses a number of analyst categories including [Value Stream Management (VSM)](/solutions/value-stream-management/), Project Portfolio Management (PPM), Enterprise Agile Planning Tools (EAP), Source Code Management (SCM), Integrated Development Environments (IDEs), Design Management, and even Information Technology Service Management (ITSM). It is difficult to truly estimate Total Available Market (TAMkt) for the Dev Section, as our scope includes so many components from various industries, but market research from the analyst firm [IDC](https://www.idc.com/about) indicates the estimated [TAM](https://docs.google.com/spreadsheets/d/1LO57cmXHDjE4QRf6NscRilpYA1mlXHeLFwM_tWlzcwI/edit?ts=5ddb7489#gid=1474156035) in 2020 is roughly ~$2B, growing to ~$4.3B in 2024 (18.31% CAGR). Analysis: [Manage](https://docs.google.com/spreadsheets/d/1357Zwbf0yTjcFBuCdX2HnNLBaF9uWnW7Auv4F94aoSo/edit#gid=0) [Plan](https://docs.google.com/spreadsheets/d/1dDNSR_mE4peeOc_3Xhqm_VLoTyk4gSbcbiGfuMrOg6g/edit#gid=0) [Create](https://docs.google.com/spreadsheets/d/1KSwTVPIvMO8IXkMqA40Ms1rL-glmo-w7MjZvUrjMFGA/edit#gid=0). 
+
+Nearly [half of organizations](https://drive.google.com/file/d/17ZSI2hGg3RK168KHktFOiyyzRA93uMbd/view?usp=sharing) still have not adopted DevOps methodologies, despite [data](https://drive.google.com/file/d/17MNecg84AepxWlSDB5HjNBrCJggaS9tP/view?usp=sharing) that indicates far higher revenue growth for organizations that do so. Migrating a code base to a modern, Git-backed source control platform like GitLab can often be the first step in a DevOps transformation. As such, we must provide industry-leading solutions in source code and code review, as this is not only the entry into DevOps for our customers, but typically the entry into the GitLab platform. Once a user has begun utilizing repositories and code review features like Merge Requests, they often shift “left” and “right” to explore and utilize other capabilities in GitLab, such as CI and project management features.
+
+Per our [Stage Monthly Active User data](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/) (internal access only), we know that Create and Plan have the highest usage amongst GitLab stages. As such, these stages must focus on security fixes, bug fixes, performance improvements, UX improvements, and depth more than other areas of GitLab.
+
+### Accomplishments, News, and Updates
+
+The following are the updates from the Dev Section for July 2022 (as presented in the monthly
+[Product Key Review](https://about.gitlab.com/handbook/key-review/)). A complete list of released features
+can be found on the [Release Feature Overview](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features&selectedStages=create&selectedStages=manage&selectedStages=plan)
+page and a complete list of upcoming features can be found on the [Upcoming Releases](https://about.gitlab.com/upcoming-releases/) page.
+
+#### Section News & Team Member Updates
+
+* Congratulations to the Editor team on delivering [Live preview diagrams in the wiki WYSIWYG editor](https://gitlab.com/gitlab-org/gitlab/-/issues/332093)!
+* Congratulations to the Source Code team on delivering [Enforce IP address restrictions for Git over SSH](https://gitlab.com/groups/gitlab-org/-/epics/6296)!
+
+#### Important PI Highlights
+
+* 🎉 Create:Code Review has reached an all time high for MAU
+* 👷 Create: Source Code is focusing on improving SUS and highly priority customer bugs
+* 🔼 Manage:Optimize - has seen an increase in users creating custom  value streams!
+* 🏅 Manage:Compliance Has increased their category maturity scorecard and have moved Compliance Management Viable
+* 📈 Manage::Auth is already getting early adaptors on SM group SAML sync only a few days after release
+* 🔍 Plan:Project Management is investigating a decrease in MAU, possibly due to our 5 user limit cap of Free users
+
+#### Recent Accomplishments
+
+* [Change failure rate chart for visualizing software stability](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#change-failure-rate-chart-for-visualizing-software-stability)
+* [Live preview diagrams in the wiki WYSIWYG editor](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#live-preview-diagrams-in-the-wiki-wysiwyg-editor)
+* [Merge request reports redesign](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#merge-request-reports-redesign)
+* [Enforce IP address restrictions for Git over SSH](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#enforce-ip-address-restrictions-for-git-over-ssh)
+* [Audit events for group-level merge request settings](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#audit-events-for-group-level-merge-request-settings)
+* [Audit events when two-factor authentication is disabled](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#audit-events-when-two-factor-authentication-is-disabled)
+* [Disable user 2FA using API](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#disable-user-2fa-using-api)
+* [Streaming audit events for Git operations](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#streaming-audit-events-for-git-operations)
+* [Streaming audit events for project forks](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#streaming-audit-events-for-project-forks)
+* [Custom HTTP headers for streaming audit events](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#custom-http-headers-for-streaming-audit-events)
+* [Improvements to users’ contribution calendar for private contributions](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#improvements-to-users-contribution-calendar-for-private-contributions)
+* [Streaming audit events for merge request creation](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#streaming-audit-events-for-merge-request-creation)
+* [Improved and faster file browsing and syntax highlighting](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#improved-and-faster-file-browsing-and-syntax-highlighting)
+* [Verification token displayed in UI](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#verification-token-displayed-in-ui)
+* [Persist last used Wiki editor](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#persist-last-used-wiki-editor)
+* [Enforce per-plan webhook rate limits](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#enforce-per-plan-webhook-rate-limits)
+* [SAML Group Sync for self-managed GitLab](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#saml-group-sync-for-self-managed-gitlab)
+* [Enhancing visibility into Value Stream with DORA metrics](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#enhancing-visibility-into-value-stream-with-dora-metrics)
+* [Link to included CI/CD configuration from the pipeline editor](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#link-to-included-cicd-configuration-from-the-pipeline-editor) 
+* [API includes additional detail about who added members](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#api-includes-additional-detail-about-who-added-members)
+* [Improved insights discovery in Value Stream Analytics](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#improved-insights-discovery-in-value-stream-analytics)
+* [Retrieve PAT by ID using API](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#retrieve-pat-by-id-using-api)
+* [GitLab.com sign-in for GitLab Workflow for VS Code](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#gitlabcom-sign-in-for-gitlab-workflow-for-vs-code)
+* [Improved SAML Group Link robustness on GitLab.com](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#improved-saml-group-link-robustness-on-gitlabcom)
+* [Prevent users from using known insecure public keys](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#prevent-users-from-using-known-insecure-public-keys)
+* [Block Git access protocols at group level](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#block-git-access-protocols-at-group-level)
+* [Rendered images in Python notebook MRs](https://about.gitlab.com/releases/2022/06/22/gitlab-15-1-released/#rendered-images-in-python-notebook-mrs)
+* [Edit code blocks, links, and media inline in the WYSIWYG editor](https://about.gitlab.com/releases/2022/05/22/gitlab-15-0-released/#edit-code-blocks-links-and-media-inline-in-the-wysiwyg-editor)
+* [Plan and schedule issues with automated iteration cadences](https://about.gitlab.com/releases/2022/05/22/gitlab-15-0-released/#plan-and-schedule-issues-with-automated-iteration-cadences)
+* [Internal notes](https://about.gitlab.com/releases/2022/05/22/gitlab-15-0-released/#internal-notes)
+* [Link external organizations and contacts to issues](https://about.gitlab.com/releases/2022/05/22/gitlab-15-0-released/#link-external-organizations-and-contacts-to-issues)
+
+#### What's Ahead
+
+* [Make gitlab-sshd beta-quality](https://gitlab.com/groups/gitlab-org/-/epics/5219)
+* [Refactor of blob view](https://gitlab.com/groups/gitlab-org/-/epics/5531)
+* [improve the user experience for the compliance report](https://gitlab.com/groups/gitlab-org/-/epics/5237)
+* [Add assignees to a task](https://gitlab.com/gitlab-org/gitlab/-/issues/334810)
+* [Jira Cloud App proxy for Self-managed GitLab users](https://gitlab.com/groups/gitlab-org/-/epics/5650)
+* [FIPs Compliance](https://gitlab.com/groups/gitlab-org/-/epics/6476)
+* [Convert compliance dashboard into an insightful report](https://gitlab.com/groups/gitlab-org/-/epics/5237)
+* [API Endpoint for SAML Group Sync](https://gitlab.com/gitlab-org/gitlab/-/issues/290367)
+* [API Support for user management - Max role](https://gitlab.com/gitlab-org/gitlab/-/issues/354749)
+* [Add Password policy settings](https://gitlab.com/gitlab-org/gitlab/-/issues/353874)
+* [Migrate Slack App from Classic App to Granular Bot Permissions App](https://gitlab.com/groups/gitlab-org/-/epics/7729)
+* [Allow private comments on all comment-able resources](https://gitlab.com/groups/gitlab-org/-/epics/2697)
+* [Add Admin Ability to Define a Password Complexity](https://gitlab.com/gitlab-org/gitlab/-/issues/348484)
+* [API Support for Immediate Group Deletion](https://gitlab.com/gitlab-org/gitlab/-/issues/360008)
+* [Consolidate Group and Project member management](https://gitlab.com/groups/gitlab-org/-/epics/7054)
+* [Create a custom source control module for VS Code](https://gitlab.com/groups/gitlab-org/-/epics/7684)
+* [Highlight source code syntax on the frontend using HighlightJS](https://gitlab.com/groups/gitlab-org/-/epics/7146)
+* [APIs to specify custom HTTP headers for streaming audit events](https://gitlab.com/groups/gitlab-org/-/epics/7976)
+* [Add event type information for all streaming audit events](https://gitlab.com/groups/gitlab-org/-/epics/8057)
+* [Support email sending via Microsoft Graph](https://gitlab.com/gitlab-org/gitlab/-/issues/341908)
+* [Domain Verification MVC using Domain(s) verified via GitLab Pages](https://gitlab.com/gitlab-org/gitlab/-/issues/353030)
+* [Cancel project imports from GitHub - backend](https://gitlab.com/gitlab-org/gitlab/-/issues/364783)
+* [GitHub Importer - Migrate issue events](https://gitlab.com/groups/gitlab-org/-/epics/7655) 
+* [Merge Request Report Widgets Working Group](https://gitlab.com/groups/gitlab-org/-/epics/6644)
+* [Integrate with YAML extension to provide](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/issues/382)
+* [🚀  View and update weight](https://gitlab.com/gitlab-org/gitlab/-/issues/362550)
+* [[VSA] Apply filters to the "Tasks by type"](https://gitlab.com/gitlab-org/gitlab/-/issues/258680)
+
+## Dev Section FY23 Themes
+
+The primary [themes](https://about.gitlab.com/direction/#fy23-product-investment-themes) for the Product department in FY23 are:
+
+1. [GitLab Hosted First](https://about.gitlab.com/direction/#gitlab-hosted-first-1)
+1. [Improve Key workflow usability](https://about.gitlab.com/direction/#improve-key-workflow-usability)
+1. [Extend our lead in CI/CD](https://about.gitlab.com/direction/#extend-our-lead-in-cicd)
+
+The Dev Section will primarily focus on improving key workflow usability and GitLab Hosted first, but will also contribute to extending our lead in CI/CD by connecting developer workflows through issues, merge requests, metrics, analytics and audit events to the CI/CD experience.
+
+#### Improve Key workflow usability
+
+The Dev Section has the highest TMAU of all sections, over [3.91M TMAU](https://about.gitlab.com/handbook/product/dev-section-performance-indicators/#dev---section-cmau---estimated--recorded-sum-of-dev-section-smau). Because of this, the Dev section will be highly focused on creating a lovable experience for several core worklows throughout the product. We'll also be focused on product architecture improvements, like simplifying groups/projects, which will enable efficiency gains of GitLab product teams as well as an easier to understand user experience for new users of GitLab. Here are the jobs to be done the Dev section will focus on to improve adoption through usability:
+
+1. Easily understand how to set up and manage my organization and projects in GitLab - solved for via [groups and projects moving to namespaces](https://gitlab.com/groups/gitlab-org/-/epics/2885)
+1. Easily find exactly what I'm looking for in GitLab - solved for via [improving settings and navigation](https://gitlab.com/groups/gitlab-org/-/epics/4831)
+1. Provide an out of the box experience that requires little to no configuration - solved for via enabling all possible Dev section features to be [working by default](https://about.gitlab.com/handbook/product/product-principles/#configuration-principles)
+1. Ensure I'm always looking at the most up to date information - solved for by focusing on realtime experiences
+1. Conduct an efficient code review - solved for via code review usability improvements and MR reviewers
+1. Easily manage my portfolio - solved for by work items, epic boards, roadmap improvements, and workflow automation
+1. Reduce my development cycle time and time managing local environments - solved for by investing in Remote Development tools
+
+#### GitLab Hosted First
+
+The Dev section will be highly focused on providing a SaaS first experience for GitLab. For other sections, this may mean deciding to ship features at the group or project level instead of instance, but for us, it's about making fundamental product changes to provide an instance like experience at the group level. We'll do this by shipping a workspace, which is a top level  group, moving applicable Admin Panel settings and features into the workspace, and ensuring proper cascading of these settings and features. Here are the initiatives the Dev section will focus on to ensure a SaaS first experience:
+
+1. Deliver workspace and settings/feature cascading
+1. Provide access to every Dev feature to .com users
+1. Deliver provisioned accounts
+1. [Move labels to the workspace](https://gitlab.com/gitlab-org/gitlab/-/issues/338820)
+1. [Move issues to the group level](https://gitlab.com/gitlab-org/gitlab/-/issues/343411)
+1. [Move administrative functionality to the group level](https://gitlab.com/groups/gitlab-org/-/epics/7314)
+
+#### Extend our lead in CI/CD
+
+The Dev section will be creating a better holistic experience that ties the entire SDLC together connecting planning, source code and more into the CI/CD process. DORA4 metrics will help create observability into deployments and production stability and compliance will be enforced on the CI/CD pipelines ensuring adherence to compliance standards and ability to audit changes to the pipelines.
+
+#### Stage focus
+
+Within each stage, the listed items below are in **order of priority**. The top priority for each stage or group is:
+
+* Manage: [Workspaces to replace instance-level functionality](https://gitlab.com/groups/gitlab-org/-/epics/4257)
+* Manage: [Combine Value Stream Analytics with DORA Metrics](https://gitlab.com/groups/gitlab-org/-/epics/7790)
+* Plan: [Groups and Projects Simplification](https://gitlab.com/groups/gitlab-org/-/epics/2885)
+* Create: [Remote Development](https://gitlab.com/groups/gitlab-org/-/epics/7948)
+* Ecosystem: [Slack Integration](https://gitlab.com/groups/gitlab-org/-/epics/7536)
+
+## Who is the Dev section targeting?
+We identify the [personas](/handbook/product/personas/#user-personas) the Dev section features are built for. In order to be transparent about personas we support today and personas we aim to support in the future we use the following categorization of personas listed in priority order.
+* 🟩- Targeted with strong support
+* 🟨- Targeted but incomplete support
+* ⬜️- Not targeted but might find value
+
+### Today
+To capitalize on the [opportunities](#opportunities) listed above, the Dev section has features that make it useful to the following personas today.
+
+* 🟩 [Sasha - Software Developer](/handbook/product/personas/#sasha-software-developer)
+* 🟩 [Devon - DevOps Engineer](/handbook/product/personas/#devon-devops-engineer)
+* 🟩 [Delaney - Development Team Lead](/handbook/product/personas/#delaney-development-team-lead)
+* 🟩 [Parker - Product Manager](/handbook/product/personas/#parker-product-manager)
+* 🟩 [Cameron - Compliance Manager](/handbook/product/personas/#cameron-compliance-manager)
+* 🟨 [Sam - Security Analyst](/handbook/product/personas/#sam-security-analyst)
+* 🟨 [Presley - Product Designer](/handbook/product/personas/#presley-product-designer)
+* 🟨 [Rachel - Release Manager](/handbook/product/personas/#rachel-release-manager)
+* 🟨 [Simone - Software Engineer in Test](/handbook/product/personas/#simone-software-engineer-in-test)
+* 🟨 [Allison - Application Ops](/handbook/product/personas/#allison-application-ops)
+* 🟨 [Priyanka - Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer)
+* 🟨 [Sidney - Systems Administrator](/handbook/product/personas/#sidney-systems-administrator)
+
+### Medium Term (1-2 years)
+As we execute our [3-year strategy](#3-year-strategy), our medium term (1-2 year) goal is to provide a single application that enables collaboration between cloud native development and platform teams.
+
+* 🟩 [Sasha - Software Developer](/handbook/product/personas/#sasha-software-developer)
+* 🟩 [Devon - DevOps Engineer](/handbook/product/personas/#devon-devops-engineer)
+* 🟩 [Delaney - Development Team Lead](/handbook/product/personas/#delaney-development-team-lead)
+* 🟩 [Parker - Product Manager](/handbook/product/personas/#parker-product-manager)
+* 🟩 [Presley - Product Designer](/handbook/product/personas/#presley-product-designer)
+* 🟩 [Cameron - Compliance Manager](/handbook/product/personas/#cameron-compliance-manager)
+* 🟩 [Simone - Software Engineer in Test](/handbook/product/personas/#simone-software-engineer-in-test)
+* 🟨 [Rachel - Release Manager](/handbook/product/personas/#rachel-release-manager)
+* 🟨 [Allison - Application Ops](/handbook/product/personas/#allison-application-ops)
+* 🟨 [Priyanka - Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer)
+* 🟨 [Sidney - Systems Administrator](/handbook/product/personas/#sidney-systems-administrator)
+
+## 3 Year Strategy
+
+In three years, the Dev Section market will:
+
+* Centralize around Git as the version control of choice for design assets, gaming, silicon designs, and AI/ML models.
+* Have a market leader emerge in the value stream management space. Currently, the market is fragmented with most players focused on integrations into various DevOps tools.
+* Adopt a mindset shift from project management to product management.
+* Recognize the value of a single platform for all software creation activities, including product management.
+* See an uptick in startups, applications, and internal business logic being built on the backs of low or no-code platforms. We recently merged in a low/no-code [direction](/direction/create/nolowcode/) page if you'd like more information on our direction in this space.
+* Related to low/no code frameworks mentioned above, the market will see an increase in apps built on AI technology. In June of 2020, [GPT-3](https://en.wikipedia.org/wiki/GPT-3) was released and early adopters shared incredible use cases based on this technology. Within 3 years, it's likely this technology has advanced significantly and is starting to disrupt modern software development.
+* Coalesce around the notion of a single platform for DevOps, also known as Value Stream Delivery Platforms.
+
+As a result, in three years, GitLab will:
+
+* Provide a next-generation, highly performant Git-backed version control system for large assets, such as ML models. Our goal in three years should be to host the most repositories of these non-code assets.
+* Emerge as the leader in VSM and be recognized in the industry by customers and analysts as such. Our goal in three years should be to provide the best insights into the product development process that no other tool can come close to, as we have a [unified data model](https://www.ca.com/en/blog-itom/what-is-a-unified-data-model-and-why-would-you-use-it.html) due to GitLab being a single platform.
+* Develop an industry-leading product management platform where multiple features and products can be measured and managed easily.
+* Research and potentially add capabilities for "no code" workflows and GPT-3 developed applications.
+* Ensure we are the best VSDP on the market.
+
+## 3 Year Themes
+
+Our direction for the Dev section is to provide the world’s best product creation and management platform.
+We believe we have a massive opportunity to change how cross-functional, multi-level teams collaborate by
+providng a solution that breaks down organizational silos and enables maximum value delivery.
+We want to provide a solution that enables higher-quality products to be quickly iterated upon. We also want to make it effortless for companies to migrate to GitLab. In order to obtain adoption from incumbent tools, GitLab has to provide *substantially more value*
+than our competitors, but do so by maintaining simplicity. The following themes listed below represent how we believe we will deliver this value
+and is our view of what will be important to the market and to GitLab over the next 3 to 5 years. As such,
+they will be the cornerstone of our 3-year strategy, and all activities in the 1-year plan should advance
+GitLab in one or more of these areas.
+
+<%= partial("direction/dev/themes/automated_code_review") %>
+
+<%= partial("direction/dev/themes/value_stream_measurement") %>
+
+<%= partial("direction/dev/themes/more_devops_personas") %>
+
+<%= partial("direction/dev/themes/enterprise_digital_transformation") %>
+
+<%= partial("direction/dev/themes/project_to_product") %>
+
+<%= partial("direction/dev/themes/remote_development") %>
+
+<%= partial("direction/dev/themes/enterprise_user_management") %>
+
+## 1 Year Plan: What’s Next for Dev
+
+Please see the [categories page](/handbook/product/categories/#dev-section) for a more detailed look at Dev's plan by exploring `Direction` links in areas of interest. This page will highight direction themes for both one year and three year timelines.
+
+
+<%= partial("direction/manage/templates/next") %>
+
+### Plan
+
+<%= partial("direction/plan/templates/next") %>
+
+### Create
+
+<%= partial("direction/create/templates/plan") %>
+
+### Ecosystem
+
+<%= partial("direction/ecosystem/templates/next") %>
+
+### Themes that cross all Dev stages
+**Performance and availability:** We must invest in the performance, stability, and availability of our application. We will do this by focusing on [application limits](https://gitlab.com/groups/gitlab-org/-/epics/1737), [diff load times](https://gitlab.com/groups/gitlab-org/-/epics/1816), and ensuring [availability](https://about.gitlab.com/handbook/product/product-processes/#how-we-prioritize-work) is top of mind.
+
+Growth driver: Retention
+
+### What we're not currently focusing on
+
+Choosing to invest in the above areas in 2022 means we will choose not to:
+* Efficiency recommendations: Provide recommendations where customers can improve their efficiency in the DevOps lifecycle. This will likely require comparisons amongst many GitLab users and an AI engine to make intelligent recommendations. We won't be working on features that help companies answer, “Am I doing the right activities?” These improvements will come in years two and three of the VSM plan.
+* Feature objects: Creating first class feature objects per the project management morphs into product management block below. While we think this is important, we must spend this year building a better foundation in portfolio management by making our groups/projects structure more simple and delivering epic boards.
+* Wikis: Investments in wikis such as WYSIWYG editing or real time collaboration ala Notion.
+
+## Stages & Categories
+
+<%= partial("direction/dev/strategies/manage") %>
+
+<%= partial("direction/dev/strategies/plan") %>
+
+<%= partial("direction/dev/strategies/create") %>
+
+<%= partial("direction/dev/strategies/ecosystem") %>
+
+## What's Next
+
+<%= direction["all"]["all"] %>
+ 

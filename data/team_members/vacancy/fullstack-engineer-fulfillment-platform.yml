@@ -1,0 +1,17 @@
+name: New Vacancy
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/fullstack/">Fullstack Engineer, Provision</a>
+reports_to: james-l
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+- Engineering Function
+- Development Department
+- Fulfillment Section
+- Fulfillment Sub-department
+- Fulfillment:Fulfillment Platform Team
+story: |
+  Open Position

@@ -1,0 +1,161 @@
+---
+layout: markdown_page
+title: "Category Direction - Kubernetes Management"
+description: "GitLab aim to provide a simple way for users to configure their clusters and manage Kubernetes. Learn more here!"
+canonical_path: "/direction/configure/kubernetes_management/"
+---
+
+- TOC
+{:toc}
+
+## Overview
+
+The main motivating factor behind [using a container orchestration platform is cost reduction](https://medium.com/kubernetes-tutorials/how-can-containers-and-kubernetes-save-you-money-fc66b0c94022). Kubernetes has become the most widely adopted container orchestration platform to run, deploy, and manage applications. Yet, to seamlessly connect application code with the clusters in various environments, has remained a complex task that needs various approaches of CI/CD and Infrastructure as Code. Given the central part Kubernetes plays in infrastructure, we consider it business critical to support all the workflows and processes our users have around their Kubernetes clusters.
+
+Our mission is to support the Platform Engineers and SRE in enabling developer workflows, to make deployments to every environment frictionless for the developer and reliable for the operator, no matter the experience level. We do this by supporting an integrated experience within GitLab and leverage the existing tools and approaches in the Kubernetes community.
+
+### Market overview
+
+Kubernetes is emerging as the _de facto_ standard for container orchestration. [Kubernetes and containers became mainstream](https://www.cncf.io/wp-content/uploads/2022/02/CNCF-AR_FINAL-edits-15.2.21.pdf) by 2022. The primary benefits users see from Kubernetes are improved scalability and shortened deployment times. The primary challenges companies face in this area are 
+
+- the lack of training,
+- difficulty in choosing an orchestration solution,
+- complexity,
+- monitoring and 
+- security.
+
+We provide deeper market insights based on the 2021 CNCF survey under [the following internal-only document](https://docs.google.com/document/d/1STWQXXZtB5SUL8MtYiPgYu78sXiiwK9h1CcAow6mCOI/edit#).
+
+After regularly reviewing GitLab sales opportunities we noticed that often prospects are interested in adopting GitLab together with a larger modernization initiative, often involving a move to Kubernetes. As a result we want to provide outstanding integrations with Kubernetes, instead of extending support for non-cloud-native, legacy approaches.
+
+### How can you contribute
+
+Interested in joining the conversation for this category? Please have a look at our [global epic](https://gitlab.com/groups/gitlab-org/-/epics/115) where
+we discuss this topic and can answer any questions you may have or direct your attention to one of the more targeted epics presented below where our focus is today.
+Your contributions are more than welcome.
+
+## Vision
+
+Our vision is that both Self-Managed and SaaS GitLab customers can shrink their cluster operations and cluster-focused platform teams whether they are operating in highly regulated, air-gapped environments or public-cloud-based environments. GitLab offers out-of-the-box integrations for cluster provisioning, deployments, monitoring, security, and alerting functionalities. In our solutions, we acknowledge that cluster management is an inherently complex task and we want to make it easy for inexperienced users without restricting the flexibility for advanced users.
+
+## Strategy
+
+We invite you to [share your feedback and join the discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/342696) on the future of our Kubernetes integrations.
+
+In collaboration with [monitoring](https://about.gitlab.com/direction/monitor/) and [security](https://about.gitlab.com/direction/protect/) we provide the core layer, for the GitLab Agent for Kubernetes, that other teams can build upon. Besides this platform-like work, we work directly on [improving the deployments](https://about.gitlab.com/direction/configure/deployment_management/).
+
+### Pricing strategy
+
+The agent is aimed at Platform and SRE teams. As a result, we assume that there are other teams our users serve. For this reason, our pricing leans heavily towards the Premium tier. Around every use case, we plan to launch as a Premium product, and want to move parts of the feature to Core as we better understand our users. The dividing line between Core and Premium features until now is around permissions management.
+
+Example: We moved the CI/CD tunnel to GitLab Core, but only when the agent uses the service account of the cluster side component. At the same time, we are building out a set of "impersonating" featues, where a GitLab user or a CI/CD job can be targeted with Kubernetes RBAC rules. The latter feature set will remain in Premium.
+
+### Today
+
+The recommended approach to connect a cluster with GitLab is via the [GitLab Agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/). The legacy, certificate based connection is currently being deprecated. Beside these, one can manually configure a `$KUBECONFIG` or use 3rd party tooling around GitLab CI or webhooks. You can read more about the deprecated features in [the related epic](https://gitlab.com/groups/gitlab-org/configure/-/epics/8).
+
+Using the [agent](https://docs.gitlab.com/ee/user/clusters/agent/), we want to offer a security-oriented, Kubernetes-friendly integration option to Platform Engineers. Besides providing more control for the cluster operator, the agent opens up many new possibilities to make GitLab - cluster integrations easier and deeper. We expect the agent to support various GitLab features with automatic setups and integrations.
+
+As the agent itself does not have any features and is responsible for the cluster connection only, every team is welcome to build on this connection. The agent provides a bi-directional communication channel between the cluster and GitLab, as a result, either GitLab can reach out into the cluster, or the cluster side component can message GitLab. The agent is available from GitLab CI/CD as well using the CI/CD tunnel.
+
+Today, the agent supports the following use cases:
+
+- [pull based deployments](https://docs.gitlab.com/ee/user/clusters/agent/gitops.html) built on top of the [cli-utils](https://github.com/kubernetes-sigs/cli-utils/) from Google (we originally utilized [gitops-engine](https://github.com/argoproj/gitops-engine) but [replaced it](https://gitlab.com/gitlab-org/gitlab/-/issues/231521)),
+- [push based deployments](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html) using the GitLab Runners, this provides support for many other features, like Auto Deploy,
+- [in-cluster container vulnerability scanning](https://docs.gitlab.com/ee/user/clusters/agent/vulnerabilities.html).
+
+### Next 6 months
+
+As we deprecate the certificate based integrations, we want to make sure that we can offer alternatives for the most valuable parts of that integration. These are
+
+- [Move the basic GitOps functionality to GitLab Core](https://gitlab.com/gitlab-org/gitlab/-/issues/346567)
+- [Support various GitLab team to migrate from cert-based to agent-based integrations](https://gitlab.com/groups/gitlab-org/-/epics/7911)
+- [Support for templating tools](https://gitlab.com/gitlab-org/gitlab/-/issues/329773)
+- [Support for multiple, private manifest projects with a single `agentk` installation](https://gitlab.com/gitlab-org/gitlab/-/issues/283885)
+- [Add group-level views for shared CI/CD tunnel connections](https://gitlab.com/groups/gitlab-org/-/epics/7292)
+
+Beside the feature development, we are actively [rewriting and extending the related documentation](https://gitlab.com/groups/gitlab-org/-/epics/6267) to be focused around the GitLab Agent for Kubernetes, and we are working on more cross-stage initiatives that can integrate GitOps workflows with other parts of GitLab.
+
+### Next 9-12 months
+
+We want to make our integrations easy to use. This might mean more automation, conventions and UX improvements. We consider this especially important when we target Software Developers with our features, who might not be familiar with Kubernetes or GitLab at all.
+
+We want to improve [the compliance](https://gitlab.com/groups/gitlab-org/-/epics/7933) (confidential) of our tooling
+
+We want to improve the observability aspects of our integrations.
+
+- [GitLab Managed Clusters](https://gitlab.com/gitlab-org/gitlab/-/issues/297004)
+- [Observability of the resources managed by the agent](https://gitlab.com/groups/gitlab-org/-/epics/2493)
+
+## Target User
+
+We are building GitLab's Kubernetes Management category for the enterprise operators, who are already operating production grade clusters and work hard to remove all the roadblocks that could slow down developers without putting operations at risk. Our secondary persona is the Application Operator, who is in charge of 2nd day operations of deployed applictions in production environments.
+
+- [Priyanka, the platform engineer](https://about.gitlab.com/handbook/product/personas/#priyanka-platform-engineer)
+- [Allison, the application operator](https://about.gitlab.com/handbook/product/personas/#allison-application-ops)
+
+### Jobs
+
+<%= partial("direction/jtbd-list", locals: { stage_key: "Configure_K8s" }) %>
+
+## Challenges
+
+We see Kubernetes as a platform for delivering containerised software to users. Currently, every company builds their own workflows on top of it. The biggest challenges as we see them are the following:
+
+- Making Kubernetes developer friendly is hard. We want to make deployments to every Kubernetes environment to be frictionless for the developer and reliable for the operator.
+- As clusters are complex, having an overview of the state and contents of a cluster is hard. We want to help our [monitoring efforts](/direction/monitor/) to provide clean visualisations and a rich understanding of one's cluster.
+
+## Approach
+
+- Kubernetes has a large and engaged community, and we want to build on the knowledge and wisdom of the community, instead of re-inventing existing solutions.
+- In Kubernetes there are a plethora of ways for achieving a given goal. We want to provide a default setup and configuration options to integrate with popular approaches and tools.
+
+### 3rd party integrations
+
+We offer various 3rd party application integrations as part of the [Cluster Management Project](https://docs.gitlab.com/ee/user/clusters/management_project_template.html) and [Infrastructure as Code cluster creation](https://docs.gitlab.com/ee/user/clusters/create/). More 3rd party integrations are welcome as long as the following criteria are met:
+
+- Every added application/service needs to integrate with GitLab. Only installing an application to a cluster using GitLab does not count as an installation.
+- Providing basic use documentation is part of the integration work.
+- The support of the application is provided by a dedicated 3rd party and the method of support is documented.
+
+## Maturity
+
+Kubernetes Management is currently `Viable`.
+
+## Competitive landscape
+
+### Argo CD
+
+Argo CD is often considered to be the leading GitOps tool for Kubernetes with an outstanding UI.
+
+### IBM Cloud Native Toolkit
+
+It provides an Open Source Software Development Life Cycle (SDLC) and complements IBM Cloud Pak solutions. The Cloud Native Toolkit enables application development teams to deliver business value quickly using Red Hat OpenShift and Kubernetes on IBM Cloud.
+
+### Spinnaker
+
+Spinnaker is an open-source, multi-cloud continuous delivery platform that helps you release software changes with high velocity and confidence. It provides two core sets of features 1) Application management, and 2) Application deployment. Spinnaker has been expanding it's capabilities related to [Kubernetes](https://spinnaker.io/docs/guides/user/kubernetes-v2/) including support for deployments and management of Kubernetes Manifests.
+
+### Backstage
+
+Backstage.io with its service registry oriented approach and kubernetes integration provides an umbrella to integrate other DevOps tools and provides some insights required by developers of Kubernetes workloads.
+
+## Analyst landscape
+
+This category doesn't quite fit the "configuration management" area as it relates only to Kubernetes. No analyst area currently defined. 
+
+## Top Customer Success/Sales issue(s)
+
+[Customize Kubernetes namespace per environment for managed clusters](https://gitlab.com/gitlab-org/gitlab/-/issues/38054)
+
+## Top user issue(s)
+
+- [Investigate a recommended way to set up GitLab Integrated Applications](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/issues/104)
+- [Simplify getting started with the agent](https://gitlab.com/groups/gitlab-org/-/epics/5786)
+
+## Top internal customer issue(s)
+
+## Top Vision Item(s)
+
+- [Kubernetes Management - enterprise level K8s integration](https://gitlab.com/gitlab-org/gitlab/-/issues/216569)
+- [UX Research](https://gitlab.com/groups/gitlab-org/-/epics/595)

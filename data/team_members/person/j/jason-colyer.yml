@@ -1,0 +1,25 @@
+---
+name: Jason Colyer
+locality:
+country: Remote
+role: <a href="/job-families/engineering/support-readiness-specialist/#support-operations-manager">Support
+  Operations Manager</a>
+reports_to: lyle-k
+picture: jasoncolyer.jpg
+twitter: jcolyer2007
+gitlab: jcolyer
+departments:
+- Engineering Function
+- Customer Support
+expertise: |
+  <li><a href="https://docs.gitlab.com/ee/user/project/clusters/index.html">Kubernetes</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/integration/saml.html">SAML</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/administration/reference_architectures/index.html">High Availability</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/administration/auth/ldap/index.html">LDAP</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="/job-families/engineering/support-management/">Acting Support Engineering Manager (Americas Central)</a></li>
+story: 'Jason is a dedicated Linux user with a passion for helping and teaching others.
+  Prior to GitLab, he worked in several roles ranging from front-line support to DevOps
+  engineering. In his free time, he likes to make chain mail, code/develop (primarily
+  in ruby), do woodworking, and play video games.
+
+'

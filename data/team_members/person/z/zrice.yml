@@ -1,0 +1,38 @@
+---
+name: Zach Rice
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#secure">Backend Engineer,
+  Secure:Static Analysis</a>
+reports_to: amarpatel
+picture: zachrice.png
+pronouns: he/him
+twitter:
+gitlab: zrice
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Static Analysis BE Team
+story: |
+  Zach is a programmer who joined Gitlab to help make it more <a href="https://about.gitlab.com/direction/secure/">Secure</a>.
+  He contributes to open source projects and actively maintains <a href="https://github.com/zricethezav/gitleaks">Gitleaks</a>.
+  Outside of programming Zach enjoys photography, visiting Lake Michigan, playing basketball, walking his dog, and brewing kombucha.
+specialty: Static Analysis
+projects:
+  secure-analyzers: reviewer backend
+  secure-common-command: trainee_maintainer backend
+  secure-common-report: trainee_maintainer backend
+  secure-common-ruleset: trainee_maintainer backend
+  secure-SAST-bandit: trainee_maintainer backend
+  secure-SAST-eslint: trainee_maintainer backend
+  secure-SAST-gosec: trainee_maintainer backend
+  secure-SAST-kubesec: trainee_maintainer backend
+  secure-SAST-nodejs-scan: trainee_maintainer backend
+  secure-SAST-pmd-apex: trainee_maintainer backend
+  secure-SAST-security-code-scan: trainee_maintainer backend
+  secure-SAST-semgrep: trainee_maintainer backend
+  secure-SAST-sobelow: trainee_maintainer backend
+  secure-SD-secrets: maintainer backend
+
+

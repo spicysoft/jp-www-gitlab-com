@@ -1,0 +1,39 @@
+---
+name: Vincy Wilson
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/engineering-management-quality/#engineering-manager-quality">Quality
+  Engineering Manager, Enablement, Fulfillment, Growth, ModelOps, and Sec</a>
+reports_to: tanyapazitny
+picture: vincywilson.jpg
+twitter:
+gitlab: vincywilson
+departments:
+- Engineering Function
+- Quality Department
+- Fulfillment & Growth QE Team
+- Sec & Enablement QE Team
+- Growth Section
+- Fulfillment Section
+- Sec Section
+- Enablement Section
+- ModelOps Section
+projects:
+  gitlab: reviewer qa
+  gitlab-qa: reviewer
+story: 'Prior to joining GitLab, Vincy worked in many start up and enterprise companies
+  primarily focusing on improving Quality in every step of software development for
+  a successful delivery across multiple platforms - Web, Mobile, Backend. She is a
+  strong advocate for quality engineering and has always worked towards implementing
+  new tools and technologies to improve test automation. In her spare time, she enjoys
+  listening to audible, outdoor activities, and spending quality time with her family
+  and friends.
+
+  '
+specialty:
+- ModelOps
+- " Growth"
+- " Fulfillment"
+- " Enablement"
+

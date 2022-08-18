@@ -1,0 +1,33 @@
+---
+name: Enrique Alcántara
+pronouns: he/him
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
+  Create:Editor
+reports_to: davidoregan
+picture: enrique-alcantara.jpg
+twitter: enriquecastl
+gitlab: ealcantara
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Create:Editor FE Team
+- Frontend
+projects:
+  gitlab: maintainer frontend
+  gitlab-docs: maintainer frontend
+  gitlab-ui: maintainer frontend
+  www-gitlab-com:
+  - maintainer frontend
+expertise: |
+  <li>Static Site Editor <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://gitlab.com/gitlab-org/gitlab-ui/">GitLab UI</a> <a href="/company/team/structure/#expert">expert</a></li>
+story: 'Enrique is passionate about design, developing software in a kind environment,
+  and achieving high user satisfaction with his work. In his free time he enjoys cooking,
+  writing, and relaxing on the beach with his partner.
+
+  '
+specialty: Editor
+

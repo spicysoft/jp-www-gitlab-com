@@ -1,0 +1,30 @@
+---
+name: Fabien Catteau
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#secure">Staff Backend
+  Engineer, Secure:Composition Analysis</a>
+reports_to: olivier-g
+picture: fabiencatteau.jpeg
+twitter:
+gitlab: fcatteau
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Composition Analysis BE Team
+projects:
+  gitlab:
+    - reviewer go
+    - reviewer database
+  secure-DS-gemnasium: maintainer backend
+  secure-DS-gemnasium-maven: maintainer backend
+  secure-DS-gemnasium-python: maintainer backend
+  secure-LC-license-finder: reviewer backend
+  secure-common-command: maintainer backend
+story: |
+  Before joining the GitLab team, Fabien was lead developer of Gemnasium, a SaaS to monitor software dependencies.
+  He enjoys coding in Go and SQL, and he's a true fan of Postgres!
+  In his free time, Fabien enjoys listening to podcasts, running and going for long walks in the countryside.
+specialty: Composition Analysis
+

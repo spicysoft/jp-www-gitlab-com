@@ -1,0 +1,21 @@
+---
+name: Aakif Nazir
+locality:
+country: Remote
+role: <a href="/job-families/engineering/support-engineer/">Support Engineer (EMEA)</a>
+reports_to: tinesørensen
+picture: anazir.jpeg
+twitter:
+gitlab: aakif
+departments:
+- Engineering Function
+- Customer Support
+- Merge Request Buddy
+expertise: |
+  <li><a href="https://docs.gitlab.com/omnibus/">Omnibus</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/ci/">CI/CD</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/api/">API</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/group/saml_sso/">SAML SSO</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge Request Buddy</a></li>
+story:
+

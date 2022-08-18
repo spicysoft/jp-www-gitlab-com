@@ -1,0 +1,28 @@
+---
+name: Drew Cimino
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Verify:Pipeline
+  Execution</a>
+reports_to: carolinesimpson
+picture: drewcimino.png
+twitter:
+gitlab: drew
+projects:
+  gitlab: reviewer backend
+  verify-codequality: maintainer
+  verify-accessibility: maintainer
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Pipeline Execution Group
+- Verify:Pipeline Execution BE Team
+story: 'Drew''s around, and into the whole brevity thing.
+
+  '
+domain_expertise:
+- rails
+- cicd
+specialty: Verify:Pipeline Execution
+

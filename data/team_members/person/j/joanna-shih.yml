@@ -1,0 +1,24 @@
+---
+name: Joanna Shih
+locality:
+country: Remote
+role: <a href="/job-families/engineering/engineering-management-quality/#engineering-manager-quality">Quality
+  Engineering Manager</a>, Ops
+reports_to: tanyapazitny
+picture: joannashih.png
+twitter:
+gitlab: jo_shih
+pronouns: she/her
+departments:
+- Engineering Function
+- Quality Department
+- Ops QE Team
+- Ops Section
+- Analytics Section
+projects:
+  gitlab: reviewer qa
+  gitlab-qa: reviewer
+  quality-ssh-tunnel: maintainer
+story: ''
+specialty: Ops CI/CD
+

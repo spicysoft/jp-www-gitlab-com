@@ -1,0 +1,27 @@
+---
+name: Laura Montemayor
+pronouns: she/her
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Verify:Pipeline
+  Authoring</a>
+reports_to: marknuzzo
+picture: lauramontemayor.png
+gitlab: lauraX
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Pipeline Authoring BE Team
+- Verify:Pipeline Authoring Group
+projects:
+  gitlab:
+  - reviewer backend
+  - trainee_maintainer backend
+  - maintainer ci_template
+story: |
+  Laura is a Backend Engineer. 
+  In her spare time, she likes working out, doing yoga, watching films, playing games, reading, cooking, chilling with her friends and kittens, and daydreaming. She likes the beach and often thinks about being a zookeeper or a horror film director.
+specialty:
+- 'Verify: Pipeline Authoring'
+

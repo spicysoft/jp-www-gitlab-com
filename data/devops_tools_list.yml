@@ -1,0 +1,147 @@
+# This file drives the Devops Tools index, but not the individual Devops Tools pages.
+
+devops_tools:
+  # gitlab_core, gitlab_starter, gitlab_premium are needed for the feature comparison
+  # table under /products.
+  gitlab_core:
+    name: 'Core'
+    short_name: 'Core'
+    logo: '/images/devops-tools/ce-gitlab-logo.svg'
+  gitlab_starter:
+    name: 'Starter'
+    short_name: 'Starter'
+    logo: '/images/devops-tools/ees-gitlab-logo.svg'
+  gitlab_premium:
+    name: 'Premium'
+    short_name: 'Premium'
+    logo: '/images/devops-tools/eep-gitlab-logo.svg'
+  gitlab_ultimate:
+    name: 'Ultimate'
+    short_name: 'Ultimate'
+    logo: '/images/devops-tools/eeu-gitlab-logo.svg'
+    category:
+      - pipeline_authoring
+      - value_stream_management
+      - devops_reports
+      - audit_events
+      - authentication_and_authorization
+      - team_planning
+      - portfolio_management
+      - source_code_management
+      - code_review
+      - wiki
+      - design_management
+      - snippets
+      - web_ide
+      - continuous_integration
+      - code_testing
+      - integration_testing
+      - code_quality
+      - performance_testing
+      - container_registry
+      - package_registry
+      - continuous_delivery
+      - pages
+      - review_apps
+      - incremental_rollout
+      - auto_devops
+      - kubernetes_management
+      - chatops
+      - metrics
+      - logging
+      - static_application_security_testing
+      - secret_detection
+      - dynamic_application_security_testing
+      - dependency_scanning
+      - container_scanning
+      - license_compliance
+      - incident_management
+      - status_page
+      - vulnerability_management
+  gitlab_com:
+    name: 'GitLab.com'
+    logo: '/images/devops-tools/gitlab-logo.svg'
+  gitlab_free:
+    name: 'GitLab.com Free'
+    logo: '/images/devops-tools/gitlab-logo.svg'
+  gitlab_bronze:
+    name: 'GitLab.com Bronze'
+    logo: '/images/devops-tools/gitlab-logo.svg'
+  gitlab_silver:
+    name: 'GitLab.com Silver'
+    logo: '/images/devops-tools/gitlab-logo.svg'
+  gitlab_gold:
+    name: 'GitLab.com Gold'
+    logo: '/images/devops-tools/gitlab-logo.svg'
+  github:
+    name: 'GitHub'
+    logo: '/images/devops-tools/github-logo.svg'
+    include_file: devops-tools/github/index.html.md.erb
+    category:
+      - pipeline_authoring
+      - audit_events
+      - authentication_and_authorization
+      - compliance_management
+      - team_planning
+      - source_code_management
+      - code_review
+      - wiki
+      - snippets
+      - continuous_integration
+      - container_registry
+      - package_registry
+      - pages
+      - static_application_security_testing
+      - secret_detection
+      - dependency_scanning
+      - advisory_database
+  jfrog:
+    name: 'JFrog'
+    logo: '/images/devops-tools/jfrog-logo.png'
+    include_file: devops-tools/jfrog/index.html.md.erb
+    category:
+      - continuous_integration
+      - continuous_delivery
+      - container_registry
+      - package_registry
+      - helm_chart_registry
+      - dependency_proxy
+      - static_application_security_testing
+      - dependency_scanning
+      - advisory_database
+  bitbucket:
+    name: "Bitbucket"
+    logo: '/images/devops-tools/bitbucket-logo.png'
+    include_file: '/devops-tools/bitbucket/index.html.md.erb'
+    category:
+      - source_code_management
+      - code_review
+      - wiki
+  jenkins:
+    name: 'Jenkins'
+    logo: '/images/devops-tools/jenkins-logo.svg'
+    include_file: devops-tools/jenkins/index.html.md.erb
+    category:
+      - continuous_integration
+  circle_ci:
+    name: 'CircleCI'
+    logo: '/images/devops-tools/circle-ci-logo.svg'
+    include_file: '/devops-tools/circleci/index.html.md'
+    category:
+     - continuous_integration
+  gitlab_issue_boards:
+    name: 'GitLab Issue Boards'
+    logo: '/images/devops-tools/gitlab-logo.svg'
+  azure_devops:
+    name: 'Azure DevOps'
+    logo: '/images/devops-tools/azure-devops-logo.png'
+    include_file: '/devops-tools/azure_devops/index.html.md.erb'
+    category:
+      - team_planning
+      - portfolio_management
+      - source_code_management
+      - continuous_integration
+      - package_registry
+      - continuous_delivery
+      - wiki
+      - vulnerability_management

@@ -1,0 +1,40 @@
+---
+name: Terri Chu
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend">Senior Backend Engineer,
+  Global Search</a>
+reports_to: cliu
+picture: terrichu.jpg
+twitter: PerfTestGoddess
+gitlab: terrichu
+linkedin: terrichu
+pronunciation: TAIR-ree CHOO
+pronouns: she/her
+mentor: true
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Global Search BE Team
+- Merge Request Coach
+- Parental Leave Reentry buddy
+story: 'Terri is a backend engineer with a passion for testing. She also enjoys making
+  Android apps for fun and has a few apps in the Play Store! Her motto is ''always
+  keep learning'' and she is always up for a challenge. When she''s not hanging with
+  her family, she loves to cook/bake, travel, and draw.
+
+  '
+projects:
+  gitlab:
+  - maintainer backend
+  - reviewer database
+  gitlab-elasticsearch-indexer: maintainer
+expertise: |
+  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
+  <li><a href="/handbook/people-group/general-onboarding/parental-leave-buddy/">Parental Leave Reentry buddy</a></li>
+domain_expertise:
+- rails
+- kubernetes
+- elasticsearch
+specialty: Global Search

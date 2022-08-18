@@ -1,0 +1,39 @@
+---
+name: Michael Lunøe
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering
+  Manager, Interim Fulfillment:Provision</a>
+reports_to: jeromeng
+picture: mlunoe.png
+mentor: true
+twitter:
+gitlab: mlunoe
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Fulfillment Section
+- Fulfillment Sub-department
+- Fulfillment:Provision Team
+- Frontend
+projects:
+  gitlab: maintainer frontend
+  customers-app: reviewer frontend
+domain_expertise:
+- frontend_architecture
+- frontend_graphql
+- frontend_performance
+- frontend_tooling
+- frontend_testing
+- git
+- webpack
+- vue
+- vuex
+story: |
+  Michael is a engineering manager focused on people and process improvements.
+  Prior to this role Michael worked as a software engineer specializing in frontend architecture and development, CI/CD, testing, and automation.
+  Outside of work you will find him biking, snowboarding, wakeboarding or spending time with his friends geeking out over coffee, food, and music.
+specialty:
+- 'Fulfillment: Provision'
+

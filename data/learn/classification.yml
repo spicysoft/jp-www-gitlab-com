@@ -1,0 +1,137 @@
+use-case:
+  name: Use-Case
+  categories:
+  - name: Version Control & Collaboration
+  - name: Continuous Integration
+  - name: Continuous Delivery/Release
+  - name: DevSecOps
+  - name: GitOps
+  - name: Agile Planning
+  - name: Cloud Native
+  - name: Simplify DevOps
+  - name: GitLab Values
+    url: /handbook/values/
+    ga_name: GitLab Values
+    ga_location: body
+  - name: Leadership Development
+    url: /handbook/people-group/learning-and-development/manager-challenge/
+    ga_name: Leadership Development
+    ga_location: body
+  - name: Team Member Compliance
+  - name: Talent Development
+  - name: Retention
+
+level:
+  name: Level
+  categories:
+  - name: Beginner
+  - name: Intermediate
+  - name: Advanced
+
+pace:
+  name: Pace
+  categories:
+  - name: "Instructor-Led"
+    description: |
+      Led by an instructor.
+  - name: "Self-Paced"
+    description: |
+      The learner has control over the amount of material they want to consume 
+      and the duration of time needed to learn new information.
+  - name: "Both"
+    description: |
+      Available in both Instructor-Led and Self-Paced formats. 
+
+assessment:
+  name: Assessment
+  categories:
+  - name: None
+    description: |
+      No assessment is performed or available for the learning path.
+  - name: Badge
+    description: |
+      A simple recognition of learner achievements.
+  - name: Test
+    description: |
+      An informal questionnaire or form used to test the learner's understanding of the material presented.
+  - name: Certification
+    description: |
+      Credential that indicates a community member has acquired the knowledge, skills, and abilities required to perform
+      a specific skill or job. Includes an examination process.
+
+registration:
+  name: Registration
+  categories:
+  - name: None
+    description: |
+      No registration is required.
+  - name: "Free"
+    description: |
+      Requires sign-up or registration ahead of time, but at no cost to the learner.
+  - name: "Paid"
+    description: |
+      Requires registration and payment ahead of time.
+  - name: "On-Site"
+    description: |
+      Requires registration, payment, and/or logistics with GitLab team members to facilitate on-site training.
+
+confidentiality:
+  name: Confidentiality
+  categories:
+  - name: Public
+  - name: Internal
+    url: /handbook/communication/confidentiality-levels/#internal
+    ga_name: Internal communication
+    ga_location: body
+  - name: Limited Access
+    url: /handbook/communication/confidentiality-levels/#limited-access
+    ga_name: Limited Access
+    ga_location: body
+
+maintainer:
+  name: Maintainer
+  categories:
+  - name: Learning & Development
+    url: /handbook/people-group/learning-and-development/
+    ga_name: Learning & Development
+    ga_location: body
+  - name: Field Enablement
+    url: /handbook/sales/field-operations/field-enablement/
+    ga_name: Field Enablement
+    ga_location: body
+  - name: PS Education Services
+    url: /handbook/customer-success/professional-services-engineering/education-services/
+    ga_name: PS Education Services
+    ga_location: body
+  - name: Partner Enablement & Alliances
+    url: /handbook/resellers/training/
+    ga_name: Partner Enablement & Alliances
+    ga_location: body
+  - name: Developer Evangelism
+    url: /handbook/marketing/community-relations/developer-evangelism/
+    ga_name: Developer Evangelism
+    ga_location: body
+  - name: Sales Development
+    url: /handbook/marketing/revenue-marketing/sdr/
+    ga_name: Sales Development
+    ga_location: body
+  - name: Engineering
+    url: /handbook/engineering/
+    ga_name: Engineering
+    ga_location: body
+  - name: Legal
+    url: /handbook/legal/
+    ga_name: Legal
+    ga_location: body
+  - name: Corporate Marketing
+    url: /handbook/marketing/corporate-marketing/
+    ga_name: Corporate Marketing
+    ga_location: body
+  - name: Product Management
+    url: /handbook/product/product-manager-role/learning-and-development/
+    ga_name: Product Management
+    ga_location: body
+  - name: Technical Writing
+    url: /handbook/engineering/ux/technical-writing/
+    ga_name: Technical Writing
+    ga_location: body

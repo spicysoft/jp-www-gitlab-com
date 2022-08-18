@@ -1,0 +1,418 @@
+@import "vendor/bootstrap/bootstrap/variables";
+@import "variables";
+
+// sass-lint:disable nesting-depth
+
+$comparison-title-image-bg-color: rgba(85, 68, 136, .1);
+
+.see-all-comparisons {
+  display: none;
+}
+
+// Override incoming table styles
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td,
+table > tfoot > tr > th,
+table > tfoot > tr > td {
+  border: 0;
+}
+
+table > thead > tr,
+table > tbody > tr {
+  border-bottom: 1px solid $navbar-default-border;
+}
+
+.feature-links {
+  display: flex;
+
+  .feature-link p {
+    margin-right: 10px;
+  }
+
+  @media all and (max-width: $screen-sm-min) {
+    flex-direction: column;
+  }
+}
+
+.comparison-header {
+  background: url("/images/devops-tools/gitlab-icon-illustration.svg") no-repeat, linear-gradient(to right, $color-primary-alt, $color-primary-medium 40%, $color-primary);
+  background-position: center;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+// From events.css.scss
+.filters-container {
+  width: 90%;
+  margin-bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  >div:not(:last-child) {
+    margin-right: 20px;
+
+    @media all and (max-width: $screen-sm-min) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .dropdown-menu span {
+    display: block;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: $border-radius-large;
+    color: $color-gray;
+
+    &:hover {
+      background: $color-gray-extra-light-alt;
+      color: $color-primary;
+    }
+  }
+
+  @media all and (max-width: $screen-sm-min) {
+    width: 100%;
+  }
+
+  @media all and (max-width: $screen-sm-min) {
+    flex-direction: column;
+  }
+}
+
+.open-core {
+  padding-top: 20px;
+  padding-bottom: 70px;
+
+  h2,
+  h3 {
+    color: $color-primary;
+  }
+
+  h4 {
+    color: $color-gray-light;
+    padding: 0 160px 10px;
+    line-height: 25px;
+
+    @media (max-width: $screen-md-max) {
+      padding: 0 40px 10px;
+    }
+  }
+
+}
+
+.dropdown {
+  width: 100%;
+  max-width: 350px;
+
+  .dropdown-menu-toggle {
+    width: 100%;
+    box-shadow: $box-shadow;
+    text-align: center;
+    color: $color-gray;
+    border: 0;
+
+    &:hover {
+      box-shadow: $box-shadow;
+      border: 0;
+      color: $color-primary;
+    }
+  }
+
+  .dropdown-menu {
+    padding: 10px;
+    max-height: 360px;
+    overflow-y: scroll;
+    width: 100%;
+    background-color: $color-white;
+
+    li {
+      a {
+        color: $color-gray;
+      }
+    }
+  }
+}
+
+.titles-comparison-companies {
+  color: $color-primary;
+  padding: 20px;
+
+  @media (max-width: $screen-xs-max) {
+    padding: 20px 0 40px;
+  }
+}
+
+.comparison {
+
+  .blog-image {
+    background-size: contain;
+    background-color: $color-primary;
+
+    .color-bg {
+      background: $comparison-title-image-bg-color;
+
+      @media (max-width: $screen-xs-max) {
+        padding-top: 90px;
+      }
+    }
+  }
+
+  .comparison-container {
+    padding: 10px 0 0;
+  }
+
+  // We need to be able to take out this class completely - the .table-responsive.
+  // This will remove the table as the screen shrinks down to mobile.
+  // You'll notice I'm only keeping the white-space: normal because it slightly helps the spacing
+  // when you shrink down to mobile-sized screens. When the screen is this size, it automatically turns on.
+  // I think any table used throughout the site inherits from .table-responsive
+
+  .table-responsive {
+    border: 0;
+
+    @media (max-width: $screen-sm-max) {
+      // Tighten up spacing
+      > table {
+        // Ensure the content doesn't wrap
+        > thead,
+        > tbody,
+        > tfoot {
+          > tr > th,
+          > tr > td {
+            white-space: normal;
+          }
+        }
+      }
+    }
+  }
+
+  .compare-table {
+    white-space: normal;
+    margin-bottom: 0;
+
+    td:nth-last-child(-n+3) {
+      border-bottom: 1px solid $navbar-default-border;
+    }
+  }
+}
+
+.comparison-page-content {
+
+  h2 {
+    // used as top-of-page title ref only
+    color: $color-primary;
+  }
+
+  h3 {
+    font-size: 18px;
+
+    a {
+      font-weight: 600;
+    }
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  p,
+  li {
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: $color-gray;
+  }
+
+  // spacing after breakpoint
+  @media (max-width: $screen-xs-max) {
+    h2 {
+      margin: 40px 0 10px;
+    }
+
+    h3 {
+      margin-top: 10px;
+    }
+
+    .color-bg {
+      padding-top: 100px;
+    }
+  }
+}
+
+
+.comparison-table {
+  padding: 30px 0 0;
+
+  thead {
+    font-size: 20px;
+
+    &.affix {
+      top: 115px;
+      padding-top: 20px;
+      z-index: 10;
+      background-color: $color-white;
+      box-shadow: $box-shadow;
+      width: 100%;
+      left: 0;
+      display: flex;
+      justify-content: center;
+
+      th {
+        border: 0;
+
+        &:first-child{
+          padding-left: 15px;
+        }
+      }
+
+      @media (min-width: 577px) and (max-width: 1024px){
+        top: 80px;
+      }
+    }
+
+    th {
+      padding: 0 0 20px;
+      font-weight: 400;
+      border-width: 1px;
+    }
+
+    .table-title {
+      font-size: 18px;
+      color: $color-gray;
+    }
+
+    .table-title-logo {
+      color: $text-color-light;
+      padding: 10px 0;
+    }
+  }
+
+  td {
+    vertical-align: middle;
+  }
+
+  .feature-in-list {
+    padding: 20px 30px 20px 0;
+    color: $color-gray;
+
+    .feature-in-list-title {
+      color: $color-primary;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+
+  .logo {
+    height: 50px;
+    width: auto;
+
+    @media (max-width: $screen-sm-max) {
+      height: 26px;
+    }
+  }
+
+  .check-container {
+    svg {
+      height: 30px;
+      width: 30px;
+
+      @media (max-width: $screen-sm-max) {
+        height: 22px;
+        width: 22px;
+      }
+
+      @media print {
+        page-break-inside: avoid;
+      }
+
+    }
+  }
+
+  &.products-page-comparison {
+    thead {
+      &.affix {
+        background-color: $body-bg;
+      }
+
+      tr th:not(:first-child) {
+        font-size: 18px;
+      }
+    }
+
+    tr:last-of-type {
+      border-bottom: 1px solid $color-gray-medium;
+    }
+  }
+}
+
+.last-updated-section {
+  position: relative;
+  z-index: 0;
+  padding: 30px 0;
+
+  p {
+    color: $color-gray-darken;
+  }
+}
+
+.comparison-page-info {
+  background-color: $color-white;
+  position: relative;
+  z-index: 11;
+}
+
+.footer {
+  margin-top: 0;
+}
+
+.secure-and-protect {
+
+  h2 {
+    font-size: 34px;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  thead th {
+    padding: 0;
+  }
+
+  td {
+    vertical-align: top;
+  }
+
+}
+
+.strengths-and-weaknesses {
+
+  th {
+    width: 40%;
+  }
+
+  th:first-child {
+    width: 20%;
+  }
+
+}
+
+.feature-lineup {
+
+  th {
+    width: 20%;
+  }
+
+  th:first-child {
+    width: 60%;
+  }
+
+}
+
+.comparison-table.secure-and-protect {
+  padding: 0px;
+}

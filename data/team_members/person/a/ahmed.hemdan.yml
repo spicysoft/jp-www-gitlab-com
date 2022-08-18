@@ -1,0 +1,25 @@
+name: Ahmed Hemdan
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer, Release</a>
+reports_to: nicole-williams
+picture: ahemdan.jpg
+pronouns: he/him
+twitter: samboksah
+gitlab: ahmed.hemdan
+departments:
+  - Engineering Function
+  - Development Department
+  - Ops Sub-department
+  - Release BE Team
+  - Release Group
+specialty: Release
+projects:
+  gitlab:
+  - trainee_maintainer backend
+story: |
+  Ahmed started tinkering with computers at a young age, and he hasn't stopped since. He has 6+ years
+  of experience building and delivering software at scale, and working in agile and fast paced environments. He spent most of that time focusing on backend, infrastructure and data topics. In his spare time, you can find him explaining
+  a technical concept to a friend, reading an article about politics/economics, savouring some tasty plate, or
+  riding an e-moped around Berlin. He also likes reading comics, cooking lasagne (whenever possible), and playing
+  video games.

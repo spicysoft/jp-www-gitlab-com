@@ -1,0 +1,30 @@
+---
+name: Shinya Maeda
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer,
+  Release</a>
+specialty: Release
+reports_to: nicole-williams
+picture: shinya.png
+twitter:
+gitlab: shinya.maeda
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Release Group
+- Release BE Team
+projects:
+  gitlab:
+  - maintainer backend
+  - maintainer ci_template
+  auto-deploy-image: maintainer
+  release-cli: reviewer
+story: |
+  Shinya is an Inspection System engineer who is good at hardware integration. So far he has bulit up 20+ softwares using external devices such as Stereo Camera, Sound Level Meter, Arduino, etc. He also likes competiting on programming contests. Once he met a tough problem, he won't be satisfied until he has found the solution.
+  In his free time, he enjoys composing original music and covering famous songs.
+domain_expertise:
+- rails
+- cicd
+

@@ -1,0 +1,31 @@
+---
+name: Jonathan Schafer
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Secure:Threat Insights</a>
+reports_to: thiagofigueiro
+picture: jschafer.jpg
+gitlab: jschafer
+pronouns: he/him
+projects:
+  gitlab: reviewer backend
+  security-report-schemas: trainee_maintainer backend
+expertise: |
+  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Threat Insights BE Team
+- Backend
+- Merge Request Coach
+domain_expertise:
+- vulnerability_management
+story: |
+  Born and raised in San Antonio, TX, Jonathan has developed all kinds of software from embedded avionics
+  to full stack web applications. When he's not writing code, he loves spending time with his wife, two boys,
+  and little girl - playing games, golfing, coaching, tubing, and trying interesting restaurants.
+specialty:
+- 'Secure: Threat Insights'
+

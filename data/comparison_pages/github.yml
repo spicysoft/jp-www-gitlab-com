@@ -1,0 +1,142 @@
+competitor_name: GitHub
+file_name: github
+single_tool_data:
+  single_tool: false
+  single_tool_category: manage
+logo: /images/comparisons/blank-logo.svg
+manage:
+  Project-level permissioning: 2
+  Role-based Access Control: 2
+  Self-service onboarding: 1
+  Audit reporting: 1
+  Group-level permissioning: 2
+  Data export: 1
+  2FA: 2
+  Operational DevOps metrics: 1
+  Custom issue analytics: 1
+  Value stream management: 0
+  Compliance framework enforcement: 1
+  DevOps Adoption reorts: 0
+  Audit logging: 1
+  Data import: 1
+  LDAP/AD integration: 2
+plan:
+  Sprint planning: 1
+  Capacity planning: 0
+  Workflow Management: 1
+  Global Search: 1
+  Design Management: 0
+  Extensibility: 2
+  Issue Management: 1
+  Enterprise readiness: 2
+  Operational Metrics / Value Stream: 0
+  Boards: 2
+  Enterprise Framework Support: 0
+  Requirements Management: 0
+  Roadmaps: 0
+  Cost Tracking & Estimation: 0
+  Work Item Relationships: 1
+  End-to-end visibility / traceability: 1
+source-code-management:
+  Change Approvals: 2
+  Protected branches: 2
+  Mirroring: 1
+  Project and File Templates: 1
+  "Scalable, Fault-Tolerant Git Storage": 1
+  Git LFS: 2
+  Code Review: 2
+  Commit Graphs: 2
+  Push Rules: 2
+  Live Preview: 1
+  Git-Based SCM: 2
+  Snippets: 2
+  Signed Commits: 2
+  Partial Clone: 2
+  Web IDE: 2
+continuous-integration:
+  Integration testing: 1
+  Pipeline visualization: 2
+  Compliance and audit controls: 1
+  Enterprise readiness: 1
+  Build parallelization: 2
+  "Linters, scanners, and syntax validation included": 2
+  Dynamic pipelines: 1
+  Configuration-as-code: 2
+  Unit testing and static code analysis: 2
+  Pipeline status logs and analytics for reporting: 2
+  Embedded security scans in CI pipeline: 1
+  CI pipeline templates: 2
+  Multi-cloud w/ cloud native support: 1
+  "SaaS, On-prem, and hybrid installation": 2
+  Load and performance testing: 1
+  Ease of use/setup: 2
+  Pipeline scheduling and monitoring: 2
+package:
+  Searchable artifacts: 2
+  Dependency scanning: 2
+  "Top package formats supported (npm, maven, pyi, etc.)": 2
+  Storage management: 2
+  Enterprise readiness: 1
+  Virtual Registry: 0
+  Dependency Firewall: 1
+  Package Registry: 1
+  High Availability: 2
+  API: 2
+  Container registry: 2
+  Geo Replication: 2
+  Certified dependencies (or images): 1
+secure:
+  Vulnerability mgmt: 2
+  Dependency Scanning: 2
+  Secrets detection: 2
+  SBOM (dependency list): 0
+  Code Quality: 1
+  Compliance dashboard: 0
+  SAST: 2
+  Container Scanning: 1
+  MR approvals: 2
+  License Compliance: 1
+  compliance frameworks: 0
+  API fuzz test: 0
+  DAST: 1
+  Vulnerability database: 2
+  coverage guided fuzz testing: 0
+continuous-delivery:
+  Deployment pipeline visualization: 2
+  incremental roll-out: 0
+  "Support for traditional deployment targets - physical, virtual machines, mainframes": 2
+  Roll back: 2
+  "DORA metrics (Mean time for changes, MTTR, Change Failure Rate, Deployment Frequency)": 1
+  Canary deployment: 0
+  Static Site Hosting: 2
+  Environments dashboard: 1
+  Blue-green deployment: 0
+  MR approvals: 2
+  Feature flags: 0
+  Release versioning and evidence: 2
+  Support for cloud native deployment targets: 2
+  Runbooks: 2
+configure:
+  Infrastructure/ Config/ Policies etc as code: 2
+  Integration with IaC tools like Terraform: 0
+  "Configure physical, virtual, cloud infrastructures": 0
+  Configure cloud native environments: 1
+  Detect and remediate configuration drift: 0
+  Secure Kubernetes Integration: 0
+  Push and Pull actions: 1
+monitor:
+  Synthetic monitoring: 0
+  Log monitoring: 0
+  Distributed Tracing: 0
+  Load performance testing: 0
+  Alert Management: 0
+  Application performance monitoring: 0
+  Integrations with established incident management tools: 0
+  Digital experience monitoring (real user monitoring): 0
+  Incident Management: 0
+  Automated discovery & mapping: 0
+  Infrastructure Performance monitoring: 0
+  Mobile Performance Monitoring: 0
+protect:
+  container scanning: 0
+  security orchestration (runtime policies): 0

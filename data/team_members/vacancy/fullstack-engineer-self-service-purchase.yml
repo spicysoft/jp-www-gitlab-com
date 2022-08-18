@@ -1,0 +1,17 @@
+name: New Vacancy
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/fullstack/">Fullstack Engineer, Self Service Purchase</a>
+reports_to: fullstack-engineering-manager-self-service-purchase
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+- Engineering Function
+- Development Department
+- Fulfillment Section
+- Fulfillment Sub-department
+- Fulfillment:Self Service Purchase Team
+story: |
+  Open Position

@@ -1,0 +1,32 @@
+---
+name: Albert Salim
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/">Senior Backend Engineer,
+  Verify:Pipeline Insights</a>
+reports_to: scott-hampton
+picture: albertsalim.jpg
+twitter:
+gitlab: alberts-gitlab
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Pipeline Insights Group
+- Verify:Pipeline Insights BE Team
+- Merge Request Coach
+projects:
+  gitlab:
+  - maintainer backend
+  gitlab-styles: reviewer
+  gitlab-dangerfiles: maintainer
+expertise: '<li><a href="/job-families/expert/merge-request-coach/">Merge Request
+  Coach</a></li>
+
+  '
+story: |
+  Albert's experience spans across software engineering and consulting. Having seen how teams benefit from a strong collaborative culture, he is now driven to help others work more effectively.
+  Outside of work, he enjoys bouldering indoor (hope to venture outdoor soon), as well as swimming, cycling and running occassionally.
+specialty:
+- Verify:Pipeline Insights
+

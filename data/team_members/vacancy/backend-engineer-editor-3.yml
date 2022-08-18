@@ -1,0 +1,14 @@
+name: New Vacancy
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Create:Editor</a>
+reports_to: davidoregan
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+  - Development
+  - Create:Editor
+story: |
+  Open Position

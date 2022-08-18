@@ -1,0 +1,569 @@
+#############################################################
+# Key Performance Indicators
+# This section contains only KPIs
+# Ordering the same way it's represented in the handbook.
+#############################################################
+
+
+- name: Unique Wider Community Contributors per Month
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Unique Wider Community Contributors based on merged contribution by month. Contributors are unique and only counted once for multiple MRs from the same contributor.
+  target: Above 120 contributors per month
+  org: Quality Department
+  is_key: true
+  dri: <a href="https://gitlab.com/nick_vh">Nick Veenhof</a>
+  health:
+    level: 2
+    reasons:
+      - Quarterly average decreased from 117 to 106
+      - Decreased amount of first time contributors
+      - Need to improve review time and retention
+  urls:
+    - https://gitlab.com/gitlab-com/quality/contributor-success/-/issues/134
+  sisense_data:
+    chart: 9522755
+    dashboard: 729542
+    embed: v2
+
+- name: MRARR
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: MRARR (pronounced "mer-arr," like a pirate) is the measurement of Merge Requests from customers, multiplied with
+    the revenue of the account (ARR) from that customer. This measures how active our biggest customers are contributing to GitLab.
+    We believe the higher this number the better we'll retain these customers and improve product fit for large enterprises.
+    The unit of MRARR is MR Dollars (MR$). MR Dollars is different than the normal Dollars which is used for ARR.
+    We are tracking current initiatives to improve this in this <a href="https://gitlab.com/groups/gitlab-com/-/epics/1225">epic</a>. <figure class="video_container"> <iframe src="https://www.youtube.com/embed/HjWwpPU3KDU" frameborder="0" allowfullscreen="true"> </iframe></figure>
+
+  target: Identified in Sisense Chart
+  org: Quality Department
+  is_key: true
+  dri: <a href="https://gitlab.com/nick_vh">Nick Veenhof</a>
+  health:
+    level: -1
+    reasons:
+      - Swiched effort to on-board new contributing customers
+      - Customer contributor tracking still manual effort need to automate this process
+      - Customer contributions needs to be flagged broadly for reviewer/maintainers to prioritize
+  urls:
+    - https://gitlab.com/gitlab-com/quality/contributor-success/-/issues/81
+    - https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965062/MRARR-Dashboard
+
+- name: Master Pipeline Stability
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Measures the stability of the GitLab project master branch pipeline success rate. A key indicator to the stability of our releases.
+     We will continue to leverage <a href="https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/195">Merge Trains</a> in this effort.
+  target: Above 95%
+  org: Quality Department
+  is_key: true
+  dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
+  health:
+    level: 2
+    reasons:
+      - Recovering from 82% low point in May to 86% 
+      - Merge train improvement planned in 15.5
+      - Reasons for failures; Review App failures 4%, Flaky and broken master test failures 4.18%, <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/332411">Dependency proxy bug</a> 1.12%, Other 1.35%
+  urls:
+    - https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/42
+    - https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/195
+    - https://gitlab.com/gitlab-org/gitlab/-/issues/361672
+    - https://gitlab.com/gitlab-org/gitlab/-/issues/332411
+  sisense_data:
+    chart: 8573283
+    dashboard: 516343
+    embed: v2
+
+- name: Review App deployment success rate
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Measures the stability of our test tooling to enable end to end and exploratory testing feedback.
+  target: Above 99%
+  org: Quality Department
+  is_key: true
+  dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
+  health:
+    level: 3
+    reasons:
+      - Trending up to 96%
+      - <a href="https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1055">Auto-deploy promotion process</a> during 15.6 to reduce review app image build failures
+  urls:
+    - https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/38
+    - https://gitlab.com/groups/gitlab-org/-/epics/605
+    - https://gitlab.com/groups/gitlab-org/-/epics/6024
+    - https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1055
+  sisense_data:
+    chart: 6721558
+    dashboard: 516343
+    embed: v2
+
+- name: Time to First Failure
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: TtFF (pronounced "teuf") measures the average time from pipeline creation until the first actionable failed build is completed for the GitLab monorepo project.
+    The Quality Department <a href="https://youtu.be/6dK5j8ADa3U?t=573">recently discussed</a> the desire to measure the average time to first failure.
+    We want to run the tests that are likely to fail first and shorten the feedback cycle to R&D teams.
+  target: Below 15 minutes
+  org: Quality Department
+  is_key: true
+  dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
+  health:
+    level: 3
+    reasons:
+      - Reduced to 19 mins from a high point of 32 mins in May
+      - Improvements to speed up review app deployment scheduled for 15.7
+  urls:
+    - https://gitlab.com/groups/gitlab-org/-/epics/7826
+    - https://gitlab.com/gitlab-org/gitlab/-/issues/361665
+    - https://gitlab.com/gitlab-org/gitlab/-/issues/362766
+  sisense_data:
+    chart: 11955006
+    dashboard: 878780
+    shared_dashboard: 9e320ebb-43f6-4b30-9f72-7f02636ae410
+    embed: v2
+
+- name: S1 OBA
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: S1 Open Bug Age (OBA) measures the total number of days that all S1 bugs are open within a month divided by the number of S1 bugs within that month.
+  target: Below 100 days
+  org: Quality Department
+  is_key: true
+  dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
+  health:
+    level: 2
+    reasons:
+      - Hit the target in July but spiked back due to outliers
+      - Advocating for oldest S1 bugs in new cross-functional prioritization process
+      - Implemented <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/362985">S1 bug auto-scheduling</a> to prioritize S1s within their SLOs.
+  sisense_data:
+    dashboard: 856737
+    chart: 11997705
+    embed: v2
+
+- name: S2 OBA
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: S2 Open Bug Age (OBA) measures the total number of days that all S2 bugs are open within a month divided by the number of S2 bugs within that month.
+  org: Quality Department
+  target: Below 300 days
+  is_key: true
+  dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
+  health:
+    level: 1
+    reasons:
+      - Trending up back 380 days in recent month
+      - S2 bug refinement is underway to stabilize open age and reduce backlog. Backlog is decreasing.
+      - Advocating for S2 bug prioritization in new cross-functional prioritization process
+      - Implementing <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/368641">S2 bug auto-scheduling</a> for the subset of product groups with healthy S2 backlogs.
+  urls:
+    - https://gitlab.com/groups/gitlab-org/-/epics/8111
+  sisense_data:
+    dashboard: 856747
+    chart: 11997719
+    embed: v2
+
+- name: Quality Team Member Retention
+  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-team-member-retention"
+  definition: We need to be able to retain talented team members. Retention measures our ability to keep them sticking around at GitLab.
+    Team Member Retention = (1-(Number of Team Members leaving GitLab/Average of the 12 month Total Team Member Headcount)) x 100. GitLab measures team member retention over a rolling 12 month period.
+  target: at or above 84%
+  org: Quality Department
+  is_key: true
+  public: false
+  health:
+    level: 3
+    reasons:
+    - Above target
+  urls:
+    - "https://app.periscopedata.com/app/gitlab/862331/Quality-Department-Retention"
+
+- name: Quality Average Age of Open Positions
+  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-vacancy-time-to-fill"
+  definition: Measures the average time job openings take from open to close. Positions are closed when offer is accepted.
+    This metric includes sourcing time of candidates compared to Time to Hire or Time to Offer Accept which only measures the time from when a candidate applies to when they accept.
+  target: at or below 50 days
+  org: Quality Department
+  is_key: true
+  public: true
+  health:
+    level: 2
+    reasons:
+      - Trending up due to challenging positions to hire
+      - We closed a few position which should bring age down
+      - Prioritizing hiring efforts in FY23Q3
+  sisense_data:
+      chart: 11885848
+      dashboard: 872394
+      embed: v2
+      filters:
+          - name: Division
+            value: Engineering
+          - name: Department
+            value: Quality
+
+- name: Software Engineer in Test Gearing Ratio
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Amount of Software Engineers in Test against the targeted <a href="https://about.gitlab.com/handbook/engineering/quality/#software-engineer-in-test">gearing ratio</a>
+    We have a detailed <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRM5jmGgT5H1kDOi6UwHTbK7PnoPYTYATnLe5HgVkJqe2VvaWo9fKpbnB6gR4vhx3UDby4wUeGwPYEq/pubhtml?gid=2059771943&single=true">gearing prioritization model</a> that informs important us which group we will hire an SET first.
+  target: At 48 Software Engineers in Test
+  org: Quality Department
+  is_key: true
+  dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
+  health:
+    level: 2
+    reasons:
+      - Increased to 54% of gearing ratio.
+      - FY23 addtions will improve ratio further, actively hiring in FY23H2
+  sisense_data:
+    chart: 9668867
+    dashboard: 516343
+    embed: v2
+
+#############################################################
+# Regular Performance Indicators
+# This section contains only PIs
+# This is grouped by the following order
+#   - Engineering Productivity
+#   - Community Outreach
+#   - Quality Engineering
+#   - Engineering Analytics (TBD)
+#   - Department Efficiency
+#   - People Metrics
+# Please grouped PIs together for ease of review
+#############################################################
+
+############################
+# Engineering Productivity
+############################
+
+- name: Merge request pipeline duration
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Measures the average successful duration for the GitLab project merge request pipelines. Key building block to improve
+    our cycle time, and effiency. More <a href="https://gitlab.com/groups/gitlab-org/-/epics/1853">pipeline improvements</a>
+    and <a href="https://gitlab.com/groups/gitlab-org/-/epics/5987">critical code paths</a> planned.
+  target: Below 45 minutes
+  org: Quality Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+      - Trending up to 67 mins
+      - We've estimated that tests grows by 2% each month 
+      - The last two milestones the team has been focused on supporting cross functional efforts and unable to prioritize actions on slow tests.
+  urls:
+    - https://gitlab.com/groups/gitlab-org/-/epics/1853
+    - https://gitlab.com/groups/gitlab-org/-/epics/7826
+    - https://app.periscopedata.com/app/gitlab/858266/GitLab-Pipeline-Durations?widget=11713727&udv=0
+  sisense_data:
+    chart: 6782964
+    dashboard: 516343
+    embed: v2
+
+- name: Merge Requests pipeline cost
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Measure the average GitLab project merge request pipeline cost to measure engineering efficiency. This
+    is calculated by taking the total compute cost for the runner machines for merge request pipelines divided by the number of merge requests.
+  target: Below 7.50
+  org: Quality Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+      - Increased from $20.91 to $21.20
+      - Unable to prioritize investigation of <a href="https://gitlab-org.gitlab.io/rspec_profiling_stats/#time_per_test">test duration increase</a> which may identify new opportunities to lower cost.
+      - Number of pipelines per MR is increasing from 8.9 to 10.6 from June to July due to more MRs with >30 pipelines. 
+      - Pipeline modifier usage has increased during the month of July. 
+      - Investigation of corrective actions have been deprioritized over cross functional projects, stability, and time to first failure. 
+  sisense_data:
+    chart: 11689663
+    dashboard: 862651
+    embed: v2
+    shared_dashboard: a6ec2792-d044-411d-aca7-f4496543a461
+
+############################
+# Community Outreach
+############################
+
+- name: Open Community MR Age
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: OCMA (pronounced "ock-mah") measures the median time of all open MRs as of a specific date.
+    In other words, on any given day, this calculates the number of open MRs and median time in an open state for open MRs at that point in time.
+  target: Below 100 days
+  org: Quality Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+      - Open Age is increasing but count has been decreasing
+      - Outreach has been putting attention towards more recent open MRs
+      - Prioritize break out <a href="https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/1117">analysis</a> of stale MRs by product areas
+  sisense_data:
+    chart: 11850655
+    dashboard: 872455
+    embed: v2
+  urls:
+    - https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/12325
+
+- name: Community MR Coaches per Month
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: The number of MR Coaches defined by team.yml role
+  target: Above 50 coaches per month
+  org: Quality Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+      - Increased to 36
+      - We realized small progress in FY22Q3 to improve specialties (Development, Quality, UX)
+      - Planned MR Coach survey to identify bottlenecks, expedite of Contributor Success team will also add to the momentum
+  sisense_data:
+    chart: 9721107
+    dashboard: 729542
+    embed: v2
+  urls:
+    - https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10519
+
+- name: Feature Community Contribution MRs
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Percentage of Community Contributions that are related to feature development
+  target: Above 30%
+  org: Quality Department
+  is_key: false
+  health:
+    level: 0
+    reasons:
+      - Need to re-establish baseline due to more accurately classifying via types bugs/feature/maintenance
+      - Good uptick from latest hackathon
+  sisense_data:
+    chart: 9640193
+    dashboard: 729542
+    embed: v2
+
+- name: Community MR Percentage
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: This is the ratio of community contributions with the number of merged product MRs. As we grow as a company we want to make sure the community scales with the company.
+  target: Above 8% of all MRs
+  org: Quality Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+      - We have briefly hit the target
+  sisense_data:
+    chart: 11016270
+    dashboard: 824124
+    shared_dashboard: 803b4ecb-7152-42a1-ae93-b01963edad62
+    embed: v2
+
+############################
+# Quality Engineering
+############################
+
+- name: Average duration of end-to-end test suite
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Measures the speed of our full QA/end-to-end test suite in
+    the <code>master</code> branch. A Software Engineering in Test job-family performance-indicator.
+  target: at 90 mins
+  org: Quality Department
+  is_key: false
+  dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
+  health:
+    level: 3
+    reasons:
+    - Trend has stabilized just above target
+    - Short-term - in-progress selective test execution initiative should drive small improvements
+    - Long-term - rethinking design of test execution to innovate and drive significant reduction
+  sisense_data:
+    chart: 12908180
+    dashboard: 912649
+    embed: v2
+    shared_dashboard: 997e89ce-7fe5-418a-8e6b-f94ebb674a35
+  urls:
+  - https://gitlab.com/gitlab-org/quality/team-tasks/issues/198
+
+- name: Average age of quarantined end-to-end tests
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Measures the stability and effectiveness of our QA/end-to-end tests
+    running in the <code>master</code> branch. A Software Engineering in Test job-family performance-indicator.
+  target: TBD
+  org: Quality Department
+  is_key: false
+  dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
+  health:
+    level: 0
+    reasons:
+    - Chart to track historical metric is broken. Our visibility is limited to a table of currently quarantined end-to-end tests.
+    - We made good progress on our <a href="https://app.ally.io/objectives/2041549?time_period_id=155986">FY23Q2 OKR to un-quarantine</a> all quarantined tests <a href="https://about.gitlab.com/handbook/engineering/quality/issue-triage/#blocked-tests">past SLO</a>; will continue burning down this backlog in FY23Q3.
+    - Collaborating with product teams to fix bugs blocking end-to-end test execution via the cross-functional prioritization process.
+    - We made good progress on our <a href="https://app.ally.io/objectives/2041549?time_period_id=155986">FY23Q2 OKR to un-quarantine</a> all quarantined tests <a href="https://about.gitlab.com/handbook/engineering/quality/issue-triage/#blocked-tests">past SLO</a>; will continue burning down this backlog in FY23Q3.
+  sisense_data:
+    chart: 12909850
+    dashboard: 933059
+    embed: v2
+    shared_dashboard: 7f108f02-6a44-45fa-9cb0-fad6f09c5316
+  urls:
+  - https://gitlab.com/gitlab-org/quality/team-tasks/issues/199
+
+############################
+# Engineering Analytics
+############################
+
+# TBD
+
+############################
+# Department Efficiency
+############################
+
+- name: Quality Budget Plan vs Actuals
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-budget-plan-vs-actuals"
+  definition: We need to spend our investors' money wisely. We also need to run a responsible business to be successful, and to one day go on the public market.
+    <a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11464">Latest data is in Adaptive, data team importing to Sisense in FY22Q2</a>
+  target: See Sisense for target
+  org: Quality Department
+  is_key: false
+  health:
+    level: 0
+    reasons:
+      - There is currently a data lag to resolve
+  urls:
+  - https://app.periscopedata.com/app/gitlab/633240/Quality-Non-Headcount-BvAs
+
+- name: Quality Handbook MR Rate
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-handbook-merge-request-rate"
+  definition: The handbook is essential to working remote successfully, to keeping up our transparency, and to recruiting successfully. Our processes are constantly evolving and we need a way to make sure the handbook is being updated at a regular cadence. This data is retrieved by querying the API with a python script for merge requests that have files matching <code>/source/handbook/engineering/quality/**</code> over time.
+  target: Above 1 MR per person per month
+  org: Quality Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+      - Improved in Sept but dipped in Oct
+      - Improvement of sub-department, sub-team pages underway that will facilitate more iterations
+  sisense_data:
+    chart: 10586749
+    dashboard: 621059
+    shared_dashboard: 3f0e7d87-fc13-44c3-bbba-1a9feb48c3bd
+    embed: v2
+
+- name: Quality MR Rate
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-mr-rate"
+  definition: Quality Department MR rate a key indicator showing how many changes the Quality Department implements directly in the GitLab product.
+    It is important because it shows our iterative productivity based on the average MR merged per team member.
+    We currently count all members of the Quality Department (Director, EMs, ICs) in the denominator because this is a team effort.
+    The full definition of MR Rate is linked in the url section.
+  target: Above 10 MRs per Month
+  org: Quality Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+    - Increased in Sept and Oct
+    - We made progress on increasing codebase maintainers and will continue along with pushing for smaller iterations
+  urls:
+    - "/handbook/engineering/metrics/#merge-request-rate"
+    - https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/534
+  sisense_data:
+    chart: 8467527
+    dashboard: 654023
+    shared_dashboard: 4278f770-7709-4a5e-89f7-812a319c2fbb
+    embed: v2
+
+############################
+## People Metrics
+############################
+
+- name: Quality Average Location Factor
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-average-location-factor"
+  definition: We remain efficient financially if we are hiring globally, working asynchronously, and hiring great people in low-cost regions where we pay market rates. We track an average location factor by function and department so managers can make tradeoffs and hire in an expensive region when they really need specific talent unavailable elsewhere, and offset it with great people who happen to be in low cost areas.
+  target: Below 0.58
+  org: Quality Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+      - We have achieved a consistent downward trend starting in April CY21.
+      - We are focused on location factors of our new hires and vacancies and targetting efficient locations globally.
+      - We are considering adjusting to 0.66 to reflect the division KPI.
+  sisense_data:
+    chart: 7045895
+    dashboard: 516343
+    embed: v2
+- name: Quality New Hire Average Location Factor
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-division-new-hire-average-location-factor"
+  definition: We remain efficient financially if we are hiring globally, working asynchronously,
+    and hiring great people in low-cost regions where we pay market rates. We track
+    an average location factor for team members hired within the past 3 months so
+    hiring managers can make tradeoffs and hire in an expensive region when they really
+    need specific talent unavailable elsewhere, and offset it with great people who
+    happen to be in more efficient location factor areas with another hire. The historical average location factor represents the average location factor for only new hires in the last three months, excluding internal hires and promotions. The calculation for the three-month rolling average location factor is the location factor of all new hires in the last three months divided by the number of new hires in the last three months for a given hire month. The data source is Workday data.
+  target: Below 0.58
+  org: Quality Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - New hire location factor has been near the target
+    - We remain vigilant hiring in efficient locations globally
+    - There is <a href="https://gitlab.com/gitlab-data/analytics/-/issues/10798">some missing data</a> affecting our visibility into this metric
+  sisense_data:
+    chart: 9389208
+    dashboard: 719540
+    embed: v2
+
+- name: Quality Department Promotion Rate
+  base_path: "/handbook/engineering/performance-indicators/"
+  definition: The total number of promotions over a rolling 12 month period divided by the month end headcount. The target promotion rate is 12% of the population. This metric definition is taken from the <a href="https://about.gitlab.com/handbook/people-group/people-success-performance-indicators/#promotion-rate">People Success Team Member Promotion Rate PI</a>.
+  target: 12%
+  org: Quality Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+      - Slightly above target, due to small department size this is not worrisome.
+  sisense_data:
+    chart: 11860231
+    dashboard: 873087
+    embed: v2
+    filters:
+      - name: Breakout
+        value: Department
+      - name: Breakout_Division_Department
+        value: Engineering - Quality
+
+- name: Quality Department Discretionary Bonus Rate
+  base_path: "/handbook/engineering/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-discretionary-bonus-rate"
+  definition: The number of discretionary bonuses given divided by the total number of team members, in a given period as defined. This metric definition is taken from the <a href="/handbook/people-group/people-success-performance-indicators/#discretionary-bonuses">People Success Discretionary Bonuses KPI</a>.
+  target: at or above 10%
+  org: Quality Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+      - Metric is new and is being monitored
+      - We've fluctuated above and below the target line recently, which for a small department is not worrisome.
+  sisense_data:
+    chart: 11860249
+    dashboard: 873088
+    embed: v2
+    filters:
+      - name: Breakout
+        value: Department
+      - name: Breakout_Division_Department
+        value: Engineering - Quality
+
+- name: Engineering Productivity Engineer Gearing Ratio
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: Amount of Engineering Productivity Engineers against the targeted <a href="https://about.gitlab.com/handbook/engineering/quality/#staffing-planning">gearing ratio</a>
+  target: At 18 Engineering Productivity Engineers
+  org: Quality Department
+  is_key: false
+  health:
+    level: 1
+    reasons:
+    - Currently at 27% of target
+  sisense_data:
+    chart: 9669589
+    dashboard: 516343
+    embed: v2

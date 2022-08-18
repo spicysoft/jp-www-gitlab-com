@@ -1,0 +1,17 @@
+name: New Vacancy
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/fullstack/">Senior Fullstack Engineer, Sec:Anti-Abuse</a>
+reports_to: jayswain
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+  - Engineering Function
+  - Development Department
+  - Sec Section
+  - Anti-Abuse Team
+  - Anti-Abuse Fullstack Team
+story: |
+  <a href="https://boards.greenhouse.io/gitlab/jobs/6025630002">Job posting</a>

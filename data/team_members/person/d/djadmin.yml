@@ -1,0 +1,30 @@
+---
+name: Dheeraj Joshi
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer,
+  Secure:Dynamic Analysis</a>
+reports_to: sethberger
+picture: dheerajjoshi.jpg
+twitter: dheerajhere
+gitlab: djadmin
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Dynamic Analysis BE Team
+- Frontend
+projects:
+  gitlab: trainee_maintainer frontend
+  gitlab-ui: reviewer frontend
+story: 'Dheeraj has been building apps since the time he got introduced to VB6 in
+  high school. He is quite adept at writing JavaScript, an open source lover, and
+  web security enthusiast. When he is not writing code, he spends time finding and
+  reporting security vulnerabilities in web applications. In his spare time Dheeraj
+  enjoys playing football, caffeinating or craving for good food.
+
+  '
+specialty:
+- 'Secure: Dynamic Analysis'
+

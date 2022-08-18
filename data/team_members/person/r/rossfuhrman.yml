@@ -1,0 +1,32 @@
+---
+name: Ross Fuhrman
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#secure">Senior Backend Engineer,
+  Secure:Static Analysis</a>
+reports_to: amarpatel
+picture: rossfuhrman.jpeg
+twitter: rossfuhrman
+gitlab: rossfuhrman
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Static Analysis BE Team
+projects:
+  gitlab:
+    - reviewer backend
+    - reviewer ci_template
+  secure-analyzers: reviewer backend
+  secure-SAST-brakeman: trainee_maintainer backend
+  secure-SAST-phpcs-security-audit: trainee_maintainer backend
+  secure-SAST-security-code-scan: trainee_maintainer backend
+pronouns: he/him
+story: 'Ross loves ruby. He is the organizer of the Kansas City Ruby User Group and
+  also helps run Rails Girls Kansas City.
+
+  '
+domain_expertise:
+- secure
+specialty: Static Analysis
+

@@ -1,0 +1,33 @@
+---
+name: Hossein Pursultani
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Distribution Engineer,
+  Distribution:Deploy</a>
+reports_to: david-mountney
+picture: hosseinpursultani.png
+twitter:
+gitlab: pursultani
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Distribution Deploy BE Team
+projects:
+  omnibus-gitlab: reviewer
+  gitlab-omnibus-builder: reviewer
+  gitlab-chart: reviewer
+  cng: trainee_maintainer
+  gitlab-operator: maintainer
+story: Hossein has been programming for more than 20 years. He started as an enthusiast
+  in high-school, where he landed his first gigs. Since then, he worked in different
+  roles across multiple domains throughout his career, searching for interesting puzzles
+  to solve. He is trained as a statistician and worked as one for a while. He studied
+  the socio-political aspects of intelligent systems in his Ph.D. Thesis. Hossein
+  enjoys working with his daughter, cooking for the family and extensively reads on
+  Theories of Education.
+domain_expertise:
+- cicd
+- kubernetes
+specialty: Distribution
+

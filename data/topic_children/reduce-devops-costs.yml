@@ -1,0 +1,68 @@
+title: Five ways to reduce the cost of a DevOps platform
+description: Even the most successful DevOps implementations can be streamlined
+  could be more efficient. Here are five areas to consider to make your DevOps
+  platform more cost efficient.
+header_body: Even the most successful DevOps implementations can be streamlined
+  could be more efficient. Here are five areas to consider to make your
+  DevOps Platform more cost efficient.
+canonical_path: /topics/devops/reduce-devops-costs/
+file_name: reduce-devops-costs
+parent_topic: devops
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+body: >-
+  A DevOps platform brings obvious benefits to an organization – faster
+  cycle times, better security, and generally happier developers. But
+  successful DevOps teams want to go that one step further and actually reduce
+  the costs of software development. DevOps platform teams already have a head
+  start because they’re no longer spending money and time to support and
+  maintain multiple toolchains.
+
+
+  But clearly more work can be done to reduce the costs of a DevOps platform. Here are five areas to consider:
+
+
+  **1. The cloud:** All that flexibility provided by the cloud has a potential dark side – cloud sprawl. With anyone able to spin up instances on a credit card it’s a little too easy to “set it and forget it.” If left unchecked, cloud costs can be even greater than on-prem. [Cloud pricing includes other factors](https://enterprisersproject.com/article/2018/7/cloud-costs-4-myths-and-misunderstandings) like storage, networking, monitoring, and backups, among other services.
+
+
+  Cloud sprawl can also refer to SaaS instances, such as Salesforce, Adobe, or any other online service, where an organization pays for new user accounts, but [doesn't actually use them](https://searchcloudcomputing.techtarget.com/definition/cloud-sprawl). Monitoring cloud usage can give some insights on a stretched DevOps budget.
+
+
+  **2. The toolchain:** Even a solid DevOps platform can have some unnecessary services hanging around, so it pays to take a look at everything you have a license for to ensure it’s all being used. If you’re still unsure, our [toolchain calculator](https://about.gitlab.com/calculator/roi/) breaks it all down clearly.
+
+
+  **3. Legacy systems:** Aging infrastructure gorges itself on money, both in terms of upkeep and maintenance. If you don’t believe that, try [hiring a COBOL developer](https://about.gitlab.com/blog/2020/04/23/cobol-programmer-shortage/) at an average developer salary (spoiler alert: you can’t). When you hear about leading companies like Amazon and Facebook, they have an advantage: They can build relatively new systems and DevOps capabilities into their applications because they don't have legacy systems to worry about. Over time, the true cost of legacy systems is enormous: From additional resources needed to maintain them to lost productivity, they can hinder investments in long-term growth – the thing that will increase revenue in the long run.
+
+
+  **4. Manual tasks:** Even a well-established DevOps team will admit that not everything is automated…but it should be. Nowhere is that more true than when it comes to testing. In our [2020 Global DevSecOps Survey](https://about.gitlab.com/developer-survey/), 47% of respondents pointed to testing as the most likely reason for release delays, that’s down just 2% from 2019. Everyone agrees more testing needs to be done all over the place, but test automation remains a work in progress at most companies; our survey found just 12% of respondents reported tests are fully automated.
+
+
+  **5. Time wasters:** Time equals money, so a final step toward reducing the costs of DevOps must include looking at inefficient processes. One obvious place to start is code review. Our survey showed code review is both vital to successful DevOps and happening much more frequently (anecdotal reports show many teams are doing code reviews as frequently as daily). But the survey also showed intense frustration around code reviews: too many people involved, no clear process in place and a lack of agreement on its importance. In other words, code reviews are a time suck in many organizations and that leads to wasted money and missed opportunities.
+cta_banner:
+  - title: Take a deep dive into GitLab’s DevOps platform
+    body: GitLab Learn is organized into learning paths which cover different
+      subjects and are each a collection of relevant videos and self driven
+      demos. Let's get learning!
+    cta:
+      - text: Visit GitLab Learn
+        url: https://about.gitlab.com/learn/
+resources_title: Read more about DevOps
+resources:
+  - title: Understand shift left DevOps
+    url: https://about.gitlab.com/topics/ci-cd/shift-left-devops/
+    type: Articles
+  - title: How DevOps leads transformation (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthbAbiHjRVNz1WwxbhLfeXXs
+    type: Video
+  - title: Cloud-Native DevOps (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthb4FD4y1UyEzi2ktSeIzLxj
+    type: Video
+  - title: DevOps tips and tricks (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthZ_LGh4EpGJduNd2nFhN5fn
+    type: Video
+  - title: " How to simplify DevOps"
+    url: https://www.youtube.com/watch?v=TUwvgz-wsF4
+    type: Video
+suggested_content:
+  - url: /blog/2017/11/23/autoscale-ci-runners/
+  - url: /blog/2019/10/07/auto-devops-explained/
+  - url: /blog/2020/10/29/gitlab-hero-devops-platform/

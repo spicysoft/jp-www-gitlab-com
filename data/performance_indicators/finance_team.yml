@@ -1,0 +1,69 @@
+- name: Average days to close
+  base_path: "/handbook/finance/finance-team-performance-indicators/"
+  definition: The number of business days required to report final monthly financial
+    results. As a private company our target is 10 business days moving to 5 business
+    days as a public company. The days to close is sourced from the accounting close checklist.
+  target:
+  org: Finance Team
+  is_key: true
+  public: true
+  health:
+    level: 0
+    reasons:
+    - tbd
+- name: Scalable Employment Solution
+  base_path: "/handbook/finance/finance-team-performance-indicators/"
+  definition: GitLab has contracted team members in multiple countries and is instilling
+    a scalable employment solution for 100% of its team members. A scalable employment
+    solution may include hiring through a PEO, hiring through a contractor's entity
+    or, where possible, a direct contract. The percentage is calculated as a percentage
+    of contractors covered by a scalable employment solution in relation to the total
+    workforce.
+  target:
+  org: Finance Team
+  is_key: true
+  public: true
+  health:
+    level: 0
+    reasons:
+    - tbd
+- name: Deliver Quantified Savings
+  base_path: "/handbook/finance/finance-team-performance-indicators/"
+  definition: Cost savings are achieved through the procure to pay process. Savings
+    are calculated as the savings achieved by comparing the initial vendor proposal
+    price to the final purchase price. In the event of a contract renewal, in addition
+    to the above, savings can also be calculated as the savings achieved by comparing
+    the previous cost per unit (eg. user, business metric, etc.) to the final cost
+    per unit. Savings negotiated at the cost per unit level are also cost savings
+    to be calculated as savings. Note these savings are not directly tied to budget.
+    This aligns with the following core business objectives, control spend and build
+    a culture of long-term savings on procurement costs, streamline the purchasing
+    process, and minimize financial risk.
+  target:
+  org: Finance Team
+  is_key: true
+  public: false
+  health:
+    level: 0
+    reasons:
+    - tbd
+- name: New hire location factor - Finance Team
+  base_path: "/handbook/finance/finance-team-performance-indicators/"
+  target:
+  org: Finance Team
+  is_key: true
+  public: true
+  health:
+    level: 0
+    reasons:
+    - tbd
+- name: Team Member IT Onboarding Satisfaction
+  base_path: "/handbook/finance/finance-team-performance-indicators/"
+  target:
+  org: Finance Team
+  is_key: true
+  public: true
+  health:
+    level: 0
+    reasons:
+    - tbd

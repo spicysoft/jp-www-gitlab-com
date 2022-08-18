@@ -1,0 +1,107 @@
+description: GitLab simplifies modern source code management, helping software
+  development teams deliver faster and more efficiently.
+canonical_path: /topics/version-control/how-implement-version-control/
+parent_topic: version-control
+file_name: how-implement-version-control
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: How to implement version control with GitLab
+header_body: GitLab simplifies modern source code management, helping software
+  development teams deliver faster and more efficiently.
+body: >-
+  Implementing version control can be a difficult task when faced with a variety
+  of challenges and potential solutions. To be successful, software development
+  projects must have a strong source control system and enable multiple
+  developers to [collaborate simultaneously](/topics/version-control/software-team-collaboration). In order to meet the needs of modern
+  development teams, a solution requires a wide breadth of features designed to
+  support projects from idea to production. GitLab provides a comprehensive
+  version control solution to deliver better software faster in a single
+  platform, simplifying how to implement version control.
+
+
+  ## Three components to implement a version control system
+
+
+  Collaboration, acceleration, and compliance and security are the three cornerstones of a robust [source code management system](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/). Sustained, high-quality code development flourishes in an environment in which team members work together to rapidly create innovative solutions securely.
+
+
+  ## 1. Collaboration
+
+
+  Perhaps the most important element in how to implement [version control](/topics/version-control/) is the ways a software development team works together to deliver value. Strong collaboration ensures a solution-focused approach to code development. GitLab offers several features to strengthen collaboration across an organization.
+
+
+  **Code review**: Shipping high-quality code is imperative in delivering customer and business value. Establishing a [code review process](/topics/version-control/what-is-code-review/) helps teams improve code and collaborate. GitLab’s inline comments facilitate asynchronous code review and feedback, so team members can share their thoughts across time zones, documenting discussions and explaining how solutions came to fruition. Code review in merge requests is one of the most useful features in GitLab, because teams can have discussions and link to specific lines of code in a diff and resolve threads quickly. With Merge Request Reviewers, GitLab simplifies the review process and helps team members request a review in a few clicks. Code reviewers can suggest code changes by using a simple markdown syntax in a diff.
+
+
+  [Learn how merge requests reviewers help team members improve code →](https://about.gitlab.com/blog/2020/10/13/merge-request-reviewers/)
+
+
+  **InnerSourcing**: Teams can establish an open source culture within an organization to break down silos, reduce code review friction, strengthen code documentation. Using GitLab, teams can establish maintainer roles to manage contributions and protect the source code. Because GitLab is a single application for the entire software development lifecycle, teams benefit from network effects since team members across an organization can contribute. Review Apps illustrate live changes before deploying to production, helping contributors and reviewers understand how a change will be viewed by users.
+
+
+  **File locking**: File locking helps teams manage binary files and prevent merge conflicts. Using GitLab, a team member who has push access to a repository file or directory, commit changes, and unlock it for reviewers or other contributors. If someone tries to push a change to a locked file, he’ll get a pre-receive hook blocking him from committing. In the event a file isn’t locked, and someone pushes a change, GitLab simplifies resolving conflicts when merging with the UI. Team members can view both versions and select which option to maintain.
+
+
+  **Web IDE**: GitLab’s Web IDE editor makes it easy for team members to contribute changes to projects with an advanced editor with commit staging. When viewing a file, contributors can access the Web IDE when viewing files, merge requests, or the repository file list. Web IDE lowers the barrier of entry for team members who may not feel comfortable making changes in the terminal. With Web IDE, GitLab ensures that everyone - regardless of skill level - can collaborate.
+
+
+  [Learn how to make small changes with GitLab’s Web IDE →](https://about.gitlab.com/blog/2020/05/28/using-gitlab-web-ide-gitlab-ci-cd/)
+
+
+  ## 2. Acceleration
+
+
+  A strong version control facilitates rapid development to help software development teams create innovative solutions. When developers can code and see their creations rapidly, they’re able to focus on enhancements, providing high quality experiences to users. GitLab provides everything teams need to accelerate development and delivery to meet customer needs.
+
+
+  **Git-based repository**: As a Git repository, GitLab allows developers to work from a local copy, resulting in rapid branching and code development. Git is a fast distributed source code system, so developers don’t have to wait to communicate with a server to make changes. GitLab enables mirroring of repositories to/from external sources, so developers can automatically mirror tags, branches, and commits between repositories. GitLab helps keep repository storage disk use to a minimum with Git object deduplication for forks.
+
+
+  [Learn how Git partial clone enables you to fetch one large file at a time →](https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories/)
+
+
+  **Branching capabilities**: GitLab helps team members branch code and merge changes into the main branch. With its workflow flexibility, GitLab helps teams of any size determine what branching strategy to use to accelerate code development. To further accelerate code development, GitLab enables branch creation from issues. Because GitLab powers contributors to move fast, it also created permissions to protect who can read or write to a repository and branches. These restrictions can be placed on certain branches to protect them.
+
+
+  [Identify the best branching strategy to maximize delivery →](https://about.gitlab.com/resources/ebook-git-branching-strategies/)
+
+
+  **Built-in CI/CD**: GitLab CI/CD applies all three continuous methods (continuous integration, delivery, and deployment) to software without requiring third-party applications or integrations. The built-in CI/CD features run automated scripts to preview changes with Review Apps, build and test applications, deploy apps to different environments, schedule pipelines, install runners, and check for vulnerabilities with security test reports.
+
+
+  [Want a more effective CI/CD pipeline? Read these pro tips →](https://about.gitlab.com/blog/2020/07/29/effective-ci-cd-pipelines/)
+
+
+  ## 3. Compliance and security
+
+
+  The advantage of a diverse software development team in which multiple developers contribute to a project is that code benefits from a variety of experience levels, fueling innovation. Although creativity is important to feature development, safeguards must be established to ensure stability. When multiple developers contribute to a project, GitLab provides comprehensive security features to protect source code and project access.
+
+
+  **Merge requests**: Merge requests can track, review, and approve code changes, helping teams protect the source code. GitLab can help teams set required merge request approvals, and restrict who can push and merge to specific users. In addition to protected branches, GitLab also offers the ability to set specific rules, such as blocking Git tag removal or requiring format for commit messages. To protect the code base from prying eyes, GitLab rejects any files that are likely to contain secrets.
+
+
+  **Security and compliance management**: Compliance management with GitLab includes policy management to determine rules to follow compliance frameworks, automatic compliance workflows to help team members comply with standards, and audit management to log activities to document incidents and adherence to established policies. Security management with GitLab makes it possible to automatically scan code for quality and security with every commit, and teams can easily adhere to security scanning and license compliance. Developers can immediately remediate vulnerabilities while working in code or create an issue with a single click, while security professionals can use the dashboard to review the vulnerabilities that developers were unable to solve on their own. Furthermore, GitLab creates secure communication between Git and its servers using [SSH keys](https://www.ssh.com/ssh/key/).
+
+
+  [Discover four ways developers can write secure code with GitLab →](https://about.gitlab.com/blog/2019/09/03/developers-write-secure-code-gitlab/)
+
+
+  **Access controls**: GitLab simplifies auditing and compliance with granular access controls and reporting. Protecting project creation/deletion and limiting visibility into projects, groups, and snippets are possible with GitLab’s advanced access control features. GitLab Code Owners helps teams identify who owns certain repository files or paths, so contributors can share changes with owners to ensure quality.
+cta_banner:
+  - title: How GitLab fosters collaboration with its comprehensive version control
+      solution
+    cta:
+      - url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
+        text: Learn More
+    body: GitLab streamlines software development with comprehensive version control
+      and collaboration.
+resources_title: Want to learn more about version control?
+resources:
+  - url: https://about.gitlab.com/customers/cook-county/
+    title: Learn how Cook County assesses economic data with transparency and
+      version control
+    type: Case studies
+  - url: https://page.gitlab.com/resources-demo-scm.html
+    title: Watch a demo on GitLab's code review and source code management features
+    type: Webcast 

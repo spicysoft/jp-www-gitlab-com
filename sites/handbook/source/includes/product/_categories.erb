@@ -1,0 +1,119 @@
+<% data.sections.each do |sectionKey, section| %>
+### <%= section.name %> section
+<% sectionLine=[] %>
+<% sectionLine << "Slack Channel: [#{section.slack.channel}](https://gitlab.slack.com/app_redirect?channel=#{section.slack.channel})" if section&.slack&.channel %>
+<% sectionLine << "Slack Alias: @#{section.slack.alias}" if section&.slack&.alias %>
+<% sectionLine << "GitLab Group: @#{section.gitlab_group}" if section.gitlab_group %>
+<% sectionLine << "[Handbook](/handbook/#{section.handbook})" if section.handbook %>
+<% sectionLine << "Product: #{team_links_from_group(group: section.pm_team_tag)}" if section.pm_team_tag %>
+<% sectionLine << "Product: [#{section.pm}]" if section.pm %>
+<% sectionLine << "Development: #{team_links_from_group(group: section.development_team_tag)}" if section.development_team_tag %>
+<% sectionLine << "Development: " + section.em.map{ |em_er| "[#{em_er}]" }.join(", ") if section.em %>
+<% sectionLine << "Product Design Manager: " + section.pdm.map{ |pdm_er| "[#{pdm_er}]" }.join(", ") if section.pdm %>
+<% sectionLine << "Staff Product Designer: " + section.spd.map{ |spd_er| "[#{spd_er}]" }.join(", ") if section.spd %>
+<% sectionLine << "UX Research: [#{section.uxr}]" if section.uxr %>
+<% sectionLine << "Focus: [#{section.focus}]" if section.focus %>
+<% sectionLine << "Support: #{team_links_from_group(group: section.support_team_tag)}" if section.support_team_tag %>
+<% sectionLine << "Support: [#{section.sm}]" if section.sm %>
+<% sectionLine << "Product Marketing: #{team_links_from_group(group: section.pmm_team_tag)}" if section.pmm_team_tag %>
+<% sectionLine << "Product Marketing: [#{section.pmm}]" if section.pmm %>
+<% sectionLine << "Quality: #{team_links_from_group(group: section.quality_team_tag)}" if section.quality_team_tag %>
+<% sectionLine << "Quality: [#{section.qm}]" if section.qm %>
+<% sectionLine << "Content Marketing: #{team_links_from_group(group: section.cm_team_tag)}" if section.cm_team_tag %>
+<% sectionLine << "Content Marketing: [#{section.cm}]" if section.cm %>
+<% sectionLine << "Technical Writing: #{team_links_from_group(group: section.tw_team_tag)}" if section.tw_team_tag %>
+<% sectionLine << "Technical Writing: [#{section.tw}]" if section.tw %>
+<% sectionLine << "Customer Success: #{team_links_from_group(group: section.cs_team_tag)}" if section.cs_team_tag %>
+<% sectionLine << "Analyst Relations: #{team_links_from_group(group: section.ar_team_tag)}" if section.ar_team_tag %>
+<% sectionLine << "Infrastructure Manager: [#{section.rem}]" if section.rem %>
+
+<%= "#{sectionLine.join(' \\| ')}" if sectionLine %>
+  <% data.stages.stages.select{|stageKey,stage| stage.section==sectionKey}.each do |stageKey, stage| %>
+    <% stageLine=[] %>
+    <% stageLine << "Slack Channel: [#{stage.slack.channel}](https://gitlab.slack.com/app_redirect?channel=#{stage.slack.channel})" if stage&.slack&.channel %>
+    <% stageLine << "Slack Alias: @#{stage.slack.alias}" if stage&.slack&.alias %>
+    <% stageLine << "GitLab Group: @#{stage.gitlab_group}" if stage&.gitlab_group %>
+    <% stageLine << "[Handbook](/handbook/#{stage.handbook})" if stage&.handbook %>
+    <% stageLine << "Product Management: [#{stage.pm}]" if stage.pm %>
+    <% stageLine << "Development: " + stage.em.map{ |em_er| "[#{em_er}]" }.join(", ") if stage.em %>
+    <% stageLine << "Product Marketing Manager: [#{stage.pmm}]" if stage.pmm %>
+    <% stageLine << "Backend Engineering Manager: [#{stage.backend_engineering_manager}]" if stage.backend_engineering_manager %>
+    <% stageLine << "Frontend Engineering Manager: [#{stage.frontend_engineering_manager}]" if stage.frontend_engineering_manager %>
+    <% stageLine << "Software Engineer".pluralize(group.sets.count) + " in Test: " + stage.sets.map{ |test_er| "[#{test_er}]" }.join(", ") if stage.sets %>
+    <% stageLine << "Product Design Manager".pluralize(stage.pdm.count) + ": " + stage.pdm.map{ |pdm_er| "[#{pdm_er}]" }.join(", ") if stage.pdm %>
+    <% stageLine << "Staff Product Designer".pluralize(stage.spd.count) + ": " + stage.spd.map{ |spd_er| "[#{spd_er}]" }.join(", ") if stage.spd %>
+    <% stageLine << "UX Researcher: [#{stage.uxr}]" if stage.uxr %>
+    <% stageLine << "Product Designer".pluralize(stage.ux.count) + ": " + stage.ux.map{ |ux_er| "[#{ux_er}]" }.join(", ") if stage.ux %>
+    <% stageLine << "Content Marketing: [#{stage.cm}]" if stage.cm %>
+    <% stageLine << "Technical Writer: [#{stage.tech_writer}]" if stage.tech_writer %>
+    <% stageLine << "Customer Success: #{team_links_from_group(group: stage.cs_team_tag)}" if stage.cs_team_tag %>
+    <% stageLine << "Analyst Relations: #{team_links_from_group(group: stage.ar_team_tag)}" if stage.ar_team_tag %>
+    <% stageLine << "Internal Customer".pluralize(stage.internal_customers.count) + ": " + stage.internal_customers.map{ |customer| "[#{customer.department}] ([#{customer.dri}])" }.join(", ") if stage.internal_customers %>
+<%= "#### #{stage.display_name} stage" %>
+<%= "#{stageLine.join(' \\| ')}" if stageLine %>
+    <% if stage.groups %>
+      <% stage.groups.each do |groupKey, group| %>
+        <% groupLine=[] %>
+        <% groupLine << "Slack Channel: [#{group.slack.channel}](https://gitlab.slack.com/app_redirect?channel=#{group.slack.channel})" if group&.slack&.channel %>
+        <% groupLine << "Slack Alias: @#{group.slack.alias}" if group&.slack&.alias %>
+        <% groupLine << "GitLab Group: @#{group.gitlab_group}" if group&.gitlab_group %>
+        <% groupLine << "[Handbook](/handbook/#{group.handbook})" if group&.handbook %>
+        <% groupLine << "Product Management: #{team_links_from_group(group: group.pm_team_tag)}" if group.pm_team_tag %>
+        <% groupLine << "Product Manager".pluralize([*group.pm].count) + ": " + [*group.pm].map{ |pm| "[#{pm}]" }.join(", ") if group.pm %>
+        <% groupLine << "Product Sponsor: [#{group.product_sponsor}]" if group.product_sponsor %>
+        <% groupLine << "Product Marketing Manager: [#{group.pmm}]" if group.pmm %>
+        <% groupLine << "Engineering Manager: [#{group.em}]" if group.em %>
+        <% groupLine << "Support: " + Array(group.support).map{ |support| "[#{support}]"}.join(", ") if group.support %>
+        <% groupLine << "Backend Engineering Manager: [#{group.backend_engineering_manager}]" if group.backend_engineering_manager %>
+        <% groupLine << "Frontend Engineering Manager: [#{group.frontend_engineering_manager}]" if group.frontend_engineering_manager %>
+        <% groupLine << "Software Engineer".pluralize(group.sets.count) + " in Test: " + group.sets.map{ |test_er| "[#{test_er}]" }.join(", ") if group.sets %>
+        <% groupLine << "Backend Engineering: #{team_links_from_group(group: group.be_team_tag)}" if group.be_team_tag %>
+        <% groupLine << "Frontend Engineering: #{team_links_from_group(group: group.fe_team_tag)}" if group.fe_team_tag %>
+        <% groupLine << "Product Design Manager".pluralize(group.pdm.count) + ": " + group.pdm.map{ |pdm_er| "[#{pdm_er}]" }.join(", ") if group.pdm %>
+        <% groupLine << "Staff Product Designer: #{team_links_from_group(group: group.spd_team_tag)}" if group.spd_team_tag %>
+        <% groupLine << "UX Researcher".pluralize(group.uxr.count) + ": " + group.uxr.map{ |uxr_er| "[#{uxr_er}]" }.join(", ") if group.uxr %>
+        <% groupLine << "Product Designer".pluralize(group.ux.count) + ": " + group.ux.map{ |ux_er| "[#{ux_er}]" }.join(", ") if group.ux %>
+        <% groupLine << "Content Marketing: [#{group.cm}]" if group.cm %>
+        <% groupLine << "Technical Writer: [#{group.tech_writer}]" if group.tech_writer %>
+        <% groupLine << "Application Security Engineer: [#{group.appsec_engineer}]" if group.appsec_engineer %>
+        <% groupLine << "Customer Success: #{team_links_from_group(group: group.cs_team_tag)}" if group.cs_team_tag %>
+        <% groupLine << "Internal Customer".pluralize(group.internal_customers.count) + ": " + group.internal_customers.map{ |customer| "[#{customer.department}] ([#{customer.dri}])" }.join(", ") if group.internal_customers %>
+        <% groupLine << "Infrastructure Manager: [#{section.rem}]" if section.rem %>
+        <% groupLine << "Focus: [#{group.focus}]" if group.focus %>
+        <% groupLine << "[Features in this Group](/handbook/product/categories/features##{stage.display_name.downcase}#{group.name.downcase.tr(" ","-")}-group)" %>
+
+<%= "##### #{group.name} group" %>
+<%- summary = group_engineering_total_summary(group: group) %>
+<%= "<p>Development totals: #{summary} </p>" if summary %>
+<%= "#{groupLine.join(' \\| ')}" if groupLine %>
+        <% if group.categories %>
+          <% group.categories.each do |categoryKey| %>
+            <% category = data.categories[categoryKey] %>
+            <% puts categoryKey unless category%>
+            <% name = if category.marketing then category.name else "*#{category.name}*" end %>
+            <% kbdElement = "" %>
+            <% if category.maturity && (category.maturity != "planned") %>
+              <% kbdElement = " <kbd>#{category.maturity.capitalize}</kbd>" %>
+            <% end %>
+            <% if category.available && (category.available.year == Date.today.year) %>
+              <% kbdElement = (category.available <= Date.today) ? " <kbd>New in #{Date.today.year}</kbd> " : " <kbd>Planned #{Date.today.year}</kbd> " %>
+            <% end %>
+            <% if category.available && (category.available.year > Date.today.year) %>
+              <% kbdElement = " <kbd>Planned #{category.available.year}</kbd> " %>
+            <% end %>
+            <% categoryLinks = [] %>
+            <% categoryLinks << "[Marketing Page](#{category.marketing_page})" if category.marketing_page %>
+            <% categoryLinks << "[Documentation](#{category.documentation})" if category.documentation %>
+            <% categoryLinks << "[Direction Page](#{category.direction})" if category.direction %>
+            <% categoryLinks << "[Category Health](/handbook/product/category-health/##{category.name})" %>
+            <% links = categoryLinks.empty? ? '' : (' \\| ' + categoryLinks.join(' • ')) %>
+<%= "  * #{name}#{kbdElement ? kbdElement : ''}#{links}" %>
+          <% end %>
+
+        <% end %>
+      <% end %>
+
+    <% end %>
+  <% end %>
+
+<% end %>

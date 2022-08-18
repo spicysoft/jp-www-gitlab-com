@@ -1,0 +1,29 @@
+---
+name: Suzanne Selhorn
+locality:
+country: Remote
+role: <a href="/job-families/engineering/technical-writer/">Staff Technical Writer</a>,
+  Verify (Runner), Configure, Enablement (Memory, Global Search, Sharding)
+reports_to: susan-tacker
+picture: suzanneselhorn.png
+twitter:
+gitlab: sselhorn
+pronouns: she/her
+departments:
+- Engineering Function
+- UX Department
+- Technical Writing
+projects:
+  gitlab: maintainer docs
+  gitlab-docs: maintainer
+  omnibus-gitlab: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
+story: 'Suzanne likes chocolate pudding, the New York Mets, and making complex topics
+  simple. When she''s not at work, she''s reading a memoir, attempting to play tennis,
+  or dreaming of her next vacation in Crete.
+
+  '
+specialty:
+- 'Verify: Runner'
+

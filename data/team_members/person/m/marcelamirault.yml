@@ -1,0 +1,36 @@
+---
+name: Marcel Amirault
+locality:
+country: Remote
+role: <a href="/job-families/engineering/technical-writer/">Technical Writer</a>,
+  Verify (Pipeline Execution, Pipeline Authoring)
+reports_to: kpaizee
+picture: marcelamirault.jpg
+twitter: ravlen1
+gitlab: marcel.amirault
+departments:
+- Engineering Function
+- UX Department
+- Technical Writing
+projects:
+  gitlab:
+  - maintainer docs
+  - maintainer ci_template
+  gitlab-docs: maintainer
+  omnibus-gitlab: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
+  gitlab-development-kit: maintainer docs
+  rouge: trainee_maintainer
+story: |
+  Marcel comes to GitLab after a long hiatus from the tech world, teaching English in Japan.
+  He is using his mastery of English, along with his previous experience in support, to
+  work on his newfound passion: documentation. He is kept busy with his two young kids, but
+  in his free time, he is a DIY Guy trying to improve his house. He loves board gaming with friends,
+  working on puzzles, and playing with his Rubik's cube collection. You can find him lurking in other
+  people's MRs, pointing out grammar mistakes that no one wanted to hear about.
+specialty:
+- 'Verify: Continuous Integration'
+- 'Verify: Pipeline Authoring'
+- Verify:Pipeline Insights
+

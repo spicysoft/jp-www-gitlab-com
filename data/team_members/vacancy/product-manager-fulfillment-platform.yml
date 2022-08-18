@@ -1,0 +1,16 @@
+name: New Vacancy
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/product/product-manager/">Product Manager, Fulfillment Platform</a>
+reports_to: ofernandez2
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+- Product Management
+- Fulfillment Section
+- Fulfillment PM Team
+- Fulfillment:Fulfillment Platform Team
+story: |
+  Open Position

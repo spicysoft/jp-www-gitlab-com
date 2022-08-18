@@ -1,0 +1,12 @@
+---
+tertiary:
+  - name: "Bug fixes"
+    available_in: [ core, premium, ultimate ]
+    bug_fixes_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=closed&milestone_title=_MILESTONE_&label_name%5B%5D=type%3A%3Abug&first_page_size=20' # closed issues filtered by the given milestone and the ~"type::bug" label
+    reporter: multiple
+    # Important: Descriptions must be clear and communicated so that a non-expert reader can quickly grasp the benefit of the change
+    # Structure: For consistency, do not end your [Description] with a period as not all titles will be complete sentences
+    description: |
+      Some of the notable bug fixes in _MILESTONE_ are:
+
+      - [Description](https://gitlab.com/gitlab-org/gitlab-ce/issues/12345).

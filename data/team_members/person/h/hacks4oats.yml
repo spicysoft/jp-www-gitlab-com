@@ -1,0 +1,25 @@
+---
+name: Oscar Tovar
+locality:
+country: Remote
+role: <a href="">Backend Engineer</a>
+reports_to: olivier-g
+picture: "oscartovar.jpg"
+pronouns: he/him
+pronunciation:
+twitter:
+linkedin:
+gitlab: hacks4oats
+departments:
+- Development
+- Secure:Composition Analysis BE Team
+specialty: Composition Analysis
+expertise:
+story: |
+  Oscar is an avid fan of the Go programming language and enjoys using it
+  to implement new solutions. Outside of technology, he enjoys cooking,
+  gaming and spending time outdoors.
+projects:
+  gitlab: reviewer go
+  secure-DS-gemnasium: reviewer backend
+  secure-LC-license-finder: reviewer backend

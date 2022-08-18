@@ -1,0 +1,175 @@
+---
+layout: markdown_page
+title: "Category Direction - Value Stream Management"
+description: "Value stream management helps software organizations understand and measure how quickly and reliably they can deliver value to end users."
+canonical_path: "/direction/manage/value_stream_management/"
+---
+
+- TOC
+{:toc}
+
+| Category | **Value Stream Management** |
+| --- | --- |
+| Stage | [Manage](https://about.gitlab.com/handbook/product/categories/#manage-stage) |
+| Group | [Optimize](https://about.gitlab.com/handbook/product/categories/#optimize-group) |
+| Maturity | [Minimal](/direction/maturity/) |
+| Content Last Reviewed | `2022-08-01` |
+
+### Contributing
+Thanks for visiting the Value Stream Management direction page. This page is actively maintained by the [Optimize group](https://about.gitlab.com/handbook/product/categories/#optimize-group). You can contribute or provide feedback by:
+
+1. Posting questions and comments in the [public epic](https://gitlab.com/groups/gitlab-org/-/epics/8325).
+1. Finding issues in this category that are labeled "Seeking community contributions".
+
+### Overview
+
+<%= partial("direction/manage/value_stream_management/templates/overview") %>
+
+### Vision
+
+GitLab will be the tool of choice for the data-driven DevOps organization — enabling teams and managers to understand all aspects of productivity, quality and delivery without any complex configurations or data scientists.
+
+### Who are we focusing on?
+
+For Value Stream Management, we are targeting the following personas (in priority order):
+1. [Dakota (Application Development Director)](https://about.gitlab.com/handbook/product/personas/#dakota-application-development-director)
+2. [Erin (Application Development Executive)](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/buyer-persona/#erin---the-application-development-executive-vp-etc)
+3. [Delaney (Development Team Lead)](https://about.gitlab.com/handbook/product/personas/#delaney-development-team-lead)
+4. [Parker (Product Manager)](https://about.gitlab.com/handbook/product/personas/#parker-product-manager)
+
+### Our journey so far
+
+- [Value Stream Analytics](https://docs.gitlab.com/ee/user/group/value_stream_analytics) (formerly Cycle Analytics) helps users who follow the [GitLab Flow](https://about.gitlab.com/solutions/gitlab-flow/) better understand the flow of activities and lead time for delivering value.
+- [Customizable Stages](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#customizable-stages), helps organizations define and measure their own custom workflows in Value Stream Analytics.
+- Measuring out-of-the-box the [four DORA metrics](https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics) to provide insights into software delivery velocity and stability.
+
+### Recent accomplishments
+
+- New [Change failure rate chart](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#change-failure-rate-chart-for-visualizing-software-stability) for visualizing software stability. This chart shows the percentage of deployments that cause an incident in a production environment. GitLab measures the change failure rate as the number of incidents divided by the number of deployments to a production environment during a given time period.
+- New Time to restore service chart - we added a new trend chart for the [DORA Time to restore service](https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics.html#view-time-to-restore-service-chart) metric to provide insights into software stability and reliability trends. This new chart shows information about how long it takes an organization to recover from a failure in production.
+- Improved insights discovery in Value Stream Analytics - We’ve made several enhancements to how you view data for each stage of the Value Stream Analytics dashboard. In the stage table, [we added the Last event column](https://gitlab.com/gitlab-org/gitlab/-/issues/353554) to show the most recent workflow event, and you can now [sort items by duration](https://gitlab.com/gitlab-org/gitlab/-/issues/357824).These changes make it easier for you to rearrange the events and discover insights faster. These insights could be in detecting bottlenecks that are slowing down delivery, or finding opportunities to reduce the time spent on each stage of the software supply chain.
+- DORA API enhancement - [adding support for multiple includes environments](https://gitlab.com/gitlab-org/gitlab/-/issues/348577)
+- [Adding DORA metrics into the Value Stream Analytics](https://gitlab.com/gitlab-org/gitlab/-/issues/359060). We enhanced the visibility into the value stream performance with the [DORA's metrics as the measure of the outputs of the value stream](https://about.gitlab.com/blog/2022/06/20/gitlab-value-stream-management-and-dora/). The four DORA's metrics are now available in the [Value Stream Analytics](https://docs.gitlab.com/ee/user/group/value_stream_analytics) Overview metrics dashboard:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wQU-mWvNSiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [Support 4 DORA metrics in GitLab](https://docs.gitlab.com/ee/user/analytics/#supported-dora-metrics-in-gitlab)
+
+
+### Goals
+In order to reach our vision, in this year we will focus on:
+
+- Promote [Value Stream Management Category](https://about.gitlab.com/direction/manage/value_stream_management/) to [Complete maturity](https://about.gitlab.com/direction/maturity/). 
+- [Combining Value stream with DORA4 metrics](https://gitlab.com/groups/gitlab-org/-/epics/7790).
+- Consolidations and Centralization GitLab's analytics pages.
+
+### What's next and why
+
+<%= partial("direction/manage/value_stream_management/templates/next") %>
+
+### Top vision items
+
+- [Optimize product direction & goals](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10331)
+- [Optimize FY22 direction feedback](https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17315/)
+
+### Top cross-stage items
+
+- [Measure DORA 4 metrics in GitLab](https://gitlab.com/groups/gitlab-org/-/epics/4358)
+- [Workspace to replace instance-level functionality with group-level features](https://gitlab.com/groups/gitlab-org/-/epics/4257)
+- [Consolidate Groups and Projects into a single container](https://gitlab.com/gitlab-org/architecture/tasks/-/issues/7)
+- [Custom workflows](https://gitlab.com/gitlab-org/gitlab/-/issues/2059)
+- [Customizable issue types](https://gitlab.com/gitlab-org/gitlab/-/issues/118666)
+
+### Jobs to be done
+
+<%= partial("direction/jtbd-list", locals: { stage_key: "Value Stream Management" }) %>
+
+### Maturity plan
+
+This category is currently **Minimal**. Our next step is **Viable** ([see epic](https://gitlab.com/groups/gitlab-org/-/epics/3175)). You can read more about GitLab's [maturity framework here](https://about.gitlab.com/direction/maturity/).
+
+### Competitive Landscape
+
+#### Tasktop
+[TaskTop](https://www.tasktop.com/integration-hub) is exclusively focused on Value Stream Management and allows users to connect more than 50 tools together, including Atlassian's JIRA, GitLab, GitHub, JamaSoftware, CollabNet VersionOne, Xebia Labs, and TargetProcess to name a few. Tasktop serves as an integration layer on top of all the software development tools that a team uses and allows for mapping of processes and people in order to achieve a common data model across the toolchain. End users can visualize the flows between the different tools and the data can be exported to a database for visualization through BI tools.
+
+While we understand that not all users of GitLab utilize all of our stages, we believe that there is already a lot of information across planning, source code management and continuous integration and deployment, which can be used to deliver valuable insights.
+
+We are starting to build dashboards, which can help end users visualize a custom-defined value stream flow at a high level and drill down and filter to a specific line of code or MR.
+
+#### CollabNet VersionOne
+[CollabNet VersionOne](https://www.collab.net) provides users with the ability to input a lot of information, which is a double edged sword as it can lead to duplication of effort and stale information when feeds are not automated. It does however, allow a company to visualize project streams from a top level with all their dependencies. End users can also create customizable reports and dashboards that can be shared with senior management.
+
+#### Plutora
+[Plutora Analytics](https://www.plutora.com/platform/plutora-analytics) seem to target mainly the release managers with their [Time to Value Dashboard](https://www.plutora.com/platform/time-to-value-dashboard). The company also integrates with JIRA, Jenkins, GitLab, CollabNet VersionOne, etc but there is still a lot of configuration that seems to be left to the user.
+
+#### TargetProcess
+[Targetprocess](https://www.targetprocess.com) tries to provide a full overview of the delivery process and integrates with Jenkins, GitHub and JIRA. The company also provides customizable dashboards that can give an overview over the process from ideation to delivery.
+
+#### GitPrime
+Although [GitPrime](https://www.gitprime.com) doesn't try to provide a value stream management solution, it focuses on productivity metrics and cycle time by looking at the productivity of a team. It exclusively uses only git data.
+
+#### Azure DevOps
+Naturally, [Azure](https://docs.microsoft.com/en-us/azure/devops/report/dashboards/analytics-widgets?view=azure-devops) is working on adding analytics that can help engineering teams become more effective but it's still in very early stages. It has also recently acquired [PullPanda](https://pullpanda.com).
+
+#### Velocity by Code Climate
+Similarly to GitPrime, [Code Climate](https://codeclimate.com/velocity/understand-diagnose/) focuses on the team and uses git data only.
+
+#### Gitalytics
+Similarly to GitPrime, [Gitalytics](https://gitalytics.com) focuses on the team and uses git data only.
+
+#### Gitential
+[Gitential](https://gitential.com)
+
+#### Gitclear
+[Gitclear](https://gitclear.com)
+
+#### Gitlean
+[Gitlean](https://gitlean.com)
+
+#### XebiaLabs
+[XebiaLabs' analytics](https://docs.xebialabs.com/xl-release/concept/release-dashboard-tiles.html) are predominantly focused on the Release Manager and give useful overviews of deployments, issue throughput and stages. The company integrates with JIRA, Jenkins, etc and end users can see in which stage of the release process they are.
+
+#### CloudBees
+[CloudBees DevOptics](https://www.cloudbees.com/products/cloudbees-devoptics) is focused on giving visibility and insights to measure, manage and optimize the software delivery value stream. It allows comparisons across teams and integrates with Jenkins and Jira and SVM /VCS solutions.
+
+#### CA Technologies
+[CA Agile Central](https://docs.ca.com/en-us/ca-agile-central/saas/iteration-burndown) combines data across the planning process in a single integrated page with custom applications available to CA Agile Central users. The applications can be installed in custom pages within CA Agile Central or on a dashboard.
+
+#### Atlassian's JIRA Align
+[Agile Craft](https://agilecraft.com)
+
+#### PivotalTracker
+[PivotalTracker](https://www.pivotaltracker.com/help/articles/analytics_charts_and_reports_overview/)
+
+#### Kanbanize
+[Kanbanize](https://kanbanize.com/dashboards-analytics/)
+
+#### Sleuth
+[Sleuth](https://www.sleuth.io)
+
+#### Faros.ai
+[Faros.ai](https://www.faros.ai/)
+
+### Analyst Landscape
+
+[Gartner Market Guide for DevOps Value Stream Delivery Platforms](https://about.gitlab.com/analysts/gartner-vsdp21/)
+
+Forrester's New Wave: Value Stream Management Tools, Q3 2018 uncovered an emerging market with no leaders. However, vendors from different niches of the development pipeline are converging to value stream management in response to customers seeking greater transparency into their processes.
+
+Forrester’s vision for VSM includes:
+- end-to-end visibility of the software development process, including the corresponding capture and storage of data, events, and artifacts
+- definition and visualization of key performance indicators (KPIs)
+- inclusive customer experience, which allows multiple roles (PMs, developers, QA, and release managers) to collaborate in one place
+- governance, i.e. a framework to monitor compliance to organizational standards, automated audit capabilities and traceability.
+
+Other Analysts have highlighted that Gitlab data gathering has much to offer and much more to mine and enable the insight generation. We have an immediate opportunity i to extend the insight generation based on the data gathered in the delivery pipelines. Once this is achieved we will integrate additional data sources beyond the DevOps toolchains.
+
+We have the ability to reach the decision makers that are onsuming the insights generated from the Gitlab platform, and one of the key elements here is getting beyond the DORA 4 metrics into those that are more specifically targeted: security, compliance, financial, product, but also enterprise architecture, AI/ML delivery teams and the like.
+
+Additional functionality, requested by clients includes:
+- integration with other tools, including the ability to double-click into each tool to directly observe status or take action
+- business value custom definitions in terms of financials, time, effort or similar
+- mapping of business value, people, processes, data
+- visualization dashboards, which users can customize to support different role-based views.
+
