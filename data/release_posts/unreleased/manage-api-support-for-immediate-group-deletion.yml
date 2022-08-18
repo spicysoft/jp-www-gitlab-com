@@ -8,7 +8,7 @@ features:
     reporter: lohrc
     stage: manage
     categories:
-    - User Management
+    - Subgroups
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/360008'
     description: |
       You can now use the API to immediately delete individual subgroups. Prior to this release, you could only delete individual subgroups from group settings in the UI. 
