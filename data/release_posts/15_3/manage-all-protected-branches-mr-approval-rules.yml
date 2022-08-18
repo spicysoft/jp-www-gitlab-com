@@ -4,7 +4,7 @@ features:
   - name: "Add approval rules for all protected branches"
     available_in: [premium, ultimate]
     documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html#approvals-for-protected-branches'
-    image_url: '/images/unreleased/manage-all-protected-branches.png'
+    image_url: '/images/15_3/manage-all-protected-branches.png'
     reporter: stkerr
     stage: manage # Prefix this file name with stage-informative-title.yml
     categories:
