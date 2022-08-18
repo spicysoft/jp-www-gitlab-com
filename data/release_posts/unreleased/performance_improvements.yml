@@ -10,10 +10,10 @@ tertiary:
 
       In GitLab 15.3, we're shipping performance improvements for issues, projects, milestones, and much more! Some improvements in GitLab 15.3 are:
 
-      - [Geo: Optimize replication of project repo keep around refs](https://gitlab.com/gitlab-org/gitlab/-/issues/362851).
-      - [DB timeout querying for LOW vulnerabilities](https://gitlab.com/gitlab-org/gitlab/-/issues/330461).
+      - [Geo: Optimize replication of project repo keep around refs](https://gitlab.com/gitlab-org/gitlab/-/issues/362851)
+      - [DB timeout querying for LOW vulnerabilities](https://gitlab.com/gitlab-org/gitlab/-/issues/330461)
       - [GraphQL query timeout in MR page](https://gitlab.com/gitlab-org/gitlab/-/issues/355838)
       - [GraphQL: N+1 query issue when listing milestones](https://gitlab.com/gitlab-org/gitlab/-/issues/218975)
-      - [Inefficient Gitaly#get_blobs calls for paginated content](https://gitlab.com/gitlab-org/gitlab/-/issues/363065)
+      - [Inefficient Gitaly `#get_blobs` calls for paginated content](https://gitlab.com/gitlab-org/gitlab/-/issues/363065)
       - [Changes how project export tarballs are uploaded to external website](https://gitlab.com/gitlab-org/gitlab/-/issues/31744)
       - [Optimize subgroups permission checking in EpicsFinder](https://gitlab.com/gitlab-org/gitlab/-/issues/327901)
