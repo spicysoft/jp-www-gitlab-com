@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]  
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/tasks.html'
-    image_url: '/images/unreleased/create-tasks.gif'
+    image_url: '/images/15_3/create-tasks.gif'
     reporter: gweaver
     stage: plan 
     categories:

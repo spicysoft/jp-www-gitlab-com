@@ -10,7 +10,7 @@ features:
     categories:
     - System Access
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/21683'
-    image_url: '/images/unreleased/manage-ssh-fingerprint.png'
+    image_url: '/images/15_3/manage-ssh-fingerprint.png'
     description: |
      Your GitLab SSH fingerprints are now easier to find, thanks to new links on the SSH configuration page and in the documentation. 
 

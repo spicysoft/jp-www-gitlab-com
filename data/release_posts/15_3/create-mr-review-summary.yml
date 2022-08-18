@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]  # Include all supported tiers
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#submit-a-review'
-    image_url: '/images/unreleased/create-mr-review-summary.png'
+    image_url: '/images/15_3/create-mr-review-summary.png'
     reporter: pedroms
     stage: create # Prefix this file name with stage-informative-title.yml
     categories:
