@@ -21,7 +21,7 @@ gem "middleman-inline_svg"
 
 gem 'asciidoctor-plantuml', '0.0.9'
 gem 'kramdown', '>= 2.3.1'
-gem 'nokogiri', '>= 1.12.5'
+gem 'nokogiri', '>= 1.13.8'
 gem 'sassc', '~> 2.2'
 gem 'stringex', '~> 2.8.5'
 gem 'countries', '~> 3.0.0'
