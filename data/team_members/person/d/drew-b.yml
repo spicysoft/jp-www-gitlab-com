@@ -24,7 +24,7 @@ story: |
 domain_expertise:
 - manage
 projects:
-  gitlab: reviewer backend
+  gitlab: trainee_maintainer backend
   rouge: maintainer
 specialty:
 - 'Manage: Authentication and Authorization'
