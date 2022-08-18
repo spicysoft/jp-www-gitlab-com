@@ -84,126 +84,120 @@ GitLabで今働いていない人も含めて、誰でもどんなことでも�
 
 ##### シェア {#share}
 {:.no_toc}
-意図的な透明性など、GitLabの文化には部外者や新しいチームメンバーには直感的に理解できない側面があります。
-人に投資し、オープンな対話に参加することを厭わないことです。
-例えば、プライベートな問題を可能な限り公開することで、全員がその経験から学ぶことができるようにすることを考えましょう。公に共有する際に、判断や精査を恐れないでください。私たちは皆、「すべてを知ることは不可能である」（/handbook/values/#its-impossible-to-know-everything）ことを理解しています。
+徹底的に透明性にこだわるようなGitLabの文化は、社外や新入社員には理解しがたい面があります。
+人に投資したりオープンに対話することを厭いません。例えば、他人の経験から学べるように、クローズドな問題を可能な限り公開させることを考えてみてください。みんなに共有する時に、他人から批判されたり・じろじろと観察されることを恐れないでください。[すべてを知ることは不可能である](handbook/values/#its-impossible-to-know-everything)ことはみんなが理解しています。
 
-There are aspects of GitLab culture, such as intentional transparency, that are unintuitive to outsiders and new team members.
-Be willing to invest in people and engage in open dialogue.
-For example, consider making private issues public wherever possible so that we can all learn from the experience. Don't be afraid of judgement or scrutiny when sharing publicly, we all understand [it's impossible to know everything](/handbook/values/#its-impossible-to-know-everything).
+社内で誰に対してでもバリューを**リマインド**して構いません。
+もしバリューの解釈に意見の相違があれば、心理的安全性を保ったまま、議論を社内の皆に喚起させて構いません。
 
-誰もが社内の誰にでも、私たちの価値観を**思い起こさせる**ことができます。
-もし解釈について意見の相違があれば、その議論は反響なしに社内のより多くの人々にエスカレートさせることができます。
-
-Everyone can **remind** anyone in the company about our values.
-If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
-
-遭遇した問題を共有し、助けを求め、情報を惜しみなく提供し、**声を上げて**ください。
-Share problems you run into, ask for help, be forthcoming with information and **speak up**.
+問題にぶつかったら共有し助けを求め情報を惜しみなく提供し**声を上げて**ください。
 
 ##### ネガティブ・フィードバックは 1on1で {#negative-feedback-is-1-1}
 {:.no_toc}
-Give negative feedback in the smallest setting possible.
-One-on-one video calls are preferred.
+ネガティブなフィードバックは、できるだけ少人数の場で行ってください。1対1のビデオ通話が望ましいです。
 
-Negative *feedback* is distinct from negativity and disagreement. If there is no direct feedback involved, strive to discuss disagreement [in a public channel](/handbook/communication/#use-public-channels), respectfully and [transparently](/handbook/values/#transparency).
+否定的な *フィードバック* は、反対意見や意見の相違とは異なるものです。特定の個人へのフィードバックではない場合は、意見の相違は [公開チャンネル](/handbook/communication/#use-public-channels)で、敬意と [透明性](/handbook/values/#transparency)を持って話し合うよう努めてください。
 
-In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder and CEO Sid Sijbrandij offers the following context.
+[GitLab Unfiltered バリューに関するインタビュー](https://youtu.be/7kMQj4O4ZGU)で、GitLabの共同創業者兼CEOのSid Sijbrandijは、その理由を次のように語っています。
 
-> We deal with negative all the time at GitLab. If it's not a problem, then why are we discussing it? We deal with negativity a lot, and that's also part of our ambition.
+> GitLabでは常に悲観的に議論を進めます。もし問題がないなら議論をする必要はありません。ネガティブに物事を考えるのが、成功させるためのやり方の一つです。
 >
-> If you want to get better, you talk about what you can improve. We're allowed to publicly discuss negative things; we're not allowed to give negative feedback in a large setting if it could be feasibly administered in a smaller setting.
+> 成功したいのであれば、改善すべき点について話す。問題点を公に議論する社風です。しかし、個人に対するネガティブなフィードバックは、少人数の場では可能であったとしても、公の場でしてはいけません。
 
-Negative feedback can be given in a group setting if it's to someone higher in the management chain. This shows that no one is above feedback. GitLab co-founder and CEO Sid Sijbrandij and CTO Eric Johnson discuss this in this [GitLab Unfiltered video](https://www.youtube.com/watch?v=BCpmFWL5Us8).
+レポートライン上の上級者に対するものであれば、グループでネガティブなフィードバックをしても構いません。つまりどんな人間もフィードバックを一方的にする側ではないということです。GitLabの共同創設者兼CEOのSid SijbrandijとCTOのEric Johnsonは、この[GitLab Unfiltered の動画](https://www.youtube.com/watch?v=BCpmFWL5Us8)でこのことについて議論しています。
 
 ##### タイムリーにフィードバックをする {#provide-feedback-in-a-timely-manner}
 {:.no_toc}
-We want to solve problems while they are **small**.
-If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer), please voice your concerns rather than keeping them to yourself. If you need to escalate beyond your manager, you could consider speaking to your [skip-level](https://about.gitlab.com/handbook/leadership/skip-levels/#purpose-and-benefits-of-skip-levels), a more senior person, or a [people business partner](https://about.gitlab.com/job-families/people-ops/people-business-partner/).
+問題が**小さい**うちに解決しましょう。
+何か（業務、同僚、上司、給与、勤務地、パソコン）に不満がある時は、一人で抱え込まず声を上げてください。直属上司を超えてエスカレートする必要がある場合は、[スキップレベル](handbook/leadership/skip-levels/#purpose-and-benefits-of-skip-levels) にてより上の上司や、[ピープルビジネスパートナー](/job-families/people-ops/people-business-partner/) に話しても構いません。
 
 ##### 感謝を伝える {#say-thanks}
 {:.no_toc}
-Recognize the people that helped you publicly, for example in our [#thanks chat channel](/handbook/communication/internal-communications).
+私たちが[#thanks chat channel](/handbook/communication/internal-communications) でやっているように、助けてくれた人がいたら公の場で伝えましょう。
 
-When publicly thanking, it's important to recognize the following:
+公の場に感謝を伝える場合は、以下のような点を理解しておくことが重要です。
 
-* Showing thanks in as large a setting as possible (company-wide) at a company as large as ours is the exception instead of the norm, it takes some getting used to.
-* Being thanked at the company level for what you view as a relatively small or minuscule contribution can feel awkward.
-* Thanking a person in #thanks should be done sincerely and summarize why you are thankful so the person on the receiving end can easily understand why they are being thanked. Even while [assuming positive intent](#assume-positive-intent), not all folks are comfortable with public praise. Help this person understand how they went above and beyond and why you felt it was important for the team member to be recognized.
-* There are a number of good ways and places to say thanks. We shouldn't limit saying thanks to just the `#thanks` channel.
+* 大きな会社では、公な場（全社レベル）で感謝を示すことは、当たり前ではなく、例外なことであり、この習慣に慣れる必要があります。
+* 比較的小さなことやまったく大した事でもないことなのに全社レベルの場で感謝を伝えられるのは、気まずく感じるかもしれません。
+* `#thanks`チャンネルで感謝を伝える時は、心の底から伝えること、感謝している理由を端的に伝えてください。そうすれば、受け取る側は感謝された理由を理解しやすくなります。[善意から感謝してくれている](#assume-positive-intent)と理解していても、人前で褒められることはすべての人にとって嬉しいわけではありません。そういう方のために、どれくらい期待以上のことをしてくれたのか、それを他の社員にも知ってもらいたいと思った理由を理解できるようにしましょう。
+* 感謝を伝えるのに適切な方法と場所は一つではありません。感謝の気持ちを伝えるのは`#thanks`チャンネルだけに限定すべきではありません。
 
 ##### 効果的なフィードバックをする {#give-feedback-effectively}
 {:.no_toc}
-Giving feedback is challenging, but it's important to deliver it effectively.
-When providing feedback, always make it about the work itself;
-focus on the business impact and not the person.
-Make sure to provide at least one clear and recent example.
-If a person is going through a hard time in their personal life, then take that into account.
-An example of giving positive feedback is our [thanks chat channel](/handbook/communication/internal-communications).
-For managers, it's important to realize that team members react to a negative incident with their managers [six times more strongly](https://hbr.org/2013/03/the-delicate-art-of-giving-fee) than they do to a positive one.
-Keeping that in mind, if an error is so inconsequential that the value gained from providing criticism is low, it might make sense to keep that feedback to yourself.
-In the situations where negative feedback must be given, focus on the purpose for that feedback: to improve the team member's performance going forward.
-Give recognition generously, in the open, and often to [generate more engagement](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=SA&subtype=WH&htmlfid=LOW14298USEN) from your team.
+フィードバックするのは難しく、うまく行うことが重要です。
+常に仕事そのものについてフィードバックをするようにしましょう。人ではなく仕事への影響を意識してください。
+そして最近の具体的な実例を最低でも1つは挙げてください。
+もし相手が私生活でトラブルを抱えているのであれば考慮に入れてください。
+ポジティブなフィードバックを与え方としては、[Thanks Chat Channel](/handbook/communication/internal-communications)を参考にしてください。
+
+マネージャーにとって大事なことは、部下は、マネージャーとの間のネガティブな出来事には、ポジティブな出来事よりも[6倍も強く](https://hbr.org/2013/03/the-delicate-art-of-giving-fee)反応するということを理解してください。
+ということは、もしエラーが取るに足らないもので指摘しても得られるものが少ない場合は、フィードバックをこらえるのもありです。
+ネガティブなフィードバックが必要な場合は、目的であるチームメンバーの今後のパフォーマンスを向上だけに焦点を当てます。
+[チームのみなが仕事に集中する]((http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=SA&subtype=WH&htmlfid=LOW14298USEN))ためには、惜しみなく、オープンに、そして頻繁に評価を与えてください
+
 
 ##### お互いを知る {#get-to-know-each-other}
 {:.no_toc}
-We use a lot of [text-based communication](/company/culture/all-remote/effective-communication/), and if you know the person behind the text, it will be easier to prevent conflicts.
-So we encourage people to get to know each other on a personal level through [informal communication](/company/culture/all-remote/informal-communication/), for example, [Take A Break Call](/handbook/communication/#take-a-break-call), virtual [coffee chats](/company/culture/all-remote/informal-communication/#coffee-chats), and during [GitLab Contribute](/events/gitlab-contribute/).
+[テキストベースのコミュニケーション](/company/culture/all-remote/effective-communication/)を活用しています。文章の背後にいる人のことを知っていることで、衝突を防ぎやすくなります。
+だから例えば、[テイクアブレイク・コール](/handbook/communication/#take-a-break-call)とか、バーチャル[コーヒーチャット](/company/culture/all-remote/informal-communication/#coffee-chats)とか、[GitLab Contribute](/events/gitlab-contribute/) を通じて、[インフォーマル・コミュニケーション](/company/culture/all-remote/informal-communication/)を活用して、個人的なことも含めてお互いのことを知ることを奨励しています。
 
 ##### 社内各部署の垣根を越えた取り組み {#reach-across-company-departments}
 {:.no_toc}
-While it's wise to seek advice from experts within your function, we encourage GitLab team members to do the same across departments. This enables the company to iterate more quickly, embrace the understanding that everyone can contribute and include more diverse perspectives when possible.
+部署内のベテランにアドバイスを求めることは良いことです。さらにGitLabでは社員が部署を越えてアドバイスを求めることも勧めています。そうすることでより高速にイテレーションを回すことができます。誰がどこに口や手を出しても良いということも理解してもらえます。また必要な時により多様な視点を取り入れることもできます
 
 ##### 偉そうにするな {#dont-pull-rank}
 {:.no_toc}
-If you have to remind someone of the position you have in the company, you're doing something wrong.
-People already know [our decision-making process](/handbook/leadership/#making-decisions).
-Explain why you're making the decision, and respect everyone irrespective of their function.
-This includes using the rank of another person - [including the CEO](https://twitter.com/EmiliejayG/status/1198731054162432000) - to sell an idea or decision.
+会社で自分の立場が蔑ろにされている。もしそう感じた時はあなたが間違っています。
+社内で[意思決定プロセス](/handbook/leadership/#making-decisions)は共通認識ですです。
+意思決定の根拠は説明してください。相手の立場に関係なく全員のことを尊重してください。
+アイデアや意思決定を提案する際に[CEO](https://twitter.com/EmiliejayG/status/1198731054162432000)という立場をふくめ他人の立場を活用することもダメです。
 
 ##### ポジティブな意図を想定する {#assume-positive-intent}
 {:.no_toc}
-We naturally have a double standard when it comes to the actions of others.
-We blame circumstances for our own mistakes, but individuals for theirs.
-This double standard is called the [Fundamental Attribution Error](https://en.wikipedia.org/wiki/Fundamental_attribution_error).
-In order to mitigate this bias, you should always [assume positive intent](https://www.collaborativeway.com/general/a-ceos-advice-assume-positive-intent/) in your interactions with others, respecting their expertise and giving them grace in the face of what you might perceive as mistakes.
+他人の行動に対してはダブルスタンダードになりがちです。
+自分のミスは環境のせいにし、他人のミスはその人のせいにするものです。
+このダブルスタンダードは[基本的帰属エラー](https://en.wikipedia.org/wiki/Fundamental_attribution_error)と呼ばれています。
 
-When [disagreeing](/handbook/values/#disagree-commit-and-disagree), folks sometimes argue against the weakest points of an argument, or an imaginary argument (e.g. ["straw man"](https://en.wikipedia.org/wiki/Straw_man)). Assume the points are presented in good faith, and instead try to argue against the strongest version of your opponent’s position. We call this arguing against a "steel" position, instead of a "straw" one. This concept is borrowed from [argue the "steel man"](https://desert.glass/newsletter/week-46/) as described in [Robin Sloan](https://www.robinsloan.com/about/)'s newsletter.
+このバイアスに陥らないためには、コミュニケーションする時は相手の[善意で動いていくれている](https://www.collaborativeway.com/general/a-ceos-advice-assume-positive-intent/)と思ってください。相手の専門性を尊重してください。相手が間違っていると思っても、相手に優しく接してください。
 
-A "steel" position should be against the absolute most effective version of your opponent’s position — potentially even more compelling than the one they presented. A good "steel" position is one where the other person feels you've represented their position well, even if they still disagree with your assumptions or conclusion. 
+
+[反対をする](/handbook/values/#disagree-commit-and-disagree)とき、相手の主張の弱点や机上の論点(例えば、["藁人形"](https://en.wikipedia.org/wiki/Straw_man)) に対して反論しがちです。相手の論点は正直に開示提示されている前提で、相手のもっとも強固な主張に対して反論してください。これは、相手の「藁人形」ではなく「鋼人形」に対して反論するやり方です。これは[Robin Sloan](https://www.robinsloan.com/about/) のニュースレターで紹介されていた [鋼人形と議論をする](https://desert.glass/newsletter/week-46/) から借用したアイディアです。
+
+「鋼」の主張とは、相手の主張のうち最も根拠がある論点に対応するべきものであるべきです。良い「鋼」の主張とは、こちらの推測や結論に相手が同意してくれなかったとしても、相手が自分の主張をうまく代弁してくれたと感じる主張であるべきです。
 
 ##### レッテルを貼りをせず寛大に扱え {#address-behavior-but-dont-label-people}
 {:.no_toc}
-There is a lot of good in [this article](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) about not wanting jerks on our team, but we believe that **jerk** is a label for behavior rather than an inherent classification of a person.  We avoid classifications.
+[こちらの記事](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html)では、チームに嫌な奴を入れるべきではない多くの理由が書かれています。しかし **嫌な奴**というレッテルで人を分類するのではなく、**嫌な行動**を定義すべきです。人を分類してはいけません。
 
 ##### ごめんなさいを言う {#say-sorry}
 {:.no_toc}
-If you made a mistake, apologize as soon as possible.
-Saying sorry is not a sign of weakness but one of strength.
-The people that do the most work will likely make the most mistakes.
-Additionally, when we share our mistakes and bring attention to them, others can learn from us, and the same mistake is less likely to be repeated by someone else.
-Mistakes can include when you have not been kind to someone. In order to reinforce our values, it is important, and takes more courage, to apologize publicly when you have been unkind publicly (e.g., when you have said something unkind or unprofessional to an individual or group in a Slack channel).
+ミスをしたら速やかに謝りましょう。謝ることは、弱さの表れではなく、強さの表れです。
+仕事が多い人ほど、多くのミスをします。
+ミスしたことを共有しましょう。他の人への注意喚起になります。他の人はあなたの経験から学ぶことができます。他の人が同じ間違いを繰り返さなくなります。
+
+態度が悪いふるまいもミスの一つです。バリューを徹底するためには、公の場で態度が悪いふるまいをした時（例えば、Slackチャンネルで個人やグループに対して態度が悪いまたはプロらしからぬ発言をしたとき）、公の場で謝罪することは大事ですし、とても勇気がいることです。
 
 ##### 傲慢になるな {#no-ego}
 {:.no_toc}
-Don't defend a point to win an argument or double-down on a mistake.
-You are not your work; you don't have to defend your point.
-You do have to search for the right answer with help from others.
+議論に勝つために主張を固執しないでください。ミスを挽回するためにイチかバチかの賭けにでないでください。
+あなたの人格は仕事の成果ではありません。主張に固執する必要はありません。
+正しい答えにたどり着くために、他の人の助けを借りてください。
 
-In a GitLab Unfiltered [interview](https://youtu.be/n9Gfe9p1tmA), GitLab Head of Remote Darren M. adds context on this sub-value.
+GitLab Unfilteredでの [インタビュー](https://youtu.be/n9Gfe9p1tmA)で、GitLab リモート責任者 Darren M.は、このサブバリューの背景を説明しています。
 
-> In many organizations, there's a subtle, low-level, persistent pressure to continually prove your worth.
-> And I believe that this fuels imposter syndrome and wreaks havoc on [mental health](/company/culture/all-remote/mental-health/).
+> 「自分の価値を証明し続けなくてはいけない」という下らない見えない圧が多くの組織にはあります。
 >
-> What's so troubling to me is how often perception is reality.
-> In other words, those who have mastered the art of being perceived as elite reap benefits, though this has nothing to do with actual results.
+> インポスター症候群(周りから高い評価をもらっても実力を自己肯定できないため、素直に周りからの褒め言葉を受け入れることができず、むしろ詐欺師のように周りを騙しているような不安感を感じてしまう症候群)の原因となります。また[メンタルヘルス](/company/culture/all-remote/mental-health/)を不安定にさせる原因にもなります。
 >
-> At GitLab, "no ego" means that we foster and support an environment where results matter, and you're given agency to approach your work in the way that makes sense to you.
-> Instead of judging people for not approaching work in an agreed-upon way, "no ego" encourages people to glean inspiration from watching others approach work in new and different ways.
+> 認識が事実と誤解されてしまいがちなことが一番の問題です。
+> エリートだと誤解させる術を身につけている人は、実際の成果とは関係なく、評価されてしまいます。
+>
+> GitLabにおいての「ノーエゴ」とは、結果が評価される環境を、各自が合理的だと信じるやり方で仕事に取り組む裁量がある環境を、育成・支援するという意味です。
+> 決められたやり方で仕事をしていない人を批判をしないでください。「ノーエゴ」という考え方で、新しいやり方で仕事に取り組んでいる人を見て積極的に参考にしてください。
 
-Being no ego is a standard we hold ourselves as people to but is not one that applies to GitLab as a company or product.
-We want to celebrate and highlight GitLab's accomplishments, including being [one of the largest all-remote companies](/company/culture/all-remote/).
-This doesn't mean we don't recognize our mistakes, including how we handled [telemetry](/blog/2019/10/10/update-free-software-and-telemetry/).
+ノーエゴというのは、GitLabで働く人間が持つべき基準です。会社や製品に当てはめるものではありません。
+[世界最大級のオールリモート企業](/company/culture/all-remote/) であることも含めて、自社の成し遂げたことは祝いたいし自慢したいです。
+とはいえ自社の間違いを認めないということではありません。[テレメトリー機能の潜在的な問題を認めアイディアを撤回する](/blog/2019/10/10/update-free-software-and-telemetry/)という過去の事例をみてください。
 
 ##### 他の人の成功例を見る {#see-others-succeed}
 {:.no_toc}
@@ -233,78 +227,101 @@ This doesn't mean we don't recognize our mistakes, including how we handled [tel
 
 ##### 縄張りをすてる {#short-toes}
 {:.no_toc}
-People joining the company frequently say, "I don't want to step on anyone's toes."
-At GitLab, we should be more accepting of people taking initiative in trying to improve things.
-As companies grow, their speed of decision-making goes down since there are more people involved.
-We should counteract that by having short toes and feeling comfortable letting others contribute to our domain.
-For example, pointed, respectful feedback to a [proposal](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24447) by GitLab's CEO led to his own merge request being closed.
+新入社員は「迷惑をかけないようにします」と言いがちです。
+GitLabでは、率先して改善に取り組む人を、積極的に受け入れます。
+企業が大きくなると関わる人が多くなり意思決定が遅くなります。
+縄張り意識を捨ててください。自分の職域に他の人が口や手を出してきても快く思ってください。
+
+GitLab社のCEOからの[発案](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24447)に対して、的を得た丁寧な指摘がありました。その結果CEOは発案を自ら却下しました。
 
 ##### 不可能を知る {#its-impossible-to-know-everything}
 {:.no_toc}
-We know we must rely on others for the expertise they have that we don't.
-It's OK to admit you don't know something and to ask for help, even if doing so makes you feel vulnerable.
-It is never too late to ask a question, and by doing so, you can get the information you need to produce results and to strengthen your own skills as well as GitLab as a whole.
-After your question is answered, [please document the answer so that it can be shared](/handbook/handbook-usage/#how-we-use-the-guide-every-day).
+自分にとって専門外の分野の専門家に頼る必要性はみなさんご存知でしょう。
+傷ついたとしても、知らないことは認めて、助けを求めてよいのです。
+質問するのに遅すぎるということはありません。質問すれば、結果を出すために必要な情報をえることができます。自分自身のスキルアップのみならずGitLab全社の強化にもつながります。
 
-Don't display surprise when people say they don't know something, as it is important that everyone feels comfortable saying "I don't know" and "I don't understand."
-(As inspired by [Recurse](https://www.recurse.com/manual#sub-sec-social-rules).)
+質問が解決したら、[その答えは文書化して共有](/handbook/handbook-usage/#how-we use-the-guide-every day)してください。
+
+「知りません」とか「わかりません」と気持ちよく言える環境が重要です。「知りません」と誰かが言った時に、「なんで知らないの？」という態度で接しないでください。(参考：[Recurse](https://www.recurse.com/manual#sub-sec-social-rules))
 
 ##### コラボレーションはコンセンサスではない {#collaboration-is-not-consensus}
 {:.no_toc}
+コラボレーションをするときは、常にレーダーを超えず、[透明性](/handbook/values/#transparency)を持って仕事をすることが重要ですが、コラボレーションは[合意](/handbook/leadership/#making-decisions)ではないです。
 When collaborating, it is always important to stay above radar and work [transparently](/handbook/values/#transparency), but collaboration is [not consensus](/handbook/leadership/#making-decisions).
+人に意見を求める必要はありませんし、"なぜ私に聞かなかったの？"と聞かれることもないはずです。
 You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?"
+人に聞いたのならともかく、人が意見を出すのを待つ必要はないのです。
 You don't have to wait for people to provide input, if you did ask them.
+私たちは、人を巻き込む必要はなく、誰もが貢献できるパーミッションレス・イノベーションを信条としています。
 We believe in permissionless innovation—you don't need to involve people, but everyone can contribute.
+これは、私たちの[反復](/handbook/values/#iteration)の方法の核心であり、大きなチームがゆっくりと合意を得るよりも、小さなチームが素早く動くことを望んでいるからです。
 This is core to how we [iterate](/handbook/values/#iteration), since we want smaller teams moving quickly rather than large teams achieving consensus slowly.
 
 ##### コラボレーション・コンピテンシー {#collaboration-competency}
 {:#collaboration-competency .no_toc}
+[コンピテンシー](/handbook/competencies/)は、チームメンバーが学ぶべき事柄を示すSSoT（Single Source of Truth）フレームワークです。
 [Competencies](/handbook/competencies/) are the Single Source of Truth (SSoT) framework for things we need team members to learn.
+私たちは、他者を助けるために行動し、他者（社内外）の意見（ヘルプとフィードバックの両方）を取り入れることで、最良の結果を得るためにコラボレーションを発揮します。
 We demonstrate collaboration when we take action to help others and include other's (both internal and external) input (both help and feedback) to achieve the best possible outcome.
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
-    <th class="tg-0lax">Demonstrates Collaboration Competency by…</th>
-    <th class="tg-0lax">Knowledge Assessment<br></th>
+    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLabジョブグレード</a></th>
+    <th class="tg-0lax">コラボレーション能力を発揮するために...</th>
+    <th class="tg-0lax">ナレッジ・アセスメント<br></th>
   </tr>
   <tr>
     <td class="tg-0lax">5</td>
-    <td class="tg-0lax">Develops collaboration skills by learning from other team members</td>
+    <td class="tg-0lax">他のチームメンバーから学ぶことで、コラボレーション能力を開発する。
+    Develops collaboration skills by learning from other team members</td>
     <td class="tg-0lax" rowspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdeehhYsNgUapGmQjq9LDsXnwhFVU4uIy0SSYQ3Dks85IG0BQ/viewform">Knowledge Assessment for Individual Contributors</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">6</td>
-    <td class="tg-0lax">Grows collaboration skills by using different types of communication; files issues appropriately, asks in the right Slack channels and uses the right labels.</td>
+    <td class="tg-0lax">様々なタイプのコミュニケーションを使い分けることで、コラボレーションスキルを伸ばします。課題を適切にファイルし、正しいSlackチャンネルで尋ね、正しいラベルを使用します。
+    Grows collaboration skills by using different types of communication; files issues appropriately, asks in the right Slack channels and uses the right labels.</td>
   </tr>
   <tr>
     <td class="tg-0lax"><br>7</td>
-    <td class="tg-0lax">Models collaborative behavior for fellow team members and others within the group.</td>
+    <td class="tg-0lax">チームメンバーやグループ内の他者に対して、協調的な行動の模範となる。
+    Models collaborative behavior for fellow team members and others within the group.</td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0lax">Coaches team members on how to collaborate more effectively and pointing team members to the right channels to collaborate.</td>
+    <td class="tg-0lax">
+    チームメンバーに対して、より効果的なコラボレーション方法を指導し、コラボレーションを行うための適切なチャネルを紹介する。
+    Coaches team members on how to collaborate more effectively and pointing team members to the right channels to collaborate.</td>
     <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd09nkhy80zAziFbdDgaq7LLqJD_LFxPloyPhVSBZjf1Ghgug/viewform">Knowledge Assessment for People Leaders</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
-    <td class="tg-0lax">Fosters collaborative decision making and problem solving across the departments.</td>
+    <td class="tg-0lax">部門を超えた協力的な意思決定と問題解決を促進する。
+    Fosters collaborative decision making and problem solving across the departments.</td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>
-    <td class="tg-0lax">Drives team collaboration across divisions/departments, silos, and division boundaries.</td>
+    <td class="tg-0lax">
+    部門/部署、サイロ、部門の垣根を越えたチームコラボレーションを推進する。
+    Drives team collaboration across divisions/departments, silos, and division boundaries.</td>
   </tr>
   <tr>
     <td class="tg-0lax">11</td>
-    <td class="tg-0lax">Develops networks and builds partnerships, engages in cross-functional activities; collaborates across boundaries, and finds common ground with a widening range of stakeholders.  Utilizes contacts to build and strengthen internal support base</td>
+    <td class="tg-0lax">
+    ネットワークとパートナーシップを構築し、部門横断的な活動を行い、境界を越えて協力し、幅広いステークホルダーとの共通点を見出すことができる。 人脈を活用し、社内のサポート基盤を構築・強化する。
+    Develops networks and builds partnerships, engages in cross-functional activities; collaborates across boundaries, and finds common ground with a widening range of stakeholders.  Utilizes contacts to build and strengthen internal support base</td>
   </tr>
   <tr>
     <td class="tg-0lax">12</td>
-    <td class="tg-0lax">Leads collaboration and teamwork in daily routines, prioritizing interactions, information sharing, and real time decision making across divisions/departments. Encourages greater cross-functional collaboration among e-team leaders.</td>
+    <td class="tg-0lax">
+    日常業務におけるコラボレーションとチームワークをリードし、部門/部署を超えた交流、情報共有、リアルタイムの意思決定を優先させる。Eチームリーダー間の部門横断的なコラボレーションを促進する。
+    Leads collaboration and teamwork in daily routines, prioritizing interactions, information sharing, and real time decision making across divisions/departments. Encourages greater cross-functional collaboration among e-team leaders.</td>
   </tr>
   <tr>
     <td class="tg-0lax">14</td>
-    <td class="tg-0lax">Champions collaboration and teamwork into daily routines, prioritizing interactions, information sharing, and real time decision making across divisions/departments. Champions cross-functional collaboration among e-team leaders and GitLab.</td>
+    <td class="tg-0lax">
+    日常業務の中でコラボレーションとチームワークを推進し、部門や部署を超えた交流、情報共有、リアルタイムの意思決定を優先させる。e-チームリーダーとGitLabの機能横断的なコラボレーションを促進する。
+
+    Champions collaboration and teamwork into daily routines, prioritizing interactions, information sharing, and real time decision making across divisions/departments. Champions cross-functional collaboration among e-team leaders and GitLab.</td>
   </tr>
 </table>
 
