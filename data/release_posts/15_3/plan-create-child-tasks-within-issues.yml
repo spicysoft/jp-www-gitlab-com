@@ -1,6 +1,6 @@
 ---
 features:
-  primary:
+  top:
   - name: "Create tasks in issues"
     available_in: [core, premium, ultimate]  
     gitlab_com: true
