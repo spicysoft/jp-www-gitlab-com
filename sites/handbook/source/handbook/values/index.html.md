@@ -1217,9 +1217,7 @@ We hope that the way we work and our values will instill trust, instead of manda
 ## 運営原則 {#operating-principles}
 
 運営原則とは、GitLabのチームメンバーが与えられたバリューを分かりやすく実践するための行動集です。
-
-サブバリューは、コアバリューがGitLabにおいて、どのような意味で、どのようなものであるかを明確にするものです。
-They clarify what a given core value means and looks like *at GitLab*. 
+コアバリューがGitLabにおいて、どのような意味で、どのようなものであるかを明確にするものです。
 この違いを理解することが、GitLabで成功するために非常に重要です。
 例えば、以前の組織でのイテレーションやコラボレーションの解釈に慣れている[新しいチームメンバー](/company/culture/all-remote/getting-started/)にとっては、違いを理解することは重要です。
 
