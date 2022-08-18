@@ -1,0 +1,29 @@
+### What we recently completed
+
+The Create stage has been actively delivering updates to help your development teams collaborate faster and more effectively. Here are some highlights from recent releases:
+
+- [Improve Onboarding and Auth of GitLab Workflow](https://gitlab.com/groups/gitlab-org/-/epics/4363) - Onboarding in the GitLab Workflow extension is currently quite challenging. This effort improved project selection and authorization to reduce the number of steps that it took a user to start using the VSCode extension.
+- [Improvements to the WSYIWYG editor in the Wiki](https://gitlab.com/gitlab-org/gitlab/-/issues/334576) - The barrier to entry has been reduced in the Wiki with the new modern WYSIWYG editor. Markdown is extensible and offers a lot in terms of version control in knowledge content, but it is not for everyone. Recent improvements here include the ability to select the language to renders code blocks with specifica syntax highlighting.
+- [IP Allowlisting for GitLab.com](https://gitlab.com/groups/gitlab-org/-/epics/6296) - Limiting access to requests coming from a set of known-good IP addresses may improve security - especially in case of unnoticed theft of credentials. Until now, such access restrictions can only been applied to the API and UI. SSH is entirely blocked when you use this restriction. SSH now adheres to the restriction and only grants access to requests coming from IP addresses in your list. 
+
+
+### What we are currently working on
+
+- [GitLab CLI](https://gitlab.com/groups/gitlab-org/-/epics/7514) - GitLab recently adopted the open source command line application [glab](https://glab.readthedocs.io/en/latest/). We're working on transitioning that project to be an officially supported and developed by GitLab. This will expand our reach to users who prefer to work in their terminal.
+- [Merge requests that require my attention](https://gitlab.com/groups/gitlab-org/-/epics/5331) - With the introduction of Reviewers, users now have multiple lists of merge requests (MRs) where they can be assigned or where they might be listed as a reviewer. In both of those cases, those statuses do not indicate if any action is required on your part, it only suggests that you have a role in the merge request. This is an iteration towards reducing cycle time.
+- [Merge conflicts in diffs](https://gitlab.com/groups/gitlab-org/-/epics/4893) - One of the key challenges to deal with when working on merge ref diffs are merge conflicts. If the target and source branch contains a merge conflict, the branches cannot be automatically merged. This effort aims to streamline the workflow of resolving the diff.
+- [Remote Development](https://gitlab.com/groups/gitlab-org/-/epics/7948) - Management of local development environments can be tedious and time-consuming. For some, it becomes a significant barrier to collaboration and productivity. The Remote Development category is focused on providing web-based development environments that enable developers to get up and running with a project faster, contribute more efficiently, and switch contexts with less disruption. This is particularly beneficial to larger organizations that work with standardized development environments and those developers who contribute to multiple open source projects. We have begun investigating our approach to building a Cloud IDE.
+
+
+### What is next for us
+
+To meet our [big hairy audacious goal](https://about.gitlab.com/company/mission/#big-hairy-audacious-goal), the Create stage will focus on the following over the next 12 months:
+- [Improved framework for source code management rules](https://gitlab.com/groups/gitlab-org/-/epics/6351) - GitLab offers a number of controls that can be implemented as safeguards. These controls can be put in place to keep changes from having a negative or enforce adherence to policies. Integrating features like protected branches, approval rules, code owners (approvals) and soon “status checks” should have an experience that easy to set up, maintain, and consume downstream. 
+- [Support for enormous repositories in Git](https://gitlab.com/groups/gitlab-org/-/epics/773) - Enormous repositories that have traditionally only been possible to store in centralized version control system like CVS, SVN or Perforce should work well in Git and GitLab. Be the repository large because of binary assets or huge project with a long history, it should reliably work well in GitLab.
+-  [Track unread files in merge requests](https://gitlab.com/groups/gitlab-org/-/epics/1409) - In merge requests, as files and discussions are reviewed, and more changes/discussions are added, it's very difficult to keep track of what you have reviewed in the past and what still needs to be reviewed. Moreoever, it's important for others to be able to track the status of the merge request.
+
+### What we are not doing
+
+The following will not be a focus over the next 12 months:
+- **Code intelligence** - We currently offer an integration with [Sourcegraph](https://docs.gitlab.com/ee/integration/sourcegraph.html). In the next year we will not be focused on native code intelligence functionality.
+- [No code, low code](https://about.gitlab.com/direction/create/nolowcode/) - While this is part of the Create stage vision, we are still working on the foundational components that would allow us to pursue opportunities in this space. We also need to validate the angle with which we approach a no code, low code platform. We may choose to accelerate entrance to this space via [other means](https://about.gitlab.com/handbook/acquisitions/).

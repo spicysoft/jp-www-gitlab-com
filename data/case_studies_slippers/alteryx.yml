@@ -1,0 +1,93 @@
+title: Alteryx
+file_name: alteryx
+canonical_path: /customers/alteryx/
+twitter_image: /images/blogimages/alteryx_case_study.jpg
+cover_image: /images/blogimages/alteryx_case_study.jpg
+cover_title: |
+  Removing multi-tool barriers to achieve 14 builds a day
+cover_description: |
+  GitLab gives Alteryx visibility to increase build speed
+customer_logo: /images/case_study_logos/alteryx.svg
+customer_industry: Technology
+customer_location: Irvine, California
+customer_solution: Ultimate
+customer_employees: 900 Globally
+customer_overview: >
+  Alteryx offers an end-to-end analytics platform that empowers data analysts
+  and scientists to break data barriers and deliver insights.
+customer_challenge: >
+  Slowed by a legacy SVN repository, Alteryx wanted to modernize their
+  architecture and improve their software development process.
+key_benefits: >-
+  Jenkins build that took 3 hours, now takes 30 mins to run on GitLab: a 6x
+  improvement
+
+
+  Visibility has empowered engineers to contribute to the DevOps development cycle
+
+
+  More than doubled the anticipated adoption rate
+customer_stats:
+  - stat: 10&#44;464
+    label: commits since 2016
+  - stat: 9x
+    label: daily releases
+  - stat: 769
+    label: projects using GitLab
+customer_study_content:
+  - title: the customer
+    subtitle: Achieving the full potential of data
+    content:  >-
+      Alteryx offers an end-to-end analytics platform that empowers data
+      analysts and scientists to break data barriers, deliver insights, and get
+      to the answer faster. Organizations all over the world rely on Alteryx
+      daily to deliver actionable insights. The end-to-end Alteryx analytics
+      platform enables analysts and data scientists to discover, share and prep
+      data, perform analysis, deploy and manage analytic models.
+  - title: the challenge
+    subtitle: Modernizing to improve the development experience
+    content: >-
+      Alteryx knew their legacy system of using Subversion with Jenkins was not
+      the optimal toolset to accomplish the goal of improving their Software
+      Development Lifecycle. At that time, the repository was more than 500
+      gigabytes and was filled with legacy code making it difficult to manage.
+
+
+      They wanted to modernize the development experience to improve deployment and build pace. To achieve this they moved to Git, established an enterprise source code repository tool, and improved their CI and CD. They evaluated three tools: GitHub, Perforce and GitLab in this process.
+  - title: the decision
+    subtitle: Evaluating how to best achieve the goal
+    content:  >-
+      GitLab allowed Alteryx to truly have everything in one place and within
+      one tool.  GitLab was selected because it is one place for CI, CD, source
+      code, source code management, code reviews, and security scanning. Having
+      everything in one place also made it easier for them to scale because
+      teams can just be added to GitLab and have all the things that typically
+      take them 3 or 4 months to get set up.
+  - title: the solution
+    subtitle: Success with a single application and double the anticipated users
+    content:  >-
+      Alteryx began with the Community Edition of GitLab in 2016 but quickly
+      moved to the Enterprise Edition so they could scale. Teams soon realized
+      the value of a single application to manage their work and they more than
+      doubled their planned number of users in the first six months. Alteryx
+      staff are inspired to use it because the CI is baked right into the
+      repository, allowing developers to actively participate in the DevOps
+      process.
+  - title: the results
+    subtitle: Accelerating deployment with everything in one place
+    content: >-
+      GitLab has allowed Alteryx to have code reviews, source control,
+      continuous integration, and continuous deployment all tied together and
+      speaking the same language. This capability allows each commit or merge
+      request to get a code review-which wasn’t previously happening. That code
+      review is tied to a deployment which is tied to a URL and so on and so
+      forth.
+
+
+      The team took a build that was running legacy systems and moved it to GitLab. This build took 3 hours on the Jenkins machine and it took 30 minutes to run on GitLab after it was going. Engineers can actually look at the build and understand what's going on; they're able to debug it and make it successful.
+  - title: the future
+    subtitle: Simplifying the toolset increases deployment rate
+    content: >-
+      
+      Alteryx is automating everything through the GitLab YML file and the GitLab CI/CD file. This includes everything from builds to testing package deployments, and staging deployments, within their GitLab CI files. They then have triggers set up within the GitLab CI files that create deployments for different branches of code they are pushing. Those deployments do two things. First, it sets up an environment in AWS that is used to run all of the integration tests. Second, it creates an environment used for QA and Acceptance testing by the product management team. So it creates the infrastructure and then it provides a URL to those who need to experience the application, test it and validate its functionality.
+customer_logo_css_class: brand-logo-tall

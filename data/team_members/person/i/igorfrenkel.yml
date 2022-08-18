@@ -1,0 +1,27 @@
+---
+name: Igor Frenkel
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#secure">Senior Backend
+  Engineer, Secure:Composition Analysis</a>
+reports_to: olivier-g
+picture: igorfrenkel.jpg
+gitlab: ifrenkel
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Composition Analysis BE Team
+projects:
+  secure-DS-gemnasium: maintainer backend
+  secure-DS-gemnasium-maven: maintainer backend
+  secure-DS-gemnasium-python: maintainer backend
+  secure-LC-license-finder: reviewer backend
+  security-report-schemas: trainee_maintainer backend
+story: 'Igor is Backend Engineer from Toronto, Canada. He is passionate about engineering
+  craftsmanship and secure software. In his spare time he likes to read scifi, listen
+  to podcasts, and rock climb.
+
+  '
+specialty: Composition Analysis
+

@@ -1,0 +1,41 @@
+<% competitor_data = data.comparison_pages[key_one] %>
+<% gitlab_data = data.comparison_pages.gitlab %>
+
+<style>
+/* Inline styles required for overriding Middleman existing styles */
+.slp-comparison-infographic__header-h2 {
+    font-family: "Source Sans Pro", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+    font-weight: 400 !important;
+}
+
+.slp-comparison-infographic__chart {
+    border: 1px solid rgb(242, 242, 242) !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+}
+</style>
+
+<div data-vue-target="true" style="margin-bottom: 64px;">
+    <slp-comparison-infographic
+        <%= %(title="#{competitor_data.title}") unless competitor_data.title.blank? %>
+        <%= %(subtitle="#{competitor_data.subtitle}") unless competitor_data.subtitle.blank? %>
+        methodology-link="<%= competitor_data.link_url %>"
+        methodology-link-text="<%= competitor_data.link_text %>"
+        competitor-name="<%= competitor_data.competitor_name %>"
+        competitor-logo="<%= competitor_data.logo %>"
+        gitlab-logo="<%= gitlab_data.logo %>"
+        :competitor-data='<%= competitor_data.to_json %>'
+        :gitlab-data='<%= gitlab_data.to_json %>'
+        :single-tool="<%= competitor_data.single_tool_data.single_tool %>"
+        single-tool-category="<%= competitor_data.single_tool_data.single_tool_category %>"
+        data-ga-name="Learn more about our scoring methodology"
+        data-ga-location="header"
+    ></slp-comparison-infographic>
+</div>
+<script src="/javascripts/slippers-comparison.js" type="text/javascript"></script>

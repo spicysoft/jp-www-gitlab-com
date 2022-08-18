@@ -1,0 +1,194 @@
+---
+layout: markdown_page
+title: "Product Direction - Database"
+description: "The Database group is focused on improving the scalability, performance, and resilience of GitLab's database layer as well as instituting best practices across the wider development organization"
+canonical_path: "/direction/database/"
+---
+
+- TOC
+{:toc}
+
+## Database
+
+**Last updated**: 2022-06-15
+
+### Introduction and how you can help
+
+- [Overall Strategy](/direction/enablement)
+- [Roadmap for the Database Group](https://gitlab.com/groups/gitlab-org/-/roadmap?state=opened&sort=end_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name%5B%5D=Roadmap&label_name%5B%5D=group%3A%3Adatabase)
+- [All Epics](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Adatabase)
+
+- [Overview](#overview)
+- [Approach](#approach)
+- [Where we are headed](#where-we-are-headed)
+- [What's Next & Why](#whats-next--why)
+  - [Batched Background Migrations](#batched-background-migrations)
+  - [Throttling mechanism for large data changes](#throttling-mechanism-for-large-data-changes)
+  - [Automated database testing using thin clones](#automated-database-testing-using-thin-clones)
+- [What will follow](#what-will-follow)
+  - [Reduce table sizes to < 100 GB per physical table](#reduce-table-sizes-to--100-gb-per-physical-table)
+  - [Database Schema Validation](#database-schema-validation)
+- [Metrics](#metrics--internal)
+
+This page contains the product direction for the [Database group](/handbook/engineering/development/enablement/database/) of the Enablement stage.
+
+Please reach out to Yannis Roussos, Product Manager for the Database group ([Email](mailto:iroussos@gitlab.com)) if you'd like to provide feedback or ask any questions related to this product direction.
+
+This strategy is a work in progress, and everyone can contribute.
+Please comment and contribute in the linked [issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Adatabase)
+and [epics](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Adatabase) on this page.
+Sharing your feedback directly on GitLab.com is the best way to contribute to our strategy and vision.
+
+### Overview
+
+Gitlab stores data in various ways and forms. There is Redis, which is used both as a cache and as a more lightweight semi-persistant storage.
+There is also object storage for data not well suited to be stored in a database and even the file system in the case of Gitaly or the existing version of the Container Registry.
+But relational databases are the prominent persistent storage in GitLab, used for storing most of the user generated data in GitLab.
+
+The Database group is the steward of all relational database technologies at GitLab.
+It is responsible for growing GitLab's database expertise, promoting and supporting its proper use and making sure that there is continuity and no knowledge gaps as the GitLab team and product grow.
+It owns the main GitLab database from an application technology perspective,
+while individual feature groups own specific tables and the additional feature specific databases, such as [Gitaly Cluster](https://docs.gitlab.com/ee/administration/gitaly/praefect.html#postgresql), [Geo](https://docs.gitlab.com/ee/administration/geo/#geo-tracking-database) and the database for the new [Container Registry](https://docs.gitlab.com/ee/architecture/blueprints/container_registry_metadata_database/).
+
+In practice, the Database group is focused on improving the scalability, performance, and resilience of GitLab's database layer as well as instituting best practices across the wider development organization.
+
+The database is at the core of all user interactions with a GitLab instance, as well as the layer that most automated GitLab features, like for example the CI pipelines, depend on.
+Any bottleneck at the database layer, regression or non performant application code that interacts with the database can break or render any lovable GitLab feature to a practically unusable one.
+At the same time, database related incidents can pose a significant threat to the availability of any GitLab instance.
+
+As GitLab's architecture becomes more complex and the list of features grows, the database layer becomes more complex as well.
+The Database group is tasked with making sure that this process is not introducing any short or long term risks to Gitlab's availability and that we can keep on iterating on existing and new features, while GitLab remains performant at all scales.
+
+### Approach
+
+We apply the Group's combined application and database related expertise to tackle the complexity of the database design as it grows, no matter the scale that this design is applied to.
+Scaling is not the end goal by itself, it's the constant we have to always take into account.
+We have to make sure that the best database practices are applied to all problems, so that GitLab can be performant at all sizes, ranging from small self-managed instances to GitLab.com.
+Those best practices and research on state of the art database approaches consequently allow us to also scale our largest instances to the next order of magnitude with each longer term iteration that we take.
+
+We try to achieve those goals by:
+- Building the core tools and frameworks that allow all of GitLab's engineering to efficiently interact with the database layer.
+
+  We strive to hide complex implementations behind simple interfaces that are easy to understand and use, without requiring deep understanding of database performance optimizations and approaches.
+
+  As an example, we consider our work successful when we can allow a GitLab engineer to [create a partitioned table](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/migrate/20210306121300_partition_web_hook_logs.rb) and then [move hundreds of millions of records to it](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/post_migrate/20210306121310_backfill_partitioned_web_hook_logs.rb) by issuing two simple commands, while also guaranteeing that the process will succeed without any additional involvement required.
+
+- Adding [documentation and guidelines](https://docs.gitlab.com/ee/development/database/) that explain the tools offered and provide the process to be followed for the most common use cases that application code may need to interact with the database.
+
+- Dogfooding as a group the tools provided and the processes proposed until we make sure that they are ready for general availability.
+
+  We had to partition the first two tables in GitLab before asking other teams to use the final, thoroughly tested tools. Similarly, we battle tested our initial implementation of our new background migration framework by updating more than 8.5 billion records before working on making it widely available.
+
+- Enabling every GitLab team member to test against clones of our production database, either manually or in automated ways.
+
+- Serving as an [advisor](/handbook/engineering/development/enablement/database/stable.html) to other teams and working with them while they are designing new database features or even new databases from scratch (e.g. [the Container Registry Database](/handbook/engineering/development/enablement/database/doc/container-registry.html)).
+
+- Closely cooperating with various other groups inside GitLab that work on other database related aspects, especially the [infrastructure department](/handbook/engineering/infrastructure/) and the [sharding group](/handbook/engineering/development/enablement/sharding/).
+
+- Helping our [database reviewing process](https://docs.gitlab.com/ee/development/database_review.html) (reviewers, maintainers) to grow.
+
+### Where we are headed
+
+The Database Group's ongoing focus will always remain the scalability of the database, increasing the responsiveness and the availability of the GitLab platform, while also improving the efficiency and reliability of making database changes.
+
+We are planning to continue addressing this on two fronts:
+- Easy to use and understand application level libraries and frameworks that make all database operations as performant and as reliable as possible.
+
+  We are moving towards more self monitoring, auto-tuning approaches that can respond to changing conditions on production environments without any manual intervention required.
+  That includes both the operations running in the background in a GitLab server and all the operations required to upgrade a GitLab instance.
+
+  We are also trying to close the knowledge gap and make most complex database operations as simple to implement for other GitLab Groups as calling a few helper functions.
+
+- Shift left our ability to pre-emptively find database related regressions and performance issues by testing all database operations against a production clone of GitLab.com's database.
+
+In the long term we also plan to extend our automated database testing capabilities and explore how we can provide the tools that we are building to a wider audience.
+That audience can be internal, i.e. GitLab's engineering, or external, benefiting all the users of GitLab.
+
+Today, most developers have no easy way to test new queries or database changes at scale.
+We want to figure out ways for developers to test all their database changes on production data, prior to production.
+Our approach will be to automate the process of testing queries against production data and integrate it in the DevOps lifecycle, at the stage where developers spend most of their time while developing and reviewing code.
+This will enable developers to complete database related updates and perform code reviews faster, with less guessing and more confidence backed by quantifiable data.
+
+Our long term plan described above aligns and is explained in more detail in Enablement Section's [theme of managing complexity for large software projects](/direction/enablement/#reduce-cycle-time-by-providing-tools-to-explore-complexity).
+
+Finally, we are looking for ways to contribute back to the wider community beyond GitLab.
+We have extended the way Ruby on Rails projects interact with the database and we have introduced numerous new ideas and frameworks.
+We are evaluating how we could extract parts of our tools, for example by creating a separate library, open sourcing it and letting other developers use it.
+At the same time, that will enable more seamless contributions to GitLab's database layer.
+
+### What's Next & Why
+
+#### [Batched Background Migrations](https://gitlab.com/groups/gitlab-org/-/epics/6751)
+
+[Background migrations](https://docs.gitlab.com/ee/development/database/background_migrations.html) are the vehicle for executing all large data updates (data migrations) in GitLab.
+Any operation that has to update more than a few thousand records has to be performed through a background migration,
+with workers running asynchronously in the background and executing the update in batches so that the performance of a GitLab instance is not affected.
+
+The way of performing such operations up until GitLab 15.0, by scheduling background jobs in regular intervals was static and
+did not take into account the load of the database server when each job was executed.
+In order to address this, we had to rethink our approach on how we perform massive data upgrades, which led us to building the [batched background migrations framework](https://docs.gitlab.com/ee/development/database/batched_background_migrations.html).
+
+We first introduced the batched background migrations framework while [addressing the Primary Key overflow risk for tables with an integer PK](https://gitlab.com/groups/gitlab-org/-/epics/4785), in which we had to update more than 8.5 Billion records.
+It provides mechanisms to adapt in real time to the load of a Database Server, adjust the work performed by monitoring in real time the performance of the migrations,
+it requires minimal monitoring by the instance administrators and can automatically recover from performance related errors.
+
+In 15.0, we have made batched background migrations available to all GitLab engineers and switched them to the default way for performing background migrations.
+
+We plan to continue addressing any issues discovered and add support for missing or novel features that will make this framework even more reliable.
+In the long term, we plan to update many of our existing tools that [perform data operations to use batched
+background migrations](https://gitlab.com/groups/gitlab-org/-/epics/8245) as well.
+We also plan to evaluate whether we can extend the framework or introduce a similar framework,
+which will cover other asynchronous operations that are not background migrations, like scheduled or recurring jobs.
+
+#### [Throttling mechanism for large data changes](https://gitlab.com/groups/gitlab-org/-/epics/7594)
+
+We are implementing a generic throttling mechanism for large data changes that will monitor the health of the Database for various signals (leading indicators) and react to problems by throttling or even pausing the execution of the updates.
+Our plan is to do so by extending the batched background migrations auto-tuning layer to monitor for said signals and actively react by further adjusting the batch sizes of scheduled jobs.
+
+#### [Automated database testing using thin clones](https://gitlab.com/groups/gitlab-org/database-team/-/epics/9)
+
+We are shifting left our ability to pre-emptively find database related regressions and performance issues by testing all database updates against a production clone of GitLab.com's database.
+With every feature we add, we move one step closer to GitLab being more performant and lower the risk that code may be deployed that could cause incidents and affect the performance and availability of GitLab.com or other self managed instances.
+
+Gitlab 15.0 marked an important milestone for the Automated database testing GitLab internal feature - we are now testing **all types** of database migrations against a clone of the production database of GitLab.com:
+- All regular and post migrations - all schema updates and small scale data updates
+
+- All data migrations (through sampling) - both Sidekiq and Batched background migrations
+
+That means that 100% of _**scheduled**_ database updates are covered, making sure that we test our most tricky operations before they are even merged.
+We expect that the effect of those tests will be evident to both GitLab.com and self managed instances throughout GitLab 15 and beyond.
+
+But that was only the beginning as we are expanding our scope; _**scheduled**_ database updates do not include regular queries or updates that result from user interactions (users performing an action or causing a background job to run).
+Our next effort will be to find ways to perform [automated query analysis for Merge Requests](https://gitlab.com/groups/gitlab-org/database-team/-/epics/12)
+and test newly introduced queries against our production clones as well.
+This is a difficult problem to solve as we must figure out the parameters for the queries, which depend on the data stored,
+so we are going to start with the simplest iteration possible, [identifying the queries introduced by each MR to support the database reviewers](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/243).
+
+### What will follow
+
+Our next top priorities, which we are not actively working on right now.
+
+#### [Reduce table sizes to < 100 GB per physical table](https://gitlab.com/groups/gitlab-org/-/epics/6211)
+
+One of the top reasons of performance degradation in relational databases is tables growing too large. There is no globally applicable hard rule on the size threshold that tables should not exceed;
+it depends on the schema of the table, the number and types of indexes defined over it, the mix of read and write traffic that it gets, the query workload used to to access it and more.
+As a result of our analysis, we set the limit at 100GB and we [explain in detail our rationale](https://docs.gitlab.com/ee/architecture/blueprints/database_scaling/size-limits.html#target-all-physical-tables-on-gitlabcom-are--100-gb-including-indexes) and how we plan to approach this problem.
+
+Addressing this for tables in GitLab.com is critical, but it will also allow us to provide a more scalable database design for GitLab instances with smaller databases.
+
+Based on our [analysis](https://docs.gitlab.com/ee/architecture/blueprints/database_scaling/size-limits.html), we are planning to work with multiple other GitLab teams in an ongoing fashion towards [achieving that goal](https://gitlab.com/groups/gitlab-org/-/epics/6211).
+
+#### [Database Schema Validation](https://gitlab.com/groups/gitlab-org/-/epics/3928)
+
+Ensuring that the [deployed database schema matches codebase expectations](https://gitlab.com/groups/gitlab-org/-/epics/3928) is important for addressing issues self managed instances may face while upgrading to newer versions. It will allow us to support preemptive checks before an instance is upgraded and warn about potential issues before the process is started.
+
+### Metrics  (Internal)
+
+1. [Enablement::Database - Performance Indicators Dashboard](https://app.periscopedata.com/app/gitlab/754160/Enablement::Database---Performance-Indicators)
+1. Average Query Apdex for GitLab.com
+   - Master
+     - [Target: 100ms - Tolerable 250ms](https://tinyurl.com/64e6acku)
+     - [Target: 50ms - Tolerable 100ms](https://tinyurl.com/4mjw5azv)
+   - Replicas
+     - [Target: 100ms - Tolerable 250ms](https://tinyurl.com/yde68e2k)
+     - [Target: 50ms - Tolerable 100ms](https://tinyurl.com/42wc7n2z)

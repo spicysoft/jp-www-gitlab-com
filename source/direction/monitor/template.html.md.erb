@@ -1,0 +1,102 @@
+---
+layout: markdown_page
+title: "Product Direction - Monitor"
+description: "Observability, incident management to help you deliver reliable and performant applications"
+canonical_path: "/direction/monitor/"
+---
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+This is the product direction for Monitor. 
+
+<%= devops_diagram(["Monitor"]) %>
+
+## Vision
+Keeping applications available and performant is table stakes for every business. 
+
+Our vision is to make every GitLab project observable by default, with monitoring tool that is easy to operate without specialized, expert skills. Teams can connect the dots between every [deployment](/direction/deployment), incident, and other noteworthy events using and collaborating with telemetry data, which ultimately decreases the frequency and severity of production issues.
+
+## Market
+The Monitor stage directly competes in several [markets defined within our Ops Section](/direction/ops/#market), including Application Performance Monitoring (APM), Log Management, Infrastructure Monitoring, IT Service Management (ITSM), Digital Experience Management (DEM) and Product Analytics. The total addressable market for the Monitor stage is projected to be [$2.7 billion](https://internal-handbook.gitlab.io/handbook/product/investment/) by 2024. 
+
+These markets are competitive and innovative, with winning companies achieving spectacular growth as businesses continue to shift online.
+
+Successful vendors, such as market leader [Datadog](https://www.datadoghq.com/) are leveraging a [platform strategy](https://mitsloan.mit.edu/ideas-made-to-matter/platform-strategy-explained) to expand their markets (for example, see DataDog's [acquisition of Undefined Labs to expand beyond production applications to provide code insights during development](https://drive.google.com/file/d/1hq74bZvBv5nD6Krmi-iaSsdqA9ChOf1r/view), or their expansion to [incident management in 2020](https://www.datadoghq.com/blog/dash-2020-new-feature-roundup/)). Competition among market leaders today is also geared toward making the whole stack observable for enterprises. [New Relic's updated business model](https://blog.newrelic.com/product-news/new-relic-one-observability-made-simple/) reflects the need for vendors to capture the increasing footprint (and spend) of enterprises while enabling future growth by making a significant part of their business free.
+
+### Focus
+The Monitor stage currently consists of two teams. The Observability group will be focused on bringing observability, including Metrics, Tracing, and Logging to market within the GitLab platform. The Response group ([Name TBD](https://gitlab.com/gitlab-org/monitor/monitor/-/issues/96)) will be focused on [Incident Management](/direction/monitor/debugging_and_health/incident_management), and contributing toward [deployment](/direction/deployment/) by adding [Continuous Verification](/direction/deployment/#continuous-verification) capabilities to the platform. 
+
+We will not actively work on the following categories/capabilities:
+
+* [Error Tracking](/direction/monitor/debugging_and_health/error_tracking/)
+* [Runbooks](/direction/monitor/debugging_and_health/runbooks/)
+* [Product Analytics](/direction/monitor/product_analytics/)
+
+### Opportunities
+
+Build a complete DevOps platform with monitoring out-of-the-box.
+1. With development shifting cloud-native and massive community-driven investment in tools and patterns, the opportunity to build boring solutions on top of the cloud-native solutions plays right to GitLab's strength.
+1. Instrumentation is commoditized. GitLab will not need to invest in agents since [OpenTelemetry](https://opentelemetry.io) and most vendor agents are all open source and designed to work with multiple backends.
+1. Out-of-the-box monitoring capabilities saves time and money and lower the bar on the expertise required for enterprises and start-ups. The ease by which most users can start monitoring their service, using established vendors, such as DataDog or New Relic, and newer competitors like Honeycomb, is something we should strive to emulate, but do so using open source tools.
+1. Shift left. Monitoring is traditionally for production, there are opportunities to shift monitoring tools and techniques left so that developers can benefit from monitoring in development and staging environments.
+
+### Challenges
+
+1. Monitoring vendors offer generous free tiers (e.g. [New Relic](https://newrelic.com/pricing) and [Honeycomb](https://www.honeycomb.io/pricing/)) for smaller companies and complete solutions for enterprises.
+1. Huge investments are being made by market leaders. Market leaders are also expanding the scope of their solutions. This makes them more sticky with their customers.
+1. Monitoring must meet a high bar to be trusted in production. Running large scale monitoring systems is difficult and will be a big challenge for GitLab.
+
+## Newsworthy
+On Dec 14, 2021, GitLab announced the acquisition of Opstrace, find out more in the [Monitor:Observability direction page](/direction/monitor/observability/#newsworthy). 
+
+### Partnerships with Observability vendors
+Observability is a cornerstone of a complete DevOps platform. As such, GitLab will include an on-by-default observability solution. In addition, we plan to build a vendor-agnostic continuous capability, enabling and encouraging partners to add their own solutions, thereby expanding customer choice.
+ 
+## What’s next?
+
+1. [Monitor:Observability Group What's Next](/direction/monitor/observability/#whats-next)
+1. The Respond Group will continue to complete the [incident management](https://about.gitlab.com/direction/monitor/debugging_and_health/incident_management/) workflow. Using Incident management, teams can manage the coordination during an outage and have the most important information captured for sharing, learning, and future improvements. The main product indicator is currently the [number of unique users that interact with alerts and incidents](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/ops-section/#monitormonitor---smau-gmau---unique-users-that-interact-with-alerts-and-incidents).
+
+### Deprecation of previous capabilities
+
+GitLab users previously can monitor their services and applications by leveraging GitLab to install Prometheus to a GitLab-managed cluster.
+Similarly, users can also install the ELK stack to do log aggregation and management. Lastly, users can set up a Jaeger integration to trace for their applications.
+
+With the acquisition of Opstrace, and the announcement to deprecate certificate-based integrations, we will be deprecating the features that currently exist in the [Metrics](https://docs.gitlab.com/ee/update/deprecations.html#monitor-performance-metrics-through-prometheus), [Logging](https://docs.gitlab.com/ee/update/deprecations.html#logging-in-gitlab), and [Tracing](https://docs.gitlab.com/ee/update/deprecations.html#tracing-in-gitlab) categories. These features are scheduled for removal in GitLab 15.0.
+
+In February 2022 we removed Self-Monitoring category as it was an unsupported category.  [The Self-Monitoring project](https://docs.gitlab.com/ee/administration/monitoring/gitlab_self_monitoring_project/) is for self-hosted customers and leverages the capabilities from the Metrics category, which are being deprecated and removed. Self-hosted customers can still export metrics to Prometheus and view them via other visualization tools, such as Grafana.  We will the deprecation in 14.9 with a planned removal in 15.0.
+
+## Letters from the Editor
+
+### Respond Group
+TL;DR - For the next several milestones, the Respond Group will focus on _incident response_ and making GitLab [Incidents](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#incidents) the single source of truth (SSOT).  We will continue to iterate on [Incident Timelines](https://gitlab.com/groups/gitlab-org/-/epics/6376) and start working on the Slack App for incident management to replace our internal tool [Woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse).
+
+To the GitLab Community and customers,
+
+It's been a busy and eventful year already!  We released [Escalating Manually Created Incidents](https://gitlab.com/groups/gitlab-org/-/epics/5716) and shipped an MVC [Incident Timelines](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#timeline-events).  We received a lot of feedback from customers and many questions from the community.  Thank you for all of your help over the last quarter!   
+
+We have two openings on our team for a [Frontend Engineer](https://boards.greenhouse.io/gitlab/jobs/6255771002) and a [Backend Engineer](https://boards.greenhouse.io/gitlab/jobs/6258413002). This team has some interesting, challenging projects on our roadmap. Consider checking out the job posting and applying if you would like to join us! 
+
+In FY22, we saw a lot of users accidentally creating Incidents.  We originally thought we were seeing increased user adoption for Incidents.  After hearing feedback from our users and recognizing that this was an issue, we worked to make changes to our [documentation](https://docs.gitlab.com/ee/user/permissions.html#permissions-and-roles) and [permissions](https://gitlab.com/gitlab-org/gitlab/-/issues/336624) for who can create Incidents.  While we initially saw a decline in users earlier this year, we have since seen alert and incident adoption reach an all-time high!
+
+For FY23, we are working to move the Incident Management category from viable to complete and the On-Call Schedule Management category from minimal to viable. Outlined below are some of our current priorities and features that we would like to complete by the end of FY23.  Some of these may shift and change, but we work closely with UX and are always refining and iterating on our [roadmap](https://gitlab.com/groups/gitlab-org/-/epics/7013).
+
+Priorities for feature work:
+
+- Continue iterating and refining [Incident Timelines](https://gitlab.com/groups/gitlab-org/-/epics/6376)
+- [Introduce incident management workflow to GitLab Slack App](https://gitlab.com/gitlab-org/gitlab/-/issues/359322)
+
+What are we working to solve in the next year?:
+- [Ensure the most relevant information is visible so stakeholders can track progress during an on-going incident](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1767)
+- [Ensure incident response teams can track timestamps in incidents](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1911)
+- [Help teams better manage incidents on lists and boards so work on incidents can be appropriately prioritized](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1769)
+- [Ensure Slack-to-GitLab workflows are seamless to minimize repetitive, manual work for incident response teams](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1944)
+- [Introduce a post-incident review process so teams can learn from past incidents and better prepare for future, similar events](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1945)
+
+If you have any questions, please feel free to comment on any above issues or epics.
+
+Thank you for reading, Alana!

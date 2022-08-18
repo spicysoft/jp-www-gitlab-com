@@ -1,0 +1,29 @@
+name: David Dieulivol
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/#engineering-productivity">Senior Backend Engineer, Engineering Productivity</a>
+reports_to: kyle-wiebers
+picture: ddieulivol.jpg
+pronouns:
+pronunciation:
+twitter:
+linkedin:
+gitlab: ddieulivol
+departments:
+  - Engineering Function
+  - Quality Department
+  - Engineering Productivity Team
+projects:
+  gitlab: 
+    - reviewer backend
+    - reviewer tooling
+  gitlab-build-images: reviewer
+  gitlab-dangerfiles: reviewer
+  gitlab-qa: reviewer
+  gitlab-styles: reviewer
+  gitlab-triage: reviewer
+  quality-pipeline-common: reviewer
+  triage-ops: reviewer
+specialty: "Engineering Productivity"
+expertise:
+story:

@@ -1,0 +1,30 @@
+-
+  category: Development
+  description: Whether it's fixing bugs, adding new features, helping with reviews, GitLab is a great Open Source community for developers from all backgrounds. Many contributors actually started contributing to GitLab development without being familiar with languages like Ruby.
+  link: https://about.gitlab.com/community/contribute/development/
+  link_text: More on Contributing to Development
+-
+  category: Documentation
+  description: Contributing to documentation is a great way to get familiar with the GitLab development process and to meet reviewers and other community members. From fixing typos to better organizing our documentation, you will find many areas where you can contribute.
+  link: https://about.gitlab.com/community/contribute/documentation/
+  link_text: More on Contributing to Documentation
+-
+  category: Translation
+  description: GitLab is being translated into more than 35 languages, and this is also driven by wider community members. If you speak another language, you can join more than 1,500 community members who are helping translate GitLab. Come and help us speak your language!
+  link: https://about.gitlab.com/community/contribute/translation/
+  link_text: More on Contributing to Translation
+-
+  category: UX Design
+  description: To help make our product easy to use and built for a diverse group of people, we welcome contributions from the wider community. You can help us better understand your needs and how you use GitLab, or make your own contribution and GitLab UX team members will assist, as needed.
+  link: https://about.gitlab.com/community/contribute/ux-design/
+  link_text: More on Contributing to UX Design
+-
+  category: Engagement
+  description: Help us craft a fun and rewarding community experience, and help us spread the word about GitLab to reach more users and contributors. Help us foster a community where everyone feels like they belong, and where everyone is able to contribute. Whether you enjoy thinking about community strategy, blogging, organizing events, doing outreach, or just helping to create a fun and welcoming environment, we could use your help.
+  link: https://about.gitlab.com/community/contribute/engagement/
+  link_text: More on Contributing to Engagement 
+-
+  category: Project Templates
+  description: Project templates allow developers to get started with new languages and frameworks quickly. We welcome contribution from individuals or communities to the default templates which ship directly with GitLab. You can help promote your favorite languages and frameworks by helping developers around the world quickly get started not only creating default repositories, but providing them default CI/CD pipeline definitions as well!
+  link: https://about.gitlab.com/community/contribute/project-templates/
+  link_text: More on Contributing Project Templates

@@ -1,0 +1,88 @@
+---
+layout: markdown_page
+title: "Category Direction - Continuous Verification"
+description: "Continuous Verification gives users a single interface to manage, respond, and remediate issues that arise post deployment in GitLab. ."
+canonical_path: "/direction/monitor/debugging_and_health/continuous_verification/"
+---
+
+## Introduction and how you can help
+Thanks for visiting this category page on Continuous Verification in GitLab. This page belongs to the Respond group of the Monitor stage, and is maintained by [Alana Bellucci](https://gitlab.com/abellucci) who can be contacted directly via [email](mailto:abellucci@gitlab.com). This vision is a work in progress and everyone can contribute. Sharing your feedback directly on issues and epics at GitLab.com is the best way to contribute to our vision. If you’re a GitLab user and have direct knowledge of your need for continuous verification, we’d especially love to hear from you.
+
+## Overview
+
+### What is continuous verification?
+
+"Continuous verification is the process of querying external system(s) and using information from the response to make decision(s) to improve the development and deployment process."
+
+### How is continuous verification different from monitoring or observability?
+
+_Observability_ is the ability to measure the internal states of a system by examining its outputs. Users collect telemetry data so that they can determine the current state of the system. 
+
+_Monitoring_ is looks at a system to determine if the system state is within the expected range. 
+
+In the past, when users had less access to telemetry data, we had to be more selective on what we instrument. Today, there are many frameworks, platforms, and tooling that enable users to collect a variety of telemetry data. This enables many teams to actually build observable systems.
+
+Continuous verification is related to observability and monitoring, however, continuous verification aims to improve the development or deployment process. Continuous verification can be accomplished by looking at the outputs of observability systems during pipeline runs to see if a deployment is successful. Similarly, we can use other existing tools, such as a smoke test, or a container security tool to improve processes.
+
+### How does GitLab enable continuous verification today with CI/CD?
+
+The GitLab CI/CD pipeline is extremely flexible. You can add any number of stages and jobs. Each job can be a continuous verification job, such as scanning for vulnerability, which helps you to continuously improve your development and deployment processes.
+
+However, we want to specifically focus on helping GitLab user's abilities to improve deployments.
+
+### Jobs to be Done
+
+<%= partial("direction/jtbd-list", locals: { stage_key: "Respond" }) %>
+
+## Vision
+
+GitLab _Continuous Verification_ enables users to confidently deploy and verify successful deployments or quickly identify anomalies.
+
+## Challenges
+
+1. Existing [marketed continuous verification solution](https://docs.harness.io/article/ina58fap5y-what-is-cv) is dependent on multiple third party monitoring vendors, we need an integration path and prioritization strategy from the beginning should we follow the same strategy. The same strategy also requires a sizeable investment.
+1. GitLab CI/CD already enables continuous verification, but requires users, or platforms team to provide by the appropriate pipeline. We need to offer an out-of-the-box solution that is superior to what users can create on their own or augment their existing workflow to do so.
+
+## Opportunities
+
+1. One of the most important things to monitor is when something changes.  With GitLab Continuous Verification, users will have a single interface to identify the change, manage (multiple monitoring vendors), respond to, and remediate issues that arise post deployment in GitLab. 
+1. Continuous Verification can enable safer, faster, and more frequent deployments.
+
+## Strategy
+
+### Target Audience and Experience
+
+We intend to build for [Ingrid](https://about.gitlab.com/handbook/product/personas/#ingrid-infrastructure-operator) (Infrastructure Operator) and [Sasha](https://about.gitlab.com/handbook/product/personas/#sasha-software-developer) (Software Developer). 
+
+Ingrid uses GitLab continuous verification to set up deployments on behalf of her development teams. Sasha uses what Ingrid provides to confidently and efficiently deploy.
+
+### Today - (FY23Q3)
+
+We need to define how we will make iterative progress in this category post our MVC, [environtment action:verify](https://gitlab.com/gitlab-org/gitlab/-/issues/351510) 
+
+### Pricing
+
+TBD
+
+### Maturity Plan
+
+We are currently working to mature the Continuous Verification category from `minimal` to `viable`. Definitions of these maturity levels can be found on [GitLab's Maturity page](https://about.gitlab.com/direction/maturity/). While we are still working on validating the requirements for this first iteration, we'd love your input on the [Continuous Verification: Viable Maturity Plan epic](https://gitlab.com/groups/gitlab-org/-/epics/6839).
+
+### What is Next & Why?
+
+We need to identify and validate paths forward beyond our MVC. Some ideas being discussed internally include:
+
+- Automate results based on action:verify results. Do we need to build something specific beyond using CI:variables? An iteration may be as simple as documentation
+- Introduce the concept of quality gates
+- Use alerts and integrations as a signal pre-deployment
+- Define integration with observability tools 
+
+## Competitive Landscape
+
+- [Harness](https://harness.io/) - founded in 2016, Harness has their own solution for [Continuous Verification](https://docs.harness.io/article/ina58fap5y-what-is-cv)
+- [Datadog](https://www.datadoghq.com/) - founded in 2010, Datadog has a [deployment tracking](https://docs.datadoghq.com/tracing/deployment_tracking/) solution
+- [Verica](https://www.verica.io/) - founded in 2018, Verica is using the term continuous verification which proactively discovers system weaknesses and security flaws
+
+## Analyst Landscape
+As of early 2022, `Continuous Verification` doesn't have it's own magic quadrant, but the term "continuous verification" is seen in one-off mentions throughout publications.  We will be working with analysts to better understand what the trends are for observability data are around automation and machine learning.  These will help inform future iterations of GitLab's solution for Continuous Verification.  
+

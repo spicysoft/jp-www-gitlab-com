@@ -1,0 +1,24 @@
+---
+name: George Koltsov
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>, Manage:Import
+reports_to: martin-w
+picture: georgekoltsov.png
+twitter: georgekoltsov
+gitlab: georgekoltsov
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Import BE Team
+projects:
+  gitlab:
+  - maintainer backend
+story: 'George is a passionate software engineer who enjoys solving problems with
+  elegant and simple solutions. In his spare time, George likes to travel, play tennis
+  and video games.
+
+  '
+specialty:
+- 'Manage: Import'

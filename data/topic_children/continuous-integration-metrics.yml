@@ -1,0 +1,78 @@
+title: Four continuous integration metrics you should follow
+seo_title: Four continuous integration metrics you should know
+description: "To measure the success of a new continuous integration strategy,
+  consider these four metrics: cycle time, time to value, uptime, and
+  retention."
+header_body: "To measure the success of a new continuous integration strategy,
+  consider using these four metrics: cycle time, time to value, uptime, and
+  retention."
+canonical_path: /topics/ci-cd/continuous-integration-metrics/
+file_name: continuous-integration-metrics
+parent_topic: ci-cd
+twitter_image: /images/opengraph/ci-cd-opengraph.png
+cover_image: /images/topics/g_gitlab-ci-cd.svg
+body: >-
+  Whether a development team is considering a new continuous integration tool,
+  or simply measuring their current tool, metrics are an important part of how
+  we define a successful continuous integration strategy. 
+
+
+  When [implementing continuous integration](https://about.gitlab.com/topics/ci-cd/implement-continuous-integration/), there are several questions to consider: How will this new tool make our team more efficient? What are the benefits of implementing this tool versus trying to improve our current CI solution? Why is this CI tool [the right one](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/) for us? While these questions can gauge readiness and current feelings from the team, they are largely subjective. Metrics are a definitive way to show whether a solution is working, or not working, based on your team’s specific goals.
+
+
+
+  # Continuous integration metrics and KPIs
+
+
+  Key performance indicators (KPIs) are used in practically every industry to show data around goals. In enterprises, KPIs are often applied to business functions as well as individuals to measure performance and progress towards certain initiatives. Like any business investment, teams need to be able to show how their continuous integration solution is meeting their needs.
+
+
+  Continuous integration metrics can range significantly, depending on a team’s priorities or even the industry. Successful CI strategies can look different from team to team, but there are metrics that can highlight potential problems or areas of opportunity for any team. 
+
+
+
+  ## 1. Cycle time
+
+
+  Cycle time is the speed at which a DevOps team can deliver a functional application, from the moment work begins to when it is providing value to an end user. In GitLab, we call this [value stream analytics](https://about.gitlab.com/stages-devops-lifecycle/value-stream-analytics/) and it measures how long it takes your team to work in each stage of the developer workflow. By answering the question “How long does it take us to create something?” teams create a baseline that can then be revisited and improved upon.
+
+
+  *   [10 strategies to reduce cycle times](https://about.gitlab.com/blog/2018/10/12/strategies-to-reduce-cycle-times/)
+
+
+
+  ## 2. Time to value
+
+
+  Once code is written, how long before it’s released? While cycle time measures the process, as a whole, time to value (TTV) focuses on the release process. This delay from when code is written to running in production is a bottleneck for many organizations. Having robust [continuous delivery](https://about.gitlab.com/stages-devops-lifecycle/continuous-delivery/) can help to overcome this barrier to quick deployments.
+
+
+
+  ## 3. Uptime, error rate, infrastructure costs
+
+
+  Uptime is one of the biggest priorities for the ops team. Uptime is simply a measure of stability and reliability – how often is everything working as it should? With the right [CI/CD](/topics/ci-cd/) strategy that automates the development lifecycle, ops leaders can focus more of their time on system stability and less time on workflow issues. If uptime and error rates seem high, it can illustrate a [common CI/CD challenge](https://about.gitlab.com/blog/2019/06/05/modernize-your-ci-cd/) between dev and ops teams. Operations goals are a key indicator of process success.
+
+
+
+  ## 4. Team retention rate
+
+
+  While happiness is a metric that’s nearly impossible to measure, happy developers do tend to stick around. Retention rates can’t measure happiness, but it can shed some light on how well processes and applications are working for the team. It might be tough for developers to speak up if they don’t like how things are going, but looking at retention rates can be one step in identifying potential problems.
+
+
+  The [benefits of CI/CD](https://about.gitlab.com/topics/ci-cd/benefits-continuous-integration/) are felt throughout an organization: From HR to operations, teams work better and achieve goals. Establishing metrics around CI/CD performance can provide insights on many aspects of the business, not just development. These four CI/CD metrics can help to see how effective your continuous integration strategy is, and justify whether a new tool is needed to meet business goals.
+cta_banner:
+  - title: GitLab CI/CD
+    body: Powerful automation to build and test faster at any scale
+    cta:
+      - text: Learn more
+        url: /stages-devops-lifecycle/continuous-integration/
+resources_title: More on continuous integration
+resources:
+  - title: Mastering CI/CD
+    url: https://about.gitlab.com/devops-tools/github-vs-gitlab/
+    type: Webcast
+  - title: Modernize your CI/CD
+    url: https://about.gitlab.com/resources/ebook-fuel-growth-cicd/
+    type: Books

@@ -1,0 +1,27 @@
+---
+name: Pavlo Strokov
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Gitaly</a>
+reports_to: andrashorvath
+picture: pavlostrokov.png
+twitter:
+gitlab: 8bitlife
+departments:
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Gitaly Team
+  - Gitaly BE Team
+projects:
+  gitaly:
+    - reviewer
+    - maintainer
+  labkit: trainee_maintainer
+story: 'Pavlo is a backend engineer who started with Java and then switched to Go.
+  He is passioned about sports and active outdoor activities as well as cooking.
+
+  '
+specialty: Gitaly

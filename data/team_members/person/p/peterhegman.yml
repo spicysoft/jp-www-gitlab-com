@@ -1,0 +1,35 @@
+---
+name: Peter Hegman
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
+  Manage:Workspace
+reports_to: malgorzata-ksionek
+picture: peterhegman.jpg
+twitter:
+gitlab: peterhegman
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Workspace FE Team
+- Frontend
+- Merge Request Coach
+expertise: '<li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+
+  '
+story: Peter is a frontend engineer who lives equal distance between Seattle, WA and
+  Vancouver, BC in the city of Bellingham, WA. Peter previously worked in an agency
+  setting building web apps for the health care industry. He has experience with backend
+  technologies but his primary focus has been working with frontend technologies such
+  as Vue.js and React. He is passionate about writing clean and maintainable code
+  that helps contribute to a better user experience. In his free time you can find
+  Peter out in the woods riding his mountain bike or up at the mountain searching
+  for fresh snow.
+projects:
+  gitlab: maintainer frontend
+  gitlab-ui: maintainer frontend
+specialty:
+- 'Manage: Workspace'
+

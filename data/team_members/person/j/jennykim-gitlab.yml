@@ -1,0 +1,24 @@
+name: Jenny Kim
+locality: 
+country: Remote
+role: <a href="/job-families/engineering/infrastructure/site-reliability-engineer/">Site Reliability Engineer, Delivery</a>
+reports_to: mbursi
+picture: jennykim.png
+pronouns: she/her
+pronunciation:
+twitter:
+linkedin: yoonjeank
+gitlab: jennykim-gitlab
+departments:
+  - Engineering Function
+  - Infrastructure Department
+  - Platform Subdepartment
+  - Delivery Team
+specialty: "Delivery"
+expertise:
+story: |
+  Jenny is passionate about all things infrastructure, automation, and CI/CD. 
+  Although she started her career as a fullstack developer, she kept grativating 
+  towards infrastructure topics, so she changed roles to a site reliability engineer.
+  Jenny spends her spare time hiking, reading, playing video games, and attending
+  fitness classes in the area.

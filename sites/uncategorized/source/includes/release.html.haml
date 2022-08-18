@@ -1,0 +1,545 @@
+/ If there are no in the shared datafile, assume we need to assemble from many
+- if datafile == nil
+  - datafile = release_post_items(current_article.data.release_number)
+
+/ CTA
+- if datafile.cta != nil
+  %p.cta.text-center
+    - datafile.cta.each_with_index do |cta, i|
+      - if cta.link != nil
+        = link_to(cta.title, "#{cta.link}", class: "btn btn-red webcast-button", target: "_blank")
+
+/ MVP
+- if datafile.mvp != nil
+  %section#mvp.mvp.gray-section
+    - datafile.mvp do |mvp|
+      .release-post-section
+        = image_tag "/images/mvp_badge.png", alt: "GitLab MVP badge"
+        %h2{:id => "mvp"}
+          %a.header-link{href: "#mvp"}
+            %i.fas.fa-link
+          This month's Most Valuable Person (
+          %a{href: "/community/mvp/"}> MVP
+          ) is
+          = link_to(mvp.fullname, "https://gitlab.com/#{mvp.gitlab}")
+        = kramdown(mvp.description)
+        - unless mvp.image.blank?
+          = image_tag mvp.image, alt: "Gift for the MVP for this month", class: "mvp-gift"
+
+/ top feature
+- if datafile.features.top != nil
+  %section#top-feature.top-feature.release-post-section
+    .release-post-section.text-center
+      %h2{:id => "key-features-released", :class => "features-released"}
+        %a.header-link{href: "#key-features"}
+          %i.fas.fa-link
+        = "Key improvements released in GitLab #{current_article.data.release_number}"
+    - datafile.features.top.each do |top_feature|
+      - feature_name_href = top_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
+      %h2{:id => "#{feature_name_href}"}
+        %a.header-link{href: "##{feature_name_href}"}
+          %i.fas.fa-link
+        = kramdown(top_feature.name)
+      .badge-with-tiers
+        - if top_feature.stage
+          - if top_feature.stage_url
+            %a.stage-badge{ href: "#{top_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{top_feature.stage.capitalize}" }
+              = partial "/includes/icons/sdlc-icons/#{top_feature.stage}.svg"
+          - elsif data.stages.stages[top_feature.stage].marketing
+            %a.stage-badge{ href: "/stages-devops-lifecycle/#{top_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{top_feature.stage.capitalize}" }
+              = partial "/includes/icons/sdlc-icons/#{top_feature.stage}.svg"
+          - else
+            %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{top_feature.stage.capitalize}" }
+              = partial "/includes/icons/sdlc-icons/#{top_feature.stage}.svg"
+        = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(top_feature.available_in), gitlab_com: top_feature.gitlab_com, is_dark: true }
+      = kramdown(top_feature.description)
+      .column
+        - if top_feature.video
+          %figure.video_container
+            %iframe{:src => "#{top_feature.video}?rel=0", :frameborder => "0", :allowfullscreen => "true"}
+        - else
+          - if top_feature.image_url
+            - if top_feature.image_noshadow == true
+              = image_tag "#{top_feature.image_url}", alt: "#{top_feature.name}", loading: 'lazy'
+            - else
+              = image_tag "#{top_feature.image_url}", class: "shadow", alt: "#{top_feature.name}", loading: 'lazy'
+      .row.reference-buttons
+        .col-md-12.col-sm-12
+          %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.documentation_link}", :target => "_blank"}
+            = partial "includes/icons/product-icons/docs.svg"
+            Documentation
+          - if Array(top_feature.issue_url).any?
+            - Array(top_feature.issue_url).each do |issue_url|
+              %a{ class: "btn btn-default btn-sm product-icon", :href => "#{issue_url}", :target => "_blank"}
+                = partial "includes/icons/product-icons/issues.svg"
+                Issue
+          - if top_feature.issueboard_url != nil
+            %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.issue_url}", :target => "_blank"}
+              = partial "includes/icons/product-icons/issue-boards.svg"
+              Issue Board
+          - if top_feature.epic_url != nil
+            %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.epic_url}", :target => "_blank"}
+              = partial "includes/icons/product-icons/epics.svg"
+              Epic
+          - if top_feature.mr_url != nil
+            %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.mr_url}", :target => "_blank"}
+              = partial "includes/icons/product-icons/merge-requests.svg"
+              Merge Request
+          - if top_feature.webpage_url != nil
+            %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.webpage_url}", :target => "_blank"}
+              = partial "includes/icons/product-icons/webpage.svg"
+              Webpage
+  %hr/
+
+/ primary features
+- if datafile.features.primary != nil
+  %section#primary-features.release-post-section
+    - datafile.features.primary.each_with_index do |primary_feature, i|
+      - if i.even?
+        - feature_name_href = primary_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
+        .release-row
+          .column
+            %h2{:id => "#{feature_name_href}"}
+              %a.header-link{href: "##{feature_name_href}"}
+                %i.fas.fa-link
+              = kramdown(primary_feature.name)
+            .badge-with-tiers
+              - if primary_feature.stage
+                - if primary_feature.stage_url
+                  %a.stage-badge{ href: "#{primary_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
+                    = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                - elsif data.stages.stages[primary_feature.stage].marketing
+                  %a.stage-badge{ href: "/stages-devops-lifecycle/#{primary_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
+                    = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                - else
+                  %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
+                    = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+              = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(primary_feature.available_in), gitlab_com: primary_feature.gitlab_com, is_dark: true }
+            = kramdown(primary_feature.description)
+            .row.reference-buttons
+              .col-md-12.col-sm-12
+                - if primary_feature.documentation_link != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.documentation_link}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/docs.svg"
+                    Documentation
+                - if Array(primary_feature.issue_url).any?
+                  - Array(primary_feature.issue_url).each do |issue_url|
+                    %a{ class: "btn btn-default btn-sm product-icon", :href => "#{issue_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/issues.svg"
+                      Issue
+                - if primary_feature.issueboard_url != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.issueboard_url}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/issue-boards.svg"
+                    Issue Board
+                - if primary_feature.epic_url != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.epic_url}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/epics.svg"
+                    Epic
+                - if primary_feature.mr_url != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.mr_url}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/merge-requests.svg"
+                    Merge Request
+                - if primary_feature.webpage_url != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.webpage_url}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/webpage.svg"
+                    Webpage
+
+          .column
+            - if primary_feature.video
+              %figure.video_container
+                %iframe{:src => "#{primary_feature.video}?rel=0", :frameborder => "0", :allowfullscreen => "true"}
+            - else
+              - if primary_feature.image_url != nil
+                - if primary_feature.image_noshadow == true
+                  = image_tag "#{primary_feature.image_url}", alt: "#{primary_feature.name}", loading: 'lazy'
+                - else
+                  = image_tag "#{primary_feature.image_url}", class: "shadow", alt: "#{primary_feature.name}", loading: 'lazy'
+      - else
+        - feature_name_href = primary_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
+        %hr/
+        .release-row.image-left
+          .column.text-column
+            %h2{:id => "#{feature_name_href}"}
+              %a.header-link{href: "##{feature_name_href}"}
+                %i.fas.fa-link
+              = kramdown(primary_feature.name)
+            .badge-with-tiers
+              - if primary_feature.stage
+                - if primary_feature.stage_url
+                  %a.stage-badge{ href: "#{primary_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
+                    = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                - elsif data.stages.stages[primary_feature.stage].marketing
+                  %a.stage-badge{ href: "/stages-devops-lifecycle/#{primary_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
+                    = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                - else
+                  %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
+                    = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+              = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(primary_feature.available_in), gitlab_com: primary_feature.gitlab_com, is_dark: true }
+            = kramdown(primary_feature.description)
+            .row.reference-buttons
+              .col-md-12.col-sm-12
+                - if primary_feature.documentation_link != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.documentation_link}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/docs.svg"
+                    Documentation
+                - if Array(primary_feature.issue_url).any?
+                  - Array(primary_feature.issue_url).each do |issue_url|
+                    %a{ class: "btn btn-default btn-sm product-icon", :href => "#{issue_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/issues.svg"
+                      Issue
+                - if primary_feature.issueboard_url != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.issueboard_url}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/issue-boards.svg"
+                    Issue Board
+                - if primary_feature.epic_url != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.epic_url}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/epics.svg"
+                    Epic
+                - if primary_feature.mr_url != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.mr_url}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/merge-requests.svg"
+                    Merge Request
+                - if primary_feature.webpage_url != nil
+                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.webpage_url}", :target => "_blank"}
+                    = partial "includes/icons/product-icons/webpage.svg"
+                    Webpage
+          .column.image-column
+            - if primary_feature.video
+              %figure.video_container
+                %iframe{:src => "#{primary_feature.video}?rel=0", :frameborder => "0", :allowfullscreen => "true"}
+            - else
+              - if primary_feature.image_url != nil
+                - if primary_feature.image_noshadow == true
+                  = image_tag "#{primary_feature.image_url}", alt: "#{primary_feature.name}"
+                - else
+                  = image_tag "#{primary_feature.image_url}", class: "shadow", alt: "#{primary_feature.name}"
+        %hr/
+
+/ secondary features
+- if datafile.features.secondary != nil
+  %section#secondary-features.release-post-section
+    .release-post-section.text-center.zero-bottom-margin
+      .title-with-stage
+        %h2{:id => "other-improvements-in-gitlab", :class => "features-released"}
+          %a.header-link{href: "#other-improvements-in-gitlab"}
+            %i.fas.fa-link
+          = "Other improvements in GitLab #{current_article.data.release_number}"
+        - if current_article.data.stage
+          - if current_article.data.stage_url
+            %a.stage-badge{ href: "#{current_article.data.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{current_article.data.stage.capitalize}" }
+              = partial "/includes/icons/sdlc-icons/#{current_article.data.stage}.svg"
+          - elsif data.stages.stages[current_article.data.stage].marketing
+            %a.stage-badge{ href: "/stages-devops-lifecycle/#{current_article.data.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{current_article.data.stage.capitalize}" }
+              = partial "/includes/icons/sdlc-icons/#{current_article.data.stage}.svg"
+          - else
+            %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{current_article.data.stage.capitalize}" }
+              = partial "/includes/icons/sdlc-icons/#{current_article.data.stage}.svg"
+    .release-row.align-top.divider
+      .secondary-release-column
+        - datafile.features.secondary.each_with_index do |secondary_feature, i|
+          - feature_name_href = secondary_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
+          - if (i.even? && !secondary_feature.force_right) || secondary_feature.force_left
+            .secondary-column-feature
+              %h3{:id => "#{feature_name_href}"}
+                %a.header-link{href: "##{feature_name_href}"}
+                  %i.fas.fa-link
+                = kramdown(secondary_feature.name)
+              .badge-with-tiers
+                - if secondary_feature.stage
+                  - if secondary_feature.stage_url
+                    %a.stage-badge{ href: "#{secondary_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
+                      = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                  - elsif data.stages.stages[secondary_feature.stage].marketing
+                    %a.stage-badge{ href: "/stages-devops-lifecycle/#{secondary_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
+                      = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                  - else
+                    %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
+                      = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(secondary_feature.available_in), gitlab_com: secondary_feature.gitlab_com, is_dark: true }
+              = kramdown(secondary_feature.description)
+              - if secondary_feature.video
+                %figure.video_container
+                  %iframe{:src => "#{secondary_feature.video}?rel=0", :frameborder => "0", :allowfullscreen => "true"}
+              - else
+                - if secondary_feature.image_url != nil
+                  - if secondary_feature.image_noshadow == true
+                    = image_tag "#{secondary_feature.image_url}", alt: "#{secondary_feature.name}", loading: 'lazy'
+                  - else
+                    = image_tag "#{secondary_feature.image_url}", class: "shadow", alt: "#{secondary_feature.name}", loading: 'lazy'
+              .row.reference-buttons.ref-buttons-second-features
+                .col-md-12.col-sm-12
+                  - if secondary_feature.documentation_link != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.documentation_link}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/docs.svg"
+                      Documentation
+                  - if Array(secondary_feature.issue_url).any?
+                    - Array(secondary_feature.issue_url).each do |issue_url|
+                      %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{issue_url}", :target => "_blank"}
+                        = partial "includes/icons/product-icons/issues.svg"
+                        Issue
+                  - if secondary_feature.issueboard_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.issueboard_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/issue-boards.svg"
+                      Issue Board
+                  - if secondary_feature.epic_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.epic_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/epics.svg"
+                      Epic
+                  - if secondary_feature.mr_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.mr_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/merge-requests.svg"
+                      Merge Request
+                  - if secondary_feature.webpage_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.webpage_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/webpage.svg"
+                      Webpage
+                  - if secondary_feature.performance_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :"data-toggle" => "tooltip", :"data-placement" => "auto", :title => "See all the performance improvements in GitLab #{current_article.data.release_number}", :href => "#{secondary_feature.performance_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/rocket.svg"
+                      Performance improvements
+                  - if secondary_feature.bug_fixes_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :"data-toggle" => "tooltip", :"data-placement" => "auto", :title => "See all the bug fixes in GitLab #{current_article.data.release_number}", :href => "#{secondary_feature.bug_fixes_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/issues.svg"
+                      Bug Fixes
+                  - if secondary_feature.ux_improvements_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :"data-toggle" => "tooltip", :"data-placement" => "auto", :title => "See all the usability improvements in GitLab #{current_article.data.release_number}", :href => "#{secondary_feature.ux_improvements_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/issues.svg"
+                      UX Improvements
+
+      .secondary-release-column
+        - datafile.features.secondary.each_with_index do |secondary_feature, i|
+          - feature_name_href = secondary_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
+          - if (i.odd? && !secondary_feature.force_left) || secondary_feature.force_right
+            .secondary-column-feature
+              %h3{:id => "#{feature_name_href}"}
+                %a.header-link{href: "##{feature_name_href}"}
+                  %i.fas.fa-link
+                = kramdown(secondary_feature.name)
+              .badge-with-tiers
+                - if secondary_feature.stage
+                  - if secondary_feature.stage_url
+                    %a.stage-badge{ href: "#{secondary_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
+                      = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                  - elsif data.stages.stages[secondary_feature.stage].marketing
+                    %a.stage-badge{ href: "/stages-devops-lifecycle/#{secondary_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
+                      = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                  - else
+                    %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
+                      = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(secondary_feature.available_in), gitlab_com: secondary_feature.gitlab_com, is_dark: true }
+              = kramdown(secondary_feature.description)
+              - if secondary_feature.video
+                %figure.video_container
+                  %iframe{:src => "#{secondary_feature.video}?rel=0", :frameborder => "0", :allowfullscreen => "true"}
+              - else
+                - if secondary_feature.image_url != nil
+                  - if secondary_feature.image_noshadow == true
+                    = image_tag "#{secondary_feature.image_url}", alt: "#{secondary_feature.name}", loading: 'lazy'
+                  - else
+                    = image_tag "#{secondary_feature.image_url}", class: "shadow", alt: "#{secondary_feature.name}", loading: 'lazy'
+              .row.reference-buttons.ref-buttons-second-features
+                .col-md-12.col-sm-12
+                  - if secondary_feature.documentation_link != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.documentation_link}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/docs.svg"
+                      Documentation
+                  - if Array(secondary_feature.issue_url).any?
+                    - Array(secondary_feature.issue_url).each do |issue_url|
+                      %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{issue_url}", :target => "_blank"}
+                        = partial "includes/icons/product-icons/issues.svg"
+                        Issue
+                  - if secondary_feature.issueboard_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.issueboard_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/issue-boards.svg"
+                      Issue Board
+                  - if secondary_feature.epic_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.epic_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/epics.svg"
+                      Epic
+                  - if secondary_feature.mr_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.mr_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/merge-requests.svg"
+                      Merge Request
+                  - if secondary_feature.webpage_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.webpage_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/webpage.svg"
+                      Webpage
+                  - if secondary_feature.performance_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :"data-toggle" => "tooltip", :"data-placement" => "auto", :title => "See all the performance improvements in GitLab #{current_article.data.release_number}", :href => "#{secondary_feature.performance_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/rocket.svg"
+                      Performance improvements
+                  - if secondary_feature.bug_fixes_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :"data-toggle" => "tooltip", :"data-placement" => "auto", :title => "See all the bug fixes in GitLab #{current_article.data.release_number}", :href => "#{secondary_feature.bug_fixes_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/issues.svg"
+                      Bug Fixes
+                  - if secondary_feature.ux_improvements_url != nil
+                    %a{ class: "btn btn-default btn-xs product-icon-xm", :"data-toggle" => "tooltip", :"data-placement" => "auto", :title => "See all the usability improvements in GitLab #{current_article.data.release_number}", :href => "#{secondary_feature.ux_improvements_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/issues.svg"
+                      Usability improvements
+            %hr.hidden-lg
+
+/ tertiary features
+- if datafile.tertiary.present?
+  %section#tertiary.release-post-section
+    - datafile.tertiary.each do |tertiary_item|
+      - feature_name_href = tertiary_item.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
+      %h3.text-center{:id => "#{feature_name_href}"}
+        %a.header-link{href: "##{feature_name_href}"}
+          %i.fas.fa-link
+        = kramdown(tertiary_item.name)
+      = kramdown(tertiary_item.description)
+      .row.reference-buttons.ref-buttons-tertiary-features
+        .col-md-12.col-sm-12
+          - if tertiary_item.performance_improvements_url != nil
+            %a{ class: "btn btn-default btn-xs product-icon-xm", :"data-toggle" => "tooltip", :"data-placement" => "auto", :title => "See all the performance improvements in GitLab #{current_article.data.release_number}", :href => "#{tertiary_item.performance_improvements_url}", :target => "_blank"}
+              = partial "includes/icons/product-icons/rocket.svg"
+              Performance improvements
+          - if tertiary_item.bug_fixes_url != nil
+            %a{ class: "btn btn-default btn-xs product-icon-xm", :"data-toggle" => "tooltip", :"data-placement" => "auto", :title => "See all the bug fixes in GitLab #{current_article.data.release_number}", :href => "#{tertiary_item.bug_fixes_url}", :target => "_blank"}
+              = partial "includes/icons/product-icons/issues.svg"
+              Bug Fixes
+          - if tertiary_item.ux_improvements_url != nil
+            %a{ class: "btn btn-default btn-xs product-icon-xm", :"data-toggle" => "tooltip", :"data-placement" => "auto", :title => "See all the usability improvements in GitLab #{current_article.data.release_number}", :href => "#{tertiary_item.ux_improvements_url}", :target => "_blank"}
+              = partial "includes/icons/product-icons/issues.svg"
+              UX Improvements
+      %hr.hidden-lg
+
+/ deprecations
+- if current_article.data.release_number == "Preview"
+  - current_version = Gem::Version.new(0)
+- else
+  - current_version = Gem::Version.new(current_article.data.release_number)
+- if datafile.deprecations.present? && current_version <= config[:latest_deprecation_release]
+  %section#deprecations.release-post-section
+    %h2.text-center{:id => "release-deprecations"}
+      %a.header-link{href: "#release-deprecations"}
+        %i.fas.fa-link
+      Deprecations
+      - if current_version > config[:latest_deprecation_release]
+        = kramdown("The deprecated items listed below are newly deprecated as of this release.  This list does not include features that were deprecated in previous releases and that have not yet been removed from the product.  A complete list of all features that are currently deprecated can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/deprecations.html).")
+    - datafile.deprecations.each do |deprecation|
+      - feature_name_href = deprecation.feature_name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
+      %h3{:id => "#{feature_name_href}"}
+        %a.header-link{href: "##{feature_name_href}"}
+          %i.fas.fa-link
+        = kramdown(deprecation.feature_name)
+      = kramdown(deprecation.description)
+      %p
+        - deprecation_type = deprecation.type.presence&.capitalize || 'Planned removal'
+        #{deprecation_type} date:
+        %strong= "#{deprecation.due}"
+- elsif datafile.deprecations.present? && current_version > config[:latest_deprecation_release]
+  %section#deprecations.release-post-section
+    %h2.text-center{:id => "release-deprecations"}
+      %a.header-link{href: "#release-deprecations"}
+        %i.fas.fa-link
+      Deprecations
+    %p
+      = kramdown("New deprecations and the complete list of all features that are currently deprecated can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/deprecations.html).")
+    %ul
+    - datafile.deprecations.each do |deprecation|
+      - feature_name_href = deprecation.feature_name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9\-_]/, '')
+      %li
+        %a{href: "https://docs.gitlab.com/ee/update/deprecations.html##{feature_name_href}"}
+          #{deprecation.feature_name}
+- else
+  %section#deprecations.release-post-section
+    %h2.text-center{:id => "release-deprecations"}
+      %a.header-link{href: "#release-deprecations"}
+        %i.fas.fa-link
+      Deprecations
+    %p
+      = kramdown("The complete list of all features that are currently deprecated can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/deprecations.html).")
+
+/ removals
+- if datafile.removals.present? && current_version <= config[:latest_deprecation_release]
+  %section#removals.release-post-section
+    %h2.text-center{:id => "release-removals"}
+      %a.header-link{href: "#release-removals"}
+        %i.fas.fa-link
+      Removals and breaking changes
+    - datafile.removals.each do |removal|
+      - feature_name_href = removal.feature_name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9\-_]/, '')
+      %h3{:id => "#{feature_name_href}"}
+        %a.header-link{href: "##{feature_name_href}"}
+          %i.fas.fa-link
+        = kramdown(removal.feature_name)
+      = kramdown(removal.description)
+      %p
+        - deprecation_type = removal.type.presence&.capitalize || 'Removal'
+        #{deprecation_type} date:
+        %strong= "#{removal.date_of_removal}"
+- elsif datafile.removals.present? && current_version > config[:latest_deprecation_release]
+  %section#removals.release-post-section
+    %h2.text-center{:id => "release-removals"}
+      %a.header-link{href: "#release-removals"}
+        %i.fas.fa-link
+      Removals and breaking changes
+    %p
+      = kramdown("The complete list of all removed features can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/removals.html).")
+    %ul
+    - datafile.removals.each do |removal|
+      - feature_name_href = removal.feature_name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9\-_]/, '')
+      %li
+        %a{href: "https://docs.gitlab.com/ee/update/removals.html##{feature_name_href}"}
+          #{removal.feature_name}
+- else
+  %section#removals.release-post-section
+    %h2.text-center{:id => "release-removals"}
+      %a.header-link{href: "#release-removals"}
+        %i.fas.fa-link
+      Removals and breaking changes
+    %p
+      = kramdown("The complete list of all removed features can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/removals.html).")
+
+/ extras
+- if datafile.extras.present? && current_version < Gem::Version.new(14.0)
+  %section#extras.release-post-section
+    %h2.text-center{:id => "#{datafile.extras.header.downcase.tr(" ", "-")}"}
+      %a.header-link{href: "##{datafile.extras.header.downcase.tr(" ", "-")}"}
+        %i.fas.fa-link
+      = datafile.extras.header
+      - datafile.extras.blocks.each do |extra_block|
+        - feature_name_href = extra_block.title.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9\-_]/, '')
+        %h3{:id => "#{feature_name_href}"}
+          %a.header-link{href: "##{feature_name_href}"}
+            %i.fas.fa-link
+          = kramdown(extra_block.title)
+        = kramdown(extra_block.description)
+
+        %hr.hidden-lg
+
+- if datafile.extras.present? && current_version >= Gem::Version.new(14.0)
+  %section#extras.release-post-section
+    %h2.text-center{:id => "release-extras"}
+      %a.header-link{href: "#release-extras"}
+        %i.fas.fa-link
+      Other notable changes
+      - datafile.extras.each do |extra|
+        - feature_name_href = extra.title.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9\-_]/, '')
+        %h3{:id => "#{feature_name_href}"}
+          %a.header-link{href: "##{feature_name_href}"}
+            %i.fas.fa-link
+          = kramdown(extra.title)
+        = kramdown(extra.description)
+
+        %hr.hidden-lg
+
+/ Updgrade warning - introduced on 11.8 - replaces "upgrade barometer"
+- if datafile.upgrade
+  %section#upgrade-warning.release-post-section
+    %h2.text-center{:id => "upgrade"}
+      %a.header-link{href: "#upgrade"}
+        %i.fas.fa-link
+      = "Important notes on upgrading to GitLab #{current_article.data.release_number}"
+    = kramdown(datafile.upgrade.description)
+
+/ Updgrade barometer - deprecated on 11.8 (leave it here for the older posts)
+- if datafile.barometer
+  %section#upgrade-barometer.release-post-section
+    - datafile.barometer do |barometer|
+      %h2.text-center{:id => "barometer"}
+        %a.header-link{href: "#barometer"}
+          %i.fas.fa-link
+        Upgrade barometer
+      = kramdown(barometer.description)

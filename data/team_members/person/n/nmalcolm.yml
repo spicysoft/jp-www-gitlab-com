@@ -1,0 +1,22 @@
+name: Nick Malcolm
+locality:
+country: Remote
+role: <a href="/job-families/engineering/application-security/#senior-application-security-engineer">Senior Security Engineer, Application Security</a>, Manage (Compliance, Import, Optimize), ModelOps (Applied Machine Learning, Anti-Abuse, MLOps, DataOps)
+reports_to: andrewkelly
+picture: nmalcolm.jpg
+pronouns: he/him
+pronunciation:
+twitter: nickmalcolm
+linkedin: nickmalcolm
+gitlab: nmalcolm
+departments:
+- Engineering Function
+- Security Department
+specialty: Application Security
+expertise:
+story: |
+  Nick's goal is to help everyone contribute in a safe and secure world.
+  Outside of work he loves to spend time with his young family, and/or be
+  hiking and running in beautiful Aotearoa, New Zealand.
+projects:
+  gitlab: maintainer security

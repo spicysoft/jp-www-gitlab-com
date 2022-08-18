@@ -1,0 +1,150 @@
+---
+title: Press kit
+description: "On this page you can find our Press Kit and GitLab logos and brand assets. View more information here!"
+canonical_path: "/press/press-kit/"
+suppress_header: true
+extra_css:
+  - press.css
+---
+
+.blank-header
+  = image_tag "/images/home/icons-pattern-left.svg", class: "image-border image-border-left", alt: "Gitlab hero border pattern left svg"
+  = image_tag "/images/home/icons-pattern-right.svg", class: "image-border image-border-right", alt: "Gitlab hero border pattern right svg"
+  .header-content
+    %h1 Press kit
+    %p GitLab logos and brand assets
+
+.toc-links
+  = link_to "GitLab logos RGB", "#logos-rgb"
+  = link_to "GitLab logos CMYK", "#logos-cmyk"
+  = link_to "Additional images", "#additional-images"
+  = link_to "Green screens", "#green-screens"
+  = link_to "Team members at work", "#workstations"
+  = link_to "Press release boilerplate", "#boilerplate"
+  = link_to "Trademark information", "/handbook/marketing/corporate-marketing/brand-activation/trademark-guidelines/"
+
+.gitlab-content-container.margin-top50
+
+  // logos RGB
+  .content
+    .downloads
+      .content-section-title-container#logos-rgb
+        = image_tag "/images/press/press-kit-icon.svg", class: "content-section-icon", alt: "GitLab press kit icon svg"
+        %h2.margin-top0 GitLab logos - RGB for digital use
+        %p.title-label PNG downloads have a transparent background, JPGs will have a white background.
+      - data.press_kit.logos.each_slice(3).to_a.each do |group|
+        .downloads-row.flex-container.full-width
+          - group.each do |logo|
+            .tile.image-container
+              %p.tile-label
+                = logo.title
+              .image-preview-container
+                %a.image{ href: "#{logo.preview}", target: "_blank", style: "background: url('#{logo.preview}') center center no-repeat; background-size: contain;" }
+              .list
+                - logo.file_types.each do |file|
+                  %a{ download: "#{file.download_tag}", href: "#{file.link}" }
+                    %i.fas.fa-download
+                    %p
+                      = file.type
+
+  // logos RGB
+  .content
+    .downloads
+      .content-section-title-container#logos-cmyk
+        = image_tag "/images/press/press-kit-icon.svg", class: "content-section-icon", alt: "GitLab press kit icon svg"
+        %h2.margin-top0 GitLab logos - CMYK for print use
+        %p.title-label JPGs will have a white background.
+      - data.press_kit.logos_print.each_slice(3).to_a.each do |group|
+        .downloads-row.flex-container.full-width
+          - group.each do |logo|
+            .tile.image-container
+              %p.tile-label
+                = logo.title
+              .image-preview-container
+                %a.image{ href: "#{logo.preview}", target: "_blank", style: "background: url('#{logo.preview}') center center no-repeat; background-size: contain;" }
+              .list
+                - logo.file_types.each do |file|
+                  %a{ download: "#{file.download_tag}", href: "#{file.link}" }
+                    %i.fas.fa-download
+                    %p
+                      = file.type
+
+    // additional images
+  .content
+    .downloads
+      .content-section-title-container#additional-images
+        = image_tag "/images/press/image-icon.svg", class: "content-section-icon", alt: "Additional images icon svg"
+        %h2.margin-top0 Additional Images
+      - data.press_kit.additional_images.each_slice(3).to_a.each do |group|
+        .downloads-row.flex-container.full-width
+          - group.each do |image|
+            .tile.image-container
+              %p.tile-label
+                = image.title
+              .image-preview-container
+                %a.image{ href: "#{image.preview}", target: "_blank", style: "background: url('#{image.preview}') center center no-repeat; background-size: contain;" }
+              .list
+                - image.file_types.each do |file|
+                  %a{ download: "#{file.download_tag}", href: "#{file.link}" }
+                    %i.fas.fa-download
+                    %p
+                      = file.type
+
+    // green screens
+  .content
+    .downloads
+      .content-section-title-container#green-screens
+        = image_tag "/images/press/image-icon.svg", class: "content-section-icon", alt: "Green screens icon svg"
+        %h2.margin-top0 Green Screens
+        %a{ href: "https://docs.google.com/presentation/d/1PM4sCuCTSmVtoCp_O-_K9BS7yrIJjh1kteMTT7PS9zI/edit#slide=id.gc6bdfa0016_0_2", target: "_blank", } GitLab Zoom backgrounds with editable lower-thirds
+        %p.title-label GitLab team member instructions: make a copy of the doc, edit a slide to include your name and location, then download the slide as a .png
+      - data.press_kit.green_screens.each_slice(3).to_a.each do |group|
+        .downloads-row.flex-container.full-width
+          - group.each do |image|
+            .tile.image-container
+              %p.tile-label
+                = image.title
+              .image-preview-container
+                %a.image{ href: "#{image.preview}", target: "_blank", style: "background: url('#{image.preview}') center center no-repeat; background-size: contain;" }
+              .list
+                - image.file_types.each do |file|
+                  %a{ download: "#{file.download_tag}", href: "#{file.link}" }
+                    %i.fas.fa-download
+                    %p
+                      = file.type
+
+    // team members at work
+  .content
+    .downloads
+      .content-section-title-container#workstations
+        = image_tag "/images/press/image-icon.svg", class: "content-section-icon", alt: "Employee workstations icon svg"
+        %h2.margin-top0 Team members at work
+      - data.press_kit.employee_workstations.each_slice(4).to_a.each do |group|
+        .downloads-row.flex-container.full-width
+          - group.each do |image|
+            .tile.image-container
+              %p.tile-label
+                = image.title
+              .image-preview-container
+                %a.image{ href: "#{image.preview}", target: "_blank", style: "background: url('#{image.preview}') center center no-repeat; background-size: contain;" }
+              .list
+                - image.file_types.each do |file|
+                  %a{ download: "#{file.download_tag}", href: "#{file.link}" }
+                    %i.fas.fa-download
+                    %p
+                      = file.type
+
+  .content
+    .content-section-title-container#boilerplate
+      = image_tag "/images/icons/get-in-touch-icon.svg", class: "content-section-icon", alt: "GitLab press kit icon svg"
+      %h2.margin-top0 Press release boilerplate
+    .tile
+      %p
+        GitLab is The One DevOps platform for software innovation. As The One DevOps Platform, GitLab provides one interface, one data store, one permissions model, one value stream, one set of reports, one spot to secure your code, one location to deploy to any cloud, and one place for everyone to contribute. The platform is the only true cloud-agnostic end-to-end DevOps platform that brings together all DevOps capabilities in one place. 
+        %br
+        %br
+        With GitLab, organizations can create, deliver, and manage code quickly and continuously to translate business vision into reality. GitLab empowers customers and users to innovate faster, scale more easily, and serve and retain customers more effectively. Built on Open Source, GitLab works alongside its growing community, which is composed of thousands of developers and millions of users, to continuously deliver new DevOps innovations. 
+        %br
+        %br
+        Additional messaging can be found in our <a href="https://about.gitlab.com/handbook/marketing/strategic-marketing/usecase-gtm/devops-platform/message-house/">DevOps Platform Message House.
+</a>.

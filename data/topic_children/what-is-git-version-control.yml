@@ -1,0 +1,100 @@
+description: Git is an open source distributed version control system that helps
+  software teams create projects of all sizes with efficiency, speed, and
+  asynchronicity.
+canonical_path: /topics/version-control/what-is-git-version-control/
+parent_topic: version-control
+file_name: what-is-git-version-control
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: What is Git version control?
+header_body: Git is an open source distributed version control system that helps
+  software teams create projects of all sizes with efficiency, speed, and
+  asynchronicity.
+body: >-
+  ## What is Git?
+
+
+  Git is a [distributed version control system](/topics/version-control/) that enables software development teams to have multiple local copies of the project’s codebase independent of each other. These copies, or branches, can be created, merged, and deleted quickly, empowering teams to experiment, with little compute cost, before merging into the main branch. Git is known for its speed, [workflow compatibility](https://about.gitlab.com/blog/2020/04/07/15-git-tips-improve-workflow/), and open source foundation.
+
+
+  Most Git actions only add data to the database, and Git makes it easy to undo changes during the three main states.
+
+
+  Git has three file states: `modified`, `staged`, and `committed`.
+
+
+  1. A `modified` file has been changed but isn’t committed to the database yet.
+
+  2. A `staged` file is set to go into the next commit.
+
+  3. When a file is `committed`, the data has been stored in the database.
+
+
+  With Git, software teams can experiment without fearing that they’ll create lasting damage to the source code, because teams can always revert to a previous version if there are any problems.
+
+
+  ## What is version control and how can you document changes?
+
+
+  Version control is software used to track revisions, solve integration conflicts in code, and manage different artifacts involved in software projects (e.g. design, data, images). Version control also enables frictionless communication, change, and reproducibility between team members.
+
+
+  With version control, you’re able to track and merge branches, audit changes, and enable concurrent work to accelerate software delivery. Version control is the foundation and the stepping stone of DevOps, software architecture, and release patterns, without which an org cannot start. Using version control results in remarkable team productivity and software quality improvements.
+
+
+  ## Why should you use Git?
+
+
+  Software development teams prefer Git over other version control systems, like CVS, Mercurial, and Perforce, because Git has the adaptability, speed, and stability required to thrive in fast-paced markets. It’s no wonder that [87.2% of developers use Git](https://insights.stackoverflow.com/survey/2018/#work-_-version-control) for version control. If organizations want to quickly meet customer demand and business goals, Git version control is the simplest way to empower developers.
+
+
+  [Git’s ability](https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories/) to store a complete history of a project locally is a benefit, because Git branches are lightweight and the protocol is fast, so contributors can be anywhere, even with a poor connection and still sync a local copy with any other team member.
+
+
+  ## The benefits of Git and a distributed version control system
+
+
+  ### Git has workflow flexibility
+
+  With Git, teams can work together using various branching strategies that are not as possible in other version control systems. Git’s branching capabilities offer users the ability to select a workflow depending on the size of a project or team or unique processes. Some of the most popular Git workflows include [centralized](/topics/version-control/what-is-centralized-version-control-system/), feature branching, trunk-based development, and GitFlow.
+
+
+  ### Git is fast
+
+
+  Users have a local repository with a full history, so there’s no lag in communicating with a server, which is an experience that users of centralized systems, such as CVS, Subversion, and Perforce, often encounter.
+
+
+  Having a local version control means Git doesn’t have to ping a server to view a project’s history to identify changes made between versions. Git can immediately do a local difference calculation.
+
+
+  ### Git is reliable
+
+
+  Git inherently has multiple backups, because each user has a local repository. If there’s a crash, a copy could replace the main server. Another benefit of local repositories is that users can continue to commit offline if they’re traveling or dealing with network issues.
+
+
+  ### Git is collaborative
+
+
+  Git makes collaborative development easy with its branching model. Users can create a branch, experiment, and merge the code to the main branch if it works well. Git tracks changes during code reviews and [team members can collaborate](/topics/version-control/software-team-collaboration/) in merge requests.
+
+
+  ## Learn about the basics of Git
+
+
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZABsorovppA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+cta_banner:
+  - title: Learn how GitLab streamlines software development
+    cta:
+      - url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
+        text: Learn More
+    body: GitLab streamlines software development with comprehensive version control
+      and collaboration.
+resources_title: Want to learn more about Git?
+resources:
+  - url: https://about.gitlab.com/customers/remote/
+    title: Read how Remote uses GitLab to meet 100% of deadlines
+    type: Case studies
+  - url: https://about.gitlab.com/resources/whitepaper-moving-to-git/
+    title: Learn how to move to Git
+    type: Whitepapers

@@ -1,0 +1,33 @@
+---
+name: Manoj Memana Jayakumar
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
+  Manage:Workspace
+reports_to: malgorzata-ksionek
+picture: manojmj.jpg
+twitter: manoj_g33k
+gitlab: manojmj
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Workspace BE Team
+projects:
+  gitlab: trainee_maintainer backend
+story: 'Hailing from Kerala, India, popularly known as "God''s Own Country", Manoj
+  is a hardcore Ruby and Rails enthusiast. He loves contributing to open source and
+  is a big fan of boring solutions. When not writing code, he loves to read, take
+  pictures, and play with his adorable cat.
+
+  '
+domain_expertise:
+- rails
+- manage
+expertise: '<li><a href="https://docs.gitlab.com/ee/user/project/integrations/webhooks.html">Webhooks</a>
+  <a href="/company/team/structure/#expert">expert</a></li>
+
+  '
+specialty:
+- 'Manage: Workspace'
+

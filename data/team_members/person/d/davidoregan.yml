@@ -1,0 +1,46 @@
+---
+name: David O'Regan
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Engineering
+  Manager</a>, Create:Editor
+reports_to: dsatcher
+picture: davidoregan.png
+twitter: oregand
+gitlab: oregand
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Frontend
+- Backend
+- Create:Editor
+- Create:Editor FE Team
+- Create:Editor BE Team
+- Merge Request Coach
+projects:
+  gitlab-docs: maintainer
+  gitlab: maintainer frontend
+  gitlab-ui: reviewer frontend
+  customers-app: maintainer frontend
+  status-page: maintainer frontend
+expertise: |
+  <li><a href="https://docs.gitlab.com/ee/api/graphql">GraphQL</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+story: 'David is passionate about words, code, JavaScript, solutions, optimization,
+  functional programming and all things maths. Outside of programming he has a love
+  for people, understanding why they do the things they do and how he can help. If
+  he''s not tinkering with a website, you can probably find him at the gym blowing
+  off steam.
+
+  '
+domain_expertise:
+- graphql
+- frontend_graphql
+- foundations_buddy
+- frontend_architecture
+- frontend_performance
+- vue
+specialty:
+- Create:Editor
+

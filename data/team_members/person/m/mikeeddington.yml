@@ -1,0 +1,28 @@
+---
+name: Mike Eddington
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer,
+  Secure:Dynamic Analysis</a>
+reports_to: sethberger
+picture: michaeleddington.jpg
+twitter:
+gitlab: mikeeddington
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Dynamic Analysis BE Team
+story: 'Mike has spent his career focused on computer security and building security
+  testing tools. Mike is proud to have been part of the early hacker culture that
+  grew into the diverse professional  computer security field we now have. Along the
+  way Mike started a number of well known security focused companies. When not working,
+  Mike enjoys sailing, snowboarding, rock climbing, hiking, and wrenching on motorcycles.
+
+  '
+expertise: "<li>C# expert</li>\n"
+specialty: Fuzz Testing
+domain_expertise:
+- csharp
+

@@ -1,0 +1,101 @@
+title: The Last Mile
+file_name: the_last_mile
+canonical_path: /customers/the_last_mile/
+cover_image: /images/blogimages/the_last_mile_cover_image.jpg
+cover_title: |
+  With GitLab, TLM students forge path to DevOps and independence	
+cover_description: |
+ The Last Mile formed to enable learning of Web Development skills by individuals currently incarcerated to help break the cycle of incarceration. TLM turned to GitLab to teach DevOps and real-world programming, as well as build scalable infrastructure allowing the onboarding of hundreds of learners across the U.S.
+twitter_image: /images/blogimages/the_last_mile_cover_image.jpg
+twitter_text: With GitLab, TLM students forge path to DevOps and independence @TLM
+customer_logo: /images/case_study_logos/the_last_mile_logo.jpeg
+customer_logo_css_class: brand-logo-tall
+customer_industry: Education
+customer_location: San Francisco, CA
+customer_solution: GitLab SaaS Ultimate
+customer_employees: |
+  35 employees serving 974 students 
+customer_overview: |
+  The Last Mile supports incarcerated students with learning services and in-house support staff with scalable infrastructure, while ensuring compliance and security.  GitLab meets the group’s needs to provide its constituents a collaborative, real-world DevOps environment.
+customer_challenge: |
+  Improve fidelity of incarcerated student DevOps learning experience, while streamlining in-house project execution collaboration.
+key_benefits: >-
+
+  
+    Supports expansion of learning offerings 
+
+  
+    Provides real-world DevOps training
+
+  
+    Helps break the cycle of incarceration and ensure post-release success, providing returning citizens with useful programming skills
+
+customer_stats:
+  - stat:  33 per year
+    label: Number of students pre-cloud-GitLab
+  - stat:  150 per year
+    label: Number of students with-cloud-GitLab
+  - stat:  133 to 1500
+    label: Student project growth with GitLab
+
+customer_study_content:
+  - title: the customer
+    subtitle: The Last Mile builds in-prison education path to DevOps skills
+    content: >-
+  
+      Formed in 2010, [The Last Mile (TLM)](https://thelastmile.org) is an organization dedicated to breaking the cycle of mass incarceration affecting individuals, families and communities across the United States, by making coding and other educational and career-training opportunities available to incarcerated and justice-impacted individuals. The non-profit organization supports 24 classrooms across six states, has served 974 students and counting since 2010, and has aided 379 Returned Citizens who have successfully rejoined society. Education programs include the United States’ first in-prison coding bootcamp. Another educational offering by The Last Mile is the new Audio and Video Production Program, currently offered in TLM classrooms in CA and IN. The mission to provide software training depends in great part on The Last Mile’s Engineering and Education teams. Team members support students with learning services and support staff with technological infrastructure, while ensuring compliance and security. 
+ 
+
+
+  - title: the challenge
+    subtitle:  Prepare students for DevOps outside prison walls, with in-house project collaboration 
+    content: >-
+    
+
+      The Last Mile’s Web Development Program began with its first very low-tech coding bootcamp in San Quentin State Prison in California in 2014. As the program evolved it became increasingly clear that centrally managed resources were important to success. Students’ individual repositories had some benefit, but did not provide students with a representative view of what a software developer’s work really looked like. Without remote repositories and real-life technical collaboration, the support of modern DevOps workflows was inadequate. TLM tried different tools for version control, including Bitbucket and GitHub. Moving between different project tools limited productivity. 
+
+      For internal project management, the company used Monday.com across departments.  But it became clear that there was difficulty in getting everyone across the company on the same page. It was difficult, for example, for someone in the marketing department to view the progress and development of important new classroom features, or what kind of lead times were anticipated. These issues presented themselves at the same time that a significant expansion of The Last Mile Programs was anticipated. 
+
+      The Last Mile wanted one solution, a DevOps platform, to solve both of these challenges. TLM investigated the use of GitLab for Scaled Agile portfolio planning and project management features, including use of Project Issue and Group Issue Boards and CI / CD pipelines to deliver auditable and repeatable infrastructure as code, to support a growing number of learning locations and to better track how processes moved through the organization. The organization also expanded its use of GitLab to support remote repositories for students. 
+
+
+
+  - title: the solution
+    subtitle:  GitLab Ultimate imbues DevOps process, promotes collaboration
+    content: >-
+
+      Today, The Last Mile leverages GitLab to cover elements needed both for outside client training and for in-house project management. Such work spans from student on-boardings, to special systems access, to its infrastructure-as-code state-management store. Meanwhile, inside The Last Mile organization, GitLab now provides tooling that supports comprehensive workflow coordination across the entire company. For students, GitLab provides the basis for dedicated curricular resources, including sandbox and branching activities and dedicated remote instruction lesson plans. Students gain hands-on experience in DevOps processes and Agile methods. And, GitLab furthers The Last Mile’s efforts to support more locations, and more students.
+
+
+      
+  - title: the results
+    subtitle:  Real-world platform strengthens Returned Citizen programmer skills
+    content: >-
+
+      With GitLab Community Edition in place, student developers learn how to address challenges, conceptualize solutions, and gain counseling of others that may have developed other approaches to similar problems. This grounds their experience in an essential part of modern collaborative DevOps methods. For teams within The Last Mile, GitLab Ultimate creates a visible and accessible single source of truth, that allows all parties to take part in project oversight. That vastly improves the in-house collaboration, according to Tulio Cardozo, IT manager, The Last Mile. “The reality -- before GitLab -- was a lot of emails, a lot of other tools. It was a lot of really hard attempts at trying to get everybody on the same page,” Cardozo said. “But once we rolled out GitLab, we use it absolutely for everything.” 
+
+      He said GitLab supported company-wide efforts to promote project transparency and collaboration.  “It really felt natural to be able to have one unified platform, where anybody can see every single bit of merge requests, and what’s going into code deployment. Anybody can be in the loop,” he said.  “That really helps to have the entire company thinking about what we're delivering as a platform.” Fully leveraging GitLab during reentry means, when a student goes through the program and is released, they can have access to an export of their GitLab group with all of their GitLab projects. They can then import that into a personal, online GitLab account, and along with their programming foundation, embark on a programming career. 
+
+      GitLab is an integral part of The Last Mile’s holistic program, and a part of an education that is based on an open-source ethos, Cardozo indicated. “This is the same thing as in open-source software, if you will. It's like open-source life building,” Cardozo said. GitLab has worked closely on webinars and seminars with The Last Mile, to fully immerse students in open source as a way of developing skills and aligning with The Last Mile’s objectives to support not just the tools but also the human aspect.” he added. ‘Training that has high-fidelity to actual open-source DevOps methods is crucial’, adds The Last Mile Executive Director Sydney Heller.
+
+      “GitLab benefits our students because it is a real-world platform. Being able to leverage GitLab means that, regardless of the fact that they are incarcerated, they are getting real world experience using tools that millions of people use on the outside,” Heller said. “That is invaluable.”
+
+
+
+
+   
+
+      ## Learn more about GitLab solutions
+    
+  
+      [Security with GitLab](/solutions/dev-sec-ops/)
+    
+  
+      [CI with GitLab](/stages-devops-lifecycle/continuous-integration/)
+    
+  
+      [Choose a plan that suits your needs](/pricing/)
+customer_study_quotes:
+  - blockquote: GitLab benefits our students because it is a real-world platform. That is invaluable.
+    attribution: Sydney Heller
+    attribution_title: Executive Director, The Last Mile

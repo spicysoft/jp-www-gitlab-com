@@ -1,0 +1,37 @@
+---
+name: Luke Duncalfe
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend">Senior Backend Engineer</a>,
+  Ecosystem:Integrations
+reports_to: arturo-herrero
+picture: luke-duncalfe.png
+twitter: l_d
+gitlab: .luke
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Ecosystem:Integrations BE Team
+projects:
+  gitlab: maintainer backend
+  gitlab-gollum-lib: reviewer backend
+expertise: '<li><a href="https://docs.gitlab.com/ee/api/graphql">GraphQL</a> <a href="/company/team/structure/#expert">expert</a></li>
+
+  '
+domain_expertise:
+- rails
+- ruby
+- lfs
+- graphql
+- design_management
+- wiki
+- create
+- integrations
+story: 'Luke is a developer who enjoys everything about programming: the problem-solving,
+  the learning curves and the creativity. Besides programming, he enjoys experimental
+  art and music, camping, playing the piano, and playing with his kids.'
+specialty:
+- 'Ecosystem: Integrations'
+

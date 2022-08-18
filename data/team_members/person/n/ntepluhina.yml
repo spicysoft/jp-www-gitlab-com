@@ -1,0 +1,38 @@
+---
+name: Natalia Tepluhina
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Staff Frontend Engineer</a>,
+  Plan:Project Management
+reports_to: donaldcook
+picture: nataliatepluhina.jpg
+twitter: N_Tepluhina
+gitlab: ntepluhina
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Plan:Project Management FE Team
+- Frontend
+- Core Team
+projects:
+  gitlab: maintainer frontend
+  customers-app: maintainer frontend
+  gitlab-ui: reviewer frontend
+  status-page: maintainer frontend
+expertise: |
+  <li><a href="https://docs.gitlab.com/ee/user/project/issues/design_management.html">Design Management</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/development/fe_guide/vue.html">Vue.js</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/api/graphql">GraphQL</a> <a href="/company/team/structure/#expert">expert</a></li>
+story: 'Natalia Tepluhina is a Vue.js core team member. She is also a conference speaker
+  and an author of articles on different topics related to Vue.js and GraphQL. Thanks
+  to these activities Natalia has got a title of Google Developer Expert in Web Technologies.
+
+  '
+domain_expertise:
+- vue
+- graphql
+- design_management
+- frontend_architecture
+specialty: Project Management
+

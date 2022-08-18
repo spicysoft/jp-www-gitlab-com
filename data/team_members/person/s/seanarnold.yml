@@ -1,0 +1,30 @@
+---
+name: Sean Arnold
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Environment Automation</a>
+reports_to: o-lluch
+picture: seanarnold.jpg
+twitter:
+gitlab: seanarnold
+pronouns: he/him
+departments:
+- Engineering Function
+- Infrastructure Department
+- Platform Subdepartment
+projects:
+  gitlab:
+  - maintainer backend
+  - reviewer ci_template
+expertise: '<li><a href="https://docs.gitlab.com/ee/api/graphql">GraphQL</a> <a href="/company/team/structure/#expert">expert</a></li>
+
+  '
+domain_expertise:
+- rails
+- graphql
+story: |
+  Sean is a backend engineer living in Wellington, New Zealand. He loves writing Ruby,
+  but is comfortable across a variety of languages and platforms. Outside of coding, Sean
+  is an avid sports fan, runner, trainee triathlete and coffee lover.
+specialty: Environment Automation

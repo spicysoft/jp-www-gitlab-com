@@ -1,0 +1,41 @@
+# This file is an example of how you can contribute assets and learning paths to learn@gitlab.
+#
+# NOTE: This template information might be incorrect. Please see the single source of truth for the [acceptable object fields](https://about.gitlab.com/handbook/marketing/strategic-marketing/technical-marketing/howto/contributing-to-learn-at-gl.html)
+# THIS example might not be accurate.
+
+# assets:
+#   - vcc-001:                                                              # unique short asset identifier. Suggest use use case name or your inititals
+#     title: Version Control and Collaboration Solution Overview            # Title for the asset. Will appear in web interface
+#     author: warias                                                        # gitlab login
+#     team: technical-marketing                                             # what group you are part of, or "" if no group.
+#     asset_type: video                                                     # asset type. currently video, demo, sim_demo are expected
+#     date_published: september 2020                                        # the month and year of publishing
+#     gitlab_release: 13.3                                                  # what gitlab version the content is based off of
+#     use_case: Version Control and Collaboration                           # what use case, from https://about.gitlab.com/handbook/use-cases/
+#     roles: developer, devops engineer                                     # roles from https://about.gitlab.com/handbook/product/personas/
+#     doc_link: https://docs.google.com/presentation/d/e/2PACX-1v/embed     # URL to the downloadable or copyable source file
+#     asset_link: https://www.youtube.com/embed/2LRb5tnTYxY                 # URL to a playable/runnable version of the asset 
+#     thumbnail_url: "https://img.youtube.com/vi/ljth1Q5oJoo/sddefault.jpg" # if asset is on YouTube
+#     thumbnail_file: /images/learn/paths/platform/platform-004.jpg         # path to thumbnail image file in source code
+#
+# paths:
+# - path_id: CI-Path-001                                                    # unique short path identifier. Suggest use use case name or your inititals
+#   title: Continuous Integration (CI)                                      # Name of the path. Will appear in web interface
+#   thumbnail: /images/learn/paths/ci/ci-009.jpg                            # path to thumbnail image file in source code
+#   description: |
+#      Learn how CI helps you develop and deliver better software faster.   # Brief description of path content. Will appear in web interface
+#   author: iganbaruch                                                      # gitlab login
+#   verified: false                                                         # default to false. Will be changed to true once curated.
+#   time: 30                                                                # estimated runtime in minutes:seconds. should be sum of asset times
+#   level:                                                                  # target skill level of viewer - beginner, intermediate, or advanced
+#   roles: developer, devops engineer                                       # roles from https://about.gitlab.com/handbook/product/personas/]
+#   tags:                                                                   # keywords(tags) someone might search for this path under
+#     - tag 1                                                               # add 1-10 short tags
+#     - tag 2
+#   related:                                                                # list 1-5 related path_ids here
+#     - CI-Path-002                                                         # can be path_ids from outside this file
+#     - CI-Path-003
+#   asset_list:                                                             # Ordered list of asset_id's which make up the path
+#     - ci-001                                                              # can be asset_id's from this file or from outside this file
+#     - ci-002
+

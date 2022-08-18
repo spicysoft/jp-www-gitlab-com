@@ -1,0 +1,115 @@
+description: Successful software projects require effective team collaboration
+  across the entire development lifecycle.
+canonical_path: /topics/version-control/software-team-collaboration/
+parent_topic: version-control
+file_name: software-team-collaboration
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: What are software team collaboration best practices?
+header_body: Successful software projects require effective team collaboration
+  across the entire development lifecycle.
+body: >-
+  Successful software projects require effective team collaboration across the
+  entire development lifecycle. In order to continue delivering customer value,
+  software development teams should use established best practices to be a
+  reliable counterpart and active contributor. Improved collaboration and faster
+  velocity isn’t easy, but the path towards faster delivery is made possible
+  when the following five traits are part of a team’s workflow.
+
+
+  ## 1. Communicate openly
+
+
+  Open communication with team members and senior leaders has a profound impact on breaking down information silos between developers and operations teams. Collaborative software development is founded on trust and transparency. Team members of all backgrounds and experience levels should be empowered to actively contribute to proposals, offer thoughts on workflows, and provide feedback on projects. Diversity of thought makes for stronger solutions, because when team members from different backgrounds contribute their ideas and insights, an organization benefits from a more well-rounded perspective.
+
+
+  To build a culture of open communication, teams can use these techniques:
+
+
+  **Asynchronous communication**: Communicating [asynchronously](https://about.gitlab.com/company/culture/all-remote/asynchronous/) helps team members contribute to conversations across time zones and come back to discussions when they’ve had time to reflect and consider options. Asynchronous communication also helps team members prioritize their workloads and manage their time in a way that works best for them and their personal workflow. Asynchronous communication is a pillar of open communication, because team members won’t be pulled away from feature development to attend a synchronous meeting or miss out on an important conversation if they have a conflict.
+
+
+  **Challenge assumptions**: One of the biggest threats to collaborative software development is groupthink in which team members conform to a consensus, which limits their creativity and individuality. Team members who are supported in having difficult conversations, questioning decisions, and offering different perspectives are likely to surface problems earlier in the lifecycle, which provides an opportunity for course correction. Asking questions also helps team members learn from more experienced contributors and expand their knowledge base. Challenging assumptions is an effective way to ensure that every option is considered before committing to a solution. Team members can work together to investigate ideas and determine that a proposal is the most appropriate path forward.
+
+
+  **Retrospectives**: Sharing frustrations with team members can be an uncomfortable experience, so having a dedicated time to focus on challenges is a simple way to commit to open communication. After a project or release, it’s important to hold a retrospective to discuss what went well, what went wrong, and what can be improved. The goal of retrospectives is to understand how to improve delivery and quickly address problems. Retrospectives are an important component in open communication, because team members can share their thoughts in a safe environment designed to solicit feedback and discussion. Team members should be encouraged to use emotional language (e.g. “I was frustrated when…,” “I am happy that…”) to convey intensity and surface issues early to prevent festering aggravations. Each retrospective should have a clear agenda to set expectations for conversations and to end the retrospective with a clear action plan.
+
+
+  ## 2. Select the right tools
+
+
+  Software development teams work best when they have the [right tools](/topics/version-control/what-are-best-code-review-tools-features/) to help them focus on innovation rather than maintaining integrations and manually completing tedious tasks. DevOps tooling should bring teams together across the entire development lifecycle so that developers, QA, security professionals, product managers, designers, and team leads can collaborate and have visibility into projects and progress. Using the right tools helps teams resolve roadblocks, [maintain version control](/topics/version-control/) and increase productivity.
+
+
+  Tools that help teams increase velocity should include:
+
+
+  **Automation**: Integrating automation into the workflow decreases the likelihood of human error and the amount of time spent on mundane tasks that pull developer focus away from delivering business and customer value. When developers have to complete manual activities, they have less time to dedicate to feature development. [Automation](https://about.gitlab.com/blog/2019/05/30/it-automation-developer-productivity/) also completes tasks that may otherwise be forgotten in the flurry of a release - from balancing user load to scheduling security tests.
+
+
+  **Security**: Security is one of many shared responsibilities that every contributor to the development lifecycle should consider, but it remains one of the biggest bottlenecks in software releases. Finding bugs and fixing vulnerabilities can be challenging when problems aren’t spotted until the end of the development lifecycle. Developers have to revisit code that they may not have touched in months, struggling to familiarize themselves with past code and remediate vulnerabilities before a release. According to [security professionals](https://about.gitlab.com/developer-survey/), developers don’t find vulnerabilities early enough in development, so selecting a tool that includes robust security testing will help speed up releases and ship higher quality and more secure code. A comprehensive security solution should include static application security testing (SAST), dynamic application security testing (DAST), dependency and container scanning, and license compliance.
+
+
+  **Integrated CI/CD**: [Continuous integration and continuous delivery (CI/CD)](/topics/ci-cd/) help software teams deliver better software faster to customers. With integrated [CI/CD](https://about.gitlab.com/blog/2020/07/06/beginner-guide-ci-cd/), teams can identify errors earlier in the development lifecycle, protecting the source code from poor-quality code and ensuring that bugs aren’t deployed to customers. Integrated CI/CD results in less manual work, fewer integration problems, and more releasable code.
+
+
+  **Project management**: Features that help teams plan releases help increase visibility, keep projects on track, and identify stakeholders. Project management features can take many forms, including kanban boards, [issues](https://docs.gitlab.com/ee/user/project/issues/), or [epics](https://docs.gitlab.com/ee/user/group/epics/). Taking the time to scope projects appropriately helps a team understand requirements before developing. Team members can collaborate with each other to narrow the focus of projects to develop more iteratively.
+
+
+  ## 3. Write comprehensive documentation
+
+
+  As teams grow and applications become more complex, the need to clearly identify processes, highlight decisions, and encourage feedback becomes imperative to deliver software successfully. When a team commits to documenting everything from workflows and tools to communication processes and branching strategies, they cultivate an environment that encourages team members to seek answers and commit to company-wide procedures. Writing down decisions, processes, and proposals ensures visibility and helps preserve conversations for future reflection, allowing team members to refer back to information at a specific point in time. Documentation also helps developers learn, because they can retrieve information and understand anything from the reasoning behind a solution’s success to development best practices.
+
+
+  Documentation by default can feel overwhelming, but starting with the following techniques can help teams develop strong practices:
+
+
+  **Single source of truth**: The crux of documentation is making it universally available to every contributor and including all interactions in a single source of truth so that there aren’t multiple, incomplete copies of information floating around. Attempting to maintain several artifacts with various permissions for different roles is not sustainable, and teams risk spreading outdated procedures. With a single source of truth, developers can consult a living text and collaborate to ensure that the document is updated and accurately reflects the current state of a project or a procedure.
+
+
+  **Wikis**: Using a Wiki is a convenient way to keep documentation for a specific project. Team members can consult the [wiki](https://docs.gitlab.com/ee/user/project/wiki/) to understand the background and best practices, saving them time from meeting with other contributors to get up to speed. Wikis are a useful tool to convey information and help all team members obtain the information needed to contribute to a project. Lack of information will no longer prevent developers from collaborating and sharing insight.
+
+
+  ## 4. Provide fast feedback
+
+
+  A strong DevOps culture relies on providing and receiving feedback in an effort to maintain a culture of continuous improvement and collaboration. Helping each other identify areas of improvement or success is an impactful way to help others understand the impact of their contributions. Feedback strengthens team collaboration, because it begins a conversation and helps people learn. When providing feedback to team members, it’s important to focus on the work and the impact on business value, customer experience, or team collaboration. One-on-one feedback is the default method to share thoughts and ideas, and it’s particularly useful when having difficult conversations or sharing a piece of constructive feedback. Additionally, there are other ways to provide fast feedback to team members.
+
+
+  **Code reviews**: Effective software team collaboration should include regular [code reviews](/topics/version-control/what-is-code-review/) to ensure continuous improvement and to prevent unstable code from shipping to customers. Every team member - regardless of experience and background - should have their code reviewed, and anyone should be able to offer suggestions. When [completing a code review](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/), developers should clearly list which changes are necessary, non-mandatory, or alternative solutions. By clearly communicating the reasoning behind each suggestion, a team member provides feedback and insight into how to simplify code while still solving a problem.
+
+
+  **Pair programming**: Developers [coding in tandem](https://about.gitlab.com/blog/2019/08/20/agile-pairing-sessions/) builds strong team collaboration, since teammates can learn from each other and pair in a mutually beneficial exercise. Pair programming is useful when team members are trying to solve complex problems, which may be too challenging for any one developer to tackle. Senior developers can teach junior developers new skills, while more experienced team members can strengthen their knowledge through the process of educating others. Team members can offer fast feedback on solutions and propose alternative approaches.
+
+
+  ## 5. Lead effectively
+
+
+  Strong leadership sets the tone for effective team collaboration. Leaders should encourage a blameless environment in which developers can experiment and fail without fear. When teams feel empowered to innovate, they can collaborate to develop creative solutions. Team members are less likely to experiment and talk through solutions, if leadership discourages open communication and time to tinker with ideas.
+
+
+  **Identify roadblocks**: IT leadership should actively support their teams and determine processes that hinder success. Tools, like security testing or project management software, can uncover roadblocks, but team members have the most useful insight into pain points. By inquiring about the state of the software development lifecycle and listening to the team, an IT leader can understand what areas of the workflow are most troublesome and impact velocity. Using these insights, leaders can then make adjustments or incorporate automation to decrease friction.
+
+
+  **Model behavior**: If leaders want to cultivate a culture of team collaboration, they need to [model collaborative behavior](https://hbr.org/2007/11/eight-ways-to-build-collaborative-teams). Discussing setbacks and sharing learnings can help team members feel more confident in experimenting. Committing to documenting decisions and flowing that information down demonstrates a default to transparency. Reaching across the development lifecycle to learn from other team members exemplifies collaboration. Leaders are instrumental in strengthening team collaboration, and the most effective way to foster collaboration is to model the behavior desired.
+
+
+  ## Foster collaboration across the software development lifecycle
+
+
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OFNUjvgm2_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+cta_banner:
+  - title: Learn how to collaborate without boundaries to unlock faster delivery
+      with GitLab
+    cta:
+      - text: Learn More
+        url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
+resources_title: Want to learn more about collaborative software development?
+resources:
+  - url: https://about.gitlab.com/webcast/collaboration-without-boundaries/
+    type: Webcast
+    title: How to collaborate without boundaries to unlock faster delivery with GitLab
+  - url: https://page.gitlab.com/resources-demo-scm.html
+    type: Webcast
+    title: Discover how code review and source code management streamline
+      collaboration

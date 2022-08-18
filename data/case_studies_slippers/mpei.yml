@@ -1,0 +1,113 @@
+title: Moscow Power Engineering Institute 
+file_name: mpei
+canonical_path: /customers/mpei/
+cover_image: /images/blogimages/mpei_cover_image.jpg
+cover_title: |
+  Moscow Power Engineering Institute powers forward with GitLab-infused teaching
+cover_description: |
+  Moscow Power Engineering Institute’s (MPEI) Department of Applied Mathematics counts on GitLab to organize student learning, with state-of-the-art DevOps processes. 
+twitter_image: /images/blogimages/mpei_cover_image.jpg
+twitter_text: Moscow Power Engineering Institute powers forward with GitLab-infused teaching @mpei_ru
+customer_logo: /images/case_study_logos/mpei_logo.jpeg
+customer_logo_css_class: brand-logo-tall
+customer_industry: Education
+customer_location: Moscow, Russia
+customer_solution: GitLab Self Managed Ultimate
+customer_employees: |
+  13,000 students 
+customer_overview: |
+ AI and math instructors at the Moscow Power Engineering Institute adopted GitLab to overcome workflow issues that hindered students’ moves to new DevOps methods.
+customer_challenge: |
+ Better role-based access, project visibility, and education outcomes.
+key_benefits: >-
+
+  
+    Wide support for enhanced project collaboration  
+
+  
+    Preparing students for industry
+
+  
+    Empowering students to self-manage their work
+
+
+    Enable project management for the academic staff
+
+
+    Open source culture aligns with the University ethos and values
+
+
+    Using GitLab IAC integration with Kubernetes
+
+customer_stats:
+  - stat:  30 projects
+    label: GitLab supports 30 projects, 50 students, four teachers, and 300 MRAs
+  - stat:  15 degrees
+    label: GitLab is taught in computer science and project management degree courses
+  - stat:  4 services
+    label: Four learning and infrastructural services using GitLab IaC integration with k8s
+
+customer_study_content:
+  - title: the customer
+    subtitle: MPEI prepares students for technical achievement – employs GitLab platform 
+    content: >-
+  
+        The National Research University “Moscow Power Engineering Institute” is a public university that offers training in power engineering, electrical and radio engineering, information technology, and related fields. The institute’s history is marked by profound technical achievement, such as being among the first to take radio images of the Venus surface and the “Dark Side” of the Moon. Within [MPEI](https://mpei.ru/lang/en/Pages/default.aspx) Department of Applied Mathematics, there has long been a special focus on research and teaching in the evolving fields of parallel programming and artificial intelligence – work that is evolving rapidly as cloud, Kubernetes, and microservices gain greater use. 
+
+
+  - title: the challenge
+    subtitle:  MPEI looks to CI/CD pipelines to meld student efforts into cohesive whole 
+    content: >-
+    
+
+        As they looked to grow researchers’ and students’ technical capabilities, MPEI educational leaders grew concerned. Software project complexity was increasing. New design paradigms – such as containers and microservices – were emerging. There were signs that assorted largely-manual processes showed stress. Additionally, processes varied widely in methods applied. “Everybody used their own method,” said Andrey Efanov, Teaching Asst. and Ph.D. Student, Applied Mathematics and Artificial Intelligence Dept., MPEI. An essential requirement was support for capable CI/CD pipelines that could organize individual members into cohesive groups, Efanov added. It was beneficial generally to invite a large group into curated projects to participate. At some times, however, there was a need to manage students’ visibility into each other’s projects. In this regard, tools such as Travis CI, GitHub, Moodle, and Google Classroom were found to be suboptimal. Able role-based access was a must.
+
+
+
+  - title: the solution
+    subtitle:  Teachers and students alike gain insight into workflow
+    content: >-
+
+
+        To expand innovation and enhance learning, the MPEI educators decided they needed an open-source DevOps platform they could flexibly apply to coursework and project work alike. GitLab met the MPEI Math and AI Department’s objectives in terms of highly-granular role-based access control, integration, collaboration, and DevOps agility. By providing advanced planning capabilities in the form of Milestones, Epics, and Boards, student project management is significantly enhanced.  A GitLab group graph displays a useful visual history of repository work, which assures teachers and students a good understanding of general workflow. These group graphs include data on pushed events, opened and closed issues, and total number of contributions.  From students’ perspectives, they gained greater insight into the development process. GitLab helped the department meet its requirement to automate the verification processes of student work, according to MPEI’s Efanov.
+
+      
+
+  - title: the results
+    subtitle:  GitLab supports learning while doing, aids Kubernetes learning curve
+    content: >-
+
+        Today, GitLab provides exceptional project visibility, and helps ongoing management of student work. It allows increased collaboration between students, and prepares them for industry careers deploying state-of-the-art CI/CD pipelines. GitLab Group and Subgroup hierarchies have become a part of the department’s organizational structure. There are now four learning and infrastructural services fully managed by just two staff engineers using GitLab IaC integration with k8s: keycloak, wiki, a discord bot and a self-made online judge. Moreover, the GitLab environment simplifies Kubernetes development for beginners, who can make simple Helm child charts from templates to create services ready to deploy, Efanov said. “GitLab helps us to measure the performance of each student and it provides timely feedback. Sometimes, at the end of the term, a student would come up with some huge problems with which they had struggled for a long time,” he continued. “GitLab’s visibility means we can always ask what problems they face, if they are okay with them, or whether they need help with them.” While the institute provides important theoretical knowledge to students, the GitLab environment helps them expand that with practical experience in methods used by industry experts for creating better software.
+
+
+
+   
+
+        ## Learn more about GitLab solutions
+    
+  
+        [Security with GitLab](/solutions/dev-sec-ops/)
+    
+  
+        [CI with GitLab](/stages-devops-lifecycle/continuous-integration/)
+    
+  
+        [Choose a plan that suits your needs](/pricing/)
+customer_study_quotes:
+  - blockquote: GitLab helps us to measure the performance of each student. It provides timely feedback
+    attribution: Andrey Efanov
+    attribution_title: Teaching Asst. and PhD Student, Applied Mathematics and Artificial Intelligence Dept., MPEI
+
+
+
+
+
+
+
+
+
+
+
+
+
+

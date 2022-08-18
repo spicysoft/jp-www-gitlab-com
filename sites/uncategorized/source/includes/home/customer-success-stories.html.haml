@@ -1,0 +1,41 @@
+.container-fluid{:style => "position: relative"}
+  .custom-gray-bg{:style => "bottom: 0"}
+  .container.u-margin-top-sm{:style => "background: url(/images/home/home-particles-4.svg) 45% 6% no-repeat;"}
+    %h3.u-margin-top-md.text-center Used by 100,000+ organizations around the globe!
+    .grid-layout.grid-layout4{:style => "overflow: auto; padding: 2rem 1.5rem"}
+      %a.tile-resource.grid-item{ href: "/customers/goldman-sachs/", :style => "border-radius: 4px;" }
+        .tile-background-container{:style => "background-image: url('/images/home/goldmansachs-logo-black.svg'); background-size: 50% !important; margin: 0 30px 0; background-position-x: left"}
+        .tile-info
+          %h4.tile-title Goldman Sachs improves from 1 build every two weeks to over a thousand per day
+          %br/
+          %p.tile-link
+            Learn more 
+            %i.fas.fa-arrow-right
+      %a.tile-resource.grid-item{ href: "/blog/2017/06/07/continuous-integration-ticketmaster/", :style => "border-radius: 4px; box-shadow: 0px 30px 50px -30px rgba(0, 0, 0, 0.15);" }
+        .tile-background-container{:style => "background-image: url('/images/home/ticketmaster-logo-black.svg'); background-size: 75% !important;"}
+        .tile-info
+          %h4.tile-title How GitLab CI supported Ticketmaster's ramp up to weekly mobile releases
+          %br/
+          %p.tile-link
+            Learn more 
+            %i.fas.fa-arrow-right
+      %a.tile-resource.grid-item{ href: "/customers/equinix/" }
+        .tile-background-container{:style => "background-image: url('/images/home/equinix-logo-black.svg'); background-size: 60% !important;"}
+        .tile-info
+          %h4.tile-title Equinix increases the agility of their DevOps teams with self-serviceability and automation
+          %br/
+          %p.tile-link
+            Learn more 
+            %i.fas.fa-arrow-right
+      %a.tile-resource.grid-item{ href: "/customers/worldline/" }
+        .tile-background-container{:style => "background-image: url('/images/home/worldline-logo-black.svg'); background-size: 65% !important;"}
+        .tile-info
+          %h4.tile-title Worldline improves code reviews’ potential by 120x
+          %br/
+          %p.tile-link
+            Learn more 
+            %i.fas.fa-arrow-right
+    .row
+      = link_to "/customers/", class: "margin-top20 u-flex u-horiz-center u-margin-bottom-lg", style: "text-decoration: underline; color: #000;" do
+        Read more customer case studies
+        

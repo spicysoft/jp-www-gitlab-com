@@ -1,0 +1,33 @@
+---
+name: Mikhail Mazurskiy
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer,
+  Configure</a>
+reports_to: nicolo-maria-mezzopera
+picture: mikhailmazurskiy.jpg
+linkedin: ash2k
+gitlab: ash2k
+projects:
+  gitlab: reviewer go
+  gitlab-agent: maintainer
+  labkit: trainee_maintainer
+  gitlab-pages: reviewer
+departments:
+- Engineering Function
+- Development Department
+- Ops Section
+- Configure BE Team
+- Configure Group
+expertise: |
+  <li>Go Programming Language (GoLang) <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://about.gitlab.com/solutions/kubernetes/">Kubernetes</a> <a href="/company/team/structure/#expert">expert</a></li>
+domain_expertise:
+- go
+- kubernetes
+story: |
+  Mikhail enjoys designing systems as well as writing reliable code and doing code reviews.
+  He is passionate about open source and has contributed to a variety of projects.
+  Building platforms to automate infrastructure wrangling has been his focus during the last few years.
+  Kubernetes in particular is something he enjoys working with.
+specialty: Configure

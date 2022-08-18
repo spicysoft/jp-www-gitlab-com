@@ -1,0 +1,20 @@
+---
+name: Vitor Meireles De Sousa
+locality:
+country: Remote
+role: <a href="/job-families/engineering/application-security/#senior-application-security-engineer">Senior
+  Security Engineer, Application Security</a>, Package (Package), Configure (Configure), Monitor (Monitor)
+reports_to: james-ritchey
+picture: vitormeirelesdesousa.png
+twitter: Muffinbox33
+gitlab: vdesousa
+departments:
+- Engineering Function
+- Security Department
+story: |
+  Vitor likes to learn new things and continuously work to help securing applications and systems.
+  He's based in Switzerland and enjoys social activities and different sports (martial arts,
+  kite-surfing, biking, ...) when not in front of his computer!
+specialty: Application Security
+projects:
+  gitlab: maintainer security

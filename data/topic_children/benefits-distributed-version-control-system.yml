@@ -1,0 +1,89 @@
+description: Software development teams use distributed version control systems
+  to accelerate delivery.
+canonical_path: /topics/version-control/benefits-distributed-version-control-system/
+parent_topic: version-control
+file_name: benefits-distributed-version-control-system
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: The benefits of a distributed version control system
+header_body: Software development teams use distributed version control systems
+  to accelerate delivery.
+body: >-
+  
+  ## What is a distributed version control
+  system?
+
+
+  A distributed [version control system](/topics/version-control/) (DVCS) brings a local copy of the complete repository to every team member’s computer, so they can commit, branch, and merge locally. The server doesn’t have to store a physical file for each branch — it just needs the differences between each commit.
+
+
+  > Distributed source code management systems, such as Git, Mercurial, and Bazaar, mirror the repository and its entire history as a local copy on individual hard drives.
+
+
+  [Distributed version control systems](https://about.gitlab.com/blog/2020/10/02/distributed-version-control/) help software development teams create strong workflows and hierarchies, with each developer pushing code changes to their own repository and maintainers setting a [code review process](/topics/version-control/what-is-code-review/) to ensure only quality code merges into the main repository.
+
+
+  A DVCS can be puzzling, especially if a team member is accustomed to [centralized source code systems](/topics/version-control/what-is-centralized-version-control-system/), because a contributor can no longer rely on a server to resolve conflicts when merging and has to resolve them locally, which can result in confusing merge commits. However, despite the initial discomfort, a distributed source control system can ensure stable code development when multiple developers contribute to software development projects.
+
+
+  ## What are the advantages of using a distributed version control system?
+
+
+  ## Reliable backup copies
+
+
+  An interesting way to think about distribution version control is to visualize a collection of backups. When a team member clones a repository, she essentially creates an offsite backup, so if something catastrophic happens, like a server crash, every team member’s local copy becomes a backup. Unlike a centralized version control system, a distributed version control removes the reliance on a single backup, making development more reliable. A common misconception is that multiple copies could be a waste of space, but most development includes plain text files and many systems compress files, so the impact on hard drive storage is minimal.
+
+
+  ## Fast merging and flexible branching
+
+
+  Because systems don’t require remote server communication, code can be quickly merged. A distributed version control also allows software development teams to use different branching strategies, a feature that isn’t possible with a centralized system. Distributed version control systems accelerate delivery and business value by helping team members focus on innovation rather than become bogged down with slow builds.
+
+
+  ## Rapid feedback and fewer merge conflicts
+
+
+  A DVCS makes branching easy, because having an entire repository’s history on their local workstation ensures that they can quickly experiment and [request a code review](https://about.gitlab.com/blog/2020/06/08/better-code-reviews/). Developers benefit from fast feedback loops and can share changes with team members before merging the changeset. Merge conflicts are less likely, because contributors focus on their own piece of code. Furthermore, having easy access to the full local history helps developers identify bugs, track changes, and revert to previous versions.
+
+
+  ## Flexibility to work offline
+
+
+  A distributed version control system doesn’t require an internet connection, so most development, except pushing and pulling, can be done while traveling or away from home or an office. Contributors can view the running history on their hard drive, so any changes will be made in their own repository. This increased flexibility enables team members to fix bugs as a single changeset. Increased developer productivity
+
+
+  With a local copy, developers can complete common development activities rapidly. A DVCS means that developers no longer have to wait on a server run through routine tasks, which can slow down delivery and cause frustration.
+
+
+  ## Git: An example of a distributed version control system
+
+
+  Git is a distributed version control system known for its speed, workflow compatibility, and open source foundation. With Git, software teams can experiment without fearing that they’ll create lasting damage to the source code. Teams using a Git repository can tackle projects of any size with [efficiency and speed](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).
+
+
+  ### Learn about version control and collaboration
+
+
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TxfAeYXmles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+cta_banner:
+  - title: Discover how GitLab makes modern source code management easy
+    cta:
+      - url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
+        text: Learn More
+    body: Speed without version control and collaboration is nothing. use GitLab to
+      transform software development, and build a solid DevOps foundation.
+  - title: Download the version control best practices eBook to strengthen
+      collaboration
+    cta:
+      - text: Download eBook
+        url: https://about.gitlab.com/resources/ebook-version-control-best-practices/
+    body: Learn five ways to enhance team collaboration. From this eBook, you will
+      learn the impact of various techniques on collaboration, effective
+      development practices using Gittt, and how connecting all phases of the
+      software development lifecycle in a single application fuels visibility,
+      collaboration, and velocity.
+resources_title: Want to learn more about distributed version control systems?
+resources:
+  - url: https://about.gitlab.com/webcast/collaboration-without-boundaries/
+    type: Webcast
+    title: Watch how GitLab strengthens delivery and collaboration

@@ -1,0 +1,23 @@
+### What's Next For Us
+
+* Transition Plan features to ProjectNamespace - The Workspace group has built a foundation to have Groups, Projects, and Personal Namespaces all have a Namespace. The Plan stage will migrate existing features to be associated with a Namespace, beginning with [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/338819). 
+* [Saved views](https://gitlab.com/groups/gitlab-org/-/epics/5516) and [grid views](https://gitlab.com/gitlab-org/gitlab/-/issues/323095) - Boards, Lists, and Grids become views that are easily accessed and saved. This thread of work sets the stage for executive rollups.
+<%= partial("direction/plan/project_management/team_planning/whats_next") %>
+<%= partial("direction/plan/project_management/planning_analytics/whats_next") %>
+* [OKRs and rollups](https://gitlab.com/gitlab-org/gitlab/-/issues/273259) - Enable OKRs, Initiatives, and other executive-level work items into critical views.
+
+### What We're Not Doing
+
+* GitLab will not provide extensive configuration options that complicate collaboration and increase the maintenance burden. Examples are:
+   * Blocking users from editing work items due to field-level configuration.
+   * Creation of state workflows with transition rules. 
+   * Configuring screen field layouts.
+* Plan functionality will be generic enough to allow its use by many personas and use cases. However, we will not focus on optimizing for use cases beyond DevOps organizations. Example use cases that are out of scope include:
+   * ITSM
+   * HR
+   * Legal
+* GitLab's requirements management capabilities will not compete with products like IBM DOORS. Requirements systems like IBM DOORS will continue to be the source of truth, with GitLab focusing on traceability to DevOps artifacts.  We will enable teams to break down, link requirements to tests and code, and export data. Examples of functionality that will not be in GitLab are:
+   * Management of approval workflows for requirements
+   * Creating point in time snapshots and managing requirements versions
+   * Advanced reporting and integration with third party BI tools like Cognors
+* In order to meet the vision described in this page, we will decrease investment in our Service Desk, Design Management and Time Tracking categories. We will continue to address defects and support community contributions but we are not planning to make significant improvements. 

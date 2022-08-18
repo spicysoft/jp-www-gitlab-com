@@ -1,0 +1,26 @@
+---
+name: Artur Fedorov
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer,
+  Secure:Dynamic Analysis</a>
+reports_to: sethberger
+picture: arturfedorov.jpg
+twitter:
+gitlab: arfedoro
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Dynamic Analysis BE Team
+- Frontend
+projects:
+  gitlab: reviewer frontend
+  gitlab-ui: reviewer frontend
+  design.gitlab.com: reviewer frontend
+story: |
+  Artur has been passionate about web development for a while, he also has been passionate about design.
+  In his spare time, Artur does track and field and sometimes competes in 5k/10k races.
+specialty:
+- 'Secure: Dynamic Analysis'
+

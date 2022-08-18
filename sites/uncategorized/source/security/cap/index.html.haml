@@ -1,0 +1,128 @@
+---
+layout: feature-kubernetes
+title: GitLab Customer Assurance Package
+description: At GitLab, we're committed to Information Security. It is our mission to be the most transparent Security orgnization in the world.
+canonical_path: "/security/cap/"
+suppress_header: true
+extra_css:
+  - gitlab-feature-landing-page.css
+  - customer-assurance-package.css
+extra_js:
+  - all-clickable.js
+---
+
+.wrapper.gitlab-ee-page
+  .image-title
+    .color-bg
+      %div
+        %h1 GitLab Customer Assurance Package
+        -#%a.btn.btn-lg.btn-white{ href: "https://docs.gitlab.com/ee/integration/jira/", target: "_blank" } Documentation
+  .sub-wrapper
+    .container
+      .row.advantages
+        .col-xs-12.col-md-10.col-md-offset-1
+          %p.customer-assurance-package-intro
+            %strong At GitLab, we believe that
+            #{link_to 'transparency', 'https://about.gitlab.com/handbook/values/#transparency'}
+            %strong is critical to our success.
+            We want all GitLab customers to be empowered with confidence and trust that their data is protected. Our Customer Assurance Packages (CAPs) are designed to provide GitLab customers and community members with self-serve access to the most current information about our Security and Compliance posture. Whether completing a GitLab.com security assessment or just wanting to learn more about GitLab security practices, THIS is your one stop shop.
+          %p.customer-assurance-package-intro
+            For more details about GitLab's trust practices, visit the #{link_to 'GitLab Trust Center', 'https://about.gitlab.com/security/'}.
+
+      %hr.divider/
+
+      .row.text-center
+        .col-md-10.col-md-offset-1
+          %h2 Customer Assurance Package Overview
+          .row.text-left
+            %p.customer-assurance-package-intro GitLab offers and actively maintains two Customer Assurance Packages:
+            %ul.customer-assurance-package-list-overview
+              %li
+                %strong Community Package:
+                The first step on the trust journey, this package is a compilation of publicly available documentation designed to introduce GitLab’s approach to security.
+              %li
+                %strong Customer Package:
+                This package provides detailed security information to prospective and existing customers for completing vendor security assessments. Due to the sensitive nature of the documentation, an NDA is required to be in place prior to sharing.
+
+
+      .row
+        .col-md-6
+          .panel.panel-default.panel-margin
+            .panel-heading
+              %h3.panel-title{ :style => "text-align:center" } Community Package
+            .panel-body
+              %ul.customer-assurance-package-list
+                %li December 2020 SOC 3 Report
+                %li October 2021 SOC 3 Report
+                %li #{link_to 'ISO/IEC 27001:2013 Certificate', 'https://www.schellman.com/certificate-directory?certificateNumber=1652216-1'}
+                %li #{link_to 'CSA CAIQ Level 1 Questionnaire', 'https://cloudsecurityalliance.org/star/registry/services/gitlab'}
+                %li Standard Information Gathering (SIG) Core Questionnaire
+                %li BitSight Security Report for GitLab
+                %li GitLab Technical Report: Securing Customer Data
+                %li #{link_to 'ISO/IEC 20243-1:2018 Self Assessment', 'https://certification.opengroup.org/register/ottps-certification'}
+                %li FIPS 140-2 Attestation
+              .row.text-center
+                .col-md-10.col-md-offset-1
+                  %a.btn.cta-btn.accent{ :download => "GitLab-Customer-Assurance-Package.zip", :href => "./../../resources/customer-assurance-package/gitlab-cap-current.zip" } Download Now!
+                .row.text-center
+                  .col-md-10.col-md-offset-1
+                    %p{:style => "font-size:75%; padding-top:5px"}
+                      %i Continuously updated, check back often
+
+        .col-md-6
+          .panel.panel-default.panel-margin
+            .panel-heading
+              %h3.panel-title{ :style => "text-align:center" } Customer Package
+            .panel-body
+              %ul.customer-assurance-package-list
+                %li December 2020 SOC 2 Type 2 Report
+                %li October 2021 SOC 2 Type 2 Report and Bridge Letter
+                %li Annual GCP SOC 3 Report (GitLab.com Hosting Provider)
+                %li Annual PCI DSS SAQ-A Self-Assessment
+                %li Annual GitLab Business Continuity Test Executive Summary
+                %li Annual Third Party Penetration Test Executive Summary
+                %li ISO/IEC 27001:2013 Customer Summary Letter
+                %li Transfer Impact Assessment Guide for Customers
+
+              .row.text-center
+                .col-md-10.col-md-offset-1
+                  = link_to 'Request by Email', 'mailto: customer-assurance@gitlab.com?subject=Customer Assurance Package&body=Hello,%0A%0AI would like a copy of your Customer Assurance Package. Please send the CAP to:%0A%0A- Name:%0A- Title:%0A- Company Name%0A- Email Address:', class: 'btn cta-btn accent'
+                .row.text-center
+                  .col-md-10.col-md-offset-1
+                    %p{:style => "font-size:75%; padding-top:5px"}
+                      %i Or send a request directly to your account manager
+
+      .row
+        .col-md-12
+          .panel.panel-default.panel-margin
+            .panel-heading
+              %h3.panel-title{ :style => "text-align:center" } GitLab's Key Policies and Procedures
+            .panel-body
+              %ul.customer-assurance-package-list
+                %li #{link_to 'Access Management Policy', '/handbook/engineering/security/access-management-policy.html'}
+                %li #{link_to 'Application Architecture', 'https://docs.gitlab.com/ee/development/architecture/'}
+                %li #{link_to 'Audit Logging Policy', '/handbook/engineering/security/audit-logging-policy.html'}
+                %li #{link_to 'Business Continuity Plan', '/handbook/business-ops/gitlab-business-continuity-plan/'}
+                %li #{link_to 'Data Classification Standard', '/handbook/engineering/security/data-classification-standard.html'}
+              %ul.customer-assurance-package-list
+                %li #{link_to 'Data Protection Impact Assessment Policy', '/handbook/legal/privacy/dpia-policy/'}
+                %li #{link_to 'Information Security Management System', '/handbook/engineering/security/ISMS.html'}
+                %li #{link_to 'Internal Acceptable Use Policy', '/handbook/people-group/acceptable-use-policy/'}
+                %li #{link_to 'Network Architecture', '/handbook/engineering/infrastructure/production/architecture/#network-architecture/'}
+                %li #{link_to 'Password Policy', '/handbook/security/#gitlab-password-policy-guidelines'}
+              %ul.customer-assurance-package-list
+                %li #{link_to 'Penetration Testing Policy', '/handbook/engineering/security/penetration-testing-policy.html'}
+                %li #{link_to 'Production Architecture', '/handbook/engineering/infrastructure/production/architecture/'}
+                %li #{link_to 'Security Control Framework', '/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html'}
+                %li #{link_to 'Security Incident Response Guide', '/handbook/engineering/security/security-operations/sirt/sec-incident-response.html'}
+                %li #{link_to 'Vulnerability Management Policy', '/handbook/engineering/security/threat-management/vulnerability-management/'}
+
+      .row.text-center
+        .col-md-10.col-md-offset-1
+          %p To sign up for Security Notices or our Twice Monthly Newsletter, visit the #{link_to 'Sign up for security notices', 'https://about.gitlab.com/company/contact/'}
+
+
+
+.row.text-center-footer-btn-only
+  .col-md-10.col-md-offset-1.text-center
+    = link_to "Contact our Security Team", "mailto: customer-assurance@gitlab.com", class: "btn cta-btn accent"

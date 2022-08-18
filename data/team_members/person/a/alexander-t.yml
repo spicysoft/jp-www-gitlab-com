@@ -1,0 +1,22 @@
+---
+name: Alexander Tanayno
+locality:
+country: Remote
+role: <a href="/job-families/engineering/support-engineer/">Senior Support Engineer
+  (APAC)</a>
+reports_to: janegianoutsos
+picture: alexandertanayno.jpg
+twitter:
+gitlab: atanayno
+departments:
+- Engineering Function
+- Customer Support
+expertise: |
+  <li><a href="https://docs.gitlab.com/ee/administration/auth/ldap/index.html">LDAP</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/ci/">CI/CD</a> <a href="/company/team/structure/#expert">expert</a></li>
+story: 'Alexander is interested in everything related to technical support and likes
+  to share as much knowledge as possible. On his spare time he enjoys playing bass
+  guitar, travelling, and eating doner kebab.
+
+  '
+

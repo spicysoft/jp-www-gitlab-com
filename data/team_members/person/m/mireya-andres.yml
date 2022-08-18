@@ -1,0 +1,26 @@
+---
+name: Mireya Andres
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Frontend Engineer,
+  Verify:Pipeline Authoring</a>
+reports_to: sam-beckham
+picture: mireya-andres.jpg
+pronunciation:
+twitter:
+gitlab: mgandres
+departments:
+- Engineering Function
+- Development Department
+- Verify:Pipeline Authoring FE Team
+- CICD Section
+- Verify:Pipeline Authoring Group
+- Frontend
+projects:
+  gitlab: trainee_maintainer frontend
+expertise:
+story: |
+  Mireya enjoys learning - whether it's about new tech, new food, or new hobbies.
+  She hopes to contribute to making friendlier and safer online experiences for everyone.
+specialty: Pipeline Authoring
+

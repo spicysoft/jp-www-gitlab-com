@@ -1,0 +1,23 @@
+## Competitive Landscape
+
+[BitBucket / Atlassian Cloud](https://www.atlassian.com/roadmap/cloud?selectedProduct=access) has their sights focused on more administrative settings, particularly at the project level. They are also allowing administrators to standardize settings across projects by having respositiories under the projects follow inheritance. This is very similar to the way GitLab works.
+
+Later this year, Atlassian Access will allow customers to claim a subset of users from the verified domains in their organization. We plan to enable this same use case in GitLab within a few milestones, starting with our [claim enterprise users MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/322039).
+
+Longer term, BitBucket will add more controls around securing tokens - something that seems to be a common theme, as it's very important to security posture. It is interesting to note that BitBucket does not yet support [provising via SCIM](https://jira.atlassian.com/browse/ACCESS-621), although it is on their roadmap. Automated user provisioning is table stakes for Authentication capabilities in any software product.
+
+The big news in the GitHub world is that they just realized their open source Identity and Access Management Solution, [Entitlements](https://github.blog/2022-06-09-introducing-entitlements-githubs-open-source-identity-and-access-management-solution/). It is great to see Microsoft release this as open source! It looks like, for now, Entitlements is limited to LDAP only. Entitlements seems like it attempts to solve for a few long standing IAM pain points: lack of flexibility, auditability, and scalability.
+
+They also have a neat new feature which allows you to [link your GitHub and Twitter accounts](https://github.blog/changelog/2022-07-26-beta-release-of-verifiable-github-and-twitter-account-linking/) to create a verified identity for developers, showing that digital trust is more important than ever.
+
+On the roadmap front, GitHub is also providing [improved control over Personal Access Tokens](https://github.com/github/roadmap/issues/184), as well as continuing to add more administrator controls, like the ability to [remove members](https://github.blog/changelog/2022-06-20-enterprise-owners-can-remove-enterprise-members-ga/) from your Enterprise (I'm a little surprised this wasn't included in the first pass, TBH!)
+
+Enterprise Users seems to be a focus for GitHub. Their roadmap contains a few things related to Enterprise Users, like [optionally redirecting Enterprise Users to SSO when not authenticated](https://github.com/github/roadmap/issues/518) -- [here](https://gitlab.com/gitlab-org/gitlab/-/issues/367721) is the GitLab issue for the same. They will also be adding the ability for [admins to block commits with noncompliant messages](https://github.com/github/roadmap/issues/476)
+
+GitHub allows Enterprise Cloud users to create [custom roles for their users](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-repository-roles-for-an-organization#additional-permissions-for-custom-roles), however, it seems more limited than what we are planning for GitLab's implementation. You can only create 3 custom roles per organization, and the roles must inherit from other, pre-defined roles. [GitLab's version](https://gitlab.com/groups/gitlab-org/-/epics/4035) will allow you to create roles from scratch - they do not need to inherit from existing - and we also don't plan on limiting the number (though the feedback we've gotten from users is that they wouldn't create more than 7ish, anyway).
+
+Overall, the following themes are being addressed by each competitor's Authentication and Authorization (or equivalent) teams:
+- Increased administrator control over settings, at a high level, then with more granularity at the project level
+- Ability to create and manage users that belong to the Enterprise 
+- Security compliance - auditing of credentials, abiding by principle of least privilege, short lived credentials
+

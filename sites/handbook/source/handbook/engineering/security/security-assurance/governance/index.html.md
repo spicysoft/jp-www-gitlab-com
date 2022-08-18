@@ -1,0 +1,64 @@
+---
+layout: handbook-page-toc
+title: "Security Governance Program"
+description: "Security Governance Program"
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Governance Mission
+
+The 'G' in [GRC](https://www.oceg.org/about/what-is-grc/), GitLab's security governance discipline helps to define, train and measure security strategies and progress toward security objectives by creating a set of processes and practices that run across departments and functions. By following a Governance framework, GitLab ensures accountability, fairness and transparency in both how the company runs and how it communicates with its stakeholders. 
+
+## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Compentencies
+These are the core responsibilities of the security governance discipline.
+
+### Security Policies and Standards
+
+Keeping the organization on track and within established boundaries to ensure compliance with laws and regulations while maintaining GitLab's [Information Security Policies](https://about.gitlab.com/handbook/engineering/security/#information-security-policies). Providing guidance, consistency and accountability to streamline internal processes and align with GitLab's values and mission. 
+
+### Security Assurance Metrics
+Measuring performance effectiveness of our security controls, against a plan to prevent security incidents and safeguard sensitive data to improve the security posture of GitLab and the reduction of risk.  "If you cannot measure it, you cannot improve it" -Lord Kevin.
+
+### Regulatory and Compliance Landscape Monitoring
+As the world of regulatory compliance is always evolving and GitLab is growing, it is important to continue monitoring for changes, updating existing controls and implementing new regulations as needed helps to improve the security of GitLab.
+
+### GCF Control Maintenance
+Managing the [GCF control framework](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html), to include changes as a result of the risks and regulatory requirements. 
+
+### Security Compliance Training
+Creating and managing [security compliance trainings](https://about.gitlab.com/handbook/engineering/security/security-assurance/governance/sec-training.html) to ensure GitLab team members are aware and trained in security core competencies.
+
+### GRC Application Administration
+Managing a [variety of tools](https://about.gitlab.com/handbook/engineering/security/security-assurance/#core-tools-and-systems-1) used by the Security Assurance Team carrying out defined administrative tasks such as 
+* Configuration changes
+* User Access Management
+* Upgrades/patching/incidents/Restores
+* High-Level Quality oversight
+* etc.
+
+We will assist in managing and providing guidance to carry out day to day activities related to the core competencies of all [compliance activities within ZenGRC](https://about.gitlab.com/handbook/engineering/security/security-assurance/zg-activities.html) such as Control Testing, UARs, Vendor Reviews and Risk Assessments to automate, integrate and streamline business processes to increase GitLab's Information Security Program maturity and deliver measurable ROI. 
+
+## <i id="biz-tech-icons" class="fas fa-tasks"></i>Metrics and Measures of Success
+
+`Under Construction`
+
+## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
+
+* Primary DRI - Rupal Shah @rcshah
+* Manager - Joseph Longo @jlongo_gitlab 
+* Director - Julia Lake @julia.lake
+
+## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
+
+* [Security Compliance Controls](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html#)
+* [Controlled Documents Program](https://about.gitlab.com/handbook/engineering/security/controlled-document-program.html)
+* [Controlled Document Procedure](https://about.gitlab.com/handbook/engineering/security/controlled-document-procedure.html)
+
+<div class="flex-row" markdown="0" style="height:40px">
+    <a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/" class="btn btn-purple-inv" style="width:100%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Return to the Security Assurance Homepage</a>
+</div> 

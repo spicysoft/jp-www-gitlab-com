@@ -1,0 +1,22 @@
+
+The Compliance group handles the three categories [listed above](#categories-we-focus-on) and focuses 
+on advancing each of them. This means we will prioritize some before others.
+
+Some of the top themes are listed below. Please note these are the highlights and not a comprehensive list. Each specific category page has additional details on the other epics and issues for the category we are focused on.
+
+1. Improvements to streaming audit events ([epic](https://gitlab.com/groups/gitlab-org/-/epics/5925)) feature, including a [GUI to add new endpoints](https://gitlab.com/groups/gitlab-org/-/epics/6291), the ability to [filter the types of events](https://gitlab.com/groups/gitlab-org/-/epics/6980) that are sent, and [integrating with 3rd-party storage solutions](https://gitlab.com/groups/gitlab-org/-/epics/7792).
+    * Our users frequently wish to view audit events outside of GitLab, combine them with other data sources, and process them in some way.
+    Rather than require users to manually download events from our API, we will deliver new audit events as they occur over a webhook. This way
+    users can listen to the webhook and take any relevant action as soon as a new event occurs.
+    * This also is a benefit for GitLab, since it 
+    means we do not have to store and manage the potentially millions of events that are generated and we can start recording higher-volume 
+    audit events that users are interested in, such as [Git activity](https://gitlab.com/gitlab-org/gitlab/-/issues/11650).
+1. Updating and improving the [Compliance Report](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/) ([epic](https://gitlab.com/groups/gitlab-org/-/epics/5237))
+    * Compliance teams have limited bandwidth and need to be able to easily find activity that does not follow policy to either remediate or document a variance. We have a great opportunity at GitLab to update our Compliance Dashboard to be even more meaningful for this use case.
+    * This improvement will include adding [new merge request violation rules](https://gitlab.com/groups/gitlab-org/-/epics/7774) and allowing users to [customize the merge request violations](https://gitlab.com/groups/gitlab-org/-/epics/6668) that are reported for their teams.
+1. Improvements to external status checks to both [introduce a failed status](https://gitlab.com/gitlab-org/gitlab/-/issues/329636) and also to allow users to [require approval](https://gitlab.com/gitlab-org/gitlab/-/issues/340855) before merging an MR with a status check that has not returned a `passed` response.
+    * Compliance teams need the ability to use the external status check feature as a compliance gate to block merge requests that do not pass their check.
+1. Enhancing compliance frameworks to offer more controls around project settings. Compliance frameworks are great ways to require specific pipelines, but we will also allow controlling various [project settings](https://gitlab.com/groups/gitlab-org/-/epics/6545) so that compliance teams have a single place to make all the most important changes needed for their organization.
+1. Offer [Audit Event Retention Settings](https://gitlab.com/groups/gitlab-org/-/epics/7917) to allow organizations to ensure that their audit data is retained however they like, rather than using a default behavior.
+1. Adding new and refactoring existing audit events ([epic](https://gitlab.com/groups/gitlab-org/-/epics/736))
+    * One of our users key needs is that our audit event system is comprehensive enough to record all the sensitive activities that occur in GitLab. Because GitLab releases every month, we will focus on adding new events to ensure our customers have the visibility they need.

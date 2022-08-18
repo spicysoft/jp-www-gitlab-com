@@ -1,0 +1,31 @@
+---
+name: Maxime Orefice
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Verify:Pipeline
+  Insights</a>
+reports_to: scott-hampton
+picture: maximeorefice.jpeg
+twitter: goldenson_
+gitlab: morefice
+projects:
+  gitlab:
+  - reviewer backend
+  - reviewer database
+  verify-accessibility: maintainer
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Pipeline Insights Group
+- Verify:Pipeline Insights BE Team
+story: 'Max is a human being and maker of products. He likes to help people solving
+  hard problems.
+
+  '
+domain_expertise:
+- cicd
+specialty:
+- Verify:Pipeline Insights
+

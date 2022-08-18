@@ -1,0 +1,117 @@
+---
+title: GitLab InnerSourcing Training
+suppress_header: true
+description: "GitLab Inner Sourcing Training"
+extra_css:
+  - services.css
+---
+
+.blank-header
+  = image_tag "/images/home/icons-pattern-left.svg", class: "image-border image-border-left", alt: "Gitlab hero border pattern left svg"
+  = image_tag "/images/home/icons-pattern-right.svg", class: "image-border image-border-right", alt: "Gitlab hero border pattern right svg"
+  .header-content
+    %h1 GitLab Education Services
+
+.wrapper
+  .page-container.container
+    = partial "includes/services/detail-tile", locals: { id: "training_sessions_is" }
+    .row
+      .col-md-12
+        %h2 Course Syllabus
+        .row
+          .col-md-8
+            %table
+              %thead
+                %tr
+                  %th Duration
+                  %th Topic
+                  %th Overview
+              %tbody
+                %tr
+                  %td 30 mins
+                  %td What is InnerSourcing?
+                  %td
+                    %ul
+                      %li InnerSourcing Defined
+                      %li Benefits of InnerSourcing
+                      %li Key Parts of InnerSourcing
+                      %li Who is Using InnerSourcing?
+                      %li Starting InnerSouring: Where to Begin
+                      %li GitLab Workflow Components
+                %tr
+                  %td 30 mins
+                  %td Open Communication
+                  %td
+                    %ul
+                      %li Features of Open Communication
+                      %li Characteristics of a Good Communicator
+                      %li Benefits of Open Communication
+                      %li <strong>Scenario Exercise</strong>: Who did it better?
+                %tr
+                  %td 30 mins
+                  %td Open Collaboration
+                  %td
+                    %ul
+                      %li Open Collaboration and InnerSourcing
+                      %li Keys for Successful Open Collaboration
+                      %li Open Collaboration Checklist
+                      %li Making Open Collaboration Work
+                %tr
+                  %td 30 mins
+                  %td Benefits of InnerSourcing
+                  %td
+                    %ul
+                      %li Adopting InnerSourcing
+                      %li <strong>Discussion Section</strong>: Existing Redundancies
+                      %li Why InnerSourcing is so Useful
+                      %li How GitLab Makes Collaboration Easy
+                      %li <strong>Review Quiz</strong>: GitLab InnerSourcing Introduction
+                %tr
+                  %td 30 mins
+                  %td Understanding GitLab's CI/CD Functions
+                  %td
+                    %ul
+                      %li <strong>Demo</strong>: GitLab Navigation
+                      %li <strong>Lab</strong>: Basics
+                      %li What is CI/CD?
+                      %li CI/CD Advantages
+                      %li Concurrent DevOps LifeCycle with GitLab
+                      %li CI/CD Features in GitLab—by Lifecycle Stage
+                      %li GitLab CI/CD Automated Tasks
+                      %li GitLab Recommended Process
+                %tr
+                  %td 30 mins
+                  %td Applying GitLab's Permission Model
+                  %td
+                    %ul
+                      %li GitLab's Permission Model
+                      %li InnerSourcing and Permissions
+                      %li Basic User Permission Model
+                      %li Group and Project Permissions
+                      %li Changing Permissions
+                      %li Secrets Management
+                %tr
+                  %td 15 mins
+                  %td GitLab's Package and Release Stages
+                  %td
+                    %ul
+                      %li What are Package and Container Registries?
+                      %li InnerSourcing Benefits of GitLab’s Package Stage
+                      %li Release Features in GitLab
+                      %li <strong>Discussion Section</strong>: Release Features and InnerSourcing
+                %tr
+                  %td 30 mins
+                  %td InnerSourcing Best Practices
+                  %td
+                    %ul
+                      %li Collaboration Fails
+                      %li Best Collaboration Functions Within GitLab
+                      %li Best Communication Functions Within GitLab
+                      %li How Else Can You Contribute?
+                      %li <strong>Demo</strong>: InnerSourcing Functions
+                      %li <strong>Lab</strong>: Collaboration Tools
+                      %li <strong>Lab</strong>: Search Activity
+                      %li <strong>Lab</strong>: Open Activities
+
+        <a href='https://drive.google.com/file/d/1PQs_Deu3Dgwz_RVrE4w7uUSJL7KHu0ho/view?usp=sharing'> Download the syllabus</a>
+        = partial "includes/services/requirements", locals: { id: "training_sessions_is" }

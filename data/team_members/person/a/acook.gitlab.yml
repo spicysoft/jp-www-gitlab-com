@@ -1,0 +1,27 @@
+---
+name: Allen Cook
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer">Senior Backend Engineer, Release</a>
+reports_to: nicole-williams
+picture: allencook.jpg
+pronouns: he/him
+pronunciation:
+twitter:
+linkedin:
+gitlab: acook.gitlab
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Release BE Team
+- Release Group
+- Merge Request Coach
+projects:
+  gitlab: maintainer backend
+specialty: Release
+expertise: |
+  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
+story: Allen has worked in software for several years, enjoys making stuff, telling
+  stories and learning new things.
+

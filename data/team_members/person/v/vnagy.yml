@@ -1,0 +1,19 @@
+---
+name: Viktor Nagy
+locality:
+country: Remote
+role: <a href="/job-families/product/product-manager/">Senior Product Manager</a>, Configure
+reports_to: kevinchu
+picture: viktornagy.jpg
+mentor: true
+twitter: nagyviktor
+gitlab: nagyv-gitlab
+departments:
+- Product Management
+- Ops Section
+- Configure Group
+story: |
+  Viktor spends most of his free time learning, reading, doing sports and acting on climate change. He joined GitLab because
+  he always wanted to work on developer tooling, believes in GitLab's vision and does not know about any products that would truly make a difference with the climate.
+specialty: Configure
+

@@ -1,0 +1,113 @@
+---
+layout: markdown_page
+title: "Category Strategy - Pods"
+description: "GitLab "
+canonical_path: "/direction/pods/"
+---
+
+- TOC
+{:toc}
+
+## 💎 Pods
+
+**Last updated**: 2022-06-08
+
+### Introduction and how you can help
+
+- [Roadmap for Pods](https://gitlab.com/groups/gitlab-org/-/roadmap?state=opened&sort=end_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name%5B%5D=Category%3ASharding)
+- [All Epics](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&state=opened&label_name[]=Category%3ASharding)
+- [Database Scalability Working Group](https://about.gitlab.com/company/team/structure/working-groups/database-scalability/)
+
+Please reach out to Fabian Zimmer, Group Product Manager for Enablement ([Email](mailto:fzimmer@gitlab.com)) if you'd like to provide feedback or ask any questions related to this product category.
+
+This strategy is a work in progress, and everyone can contribute. Please comment and contribute in the linked [issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&label_name[]=Category%3ASharding) and [epics](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&state=opened&label_name[]=Category%3ASharding) on this page. Sharing your feedback directly on GitLab.com is the best way to contribute to our strategy and vision.
+
+### Overview
+
+GitLab.com, our SaaS offering, is growing rapidly. This growth requires that the underlying infrastructure components are able to scale to accommodate additional users. The [GitLab.com production architecture](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/) highlights the different components and the [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) provide an overview for self-managed customers.
+
+Scaling GitLab requires different strategies for the individual components. For example, web application nodes are stateless and can be scaled relatively easily by creating more individual servers. Stateful components are much harder to scale. As a single solution for the entire DevOps lifecycle, GitLab depends on a [single data-store](/handbook/engineering/development/enablement/database/doc/strategy.html#single-data-store) which serves as a the single source of truth of data. For GitLab, this data store is mostly a single [PostgreSQL database](https://docs.gitlab.com/ee/development/architecture.html#postgresql). Over time, GitLab has added additional databases for specific features, such as [Gitaly Cluster](https://docs.gitlab.com/ee/administration/gitaly/praefect.html#postgresql), [Geo](https://docs.gitlab.com/ee/administration/geo/#geo-tracking-database) and the [Container Registry](https://docs.gitlab.com/ee/architecture/blueprints/container_registry_metadata_database/). Adding new data stores [requires approval from the CEO and all engineering fellows](https://about.gitlab.com/handbook/engineering/development/required-approvals.html) to avoid unnecessary proliferation of data stores.
+
+GitLab's [database on GitLab.com](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/#database-architecture) is provisioned as a single logical database with a primary server and several physical read-only replicas. Given the continuing growth of GitLab.com, this PostgreSQL database needs to handle more and more transactions per second. Reading data can be accelerated by provisioning additional replicas, writing new data, however, can't be easily scaled in the same way. There can only be one primary server and all writes have to go through it. In order to address this problem there are several possible solutions:
+
+1. Buy more capable hardware - Bigger servers can handle more transactions. This is generally referred to as vertical scaling
+
+1. Define a horizontal scaling strategy
+
+GitLab.com is approaching a point where buying bigger servers is no longer easily possible. For this reason, the [Database Scalability Working Group](https://about.gitlab.com/company/team/structure/working-groups/database-scalability/) was founded to define and implement strategies to scale GitLab's database.
+
+The Pods Group is concerned with delivering application changes that allow GitLab and GitLab.com to scale to millions of users and implement the strategies defined in the [Database Scalability Working Group](https://about.gitlab.com/company/team/structure/working-groups/database-scalability/).
+
+### Where we are headed
+
+In the future we expect that GitLab.com can
+
+- accommodate 10M daily-active users (DAU) on GitLab.com
+- does not allow a problem with any given data store to affect all users
+- minimize or eliminate complexity for our self-managed use-case
+
+These outcomes are also defined as [the exit criteria of the database scalability working group](https://about.gitlab.com/company/team/structure/working-groups/database-scalability/#exit-criteria).
+
+### What's Next & Why
+
+Following a number of [proof of concept implementations](https://gitlab.com/groups/gitlab-org/-/epics/5759#proposal), the Pods group is focusing on [decomposing GitLab's database](https://gitlab.com/groups/gitlab-org/-/epics/6168). This approach relies on moving all the tables associated with a feature into a separate logical database. We chose this approach because it is iterative and can be implemented in a shorter amount of time than [sharding](https://about.gitlab.com/company/team/structure/working-groups/database-scalability/#glossary). When decomposing a certain feature, the team can focus on a smaller subset of tables while still solving some problems that are relevant to later strategies. We also gain confidence in operating multiple databases.
+
+The Pods group will focus on [CI tables](https://gitlab.com/groups/gitlab-org/-/epics/6167) first. The reason for choosing CI tables is that they account for [~36% of the overall DB size and roughly 50% of writes](https://gitlab.com/groups/gitlab-org/-/epics/6168#summary-of-impact). Decomposing these CI tables would effectively allow us to reduce writes on the main database by 50% because this additional logical database can be moved to a physically different database cluster. Decomposition is also sometimes referred to as vertical sharding.
+
+#### [Decomposing CI tables](https://gitlab.com/groups/gitlab-org/-/epics/6167)
+
+The Pods group is focusing on decomposing all tables (~50) that are connected to our CI feature. We've identified this feature because [roughly 50% of writes](https://gitlab.com/groups/gitlab-org/-/epics/6168#summary-of-impact) can be attributed to CI. We are working to resolve all issues with the CI tables that are not easily fanned out to feature teams, mostly because the implementation is too technical and potentially dependent on other work in the group.
+
+#### [Supporting for many databases](https://gitlab.com/groups/gitlab-org/-/epics/6103)
+
+To make decomposition a success, we need great support within the application to support many databases. Today, GitLab uses only one database (`main`) - when CI tables are decomposed the application needs to manage another database (`ci`).
+
+This means that the application needs to be able to handle running database related tasks, such as migrations (normal, post, and background) on many databases and we need to [decide on approaches for these generic database features](https://gitlab.com/gitlab-org/gitlab/-/issues/339902).
+
+With two databases, we also need to handle [cross-database modifications](https://gitlab.com/groups/gitlab-org/-/epics/6572). For example, cascading deletes won't work and foreign keys between tables located on different databases and we need to find [alternative solutions via loose foreign keys](https://gitlab.com/gitlab-org/gitlab/-/issues/338535).
+
+- [Fix broken Ops features](https://gitlab.com/groups/gitlab-org/-/epics/6379)
+
+#### [Deploying Decomposition](https://gitlab.com/groups/gitlab-org/-/epics/6160)
+
+In order to benefit from Decomposition and realize the scalability improvements, we need to deploy Decomposition in Staging and Production. Given the scope of this change, we've defined an [iterative rollout strategy for decomposition](https://gitlab.com/groups/gitlab-org/-/epics/6160#rolling-out-to-staging) that allows us deploy changes in stages. The latest timeline can be seen [here](https://gitlab.com/groups/gitlab-org/-/epics/6160#2022-timeline).
+
+### In a year
+
+In Q1FY23 we expect GitLab.com will run on multiple databases that are decomposed by feature. We expect that at least two independent databases exist: `main` and `ci`. This will provide significant headroom and will allow the Pods group to transition towards validating proposals for scaling GitLab even further.
+
+All self-managed customers will have transitioned to [running decomposed logical databases within a single database cluster](https://gitlab.com/groups/gitlab-org/-/epics/6159). All migrations will have completed with minimal interruption and all self-managed features, such as [backups and restore](https://gitlab.com/groups/gitlab-org/-/epics/6259), will work seamlessly when running multiple databases.
+
+#### Moving towards Pods
+
+Decomposition is only a first step to unlocking further scalability for GitLab. Decomposition is a vertical scaling strategy and it can only deliver a limited amount of scalability. In order to support further growth GitLab needs a long term horizontal scalability strategy. A Pods architecture allows for horizontal scalability and has other possible benefits, such as improved service availability. This architecture creates many mostly isolated GitLab instances, called Pods, that include all required services (database, web, Redis, Gitaly, Runners, Sidekiq etc.). The number of Pods can grow alongside the growth of the business.
+
+Sharding provides an alternative but is really hard as a universal solution. We'll end up requiring a Pods approach either way. By transitioning from Decomposition to Pods, we don’t need to find a sharding solution and avoid a “worst of all worlds” scenario where we have Decomposition, Sharding and Pods.
+
+### What is not planned right now
+
+We currently don't plan to implement any scalability solutions for GitLab.com that would negatively impact our self-managed customers. We want all customers to benefit from further scalability
+
+### Metrics
+
+- [Tamland forecasting](https://gitlab-com.gitlab.io/gl-infra/tamland/patroni.html) - accessible internally only
+
+### Competitive landscape
+
+This is a list of scaling solutions that others have implemented:
+
+- GitHub [decomposed their database](https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/) before moving to Vitess to scale their platform
+- Shopify uses a Pod architecture to scale their platform, reduce blast radius and offer regional capabilities.
+  - [Presentation from 2016](https://www.usenix.org/sites/default/files/conference/protected-files/srecon16europe_slides_weingarten.pdf)
+  - [Moving Pods to k8s and GCP from 2018](https://www.usenix.org/conference/srecon18asia/presentation/francis)
+  - [Building a routing service](https://www.youtube.com/watch?v=Cw6Ci9AF23k)
+  - [Zero-downtime rebalancing from 2019](https://youtu.be/-GqOVx9F5QM?t=558)
+  - [Moving shops with zero-downtime at terabyte scale from Sep 2021](https://shopify.engineering/mysql-database-shard-balancing-terabyte-scale)
+- [Zendesk uses Pods](https://support.zendesk.com/hc/en-us/articles/219614808)
+- [Notion uses application-level sharding](https://www.notion.so/blog/sharding-postgres-at-notion)
+
+### Top strategy item(s)
+
+- [Decomposing GitLab's database](https://gitlab.com/groups/gitlab-org/-/epics/6168)
+- [GitLab Pods](https://gitlab.com/groups/gitlab-org/-/epics/7582)
+- [Sharding - Database Scalability](https://gitlab.com/groups/gitlab-org/-/epics/5759)

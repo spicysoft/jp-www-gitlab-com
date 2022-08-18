@@ -1,0 +1,30 @@
+---
+name: Michał Wielich
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend">Backend Engineer, Product Intelligence</a>
+reports_to: alinamihaila
+picture: michalwielich.jpg
+pronouns: he/him
+pronunciation: me-how
+twitter:
+linkedin:
+gitlab: michold
+departments:
+- Engineering Function
+- Development Department
+- Analytics Section
+- Product Intelligence Team
+projects:
+  gitlab:
+  - reviewer backend
+  - reviewer product_intelligence
+  version-gitlab-com:
+  - reviewer backend
+specialty: Product Intelligence
+expertise:
+story: |
+  Michał is a backend developer who fell in love with Ruby from the very first sight.
+  When not programming, he likes to spend his time on learning languages and language-related theory.
+  He's also been a console gaming and anime fan since his teen years.
+

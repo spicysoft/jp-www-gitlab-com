@@ -1,0 +1,41 @@
+---
+name: Mark Florian
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
+  Ecosystem:Foundations
+reports_to: leipert
+picture: markrian.jpg
+twitter: mdflorian
+gitlab: markrian
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Ecosystem:Foundations Team
+- Ecosystem:Foundations FE Team
+- Frontend
+projects:
+  gitlab: maintainer frontend
+  gitlab-ui: maintainer frontend
+  status-page: maintainer frontend
+story: |
+  Though an astrophysicist by training, Mark decided to pursue a career where
+  he had a bit more agency, and which measured timescales in days rather than
+  billions of years. Frontend development seemed a perfect fit, where Mark
+  enjoys writing correct, pragmatic and simple user interfaces. He loves to
+  ski, travel, eat good food, and generally contemplate just how good dogs
+  are.
+domain_expertise:
+- frontend_architecture
+- frontend_testing
+- vue
+- vuex
+- i18n
+- css
+- frontend_security
+- foundations_buddy
+specialty:
+- 'Ecosystem: Foundations'
+- " Ecosystem"
+

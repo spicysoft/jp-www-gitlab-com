@@ -1,0 +1,31 @@
+.tiny-slider-container
+  .my-slider
+    = partial "/includes/home/serverless"
+    = partial "/includes/home/gary-gruver"
+    = partial "/includes/home/ci-carousel"
+    = partial "/includes/home/cern-case-study"
+    = partial "/includes/home/vsm-carousel"
+    = partial "/includes/home/fastest-growing"
+  .arrow-container.prev-button{ "data-controls" => "prev" }
+    = image_tag "/images/home/arrow-left-alt.svg", class: "slider-arrow", alt: "Carousel previous arrow"
+  .arrow-container.next-button{ "data-controls" => "next" }
+    = image_tag "/images/home/arrow-right-alt.svg", class: "slider-arrow", alt: "Carousel next arrow"
+
+%script{src: "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.7/min/tiny-slider.js", type: "text/javascript"}
+
+:javascript
+  var slider = tns({
+    container: '.my-slider',
+    arrowKeys: true,
+    items: 1,
+    speed: 800,
+    autoplayButtonOutput: false,
+    viewportMax: true,
+    touch: true,
+    prevButton: '.prev-button',
+    nextButton: '.next-button',
+    autoplayTimeout: 8000,
+    autoplay: true
+  });
+
+  slider.play();

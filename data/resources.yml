@@ -1,0 +1,1247 @@
+- title: '2022 GigaOm radar for GitOps - GitLab a forward mover'
+  url: https://page.gitlab.com/resources-report-gigaom-gitops-radar.html
+  image: /images/resources/resources-gitops.png
+  type: 'Report'
+  topics:
+    - GitOps
+  solutions:
+    - Deliver better products faster
+    - Improve operational efficiencies
+  teaser: "GigaOm radar for GitOps discusses technical aspects, value proposition, and adoption approaches associated with GitOps. GitLab is ranked as a forward mover."
+- title: 'GitLab Takes DevOps Platform to an IPO'
+  url: https://page.gitlab.com/idc-report-gitlab-ipo.html
+  image: /images/resources/devops.png
+  type: 'Report'
+  topics:
+    - DevOps
+    - GitLab
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+  teaser: "In this report IDC Market Perspective discusses GitLab's IPO, its open-core product, its all-remote business model, and its future."
+- title: 'Guide to Software Supply Chain Security'
+  url: https://page.gitlab.com/resources-ebook-software-supply-chain-security.html
+  image: /images/resources/security.png
+  type: 'eBook'
+  topics:
+    - DevSecOps
+  solutions:
+    - Project compliance
+    - Security
+    - Security and quality
+  teaser: 'How to develop strong protection strategies early in the software development cycle, some of the security (and DevOps) terminology you need to know, and the tools that can help identify vulnerabilities in the software supply chain to mitigate risk.'
+
+- title: 'GitOps in the Enterprise'
+  url: https://page.gitlab.com/gitops-enterprise-ebook.html
+  image: /images/resources/resources-gitops.png
+  type: 'eBook'
+  topics:
+    - GitOps
+  solutions:
+    - GitOps for Enterprise
+    - Improve operational efficiencies
+  teaser: '10 reasons to adopt GitOps today to benefit from the speed, scale and compliance that organizations practicing GitOps are already seeing.'
+
+- title: 'Why THE DevOps Platform for Enterprises?'
+  url: https://page.gitlab.com/whygitlabdevopsplatform.html
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+    - GitLab
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Security and quality
+    - Improve operational efficiencies
+  teaser: "How does a complete Devops Platform, with security and compliance built in, help your team reach goals faster and easier? Come find out."
+
+- title: 'Research findings: App Sec and the shift to DevSecOps'
+  url: https://page.gitlab.com/appsecshifttodevsecops.html
+  image: /images/resources/security.png
+  type: 'Webcast'
+  topics:
+    - DevSecOps
+    - Security
+  solutions:
+    - Security
+  teaser: "GitLab and 451 reviews data from 5 years of end user studies revealing shifts in application security testing and what the future may hold."
+
+- title: '2021 State of DevOps Report Roundtable'
+  url: https://page.gitlab.com/dora-report-roundtable.html
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+    - GitLab
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Security and quality
+    - Improve operational efficiencies
+  teaser: "We've partnered with @googlecloud + DORA on this year's 2021 State of DevOps report. GitLab will host a webcast with the DORA authors to uncover what makes organizations elite DevOps performers."
+
+- title: 'GitLab adds runtime security features as security remains a top priority for cloud-native deployments'
+  url: https://page.gitlab.com/resources-report-451runtimesecurity.html
+  image: /images/resources/resources-gitops.png
+  type: 'Report'
+  topics:
+    - DevSecOps
+    - GitOps
+    - Cloud Native
+  solutions:
+    - GitOps
+    - Security
+  teaser: "Learn more from 451 Research's Market Insight Report about cloud native security trends and how GitLab helps to address cloud native security."
+
+- title: 'GitLab 14 and the shift to modern DevOps Webcast'
+  url: https://learn.gitlab.com/gtm-devops-consideration2-mgr/gitlab14md 
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+    - GitLab
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Executive visibility
+    - Improve operational efficiencies
+  teaser: "GitLab's William Chia introduces GitLab 14 and the product managers who led its most impactful capabilities, from the Pipeline Editor and vulnerability management to DORA Metrics."
+
+- title: 'Securing the GitOps Workflow'
+  url: https://page.gitlab.com/webcast-securing-gitops-workflow.html
+  image: /images/resources/resources-gitops.png
+  type: 'Webcast'
+  topics:
+    - GitOps
+    - Security
+  solutions:
+    - GitOps
+    - Security
+    - Improve operational efficiencies
+  teaser: "This roundtable discussion brings together GitLab and its GitOps security partners, including Pulumi, Bridgecrew, Accurics, and Indeni."
+
+- title: 'How to achieve DevSecOps with GitLab CI/CD'
+  url: https://page.gitlab.com/achieve-devsecops-cicd-ebook.html
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - CI
+    - DevSecOps
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Security and quality
+    - Improve operational efficiencies
+  teaser: "In this eBook, learn how GitLab Ultimate enables DevSecOps via CI/CD pipelines with built-in security and compliance best practices."
+
+- title: 'GitLab CI/CD로 DevSecOps를 달성하는 방법'
+  url: https://page.gitlab.com/resources-achieve-devsecops-ci-cd-ko-kr.html
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - CI
+    - DevSecOps
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Security and quality
+    - Improve operational efficiencies
+  teaser: "이 e북에서는 GitLab Ultimate가 보안 및 규정 준수 모범 사례가 내장된 CI/CD 파이프라인을 통해 DevSecOps를 지원하는 방법을 알아봅니다."
+
+- title: 'GitLab CI/CD で DevSecOps を実現する方法'
+  url: https://page.gitlab.com/resources-achieve-devsecops-ja-jp.html
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - CI
+    - DevSecOps
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Security and quality
+    - Improve operational efficiencies
+  teaser: "この eBook では、GitLab Ultimate が、セキュリティとコンプライアンスのベストプラクティスを組み込んだ CI/CD パイプラインによって、どのように DevSecOps を実現するのかをご紹介します。"
+
+- title: '2021 Upskilling Enterprise DevOps Skills Report'
+  url: https://page.gitlab.com/2021_Report_DOI-upskill_RegistrationPage.html
+  image: /images/resources/devops.png
+  type: 'Report'
+  topics:
+    - DevOps
+    - GitLab
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Executive visibility
+    - Improve operational efficiencies
+  teaser: "The third annual report on DevOps skills - Human readiness must take on new importance from DevOps Institute. The report reviews the results from the Upskilling DevOps Skills Survey to understand which skills are considered must-have, nice-to-have, and optional."
+
+- title: 'The New DevOps: Iterating and Innovating in 2021 and Beyond'
+  url: https://page.gitlab.com/2021_Webcast_DOI_Upskill_RegistrationPage.html
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+    - Improve operational efficiencies
+  teaser: "GitLab and DevOps Institute discuss the future of DevOps and what in-demand skills are needed for 2021 and beyond."
+
+- title: 'Gartner Magic Quadrant for Enterprise Agile Planning Tools, 2021'
+  url: https://page.gitlab.com/2021_Report_MQ-EAPT_RegistrationPage.html
+  image: /images/resources/devops.png
+  type: 'Report'
+  topics:
+    - Agile
+    - GitLab
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Distributed teams
+    - Executive visibility
+    - Improve operational efficiencies
+  teaser: "This Magic Quadrant evaluates 16 vendors of enterprise agile
+planning tools and the growing market to help applications and software engineering
+leaders make the right choice."
+
+- title: 'IBM and GitLab team to bring more AIOps intelligence to DevOps'
+  url: https://learn.gitlab.com/451-ibm-gitlab-aiops-devops/451-ibm-oem
+  image: /images/resources/devops.png
+  type: 'Report'
+  topics:
+    - DevOps
+    - Continuous Integration
+    - Continuous Development
+    - Cloud Native
+  solutions:
+    - Improve operational efficiencies
+  teaser: "451 Research's summary of GitLab and IBM's recent OEM announcement"
+  
+- title: 'How to convince leadership to adopt CI/CD'
+  url: https://page.gitlab.com/2021_eBook_leadershipCICD.html
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Learn how to advocate for new technologies and make the case for CI/CD.'
+
+- title: '회사에서 CI/CD를 도입하도록 설득하는 방법'
+  url: https://page.gitlab.com/resources-ebook-leadershipcicd-ko-kr.html
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: '신기술을 홍보하려는 개발자를 위한 가이드'
+
+- title: 'Simplify DevOps - Deliver more value with fewer headaches using an end-to-end DevOps platform'
+  url: https://page.gitlab.com/webcast-simplify-devops.html
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+    - Version Analytics
+    - Software Development
+  solutions:
+   - Accelerated delivery
+  teaser: 'Learn how a complete DevOps platform deployed as a single application eliminates integration bottlenecks, enables end-to-end transparency, and allows businesses to deliver higher quality, more secure software more efficiently.'
+
+- title: '初心者向け DevOps ガイド'
+  url: https://page.gitlab.com/guide-to-devops-ja-jp.html
+  image: /images/resources/devops.png
+  type: 'eBook'
+  topics:
+    - DevOps
+    - GitLab
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Security and quality
+    - Improve operational efficiencies
+  teaser: "このeBookでは、DevOpsとは何か、重要な技術や用語、そしてコラボレーション文化があなたの仕事や会社にどのような利益をもたらすかについて学びます。"
+
+- title: '초보자를 위한 DevOps 가이드'
+  url: https://page.gitlab.com/guide-to-devops-ko-kr.html
+  image: /images/resources/devops.png
+  type: 'eBook'
+  topics:
+    - DevOps
+    - GitLab
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Security and quality
+    - Improve operational efficiencies
+  teaser: "이 e북에서는 DevOps가 무엇인지, 핵심 기술 및 용어에는 어떤 것이 있는지, 협업 문화가 여러분의 업무 및 회사에 어떤 이점을 줄 수 있는지 알아보실 수 있습니다."
+  
+- title: 'Invest in a version control solution to help software teams become enterprise ready'
+  url: https://page.gitlab.com/resources-ebook-version-control-solution-enterprise.html
+  image: /images/resources/software-development.png
+  type: 'eBook'
+  topics:
+    - Version Control & Collaboration
+    - DevOps
+    - Software Development
+  solutions:
+   - Accelerated delivery
+   - Distributed teams
+  teaser: 'To become enterprise ready, software development teams should solve the three most common challenges that accompany rapid growth.'
+
+- title: 'Gartner 2021 Market Guide for Value Stream Delivery Platforms'
+  url: https://page.gitlab.com/2021_GartnerMG_VSDP.html
+  image: /images/resources/devops.png
+  type: 'Report'
+  topics:
+    - DevSecOps
+    - DevOps
+    - Continuous Integration
+    - Continuous Delivery
+    - Agile
+    - GitOps
+    - Cloud Native
+  solutions:
+    - GitOps
+  teaser: 'Learn recommendations for streamlining software delivery workflows, scaling your DevOps initiatives, and trends driving Value Stream Delivery Platform adoption over the next 2-3 years.'
+
+- title: 'Citizen-Centric Resiliency In Challenging Times'
+  url: https://page.gitlab.com/webcast-citizen-centric-resiliency.html
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevSecOps
+    - DevOps
+    - Public Sector
+  solutions:
+    - Deliver better products faster
+    - Accelerated delivery
+    - Security and quality
+  teaser: 'A panel of IT leaders, including featured speaker Forrester VP & Principal Analyst Rick Parrish, share how they are providing better citizen and customer experiences in the time of COVID.'
+
+- title: 'An intermediate guide to GitOps, Kubernetes, and GitLab'
+  url: https://page.gitlab.com/resources-ebook-gitops-kubernetes-gitlab.html
+  image: /images/resources/resources-gitops.png
+  type: 'eBook'
+  topics:
+    - Kubernetes
+    - Single Application
+    - GitOps
+  solutions:
+    - GitOps
+  teaser: 'For teams interested in Kubernetes and GitOps, GitLab offers a platform with SCM, built-in CI/CD, and integrations with Terraform and Kubernetes.'
+
+- title: '見逃しがちな 7つの DevOps 手順と DevOps プラットフォームの利用がもたらすメリット'
+  url: https://page.gitlab.com/resources-ebook-seven-devops-steps-ja-jp.html
+  image: /images/resources/devops.png
+  type: 'eBook'
+  topics:
+    - DevOps
+    - GitLab
+  solutions:
+    - Accelerated delivery
+    - Deliver better products faster
+    - Security and quality
+    - Improve operational efficiencies
+  teaser: "DevOps チームが正しい手順を知っていても、タイミングやサイロなどが邪魔になることがあります。ここでは、DevOps プラットフォームを役立てる方法を7つ紹介します。"
+
+- title: 'Identify, analyze, action! Deep monitoring with CI'
+  url: https://page.gitlab.com/deep-monitoring-ci.html
+  image: /images/resources/continuous-integration.png
+  type: 'Webcast'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Deliver better products faster
+    - Accelerated delivery
+    - Security and quality
+  teaser: 'Learn best practices for analyzing your CI pipeline so you can identify bottlenecks, rapidly fix errors, and improve code quality.'
+
+- title: 'Source Code Management for the Enterprise'
+  url: https://page.gitlab.com/resources-ebook-scm-for-enterprise.html
+  image: /images/resources/software-development.png
+  type: 'eBook'
+  topics:
+    - Single Application
+    - Software Development
+    - Version Control & Collaboration
+  solutions:
+    - Executive visibility
+    - Accelerated delivery
+    - Security and quality
+  teaser: 'Discover the impact of source code management and best practices to help large software development teams accelerate delivery, streamline collaboration, and maintain a clean codebase.'
+
+- title: "A Beginner's Guide to GitOps"
+  url: https://page.gitlab.com/resources-ebook-beginner-guide-gitops.html
+  image: /images/resources/resources-gitops.png
+  type: 'eBook'
+  topics:
+    - Continuous Integration
+    - Single Application
+    - GitOps
+  solutions:
+    - GitOps
+  teaser: 'Learn more about GitOps and how it offers infrastructure automation using DevOps best practices like version control and CI/CD.'
+
+- title: "초보자를 위한 GitOps 가이드"
+  url: https://page.gitlab.com/resources-ebook-beginnersguidegitops-ko-kr.html
+  image: /images/resources/resources-gitops.png
+  type: 'eBook'
+  topics:
+    - Continuous Integration
+    - Single Application
+    - GitOps
+  solutions:
+    - GitOps
+  teaser: 'DevOps 모범 사례를 사용하여 GitOps와 인프라 자동화를 제공하는 방법에 대해 자세히 알아보세요.'
+
+- title: 'Best Practices for a DoD DevSecOps Culture'
+  url: https://page.gitlab.com/resources-article-RightPlatformDoD.html
+  image: /images/resources/devops.png
+  type: 'Whitepaper'
+  topics:
+    - DevSecOps
+    - Public Sector
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+    - Security and quality
+  teaser: 'Adopting faster, more collaborative processes and a platform that can support DevSecOps with built-in, automated security are the keys to accelerating your pipelines.'
+
+- title: 'Rethinking DevOps for Business Resiliency'
+  url: /webcast/rethinking-devops-resiliency/
+  image: /images/resources/software-development.png
+  type: 'Webcast'
+  topics:
+    - DevSecOps
+    - Software Development
+    - Security
+  solutions:
+    - Security and quality
+    - Security
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Stretch towards DevSecOps to begin to lay the groundwork for embedding security and compliance into your DevOps workflow. Join CI&T and GitLab in this webcast as we highlight best practices in this new era of making sure the business is resilient.'
+
+- title: 'How to supercharge mobile app dev with GitLab CI/CD and Google Firebase'
+  url: /webcast/gitlab-cicd-firebase/
+  image: /images/resources/continuous-integration.png
+  type: 'Webcast'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Deliver better products faster
+  teaser: 'Learn how to create a first-class professional CI/CD pipeline to build, test, and deploy updates frequently to the entire Firebase stack.'
+
+- title: 'Software delivery as the new operational excellence'
+  url: https://page.gitlab.com/resources-webcast-software-delivery-new-excellence.html
+  image: /images/resources/software-development.png
+  type: 'Webcast'
+  topics:
+    - Public Sector
+    - DevOps
+  solutions:
+    - Security and quality
+    - Accelerated delivery
+  teaser: 'Learn how to increase velocity while also decreasing software faults and increasing security.'
+
+- title: 'How Trek10 modernizes Application Development using GitLab CI/CD on AWS'
+  url: /webcast/trek10-aws-cicd/
+  image: /images/resources/continuous-integration.png
+  type: 'Webcast'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - GtiLab & AWS
+  teaser: 'Discover how Trek10 uses GitLab CI/CD to deliver modern applications to the cloud using AWS Severlerss Application Model.'
+
+- title: 'GitLab and USDS Playbook - Delivering on the Promise of Digital Services'
+  url: https://page.gitlab.com/resources-ebook-gitlab-usds-playbook.html
+  image: /images/resources/devops.png
+  type: 'eBook'
+  topics:
+    - DevSecOps
+    - Public Sector
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+    - Security and quality
+  teaser: 'Discover best practices for implementing DevSecOps in your organization.'
+
+- title: 'Source code management and code review with GitLab'
+  url: https://page.gitlab.com/resources-demo-scm.html
+  image: /images/resources/code-review.png
+  type: 'Demo'
+  topics:
+    - Version Control & Collaboration
+  solutions:
+    - Accelerated delivery
+  teaser: 'Discover features that streamline development and enhance collaboration.'
+
+- title: 'Collaboration without Boundaries - Deliver Faster with GitLab '
+  url: /webcast/collaboration-without-boundaries/
+  image: /images/resources/software-development.png
+  type: 'Webcast'
+  topics:
+    - Git
+    - DevOps
+    - Version Control & Collaboration
+  solutions:
+    - Accelerated delivery
+  teaser: 'Watch this webcast to learn collaboration best practices to optimize value delivery.'
+
+- title: 'GitOps: The Future of Infrastructure Automation '
+  url: /why/gitops-infrastructure-automation/
+  image: /images/resources/resources-gitops.png
+  type: 'Webcast'
+  topics:  
+    - Infrastructure as code
+    - Cloud infrastructure
+    - GitOps
+  teaser: 'Watch this panel discussion where we asked tech leaders from Weaveworks, HashiCorp, Red Hat, and GitLab what teams need to make the shift to GitOps, and the benefits of managing infrastructure using GitOps.'
+  solutions:
+    - Deliver better products faster
+    - GitOps
+
+- title: 'GitLab and HashiCorp - A holistic guide to GitOps and the Cloud Operating Model'
+  url: /webcast/gitlab-hashicorp-gitops/
+  image: /images/resources/resources-gitops.png
+  type: 'Webcast'
+  topics:
+    - GitOps
+    - Infrastructure as code
+    - Cloud infrastructure
+  solutions:
+    - GitLab & AWS
+    - Improve operational efficiencies
+  teaser: 'Learn how we lower the barriers of adoption to adopt a cloud operating model for application development and cloud infrastructure management.'
+
+- title: 'Git branching strategies'
+  url: /resources/ebook-git-branching-strategies/
+  image: /images/resources/software-development.png
+  type: 'eBook'
+  topics:
+    - DevOps
+    - Git
+    - Version Control & Collaboration
+  solutions:
+    - Accelerated delivery
+  teaser: 'How teams approach branching is an important part of finding success with source code management. Download this eBook to determine which branching strategy will help you accelerate delivery.'
+
+- title: 'Git ブランチ戦略'
+  url: https://page.gitlab.com/resources-ebook-gitbranchingstrategies-ja-JP.html
+  image: /images/resources/software-development.png
+  type: 'eBook'
+  topics:
+    - DevOps
+    - Git
+    - Version Control & Collaboration
+  solutions:
+    - Accelerated delivery
+  teaser: 'チームがどのようにブランチングに取り組むかは、ソースコード管理を成功に導く上で重要な要素となります。確立されたプロセスと目標を基に、開発チチーム次第で、理にかなった Git ブランチ戦略は決まります。'
+
+- title: 'Git 브랜치 전략'
+  url: https://page.gitlab.com/resources-ebook-branching-strategies-ko-kr.html
+  image: /images/resources/software-development.png
+  type: 'eBook'
+  topics:
+    - DevOps
+    - Git
+    - Version Control & Collaboration
+  solutions:
+    - Accelerated delivery
+  teaser: '이 e북에서는 브랜치가 개발에서 중요한 단계인 이유, 팀에 적합한 브랜치 전략, GitLab Flow가 소프트웨어 개발을 현대화하는 방법에 대해 알아봅니다.'
+
+- title: 'Comparison: Bitbucket v/s GitLab'
+  url:  https://about.gitlab.com/devops-tools/bitbucket-vs-gitlab/
+  image: /images/resources/gitlab.png
+  type: 'Comparison'
+  topics:
+    - GitOps
+    - Version Control & Collaboration
+  solutions:
+    - Improve operational efficiencies
+  teaser: 'Detailed comparison of GitLab capabilities vs Bitbucket capabilities that is easy to understand.'
+
+- title: 'Mind-Merge Request: Q&A with GitLab Leadership - Episode 2'
+  url: https://learn.gitlab.com/all-remote/remote-cro-qa
+  image: /images/resources/gitlab.png
+  type: 'Webcast'
+  topics:
+    - GitLab
+  solutions:
+    - Executive visibility
+  teaser: 'GitLab Head of Remote and Chief Revenue Officer discuss the ins and outs of managing a remote sales team, and shared tactical advice for suddenly-remote leaders. .'
+
+- title: 'Version Control Best Practices'
+  url: /resources/ebook-version-control-best-practices/
+  image: /images/resources/software-development.png
+  type: 'eBook'
+  topics:
+    - Single Application
+    - Software Development
+    - Version Control & Collaboration
+  solutions:
+    - Executive visibility
+    - Accelerated delivery
+    - Security and quality
+  teaser: 'Application development requires speed and iteration, making seamless collaboration a necessity in delivering business value. Teams turn to version control to streamline collaboration and break down information silos.'
+
+- title: 'The Total Economic Impact of GitLab'
+  url: /resources/report-forrester-tei/
+  image: /images/resources/gitlab.png
+  type: 'Report'
+  topics:
+    - Continuous Integration
+    - Version Control & Collaboration
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'IT leaders are leaning on DevOps methodologies to help them meet market needs; to do so, DevOps teams must find ways to accelerate speed of delivery, decrease code flaws and improve time to market.'
+
+- title: 'The Total Economic Impact of GitLab Webcast'
+  url: https://learn.gitlab.com/tei/TEI-webcast
+  image: /images/resources/gitlab.png
+  type: 'Webcast'
+  topics:
+    - Continuous Integration
+    - Version Control & Collaboration
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'GitLab commissioned Forrester Consulting to conduct a Total Economic Impact™ study, to examine the potential return on investment an organization may realize by using GitLab.'
+
+- title: 'Automating cloud infrastructure with GitLab and Terraform'
+  url: /webcast/gitops-gitlab-terraform/
+  image: /images/resources/resources-gitops.png
+  type: 'Webcast'
+  topics:
+    - GitOps
+    - Infrastructure as code
+    - Cloud infrastructure
+  solutions:
+    - GitLab & Terraform
+    - Accelerated delivery
+  teaser: 'During this virtual lab, an instructor guides students through configuring GitLab, Terraform, and Vault together for an automated GitOps-based workflow on Google Cloud Platform.'
+
+- title: 'Mind-Merge Request: Q&A with GitLab Leadership - Episode 1'
+  url: https://learn.gitlab.com/c/remote-leadership-qa?x=Kx5gZJ
+  image: /images/resources/gitlab.png
+  type: 'Webcast'
+  topics:
+    - GitLab
+  solutions:
+    - Executive visibility
+  teaser: 'GitLab Head of Remote and VP of Customer Success discuss best practices about remote work and how to manage a remote team.'
+
+- title: 'Managing infrastructure through GitOps with GitLab and Anthos'
+  url: /webcast/gitops-gitlab-anthos/
+  image: /images/resources/resources-gitops.png
+  type: 'Webcast'
+  topics:
+    - GitOps
+    - Infrastructure as code
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Google Anthos and GitLab
+  teaser: 'Learn how to use GitLab on Anthos and deploy apps to any GKE cluster'
+
+- title: 'Five AWS customers who depend on GitLab for DevOps workflow'
+  url: /resources/ebook-five-aws-customers/
+  image: /images/resources/devops.png
+  type: 'eBook'
+  topics:
+    - Single Application
+    - DevOps
+    - Continuous Integration
+  solutions:
+    - Executive visibility
+    - Accelerated delivery
+    - Security and quality
+  teaser: 'Learn how AWS customers can benefit from GitLab’s complete DevOps platform, delivered as a single application.'
+
+- title: '2022 Gartner Magic Quadrant for Application Security Testing'
+  url: https://page.gitlab.com/resources-report-gartner-magic-quadrant-ast.html
+  image: /images/resources/security.png
+  type: 'Report'
+  topics:
+    - DevSecOps
+    - DevOps
+  solutions:
+    - Security and quality
+  teaser: '"Modern application design and the continued adoption of DevSecOps are expanding the scope of the AST market."'
+
+- title: 'Modernizing Government IT through DevSecOps'
+  url: /resources/whitepaper-modernizing-government-it/
+  image: /images/resources/devops.png
+  type: 'Whitepaper'
+  topics:
+    - Public Sector
+    - DevSecOps
+  solutions:
+    - Security and quality
+    - Project compliance
+  teaser: 'Discover how government agencies can spark sustainable transformation through the same DevOps practices commercial peers are using to impact their organizations.'
+
+- title: 'How to Deploy on AWS from GitLab'
+  url: /resources/whitepaper-deploy-aws-gitlab/
+  image: /images/resources/devops.png
+  type: 'Whitepaper'
+  topics:
+    - Single Application
+    - DevOps
+    - Continuous Integration
+  solutions:
+    - Executive visibility
+    - Accelerated delivery
+    - Security and quality
+  teaser: 'Learn how to deploy a serverless application using GitLab and AWS SAM.'
+
+- title: 'Deploy AWS Lambda applications with ease'
+  url: /webcast/aws-gitlab-serverless/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Continuous Integration
+    - Cloud Native
+  solutions:
+    - Accelerated delivery
+  teaser: 'Learn how the industry’s leading serverless and CI solutions are making serverless possible.'
+
+- title: 'Harnessing development to scale AppSec'
+  url: /webcast/scalable-secure-ci/
+  image: /images/resources/security.png
+  type: 'Webcast'
+  topics:
+    - DevSecOps
+    - Continuous Integration
+    - Continuous Delivery
+    - Security
+  solutions:
+    - Accelerated delivery
+    - Security and quality
+  teaser: 'An inside look at securing your GitLab CI pipeline with WhiteSource'
+
+- title: 'The GitLab Remote Playbook'
+  url: /company/culture/all-remote/
+  image: /images/resources/gitlab.png
+  type: 'eBook'
+  topics:
+    - GitLab
+  solutions:
+    - Executive visibility
+  teaser: 'The most comprehensive remote work guide from one of the largest all-remote companies'
+
+- title: 'Mastering continuous software development'
+  url: /webcast/mastering-ci-cd/
+  image: /images/resources/continuous-integration.png
+  type: 'Webcast'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+    - GitLab
+  solutions:
+    - Accelerated delivery
+  teaser: 'Eliminate toolchain complexity and scale with GitLab’s built-in CI/C'
+
+- title: 'Automating Kubernetes deployments'
+  url: /webcast/justcommit-to-agile-K8s-deployments/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Cloud Native
+    - Single Application
+    - GitLab
+  solutions:
+    - Accelerated delivery
+  teaser: 'Commit to scalability with GitLab and Google Cloud Platform'
+
+- title: '7 GitLab CI Hacks'
+  url: /webcast/7cicd-hacks/
+  image: /images/resources/continuous-integration.png
+  type: 'Webcast'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+    - GitLab
+  solutions:
+    - Accelerated delivery
+  teaser: '7 GitLab CI advanced workflows that can help your team get to productivity faster'
+
+- title: 'Securing your applications in a Cloud Native world'
+  url: /webcast/zerotrust-cloudnative/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Security
+    - Cloud Native
+  solutions:
+    - Project compliance
+    - Security and quality
+  teaser: 'Learn how to combat modern application security challenges by leveraging Zero Trust principles'
+
+- title: 'Debunking Serverless security myths'
+  url: /webcast/securing-serverless/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Single Application
+    - DevSecOps
+    - Cloud Native
+  solutions:
+    - Accelerated delivery
+    - Project compliance
+    - Security and quality
+  teaser: 'Learn how to bring Dev and Sec teams together to secure your serverless applications'
+
+- title: 'Unleashing the power of portable Serverless'
+  url: /webcast/portable-serverless/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Single Application
+    - Software Development
+    - Cloud Native
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'How to achieve operational efficiency gains from Serverless without the vendor lock-in'
+
+- title: 'Making the case for CI/CD in your organization'
+  url: /webcast/cicd-in-your-organization/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Strategies you can use to get CI/CD greenlit by your leadership'
+
+- title: 'What you need to know about going Cloud Native'
+  url: https://about.gitlab.com/cloud-native/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Single Application
+    - Software Development
+    - DevOps
+    - Cloud Native
+    - Toolchain
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Learn the advantages and challenges of becoming Cloud Native'
+
+- title: 'From wishes to workflows: How to truly shift-left'
+  url: /webcast/wishes-to-workflows/
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - Single Application
+    - Software Development
+    - DevOps
+    - Cloud Native
+    - Toolchain
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Learn the challenges with shifting left and practical solutions to tackle these challenges'
+
+- title: 'The weeds of Cloud Native'
+  url: /webcast/weeds-cloud-native/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Single Application
+    - Software Development
+    - DevOps
+    - Cloud Native
+    - Toolchain
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Protips on how to avoid the pitfalls of Cloud Native to fully realize its value'
+
+- title: 'Scalable app deployment with GitLab and Google Cloud Platform'
+  url: /webcast/scalable-app-deploy/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Single Application
+    - Software Development
+    - GitLab
+    - Cloud Native
+  solutions:
+    - Accelerated delivery
+  teaser: 'Learn how to deploy applications at scale using GKE and GitLab’s robust Auto DevOps capabilities'
+
+- title: 'Starting and Scaling DevOps: a tactical framework for implementing DevOps principles'
+  url: /webcast/starting-scaling-devops/
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+  solutions:
+    - Accelerated delivery
+  teaser: 'A tactical framework for implementing DevOps principles'
+
+- title: 'DevOps: Powering your Speed to Mission '
+  url: /webcast/devops-speed-to-mission/
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+    - Public Sector
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+    - Project compliance
+  teaser: 'A panel discussion on DevOps in the Public Sector'
+
+- title: 'Keys to DevOps Success'
+  url: /webcast/keys-to-devops-success/
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - Software Development
+    - Single Application
+    - DevOps
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Learn key findings from The 2018 Accelerate State of DevOps Report'
+
+- title: 'Livestream: What`s next for GitLab?'
+  url: /webcast/whats-next-for-gitlab/
+  image: /images/resources/gitlab.png
+  type: 'Webcast'
+  topics:
+    - Single Application
+    - DevOps
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+    - Distributed teams
+  teaser: 'Watch a special #GitLabLive event featuring company updates, tips on how to scale a remote culture, and special guests'
+
+- title: 'A Cloud Native Transformation (with Ask Media Group)'
+  url: /webcast/cloud-native-transformation/
+  image: /images/resources/cloud-native.png
+  type: 'Webcast'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+    - Cloud Native
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'How Ask Media Group modernized their architecture and development with microservices, containers, and Kubernetes'
+
+- title: 'Mission Mobility: A DevSecOps Discussion'
+  url: /webcast/mission-mobility/
+  image: /images/resources/security.png
+  type: 'Webcast'
+  topics:
+    - DevSecOps
+    - Software Development
+    - Single Application
+    - Public Sector
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+    - Project compliance
+    - Security and quality
+  teaser: 'Building and delivering secure mobile apps in a regulated environment'
+
+- title: 'Keys to accelerating software delivery'
+  url: /webcast/justcommit-reduce-cycle-time/
+  image: /images/resources/software-development.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+    - Toolchain
+    - Single Application
+    - Software Development
+    - Agile
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Informative discussion on how to enable your organization to accelerate delivery'
+
+- title: 'The Hidden Cost of DevOps Toolchains (with Forrester)'
+  url: /webcast/simplify-to-accelerate/
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+    - Toolchain
+    - Single Application
+    - Software Development
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Practical insights on how to overcome the toolchain challenge and get to productivity faster.'
+
+- title: 'The Hidden Cost of DevOps Toolchains (with Forrester)'
+  url: /webcast/simplify-to-accelerate/
+  image: /images/resources/devops.png
+  type: 'Webcast'
+  topics:
+    - DevOps
+    - Toolchain
+    - Single Application
+    - Software Development
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Practical insights on how to overcome the toolchain challenge and get to productivity faster.'
+
+- title: 'An Agile iteration with GitLab'
+  url: https://about.gitlab.com/solutions/agile-delivery/
+  image: /images/resources/gitlab.png
+  type: 'Whitepaper'
+  topics:
+    - Agile
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+    - Project compliance
+  teaser: 'Learn how GitLab can seamlessly tie into your Agile methodology'
+
+- title: 'GitLab Developer Report 2020'
+  url: /developer-survey/
+  image: /images/resources/gitlab.png
+  type: 'Report'
+  topics:
+    - DevSecOps
+    - DevOps
+    - Security
+  solutions:
+    - Accelerated delivery
+    - Security and quality
+    - Distributed teams
+  teaser: 'Read the 2020 Global Developer Report: DevSecOps'
+
+- title: 'GitLab Developer Report 2019'
+  url: /developer-survey/previous/2019/
+  image: /images/resources/gitlab.png
+  type: 'Report'
+  topics:
+    - DevSecOps
+    - DevOps
+    - Security
+  solutions:
+    - Accelerated delivery
+    - Security and quality
+    - Distributed teams
+  teaser: 'Read the 2019 Global Developer Report: DevSecOps'
+
+- title: 'A Guide to the Cloud'
+  url: /resources/guide-to-the-cloud/
+  image: /images/resources/cloud-native.png
+  type: 'Report'
+  topics:
+    - Cloud Native
+  solutions:
+    - Accelerated delivery
+  teaser: 'Insights on how to harness the power of the cloud'
+
+- title: '10 Steps every CISOs should take to secure next-gen software'
+  url: /resources/ebook-ciso-secure-software/
+  image: /images/resources/security.png
+  type: 'eBook'
+  topics:
+    - Security
+    - DevSecOps
+  solutions:
+    - Security and quality
+  teaser: 'How to bring your security team and programs to the speed of software development'
+
+- title: 'Gary Gruver eBook: Starting and Scaling DevOps in the Enterprise'
+  url: /resources/scaling-enterprise-devops/
+  image: /images/resources/devops.png
+  type: 'eBook'
+  topics:
+    - DevOps
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Pioneering insights on how organizations can transform software development and delivery processes'
+
+- title: 'The benefits of single application CI/CD'
+  url: /resources/ebook-single-app-cicd/
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Accelerated delivery
+  teaser: 'Building better, faster software without the toolchain'
+
+- title: '단일 애플리케이션 CI/CD의 장점'
+  url: https://page.gitlab.com/resources-ebook-benefits-single-app-ci-ko-kr.html
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Accelerated delivery
+  teaser: '툴체인 없이 더 빠르고 더 우수한 소프트웨어 구축'
+
+- title: 'Los beneficios utilizar IC/EC en una aplicación única'
+  url: https://page.gitlab.com/resources-ebook-benefitsofsingleappcicd-es.html
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Accelerated delivery
+  teaser: 'Desarrollo de un mejor software y, a la vez, más rápido sin una cadena de herramientas'
+  
+- title: 'Modernize your CI/CD'
+  url: /resources/ebook-fuel-growth-cicd/
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+  solutions:
+    - Accelerated delivery
+  teaser: 'How modernizing your CI/CD can give you a competitive advantage'
+
+- title: 'DevSecOps Maturity Assessment'
+  url: /resources/devsecops-methodology-assessment/
+  image: /images/resources/security.png
+  type: 'Assessment'
+  topics:
+    - DevSecOps
+  solutions:
+    - Security and quality
+  teaser: '20 Capabilities needed for DevSecOps success'
+
+- title: '10 Steps Every CISO Should Take to Secure Next-Gen Software'
+  url: /resources/ebook-ciso-secure-software/
+  image: /images/resources/security.png
+  type: 'eBook'
+  topics:
+    - DevSecOps
+  solutions:
+    - Security and quality
+  teaser: 'Learn the three shifts of next-gen software and how they impact security.'
+
+- title: 'Manage your toolchain before it manages you'
+  url: /resources/whitepaper-forrester-manage-your-toolchain/
+  image: /images/resources/gitlab.png
+  type: 'Report'
+  topics:
+    - Software Development
+    - DevOps
+    - Toolchain
+  solutions:
+    - Accelerated delivery
+    - Distributed teams
+  teaser: 'Reduce toolchain complexity for improved software delivery and quality.'
+
+- title: 'Reduce cycle time to deliver value'
+  url: /resources/whitepaper-reduce-cycle-time/
+  image: /images/resources/gitlab.png
+  type: 'Whitepaper'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+    - Software Development
+    - Git
+    - GitLab
+    - DevOps
+  solutions:
+    - Accelerated delivery
+    - Distributed teams
+  teaser: 'Learn how to stay competitive in a rapidly changing technological landscape.'
+
+- title: 'A seismic shift in application security'
+  url: /resources/whitepaper-seismic-shift-application-security/
+  image: /images/resources/security.png
+  type: 'Whitepaper'
+  topics:
+    - Security
+    - DevSecOps
+  solutions:
+    - Security and quality
+    - Distributed teams
+  teaser: 'Learn how to integrate and automate security in the DevOps lifecycle.'
+
+- title: 'Concurrent DevOps'
+  url: /resources/whitepaper-concurrent-devops/
+  image: /images/resources/devops.png
+  type: 'Whitepaper'
+  topics:
+    - GitLab
+    - Software Development
+    - DevOps
+  solutions:
+    - Accelerated delivery
+  teaser: 'Find out how Concurrent DevOps can help you fully realize the benefits of digital transformation.'
+
+- title: 'Scaled continuous integration and delivery (CI/CD)'
+  url: /resources/scaled-ci-cd/
+  image: /images/resources/continuous-integration.png
+  type: 'eBook'
+  topics:
+    - Continuous Integration
+    - Continuous Delivery
+    - DevOps
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Deliver what customers want, faster, with an integrated CI/CD tool.'
+
+- title: 'Moving to Git'
+  url: /resources/whitepaper-moving-to-git/
+  image: /images/resources/git.png
+  type: 'Whitepaper'
+  topics:
+    - Git
+  solutions:
+    - Accelerated delivery
+    - Executive visibility
+  teaser: 'Learn how to implement Git and take the first steps towards a more collaborative and efficient software development lifecycle.'
+
+- title: 'GitLab capabilities statement'
+  url: https://cdn.pathfactory.com/assets/10519/contents/430162/ba2b7fd5-ba10-4065-8eb2-d4f90ce9a1d2.pdf
+  image: /images/resources/gitlab.png
+  type: 'One-pager'
+  topics:
+    - GitLab
+    - Public Sector
+  solutions:
+    - Distributed teams
+    - Accelerated delivery
+  teaser: 'Read the capabilities of GitLab as a single solution for DevOps.'
+
+- title: 'GitLab datasheet'
+  url: /images/press/gitlab-data-sheet.pdf
+  image: /images/resources/gitlab.png
+  type: 'One-pager'
+  topics:
+    - GitLab
+    - DevOps
+    - Single Application
+  solutions:
+    - Project compliance
+  teaser: 'Read how GitLab is a complete DevOps platform, delivered as a single application.'

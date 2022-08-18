@@ -1,0 +1,109 @@
+description: Site Reliability Engineers are responsible for ensuring the availability, security, performance, scalability, and usability of a company’s web services. Learn more!
+canonical_path: /topics/devops/what-is-a-site-reliability-engineer/
+parent_topic: devops
+file_name: what-is-a-site-reliability-engineer
+title: What is a site reliability engineer?
+header_body: Site reliability engineers (SREs) have an extensive knowledge of the technology behind their organization’s website or application. They also understand the business needs and requirements of their customers.
+body: >-
+  A [site reliability engineer (SRE)](/job-families/engineering/infrastructure/site-reliability-engineer/) is someone who applies the core principles of computer science and software engineering to design and develop scalable, distributed, and reliable computing systems. The term, coined by Google, refers to treating operations much like a software problem, as it aims to develop large-scale software systems to provide automated solutions to complex operational problems. 
+
+
+  At its core, a site reliability engineer relies on a set of developmental practices that incorporate aspects of computer science and software engineering into operations for improving day-to-day workflow, as well as system efficiency and reliability. Essentially, SREs are in charge of providing for, protecting, and progressing a company’s software systems and services. 
+
+
+  Here, we’ll [explore the day-to-day activities](/blog/2019/12/16/sre-shadow/) of site reliability engineer’s, the value they contribute to [DevOps](/topics/devops/) teams and companies, and their key responsibilities. We’ll also dive into how to measure site reliability and explain the difference between SREs and DevOps engineers. Finally, this article will explore site reliability engineering as a career choice.
+  
+
+  ## The day-to-day work of an SRE
+
+
+  [SREs juggle many different activities](/blog/2019/12/16/sre-shadow/), splitting their time between system admin tasks and building software. In general, that means managing multiple projects, configuring infrastructure, and attending engineering meetings. 
+
+
+  System admin tasks generally include maintaining reliability and performance, fixing issues and errors, [automating tasks](/blog/2021/09/30/want-faster-releases-your-answer-lies-in-automated-software-testing/), responding to incidents, and managing on-call responsibilities. 
+
+
+  When it comes to development, SREs spend a significant amount of time building infrastructure-based processes or methodologies to be used by software engineers on the site reliability team or in cross-functional environments. For example, they might develop a process for around-the-clock [monitoring of performance](/blog/2020/05/07/working-with-performance-metrics/) and service latency.
+
+
+  [SREs collaborate](/blog/2022/03/10/if-its-time-to-learn-devops-heres-where-to-begin/) closely with product managers and their teams, trying to ensure that the stated vision for a product is compatible with non-functional system requirements – namely performance, latency, availability, and security. They also work with engineering teams at the staging phase of the build process to ensure optimal delivery efficiency.
+
+
+  ## What a site reliability engineer brings to an organization
+
+
+  By applying a rigorous software engineering mindset to system administration, [SREs act as a bridge](/blog/2020/06/25/7-things-ive-learnt-while-shadowing-sre/) between software development and operations.
+
+  SREs generate and document crucial field and project-specific knowledge, and ensure it is accessible. They deliver a solid playbook of operative guidelines, eliminating hands-on work and redundancy. The best SREs strike a balance between pushing consistent product growth and maintaining reliability for customers.
+
+
+  ## Job responsibilities
+
+
+  An SRE is responsible for maintaining reliability. That means facilitating automated, streamlined, and efficient error responses and reducing human error at scale. SREs spend a lot of time removing pain points, configuring internal tools, and setting and testing system benchmarks. They also develop and monitor robust engineering pipelines for everyday product operability.
+
+
+  In general, SREs are responsible for performance, availability, reliability, efficiency, change management, monitoring, and emergency response of a system. 
+
+  Other core tasks of SREs include:-
+
+
+  - Monitoring Service-Level Indicators (SLIs) and setting Service-Level Objectives (SLOs) – SREs facilitate proper SLIs for efficient performance through proper resource utilization, with minimal errors. They also set SLOs for reviewing internal targets, such as high availability. 
+
+
+  - Risk assessments and error budgeting – SREs are responsible for establishing the reliability target for systems, even taking measured risks with subsequent product launches. 
+
+
+  - Monitoring outputs — Ticketing, logging, and alerts (signifying different levels of needed human actions) are critical tasks for an SRE.
+
+
+  - Demand forecasting and capacity planning – Projects require careful assessments to plan for future demand, outages, and emergencies. An SRE works in conjunction with product heads to perform these tasks. 
+
+
+  - Collaboration – SREs must collaborate with many diverse teams, disseminating best practices and reviewing best reliability decisions to make for better cross-departmental product development. 
+
+
+  - Writing retrospectives – Retrospective reports help the team learn from incidents to prevent their recurrence.
+
+
+  ## Measuring site reliability
+
+
+  Site reliability is typically measured in three dimensions. 
+
+
+  First, there are SLIs, which are used to measure system-level usage, slowdowns, outages, errors, traffic, and several other factors. SLIs are directly tied to the user experience – if the numbers aren’t desirable, customer satisfaction is affected. 
+
+
+  Second, there are SLOs, which define the target level for the reliability of a product or service. For example, if we have an SLI that requires request latency to be less than 500ms in the last 15 minutes with a 95% percentile, a 99% SLO would need the SLI to be 99%. These are internal objectives the site reliability team and internal stakeholders (including developers and product managers) must agree upon. 
+
+
+  Finally, there is the Service-Level Agreement (SLA). This can be an implicit or explicit business-level agreement between a company and its customers, noting consequences if the organization does not meet the SLA. They also can include error budgets, which measure the risk an SRE can take for providing services, like maintenance and improvements, without compromising the SLAs.
+
+
+  ## Comparing site reliability engineers to DevOps engineers
+
+
+  The difference between the two positions is mainly that site reliability engineers focus their efforts on enhancing system availability and reliability, while DevOps engineers gear their work to the speed and automation of development and deployment.
+
+
+  SREs are expected to efficiently write and deploy software, while investigating the reliability of their code and innovating solutions to correct errors. While DevOps engineers look to automating processes and monitoring throughout the product life cycle, SREs minimize risks by evaluating redundancies and accelerating growth.
+
+
+  ## Becoming a site reliability engineer
+
+
+  To become an SRE, a tech professional needs a few years of experience and knowledge of one or more programming languages, such as Python, Ruby, or Java. They also should be experienced in shell scripting, using version control systems like Git with GitLab, and automating continuous testing and delivery pipelines (CI/CD). 
+
+
+  Additionally, potential SREs should be familiar with SQL and NoSQL databases. Experience in containerization, like Docker and Kubernetes, also is highly desirable. 
+
+
+  ## Conclusion
+
+
+  Site reliability engineering is about the design and development of scalable, distributed, and reliable computing systems. Their working day is spent performing system admin tasks and building software. Bringing a software engineering mindset to system administration, they act as a bridge between software development and operations.
+
+
+  Site reliability engineering is a varied, rewarding, and lucrative career.
+

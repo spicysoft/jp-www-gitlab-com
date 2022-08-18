@@ -1,0 +1,28 @@
+---
+name: Jackie Fraser
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/fullstack/">Fullstack Engineer</a>
+reports_to: pcalder
+picture: jackiefraser.jpg
+twitter:
+gitlab: jackie_fraser
+departments:
+- Engineering Function
+- Development Department
+projects:
+  gitlab:
+  - reviewer backend
+  - reviewer frontend
+  version-gitlab-com:
+  - trainee_maintainer backend
+  - trainee_maintainer frontend
+  iglu:
+  - maintainer
+story: 'Jackie has been a part of building and launching multiple successful startup
+  web applications over the last 13 years.  When not programming or spending time
+  with her son, she can normally be found rock climbing or training for rock climbing.
+  '
+specialty: Expansion
+

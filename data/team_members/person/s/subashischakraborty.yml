@@ -1,0 +1,33 @@
+---
+name: Subashis Chakraborty
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Secure:Threat Insights</a>
+reports_to: thiagofigueiro
+picture: subashischakraborty.jpg
+pronouns: he/him
+projects:
+  gitlab: 
+  - reviewer backend
+  - reviewer database
+  security-report-schemas:
+  - trainee_maintainer backend
+pronunciation:
+twitter:
+gitlab: subashis
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Threat Insights BE Team
+- Backend
+expertise:
+story: Subashis was born in Bangladesh and then moved to Calgary, Alberta, Canada
+  where he did his Master of Science from the University of Calgary. He has been working
+  as a software engineer for last 7 years. Apart from writing and reading code, he
+  enjoys spending time with his family, doing and listening to music, playing soccer,
+  reading books.
+specialty:
+- 'Secure: Threat Insights'
+

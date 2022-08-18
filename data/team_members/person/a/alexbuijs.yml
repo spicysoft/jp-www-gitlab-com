@@ -1,0 +1,29 @@
+---
+name: Alex Buijs
+locality:
+country: Remote
+role:
+  <a href="/job-families/engineering/development/fullstack/">Senior Fullstack
+  Engineer</a>, Sec:Anti-Abuse
+reports_to: jayswain
+picture: alexbuijs.jpg
+twitter: alexbuijs
+gitlab: alexbuijs
+departments:
+  - Engineering Function
+  - Development Department
+  - Sec Section
+  - Anti-Abuse Team
+  - Anti-Abuse Fullstack Team
+projects:
+  gitlab:
+    - trainee_maintainer backend
+story: |
+  Alex Buijs has over 15 years of experience creating web applications. He enjoys using the latest
+  techniques and a diversity of frameworks. He takes pride in creating beautiful and minimal code.
+  He has a master's degree in AI. Besides programming, he is father of an adolescent daughter,
+  practices zen meditation on a daily basis, loves making electronic music, watching movies, skying
+  and paragliding.
+domain_expertise:
+  - rails
+specialty: Anti-Abuse

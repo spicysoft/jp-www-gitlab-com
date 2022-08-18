@@ -1,0 +1,119 @@
+title: Synchrotron Soleil
+file_name: synchrotron_soleil
+canonical_path: /customers/synchrotron_soleil/
+cover_image: /images/blogimages/syncho_soleil_cover_image .jpg
+cover_title: |
+  GitLab accelerates innovation and improves efficiency for Synchrotron SOLEIL
+cover_description: |
+  The French synchrotron research facility adopted GitLab to make it easier for a wide array of internal and external users to collaborate, enabling researchers to access the insights they need to make breakthrough discoveries. 
+twitter_image: /images/blogimages/syncho_soleil_cover_image .jpg
+twitter_text: GitLab accelerates innovation and improves efficiency for Synchrotron SOLEIL @synchroSOLEIL
+customer_logo: /images/case_study_logos/synch_soleil_logo.png
+customer_logo_css_class: brand-logo-tall
+customer_industry: Education and Research
+customer_location: France
+customer_solution: GitLab Self Managed Ultimate
+customer_employees: |
+  358
+customer_overview: |
+ A customer since 2017, Synchrotron SOLEIL, the French national synchrotron facility needed easier collaboration to improve developer productivity.  
+customer_challenge: |
+  Developers worked on a variety of different version control systems, which was highly inefficient and made it difficult to gain visibility into overall development.
+key_benefits: >-
+
+  
+    The GitLab dashboard provides much better visibility into developer work versus the older tools.
+
+  
+    GitLab connects to the Active Directory so SOLEIL staff can use it anywhere, either from the SOLEIL network or on the internet, increasing efficiency and productivity.
+
+  
+    External researchers and other users can connect to SOLEIL's GitLab repository with no need to create an account on SOLEIL's Active Directory.
+
+
+    Testing is easier and faster, going from one week for developers to test manually, to just 2 hours using the GitLab platform.
+
+
+    Alignment with open source and collaboration ethos 
+
+
+
+customer_stats:
+  - stat:  74 to 250
+    label: Active GitLab project growth
+  - stat:  130 to 270
+    label: User adoption growth
+  - stat:  50%
+    label: Test coverage increase
+
+customer_study_content:
+  - title: the customer
+    subtitle: The French site for synchrotron radiation research and application
+    content: >-
+  
+
+
+       A synchrotron is a large machine (about the size of a football field) that accelerates electrons to almost the speed of light. As the electrons are deflected through magnetic fields they create extremely bright light. The light is channeled down beamlines to experimental workstations where it is used for explorative research and applied in industry. Located in Saint Aubin, Essonne, [SOLEIL]( https://www.synchrotron-soleil.fr/en) is the French national synchrotron light source, a very large research facility. SOLEIL, an acronym for “Optimized Light Source of Intermediate Energy to [LURE](https://www.synchrotron-soleil.fr/en/about-us/what-soleil/soleil-3-questions),” functions as a laboratory and experimental place for scientists from France and abroad. SOLEIL’s mission is to run research programs using synchrotron radiation, to develop state-of-the-art instrumentation on the beamlines, and to make those available to the scientific community. SOLEIL, a unique tool for both academic research and industrial applications across a wide range of disciplines including physics, biology and chemistry, is used by over 4500 researchers per year within the international community. The facility is a public entity employing about 358 people, founded by the CNRS and the CEA, and partner of the Paris-Saclay University. SOLEIL is preparing for an upgrade of the facility in order to offer new capabilities for research. The electron accelerators and the beamlines, from the source down to experimental workstations, will be deeply refurbished and improved, including the whole IT systems and infrastructure. The atmosphere of collaboration carries over to software development, which is open source, with contributions from the internal team and external developers.
+
+
+  - title: the challenge
+    subtitle:  Too many systems got in the way of collaboration
+    content: >-
+    
+
+
+       SOLEIL uses a variety of different types of software, including some commercial off-the-shelf software for Human Resources, back-office financials, project management and tracking issues. It also develops software for its own needs, such as its most important application the SUN set, which manages the scientific proposals submitted to and realized at SOLEIL or in collaboration with other scientific laboratories and facilities. The team was in the process of migrating this application from PHP to Java and wanted to accelerate the process while maintaining strict quality standards for the code.   But SOLEIL had no standard for version control. “We were maintaining too many systems, including [Concurrent Versions System] CVS and [Apache Subversion] SVN and GitLab to do the same thing,” says Idrissou Chado, head of management information systems at SOLEIL. The situation was confusing – less than ideal for developer productivity. Developers were using Agile software development practices, consisting of five steps plan requirements, develop product, test software (automatic non-regression tests as well as manual testing), deliver iteration and incorporate feedback. The team needed to improve code version control and governance. They needed a common repository for source code written by SOLEIL staff (scientists and developers). And the team wanted to improve its Software Development Life Cycle (SDLC). Toward both goals, the first order of business was to migrate to an integrated DevOps platform.  “We needed to improve our development project management, particularly in the framework of external collaboration,” recalls Chado. “It was too time-consuming to use CVS and SVN, and they were not up to date so there was no way to manage tasks or develop in a collaborative way,” says Chado. Source code was spread out on a number of systems, including GitHub, GitLab and on the individual developers’ local computers. There was no option not to upgrade the tooling without the prospect of wasted time and money and reduced quality of the code. And not being able to collaborate with ease was affecting the motivation of the developers because it was too cumbersome to track the evolution of the code. Chado led a multi-stakeholder working group endorsed by SOLEIL's IT Department to search for a collaborative platform that followed an open-source philosophy and had all the tools in one place (including code versioning and CI/CD integration). The  working group decided to do a proof of concept project on GitLab. “By doing that, we found that GitLab was very user-friendly,” he says. “We didn't go too much deeper because the feedback we got about GitLab from the developers and users was very good.” 
+
+
+  - title: the solution
+    subtitle:  GitLab use and active projects take off 
+    content: >-
+
+
+
+       They considered GitHub and BitBucket but decided to progress with GitLab due to the alignment with open source and the transparent philosophy which was in keeping with their mission also.  They tested GitLab for a few months and determined from this pilot that GitLab was the right choice offering one DevOps platform, robust workflow and security capabilities like pushing issues from external testing applications into GitLab on specific project and user profiles. After GitLab got good reviews from the development team, Chado elected to migrate to GitLab Starter for its unified version control system and a variety of other functions. The team now uses GitLab Ultimate. After starting with 134 active users and roughly 74 projects, the team’s use of GitLab has rapidly grown to 270 users and more than 250 projects. 
+
+   
+
+  - title: the results
+    subtitle:   A window into developer activities 
+    content: >-
+
+
+
+       Immediately after the migration, GitLab provided much better visibility into the work done by developers. Having a unified view in the GitLab dashboard was a major step up, says Chado. “GitLab increased the visibility of the information shared within the Agile development team,” says Chado. This was especially important during the migration of the SUN set also called SOLEIL Digital User office tool from  PHP to Java. “Project management combined with issue tracking on the code was very useful for us.”  “GitLab increased the visibility of the information shared within the Agile development team,” says Chado. This was especially important during the migration of the SUN set also called SOLEIL Digital User office tool from  PHP to Java. “Project management combined with issue tracking on the code was very useful for us.”  Collaboration is still paramount, because the researchers and scientists come from within and outside SOLEIL. “Now, with the help of the GitLab, we are able to take charge and collaborate on code with internal and external users. This is very useful for us because it makes our life much easier,” says Chado. Testing is another major improvement under GitLab. Previously, it took roughly one week for a developer to test the code manually. “Now, by doing that automatically and putting that into GitLab, testing is much easier and faster,” says Chado.  A sure sign the developers have embraced GitLab: There will soon be 500 new projects moved on the GitLab. Says Chado, “The work is ongoing and GitLab has been adopted very quickly and we are happy with that.” 
+
+
+
+
+   
+
+        ## Learn more about GitLab solutions
+    
+  
+        [Security with GitLab](/solutions/dev-sec-ops/)
+    
+  
+        [CI with GitLab](/stages-devops-lifecycle/continuous-integration/)
+    
+  
+        [Choose a plan that suits your needs](/pricing/)
+customer_study_quotes:
+  - blockquote: GitLab increased the visibility of the information shared within the Agile development team. Project management combined with issue tracking on the code was very useful for us.
+    attribution:  Idrissou Chado
+    attribution_title:  Head of Management Information Systems at SOLEIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

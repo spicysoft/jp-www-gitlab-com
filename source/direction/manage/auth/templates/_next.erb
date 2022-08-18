@@ -1,0 +1,29 @@
+### Current Work
+
+The Authentication and Authorization team is currently at approximately 60% of its full capacity. We have had several non-negotiable initiatives that have futher reduced our capacity for roadmap related work. These include:
+
+   - **FedRAMP:** We are  working to ensure that all of the Auth stage features are [FedRAMP compliant](https://about.gitlab.com/solutions/public-sector/fedramp/). We just passed our [FIPS audit](https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards), and FedRAMP is next.
+   
+
+   - **Security:** Due to the nature of being the front gates of GitLab, high priority security issues often fall to the Auth team. We aim to remediate open security issues within their [SLA](https://about.gitlab.com/handbook/engineering/security/threat-management/vulnerability-management/#remediation-slas). As of 15.4, Security is using approximately 30% of our backend engineering capacity.
+
+   - **Corrective Actions:** With incidents come [corrective actions](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#corrective-actions). These are work items created as a results of an incident, to reduce the likelihood of recurrance. They are part of our maintenance allocation. It's important that we stay on top of these due to risk.
+
+   - **Staying Ahead of Integration Deprecations:** Auth is a group that has long tendrils that are often hooked into other systems that interact with us. Often, these other systems change their way of operating. We have to attend to these issues so that no functionality breaks for our customers. Here's an [example](https://gitlab.com/groups/gitlab-org/-/epics/8259) that is quite large.
+
+Roadmap Items at the top of our list:
+
+### Enterprise Users
+   - Allow administrators to [verify their domain](https://gitlab.com/groups/gitlab-org/-/epics/5299), which adds credibility to project pages and allows administrators to claim their users. We have started this with a [MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/353030). 
+
+### Permissions
+   - We have written our first code against the new [customizable roles and permissions feature](https://gitlab.com/groups/gitlab-org/-/epics/4035). It's a large effort, but it's really exciting to have this under way after a lot of customer discovery work. On the UX side, we are currently doing usability interviews with customers, to make sure the UI we have drafted is intuititive.
+
+### Authentication
+   - [Credential Inventory for GitLab.com](https://gitlab.com/groups/gitlab-org/-/epics/5188) (e.g. SSH and PAT expiration) provide administrators with visibility and control for the credentials that can access their instance or group(s). Today much of this functionality is only available to self-managed instances. Although this is high priority, it is not something we expect to have capacity for until later in the year.
+   - Token Management continues to be a topic of concern for our customers. We've made some incremental improvements in this space, such as [populating default expiration and pre-select least privilege scopes when creating new access tokens](https://gitlab.com/gitlab-org/gitlab/-/issues/348660). This will be an area of focus for us early next year. 
+
+
+### More Details on What's Next 
+Authentication and Authorization uses a [board](https://gitlab.com/gitlab-org/gitlab/-/boards/4373794?not[label_name][]=Quality&label_name[]=group%3A%3Aauthentication%20and%20authorization) to plan the next few milestones. This board will give you a view into the issues that are in our current milestone + at least next 2 after that. If you're not confident an important Authentication and Authorization issue is on our roadmap, please feel free to highlight by commenting in the relevant issue and @ mentioning [hsutor](https://gitlab.com/hsutor), Authentication and Authorization Product Manager.
+

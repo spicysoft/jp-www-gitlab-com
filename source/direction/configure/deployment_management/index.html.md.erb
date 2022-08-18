@@ -1,0 +1,83 @@
+---
+layout: markdown_page
+title: "Deployment Management Direction"
+description: "Managing how deployment is conducted to higher tier environments is a major organizational challenge. This direction page communicates how GitLab thinks about this problem and the direction we intend to take."
+canonical_path: "/direction/configure/deployment_management/"
+---
+
+- TOC
+{:toc}
+
+## Overview
+
+Managing an organization's deployments is a major challenge. Particularly in larger organizations, with the proliferation of services, technologies, dependencies on one side, and compliance and security requirements on the other side, many teams find themselves struggling to deploy frequently and consistently in a repeatable manner. 
+
+Platform teams want to help development teams become more efficient; so that they can meet compliance and security requirements and deploy to environments they can't (and probably shouldn't) update, without slowing down their ability to implement changes to their applications. 
+
+## Vision
+
+GitLab distrupts the market with a fully declarative, scalable, modular, testable approach to deployment management that supports any major target infrastructure from bare metal servers to container orchestrators to edge devices and mobile app stores. 
+
+### Why fully declarative?
+
+Declarative operations is to the devops pipeline what serverless is to infrastructure. It shifts the responsibility of operating the underlying systems to a service provider / controller, and enables the user to focus on their business instead.
+
+The biggest difficulty with every automation tool is that it is code. As a result it requires developers to write it, a runtime environment to run it and a lot of investment into learning the tool chain. Compare this to the declarative nature of Kubernetes. With Kubernetes everyday developers realised that operations are complex, but operations were complex even before Kubernetes. Kubernetes, with its declarative, everything as data approach made this complexity approachable for every developer.
+
+At the same time, Kubernetes made it clear that higher-level abstractions are required for developers without compromising the core flexibility of the container orchestrator.
+
+### Maturity
+
+We consider Deployment Management to be at the minimal level. We believe that the current CI/CD based approach, environments, releases are acceptable for many users, but are far from a distruptive solution.
+
+## Market
+
+As CI became mainstream, we believe that the next big market is around integrated and scalable deployment solutions. The total addressable market (TAMkt) for DevOps tools targeting the Release and Configure stages was [$1.79B in 2020 and is expected to grow to $3.25B by 2024 (13.8% CAGR) (i)](https://docs.google.com/spreadsheets/d/1LO57cmXHDjE4QRf6NscRilpYA1mlXHeLFwM_tWlzcwI/edit?ts=5ddb7489#gid=1474156035). Continuous delivery alone, which does not include categories such as infrastructure as code, is estimated to have a market size of $1.62B in 2018 growing to $6B by 2026 (17.76% CAGR). 
+
+Deployment Management enables an integrated, programmable approach to serve this market, and provides opportunities for GitLab in the future.
+
+## Strategy
+
+### Current
+
+Today, GitLab CI/CD is used by many Gitlab customers to manage their deployments. GitLab CI/CD is a mixture of imperative and declarative code that is hard to test and its YAML based syntax does not offer much possibility for scalable, modular setup. As deployments are complex processes where all the previous work and requirements need to converge having strong foundations is crucial.
+
+We are working on [defining the entities and processes around deployments](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/75338) to have a shared vocabulary to discuss deployment requirements.
+
+As GitLab already provides support to deploy into non-production and production environments, we updated the GitLab Documentation to reflect this by moving existing content under "Use GitLab / Release Your Application" and renaming "Release Your Application" to "Deploy and Release Your Application"
+
+### Next 6-12 months
+
+We want to lay down the foundations for a new Deployment Management framework within GitLab.
+
+### Pricing
+This section establishes the pricing alignment scaffolding for this category based on GitLab's [buyer-based tiering](https://about.gitlab.com/company/pricing/#buyer-based-tiering-clarification). 
+
+#### Free
+Managing deployments using existing CI/CD features, such as using `include` will continue to be free. For a large number of GitLab users, from individual developers to small companies, this is sufficient.
+
+#### Premium
+Orchestrating moderately complex deployments across a number of projects becomes hard to maintain and manage. Declarative management of multi-project deployment orchestration will fall under the Premium tier. These features enable development teams while keeping control within the platform team.
+
+#### Ultimate
+Helping organizations with a standards-based and compliant deployment pipeline is critically important that gets the attention of CIOs. Dashboards that summarize compliance and empower leaders with a birds-eye-view of their entire organization's change management solves a fundamental problem for GitLab's largest customers. 
+
+### Work focus
+
+We want to target Kubernetes first as it already provides declarative operations. As a result, first we want to focus on improving deployment support on top of the GitLab agent for Kubernetes. Some notable directions, work we are investigating:
+
+- [Support for templating tools](https://gitlab.com/gitlab-org/gitlab/-/issues/329773)
+- [Improve the coverage of supported Kubernetes versions](https://gitlab.com/groups/gitlab-org/-/epics/4827)
+- [Add environments support to the agent](https://gitlab.com/gitlab-org/gitlab/-/issues/352186)
+- [Provide a Kubernetes dashboard](https://gitlab.com/groups/gitlab-org/-/epics/2493)
+- [Support an opinionated flow for deployments](https://gitlab.com/gitlab-org/gitlab/-/issues/297004), similar to the deprecated GitLab-managed clusters
+
+## Target persona
+
+The primary persona is [the Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer). Their job is to support all the development teams with standardised and compliant pipelines.
+
+The secondary personas are [the Application Operator](/handbook/product/personas/#allison-application-ops) and [the Compliance Manager](/handbook/product/personas/#cameron-compliance-manager). The Application Operator is responsible for deploying and operating the business applications, while the compliance manager assures that all the processes follow internal policies.
+
+### User story map
+
+Deployments don't live in a vacuum, but are part of a companies delivery process. They are preceded and followed by CI jobs, are surrounded by security checks and guardrails, are integrated with monitoring and work in coordination with release management. We created [a user story map](https://app.mural.co/t/gitlab2474/m/gitlab2474/1642001078399/2dfb4a6a7307e42f2a2e42f0e10f49dc83bdfbae?wid=0-1647471145120) to highlight and discuss these cross-stage and intra-group jobs and integration requirements.

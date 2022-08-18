@@ -1,0 +1,121 @@
+title: What is Agile Methodology?
+description: Agile is an approach to software development based on self-organizing teams, continuous integration, short iterations, and early delivery. Learn more here.
+header_body: Agile Methodology is a set of principles and practices used in developing software. It focuses on delivering working software frequently, using small increments of time, and responding quickly to change.
+canonical_path: /topics/agile-delivery/agile-methodology/
+file_name: /agile-methodology/
+parent_topic: agile-delivery
+body: >-
+  [Agile methodology provides a framework](/blog/2020/11/11/gitlab-for-agile-portfolio-planning-project-management/) that details how teams should be arranged and managed, how to capture and develop requirements, and ways to build solutions that iteratively demonstrate function, and implement feedback throughout the development process.
+
+ 
+  ## Why Agile methodology is important
+  
+  When a team begins a new project, it must usually consider customers’ and end users’ requests and desires. The team must then translate a client’s request into a set of criteria so they know exactly what to build.
+
+  However, mapping someone’s vision into specific requirements is not always straightforward. And requirements often evolve as the project progresses, resulting in a product that no longer aligns with customers’ expectations. 
+
+  [Agile delivery](/topics/agile-delivery/) aims to solve this issue by iterating on a product solution, and showing each iteration to the customer, who can then provide feedback, ensuring the product being developed matches their needs.
+
+
+  ## How Agile methodology works in software engineering
+
+  Agile methodologies are popular in software engineering, which typically requires cooperation across multiple teams. These cross-functional teams can include software engineers, business analysts, product managers, and a representative from the customer's team — all of them collaborate to build a software solution that meets the customer's requirements.
+
+  The teams break down the project into small sections, each focused on producing a tangible result. Once a section is complete, the customer receives a demonstration and delivers feedback, which is then used to update the requirements, or generate new ones, keeping the project on track.
+
+
+  ## How Agile can help tech teams and businesses
+
+  The primary [benefit of Agile methodology](/topics/agile-delivery/agile-ppm/) is its inherent end-user focus. By keeping the customer included and informed throughout the development process, it ensures the product created is what the customer wants. This saves businesses and engineering teams from expensive and lengthy software development projects that, in the end, create products that do not align with customer needs. By keeping end users top of mind throughout the development process, they are far more likely to remain engaged with the company and loyal customers, despite new competitors that may enter the market.
+
+  The iterative approach of Agile also means that, since the software is built in logical stages, the code quality should improve as it is progressively refactored.
+  
+
+  ## Key features of Agile methodology
+  
+  While each Agile methodology shares a common framework and goal, their techniques for completing tasks can differ greatly. Here’s a look at three methods.
+
+
+  ### The Scrum approach
+
+  
+  The Scrum methodology relies upon the concept of a daily standup, in which each team meets every morning for 15 minutes, for instance. During the meeting, each team member provides a brief update about what they accomplished the previous day, the current day’s plans, and any obstacles they are facing. 
+
+  Using this approach, teams also work in two-week “sprints.” Each sprint has a goal - such as producing a new software feature - and only tasks relevant to reaching that goal are added to the sprint. At the end of the sprint, the new feature is presented to the customer for feedback and the cycle begins again.
+
+
+  ### The Kanban approach
+
+  Instead of sprints, the Kanban approach uses what is known as a backlog, which is an ordered list of tasks to be completed. The most important tasks head the list, and developers work on a task to completion before proceeding to the next one. The product owner - an internal colleague who acts as the representative and customer contact point -  is responsible for accurately maintaining and sequencing the list of priorities.
+
+
+  ### The retrospective
+
+  Most Agile methodologies engage in a retrospective at certain intervals, or after completing a specific portion of a project. The retrospective aims to examine what parts of the process went smoothly and which areas could be improved. The team then can use these findings in the next phase of the project to implement any new strategies that can improve the overall workflow.
+
+
+  ## Does Agile compete with DevOps?
+
+  In short, no.
+
+  DevOps combines software development and IT operations to provide principles for continuously delivering software. This means shortening the development lifecycle, making it faster to develop, test, and release working software into production. DevOps professionals work in a collaborative atmosphere, sharing knowledge and ownership of the software being developed. This includes responding to alerts and helping resolve issues.
+
+
+  All of this perfectly complements Agile principles. By automating tests, for example, code can be released confidently, quickly and therefore more frequently into production. This means software can be demonstrated to the customer more frequently, enabling the Agile feedback loop.
+
+
+  ## Four core Agile development principles
+
+
+  
+  ### Individuals and interactions over processes and tools
+
+  Ensuring that the right people are talking and working collaboratively is more important than the tools and processes they use.
+
+
+  ### Working software over comprehensive documentation
+
+  Due to the iterative nature of the development process, continuous changes mean documentation can quickly become out-of-date. To ensure the most current processes and goals are being focused on, working software is the primary measure of progress, while still supporting documentation as a single-source of truth.
+
+
+  ### Customer collaboration over contract negotiation
+
+  Constant renegotiation of contracts slows progress. Instead, the focus should be on working closely with the customer to best understand their requirements.
+
+
+  ### Responding to change vs. following a plan
+
+  Planning is useful, but sometimes requirements and priorities change. The team should be flexible and able to respond to change.
+
+
+  ## Specific roles in an Agile development process
+
+  All Agile software development processes share a core set of roles.
+
+  First and foremost, every Agile development process has an end user (representing all end users) or customer. The software solution is being built or modified for them. If the product recipient is a direct customer, they should be consistently included in demonstrations during the development process. This enables them to provide accurate and timely feedback. 
+
+
+  Another important role is the product owner. This person is often part of the same company as the software development team. However, they act as a representative of the customer or end user, receiving and addressing any questions that arise while the customer is not present. Furthermore, if the software is intended for a specific set of users (as opposed to a direct customer), the product owner becomes the voice of these users.
+
+
+  Finally, there is the software development team, which must be able to collectively develop each part of the required solution. Teams can vary in size, but it's common for Agile teams to be smaller than 10 members. For the Scrum methodology, the recommendation is no more than nine, including the product owner, a scrum master, and the software developers.
+
+
+  ## The history of Agile 
+
+  Before Agile, software development teams followed processes that were collectively known as the [waterfall model](https://www.youtube.com/watch?v=5FwL9nZSFn0). It works by dividing a project into a linear set of phases and each phase uses the output from the previous one. 
+
+
+  For example, the first stage might be analysis, in which business analysts compare workshop proposals for an updated solution to the current software. After they choose a new solution, the requirements-gathering phase begins. Then, the developers use these requirements to build the solution. Once built, the solution is tested before it is finally presented, after which the maintenance phase begins.
+
+
+  Throughout the 1990s, more flexible software development approaches emerged and eventually fell under the Agile umbrella. Due to the waterfall model’s inherent inflexibility, it was often deemed inappropriate for software development because it does not accommodate feedback during the development cycle. It relies heavily upon 100% accurate requirements that would then need to remain completely static. This has grown increasingly incompatible with software development as customer requirements and technologies have evolved. As a result, the Agile methodology’s more flexible, iterative approach took over the waterfall method.
+
+
+  ## Conclusion
+
+
+  Agile focuses on collaboration and continuous iteration to reach a goal. Because of this, it’s common for DevOps teams to follow an Agile methodology when building software solutions. 
+
+
+  There are several Agile methodologies available and each provides a specialized interpretation of the four core principles. However, their intent is the same - to reach a product goal through continuous cooperation, demonstration, and integration of feedback. 

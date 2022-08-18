@@ -1,0 +1,28 @@
+---
+name: Corinna Gogolok
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend">Senior Backend Engineer,
+  Fulfillment:Provision</a>
+reports_to: michael-lunoe
+picture: corinnawiesner.jpg
+twitter: walkertowski
+gitlab: cwiesner
+pronouns: she/her
+departments:
+- Engineering Function
+- Development Department
+- Fulfillment Section
+- Fulfillment Sub-department
+- Fulfillment:Provision Team
+- Fulfillment:Provision BE Team
+- Backend
+projects:
+  gitlab: reviewer backend
+  customers-app: maintainer backend
+story: |
+  Corinna is a web developer since 2009. She has some frontend development experiences but her passion lies in Ruby on Rails.
+  Outside of work, she spends most of her time with her family.
+specialty:
+- 'Fulfillment: Provision'
+

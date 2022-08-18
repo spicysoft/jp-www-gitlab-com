@@ -1,0 +1,46 @@
+---
+layout: comparison_page_v2
+description: "This page compares the features of GitLab software to non-GitLab software. Review the pros and cons of each to help make your decision easier."
+suppress_header: true
+image_title: '/images/devops-tools/title_image.png'
+extra_css:
+  - release-posts.css
+  - comparison-page-v2.css
+  - carousel.css
+  - comparison-page-header.css
+  - compared.css
+  - comparison-page-table.css
+  - comparison-page-detailed.css
+extra_js:
+  - comparison-v2.js
+  - bootstrap-tooltip.js
+  - carousel.js
+---
+
+- product_one = data.devops_tools_comparisons.devops_tools[key_one]
+
+- if product_one.title
+  - current_page.data.title = product_one.title
+- else 
+  - content_for(:title){ product_one.name + " vs. GitLab" }
+- if product_one.description
+  - current_page.data.description = product_one.description
+- else
+  - current_page.data.description = "Compare #{product_one.name} vs. GitLab"
+- if product_one.canonical_path
+  - current_page.data.canonical_path = product_one.canonical_path
+- else
+  - current_page.data.canonical_path = current_page.url
+- content_for :header do
+  = partial(product_one.header || 'includes/devops-tools/headers/header.html.haml', locals: { product_name: product_one.name, subtitle: "Comparison Guide", subtitle_class: "", layout: 'detailed', header_link: product_one.header_link })
+
+- if product_one.strips 
+  - content_for :strips do
+    - product_one.strips.each do |strip|
+      = partial "includes/devops-tools/strip-templates/#{strip.template}.html.haml", locals: { content: strip.content }
+
+- if product_one.add_feature_comparison_table
+  - content_for :feature_comparison do
+    .content-container.recommendation-container
+      .container.white-bg
+        = partial(product_one.feature_comparison_table || 'includes/devops-tools/comparison-table.html.haml', locals: { product_one: product_one })

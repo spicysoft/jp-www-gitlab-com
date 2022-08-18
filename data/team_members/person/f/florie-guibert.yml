@@ -1,0 +1,25 @@
+---
+name: Florie Guibert
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/#senior-frontend-engineer">Senior
+  Frontend Engineer, Plan:Product Planning</a>
+reports_to: fullstack-engineering-manager-product-planning
+picture: florieguibert.png
+twitter:
+gitlab: fguibert
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Plan:Product Planning FE Team
+- Frontend
+projects:
+  gitlab: maintainer frontend
+  gitlab-ui: maintainer frontend
+story: |
+  Florie is passionate about anything Frontend, especially CSS.
+  When she's not at her computer coding or playing video games,
+  she enjoys sewing, dancing and playing board games.
+specialty: Product Planning
+

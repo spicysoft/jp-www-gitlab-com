@@ -1,0 +1,148 @@
+---
+layout: markdown_page
+title: "Category Strategy - Code Search"
+description: "GitLab Code Search provides a way to search all the code in GitLab."
+canonical_path: "/direction/global-search/code-search/"
+---
+
+- TOC
+{:toc}
+
+## Code Search
+
+| | |
+| --- | --- |
+| Stage | [Enablement](/direction/Enablement/) |
+| Maturity | [Viable](/direction/maturity/) |
+| Content Last Reviewed | `2021-11-30` |
+| Content Last Updated | `2021-11-30` |
+
+### Overview
+
+GitLab’s Code Search allows users to search through all the code in the GitLab instance while directly in GitLab.
+As codebases and developers grow, Code Search becomes a required part of the DevOps cycle. As part of GitLab's single application vision, GitLab must provide a rich and seamless code search experience so that customers do not have to rely on using external solutions for Code Search.
+
+The more source code that is added to GitLab, the more useful Code Search becomes.
+
+There are two primary use cases for Code Search:
+* Finding Code Examples: Often, reference examples from other projects can help learn new techniques and best practices for writing code. These examples can help when learning something new, like service or a different code language.
+* Code Maintenance: The more code there is to manage, the more of a challenge maintenance code can become. Maintaining large amounts of code can become particularly challenging when a developer needs to research the potential impacts. When you can find the code that a change can impact, you have more confidence in what will happen.
+
+### Vision
+
+Code Search will become the tool for developers to quickly learn about all the Source Code in GitLab. Users will navigate through the code and filter down to their desired line(s) of code. Users can then track the relationships of the code to all other GitLab content, like Commits, Issues, and Merge Requests, to understand the origin and reason for a change.
+
+GitLab is in a unique position to deliver high-quality Code Search. All code is already stored in GitLab and indexed in Elasticsearch, along with other supporting content related to code like merge requests, commits, and issues.
+
+Understanding these relationships and eventually understanding clusters from these relationships correlate with the visions across many areas of GitLab.
+
+[A vision for Code Search in GitLab](https://www.youtube.com/embed/pPooxvnsGS4)
+
+#### Collaboration
+
+There are many stages and categories that are solving parts of the problem of [Big Code](https://about.gitlab.com/direction/global-search/code-search/#challenges-to-address). Collaboration with these stages and categories is imperative to success, as we are solving adjacent problems.
+
+* [Group Direction - Applied Machine Learning](https://about.gitlab.com/direction/modelops/applied_ml/)
+* [Code to issue audit](https://gitlab.com/gitlab-org/gitlab/-/issues/740)
+* [Product Stage Direction - Secure](https://about.gitlab.com/direction/secure/)
+    * [Category Direction - Secret Detection](https://about.gitlab.com/direction/secure/static-analysis/secret-detection/)
+    * [Category Direction - Static Application Security Testing (SAST)](https://about.gitlab.com/direction/secure/static-analysis/sast/)
+    * [Category Direction - Vulnerability Management](https://about.gitlab.com/direction/secure/vulnerability_management/)
+    * [Category Direction - GitLab Advisory Database](https://about.gitlab.com/direction/secure/vulnerability-research/advisory-database/)
+    * [Category Direction - License Compliance](https://about.gitlab.com/direction/secure/composition-analysis/license-compliance/)
+    * [Category Direction - Dependency Scanning](https://about.gitlab.com/direction/secure/composition-analysis/dependency-scanning/)
+    * [SEIM](https://gitlab.com/gitlab-org/gitlab/-/issues/329611)
+
+### Challenges to address
+
+[Code Search for Big Code](https://gitlab.com/groups/gitlab-org/-/epics/6220) - The code that companies maintain is rapidly increasing in complexity and volume. The rapid increase brings on a series of unique challenges in how to address these needs.
+
+* Opening multiple files across repositories create difficulties with context switching.
+* Documentation often includes no examples or one example. Finding all the examples helps understand the uses and can expose caveats not yet documented.
+* Copying and pasting code, "Code Cloning", breaks historical reference of code, or "Code Provenance.” Code Provenance reviews, or understanding the source of code like open source projects or online communities, are increasing in frequency and importance.
+* Learning a codebase usually requires downloading and opening it in your local IDE, creating inefficiencies and challenges with collaborations like remote pairing, especially with larger repositories.
+* Finding unused code - Unused code increases over time and adds to the complexity of maintaining the overall codebase
+* Finding code comments - Code comments are often used to help other developers find and understand the code
+* Understanding what will be impacted by microservice changes - With the increased reuse of microservices, ensuring that a change will not negatively impact other downstream or upstream services.
+* Engineering solutions can often be limited by what is unknown about existing code - this can lead to bugs and more complex solutions that in turn can be more challenging to maintain
+* Auditing for development policies - Commonly, teams will create frameworks to reduce the complexity of the many ways to build the same type of thing
+* Determining when these frameworks are used and where there are gaps is growingly more difficult
+
+[Insights from code search research for Global Search](https://gitlab.com/groups/gitlab-org/-/epics/5476) - We have conducted studies with our customers to identify and better understand the needs for code Search today.
+
+### 2021 Goals FY22 / One-year plan
+
+* [Federated Search - Search that can include Self-managed and SaaS instances](https://gitlab.com/groups/gitlab-org/-/epics/6221) could also have the ability to [source content from non-GitLab Repositories](https://docs.google.com/document/d/1gek_W1sMUkMy5AYn9RBUNIkYXcf-prVmECwifadTfAY/edit?ts=5dcd81ec#heading=h.4mt5fmtn0ax4)
+* [Local Editor-like Search Functionality](https://gitlab.com/groups/gitlab-org/-/epics/6223)
+    * Exact string matching for searches
+    * More than one line of results per source file
+    * RegEx search syntax
+    * Case sensitivity
+* [Code Language Filtering](https://gitlab.com/groups/gitlab-org/-/epics/6236)
+* [Relevancy Improvements](https://gitlab.com/gitlab-org/gitlab/-/issues/22553) [2](https://gitlab.com/gitlab-org/gitlab/-/issues/334113#note_606126135) - This would be also include Sorting options.
+* [LSIF for Code Structure to be Specified in the Search. ](https://gitlab.com/gitlab-org/gitlab/-/issues/223150)
+* [Infrastructure investment](https://gitlab.com/groups/gitlab-org/-/epics/6248)-  400% over 2 years.   Scaling needs to be flexible. 
+* [Platform change- (This might be required to solve these problems. ) Like zoekt](https://gitlab.com/gitlab-org/gitlab/-/issues/339121)
+
+#### Desired Results
+
+As the capabilities of Code Search improve, the number of code search users will increase.
+Code Search users will be regularly more efficient and productive than users who use other tools or 3rd Party code search products.
+
+Code Search will enable the growth and progression of other GitLab products that aim to solve similar problems.
+
+#### Measuring Success - Target PI's / Metrics
+
+The performance and success of Code Search can be measured:
+
+* Changes in the Code Search GMAU and Global Search GMAU
+* Quarterly Customer feedback will be collected and reviewed in a comparative nature through the SUS scores
+* Code Search will become identified with a higher frequency as a revenue driver
+* As Code Search matures to become a more prominent factor in CI/CD tools industry evaluation, GitLab will be the stand-out leader for code search.
+
+### Target Audience and Experience
+
+Code Search is primarily valuable to organizations with more than 200 users.
+
+#### User personas
+
+1. [Sasha](https://about.gitlab.com/handbook/marketing/strategic-marketing/persona-snippets/user-personas/sasha), the Software Developer
+2. [Devon](https://about.gitlab.com/handbook/marketing/strategic-marketing/persona-snippets/user-personas/devon) the DevOps Engineer
+3. [Delaney](https://about.gitlab.com/handbook/marketing/strategic-marketing/persona-snippets/user-personas/delaney), the Development Team Lead
+
+#### Buyer personas
+
+1. [Alex](https://about.gitlab.com/handbook/marketing/strategic-marketing/persona-snippets/buyer-personas/alex) the Application Development Manager
+2. [Dakota](https://about.gitlab.com/handbook/marketing/strategic-marketing/persona-snippets/buyer-personas/dakota) the Application Development Director
+3. [Erin](https://about.gitlab.com/handbook/marketing/strategic-marketing/persona-snippets/buyer-personas/erin), the Application Development Executive (VP, etc.)
+
+### Maturity
+
+Currently, GitLab's maturity for Code Search is Viable. The functionality of searching code across repositories is functional and is in use today across most GitLab.com customers.
+
+Advancing Code Search from “Viable” to “Complete” will include;
+
+* [Federated Search - Search that can consist of Self-managed and SaaS instances](https://gitlab.com/groups/gitlab-org/-/epics/6221)
+* [Local Editor-like Search Functionality](https://gitlab.com/groups/gitlab-org/-/epics/6223)
+* [Code Language Filtering](https://gitlab.com/groups/gitlab-org/-/epics/6224)
+
+### What's Next & Why
+
+Code Search work is temporarily paused starting October 1st, 2021 while we work on improving SaaS perfromance and scaling. 
+
+[Federated Search](https://gitlab.com/groups/gitlab-org/-/epics/6221) We find that larger organizations will often have more than one instance of GitLab, including multiple self-managed instances and repositories in GitLab.com. Not offering this capability limits the value of Code Search to our customers with these cases.
+
+Federated Search is the most requested Code Search capability from our prospective customers.
+
+[Local Editor-like Search Functionality](https://gitlab.com/groups/gitlab-org/-/epics/6223), Our user research for Code Search indicates that the expected keyword functionality closely aligns with how search works on a Local IDE. The specific value areas are Exact string matching, showing more than one line of results per source file, RegEx search syntax, and case sensitivity.
+
+Local Editor-like Search Functionality is the most requested Code Search capability from our current customers.
+
+### We will not focus on;
+
+Supporting the product vision of a [single application experience](https://about.gitlab.com/handbook/product/single-application/), we are not expanding support for integrating additional 3rd party code search tools.
+
+
+### Competitive Landscape
+
+Code Search is part of the [Global Search competitive landscape](https://about.gitlab.com/direction/global-search/#competitive-landscape)

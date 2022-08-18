@@ -1,0 +1,63 @@
+---
+title: GitLab Contribute
+description: "Contribute is our annual GitLab team event where we get together to interact with one another and cultivate our community. From our first Contribute in Serbia to our virtual event in 2021, team members from around the world have built friendships and experienced the values in person."
+image_title: 'source/images/events/gitlab-contribute/contribute-2022-hopin-banner-1500x600px.png'
+layout: default
+suppress_header: true
+extra_css:
+  - event.css
+  - event-commit.css
+  - simplify-devops.css
+  - event-contribute.css
+extra_js:
+  - libs/on-scroll.js
+  - in-page-nav.js
+  - all-clickable.js
+  - simplify-devops.js
+---
+
+= partial "/includes/events/contribute/hero1"
+
+.js-in-page-nav-group{ role: "main", offset: 0, showhash: "true" }
+
+  .gitlab-content-container
+    = partial "/includes/events/contribute/main"
+
+  .gitlab-content-container.js-in-page-nav-section#ambassadors
+    .content.commit-content
+      .row
+        .col-md-12
+          .u-margin-top-md
+            %h2.u-text-brand Ambassadors and volunteers
+            %p <a href="https://gitlab.com/gitlab-com/marketing/contribute/contribute-2020/blob/master/Contribute-Ambassadors.md" data-ga-name="ambassadors and volunteers" data-ga-location="body">Contribute Ambassadors</a> assist the Contribute event team with a plethora of tasks while the rest of the company can focus on building bonds, having a good time, and contributing to the GitLab community. Volunteers assist Ambassadors in executing tasks, such as Team Day planning, excursions, and workshops. Ambassadors must have attended at least one Contribute. To volunteer at Contribute, please complete <a href="https://forms.gle/kbaJmYKKmvCENSSAA">this form</a>.
+            %h3.u-text-brand 2019 recap
+            %p As you surely know, we are an all-remote company with <a href="/company/team/" data-ga-name="team" data-ga-location="body">over 1700 team members in more than 65 countries</a>. Since we don’t have watercooler talk or an office, we do a lot of fun stuff when we all get together! We'd love for you to get to know us and each other, without a focus on your job or title. This way you'll see the people that contribute to GitLab instead of just a name on your screen. We were virtual in 2020 and 2021, and we have a whole list of fun activities planned for 2022. To get an idea of what an in-person Contribute is like, check out this recap from 2019.
+            %iframe{ width: "140", height: "79", src: "https://www.youtube.com/embed/kkn32x0POTE", frameborder: "0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen: "" }
+  
+  .gitlab-content-container.js-in-page-nav-section#workshops
+    .row
+      .col-md-12
+        .u-margin-top-md
+          %h2.u-text-brand Workshops
+          %p Will be led by your fellow team members.
+          %h3.u-text-brand Goal (for the future events)
+          %p Half of the conference visitors participate in workshops with upper limit of 25 person per single session.
+
+  .gitlab-content-container.js-in-page-nav-section#previous-events
+    .row
+      .col-md-12
+        .u-margin-top-md
+          %h2.u-text-brand Previous events
+          %p <a href="/company/culture/contribute/previous/" data-ga-name="previous contributes" data-ga-location="body">See previous Contributes</a>
+        .u-margin-top-md
+          %h3.u-text-brand Leadership at Contribute
+          %p <a href="/company/culture/contribute/leadership/" data-ga-name="GitLab leadership" data-ga-location="body">Read about being in GitLab leadership at Contribute</a>
+
+  .gitlab-content-container.js-in-page-nav-section#contact
+    .row
+      .col-md-12
+        .u-margin-top-md.u-margin-bottom-xl
+          %h2.u-text-brand.text-center Contact
+          %h4.text-center.u-margin-top-sm <a href="mailto:contribute@gitlab.com" data-ga-name="mail to GitLab" data-ga-location="body">contribute@gitlab.com</a>
+
+%script{ src: "/javascripts/contribute.js", type: "text/javascript" }

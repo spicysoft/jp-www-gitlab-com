@@ -1,0 +1,6 @@
+# Versions of www-gitlab-com dependencies managed by asdf.
+#
+# <default-version> <other-version>
+ruby 3.0.4
+nodejs 16.14.0
+yarn 1.22.19

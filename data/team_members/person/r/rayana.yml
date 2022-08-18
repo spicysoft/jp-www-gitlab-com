@@ -1,0 +1,27 @@
+---
+name: Rayana Verissimo
+locality:
+country: Remote
+role: <a href="/job-families/engineering/product-design-management/#product-design-manager">Product Design
+  Manager, CI/CD</a>
+reports_to: valerie
+picture: rayanaverissimo.png
+twitter: hellorayana
+gitlab: rayana
+departments:
+- Engineering Function
+- UX Department
+- CI/CD UX Team
+- Ops Section
+projects:
+  gitlab-design: maintainer
+  design.gitlab.com: maintainer UX
+  gitlab-ui: reviewer UX
+expertise: '<li><a href="https://docs.gitlab.com/ee/user/project/releases/">Release</a> <a href="/company/team/structure/#expert">expert</a></li>
+
+  '
+story: |
+  Rayana enjoys solving technical problems and helping product designers have the mindset, skillset, and toolset needed to deliver better design at GitLab.
+  Away from work, she spends most of her time cooking, studying the Japanese language, listening to true crime podcasts, or obsessing over Wikipedia articles. Here's a link to Rayana's <a href="https://gitlab.com/rayana/readme/-/blob/master/README.md">README</a>.
+specialty: Verify, Package, Release
+

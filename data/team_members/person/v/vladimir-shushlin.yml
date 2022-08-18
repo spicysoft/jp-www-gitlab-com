@@ -1,0 +1,28 @@
+---
+name: Vladimir Shushlin
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Release</a>
+reports_to: nicole-williams
+picture: vladimirshushlin.jpeg
+twitter:
+gitlab: vshushlin
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Release BE Team
+- Release Group
+projects:
+  gitlab: trainee_maintainer backend
+  gitlab-pages: maintainer
+  release-cli: maintainer
+story: 'Vladimir is a software engineer with a bit of management experience. He loves
+  to code and enjoys helping other people with any problem.
+
+  '
+domain_expertise:
+- rails
+- pages
+specialty: Release
+

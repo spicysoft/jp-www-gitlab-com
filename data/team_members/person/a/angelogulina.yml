@@ -1,0 +1,32 @@
+---
+name: Angelo Gulina
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer,
+  Fulfillment:Purchase</a>
+reports_to: fullstack-engineering-manager-self-service-purchase
+picture: angelogulina.jpg
+pronouns: he/him
+twitter: angelogulina
+gitlab: agulina
+departments:
+- Engineering Function
+- Development Department
+- Fulfillment Section
+- Fulfillment Sub-department
+- Fulfillment:Purchase Team
+- Fulfillment:Purchase FE Team
+- Frontend
+projects:
+  gitlab: reviewer frontend
+  customers-app: trainee_maintainer frontend
+story: |
+  Angelo is passionate about code.
+  He started working when Internet Explorer 6 was still a thing.
+  He strongly believes education and technology are great enablers, so he's spent time teaching programming to refugees as a volunteer.
+  He loves philosophy, music, series, cycling, playing Nintendo Switch, cooking, photography, and making lists.
+  But most of all, he loves his daughter.
+specialty:
+- 'Fulfillment: Purchase'
+- " Fulfillment"
+

@@ -1,0 +1,112 @@
+title: Conversica
+cover_image: /images/blogimages/conversicaimage.jpg
+cover_title: |
+  Conversica leads AI innovation with help from GitLab Ultimate
+cover_description: |
+  GitLab Ultimate provides developers with the latest in CI/CD capabilities.
+file_name: conversica
+canonical_path: /customers/conversica/
+twitter_image: /images/blogimages/conversicaimage.jpg
+twitter_text: GitLab Ultimate provides developers with the latest in CI/CD capabilities.
+customer_logo: /images/case_study_logos/conversica_logo.png
+customer_logo_css_class: brand-logo-tall
+customer_industry: Technology
+customer_location: Foster City, CA
+customer_solution: GitLab Ultimate
+customer_employees: |
+      1,600 
+customer_overview: |
+  The engineering team was looking for a scalable single tool for CI/CD. 
+customer_challenge: |
+  A complex, multi-tool set workflow was slowing down production and wasting development time. 
+
+key_benefits: >-
+
+
+    End-to-end integration
+
+
+    Clean, informative UI
+
+
+    Transparent configuration
+
+
+    End-to-end visibility
+
+
+    Increased developer ownership of CI/CD pipelines 
+
+customer_stats:
+  - stat: 100% 
+    label: Pipeline coverage
+  - stat: 3x  
+    label: The number of CI/CD pipelines running
+  - stat: 1.5x  
+    label: Pipeline implementations across projects
+customer_study_content:
+  - title: the customer
+    subtitle: Leading the world in AI
+    content: >-
+    
+
+        Conversica is a leader in artificial intelligence for business and the only provider of AI-driven lead engagement software for marketing and sales organizations. Used by more than 1,500 companies worldwide, [Conversica](https://www.conversica.com/) provides SaaS in order for users to carefully craft campaigns to attract and retain customers.
+      
+  - title: the challenge
+    subtitle: The detriment of disjointed tools
+    content: >-
+    
+
+        Conversica’s development team was using TeamCity for CI/CD, Quay.io for Docker image registry, and GitHub for source control. This created a cobbled-together approach, where the tools were somewhat consolidated around GitHub, but not enough to be a controlled environment. The development team was disgruntled and struggled with the way they could access the tools successfully. “In TeamCity, it's a kind of internal XML configuration that TeamCity stores in this Byzantine way that's very opaque to developers,” said Rob Fulwell, engineering manager at Conversica. “Then they access it through the UI only, which is not the way developers like to work. They like to work on text files.”   
+    
+
+        The disjointed workflow was ultimately too slow for their business needs. “We were getting pressure from the sales and marketing folks to deliver features more quickly,” said Fulwell. “In the past, we had to focus on delivery, perhaps to the detriment of accruing this technical debt.” 
+    
+ 
+        The team was increasingly losing time troubleshooting pipeline failures instead of focusing on business differentiating actions. “Also, we were concerned about being able to implement future requirements around security and license scanning across our systems,” Fulwell said. 
+
+  - title: the solution
+    subtitle: Creating small software projects
+    content: >-
+    
+
+        After subject matter experts performed research upfront, Conversica decided to mandate GitLab across the engineering teams and successfully migrated within three months. One of Conversica’s requirements in the decision-making process was that the selected tool provides clear documentation to ease migration problems. “We actually made sure that the documentation was some of the best around. And without that, I think that would have given us real pause in making that decision to move to another toolset,” Fulwell said.
+    
+
+        Fulwell’s team acted as the consultants for the other engineering teams as they were learning how to implement their pipelines on GitLab. “We did a lot of pairing with developers on other teams, and in concert with them, we put together the pipelines,” Fulwell said. “We made sure we are upholding the standards that we have for what goes into a good pipeline and then have the right progression of automated testing. That's how we managed to roll it out across the whole team.”
+    
+
+        They chose [GitLab Ultimate](/pricing/ultimate/) to get the most out of the tool without any limitations. “By self-hosting, meaning that if we need to hammer some APIs internally and spin up infrastructure to make that possible and we're able to do that now,” Fulwell said. 
+    
+
+        With GitHub, they had experienced some ‘throttling’ that had developers waiting around and unable to work. Developers were capable of accepting more calls, but they previously didn’t have the tier to allow that level of production. With GitLab Ultimate, developers are no longer idle.
+
+  - title: the results
+    subtitle: Modern UI, transparent pipelines, increased scaling capabilities 
+    content: >-
+    
+
+        One clear benefit of moving to GitLab is the ability to visualize the pipeline from end-to-end. Conversica recently had to do an emergency revert for something that was deployed over a weekend. In GitLab, they were able to see the specific commit that was deployed in that environment. The first time I did it, it kind of blew me away. I could get from this environment and literally click once to the head of master to another environment,” Fulwell said. While it was possible to emergency revert TeamCity and GitHub, it wasn’t in one click. It required several steps to find the correct commit. “So getting through basically end-to-end on the pipeline when you're doing that kind of research for a bug or what have you is so effortless with GitLab, which is a huge benefit,” he said. 
+    
+
+        The UI is cleaner and easier for developers to understand than their previous tooling workflow. The [end-to-end integration](/stages-devops-lifecycle/continuous-integration/) with source control through CI/CD to deployment provides efficiency for the development team that the previous group of tools couldn’t provide. They can now communicate more efficiently across the engineering teams, explore each other’s projects, and successfully collaborate. Deployment is simplified and can happen at a faster rate because there is trust in the pipeline delivery. Security is now occurring at the code level — something that Conversica previously didn’t have. 
+    
+
+        Conversica is deploying from ECR to EKS to the self-managed GitLab Ultimate instance. The company isn’t yet using a Kubernetes integration but is exploring ways to accomplish this. “The move to GitLab felt like a natural fit in terms of scale and reliability and security,” Fulwell said. “It's definitely something that worked well in terms of us being able to implement and get it right on top of AWS systems that we already understood.” 
+    
+
+
+        <b>Learn more about GitLab Ultimate</b>
+        
+        [Baking security into the CI pipeline](/solutions/dev-sec-ops/)
+    
+
+        [Optimize your DevOps value stream](/solutions/value-stream-management/)
+    
+
+        [Master the CI/CD pipeline](/devops-tools/github-vs-gitlab/)
+customer_study_quotes:
+  - blockquote: GitLab is a modern tool with a consolidated view of the toolchain and it provides us with that desired platform for a coherent implementation.
+    attribution: Rob Fulwell 
+    attribution_title: Engineering Manager 
+

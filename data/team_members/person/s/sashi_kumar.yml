@@ -1,0 +1,36 @@
+---
+name: Sashi Kumar Kumaresan
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Protect:Container Security</a>
+reports_to: thiagofigueiro
+picture: sashikumar.jpg
+pronouns: he/him
+pronunciation:
+twitter: sash1_k
+linkedin:
+gitlab: sashi_kumar
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Protect:Container Security BE Team
+domain_expertise:
+- protect
+- rails
+- kubernetes
+projects:
+  gitlab:
+    - reviewer backend
+  protect-container-scanning:
+    - reviewer backend
+    - maintainer backend
+specialty:
+- 'Protect: Container Security'
+expertise:
+story: |
+  Sashi loves contributing to open source and loves writing code in Ruby.
+  Outside of work, Sashi loves playing and watching football(soccer) games.
+  He is also a big coffee lover.
+

@@ -1,0 +1,17 @@
+---
+name: New Vacancy
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/fullstack/">Fullstack Engineer</a>, Growth
+reports_to: kniechajewicz
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+  - Engineering Function
+  - Development Department
+  - Growth Section
+expertise:
+story: |
+  Open Position
