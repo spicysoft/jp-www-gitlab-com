@@ -4,7 +4,7 @@ features:
     available_in: [ultimate]  
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/insights/index.html#dora-query-parameters'
-    image_url: '/images/unreleased/manage-dora-insights-v2.png'
+    image_url: '/images/15_3/manage-dora-insights-v2.png'
     reporter: hsnir1
     stage: manage 
     categories:

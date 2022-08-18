@@ -3,7 +3,7 @@ features:
     - name: "View your group runners' upgrade status"
       available_in: [ultimate]
       documentation_link: 'https://docs.gitlab.com/ee/ci/runners/configure_runners.html#determine-which-runners-need-to-be-upgraded'
-      image_url: '/images/unreleased/group-view-runners-outdated-badges.png'
+      image_url: '/images/15_3/group-view-runners-outdated-badges.png'
       reporter: DarrenEastman
       stage: verify
       categories:

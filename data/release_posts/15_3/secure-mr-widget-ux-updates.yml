@@ -6,7 +6,7 @@ features:
       documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/widgets.html#license-compliance'
       reporter: sam.white
       stage: secure
-      image_url: '/images/unreleased/secure-license-compliance-mr-widget.png'
+      image_url: '/images/15_3/secure-license-compliance-mr-widget.png'
       categories:
         - 'License Compliance'
       issue_url: 'https://gitlab.com/groups/gitlab-org/-/epics/7763'
