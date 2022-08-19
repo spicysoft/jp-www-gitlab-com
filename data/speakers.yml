@@ -740,4 +740,18 @@
   - title: GitLab - Travailler à distance - Quels enseignements d'une entreprise "Full
       remote"
     link: https://www.youtube.com/watch?v=7tfpppPwwJk&feature=youtu.be
+- name: Hannah Sutor
+  region: North America
+  location: Boulder, Colorado
+  tagline: Hannah is a Sr Product Manager at GitLab, an advocate for privacy rights in tech, and an expert in identity and access management (IAM).
+  twitter: hhsutor
+  gitlab: hsutor
+  affiliation: teammember
+  image: hannahsutor.png
+  topics:
+  - Remote Work
+  - Security
+  presentations:
+  - title: DevOps Days Chicago 2022 - Check Your Privilege - No, Really 
+    link: https://devopsdays.org/events/2022-chicago/program/hannah-sutor
 
