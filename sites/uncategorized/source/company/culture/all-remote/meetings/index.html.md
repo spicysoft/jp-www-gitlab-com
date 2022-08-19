@@ -67,26 +67,28 @@ When scheduling a meeting at GitLab, we value people's time and prefer the "spee
 
 ### 4. 全ての会議には議題を設けること {#n4-all-meetings-must-have-an-agenda}
 
-"[No agenda, no attenda](/handbook/communication/#external-communication)." Every work-related meeting should have a live doc agenda affixed to the calendar invite at the time that the invite is added to calendars. 
+「[議題がない会議に出席しなくてよい](/handbook/communication/#external-communication)」
 
-Meeting agendas should be include:
+業務上の会議は、Googleカレンダーに招待された時点で、Googleドキュメント等のリアルタイムに共同編集できるアジェンダが用意されているはずです。
 
-1. A relevant meeting title
-1. Attendees with titles and organization names, if not in the same company
-1. Background Information or context. This should answer:
-  1. What do folks need to know or review in order to meaningfully participate in the meeting or meeting sequence?
-  1. Why is this group gathering? The meeting's desired outcome should be clear.
-1. The date (if multiple meetings on a topic, you can use the same agenda document, but put dates as H1s or H2s in Google Docs for easier navigation)
-1. Questions or details. A place in the agenda where participants can add thoughts either synchronously or asynchronously. 
-1. If the meeting was recorded, after the meeting, update the agenda document with a link to the recording. 
+会議のアジェンダを含めるべきこと:
 
-[Meeting DRIs](/handbook/people-group/directly-responsible-individuals/) should prep the agenda at least 72 hours before the meeting. This helps participants to:
+1. 適切な会議名
+1. 出席者の肩書きと組織名(同じ会社でない場合)
+1. 状況説明や前提情報(バックグランド)や理由(コンテキスト)。下記を必ず記載ください。
+  1. 会議に有意義に参加するために、参加者が知っておくべきこと、または確認すべきこと
+  1. 参加者をなぜ集めたのか。会議の後に期待している明確な結果
+1. 日付（同じ議題で会議を複数回開く時は、アジェンダを１つのドキュメントにまとめても良いです。ただし後から見やすいように、Google Docsでは日付を見出し1(H1タグ)または見出し2(H2タグ)として記載してください
+1. 質問集と説明資料。参加者が同期または非同期で意見を追記する場所を明記する
+1. 会議後にアジェンダドキュメントを更新し録音へのリンクを貼る
 
-1. Can make informed decisions around whether they should prioritize synchronous participation.
-1. Have adequate time for any required review.
-1. Have adequate time to contribute asynchronously within the agenda.
+[会議の直接担当者(DRI)](/handbook/people-group/directly-responsible-individuals/)は、少なくとも会議の72時間前までにはアジェンダを準備してください。参加者にとってのメリット:
 
-We've created a [templated example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) that you can copy and use in your organization. There is additional guidance and a separate template for [1:1 meetings](/handbook/leadership/1-1/#the-1-1-agenda). [Coffee chats](/culture/all-remote/informal-communication/#coffee-chats) do not require agenda as their function is informal communication. 
+1. 十分な情報をもとに、同期参加をするか／しないかを判断しやすい
+1. 事前に資料を十分に確認することができる
+1. 同期参加しなくても、非同期参加で、議題に貢献することができる
+
+[テンプレ](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing)を作成しましたので、コピーして使ってください。1:1ミーティング向けには[追加の説明と別のテンプレート](/handbook/leadership/1-1/#the-1-1-agenda)を用意しました。[コーヒーチャット](/culture/all-remote/informal-communication/#coffee-chats)は、インフォーマルなコミュニケーションです。議題は必要ありません。
 
 ### 5. リアルタイムですべてを文書化する(すべてです)  {#n5-document-everything-live-yes-everything}
 
