@@ -1137,6 +1137,7 @@ stages:
       Create protections against insider threat activiy within a GitLab instance. This includes abuse, spam, and other activity for users within a GitLab instance.
     direction: /direction/anti-abuse/
     marketing: false
+    tw: true
     established: 2021
     pm: Jensen Stava
     groups:
@@ -1153,6 +1154,7 @@ stages:
         pm: Jensen Stava
         em: Jay Swain
         appsec_engineer: Nick Malcolm
+        tech_writer: Phillip Wells
         be_team_tag: Anti-Abuse Fullstack Team
 
 
@@ -1283,7 +1285,7 @@ stages:
         uxr:
           - Will Leidheiser
         qm: Joanna Shih
-        tech_writer: Suzanne Selhorn
+        tech_writer: Phillip Wells
         appsec_engineer: Vitor Meireles De Sousa
         cs_team_tag: Configure Group CS Stable Counterpart
         internal_customers:
@@ -1760,7 +1762,7 @@ stages:
         em: Kamil Niechajewicz
         be_team_tag: Acquisition Fullstack Team
         fe_team_tag:
-        tech_writer: Kati Paizee
+        tech_writer: Phillip Wells
         support: TBD
         appsec_engineer: Costel Maxim
         pdm:
@@ -1790,7 +1792,7 @@ stages:
         em: Kamil Niechajewicz
         be_team_tag: Activation Fullstack Team
         fe_team_tag:
-        tech_writer: Kati Paizee
+        tech_writer: Phillip Wells
         support: TBD
         appsec_engineer: Costel Maxim
         pdm:
