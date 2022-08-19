@@ -384,10 +384,49 @@ The GitLab marketing team uses digital channels - social media, email, mobile/we
 
 
 #### Inbound Process
-SDRs are responsible for following up with MQLs by reviewing their information, reaching out, and working with them to understand their goals, needs, and problems. BDRs have the same responsibility for MQL’s that come from one of their “actively working” accounts. Once you have that information, you can use our [qualification criteria](/handbook/sales/field-operations/gtm-resources/) to determine if this is someone who has strong potential to purchase our product and therefore should be connected with sales for next steps. As you are the connection between Marketing and Sales you want to make sure every lead you pass to the Sales team is as qualified as possible.
-Note: SDR routing is determined by Region and Level. The three SDR Routing Levels are onboarding, ramped, and expert. During onboarding, you'll receive SMB and Mid-Market MQLS with a goal limit of 30 per day. At a ramped leve, you'll receive SMB, Mid-Market and ENT First Order MQLs with a goal limit of 50 per day. And at Expert level you'll receive MQLs from all segments including ENT Expand with a goal limit of 75 per day. Expert Level SDRs also are responsible for managing all Drift conversations.
+SDRs are responsible for following up with MQLs by reviewing their information, reaching out, and working with them to understand their goals, needs, and problems. BDRs have the same responsibility for MQLs that come from one of their “actively working” accounts. Once you have that information, you can use our [qualification criteria](/handbook/sales/field-operations/gtm-resources/) to determine if this is someone who has strong potential to purchase our product and therefore should be connected with sales for next steps. As you are the connection between Marketing and Sales you want to make sure every lead you pass to the Sales team is as qualified as possible.
 
-These MQLs will show up in your S1 or B1 lead and contact views in Salesforce. The other views, listed below, allow you to see your leads in a categorized way to simplify your workflow. Leads are routed to you and flow into your views via the tool [LeanData](/handbook/marketing/marketing-operations/leandata/) which takes each lead through a series of conditional questions to ensure it goes to the right person. Even though all SDRs leverage the same views, they will only show you leads that have been specifically routed to you. You will be responsible for following up with all of the leads in your MQL views by sequencing them using [Outreach.io](/handbook/marketing/marketing-operations/outreach/). Once sequenced, their lead status will change and they will move from your MQL views allowing you to have an empty view. Managers monitor all views to ensure they are cleared out. If you choose not to work a lead please unqualify it and state your reasons in the lead record.
+These MQLs will show up in your S1 or B1 lead and contact views in Salesforce. The other views, listed [here](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#lead-and-contact-views), allow you to see your leads in a categorized way to simplify your workflow. Leads are routed to you and flow into your views via the tool [LeanData](/handbook/marketing/marketing-operations/leandata/) which takes each lead through a series of conditional questions to ensure it goes to the right person. Even though all SDRs leverage the same views, they will only show you leads that have been specifically routed to you. You will be responsible for following up with all of the leads in your MQL views by sequencing them using [Outreach.io](/handbook/marketing/marketing-operations/outreach/). Once sequenced, their lead status will change and they will move from your MQL views allowing you to have an empty view. Managers monitor all views to ensure they are cleared out. If you choose not to work a lead please unqualify it and state your reasons in the lead record.
+
+
+### SDR Lead Routing Levels
+
+#### Lead Routing Level Procedure
+
+The SDR Managers will be responsible for facilitating lead routing level changes at the beginning of each new month (when applicable) by making the requisite moves in LeanData and Drift.
+
+#### Levels
+
+**Disclaimer**: for SDRs that start mid-month, their first (partial) month will be deemed “month 0” for the purposes of these rules of engagement.
+
+##### Onboarding
+
+* Typical Timeframe: Months 0-1
+* Parameters: SDR not on quota, leads are off in LeanData, Drift is off
+
+##### Ramping
+
+* Typical Timeframe: Month 2
+* Parameters: SDR is on 50% quota, leads are set at 50% in LeanData, Drift is off
+
+##### Expert
+
+* Typical Timeframe: Months 3+
+* Parameters: SDR is on full quota, leads are set at 100% in LeanData, SDR is added to Drift queues via access request. SDR is now able to create their own Outreach sequences (pending approval).
+
+#### Performance Requirements
+
+SDR Managers will monitor key metrics and ensure they are being handled effectively before advancing an SDR from Ramping to Expert:
+* Pending MQLs addressed in timely manner
+* Stalled Qualifying MQLs
+* Overdue tasks
+* Paused/Failed sequence states
+* Pending opps with no next steps date
+* Pending opps with overdue next steps dates
+* Unqualified opps
+* Calls
+* Tanuki Tech progress
+
 
 ## Lead and Contact Views
 
