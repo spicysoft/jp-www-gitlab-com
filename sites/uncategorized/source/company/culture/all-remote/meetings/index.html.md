@@ -161,7 +161,9 @@ A great example of several GitLab's [values](/handbook/values/) being used to ge
 
 While we can thanks team members within meetings, we do not thank each other for meeting participation as this is not part of our values and could reward folks attending meetings that they are not required in. This would not support [efficiency](/handbook/values/#efficiency), a GitLab value. 
 
-## リモート会議FAQ {#remote-meeting-faqs}### What are the benefits of a remote meeting? {#what-are-the-benefits-of-a-remote-meeting}
+## リモート会議FAQ {#remote-meeting-faqs}
+
+### リモート会議のメリット {#what-are-the-benefits-of-a-remote-meeting}
 
 Scheduling a virtual meeting allows you to set the meeting length and invite a limited number of people. You can participate in a remote meeting from [almost anywhere in the world](/jobs/faq/#country-hiring-guidelines)! If you are working in your garage or basement, be sure to use a green screen behind you and put up a professional background image to present well on screen. 
 
