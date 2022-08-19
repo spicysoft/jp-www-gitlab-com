@@ -9,16 +9,16 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-## On this page {#on-this-page}
+## 目次 {#on-this-page}
 
 {:.no_toc}
 
 - TOC
 {:toc}
 
-## What is a remote meeting? {#what-is-a-remote-meeting}
+## リモート会議とは？ {#what-is-a-remote-meeting}
 
-A remote meeting, also known as a virtual meeting, happens when people use video and audio to connect online.
+リモート会議は、バーチャル会議とも呼ばれます。オンラインでビデオやオーディオで行われます。
 
 ## 10 ways to do all-remote meetings right {#10-ways-to-do-all-remote-meetings-right}
 
