@@ -672,7 +672,7 @@ stages:
         focus: Verify & Runner SMAU
         cm: Chrissie Buchanan
         pmm: Saumya Upadhyaya
-        backend_engineering_manager: Mark Nuzzo
+        backend_engineering_manager: Caroline Simpson
         frontend_engineering_manager: Sam Beckham
         be_team_tag: Verify:Pipeline Execution BE Team
         fe_team_tag: Verify:Pipeline Execution FE Team
