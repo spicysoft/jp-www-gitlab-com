@@ -575,7 +575,7 @@ uncategorized-build-and-prod-deploy:
   timeout: 30m
   variables:
     INCLUDE_GENERATORS: 'true'
-    CI_BUILD_PROXY_RESOURCE: 'false'
+    # CI_BUILD_PROXY_RESOURCE: 'true' すべてをビルドしなおす
   cache:
     key: "build_proxy_resource_ruby-3.0-bullseye"
     policy: pull-push
