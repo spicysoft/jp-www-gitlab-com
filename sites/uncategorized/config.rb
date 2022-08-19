@@ -308,7 +308,7 @@ configure :build do
         'prodops:direction,Product Operations,prodops:feedbackloops',
         'prodops:direction,Product Operations,prodops:outcomes'
       ]
-      direction_prod_ops_content = prodops_direction.generate_prod_ops_direction(prod_ops_label_sets, true, true) # /direction/product-operations/
+      direction_prod_ops_content = prodops_direction.generate_prod_ops_direction(prod_ops_label_sets, true, false) # /direction/product-operations/
 
       Generators::Direction::STAGES.each do |name|
         # Fetch content for per-team pages
