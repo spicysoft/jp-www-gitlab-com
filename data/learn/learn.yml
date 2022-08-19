@@ -82,7 +82,7 @@
 - name: "DevOps with GitLab CI Course - Build Pipelines and Deploy to AWS"
   url: https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/projects/#devops-with-gitlab-ci-course---build-pipelines-and-deploy-to-aws
   description: |
-    This FreeCodeCamp course will teach you how to use GitLab CI to create CI/CD pipelines for building and deploying software to AWS. Original author is Valentin Despa, GitLab hero, who collaborated and reviewed together with Michael Friedrich on the Developer Evcangelism team.
+    This FreeCodeCamp course will teach you how to use GitLab CI to create CI/CD pipelines for building and deploying software to AWS. Original author is Valentin Despa, GitLab hero, who collaborated and reviewed together with Michael Friedrich on the Developer Evangelism team.
   live_date:
   maintainer: "Developer Evangelism"
   level: "Beginner"
