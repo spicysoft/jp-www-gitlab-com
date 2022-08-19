@@ -1,6 +1,6 @@
 ---
 release_number: "15.3" # version number - required
-title: "GitLab 15.3 released with tasks in issues, free GitOps features, and SAML group link API maintenance" # short title (no longer than 62 characters) - required
+title: "GitLab 15.3 released with tasks for managing your work and free GitOps features" # short title (no longer than 62 characters) - required
 author: Amanda Rueda # author name and surname - required
 author_gitlab: amandarueda # author's gitlab.com username - required
 image_title: '/images/15_3/15_3-cover-image.jpg' # cover image - required
