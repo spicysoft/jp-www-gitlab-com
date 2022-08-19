@@ -88,7 +88,7 @@ When scheduling a meeting at GitLab, we value people's time and prefer the "spee
 1. 事前に資料を十分に確認することができる
 1. 同期参加しなくても、非同期参加で、議題に貢献することができる
 
-[テンプレ](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing)を作成しましたので、コピーして使ってください。1:1ミーティング向けには[追加の説明と別のテンプレート](/handbook/leadership/1-1/#the-1-1-agenda)を用意しました。[コーヒーチャット](/culture/all-remote/informal-communication/#coffee-chats)は、インフォーマルなコミュニケーションです。議題は必要ありません。
+アジェンダドキュメントの[テンプレ英語版](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing)・[日本語版](https://docs.google.com/document/d/159Hc4sjzNOvmkx6gHKhR18aj8Uf_q1jhR83dMJ0cyH8/edit?usp=sharing)を作成しましたので、コピーして使ってください。1:1ミーティング向けには[追加の説明と別のテンプレート](/handbook/leadership/1-1/#the-1-1-agenda)を用意しました。[コーヒーチャット](/culture/all-remote/informal-communication/#coffee-chats)は、インフォーマルなコミュニケーションです。議題は必要ありません。
 
 ### 5. リアルタイムですべてを文書化する(すべてです)  {#n5-document-everything-live-yes-everything}
 
