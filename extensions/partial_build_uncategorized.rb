@@ -35,7 +35,7 @@ class PartialBuildUncategorized < Middleman::Extension
 
   def initialize(app, options_hash = {}, &block)
     super
-    logger.info "#{self.class.name}:initialize #{ENV['CI_NODE_INDEX']},#{ENV['CI_NODE_TOTAL']},#{ENV['CI_BUILD_PROXY_RESOURCE']}"
+    logger.info "#{self.class.name}:initialize ENV=[#{ENV['CI_NODE_INDEX']},#{ENV['CI_NODE_TOTAL']},#{ENV['CI_BUILD_PROXY_RESOURCE']}]"
     @enabled = ENV['CI_NODE_INDEX'] && ENV['CI_NODE_TOTAL'] || ENV['CI_BUILD_PROXY_RESOURCE']
     logger.info "#{self.class.name}:initialize @enabled=#{@enabled}"
 
