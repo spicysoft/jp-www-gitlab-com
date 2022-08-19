@@ -71,7 +71,7 @@ class PartialBuildUncategorized < Middleman::Extension
       logger.info "#{self.class.name}: CI environment variables were not set for a partial build; building everything"
       return resources
     end
-
+    logger.info "#{self.class.name}:manipulate_resource_list @enabled=#{@enabled} @partial=#{@partial}"
     logger.info "#{self.class.name}: We are building the partial: #{@partial}"
 
     resources.select { |resource| part_of_partial?(resource) }
