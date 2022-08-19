@@ -38,6 +38,6 @@ Today, we are excited to announce the release of GitLab 15.3 with [tasks in issu
 
 These are just a few highlights from the 63 improvements in this release. Read on to check out all of the great updates below.
 
-We thank our community for the 346 contributions they provided to GitLab 15.3! At GitLab, everyone can contribute and we couldn't have done it without you!
+We thank the wider GitLab community for the 346 contributions they provided to GitLab 15.3! At GitLab, everyone can contribute and we couldn't have done it without you!
 
 To preview what's coming in next month’s release, check out our [Upcoming Releases page](/direction/kickoff/), which includes our 15.4 release kickoff video.
