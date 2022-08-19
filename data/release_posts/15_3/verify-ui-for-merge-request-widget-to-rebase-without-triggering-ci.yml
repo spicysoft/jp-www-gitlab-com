@@ -4,7 +4,7 @@ features:
   - name: "Rebase a merge request from the UI without triggering a pipeline"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/fast_forward_merge.html'
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/methods/index.html#rebase-without-cicd-pipeline'
     reporter: jheimbuck_gl
     stage: verify
     categories: 
