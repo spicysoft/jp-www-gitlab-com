@@ -2,6 +2,7 @@
 layout: handbook-page-toc
 title: GitLab コミュニケーション
 description: "私たちは、世界のどこからでも働くことができるオールリモート企業です。人と人をつなげて仕事の効率があがるようなわかりやすいコミュニケーションをすることが重要です。"
+html_lang: "ja"
 ---
 
 ## 目次 {#on-this-page}
