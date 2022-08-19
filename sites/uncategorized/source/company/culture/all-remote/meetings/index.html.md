@@ -22,7 +22,7 @@ twitter_creator: "@gitlab"
 
 ## オールリモート企業での会議の正しいやり方10 {#ten-ways-to-do-all-remote-meetings-right}
 
-GitLabのようなオールリモートな会社では「正しいミーティングのやり方は？」についてよく質問されます。まだ読んでいなければ、GitLab の [非同期での業務とコミュニケーションのガイド] (/company/culture/all-remote/asynchronous/#question-every-meeting) をまずは読んで下さい。
+GitLabのようなオールリモートな会社では「正しいミーティングのやり方は？」についてよく質問されます。まだ読んでいなければ、GitLab の [非同期での業務とコミュニケーションのガイド](/company/culture/all-remote/asynchronous/#question-every-meeting) をまずは読んで下さい。
 
 オフィスでの会議を運営するコツの多くはリモート会議でも有用です。しかい違いはたくさんあります。
 
