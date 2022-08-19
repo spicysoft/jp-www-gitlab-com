@@ -21,36 +21,6 @@ extra_js:
   - video-carousel.js
   - stripmkttok.js
 ---
--# These times will automatically disable certain sections of content.
--# Dates should be specified using the ISO 8601 date format, YYYY-MM-DD
--# If including a time, YYYY-MM-DDT:HH:MM:SS-timezeone.
--# Example: 2010-02-01T:22:00:00-0700 (February 1st, 2010 @ 10PM Pacific during daylight savings time, or 9PM Pacific standard time).
--# Map of timezones https://www.timeanddate.com/time/map/
--# The -0600 at the end of the Time.parse statement defines the offset from GMT and should be set to -0800 if we're using PST or -0700 if we're using PDT.
-- currentTime = Time.now.in_time_zone("Pacific Time (US & Canada)")
-- eventStartTime = Time.parse("2021-10-05T:11:00:00-0600")
-- eventEndTime   = Time.parse("2021-10-10T:23:00:00-0600")
-
--# IF event has not started.
--# - if eventStartTime > currentTime 
--#   = partial "includes/home/hero"
-
--# If (event has started) && (event is currently ongoing), (else) event has ended.
--# - if currentTime > eventStartTime && eventEndTime > currentTime
--#   = partial "includes/home/banner-top"
-
-
--# These banner variables are pulled from data/banner_top.yml
-- banner_start_date = Date.parse(data.banner_top.start_date)
-- if data.banner_top.end_date
-  - banner_end_date = Date.parse(data.banner_top.end_date)
-
-- if currentTime > banner_start_date
-  - if banner_end_date && (banner_end_date > currentTime)
-    = partial "includes/home/banner-top"
-  - elsif !banner_end_date
-    = partial "includes/home/banner-top"
-
 
 = partial "includes/home/hero"
 
