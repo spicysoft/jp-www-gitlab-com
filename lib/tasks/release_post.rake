@@ -339,4 +339,33 @@ namespace :release_post do
     description.gsub!('RETRO_ISSUE_LINK', retro_issue.web_url)
     @gitlab.update_merge_request(PROJECT_ID, release_post_mr.iid, { description: description })
   end
+
+  desc 'Content assembly'
+  task :assemble do |t, args|
+    # GITLAB_BOT has sufficient privileges in www-gitlab-com
+    `git config --global user.email "job+bot@gitlab.com"`
+    `git config --global user.name "Bot"`
+
+    # Load release post managers data from yaml
+    release_post_managers = YAML.load_file(File.expand_path('../../data/release_post_managers.yml', __dir__))
+
+    # Determine the active XX.Y version and set participants
+    release_post_managers["releases"].each_cons(2) do |r|
+      date = Date.parse(r[0]["date"])
+      unpublished = (date - Date.today).to_i >= 0
+      next unless unpublished && (r[1] && (Date.parse(r[1]["date"]) - Date.today).to_i.negative?)
+
+      @current_post ||= ReleasePosts::Kickoff.new(r[0])
+    end
+
+    version = @current_post.version
+    version_dash = version.tr('.', '-')
+    branch_name = "release-#{version_dash}"
+
+    `git checkout #{branch_name}`
+    `bin/release-post-assemble`
+    `git add .`
+    `git commit -m 'Perform content assembly'`
+    `git push --set-upstream https://jobbot:#{ENV.fetch('GITLAB_BOT_TOKEN')}@gitlab.com/gitlab-com/www-gitlab-com.git #{branch_name}`
+  end
 end
