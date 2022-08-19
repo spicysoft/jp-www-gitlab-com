@@ -267,16 +267,6 @@ generate-handbook-changelog-rss:
     - bundle exec bin/generate_handbook_changelog_rss
     - scripts/deploy
 
-release-post-build:
-  extends: .bundle-install
-  timeout: 3h
-  stage: content-generation
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "schedule" && $RELEASE_POST_BUILD == "true"'
-  needs: []
-  script:
-    - bundle exec bin/release-post-build
-
 generate-release-post-items:
   extends: .bundle-install
   timeout: 1h
@@ -296,6 +286,16 @@ release-post-process-tasks:
   needs: []
   script:
     - bundle exec rake release_post:start
+
+release-post-content-assemble:
+  extends: .bundle-install
+  timeout: 1h
+  stage: content-generation
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $RELEASE_POST_CONTENT_ASSEMBLE == "true"'
+  needs: []
+  script:
+    - bundle exec rake release_post:assemble
 
 # Update https://gitlab.com/gitlab-org/gitlab/-/releases
 # and https://gitlab.com/gitlab-org/gitlab-foss/-/releases
