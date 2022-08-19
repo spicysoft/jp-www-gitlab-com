@@ -1,8 +1,8 @@
 ---
 layout: handbook-page-toc
-title: "All-Remote Meetings"
+title: "オールリモート会議"
 canonical_path: "/company/culture/all-remote/meetings/"
-description: How to conduct meetings in a remote company
+description: リモート企業での会議のやり方
 twitter_image: "/images/opengraph/all-remote.jpg"
 twitter_image_alt: "GitLab remote team graphic"
 twitter_site: "@gitlab"
@@ -20,16 +20,16 @@ twitter_creator: "@gitlab"
 
 リモート会議は、バーチャル会議とも呼ばれます。オンラインでビデオやオーディオで行われます。
 
-## 10 ways to do all-remote meetings right {#10-ways-to-do-all-remote-meetings-right}
+## オールリモート企業での会議の正しいやり方10 {#ten-ways-to-do-all-remote-meetings-right}
 
-"How do you do meetings right?" is a common question asked of all-remote companies like GitLab. The following guide assumes you've already questioned whether the meeting should happen in the first place; if you haven't, start with GitLab's [guide to asynchronous workflows and communication](/company/culture/all-remote/asynchronous/#question-every-meeting).
+GitLabのようなオールリモートな会社では「正しいミーティングのやり方は？」についてよく質問されます。まだ読んでいなければ、GitLab の [非同期での業務とコミュニケーションのガイド] (/company/culture/all-remote/asynchronous/#question-every-meeting) をまずは読んで下さい。
 
-Much of the same advice for running a good in-person meeting applies to remote meetings, with a few notable distinctions.
+オフィスでの会議を運営するコツの多くはリモート会議でも有用です。しかい違いはたくさんあります。
 
-![GitLab marketing team Show & Tell social call](/images/all-remote/gitlab-zoom-meeting-hat-filter.jpg)
+![GitLabマーケティングチーム Show & Tell ソーシャルコール](/images/all-remote/gitlab-zoom-meeting-hat-filter.jpg)
 {: .shadow.medium.center}
 
-If you have to have a meeting, at least make it fun!
+どうしても会議が必要なら、せめて楽しいものにしよう！。
 {: .note.text-center}
 
 
