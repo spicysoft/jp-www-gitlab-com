@@ -36,7 +36,7 @@ description: "私たちは、世界のどこからでも働くことができる
 
 If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format. If you are not comfortable reaching out to the individual directly, please reach out to your direct manager or People Business Partner to discuss.
 
-## Communicating Potentially Sensitive Topics 
+## Communicating Potentially Sensitive Topics  {#communicating-potentially-sensitive-topics-}
 
 (This guidance supplements and overlaps with [GitLab's SAFE Framework](/handbook/legal/safe-framework/), the guidance on the use of [the internal handbook](/handbook/handbook-usage/#the-internal-handbook), and the additional guidance on this page. We ask our team members to consider the factors below in their communication. )
 
@@ -44,7 +44,7 @@ As GitLab matures, we want to continue to foster discussion while evolving our c
 
 Words have impact long after they are written, and even when you're communicating internally, the manner in which you speak with one another should be viewed through an external lens. For additional information, please review our [Guidelines for communicating effectively and responsibly through text](/company/culture/all-remote/effective-communication/).
 
-### Examples of Potentially Sensitive Topics
+### Examples of Potentially Sensitive Topics {#examples-of-potentially-sensitive-topics}
 
 1. Team member data (individual performance, start dates, departures)
 1. Violations, or potential violations, of policies and/or local rules and regulations
@@ -195,7 +195,6 @@ Issues are useful when there isn't a specific code change that is being proposed
 1. If the content of a public issue draws comments that are deemed in violation of our [code of conduct](/community/contribute/code-of-conduct/) the issue may be locked and may [undergo moderation](/handbook/marketing/community-relations/workflows-tools/code-of-conduct-enforcement/#overview).
 
 ## 社内コミュニケーション {#internal-communication}
-
 Internal communication is any work related communication at a company.
 Internal Communication includes conversations between team members, wider team discussions, or internal announcements.
 At GitLab, everyone can contribute to the effectiveness of Internal Communications to support aspects of GitLab culture, such as intentional transparency and engaging people in open dialogue.
@@ -344,7 +343,6 @@ Due to the volume of posts in the Slack channel, we recommend that you do not us
 - Urgent matters that can't wait for #company-fyi but still need to be communicated to everyone such as service outages or last minute event changes
 
 ### 誤用されやすい用語 {#top-misused-terms}
-
 Please see our [Top misused terms page](/handbook/communication/top-misused-terms/).
 
 ### "これは知ってますか？"と聞く {#asking-is-this-known}
@@ -380,13 +378,13 @@ When doing this, create and link to a [single source of truth](/company/culture/
 
 When referring to email that recipients should have received, reference the sender and subject of the email so it's easy to find. For example, "You should have received an email from Jane Smith with the subject 'Training Seminar Details'".
 
-## Not public
+## Not public {#not-public}
 
 We make things public by default because [transparency is one of our values](/handbook/values/#transparency).
 Some things can't be made public and are either [internal](#internal) to the company or have [limited access](#limited-access) even within the company.
 If something isn't listed in the sections below we should make it available externally.
 
-### Internal
+### Internal {#internal}
 
 Some things are **internal**, available internally but not externally. In instances where a topic should only be accessible to team members, but we would otherwise have a page in the public handbook, it can be added to GitLab's [internal handbook](https://internal-handbook.gitlab.io/). [Background on the internal handbook](/handbook/handbook-usage/#the-internal-handbook) can be found in the public handbook. It is okay to refer to the public handbook or the internal and public handbooks in agregate as "the handbook." The internal handbook should always be referred to as the "internal handbook." 
 
@@ -416,7 +414,7 @@ The following items are internal:
 1. Information related to early exploratory initiatives in which premature sharing of information could slow down purchases.
 1. When there is a product offering being developed that is expected to generate very high demand that cannot be quickly met, it should be kept internal in order to give the team the time to create the right solution.
 
-### Limited access
+### Limited access {#limited-access}
 
 The items below are not shared with all team members. Limited access is a more severe restriction than [internal](#internal).
 
@@ -434,7 +432,7 @@ The items below are not shared with all team members. Limited access is a more s
 1. Acquisition offers we give are not public since the organization being acquired frequently prefers to have them stay private.
 1. Compensation Changes: GitLab will communicate and train team members on the output of iterations to the Total Rewards offerings (Compensation, Equity, Benefits), but team members will not have visibility into the inputs and decision making of compensation changes.
 
-#### Project names
+#### Project names {#project-names}
 
 Some projects require limited access internally due to the confidential or sensitive nature of the project, including but not limited to projects related to the items listed above. Often, in order to maintain the necessary confidentiality of these types of initiatives, we assign a code name for the project. For consistency and to make it easier to identify the genesis of these projects and their organizational affiliations, we've established the following naming conventions.
 
@@ -457,7 +455,7 @@ Code names should be retired as soon as a project is no longer confidential.
 | Product               | [Famous Mountain Peaks](https://en.wikipedia.org/wiki/List_of_mountain_peaks_by_prominence)    |
 | Sales                 | Car model names                      |
 
-## Effective communication competency
+## Effective communication competency {#effective-communication-competency}
 
 [Competencies](/handbook/competencies/) are the Single Source of Truth (SSoT) framework for things we need team members to learn.
 
@@ -750,7 +748,7 @@ and posted to our [Unfiltered YouTube channel](https://www.youtube.com/channel/U
 1. If you want to schedule a meeting with a person not on the team please use [Calendly](/handbook/tools-and-tips/other-apps/#calendly). Use Google Calendar directly if scheduling with a GitLab team member.
 1. **Materials Review** are scheduled as all day not busy events as a reminder three days before the scheduled call.
 
-### Guidelines for vendor meetings
+### Guidelines for vendor meetings {#guidelines-for-vendor-meetings}
 
 1. We request external vendor meetings to use our video conferencing tool so we can quickly join the call and record the session if we need to. Confirm with vendor that they agree we can record the call. The DRI for the vendor meeting will generate the zoom link and share with the vendor.
 1. Decide ahead of the meeting who should be invited, i.e. those likely to get the most out of it.
@@ -762,7 +760,7 @@ and posted to our [Unfiltered YouTube channel](https://www.youtube.com/channel/U
 1. Be cognizant of using inclusive language.
 1. We respectfully request that everyone is mindful of the time available, to help manage the call objectives effectively.
 
-### Meeting introduction guidelines
+### Meeting introduction guidelines {#meeting-introduction-guidelines}
 
 Introductions can be helpful during some external meetings, such as executive sales calls. In those meetings, use these guidelines:
 
@@ -1059,7 +1057,7 @@ Theoretically you can have multiple people in a room with their own equipment bu
    1. If you don't know the meaning of an acronym, ask. It's always ok to [speak up](/handbook/values/#share).
 1. We segment our customers/prospects into 4 segments [Strategic, Large, Mid-Market, and Small Medium Business (SMB)](/handbook/sales/field-operations/gtm-resources/).
 
-## Visuals
+## Visuals {#visuals}
 
 Many times an explanation can be aided by a visual.
 Whenever presenting a diagram, we should still allow everyone to contribute.
@@ -1440,7 +1438,7 @@ The alphabetically sorted starter list below spotlights a few of GitLab's [many 
 | `#women`                             | Employee resource group for members and allies.                                                                                                                                                                                      |
 
 
-### Questions
+### Questions {#questions}
  
 If you have a question that you can’t find the answer to in our handbook (or you need help finding something in the handbook) team members across the company are here to help.
  
@@ -1530,7 +1528,6 @@ GitLab has chosen to restrict the ability to install apps, and we have a process
 ### 緊急時のチャット {#emergency-chat}
 
 #### Slack がダウンしています {#slack-is-down}
-
 {:.no_toc}
 
 To use the "Slack Down!" group chat on Zoom:
@@ -1544,7 +1541,6 @@ To use the "Slack Down!" group chat on Zoom:
 Once service is restored, go back to Slack.
 
 #### Zoomがダウンしています {#zoom-is-down}
-
 {:.no_toc}
 
 To use Slack calls:
@@ -1566,7 +1562,7 @@ Once service is restored, go back to Slack and Zoom.
 
 Never use a Google Doc / Presentations for something non-confidential that has to end up on the website or the **handbook**. Work on these edits via commits to a merge request. Then link to the merge request or diff to present the change to people. This prevents a duplication of effort and/or an out of date handbook.
 
-### Link sharing
+### Link sharing {#link-sharing}
 
 If you _do_ need a Google Doc, create one with your company Google Workspace (formerly G Suite)
 account and set the visibility and access controls according to the following guidelines.
@@ -1671,10 +1667,10 @@ See the [YouTube page](/handbook/marketing/marketing-operations/youtube/) for op
 
 Anyone can test their knowledge on GitLab Communication. To obtain a certificate, you will need to complete this [knowledge assessment](https://gitlab.edcast.com/pathways/ECL-b01718a2-192c-4e0c-9852-31115b1e054f) and earn at least an 80%. Once the quiz has been passed, you will receive an email with your certificate that you can share on your personal LinkedIn or Twitter pages. If you have questions, please reach out to our L&D team at `learning@gitlab.com`.
 
-## Crisis Process
+## Crisis Process {#crisis-process}
 
 GitLab has a specific process to follow in crisis situations to ensure effective communications. Details can be found in the [internal handbook](https://internal-handbook.gitlab.io/handbook/company/crisis-process).
 
-## Avoid using Git in Project Names
+## Avoid using Git in Project Names {#avoid-using-git-in-project-names}
 
 Avoid using _Git_ in the naming of internal and external company related programs (BagGit, GitFit, Gitty, GitIt, etc.). Referencing Git creates an inaccurate perception that GitLab has a narrow focus. While GitLab started as a source control platform, it has become [The DevOps Platform](https://about.gitlab.com/solutions/devops-platform/).
