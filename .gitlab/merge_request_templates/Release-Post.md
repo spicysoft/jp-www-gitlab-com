@@ -116,7 +116,7 @@ _People:_
   - If times zones conflict too much, initiate at least two weekly virtual standups to happen at the same time/day of the week in Slack `#X-Y-release-post-prep` channel. Leverage the agenda template above to conduct it
   - For any who can't attend, recordings should be posted in the agenda and/or Slack `#X-Y-release-post-prep` channel after the standup
   - **Please note a sync standup is always required for major releases**
-- [ ] 🟢 Review  the release post major due dates in the [standup agenda](https://docs.google.com/document/d/1LhAEBgZmSq8gs7Dm60RwqU60EZK5cafvILgQUoiakBM/edit) you created. If any fall on a weekend, Friends & Family day or other holiday, flag this to your release post team in Slack prep channel for awareness and to initiate any necessary planning to ensure smooth handoffs/completion of tasks over weekends, etc.
+- [ ] 🟢 Review  the release post major due dates in the [standup agenda](https://docs.google.com/document/d/1LhAEBgZmSq8gs7Dm60RwqU60EZK5cafvILgQUoiakBM/edit) you created. If any fall on a weekend, Family and Friends day or other holiday, flag this to your release post team in Slack prep channel for awareness and to initiate any necessary planning to ensure smooth handoffs/completion of tasks over weekends, etc.
 - [ ] In the `#release-post` Slack channel, remind Product Managers that all [content blocks (features, recurring, bugs, etc.)](#content-blocks) should be drafted and under review by the 10th. All direction items and notable community contributions should be included in the release post.
 - [ ] 🟢 Confirm your local dev environment is running a current version of Ruby. See Handbook section [Local dev environment setup to run content assembly script](https://about.gitlab.com/handbook/marketing/blog/release-posts/#local-dev-environment-setup-to-run-content-assembly-script). Ask the Technical Advisor for help.
   - [ ] If you have any difficulty installing dependencies, reach out to your Technical Advisor.
@@ -235,7 +235,7 @@ To easily manage and track reviewed items do the following:
  **Due date: YYYY-MM-15** (15th)
 
 - [ ] In the `#release-post` channel remind all PMs that have their release post item MRs merged by EOD on the 17th or bump the milestone if they know it won't make it.
-- [ ] No later than the 15th, if [final contnet review](#final-content-review) dates fall on a weekend, Friends & Family day or other holiday, post a message in Slack `#release-post` letting the final reviewers `@Sid` and `@david` know you'll be requsting review from them over the weekend. Cc the TW lead and Product Operatoins DRI
+- [ ] No later than the 15th, if [final contnet review](#final-content-review) dates fall on a weekend, Family and Friends day or other holiday, post a message in Slack `#release-post` letting the final reviewers `@Sid` and `@david` know you'll be requsting review from them over the weekend. Cc the TW lead and Product Operatoins DRI
 - [ ] Provide the list of the `primary` features to VP or Product `@david` in `#release-post` and recommend a `top` feature.
   - Tip: If you're using an IDE such as VS Code, search for `primary:` and add `data/release_posts/X_Y` to the `files to include` input
 - [ ] 🟢 Select a [cover image](https://about.gitlab.com/handbook/marketing/blog/release-posts#cover-image) for the release post
