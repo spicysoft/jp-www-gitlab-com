@@ -852,15 +852,16 @@ But we set a due date because having something out there builds trust and gives 
 
 ##### 承認待ちをなくせ {#cleanup-over-sign-off}
 {:.no_toc}
-As discussed in [Sid's interview on iteration](https://youtu.be/tPTweQlBS54?t=1030), waiting for approval can slow things down. We can prevent this with automation (e.g. tests of database migration performance) or clean-up after the fact (refactor a Pajamas if something was added that isn't coherent), but we try to ensure that people don't need to wait for signoff.
+[Sid氏へのイテレーションに関するインタビュー](https://youtu.be/tPTweQlBS54?t=1030)で語られていまました。承認を待っていると仕事が進まなくなります。自動化（データベース・マイグレーション時のパフォーマンステストなど）や、事を終えてから片付ける（まとまりのないものが追加されてもパジャマをリファクタリングする）ことで承認待ちを防げます。決裁を待たなくてよいと繰り返し言い聞かせています
 
 ##### できるだけ少ないユーザーに影響を与えることから始める {#start-off-by-impacting-the-fewest-users-possible}
 {:.no_toc}
-If you do a gradual rollout of your change prefer: few users over many users, internal users (dogfooding) over external ones,  environments you get faster feedback about (SaaS) over low feedback ones (self-managed), etc.
+多数のユーザーより少数のユーザーに、外部のユーザーより内部のユーザーに（ドッグフーディング）、フィードバックの少ないオンプレ向けGitLabよりもフィードバックが早い得られるSasS向けGitLab、などなどです。
 
 ##### １回転の時間を短く {#reduce-cycle-time}
 {:.no_toc}
-Short iterations reduce [our cycle time](/stages-devops-lifecycle/value-stream-analytics/).
+
+イテレーションは短くする。[施策の一回転の時間を短縮](/stages-devops-lifecycle/value-stream-analytics/)します。
 
 ##### コミュニティの一員として働く {#work-as-part-of-the-community}
 {:.no_toc}
