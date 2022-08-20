@@ -900,15 +900,18 @@ GitLabでは、コンテンツや提案に下書き(ドラフト)マークを付
 
 ##### 羞恥心を捨てる {#low-level-of-shame}
 {:.no_toc}
-When we talked to Nat Friedman, he said: "A low level of shame is intrinsic to your culture." This captures the pain we feel by shipping something that isn't where we want it to be yet.
+ナット・フリードマンと話をした時に彼は言っていました。
+「羞恥心の高さは文化に強く影響されます」
+まだ完璧ではないものをユーザに提供する時に感じる心の痛みをうまく説明しています。
 
-GitLab Head of Remote Darren M. adds context on this operating principle.
+GitLab Head of Remote Darren M.は、この運営原則の補足説明をしています。
 
-> In many organizations, you take a risk when you put forth any work that's not perfect — where you haven't spent endless cycles planning for contingencies or counterpoints. Because of this, you're incentivized to invest a lot of time and effort into preparing for 'What if?' scenarios before any work is presented.
+> たいがいの組織は、不測の事態や反論を想定して計画を練らずに仕事を進める、つまり完璧な仕事をしないと、社内の立場は危うくなります。
+> だから仕事を進める前に、様々なことを想定してシナリオを準備するので、多くの時間と労力を費やしてしまいます。
 >
-> The downside to that is clear. If you do eventually put forth the work, but it needed to be course corrected a long time ago, you've now squandered a lot of time that you could have spent improving it via iteration.
+> その欠点は明らかです。もし時間をかけて完成した後に、早い段階での手直しが見つかってしまった場合、費やした多くの時間が無駄になります。イテレーションで進めていれば、もう利用者は改善されたものを使っていたはずです。
 >
-> Having a low level of shame requires you to combat a natural inclination to conceal work until it's perfect, and instead celebrate the small changes.
+> 羞恥心を忘れてください。人は完璧になるまで他人に見せないように仕事をしがちなものです。そんな誘惑とは戦ってください。とにかく変更は小さくしてください。
 
 ##### カルチャーのレンズ {#cultural-lens}
 {:.no_toc}
