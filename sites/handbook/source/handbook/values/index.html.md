@@ -869,13 +869,16 @@ Small iterations make it easier to work with the wider community. Their work loo
 
 ##### 最小限の改善 ミニマム・バイアブル・チェンジ (MVC) {#minimal-viable-change-mvc}
 {:.no_toc}
-We encourage MVCs to be as small as possible. 
-Always look to make the quickest change possible to improve the user's outcome. 
-If you validate that the change adds more value than what is there now, then do it. 
-This may be additive (adding something) or subtractive (removing something). 
-No need to wait for something more robust. 
-More information is in the [product handbook](/handbook/product/product-principles/#the-minimal-viable-change-mvc), but this applies to everything we do in all functions. 
-Specifically for product MVCs, there is additional responsibility to validate with customers that we're adding useful functionality without obvious bugs or usability issues.
+可能な限り小さく「最小限の改善(MVC)」を推奨しています。
+
+改善点は速やかに提供して、ユーザが体感できる価値を改善してください。
+もし「改善したら今以上の価値を提供できる」と確認したら、速やかに実行しましょう。
+加算式（何かを加える）でも、減算式（何かを取り除く）でも、そうです。
+
+確度の高い改善案を練ろうと、時間を費やさないでください。
+
+詳しくは[プロダクト・ハンドブック](/handbook/product/product-principles/#the-minimal-viable-change-mvc)を確認してください。製品開発に限らずすべての仕事でも同じことです。
+ただしプロダクトのMVCの場合は、追加した機能に、明らかなバグやユーザビリティの問題がなく、お客様にとって使えるものであることを検証してください。
 
 ##### 提案する {#make-a-proposal}
 {:.no_toc}
