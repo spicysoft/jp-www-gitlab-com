@@ -936,9 +936,17 @@ We are positive about the future of the company. We are **S**hort **Te**rm **C**
 
 ##### 提案を変えるのはイテレーションではない {#changing-proposals-isnt-iteration}
 {:.no_toc}
-Changing something without shipping it is a revision, not iteration. Only when the change is rolled out to users can you learn from feedback. When you're changing a proposal based on different opinions, you're frequently wasting time; it would be better to roll out a small change quickly and get real world feedback. Never call a revision an iteration because it is almost the opposite.
+Changing something without shipping it is a revision, not iteration. 
+Only when the change is rolled out to users can you learn from feedback. 
+When you're changing a proposal based on different opinions, 
+you're frequently wasting time; 
+it would be better to roll out a small change quickly and get real world feedback. 
+Never call a revision an iteration because it is almost the opposite.
 
-A few challenges have arisen with how we approach iteration. The best example may be the proposal of a two-month release cycle. The argument was that a longer release cycle would buy us time for bug fixes and feature development, but we don’t believe that is the case. As detailed above, we aim to make the absolute smallest viable and valuable thing possible, and that doing otherwise will only slow us down.
+A few challenges have arisen with how we approach iteration.
+The best example may be the proposal of a two-month release cycle.
+The argument was that a longer release cycle would buy us time for bug fixes and feature development, but we don’t believe that is the case.
+As detailed above, we aim to make the absolute smallest viable and valuable thing possible, and that doing otherwise will only slow us down.
 
 That said, we would love to work on a two-week release cycle, but that should be another conversation.
 
