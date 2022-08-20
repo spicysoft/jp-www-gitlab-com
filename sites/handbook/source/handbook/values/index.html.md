@@ -984,7 +984,7 @@ Iteration is a key value in many disruptive and successful organizations. Below 
 
 * [SpaceX](iteration-examples/spacex.html)
 
-##### イテレーションではない12のこと {#-12-things-that-are-not-iteration}
+##### イテレーションではない12のこと {#n12-things-that-are-not-iteration}
 {:.no_toc}
 イテレーションは人の直感に反し理解が難しいものです。イテレーションとは何かを明確にするためには、イテレーションでないものの例を見ることが役に立ちます。以下はイテレーションと間違えられがちなものです。イテレーションの定義に当てはまらない12の例です。
 
