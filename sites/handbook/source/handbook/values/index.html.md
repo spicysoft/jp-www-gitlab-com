@@ -934,21 +934,22 @@ We are positive about the future of the company. We are **S**hort **Te**rm **C**
 {:.no_toc}
 多くの意思決定は後から簡単にくつがえせるものです。くつがえせるなら[直接責任者 DRI](/handbook/people-group/directly-responsible-individuals/)は承認なしで先に進めて、意思決定すべきです。後から覆せない意思決定だけが、きちんと徹底的に議論されるべきです。
 
-##### 提案を変えるのはイテレーションではない {#changing-proposals-isnt-iteration}
+##### 案を練るのはイテレーションではない {#changing-proposals-isnt-iteration}
 {:.no_toc}
-Changing something without shipping it is a revision, not iteration. 
-Only when the change is rolled out to users can you learn from feedback. 
-When you're changing a proposal based on different opinions, 
-you're frequently wasting time; 
-it would be better to roll out a small change quickly and get real world feedback. 
-Never call a revision an iteration because it is almost the opposite.
+利用者に提供せずにただ変更を加えるのは、リビジョン(修正)であり、イテレーションではありません。
+変更したものを利用者に提供するから、フィードバックをもらえて学ぶことができます。
+様々な意見を聞いてアイディアを練るのは時間の浪費です。
+小さく変更して、素早く展開し、利用者からフィードバックを得てください。
+単なるリビジョンをイテレーションと呼んではいけません。まったく逆の概念です。
 
-A few challenges have arisen with how we approach iteration.
-The best example may be the proposal of a two-month release cycle.
-The argument was that a longer release cycle would buy us time for bug fixes and feature development, but we don’t believe that is the case.
-As detailed above, we aim to make the absolute smallest viable and valuable thing possible, and that doing otherwise will only slow us down.
+イテレーションに取り組もうとすると抵抗が起きがちです。
+よくあるのがリリースサイクルを2ヶ月にしたいという意見です。
+リリースサイクルを長くしてバグフィックスや機能開発のための時間を確保したいという主張でした。
+しかしそうではありません。
+以前も説明しましたが、可能な限り小さくかつ実行可能で価値があるものを作るようにしています。
+そうしないと仕事のペースが落ちてしまいます。
 
-That said, we would love to work on a two-week release cycle, but that should be another conversation.
+ということで2週間のリリースサイクルで仕事をしています。それはまた別の機会にお話しします。
 
 ##### イテレーションを取り入れる {#embracing-iteration}
 {:.no_toc}
