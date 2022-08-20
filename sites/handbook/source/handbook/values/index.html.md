@@ -1001,56 +1001,60 @@ Iteration is a key value in many disruptive and successful organizations. Below 
 1. 長時間労働を強いる
 1. 自分の仕事を他の人が直してくれることを期待する
 
-In this [GitLab Unfiltered video](https://www.youtube.com/watch?v=BW6TWwNZzIQ), GitLab co-founder and CEO Sid Sijbrandij elaborates on each of these 12 things that are not iteration. 
+[GitLab ぶっちゃけTV](https://www.youtube.com/watch?v=BW6TWwNZzIQ)で、GitLab 共同創業者兼CEO  Sid Sijbrandij は、イテレーションと誤解してはいけないこと12選を解説しています。
 
-##### イテレーションを採用している会社 {#iteration-competency}
+##### イテレーション・コンピテンシー {#iteration-competency}
 {:#iteration-competency.no_toc}
-[Competencies](/handbook/competencies/) are the Single Source of Truth (SSoT) framework for things we need team members to learn.
-We demonstrate iteration when we do the smallest viable and valuable thing, get it out quickly for feedback, and make changes based that feedback.
+社員が学べきことは、[コンピテンシー](/handbook/competencies/)にまとめています。これだけです。
+実行可能かつ価値があるもっと最小限の施策だけを行うこと。速やかに提供してフィードバックをえること。フィードバックをえて改善をすること。これがイテレーションするということです。
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
-    <th class="tg-0lax">Demonstrates Iteration Competency by…</th>
-    <th class="tg-0lax">Knowledge Assessment<br></th>
+    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab ジョブ・グレード</a></th>
+    <th class="tg-0lax">イテレーション力を発揮するには</th>
+    <th class="tg-0lax">ナレッジ・アセスメント<br></th>
   </tr>
   <tr>
     <td class="tg-0lax">5</td>
-    <td class="tg-0lax">Develops own knowledge by trying and failing. When asking questions isn't content with silence or unhelpful/incomplete responses, seeks out primary sources.</td>
-    <td class="tg-0lax" rowspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfkD0zgXArA0ul26LPexcWpg4HDoqdAUTgepf8uSW1p3WXz6w/viewform">Knowledge Assessment for Individual Contributors</a></td>
+    <td class="tg-0lax">試行錯誤しして知識を深める。質問をするときに、回答が返ってこなかったり役に立たない不完全な回答が返ってきても諦めずに、一次資料を探す。</td>
+    <td class="tg-0lax" rowspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfkD0zgXArA0ul26LPexcWpg4HDoqdAUTgepf8uSW1p3WXz6w/viewform">プレイヤー向け・ナレッジ・アセスメント</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">6</td>
-    <td class="tg-0lax">Actively looks for opportunities to iterate and contribute to boring solutions. Balances short term gains and long term benefit with team’s help. Ships things that aren't 100% knowing that you'll either be able to improve them in the next revision. Asks questions with abandon. Publicly shares failures if you'll help colleagues learn.</td>
+    <td class="tg-0lax">イテレーションをしたり枯れた解決策で先に進める機会を積極的に探す。チームの力を借りて短期的な利益と長期的な利益のバランスを取る。次の機会に改善すればいいということを理解して100%でなくても提供する。積極的に質問する。同僚の学びになるように失敗体験は皆と共有する。</td>
   </tr>
   <tr>
     <td class="tg-0lax"><br>7</td>
-    <td class="tg-0lax">Independently balances short term gains and long term benefit. Identifies opportunities to deliver projects in an iterative way.</td>
+    <td class="tg-0lax">
+    独力で短期的な利益と長期的な利益をバランス取ることができる。イテレーションを活用してプロジェクトを成功させる機会を見出す。</td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0lax">Is able to take long term goals and turn them into small actionable steps that can be implemented in an iterative way. Identifies and prevents decisions that are not “two-way door decisions”. Ships. All the time. Sounds like a broken record in discussions with more junior members of the team; always asking if we can make something smaller.</td>
-    <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdbstfn78uKNKfeDOCEY3Nr4O1q8plcqoDDvttlLR9fMOmRfQ/viewform">Knowledge Assessment for People Leaders</a></td>
+    <td class="tg-0lax">
+    長期的な目標を実行しやすい小さなステップに分解してイテレーションしながら実行することができる。「取り返しがつかない意思決定」を見分け避ける。つねにデリバリーする。部下や後輩と議論する時は、「もっと小さくやれないか？」と、壊れたレコードのように繰り返し投げかける。</td>
+    <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdbstfn78uKNKfeDOCEY3Nr4O1q8plcqoDDvttlLR9fMOmRfQ/viewform">マネージャー向け・ナレッジ・アセスメント</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
-    <td class="tg-0lax">In addition to upholding the requirements of a Staff/Manager level, a Sr. Manager practices and fosters the value of iteration to team members. They hold their team members accountable for iteration and boring solutions.</td>
+    <td class="tg-0lax">
+    スタッフ/マネージャーレベルの要件を守るのはもちろん。シニアマネージャーはイテレーションを実践しチームメンバーがイテレーションできるように育成してください。チームメンバーもイテレーションで進め枯れた解決策で取り組めるように責任を持ってください。</td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>
-    <td class="tg-0lax">In addition to upholding the requirements of a Sr. Manager, a Director proactively finds ways to drive the value of iteration and boring solutions.</td>
+    <td class="tg-0lax">シニア・マネージャーレベルの要件を守るのはもちろん。
+    役員は、イテレーションと枯れた解決策というバリューを積極的に浸透させてください。</td>
   </tr>
   <tr>
     <td class="tg-0lax">11</td>
-    <td class="tg-0lax">In addition to upholding the requirements of a  Director , a Sr. Director embeds the value of Iteration across the department and division.  They use their cognitive and analytical abilities to anticipate and adapt to unpredictabilities in regard to strategic risk in a way that benefits all involved.</td>
+    <td class="tg-0lax">役員レベルの要件を守るのはもちろん。上級役員は、イテレーションというバリューを部門や部署をこえて浸透させます。調査や分析をし、戦略的リスクを予測し対策をうち、関係者全員が利益を得ます。</td>
   </tr>
   <tr>
     <td class="tg-0lax">12</td>
-    <td class="tg-0lax">In addition to upholding the requirements of a Sr. Director , a VP leads the way for the value of Iteration across the division and cross functional teams. They confidently lead their teams through change and proactively take risks based on values and the strategic vision.</td>
+    <td class="tg-0lax">上級役員レベルの要件を守るのはもちろん。副社長は、部門を越え機能別部門を横断し、イテレーションというバリューを体現します。バリューや戦略的ビジョンをもとに、変化にチームを適応させ、積極的にリスクを取ります。</td>
   </tr>
   <tr>
     <td class="tg-0lax">EVP/CXO</td>
-    <td class="tg-0lax">In addition to upholding the requirements of a VP,  the EVP champions the value of Iteration across GitLab. They are comfortable leading through discomfort and the unease associated with change and innovation.</td>
+    <td class="tg-0lax">副社長レベルの要件を守るのはもちろん。上級副社長は、GitLab全社にイテレーションというバリューを徹底させます。変革やイノベーションに伴う不快感や不安感を乗り越えて、リーダーシップを発揮することに抵抗がありません。</td>
   </tr>
 </table>
 
