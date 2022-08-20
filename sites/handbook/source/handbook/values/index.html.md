@@ -932,7 +932,7 @@ We are positive about the future of the company. We are **S**hort **Te**rm **C**
 
 ##### 意思決定はひっくりかえして良い {#make-two-way-door-decisions}
 {:.no_toc}
-Most decisions are easy to reverse. In these cases, the [directly responsible individual](/handbook/people-group/directly-responsible-individuals/) should go ahead and make them without approval. Only when you can't reverse them should there be a more thorough discussion.
+多くの意思決定は後から簡単にくつがえせるものです。くつがえせるなら[直接責任者 DRI](/handbook/people-group/directly-responsible-individuals/)は承認なしで先に進めて、意思決定すべきです。後から覆せない意思決定だけが、きちんと徹底的に議論されるべきです。
 
 ##### 提案を変えるのはイテレーションではない {#changing-proposals-isnt-iteration}
 {:.no_toc}
