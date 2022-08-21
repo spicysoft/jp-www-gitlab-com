@@ -845,10 +845,12 @@ GitLabに入社する人たちの多くはすでにイテレーションはで�
 
 ##### 期限を設定する {#set-a-due-date}
 {:.no_toc}
-We always try to set a due date. If needed, we cut scope.
-If we have something planned for a specific date, we make that date. For example we [shipped over 100 releases on the 22nd of the month](/blog/2018/11/21/why-gitlab-uses-a-monthly-release-cycle/). But every one of them doesn't contain all the features we planned.
-If we planned an announcement for a certain date, we might announce less or indicate what is still uncertain.
-But we set a due date because having something out there builds trust and gives us better feedback.
+必ず締め切りを設定します。必要であれば、前倒しにします。
+もし、既に特定の日になんらかの締め切りがあるなら、その日を締め切りにします。
+私たちの話です。[今月の22日に100以上のニュース](/blog/2018/11/21/why-gitlab-uses-a-monthly-release-cycle/)を発表しました。
+しかし最初に予定していたすべての機能を提供したわけではありません。
+日付を決めて発表を予定していたとしても、その日には、当初の予定のすべてを発表しないことも、不確定なまま発表することもあります。
+それでも締め切りを設定するのは、何かを発表すれば信頼を築けるし、より良いフィードバックを得られるからです。
 
 ##### 承認待ちをなくせ {#cleanup-over-sign-off}
 {:.no_toc}
