@@ -432,52 +432,72 @@ We should be diligent to define [Directly Responsible Individuals](/handbook/peo
 
 ##### 結果コンピテンシー {#results-competency}
 {:#results-competency .no_toc}
-[Competencies](/handbook/competencies/) are the Single Source of Truth (SSoT) framework for things we need team members to learn.
-We demonstrate results when we do what we promised to each other, customers, users, and investors.
+社員が学べきことは、[コンピテンシー](/handbook/competencies/)に一元化してまとめています。
+このバリューを発揮して、仲間に顧客にユーザーに投資家に約束したことを実行してください。
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
-    <th class="tg-0lax">Demonstrates Results Competency by…</th>
-    <th class="tg-0lax">Knowledge Assessment<br></th>
+    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab ジョブ・グレード</a></th>
+    <th class="tg-0lax">このような時に「結果力」を発揮してください</th>
+    <th class="tg-0lax">ナレッジ・アセスメント<br></th>
   </tr>
   <tr>
     <td class="tg-0lax">5</td>
-    <td class="tg-0lax">Develops the skills needed to commit and execute on agreed actions.</td>
-    <td class="tg-0lax" rowspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfcsI30XAW3hjwzlpo-HV6g_uZUIa-cqxJgEdiNfdHADBpsTQ/viewform">Knowledge Assessment for Individual Contributors</a></td>
+    <td class="tg-0lax">
+    必要なスキルを身につけ、約束した行動をやりとげます。
+    </td>
+    <td class="tg-0lax" rowspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfcsI30XAW3hjwzlpo-HV6g_uZUIa-cqxJgEdiNfdHADBpsTQ/viewform">スタッフ向けナレッジ・アセスメント</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">6</td>
-    <td class="tg-0lax">Applies commitment to results and demonstrates ability to execute on agreed actions.</td>
+    <td class="tg-0lax">
+    約束した行動を実行する力を発揮して、結果をコミットメントします。
+    </td>
   </tr>
   <tr>
     <td class="tg-0lax"><br>7</td>
-    <td class="tg-0lax">Models a sense of urgency and commitment to deliver results.</td>
+    <td class="tg-0lax">
+    結果を出すために必要な緊張感とコミットメントの模範となります。
+    </td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0lax">Coaches team members to collaborate and work iteratively towards results with the focus on the outcome and not hours worked.</td>
-    <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9ZFJb3Fx86rI_Fmk1X88jSuDDvz9p4WLTfBmkYCmgrFDOgw/viewform">Knowledge Assessment for People Leaders</a></td>
+    <td class="tg-0lax">
+    チームメンバーが協力し合い、作業時間ではなく結果に焦点を当て、イテレーションを活用し作業を行うように指導をします。
+    </td>
+    <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9ZFJb3Fx86rI_Fmk1X88jSuDDvz9p4WLTfBmkYCmgrFDOgw/viewform">
+    マネージャー向けナレッジ・アセスメント
+    </a></td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
-    <td class="tg-0lax">Fosters a culture of ownership of personal performance.</td>
+    <td class="tg-0lax">
+    個人の業績に対して各人がオーナーシップを持つ文化を作ります。
+    </td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>
-    <td class="tg-0lax">Drives efficient execution of results ensuring collaboration between team members.</td>
+    <td class="tg-0lax">
+    チームメンバー間の連携を図りながら、効率的に成果を達成していくことを推進します。
+    </td>
   </tr>
   <tr>
     <td class="tg-0lax">11</td>
-    <td class="tg-0lax">Develops quarterly OKR's ensuring the performance and results of one or more teams.</td>
+    <td class="tg-0lax">
+    １つ以上のチームと業績と結果を保証する四半期ごとのOKRを策定します。
+    </td>
   </tr>
   <tr>
     <td class="tg-0lax">12</td>
-    <td class="tg-0lax">Leads the achievement of results while driving the continued alignment to our values of collaboration, efficiency, diversity, iteration and transparency.</td>
+    <td class="tg-0lax">
+    コラボレーション、効率性、多様性、反復性、透明性といった当社のバリューと継続的に整合性を図りながら、リーダシップを発揮して成果を達成します。
+    </td>
   </tr>
   <tr>
     <td class="tg-0lax">EVP/CXO</td>
-    <td class="tg-0lax">Leads the achievement of results while driving the continued alignment to our values of collaboration, efficiency, diversity, iteration and transparency.</td>
+    <td class="tg-0lax">
+    コラボレーション、効率性、多様性、反復性、透明性といった当社のバリューと継続的に整合性を図りながら、リーダシップを発揮して成果を達成します。
+    </td>
   </tr>
 </table>
 
