@@ -978,12 +978,9 @@ GitLab Head of Remote Darren M.は、この運営原則の補足説明をして�
 
 ##### マージリクエストは小さく {#make-small-merge-requests}
 {:.no_toc}
-
-When you are submitting a merge request for a code change, or a process change in
-the handbook, keep it as small as possible. If you are adding a new page to the
-handbook, create the new page with a small amount of initial content, get it merged
-quickly via [Handbook Usage guidelines](/handbook/handbook-usage/), and then add additional sections iteratively with subsequent merge requests.
-Similarly, when adding features to GitLab, consider ways to [reduce the scope](/handbook/product/product-processes/#crafting-an-mvc) of the feature before creating the merge request to ensure your merge request is as small as possible.
+ハンドブックのコードを変更したりプロセスを変更する時には、できるだけ小さなマージリクエストを出してください。
+ハンドブックに新しいページを追加する場合は、最低限のコンテンツ量で新しいページを作成し、[ハンドブック利用ガイドライン](/handbook/handbookusage/)の通り素早くマージしてください。その後のマージリクエストで繰り返し文章を追加してください。
+同様に、GitLab に機能を追加するときも、マージリクエストを作成する前に、機能の [スコープを減らす](/handbook/product/product-processes/#crafting-an-mvc)ことを検討し、マージリクエストができるだけ小さくなるようにしましょう。
 
 ##### 常にデリバリー可能を維持する {#always-iterate-deliberately}
 {:.no_toc}
