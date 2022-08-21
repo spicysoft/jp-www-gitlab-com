@@ -884,7 +884,14 @@ Small iterations make it easier to work with the wider community. Their work loo
 
 ##### 提案する {#make-a-proposal}
 {:.no_toc}
-If you need to decide something as a team, make a concrete proposal instead of calling a meeting to get everyone's input. Having a proposal will be a much more effective use of everyone's time. Every meeting should be a review of a proposal. We should be [brainwriting on our own instead of brainstorming out loud](https://www.fastcompany.com/3033567/brainstorming-doesnt-work-try-this-technique-instead). State the underlying problem so that people have enough context to propose reasonable alternatives. The people that receive the proposal should not feel left out and the person making it should not feel bad if a completely different proposal is implemented. Don't let your desire to be involved early or to see your solution implemented stand in the way of getting to the best outcome. If you don't have a proposal, don't let that stop you from highlighting a problem, but please state that you couldn't think of a good solution and list any solutions you considered.
+チームで何かを決める時は、全員の意見を聞く会議を開くのではなく、具体的な提案をしてください。
+具体的な案があれば、みんなの時間を有効に使えます。
+会議を開くなら提案のレビューをすべきです。
+[人を集めてブレインストーミングをしない。独りで考えてブレインライティングをする](https://www.fastcompany.com/3033567/brainstorming-doesnt-work-try-this-technique-instead)べきです。
+他のメンバーが合理的な代替案を提案できるように、十分な情報を提供し解決すべき本質的な問題を述べなさい。
+提案を受て疎外感を感じたり、提案が採用されずまったく別な案が採用されて嫌な思いをしたりしないはずです。
+早くから関わりたいとか自分の提案が採用されて欲しいという欲で、最高の成果を出す邪魔をしないでください。
+具体的な解決策までいたらない場合でも、問題点はきちんと伝えてください。ただし良い解決策が思いつかなかったことを明記したり、検討した解決策を挙げてください。
 
 ##### 全てはドラフト {#everything-is-in-draft}
 {:.no_toc}
