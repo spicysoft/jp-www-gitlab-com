@@ -928,11 +928,11 @@ GitLab Head of Remote Darren M.は、この運営原則の補足説明をして�
 
 ##### 改善に注力する {#focus-on-improvement}
 {:.no_toc}
-We believe great companies sound negative because they focus on what they can improve, not only on what is working well.
-In every conversation, inside and outside the company, we should ask a question: What do you think we can improve?
-This doesn't mean we don't recognize our successes; for example, see our [Say Thanks](#say-thanks) value.
+優れた企業がネガティブ思考なのは、うまくいっている点よりも改善できる点に着目しているからです。
+どのような会話の際でも社内外を問わず「さらに何を改善できるか？」という質問を投げかけるべきです。
+成し遂げたことを認めないというわけではありません。例えば[感謝を伝える](#say-thanks)というバリューをご覧ください。
 
-We are positive about the future of the company. We are **S**hort **Te**rm **C**ritical **A**nd **L**ong **T**erm **O**ptimistic (`STeCALTO`, for short).
+会社の将来についてはポジティブに捉えています。私たちは、**S**hort(短) **Te**rm(期的には) **C**ritical(批判的に) **A**nd（かつ） **L**ong(長) **T**erm(期的には) **O**ptimistic(楽観的) (`STeCALTO`, short)です。
 
 ##### 小さく産んで大きく育てる {#be-deliberate-about-scale}
 {:.no_toc}
