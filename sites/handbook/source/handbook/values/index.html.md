@@ -966,11 +966,11 @@ GitLab Head of Remote Darren M.は、この運営原則の補足説明をして�
 ##### イテレーションを取り入れる {#embracing-iteration}
 {:.no_toc}
 
-In order to embrace iteration, 
-we should have the attitude that we are trying to achieve as much as possible in a small amount of time; 
-it's where we are at the end state of an iteration, that counts. 
-The benefit of iteration is to get feedback from the end-user. 
-Focus on sharing context on the _end of the first iteration_ rather than a _hypothetical future state_ requiring multiple iterations.
+イテレーションを取り入れるには、
+短い期間でできるだけ多くのことを成し遂げてください。
+イテレーションが終わった時にどこにいるのかが重要です。
+イテレーションの利点はエンドユーザーからフィードバックを得られることです。
+何回ものイテレーションの先に得られるかもしれない「机上の理想論」ではなく。「一回目のイテレーションの結果」からの検証結果を共有することが重要です。
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/nXfKtnVUhvQ" frameborder="0" allowfullscreen="true"> </iframe>
