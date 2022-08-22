@@ -3979,7 +3979,7 @@
   employee_or_customer_facing_app: null
   notes: null
   saas: null
-  handbook_link: null
+  handbook_link: "[Salesforce Tech Stack Guide](/handbook/sales/field-operations/sales-systems/tech-stack-guide-sfdc)"
   google_group: null
 
 - title: Salesforce Inbox
