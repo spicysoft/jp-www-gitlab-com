@@ -1990,10 +1990,10 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-be-navigation@1.0.40:
-  version "1.0.40"
-  resolved "https://registry.yarnpkg.com/be-navigation/-/be-navigation-1.0.40.tgz#29987214748d3146ce43226efe55f3795d6a82df"
-  integrity sha512-nVVTh63Ar7CJ7o4PEgKPqmqEZg0yVl/YDXSUytosxRKs22zzG1Ixte5sL/LmnqQucke+5jNgozI/SWWr3KaAqg==
+be-navigation@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/be-navigation/-/be-navigation-1.1.2.tgz#67811bd27a4f7b76ea13ab68c92ded2642d33270"
+  integrity sha512-ImBNuIkal1UpB+PIYjAFMd+z4x72RRNxEzTOTLdf8RjVYNBRe5KSDKmA7ZEuvNPH0dhR7IFeJ1Wo27qLAlNNSw==
   dependencies:
     axios "^0.27.2"
     core-js "^3.8.3"
