@@ -25,6 +25,6 @@ The labels are used to generate [this dashboard (internal only)](https://app.per
 - Average number of days it takes to complete a UX research project by service level
 - Total number of open UX research projects, by service level
 
-Collevtively, these data visualizations helps us understand more about the volume of UX research occurring, the lifecycle of a UX research project, and where UX research projects are taking place.
+Collectively, these data visualizations helps us understand more about the volume of UX research occurring, the lifecycle of a UX research project, and where UX research projects are taking place.
 
 
