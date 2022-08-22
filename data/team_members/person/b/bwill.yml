@@ -39,8 +39,8 @@ projects:
   gitlab:
   - reviewer backend
   - reviewer go
-  - reviewer ci_template
   - reviewer database local
+  - trainee_maintainer ci_template
   gitlab-pages: reviewer
   gitlab-runner: reviewer
   protect-container-scanning:
