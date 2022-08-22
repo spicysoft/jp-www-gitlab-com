@@ -87,7 +87,8 @@
   domains:
     - backend
   max_trainees: 1
-  trainees: []
+  trainees:
+    - John Mason (@john-mason)
 - mentor: Andy Soiron
   gitlab: Andysoiron
   domains:
