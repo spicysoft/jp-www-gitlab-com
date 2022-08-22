@@ -1,0 +1,29 @@
+---
+name: Paul Gascou-Vaillancourt
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
+  Ecosystem:Foundations
+reports_to: leipert
+picture: paulgascouvaillancourt.jpg
+twitter:
+gitlab: pgascouvaillancourt
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Ecosystem:Foundations Team
+- Ecosystem:Foundations FE Team
+- Frontend
+projects:
+  gitlab: reviewer frontend
+  gitlab-ui: maintainer frontend
+  design.gitlab.com: maintainer frontend
+domain_expertise:
+- foundations_buddy
+story: |
+  Paul has been passionate about web development for a while, he likes trying out new languages and libraries whenever he can.
+  In his spare time, Paul likes rock climbing, biking, contributing to open source projects and working on digital-art projects.
+specialty:
+- 'Ecosystem: Foundations'
+- " Ecosystem"
