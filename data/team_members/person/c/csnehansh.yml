@@ -1,17 +1,18 @@
 name: Snehansh Chaturvedi
 locality: 
 country: Remote
-role: <a href="">Junior Data Engineer</a>
+role: <a href="/job-families/finance/data-engineer/">Junior Data Engineer</a>
 reports_to: dvanrooijen2
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: csnehansh.png
+pronouns: He/Him
 pronunciation:
 twitter:
-linkedin:
+linkedin: snehansh-chaturvedi-b04279143
 gitlab: csnehansh
 departments:
+  - Business Technology
   - Data
+  - Finance
 specialty: ""
 expertise:
-story:
-
+story: Snehansh is a Data Engineer from Kolkata, India. He is passionate about data and programming. Outside of work he enjoys swimming, playing football and cooking.
