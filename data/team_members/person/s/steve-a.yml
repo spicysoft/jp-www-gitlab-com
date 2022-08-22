@@ -10,6 +10,7 @@ departments:
 - Engineering Function
 - Infrastructure Department
 - Reliability Team
+- Gitaly Group Reliability Stable Counterpart
 projects:
   labkit: maintainer
   gitlab:

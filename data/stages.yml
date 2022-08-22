@@ -788,6 +788,7 @@ stages:
         tech_writer: Suzanne Selhorn
         appsec_engineer: Dominic Couture
         cs_team_tag: Runner Group CS Stable Counterpart
+        infra_reliability_team_tag: Runner Group Reliability Stable Counterpart
         internal_customers:
           - department: Infrastructure Department
             dri: TBD
@@ -1953,6 +1954,7 @@ stages:
         sets:
           - John McDonnell
         cs_team_tag: Gitaly Group CS Stable Counterpart
+        infra_reliability_team_tag: Gitaly Group Reliability Stable Counterpart
         internal_customers:
           - department: Quality Department
             dri: TBD
