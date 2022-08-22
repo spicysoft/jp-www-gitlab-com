@@ -4204,12 +4204,12 @@
   subprocessor: false
   description: "Translation and localization tool."
   access_to: Marketing
-  provisioner: "@gillmurphy"
-  deprovisioner: "@gillmurphy"
-  group_owner: Global Content
-  group_owner_slack_channel: '#content'
-  business_owner: Gillian Murphy
-  technical_owner: Gillian Murphy
+  provisioner: "@jennyt"
+  deprovisioner: "@jennyt"
+  group_owner: Marketing Operations
+  group_owner_slack_channel: '#mktgops'
+  business_owner: Jenny Tiemann
+  technical_owner: Jenny tiemann
   data_classification: Orange
   integration_method: null
   need_move_to_okta: null
