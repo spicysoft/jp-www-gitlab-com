@@ -1,0 +1,5009 @@
+- title: 1Password
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[1Password](https://1password.com/) is a password manager. GitLab
+    uses 1Passwords for Teams which is a hosted service. Please refer to the [1Password
+    Guide](/handbook/security/#1password-guide) for additional information."
+  access_to: Team Members
+  provisioner: 'Leave "Assignee" blank, then tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do.'
+  deprovisioner: IT Ops
+  group_owner: IT Ops
+  group_owner_slack_channel: '#it_help'
+  business_owner: IT Operations
+  technical_owner: IT Operations
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[1Password Guide](/handbook/security/#1password)"
+  google_group: null
+
+- title: Adaptive Planning
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: A Planning System that will allow us to measure how accurate our forecasts
+    are on a monthly, quarterly and annual basis
+  access_to: "Accounting, FP&A"
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Finance Planning and Analysis
+  group_owner_slack_channel: '#finance'
+  business_owner: James Shen
+  technical_owner: Alex Westbrook
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: "[Adaptive Insights Guide](/handbook/finance/financial-planning-and-analysis/adaptive-insights/)"
+  google_group: okta-adaptiveinsights-users@gitlab.com
+
+- title: Ally.io 
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Product and Engineering uses [Ally.io](https://www.ally.io/) for OKRs
+  access_to: Product and Engineering Team Members
+  provisioner: "@kristie.thomas, @jennifergarcia20  (this is also a baseline entitlement for Product and Engineering"
+  deprovisioner: "@kristie.thomas, @jennifergarcia20 "
+  group_owner_slack_channel: '#ally-okr-rollout'
+  business_owner: Eric Johnson, CTO
+  technical_owner:  Mek Stittri, VP Of Quality Engineering & Kristie Thomas, Sr. Exec Business Admin
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: 'employee'
+  notes: null
+  saas: null
+  handbook_link: '[Engineering Process](/handbook/engineering/#allyio-for-okrs) and [Product Process](/handbook/product/product-okrs/)'
+  google_group: okta-ally-users
+
+- title: ADP
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: 'We use [ADP](https://www.adp.com/) to process payroll for US Team Members'
+  access_to: Finance Team
+  provisioner: "@vlaughlan"
+  deprovisioner: "@vlaughlan"
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Vicki Laughlan
+  technical_owner: Vicki Laughlan
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[ADP Guide for Pay Date](/handbook/finance/payroll/#pay-date) and [ADP Guide for New Hires](/handbook/finance/payroll/#us)"
+  google_group: null
+
+- title: Akismet
+  team_member_baseline_entitlement: null
+  subprocessor: false
+  description: Spam detection in GitLab
+  access_to: Security Automation Team
+  provisioner: '@adietrich, @jdsalaro, @jwanjohi, @eurie, @agroleau'
+  deprovisioner: '@adietrich, @jdsalaro, @jwanjohi, @eurie, @agroleau'
+  group_owner: Security Automation Team
+  group_owner_slack_channel: '#security-automation'
+  business_owner: Alex Groleau
+  technical_owner: Alex Groleau
+  data_classification: Red
+  integration_method: Web Login
+  need_move_to_okta: null
+  critical_systems_tier: TBD
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: "No, but customer/employee issues/notes get sent for scanning"
+  notes: null
+  saas: null
+
+- title: Allocadia
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: We use Allocadia (allocadia.com) for Marketing Performance
+  access_to: Marketing budget holders
+  provisioner: '@emathis '
+  deprovisioner: '@emathis'
+  group_owner_slack_channel: '#allocadia_mktg-budget-holders'
+  business_owner: David Brown
+  technical_owner: Evan Mathis
+  data_classification: Orange
+  integration_method: API through Workato for GitLab integration, native integration for SFDC
+  need_move_to_okta: in Okta
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: no
+  employee_or_customer_facing_app: employee
+  handbook_link: "[Allocadia Guide](/handbook/marketing/strategy-performance/allocadia/)"
+  notes: null
+  saas: yes
+  
+- title: Anecdotes
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: We use Anecdotes to automate evidence collection for continuous control monitoring activities
+  access_to: Security Compliance
+  provisioner: '@jburrows001'
+  deprovisioner: '@jburrows001'
+  group_owner_slack_channel: '#sec-assurance'
+  business_owner: Julia Lake
+  technical_owner: Jeff Burrows
+  data_classification: Orange
+  integration_method: TBD
+  need_move_to_okta: In Process
+  critical_systems_tier: TBD
+  compliance_scope: TBD
+  collected_data: TBD
+  processing_customer_data: no
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: yes
+
+- title: ARInsights' Architect
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: The Industry Analyst relations team (part of Strategic Marketing) uses it as a system of record for all analyst relations activities
+  access_to: Analyst Relations and some members of Strategic Marketing
+  provisioner: "@rragozzine"
+  deprovisioner: "@rragozzine"
+  group_owner: Analyst Relations
+  group_owner_slack_channel: '#analyst-relations'
+  business_owner: Ryan Ragozzine
+  technical_owner: Ryan Ragozzine
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Authomize
+  team_member_baseline_entitlement: false
+  subprocessor:
+  description: Key system utilized by Security Compliance for User Access Reviews
+  access_to: Security Assurance and Techincal Owners 
+  provisioner: '@rcshah, @Julia.Lake'
+  deprovisioner: '@rcshah, @Julia.Lake'
+  group_owner_slack_channel: '#sec-assurance'
+  business_owner: Julia Lake
+  technical_owner: Jeff Burrows
+  data_classification: Orange
+  integration_method: Okta
+  need_move_to_okta: null
+  critical_systems_tier: null
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee and Vendor
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Arkose Labs
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Anti-abuse tool used to help protect GitLab.com from [automated attacks](https://www.arkoselabs.com/arkose-protect/).
+  access_to: Anti-abuse and Trust and Safety team members
+  provisioner: "@tmccaslin, @jstava, @jayswain"
+  deprovisioner: "@tmccaslin, @jstava, @jayswain"
+  group_owner_slack_channel: '#g_insider_threat'
+  business_owner: Taylor McCaslin
+  technical_owner: Jay Swain
+  data_classification: Orange
+  integration_method: 'Direct Access'
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope:
+  collected_data: "Access device metadata https://www.arkoselabs.com/legal/privacy-policy/#categories-of-personal-data-we-collect"
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: true
+  handbook_link: null
+  google_group: null
+
+- title: AuditBoard
+  team_member_baseline_entitlement: false
+  subprocessor:
+  description: "[AuditBoard](https://www.auditboard.com/) is an audit management tool used by the Internal Audit team to manage Internal Audits and the SOX program in GitLab"
+  access_to: Control owners and Internal Audit team
+  provisioner: "@pranavpolisetty, @hpoojary"
+  deprovisioner: "@pranavpolisetty, @hpoojary"
+  group_owner_slack_channel: Internal Audit
+  business_owner: Brijen Joshi, Sheetal Jain
+  technical_owner: Pranav Polisetty, Harinakshi Poojary
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: null
+  compliance_scope:
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app:
+  notes: null
+  saas: True
+
+- title: Avalara
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: 'We use [Avalara](https://www1.avalara.com/us/en/index.html) to automate and manage all of our sales tax compliance obligations.'
+  access_to: Finance Team
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Igor Groenewegen-Mackintosh
+  technical_owner: Jessica Salcido
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: AWS (distribution)
+  team_member_baseline_entitlement: false
+  subprocessor: true
+  description: "[Amazon Web Services](https://aws.amazon.com/) is a cloud platform."
+  access_to: null
+  provisioner: "@mendeni"
+  deprovisioner: "@mendeni"
+  group_owner_slack_channel: "#distribution_maintainers"
+  business_owner: Steve Wilson
+  technical_owner: Steve Wilson
+  data_classification: Orange
+  integration_method:
+  need_move_to_okta: null
+  critical_systems_tier: TBD
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: AWS (production)
+  team_member_baseline_entitlement: false
+  subprocessor: true
+  description: "[Amazon Web Services](https://aws.amazon.com/) is a cloud platform."
+  access_to: null
+  provisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
+  deprovisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
+  group_owner: BT Infrastructure, Eng Infrastructure
+  group_owner_slack_channel: '#infra-access-requests'
+  business_owner: Peter Kaldis, Jeff Martin, David Smith, Marin Jankovski 
+  technical_owner: Jeff Martin, Dillon Wheeler, David Smith, Marin Jankovski 
+  data_classification: Orange
+  integration_method: Multiple options
+  need_move_to_okta: true
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: AWS (support/staging)
+  team_member_baseline_entitlement: false
+  subprocessor: true
+  description: "[Amazon Web Services](https://aws.amazon.com/) is a cloud platform."
+  access_to: null
+  provisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
+  deprovisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
+  group_owner: BT Infrastructure, Eng Infrastructure
+  group_owner_slack_channel: '#infra-access-requests'
+  business_owner: Peter Kaldis, Jeff Martin, David Smith, Marin Jankovski 
+  technical_owner: Jeff Martin, Dillon Wheeler, David Smith, Marin Jankovski 
+  data_classification: Red
+  integration_method: null
+  need_move_to_okta: true
+  critical_systems_tier: TBD
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Azure
+  team_member_baseline_entitlement: false
+  subprocessor: true
+  description: "Please visit the [Production Architecture](/handbook/engineering/infrastructure/production/architecture/#azure) handbook page for more information on how we use Azure"
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: "@marin @dawsmith @bcaldwell-gitlab"
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: true
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Badgr Pro
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Badgr](https://badgr.com) is an open badging standard platform used by GitLab to award certifications."
+  access_to: Professional Services
+  provisioner: '@kmarquart'
+  deprovisioner: '@kmarquart'
+  group_owner_slack_channel: '#professional-services'
+  business_owner: Kendra Marquart
+  technical_owner: Kendra Marquart
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app:
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: BambooHR
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[BambooHR](https://www.bamboohr.com/) is used to store all team member information in one central location. Additional information can be found in the PeopleOPS Handbook referencing [using BambooHR](/handbook/people-group/#using-bamboohr)."
+  access_to: Team Members
+  provisioner: "@nutaurus @anechan"
+  deprovisioner: null
+  group_owner: People Ops
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Wendy Barnes
+  technical_owner: Anesia Chan
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOX
+  collected_data: All data related to employment via GitLab
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Bananatag
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Bananatag](https://bananatag.com/) is an internal comms-specific newsletter tool that is used by GitLab's internal communications teams to send email newsletters to the GitLab team."
+  access_to: Internal Communications Team Members 
+  provisioner: '@monicaj, @sliang2'
+  deprovisioner: '@monicaj, @sliang2'
+  group_owner_slack_channel: '#field-enablement-team'
+  business_owner: Monica Jacob, Simon Liang
+  technical_owner: Monica Jacob, Simon Liang
+  data_classification: Orange
+  integration_method: Direct Access
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: Basic team member data such as email, manager, region, start date. Tool aggregates anonymized newsletter performance stats such as open rates and click-thru rates. 
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: true
+  handbook_link: "[Handbook Link](https://about.gitlab.com/handbook/sales/field-communications/field-flash-newsletter/#newsletter-tool)"
+  google_group: null
+
+- title: Bambu by Sprout Social
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: Bambu by Sprout Social is a social media advocacy tool that enables GitLab team members to share posts curated by GitLab on their personal social media channels. This tool plays a role in social selling, brand awareness, and overall brand messaging.
+  access_to: Team Members
+  provisioner: '@wspillane'
+  deprovisioner: '@wspillane'
+  group_owner_slack_channel: '#social_media_action'
+  business_owner: 'wspillane'
+  technical_owner: 'wspillane'
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Names, GitLab email addresses, and performance data relating to social media posts
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: true
+  handbook_link: null
+  google_group: null
+
+- title: Betterment
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Betterment](https://www.betterment.com/) is the GitLab's plan fiduciary and 401k tool for US Team Members."
+  access_to: Team Members (US)
+  provisioner: "@brittanyr"
+  deprovisioner: null
+  group_owner: Total Rewards
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Brittany Rohde
+  technical_owner: Brittany Rohde
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: false
+  handbook_link: null
+  google_group: null
+
+- title: Bitergia
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Monitoring wider community contribution metrics, including KPIs for
+    the Code Contributor and Evangelist Programs
+  access_to: Community Relations for login (password currently in 1Password). Please
+    note that the tool and the wider community contribution metrics are (by design)
+    public.
+  provisioner: "@cbacharakis"
+  deprovisioner: "Deprovisioning through 1Password"
+  group_owner: Community Relations
+  group_owner_slack_channel: "#community-relations"
+  business_owner: John Coghlan
+  technical_owner: John Coghlan, Christos Bacharakis
+  data_classification: Orange
+  integration_method: 'no'
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Contribution data provided by the GitLab API and the Meetup.com
+    API. For GitLab, this includes Merge Requests, Issues and their associated metadata
+    from a set of projects in the gitlab-org group. For Meetup.com, data includes
+    event and event organizer information from the GitLab meetups groups
+  processing_customer_data: null
+  employee_or_customer_facing_app: The tool and the visualization data are publicly
+    accessible at https://gitlab.biterg.io
+  notes: null
+  saas: null
+  handbook_link: "[How we use Bitergia](https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/#bitergia-dashboard)"
+  google_group: null
+
+- title: BitSight
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[BitSight](https://www.bitsight.com/why) is a cybersecurity ratings company that provides a security rating utilizing information from public sources. This tool is used by GitLab Security to provide information on the Customer Assurance Package and is also leveraged as supporting information for Third Party Security Reviews performed for new and existing vendors"
+  access_to: Risk & Field Security Team Members supporting Third Party Risk Management and overall Security Risk Management Activities
+  provisioner: '@rcshah, @julia.lake'
+  deprovisioner: '@rcshah, @julia.lake'
+  group_owner_slack_channel: '#sec-assurance'
+  business_owner: Julia Lake
+  technical_owner: Rupal Shah
+  data_classification: Green
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: N/A - All data is collected by BitSight comes from public sources. GitLab does not have the ability to provide or input any additional data into the system outside of classifying the scope of IP addresses identified by the tool. 
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: true
+  handbook_link:
+  google_group: okta-bitsight-users@gitlab.com
+
+- title: Bizible
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Bizible](https://www.bizible.com/) is our marketing attribution software
+    that allows for connecting marketing and sales touch points over a prospect's
+    or customer's lifecycle directly to revenue. It also allows us to directly tie
+    the investment in our online advertising to records within our database.  Although
+    Bizible has dashboards, we are not currently using the reporting to measure success
+    or track marketing.  Bizible allows us to track our marketing activities at a
+    more granular level within Salesforce, our single source of truth."
+  access_to: Marketing OPS Online Growth Marketing Programs; defined w/in baseline
+    entitlement
+  provisioner: "@RobRosu"
+  deprovisioner: "@RobRosu"
+  group_owner: Marketing Operations
+  group_owner_slack_channel: '#mktgops'
+  business_owner: David Brown
+  technical_owner: Robert Rosu
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Lead/contact/account touchpoints, conversions, integrated to Ad
+    platforms & spend data - all synced to SFDC
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/bizible/)"
+  google_group: null
+
+- title: Calendly Basic
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Calendly](https://calendly.com/) connects to your Google Calendar so people outside GitLab can easily book a time with you. Additional information can be found in the [tools and tips](/handbook/tools-and-tips/#calendly) section of the GitLab Handbook."
+  access_to: Team Member
+  provisioner: N/A - Calendly Basic is provisioned via self-registration
+  deprovisioner: null
+  group_owner: People Ops
+  group_owner_slack_channel: '#people-connect'
+  business_owner: People Group
+  technical_owner: People Group
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: null
+  collected_data: email address
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: Calendly presents an interface to the customer on which they select open
+    time slots to schedule support calls with us. The resulting calendar events are
+    scheduled in Google Calendar.
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Support Team Calendly Account
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Scheduling
+  access_to: Support
+  provisioner: "@jcolyer @gitlab-com/support/managers"
+  deprovisioner: "@jcolyer @gitlab-com/support/managers"
+  group_owner: Support
+  group_owner_slack_channel: '#support-managers'
+  business_owner: Lyle Kozloff
+  technical_owner: Jason Colyer, Lyle Kozloff
+  data_classification: Orange
+  integration_method: Other
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: email address
+  processing_customer_data: null
+  employee_or_customer_facing_app: Both
+  notes: Calendly presents an interface to the customer on which they select open
+    time slots to schedule support calls with us. The resulting calendar events are
+    scheduled in Google Calendar.
+  saas: null
+
+- title: Canva
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Canva is a template-based graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content.
+  access_to: Brand Design Team, Marketing (with approved Access Request)
+  provisioner: "@luke, @amittner"
+  deprovisioner: "@luke, @amittner"
+  group_owner_slack_channel: '#marketing-design'
+  business_owner: Adam Mittner
+  technical_owner: Adam Mittner, Luke Babb
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: name, email
+  processing_customer_data: false
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Carta
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Stock option administration](/handbook/stock-options/#administration),
+    capitalization table and equity management are all managed using the [Carta](https://carta.com/)
+    software platform."
+  access_to: Access via GitLab credentials
+  provisioner: null
+  deprovisioner: null
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Brian Robins
+  technical_owner: Brian Robins
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: SOX
+  collected_data: Tax ID#, Home address, personal email address, spouse
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Chef
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Chef](https://www.chef.io/) is an open source systems management and cloud infrastructure automation platform"
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: SOC2
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Chorus
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: 'Call and demo recording software for customer-facing team members. [Chorus](https://www.chorus.ai/)
+    tracks keywords, provides analytics, and transcribes calls into both Salesforce
+    and Outreach. Chorus will be used to onboard new team members, provide ongoing
+    training and development for existing team members, provide non-sales employees
+    with access to sales calls, and allow sales reps to recall certain points of a
+    call or demo. All ROW customer facing team members are required to complete the [Chorus GDPR training](https://gitlab.edcast.com/insights/card-c6492843-12f5-4353-9aab-fa82cf58d9cd) before receiving a Recorder license in Chorus.'
+  access_to: "**Recorders:** SALs, AEs, TAMs, SAs, and SDRs **Listeners:** Can be requested & granted case by case"
+  provisioner: 'Add Label "SalesOpsAR::Action Needed", add assignee @kbetances'
+  deprovisioner: '@kbetances'
+  group_owner: Sales Ops
+  group_owner_slack_channel: '#sales-support'
+  business_owner: Lindsay Schoenfeld
+  technical_owner: Amber Stahn and Kathleen Rintelman-Betances
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Call recordings from meetings
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Learn How to Use Chorus.ai](https://about.gitlab.com/handbook/sales/field-operations/sales-operations/go-to-market/chorus/)"
+  google_group: okta-chorus-users@gitlab.com
+
+- title: Clari
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: 'Opportunity forecasting and pipeline analysis tool. Clari will help
+    the Sales Team improve forecast accuracy providing Sales Leadership with additional
+    insight and details into an opportunity - insights that cannot be gleaned from
+    Salesforce records or 1:1 forecasts calls alone. Additional insights include email
+    activity between client/prospect and AE and stage movemement/velocity vs. historically
+    won opportunities. Sales Leaders will also use Clari to conduct Manager/Rep 1:1s
+    as well as the weekly forecast call with members of the executive team. We will
+    also use Clari for the QBR presentations. Please see the [ Weekly Forecasting](/handbook/sales/#weekly-forecasting)
+    section of the Sales Handbook for more information on how Clari will accomplish
+    this.'
+  access_to: Quota Carrying Sales Reps
+  provisioner: 'Add Label "SalesOpsAR::Action Needed",add assignee @kbetances'
+  deprovisioner: '@kbetances'
+  group_owner: Sales
+  group_owner_slack_channel: '#clari-users'
+  business_owner: James Harrison
+  technical_owner: Meri Gil Galindo
+  data_classification: Orange
+  integration_method: SWA/SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Clearwater
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Investment reporting tool
+  access_to: Treasury and GL teams
+  provisioner: Log an access request. Once manager approval has been obtained, tag Ramona Hark
+  deprovisioner: "@rhark"
+  group_owner: Treasury
+  group_owner_slack_channel: '#treasury'
+  business_owner: Kevin Chen 
+  technical_owner: Kevin Chen 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: false
+  employee_or_customer_facing_app: employee facing
+  notes: null
+  saas: True
+  handbook_link: null
+  google_group: null
+
+- title: Cloudflare
+  team_member_baseline_entitlement: false
+  subprocessor: true
+  description: CDN/WAF
+  access_to: Infrastructure, SecOps
+  provisioner: "@marin @dawsmith"
+  deprovisioner: Okta
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Compaas
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Compensation Analytics and Compensation Review
+  access_to: Admin Access for Total Rewards Team, manager access during comp review
+    to anyone with direct reports
+  provisioner: "@brittanyr @mwilkins"
+  deprovisioner: "@brittanyr @mwilkins"
+  group_owner: Total Rewards
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Brittany Rohde
+  technical_owner: Brittany Rohde, Morgan Wilkins
+  data_classification: Orange
+  integration_method: Gmail SSO
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Comptryx
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Compensation Data
+  access_to: Total Rewards
+  provisioner: Provisioned through 1Password
+  deprovisioner: Deprovisioned through 1Password
+  group_owner: Total Rewards
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Brittany Rohde
+  technical_owner: Brittany Rohde
+  data_classification: Orange
+  integration_method: Email and password
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: ContactOut
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[ContactOut](https://contactout.com/) is a recruiting tool which helps
+    recruiters find a potential candidate's contact information."
+  access_to: null
+  provisioner: "@MarissaFerber"
+  deprovisioner: null
+  group_owner: Recruiting Operations
+  group_owner_slack_channel: 
+  business_owner: Marissa Ferber
+  technical_owner: Marissa Ferber
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: email addresses
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: ContactOut is an email finder. All emails are gathered from public channels
+    with now privacy violation.
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: ContractWorks
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[ContractWorks](https://www.contractworks.com/) is a contract managing
+    software. [This process](/handbook/legal/vendor-contract-filing-process/) is used
+    to file contract or related vendor documents after they are fully executed."
+  access_to: Any requestor with, (i) requirement to upload signed contracts from vendors
+    and/or partners (non-revenue), and (ii) approval from legal.
+  provisioner: "@rnalen @ktesh"
+  deprovisioner: "@rnalen @ktesh"
+  group_owner: Legal
+  group_owner_slack_channel: '#legal'
+  business_owner: Robert Nalen
+  technical_owner: Robert Nalen
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Name, address, email, phone number
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Coupa
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "Coupa is a procure-to-pay system to streamline the purchase request process, initiate workflow with approvals, and enable Purchase Orders. It will help us be more efficient, save time, and provide metrics for predictability.."
+  access_to: Procurement, Accounts Payable, Marketing, Professional Services, Security, Legal 
+  provisioner: '@wlam @csotomango (please add the labels "FinSys - Coupa", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: '@wlam @csotomango (please add the labels "FinSys - Coupa", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner_slack_channel: '#enterprise-apps'
+  business_owner: '@a.hansen'
+  technical_owner: '@wlam'
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: customer
+  notes: null
+  saas: null
+  handbook_link: "[Coupa Guide](/handbook/business-technology/enterprise-applications/guides/coupa-guide/)"
+  google_group: null
+
+- title: Crowdin.com
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Crowdin.com](https://translate.gitlab.com/) is a localization management
+    platform. Additional information can be found on this [blog post](/blog/2018/02/06/crowdin-localization-for-agile-projects/)."
+  access_to: Any GitLab community members who want to contribute online translation
+    of GitLab
+  provisioner: Log in with GitLab
+  deprovisioner: null
+  group_owner: Community Relations
+  group_owner_slack_channel: "#crowdin_gitlab"
+  business_owner: John Coghlan
+  technical_owner: John Coghlan
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: word translation for product
+  processing_customer_data: null
+  employee_or_customer_facing_app: Customer
+  notes: billing in vault
+  saas: null
+  handbook_link: "[How we use Crowdin](https://docs.gitlab.com/ee/development/i18n/translation.html)"
+  google_group: null
+
+- title: CultureAmp
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[360 Feedback](/handbook/people-group/360-feedback/) is completed
+    via CultureAmp. [CultureAmp](https://gitlab.cultureamp.com) is a tool that makes
+    it easy to collect, understand and act on team member feedback. It helps improve
+    engagement, the experience and effectiveness of every team member."
+  access_to: Team Members
+  provisioner: "@anechan"
+  deprovisioner: null
+  group_owner: People Ops
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Beverley Rufener
+  technical_owner: Anesia Chan
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Name, Age, Demographic, Location, Gender, Role, Tenure, Any opinions
+    and comments shared in survey
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: Culture Amp captures data that allows accurate reporting to observe trends
+    in survey data. This data includes geographic location, roles, name, gender, and
+    demographic.
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: customers.gitlab.com (SSH access only)
+  team_member_baseline_entitlement: null
+  subprocessor: false
+  description: null
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: customers.gitlab.com/subscription (Web access only)
+  team_member_baseline_entitlement: null
+  subprocessor: false
+  description: help customers manage subscriptions
+  access_to: null
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: Justin Farris, Tatyana Golubeva, Donique Smit
+  technical_owner: Jerome Ng, James Lopez, Chase Southard, Ragnar Hardarson 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-customerportal-users@gitlab.com
+
+- title: customers.stg.gitlab.com/
+  team_member_baseline_entitlement: null
+  subprocessor: null
+  description: stage for customers
+  access_to: null
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: Justin Farris, Tatyana Golubeva, Donique Smit
+  technical_owner: Jerome Ng, James Lopez, Chase Southard, Ragnar Hardarson
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Database Benchmarking Environment
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: The Database Benchmarking Environment is a testbed which provides the ability for GitLab to simulate database workloads that are similar to production traffic.
+  access_to: null
+  provisioner: N/A - Access is managed via Chef
+  deprovisioner: N/A - Access is managed via Chef
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: Steve Loyd, Gerardo Lopez-Fernandez
+  technical_owner: Jose Finotto
+  data_classification: Red
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: false
+  handbook_link: null
+  google_group: null
+
+- title: Demandbase
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: account based marketing platform with targeting and personalization
+  access_to: Account Based Marketing team
+  provisioner: "@gillmurphy"
+  deprovisioner: "@gillmurphy"
+  group_owner: Account Based Marketing
+  group_owner_slack_channel: "#abmteam"
+  business_owner: David Brown
+  technical_owner: Beth Peterson
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/account-based-marketing/demandbase/)"
+  google_group: okta-demandbase-users@gitlab.com
+
+- title: dev.gitlab.org
+  team_member_baseline_entitlement: null
+  subprocessor: null
+  description: "[GitLab Dev](/handbook/engineering/infrastructure/environments/) is one of GitLab's multiple environments."
+  access_to: Available by request
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Yellow
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Digital Ocean (GitLab B.V)
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[DigitalOcean](https://www.digitalocean.com/) is a cloud based solution."
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: true
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Digital Ocean (GitLab Dev)
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[DigitalOcean](https://www.digitalocean.com/) is a cloud based solution."
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: true
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Discourse
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Community discussion platform](https://forum.gitlab.com/) for community relations and support teams to collaborate and share knowledge with the wider community."
+  access_to: Community Relations Team
+  provisioner: "@dnsmichi"
+  deprovisioner: "@dnsmichi"
+  group_owner: Community Relations
+  group_owner_slack_channel: "#community-relations"
+  business_owner: Michael Friedrich
+  technical_owner: Michael Friedrich, Fatima Sarah Khalid
+  data_classification: Orange
+  integration_method: GitLab SSO
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: 'Email address and username (GitLab or Discourse), Timezone'
+  processing_customer_data: null
+  employee_or_customer_facing_app: 'Employee and customer'
+  notes: null
+  saas: null
+  handbook_link: "[How we use Discourse](https://about.gitlab.com/handbook/marketing/community-relations/community-operations/workflows/forum/#administration)"
+  google_group: null
+
+
+- title: Display & Video 360
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "Display & Video 360 is an end-to-end ad campaign management platform by Google."
+  access_to: "Marketing ops, Digital Marketing"
+  provisioner: "@ashleykramer"
+  deprovisioner: "@ashleykramer"
+  group_owner: Digital Marketing
+  group_owner_slack_channel: '#digital-marketing'
+  business_owner: Ashley Kramer
+  technical_owner: Mihai Conteanu
+  data_classification: Yellow
+  integration_method: other
+  need_move_to_okta: false
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: 'No personal data will be collected. Visitors will click through to the GitLab website and enter in their information on our owned forms via Marketo'
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Disqus
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Disqus](https://disqus.com/) is a blog comment hosting service for
+    web sites and online communities that use a networked platform."
+  access_to: Primary access granted to Community Relations team members 
+  provisioner: "@johncoghlan"
+  deprovisioner: "@johncoghlan"
+  group_owner: Community Relations
+  group_owner_slack_channel: '#community-relations'
+  business_owner: John Coghlan
+  technical_owner: John Coghlan, Michael Friedrich 
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[How we use Disqus](https://about.gitlab.com/handbook/marketing/community-relations/community-operations/tools/disqus)"
+  google_group: null
+
+- title: Docker Hub (Docker Desktop)
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Docker Hub](https://hub.docker.com/) is a service for sharing container images with public, and an authentication system for Docker Desktop application."
+  access_to: null
+  provisioner: '@marin; (Please add a label "infra::to do")'
+  deprovisioner: '@marin; (Please add a label "infra::to do")'
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: Marin Jankovski
+  technical_owner: Marin Jankovski
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: "[Docker Desktop license request](https://about.gitlab.com/handbook/tools-and-tips/mac/#docker-desktop)"
+  google_group: null
+
+- title: Docusign
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Docusign](https://www.docusign.com/) enables people to electronically
+    sign agreements."
+  access_to: null
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Business Technology
+  group_owner_slack_channel: '#business-technology'
+  business_owner: Bryan Wise
+  technical_owner: Wendy Lam
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: DocuSign is used to send employment agreements and contracts to
+    future team members. Personal information, such as addresses, contact information,
+    and compensation terms are listed; this information is not captured within DocuSign.
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Dovetail
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Analyze data and as a research repository.
+  access_to: UX Department (Product Designers and UX Researchers) and Product Department
+  provisioner: "@asmolinski2"
+  deprovisioner: "@asmolinski2"
+  group_owner: UX Research
+  group_owner_slack_channel: '#ux_research'
+  business_owner: Christie Lenneville
+  technical_owner: Christie Lenneville, Adam Smolinski
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Drift
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Drift](https://www.drift.com/) is a conversational marketing platform
+    (live chat tool). Additional information on best practices can be found in the
+    [Marketing Handbook](/handbook/marketing/marketing-operations/drift/#best-practices)."
+  access_to: Marketing OPS Sales Development Representatives; Access if defined w/in
+    baseline entitlement, no one outside of defined roles gets access
+  provisioner: "@BethPeterson"
+  deprovisioner: null
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: David Brown
+  technical_owner: Beth Peterson
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Conversations held with ppl on our website, email address associated
+    to chat
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/drift)"
+  google_group: okta-drift-users@gitlab.com
+
+- title: E*Trade (Equity Edge)
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Investment management platform used to grant equity compensation to GitLab Team Members
+  access_to: Stock Administration in Accounting Finance and Human Resources for managing equity compensation
+  provisioner: '@amberwiley,@rhark'
+  deprovisioner: '@amberwiley,@rhark'
+  group_owner: Stock Administration
+  group_owner_slack_channel: '#stock-admin'
+  business_owner: Amber Wiley
+  technical_owner: Amber Wiley, Sonia Guillory, Ramona Hark
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: null
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  external_link: null
+  google_group: null
+
+- title: EdCast
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: Provide structured, personalized learning experiences for GitLab team members, customers (including our community), and partners
+  access_to: Team Members, Customers, and Wider Community Members/Free Users
+  provisioner: Provisioning is automated for new team members. Access change requests for elevated access are completed by @jallen16 
+  deprovisioner: Deprovisioning is automated for offboarded team members. Access change requests for active team members who no longer require access are completed by @jallen16
+  group_owner: Learning and Development
+  group_owner_slack_channel: '#learninganddevelopment'
+  business_owner: Pattie Egan
+  technical_owner: Christopher Nelson
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee and Customer
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Elastic Cloud Indexing
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: "[Elastic Cloud](https://www.elastic.co/cloud/) is an [integration](https://docs.gitlab.com/ee/development/elasticsearch.html) service."
+  access_to: null
+  provisioner: google oauth
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Red
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Elastic Cloud Log Shipping
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: Troubleshooting and Auditing Applications and Systems
+  access_to: Access should be determined based on the log
+  provisioner: google oauth
+  deprovisioner: null
+  group_owner: Reliability
+  group_owner_slack_channel: "#production"
+  business_owner: Marin Jankovski 
+  technical_owner: Michal Wasilewski
+  data_classification: Orange
+  integration_method: Other
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: Variable
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Eventbrite
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Eventbrite](https://www.eventbrite.com/) is an event management and
+    ticketing software application."
+  access_to: Field Marketing Content Marketing Marketing Programs Marketing OPS; Access
+    to this system is limited to the Corporate marketing team.
+  provisioner: "@Lconway"
+  deprovisioner: "@Lconway"
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: Melissa Smolensky
+  technical_owner: Lauren Conway
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Event data & user data of registered attendees
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Expensify
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Expensify](https://www.expensify.com/) is the company travel and
+    expense management application. The platform provides employees a simple tool
+    to create expense reports, which can then be managed from approval workflow through
+    the final stage of reimbursement."
+  access_to: Access via GitLab credentials
+  provisioner: "@mbrown6"
+  deprovisioner: "@mbrown6"
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Misty Brown
+  technical_owner: Wendy Lam and Cristine Marquardt
+  data_classification: Orange
+  integration_method: SWA/SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Fastly CDN
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Fastly](https://www.fastly.com/) business purpose if used for CDN for production."
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: N/A
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Figma
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: UI, web, and brand design
+  access_to: UX and Digital teams
+  provisioner: "@tauriedavis (UX) @mpreuss22 (Digital) @jburton (MktgOps)"
+  deprovisioner: "@tauriedavis (UX) @mpreuss22 (Digital) @jburton (MktgOps)"
+  group_owner: UX and Digital Experience
+  group_owner_slack_channel: '#figma'
+  business_owner: Christie Lenneville and Michael Preuss
+  technical_owner: Taurie Davis, Jeremy Elder, Michael Preuss, Jameson Burton 
+  data_classification: Green
+  integration_method: Other (email + password)
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Fivetran
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Data loader primarily for Netsuite data
+  access_to: Data Team
+  provisioner: "@dvanrooijen2"
+  deprovisioner: "@dvanrooijen2"
+  group_owner: Data Team
+  group_owner_slack_channel: '#data'
+  business_owner: Rob Parker
+  technical_owner: Dennis van Rooijen
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: SOX
+  collected_data: None
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-fivetran-users@gitlab.com
+
+- title: FloQast
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Help facilitate the month end close process for the Accounting team,
+    including a month-end close checklist and account reconciliations
+  access_to: Finance and Accounting teams
+  provisioner: "@edelongpre"
+  deprovisioner: "@edelongpre"
+  group_owner: Accounting team
+  group_owner_slack_channel: '#finance'
+  business_owner: Erica de Longpre
+  technical_owner: Erica de Longpre 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-floqast-users@gitlab.com
+
+- title: Frame
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Digital Production, Video Review and Collaboration Software
+  access_to: Digital Production, Marketing Operations
+  provisioner: "@atflowers (Digital Production)"
+  deprovisioner: "@atflowers (Digital Production)"
+  group_owner: Digital Production
+  group_owner_slack_channel: '#digital_production'
+  business_owner: Aricka Flowers
+  technical_owner: Mihai Conteanu
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: false
+  employee_or_customer_facing_app: null 
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Google Data Studio
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Google Data Studio](https://datastudio.google.com/ is Google's data visualization solution."
+  access_to: Team Members
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: Automatically deprovisioned through Google Workspace
+  group_owner: Data
+  group_owner_slack_channel: '#data'
+  business_owner: Data Platform
+  technical_owner: IT Operations
+  data_classification: Red
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: "[Google Data Studio Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/#google-data-studio)"
+  google_group: null
+
+- title: Google Workspace
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Google Workspace](https://workspace.google.com/) is Google's brand of software and products."
+  access_to: Team Members
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: IT Ops
+  group_owner_slack_channel: '#it_help'
+  business_owner: IT Operations
+  technical_owner: IT Operations
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Gainsight
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Gainsight](https://gainsight.com/) Gainsight transforms data points
+    into actionable insights for customer success, helping you increase retention,
+    expand revenue, and scale operations."
+  access_to: 'Customer Success: Technical Account Managers, Field Ops: Customer Success
+    Enablement, Field Ops: SalesSystems, and FieldOps: CS Operations'
+  provisioner: "@jdbeaumont @cankney @emcinerney"
+  deprovisioner: "@cankney @emcinerney"
+  group_owner: Customer Success Operations
+  group_owner_slack_channel: '#sales-support'
+  business_owner: David Sakamoto
+  technical_owner: Jeff Beaumont
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: Gainsight is the post-sales tool for TAMs to manage the customer's
+    lifecycle and pull in data from Salesforce, Zendesk tickets, and usage ping/snowplow
+    data.
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-gainsight-users@gitlab.com
+
+- title: Geekbot
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Geekbot](https://geekbot.com//) automate standups, surveys, and daily reports"
+  access_to: 'Team members, multiple departments (Marketing, Product, Engineering, Business Technology, others)'
+  provisioner: Self service through Geekbot Slack application
+  deprovisioner: Deprovisioned with Slack
+  group_owner: Business Technology
+  group_owner_slack_channel: '#it-help'
+  business_owner: Peter Kaldis
+  technical_owner: Team Member Enablement
+  data_classification: Yellow
+  integration_method: Slack
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Google Cloud Platform for Security Department Resources
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: Google Cloud Platform for Security Department Resources
+  access_to: Security
+  provisioner: "@joe-dub"
+  deprovisioner: null
+  group_owner: Security Department
+  group_owner_slack_channel: '#security-department'
+  business_owner: Johnathan Hunt
+  technical_owner: Joe Dubail
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: GitLab
+  team_member_baseline_entitlement: true
+  subprocessor: null
+  description: "[GitLab](https://gitlab.com) is a single application for the entire software development
+    lifecycle."
+  access_to: Team Members
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Red
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: GitLab Demo Systems
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: The GitLab Demo Systems provide infrastructure for the GitLab Customer
+    Success, Marketing, Sales, and Training teams to demonstrate GitLab features,
+    value propositions, and workflows in a variety of asynchronous and live capacities.
+  access_to: This environment is designed for Customer Success team members,
+    however all GitLab organization team members are welcome to use our environment.
+  provisioner: User self-service Okta sign in at gitlabdemo.cloud
+  deprovisioner: "@jeffersonmartin"
+  group_owner: BT Infrastructure
+  group_owner_slack_channel: '#demo-systems'
+  business_owner: Jeff Martin, Peter Kaldis
+  technical_owner: Jeff Martin, Dillon Wheeler
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: GitLab.com Prod/staging rails and db console (ssh)
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: null
+  access_to: Infrastructure Development Dept Everyone can request
+  provisioner: "@marin @dawsmith Three different access levels can be provisioned - 1. GitLab.com Prod read-only rails/db console (ssh) 2. GitLab.com Prod read/write rails/db console (ssh) 3. GitLab.com Staging rails/db console (ssh)"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Red
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Google Adwords
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Google Ads](/handbook/marketing/demand-generation/digital-marketing/digital-marketing-management/) provides data from Google, but the ranges are broad and terms can be combined into a single phrase."
+  access_to: Marketing OPS Online Marketing Product Marketing Content Marketing Marketing
+    Programs; Only access granted to DMP team defined w/in baseline entitlement
+  provisioner: "@jburton"
+  deprovisioner: "@jburton"
+  group_owner: Marketing Ops
+  group_owner_slack_channel: '#marketing'
+  business_owner: Ashley Kramer
+  technical_owner: Ashley Kramer
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Google Analytics
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Google Analytics](https://www.google.com/analytics/) captures all
+    the analytics for GitLab pages outside of the actual app on https://gitlab.com."
+  access_to: Marketing OPS Online Marketing Product Marketing; Defined w/in baseline
+    entitlements, limited access can be requested by nearly anyone w/in GitLab but
+    still handled on case by case basis if not part of entitlement
+  provisioner: "@jburton"
+  deprovisioner: null
+  group_owner: Marketing Ops
+  group_owner_slack_channel: '#marketing'
+  business_owner: Michael Preuss
+  technical_owner: Michael Preuss
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Google Cloud Platform
+  team_member_baseline_entitlement: false
+  subprocessor: true
+  description: 'Additonal information on how GitLab utilizes [Google Cloud Platform](https://cloud.google.com/)
+    can be found [here](/partners/technology-partners/google-cloud-platform/).'
+  access_to: null
+  provisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
+  deprovisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
+  group_owner: BT Infrastructure, Eng Infrastructure
+  group_owner_slack_channel: '#infra-access-requests'
+  business_owner: Peter Kaldis, Jeff Martin, David Smith, Marin Jankovski 
+  technical_owner: Jeff Martin, Dillon Wheeler, David Smith, Marin Jankovski 
+  data_classification: Red
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: SOC2
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Google Search Console
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Google Search Console](https://search.google.com/search-console/about)
+    tracks and reports GitLab's site traffice and performance."
+  access_to: Marketing Operations, Digital Marketing, Inbound Marketing, Infrastructure; Limited access is granted
+    to this system, defined w/in baseline entitlements
+  provisioner: "@jburton"
+  deprovisioner: "@jburton"
+  group_owner: Marketing Operations 
+  group_owner_slack_channel: '#mktgops'
+  business_owner: Michael Preuss
+  technical_owner: Jameson Burton
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Google Tag Manager
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Google Tag Manager](https://www.google.com/analytics/tag-manager/)
+    is used to manage the firing of the different JavaScript tags we deploy on our
+    website. All marketing tags should be deployed through Google Tag Manager except
+    in cases such as A/B testing software."
+  access_to: Online Marketing; Only members of the digital marketing team get access
+    to this system as defined by baseline entitlements
+  provisioner: "@jburton"
+  deprovisioner: null
+  group_owner: Marketing Ops
+  group_owner_slack_channel: '#marketing'
+  business_owner: Michael Preuss
+  technical_owner: Michael Preuss
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: GovWin IQ
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[GovWin IQ](https://iq.govwin.com/login/loginPage.cfm?) is a prospecting
+    and enrichment application."
+  access_to: Sales-Federal
+  provisioner: "@bcaldwell-gitlab"
+  deprovisioner: "@bcaldwell-gitlab"
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: Brent Caldwell
+  technical_owner: Brent Caldwell
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Grafana (dashboards.gitlab.net)
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "GitLab Dashboard"
+  access_to: null
+  provisioner: 'authorized via google oauth for view, creating dashboards @marin  @dawsmith'
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Greenhouse
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Greenhouse](http://www.greenhouse.io/) is GitLab's ATS (Applicant
+    Tracking System). All hiring managers and interviewers will use Greenhouse to
+    review resumes, provide feedback, communicate with candidates, and more. Please
+    refer to the [hiring handbook](/handbook/hiring/greenhouse/) for additional information."
+  access_to: Team Members
+  provisioner: "@MarissaFerber"
+  deprovisioner: "@MarissaFerber"
+  group_owner: Recruiting Operations
+  group_owner_slack_channel: null
+  business_owner: Marissa Ferber
+  technical_owner: Pattie Egan
+  data_classification: Orange
+  integration_method: SWA/SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: HackerOne
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[HackerOne](https://www.hackerone.com/) is GitLab's Bug Reports and
+    Bug Bounty Site."
+  access_to: Security
+  provisioner: "@ankelly @dcouture"
+  deprovisioner: null
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: James Ritchey
+  technical_owner: Dominic Couture, Andrew Kelly
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+
+- title: Highspot
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Highspot](https://www.highspot.com/) is a sales asset management platform that makes it easier for GTM team members to discover and access relevant content when needed."
+  access_to:
+  provisioner: "monicaj"
+  deprovisioner: null
+  group_owner_slack_channel: null
+  business_owner: Monica Gomez
+  technical_owner: Monica Gomez
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: null
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: iconik
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Media asset management system and digital production workflows
+  access_to: Marketing Operations, Digital Production
+  provisioner: "@atflowers"
+  deprovisioner: "@atflowers"
+  group_owner_slack_channel: '#mktgops'
+  business_owner: Aricka Flowers
+  technical_owner: Nikki Roth
+  data_classification: Yellow
+  integration_method: Individual email/password login
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/iconik)"
+  google_group: null
+
+- title: IMPartner
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "This system enables partners to register and track deals, take training and easily access partner specific resources."
+  access_to: "Channels, Alliances, Channel Operations, Partner Marketing"
+  provisioner: "@ecepulis @KJaeger"
+  deprovisioner: "@ecepulis @KJaeger"
+  group_owner: Channels
+  group_owner_slack_channel: '#channel-programs'
+  business_owner: 'Ed Cepulis'
+  technical_owner: 'Jack Brennan'
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Partners
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Jamf Pro
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Jamf Pro](https://www.jamf.com/products/jamf-pro/) Is an Apple device management solution used by Gitlab IT to configure and automate IT administration tasks for macOS devices. Please refer to the [Endpoint Management Handbook page](/handbook/business-ops/team-member-enablement/onboarding-access-requests/endpoint-management/) for additional information."
+  access_to: Team Members
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: IT Operations
+  group_owner: IT Ops
+  group_owner_slack_channel: '#it_help'
+  business_owner: IT Operations
+  technical_owner: IT Operations
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: JetBrains
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[JetBrains](https://www.jetbrains.com/) provides development IDEs for our engineering teams."
+  access_to: Engineering
+  provisioner: "@leipert @samdbeckham"
+  deprovisioner: "@leipert @samdbeckham"
+  group_owner: Engineering
+  group_owner_slack_channel: "#eng-managers"
+  business_owner: Lukas Eipert
+  technical_owner: Lukas Eipert
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: Employee name and email address
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: For provisioning questions, reach out to Lukas directly. If Lukas is unavailable, reach out to Sam.
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Keyhole
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Keyhole](https://keyhole.co/) is a social listening, influencer marketing, and campaign tracking tool."
+  access_to: Developer Evangelists, All-Remote team
+  provisioner: "@gillmurphy"
+  deprovisioner: "@gillmurphy"
+  group_owner: Marketing Operations, Developer Evangelism
+  group_owner_slack_channel: '#mktgops'
+  business_owner: David Brown
+  technical_owner: Gillian Murphy
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Kibana
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: "[Kibana](https://www.elastic.co/kibana) is an open source data visualization dashboard for Elasticsearch."
+  access_to: null
+  provisioner: google oauth
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Red
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: LaunchDarkly
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: AB Testing and feature flags
+  access_to: Brand and Digital
+  provisioner: "@jburton"
+  deprovisioner: "@jburton"
+  group_owner: Brand and Digital
+  group_owner_slack_channel: '#marketing-brand-and-digital'
+  business_owner: Michael Preuss
+  technical_owner: Michael Preuss
+  data_classification: Green
+  integration_method: Other (website)
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: emplyoyee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: LawLogix
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: I-9 Completion and Data Retention
+  access_to: People Operations/People Experience
+  provisioner: "@gl-people-exp"
+  deprovisioner: "@gl-people-exp"
+  group_owner: People Experience Team
+  group_owner_slack_channel: "#people-connect"
+  business_owner: People Experience Team
+  technical_owner: Alex Venter, Ashley Jones, Emily Mowry
+  data_classification: Orange
+  integration_method: Email and Password login
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Lean Data
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "When a lead is created in Salesforce, [LeanData](https://www.leandatainc.com/) will be the tool that routes it to the appropriate user. Routing rules include sales segmentation, region, lead source, and owned accounts. For example, if a lead from a named account is created, it will be routed directly to the owner of the named account. Also, LeanData provide cross-object visibility between leads and accounts and contacts. When in an account record, a user can view 'matched' leads by company name, email domain, and other"
+  access_to: Marketing OPS Sales OPS; Access is not given to this system
+  provisioner: not provisioned
+  deprovisioner: Access is revoked once Salesforce access has been removed
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: Beth Peterson
+  technical_owner: Beth Peterson
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: SFDC account data, email addresses of routed records, GitLab user
+    details
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/leandata)"
+  google_group: null
+
+- title: license (test licenses)
+  team_member_baseline_entitlement: null
+  subprocessor: null
+  description: To be able to run your own instances for development you can clone customers-app and generate your own licenses
+  access_to: 'anyone with dev access'
+  provisioner: follow instructions
+  deprovisioner: null
+  group_owner: Fulfillment
+  group_owner_slack_channel: "#fulfillment"
+  business_owner: null
+  technical_owner: James Lopez
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Linkedin Learning
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[LinkedIn Learning](https://learning.linkedin.com/for-entire-companies) is a platform for finding and consuming learning content."
+  access_to: null
+  provisioner: "@jallen16 Please follow the instructions [here](https://about.gitlab.com/handbook/people-group/learning-and-development/linkedin-learning/#provisioning-access)"
+  deprovisioner: "@jallen16"
+  group_owner: Learning & Development
+  group_owner_slack_channel: null
+  business_owner: Pattie Egan
+  technical_owner: Pattie Egan
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Linkedin Recruiter
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[LinkedIn Recruiter](https://business.linkedin.com/talent-solutions/recruiter) is a platform for finding, connecting with, and managing candidates."
+  access_to: null
+  provisioner: "@cchiodo Please follow the instructions [here](https://about.gitlab.com/handbook/hiring/sourcing/#upgrading-your-linkedin-account)"
+  deprovisioner: "@cchiodo"
+  group_owner: Talent Brand
+  group_owner_slack_channel: null
+  business_owner: Pattie Egan
+  technical_owner: Pattie Egan
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: LinkedIn Sales Insights
+  team_member_baseline_entitlement: false
+  subprocessor: false  
+  description: "[LinkedIn Sales Insights](https://business.linkedin.com/sales-solutions/sales-insights) provides access to LinkedIn data and insights at scale, giving sales operations the clarity they need to do smarter sales planning."
+  access_to: Sales Strategy & Analytics, Sales Leadership
+  provisioner: "@kbetances"
+  deprovisioner: "@kbetances"
+  group_owner_slack_channel: null
+  business_owner: Lindsay Schoenfeld
+  technical_owner: Amber Stahn and Kathleen Rintelman-Betances
+  data_classification: Orange
+  integration_method: SAML 
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: LinkedIn Sales Navigator
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[LinkedIn Sales Navigator](https://www.linkedin.com/sales/login) is
+    a prospecting tool & extended reach into LinkedIn Connections."
+  access_to: Sales Leadership Account Executives Account Managers Outbound SDR Commercial
+    SDR; Access is defined by baseline entitlement and limited to Sales & SDR positions
+  provisioner: "@emathis"
+  deprovisioner: "@emathis"
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: David Brown
+  technical_owner: Evan Mathis
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Linux Foundation Training
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Linux Foundation licenses for GitLab Team members](https://about.gitlab.com/handbook/people-group/learning-and-development/self-paced-learning/#linux-foundation-courses) offer self paced courses and certifications from the Linux Foundation"
+  access_to: Training Portal License
+  provisioner: "@jallen16"
+  deprovisioner: "@jallen16"
+  group_owner: People
+  group_owner_slack_channel: '#learninganddevelopment'
+  business_owner: Satu Salminen
+  technical_owner: Jamie Allen
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: null
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  external_link: https://training.linuxfoundation.org/full-catalog/
+  google_group: null
+
+- title: Litmus
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Email marketing (build, test, and analyze campaigns)
+  access_to: Marketing Ops, Marketing Programs and some other users from other teams
+    (such as front end engineers)
+  provisioner: "@amy.waller"
+  deprovisioner: "@amy.waller"
+  group_owner: Marketing Ops
+  group_owner_slack_channel: '#mktgops'
+  business_owner: Amy Waller
+  technical_owner: Amy Waller
+  data_classification: Yellow
+  integration_method: 'Individual access provisioned.'
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/litmus)"
+  google_group: null
+
+- title: LogRocket
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[LogRocket](https://logrocket.com/)
+    combines session replay, performance monitoring, and product analytics – empowering software teams to create the ideal product experience"
+  access_to: Online Marketing; Only members of the digital marketing team get access
+    to this system as defined by baseline entitlements
+  provisioner: "@jburton"
+  deprovisioner: "@jburton"
+  group_owner: Digital Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: Michael Preuss
+  technical_owner: Jameson Burton
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: true
+  handbook_link: null
+  google_group: null
+
+- title: Loom
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Video recording and sharing. 
+  access_to: Team members
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: Team Member Enablement
+  group_owner: ''
+  group_owner_slack_channel: '#it-help'
+  business_owner: IT Operations
+  technical_owner: IT Operations
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: LucidChart
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: diagrams
+  access_to: null
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: IT Operations
+  group_owner_slack_channel: "#it-help"
+  business_owner: IT Operations
+  technical_owner: IT Operations
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: Current provisioning is by signing up with work email via lucidchart website
+    and if you go over your chart limit request to be added to team via the interface
+    prompts
+  saas: null
+  handbook_link: null
+  google_group: okta-lucidchart-users@gitlab.com
+
+- title: MailChimp
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[MailChimp](https://mailchimp.com/) is an email send platform."
+  access_to: Channel Marketing; Those who communicate with our partners and channel
+  provisioner: "@KJaeger"
+  deprovisioner: "@KJaeger"
+  group_owner: Channel Marketing
+  group_owner_slack_channel: '#channel-marketing'
+  business_owner: Kim Jaegar
+  technical_owner: Kim Jaeger 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: MailJet
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[MailJet](https://www.mailjet.com/) is an email platform designed for large scale email sends."
+  access_to: Marketing Operations
+  provisioner: "@amy.waller"
+  deprovisioner: "@amy.waller"
+  group_owner: Marketing Operations
+  group_owner_slack_channel: '#mktgops'
+  business_owner: David Brown
+  technical_owner: Amy Waller
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: MailGun
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[MailGun](https://www.mailgun.com/) is an email API."
+  access_to: Marketing Ops
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: Marin Jankovski
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Red
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Marketo
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Marketo](https://www.marketo.com/) is our marketing automation platform
+    managed by our Marketing Operations team. Anyone who signs up for a trial, requests contact
+    from GitLab, attends a webinar or trade show, or engages in any other marketing
+    activity, will end up in Marketo. These prospects will receive scores based on
+    their level of engagement and these scores will be used by the Business Developement
+    Representatives and Account Executives to prioritize which prospects to follow
+    up with. Marketo is also our primary tool for delivering marketing communication
+    to prospects and customers."
+  access_to: Marketing OPS; Access to this system is limited to select functional
+    groups in Marketing, set in baseline entitlements
+  provisioner: "@jburton"
+  deprovisioner: "@jburton"
+  group_owner: Marketing Operations
+  group_owner_slack_channel: '#mktgops'
+  business_owner: David Brown
+  technical_owner: Amy Waller
+  data_classification: Orange
+  integration_method: SWA/SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: null
+  collected_data: name, title, company, phone numbers, email address, address
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/marketo)"
+  google_group: null
+
+- title: Mavenlink
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Mavenlink](https://www.mavenlink.com/) is a project management software used to track Track Professional Services project metrics, time cards,scheduling, skills matrix, billing and revenue recognition."
+  access_to: Professional Services team
+  provisioner: "@dfarnsworth04 @jdbeaumont"
+  deprovisioner: "@dfarnsworth04 @jdbeaumont"
+  group_owner: Professional Services
+  group_owner_slack_channel: '#Professional'
+  business_owner: Michael Lutz
+  technical_owner: Donita Farnsworth
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Meetup
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Meetup](https://www.meetup.com/)is an event management platform."
+  access_to: Marketing OPS only John gets access
+  provisioner: not provisioned
+  deprovisioner: "@johncoghlan"
+  group_owner: Community Relations
+  group_owner_slack_channel: '#community-relations'
+  business_owner: John Coghlan
+  technical_owner: John Coghlan
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[How we use Meetup.com](https://about.gitlab.com/handbook/marketing/community-relations/evangelist-program/#meetups)"
+  google_group: null
+
+- title: Microsoft Teams
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "Microsoft Teams is an online meeting application. GitLab primarily utilizes Zoom but Teams [is available for individuals](/handbook/tools-and-tips/other-apps/#webex) who have external customers that can't use Zoom for various reasons."
+  access_to: Marketing OPS Public Sector; Highly limited access to this system
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: IT Ops
+  group_owner_slack_channel: '#it_help'
+  business_owner: Peter Kaldis
+  technical_owner: Marc DiSabatino
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+  
+- title: Modern Health
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Modern Health](https://www.joinmodernhealth.com/) is an Employee
+    Assistance Program offered to all team members."
+  access_to: Team Members
+  provisioner: "@brittanyr"
+  deprovisioner: null
+  group_owner: Total Rewards
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Brittany Rhode
+  technical_owner: Brittany Rhode
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: false
+  handbook_link: null
+  google_group: null
+
+- title: Moo
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Moo](https://www.moo.com/us/) is the system GitLab uses to place
+    business cards."
+  access_to: Team Members
+  provisioner: "@alex_venter, @asjones, @Mowry"
+  deprovisioner: "@alex_venter, @asjones, @Mowry"
+  group_owner: People Ops
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Pattie Egan
+  technical_owner: Beverley Rufener
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Mural
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Mural](https://mural.co/) is a visual collaboration tool."
+  access_to: UX, PM, and Engineers
+  provisioner: "@clenneville"
+  deprovisioner: null
+  group_owner: UX
+  group_owner_slack_channel: '#ux'
+  business_owner: Christie Lenneville
+  technical_owner: N/A
+  data_classification: Green
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: name and email
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Navex Global
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Navex](https://gitlab.lms.navexglobal.com/topclass5/login.do?partition=gitlab&lang=0) is an all-in-one risk and compliance management system. GitLab uses Navex as an LMS to provide training to employees and as a comprehensive and [confidential reporting tool](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) to provide an anonymous hotline for all team members."
+  access_to: Team Members
+  provisioner: '@ktesh''@rnalen'
+  deprovisioner: '@ktesh''@rnalen'
+  group_owner: Legal
+  group_owner_slack_channel: '#compliance-training'
+  business_owner: Robin Schulman
+  technical_owner: Taharah Nix
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: name, email, job title, country
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Netsuite
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: '[NetSuite](http://www.netsuite.com/portal/home.shtml?noredirect=T) is the company Enterprise Resource Planning (ERP) system, which is primarily managed by the Finance team. The platform allows enhanced dimensional reporting as well as multi-currency and multi-entity reporting. This is where the General Ledger resides and all financial activity is ultimately recorded, which is critical to reporting the financial health of the company.'
+  access_to: Finance Team
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Erica de Longpre
+  technical_owner: Wendy Lam
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-netsuite-users@gitlab.com
+
+- title: Nira
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Nira is a real-time access control system that provides visibility and managament over who has access to company documents in Google Workspace.
+  access_to: IT Security, SIRT, IT
+  provisioner: Assign to @adamhuss, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT Security::Needs Review' 
+  deprovisioner: "@adamhuss"
+  group_owner_slack_channel: "#it-help"
+  business_owner: "@adamhuss"
+  technical_owner: "@adamhuss"
+  data_classification: Yellow
+  integration_method: SSO with Google
+  need_move_to_okta: null
+  critical_systems_tier: null
+  compliance_scope: null
+  collected_data: email, document titles, share permissions
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: Access to this tool is limited to IT Security, SIRT, and IT Help Desk
+  saas: true
+  handbook_link: null
+  google_group:
+
+- title: Nordlayer
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: NordLayer is our supported VPN (Virtual Private Network) platform for GitLab Team Members. 
+  access_to: Gitlab Team Members by Request via Access Request Issue. Please add "IT Security Needs Review" label ~"IT Security::Needs Review"
+  provisioner: '@adamhuss'
+  deprovisioner: '@adamhuss'
+  group_owner: IT Security
+  group_owner_slack_channel: '#it_compliance_security_help'
+  business_owner: Rob Rea
+  technical_owner: Adam Huss
+  data_classification: Green
+  integration_method: Google SSO 
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: null
+  handbook_link: https://about.gitlab.com/handbook/business-technology/it-compliance/tools/NordLayer/nordlayer.html
+  google_group: null
+
+- title: Platypus (formerly Nexus)
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: "Platypus is a custom built in-house integrations platform written with nestjs and node.js. It is a central
+    hub where integrations APIs and automations can be run."
+  access_to: Enterprise Applications Integrations
+  provisioner: '@dparker, @karuna16'
+  deprovisioner: '@dparker, @karuna16'
+  group_owner: Enterprise Applications Integrations
+  group_owner_slack_channel: '#bt-integrations'
+  business_owner: Christopher Nelson
+  technical_owner: Daniel Parker
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: This is a custom built application
+  saas: false
+  handbook_link: "[Platypus Tech Guide[(https://about.gitlab.com/handbook/business-technology/enterprise-applications/integrations/platypus/)"
+  google_group: null
+
+- title: Prelude
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Prelude](https://prelude.co) is an tool that automates and simplifies the process of scheduling interviews. The two products in use are Bookings (1:1 interviews) and Loops (team interviews)."
+  access_to: Candidate Experience Specialists
+  provisioner: "@MarissaFerber"
+  deprovisioner: "@MarissaFerber"
+  group_owner: Recruiting Operations
+  group_owner_slack_channel: '#talent-acquisition'
+  business_owner: Pattie Egan, Marissa Ferber
+  technical_owner: Pattie Egan, Marissa Ferber
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: 'Employee'
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Okta
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Okta](/handbook/business-ops/okta/) is an Identity and Single Sign
+    On solution for applications and Cloud entities. It allows GitLab to consolidate
+    authentication and authorisation to Applications we use daily through a single
+    dashboard and ensure a consistent, secure and auditable login experience for all
+    our staff."
+  access_to: GitLab Team Members
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: IT Ops
+  group_owner_slack_channel: '#it_help'
+  business_owner: IT Operations
+  technical_owner: IT Operations
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOC2
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: OneTrust
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[OneTrust](/handbook/marketing/marketing-operations/onetrust/) is privacy, security, and data governance software that marketing uses as our privacy and compliance solution on our websites. The marketing operations team works closely with our legal team and is primarily responsible for our privacy and compliance on our websites including cookie preferences."
+  access_to: null
+  provisioner: "@jburton"
+  deprovisioner: "@jburton"
+  group_owner: Marketing Ops
+  group_owner_slack_channel: '#mktgops'
+  business_owner: Jameson Burton, Michael Preuss
+  technical_owner: Jameson Burton
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: true
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: false
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/onetrust)"
+  google_group: null
+
+- title: ops.gitlab.net
+  team_member_baseline_entitlement: null
+  subprocessor: null
+  description: null
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Product
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Optimal Workshop offboarding
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: '[Optimal Workshop](https://www.optimalworkshop.com/) is a user research platform.'
+  access_to: UX
+  provisioner: "@clenneville"
+  deprovisioner: null
+  group_owner: UX
+  group_owner_slack_channel: '#ux'
+  business_owner: Christie Lenneville
+  technical_owner: Adam Smolinski
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: O'Reilly Platform
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: O'Reilly Platform provides technical learning content in a variety of formats.
+  access_to: sales-cs
+  provisioner: "@jfullam @kreykrey" 
+  deprovisioner: "@jfullam @kreykrey"
+  group_owner: 'sales-cs'
+  group_owner_slack_channel: '#customer-success'
+  business_owner: "@kreykrey"
+  technical_owner: "@jfullam @kreykrey"
+  data_classification: Orange
+  integration_method:
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: First Name, Last Name, Email address, and IP address
+  processing_customer_data: null
+  employee_or_customer_facing_app:
+  notes: null
+  saas: true
+  handbook_link: null
+  google_group: null
+
+- title: OSQuery
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "OSQuery is an open source operating system instrumentation framework, providing an agent able to collect data from the underlying operating system and to expose such data as a high-performance relational database. This allows to write SQL queries to explore operating system data. With osquery, SQL tables represent abstract concepts such as running processes, loaded kernel modules, open network connections, browser plugins, hardware events or file hashes. Each host also runs a Flutend agent that uses OSQuery to get relevant data and forwards it to our SIEM (Panther)."
+  access_to: null
+  provisioner: "N/A - Access is not provisioned directly to OSQuery"
+  deprovisioner: "N/A - Access is not provisioned directly to OSQuery"
+  group_owner_slack_channel: "#security-infrasec"
+  business_owner: "@joe-dub @JohnathanHunt"
+  technical_owner: "@gitlab-com/gl-security/security-operations/infrastructure-security"
+  data_classification: "N/A - OSQuery does not store any data"
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: TBD
+  collected_data: Operating system information such as running processes, loaded kernel modules, open network connections, browser plugins, hardware events or file hashes.
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Outreach.io
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Outreach.io](https://www.outreach.io/) is a tool used to automate
+    emails in the form of sequences. Users can track open rates, click through rates,
+    response rates for various templates and update sequences based on these metrics.
+    Outreach.io also helps to track sales activities such as calls. All emails/calls/tasks
+    that are made through Outreach.io are automatically logged in Salesforce with
+    a corresponding disposition. See below for a list of current call dispositions,
+    what they mean and scenarios on when to use each of them."
+  access_to: Account Executives Account Managers Outbound SDR Commercial SDR; Access
+    is defined by baseline entitlement and limited to Sales & SDR positions
+  provisioner: "@gillmurphy"
+  deprovisioner: "@gillmurphy"
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: David Brown
+  technical_owner: Gillian Murphy
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Email address, phone number, person names, call logs, anything that
+    is in SFDC is in Outreach
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/outreach)"
+  google_group: okta-outreach-users@gitlab.com
+
+- title: OwnBackup
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[OwnBackup](https://www.ownbackup.com/) is a SalesForce backup tool.
+    We use it to take backups of both data and metadata nightly for the production
+    instance of Salesforce."
+  access_to: Sales Systems
+  provisioner: "@msnow1"
+  deprovisioner: null
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: Jack Brennan
+  technical_owner: Michael Snow
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Periodic snapshot of entire SalesForce (SFDC) database
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: PackageCloud
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: "[PackageCloud](https://packages.gitlab.com/)"
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: PagerDuty
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[PagerDuty](https://gitlab.pagerduty.com/sign_in) is an Operational
+    Alerting Tool. We use PagerDuty to set the on-call schedules, and to route notifications
+    to the correct on-call hero."
+  access_to: Infrastructure Customer Support Security
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: ''
+  group_owner: IT Ops
+  group_owner_slack_channel: '#it_help'
+  business_owner: Peter Kaldis
+  technical_owner: Team Member Enablement (IT)
+  data_classification: Yellow
+  integration_method: SAML
+  need_move_to_okta: true
+  critical_systems_tier: Tier 2 / Support
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Panther
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Panther](https://runpanther.io/) is the Security Incident and Event Monitoring (SIEM) tool used by the Security Incident Response Team (SIRT) for detecting and alerting on security events."
+  access_to: SIRT
+  provisioner: "@vmairet"
+  deprovisioner: "@vmairet"
+  group_owner: Security
+  group_owner_slack_channel: '#security-department'
+  business_owner: Johnathan Hunt
+  technical_owner: Valentine Mairet
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOC2
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: PathFactory
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[PathFactory](https://www.pathfactory.com/) is used create content
+    tracks and micro-personalized website recommendations."
+  access_to: Marketing Operations; Direct access to this system is limited to specific functional
+    groups w/in Marketing, defined in baseline entitlements
+  provisioner: "@Nikkitoth"
+  deprovisioner: "@Nikkiroth"
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: Nikki Roth
+  technical_owner: Nikki Roth
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/pathfactory)"
+  google_group: null
+
+
+- title: Postgres.ai
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Postgres.ai](https://postgres.ai/) brings continuous integration to full-size databases drastically improving the quality of software development and testing. The Database Lab Engine, developed by Postgres.ai, is an open-source platform to create instant, full-size clones of your production database. Use these clones to test your database migrations, optimize SQL, or deploy full-size staging apps."
+  access_to: Any engineers at Gitlab with Database replica access
+  provisioner: '@alexives'
+  deprovisioner: '@alexives'
+  group_owner_slack_channel: '#postgres-ai-gitlab'
+  business_owner: Alex ives
+  technical_owner: Alex Ives
+  data_classification: null
+  integration_method: OATH
+  need_move_to_okta: null
+  critical_systems_tier: TBD
+  compliance_scope: none
+  collected_data: Email address for authentication
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: true
+  handbook_link: null
+  google_group: null
+
+- title: Postman
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Postman](https://postman.com) is a tool which allows developers to test API requests during development as well as writing automated tests against APIs."
+  access_to: Any engineers at Gitlab
+  provisioner: '@dparker'
+  deprovisioner: '@dparker'
+  group_owner_slack_channel: '#bt-integrations'
+  business_owner: Bryan Wise
+  technical_owner: Daniel Parker
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: Potentially API credentials and API responses
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: true
+  handbook_link: null
+  google_group: null
+
+- title: Printfection
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Printfection](https://www.printfection.com/) is a swag management platform that simplifies the buying, managing, and distribution of swag and branded merchandise. GitLab uses is to send and store swag."
+  access_to: Corporate marketing, field marketing, brand/design, accounting, people ops, community - but entitlements depend on department and access level needed.
+  provisioner: "@suripatel"
+  deprovisioner: "@suripatel"
+  group_owner: Corporate Events
+  group_owner_slack_channel: '#swag'
+  business_owner: Suri Patel
+  technical_owner: Suri Patel
+  data_classification: Orange
+  integration_method: Email and password
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: ProofPoint  
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[ProofPoint](https://www.proofpoint.com/us) is our security training and phishing simulation platform. It will allow the creation and distribution of security trainings and simulated phishing emails to a subset team members of the GitLab organization to provide ongoing testing for adherence of various compliance frameworks."
+  access_to: Security Governance
+  provisioner: '@rcshah, @julia.lake'
+  deprovisioner: '@rcshah, @julia.lake'
+  group_owner: Security Assurance
+  group_owner_slack_channel: '#sec-assurance'
+  business_owner: Julia Lake
+  technical_owner: Rupal Shah
+  data_classification: Orange
+  integration_method: Okta
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / non-critical
+  compliance_scope: null
+  collected_data: GitLab team member name and email address
+  processing_customer_data: false
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: true
+  handbook_link: null
+  google_group: null
+
+- title: PTO by Roots / Treehoppr
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "Leave administration tool i.e. request, track, approve and analyze time off."
+  access_to: GitLab Team Members, @gl-people-exp team for admin access
+  provisioner: '@gl-people-exp (provisioning integrated with BambooHR and Slack)'
+  deprovisioner: '@gl-people-exp (deprovisioning integrated with BambooHR and Slack)'
+  group_owner: People Experience Team
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Pattie Egan
+  technical_owner: Alex Venter, Ashley Jameson, Ashley Jones, Emily Mowry, Sarah Hensiek
+  data_classification: Orange
+  integration_method: other
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: Integration via slack, synced with BambooHR
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Qualtrics
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Qualtrics](https://www.qualtrics.com/) is used for customer surveys."
+  access_to: UX Researchers
+  provisioner: "@asmolinski2"
+  deprovisioner: "@asmolinski2"
+  group_owner: UX
+  group_owner_slack_channel: '#ux'
+  business_owner: Christie Lenneville
+  technical_owner: Adam Smolinski
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Rackspace
+  team_member_baseline_entitlement: false
+  subprocessor: true
+  description: "(for gcp tickets and billing)"
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: true
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Rackspace (Security Enclave)
+  team_member_baseline_entitlement: false
+  subprocessor: true
+  description: Independent GCP environment for the Security Enclave
+  access_to: null
+  provisioner: "@laurence.bierner"
+  deprovisioner: null
+  group_owner: Security
+  group_owner_slack_channel: "#security-department"
+  business_owner: Johnathan Hunt
+  technical_owner: Johnathan Hunt
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Reachdesk 
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: Global sending platform. 
+  access_to: Field Marketing Managers, Sales Development Reps
+  provisioner: "@jburton"
+  deprovisioner: "@jburton"
+  group_owner_slack_channel: "#mktgops"
+  business_owner: Leslie Blanchard
+  technical_owner: Jameson Burton
+  data_classification: Orange
+  integration_method: unknown
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app:
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: ReferenceEdge
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: ReferenceEdge is a complete reference management system. Each component addresses a specific program pain point such as recruiting, data maintenance, customer reference lead generation, customer rewards and metrics. It was designed to provide sellers with every form of social proof needed at every stage of the sales cycle, from content to reference accounts and contacts. Ultimately, the value of a program is measured by revenue influenced, and that is one of the KPIs included in our report package.
+  access_to: Marketing operations, strategic marketing, reference programs, sales ops/systems
+  provisioner: 'Add Label "SalesOpsAR::Action Needed"'
+  deprovisioner: "@kbetances"
+  group_owner: Strategic Marketing
+  group_owner_slack_channel: '#product-marketing'
+  business_owner: Jennifer Parker
+  technical_owner: Jennifer Parker
+  data_classification: Orange
+  integration_method: Login through SFDC
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Guide
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Guide is a candidate experience platform that creates customized interview "Guides" for candidates to learn more about GitLab and their interviewers.
+  access_to: Candidate Experience Team Members (Recruiting)
+  provisioner: "@MarissaFerber"
+  deprovisioner: "@MarissaFerber"
+  group_owner: Recruiting Operations
+  group_owner_slack_channel: '#recruiting-team-operations'
+  business_owner: Pattie Egan, Marissa Ferber
+  technical_owner: Pattie Egan, Marissa Ferber
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Respondent
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Respondent is a service used to identify and schedule UX research participants for UX research studies.
+  access_to: UX Researchers, Product Designers, Product Managers
+  provisioner: "@cfaughnan"
+  deprovisioner: "@cfaughnan"
+  group_owner: UX
+  group_owner_slack_channel: '#ux'
+  business_owner: "@asmolinski2"
+  technical_owner: "@asmolinski2"
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Rev
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Rev](https://www.rev.com/) is a speech-to-text company that provides closed captioning, subtitles, and transcription services"
+  access_to: Marketing
+  provisioner: "@gillmurphy"
+  deprovisioner: "@gillmurphy"
+  group_owner: Marketing Operations, Content Marketing
+  group_owner_slack_channel: '#mktgops'
+  business_owner: Brein Matturro
+  technical_owner: Gillian Murphy
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: RingLead
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[RingLead](https://www.ringlead.com/)'s Cleanse feature is integrated with our Salesforce instance to identify and merge duplicate lead, contact and account data."
+  access_to: Sales Operations, Marketing Operations, Sales Systems 
+  provisioner: "@RobRosu"
+  deprovisioner: "@kbetances"
+  group_owner: Sales Operations
+  group_owner_slack_channel: '#ringlead'
+  business_owner: David Brown
+  technical_owner: Rob Rosu and Kira Savage
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: 'No'
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-ringlead-users@gitlab.com
+
+- title: Rollup Helper
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Rollup Helper](https://www.passagetechnology.com/) is a Salesforce
+    productivity tool and is used to roll-up any Salesforce data: Count, sum, max,
+    min, average, percent, lookups, text, formula, and multi-currency."
+  access_to: 'Sales Ops: permission set in SFDC'
+  provisioner: "@msnow1"
+  deprovisioner: null
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: Jack Brennan
+  technical_owner: Michael Snow
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Salesforce
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Salesforce](https://www.salesforce.com/) is our CRM of record. It
+    integrates with all of the other applications in our business tech stack. Salesforce
+    stores prospect, customer, and partner information. This includes contact information,
+    products purchased, bookings, support tickets, and invoices, among other information."
+  access_to: Sales CRM
+  provisioner: 'Add Label "SalesOpsAR::Action Needed"'
+  deprovisioner: "@kbetances"
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: Jack Brennan
+  technical_owner: Jack Brennan
+  data_classification: Orange
+  integration_method: SWA/SAML/Custom
+  need_move_to_okta: true
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: null
+  collected_data: Names, emails, phone numbers, contract information, support tickets,
+    activity history
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Salesforce Inbox
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Salesforce Inbox](https://chrome.google.com/webstore/detail/salesforce/jjghhkepijgakdammjldcbnjehfkfmha) is a Chrome extension that allows team members to work with Salesforce records directly in their email application via the Gmail integration."
+  access_to: "Enterprise (excluding West), Enterprise ISRs, TAMs, SAs, Professional Services, PubSec, PubSec ISRs, and PubSec CAMs"
+  provisioner: 'Add Label "SalesOpsAR::Action Needed"'
+  deprovisioner: null
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: Lindsay Schoenfeld
+  technical_owner: Kathleen Rintelman-Betances and Amber Stahn
+  data_classification: Orange
+  integration_method: SWA/SAML/Custom
+  need_move_to_okta: true
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: Names, emails, phone numbers, contract information, support tickets, activity history
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[How to Use Salesforce Inbox](https://internal-handbook.gitlab.io/sales/sales-operations/how-to-use-salesforce-inbox/)"
+  google_group: null
+
+- title: Schwab (Equiview)
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Investment management platform used to grant equity compensation to GitLab Team Members
+  access_to: Stock Administration in Accounting Finance and Human Resources for managing equity compensation
+  provisioner: '@amberwiley,@rhark'
+  deprovisioner: '@amberwiley,@rhark'
+  group_owner: Stock Administration
+  group_owner_slack_channel: '#stock-admin'
+  business_owner: Amber Wiley
+  technical_owner: Amber Wiley, Sonia Guillory, Ramona Hark
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: null
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  external_link: null
+  google_group: null
+
+- title: SEMrush
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Search engine optimization
+  access_to: Marketing Operations, Digital Marketing Programs, Brand and Digital Design
+  provisioner: "@mnguyen4, @jburton"
+  deprovisioner: "@mnguyen4, @jburton"
+  group_owner: Digital Marketing
+  group_owner_slack_channel: '#digital-marketing'
+  business_owner: David Brown
+  technical_owner: Ashley Kramer, Michael Preuss, Jameson Burton
+  data_classification: Green
+  integration_method: Email and password login
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Sentry
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: Sentry Error tracking for [errors in GitLab code](https://docs.gitlab.com/ee/operations/error_tracking.html#sentry-error-tracking)
+  access_to: null
+  provisioner: "@dawsmith @marin oauths through dev.gitlab.org"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Orange
+  integration_method: ''
+  need_move_to_okta: true
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: SEOTesting.com
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: SEOTestingtool.com is utilized for running SEO based impact tests on a page/pages
+  access_to: Search Marketing Team
+  provisioner: '@ncregan''@hsmith-watson'
+  deprovisioner: '@ncregan''@hsmith-watson'
+  group_owner: Search Marketing
+  group_owner_slack_channel: '@inbound-mktg'
+  business_owner: Niall Cregan, Hanif Smith-Watson
+  technical_owner: Niall Cregan
+  data_classification: Yellow
+  integration_method: Email and password
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Shopify
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: swag store transactions
+  access_to: Marketing Ops
+  provisioner: "@amy.waller"
+  deprovisioner: "@amy.waller"
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: Melissa Smolensky
+  technical_owner: Amy Waller
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: TBD
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Sisense (was Periscope)
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Sisense](https://www.sisense.com/product/data-teams/) is our Data Visualization and Business Intelligence tool. It is for reporting and can have its dashboards embedded into Salesforce, the Handbook, or other places where GitLab team-members already do their work. Please read more [about Sisense](/handbook/business-ops/data-team/platform/periscope/)."
+  access_to: View only for all GitLab Team Members for the GitLab space.
+  provisioner: okta for view only; "@dvanrooijen2" for editor or SAFE Dashboard Space.
+  deprovisioner: "@dvanrooijen2"
+  group_owner: Data
+  group_owner_slack_channel: '#data'
+  business_owner: Rob Parker
+  technical_owner: Rob Parker
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: Sisense has 3 different spaces. GitLab space is a baseline entitlement and provisioned as read-only for all GitLab Team Members, manager approval is needed for editor rights. [SAFE Intermediate Dashboard Space](https://about.gitlab.com/handbook/business-technology/data-team/data-catalog/#accessing-a-safe-intermediate-dashboard) requires an AR with manager approval for read-only and manager plus departmental VP (or equivalent) approval for editor rights. [SAFE Dashboard Space](https://about.gitlab.com/handbook/business-technology/data-team/data-catalog/#accessing-a-safe-dashboard) requires in any case an AR with manager and departmental VP (or equivalent) approval. Please see this [matrix](https://about.gitlab.com/handbook/business-technology/data-team/data-catalog/#sisense-data-access-matrix) in our handbook for an overview of which approval is needed in each situation. 
+  saas: null
+  handbook_link: "[Data Team Sisense Guide](/handbook/business-technology/data-team/platform/periscope/)"
+  google_group: null
+
+- title: Slack
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Slack](https://slack.com/) is an internal communications tool."
+  access_to: Team Members
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: IT Ops
+  group_owner_slack_channel: '#it_help'
+  business_owner: IT Operations
+  technical_owner: IT Operations
+  data_classification: Orange
+  integration_method: SWA/SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Smartling
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "Translation and localization tool."
+  access_to: Marketing
+  provisioner: "@jennyt"
+  deprovisioner: "@jennyt"
+  group_owner: Marketing Operations
+  group_owner_slack_channel: '#mktgops'
+  business_owner: Jenny Tiemann
+  technical_owner: Jenny tiemann
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: "[Smartling Handbook page](/handbook/marketing/marketing-operations/smartling)"
+  google_group: null
+
+- title: Snipe-IT
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Asset Tracking application](https://snipeitapp.com/)"
+  access_to: "IT-Ops"
+  provisioner: "@plaurinavicius"
+  deprovisioner: Deprovisioned automatically through Okta 
+  group_owner_slack_channel: '#it-help'
+  business_owner: "IT-Ops"
+  technical_owner: "IT-Ops"
+  data_classification: Yellow
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: SOC2
+  collected_data: Name, Email
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: "[Snipe-IT Handbook page](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#snipe-it)"
+  google_group: null
+
+- title: Snowflake
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Snowflake](https://gitlab.snowflakecomputing.com) is our primary
+    data warehouse. It is the single source of truth for all company data."
+  access_to: Data Team
+  provisioner: "@dvanrooijen2"
+  deprovisioner: "@dvanrooijen2"
+  group_owner: Data
+  group_owner_slack_channel: '#data'
+  business_owner: Rob Parker
+  technical_owner: Dennis van Rooijen
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Data Team Snowflake Guide](/handbook/business-technology/data-team/platform/snowflake/)"
+  google_group: okta-snowflake-users@gitlab.com
+
+- title: Snowplow
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: Event tracking software that's installed with GitLab the product.
+  access_to: Data Team
+  provisioner: gitlab hosted, not provisioned
+  deprovisioner: null
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: Rob Parker
+  technical_owner: David Smith
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Name, Email, IP Address, Social IDs, Location, Billing Address,
+    Company/Org Name, Phone Number
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Data Team Snowplow Guide](/handbook/business-technology/data-team/platform/snowplow/) and [Product Documentation](https://docs.gitlab.com/ee/development/snowplow/)"
+  google_group: null
+
+- title: Sprout Social
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Sprout Social](https://sproutsocial.com) is a Social Media Management
+    application."
+  access_to: Content Marketing Marketing OPS; Access is limited defined in baseline
+    entitlement
+  provisioner: "@wspillane"
+  deprovisioner: "@wspillane"
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: Wil Spillane
+  technical_owner: Wil Spillane, Gillian Murphy
+  data_classification: Green
+  integration_method: SWA/SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Staging-GitLab
+  team_member_baseline_entitlement: null
+  subprocessor: false
+  description: "[staging.gitlab.com](https://staging.gitlab.com/) is the GitLab staging server."
+  access_to: Infrastructure Development Dept Everyone can request
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: null
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Status - IO
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "GitLab uses [Status-IO](https://status.io/) to continously monitor GitLab.com."
+  access_to: Infrastructure Dept
+  provisioner: "@lyle, @shaunmccann, @vparsons or @jcolyer"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: Lyle Kozloff, Jason Colyer, David Smith, Marin Jankovski 
+  technical_owner: Lyle Kozloff, Jason Colyer, David Smith, Marin Jankovski 
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: true
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Stitch
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: 'GitLab uses [Stitch](https://www.stitchdata.com/) to extract data
+    from its raw sources and moves it into Snowflake.'
+  access_to: Data Team
+  provisioner: "@dvanrooijen2"
+  deprovisioner: "@dvanrooijen2"
+  group_owner: Data
+  group_owner_slack_channel: '#data'
+  business_owner: Rob Parker
+  technical_owner: Dennis van Rooijen
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: SOX
+  collected_data: 'Stitch is currently processing data from the following sources: Netsuite, Salesforce, Zendesk, Zuora.'
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Stripe
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Stripe](https://stripe.com/) is a software application that enables
+    GitLab customers to make online payments. Finance uses this system to collect
+    information pertaining to payments made online."
+  access_to: Finance Team
+  provisioner: '@jesssalcido @wlam @csotomango @awestbrook (please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: '@jesssalcido @wlam @csotomango @awestbrook (please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Erica de Longpre
+  technical_owner: Jessica Salcido
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: TIer 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: SurveyMonkey
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[SurveyMonkey](https://www.surveymonkey.com/) is an online survey tool."
+  access_to: Corporate Events - only 2 approved devices at a time in the account, no baseline entitlement
+  provisioner: "@Lauren Conway"
+  deprovisioner: Deprovisioned through 1password
+  group_owner_slack_channel: 'Corporate Events (Group Owner) #corporate-events-team (Slack Channel)'
+  business_owner: Lauren Conway
+  technical_owner: Lauren Conway
+  data_classification: Yellow
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Swiftype
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Search service provider
+  access_to: null
+  provisioner: "@jburton"
+  deprovisioner: "@jburton"
+  group_owner: Marketing Brand and Digital
+  group_owner_slack_channel: '#marketing-website-team'
+  business_owner: Michael Preuss
+  technical_owner: Lauren Barker, Michael Preuss
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Tenable.IO
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Tenable.IO](https://www.tenable.com/products/tenable-io) is a vulnerability
+    management application."
+  access_to: SecurityOPS
+  provisioner: "@joe-dub, @pmartinsgl"
+  deprovisioner: null
+  group_owner: Security
+  group_owner_slack_channel: "#security-team"
+  business_owner: Joe Dubail
+  technical_owner: Joe Dubail
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: None
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Terminus
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Terminus](https://www.sigstr.com/) is an email signature marketing
+    platform used to standardize brand consistency."
+  access_to: SDRs, Marketing Operations, Demand Generation, Account Based Marketing
+  provisioner: "@gillmurphy"
+  deprovisioner: "@gillmurphy"
+  group_owner: Marketing Operations
+  group_owner_slack_channel: '#mktgops'
+  business_owner: David Brown
+  technical_owner: Gillian Murphy
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/terminus-email-experiences)"
+  google_group: null
+
+- title: Tesorio
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Tesorio](https://tesorio.com/) is a collection AR Management tool used by our Billing team."
+  access_to: null
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: 'Sarah McCauley @s_mccauley'
+  technical_owner: '@jesssalcido'
+  data_classification: Orange
+  integration_method: SSO
+  need_move_to_okta: No
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: Yes
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Thought Industries LMS
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "The [Thought Industries](https://www.thoughtindustries.com/solutions/customer-education/) Learning Management System (LMS) is used to provide GitLab Customers and Partners with a single app to manage training courses, lessons, and certifications."
+  access_to: Team Members, Customers, and Wider Community Members/Free Users
+  provisioner: "@kmarquart"
+  deprovisioner: "@kmarquart"
+  group_owner_slack_channel: "#professional-services"
+  business_owner: "@michael_lutz"
+  technical_owner: "@kmarquart @jallen16"
+  data_classification: Red
+  integration_method: None. No integrations with other Tech Stack Applications at this time.
+  need_move_to_okta: No. LMS is a customer-facing system and will use a built-in auttentication mechanism.
+  critical_systems_tier: Tier 2
+  compliance_scope: null
+  collected_data: PII - Customer Name, Email Address
+  processing_customer_data: Yes
+  employee_or_customer_facing_app: Customer
+  notes: "[Implementation Plan](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/-/epics/390#project-scope)"
+  saas: Yes
+  handbook_link: "[LMS Guide](/handbook/customer-success/professional-services-engineering/education-services/lms/)"
+  external_link: "https://www.thoughtindustries.com/solutions/customer-education/"
+  google_group: null
+  
+- title: Tipalti
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Tipalti](https://tipalti.com/) is an account payable automation tool."
+  access_to: null
+  provisioner: '@wlam @csotomango @awestbrook (please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: '@wlam @csotomango @awestbrook (please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Misty Brown
+  technical_owner: Wendy Lam and Alex Westbrook
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Troops.ai
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Troops.ai](https://www.troops.ai) provides salesforce automation platform that gives real-time transparency around salesforce information. GitLab uses it as an activity capture for Solution Architects."
+  access_to: Solution Architects
+  provisioner: "@jdbeaumont, @jfullam"
+  deprovisioner: "@jdbeaumont, @jfullam"
+  group_owner: Solutions Architecture
+  group_owner_slack_channel: '#troops-users'
+  business_owner: Jeff Beaumont
+  technical_owner: Jeff Beaumont
+  data_classification: Orange
+  integration_method: Email and password
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: TripActions
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: Corporate Travel
+  access_to: GitLab Team Members
+  provisioner: 'GitLab Team Members basic access, provisioned during onboarding. Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk"'
+  deprovisioner: Okta
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Misty Brown
+  technical_owner: Cristine Marquardt Alex Westbrook
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Tweetdeck
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[TweetDeck](https://tweetdeck.twitter.com/) is a social media dashboard
+    application for management of Twitter accounts."
+  access_to: Varies; Access is defined by baseline entitlements and granted to specific
+    handles based select functional roles
+  provisioner: "@wspillane"
+  deprovisioner: "@wspillane"
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: Wil Spillane
+  technical_owner: Wil Spillane
+  data_classification: Green
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/tweetdeck/)"
+  google_group: null
+
+- title: Typeform
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "People-friendly forms and surveys."
+  access_to: Marketing Operations
+  provisioner: "@nikkiroth"
+  deprovisioner: "@nikkiroth"
+  group_owner_slack_channel: '#mktgops'
+  business_owner: Nikki Roth
+  technical_owner: Nikki Roth
+  data_classification: Orange
+  integration_method: Individual email/password login
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: both
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/typeform/)"
+  google_group: null
+
+- title: Unbabel
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Zendesk integration for language translation
+  access_to: Support Team
+  provisioner: "@jcolyer"
+  deprovisioner: "@jcolyer"
+  group_owner: Support
+  group_owner_slack_channel: '#support-managers'
+  business_owner: Tom Cooney
+  technical_owner: Jason Colyer
+  data_classification: Orange
+  integration_method: NA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Information shared through tickets between customers and GitLab
+    employees
+  processing_customer_data: null
+  employee_or_customer_facing_app: both
+  notes: null
+  saas: true
+  handbook_link: null
+  google_group: null
+
+- title: UserTesting.com
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[UserTesting.com](https://www.UserTesting.com/) is an unmoderated usability testing service.  Product Designers and UX Researchers use UserTesting.com to conduct usability studies remotely when a moderater isn't required.  As a result, these studies can be conducted very quickly."
+  access_to: Product Designers and UX Researchers
+  provisioner: '@asmolinski2'
+  deprovisioner: '@asmolinski2'
+  group_owner: UX
+  group_owner_slack_channel: '#ux'
+  business_owner: Christie Lenneville
+  technical_owner: Adam Smolinski
+  data_classification: Green
+  integration_method: Email and password
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: VATit SaaS
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Sync with expensify or other expense claim system to analyze VAT reclaim
+    on T&E expenses and supplier invoices
+  access_to: Finance
+  provisioner: "@igroenewegenmackintosh"
+  deprovisioner: "@igroenewegenmackintosh"
+  group_owner: Tax
+  group_owner_slack_channel: "#tax"
+  business_owner: Igor Groenewegen-Mackintosh
+  technical_owner: Igor Groenewegen-Mackintosh
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: Pulls data from expensify or other expense claim system to analyze
+    VAT reclaim on T&E expenses and supplier invoices
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Vartopia
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Partner Deal Registration
+  access_to: WW Field Ops
+  provisioner: "@cfarris"
+  deprovisioner: "@cfarris"
+  group_owner: Channel Operations
+  group_owner_slack_channel: "#channel-ops"
+  business_owner: Colleen Farris
+  technical_owner: Colleen Farris Jack Brennan
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: SOX
+  collected_data: Pulls data from expensify or other expense claim system to analyze
+    VAT reclaim on T&E expenses and supplier invoices
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: version UI login
+  team_member_baseline_entitlement: null
+  subprocessor: null
+  description: null
+  access_to: null
+  provisioner: log in with GitLab dev
+  deprovisioner: null
+  group_owner: null
+  group_owner_slack_channel: null
+  business_owner: null
+  technical_owner: null
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: version. -gitlab.com (ssh)
+  team_member_baseline_entitlement: null
+  subprocessor: null
+  description: null
+  access_to: null
+  provisioner: "@marin @dawsmith"
+  deprovisioner: null
+  group_owner: Infrastructure
+  group_owner_slack_channel: '#infrastructure-lounge'
+  business_owner: David Smith, Marin Jankovski 
+  technical_owner: David Smith, Marin Jankovski 
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Vimeo
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Virtual events and video production
+  access_to: Marketing, digital production
+  provisioner: "@Brock_Sumner"
+  deprovisioner: "@Brock_Sumner"
+  group_owner: Digital Production
+  group_owner_slack_channel: '#corp-mktg'
+  business_owner: Aricka Flowers
+  technical_owner: Brock Sumner
+  data_classification: Yellow
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/vimeo/)"
+  google_group: null
+
+- title: Visual Compliance
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Visual Compliance](https://www.visualcompliance.com/) is a opportunity
+    and account screening tool. It screens opportunities in Salesforce to ensure that
+    GitLab does not violate any US Regulations by selling to restricted individuals
+    or organizations."
+  access_to: Access via Salesforce
+  provisioner: "@rnalen @ktesh"
+  deprovisioner: "@rnalen @ktesh"
+  group_owner: Legal
+  group_owner_slack_channel: '#legal'
+  business_owner: Robert Nalen
+  technical_owner: Michael Snow
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: null
+  collected_data: Name, Address, Email
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: VS Code Azure
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "Azure account used exclusively for mangating GitLab's VS Code extension (publishing, accessing download reports). [GitLab VS Code Extension](https://gitlab.com/gitlab-org/gitlab-vscode-extension)"
+  access_to: "Maintainers of the GitLab VS Code extension, mainly Create::Code review frontend team. Teams that want to access extension download report."
+  provisioner: "@andr3, @viktomas"
+  deprovisioner: "@andr3, @viktomas"
+  group_owner: Create::Code
+  group_owner_slack_channel: "#g_create_source-code-review-fe"
+  business_owner: "Kai Armstrong"
+  technical_owner: "André Luís, Tomas Vik"
+  data_classification: Green
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Commission Expense Accounting (CEA) -Xactly
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: ACCOUTNING TEAMS!! Xactly Commission Expense Accounting (CEA) is an end-to-end solution for managing commissions, or ‘the costs of obtaining a contract,’ under ASC 606 (IFRS 15). Including full capitalization and amortization, Xactly CEA allows GitLab to easily and securely monitor performance obligations and ensure full compliance with the new commission accounting requirements.
+  access_to: Finance
+  provisioner: '@edelongpre'  
+  deprovisioner: '@gggonzalez'
+  group_owner_slack_channel: 'Finance (Group Owner) #finance'
+  business_owner: Erica de Longpre
+  technical_owner: Griz Gonzalez
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-xactly-users@gitlab.com
+
+- title: Xactly Incent
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Xactly Incent is the SPM leader that provide GitLab reps real time visibility into their incentives, allow for analytics reporting, commission expense forecasting, comp plan doc routing.
+  access_to: Sales and Finance
+  provisioner: "@Swethakashyap, @lisapuzar"
+  deprovisioner: "@Swethakashyap, @lisapuzar"
+  group_owner: Sales
+  group_owner_slack_channel: '#sales-support'
+  business_owner: Lisa Puzar
+  technical_owner: Lisa Puzar, Swetha Kashap
+  data_classification: Orange
+  integration_method: SFDC SSO login
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: WebEx, Cisco
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[WebEx](https://www.webex.com/) is an online meeting application. GitLab primarily utilizes Zoom but WebEx [is available for individuals](/handbook/tools-and-tips/other-apps/#webex) who prefer to WebEx to Zoom."
+  access_to: Marketing OPS Public Sector; Highly limited access to this system
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: IT Ops
+  group_owner_slack_channel: '#it_help'
+  business_owner: Peter Kaldis
+  technical_owner: Marc DiSabatino
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Will Learning
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Will Learning](https://launchpad.willinteractive.com/users/sign_in)
+    is a Workplace Training application."
+  access_to: Team Members
+  provisioner: "@jallen16"
+  deprovisioner: "@jallen16"
+  group_owner: People Ops
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Anesia Chan
+  technical_owner: Jacie Bandur/Samantha Lee
+  data_classification: Orange
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Workato
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "Automation of enterprise application integrations and creation of slack automations, with possibly more use cases in the future."
+  access_to: Enterprise Applications - Integrations Engineering + Access Requests for other teams
+  provisioner: "@dparker, @karuna16"
+  deprovisioner: "@dparker, @karuna16"
+  group_owner: Enterprise Applications
+  group_owner_slack_channel: '#bt-integrations'
+  business_owner: Christopher Nelson
+  technical_owner: Daniel Parker
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-workato-users@gitlab.com
+
+- title: Workday
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "Workday is used to store all team member information in one central location."
+  access_to: Team Members
+  provisioner: "@nutaurus @anechan"
+  deprovisioner: Deprovisioned through Okta
+  group_owner: People Technology
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Wendy Barnes
+  technical_owner: Anesia Chan
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOX
+  collected_data: All data related to employment via GitLab
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Workiva
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Workiva](https://www.workiva.com/) is a Financial Reporting tool
+    used by the Finance (Accounting) team."
+  access_to: Accounting Team
+  provisioner: "@yelena.sokolov"
+  deprovisioner: "@yelena.sokolov"
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Yelena Sokolov
+  technical_owner: Yelena Sokolov
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: SOX
+  collected_data: Financial information
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-workiva-users@gitlab.com
+
+- title: YouTube (branded account)
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[YouTube](https://youtube.com) is a video sharing platform."
+  access_to: Multiple departments
+  provisioner: "@atflowers"
+  deprovisioner: "@atflowers"
+  group_owner: Marketing
+  group_owner_slack_channel: '#marketing'
+  business_owner: Aricka Flowers
+  technical_owner: Aricka Flowers
+  data_classification: Yellow
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/youtube/)"
+  google_group: null
+
+- title: YouTube (unfiltered)
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[YouTube](https://youtube.com) is a video sharing platform."
+  access_to: All team members
+  provisioner: "Provisioned during onboarding, please review your [pending invitations](https://about.gitlab.com/handbook/marketing/marketing-operations/youtube/#access) before reaching out to #people-connect if you didn't get the invite"
+  deprovisioner: "@atflowers"
+  group_owner: Marketing
+  group_owner_slack_channel: '#people-connect'
+  business_owner: Aricka Flowers
+  technical_owner: Aricka Flowers
+  data_classification: Yellow
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/youtube/)"
+  google_group: null
+
+- title: Zapier
+  team_member_baseline_entitlement: null
+  subprocessor: false
+  description: "[Zapier](https://zapier.com/) is an automation application integrating
+    other applications."
+  access_to: Team Members
+  provisioner: "Open a single person access request to the 'Zapier' 1Password vault, tag @gitlab-com/business-technology/team-member-enablement and add the IT::To do label"
+  deprovisioner: null
+  group_owner: Community Relations
+  group_owner_slack_channel: '#community-relations'
+  business_owner: Peter Kaldis
+  technical_owner: null
+  data_classification: Yellow
+  integration_method: SWA
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: false
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: "[How Marketing Ops use Zapier](/handbook/marketing/marketing-operations/zapier/), [How Community Relations use Zapier](https://about.gitlab.com/handbook/marketing/community-relations/community-operations/tools/zapier)"
+  google_group: null
+
+- title: Zendesk
+  team_member_baseline_entitlement: true
+  subprocessor: true
+  description: 'Customer support tickets are managed through [Zendesk](https://www.zendesk.com/)
+    and can be visible in the Lead, Account, or Opportunity object in Salesforce in
+    the form of a Visualforce page. This provides visibility for non-Zendesk users
+    into the support tickets created by their prospects and customers. For more information
+    on this tool, you can visit the Support page [here](/handbook/support).'
+  access_to: Customer Support Security all via light agent
+  provisioner: "@nabeel.bilgrami light agent access is available by following the handbook instructions [here](https://about.gitlab.com/handbook/support/internal-support/#viewing-support-tickets)"
+  deprovisioner: null
+  group_owner: Support
+  group_owner_slack_channel: '#support-managers'
+  business_owner: Tom Cooney
+  technical_owner: 'Nabeel Bilgrami'
+  data_classification: Orange
+  integration_method: SWA/SAML/Other
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: null
+  collected_data: email address
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Zendesk - US Federal
+  team_member_baseline_entitlement: false
+  subprocessor: true
+  description: HelpDesk
+  access_to: Customer Support - US only
+  provisioner: "@jcolyer"
+  deprovisioner: "@jcolyer, @lyle, @lbot"
+  group_owner: Support
+  group_owner_slack_channel: '#support-managers'
+  business_owner: Tom Cooney
+  technical_owner: Jason Coyler
+  data_classification: Orange
+  integration_method: SWA/SAML/Other
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: null
+  collected_data: email address
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Zendesk Community
+  team_member_baseline_entitlement: false
+  subprocessor: null
+  description: Monitoring and processing all mentions of GitLab across the Community
+    Relations' response channels
+  access_to: Community Relations
+  provisioner: "@johncoghlan"
+  deprovisioner: "@johncoghlan"
+  group_owner: Community Relations
+  group_owner_slack_channel: "#community-relations"
+  business_owner: John Coghlan
+  technical_owner: John Coghlan
+  data_classification: Yellow
+  integration_method: Access is via GitLab's Google Suite SSO
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: User name, e-mail and social media handle (in some cases). In addition,
+    the GitLab mention or question text is also collected. Data collection generally
+    happens using the API of each of the Community Advocates' response channels.
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: https://about.gitlab.com/handbook/marketing/community-relations/community-operations/tools/zendesk/#adding-new-agent-seats-to-existing-subscription
+  saas: null
+  handbook_link: "[How we use Zendesk](https://about.gitlab.com/handbook/marketing/community-relations/community-operations/tools/zendesk/)"
+  google_group: null
+
+- title: ZenGRC
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Hosted by AWS, [ZenGRC ](https://reciprocitylabs.com/) is a SaaS GRC platform covering Risk, Privacy, Compliance, Audit, Governance, Business Continuity and Third Party Vendor Management programs.
+  access_to: Security Assurance
+  provisioner: '@rcshah, @Julia.Lake'
+  deprovisioner: '@rcshah, @Julia.Lake'
+  group_owner: Security Assurance
+  group_owner_slack_channel: '#sec-assurance'
+  business_owner: Julia Lake
+  technical_owner: Rupal Shah
+  data_classification: Orange
+  integration_method: Okta
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee and Vendor
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-zenGRC-users@gitlab.com
+
+- title: Zoom
+  team_member_baseline_entitlement: true
+  subprocessor: false
+  description: "[Zoom](https://zoom.com/) is a video conference and meeting application."
+  access_to: "All GitLab Team Members"
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: IT Ops
+  group_owner_slack_channel: '#it_help'
+  business_owner: Bryan Wise
+  technical_owner: Peter Kaldis
+  data_classification: Orange
+  integration_method: SWA/SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: ZoomInfo
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Zoominfo](https://www.zoominfo.com/) provides our Sales Development Representatives and Account Executives with access to hundreds of thousands of prospects and their contact information, company information, tech stack, revenue, and other relevant data. Individual records or bulk exports can be imported into Salesforce using extensive search criteria such as job function, title, industry, location, tech stack, employee count, and company revenue. More informatino can be found on the Marketing Operations [Zoominfo handbook page](https://about.gitlab.com/handbook/marketing/marketing-operations/zoominfo/)."
+  access_to: "Marketing Operations, Sales Operations, Account Executives, SDRS"
+  provisioner: "@RobRosu"
+  deprovisioner: "@RobRosu"
+  group_owner: Marketing Operations
+  group_owner_slack_channel: "#sales-support"
+  business_owner: David Brown
+  technical_owner: Rob Rosu
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 3 / Non-critical
+  compliance_scope: none
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: Employee
+  notes: Replaced DiscoverOrg due to acquisition.
+  saas: null
+  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/zoominfo/)"
+  google_group: null
+
+- title: Zuora
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "[Zuora](https://www.zuora.com/) is our subscription management and
+    billing system, primarily managed by our Finance team. A quote object within Salesforce
+    is created with a specific configuration, and an order form (PDF) is generated.
+    Once the order form is signed, the Quote in Salesforce is converted to a Subscription
+    in Zuora and the invoice is delivered or payment is applied if the customer provides
+    their credit card details."
+  access_to: null
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Andrew Murray
+  technical_owner: Jessica Salcido
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 1 Business
+  compliance_scope: SOX
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: okta-zuora-users@gitlab.com
+
+- title: Zuora Central Sandbox
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: "test.zuora.com serves as the staging environment for Zuora and customers.stg.gitlab.com."
+  access_to: null
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Andrew Murray
+  technical_owner: Jessica Salcido
+  data_classification: Orange
+  integration_method: null
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Support
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app: null
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
+
+- title: Zuora Revenue
+  team_member_baseline_entitlement: false
+  subprocessor: false
+  description: Zuora Revenue is our automated revenue recognition application that meets current and future U.S. GAAP, including the new ASC 606 and IFRS 15 revenue standards. Its features help us achieve a faster quarter close, minimize compliance risk and more precisely, forecast the revenue impact of business decisions.
+  access_to: Revenue Team
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  group_owner: Finance
+  group_owner_slack_channel: '#finance'
+  business_owner: Andrew Murray
+  technical_owner: Jessica Salcido
+  data_classification: Orange
+  integration_method: SAML
+  need_move_to_okta: null
+  critical_systems_tier: Tier 2 Core
+  compliance_scope: null
+  collected_data: null
+  processing_customer_data: null
+  employee_or_customer_facing_app:
+  notes: null
+  saas: null
+  handbook_link: null
+  google_group: null
