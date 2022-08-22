@@ -64,6 +64,6 @@ Share that a handover has happened in the incident's Slack channel, and cross-po
 
 > 🤝 AppSec Handover 🤝  I have handed over to `@username` for any AppSec needs, as I am close to the end of my working day. [Include details on how we will continue to deliver on any tasks that AppSec is DRI for].
 
-### Friends and Family Day Coverage
+### Family and Friends Day Coverage
 
-[Friends and Family Days](https://about.gitlab.com/company/family-and-friends-day/) are days where GitLab publicly shuts down. The AppSec [rotation spreadsheet](https://docs.google.com/spreadsheets/d/18vz84dgTfetTaBjbOCXaLKNfzLYMiy_tBW6RfEUYYHk/edit#gid=1486863602) indicates who is available from the AppSec team on those days. There will be one AppSec engineer covering for each timezone region (AMER, EMEA, APAC) during each F&F Day. Team members assigned to this rotation are expected to move their F&F Day to another day as they see fit.
+[Family and Friends Days](https://about.gitlab.com/company/family-and-friends-day/) are days where GitLab publicly shuts down. The AppSec [rotation spreadsheet](https://docs.google.com/spreadsheets/d/18vz84dgTfetTaBjbOCXaLKNfzLYMiy_tBW6RfEUYYHk/edit#gid=1486863602) indicates who is available from the AppSec team on those days. There will be one AppSec engineer covering for each timezone region (AMER, EMEA, APAC) during each F&F Day. Team members assigned to this rotation are expected to move their F&F Day to another day as they see fit.
