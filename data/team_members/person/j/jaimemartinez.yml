@@ -1,0 +1,35 @@
+---
+name: Jaime Martínez
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/senior">Senior Backend Engineer, Package</a>
+reports_to: michelletorres
+picture: jaimemartinez.jpg
+twitter: jimbart098
+gitlab: jaime
+linkedin: jaime-m88
+pronouns: he/him
+pronunciation: HI-meh mar-TEE-nez
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Package Group
+- Package BE Team
+projects:
+  release-cli: maintainer
+  gitlab-pages: maintainer
+  gitlab: 
+    - reviewer go
+    - reviewer workhorse
+  go-mimedb: reviewer
+  container-registry: reviewer
+  labkit: reviewer
+story: |
+  Jaime is a software engineer who has been working with Go writing backend applications for the last few years. He enjoys mentoring others and spreading the Go love.
+  In his spare time, he can be seen playing video games, walking his dog and going to concerts with his partner!
+domain_expertise:
+- go
+- pages
+specialty: Package
+
