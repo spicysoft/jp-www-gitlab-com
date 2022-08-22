@@ -1,17 +1,28 @@
 name: Karthik Nayak
 locality: 
 country: Remote
-role: <a href="">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/#gitaly">Senior Backend Engineer, Gitaly</a>
 reports_to: andrashorvath
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
+picture: karthiknayak.jpg
+pronouns: he/him
+pronunciation: 
 twitter:
-linkedin:
+linkedin: karthik-nayak
 gitlab: knayakgl
 departments:
-  - Development
-specialty: "Create: Gitaly"
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Gitaly Team
+  - Gitaly BE Team
+projects:
+  gitaly:
+    - reviewer
+    - maintainer
+specialty: Gitaly
 expertise:
-story:
-
+story: |
+  Karthik's interest in twinkering and taking things apart. He loves anything tech
+  and how different layers of abstraction work over each other. While not coding, He
+  enjoys spending time with family/friends. He likes going out to nature either via hiking
+  or cycling and also likes playing sports (currently into badminton, squash and table tennis).
