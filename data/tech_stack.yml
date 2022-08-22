@@ -5379,7 +5379,7 @@
   employee_or_customer_facing_app: null
   notes: null
   saas: null
-  handbook_link: null
+  handbook_link: "[Zuora Billing Tech Stack Guide](/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)"
   google_group: okta-zuora-users@gitlab.com
 
 - title: Zuora Central Sandbox
