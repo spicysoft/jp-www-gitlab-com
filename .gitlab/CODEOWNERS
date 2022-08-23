@@ -451,7 +451,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/people-group/offboarding/offboarding_guidelines/ @mpatel8 @Mowry @alex_venter @anechan @asjones @nutaurus
 /sites/handbook/source/handbook/people-group/offboarding/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
-/sites/handbook/source/handbook/people-group/employment-branding/internal-communications/ @sliang2 @drogozinski @rallen3
+/sites/handbook/source/handbook/people-group/employment-branding/internal-communications/ @sliang2 @kaylagolden @drogozinski @rallen3
 /sites/handbook/source/handbook/group-conversations/ @cheriholmes
 /sites/handbook/source/handbook/people-group/celebrations/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/talent-assessment/ @wendybarnes @brittanyr @rtakken @glucchesi @pegan @cbednarz
@@ -588,8 +588,8 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/mobile/mobile-devops/ @darbyfrey @bmarnane
 
 ^[Recruiting]
-/sites/handbook/source/handbook/hiring/ @wendybarnes @rallen3 @drogozinski
-/sites/handbook/source/handbook/hiring/talent-acquisition-framework/ @rallen3 @drogozinski
+/sites/handbook/source/handbook/hiring/ @rallen3 @drogozinski @marissaferber
+/sites/handbook/source/handbook/hiring/talent-acquisition-framework/ @rallen3 @drogozinski @marissaferber
 /sites/uncategorized/source/jobs/ @rallen3 @drogozinski
 /sites/uncategorized/source/job-families/people-ops/recruiting-operations-insights/ @sytses @streas @wendybarnes @rallen3
 /sites/uncategorized/source/job-families/people-ops/recruiter/ @sytses @streas @wendybarnes @rallen3
