@@ -365,7 +365,11 @@ We refer to this as "persistence of purpose". As talked about in [The Influence 
 
 ##### 危機感 {#sense-of-urgency}
 {:.no_toc}
-At an exponentially-scaling startup, time gained or lost has compounding effects. Try to get the results as fast as possible, but without compromising our other values and [ways we communicate](/handbook/communication), so the compounding of results can begin and we can focus on the next improvement.
+スタートアップは指数関数的に成長します。
+時間を有効活用するか時間を無駄にするかで、結果は大きく変わります。
+とにかく速やかに結果を出してください。
+結果の相乗効果がうまれ、次の改善に取りかかることができます。
+もちろん他のバリューや[コミュニケーションスタイル](/handbook/communication)を無視しないでください。
 
 ##### 野心的 {#ambitious}
 {:.no_toc}
