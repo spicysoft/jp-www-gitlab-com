@@ -1886,7 +1886,7 @@ infrastructure_as_code:
   roi: false
   available: 2019-09-01
   viable: 2021-01-22
-  complete: 2022-08-22
+  complete: 2022-09-22
   lovable: 2023-12-22
   maturity: viable
   marketing: true
