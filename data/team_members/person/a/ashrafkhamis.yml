@@ -1,7 +1,9 @@
+---
 name: Ashraf Khamis
-locality: 
+locality:
 country: Remote
-role: <a href="/job-families/engineering/technical-writer/#senior-technical-writer">Senior Technical Writer</a>
+role: <a href="/job-families/engineering/technical-writer/#senior-technical-writer">Senior
+  Technical Writer</a>
 reports_to: kpaizee
 picture: ashrafkhamis.jpg
 pronouns: he/him
@@ -14,5 +16,7 @@ departments:
 - UX Department
 - Technical Writing
 specialty:
+- 'Ecosystem: Integrations'
 expertise:
 story:
+
