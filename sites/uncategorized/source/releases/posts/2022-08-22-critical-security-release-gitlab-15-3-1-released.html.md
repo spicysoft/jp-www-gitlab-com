@@ -1,7 +1,7 @@
 ---
 title: "GitLab Critical Security Release: 15.3.1, 15.2.3, 15.1.5"
 description: "Learn more about GitLab Critical Security Release: 15.3.1, 15.2.3, 15.1.5 for GitLab Community Edition (CE) and Enterprise Edition (EE)."
-canonical_path: "/releases/2022/08/22/security-release-gitlab-15-3-1-released/"
+canonical_path: "/releases/2022/08/22/critical-security-release-gitlab-15-3-1-released/"
 categories: releases
 author: Nick Malcolm 
 author_gitlab: nmalcolm
