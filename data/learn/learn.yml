@@ -806,7 +806,7 @@
   confidentiality: "Internal"
 
 - name: "GitLab 101"
-  url: https://gitlab.edcast.com/pathways/copy-of-gitlab-certification-welcome
+  url: https://levelup.gitlab.com/learn/course/gitlab101
   description: |
     This training is geared toward GitLab team members and the wider community who are in non-engineering roles (i.e. recruiting, peopleops, marketing, finance, etc) and/or have not used a DevOps tool like GitLab before. This can also be helpful for non-engineering people outside of GitLab wanting to learn how to use GitLab for personal projects.
   live_date: "2020-02-01"
@@ -819,7 +819,7 @@
   confidentiality: "Public"
 
 - name: "GitLab 201"
-  url: https://gitlab.edcast.com/pathways/ECL-44010cf6-7a9c-4b9b-b684-fa08508a3252
+  url: https://levelup.gitlab.com/learn/course/gitlab-201-certification
   description: |
     This training is a deep dive into GitLab Epics and Merge requests for team members and wider community members getting started using the GitLab tool
   live_date: "2020-08-01"
@@ -857,7 +857,7 @@
   confidentiality: "Internal"
 
 - name: "Remote Foundations Badge"
-  url: https://gitlab.edcast.com/pathways/ECL-4d9840ae-0c56-4645-ad7b-452029b1e5bc
+  url: https://levelup.gitlab.com/learn/course/remote-foundations
   description: |
     Presented at a self-directed pace, the GitLab remote certification is designed to give new managers and individual contributors an opportunity to master all-remote business concepts and build key skills in remote subject areas.
   live_date: "2021-01-15"
@@ -870,7 +870,7 @@
   confidentiality: "Public"
 
 - name: "DIB Certification"
-  url: https://gitlab.edcast.com/journey/ECL-5c978980-c9f0-4479-bf44-45d44fc56d05
+  url: https://levelup.gitlab.com/learn/course/dib-training-certification
   description: |
     This training will take users through the understanding of how we approach DIB - Diversity, Inclusion and Belonging here at GitLab. How we collaborate and how we ALL contribute.
   live_date: "2021-02-01"
@@ -883,7 +883,7 @@
   confidentiality: "Public"
 
 - name: "Bias towards Async Communication"
-  url: https://gitlab.edcast.com/pathways/ECL-d28057c0-d024-41b0-a89d-9e4d5a024932
+  url: https://levelup.gitlab.com/learn/course/bias-towards-asynchronous-communication
   description: |
     This pathway is designed to reinforce our value of a bias towards asynchronous communication. Everyone at GitLab is responsible for being a role model of our values. This pathway will help learners understand our practices for asynchronous communication at GitLab even better!
   live_date: "2021-01-15"
@@ -922,7 +922,7 @@
   confidentiality: "Public"
 
 - name: "GitLab Values"
-  url: https://gitlab.edcast.com/pathways/ECL-19a443fa-73d2-4084-92a3-4ad84fd57989
+  url: https://levelup.gitlab.com/learn/course/gitlab-values
   description: |
     Review of Gitlab values for team members and community members
   live_date: "2021-01-15"
@@ -935,7 +935,7 @@
   confidentiality: "Public"
 
 - name: "Career Development with Sherrod Patching"
-  url: https://gitlab.edcast.com/pathways/7334752
+  url: https://levelup.gitlab.com/learn/course/career-development-with-sherrod-patching
   description:
   live_date: "2021-08-15"
   maintainer: "Learning & Development"
@@ -947,7 +947,7 @@
   confidentiality: "Public"
 
 - name: "Career Development with Diana Stanley"
-  url: https://gitlab.edcast.com/pathways/7240759
+  url: https://levelup.gitlab.com/learn/course/career-development-with-diana-stanley
   description:
   live_date: "2021-08-15"
   maintainer: "Learning & Development"
@@ -959,7 +959,7 @@
   confidentiality: "Public"
 
 - name: "Career Development with Brendan O'Leary"
-  url: https://gitlab.edcast.com/pathways/7190553
+  url: https://levelup.gitlab.com/learn/course/career-development-with-brendan-oleary
   description:
   live_date: "2021-08-15"
   maintainer: "Learning & Development"
@@ -971,7 +971,7 @@
   confidentiality: "Public"
 
 - name: "Career Development with Christopher Wang"
-  url: https://gitlab.edcast.com/pathways/7190551
+  url: https://levelup.gitlab.com/learn/course/career-development-with-christopher-wang
   description:
   live_date: "2021-08-15"
   maintainer: "Learning & Development"
@@ -983,7 +983,7 @@
   confidentiality: "Public"
 
 - name: "Career Development with Brittany Rhode"
-  url: https://gitlab.edcast.com/pathways/7190545
+  url: https://levelup.gitlab.com/learn/course/career-development-with-brittany-rohde
   description:
   live_date: "2021-08-15"
   maintainer: "Learning & Development"
@@ -1007,7 +1007,7 @@
   confidentiality: "Public"
 
 - name: "Career Development with Nicolas Dular"
-  url: https://gitlab.edcast.com/pathways/7152009
+  url: https://levelup.gitlab.com/learn/course/career-development-w-nicolas-dular
   description:
   live_date: "2021-08-15"
   maintainer: "Learning & Development"
@@ -1019,7 +1019,7 @@
   confidentiality: "Public"
 
 - name: "360 Feedback Process at GitLab"
-  url: https://gitlab.edcast.com/pathways/7128319
+  url: https://levelup.gitlab.com/learn/course/360-feedback-process-at-gitlab
   description: |
     Communicate the value and structure of 360 review cycle at GitLab
   live_date: "2021-08-15"
@@ -1032,7 +1032,7 @@
   confidentiality: "Public"
 
 - name: "Career Development with Darren Murph"
-  url: https://gitlab.edcast.com/pathways/7123726
+  url: https://levelup.gitlab.com/learn/course/career-development-with-darren-murph
   description:
   live_date: "2021-08-15"
   maintainer: "Learning & Development"
@@ -1044,7 +1044,7 @@
   confidentiality: "Public"
 
 - name: "Career Development with Pattie Egan"
-  url: https://gitlab.edcast.com/pathways/7123723
+  url: https://levelup.gitlab.com/learn/course/career-development-with-pattie-egan
   description:
   live_date: "2021-08-15"
   maintainer: "Learning & Development"
@@ -1056,7 +1056,7 @@
   confidentiality: "Public"
 
 - name: "Building an Individual Growth Plan"
-  url: https://gitlab.edcast.com/pathways/7123708
+  url: https://levelup.gitlab.com/learn/course/building-an-individual-growth-plan
   description: |
     How to build an IGP for team members
   live_date: "2021-08-15"
@@ -1069,7 +1069,7 @@
   confidentiality: "Public"
 
 - name: "Giving and Receiving Feedback"
-  url: https://gitlab.edcast.com/pathways/7115876
+  url: https://levelup.gitlab.com/learn/course/receiving-and-giving-feedback
   description: |
     Strategies for giving and receiving feedback at GitLab
   live_date: "2021-07-01"
@@ -1082,7 +1082,7 @@
   confidentiality: "Public"
 
 - name: "Giving Feedback"
-  url: https://gitlab.edcast.com/pathways/1462159
+  url: https://levelup.gitlab.com/learn/course/giving-feedback
   description: |
     Strategies for giving feedback at GitLab
   live_date: "2021-01-15"
@@ -1094,8 +1094,8 @@
   registration: "Free"
   confidentiality: "Public"
 
-- name: "Managing Performance"
-  url: https://gitlab.edcast.com/pathways/1461112
+- name: "Coaching for Performance"
+  url: https://levelup.gitlab.com/learn/course/coaching-for-performance
   description: |
     Handbook resources for how managers can manager performance of direct reports
   live_date: "2021-01-15"
@@ -1108,7 +1108,7 @@
   confidentiality: "Public"
 
 - name: "Running an effective 1:1"
-  url: https://gitlab.edcast.com/pathways/1411234
+  url: https://levelup.gitlab.com/learn/course/running-an-effective-11
   description: |
     Reviews strategies for how to run an effective 1:1 in an all remote company
   live_date: "2021-01-15"
@@ -1121,7 +1121,7 @@
   confidentiality: "Public"
 
 - name: "Building high performing teams"
-  url: https://gitlab.edcast.com/pathways/1410063
+  url: https://levelup.gitlab.com/learn/course/building-high-performing-teams-orientation
   description: |
     How to build a high performing all remote team training for people managers
   live_date: "2021-01-15"
@@ -1134,7 +1134,7 @@
   confidentiality: "Public"
 
 - name: "Getting to know yourself and your team"
-  url: https://gitlab.edcast.com/pathways/1410038
+  url: https://levelup.gitlab.com/learn/course/getting-to-know-yourself-and-your-team
   description: |
     Team, relationship, and trust building strategies for an all remote team
   live_date: "2021-01-15"
@@ -1146,21 +1146,8 @@
   registration: "Free"
   confidentiality: "Public"
 
-- name: "Develop your Rest Ethic"
-  url: https://gitlab.edcast.com/pathways/1286440
-  description: |
-    Internal and external resources that describe the value of rest ethic
-  live_date: "2021-03-01"
-  maintainer: "Learning & Development"
-  level: "Beginner"
-  use_case: "GitLab Values"
-  pace: "Self-Paced"
-  assessment: "None"
-  registration: "Free"
-  confidentiality: "Public"
-
 - name: "Mastering Self-Motivation and Self Advocacy"
-  url: https://gitlab.edcast.com/pathways/1245364
+  url: https://levelup.gitlab.com/learn/course/mastering-self-motivation-and-self-advocacy
   description: |
     Leadership course for Women TMRG at GitLab
   live_date: "2021-04-01"
@@ -1173,7 +1160,7 @@
   confidentiality: "Public"
 
 - name: "GitLab Women in Leadership Course"
-  url: https://gitlab.edcast.com/pathways/1245323
+  url: https://levelup.gitlab.com/learn/course/gitlab-women-in-leadership-course
   description: |
     Leadership course for Women TMRG at GitLab
   live_date: "2021-04-01"
@@ -1185,21 +1172,8 @@
   registration: "Free"
   confidentiality: "Public"
 
-- name: "Mental Health Awareness at GitLab"
-  url: https://gitlab.edcast.com/pathways/1102247
-  description: |
-    A review of mental wellbeing resources for team members and general resources for mental wellbeing in an all remote company
-  live_date: "2021-03-01"
-  maintainer: "Learning & Development"
-  level: "Beginner"
-  use_case: "GitLab Values"
-  pace: "Self-Paced"
-  assessment: "None"
-  registration: "Free"
-  confidentiality: "Public"
-
 - name: "Regulation FD"
-  url: https://gitlab.edcast.com/pathways/3904353
+  url: https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-regulation-fd-training
   description: |
     Training for team members on Regulation FD requirements
   live_date: "2021-07-01"
@@ -1212,7 +1186,7 @@
   confidentiality: "Internal"
 
 - name: "PTO Training"
-  url: https://gitlab.edcast.com/pathways/1455744
+  url: https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/pto-training-1
   description: |
     Training for team members on PTO policy at GitLab
   live_date: "2021-05-01"
