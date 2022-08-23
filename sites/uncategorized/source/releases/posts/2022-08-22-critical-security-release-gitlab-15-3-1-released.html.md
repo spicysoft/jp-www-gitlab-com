@@ -38,6 +38,31 @@ A vulnerability in GitLab CE/EE affecting all versions starting from 11.3.4 befo
 
 Thanks [yvvdwf](https://hackerone.com/yvvdwf) for reporting this vulnerability through our HackerOne bug bounty program.
 
+### Workarounds
+
+If you're unable to upgrade right away, you can secure your GitLab
+installation against this vulnerability using the workaround outlined
+below until you have time to upgrade.
+
+#### Disable GitHub import
+
+Login using an administrator account to your GitLab installation and perform the
+following:
+
+1. Click "Menu" -> "Admin".
+1. Click "Settings" -> "General".
+1. Expand the "Visibility and access controls" tab.
+1. Under "Import sources" disable the "GitHub" option.
+1. Click "Save changes".
+
+### Verifying the workaround
+
+1. In a browser window, login as any user.
+1. Click "+" on the top bar.
+1. Click "New project/repository".
+1. Click "Import project".
+1. Verify that "GitHub" does not appear as an import option.
+
 ## Updating
 
 To update GitLab, see the [Update page](/update).
