@@ -87,10 +87,10 @@ Vulnerabilities progressing through the Deviation Request process will be assign
 
 | Step | Description | Label applied to the Vulnerability Issue | Label applied to the Deviation Request Issue |
 | ------ | ------ | ------ | ------ |
-| :one:  | Discover a DR is required for a Vulnerability Issue.    |<br> - `workflow::verification`<br> - `FedRAMP DR Status::Open` | n/a |
-| :two:  | Submit a Deviation Request | _label remains unchanged_ |`FedRAMP DR Status::Ready for review` <br> -  (_applied automatically using the issue templates_) |
-| :three:  | Perform an internal triage |_label remains unchanged_  |`FedRAMP DR Status::Compliance review` |
-| :four:  | Presentation of the review outcome | `FedRAMP DR Status::Closed` | `FedRAMP DR Status::AO approved`, `FedRAMP DR Status::AO denied` |
+| :one: | Discover a DR is required for a Vulnerability Issue. | - `workflow::verification`<br> - `FedRAMP DR Status::Open` | n/a |
+| :two: | Submit a Deviation Request | _label remains unchanged_ | `FedRAMP DR Status::Ready for review` <br> -  (_applied automatically using the issue templates_) |
+| :three: | Perform an internal triage | _label remains unchanged_ | `FedRAMP DR Status::Compliance review` |
+| :four: | Presentation of the review outcome | `FedRAMP DR Status::Closed` | `FedRAMP DR Status::AO approved`, `FedRAMP DR Status::AO denied` |
 ## Exceptions
 There are no exceptions allowed to this procedure. 
 
