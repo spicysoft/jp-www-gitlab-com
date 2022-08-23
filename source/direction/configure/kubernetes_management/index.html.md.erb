@@ -46,9 +46,18 @@ In collaboration with [monitoring](https://about.gitlab.com/direction/monitor/) 
 
 ### Pricing strategy
 
+Our pricing follows the GitLab buyer-based approach very closely and results in a slightly unusual setup. We have a Free offering for all our features, but that offering is severely limited if the user needs any separation of concerns or responsibilities.
+
 The agent is aimed at Platform and SRE teams. As a result, we assume that there are other teams our users serve. For this reason, our pricing leans heavily towards the Premium tier. Around every use case, we plan to launch as a Premium product, and want to move parts of the feature to Core as we better understand our users. The dividing line between Core and Premium features until now is around permissions management.
 
-Example: We moved the CI/CD tunnel to GitLab Core, but only when the agent uses the service account of the cluster side component. At the same time, we are building out a set of "impersonating" featues, where a GitLab user or a CI/CD job can be targeted with Kubernetes RBAC rules. The latter feature set will remain in Premium.
+#### Example
+
+Let me share with you a few examples, some of these are not available yet in the product, but they highlight the approach, I hope:
+
+- The CI/CD workflow allows anyone to use the Service account of the agent to deploy to a cluster. This is not acceptable for most companies as the agent Service account likely needs wide cluster permissions to serve all kinds of tasks, while every project should have only restricted permissions and be able to change only its own resources. [Restricting the permissions](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#restrict-project-and-group-access-by-using-impersonation) by project or group is a Premium feature.
+- The CI/CD workflow can be shared with groups and projects, and the right Kubernetes context for a given environment needs to be picked in the CI job. Today, the developers can pick any shared Kubernetes context, even the production one. We want to ship [a Premium feature that will allow platform engineers to restrict available contexts by environment](https://gitlab.com/gitlab-org/gitlab/-/issues/343885).
+- The GitOps workflow, similarly to the first point here, always uses the Service Account of the agent to deploy to a cluster. We want to [allow restricting this to sets of manifest](https://gitlab.com/gitlab-org/gitlab/-/issues/337904) similarly to the CI/CD workflow.
+- The GitOps workflow, today operates from a single repository: the manifests need to be stored within the agent configuration repo. We want to add support for [multiple manifest projects](https://gitlab.com/gitlab-org/gitlab/-/issues/283885). The simple, one-sided authorization will be in Free. Two-sided authorization, where both the agent needs to be shared and the other side needs to accept the sharing, will be a Premium feature.
 
 ### Today
 
