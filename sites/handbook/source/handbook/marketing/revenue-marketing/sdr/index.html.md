@@ -16,28 +16,28 @@ As a Business Development Associate (BDA), Sales Development Representative (SDR
 
 #### Slack Channels (by region)
 
-* **Main Channel - (Global Manager - Jean-Baptiste "JB" Larramendy)** = [`#sdr_global`](https://gitlab.slack.com/messages/C2V1KLY0Z)
+* **Main Channel - (Global Manager - Jean-Baptiste "JB" Larramendy)** = [`#sales_dev_global`](https://gitlab.slack.com/messages/C2V1KLY0Z)
     *  Sales Dev related shoutouts, questions, concerns, fun related invites      
-* **Announcements - (SDR Ops/Enablement - Chris Wang)** = [`#sdr-fyi`](https://app.slack.com/client/T02592416/C011P828JRL)     
+* **Announcements - (SDR Ops/Enablement - Chris Wang)** = [`#sales_dev_fyi`](https://app.slack.com/client/T02592416/C011P828JRL)     
     * Announcements and Reminders that involve multiple teams or are of high importance . More information can be [found here](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#sales-development-org-announcement-process)
     * It is requested  when a post in the Sales Dev FYI channel pertains to you that you leave a 👀 emoiji on the post to let management know that you read it.      
 
 **Global**
 * **SDR Global (Manager - Brian Tabbert)** = [`#sdr_global_inbound`](https://gitlab.slack.com/archives/C03RSSTLLMD/)
+* **BDA Global (Manager - Chris Wang)** = [`#bda_amer_emea_ent`](https://gitlab.slack.com/archives/C03K6GCLUJW)
 
 **AMER**
-* **All** = [`#sdr_amer`](https://gitlab.slack.com/messages/CM2GAVC78)      
 * **SDR AMER (Manager - Allison Graban)** = [`#sdr_amer_inbound`](https://gitlab.slack.com/archives/C02AVVBFUAW)
-* **BDR AMER Mid-Market (Manager - Sunanda Nair)** = [`#bdr_amer_mm`](https://app.slack.com/client/T02592416/C014PHFNE2U)
+* **BDR AMER Mid-Market (Manager - Bilal Husain)** = [`#bdr_amer_mm`](https://app.slack.com/client/T02592416/C014PHFNE2U)
 * **BDR Enterprise Expand AMER (Manager - Mauricio Nogales)** = [`#bdr_amer_ent_expand`](https://gitlab.slack.com/archives/CUFRP6U6Q)
-* **BDR Enterprise Land West (Manager - Charlotte Platt)** = [`#bdr_amer_ent_land_east`](https://gitlab.slack.com/archives/C01LK4EFDNW)
+* **BDR Enterprise Land West (Manager - Charlotte Platt)** = [`#bdr_amer_ent_land_west`](https://gitlab.slack.com/archives/C01LK4EFDNW)
 * **BDR PubSec (Manager - Josh Downey)** = [`#bdr_amer_pubsec`](https://gitlab.slack.com/archives/C02EBM1FN00)
-* **Enterprise Land East (Manager - Shamit Paul)** = [`#bdr_amer_ent_land_east`](https://gitlab.slack.com/archives/C01LK4EFDNW)
+* **BDR Enterprise Land East (Manager - Shamit Paul)** = [`#bdr_amer_ent_land_east`](https://gitlab.slack.com/archives/C01LK4EFDNW)
 
 **EMEA**
 * **All** = [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71)   
 * **SDR EMEA - (Manager - Glenn Perez)** = [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0LF6NL)   
-* **BDR Mid-Market - (Manager - Panos Rodopoulos)** = [`#bdr-emea-mm`](https://gitlab.slack.com/messages/CM0BYV7CM)
+* **BDR Mid-Market - (Manager - Panos Rodopoulos)** = [`#bdr_emea_mm`](https://gitlab.slack.com/messages/CM0BYV7CM)
 * **BDR Enterprise Expand - (Manager - Tati Fernandez)** = [`#bdr_emea_expand`](https://gitlab.slack.com/archives/C01LHENNLKD)
 * **BDR Enterprise Land - (Manager - Miguel Nunes)** = [`#bdr_emea_land`](https://gitlab.slack.com/archives/C01M76N9NTA)
 
@@ -53,7 +53,7 @@ As a Business Development Associate (BDA), Sales Development Representative (SDR
 | :----: |
 |  [Sales Development Org Onboarding page](/handbook/marketing/revenue-marketing/sdr/sdr-playbook-onboarding/) |
 |  [Tanuki Tech](/handbook/marketing/revenue-marketing/sdr/tanuki-tech/) |
-|  [Sales Development Org Edcast channel](https://gitlab.edcast.com/channel/sdr) |
+|  [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) |
 |  [Sales handbook page](/handbook/sales/) |
 |  [Go to Market page](/handbook/sales/field-operations/gtm-resources/) |
 |  [Sales Development Org Manager resources page](/handbook/marketing/revenue-marketing/sdr/sdr-manager-resources) |
@@ -112,7 +112,7 @@ As part of your [onboarding](/handbook/marketing/revenue-marketing/sdr/sdr-playb
 | AM | Account Manager |
 | AE | Account Executive |
 | APAC | Asia-Pacific |
-| BDA | Business Development Associate - focused on sourcing |
+| BDA | Business Development Associate - focused on learning and sourcing |
 | BDR | Business Development Represenative - focused on outbound |
 | CAM | Channel Account Manager |
 | CS | Customer Success |
@@ -133,7 +133,7 @@ As part of your [onboarding](/handbook/marketing/revenue-marketing/sdr/sdr-playb
 | Sales Serve | A sales method where a quota bearing member of the sales team closes the deal |
 | [SAO](/handbook/marketing/revenue-marketing/sdr/sales-sdr-alignment/#criteria-for-sales-accepted-opportunity-sao) | Sales Accepted Opportunity - an opportunity Sales agrees to pursue following an Initial Qualifying Meeting |
 | SDR | Sales Development Representative - focused on inbound |
-| Self Serve | A sales method where a customer purchases online through our web store |
+| Self Serve | A sales method where a customer purchases online through our web store. Also known as a "web direct" |
 | SLA | Service Level Agreement |
 | SQO | Sales Qualified Opportunity |
 | TAM | Technical Account Manager |
@@ -464,7 +464,7 @@ SDR Managers will monitor key metrics and ensure they are being handled effectiv
 
 * **Partner Prospecting Status:** If this is populated, the lead/contact is being worked by a partner and the Sales Dev team should not proceed with outreach. Instead the rep should change the ownership to Marketo Integration. BDRs should not bring these into their outreach on AWA’s.
 
-* **Actively Working” Status:** An account researched and chosen by the BDR and/or SAL- based on alignment to ICP, news insights, company initiative, intent, ABM list etc. This is an account that the BDR will proactively be performing strategic outreach to. There is no limit to how long an account can stay in “Actively working” status as long as outreach is continuing to be made.
+* **Actively Working Status:** An account researched and chosen by the BDR and/or SAL- based on alignment to ICP, news insights, company initiative, intent, ABM list etc. This is an account that the BDR will proactively be performing strategic outreach to. There is no limit to how long an account can stay in “Actively working” status as long as outreach is continuing to be made.
 BDRs will work these leads.
 
 * **Requirements to remain in Actively Working status:** All  “BDR comments” fields will need to be populated within 10 days of moving into “Actively Working” status and a minimum of 5 people will need to be added to sequences within 15 days of the “Actively Working” timestamp. Accounts will move back to queued should criteria not be met.
@@ -952,25 +952,7 @@ The Enterprise Land BDR team is responsible for creating qualified meetings and 
 
 ### AMER Enterprise Land Alignment
 
-East Land
-- **Manager:** Shamit Paul
-- Eduardo Guillen
-- Michael Lerner
-- Micah Lockerby
-- John Hegarty
-- Maria Spada
-- Kelsey Bartlett
-- Jason Yanelli
-
-West Land
-- Alex Demack
-- Paul Oakley
-- James Gray
-
-LATAM Enterprise
-- Leo Vieira
-
-These BDRs are aligned by accounts - [see Salesforce report](https://gitlab.my.salesforce.com/00O4M000004aftz).
+AMER Enterprise BDRs are aligned by accounts - [see Salesforce report](https://gitlab.my.salesforce.com/00O4M000004aftz).
 
 If you are trying to route a lead and the account is First Order Available and does NOT have an BDR Assigned on the account, please chatter Shamit Paul and she will assign to the BDR via round robin routing.
 
@@ -1018,21 +1000,45 @@ Slack is encouraged for informal communication, but anything related to strategy
 
 ### Geo BDR Account Prioritization Model
 
-**Account Scoring & Prioritization**
+#### ICP - Ideal Customer Profile
 
-The next step after identifying all of the Net New focus accounts in a region is to prioritize them. The scoring model below should be used to determine the Net New Account Tier which will help guide prioritization and prospecting efforts using the Outbound Prospecting Framework (below).
+* **High LAM** - High # of Estimated Dev Count left to purchase GitLab (you will need to consider the number in relation to employee size)
+* **High DB QS** - High Demandbase Qualification Score (greater than 70)
+* **SAL Insights** - Detail any SAL/AE given direction: sometimes found in Account Rank Notes/AE Notes fields
+* **Persons with LIMs** - Uncover via Demandbase or SFDC reporting that there has been recent engagement from persons at account
+* **Tech Used** - List technologies they use that signal they may be a good fit
+* **Triggers** - List any compelling events or “Why’s” that signal this is a good time to reach out. If there are none, write “None”.
 
-`A Tier Accounts` - Have at least 4 out of 5 qualifiers below
+Please add the above ICP Notes to your Account Research Fields on Salesforce
 
-`B Tier Accounts` - Have 3 out of 5 qualifiers below
 
-`C Tier Accounts` - Have 2 out of 5 qualifiers below
+#### Account Scoring & Prioritization
 
-`D Tier Accounts` - Have 1 out of 5 qualifiers below
+The next step after identifying all of the Net New focus accounts in a region is to prioritize them. The scoring model below should be used to determine the Priority level of the Net New Account which will help guide prioritization and prospecting efforts using the Outbound Prospecting Framework (below).
 
-`F Tier Accounts` - Have 0 out of 5 qualifiers OR zero direct revenue potential in the next 3 years
+`Priority 1 Actively Working Accounts (15%)`
+* Strong ICP Qualities 
+* Compelling Triggers
+* Strategy is Tailored and Targeted
+* Future based next step dates 
+* Specific next step notes
 
-**Account Scoring Qualifiers:**
+`Priority 2 Actively Working Accounts (35%)`
+* ICP qualities
+* No Triggers
+* Strategy is Targeted (persona/industry based) 
+* Future based next step dates updated weekly/bi-weekly
+* Next step notes should just include week # 
+
+`Priority 3 Actively Working Accounts (50%)`
+* ICP qualities
+* No Recent Triggers
+* Strategy is nurture based
+* Future based next step dates updated monthly
+* Next step notes should just include recent release # or event invite
+
+
+**Other Good Account Scoring Qualifiers:**
 *  Current CE Usage
 *  250+ employees in IT/TEDD positions
 *  Good Fit Industry / Vertical (High Growth, Technology, Financial, Healthcare, Regulated Business)
@@ -1041,13 +1047,13 @@ The next step after identifying all of the Net New focus accounts in a region is
 
 **Outbound Prospecting Framework**
 
-| **Tier**        |  **Goal**                 | **Priority Level**      | **Outbound Tactics**      |
+| **Priority Level**        |  **Account Strategy Includes**                 | **Next Step Date**      | **Next Step Notes**      |
 | :---------- |  :----------                  | :----------------- | :----------------------|
-| A Accounts   |    Conversations, IQMs, MQLs         |      High (60% of focus)      | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell, events |
-| B Accounts   |  Conversations, IQMs, MQLs           |      High (30% of focus)      | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell |
-| C & D Accounts |  Conversations, MQLs               | Low  (< 10% of focus)         | Automated role- / persona-based outreach, groundswell |
-| F Accounts |  Eliminate from BDR focus account lists   | Low (< 2% of focus)     | Do not focus on or attempt to qualify |
+| Priority 1   |    Priority #, Any Details         |      Future based next steps      | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell, events |
+| Priority 2   |  Priority #, Weekly Plan or Length of Sequence          |      Future based next steps depending on account strategy      | Include the weeks outreach and overall strategy|
+| Priority 3 |  Priority #             | Update Next Step Date to next months outreach         | BDR Next Step, What kind of nurture (Product Updates, Events, Ect) |
 
+Examples of the Outbound Prospecting Framework [Can be found here](https://docs.google.com/presentation/d/1O5unjpSTYQFENlfheUi6_ZNV2fbrIqQjxNBqtwhEaYw/edit#slide=id.g10be0957fec_0_488)
 
 
 ## Global Enterprise Expand BDR Team
