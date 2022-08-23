@@ -174,11 +174,11 @@ At the start of each Milestone, we create a Team Milestone Planning Issue (using
     <!-- Group Capacity is the number of weight points you are able to contribute to your group work this milestone.
     Flex Capacity is any extra weight points you'll hold in reserve to accommodate any OKR, UX Dept or any other extracorricular work that you expect will pop-up during this milestone  -->
     | Designer | Group Capacity | Flex Capacity | TOTAL Capacity |
-    | ------ | ------ | ------ | ------ |
-    | Andy     |   |   |   |
-    | Becka    |   |   |   |
-    | Camellia |   |   |   |
-    | Michael  |   |   |   |
+    | -------- | ------ | ------ | ------ |
+    | Andy     |        |        |        |
+    | Becka    |        |        |        |
+    | Camellia |        |        |        |
+    | Michael  |        |        |        |
 
      ### Product Designer's Out Of Office (OOO)
      | Designer | OOO Start - End |
@@ -193,90 +193,124 @@ At the start of each Milestone, we create a Team Milestone Planning Issue (using
      * [SUS Related Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/3738104?label_name[]=SUS&label_name[]=severity%3A%3A2)
 
     ### Composition Analysis UX Needs - UX Roadmap Theme: `<theme link here>`
-    #### UX Theme 
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-
-    #### Non-theme related needs
     
-    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+    #### UX Theme 
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
     | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    #### Non-theme related needs
+
+    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
     ### Container Security UX Needs
+    
     #### UX Theme 
-    
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-    
-    #### Non-theme related needs
-    
-    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
-    
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
-     2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+    | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    #### Non-theme related needs
+
+    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
     ### Dynamic Analysis UX Needs
+    
     #### UX Theme 
-    
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-    
-    #### Non-theme related needs
-    
-    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
-    
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
     | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    #### Non-theme related needs
+
+    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
     ### Static Analysis UX Needs
+    
     #### UX Theme 
-    
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-    
-    #### Non-theme related needs
-    
-    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
-    
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
     | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
-    ### Threat Insights UX Needs
-    #### UX Theme 
-    
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-    
     #### Non-theme related needs
-    
+
     <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    ### Threat Insights UX Needs
     
+    #### UX Theme 
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
     | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    #### Non-theme related needs
+
+    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
     ### OKR/Extra UX Needs
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight |
@@ -288,7 +322,7 @@ At the start of each Milestone, we create a Team Milestone Planning Issue (using
      * [ ] Set the Due Date for the end of the current Milestone
      * [ ] Assign the entire team PMs and PDs
 
-    /label ~"section::sec" ~"Planning Issue"
+    /label ~"section::sec" ~"Planning Issue" ~"ux" ~"type::ignore
 
 
 ##### Understanding capacity
