@@ -1,0 +1,238 @@
+---
+layout: secure_and_protect_direction
+title: Product Section Direction - Security
+description: "Security visibility from development to operations to minimize risk"
+canonical_path: "/direction/security/"
+---
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+<p align="center">
+    <font size="+2">
+        <b>Security visibility from development to operations to minimize risk</b>
+    </font>
+</p>
+
+GitLab provides the single application organizations need to find, triage, and fix vulnerabilities as well as protect
+applications, services, and cloud-native environments. This enables organizations to proactively manage their overall
+security risk.
+
+This empowers organizations as they can apply repeatable, defensible processes that automate security and compliance
+policies from development to production.
+
+<%= devops_diagram(["Secure","Protect"]) %>
+
+## Section Overview
+
+The Sec Section focuses on providing security visibility across the entire software development lifecycle and is
+comprised of the [Secure](https://about.gitlab.com/direction/secure/) and [Protect](https://about.gitlab.com/direction/protect/)
+stages of the DevOps lifecycle. This is accomplished by
+[shifting security testing left](https://about.gitlab.com/direction/security/#shift-left-no-more-left-than-that) with
+the Secure stage enabling developers to begin security scanning with their first written line of code. As applications
+and application updates are moved into production, the Protect stage provides SecOps and Ops teams the ability to
+mitigate attacks targeting the applications in cloud-native environments. The combination of both stages provides
+organizations with visibility into their security risk from the first line of code written to applications
+deployed within production.
+
+### GitLab and the DevSecOps Lifecycle
+
+GitLab is uniquely positioned to fully support DevSecOps by providing a single application for the entire software development lifecycle. This includes both shifting application security testing (AST) left as well as protection capabilities for applications running within production.
+
+![DevSecOps Lifecycle](/images/direction/sec/DevSecOps_Lifecycle.png)
+
+GitLab’s single application completely maps directly to the DevSecOps lifecycle. The Secure Stage provides the Develop, Analyze, and Mitigate portions of the DevSecOps lifecycle, while GitLab's Protect stage provides the Protect portion.  Together, GitLab supports all teams involved in delivering secure applications:
+
+* Develop: Developers create new source code, including new features and bug fixes, and commit this code to a branch within the project. This step is supported by the [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) stage of the DevOps lifecycle providing developers with [source code management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [code editors](https://about.gitlab.com/direction/create/editor/web_ide/), and [code review](https://about.gitlab.com/stages-devops-lifecycle/code-review/) workflows.
+* Analyze: Upon code commit, Secure scanners are automatically started and identify any new security findings with the delta code change. This enables developers to stay within context enabling them to understand the cause and effect of their code change. Secure scanners leverage the [Verify](https://about.gitlab.com/stages-devops-lifecycle/verify/) stage of the DevOps lifecycle to provide scanning within the [CI pipeline](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/).
+* Mitigate: Developers are provided with the [details needed](https://docs.gitlab.com/ee/user/application_security/index.html#interacting-with-the-vulnerabilities) to understand how to remediate the newly introduced security findings. Developers are also offered [automatic remediation](https://docs.gitlab.com/ee/user/application_security/#automatic-remediation-for-vulnerabilities) where applicable.
+* Protect: Security and operations teams can protect applications once they are deployed into cloud-native environments by [scanning container images](https://docs.gitlab.com/ee/user/application_security/cluster_image_scanning/) for vulnerabilities.
+
+### Lowering the Cost of Remediation
+
+The earlier a security vulnerability can be remediated has both risk reduction and cost reduction benefits.
+
+![Cost of Remediation](/images/direction/sec/Cost_Of_Remediation.png)
+
+When security vulnerabilities are identified at the time of code commit, developers can understand how their newly
+introduced code has led to this new issue. This gives the developer a cause-and-effect enabling quicker resolution
+while not having the time hit of context switching. This is not true as security scanning is performed later in the
+software development lifecycle. New vulnerabilities may not be identified until weeks or months after they were added
+to the application while under development.
+
+Time is not the only savings when shifting security left.
+
+![Stage of Remediation](/images/direction/sec/Stage_of_Remediation.png)
+
+In [“The Economic Impacts of Inadequate Infrastructure for Software Testing”](https://www.nist.gov/system/files/documents/director/planning/report02-3.pdf), NIST estimated the cost of remediating software bugs at $59.5 billion/year. This is compounded when taking in the average time to remediate software bugs. In [“Software Development Price Guide & Hourly Rate Comparison”](https://www.fullstacklabs.co/blog/software-development-price-guide-hourly-rate-comparison), FullStack Labs estimates the average cost of a software developer at $300/hour. The following table outlines the cost to remediate software bugs at different stages of the software development lifecycle:
+
+![Completed Loop](/images/direction/sec/costs_table.png)
+
+These costs are just the start of the financial impact when the software bug is also a software vulnerability. IBM, in partnership with the Ponemon Institute, put the [average cost to remediate a data breach in 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) at $3.86 million (USD). This does not take into consideration the reputation impact to the organization.
+
+### Closing the Loop
+
+Having visibility into security risk in just development only provides you with half of the picture. Development and
+SecOps teams need to have a closed feedback loop enabling both teams to be successful. Development teams can gain
+insight into attacks targeting the applications they develop. This allows them to prioritize vulnerabilities correctly,
+enabling proactive resolutions to reduce risk. Likewise, SecOps teams can gain insight from their development
+counterparts, providing them with visibility into how the application works. This allows them to best apply proactive
+measures to mitigate attacks targeting the application until development can fix the vulnerability.
+
+![Completed Loop](/images/direction/sec/Completed_Loop.png)
+
+Closing the loop requires close collaboration, transparency, and efficiencies that only a single platform for the entire DevOps lifecycle can provide. Shifting security left while also providing protection for applications in production within a single application empowers teams to work closer together. [Security is a team sport](https://ddesanto-update-sec-direction-fy21q4.about.gitlab-review.app/direction/security/#security-is-a-team-effort) and teams working together can best reduce their organization’s overall security risk.
+
+### Groups
+
+The Security Section is made up of two DevOps stages, Secure and Protect, and six groups supporting the major categories of DevSecOps including:
+
+* **Static Analysis** - Assess your applications and services by scanning your source code for vulnerabilities and weaknesses.
+* **Dynamic Analysis** - Assess your applications and services while they are running by leveraging the [Review App](https://docs.gitlab.com/ee/ci/review_apps/) available as part of GitLab’s CI/CD functionality.
+* **Composition Analysis** - Assess your applications and services by analyzing dependencies for vulnerabilities and weaknesses, confirming only approved licenses are in use, and scanning your containers for vulnerabilities and weaknesses.
+* **Threat Insights** - Holistically view, manage, and reduce potential risks across the entire DevSecOps lifecycle including Security Merge Request Views, Pipeline Security Reports, and Security Dashboards at the Project, Group, and Instance level.
+* **Container Security** - Monitor and protect your cloud-native applications and services by leveraging context-aware knowledge to improve your overall security posture.
+* **Vulnerability Research** - Leverage GitLab research to empower your Secure results by connecting security findings to industry references like [CVE IDs](https://cve.mitre.org).
+
+### Teams and Investments
+
+#### Team members
+
+The existing team members for the Sec Section can be found in the links below:
+
+* [Development](https://about.gitlab.com/company/team/?department=sec-section)
+* [User Experience](https://about.gitlab.com/company/team/?department=secure-ux-team)
+* [Product Management](https://about.gitlab.com/company/team/?department=sec-pm-team)
+* [Quality Engineering](https://about.gitlab.com/company/team/?department=sec-modelops-qe-team)
+
+#### Investments
+
+Learn more about GitLab's investment into the Sec section by visiting our
+[Product Investment](https://internal-handbook.gitlab.io/handbook/product/investment/) page within the
+[Product Handbook](https://about.gitlab.com/handbook/product/).
+
+### Accomplishments, News, and Updates
+
+The following are the updates from the Sec Section for January 2022 (as presented in the monthly
+[Product Key Review](https://about.gitlab.com/handbook/key-review/)). A complete list of released features
+can be found on the [Release Feature Overview](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features&selectedStages=secure&selectedStages=protect)
+page and a complete list of upcoming features can be found on the [Upcoming Releases](https://about.gitlab.com/upcoming-releases/) page.
+
+#### Section & team member updates
+
+* No new updates at this time
+
+#### Important PI milestones
+
+* Secure:Static Analysis, Secure:Dynamic Analysis, and Secure:Composition Analysis have met availability targets and stayed below Error Budget goals for five months running!
+
+#### Recent accomplishments
+
+* [Static Analysis analyzer updates](https://about.gitlab.com/releases/2022/01/22/gitlab-14-7-released/#static-analysis-analyzer-updates)
+* [Gitleaks performance improvements](https://about.gitlab.com/releases/2022/01/22/gitlab-14-7-released/#major-gitleaks-performance-improvements)
+* [Add Support for SAST to Security Orchestration Policies](https://gitlab.com/groups/gitlab-org/-/epics/6586)
+
+#### What’s ahead
+* [Security Approval policies](https://gitlab.com/groups/gitlab-org/-/epics/6237)
+* [Inline Security training](https://gitlab.com/groups/gitlab-org/-/epics/6176)
+* [Show paths to dependencies MVC](https://gitlab.com/groups/gitlab-org/-/epics/3843)
+* [GA Container Scanning category support for scans against running containers](https://gitlab.com/groups/gitlab-org/-/epics/3410)
+* [Improve tracking accuracy of SAST, Secret Detection findings](https://gitlab.com/groups/gitlab-org/-/epics/5144)
+* [Browser-based DAST passive attack parity](https://gitlab.com/groups/gitlab-org/-/epics/5779)
+* [Fuzz Testing corpus management interface](https://gitlab.com/groups/gitlab-org/-/epics/5017)
+* [DAST Configuration UI Implementation](https://gitlab.com/groups/gitlab-org/-/epics/5981)
+* [Schedule DAST scans on demand](https://gitlab.com/groups/gitlab-org/-/epics/4876)
+* [Vulnerability Dismissal Types / Reasons](https://gitlab.com/groups/gitlab-org/-/epics/4942)
+
+## 3 Year Section Themes
+
+<%= partial("direction/secure/templates/themes") %>
+
+<%= partial("direction/protect/templates/themes") %>
+
+## 1 Year Plan
+
+### What We Recently Completed
+
+The Sec team has been actively delivering updates to help you reduce risk.  The following are some highlights from recent GitLab releases:
+* **Next Generation SAST.** We released a proprietary static application security testing engine, initially focused on reducing false positives in Ruby and Rails, that builds upon years of experience leveraging open source analyzers. This engine leverages program analysis techniques, including data and control flow analysis and a novel pattern extraction language, to eliminate vulnerabilities that may have been falsely reported by other integrated security tools. It also lays the groundwork for future integration of across scanning disciplines offered within GitLab for smarter, more actionable results.
+* **DAST API Beta.** We beta-released API scanning capabilities based on technology gains from our acquisition of Peach Tech. This scanner will eventually fully replace OWASP ZAP as our API scanner, but in the immediate term gave users the benefit of enabling more API specification methods, more API language support, and additional authentication methods, as well as the ability to use Postman collections and HAR files to provide multiple options for defining what can be tested in the API.
+* **Infrastructure as Code (IaC) Scanning.** We released an IaC scanner to address common misconfiguration issues in IaC templates. Initially, our scanner supports Terraform, Ansible, AWS CloudFormation, and Kubernetes and is based on the open-source Keeping Infrastructure as Code Secure (KICS) project.
+* **Policy Engine.** We released project-level DAST and secret detection scan execution policies as a first iteration toward our long-term vision to provide a consistent security policy framework across all of GitLab.
+* **Vulnerability Management Usability.** We've made multiple usability improvements to our vulnerability management workflows, including a change to the structure of our reporting format so that, regardless of scanner provenance, results are handled and displayed uniformly for the user in the UI. 
+
+### What We Are Currently Working On
+
+The Sec team is actively working to bring world class security to DevSecOps and the following outlines where we are currently investing our efforts:
+* **Application Security Testing (AST) Leadership** - We will take a leadership position within the Application Security Testing (AST) market.  This will be accomplished by focusing on moving [Dynamic Analysis (DAST)](https://about.gitlab.com/direction/secure/#dast), [API Security](https://about.gitlab.com/direction/secure/dynamic-analysis/api-security/), [Dependency Scanning](https://about.gitlab.com/direction/secure/#dependency-scanning), and [Vulnerability Management](https://about.gitlab.com/direction/secure/vulnerability_management/) categories to [Complete](https://about.gitlab.com/direction/maturity/) maturity, as well as returning [License Compliance](https://about.gitlab.com/direction/secure/composition-analysis/license-compliance/) to [Viable](https://about.gitlab.com/direction/maturity/) maturity.
+* **Dogfooding** - We will [“practice what we preach”](https://www.dictionary.com/browse/practice-what-you-preach), including leveraging Secure Categories in all things GitLab does.  This tight circle will provide immediate feedback and increase our rate of learning.
+* **Security for everyone** - In order to make security accessible to everyone across the DevOps lifecycle, we will bring all Secure OSS scanners to Core (self-managed) / Free (GitLab.com).
+* **Security Orchestration** - Provide a unified user experience for viewing, triaging, and resolving alerts from cloud-native environments while also enabling security policy management across development, staging, and production.
+
+
+### What's Next For Us
+
+To meet our [audacious goals](https://about.gitlab.com/company/mission/#big-hairy-audacious-goal), the Sec Section will focus on the following over the next 12 months:
+
+* **Differentiate on value** - Running a security test is just the beginning.  GitLab's unique visibility into the full picture of application code, configuration, and behavior puts us in a unique position to do many things: connect findings across scanning disciplines for higher-fidelity results, better evaluate the true risk of a finding, tie findings and behaviors back to the original code and code owners, and so on.  We will start to leverage this advantaged position to develop value-add capabilities that only a platform like GitLab can offer. 
+* **Holistic developer-first experience** - We will capitalize on a unique opportunity to present results and activate workflows for developers and security professionals that standalone security products cannot replicate.  We want to provide a first-class experience and enable users to make data-driven decisions to secure their applications and services as well as their enterprise.  Our [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/#gitlab-security-dashboard) and [Merge Request Approvals](https://docs.gitlab.com/ee/user/application_security/index.html#security-approvals-in-merge-requests) is just the beginning.
+* **Cross-stage Security Policy Management** - Allowing users to configure and manage security policies in a unified manner across their GitLab Workspace.  This includes managing policies for applications running in production (such as managing network policies) as well as managing policies that specify when scans should be required to run.
+* **Cross-stage Security Alert Management** - Allowing users to interact with a single dashboard to review and manage their Security Alerts across all of GitLab.  This includes Alerts generated from production environments, Alerts generated from the results of scans, and other GitLab security-related Alerts.
+* **First-class Container Security** - We will continue to build out our container scanning capabilities to provide GA support for production container scanning and reduce noise overall.
+
+
+### What We're Not Doing
+
+The following will NOT be a focus over the next 12 months:
+* **Machine learning** - Machine learning (ML) will be leveraged, as part of static analysis, to identify insecure coding practices and help developers write more secure code.  This will be opt-in and will enable the power of the GitLab global community.
+* **Security services** - The cybersecurity staffing shortage [continues to grow](https://www.forbes.com/sites/martenmickos/2019/06/19/the-cybersecurity-skills-gap-wont-be-solved-in-a-classroom/#79a380dd1c30) with no solvable solution yet defined.  To solve this issue, organizations have been relying on security services to fill this gap in their security processes.  As part of Secure’s 3 Year Strategy, we want to address this for the GitLab community by offering cybersecurity augmentation powered by GitLab Secure categories.
+* **SIEM functionality** - Security Information and Event Management (SIEM) solutions are a common tool leveraged by IT Ops and SecOps organizations to monitor for events within their production environments. The Protect stage will support exporting security events to external SIEM solutions, including the Monitor stage, as well as Monitor on-call functionality.
+* **Non-cloud native environments** - Enterprises are undergoing cloud-native transformations shifting from traditional data centers to public cloud environments leveraging technologies like Kubernetes. Protect will focus on meeting enterprises where they are going and not focus on where they are coming from.
+
+
+## Target audience
+
+GitLab identifies who our DevSecOps application is built for utilizing the following categorization. We list our view of who we will support when in priority order.
+* 🟩- Targeted with strong support
+* 🟨- Targeted but incomplete support
+* ⬜️- Not targeted but might find value
+
+### Today
+To capitalize on the [opportunities](#opportunities) listed above, the Sec Section has features that make it useful to the following personas today.
+1. 🟩 Developers / Development Teams
+1. 🟩 Security Teams
+1. 🟨 SecOps Teams
+1. 🟨 QA engineers / QA Teams
+1. ⬜️ Security Consultants
+
+### Medium Term (1-2 years)
+As we execute our [3 year strategy](#3-year-strategy), our medium term (1-2 year) goal is to provide a single DevSecOps application that enables collaboration between developers, security teams, SecOps teams, and QA Teams.
+1. 🟩 Developers / Development Teams
+1. 🟩 Security Teams
+1. 🟩 SecOps Teams
+1. 🟩 QA engineers / QA Teams
+1. 🟨️ Security Consultants
+
+## Stages and Categories
+
+The Sec section is composed of two stages, [Secure](/direction/secure/) and [Protect](/direction/protect/), each of which contains several categories. Each stage has an overall
+strategy statement below, aligned to the themes for Sec. Each category within each stage has a dedicated direction page
+plus optional documentation, marketing pages, and other materials linked below.
+
+<%= partial("direction/secure/templates/strategies") %>
+
+<%= partial("direction/protect/templates/strategies") %>
+
+## Upcoming Releases
+
+<%= direction["all"]["all"] %>
+
+<p align="center">
+    <i><br>
+    Last Reviewed: 2021-12-13<br>
+    Last Updated: 2021-12-13
+    </i>
+</p>

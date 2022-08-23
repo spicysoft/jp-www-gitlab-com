@@ -1,0 +1,94 @@
+title: What is a centralized version control system
+description: GitLab streamlines software development with comprehensive version
+  control and collaboration
+header_body: A centralized version control system offers software development
+  teams a way to collaborate using a central server.
+canonical_path: /topics/version-control/what-is-centralized-version-control-system/
+file_name: what-is-centralized-version-control-system
+parent_topic: version-control
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+body: >-
+  In a centralized [version control system](/topics/version-control/) (CVCS), a server acts as the main
+  repository which stores every version of code. Using centralized source
+  control, every user commits directly to the main branch, so this type of
+  version control often works well for small teams, because team members have
+  the ability to communicate quickly so that no two developers want to work on
+  the same piece of code simultaneously. Strong [communication and collaboration](/topics/version-control/software-team-collaboration/)
+  are important to ensure a centralized workflow is successful.
+
+
+  > Centralized source control systems, such as CVS, Perforce, and SVN, require users to pull the latest version from the server to download a local copy on their machine. Contributors then push commits to the server and resolve any merge conflicts on the main repository.
+
+
+  As a client-server model, a centralized workflow enables file locking so that any piece of the code that’s currently checked out will not be accessible to others, ensuring that only one developer can contribute to the code at a time. Team members use branches to contribute to the central repository, and the server will unlock files after merges.
+
+
+  ## What are the advantages of a centralized version control system?
+
+
+  ### Works well with binary files
+
+
+  Binary files, such as graphic assets and text files, require a large amount of space, so software developers turn to centralized version control systems to store this data. With a centralized server, teams can pull a few lines of code without saving the entire history on their local machine. Users of [distributed systems](/topics/version-control/benefits-distributed-version-control-system/) have to download the entire project, which takes up time and space and prevents them from doing diffs. If a team works with binary files regularly, a centralized system offers the most efficient approach to code development.
+
+
+  ### Offers full visibility
+
+
+  With a centralized location, every team member has full visibility into what code is currently worked on and what changes are made. This knowledge helps software development teams understand the state of a project and provides a foundation for collaboration, since developers share work in the central server. A centralized version control system only has two data repositories that users have to monitor: the local copy and the central server. [Distributed](https://about.gitlab.com/resources/whitepaper-moving-to-git/) version control systems, like Git, use multiple repositories, which can decrease insight into projects.
+
+
+  ### Decreases the learning curve
+
+
+  Centralized version control is easy to understand and use, so developers of any skill level can push changes and start contributing to the code quickly. Setting up the system and the workflow is also simple and doesn’t require a significant amount of time investment to establish how the software development team should use the tool. When developers can navigate a workflow quickly and easily, they’re able to focus on feature development rather than memorizing a series of complicated steps to merge versioned changes. Decreasing the learning curve also helps new developers make an impact as soon as possible.
+
+
+  ## What are the disadvantages of a centralized version control system?
+
+
+  ### A single point of failure risks data
+
+
+  The biggest disadvantage is the single point of failure embedded within the [centralized server](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control). If the remote server goes down, then no one can work on the code or push changes. The lack of offline access means that any disruption can significantly impact code development and even result in code loss. The entire project and team comes to a standstill during an outage. In the event of hard disk corruption, software development teams must rely on backups to retrieve the running history of a project. If backups haven’t been kept properly, then the team loses everything. When storing all versions on a central server, teams risk losing their source code at any time. Only the snapshots on local machines are retrievable, but that is a small amount of code compared to the entire history of a project.
+
+
+  Unlike a centralized VCS, a distributed version control system enables every user to have a local copy of the running history on their machine, so if there’s an outage, every local copy becomes a [backup copy](https://about.gitlab.com/blog/2020/11/19/move-to-distributed-vcs/) and team members can continue to development offline.
+
+
+  ### Slow speed delays development
+
+
+  Centralized version control system users often have a difficult time branching quickly, because users must communicate with the remote server for every command, which slows down code development. [Branching](https://about.gitlab.com/resources/ebook-git-branching-strategies/) becomes a time-consuming task and allows merge conflicts to appear, because developers can’t push their changes to the repository fast enough for others to view. If team members have slow network connections, the code development process becomes even more tedious when trying to connect with the remote server.
+
+
+  The speed at which software development teams operate has a direct impact on how quickly they can ship features and deliver business value. If teams are slow to develop, iteration and innovation stall and developers can become frustrated with how long it takes to see their changes in the application. Missed releases are possible if the remote server or networks are down, and team members won’t be able to make up for lost time and quickly push changes.
+
+
+  ### Few stable moments to push changes
+
+
+  A centralized workflow is easy for small teams to utilize, but there are limitations when larger teams try to collaborate. When multiple developers want to work on the same piece of code, it becomes difficult to find a stable moment to push changes. Unstable changes cannot be pushed to the main repository so developers have to keep them local until they’re ready for release.
+
+
+  Because users delay pushing changes, software development projects can be delayed, and merge conflicts can arise, because the rest of the team doesn’t have visibility into changes that exist only on a user’s machine. Once changes are finally pushed to the central repository - after dealing with stability and speed issues - users will have to resolve conflicts quickly when merging to ensure the rest of the team can contribute to the code. The lack of stability is what leads many teams to [migrate to a different version control system](https://about.gitlab.com/blog/2020/11/12/migrating-your-version-control-to-git/), such as Git.
+cta_banner:
+  - title: Learn how GitLab modernizes software development
+    cta:
+      - url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
+        text: Learn More
+    body: GitLab streamlines software development with comprehensive version control
+      and collaboration.
+resources_title: Want to learn more about version control?
+resources:
+  - url: https://about.gitlab.com/webcast/collaboration-without-boundaries/
+    title: Watch how GitLab strengthens delivery and collaboration
+    type: Webcast
+  - url: https://about.gitlab.com/resources/ebook-version-control-best-practices/
+    title: Download the version control best practices eBook to strengthen
+      collaboration
+    type: Books
+suggested_content:
+  - url: /blog/2020/11/19/move-to-distributed-vcs/
+  - url: /blog/2019/10/28/optimize-gitops-workflow/
+  - url: /blog/2016/08/29/trends-in-version-control-land-open-source/

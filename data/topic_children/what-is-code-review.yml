@@ -1,0 +1,62 @@
+description: Code reviews ensure developers ship the highest quality code
+  through systematic assessments designed to identify bugs.
+canonical_path: /topics/version-control/what-is-code-review/
+parent_topic: version-control
+file_name: what-is-code-review
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: What is a code review?
+header_body: Code reviews ensure developers ship the highest quality code
+  through systematic assessments designed to identify bugs.
+body: >-
+  # What is a code review, and why is it important?
+
+
+  [Code reviews](/stages-devops-lifecycle/source-code-management/) act as quality assurance of the code base. Software developers should be encouraged to have their code reviewed as soon as they’ve completed coding to get a second opinion on the solution and implementation. The reviewer can also act as a second step in identifying bugs, logic problems, or uncovered edge cases. Reviewers can be from any team or group as long as they’re a domain expert. If the lines of code cover more than one domain, two experts should review the code.
+
+
+  > Code reviews are methodical assessments of code designed to identify bugs, increase code quality, and help developers learn the source code.
+
+
+  Developing a strong code review process, or [utilizing version control](/topics/version-control/), sets a foundation for continuous improvement and prevents unstable code from shipping to customers. Code reviews should become part of a software development team’s workflow to ensure that every piece of code has been looked at by another team member. The code review process is an important part in spreading knowledge throughout an organization and shipping high quality products to customers.
+
+
+  ![A computer screen with lines of code surrounded by four people, one trashcan, and one symbol to show work in progress](https://about.gitlab.com/images/illustration_code.png)
+
+
+  # What are the benefits of code reviews?
+
+
+  * **Share knowledge**: When software developers review code as soon as a team member makes changes, they can learn new techniques and solutions. Code reviews help junior developers learn from more senior team members, similar to how pair programming effectively helps developers [share skills](https://about.gitlab.com/blog/2019/08/20/agile-pairing-sessions/) and ideas. By spreading knowledge across the organization, code reviews ensure that no person is a single point of failure. Everyone has the ability to review and offer feedback. Shared knowledge also helps team members take vacation, because everyone on the team has background knowledge on a topic.
+
+  * **Discover bugs earlier**: Rather than discovering bugs after a feature has been shipped and scrambling to release a patch, developers can immediately find and fix problems before customers ever see them. Moving the review process earlier in the software development lifecycle through unit tests helps developers work on fixes with fresh knowledge. When waiting until the end of the lifecycle to do a review, developers often struggle to remember code, solutions, and reasoning. Static analysis is a cheap, [efficient](https://about.gitlab.com/blog/2020/09/08/efficient-code-review-tips/) way to meet business and customer value.
+
+  * **Maintain compliance**: Developers have various backgrounds and training that influence their coding styles. If teams want to have a standard coding style, code reviews help everyone adhere to the same standards. This is especially important for open source projects that have multiple individuals contributing code. Peer reviews bring in maintainers to assess the code before pushing changes.
+
+  * **Enhance security**: Code reviews create a high level of security, especially when security professionals engage in a targeted review. Application security is integral in software development, and code reviews help ensure compliance. Security team members can review code for vulnerabilities and alert developers to the threat.
+
+  * **Increase collaboration**: When team members work together to create a solution, they feel more ownership of their work and a stronger sense of belonging. Authors and [reviewers](https://about.gitlab.com/blog/2020/10/13/merge-request-reviewers/) can work together to find the most effective solutions to meet customer needs. It’s important to strengthen collaboration across the software development lifecycle to prevent information silos and maintain a seamless workflow between teams. To successfully conduct code reviews, it’s important that developers build a code review [mindset](https://www.smashingmagazine.com/2019/06/bringing-healthy-code-review-mindset/) that has a strong foundation in collaborative development.
+
+
+  # What are the disadvantages of code reviews?
+
+
+  * **Longer time to ship**: The review time could [delay](https://about.gitlab.com/blog/2020/07/03/challenges-of-code-reviews/) the release process, since reviewers have to [collaborate](/topics/version-control/software-team-collaboration/) with authors to discuss problems. Depending on a reviewer’s workload, they may not complete a review as fast as the author would like. This challenge can be overcome by using code review tools that include automated testing to find errors. Automated tooling is an effective way to free up developer time so that they can focus on the larger software engineering problems rather than highlight simple lint errors.
+
+  * **Pull focus from other tasks**: Developers often have a heavy workload, and a code review can pull their focus away from other high priority tasks that they’re responsible for delivering. Team members may be forced to decide between completing their task or halting their work in order to do a code review. In either case, work is delayed somewhere across the organization. To reduce this pain point, team members can have a [reviewer roulette](https://about.gitlab.com/blog/2019/10/23/reviewer-roulette-one-year-on/) or a list of domain experts so that a single developer isn’t inundated with review requests.
+
+  * **Large reviews mean longer review times**: If developers have to conduct code reviews on a large change, they could spend a significant amount of time examining the code. Large code reviews are challenging to assess, and developers may naturally move through the process quickly in order to complete it in a timely manner, resulting in decreased feedback quality. Incremental code development prevents this challenge by enabling reviewers to look at a small piece of code several times rather than a large change at once.
+cta_banner:
+  - cta:
+      - url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
+        text: Learn More
+    title: Discover how GitLab streamlines the code review process
+    body: GitLab streamlines software development with comprehensive version control
+      and collaboration.
+resources_title: Ready to learn more about code reviews?
+resources:
+  - url: https://page.gitlab.com/resources-demo-scm.html
+    title: Watch how GitLab simplifies development with code review features
+    type: Articles
+  - url: https://about.gitlab.com/resources/ebook-version-control-best-practices/
+    title: Download the version control best practices eBook to enhance collaboration
+    type: Books

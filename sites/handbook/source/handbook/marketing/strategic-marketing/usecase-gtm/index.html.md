@@ -102,7 +102,7 @@ Core DevOps Solutions have DRIs and a wealth of internally-focused and externall
 | **TMM** | Itzik | William Arias | Cesar Saavedra | William Arias |
 | **PM** | Jackie Porter  | Daniel Gruesso | Viktor Nagy | n/a |
 | **Resource page** | [CI resource](https://about.gitlab.com/handbook/marketing/strategic-marketing/usecase-gtm/ci/)| [SCM resource](/handbook/marketing/strategic-marketing/usecase-gtm/version-control-collaboration/) | [GitOps resource](/handbook/marketing/strategic-marketing/usecase-gtm/gitops/) | [Agile planning](https://about.gitlab.com/handbook/marketing/strategic-marketing/usecase-gtm/agile/) |
-| **Capabilities page** | [CI](https://about.gitlab.com/solutions/CI) | [SCM capabilities](https://about.gitlab.com/solutions/benefits-of-using-version-control/) | URL tbd | URL tbd |
+| **Capabilities page** | [CI](https://about.gitlab.com/solutions/CI) | [SCM capabilities](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) | URL tbd | URL tbd |
 | **Topic page** | [CI-CD](https://about.gitlab.com/topics/ci-cd/) | [SCM](https://about.gitlab.com/version-control/) | [What is GitOps?](/topics/gitops/) | 
 | **Campaign page** | [CI landing page](https://about.gitlab.com/why/use-continuous-integration-to-build-and-test-faster/) | [SCM landing page](https://about.gitlab.com/why/simplify-collaboration-with-version-control/) | [GitOps landing page](/why/gitops-infrastructure-automation/) | tbd |
 | **Sales resources** | tbd| **web-selling only** |[Infrastructure Automation](https://about.gitlab.com/handbook/marketing/sales-plays/gitops/) | t bd) |

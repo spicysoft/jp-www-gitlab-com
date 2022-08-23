@@ -1,0 +1,93 @@
+title: Dublin City University
+canonical_path: /customers/dublin-city-university/
+cover_image: /images/blogimages/dcu.jpg
+cover_title: |
+    How Dublin City University empowers students for the IT industry with GitLab
+cover_description: |
+    DCU, a pioneer in computer applications education, uses GitLab SCM and CI to drive students’ software projects and achieve top results.
+twitter_image: /images/blogimages/dcu.jpg
+twitter_text: Dublin City University, a pioneer in computer applications education, uses GitLab SCM and CI to drive students’ software projects and achieve top results.
+customer_logo: /images/case_study_logos/Dublin_City_University_Logo.svg
+customer_logo_css_class: brand-logo-tall
+customer_industry: Education
+customer_location: Dublin, Ireland
+customer_solution: GitLab Gold
+customer_employees: 625 employees
+customer_overview: |
+    GitLab CI and SCM provides DCU with an elevated education experience in software development.
+customer_challenge: |
+    DCU needed to evolve from coding on paper to a software platform that provides code management, continuous integration, and transparency.
+key_benefits: >-
+
+
+      Students own their own workflow
+
+
+      Software project exposure
+
+
+      Management of students’ work
+
+
+      End-to-end visibility
+
+
+      Virtual management
+
+
+      Improved IT employability 
+
+customer_stats:
+  - stat: |
+      11,720
+    label: CI jobs running
+  - stat: |
+      2,529 
+    label: Repos running
+  - stat: 472 
+    label: Current project repos
+customer_study_content:
+  - title: the customer
+    subtitle: Dublin’s premiere computer applications university
+    content: >-
+    
+        Dublin City University, DCU, is a Dublin-based university that was established in 1975. The school has approximately 17,000 enrolled students and over 50,000 alumni. In addition, [DCU](https://www.dcu.ie/) has over 1,200 students enrolled in its online education program called DCU Connected. The electronic engineering and computer applications courses are the school’s most popular degrees and are considered amongst Ireland’s most sought after and prestigious computer courses.
+      
+  - title: the challenge
+    subtitle: Updating how coding is delivered
+    content:
+        As an academic program, part of the software engineering schools’ focus is managing and delivering various software development projects. In the past, these projects were all paper-based and manual. Some students were learning to code and some were not, thereby creating an imbalanced educational program.  
+
+
+        To ensure that students kept up with technology, learning methods needed to be innovated and transformed. The school was looking to implement a single, open source software platform. Ideally, the solution would provide [source code management](/stages-devops-lifecycle/source-code-management/) for the students and also the academic staff. The software platform also needed to offer a structured way to evaluate students on their testing and validation, coupled with continuous integration capabilities. 
+
+  - title: the solution
+    subtitle: Creating small software projects
+    content: >-
+
+        DCU looked at BitBucket, Jenkins, GitHub, and other platforms to implement into the school system. However, about six years ago, Dr. Stephen Blott, senior lecturer at DCU, started using GitLab’s Community Edition on his personal desktop. He pitched the idea of using the platform for one of his project groups. GitLab usage garnered success and it was then rolled out to all the project groups. “Now all of those groups use GitLab for all of their projects. We expect them to have all their code available there. That gives us lots of advantages over what we had previously,” Blott said.
+
+
+        Students can now learn how to use Git, which is important when they go on work placements and eventually into the competitive workforce. It adds huge value to their resume and prepares them for the software industry. GitLab provides clear documentation for source code management, which alleviates the stress of learning a new tool. Students now have code and documentation that they previously didn’t have and are capable of creating small software projects that are developed over the course of a semester.
+
+
+        “Because the code is linked into our LDAP server, it means that we know who they are so we know which code belongs to which student. We can find their code, and by reviewing the commit logs, we know when they've been working, what they've been working on, and we get a lot more insight into the projects,” Blott explained.  
+
+
+        GitLab provides visibility into what each student is working on because there is [end-to-end transparency](/customers/cook-county/) in the tool. “At the end of the year, the examiners sit down and there's an external examiner who comes in to review our work and to assess whether we're marking it properly, and the external examiner can see everything,” Blott added. “Previously, the external examiner would only see some documentation which had been printed out and just had to guess at everything else.”
+
+  - title: the results
+    subtitle: Using Git, SCM, and CI for future success
+    content: >-
+
+        DCU students get a real world view of [managing software projects](/stages-devops-lifecycle/source-code-management/). The teachers can manage the students and the students get an in-depth understanding of Git and software build systems. GitLab is running on a virtual server and can be managed remotely. “It's a great thing for the students because now they can actually set up their own workflow which they push, they run their tests, they can even deploy, and all of that happens through the CI environment,” Blott said. “It's way superior because the students can come back and they can demonstrate and say, ‘Yeah, I did testing and validation. Look, here it is, you can see it running.’ So that's a big step forward for us, as well.” 
+
+
+        There are currently 2,529 repos running and 472 project repos. A project repo is associated with a formal academic software engineering project. A total of 11,720 CI jobs have been run to date. Third-year, fourth-year, and the masters levels programs use GitLab. “One of the things we hope to achieve is that, when they go out on that work placement, they already have those skills and they don't feel like they're being thrown into something they can't handle,” Blott advised. Graduates of the software engineering program have been successfully finding work as engineers and as software consultants. 
+
+
+        Jacob Byrne, fourth-year student at DCU, is a current GitLab user. Using the issues and boards has helped with sprint tracking and he considers the tool an excellent resource. “It’s a huge advantage in relation to preparing for the jobs market, adding great value as you are able to ramp up quickly in DevOps teams,” Byrne explained. “It's a big plus for DCU that they can offer GitLab as part of the training curriculum to ensure students are abreast with technology. It's excellent preparation for getting in the industry.”
+customer_study_quotes:
+  - blockquote: It’s a big plus for DCU that they can offer GitLab as part of the training curriculum to ensure students are abreast with technology. It's excellent preparation for getting in the industry.
+    attribution: Jacob Byrne 
+    attribution_title: fourth-year student at DCU
