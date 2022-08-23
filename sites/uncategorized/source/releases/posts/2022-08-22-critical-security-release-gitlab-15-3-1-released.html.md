@@ -1,7 +1,7 @@
 ---
 title: "GitLab Critical Security Release: 15.3.1, 15.2.3, 15.1.5"
 description: "Learn more about GitLab Critical Security Release: 15.3.1, 15.2.3, 15.1.5 for GitLab Community Edition (CE) and Enterprise Edition (EE)."
-canonical_path: "/releases/2022/08/22/security-release-gitlab-15-3-1.-released/"
+canonical_path: "/releases/2022/08/22/security-release-gitlab-15-3-1-released/"
 categories: releases
 author: Nick Malcolm 
 author_gitlab: nmalcolm
@@ -40,7 +40,7 @@ Thanks [yvvdwf](https://hackerone.com/yvvdwf) for reporting this vulnerability t
 
 ## Updating
 
-To update GitLab, see the [Update page](/update).
+To update GitLab, see the [Update page](/update/).
 To update Gitlab Runner, see the [Updating the Runner page](https://docs.gitlab.com/runner/install/linux-repository.html#updating-the-runner).
 
 ## Receive Security Release Notifications
