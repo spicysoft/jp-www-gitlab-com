@@ -10372,7 +10372,7 @@ discussion to be focused on."
   - title : "Incident Timeline"
     description: Capture the most pertinent incident information and view it in chronological order to facilitate incident review and retrospectives
     link_description: "Learn more about Incident Timeline"
-    link: 
+    link:
     solution: Monitor
     category:
       - incident_management
@@ -10458,7 +10458,7 @@ discussion to be focused on."
       Coordinate the order in which merge requests are merged within the same
       project and/or across different projects.
     link_description: "Learn more about Merge Request Dependencies"
-    link: https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_dependencies.html
+    link: https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html
     solution: Create
     category:
       - code_review
