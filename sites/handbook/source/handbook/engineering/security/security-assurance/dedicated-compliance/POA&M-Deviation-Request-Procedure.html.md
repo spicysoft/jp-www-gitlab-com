@@ -74,19 +74,23 @@ The following definitions were adopted from the FedRAMP PMO:
 through compensating controls within 30 days. 
 
 ### Workflow Labels
-The following labels should be used to reflect the current status of each DR. It is the responsibility of the Technical and Compliance Reviewers to assign the appropriate labels to move the issue forward in the workflow. 
 
-Step 1 - Submission
-Label = `FedRAMP DR Status::Ready for review` (applied automatically using the issue templates)
+The following Deviation Request labels are used to track the Deviation Request's status:
+* FedRAMP DR Status::**Ready for review**
+* FedRAMP DR Status::**Compliance review**
+* FedRAMP DR Status::**AO approved**
+* FedRAMP DR Status::**AO denied**
 
-Step 2 - Internal Triage
-Labels = `FedRAMP DR Status::Technical review`, `FedRAMP DR Status::Compliance review` 
+Vulnerabilities progressing through the Deviation Request process will be assigned the product **workflow::verification** label.
 
-Step 3 - Presentation
-Labels =  `FedRAMP DR Status::AO approved`, `FedRAMP DR Status::AO denied`
+### Workflow
 
-Note, the above labels should also be used in the related vulnerability issue, where applicable. 
-
+| Step | Description | Label applied to the Vulnerability Issue | Label applied to the Deviation Request Issue |
+| ------ | ------ | ------ | ------ |
+| :one:  | Discover a DR is required for a Vulnerability Issue.    |<br> - `workflow::verification`<br> - `FedRAMP DR Status::Open` | n/a |
+| :two:  | Submit a Deviation Request | _label remains unchanged_ |`FedRAMP DR Status::Ready for review` <br> -  (_applied automatically using the issue templates_) |
+| :three:  | Perform an internal triage |_label remains unchanged_  |`FedRAMP DR Status::Compliance review` |
+| :four:  | Presentation of the review outcome | `FedRAMP DR Status::Closed` | `FedRAMP DR Status::AO approved`, `FedRAMP DR Status::AO denied` |
 ## Exceptions
 There are no exceptions allowed to this procedure. 
 
