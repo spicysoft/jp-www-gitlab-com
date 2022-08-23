@@ -423,7 +423,13 @@ It's important that we keep our focus on action, and don't fall into the trap of
 
 ##### 不確実性を受け入れる {#accepting-uncertainty}
 {:.no_toc}
-We should strive to accept that there are things that we don’t know about the work we’re trying to do, and that the best way to drive out that uncertainty is not by layering analysis and conjecture over it, but rather accepting it and moving forward, driving it out as we go along. Wrong solutions can be fixed, but non-existent ones aren’t adjustable at all. [The Clever PM Blog](https://www.cleverpm.com/2018/08/23/accepting-uncertainty-is-the-key-to-agility/)
+「やる前からすべてのことを知ることはできない」ということを受け入れてください。
+不確実なことを確実にするためにベストな方法は、事前に分析や推測を繰り返すことではありません。
+まず事前に全てを知ることはできないという事実を受け入れてください。
+その上で前に進みながら、不確実なことを確実にしてください。
+解決策が間違っていたとしても後から修正することはできます。
+しかし何もしていないのに軌道修正することはできません。
+[賢いPMのブログ](https://www.cleverpm.com/2018/08/23/accepting-uncertainty-is-the-key-to-agility/)
 
 ##### エスカレートしてブロックを解除する {#escalate-to-unblock}
 {:.no_toc}
