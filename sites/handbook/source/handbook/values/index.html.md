@@ -403,7 +403,25 @@ We value the ability to maintain focus and motivation when work is tough and ask
 
 ##### 行動・行動・行動 {#bias-for-action}
 {:.no_toc}
-It's important that we keep our focus on action, and don't fall into the trap of analysis paralysis or sticking to a slow, quiet path without risk. Decisions should be thoughtful, but delivering fast results requires the fearless acceptance of occasionally making mistakes; our bias for action also allows us to course correct quickly. Everyone will make mistakes, but it's the relative number of mistakes against all decisions made (i.e. percentage of mistakes), and the swift correction or resolution of that mistake, which is important. A key to success with transparency is to always combine an observation with (1) questions (to ensure understanding) *and* (2) suggestions for solutions / improvement to the group that can take action.  We don't make general complaints without including and supporting the groups that can effect change. Success with transparency almost always requires effective [collaboration](#collaboration).
+行動することに時間を割いてください。
+リスクを避けて、分析にはまったり
+ゆっくりと安全なやり方に固執しないようにしてください。
+
+慎重に決断はすべきです。
+しかし速やかに結果を出すためには、失敗を恐れないことが大事です。
+
+行動力しまくるからこそ素早く軌道修正をすることができます。
+
+誰でも間違いを犯します。
+だから、過去の意思決定のうち誤りだった意思決定の割合*と*、誤りを速やかに修正したかどうか、解決したかどうかが大事です。
+
+透明性というバリューのもと仕事をうまく進めるために大事なことは、
+観察した上で、(1) (理解を深めるための)質問をしたり、
+(2)行動を起こせる人に解決策や改善策の提案をすることです。
+
+改善すべき人たちを巻き込み支援することもなく、不満をいうことはありえません。
+透明性というバリューのもと成果を出すためには、[コラボレーション](#collaboration)というバリューの徹底が必要です。
+
 
 ##### 異論を言う、でもコミットする、その後に異論を言う {#disagree-commit-and-disagree}
 {:.no_toc}
