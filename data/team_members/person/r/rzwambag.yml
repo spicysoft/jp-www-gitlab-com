@@ -20,7 +20,7 @@ projects:
   gitlab:
   - reviewer backend
   - trainee_maintainer backend
-specialty: Memory
+specialty: Application Performance
 expertise:
 story: |
   Roy is a backend engineer from the Netherlands. He enjoys solving problems and learning new things.

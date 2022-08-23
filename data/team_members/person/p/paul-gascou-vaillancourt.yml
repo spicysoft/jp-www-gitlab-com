@@ -24,6 +24,5 @@ domain_expertise:
 story: |
   Paul has been passionate about web development for a while, he likes trying out new languages and libraries whenever he can.
   In his spare time, Paul likes rock climbing, biking, contributing to open source projects and working on digital-art projects.
-specialty:
-- 'Ecosystem: Foundations'
-- " Ecosystem"
+specialty: Ecosystem - FE/UX Foundations
+

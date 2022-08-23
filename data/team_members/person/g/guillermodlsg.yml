@@ -1,7 +1,9 @@
+---
 name: Guillermo De los Santos García
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>, Create:Editor
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
+  Engineer</a>, Create:Editor
 reports_to: davidoregan
 picture: guillermodlsg.jpg
 pronouns: he/him
@@ -10,10 +12,9 @@ twitter:
 linkedin: guillermodlsg
 gitlab: GuillermoDLSG
 departments:
-  - Development
-  - Create:Editor BE Team
-specialty:
-  - Create:Editor
+- Development
+- Create:Editor BE Team
+specialty: 'Create: Editor'
 expertise:
 story:
 
