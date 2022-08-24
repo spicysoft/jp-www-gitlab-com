@@ -754,4 +754,18 @@
   presentations:
   - title: DevOps Days Chicago 2022 - Check Your Privilege - No, Really 
     link: https://devopsdays.org/events/2022-chicago/program/hannah-sutor
-
+- name: Stefania Chaplin         
+  region: Europe      
+  location: London, England  
+  tagline: DevSecOps and Diversity, spoken at 100s of events 
+  twitter: devstefops         
+  gitlab: stefaniaGL             
+  affiliation: teammember      
+  image: stefania.png              
+  topics:                     
+   - Security
+   - DevOps
+   - "Diversity, Inclusion, and Belonging"
+  presentations:              
+    - title: DevSecOps with GitLab
+      
