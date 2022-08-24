@@ -3,8 +3,8 @@ name: Jarka Košanová
 locality: Pilsen
 country: Czech Republic
 role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
-  Plan:Product Planning
-reports_to: fullstack-engineering-manager-product-planning
+  Plan:Certify
+reports_to: fullstack-engineering-manager-certify
 picture: jarka.jpg
 twitter: jajina_k
 gitlab: jarka
@@ -12,7 +12,7 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Plan:Product Planning BE Team
+- Plan:Certify
 expertise: |
   <li><a href="https://docs.gitlab.com/ee/user/group/epics/index.html">Portfolio management</a> <a href="/company/team/structure/#expert">expert</a></li>
 domain_expertise:
