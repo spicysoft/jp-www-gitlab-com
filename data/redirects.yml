@@ -4465,5 +4465,11 @@
   - /company/team/structure/working-groups/next-prioritization/index.html
   target: /company/team/structure/working-groups/cross-functional-prioritization/index.html
   comp_op: '='
+- sources:
+  - /direction/memory
+  - /direction/memory/
+  target: /direction/application_performance/
+  comp_op: '~'
+
 
 

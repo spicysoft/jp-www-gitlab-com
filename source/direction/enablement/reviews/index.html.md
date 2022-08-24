@@ -18,8 +18,8 @@ This page contains the bi-weekly Enablement & SaaS Platforms section direction r
 | [Geo - Part 1](https://about.gitlab.com/direction/geo/) | 2022-07-13 | [Sampath Ranasinghe](https://gitlab.com/sranasinghe) | N/A |
 | [Geo - Part 2](https://about.gitlab.com/direction/geo/) | 2022-07-27 | [Sampath Ranasinghe](https://gitlab.com/sranasinghe) | N/A |
 | [Gitaly](https://about.gitlab.com/direction/gitaly/) | 2022-08-17 | [Mark Wood](https://gitlab.com/mjwood) | N/A |
-| [Memory](https://about.gitlab.com/direction/memory/) | 2022-08-31 | [Fabian Zimmer](https://gitlab.com/fzimmer) | N/A |
+| [Application Performance](https://about.gitlab.com/direction/application_performance/) | 2022-08-31 | [Gabe Weaver](https://gitlab.com/gweaver) | N/A |
 | [Code Search Category](https://about.gitlab.com/direction/global-search/code-search/) | 2022-09-14 | [John McGuire](https://gitlab.com/johnmcguire) | N/A |
-| [Database](https://about.gitlab.com/direction/database/) | 2022-09-28 | [Fabian Zimmer](https://gitlab.com/fzimmer) | N/A |
+| [Database](https://about.gitlab.com/direction/database/) | 2022-09-28 | [Gabe Weaver](https://gitlab.com/gweaver) | N/A |
 | [Sharding] | 2022-10-12 | [Fabian Zimmer](https://gitlab.com/fzimmer) | N/A |
 | [GitLab Dedicated](https://about.gitlab.com/direction/saas-platforms/dedicated) | 2022-10-26 | [Andrew Thomas](https://gitlab.com/awthomas) | N/A |
