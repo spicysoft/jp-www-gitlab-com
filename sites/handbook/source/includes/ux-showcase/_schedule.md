@@ -3,8 +3,8 @@
 | Date ('22) | Host          | Presenter 1     | Presenter 2     | Presenter 3      | 
 | ---------- | ------------- | --------------- | --------------- | ---------------- | 
 | 8/31       | TBD (APAC)    | Katie Macoy     | Michael Le      |                  | 
-| 9/14       | Marcel        | Nick Brandt     | Matt Nearents   | Nick Leonard     | 
-| 9/28       | Rayana        | Sunjung Park    | Michael Fangman | Camellia X Yang  | 
+| 9/14       | Marcel        | Nick Brandt     | Camellia X Yang    | Nick Leonard     | 
+| 9/28       | Rayana        | Sunjung Park    | Michael Fangman | Matt Nearents   | 
 | 10/12      | Blair         | Matt Nearents   | Becka Lippert   | Philip Joyce     | 
 | 10/26      | Jacki         | Alexis Ginsberg | Andy Volpe      |                  | 
 | 11/9       | Justin        | Matej Latin     | Libor Vanc      | Alexis Ginsberg  | 
