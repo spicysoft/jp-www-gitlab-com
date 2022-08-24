@@ -2,7 +2,7 @@
 features:
   secondary:
   - name: "User SCIM identity visible in UI"
-    available_in: [core, premium, ultimate]
+    available_in: [premium, ultimate]
     gitlab_com: false
     documentation_link: 'https://docs.gitlab.com/ee/user/admin_area/#user-identities'
     reporter: hsutor
