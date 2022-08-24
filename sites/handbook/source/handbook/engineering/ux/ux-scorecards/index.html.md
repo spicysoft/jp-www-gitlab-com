@@ -14,7 +14,7 @@ description: "The UX Scorecard is a process similar to a heuristic evaluation th
 
 The UX Scorecard is a way for us to identify and score the usability of an experience in our product based on a set of heuristics. We use UX Scorecards to gain an understanding of how a user interacts with our product and to quickly spot opportunities for improvement. 
 
-UX Scorecards should be done on every important workflow and should be repeated every 6 months from the last scorecard ran so we can continuously monitor our progress in making experiences better for our users. If its been a while since a scorecard has been ran in your group you should plan on doing one soon to reestablish the cadence.
+UX Scorecards should be done on every important workflow and should be repeated every 6 months from the last scorecard run. Allowing you and your team to continuously monitor the progress in making experiences better for our users. If it has been a while since a scorecard has been run in your group you should plan on doing one soon to reestablish the cadence.
 
 As UX practitioners, we must think strategically about fixing usability challenges within the GitLab product in order to give our users a quality experience. Creating a UX Scorecard with associated recommendations enables us to identify, scope, and track the effort of addressing usability concerns within a specific workflow. When it's complete, we have the information required to collaborate with Product Managers on grouping fixes into meaningful iterations and prioritizing UX-related issues.
 
