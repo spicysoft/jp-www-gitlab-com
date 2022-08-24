@@ -375,7 +375,7 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
    </td>
   </tr>
   <tr>
-   <td><a href="https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_Contest_Rules_Template">Contest Rules Template</a>
+   <td><a href="https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=promotional_games_legal_template">Promotional Game Rules Template</a>
    </td>
   </tr>
   <tr>
