@@ -100,7 +100,10 @@ A. No. These user limits do not apply to Trials during the trial period.
 **Q. Do these changes apply to public projects as well?**  
 A. No, these changes are applicable to top-level namespaces with private visibility. At this time, public projects in a top-level namespace with public visibility do not have a user limit. If you're a public open source project, you should consider applying for the [GitLab for Open Source Program](/solutions/open-source/), which provides access to the GitLab Ultimate features and entitlements for free.
 
-**Q. Do these changes apply to private projects within a top-level namespace with public visibility?
+**Q. What happens if I change the top-level visibility from private to public?**
+A. The namespace is [publicly visible](https://docs.gitlab.com/ee/user/public_access.html), this includes information such as members, issues, and merge requests. The namespace will be indexed by search engines. 
+
+**Q. Do these changes apply to private projects within a top-level namespace with public visibility?**
 A. User limits are currently applied based on the visibility of the top-level namespace. We will monitor how top-level namespaces with public visibility are using private projects to identify whether any limits on such projects are needed.
 
 **Q. When are these changes effective?**  
