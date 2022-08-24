@@ -18,6 +18,16 @@
   social_tags:
   event_url: https://www.eventbrite.com/e/one-technology-devsechops-event-with-red-hat-and-gitlab-tickets-394444814057
 
+- topic: WWT Happy Hour Seattle
+  type: Conference
+  date_starts: September 15, 2022
+  date_ends: September 15, 2022
+  description:  Please join GitLab along with our partner WWT for an in-person Happy Hour event in Bellevue Washington at 6pm, Thursday, September 15th, 2022.  Enjoy an evening panel discussion that will cover how security leaders are solving real world cloud and DevOps problems. While you network we will be offering snacks, light appetizers and of course something to quench your thirst!
+  location: Belleview, WA
+  region: AMER
+  social_tags:
+  event_url: https://info.lacework.com/pnw-happy-hour-with-wwt-gitlab-and-cribl.html?utm_source=partner&utm_medium=email&utm_campaign=20220915_AMER_US_FEP_PNW_Happy_Hour_with_WWT_GitLab_and_Cribl&utm_partner=GitLab
+
 - topic: GitLab Commit New York City
   type: Conference
   date_starts: September 22, 2022
