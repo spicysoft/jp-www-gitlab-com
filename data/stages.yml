@@ -1,0 +1,2370 @@
+# Format description and documentation for this file is in the handbook
+# https://about.gitlab.com/handbook/marketing/inbound-marketing/digital-experience/website/#working-with-stages-groups-and-categories
+
+stages:
+  # Stages are defined in the product categories handbook https://about.gitlab.com/handbook/product/categories/#hierarchy
+
+  manage:
+    display_name: "Manage"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-manage.png"
+    description: "Gain visibility and insight into how your business is performing."
+    body: |
+      GitLab helps teams manage and optimize their software delivery lifecycle with metrics and value stream insight in order to streamline and increase their delivery velocity.   Learn more about how GitLab helps to manage your end to end <a href="https://about.gitlab.com/vsm" data-ga-name="value stream" data-ga-location="body">value stream.</a>
+    direction: /direction/dev/#manage
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Amanage&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2016
+    lifecycle: 4
+    usage_driver_score: 3
+    revenue_driver_score: 5
+    sam_driver_score: 1
+    stage_development_spend_percent: 12.7
+    analyst_reports:
+      - title: "Whitepaper: Reduce Cycle Time"
+        url: "/resources/whitepaper-reduce-cycle-time/"
+    related:
+      - "plan"
+      - "create"
+      - "verify"
+      - "package"
+      - "release"
+      - "configure"
+      - "monitor"
+      - "secure"
+      - "protect"
+    section: dev
+    pm: Viktor Nagy (Acting)
+    groups:
+      authentication_and_authorization:
+        name: Authentication & Authorization
+        pm: Hannah Sutor
+        focus: Manage Authentication & Authorization Paid GMAU
+        pmm: Cindy Blake
+        cm: Suri Patel
+        backend_engineering_manager: Jarka Košanová (Acting)
+        frontend_engineering_manager: Jarka Košanová (Acting)
+        be_team_tag: Manage:Authentication and Authorization BE Team
+        fe_team_tag: Manage:Authentication and Authorization FE Team
+        support:
+          - Cynthia Ng
+        sets:
+          - Sanad Liaquat
+        pdm:
+          - Blair Christopher
+        ux:
+          - Daniel Mora
+        uxr:
+          - Anne Lasch
+        tech_writer: Evan Read
+        appsec_engineer: Rohit Shambhuni
+        cs_team_tag: Authentication & Authorization Group CS Stable Counterpart
+        internal_customers:
+          - department: Customer Support Department
+            dri: TBD
+          - department: Security Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - authentication_and_authorization
+          - permissions
+          - user_management
+          - credential_management
+          - system_access
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 1
+        group_link: product/product-categories#authentation_and_authorization-group
+
+      workspace:
+        name: Workspace
+        pm: Christina Lohr
+        focus: Manage Workspace Paid GMAU
+        pmm: Cindy Blake
+        cm: Suri Patel
+        backend_engineering_manager: Małgorzata Ksionek
+        frontend_engineering_manager: Małgorzata Ksionek
+        be_team_tag: Manage:Workspace BE Team
+        fe_team_tag: Manage:Workspace FE Team
+        support:
+          - Cynthia Ng
+          - Joseph Joshua
+        sets:
+          - Valerie Burton
+        pdm:
+          - Blair Christopher
+        ux:
+          - Mike Nichols
+        uxr:
+          - Anne Lasch
+        tech_writer: Fiona Neill
+        appsec_engineer: Rohit Shambhuni
+        cs_team_tag: Access Group CS Stable Counterpart
+        internal_customers:
+          - department: Customer Support Department
+            dri: TBD
+          - department: Security Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - subgroups
+          - users
+          - projects
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 1
+        group_link: product/product-categories#workspace-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039419
+
+      compliance:
+        name: Compliance
+        pm: Sam Kerr
+        focus: Manage Compliance Paid GMAU
+        pmm: Cindy Blake
+        cm: Suri Patel
+        backend_engineering_manager: Dennis Tang
+        frontend_engineering_manager: Dennis Tang
+        be_team_tag: Manage:Compliance BE Team
+        fe_team_tag: Manage:Compliance FE Team
+        support: TBD
+        pdm:
+          - Blair Christopher
+        ux:
+          - TBD
+        uxr:
+          - Anne Lasch
+        tech_writer: Evan Read
+        sets:
+          - TBD
+        appsec_engineer: Nick Malcolm
+        cs_team_tag: Compliance Group CS Stable Counterpart
+        internal_customers:
+          - department: Customer Support Department
+            dri: TBD
+          - department: Security Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - audit_events
+          - audit_reports
+          - compliance_management
+        usage_driver_score: 1
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/product-categories#compliance-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=9980315
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039422
+
+      import:
+        name: Import
+        pm: Itzik Gan-Baruch (Acting)
+        focus: Manage Import GMAU
+        pmm: Cormac Foster
+        cm: Suri Patel
+        em: Martin Wortschack
+        be_team_tag: Manage:Import BE Team
+        fe_team_tag: Manage:Import FE Team
+        support: Cynthia Ng
+        pdm:
+          - Blair Christopher
+        ux:
+          - Dan Mizzi-Harris
+        uxr:
+          - Anne Lasch
+        tech_writer: Evan Read
+        sets:
+          - Andrejs Cunskis
+        appsec_engineer: Nick Malcolm
+        cs_team_tag: Import Group CS Stable Counterpart
+        internal_customers:
+          - department: Customer Support Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+        categories:
+          - importers
+          - internationalization
+        usage_driver_score: 1
+        asp_driver_score: 3
+        sam_driver_score: 1
+        group_link: product/product-categories#import-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039162
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=11173918
+
+      optimize:
+        name: Optimize
+        pm: Haim Snir
+        focus: Manage Optimize GMAU
+        pmm: Cormac Foster
+        cm: Suri Patel
+        em: Brandon Labuschagne (Acting)
+        be_team_tag: Manage:Optimize BE Team
+        fe_team_tag: Manage:Optimize FE Team
+        support: TBD
+        pdm:
+          - Blair Christopher
+        ux:
+          - Dan Mizzi-Harris
+        uxr:
+          - Anne Lasch
+        tech_writer: Fiona Neill
+        sets:
+          - TBD
+        appsec_engineer: Nick Malcolm
+        cs_team_tag: Analytics Group CS Stable Counterpart
+        internal_customers:
+          - department: Engineering Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Quality Department
+            dri: TBD
+          - department: Development Department
+            dri: TBD
+        categories:
+          - devops_reports
+          - value_stream_management
+        usage_driver_score: 2
+        asp_driver_score: 2
+        sam_driver_score: 3
+        group_link: product/categories/#value-stream-management-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039390
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039413
+
+  plan:
+    display_name: "Plan"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-plan.png"
+    description: "Regardless of your process, GitLab provides powerful planning
+      tools to keep everyone synchronized."
+    body: |
+      GitLab enables portfolio planning and management through epics, groups (programs) and milestones to organize and track progress.  Regardless of your methodology from Waterfall to DevOps, GitLab’s simple and flexible approach to planning meets the needs of small teams to large enterprises.
+
+      GitLab helps teams organize, plan, align and track project work to ensure teams are working on the right things at the right time and maintain end to end visibility and traceability of issues throughout the delivery lifecycle from idea to production.
+    direction: /direction/dev/#plan
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Aplan&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2011
+    lifecycle: 5
+    usage_driver_score: 5
+    revenue_driver_score: 3
+    sam_driver_score: 4
+    stage_development_spend_percent: 7.7
+    analyst_reports:
+      - title: Gartner Magic Quadrant for Enterprise Agile Planning Tools
+        url: "https://about.gitlab.com/analysts/gartner-eapt21/"
+    related:
+      - "create"
+    section: dev
+    pm: Melissa Ushakov
+    groups:
+      project_management:
+        name: Project Management
+        pm: Gabe Weaver
+        focus: Plan Project Management Paid GMAU
+        pmm: Cormac Foster
+        cm: Suri Patel
+        backend_engineering_manager: Donald Cook
+        frontend_engineering_manager: Donald Cook
+        be_team_tag: Plan:Project Management BE Team
+        fe_team_tag: Plan:Project Management FE Team
+        handbook: product/groups/project-management
+        support: Ben Prescott
+        pdm:
+          - Blair Christopher
+        ux:
+          - Nick Leonard
+        uxr:
+          - Anne Lasch
+        tech_writer: Marcin Sędłak-Jakubowski
+        sets:
+          - Désirée Chevalier
+        appsec_engineer: Costel Maxim
+        cs_team_tag: Project Management Group CS Stable Counterpart
+        internal_customers:
+          - department: Engineering Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+        categories:
+          - team_planning
+          - planning_analytics
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 5
+        group_link: product/categories/#project-management-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=9967544
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=9980295
+        analyst_reports: https://drive.google.com/drive/u/1/search?ths=true&q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20agile%20team
+        comp_comparison: https://about.gitlab.com/devops-tools/jira-vs-gitlab/
+
+      product_planning:
+        name: Product Planning
+        pm: Melissa Ushakov
+        focus: Plan Product Planning Paid GMAU
+        pmm: Cormac Foster
+        cm: Suri Patel
+        backend_engineering_manager: John Hope
+        frontend_engineering_manager: John Hope
+        be_team_tag: Plan:Product Planning BE Team
+        fe_team_tag: Plan:Product Planning FE Team
+        handbook: product/categories/plan/
+        support: TBD
+        pdm:
+          - Blair Christopher
+        ux:
+          - Alexis Ginsberg
+        uxr:
+          - Anne Lasch
+        tech_writer: Marcin Sędłak-Jakubowski
+        sets:
+          - TBD
+        appsec_engineer: Costel Maxim
+        cs_team_tag: Product Planning CS Stable Counterpart
+        internal_customers:
+          - department: Engineering Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+        categories:
+          - portfolio_management
+          - design_management
+        usage_driver_score: 2
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/categories/#product_planning
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=9980303
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/798616/?widget=10611105
+        analyst_reports: https://drive.google.com/drive/u/1/search?ths=true&q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20portfolio%20management
+        comp_comparison: https://about.gitlab.com/devops-tools/jira-align-vs-gitlab/
+
+      certify:
+        name: Certify
+        pm: Melissa Ushakov
+        focus: Plan Certify Paid GMAU
+        pmm: Cormac Foster
+        cm: Suri Patel
+        backend_engineering_manager: John Hope
+        frontend_engineering_manager: John Hope
+        be_team_tag: Plan:Certify BE Team
+        fe_team_tag: Plan FE Team
+        handbook: product/categories/plan/
+        support: []
+        pdm:
+          - Blair Christopher
+        ux:
+          - TBD
+        uxr:
+          - Anne Lasch
+        tech_writer: Marcin Sędłak-Jakubowski
+        sets:
+          - TBD
+        appsec_engineer: Costel Maxim
+        cs_team_tag: Certify Group CS Stable Counterpart
+        internal_customers:
+          - department: Quality Department
+            dri: TBD
+          - department: Customer Support Department
+            dri: TBD
+        categories:
+          - requirements_management
+          - quality_management
+          - service_desk
+        usage_driver_score: 2
+        asp_driver_score: 2
+        sam_driver_score: 4
+        group_development_spend_percent: .5
+        group_developers: 4
+        group_link: product/product-categories/#certify-group
+        label: "group:certify"
+        pi_gmau: https://app.periscopedata.com/app/gitlab/634539/?widget=11465457
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/634539/?widget=11465457
+        analyst_reports: https://drive.google.com/drive/u/1/search?ths=true&q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20requirements%20jmanagement
+        comp_comparison: https://about.gitlab.com/devops-tools/microfocus-alm-octane-vs-gitlab/
+
+  create:
+    display_name: "Create"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-create.png"
+    description: |
+      Create, view, and manage code and project data through powerful branching
+      tools.
+    body: |
+      GitLab helps teams design, develop and securely manage code and project
+      data from a single distributed version control system to enable rapid
+      iteration and delivery of business value.  GitLab repositories provide a
+      scalable, single source of truth for collaborating on projects and code
+      which enables teams to be productive without disrupting their workflows.
+    direction: /direction/dev/#create
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Acreate&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2011
+    lifecycle: 7
+    usage_driver_score: 5
+    revenue_driver_score: 4
+    sam_driver_score: 5
+    stage_development_spend_percent: 20.8
+    analyst_reports:
+    related:
+      - "plan"
+      - "verify"
+    section: dev
+    pm: Sarah Waldner
+    groups:
+      source_code:
+        name: Source Code
+        pm: Torsten Linz
+        focus: Create Source Code GMAU
+        pmm: Saumya Upadhyaya
+        cm: Suri Patel
+        backend_engineering_manager: Sean Carroll
+        frontend_engineering_manager: André Luís
+        be_team_tag: Create:Source Code BE Team
+        fe_team_tag: Create:Source Code FE Team
+        handbook: engineering/development/dev/create/source-code-be
+        support: TBD
+        sets:
+          - Anastasia McDonald
+        pdm:
+          - Marcel van Remmerden
+        ux:
+          - TBD
+        uxr:
+          - Ben Leduc-Mills
+        tech_writer: Amy Qualls
+        appsec_engineer: Costel Maxim
+        cs_team_tag: Source Code Group CS Stable Counterpart
+        internal_customers:
+          - department: Engineering Department
+            dri: TBD
+          - department: Marketing Department
+            dri: Saumya Upadhyaya
+          - department: Product Department
+            dri: TBD
+        categories:
+          - source_code_management
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 5
+        group_link: product/categories/#source-code-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9967642
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9980442
+        analyst_reports: https://drive.google.com/drive/search?q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20source%20code
+        comp_comparison: https://about.gitlab.com/devops-tools/github-vs-gitlab/
+
+      code_review:
+        name: Code Review
+        pm: Kai Armstrong
+        focus: Create Code Review GMAU
+        pmm: Saumya Upadhyaya
+        cm: Suri Patel
+        backend_engineering_manager: Matt Nohr
+        frontend_engineering_manager: André Luís
+        be_team_tag: Create:Code Review BE Team
+        fe_team_tag: Create:Code Review FE Team
+        handbook: engineering/development/dev/create/code-review/
+        support: TBD
+        sets:
+          - TBD
+        pdm:
+          - Marcel van Remmerden
+        ux:
+          - Annabel Dunstone Gray
+          - Pedro Moreira da Silva
+        uxr:
+          - Ben Leduc-Mills
+        tech_writer: Amy Qualls
+        appsec_engineer: TBD
+        cs_team_tag: TBD
+        internal_customers:
+          - department: Engineering Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+        categories:
+          - code_review
+          - editor_extension
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 5
+        group_link: product/categories/#code-review-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/786738/Code-Review-MAU-Metrics?widget=10426645
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/786738/Code-Review-MAU-Metrics?widget=10624715
+        analyst_reports: https://drive.google.com/drive/search?q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20code%20review
+
+      editor:
+        name: Editor
+        pm: Eric Schurter
+        focus: Create Editor GMAU
+        pmm: Saumya Upadhyaya
+        cm: Suri Patel
+        backend_engineering_manager: David O'Regan
+        frontend_engineering_manager: David O'Regan
+        be_team_tag: Create:Editor BE Team
+        fe_team_tag: Create:Editor FE Team
+        handbook: engineering/development/dev/create-editor-be
+        support: Brad Sevy
+        sets:
+          - Jason Zhang
+        pdm:
+          - Marcel van Remmerden
+        ux:
+          - Michael Le
+        uxr:
+          - Ben Leduc-Mills
+        tech_writer: Amy Qualls
+        appsec_engineer: TBD
+        cs_team_tag: Editor Group CS Stable Counterpart
+        internal_customers:
+          - department: Marketing Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+          - department: Finance Department
+            dri: TBD
+          - department: People Operations
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+        categories:
+          - web_ide
+          - snippets
+          - wiki
+          - pages
+          - remote_development
+        usage_driver_score: 4
+        asp_driver_score: 2
+        sam_driver_score: 3
+        group_link: product/categories/#editor-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9967737
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9980340
+        analyst_reports: https://drive.google.com/drive/search?q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20editor
+
+  ecosystem:
+    display_name: "Ecosystem"
+    marketing: false
+    tw: true
+    image: "/images/solutions/solutions-create.png"
+    description: "Supports the ecosystem with 3rd party integrations, APIs, and contributor tools such as GDK and Pajamas."
+    established: 2018
+    lifecycle: 0
+    usage_driver_score: 5
+    asp_driver_score: 4
+    sam_driver_score: 5
+    handbook: engineering/development/dev/ecosystem/
+    direction: /direction/ecosystem
+    section: dev
+    pm: Melissa Ushakov
+    groups:
+      integrations:
+        name: Integrations
+        pm: Grant Hickman
+        focus: Ecosystem Integrations GMAU
+        pmm: Cormac Foster
+        backend_engineering_manager: Arturo Herrero
+        frontend_engineering_manager: Arturo Herrero
+        be_team_tag: Ecosystem:Integrations BE Team
+        fe_team_tag: Ecosystem:Integrations FE Team
+        support: TBD
+        pdm:
+          - Taurie Davis
+        ux:
+          - Libor Vanc
+        uxr:
+          - TBD
+        tech_writer: Kati Paizee
+        appsec_engineer: Dominic Couture
+        slack:
+          channel: g_ecosystem_integrations
+        gitlab_group: gitlab-org/ecosystem-team
+        qm: Ramya Authappan
+        sets:
+          - Sean Gregory
+        cs_team_tag: Ecosystem Group CS Stable Counterpart
+        internal_customers:
+          - department: Alliances Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - integrations
+        group_link: product/categories/#integrations-group
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 1
+      foundations:
+        name: Foundations
+        pm: Christen Dybenko
+        focus: Driving Pajamas adoption
+        frontend_engineering_manager: Lukas Eipert
+        fe_team_tag: Ecosystem:Foundations FE Team
+        support: TBD
+        pdm:
+          - Taurie Davis
+        ux:
+          - Jeremy Elder
+          - Austin Regnery
+          - Sascha Eggenberger
+        uxr:
+          - TBD
+        tech_writer: Russell Dickenson
+        appsec_engineer: Dominic Couture
+        slack:
+          channel: g_ecosystem_foundations
+        gitlab_group: gitlab-org/ecosystem-team
+        qm: Ramya Authappan
+        sets:
+          - TBD
+        cs_team_tag: Ecosystem Group CS Stable Counterpart
+        internal_customers:
+          - department: Alliances Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - design_system
+          - navigation
+          - gitlab_docs
+        group_link: product/categories/#foundations-group
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 1
+  verify:
+    display_name: "Verify"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-verify.png"
+    description: "Keep strict quality standards for production code with automatic testing and reporting."
+    body: |
+      GitLab helps delivery teams fully embrace continuous integration to automate the builds, integration and verification of their code. GitLab’s industry leading CI capabilities enables automated testing, Static Analysis Security Testing, Dynamic Analysis Security testing and code quality analysis to provide fast feedback to developers and testers about the quality of their code. With pipelines that enable concurrent testing and parallel execution, teams quickly get insight about every commit, allowing them to deliver higher quality code faster.
+    direction: /direction/ops/#verify
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Averify&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2012
+    lifecycle: 7
+    usage_driver_score: 5
+    revenue_driver_score: 2
+    sam_driver_score: 5
+    stage_development_spend_percent: 14.1
+    related:
+      - "create"
+    section: ops
+    pm: Jackie Porter
+    groups:
+      pipeline_execution:
+        name: "Pipeline Execution"
+        pm:
+          - James Heimbuck
+        focus: Verify & Runner SMAU
+        cm: Chrissie Buchanan
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: Mark Nuzzo
+        frontend_engineering_manager: Sam Beckham
+        be_team_tag: Verify:Pipeline Execution BE Team
+        fe_team_tag: Verify:Pipeline Execution FE Team
+        support: Manuel Grabowski
+        qm: Joanna Shih
+        sets:
+          - Richard Chong
+        pdm:
+          - Rayana Verissimo
+        uxr:
+          - Erika Feldman
+        ux:
+          - Veethika Mishra
+        tech_writer: Marcel Amirault
+        appsec_engineer: Dominic Couture
+        cs_team_tag: Pipeline Execution Group CS Stable Counterpart
+        internal_customers:
+          - department: Quality Department
+            dri: Joanna Shih
+          - department: UX Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+          - department: AutoDevOps and Kubernetes Group
+            dri: TBD
+        categories:
+          - continuous_integration
+          - merge_trains
+          - continuous_integration_scaling
+        usage_driver_score: 5
+        asp_driver_score: 3
+        sam_driver_score: 4
+        group_development_spend_percent: 3.4
+        group_link: product/product-categories/#pipeline-execution-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039276
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10040188
+        analyst_reports: https://drive.google.com/drive/search?q=continuous%20integration%20parent:0B4LeL42bnImlbmZwcmhrTEthdkE
+        comp_comparison: https://about.gitlab.com/devops-tools/github-vs-gitlab/#comparison
+
+      pipeline_authoring:
+        name: "Pipeline Authoring"
+        pm:
+          - Dov Hershkovitch
+        focus: Verify & Runner SMAU
+        cm: Chrissie Buchanan
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: Mark Nuzzo
+        frontend_engineering_manager: Sam Beckham
+        be_team_tag: Verify:Pipeline Authoring BE Team
+        fe_team_tag: Verify:Pipeline Authoring FE Team
+        support: Manuel Grabowski
+        pdm:
+          - Rayana Verissimo
+        uxr:
+          - Erika Feldman
+        ux:
+          - Nadia Sotnikova
+        qm: Joanna Shih
+        sets:
+          - Tiffany Rea
+        tech_writer: Marcel Amirault
+        appsec_engineer: Dominic Couture
+        cs_team_tag: Pipeline Authoring Group CS Stable Counterpart
+        internal_customers:
+          - department: Quality Department
+            dri: Joanna Shih
+          - department: UX Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+          - department: AutoDevOps and Kubernetes Group
+            dri: TBD
+        categories:
+          - pipeline_authoring
+          - jenkins_importer
+          - secrets_management
+        usage_driver_score: 5
+        asp_driver_score: 3
+        sam_driver_score: 4
+        group_development_spend_percent: 3.3
+        group_link: product/categories/#pipeline-authoring-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/785953/Pipeline-Authoring-Dashboard?widget=11541508&udv=0
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/785953/Pipeline-Authoring-Dashboard?widget=11619967&udv=0
+        analyst_reports: https://drive.google.com/drive/search?q=continuous%20integration%20parent:0B4LeL42bnImlbmZwcmhrTEthdkE
+
+      runner:
+        name: "Runner"
+        pm: "Darren Eastman"
+        focus: Verify & Runner SMAU
+        cm: Chrissie Buchanan
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: Elliot Rushton
+        frontend_engineering_manager: Sam Beckham
+        be_team_tag: Runner BE Team
+        fe_team_tag: Verify:Runner FE Team
+        support:
+          - Alexander Tanayno
+          - Nourdin el Bacha
+        qm: Joanna Shih
+        sets:
+          - Zeff Morgan
+          - Aleksandr Lyubenkov
+        pdm:
+          - Rayana Verissimo
+        uxr:
+          - Erika Feldman
+        ux:
+          - Gina Doyle
+        tech_writer: Suzanne Selhorn
+        appsec_engineer: Dominic Couture
+        cs_team_tag: Runner Group CS Stable Counterpart
+        internal_customers:
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - runner
+          - runner_saas
+          - runner_fleet
+        usage_driver_score: 5
+        asp_driver_score: 3
+        sam_driver_score: 2
+        group_link: product/categories/#runner-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/800667/GitLab-Runner-performance-indicator-metrics?widget=11518294&udv=1297938
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/800667/GitLab-Runner-performance-indicator-metrics?widget=11518294&udv=1297938
+        analyst_reports: https://drive.google.com/drive/search?q=continuous%20integration%20parent:0B4LeL42bnImlbmZwcmhrTEthdkE
+
+      pipeline_insights:
+        name: "Pipeline Insights"
+        pm: "Jocelyn Eillis"
+        focus: Verify Pipeline Insights Sum of AMAUs
+        cm:
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: Scott Hampton
+        frontend_engineering_manager: Scott Hampton
+        be_team_tag: Verify:Pipeline Insights BE Team
+        fe_team_tag: Verify:Pipeline Insights FE Team
+        support: TBD
+        pdm:
+          - Rayana Verissimo
+        uxr:
+          - Erika Feldman
+        ux:
+          - Gina Doyle
+        qm: Joanna Shih
+        tech_writer: Marcel Amirault
+        appsec_engineer: Dominic Couture
+        cs_team_tag: Pipeline Insights Group CS Stable Counterpart
+        internal_customers:
+          - department: Quality Department
+            dri: Kyle Wiebers
+          - department: UX Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+          - department: AutoDevOps and Kubernetes Group
+            dri: TBD
+        categories:
+          - code_testing
+          - performance_testing
+          - build_artifacts
+          - review_apps
+        usage_driver_score: 4
+        asp_driver_score: 2
+        sam_driver_score: 3
+        group_link: product/categories/#pipeline-insights-group
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/633395/Testing-Category-Performance-Indicators?widget=10933307&udv=0
+        analyst_reports: https://drive.google.com/drive/search?q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20testing
+
+
+  package:
+    display_name: "Package"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-package.png"
+    description: "Create a consistent and dependable software supply chain with built-in package management."
+    body: |
+      GitLab enables teams to package their applications and dependencies, manage containers, and build artifacts with ease. The private, secure, container and package registry are built-in and preconfigured out-of-the box to work seamlessly with GitLab source code management and CI/CD pipelines. Ensure DevOps acceleration and a faster time to market with automated software pipelines that flow freely without interruption.
+    direction: /direction/package/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Apackage&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2016
+    lifecycle: 3
+    usage_driver_score: 2
+    revenue_driver_score: 2
+    sam_driver_score: 2
+    stage_development_spend_percent: 3.5
+    analyst_reports:
+    pm: Kenny Johnston
+    section: ops
+    slack:
+      channel: s_package
+    handbook: product/categories/#package-stage
+    groups:
+      package:
+        name: Package
+        pm: Tim Rizzi
+        focus: Package GMAU
+        cm: Chrissie Buchanan
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: Michelle Torres
+        frontend_engineering_manager: Michelle Torres
+        be_team_tag: Package BE Team
+        fe_team_tag: Package FE Team
+        support:
+          - Nourdin el Bacha
+        qm: Joanna Shih
+        sets:
+          - Sofia Vistas
+        pdm:
+          - Rayana Verissimo
+        ux:
+          - Katie Macoy
+        uxr:
+          - Erika Feldman
+        tech_writer: Clayton Cornell
+        appsec_engineer: Vitor Meireles De Sousa
+        cs_team_tag: Package Group CS Stable Counterpart
+        internal_customers:
+          - department: Distribution Team
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - container_registry
+          - package_registry
+          - helm_chart_registry
+          - dependency_proxy
+          - dependency_firewall
+          - git_lfs
+        usage_driver_score: 3
+        asp_driver_score: 2
+        sam_driver_score: 4
+        group_link: product/categories/#package-group
+        slack:
+          channel: s_package
+          alias: package-group
+        gitlab_group: "gitlab-org/package"
+        handbook: engineering/development/ops/package/
+        google_group: "package-stage@gitlab.com"
+
+  secure:
+    display_name: "Secure"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-secure.png"
+    description: "Security capabilities, integrated into your development lifecycle."
+    body: |
+      GitLab provides Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), Container Scanning, and Dependency Scanning to help you deliver secure applications along with license compliance.
+    direction: /direction/secure/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Asecure&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2017
+    lifecycle: 3
+    usage_driver_score: 2
+    revenue_driver_score: 5
+    sam_driver_score: 3
+    stage_development_spend_percent: 23.8
+    analyst_reports:
+      - title: "Gartner Magic Quadrant for Application Security Testing"
+        url: "https://about.gitlab.com/analysts/gartner-ast20/"
+      - title: "Forrester Wave: Software Composition Analysis"
+        url: "https://about.gitlab.com/analysts/forrester-sca/"
+    related:
+      - "create"
+      - "protect"
+    section: sec
+    slack:
+      channel: s_secure
+    gitlab_group: gitlab-org/secure
+    handbook: engineering/development/secure/
+    cta: includes/ctas/security-whitepaper
+    groups:
+      static_analysis:
+        name: Static Analysis
+        pm: Connor Gilbert
+        focus: Static Analysis Paid GMAU
+        pmm: Cindy Blake
+        backend_engineering_manager: Thomas Woodham
+        be_team_tag: Secure:Static Analysis BE Team
+        fe_team_tag:
+        support: Greg Myers
+        appsec_engineer: Nikhil George
+        pdm:
+          - Justin Mandell
+        ux:
+          - Michael Fangman
+        uxr:
+          - Michael Oliver
+        tech_writer: Russell Dickenson
+        sets:
+          - Careem Ahamed
+        slack:
+          channel: g_secure-static-analysis
+          alias: secure_static_analysis_team
+        gitlab_group: gitlab-org/secure/static-analysis
+        cs_team_tag: Static Analysis Group CS Stable Counterpart
+        internal_customers:
+          - department: Security Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - static_application_security_testing
+          - secret_detection
+          - code_quality
+        usage_driver_score: 4
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/categories/#static-analysis-group
+
+      dynamic_analysis:
+        name: Dynamic Analysis
+        pm: Derek Ferguson
+        focus: Dynamic Analysis Paid GMAU
+        pmm: Cindy Blake
+        backend_engineering_manager: Seth Berger
+        be_team_tag: Secure:Dynamic Analysis BE Team
+        fe_team_tag:
+        support: Kate Grechishkina
+        appsec_engineer: Nikhil George
+        pdm:
+          - Justin Mandell
+        uxr:
+          - Michael Oliver
+        ux:
+          - Michael Fangman
+        tech_writer: Russell Dickenson
+        slack:
+          channel: g_secure-dynamic-analysis
+          alias: secure_dynamic_analysis_be
+        gitlab_group: gitlab-org/secure/dynamic-analysis-be
+        cs_team_tag: Dynamic Analysis Group CS Stable Counterpart
+        internal_customers:
+          - department: Security Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - dynamic_application_security_testing
+          - fuzz_testing
+          - api_security
+          - interactive_application_security_testing
+          - attack_emulation
+        usage_driver_score: 2
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/categories/#dynamic-analysis-group
+
+      composition_analysis:
+        name: Composition Analysis
+        pm: Sam White
+        focus: Composition Analysis Paid GMAU
+        pmm: Cindy Blake
+        backend_engineering_manager: Olivier Gonzalez
+        be_team_tag: Secure:Composition Analysis BE Team
+        fe_team_tag: Secure:Composition Analysis FE Team
+        support: Katrin Leinweber
+        appsec_engineer: Nikhil George
+        pdm:
+          - Justin Mandell
+        ux:
+          - Secure & Protect team (@gitlab-com/gitlab-ux/secure-protect-ux)
+        uxr:
+          - Michael Oliver
+        tech_writer: Russell Dickenson
+        sets:
+          - Will Meek
+        slack:
+          channel: g_secure-composition-analysis
+          alias: secure_composition_analysis_dev
+        gitlab_group: gitlab-org/secure/composition-analysis-dev
+        cs_team_tag: Composition Analysis Group CS Stable Counterpart
+        internal_customers:
+          - department: Security Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - dependency_scanning
+          - license_compliance
+        usage_driver_score: 3
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/categories/#composition-analysis-group
+        feature_labels:
+          - dependency list
+          - security reports integration
+        pi_gmau: "https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/sec-section/#securecomposition-analysis---gmau---users-running-any-sca-scanners"
+        pi_pgmau: "https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/sec-section/#securecomposition-analysis---gmau---users-running-any-sca-scanners"
+
+      threat_insights:
+        name: "Threat Insights"
+        slack:
+          channel: g_secure_threat_insights
+        pm: Matt Wilson
+        focus: Threat Insights Paid GMAU
+        pmm: Cindy Blake
+        backend_engineering_manager: Thiago Figueiró
+        frontend_engineering_manager: Neil McCorrison
+        be_team_tag: Secure:Threat Insights BE Team
+        fe_team_tag: Secure:Threat Insights FE Team
+        support: Greg Myers
+        appsec_engineer: Nikhil George
+        pdm:
+          - Justin Mandell
+        ux:
+          - Rebecca "Becka" Lippert
+        uxr:
+          - Michael Oliver
+        tech_writer: Clayton Cornell
+        sets:
+          - Harsha Muralidhar
+        cs_team_tag: Threat Insights Group CS Stable Counterpart
+        internal_customers:
+          - department: Security Department
+            dri: TBD
+        categories:
+          - vulnerability_management
+        usage_driver_score: 4
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/categories/#threat-insights-group
+        feature_labels:
+          - MR security reports
+          - pipeline security reports
+
+      vulnerability_research:
+        name: Vulnerability Research
+        pm: Hillary Benson
+        focus: Paid GMAU
+        pmm: Cindy Blake
+        backend_engineering_manager: Mark Art
+        be_team_tag: Secure:Vulnerability Research BE Team
+        support: Greg Myers
+        appsec_engineer: Nikhil George
+        tech_writer: Clayton Cornell
+        cs_team_tag: Vulnerability Research Group CS Stable Counterpart
+        slack:
+          channel: g_secure-vulnerability-research
+        internal_customers:
+          - department: Security Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - advisory_database
+          - security_benchmarking
+        usage_driver_score: 4
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/categories/#vulnerability-research-group
+
+  anti-abuse:
+    display_name: "Anti-Abuse"
+    section: sec
+    description: "Protect against abuse within GitLab instances"
+    body: |
+      Create protections against insider threat activiy within a GitLab instance. This includes abuse, spam, and other activity for users within a GitLab instance.
+    direction: /direction/anti-abuse/
+    marketing: false
+    established: 2021
+    pm: Jensen Stava
+    groups:
+      anti-abuse:
+        name: Anti-Abuse
+        direction: /direction/anti-abuse/
+        slack:
+          channel: g_anti-abuse
+        categories:
+          - instance_resiliency
+          - insider_threat
+        group_link: product/categories/#anti-abuse-group
+        handbook: engineering/development/sec/anti-abuse/
+        pm: Jensen Stava
+        em: Jay Swain
+        appsec_engineer: Nick Malcolm
+        be_team_tag: Anti-Abuse Fullstack Team
+
+
+  release:
+    display_name: "Release"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-release.png"
+    description: "GitLab's integrated CD solution allows you to ship code with zero-touch, be it on one or one thousand servers."
+    body: |
+      GitLab helps automate the release and delivery of applications, shortening the delivery lifecycle, streamlining manual processes, and accelerating team velocity. With zero-touch Continuous Delivery (CD) built right into the pipeline, deployments can be automated to multiple environments like staging and production, and the system just knows what to do without being told - even for more advanced patterns like canary deployments. With feature flags, built-in auditing/traceability, and on-demand environments, you'll be able to deliver faster and with more confidence than ever before.
+    direction: /direction/deployment/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Arelease&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2016
+    lifecycle: 4
+    usage_driver_score: 4
+    revenue_driver_score: 2
+    sam_driver_score: 3
+    stage_development_spend_percent: 7.7
+    analyst_reports:
+      - title: "Gartner Magic Quadrant for Application Release Orchestration"
+        url: "https://about.gitlab.com/analysts/gartner-aro19/"
+      - title: "Forrester Wave: Continuous Delivery and Release Automation"
+        url: "https://about.gitlab.com/analysts/forrester-cdra20/"
+    related:
+      - "configure"
+    section: ops
+    slack:
+      channel: s_release
+    pm: Kevin Chu
+    handbook: product/categories/#release-stage
+    groups:
+      release:
+        name: "Release"
+        handbook: engineering/development/ops/release/
+        pm: Chris Balane
+        focus: Release SMAU
+        cm: Chrissie Buchanan
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: Nicole Williams
+        be_team_tag: Release BE Team
+        fe_team_tag: Release FE Team
+        support: James McGrew
+        pdm:
+          - Rayana Verissimo
+        ux:
+          - Emily Bauman
+        uxr:
+          - Will Leidheiser
+        qm: Joanna Shih
+        tech_writer: Russell Dickenson
+        appsec_engineer: Dominic Couture
+        cs_team_tag: Release Group CS Stable Counterpart
+        internal_customers:
+          - department: Delivery Team
+            dri: TBD
+          - department: Distribution Team
+            dri: TBD
+          - department: Security Department
+            dri: TBD
+          - department: Tech Writers
+            dri: TBD
+          - department: AutoDevOps and Kubernetes Group
+            dri: TBD
+        categories:
+          - continuous_delivery
+          - advanced_deployments
+          - feature_flags
+          - release_orchestration
+          - release_evidence
+          - environment_management
+        usage_driver_score: 4
+        asp_driver_score: 3
+        sam_driver_score: 4
+        group_link: product/categories/#release-group
+        pi_gmau: "https://app.periscopedata.com/app/gitlab/777879/Release-Stage-Dashboard?widget=10279394&udv=0"
+        pi_pgmau: "https://app.periscopedata.com/app/gitlab/777879/Release-Stage-Dashboard?widget=10279447&udv=0"
+
+  configure:
+    display_name: "Configure"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-configure.png"
+    description: "Configure your applications and infrastructure."
+    body: "GitLab helps teams to configure and manage their application environments.  Strong integration to Kubernetes reduces the effort needed to define and configure the infrastructure required to support your application. Protect access to key infrastructure configuration details such as passwords and login information by using ‘secret variables’ to limit access to only authorized users and processes."
+    direction: /direction/configure/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Aconfigure&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2018
+    lifecycle: 3
+    usage_driver_score: 1
+    revenue_driver_score: 1
+    sam_driver_score: 2
+    stage_development_spend_percent: 4.7
+    related:
+      - "release"
+    pm: Kevin Chu
+    pmm: Saumya Upadhyaya
+    section: ops
+    slack:
+      channel: s_configure
+    gitlab_group: gitlab-org/configure
+    handbook: engineering/development/ops/configure/
+    pi_gmau: "https://app.periscopedata.com/app/gitlab/511813/Configure-team-business-metrics?widget=10902321&udv=846080"
+    pi_pgmau: "https://app.periscopedata.com/app/gitlab/511813/Configure-team-business-metrics?widget=10902321&udv=846080"
+    analyst_reports:
+      - title: "GitOps Coverage"
+        url: "/handbook/marketing/strategic-marketing/usecase-gtm/gitops/#analyst-coverage"
+    comp_comparison: "/handbook/marketing/strategic-marketing/usecase-gtm/gitops/#competitive-comparison"
+    groups:
+      configure:
+        name: "Configure"
+        pm: Viktor Nagy
+        focus: Configure GMAU
+        pmm: Saumya Upadhyaya
+        cm: Chrissie Buchanan
+        backend_engineering_manager: Nicolò Maria Mezzopera
+        be_team_tag: Configure BE Team
+        fe_team_tag: Configure FE Team
+        support: Lewis Brown
+        pdm:
+          - Justin Mandell
+        ux:
+          - Ali Ndlovu
+        uxr:
+          - Will Leidheiser
+        qm: Joanna Shih
+        tech_writer: Suzanne Selhorn
+        appsec_engineer: Vitor Meireles De Sousa
+        cs_team_tag: Configure Group CS Stable Counterpart
+        internal_customers:
+          - department: Quality Department
+            dri: Joanna Shih
+          - department: Delivery Team
+            dri: John Skarbek
+          - department: Reliability Engineering
+            dri: Devin Sylva
+        categories:
+          - auto_devops
+          - infrastructure_as_code
+          - kubernetes_management
+          - cluster_cost_management
+          - chatops
+          - deployment_management
+        usage_driver_score: 2
+        asp_driver_score: 2
+        sam_driver_score: 4
+        group_link: product/categories/#configure-group
+        slack:
+          channel: s_configure
+          alias: Configure Group
+        handbook: engineering/development/ops/configure/
+
+  monitor:
+    display_name: "Monitor"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-monitor.png"
+    description:
+      "Help reduce the severity and frequency of incidents."
+    body: |
+      Get feedback and the tools to help you reduce the severity and frequency of incidents so that you can release software frequently with confidence.
+    direction: /direction/monitor/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Amonitor&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2017
+    lifecycle: 1
+    usage_driver_score: 2
+    revenue_driver_score: 1
+    sam_driver_score: 2
+    stage_development_spend_percent: 4.3
+    analyst_reports:
+    related:
+      - "release"
+    section: ops
+    slack:
+      channel: s_monitor
+      alias: Monitor Group
+    gitlab_group: gitlab-org/monitor
+    handbook: engineering/development/ops/monitor/
+    pm: Kevin Chu
+    pmm: Cormac Foster
+    groups:
+      respond:
+        name: "Respond"
+        pm: Kevin Chu (Interim)
+        focus: Respond GMAU
+        pmm: Cormac Foster
+        cm: Chrissie Buchanan
+        backend_engineering_manager: Crystal Poole
+        frontend_engineering_manager: Crystal Poole
+        be_team_tag: Monitor:Respond BE Team
+        fe_team_tag: Monitor:Respond FE Team
+        support: Cody West
+        pdm:
+          - Justin Mandell
+        ux:
+          - Amelia Bauerly
+        uxr:
+          - Will Leidheiser
+        qm: Joanna Shih
+        tech_writer: Marcin Sędłak-Jakubowski
+        appsec_engineer: Vitor Meireles De Sousa
+        slack:
+          channel: g_respond
+          alias: respond-group
+        handbook: engineering/development/ops/monitor/respond/
+        cs_team_tag: Respond Group CS Stable Counterpart
+        internal_customers:
+          - department: Infrastructure Department
+            dri: Dave Smith
+          - department: Engineering Department
+            dri: Sam Goldstein
+        categories:
+          - incident_management
+          - on_call_schedule_management
+          - runbooks
+          - continuous_verification
+        usage_driver_score: 2
+        asp_driver_score: 1
+        sam_driver_score: 4
+        group_link: product/categories/#respond-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/769975/Respond-Group-Dashboard?widget=10132068&udv=0
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/769975/Respond-Group-Dashboard?widget=10199363&udv=0
+        comp_comparison:
+      observability:
+        name: "Observability"
+        pm: Seb Pahl
+        direction: /direction/monitor/observability
+        focus: Acquisition Integration
+        pmm: Cormac Foster
+        cm:
+        em: Nicholas Klick
+        be_team_tag: Monitor:Observability
+        fe_team_tag: Monitor:Observability
+        support:
+        pdm:
+          - TBD
+        ux:
+          - TBD
+        uxr:
+          - Will Leidheiser
+        qm: TBD
+        tech_writer: Marcin Sędłak-Jakubowski
+        appsec_engineer: Vitor Meireles De Sousa
+        slack:
+          channel: g_observability
+          alias: observability-group
+        handbook: engineering/development/ops/monitor/observability/
+        cs_team_tag: Observability Group CS Stable Counterpart
+        internal_customers:
+        categories:
+          - metrics
+          - tracing
+          - logging
+          - error_tracking
+        usage_driver_score:
+        asp_driver_score:
+        sam_driver_score:
+        group_link:
+        pi_gmau:
+        pi_pgmau:
+        comp_comparison:
+
+  protect:
+    display_name: "Protect"
+    marketing: true
+    tw: true
+    image: "/images/solutions/solutions-protect.png"
+    description: "Enforce policies to discover and protect your software from vulnerabilities."
+    body: |
+      GitLab scans cloud native environments for vulnerabilities and also provides unified security policy management.
+    direction: /direction/protect/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Aprotect&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2019
+    lifecycle: 1
+    usage_driver_score: 1
+    revenue_driver_score: 1
+    sam_driver_score: 1
+    stage_development_spend_percent: 0.7
+    analyst_reports:
+    related:
+      - "release"
+      - "secure"
+      - "manage"
+    section: sec
+    slack:
+      channel: s_protect
+    gitlab_group: gitlab-org/protect
+    handbook: engineering/development/protect/
+    groups:
+      container_security:
+        name: Container Security
+        pm: Sam White
+        focus: Container Security Paid GMAC
+        pmm: Cindy Blake
+        backend_engineering_manager: Thiago Figueiró
+        frontend_engineering_manager: Neil McCorrison
+        be_team_tag: Protect:Container Security BE Team
+        fe_team_tag: Protect:Container Security FE Team
+        support: Joseph Joshua
+        appsec_engineer: Nikhil George
+        pdm:
+          - Justin Mandell
+        ux:
+          - Camellia Yang
+        uxr:
+          - Michael Oliver
+        tech_writer: Clayton Cornell
+        cs_team_tag: Container Security Group CS Stable Counterpart
+        internal_customers:
+          - department: Security Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - security_orchestration
+          - container_scanning
+        usage_driver_score: 1
+        asp_driver_score: 2
+        sam_driver_score: 2
+        group_link: product/categories/#container-security-group
+        slack:
+          channel: g_protect_container_security
+
+  analytics:
+    display_name: Analytics
+    section: analytics
+    direction: /direction/analytics/
+    marketing: false
+    tw: true
+    pm: Kenny Johnston
+    established: 2022
+    related:
+      - "monitor"
+      - "plan"
+      - "release"
+    slack:
+      channel: analytics-section
+    handbook: engineering/development/analytics/
+    groups:
+      product_intelligence:
+        name: Product Intelligence
+        direction: /direction/product-intelligence/
+        handbook: engineering/development/analytics/product-intelligence
+        pm: Amanda Rueda
+        pmm: Cormac Foster
+        cm: Suri Patel
+        backend_engineering_manager: Alina Mihaila
+        support: TBD
+        be_team_tag: Product Intelligence Team
+        appsec_engineer: Greg Alfaro
+        pdm:
+          - TBD
+        uxr:
+          - TBD
+        sets:
+          - Carlo Catimbang
+        tech_writer: Clayton Cornell
+        cs_team_tag: Product Intelligence Group CS Stable Counterpart
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Data Team
+            dri: TBD
+        categories:
+            - service_ping
+            - privacy_control_center
+      product_analytics:
+        name: Product Analytics
+        direction: /direction/product-analytics/
+        handbook: engineering/development/analytics
+        pm: Sam Kerr (Interim)
+        pmm: TBD
+        cm: Suri Patel
+        backend_engineering_manager: Dennis Tang
+        support: TBD
+        be_team_tag: Product Analytics Team
+        appsec_engineer: Greg Alfaro
+        pdm:
+          - TBD
+        uxr:
+          - TBD
+        sets:
+          - Carlo Catimbang
+        tech_writer: Clayton Cornell
+        cs_team_tag: Product Intelligence Group CS Stable Counterpart
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Data Team
+            dri: TBD
+        categories:
+            - product_analytics
+
+  fulfillment:
+    display_name: Fulfillment
+    section: fulfillment
+    direction: /direction/fulfillment/
+    marketing: false
+    pm: Omar Fernandez
+    pmm: Saumya Upadhyaya
+    tw: true
+    groups:
+      purchase:
+        name: Purchase
+        description: "Responsible for all purchase experiences. Trials, purchase flows, and account management (invoices, contact, billing info) - Systems and Integrations include CustomersDot, Zuora, Stripe, GitLab."
+        slack:
+          channel: g_purchase
+        pm: Tatyana Golubeva
+        pmm: Saumya Upadhyaya
+        cm: Suri Patel
+        backend_engineering_manager: Ragnar Hardarson
+        frontend_engineering_manager: Ragnar Hardarson
+        support: Rene Verschoor
+        be_team_tag: Fulfillment:Purchase BE Team
+        fe_team_tag: Fulfillment:Purchase FE Team
+        appsec_engineer: Costel Maxim
+        pdm:
+          - Jacki Bauer
+        tech_writer: Fiona Neill
+        ux:
+          - TBD
+        uxr:
+          - Nick Hertz
+        sets:
+          - Chloe Liu
+        cs_team_tag: Fulfillment section CS Stable Counterpart
+        categories:
+          - purchase
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+      provision:
+        name: Provision
+        description: "Responsible for provisioning and managing licenses, overall system architecture, data integrity."
+        slack:
+          channel: g_provision
+        pm: Courtney Meddaugh
+        pmm: Saumya Upadhyaya
+        cm: Suri Patel
+        em: James Lopez
+        support: Keven Hughes
+        be_team_tag: Fulfillment:Provision Team
+        fe_team_tag:
+        appsec_engineer: Costel Maxim
+        pdm:
+          - Jacki Bauer
+        ux:
+          - Philip Joyce
+        uxr:
+          - Nick Hertz
+        tech_writer: Fiona Neill
+        sets:
+          - Dan Davison
+        cs_team_tag: Fulfillment section CS Stable Counterpart
+        categories:
+          - provision
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+      utilization:
+        name: Utilization
+        description: "Responsible for all consumables management, usage reporting, and usage notifications (excluding license utilization). Systems - GitLab."
+        pm: Donique Smit
+        pmm: Saumya Upadhyaya
+        slack:
+          channel: g_utilization
+        cm: Suri Patel
+        backend_engineering_manager: Chase Southard
+        frontend_engineering_manager: Chase Southard
+        support: Shem Gyll
+        be_team_tag: Fulfillment:Utilization BE Team
+        fe_team_tag: Fulfillment:Utilization FE Team
+        appsec_engineer: Costel Maxim
+        pdm:
+          - Jacki Bauer
+        tech_writer: Fiona Neill
+        ux:
+          - Matthew Nearents
+        uxr:
+          - Nick Hertz
+        sets:
+          - Edgars Brālītis
+        cs_team_tag: Fulfillment section CS Stable Counterpart
+        categories:
+          - utilization
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+      fulfillment_platform:
+        name: Fulfillment Platform
+        description: "Responsible for all consumables management, usage reporting, and usage notifications (excluding license utilization). Systems - GitLab."
+        pm: Tatyana Golubeva
+        pmm: Saumya Upadhyaya
+        slack:
+          channel: g_fulfillment_platform
+        cm: Suri Patel
+        backend_engineering_manager: James Lopez
+        frontend_engineering_manager: James Lopez
+        support: TBD
+        be_team_tag: TBD
+        fe_team_tag: TBD
+        appsec_engineer: TBD
+        pdm:
+          - Jacki Bauer
+        tech_writer: Fiona Neill
+        ux:
+          - Emily Sybrant
+        uxr:
+          - TBD
+        sets:
+          - TBD
+        cs_team_tag: TBD
+        categories:
+          - fulfillment_platform
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+
+  growth:
+    display_name: Growth
+    section: growth
+    slack:
+      channel: s_growth
+    direction: /handbook/marketing/growth/
+    gitlab_group: gitlab-org/growth
+    handbook: engineering/development/growth/
+    marketing: false
+    tw: true
+    related:
+      - manage
+      - plan
+      - create
+      - verify
+      - package
+      - release
+      - configure
+      - monitor
+      - secure
+      - protect
+    established: 2019
+    internal_customers:
+      - department: Sales Department
+        dri: TBD
+      - department: Marketing Department
+        dri: TBD
+      - department: Product Department
+        dri: TBD
+      - department: Finance Department
+        dri: TBD
+    groups:
+      acquisition:
+        name: Acquisition
+        description: "The team is currently focusing on improving the trial to paid conversion rate."
+        direction: /handbook/marketing/growth/
+        slack:
+          channel: g_acquisition
+        handbook: engineering/development/growth/
+        pm: Sam Awezec
+        pmm: Saumya Upadhyaya
+        em: Kamil Niechajewicz
+        be_team_tag: Acquisition Fullstack Team
+        fe_team_tag:
+        tech_writer: Kati Paizee
+        support: TBD
+        appsec_engineer: Costel Maxim
+        pdm:
+          - Jacki Bauer
+        ux:
+          - Kevin Comoli
+        uxr:
+          - Nick Hertz
+        cs_team_tag: Acquisition Group CS Stable Counterpart
+        # usage_driver_score: 5
+        # asp_driver_score: 5
+        # sam_driver_score:
+        categories:
+          - experimentation_conversion
+          - experimentation_expansion
+          - onboarding
+
+      activation:
+        name: Activation
+        description: "To promote the value of GitLab and accelerate the adoption of stages."
+        direction: /handbook/marketing/growth/
+        slack:
+          channel: g_activation
+        handbook: engineering/development/growth/
+        pm: Sam Awezec
+        pmm: Saumya Upadhyaya
+        em: Kamil Niechajewicz
+        be_team_tag: Activation Fullstack Team
+        fe_team_tag:
+        tech_writer: Kati Paizee
+        support: TBD
+        appsec_engineer: Costel Maxim
+        pdm:
+          - Jacki Bauer
+        ux:
+          - Matej Latin
+        uxr:
+          - Nick Hertz
+        cs_team_tag: Activation Group CS Stable Counterpart
+        # usage_driver_score: 5
+        # asp_driver_score: 5
+        # sam_driver_score:
+        categories:
+          - experimentation_adoption
+          - experimentation_activation
+
+  systems:
+    display_name: Systems
+    section: enablement
+    marketing: false
+    enabling: true
+    tw: true
+    related:
+      - "create"
+    established: 2012
+    lifecycle: 5
+    direction: /direction/enablement/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Aenablement&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    slack:
+      channel: s_enablement
+    gitlab_group: gitlab-org/enablement-section
+    handbook: engineering/development/enablement/
+    usage_driver_score: 5
+    revenue_driver_score: 4
+    sam_driver_score: 5
+    groups:
+      distribution_build:
+        name: Distribution:Build
+        label: "group::distribution" # the team still uses a single group label, see https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/834
+        focus: Distribution PPI
+        image: "/images/solutions/solutions-distribution.png"
+        description: "The focus for the Build group of the Distribution team is to ensure the components that make up GitLab are tested, up to date, license compliant, and available for our users’ platforms and architectures."
+        body: |
+          This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
+        direction: /direction/distribution/
+        roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Adistribution&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+        pm: Dilan Orrino
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: DJ Mountney
+        be_team_tag: Distribution Build BE Team
+        fe_team_tag:
+        support:
+          - Diana Stanley
+          - Nathan Black
+        appsec_engineer: Kevin Morrison
+        pdm:
+          - Marcel van Remmerden
+        ux:
+          - Sunjung Park
+        uxr:
+          - Will Leidheiser
+        sets:
+          - Grant Young
+          - Nailia Iskhakova
+        tech_writer: Axil
+        slack:
+          channel: g_distribution
+          alias: distributionteam
+        handbook: engineering/development/enablement/distribution/
+        gitlab_group: gitlab-org/distribution
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 5
+        group_link: product/categories/#distribution-group
+        internal_customers:
+          - department: Quality Department
+            dri: Kyle Wiebers
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+        categories:
+          - build
+        # usage_driver_score: 5
+        # asp_driver_score: 4
+        # sam_driver_score:
+
+      distribution_deploy:
+        name: Distribution:Deploy
+        label: "group::distribution" # the team still uses a single group label, see https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/834
+        focus: Distribution PPI
+        image: "/images/solutions/solutions-distribution.png"
+        description: "The focus for the Deploy group of the Distribution team surrounds configuration, deployment, and operation of GitLab as a whole product."
+        body: |
+          The goal is to deliver an intuitive, clear, and frictionless installation experience, followed by smooth, seamless upgrade and maintenance processes for deployments of any scale. We strive to deliver ongoing operational behaviors for scaling, little to zero downtime upgrades, and highly reliable experiences for not only instance administrators but their users.
+        direction: /direction/distribution/
+        roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Adistribution&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+        pm: Dilan Orrino
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: Steven Wilson
+        be_team_tag: Distribution Deploy BE Team
+        fe_team_tag:
+        support:
+          - Diana Stanley
+          - Nathan Black
+        appsec_engineer: Kevin Morrison
+        pdm:
+          - Marcel van Remmerden
+        ux:
+          - Sunjung Park
+        uxr:
+          - Will Leidheiser
+        sets:
+          - Grant Young
+          - Nailia Iskhakova
+        tech_writer: Axil
+        slack:
+          channel: g_distribution
+          alias: distributionteam
+        handbook: engineering/development/enablement/distribution/
+        gitlab_group: gitlab-org/distribution
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 5
+        group_link: product/categories/#distribution-group
+        internal_customers:
+          - department: Quality Department
+            dri: Kyle Wiebers
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+        categories:
+          - omnibus_package
+          - cloud_native_installation
+        # usage_driver_score: 5
+        # asp_driver_score: 4
+        # sam_driver_score:
+
+      gitaly:
+        name: Gitaly
+        pm: Mark Wood
+        focus: Gitaly GMAU
+        pmm: Saumya Upadhyaya
+        image: "/images/solutions/solutions-gitaly.png"
+        description: |
+          Gitaly provides a performant and durable Git storage layer for all
+          repositories at GitLab.
+        body: |
+          GitLab makes Gitaly
+        direction: "https://gitlab.com/groups/gitlab-org/-/epics/710"
+        backend_engineering_manager: Andras Horvath
+        be_team_tag: Gitaly BE Team
+        fe_team_tag:
+        support: Gerardo Gutierrez
+        appsec_engineer: Costel Maxim
+        tech_writer: Evan Read
+        sets:
+          - John McDonnell
+        cs_team_tag: Gitaly Group CS Stable Counterpart
+        internal_customers:
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - gitaly
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 1
+        group_link: product/categories/#gitaly-group
+
+      geo:
+        name: "Geo"
+        image: "/images/8_5/geo.png"
+        focus: Geo Paid GMAU
+        description: "Add Geo description here"
+        body: |
+          GitLab makes Geo
+        direction: /direction/geo/
+        roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Adistribution&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+        pm: Sampath Ranasinghe
+        pmm: Cormac Foster
+        backend_engineering_manager: Juan Silva
+        frontend_engineering_manager: Juan Silva
+        be_team_tag: Geo BE Team
+        fe_team_tag: Geo FE Team
+        support:
+          - Bo Carbonell
+        appsec_engineer: Kevin Morrison
+        pdm:
+          - Marcel van Remmerden
+        ux:
+          - Sunjung Park
+        uxr:
+          - Will Leidheiser
+        sets:
+          - Nick Westbury
+        tech_writer: Axil
+        slack:
+          channel: g_geo
+        gitlab_group: gitlab-org/geo-team
+        handbook: engineering/development/enablement/geo/
+        usage_driver_score: 3
+        asp_driver_score: 4
+        sam_driver_score: 3
+        group_link: product/categories/#geo-group
+        internal_customers:
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - geo_replication
+          - disaster_recovery
+          - backup_restore
+        # usage_driver_score: 1
+        # asp_driver_score: 2
+        # sam_driver_score:
+
+  data_stores:
+    display_name: Data Stores
+    section: enablement
+    marketing: false
+    enabling: true
+    tw: true
+    related:
+      - "create"
+    established: 2012
+    lifecycle: 5
+    direction: /direction/enablement/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Aenablement&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    slack:
+      channel: s_enablement
+    gitlab_group: gitlab-org/enablement-section
+    handbook: engineering/development/enablement/
+    usage_driver_score: 5
+    revenue_driver_score: 4
+    sam_driver_score: 5
+    groups:
+      memory:
+        name: Memory
+        description: "Responsible for optimizing GitLab application performance by reducing and optimizing memory resources required."
+        focus: Memory PPI
+        pm: Yannis Roussos
+        pmm: Cormac Foster
+        backend_engineering_manager: Changzheng Liu
+        be_team_tag: Memory BE Team
+        fe_team_tag:
+        support: TBD
+        appsec_engineer: Kevin Morrison
+        pdm:
+          - Marcel van Remmerden
+        uxr:
+          - Will Leidheiser
+        tech_writer: Suzanne Selhorn
+        slack:
+          channel: g_memory
+        gitlab_group: gitlab-org/memory-team
+        handbook: engineering/development/enablement/memory/
+        usage_driver_score: 3
+        asp_driver_score: 2
+        sam_driver_score: 3
+        group_link: product/categories/#memory-group
+        sets:
+          - TBD
+        internal_customers:
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - memory
+          - redis
+        # usage_driver_score: 5
+        #asp_driver_score: 1
+        # sam_driver_score:
+      global_search:
+        name: Global Search
+        description: "Search across all of GitLab"
+        body: |
+          Global search and indexing
+        direction: /direction/global-search/
+        roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Asearch&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+        pm: John McGuire
+        focus: Paid GMAU
+        pmm: Cormac Foster
+        backend_engineering_manager: Changzheng Liu
+        frontend_engineering_manager: Changzheng Liu (Interim)
+        be_team_tag: Global Search BE Team
+        fe_team_tag: Global Search FE Team
+        support: Vlad Stoianovici
+        appsec_engineer: Kevin Morrison
+        pdm:
+          - Marcel van Remmerden
+        ux:
+          - Nick Brandt
+        uxr:
+          - Will Leidheiser
+        sets:
+          - Erick Banks
+        tech_writer: Suzanne Selhorn
+        slack:
+          channel: g_global_search
+        gitlab_group: gitlab-org/search-team
+        handbook: engineering/development/enablement/search/
+        usage_driver_score: 5
+        asp_driver_score: 3
+        sam_driver_score: 3
+        group_link: product/categories/#global-search-group
+        internal_customers:
+          - department: Engineering Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - global_search
+        # usage_driver_score: 5
+        # asp_driver_score: 1
+        # sam_driver_score:
+      database:
+        name: Database
+        description: "Developing solutions for scalability, application performance, data growth and developer enablement especially where it concerns interactions with the database."
+        focus: Database PPI
+        pm: Yannis Roussos
+        pmm: Cormac Foster
+        backend_engineering_manager: Alex Ives
+        be_team_tag: Database BE Team
+        fe_team_tag:
+        support: Ben Prescott
+        appsec_engineer: Kevin Morrison
+        pdm:
+          - Marcel van Remmerden
+        uxr:
+          - Will Leidheiser
+        tech_writer: Amy Qualls
+        slack:
+          channel: g_database
+        gitlab_group: gitlab-org/database-team
+        handbook: engineering/development/enablement/database/
+        cm: TBD
+        usage_driver_score: 3
+        asp_driver_score: 1
+        sam_driver_score: 3
+        group_link: product/categories/#database-group
+        internal_customers:
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - database
+        # usage_driver_score: 5
+        # asp_driver_score: 2
+        # sam_driver_score:
+      pods:
+        name: Pods
+        description: "Scale the GitLab database for 10 million daily-active users (DAU)"
+        focus: Database PPI
+        pm: Fabian Zimmer
+        pmm: Cormac Foster
+        backend_engineering_manager: Barry Firman
+        be_team_tag: Pods BE Team
+        fe_team_tag:
+        support: Ben Prescott
+        appsec_engineer: Kevin Morrison
+        pdm:
+          - Marcel van Remmerden
+        uxr:
+          - Will Leidheiser
+        tech_writer: Suzanne Selhorn
+        slack:
+          channel: g_pods
+        gitlab_group: TBD
+        handbook: engineering/development/enablement/data_stores/pods/
+        cm: TBD
+        usage_driver_score: 3
+        asp_driver_score: 1
+        sam_driver_score: 3
+        group_link: product/categories/#pods-group
+        internal_customers:
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - pods
+        # usage_driver_score: 5
+        # asp_driver_score: 2
+        # sam_driver_score:
+
+  platforms:
+    display_name: "SaaS Platforms"
+    section: platforms
+    marketing: false
+    enabling: false
+    tw: true
+    related:
+      - "enablement"
+    established: 2013
+    lifecycle: 5
+    direction: /direction/platforms/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Aenablement&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    slack:
+      channel: s_platforms
+    gitlab_group: gitlab-com/gl-infra/platform
+    handbook: engineering/development/platforms/
+    usage_driver_score: 5
+    revenue_driver_score: 5
+    sam_driver_score: 5
+    groups:
+      delivery:
+        name: "Delivery"
+        description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
+        direction: /handbook/engineering/infrastructure/team/delivery/
+        pm: Andrew Thomas (Life Support)
+        pmm: Cormac Foster
+        uxr:
+          - Will Leidheiser
+        appsec_engineer: TBD
+        tech_writer: "#docs Slack channel"
+        slack:
+          channel: g_delivery
+        gitlab_group: gitlab-org/delivery
+        handbook: /handbook/engineering/infrastructure/team/delivery/
+        categories:
+          - delivery
+
+      scalability:
+        name: "Scalability"
+        description: "The Scalability team is responsible for GitLab and GitLab.com at scale, working on the highest priority scaling items related to the application and GitLab.com."
+        direction: /handbook/engineering/infrastructure/team/scalability/
+        pm: Andrew Thomas (Life Support)
+        pmm: Cormac Foster
+        appsec_engineer: Rohit Shambhuni
+        tech_writer: "#docs Slack channel"
+        slack:
+          channel: g_scalability
+        gitlab_group: gitlab-org/scalability
+        handbook: /handbook/engineering/infrastructure/team/scalability/
+        categories:
+          - scalability
+          - error_budgets
+
+      dedicated:
+        name: "GitLab Dedicated"
+        focus: GMAU
+        description: TBD
+        body: |
+          Single-tenant SaaS service currently in Limited Availability
+        direction: /direction/horse/
+        pm: Andrew Thomas
+        pmm: Cormac Foster
+        uxr:
+          - Will Leidheiser
+        backend_engineering_manager: TBH
+        be_team_tag: TBD
+        fe_team_tag:
+        support: TBD
+        appsec_engineer: Greg Alfaro
+        tech_writer: "#docs Slack channel"
+        slack:
+          channel: TBD
+          alias: TBD
+        handbook: engineering/development/platforms/horse/
+        gitlab_group: TBD
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 5
+        group_link: product/categories/#gitlab-dedicated-group
+        categories:
+          - dedicated
+        # usage_driver_score: 5
+        # asp_driver_score: 4
+        # sam_driver_score:
+
+  modelops:
+    display_name: ModelOps
+    section: modelops
+    direction: /direction/modelops/
+    gitlab_group:
+    pm: Taylor McCaslin
+    pdm:
+        - Taurie Davis
+    handbook: /handbook/engineering/development/modelops/
+    marketing: false
+    tw: true
+    slack:
+      channel: s_modelops
+    established: 2020
+    groups:
+      applied_ml:
+        name: Applied Machine Learning
+        direction: /direction/modelops/applied_ml/
+        pm: Taylor McCaslin
+        em: Monmayuri Ray
+        be_team_tag: ModelOps:Applied ML
+        tech_writer: "#docs Slack channel"
+        sets:
+          - Mark Lapierre
+        appsec_engineer: Nick Malcolm
+        handbook: engineering/development/modelops/applied_ml/
+        slack:
+          channel: g_applied_ml
+        categories:
+          - workflow_automation
+          - intel_code_security
+        group_link: product/categories/#applied-machine-learning-group
+      mlops:
+        name: MLOps
+        direction: /direction/modelops/mlops/
+        pm: Taylor McCaslin
+        em: Monmayuri Ray
+        appsec_engineer: Nick Malcolm
+        be_team_tag: MLOps
+        tech_writer: "#docs Slack channel"
+        slack:
+          channel: g_mlops
+        categories:
+          - mlops
+        group_link: product/categories/#mlops-group
+      dataops:
+        name: DataOps
+        direction: /direction/modelops/dataops/
+        pm: Taylor McCaslin
+        em: Monmayuri Ray
+        appsec_engineer: Nick Malcolm
+        tech_writer: "#docs Slack channel"
+        slack:
+          channel: s_modelops
+        categories:
+          - dataops
+        group_link: product/categories/#dataops-group
+
+
+  # Single-engineer groups stage
+
+  mobile:
+    display_name: Mobile
+    section: seg
+    direction: /direction/mobile/mobile-devops/
+    gitlab_group:
+    handbook:
+    marketing: false
+    tw: false
+    related:
+      - create
+      - verify
+      - package
+      - secure
+    established: 2020
+    pm: David DeSanto
+    groups:
+      moble_devops:
+        name: DevOps for Mobile Apps
+        slack:
+          channel: g_mobile_devops
+        categories:
+          - mobile_signing_deployment
+        group_link: product/categories/#devops-for-mobile-apps-group
+
+  deploy:
+    display_name: Deploy
+    section: seg
+    direction: /direction/5-min-production/
+    gitlab_group:
+    handbook:
+    marketing: false
+    tw: false
+    related:
+      - configure
+    established: 2020
+    pm: Kenny Johnston
+    groups:
+      5-min-app:
+        name: Five Minute Production App
+        focus: Five Minute Production App AMAU
+        be_team_tag: Single Engineer Group:Five Minute App Team
+        product_sponsor: Kenny Johnston
+        slack:
+          channel: 5-minute-production-app
+        categories:
+          - five_minute_production_app
+        group_link: product/categories/#five-minute-production-app-group
