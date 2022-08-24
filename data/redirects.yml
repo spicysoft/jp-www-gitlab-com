@@ -975,9 +975,9 @@
   target: /engineering/ux/ux-research-training/
   comp_op: '='
 - sources:
-  - /job-families/legal/general-counsel
-  - /job-families/legal/general-counsel/
-  target: /job-families/legal/chief-legal-officer/
+  - /job-families/legal
+  - /job-families/legal/
+  target: /job-families/legal-and-corporate-affairs/
   comp_op: '='
 - sources:
   - /handbook/legal/innovation-program/
