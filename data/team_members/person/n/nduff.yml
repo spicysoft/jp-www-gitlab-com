@@ -1,7 +1,9 @@
+---
 name: Nick Duff
 locality:
 country: Remote
-role: <a href="/job-families/engineering/infrastructure/site-reliability-engineer/">Senior Site Reliability Engineer</a>
+role: <a href="/job-families/engineering/infrastructure/site-reliability-engineer/">Senior
+  Site Reliability Engineer</a>
 reports_to: dave-smith
 picture: nduff.jpg
 pronouns: he/him
@@ -10,9 +12,10 @@ twitter:
 linkedin: nduff
 gitlab: nduff
 departments:
-  - Engineering Function
-  - Infrastructure Department
-  - Reliability Team
-specialty: 
+- Engineering Function
+- Infrastructure Department
+- Reliability Team
+specialty: Reliability
 expertise:
 story:
+
