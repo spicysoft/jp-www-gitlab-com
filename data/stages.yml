@@ -1531,9 +1531,40 @@ stages:
           - department: Data Team
             dri: TBD
         categories:
-            - product_analytics
             - service_ping
             - privacy_control_center
+      product_analytics:
+        name: Product Analytics
+        direction: /direction/product-analytics/
+        handbook: engineering/development/analytics
+        pm: Sam Kerr (Interim)
+        pmm: TBD
+        cm: Suri Patel
+        backend_engineering_manager: Dennis Tang
+        support: TBD
+        be_team_tag: Product Analytics Team
+        appsec_engineer: Greg Alfaro
+        pdm:
+          - TBD
+        uxr:
+          - TBD
+        sets:
+          - Carlo Catimbang
+        tech_writer: Clayton Cornell
+        cs_team_tag: Product Intelligence Group CS Stable Counterpart
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Data Team
+            dri: TBD
+        categories:
+            - product_analytics
 
   fulfillment:
     display_name: Fulfillment
