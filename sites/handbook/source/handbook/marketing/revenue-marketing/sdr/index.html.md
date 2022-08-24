@@ -1109,7 +1109,7 @@ The team's baseline outbound activity revolves around at least 20 accounts per S
 | ------ | ------ | ------ | ------ | ------ | ----- | 
 | Johan Rosendahl | Germany, South Europe / First Order  | COM_MM_EMEA_SOUTH_FO_2, COM_MM_EMEA_CENTRAL_FO_2 | UKI / Under 500 | COM_MM_EMEA_NORTH_TERR_5 | German, Swedish | 
 | Raquel Gulin | United Kingdom, Netherlands, Nordics / First Order | COM_MM_EMEA_SOUTH_FO_1, COM_MM_EMEA_NORTH_FO_1 | UKI / Under 500 | COM_MM_EMEA_NORTH_TERR_1 | French, Italian, Spanish, Portugese | 
-| Luis Calixto | South Europe / First Order | COM_MM_EMEA_SOUTH_FO_4, COM_MM_EMEA_CENTRAL_FO_4 | South Europe, UKI / Under 500 | COM_MM_EMEA_SOUTH_TERR_6TBH, COM_MM_EMEA_NORTH_TERR_1 | Spanish |
+| Luis Calixto | South Europe / First Order | COM_MM_EMEA_SOUTH_FO_4, COM_MM_EMEA_CENTRAL_FO_4 | South Europe, UKI / Under 500 | COM_MM_EMEA_SOUTH_TERR_6TBH, COM_MM_EMEA_SOUTH_TERR_2, COM_MM_EMEA_NORTH_TERR_1 | Spanish |
 | Daniel Fuller | Germany / Under 500 | COM_MM_EMEA_CENTRAL_TERR_2, COM_MM_EMEA_CENTRAL_TERR_3TBH, COM_MM_EMEA_CENTRAL_TERR_4TBH | Nordics, UKI / Under 500 | COM_MM_EMEA_NORTH_TERR_2 | N/A | 
 | Barbara Schreuder | Germany / Under 500 | COM_MM_EMEA_CENTRAL_TERR_1, COM_MM_EMEA_CENTRAL_TERR_5TBH | BeNeLux / Under 500 | COM_MM_EMEA_NORTH_TERR_3TBH | French, Dutch | 
 | Denis Stete | United Kingdom, South Europe / First Order | COM_MM_EMEA_NORTH_FO_3, COM_MM_EMEA_SOUTH_FO_3 | East Europe, MEA / Under 500 | COM_MM_EMEA_SOUTH_TERR_1, COM_MM_EMEA_SOUTH_TERR_3TBH, COM_MM_EMEA_SOUTH_TERR_4TBH | Spanish, Romanian | 
