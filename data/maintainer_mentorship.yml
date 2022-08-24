@@ -19,7 +19,6 @@
     - backend
   max_trainees: 2
   trainees:
-    - Steve Abrams (@sabrams)
     - Nico Belokolodov (@nbelokolodov)
 - mentor: Peter Leitzen
   gitlab: splattael
