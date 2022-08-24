@@ -3,7 +3,7 @@ name: New Vacancy (John Hope - Acting EM)
 placeholder: true
 locality: Anywhere
 country: Remote
-role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering Manager, Plan:Product Planning</a>
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering Manager, Plan:Certify</a>
 reports_to: midhir
 picture: ../gitlab-logo-extra-whitespace.png
 twitter:
@@ -12,7 +12,7 @@ departments:
   - Engineering Function
   - Development Department
   - Dev Sub-Department
-  - Plan:Product Planning
+  - Plan:Certify
 expertise:
 story: |
   Open Position
