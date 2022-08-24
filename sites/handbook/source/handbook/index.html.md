@@ -164,7 +164,7 @@ For a very specific set of [internal](/handbook/communication/confidentiality-le
     * [Sales Strategy](/handbook/sales/field-operations/sales-strategy/)
     * [Sales Systems](/handbook/sales/field-operations/sales-systems/)
   * [Reporting](/handbook/business-ops/#reporting)
-  * [Technical Account Management](/handbook/customer-success/tam/)
+  * [Customer Success Management](/handbook/customer-success/tam/)
   * [Alliances](/handbook/alliances/)
 
 ## Finance
