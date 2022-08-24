@@ -2037,7 +2037,7 @@ stages:
         name: "Application Performance"
         description: "Responsible for improving availability, reliability, and performance of the GitLab application"
         focus: Memory PPI
-        pm: Fabian Zimmer (Acting)
+        pm: Gabe Weaver (Acting)
         pmm: Cormac Foster
         backend_engineering_manager: Changzheng Liu
         be_team_tag: Application Performance BE Team
@@ -2119,7 +2119,7 @@ stages:
         name: Database
         description: "Developing solutions for scalability, application performance, data growth and developer enablement especially where it concerns interactions with the database."
         focus: Database PPI
-        pm: Fabian Zimmer (Acting)
+        pm: Gabe Weaver (Acting)
         pmm: Cormac Foster
         backend_engineering_manager: Alex Ives
         be_team_tag: Database BE Team
