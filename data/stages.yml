@@ -34,7 +34,7 @@ stages:
       - "secure"
       - "protect"
     section: dev
-    pm: Viktor Nagy (Acting)
+    pm: Sarah Waldner (Acting)
     groups:
       authentication_and_authorization:
         name: Authentication & Authorization
