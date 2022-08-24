@@ -346,9 +346,19 @@ GitLabでは、利用者に最も価値を提供をできるプラットフォ�
 {:.no_toc}
 測定可能な目標を文書で合意しましょう。そのために弊社では[OKRを公開](/company/okrs/)しています。
 
-##### 成長志向 {#growth-mindset}
+##### 成長マインド {#growth-mindset}
 {:.no_toc}
-You don't always get results and this will lead to criticism from yourself and/or others. We believe our talents can be developed through hard work, targeted training, learning from others, on-the-job experience, and receiving input from others. It is in our DNA as a company and individuals to look for opportunity, stay humble, and never settle. We try to hire people based on [their trajectory, not their pedigree](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means). We also strive to foster a culture of curiosity and continuous learning where team members are provided and proactively seek out opportunities to grow themselves and their careers. We believe that with the right expectations and direction, people can grow to take on new challenges and surpass expectations.
+常に結果を出せるとは限りません。結果を出せないと自己問わず批判にさらされてしまいます。
+
+でも、努力をすれば、目標に向けてトレーニングをすれば、他人から学べば、現場で経験すれば、人から情報を収集すれば、才能は開花すると信じています。
+
+チャンスを求めること、謙虚でいること、決して妥協しないことが、会社および各社員のDNAです。
+
+[生まれつきの才能ではなく、どうのように努力して成長してきたか](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means)を基準に採用をしています。
+
+成長してキャリアを積める機会がチームメンバーに提供される文化、チームメンバーが自らそれを追い求める文化、そんなみなが好奇心を持って継続的に学び続ける文化を醸成していきます。
+
+ちゃんと期待をして指示をしてあげれば、誰でも新しいことに挑戦できるようになるし、期待を上回って成長することもできます。
 
 ##### 全体最適化 {#global-optimization}
 {:.no_toc}
