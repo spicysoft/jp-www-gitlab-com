@@ -84,6 +84,31 @@
   source:
   group: Release
 
+- slug: release-orchestration-1
+  parent:
+  short_jtbd: Manage software releases
+  jtbd: When managing software releases, I want to optimize repeated tasks and workflows, so that I can make the business more efficient.
+  grade: "-"
+  confidence: Researched
+  source: "https://gitlab.com/gitlab-org/ux-research/-/issues/2016"
+  group: Release
+- slug: release-orchestration-2
+  parent: release-orchestration-1
+  short_jtbd: Manage release compliance
+  jtbd: When releasing code, I want to manage release artifacts, so I can deploy and audit them in a repeatable fashion.
+  grade: "-"
+  confidence: Researched
+  source:
+  group: Release
+- slug: release-orchestration-4
+  parent: release-orchestration-1
+  short_jtbd: Communicate release changes
+  jtbd: When my product is ready to be released, I want to make the documentation about it available, so I can educate the adopters on any changes.
+  grade: "-"
+  confidence: Researched
+  source:
+  group: Release
+
 ##### Start Configure ######
 
 - slug: secrets-mgt-1
