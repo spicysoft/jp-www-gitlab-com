@@ -111,7 +111,7 @@ _People:_
 
 - [ ] 🟢 Announce yourself as the Release Post Manager in the `#release-post` channel, as well as the Technical Advisor, and TW lead for reference. cc the Product Operations DRI
 - [ ] 🟢 Schedule at least two sync 15 minute weekly standups using this [agenda as an example](https://docs.google.com/document/d/1Ai5DHRXg39w_4rPEeztwUrYH-FxASs_eJyOf3MqPsh0/edit).
-  - The standups should ideally happen  the 2nd and 3rd weeks of the month to allow for collaboration leading up to the 17th.
+  - The standups should ideally happen the 2nd and 3rd weeks of the month to allow for collaboration leading up to the 17th.
   - Add attendees TW Lead, Tech advisor as required and the PMM Lead and Product Operations DRI as optional.
   - If times zones conflict too much, initiate at least two weekly virtual standups to happen at the same time/day of the week in Slack `#X-Y-release-post-prep` channel. Leverage the agenda template above to conduct it
   - For any who can't attend, recordings should be posted in the agenda and/or Slack `#X-Y-release-post-prep` channel after the standup
@@ -236,7 +236,7 @@ To easily manage and track reviewed items do the following:
 
 - [ ] In the `#release-post` channel remind all PMs that have their release post item MRs merged by EOD on the 17th or bump the milestone if they know it won't make it.
 - [ ] No later than the 15th, if [final contnet review](#final-content-review) dates fall on a weekend, Family and Friends day or other holiday, post a message in Slack `#release-post` letting the final reviewers `@Sid` and `@david` know you'll be requsting review from them over the weekend. Cc the TW lead and Product Operatoins DRI
-- [ ] Provide the list of the `primary` features to VP or Product `@david` in `#release-post` and recommend a `top` feature.
+- [ ] Provide [the list of the `primary` features](https://gitlab.com/dashboard/merge_requests?scope=all&state=opened&label_name[]=release%20post%20item&label_name[]=release%20post&milestone_title=_MILESTONE_&label_name[]=release%20post%20item%3A%3Aprimary) to VP of Product `@david` in `#release-post` and recommend a [top feature](https://about.gitlab.com/handbook/marketing/blog/release-posts/#top-feature).
   - Tip: If you're using an IDE such as VS Code, search for `primary:` and add `data/release_posts/X_Y` to the `files to include` input
 - [ ] 🟢 Select a [cover image](https://about.gitlab.com/handbook/marketing/blog/release-posts#cover-image) for the release post
 - [ ] 🟢 Verify that the selected cover image has not been used before.
@@ -309,7 +309,7 @@ To assist managers in determining whether a release contains a feature. The foll
   - [ ] Link the release post items mentioned in the intro to the item blocks within the release post. For example, for a feature named `"Define test cases in GitLab"`, the link from the introduction should point to `#define-test-cases-in-gitlab`.
   - [ ] Count the feature blocks to get the total number of improvements and add it to the intro, replace the `XX` in `from the XX improvements` and remove the backticks in `sites/uncategorized/source/releases/posts/YYYY-MM-DD-gitlab-X-Y-released.html.md`. This count includes the top feature, primary features, secondary features, usability improvements, and performance improvements. Do not count bugs, upgrades, etc. **You should use an approximate count (i.e. 40+ instead of 43)** because the number can shift after the release post goes live.
   - [ ] Replace the `XX` in `We thank our community for the XX contributions` with the count of merged milestones found in [this query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Community+contribution&milestone_title=X.Y&scope=all&sort=popularity&state=merged). Remove the backticks as well.
-  - [ ] Change the entry for the top feature from `primary` to `top` based on the feedback from VP of Product `@david`.
+  - [ ] Change the entry for the [top feature](https://about.gitlab.com/handbook/marketing/blog/release-posts/#top-feature) from `primary` to `top` based on the feedback from VP of Product `@david`.
     - If you did not receive feedback, you may either choose the feature you recommended or solicit feedback from `@product-team` in `#release-post`.
 - [ ]  🟢 Create a new "draft" merge request with changes to [this file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/index.yml)
   - [ ] Because the MR wil be live on the homepage when merged, make a note in the description that it shouldn't be merged until the release date.
