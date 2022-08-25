@@ -347,7 +347,7 @@ stages:
         backend_engineering_manager: John Hope
         frontend_engineering_manager: John Hope
         be_team_tag: Plan:Certify BE Team
-        fe_team_tag: Plan FE Team
+        fe_team_tag: Plan:Certify FE Team
         handbook: product/categories/plan/
         support: []
         pdm:
