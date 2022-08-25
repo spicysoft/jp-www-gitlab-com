@@ -556,7 +556,7 @@
   maturity: Viable
   category: Consulting
   duration_desc: 3 months, 40 hours per week
-  price_desc: 3 Months of a dedicated GitLab Professional Services Engineer
+  price_desc: $147,900
   target_audience: This is for Customers who are interested in augmenting their staff with a GitLab Professional Services Engineer.
 
 - id: Dedicated-6
@@ -570,7 +570,7 @@
   maturity: Viable
   category: Consulting
   duration_desc: 6 months, 40 hours per week
-  price_desc: 6 Months of a dedicated GitLab Professional Services Engineer
+  price_desc: $281,010
   target_audience: This is for Customers who are interested in augmenting their staff with a GitLab Professional Services Engineer.
 
 - id: Dedicated-12
@@ -584,7 +584,7 @@
   maturity: Viable
   category: Consulting
   duration_desc: 12 months, 40 hours per week
-  price_desc: 12 Months of a dedicated GitLab Professional Services Engineer
+  price_desc: $502,860
   target_audience: This is for Customers who are interested in augmenting their staff with a GitLab Professional Services Engineer.
 
 - id: Dedicated-Cleared-3
@@ -597,7 +597,7 @@
   level: 1 - Product
   maturity: Viable
   category: Consulting
-  duration_desc: 3 months, 40 hours per week
+  duration_desc: $184,875
   price_desc: 3 Months of a dedicated GitLab Professional Services Engineer
   target_audience: This is for Customers who are interested in augmenting their staff with a GitLab Professional Services Engineer.
 
@@ -612,7 +612,7 @@
   maturity: Viable
   category: Consulting
   duration_desc: 6 months, 40 hours per week
-  price_desc: 6 Months of a dedicated GitLab Professional Services Engineer
+  price_desc: $351,263
   target_audience: This is for Customers who are interested in augmenting their staff with a GitLab Professional Services Engineer.
 
 - id: Dedicated-12
@@ -625,34 +625,34 @@
   level: 1 - Product
   maturity: Viable
   category: Consulting
-  duration_desc: 12 months, 40 hours per week
+  duration_desc: $628,575
   price_desc: 12 Months of a dedicated GitLab Professional Services Engineer
   target_audience: This is for Customers who are interested in augmenting their staff with a GitLab Professional Services Engineer. 
 
-- id: Expertise-on-retainer
-  name: Expertise on Retainer
-  sku: 
-  standard_sow: 
-  price: 
-  description2: Get access to GitLab expertise on a weekly basis for a set amount of time. We can provide technical guidance to help you on your adoption journey. 
-  desc_url: https://about.gitlab.com/services/advisory/expertise-on-retainer/
+- id: Expertise-Services
+  name: Expert Services 
+  sku: GL-XPRT
+  standard_sow: https://docs.google.com/document/d/1s-2hICSerSh1GaLOQoTfvnigIW50Z-mH9mG0dgDUawE/edit#
+  price: $14,400
+  description2: Get access to GitLab experts. We can provide technical guidance to help you on your adoption journey. 
+  desc_url: https://about.gitlab.com/services/advisory/expert-services/
   level: 1 - Product
   maturity: Viable
   category: Consulting
-  duration_desc: Minimum 48 hour blocks - 40 hours of Professional Services Engineering + 8 hours Project Management. Must use a minimum of 8 hours per week.  
-  price_desc: Call for pricing
-  target_audience: This is for Customers who want access to experts to help them plan, design and validate their approach, but not actually implement the plan. 
+  duration_desc: Minimum 48 hour blocks - 40 hours of Expert Services + 8 hours Project Management.  
+  price_desc: $14,400 for 48 hour block. Can add in blocks of 48 hours
+  target_audience: This is for Customers who want access to experts to help them plan, design and validate their architecture, devops and security processes, and overall adoption approach. 
 
-- id: Consulting-block
-  name: Consulting Block
-  sku: 
-  standard_sow: 
-  price: 
-  description2: Purchase GitLab consulting time now, identify scope and deliver services as needed as long as its prior to end of engagement period. 
-  desc_url: https://about.gitlab.com/services/advisory/consulting-block/
+- id: Expert-Services-Year 
+  name: Expert Services - 1 year
+  sku: GL-XPRT-SVC48
+  standard_sow: https://docs.google.com/document/d/1s-2hICSerSh1GaLOQoTfvnigIW50Z-mH9mG0dgDUawE/edit#
+  price: $115,200
+  description2: Purchase GitLab expert services to provide best-practices guidance over the course of a year.  
+  desc_url: https://about.gitlab.com/services/advisory/expert-services/
   level: 1 - Product
   maturity: Viable
   category: Consulting
-  duration_desc: Minimum 48 hour blocks. Can add 48 hour increments from there (e.g 96, 144, etc.). 
-  price_desc: Call for pricing
-  target_audience: This is for Customers who know they need professional services, but not exactly sure what they want to focus on right now. 
+  duration_desc: 8 hours per week expert services for 48 of 52 weeks
+  price_desc: $115,200
+  target_audience: This is for Customers who know they need expert services guidance over the course of a year. 
