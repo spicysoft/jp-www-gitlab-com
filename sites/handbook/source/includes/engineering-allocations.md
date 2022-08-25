@@ -21,6 +21,7 @@ During periods of Engineering Allocation, the PM remains the interface between t
 | Secure:Threat Insights | Bring error budget back to green | Work on backlog of reliability and security issues | 40% | 5 | [&5629](https://gitlab.com/groups/gitlab-org/-/epics/5629), [&4239](https://gitlab.com/groups/gitlab-org/-/epics/4239), [&2791](https://gitlab.com/groups/gitlab-org/-/epics/2791) | @thiagocsf | @matt_wilson |
 | Quality:Ops QE | Improve Staging environment | Improving reliability & availability is 3rd priority in [Prioritizing technical decisions](https://about.gitlab.com/handbook/engineering/development/principles/#prioritizing-technical-decisions) | 10% | 1 | [New staging epic](https://gitlab.com/groups/gitlab-org/-/epics/6401) | @vincywilson | TBD |
 | Quality:Enablement QE | Improve Staging environment | Improving reliability & availability is 3rd priority in [Prioritizing technical decisions](https://about.gitlab.com/handbook/engineering/development/principles/#prioritizing-technical-decisions) | 10% | 1 | [New staging epic](https://gitlab.com/groups/gitlab-org/-/epics/6401) | @vincywilson | TBD |
+| Antiabuse | Improve PVS | Avoid production outages | 33% as of Aug 19, 2022  | 1 fixed |  [PVS standup](https://docs.google.com/document/d/1JuFmXABNaUVaqKhohNiHIBdGCiwBywrJGgljJrdUdxs/edit#bookmark=id.f63rvtrdmfag) | @jayswain | @jstava |
 
 #### Broadcasting and communication of Engineering Allocation direction
 
