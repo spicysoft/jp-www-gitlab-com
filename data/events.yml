@@ -1,3 +1,13 @@
+- topic: GitLab Advanced CI/CD Virtual Workshop
+  type: Webcast
+  date_starts: October 25, 2022
+  date_ends: October 25, 2022
+  description: GitLab is a complete DevOps platform, delivered as a single application, fundamentally changing the way Development, Security, and Ops teams collaborate. You might have had the chance to take it for a test drive, but even our most advanced users know there’s still a lot to learn to push better and faster automation throughout your DevOps lifecycle! We’re inviting you to a deep-dive workshop on Advanced GitLab CI/CD, including everything you need to enable you to take your automation game to the next level, and provide thought leadership within your organization.
+  location: Virtual
+  region: AMER
+  social_tags:
+  event_url: https://page.gitlab.com/advanced-cicd-virtual-registration-page.html
+
 - topic: CyberSecurity Workshop for the Public Sector 
   type: Webcast
   date_starts: September 22, 2022
