@@ -9,20 +9,21 @@ title: DevOps for Mobile Apps Single-Engineer Group
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-### [2022-07-29] Auto iOS
+### [2022-08-25] Mobile DevOps Project Settings
 
-In this update we look at a [new project](https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/auto) aimed at making it easy to get started with a CI pipeline for iOS applications. This approach uses [Fastlane](http://fastlane.tools/) and a GitLab CI template to get a CI pipeline going in just a few minutes.
+In this update we look at a proposed project settings page for Mobile DevOps, and look at configuration options for Auto iOS, Code Signing and Connecting to Google Play and the Apple App Store.
 
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/cKdxDFCT91I" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/mmeHhMQV-ck" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-[https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/79](https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/79)
+[https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/85](https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/85)
 
 ### Recent Updates
 
 | Date              | Topic | Video | Issue |
 |-------------------|-------|-------|-------|
+| August 11, 2022 | Auto iOS | [https://youtu.be/cKdxDFCT91I](https://youtu.be/cKdxDFCT91I) | [https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/79](https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/79) |
 | July 29, 2022 | Ngrok Pipeline Debugger | [https://youtu.be/VmUFpaJiD84](https://youtu.be/VmUFpaJiD84) | [https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/77](https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/77) |
 | July 13, 2022 | Fastlane Match Demo | [https://youtu.be/IZmTrdkYToI](https://youtu.be/IZmTrdkYToI) | [https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/73](https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/73) |
 | June 16, 2022 | Fastlane Match & User Research| [https://youtu.be/UgBneIivl_I](https://youtu.be/UgBneIivl_I) | [https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/70](https://gitlab.com/gitlab-org/incubation-engineering/devops-for-mobile-apps/readme/-/issues/70) |
