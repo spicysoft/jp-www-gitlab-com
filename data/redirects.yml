@@ -34,6 +34,11 @@
   target: /handbook/people-group/general-onboarding/onboarding-processes/
   comp_op: '='
 - sources:
+  - /handbook/people-group/gender-pronouns/
+  - /handbook/people-group/gender-pronouns
+  target: /handbook/people-group/orientation-identity/
+  comp_op: '='  
+- sources:
   - /handbook/general-onboarding/mr-buddies/
   - /handbook/general-onboarding/mr-buddies
   target: /handbook/people-group/general-onboarding/mr-buddies/
