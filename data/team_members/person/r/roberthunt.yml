@@ -3,7 +3,7 @@ name: Robert Hunt
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
-  Manage:Compliance
+  Analyze:Product Analytics
 reports_to: dennis
 picture: roberthunt.png
 twitter: mrenigma123
@@ -13,7 +13,7 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Manage:Compliance FE Team
+- Analyze:Product Analytics FE Team
 - Frontend
 story: |
   Rob is a frontend engineer having previously worked as a full-stack for a variety of agencies and companies.
