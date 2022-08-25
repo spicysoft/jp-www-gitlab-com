@@ -146,8 +146,7 @@ stages:
           - department: Infrastructure Department
             dri: TBD
         categories:
-          - audit_events
-          - audit_reports
+          - audit_events 
           - compliance_management
         usage_driver_score: 1
         asp_driver_score: 5

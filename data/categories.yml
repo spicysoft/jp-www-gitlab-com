@@ -63,28 +63,6 @@ audit_events:
       maturity: complete
       documentation: https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization
 
-audit_reports:
-  name: "Audit Reports"
-  stage: manage
-  documentation: https://docs.gitlab.com/ee/administration/audit_reports.html
-  direction: /direction/manage/compliance/audit-reports/
-  roi: false
-  available: 2020-06-22
-  viable: 2023-07-22
-  complete:
-  lovable:
-  maturity: minimal
-  dogfooding_status: Active
-  dogfooding_issue: N/A
-  ux_scorecard_score: '-'
-  new_maturity: true
-  marketing: true
-  priority_level: medium
-  competitors:
-    github:
-      maturity: viable
-      documentation: https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization
-
 compliance_management:
   name: "Compliance Management"
   stage: manage

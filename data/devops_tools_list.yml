@@ -23,7 +23,7 @@ devops_tools:
       - pipeline_authoring
       - value_stream_management
       - devops_reports
-      - audit_events
+      - audit_events 
       - authentication_and_authorization
       - team_planning
       - portfolio_management
@@ -79,7 +79,7 @@ devops_tools:
     include_file: devops-tools/github/index.html.md.erb
     category:
       - pipeline_authoring
-      - audit_events
+      - audit_events 
       - authentication_and_authorization
       - compliance_management
       - team_planning
