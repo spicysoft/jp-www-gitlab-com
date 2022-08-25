@@ -199,6 +199,9 @@ snippets:
 spam_fighting:
   display_name: Spam Fighting
   link: https://docs.gitlab.com/ee/integration/akismet.html
+suggested_reviewers:
+  display_name: Suggested Reviewers
+  link: https://about.gitlab.com/direction/modelops/applied_ml/#smarter-code-reviewer-suggestions
 tooling_pipelines:
   display_name: Pipelines configuration of `gitlab-org` projects
   link: https://docs.gitlab.com/ee/development/pipelines.html
