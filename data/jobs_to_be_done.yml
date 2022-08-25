@@ -1406,11 +1406,20 @@
   
 - slug: pipeline-execution_4
   parent:
-  short_jtbd: Manage automated checks without delay or failure
+  short_jtbd: Manage code verification checks without delay or failure
   jtbd: When running, reviewing and interacting with automated checks, I want the platform to respond without delay or failure, so I can timely deliver on my tasks.
   grade: "-"
   confidence: Researched
   source: https://dovetailapp.com/projects/2bdtpQqDUu8EAtXjiJN7iw/readme
+  group: Pipeline Execution
+
+- slug: pipeline-execution_4_a
+  parent: pipeline-execution_4
+  short_jtbd: 
+  jtbd: When making changes to a software, I want to quickly see results and troubleshoot failures in the build to get it ready to merge so I can get back to working on new changes.
+  grade: "-"
+  confidence: To be Researched
+  source: 
   group: Pipeline Execution
   
 
