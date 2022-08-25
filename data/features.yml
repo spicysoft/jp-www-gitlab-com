@@ -4447,7 +4447,7 @@ discussion to be focused on."
     link_description: "Learn more about the audit events report"
     link: https://docs.gitlab.com/ee/administration/audit_events.html#export-to-csv
     category:
-      - audit_reports
+      - audit_events
     gitlab_core: false
     gitlab_starter: true
     gitlab_premium: true
@@ -4480,7 +4480,7 @@ discussion to be focused on."
     link: https://docs.gitlab.com/ee/user/admin_area/#user-permission-export
     gitlab_com: true
     category:
-      - audit_reports
+      - audit_events
     gitlab_core: false
     gitlab_starter: true
     gitlab_premium: true
@@ -4496,7 +4496,7 @@ discussion to be focused on."
     link: https://docs.gitlab.com/ee/user/compliance/compliance_report/#chain-of-custody-report
     gitlab_com: true
     category:
-      - audit_reports
+      - audit_events
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -4511,7 +4511,7 @@ discussion to be focused on."
     link: https://docs.gitlab.com/ee/administration/auditor_users
     gitlab_com: false
     category:
-      - audit_reports
+      - audit_events
     gitlab_core: false
     gitlab_starter: true
     gitlab_premium: true
@@ -4655,7 +4655,7 @@ discussion to be focused on."
     link_description: "Learn more about Audit Events"
     link: https://docs.gitlab.com/ee/administration/audit_events.html
     category:
-      - audit_events
+      - audit_events 
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
