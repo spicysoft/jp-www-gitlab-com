@@ -231,6 +231,7 @@ namespace :release_post do
     template.gsub!('/DD', '/' + day)
     template.gsub!('-DD', '-' + day)
     template.gsub!('@release_post_manager', release_post_manager)
+    template.gsub!('@release_post_manager_shadow', release_post_manager_shadow)
     template.gsub!('@tw_lead', tw_lead)
     template.gsub!('@tech_advisor', tech_advisor)
     template.gsub!('@pmm_lead', pmm_lead)
