@@ -65,6 +65,8 @@ The handbook is over _two_ _thousand_ pages long. That's a lot of good info!
 | 2021-07-01 | 2,956,781 | 2,271 |
 | 2021-10-01 | 3,138,952 | 2,355 |
 | 2022-01-01 | 3,280,108 | 2,395 |
+| 2022-04-01 | 3,474,993 | 2,553 |
+| 2022-07-01 | 3,628,280 | 2,641 |
 
 ### Methodology
 
@@ -73,7 +75,7 @@ Word and page counts are determined through a simple two-step process:
 1. Count the number of words in the handbook. This can be done by running `find sites/handbook/source/handbook -type f -name "*.md" -o -name "*.md.erb" | xargs wc -w` from the root of the repository.
 1. Count the number of pages in the handbook. This can be done by running `grep -l -r "\- TOC" * | wc -l` from the root of the repository.
 
-Note: If you need to go back to an earlier version of the handbook, use ``git checkout `git rev-list -n 1 --first-parent --before="2021-07-02 00:00" master``` specifying the next day after the day you want.
+Note: If you need to go back to an earlier version of the handbook, use ``git checkout `git rev-list -n 1 --first-parent --before="2021-07-02 00:00" master` `` specifying the next day after the day you want.
 
 ## View Statistics
 
