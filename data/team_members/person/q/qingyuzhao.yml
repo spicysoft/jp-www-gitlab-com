@@ -1,0 +1,29 @@
+---
+name: Qingyu Zhao
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Fulfillment:Fulfillment Platform</a>
+reports_to: james-l
+picture: QingyuZhao.jpg
+twitter:
+gitlab: qzhaogitlab
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Fulfillment Section
+- Fulfillment Sub-department
+- Fulfillment:Fulfillment Platform Team
+- Backend
+projects:
+  gitlab: reviewer backend
+  customers-app: trainee_maintainer backend
+story: |
+  Qingyu has diversified experience in software development, testing, management, and research. He enjoyed to solve problems to generate business value.
+  He likes reading and is also a regular badminton player.
+specialty:
+- 'Fulfillment: Fulfillment Platform'
+- " Fulfillment"
+
