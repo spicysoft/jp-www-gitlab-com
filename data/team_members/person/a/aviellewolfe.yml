@@ -1,0 +1,26 @@
+---
+name: Avielle Wolfe
+locality:
+country: Remote
+placeholder: true
+role: <a href="/job-families/engineering/development/backend/intermediate/">Backend
+  Engineer, Verify:Pipeline Authoring</a>
+reports_to: marknuzzo
+picture: aviellewolfe.jpg
+gitlab: avielle
+pronouns: she
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Pipeline Authoring Group
+- Verify:Pipeline Authoring BE Team
+projects:
+  gitlab: reviewer backend
+story: 'Avielle is a backend engineer who loves clean, well tested code. She also
+  loves video games, lying in the sun, and her two little house panthers.
+
+  '
+specialty:
+- Pipeline Execution
+
