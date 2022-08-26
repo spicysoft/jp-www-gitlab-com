@@ -430,6 +430,28 @@ the [Structural Check](/handbook/marketing/blog/release-posts/#structural-check)
 When a new GitLab version is released, the Technical Writing team releases [version-specific published
 documentation](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md).
 
+## Documentation feedback and improvements
+
+To make a documentation change that is not associated with a specific code change, the Technical Writing team encourages contributors to [start with an MR](/handbook/communication/#everything-starts-with-a-merge-request) and follow the [documentation update procedures](https://docs.gitlab.com/ee/development/documentation/workflow.html).
+
+If you do start with an issue rather than an MR, use the [Documentation template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Documentation). Labels should include:
+
+- `documentation`
+- `type::maintenance`
+- `maintenance::refactor`
+- `docs-only`
+- `docs::fix` or `docs::improvement`
+- `Stage name`
+- `Group name`
+
+Also include:
+
+- Milestone: `Backlog` until the work is scheduled for a milestone.
+- Assignee: `None` until the work is scheduled for a milestone. In the issue description or comments, mention (`@username`) the Technical Writer assigned to the group for awareness.
+- Description: starts with `Docs:` or `Docs feedback:`
+
+If an issue requires input from the development team before a Technical Writer can start work, it should follow the stage and group's issue lifecycle. For an example of an issue lifecyle, take a look at [Plan Stage Issues](/handbook/product/categories/plan/#issues).
+
 ## Hackathons
 
 The Technical Writing team actively participates in [GitLab Hackathons](https://about.gitlab.com/community/hackathon/).
