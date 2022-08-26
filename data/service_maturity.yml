@@ -848,9 +848,9 @@
                   "result": "unimplemented"
                },
                {
-                  "evidence": "https://dashboards.gitlab.net/d/general-service/general-service-platform-metrics?var-type=customersdot",
+                  "evidence": false,
                   "name": "Apdex built from multiple sources",
-                  "result": "passed"
+                  "result": "failed"
                },
                {
                   "evidence": null,
@@ -875,7 +875,7 @@
             ],
             "name": "Level 3",
             "number": 3,
-            "passed": true
+            "passed": false
          },
          {
             "criteria": [
@@ -922,8 +922,8 @@
             "passed": false
          }
       ],
-      "level": "Level 3",
-      "levelNumber": 3
+      "level": "Level 2",
+      "levelNumber": 2
    },
    "external-dns": {
       "details": [
@@ -1404,18 +1404,6 @@
                {
                   "evidence": [
                      {
-                        "title": "📖 Kibana: Gitaly Ruby logs",
-                        "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.hostname,json.grpc.method,json.grpc.request.glProjectPath,json.grpc.code,json.grpc.time_ms),filters:!((meta:(key:json.tag.keyword,params:gitaly.ruby,type:phrase),query:(match:(json.tag.keyword:(query:gitaly.ruby,type:phrase))))),index:'AW5F1OHTiGcMMNRn84Di')&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
-                     },
-                     {
-                        "title": "📖 Kibana: Gitaly Ruby slow request logs",
-                        "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.hostname,json.grpc.method,json.grpc.request.glProjectPath,json.grpc.code,json.grpc.time_ms),filters:!((meta:(key:json.tag.keyword,params:gitaly.ruby,type:phrase),query:(match:(json.tag.keyword:(query:gitaly.ruby,type:phrase)))),(meta:(key:json.msg,params:unary,type:phrase),query:(match:(json.msg:(query:unary,type:phrase))))),index:'AW5F1OHTiGcMMNRn84Di',sort:!(!(json.grpc.time_ms,desc)))&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
-                     },
-                     {
-                        "title": "📖 Kibana: Gitaly Ruby failed request logs",
-                        "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.hostname,json.grpc.method,json.grpc.request.glProjectPath,json.grpc.code,json.grpc.time_ms),filters:!((meta:(key:json.tag.keyword,params:gitaly.ruby,type:phrase),query:(match:(json.tag.keyword:(query:gitaly.ruby,type:phrase)))),(meta:(key:json.grpc.code,negate:!t,params:OK,type:phrase),query:(match:(json.grpc.code:(query:OK,type:phrase)))),(meta:(key:exists,type:json.grpc.code,value:exists),query:(exists:(field:json.grpc.code)))),index:'AW5F1OHTiGcMMNRn84Di')&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
-                     },
-                     {
                         "title": "📖 Kibana: Gitaly logs",
                         "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.hostname,json.grpc.method,json.grpc.request.glProjectPath,json.grpc.code,json.grpc.time_ms),filters:!(),index:'AW5F1OHTiGcMMNRn84Di')&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
                      },
@@ -1426,18 +1414,6 @@
                      {
                         "title": "📖 Kibana: Gitaly failed request logs",
                         "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.hostname,json.grpc.method,json.grpc.request.glProjectPath,json.grpc.code,json.grpc.time_ms),filters:!((meta:(key:json.grpc.code,negate:!t,params:OK,type:phrase),query:(match:(json.grpc.code:(query:OK,type:phrase)))),(meta:(key:exists,type:json.grpc.code,value:exists),query:(exists:(field:json.grpc.code)))),index:'AW5F1OHTiGcMMNRn84Di')&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
-                     },
-                     {
-                        "title": "📖 Kibana: Gitaly OperationService logs",
-                        "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.hostname,json.grpc.method,json.grpc.request.glProjectPath,json.grpc.code,json.grpc.time_ms),filters:!((meta:(key:json.grpc.service,params:gitaly.OperationService,type:phrase),query:(match:(json.grpc.service:(query:gitaly.OperationService,type:phrase))))),index:'AW5F1OHTiGcMMNRn84Di')&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
-                     },
-                     {
-                        "title": "📖 Kibana: Gitaly OperationService slow request logs",
-                        "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.hostname,json.grpc.method,json.grpc.request.glProjectPath,json.grpc.code,json.grpc.time_ms),filters:!((meta:(key:json.grpc.service,params:gitaly.OperationService,type:phrase),query:(match:(json.grpc.service:(query:gitaly.OperationService,type:phrase)))),(meta:(key:json.msg,params:unary,type:phrase),query:(match:(json.msg:(query:unary,type:phrase)))),(meta:(key:json.grpc.time_ms,params:(gte:30000),type:range),query:(range:(json.grpc.time_ms:(gte:30000))))),index:'AW5F1OHTiGcMMNRn84Di',sort:!(!(json.grpc.time_ms,desc)))&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
-                     },
-                     {
-                        "title": "📖 Kibana: Gitaly OperationService failed request logs",
-                        "url": "https://log.gprd.gitlab.net/app/kibana#/discover?_a=(columns:!(json.hostname,json.grpc.method,json.grpc.request.glProjectPath,json.grpc.code,json.grpc.time_ms),filters:!((meta:(key:json.grpc.service,params:gitaly.OperationService,type:phrase),query:(match:(json.grpc.service:(query:gitaly.OperationService,type:phrase)))),(meta:(key:json.grpc.code,negate:!t,params:OK,type:phrase),query:(match:(json.grpc.code:(query:OK,type:phrase)))),(meta:(key:exists,type:json.grpc.code,value:exists),query:(exists:(field:json.grpc.code)))),index:'AW5F1OHTiGcMMNRn84Di')&_g=(time:(from:'${__from:date:iso}',to:'${__to:date:iso}'))"
                      }
                   ],
                   "name": "Structured logs available in Kibana",
