@@ -21,6 +21,7 @@ RSpec.describe 'release', :silence_stdout do
 
     it "raises an error if #{project_id_env} is not set" do
       stub_env('GITLAB_BOT_TOKEN', "token123")
+      stub_env(project_id_env, nil)
 
       expect do
         run_rake_task(task_name)
@@ -29,6 +30,7 @@ RSpec.describe 'release', :silence_stdout do
 
     it "raises an error if GITLAB_BOT_TOKEN is not set" do
       stub_env(project_id_env, 123)
+      stub_env('GITLAB_BOT_TOKEN', nil)
 
       expect do
         run_rake_task(task_name)
