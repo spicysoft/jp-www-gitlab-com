@@ -362,8 +362,14 @@ GitLabでは、利用者に最も価値を提供をできるプラットフォ�
 
 ##### 全体最適化 {#global-optimization}
 {:.no_toc}
-This name comes from the [quick guide to Stripe's culture](https://stripe.com/us/jobs/candidate-info?a=1#culture). Our definition of global optimization is that you do what is best for the organization as a whole. Don't optimize for the goals of your team when it negatively impacts the goals of other teams, our users, and/or the company. Those goals are also your problem and your job. Keep your team as lean as possible, and help other teams achieve their goals.
-In the context of [collaboration](#collaboration), this means that if anyone is blocked by you on a question, your approval, or a merge request review, your top priority is always to unblock them, either directly or through helping them find someone else who can, even if this takes time away from your own or your team's priorities.
+この運営原則の名前は[Stripe社のカルチャーのクイックガイド](https://stripe.com/us/jobs/candidate-info?a=1#culture)に由来しています。
+「組織全体にとって最適なことをする」ことを全体最適化と定義しています。
+自分のチームの目標の達成のために最適化した結果、他のチーム、ユーザーや会社の目標の達成にマイナスの影響を与えるようなことはしないでください。
+後者の目標を達成することもまた自分の目標の一つであり自分の仕事の一部です。
+自分のチームはできるだけスリムに保ち、他のチームが目標を達成するのを助けてください。
+
+[コラボレーション](#collaboration)という視点では、あなたへの質問、承認、マージリクエストのレビューを、対応しないせいで同僚の仕事を止めてしまっている場合、速やかに対応をして同僚の仕事が進むようにしてください。
+自分や自分のチームに他に最優先なことがあったとしても、自らがやるか誰かの手を借りてやるかどちらでもいいですが、速やかに対応をしてください。
 
 ##### 粘り強さ {#tenacity}
 {:.no_toc}
