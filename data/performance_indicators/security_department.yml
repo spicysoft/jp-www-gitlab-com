@@ -5,13 +5,12 @@
   urls:
     - https://app.periscopedata.com/app/gitlab/758795/Appsec-Embedded-Dashboard
 
-  org: Security Department
+  org: Security Department 
   is_key: true
   health:
     level: 3
     reasons:
-    - After the completion of the engineering allocation initiatives to reduce the vulnerability backlog, we now seeing sustained numbers below SLO targets. All are trending downward with the exception of S4s which are showing a slight upward trend. However, the total number of S4 vulnerabilities are down by 35% over the last 3 months. This KPI is currently considered healthy.
-    - Note that the chart has also been updated to reflect the recent changes to the `~bug::vulnerability` label.
+    - We continue to see sustained numbers below SLO targets. The average number of days that S3s stay open has been trending upward and is approaching the SLO target. There has also been an increase in the average number of days that S4s stay open. The total count of both S3 and S4 issues is declining. This KPI is currently considered healthy.
 
 - name: Security Engineer On-Call Page Volume
   base_path: "/handbook/engineering/security/performance-indicators/"
@@ -23,7 +22,7 @@
   health:
     level: 3
     reasons:
-    - A 32% decrease in on-call pages were experienced over the last 3 months as compared to the last 12 months. This is well within the acceptable threshold and while a steady and consistent number of on-call pages have occurred, we saw the number of pages drop significantly in June. Similarly, the number of S1 paged incidents is down 62% compared the last 12 months average. These numbers will be closely monitored for the next 3 months to determine if this is anomalous or a trend.
+    - A 45% decrease in on-call pages were experienced over the last 3 months as compared to the last 12 months. This is well within the acceptable threshold and while a steady and consistent number of on-call pages have occurred, we saw the number of pages drop significantly in June and start to trend upwards in July. Similarly, the number of S1 paged incidents is down 60% over the last 3 months, compared the last 12 months average. Notably, while this month is not complete, August is trending significantly upwards.
     - Short term fluctuation are to be expected. Long term trending both negative and positive, should be identified and actions created to correct negative trends and continue promoting positive trends.
   urls:
   - https://app.periscopedata.com/app/gitlab/592612/Security-KPIs?widget=9217413&udv=0
@@ -37,7 +36,7 @@
   health:
     level: -1
     reasons:
-    - With a target system health score of 2, 86% of the 21 systems assessed are meeting or exceeding this target. Action = Three systems are not currently meeting our system health target and there are 17 open observations for these 3 systems to bring these system in line with that system health target once remediated.
+    - ITGC applications have been removed from this KPI as testing has been handed back to IA with the exception of 2 shared applications. 46% (or 6 out of 13) systems assessed met the target. There are 51 observations open for the 7 systems.
   urls:
     - https://app.periscopedata.com/app/gitlab/977899/Security-Impact?widget=14446739&udv=0
 
@@ -50,7 +49,8 @@
   health:
     level: -1
     reasons:
-    - This dashboard has been redesigned in Sisense as a first iteration. The new dashboard includes data from January 1st, 2022 on as per Security's Service Desk deployement date. Historical data can be provided upon request. This dashboard is considered SAFE. 
+    - Field Security implemented the new RFx process with the field reps on July 13, 2022. As of the new process’ implementation, Field Security has seen an increase in the number of issues being created in the Customer Assurance Service Desk. At this point in August, 2022, we are trending higher than we were at the same point in each of the last 3 months. We have currently received 83 issues in the month of August.
+
   urls:
     - https://app.periscopedata.com/app/gitlab/977899/Security-Impact?widget=13710204&udv=0
 
@@ -279,7 +279,7 @@
   health:
     level: 3
     reasons:
-    - 98 new vendor risk assessments have been initiated in FY23Q2. This has resulted in a 67% increase in high and moderate risk vendors and a 23% increase in total vendor assessments from FY22Q2.  
+    - 53 new vendor risk assessments have been initiated in FY23Q3. This is a 42% increase in high and moderate risk vendors quarter over quarter. Fiscal year to date we have seen a 37% increase in total vendor assessments over prior year (288 vs. 354). 
   sisense_data:
     chart: 11439229
     dashboard: 847984
