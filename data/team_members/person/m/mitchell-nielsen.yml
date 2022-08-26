@@ -14,7 +14,7 @@ departments:
 - Enablement Sub-department
 - Distribution Deploy BE Team
 projects:
-  gitlab-chart: reviewer
+  gitlab-chart: maintainer
   omnibus-gitlab: reviewer
   gitlab-omnibus-builder: reviewer
   cng: reviewer
