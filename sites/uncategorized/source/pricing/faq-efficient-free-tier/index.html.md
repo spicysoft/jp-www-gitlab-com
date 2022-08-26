@@ -27,6 +27,9 @@ A. We are introducing a storage limit of 5GB per top-level namespace to the [Git
 | Price                         | $0   | $19     | $99      |
 | Storage (in GB per namespace) | 5 GB | 50 GB   | 250 GB   |
 
+**Note:** A 10GB project storage limit for git repository and git LFS is currently active for all projects. Once the namespace storage limit is applicable, the project storage limits will be removed.
+{: .note}
+
 **Q. Which users are these changes applicable to?**  
 A. Storage limits are applicable to free and paid tier users of the GitLab SaaS offerings. Community programs - including GitLab for Open Source, Education and Startups users - will have the limits applicable for GitLab Ultimate. This change does not apply to self-managed users (both free and paid tier).
 Customers who are still on the Bronze subscription are not impacted by this change immediately, and the new limits on Premium / Ultimate will be applicable when they upgrade.
