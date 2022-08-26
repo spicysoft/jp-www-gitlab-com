@@ -108,7 +108,7 @@ enablement:
     - Marcel van Remmerden 
   sm: Jason Colyer
   pmm: Cormac Foster
-  qm: Vincy Wilson
+  qm: Kassandra Svoboda
   rem: Dave Smith
   ar_team_tag: Enablement Section AR Stable Counterpart
   direction: /direction/enablement/
@@ -122,7 +122,7 @@ platforms:
     - Marcel van Remmerden  
   sm: Jason Colyer
   pmm: Cormac Foster
-  qm: Vincy Wilson
+  qm: Kassandra Svoboda
   rem: Dave Smith
   ar_team_tag: SaaS Platforms Section AR Stable Counterpart
   direction: /direction/saas-platforms/
