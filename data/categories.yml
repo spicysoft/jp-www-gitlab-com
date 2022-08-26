@@ -1023,7 +1023,7 @@ build_artifacts:
   description: "Keep build artifacts under control and actionable."
   roi: true
   available: 2021-04-01
-  viable: 2022-12-01
+  viable: 2023-03-01
   complete: 2023-12-01
   lovable: 2025-12-01
   maturity: minimal
