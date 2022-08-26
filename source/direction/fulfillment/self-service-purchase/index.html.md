@@ -19,6 +19,10 @@ Last reviewed: 2022-08
 
 Self-service Purchase, a [Fulfillment](https://about.gitlab.com/direction/fulfillment/) subgroup, is responsible for our primary e-commerce experience, with the goal of increasing the number of first-orders we receive through our self-service purchase flow and in turn, reducing the need for a GitLab team member to manually intervene.
 
+## Performance Indicators
+
+- Find our performance indicators [here](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/fulfillment-section/).
+
 ## Strategic Fit, User Value, and Business Value
 
 ### Strategic Fit: What is the business context of self-service purchasing?
@@ -55,11 +59,23 @@ still need to validate the following via research:
 
 ## 1-year Plan
 
-- FY'23-Q3: Validate user and business problems. Make vendor no-go / go decision. Define MVP.
+### Timeline
+
+- FY'23-Q3: Validate user and business problems. Make [vendor no-go / go decision](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service). Define MVP.
 - FY'23-Q4: Assuming we pick a vendor, execute upon MVP.
 - FY'24-Q1: Vendor integration, build & launch.
 - FY'24-Q2: Vendor integration, build & launch.
 
-## Performance Indicators
+### Vendor Overview
+From our [fulfillment direction](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service) page:
+  > In FY23, we began an effort to evaluate, procure, and integrate a vendor solution for subscription commerce and management. This will enable GitLab to provide internal teams and our customers with the benefits of typical e-commerce functionality, without building and and maintaining standard e-commerce and subscription management functionality that a vendor solution can provide. We will focus our team's e-commerce efforts on differentiated functionality that enhances what the vendor solution can provide. We will also enable other teams, such as Growth, to contribute more to our webstore experience. As part of our efforts we also aim to provide more options at checkout and improve cohesion in our GTM self-service funnel. As one example: we want to enable promotions with discounts from a marketing campaign, making that experience seamless. This will help improve conversion and lead to a better overall experience transacting with GitLab.
 
-- Find our performance indicators [here](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/fulfillment-section/).
+### Ranked Criteria for Vendor Selection
+
+1. **Severity of problem** - How often is the persona encountering their problem? Are there any workarounds?
+3. **Time to market** - When might we be able to unlock business requirements; both paths (vendor, no vendor) are similar in time to execute, save more in outyears vs initial build out. 
+5. **Scope/opportunity cost** - Engineering capacity can be reapplied to other critical initiatives; offload compliance and operational support to a vendor; How much does it cost to maintain x,y,z
+6. **Costs** - Additional hires to deliver necessary e-commerce functionality, while maintaining momentum on other initiatives. 
+
+
+
