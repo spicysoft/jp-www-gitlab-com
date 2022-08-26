@@ -393,32 +393,33 @@ GitLabでは、利用者に最も価値を提供をできるプラットフォ�
 
 ##### 野心的 {#ambitious}
 {:.no_toc}
-While we iterate with small changes, we strive for large, ambitious results. We achieve these through:
-   1. Keeping the focus on the [results](/handbook/values/#results) and the outcome
-   1. Aiming to be best in the world across [all our functions](/handbook/leadership/no-matrix-organization/)
-   1. Not being satisfied with the status quo and setting higher goals
-      1. Ambitious [mission](/company/mission/#mission) and [vision](/company/vision/)
-      1. [Ambitious OKRs](/company/okrs/#okrs-are-stretch-goals-by-default)
-      1. Having and reporting against [KPIs](/company/kpis/#what-are-kpis) with guiding targets
-   1. Having other people adopt our way of working
-      1. [Handbook](/handbook/)
-      1. [Certifications](/learn/certifications/public/)
-      1. Promotion of processes
-         1. [Blog posts](/blog/)
-         1. [Webcasts](/webcast/)
-         1. [Events](/events/)
-         1. [Community Forum](https://forum.gitlab.com/)
-         1. [Job board](https://boards.greenhouse.io/gitlab)
-  1. Proactively critiquing ourselves
-     1. [Highlight where we fall short](/direction/maturity/)
-     1. [Have outside experts rate us](/why-gitlab/)
-     1. [Have users compare us to the alternative](/devops-tools/)
-  1. Increasing engagement with GitLab
-     1. [Pageviews](/handbook/marketing/inbound-marketing/#measuring-progress)
-     1. [Certifications](/learn/certifications/public/)
-     1. [Surveys](/developer-survey/)
-  1. [Not tolerating low performance](/handbook/leadership/underperformance/#introduction)
-  1. Preventing [risk aversion](/handbook/values/#low-level-of-shame)
+小さな変化をつみあげて、大きなそして野心的な結果を目指しています。
+次のような方法で実現します：
+  1. [結果](/handbook/values/#results)と成果に焦点を当て続けること
+  1. [すべての部門]で世界一を目指す(/handbook/leadership/no-matrix-organization/)
+  1. 現状に満足せず、より高い目標を設定すること
+    1. 野心的な [ミッション](/company/mission/#mission) と [ビジョン](/company/vision/)
+    1. [野心的な OKR](/company/okrs/#okrs-are-stretch-goals-by-default)
+    1. KPIを設定し目標値を設定して[公開](/company/kpis/#what-are-kpis) する
+  1. 自分たちの仕事のやり方を他人にも採用してもらう
+    1. [ハンドブック](/handbook/)
+    1. [資格](/learn/certifications/public/)
+    1. プロセスの推進
+        1. [ブログ](/blog/)
+        1. [動画配信](/webcast/)
+        1. [イベント](/events/)
+        1. [コミュニティー](https://forum.gitlab.com/)
+        1. [ジョブボード](https://boards.greenhouse.io/gitlab)
+  1. 率先的に自分を批評する
+     1. [足りない部分を明らかにする](/direction/maturity/)
+     1. [外部の専門家に評価してもらう](/why-gitlab/)
+     1. [ユーザーに代替品と比較してもらう](/devops-tools/)
+  1. GitLabへのエンゲージメントを高める
+     1. [ページビュー](/handbook/marketing/inbound-marketing/#measuring-progress)
+     1. [資格](/learn/certifications/public/)
+     1. [サーベイ](/developer-survey/)
+  1. [低いパフォーマンスを許さない](/handbook/leadership/underperformance/#introduction)
+  1. [リスク回避](/handbook/values/#low-level-of-shame)を許さない
 
 ##### 忍耐力 {#perseverance}
 {:.no_toc}
