@@ -10,8 +10,8 @@
 # NB Do not move this entry from the top of this file
 
 ^[Default Description Templates]
-.gitlab/issue_templates/Default.md @sytses @streas @epetoskey @marshall007 @ipedowitz
-.gitlab/merge_request_templates/Default.md @sytses @sytses @streas @epetoskey @marshall007 @ipedowitz
+.gitlab/issue_templates/Default.md @sytses @gitlab-com/ceo-chief-of-staff-team
+.gitlab/merge_request_templates/Default.md @sytses @gitlab-com/ceo-chief-of-staff-team
 
 ^[Handbook]
 /sites/handbook/source/handbook/ @sytses @streas
