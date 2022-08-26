@@ -28,6 +28,9 @@ A. We are introducing storage and transfer limits to the [GitLab SaaS offerings]
 | Storage (in GB per namespace)            | 5 GB  | 50 GB  | 250 GB   |
 | Transfer (in GB per namespace per month) | 10 GB | 100 GB | 500 GB   |
 
+**Note:** A 10GB project storage limit for git repository and git LFS is currently active for all projects. Once the namespace storage limit is applicable, the project storage limits will be removed.
+{: .note}
+
 **Q. Which users are these changes applicable to?**  
 A. These limits are applicable to users of the GitLab SaaS offerings. These changes do not apply to self-managed users (both free and paid tier) and community programs - including GitLab for Open Source, Education and Startups users.
 
@@ -39,7 +42,7 @@ A. Yes, GitLab Trial will receive entitlements from GitLab Ultimate.
 **Q. What is the effective date of the changes?**  
 A. For existing paid tier users:
 
-- These limits will not apply immediately and will be applicable to your subscription at your next renewal on or after **2022-10-15**.
+- These limits will not apply immediately and will be in the terms of your subscription at your next renewal on or after **2022-10-15**.
 - Storage limits will be applicable for impacted subscriptions from **2023-02-15**.
 - Transfer limits will not be applicable until further communication from GitLab.
 
