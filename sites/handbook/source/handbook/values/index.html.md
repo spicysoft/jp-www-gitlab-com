@@ -373,7 +373,11 @@ GitLabでは、利用者に最も価値を提供をできるプラットフォ�
 
 ##### 粘り強さ {#tenacity}
 {:.no_toc}
-We refer to this as "persistence of purpose". As talked about in [The Influence Blog](https://www.learntoinfluence.com/developing-tenacity-when-facing-opposition/), tenacity is the ability to display commitment to what you believe in. You keep picking yourself up, dusting yourself off, and quickly get going again having learned a little more.
+「目的の粘り強さ」のことです。
+[Gautrey氏の効果・影響・成功](https://www.learntoinfluence.com/developing-tenacity-when-facing-opposition/)で書かれています。
+信じているものにコミットメントする能力を「粘り強さ」と言います。
+学びを得て、自分で元気づけ、やる気を出し直して、改めて挑戦します。
+あなたは、自分自身を拾い上げ、埃を払い、すぐにまた少し学んで動き出すのです。
 
 ##### オーナーシップ {#ownership}
 {:.no_toc}
