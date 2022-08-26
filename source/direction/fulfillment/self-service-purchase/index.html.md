@@ -76,6 +76,7 @@ From our [fulfillment direction](https://about.gitlab.com/direction/fulfillment/
 3. **Time to market** - When might we be able to unlock business requirements; both paths (vendor, no vendor) are similar in time to execute, save more in outyears vs initial build out. 
 5. **Scope/opportunity cost** - Engineering capacity can be reapplied to other critical initiatives; offload compliance and operational support to a vendor; How much does it cost to maintain x,y,z
 6. **Costs** - Additional hires to deliver necessary e-commerce functionality, while maintaining momentum on other initiatives. 
+7. **Risk** - Is either pathway (vendor v. no vendor) more or less risky?
 
 
 
