@@ -423,8 +423,9 @@ GitLabでは、利用者に最も価値を提供をできるプラットフォ�
 
 ##### 忍耐力 {#perseverance}
 {:.no_toc}
-Working at GitLab will expose you to situations of various levels of difficulty and complexity. This requires focus and the ability to defer gratification.
-We value the ability to maintain focus and motivation when work is tough and asking for help when needed.
+GitLabは、様々な難易度や複雑な状況に向き合う必要がある職場です。
+集中力と簡単に満足をしない姿勢が必要です。
+どんなに仕事が大変でも集中力とモチベーションを維持し必要な時には助けを求める能力が評価されます。
 
 ##### 行動・行動・行動 {#bias-for-action}
 {:.no_toc}
