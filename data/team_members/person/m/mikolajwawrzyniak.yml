@@ -1,0 +1,31 @@
+---
+name: Mikołaj Wawrzyniak
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Product Intelligence</a>
+reports_to: alinamihaila
+picture: mikolajwawrzyniak.jpg
+twitter: MGWawrzyniak
+gitlab: mikolaj_wawrzyniak
+departments:
+- Engineering Function
+- Development Department
+- Analytics Section
+- Product Intelligence Team
+projects:
+  gitlab: 
+  - maintainer backend
+  - reviewer product_intelligence
+  version-gitlab-com:
+  - reviewer backend
+  - reviewer database
+story: |
+  Mikołaj is Ruby on Rails enthusiast since 2014, with a passion for solving challenging problems.
+  Personally snowboard freak, traveler and Viking warrior reenactor.
+domain_expertise:
+- Rails
+- Product Intelligence
+- Service (aka. Usage) Ping
+- Snowplow
+specialty: Product Intelligence
+
