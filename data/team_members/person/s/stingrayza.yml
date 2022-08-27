@@ -3,15 +3,18 @@ locality:
 country: Remote
 role: <a href="">Senior Fullstack Engineer</a>
 reports_to: nick_vh
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: raimundhook.jpg
+pronouns: he/him
 pronunciation:
-twitter:
-linkedin:
+twitter: StingRayZA
+linkedin: raimundhook
 gitlab: stingrayza
 departments:
-  - Quality
+  - Quality Department
+  - Engineering Function
+  - Contributor Success Team
 specialty: ""
 expertise:
-story:
-
+story: Raimund has been preaching the DevOps mindset for several years. He also strongly believes 
+  that everybody can (and should) be contributing to open source. He loves spending time with his 
+  family, pulling a freshly-baked sourdough out of the oven, and putting his feet up with his XBox.
