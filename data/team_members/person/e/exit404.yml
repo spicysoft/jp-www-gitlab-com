@@ -1,3 +1,4 @@
+---
 name: Chris Day
 locality:
 country: Remote
@@ -10,8 +11,13 @@ twitter:
 linkedin:
 gitlab: exit404
 departments:
-  - Customer Support
-specialty:
+- Customer Support
+specialty: Federal
 expertise:
-story: The "Computer Guy" to friends, family, and anyone who will listen, Chris is particularly fond of systems integration, scalability, and all aspects of software delivery.  A lifelong learner, Chris believes that GitLab can change the world by enabling collaboration and contribution, on nearly any topic.  When not immersed in the technical, he enjoys cooking world cuisine, reading, and riding his motorcycle around the San Francisco bay area.
+story: The "Computer Guy" to friends, family, and anyone who will listen, Chris is
+  particularly fond of systems integration, scalability, and all aspects of software
+  delivery.  A lifelong learner, Chris believes that GitLab can change the world by
+  enabling collaboration and contribution, on nearly any topic.  When not immersed
+  in the technical, he enjoys cooking world cuisine, reading, and riding his motorcycle
+  around the San Francisco bay area.
 
