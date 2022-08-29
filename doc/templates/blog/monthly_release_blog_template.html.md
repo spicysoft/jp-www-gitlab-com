@@ -38,6 +38,6 @@ Today, we are excited to announce the release of GitLab X.Y with `Feature A`, `F
 
 These are just a few highlights from the `XX` improvements in this release. Read on to check out all of the great updates below.
 
-We thank our community for the `XX` contributions they provided to GitLab X.Y! At GitLab, everyone can contribute and we couldn't have done it without you!
+We thank the wider GitLab community for the `XX` contributions they provided to GitLab X.Y! At GitLab, everyone can contribute and we couldn't have done it without you!
 
 To preview what's coming in next month’s release, check out our [Upcoming Releases page](/direction/kickoff/), which includes our _NEXT_MILESTONE_ release kickoff video.
