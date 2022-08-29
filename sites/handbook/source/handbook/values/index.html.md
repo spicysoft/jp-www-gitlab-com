@@ -562,7 +562,12 @@ GitLabは、様々な難易度や複雑な状況に向き合う必要がある�
 
 ##### 健全な制約のみ {#only-healthy-constraints}
 {:.no_toc}
-Most companies regress to the mean and slow down over time. While some changes are required as a company grows and matures, not all change is inevitable or should be allowed to passively happen. As GitLab grows, we are conscious of how we operate and how it enables our ability to continue to operate with the agility of a [startup](/company/still-a-startup/). We try to limit ourselves to [healthy constraints](/handbook/only-healthy-constraints/). 
+ほとんどの企業は時間が経つにつれ凡庸になり成長は鈍化します。
+企業が成長し成熟するなかで必要な変化もあります。
+しかし、変化はすべて避けられないものでもありません。
+また起こることのすべてをそのまま受け入れるべきものでもありません。
+GitLabは成長する中で、どのように活動すれば[スタートアップ](/company/still-a-startup/)のように機敏に活動し続けられるかを意識しています。
+[健全な制約](/handbook/only-healthy-constraints/)のみを課すようにしています。
 
 ##### 書き出す {#write-things-down}
 {:.no_toc}
