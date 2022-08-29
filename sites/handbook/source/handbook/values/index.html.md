@@ -577,13 +577,18 @@ It is far more efficient to read a document at your convenience than to have to 
 
 ##### 枯れた解決策 {#boring-solutions}
 {:.no_toc}
-Use the simplest and most boring solution for a problem, and remember that [“boring”](http://boringtechnology.club/) should [not be conflated with “bad” or “technical debt.”](http://mcfunley.com/choose-boring-technology)
-The speed of innovation for our organization and product is constrained by the total complexity we have added so far, so every little reduction in complexity helps.
-Don’t pick an interesting technology just to make your work more fun;
-using established, popular tech will ensure a more stable and more familiar experience for you and other contributors.
+問題に対して最もシンプルで退屈な解決策を使ってください。
+そして[「退屈」](http://boringtechnology.club/)を、[「悪い」とか「技術的負債」と混同](http://mcfunley.com/choose-boring-technology)してはなりません。
 
-Make a conscious effort to **recognize** the constraints of others within the team.
-For example, sales is hard because you are dependent on another organization, and development is hard because you have to preserve the ability to quickly improve the product in the future.
+複雑にすればするほど、組織や製品のイノベーションのスピードは落ちていきます。
+複雑さを少しでも減らすことが大事です。
+仕事を楽しくするためだけに面白そうな技術を選んではいけません。
+確立されている一般的な技術を使用してください。
+みんなにとってより着実でより熟知した仕事の進め方になります。
+
+他の部門の仕事には縛りがあることを**理解**してください。
+例えば、営業が大変なのは、外部の組織にふりまわされるからです。
+開発が大変なのは、プロダクトの変更用意性を長期的に維持しなければならないからです。
 
 ##### 自走と自習 {#self-service-and-self-learning}
 {:.no_toc}
