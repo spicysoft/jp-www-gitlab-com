@@ -612,9 +612,9 @@ We have [guidelines](/handbook/spending-company-money/#guidelines) around this o
 [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense."
 
 ##### 短い口頭での回答 {#short-verbal-answers}
-
 {:.no_toc}
-Give short answers to verbal questions so the other party has the opportunity to ask more or move on.
+口頭で質問されたら短く答えてください。
+相手がさらに質問したり次の話題に進められるようにしてください。
 
 ##### おしゃべりは短く {#keep-broadcasts-short}
 {:.no_toc}
