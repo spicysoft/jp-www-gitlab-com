@@ -1,0 +1,20 @@
+---
+name: Chris Moberly
+locality:
+country: Remote
+role: <a href="/job-families/engineering/red-team">Security Manager, Red Team</a>
+reports_to: stevemanzuik
+picture: chrismoberly.jpg
+twitter: init_string
+gitlab: cmoberly
+pronouns: he/him
+departments:
+- Engineering Function
+- Security Department
+story: |
+  Chris is a hacker with over twenty years of professional experience
+  in information technology. He enjoys breaking the things he loves,
+  like Linux distributions and open-source software, in an effort
+  to make them stronger.
+specialty: Red Team
+
