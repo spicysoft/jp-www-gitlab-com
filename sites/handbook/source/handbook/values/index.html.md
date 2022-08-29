@@ -558,7 +558,7 @@ GitLabは、様々な難易度や複雑な状況に向き合う必要がある�
 ## ⏱️ 効率性 {#efficiency}
 {:#efficiency .gitlab-purple}
 
-Working efficiently on the right things enables us to make fast progress, which makes our work more fulfilling.
+正しいことに効率よく取り組めば、仕事はスピードアップして成果が出ます。
 
 ##### 健全な制約のみ {#only-healthy-constraints}
 {:.no_toc}
