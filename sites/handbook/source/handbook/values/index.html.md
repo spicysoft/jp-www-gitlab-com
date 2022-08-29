@@ -480,7 +480,7 @@ GitLabは、様々な難易度や複雑な状況に向き合う必要がある�
 
 [直接責任者 Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRI)の定義を熟知してください。DRIはエスカレーションしてブロックを解除する権限があります。
 
-チームメンバーがもっと成果を出せるように努めるのがGitLabのマネージャーのお仕事です。[ハイアウトプット・マネジメント]/handbook/leadership/high-output-management/)の本質です。
+チームメンバーがもっと成果を出せるように努めるのがGitLabのマネージャーのお仕事です。[ハイアウトプット・マネジメント](/handbook/leadership/high-output-management/)の本質です。
 
 速やかにエスカレーションされ、問題の状況が伝えられることで、マネージャーはアンブロッカーとして機能することができます。
 
