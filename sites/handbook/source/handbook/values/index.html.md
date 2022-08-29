@@ -478,9 +478,11 @@ GitLabは、様々な難易度や複雑な状況に向き合う必要がある�
 ##### エスカレートしてブロックを解除する {#escalate-to-unblock}
 {:.no_toc}
 
-We should be diligent to define [Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRI). DRIs are empowered to escalate to unblock. 
-Managers at GitLab seek to increase the output of the work of those on their team, a core concept in [High Output Management](/handbook/leadership/high-output-management/).
-Early escalation, delivered with context of the challenge, enables managers to function as an unblocker.
+[直接責任者 Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRI)の定義を熟知してください。DRIはエスカレーションしてブロックを解除する権限があります。
+
+チームメンバーがもっと成果を出せるように努めるのがGitLabのマネージャーのお仕事です。[ハイアウトプット・マネジメント]/handbook/leadership/high-output-management/)の本質です。
+
+速やかにエスカレーションされ、問題の状況が伝えられることで、マネージャーはアンブロッカーとして機能することができます。
 
 ##### 結果コンピテンシー {#results-competency}
 {:#results-competency .no_toc}
