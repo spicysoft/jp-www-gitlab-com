@@ -367,7 +367,7 @@ To assist managers in determining whether a release contains a feature. The foll
   _Please let us know if any of your merged primary release post items shifted out of the release after the 18th and will not make it into the final release packages by the 22nd._
   ```
 
-  - Tell them they can check [this query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=13.10&not%5Blabel_name%5D%5B%5D=released%3A%3Acandidate) (updated with the correct milestone) and check with their EMs to verify the features did make it into the release.
+  - Tell them they can check `[this query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=X.Y&not%5Blabel_name%5D%5B%5D=released%3A%3Acandidate)` (update it with the current milestone) and check with their EMs to verify the features did make it into the release.
   - It is the Release Post Manager's responsibility to make sure any top/primary items mentioned in the introduction are accurate prior to the 22nd, because release post items can sometimes move in/out of the packaged release after the 18th, and this could affect the themes, headline, etc.
 - If you learn that any top/primary items have moved in/out of the packaged release after the 18th, communicate this directly to stop or start associated actions, with the DRIs for:
   - [Technical Marketing](https://about.gitlab.com/handbook/marketing/strategic-marketing/technical-marketing/) (the TMM team), who produce demo videos per release.
