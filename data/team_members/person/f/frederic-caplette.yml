@@ -23,4 +23,7 @@ story: 'Frédéric started to code to make games and continued on learn how to m
 
   '
 specialty: Pipeline Authoring
+domain_expertise:
+    - frontend_graphql
+    - frontend_architecture
 
