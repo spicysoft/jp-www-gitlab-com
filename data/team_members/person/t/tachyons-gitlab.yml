@@ -1,7 +1,8 @@
 name: Aboobacker MK
 locality: 
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>,
+  Manage:Authentication and Authorization
 reports_to: michellegill
 picture: aboobacker.png
 pronouns:
