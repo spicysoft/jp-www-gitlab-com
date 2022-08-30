@@ -3,7 +3,7 @@ locality:
 country: Remote
 role: <a href="">Senior Engineering Analyst</a>
 reports_to: mek
-picture: ../gitlab-logo-extra-whitespace.png
+picture: raulrrendon.jpg
 pronouns:
 pronunciation:
 twitter:
@@ -11,6 +11,7 @@ linkedin:
 gitlab: raulrrendon
 departments:
   - Quality
+  - Engineering Analytics
 specialty: ""
 expertise:
 story:
