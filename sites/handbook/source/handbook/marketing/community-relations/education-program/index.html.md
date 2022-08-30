@@ -44,6 +44,7 @@ At GitLab, we believe that **every student and every teacher can contribute**! T
 | [Education Evangelism](/handbook/marketing/community-relations/education-program/education-evangelism) | Handbook |  Information on education evangelism processes and metrics.|
 | [Community Programs Applications Workflows ](/handbook/marketing/community-relations/community-operations/community-program-applications/) | Handbook | Workflow for processing GitLab for Education Program applications.|
 | [GitLab for Campuses ](/handbook/product/packaging-and-pricing/gitlab-for-campuses/)| Handbook | Process and details for the GitLab for Campuses offering. |
+| [Education Conferences](/handbook/marketing/community-relations/education-program/education-conferences)| Handbook | Processes and details regarding conferences|
 
 
 ## <i class="fa fa-map-marker" aria-hidden="true"></i> Mission
