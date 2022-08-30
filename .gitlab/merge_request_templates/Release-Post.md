@@ -83,7 +83,10 @@ _People:_
 - [ ] 🟢 Consider setting up a coffee chat with the previous release post manager and/or Product Operations DRI to ask for tips and any helpful "latest info"
 - [ ] 🟢 After meeting with the previous release post manager and/or Product Operations for insights, consider setting up a meeting with your release post shadow (`@release_post_manager_shadow`) to help them understand their role and how much capacity they have to support the work that month
 - [ ] Schedule a 30 min Live Retrospective meeting for some time after the 22nd. All action items for the retro need to be completed prior to the 3rd of the next month in order to incorporate any process changes before the next [release post automation](https://about.gitlab.com/handbook/marketing/blog/release-posts/#release-post-branch-creation-rake-task) begins. Make sure to invite Product Ops to the Live Retro meeting. Product Ops will need to approve any major updates to the process identified during the Retrospective.
-- [ ] 🟢 Per guidance on [communication](https://about.gitlab.com/handbook/marketing/blog/release-posts/#communication) for the release, create the `X-Y-release-post-prep` channel in Slack and invite `@tw_lead`, `@tech_advisor`, `@pmm_lead`, the Product Operations DRI and `@release_post_manager_shadow`. Let them know this channel is to discuss production-specific topics that don't concern the broader team, so we can keep `#release-post` focused and easy to follow. As a topic, add the release post MR, the link to the review app, and the link of the retro issue:
+- [ ] 🟢 Create a `X-Y-release-post-prep` channel in Slack
+  - [ ] Invite `@tw_lead`, `@tech_advisor`, `@pmm_lead`, `@release_post_manager_shadow`, `@fseifoddini`, and `@brhea`. There is no need to invite the social team to the channel.
+  - [ ] Post the following message in `X-Y-release-post-prep`: `Hi team! This channel is to discuss production-specific topics that don't concern the broader product team. By keeping our conversations in this channel, we can help keep #release-post focused.`
+  - See additional guidance on [release post communication](https://about.gitlab.com/handbook/marketing/blog/release-posts/#communication)
 - [ ] 🟢 Update the `#X-Y-release-post-prep` Slack bookmarks in the `#release-post` channel:
 
   ```md
