@@ -1,15 +1,15 @@
 ---
-name: Yuyu Yang
+name: Santhosh Baranidharan
 locality:
 country: Remote
-role: <a href="">Staff Business Systems Analyst</a>
+role: <a href="">Senior Business Systems Analyst</a>
 reports_to: craig-mestel
 picture: "../gitlab-logo-extra-whitespace.png"
 pronouns:
 pronunciation:
 twitter:
 linkedin:
-gitlab: yuyuyang
+gitlab: sbaranidharan
 departments:
 - Enterprise Applications
 specialty: ''
