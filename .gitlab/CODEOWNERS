@@ -42,11 +42,11 @@
 /sites/handbook/source/handbook/business-technology/data-team/ @rparker2 @gitlab-data
 /sites/handbook/source/handbook/business-technology/data-team/organization/data-science/ @rparker2 @kmagda1 @gitlab-data
 /sites/handbook/source/handbook/business-technology/team-member-enablement/ @rrea1 @pkaldis
-/sites/handbook/source/handbook/business-technology/enterprise-applications/ @brobins @ccnelson
-/sites/handbook/source/handbook/business-technology/enterprise-applications/quote-to-cash/ @brobins @ccnelson
+/sites/handbook/source/handbook/business-technology/enterprise-applications/ @brobins @cmestel
+/sites/handbook/source/handbook/business-technology/enterprise-applications/quote-to-cash/ @brobins @cmestel
 /sites/handbook/source/handbook/business-technology/change-management/ @brobins @rrea1
 /sites/handbook/source/handbook/business-technology/it-compliance/ @brobins @rrea1
-/sites/handbook/source/handbook/business-technology/enterprise-applications/integrations/ @ccnelson
+/sites/handbook/source/handbook/business-technology/enterprise-applications/integrations/ @cmestel
 /sites/handbook/source/handbook/tools-and-tips/linux/ @pkaldis @marc_disabatino
 /data/tech_stack.yml @rrea1
 
@@ -733,7 +733,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/frontend/components/speakers-bureau/SpeakersBureau.vue @abuango @brendan @johncoghlan @dnsmichi
 
 ^[Environment Setup Script]
-/scripts/setup-macos-dev-environment.sh @ccnelson
+/scripts/setup-macos-dev-environment.sh @cmestel
 
 ^[Ruby Version]
 .ruby-version @tywilliams @laurenbarker @cwoolley-gitlab
