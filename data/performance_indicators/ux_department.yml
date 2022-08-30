@@ -142,7 +142,7 @@
   base_path: "/handbook/engineering/ux/performance-indicators/"
   definition: Integrating Pajamas components into GitLab contributes to a cohesive and
     consistent user experience, visually and functionally. This allows users to seemlessly
-    transition throughout different stages of the DevOps lifecycle. [38 foundational components](https://gitlab.com/groups/gitlab-org/-/epics/3107)
+    transition throughout different stages of the DevOps lifecycle. <a href="https://gitlab.com/groups/gitlab-org/-/epics/3107">38 foundational components</a>
     have been identified in our design system. Legacy UI code in the product needs to be migrated to
     utilize the components built in Pajamas. Even though UX will be responsible
     for this metric, they will need other departments such as PM and Development to
