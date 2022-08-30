@@ -1,17 +1,18 @@
 name: Sam Kim
 locality: 
 country: Remote
-role: <a href="">Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/intermediate">Backend Engineer, Verify:Pipeline Insights</a>
 reports_to: scott-hampton
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
-twitter:
-linkedin:
+picture: samsamkim.jpg
+linkedin: samsamkim
 gitlab: samsam_kim
 departments:
-  - Development
-specialty: "Verify"
-expertise:
-story:
-
+- Development Department
+- Verify:Pipeline Insights Group
+specialty:
+- Verify:Pipeline Insights
+story: |
+  Sam loves finding elegant and creative solutions to complex problems. Sam loves working
+  at GitLab for so many reasons! That being said the culture, the product, and people are 
+  definitely the top reasons. It also helps that the GitLab logo is a tanuki. Outside of 
+  work, Sam has been playing a lot of VR ping pong.
