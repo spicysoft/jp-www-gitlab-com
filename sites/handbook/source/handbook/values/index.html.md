@@ -602,7 +602,18 @@ It is easy to prioritize consistency over efficiency because consistency is ofte
 
 ##### 他人の時間を尊重する {#be-respectful-of-others-time}
 {:.no_toc}
-Consider the time investment you are asking others to make with meetings and a permission process. Try to avoid meetings, and if one is necessary, try to make attendance optional for as many people as possible. Any meeting should have an agenda linked from the invite, and you should document the outcome. Instead of having people ask permission, trust their judgment and offer a consultation process if they have questions.
+会議や承認で他の人の時間をどれだけ奪っているか考えてみてください。
+
+なるべく会議は避けてください。
+会議を開く必要があるなら、参加必須にするのは最低限にとどめてください。
+できる限り出席する・しないを各自が選べるようにしてください。
+
+どんな会議でも、参加依頼をかける時点でアジェンダを用意してください。
+また会議の結果は文書化してください。
+
+承認や確認を求めないでください。
+任せた相手の判断を信頼してください。
+質問をうけた時は相談に応じてください。
 
 ##### 会社の金を自分の金のように使う {#spend-company-money-like-its-your-own}
 {:.no_toc}
