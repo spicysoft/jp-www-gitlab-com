@@ -1,0 +1,18 @@
+---
+name: Greg Johnson
+locality:
+country: Remote
+role: <a href="/job-families/engineering/security-engineer/">Staff Security Engineer,
+  Red Team</a>
+reports_to: chrismoberly
+picture: gregjohnson.jpg
+twitter: code_emitter
+gitlab: codeEmitter
+departments:
+- Engineering Function
+- Security Department
+story: |
+  Greg is a tangibly enthusiastic builder and destroyer of software systems whose objectives are to raise awareness and show impact.  In his free time,
+  he enjoys spending time with his family, CrossFit, music, the great outdoors, and building / restoring old motorcycles.
+specialty: Red Team
+
