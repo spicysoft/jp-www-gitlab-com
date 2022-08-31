@@ -1,13 +1,14 @@
-name: Dave Curlewis
+name: David Curlewis
 locality: 
 country: Remote
-role: <a href="">Manager, Engineering</a>
+role: <a href="/job-families/engineering/infrastructure/engineering-management/">Engineering
+  Manager, Reliability Engineering</a>
 reports_to: alanrichards
-picture: ../gitlab-logo-extra-whitespace.png
+picture: dcurlewis.jpg
 pronouns:
 pronunciation:
 twitter:
-linkedin:
+linkedin: dcurlewis
 gitlab: dcurlewis
 departments:
   - Infrastructure
