@@ -655,7 +655,14 @@ We value constant improvement by iterating quickly, month after month. If a task
 
 ##### 変化を受け入れる {#embrace-change}
 {:.no_toc}
-Adoption of features, user requirements, and the competitive landscape change frequently and rapidly. The most successful companies adapt their roadmap and their organization quickly to keep pace. One of the things that makes this challenging is the impact on our team. People may need to change teams, subject matter, or even who manages them. This can rightly feel disruptive. If we coach ourselves to embrace the positive aspects of change, such as increased opportunity and new things to learn, we can move faster as a company and increase our odds of success. It is important to [hold management accountable for being deliberate](#always-iterate-deliberately).
+実装する機能、ユーザーの要求、競争環境は、頻繁に大きく変化していきます。
+成功している企業の多くは、世の中の変化に、ロードマップや組織を速やかに適応させキャッチアップしています。
+しかし、チームへの影響が大きいので、変化に適応するのは難しいものです。
+チーム、担当分野、マネージャーを変える必要があります。
+そうすると混乱がおきます。
+なので、新しいチャンスがあること、新しいことが学べるといった変化のポジティブな面を受け入れるように指導してください。
+そうすれば、企業としてより速く前へ進み、成功の確率を高めることができます。
+[経営者に意図的であることの責任を負わせる](#always-iterate-deliberately)ことが重要なのです。
 
 ##### 効率化コンピテンシー {#efficiency-competency}
 {:#efficiency-competency .no_toc}
