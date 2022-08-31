@@ -917,24 +917,14 @@ Optional Post Event Follow Up: Continue to monitor Contacts and Leads uploaded i
 
 
 ## PubSec AMER BDRs
-We currently have 4 BDR's focused on supporting the PubSec ISR's in the US. Their alignment is as follows:
 
-| PubSec BDR | Group |
-| ------ | ------ |
-| MaKayla Emahiser| Army, Navy, Federal Systems Integrators (FSI) |
-| Ricky Wooten | NSG 1-2, 4th Estate, Air Force |
-| Melinda Ryan | Civ 1-7, NSG 3-6 |
-| Matt Wyman | State, Local, Edu (SLED) |
+The US PubSec team covers all US Agencies, US Government Contractors (Federal Systems Integrators), and US-based Universities. For interal questions about PubSec Lead routing, please contact Josh Downey.
 
-The US PubSec team covers all US Agencies, US Government Contractors (Federal Systems Integrators), and US-based Universities.
-
-A Federal Systems Integrator (FSI) is a private company with 75% or more of their business coming from the Government and/or whom requires US-based support. In the case that a commercial SDR/BDR comes across a company that may or may not meet this ROE because they do both Government and Commercial work, they should work with the FSI BDR to determine if it meets the ROE. If it is not possible to determine if it meets the criteria and the prospect is definitively discussing Government work, the Commercial SDR/BDR must air on the side of caution and let the FSI BDR handle the lead until the criteria can be determined.
+A Federal Systems Integrator (FSI) is a private company whom requires US-based support and/or has 75% or more of their business coming from the Government. In the case that a commercial SDR/BDR comes across a company that may or may not meet this ROE because they do both Government and Commercial work, they should work with the FSI BDR to determine if it meets the ROE. If it is not possible to determine if it meets the criteria and the prospect is definitively discussing Government work, the Commercial SDR/BDR must air on the side of caution and let the FSI BDR handle the lead until the criteria can be determined.
 
 The US PubSec team does not cover Universities, Agencies, and Contractors who are not based in the US. These prospects will be routed to the respective Commercial BDR/SDR covering that territory.
 
-PubSec BDRs have a different workflow from other BDRs in that they do not convert leads into opportunities. They input qualification notes on the lead record after their intro call and then set up the IQM with the ISR. The ISR converts the lead into the opportunity to ensure the opp is assigned to the correct account. Once the ISR has determined our SAO criteria has been met, they are responsible for putting the BDR on the opportunity and moving the opportunity into discovery.
-
-The PubSec BDRs will work closely with PubSec FMM's and MPM's on pre and post-event outreach. For events that are limited in attendance capacity, the PubSec ISRs will own pre and post-event strategy, not the BDR's.
+The PubSec BDRs will work closely with PubSec FMM's and MPM's on pre and post-event outreach. For events that are limited in attendance capacity, the PubSec ISRs & SALs will own pre and post-event strategy, not the BDR's.
 
 [SDR PubSec Issue Board](//gitlab.com/groups/gitlab-com/-/boards/1864446?label_name[]=SDR%20Pub%20Sec) - used to track relevant GitLab issues involving the PubSec BDR team. This is a global issue board and will capture all issues in any group/sub-group in the GitLab.com repo when any of the following scoped labels are used.
 
