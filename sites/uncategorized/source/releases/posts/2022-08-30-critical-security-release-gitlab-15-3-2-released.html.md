@@ -55,7 +55,7 @@ Thanks [vakzz](https://hackerone.com/vakzz) for reporting this vulnerability thr
 
 <!-- https://gitlab.com/gitlab-org/security/gitlab/-/issues/749 -->
 
-A cross-site scripting issue has been discovered in GitLab CE/EE affecting all versions before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. It was possible to exploit a vulnerability in setting the labels  colour feature which could lead to a stored XSS that allowed attackers to perform arbitrary actions on behalf of victims at client side. This is a high severity issue (`CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:N`, 7.3). It is now mitigated in the latest release and is assigned [CVE-2022-2865](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2865).
+A cross-site scripting issue has been discovered in GitLab CE/EE affecting all versions before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. It was possible to exploit a vulnerability in setting the labels color feature which could lead to a stored XSS that allowed attackers to perform arbitrary actions on behalf of victims at client side. This is a high severity issue (`CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:N`, 7.3). It is now mitigated in the latest release and is assigned [CVE-2022-2865](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2865).
 
 Thanks [yvvdwf](https://hackerone.com/yvvdwf) for reporting this vulnerability through our HackerOne bug bounty program.
 
