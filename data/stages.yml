@@ -146,7 +146,7 @@ stages:
           - department: Infrastructure Department
             dri: TBD
         categories:
-          - audit_events 
+          - audit_events
           - compliance_management
         usage_driver_score: 1
         asp_driver_score: 5
@@ -443,6 +443,7 @@ stages:
             dri: TBD
         categories:
           - source_code_management
+          - git_lfs
         usage_driver_score: 5
         asp_driver_score: 4
         sam_driver_score: 5
@@ -906,7 +907,6 @@ stages:
           - helm_chart_registry
           - dependency_proxy
           - dependency_firewall
-          - git_lfs
         usage_driver_score: 3
         asp_driver_score: 2
         sam_driver_score: 4

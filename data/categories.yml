@@ -605,6 +605,29 @@ pages:
       maturity: complete
       documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
 
+git_lfs:
+  name: "Git LFS"
+  stage: create
+  documentation: https://docs.gitlab.com/ee/topics/git/lfs/index.html
+  direction: /direction/package/#git-lfs
+  description: |
+    Git LFS (Large File Storage) is a Git extension, which reduces the impact of large files in your repository by downloading the relevant versions of
+    them lazily. Specifically, large files are downloaded during the checkout process rather than during cloning or fetching.
+  roi: false
+  available: 2015-02-22
+  viable: 2023-02-22
+  complete:
+  lovable:
+  maturity: minimal
+  marketing: true
+  dogfooding_status: Exclusive
+  dogfooding_issue: N/A
+  dogfooding_group: All
+  competitors:
+    github:
+      maturity: complete
+      documentation: https://docs.github.com/en/repositories/working-with-files/managing-large-files
+
 gitlab_handbook:
   name: "GitLab Handbook"
   stage: create
@@ -1203,28 +1226,7 @@ dependency_firewall:
   dogfooding_issue: Not Applicable (Planned)
   dogfooding_group: Not Applicable (Planned)
 
-git_lfs:
-  name: "Git LFS"
-  stage: package
-  documentation: https://docs.gitlab.com/ee/topics/git/lfs/index.html
-  direction: /direction/package/#git-lfs
-  description: |
-    Git LFS (Large File Storage) is a Git extension, which reduces the impact of large files in your repository by downloading the relevant versions of
-    them lazily. Specifically, large files are downloaded during the checkout process rather than during cloning or fetching.
-  roi: false
-  available: 2015-02-22
-  viable: 2023-02-22
-  complete:
-  lovable:
-  maturity: minimal
-  marketing: true
-  dogfooding_status: Exclusive
-  dogfooding_issue: N/A
-  dogfooding_group: All
-  competitors:
-    github:
-      maturity: complete
-      documentation: https://docs.github.com/en/repositories/working-with-files/managing-large-files
+
 
 # Secure
 
