@@ -1,4 +1,14 @@
 ---
+- name: Turk Turk
+  picture: turkturk.png
+  human: Lauren Barker
+  story: 'Turk Turk will make you tremble in your boots if you set foot in his yard.
+    Moving faster than the unsuspecting elephant seal, he will bolt from underneath the
+    apple tree when your snagging the forbidden avocados in a flying waddle with talons out.
+    It''s moments like these you question the decisions that got you here. You''ve been
+    warned. Don''t mess with Turk Turk or his avocados on E st.
+
+    '
 - name: Vega
   picture: vega.png
   human: Brian Tabbert
