@@ -632,9 +632,10 @@ We have [guidelines](/handbook/spending-company-money/#guidelines) around this o
 口頭で質問されたら短く答えてください。
 相手がさらに質問したり次の話題に進められるようにしてください。
 
-##### おしゃべりは短く {#keep-broadcasts-short}
+##### 文章は短く {#keep-broadcasts-short}
 {:.no_toc}
-Keep one-to-many written communication short, as mentioned in [this HBR study](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity): "A majority say that what they read is frequently ineffective because it’s too long, poorly organized, unclear, filled with jargon, and imprecise."
+[HBRの研究](https://hbr.org/2016/09/bad-writing-is-destroying-your-companys-productivity)によると、多数の人に読まれる文章は短くしてください。
+「長すぎる、整理されていない、不明確、専門用語が多い、不正確すぎる。そんな文章はむっちゃ読みづらい。大多数の人がそう言っています。」
 
 ##### 自己管理 {#managers-of-one}
 {:.no_toc}
