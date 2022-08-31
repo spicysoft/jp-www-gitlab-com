@@ -1,6 +1,6 @@
 ---
 name: Andy Lockhart
-locality: 
+locality:
 country: Remote
 role: <a href="/job-families/engineering/security-engineer/">Senior Security Engineer</a>
 reports_to: jfuentes2
@@ -11,8 +11,8 @@ twitter:
 linkedin: lockhartandy
 gitlab: kerbalette
 departments:
-  - Security Department
-specialty: Security Operations
+- Security Department
+specialty: Incident Response
 expertise:
 story:
 
