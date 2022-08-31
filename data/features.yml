@@ -6138,8 +6138,8 @@ discussion to be focused on."
     link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
     category:
         - kubernetes_management
-    gitlab_core: false
-    gitlab_starter: false
+    gitlab_core: true
+    gitlab_starter: true
     gitlab_premium: true
     gitlab_ultimate: true
     gitlab_ci: true
