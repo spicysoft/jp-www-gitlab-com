@@ -1,17 +1,18 @@
 name: J. B. Crawford
 locality: 
 country: Remote
-role: <a href="">Senior Professional Services Engineer</a>
+role: <a href="/job-families/sales/professional-services-engineer/">Senior Professional Services Engineer</a>
 reports_to: glen-miller
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: jbcrawford.jpg
+pronouns: They/Them
 pronunciation:
-twitter:
+twitter: jcrawfordor
 linkedin:
 gitlab: jbcrawford
 departments:
+  - Customer Success
+  - Professional Services
   - Consulting Delivery
-specialty: "Sales"
+specialty: J. B. Crawford is a DevOps engineer with a background in security. They're passionate about agile development, DevSecOps, and cloud operations. After work, they travel and write about computer and telecommunications history.
 expertise:
 story:
-
