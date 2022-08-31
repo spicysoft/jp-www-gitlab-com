@@ -651,7 +651,8 @@ Not every problem should lead to a new process to prevent them. Additional proce
 
 ##### 最小限の変更で迅速に出荷する {#move-fast-by-shipping-the-minimal-viable-change}
 {:.no_toc}
-We value constant improvement by iterating quickly, month after month. If a task is not the [smallest viable and valuable thing](/handbook/values/#iteration), cut the scope.
+毎月、頻繁にイテレーションを回して、常に改善し続けることを大切にしています。
+タスクが[顧客価値があり有用性を生み出せる最小限のもの](/handbook/values/#iteration)でない場合、範囲を切り詰めてください。
 
 ##### 変化を受け入れる {#embrace-change}
 {:.no_toc}
