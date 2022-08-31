@@ -7,7 +7,7 @@ If there was a problem and you are creating this MR manually, first try to resta
 
 If the task continues to fail, follow these steps to perform a [Manual Release Post Kickoff](https://about.gitlab.com/handbook/marketing/blog/release-posts/manual-release-post-kickoff/).
 
---> 
+-->
 
 # Overview
 
@@ -110,7 +110,7 @@ _People:_
   ```
 
 - [ ] 🟢 Announce yourself as the Release Post Manager in the `#release-post` channel, as well as the Technical Advisor, and TW lead for reference. cc the Product Operations DRI
-- [ ] 🟢 Schedule at least two sync 15 minute weekly standups using this [agenda as an example](https://docs.google.com/document/d/1Ai5DHRXg39w_4rPEeztwUrYH-FxASs_eJyOf3MqPsh0/edit).
+- [ ] 🟢 Schedule at least two sync 15-minute weekly standups using this [agenda as an example](https://docs.google.com/document/d/1Ai5DHRXg39w_4rPEeztwUrYH-FxASs_eJyOf3MqPsh0/edit). Avoid Mondays and Fridays when scheduling this meeting.
   - The standups should ideally happen the 2nd and 3rd weeks of the month to allow for collaboration leading up to the 17th.
   - Add attendees TW Lead, Tech advisor as required and the PMM Lead and Product Operations DRI as optional.
   - If times zones conflict too much, initiate at least two weekly virtual standups to happen at the same time/day of the week in Slack `#X-Y-release-post-prep` channel. Leverage the agenda template above to conduct it
