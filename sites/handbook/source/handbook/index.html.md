@@ -102,7 +102,7 @@ For a very specific set of [internal](/handbook/communication/confidentiality-le
     * [Fulfillment Sub-department](/handbook/engineering/development/fulfillment/)
     * [Growth Sub-department](/handbook/engineering/development/growth/)
     * [Ops Sub-department](/handbook/engineering/development/ops/)
-    * [Protect Sub-department](/handbook/engineering/development/protect/)
+    * [Govern Sub-department](/handbook/engineering/development/sec/govern/)
     * [Secure Sub-department](/handbook/engineering/development/sec/secure/)
   * [Incubation Engineering Department](/handbook/engineering/incubation/)
   * [Infrastructure Department](/handbook/engineering/infrastructure/)

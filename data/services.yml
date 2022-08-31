@@ -93,7 +93,7 @@
   sku: GL-SEC-R
   class_size: Maximum 12 attendees. Order <a href ="https://about.gitlab.com/services/education/ILT-Seat-Add-On/">this seat add-on</a> to increase total seats per class.
   standard_sow: https://docs.google.com/document/d/1glYSjPuys_MMiLSi9_ePYCAoKkWyZmU4BCgNZpicu7c/edit?usp=sharing
-  stages: Secure, Protect
+  stages: Secure, Govern
 
 - id: training_sessions_pm
   name:     GitLab for Project Managers Training

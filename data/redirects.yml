@@ -3121,19 +3121,58 @@
   - /direction/defend
   - /direction/defend/
   - /direction/defend/index.html
+  - /direction/protect
+  - /direction/protect/
+  - /direction/protect/index.html
   - /direction/protect/container_network_security
   - /direction/protect/container_network_security/
   - /direction/protect/container_network_security/index.html
   - /direction/protect/container_host_security
   - /direction/protect/container_host_security/
   - /direction/protect/container_host_security/index.html
-  target: /direction/protect
+  target: /direction/govern
   comp_op: '='
 - sources:
-  - /direction/secure/container-scanning
-  - /direction/secure/container-scanning/
-  - /direction/secure/container-scanning/index.html
-  target: /direction/protect/container-scanning
+  - /direction/protect/container-scanning
+  - /direction/protect/container-scanning/
+  - /direction/protect/container-scanning/index.html
+  target: /direction/secure/composition-analysis/container-scanning
+  comp_op: '='
+- sources:
+  - /direction/protect/security_orchestration
+  - /direction/protect/security_orchestration/
+  - /direction/protect/security_orchestration/index.html
+  target: /direction/govern/security_policies/security_policy_management/
+  comp_op: '='
+- sources:
+  - /direction/secure/vulnerability_management
+  - /direction/secure/vulnerability_management/
+  - /direction/secure/vulnerability_management/index.html
+  target: /direction/govern/threat_insights/vulnerability_management
+  comp_op: '='
+- sources:
+    - /handbook/engineering/development/sec/secure/threat-insights
+    - /handbook/engineering/development/sec/secure/threat-insights/
+    - /handbook/engineering/development/sec/secure/threat-insights/index.html
+  target: /handbook/engineering/development/sec/govern/threat-insights
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/sec/protect/container-security
+    - /handbook/engineering/metrics/sec/protect/container-security/
+    - /handbook/engineering/metrics/sec/protect/container-security/index.html
+  target: /handbook/engineering/metrics/sec/govern/security-policies
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/sec/protect
+    - /handbook/engineering/metrics/sec/protect/
+    - /handbook/engineering/metrics/sec/protect/index.html
+  target: /handbook/engineering/metrics/sec/govern
+  comp_op: '='
+- sources:
+  - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure
+  - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure/
+  - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure.html
+  target: /handbook/engineering/security/security-assurance/dedicated-compliance/POAM-Deviation-Request-Procedure.html
   comp_op: '='
 - sources:
     - /direction/growth 
@@ -3152,7 +3191,10 @@
   - /stages-devops-lifecycle/defend
   - /stages-devops-lifecycle/defend/
   - /stages-devops-lifecycle/defend/index.html
-  target: /stages-devops-lifecycle/protect
+  - /stages-devops-lifecycle/protect
+  - /stages-devops-lifecycle/protect/
+  - /stages-devops-lifecycle/protect/index.html
+  target: /stages-devops-lifecycle/govern
   comp_op: '='
 - sources:
   - /handbook/product/secure-and-defend-section-performance-indicators
@@ -3299,11 +3341,6 @@
   - /handbook/marketing/growth-marketing/content/editorial-team
   - /handbook/marketing/growth-marketing/content/editorial-team/
   target: /handbook/marketing/inbound-marketing/content/editorial-team/
-  comp_op: '='
-- sources:
-  - /direction/secure/composition-analysis/container-scanning
-  - /direction/secure/composition-analysis/container-scanning/
-  target: /direction/protect/container-scanning/
   comp_op: '='
 - sources:
   - /direction/product-analytics
@@ -3657,19 +3694,29 @@
 - sources:
     - /direction/manage/audit-events
     - /direction/manage/audit-events/
-  target: /direction/manage/compliance/audit-events/
-  comp_op: '='
-- sources:
+    - /direction/manage/compliance/audit-events
+    - /direction/manage/compliance/audit-events/
+    - /direction/manage/compliance/audit-events/index.html
     - /direction/manage/audit-reports
     - /direction/manage/audit-reports/
-  target: /direction/manage/compliance/audit-reports/
+    - /direction/manage/compliance/audit-reports
+    - /direction/manage/compliance/audit-reports/
+    - /direction/manage/compliance/audit-reports/index.html
+  target: /direction/govern/compliance/audit-events/
   comp_op: '='
 - sources:
     - /direction/manage/compliance-management
     - /direction/manage/compliance-management/
     - /direction/manage/compliance_frameworks/
     - /direction/manage/compliance_frameworks
-  target: /direction/manage/compliance/compliance-management/
+    - /direction/manage/compliance/compliance-management
+    - /direction/manage/compliance/compliance-management/
+    - /direction/manage/compliance/compliance-management/index.html
+  target: /direction/govern/compliance/compliance-management/
+  comp_op: '='
+- sources:
+    - /direction/manage/compliance/tactical-priorities.html
+  target: /direction/govern/compliance/tactical-priorities.html
   comp_op: '='
 - sources:
     - /handbook/legal/employee-privacy-policy
@@ -4314,8 +4361,10 @@
 - sources: /handbook/engineering/development/sec/secure/delineate-secure-protect.html
   target: /handbook/engineering/development/sec/delineate-sec.html
   comp_op: '='
-- sources: /handbook/engineering/development/protect/
-  target: /handbook/engineering/development/sec/protect/
+- sources:
+  - /handbook/engineering/development/protect/
+  - /handbook/engineering/development/sec/protect/
+  target: /handbook/engineering/development/sec/govern/
   comp_op: '~'
 - sources: /handbook/engineering/development/secure/
   target: /handbook/engineering/development/sec/secure/

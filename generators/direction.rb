@@ -235,18 +235,18 @@ module Generators
       end
     end
 
-    STAGES = %w[manage plan create verify package release configure monitor secure protect enablement].freeze
+    STAGES = %w[manage plan create verify package release configure monitor secure govern enablement].freeze
     DEV_STAGES = %w[manage plan create].freeze
-    SEC_STAGES = %w[secure protect].freeze
+    SEC_STAGES = %w[secure govern].freeze
     SECURE_STAGES = %w[secure].freeze
     OPS_STAGES = %w[verify package release configure monitor].freeze
-    PROTECT_STAGES = %w[protect].freeze
+    GOVERN_STAGES = %w[govern].freeze
     ENABLEMENT_STAGES = %w[enablement].freeze
 
     # set your stage to 'true' to include Epics with Direction label
     INCLUDE_EPICS = Hash.new("false")
     INCLUDE_EPICS['secure'] = true
-    INCLUDE_EPICS['protect'] = true
+    INCLUDE_EPICS['govern'] = true
     INCLUDE_EPICS['enablement'] = true
     INCLUDE_EPICS.freeze
 

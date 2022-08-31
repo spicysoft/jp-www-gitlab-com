@@ -37,9 +37,9 @@ coding_at_scale:
 container_registry:
   display_name: Container Registry
   link: https://docs.gitlab.com/ee/user/packages/container_registry/
-protect:
-  display_name: Protect
-  link: https://about.gitlab.com/stages-devops-lifecycle/protect/
+govern:
+  display_name: Govern
+  link: https://about.gitlab.com/stages-devops-lifecycle/govern/
 design_management:
   display_name: Design Management
   link: https://docs.gitlab.com/ee/user/project/issues/design_management.html

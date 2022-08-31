@@ -1,0 +1,34 @@
+---
+name: Alan (Maciej) Paruszewski
+role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer,
+  Govern:Security Policies</a>
+reports_to: thiagofigueiro
+picture: maciejparuszewski.jpg
+gitlab: mparuszewski
+pronouns: he/him
+locality:
+country: Remote
+projects:
+  gitlab:
+  - reviewer backend
+  secure-container-scanning:
+    - reviewer backend
+    - maintainer backend
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Govern:Security Policies BE Team
+domain_expertise:
+- govern
+- helm
+- kubernetes
+- rails
+- vulnerability_management
+story: |
+  Alan is an experienced backend engineer passionate about Security, API, and Integrations.
+  In his spare time, he loves spending time with his family (lovely wife, daughter, son, and adorable dog)
+  and enjoys cooking, learning new languages, and traveling.
+specialty:
+- 'Govern: Security Policies'
+

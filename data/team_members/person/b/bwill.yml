@@ -14,10 +14,10 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
-- Protect:Container Security BE Team
+- Govern:Threat Insights BE Team
 - Merge Request Coach
 specialty:
-- 'Protect: Container Security'
+- 'Govern: Security Policies'
 expertise: '<li><a href="/job-families/expert/merge-request-coach/">Merge request coach</a></li>'
 domain_expertise:
 - cicd
@@ -25,7 +25,7 @@ domain_expertise:
 - go
 - helm
 - kubernetes
-- protect
+- govern
 - secure
 - shell
 story: 'Brian started his career as Cyber Security professional and spent 5 years
@@ -43,7 +43,7 @@ projects:
   - trainee_maintainer ci_template
   gitlab-pages: reviewer
   gitlab-runner: reviewer
-  protect-container-scanning:
+  secure-container-scanning:
     - reviewer backend
     - maintainer backend
   sec-danger-bot: maintainer backend
