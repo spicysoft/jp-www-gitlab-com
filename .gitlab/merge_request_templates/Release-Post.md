@@ -343,6 +343,8 @@ To assist managers in determining whether a release contains a feature. The foll
 
 ### Final content review
 
+In the run-up to publishing the release post on the 22nd, some release post managers have found it helpful to [post a daily summary](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13791#note_1073158756) to the team in `x-y-release-post-prep`. This is not a requirement, but it can prove helpful to communicate status to the rest of the team and invite feedback if something is missed or off-track.
+
 **Due date: 19th - 20th** (`@release_post_manager`)
 
 **Note: The final review should happen after the TW Lead [structural check](#structural-check) is complete.**
