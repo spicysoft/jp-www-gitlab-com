@@ -1,6 +1,6 @@
 - name: Total open SUS-impacting issues by severity
   base_path: "/handbook/engineering/ux/performance-indicators/"
-  definition: The purpose of this chart is to show the total volume of existing issues that impact our SUS score. The labels we're tracking against include "Actionable Insight::Product change," "Low SUS Score," "UX scorecard-rec," "cm-scorecard-rec," "UX debt," "UI polish," "accessibility," "VP-UX Dogfooding," "learnability," "UI text," "bug::ux," "maintenance::usability," and "pajamas::integrate".
+  definition: The purpose of this chart is to show the total volume of existing issues that impact our SUS score. The labels we're tracking against include "Usability benchmark," "Low SUS Score," "UX scorecard-rec," "cm-scorecard-rec," "UX debt," "UI polish," "accessibility," "VP-UX Dogfooding," "learnability," "UI text," "bug::ux," "maintenance::usability," and "pajamas::integrate".
   target: TBD
   sisense_data:
     chart: 13419472
@@ -125,7 +125,7 @@
   dri: <a href="https://gitlab.com/clenneville">Christie Lenneville</a>
 - name: SUS-impacting issues opened/closed each month
   base_path: "/handbook/engineering/ux/performance-indicators/"
-  definition: With SUS as a KPI, it's important to ensure that we are opening and closing SUS-impacting issues at an appropriate velocity. UX is responsible for ensuring that issues are opened when appropriate and advocating for their prioritization, while Product Management is the ultimate DRI for prioritization. The labels we're tracking against include "Actionable Insight::Product change," "Low SUS Score," "UX scorecard-rec," "cm-scorecard-rec," "UX debt," "UI polish," "accessibility," "VP-UX Dogfooding," "learnability," "UI text," "bug::ux," "maintenance::usability," and "pajamas::integrate".
+  definition: With SUS as a KPI, it's important to ensure that we are opening and closing SUS-impacting issues at an appropriate velocity. UX is responsible for ensuring that issues are opened when appropriate and advocating for their prioritization, while Product Management is the ultimate DRI for prioritization. The labels we're tracking against include "Usability benchmark," "Low SUS Score," "UX scorecard-rec," "cm-scorecard-rec," "UX debt," "UI polish," "accessibility," "VP-UX Dogfooding," "learnability," "UI text," "bug::ux," "maintenance::usability," and "pajamas::integrate".
   target: TBD
   sisense_data:
     chart: 12927544
