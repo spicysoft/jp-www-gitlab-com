@@ -2677,6 +2677,30 @@
   story: 'Gobi is the quietest cat in the world, only when he is asleep. When he is awake, he wants to be always at the center of the action. He is super curious, if an encyclopedia ever defines FOMO, his picture will be in it. Always a homeboy, he only ever gets out of the apartment when visiting his vet. He loves chin rubs, head scratches, and kisses and absolutely hates it when you touch his stubby tail. He is mischievous and quite vindictive, but he is also very vocal and affectionate, so he gets away with it most of the time. 
 
     '
+- name: Midna
+  picture: midna.jpg
+  human: Alex Pennells
+  story: Midna is a Sphynx that has no problem demanding attention at any time of the day.
+    She can typically be found snoozing under blankets, sitting in a windowsill or
+    darting outside anytime a door opens.
+- name: Harley
+  picture: harley2.jpg
+  human: Alex Pennells
+  story: Harley is a German Shephard/Collie mix who oddly prefers the great indoors,
+    due to her deadly fear of flies. She does enjoy venturing out to play in the snow
+    during the winter, free from the terror of flying pests.
+- name: Venom
+  picture: venom.png
+  human: Alex Pennells
+  story: Venom is a Border Collie/Golden Retriever mix who likes to push boundaries.
+    He understands the word 'no', but he also knows how to ignore it. He can typically be
+    found eating anything you left on the counter, whether it's actually edible doesn't matter.
+- name: Jynx
+  picture: jynx.png
+  human: Alex Pennells
+  story: Jynx is a Beagle/Boston Terrier mix who is terrified of being left alone.
+    She can typically be found sleeping under blankets, sunbathing,
+    or demanding that you play fetch with her.
 - name: You?
   picture: "../../gitlab-logo-extra-whitespace.png"
   human:
