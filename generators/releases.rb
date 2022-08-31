@@ -177,10 +177,10 @@ class ReleaseList
     private
 
     class Highlight
-      attr_reader :title, :link, :tier, :gitlab_com, :stage, :categories, :issue_url
+      attr_reader :title, :link, :tier, :gitlab_com, :stage, :categories, :issue_url, :description
 
       def initialize(title, link = nil, tier = nil, gitlab_com = nil, stage = nil, categories = nil,
-                    issue_url = nil)
+                    issue_url = nil, description = nil)
         @title = title
         @link  = link
         @tier = tier
@@ -188,6 +188,7 @@ class ReleaseList
         @stage = stage
         @categories = categories
         @issue_url = issue_url
+        @description = description
       end
 
       def link?
@@ -247,7 +248,7 @@ class ReleaseList
         .collect do |f|
           link = f['documentation_link'] || f['performance_url']
           issue_url = f['issue_url'] || f['epic_url']
-          Highlight.new(f['name'], link, f['available_in'], f['gitlab_com'], f['stage'], f['categories'], issue_url)
+          Highlight.new(f['name'], link, f['available_in'], f['gitlab_com'], f['stage'], f['categories'], issue_url, f['description'])
         end
     end
 
@@ -260,7 +261,7 @@ class ReleaseList
         .collect do |f|
           link = f['documentation_link'] || f['performance_url']
           issue_url = f['issue_url'] || f['epic_url']
-          Highlight.new(f['name'], link, f['available_in'], f['gitlab_com'], f['stage'], f['categories'], issue_url)
+          Highlight.new(f['name'], link, f['available_in'], f['gitlab_com'], f['stage'], f['categories'], issue_url, f['description'])
         end
     end
   end
