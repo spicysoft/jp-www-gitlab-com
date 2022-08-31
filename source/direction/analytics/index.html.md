@@ -4,6 +4,10 @@ title: "Section Direction - Analytics"
 description: "The Product Direction for GitLab's Analytics Section."
 canonical_path: "/direction/analytics/"
 ---
+
+- TOC
+{:toc}
+
 Welcome to the GitLab Analytics section direction. This content is maintained by Kenny Johnston. Please feel free to reach out to Kenny Johnston ([GitLab Profile](http://gitlab.com/kencjohnston), [Email](mailto:kjohnston@gitlab.com)) or [submit and MR to this page](https://gitlab.com/gitlab-com/www-gitlab-com/-/edit/master/source/direction/analytics/index.html.md) with suggestions. 
 
 #### The Analytics section DOES NOT INCLUDE all analytics in GitLab
