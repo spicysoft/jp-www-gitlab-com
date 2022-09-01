@@ -1,0 +1,80 @@
+---
+title: Implementation Services
+suppress_header: true
+description: "The GitLab Professional Service team has years of experience deploying, scaling and securing GitLab installations for customers. Learn more!"
+canonical_path: "/services/implementation/"
+extra_css:
+  - services.css
+---
+
+.wrapper
+  .simple-header
+    %h1
+      Implementation Services
+    %h3.headline-subtitle
+      Enterprise-ready, scalable GitLab installation designed by experts
+
+.services-inner
+  .page-container.container
+    %ol.breadcrumb
+      %li 
+      = breadcrumbs(current_page)
+    .row
+      .col-md-10.col-md-offset-1.tile
+        %h2 Minimize transition time to Gitlab with professional services
+        %p.service-para
+          Whether your team chose GitLab to accelerate your DevOps transformation, improve collaboration between all the roles in your organization, or facilitate an innersourcing initiative - Now the challenge is to get to that desired end state as fast as possible.  Though thousands have deployed our open source tooling throughout the world, we also have a team of professionals here to provide you resources to ensure your GitLab instance will scale with your team.
+        %p.service-para
+          There are two different ways to get started with Professional Services from GitLab.
+
+        .row
+          .col-md-6
+            .panel.panel-gitlab-purple
+              .panel-heading
+                %h3.panel-title Rapid Results
+              .panel-body
+                %p.overview
+                  Design, deployment, and configuration of your GitLab HA environment up to 5K users or your gitlab.com root group. Includes advanced training for platform maintainers, and foundational training for Developers and IT Operations. 
+                = link_to "Learn More", "/services/rapid-results/", class: "btn cta-btn purple center"
+          .col-md-6
+            .panel.panel-gitlab-purple
+              .panel-heading
+                %h3.panel-title Tailored Implementation
+              .panel-body
+                %p.overview
+                  For customers who need to plan for on-going scaling of their GitLab instance, high availability and disaster recovery for large-scale deployments of thousands of users we recommend more implementation focus from our team of Professional Services Engineers.
+                = link_to "Learn More", "/services/implementation/enterprise/", class: "btn cta-btn purple center"
+        .row
+          .col-md-6
+            - data.services.each do |service|
+              - if service.name == "Health Check"
+                .panel.panel-gitlab-purple
+                  .panel-heading
+                    %h3.panel-title #{service['name']}
+                  .panel-body
+                    %p.overview
+                      #{service['short_desc']}
+                    = link_to "Learn More", "/services/implementation/health-check/", class: "btn cta-btn purple center"
+          .col-md-6
+            - data.services.each do |service|
+              - if service.name == "Implementation Quickstart"
+                .panel.panel-gitlab-purple
+                  .panel-heading
+                    %h3.panel-title #{service['name']}
+                  .panel-body
+                    %p.overview
+                      #{service['short_desc']}
+                    = link_to "Learn More", "/services/implementation/implementation-quick-start", class: "btn cta-btn purple center"
+        .row
+          .col-md-6
+            - data.services.each do |service|
+              - if service.name == "Implementation Quickstart HA"
+                .panel.panel-gitlab-purple
+                  .panel-heading
+                    %h3.panel-title #{service['name']}
+                  .panel-body
+                    %p.overview
+                      #{service['short_desc']}
+                    = link_to "Learn More", "/services/implementation/implementation-quick-start-ha", class: "btn cta-btn purple center"
+
+= partial "includes/services-contact-form"
