@@ -81,7 +81,7 @@ With this initial release, Apple appears to signal that the vision and future is
 
 For GitLab customers that are building applications for multiple platforms, GitLab SaaS continues to be the right choice as the single DevOps platform. In one pipeline hosted on GitLab SaaS, a customer can execute build jobs targeting Android, Apple iOS and Windows.
 
-One of the goals of the [DevOps for Mobile Application](https://about.gitlab.com/direction/mobile/mobile-devops/) strategy is to provide high-value DevOps capabilities for enterprise mobile application development (iOS, Android). Therefore our value proposition remains strong, even in light of the new Xcode Cloud offer.
+One of the goals of the [Mobile DevOps](https://about.gitlab.com/direction/mobile/mobile-devops/) strategy is to provide high-value DevOps capabilities for enterprise mobile application development (iOS, Android). Therefore our value proposition remains strong, even in light of the new Xcode Cloud offer.
 
 
 ### Competitive Matrix

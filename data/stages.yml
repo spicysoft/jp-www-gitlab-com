@@ -2406,12 +2406,12 @@ stages:
     pm: David DeSanto
     groups:
       moble_devops:
-        name: DevOps for Mobile Apps
+        name: Mobile DevOps
         slack:
-          channel: g_mobile_devops
+          channel: mobile-devops
         categories:
           - mobile_signing_deployment
-        group_link: product/categories/#devops-for-mobile-apps-group
+        group_link: product/categories/#mobile-devops-group
 
   deploy:
     display_name: Deploy

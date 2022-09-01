@@ -4476,6 +4476,11 @@
   - /direction/memory/
   target: /direction/application_performance/
   comp_op: '~'
-
+- sources:
+  - /handbook/engineering/incubation/devops-for-mobile
+  - /handbook/engineering/incubation/devops-for-mobile/
+  - /handbook/engineering/incubation/devops-for-mobile/index.html
+  target: /handbook/engineering/incubation/mobile-devops/
+  comp_op: '='
 
 
