@@ -1,0 +1,41 @@
+---
+title: Implementation Quickstart
+suppress_header: true
+description: "Deploy and Configure an easy-to-maintain GitLab self managed instance"
+canonical_path: "/services/implementation/implementation-quick-start/"
+extra_css:
+  - services.css
+---
+
+- data.services.each do |service|
+  - if service.name == "Implementation Quickstart"
+    .wrapper
+      .simple-header
+        %h1 #{service['name']}
+        %h3.headline-subtitle
+          #{service['subtitle']}
+
+    .services-inner
+      .page-container.container
+        %ol.breadcrumb
+          %li 
+          = breadcrumbs(current_page)
+        .row
+          .col-md-10.col-md-offset-1.tile
+            %h1 Summary
+            %p.service-para
+              #{service['summary']}
+              Checkout the detailed service description in the  #{link_to 'Implementation Quickstart Statement of Work', "#{service['standard_sow']}"}
+
+            %h2 Who is this service for?
+            %p.service-para
+              #{service['whos-this-for']}
+
+            %h1 What's included?
+            %ul
+              %li #{service['whats-included0']}
+              %li #{service['whats-included1']}
+              %li #{service['whats-included2']}
+
+= partial "includes/services-contact-form"
+
