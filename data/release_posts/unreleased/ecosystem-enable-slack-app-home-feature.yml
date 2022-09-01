@@ -13,7 +13,7 @@ features:
     description: "GitLab is doubling down on Slack for our customers. As one of our
       most heavily used integrations, we're working to simplify and consolidate GitLab+Slack
       integration through the GitLab Slack App. As a best practice, the App Home in
-      each Slack serves as a communication center between App providers and Slack
+      Slack serves as a communication center between App providers and Slack
       users, and this will be a key area for us to communicate new and upcoming features,
       as well as orient new users to the features that are already available with
       rich content, such as gif walkthroughs. \n\nWith this release, we'll be enabling
