@@ -622,7 +622,8 @@
     - /handbook/engineering/development/dev/plan-portfolio-management-be/
     - /handbook/engineering/development/dev/plan-product-planning-certify-be/
     - /handbook/engineering/development/dev/plan/plan-product-planning-certify-be/
-  target: /handbook/engineering/development/dev/plan/product-planning-certify/
+    - /handbook/engineering/development/dev/plan/product-planning-certify/
+  target: /handbook/engineering/development/dev/plan/product-planning/
   comp_op: '='
 - sources:
     - /handbook/engineering/dev-backend/plan/
