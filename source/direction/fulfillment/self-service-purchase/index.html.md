@@ -13,7 +13,7 @@ canonical_path: "/direction/fulfillment/self-service-purchase/"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
  
-Last reviewed: 2022-08
+Last reviewed: 2022-09
 
 ## Fulfillment: Self-Service Purchase Overview
 
@@ -61,7 +61,7 @@ still need to validate the following via research:
 
 ### Timeline
 
-- FY'23-Q3: Validate user and business problems. Make [vendor no-go / go decision](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service). Define MVP.
+- FY'23-Q3: Validate user and business problems. Make [vendor no-go / go decision](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service). Conduct proof of concept via testing handful of use cases in Sandbox environment. Define MVP. Note: this work could slip into Q4.
 - FY'23-Q4: Assuming we pick a vendor, execute upon MVP.
 - FY'24-Q1: Vendor integration, build & launch.
 - FY'24-Q2: Vendor integration, build & launch.
@@ -74,7 +74,7 @@ From our [fulfillment direction](https://about.gitlab.com/direction/fulfillment/
 
 1. **Severity of problem / size of opportunity** - How often is the persona encountering their problem? Are there any workarounds today? Does a vendor solve that problem? Does a vendor provide new opportunities we don't have today?
 3. **Time to market** - When might we be able to unlock business requirements; both paths (vendor, no vendor) are similar in time to execute, save more in outyears vs initial build out. 
-5. **Scope/opportunity cost** - Engineering capacity can be reapplied to other critical initiatives; offload compliance and operational support to a vendor; How much does it cost to maintain x,y,z. What is the boring solution?
+5. **Scope / opportunity cost** - Engineering capacity can be reapplied to other critical initiatives; offload compliance and operational support to a vendor; How much does it cost to maintain x,y,z? What is the boring solution? Will a vendor scale with us in the future?
 6. **Costs** - Additional hires to deliver necessary e-commerce functionality, while maintaining momentum on other initiatives. 
 7. **Risk** - Is either pathway (vendor v. no vendor) more or less risky?
 
