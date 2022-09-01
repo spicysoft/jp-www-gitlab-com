@@ -866,7 +866,7 @@ stages:
     sam_driver_score: 2
     stage_development_spend_percent: 3.5
     analyst_reports:
-    pm: Kenny Johnston
+    pm: Viktor Nagy
     section: ops
     slack:
       channel: s_package
@@ -1184,7 +1184,7 @@ stages:
     section: ops
     slack:
       channel: s_release
-    pm: Kevin Chu
+    pm: Viktor Nagy
     handbook: product/categories/#release-stage
     groups:
       release:
@@ -1250,7 +1250,7 @@ stages:
     stage_development_spend_percent: 4.7
     related:
       - "release"
-    pm: Kevin Chu
+    pm: Viktor Nagy
     pmm: Saumya Upadhyaya
     pdm:
       - Justin Mandell
