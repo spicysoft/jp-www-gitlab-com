@@ -1620,7 +1620,7 @@ insider_threat:
   description: "Insider Threat identifies attacks and high risk behaviors by correlating different data sources and observing behavioral patterns"
   maturity: minimal
   available: 2019-06-22
-  viable: 2022-12-22
+  viable: 2023-03-22
   complete: 2023-12-22
   lovable: 2024-12-22
   marketing: false
@@ -1638,7 +1638,7 @@ instance_resiliency:
   description: "We want to prevent malicious activity from occurring within GitLab Instances."
   roi: true
   available: 2021-06-01
-  viable: 2022-03-01
+  viable: 2022-12-01
   complete: 2023-04-01
   lovable: 2025-12-01
   maturity: minimal
