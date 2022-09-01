@@ -19,7 +19,4 @@ features:
       rich content, such as gif walkthroughs. \n\nWith this release, we'll be enabling
       the Slack App home with a quick orientation to the GitLab App, which will set
       the stage for more to come. Want to learn more about our plans and weigh in?
-      [Visit our Slack epic](https://gitlab.com/groups/gitlab-org/-/epics/7536).\n\nEnabling
-      the App home _seems_ like low and adds a lot of value: \n\n1. It will make it
-      obvious that the app is installed\n2. Having some announcements in the App home
-      would be a great way to show that we are actively working on making it better.\n"
+      [Visit our Slack epic](https://gitlab.com/groups/gitlab-org/-/epics/7536)."
