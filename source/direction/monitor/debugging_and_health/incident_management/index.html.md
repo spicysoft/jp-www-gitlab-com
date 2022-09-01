@@ -17,11 +17,11 @@ While downtime avoidance is preferable, downtime is not avoidable. As such, it i
 The majority of investment and focus of the DevOps industry (including GitLab) to date has been on downtime avoidance. There are some entrenched competitors approaching incident management from the perspective of workflows (ServiceNow), or incident notification (Pager Duty, OpsGenie). Despite this, holistic incident management products are lacking resulting in many organizations stitching together point solutions mixed with a healthy dose of DIY. We believe that many organizations are looking for ways to avoid reinventing the wheel on incident management
 
 ### Demo
-Check out this shor demo that highlights what we've built so far.
+Check out this short demo that highlights what we've built so far.
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="https://youtu.be/MIjGyoTh7hQ" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/MIjGyoTh7hQ" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
 
