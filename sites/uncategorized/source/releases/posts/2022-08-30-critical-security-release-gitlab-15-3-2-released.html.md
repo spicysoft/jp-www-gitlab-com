@@ -141,9 +141,9 @@ Thanks [elise](https://gitlab.com/elise) for reporting this vulnerability.
 
 <!-- https://gitlab.com/gitlab-org/gitlab/-/issues/361982 -->
 
-A potential DOS vulnerability was discovered in GitLab CE/EE affecting all versions before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. Malformed content added to the issue description could have been used to trigger high CPU usage. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N`, 6.5). It is now mitigated in the latest release and will update this blog post with a CVE  when it is assigned.
+A potential DOS vulnerability was discovered in GitLab CE/EE affecting all versions before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. Malformed content added to the issue description could have been used to trigger high CPU usage. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`, 7.5). It is now mitigated in the latest release and will update this blog post with a CVE  when it is assigned.
 
-Thanks [ryhmnlfj](https://hackerone.com/ryhmnlfj) for reporting this vulnerability through our HackerOne bug bounty program.
+Thanks [legit-security](https://hackerone.com/legit-security) for reporting this vulnerability through our HackerOne bug bounty program.
 
 ## IDOR in Zentao integration leaked issue details
 
