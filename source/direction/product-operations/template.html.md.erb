@@ -11,7 +11,6 @@ canonical_path: "/direction/product-operations/"
 - TOC
 {:toc}
 
-
 ## Product Operations Overview
 
 ### What is Product Operations?
@@ -28,7 +27,7 @@ An **excellent** product operations function will design and implement systems t
 
 Product Operations at GitLab aspires for the good, the great, and the excellent! Given that all our practices and workflows are transparently published in our [handbook](http://about.gitlab.com/handbook), we have a unique opportunity to define and demonstrate what Product Operations can achieve for software companies, and we take this opportunity to heart. We run Product Operations as an independent function under the Product umbrella. This allows the function to maintain a broad and unbiased view to develop strategies/tactics serving the Product team as well as the whole business without favor toward any particular group. 
 
-We are continualy working to apply the following strategies and tactics: 
+We are continually working to apply the following strategies and tactics: 
 
 - Iterative design 
 - Asynchronous, inclusive communication 
@@ -87,40 +86,109 @@ There is no one formula for this challenge, which all maturing organizations fac
 
 **Providing access to actionable product usage data for GitLab product development teams** As GitLab's userbase grows, collecting quantitative data to identify patterns and trends while leveraging qualitative data to better understand the reason behind those patterns and trends will be key to delivering meaningful impact to customers. However, GitLab is committed to [user data privacy](https://about.gitlab.com/privacy/) and respects user-requested boundaries on data collection. Alternatives to product usage data, such as user surveys and testing can help fill some of the gaps but are not as scalable or unbiased. And while leveraging product usage data from SaaS users can yield meaningful insights for Self-managed users as well, it's not always an apples to apples comparison. We need to continually work on finding the balance between user privacy and providing the product teams access to the business intelligence they need to deliver meaningful impact to customers. Concurrently, we need to minimize the complexity and manual nature of effort needed by product development teams to access the most meaningful data available to them in the system by prioritizing instrumentation and providing standardized dashboards for teams to leverage and customize. 
 
-## Areas of Focus 
-
-The focus areas below are evergreen for Product Operations. Three year themes and and 1 year plans target improving GitLab's product system by mapping to the areas of focus below.
-
-### Operationalizing Outcome Driven Products
-We aim to minimize manual processes in favor of flexible automation that compliments existing human workflows. Doing so enables Product Division team members to operate more [efficiently](https://about.gitlab.com/handbook/values/#efficiency), spending more time delivering value to GitLab's customers and the wider community. 
-
-### Building Qualitative & Quantitative Feedback Loops
-
-We lean into opportunities to grow internal and external communication channels for GitLab's product development teams and their stable counterparts. The outcome is the collection and exposure of actionable user feedback and data that can be utilized across the business to deliver impactful [results](https://about.gitlab.com/handbook/values/#results) to GitLab's users. 
-
-### Scaling Product Knowledge
-
-We collaborate to identify best practices for product development and create [transparency](https://about.gitlab.com/handbook/values/#transparency) of knowledge across teams in an ongoing and remote-friendly way. The outcome is a collection of written, video and interactive content in the GitLab [handbook](https://about.gitlab.com/handbook/#product) that is easy to consume and adopt for GitLab's product managers as well as product managers throughout the tech community.
-
 ## 3 year Prod Ops Themes
+
+### Prod Ops as infrastructure 
 
 ### Automation is more than efficiency
 
 ### Insights to inspire iteration
 
-### Learning as infrastructure 
-
 ## 1 year Prod Ops Plan
 
-### Optimize release notes workflow and design
+### Scale up GitLab's release notes workflow and design
+_Supports [Outcome driven products](#operationalizing-outcome-driven-products)_
 
-**Increase scalability of release post workflow to communicate product release notes more efficiently.**  
+**Automate the release post workflow to communicate product release notes more efficiently.**  
 
-**Why?**  To minimize the amount of work necessary for product managers to contribute to and manage their release notes.
+**Why?**  Minimize the amount of work necessary for product managers to contribute to and manage their release notes.
 
-**Improve design of release notes and related documentation such as deprecations, removals and migrations.** 
+**How are we measuring success?**
 
-**Why?** So GitLab customers can be easily discover new features and be informed of any product changes relevant to them on time. 
+- Reduce [documentation of the Release Post](https://about.gitlab.com/handbook/marketing/blog/release-posts/) from 18,623 words to 12,000 words
+- Reduce number of manual tasks in the [monthly release post MR template] from X to X
+- Increase percent of automated ~"release post item" MRs from X to X
+
+**Improve design of release notes and related documentation such as deprecations, removals and migrations** 
+
+**Why?** Make it easier for GitLab customers to discover new features and be informed of any product changes relevant to them. 
+
+**How are we measuring success?**
+
+ - Reduce number of pages needed to find/review release notes from X to X.
+
+ ### Evolve Gitlab's  prioritization framework and supporting documentation to be more focused and personalizable.
+_Supports [Outcome driven products](#operationalizing-outcome-driven-products)_
+
+**Why?** To empower Sections, Stages and Groups by giving them clear guidance and flexibility so they can prioritize work to achieve optimal balance between product growth, product optimization and product maintenance for their customers and users.
+
+**How are we measuring success?**
+
+ -  TBD
+
+### Grow GitLab's post purchase and paid NPS surveys
+_Supports [Feedback loops](#building-qualitative--quantitative-feedback-loops)_
+
+**Automate deployment, data collection and analysis of post purchase survey to increase accuracy and efficiency.**
+
+**Why?** To funnel timely insights from from GitLab's new customers back into product improvements and investments across product management, marketing and sales teams. 
+
+**How are we measuring success?**
+
+- 90% reduction of aggregate manual work needed to perfrom/share out  quarterly analisis (from 80 hours --> 8 hours)
+- Reduce the number of manual interventions required to add PPS data to `features.yml` to 0
+- Take  manual caluculation error risk to 0%  by implementing full automation between SFDC, Qualtrics and Sisense for:
+    - quarterly feature counts
+    - all time feature counts
+    - quarterly ARR segmentation
+    - all time ARR segmentation
+
+**Expand data types collected by post purchase survey.**
+
+**Why?** Provide an more sensing mechanisms for product managers to consider for category direction, maturity and feature optimization.
+
+**How are we measuring success?**
+
+- Add 3 new data views:
+     - web direct sales to quarterly and all time feature counts
+     - Add web direct sales to ARR segmentation
+     - Add web direct sales to zero  counts summery
+
+**Grow GitLab's Paid NPS survey**
+
+- Increase the percent of Self-managed Paid NPS responses collected from from 0% to 20%
+
+### Establish thought leadership for GitLab  
+_Supports [Scaling product knowledge](#scaling-product-knowledge)_
+
+**Increase GitLab's footprint as thought leaders in Product Management and Product Operations.**
+
+**Why?** So GitLab customers and the broader tech community can benefit from and contribute to our best practices.
+
+**How are we measuring success?**
+
+- Publish at least 2 product operations authored [GitLab blog](https://about.gitlab.com/blog/) posts in FY23
+- Product operations speaks  at least one external event 
+- Increase product operations direction page views by 10% 
+- Improve romote discovery of product manager generated content by:
+     - Appying product tag to 100% of blog posts generated by product managers
+     - creating a new/separate category for product manager generated content  in the [GitLab blog](https://about.gitlab.com/blog/)
+
+### Imrove design  discoverablity  of GitLab's Produt Handbook content to increase utiltiy and user engagement. 
+_Supports [Scaling product knowledge](#scaling-product-knowledge)_
+
+**Why?** So product managers, cross-functional team members and the wider GitLab community can find helpful references and workflow to to their job. 
+
+**How are we measuring success?**
+- Reduce word count of [Product Handbook](https://about.gitlab.com/handbook/product) from X to X 
+- Increase [Learning & Development](https://about.gitlab.com/handbook/product/product-manager-role/learning-and-development/) page views by 20%
+
+## Areas of Focus 
+
+The focus areas below are evergreen for Product Operations. Three year themes and 1 year plans to improve GitLab's product system always map to the areas of focus below.
+
+### Operationalizing Outcome Driven Products
+We aim to minimize manual processes in favor of flexible automation that compliments existing human workflows. Doing so enables Product Division team members to operate more [efficiently](https://about.gitlab.com/handbook/values/#efficiency), spending more time delivering value to GitLab's customers and the wider community. 
 
 #### Recently completed
 
@@ -130,15 +198,9 @@ We collaborate to identify best practices for product development and create [tr
 
 <%= direction["prodops:direction,Product Operations,prodops:outcomes"]["all"] %>
 
-### Grow post purchase survey
+### Building Qualitative & Quantitative Feedback Loops
 
-**Automate deployment, data collection and analysis of post purchase survey to increase accuracy and efficiency.**
-
-**Why?** To funnel timely insights from from GitLab's new customers back into product improvements and investments across product management, marketing and sales teams. 
-
-**Expand data types collected by post purchase survey to include web direct sales, renewals and upgrades.**
-
-**Why?** Provide an more sensing mechanisms for product managers to consider for category direction, maturity and feature optimization.
+We lean into opportunities to grow internal and external communication channels for GitLab's product development teams and their stable counterparts. The outcome is the collection and exposure of actionable user feedback and data that can be utilized across the business to deliver impactful [results](https://about.gitlab.com/handbook/values/#results) to GitLab's users. 
 
 #### Recently completed
 
@@ -148,11 +210,9 @@ We collaborate to identify best practices for product development and create [tr
 
 <%= direction["prodops:direction,Product Operations,prodops:feedbackloops"]["all"] %>
 
-### Establish thought leadership   
+### Scaling Product Knowledge
 
-**Increase GitLab's footprint as thought leaders in Product Management and Product Operations.**
-
-**Why?** So GitLab customers and the broader tech community can benefit from and contribute to our best practices.
+We collaborate to identify best practices for product development and create [transparency](https://about.gitlab.com/handbook/values/#transparency) of knowledge across teams in an ongoing and remote-friendly way. The outcome is a collection of written, video and interactive content in the GitLab [handbook](https://about.gitlab.com/handbook/#product) that is easy to consume and adopt for GitLab's product managers as well as product managers throughout the tech community.
 
 #### Recently completed
 
@@ -170,7 +230,6 @@ The areas of ownership below highlight workflows and processes for which Product
 - [Paid NPS and Post Purchase Surveys](/direction/product-operations/#product-operations-surveys)
 - [Product development flow](https://about.gitlab.com/handbook/product-development-flow/)
 - [Product handbook](https://about.gitlab.com/handbook/product)
-- [Product manager career development, assessment and growth](https://about.gitlab.com/handbook/product/product-manager-role/product-CDF-competencies/)
 - [Product manager learning and development](https://about.gitlab.com/handbook/product/product-manager-role/learning-and-development/)
 - [Product manager onboarding and training](https://about.gitlab.com/handbook/product/product-manager-role/#product-manager-onboarding)
 - [Product manager role](https://about.gitlab.com/handbook/product/product-manager-role/) and [responsibilities](https://about.gitlab.com/handbook/product/product-manager-responsibilities/)
@@ -179,15 +238,13 @@ The areas of ownership below highlight workflows and processes for which Product
 
 ## Areas of Advisement
 
-The areas of advisement below highlight workflows and processes for which Product Operations continually acts as [trusted advisor](ADD LINK). 
+The areas of advisement below highlight workflows and processes for which Product Operations continually acts as trusted advisor. 
 
- - [GitLab working groups](ADD LINK)
- - cross-functional initiatives
- - career development 
- - team engagement and health
- - roadmaps, backlogs and prioritization
+ - [Cross-functional prioritization](https://about.gitlab.com/handbook/product/cross-functional-prioritization/)
+ - [GitLab working groups](https://about.gitlab.com/company/team/structure/working-groups/)
+ - [Product manager career development, assessment and growth](https://about.gitlab.com/handbook/product/product-manager-role/product-CDF-competencies/)
+ - [Prioritizatin framework](https://about.gitlab.com/handbook/product/product-processes/#prioritization)
 
 ## Suggesting edits to this page
 
-Product operations welcomes contributions to this page! Please feel free to raise an MR and assign to the [Product Operations PM](https://gitlab.com/fseifoddini) for collaboration. 
-
+Product operations welcomes contributions to this page! Please feel free to raise an MR and assign to the [Product Operations](https://gitlab.com/fseifoddini) for collaboration. 
