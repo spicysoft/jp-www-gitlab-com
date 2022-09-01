@@ -307,8 +307,6 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 ^[Learn at gitlab]
 /data/learn/ @cmestel
 /helpers/learn_helper.rb @cmestel
-/source/stylesheets/learn-video-carousel.css.scss @cmestel
-/source/javascripts/learn-video-carousel.js @cmestel
 /source/images/learn/ @cmestel
 /sites/uncategorized/source/learn/ @cmestel
 /sites/uncategorized/source/includes/components/video-carousel/learn-video-carousel-modal.html.haml @cmestel
