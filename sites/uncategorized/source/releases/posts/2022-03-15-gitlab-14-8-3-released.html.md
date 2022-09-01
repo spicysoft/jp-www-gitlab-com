@@ -1,19 +1,19 @@
 ---
-title: "GitLab Patch Release: 15.1.3"
+title: "GitLab Patch Release: 14.8.3"
 categories: releases
-author: Mayra Cabrera
-author_gitlab: mayra-cabrera
-author_twitter: gitlab
-description: "GitLab releases 15.1.3"
+author: John T Skarbek
+author_gitlab: skarbek
+author_twitter: gitlab # please use gitlab if you don't want to use your own
+description: "GitLab releases 14.8.3"
 tags: patch releases, releases
 ---
 
 <!-- For detailed instructions on how to complete this, please see https://gitlab.com/gitlab-org/release/docs/blob/master/general/patch/blog-post.md -->
 
-Today we are releasing version 15.1.3 for GitLab Community Edition and Enterprise Edition.
+Today we are releasing version 14.8.3 for GitLab Community Edition and Enterprise Edition.
 
 This version resolves a number of regressions and bugs in
-[this month's 15.1 release](/releases/2022/06/22/gitlab-15-1-released/) and
+[last month's 14.8 release](/releases/2022/02/22/gitlab-14-8-released/) and
 prior versions.
 
 ## GitLab Community Edition and Enterprise Edition
@@ -22,15 +22,15 @@ prior versions.
 - [Description](GitLab MR LINK)
 - [Description](GitLab MR LINK)
 -->
+* [Ensure cleanup job artifacts task does not include pipeline artifacts](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/81022)
+* [Be specific that default.md is not case-sensitive](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/81548)
+* [Fix handling of resource iteration events when deleting a User](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82060)
+* [Fix rake task to setup the Geo tracking database](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82340)
+* [Fix startup crash in Puma single mode](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82817)
+* [Removes advice not to mix p/c with compliance pipes](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82383)
+* [Move postcss to dependencies](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/82418)
+* [Doc: Update repository signing key expriation date](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/5943)
 
-* [Add praefect list virtual storages subcommand documentation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/89936)
-* [Fix flaky feature specs for "user awards emoji"](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/91630)
-* [Fix flaky repository settings spec](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92178)
-* [Fix group access dropdown failure if no subgroups are available](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/91635)
-* [Fix worker processes not starting up due to 0 processes](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6192)
-* [Ensure Ruby platform is set globally for arm64 based operating systems](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6208)
-* [Adjust worker processes to use real CPUs instead of cores](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6210)
-* [Set force_ruby_platform to true locally for Gitaly and GitLab Rails](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6212)
 <!-- {{ MERGE_REQUEST_LIST }} -->
 
 ## Important notes on upgrading
