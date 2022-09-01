@@ -48,8 +48,8 @@ Not in scope:
 | Role | Responsibility |
 | ------- | ------- |
 | GitLab Team Members | Submit the completed DR using the appropriate GitLab issue template, provide evidence | 
-| Security (AppSec or Vuln Management teams) | Complete technical review and approval of DR |
-| ISSO (Dedicated Compliance) | Complete compliance review of DR and upgrade to POA&M |
+| Security (Vulnerability Management) | Complete technical review and approval of DR |
+| ISSO (Dedicated Compliance) | Complete compliance review of DR and upgrade to POA&M if approved |
 | Authorizing official (AO) | Approve or deny DR (ultimate decision maker) |
 
 ## Procedure
@@ -65,6 +65,11 @@ If denied, a remediation plan must be developed and this item will remain on the
 
 If approved, the ISSO will notify all involved parties via the GitLab issue with any additional instructions (like updating scanners).
 
+### SLAs
+- 2 business days for internal technical review
+- 2 business days for internal compliance review
+- Between 1-30 days for AO review (timeline depending on AO)
+
 ### DR Template Definitions 
 The following definitions were adopted from the FedRAMP PMO:
 - [**False positives**](https://csrc.nist.gov/glossary/term/false_positive): An alert that incorrectly indicates that a vulnerability is present. Justified through documentation and evidence.
@@ -74,22 +79,18 @@ The following definitions were adopted from the FedRAMP PMO:
 
 ### Workflow Labels
 
-The following Deviation Request labels are used to track the Deviation Request's status:
-* FedRAMP DR Status::**Ready for review**
-* FedRAMP DR Status::**Compliance review**
-* FedRAMP DR Status::**AO approved**
-* FedRAMP DR Status::**AO denied**
-
-Vulnerabilities progressing through the Deviation Request process will be assigned the product **workflow::verification** label.
-
-### Workflow
-
 | Step | Description | Label applied to the Vulnerability Issue | Label applied to the Deviation Request Issue |
 | ------ | ------ | ------ | ------ |
 | 1 | Discover a deviation request is required for a FedRAMP-applicable vulnerability issue |  `workflow::verification` , `FedRAMP DR Status::Open` | n/a |
-| 2 | Submit a Deviation Request using the appropriate issue template for review by security engineer | _label remains unchanged_ | `FedRAMP DR Status::Ready for review`   (_applied automatically using the issue templates_) |
-| 3 | Security Compliance tracks vulnerability deviation on POA&M, and discusses with Authorizing Official during next monthly meeting | _label remains unchanged_ | `FedRAMP DR Status::Compliance review` |
-| 4 | Security Compliance informs DR requestors of AO review outcome | `FedRAMP DR Status::Closed` | `FedRAMP DR Status::AO approved`, `FedRAMP DR Status::AO denied` |
+| 2 | Submit a Deviation Request using the appropriate issue template for review by security engineer | _label remains unchanged_ | `FedRAMP DR Status::Ready for review` (_applied automatically using the issue templates_) |
+| 3 | Security (Vulnerability Management team) performs a technical review of the vulnerability and classification/justification provided in the Deviation Request | If approved, _label remains unchanged_ or if denied, `FedRAMP DR Status::Denied` | If approved `FedRAMP DR Status::Compliance review` or if denied `FedRAMP DR Status::Denied` |
+| 4 | Security Compliance reviews and if approved, tracks vulnerability deviation on POA&M and discusses with Authorizing Official during next monthly meeting | If approved _label remains unchanged_ or if denied `FedRAMP DR Status::Denied` | If approved `FedRAMP DR Status::AO review`; If denied `FedRAMP DR Status::Denied` |
+| 5 | Security Compliance seeks Authorizing Official approval during next monthly meeting | If approved `FedRAMP DR Status::Approved`; If denied `FedRAMP DR Status::Denied` | If approved `FedRAMP DR Status::AO approved`; If denied `FedRAMP DR Status::AO denied` |
+
+
+### Workflow
+
+
 
 ## Exceptions
 There are no exceptions allowed to this procedure. 
