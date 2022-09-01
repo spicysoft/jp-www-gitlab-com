@@ -1,8 +1,9 @@
+---
 name: Andrew Patterson
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/#distribution">Senior Distribution
-  Engineer, Distribution:Build</a>
+role: <a href="/job-families/engineering/development/backend/#distribution">Senior
+  Distribution Engineer, Distribution:Build</a>
 reports_to: david-mountney
 picture: andrewpatterson.jpg
 pronouns:
@@ -15,7 +16,7 @@ departments:
 - Development Department
 - Enablement Sub-department
 - Distribution Build BE Team
-specialty: Distribution
+specialty: Enablement
 expertise:
 story:
 
