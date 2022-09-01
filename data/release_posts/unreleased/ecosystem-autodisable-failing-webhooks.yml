@@ -4,7 +4,7 @@ features:
   - name: "Auto-disable Failing Webhooks"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#failing-webhooks'
     reporter: g.hickman
     stage: ecosystem
     categories: []
