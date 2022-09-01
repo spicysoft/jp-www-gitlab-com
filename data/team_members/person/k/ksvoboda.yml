@@ -1,17 +1,21 @@
 name: Kassandra Svoboda
 locality: 
 country: Remote
-role: <a href="">Manager, Quality Engineering</a>
+role: <a href="/job-families/engineering/engineering-management-quality/#manager-quality-engineering">Manager, Quality Engineering</a>, Enablement & SaaS Platform
 reports_to: tanyapazitny
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: kassandrasvoboda.jpg
+pronouns: she/her
 pronunciation:
 twitter:
-linkedin:
+linkedin: kass-svo-ctfl
 gitlab: ksvoboda
 departments:
-  - Quality
-specialty: ""
+- Engineering Function
+- Quality Department
+- Sec & Enablement QE Team
+- Enablement Section
+- SaaS Platform Section
+specialty: "Enablement & SaaS Platforms"
 expertise:
-story:
+story: Kassandra enjoys all things Quality Engineering (emphasis on pushing buttons). When not working she enjoys hiking, gaming, and kickboxing.
 
