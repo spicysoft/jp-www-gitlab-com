@@ -618,7 +618,7 @@
   access_to: Community Relations for login (password currently in 1Password). Please
     note that the tool and the wider community contribution metrics are (by design)
     public.
-  provisioner: "@cbacharakis"
+  provisioner: "Open a single person access request to the 'Bitergia' 1Password vault, tag @cbacharakis and @gitlab-com/business-technology/team-member-enablement and add the IT::To do label"
   deprovisioner: "Deprovisioning through 1Password"
   group_owner: Community Relations
   group_owner_slack_channel: "#community-relations"
