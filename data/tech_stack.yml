@@ -3146,12 +3146,12 @@
   description: "Platypus is a custom built in-house integrations platform written with nestjs and node.js. It is a central
     hub where integrations APIs and automations can be run."
   access_to: Enterprise Applications Integrations
-  provisioner: '@dparker, @karuna16'
-  deprovisioner: '@dparker, @karuna16'
+  provisioner: '@karuna16'
+  deprovisioner: '@karuna16'
   group_owner: Enterprise Applications Integrations
   group_owner_slack_channel: '#bt-integrations'
   business_owner: Christopher Nelson
-  technical_owner: Daniel Parker
+  technical_owner: Karuna Singh
   data_classification: Orange
   integration_method: null
   need_move_to_okta: null
@@ -3573,11 +3573,11 @@
   subprocessor: false
   description: "[Postman](https://postman.com) is a tool which allows developers to test API requests during development as well as writing automated tests against APIs."
   access_to: Any engineers at Gitlab
-  provisioner: '@dparker'
-  deprovisioner: '@dparker'
-  group_owner_slack_channel: '#bt-integrations'
-  business_owner: Bryan Wise
-  technical_owner: Daniel Parker
+  provisioner: '@jeffersonmartin'
+  deprovisioner: '@jeffersonmartin'
+  group_owner_slack_channel: '#it_help'
+  business_owner: Jeff Martin
+  technical_owner: Jeff Martin
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -5061,12 +5061,12 @@
   subprocessor: false
   description: "Automation of enterprise application integrations and creation of slack automations, with possibly more use cases in the future."
   access_to: Enterprise Applications - Integrations Engineering + Access Requests for other teams
-  provisioner: "@dparker, @karuna16"
-  deprovisioner: "@dparker, @karuna16"
-  group_owner: Enterprise Applications
-  group_owner_slack_channel: '#bt-integrations'
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: Enterprise Applications and IT Operations
+  group_owner_slack_channel: '#it_help'
   business_owner: Christopher Nelson
-  technical_owner: Daniel Parker
+  technical_owner: Jeff Martin, Karuna Singh
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
