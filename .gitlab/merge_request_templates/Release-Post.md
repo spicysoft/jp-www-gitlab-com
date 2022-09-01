@@ -124,7 +124,6 @@ _People:_
 - [ ] 🟢 Confirm your local dev environment is running a current version of Ruby. See Handbook section [Local dev environment setup to run content assembly script](https://about.gitlab.com/handbook/marketing/blog/release-posts/#local-dev-environment-setup-to-run-content-assembly-script). Ask the Technical Advisor for help.
   - [ ] If you have any difficulty installing dependencies, reach out to your Technical Advisor.
 - [ ] Remind the Technical Writer in Slack prep channel to not to merge in changes from `master` to the release post branch. See the `Release post branch ownership` section above for more details.
-- [ ] Encourage team members to begin contributing MVP nominations in the `#release-post`, `#community-relations`, `#mr-coaching` and `#core` Slack channels by sharing a link to the MVP Issue.
 
 ### Release post item creation reminders (`@release_post_manager`) due by the 10th
 
@@ -210,7 +209,7 @@ Note: All the `Final Content Assembly` and `Structural Check` steps happen in se
 
  **Due date: YYYY-MM-12** (12th)
 
-- [ ] Encourage team members to vote on MVP nominations in the `#release-post`, `#community-relations`, `#mr-coaching` and `#core` Slack channels by sharing a link to the MVP Issue.
+- [ ] Encourage team members to vote on MVP nominations in the `#release-post`, `#community-relations`, `#mr-coaching` and `#core` Slack channels by sharing a link to the [MVP Issue](MVP_ISSUE_LINK).
 - [ ] Remind PMs/EMs to contribute to the bugs, usability, and performance improvement MRs by commenting on the various Slack threads you initiated in `#release-post`, `#development` and `#eng-managers` by the 12th
 
 #### General Content Review due by the 14th
@@ -247,8 +246,8 @@ To easily manage and track reviewed items do the following:
 - [ ] 🟢 On the `release-X-Y` branch, add the cover image to `source/images/X_Y/X_Y-cover-image.jpg`. Tip: Be sure to use an underscore (`_`) between release numbers, not a hyphen or dash (`-`).
   - Note that as you add references to the cover image throughout the release post branch, (including for social sharing) you need to match the filename and extension **exactly**. For example, if your image in the directory is `cover_image.jpg` but in another file, you reference it as `cover_image.jpeg`, it will not display as the extension does not match, so the file will not be found.
 - [ ] 🟢 On the `release-X-Y` branch, in `sites/uncategorized/source/releases/posts/YYYY-MM-DD-gitlab-X-Y-released.html.md`, [add details about the source image](https://about.gitlab.com/handbook/marketing/blog/release-posts/#cover-image-license).
-- [ ] Choose an [MVP](https://about.gitlab.com/handbook/marketing/blog/release-posts/#mvp) for this release based on what's surfaced in the MVP issue
-  - [ ] If no MVP nominations have been added to the MVP issue by the 15th, send reminders in Slack with the link to the MVP issue. An easy way to do this is to respond to your original Slack solicitation posts and resend to the whole channel.
+- [ ] Choose an [MVP](https://about.gitlab.com/handbook/marketing/blog/release-posts/#mvp) for this release based on what's surfaced in the [MVP issue](MVP_ISSUE_LINK)
+  - [ ] If no MVP nominations have been added to the [MVP issue](MVP_ISSUE_LINK) by the 15th, send reminders in Slack with the link to the [MVP issue](MVP_ISSUE_LINK). An easy way to do this is to respond to your original Slack solicitation posts and resend to the whole channel.
   - [ ] After one or more quality nominations have been received, choose one and notify the `#release-post` channel of your choice. Use this chance to confirm that the contribution your MVP choice was nominated for will make it into this release.
 - [ ] Before handing off the bugs, usability, and performance improvements MRs to the TW lead for final review, remind PMs/EMs about the content due date by revisiting and commenting on the Slack threads you created by the 10th in `#release-post`, `#development`, and `#eng-managers`. Let them know it's the "last call" and no further contributions to the MRs will be taken after the 15th.
 - [ ] 🟢 In the threads of this MR, look for a GitLab Mattermost update, similar to [this example comment](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/78893#note_546017926). Thank the poster, then tag the [Distribution PM](https://about.gitlab.com/handbook/product/categories/#distribution-group) as an FYI and ask them to [check the box](#recurring-content-blocks) and resolve the thread.
