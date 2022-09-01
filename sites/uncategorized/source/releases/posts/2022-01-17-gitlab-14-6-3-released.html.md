@@ -1,19 +1,19 @@
 ---
-title: "GitLab Patch Release: 15.1.3"
+title: "GitLab Patch Release: 14.6.3"
 categories: releases
-author: Mayra Cabrera
-author_gitlab: mayra-cabrera
+author: Robert Speicher
+author_gitlab: rspeicher
 author_twitter: gitlab
-description: "GitLab releases 15.1.3"
+description: "GitLab releases 14.6.3"
 tags: patch releases, releases
 ---
 
 <!-- For detailed instructions on how to complete this, please see https://gitlab.com/gitlab-org/release/docs/blob/master/general/patch/blog-post.md -->
 
-Today we are releasing version 15.1.3 for GitLab Community Edition and Enterprise Edition.
+Today we are releasing version 14.6.3 for GitLab Community Edition and Enterprise Edition.
 
 This version resolves a number of regressions and bugs in
-[this month's 15.1 release](/releases/2022/06/22/gitlab-15-1-released/) and
+[last month's 14.6 release](/releases/2021/12/22/gitlab-14-6-released/) and
 prior versions.
 
 ## GitLab Community Edition and Enterprise Edition
@@ -23,14 +23,14 @@ prior versions.
 - [Description](GitLab MR LINK)
 -->
 
-* [Add praefect list virtual storages subcommand documentation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/89936)
-* [Fix flaky feature specs for "user awards emoji"](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/91630)
-* [Fix flaky repository settings spec](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92178)
-* [Fix group access dropdown failure if no subgroups are available](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/91635)
-* [Fix worker processes not starting up due to 0 processes](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6192)
-* [Ensure Ruby platform is set globally for arm64 based operating systems](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6208)
-* [Adjust worker processes to use real CPUs instead of cores](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6210)
-* [Set force_ruby_platform to true locally for Gitaly and GitLab Rails](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6212)
+* [Geo: adapt verification timed out query to use state table](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/77364)
+* [Fix migration for cases with empty strings](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/77506)
+* [Fix the order of subsequent jobs when requeuing a job](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/77528)
+* [Geo: Resolve "undefined method each_batch"](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/77676)
+* [Fix destruction of projects with pipelines](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/77941)
+* [Revert chef-acme cookbook update](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/5819)
+* [Update golang to 1.16.12](https://gitlab.com/gitlab-org/build/CNG/-/merge_requests/853)
+* [Pass knapsack generate report var to gitlab-qa](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/5818)
 <!-- {{ MERGE_REQUEST_LIST }} -->
 
 ## Important notes on upgrading

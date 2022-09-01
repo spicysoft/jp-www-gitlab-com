@@ -1,19 +1,19 @@
 ---
-title: "GitLab Patch Release: 15.1.3"
+title: "GitLab Patch Release: 14.8.1"
 categories: releases
-author: Mayra Cabrera
-author_gitlab: mayra-cabrera
+author: John T Skarbek
+author_gitlab: skarbek
 author_twitter: gitlab
-description: "GitLab releases 15.1.3"
+description: "GitLab releases 14.8.1"
 tags: patch releases, releases
 ---
 
 <!-- For detailed instructions on how to complete this, please see https://gitlab.com/gitlab-org/release/docs/blob/master/general/patch/blog-post.md -->
 
-Today we are releasing version 15.1.3 for GitLab Community Edition and Enterprise Edition.
+Today we are releasing version 14.8.1 for GitLab Community Edition and Enterprise Edition.
 
 This version resolves a number of regressions and bugs in
-[this month's 15.1 release](/releases/2022/06/22/gitlab-15-1-released/) and
+[this month's 14.8 release](/releases/2022/02/22/gitlab-14-8-released/) and
 prior versions.
 
 ## GitLab Community Edition and Enterprise Edition
@@ -23,14 +23,10 @@ prior versions.
 - [Description](GitLab MR LINK)
 -->
 
-* [Add praefect list virtual storages subcommand documentation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/89936)
-* [Fix flaky feature specs for "user awards emoji"](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/91630)
-* [Fix flaky repository settings spec](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92178)
-* [Fix group access dropdown failure if no subgroups are available](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/91635)
-* [Fix worker processes not starting up due to 0 processes](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6192)
-* [Ensure Ruby platform is set globally for arm64 based operating systems](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6208)
-* [Adjust worker processes to use real CPUs instead of cores](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6210)
-* [Set force_ruby_platform to true locally for Gitaly and GitLab Rails](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/6212)
+* [Fix toolbar buttons in Markdown field](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80919)
+* [Revert: Link by commit and name for pipeline](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/81006)
+* [Stop backup files from requiring directories to exist when skipped](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/81098)
+* [Allow assigning users with private profiles with quick-actions](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/81099)
 <!-- {{ MERGE_REQUEST_LIST }} -->
 
 ## Important notes on upgrading
