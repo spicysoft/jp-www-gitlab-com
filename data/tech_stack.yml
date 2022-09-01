@@ -4767,8 +4767,8 @@
   subprocessor: false
   description: "[UserTesting.com](https://www.UserTesting.com/) is an unmoderated usability testing service.  Product Designers and UX Researchers use UserTesting.com to conduct usability studies remotely when a moderater isn't required.  As a result, these studies can be conducted very quickly."
   access_to: Product Designers and UX Researchers
-  provisioner: '@asmolinski2'
-  deprovisioner: '@asmolinski2'
+  provisioner: '@laurenevans'
+  deprovisioner: '@j.mundy'
   group_owner: UX
   group_owner_slack_channel: '#ux'
   business_owner: Christie Lenneville
