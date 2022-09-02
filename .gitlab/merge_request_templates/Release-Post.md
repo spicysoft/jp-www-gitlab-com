@@ -380,7 +380,7 @@ In the run-up to publishing the release post on the 22nd, some release post mana
   1. [ ] Post the following message in `#backend_maintainers` on Slack:
     > I am the release post manager for XX.Y and will need help merging in the "What's new" notification following the publication of the release post. This will be a time-sensitive MR on the 22nd. Could I please request a volunteer or two to be ready and available to help merge the MR when I have it ready to go? Thanks! cc: @a_akgun
   1. [ ] The RPM will create and finalize the MR draft by 11:59 PDT on the 21st.
-  1. [ ] The RPM will tag in What's New DRIs Product Operations `@fseifoddini` and `@brhea` as Reviewers, to review and Approve.
+  1. [ ] The RPM will tag in What's New DRIs Product Operations `@fseifoddini` and `@brhea` and VP of Product `@david` as Reviewers, to review and Approve.
   1. [ ] The RPM will tag in any maintainers who respond to the above message in `#backend_maintainers` as Reviewers, to review and Approve.
   1. [ ] The RPM will merge the MR after the release post is live on the 22nd and images have been checked to load correctly locally.
 
