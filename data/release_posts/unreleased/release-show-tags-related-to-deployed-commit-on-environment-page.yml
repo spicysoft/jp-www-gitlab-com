@@ -1,0 +1,14 @@
+---
+features:
+  secondary:
+  - name: "Show tags related to deployed commit on Environment Page"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: cbalane
+    stage: release
+    categories:
+    - Release Orchestration
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/15419'
+    description: |
+      With this update, you can now easily see tags that are related to deployments and specifically, the deployed commit.
