@@ -4,13 +4,11 @@ features:
   - name: "Add associated release link to single tag page"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/releases/'
     reporter: cbalane
     stage: release
     categories:
     - Release Orchestration
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/350668'
     description: |
-      <!-- What is the problem and solution you're proposing? This content sets the overall vision for the feature and serves as the release notes that will populate in various places, including the [release post blog](https://about.gitlab.com/releases/categories/releases/) and [Gitlab project releases](https://gitlab.com/gitlab-org/gitlab/-/releases). " -->
-
-      In 15.3, you can now see the associated release when viewing a specific tag's information page. This allows you to easily know if a release has been created based on that specific tag.
+      In this update, you can now see the associated release when viewing a specific tag's information page. This allows you to easily know if a release has been created based on that specific tag.
