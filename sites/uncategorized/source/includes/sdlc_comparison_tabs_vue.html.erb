@@ -1,0 +1,1282 @@
+<% add_extra_css('sdlc-comparison-tabs.css') %>
+<% add_extra_js('libs/vue.min.js', 'sdlc-comparison-tabs-vue.js') %>
+
+<div class="sdlc-comparison-container" v-cloak>
+  <tabs>
+    <tab name="Manage"
+      v-bind:selected="true"
+      icon="manage"
+      v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/manage/'">
+      <feature-table
+        default-title="Gain visibility and insight into how your business is performing"
+        default-description="GitLab helps teams manage and optimize their software delivery lifecycle with metrics and value stream insight in order to streamline and increase their delivery velocity. Learn more about how GitLab helps to manage your end to end value stream.">
+          <feature-row
+            hover-title="Audit Management"
+            hover-description="Track important events for review and compliance such as who performed certain actions and the time they happened.">
+            <feature-link
+              title="Audit Management"
+              link="https://docs.gitlab.com/ee/administration/audit_events.html">
+            </feature-link>
+            <div class="flex-cell flex-cell-footnote">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>Across full lifecycle</h6>
+            </div>
+            <div class="flex-cell">
+              <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+            </div>
+            <div class="flex-cell flex-cell-footnote">
+              <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+              <h6>Only SCM</h6>
+            </div>
+          </feature-row>
+          <feature-row
+            hover-title="Authentication and Authorization"
+            hover-description="GitLab features multiple auth mechanisms including LDAP (including Active Directory), OmniAuth, CAS, SAML, Okta, and Authentiq.">
+            <feature-link
+              title="Authentication and Authorization"
+              link="https://docs.gitlab.com/ee/administration/auth/">
+            </feature-link>
+            <div class="flex-cell">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+            </div>
+            <div class="flex-cell">
+              <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+            </div>
+            <div class="flex-cell">
+              <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+            </div>
+          </feature-row>
+          <feature-row
+            hover-title="Workflow Policies"
+            hover-description="Create powerful custom workflows, roles and permissions that restrict an action unless certain conditions are met.">
+            <feature-link
+              title="Workflow Policies"
+              link="https://gitlab.com/groups/gitlab-org/-/epics/720">
+            </feature-link>
+            <div class="flex-cell flex-cell-footnote">
+              <a href="https://gitlab.com/groups/gitlab-org/-/epics/720" target="_blank">
+                <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+                <h6>On Roadmap</h6>
+              </a>
+            </div>
+            <div class="flex-cell">
+            </div>
+            <div class="flex-cell flex-cell-footnote">
+              <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+            </div>
+          </feature-row>
+          <feature-row
+            hover-title="Devops Score"
+            hover-description="Get an overview of how well your organization is adopting DevOps and to see the impact on your velocity.">
+            <feature-link
+              title="DevOps Score"
+              link="https://docs.gitlab.com/ee/user/instance_statistics/dev_ops_score.html">
+            </feature-link>
+            <div class="flex-cell">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+            </div>
+            <div class="flex-cell">
+            </div>
+            <div class="flex-cell">
+            </div>
+          </feature-row>
+          <feature-row
+            hover-title="Code Analytics"
+            hover-description="Monitor the health and quality of code assets and make necessary changes for continuous efficiency.">
+            <feature-link
+              title="Code Analytics"
+              link="https://about.gitlab.com/direction/manage/code-analytics/">
+            </feature-link>
+            <div class="flex-cell flex-cell-footnote">
+              <a href="https://gitlab.com/groups/gitlab-org/-/epics/717" target="_blank">
+                <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+                <h6>On Roadmap</h6>
+              </a>
+            </div>
+            <div class="flex-cell">
+            </div>
+            <div class="flex-cell">
+            </div>
+          </feature-row>
+          <feature-row
+            hover-title="Value Stream Management"
+            hover-description="Visualize, manage and optimize the flow of work through the DevOps lifecycle value stream.">
+            <feature-link
+              title="Value Stream Management"
+              link="https://about.gitlab.com/direction/manage/value_stream_management">
+            </feature-link>
+            <div class="flex-cell flex-cell-footnote">
+              <a href="https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AValue%20Stream%20Management&label_name[]=group%3A%3Aanalytics&label_name[]=devops%3A%3Amanage" target="_blank">
+                <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+                <h6>On Roadmap</h6>
+              </a>
+            </div>
+            <div class="flex-cell">
+            </div>
+            <div class="flex-cell">
+            </div>
+          </feature-row>
+          <feature-row class="feature-row-blank">
+            <feature-link></feature-link>
+            <div class="flex-cell flex-cell-footnote"></div>
+            <div class="flex-cell"></div>
+            <div class="flex-cell"></div>
+          </feature-row>
+          <feature-row class="feature-row-blank">
+            <feature-link></feature-link>
+            <div class="flex-cell flex-cell-footnote"></div>
+            <div class="flex-cell"></div>
+            <div class="flex-cell"></div>
+          </feature-row>
+          <feature-row class="feature-row-blank">
+            <feature-link></feature-link>
+            <div class="flex-cell flex-cell-footnote"></div>
+            <div class="flex-cell"></div>
+            <div class="flex-cell"></div>
+          </feature-row>
+      </feature-table>
+    </tab>
+    <tab name="Plan" icon="plan" v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/plan/'">
+      <feature-table
+        default-title="Regardless of your process, GitLab provides powerful planning tools to keep everyone synchronized"
+        default-description="GitLab enables portfolio planning and management through epics, groups (programs) and milestones to organize and track progress. Regardless of your methodology from Waterfall to DevOps, GitLab’s simple and flexible approach to planning meets the needs of small teams to large enterprises. GitLab helps teams organize, plan, align and track project work to ensure teams are working on the right things at the right time and maintain end to end visibility and traceability of issues throughout the delivery lifecycle from idea to production">
+        <feature-row
+          hover-title="Issue Tracking"
+          hover-description="Issue tracking is a tool for collaboratively developing ideas, solving problems, and planning work. Issues can allow you, your team, and your collaborators to share and discuss proposals before, and during, their implementation.">
+          <feature-link
+            title="Issue Tracking"
+            link="https://docs.gitlab.com/ee/user/project/issues/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Kanban Boards"
+          hover-description="Visually prioritize, manage, and track work execution with powerful and flexible kanban boards.">
+          <feature-link
+            title="Kanban Boards"
+            link="https://about.gitlab.com/product/kanban-boards">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Time Tracking"
+          hover-description="Estimate, track, and report on time spent on issues.">
+          <feature-link
+            title="Time Tracking"
+            link="https://about.gitlab.com/solutions/time-tracking/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Agile Portfolio Management"
+          hover-description="Plan and manage strategic portfolios, programs, and projects with multi-level work breakdown epics, roadmaps, and milestones.">
+          <feature-link
+            title="Agile Portfolio Management"
+            link="https://about.gitlab.com/product/agile-portfolio-management">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Service Desk"
+          hover-description="Connect your team using GitLab issues, to external parties directly via email for feedback and support, with no additional tools required.">
+          <feature-link
+            title="Service Desk"
+            link="https://about.gitlab.com/stages-devops-lifecycle/service-desk/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Requirement Management"
+          hover-description="Gather and manage the use cases and requirements to meet business objectives.">
+          <feature-link
+            title="Requirements Management"
+            link="https://about.gitlab.com/direction/plan/certify/">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3ARequirements%20Management" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Quality Management"
+          hover-description="Plan and track testing and quality of your product.">
+          <feature-link
+            title="Quality Management"
+            link="https://about.gitlab.com/direction/plan/quality_management">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics/671" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+      </feature-table>
+    </tab>
+    <tab name="Create" icon="create" v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/create/'">
+      <feature-table
+        default-title="Create, view, and manage code and project data through powerful branching tools"
+        default-description="GitLab helps teams design, develop and securely manage code and project data from a single distributed version control system to enable rapid iteration and delivery of business value. GitLab repositories provide a scalable, single source of truth for collaborating on projects and code which enables teams to be productive without disrupting their workflows.">
+        <feature-row
+          hover-title="Source Code Management"
+          hover-description="Source code management enables coordination, sharing and collaboration across the entire software development team. Track and merge branches, audit changes and enable concurrent work, to accelerate software delivery.">
+          <feature-link
+            title="Source Code Management"
+            link="https://about.gitlab.com/stages-devops-lifecycle/source-code-management/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Code Review"
+          hover-description="Review code, discuss changes, share knowledge, and identify defects in code among distributed teams via asynchronous review and commenting. Automate, track and report code reviews.">
+          <feature-link
+            title="Code Review"
+            link="https://about.gitlab.com/product/code-review">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Wiki"
+          hover-description="Share documentation and organization information with a built in wiki.">
+          <feature-link
+            title="Wiki"
+            link="https://docs.gitlab.com/ee/user/project/wiki/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Web IDE"
+          hover-description="A full featured Integrated Development Environment (IDE) built into GitLab so you can start contributing on day one with no need to spend days getting all the right packages installed into your local dev environment.">
+          <feature-link
+            title="Web IDE"
+            link="https://docs.gitlab.com/ee/user/project/web_ide/index.html">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Snippets"
+          hover-description="Store and share bits of code and text with other users.">
+          <feature-link
+            title="Snippets"
+            link="https://docs.gitlab.com/ee/user/snippets.html">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://about.gitlab.com/direction/create/editor/snippets/#whats-next--why" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>Multi-file and version controlled on roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Design Management"
+          hover-description="Review and share UI designs with versioning and point of interest discussions.">
+          <feature-link
+            title="Design Management"
+            link="https://docs.gitlab.com/ee/user/project/issues/design_management.html">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Live Coding"
+          hover-description="Do pair programming directly in the Web IDE.">
+          <feature-link
+            title="Live Coding"
+            link="https://about.gitlab.com/direction/create/live_coding/">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics?label_name[]=live%20coding" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+      </feature-table>
+    </tab>
+    <tab name="Verify" icon="verify" v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/verify/'">
+      <feature-table
+        default-title="Keep strict quality standards for production code with automatic testing and reporting."
+        default-description="GitLab helps delivery teams fully embrace continuous integration to automate the builds, integration and verification of their code. GitLab’s industry leading CI capabilities enables automated testing, Static Analysis Security Testing, Dynamic Analysis Security testing and code quality analysis to provide fast feedback to developers and testers about the quality of their code. With pipelines that enable concurrent testing and parallel execution, teams quickly get insight about every commit, allowing them to deliver higher quality code faster.">
+        <feature-row
+          hover-title="Pipeline Execution"
+          hover-description="Gain the confidence to ship at blistering speed and immense scale with automated builds, testing, and out-of-the-box security to verify each commit moves you forward.">
+          <feature-link
+            title="Pipeline Execution"
+            link="https://about.gitlab.com/stages-devops-lifecycle/pipeline-execution/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Code Quality"
+          hover-description="Automatically analyze your source code to surface issues and see if quality is improving or getting worse with the latest commit.">
+          <feature-link
+            title="Code Quality"
+            link="https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Load Testing"
+          hover-description="Load testing is a common and typically important stage in the CI process, ensuring changes to the app can scale before they are introduced into production. Be confident in the performance of your changes by ensuring that they are validated against real-world load scenarios.">
+          <feature-link
+            title="Load Testing"
+            link="https://about.gitlab.com/direction/verify/load_testing/">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3ALoad%20Testing" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Performance Testing"
+          hover-description="Be confident in the performance of your changes by ensuring that they are validated against real world load scenarios.">
+          <feature-link
+            title="Performance Testing"
+            link="https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="System Testing"
+          hover-description="Validate complex interactions, integration, and compatibility to ensure the reliability of the system under test.">
+          <feature-link
+            title="System Testing"
+            link="https://about.gitlab.com/direction/verify/system_testing">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3ASystem%20Testing" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Usability Testing"
+          hover-description="Testing to ensure usability flows work and are actually understandable and valuable to your users.">
+          <feature-link
+            title="Usability Testing"
+            link="https://about.gitlab.com/direction/verify/usability_testing">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AUsability%20Testing" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Accessibility Testing"
+          hover-description="Beyond being a compliance requirement in many cases, accessibility testing is the right thing to do.">
+          <feature-link
+            title="Accessibility Testing"
+            link="https://about.gitlab.com/direction/verify/accessibility_testing">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AAccessibility%20Testing" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+      </feature-table>
+    </tab>
+    <tab name="Package" icon="package" v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/package/'">
+      <feature-table
+        default-title="Create a consistent and dependable software supply chain with built-in universal package management."
+        default-description="GitLab enables teams to package their applications and dependencies, manage containers, and build artifacts with ease. The private, secure Azure Container Registry and artifact repositories are built-in and preconfigured out-of-the box to work seamlessly with GitLab source code management and CI/CD pipelines. Ensure DevOps acceleration with automated software pipelines that flow freely without interuption.">
+        <feature-row
+          hover-title="Package Registry"
+          hover-description="Every team needs a place to store their packages and dependencies. GitLab aims to provide a comprehensive solution, integrated into our single application, that supports package management for all commonly used languages and binary formats.">
+          <feature-link
+            title="Package Registry"
+            link="https://docs.gitlab.com/ee/user/project/packages/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell flex-cell-footnote">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+            <h6>Additional cost for private</h6>
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Container Registry"
+          hover-description="A secure and private registry for Docker images built-in to GitLab. Creating, pushing, and retrieving images works out of the box with GitLab CI/CD.">
+          <feature-link
+            title="Container Registry"
+            link="https://docs.gitlab.com/ee/user/packages/container_registry/index.html">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell flex-cell-footnote">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+            <h6>Additional cost for private</h6>
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Dependency Proxy"
+          hover-description="The GitLab dependency proxy can serve as an intermediary between your local developers and automation and the world of packages that need to be fetched from remote repositories. By adding a security and validation layer to a caching proxy, you can ensure reliability, accuracy, and auditability for the packages you depend on.">
+          <feature-link
+            title="Dependency Proxy"
+            link="https://about.gitlab.com/direction/package/dependency_proxy">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Helm Chart Registry"
+          hover-description="Kubernetes cluster integrations can take advantage of Helm charts to standardize their distribution and install processes. Supporting a built-in helm chart registry allows for better, self-managed container orchestration.">
+          <feature-link
+            title="Helm Chart Registry"
+            link="https://about.gitlab.com/direction/package/helm_chart_registry">
+        </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=Category%3AHelm+Chart+Registry" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell flex-cell-footnote">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+            <h6>Azure Container Registry</h6>
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+      </feature-table>
+    </tab>
+    <tab name="Secure" icon="secure" v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/secure/'">
+      <feature-table
+        default-title="Security capabilities, integrated into your development lifecycle."
+        default-description="GitLab provides Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), Container Scanning, and Dependency Scanning to help you deliver secure applications along with license compliance.">
+        <feature-row
+          hover-title="SAST"
+          hover-description="Static Application Security Testing scans the application source code and binaries to spot potential vulnerabilities before deployment using open source tools that are installed as part of GitLab. Vulnerabilities are shown in-line with every merge request and results are collected and presented as a single report.">
+          <feature-link
+            title="SAST"
+            link="https://docs.gitlab.com/ee/user/application_security/sast/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="DAST"
+          hover-description="Dynamic Application Security Testing analyzes your running web application for known runtime vulnerabilities. It runs live attacks against a *Review App*, created for every merge request as part of the GitLab's CI/CD capabilities. Users can provide HTTP credentials to test private areas. Vulnerabilities are shown in-line with every merge request.">
+          <feature-link
+            title="DAST"
+            link="https://docs.gitlab.com/ee/user/application_security/dast/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Secrets Detection"
+          hover-description="Check for credentials and secrets in commits.">
+          <feature-link
+            title="Secrets Detection"
+            link="https://gitlab.com/groups/gitlab-org/-/epics/675">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Dependency Scanning"
+          hover-description="Analyze external dependencies (e.g. libraries like Ruby gems) for known vulnerabilities on each code commit with GitLab CI/CD. This scan relies on open source tools and on the integration with Gemnasium technology (now part of GitLab) to show, in-line with every merge request, vulnerable dependencies needing updating. Results are collected and available as a single report.">
+          <feature-link
+            title="Dependency Scanning"
+            link="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Container Scanning"
+          hover-description="Check Docker images for known vulnerabilities in the application environment. Analyze image contents against public vulnerability databases using the open source tool, Clair, that is able to scan any kind of Docker (or App) image. Vulnerabilities are shown in-line with every merge request.">
+          <feature-link
+            title="Container Scanning"
+            link="https://docs.gitlab.com/ee/user/application_security/container_scanning/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="License Compliance"
+          hover-description="Upon code commit, project dependencies are searched for approved and blacklisted licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution.">
+          <feature-link
+            title="License Compliance"
+            link="https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="IAST"
+          hover-description="Interactive application security testing checks runtime behavior of applications by instrumenting the code and checking for error conditions. It is composed by an agent that lives inside the application environment, and an external component, like DAST, that can interact and trigger unintended results.">
+          <feature-link
+            title="IAST"
+            link="https://about.gitlab.com/direction/secure/dynamic-analysis/iast/">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics/344" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Fuzzing"
+          hover-description="Fuzzy testing increase chances to get results by using arbitrary payloads instead of well-known ones.">
+          <feature-link
+            title="Fuzzing"
+            link="https://about.gitlab.com/direction/secure/fuzz-testing/fuzz-testing/">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics/818" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+      </feature-table>
+    </tab>
+    <tab name="Release" icon="release" v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/release/'">
+      <feature-table
+        default-title="GitLab's integrated CD solution allows you to ship code with zero-touch, be it on one or one thousand servers."
+        default-description="GitLab helps automate the release and delivery of applications, shortening the delivery lifecycle, streamlining manual processes, and accelerating team velocity. With zero-touch Continuous Delivery (CD) built right into the pipeline, deployments can be automated to multiple environments like staging and production, and the system just knows what to do without being told - even for more advanced patterns like canary deployments. With feature flags, built-in auditing/traceability, on-demand environments, and GitLab pages for static content delivery, you'll be able to deliver faster and with more confidence than ever before.">
+        <feature-row
+          hover-title="Continuous Delivery"
+          hover-description="Deliver your changes to production with zero-touch software delivery; focus on building great software and allow GitLab CD to bring your release through your path to production for you.">
+          <feature-link
+            title="Continuous Delivery"
+            link="https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Release Orchestration"
+          hover-description="Management and orchestration of releases-as-code that supports intelligent notifications, scheduling of delivery and shared resources, blackout periods, relationships, parallelization, and sequencing, as well as support for integrating manual processes and interventions.">
+          <feature-link
+            title="Release Orchestration"
+            link="https://about.gitlab.com/direction/release/release_orchestration/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Pages"
+          hover-description="Use any static site generator to create websites that are easily managed and deployed by GitLab.">
+          <feature-link
+            title="Pages"
+            link="https://about.gitlab.com/stages-devops-lifecycle/pages/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/github-logo.svg" />
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Review Apps"
+          hover-description="Get a full production like environment for every merge request that updates on each commit. See code running and enable user acceptance testing before you merge.">
+          <feature-link
+            title="Review Apps"
+            link="https://about.gitlab.com/stages-devops-lifecycle/review-apps/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Incremental Rollout"
+          hover-description="Mitigate the risk of production deploys by deploying new production code to small subset of your fleet and then incrementally adding more.">
+          <feature-link
+            title="Incremental Rollout"
+            link="https://docs.gitlab.com/ee/topics/autodevops/index.html#incremental-rollout-to-production-premium">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Feature Flag"
+          hover-description="Feature flags enable teams to achieve CD by letting them deploy dark features to production as smaller batches for controlled testing, separating feature delivery from customer launch, and removing risk from delivery.">
+          <feature-link
+            title="Feature Flags"
+            link="https://docs.gitlab.com/ee/operations/feature_flags.html">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Release Governance"
+          hover-description="Release Governance includes features such as deploy-time security controls to ensure only trusted container images are deployed on Kubernetes Engine, and more broadly includes all the assurances and evidence collection that are necessary for you to trust the changes you're delivering.">
+          <feature-link
+            title="Release Governance"
+            link="https://about.gitlab.com/direction/release/release_governance/">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3ARelease%20Governance" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Secrets Management"
+          hover-description="Use Vault embedded in GitLab for managing your secrets both inside and outside of GitLab.">
+          <feature-link
+            title="Secrets Management"
+            link="https://about.gitlab.com/direction/release/secrets_management/">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3ASecrets%20Management" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+      </feature-table>
+    </tab>
+    <tab name="Configure" icon="configure" v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/configure/'">
+      <feature-table
+        default-title="Configure your applications and infrastructure."
+        default-description="GitLab helps teams to configure and manage their application environments. Strong integration to Kubernetes reduces the effort needed to define and configure the infrastructure required to support your application. Protect access to key infrastructure configuration details such as passwords and login information by using ‘secret variables’ to limit access to only authorized users and processes.">
+        <feature-row
+          hover-title="Auto Devops"
+          hover-description="Commit your code and GitLab does the rest to build, test, deploy, and monitor automatically. Eliminate the complexities of getting going with automated software delivery by automatically setting up the pipeline and necessary integrations, freeing up your teams to focus on the culture part.">
+          <feature-link
+            title="Auto Devops"
+            link="https://about.gitlab.com/stages-devops-lifecycle/auto-devops/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Kubernetes Configuration"
+          hover-description="Create and manage Kubernetes clusters with a few clicks. Install applications with a single click.">
+          <feature-link
+            title="Kubernetes Configuration"
+            link="https://about.gitlab.com/solutions/kubernetes/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="ChatOps"
+          hover-description="Tight integrations with Slack and Mattermost make it easy to manage and automate software development and delivery right from your chat app.">
+          <feature-link
+            title="ChatOps"
+            link="https://docs.gitlab.com/ee/ci/chatops/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Runbook Configuration"
+          hover-description="Runbooks are a collection of documented procedures that explain how to carry out a particular process, be it starting, stopping, debugging, or troubleshooting a particular system. Executable runbooks allow operators to execute pre-written code blocks or database queries against a given environment.">
+          <feature-link
+            title="Runbook Configuration"
+            link="https://docs.gitlab.com/ee/user/project/clusters/runbooks/">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Serverless"
+          hover-description="Run cloud-agnostic serverless workloads on Kubernetes, deployed via GitLab CI/CD.">
+          <feature-link
+            title="Serverless"
+            link="https://about.gitlab.com/topics/serverless//">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Infrastructure as Code"
+          hover-description="Infrastructure as code (IaC) is the practice of managing and provisioning infrastructure through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools. The definitions are stored in a version control system. IaC takes proven coding techniques and extends them to your infrastructure directly, effectively blurring the line between what is an application and what is the environment. GitLab's notion of IaC requires deep integration rather than simply calling a provided library.">
+          <feature-link
+            title="Infrastructure as Code"
+            link="https://about.gitlab.com/direction/configure/infrastructure_as_code/">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics/1925" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Cluster Cost Optimization"
+          hover-description="Optimize cloud spend and managing capacity to avoid performance degradation and application outages.">
+          <feature-link
+            title="Cluster Cost Optimization"
+            link="https://gitlab.com/groups/gitlab-org/-/epics/503">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics/503" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+      </feature-table>
+    </tab>
+    <tab name="Monitor" icon="monitor" v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/monitor/'">
+      <feature-table
+        default-title="Automatically monitor metrics so you know how any change in code impacts your production environment."
+        default-description="You need feedback on what the effect of your release is in order to do release management. Get monitoring built-in, see the code change right next to the impact that it has so you can respond quicker and effectively. No need to babysit deployment to manually get feedback. Automatically detect buggy code and prevent it from affecting the majority of your users.">
+        <feature-row
+          hover-title="Metrics"
+          hover-description="GitLab collects and displays performance metrics for deployed apps, leveraging Prometheus. Developers can determine the impact of a merge and keep an eye on their production systems, without leaving GitLab.">
+          <feature-link
+            title="Metrics"
+            link="https://about.gitlab.com/direction/monitor/apm/metrics">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Logging"
+          hover-description="GitLab makes it easy to view the logs of running pods in connected Kubernetes clusters. By displaying the logs directly in GitLab, developers can avoid having to manage console tools or jump to a different interface.">
+          <feature-link
+            title="Logging"
+            link="https://about.gitlab.com/direction/monitor/apm/logging">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Tracing"
+          hover-description="Tracing provides insight into the performance and health of a deployed application, tracking each function or microservice which handles a given request. This makes it easy to understand the end-to-end flow of a request, regardless of whether you are using a monolithic or distributed system.">
+          <feature-link
+            title="Tracing"
+            link="https://docs.gitlab.com/ee/operations/tracing.html">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Cluster Monitoring"
+          hover-description="Out-of-the-box Kubernetes cluster monitoring lets you know the health of your deployment environments with traceability back to every issue and code change as part of a single application for end-to-end DevOps.">
+          <feature-link
+            title="Cluster Monitoring"
+            link="https://about.gitlab.com/direction/monitor/debugging_and_health/cluster_monitoring">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Error Tracking"
+          hover-description="Error tracking allows developers to easily discover and view the errors that their application may be generating. By surfacing error information where the code is being developed, efficiency and awareness can be increased.">
+          <feature-link
+            title="Error Tracking"
+            link="https://about.gitlab.com/direction/monitor/debugging_and_health/error_tracking">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Incident Management"
+          hover-description="Track incidents within GitLab, providing a consolidated location to understand the who, what, when, and where of the incident. Define service level objectives and error budgets, to achieve the desired balance of velocity and stability.">
+          <feature-link
+            title="Incident Management"
+            link="https://about.gitlab.com/direction/monitor/debugging_and_health/incident_management">
+          </feature-link>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Digital Experience Management"
+          hover-description="Digital experience management includes both real user monitoring (passive) and synthetics monitoring (active) to allow developers to detect problems in end-to-end workflows and understand real-world performance as experienced by users.">
+          <feature-link
+            title="Digital Experience Management"
+            link="https://about.gitlab.com/direction/monitor/debugging_and_health/digital_experience_management">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics/168" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Status Page"
+          hover-description="Easily communicate the status of your services to users and customers.">
+          <feature-link
+            title="Status Page"
+            link="https://about.gitlab.com/direction/monitor/debugging_and_health/status_page">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics/208" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell flex-cell-footnote">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+            <h6>Azure Monitor</h6>
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+      </feature-table>
+    </tab>
+    <tab name="Govern" icon="govern" v-bind:category-href="'https://about.gitlab.com/stages-devops-lifecycle/govern/'">
+      <feature-table
+        default-title="Manage security vulnerabilities, policies, and compliance across your organization."
+        default-description="GitLab helps users manage security vulnerabilities, policies, and compliance across their organization.">
+        <feature-row
+          hover-title="Threat Detection"
+          hover-description="Detect and respond to security threats.">
+          <feature-link
+            title="Threat Detection"
+            link="https://gitlab.com/groups/gitlab-org/-/epics/744">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics/744" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell flex-cell-footnote">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+            <h6>Azure Security Center</h6>
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row
+          hover-title="Vulnerability Management"
+          hover-description="Security dashboards to help you manage vulnerabilities in your application.">
+          <feature-link
+            title="Vulnerability Management"
+            link="https://about.gitlab.com/direction/govern/threat_insights/vulnerability_management">
+          </feature-link>
+          <div class="flex-cell flex-cell-footnote">
+            <a href="https://gitlab.com/groups/gitlab-org/-/epics/797" target="_blank">
+              <img class="product-icon" src="/images/devops-tools/gitlab-logo.svg" />
+              <h6>On Roadmap</h6>
+            </a>
+          </div>
+          <div class="flex-cell flex-cell-footnote">
+            <img class="product-icon" src="/images/devops-tools/azure-logos-animated.gif" />
+            <h6>Azure Security Center</h6>
+          </div>
+          <div class="flex-cell">
+          </div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+        <feature-row class="feature-row-blank">
+          <feature-link></feature-link>
+          <div class="flex-cell flex-cell-footnote"></div>
+          <div class="flex-cell"></div>
+          <div class="flex-cell"></div>
+        </feature-row>
+      </feature-table>
+    </tab>
+  </tabs>
+</div>

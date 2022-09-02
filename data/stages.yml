@@ -117,44 +117,6 @@ stages:
         group_link: product/product-categories#workspace-group
         pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039419
 
-      compliance:
-        name: Compliance
-        pm: Sam Kerr
-        focus: Manage Compliance Paid GMAU
-        pmm: Cindy Blake
-        cm: Suri Patel
-        em: Nathan Rosandich
-        be_team_tag: Manage:Compliance BE Team
-        fe_team_tag: Manage:Compliance FE Team
-        support: TBD
-        pdm:
-          - Blair Christopher
-        ux:
-          - TBD
-        uxr:
-          - Anne Lasch
-        tech_writer: Evan Read
-        sets:
-          - TBD
-        appsec_engineer: Nick Malcolm
-        cs_team_tag: Compliance Group CS Stable Counterpart
-        internal_customers:
-          - department: Customer Support Department
-            dri: TBD
-          - department: Security Department
-            dri: TBD
-          - department: Infrastructure Department
-            dri: TBD
-        categories:
-          - audit_events
-          - compliance_management
-        usage_driver_score: 1
-        asp_driver_score: 5
-        sam_driver_score: 5
-        group_link: product/product-categories#compliance-group
-        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=9980315
-        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039422
-
       import:
         name: Import
         pm: Magdalena Frankiewicz (Acting)
@@ -1393,12 +1355,12 @@ stages:
     marketing: true
     tw: true
     image: "/images/solutions/solutions-govern.png"
-    description: "Enforce policies to discover and protect your software from vulnerabilities."
+    description: "Manage security vulnerabilities, policies, and compliance across your organization."
     body: |
-      GitLab scans cloud native environments for vulnerabilities and also provides unified security policy management.
+      GitLab helps users manage security vulnerabilities, policies, and compliance across their organization.
     direction: /direction/govern/
-    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Aprotect&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
-    established: 2019
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Agovern&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2022
     lifecycle: 1
     usage_driver_score: 1
     revenue_driver_score: 1
@@ -1482,6 +1444,44 @@ stages:
         feature_labels:
           - MR security reports
           - pipeline security reports
+
+      compliance:
+        name: Compliance
+        pm: Sam Kerr
+        focus: Govern Compliance Paid GMAU
+        pmm: Cindy Blake
+        cm: Suri Patel
+        em: Nathan Rosandich
+        be_team_tag: Govern:Compliance BE Team
+        fe_team_tag: Govern:Compliance FE Team
+        support: TBD
+        pdm:
+          - Blair Christopher
+        ux:
+          - TBD
+        uxr:
+          - Anne Lasch
+        tech_writer: Evan Read
+        sets:
+          - TBD
+        appsec_engineer: Nick Malcolm
+        cs_team_tag: Compliance Group CS Stable Counterpart
+        internal_customers:
+          - department: Customer Support Department
+            dri: TBD
+          - department: Security Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - audit_events
+          - compliance_management
+        usage_driver_score: 1
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/product-categories#compliance-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=9980315
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039422
 
   analytics:
     display_name: Analytics

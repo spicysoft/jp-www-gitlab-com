@@ -32,7 +32,7 @@ Some UX teams have documented detailed information about their ways of working a
         * [Monitor](/direction/monitor/)
 * [Enablement](/handbook/engineering/ux/stage-group-ux-strategy/enablement/) (`@gitlab-com/gitlab-ux/enablement-ux`)
 * [Sec](/direction/security/)
-    * [Secure and Protect](/engineering/ux/stage-group-ux-strategy/sec/) (`@gitlab-com/gitlab-ux/secure-protect-ux`)
+    * [Secure and Govern](/engineering/ux/stage-group-ux-strategy/sec/) (`@gitlab-com/gitlab-ux/secure-govern-ux`)
 * Growth UX
     * [How we approach experiments](/handbook/engineering/ux/ux-resources/experimentation/) 
 

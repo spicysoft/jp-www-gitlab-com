@@ -141,10 +141,9 @@ Customers aren't going to think about or ask for different "stages". They are go
 - [Monitor Demo video](https://www.youtube.com/watch?v=mm_8wVjn808&t=2s)
 - [Incident Management video](https://www.youtube.com/watch?v=f4wNjjF9NhQ)
 
-### Protect
+### Govern
 
-- [Open Source Projects](/handbook/engineering/development/protect/#open-source-projects) including [Trivy](https://github.com/aquasecurity/trivy) and [Grype](https://github.com/anchore/grype)
-- [Protect Container Security Overview Slides](https://docs.google.com/presentation/d/1xLBQljc6yRtG8ENGwjX9I7LgGj-ShtjaARZPY9WbtQs/edit#slide=id.g29a70c6c35_0_68)
+- [DevSecOps Overview Slides](https://docs.google.com/presentation/d/1XcOmwUvaSEYhj87dvHj05l3t-JuBEcLaFdhSEDvX4EY/edit)
 
 ## [Analyst Reports](/analysts/)
 

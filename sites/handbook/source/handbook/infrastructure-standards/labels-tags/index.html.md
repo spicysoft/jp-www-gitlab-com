@@ -453,7 +453,7 @@ For GitLab SaaS and infrastructure cost allocation or attribution, the Engineeri
 | `eng-dev-configure`    | [Configure Stage](https://about.gitlab.com/handbook/product/categories/#configure-stage)         |
 | `eng-dev-monitor`      | [Monitor Stage](https://about.gitlab.com/handbook/product/categories/#monitor-stage)             |
 | `eng-dev-secure`       | [Secure Stage](https://about.gitlab.com/handbook/product/categories/#secure-stage)               |
-| `eng-dev-protect`      | [Protect Stage](https://about.gitlab.com/handbook/product/categories/#protect-stage)             |
+| `eng-dev-govern`       | [Govern Stage](https://about.gitlab.com/handbook/product/categories/#govern-stage)               |
 | `eng-dev-growth`       | [Growth Stage](https://about.gitlab.com/handbook/product/categories/#growth-stage)               |
 | `eng-dev-fulfillment`  | [Fulfillment Stage](https://about.gitlab.com/handbook/product/categories/#fulfillment-stage)     |
 | `eng-dev-enablement`   | [Enablement Stage](https://about.gitlab.com/handbook/product/categories/#enablement-stage)       |
@@ -575,7 +575,7 @@ The full list of groups was last audited and updated on 2021-07-22.
 | eng-dev         | eng-quality              |                                   | eng-quality-ops-ci-cd                | |
 | eng-dev         | eng-quality              |                                   | eng-quality-secure-enablement        | |
 | eng-dev         | eng-quality              |                                   | eng-quality-productivity             | |
-| eng-dev         | eng-quality              |                                   | eng-quality-growth-protect           | |
+| eng-dev         | eng-quality              |                                   | eng-quality-growth-govern            | |
 | eng-security    | eng-security             |                                   | eng-security-shared-infra            | |
 | eng-security    | eng-security             |                                   | eng-security-shared-services         | |
 | eng-security    | eng-security             |                                   | eng-security-ops-infra               | |
