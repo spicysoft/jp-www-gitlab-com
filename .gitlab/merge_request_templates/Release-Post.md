@@ -125,9 +125,7 @@ To accommodate the tight timelines of tasks during the 18th-22nd of the month, m
   - **Please note a sync standup is always required for major releases**
 13. [ ] Review  the release post major due dates in the [standup agenda](https://docs.google.com/document/d/1LhAEBgZmSq8gs7Dm60RwqU60EZK5cafvILgQUoiakBM/edit) you created. If any fall on a weekend, Family and Friends day or other holiday, flag this to your release post team in Slack prep channel for awareness and to initiate any necessary planning to ensure smooth handoffs/completion of tasks over weekends, etc.
 14. [ ] In the `#release-post` Slack channel, remind Product Managers that all [content blocks (features, recurring, bugs, etc.)](#content-blocks) should be drafted and under review by the 10th. All direction items and notable community contributions should be included in the release post.
-15. [ ] Confirm your local dev environment is running a current version of Ruby. See Handbook section [Local dev environment setup to run content assembly script](https://about.gitlab.com/handbook/marketing/blog/release-posts/#local-dev-environment-setup-to-run-content-assembly-script). Ask the Technical Advisor for help.
-  - If you have any difficulty installing dependencies, reach out to your Technical Advisor.
-16. [ ] Remind the Technical Writer in Slack prep channel to not to merge in changes from `master` to the release post branch. See the `Release post branch ownership` section above for more details.
+15. [ ] Remind the Technical Writer in Slack prep channel to not to merge in changes from `master` to the release post branch. See the `Release post branch ownership` section above for more details.
 
 ### Release post item creation reminders (`@release_post_manager`) due by the 10th
 
@@ -280,36 +278,34 @@ To assist managers in determining whether a release contains a feature. The foll
   1. [ ] On the `release-X-Y` branch, add the MVP's name and other profile info to `data/mvps.yml`.
 - Use `/rebase` on the release post MR. If you receive an error that the rebase cannot be scheduled, resolve any conflicts appear in the merge request widget. If no conflicts appear, consult with the Tech Advisor to resolve them locally.
 1. [ ] Merge [Bug](BUG_MR_LINK) [Usability improvements](USABILITY_MR_LINK) and [Performance Improvement](PERFORMANCE_MR_LINK) MRs
-1. [ ] Perform a dry-run of the content assembly **without pushing to master** by completing the following commands:
-
-```bash
-  git checkout master
-  git pull
-  git checkout release-x-y
-  git pull
-  git merge master
-  bin/release-post-assemble
-```
-
-- You should get a list of changed files. If no errors have been detected, use `git reset --hard` to return back to your last commit.
-- If you get any errors, reach out to the Technical advisor for support and keep product operations and your TW lead informed as needed
-
-### Content assembly (`@release_post_manager`) due on the 18th
-
-**Due date: YYYY-MM-18** (18th at 8 AM PT and NO earlier)
-
 1. [ ] Ping Product Operations `@brhea` to [generate the deprecations and removals indexes](https://about.gitlab.com/handbook/marketing/blog/release-posts/index.html#adding-deprecations-and-removals-index-to-www-gitlab-com).
   1. The release post manager will proceed with their tasks as this task will be completed by `@brhea` asyncrhonously prior to the publication date.
   1. However, if `@brhea` will be unavailable from the 18th through the 20th, collaborate with your technical advisor to complete the following steps yourself:
     1. [ ] Run `bin/rake gitlab:docs:write_deprecations` in the `gitlab` repo `@brhea`
     1. [ ] Run `bin/rake gitlab:docs:write_removals` in the `gitlab` repo `@brhea`
     1. [ ] Copy and paste the output files to the `data` directory in this repo `@brhea`
-1. [ ] Post in Slack `#release-post` notifying the team content assembly has begun and any un-merged MRs should no longer be merged to `master`. Point them to this link for info on how to merge MRs after content assembly has begun `https://about.gitlab.com/handbook/marketing/blog/release-posts/#adding-editing-or-removing-merged-content-blocks-after-the-18th-and-before-the-22nd`
-  1. [ ] Perform **final content assembly** by pulling all content block MRs merged to `master` into the release post branch [following these instructions in the handbook](https://about.gitlab.com/handbook/marketing/blog/release-posts/#content-assembly-merging-release-post-items-content-blocks-to-your-branch).
+1. [ ] Paste the following message in `#release-post`
 
-1. [ ] Do a visual check of the `release-X-Y` content block and image folders to make sure paths and names are correct
-1. [ ] Make sure the **View App** button shows up in the MR as expected
+  ```md
+  @product-team 📣 Content assembly 📣
+
+  1. Content assembly will happen via automation on the 18th at 4 pm UTC (11 am ET / 8 am PT)
+  1. Any un-merged MRs after that time should no longer target `master`
+  1. Follow the steps here if you need to merge your items after the automation has run: `https://about.gitlab.com/handbook/marketing/blog/release-posts/#adding-editing-or-removing-merged-content-blocks-after-the-18th-and-before-the-22nd`
+
+  cc: @fseifoddini @brhea
+  ```
+
+### Content assembly (`@release_post_manager`) due on the 18th
+
+**Due date: YYYY-MM-18** at **4 pm UTC (11 am ET / 8 am PT)** and NO earlier
+
+1. [ ] Verify the presence of .yml files in the `X_Y` data directory: `data/release_posts/X_Y/`
+1. [ ] Verify the absence .yml files in the `unreleased` data directory: `data/release_posts/unreleased/`
+1. [ ] Verify the presence of image files in the `X_Y` image directory: `source/images/X_Y/`
+1. [ ] Verify the absence of image files in the `unreleased` image directory: `source/images/unreleased/`
 1. [ ] Do a visual check of the blog post and ordering of content blocks for secondary items to confirm they are grouped by stage in descending alphabetical order.
+  - If any of the steps above cannot be verified, content assembly may have failed. Mention `@brhea` and `@tech_advisor` in a comment on this MR and in `#x-y-release-post-prep` and proceed with the steps below. Optionally, you may choose to move the files manually by following the [steps outlined here](https://about.gitlab.com/handbook/marketing/blog/release-posts/manual-release-post-kickoff/#if-the-content-assembly-bot-fails).
 1. [ ] Update the release post intro in the `sites/uncategorized/source/releases/posts/YYYY-MM-DD-gitlab-X-Y-released.html.md` with 4 primary features to highlight. To do this:
   1. [ ] Make sure to remove the backticks around the features
   1. [ ] Link the release post items mentioned in the intro to the item blocks within the release post. For example, for a feature named `"Define test cases in GitLab"`, the link from the introduction should point to `#define-test-cases-in-gitlab`.
@@ -334,11 +330,10 @@ You will be updating the contents of the `card` block that has `event_type: "Rel
   1. [ ] Ping `@mpreuss22` or `@justin.vetter` in `#digital-experience-team` on Slack to review the changes, with a [link to your MR](BUYER_EXPERIENCE_LINK).
 
 1. [ ] Ensure that the social media sharing text for the click to tweet button on the bottom of the release post page is available in the introduction of the release post page.
-1. [ ] Notify the PM team in the `#release-post` channel that final content assembly has happened and all work must now shift from `master` to the release post branch via coordination with the release post manager.
-  1. Include a link to how to merge MRs after the 18th `https://about.gitlab.com/handbook/marketing/blog/release-posts/#adding-editing-or-removing-merged-content-blocks-after-the-18th-and-before-the-22nd`
-  1. Include a link to the review app (**View App**) page, asking them to make sure all their content is showing up as expected with correct image/video links, etc.
 
 ### Hand off for TW review (`@release_post_manager`) due on the 18th
+
+TW review cannot proceed if content assembly is incomplete. Only perform these steps if the content assembly verification you performed above has passed.
 
 **Due date: YYYY-MM-18**
 
