@@ -311,17 +311,23 @@ To assist managers in determining whether a release contains a feature. The foll
   1. [ ] Replace the `XX` in `We thank our community for the XX contributions` with the count of merged milestones found in [this query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Community+contribution&milestone_title=X.Y&scope=all&sort=popularity&state=merged). Remove the backticks as well.
   1. [ ] Change the entry for the [top feature](https://about.gitlab.com/handbook/marketing/blog/release-posts/#top-feature) from `primary` to `top` based on the feedback from VP of Product `@david`.
     1. If you did not receive feedback, you may either choose the feature you recommended or solicit feedback from `@product-team` in `#release-post`.
-1. [ ]  Create a new "draft" merge request with changes to [this file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/index.yml)
-  1. [ ] Because the MR wil be live on the homepage when merged, make a note in the description that it shouldn't be merged until the release date.
-  1. [ ] Find the `resource_card_block` and notice that there are a number of `cards` objects nested within it.
-  1. [ ] Find the `card` with `event_type: "Release"` and make the following changes.
+
+1. [ ] **Update the yml block that will announce the release post after it is published.**
+
+The release post kickoff task has already created a branch and MR in the project that generates the homepage. But, you will need to update a few fields with information about this release post.
+
+You will be updating the contents of the `card` block that has `event_type: "Release"`.
+
+  1. [ ] [Follow this link](https://gitlab.com/-/ide/project/gitlab-com/marketing/digital-experience/buyer-experience/edit/X-Y-release-post-changes/-/content/index.yml#:~:text=event_type%3A%20Release%0A) to edit the contents of `index.yml` in the `X-Y-release-post-changes` branch.
+    1. (If the link doesn't take you directly to the section to edit, use your browser's find command to search for `event_type: "Release"` to quickly locate the yml block you will be updating.)
   1. [ ] Update `header` and `data_ga_name` with a copy/paste of the blog title. For example, `GitLab X.X released with Feature A and Feature B`.
   1. [ ] Update the `href` line with the URL of the blog. For example, `/releases/2021/06/22/gitlab-14-0-released/`.
   1. [ ] Update `image` (line 119) to the current version (note that we have pre-made all 15_*.png images, anything beyond that may need a design resource). Example: `/nuxt-images/home/resources/15_1.png`
-  1. [ ] Add `@mpreuss22` and an engineer on the [Digital Experience team - Conversion Group](https://about.gitlab.com/handbook/marketing/digital-experience/#groups-metrics--team-members) as a Reviewer (commonly, `@justin.vetter` or `@tywilliams`).
-  1. [ ] Ping `@mpreuss22` or `@justin.vetter` in `#digital-experience-team` on Slack to review the changes, with a link to your MR.
-1. [ ] Ensure that the social media sharing text for the click to tweet button on the bottom of the release post is available in the introduction.
+  1. [ ] Commit your changes with a commit message of "Updates to release post homepage content"
+  1. [ ] Add `@mpreuss22` and an engineer on the [Digital Experience team  Conversion Group](https://about.gitlab.com/handbook/marketing/digital-experience/#groups-metrics--team-members) as a Reviewer (commonly, `@justin.vetter` or `@tywilliams`).
+  1. [ ] Ping `@mpreuss22` or `@justin.vetter` in `#digital-experience-team` on Slack to review the changes, with a [link to your MR](BUYER_EXPERIENCE_LINK).
 
+1. [ ] Ensure that the social media sharing text for the click to tweet button on the bottom of the release post page is available in the introduction of the release post page.
 1. [ ] Notify the PM team in the `#release-post` channel that final content assembly has happened and all work must now shift from `master` to the release post branch via coordination with the release post manager.
   1. Include a link to how to merge MRs after the 18th `https://about.gitlab.com/handbook/marketing/blog/release-posts/#adding-editing-or-removing-merged-content-blocks-after-the-18th-and-before-the-22nd`
   1. Include a link to the review app (**View App**) page, asking them to make sure all their content is showing up as expected with correct image/video links, etc.
