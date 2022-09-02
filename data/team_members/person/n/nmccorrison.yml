@@ -2,7 +2,7 @@
 name: Neil McCorrison
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/frontend/manager/">Frontend Engineering
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering
   Manager, Govern:Threat Insights, Govern:Security Policies</a>
 reports_to: pcalder
 picture: neilmccorrison.jpg
@@ -12,6 +12,7 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
+- Govern Sub-department
 - Govern:Threat Insights FE Team
 - Frontend
 story: 'Neil is a Colorado native and is passionate about building web applications.  He,

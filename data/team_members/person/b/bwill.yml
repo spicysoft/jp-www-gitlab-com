@@ -2,7 +2,7 @@
 name: Brian Williams
 locality:
 country: Remote
-role: <a href="/job-families/engineering/backend-engineer/">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/backend-engineer/">Senior Backend Engineer, Govern:Threat Insights</a>
 reports_to: thiagofigueiro
 picture: bwill.jpg
 pronouns: he/him/they/them
@@ -14,6 +14,8 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
+- Govern Sub-department
+- Govern backend capability
 - Govern:Threat Insights BE Team
 - Merge Request Coach
 specialty:

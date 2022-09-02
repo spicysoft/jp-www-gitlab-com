@@ -4,7 +4,7 @@ locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
   Govern:Threat Insights</a>
-reports_to: thiagofigueiro
+reports_to: nmccorrison
 picture: subashischakraborty.jpg
 pronouns: he/him
 projects:
@@ -20,6 +20,8 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
+- Govern Sub-department
+- Govern backend capability
 - Govern:Threat Insights BE Team
 - Backend
 expertise:

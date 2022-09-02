@@ -2,7 +2,7 @@
 name: Dominic Bauer
 locality:
 country: Remote
-role: <a href="/job-families/engineering/backend-engineer/">Backend Engineer</a>
+role: <a href="/job-families/engineering/backend-engineer/">Backend Engineer, Govern:Security Policies</a>
 reports_to: thiagofigueiro
 picture: dominicbauer.jpg
 pronouns: he/him
@@ -11,6 +11,8 @@ departments:
 - Engineering Function
 - Development
 - Sec Section
+- Govern Sub-department
+- Govern backend capability
 - Govern:Security Policies BE Team
 story: |
   Dominic is a software developer with a preference for simplicity. Away from
