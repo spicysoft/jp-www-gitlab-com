@@ -2,8 +2,7 @@
 name: Thiago Figueiró
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/#backend-manager-engineering">Backend
-  Engineering Manager, Govern:Threat Insights, Govern:Security Policies</a>
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering Manager, Govern:Threat Insights, Govern:Security Policies</a>
 reports_to: pcalder
 picture: thiagofigueiro.jpg
 twitter:
@@ -12,6 +11,7 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
+- Govern Sub-department
 - Backend
 story: |
   Thiago was born in Brazil and graduated as a Computer Engineer in Rio de Janeiro, then

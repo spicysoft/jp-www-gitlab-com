@@ -1067,6 +1067,8 @@ stages:
     tw: true
     established: 2021
     pm: Jensen Stava
+    em:
+      - Phil Calder
     groups:
       anti-abuse:
         name: Anti-Abuse
@@ -1372,6 +1374,8 @@ stages:
       - "secure"
       - "manage"
     section: sec
+    em:
+      - Phil Calder
     slack:
       channel: s_govern
     gitlab_group: gitlab-org/govern
@@ -1382,8 +1386,9 @@ stages:
         pm: Sam White
         focus: Security Policies Paid GMAU
         pmm: Cindy Blake
-        backend_engineering_manager: Thiago Figueiró
-        frontend_engineering_manager: Neil McCorrison
+        fullstack_managers:
+          - Thiago Figueiró
+          - Neil McCorrison
         be_team_tag: Govern:Security Policies BE Team
         fe_team_tag: Govern:Security Policies FE Team
         appsec_engineer: Nikhil George
@@ -1416,8 +1421,9 @@ stages:
         pm: Matt Wilson
         focus: Threat Insights Paid GMAU
         pmm: Cindy Blake
-        backend_engineering_manager: Thiago Figueiró
-        frontend_engineering_manager: Neil McCorrison
+        fullstack_managers:
+          - Thiago Figueiró
+          - Neil McCorrison
         be_team_tag: Govern:Threat Insights BE Team
         fe_team_tag: Govern:Threat Insights FE Team
         support: Greg Myers

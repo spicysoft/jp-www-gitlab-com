@@ -63,6 +63,7 @@
         <% groupLine << "Product Sponsor: [#{group.product_sponsor}]" if group.product_sponsor %>
         <% groupLine << "Product Marketing Manager: [#{group.pmm}]" if group.pmm %>
         <% groupLine << "Engineering Manager: [#{group.em}]" if group.em %>
+        <% groupLine << "Fullstack Managers: " + Array(group.fullstack_managers).map{ |fem| "[#{fem}]"}.join(", ") if group.fullstack_managers %>
         <% groupLine << "Support: " + Array(group.support).map{ |support| "[#{support}]"}.join(", ") if group.support %>
         <% groupLine << "Backend Engineering Manager: [#{group.backend_engineering_manager}]" if group.backend_engineering_manager %>
         <% groupLine << "Frontend Engineering Manager: [#{group.frontend_engineering_manager}]" if group.frontend_engineering_manager %>
