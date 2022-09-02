@@ -58,7 +58,6 @@ While preparing for the Retrospective Discussion:
 | --------------------------- | --------------------------------------- | :-------------: | :-------------: | :---------: | :----------: |
 | Manage:Authentication and Authorization | @m_gill                      | @badnewsblair   | @hsutor         |  |  |
 | Manage:Optimize             | @m_gill                                 | @badnewsblair   | @hsnir1         |  |  |
-| Manage:Compliance           | @dennis                                 | @badnewsblair   | @stkerr         |  |  |
 | Manage:Import               | @wortschi                               | @badnewsblair   | @ogolowinski    |  |  |
 | Manage:Workspace            | @mksionek                               | @badnewsblair   | @clohr          |  |  |
 | Plan                        | @donaldcook + @johnhope                 | @badnewsblair   | @gweaver + @mushakov |  |  |
@@ -79,8 +78,9 @@ While preparing for the Retrospective Discussion:
 | Secure:Composition Analysis | @gonzoyumo + @nmccorrison               | @jmandell       | @sam.white |  |  |
 | Secure:Dynamic Analysis     | @sethgitlab + @nmccorrison              | @jmandell       | @derekferguson  |  |  |
 | Secure:Static Analysis      | @twoodham + @nmccorrison                | @jmandell       | @@connorgilbert |  |  |
-| Secure:Threat Insights      | @lkerr + @thiagocsf                     | @jmandell       | @matt_wilson    |  |  |
-| Protect:Container Security  | @lkerr + @thiagocsf                     | @jmandell       | @sam.white      |  |  |
+| Govern:Threat Insights      | @nmccorrison + @thiagocsf               | @jmandell       | @matt_wilson    |  |  |
+| Govern:Security Policies    | @nmccorrison + @thiagocsf               | @jmandell       | @sam.white      |  |  |
+| Govern:Compliance           | @nrosandich                             | @jmandell       | @stkerr         |  |  |
 | Database                    | @craig-gomes                            | -               | @fzimmer        |  |  |
 | Distribution                | @mendeni                                | @mvanremmerden  | @dorrino        |  |  |
 | Global Search               | @changzhengliu                          | @mvanremmerden  | @JohnMcGuire    |  |  |

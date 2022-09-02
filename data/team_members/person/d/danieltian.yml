@@ -1,0 +1,32 @@
+---
+name: Daniel Tian
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/#senior-frontend-engineer">Senior
+  Frontend Engineer, Govern:Threat Insights</a>
+reports_to: nmccorrison
+picture: danieltian.jpg
+twitter:
+gitlab: dftian
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Govern:Threat Insights FE Team
+- Frontend
+- Merge Request Coach
+projects:
+  gitlab: reviewer frontend
+expertise: |
+  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
+story: 'Daniel has lived in Hawaii for most of his life and has been working on web
+  applications ever since graduating with a degree in Computer Science. He is passionate
+  about gaming and has worked for multiple gaming companies in the past before joining
+  GitLab. During his free time, he enjoys discovering new games, browsing Reddit,
+  and learning how to be a good parent for his daughter.
+
+  '
+specialty:
+- 'Govern: Threat Insights'
+

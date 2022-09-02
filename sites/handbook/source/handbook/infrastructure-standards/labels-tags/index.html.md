@@ -499,7 +499,6 @@ The full list of groups was last audited and updated on 2021-07-22.
 | infra-shared-services | wg-infra-shared-services |                             | wg-infra-shared-services [^2]        | |
 | eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-shared-infra          | |
 | eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-access                | |
-| eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-compliance            | |
 | eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-import                | |
 | eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-optimize [^1]         | |
 | eng-dev         | eng-dev                  | eng-dev-plan                      | eng-dev-plan-shared-infra            | |
@@ -534,10 +533,11 @@ The full list of groups was last audited and updated on 2021-07-22.
 | eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-dynamic-analysis      | |
 | eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-composition-analysis  | |
 | eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-fuzz-testing          | |
-| eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-threat-insights       | |
 | eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-research              | |
-| eng-dev         | eng-dev                  | eng-dev-protect                   | eng-dev-protect-shared-infra         | |
-| eng-dev         | eng-dev                  | eng-dev-protect                   | eng-dev-protect-container-security   | |
+| eng-dev         | eng-dev                  | eng-dev-govern                    | eng-dev-govern-shared-infra          | |
+| eng-dev         | eng-dev                  | eng-dev-govern                    | eng-dev-govern-security-policies     | |
+| eng-dev         | eng-dev                  | eng-dev-govern                    | eng-dev-govern-threat-insights       | |
+| eng-dev         | eng-dev                  | eng-dev-govern                    | eng-dev-govern-compliance            | |
 | eng-dev         | eng-dev                  | eng-dev-modelops                  | eng-dev-modelops-shared-infra [^2]   | |
 | eng-dev         | eng-dev                  | eng-dev-modelops                  | eng-dev-modelops-applied-ml [^2]     | |
 | eng-dev         | eng-dev                  | eng-dev-modelops                  | eng-dev-modelops-ml-ops [^2]         | |

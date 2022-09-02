@@ -982,7 +982,7 @@ gitlab-vscode-extension:
     The extension supports searching and reviewing MRs, controlling pipelines and
     more. The project is also called GitLab Workflow.
 
-protect-container-scanning:
+secure-container-scanning:
   name: Container Scanning
   path: gitlab-org/security-products/analyzers/container-scanning
   link: https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning

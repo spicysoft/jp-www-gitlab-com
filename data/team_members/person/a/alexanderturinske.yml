@@ -4,7 +4,7 @@ placeholder: true
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer,
-  Protect:Container Security</a>
+  Govern:Security Policies</a>
 reports_to: nmccorrison
 picture: aturinske.jpg
 mentor: true
@@ -14,7 +14,7 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
-- Protect:Container Security FE Team
+- Govern:Security Policies FE Team
 - Frontend
 - Merge Request Coach
 projects:
@@ -30,5 +30,5 @@ story: "Alexander grew up in Wisconsin and has lived in Atlanta, San Francisco, 
   \nwhere they take turns cooking dinner. In his spare time he reads, runs, rock \nclimbs,
   plays with his cat and tries to build his tolerance to spice.\n"
 specialty:
-- 'Protect: Container Security'
+- 'Govern: Security Policies'
 

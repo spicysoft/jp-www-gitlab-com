@@ -174,9 +174,9 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/development/ops/monitor/observability/ @nicholasklick @mappelman
 /sites/handbook/source/handbook/engineering/development/sec/ @whaber @twoodham @mark.art @pcalder
 /sites/handbook/source/handbook/engineering/development/sec/anti-abuse/ @jayswain @pcalder
-/sites/handbook/source/handbook/engineering/development/sec/protect/ @thiagocsf @nmccorrison @pcalder
+/sites/handbook/source/handbook/engineering/development/sec/govern/ @thiagocsf @nmccorrison @pcalder
 /sites/handbook/source/handbook/engineering/development/sec/secure/ @whaber @twoodham @mark.art @pcalder
-/sites/handbook/source/handbook/engineering/development/sec/secure/threat-insights/ @thiagocsf @nmccorrison @pcalder
+/sites/handbook/source/handbook/engineering/development/sec/govern/threat-insights/ @thiagocsf @nmccorrison @pcalder
 /sites/handbook/source/handbook/engineering/development/sec/secure/vulnerability-research/ @whaber @mark.art
 /sites/handbook/source/handbook/engineering/frontend/ @timzallmann
 /sites/handbook/source/handbook/engineering/development/shadow/ @whaber
@@ -490,9 +490,6 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/manage/ @ogolowinski @gl-product-leadership
 /source/direction/manage/auth/ @ogolowinski @hsutor @gl-product-leadership
 /source/direction/manage/subgroups/ @ogolowinski @gl-product-leadership
-/source/direction/manage/compliance/ @ogolowinski @stkerr @gl-product-leadership
-/source/direction/manage/compliance/audit-events/ @ogolowinski @stkerr @gl-product-leadership
-/source/direction/manage/compliance/compliance-management/ @ogolowinski @stkerr @gl-product-leadership
 /source/direction/manage/importers/ @ogolowinski @gl-product-leadership
 /source/direction/manage/internationalization/ @ogolowinski @gl-product-leadership
 /source/direction/manage/devops-reports/ @hsnir1 @ogolowinski @gl-product-leadership
@@ -548,10 +545,13 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/secure/vulnerability-research/advisory-database/ @hbenson
 /source/direction/secure/composition-analysis/dependency-scanning/ @sam.white @hbenson
 /source/direction/secure/composition-analysis/license-compliance/ @sam.white @hbenson
-/source/direction/secure/vulnerability_management/ @matt_wilson @hbenson
-/source/direction/protect/ @sam.white @hbenson
-/source/direction/protect/security_orchestration/ @sam.white @hbenson
-/source/direction/protect/container-scanning/ @sam.white @hbenson
+/source/direction/secure/composition-analysis/container-scanning/ @sam.white @hbenson
+/source/direction/govern/threat_insights/vulnerability_management/ @matt_wilson @hbenson
+/source/direction/govern/ @sam.white @hbenson @stkerr @matt_wilson
+/source/direction/govern/security_policies/security_policy_management/ @sam.white @hbenson
+/source/direction/govern/compliance/ @stkerr @hbenson
+/source/direction/govern/compliance/audit-events/ @stkerr @hbenson
+/source/direction/govern/compliance/compliance-management/ @stkerr @hbenson
 /source/direction/anti-abuse/ @jstava @tmccaslin @hbenson
 
 ^[Product - Analytics Section]

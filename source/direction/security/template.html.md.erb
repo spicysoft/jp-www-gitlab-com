@@ -24,16 +24,16 @@ security risk.
 This empowers organizations as they can apply repeatable, defensible processes that automate security and compliance
 policies from development to production.
 
-<%= devops_diagram(["Secure","Protect"]) %>
+<%= devops_diagram(["Secure","Govern"]) %>
 
 ## Section Overview
 
 The Sec Section focuses on providing security visibility across the entire software development lifecycle and is
-comprised of the [Secure](https://about.gitlab.com/direction/secure/) and [Protect](https://about.gitlab.com/direction/protect/)
+comprised of the [Secure](https://about.gitlab.com/direction/secure/) and [Govern](https://about.gitlab.com/direction/govern/)
 stages of the DevOps lifecycle. This is accomplished by
 [shifting security testing left](https://about.gitlab.com/direction/security/#shift-left-no-more-left-than-that) with
 the Secure stage enabling developers to begin security scanning with their first written line of code. As applications
-and application updates are moved into production, the Protect stage provides SecOps and Ops teams the ability to
+and application updates are moved into production, the Govern stage provides SecOps and Ops teams the ability to
 mitigate attacks targeting the applications in cloud-native environments. The combination of both stages provides
 organizations with visibility into their security risk from the first line of code written to applications
 deployed within production.
@@ -44,12 +44,12 @@ GitLab is uniquely positioned to fully support DevSecOps by providing a single a
 
 ![DevSecOps Lifecycle](/images/direction/sec/DevSecOps_Lifecycle.png)
 
-GitLab’s single application completely maps directly to the DevSecOps lifecycle. The Secure Stage provides the Develop, Analyze, and Mitigate portions of the DevSecOps lifecycle, while GitLab's Protect stage provides the Protect portion.  Together, GitLab supports all teams involved in delivering secure applications:
+GitLab’s single application completely maps directly to the DevSecOps lifecycle. The Secure Stage provides the Develop, Analyze, and Mitigate portions of the DevSecOps lifecycle, while GitLab's Govern stage provides the Govern portion.  Together, GitLab supports all teams involved in delivering secure applications:
 
 * Develop: Developers create new source code, including new features and bug fixes, and commit this code to a branch within the project. This step is supported by the [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) stage of the DevOps lifecycle providing developers with [source code management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [code editors](https://about.gitlab.com/direction/create/editor/web_ide/), and [code review](https://about.gitlab.com/stages-devops-lifecycle/code-review/) workflows.
 * Analyze: Upon code commit, Secure scanners are automatically started and identify any new security findings with the delta code change. This enables developers to stay within context enabling them to understand the cause and effect of their code change. Secure scanners leverage the [Verify](https://about.gitlab.com/stages-devops-lifecycle/verify/) stage of the DevOps lifecycle to provide scanning within the [CI pipeline](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/).
 * Mitigate: Developers are provided with the [details needed](https://docs.gitlab.com/ee/user/application_security/index.html#interacting-with-the-vulnerabilities) to understand how to remediate the newly introduced security findings. Developers are also offered [automatic remediation](https://docs.gitlab.com/ee/user/application_security/#automatic-remediation-for-vulnerabilities) where applicable.
-* Protect: Security and operations teams can protect applications once they are deployed into cloud-native environments by [scanning container images](https://docs.gitlab.com/ee/user/application_security/cluster_image_scanning/) for vulnerabilities.
+* Govern: Helps users manage security vulnerabilities, policies, and compliance across their organization.
 
 ### Lowering the Cost of Remediation
 
@@ -88,13 +88,14 @@ Closing the loop requires close collaboration, transparency, and efficiencies th
 
 ### Groups
 
-The Security Section is made up of two DevOps stages, Secure and Protect, and six groups supporting the major categories of DevSecOps including:
+The Security Section is made up of two DevOps stages, Secure and Govern, and seven groups supporting the major categories of DevSecOps including:
 
 * **Static Analysis** - Assess your applications and services by scanning your source code for vulnerabilities and weaknesses.
 * **Dynamic Analysis** - Assess your applications and services while they are running by leveraging the [Review App](https://docs.gitlab.com/ee/ci/review_apps/) available as part of GitLab’s CI/CD functionality.
 * **Composition Analysis** - Assess your applications and services by analyzing dependencies for vulnerabilities and weaknesses, confirming only approved licenses are in use, and scanning your containers for vulnerabilities and weaknesses.
 * **Threat Insights** - Holistically view, manage, and reduce potential risks across the entire DevSecOps lifecycle including Security Merge Request Views, Pipeline Security Reports, and Security Dashboards at the Project, Group, and Instance level.
-* **Container Security** - Monitor and protect your cloud-native applications and services by leveraging context-aware knowledge to improve your overall security posture.
+* **Compliance** - Provide users with the tools and features necessary to manage their compliance programs.
+* **Security Policies** - Apply policies to enforce scans and to require security approvals when vulnerabilities are found.
 * **Vulnerability Research** - Leverage GitLab research to empower your Secure results by connecting security findings to industry references like [CVE IDs](https://cve.mitre.org).
 
 ### Teams and Investments
@@ -118,7 +119,7 @@ Learn more about GitLab's investment into the Sec section by visiting our
 
 The following are the updates from the Sec Section for January 2022 (as presented in the monthly
 [Product Key Review](https://about.gitlab.com/handbook/key-review/)). A complete list of released features
-can be found on the [Release Feature Overview](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features&selectedStages=secure&selectedStages=protect)
+can be found on the [Release Feature Overview](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features&selectedStages=secure&selectedStages=govern)
 page and a complete list of upcoming features can be found on the [Upcoming Releases](https://about.gitlab.com/upcoming-releases/) page.
 
 #### Section & team member updates
@@ -151,7 +152,7 @@ page and a complete list of upcoming features can be found on the [Upcoming Rele
 
 <%= partial("direction/secure/templates/themes") %>
 
-<%= partial("direction/protect/templates/themes") %>
+<%= partial("direction/govern/templates/themes") %>
 
 ## 1 Year Plan
 
@@ -189,8 +190,8 @@ To meet our [audacious goals](https://about.gitlab.com/company/mission/#big-hair
 The following will NOT be a focus over the next 12 months:
 * **Machine learning** - Machine learning (ML) will be leveraged, as part of static analysis, to identify insecure coding practices and help developers write more secure code.  This will be opt-in and will enable the power of the GitLab global community.
 * **Security services** - The cybersecurity staffing shortage [continues to grow](https://www.forbes.com/sites/martenmickos/2019/06/19/the-cybersecurity-skills-gap-wont-be-solved-in-a-classroom/#79a380dd1c30) with no solvable solution yet defined.  To solve this issue, organizations have been relying on security services to fill this gap in their security processes.  As part of Secure’s 3 Year Strategy, we want to address this for the GitLab community by offering cybersecurity augmentation powered by GitLab Secure categories.
-* **SIEM functionality** - Security Information and Event Management (SIEM) solutions are a common tool leveraged by IT Ops and SecOps organizations to monitor for events within their production environments. The Protect stage will support exporting security events to external SIEM solutions, including the Monitor stage, as well as Monitor on-call functionality.
-* **Non-cloud native environments** - Enterprises are undergoing cloud-native transformations shifting from traditional data centers to public cloud environments leveraging technologies like Kubernetes. Protect will focus on meeting enterprises where they are going and not focus on where they are coming from.
+* **SIEM functionality** - Security Information and Event Management (SIEM) solutions are a common tool leveraged by IT Ops and SecOps organizations to monitor for events within their production environments.
+* **Non-cloud native environments** - Enterprises are undergoing cloud-native transformations shifting from traditional data centers to public cloud environments leveraging technologies like Kubernetes.
 
 
 ## Target audience
@@ -218,13 +219,13 @@ As we execute our [3 year strategy](#3-year-strategy), our medium term (1-2 year
 
 ## Stages and Categories
 
-The Sec section is composed of two stages, [Secure](/direction/secure/) and [Protect](/direction/protect/), each of which contains several categories. Each stage has an overall
+The Sec section is composed of two stages, [Secure](/direction/secure/) and [Govern](/direction/govern/), each of which contains several categories. Each stage has an overall
 strategy statement below, aligned to the themes for Sec. Each category within each stage has a dedicated direction page
 plus optional documentation, marketing pages, and other materials linked below.
 
 <%= partial("direction/secure/templates/strategies") %>
 
-<%= partial("direction/protect/templates/strategies") %>
+<%= partial("direction/govern/templates/strategies") %>
 
 ## Upcoming Releases
 

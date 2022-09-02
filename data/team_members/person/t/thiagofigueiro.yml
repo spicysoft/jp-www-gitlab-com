@@ -1,0 +1,26 @@
+---
+name: Thiago Figueiró
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#backend-manager-engineering">Backend
+  Engineering Manager, Govern:Threat Insights, Govern:Security Policies</a>
+reports_to: pcalder
+picture: thiagofigueiro.jpg
+twitter:
+gitlab: thiagocsf
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Backend
+story: |
+  Thiago was born in Brazil and graduated as a Computer Engineer in Rio de Janeiro, then
+  moved to Sydney, Australia to experience another country and new way of life. Hobbies
+  include brewing, beekeeping, automation projects and Sci-Fi.
+specialty:
+- 'Govern: Threat Insights'
+- "Govern: Security Policies"
+projects:
+  secure-container-scanning:
+  - reviewer backend
+

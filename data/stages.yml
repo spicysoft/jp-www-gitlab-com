@@ -32,7 +32,7 @@ stages:
       - "configure"
       - "monitor"
       - "secure"
-      - "protect"
+      - "govern"
     section: dev
     pm: Sarah Waldner (Acting)
     groups:
@@ -941,7 +941,7 @@ stages:
         url: "https://about.gitlab.com/analysts/forrester-sca/"
     related:
       - "create"
-      - "protect"
+      - "secure"
     section: sec
     slack:
       channel: s_secure
@@ -1056,6 +1056,7 @@ stages:
             dri: TBD
         categories:
           - dependency_scanning
+          - container_scanning
           - license_compliance
         usage_driver_score: 3
         asp_driver_score: 5
@@ -1066,42 +1067,6 @@ stages:
           - security reports integration
         pi_gmau: "https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/sec-section/#securecomposition-analysis---gmau---users-running-any-sca-scanners"
         pi_pgmau: "https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/sec-section/#securecomposition-analysis---gmau---users-running-any-sca-scanners"
-
-      threat_insights:
-        name: "Threat Insights"
-        slack:
-          channel: g_secure_threat_insights
-        pm: Matt Wilson
-        focus: Threat Insights Paid GMAU
-        pmm: Cindy Blake
-        backend_engineering_manager: Thiago Figueiró
-        frontend_engineering_manager: Neil McCorrison
-        be_team_tag: Secure:Threat Insights BE Team
-        fe_team_tag: Secure:Threat Insights FE Team
-        support: Gerardo Gutierrez
-        appsec_engineer: Nikhil George
-        pdm:
-          - Justin Mandell
-        ux:
-          - Rebecca "Becka" Lippert
-        uxr:
-          - Michael Oliver
-        tech_writer: Clayton Cornell
-        sets:
-          - Harsha Muralidhar
-        cs_team_tag: Threat Insights Group CS Stable Counterpart
-        internal_customers:
-          - department: Security Department
-            dri: TBD
-        categories:
-          - vulnerability_management
-        usage_driver_score: 4
-        asp_driver_score: 5
-        sam_driver_score: 5
-        group_link: product/categories/#threat-insights-group
-        feature_labels:
-          - MR security reports
-          - pipeline security reports
 
       vulnerability_research:
         name: Vulnerability Research
@@ -1423,15 +1388,15 @@ stages:
         pi_pgmau:
         comp_comparison:
 
-  protect:
-    display_name: "Protect"
+  govern:
+    display_name: "Govern"
     marketing: true
     tw: true
-    image: "/images/solutions/solutions-protect.png"
+    image: "/images/solutions/solutions-govern.png"
     description: "Enforce policies to discover and protect your software from vulnerabilities."
     body: |
       GitLab scans cloud native environments for vulnerabilities and also provides unified security policy management.
-    direction: /direction/protect/
+    direction: /direction/govern/
     roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Aprotect&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
     established: 2019
     lifecycle: 1
@@ -1446,19 +1411,19 @@ stages:
       - "manage"
     section: sec
     slack:
-      channel: s_protect
-    gitlab_group: gitlab-org/protect
-    handbook: engineering/development/protect/
+      channel: s_govern
+    gitlab_group: gitlab-org/govern
+    handbook: engineering/development/sec/govern/
     groups:
-      container_security:
-        name: Container Security
+      security_policies:
+        name: Security Policies
         pm: Sam White
-        focus: Container Security Paid GMAC
+        focus: Security Policies Paid GMAU
         pmm: Cindy Blake
         backend_engineering_manager: Thiago Figueiró
         frontend_engineering_manager: Neil McCorrison
-        be_team_tag: Protect:Container Security BE Team
-        fe_team_tag: Protect:Container Security FE Team
+        be_team_tag: Govern:Security Policies BE Team
+        fe_team_tag: Govern:Security Policies FE Team
         appsec_engineer: Nikhil George
         pdm:
           - Justin Mandell
@@ -1467,21 +1432,56 @@ stages:
         uxr:
           - Michael Oliver
         tech_writer: Clayton Cornell
-        cs_team_tag: Container Security Group CS Stable Counterpart
+        cs_team_tag: Security Policies Group CS Stable Counterpart
         internal_customers:
           - department: Security Department
             dri: TBD
           - department: Infrastructure Department
             dri: TBD
         categories:
-          - security_orchestration
-          - container_scanning
+          - security_policy_management
         usage_driver_score: 1
         asp_driver_score: 2
         sam_driver_score: 2
-        group_link: product/categories/#container-security-group
+        group_link: product/categories/#security-policies-group
         slack:
-          channel: g_protect_container_security
+          channel: g_govern_security_policies
+
+      threat_insights:
+        name: "Threat Insights"
+        slack:
+          channel: g_govern_threat_insights
+        pm: Matt Wilson
+        focus: Threat Insights Paid GMAU
+        pmm: Cindy Blake
+        backend_engineering_manager: Thiago Figueiró
+        frontend_engineering_manager: Neil McCorrison
+        be_team_tag: Govern:Threat Insights BE Team
+        fe_team_tag: Govern:Threat Insights FE Team
+        support: Greg Myers
+        appsec_engineer: Nikhil George
+        pdm:
+          - Justin Mandell
+        ux:
+          - Rebecca "Becka" Lippert
+        uxr:
+          - Michael Oliver
+        tech_writer: Clayton Cornell
+        sets:
+          - Harsha Muralidhar
+        cs_team_tag: Threat Insights Group CS Stable Counterpart
+        internal_customers:
+          - department: Security Department
+            dri: TBD
+        categories:
+          - vulnerability_management
+        usage_driver_score: 4
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/categories/#threat-insights-group
+        feature_labels:
+          - MR security reports
+          - pipeline security reports
 
   analytics:
     display_name: Analytics
@@ -1769,7 +1769,7 @@ stages:
       - configure
       - monitor
       - secure
-      - protect
+      - govern
     established: 2019
     internal_customers:
       - department: Sales Department
