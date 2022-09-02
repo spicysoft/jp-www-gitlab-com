@@ -957,7 +957,7 @@ stages:
         backend_engineering_manager: Thomas Woodham
         be_team_tag: Secure:Static Analysis BE Team
         fe_team_tag:
-        support: Greg Myers
+        support: Greg Myers, Eric Rosenberg
         appsec_engineer: Nikhil George
         pdm:
           - Justin Mandell
