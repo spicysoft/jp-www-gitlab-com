@@ -8,6 +8,16 @@
   social_tags:
   event_url: https://page.gitlab.com/advanced-cicd-virtual-registration-page.html
 
+- topic: DevOpsDays DC
+  type: Conference
+  date_starts: September 15, 2022
+  date_ends: September 16, 2022
+  description: Hear how the U.S. Patent and Trademark Office and GitLab have imagined a software factory of the future. USPTO’s journey towards a complete DevSecOps software lifecycle didn’t start with unicorns and rainbows. What transpired through the journey, including the onset of the Pandemic and going remote has transformed the Office into a completely modern agency. Everything from planning to building software is reimagined. Hear how GitLab and USPTO worked together to bring faster agile delivery to reality in a full-remote Government Agency. Learn how we transitioned from a process-heavy full-lifecycle development ecosystem to an agile, autonomous, automated rapid Delivery reality.
+  location: Washington, DC
+  region: AMER
+  social_tags:
+  event_url: https://www.eventbrite.com/e/devopsdays-dc-2022-tickets-345684861727
+
 - topic: CyberSecurity Workshop for the Public Sector 
   type: Webcast
   date_starts: September 22, 2022
