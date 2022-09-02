@@ -78,9 +78,9 @@
   health:
     level: 3
     reasons:
+    - August 2022 Availability 99.92
     - July 2022 Availability 99.95
     - June 2022 Availability 99.96
-    - May 2022 Availability 99.99
     - Historical Availability is available on the <a href="https://about.gitlab.com/handbook/engineering/monitoring/#historical-service-level-availability">Service Level Availability page</a>
   sisense_data:
     chart: 12179074
