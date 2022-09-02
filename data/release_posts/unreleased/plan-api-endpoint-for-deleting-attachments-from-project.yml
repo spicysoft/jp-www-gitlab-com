@@ -1,0 +1,13 @@
+---
+features:
+  secondary:
+  - name: "API Endpoint for deleting attachments from project"
+    available_in: [premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: mushakov
+    stage: plan
+    categories: []
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/366406'
+    description: |
+      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
