@@ -1,0 +1,17 @@
+---
+features:
+  primary:
+  - name: "Search for environment name in the Environments overview page"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
+    reporter: cbalane
+    stage: release
+    categories:
+    - Release Orchestration
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/10754'
+    description: |
+      <!-- What is the problem and solution you're proposing? This content sets the overall vision for the feature and serves as the release notes that will populate in various places, including the [release post blog](https://about.gitlab.com/releases/categories/releases/) and [Gitlab project releases](https://gitlab.com/gitlab-org/gitlab/-/releases). " -->
+
+      You can now search the list of environments in the Environments page by name. Previously, there was no search functionality. This sometimes required you to scroll through many pages to find a specific environment and its latest deployment. Please note that this feature is not yet complete, and you can only search for an exact match of the environment name.
