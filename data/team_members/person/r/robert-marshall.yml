@@ -1,0 +1,28 @@
+---
+name: Robert Marshall
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#distribution">Distribution
+  Engineer, Distribution:Build</a>
+reports_to: david-mountney
+picture: robertmarshall.jpg
+twitter:
+gitlab: rmarshall
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Distribution Build BE Team
+projects:
+  omnibus-gitlab: maintainer
+  charts-gitlab-io: reviewer
+  gitlab-chart: reviewer
+  gitlab-omnibus-builder: maintainer
+  cng: maintainer
+story: |
+  Robert is passionate about technology and has a keen interest in Linux, automation, orchestration,
+  and data warehousing. He loves teaching others and regularly speaks at open source conferences and
+  gatherings on a wide range of topics. Robert splits his free-time between contributing to the
+  Fedora community, tabletop gaming, writing, music orchestration, and crafting.
+specialty: Distribution
+
