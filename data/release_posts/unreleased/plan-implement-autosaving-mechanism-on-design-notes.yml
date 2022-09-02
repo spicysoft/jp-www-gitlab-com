@@ -1,0 +1,14 @@
+---
+features:
+  secondary:
+  - name: "Implement auto-saving mechanism on Design Notes"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: mushakov
+    stage: plan
+    categories:
+    - Design Management
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/55677'
+    description: |
+      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
