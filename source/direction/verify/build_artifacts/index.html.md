@@ -25,7 +25,7 @@ For specific information and features related to display of artifact data, check
 
 ## What's Next & Why
 
-In 15.3 we continue to focus on releasing usability features (i.e. searchability [gitlab#362632](https://gitlab.com/gitlab-org/gitlab/-/issues/362632)). We have also started instrumentation improvements beginning with the addition of usage pings for junit reports [gitlab#339720](https://gitlab.com/gitlab-org/gitlab/-/issues/339720). The infrastruture put in place will enable quicker implementation for other report types. 
+In 15.4 we continue instrumentation improvements beginning with the addition of usage pings for JUnit reports [gitlab#339720](https://gitlab.com/gitlab-org/gitlab/-/issues/339720). This new infrastructure enables quicker implementation for other report types and helps us better understand usage to prioritize features in the future as well as troubleshoot bug reports. We are also focused on resolving storage calculations for Build Artifacts as we begin to focus more on storage consumption [gitlab&5754](https://gitlab.com/groups/gitlab-org/-/epics/5754) over the next two quarters. The team is also excited to deliver our MVC for the new Artifacts page [gitlab#33418](https://gitlab.com/gitlab-org/gitlab/-/issues/33418). We invite user feedback as we continue to iterate on usability improvements. 
 
 Beyond this, we will continue working on our goal of providing a great artifact experience for both operators and users of GitLab there are some opportunities we can address. These are listed in priority order in this table:
 
@@ -33,7 +33,7 @@ Beyond this, we will continue working on our goal of providing a great artifact 
 | 1 | There is no easy way to manage and analyze all artifacts in a Project. Downloading artifacts from jobs/pipelines and comparing or analyzing them is painful today given the sizes of the files and the other workarounds that are necessary. | [gitlab&7473](https://gitlab.com/groups/gitlab-org/-/epics/7473) |
 | 2 | Artifacts are hard to manage | [gitlab&5754](https://gitlab.com/groups/gitlab-org/-/epics/5754) |
 | 3 | Reports from child pipelines are hard to find | [gitlab&4019](https://gitlab.com/groups/gitlab-org/-/epics/4019) |
-| 4 | MR reports do not have visibility to child pipeline artifacts | [gitlab&8205](https://gitlab.com/groups/gitlab-org/-/epics/8205 |
+| 4 | MR reports do not have visibility to child pipeline artifacts | [gitlab&8205](https://gitlab.com/groups/gitlab-org/-/epics/8205) |
 
 We will continue to improve instrumentation through FY23 Q3 to increase monitoring capabilities for artifact usage in [gitlab#339721](https://gitlab.com/gitlab-org/gitlab/-/issues/339721). 
 
