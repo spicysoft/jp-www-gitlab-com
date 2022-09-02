@@ -61,6 +61,10 @@ _People:_
 | --- | --- | --- | --- | --- | --- | --- |
 | `@release_post_manager` | `@tw_lead` | `@tech_advisor` | DRI: `@wspillane` & `@social` for Slack Checklist item | `@pmm_lead` | `@fseifoddini` | `@release_post_manager_shadow` |
 
+_Response time SLA:_
+
+To accommodate the tight timelines of tasks during the 18th-22nd of the month, members of the release post team are asked to commit to one-hour response times in Slack during their working hours on those dates.
+
 ---
 
 ### Release post kickoff (`@release_post_manager`) due by the 7th
@@ -268,6 +272,8 @@ To assist managers in determining whether a release contains a feature. The foll
 
  **Due date: YYYY-MM-17**
 
+
+1. [ ] In the `#x-y-release-post-prep` channel, remind the team that from the 18th-22nd, release post team members are asked to maintain a one-hour response time in Slack during their working hours. This is to ensure the smooth progression of time-sensitive tasks during this window.
 1. [ ] In the `#release-post` channel remind all PMs that it's the 17th, so they need to either have their EMs merge their release post item MRs or bump the milestone if they know it won't make it.
 1. [ ] Mention the [Distribution PM](https://about.gitlab.com/handbook/product/categories/#distribution-group) in the `#release-post` channel, reminding them to add any relevant [upgrade warnings](https://about.gitlab.com/handbook/marketing/blog/release-posts/#important-notes-on-upgrading) by doing an [upgrade MR](https://about.gitlab.com/handbook/marketing/blog/release-posts/#upgrades).
 1. [ ] Finalize your [MVP](https://about.gitlab.com/handbook/marketing/blog/release-posts/#mvp) selection and work with the person that nominated the MVP to write the MVP section in `data/release_posts/X_Y/mvp.yml` on the `release-X-Y` branch.
