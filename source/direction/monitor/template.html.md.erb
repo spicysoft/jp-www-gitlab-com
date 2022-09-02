@@ -27,15 +27,6 @@ These markets are competitive and innovative, with winning companies achieving s
 
 Successful vendors, such as market leader [Datadog](https://www.datadoghq.com/) are leveraging a [platform strategy](https://mitsloan.mit.edu/ideas-made-to-matter/platform-strategy-explained) to expand their markets (for example, see DataDog's [acquisition of Undefined Labs to expand beyond production applications to provide code insights during development](https://drive.google.com/file/d/1hq74bZvBv5nD6Krmi-iaSsdqA9ChOf1r/view), or their expansion to [incident management in 2020](https://www.datadoghq.com/blog/dash-2020-new-feature-roundup/)). Competition among market leaders today is also geared toward making the whole stack observable for enterprises. [New Relic's updated business model](https://blog.newrelic.com/product-news/new-relic-one-observability-made-simple/) reflects the need for vendors to capture the increasing footprint (and spend) of enterprises while enabling future growth by making a significant part of their business free.
 
-### Focus
-The Monitor stage currently consists of two teams. The Observability group will be focused on bringing observability, including Metrics, Tracing, and Logging to market within the GitLab platform. The Response group ([Name TBD](https://gitlab.com/gitlab-org/monitor/monitor/-/issues/96)) will be focused on [Incident Management](/direction/monitor/debugging_and_health/incident_management), and contributing toward [deployment](/direction/deployment/) by adding [Continuous Verification](/direction/deployment/#continuous-verification) capabilities to the platform. 
-
-We will not actively work on the following categories/capabilities:
-
-* [Error Tracking](/direction/monitor/debugging_and_health/error_tracking/)
-* [Runbooks](/direction/monitor/debugging_and_health/runbooks/)
-* [Product Analytics](/direction/monitor/product_analytics/)
-
 ### Opportunities
 
 Build a complete DevOps platform with monitoring out-of-the-box.
@@ -49,26 +40,22 @@ Build a complete DevOps platform with monitoring out-of-the-box.
 1. Monitoring vendors offer generous free tiers (e.g. [New Relic](https://newrelic.com/pricing) and [Honeycomb](https://www.honeycomb.io/pricing/)) for smaller companies and complete solutions for enterprises.
 1. Huge investments are being made by market leaders. Market leaders are also expanding the scope of their solutions. This makes them more sticky with their customers.
 1. Monitoring must meet a high bar to be trusted in production. Running large scale monitoring systems is difficult and will be a big challenge for GitLab.
-
-## Newsworthy
-On Dec 14, 2021, GitLab announced the acquisition of Opstrace, find out more in the [Monitor:Observability direction page](/direction/monitor/observability/#newsworthy). 
+1. Currently, GitLab and the GitLab Observability UI are separate applications, integrating the UX is a challenge.
 
 ### Partnerships with Observability vendors
-Observability is a cornerstone of a complete DevOps platform. As such, GitLab will include an on-by-default observability solution. In addition, we plan to build a vendor-agnostic continuous capability, enabling and encouraging partners to add their own solutions, thereby expanding customer choice.
+Observability is a cornerstone of a complete DevOps platform. As such, GitLab will include an on-by-default observability solution. In addition, we plan to build a vendor-agnostic continuous verification capability, enabling and encouraging partners to add their own solutions, thereby expanding customer choice.
  
 ## What’s next?
 
-1. [Monitor:Observability Group What's Next](/direction/monitor/observability/#whats-next)
-1. The Respond Group will continue to complete the [incident management](https://about.gitlab.com/direction/monitor/debugging_and_health/incident_management/) workflow. Using Incident management, teams can manage the coordination during an outage and have the most important information captured for sharing, learning, and future improvements. The main product indicator is currently the [number of unique users that interact with alerts and incidents](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/ops-section/#monitormonitor---smau-gmau---unique-users-that-interact-with-alerts-and-incidents).
+The Monitor stage currently consists of two development groups. 
+
+The Observability group will be focused on making the [GitLab Observability Platform](/direction/monitor/observability/) and a dashboarding tool, the GitLab Observability UI, available to all GitLab users. 
+
+The Respond group will be focused on [Incident Management](/direction/monitor/debugging_and_health/incident_management), [on-call schedule management](/direction/monitor/debugging_and_health/on-call_schedule_management/), and contributing toward [deployment](/direction/deployment/) by adding [Continuous Verification](/direction/deployment/#continuous-verification) capabilities to the platform. 
 
 ### Deprecation of previous capabilities
 
-GitLab users previously can monitor their services and applications by leveraging GitLab to install Prometheus to a GitLab-managed cluster.
-Similarly, users can also install the ELK stack to do log aggregation and management. Lastly, users can set up a Jaeger integration to trace for their applications.
-
-With the acquisition of Opstrace, and the announcement to deprecate certificate-based integrations, we will be deprecating the features that currently exist in the [Metrics](https://docs.gitlab.com/ee/update/deprecations.html#monitor-performance-metrics-through-prometheus), [Logging](https://docs.gitlab.com/ee/update/deprecations.html#logging-in-gitlab), and [Tracing](https://docs.gitlab.com/ee/update/deprecations.html#tracing-in-gitlab) categories. These features are scheduled for removal in GitLab 15.0.
-
-In February 2022 we removed Self-Monitoring category as it was an unsupported category.  [The Self-Monitoring project](https://docs.gitlab.com/ee/administration/monitoring/gitlab_self_monitoring_project/) is for self-hosted customers and leverages the capabilities from the Metrics category, which are being deprecated and removed. Self-hosted customers can still export metrics to Prometheus and view them via other visualization tools, such as Grafana.  We will the deprecation in 14.9 with a planned removal in 15.0.
+We deprecated and removed the legacy Logging and Tracing capabilities that were previously available and plan to offer replacement via the GitLab Observability Platform and the GitLab Observability UI. The legacy Metrics capability has been deprecated and is planned for removal in 16.0.
 
 ## Letters from the Editor
 
