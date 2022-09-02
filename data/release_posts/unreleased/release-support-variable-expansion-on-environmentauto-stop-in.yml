@@ -1,0 +1,14 @@
+---
+features:
+  secondary:
+  - name: "Support variable expansion on environment:auto_stop_in"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: cbalane
+    stage: release
+    categories:
+    - Environment Management
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/365140'
+    description: |
+      With this update, you can now use a variable when specifying the lifetime of an environment.
