@@ -404,7 +404,7 @@ collections:
       collapsed: true
       fields: 
         - {label: "Single tool", name: "single_tool", widget: "boolean", default: false, hint: "Mark this field true if we should only compare this competitor as a single tool."}
-        - {label: "Single tool category", name: "single_tool_category", widget: "select", hint: "If this competitor is only being compared as a single tool, specify which category to use.", options: ['manage', 'plan', 'source-code-management', 'continuous-integration', 'package', 'secure', 'continuous-delivery', 'configure', 'monitor', 'protect'], default: 'manage'}
+        - {label: "Single tool category", name: "single_tool_category", widget: "select", hint: "If this competitor is only being compared as a single tool, specify which category to use.", options: ['manage', 'plan', 'source-code-management', 'continuous-integration', 'package', 'secure', 'continuous-delivery', 'configure', 'monitor', 'govern'], default: 'manage'}
     - label: Logo
       hint: Logo for comparison data, ideally a 64x64 pixel SVG
       name: logo
@@ -424,9 +424,6 @@ collections:
         - { widget: "number", name: "Role-based Access Control", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "Group-level permissioning", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "Project-level permissioning", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
-        - { widget: "number", name: "Audit logging", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
-        - { widget: "number", name: "Audit reporting", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
-        - { widget: "number", name: "Compliance framework enforcement", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "Operational DevOps metrics", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "Custom issue analytics", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "DevOps Adoption reorts", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
@@ -523,15 +520,10 @@ collections:
         - { widget: "number", name: "Container Scanning", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "License Compliance", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "Secrets detection", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
-        - { widget: "number", name: "Vulnerability mgmt", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "Advisory database", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
-        - { widget: "number", name: "MR approvals", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "Code Quality", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "coverage guided fuzz testing", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "API fuzz test", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
-        - { widget: "number", name: "Compliance dashboard", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
-        - { widget: "number", name: "compliance frameworks", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
-        - { widget: "number", name: "SBOM (dependency list)", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
     - label: "Continuous Delivery"
       name: "continuous-delivery"
       widget: "object"
@@ -580,13 +572,22 @@ collections:
         - { widget: "number", name: "Integrations with established incident management tools", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "Log monitoring", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }        
         - { widget: "number", name: "Alert Management", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
-    - label: "Protect"
-      name: "protect"
+    - label: "Govern"
+      name: "govern"
       widget: "object"
       collapsed: true
       fields: 
-        - { widget: "number", name: "container scanning", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "Security Policies", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
         - { widget: "number", name: "security orchestration (runtime policies)", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "Audit logging", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "Audit reporting", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "Compliance framework enforcement", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "Compliance dashboard", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "compliance frameworks", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "SBOM (dependency list)", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "Vulnerability mgmt", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "Advisory database", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
+        - { widget: "number", name: "MR approvals", hint: "0: No Support 1: Partial Support 2: Full Support", value_type: "int", min: 0, max: 2, default: 0 }
   - name: customer_reference
     label: Case Studies
     format: yml

@@ -2,7 +2,7 @@
 layout: secure_and_protect_direction
 title: "Category Direction - Container Scanning"
 description: "Container Scanning tests your Docker images against known vulnerabilities that may affect software that is installed in the image. Learn more!"
-canonical_path: "/direction/protect/container-scanning/"
+canonical_path: "/direction/secure/composition-analysis/container-scanning/"
 ---
 
 <!---  using https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/doc/templates/product/category_direction_template.html.md -->
@@ -10,23 +10,23 @@ canonical_path: "/direction/protect/container-scanning/"
 - TOC
 {:toc}
 
-## Protect
+## Secure
 
 | | |
 | --- | --- |
-| Stage | [Protect](/direction/protect/) |
+| Stage | [Secure](/direction/secure/) |
 | Maturity | [Viable](/direction/maturity/) |
 | Content Last Reviewed | `2022-07-08` |
 
 ### Introduction and how you can help
 
-Thanks for visiting this category direction page on Container Scanning in GitLab. This page belongs to the Container Security group of the Protect stage and is maintained by Sam White ([swhite@gitlab.com](mailto:<swhite@gitlab.com>)).
+Thanks for visiting this category direction page on Container Scanning in GitLab. This page belongs to the Composition Analysis group of the Govern stage and is maintained by Sam White ([swhite@gitlab.com](mailto:<swhite@gitlab.com>)).
 
 This direction page is a work in progress, and everyone can contribute. We welcome feedback, bug reports, feature requests, and community contributions.
 
 - Please comment and contribute in the linked [issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3AContainer%20Scanning) and [epics](https://gitlab.com/groups/gitlab-org/-/epics/530) on this page. Sharing your feedback directly on GitLab.com is the best way to contribute to our strategy and vision.
 - Please share feedback directly via email or on a video call. If you're a GitLab user and have direct knowledge of your need for container security, we'd especially love to hear from you.
-- Can't find an issue? Make a [feature proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20proposal%20-%20detailed) or a [bug report](https://gitlab.com/gitlab-org/gitlab/-/issues/new?&issuable_template=Bug). Please add the appropriate labels by adding this line to the bottom of your new issue `/label ~"devops::protect" ~"Category:Container Scanning" ~"group::container security"`.
+- Can't find an issue? Make a [feature proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20proposal%20-%20detailed) or a [bug report](https://gitlab.com/gitlab-org/gitlab/-/issues/new?&issuable_template=Bug). Please add the appropriate labels by adding this line to the bottom of your new issue `/label ~"devops::secure" ~"Category:Container Scanning" ~"group::composition analysis"`.
 <!--- https://gitlab.com/gitlab-org/gitlab/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=#) --->
 - Consider signing up for [First Look](https://about.gitlab.com/community/gitlab-first-look/).
 

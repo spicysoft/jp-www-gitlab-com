@@ -1,0 +1,475 @@
+# NOTE: This template information might be incorrect. Please see the single source of truth for the [acceptable object fields](https://about.gitlab.com/handbook/marketing/strategic-marketing/technical-marketing/howto/contributing-to-learn-at-gl.html)
+
+# - path_id: [must be unique]
+#   title:
+#   thumbnail: [path/to/file]
+#   description:
+#   author: 
+#   verified: [true | false]
+#   time: [time in minutes]
+#   level: [beginner | intermediate | advanced]
+#   roles: [roles from https://about.gitlab.com/handbook/product/personas/]
+#   tags:
+#     - tag 1
+#     - tag 2
+#   related:
+#     - path_id 1
+#     - path_id 2
+#   asset_list:
+#     - asset_id 1
+#     - asset_id 2
+
+# --------- use_case: LXP Platform ------------
+
+- path_id: LXP-Path-001
+  title: GitLab Certification Courses
+  thumbnail: /images/learn/paths/devops_platform/simplifydevops.png
+  description: |
+    A centralized learning hub for all learning material produced by GitLab.
+  author: davistye
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "DevOps Platform"
+  related: ""
+  asset_list:
+    - lxp-001
+    - lxp-002
+    - lxp-003
+    - lxp-004
+    - lxp-005
+    - lxp-006
+    - lxp-007
+
+# --------- use_case: DevOps Platform ------------
+
+- path_id: DevOpsPlatform-Path-001
+  title: The DevOps Platform
+  thumbnail: /images/learn/paths/devops_platform/simplifydevops.png
+  description: |
+    Learn how a single DevOps platform with highly integrated capabilities can advance your DevOps practices by simplifying everything about DevOps.
+  author: dangordon
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "DevOps Platform"
+  related: ""
+  asset_list:
+    - platform-001
+    - platform-002
+    - platform-003
+    - platform-004
+    - platform-005
+    - platform-006
+
+# --------- use_case: Version Control and Collaboration (VCC) ------------
+
+- path_id: VCC-Path-001
+  title: Version Control and Collaboration (VCC)
+  thumbnail: /images/learn/paths/vcc/vcc-001.jpg
+  description: |
+    Learn how GitLab can help your organizatiomn deliver better software faster using version control and collaboration.
+  author: warias
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "version control and collaboration"
+    - "source code management"
+  related: ""
+  asset_list:
+    - vcc-001
+    - vcc-002
+    - vcc-003
+    - vcc-004
+    - vcc-005
+    - vcc-006
+    - vcc-007
+    - vcc-008
+    - vcc-009
+    - vcc-010
+    - vcc-011
+    - vcc-012
+    - vcc-013
+
+# --------- use_case: Continuous Integration (CI) ------------
+
+- path_id: CI-Path-001
+  title: Continuous Integration (CI)
+  thumbnail: /images/learn/paths/ci/ci-009.jpg
+  description: |
+    Learn how GitLab Continuous Integration can help you develop and deliver better software faster.
+  author: iganbaruch
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "Continuous Integration"
+    - "CI"
+  related: ""
+  asset_list:
+    - ci-001
+    - ci-002
+    - ci-003
+    - ci-004
+    - ci-005
+    - ci-006
+    - ci-007
+    - ci-008
+    - ci-009
+
+# --------- use_case: DevSecOps - Overview and Setup ------------
+
+- path_id: DevSecOps-Path-001
+  title: DevSecOps - Overview and Setup
+  thumbnail: /images/learn/paths/devsecops/devsecops-002.jpg
+  description: |
+    Learn about how GitLab Secure capabilities can help you secure the software you create, and how easy it is to set it up.
+  author: diazjf
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "DevSecOps"
+    - "Overview and Setup"
+  related: ""
+  asset_list:
+    - devsecops-001
+    - devsecops-002
+    - devsecops-003
+
+# --------- use_case: DevSecOps - Scanners ------------
+
+- path_id: DevSecOps-Path-002
+  title: DevSecOps - Scanners
+  thumbnail: /images/learn/paths/devsecops/devsecops-007.jpg
+  description: |
+    Learn about the different types of security scanners and which ones GitLab Secure provides.
+  author: diazjf
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "DevSecOps"
+    - "Scanners"
+    - "SAST"
+    - "DAST"
+    - "Dependency"
+    - "Container"
+    - "License"
+  related: ""
+  asset_list:
+    - devsecops-004
+    - devsecops-005
+    - devsecops-006
+    - devsecops-007
+    - devsecops-008
+
+# --------- use_case: DevSecOps - Integrations ------------
+
+- path_id: DevSecOps-Path-003
+  title: DevSecOps - Integrations
+  thumbnail: /images/learn/paths/devsecops/devsecops-010.jpg
+  description: |
+    Learn about the different GitLab security integrations.
+  author: diazjf
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "DevSecOps"
+    - "Integrations"
+  related: ""
+  asset_list:
+    - devsecops-009
+    - devsecops-010
+
+# --------- use_case: DevSecOps - Advanced ------------
+
+- path_id: DevSecOps-Path-004
+  title: DevSecOps - Advanced
+  thumbnail: /images/learn/paths/devsecops/devsecops-012.jpg
+  description: |
+    Learn about advanced topics on GitLab Secure and Govern capabilities.
+  author: diazjf
+  verified: true
+  time: TBD
+  level: Advanced
+  roles: TBD
+  tags:
+    - "DevSecOps"
+    - "Advanced"
+  related: ""
+  asset_list:
+    - devsecops-011
+    - devsecops-012
+    - devsecops-013
+    - devsecops-014
+
+# --------- use_case: Continuous Delivery (CD) ------------
+
+- path_id: CD-Path-001
+  title: Continuous Delivery (CD)
+  thumbnail: /images/learn/paths/cd/cd-004.jpg
+  description: |
+    Learn how GitLab Continuous Delivery can help you deliver better software faster.
+  author: csaavedra1
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "Continuous Delivery"
+    - "Continuous Deployment"
+    - "CD"
+  related: ""
+  asset_list:
+    - cd-004
+    - cd-001
+    - cd-002
+    - cd-003
+    - cd-005
+
+# --------- use_case: GitOps ------------
+
+- path_id: GitOps-Path-001
+  title: GitOps
+  thumbnail:  /images/learn/paths/gitops/gitops-002.jpg
+  description: |
+    Learn the many ways that GitLab supports GitOps.
+  author: csaavedra1
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "GitOps"
+    - "IaC"
+  related: ""
+  asset_list:
+    - gitops-001
+    - gitops-002
+    - gitops-003
+    - gitops-004
+    - gitops-005
+    - gitops-006
+    - gitops-007
+    - gitops-008
+    - gitops-009
+
+# --------- use_case: Cloud Native ------------
+
+- path_id: CloudNative-Path-001
+  title: Cloud Native
+  thumbnail:  /images/learn/paths/cloudnative/cloudnative-001.jpg
+  description: |
+    Learn the many ways that GitLab supports Cloud Native application development and delivery.
+  author: csaavedra1
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "Cloud Native"
+    - "Kubernetes"
+  related: ""
+  asset_list:
+    - cloudnative-001
+    - cloudnative-002
+    - cloudnative-003
+    - cloudnative-004
+    - cloudnative-005
+    - cloudnative-006
+    - cloudnative-007
+
+# --------- use_case: Agile Management ------------
+
+- path_id: Agile-Path-001
+  title: Agile Management
+  thumbnail: /images/learn/paths/agile/agile-006.jpg
+  description: |
+    Learn how GitLab helps teams practice better Agile software development.
+  author: davistye
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "Agile Management"
+  related: ""
+  asset_list:
+    - agile-001
+    - agile-002
+    - agile-003
+    - agile-004
+    - agile-005
+    - agile-006
+    - agile-007
+
+# --------- use_case: Jira Integration ------------
+
+- path_id: Agile-Path-001
+  title: Jira Integration
+  thumbnail: /images/learn/paths/agile/jira-004.jpg
+  description: |
+    Learn how Jira and GitLab can be integrated to make working with the two highly efficient and productive.
+  author: davistye
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "Jira Integration"
+    - "Agile Management"
+  related: ""
+  asset_list:
+    - jira-001
+    - jira-002
+    - jira-003
+    - jira-004
+    - jira-005
+
+# --------- use_case: VSM ------------
+
+- path_id: VSM-Path-001
+  title: Value Stream Management (VSM)
+  thumbnail: /images/learn/paths/agile/vsm-006.jpg
+  description: |
+    Learn how GitLab can help your organizatiomn be more productive using value stream management.
+  author: davistye
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "value stream management"
+  related: ""
+  asset_list:
+    - vsm-001
+    - vsm-002
+    - vsm-003
+    - vsm-004
+    - vsm-005
+    - vsm-006
+    - vsm-007
+
+# --------- use_case: External GitLab Training ------------
+
+- path_id: externaltraining-Path-001
+  title: GitLab Certification Courses
+  thumbnail: /images/learn/paths/devops_platform/simplifydevops.png
+  description: |
+    External GitLab training resources
+  author: davistye
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "DevOps Platform"
+  related: ""
+  asset_list:
+    - externaltraining-001
+    - externaltraining-002
+    - externaltraining-003
+    - externaltraining-004
+
+
+# --------- use_case: The Value of GitLab ------------
+
+- path_id: Misc-Path-001
+  title: The Value of GitLab
+  thumbnail:  /images/learn/paths/misc/misc-001.jpg
+  description: |
+    Learn the many ways that GitLab provides value beyond helping teams deliver better software faster.
+  author: dangordon
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "Remote"
+    - "Single App"
+  related: ""
+  asset_list:
+    - misc-001  #GitLab for Remote Teams
+    - misc-002  # GitLab in 3 minutes
+    - platform-002  # The benefits of a single DevOps Platform
+
+# --------- use_case: Additional GitLab Learn ------------
+
+- path_id: Addgitlablearn-Path-001
+  title: Additional GitLab Learn Courses
+  thumbnail: /images/learn/paths/devops_platform/simplifydevops.png
+  description: |
+    A centralized learning hub for all learning material produced by GitLab.
+  author: davistye
+  verified: true
+  time: TBD
+  level: TBD
+  roles: TBD
+  tags:
+    - "DevOps Platform"
+  related: ""
+  asset_list:
+    - addgitlablearn-001
+    - addgitlablearn-002
+    - addgitlablearn-003
+
+
+# ------------------ Release Showcases ---------------------
+
+# --------- Release 13.2 ---------
+
+- path_id: RelShow-Path-001
+  title: GitLab 13.2 Release Showcase
+  thumbnail: /images/learn/paths/release_showcase/13-2-thumbnail.jpg
+  description: |
+    A brief look at a few highlights from the GitLab 13.2 Release.
+  author: tech-marketing
+  verified: true
+  time: 53:10
+  level: Beginner
+  roles: TBD
+  tags:
+    - "Release Showcase"
+  related: ""
+  asset_list:
+    - release-001
+    - release-002
+    - release-003
+    - release-004
+    - release-005
+    - release-006
+
+# --------- Release 13.5 ---------
+
+- path_id: RelShow-Path-004
+  title: GitLab 13.5 Release Showcase
+  thumbnail: /images/learn/paths/release_showcase/13-5-thumbnail.jpg
+  description: |
+    A brief look at a few highlights from the GitLab 13.5 Release.
+  author: tech-marketing
+  verified: true
+  time: 28.53
+  level: Beginner
+  roles: TBD
+  tags:
+    - "Release Showcase"
+  related: ""
+  asset_list:
+    - release-13-5-001
+    - release-13-5-002
+    - release-13-5-003
+    - release-13-5-004
+    - release-13-5-005
+    - release-13-5-006

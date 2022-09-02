@@ -139,7 +139,7 @@ Every quarter, an issue will be created and assigned to the PDMs to categorize t
 | Configure  |  #s_configure, #ops_section    |      
 | Monitor    |  #s_monitor, #ops_section      |      
 | Secure     |  #s_secure                     |      
-| Protect    |  #s_protect                    |      
+| Govern     |  #s_govern                     |      
 | Growth     |  #s_growth                     |      
 | Fulfillment|  #s_fulfillment                |      
 | Enablement |      #s_enablement             |      

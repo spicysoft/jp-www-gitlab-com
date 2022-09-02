@@ -128,7 +128,7 @@ Themes are composed of multiple elements to ensure they are defined and scoped a
 | Subthemes | More specific needs and details added to a theme; other goals the theme addresses, existing validated feature issues, research initiatives    | _Search and filter enhancements, Grouping related items in tables, Taking action on multiple items at one time_ |
 | Confidence | Informal assessments of likely impact and demonstrated need for the different themes. | _High_ | 
 | Timeframe | Now, next, future, future+ | _Now_ |
-| Owner | Stage:Group {Designer, Researcher} | _Secure:Threat Insights Designer_ |
+| Owner | Stage:Group {Designer, Researcher} | _Govern:Threat Insights Designer_ |
 
 #### Theme statements
 

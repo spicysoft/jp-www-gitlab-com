@@ -3169,6 +3169,30 @@
   target: /handbook/engineering/metrics/sec/govern
   comp_op: '='
 - sources:
+    - /handbook/engineering/metrics/sec/secure/threat-insights
+    - /handbook/engineering/metrics/sec/secure/threat-insights/
+    - /handbook/engineering/metrics/sec/secure/threat-insights/index.html
+  target: /handbook/engineering/metrics/sec/govern/threat-insights
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/dev/manage/compliance
+    - /handbook/engineering/metrics/dev/manage/compliance/
+    - /handbook/engineering/metrics/dev/manage/compliance/index.html
+  target: /handbook/engineering/metrics/sec/govern/compliance
+  comp_op: '='
+- sources:
+    - /handbook/engineering/ux/stage-group-ux-strategy/protect
+    - /handbook/engineering/ux/stage-group-ux-strategy/protect/
+    - /handbook/engineering/ux/stage-group-ux-strategy/protect/index.html
+  target: /handbook/engineering/ux/stage-group-ux-strategy/govern/
+  comp_op: '='
+- sources:
+    - /handbook/product/secure-and-protect-intern-program
+    - /handbook/product/secure-and-protect-intern-program/
+    - /handbook/product/secure-and-protect-intern-program.html
+  target: /handbook/product/secure-and-govern-intern-program.html
+  comp_op: '='
+- sources:
   - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure
   - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure/
   - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure.html
