@@ -1,7 +1,9 @@
 require_relative '../release_posts/kickoff'
+require 'faraday_middleware'
 
 namespace :release_post do
   PROJECT_ID = 7764
+  BUYER_EXPERIENCE_PROJECT_ID = 28847821
 
   desc 'Creates the monthly release post'
   task :start do |t, args|
@@ -62,9 +64,12 @@ namespace :release_post do
     performance_improvements_template = "#{unreleased_data_dir}/samples/performance_improvements.yml"
 
     # Comments
-    bugs_comment = File.open("#{unreleased_data_dir}/samples/comment_to_bugs_teams.md").read
-    usability_improvements_comment = File.open("#{unreleased_data_dir}/samples/comment_to_usability_teams.md").read
-    performance_improvements_comment = File.open("#{unreleased_data_dir}/samples/comment_to_performance_teams.md").read
+    bugs_comment = File.open("#{unreleased_data_dir}/samples/comment_to_bugs_teams.md")
+      .read
+    usability_improvements_comment = File.open("#{unreleased_data_dir}/samples/comment_to_usability_teams.md")
+      .read
+    performance_improvements_comment = File.open("#{unreleased_data_dir}/samples/comment_to_performance_teams.md")
+      .read
 
     # Abort if the release branch has already been created
     abort("Aborted! The branch #{branch_name} already exists") if `git branch | grep #{branch_name}`.tr("\n", '').strip == branch_name
@@ -327,6 +332,28 @@ namespace :release_post do
     retro_issue = @gitlab.create_issue(PROJECT_ID, "Release Post #{version} Retrospective", { description: retro_issue_template, assignee_id: @user.id })
 
     #
+    # Create MR in buyer-experience project
+    #
+
+    buyer_experience_connection = Faraday.new(
+      url: "https://gitlab.com/api/v4/",
+      headers: {
+        'PRIVATE-TOKEN' => private_token,
+        'User-Agent' => 'www-gitlab-com'
+      }
+    )
+
+    buyer_experience_connection.post("projects/#{BUYER_EXPERIENCE_PROJECT_ID}/repository/branches?branch=#{version_dash}-release-post-changes&ref=main")
+
+    buyer_experience_mr = @gitlab.create_merge_request(
+      BUYER_EXPERIENCE_PROJECT_ID, "Draft: GitLab #{version} release post changes",
+      {
+        source_branch: "#{version_dash}-release-post-changes",
+        target_branch: 'main',
+        remove_source_branch: true
+      })
+
+    #
     # Update links in Release Post MR
     #
 
@@ -338,6 +365,7 @@ namespace :release_post do
     description.gsub!('USABILITY_MR_LINK', usability_mr.web_url)
     description.gsub!('MVP_ISSUE_LINK', mvp_issue.web_url)
     description.gsub!('RETRO_ISSUE_LINK', retro_issue.web_url)
+    description.gsub!('BUYER_EXPERIENCE_LINK', buyer_experience_mr.web_url)
     @gitlab.update_merge_request(PROJECT_ID, release_post_mr.iid, { description: description })
   end
 
