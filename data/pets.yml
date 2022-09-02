@@ -2684,9 +2684,7 @@
 - name: Gobi
   picture: gobi.jpeg
   human: Inan Perillo
-  story: 'Gobi is the quietest cat in the world, only when he is asleep. When he is awake, he wants to be always at the center of the action. He is super curious, if an encyclopedia ever defines FOMO, his picture will be in it. Always a homeboy, he only ever gets out of the apartment when visiting his vet. He loves chin rubs, head scratches, and kisses and absolutely hates it when you touch his stubby tail. He is mischievous and quite vindictive, but he is also very vocal and affectionate, so he gets away with it most of the time. 
-
-    '
+  story: 'Gobi is the quietest cat in the world, only when he is asleep. When he is awake, he wants to be always at the center of the action. He is super curious, if an encyclopedia ever defines FOMO, his picture will be in it. Always a homeboy, he only ever gets out of the apartment when visiting his vet. He loves chin rubs, head scratches, and kisses and absolutely hates it when you touch his stubby tail. He is mischievous and quite vindictive, but he is also very vocal and affectionate, so he gets away with it most of the time.'
 - name: Pepper
   picture: pepperjh.png
   human: Raimund Hook
@@ -2717,9 +2715,11 @@
   story: Jynx is a Beagle/Boston Terrier mix who is terrified of being left alone.
     She can typically be found sleeping under blankets, sunbathing,
     or demanding that you play fetch with her.
+- name: Cooper
+  picture: CooperRoberts.png
+  human: Lauren Roberts
+  story: 'Cooper is the cutest almost one year old black lab. He loves listening to Taylor Swift with him mom, watching Clemson football with this dad and snacking on carrots and blueberries while mom takes calls.'
 - name: You?
   picture: "../../gitlab-logo-extra-whitespace.png"
   human:
-  story: Want to see your name and picture here? Ask your owner/servant to check out
-    our latest <a href="https://about.gitlab.com/jobs/">job openings</a>!
-
+  story: Want to see your name and picture here? Ask your owner/servant to check out our latest <a href="https://about.gitlab.com/jobs/">job openings</a>!
