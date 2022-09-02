@@ -1118,3 +1118,10 @@ terraform-provider-gitlab:
     The Terraform GitLab Provider is a plugin for Terraform that allows for the
     full lifecycle management of GitLab resources, like users, groups and
     projects.
+
+gitlab-web-ide:
+  name: gitlab-web-ide
+  path: gitlab-org/gitlab-web-ide
+  link: https://gitlab.com/gitlab-org/gitlab-web-ide
+  description: |
+    A package for bootstrapping GitLab's context-aware Web IDE.
