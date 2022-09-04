@@ -22,6 +22,7 @@ projects:
   www-gitlab-com:
   - maintainer backend
   - maintainer frontend
+  gitlab-web-ide: maintainer
 story: |
   Chad has been doing coding, sysadmin, and ops for 30+ years, since the dawn
   of the web and before - from mainframes to the cloud. He has contributed to and
