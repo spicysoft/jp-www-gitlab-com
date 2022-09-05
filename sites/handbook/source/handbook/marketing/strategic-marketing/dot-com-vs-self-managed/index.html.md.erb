@@ -1,0 +1,80 @@
+---
+layout: handbook-page-toc
+title: "Choosing between GitLab SaaS and self-managed subscriptions"
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Why you probably want GitLab SaaS
+If you don't want to worry about downloading, installing, and managing GitLab yourself, then you'll want to use **GitLab SaaS**, where there is no technical setup required. If you want full control of your GitLab environment, then you can choose to download and install **GitLab self-managed**, on your own infrastructure or in the public cloud environment.
+
+Choose the version of GitLab that is best for you — let us host it for you, or host GitLab on your servers:
+
+*  **GitLab SaaS**: GitLab's SaaS offering. You don't need to install anything to use GitLab SaaS, you only need to [sign up](https://gitlab.com/users/sign_in) and use GitLab straight away.
+*  **GitLab self-managed**: Install, administer, and maintain your own GitLab instance.
+
+**GitLab SaaS** is hosted, managed, and administered by GitLab, Inc., with free and paid options for individuals and teams: **Free**, [**Premium**](/pricing/premium/) and **Ultimate**.
+
+To support the open source community and encourage the development of open source projects, GitLab encourages users to join the [GitLab for Open Source program](https://about.gitlab.com/solutions/open-source/) to get access to **Ultimate** features.
+
+With **GitLab self-managed**, you deploy your own GitLab instance on-premises or in the cloud. From bare metal to Kubernetes, you can [run GitLab almost anywhere](/install/), with free and paid options: **Core**, **Premium**, and **Ultimate**.
+
+## Six of one, half a dozen of the other
+Feature by feature, GitLab SaaS and self-managed are mostly the same.
+
+Features that are not available to .com customers are primarily configuration or administration tasks that GitLab, Inc. necessarily manages for GitLab SaaS, with a few exceptions as detailed below.
+
+Your subscription determines which tier of features you can access. There are some differences in how a subscription applies, between use of GitLab SaaS or a self-managed instance.
+
+On GitLab SaaS, you can apply a subscription to either a group or a personal namespace. On a self-managed instance, a GitLab subscription provides the same set of features for all users.
+
+## Key differences between GitLab SaaS & self-managed
+While there are several dozen minor functional differences, they amount to a few key considerations:
+
+{::options parse_block_html="true" /}
+
+<div class="panel panel-info">
+
+**Key differences between GitLab SaaS & self-managed**
+{: .panel-heading}
+
+<div class="panel-body">
+
+| type of difference | **GitLab SaaS**  | **GitLab self-managed** |
+|:---------------||:---------------|:-------------|
+| **Infrastructure** | GitLab manages HA Architecture, and instance-level backups, recovery, and upgrades  | manage your own, anywhere |
+| **Instance wide settings** | same for all users  | custom |
+| **Access controls** | customer is group owner  | customer is admin |
+| **Features availability, such as:** | [SAML SSO](https://docs.gitlab.com/ee/user/group/saml_sso/) is Premium | [SAML](https://docs.gitlab.com/ee/integration/saml.html) or [LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/index.html) is Core |
+| **Log information and auditing**<code>&ast;</code> | no access, but Support or Security can answer questions | unrestricted access |
+| **Reporting, DevOps adoption** | Group and project level DevOps adoption reports | Usage trends, instance-level DevOps adoption reports |
+{: .custom-class #custom-id}
+
+*<code>&ast;</code> On GitLab SaaS, each user agrees to our TOS and privacy policy as an individual, regardless of what email domain they use. Thus, we cannot provide their employer with personally identifiable information such as an email address, log info, etc., as that would be a violation of our user agreement.*
+
+</div>
+</div>
+
+We should work on removing as many difference between GitLab SaaS and self-managed as possible. Please contribute relevant issues to [this epic](https://gitlab.com/groups/gitlab-org/-/epics/3182) for the Product team to consider and prioritize.
+
+## All differences between GitLab SaaS and self-managed
+
+The [GitLab Pricing page](/pricing/) includes a "Frequently asked questions" section which answers "What features do not apply to GitLab SaaS?" _Some of the bullets below require clarification, here and on the web site._ That list includes:
+
+| Feature missing on GitLab.com | Status |
+| ----------------------------- | ------ |
+<% data.features.features.select{|feature| feature.gitlab_com == false && (feature.gitlab_ultimate == true || feature.gitlab_premium == true || feature.gitlab_starter == true || feature.gitlab_core == true)}.each do |feature| %>
+| <%= link_to(feature.title, feature.link) %> | <%= feature.gitlab_com_parity ? feature.gitlab_com_parity : "To be determined" %> |
+<% end %>
+
+### Features not applicable to GitLab SaaS
+
+Some features of GitLab do not apply for users of GitLab.com, as they are focused on the operations of an instance itself. For example we run a fault-tolerant PostgreSQL cluster on GitLab.com, but communicating this in our feature list to users can be confusing, as it is not something they can turn on or directly use. These features include:
+
+<% data.features.features.select{|feature| feature.gitlab_com == "not_applicable" && (feature.gitlab_ultimate == true || feature.gitlab_premium == true || feature.gitlab_starter == true || feature.gitlab_core == true)}.each do |feature| %>
+* <%= link_to feature.title, feature.link %>
+<% end %>
