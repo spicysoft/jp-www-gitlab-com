@@ -9,4 +9,4 @@ tertiary:
     description: |
       Some of the notable bug fixes in 15.4 are:
 
-      - [Description](https://gitlab.com/gitlab-org/gitlab-ce/issues/12345).
+      - [Pipeline WebHook intermittently has incorrect completed events (canceled/success)](https://gitlab.com/gitlab-org/gitlab/-/issues/366755).
