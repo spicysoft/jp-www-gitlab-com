@@ -1,17 +1,21 @@
 name: Isabel Sandin
 locality: 
 country: Remote
-role: <a href="">Manager, Fullstack Engineering</a>
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Manager, Fullstack Engineering</a>
 reports_to: jeromeng
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: isandin.jpg
+pronouns: She/They
 pronunciation:
 twitter:
-linkedin:
+linkedin: isabel-sandin-a855781ab
 gitlab: isandin
 departments:
   - Development
+  - Fulfillment Section
+  - Fulfillment:Commerce Integrations Team
 specialty: "Fulfillment"
 expertise:
-story:
-
+story: Isabel has worked with businesses build out integrations with billing
+  and financial systems to help data flow smoohtly from customer experience to
+  recorded revenue. When not working they can be found cycling or contemplating
+  ways to make retro hardware never do things envisoned by the orginal designers.
