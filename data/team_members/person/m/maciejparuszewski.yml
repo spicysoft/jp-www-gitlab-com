@@ -12,8 +12,8 @@ projects:
   gitlab:
   - reviewer backend
   secure-container-scanning:
-    - reviewer backend
-    - maintainer backend
+  - reviewer backend
+  - maintainer backend
 departments:
 - Engineering Function
 - Development Department
@@ -32,5 +32,5 @@ story: |
   In his spare time, he loves spending time with his family (lovely wife, daughter, son, and adorable dog)
   and enjoys cooking, learning new languages, and traveling.
 specialty:
-- 'Govern: Security Policies'
+- 'Protect: Container Security'
 

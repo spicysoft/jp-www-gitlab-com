@@ -11,8 +11,8 @@ country: Remote
 projects:
   gitlab: reviewer backend
   secure-container-scanning:
-    - reviewer backend
-    - maintainer backend
+  - reviewer backend
+  - maintainer backend
 departments:
 - Engineering Function
 - Development Department
@@ -30,5 +30,5 @@ story: |
   has been working for over ten years as a software engineer. When he is not coding, he
   enjoys playing soccer, learning other cultures and training dogs.
 specialty:
-- 'Govern: Security Policies'
+- 'Protect: Container Security'
 

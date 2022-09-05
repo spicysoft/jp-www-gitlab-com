@@ -20,8 +20,10 @@ departments:
 - Merge Request Coach
 projects:
   gitlab: reviewer frontend
-expertise: |
-  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
+expertise: '<li><a href="/job-families/expert/merge-request-coach/">Merge Request
+  Coach</a></li>
+
+  '
 story: 'Daniel has lived in Hawaii for most of his life and has been working on web
   applications ever since graduating with a degree in Computer Science. He is passionate
   about gaming and has worked for multiple gaming companies in the past before joining
@@ -30,5 +32,5 @@ story: 'Daniel has lived in Hawaii for most of his life and has been working on 
 
   '
 specialty:
-- 'Govern: Threat Insights'
+- 'Secure: Threat Insights'
 

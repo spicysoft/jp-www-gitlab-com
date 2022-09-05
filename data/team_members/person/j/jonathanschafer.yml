@@ -11,8 +11,10 @@ pronouns: he/him
 projects:
   gitlab: reviewer backend
   security-report-schemas: trainee_maintainer backend
-expertise: |
-  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
+expertise: '<li><a href="/job-families/expert/merge-request-coach/">Merge Request
+  Coach</a></li>
+
+  '
 departments:
 - Engineering Function
 - Development Department
@@ -29,5 +31,5 @@ story: |
   to full stack web applications. When he's not writing code, he loves spending time with his wife, two boys,
   and little girl - playing games, golfing, coaching, tubing, and trying interesting restaurants.
 specialty:
-- 'Govern: Threat Insights'
+- 'Secure: Threat Insights'
 
