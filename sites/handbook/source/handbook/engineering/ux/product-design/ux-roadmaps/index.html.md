@@ -101,7 +101,7 @@ There are a few key differences between the [Neilsen Norman Group UX Roadmaps](h
 >**A roadmap that is imperfect but is in a place where people typically work is better than a great roadmap that is in a tool rarely used.** 
 >_Neilsen Norman Group, course on UX roadmaps_
 
-There are many tools at our disposal to create and maintain a UX roadmap, from Mural to Trello and even Figma. However, it is recommended to use Gitlab boards as they are in a place we are comfortable with, not to mention this adds another use case for dogfooding boards and provides the team feedback for potential improvements. The UX roadmap board will be the primary way we consume and share the roadmap, while the individual themes will be the primary way we plan and work on the roadmap.
+There are many tools at our disposal to create and maintain a UX roadmap, from Mural to Trello and even Figma. However, it is recommended to use GitLab boards as they are in a place we are comfortable with, not to mention this adds another use case for dogfooding boards and provides the team feedback for potential improvements. The UX roadmap board will be the primary way we consume and share the roadmap, while the individual themes will be the primary way we plan and work on the roadmap.
 
 #### Stage:Group UX roadmaps and epics 
 
