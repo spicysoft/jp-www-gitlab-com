@@ -107,7 +107,7 @@ We follow the [GitLab workflow](/handbook/engineering/workflow/#product-developm
 
 For UX-related issues or MRs that involve all groups across Secure and Govern (if you're unsure who the DRI is), we encourage transparency and collaboration by using `@gitlab-com/gitlab-ux/secure-govern-ux`. 
 
-For any feature development on, or affecting the performance of, the Security Dashboard and the Vulnerability Report pages, the Threat Insight backend engineering team should be notified early on by using the `@gitlab-org/secure/threat-insights-backend-team` handle to evaluate the performance impact of the feature.
+For any feature development on, or affecting the performance of, the Security Dashboard and the Vulnerability Report pages, the Threat Insight backend engineering team should be notified early on by using the `@gitlab-org/govern/threat-insights-backend-team` handle to evaluate the performance impact of the feature.
 
 ### Team meetings
 * UX Group Team Social (Secure & Govern, Configure and Montior teams Check-in and hang out) weekly meeting on Tuesdays at 8:00am PST (See below for more details)
