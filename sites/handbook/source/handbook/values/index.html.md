@@ -647,7 +647,10 @@ When possible, we give people the responsibility to make a decision and hold the
 
 ##### 失敗を受け入れる {#accept-mistakes}
 {:.no_toc}
-Not every problem should lead to a new process to prevent them. Additional processes make all actions more inefficient; a mistake only affects one. Once you have accepted the mistake, learn from it.
+起きてしまった問題が二度と起きないようにするために、ダブルチェックをすべきではありません。
+ダブルチェックは今後のすべての業務の効率が下がります。
+でもミスをしてもその業務にしか影響をしません。
+ミスを受け入れて、ミスから学んでください。
 
 ##### 最小限の変更で迅速に出荷する {#move-fast-by-shipping-the-minimal-viable-change}
 {:.no_toc}
