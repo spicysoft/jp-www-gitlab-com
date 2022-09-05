@@ -13,8 +13,10 @@ departments:
 - Development Department
 - Dev Section
 - Plan:Certify BE Team
-expertise: |
-  <li><a href="https://docs.gitlab.com/ee/user/group/epics/index.html">Portfolio management</a> <a href="/company/team/structure/#expert">expert</a></li>
+expertise: '<li><a href="https://docs.gitlab.com/ee/user/group/epics/index.html">Portfolio
+  management</a> <a href="/company/team/structure/#expert">expert</a></li>
+
+  '
 domain_expertise:
 - rails
 - portfolio_management
@@ -36,5 +38,5 @@ remote_story: |
   I can do sport or hike in beautiful mountains in the morning and work in the afternoon or late evenings.
   It also helps me to keep healthy relationships as I can meet friends for lunch or spend a day with my parents while working.
   Working remotely at GitLab simply supports me in leading a fulfilling life.
-specialty: Product Planning
+specialty: Plan
 

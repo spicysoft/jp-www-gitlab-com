@@ -34,11 +34,10 @@ story: 'Originally trained as in industrial designer, Andy has been designing in
   '
 specialty:
 - 'Secure: Vulnerability Research'
-- "Secure: Static Analysis"
-- "Secure: Fuzz Testing"
-- "Secure: Dynamic Analysis"
-- "Secure: Composition Analysis"
-- "Govern: Security Policies"
-- "Govern: Threat Insights"
-- "Govern: Compliance"
+- " Secure: Threat Insights"
+- " Secure: Static Analysis"
+- " Secure: Fuzz Testing"
+- " Secure: Dynamic Analysis"
+- " Secure: Composition Analysis"
+- " Protect: Container Security"
 

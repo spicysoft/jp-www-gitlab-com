@@ -24,12 +24,12 @@ domain_expertise:
 - kubernetes
 projects:
   gitlab:
-    - reviewer backend
+  - reviewer backend
   secure-container-scanning:
-    - reviewer backend
-    - maintainer backend
+  - reviewer backend
+  - maintainer backend
 specialty:
-- 'Govern: Security Policies'
+- 'Protect: Container Security'
 expertise:
 story: |
   Sashi loves contributing to open source and loves writing code in Ruby.

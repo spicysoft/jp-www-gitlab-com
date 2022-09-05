@@ -2,7 +2,8 @@
 name: Huzaifa Iftikhar
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/">Backend Engineer</a>, Govern:Compliance
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer</a>,
+  Govern:Compliance
 reports_to: nrosandich
 picture: huzaifaiftikhar.jpg
 pronouns:
@@ -17,11 +18,11 @@ departments:
 - Govern:Compliance BE Team
 - Govern:Compliance Fullstack Team
 projects:
-  gitlab: 
-    - maintainer backend
-    - reviewer database
+  gitlab:
+  - maintainer backend
+  - reviewer database
 specialty:
-- 'Govern: Compliance'
+- 'Manage: Compliance'
 expertise:
 story:
 
