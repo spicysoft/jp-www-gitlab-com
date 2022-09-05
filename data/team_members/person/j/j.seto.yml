@@ -1,7 +1,7 @@
 name: Senior Backend Engineer 
 locality: 
 country: Remote
-role: <a href="">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>
 reports_to: sean-carroll
 picture: ../gitlab-logo-extra-whitespace.png
 pronouns:
@@ -10,8 +10,11 @@ twitter:
 linkedin:
 gitlab: j.seto
 departments:
-  - Development
-specialty: "Create: Source Code"
+  - Engineering Function
+  - Development Department
+  - Dev Section
+  - Create:Source Code BE Team
+specialty: Source Code
 expertise:
 story:
 
