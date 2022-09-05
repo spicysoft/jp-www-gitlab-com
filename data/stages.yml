@@ -908,7 +908,7 @@ stages:
     slack:
       channel: s_secure
     gitlab_group: gitlab-org/secure
-    handbook: engineering/development/secure/
+    handbook: engineering/development/sec/secure/
     cta: includes/ctas/security-whitepaper
     groups:
       static_analysis:
@@ -916,7 +916,7 @@ stages:
         pm: Connor Gilbert
         focus: Static Analysis Paid GMAU
         pmm: Cindy Blake
-        backend_engineering_manager: Thomas Woodham
+        backend_engineering_manager: Amar Patel
         be_team_tag: Secure:Static Analysis BE Team
         fe_team_tag:
         support: Greg Myers, Eric Rosenberg
