@@ -36,7 +36,6 @@ When no specific deployment type (omnibus, source code, helm chart, etc.) of a p
 |[Arbitrary HTTP Requests Possible in .ipynb Notebook with Malicious Form Tags](#arbitrary-http-requests-possible-in-ipynb-notebook-with-malicious-form-tags)|medium|
 |[Regular Expression Denial of Service via special crafted input](#regular-expression-denial-of-service-via-special-crafted-input)|medium|
 |[Information Disclosure via Arbitrary GFM references rendered in Incident Timeline Events](#information-disclosure-via-arbitrary-gfm-references-rendered-in-incident-timeline-events)|medium|
-|[Regex backtracking  through the `Commit message` field](#regex-backtracking-through-the-commit-message-field)|medium|
 |[Read repository content via LivePreview feature](#read-repository-content-via-livepreview-feature)|medium|
 |[Denial of Service via the Create branch API](#denial-of-service-via-the-create-branch-api)|medium|
 |[Denial of Service via Issue preview](#denial-of-service-via-issue-preview)|medium|
@@ -113,13 +112,6 @@ An improper access control issue in GitLab CE/EE affecting all versions starting
 
 Thanks [yvvdwf](https://hackerone.com/yvvdwf) for reporting this vulnerability through our HackerOne bug bounty program.
 
-## Regex backtracking  through the `Commit message` field
-
-<!-- https://gitlab.com/gitlab-org/security/gitlab/-/issues/734 -->
-
-A potential DOS vulnerability was discovered in GitLab CE/EE affecting all versions from 10.7 before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. Malformed content added to the Commit message could have been used to trigger high CPU usage. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L`, 4.3). It is now mitigated in the latest release and is assigned [CVE-2022-2931](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2931).
-
-Thanks [ryhmnlfj](https://hackerone.com/ryhmnlfj) for reporting this vulnerability through our HackerOne bug bounty program.
 
 ## Read repository content via LivePreview feature
 
