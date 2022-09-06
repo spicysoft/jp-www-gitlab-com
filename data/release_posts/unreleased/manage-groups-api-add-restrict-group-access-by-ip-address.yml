@@ -1,14 +1,14 @@
 ---
 features:
   secondary:
-  - name: "Groups API: Add Restrict group access by IP address"
+  - name: "Add IP restriction via Groups API"
     available_in: [premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
     reporter: hsutor
     stage: manage
     categories:
-    - Authentication and Authorization
+    - System Access
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/351493'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      Previously, IP address restrictions could only be configured in the UI. Now, you can add a comma seperated list of IP addresses or subnet masks via the API, allowing you to do this programatically.
