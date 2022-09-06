@@ -22,7 +22,7 @@ releases:
   manager-name: tbd
   manager-shadow: tbd
   structural_check: tbd
-  messaging: tbd
+  messaging: BrianMason
   messaging-shadow: tbd
   social: --
   technical_advisor: tbd
@@ -55,7 +55,7 @@ releases:
   manager-name: Matt Wilson
   manager-shadow: tbd
   structural_check: claytoncornell
-  messaging: jbianchini
+  messaging: jenniferbianchini
   messaging-shadow: tbd
   social: --
   technical_advisor: tbd
@@ -66,7 +66,7 @@ releases:
   manager-name: Derek Ferguson
   manager-shadow: matt_wilson
   structural_check: fneill
-  messaging: supadhyaya
+  messaging: anair5
   messaging-shadow: tbd
   social: --
   technical_advisor: brhea
