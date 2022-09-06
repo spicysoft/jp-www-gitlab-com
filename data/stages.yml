@@ -32,9 +32,9 @@ stages:
       - "configure"
       - "monitor"
       - "secure"
-      - "protect"
+      - "govern"
     section: dev
-    pm: Viktor Nagy (Acting)
+    pm: Sarah Waldner (Acting)
     groups:
       authentication_and_authorization:
         name: Authentication & Authorization
@@ -117,48 +117,9 @@ stages:
         group_link: product/product-categories#workspace-group
         pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039419
 
-      compliance:
-        name: Compliance
-        pm: Sam Kerr
-        focus: Manage Compliance Paid GMAU
-        pmm: Cindy Blake
-        cm: Suri Patel
-        em: Nathan Rosandich
-        be_team_tag: Manage:Compliance BE Team
-        fe_team_tag: Manage:Compliance FE Team
-        support: TBD
-        pdm:
-          - Blair Christopher
-        ux:
-          - TBD
-        uxr:
-          - Anne Lasch
-        tech_writer: Evan Read
-        sets:
-          - TBD
-        appsec_engineer: Nick Malcolm
-        cs_team_tag: Compliance Group CS Stable Counterpart
-        internal_customers:
-          - department: Customer Support Department
-            dri: TBD
-          - department: Security Department
-            dri: TBD
-          - department: Infrastructure Department
-            dri: TBD
-        categories:
-          - audit_events
-          - audit_reports
-          - compliance_management
-        usage_driver_score: 1
-        asp_driver_score: 5
-        sam_driver_score: 5
-        group_link: product/product-categories#compliance-group
-        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=9980315
-        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039422
-
       import:
         name: Import
-        pm: Itzik Gan-Baruch (Acting)
+        pm: Magdalena Frankiewicz (Acting)
         focus: Manage Import GMAU
         pmm: Cormac Foster
         cm: Suri Patel
@@ -169,7 +130,7 @@ stages:
         pdm:
           - Blair Christopher
         ux:
-          - Dan Mizzi-Harris
+          - TBD
         uxr:
           - Anne Lasch
         tech_writer: Evan Read
@@ -205,7 +166,7 @@ stages:
         pdm:
           - Blair Christopher
         ux:
-          - Dan Mizzi-Harris
+          - TBD
         uxr:
           - Anne Lasch
         tech_writer: Fiona Neill
@@ -305,8 +266,8 @@ stages:
         focus: Plan Product Planning Paid GMAU
         pmm: Cormac Foster
         cm: Suri Patel
-        backend_engineering_manager: John Hope
-        frontend_engineering_manager: John Hope
+        backend_engineering_manager: Kushal Pandya
+        frontend_engineering_manager: Kushal Pandya
         be_team_tag: Plan:Product Planning BE Team
         fe_team_tag: Plan:Product Planning FE Team
         handbook: product/categories/plan/
@@ -348,13 +309,13 @@ stages:
         backend_engineering_manager: John Hope
         frontend_engineering_manager: John Hope
         be_team_tag: Plan:Certify BE Team
-        fe_team_tag: Plan FE Team
+        fe_team_tag: Plan:Certify FE Team
         handbook: product/categories/plan/
         support: []
         pdm:
           - Blair Christopher
         ux:
-          - TBD
+          - Dan Mizzi-Harris
         uxr:
           - Anne Lasch
         tech_writer: Marcin Sędłak-Jakubowski
@@ -444,6 +405,7 @@ stages:
             dri: TBD
         categories:
           - source_code_management
+          - git_lfs
         usage_driver_score: 5
         asp_driver_score: 4
         sam_driver_score: 5
@@ -575,7 +537,7 @@ stages:
           - Libor Vanc
         uxr:
           - TBD
-        tech_writer: Kati Paizee
+        tech_writer: Ashraf Khamis
         appsec_engineer: Dominic Couture
         slack:
           channel: g_ecosystem_integrations
@@ -672,7 +634,7 @@ stages:
         focus: Verify & Runner SMAU
         cm: Chrissie Buchanan
         pmm: Saumya Upadhyaya
-        backend_engineering_manager: Mark Nuzzo
+        backend_engineering_manager: Caroline Simpson
         frontend_engineering_manager: Sam Beckham
         be_team_tag: Verify:Pipeline Execution BE Team
         fe_team_tag: Verify:Pipeline Execution FE Team
@@ -788,6 +750,7 @@ stages:
         tech_writer: Suzanne Selhorn
         appsec_engineer: Dominic Couture
         cs_team_tag: Runner Group CS Stable Counterpart
+        infra_reliability_team_tag: Runner Group Reliability Stable Counterpart
         internal_customers:
           - department: Infrastructure Department
             dri: TBD
@@ -865,7 +828,7 @@ stages:
     sam_driver_score: 2
     stage_development_spend_percent: 3.5
     analyst_reports:
-    pm: Kenny Johnston
+    pm: Viktor Nagy
     section: ops
     slack:
       channel: s_package
@@ -906,7 +869,6 @@ stages:
           - helm_chart_registry
           - dependency_proxy
           - dependency_firewall
-          - git_lfs
         usage_driver_score: 3
         asp_driver_score: 2
         sam_driver_score: 4
@@ -941,12 +903,12 @@ stages:
         url: "https://about.gitlab.com/analysts/forrester-sca/"
     related:
       - "create"
-      - "protect"
+      - "secure"
     section: sec
     slack:
       channel: s_secure
     gitlab_group: gitlab-org/secure
-    handbook: engineering/development/secure/
+    handbook: engineering/development/sec/secure/
     cta: includes/ctas/security-whitepaper
     groups:
       static_analysis:
@@ -954,10 +916,10 @@ stages:
         pm: Connor Gilbert
         focus: Static Analysis Paid GMAU
         pmm: Cindy Blake
-        backend_engineering_manager: Thomas Woodham
+        backend_engineering_manager: Amar Patel
         be_team_tag: Secure:Static Analysis BE Team
         fe_team_tag:
-        support: Greg Myers
+        support: Greg Myers, Eric Rosenberg
         appsec_engineer: Nikhil George
         pdm:
           - Justin Mandell
@@ -1056,6 +1018,7 @@ stages:
             dri: TBD
         categories:
           - dependency_scanning
+          - container_scanning
           - license_compliance
         usage_driver_score: 3
         asp_driver_score: 5
@@ -1066,42 +1029,6 @@ stages:
           - security reports integration
         pi_gmau: "https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/sec-section/#securecomposition-analysis---gmau---users-running-any-sca-scanners"
         pi_pgmau: "https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/sec-section/#securecomposition-analysis---gmau---users-running-any-sca-scanners"
-
-      threat_insights:
-        name: "Threat Insights"
-        slack:
-          channel: g_secure_threat_insights
-        pm: Matt Wilson
-        focus: Threat Insights Paid GMAU
-        pmm: Cindy Blake
-        backend_engineering_manager: Thiago Figueiró
-        frontend_engineering_manager: Neil McCorrison
-        be_team_tag: Secure:Threat Insights BE Team
-        fe_team_tag: Secure:Threat Insights FE Team
-        support: Greg Myers
-        appsec_engineer: Nikhil George
-        pdm:
-          - Justin Mandell
-        ux:
-          - Rebecca "Becka" Lippert
-        uxr:
-          - Michael Oliver
-        tech_writer: Clayton Cornell
-        sets:
-          - Harsha Muralidhar
-        cs_team_tag: Threat Insights Group CS Stable Counterpart
-        internal_customers:
-          - department: Security Department
-            dri: TBD
-        categories:
-          - vulnerability_management
-        usage_driver_score: 4
-        asp_driver_score: 5
-        sam_driver_score: 5
-        group_link: product/categories/#threat-insights-group
-        feature_labels:
-          - MR security reports
-          - pipeline security reports
 
       vulnerability_research:
         name: Vulnerability Research
@@ -1137,8 +1064,11 @@ stages:
       Create protections against insider threat activiy within a GitLab instance. This includes abuse, spam, and other activity for users within a GitLab instance.
     direction: /direction/anti-abuse/
     marketing: false
+    tw: true
     established: 2021
     pm: Jensen Stava
+    em:
+      - Phil Calder
     groups:
       anti-abuse:
         name: Anti-Abuse
@@ -1153,6 +1083,7 @@ stages:
         pm: Jensen Stava
         em: Jay Swain
         appsec_engineer: Nick Malcolm
+        tech_writer: Phillip Wells
         be_team_tag: Anti-Abuse Fullstack Team
 
 
@@ -1182,7 +1113,7 @@ stages:
     section: ops
     slack:
       channel: s_release
-    pm: Kevin Chu
+    pm: Viktor Nagy
     handbook: product/categories/#release-stage
     groups:
       release:
@@ -1248,7 +1179,7 @@ stages:
     stage_development_spend_percent: 4.7
     related:
       - "release"
-    pm: Kevin Chu
+    pm: Viktor Nagy
     pmm: Saumya Upadhyaya
     pdm:
       - Justin Mandell
@@ -1283,7 +1214,7 @@ stages:
         uxr:
           - Will Leidheiser
         qm: Joanna Shih
-        tech_writer: Suzanne Selhorn
+        tech_writer: Phillip Wells
         appsec_engineer: Vitor Meireles De Sousa
         cs_team_tag: Configure Group CS Stable Counterpart
         internal_customers:
@@ -1340,7 +1271,7 @@ stages:
     groups:
       respond:
         name: "Respond"
-        pm: Kevin Chu (Interim)
+        pm: Alana Bellucci
         focus: Respond GMAU
         pmm: Cormac Foster
         cm: Chrissie Buchanan
@@ -1421,17 +1352,17 @@ stages:
         pi_pgmau:
         comp_comparison:
 
-  protect:
-    display_name: "Protect"
+  govern:
+    display_name: "Govern"
     marketing: true
     tw: true
-    image: "/images/solutions/solutions-protect.png"
-    description: "Enforce policies to discover and protect your software from vulnerabilities."
+    image: "/images/solutions/solutions-govern.png"
+    description: "Manage security vulnerabilities, policies, and compliance across your organization."
     body: |
-      GitLab scans cloud native environments for vulnerabilities and also provides unified security policy management.
-    direction: /direction/protect/
-    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Aprotect&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
-    established: 2019
+      GitLab helps users manage security vulnerabilities, policies, and compliance across their organization.
+    direction: /direction/govern/
+    roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Agovern&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
+    established: 2022
     lifecycle: 1
     usage_driver_score: 1
     revenue_driver_score: 1
@@ -1443,20 +1374,23 @@ stages:
       - "secure"
       - "manage"
     section: sec
+    em:
+      - Phil Calder
     slack:
-      channel: s_protect
-    gitlab_group: gitlab-org/protect
-    handbook: engineering/development/protect/
+      channel: s_govern
+    gitlab_group: gitlab-org/govern
+    handbook: engineering/development/sec/govern/
     groups:
-      container_security:
-        name: Container Security
+      security_policies:
+        name: Security Policies
         pm: Sam White
-        focus: Container Security Paid GMAC
+        focus: Security Policies Paid GMAU
         pmm: Cindy Blake
-        backend_engineering_manager: Thiago Figueiró
-        frontend_engineering_manager: Neil McCorrison
-        be_team_tag: Protect:Container Security BE Team
-        fe_team_tag: Protect:Container Security FE Team
+        fullstack_managers:
+          - Thiago Figueiró
+          - Neil McCorrison
+        be_team_tag: Govern:Security Policies BE Team
+        fe_team_tag: Govern:Security Policies FE Team
         appsec_engineer: Nikhil George
         pdm:
           - Justin Mandell
@@ -1465,21 +1399,95 @@ stages:
         uxr:
           - Michael Oliver
         tech_writer: Clayton Cornell
-        cs_team_tag: Container Security Group CS Stable Counterpart
+        cs_team_tag: Security Policies Group CS Stable Counterpart
         internal_customers:
           - department: Security Department
             dri: TBD
           - department: Infrastructure Department
             dri: TBD
         categories:
-          - security_orchestration
-          - container_scanning
+          - security_policy_management
         usage_driver_score: 1
         asp_driver_score: 2
         sam_driver_score: 2
-        group_link: product/categories/#container-security-group
+        group_link: product/categories/#security-policies-group
         slack:
-          channel: g_protect_container_security
+          channel: g_govern_security_policies
+
+      threat_insights:
+        name: "Threat Insights"
+        slack:
+          channel: g_govern_threat_insights
+        pm: Matt Wilson
+        focus: Threat Insights Paid GMAU
+        pmm: Cindy Blake
+        fullstack_managers:
+          - Thiago Figueiró
+          - Neil McCorrison
+        be_team_tag: Govern:Threat Insights BE Team
+        fe_team_tag: Govern:Threat Insights FE Team
+        support: Greg Myers
+        appsec_engineer: Nikhil George
+        pdm:
+          - Justin Mandell
+        ux:
+          - Rebecca "Becka" Lippert
+        uxr:
+          - Michael Oliver
+        tech_writer: Clayton Cornell
+        sets:
+          - Harsha Muralidhar
+        cs_team_tag: Threat Insights Group CS Stable Counterpart
+        internal_customers:
+          - department: Security Department
+            dri: TBD
+        categories:
+          - vulnerability_management
+        usage_driver_score: 4
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/categories/#threat-insights-group
+        feature_labels:
+          - MR security reports
+          - pipeline security reports
+
+      compliance:
+        name: Compliance
+        pm: Sam Kerr
+        focus: Govern Compliance Paid GMAU
+        pmm: Cindy Blake
+        cm: Suri Patel
+        em: Nathan Rosandich
+        be_team_tag: Govern:Compliance BE Team
+        fe_team_tag: Govern:Compliance FE Team
+        support: TBD
+        pdm:
+          - Blair Christopher
+        ux:
+          - TBD
+        uxr:
+          - Anne Lasch
+        tech_writer: Evan Read
+        sets:
+          - TBD
+        appsec_engineer: Nick Malcolm
+        cs_team_tag: Compliance Group CS Stable Counterpart
+        internal_customers:
+          - department: Customer Support Department
+            dri: TBD
+          - department: Security Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - audit_events
+          - compliance_management
+        usage_driver_score: 1
+        asp_driver_score: 5
+        sam_driver_score: 5
+        group_link: product/product-categories#compliance-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=9980315
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039422
 
   analytics:
     display_name: Analytics
@@ -1528,9 +1536,40 @@ stages:
           - department: Data Team
             dri: TBD
         categories:
-            - product_analytics
             - service_ping
             - privacy_control_center
+      product_analytics:
+        name: Product Analytics
+        direction: /direction/product-analytics/
+        handbook: engineering/development/analytics
+        pm: Sam Kerr (Interim)
+        pmm: TBD
+        cm: Suri Patel
+        backend_engineering_manager: Dennis Tang
+        support: TBD
+        be_team_tag: Product Analytics Team
+        appsec_engineer: Greg Alfaro
+        pdm:
+          - TBD
+        uxr:
+          - TBD
+        sets:
+          - Carlo Catimbang
+        tech_writer: Clayton Cornell
+        cs_team_tag: Product Intelligence Group CS Stable Counterpart
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Data Team
+            dri: TBD
+        categories:
+            - product_analytics
 
   fulfillment:
     display_name: Fulfillment
@@ -1736,7 +1775,7 @@ stages:
       - configure
       - monitor
       - secure
-      - protect
+      - govern
     established: 2019
     internal_customers:
       - department: Sales Department
@@ -1760,7 +1799,7 @@ stages:
         em: Kamil Niechajewicz
         be_team_tag: Acquisition Fullstack Team
         fe_team_tag:
-        tech_writer: Kati Paizee
+        tech_writer: Phillip Wells
         support: TBD
         appsec_engineer: Costel Maxim
         pdm:
@@ -1790,7 +1829,7 @@ stages:
         em: Kamil Niechajewicz
         be_team_tag: Activation Fullstack Team
         fe_team_tag:
-        tech_writer: Kati Paizee
+        tech_writer: Phillip Wells
         support: TBD
         appsec_engineer: Costel Maxim
         pdm:
@@ -1951,6 +1990,7 @@ stages:
         sets:
           - John McDonnell
         cs_team_tag: Gitaly Group CS Stable Counterpart
+        infra_reliability_team_tag: Gitaly Group Reliability Stable Counterpart
         internal_customers:
           - department: Quality Department
             dri: TBD
@@ -2033,7 +2073,7 @@ stages:
         name: "Application Performance"
         description: "Responsible for improving availability, reliability, and performance of the GitLab application"
         focus: Memory PPI
-        pm: Fabian Zimmer (Acting)
+        pm: Gabe Weaver (Acting)
         pmm: Cormac Foster
         backend_engineering_manager: Changzheng Liu
         be_team_tag: Application Performance BE Team
@@ -2090,7 +2130,7 @@ stages:
           - Will Leidheiser
         sets:
           - Erick Banks
-        tech_writer: Suzanne Selhorn
+        tech_writer: Ashraf Khamis
         slack:
           channel: g_global_search
         gitlab_group: gitlab-org/search-team
@@ -2115,7 +2155,7 @@ stages:
         name: Database
         description: "Developing solutions for scalability, application performance, data growth and developer enablement especially where it concerns interactions with the database."
         focus: Database PPI
-        pm: Fabian Zimmer (Acting)
+        pm: Gabe Weaver (Acting)
         pmm: Cormac Foster
         backend_engineering_manager: Alex Ives
         be_team_tag: Database BE Team
@@ -2372,12 +2412,12 @@ stages:
     pm: David DeSanto
     groups:
       moble_devops:
-        name: DevOps for Mobile Apps
+        name: Mobile DevOps
         slack:
-          channel: g_mobile_devops
+          channel: mobile-devops
         categories:
           - mobile_signing_deployment
-        group_link: product/categories/#devops-for-mobile-apps-group
+        group_link: product/categories/#mobile-devops-group
 
   deploy:
     display_name: Deploy

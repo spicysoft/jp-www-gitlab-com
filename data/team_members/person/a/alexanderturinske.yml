@@ -4,7 +4,7 @@ placeholder: true
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer,
-  Protect:Container Security</a>
+  Govern:Security Policies</a>
 reports_to: nmccorrison
 picture: aturinske.jpg
 mentor: true
@@ -14,7 +14,9 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
-- Protect:Container Security FE Team
+- Govern Sub-department
+- Govern frontend capability
+- Govern:Security Policies FE Team
 - Frontend
 - Merge Request Coach
 projects:

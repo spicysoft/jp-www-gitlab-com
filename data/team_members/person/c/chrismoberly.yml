@@ -2,7 +2,7 @@
 name: Chris Moberly
 locality:
 country: Remote
-role: <a href="/job-families/engineering/red-team">Interim Security Manager, Red Team</a>
+role: <a href="/job-families/engineering/red-team">Security Manager, Red Team</a>
 reports_to: stevemanzuik
 picture: chrismoberly.jpg
 twitter: init_string
@@ -15,7 +15,6 @@ story: |
   Chris is a hacker with over twenty years of professional experience
   in information technology. He enjoys breaking the things he loves,
   like Linux distributions and open-source software, in an effort
-  to make them stronger. Chris grew up in the San Francisco Bay Area
-  and now lives with his family in beautiful Melbourne, Australia.
+  to make them stronger.
 specialty: Red Team
 

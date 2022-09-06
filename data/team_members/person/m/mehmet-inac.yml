@@ -3,7 +3,7 @@ name: Mehmet Emin Inac
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer,
-  Secure:Threat Insights</a>
+  Govern:Threat Insights</a>
 reports_to: thiagofigueiro
 picture: meinac.jpeg
 gitlab: minac
@@ -11,7 +11,7 @@ projects:
   gitlab:
   - reviewer database
   - trainee_maintainer backend
-  protect-container-scanning:
+  secure-container-scanning:
   - maintainer backend
   - reviewer backend
   security-report-schemas:
@@ -27,7 +27,9 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
-- Secure:Threat Insights BE Team
+- Govern Sub-department
+- Govern backend capability
+- Govern:Threat Insights BE Team
 story: |
   Mehmet started programming in high-school with scripting languages and decided to get degree
   in Computer Science. Since then he has worked with many languages in many different areas of

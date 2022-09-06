@@ -25,5 +25,19 @@ story: 'Pavel is a Ruby developer with strong thirst of making fast, stable, sec
 
   '
 specialty:
-- 'Manage: Optimize'
+  - 'Manage: Optimize'
+domain_experise:
+  - ruby
+  - rails
+  - rest_api
+  - graphql
+  - postgres
+expertise: |
+  <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge Request Buddy</a></li>
+  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/analytics/value_stream_analytics.html">Value Stream Analytics</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/group/devops_adoption/#group-devops-adoption">DevOps Adoption Analytics</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/analytics/productivity_analytics.html">Productivity Analytics</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html">Code Review Analytics</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/group/insights/">Insights</a> <a href="/company/team/structure/#expert">expert</a></li>
 

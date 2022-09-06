@@ -163,7 +163,7 @@ graph LR;
             gcp-eng-dev-configure-x["eng-dev-configure-x"]
             gcp-eng-dev-monitor-x["eng-dev-monitor-x"]
             gcp-eng-dev-secure-x["eng-dev-secure-x"]
-            gcp-eng-dev-protect-x["eng-dev-protect-x"]
+            gcp-eng-dev-govern-x["eng-dev-govern-x"]
             gcp-eng-dev-growth-x["eng-dev-growth-x"]
             gcp-eng-dev-enablement-x["eng-dev-enablement-x"]
             gcp-eng-quality-x["eng-quality-x"]
@@ -265,7 +265,7 @@ graph LR;
     gcp-realm-eng-dev-->gcp-eng-dev-configure-x;
     gcp-realm-eng-dev-->gcp-eng-dev-monitor-x;
     gcp-realm-eng-dev-->gcp-eng-dev-secure-x;
-    gcp-realm-eng-dev-->gcp-eng-dev-protect-x;
+    gcp-realm-eng-dev-->gcp-eng-dev-govern-x;
     gcp-realm-eng-dev-->gcp-eng-dev-growth-x;
     gcp-realm-eng-dev-->gcp-eng-dev-enablement-x;
     gcp-realm-eng-dev-->gcp-eng-quality-x;

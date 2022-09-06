@@ -1,7 +1,9 @@
 require_relative '../release_posts/kickoff'
+require 'faraday_middleware'
 
 namespace :release_post do
   PROJECT_ID = 7764
+  BUYER_EXPERIENCE_PROJECT_ID = 28847821
 
   desc 'Creates the monthly release post'
   task :start do |t, args|
@@ -62,9 +64,12 @@ namespace :release_post do
     performance_improvements_template = "#{unreleased_data_dir}/samples/performance_improvements.yml"
 
     # Comments
-    bugs_comment = File.open("#{unreleased_data_dir}/samples/comment_to_bugs_teams.md").read
-    usability_improvements_comment = File.open("#{unreleased_data_dir}/samples/comment_to_usability_teams.md").read
-    performance_improvements_comment = File.open("#{unreleased_data_dir}/samples/comment_to_performance_teams.md").read
+    bugs_comment = File.open("#{unreleased_data_dir}/samples/comment_to_bugs_teams.md")
+      .read
+    usability_improvements_comment = File.open("#{unreleased_data_dir}/samples/comment_to_usability_teams.md")
+      .read
+    performance_improvements_comment = File.open("#{unreleased_data_dir}/samples/comment_to_performance_teams.md")
+      .read
 
     # Abort if the release branch has already been created
     abort("Aborted! The branch #{branch_name} already exists") if `git branch | grep #{branch_name}`.tr("\n", '').strip == branch_name
@@ -231,6 +236,7 @@ namespace :release_post do
     template.gsub!('/DD', '/' + day)
     template.gsub!('-DD', '-' + day)
     template.gsub!('@release_post_manager', release_post_manager)
+    template.gsub!('@release_post_manager_shadow', release_post_manager_shadow)
     template.gsub!('@tw_lead', tw_lead)
     template.gsub!('@tech_advisor', tech_advisor)
     template.gsub!('@pmm_lead', pmm_lead)
@@ -326,6 +332,28 @@ namespace :release_post do
     retro_issue = @gitlab.create_issue(PROJECT_ID, "Release Post #{version} Retrospective", { description: retro_issue_template, assignee_id: @user.id })
 
     #
+    # Create MR in buyer-experience project
+    #
+
+    buyer_experience_connection = Faraday.new(
+      url: "https://gitlab.com/api/v4/",
+      headers: {
+        'PRIVATE-TOKEN' => private_token,
+        'User-Agent' => 'www-gitlab-com'
+      }
+    )
+
+    buyer_experience_connection.post("projects/#{BUYER_EXPERIENCE_PROJECT_ID}/repository/branches?branch=#{version_dash}-release-post-changes&ref=main")
+
+    buyer_experience_mr = @gitlab.create_merge_request(
+      BUYER_EXPERIENCE_PROJECT_ID, "Draft: GitLab #{version} release post changes",
+      {
+        source_branch: "#{version_dash}-release-post-changes",
+        target_branch: 'main',
+        remove_source_branch: true
+      })
+
+    #
     # Update links in Release Post MR
     #
 
@@ -337,6 +365,36 @@ namespace :release_post do
     description.gsub!('USABILITY_MR_LINK', usability_mr.web_url)
     description.gsub!('MVP_ISSUE_LINK', mvp_issue.web_url)
     description.gsub!('RETRO_ISSUE_LINK', retro_issue.web_url)
+    description.gsub!('BUYER_EXPERIENCE_LINK', buyer_experience_mr.web_url)
     @gitlab.update_merge_request(PROJECT_ID, release_post_mr.iid, { description: description })
+  end
+
+  desc 'Content assembly'
+  task :assemble do |t, args|
+    # GITLAB_BOT has sufficient privileges in www-gitlab-com
+    `git config --global user.email "job+bot@gitlab.com"`
+    `git config --global user.name "Bot"`
+
+    # Load release post managers data from yaml
+    release_post_managers = YAML.load_file(File.expand_path('../../data/release_post_managers.yml', __dir__))
+
+    # Determine the active XX.Y version and set participants
+    release_post_managers["releases"].each_cons(2) do |r|
+      date = Date.parse(r[0]["date"])
+      unpublished = (date - Date.today).to_i >= 0
+      next unless unpublished && (r[1] && (Date.parse(r[1]["date"]) - Date.today).to_i.negative?)
+
+      @current_post ||= ReleasePosts::Kickoff.new(r[0])
+    end
+
+    version = @current_post.version
+    version_dash = version.tr('.', '-')
+    branch_name = "release-#{version_dash}"
+
+    `git checkout #{branch_name}`
+    `bin/release-post-assemble`
+    `git add .`
+    `git commit -m 'Perform content assembly'`
+    `git push --set-upstream https://jobbot:#{ENV.fetch('GITLAB_BOT_TOKEN')}@gitlab.com/gitlab-com/www-gitlab-com.git #{branch_name}`
   end
 end

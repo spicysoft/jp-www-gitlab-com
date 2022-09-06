@@ -1,0 +1,86 @@
+---
+layout: default
+title: GitLab Alliance Partners
+description: Every application that supports Git will work with GitLab. Click here to see some of the applications & integrations we would like to highlight.
+suppress_header: true
+extra_css:
+  - applications.css
+extra_js:
+  - applications/search_bar.js
+  - applications/broken_image_placeholder.js
+  - applications/categories_scroller.js
+  - scroll_to_top.js
+---
+.wrapper
+  .simple-header
+    %h1 GitLab Alliance Partners
+    .container
+      .header-container-content
+        .row
+          .col-md-10.col-md-offset-1
+            %h2 Join the GitLab Alliance Partner ecosystem.
+            %p.intro.text-center  GitLab is open to collaboration and committed to building partnerships and solutions for the DevOps community. Learn more about the Alliance Partner Program and benefits of becoming a GitLab Alliance Partner on the <a href="https://about.gitlab.com/handbook/alliances/" style="color: #ffffff; text-decoration: underline;">GitLab Alliances Handbook page</a>. Ready to apply?
+        .row
+          .buttons-container.margin-top30
+            = link_to "Apply today", "https://partners.gitlab.com", class: "btn cta-btn orange", :"data-ga-name" => "apply today", :"data-ga-location" => "header"
+  .gitlab-content-container
+    .search-container
+      .flex-container.justify-center.align-center
+        %span.fas.fa-search.search-apps-container-icon
+        %input.js-search-apps{ type: "search", placeholder: "Search for an application by name" }
+      %ul.suggestions
+        .js-suggestions
+    .js-app-list.affix-threshold
+      .applications-info-container.container.flex-container.flex-wrap-md.full-width.partners-container
+        .app-categories-container
+          .app-categories
+            - data.applications.each do |category|
+              %a.app-category{ href: "##{category.id}", :"data-ga-name" => category.id, :"data-ga-location" => "body"}
+                = partial "/images/applications/categories/#{category.id.underscore}.svg"
+                %span.category-name= category.title
+      - data.applications.each do |category|
+        %h2.category-title.js-category-title= category.title.split.map(&:capitalize).join(' ')
+        .category-applications{ id: category.id }
+          - category.applications.each do |application|
+            .application.tile
+              .app-image-container
+                - fullpath = Dir.glob("#{monorepo_root}/source/images/applications/apps/" + application.title.parameterize.underscore + '.{gif,jpg,jpeg,png,svg}').to_s
+                - if application.image_path_optional
+                  - buildpath = application.image_path_optional.to_s
+                - else
+                  - buildpath = JSON.parse(fullpath).join(', ').split('source')[1]
+                %img.app-image{ data: { src: "#{image_path(buildpath)}", alt: "#{application.title} logo image", loading: 'lazy'} }
+              %h4.js-application-title
+                = application.title
+              %p
+                = application.content
+              - if application.links
+                - application.links.each do |app_link|
+                  %a{href: app_link.url, title: app_link.title, class: 'link', target: '_blank', rel: 'noopener noreferrer', :"data-ga-name" => app_link.ga_name, :"data-ga-location" => app_link.ga_location}
+                    = app_link.title
+                  %br
+
+
+    -# - data.applications.each do |category|
+    -#   %h2.category-title.js-category-title= category.title.split.map(&:capitalize).join(' ')
+    -#   .category-applications{ id: category.id }
+    -#     - category.applications.each do |application|
+    -#       .application.tile
+    -#         .app-image-container
+    -#           %img.app-image{ data: { src: "/images/applications/apps/#{application.title.parameterize.underscore}.png" } }
+    -#         %h4
+    -#           = application.title
+    -#         %p.app-content
+    -#           = application.content
+    -#         - if application.links
+    -#           - application.links.each do |app_link|
+    -#             %a{href: app_link.url, title: app_link.title, class: 'link', target: '_blank', rel: 'noidex noopener nofollow noreferrer'}
+    -#               = app_link.title
+    -#             %br
+
+    .js-scroll-to-top.scroll-to-top
+      %i.fa.fa-chevron-up
+
+%p.text-center.trademark All logos and trademarks are the property of their respective owners.
+
+%script#js-placeholder-image{ type: 'text/template' }= partial '/images/applications/apps/handshake_placeholder.svg'

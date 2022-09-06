@@ -732,7 +732,7 @@ We offer four different [products](/stages-devops-lifecycle/) for you and your c
 - {: #ee} **[GitLab Enterprise Edition](/pricing/) (EE)**: [Open core](https://gitlab.com/gitlab-org/gitlab-ee/), self-hosted, fully featured solution of GitLab. Available in two different subscriptions:
   - {: #ees} **GitLab Enterprise Edition Starter (EES)**: Ideal for co-located teams who need additional security and workflow controls for their professional projects.
   - {: #eep} **GitLab Enterprise Edition Premium (EEP)**: Ideal for distributed teams who need advanced workflow controls, premium features, High Availability, and Premium Support.
-- {: #gitlab-dot-com} **[GitLab.com](/pricing/#gitlab-com)**: SaaS GitLab solution, with [free and paid subscriptions](/pricing/#gitlab-com). GitLab.com is hosted by GitLab, Inc. Ideal for individuals who want to get their projects up and running quickly. Administrated by GitLab (users don't have access to admin settings).
+- {: #gitlab-dot-com} **[GitLab.com](/pricing/) **: SaaS GitLab solution, with [free and paid subscriptions](/pricing/#gitlab-com). GitLab.com is hosted by GitLab, Inc. Ideal for individuals who want to get their projects up and running quickly. Administrated by GitLab (users don't have access to admin settings).
 
 </div>
 </div>

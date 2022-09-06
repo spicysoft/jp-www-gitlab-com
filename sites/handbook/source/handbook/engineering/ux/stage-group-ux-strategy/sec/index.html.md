@@ -1,6 +1,6 @@
 ---
 layout: handbook-page-toc
-title: "Secure & Protect UX"
+title: "Secure & Govern UX"
 description: "We’re designing an experience that enables contributors to commit their most secure work and to protect what they have in production."
 ---
 
@@ -39,9 +39,9 @@ Organizations of all sizes benefit from our tools and the experience of bringing
 * What are the upcoming features? (we are selling contracted services vs monthly)
 
 ### Jobs to be Done
-We use the [Jobs to be Done (JTBDs) framework](/handbook/engineering/ux/jobs-to-be-done/) to keep us focused on user goals and to make sure we're supporting users on what they value. See a breakdown of the Secure and Protect Jobs to be Done [here](/handbook/engineering/ux/stage-group-ux-strategy/sec/jtbd/index.html).
+We use the [Jobs to be Done (JTBDs) framework](/handbook/engineering/ux/jobs-to-be-done/) to keep us focused on user goals and to make sure we're supporting users on what they value. See a breakdown of the Secure and Govern Jobs to be Done [here](/handbook/engineering/ux/stage-group-ux-strategy/sec/jtbd/index.html).
 
-We also carry out [UX Scorecard evaluations](/handbook/engineering/ux/ux-scorecards/) for our JTBDs. See UX Scorecards for Secure and Protect, as well as for other stages, [here](https://gitlab.com/groups/gitlab-org/-/epics/1714).
+We also carry out [UX Scorecard evaluations](/handbook/engineering/ux/ux-scorecards/) for our JTBDs. See UX Scorecards for Secure and Govern, as well as for other stages, [here](https://gitlab.com/groups/gitlab-org/-/epics/1714).
 
 ### Team
 * [Justin Mandell](https://gitlab.com/jmandell) - Product Design Manager
@@ -57,18 +57,19 @@ We've divided our stage into dedicated experience groups to align with a similar
 
 | Group                  | Category                                            | DRI Designer(s)                   |
 | ---------------------- | --------------------------------------------------- | --------------------------------- |
-| Composition Analysis   | Dependency Scanning, License Compliance             | Secure & Protect UX Team (shared) |
+| Composition Analysis   | Dependency Scanning, License Compliance             | Secure & Govern UX Team (shared)  |
 | Dynamic Analysis       | DAST, Fuzz Testing                                  | Michael Fangman                   |
 | Static Analysis        | SAST, Secret Detection, Code Quality                | Michael Fangman                   |
-| Threat Insights        | Vulnerability Management                            | Becka Lippert, Andy Volpe         |
 
-**Protect**
+**Govern**
 
-| Group                    | Category                                      | DRI Designer(s) |
-| ------------------------ | --------------------------------------------- | --------------- |
-| Container Security       | Security Orchestration and Container Scanning | Camellia Yang   |   
+| Group                    | Category                                           | DRI Designer(s)           |
+| ------------------------ | -------------------------------------------------- | ------------------------- |
+| Container Security       | Security Orchestration and Container Scanning      | Camellia Yang             |
+| Threat Insights          | Vulnerability Management and Dependency Management | Becka Lippert, Andy Volpe |
+| Compliance               | Compliance Management and Audit Events             | TBH                       |
 
-The Secure & Protect UX teams work closely together on all things Secure & Protect and have shared coverage in the following areas:
+The Secure & Govern UX teams work closely together on all things Secure & Govern and have shared coverage in the following areas:
 
 - Security Dashboards
 - Security Reports 
@@ -87,30 +88,30 @@ Read more about how we've created these dedicated experience groups [here.](http
 
 #### Team strategy
 **Short-term (6m - 12m)** (as of 2021-09-22)
-* 💕 🧠 Educate our teams and couterparts on our goals, strategies and reasoning behind them
-* 🖼 Develop a roadmapping framework to be used across all Secure & Protect teams
+* 💕 🧠 Educate our teams and counterparts on our goals, strategies and reasoning behind them
+* 🖼 Develop a roadmapping framework to be used across all Secure & Govern teams
 * 📐 Review, assess, and address our existing UI for learnability and usability
 * 🚀 Deliver solutions for unmet needs based on JTBD, allowing users to adopt GitLab as their DevOps Platform
 
 **Long-term (1y - 3y)** (as of 2021-09-22)
 * 📚 Evaluate the app security maturity landscape and help our users level-up their maturity (see Empowerment in the [Overview section](/handbook/engineering/ux/stage-group-ux-strategy/sec/#overview))
 * 🚌 Help our users learn and up-skill their teams' knowledge on the importance of using our tools and how to use them effectively (see Education, Empowerment & Shifting left in the [Overview section](/handbook/engineering/ux/stage-group-ux-strategy/sec/#overview))
-* 💕 🧠 Continue to educate our teams and couterparts on our goals, strategies and reasoning behind them
+* 💕 🧠 Continue to educate our teams and counterparts on our goals, strategies and reasoning behind them
 
 #### UX pages
 * [Secure UX](/handbook/engineering/ux/stage-group-ux-strategy/secure/)
-* [Protect UX](/handbook/engineering/ux/stage-group-ux-strategy/protect/)
+* [Govern UX](/handbook/engineering/ux/stage-group-ux-strategy/govern/)
 
 ### How we work
 We follow the [GitLab workflow](/handbook/engineering/workflow/#product-development-timeline) with [additional dates](/handbook/engineering/ux/stage-group-ux-strategy/sec/) and actions that directly tie to our work. 
 
-For UX-related issues or MRs that involve all groups across Secure and Protect (if you're unsure who the DRI is), we encourage transparency and collaboration by using `@gitlab-com/gitlab-ux/secure-protect-ux`. 
+For UX-related issues or MRs that involve all groups across Secure and Govern (if you're unsure who the DRI is), we encourage transparency and collaboration by using `@gitlab-com/gitlab-ux/secure-govern-ux`. 
 
-For any feature development on, or affecting the performance of, the Security Dashboard and the Vulnerability Report pages, the Threat Insight backend engineering team should be notified early on by using the `@gitlab-org/secure/threat-insights-backend-team` handle to evaluate the performance impact of the feature.
+For any feature development on, or affecting the performance of, the Security Dashboard and the Vulnerability Report pages, the Threat Insight backend engineering team should be notified early on by using the `@gitlab-org/govern/threat-insights-backend-team` handle to evaluate the performance impact of the feature.
 
 ### Team meetings
-* UX Group Team Social (Secure & Protect, Configure and Montior teams Check-in and hang out) weekly meeting on Tuesdays at 8:00am PST (See below for more details)
-* Secure & Protect UX - Product Design and Product Management come together every 4 weeks for a refinement session on Wednesdays at 7:00am PST (We review the upcoming milesont plan, 2 weeks before the new milestone starts)
+* UX Group Team Social (Secure & Govern, Configure and Montior teams Check-in and hang out) weekly meeting on Tuesdays at 8:00am PST (See below for more details)
+* Secure & Govern UX - Product Design and Product Management come together every 4 weeks for a refinement session on Wednesdays at 7:00am PST (We review the upcoming milesont plan, 2 weeks before the new milestone starts)
 * Pre milestone Planning Session Monthly on the second Monday at 9:00am PST (We finalize the plan for the upcoming milestone)
 
 These include topics relevant to Secure design, UX, and research. Some example topics could include:
@@ -174,11 +175,11 @@ At the start of each Milestone, we create a Team Milestone Planning Issue (using
     <!-- Group Capacity is the number of weight points you are able to contribute to your group work this milestone.
     Flex Capacity is any extra weight points you'll hold in reserve to accommodate any OKR, UX Dept or any other extracorricular work that you expect will pop-up during this milestone  -->
     | Designer | Group Capacity | Flex Capacity | TOTAL Capacity |
-    | ------ | ------ | ------ | ------ |
-    | Andy     |   |   |   |
-    | Becka    |   |   |   |
-    | Camellia |   |   |   |
-    | Michael  |   |   |   |
+    | -------- | ------ | ------ | ------ |
+    | Andy     |        |        |        |
+    | Becka    |        |        |        |
+    | Camellia |        |        |        |
+    | Michael  |        |        |        |
 
      ### Product Designer's Out Of Office (OOO)
      | Designer | OOO Start - End |
@@ -193,90 +194,124 @@ At the start of each Milestone, we create a Team Milestone Planning Issue (using
      * [SUS Related Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/3738104?label_name[]=SUS&label_name[]=severity%3A%3A2)
 
     ### Composition Analysis UX Needs - UX Roadmap Theme: `<theme link here>`
-    #### UX Theme 
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-
-    #### Non-theme related needs
     
-    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+    #### UX Theme 
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
     | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    #### Non-theme related needs
+
+    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
     ### Container Security UX Needs
+    
     #### UX Theme 
-    
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-    
-    #### Non-theme related needs
-    
-    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
-    
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
-     2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+    | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    #### Non-theme related needs
+
+    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
     ### Dynamic Analysis UX Needs
+    
     #### UX Theme 
-    
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-    
-    #### Non-theme related needs
-    
-    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
-    
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
     | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    #### Non-theme related needs
+
+    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
     ### Static Analysis UX Needs
+    
     #### UX Theme 
-    
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-    
-    #### Non-theme related needs
-    
-    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
-    
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
     | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
-    ### Threat Insights UX Needs
-    #### UX Theme 
-    
-    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically as opposed to in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
-    
-    | UX Theme | Theme status | Category | Designer | Ready for Build By | Est Milestone Weight | 
-    | --- | --- | --- | --- | --- | --- |
-    | <!-- [Theme title here](link) --> | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- category name here --> | <!-- @desginer --> | <!-- Milestone --> | <!-- estimate wt to be contributed to theme in this milestone --> | 
-    
     #### Non-theme related needs
-    
+
     <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    ### Threat Insights UX Needs
     
+    #### UX Theme 
+    <!-- Working in themes is a goal we should always aim for. It allows teams to design holistically instead of in small parts of a whole, issue-by-issue. Sometimes things don't fit nicely into a theme, add those issues to the Non-theme related needs table. -->
+    | UX Theme | Theme status | Designer | Vision Design Ready By (Milestone or :white_check_mark:)  | Est Milestone Weight | 
+    | --- | --- | --- | --- | --- | 
+    | <!-- theme issue here -->  | <!-- ~"workflow::design", ~"workflow::solution validation" --> | <!-- @ designer -->  | <!-- MS or :white_check_mark: -->  |<!-- weight here --> |  
+
+    ##### Theme MVC Issues
+    <!-- Once a Theme's Vision design has been completed (:white_check_mark:) you'll work with your counterparts to break it down into manageable MVCs. This is where the higher fidelity work (coloring in the wireframe if you will) will happen. -->
+
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
     | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
     | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
     | 2 | <!--  link goes here  --> | <!-- Needs solution validation --> | <!-- 💪  --> | <!-- designer name  --> | <!-- Milestone  --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
+
+    #### Non-theme related needs
+
+    <!-- Issue priority is determined by looking at the first Priority column's priority number, measuring that against the Need/Nice to have a column, and then finally against when it needs to be Ready for Build By. All of these items together will determine an overall priority that can be used as a measure against another issue in another Group's table. This can be helpful when determining if a designer needs to drop an issue in one Group to pick up another issue in a different Group. -->
+
+    | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight | Carryover Notes |
+    | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+    | 1 | <!-- link goes here  --> | <!-- Ready for design --> | <!-- 💯  --> | <!-- designer name  --> | <!-- Milestone --> | <!-- approx weight --> | <!-- Add notes why not done in prev milestone --> |
 
     ### OKR/Extra UX Needs
     | Priority | Issue/Epic | State | 💯 Need / 💪 Nice to have | Designer | Ready for Build By | ≅ Weight |
@@ -288,7 +323,7 @@ At the start of each Milestone, we create a Team Milestone Planning Issue (using
      * [ ] Set the Due Date for the end of the current Milestone
      * [ ] Assign the entire team PMs and PDs
 
-    /label ~"section::sec" ~"Planning Issue"
+    /label ~"section::sec" ~"Planning Issue" ~"ux" ~"type::ignore
 
 
 ##### Understanding capacity
@@ -304,12 +339,12 @@ Part of our milestone planning activities include factoring in the amount of eff
 | Gigantic | 13     | A significant change that spans across multiple flows and that would require significant input from others (teams, team members, user feedback) and there are many unknown unknowns. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller issues. |
 
 ### Our strategy
-The Secure and Protect UX teams are working together to [uncover customers core needs](https://gitlab.com/groups/gitlab-org/-/epics/1611), what our users’ workflows looks like, and defining how we can make our users tasks easier. Our strategy involves the following actions:
+The Secure and Govern UX teams are working together to [uncover customers' core needs](https://gitlab.com/groups/gitlab-org/-/epics/1611), what our users’ workflows looks like, and defining how we can make our users tasks easier. Our strategy involves the following actions:
 
 * [UX Scorecards and recommendations](/handbook/engineering/ux/ux-scorecards/) (quarterly)
 * Internal understanding: stakeholder interviews (annually)
 * Iterating on Secure product [foundation's document](https://gitlab.com/gitlab-org/gitlab-design/issues/333) (ongoing)
-* Iterating on Protect product [foundation's document](https://gitlab.com/gitlab-org/gitlab-design/issues/547) (ongoing)
+* Iterating on Govern product [foundation's document](https://gitlab.com/gitlab-org/gitlab-design/issues/547) (ongoing)
 * Performing heuristic evaluations on at least 3 competitors, based competitors the 3 user type is using (annually, ongoing)
 * We talk to our customer (ongoing)
 * We talk to our users (ongoing)
@@ -320,7 +355,7 @@ Additionally, we value the following:
 * Drinking our own wine and partnering closely with our internal Security and Compliance teams for feedback and feature adoption
 * Partnering with our sales and account team to connect directly with customers and learn why customers did (or didn’t) choose our product
 * Collaborating with stakeholders on proof of concept discoveries to better understand future consideration
-* Collaborating between the Secure and Protect teams to make sure we’re offering a consistent and cohesive security workflow so that our customers can apply reactive findings into proactive measures and make sure their applications are protected throughout the entire application lifecycle
+* Collaborating between the Secure and Govern teams to make sure we’re offering a consistent and cohesive security workflow so that our customers can apply reactive findings into proactive measures and make sure their applications are protected throughout the entire application lifecycle
 * Prioritizing issues that are likely to increase our number of active users
 
 The source of truth lives with shipped features, therefore we:
@@ -353,6 +388,6 @@ Below is a list of resoruces that provide a foundational understanding of the in
 - [Vulnerability Management: Assessing the Risks with CVSS v3.1](https://www.linkedin.com/learning/vulnerability-management-assessing-the-risks-with-cvss-v3-1/welcome-to-this-course?u=2255073) • 1h 14m • Intermediate
 
 ### Follow our work
-Our [Secure and Protect UX YouTube channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KrFCe5BgUkzFrZifjforQOz) includes UX Scorecard walkthroughs, UX reviews, group feedback sessions, team meetings, and more.
+Our [Secure and Govern UX YouTube channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KrFCe5BgUkzFrZifjforQOz) includes UX Scorecard walkthroughs, UX reviews, group feedback sessions, team meetings, and more.
 
 

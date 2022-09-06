@@ -20,9 +20,5 @@ story: 'Michelle is an engineering manager who became interested in development 
   and motivating others to continue this passion.
 
   '
-specialty:
-- 'Manage: Optimize'
-- " Manage: Import"
-- " Manage: Compliance"
-- " Manage: Access"
+specialty: Manage
 

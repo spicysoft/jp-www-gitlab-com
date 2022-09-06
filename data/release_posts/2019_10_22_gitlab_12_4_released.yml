@@ -3,7 +3,7 @@ features:
   top:
     - name: "Merge Request Dependencies"
       available_in: [premium, ultimate]
-      documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_dependencies.html'
+      documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html'
       image_url: '/images/12_4/mr-dependencies.png'
       reporter: jramsay
       stage: create

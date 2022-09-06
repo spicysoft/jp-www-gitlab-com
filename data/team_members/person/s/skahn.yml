@@ -1,17 +1,17 @@
 name: Stefan Kahn
 locality: 
 country: Remote
-role: <a href="">Senior Security Engineer</a>
+role: <a href="/job-families/engineering/vulnerability-management/#senior-security-engineer---threat--vulnerability-management">Senior Security Engineer, Threat & Vulnerability Management</a>
 reports_to: stevemanzuik
-picture: ../gitlab-logo-extra-whitespace.png
+picture: /stefankahn.jpg
 pronouns:
 pronunciation:
 twitter:
 linkedin:
-gitlab: skahn
+gitlab: skahn007
 departments:
   - Security
-specialty: "Threat Management"
-expertise:
-story:
+specialty: Threat Management
+expertise: 
+story: "Stefan enjoys building stuff to enable self service, tooling/processes/frameworks are all fair game"
 

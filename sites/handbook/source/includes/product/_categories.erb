@@ -63,6 +63,7 @@
         <% groupLine << "Product Sponsor: [#{group.product_sponsor}]" if group.product_sponsor %>
         <% groupLine << "Product Marketing Manager: [#{group.pmm}]" if group.pmm %>
         <% groupLine << "Engineering Manager: [#{group.em}]" if group.em %>
+        <% groupLine << "Fullstack Managers: " + Array(group.fullstack_managers).map{ |fem| "[#{fem}]"}.join(", ") if group.fullstack_managers %>
         <% groupLine << "Support: " + Array(group.support).map{ |support| "[#{support}]"}.join(", ") if group.support %>
         <% groupLine << "Backend Engineering Manager: [#{group.backend_engineering_manager}]" if group.backend_engineering_manager %>
         <% groupLine << "Frontend Engineering Manager: [#{group.frontend_engineering_manager}]" if group.frontend_engineering_manager %>
@@ -79,6 +80,7 @@
         <% groupLine << "Customer Success: #{team_links_from_group(group: group.cs_team_tag)}" if group.cs_team_tag %>
         <% groupLine << "Internal Customer".pluralize(group.internal_customers.count) + ": " + group.internal_customers.map{ |customer| "[#{customer.department}] ([#{customer.dri}])" }.join(", ") if group.internal_customers %>
         <% groupLine << "Infrastructure Manager: [#{section.rem}]" if section.rem %>
+        <% groupLine << "Site Reliability Engineering: #{team_links_from_group(group: group.infra_reliability_team_tag)}" if group.infra_reliability_team_tag %>
         <% groupLine << "Focus: [#{group.focus}]" if group.focus %>
         <% groupLine << "[Features in this Group](/handbook/product/categories/features##{stage.display_name.downcase}#{group.name.downcase.tr(" ","-")}-group)" %>
 

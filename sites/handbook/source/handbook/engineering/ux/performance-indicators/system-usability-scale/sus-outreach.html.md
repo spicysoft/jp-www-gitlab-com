@@ -4,18 +4,16 @@ title: "System Usability Scale responder outreach"
 description: "The System Usability Scale (SUS) is a performance indicator we use to measure the long term usability of our product. This page outlines the process for reaching out to survey respondents who have opted-in to having a follow-up discussion with our UX team."
 ---
 
-Every quarter, we include a question in the SUS survey that asks whether respondents would be interested in discussing their responses with a member of the UX team. 
-
-We have created a process for Product Designers (PDs) to conduct follow-up interviews so that they can get a better understanding of the usability issues respondents are experiencing. PDs can follow up with respondents by scheduling a user interview or communicating through email.
-This outreach is optional for UX team members but highly encouraged. 
+Every quarter, we include a question in the SUS survey that asks whether respondents would be interested in discussing their responses with a GitLab team member. This is a great opportunity for Product Designers and Product Managers to learn more about the usability challenges for their specific product area. 
 
 #### Overall process
 1. The UX Researcher running the SUS survey shares a Google sheet that contains scores and verbatims from respondents who have agreed to a follow-up conversation.
-1. PDs can review the sheet and inform the SUS UX Researcher that they are interested in reaching out to the repsondent.
-1. The SUS UX Researcher shares the respondent's email address with the PD (either via direct message in Slack or via email to limit sharing of Personally Idenifiable Information or PII) and marks the respondent as 'Contacted' in the sheet. If multiple PDs are interested in speaking to the same respondent, the SUS UX Researcher will identify a lead PD who can coordinate a joint interview. We do this so that we can ensure that multiple team members aren't contacting a respondent.
-1. After receiving the respondent's email address, PDs reach out to respondents and schedule interviews.
-1. After the interview, PDs mark the respondent as 'Complete' in the sheet.
-1. PDs add any notes and links to video recordings to the UX Research shared Google Drive.
+1. The UX Researcher creates an outreach issue to manage the responder outreach.
+1. First, Product Leaders go through the Google sheet and sign up for outreach and/or tag in their Product Managers.
+1. Product Managers review the sheet and confirm who they want to speak to. They tag their Product Design counterparts to decide who will be leading the interview. The interview leader will be responsible for reaching out to the user and scheduling the interview. Once contacted, they mark the respondent as 'Contacted' in the sheet. 
+1. If multiple GitLab team members are interested in speaking to the same respondent, coordinate with the team member that contacted the respondent to align on questions to be asked. **We do not want the same respondent be contacted multiple times and by multiple GitLab team members.**
+1. After the interview, mark the respondent as 'Complete' in the sheet.
+1. Add any notes and links to video recordings to the UX Research shared Google Drive.
 
 - Current SUS UX Researcher: @nickhertz
 

@@ -476,7 +476,7 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 * [All Marketing Live Demos](/handbook/marketing/strategic-marketing/demo/#live-instructions)
 
 ### Roadmap
-* [Secure and Protect Roadmap](https://docs.google.com/presentation/d/16prp0FY0dcP8eWtCbk1K5Mh7j4180oq1Vi3JnJ46Oqo/edit?usp=sharing) (DevSecOps is highlighted in red)
+* [Secure and Govern Roadmap](https://docs.google.com/presentation/d/1XcOmwUvaSEYhj87dvHj05l3t-JuBEcLaFdhSEDvX4EY/edit#slide=id.g1364cbe562a_0_269)
 
 ## Technical Resources for Solution Architects
 

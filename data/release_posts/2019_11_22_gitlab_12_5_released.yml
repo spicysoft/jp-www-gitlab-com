@@ -749,7 +749,7 @@ features:
       available_in: [ultimate]
       documentation_link: 'https://docs.gitlab.com/ee/user/clusters/applications.html#web-application-firewall-modsecurity'
       reporter: stkerr
-      stage: protect
+      stage: govern
       issue_url: 'https://gitlab.com/gitlab-org/gitlab/issues/8558'
       description: |
           The [Web Application Firewall (WAF)](/blog/2019/09/22/gitlab-12-3-released/#web-application-firewall-for-kubernetes-ingress)

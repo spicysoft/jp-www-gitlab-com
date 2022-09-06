@@ -3,7 +3,7 @@ name: Phil Calder
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/management/senior-manager/">Senior
-  Engineering Manager</a>, Anti-Abuse, Growth, Protect and Secure
+  Engineering Manager</a>, Anti-Abuse, Govern, and Growth
 reports_to: waynehaber
 picture: philcalder.png
 twitter:
@@ -13,6 +13,7 @@ departments:
 - Development Department
 - Growth Section
 - Sec Section
+- Govern Sub-department
 - Merge Request Buddy
 expertise: <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge
   Request Buddy</a></li>

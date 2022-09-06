@@ -169,6 +169,29 @@ When you find something interesting to be shared with our brand account, please 
 - [@b0rk](https://twitter.com/b0rk) 200K+ (dev, learning zines)
 - [@emmabostian](https://twitter.com/EmmaBostian) 200k+ (dev, design)
 
+### Thought Leader Efficency Tips
+
+The following tips evolved from @dnsmichi experimenting with thought leadership strategies and efficiency. 
+
+- Follow [thought leaders](/handbook/marketing/community-relations/developer-evangelism/social-media/#thought-leader-examples) and engineers who share thoughts and interesting content.
+  - Eventually users follow back - the more invisible benefit is that the Twitter and LinkedIn algorithms will show you more content you potentially like to see. 
+- Repurpose everyone's content and use it as a way to learn and educate. 
+- Subscribe to the [newsletters](/handbook/marketing/community-relations/developer-evangelism/social-media/#content-sources) and extract your focus topics and content.
+- Do not immediately retweet/reshare tweets or content you see in your social streams. Collect them in a GitLab issue, Markdown file in Git, etc. 
+  - Evaluate potential trending topics and prioritize the [scheduled tweets queue](/handbook/marketing/community-relations/developer-evangelism/social-media/#scheduled-content).
+- Collect all blog articles, tweets, and tools for daily use and compile them into a monthly blog post or newsletter issue.
+  - Create 1-2 sentences sharing your thoughts on the article, its content, what you liked, what you see as a emerging trend, etc. 
+  - Publish the newsletter / blog post and tag all folks who contributed to your success in a Twitter thread / LinkedIn post. This shows appreciation and helps with engagement and reshares. Example: Dotan appreciated his talk being shared, and [reshared the newsletter post](https://www.linkedin.com/posts/horovits_2022-08-16-observability-reports-metrics-activity-6965960507111444480-K_L).
+- Make room for your own content based on what you learn from the articles and talks.
+  - Seed this into the summary blog and newsletter. 
+- Regularly review your learnings and adjust themes and messaging.
+  - Update talk stories and thoughts based on the learned ideas.
+
+The [August 2022 issue of Michael's opsindev.news newsletter](https://opsindev.news/archive/2022-08-16/) helped fill the social media queue for 2-3 weeks, with 2 shares during week days. That way folks stay engaged on Twitter and LinkedIn, and learn about your thought leadership on these topics. The content also inspired future talks messaging, and helped update the [strategy for Observability in FY23](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2593).
+
+- [Newsletter text](https://opsindev.news/archive/2022-08-16/): `The first release of Cilium Service Mesh is available following the release of Cilium 1.12. "eBPF-Native When Possible" - Besides the option to remove sidecars, Cilium Service Mesh can perform a variety of service mesh features directly in eBPF to reduce the overhead even further.`
+- [Twitter text](https://twitter.com/dnsmichi/status/1559969314643525632): `The first release of @ciliumproject #ServiceMesh (https://buff.ly/3w89QG2) is available following the release of #Cilium 1.12 (https://buff.ly/3K4xB7B). #eBPF-Native When Possible - perform a variety of service mesh features directly in eBPF to reduce the overhead even further 🚀`
+
 
 ## Social Campaigns
 

@@ -1,17 +1,20 @@
 name: Sylvester Chin
-locality: 
+locality:
 country: Remote
-role: <a href="">Backend Engineer, Scalability</a>
+role: <a href="/job-families/engineering/backend-engineer/">Backend Engineer, Scalability</a>
 reports_to: liam-m
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: sylvesterchin.png
+pronouns: he/him
 pronunciation:
 twitter:
-linkedin:
+linkedin: sylvesterchin
 gitlab: schin1
 departments:
-  - Infrastructure
-specialty: "Scalability"
+- Engineering Function
+- Infrastructure Department
+- Platform Subdepartment
+- Scalability Team
+specialty: Scalability
 expertise:
 story:
 

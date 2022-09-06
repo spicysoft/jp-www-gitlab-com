@@ -32,7 +32,7 @@ Some UX teams have documented detailed information about their ways of working a
         * [Monitor](/direction/monitor/)
 * [Enablement](/handbook/engineering/ux/stage-group-ux-strategy/enablement/) (`@gitlab-com/gitlab-ux/enablement-ux`)
 * [Sec](/direction/security/)
-    * [Secure and Protect](/engineering/ux/stage-group-ux-strategy/sec/) (`@gitlab-com/gitlab-ux/secure-protect-ux`)
+    * [Secure and Govern](/engineering/ux/stage-group-ux-strategy/sec/) (`@gitlab-com/gitlab-ux/secure-govern-ux`)
 * Growth UX
     * [How we approach experiments](/handbook/engineering/ux/ux-resources/experimentation/) 
 
@@ -99,6 +99,7 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 | 15.3 (2022-07-18) | Matthew Nearents | Tom Quirk |
 | 15.4 (2022-08-18) | Nadia Sotnikova | Alex Kalderimis |
 | 15.5 (2022-09-18) | Katie Macoy | Anna Vovchenko |
+| 15.6 (2022-10-18) | Matej Latin | Deepika Guliani |
 
 ### How do I volunteer?
 

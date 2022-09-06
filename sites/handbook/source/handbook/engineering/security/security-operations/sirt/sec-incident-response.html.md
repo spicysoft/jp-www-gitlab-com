@@ -59,8 +59,11 @@ The GitLab Security team identifies security incidents as any violation, or thre
 - Update the incident record with any relevant details
 6. Post-Incident analysis and activities
 - Post Mortem and lessons learned activity
- 
 
+#### Leaked Secrets Incident Response Process
+
+When secrets are confirmed to be leaked, it is important to minimize the exposure time by immediately revoking the secrets. This can be done by automation or manual revocation by the Security team. Security will immediately revoke the secrets to prevent further abuse even if the potential impact of that action isn't clearly understood at that time. In some cases this may cause disruption, when the secrets are being used for legitimate processes. Because of this potential for impact to services dependent on the revoked secrets, Security will post a notification to the `#security-revocation-self-service` Slack channel, where secrets owners can use the channel for manual or automated self-service. Because the secret has already been exposed and revoked, and because it makes it easier for secrets owners to find their secrets in the channel, the clear text version of the revoked secret will be part of the notification.
+ 
 ### Confidentiality
 
 Security incidents may (and usually do) involve sensitive information related to GitLab, GitLab's customers or employees, or users who (in one way or another) have engaged with GitLab. GitLab, while codifying the [Transparency](/handbook/values/#transparency) value, also strongly believes in and strives to maintain the privacy and confidentiality of the data its employees, customers, and users have entrusted us with.

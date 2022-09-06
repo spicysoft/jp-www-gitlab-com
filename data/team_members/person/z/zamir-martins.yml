@@ -1,7 +1,7 @@
 ---
 name: Zamir Martins Filho
 role: <a href="/job-families/engineering/development/fullstack/">Senior Fullstack
-  Engineer, Protect:Container Security</a>
+  Engineer, Govern:Threat Insights</a>
 reports_to: thiagofigueiro
 picture: ZamirMartinsFilho.jpg
 gitlab: zmartins
@@ -10,16 +10,19 @@ locality:
 country: Remote
 projects:
   gitlab: reviewer backend
-  protect-container-scanning:
-    - reviewer backend
-    - maintainer backend
+  secure-container-scanning:
+  - reviewer backend
+  - maintainer backend
 departments:
 - Engineering Function
 - Development Department
 - Sec Section
-- Protect:Container Security BE Team
+- Govern Sub-department
+- Govern backend capability
+- Govern frontend capability
+- Govern:Threat Insights BE Team
 domain_expertise:
-- protect
+- govern
 - helm
 - kubernetes
 story: |

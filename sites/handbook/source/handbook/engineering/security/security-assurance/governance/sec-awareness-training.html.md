@@ -52,6 +52,7 @@ A GitLab-customized handbook first training is provided via ProofPoint. To recei
     * [Device Lost or Stolen?!](https://about.gitlab.com/handbook/security/#panic-email)
         * Slack: the `/security` Slack command
         * Email (Emergencies-ONLY): panic@gitlab.com
+    * [Security Incident Response](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/engaging-security-on-call.html)
     * [Data Classification](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html)
     * [No Red Data on Unapproved Locations](https://about.gitlab.com/handbook/people-group/acceptable-use-policy/#security-and-proprietary-information)
 

@@ -9,17 +9,12 @@ The Release Post Manager uses this issue to collect MVPs for the release post. T
 1. On the 12th of the month, the Release Post Manager will encourage GitLab team members to vote on the nominations.
 1. On the 15th of the month, the Release Post Manager will choose the nominee with the most votes.
 
-@gl-product @gitlab-org/coaches @gitlab-com/marketing/community-relations
+## Nominate a contributor
 
-## Community contributions
+@gl-product @gitlab-org/coaches @gitlab-com/marketing/community-relations Please review the [Community Contributions for MVP consideration](https://app.periscopedata.com/app/gitlab/1058191/Community-Contributions-for-MVP-consideration) and nominate a contributor in this issue.
 
-In case you need some help refreshing your memory, here's a list of popular community contributions:
-
-- [Community contributions in X.Y](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Community+contribution&milestone_title=_MILESTONE_&scope=all&sort=popularity&state=merged)
-
-## To add a nominee
-
-- Add a comment to this issue with the contributor name, GitLab profile and some details of their contribution.
+1. Review the [Community Contributions for MVP consideration](https://app.periscopedata.com/app/gitlab/1058191/Community-Contributions-for-MVP-consideration)
+1. Add a comment to this issue with the contributor name, GitLab profile, and some details of their contribution.
 
 ## To vote for a nominee
 

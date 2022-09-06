@@ -10,8 +10,8 @@
 # NB Do not move this entry from the top of this file
 
 ^[Default Description Templates]
-.gitlab/issue_templates/Default.md @sytses @streas @epetoskey @marshall007 @ipedowitz
-.gitlab/merge_request_templates/Default.md @sytses @sytses @streas @epetoskey @marshall007 @ipedowitz
+.gitlab/issue_templates/Default.md @sytses @gitlab-com/ceo-chief-of-staff-team
+.gitlab/merge_request_templates/Default.md @sytses @gitlab-com/ceo-chief-of-staff-team
 
 ^[Handbook]
 /sites/handbook/source/handbook/ @sytses @streas
@@ -42,11 +42,11 @@
 /sites/handbook/source/handbook/business-technology/data-team/ @rparker2 @gitlab-data
 /sites/handbook/source/handbook/business-technology/data-team/organization/data-science/ @rparker2 @kmagda1 @gitlab-data
 /sites/handbook/source/handbook/business-technology/team-member-enablement/ @rrea1 @pkaldis
-/sites/handbook/source/handbook/business-technology/enterprise-applications/ @brobins @ccnelson
-/sites/handbook/source/handbook/business-technology/enterprise-applications/quote-to-cash/ @brobins @ccnelson
+/sites/handbook/source/handbook/business-technology/enterprise-applications/ @brobins @cmestel
+/sites/handbook/source/handbook/business-technology/enterprise-applications/quote-to-cash/ @brobins @cmestel
 /sites/handbook/source/handbook/business-technology/change-management/ @brobins @rrea1
 /sites/handbook/source/handbook/business-technology/it-compliance/ @brobins @rrea1
-/sites/handbook/source/handbook/business-technology/enterprise-applications/integrations/ @ccnelson
+/sites/handbook/source/handbook/business-technology/enterprise-applications/integrations/ @cmestel
 /sites/handbook/source/handbook/tools-and-tips/linux/ @pkaldis @marc_disabatino
 /data/tech_stack.yml @rrea1
 
@@ -94,7 +94,7 @@
 /sites/uncategorized/source/company/culture/gitlab-101/ @cheriholmes @streas
 /sites/uncategorized/source/company/culture/inclusion/ @wendybarnes
 /sites/uncategorized/source/company/culture/internal-feedback/ @wendybarnes @brittanyr @mwilkins
-/sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-generational-understanding/ @darwinjs @dsteer @wendybarnes
+/sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-generational-understanding/ @darwinjs @wendybarnes @mdrussell @terrichu
 sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia @hugoazevedo @romerg @chriscruz
 /sites/uncategorized/source/company/culture/inclusion/erg-gitlab-diversability/ @wspillane @igroenewegenmackintosh @matt_wilson @kchappell
 
@@ -150,7 +150,8 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/development/dev/manage/optimize/ @blabuschagne
 /sites/handbook/source/handbook/engineering/development/dev/manage/authentication-and-authorization/ @m_gill
 /sites/handbook/source/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope
-/sites/handbook/source/handbook/engineering/development/dev/plan/product-planning-certify/ @donaldcook @timzallmann @johnhope
+/sites/handbook/source/handbook/engineering/development/dev/plan/product-planning/ @kushalpandya @donaldcook @timzallmann @johnhope
+/sites/handbook/source/handbook/engineering/development/dev/plan/certify/ @kushalpandya @donaldcook @timzallmann @johnhope
 /sites/handbook/source/handbook/engineering/development/dev/plan/plan-project-management-be/ @donaldcook @timzallmann @johnhope
 /sites/handbook/source/handbook/engineering/development/enablement/ @cdu1
 /sites/handbook/source/handbook/engineering/development/enablement/systems/distribution/ @twk3 @cdu1
@@ -173,9 +174,9 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/development/ops/monitor/observability/ @nicholasklick @mappelman
 /sites/handbook/source/handbook/engineering/development/sec/ @whaber @twoodham @mark.art @pcalder
 /sites/handbook/source/handbook/engineering/development/sec/anti-abuse/ @jayswain @pcalder
-/sites/handbook/source/handbook/engineering/development/sec/protect/ @thiagocsf @nmccorrison @pcalder
+/sites/handbook/source/handbook/engineering/development/sec/govern/ @thiagocsf @nmccorrison @pcalder
 /sites/handbook/source/handbook/engineering/development/sec/secure/ @whaber @twoodham @mark.art @pcalder
-/sites/handbook/source/handbook/engineering/development/sec/secure/threat-insights/ @thiagocsf @nmccorrison @pcalder
+/sites/handbook/source/handbook/engineering/development/sec/govern/threat-insights/ @thiagocsf @nmccorrison @pcalder
 /sites/handbook/source/handbook/engineering/development/sec/secure/vulnerability-research/ @whaber @mark.art
 /sites/handbook/source/handbook/engineering/frontend/ @timzallmann
 /sites/handbook/source/handbook/engineering/development/shadow/ @whaber
@@ -238,7 +239,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 ^[Incubation department]
 /sites/handbook/source/handbook/engineering/incubation/ @bmarnane
 /sites/handbook/source/handbook/engineering/incubation/mlops/ @bmarnane @eduardobonet
-/sites/handbook/source/handbook/engineering/incubation/devops-for-mobile/ @bmarnane @darbyfrey
+/sites/handbook/source/handbook/engineering/incubation/mobile-devops/ @bmarnane @darbyfrey
 /sites/handbook/source/handbook/engineering/incubation/5-min-production/ @bmarnane @sri19
 /sites/handbook/source/handbook/engineering/incubation/jamstack/ @bmarnane @janis
 /sites/handbook/source/handbook/engineering/incubation/ai-assist/ @bmarnane @fdegier
@@ -286,6 +287,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/finance/financial-planning-and-analysis/sales-finance/gtm-analytics-hub/ @cmestel @jakebielecki @christinelee @alex.cohen @james_harrison @jbrennan1
 /sites/handbook/source/handbook/finance/procurement/ @a.hansen @brobins
 /sites/handbook/source/handbook/finance/growth-and-development/cfo-shadow-program/ @brobins @ckgitlab
+/sites/handbook/source/handbook/finance/non-exempt/ @TaraKumpf @cgudgenov @ypalomares @vlaughlan
 
 ^[Infrastructure Standards]
 /sites/handbook/source/handbook/infrastructure-standards/ @jeffersonmartin @dawsmith @sloyd @alanrichards
@@ -305,8 +307,6 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 ^[Learn at gitlab]
 /data/learn/ @cmestel
 /helpers/learn_helper.rb @cmestel
-/source/stylesheets/learn-video-carousel.css.scss @cmestel
-/source/javascripts/learn-video-carousel.js @cmestel
 /source/images/learn/ @cmestel
 /sites/uncategorized/source/learn/ @cmestel
 /sites/uncategorized/source/includes/components/video-carousel/learn-video-carousel-modal.html.haml @cmestel
@@ -450,7 +450,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/people-group/offboarding/offboarding_guidelines/ @mpatel8 @Mowry @alex_venter @anechan @asjones @nutaurus
 /sites/handbook/source/handbook/people-group/offboarding/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
-/sites/handbook/source/handbook/people-group/employment-branding/internal-communications/ @sliang2 @drogozinski @rallen3
+/sites/handbook/source/handbook/people-group/employment-branding/internal-communications/ @sliang2 @kaylagolden @drogozinski @rallen3
 /sites/handbook/source/handbook/group-conversations/ @cheriholmes
 /sites/handbook/source/handbook/people-group/celebrations/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/talent-assessment/ @wendybarnes @brittanyr @rtakken @glucchesi @pegan @cbednarz
@@ -490,10 +490,6 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/manage/ @ogolowinski @gl-product-leadership
 /source/direction/manage/auth/ @ogolowinski @hsutor @gl-product-leadership
 /source/direction/manage/subgroups/ @ogolowinski @gl-product-leadership
-/source/direction/manage/compliance/ @ogolowinski @stkerr @gl-product-leadership
-/source/direction/manage/compliance/audit-events/ @ogolowinski @stkerr @gl-product-leadership
-/source/direction/manage/compliance/audit-reports/ @ogolowinski @stkerr @gl-product-leadership
-/source/direction/manage/compliance/compliance-management/ @ogolowinski @stkerr @gl-product-leadership
 /source/direction/manage/importers/ @ogolowinski @gl-product-leadership
 /source/direction/manage/internationalization/ @ogolowinski @gl-product-leadership
 /source/direction/manage/devops-reports/ @hsnir1 @ogolowinski @gl-product-leadership
@@ -549,10 +545,13 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/secure/vulnerability-research/advisory-database/ @hbenson
 /source/direction/secure/composition-analysis/dependency-scanning/ @sam.white @hbenson
 /source/direction/secure/composition-analysis/license-compliance/ @sam.white @hbenson
-/source/direction/secure/vulnerability_management/ @matt_wilson @hbenson
-/source/direction/protect/ @sam.white @hbenson
-/source/direction/protect/security_orchestration/ @sam.white @hbenson
-/source/direction/protect/container-scanning/ @sam.white @hbenson
+/source/direction/secure/composition-analysis/container-scanning/ @sam.white @hbenson
+/source/direction/govern/threat_insights/vulnerability_management/ @matt_wilson @hbenson
+/source/direction/govern/ @sam.white @hbenson @stkerr @matt_wilson
+/source/direction/govern/security_policies/security_policy_management/ @sam.white @hbenson
+/source/direction/govern/compliance/ @stkerr @hbenson
+/source/direction/govern/compliance/audit-events/ @stkerr @hbenson
+/source/direction/govern/compliance/compliance-management/ @stkerr @hbenson
 /source/direction/anti-abuse/ @jstava @tmccaslin @hbenson
 
 ^[Product - Analytics Section]
@@ -587,8 +586,8 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/mobile/mobile-devops/ @darbyfrey @bmarnane
 
 ^[Recruiting]
-/sites/handbook/source/handbook/hiring/ @wendybarnes @rallen3 @drogozinski
-/sites/handbook/source/handbook/hiring/talent-acquisition-framework/ @rallen3 @drogozinski
+/sites/handbook/source/handbook/hiring/ @rallen3 @drogozinski @marissaferber
+/sites/handbook/source/handbook/hiring/talent-acquisition-framework/ @rallen3 @drogozinski @marissaferber
 /sites/uncategorized/source/jobs/ @rallen3 @drogozinski
 /sites/uncategorized/source/job-families/people-ops/recruiting-operations-insights/ @sytses @streas @wendybarnes @rallen3
 /sites/uncategorized/source/job-families/people-ops/recruiter/ @sytses @streas @wendybarnes @rallen3
@@ -733,7 +732,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/frontend/components/speakers-bureau/SpeakersBureau.vue @abuango @brendan @johncoghlan @dnsmichi
 
 ^[Environment Setup Script]
-/scripts/setup-macos-dev-environment.sh @ccnelson
+/scripts/setup-macos-dev-environment.sh @cmestel
 
 ^[Ruby Version]
 .ruby-version @tywilliams @laurenbarker @cwoolley-gitlab

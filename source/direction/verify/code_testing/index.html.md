@@ -23,9 +23,7 @@ Check out our [Ops Section Direction "Who's is it for?"](/direction/ops/#who-is-
 
 ## What's Next & Why
 
-The top focus for 15.1 is to implement usability fixes for Code Testing and Coverage via [gitlab#296814](https://gitlab.com/gitlab-org/gitlab/-/issues/296814), [gitlab#332981](https://gitlab.com/gitlab-org/gitlab/-/issues/332981), and [gitlab#241502](https://gitlab.com/gitlab-org/gitlab/-/issues/241502). We are also adding clarification to group repository analytics to aid data interpretation via [gitlab#349826](https://gitlab.com/gitlab-org/gitlab/-/issues/349826).
-
-We are also investing in error budget improvements. In 15.1, this includes investgation into the 'Projects::PipelinesController#test_report' endpoint to improve performance via [gitlab#337650](https://gitlab.com/gitlab-org/gitlab/-/issues/337650).
+There are no planned investments in Code Teting and Coverage until 2023, though Pipeline Insights will support high priority bug fixes in this category in 2022. 
 
 ## Additional Resources
 

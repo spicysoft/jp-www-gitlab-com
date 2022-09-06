@@ -152,7 +152,7 @@ In an all-remote, asynchronous organization, each team member should practice ha
 **Skills and behaviors of handbook first as a Team Member**:
 
 - Actively contributes to the handbook.
-- [Everything starts with a merge request](/handbook/communication/#everything-starts-with-a-merge-request)
+- [Start with a merge request](/handbook/communication/#start-with-a-merge-request)
 - Provides links information from the handbook when answering questions and if the information doesn't exist in the handbook, then the team member adds it.
 - Understands which information is internal-only, but puts all public information in the public handbook.
 
@@ -237,8 +237,6 @@ The handbook is a living document and we'll occasionally need to change URLs or 
 It is each department and team member's responsibility to ensure the handbooks (public handbook, internal handbook, and staging handbook) stay current. The content in the handbook should be accurate and follow the same format as outlined in the [Guidelines](/handbook/handbook-usage/#handbook-guidelines). For questions on who to submit a merge request to, or assistance with the handbook, please reach out on the `#handbook` Slack channel.
 
 If you need permissions to directly merge changes to the handbook, please submit a [New Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests) issue and follow the process for access approval. Request a 'Maintainer' role under www-gitlab-com. See [here](https://docs.gitlab.com/ee/user/permissions.html) for a full description of roles and permissions.
-
-Any changes to the handbook as part of this review will be shared in the `#handbook` channel in Slack. People Operations Specialists will also ensure that questions asked in `#questions` are documented and all announcements on the company call have a relevant link.
 
 ## KPI {#kpi}
 

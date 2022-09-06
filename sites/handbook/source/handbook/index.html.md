@@ -97,7 +97,6 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
       * {:.trans-00}[リモートワークレポート2021](/company/culture/all-remote/remote-work-report/)
       * {:.trans-00}[脱オフィス： 2020年世界はどのようにリモートワークに適応したのか？](/company/culture/all-remote/out-of-the-office/)
       * {:.trans-00}[リモートワークへのビジョン](/company/culture/all-remote/vision/)
-
   * {:.trans-10}[GitLabでの働き方](/company/culture/#life-at-gitlab)
   * {:.trans-10}[GitLab・コントリビュート(毎年恒例のGitLabチームイベント)](/events/gitlab-contribute/)
   * {:.trans-10}[チーム](/company/team/)
@@ -111,15 +110,14 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
   * {:.trans-00}[ハンドブック・ロードマップ](/handbook/about/roadmap/)
   * {:.trans-00}[ハンドブック・サポート](/handbook/about/support/)
   * {:.trans-00}[ハンドブック・緊急サポート](/handbook/about/on-call/)
-* [Managing so Everyone Can Contribute (MECC)](/handbook/mecc)
-* [CEO はじめまして](/handbook/ceo/)
+* {:.trans-00}[Managing so Everyone Can Contribute (MECC)](/handbook/mecc)
+* {:.trans-00}[CEO はじめまして](/handbook/ceo/)
   * {:.trans-20}[CEO シャドウ・プログラム](/handbook/ceo/shadow/)
   * {:.trans-10}[ケイデンス](/company/cadence/)
   * {:.trans-10}[Eグループ 合宿](/company/offsite/)
   * {:.trans-00}[KPI](/company/kpis/)
   * {:.trans-10}[OKR](/company/okrs/)
   * {:.trans-00}[価格モデル](/company/pricing/)
-* {:.trans-30}[エンジニアリング・フェロー・シャドウ](/handbook/engineering/fellow/shadow/)
 * {:.trans-00}[Creator pairing](/handbook/creator/pairing/)
 * {:.trans-10}[CEO秘書チームの責任者](/handbook/ceo/chief-of-staff-team/)
 * {:.trans-10}[重要指標レビュー会](/handbook/key-review/)
@@ -128,6 +126,8 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
 * {:.trans-10}[持続可能性](/handbook/environmental-sustainability/)
 
 ## 人事 {#people-group}
+
+## People Group
 
 * {:.trans-10}[人事](/handbook/people-group/)
     * {:.trans-10}[ハラスメント防止に関する方針](/handbook/anti-harassment/)
@@ -139,9 +139,8 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
     * {:.trans-10}[募集中のポジション](/handbook/hiring/vacancies/)
   * {:.trans-10}[インクルージョン＆ダイバーシティ](/company/culture/inclusion/)
     * {:.trans-00}[アライシップ(差別・抑圧・疎外されてきた人に対する支援)に関する情報](/handbook/communication/ally-resources/)
-    * {:.trans-10}[性別・性的指向の定義とFAQ](/handbook/people-group/gender-pronouns/)
+    * {:.trans-10}[性別・性的指向の定義とFAQ](/handbook/people-group/orientation-identity/)
     * {:.trans-10}[無意識の偏見](/company/culture/inclusion/unconscious-bias/)
-
   * {:.trans-10}[労働・雇用に関するお知らせ](/handbook/labor-and-employment-notices/)
   * {:.trans-30}[直接責任者 DRI](/handbook/people-group/directly-responsible-individuals/)
   * {:.trans-10}[リーダーシップ](/handbook/leadership/)
@@ -171,7 +170,7 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
     * {:.trans-00}[フルフィルメント課](/handbook/engineering/development/fulfillment/)
     * {:.trans-00}[グロース課](/handbook/engineering/development/growth/)
     * {:.trans-00}[オプス課](/handbook/engineering/development/ops/)
-    * {:.trans-00}[プロテクト課](/handbook/engineering/development/protect/)
+    * {:.trans-00}[管理課](/handbook/engineering/development/govern/)
     * {:.trans-00}[セキュア課](/handbook/engineering/development/secure/)
   * {:.trans-00}[インキュベーション・エンジニアリング部](/handbook/engineering/incubation/)
   * {:.trans-00}[インフラ部門](/handbook/engineering/infrastructure/)
@@ -198,7 +197,6 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
     * {:.trans-00}[GitLab ぶっちゃけブログ](/handbook/marketing/blog/unfiltered/)
     * {:.trans-00}[ブログのためのGitガイド](/handbook/marketing/blog/git-guide/)
   * {:.trans-10}[社員向けソーシャルメディアポリシー](/handbook/marketing/team-member-social-media-policy/)
-  
   * {:.trans-10}[レベニュー・マーケティング](/handbook/marketing/revenue-marketing/)
     * {:.trans-00}[営業部](/handbook/marketing/revenue-marketing/sdr/)
     * {:.trans-00}[フィールド・マーケティング](/handbook/marketing/field-marketing/)
@@ -278,6 +276,7 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
 ## コンテンツサイト {#content-websites}
 
 * {:.trans-00}[コンテンツウェブサイトの責任](/handbook/content-websites-responsibility/)
+
 
 <style>
 li.trans-00::before {

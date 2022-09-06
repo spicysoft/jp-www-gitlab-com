@@ -493,21 +493,6 @@
       = kramdown("The complete list of all removed features can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/removals.html).")
 
 / extras
-- if datafile.extras.present? && current_version < Gem::Version.new(14.0)
-  %section#extras.release-post-section
-    %h2.text-center{:id => "#{datafile.extras.header.downcase.tr(" ", "-")}"}
-      %a.header-link{href: "##{datafile.extras.header.downcase.tr(" ", "-")}"}
-        %i.fas.fa-link
-      = datafile.extras.header
-      - datafile.extras.blocks.each do |extra_block|
-        - feature_name_href = extra_block.title.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9\-_]/, '')
-        %h3{:id => "#{feature_name_href}"}
-          %a.header-link{href: "##{feature_name_href}"}
-            %i.fas.fa-link
-          = kramdown(extra_block.title)
-        = kramdown(extra_block.description)
-
-        %hr.hidden-lg
 
 - if datafile.extras.present? && current_version >= Gem::Version.new(14.0)
   %section#extras.release-post-section

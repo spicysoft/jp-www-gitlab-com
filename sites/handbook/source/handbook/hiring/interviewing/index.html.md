@@ -56,7 +56,7 @@ There are situations in which multiple internal applicants apply for the same ro
 
 #### Reminders For Recruitment
 
-- Please ensure that internal applicants have appropriate Greenhouse visibility permissions for the role they are applying to. For example, internal applicants should _not_ have job admin access to any role they apply for, or to be able to see those who have also applied for the role (internally or externally). If there are internal People Group requisitions the recruiter on the role should remove all of the access manually. In some cases, it may be appropriate to schedule using the Candidate Experience Specialists' calendar, if the candidates' colleagues or they have access to the Interview Calendar in gCal. 
+- Please ensure that internal applicants have appropriate Greenhouse visibility permissions for the role they are applying to. For example, internal applicants should _not_ have any access to any role they apply for, or to be able to see those who have also applied for the role (internally or externally). If there are internal People Group requisitions the recruiter on the role should remove all of the access manually. In some cases, it may be appropriate to schedule using the Candidate Experience Specialists' calendar, if the candidates' colleagues or they have access to the Interview Calendar in gCal. 
 - When scheduling internal interviews, as with all other interviews, please mark these as `private` on the calendar. Many team members at GitLab have their calendar event details set to be [internally viewable](https://about.gitlab.com/handbook/communication/#google-calendar). Setting up interviews as `private` is important to maintain confidentiality of applicants/candidates during the interview process.
 
 ### Adjustments to our Interview Process
@@ -91,7 +91,7 @@ These steps may vary role-to-role, so please review the hiring process on the jo
 <details open="open">
 <summary markdown="span">Steps</summary>
 
-1. Prior to interviewing, the talent acquisition team will identify the most qualified candidates for the vacancy by reviewing [Internal Applicants](/handbook/hiring/interviewing/#internal-applicants), searching the [GitLab Talent Community](https://boards.greenhouse.io/gitlab/jobs/4700367002), reviewing [Employee Referrals](/handbook/hiring/referral-process/#submitting-a-referral), and searching through a variety of sources including, but not limited to [LinkedIn](/handbook/hiring/sourcing/#upgrading-your-linkedin-account). The hiring team will also source for candidates that may not be actively looking. There are many factors to consider when reviewing profiles. There are several posts that reveal suggestions for reviewing profiles that our team may utilize. [Greenhouse](https://www.greenhouse.io/blog/in-review-whats-the-right-way-to-read-a-resume), [Zip Recruiter](https://www.ziprecruiter.com/blog/10-crucial-things-to-look-for-in-a-resume/) and [The Balance Careers](https://www.thebalancecareers.com/gone-in-thirty-seconds-how-to-review-a-resume-1919139) are three examples.
+1. Prior to interviewing, the talent acquisition team will identify the most qualified candidates for the vacancy by reviewing [Internal Applicants](/handbook/hiring/interviewing/#internal-applicants), reviewing [Employee Referrals](/handbook/hiring/referral-process/#submitting-a-referral), and searching through a variety of sources including, but not limited to [LinkedIn](/handbook/hiring/sourcing/#upgrading-your-linkedin-account). The hiring team will also source for candidates that may not be actively looking. There are many factors to consider when reviewing profiles. There are several posts that reveal suggestions for reviewing profiles that our team may utilize. [Greenhouse](https://www.greenhouse.io/blog/in-review-whats-the-right-way-to-read-a-resume), [Zip Recruiter](https://www.ziprecruiter.com/blog/10-crucial-things-to-look-for-in-a-resume/) and [The Balance Careers](https://www.thebalancecareers.com/gone-in-thirty-seconds-how-to-review-a-resume-1919139) are three examples.
 1. The talent acquisition team and/or hiring team does the **first round of evaluations** by reviewing candidate profiles. This team will refer to the [country hiring guidelines](/handbook/people-group/employment-solutions/#country-hiring-guidelines) before moving candidates forward. Disqualified candidates will be sent a note informing them of the [rejection](#rejecting-candidates). There are templates in Greenhouse to assist, but messages can be tailored as appropriate. The message should be professional and respectful.
 1. **Pre-screening Questionnaire**: Some candidates will be sent a pre-screening questionnaire relating to the position to complete and return to the sender. The questionnaire and answers are kept within the candidate's Greenhouse profile.
     1. Team members who review the pre-screening questionnaire answers should refer to the private GitLab project that holds guides on how to review each of the questionnaires. Contact your assigned Recruiter for a direct link to the guides. Candidates who receive an assessment are moved to the "Assessment" stage in Greenhouse by a member of the Talent Acquisition team and sent the questionnaire. The talent acquisition team also chooses a member of the hiring team to review the responses once they are submitted.
@@ -120,7 +120,7 @@ These steps may vary role-to-role, so please review the hiring process on the jo
 1. **CEO interviews**: The CEO may choose to interview candidates in a last round interview after reviewing the offer package.
 1. The recruiter, hiring manager, executive, or CEO should make an **offer** verbally during a call with the candidate, and it will be followed with an official contract as described in [preparing offers and contracts](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/).
 1. The talent acquisition team will, if applicable, add language to the contract that states that employment or engagement is contingent on a valid work permit or visa. A start date should factor in that the approval of a new work permit may take several weeks.
-    - Note that, when scheduling a start date, People Ops Specialists require at least 4 days notice from the receipt of an executed offer until the GitLab team-member's proposed first day.
+    - Note that, when scheduling a start date, as best practice allow at least a 10 days prior to the start day to avoid a negative onboarding experience. For exceptions, work with the CES Team and the People Connect Team.
 1. The manager follows up to ensure that the offer is accepted and that the contract is signed.
 1. CES [starts the onboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md).
 1. The hiring manager considers [closing the vacancy](/handbook/hiring/vacancies/#closing-a-requisition).
@@ -133,26 +133,6 @@ The GitLab team understands the importance of inclusive interviewing, and we str
 
 <details open="open">
 <summary markdown="span">Best practices</summary>
-
-- **We will make our best effort so that each candidate's full interview panel has at least one non-male GitLab team-member on it.**
-- **The following teams will _always_ have one non-male team member in the same department as the candidate on the interview panel.** We are working to make it so that every team practices our value of diversity, inclusion and belonging in their hiring practices. We are improving, but we aren't there yet. According to our value of iteration, we aren't waiting for a system to be in place for the entire company, but instead are practicing diversity, inclusion and belonging now by listing the teams that can currently commit to this practice. Hiring managers can make MRs to add their team to this list when they are able to meet this requirement.
-    - Accounting
-    - Business Operations
-    - Corporate Marketing
-    - Customer Support
-    - Demand Generation
-    - Development
-    - Field Marketing
-    - Finance
-    - Growth Marketing
-    - Marketing Operations
-    - People Operations
-    - Product Management
-    - Quality
-    - Talent Acquisition
-    - Revenue Marketing
-    - Sales Development
-    - UX
 
 -**We don't ask for your pronouns in the application form**. This information is "sensitive information" according to GDPR and other applicable privacy acts. We encourage our interviewers to utilize Zoom's Pronoun feature and you're welcome to disclose your pronouns in any way you feel comfortable doing so. 
 
@@ -175,7 +155,7 @@ Example questions include:
 1. What is your current location and do you have any plans to relocate? (relevant in context of compensation, country-hiring guidelines, and in case an offer would be made)
 1. Do you require visa sponsorship or a work/study permit to work for GitLab? Or do you require the work permit to be transferred to GitLab? If the answer is yes, we will not be able to proceed, [unless you currently hold a work permit in the Netherlands](/handbook/people-group/visas/#dutch-work-permits). You can refer to the [Visa and Sponsorship](/handbook/people-group/visas/#visas-and-sponsorhip) handbook section for further clarity.
 1. What is the notice period you would need if you were hired?
-1. Is this salary range in line with your expectations? At GitLab, we are committed to paying competitively and equitably. Therefore, we set our offers based on market pay rather than a candidate's pay history. We walk through the [Compensation Calculator](https://comp-calculator.gitlab.net/) with each candidate so that we can address any gaps in expectations early on. Only candidates who are in the screening stage or later can access our [compensation calculator](https://comp-calculator.gitlab.net/) by following `applicants sign up`.
+1. Is this salary range in line with your expectations? At GitLab, we are committed to paying competitively and equitably. Therefore, we set our offers based on market pay rather than a candidate's pay history. We walk through the [Compensation Calculator](https://comp-calculator.gitlab.net/) with each candidate so that we can address any gaps in expectations early on. Only candidates who are in the team interview stage or later can access our [compensation calculator](https://comp-calculator.gitlab.net/) by following `applicants sign up`.
 1. Do you know how GitLab will employ you in the country you’re based? (As GitLab keeps growing rapidly it is important to share how we can employ people in each country. We should redirect the candidates to the [Contracts and International Expansion](/handbook/people-group/employment-solutions/) page and go through it with them.)
 
 At the end of the screening call, the recruiter will tell you what the next steps will be, if any. There should be time for you to ask any questions you may have.

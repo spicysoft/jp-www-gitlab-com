@@ -37,9 +37,9 @@ coding_at_scale:
 container_registry:
   display_name: Container Registry
   link: https://docs.gitlab.com/ee/user/packages/container_registry/
-protect:
-  display_name: Protect
-  link: https://about.gitlab.com/stages-devops-lifecycle/protect/
+govern:
+  display_name: Govern
+  link: https://about.gitlab.com/stages-devops-lifecycle/govern/
 design_management:
   display_name: Design Management
   link: https://docs.gitlab.com/ee/user/project/issues/design_management.html
@@ -199,6 +199,9 @@ snippets:
 spam_fighting:
   display_name: Spam Fighting
   link: https://docs.gitlab.com/ee/integration/akismet.html
+suggested_reviewers:
+  display_name: Suggested Reviewers
+  link: https://about.gitlab.com/direction/modelops/applied_ml/#smarter-code-reviewer-suggestions
 tooling_pipelines:
   display_name: Pipelines configuration of `gitlab-org` projects
   link: https://docs.gitlab.com/ee/development/pipelines.html

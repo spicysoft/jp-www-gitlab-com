@@ -1,3 +1,23 @@
+- topic: GitLab Advanced CI/CD Virtual Workshop
+  type: Webcast
+  date_starts: October 25, 2022
+  date_ends: October 25, 2022
+  description: GitLab is a complete DevOps platform, delivered as a single application, fundamentally changing the way Development, Security, and Ops teams collaborate. You might have had the chance to take it for a test drive, but even our most advanced users know there’s still a lot to learn to push better and faster automation throughout your DevOps lifecycle! We’re inviting you to a deep-dive workshop on Advanced GitLab CI/CD, including everything you need to enable you to take your automation game to the next level, and provide thought leadership within your organization.
+  location: Virtual
+  region: AMER
+  social_tags:
+  event_url: https://page.gitlab.com/advanced-cicd-virtual-registration-page.html
+
+- topic: DevOpsDays DC
+  type: Conference
+  date_starts: September 15, 2022
+  date_ends: September 16, 2022
+  description: Hear how the U.S. Patent and Trademark Office and GitLab have imagined a software factory of the future. USPTO’s journey towards a complete DevSecOps software lifecycle didn’t start with unicorns and rainbows. What transpired through the journey, including the onset of the Pandemic and going remote has transformed the Office into a completely modern agency. Everything from planning to building software is reimagined. Hear how GitLab and USPTO worked together to bring faster agile delivery to reality in a full-remote Government Agency. Learn how we transitioned from a process-heavy full-lifecycle development ecosystem to an agile, autonomous, automated rapid Delivery reality.
+  location: Washington, DC
+  region: AMER
+  social_tags:
+  event_url: https://www.eventbrite.com/e/devopsdays-dc-2022-tickets-345684861727
+
 - topic: CyberSecurity Workshop for the Public Sector 
   type: Webcast
   date_starts: September 22, 2022
@@ -17,6 +37,16 @@
   region: PubSec
   social_tags:
   event_url: https://www.eventbrite.com/e/one-technology-devsechops-event-with-red-hat-and-gitlab-tickets-394444814057
+
+- topic: WWT Happy Hour Seattle
+  type: Conference
+  date_starts: September 15, 2022
+  date_ends: September 15, 2022
+  description:  Please join GitLab along with our partner WWT for an in-person Happy Hour event in Bellevue Washington at 6pm, Thursday, September 15th, 2022.  Enjoy an evening panel discussion that will cover how security leaders are solving real world cloud and DevOps problems. While you network we will be offering snacks, light appetizers and of course something to quench your thirst!
+  location: Belleview, WA
+  region: AMER
+  social_tags:
+  event_url: https://info.lacework.com/pnw-happy-hour-with-wwt-gitlab-and-cribl.html?utm_source=partner&utm_medium=email&utm_campaign=20220915_AMER_US_FEP_PNW_Happy_Hour_with_WWT_GitLab_and_Cribl&utm_partner=GitLab
 
 - topic: GitLab Commit New York City
   type: Conference

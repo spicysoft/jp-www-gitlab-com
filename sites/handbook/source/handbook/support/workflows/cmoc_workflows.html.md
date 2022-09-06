@@ -2,7 +2,7 @@
 layout: markdown_page
 title: How to Perform CMOC Duties
 category: On-call
-description: "Describes the role and responsibilities for CMOC rotation in Support Engineering"
+description: "Describes the role and responsibilities for the Incident CMOC rotation in Support Engineering"
 ---
 
 - TOC
@@ -13,6 +13,8 @@ description: "Describes the role and responsibilities for CMOC rotation in Suppo
 ## Introduction
 
 As the GitLab SaaS Incident [Communications Manager on Call (CMOC)](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) you are the voice of GitLab to our users and stakeholders during an incident. To do this effectively, you'll work primarily with the [Incident Manager (IM) and Engineer on Call (EOC)](/handbook/engineering/infrastructure/incident-management/#roles-and-responsibilities) and use a combination of [our status page](https://status.gitlab.com/) (powered by [Status.io](https://status.io)), Slack, Zendesk, and GitLab itself. The CMOC rotation is one of the rotations that make up [GitLab Support On-call](/handbook/support/on-call).
+
+To disambiguate this term on other pages, you may see the acronym ICMOC or see the role referred to as "Incident CMOC". As this page is scoped to only this role it uses CMOC, Incident CMOC, and ICMOC interchangeably. 
 
 Our Slack bot [Woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse) provides a command (`/incident post-statuspage`) to quickly spin up an incident on [Status.io](https://status.io). From there, the basics of how to update and close incidents in Status.io are covered by their [Incident Overview](https://kb.status.io/incidents/incident-overview/) documentation. This document covers how GitLab specifically uses Status.io to perform those tasks.
 
@@ -60,6 +62,11 @@ The IM is the DRI for the decision of whether to initiate public communications 
 You can always [review past incidents](https://status.gitlab.com/pages/history/5b36dc6502d06804c08349f7) if you need examples or inspiration for how to fill in the details for a current incident.
 
 ### About Status.io
+
+#### Updating Current Status & Current State
+{:no_toc}
+
+It is not possible to change the `Current Status` of the affected infrastructure of an incident or its `Current State` without making a formal update to the incident. It is acceptable to publish a new update to an incident in order to change either the `Current Status` of its affected infrastructure or its `Current State` regardless of how recently the last update on the incident was published.
 
 #### Frequency of Updates
 {:.no_toc}
@@ -456,9 +463,13 @@ If handover occurs during an active incident where the quick summary you'd provi
 ## CMOC Training Resources
 
 ### CMOC Shadow PagerDuty Schedule
-{:.no_toc}
 
-The [CMOC Shadow Schedule](https://gitlab.pagerduty.com/schedules#PQBZCSY) can be used by anyone who wishes to shadow the CMOC to learn before officially acting as CMOC. A soon-to-be-CMOC can adjust the schedule to match their working hours by clicking _Edit this schedule_ > _Add Another Layer_, then adding their username and the days and hours when they wish to shadow. Or, to shadow for a short span of days, they can click _Schedule an Override_, then click _Custom duration_ and then select the time zone and the start and end dates and times before clicking the _Create Override_ button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen. 
+**NOTE:** When adding yourself to this rotation, be aware that adjusting the `Time Zone` field at the top of the page will adjust it for all users, not just yourself. Before you navigate away, please reset the timezone to UTC. 
+
+The [CMOC Shadow Schedule](https://gitlab.pagerduty.com/schedules#PQBZCSY) can be used by anyone who wishes to shadow the CMOC to learn before officially acting as CMOC. A soon-to-be-CMOC can create an [issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues/new#) in the pagerduty project to be added to a shadow schedule. Or, to shadow for a short span of days, they can click _Schedule an Override_, then click _Custom duration_ and then select the time zone and the start and end dates and times before clicking the _Create Override_ button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen. 
+
+> **Note About CMOC Shadowing**: When the CMOC shadow PagerDuty schedule is active the engineer will receive notifications and get paged the same way as when on the CMOC schedule. **Do not acknowledge or resolve any incidents when on the CMOC shadow schedule as this will stop any potential pages to the real CMOC!**
+
 
 ### CMOC Training Activities
 {:.no_toc}

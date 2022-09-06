@@ -137,6 +137,6 @@ monitor:
   Automated discovery & mapping: 0
   Infrastructure Performance monitoring: 0
   Mobile Performance Monitoring: 0
-protect:
+govern:
   container scanning: 0
   security orchestration (runtime policies): 0

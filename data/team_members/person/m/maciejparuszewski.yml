@@ -1,7 +1,7 @@
 ---
 name: Alan (Maciej) Paruszewski
 role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer,
-  Protect:Container Security</a>
+  Govern:Security Policies</a>
 reports_to: thiagofigueiro
 picture: maciejparuszewski.jpg
 gitlab: mparuszewski
@@ -11,16 +11,18 @@ country: Remote
 projects:
   gitlab:
   - reviewer backend
-  protect-container-scanning:
-    - reviewer backend
-    - maintainer backend
+  secure-container-scanning:
+  - reviewer backend
+  - maintainer backend
 departments:
 - Engineering Function
 - Development Department
 - Sec Section
-- Protect:Container Security BE Team
+- Govern Sub-department
+- Govern backend capability
+- Govern:Security Policies BE Team
 domain_expertise:
-- protect
+- govern
 - helm
 - kubernetes
 - rails

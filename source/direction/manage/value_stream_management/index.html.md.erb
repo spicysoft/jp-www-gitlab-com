@@ -13,7 +13,7 @@ canonical_path: "/direction/manage/value_stream_management/"
 | Stage | [Manage](https://about.gitlab.com/handbook/product/categories/#manage-stage) |
 | Group | [Optimize](https://about.gitlab.com/handbook/product/categories/#optimize-group) |
 | Maturity | [Minimal](/direction/maturity/) |
-| Content Last Reviewed | `2022-08-01` |
+| Content Last Reviewed | `2022-08-29` |
 
 ### Contributing
 Thanks for visiting the Value Stream Management direction page. This page is actively maintained by the [Optimize group](https://about.gitlab.com/handbook/product/categories/#optimize-group). You can contribute or provide feedback by:
@@ -37,14 +37,10 @@ For Value Stream Management, we are targeting the following personas (in priorit
 3. [Delaney (Development Team Lead)](https://about.gitlab.com/handbook/product/personas/#delaney-development-team-lead)
 4. [Parker (Product Manager)](https://about.gitlab.com/handbook/product/personas/#parker-product-manager)
 
-### Our journey so far
-
-- [Value Stream Analytics](https://docs.gitlab.com/ee/user/group/value_stream_analytics) (formerly Cycle Analytics) helps users who follow the [GitLab Flow](https://about.gitlab.com/solutions/gitlab-flow/) better understand the flow of activities and lead time for delivering value.
-- [Customizable Stages](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#customizable-stages), helps organizations define and measure their own custom workflows in Value Stream Analytics.
-- Measuring out-of-the-box the [four DORA metrics](https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics) to provide insights into software delivery velocity and stability.
 
 ### Recent accomplishments
 
+- New [Custom DORA reporting](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#dora-custom-reporting-for-data-driven-software-development-improvements) for tracking metrics improvements, understand patterns in metrics trends, and compare performance between groups and projects
 - New [Change failure rate chart](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#change-failure-rate-chart-for-visualizing-software-stability) for visualizing software stability. This chart shows the percentage of deployments that cause an incident in a production environment. GitLab measures the change failure rate as the number of incidents divided by the number of deployments to a production environment during a given time period.
 - New Time to restore service chart - we added a new trend chart for the [DORA Time to restore service](https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics.html#view-time-to-restore-service-chart) metric to provide insights into software stability and reliability trends. This new chart shows information about how long it takes an organization to recover from a failure in production.
 - Improved insights discovery in Value Stream Analytics - We’ve made several enhancements to how you view data for each stage of the Value Stream Analytics dashboard. In the stage table, [we added the Last event column](https://gitlab.com/gitlab-org/gitlab/-/issues/353554) to show the most recent workflow event, and you can now [sort items by duration](https://gitlab.com/gitlab-org/gitlab/-/issues/357824).These changes make it easier for you to rearrange the events and discover insights faster. These insights could be in detecting bottlenecks that are slowing down delivery, or finding opportunities to reduce the time spent on each stage of the software supply chain.
@@ -55,30 +51,34 @@ For Value Stream Management, we are targeting the following personas (in priorit
 
 - [Support 4 DORA metrics in GitLab](https://docs.gitlab.com/ee/user/analytics/#supported-dora-metrics-in-gitlab)
 
-
-### Goals
-In order to reach our vision, in this year we will focus on:
-
-- Promote [Value Stream Management Category](https://about.gitlab.com/direction/manage/value_stream_management/) to [Complete maturity](https://about.gitlab.com/direction/maturity/). 
-- [Combining Value stream with DORA4 metrics](https://gitlab.com/groups/gitlab-org/-/epics/7790).
-- Consolidations and Centralization GitLab's analytics pages.
-
 ### What's next and why
 
 <%= partial("direction/manage/value_stream_management/templates/next") %>
 
-### Top vision items
+### Goals
 
-- [Optimize product direction & goals](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10331)
-- [Optimize FY22 direction feedback](https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17315/)
+In order to reach our vision we will focus on:
 
-### Top cross-stage items
+#### Near-Term Goals 
 
-- [Measure DORA 4 metrics in GitLab](https://gitlab.com/groups/gitlab-org/-/epics/4358)
-- [Workspace to replace instance-level functionality with group-level features](https://gitlab.com/groups/gitlab-org/-/epics/4257)
-- [Consolidate Groups and Projects into a single container](https://gitlab.com/gitlab-org/architecture/tasks/-/issues/7)
-- [Custom workflows](https://gitlab.com/gitlab-org/gitlab/-/issues/2059)
-- [Customizable issue types](https://gitlab.com/gitlab-org/gitlab/-/issues/118666)
+- [Enhanced and improved Value Stream Analytics (VSA) usability](https://gitlab.com/groups/gitlab-org/-/epics/7961) for deeper actionable insights into  the entire work process performance. 
+- Continue progress on [custom reports and dashboards](https://gitlab.com/groups/gitlab-org/-/epics/8335).
+- Extend [VSA integrations](https://gitlab.com/groups/gitlab-org/-/epics/8369).
+- Extend [DORA integrations](https://gitlab.com/groups/gitlab-org/-/epics/8334).
+
+#### Mid-Term Goals
+
+- [Consolidations and Centralization GitLab's analytics pages](https://gitlab.com/groups/gitlab-org/-/epics/8305).
+- Continue progress on VSA and DORA [integrations](https://gitlab.com/groups/gitlab-org/-/epics/8334).
+- Add business value metrics into VSA (e.g. Adoption, OKRs, revenue, costs, CSAT).
+- Develop and publish best practices for VSM and [DORA](https://gitlab.com/groups/gitlab-org/-/epics/4788).
+
+
+#### Top Vision Item(s)
+
+- Value-stream Autonomous mapping tool
+- Software delivery optimization AI recommendation 
+- Provide a DIY data analysis tool
 
 ### Jobs to be done
 
@@ -86,7 +86,15 @@ In order to reach our vision, in this year we will focus on:
 
 ### Maturity plan
 
-This category is currently **Minimal**. Our next step is **Viable** ([see epic](https://gitlab.com/groups/gitlab-org/-/epics/3175)). You can read more about GitLab's [maturity framework here](https://about.gitlab.com/direction/maturity/).
+This category is currently **Minimal**. Our next step is **Viable** ([see epic](https://gitlab.com/groups/gitlab-org/-/epics/8325#maturity-plan)). You can read more about GitLab's [maturity framework here](https://about.gitlab.com/direction/maturity/).
+
+### Top cross-stage items
+
+- [Measure DORA 4 metrics in GitLab](https://gitlab.com/groups/gitlab-org/-/epics/4358)
+- [Consolidate VSA Group & Project into a single object - Workspace](https://gitlab.com/gitlab-org/gitlab/-/issues/367532)
+- [Custom workflows](https://gitlab.com/gitlab-org/gitlab/-/issues/2059)
+- [Customizable issue types](https://gitlab.com/gitlab-org/gitlab/-/issues/118666)
+- DORA integration with GitLab [Incidnt tag](https://gitlab.com/gitlab-org/gitlab/-/issues/336026)
 
 ### Competitive Landscape
 
@@ -139,17 +147,15 @@ Similarly to GitPrime, [Gitalytics](https://gitalytics.com) focuses on the team 
 #### Atlassian's JIRA Align
 [Agile Craft](https://agilecraft.com)
 
-#### PivotalTracker
-[PivotalTracker](https://www.pivotaltracker.com/help/articles/analytics_charts_and_reports_overview/)
-
-#### Kanbanize
-[Kanbanize](https://kanbanize.com/dashboards-analytics/)
-
 #### Sleuth
 [Sleuth](https://www.sleuth.io)
 
 #### Faros.ai
 [Faros.ai](https://www.faros.ai/)
+
+#### Octopus Deploy
+
+[octopus.com](https://octopus.com/company/roadmap)
 
 ### Analyst Landscape
 

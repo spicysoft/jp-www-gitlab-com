@@ -109,7 +109,7 @@ body: >-
 cta_banner:
   - cta:
       - text: Learn More
-        url: https://about.gitlab.com/solutions/version-control/
+        url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
     title: Learn how GitLab streamlines software development
     body: GitLab streamlines software development with comprehensive version control
       and collaboration.

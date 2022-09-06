@@ -1,17 +1,18 @@
+---
 name: Santhosh Baranidharan
-locality: 
+locality:
 country: Remote
 role: <a href="">Senior Business Systems Analyst</a>
-reports_to: christophernelson
-picture: ../gitlab-logo-extra-whitespace.png
+reports_to: craig-mestel
+picture: "../gitlab-logo-extra-whitespace.png"
 pronouns:
 pronunciation:
 twitter:
 linkedin:
 gitlab: sbaranidharan
 departments:
-  - Enterprise Applications
-specialty: ""
+- Enterprise Applications
+specialty: ''
 expertise:
 story:
 

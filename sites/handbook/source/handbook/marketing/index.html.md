@@ -97,7 +97,7 @@ The meeting should run as follows:
 
 {: .no_toc}
 
-**Meeting goal: For managers to work with direct reports on personnel issues, PeopleOps requirements, performance reviews and hiring.**
+**Meeting goal: For managers to work with direct reports on personnel issues, performance reviews and hiring.**
 
 **Run time: 25 minutes**
 
@@ -107,7 +107,6 @@ The meeting should run as follows:
 
 - Populate the agenda (linked to the meeting invite) prior to the meeting.
 - Manager guides the team through the agenda.
-- People Ops Specialists informs team of any upcoming requirements.
 
 # <i class="fas fa-paper-plane fa-fw color-orange font-awesome"></i> How to contact marketing 
 
@@ -130,7 +129,6 @@ All teams are responsible for requesting social posts themselves. If you are not
 - User questions/comments on Twitter: [Social Marketing](/handbook/marketing/corporate-marketing/social-marketing/) or [Community Relations](/handbook/marketing/community-relations/) team
 - Leadgen campaigns: Content team
 - UX Design: UX Lead
-- People Ops: Jr. Content Editor
 - Press/media coverage: Post in `#external-comms` for assistance
 - Social media, RTs of mentions, CEO Statements/posts: Post in `#social_media_action` for assistance
 

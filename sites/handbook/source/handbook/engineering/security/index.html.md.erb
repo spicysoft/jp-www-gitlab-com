@@ -172,7 +172,7 @@ The term “Product” is interpreted broadly and includes the GitLab applicatio
 <details>
 <summary markdown="span">Infrastructure Security</summary>
 
-The [Infrastructure Security team](/handbook/engineering/security/security-engineering-and-research/infrastructure-security/) consists of cloud security specialists that serve as a stable counterpart to the (Infrastructure Department)[/handbook/engineering/infrastructure) and their efforts. The team is focused on two key aspects of security:
+The [Infrastructure Security team](/handbook/engineering/security/security-engineering-and-research/infrastructure-security/) consists of cloud security specialists that serve as a stable counterpart to the [Infrastructure Department](/handbook/engineering/infrastructure) and their efforts. The team is focused on two key aspects of security:
 
 - The security of GitLab.com's infrastructure
 - The availability and scalability of Security's own infrastructure
@@ -587,6 +587,7 @@ Information Security Policies are reviewed annually by the Director of Security 
 - [GitLab Password Policy](/handbook/security/#gitlab-password-policy-guidelines)
 - [Access Management Policy](/handbook/engineering/security/access-management-policy.html)
 - [Data Classification Standard](/handbook/engineering/security/data-classification-standard.html)
+- [GitLab Cryptography Standard](/handbook/engineering/security/cryptographic-standard.html)
 - [Penetration Testing Policy](/handbook/engineering/security/penetration-testing-policy.html)
 - [Audit Logging Policy](/handbook/engineering/security/audit-logging-policy.html)
 
@@ -936,7 +937,7 @@ If the change is doing one or more of the following:
 * A new authentication mechanism
 * Adding code that touches the authentication model, tokens or sessions
 * Dealing with user supplied data
-* Touching cryptography functions
+* Touching cryptography functions, see the [GitLab Cryptography Standard](/handbook/engineering/security/cryptographic-standard.html) for more details
 * Touching the permission model
 * Implement new security controls (i.e. new library for a specific protection, HTTP header, ...)
 * Exposing a new API endpoint, or modifying an existing one

@@ -6,7 +6,7 @@ features:
       documentation_link: 'https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html'
       image_url: '/images/15_2/protect_group_policies.png'
       reporter: sam.white
-      stage: protect
+      stage: govern
       categories:
         - 'Security Orchestration'
       issue_url: 'https://gitlab.com/groups/gitlab-org/-/epics/4425'

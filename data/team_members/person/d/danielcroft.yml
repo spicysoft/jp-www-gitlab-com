@@ -2,7 +2,8 @@
 name: Daniel Croft
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/management/senior-manager/">Senior Engineering Manager, Monitor & Runner</a>
+role: <a href="/job-families/engineering/development/management/senior-manager/">Senior
+  Engineering Manager, Monitor & Runner</a>
 reports_to: samgoldstein
 picture: danielcroft.jpg
 gitlab: dcroft
@@ -14,11 +15,11 @@ departments:
 - Ops Section
 - Montitor Stage
 - Runner Stage
-expertise: '<li><a href="https://about.gitlab.com/company/culture/inclusion/influencer-group-guide/">GitLab
-  Diversity, Inclusion & Belonging Influencer Group</a> member</li>'
+expertise: <li><a href="https://about.gitlab.com/company/culture/inclusion/influencer-group-guide/">GitLab
+  Diversity, Inclusion & Belonging Influencer Group</a> member</li>
 story: |
   Daniel is a people focussed engineering manager who is always looking to learn from every experience.
   By investing in our team, we achieve our best results.
   Obsessed with coffee, loves the outdoors, motorcycles, mountain bikes, and jumps from planes from time to time.
-specialty: Monitor & Runner
+specialty: Configure, Package, Release
 

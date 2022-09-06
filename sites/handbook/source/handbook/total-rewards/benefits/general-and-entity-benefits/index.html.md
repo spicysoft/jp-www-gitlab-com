@@ -55,7 +55,7 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
 * This benefit is not applicable if there is a separate life insurance policy as part of the [Entity Specific Benefits](#entity-benefits) package.
 * For all other GitLab team members, the following conditions apply:
   * The team member must be either an employee or direct contractor.
-  * The team member must have indicated in writing to whom the money should be transferred. To do this you must complete the [Expression of wishes](https://docs.google.com/document/d/19p4IN-msvs4H10teBessfPx-1wu8J7Vs67Es8iVLlL8/edit?usp=sharing) form. To do this, first copy the template to your Google Drive (File -> Make a copy), enter your information, sign electronically. To sign the document, use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); or you can print it, sign and digitize. Sign, save as a pdf and upload to your Documents folder in WorkDay - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
+  * The team member must have indicated in writing to whom the money should be transferred. To do this you must complete the [Expression of wishes](https://docs.google.com/document/d/19p4IN-msvs4H10teBessfPx-1wu8J7Vs67Es8iVLlL8/edit?usp=sharing) form. To do this, first copy the template to your Google Drive (File -> Make a copy), enter your information, sign electronically. To sign the document, use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); or you can print it, sign and digitize. Sign, save as a pdf and upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
   * For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000](/handbook/total-rewards/compensation/#exchange-rates).
 
 ## Financial Wellness 
@@ -157,7 +157,7 @@ Examples of when someone may request a meal train (this list isn't exhaustive):
 1. Ensure you can follow through on the date you sign up for or please help coordinate a replacement as soon as you know you can no longer participate. 
 1. Participation is voluntary and is **NOT** reimbursable by GitLab. Any expense incurred would be your responsibility. 
 
-If you have any questions, please reach out to parental-leave@gitlab.com.
+If you have any questions, please reach out to leaves@gitlab.com.
 
 ## Fertility & Family Planning
 
@@ -194,7 +194,7 @@ You don't have to take your Parental Leave in one continuous period, we encourag
 **A few things to note:**
 * If you are planning to change or extend your Parental Leave by using a different type of leave such as PTO, unpaid leave or any local statutory leave, please send an e-mail to leaves@gitlab.com.
 *When determing the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your PTO by Roots request.
-* Parental leave includes public holidays and scheduled Friends & Family Days that occur within the start and end date of parental leave, but some countries allow team members to rollover holidays that occured while on Parental Leave. Be sure to review your country's policy on this when planning the dates of your leave.
+* Parental leave includes public holidays and scheduled Family and Friends Days that occur within the start and end date of parental leave, but some countries allow team members to rollover holidays that occured while on Parental Leave. Be sure to review your country's policy on this when planning the dates of your leave.
     * If eligible to roll over these holidays, and you'd like to use them to extend your time away, please enter this as `Public Holiday` in PTO by Roots and add a note indicating "rolling over holidays which occured while on parental leave".
 * Some countries require extra paperwork or have specific leave requirements, which are subject to change as legal requirements change. Please take a look at your [country's leave policy](#entity-benefits).
 
@@ -281,7 +281,7 @@ Parents at GitLab are encouraged to join the `#intheparenthood` Slack channel to
 
 Returning to work after [parental leave](#parental-leave) can be jarring if you're attempting to jump immediately back to 100%. Not only has your life changed dramatically with the expansion of your family, but you're reintegrating into a working world that has continued to progress in your absence. Merely catching up with months of work is a challenge unto itself, even without a new family member.
 
-To alleviate the stress associated with returning to work after parental leave, GitLab supports team members coming back at 50% capacity for as long as needed. The general guideline for this is two to four weeks, but we recognize that each reentry situation should be treated as a unique case to be discussed between the team member and their manager. The 50% figure should be viewed as a guide rather than an inflexible rule. Some team members may feel comfortable ramping more quickly, and that is OK.
+To alleviate the stress associated with returning to work after parental leave, GitLab supports team members coming back at 50% capacity. Team members should discuss this option with their Manager (ideally prior to the start of the leave or a few weeks prior to returning from leave) and find a working schedule that works best for the team member and for their team.  The general guideline (that can be approved by your Manager) is two to four weeks, but recognize that each reentry situation should be treated as a unique case to be discussed between the team member and their manager. The 50% figure should be viewed as a guide rather than an inflexible rule. Some team members may feel comfortable ramping more quickly, and that is OK.
 
 This provides space for a team member to test out life adjustments and iterate further without feeling overwhelmed by a full workload. For instance, if a prearranged daycare solution turns out to be suboptimal, this 50% capacity window empowers a parent to iterate — to find a different solution with the air cover at work to put in the appropriate amount of research and care.
 

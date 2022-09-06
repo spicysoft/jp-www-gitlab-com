@@ -36,7 +36,7 @@ canonical_path: "/competition/"
             %td.stage-icon.h4
               #{competitor}
             - stages.each do |stage|
-              %td.stage-icon= totals[stage.key][competitor] || 0
+              %td.stage-icon= totals[stage.key][competitor.downcase] || 0
 
     %p
       %a.expand-all Toggle Details
@@ -69,7 +69,7 @@ canonical_path: "/competition/"
                 = image_tag "/images/maturity/#{maturity(category)}.svg", alt: "#{maturity(category)}"
               - competitors.each do |competitor|
                 %td.maturity-cell
-                  - comp = category.competitors[competitor]
+                  - comp = category.competitors[competitor.downcase]
                   - next unless comp
                   = image_tag "/images/maturity/#{comp['maturity']}.svg", alt: "#{comp['maturity']}"
             %tr.detail-row
@@ -82,7 +82,7 @@ canonical_path: "/competition/"
                 
               - competitors.each do |competitor|
                 %td
-                  - comp = category.competitors[competitor]
+                  - comp = category.competitors[competitor.downcase]
                   - next unless comp
                   - if comp['description']
                     .description= kramdown(comp['description'])

@@ -110,13 +110,25 @@ All [roles & personas](https://about.gitlab.com/handbook/product/personas/) inte
 
 We feel we can have an impact in the retention of users and drive the overall net retention of our customers. All of our PPI metrics are segmented by tier, and we will also track our SUS (lag metric) verbatims based on tiered feedback.
 
-Please see this [doc](https://docs.google.com/document/d/1j3vrJbQv_c7dQpATwGiQWzSvPL965zrELr02H14PP-U/edit) which explains the growth we think we could get and how we tie this to ARR.
+#### Rollout plan
 
-#### How we will measure impact on business value
+We’ll do a 3-month beta opt-in of our new navigation, allowing users to toggle on the new design within their settings. This will allow us to weather the storm of "who moved my cheese" and gather feedback before wider adoption. This setting will be available as we continue to build and iterate as quickly as possible.
 
-We’ll do a 3-month beta opt-in of our new menu as we iterate via a user opt-in in their user profile. This will allow us to weather the storm of who moved my cheese and see what the user sentiment is before wider adoption.
+At the 3-month mark, or as soon as we are feature complete, we'll test the business impact of our new navigation by launching an A/B test to ~30% (TBD) of our users. This cohort will receive a 50/50 split of the old vs. new navigation. We will then measure the overall net retention and free-to-paid conversion of the cohort over the next 3 months. At that point, we will evaluate the metrics and ship to all users if there is no negative impact. We will work with the data team to ensure we don’t have conflicting A/B tests.
 
-At the 3 month mark, we will be set to deliver to the wider community and measure the impact to retention. We’ll launch an A/B test to  20% of our users where there would be a 50/50 split of  the old vs. new navigation. We will then measure the overall net retention and free to paid conversion of the cohort over 3 months. We will also look at overall Free/Trial to Paid conversion over the 30 days they are using the new menu. We will gradually roll out at 20% of  all users per month until we achieve 100% receiving the new menu and work with the data team to ensure we don’t have conflicting A/B tests.
+#### Multi-faceted measurement to track the success of the north star rollout
+
+Given that there are risks and challenges to changing the habituation of our users, we need many modes of data collection that inform the success of our delivery and adoption of the new navigation. Overall, positively impacting SUS is the goal, but we want to also make sure that we are not causing a detriment to conversions. 
+
+The metrics are:
+
+- Track SUS ratio of total navigation level items (Design/UXR/Product)
+   - Risk to this as it is a lag metric
+- Have no negative impact to current conversions and net retention - track cohort (Product/Eng)
+   - This has engineering risk as we need to figure out if the cohort will work with entirely new navigation vs one small change
+- User surveys at time of launch to get feedback and during the beta optin (UXR)
+- Navigation is fully tracked on a modern event naming architecture that lets us test anything via AB test and keep consistent event names. The tracking should be included with each MVC we ship so it is fully instrumented. (Eng)
+
 
 
 ### What's Next & Why
@@ -149,6 +161,8 @@ the reasoning-->
 **Navigation:** As a general rule, we are not redesigning individual content pages that are owned by other teams. 
 
 For now, we have de-prioritized all other Navigation issues and work until we get the North Star MVC live. We are also not diving into full designs for dashboards or user pages until we get our north star underway. We will still be pursuing opportunity canvases and exploration into the business value of re-prioritizing these items.
+
+We are not currently driving ARR through upselling or cross-selling with navigation. We could re-visit this if we begin to work on dashboards at some point.
 
 **Settings:** Even though the category is Navigation & Settings, Settings are not prioritized on our current roadmap in the interest of getting the north star Navigation designed and into the build track. 
 

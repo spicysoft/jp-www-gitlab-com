@@ -2,7 +2,7 @@
 name: Aleksei Lipniagov
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend">Senior Backend Engineer,
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
   Application Performance</a>
 reports_to: cliu
 picture: alekseilipniagov.png
@@ -20,5 +20,5 @@ story: |
   Aleksei started his career in bioinformatics and was always searching for challenging problems to solve and new areas to explore.
   He values self-explanatory, modular code and likes helping others to learn and improve.
   In his spare time, he enjoys black coffee, books, traveling, and narrative video games.
-specialty: Memory
+specialty: Application Performance
 

@@ -1,7 +1,7 @@
 ---
 layout: handbook-page-toc
-title: Trials and Plan Changes
-description: "How to handle GitLab.com subscription trials"
+title: Handling trials, extensions and plan changes on GitLab.com
+description: "How to handle GitLab.com subscription trials and plan changes"
 category: GitLab.com subscriptions & purchases
 ---
 
@@ -19,8 +19,6 @@ GitLab.com support can assist with trials of other plans. Ask the user to create
 
 ## Extending trials
 
-> <i class="fas fa-exclamation-triangle color-orange"></i> **NOTE**: Soon to be [deprecated](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer.html#mechanizer-notice)
-
 Sales will often request through a Zendesk Ticket that we extend the duration of GitLab.com trials on behalf of their prospects. These tickets will always be raised from the GitLab Support End User gitlab_support@example.com, with the submitter cc'd on the ticket.  The following workflow should be followed to service them.  
 
 If any fields when opening the ticket were filled out incorrectly,  send a public reply in the ticket asking the submitter to supply the missing information.
@@ -36,6 +34,10 @@ If any fields when opening the ticket were filled out incorrectly,  send a publi
    1. This should create a new internal request issue documenting the change action. Reference this new issue to the ZD Ticket where the extension was requested.
    2. If there is an error while taking action, check the internal issue to see what went wrong. Please also locate the [error in sentry](https://sentry.gitlab.net/gitlab/customersgitlabcom/) (see [Searching Sentry](/handbook/support/workflows/500_errors.html#searching-sentry) if needed) and file an issue, or comment on an existing one.
 4. If namespace needs to be adjusted manually, then raise a new internal issue with details and  `~Console Escalation::Customers` label.
+
+## Extend an existing active or expired subscription
+
+This is done via the Mechanizer tool through [Manage GitLab Plan and Trials](../customersdot/mechanizer.html#manage-gitlab-plan-and-trials). 
 
 ## Applying a trial to a namespace with an active subscription
 

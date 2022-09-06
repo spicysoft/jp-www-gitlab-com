@@ -5,7 +5,7 @@ features:
       gitlab_com: true
       documentation_link: 'https://docs.gitlab.com/ee/user/application_security/container_scanning'
       reporter: sam.white
-      stage: protect
+      stage: govern
       categories:
         - 'Container Scanning'
       issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/363347'

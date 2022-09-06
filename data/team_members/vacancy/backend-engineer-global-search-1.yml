@@ -3,7 +3,7 @@ name: New Vacancy
 placeholder: true
 locality: Anywhere
 country: Remote
-role: <<a href="/job-families/engineering/development/backend">Backend Engineer, Global Search</a>
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Global Search</a>
 reports_to: cliu
 picture: ../gitlab-logo-extra-whitespace.png
 twitter:

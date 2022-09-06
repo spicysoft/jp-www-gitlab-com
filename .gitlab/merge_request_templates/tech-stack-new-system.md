@@ -55,4 +55,4 @@ If the `Add to Personal Data Request template?` box is marked as `Yes` on the Pr
 
 /cc @gitlab-com/internal-audit @disla @gitlab-com/gl-security/security-assurance/security-risk-team 
 /assign @marc_disabatino @kylesmith2
-/label ~"BusinessTechnology" ~"BT - TechStack" ~"BT-TechStack::To do" 
+/label ~"BusinessTechnology" ~"BT - TechStack" ~"BT-TechStack::To do" ~"BIA::Initiate"

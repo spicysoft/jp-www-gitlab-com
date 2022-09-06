@@ -47,28 +47,24 @@ PTO if needed and links to the handbook related to coming back after parental le
 
 For this pipeline we have a direct integration with PTO by Roots.
 
-### Informing People Experience Associates about details missing in BambooHR for upcoming new hires
+### Informing People Connect Team about details missing in BambooHR for upcoming new hires
 
 For the new hire announcements to be accurate, it is required to ensure the
-BambooHR details of team members joining the following week is as complete as
-possible. To help PeopleOps team in this task, another scheduled pipeline is
-run to verify if the BambooHR details of all incoming team members is complete.
-This pipeline notifies Since People Experience Associates in [`#peopleops-alerts`](https://gitlab.slack.com/archives/CLTBQ9XC7) channel
+Workday details of team members joining the following week is as complete as
+possible. To help the People Connect team in this task, another scheduled pipeline is
+run to verify if the Workday details of all incoming team members is complete.
+This pipeline notifies the People Connect Specialists in [`#peopleops-alerts`](https://gitlab.slack.com/archives/CLTBQ9XC7) channel
 about people whose details are missing and the details that are missing for each
 person.
 
-Since People Experience Associates should have enough time to fix these missing
+Since the People Connect Specialists should have enough time to fix these missing
 details before new hire announcements are sent, it is necessary this job should
 be run an adequate amount of time before the new hire announcements job is run.
 Currently, the pipeline is scheduled to be run at 02:00 PM on every Wednesday.
 
 ### Offboarding sheet
 
-There's a Google sheet that keeps track of team members that need to be offboarded.
-The integration checks daily if anyone needs to be offboarded today or tomorrow. When
-people need to be offboarded, it will post a message saying so with a link to that
-Google Sheet. This is posted to the private Slack channel [`#people-exp-ops`](https://gitlab.slack.com/archives/C010VHN2EMC) with no
-personal information in the message.
+There is a Google form that People Connect submits scheduled or voluntary offboardings into, this is then stored within a Google Sheet which we check every day to determine whether or not anyone is being offboarded within the hour. This automation runs every hour to check and see if we have any new team members that are being offboarded, if there are any, we then open the related offboarding issues automatically.
 
 ### Employment survey
 
@@ -89,7 +85,7 @@ Whenever a new team member is added to a team we currently send a couple of noti
 
 ### Template Paths
 
-People experience associates can type `/pops run templatepaths <EMPLOYEE_NUMBER>` to output
+People Connect associates can type `/pops run templatepaths <EMPLOYEE_NUMBER>` to output
 the list of locations where the bot looks to fill-in role/specialty based access request
 and onboarding tasks. This command is useful when it is unclear why an automated issue
 creation did not pick up a given template. This will show exactly what path the bot expects.

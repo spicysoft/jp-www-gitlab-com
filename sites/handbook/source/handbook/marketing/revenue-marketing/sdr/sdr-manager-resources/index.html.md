@@ -130,7 +130,7 @@ Example:
 * They can coach their team to clone as a personal report and create subscription to stay on top of sequencing folks at Actively Working accounts.
 
 ## Onboarding
-GitLab People Experience Associates will [create the onboarding issue](/handbook/people-group/general-onboarding/onboarding-processes/#timing) and start completing the onboarding tasks, no later than one week before the new team member joins. People Experience Associates require a minimum of 4 business days (with the new hire timezone as the basis) before the new hire's start date to complete all onboarding tasks. This issue will be automatically assigned to you. As a manager, you will [also have tasks](/handbook/people-group/general-onboarding/#managers-of-new-team-members) that need to be completed prior to the new team member's start date. 
+GitLab People Connect Team members will [create the onboarding issue](/handbook/people-group/general-onboarding/onboarding-processes/#timing) and start completing the onboarding tasks, no later than one week before the new team member joins. People Connect Team members require a minimum of 4 business days (with the new hire timezone as the basis) before the new hire's start date to complete all onboarding tasks. This issue will be automatically assigned to you. As a manager, you will [also have tasks](/handbook/people-group/general-onboarding/#managers-of-new-team-members) that need to be completed prior to the new team member's start date. 
 
 The general onboarding issue will also automatically add a ['Sales Development' section](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_sales_development.md) under 'Job Specific Tasks' based on the role of the new SDR. Both you and your new hire will have tasks to complete in this section. 
 
@@ -138,7 +138,7 @@ With the creation of this issue, an [access request (AR) will also be automatica
      *See what is being auto provisioned on this AR [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_demand_generation). 
 
 ### New Hire's First Day
-On your new hire's first day, the assigned People Experience Associate will [schedule a welcome email](/handbook/people-group/general-onboarding/onboarding-processes/#day-1-onboarding-tasks) to arrive at 7:30am (local time of the new team member) on their start date detailing how your new hire can access GitLab and begin their onboarding process. 
+On your new hire's first day, the assigned People Connect Team member will [schedule a welcome email](/handbook/people-group/general-onboarding/onboarding-processes/#day-1-onboarding-tasks) to arrive at 7:30am (local time of the new team member) on their start date detailing how your new hire can access GitLab and begin their onboarding process. 
 
 ### Manager Onboarding Checklist
 ##### Prior to Day 1

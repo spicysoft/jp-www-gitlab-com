@@ -1,8 +1,9 @@
+---
 name: Nico Sandoval
-locality: 
+locality:
 country: Remote
 role: <a href="/job-families/finance/business-system-analyst">Business Systems Analyst</a>
-reports_to: christophernelson
+reports_to: craig-mestel
 picture: nicolassandoval.jpg
 pronouns: he/him
 pronunciation:
@@ -10,7 +11,7 @@ twitter:
 linkedin: nicolas-sandoval-331900b3
 gitlab: nicosando
 departments:
-  - Business Technology
+- Business Technology
 specialty:
 expertise:
 story:

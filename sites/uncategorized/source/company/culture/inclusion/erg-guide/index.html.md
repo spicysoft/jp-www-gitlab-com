@@ -21,7 +21,7 @@ Team Member **Resource Group** provide support for an underrepresented group
 - The purpose for this type of TMRG is to develop and elevate that underrepresented group within Gitlab. To provide a voice and a safe space for people who identify as a part of that group and their allies. With aim of increasing and developing the sense of belonging. 
 
 Team Member **Discussion Group** that is for the purposes of discussions and/or allyship 
-- The purpose of these groups is to provide either an avenue to perform more meaningful allyship activities and bring together ideas on how to be effective allies to underrepresented groups or discuss issues that may effect them at GitLab. There could be a variety of examples of TMDGs including Allyship groups, Religion & Faith based groups or other areas which merit discussions.  
+- The purpose of these groups is to provide a space for team members who would like peer and company-backed support but do not fit into the underrepresented group definition, such as early career professionals. Alternatively, these groups could provide either an avenue to perform more meaningful allyship activities and bring together ideas on how to be effective allies to underrepresented groups or discuss issues that may effect them at GitLab. There could be a variety of examples of TMDGs including allyship groups, religion & faith based groups or other areas which merit discussions. 
 
 These types of groups must have a much clearer mission and purpose. Allyship groups in particular must be action orientated. Any budget assigned to these groups should be used in support of other TMRGs or Diversity, Inclusion & Belonging initiatives. 
 
@@ -46,6 +46,7 @@ Ordered alphabetically to avoid the perception that any TMG is more important th
 | [GitLab DiversABILITY](https://about.gitlab.com/company/culture/inclusion/erg-gitlab-diversability/) | [Kaitlyn Chappell](https://gitlab.com/kchappell) [Wil Spillane](https://gitlab.com/wspillane) | #diverse_ability | [Sign up for future meetings (google form)](https://forms.gle/5g2wVB577Lr7M3CH7) | [DiversABILITY Agenda](https://docs.google.com/document/d/130LH9QPewms025z4OFxNNUYnjcQ53D1049EZOL2WdWc/edit?usp=sharing) | TBC |
 | [Early Career Professionals](https://groups.google.com/a/gitlab.com/g/earlycareertmdg) | [Kristi Piechnik](https://gitlab.com/kpdoespr) and [Amruta Kulkarni](https://gitlab.com/akulks) | #early-career-tmdg | [Sign up for future meetings with Google Group](https://groups.google.com/a/gitlab.com/g/earlycareertmdg) | TBD | Craig Mestel |
 | [GitLab Generational Understanding](/company/culture/inclusion/tmrg-gitlab-generational-understanding/) | [Wayne Haber](https://gitlab.com/whaber) |#generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | Eric Johnson
+| [Global Voices](/company/culture/inclusion/tmrg-global-voices) | [Eliran Mesika](https://gitlab.com/eliran.mesika) | #global-voices-tmrg | |  | 
 | [GitLab Latinx](/company/culture/inclusion/tmrg-gitlab-latinx/) | [Pilar Mejia](https://gitlab.com/pmejia) [Hugo Azevedo](https://gitlab.com/hugoazevedo) [Romer Gonzalez](https://gitlab.com/romerg) [Chris Cruz](https://gitlab.com/chriscruz) | #latinx | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/latinxtmrg) | [Latinx Agenda](https://docs.google.com/document/d/15I-Lp9BO1FgnSCxANPiTemrvbcSLppf_xp8I0vIUbPY/edit?usp=sharing) | Wendy Barnes |
 | Black @ GitLab | @aprilmarks @marcusbriancarter | TBC |  #minoritiesintech | TBC | TBC | David DeSanto |
 | [GitLab Pride](https://about.gitlab.com/company/culture/inclusion/erg-gitlab-pride/) | [Alex Hanselka](https://gitlab.com/ahanselka) and [Helen Mason](https://gitlab.com/hmason) | #lgbtq | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/pride-tmrg) | [Pride Agenda](https://docs.google.com/document/d/11D-Izm5mbopEUCY036Qr0bHx6UePMyfkzhUfNDE-mnk/edit?usp=sharing) | Robin Schulman |
@@ -60,7 +61,7 @@ An Executive Sponsor can be any leader at GitLab who is at VP level or above. Th
 - An executive sponsor does not have to be a member of the underrepresented group but has the capacity to be an ally to the group
 - Be able to offer a time commitment to the TMRG both sync and async
 - Have the capacity to learn more about the underrepresented group if they are unfamiliar with the needs of the group
-- Have taken the [psychological safety course](https://gitlab.edcast.com/journey/psychological-safety-understanding-empowerment-and-self-r) 
+- Have taken the [psychological safety course](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/psychological-safety-understanding-empowerment-and-self-reflection) 
 
 **Choosing an Executive Sponsor:**
 
@@ -148,7 +149,7 @@ A mission statement is the simplest and clearest way to explain the purpose of y
 
 As with all GitLab business, we want to dogfood our own product. As such, you should consider creating a GitLab project to manage discussions in issue and
 update the repo with mission statement, events, and the like. You should create the repo in the [`gitlab-com`](https://gitlab.com/gitlab-com) group. To see
-a project in action, you can check out the [GitLab Pride project](https://gitlab.com/gitlab-com/pride-erg).
+a project in action, you can check out the [GitLab Pride project](https://gitlab.com/gitlab-com/pride-tmrg).
 
 ### Create a Google group
 

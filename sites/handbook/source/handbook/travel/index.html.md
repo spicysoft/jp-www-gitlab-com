@@ -31,7 +31,6 @@ If you are nursing while traveling on GitLab approved business, you can reimburs
 
 Check with your health plan to see if you are eligible for reimbursement for the cost of a breast pump or any other supplies. 
 
-
 ## Self Stay Incentive Policy <a name="self-stay"></a>
 
 If you decide to stay with friends or family instead of a hotel / Airbnb for a business trip, the company will pay you 50% of what would have been
@@ -65,7 +64,7 @@ If you book Hotels and/or Cars through TripActions, the costs will need to be ch
 
 **Trains**
 
-If you book Trains through TripActions, business related bookings should be, upon receipt of manager's approval, paid upfront and expensed through expensify**.
+If you book Trains through TripActions, business related bookings should be, upon receipt of manager's approval, paid upfront and expensed through expensify.
 
 **Personal Bookings**
 
@@ -96,7 +95,7 @@ to book flights, hotels, trains, or rental cars.
 
 Note: Once a flight is booked, re-routing is at person’s own cost unless requested by the company or force majeure (in the latter case often the airline will cover the difference).
 
-#### FAQ about travel
+### FAQ about travel
 
 Please read through these FAQ **entirely**.
 
@@ -105,7 +104,22 @@ Please read through these FAQ **entirely**.
 1. If your flight does not have a seat selection or checked bags included, you need to arrange that with **the airline**. Usually done upon check-in online, 24H before your flight.
 1. If part of your travel has been changed after you've booked, contact **TripActions Support** about this, they can help.
 
-##### FAQ regarding transition from NexTravel to TripActions
+#### FAQ about travel upgrades
+
+1. If you exceed `193.6cm` or `6'4"` in height (i.e. you exceed the [95th percentile height distribution for a male human](https://ourworldindata.org/human-height#height-is-normally-distributed)) you may:
+    - Expense the full cost for an upgrade to Economy Plus on any flight
+    - Expense up to the first [$300 USD](https://www1.oanda.com/currency/converter/) for an upgrade to Business Class on flights longer than 8 hours
+1. If your height does not match the exact cm/inch requirement, and you feel unsafe to travel, you may:
+    - Expense up to the first [$100 USD](https://www1.oanda.com/currency/converter/) for an upgrade to Economy Plus on flights longer than 8 hours
+    - Review upgrade options with your manager (keeping in mind the guidance on ["spending company money like it is your own"](/handbook/spending-company-money/#guidelines))
+1. GitLab does not cover expenses for significant others or family members for travel or immigration. This includes travel and visas for GitLab events.
+    - There are other things that [the company will not reimburse](/handbook/finance/accounting/#non-reimbursable-expenses), such as dog boarding.
+
+> We base elibibility on the 95 percentile because it is a practical figure for capturing outliers without being overly prescriptive and applicable to all travel if we care to flesh out guidance around other forms of transit in the future.
+>
+> It is common for manufacturers to design seating that comfortably accomodates only a certain percentage of the populate. For example, see [how Herman Miller designs their chairs to accomodate the 95th percentile](https://www.hermanmiller.com/research/categories/white-papers/the-evolution-of-anthropometrics-and-user-control/).
+
+#### FAQ regarding transition from NexTravel to TripActions
 
 [TripActions FAQs](https://tripactions.com/faq#) is a great resource for questions surrounding TripActions features.
 

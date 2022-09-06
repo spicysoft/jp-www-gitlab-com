@@ -9,7 +9,9 @@ title: "会社のお金を使う時"
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-成果、自由、効率、質素、協力というGitLabの価値観に基づいて、効果的に仕事をするために必要な購入品や費用を決定する責任を負ってもらうことをGitLabのチームメンバーに期待しています。仕事に必要な物品を手に入れることに躊躇しないでください。仕事をうまく進めるために必要なものは、誰よりもあなたが一番知っているはずです。
+In keeping with our values of [results](/handbook/values/#results), [efficiency](/handbook/values/#efficiency), [freedom](/handbook/values/#freedom-and-responsibility-over-rigidity), [frugality](/handbook/values/#frugality), and [collaboration](/handbook/values/#collaboration), we expect GitLab team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job.
+
+[成果](/handbook/values/#results)、[効率](/handbook/values/#efficiency)、[自由](/handbook/values/#freedom-and-responsibility-over-rigidity)、[質素](/handbook/values/#frugality)、[協力](/handbook/values/#collaboration)というGitLabの価値観に基づいて、効果的に仕事をするために必要な購入品や費用を決定する責任を負ってもらうことをGitLabのチームメンバーに期待しています。仕事に必要な物品を手に入れることに躊躇しないでください。仕事をうまく進めるために必要なものは、誰よりもあなたが一番知っているはずです。
 
 以下のガイドラインは、チームメンバーがよく経費にするものを説明しています。参考になるように、以下のいくつかの物品の中には、一般的に使われている平均的な金額が記載されているものもあります。生産的に働くために適切なツールを手に入れるために、より多くの出費が必要な場合は、そうしてください。高価なものにいくらかけるのが妥当かわからない場合は、[自宅勤務の機材に関するページ](/handbook/finance/procurement/office-equipment-supplies/)をご覧になるか、上司に助けを求めてください。
 

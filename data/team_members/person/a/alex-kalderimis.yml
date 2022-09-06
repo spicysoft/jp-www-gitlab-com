@@ -1,0 +1,41 @@
+---
+name: Alex Kalderimis
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
+  Ecosystem:Integrations
+reports_to: arturo-herrero
+picture: alexkalderimis.jpg
+twitter: involans
+gitlab: alexkalderimis
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Ecosystem:Integrations BE Team
+projects:
+  gitlab: maintainer backend
+  gitlab-gollum-lib: reviewer backend
+expertise: <li><a href="https://docs.gitlab.com/ee/api/graphql">GraphQL</a> <a href="/company/team/structure/#expert">expert</a></li>
+domain_expertise:
+- rails
+- graphql
+- design_management
+- create
+story: |
+  Alex is a UK based software engineer who has worked on both front and back end
+  code in fields ranging from bioinformatics, to ed-tech and banking. This gives him
+  an insight into the common challenges facing developers in small start-ups, scientific
+  collaborations and large corporate enterprises.
+
+  Alex cares about writing tools that solve problems, perform well and are simple to use,
+  but above all ones that make the world a better place. He is an advocate of simplicity in
+  software, which is something he credits to his work with functional programming
+  and its emphasis on data-driven design.
+
+  Outside the office, you are most likely to find him on a bike, or sniffing out
+  a new café.
+specialty:
+- 'Ecosystem: Integrations'
+

@@ -106,9 +106,9 @@ GitLab as the leader in all remote work creates opportunities for our team membe
 
 Please see our [team member social media policy](/handbook/marketing/team-member-social-media-policy/).
 
-## すべてはMerge Requestから始まる {#everything-starts-with-a-merge-request}
+## Merge Requestから始まる {#start-with-a-merge-request}
 
-It's best practice to start a discussion where possible with a [Merge Request (MR)](https://docs.gitlab.com/ee/user/project/merge_requests/) instead of an issue. An MR is associated with a specific change that is proposed and transparent for everyone to review and openly discuss. The nature of MRs facilitate discussions around a proposed solution to a problem that is actionable. An MR is actionable, while an issue will take longer to take action on.
+When possible, it's best practice to start a discussion with a [Merge Request (MR)](https://docs.gitlab.com/ee/user/project/merge_requests/) instead of an issue. An MR is associated with a specific change that is proposed and transparent for everyone to review and openly discuss. The nature of MRs facilitate discussions around a proposed solution to a problem that is actionable. An MR is actionable, while an issue will take longer to take action on.
 
 1. Always **open** an MR for things you are suggesting and/or proposing. Whether something is not working right or we are iterating on a new internal process, it is worth opening a merge request with the minimal viable change instead of opening an issue encouraging open feedback on the problem without proposing any specific change directly. Remember, an MR also invites discussion, but it's specific to the proposed change which facilitates focused decision.
 1. Never ask someone to create an issue when they can default to the merge request.
@@ -120,7 +120,7 @@ It's best practice to start a discussion where possible with a [Merge Request (M
 1. **Cross link** issues or other MRs with related conversations. E.g. if there’s a Zendesk ticket that caused you to create a GitLab.com MR, make sure to document the MR link in the Zendesk ticket and vice versa. And when approving or rejecting the MR, include reason or response from Zendesk. Put the link at the top of each MR's description with a short mention of the relationship (Report, Dependency, etc.) and use one as the central one and ideally close the alternate if duplicate.
    1. When providing links to specific lines of code relevant to the MR, **always use a permalink** (a link to a specific commit for the file). This ensures that the reference is still valid if the file changes. For more information, see [Link to specific lines of code](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#link-to-specific-lines-of-code).
 1. If submitting a change for a feature, **update the description with the final conclusions** (Why an MR was rejected or why it was approved). This makes it much easier to see the current state of an issue for everyone involved in the implementation and prevents confusion and discussion later on.
-1. Submit the **smallest** item of work that makes sense. When proposing a change, submit the smallest reasonable commit, put suggestions for other enhancements in separate issues/MRs and link them. An MR can start off as only a [problem description and TODO comments](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/35239/diffs?diff_id=97449459). If you're new to GitLab and are writing documentation or instructions, submit your first merge request for at most 20 lines.
+1. Submit the [**smallest** viable and valuable thing](/handbook/values/#iteration). When proposing a change, submit the smallest reasonable commit, put suggestions for other enhancements in separate issues/MRs and link them. An MR can start off as only a [problem description and TODO comments](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/35239/diffs?diff_id=97449459). If you're new to GitLab and are writing documentation or instructions, submit your first merge request for at most 20 lines.
 1. Do not leave MRs open for a long time. MRs should be **actionable** -- stakeholders should have a clear understanding of what changed and what they are ultimately approving or rejecting.
 1. Make a conscious effort to **prioritize** your work. The priority of items depends on multiple factors: Is someone waiting for the answer? What is the impact if you delay it? How many people does it affect, etc.? This is detailed in [Engineering Work flow](/handbook/engineering/workflow/).
 1. When submitting a MVC, **ask for feedback** from your peers. For example, if you're a designer and you propose a design, ping a fellow designer to review your work. If they suggest changes, you get the opportunity to improve your design and propose an alternative MR. This promotes collaboration and advances everyone's skills.
@@ -168,7 +168,16 @@ When an MR is changed to be `Manager Mention`, the person making this change sho
 
 ## イッシュー {#issues}
 
-Issues are useful when there isn't a specific code change that is being proposed or needed. For example, you may want to start an issue for tracking progress or for project management purposes that do not pertain to code commits. This can be particularly useful when tracking team tasks and creating issue boards. However it is still important to maintain focus when opening issues by defining a single specific topic of discussion as well as defining the desired outcome that would result in the resolution of the issue. The point is to not keep issues open-ended and to prevent issues from going stale due to lack of resolution. For example, a team member may open an issue to track the progress of a blog post with associated to-do items that need to be completed by a certain date (e.g. first draft, peer review, publish). Once the specific items are completed, the issue can successfully be closed. Below are a few things to remember when creating issues:
+Issues are valuable when there isn't a specific code change that is being proposed, such as:
+
+* Crafting a research proposal to validate a problem or solution
+* Ideating on designs in order to solve a particular problem
+* Breaking down implementation tasks in order to deliver a solution iteratively
+* Tracking progress of particular tasks, especially when an issue board is needed
+
+When utilizing issues, it is still important to maintain focus by defining a single specific topic of discussion and the desired outcome that would result in the resolution of the issue. Issues should not be open-ended or go stale due to lack of resolution. For example, a team member may open an issue to track the progress of a blog post with associated to-do items that need to be completed by a certain date (e.g. first draft, peer review, publish). Once the specific items are completed, the issue can successfully be closed.
+
+Below are a few things to remember when creating issues:
 
 1. When **closing** an issue leave a comment explaining why you are closing the issue and what the MVC outcome was of the discussion (if it was implemented or not).
 1. We keep our **promises** and do not make external promises without internal agreement.
@@ -202,6 +211,14 @@ At GitLab, everyone can contribute to the effectiveness of Internal Communicatio
 
 Since we believe that all team members must be [Managers of One](/handbook/leadership/#managers-of-one), most communication is handled by the relevant group, but we know that some communications are more sensitive and contentious than others.
 In those cases, the DRIs may want to engage the [Internal Communications function](/handbook/communication/internal-communications/).
+
+## Informal communication {#informal-communication}
+
+[Informal communication](/company/culture/all-remote/informal-communication/) is made up of interactions between co-workers that are unofficial in nature and focus on building social relationships outside of the normal hierarchy of a typical business structure.
+
+In other words, it's what happens when we get to know each other and talk about anything other than work.
+
+Informal communication is a [vital part of GitLab culture](/company/culture/#culture-at-gitlab), and we've listed [20+ ways to engage](/company/culture/all-remote/informal-communication/).
 
 ## 非同期コミュニケーション {#asynchronous-communication}
 
@@ -890,7 +907,7 @@ Indicate your availability by updating your own calendar using Google's ["out of
 1. We prefer [Zoom](https://gitlab.zoom.us/).
 1. Google Calendar also has a [Zoom plugin](https://chrome.google.com/webstore/detail/zoom-scheduler/kgjfgplpablkjnlkjmjdecgdpfankdle?hl=en-US) where you can easily add a Zoom link for a video call to the invite.
 1. For meetings that are scheduled with Zoom:
-   - If you need more privileges on Zoom (longer meeting times, more people in the meeting, etc.), please contact People Operations Specialist as described [specifically for Zoom](/handbook/tools-and-tips/other-apps/#shush).
+   - After reviewing our [Zoom](/handbook/tools-and-tips/zoom/) handbook page, if you have additional questions, please contact IT in the `#it_help` Slack channel.
    - Note that if you select to record meetings to the cloud (setting within Zoom), you must include the text `[REC]` in the meeting title if you want them to be automatically placed in the `GitLab Videos Recorded` folder in Google Drive on an hourly basis via a [scheduled pipeline](https://gitlab.com/gitlab-com/zoom-sync/pipelines).
    - You can find these videos in Google Drive by looking under `Shared drives` and `GitLab Videos Recorded`. If you do not have access to this drive, contact [IT Ops](https://gitlab.com/gitlab-com/business-ops/team-member-enablement/issue-tracker/issues).
    - The [script for syncing the files is here](https://gitlab.com/gitlab-com/zoom-sync).
@@ -1375,7 +1392,7 @@ Building dedicated time into your day can help minimize the distractions that Sl
 
 ### 一般的なガイドライン {#general-guidelines}
 
-1. Everyone can contribute, and while opinions are important to provide perspective, we value [proposals](/handbook/values/#make-a-proposal) and [iteration](/handbook/values/#iteration). If the subject is of value to the wider community, consider commenting on an existing issue or opening a new [merge request](#everything-starts-with-a-merge-request) instead.
+1. Everyone can contribute, and while opinions are important to provide perspective, we value [proposals](/handbook/values/#make-a-proposal) and [iteration](/handbook/values/#iteration). If the subject is of value to the wider community, consider commenting on an existing issue or opening a new [merge request](#start-with-a-merge-request) instead.
 1. Use the `:white_check_mark:` emoji or similar to indicate an inquiry has been answered. Anyone can add the emoji. If you're not sure, then feel free to leave it up to the person who asked. An emoji indicator is particularly helpful in channels where lots of questions are posted, such as `#questions`, and `#git-help`.
 1. In general, you can think of emoji reactions as equivalent to body-language responses we use in real-life conversations, such as nodding your head as encouragement when a verbal (or in Slack, written) response might be too much. However, please be aware that use and understanding of emoji, like body-language, is not universal. Others may not communicate via those means the same way that you do, particularly those who are Autistic or otherwise neurodivergent. If in doubt, you can use text to clarify.
 1. In public channels, [threads](https://get.slack.help/hc/en-us/articles/115000769927-Message-threads) are valuable for keeping conversations together. If you want to respond to a question or comment in a channel, please start a thread instead of responding below them in the channel. This helps to keep the discussion in one place where it is easy to follow, and reduces noise as each message in a thread does not result in an unread message for everyone in the channel.

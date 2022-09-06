@@ -548,16 +548,6 @@ gitter-webapp:
   description: |
     Gitter is a community for software developers. This project is the main monolith web chat application.
 
-meltano:
-  name: Meltano
-  path: meltano/meltano
-  link: https://gitlab.com/meltano/meltano
-  description: |
-    Meltano is an open source convention-over-configuration product for the whole data lifecycle, all the way from loading data to analyzing it.
-    It does data ops, data engineering, analytics, business intelligence, and data science.
-
-    Meltano stands for the steps of the data science life-cycle: Model, Extract, Load, Transform, Analyze, Notebook, and Orchestrate.
-
 peopleops-employment-automation:
   name: PeopleOps Employment Automation
   path: gitlab-people-engineering/employment-automation
@@ -992,7 +982,7 @@ gitlab-vscode-extension:
     The extension supports searching and reviewing MRs, controlling pipelines and
     more. The project is also called GitLab Workflow.
 
-protect-container-scanning:
+secure-container-scanning:
   name: Container Scanning
   path: gitlab-org/security-products/analyzers/container-scanning
   link: https://gitlab.com/gitlab-org/security-products/analyzers/container-scanning
@@ -1128,3 +1118,10 @@ terraform-provider-gitlab:
     The Terraform GitLab Provider is a plugin for Terraform that allows for the
     full lifecycle management of GitLab resources, like users, groups and
     projects.
+
+gitlab-web-ide:
+  name: gitlab-web-ide
+  path: gitlab-org/gitlab-web-ide
+  link: https://gitlab.com/gitlab-org/gitlab-web-ide
+  description: |
+    A package for bootstrapping GitLab's context-aware Web IDE.

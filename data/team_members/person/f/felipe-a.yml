@@ -3,8 +3,8 @@ name: Felipe Artur
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
-  Plan:Product Planning
-reports_to: fullstack-engineering-manager-product-planning
+  Plan:Certify
+reports_to: fullstack-engineering-manager-certify
 picture: felipe_artur.jpg
 twitter: FelipeArtur
 gitlab: felipe_artur
@@ -12,7 +12,7 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Plan:Product Planning BE Team
+- Plan:Certify BE Team
 projects:
   gitlab:
   - trainee_maintainer backend

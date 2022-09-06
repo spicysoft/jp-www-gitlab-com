@@ -333,9 +333,9 @@ If your GC is optional and you need to move the date, please work with your depa
 | Thursday September 1 | CRO | Ryan O'Nell | August 25 |
 | Tuesday September 6 | Marketing | Marketing Leadership | August 25 |
 | Wednesday September 7 | **Available** | | Key Review Date? |
-| Thursday September 8 | Product | Product Leadership | September 1 |
+| Thursday September 8 | **Available**| | Key Review Date? |
 | Tuesday September 13 | **Available** |  |  |
-| Wednesday September 14 | **Available** | | Key Review Date? |
+| Wednesday September 14 |Product | Product Leadership | September 1 |
 | Thursday September 15 | **Available** | |  |
 | Tuesday September 20 | CosT  | Stella Treas | N/A |
 | Wednesday September 21 | General (CEO) | Sid Sijbrandij | N/A |
@@ -406,7 +406,7 @@ We suggest each person attend via their own device to avoid [hybrid meetings](/h
 
 ## Archiving Content
 
-If an agenda document becomes longer than 10 pages, the People Experience or People Specialist team member assigned to moderate a meeting will archive the content that is over the first 10 pages. All agenda docs should be checked and archived as needed before the meeting date and time.
+If an agenda document becomes longer than 10 pages, the EBA assigned to moderate a meeting will archive the content that is over the first 10 pages. All agenda docs should be checked and archived as needed before the meeting date and time.
 
 - Create a Google doc with the same permissions as the doc from which you will be archiving content.
 - Name the new doc the same title as the original, with the word `Archive` at the end.

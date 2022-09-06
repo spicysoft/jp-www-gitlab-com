@@ -17,6 +17,8 @@ departments:
   - Dev Section
   - Plan:Project Management FE Team
   - Frontend
+projects:
+  gitlab: reviewer frontend
 specialty: "Plan"
 expertise:
 story: 'Deepika, a software developer , has worked on multiple tech stacks but is inclined towards front end development for quite some time. She likes to learn new things and that is what keeps her motivated. Outside of work, she has a beautiful daughter who lights up her world and enjoys spending time with her family '

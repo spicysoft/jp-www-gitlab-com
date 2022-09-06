@@ -30,7 +30,7 @@ Check out our [Ops Section Direction "Who's is it for?"](/direction/ops/#who-is-
 
 ## What's Next & Why
 
-There are no planned investments in Performance Testing for February 2022 to June 2022.
+There are no planned investments in Performance Testing until January 2023.
 
 ### Additional Resources
 
@@ -43,7 +43,7 @@ Interested in joining the conversation for this category? Please join us in our
 we discuss this topic and can answer any questions you may have. Your contributions
 are more than welcome.
 
-This page is maintained by the Product Manager for Pipeline Insights, Jackie Porter ([E-mail](mailto:jporter@gitlab.com))
+This page is maintained by the Product Manager for Pipeline Insights, Jocelyn Eillis ([E-mail](mailto:jeillis@gitlab.com))
 
 ## Maturity Plan
 

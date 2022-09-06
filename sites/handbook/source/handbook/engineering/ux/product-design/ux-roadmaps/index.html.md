@@ -101,7 +101,7 @@ There are a few key differences between the [Neilsen Norman Group UX Roadmaps](h
 >**A roadmap that is imperfect but is in a place where people typically work is better than a great roadmap that is in a tool rarely used.** 
 >_Neilsen Norman Group, course on UX roadmaps_
 
-There are many tools at our disposal to create and maintain a UX roadmap, from Mural to Trello and even Figma. However, it is recommended to use Gitlab boards as they are in a place we are comfortable with, not to mention this adds another use case for dogfooding boards and provides the team feedback for potential improvements. The UX roadmap board will be the primary way we consume and share the roadmap, while the individual themes will be the primary way we plan and work on the roadmap.
+There are many tools at our disposal to create and maintain a UX roadmap, from Mural to Trello and even Figma. However, it is recommended to use GitLab boards as they are in a place we are comfortable with, not to mention this adds another use case for dogfooding boards and provides the team feedback for potential improvements. The UX roadmap board will be the primary way we consume and share the roadmap, while the individual themes will be the primary way we plan and work on the roadmap.
 
 #### Stage:Group UX roadmaps and epics 
 
@@ -128,7 +128,7 @@ Themes are composed of multiple elements to ensure they are defined and scoped a
 | Subthemes | More specific needs and details added to a theme; other goals the theme addresses, existing validated feature issues, research initiatives    | _Search and filter enhancements, Grouping related items in tables, Taking action on multiple items at one time_ |
 | Confidence | Informal assessments of likely impact and demonstrated need for the different themes. | _High_ | 
 | Timeframe | Now, next, future, future+ | _Now_ |
-| Owner | Stage:Group {Designer, Researcher} | _Secure:Threat Insights Designer_ |
+| Owner | Stage:Group {Designer, Researcher} | _Govern:Threat Insights Designer_ |
 
 #### Theme statements
 
@@ -229,17 +229,41 @@ _Note: This only applies to design teams that have a regular stage-level plannin
 
 #### Product Designers working on themes
 
-A majority of the work designers do will be on themes in the (Now) Next 1-3 milestone column. These themes are comprised of high-confidence outcomes and validated needs. The UX theme issue is where collaboration should occur, including plans and discussion on subthemes, research, and design feedback. Related issues for design exploration and solution validation should stem from the theme issue. The intention is to be working on the whole of the theme in a complete, holistic way as opposed to its individual issues.
+Most of the work Product Designers do will be on themes in the `(Now) Next 1-3 milestone` column of the UX Roadmap Issue Board. These themes are comprised of high-confidence outcomes and validated needs: the problem is already well defined and researched, the JTBD, user persona, user needs/requirements are well understood, and themes, therefore, are ready for a design solution to be created.
 
-Once the design deliverable is complete, assets should be uploaded to the UX theme issue, and the team should let their counterparts know it is ready for planning breakdown following the [Product Development Workflow](https://about.gitlab.com/handbook/product-development-flow/#build-goals--outcomes) guidelines. Themes issues should close once planning breakdown is complete to avoid issues staying open too long in the UX roadmap.
+The UX theme issue is where planning, discussion, and collaboration occur. It is what the research and solutions are based on. The related issues contained within it are parts of the whole and may evolve or even get closed as more knowledge and understanding of the theme becomes clear. As work progresses on the theme new issues will need to be created per our existing workflow processes. As these are based on the theme, they will be added or linked to the theme for tracking purposes. The most important aspect of working on themes is that research and design solutions are based on the theme first and any related issue MVCs second. The intention is to work on the whole of the theme in a complete, holistic way as opposed to its individual-related issues. This process is about workflows vs features.
+
+Once the low-fidelity wireframe design is complete, assets should be uploaded to the UX theme issue, either in the description or in the design management tool for tracking/SSOT purposes. The team should then notify their counterparts that it is ready for planning breakdown following the [Product Development Workflow](https://about.gitlab.com/handbook/product-development-flow/#build-goals--outcomes) guidelines. 
+
+##### Suggested workflow
+1. Assess your theme
+    - Do you have everything you need to be able to generate design solution(s)?
+        - Refer to the [Product design process: Define the opportunity](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/109522/diffs) to learn about all the things you need to know to determine if you are ready to move into solutionizing.
+    - Once you've gathered all of this information, ensure that it is added to the theme's description as the SSOT.
+2. [Ideate and iterate](https://about.gitlab.com/handbook/engineering/ux/product-designer/#ideate-and-iterate) low-fidelity wireframes that incorporate all of the requirements of the theme, holistically addressing the JTBD and use-cases.
+    - Collaborate with your counterparts early and often.
+    - Adjust your designs after [soliciting feedback](https://about.gitlab.com/handbook/engineering/ux/product-designer/#design-reviews) from your counterparts and the UX team as needed.
+3. In order to increase your confidence in your design direction it's always recommended that you validate your low-fidelity wireframe design with the [solution validation](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/solution-validation-and-methods/) method that is right for your project. After all, this is the design you'll be working from in future milestones to come, so it is best to ensure, while in this low-fidelity state, that it is usable and meets your user's goals and needs. Test it while it is cheap!
+    - Adjust your designs as necessary based on this user feedback solidifying your low-fidelity wireframe design direction.
+4. Work with your counterparts to [breakdown your low-fidelity wireframe design into an appropriate MVC(s)](https://about.gitlab.com/handbook/engineering/ux/product-designer/#refine-mvc)
+    - Create an issue(s) to track this MVC work.
+    - You might consider this step more akin to feature-based design, where individual issues are created for each feature. The difference here, however, is that you and your team directly connected to the low-fidelity wireframe design that this issue was derived from so they can see the end game and plan accordingly.
+5. Create final high-fidelity mock-ups for the MVC.
+    - This is like coloring in the lines of a coloring book, where the coloring book is the lo-fi wireframe, and your mock-ups are the crayons that fill in all of the details.
+    - This is where you must consider and define all of the micro-interactions, determine which Pajamas components make the most sense for your solution, write your micro-copy, consider accessibility, and so on.
+6. It is again recommended that you validate your MVC design with Solution Validation to ensure you haven't lost anything in the translation from your low-fidelity wireframe design to your high-fidelity MVC mock-ups.
+    - Adjust your designs as necessary based on this user feedback solidifying your MVC design direction.
+7. Follow the rest of the Product Development Flow once you and your team have deemed the MVC design complete.
 
 #### UX Theme issue scope
 
-The work done on a theme should keep in mind the scope of the deliverables. If the design cannot be implemented within a reasonable timeframe, then the scope of the theme is too large and should be reduced. A good rule is three iterations to implement a UX theme; One MVC: (feature: addition) followed by two (feature:enhancements) iterations to successfully implement the designs. There may be instances where a theme will take fewer iterations or even more if it is a more significant back-end change. In these cases, it is recommended to collaborate within the team's stable counterparts, Product and Engineering, to reach a viable solution.
+The work done on a theme should keep in mind the scope of the deliverables. If the design cannot be implemented within a reasonable timeframe, then the scope of the theme is likely too large and should be reduced. A good guideline is three milestones to implement a UX theme; One MVC: (feature: addition) followed by two (feature:enhancements) iterations to successfully implement the designs. There may be instances where a theme will take fewer iterations or even more if it is a more significant back-end change. In these cases, it is recommended to collaborate with the team's stable counterparts to reach a viable solution.
 
 #### UX Research working on themes
 
 A majority of UX researchers' work will be on the themes in the (Next) Next 4-7 milestones column or (Future) Next 7-13 milestones column. Working ahead affords Research the time and space to, design a study, recruit participants, execute the research and summarize the results without compromising the methodology due to time constraints. Research and insight issues should be referenced in the UX theme issue to maintain the SSOT.
+
+Work with your UX Researcher during their research prioritization efforts by referencing your UX roadmap's (Next) Next 4-7 milestones column and/or (Future) Next 7-13 milestones column. Your goal is to ensure that you are able to move themes from the Next and Future columns to the Now column. This should only be done once you have gathered all of the information necessary to be ready for design, meaning that you are now able to say that you have high confidence in this theme.
 
 ### Revising and updating themes
 

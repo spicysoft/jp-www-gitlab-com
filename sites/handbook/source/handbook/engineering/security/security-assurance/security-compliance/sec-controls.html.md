@@ -11,7 +11,7 @@ title: "GitLab Security Compliance Controls"
 
 # GitLab's Security Controls
 
-Security controls are a way to state our company's position on a variety of security topics. It's not enough to simply say "We encrypt data" since our customers and teams will naturally want to know "what data do we encrypt?" and "how do we encrypt that data?". When all of our established security controls are operating effectively this creates a security program greater than the sum of its parts that will demonstrate to our stakeholders that GitLab has a mature and comprehensive security program that will provide assurance that data within GitLab is reasonably protected.
+Security controls are a way to state our company's position on a variety of security topics. It's not enough to simply say "We encrypt data" since our customers and teams will naturally want to know "what data do we encrypt?" and "how do we encrypt that data?". When all of our established security controls are operating effectively this creates a security program greater than the sum of its parts. It demonstrates to our stakeholders that GitLab has a mature and comprehensive security program that will provide assurance that data within GitLab is reasonably protected.
 
 ## GitLab Control Framework (GCF)
 
@@ -81,7 +81,7 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 | Control | Title | Description |
 |---------|-------------|---------------|
 | AST-04 | Network Diagrams & Data Flow Diagrams (DFDs) | Maintain network architecture diagrams that:<br> - Contain sufficient detail to assess the security of the network's architecture; <br>- Reflect the current state of the network environment; <br> - Document all sensitive data flows. |
-| AST-09 | Secure Disposal or Re-Use of Equipment | Securely destroy media when it is no longer needed for business or legal purposes. |
+| AST-09 | Secure Disposal or Re-Use of Equipment | Securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent information being recovered from these components. |
 
 </details>
 
@@ -119,10 +119,9 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 |---------|-------------|---------------|
 | CHG-01 | Change Management Program | Facilitate the implementation of change management security controls. |
 | CHG-02 | Configuration Change Control | Govern the technical configuration change control processes by testing and documenting proposed changes in a non-production environment before changes are implemented in a production environment including a cybersecurity representative in the configuration change control review process. |
-| CHG-03 | Security Impact Analysis for Changes | Analyze proposed changes for potential security impacts, prior to the implementation of the change. |
 | CHG-04 | Access Restriction For Change | Enforce configuration restrictions in an effort to restrict the ability of users to conduct unauthorized changes. |
-| CHG-05 | Stakeholder Notification of Changes | Ensure stakeholders are made aware of and understand the impact of proposed changes. |
 | CHG-06 | Security Functionality Verification | Verify the functionality of security controls when anomalies are discovered. |
+| CHG-07 | Project Audit Events Review | Regular review of audit events to verify no inappropriate changes to key change management Segregation Of Duties (SOD) settings occured. |
 
 </details>
 
@@ -156,7 +155,6 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 | CRY-01 | Use of Cryptographic Controls | Facilitate the implementation of cryptographic protections security controls using known public standards and trusted cryptographic technologies. |
 | CRY-03 | Transmission Confidentiality | Cryptographic mechanisms to protect the confidentiality of data being transmitted. |
 | CRY-05 | Encrypting Data At Rest | Cryptographic mechanisms to prevent unauthorized disclosure of information at rest. |
-| CRY-08 | Public Key Infrastructure (PKI) | Implement an internal Public Key Infrastructure (PKI) or obtain PKI services from a reputable PKI service provider. |
 | CRY-09 | Cryptographic Key Management | Controls to protect the confidentiality, integrity and availability of keys by facilitating the production and management of symmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant and asymmetric cryptographic keys using approved key management technology and processes that protect the user’s private key. |
 
 </details>
@@ -168,6 +166,7 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 |---------|-------------|---------------|
 | DCH-01 | Data Protection | Facilitate logical and physical data protection controls and ensure data stewardship is assigned, documented and communicated and the quality of information remains complete and verifiable. |
 | DCH-02 | Data & Asset Classification | Ensure a complete and accurate data and asset list are categorized and prioritized based on their classification, criticality and business value, in accordance with applicable statutory, regulatory and contractual requirements. |
+| DCH-03 | Media Access | Mechanisms exist to control and restrict access to digital and non-digital media to authorized individuals only. |
 | DCH-08 | Physical Media Disposal | Securely retain and dispose of physical media when it is no longer required, using formal procedures. |
 | DCH-09 | Digital Media Sanitization | Sanitize media, both digital and non-digital, with the strength and integrity commensurate with the classification or sensitivity of the information prior to disposal, release out of organizational control or release for reuse. |
 | DCH-10 | Media Use | Restrict the use of some types of digital media on systems or system components. |
@@ -232,13 +231,11 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 | Control | Title | Description |
 |---------|-------------|---------------|
 | IAC-01 | Identity & Access Management (IAM) | Facilitate the identification and access management security controls. |
-| IAC-02 | Identification & Authentication for Organizational Users | Uniquely identify and authenticate organizational users and processes acting on behalf of organizational users. |
 | IAC-03 | Identification & Authentication for Non-Organizational Users | Uniquely identify and authenticate third-party users and processes that provide services to the organization. |
-| IAC-04 | Identification & Authentication for Devices | Uniquely identify and authenticate devices before establishing a connection using bidirectional authentication that is cryptographically- based and replay resistant. |
-| IAC-05 | Identification & Authentication for Third Party Systems & Services | Identify and authenticate third-party systems and services. |
 | IAC-06 | Multi-Factor Authentication (MFA) | Automatically enforce Multi-Factor Authentication (MFA) for: <br> - Remote network access; and/or <br> - Non-console access to critical systems or systems that store, transmit and/or process sensitive data. |
-| IAC-07 | User Provisioning & De-Provisioning | Utilize a formal user registration and de-registration process that governs the assignment of access rights. |
-| IAC-07.1 | Change of Roles & Duties | Revoke user access rights following changes in personnel roles and duties, if no longer necessary or permitted. |
+| IAC-07a | User Provisioning | Utilize a formal user provisioning process for team members that governs the assignment of access rights. |
+| IAC-07b | User De-Provisioning | Utilize a formal user de-provisioning process for terminated team members that governs the assignment of access rights. |
+| IAC-07c | Change of Roles & Duties | Revoke user access rights following changes in personnel roles and duties, if no longer necessary or permitted. |
 | IAC-08 | Role-Based Access Control (RBAC) | Enforce a Role-Based Access Control (RBAC) policy over users and resources that applies need-to-know and fine-grained access control for sensitive data access. |
 | IAC-09 | Identifier Management (User Names) | Govern naming standards for usernames and systems to ensure proper user identification management for non-consumer users and administrators. |
 | IAC-10 | Authenticator Management (Passwords) | Securely manage passwords for users and devices ensuring vendor-supplied defaults are changed as part of the installation process. |
@@ -248,6 +245,7 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 | IAC-20 | Access Enforcement | Eenforce logical access permissions through the principle of "least privilege." |
 | IAC-21 | Least Privilege | Utilize the concept of least privilege, allowing only authorized access to processes necessary to accomplish assigned tasks in accordance with organizational business functions. |
 | IAC-22 | Account Lockout | Enforce a limit for consecutive invalid login attempts by a user during an organization-defined time period and automatically locks the account when the maximum number of unsuccessful attempts is exceeded. |
+| Baseline-01 | Baseline and Role Based Entitlements | Annual review of Baseline and Role-based Entitlements to ensure alignment with job responsibilities. |
 
 </details>
 
@@ -297,7 +295,6 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 | MON-01 | Continuous Monitoring | Enterprise-wide monitoring controls such as Intrusion Detection / Prevention Systems (IDS / IPS) technologies on critical systems, key network segments and network choke points. <br> GitLab utilizes Host-based Intrusion Detection / Prevention Systems (HIDS/HIPS) to continuously monitor inbound and outbound communications traffic for unusual or unauthorized activities and actively responds to alerts from physical, cybersecurity, privacy and supply chain activities, blocking unwanted activities to achieve and maintain situational awareness. <br> GitLab utilizes Wireless Intrusion Detection / Protection Systems (WIDS / WIPS) to identify rogue wireless devices and detect attack attempts via wireless networks. <br> GitLab sends logs to a Security Incident Event Manager (SIEM) or similar automated tool to review event logs on an ongoing basis and escalate incidents in accordance with established timelines and procedures. |
 | MON-02 | Centralized Collection of Security Event Logs | Utilize a Security Incident Event Manager (SIEM) or similar automated tool, to support the centralized collection of security-related event logs to maintain situational awareness. |
 | MON-03 | Content of Audit Records | Configure systems to produce audit records that contain sufficient information to, at a minimum: <br> - Establish what type of event occurred; <br> - When (date and time) the event occurred; <br> - Where the event occurred; <br> - The source of the event; <br> - The outcome (success or failure) of the event; and <br> - The identity of any user/subject associated with the event. |  
-| MON-06 | Monitoring Reporting | Provide an event log report generation capability to aid in detecting and assessing anomalous activities. |
 | MON-10 | Audit Record Retention | Retain audit records for a time period consistent with records retention requirements to provide support for after-the-fact investigations of security incidents and to meet statutory, regulatory and contractual retention requirements. |
 | MON-16 | Anomalous Behavior | Detect and respond to anomalous behavior that could indicate account compromise or other malicious activities. |
 
@@ -309,7 +306,6 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 | Control | Title | Description |
 |---------|-------------|---------------|
 | NET-01 | Network Security Management | Develop, govern & update procedures to facilitate the implementation of network security controls. |
-| NET-02 | Layered Network Defenses | Implement security functions as a layered structure that minimizes interactions between layers of the design and avoiding any dependence by lower layers on the functionality or correctness of higher layers. |
 | NET-03 | Boundary Protection | Limit network access points by monitoring and controlling communications at the external network boundary and at key internal boundaries within the network. |
 | NET-04 | Data Flow Enforcement – Access Control Lists (ACLs) | Design, implement and review firewall and router configurations to restrict connections between untrusted networks and internal systems and deny network traffic by default and allow network traffic by exception (e.g., deny all, permit by exception). |
 | NET-06 | Network Segmentation | Logically or physically segment information flows to accomplish network segmentation to other components of the system and implementing security management subnets to isolate security tools. |

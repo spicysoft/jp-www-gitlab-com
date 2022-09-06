@@ -78,7 +78,7 @@ Auto Devops ties together several feature from across GitLab [product categories
 | Auto [Secret Detection](/direction/secure/static-analysis/secret-detection/)  | [Static Analysis](/handbook/engineering/development/sec/secure/static-analysis/) |
 | Auto [Dependency Scanning](/direction/secure/composition-analysis/dependency-scanning/) | Composition |
 | Auto [License Compliance](/direction/secure/composition-analysis/license-compliance/)  | Composition |
-| Auto [Container Scanning](/direction/protect/container-scanning/)  | Container Security |
+| Auto [Container Scanning](/direction/govern/composition-analysis/container-scanning/)  | Container Security |
 | Auto [Review Apps](/direction/release/review_apps/) | [Progressive Delivery](/handbook/engineering/development/ops/release/) |
 | Auto [DAST](/direction/secure/dynamic-analysis/dast/)  | Dynamic Analysis |
 | Auto [Browser Performance Testing](/direction/verify/web_performance/)  | [Pipeline Insights](/handbook/engineering/development/ops/verify/pipeline-insights/) |

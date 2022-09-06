@@ -1,17 +1,18 @@
+---
 name: James Hebden
-locality: 
+locality: NSW, Australia
 country: Remote
-role: <a href="">Senior Security Engineer</a>
+role: <a href="/job-families/engineering/security-engineer/">Senior Security Engineer</a>
 reports_to: stevemanzuik
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
-twitter:
-linkedin:
+picture: jhebden.png
+pronouns: they/them
+pronunciation: jaymz hebb-duhn
+twitter: devec0
+linkedin: jhebden
 gitlab: jhebden
 departments:
-  - Security
-specialty: "Threat Management"
+- Security
+specialty: Threat Management
 expertise:
 story:
 

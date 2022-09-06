@@ -9,34 +9,45 @@ description: "Follow this process to obtain legal review of materials for intern
 - TOC
 {:toc .hidden-md .hidden-lg}
 
+### Self-serve materials compliance resources
 When creating materials:
-* for [external](./#external-vs-internal-use) use, refer to the [SAFE Framework](/handbook/legal/safe-framework/) and the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/).
-* for [internal]((./#external-vs-internal-use)) use, refer to the [SAFE Framework](/handbook/legal/safe-framework/).
+* for [external](./#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Checklist](/handbook/legal/external-materials-compliance-checklist).
+* for [internal]((./#external-vs-internal-use)) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/).
 
-### Using this process
-#### Scope
-This process applies to:
+### When to use this process
 
-* Internal and external materials requiring approval as determined by the [SAFE Framework Flowchart](/handbook/legal/safe-framework/#safe-flowchart);
-* External materials containing any third-party intellectual property including customer and partner logos; 
-* Materials prepared for large-scale internal events, like SKO, Partner SKO, Commit, and Contribute;
-* Materials prepared for all external events, like industry and academic conferences;
-* External materials which quote, or are written in the name of, a member of the [GitLab Executive Group](/company/team/e-group/) (eGroup), including such materials prepared for speaking engagements at non-GitLab events, interviews, press releases, and guest content bylined by a member of the eGroup; and
-* Internal materials which quote, or are written in the name of, a member of eGroup, including GitLab Assembly materials, GitLab newsletters, manager newsletters, company wide Slack messages.
+For materials listed in the Mandatory Review section, a review by the Legal & Corporate Affairs Team is **always required**.
 
-The Legal & Corporate Affairs team will triage materials submitted for review, and escalate to other team members up to and including the Chief Legal Officer, as appropriate.
+For all other materials, a review is **not required** provided the materials comply with:
 
-This process does **not** apply to:
+1. the [SAFE Framework](/handbook/legal/safe-framework/); and
+1. the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/).
 
-* Agreements of any kind.
-* [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/key-review/) meetings, and [Group Conversations](/handbook/group-conversations/) streamed or published [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered. However, these recordings should not be streamed or published if they contain confidential information;
+The DRI is responsible for ensuring materials are compliant. If you're unsure whether certain materials need to be reviewed, or have a question about compliance with the SAFE Framework, the IP Guidelines, or the Checklist, reach out in the [#safe](https://app.slack.com/client/T02592416/C01UZQ63WFQ) Slack channel. 
+
+#### Mandatory review
+
+Review is **always** required for:
+
+* Internal and external materials requiring review as determined by the [SAFE Framework Flowchart](/handbook/legal/safe-framework/#safe-flowchart);
+* External materials which quote, or are written in the name of, the CEO; CFO; CLO; CRO; CTO; VP, Investor Relations; or a member of the [Board of Directors](/company/team/board-of-directors);
+* Quarterly and year-end earnings reports, and materials which include financial data that has not been publicly disclosed, or a variation previously disclosed financial data;
+* Materials relating to: 
+   * Mergers and acquisitions, including spin outs, investments, or acqui-hires;
+   * Executive or other material organizational changes; or
+   * The announcement or release of new products material to GitLab.
+
+#### Excluded from review
+
+This process should never be used for:
+
+* NDAs, contracts, or other commercial agreements which should instead be routed through the [Commercial Legal Team](/handbook/legal/commercial/#how-to-work-with-gitlab-legal-commercial).
+* [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/key-review/) meetings, and [Group Conversations](/handbook/group-conversations/) streamed or published [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered. However, these recordings should not be streamed or published if they contain material non-public information, confidential information, or are required to be kept SAFE;
 * External or internal handbook updates;
-* GitLab issues or merge requests;
-* Internal and external communications prepared in relation to _a contentious issue that undermines a critical attribute of our company’s brand and challenges its reputation or impacts, or has the potential to impact, the safety and wellbeing of our team-members_. Communications for such situations should be prepared in accordance with the [GitLab Incident Communications Plan](/handbook/marketing/corporate-marketing/incident-communications-plan/); and
-* Blog posts. A separate workstream is running to develop a SAFE review process for the review of blog posts that does not involve the use of public MRs; this process will be added in a future iteration.
+* GitLab issues or merge requests; nor
+* Internal or external communications prepared in relation to _a contentious issue that undermines a critical attribute of our company’s brand and challenges its reputation or impacts, or has the potential to impact, the safety or wellbeing of our team-members which should instead follow the [GitLab Incident Communications Plan](/handbook/marketing/corporate-marketing/incident-communications-plan/).
 
-The Legal & Corporate Affairs Team will not approve materials in Slack because [Slack should not be used for obtaining approval](/handbook/communication/#slack); follow this process instead. However, if you’re unsure whether this process applies to the materials you are preparing, reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) to confirm. 
-
+The Legal & Corporate Affairs Team will not review materials sent in Slack because [Slack should not be used for obtaining approval](/handbook/communication/#slack); follow this Materials Legal Review Process instead.
 
 #### External vs internal use
 
@@ -51,13 +62,7 @@ Sometimes, legal review entails two separate reviews:
 
 #### Turnaround time
 
-The Legal & Corporate Affairs Team aims to complete single material reviews within two business days of submission. The turnaround time for multiple materials reviews will depend on the volume of material submitted for review. For events involving the production of a large volume of material, like SKO, Partner SKO, Commit, and Contribute, allow at least two weeks for review.
-
-
-#### Requesting review of videos not yet produced
-
-If the review request relates to a video not yet produced, review and approval is required in respect of **both** (i) the slide deck, storyboard and script (as appropriate, and in final form) prior to recording, **and** (ii) the final cut. Request review at each stage as set out in this process.
-
+The Legal & Corporate Affairs Team aims to complete single material reviews within two business days of submission. The turnaround time for multiple materials reviews will depend on the volume of material submitted for review. 
 
 #### Two-track process
 
@@ -101,15 +106,15 @@ Follow this process to obtain legal review of a **single piece of material**. A 
    * Google Slides: add the link to the first slide.
    * PDFs: no link required.
 
-5. If the review request relates to a video not yet produced, review and approval is required in respect of **both** (i) the slide deck, storyboard, and script (as appropriate, and in final form) before recording, **and** (ii) the final cut. Request review at each stage as set out in this process.
+5. If the review request is subject to [mandatory review](./#mandatory-review) for a video not yet produced, review is required in respect of **both** (i) the slide deck, storyboard, and script (as appropriate, and in final form) before recording, **and** (ii) the final cut. Request review at each stage as set out in this process.
 
 6. The Legal & Corporate Affairs Team will review the material, making comments and requests for changes in the document, or an issue comment thread, and provide context for any requested changes in accordance with the [say why, not just what](/handbook/values/#say-why-not-just-what) operating principle.
 
-7. Once legal review is complete and the material approved, a [Legal & Corporate Affairs Team member](https://about.gitlab.com/company/team/?department=legal-corporate-affairs) will tag the issue creator and comment `Legal review complete: material approved`. The material is approved only once `Legal review complete: material approved `has been commented; comments like `SAFE review complete` and `IP review complete` **do not indicate approval**.
+7. Once legal review is complete, a [Legal & Corporate Affairs Team member](https://about.gitlab.com/company/team/?department=legal-corporate-affairs) will tag the issue creator and comment `Legal review complete`. Review is complete only once `Legal review complete` has been commented; comments like `SAFE review complete` and `IP review complete` **do not indicate review is complete**.
 
-8. If **any** changes are made to the material after legal approval, another legal review is required. Tag the appropriate reviewers (([`@Scott Rissmiller`](gitlab.com/srissmiller) for internal materials, and [`@Scott Rissmiller`](gitlab.com/srissmiller) and [`@LeeFalc`](gitlab.com/LeeFalc) for external materials)) in the issue, or issue comment, created in step 1, requesting review of the amended material. As repeat reviews are inefficient, ensure materials are finalized before submitting for legal approval.
+8. If **any** changes are made to the material after legal review, another legal review is required. Tag the appropriate reviewers (([`@Scott Rissmiller`](gitlab.com/srissmiller) for internal materials, and [`@Scott Rissmiller`](gitlab.com/srissmiller) and [`@LeeFalc`](gitlab.com/LeeFalc) for external materials)) in the issue, or issue comment, created in step 1, requesting review of the amended material. As repeat reviews are inefficient, ensure materials are finalized before submitting for legal review.
 
-9. Once legal review of the amended material is complete and the material approved, a [Legal & Corporate Affairs Team member](https://about.gitlab.com/company/team/?department=legal-corporate-affairs) will once again tag the issue creator and comment `Legal review complete: material approved`.
+9. Once legal review of the amended material is complete, a [Legal & Corporate Affairs Team member](https://about.gitlab.com/company/team/?department=legal-corporate-affairs) will once again tag the issue creator and comment `Legal review complete`.
 
 ----
 ### Track 2 Multiple materials legal review process
@@ -134,10 +139,10 @@ Follow this process to obtain legal review of **multiple pieces of material** wi
 
 4. The Legal & Corporate Affairs team will review the material, making comments and requests for changes in the document, or the applicable comment thread in the issue, and provide context for any requested changes in accordance with the [say why, not just what](/handbook/values/#say-why-not-just-what) operating principle. **Ensure that all discussion relating to a given piece of material takes place in [replies to the relevant comment thread](https://docs.gitlab.com/ee/user/discussions/#create-a-thread-by-replying-to-a-standard-comment)**; do not create a new comment thread each time you comment.
 
-5. Once legal review is complete and the material approved, a [Legal & Corporate Affairs Team member](https://about.gitlab.com/company/team/?department=legal-corporate-affairs) will tag the creator of the comment thread and comment `Legal review complete: material approved` in the relevant comment thread. The material is approved only once `Legal review complete: material approved `has been commented; comments like `SAFE review complete` and `IP review complete` **do not indicate approval**.
+5. Once legal review is complete, a [Legal & Corporate Affairs Team member](https://about.gitlab.com/company/team/?department=legal-corporate-affairs) will tag the creator of the comment thread and comment `Legal review complete` in the relevant comment thread. Legal review is complete only once `Legal review complete` has been commented; comments like `SAFE review complete` and `IP review complete` **do not indicate review is complete**.
 
-6. If **any** changes are made to the material after legal approval, another legal review is required. Tag the appropriate reviewers ([`@Scott Rissmiller`](gitlab.com/srissmiller) for internal materials, and [`@Scott Rissmiller`](gitlab.com/srissmiller) and [`@LeeFalc`](gitlab.com/LeeFalc) for external materials) in the issue comment created in step 2, requesting review of the amended material. As repeat reviews are inefficient, ensure materials are finalized before submitting for legal approval.
+6. If **any** changes are made to the material after legal review, another legal review is required. Tag the appropriate reviewers ([`@Scott Rissmiller`](gitlab.com/srissmiller) for internal materials, and [`@Scott Rissmiller`](gitlab.com/srissmiller) and [`@LeeFalc`](gitlab.com/LeeFalc) for external materials) in the issue comment created in step 2, requesting review of the amended material. As repeat reviews are inefficient, ensure materials are finalized before submitting for legal review.
 
-7. Once legal review of the amended material is complete and the material approved, a [Legal & Corporate Affairs Team member](https://about.gitlab.com/company/team/?department=legal-corporate-affairs) will once again tag the issue creator and comment `Legal review complete: material approved` in the relevant comment thread.
+7. Once legal review of the amended material is complete, a [Legal & Corporate Affairs Team member](https://about.gitlab.com/company/team/?department=legal-corporate-affairs) will once again tag the issue creator and comment `Legal review complete` in the relevant comment thread.
 
-8. If the review request relates to a video not yet produced, review and approval is required in respect of **both** the slide deck, storyboard and script (as appropriate) prior to recording **and** the final cut. Request review at each stage as set out in this process.
+8. If the review request is subject to [mandatory review](./#mandatory-review) for a video not yet produced, review is required in respect of **both** the slide deck, storyboard and script (as appropriate) prior to recording **and** the final cut. Request review at each stage as set out in this process.

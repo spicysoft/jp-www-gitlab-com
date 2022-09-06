@@ -1,29 +1,27 @@
 - name: Engineering Hiring Actual vs Plan
   base_path: "/handbook/engineering/performance-indicators/"
   definition: Employees are in the division `Engineering`.
-  target: 525 engineering members by Jan 31, 2019
+  target: Confidential, in Adaptive
   org: Engineering Function
   health:
-    level: 3
+    level: 0
     reasons:
-    - Engineering is on plan
-  sisense_data:
-    chart: 8497647
-    dashboard: 463858
-    embed: v2
+    - Data currently lives in Adaptive, not available in Sisense.
+    - Waiting on the data becoming available
+  urls:
 - name: Engineering Budget Plan vs Actuals
   base_path: "/handbook/engineering/performance-indicators/"
   definition: We need to spend our investors' money wisely. We also need to run a
     responsible business to be successful, and to one day go on the public market.
-  target: Unknown until FY22 planning process
+  target: Confidential, in Adaptive
   org: Engineering Function
   is_key: false
   health:
-    level: 1
+    level: 0
     reasons:
-    - Data currently lives in Adaptive, not available in Sisense. This is Q2 priority for data team.
+    - Data currently lives in Adaptive, not available in Sisense.
+    - Waiting on the data becoming available
   urls:
-  - https://app.periscopedata.com/app/gitlab/633290/Engineering-Non-Headcount-BvAs
 - name: Engineering Average Location Factor
   base_path: "/handbook/engineering/performance-indicators/"
   definition: We remain efficient financially if we are hiring globally, working asynchronously,

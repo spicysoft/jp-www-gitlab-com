@@ -355,43 +355,43 @@ module CustomHelpers
 
   # rubocop:disable Metrics/AbcSize
   def devops_diagram(stages)
+    govern = '#f1f1f1'
     manage = '#f1f1f1'
-    secure = '#f1f1f1'
     create = '#dddddd'
     verify = '#dfdfdf'
-    package = '#e2e2e2'
-    release = '#e4e4e4'
-    configure = '#e6e6e6'
+    secure = '#e2e2e2'
+    package = '#e4e4e4'
+    release = '#e6e6e6'
+    configure = '#eaeaea'
     monitor = '#e8e8e8'
-    protect = '#eaeaea'
     plan = '#dbdbdb'
+    govern = '#fdbc60' if stages.any? { |x| %w[Govern All].include?(x) }
     manage = '#fdbc60' if stages.any? { |x| %w[Manage All].include?(x) }
-    secure = '#fdbc60' if stages.any? { |x| %w[Secure All].include?(x) }
     create = '#e44d2a' if stages.any? { |x| %w[Create All].include?(x) }
     verify = '#e95f29' if stages.any? { |x| %w[Verify All].include?(x) }
-    package = '#ed6c28' if stages.any? { |x| %w[Package All].include?(x) }
-    release = '#f07727' if stages.any? { |x| %w[Release All].include?(x) }
-    configure = '#f38327' if stages.any? { |x| %w[Configure All].include?(x) }
-    protect = '#f68d27' if stages.any? { |x| %w[Protect All].include?(x) }
+    secure = '#ed6c28' if stages.any? { |x| %w[Secure All].include?(x) }
+    package = '#f07727' if stages.any? { |x| %w[Package All].include?(x) }
+    release = '#f38327' if stages.any? { |x| %w[Release All].include?(x) }
+    configure = '#f68d27' if stages.any? { |x| %w[Configure All].include?(x) }
     monitor = '#f99726' if stages.any? { |x| %w[Monitor All].include?(x) }
     plan = '#e1432a' if stages.any? { |x| %w[Plan All].include?(x) }
 
     diagram = '<svg viewBox="0 0 1100 500" xmlns="http://www.w3.org/2000/svg">
-    <path fill="' + manage + '" d="m17 0-17 17 17 17h1066l17-17-17-17"/>
-    <path fill="' + secure + '" d="m17 466-17 17 17 17h1066l17-17-17-17"/>
+    <path fill="' + govern + '" d="m17 0-17 17 17 17h1066l17-17-17-17"/>
+    <path fill="' + manage + '" d="m17 466-17 17 17 17h1066l17-17-17-17"/>
     <path fill="' + create + '" d="m250 90h-90c-74 0-148 66-160 140l30 30 30-30c7.5-45 55-80 100-80h90l-27-27c-3-3-3-3 0-6"/>
     <path fill="' + verify + '" d="m0 250c0 79 81 160 160 160h90l30-30-30-30h-90c-49.5 0-100-50.5-100-100l-27 27c-3 3-3 3-6 0"/>
-    <path fill="' + package + '" d="m270 410h90c41 0 81-11 110-40l90-90v-42.4h-42.4l-90 90c-17.6 17.6-42.7 22.4-67.6 22.4h-90l27 27c3 3 3 3 0 6"/>
-    <path fill="' + release + '" d="m567.1 272.9 100-100c16.6-16.6 39.5-22.9 62.9-22.9h100l30-30-30-30h-100c-39.5 0-77.4 12.6-105.3 40.5l-100 100h38.2c4.2 0 4.2 0 4.2 4.2"/>
-    <path fill="' + configure + '" d="m850 90h90c74 0 148 66 160 140l-30 30-30-30c-7.5-45-55-80-100-80h-90l27-27c3-3 3-3 0-6"/>
-    <path fill="' + protect + '" d="m1100 250c0 79-81 160-160 160h-90l-30-30 30-30h90c49.5 0 100-50.5 100-100l27 27c3 3 3 3 6 0"/>
+    <path fill="' + secure + '" d="m270 410h90c41 0 81-11 110-40l90-90v-42.4h-42.4l-90 90c-17.6 17.6-42.7 22.4-67.6 22.4h-90l27 27c3 3 3 3 0 6"/>
+    <path fill="' + package + '" d="m567.1 272.9 100-100c16.6-16.6 39.5-22.9 62.9-22.9h100l30-30-30-30h-100c-39.5 0-77.4 12.6-105.3 40.5l-100 100h38.2c4.2 0 4.2 0 4.2 4.2"/>
+    <path fill="' + release + '" d="m850 90h90c74 0 148 66 160 140l-30 30-30-30c-7.5-45-55-80-100-80h-90l27-27c3-3 3-3 0-6"/>
+    <path fill="' + configure + '" d="m1100 250c0 79-81 160-160 160h-90l-30-30 30-30h90c49.5 0 100-50.5 100-100l27 27c3 3 3 3 6 0"/>
     <path fill="' + monitor + '" d="m830 410h-90c-41 0-81-11-110-40l-50-50v-42.4h42.4l50 50c17.6 17.6 44.5 22.4 67.6 22.4h90l-27 27c-3 3-3 3 0 6"/>
     <path fill="' + plan + '" d="m492.9 232.9-60-60c-16.6-16.6-39.5-22.9-62.9-22.9h-100l-30-30 30-30h100c39.5 0 77.4 12.6 105.3 40.5l60 60h-38.2c-4.2 0-4.2 0-4.2 4.2"/>
-    <text class="a" x="50%" y="25" text-anchor="middle">MANAGE</text>
-    <text class="a" x="50%" y="491" text-anchor="middle">SECURE</text>
+    <text class="a" x="50%" y="25" text-anchor="middle">GOVERN</text>
+    <text class="a" x="50%" y="491" text-anchor="middle">MANAGE</text>
     <text class="a" transform="rotate(45,465.1,178.3)" x="465.1" y="178.3" text-anchor="end">PLAN</text>
-    <text class="a" transform="rotate(315,594.9,218.3)" x="594.9" y="218.3">RELEASE</text>
-    <text class="a" transform="rotate(315,526.6,286.6)" x="526.6" y="286.6" text-anchor="end">PACKAGE</text>
+    <text class="a" transform="rotate(315,594.9,218.3)" x="594.9" y="218.3">PACKAGE</text>
+    <text class="a" transform="rotate(315,526.6,286.6)" x="526.6" y="286.6" text-anchor="end">SECURE</text>
     <text class="b" x="260" y="270" text-anchor="middle">DEV</text>
     <text class="b" x="840" y="270" text-anchor="middle">OPS</text>
     <def>
@@ -403,8 +403,8 @@ module CustomHelpers
     </def>
     <text class="a"><textPath href="#a">CREATE</textPath></text>
     <text class="a"><textPath href="#b">VERIFY</textPath></text>
-    <text class="a"><textPath href="#c">CONFIGURE</textPath></text>
-    <text class="a"><textPath href="#d">PROTECT</textPath></text>
+    <text class="a"><textPath href="#c">RELEASE</textPath></text>
+    <text class="a"><textPath href="#d">CONFIGURE</textPath></text>
     <text class="a"><textPath href="#e">MONITOR</textPath></text>
     <style><![CDATA[.a {font: bold 24px Source Sans Pro,sans-serif;fill: white;} .b {font: bold 60px Source Sans Pro,sans-serif;fill: black;}]]></style>
     </svg>'

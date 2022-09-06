@@ -5,7 +5,7 @@ features:
       documentation_link: "https://docs.gitlab.com/ee/user/clusters/applications.html#web-application-firewall-modsecurity"
       video: "https://www.youtube.com/embed/o8-CU6TEH2w"
       reporter: stkerr
-      stage: "protect"
+      stage: "govern"
       issue_url: "https://gitlab.com/gitlab-org/gitlab/issues/25398"
       description: | # supports markdown
         GitLab now adds the `modsecurity` Web Application Firewall (WAF)

@@ -2,7 +2,7 @@
 name: Steve Azzopardi
 locality:
 country: Remote
-role: <a href="/job-families/engineering/infrastructure/site-reliability-engineer/">Senior Site Reliability Engineer</a>
+role: <a href="/job-families/engineering/infrastructure/site-reliability-engineer/">Senior Site Reliability Engineer</a>, Systems:Gitaly
 reports_to: kwanyangu
 picture: steveazzopardi.jpg
 gitlab: steveazz
@@ -10,6 +10,7 @@ departments:
 - Engineering Function
 - Infrastructure Department
 - Reliability Team
+- Gitaly Group Reliability Stable Counterpart
 projects:
   labkit: maintainer
   gitlab:

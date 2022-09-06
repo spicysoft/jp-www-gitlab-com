@@ -16,28 +16,28 @@ As a Business Development Associate (BDA), Sales Development Representative (SDR
 
 #### Slack Channels (by region)
 
-* **Main Channel - (Global Manager - Jean-Baptiste "JB" Larramendy)** = [`#sdr_global`](https://gitlab.slack.com/messages/C2V1KLY0Z)
+* **Main Channel - (Global Manager - Jean-Baptiste "JB" Larramendy)** = [`#sales_dev_global`](https://gitlab.slack.com/messages/C2V1KLY0Z)
     *  Sales Dev related shoutouts, questions, concerns, fun related invites      
-* **Announcements - (SDR Ops/Enablement - Chris Wang)** = [`#sdr-fyi`](https://app.slack.com/client/T02592416/C011P828JRL)     
+* **Announcements - (SDR Ops/Enablement - Chris Wang)** = [`#sales_dev_fyi`](https://app.slack.com/client/T02592416/C011P828JRL)     
     * Announcements and Reminders that involve multiple teams or are of high importance . More information can be [found here](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#sales-development-org-announcement-process)
     * It is requested  when a post in the Sales Dev FYI channel pertains to you that you leave a 👀 emoiji on the post to let management know that you read it.      
 
 **Global**
 * **SDR Global (Manager - Brian Tabbert)** = [`#sdr_global_inbound`](https://gitlab.slack.com/archives/C03RSSTLLMD/)
+* **BDA Global (Manager - Chris Wang)** = [`#bda_amer_emea_ent`](https://gitlab.slack.com/archives/C03K6GCLUJW)
 
 **AMER**
-* **All** = [`#sdr_amer`](https://gitlab.slack.com/messages/CM2GAVC78)      
 * **SDR AMER (Manager - Allison Graban)** = [`#sdr_amer_inbound`](https://gitlab.slack.com/archives/C02AVVBFUAW)
-* **BDR AMER Mid-Market (Manager - Sunanda Nair)** = [`#bdr_amer_mm`](https://app.slack.com/client/T02592416/C014PHFNE2U)
+* **BDR AMER Mid-Market (Manager - Bilal Husain)** = [`#bdr_amer_mm`](https://app.slack.com/client/T02592416/C014PHFNE2U)
 * **BDR Enterprise Expand AMER (Manager - Mauricio Nogales)** = [`#bdr_amer_ent_expand`](https://gitlab.slack.com/archives/CUFRP6U6Q)
-* **BDR Enterprise Land West (Manager - Charlotte Platt)** = [`#bdr_amer_ent_land_east`](https://gitlab.slack.com/archives/C01LK4EFDNW)
+* **BDR Enterprise Land West (Manager - Charlotte Platt)** = [`#bdr_amer_ent_land_west`](https://gitlab.slack.com/archives/C01LK4EFDNW)
 * **BDR PubSec (Manager - Josh Downey)** = [`#bdr_amer_pubsec`](https://gitlab.slack.com/archives/C02EBM1FN00)
-* **Enterprise Land East (Manager - Shamit Paul)** = [`#bdr_amer_ent_land_east`](https://gitlab.slack.com/archives/C01LK4EFDNW)
+* **BDR Enterprise Land East (Manager - Shamit Paul)** = [`#bdr_amer_ent_land_east`](https://gitlab.slack.com/archives/C01LK4EFDNW)
 
 **EMEA**
 * **All** = [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71)   
 * **SDR EMEA - (Manager - Glenn Perez)** = [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0LF6NL)   
-* **BDR Mid-Market - (Manager - Panos Rodopoulos)** = [`#bdr-emea-mm`](https://gitlab.slack.com/messages/CM0BYV7CM)
+* **BDR Mid-Market - (Manager - Panos Rodopoulos)** = [`#bdr_emea_mm`](https://gitlab.slack.com/messages/CM0BYV7CM)
 * **BDR Enterprise Expand - (Manager - Tati Fernandez)** = [`#bdr_emea_expand`](https://gitlab.slack.com/archives/C01LHENNLKD)
 * **BDR Enterprise Land - (Manager - Miguel Nunes)** = [`#bdr_emea_land`](https://gitlab.slack.com/archives/C01M76N9NTA)
 
@@ -53,7 +53,7 @@ As a Business Development Associate (BDA), Sales Development Representative (SDR
 | :----: |
 |  [Sales Development Org Onboarding page](/handbook/marketing/revenue-marketing/sdr/sdr-playbook-onboarding/) |
 |  [Tanuki Tech](/handbook/marketing/revenue-marketing/sdr/tanuki-tech/) |
-|  [Sales Development Org Edcast channel](https://gitlab.edcast.com/channel/sdr) |
+|  [GitLab LevelUp Training channel](https://levelup.gitlab.com/learn/) |
 |  [Sales handbook page](/handbook/sales/) |
 |  [Go to Market page](/handbook/sales/field-operations/gtm-resources/) |
 |  [Sales Development Org Manager resources page](/handbook/marketing/revenue-marketing/sdr/sdr-manager-resources) |
@@ -112,7 +112,7 @@ As part of your [onboarding](/handbook/marketing/revenue-marketing/sdr/sdr-playb
 | AM | Account Manager |
 | AE | Account Executive |
 | APAC | Asia-Pacific |
-| BDA | Business Development Associate - focused on sourcing |
+| BDA | Business Development Associate - focused on learning and sourcing |
 | BDR | Business Development Represenative - focused on outbound |
 | CAM | Channel Account Manager |
 | CS | Customer Success |
@@ -133,7 +133,7 @@ As part of your [onboarding](/handbook/marketing/revenue-marketing/sdr/sdr-playb
 | Sales Serve | A sales method where a quota bearing member of the sales team closes the deal |
 | [SAO](/handbook/marketing/revenue-marketing/sdr/sales-sdr-alignment/#criteria-for-sales-accepted-opportunity-sao) | Sales Accepted Opportunity - an opportunity Sales agrees to pursue following an Initial Qualifying Meeting |
 | SDR | Sales Development Representative - focused on inbound |
-| Self Serve | A sales method where a customer purchases online through our web store |
+| Self Serve | A sales method where a customer purchases online through our web store. Also known as a "web direct" |
 | SLA | Service Level Agreement |
 | SQO | Sales Qualified Opportunity |
 | TAM | Technical Account Manager |
@@ -384,10 +384,49 @@ The GitLab marketing team uses digital channels - social media, email, mobile/we
 
 
 #### Inbound Process
-SDRs are responsible for following up with MQLs by reviewing their information, reaching out, and working with them to understand their goals, needs, and problems. BDRs have the same responsibility for MQL’s that come from one of their “actively working” accounts. Once you have that information, you can use our [qualification criteria](/handbook/sales/field-operations/gtm-resources/) to determine if this is someone who has strong potential to purchase our product and therefore should be connected with sales for next steps. As you are the connection between Marketing and Sales you want to make sure every lead you pass to the Sales team is as qualified as possible.
-Note: SDR routing is determined by Region and Level. The three SDR Routing Levels are onboarding, ramped, and expert. During onboarding, you'll receive SMB and Mid-Market MQLS with a goal limit of 30 per day. At a ramped leve, you'll receive SMB, Mid-Market and ENT First Order MQLs with a goal limit of 50 per day. And at Expert level you'll receive MQLs from all segments including ENT Expand with a goal limit of 75 per day. Expert Level SDRs also are responsible for managing all Drift conversations.
+SDRs are responsible for following up with MQLs by reviewing their information, reaching out, and working with them to understand their goals, needs, and problems. BDRs have the same responsibility for MQLs that come from one of their “actively working” accounts. Once you have that information, you can use our [qualification criteria](/handbook/sales/field-operations/gtm-resources/) to determine if this is someone who has strong potential to purchase our product and therefore should be connected with sales for next steps. As you are the connection between Marketing and Sales you want to make sure every lead you pass to the Sales team is as qualified as possible.
 
-These MQLs will show up in your S1 or B1 lead and contact views in Salesforce. The other views, listed below, allow you to see your leads in a categorized way to simplify your workflow. Leads are routed to you and flow into your views via the tool [LeanData](/handbook/marketing/marketing-operations/leandata/) which takes each lead through a series of conditional questions to ensure it goes to the right person. Even though all SDRs leverage the same views, they will only show you leads that have been specifically routed to you. You will be responsible for following up with all of the leads in your MQL views by sequencing them using [Outreach.io](/handbook/marketing/marketing-operations/outreach/). Once sequenced, their lead status will change and they will move from your MQL views allowing you to have an empty view. Managers monitor all views to ensure they are cleared out. If you choose not to work a lead please unqualify it and state your reasons in the lead record.
+These MQLs will show up in your S1 or B1 lead and contact views in Salesforce. The other views, listed [here](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#lead-and-contact-views), allow you to see your leads in a categorized way to simplify your workflow. Leads are routed to you and flow into your views via the tool [LeanData](/handbook/marketing/marketing-operations/leandata/) which takes each lead through a series of conditional questions to ensure it goes to the right person. Even though all SDRs leverage the same views, they will only show you leads that have been specifically routed to you. You will be responsible for following up with all of the leads in your MQL views by sequencing them using [Outreach.io](/handbook/marketing/marketing-operations/outreach/). Once sequenced, their lead status will change and they will move from your MQL views allowing you to have an empty view. Managers monitor all views to ensure they are cleared out. If you choose not to work a lead please unqualify it and state your reasons in the lead record.
+
+
+### SDR Lead Routing Levels
+
+#### Lead Routing Level Procedure
+
+The SDR Managers will be responsible for facilitating lead routing level changes at the beginning of each new month (when applicable) by making the requisite moves in LeanData and Drift.
+
+#### Levels
+
+**Disclaimer**: for SDRs that start mid-month, their first (partial) month will be deemed “month 0” for the purposes of these rules of engagement.
+
+##### Onboarding
+
+* Typical Timeframe: Months 0-1
+* Parameters: SDR not on quota, leads are off in LeanData, Drift is off
+
+##### Ramping
+
+* Typical Timeframe: Month 2
+* Parameters: SDR is on 50% quota, leads are set at 50% in LeanData, Drift is off
+
+##### Expert
+
+* Typical Timeframe: Months 3+
+* Parameters: SDR is on full quota, leads are set at 100% in LeanData, SDR is added to Drift queues via access request. SDR is now able to create their own Outreach sequences (pending approval).
+
+#### Performance Requirements
+
+SDR Managers will monitor key metrics and ensure they are being handled effectively before advancing an SDR from Ramping to Expert:
+* Pending MQLs addressed in timely manner
+* Stalled Qualifying MQLs
+* Overdue tasks
+* Paused/Failed sequence states
+* Pending opps with no next steps date
+* Pending opps with overdue next steps dates
+* Unqualified opps
+* Calls
+* Tanuki Tech progress
+
 
 ## Lead and Contact Views
 
@@ -425,7 +464,7 @@ These MQLs will show up in your S1 or B1 lead and contact views in Salesforce. T
 
 * **Partner Prospecting Status:** If this is populated, the lead/contact is being worked by a partner and the Sales Dev team should not proceed with outreach. Instead the rep should change the ownership to Marketo Integration. BDRs should not bring these into their outreach on AWA’s.
 
-* **Actively Working” Status:** An account researched and chosen by the BDR and/or SAL- based on alignment to ICP, news insights, company initiative, intent, ABM list etc. This is an account that the BDR will proactively be performing strategic outreach to. There is no limit to how long an account can stay in “Actively working” status as long as outreach is continuing to be made.
+* **Actively Working Status:** An account researched and chosen by the BDR and/or SAL- based on alignment to ICP, news insights, company initiative, intent, ABM list etc. This is an account that the BDR will proactively be performing strategic outreach to. There is no limit to how long an account can stay in “Actively working” status as long as outreach is continuing to be made.
 BDRs will work these leads.
 
 * **Requirements to remain in Actively Working status:** All  “BDR comments” fields will need to be populated within 10 days of moving into “Actively Working” status and a minimum of 5 people will need to be added to sequences within 15 days of the “Actively Working” timestamp. Accounts will move back to queued should criteria not be met.
@@ -878,24 +917,14 @@ Optional Post Event Follow Up: Continue to monitor Contacts and Leads uploaded i
 
 
 ## PubSec AMER BDRs
-We currently have 4 BDR's focused on supporting the PubSec ISR's in the US. Their alignment is as follows:
 
-| PubSec BDR | Group |
-| ------ | ------ |
-| MaKayla Emahiser| Army, Navy, Federal Systems Integrators (FSI) |
-| Ricky Wooten | NSG 1-2, 4th Estate, Air Force |
-| Melinda Ryan | Civ 1-7, NSG 3-6 |
-| Matt Wyman | State, Local, Edu (SLED) |
+The US PubSec team covers all US Agencies, US Government Contractors (Federal Systems Integrators), and US-based Universities. For interal questions about PubSec Lead routing, please contact Josh Downey.
 
-The US PubSec team covers all US Agencies, US Government Contractors (Federal Systems Integrators), and US-based Universities.
-
-A Federal Systems Integrator (FSI) is a private company with 75% or more of their business coming from the Government and/or whom requires US-based support. In the case that a commercial SDR/BDR comes across a company that may or may not meet this ROE because they do both Government and Commercial work, they should work with the FSI BDR to determine if it meets the ROE. If it is not possible to determine if it meets the criteria and the prospect is definitively discussing Government work, the Commercial SDR/BDR must air on the side of caution and let the FSI BDR handle the lead until the criteria can be determined.
+A Federal Systems Integrator (FSI) is a private company whom requires US-based support and/or has 75% or more of their business coming from the Government. In the case that a commercial SDR/BDR comes across a company that may or may not meet this ROE because they do both Government and Commercial work, they should work with the FSI BDR to determine if it meets the ROE. If it is not possible to determine if it meets the criteria and the prospect is definitively discussing Government work, the Commercial SDR/BDR must air on the side of caution and let the FSI BDR handle the lead until the criteria can be determined.
 
 The US PubSec team does not cover Universities, Agencies, and Contractors who are not based in the US. These prospects will be routed to the respective Commercial BDR/SDR covering that territory.
 
-PubSec BDRs have a different workflow from other BDRs in that they do not convert leads into opportunities. They input qualification notes on the lead record after their intro call and then set up the IQM with the ISR. The ISR converts the lead into the opportunity to ensure the opp is assigned to the correct account. Once the ISR has determined our SAO criteria has been met, they are responsible for putting the BDR on the opportunity and moving the opportunity into discovery.
-
-The PubSec BDRs will work closely with PubSec FMM's and MPM's on pre and post-event outreach. For events that are limited in attendance capacity, the PubSec ISRs will own pre and post-event strategy, not the BDR's.
+The PubSec BDRs will work closely with PubSec FMM's and MPM's on pre and post-event outreach. For events that are limited in attendance capacity, the PubSec ISRs & SALs will own pre and post-event strategy, not the BDR's.
 
 [SDR PubSec Issue Board](//gitlab.com/groups/gitlab-com/-/boards/1864446?label_name[]=SDR%20Pub%20Sec) - used to track relevant GitLab issues involving the PubSec BDR team. This is a global issue board and will capture all issues in any group/sub-group in the GitLab.com repo when any of the following scoped labels are used.
 
@@ -913,25 +942,7 @@ The Enterprise Land BDR team is responsible for creating qualified meetings and 
 
 ### AMER Enterprise Land Alignment
 
-East Land
-- **Manager:** Shamit Paul
-- Eduardo Guillen
-- Michael Lerner
-- Micah Lockerby
-- John Hegarty
-- Maria Spada
-- Kelsey Bartlett
-- Jason Yanelli
-
-West Land
-- Alex Demack
-- Paul Oakley
-- James Gray
-
-LATAM Enterprise
-- Leo Vieira
-
-These BDRs are aligned by accounts - [see Salesforce report](https://gitlab.my.salesforce.com/00O4M000004aftz).
+AMER Enterprise BDRs are aligned by accounts - [see Salesforce report](https://gitlab.my.salesforce.com/00O4M000004aftz).
 
 If you are trying to route a lead and the account is First Order Available and does NOT have an BDR Assigned on the account, please chatter Shamit Paul and she will assign to the BDR via round robin routing.
 
@@ -979,21 +990,45 @@ Slack is encouraged for informal communication, but anything related to strategy
 
 ### Geo BDR Account Prioritization Model
 
-**Account Scoring & Prioritization**
+#### ICP - Ideal Customer Profile
 
-The next step after identifying all of the Net New focus accounts in a region is to prioritize them. The scoring model below should be used to determine the Net New Account Tier which will help guide prioritization and prospecting efforts using the Outbound Prospecting Framework (below).
+* **High LAM** - High # of Estimated Dev Count left to purchase GitLab (you will need to consider the number in relation to employee size)
+* **High DB QS** - High Demandbase Qualification Score (greater than 70)
+* **SAL Insights** - Detail any SAL/AE given direction: sometimes found in Account Rank Notes/AE Notes fields
+* **Persons with LIMs** - Uncover via Demandbase or SFDC reporting that there has been recent engagement from persons at account
+* **Tech Used** - List technologies they use that signal they may be a good fit
+* **Triggers** - List any compelling events or “Why’s” that signal this is a good time to reach out. If there are none, write “None”.
 
-`A Tier Accounts` - Have at least 4 out of 5 qualifiers below
+Please add the above ICP Notes to your Account Research Fields on Salesforce
 
-`B Tier Accounts` - Have 3 out of 5 qualifiers below
 
-`C Tier Accounts` - Have 2 out of 5 qualifiers below
+#### Account Scoring & Prioritization
 
-`D Tier Accounts` - Have 1 out of 5 qualifiers below
+The next step after identifying all of the Net New focus accounts in a region is to prioritize them. The scoring model below should be used to determine the Priority level of the Net New Account which will help guide prioritization and prospecting efforts using the Outbound Prospecting Framework (below).
 
-`F Tier Accounts` - Have 0 out of 5 qualifiers OR zero direct revenue potential in the next 3 years
+`Priority 1 Actively Working Accounts (15%)`
+* Strong ICP Qualities 
+* Compelling Triggers
+* Strategy is Tailored and Targeted
+* Future based next step dates 
+* Specific next step notes
 
-**Account Scoring Qualifiers:**
+`Priority 2 Actively Working Accounts (35%)`
+* ICP qualities
+* No Triggers
+* Strategy is Targeted (persona/industry based) 
+* Future based next step dates updated weekly/bi-weekly
+* Next step notes should just include week # 
+
+`Priority 3 Actively Working Accounts (50%)`
+* ICP qualities
+* No Recent Triggers
+* Strategy is nurture based
+* Future based next step dates updated monthly
+* Next step notes should just include recent release # or event invite
+
+
+**Other Good Account Scoring Qualifiers:**
 *  Current CE Usage
 *  250+ employees in IT/TEDD positions
 *  Good Fit Industry / Vertical (High Growth, Technology, Financial, Healthcare, Regulated Business)
@@ -1002,13 +1037,13 @@ The next step after identifying all of the Net New focus accounts in a region is
 
 **Outbound Prospecting Framework**
 
-| **Tier**        |  **Goal**                 | **Priority Level**      | **Outbound Tactics**      |
+| **Priority Level**        |  **Account Strategy Includes**                 | **Next Step Date**      | **Next Step Notes**      |
 | :---------- |  :----------                  | :----------------- | :----------------------|
-| A Accounts   |    Conversations, IQMs, MQLs         |      High (60% of focus)      | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell, events |
-| B Accounts   |  Conversations, IQMs, MQLs           |      High (30% of focus)      | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell |
-| C & D Accounts |  Conversations, MQLs               | Low  (< 10% of focus)         | Automated role- / persona-based outreach, groundswell |
-| F Accounts |  Eliminate from BDR focus account lists   | Low (< 2% of focus)     | Do not focus on or attempt to qualify |
+| Priority 1   |    Priority #, Any Details         |      Future based next steps      | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell, events |
+| Priority 2   |  Priority #, Weekly Plan or Length of Sequence          |      Future based next steps depending on account strategy      | Include the weeks outreach and overall strategy|
+| Priority 3 |  Priority #             | Update Next Step Date to next months outreach         | BDR Next Step, What kind of nurture (Product Updates, Events, Ect) |
 
+Examples of the Outbound Prospecting Framework [Can be found here](https://docs.google.com/presentation/d/1O5unjpSTYQFENlfheUi6_ZNV2fbrIqQjxNBqtwhEaYw/edit#slide=id.g10be0957fec_0_488)
 
 
 ## Global Enterprise Expand BDR Team
@@ -1064,7 +1099,7 @@ The team's baseline outbound activity revolves around at least 20 accounts per S
 | ------ | ------ | ------ | ------ | ------ | ----- | 
 | Johan Rosendahl | Germany, South Europe / First Order  | COM_MM_EMEA_SOUTH_FO_2, COM_MM_EMEA_CENTRAL_FO_2 | UKI / Under 500 | COM_MM_EMEA_NORTH_TERR_5 | German, Swedish | 
 | Raquel Gulin | United Kingdom, Netherlands, Nordics / First Order | COM_MM_EMEA_SOUTH_FO_1, COM_MM_EMEA_NORTH_FO_1 | UKI / Under 500 | COM_MM_EMEA_NORTH_TERR_1 | French, Italian, Spanish, Portugese | 
-| Luis Calixto | South Europe / First Order | COM_MM_EMEA_SOUTH_FO_4, COM_MM_EMEA_CENTRAL_FO_4 | South Europe, UKI / Under 500 | COM_MM_EMEA_SOUTH_TERR_6TBH, COM_MM_EMEA_NORTH_TERR_1 | Spanish |
+| Luis Calixto | South Europe / First Order | COM_MM_EMEA_SOUTH_FO_4, COM_MM_EMEA_CENTRAL_FO_4 | South Europe, UKI / Under 500 | COM_MM_EMEA_SOUTH_TERR_6TBH, COM_MM_EMEA_SOUTH_TERR_2, COM_MM_EMEA_NORTH_TERR_1 | Spanish |
 | Daniel Fuller | Germany / Under 500 | COM_MM_EMEA_CENTRAL_TERR_2, COM_MM_EMEA_CENTRAL_TERR_3TBH, COM_MM_EMEA_CENTRAL_TERR_4TBH | Nordics, UKI / Under 500 | COM_MM_EMEA_NORTH_TERR_2 | N/A | 
 | Barbara Schreuder | Germany / Under 500 | COM_MM_EMEA_CENTRAL_TERR_1, COM_MM_EMEA_CENTRAL_TERR_5TBH | BeNeLux / Under 500 | COM_MM_EMEA_NORTH_TERR_3TBH | French, Dutch | 
 | Denis Stete | United Kingdom, South Europe / First Order | COM_MM_EMEA_NORTH_FO_3, COM_MM_EMEA_SOUTH_FO_3 | East Europe, MEA / Under 500 | COM_MM_EMEA_SOUTH_TERR_1, COM_MM_EMEA_SOUTH_TERR_3TBH, COM_MM_EMEA_SOUTH_TERR_4TBH | Spanish, Romanian | 

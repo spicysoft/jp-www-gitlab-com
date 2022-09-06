@@ -1,0 +1,142 @@
+title: GitLab
+file_name: gitlab
+single_tool_data:
+  single_tool_category: manage
+  single_tool: false
+logo: /images/comparisons/blank-logo.svg
+manage:
+  Project-level permissioning: 2
+  Role-based Access Control: 2
+  Self-service onboarding: 1
+  Audit reporting: 2
+  Group-level permissioning: 2
+  Data export: 2
+  2FA: 2
+  Operational DevOps metrics: 1
+  Custom issue analytics: 2
+  Value stream management: 1
+  Compliance framework enforcement: 1
+  DevOps Adoption reorts: 1
+  Audit logging: 2
+  Data import: 1
+  LDAP/AD integration: 2
+plan:
+  Sprint planning: 1
+  Capacity planning: 0
+  Workflow Management: 1
+  Global Search: 2
+  Design Management: 1
+  Extensibility: 1
+  Issue Management: 2
+  Enterprise readiness: 2
+  Operational Metrics / Value Stream: 1
+  Boards: 2
+  Enterprise Framework Support: 1
+  Requirements Management: 1
+  Roadmaps: 2
+  Cost Tracking & Estimation: 0
+  Work Item Relationships: 2
+  End-to-end visibility / traceability: 2
+source-code-management:
+  Change Approvals: 2
+  Protected branches: 2
+  Mirroring: 2
+  Project and File Templates: 2
+  "Scalable, Fault-Tolerant Git Storage": 2
+  Git LFS: 2
+  Code Review: 2
+  Commit Graphs: 2
+  Push Rules: 2
+  Live Preview: 2
+  Git-Based SCM: 2
+  Snippets: 2
+  Signed Commits: 2
+  Partial Clone: 2
+  Web IDE: 2
+continuous-integration:
+  Integration testing: 1
+  Pipeline visualization: 1
+  Compliance and audit controls: 2
+  Enterprise readiness: 2
+  Build parallelization: 2
+  "Linters, scanners, and syntax validation included": 2
+  Dynamic pipelines: 2
+  Configuration-as-code: 2
+  Unit testing and static code analysis: 2
+  Pipeline status logs and analytics for reporting: 2
+  Embedded security scans in CI pipeline: 2
+  CI pipeline templates: 2
+  Multi-cloud w/ cloud native support: 2
+  "SaaS, On-prem, and hybrid installation": 2
+  Load and performance testing: 1
+  Ease of use/setup: 2
+  Pipeline scheduling and monitoring: 2
+package:
+  Searchable artifacts: 2
+  Dependency scanning: 2
+  "Top package formats supported (npm, maven, pyi, etc.)": 2
+  Storage management: 2
+  Enterprise readiness: 1
+  Virtual Registry: 1
+  Dependency Firewall: 0
+  Package Registry: 2
+  High Availability: 2
+  API: 2
+  Container registry: 2
+  Geo Replication: 2
+  Certified dependencies (or images): 1
+secure:
+  Vulnerability mgmt: 2
+  Dependency Scanning: 2
+  Secrets detection: 2
+  SBOM (dependency list): 2
+  Code Quality: 1
+  Compliance dashboard: 2
+  SAST: 2
+  Container Scanning: 2
+  MR approvals: 2
+  License Compliance: 2
+  compliance frameworks: 2
+  API fuzz test: 2
+  DAST: 2
+  Vulnerability database: 2
+  coverage guided fuzz testing: 2
+continuous-delivery:
+  Deployment pipeline visualization: 2
+  incremental roll-out: 2
+  "Support for traditional deployment targets - physical, virtual machines, mainframes": 2
+  Roll back: 1
+  "DORA metrics (Mean time for changes, MTTR, Change Failure Rate, Deployment Frequency)": 1
+  Canary deployment: 2
+  Static Site Hosting: 2
+  Environments dashboard: 2
+  Blue-green deployment: 2
+  MR approvals: 2
+  Feature flags: 2
+  Release versioning and evidence: 2
+  Support for cloud native deployment targets: 2
+  Runbooks: 2
+configure:
+  Infrastructure/ Config/ Policies etc as code: 2
+  Integration with IaC tools like Terraform: 2
+  "Configure physical, virtual, cloud infrastructures": 2
+  Configure cloud native environments: 2
+  Detect and remediate configuration drift: 1
+  Secure Kubernetes Integration: 1
+  Push and Pull actions: 2
+monitor:
+  Synthetic monitoring: 0
+  Log monitoring: 1
+  Distributed Tracing: 1
+  Load performance testing: 1
+  Alert Management: 1
+  Application performance monitoring: 0
+  Integrations with established incident management tools: 2
+  Digital experience monitoring (real user monitoring): 0
+  Incident Management: 1
+  Automated discovery & mapping: 0
+  Infrastructure Performance monitoring: 1
+  Mobile Performance Monitoring: 0
+govern:
+  container scanning: 2
+  security orchestration (runtime policies): 2

@@ -1,0 +1,29 @@
+---
+name: Frédéric Caplette
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/senior/">Senior Frontend Engineer,
+  Verify:Pipeline Authoring</a>
+reports_to: sam-beckham
+picture: frederic-caplette.jpg
+gitlab: f_caplette
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Verify:Pipeline Authoring FE Team
+- Frontend
+- Ops Sub-department
+- Verify:Pipeline Authoring Group
+projects:
+  gitlab: maintainer frontend
+story: 'Frédéric started to code to make games and continued on learn how to make
+  web sites and applications. Outside of work, he can be found gaming, reading, hiking,
+  travelling or watching japanese animes.
+
+  '
+specialty: Pipeline Authoring
+domain_expertise:
+    - frontend_graphql
+    - frontend_architecture
+

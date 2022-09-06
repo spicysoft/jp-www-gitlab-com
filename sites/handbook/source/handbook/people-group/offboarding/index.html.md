@@ -82,7 +82,7 @@ The manager and the team member should have walked through the guidelines on [un
 1. **Manager**: Reach out to the their TMR specialist for assistance.
     - TMR will ask about what the performance issues have been, how they have been attempted to be addressed, and review all manager/team member documentation.
     - Once the review has been completed and the decision has been made to offboard the team member, the manager should review the best timing for the involuntary offboarding call and termination date. We recommend to avoid scheduling a involuntary offboarding call while a team member is scheduled for any sensitive customer meetings or is on-call, per guidance below under Last working day.
-    - TMR will partner with the People Specialists to coordinate the offboarding of the team member.
+    - TMR will partner with the People Connect Team to coordinate the offboarding of the team member.
     - TMR will inform the People Business Partner on the possible upcoming offboarding.
 1. **TMR**: The TMR will initiate the offboarding process by completing the Hold for Involuntary Offboarding Form which can be found in the shortcuts section of the #offboarding channel. The form includes fields for the date, time and location of the offboarding along with room for additional notes if needed and will prompt an alert in the #offboardings channel ensuring that People Connect and all other stakeholders are aware of the team members departure particulars i.e. IT Operations, Payroll and Total Rewards. 
     1. The first People Connect Member to respond to the post will will partner with the TMR for the duration of the offboarding process.
@@ -101,7 +101,7 @@ The manager and the team member should have walked through the guidelines on [un
       * No announcement should be made in the `#team-member-updates` Slack channel until the team call has been completed.
       * In most cases, a team call can occur the same day of the offboarding. If necessary, the offboarding can be announced in the `#team-member-updates` Slack channel the following day.
 1. **TMR/Manager**: Decide what offboarding actions need to be taken _before_ the call (e.g. revoke admin permissions), or _during_ the call (e.g. revoke Slack and Gmail access), and which ones can wait until later. You can reference the [offboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md) for the full list of actions. This conversation should take place in the private Slack channel with PBP, Manager and Leader.
-1. **TMR**: If the team member is a risk to the production environment, the TMR should privately reach out to the `Infrastructure Managers` to determine who will be available to assist with the offboarding. Once an infrastructure team member has been identified, they should be added to the private calendar invite sent to People Experience, Security, and Payroll to hold the time for the team member offboarding. Once the offboarding conversation starts the TMR will privately Slack the infrastructure contact the name of the team member to start the offboarding process.
+1. **TMR**: If the team member is a risk to the production environment, the TMR should privately reach out to the `Infrastructure Managers` to determine who will be available to assist with the offboarding. Once an infrastructure team member has been identified, they should be added to the private calendar invite sent to People Connect, Security, and Payroll to hold the time for the team member offboarding. Once the offboarding conversation starts the TMR will privately Slack the infrastructure contact the name of the team member to start the offboarding process.
 
 ## Facilitating the Call
 
@@ -164,7 +164,7 @@ As written, it is applicable to US-based employees only.
 ### Separation and Release of Claims Agreements
 {: #separation-agreement}
 
-Separation and Release of Claims Agreements ***do not*** apply for all offboardings. To review in which cases they do/do not apply, please reference the `Severance Eligibility` document accessible by People Specialists and PBPs. In the case that a severance agreement is applicable, the steps below should be followed:
+Separation and Release of Claims Agreements ***do not*** apply for all offboardings. To review in which cases they do/do not apply, please reference the `Severance Eligibility` document accessible by People Connect Team and PBPs. In the case that a severance agreement is applicable, the steps below should be followed:
 
 ### Severance Process for US-based Team Members
 

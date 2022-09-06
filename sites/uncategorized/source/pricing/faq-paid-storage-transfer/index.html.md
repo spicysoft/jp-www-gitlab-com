@@ -28,6 +28,9 @@ A. We are introducing storage and transfer limits to the [GitLab SaaS offerings]
 | Storage (in GB per namespace)            | 5 GB  | 50 GB  | 250 GB   |
 | Transfer (in GB per namespace per month) | 10 GB | 100 GB | 500 GB   |
 
+**Note:** A 10GB project storage limit for git repository and git LFS is currently active for all projects. Once the namespace storage limit is applicable, the project storage limits will be removed.
+{: .note}
+
 **Q. Which users are these changes applicable to?**  
 A. These limits are applicable to users of the GitLab SaaS offerings. These changes do not apply to self-managed users (both free and paid tier) and community programs - including GitLab for Open Source, Education and Startups users.
 
@@ -39,7 +42,7 @@ A. Yes, GitLab Trial will receive entitlements from GitLab Ultimate.
 **Q. What is the effective date of the changes?**  
 A. For existing paid tier users:
 
-- These limits will not apply immediately and will be applicable to your subscription at your next renewal on or after **2022-10-15**.
+- These limits will not apply immediately and will be in the terms of your subscription at your next renewal on or after **2022-10-15**.
 - Storage limits will be applicable for impacted subscriptions from **2023-02-15**.
 - Transfer limits will not be applicable until further communication from GitLab.
 
@@ -52,7 +55,7 @@ A. No, application of storage and transfer limits will be independent of each ot
 A. Currently storage includes [pipeline job artifacts](https://docs.gitlab.com/ee/ci/pipelines/pipeline_artifacts.html#storage), [repositories](https://docs.gitlab.com/ee/user/project/repository/#repository), [package](https://docs.gitlab.com/ee/user/packages/package_registry/) and [container](https://docs.gitlab.com/ee/user/packages/container_registry/) registries, [snippets](https://docs.gitlab.com/ee/user/snippets.html#snippets), [Git LFS](https://docs.gitlab.com/ee/topics/git/lfs/#git-large-file-storage-lfs), [wiki](https://docs.gitlab.com/ee/user/project/wiki/#wiki) storage, [dependency proxy](https://docs.gitlab.com/ee/user/packages/dependency_proxy/). Future product features that allow you to store data will also be incorporated into the storage usage count, when available.
 
 **Q. How can I view and manage my storage usage?**  
-A. You can view the storage usage on the Group Settings page for [Usage Quota](https://docs.gitlab.com/ee/user/usage_quotas.html#view-storage-usage) in the `Storage` tab. The summaries are divided into all storage types listed in the answer to the "What constitutes Storage usage?" question. 
+A. You can view the storage usage on the Group Settings page for [Usage Quota](https://docs.gitlab.com/ee/user/usage_quotas.html#view-storage-usage) in the `Storage` tab. The summaries are divided into all storage types listed in the answer to the "What constitutes Storage usage?" question. Each type provides details on how to proceed with detailed analysis and cleanup procedures.
 
 **Q. How can I reduce the amount of Storage consumed?**  
 A. Below you will find steps for managing the different storage types:
@@ -64,6 +67,9 @@ A. Below you will find steps for managing the different storage types:
 - Dependency Proxy: You can set an [expiration policy](https://docs.gitlab.com/ee/user/packages/dependency_proxy/reduce_dependency_proxy_storage.html#cleanup-policies) to programmatically clear the cache. Or, you can manually [purge the cache](https://docs.gitlab.com/ee/user/packages/dependency_proxy/reduce_dependency_proxy_storage.html#use-the-api-to-clear-the-cache) using the API.
 - Snippets: Snippets follow the same process as [reducing repository size](https://docs.gitlab.com/ee/user/snippets.html#reduce-snippets-repository-size).
 - Wikis: Wikis follow the same process as [reducing repository size](https://docs.gitlab.com/ee/administration/wikis/index.html#reduce-wiki-repository-size).
+
+**Q: How can I automate storage usage analysis and cleanup?**
+A: You can use the [GitLab API](https://docs.gitlab.com/ee/api/) to programmatically view and delete storage data types. There are [programming language libraries](https://about.gitlab.com/partners/technology-partners/#api-clients) available that can help with easy-to-use interfaces, for example listing and deleting job artifacts using the [Python library for GitLab](https://python-gitlab.readthedocs.io/en/stable/gl_objects/pipelines_and_jobs.html#jobs). A script based on the Python library has been developed by the GitLab Developer Evangelism team [in this project](https://gitlab.com/gitlab-de/gitlab-storage-analyzer). This MIT-licensed script is not officially supported by GitLab and comes without warranty. 
 
 **Q. How will the storage limits affect me when I’m contributing to another project?**  
 A. Forks of projects get deduplicated, so only the changes you make will contribute to your storage consumption as long as the fork relationship is maintained.

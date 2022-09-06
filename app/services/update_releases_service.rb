@@ -245,13 +245,15 @@ class UpdateReleasesService
   # For example:
   # - [Associate milestones with a release](https://docs.gitlab.com/ee/user/project/releases/#associate-milestones-with-a-release) _(SaaS only)_: `Release Orchestration`
   def render_highlight(highlight)
-    list_item = highlight.link ? "- [#{highlight.title}](#{highlight.link})" : "- #{highlight.title}"
+    list_item = highlight.link ? "[#{highlight.title}](#{highlight.link})" : highlight.title
 
     list_item += get_highlight_availability_tag(highlight)
 
     # If the highlight includes "categories", list them after
     # the link, surrounded with backticks (`)
-    list_item += ": #{highlight.categories.map { |c| "`#{c}`" }.join(', ')}" unless highlight.categories.blank?
+    list_item += ": #{highlight.categories.map { |c| "<code>#{c}</code>" }.join(', ')}" unless highlight.categories.blank?
+
+    list_item = "<details><summary>#{list_item}</summary>\n\n#{quoted_highlight_description(highlight)}\n</details>\n"
 
     [list_item]
   end
@@ -280,8 +282,8 @@ class UpdateReleasesService
   # The logic for how these tags should be computed is described here:
   # https://about.gitlab.com/handbook/marketing/blog/release-posts/#feature-availability
   def get_highlight_availability_tag(highlight)
-    return " _(self-managed only)_" if highlight.gitlab_com == false
-    return " _(SaaS only)_" if highlight.tier.include?(GOLD)
+    return " <i>(self-managed only)</i>" if highlight.gitlab_com == false
+    return " <i>(SaaS only)</i>" if highlight.tier.include?(GOLD)
 
     ""
   end
@@ -346,5 +348,9 @@ class UpdateReleasesService
     return [] if version_segments.first < 13
 
     [version_number]
+  end
+
+  def quoted_highlight_description(highlight)
+    highlight.description.lines.map { |line| "> #{line}" }.join
   end
 end

@@ -18,7 +18,7 @@ Today we are announcing the addition of a new enterprise plan, GitLab Enterprise
 * File Locking: Improve how you manage your binary and text files with the ability to lock any file or directory.
 * Pivotal Tile: Easily deploy GitLab as a pre-configured appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
 
-GitLab EE Premium ensures your team has the tools and support they need today
+[GitLab EE Premium](/pricing/premium/) ensures your team has the tools and support they need today
 as well as in the future. Premium features are features that
 replace other products typically used within organizations. Take a look at some
 of the premium features we are considering on [our direction page](/direction/#new-products).

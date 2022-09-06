@@ -1,6 +1,6 @@
 ---
 layout: handbook-page-toc
-title: "TAM (CSM) Segment: Growth"
+title: "CSM (TAM) Segment: Growth"
 ---
 ## On this page
 {:.no_toc .hidden-md .hidden-lg}
@@ -8,7 +8,7 @@ title: "TAM (CSM) Segment: Growth"
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-View the [TAM Handbook homepage](/handbook/customer-success/tam/) for additional TAM-related handbook pages.
+View the [CSM Handbook homepage](/handbook/customer-success/tam/) for additional CSM-related handbook pages.
 
 ---
 
@@ -16,7 +16,7 @@ View the [TAM Handbook homepage](/handbook/customer-success/tam/) for additional
 
 The Growth team consists of Customer Success Managers assigned to dedicated accounts, leading with a programmatic approach to grow a large customer base, and aligning on and building success goals with each customer through usage reporting and strategic touchpoints. Our primary focuses are on reducing and addressing risk, ensuring positive onboarding for long-term success, and driving enablement and adoption throughout the customer journey.
 
-For more information about the Growth team's regions and books of business, please refer to our [internal wiki](https://gitlab.com/gitlab-com/customer-success/tam/-/wikis/TAM-Segments).
+For more information about the Growth team's regions and books of business, please refer to our [internal wiki](https://gitlab.com/gitlab-com/customer-success/tam/-/wikis/tam-Segments).
 
 ## Customer Lifecycle Journey
 
@@ -115,7 +115,32 @@ GitLab's Data Science team has created two [propensity models](/handbook/custome
 - The Propensity to Expand, or PtE, determines which accounts are likely to expand their ARR by more than 10% in the next 3 months.
 - The Propensity to Churn, or PtC, determines which accounts are likely to reduce their ARR by more than 10% or churn entirely within the next 6 months.
 
-More information about these models can be found in the [internal handbook](https://internal-handbook.gitlab.io/handbook/sales/propensity_models/), and the actual results can be found in both Gainsight and Salesforce.
+To learn more about the propensity models, please review our internal Highspot pages:
+- [Propensity Models Training Slide Deck](https://gitlab.highspot.com/items/62fbb4841c921b820c9e921a#4)
+- [Propensity Models Training Video](https://gitlab.highspot.com/items/62fab2b55ca565fa2ce67a8e)
+- [Propensity Models Internal Handbook Page](https://gitlab.highspot.com/items/62fab0ddc28c6afb3739d32b)
+
+Actual results for accounts can be found both on customer accounts and dashboards in Salesforce as well as dashboards in Gainsight.
+
+### Pillars of Success
+
+There are 7 pillars that we have identified as crucial for success as Growth CSMs. It is expected and normal for all CSMs to have higher proficiency in some areas and lower in others, especially when taking [job level](/company/team/structure/#layers) into consideration, but these are all areas we are continually striving to be better at, as there are always opportunities to learn and improve.
+
+1. Communication
+  - Frequent and honest communication with customers and internal stakeholders, so everyone knows what is happening and what to expect
+1. Follow-through
+  - You never leave a customer without an answer/reply, and you always do what you’ve said you’ll do
+1. Organization & Documentation
+  - You have your tasks organized and prioritized, and it’s easy for someone to quickly understand what’s going on with any given account by looking at Gainsight
+1. Relationship-building
+  - Both customers and internal team members trust you
+1. Proactivity
+  - You don’t wait to be told what to do, you have [short toes](/handbook/values/#short-toes) and a [bias for action](/handbook/values/#bias-for-action), and you plan for customer strategy
+1. Assertiveness
+  - You are comfortable telling customers what they need to do as their trusted advisor, as well as working internally to get what you need from others
+1. Perceptiveness
+  - You can “read between the lines” of what a customer is saying and identify what they need, not necessarily what they say they want
+
 
 ### Rhythm of Business
 
@@ -148,7 +173,7 @@ In addition to the work spent for each task, this framework assumes team members
 
 Gainsight plays a huge role in ensuring CSMs are equipped and able to manage their books of business.
 
-For general guidance on using Gainsight, please refer to the [TAM handbook page](/handbook/customer-success/tam/gainsight/).
+For general guidance on using Gainsight, please refer to the [CSM handbook page](/handbook/customer-success/tam/gainsight/).
 
 However, the Growth team has some specific usage of Gainsight, outlined below.
 
@@ -179,9 +204,8 @@ The [Cockpit](/handbook/customer-success/tam/gainsight/ctas/#cockpit) houses all
 1. At the top right where it says `Due Date`, click the dropdown and select `Type`.
    - This will organize your CTAs into different categories which will make triaging them easier; refer to the handbook page on [different types of CTAs](/handbook/customer-success/tam/gainsight/ctas/#types-of-ctas).
    - In your Cockpit, you'll now have categories where CTAs are automatically sorted into.
-       -`Activity` will show:
+      - `Activity` will show:
           - Any action items (`to-do`) you add to timeline entries
-          - Stale TAM Sentiment CTAs, notifying you that there has not been a TAM Sentiment update within the past 90 days. Once you've updated the sentiment, close this CTA.
           - Account handoff CTAs
           - Responses to the All-Customer survey, notifying you to action them and thank your customers.
       - `Lifecycle` will show:

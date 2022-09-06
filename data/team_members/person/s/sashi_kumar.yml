@@ -3,7 +3,7 @@ name: Sashi Kumar Kumaresan
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
-  Protect:Container Security</a>
+  Govern:Security Policies</a>
 reports_to: thiagofigueiro
 picture: sashikumar.jpg
 pronouns: he/him
@@ -15,17 +15,19 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
-- Protect:Container Security BE Team
+- Govern Sub-department
+- Govern backend capability
+- Govern:Security Policies BE Team
 domain_expertise:
-- protect
+- govern
 - rails
 - kubernetes
 projects:
   gitlab:
-    - reviewer backend
-  protect-container-scanning:
-    - reviewer backend
-    - maintainer backend
+  - reviewer backend
+  secure-container-scanning:
+  - reviewer backend
+  - maintainer backend
 specialty:
 - 'Protect: Container Security'
 expertise:

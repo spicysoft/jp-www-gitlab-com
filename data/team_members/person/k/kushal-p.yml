@@ -2,9 +2,9 @@
 name: Kushal Pandya
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer,
+role: <a href="/job-families/engineering/development/frontend/">Interim Engineering Manager,
   Plan:Product Planning</a>
-reports_to: fullstack-engineering-manager-product-planning
+reports_to: midhir
 picture: kushal.png
 twitter: Kushal_Pandya
 gitlab: kushalpandya
@@ -12,7 +12,6 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Plan:Product Planning FE Team
 - Frontend
 - Merge Request Coach
 projects:

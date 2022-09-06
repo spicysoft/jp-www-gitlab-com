@@ -355,6 +355,37 @@
     * Practical insights on how to overcome the toolchain challenge
     * Potential business and IT benefits from solving the challenge
 
+- url: justcommit-reduce-cycle-time
+  title: "Keys to accelerating software delivery"
+  subtitle: "Featuring special guest speaker from a leading independent research firm."
+  date: "on-demand"
+  form: 1592
+  success_message: Thank you for downloading. <a id="destination-url" href="https://learn.gitlab.com/c/youtube-5?x=Kx5gZJ&lb_email=">Click here</a> or view the on demand webcast on the left. We will also email you a link to the webcast.
+  image: /images/icons/just-commit-flying-boxes.svg
+  description: "In this webinar, we’ll hear our featured speaker, Forrester’s Diego Lo Giudice discuss his research into how 'Faster Software Delivery Accelerates Digital Transformation'."
+  content: |
+
+    Software development and delivery professionals face an ever-increasing demand from their business customers to deliver software innovation at a rapid pace. Business leaders are focused on how to compete in a digital future where the speed of innovation determines winners and losers. When organizations reduce cycle time, they can outpace competitors to deliver the features that customers want.
+
+    In this webinar, our featured speaker, Diego Lo Giudice from Forrester will discuss his research on how 'Faster Software Delivery Accelerates Digital Transformation.'
+
+    Just commit to joining us for this informative discussion so you can enable your organization to accelerate delivery.
+
+    ### During the discussion, we will cover:
+    * Why software delivery leaders play a vital role in the success of their digital transformations
+    * Key insights on how to lead your team’s transformation to Agile and DevOps practices
+    * How to remove bottlenecks, streamline your software development process, and accelerate software delivery
+
+  speakers:
+    - name: "Diego Lo Giudice"
+      title: "Vice President/Principal Analyst Application Development & Delivery, Forrester"
+      about: "With Forrester since July 2005, Diego primarily contributes to and advises on Forrester's offerings for Application Development & Delivery Professionals. He partners with Forrester's global application leaders and is a leading expert on SDLC processes and practices, covering topics such as Agile development, Agile and Lean transformations, Agile development sourcing strategies and services, Agile testing practices and tools, DevOps, and software testing and quality, with a key focus on systems of engagement. Diego also covers software delivery metrics, artificial intelligence, and open source governance."
+      image: /images/webcast/Diego-LoGiudice.jpg
+    - name: "John Jeremiah"
+      title: "Enterprise DevOps evangelist and product marketing leader, GitLab"
+      about: "John is an enterprise DevOps evangelist and product marketing leader at GitLab with over 20 years of IT leadership and software development experience. John helps to guide customers to adapt and thrive in a world of rapid change and digital disruption. He has held a variety of leadership roles with the U.S. Navy, IT consulting and Fortune 500 IT organizations and his experience spans from application developer, project and program manager, and IT Director where he has led the adoption of an Agile and CMMI Maturity Level 3 process framework. He has spoken at numerous conferences and events ranging from Interop to TedX. After receiving a bachelor’s degree from Oregon State University, Jeremiah earned his MS in Information Technology from The George Washington University School of Business and served nine years as a Naval Officer with the United States Navy."
+      image: /images/team/johnjeremiah-crop.jpg
+
 - url: justcommit-to-agile-K8s-deployments
   title: "Automating Kubernetes deployments"
   subtitle: "Commit to scalability with GitLab and Google Cloud Platform"

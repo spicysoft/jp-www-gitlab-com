@@ -396,6 +396,13 @@ All events should include at least *4 people.* Please ensure the activity is one
 
 Please list any events or activities in our [shared event planner](https://docs.google.com/spreadsheets/d/1cCuzXhBIpMInn30-ZD1XCcNnv21CwsmsA9TorW03d7Q/edit?usp=sharing), so all team members have the chance to opt in. Local or event/activity specific Slack channels can be used for organization.
 
+When traveling and attending the event, please:
+- Use "Conference" PTO in PTO by Roots to mark your plans timeframe.
+- Change your GitLab status to reflect that you are not available for work. 
+- Make sure your manager and your team is aware of your plans.
+
+Everyone is encouraged to plan their Visiting Grant activities according to our [Flexible PTO](https://about.gitlab.com/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) policies.
+
 ##### Spending caps
 
 Team members are expected to manage their individual expenses and adhere to expense caps. If events are centrally organized, coordinators should be clear with team members on how much of their FY23-Q3 allocation is going to the event. Team members are responsible for [spending company money like its their own](/handbook/spending-company-money/#guidelines) and not exceeding their individual budgets.
@@ -404,16 +411,17 @@ Team members are expected to manage their individual expenses and adhere to expe
 1. Team members can spend up to $500 to participate in events within their [local area](#local-area). If team members are attending events within their [local area](#local-area), they can expense transport but not accomodations. 
 1. Team members can expense up to $1000 each if they are traveling beyond their [local area](#local-area) to attend events. This option is open to team members who have local options, but choose to travel. These team members can put their budget toward accommodations in addition to travel expenses.
 1. Each team member can choose to participate in as many events as they like as long as they can do this within budget. If the team member is attending both local and long-distance events, the $500 local events budget is supplemented by an additional $500 for a grand total of the $1000 travel budget.
-1. For some team members, $1,000 is insufficient for participation in at least one event. To qualify for an exception, you would not have any available options within the $1,000 expense cap. If you believe that you fall into this bucket, please fill out the [exception form](https://gitlab.com/gitlab-com/chief-of-staff-team/cos-team/-/issues/new) by choosing the Fy23Q3VisitingGrantExceptions template that can be found in the "description" dropdown. Your situation can be considered by your manager and then a member of the CoST to the CEO Team who will evaluate based on the criteria captured above. 
-
+1. For some team members, $1,000 is insufficient for participation in at least one event. To qualify for an exception, you would not have any available options within the $1,000 expense cap. This means that the team member is in a relatively remote area and does not have viable options for meeting with other team members within budget. If the team member lives in an area with at least four team members, they should explore meeting with this group before requesting any exception. For example, if there were not an event planned in DC, a team member should first explore opportunities to meet with the over 70 team members in the DC metro area before requesting additional funds. If you believe that you fall into the exception bucket, please fill out the [exception form](https://gitlab.com/gitlab-com/chief-of-staff-team/cos-team/-/issues/new) by choosing the Fy23Q3VisitingGrantExceptions template that can be found in the "description" dropdown. Your situation can be considered by your manager and then a member of the CoST to the CEO Team who will evaluate based on the criteria captured above. 
 
 ##### What can be expensed
 
-In addition to transportation, team members can expense hotels when traveling outside of their [local area](#local-area), meals with other team members, passport, visas, COVID testing, and activities with other team members.
+In addition to transportation, team members can expense hotels when traveling outside of their [local area](#local-area), meals with other team members, passport, visas, COVID testing, and activities with other team members. As long as 4 team members are present on a given day, accommodations and related travel expenses will be covered. Team members may expense accomodations for the night prior to the event only if best efforts have been exhausted to arrive the day of the event. 
 
 ##### Additional spending guidelines
 
 All individual plane travel must be booked through [TripActions](/handbook/travel/#booking-travel-and-lodging) when possible. You may also choose to book lodging and other travel through TripActions. In TripActions, you should put "FY23-Q3 Visiting Grant" in the *Purpose* field when booking. For flights booked outside of TripActions, team members should expense tickets up to the maximum amount through Expensify. Be aware that by not using TripActions, team members will be responsible for potential fees associated with any transport issues (ie. cancellations). 
+
+If team members have layovers related to travel to and from the event, please expense the airfare as one trip. If something happens in transit that cannot be supported through TripActions, you will be responsible for the fees. If you decide to stay over during the layover, you will be responsible for any related expenses to the extended stay. 
 
 Preference using your budget toward booking air travel through TripActions before you spend any of your allocation on other expenses. Unless you receive an exception, **if you spend over $1,000 on airfare, you will need to reimburse GitLab for the overage. When your expense cap is exceeded, do not expense additional expenses, for example, hotel, events, and food, associated with your travels.** If you choose to spend above your budget on air travel, you should still book through TripActions, but you will be responsible for your overages. You will also be responsible for any overages in Expensify.
 
@@ -436,12 +444,12 @@ Team members should be aware of key GitLab policies and asks.
 1. Activities should be consistent with GitLab's [values](/handbook/values/).
 1. Any travel should be in line with our [travel policy](/handbook/travel/) and associated activities should comply with company [COVID policy around testing, masking, vaccination, etc...](/handbook/travel/#travel-guidance-covid-19).
 1. Team members should review [GitLab's Business Travel Accident Policy](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#business-travel-accident-policy) and familiarize themselves with the company's [travel insurance](https://drive.google.com/file/d/0B4eFM43gu7VPVl9rYW4tXzIyeUlMR0hidWIzNk1sZjJyLUhB/view?resourcekey=0-CDrQbA3YfmHHDM69Zuzxlg). GitLab will not be responsible for activities that fall outside of the policy. 
-1. Team members should adhere to the [GitLab Code of Conduct](/company/culture/contribute/coc/).
+1. Team members should adhere to the [GitLab Code of Conduct](/company/culture/ecoc/).
 1. Team members should refer to our [contracts and vendor policies](/legal/procurement-guide-collaborating-with-gitlab-legal/#signing-contracts) and refrain from signing contracts on behalf of GitLab. 
 1. Associated activities should comply with local laws.
 1. Events should be outdoors as much as possible to reduce COVID risk.
 1. Team member safety should be considered in event planning. Funds should not be used toward risky activities. 
-1. Events should not involve activities that would not be covered under insurance (for example, skydiving).
+1. Events should not involve activities that would not be covered under insurance. Please reach out to total-rewards@gitlab.com for any questions related to what activities are covered.
 1. Team members should consult travel advisories, for example the one provided by the [U.S. Department of State](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/) and avoid international travels to places against travel advice or with known unrest. 
 1. Team members should not use this program to subsidize existing travel plans. This grant exists to get team members together. Expenses should reflect this intent. 
 
@@ -449,14 +457,14 @@ This Program has a limited timeframe, but we’ll look to the success of this pr
 
 ##### FY23-Q3 Visiting Grant Program FAQ 
 
-We'll attempt to document answers to frequently asked questions in the handbook.
+We'll attempt to document answers to frequently asked questions in the handbook, please also refer to [this document](https://docs.google.com/document/d/1ID9iYSgxfecwc48QBUrnmEOK2dwLaggtZ_AEzgr1BpE/edit#).
 
 1. Can I spend out of pocket without reimbursement if I want to participate beyond what is allowable given my budget?
    1. You can use your own money beyond your personal event budget if it is possible to split out your personal monetary spend. For example, if a DRI is planning an event with 30 people and there is no way for you to pay your share fully with your event allowance, you can use personal money out of pocket towards this difference. If this is something that you are interested in doing, please sync with the DRI(s) in advance of an event to confirm that you can pay for all/part of your participation with your own money.
-
- 2. Am I eligible to participate in the Q3 Visiting Grant if I'm on an approved Leave of Absence?  
-
- - While utilizing the Visiting Grant is completely optional and voluntary, and since it's intent is to allow Team Members to get together in person, yes, you are eligible to participate in the Q3 Visiting Grant program as this is not considered a business related expense. Other business expenses related to completing work during a leave of absence are not allowed, as per our [Expense Policy](https://about.gitlab.com/handbook/finance/expenses/#-expense-policy-summary).
+1. Am I eligible to participate in the Q3 Visiting Grant if I'm on an approved Leave of Absence?  
+   1. While utilizing the Visiting Grant is completely optional and voluntary, and since it's intent is to allow Team Members to get together in person, yes, you are eligible to participate in the Q3 Visiting Grant program as this is not considered a business related expense. Other business expenses related to completing work during a leave of absence are not allowed, as per our [Expense Policy](https://about.gitlab.com/handbook/finance/expenses/#-expense-policy-summary).
+1. My significant other will be traveling with me, should I use the TripActions portal to book and then pay back to GitLab for the significant other booking fees? 
+   1. TripActions Business Travel is paid by GitLab's corporate card, so you need to use your personal card (personal booking or outside TripActions) for that portion that is +1, not yours. To book both tickets together, you should pay for the flights on your personal card and expense your own ticket with the rest of your trip/event related fees. See [personal bookings](https://about.gitlab.com/handbook/travel/#booking-travel-through-tripactions-) for more guidance. 
 
 #### Sharing your Visiting Grant stories
 
@@ -468,7 +476,7 @@ These stories are useful in showing the world how we stay connected as a [geogra
 
 #### The Original Visiting Grant Program
 
-GitLab is an [all-remote company](/company/culture/all-remote/) with GitLab team-members all over the world. If you want to visit other team members to get to know them, GitLab will assist with travel expenses (flights, trains, and ground transportation to and from the airport) for a total of up to $150 for every team member that you visit and work with. Please note lodging is excluded. To be clearer, if you meet 2 [GitLab team members](/handbook/communication/top-misused-terms/) during your visit, the maximum limit of your visiting grant could be $150x2. You don't need to work on the same project or team, either, so long as you discuss work for at least part of the time you're meeting. Before booking any travel using the travel grant budget please discuss your proposed travel with your manager. We encourage team members to utilize the travel grant, however in some cases - for example, a team member has performance issues related to their role - the visiting grant would not be applicable.
+Please note in FY21-Q1, GitLab suspended the Original Visiting Grant program until further notice. GitLab is an [all-remote company](/company/culture/all-remote/) with GitLab team-members all over the world. If you want to visit other team members to get to know them, GitLab will assist with travel expenses (flights, trains, and ground transportation to and from the airport) for a total of up to $150 for every team member that you visit and work with. Please note lodging is excluded. To be clearer, if you meet 2 [GitLab team members](/handbook/communication/top-misused-terms/) during your visit, the maximum limit of your visiting grant could be $150x2. You don't need to work on the same project or team, either, so long as you discuss work for at least part of the time you're meeting. Before booking any travel using the travel grant budget please discuss your proposed travel with your manager. We encourage team members to utilize the travel grant, however in some cases - for example, a team member has performance issues related to their role - the visiting grant would not be applicable.
 
 Note that meals and local travel while visiting are not typically covered for anyone as that wouldn't really be fair to those being visited. It may be acceptable to cover a meal, however, if the meeting is pre-announced to other people in the region to encourage as many of them to attend as possible and there are four or more GitLab team-members attending.
 

@@ -84,6 +84,31 @@
   source:
   group: Release
 
+- slug: release-orchestration-1
+  parent:
+  short_jtbd: Manage software releases
+  jtbd: When managing software releases, I want to optimize repeated tasks and workflows, so that I can make the business more efficient.
+  grade: "-"
+  confidence: Researched
+  source: "https://gitlab.com/gitlab-org/ux-research/-/issues/2016"
+  group: Release
+- slug: release-orchestration-2
+  parent: release-orchestration-1
+  short_jtbd: Manage release compliance
+  jtbd: When releasing code, I want to manage release artifacts, so I can deploy and audit them in a repeatable fashion.
+  grade: "-"
+  confidence: Researched
+  source:
+  group: Release
+- slug: release-orchestration-4
+  parent: release-orchestration-1
+  short_jtbd: Communicate release changes
+  jtbd: When my product is ready to be released, I want to make the documentation about it available, so I can educate the adopters on any changes.
+  grade: "-"
+  confidence: Researched
+  source:
+  group: Release
+
 ##### Start Configure ######
 
 - slug: secrets-mgt-1
@@ -1381,11 +1406,20 @@
   
 - slug: pipeline-execution_4
   parent:
-  short_jtbd: Manage automated checks without delay or failure
+  short_jtbd: Manage code verification checks without delay or failure
   jtbd: When running, reviewing and interacting with automated checks, I want the platform to respond without delay or failure, so I can timely deliver on my tasks.
   grade: "-"
   confidence: Researched
   source: https://dovetailapp.com/projects/2bdtpQqDUu8EAtXjiJN7iw/readme
+  group: Pipeline Execution
+
+- slug: pipeline-execution_4_a
+  parent: pipeline-execution_4
+  short_jtbd: 
+  jtbd: When making changes to a software, I want to quickly see results and troubleshoot failures in the build to get it ready to merge so I can get back to working on new changes.
+  grade: "-"
+  confidence: To be Researched
+  source: 
   group: Pipeline Execution
   
 
@@ -1487,63 +1521,63 @@
   source: 
   group: Pipeline Authoring   
 
-##### Start Secure and Protect ######
+##### Start Secure and Govern ######
 
 - slug: secure-implementing-policies
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: Implementing security scanning policies
   grade: "-"
 - slug: secure-implementing-policies-a
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-policies
   micro_job: Defining what scans need to run where, and under which circumstances
   jtbd: When I am configuring a CI/CD security scan, I want to specify which assets need to be scanned and under which circumstances, So that I can ensure my assets are secure prior to or at their release.
   grade: "-"
 - slug: secure-implementing-policies-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-policies
   micro_job: Defining what scans need to run where, and under which circumstances
   jtbd: When I am configuring a security scan outside of CI/CD, I want to specify which assets need to be scanned and under which circumstances, So that I can ensure my assets are secure in production.
   grade: "-"
 - slug: secure-implementing-policies-c
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-policies
   micro_job: Defining what which types of vulnerabilities are relevant to my org
   jtbd: When I am configuring a security scan, I want to specify which types of vulnerabilities the scan should detect, So that we don't waste time sorting through irrelevant findings.
   grade: "-"
 - slug: secure-implementing-policies-d
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-policies
   micro_job: Enabling security tests
   jtbd: When I am either enabling or configuring a security scan, I want to run a demo scan, So that I can validate my configuration before it is implemented
   grade: "-"
 
 - slug: secure-implementing-controls
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: Implementing security controls in developer workflow
   grade: "-"
 - slug: secure-implementing-controls-a
-  group: Secure and Protect
+  group: Secure and Govern
   micro_job: Defining what vulnerabilities must be remediated before code can be integrated
   parent: secure-implementing-controls
   jtbd: When I am implementing security controls in my org, I want to define what vulnerabilities must be resolved prior to release, So I can prevent business-critical vulnerabilities from being introduced into production.
   grade: "-"
 - slug: secure-implementing-controls-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-controls
   micro_job: Defining who to alert and under which circumstances
   jtbd: When I am implementing security controls in my org, I want to specify who needs to review and approve changes to my assets, So that I can ensure that the changes to my assets maintain compliance with my org's policies
   grade: "-"
 
 - slug: secure-identifying-risk
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: Identifying risk in my org's assets
   grade: "-"
 - slug: secure-identifying-risk-a
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-identifying-risk
   micro_job: Identifying vulnerabilities in new code
   jtbd: When committing changes to my project, I want to know if I introduced any business-critical vulnerabilities, So that I can address them prior to sending my code for review.
@@ -1551,7 +1585,7 @@
   confidence: Tested
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-identifying-risk-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-identifying-risk
   micro_job: Identifying vulnerabilities in new code
   jtbd: When I am ready to release changes into production, I want to verify it is safe to release, So that I can release the changes responsibly.
@@ -1559,7 +1593,7 @@
   confidence: Tested
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-identifying-risk-c
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-identifying-risk
   micro_job: Identifying vulnerabilities in existing code
   jtbd: When I am assessing the security of my application in production, I want to know whether my app is currently vulnerable, So I can address detected business-critical vulnerabilities
@@ -1568,12 +1602,12 @@
   source: https://gitlab.com/gitlab-org/ux-research/-/issues/790
 
 - slug: secure-addressing-vulnerabilities
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: Addressing detected business-critical vulnerabilities
   grade: "b"
 - slug: secure-addressing-vulnerabilities-a
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Triaging vulnerabilities
   jtbd: When I am triaging vulns, I want to address business-critical risks, So I can ensure there is no unattended risk in my orgs assets.
@@ -1581,7 +1615,7 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Remediating or mitigating confirmed business-critical risk
   jtbd: When my code has been scanned, I want to resolve the confirmed business-critical vulnerabilities, So I can ensure my changes are compliant with my org's risk policies.
@@ -1589,7 +1623,7 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-c
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Exempting detected vulnerabilities from further actions
   jtbd: When I have proven a vulnerability to be either a FP or to be not business critical, I want to exempt it, So that it's clearer for me and my teammates what vulnerabilities we should be focusing on.
@@ -1597,7 +1631,7 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-d
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Orchestrating remediation
   jtbd: When I have proven a business-critical true positives, I want to initiate and support remediation efforts, So that I can ensure the vulnerability get remediated.
@@ -1605,7 +1639,7 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-e
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Determining the risk of the vulns found in my application
   jtbd: When I am Investigating a vulnerability, I want to determine it's risk level, So that I can take the next appropriate action.
@@ -1613,7 +1647,7 @@
   confidence: Tested
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-f
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Verifying resolved business-critical vulnerabilities
   jtbd: When I am made aware a vulnerability has been resolved, I want to verify it has been remediated, So that I can ensure it no longer poses a risk.
@@ -1621,18 +1655,18 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-license-compliance
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: License compliance
   grade: "-"
 - slug: secure-license-compliance-a
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-license-compliance
   micro_job: Applying license compliance policies (Little Job)
   jtbd: When I am creating a compliance framework for my organization to follow, I want to implement policies for software licenses, So I can ensure my org maintains compliance.
   grade: "-"
 - slug: secure-license-compliance-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-license-compliance
   micro_job: Complying with my project's license compliance policies (Little Job)
   jtbd: When I am committing changes to my application, I want to be made aware if I am violating a policy, So I can ensure my changes maintain compliance with my org's policies.
@@ -1644,7 +1678,7 @@
   grade: "-"
   confidence: Researched
   source: "https://gitlab.com/gitlab-org/ux-research/-/issues/1083"
-  group: Secure and Protect
+  group: Secure and Govern
 - slug: secure-code-qual-a
   parent: secure-code-qual
   short_jtbd:
@@ -1660,7 +1694,7 @@
   grade: "-"
   confidence: Researched
   source: "https://gitlab.com/gitlab-org/ux-research/-/issues/1083"
-  group: Secure and Protect
+  group: Secure and Govern
 - slug: secure-code-qual-c
   parent: secure-code-qual
   short_jtbd:
@@ -1668,7 +1702,7 @@
   grade: "-"
   confidence: Researched
   source: 
-  group: Secure and Protect
+  group: Secure and Govern
 
 ##### Start Global Search ######
 

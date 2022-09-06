@@ -148,7 +148,7 @@
 
 - name: OSAT Buddy Experience Score
   base_path: /handbook/people-group/people-success-performance-indicators/
-  definition: The Buddy Experience Score is a reflection of the [buddy program experience](/handbook/people-group/general-onboarding/onboarding-buddies/) at GitLab. The Buddy Experience target score is >4.
+  definition: The Buddy Experience Score is a reflection of the <a href="/handbook/people-group/general-onboarding/onboarding-buddies/">buddy program experience</a> at GitLab. The Buddy Experience target score is >4.
   target:
   org: People Success
   is_key: false

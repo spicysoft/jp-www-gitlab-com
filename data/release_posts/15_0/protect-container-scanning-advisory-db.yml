@@ -6,7 +6,7 @@ features:
       gitlab_com: true
       documentation_link: 'https://docs.gitlab.com/ee/user/application_security/container_scanning/#vulnerabilities-database'
       reporter: sam.white
-      stage: protect
+      stage: govern
       categories:
         - 'Container Scanning'
       issue_url: 'https://gitlab.com/groups/gitlab-org/-/epics/7395'

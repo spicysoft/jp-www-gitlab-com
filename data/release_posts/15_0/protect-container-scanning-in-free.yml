@@ -7,7 +7,7 @@ features:
       documentation_link: 'https://docs.gitlab.com/ee/user/application_security/container_scanning/#capabilities'
       video: 'https://www.youtube-nocookie.com/embed/vge_DQ6af9Y'
       reporter: sam.white
-      stage: protect
+      stage: govern
       categories:
         - 'Container Scanning'
       issue_url: 'https://gitlab.com/groups/gitlab-org/-/epics/2233'

@@ -13,7 +13,7 @@ title: "Application Security Market Analysis"
 A uniform lexicon is important to distinguish the use of 'security' in various contexts.
 
 
-GitLab helps our customers **Secure and Manage** all of the phases of the SDLC Create, Plan, etc.). To deliver secure applications, customers use GitLab Security Controls throughout the SDLC and Security Testing in validation. Eventually, GitLab will enable vulnerability prioritization for planning and Security Monitoring in production (Protect).
+GitLab helps our customers **Secure and Govern** all of the phases of the SDLC Create, Plan, etc.). To deliver secure applications, customers use GitLab Security Controls throughout the SDLC and Security Testing in validation. Eventually, GitLab will enable vulnerability prioritization for planning and Security Monitoring in production.
 
 1. **Security Controls** are capabilities of GitLab that altogether provide GitLab customers auditability of code throughout the SDLC. (This is not SAST/DAST.) For example, see [GitHub security](https://docs.google.com/document/d/1s5RIE8hFaMdoBqrnLVlnbuxDUQfZd1kYjduVOZCWIKE/edit?usp=sharing). These controls help customers in their efforts to comply with various industry regulations that require policies for auditability and access control. Examples include:
     * Enforce security policies without interrupting your workflow

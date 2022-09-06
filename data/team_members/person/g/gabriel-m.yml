@@ -25,6 +25,8 @@ domain_expertise:
   - geo
   - gfm
   - ruby
+  - rails
+  - view_component
 story: |
   Gabriel is the first Brazillian in the team, before joining GitLab,
   he was fighting the scalability and performance battle on a

@@ -46,7 +46,7 @@ To update, check out our [update page](/update/).
 
 ## GitLab subscriptions
 
-Access to GitLab Premium and Ultimate features is granted by a paid [subscription](/pricing/).
+Access to [GitLab Premium](/pricing/premium/) and [Ultimate](/pricing/ultimate/) features is granted by a paid [subscription](/pricing/).
 
 Alternatively, [sign up for GitLab.com](https://gitlab.com/users/sign_in)
 to use GitLab's own infrastructure.

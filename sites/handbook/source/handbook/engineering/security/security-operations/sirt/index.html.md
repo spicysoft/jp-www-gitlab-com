@@ -42,11 +42,11 @@ The following people are permanent members of the SIRT
 </tr>
 <tr>
 <td>Valentine Mairet</td>
-<td><a href="/job-families/engineering/security-incident-response-team/#manager-security-incident-response-team">Acting Manager, SIRT</a></td>
+<td><a href="/job-families/engineering/security-incident-response-team/#manager-security-incident-response-team">Security Manager, SIRT</a></td>
 </tr>
 <tr>
 <td>Mitra Jozenazemian</td>
-<td><a href="/job-families/engineering/security-incident-response-team/#senior-security-incident-response-team-engineer">Senior Security Engineer, SIRT</a></td>
+<td><a href="/job-families/engineering/security-incident-response-team/#staff-security-incident-response-team-engineer">Staff Security Engineer, SIRT</a></td>
 </tr>
 <tr>
 <td>Corey McCarty</td>
@@ -58,6 +58,10 @@ The following people are permanent members of the SIRT
 </tr>
 <tr>
 <td>Tuan Lam</td>
+<td><a href="/job-families/engineering/security-incident-response-team/#senior-security-incident-response-team-engineer">Senior Security Engineer, SIRT</a></td>
+</tr>
+<tr>
+<td>Janina Roppelt</td>
 <td><a href="/job-families/engineering/security-incident-response-team/#senior-security-incident-response-team-engineer">Senior Security Engineer, SIRT</a></td>
 </tr>
 <tr>
@@ -76,10 +80,12 @@ The following people are permanent members of the SIRT
 - Incident analysis 
 - Incident response support and coordination 
 - Incident response resolution 
+- Detection and response engineering
 2. Proactive - Services designed to improve the infrastructure  and security  processes of Gitlab before any incident occurs or is detected. The main goals are to avoid incidents and to reduce the impact and scope when they do occur. 
 - Cyber Threat Analysis of vulnerability warnings and security advisories
 - Monitor Adversaries' activities and related trends to help identify future threats 
 - Configuration and maintenance of security tools, applications, and infrastructure
+- Detection and response engineering
 4. Administrative - Services design to assist with requests from Gitlab's Legal and HR Departments.
 
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging SIRT

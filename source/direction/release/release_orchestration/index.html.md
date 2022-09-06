@@ -41,9 +41,7 @@ Security, compliance, control and governance of the release pipeline is handled 
 
 ## What's Next & Why
 
-1. [Create annotated tags with Releases API](https://gitlab.com/gitlab-org/gitlab/-/issues/268018)
-1. [Create annotated Tags with the GraphQL Release API](https://gitlab.com/gitlab-org/gitlab/-/issues/268267)
-1. [Tag Edit button should lead to the release page](https://gitlab.com/gitlab-org/gitlab/-/issues/362339)
+1. [Create annotated tags with Releases UI](https://gitlab.com/gitlab-org/gitlab/-/issues/362481)
 1. [Automatically insert changelog into Release](https://gitlab.com/gitlab-org/gitlab/-/issues/26015)
 1. [Group Releases](https://gitlab.com/groups/gitlab-org/-/epics/3561)
 1. [Release Notes](https://gitlab.com/groups/gitlab-org/-/epics/2285)

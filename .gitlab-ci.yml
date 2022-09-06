@@ -276,16 +276,6 @@ generate-handbook-changelog-rss:
     - bundle exec bin/generate_handbook_changelog_rss
     - scripts/deploy
 
-release-post-build:
-  extends: .bundle-install
-  timeout: 3h
-  stage: content-generation
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "schedule" && $RELEASE_POST_BUILD == "true"'
-  needs: []
-  script:
-    - bundle exec bin/release-post-build
-
 generate-release-post-items:
   extends: .bundle-install
   timeout: 1h
@@ -306,6 +296,16 @@ release-post-process-tasks:
   script:
     - bundle exec rake release_post:start
 
+release-post-content-assemble:
+  extends: .bundle-install
+  timeout: 1h
+  stage: content-generation
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $RELEASE_POST_CONTENT_ASSEMBLE == "true"'
+  needs: []
+  script:
+    - bundle exec rake release_post:assemble
+
 # Update https://gitlab.com/gitlab-org/gitlab/-/releases
 # and https://gitlab.com/gitlab-org/gitlab-foss/-/releases
 # when release posts are published
@@ -318,6 +318,9 @@ update-gitlab-project-releases-page:
         - sites/uncategorized/source/releases/posts/*-released.html.md
       allow_failure: true
   needs: []
+  variables:
+    GITLAB_FOSS_PROJECT_ID: 13083
+    GITLAB_EE_PROJECT_ID: 278964
   script:
     - bundle exec rake release:ee:update_project_releases_page
     - bundle exec rake release:foss:update_project_releases_page

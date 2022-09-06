@@ -104,7 +104,7 @@ Consider using a [GitLab branded Zoom background](https://docs.google.com/presen
 
 If your talk is recorded, we encourage speakers to publish their talks to YouTube. 
 
-Please [upload your talk recording to GitLab Unfiltered](/handbook/marketing/marketing-operations/youtube/#uploading-conversations-to-youtube) and add the video GitLab Tech Talks playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KpNi9Wgvsu-_wdiFOYrL4LO) on GitLab Unfiltered. If the recording is published elsewhere on YouTube, add it to the playlist directly. 
+Please [upload your talk recording to GitLab Unfiltered](/handbook/marketing/marketing-operations/youtube/#uploading-conversations-to-youtube) and add the video [GitLab Tech Talks playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KpNi9Wgvsu-_wdiFOYrL4LO) on GitLab Unfiltered. If the recording is published elsewhere on YouTube, add it to the playlist directly. 
 
 ### Best Practices
 

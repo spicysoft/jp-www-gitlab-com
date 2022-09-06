@@ -29,4 +29,4 @@ As of a few weeks ago, I've started to block off my lunch time on my calendar. I
 
 In light of all this, it is reliving that the team at GitLab is very supportive of a [healthy work life balance](/company/culture/all-remote/) and will do all they can to make sure everyone is well taken care of. After all, why else would they ask you to take a [minimum of 2 weeks off](/handbook/paid-time-off/) a year for vacation.
 
-Overall, this first month working at GitLab has been a blast. Working on something that impacts many organizations and has a clear [strategic vision](/strategy/) is an absolute thrill. If you think you have what it takes to be a GitLab team-member, check out our [job openings](/jobs/).
+Overall, this first month working at GitLab has been a blast. Working on something that impacts many organizations and has a clear [strategic vision](/company/strategy/) is an absolute thrill. If you think you have what it takes to be a GitLab team-member, check out our [job openings](/jobs/).

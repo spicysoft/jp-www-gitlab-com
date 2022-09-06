@@ -119,4 +119,5 @@ Below is a full list of our UX Research team handbook content:
      - [System Usability Scale database](/handbook/engineering/ux/sus-database/)
 - [Category Maturity Scorecards](/handbook/engineering/ux/category-maturity-scorecards/)
 - [Tracking research velocity](/handbook/engineering/ux/ux-research-training/tracking-research-velocity/) 
+- [Tracking gold, silver, and bronze UX research projects](/handbook/engineering/ux/ux-research-training/tracking-research-projects/) 
 

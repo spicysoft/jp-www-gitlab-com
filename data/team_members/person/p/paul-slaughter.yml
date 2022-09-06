@@ -20,6 +20,7 @@ projects:
   gitlab-ui: maintainer frontend
   customers-app: maintainer frontend
   status-page: maintainer frontend
+  gitlab-web-ide: maintainer
 expertise: |
   <li><a href="/job-families/expert/merge-request-coach/">Frontend Merge Request Coach</a></li>
   <li><a href="https://docs.gitlab.com/ee/user/project/web_ide/">Web IDE</a> <a href="/company/team/structure/#expert">expert</a></li>

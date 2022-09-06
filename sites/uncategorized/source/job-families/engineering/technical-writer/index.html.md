@@ -80,7 +80,7 @@ At GitLab, engineering has a formal [dual career track](/handbook/engineering/ca
 #### Staff Technical Writer Responsibilities
 Extends the Senior Technical Writer responsibilities in complexity and scope.
 
-* **Content**: Efficiently create and maintain product documentation and release posts for assigned product groups or stages. Guide improvements to merge requests.
+* **Content**: Efficiently create, merge, and maintain product documentation within groups as needed, or across product groups. Guide improvements to merge requests. Suggest and balance priorities.
 * **Structure**: Actively implement content topic types in both new and previously created content to make product documentation easier to scan.
 * **Organization**: Ensure that product documentation pages are well organized across stages by using good naming and logical groupings.
 * **User interface**: Create model examples of user interface text, including field labels or error messages, with a cross-stage focus. Actively improve style guide and [Pajamas](/handbook/engineering/ux/pajamas-design-system/) content related to user interface text.
@@ -104,7 +104,7 @@ At GitLab, engineering has a formal [dual career track](/handbook/engineering/ca
 #### Principal Technical Writer Responsibilities
 Extends the Staff Technical Writer responsibilities in complexity and scope.
 
-- **Content**: Efficiently create and maintain product documentation and release posts for assigned product groups or stages. Guide improvements to merge requests. Help set priorities at a team level.
+- **Content**: Efficiently create, merge, and maintain product documentation within groups as needed, or across product groups. Guide improvements to merge requests. Help set priorities at a team level.
 - **Structure**: Actively implement content topic types in both new and previously created content to make product documentation easier to scan.
 - **Organization**: Ensure that product documentation pages are well organized across stages by using good naming and logical groupings.
 - **User interface**: Provide expert guidance on user interface text. Actively improve style guide and [Pajamas](/handbook/engineering/ux/pajamas-design-system/) content.
@@ -135,7 +135,7 @@ Candidates for this position can expect the hiring process to generally follow t
 1. Qualified candidates will be invited to schedule a 30-minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters. In this call, we will discuss your experience, understand what you are looking for in a Technical Writing role, talk about your work and approach to technical writing, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
 1. If you successfully pass the screening call, you will be invited to schedule a 50-minute interview with our Technical Writing Manager. In this interview, we will want you to talk through the approach you took in the examples of work you shared as part of your application, your experience up to now, understand what you're looking for in a technical writing position, and answer any questions you have.
 1. The next interview is 50-minutes long and with one of our Technical Writers. We’ll discuss your experience, why you’re looking to join GitLab, your domain experience, and what it's like to be a technical writer at GitLab. We’ll assess your alignment with our [values](/handbook/values/#credit), and answer any questions you have.
-1. Next, you’ll meet one of our Product Managers, Engineering Managers, or Customer Support representatives for a 50-minute interview. We’ll discuss your experience and why you’re looking to join GitLab. We’ll assess your alignment with our [values](/handbook/values/#credit), and answer any questions you have.
+1. Next, you’ll meet with a cross-functional partner from our Product, Engineering, or Customer Support team for a 50-minute interview. We’ll discuss your experience and why you’re looking to join GitLab. We’ll assess your alignment with our [values](/handbook/values/#credit), and answer any questions you have.
 1. Finally, you’ll meet our Senior Manager, Technical Writing for a 50-minute interview. At this stage, we’ll look to understand your views on how documentation impacts user experience and your experience up to now. You'll have a discussion around technical writing maxims, and the interviewer will answer any questions you have.
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).

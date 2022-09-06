@@ -123,7 +123,7 @@ The persona interested in application automation is generally different from the
 
 ### Customer Adoption and Value
 
-These value statements are used to measure of GitLab Adoption by the customer and provide guidance to our field teams (TAMs in particular) for conversations on expanding usage. 
+These value statements are used to measure of GitLab Adoption by the customer and provide guidance to our field teams (TAMs in particular) for conversations on expanding usage.
 
 ##### CI Adoption Score
 
@@ -222,7 +222,7 @@ For up-to-date and full list of value at Premium, visit [Why Premium](https://ab
 - **Release Controls** Implement controls to ensure teams ship high quality and secure code
   - [Approval rules for code review](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html)	Approval rules ensure that the right people review merge requests by specifying eligible approvers and the minimum number of approvals required for a merge request.
   - [Required Merge Request Approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)	Guarantee quality and standards of your code by mandating a set number of necessary approvals and predefine a list of specific approvers.
-  - [Merge Request Dependencies](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_dependencies.html)	Coordinate the order in which merge requests are merged within the same project and/or across different projects.
+  - [Merge Request Dependencies](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html)	Coordinate the order in which merge requests are merged within the same project and/or across different projects.
   - [Push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html)	Reject new code and commits that don't comply with company policy.
 - **Self Managed Reliability** Ensure disaster recovery, high availability and load balancing of your self-managed deployment
   - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html)	Fail over in minutes to another data-center.

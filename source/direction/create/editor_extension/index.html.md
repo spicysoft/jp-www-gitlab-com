@@ -12,7 +12,7 @@ title: "Category Direction - Editor Extension"
 | --- | --- |
 | Stage | [Create](/direction/dev/#create) |
 | Maturity | [Minimal](/direction/maturity/) |
-| Content Last Reviewed | `2022-06-02` |
+| Content Last Reviewed | `2022-08-23` |
 
 ### Introduction and how you can help
 Thanks for visiting this direction page on Editor Extension. This page belongs to the [Code Review](/handbook/product/categories/#code-review-group) group of the Create stage and is maintained by Kai Armstrong ([E-Mail](mailto:karmstrong@gitlab.com)).
@@ -71,10 +71,6 @@ GitLab should support developers closer to where they're doing their meaningful 
 1. [GitLab CLI](https://gitlab.com/gitlab-org/cli)
 
 ### What's Next & Why
-
-**In Progress:** [Improve onboarding and auth of GitLab Workflow](https://gitlab.com/groups/gitlab-org/-/epics/4363)
-
-Onboarding in the GitLab Workflow extension is currently quite challenging. Upon initial setup a user is required to specify which GitLab instance they're using and then provide a PAT for authorization. We're adding support for OAuth setup to GitLab Workflow to make getting started easy.
 
 **In Progress:** [Transition `glab` to GitLab](https://gitlab.com/groups/gitlab-org/-/epics/7514)
 

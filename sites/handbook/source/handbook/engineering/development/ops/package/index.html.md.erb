@@ -203,7 +203,7 @@ the [group retrospectives handbook page](../../../management/group-retrospective
 Often times during a retrospective (monthly or weekly), there are suggestions on how to improve a given process. However, there are times
 where suggestions are lost and no action is taken. Consider the following possible action items that can be created so that the issues are eventually addressed:
 
-- [Everything starts with a Merge Request](https://about.gitlab.com/handbook/communication/#everything-starts-with-a-merge-request)! No matter if it is a small or big change, in the MR, you will have the opportunity to discuss the things you are suggesting with the rest of the team. Add the label `~Retrospective follow-up` and relate the MR to the retrospective issue.
+- [Everything starts with a Merge Request](https://about.gitlab.com/handbook/communication/#start-with-a-merge-request)! No matter if it is a small or big change, in the MR, you will have the opportunity to discuss the things you are suggesting with the rest of the team. Add the label `~Retrospective follow-up` and relate the MR to the retrospective issue.
 - For any other follow-up that cannot be resolved through an MR, open an issue in the [Package retrospective issue tracker](https://gitlab.com/gl-retrospectives/package/-/issues) and apply the `~follow-up` label. Assign a due-date to the next month. Link the issue back to the retrospective that prompted the action.
 - Consider bringing some of the [follow-up issues](https://gitlab.com/gl-retrospectives/package/-/issues/?label_name%5B%5D=follow-up) into the weekly retrospective for discussion.
 - Follow the same process for issues raised during the weekly retrospective.
@@ -411,7 +411,7 @@ The Package team uses [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) for E
 The [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox) is GitLab's deployment of HackyStack that is used by GitLab team members. See the handbook page for more details.
 
 The Package team uses this platform to set up its epehemeral demo sandbox environment that launches an Omnibus instance with an active Container Registry and a project that can trigger multiple images/tags leveraging our CI capabilities.
-Insrtuctions on how to use it can be found [here](https://about.gitlab.com/handbook/engineering/development/ops/package/quality). 
+Instructions on how to use it can be found [here](https://about.gitlab.com/handbook/engineering/development/ops/package/quality). 
 
 ### Code Review
 
@@ -497,7 +497,36 @@ Other points to consider for the Package group member:
 * If some aspects of the merge request become a high priority task (for example, a bug fix) and the work from the community contributor is less active or stalled, consider suggesting that you will extract this part to a small merge request to get it implemented as quickly as possible.
   * The other aspects with less priority can still be worked out by the community contributor.
 
+##### Deliverable issues
 
+An issue that has the `~Deliverable` label is expected to be completed within the assigned milestone. However, if a community member wants to work on that issue, it may seem unfair to assign the issue to them and expect them to deliver the changes by a given date.
+In this scenario, the team member co-assigned to the issue will be responsible for working with the community contributor to try to deliver the changes needed in time.
+If at any point in time the MR is stale or the contributor is unresponsive, the team member will follow the [taking over a community merge request](https://docs.gitlab.com/ee/development/code_review.html#taking-over-a-community-merge-request) process outlined in the contributing guidelines.
+
+If a community member acknowledges that they still want to work on a `~Deliverable` issue
+in the current or next milestone, the team will discuss and decide 
+whether or not this will effect the ability to ship the issue in the scheduled milestone.
+To prevent these situations, the best action we can take is to proactively remove the
+`~Accepting contributions` label when we schedule an issue as a deliverable.
+ 
+Three actions could be taken:
+
+1. We kindly let the community contributor know that this issue needs to be 
+   completed by internal team members.
+2. We allow the community contributor to work on the issue but let them know 
+   that an internal team member may need to take over the MR at some point to 
+   ensure it ships on time.
+3. We decide it is ok for this issue to slip, allow the community contributor 
+   to work on the issue, and remove the `~Deliverable` label.
+
+If a community member has been working on a previously unscheduled issue that we would
+like to schedule, we should do our best to make option (2.) work. If either option (1.)
+or (2.) is taken, we should ensure the community contributor receives recognition for their
+work.
+
+For issues that are not scheduled as deliverables, we may still schedule reviews 
+and support for the community contributor in the given milestone, but without 
+committing to delivering it in a specific time frame.
 
 ### Returning from PTO
 

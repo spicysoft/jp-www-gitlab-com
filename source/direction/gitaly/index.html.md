@@ -39,7 +39,7 @@ Please include use cases, personas, and user journeys into this section.
 ### Gitaly
 
 Gitaly is the service responsible for the storage and maintenance of all Git repositories in GitLab.
-Git repositories are essential to GitLab, for [Source Code Management](/direction/create/source_code_management/), [Wikis](/direction/create/editor/wiki/), [Snippets](/direction/create/editor/snippets/), Design Management, [Web IDE](/direction/create/editor/web_ide/), and every stage of the DevOps lifecycle to the right of Create - Verify, Package, Release, Configure, Protect, Monitor and Secure - depends on the project repositories. Because the majority of GitLab capabilities depend on information stored in Git repositories, performance and availability are of primary importance.
+Git repositories are essential to GitLab, for [Source Code Management](/direction/create/source_code_management/), [Wikis](/direction/create/editor/wiki/), [Snippets](/direction/create/editor/snippets/), Design Management, [Web IDE](/direction/create/editor/web_ide/), and every stage of the DevOps lifecycle to the right of Create - Verify, Package, Release, Configure, Govern, Monitor and Secure - depends on the project repositories. Because the majority of GitLab capabilities depend on information stored in Git repositories, performance and availability are of primary importance.
 
 GitLab is used to store Git repositories by small teams of a few people all the way up to large enterprises with many terabytes of data. For this reason, Gitaly has been built to scale from small single server GitLab instances, to large high availability architectures.
 

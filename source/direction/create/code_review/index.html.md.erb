@@ -12,7 +12,7 @@ canonical_path: "/direction/create/code_review/"
 
 | Section | Stage | Maturity | Last Reviewed |
 | --- | --- | --- | --- |
-| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Loveable](/direction/maturity/) | 2022-06-02 |
+| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Loveable](/direction/maturity/) | 2022-08-23 |
 
 ## Introduction and how you can help
 Thanks for visiting this direction page on Code Review in GitLab. This page belongs to the [Code Review](/handbook/product/categories/#code-review-group) group of the Create stage and is maintained by Kai Armstrong ([E-Mail](mailto:karmstrong@gitlab.com)).
@@ -49,15 +49,16 @@ After feedback has been provided through the merge request, the author must resp
 
 As a final piece of the review cycle, the merge request needs to be approved. This is an important affirmative signal that the contribution meets the standards of the project and is an improvement to the codebase. In some cases, initial reviewers provide that approval which is why selecting the correct reviewer is so important. In cases where there are second level approvals required, surfacing that information to authors and suggesting appropriate approvers can ensure contributions don't sit stale.
 
-GitLab's vision for code review is a place where:
+<a name="vision"></a>
+**GitLab's vision for code review is a place where:**
 
-- changes can be discussed,
-- developers can be mentored,
-- knowledge can be shared,
-- defects identified, and
-- contributions delivered.
+- **changes can be discussed,**
+- **developers can be mentored,**
+- **knowledge can be shared,**
+- **defects identified, and**
+- **contributions delivered.**
 
-In GitLab, Code Review takes place in the [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/). GitLab should make these tasks efficient and easy, so that velocity and code quality both increase even if the merge request isn't perfect.
+In GitLab, Code Review takes place in the [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/). **GitLab should make these tasks efficient and easy, so that velocity and code quality both increase even if the merge request isn't perfect.**
 
 #### Metrics of success
 
@@ -138,17 +139,17 @@ who work together to achieve code quality standards and mentor the author.
 Furthermore, many reviewers are often not Developers.
 Reviewers may be Developers, Product Designers, Product Managers, Technical Writers, Security Engineers and more.
 
-In support of GitLab's vision for code review,
+In support of GitLab's [vision](#vision) for code review,
 areas of interest and improvement can be organized by the following goals:
 
-- **Ease of use** influences whether users choose to use the GitLab tool to merge branches instead of simply interacting with the Git server via command line. Merge request should be easy to use and provide enough visible value such that users will default to use merge requests.
-- **Love-ability** captures the essence that GitLab is enjoyable to use, which may mean that it is fast, invisible and allows you to get your work done. Particularly, GitLab should encourage the best of communication between colleagues and contributors, helping teams celebrate great contributions of all kinds, and express their ideas without misunderstandings. How GitLab communicates with people, will influence how people communicate with each other inside GitLab.
+- **Ease of use** influences whether users choose to use the GitLab tool to merge branches instead of simply interacting with the Git server via command line. Merge requests should be easy to use and provide enough visible value such that users will default to use merge requests. This is a key objective of our effort to [restructure merge requests](https://gitlab.com/groups/gitlab-org/-/epics/5038).
+- **Love-ability** captures the essence that GitLab is enjoyable to use, which may mean that it is fast, invisible and allows you to get your work done. Particularly, GitLab should encourage the best of communication between colleagues and contributors, helping teams celebrate great contributions of all kinds, and express their ideas without misunderstandings. How GitLab communicates with people, will influence how people communicate with each other inside GitLab. Utilizing [expressive merge request comments](https://gitlab.com/groups/gitlab-org/-/epics/4349) allows this communication to happen in a clear and structured way for all participants.
 - **Efficiency** directly influences velocity within the time span of a single merge request
     - *Author efficiency* considers how a merge request author can create and address code review feedback, find a relevant reviewer for their merge request, and incorporate incoming feedback.
-    - *Reviewer efficiency* considers how an individual reviewer can review a code change, leave feedback, and also verify their own feedback has been addressed. Provide enhanced context when reviewing new information (for example, through code intelligence) for efficiency.
+    - *Reviewer efficiency* considers how an individual reviewer can review a code change, leave feedback, and also verify their own feedback has been addressed. Provide enhanced context when reviewing new information (for example, through code intelligence) for efficiency. We're currently working on review efficiency through [improvements to the review comments experience](https://gitlab.com/groups/gitlab-org/-/epics/7362).
     - *Team efficiency* considers a team can coordinate and communicate responsibilities, progress and status of a merge request, and quickly the entire process can be completed. Support workflows that enable new and better ways of working (for example, suggest changes, commit by commit review).
 - **Best practices** Influence efficiency of teams and projects over a longer time scale, and can include fostering norms and behaviours that aren't explicitly enforced through the application. Amplifying best practices, great defaults and documentation play a significant role in this.
-- **Policy** controls that allows code review requirements to be set and enforced, going above and beyond amplifying and encouraging best practice.
+- **Policy** controls that allows code review requirements to be set and enforced, going above and beyond amplifying and encouraging best practice. We're partnering with the Compliance team to help [bring existing controls up to higher levels](https://gitlab.com/groups/gitlab-org/-/epics/4367) to make compliance easier across your organization.
 
 ### What's Next & Why
 
@@ -161,30 +162,25 @@ This section must provide a link to an issue or [epic](/handbook/product/product
 
 - **In Progress:** [Merge conflicts in diffs](https://gitlab.com/groups/gitlab-org/-/epics/4893)
 
-    Building upon our functionality for merge refs which was [shipped in GitLab 13.9](/releases/2021/02/22/gitlab-13-9-released/#merge-refs-for-changes-in-merge-requests). We're continuing to refine this area with improvements so that merge requests don't fall back to the merge base when conflicts are detected.
+    Building upon our functionality for merge refs which was [shipped in GitLab 13.9](/releases/2021/02/22/gitlab-13-9-released/#merge-refs-for-changes-in-merge-requests). We're continuing to refine this area with improvements so that merge requests don't fall back to the merge base when conflicts are detected and are instead displayed directly within the merge request.
 
-- **In Progress:** [Integration of Suggested Reviewers](https://gitlab.com/groups/gitlab-org/-/epics/6113) - Partnering with [Applied ML](https://about.gitlab.com/direction/modelops/applied_ml/) we're working to support users with reviewer suggestions on their merge requests.
+- **In Progress:** [Integration of Suggested Reviewers](https://gitlab.com/groups/gitlab-org/-/epics/6113) 
 
-- **In Review:** [Merge Requests that require my attention](https://gitlab.com/groups/gitlab-org/-/epics/5331)
+    Partnering with [Applied ML](https://about.gitlab.com/direction/modelops/applied_ml/) we're working to support users with reviewer suggestions on their merge requests.
 
-    Merge Request Reviewers allow users to explicitly ask people for a review of their contribution. However, when that user has finished the review, there is no clear signal to the author of the merge request (absent an approval.) There's also not a clear signal to the reviewer that the author has addressed their feedback and a new review is needed before the contribution can be accepted.
+- **In Progress:** [Improve code review (batch comments) experience](https://gitlab.com/groups/gitlab-org/-/epics/7362)
 
-    Identifying merge requests that are "waiting on you" will simplify the discovery of merge requests that require your attention and help to speed up cycle time so that users aren't wondering who the next person to take action is.
+    Understanding the state of a merge request and what needs to be done and who needs to take action is an important part of moving the merge request forward. We're currently focused on [designs for review rounds](https://gitlab.com/gitlab-org/gitlab/-/issues/354055) to further explore the merge request state and how we can communicate review cycles more easily to merge request participants.
 
-- **Later:** [👀 Track unread files in merge requests](https://gitlab.com/groups/gitlab-org/-/epics/1409)
+- **Later:**  [Expressive merge request comments](https://gitlab.com/groups/gitlab-org/-/epics/4349)
 
-    Large code reviews involving multiple files and lots of code require reviewers
-    accurately keep track of the files/code that has already been reviewed in order
-    to avoid duplicate effort.
-
-    Helping reviewers keep track of the files/code that has already been reviewed
-    will save time, eliminate duplication of work, and yield better code reviews.
+    Communicating the intent behind each comment left during a review is important for making it clear what needs to be addressed to make the improvement, and what can be addressed in future iterations. One way to solve this is with [conventional comments](https://gitlab.com/gitlab-org/gitlab/-/issues/216486) to correctly classifiy the feedback.
 
 #### Performance and Reliability Improvements
 
 - **In Progress:** [Better defined mergability](https://gitlab.com/groups/gitlab-org/-/epics/5598)
 
-    Mergeability checks are an essential part of the review process that ensure automated tasks and requirements are completed and approvals have been given prior to merge. Currently checks can span long running backend processes and some frontend confirmations, but these are not all implemented consistently which can result in improper or non-existent state for the merge button. Currently, [investigation](https://gitlab.com/gitlab-org/gitlab/-/issues/324381) in to possible paths forward has been discussed and this work will be the next area of ongoing improvement.
+    Mergeability checks are an essential part of the review process that ensure automated tasks and requirements are completed and approvals have been given prior to merge. Currently checks can span long running backend processes and some frontend confirmations, but these are not all implemented consistently which can result in improper or non-existent state for the merge button. New mergeability checks have been developed and we're currently working to [use these new checks for the merge widget](https://gitlab.com/gitlab-org/gitlab/-/issues/367965).
 
 - **In Progress:** [Restructure merge requests](https://gitlab.com/groups/gitlab-org/-/epics/5038)
 
@@ -265,7 +261,6 @@ internal surveys, or from your conversations with them.
 
 The highest priority customer requests are for improved application performance, accuracy and efficiency for reviewing merge request diffs of all sizes, small and extremely large.
 
-- [Track unread diffs, files, and discussions](https://gitlab.com/groups/gitlab-org/-/epics/1409) improves usability. Primarily improves **reviewer efficiency** by allowing reviews to be performed incrementally over multiple sittings, and better handling the iterative process of leaving feedback and the author proposing improvements.
 - [Merge request dependency improvements](https://gitlab.com/groups/gitlab-org/-/epics/5308) - some teams have complicated merge dependency requirements to ensure the appropriate code is merged when all dependent components are also merged.
 - [Support for large merge requests](https://gitlab.com/groups/gitlab-org/-/epics/1417) - the work in this area is broadly focused on both large changesets as well as general performance of the merge request. It's important that users have a performant experience when using merge requests in GitLab.
 
@@ -283,9 +278,10 @@ These are sourced from internal customers wanting to [dogfood](/handbook/values/
 What's the most important thing to move your vision forward?
 -->
 
-- **Investigating:** [Track unread merge request comments and commits](https://gitlab.com/groups/gitlab-org/-/epics/1409)
+- **In Progress:** [Better defined mergability](https://gitlab.com/groups/gitlab-org/-/epics/5598)
 
-    When reviewing a merge request with multiple commits, a large number of
-    changes, or that requires many revisions, it's hard to know what requires
-    your attention, and what you have previously reviewed. This is a factor in
-    making code review inefficient.
+    Mergeability checks are an essential part of the review process that ensure automated tasks and requirements are completed and approvals have been given prior to merge. Currently checks can span long running backend processes and some frontend confirmations, but these are not all implemented consistently which can result in improper or non-existent state for the merge button. New mergeability checks have been developed and we're currently working to [use these new checks for the merge widget](https://gitlab.com/gitlab-org/gitlab/-/issues/367965).
+
+- **In Progress:** [Restructure merge requests](https://gitlab.com/groups/gitlab-org/-/epics/5038)
+
+    The merge request interface is overwhelming and can be challenging to find the information you need to complete the tasks you're working on. We're exploring several areas to restructure information on the page, remove items where appropriate, and increase the focus on completing the important tasks for merge requests. 

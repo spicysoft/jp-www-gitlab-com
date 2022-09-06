@@ -88,7 +88,8 @@ Since GitLab is an [all remote](/company/culture/all-remote/) company we don't h
   - [Family Friendly Workplace Ordinance](https://sfgov.org/olse/sites/default/files/FileCenter/Documents/11256-FFWO%20Official%20Notice.pdf)
   - [Paid Parental Leave Ordinance](https://sfgov.org/olse/sites/default/files/2020%20parental%20leave%20poster%20Print.pdf)
   - [Salary History Ordinance](https://sfgov.org/olse/sites/default/files/Document/Consideration%20of%20Salary%20History%20Poster%20upload.pdf)
-    - [COVID-Related Employment Protections](https://sfgov.org/olse/sites/default/files/CEPO%20Poster%20-%20March%202021.pdf)
+  - [COVID-Related Employment Protections](https://sfgov.org/olse/sites/default/files/CEPO%20Poster%20-%20March%202021.pdf)
+  - [Public Health Emergency Leave](https://sfgov.org/olse/sites/default/files/Public%20Health%20Emergency%20Leave%20Poster%207.2022.pdf)
 
 ### Colorado
 * [Anti-Discrimination Laws](https://drive.google.com/file/d/1DzCt-JBN0zMdaet0MQrWTIz7TEOOYQV-/view)
@@ -312,6 +313,8 @@ Since GitLab is an [all remote](/company/culture/all-remote/) company we don't h
 [Public Employees Occuptional Safety and Health](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/wps35.pdf)
 * [New Jersey Misclassifiation Notice](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/mw-899b_%20520_missclassification%208x11.pdf)
 * [NJ Law Prohibits Discrimination in Employment](https://www.nj.gov/oag/dcr/downloads/posters/8x11_employmentposter.pdf)
+* [The Law Against Discrimination (LAD) Prohibits Discrimination and Harassment](https://www.njoag.gov/wp-content/uploads/2022/07/Employment.pdf)
+* [The New Jersey Family Leave Act (NJFLA)](https://www.njoag.gov/wp-content/uploads/2022/07/Family-Leave-Act.pdf)
 
 ### New Mexico
 * [Minimum Wage Act Summary](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/MWA_Summary_ENGL-2022.pdf)

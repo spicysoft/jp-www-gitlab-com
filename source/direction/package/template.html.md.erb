@@ -12,13 +12,13 @@ canonical_path: "/direction/package/"
 
 ### What's next and why
 
-Every day the container registry is used to publish and install hundreds of thousands of images. With the implementation of online garbage collection complete, we will focus on testing, deployment, and migration to the new registry. You can follow that work in [GitLab-#5523](https://gitlab.com/groups/gitlab-org/-/epics/5523). In the next month, we intend to complete the migration of the [Premium and Ultimate tiers](https://gitlab.com/gitlab-org/gitlab/-/issues/364566). 
+Every day the container registry is used to publish and install hundreds of thousands of images. With the implementation of online garbage collection complete, we will focus on testing, deployment, and migration to the new registry. You can follow that work in [GitLab-#5523](https://gitlab.com/groups/gitlab-org/-/epics/5523). In the next month, we intend to complete the migration of the [Premium and Ultimate tiers](https://gitlab.com/gitlab-org/gitlab/-/issues/364566).
 
-For the Package Registry, we we have a few technical investigations planned that will help unblock work in the second half of 2022. 
+For the Package Registry, we we have a few technical investigations planned that will help unblock work in the second half of 2022.
 
-- [GitLab-#898726](https://gitlab.com/gitlab-org/gitlab/-/issues/298726) will investigate how we can make it easier to migrate from Artifactory to GitLab. 
-- [GitLab-#296785](https://gitlab.com/gitlab-org/gitlab/-/issues/296785) will investigate how to add support for RPM Linux packages. 
-- [GitLab-#328738](https://gitlab.com/gitlab-org/gitlab/-/issues/328738) will investigate how to add package usage data to GitLab. 
+- [GitLab-#898726](https://gitlab.com/gitlab-org/gitlab/-/issues/298726) will investigate how we can make it easier to migrate from Artifactory to GitLab.
+- [GitLab-#296785](https://gitlab.com/gitlab-org/gitlab/-/issues/296785) will investigate how to add support for RPM Linux packages.
+- [GitLab-#328738](https://gitlab.com/gitlab-org/gitlab/-/issues/328738) will investigate how to add package usage data to GitLab.
 
 For the Dependency Proxy, we will resolve two bugs that are preventing some users from using the feature.
 
@@ -84,7 +84,7 @@ The primary reason people don’t use DockerHub is that they need a private regi
 
 Artifactory integrates with several different [CI servers through dedicated plug-ins](https://www.jfrog.com/confluence/display/RTF/Build+Integration), including Jenkins and Azure DevOps, but does not yet support GitLab. However, you can still connect to your Artifactory repository from GitLab CI. Here is an example of how to [deploy Maven projects to Artifactory with GitLab CI/CD](https://docs.gitlab.com/ee/ci/examples/README.md#contributed-examples).
 
-GitHub offers a [container registry](https://docs.github.com/en/packages/managing-container-images-with-github-container-registry) that supports Docker image formats. There are several nice features that they've included. One nice feature is that you can publish images to your namespace or your user account. We would like to create that same functionality via [gitlab-#241027](https://gitlab.com/gitlab-org/gitlab/-/issues/241027). Also, their user interface includes helpful metadata, such as how often it's downloaded and a readme. One concern worth raising is that we don't see a way to programmatically delete images. Given the cost of storing images, this could be a concern for organizations that heavily use GitHub's registry. Another limitation is that they only support authentication using your Personal Access Token. This is not ideal for organizations that would like to avoid using individual-level credentials. With the GitLab Container Registry, you may use a PAT, Deploy, or Job token to authenticate to the registry. According to the [Jet Brain's 5th Annual Developer Ecosystem survey](https://blog.jetbrains.com/space/2021/07/16/best-collaboration-tools/), GitLab is second to GitHub for artifact/package management. 
+GitHub offers a [container registry](https://docs.github.com/en/packages/managing-container-images-with-github-container-registry) that supports Docker image formats. There are several nice features that they've included. One nice feature is that you can publish images to your namespace or your user account. We would like to create that same functionality via [gitlab-#241027](https://gitlab.com/gitlab-org/gitlab/-/issues/241027). Also, their user interface includes helpful metadata, such as how often it's downloaded and a readme. One concern worth raising is that we don't see a way to programmatically delete images. Given the cost of storing images, this could be a concern for organizations that heavily use GitHub's registry. Another limitation is that they only support authentication using your Personal Access Token. This is not ideal for organizations that would like to avoid using individual-level credentials. With the GitLab Container Registry, you may use a PAT, Deploy, or Job token to authenticate to the registry. According to the [Jet Brain's 5th Annual Developer Ecosystem survey](https://blog.jetbrains.com/space/2021/07/16/best-collaboration-tools/), GitLab is second to GitHub for artifact/package management.
 
 Amazon offers a fully-featured registry and plans to [add support for highly available, publicly hosted images](https://aws.amazon.com/blogs/containers/advice-for-customers-dealing-with-docker-hub-rate-limits-and-a-coming-soon-announcement/).
 
@@ -141,7 +141,7 @@ GitHub offers a package management solution as well. They offer project-level pa
 
 GitHub charges for storage and network transfers. GitHub does a nice job with search and reporting usage data on how many times a given package has been downloaded. They do not have anything on their roadmap about supporting remote and virtual registries, which would allow them to group registries behind a single URL and allow them to act as a universal package manager, like Artifactory or Nexus or GitLab.
 
-[JetBrains](https://blog.jetbrains.com/platform/) offers a Package Registry with support for npm and more planned formats. They have an ambitious and exciting [roadmap for 2021](https://blog.jetbrains.com/space/2021/03/10/space-2021-roadmap/), including adding support for Maven, Python and PHP. It's interesting to see that they'd like to support signing of packages and virtual registries, two features we are interested in adding at Gitlab. 
+[JetBrains](https://blog.jetbrains.com/platform/) offers a Package Registry with support for npm and more planned formats. They have an ambitious and exciting [roadmap for 2021](https://blog.jetbrains.com/space/2021/03/10/space-2021-roadmap/), including adding support for Maven, Python and PHP. It's interesting to see that they'd like to support signing of packages and virtual registries, two features we are interested in adding at Gitlab.
 
 #### Dependency Proxy
 
@@ -232,9 +232,9 @@ GitHub's new package registry does a really nice job of creating visibility into
 
 #### Helm Chart repository
 
-Users or organizations that deploy complex pieces of software towards Kubernetes managed environments depend on a standardized way to automate provisioning those external environments. Helm is the package manager for Kubernetes and helps users define, manage, install, upgrade, and rollback even the most complex Kubernetes application. Helm uses a package format called Charts to describe a set of Kubernetes resources. 
+Users or organizations that deploy complex pieces of software towards Kubernetes managed environments depend on a standardized way to automate provisioning those external environments. Helm is the package manager for Kubernetes and helps users define, manage, install, upgrade, and rollback even the most complex Kubernetes application. Helm uses a package format called Charts to describe a set of Kubernetes resources.
 
-Helm charts are easy to create, version, share and publish right within GitLab. 
+Helm charts are easy to create, version, share and publish right within GitLab.
 
 ##### Usecases listed
 
@@ -244,7 +244,7 @@ Helm charts are easy to create, version, share and publish right within GitLab.
 
 ##### Competitive Landscape
 
-An important distinction between competitive products is that Helm 3 supports using an OCI container registry to as a Helm repository. However, this requires that you use Helm 3 in experimental mode, which may introduce other risks. 
+An important distinction between competitive products is that Helm 3 supports using an OCI container registry to as a Helm repository. However, this requires that you use Helm 3 in experimental mode, which may introduce other risks.
 
 * [Helm Hub](https://hub.helm.sh/)
 * [Artifactory](https://www.jfrog.com/confluence/display/RTF/Helm+Chart+Repositories)
@@ -254,16 +254,3 @@ An important distinction between competitive products is that Helm 3 supports us
 * [AWS*](https://docs.aws.amazon.com/AmazonECR/latest/userguide/push-oci-artifact.html)
 
 `*` requires using Helm 3 in experimental mode.
-
-#### Git LFS
-
-Git LFS (Large File Storage) is a Git extension, which reduces the impact of large files in your repository by downloading the relevant versions of them lazily. Specifically, large files are downloaded during the checkout process rather than during cloning or fetching..
-
-This page is maintained by the Product Manager for Package, Tim Rizzi ([E-mail](mailto:trizzi@gitlab.com)), however the prioritization, design and implementation of features and bugs is owned by the [Create:Source Code Group](/direction/create/source_code_management/).
-
-##### Use cases
-
-1. Version large files—even those as large as a couple GB in size—with Git.
-1. Automatically detect LFS-tracked files and clone them via HTTP
-1. Download less data. This means faster cloning and fetching from repositories that deal with large files.
-1. Host more in your Git repositories. External file storage makes it easy to keep your repository at a manageable size.

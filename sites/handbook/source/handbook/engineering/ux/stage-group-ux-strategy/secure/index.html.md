@@ -1,7 +1,7 @@
 ---
 layout: handbook-page-toc
 title: "Secure UX"
-description: "The Secure UX team helps provide the best UX in taking pre-emptive security measures before deploying code. The Protect UX team helps provide the best UX in keeping your app safe after code is in production."
+description: "The Secure UX team helps provide the best UX in taking pre-emptive security measures before deploying code. The Govern UX team helps manage overarching security policies, vulnerabilities, dependencies, and compliance."
 ---
 
 ## On this page
@@ -11,7 +11,7 @@ description: "The Secure UX team helps provide the best UX in taking pre-emptive
 {:toc .hidden-md .hidden-lg}
 
 ### Overview
-Secure tools help your team follow and enforce security best practices effortlessly as part of the DevOps cycle. The Secure UX team’s goal is to provide the best experience in taking pre-emptive security measures before deploying your code, while the [Protect UX](/handbook/engineering/ux/stage-group-ux-strategy/protect/) team’s goal is to provide the best experience in keeping your application safe after your code is in production. See the [Sec UX](/handbook/engineering/ux/stage-group-ux-strategy/sec/) page for more about our team and how our two teams work together.
+Secure tools help your team follow and enforce security best practices effortlessly as part of the DevOps cycle. The Secure UX team’s goal is to provide the best experience in taking pre-emptive security measures before deploying your code, while the [Govern UX](/handbook/engineering/ux/stage-group-ux-strategy/govern/) team’s goal is to provide the best experience in keeping your application safe after your code is in production. See the [Sec UX](/handbook/engineering/ux/stage-group-ux-strategy/sec/) page for more about our team and how our two teams work together.
 
 ### User
 We have different user types we consider in our experience design effort. Even when a user has the same title, their responsibilities may vary by organization size, department, org structure, and role. Here are some of the people we are serving:
@@ -42,4 +42,4 @@ In order to improve transparency and collaboration, we maintain single sources o
 
 
 ### Follow our work
-Our [Secure and Protect UX YouTube channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KrFCe5BgUkzFrZifjforQOz) includes UX Scorecard walkthroughs, UX reviews, group feedback sessions, team meetings, and more.
+Our [Secure and Govern UX YouTube channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KrFCe5BgUkzFrZifjforQOz) includes UX Scorecard walkthroughs, UX reviews, group feedback sessions, team meetings, and more.

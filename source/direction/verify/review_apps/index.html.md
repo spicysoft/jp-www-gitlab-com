@@ -55,6 +55,10 @@ implementing [One button to enable review apps, auto-edit `.gitlab-ci.yml`, auto
 
 Netlify Deploy Previews provide functionality similar to Review Apps and work with both GitLab and GitHub. Combined with their notifications capabilities this provides a compelling way to share a preview of changes with intersted stakeholders as they are happing. Netlify also provides the ability to let any user leave comments on these deploy previews as noted on the [Usability Direction Page](/direction/verify/usability_testing/#netlify-deploy-previews).
  
+### Vercel Previews
+
+Vercel is a newer product with a suite of features focused on the web developer, including Previews. Their product is compatible with GitLab, GitHub, and BitBucket. We are currently evaluating the Previews feature to understand if there are additional features we may consider for Review Apps. 
+
 ## Top Customer Success/Sales Issue(s)
  
 Customers utilizing microservice architectures find it challenging to manage the pre-production environments needed to validate changes before they are shipped. While Review apps are great for single services it can be difficult to support a microservice architecture like this or applicates in which multi project pipelines are utilized to deploy the service(s). Two issues designed to address some of these challenges with Review Apps are:

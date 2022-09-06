@@ -32,6 +32,7 @@ At GitLab, we believe that **every student and every teacher can contribute**! T
 |[#community-programs](https://gitlab.slack.com/messages/community-programs)| Communication regarding the GitLab for Education,GitLab for Open Source, and GitLab for Startups Programs.|
 |[#education-evangelism](https://gitlab.slack.com/messages/education-evangelism) | This channel is for sharing content and communication about education evangelism|
 |[#gitlab-for-campuses](https://gitlab.slack.com/messages/gitlab-for-campuses)| This channel is for discussing the GitLab for Campuses (paid) offering |
+|[#gitlab-alma-mater](https://gitlab.slack.com/archives/C03UN154SN6)| This channel is for discussing educational outreach to an alma mater and raising awareness about GitLab for Education |
 
 #### Pages
 
@@ -43,6 +44,7 @@ At GitLab, we believe that **every student and every teacher can contribute**! T
 | [Education Evangelism](/handbook/marketing/community-relations/education-program/education-evangelism) | Handbook |  Information on education evangelism processes and metrics.|
 | [Community Programs Applications Workflows ](/handbook/marketing/community-relations/community-operations/community-program-applications/) | Handbook | Workflow for processing GitLab for Education Program applications.|
 | [GitLab for Campuses ](/handbook/product/packaging-and-pricing/gitlab-for-campuses/)| Handbook | Process and details for the GitLab for Campuses offering. |
+| [Education Conferences](/handbook/marketing/community-relations/education-program/education-conferences)| Handbook | Processes and details regarding conferences|
 
 
 ## <i class="fa fa-map-marker" aria-hidden="true"></i> Mission
@@ -207,3 +209,12 @@ Any inbound request for a discounted or free license by a not-for-profit organiz
 ## The Gitlab for Education DevOps Guide
 
 Coming Soon!
+
+## Alma Mater Outreach Resources
+Alumni are an important part of every school's community. If you'd like to reach out to your alma mater about GitLab and collaborate with the GitLab for Education team here are a few ways to get started.
+
+* Email former professor you really liked and share information about our GitLab for Education Program. Email template coming soon.
+* Contact your alumni association about “Alumni updates" and share what you do at GitLab. 
+* Contact Student organizations you were in, especially if it's realted to tech in some way. 
+* Offer to visit your alma mater virtually to give an “Introduction to DevOps guest lecture” You can also refer them to an [Education Evangelist](/handbook/marketing/community-relations/education-program/education-evangelism)
+

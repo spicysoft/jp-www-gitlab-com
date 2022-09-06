@@ -1,9 +1,9 @@
 name: Katie Wilkinson
 locality:
 country: Remote
-role: <a href="/job-families/marketing/sales-development-representative/">Sales Development
-  Representative, AMER - Mid-Market</a>
-reports_to: meaghanthatcher
+role: <a href="/job-families/sales/smb-customer-advocate/">SMB Account Executive</a>
+
+reports_to: kendrapounds
 picture: katiewilkinson.JPG
 pronouns: she/her
 pronunciation:
@@ -11,9 +11,7 @@ twitter:
 linkedin:
 gitlab: katie.wilkinson
 departments:
-- Revenue Marketing
-- Marketing
-- Sales Development
+- Sales
 specialty: 
 expertise:
 story: 'Katie is originally from San Jose, California and currently resides in New York, New York. After graduating from Fordham University with a degree in marketing, Katie started her career in tech sales where she loves meeting new people, and learning something new every day. In her free time, Katie enjoys running around the city, discovering new restaurants, and listening to early 2000s hip-hop.'

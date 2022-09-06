@@ -86,8 +86,8 @@ TT220: GitLab Package, Configure, and Release
 >
 > 3 credit hours
 
-TT230: GitLab Manage, Monitor, and Protect
-> In this class, we will learn about manage, monitor, and protect functionality. Topics include how we allow engineering leaders to make proactive decisions to optimize their organizations and infrastructure.
+TT230: GitLab Manage, Monitor, and Govern
+> In this class, we will learn about manage, monitor, and govern functionality. Topics include how we allow engineering leaders to make proactive decisions to optimize their organizations and infrastructure.
 >
 > 3 credit hours
 

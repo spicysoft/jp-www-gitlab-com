@@ -172,41 +172,24 @@ Measuring what we do is very important to understand our impact and how we are a
 
 We are members of the [Community Relations team](/handbook/marketing/community-relations/).
 
-1. [Abubakar Siddiq Ango](/company/team/#abuango) - Developer Evangelism Program Manager
-    - DevSecOps with a focus on the Cloud Native Ecosystem
-        - Kubernetes
-        - CI/CD
-    - Program management
-        - Running the CFP process for conferences
-        - Organizing Developer evangelism team's content creation and repurposing efforts
-    - Language skills: English, Yoruba, Hausa
-1. [Brendan O'Leary](/company/team/#brendan) - Staff Developer Evangelist
-    - DevSecOps with a focus on the application developer perspective
-        - SCM
-        - GitOps
-        - CI
-        - .NET and Javascript communities
-    - Language skills: English
-1. [Michael Friedrich](/company/team/#dnsmichi) - Senior Developer Evangelist
-    - DevSecOps with a focus on the SRE, Ops and Sec engineers' perspective
-        - CI/CD
-        - Observability and Monitoring
-        - Infrastructure as Code and Security 
-    - Language skills: English, German, Austrian
-1. [John Coghlan](/company/team/#john-coghlan) - Manager, Developer Evangelism
-    - Developer Evangelism
-1. [Jamie Rachel](/company/team/#Jrachel1) - Evangelist Program Manager
-    - [Meetups](/community/meetups/) 
-    - [Heroes](/community/heroes/)
-1. [Fatima Sarah Khalid](/company/team/#sugaroverflow)
+| Team member |  Focus areas | Language skills | Projects | Technologies | Speaker Portfolio |
+|-------------|-------------|--------------|-------------|--------------|-------------------|
+| [Abubakar Siddiq Ango](/company/team/#abuango) <br/> Developer Evangelism Program Manager |  Program management, team content creation and repurpose. DevSecOps with a focus on the Cloud Native Ecosystem | English, Yoruba, Hausa | [DE Bot](/handbook/marketing/community-relations/developer-evangelism/projects/#developer-evangelism-bot), [Evangelists Dashboard](/handbook/marketing/community-relations/developer-evangelism/projects/#evangelist-dashboards) |  Kubernetes, CI/CD, Ruby, JavaScript, Rust | [Website](https://abuango.me/) | 
+| [Brendan O'Leary](/company/team/#brendan) <br/> Staff Developer Evangelist | DevSecOps with a focus on the application developer perspective | English | [CodeChallenge.dev](/handbook/marketing/community-relations/developer-evangelism/projects/#codechallengedev),  [Evangelists Dashboard](/handbook/marketing/community-relations/developer-evangelism/projects/#evangelist-dashboards)  | SCM, GitOps, CI, .NET, JavaScript, NodeJS, VueJS, Ruby | [Talks](https://boleary.dev/talks/), [Portfolio](https://boleary.dev/portfolio/), [cfps.dev](https://cfps.dev/u/brendan/events) | 
+| [Jamie Rachel](/company/team/#Jrachel1) <br/> Evangelist Program Manager | [Meetups](/community/meetups/), [Heroes](/community/heroes/) | English | [Beyond Code Series](/handbook/marketing/community-relations/evangelist-program/#beyond-code-series) | | | 
+| [John Coghlan](/company/team/#john-coghlan) <br/> Manager, Developer Evangelism | Strategy and Planning in Developer Evangelism | English | | | [Website](https://coghlan.me/) | 
+| [Fatima Sarah Khalid](/company/team/#sugaroverflow) <br/> Developer Evangelist | Community Engagement, DevSecOps | English | [Beyond Code Series](/handbook/marketing/community-relations/evangelist-program/#beyond-code-series) | CI, Verify, PHP, JavaScript | | 
+| [Michael Friedrich](/company/team/#dnsmichi) <br/> Senior Developer Evangelist | DevSecOps with a focus on the SRE, Ops and Sec engineers' perspective | English, German, Austrian | [EveryoneCanContribute cafe meetup](/handbook/marketing/community-relations/developer-evangelism/projects/#everyonecancontribute-cafe), [opsindev.news newsletter](/handbook/marketing/community-relations/developer-evangelism/projects/#opsindevnews-newsletter), [o11y.love](/handbook/marketing/community-relations/developer-evangelism/projects/#o11ylove) | CI/CD, Observability, SRE, IaC, Security, Python, Go, C/C++, Rust, Ruby | [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/talks/) , [cfps.dev](https://cfps.dev/u/dnsmichi/events) | 
+
 
 ### Stable counterparts 
 
 Inspired by GitLab's [collaboration value](/handbook/values/#collaboration), the Developer Evangelism team has chosen to align ourselves as [stable counterparts](/handbook/leadership/#stable-counterparts) with divisions outside of Marketing. The alignment is as follows: 
 
 - Alliances: [Abubakar Siddiq Ango](/company/team/#abuango)
-- Engineering and Product: [Michael Friedrich](/company/team/#dnsmichi)
+- Product: [Michael Friedrich](/company/team/#dnsmichi)
 - Sales: [Brendan O'Leary](/company/team/#brendan)
+- Engineering: ?
 
 As stable counterparts, Developer Evangelists are expected to actively engage with the divisions to identify collaboration opportunities and act as the primary point of contact for requests for DE support from these divisions.
 

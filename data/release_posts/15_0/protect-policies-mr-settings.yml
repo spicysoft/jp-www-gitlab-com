@@ -7,7 +7,7 @@ features:
       documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html#security-approvals'
       image_url: '/images/15_0/protect-scan-result-policies-in-mr-approval-settings.png'
       reporter: sam.white
-      stage: protect
+      stage: govern
       categories:
         - 'Security Orchestration'
       issue_url: 'https://gitlab.com/groups/gitlab-org/-/epics/7621'

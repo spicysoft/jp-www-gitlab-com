@@ -1,4 +1,14 @@
 ---
+- name: Turk Turk
+  picture: turkturk.png
+  human: Lauren Barker
+  story: 'Turk Turk will make you tremble in your boots if you set foot in his yard.
+    Moving faster than the unsuspecting elephant seal, he will bolt from underneath the
+    apple tree when your snagging the forbidden avocados in a flying waddle with talons out.
+    It''s moments like these you question the decisions that got you here. You''ve been
+    warned. Don''t mess with Turk Turk or his avocados on E st.
+
+    '
 - name: Vega
   picture: vega.png
   human: Brian Tabbert
@@ -1002,18 +1012,16 @@
     We now live in her world and submit to her every whim.
 
     '
-- name: Henry & Typhon
-  picture: MWHenryTyphon.jpeg
+- name: Henry & Peri
+  picture: MWHenryPeri.jpg
   human: Morgan Wilkins
-  story: 'Henry loves to snuggle and has no upper limit to the number of mountains
-    he can hike. Typhon thinks snuggling is too warm and would rather just lay around
-    on a pile of snow.
+  story: 'Henry and Peri are best friends and love to go on adventures together. They have climbed mountains, hiked through canyons, kayaked down the Colorado River, and snuggled on many nights in the tent.
 
     '
-- name: Willy
-  picture: MWWilly.jpeg
+- name: Willy & Nala
+  picture: MWWillyNala.jpg
   human: Morgan Wilkins
-  story: 'Willy only has one eye because if he had two he would conquer the world.
+  story: 'Willy only has one eye because if he had two he would conquer the world. Willy is in love with Nala, but Nala would prefer to play with her toys and snuggle in bed.
 
     '
 - name: Flora
@@ -2468,8 +2476,9 @@
 - name: Willow
   picture: willow-woolf.jpg
   human: Max Woolf
-  story: Willow is a, currently very small, labrador finding her way in the world.
-    Her days mostly involve napping, growing, eating and biting her brother's ears.
+  story: Willow is a Labrador who spends most of her day constantly on the move, chewing her brother's ears, or
+    barking at him. She is very intelligent and keen to learn everything except that sitting still is sometimes
+    fun.
 - name: Milo
   picture: milofilo.jpeg
   human: Megan Filo
@@ -2675,12 +2684,46 @@
 - name: Gobi
   picture: gobi.jpeg
   human: Inan Perillo
-  story: 'Gobi is the quietest cat in the world, only when he is asleep. When he is awake, he wants to be always at the center of the action. He is super curious, if an encyclopedia ever defines FOMO, his picture will be in it. Always a homeboy, he only ever gets out of the apartment when visiting his vet. He loves chin rubs, head scratches, and kisses and absolutely hates it when you touch his stubby tail. He is mischievous and quite vindictive, but he is also very vocal and affectionate, so he gets away with it most of the time. 
-
-    '
+  story: 'Gobi is the quietest cat in the world, only when he is asleep. When he is awake, he wants to be always at the center of the action. He is super curious, if an encyclopedia ever defines FOMO, his picture will be in it. Always a homeboy, he only ever gets out of the apartment when visiting his vet. He loves chin rubs, head scratches, and kisses and absolutely hates it when you touch his stubby tail. He is mischievous and quite vindictive, but he is also very vocal and affectionate, so he gets away with it most of the time.'
+- name: Pepper
+  picture: pepperjh.png
+  human: Raimund Hook
+  story: Pepper is a Miniature Schnauzer who can't decide whether she is a cat or a dog. She 
+    loves long walks (preferably in the park/ without a lead - she runs away from that!), 
+    cycling on her buddy rider, barking at passers by and snoozing.
+- name: Midna
+  picture: midna.jpg
+  human: Alex Pennells
+  story: Midna is a Sphynx that has no problem demanding attention at any time of the day.
+    She can typically be found snoozing under blankets, sitting in a windowsill or
+    darting outside anytime a door opens.
+- name: Harley
+  picture: harley2.jpg
+  human: Alex Pennells
+  story: Harley is a German Shephard/Collie mix who oddly prefers the great indoors,
+    due to her deadly fear of flies. She does enjoy venturing out to play in the snow
+    during the winter, free from the terror of flying pests.
+- name: Venom
+  picture: venom.png
+  human: Alex Pennells
+  story: Venom is a Border Collie/Golden Retriever mix who likes to push boundaries.
+    He understands the word 'no', but he also knows how to ignore it. He can typically be
+    found eating anything you left on the counter, whether it's actually edible doesn't matter.
+- name: Jynx
+  picture: jynx.png
+  human: Alex Pennells
+  story: Jynx is a Beagle/Boston Terrier mix who is terrified of being left alone.
+    She can typically be found sleeping under blankets, sunbathing,
+    or demanding that you play fetch with her.
+- name: Cooper
+  picture: CooperRoberts.png
+  human: Lauren Roberts
+  story: 'Cooper is the cutest almost one year old black lab. He loves listening to Taylor Swift with him mom, watching Clemson football with this dad and snacking on carrots and blueberries while mom takes calls.'
+- name: Fynn
+  picture: fynn.jpg
+  human: Jess Perry
+  story: Well, hi there! I'm fun-loving Fynn. I'm an 8 month old red tri Australian Shepherd and live in Southern California with my mom, some other pups at the house, and lizard siblings. I love to run, play ball, play tug of war, rip up my stuffed animals, and chase my frisbee. I get to spend my afternoons and weekends hiking and playing with my new friends at the dog park. I also spend a lot of time in the garden with my mom where I'm on squirrel duty and take that job very seriously, even though I have yet to catch one. I hate when mom is working and won't pay attention to me!
 - name: You?
   picture: "../../gitlab-logo-extra-whitespace.png"
   human:
-  story: Want to see your name and picture here? Ask your owner/servant to check out
-    our latest <a href="https://about.gitlab.com/jobs/">job openings</a>!
-
+  story: Want to see your name and picture here? Ask your owner/servant to check out our latest <a href="https://about.gitlab.com/jobs/">job openings</a>!

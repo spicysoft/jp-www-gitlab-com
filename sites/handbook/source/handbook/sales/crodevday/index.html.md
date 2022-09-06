@@ -1,7 +1,7 @@
 ---
 layout: handbook-page-toc
-title: "CRO Development Day"
-description: "CRO Development Day is a direct result of the feedback we received from you in our FY22 Engagement Survey on Career Development. It will include time to think big about your career, hear from team members across GitLab, and guidance to help you get your plan into writing and talk about it with your manager."
+title: "CRO Career Development Day"
+description: "CRO Career Development Day is a direct result of the feedback we received from you in our FY22 Engagement Survey on Career Development. It will include time to think big about your career, hear from team members across GitLab, and guidance to help you get your plan into writing and talk about it with your manager."
 ---
 
 {::options parse_block_html="true" /}
@@ -15,7 +15,7 @@ description: "CRO Development Day is a direct result of the feedback we received
 ## CRO Career Development Day
 The CRO team will dedicate an entire day to particpate in workshops and round table discussions to help all team members plan their career path.  In addition to using the day to learn, engage, and plan with peers and managers, each team member will have a written and agreed career plan built in collaboration with their manager. This includes both long term objectives as well as near-term milestones, goals, and key capabilites to learn.
 
-###FY23 Date - September 14th 
+### FY23 Date - September 14th 
 
 ### Opening session
 The opening session will feature an interactive conversation with our CRO covering the following:

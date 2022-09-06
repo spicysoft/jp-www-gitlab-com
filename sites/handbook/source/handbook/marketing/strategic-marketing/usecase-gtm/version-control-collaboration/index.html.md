@@ -50,7 +50,7 @@ Source Code Management is more than simply tracking changes, versions, and branc
 - Tracking approvals of proposed changes
 - Resolving merge conflicts and related anomalies
 
-In general, [version control](https://about.gitlab.com/solutions/version-control/) is required because software is constantly changing. Regardless of the stage of development, there will be change to deal with.
+In general, [version control](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) is required because software is constantly changing. Regardless of the stage of development, there will be change to deal with.
 
 > No matter where we are in the system life cycle, the system will change, and the desire to change it will persist throughout the life cycle.
 
