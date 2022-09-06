@@ -1,0 +1,16 @@
+---
+features:
+  primary:
+  - name: "Allow Group Owners to Selectively Bypass Email Validation using a Group
+      Verified Domain"
+    available_in: [ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
+    reporter: hsutor
+    stage: manage
+    categories:
+    - Authentication and Authorization
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/238461'
+    description: |
+      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
