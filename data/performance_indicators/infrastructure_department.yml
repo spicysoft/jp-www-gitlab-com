@@ -1,7 +1,7 @@
 - name: Infrastructure Budget Plan vs Actuals
   base_path: "/handbook/engineering/infrastructure/performance-indicators/"
   parent: "/handbook/engineering/performance-indicators/#engineering-budget-plan-vs-actuals"
-  definition: We need to spend our investors' money wisely. We also need to run a responsible business to be successful, and to one day go on the public market. <a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11464">Latest data is in Adaptive, data team importing to Sisense in FY22Q2</a>
+  definition: We need to spend our investors' money wisely. We also need to run a responsible business to be successful. <a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11464">Latest data is in Adaptive, data team importing to Sisense in FY22Q2</a>
   target: Identified in Sisense Chart
   org: Infrastructure Department
   is_key: false
