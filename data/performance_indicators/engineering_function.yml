@@ -12,7 +12,7 @@
 - name: Engineering Budget Plan vs Actuals
   base_path: "/handbook/engineering/performance-indicators/"
   definition: We need to spend our investors' money wisely. We also need to run a
-    responsible business to be successful, and to one day go on the public market.
+    responsible business to be successful.
   target: Confidential, in Adaptive
   org: Engineering Function
   is_key: false
