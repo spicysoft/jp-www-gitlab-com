@@ -3,15 +3,17 @@ locality:
 country: Remote
 role: <a href="">Technical Account Manager</a>
 reports_to: taylorlund
-picture: ../gitlab-logo-extra-whitespace.png
+picture: georgemarino.jpg
 pronouns:
 pronunciation:
-twitter:
-linkedin:
+twitter: 
+linkedin: georgegmarino
 gitlab: gmarino-gitlab
 departments:
   - Customer Success
-specialty: ""
+  - Sales
+specialty: 
 expertise:
-story:
+story: 'George is an experienced Customer Success Engineer based in Cambridgeshire, United Kingdom. His career has been dedicated to helping his customers achieve the highest level of success. George has deep subject matter expertise on GitLab technical and product solutions and best practices. In his off time, George enjoys walks, gaming with friends (board and video), hanging out with his family, and watching the latest Sci-Fi movie or TV show.
 
+'
