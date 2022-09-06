@@ -13,8 +13,10 @@ departments:
   - Quality Department
   - Engineering Function
   - Contributor Success Team
+  - Merge Request Coach
 specialty: ""
-expertise:
+expertise: |
+  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
 story: Raimund has been preaching the DevOps mindset for several years. He also strongly believes 
   that everybody can (and should) be contributing to open source. He loves spending time with his 
   family, pulling a freshly-baked sourdough out of the oven, and putting his feet up with his XBox.
