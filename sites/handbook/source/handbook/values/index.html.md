@@ -594,11 +594,20 @@ It is far more efficient to read a document at your convenience than to have to 
 {:.no_toc}
 Team members should first [search for their own answers](/company/culture/all-remote/self-service/) and, if an answer is not readily found or the answer is not clear, ask in public as we all should have a [low level of shame](/handbook/values/#low-level-of-shame). [Write down any new information discovered](/handbook/values/#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
 
-##### 適材適所の効率化 {#efficiency-for-the-right-group}
+##### 正しい相手のために効率化をする {#efficiency-for-the-right-group}
 {:.no_toc}
-Optimize solutions globally for the broader GitLab community. Making a process efficient for one person or a small group may not be the efficient outcome for the whole GitLab community. As an example, it may be best to discard a renewal process that requires thousands of customers to each spend two hours in favor of one that only takes sixty seconds, even when it may make a monthly report less efficient internally! In a decision, ask yourself "For whom does this need to be most efficient?" Quite often, the answer may be your users, contributors, customers, or team members that are dependent upon your decision.
+GitLabコミュニティ全体のために最適化された解決策をとってください。
+特定の人間やグループにとっての効率を求めることは、GitLabコミュニティ全体にとっては非効率になることがあります。
+例えば、社内の月次レポート業務の生産性が落ちてもいいので、何千人もの顧客にとって、60秒で済んでいたことが2時間もの負担がかかるようなアップデートは辞めるべきです。
 
-It is easy to prioritize consistency over efficiency because consistency is often more efficient initially. We should slow down when optimizing for consistency. Taking a company-wide lens when evaluating changes will help ensure that new processes will improve efficiency for GitLab as a whole and be the best decision for the company as a whole.
+意思決定をする時には「誰のために効率的であるべきか？」を自問自答してください。
+基本的には、意思決定の影響をうけるユーザー、コントリビューター、顧客、同僚のためであるべきでしょう。
+
+最初は一貫性のある方が効率的になることが多いので、効率よりも一貫性を優先してしまいがちです。
+一貫性を保つことが優先されているのであれば、立ち止まってください。
+
+何かを改変する時は、全社的視点を持ってください。
+そうすれば、GitLab全体の効率が向上し、会社全体にとって最善の決定になります。
 
 ##### 他人の時間を尊重する {#be-respectful-of-others-time}
 {:.no_toc}
