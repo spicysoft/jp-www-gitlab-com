@@ -51,7 +51,7 @@
 /data/tech_stack.yml @rrea1
 
 ^[CEO and Chief of Staff Team]
-/sites/handbook/source/handbook/ceo/ @sytses @cheriholmes
+/sites/handbook/source/handbook/ceo/ @sytses @streas
 /sites/handbook/source/handbook/ceo/chief-of-staff-team/ @streas
 /sites/handbook/source/handbook/ceo/chief-of-staff-team/jihu-support/ @streas @jeromezng
 /sites/handbook/source/handbook/leadership/ @sytses @streas
@@ -417,7 +417,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/marketing/strategic-marketing/technical-marketing/ @davistye @dsteer
 /sites/handbook/source/handbook/marketing/smb-marketing/ @ikryzeviciene @zbadgley @warias @supadhyaya @dsteer
 /sites/handbook/source/handbook/marketing/project-management-guidelines/ @johncoghlan @jgragnola @davistye @supadhyaya
-/sites/handbook/source/handbook/marketing/readmes/ @dmurph
+/sites/handbook/source/handbook/marketing/readmes/ @akramer @mpreuss22
 /sites/handbook/source/handbook/marketing/revenue-marketing/ @akramer
 /sites/handbook/source/handbook/marketing/team-member-social-media-policy/ @wspillane @rchachra @nwoods1 @robin @award4
 /sites/handbook/source/handbook/marketing/blog/ @vsilverthorne @akramer
