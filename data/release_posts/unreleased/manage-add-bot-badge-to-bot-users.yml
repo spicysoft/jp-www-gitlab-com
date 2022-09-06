@@ -1,0 +1,14 @@
+---
+features:
+  secondary:
+  - name: "Add Bot Badge to Bot Users"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: hsutor
+    stage: manage
+    categories:
+    - Authentication and Authorization
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/330350'
+    description: |
+      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
