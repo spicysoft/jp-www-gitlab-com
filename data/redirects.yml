@@ -4555,5 +4555,13 @@
   - /handbook/engineering/incubation/devops-for-mobile/index.html
   target: /handbook/engineering/incubation/mobile-devops/
   comp_op: '='
-
-
+- sources:
+  - /handbook/marketing/readmes/dmurph
+  - /handbook/marketing/readmes/dmurph/
+  target: /handbook/ceo/chief-of-staff-team/readmes/dmurph/
+  comp_op: '='
+- sources:
+  - /handbook/marketing/readmes/jessicareeder
+  - /handbook/marketing/readmes/jessicareeder/
+  target: /handbook/ceo/chief-of-staff-team/readmes/jessicareeder/
+  comp_op: '='
