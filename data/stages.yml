@@ -224,7 +224,7 @@ stages:
         name: Project Management
         pm: Gabe Weaver
         focus: Plan Project Management Paid GMAU
-        pmm: Cormac Foster
+        pmm: 
         cm: Suri Patel
         backend_engineering_manager: Donald Cook
         frontend_engineering_manager: Donald Cook
@@ -264,7 +264,7 @@ stages:
         name: Product Planning
         pm: Melissa Ushakov
         focus: Plan Product Planning Paid GMAU
-        pmm: Cormac Foster
+        pmm: 
         cm: Suri Patel
         backend_engineering_manager: Kushal Pandya
         frontend_engineering_manager: Kushal Pandya
@@ -304,10 +304,10 @@ stages:
         name: Certify
         pm: Melissa Ushakov
         focus: Plan Certify Paid GMAU
-        pmm: Cormac Foster
+        pmm: 
         cm: Suri Patel
-        backend_engineering_manager: John Hope
-        frontend_engineering_manager: John Hope
+        backend_engineering_manager: Jarka Košanová
+        frontend_engineering_manager: Jarka Košanová
         be_team_tag: Plan:Certify BE Team
         fe_team_tag: Plan:Certify FE Team
         handbook: product/categories/plan/
