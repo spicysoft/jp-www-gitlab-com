@@ -58,7 +58,7 @@ One of the most frequent questions we get as part of this experiment is "How doe
 To help with getting items that on the list for consideration, we will be performing a survey periodically.  The survey will consist of the following questions:
 
 1. If you were given a % of engineering development per release to work on something, what would it be?
-1. How would you justify it?
+1. How would you justify it?  Have you tried leveraging [cross-functional prioritization process](/handbook/product/cross-functional-prioritization/) before considering an engineering allocation?
 
 We will keep the list of questions short to solicit the most input.  The survey will go out to members of the Development, Quality, Security.  After we get the results, we will consider items for potential adding as an Engineering Allocation.
 
