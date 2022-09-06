@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Integrate Shimo as Wiki Alternative"
+  - name: "Integrate Shimo as a wiki alternative"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/shimo.html' # Waiting on MR https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96436
