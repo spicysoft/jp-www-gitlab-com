@@ -1,8 +1,8 @@
 ---
 features:
   secondary:
-  - name: "[User Availability] Schedule unsetting status from the user profile page"
-    available_in: [premium, ultimate]
+  - name: "Schedule unsetting status from the user profile page"
+    available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
     reporter: lohrc
@@ -11,4 +11,4 @@ features:
     - User Profile
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/325223'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      Users are now able to schedule unsetting their status from the user profile page. This was previously only possible via the set status modal.
