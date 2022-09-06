@@ -90,6 +90,7 @@ There is no one formula for this challenge, which all maturing organizations fac
 ### FY23 Key Initiatives
 
 #### Scale up GitLab's release notes workflow and design
+
 _Supports [Outcome driven products](#operationalizing-outcome-driven-products)_
 
 🏹 **Automate the release post workflow to communicate product release notes more efficiently.**  
@@ -98,9 +99,11 @@ _Supports [Outcome driven products](#operationalizing-outcome-driven-products)_
 
 **How are we measuring success?**
 
-- Reduce [documentation of the Release Post](https://about.gitlab.com/handbook/marketing/blog/release-posts/) from 18,623 words to 12,000 words
-- Reduce number of manual tasks in the [monthly release post MR template] from X to X
-- Increase percent of automated ~"release post item" MRs from X to X
+- Reduce [documentation of the Release Post](https://about.gitlab.com/handbook/marketing/blog/release-posts/) from 18,623 words to 10,000 words
+- Reduce number of manual release post manager tasks in the [monthly release post MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md) from ~120 to 10
+- Increase percent of automated ~"release post item" MRs from 32% to 51%
+  - [Manual 68%](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?scope=all&state=merged&label_name[]=release%20post%20item&deployed_after=2021-01-01&not[author_username]=gitlab-bot&deployed_before=2022-09-01)
+  - [Automated 32%](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?scope=all&state=merged&label_name[]=release%20post%20item&deployed_after=2021-01-01&deployed_before=2022-09-01&author_username=gitlab-bot)
 
 **Improve design of release notes and related documentation such as deprecations, removals and migrations** 
 
@@ -108,7 +111,8 @@ _Supports [Outcome driven products](#operationalizing-outcome-driven-products)_
 
 **How are we measuring success?**
 
- - Reduce number of release pages needed to find/review release notes from X to X.
+- Reduce Deprecations and Removals documentation pages from 2 to 1
+- Develop mechanism to send opt-in Breaking Changes notifications via email
 
 #### Grow GitLab's post purchase survey
 _Supports [Feedback loops](#building-qualitative--quantitative-feedback-loops)_
