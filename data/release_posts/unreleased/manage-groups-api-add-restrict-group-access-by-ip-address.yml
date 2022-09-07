@@ -11,4 +11,4 @@ features:
     - System Access
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/351493'
     description: |
-      Previously, IP address restrictions could only be configured in the UI. Now, you can add a comma seperated list of IP addresses or subnet masks via the API, allowing you to do this programatically.
+      Previously, IP address restrictions could only be configured in the GitLab UI. Now, you can add a comma separated-list of IP addresses or subnet masks using the API. This allows you to configure IP address restrictions programatically.
