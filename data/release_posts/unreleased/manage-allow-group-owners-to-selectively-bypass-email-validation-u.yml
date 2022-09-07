@@ -1,7 +1,7 @@
 ---
 features:
   primary:
-  - name: "Provisioned users matching verified domain bypass email validation"
+  - name: "Users on verified domains can bypass email validation"
     available_in: [silver, gold]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
