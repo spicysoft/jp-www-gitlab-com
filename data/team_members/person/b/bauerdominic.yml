@@ -24,7 +24,5 @@ projects:
   gitlab:
   - reviewer backend
   - reviewer database
-  secure-container-scanning:
-  - reviewer backend
-  - maintainer backend
+  secure-container-scanning: maintainer backend
 
