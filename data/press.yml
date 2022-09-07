@@ -1,5 +1,65 @@
 recent_news:
 
+  - title: "Security Boulevard: Application Security Responsibility Shifting Further Left"
+    logo: /images/press/security-boulevard-logo.png
+    link: "https://securityboulevard.com/2022/09/application-security-responsibility-shifting-further-left/"
+    date: 2022-09-01
+
+  - title: "DevOps.com: GitLab Research Shows Security Concerns in DevOps Teams"
+    logo: /images/press/devops-dot-com-logo.png
+    link: "https://devops.com/gitlab-research-shows-security-concerns-in-devops-teams/"
+    date: 2022-08-30
+
+  - title: "CyberSecurity Dive: Cybersecurity spending strategies in uncertain economic times"
+    logo: /images/press/cybersecurity-dive-logo.png
+    link: "https://www.cybersecuritydive.com/news/cybersecurity-spending-budget-strategy/630488/"
+    date: 2022-08-25
+
+  - title: "HelpNetSecurity: Is security becoming a priority for DevOps teams?" 
+    logo: /images/press/helpnetsecurity-logo.png
+    link: "https://www.helpnetsecurity.com/2022/08/24/devops-adoption-security/"
+    date: 2022-08-24
+
+  - title: "ExecutiveBiz: GitLab Survey Finds Public Sector Lags Behind Industry in Software Delivery"
+    logo: /images/press/ExecutiveBiz-logo.png
+    link: "https://blog.executivebiz.com/2022/08/gitlab-survey-says-public-sector-lags-behind-industry-in-software-delivery/"
+    date: 2022-08-24
+
+  - title: "GCN: County assessor’s code repository powers transparent government"
+    logo: /images/press/gcn-logo.jpeg
+    link: "https://www.gcn.com/cloud-infrastructure/2022/08/county-assessors-code-repository-powers-transparent-government/376220/"
+    date: 2022-08-23
+
+  - title: "MSSP Alert: Security Priorities are Critical Across Rapid DevOps Adoption, GitLab Reports"
+    logo: /images/press/mssp-alert-logo.jpeg
+    link: "https://www.msspalert.com/cybersecurity-news/security-priorities-are-critical-across-rapid-devops-adoption-gitlab-reports/"
+    date: 2022-08-23
+
+  - title: "SDXCentral: GitLab Survey Shows Dev-Sec Tensions Amid Shift-Left Push"
+    logo: /images/press/sdxcentral-logo.svg
+    link: "https://www.sdxcentral.com/articles/news/gitlab-survey-shows-dev-sec-tensions-amid-shift-left-push/2022/08/?hit=07c1026d-58d2-4ad7-bac5-c4b41d70f538&utm_campaign=twitter&utm_medium=social&utm_source=sdx.io"
+    date: 2022-08-23
+
+  - title: "NextGov: Survey: Security Continues to be Major Factor for DevOps Platforms"
+    logo: /images/press/nextgov-logo.png
+    link: "https://www.nextgov.com/cxo-briefing/2022/08/survey-security-continues-be-major-factor-devops-platforms/376178/"
+    date: 2022-08-23
+
+  - title: "NPR: A new work anxiety: Will I be penalized for working from home?"
+    logo: /images/press/npr-logo.png
+    link: "https://www.npr.org/2022/08/18/1111157591/return-to-office-career-job-work-from-home-punish"
+    date: 2022-08-18
+
+  - title: "Protocol: Apple wants workers back in the office. Is your company next?"
+    logo: /images/press/protocol-logo.png
+    link: "https://www.protocol.com/newsletters/protocol-workplace/apple-hybrid-work?rebelltitem=5#rebelltitem5"
+    date: 2022-08-18
+
+  - title: "The New Stack: Embracing Open Source for Greater Business Impact"
+    logo: /images/press/the-new-stack-logo.svg
+    link: "https://thenewstack.io/embracing-open-source-for-greater-business-impact/"
+    date: 2022-08-17
+
   - title: "ExecutiveBiz: Industry Vets Janelle Romano, Patty Molthen Appointed to GitLab’s Federal Advisory Board"
     logo: /images/press/ExecutiveBiz-logo.png
     link: "https://blog.executivebiz.com/2022/08/janelle-romano-patty-molthen-appointed-to-gitlabs-federal-advisory-board/"
