@@ -37,7 +37,7 @@ html_lang: "ja"
 
 If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format. If you are not comfortable reaching out to the individual directly, please reach out to your direct manager or People Business Partner to discuss.
 
-## Communicating Potentially Sensitive Topics  {#communicating-potentially-sensitive-topics-}
+## Communicating Potentially GitLab Sensitive Topics {#communicating-potentially-gitlab-sensitive-topics}
 
 (This guidance supplements and overlaps with [GitLab's SAFE Framework](/handbook/legal/safe-framework/), the guidance on the use of [the internal handbook](/handbook/handbook-usage/#the-internal-handbook), and the additional guidance on this page. We ask our team members to consider the factors below in their communication. )
 
@@ -45,7 +45,11 @@ As GitLab matures, we want to continue to foster discussion while evolving our c
 
 Words have impact long after they are written, and even when you're communicating internally, the manner in which you speak with one another should be viewed through an external lens. For additional information, please review our [Guidelines for communicating effectively and responsibly through text](/company/culture/all-remote/effective-communication/).
 
-### Examples of Potentially Sensitive Topics {#examples-of-potentially-sensitive-topics}
+### Confidentiality levels
+
+At GitLab, we are [public by default](/handbook/values/#public-by-default), but some information is classified as internal or limited access. Please see the [confidentiality levels](/handbook/communication/confidentiality-levels/) handbook page for details on this.
+
+### Examples of Potentially GitLab Sensitive Topics {#examples-of-potentially-gitLab-sensitive-topics}
 
 1. Team member data (individual performance, start dates, departures)
 1. Violations, or potential violations, of policies and/or local rules and regulations

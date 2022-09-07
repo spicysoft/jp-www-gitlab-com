@@ -102,8 +102,7 @@ For more on this topic, I've shared [17 questions that this role answers](https:
 ### Related pages
 
 * [Why we believe all-remote is for everyone](/blog/2019/08/15/all-remote-is-for-everyone/)
-* [All-Remote Marketing job family description](/job-families/marketing/all-remote-marketing/)
-* [All-Remote Marketing mission statement, audience, objectives, and goals](/handbook/marketing/corporate-marketing/#all-remote-marketing)
+* [GitLab Strategy and Operations (Workplace) Team mission statement, audience, objectives, and goals](/handbook/ceo/chief-of-staff-team/workplace/)
 * [Darren's GitLab team page entry](/company/team/#dmurph)
 * [Darren's GitLab contribution graph](https://gitlab.com/dmurph)
 * [Darren's LinkedIn profile](https://www.linkedin.com/in/darrenmurph/)
@@ -242,4 +241,4 @@ I'm a southpaw (left-handed player) and my wife is right-handed, which explains 
 1. Gibson Les Paul Standard // black / rosewood fretboard // left-handed
 1. Warrior Gabriel custom shop // pearl white // ebony fretboard with custom "_...loved..._" pearl inlays // right-handed
 
-Return to the main [Marketing handbook section](/handbook/marketing/).
+Return to the main [Chief of Staff Team to the CEO handbook section](/handbook/ceo/chief-of-staff-team/).

@@ -10,7 +10,7 @@ canonical_path: "/direction/plan/certify/"
 
 ## Certify Group
 
-**Last Updated:** 2022-05-02
+**Last Updated:** 2022-09-06
 
 This is the direction page for the Certify group, which is part of the [Plan stage](/direction/plan/) of the DevOps life cycle and is resposible for the following categories:
 
@@ -24,13 +24,13 @@ This is the direction page for the Certify group, which is part of the [Plan sta
 
 *The Certify team is migrating existing requirements data and awaiting the Work Items implementation before migrating Requirements to the new Work Item standard. As this effort is evolving, we have prioritized rolling out our [confidential notes MVC](https://gitlab.com/groups/gitlab-org/-/epics/7407). We believe that this update will add significant value across all issues and epics, as well as greatly benefit Service Desk functionality.*
 
-Given the surface area of the Certify team, and sharing [engineering resources](https://about.gitlab.com/handbook/engineering/development/dev/plan-product-planning-certify-be/) with the Product Planning team, aggressive prioritization is necessary. As such, the following is a breakdown of our current level of effort spent on each category and why.
+Given the surface area of the Certify team, aggressive prioritization is necessary. As such, the following is a breakdown of our current level of effort spent on each category and why.
 
-#### Requirements Management: Allocation: 45+%
+#### Requirements Management: Allocation: 65+%
 
 As discussed in our [certify goals](#current-certify-goals), we believe that we can make the largest positive impact to our customers by supporting requirement decomposition and traceability from within GitLab, so we are devoting the bulk of our resources to these areas.
 
-#### Quality Management: Allocation 45+%
+#### Quality Management: Allocation 25+%
 
 In conjunction with Requirements Management, tracing requirements to test cases aligns closely with our vision to have work for software requirements down to test cases developed and tracked within GitLab.
 

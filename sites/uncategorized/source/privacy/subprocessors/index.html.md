@@ -37,6 +37,7 @@ When acting as a processor for Customer, Gitlab may engage the following entitie
 |Zendesk Inc.|Germany|Support Services|
 |Elasticsearch Inc.|United States|Search Functionality|
 |Cloudflare Inc.|United States and European Union|Content Delivery Network|
+|Mailgun Technologies, Inc.|United States and European Union|Transactional Email APIs|
 
 ### Professional Services Sub-processors
 _These Sub-processors only apply in the event Customer has entered into a [Professional Services Agreement](https://about.gitlab.com/handbook/legal/professional-services-agreement/) with GitLab._

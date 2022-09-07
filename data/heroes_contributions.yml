@@ -1,10 +1,18 @@
 recent_contributions:
+
   - title: "Implement /ready quick action"
     contributor: Raimund Hook
     type: Code
     logo: /images/heroes/contribution-icons/code.png
     link: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/90361
     date: 2022-06-16
+
+  - title: "🇫🇷 Les GitLab Heroes parlent de la release 15"
+    contributor: Christophe Chaudier, Philippe Charrière, Kevin Davin et Jean-Philippe Baconnais
+    type: Video
+    logo: /images/heroes/contribution-icons/video.png
+    link: https://www.youtube.com/watch?v=TfKAx9jqsHk
+    date: 2022-06-01
 
   - title: "Improve tw:codeowners task"
     contributor: Niklas van Schrick

@@ -1,0 +1,121 @@
+title: New10
+file_name: new10
+canonical_path: /customers/new10/
+cover_image: /images/blogimages/new-ten-euro.jpg
+cover_title: |
+  How New10 deploys 3 times faster with GitLab
+cover_description: |
+  New10 found startup success using GitLab as a single platform for SCM, CI/CD, and AWS integration.
+twitter_image: /images/opengraph/Case-Studies/new10.png
+twitter_text: Learn how New10 deploys three times faster with GitLab.
+customer_logo: /images/case_study_logos/new10.svg
+customer_logo_css_class: brand-logo-tall
+customer_industry: Financial Services
+customer_location: the Netherlands
+customer_solution: GitLab Gold
+customer_employees: 100 
+customer_overview: |
+  New10 wanted a solution that could provide version control and code ownership for engineers to deploy quickly and safely. 
+customer_challenge: |
+  As a startup, New10 needed a CI/CD and SCM platform to get up and running efficiently.
+
+key_benefits: >-
+
+  
+    CI/CD  
+
+  
+    Jira integration
+
+  
+    Kubernetes integration
+
+  
+    AWS integration
+
+  
+    Tableau integration
+
+  
+    Workflow efficiency
+
+  
+    Accelerated release times
+
+  
+    Built-in security scanning
+
+customer_stats:
+  - stat: 3x   
+    label: Deployment speed
+  - stat: 0      
+    label: Context switching 
+  - stat: 20x      
+    label: Cycle time reduction
+customer_study_content:
+  - title: the customer
+    subtitle: Growing FinTech start-up 
+    content: >-
+    
+  
+        New10 is a digital financial lender based in the Netherlands offering loans to small and medium sized enterprises. [New10](https://new10.com) is 100% a subsidiary of ABN AMRO Bank N.V., combining the speed and innovation capacity of a start-up with the expertise and security of a bank. The FinTech start-up helps entrepreneurs to accelerate business growth with fully digital financial services. 
+    
+  
+        The whole lending process, from application phase to officially signing happens within 15 minutes. Entrepreneurs can secure a financing offer with clear terms and conditions via a professional and efficient digital process. In just three years, New10 has provided loans to more than 2,500 happy customers with an average customer satisfaction score of nine.
+      
+  - title: the challenge
+    subtitle: Getting started swiftly and securely 
+    content: >-
+    
+  
+        Three years ago, New10 was established by a small group of highly motivated professionals, most of whom had backgrounds in engineering with banks or other financial organizations. The engineers had a variety of software platform knowledge, but none had previously worked with GitLab. From the inception of the company, the engineers wanted a solution that was developer-friendly and scalable. Ideally, the solution would allow developers to own their own code, creating quick deployment turnaround times.   
+    
+  
+        As a startup, it was crucial for the company to bring value to enterprises as soon as possible whilst maintaining high standards. The main requirement was to have Git functionality integrated together with CI/CD, essentially avoiding context switching to increase workflow efficiency. New10’s affiliation with ABN AMRO Bank requires strong security and privacy regulation compliance. The company has always placed protection at the forefront and a solution that focuses on high-level security would offer another level of assurance. 
+    
+  - title: the solution
+    subtitle: All-in-one workflow efficiency
+    content: >-
+        New10’s engineers had experience with several other platforms, but they adopted GitLab from inception in order to get up and running quickly. GitLab’s all-in-one solution allows developers to work efficiently without any context switching, unlike other tools.  
+    
+  
+        “If you have to go to your data center, you have to buy servers, the servers have to be shipped, you install some kinds of Jenkins on the servers, you configure it, and then you can start developing, only then can you start to produce. With GitLab, you really cut the time in configuration, cut the time to what is crucial for you to deliver,” said Kirill Kolyaskin, CTO.
+    
+  
+        New10’s engineers own their own code with GitLab’s [version control system](/topics/version-control/) and CI/CD. “It's not only Git and CICD, Infrastructure as a code and application security is also owned by the developer. It's really bringing ownership and power into the hands of people who write the code. This is the main competitive advantage and deal breaker when I'm using GitLab. No one else does it in the market,” according to Kolyaskin.
+  - title: the results
+    subtitle: Fast deployments, increased releases, supported engineers
+    content: >-
+    
+        With CI/CD properly in place and incorporating GitLab’s best practices, changes are made directly to the code in real-time. The deployment is altered immediately, allowing developers to deploy three times faster than they previously were able to. Having an enhanced and integrated source control management tool has improved efficiencies amongst developers. The solution provides the opportunity to work asynchronously, and integrates with several other tools. 
+    
+  
+        GitLab integrates with Slack, which allows notifications and improves workflow. New10 also plugs GitLab into its data analytics tool, Tableau, this integration allows data from GitLab to give visibility of the business acceleration to stakeholders. New10’s engineers are thriving in a DevOps culture. The engineers are able to release new features and new products because they no longer need to maintain deployments. The deployment to production release time went from two times per month to two times per day, with GitLab directly supporting this success.     
+    
+  
+        GitLab closely [integrates with AWS](/partners/technology-partners/aws/) and this integration has delivered great value for New10. They run all their production workloads in AWS, including loan administration, risk calculation, customer information and analytical services. “It's a great cloud native integration for us,” added Kolyaskin. New10 uses GitLab runners for testing and QA purposes, these runners are hosted on Kubernetes clusters. Their engineers are empowered to run static and dynamic tests on their code. The data is provided to a developer during the merge request, saving team members from security checks in various departments and then looping back to developers. “GitLab helped us in our initiative to kind of shift security left. We have a shorter feedback loop on security and we can fix problems in code before they are even deployed,” Kolyaskin said.
+    
+  
+        New10’s level of security has always been “like Fort Knox,” according to Kolyaskin. With GitLab, teams are able to maintain a high level of security faster and at an inexpensive rate. “GitLab is really helping us in our very modern architecture, because you're supporting Kubernetes, you're supporting serverless, and you are supporting cool security stuff, like DAST and SAST. GitLab is enabling us to have a really cutting edge architecture.” 
+    
+  
+        GitLab’s technical account managers are engineers who understand and recognize the importance of solving problems and work tirelessly to solve any issues that New10 has come across. “What's really important for me, and why I really respect and love GitLab, is that when we are struggling with something, I see a lot of effort from GitLab to do it better for us. Our software engineers appreciate that,” Kolyaskin said.
+    
+  
+        New10 appreciates that GitLab is a technology-oriented company, with an engineering focus, as opposed to a business focus. “When I'm working with GitLab, I just open your road map and then I think, ‘Yeah, this would be a roadmap if I were in charge’ … Really GitLab is supporting us by your way of working.”
+        
+    
+  
+        ## Learn more about CI
+    
+  
+        [How SKA uses GitLab to help construct the world’s largest telescope](/customers/square_kilometre_array/)
+    
+  
+        [Continuous Integration (CI) with GitLab](/stages-devops-lifecycle/continuous-integration/)
+customer_study_quotes:
+  - blockquote: GitLab is really helping us in our very modern architecture, because you're supporting Kubernetes, you're supporting serverless, and you are supporting cool security stuff, like DAST and SAST. GitLab is enabling us to have a really cutting edge architecture.
+    attribution: Kirill Kolyaskin
+    attribution_title: CTO  
+
+

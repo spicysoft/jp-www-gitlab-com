@@ -34,9 +34,9 @@ When no specific deployment type (omnibus, source code, helm chart, etc.) of a p
 |[Group IP allow-list not fully respected by the Package Registry](#group-ip-allow-list-not-fully-respected-by-the-package-registry)|medium|
 |[Abusing Gitaly.GetTreeEntries calls leads to denial of service](#abusing-gitalygettreeentries-calls-leads-to-denial-of-service)|medium|
 |[Arbitrary HTTP Requests Possible in .ipynb Notebook with Malicious Form Tags](#arbitrary-http-requests-possible-in-ipynb-notebook-with-malicious-form-tags)|medium|
+|[Read repository content via LivePreview feature](#read-repository-content-via-livepreview-feature)|medium|
 |[Regular Expression Denial of Service via special crafted input](#regular-expression-denial-of-service-via-special-crafted-input)|medium|
 |[Information Disclosure via Arbitrary GFM references rendered in Incident Timeline Events](#information-disclosure-via-arbitrary-gfm-references-rendered-in-incident-timeline-events)|medium|
-|[Read repository content via LivePreview feature](#read-repository-content-via-livepreview-feature)|medium|
 |[Denial of Service via the Create branch API](#denial-of-service-via-the-create-branch-api)|medium|
 |[Denial of Service via Issue preview](#denial-of-service-via-issue-preview)|medium|
 |[Brute force attack may guess a password even when 2FA is enabled](#brute-force-attack-may-guess-a-password-even-when-2fa-is-enabled)|low|
@@ -98,6 +98,15 @@ A crafted tag in the Jupyter Notebook viewer in GitLab EE/CE affecting all versi
 
 Thanks [yvvdwf](https://hackerone.com/yvvdwf) for reporting this vulnerability through our HackerOne bug bounty program.
 
+
+## Read repository content via LivePreview feature
+
+<!-- https://gitlab.com/gitlab-org/gitlab/-/issues/349388 -->
+
+An issue has been discovered in GitLab CE/EE affecting all versions from 10.8 before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. It was possible to read repository content by an unauthorised user if a project member used a crafted link. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N`, 5.7). It is now mitigated in the latest release and is assigned [CVE-2022-2907](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2907).
+
+Thanks [niraeth](https://hackerone.com/niraeth) for reporting this vulnerability through our HackerOne bug bounty program.
+
 ## Regular Expression Denial of Service via special crafted input
 
 A potential DoS vulnerability was discovered in Gitlab CE/EE versions starting from 10.7 before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2 allowed an attacker to trigger high CPU usage via a special crafted input added in the Commit message field. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L`, 4.3). It is now mitigated in the latest release and is assigned [CVE-2022-2908](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2908).
@@ -111,15 +120,6 @@ Thanks [ryhmnlfj](https://hackerone.com/ryhmnlfj) for reporting this vulnerabili
 An improper access control issue in GitLab CE/EE affecting all versions starting from 15.2 before 15.2.4, all versions from 15.3 before 15.3.2 allows disclosure of confidential information via the Incident timeline events. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N`, 4.3). It is now mitigated in the latest release and is assigned [CVE-2022-2630](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2630).
 
 Thanks [yvvdwf](https://hackerone.com/yvvdwf) for reporting this vulnerability through our HackerOne bug bounty program.
-
-
-## Read repository content via LivePreview feature
-
-<!-- https://gitlab.com/gitlab-org/gitlab/-/issues/349388 -->
-
-An issue has been discovered in GitLab CE/EE affecting all versions from 10.8 before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. It was possible to read repository content by an unauthorised user if a project member used a crafted link. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L`, 4.3). It is now mitigated in the latest release and is assigned [CVE-2022-2907](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2907).
-
-Thanks [niraeth](https://hackerone.com/niraeth) for reporting this vulnerability through our HackerOne bug bounty program.
 
 ## Denial of Service via the Create branch API
 

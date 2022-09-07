@@ -21,11 +21,15 @@ Inline with GitLab's regulatory obligations, changes to [controlled documents](h
 </div>
 </div>
 
+## Purpose
+
 # Engaging SIRT
 
 The [Security Incident Response Team (SIRT)](/handbook/engineering/security/security-operations/sirt) is on-call [24/7/365](/handbook/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call](/handbook/engineering/security/security-operations/sirt/engaging-security-on-call.html).
 
 Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide](/handbook/engineering/security/secops-oncall.html).
+
+## Scope 
 
 #### Incident Identification
 
@@ -34,6 +38,16 @@ Security incident investigations are initiated when a security event has been de
 Incident indicators can be reported to SIRT either internally, by a GitLab team member, or [externally](/handbook/engineering/security/#external-contact-information). It is the Security team's responsibility to determine when to investigate dependent on the identification and verification of a security incident.
 
 The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.
+
+## Roles & Responsibilities
+
+| Role | Responsibilities |
+| ----- |------------|
+| GitLab Team Members | Responsible for following the requirements in this procedure |
+| SIRT | Responsible for implementing and executing this procedure | 
+| SIRT Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
+
+## Procedure
 
 ### Incident Response Process - this guide covers the following activities for all identified security incidents:
 
@@ -243,4 +257,15 @@ Incident delineator `Incident` denotes that an issue should be considered an inc
 | `Incident::Classification::FalsePositive` | False positive |
 | `Incident::Classification::TrueNegative`  | True negative |
 | `Incident::Classification::FalseNegative` | False positive |
+
+## Exceptions
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/engineering/security/#information-security-policy-exception-management-process).
+
+## References
+* Parent Policy: [Information Security Policy](/handbook/engineering/security/)
+* [Security Communications Runbooks](https://gitlab.com/gitlab-com/gl-security/runbooks/-/tree/master/communications) (internal)
+* [Incident Communications Plan](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/security-incident-communication-plan.html) 
+* [Marketing Emergency Response process](https://about.gitlab.com/handbook/marketing/emergency-response/)
+* [Time-sensitive blog post process](https://about.gitlab.com/handbook/marketing/blog/#time-sensitive-posts--instructions)  
+* [Marketing rapid response process](https://about.gitlab.com/handbook/marketing/#marketing-rapid-response-process)
 

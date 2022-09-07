@@ -14,7 +14,7 @@ releases:
   messaging: tbd
   messaging-shadow: tbd
   social: --
-  technical_advisor: tbd
+  technical_advisor: brhea
   tech-shadow: tbd
 - version: "15.8"
   date: "2023-01-22"
@@ -22,32 +22,32 @@ releases:
   manager-name: tbd
   manager-shadow: tbd
   structural_check: tbd
-  messaging: tbd
+  messaging: BrianMason
   messaging-shadow: tbd
   social: --
-  technical_advisor: tbd
+  technical_advisor: brhea
   tech-shadow: tbd
 - version: "15.7"
   date: "2022-12-22"
-  manager: tbd
-  manager-name: tbd
+  manager: brhea
+  manager-name: Brian Rhea
   manager-shadow: tbd
   structural_check: tbd
   messaging: supadhyaya
   messaging-shadow: tbd
   social: --
-  technical_advisor: tbd
+  technical_advisor: brhea
   tech-shadow: tbd
 - version: "15.6"
   date: "2022-11-22"
-  manager: tbd
-  manager-name: tbd
-  manager-shadow: tbd
+  manager: brhea
+  manager-name: Brian Rhea
+  manager-shadow: brhea
   structural_check: tbd
   messaging: anair5
   messaging-shadow: tbd
   social: --
-  technical_advisor: tbd
+  technical_advisor: brhea
   tech-shadow: tbd
 - version: "15.5"
   date: "2022-10-22"
@@ -55,10 +55,10 @@ releases:
   manager-name: Matt Wilson
   manager-shadow: tbd
   structural_check: claytoncornell
-  messaging: jbianchini
+  messaging: jenniferbianchini
   messaging-shadow: tbd
   social: --
-  technical_advisor: tbd
+  technical_advisor: brhea
   tech-shadow: tbd
 - version: "15.4"
   date: "2022-09-22"
@@ -66,7 +66,7 @@ releases:
   manager-name: Derek Ferguson
   manager-shadow: matt_wilson
   structural_check: fneill
-  messaging: supadhyaya
+  messaging: anair5
   messaging-shadow: tbd
   social: --
   technical_advisor: brhea

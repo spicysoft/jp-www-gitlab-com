@@ -15,10 +15,10 @@ twitter_creator: "@gitlab"
 {:toc}
 
 [Jessica Reeder](https://gitlab.com/jessicareeder) 
-* [Sr. Campaign Manager, All-Remote](https://about.gitlab.com/job-families/marketing/all-remote-marketing/#senior-campaign-manager-all-remote) 
+* [Senior Strategy and Operations Manager: Workplace](/job-families/chief-executive-officer/strategy-and-operations/) 
 * [LinkedIn](https://www.linkedin.com/in/jessicareeder/)
 * [Twitter](https://twitter.com/jessicareeder)
-* Watch me work! You can see my (non-confidential) activity  [here](https://gitlab.com/users/jessicareeder/activity).
+* Watch me work! You can see my (non-confidential) activity [here](https://gitlab.com/users/jessicareeder/activity).
 
 ## About Moi
 Hi! I’m Jessica. My pronouns are she/they, meaning that you can refer to me as “she/her” or as “they/them” depending on your personal preference. I’m the Senior Campaign Manager on GitLab’s All-Remote strategy & thought leadership team.

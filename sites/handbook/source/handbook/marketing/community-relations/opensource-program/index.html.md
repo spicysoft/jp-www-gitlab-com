@@ -22,14 +22,13 @@ GitLab's open source program is part of the [Community Relations team](/handbook
 * [**Consortium Memberships**](/handbook/marketing/community-relations/opensource-program/#-consortium-memberships-and-sponsorships), which allow us to [extend GitLab's leadership in key open source initiatives](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/consortium-memberships), enhance GitLab's brand, and/or improve engineering alignment
 
 # <i class="far fa-paper-plane" id="biz-tech-icons"></i> How to reach us
- * DRI: [@bbehr](https://gitlab.com/bbehr)
- * Slack channel: #community-programs
- * Email: opensource@gitlab.com
+
+* DRI: [@bbehr](https://gitlab.com/bbehr)
+* Slack channel: #community-programs
+* Email: opensource@gitlab.com
 
 # <i class="fas fa-tasks" id="biz-tech-icons"></i> What we're working on
-We use epics, issue boards, and labels to track our work. We also maintain [quarterly objectives and key results](https://gitlab.com/groups/gitlab-com/marketing/community-relations/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=OSS%20OKR).
-
-See the [Community Relations project management page](/handbook/marketing/community-relations/project-management/) for more detail.
+Our work aligns with [quarterly objectives and key results](https://gitlab.com/groups/gitlab-com/marketing/community-relations/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=OSS%20OKR). See the [Community Relations project management page](/handbook/marketing/community-relations/project-management/) for more detail.
 
 # <i class="far fa-newspaper" id="biz-tech-icons"></i> GitLab for Open Source Program
 
@@ -84,7 +83,7 @@ For more specific instructions on obtaining and submitting required screenshots,
 
 ### How are GitLab for Open Source Program applications processed?
 
-Gitlab uses SheerID, a trusted partner, to verify that applicants meet the GitLab for Open Source Program requirements. In most cases, applicants receive a decision on their application within 15 business days.
+Gitlab uses SheerID, a trusted partner, to verify that applicants meet the GitLab for Open Source Program requirements. In most cases, applicants receive a decision on their application within three to five business days of submission. During periods of high submission volume, processing an application requires up to ten business days.
 
 The GitLab for Open Source team will then follow the [community programs application workflow](/handbook/marketing/community-relations/community-operations/community-program-applications/) to process applications.
 
@@ -405,7 +404,7 @@ The social media team is able to promote elections notification news. They simpl
 
 ### Event sponsorships
 
-GitLab's open source program has a small budget to sponsor events that allow GitLab to engage with and build relationships among open source partner communities. GitLab's [field marketing team](/handbook/marketing/field-marketing/#3rd-party-events) manages all other event sponsorship requests.  
+GitLab's open source program maintains a small budget for sponsorship of events that allow GitLab to engage with open source communities. We typically allocate this budget for local and regional community-driven events that GitLab's corporate events and field marketing teams have not already agreed to sponsor and staff. We prefer to sponsor events at which multiple open source projects and communities are present.
 
 The open source program team tracks event partication in the `Open Source Marketing` [project on GitLab](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/open-source-marketing). To suggest an open source event sponsorship, open an issue in this project and use the `event` issue template to file your request.
 
@@ -413,7 +412,7 @@ Event organizers and consortium leads working with GitLab will find GitLab's bra
 
 ### Linux Foundation Partnership
 
-We are exploring ways to partner with the Linux Foundation to make it easier for Linux Foundation member projects to apply for and qualify for the GitLab for Open Source program. We are using the [GitLab <> LF project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/linux-foundation) to collaborate with their team on various initiatives.
+We are exploring ways to partner with the Linux Foundation to make it easier for Linux Foundation member projects to apply for and qualify for the GitLab for Open Source program. We are using the [Linux Foundation](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/linux-foundation) to collaborate with their team on various initiatives.
 
 The application process for LF members projects [can be found here](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/94599).FIXME
 

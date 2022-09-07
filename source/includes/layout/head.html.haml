@@ -206,3 +206,28 @@
 -# Additional logic to only run in production can be found in the LogRocket entrypoint at `source/javascripts/logrocket.js` 
 - unless current_page.request_path.start_with?('handbook')
   %script{ src: cache_bust("/javascripts/logrocket.js", cache_bust_value), type: "text/javascript"}
+
+-# Enable Gitlab Visual Reviews if this is inside a Merge request
+- if ENV['CI_MERGE_REQUEST_IID']
+  %script{
+    :data => { 
+      :project => {
+        :id => ENV['CI_PROJECT_ID'],
+        :path => ENV['CI_PROJECT_PATH'],
+      },
+      :merge => {
+        :request => {
+          :id => ENV['CI_MERGE_REQUEST_IID'],
+        },
+      },
+      :mr => {
+        :url => "https://gitlab.com",
+      },
+      :require => {
+        :auth => "true",
+      },
+    },
+    :id => "review-app-toolbar-script",
+    :src => "https://gitlab.com/assets/webpack/visual_review_toolbar.js",
+  }
+
