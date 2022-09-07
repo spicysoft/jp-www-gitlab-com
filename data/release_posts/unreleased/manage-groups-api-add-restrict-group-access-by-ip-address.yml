@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Add IP restriction via Groups API"
+  - name: "Restrict access to groups using API"
     available_in: [premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
