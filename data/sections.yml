@@ -1,0 +1,132 @@
+dev:
+  name: "Dev"
+  pm: Orit Golowinski
+  em:
+    - Tim Zallmann
+  pdm:
+    - Taurie Davis
+    - Marcel van Remmerden
+    - Blair Christopher
+  sm: Shaun McCann
+  pmm: Cormac Foster
+  qm: Ramya Authappan
+  rem: Gerardo Lopez Fernandez
+  ar_team_tag: Dev Section AR Stable Counterpart
+  direction: /direction/dev/
+
+ops:
+  name: "Ops"
+  slack:
+    channel: ops-section
+  handbook: product/categories/ops/
+  pm_team_tag: Ops Product Leadership
+  development_team_tag: Ops Development Leadership
+  support_team_tag: Ops Support Stable Counterpart
+  pmm: Saumya Upadhyaya
+  pdm:
+    - Justin Mandell
+    - Rayana Verissimo
+  uxr: Will Leidheiser
+  qm: Joanna Shih
+  infra_team_tag: Ops Infra Stable Counterpart
+  ar_team_tag: Ops Section AR Stable Counterpart
+  direction: /direction/ops/
+
+sec:
+  name: "Sec"
+  pm: Hillary Benson
+  em:
+    - Wayne Haber
+  pdm: 
+    - Justin Mandell  
+  ux:
+    - Andy Volpe
+  sm: TBD
+  pmm: Cindy Blake
+  qm: Vincy Wilson
+  rem: Steve Loyd (Acting)
+  ar_team_tag: Sec Section AR Stable Counterpart
+  direction: /direction/security/
+
+modelops:
+  name: "ModelOps"
+  pm: Hillary Benson
+  em:
+    - Wayne Haber
+  pdm:
+    - Taurie Davis
+  sm: TBD
+  pmm: Cormac Foster
+  qm: Vincy Wilson
+  direction: /direction/modelops/
+
+analytics:
+  name: "Analytics"
+  pm: Kenny Johnston
+  em:
+    - Tim Zallmann
+  qm: Joanna Shih
+  direction: /direction/analytics/  
+  handbook: product/categories/analytics/
+  slack:
+    channel: ops-section
+
+growth:
+  name: "Growth"
+  pm: Sam Awezec
+  em:
+    - Phil Calder
+  pdm: 
+    - Jacki Bauer  
+  sm: Shaun McCann
+  pmm: Saumya Upadhyaya
+  qm: Vincy Wilson
+  rem: Dave Smith
+  ar_team_tag: Growth Section AR Stable Counterpart
+  direction: /handbook/marketing/growth/
+
+fulfillment:
+  name: "Fulfillment"
+  pm: Omar Fernandez
+  em:
+    - Jerome Ng
+  pdm: 
+    - Jacki Bauer  
+  sm: John Lyttle
+  pmm: Saumya Upadhyaya
+  qm: Vincy Wilson
+  rem: Dave Smith
+  ar_team_tag: Fulfillment Section AR Stable Counterpart
+  direction: /direction/fulfillment/
+
+enablement:
+  name: "Enablement"
+  pm: Joshua Lambert
+  em:
+    - Chun Du
+  pdm: 
+    - Marcel van Remmerden 
+  sm: Jason Colyer
+  pmm: Cormac Foster
+  qm: Kassandra Svoboda
+  rem: Dave Smith
+  ar_team_tag: Enablement Section AR Stable Counterpart
+  direction: /direction/enablement/
+  
+platforms:
+  name: "SaaS Platforms"
+  pm: Joshua Lambert
+  em:
+    - Marin Jankovski
+  pdm: 
+    - Marcel van Remmerden  
+  sm: Jason Colyer
+  pmm: Cormac Foster
+  qm: Kassandra Svoboda
+  rem: Dave Smith
+  ar_team_tag: SaaS Platforms Section AR Stable Counterpart
+  direction: /direction/saas-platforms/
+
+seg:
+  name: "Single-Engineer Groups"
+  direction: /direction/#single-engineer-groups

@@ -1,0 +1,34 @@
+---
+name: Max Woolf
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
+  Analyze:Product Analytics
+reports_to: dennis
+picture: maxwoolf.jpg
+gitlab: mwoolf
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Analyze:Product Analytics BE Team
+- Merge Request Coach
+expertise: '<li><a href="/job-families/expert/merge-request-coach/">Merge Request
+  Coach</a></li>
+
+  '
+projects:
+  gitlab:
+  - maintainer backend
+  - reviewer database
+  tanuki_emoji: maintainer
+story: |
+  Having spent his entire career working with Ruby on Rails projects of varying sizes, Max is a strong advocate of DevOps practices and cloud native development.
+  When he's not sat in front of his computer, he can usually be found hiking with his wife Ciara, his two dogs Winston and Willow, baking or playing the piano.
+domain_expertise:
+- rails
+- ruby
+- manage
+- audit_events
+specialty: Analytics

@@ -1,0 +1,134 @@
+- mentor: Tiger Watson
+  gitlab: tigerwnz
+  domains:
+    - database
+  max_trainees: 2
+  trainees:
+    - Michał Zając (@Quintasan)
+    - Matthew Kasa (@mattkasa)
+- mentor: Paul Slaughter
+  gitlab: pslaughter
+  domains:
+    - frontend
+  max_trainees: 3
+  trainees:
+    - Jannik Lehmann (@jannik_lehmann)
+- mentor: Thong Kuah
+  gitlab: tkuah
+  domains:
+    - backend
+  max_trainees: 2
+  trainees:
+    - Nico Belokolodov (@nbelokolodov)
+- mentor: Peter Leitzen
+  gitlab: splattael
+  domains:
+    - backend
+  max_trainees: 3
+  trainees:
+    - Bojan Marjanovic (@bmarjanovic)
+- mentor: Luke Duncalfe
+  gitlab: .luke
+  domains:
+    - backend
+  max_trainees: 2
+  trainees: []
+- mentor: Nicolò (Nico) Maria Mezzopera
+  gitlab: nmezzopera
+  domains:
+    - frontend
+  max_trainees: 3
+  trainees: []
+- mentor: Sean McGivern
+  gitlab: smcgivern
+  domains:
+    - backend
+  max_trainees: 2
+  trainees:
+    - Abdul Wadood (@abdwdd)
+    - Vladimir Shushlin (@vshushlin)
+- mentor: Vitali Tatarintev
+  gitlab: ck3g
+  domains:
+    - backend
+  max_trainees: 2
+  trainees:
+    - Ahmed Hemdan (@ahmed.hemdan)
+- mentor: Max Woolf
+  gitlab: mwoolf
+  domains:
+    - backend
+  max_trainees: 1
+  trainees: []
+- mentor: Adam Hegyi
+  gitlab: ahegyi
+  domains:
+    - database
+  max_trainees: 2
+  trainees:
+    - Eulyeon Ko (@euko)
+    - Pavel Shutsin (@pshutsin)
+- mentor: Steve Abrams
+  gitlab: sabrams
+  domains:
+    - database
+  max_trainees: 1
+  trainees:
+    - Andy Soiron (@Andysoiron)
+- mentor: Fabio Pitino
+  gitlab: fabiopitino
+  domains:
+    - backend
+  max_trainees: 3
+  trainees: []
+- mentor: Dmitry Gruzd
+  gitlab: dgruzd
+  domains:
+    - backend
+  max_trainees: 1
+  trainees:
+    - John Mason (@john-mason)
+- mentor: Andy Soiron
+  gitlab: Andysoiron
+  domains:
+    - backend
+  max_trainees: 1
+  trainees:
+    - Bala Kumar (@bala.kumar)
+- mentor: Ezekiel Kigbo
+  gitlab: ekigbo
+  domains:
+    - frontend
+  max_trainees: 3
+  trainees:
+    - Tristan Read (@tristan.read)
+    - Dheeraj Joshi (@djadmin)
+- mentor: Vladimir Shushlin
+  gitlab: vshushlin
+  domains:
+    - gitlab-pages
+  max_trainees: 3
+  trainees:
+    - Kassio Borges (@kassio)
+    - Vishal Tak (@vtak)
+- mentor: Terri Chu
+  gitlab: terrichu
+  domains:
+    - backend
+  max_trainees: 1
+  trainees:
+    - Suraj Tripathi (@suraj_tripathy)
+- mentor: Balasankar 'Balu' C
+  gitlab: balasankarc
+  domains:
+    - omnibus-gitlab
+    - cng
+  max_trainees: 2
+  trainees: []
+- mentor: Pavel Shutsin
+  gitlab: pshutsin
+  domains:
+    - backend
+  max_trainees: 2
+  trainees:
+    - Drew Blessing (@dblessing)

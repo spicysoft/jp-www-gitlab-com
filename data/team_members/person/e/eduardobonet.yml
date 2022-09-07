@@ -1,0 +1,30 @@
+name: Eduardo Bonet
+locality:
+country: Remote
+role: <a href="/job-families/engineering/incubation-engineer/">Staff Incubation Engineer</a>, MLOps
+reports_to: bartekmarnane
+picture: ebonet.jpg
+pronouns: he/him
+pronunciation:
+twitter: ef_bonet
+linkedin: eduardobonet
+gitlab: eduardobonet
+mentor: true
+departments:
+  - Engineering Function
+  - Incubation Engineering Department
+  - MLOps
+projects:
+  rb-ipynbdiff: owner
+specialty: 
+expertise: | 
+  <li><a href="https://en.wikipedia.org/wiki/A/B_testing">AB Testing & Causal Impact</a></li>
+  <li><a href="https://youtu.be/n_VpwB3M08k">Machine Learning Engineering</a></li>
+  <li><a href="https://developer.android.com/">Android Development</a></li>
+
+story: |
+  Brazilian expat living in the Netherlands since 2016. Parent, ADHD'er.
+  Proud generalist, past professional experience include Android development, 
+  Backend, Frontend, Data Science Insights and Machine Learning Engineer. 
+  Loves building and growing communities, boardgaming and Legos.
+

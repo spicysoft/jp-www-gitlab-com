@@ -1,0 +1,32 @@
+---
+name: Alina Mihaila
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/#engineering-productivity">Senior Backend Engineer, Engineering Productivity</a>
+reports_to: kyle-wiebers
+picture: alinamihaila.png
+twitter: alina_vancea
+gitlab: alinamihaila
+departments:
+- Engineering Function
+- Quality Department
+- Engineering Productivity Team
+- Merge Request Coach
+specialty: Engineering Productivity
+mentor: true
+expertise: |
+  <li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+projects:
+  gitlab:
+  - reviewer backend
+  - reviewer database
+  - reviewer product_intelligence
+  iglu: trainee_maintainer
+  version-gitlab-com:
+  - maintainer backend
+  - reviewer database
+story: |
+  Alina grew up in country side in the heart of Transylvania, she started to work as a developer at the age of 21 in an outsourcing company. After going to the office for 5 years she decided to take of her own and work remotely.
+  She likes solving problems and helping people.
+  Outside work Alina enjoys spending time with her family and reading.
+

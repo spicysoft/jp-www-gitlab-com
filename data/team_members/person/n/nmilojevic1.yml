@@ -1,0 +1,25 @@
+---
+name: Nikola Milojevic
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Application Performance</a>
+reports_to: cliu
+picture: nikola.jpg
+twitter:
+gitlab: nmilojevic1
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Application Performance BE Team
+projects:
+  gitlab:
+  - maintainer backend
+  - reviewer database
+story: |
+  Nikola is a passionate software engineer from Serbia. He has been writing software
+  professionally since 2007. In his spare time, he enjoys traveling, skiing, video games and crossfit.
+specialty: Application Performance
+

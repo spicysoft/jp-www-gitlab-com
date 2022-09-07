@@ -1,0 +1,27 @@
+---
+name: Marius Bobin
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Verify:Pipeline
+  Execution</a>
+reports_to: carolinesimpson
+picture: mbobin.jpg
+twitter: mariusbobin
+gitlab: mbobin
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Pipeline Execution Group
+- Verify:Pipeline Execution BE Team
+projects:
+  gitlab:
+  - maintainer backend
+  - trainee_maintainer database
+story: |
+  A lifelong tinkerer, likes to take things apart, see how they work
+  and how can be improved or automated.
+domain_expertise:
+- rails
+- cicd
+specialty: Verify:Pipeline Execution

@@ -1,0 +1,30 @@
+---
+name: Jiaan Louw
+locality:
+country: Remote
+pronunciation: Yee-ahn Low
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
+  Govern:Compliance
+reports_to: nrosandich
+picture: jiaan.png
+twitter:
+gitlab: jiaan
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Govern:Compliance FE Team
+- Frontend
+- Govern:Compliance Fullstack Team
+story: |
+  Jiaan has a backgorund in fullstack and game development.
+  He is passionate about building automated solutions and great
+  user experiences. In his spare time he likes to play strategy games,
+  photograph wildlife and explore the world in search of great food and wine.
+projects:
+  gitlab: maintainer frontend
+  gitlab-ui: reviewer frontend
+specialty:
+- 'Manage: Compliance'
+

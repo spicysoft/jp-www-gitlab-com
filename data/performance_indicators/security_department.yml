@@ -1,0 +1,322 @@
+- name: Age of current open vulnerabilities by severity
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: The age of current open vulnerabilities gives us an at the moment snapshot in time of how fast we are scheduling and fixing the vulnerabilities found post-Production deploy. The age is measured in days, and the targets for each severity are defined in the <a href="https://about.gitlab.com/handbook/engineering/security/#severity-and-priority-labels-on-security-issues">Security Handbook</a>. For Security purposes, please view this chart directly in Sisense.
+  target: <a href="https://about.gitlab.com/handbook/engineering/security/#severity-and-priority-labels-on-security-issues">Time to remediate</a>
+  urls:
+    - https://app.periscopedata.com/app/gitlab/758795/Appsec-Embedded-Dashboard
+
+  org: Security Department 
+  is_key: true
+  health:
+    level: 3
+    reasons:
+    - We continue to see sustained numbers below SLO targets. The average number of days that S3s stay open has been trending upward and is approaching the SLO target. There has also been an increase in the average number of days that S4s stay open. The total count of both S3 and S4 issues is declining. This KPI is currently considered healthy.
+
+- name: Security Engineer On-Call Page Volume
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: This metric is focused around the volume and severity of paged incidents
+    to the Security Engineer On-Call. This data can be used to track and identify trends associated with disruption work, which if and when possible, should be minimized. For Security purposes, please view this chart directly in Sisense.
+  target: Number of pages/month does not exceed +50% of monthly average of the last 12 months for 3 consecutive months
+  org: Security Department
+  is_key: true
+  health:
+    level: 3
+    reasons:
+    - A 45% decrease in on-call pages were experienced over the last 3 months as compared to the last 12 months. This is well within the acceptable threshold and while a steady and consistent number of on-call pages have occurred, we saw the number of pages drop significantly in June and start to trend upwards in July. Similarly, the number of S1 paged incidents is down 60% over the last 3 months, compared the last 12 months average. Notably, while this month is not complete, August is trending significantly upwards.
+    - Short term fluctuation are to be expected. Long term trending both negative and positive, should be identified and actions created to correct negative trends and continue promoting positive trends.
+  urls:
+  - https://app.periscopedata.com/app/gitlab/592612/Security-KPIs?widget=9217413&udv=0
+
+- name: Security Control Health by System
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: Security Compliance performs regular testing of controls for in scope systems and uses the System Health Rating methodology to determine the system health, ie risk, rating of each. A System health rating of 1 means all controls evaluated for that system are fully effectively (very low risk) and a system health rating of 5 means none of the controls are operating effectively (high risk). 
+  target: Confidential
+  org: Security Department
+  is_key: true
+  health:
+    level: -1
+    reasons:
+    - ITGC applications have been removed from this KPI as testing has been handed back to IA with the exception of 2 shared applications. 46% (or 6 out of 13) systems assessed met the target. There are 51 observations open for the 7 systems.
+  urls:
+    - https://app.periscopedata.com/app/gitlab/977899/Security-Impact?widget=14446739&udv=0
+
+- name: Security Impact on Net ARR 
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: The Field Security organization functions as a sales and customer enablement team therefore a clear indicator of success is directly reflected in the engagement of their assessment services by Legal, Sales, TAMs and customers themselves. Assessment services include completing security questionnaires, participating in customer calls, creating and providing security documentation, and facilitating customer audits. The dashboard is calculated as (assessments completed by customer + total contract value by customer = monthly dollar security impact).
+  target: Confidential
+  org: Security Department
+  is_key: true
+  health:
+    level: -1
+    reasons:
+    - Field Security implemented the new RFx process with the field reps on July 13, 2022. As of the new process’ implementation, Field Security has seen an increase in the number of issues being created in the Customer Assurance Service Desk. At this point in August, 2022, we are trending higher than we were at the same point in each of the last 3 months. We have currently received 83 issues in the month of August.
+
+  urls:
+    - https://app.periscopedata.com/app/gitlab/977899/Security-Impact?widget=13710204&udv=0
+
+- name: Estimated Cost of Abuse
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: This metric tracks the estimated cost of abuse in terms of CI Compute Cost & Storage costs from blocked accounts. It also includes aggregated Networking Cost data when it is over the baseline spend for known skus that only trend up during periods of elevated abuse, although this is not tracked at the user level. It does not include reputation damage costs or labor costs of having to manually prevent certain types of abuse.
+  target: less than $10K/Month
+  org: Security Department
+  is_key: true
+  public: false
+  health:
+    level: -1
+    reasons:
+    - Confidential metric - See notes in Key Review agenda
+  urls:
+    - https://app.periscopedata.com/app/gitlab/780726/WIP:-Blocked-User-Usage-Data?widget=12404680
+
+- name: Security Average Location Factor
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-average-location-factor"
+  definition: We remain efficient financially if we are hiring globally, working asynchronously,
+    and hiring great people in low-cost regions where we pay market rates. We track
+    an average location factor by function and department so managers can make tradeoffs
+    and hire in an expensive region when they really need specific talent unavailable
+    elsewhere, and offset it with great people who happen to be in low cost areas.
+    Data comes from Workday and is the average location factor of all team members
+    in the Security department.
+  target: Less than 0.70
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - Security Operations was having challenges pulling quality candidates in geo-diverse locations, in order to hit expectations and allow the team to grow, we revisited our backlog US-based candidates and made several key hires.
+  sisense_data:
+    chart: 7864119
+    dashboard: 592612
+    embed: v2
+- name: Security Budget Plan vs Actuals
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-budget-plan-vs-actuals"
+  definition: We need to spend our investors' money wisely. We also need to run a
+    responsible business to be successful. For Security purposes, please view this chart directly in Sisense.
+    <a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11464">Latest data is in Adaptive, data team importing to Sisense in FY22Q2</a>
+  target: See Sisense for target
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - This chart was recently updated and now reflective of current state. Security are within budget expectations.
+  urls:
+    - https://app.periscopedata.com/app/gitlab/633239/Security-Non-Headcount-BvAs
+
+- name: Security Handbook MR Rate
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-handbook-mr-rate"
+  definition: The handbook is essential to working remote successfully, to keeping up our transparency, and to recruiting successfully. Our processes are constantly evolving and we need a way to make sure the handbook is being updated at a regular cadence. This data is retrieved by querying the API with a python script for merge requests that have files matching `/source/handbook/engineering/security` over time.
+  target: 1
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - Security was highly focused on operations in FY22. Action =  Security expect to see a marked increase in handbook updates once project work picks back up.
+  sisense_data:
+    chart: 10642322
+    dashboard: 621064
+    shared_dashboard: feac7198-86db-480b-9eae-c41cb479a209
+    embed: v2
+
+- name: Security MR Rate
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-mr-rate"
+  definition: This PI is in support of the engineering organization’s overall MR Rate objective however, this should not be considered a reflection of the performance or output of the Security Department whose work is primarily handbook and MR review driven.
+    Thus, there is no current target for Security Department MR Rate.
+    The full definition of MR Rate is linked in the url section.
+  target: 0
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - There is no current target for Security Department MR Rate.
+  urls:
+    - "/handbook/engineering/metrics/#merge-request-rate"
+    - https://gitlab.com/gitlab-data/analytics/-/issues/4446
+  sisense_data:
+    chart: 8934521
+    dashboard: 686930
+    shared_dashboard: ec910110-91bd-4a08-84aa-223bf6b3c772
+    embed: v2
+
+- name: Security New Hire Average Location Factor
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-division-new-hire-average-location-factor"
+  definition: We remain efficient financially if we are hiring globally, working asynchronously,
+    and hiring great people in low-cost regions where we pay market rates. We track
+    an average location factor for team members hired within the past 3 months so
+    hiring managers can make tradeoffs and hire in an expensive region when they really
+    need specific talent unavailable elsewhere, and offset it with great people who
+    happen to be in more efficient location factor areas with another hire. The historical average location factor represents the average location factor for only new hires in the last three months, excluding internal hires and promotions. The calculation for the three-month rolling average location factor is the location factor of all new hires in the last three months divided by the number of new hires in the last three months for a given hire month. The data source is Workday data.
+  target: Less than 0.70
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - We've been fluctuating  above and below the target recently, which is to be expected
+      given the size of the department.
+  sisense_data:
+    chart: 9389232
+    dashboard: 719541
+    embed: v2
+
+- name: Security Team Member Retention
+  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-team-member-retention"
+  definition: We need to be able to retain talented team members. Retention measures our ability to keep them sticking around at GitLab. Team Member Retention = (1-(Number of Team Members leaving GitLab/Average of the 12 month Total Team Member Headcount)) x 100. GitLab measures team member retention over a rolling 12 month period.
+  target: at or above 84%
+  org: Security Department
+  is_key: true
+  public: false
+  health:
+    level: -1
+    reasons:
+    - Action = Security leadership have created OKRs focused on addressing team member concerns contributing to attrition rates.
+  urls:
+    - "https://app.periscopedata.com/app/gitlab/862338/Security-Department-Retention"
+
+- name: Security Average Age of Open Positions
+  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
+  parent: "/handbook/engineering/performance-indicators/#engineering-vacancy-time-to-fill"
+  definition: Measures the average time job openings take from open to close. This metric includes sourcing time of candidates compared to Time to Hire or Time to Offer Accept which only measures the time from when a candidate applies to when they accept.
+  target: at or below 50 days
+  org: Security Department
+  is_key: true
+  public: true
+  health:
+    level: 3
+    reasons:
+    - High demand for Security professionals has lead to an extremely competitive hiring market. Security leadership are actively involved in the recruiting processes to reduce burden on recruiters and shorten time to hire.
+  sisense_data:
+      chart: 11885848
+      dashboard: 872394
+      embed: v2
+      filters:
+          - name: Division
+            value: Engineering
+          - name: Department
+            value: Security
+
+- name: Security Department Discretionary Bonus Rate
+  parent: "/handbook/engineering/performance-indicators/#engineering-discretionary-bonus-rate"
+  base_path: "/handbook/engineering/performance-indicators/"
+  definition: The number of discretionary bonuses given divided by the total number of team members, in a given period as defined. This metric definition is taken from the <a href="/handbook/people-group/people-success-performance-indicators/#discretionary-bonuses">People Success Discretionary Bonuses KPI</a>.
+  target: at or above 10%
+  org: Security Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+    - Security had observed a downward trend for bonus nominations recently. The previous action for Managers to actively encourage team members to submit nominations where appropriate was effective at bringing the metric back on target.
+  sisense_data:
+    chart: 11860249
+    dashboard: 873088
+    embed: v2
+    filters:
+      - name: Breakout
+        value: Department
+      - name: Breakout_Division_Department
+        value: Engineering - Security
+        
+- name: Security Incidents by Category
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: The metric groups security incidents by incident category and provides visibility into possible trends in attack types or targeted systems. Tracking of this metrics allows GitLab to adjust security control strategies, identify opportunities for improvements, and address security controls needing attention. For Security purposes, please view this chart directly in Sisense.
+  target: Number of security incidents in any category does not exceed +50% of the individual category's 3-month average.
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - While the total number of security incidents has increased by 34% over the last 3 months, all incident categories are within expected and acceptable thresholds. The average for the last 3 months is equal to the overall average of the last 12 months for total number of security incidents. 
+    - Category labels are applied in accordance to the [SIRT handbook page](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/). In the event that "NotApplicable" keeps growing, we'll be adding additional categories.
+  urls:
+  - https://app.periscopedata.com/app/gitlab/592612/Security-KPIs?widget=9277541&udv=0
+
+- name: Operational Security Risk Management (Tier 2 Risks)
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: Operational risk management enables organizations to proactively identify and mitigate operational security risks that may impact Organizational Output, Brand Reputation, Business Continuity, Customers & Stakeholders, Legal & Regulatory and/or Financials. This heatmap has been generated from ZenGRC. Numbers within each box indicate the total number of potential risks. Red boxes indicate the risk level is HIGH. Orange boxes indicate the risk level is MODERATE. Green boxes indicate the risk level is LOW. The heatmap shows risks that are currently open and accepted, in remediation or planned for remediation.
+  target: TBD, this will be determined upon Sisense integration for detailed dashboarding
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - There are currently 6 high risks on the Security Operational Risk Register.  Security’s Annual Risk Assessment was completed in early June. After audit committee and leadership reporting, risk treatment will occur. Action = Security Risk are actively working with leadership to complete treatments for risks identified during the FY23Q2  Annual Risk Assessment.
+
+  sisense_data:
+    chart: 11437860
+    dashboard: 847984
+    embed: v2
+
+- name: Security Observations (Tier 3 Risks)
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: An indicator of information system and process risk, there are multiple inputs that lead to identification of Observations to include Security Compliance continuous control testing, Internal Audit control testing, third party (vendor) assessments, external audits and customer assessments.
+  target: TBD, this will be determined upon Sisense integration for detailed dashboarding
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - 4 high risk observations have been opened this fiscal year. 
+
+  sisense_data:
+    chart: 11426201
+    dashboard: 847984
+    embed: v2
+
+- name: Third Party Risk Management
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: An indicator of third party risk, third party risk assessments proactively identify potential vendor security risks as part of onboarding or contracting, enabling business owners to make risk based decisions throughout the vendor lifecycle.
+  target: TBD, this will be determined upon Sisense integration for detailed dashboarding
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - 53 new vendor risk assessments have been initiated in FY23Q3. This is a 42% increase in high and moderate risk vendors quarter over quarter. Fiscal year to date we have seen a 37% increase in total vendor assessments over prior year (288 vs. 354). 
+  sisense_data:
+    chart: 11439229
+    dashboard: 847984
+    embed: v2
+
+- name: Security Automation Iteration Velocity Average
+  base_path: "/handbook/engineering/security/performance-indicators/"
+  definition: We attempt to complete 7 issues or more every two weeks. The measurement indicates how well the Security Automation team is scoping milestones over the last 10 iterations and provides a view of the average team velocity.
+  target: 7
+  org: Security Department
+  is_key: false
+  health:
+    level: 3
+    reasons:
+    - This PI is considered healthy and the Security Automation team has seen an increase in average issues per iteration velocity. As the team grows and becomes more efficient through process updates, additional automation deployments, and technology integrations, the target average will be re-evaluated on a quarterly basis and adjusted as needed.
+  sisense_data:
+    chart: 11480503
+    dashboard: 850740
+    shared_dashboard: a9d1978c-e247-4299-a5e2-a34934c06feb
+    embed: v2
+
+- name: Security Department Promotion Rate
+  base_path: "/handbook/engineering/performance-indicators/"
+  definition: The total number of promotions over a rolling 12 month period divided by the month end headcount. The target promotion rate is 12% of the population. This metric definition is taken from the <a href="https://about.gitlab.com/handbook/people-group/people-success-performance-indicators/#promotion-rate">People Success Team Member Promotion Rate PI</a>.
+  target: 12%
+  org: Security Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+    - Security have recently announced multiple promotions. Action = Security leadership are now executing Individual Development Plans as part of one on ones with a direct focus on career development.
+  sisense_data:
+    chart: 11860231
+    dashboard: 873087
+    embed: v2
+    filters:
+      - name: Breakout
+        value: Department
+      - name: Breakout_Division_Department
+        value: Engineering - Security

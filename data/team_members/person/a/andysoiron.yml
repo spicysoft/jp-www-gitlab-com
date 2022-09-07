@@ -1,0 +1,35 @@
+---
+name: Andy Soiron
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
+  Ecosystem:Integrations
+reports_to: arturo-herrero
+picture: asoiron.jpg
+twitter: andysoiron
+gitlab: Andysoiron
+pronouns: he/him
+domain_expertise:
+- rails
+- ruby
+- rest_api
+- integrations
+- postgresql
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Ecosystem:Integrations BE Team
+projects:
+  gitlab:
+  - maintainer backend
+  - reviewer database
+story: 'As a Backend Engineer Andy is building software for more than 8 years and
+  is passionate about clean code and test driven development. He shares an office
+  with his <a href="/company/team-pets#246-luzifer-and-sebastian">two cats</a> and
+  likes cooking, biking and improv theater.
+
+  '
+specialty:
+- 'Ecosystem: Integrations'
+

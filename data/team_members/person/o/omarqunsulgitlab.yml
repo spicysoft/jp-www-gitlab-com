@@ -1,0 +1,25 @@
+---
+name: Omar Qunsul
+locality:
+country: Remote
+role: <a href="">Backend Engineer, Pods</a>
+reports_to: gitlabbarry
+picture: oqunsul.jpg
+pronouns: he/him
+pronunciation:
+twitter: OmarQunsul
+linkedin: omarqunsul
+gitlab: OmarQunsulGitlab
+projects:
+  gitlab: 
+  - reviewer backend
+  - reviewer database
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Pods BE Team
+specialty: 'Enablement: Pods'
+expertise:
+story: 'Omar is a software engineer from Jordan. Currently lives in Munich/Germany. He enjoys running, photography, hiking and drinking coffee.'
+

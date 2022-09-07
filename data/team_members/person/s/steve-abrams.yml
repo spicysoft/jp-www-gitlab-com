@@ -1,0 +1,36 @@
+---
+name: Steve Abrams
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Package</a>
+reports_to: michelletorres
+picture: steveabrams.png
+twitter:
+gitlab: sabrams
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Package Group
+- Package BE Team
+- Merge Request Buddy
+- Merge Request Coach
+projects:
+  gitlab:
+  - maintainer backend
+  - maintainer database
+  container-registry:
+  - maintainer database
+story: |
+  Steve loves solving problems and writing code. He has been a developer ever since he
+  discovered his love for code in his previous life as a mechanical engineer. He loves
+  spending time with his family, being out and about in the mountains, playing piano,
+  reading, and running.
+domain_expertise:
+- container_registry
+- package_registry
+- postgresql
+expertise: |
+  <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge Request Buddy</a></li>
+  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
+specialty: Package

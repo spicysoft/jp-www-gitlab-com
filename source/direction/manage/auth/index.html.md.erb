@@ -1,0 +1,69 @@
+---
+layout: markdown_page
+title: "Category Direction - Authorization and Authentication"
+description: "Authentication and authorization are critical, foundational elements to keeping resources secure but accessible."
+canonical_path: "/direction/manage/auth/"
+---
+
+- TOC
+{:toc}
+
+| Category | **Authorization and Authentication** |
+| --- | --- |
+| Stage | [Manage](https://about.gitlab.com/handbook/product/categories/#manage-stage) |
+| Group | [Authentication & Authorization](https://about.gitlab.com/handbook/product/categories/#authentication--authorization-group) |
+| Maturity | [Complete](/direction/maturity/) |
+| Content Last Reviewed | `2022-08-23` |
+
+
+<%= partial("direction/manage/auth/templates/intro") %>
+
+## Overview
+
+<%= partial("direction/manage/auth/templates/overview") %>
+
+### Target audience and experience
+
+<%= partial("direction/manage/auth/templates/target") %>
+
+
+## Where we are Headed
+
+We're currently focused on broader and deeper support for identity management and authentication strategies. Our objective is to allow users to quickly join GitLab with the right level of access, and building support for large organizations to quickly onboard and offboard users is essential.
+
+For large organizations, we also need to make sure that users are armed with the right level of access. GitLab's role-based access control has served small teams well - and fits with a permissions model where anyone can contribute - but makes it challenging for large, security-minded organizations to build the level of granular controls and variation they need.
+
+We are also acutely aware of the increasing security needs in Authentication and Authorization. The credentials that users are able to obtain are the "keys to the kingdom" and in a large enterprise, there needs to be strict inventory and management of these credentials, ensuring that their use and scope can be monitored and revoked if necessary.
+
+### What's Next and Why
+
+<%= partial("direction/manage/auth/templates/next") %>
+
+## Maturity Plan
+
+<%= partial("direction/manage/auth/templates/maturity") %>
+
+<%= partial("direction/manage/auth/templates/competitors") %>
+
+## Goals
+
+### Near-Term Goals
+
+1. Continue progress on  [Customizable Roles and Permissions](https://gitlab.com/groups/gitlab-org/-/epics/4035). We have completed [technical discovery](https://gitlab.com/gitlab-org/gitlab/-/issues/352891) and have written our [first code](https://gitlab.com/gitlab-org/gitlab/-/issues/364128) and a also have completed a [second MR](https://gitlab.com/gitlab-org/gitlab/-/issues/367988) against this feature, which is exciting for us. Note that these are not user facing, but are laying the groundwork for what will become customizable roles.
+
+2. Support GitLab's [FedRAMP certification](https://about.gitlab.com/solutions/public-sector/fedramp/). Since our team touches a lot of areas of the product that are analyzed during the audit, we have a some open issues to tackle.
+
+3. Our MVC for [Domain Verification](https://gitlab.com/gitlab-org/gitlab/-/issues/353030) is under development and is expected to be completed early in the %15.4 milestone. This is be the first step in our [Enterprise Users](https://gitlab.com/groups/gitlab-org/-/epics/5299) Epic. Once this issue is complete, we plan to allow our users to [bypass e-mail verificaion](https://gitlab.com/gitlab-org/gitlab/-/issues/238461) for any e-mail address belonging to the domain, which is something that our customers have been requesting.  
+
+### Mid-Term Goals
+
+1. Parity in administrator features between self-managed and GitLab.com. [Workspace](https://docs.gitlab.com/ee/user/workspace/#workspace) is creating the container that will allow us to move existing self-managed administrator features  to GitLab.com.
+
+2. [Service Accounts](https://gitlab.com/groups/gitlab-org/-/epics/6777) - will roll Group and Project Access tokens into a new concept called Service Accounts, which will be better attuned to the needs of integrations rather than human users.
+
+3. Allow Administrators and Group Owners more control over their claimed [Enterprise Users](https://gitlab.com/gitlab-org/gitlab/-/issues/322039)
+
+
+### Top Vision Item(s)
+
+<%= partial("direction/manage/auth/templates/vision") %>

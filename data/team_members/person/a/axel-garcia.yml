@@ -1,0 +1,26 @@
+---
+name: Axel García
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Frontend Engineer</a>,
+  Analytics
+reports_to: dennis
+picture: axelgarcia.jpg
+twitter: kuroisuna
+gitlab: agarciatesares
+departments:
+- Engineering Function
+- Development Department
+- Analytics Section
+- Product Analytics Team
+- Frontend
+projects:
+  gitlab:
+  - reviewer frontend
+story: |
+  Axel fell in love with web design from an early age and he is
+  passionate about making good looking sites with a solid logic
+  foundation. In his free time, he enjoys reading, listening to
+  music, and playing adventure videogames.
+specialty: Product Analytics
+

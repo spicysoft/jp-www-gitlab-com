@@ -1,0 +1,31 @@
+---
+name: Drew Blessing
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer</a>, Manage:Authentication
+  and Authorization
+reports_to: michellegill
+picture: drew.jpg
+twitter: drewblessing
+gitlab: dblessing
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Authentication and Authorization BE Team
+- Core Team Alumni
+expertise: '<li><a href="https://docs.gitlab.com/ee/administration/auth/ldap/index.html">LDAP</a>
+  <a href="/company/team/structure/#expert">expert</a></li>
+
+  '
+story: |
+  Before joining the GitLab team, Drew was involved in the GitLab community as a member of the core team.
+  Outside of work Drew enjoys traveling, wrenching on his 1966 GMC truck, gardening, and spending time with his wife, son and their two dogs.
+domain_expertise:
+- manage
+projects:
+  gitlab: trainee_maintainer backend
+  rouge: maintainer
+specialty:
+- 'Manage: Authentication and Authorization'
+

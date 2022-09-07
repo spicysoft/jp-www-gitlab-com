@@ -1,0 +1,453 @@
+- name: Diversity - Women at GitLab
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: This is calculated as the percent of team members that identify as women through the EEOC Survey on the last day of the calendar month.
+  org: People Success
+  target:
+  is_key: true
+  public: true
+  health:
+    level: 2
+    reasons:
+      - Goal not met
+  sisense_data:
+    chart: 8677541
+    dashboard: 482006
+    embed: v2
+
+- name: Diversity - Women in Management
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: This is calculated as the number of women who are people managers at GitLab, at all levels of our org structure, divided by the the total numbers of people managers at GitLab, at all levels of our org structure, on the last day of the calendar month. It is measured as the percent of women in Workday with a Job Grade of 8+ and have at least one direct report.
+  org: People Success
+  target:
+  is_key: true
+  public: true
+  health:
+    level: 3
+    reasons:
+      - Goal achieved
+  sisense_data:
+    chart: 8676812
+    dashboard: 482006
+    embed: v2
+
+- name: Diversity -  Underrepresented Ethnicity
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: This is calculated as the number of underrepresented ethnicity team members that are at GitLab
+  org: People Success
+  target:
+  is_key: true
+  public: true
+  health:
+    level: 2
+    reasons:
+      - Under target
+
+- name: Diversity - Women in Senior Leadership and Executive Roles
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: This is calculated as the number of women in <a href="/company/team/structure/#senior-leaders">Senior Leadership</a> roles, which are  Directors, VPs, and Executives divided by the the total numbers of Senior Leaders and Executives on the last day of the calendar month. It is measured as the percent of women in Workday with a Job Grade of 10+ or CXO who are not on leave and have at least one direct report. The graph below is currently representative of hires so far in calendar year 2022.
+  org: People Success
+  target:
+  is_key: true
+  public: true
+  health:
+    level: 2
+    reasons:
+      - Below target
+  sisense_data:
+    chart: 9239007
+    dashboard: 482006
+    embed: v2
+
+- name: Offer Acceptance Rate
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: The number of offers accepted divided by the number of offers extended in a given month. In other words, if 50 offers were extended in June, the offer acceptance rate is the total number of those offers accepted divided by fifty. If an offer is extended June 30 but accepted July 1, it is presented in June's offer acceptance rate. This means that last month's numbers may change slightly as offers are accepted in the beginning of the next calendar month.
+  target:
+  org: People Success
+  is_key: true
+  public: true
+  health:
+    level: 2
+    reasons:
+      - Below Target
+  sisense_data:
+    chart: 6235279
+    dashboard: 482006
+    embed: v2
+    border: off
+
+- name: Release Agreement Acceptance
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Release agreement acceptance rate is the percentage of team members that accept the terms and conditions of the severance agreement. We are tracking this company-wide.
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 3
+    reasons:
+      - Release agreement acceptance has hit target
+
+- name: Team Member Retention (Rolling 12 Months)
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Team Member Retention = (1-(Number of Team Members leaving GitLab/Average of the 12 month Total Team Member Headcount)) x 100. GitLab measures team member retention over a rolling 12 month period, as well as over a calendar month. (The default period is over a rolling 12 month period.) In order to achieve the rolling 12 month team member retention target, the monthly team member total turnover target is < 1.3% (16/12).
+  target:
+  org: People Success
+  is_key: true
+  public: false
+  health:
+    level: 2
+    reasons:
+      - Under target
+  urls:
+    - https://app.periscopedata.com/app/gitlab/482006/People-KPIs?widget=6251791&udv=904340
+
+- name: Team Member Voluntary Retention (Rolling 12 Months)
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Team Member Voluntary Retention = Retention + Involuntary Turnover. GitLab measures team member voluntary retention over a rolling 12 month period, as well as over a calendar month. (The default period is over a rolling 12 month period.) In order to achieve the rolling 12 month team member voluntary retention target, the monthly metric must be >90%.
+  target:
+  org: People Success
+  is_key: true
+  public: false
+  health:
+    level: 2
+    reasons:
+      - Under target
+  urls:
+    - https://app.periscopedata.com/app/gitlab/482006/People-KPIs?widget=9592672&udv=904340
+
+- name: Voluntary Team Member Turnover (Rolling 12 Months)
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Voluntary turnover is any instance in which a team member actively chooses to leave GitLab. GitLab measures voluntary turnover over a rolling 12 month period, as well as over a calendar month.  (The default period is over a rolling 12 month period). In order to achieve the rolling 12 month voluntary team member turnover cap, the monthly voluntary team member turnover cap is < 0.83% (10/12). Rolling Voluntary Team Member Turnover = (Number of Team Members actively choosing to leave GitLab/Average Total Team Members Count) x 100. Industry Standard Turnover is <a href="https://radford.aon.com/insights/infographics/2017/technology/q1-2017-turnover-rates-hiring-sentiment-by-industry-at-us-technology-companies">22% overall</a>:15% voluntary and 7% involuntary for software companies.
+  target:
+  org: People Success
+  is_key: true
+  public: false
+  health:
+    level: 2
+    reasons:
+      - Under Target
+  urls:
+    - https://app.periscopedata.com/app/gitlab/482006/People-KPIs?widget=6873851&udv=904340
+
+- name: Onboarding Satisfaction (OSAT)
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: New team member feedback of the onboarding experience in a given month. The Onboarding Satisfaction target is > 4.5. Read more about how we measure satisfaction at GitLab.
+  target:
+  org: People Success
+  is_key: true
+  public: true
+  health:
+    level: 3
+    reasons:
+      - Goal Achieved
+  sisense_data:
+    chart: 6873595
+    dashboard: 482006
+    embed: v2
+    border: off
+
+- name: OSAT Buddy Experience Score
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: The Buddy Experience Score is a reflection of the <a href="/handbook/people-group/general-onboarding/onboarding-buddies/">buddy program experience</a> at GitLab. The Buddy Experience target score is >4.
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 3
+    reasons:
+      - Target met
+
+- name: Discretionary bonuses
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: The number of discretionary bonuses given divided by the total number of team members, in a given period as defined.
+  target:
+  org: People Success
+  is_key: true
+  public: true
+  health:
+    level: 3
+    reasons:
+      - Target Achieved
+  sisense_data:
+    chart: 6251794
+    dashboard: 482006
+    embed: v2
+    border: off
+
+- name: Promotion Rate
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: The total number of promotions excluding SDRs over a rolling 12 month period divided by the month end headcount excluding SDRs. The target promotion rate is 12% of the population with an average of a 10% OTE increase. The 12% promotion rate does not apply to SDRs who have a higher rate.  In addition, to understanding company level promotion rate, we look at promotion rates by gender.
+  target:
+  org: People Success
+  is_key: true
+  public: false
+  health:
+    level: 2
+    reasons:
+      - Above target
+  sisense_data:
+    chart: 9298897
+    dashboard: 482006
+    embed: v2
+    border: off      
+
+- name: Pay Equality
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Pay Equality is <a href='/handbook/people-group/people-group-metrics/#compensation-pay-equality'>measured</a> by percentage "compa ratio" (+/- 2 points within 100%) for <a href = '/company/culture/inclusion/#examples-of-select-underrepresented-groups'>underrepresented groups at GitLab as defined in Diversity, Inclusion & Belonging</a>.
+  target:
+  org: People Success
+  is_key: true
+  public: true
+  health:
+    level: 3
+    reasons:
+      - Target achieved
+
+- name: Percent of team members outside compensation band
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: This metric is manually calculated by the Total Rewards Team, and will be moved over once we start using Compass. The Total Rewards Analysts will analyze against how many team members in a division or department are compensated outside the bands specific by our Global Compensation policy. The weights being used are 0.25 for % outside top end of comp band between 0.01% to 4.9%; 0.5 for band between 5% to 9.9%; 0.75 for band 10% to 14.9%; 1 for anything 15%+.  The purpose of weighting how far over someone is from compensation band is to ensure if there are those outside of comp band slightly, they are not held at the same level as those hired well over rang
+  target:
+  org: People Success
+  is_key: true
+  public: false
+  health:
+    level: 2
+    reasons:
+      - Above target, moving in right direction
+
+- name: Compliance - People Data and HRIS Compliance
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: 100% accuracy of data held in HRIS for all team members where we have an entity or PEO. This PI also has as a goal to have documented and communicated policies for personal information data retention within our HRIS, their 100% implementation and 100% compliance. This KPI will be public when there is final implementation and audit of all data without our new HRIS.
+  target:
+  org: People Success
+  is_key: true
+  public: false
+  health:
+    level: 0
+    reasons:
+      - tbd
+
+- name: Compliance - Annual Mandated HR Reporting
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: 100% completion of all mandated, annual HR reports to all relevant Offices and Departments, most commonly being related to United States HR-related reports. This KPI cannot be public to protect the sensitive nature of these reports.
+  target:
+  org: People Success
+  is_key: false
+  public: false
+  health:
+    level: 0
+    reasons:
+      - tbd
+
+- name: Country Conversions completed within due date
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: 100% of country conversions completed within due date. 
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0
+    reasons:
+      - Ensure workable employment solutions as company scales and matures. 
+
+- name: Complete relocations within due date for eligible relocation requests, in alignment with the people business partners & total rewards.
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: 100% relocations within due date for eligible relocation requests, in alignment with the people business partners & total rewards.
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0
+    reasons:
+      - Completing relocations in a timely manner ensures compliance, a positive team member experience and reduced room for error for our payroll team. 
+
+- name: Number of All Remote Certifications.
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Number of complete certifications of the GitLab All-Remote Certification (Remote Work Foundation) by community members
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0
+    reasons:
+      - Awaiting full implementation of GitLab's Learning Experience Platform (EdCast) in FY21-Q4. 
+    urls:
+      - https://docs.google.com/spreadsheets/d/13UKcaaOiejE_DlLEVXY8Muq26ZinxONdD6SELGCkZfs/edit#gid=31432778
+
+- name: People Group Engineering Narrow MR Rate
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Narrow MR Rate is a performance indicator showing how many changes the People Group Engineering implements directly in the People Group Engineering products. The projects that are part of this group contributes to the efficiencies of the overall People Group. This is the ratio of MRs authored by team members in People Group Engineering to the number of team members in the People Group Engineering. It's important because it shows us how productivity within the People Group Engineering has changed over time.
+  target:
+  org: People Success
+  is_key: false
+  health:
+    level: 0
+    reasons:
+      - Unknown.
+  sisense_data:
+    chart: 10964205
+    dashboard: 820465
+    embed: v2
+
+- name: People Group Engineering Overall Handbook Update Frequency Rate
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: The handbook is essential to working remote successfully, to keeping
+    up our transparency, and to recruiting successfully. Our processes are constantly
+    evolving and we need a way to make sure the handbook is being updated at a regular
+    cadence. This data should be retrieved by querying the API with a python script for merge
+    requests that have files matching `/source/handbook/people-group/engineering/**` over time.
+  target:
+  org: People Success
+  is_key: false
+  health:
+    level: 0
+    reasons:
+      - Unknown.
+
+- name: People Group Engineering bug to first action
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Measurement of time that an issue is being reported and that the People Group
+    Engineers need to take action on it.
+  target:
+  org: People Success
+  is_key: false
+  health:
+    level: 0
+    reasons:
+      - Unknown.
+  sisense_data:
+    chart: 11317324
+    dashboard: 841677
+    embed: v2
+
+- name: People Group Engineering new requests are triaged
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Measurement of time that a new request is made and that the People Group
+    Engineers triage it.
+  target:
+  org: People Success
+  is_key: false
+  health:
+    level: 0
+    reasons:
+      - Unknown.
+  sisense_data:
+    chart: 11317472
+    dashboard: 841686
+    embed: v2
+
+- name: Percentage of team members utilizing GitLab Learn - Total users on GitLab Learn/Total Team Members
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Team members utilization GitLab Learn is defined as performing at least one activity listed in User Performance Metrics within GitLab Learn which includes total completions, total views, bookmarks, unique card views, contributions, etc. 
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0 
+    reasons:
+      - N/A
+  urls:
+    - https://docs.google.com/spreadsheets/d/1NxY5VWJlsQsOWmQrNAGPr7IIJ2Sa8qixXY7Et0cj45k/edit#gid=0
+
+- name: Percentage of team members utilizing GitLab Learn - active user on GitLab Learn
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Team members utilization GitLab Learn is defined as performing at least one activity listed in User   Performance Metrics within GitLab Learn which includes total completions, total views, bookmarks, unique card views, contributions, etc. 
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0
+    reasons:
+      - N/A
+  urls:
+    - https://docs.google.com/spreadsheets/d/1NxY5VWJlsQsOWmQrNAGPr7IIJ2Sa8qixXY7Et0cj45k/edit#gid=0
+
+- name: Total Number of Courses Completed on GitLab Learn
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Monthly number of courses completed on GitLab Learn
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0 
+    reasons:
+      - N/A
+  urls:
+    - https://docs.google.com/spreadsheets/d/1NxY5VWJlsQsOWmQrNAGPr7IIJ2Sa8qixXY7Et0cj45k/edit#gid=0
+
+- name: Total Number of Non-GitLab Team Members Completing Courses on GitLab Learn
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Monthly number of courses completed by non-GitLab team members
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0 
+    reasons:
+      - N/A
+  urls:
+    - https://docs.google.com/spreadsheets/d/1NxY5VWJlsQsOWmQrNAGPr7IIJ2Sa8qixXY7Et0cj45k/edit#gid=0
+
+- name: LinkedIn Learning - Average hours viewed per learner
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Monthly average of number of hours view per learner of content
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0 
+    reasons:
+      - N/A
+  urls:
+    - https://docs.google.com/spreadsheets/d/1NxY5VWJlsQsOWmQrNAGPr7IIJ2Sa8qixXY7Et0cj45k/edit#gid=0
+
+- name: Percentage of team members with 1 or more courses completed on LinkedIn Learning
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Monthly percentage of team members completing more than one course on LinkedIn Leanring
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0
+    reasons:
+      - N/A
+  urls:
+    - https://docs.google.com/spreadsheets/d/1NxY5VWJlsQsOWmQrNAGPr7IIJ2Sa8qixXY7Et0cj45k/edit#gid=0
+
+- name: Total courses completed on LinkedIn Learning
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Monthly number of courses completed on LinkedIn Learning
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0
+    reasons:
+      - N/A
+  urls:
+    - https://docs.google.com/spreadsheets/d/1NxY5VWJlsQsOWmQrNAGPr7IIJ2Sa8qixXY7Et0cj45k/edit#gid=0
+
+- name: Percentage of team members utilizing LinkedIn Learning
+  base_path: /handbook/people-group/people-success-performance-indicators/
+  definition: Percentage of team members utilizing LinkedIn Learning
+  target:
+  org: People Success
+  is_key: false
+  public: true
+  health:
+    level: 0
+    reasons:
+      - N/A
+  urls:
+    - https://docs.google.com/spreadsheets/d/1NxY5VWJlsQsOWmQrNAGPr7IIJ2Sa8qixXY7Et0cj45k/edit#gid=0

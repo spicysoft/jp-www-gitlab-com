@@ -1,0 +1,36 @@
+---
+name: Alexander Turinske
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer,
+  Govern:Security Policies</a>
+reports_to: nmccorrison
+picture: aturinske.jpg
+mentor: true
+gitlab: aturinske
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Govern Sub-department
+- Govern frontend capability
+- Govern:Security Policies FE Team
+- Frontend
+- Merge Request Coach
+projects:
+  gitlab: maintainer frontend
+expertise: '<li><a href="/job-families/expert/merge-request-coach/">Frontend Merge
+  Request Coach</a></li>
+
+  '
+story: "Alexander grew up in Wisconsin and has lived in Atlanta, San Francisco, and\nnow
+  Denver. He is classically trained as a physicist, but has dumped all that knowledge\nin
+  favor of building cool things on the web. He loves contributing to communities to
+  help\nothers and currently lives in an apartment building with seven of his friends
+  \nwhere they take turns cooking dinner. In his spare time he reads, runs, rock \nclimbs,
+  plays with his cat and tries to build his tolerance to spice.\n"
+specialty:
+- 'Protect: Container Security'
+

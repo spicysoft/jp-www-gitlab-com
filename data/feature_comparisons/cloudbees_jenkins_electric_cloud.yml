@@ -1,0 +1,1222 @@
+- name: Manage
+  icon: manage
+  selected: true
+  title: Gain visibility and insight into how your business is performing
+  description: GitLab helps teams manage and optimize their software delivery lifecycle with metrics and value stream insight in order to streamline and increase their delivery velocity. Learn more about how GitLab helps to manage your end to end value stream
+  url: /stages-devops-lifecycle/manage/
+  rows:
+    - title: Audit Management
+      description: Track important events for review and compliance such as who performed certain actions and the time they happened
+      text: Audit Management
+      url: https://docs.gitlab.com/ee/administration/audit_events.html
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Authentication and Authorization
+      description: GitLab features multiple auth mechanisms including LDAP (including Active Directory), OmniAuth, CAS, SAML, Okta, and Authentiq.
+      text: Authentication and Authorization
+      url: https://docs.gitlab.com/ee/administration/auth/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Cycle Analytics
+      description: Measure so you can manage. Cycle analytics give you data on how fast you are cycling and what steps are slowing you down so you can optimize.
+      text: Cycle Analytics
+      url: https://about.gitlab.com/stages-devops-lifecycle/value-stream-analytics/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: false
+        footer_text: DevOptics
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: DevOps Score
+      description: Get an overview of how well your organization is adopting DevOps and to see the impact on your velocity.
+      text: DevOps Score
+      url: https://docs.gitlab.com/ee/user/instance_statistics/dev_ops_score.html
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: false
+        footer_text: DevOptics
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Code Analytics
+      description: Monitor the health and quality of code assets and make necessary changes for continuous efficiency.
+      text: Code Analytics
+      url: https://gitlab.com/groups/gitlab-org/-/epics/717/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Workflow Policies
+      description: Create powerful custom workflows, roles and permissions that restrict an action unless certain conditions are met.
+      text: Workflow Policies
+      url: https://gitlab.com/groups/gitlab-org/-/epics/720/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Value Stream Management
+      description: Visualize, manage and optimize the flow of work through the DevOps lifecycle value stream.
+      text: Value Stream Management
+      url: https://about.gitlab.com/solutions/value-stream-management/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: false
+        footer_text: DevOptics
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+- name: Plan
+  icon: plan
+  selected: false
+  title: Regardless of your process, GitLab provides powerful planning tools to keep everyone synchronized
+  description: GitLab enables portfolio planning and management through epics, groups (programs) and milestones to organize and track progress. Regardless of your methodology from Waterfall to DevOps, GitLab’s simple and flexible approach to planning meets the needs of small teams to large enterprises. GitLab helps teams organize, plan, align and track project work to ensure teams are working on the right things at the right time and maintain end to end visibility and traceability of issues throughout the delivery lifecycle from idea to production
+  url: /stages-devops-lifecycle/plan/
+  rows:
+    - title: Project Management
+      description: Plan, organize, and track project progress with issues, kanban boards, labels, weights (story points), milestones (sprints and releases), time tracking, due dates, and assignees, using Scrum, Kanban, SAFe, and other methodologies.
+      text: Project Management
+      url: https://about.gitlab.com/product/project-management/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Kanban Boards
+      description: Visually prioritize, manage, and track work execution with powerful and flexible kanban boards.
+      text: Kanban Boards
+      url: https://about.gitlab.com/stages-devops-lifecycle/issueboard/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Time Tracking
+      description: Estimate, track, and report on time spent on issues.
+      text: Time Tracking
+      url: https://about.gitlab.com/solutions/time-tracking/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Agile Portfolio Management
+      description: Plan and manage strategic portfolios, programs, and projects with multi-level work breakdown epics, roadmaps, and milestones.
+      text: Agile Portfolio Management
+      url: https://about.gitlab.com/product/agile-portfolio-management/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Service Desk
+      description: Connect your team using GitLab issues, to external parties directly via email for feedback and support, with no additional tools required.
+      text: Service Desk
+      url: https://about.gitlab.com/stages-devops-lifecycle/service-desk/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: false
+        footer_text: Integration with ServiceNow
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Requirements Management
+      description: Gather and manage the use cases and requirements to meet business objectives.
+      text: Requirements Management
+      url: https://gitlab.com/groups/gitlab-org/-/epics/670/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Quality Management
+      description: Plan and track testing and quality of your product.
+      text: Quality Management
+      url: https://gitlab.com/groups/gitlab-org/-/epics/671/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+- name: Create
+  icon: create
+  selected: false
+  title: Create, view, and manage code and project data through powerful branching tools
+  description: GitLab helps teams design, develop and securely manage code and project data from a single distributed version control system to enable rapid iteration and delivery of business value. GitLab repositories provide a scalable, single source of truth for collaborating on projects and code which enables teams to be productive without disrupting their workflows.
+  url: /stages-devops-lifecycle/create/
+  rows:
+    - title: Source Code Management
+      description: Source code management enables coordination, sharing and collaboration across the entire software development team. Track and merge branches, audit changes and enable concurrent work, to accelerate software delivery.
+      text: Source Code Management
+      url: /stages-devops-lifecycle/source-code-management/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Code Review
+      description: Review code, discuss changes, share knowledge, and identify defects in code among distributed teams via asynchronous review and commenting. Automate, track and report code reviews.
+      text: Code Review
+      url: /stages-devops-lifecycle/code-review/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Wiki
+      description: Share documentation and organization information with a built in wiki.
+      text: Wiki
+      url: /stages-devops-lifecycle/source-code-management/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Web IDE
+      description: A full featured Integrated Development Environment (IDE) built into GitLab so you can start contributing on day one with no need to spend days getting all the right packages installed into your local dev environment.
+      text: Web IDE
+      url: https://docs.gitlab.com/ee/user/project/web_ide/index.html
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Snippets
+      description: Store and share bits of code and text with other users.
+      text: Snippets
+      url: https://docs.gitlab.com/ee/user/snippets.html
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text:
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Design Management
+      description: Review and share UI designs with versioning and point of interest discussions.
+      text: Design Management
+      url: https://gitlab.com/groups/gitlab-org/-/epics/370/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+    - title: Live Coding
+      description: Do pair programming directly in the Web IDE.
+      text: Live Coding
+      url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
+      columns:
+      - icon_url: /images/devops-tools/gitlab-logo.svg
+        icon_grayed: false
+        footer_text: On Roadmap
+      - icon_url: /images/devops-tools/cloudbees-logo.svg
+        icon_grayed: true
+        footer_text:
+      - icon_url: /images/devops-tools/jenkins-logo.svg
+        icon_grayed: false
+        footer_text: Plugins
+      - icon_url: /images/devops-tools/electric_cloud-logo.png
+        icon_grayed: true
+        footer_text:
+
+- name: Verify
+  icon: verify
+  selected: false
+  title: Keep strict quality standards for production code with automatic testing and reporting.
+  description: GitLab helps delivery teams fully embrace continuous integration to automate the builds, integration and verification of their code. GitLab’s industry leading CI capabilities enables automated testing, Static Analysis Security Testing, Dynamic Analysis Security testing and code quality analysis to provide fast feedback to developers and testers about the quality of their code. With pipelines that enable concurrent testing and parallel execution, teams quickly get insight about every commit, allowing them to deliver higher quality code faster.
+  url: /stages-devops-lifecycle/verify/
+  rows:
+      - title: Continuous Integration
+        description: Gain the confidence to ship at blistering speed and immense scale with automated builds, testing, and out-of-the-box security to verify each commit moves you forward.
+        text: Pipeline Execution
+        url: /stages-devops-lifecycle/pipeline-execution/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Code Quality
+        description: Automatically analyze your source code to surface issues and see if quality is improving or getting worse with the latest commit.
+        text: Code Quality
+        url: https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text: Via Integration
+
+      - title: Performance Testing
+        description: Be confident in the performance of your changes by ensuring that they are validated against real world load scenarios.
+        text: Performance Testing
+        url: https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text: Via Integration
+
+      - title: System Testing
+        description: Validate complex interactions, integration, and compatibility to ensure the reliability of the system under test.
+        text: System Testing
+        url: /direction/verify/system_testing/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text: Via Integration
+
+      - title: Usability Testing
+        description: Testing to ensure usability flows work and are actually understandable and valuable to your users.
+        text: Usability Testing
+        url: /direction/verify/system_testing/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text: Via Integration
+
+      - title: Accessibility Testing
+        description: Beyond being a compliance requirement in many cases, accessibility testing is the right thing to do.
+        text: Accessibility Testing
+        url: /direction/verify/accessibility_testing
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text: Via Integration
+
+- name: Package
+  icon: package
+  selected: false
+  title: Create a consistent and dependable software supply chain with built-in universal package management.
+  description: GitLab enables teams to package their applications and dependencies, manage containers, and build artifacts with ease. The private, secure Azure Container Registry and artifact repositories are built-in and preconfigured out-of-the box to work seamlessly with GitLab source code management and CI/CD pipelines. Ensure DevOps acceleration with automated software pipelines that flow freely without interuption.
+  url: /stages-devops-lifecycle/package/
+  rows:
+      - title: Package Registry
+        description: Every team needs a place to store their packages and dependencies. GitLab aims to provide a comprehensive solution, integrated into our single application, that supports package management for all commonly used languages and binary formats.
+        text: Package Registry
+        url: https://docs.gitlab.com/ee/user/project/packages/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text: Via Integration
+
+      - title: Container Registry
+        description: A secure and private registry for Docker images built-in to GitLab. Creating, pushing, and retrieving images works out of the box with GitLab CI/CD.
+        text: Container Registry
+        url: https://docs.gitlab.com/ee/user/project/packages/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text: Via Integration
+
+      - title: Dependency Proxy
+        description: The GitLab dependency proxy can serve as an intermediary between your local developers and automation and the world of packages that need to be fetched from remote repositories. By adding a security and validation layer to a caching proxy, you can ensure reliability, accuracy, and auditability for the packages you depend on.
+        text: Dependency Proxy
+        url: /direction/package/dependency_proxy
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Helm Chart Registry
+        description: Kubernetes cluster integrations can take advantage of Helm charts to standardize their distribution and install processes. Supporting a built-in helm chart registry allows for better, self-managed container orchestration.
+        text: Helm Chart Registry
+        url: /direction/package/helm_chart_registry
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Jenkins X
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+- name: Secure
+  icon: secure
+  selected: false
+  title: Security capabilities, integrated into your development lifecycle.
+  description: GitLab provides Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), Container Scanning, and Dependency Scanning to help you deliver secure applications along with license compliance.
+  url: /stages-devops-lifecycle/secure/
+  rows:
+      - title: SAST
+        description: Static Application Security Testing scans the application source code and binaries to spot potential vulnerabilities before deployment using open source tools that are installed as part of GitLab. Vulnerabilities are shown in-line with every merge request and results are collected and presented as a single report.
+        text: SAST
+        url: https://docs.gitlab.com/ee/user/application_security/sast/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: DAST
+        description: Dynamic Application Security Testing analyzes your running web application for known runtime vulnerabilities. It runs live attacks against a *Review App*, created for every merge request as part of the GitLab's CI/CD capabilities. Users can provide HTTP credentials to test private areas. Vulnerabilities are shown in-line with every merge request.
+        text: DAST
+        url: https://docs.gitlab.com/ee/user/application_security/dast/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Secrets Detection
+        description: Check for credentials and secrets in commits.
+        text: Secrets Detection
+        url: https://gitlab.com/groups/gitlab-org/-/epics/675
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Dependency Scanning
+        description: Analyze external dependencies (e.g. libraries like Ruby gems) for known vulnerabilities on each code commit with GitLab CI/CD. This scan relies on open source tools and on the integration with Gemnasium technology (now part of GitLab) to show, in-line with every merge request, vulnerable dependencies needing updating. Results are collected and available as a single report.
+        text: Dependency Scanning
+        url: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Container Scanning
+        description: Check Docker images for known vulnerabilities in the application environment. Analyze image contents against public vulnerability databases using the open source tool, Clair, that is able to scan any kind of Docker (or App) image. Vulnerabilities are shown in-line with every merge request.
+        text: Container Scanning
+        url: https://docs.gitlab.com/ee/user/application_security/container_scanning/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: License Compliance
+        description: Upon code commit, project dependencies are searched for approved and blacklisted licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution.
+        text: License Compliance
+        url: https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Vulnerability Database
+        description: GitLab integrates access to proprietary and open-source application security scanning tools. In order to maintain the efficacy of those scans, we strive to keep their underlying vulnerability databases up-to-date.
+        text: Vulnerability Database
+        url: /product/vulnerability-database
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: IAST
+        description: Interactive application security testing checks runtime behavior of applications by instrumenting the code and checking for error conditions. It is composed by an agent that lives inside the application environment, and an external component, like DAST, that can interact and trigger unintended results.
+        text: IAST
+        url: https://gitlab.com/groups/gitlab-org/-/epics/344e/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Fuzzing
+        description: Fuzzy testing increase chances to get results by using arbitrary payloads instead of well-known ones.
+        text: Fuzzing
+        url: https://gitlab.com/groups/gitlab-org/-/epics/344e/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+- name: Release
+  icon: release
+  selected: false
+  title: GitLab's integrated CD solution allows you to ship code with zero-touch, be it on one or one thousand servers.
+  description: GitLab helps automate the release and delivery of applications, shortening the delivery lifecycle, streamlining manual processes, and accelerating team velocity. With zero-touch Continuous Delivery (CD) built right into the pipeline, deployments can be automated to multiple environments like staging and production, and the system just knows what to do without being told - even for more advanced patterns like canary deployments. With feature flags, built-in auditing/traceability, on-demand environments, and GitLab pages for static content delivery, you'll be able to deliver faster and with more confidence than ever before.
+  url: /stages-devops-lifecycle/release/
+  rows:
+      - title: Continuous Delivery
+        description: Deliver your changes to production with zero-touch software delivery; focus on building great software and allow GitLab CD to bring your release through your path to production for you.
+        text: Continuous Delivery
+        url: https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Via Integration
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Release Orchestration
+        description: Management and orchestration of releases-as-code that supports intelligent notifications, scheduling of delivery and shared resources, blackout periods, relationships, parallelization, and sequencing, as well as support for integrating manual processes and interventions.
+        text: Release Orchestration
+        url: /direction/release/release_orchestration/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Via Integration
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Pages
+        description: Use any static site generator to create websites that are easily managed and deployed by GitLab.
+        text: Release Orchestration
+        url: /direction/release/release_orchestration/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Review Apps
+        description: Get a full production like environment for every merge request that updates on each commit. See code running and enable user acceptance testing before you merge.
+        text: Review Apps
+        url: /stages-devops-lifecycle/review-apps/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Jenkins X
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Incremental Rollout
+        description: Mitigate the risk of production deploys by deploying new production code to small subset of your fleet and then incrementally adding more.
+        text: Incremental Rollout
+        url: https://docs.gitlab.com/ee/topics/autodevops/index.html#incremental-rollout-to-production-premium
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Via Jenkins X
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Feature Flags
+        description: Feature flags enable teams to achieve CD by letting them deploy dark features to production as smaller batches for controlled testing, separating feature delivery from customer launch, and removing risk from delivery.
+        text: Feature Flags
+        url: https://docs.gitlab.com/ee/operations/feature_flags.html
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: CodeShip
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Release Governance
+        description: Release Governance includes features such as deploy-time security controls to ensure only trusted container images are deployed on Kubernetes Engine, and more broadly includes all the assurances and evidence collection that are necessary for you to trust the changes you're delivering.
+        text: Release Governance
+        url: /direction/release/release_governance/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Secrets Management
+        description: Use Vault embedded in GitLab for managing your secrets both inside and outside of GitLab.
+        text: Secrets Management
+        url: /direction/release/secrets_management/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+- name: Configure
+  icon: configure
+  selected: false
+  title: Configure your applications and infrastructure.gure
+  description: GitLab helps teams to configure and manage their application environments. Strong integration to Kubernetes reduces the effort needed to define and configure the infrastructure required to support your application. Protect access to key infrastructure configuration details such as passwords and login information by using ‘secret variables’ to limit access to only authorized users and processes.
+  url: /stages-devops-lifecycle/configure/
+  rows:
+      - title: Auto DevOps
+        description: Commit your code and GitLab does the rest to build, test, deploy, and monitor automatically. Eliminate the complexities of getting going with automated software delivery by automatically setting up the pipeline and necessary integrations, freeing up your teams to focus on the culture part.
+        text: Auto DevOps
+        url: /stages-devops-lifecycle/auto-devops/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Jenkins X
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Jenkins X
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Kubernetes Configuration
+        description: Create and manage Kubernetes clusters with a few clicks. Install applications with a single click.
+        text: Kubernetes Configuration
+        url: /solutions/kubernetes/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Jenkins X
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: ChatOps
+        description: Tight integrations with Slack and Mattermost make it easy to manage and automate software development and delivery right from your chat app.
+        text: ChatOps
+        url: https://docs.gitlab.com/ee/ci/chatops/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Via Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Runbook Configuration
+        description: Runbooks are a collection of documented procedures that explain how to carry out a particular process, be it starting, stopping, debugging, or troubleshooting a particular system. Executable runbooks allow operators to execute pre-written code blocks or database queries against a given environment.
+        text: Runbook Configuration
+        url: https://docs.gitlab.com/ee/user/project/clusters/runbooks/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Serverless
+        description: Run cloud-agnostic serverless workloads on Kubernetes, deployed via GitLab CI/CD.
+        text: Serverless
+        url: /topics/serverless/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Jenkins X + Plugins
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: PaaS
+        description: Develop, run, and manage applications without the complexity of building and maintaining the infrastructure.
+        text: PaaS
+        url: https://gitlab.com/groups/gitlab-org/-/epics/111/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Cluster Cost Optimization
+        description: Optimize cloud spend and managing capacity to avoid performance degradation and application outages.
+        text: Cluster Cost Optimization
+        url: https://gitlab.com/groups/gitlab-org/-/epics/503/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+- name: Monitor
+  icon: monitor
+  selected: false
+  title: Automatically monitor metrics so you know how any change in code impacts your production environment.
+  description: You need feedback on what the effect of your release is in order to do release management. Get monitoring built-in, see the code change right next to the impact that it has so you can respond quicker and effectively. No need to babysit deployment to manually get feedback. Automatically detect buggy code and prevent it from affecting the majority of your users.
+  url: /stages-devops-lifecycle/monitor/
+  rows:
+      - title: Metrics
+        description: GitLab collects and displays performance metrics for deployed apps, leveraging Prometheus. Developers can determine the impact of a merge and keep an eye on their production systems, without leaving GitLab.
+        text: Metrics
+        url: /direction/monitor/apm/metrics/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Logging
+        description: GitLab makes it easy to view the logs of running pods in connected Kubernetes clusters. By displaying the logs directly in GitLab, developers can avoid having to manage console tools or jump to a different interface.
+        text: Logging
+        url: /direction/monitor/apm/logging/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Tracing
+        description: Tracing provides insight into the performance and health of a deployed application, tracking each function or microservice which handles a given request. This makes it easy to understand the end-to-end flow of a request, regardless of whether you are using a monolithic or distributed system.
+        text: Tracing
+        url: https://docs.gitlab.com/ee/operations/tracing.html
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Cluster Monitoring
+        description: Out-of-the-box Kubernetes cluster monitoring lets you know the health of your deployment environments with traceability back to every issue and code change as part of a single application for end-to-end DevOps.
+        text: Cluster Monitoring
+        url: /direction/monitor/debugging_and_health/cluster_monitoring/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: false
+          footer_text: Jenkins X
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Error Tracking
+        description: Error tracking allows developers to easily discover and view the errors that their application may be generating. By surfacing error information where the code is being developed, efficiency and awareness can be increased.
+        text: Error Tracking
+        url: /direction/monitor/debugging_and_health/error_tracking/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:
+
+      - title: Incident Management
+        description: Track incidents within GitLab, providing a consolidated location to understand the who, what, when, and where of the incident. Define service level objectives and error budgets, to achieve the desired balance of velocity and stability.
+        text: Incident Management
+        url: /direction/monitor/debugging_and_health/incident_management/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text:
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text: Via Integration
+
+      - title: Digital Experience Management
+        description: Digital experience management includes both real user monitoring (passive) and synthetics monitoring (active) to allow developers to detect problems in end-to-end workflows and understand real-world performance as experienced by users.
+        text: Digital Experience Management
+        url: /direction/monitor/debugging_and_health/digital_experience_management/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text: Via Integration
+
+      - title: Status Page
+        description: Easily communicate the status of your services to users and customers.
+        text: Status Page
+        url: /direction/monitor/debugging_and_health/status_page/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: false
+          footer_text: Plugins
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: false
+          footer_text:
+
+- name: Govern
+  icon: govern
+  selected: false
+  title: Protect your apps and infrastructure from security intrusions.
+  description: GitLab provides runtime application security, threat detection and management, data security, and application infrastructure security.
+  url: /stages-devops-lifecycle/govern/
+  rows:
+
+      - title: Vulnerability Management
+        description: Security dashboards to help you manage vulnerabilities in your application.
+        text: Vulnerability Management
+        url: https://gitlab.com/groups/gitlab-org/-/epics/797/
+        columns:
+        - icon_url: /images/devops-tools/gitlab-logo.svg
+          icon_grayed: false
+          footer_text: On Roadmap
+        - icon_url: /images/devops-tools/cloudbees-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/jenkins-logo.svg
+          icon_grayed: true
+          footer_text:
+        - icon_url: /images/devops-tools/electric_cloud-logo.png
+          icon_grayed: true
+          footer_text:

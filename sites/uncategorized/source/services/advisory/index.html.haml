@@ -1,0 +1,48 @@
+---
+title: Advisory Services
+suppress_header: true
+description: "GitLab Professional Services experts can help you maximize your investment in GitLab."
+canonical_path: "/services/advisory/"
+extra_css:
+  - services.css
+---
+
+.wrapper
+  .simple-header
+    %h1
+      Advisory Services
+    %h3.headline-subtitle
+      Learn from the GitLab Experts
+
+.services-inner
+  .page-container.container
+    %ol.breadcrumb
+      %li 
+      = breadcrumbs(current_page)
+    .row
+      .col-md-10.col-md-offset-1.tile
+        %h2 Maxmize your investment in GitLab by learning from the experts
+        %p.service-para
+          The GitLab platform provides an opportunity to transform the way your business operates. But making that transition from your legacy way of working to a more efficient and effective value stream can be challenging. Engage with GitLab experts to solve specific challenges or keep a GitLab Expert on retainer to help guide you on your journey. 
+        %p.service-para
+          GitLab provides the following offerings that differ in commercial structure and methodology.
+
+        .row
+          .col-md-6
+            .panel.panel-gitlab-purple
+              .panel-heading
+                %h3.panel-title Advisory Workshop
+              .panel-body
+                %p.overview
+                  Advisory workshops focus on a specific workflow, feature, or functional section of GitLab. We learn about your goals and provide an example of how to solve the problem with GitLab. 
+                = link_to "Learn More", "/services/advisory/advisory-workshop", class: "btn cta-btn purple center"
+          .col-md-6
+            .panel.panel-gitlab-purple
+              .panel-heading
+                %h3.panel-title Expert Services 
+              .panel-body
+                %p.overview
+                  For customers who might not know exactly what they need help with at the time of their license purchase/expansion, we can provide guidance on a wide range of topics including best practices, workflows, GitLab implementation, and data migration.  
+                = link_to "Learn More", "/services/advisory/expert-services/", class: "btn cta-btn purple center"
+
+= partial "includes/services-contact-form"

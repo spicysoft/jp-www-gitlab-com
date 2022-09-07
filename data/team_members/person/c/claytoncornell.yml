@@ -1,0 +1,35 @@
+---
+name: Clayton Cornell
+locality:
+country: Remote
+role: <a href="/job-families/engineering/technical-writer/">Senior Technical Writer</a>
+reports_to: dianalogan
+picture: claytoncornell.jpg
+pronouns:
+pronunciation:
+twitter:
+linkedin: smaug42
+gitlab: claytoncornell
+departments:
+- Engineering Function
+- UX Department
+- Technical Writing
+projects:
+  gitlab: maintainer docs
+  gitlab-docs: maintainer
+  omnibus-gitlab: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
+specialty:
+- 'Package: Package'
+- 'Govern: Threat Insights'
+- 'Secure: Vulnerability Research'
+- 'Govern: Security Policies'
+- 'Growth: Product Intelligence'
+expertise:
+story: Clayton comes from an Electrical Engineering background and has written documentation
+  spanning semiconductor manufacturing to open-source software. Clayton loves the
+  open-source world and spends way too much of his spare time installing yet another
+  Linux distro on his personal computer. When he's not documenting all the things,
+  Clayton is probably traveling in Europe and Africa or playing computer games with
+  his kids.

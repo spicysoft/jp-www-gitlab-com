@@ -1,0 +1,58 @@
+---
+layout: markdown_page
+title: "Product Direction - Monitor"
+description: "Observability, incident management to help you deliver reliable and performant applications"
+canonical_path: "/direction/monitor/"
+---
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+This is the product direction for Monitor. 
+
+<%= devops_diagram(["Monitor"]) %>
+
+## Vision
+Keeping applications available and performant is table stakes for every business. 
+
+Our vision is to make every GitLab project observable by default, with monitoring tool that is easy to operate without specialized, expert skills. Teams can connect the dots between every [deployment](/direction/deployment), incident, and other noteworthy events using and collaborating with telemetry data, which ultimately decreases the frequency and severity of production issues.
+
+## Market
+The Monitor stage directly competes in several [markets defined within our Ops Section](/direction/ops/#market), including Application Performance Monitoring (APM), Log Management, Infrastructure Monitoring, IT Service Management (ITSM), Digital Experience Management (DEM) and Product Analytics. The total addressable market for the Monitor stage is projected to be [$2.7 billion](https://internal-handbook.gitlab.io/handbook/product/investment/) by 2024. 
+
+These markets are competitive and innovative, with winning companies achieving spectacular growth as businesses continue to shift online.
+
+Successful vendors, such as market leader [Datadog](https://www.datadoghq.com/) are leveraging a [platform strategy](https://mitsloan.mit.edu/ideas-made-to-matter/platform-strategy-explained) to expand their markets (for example, see DataDog's [acquisition of Undefined Labs to expand beyond production applications to provide code insights during development](https://drive.google.com/file/d/1hq74bZvBv5nD6Krmi-iaSsdqA9ChOf1r/view), or their expansion to [incident management in 2020](https://www.datadoghq.com/blog/dash-2020-new-feature-roundup/)). Competition among market leaders today is also geared toward making the whole stack observable for enterprises. [New Relic's updated business model](https://blog.newrelic.com/product-news/new-relic-one-observability-made-simple/) reflects the need for vendors to capture the increasing footprint (and spend) of enterprises while enabling future growth by making a significant part of their business free.
+
+### Opportunities
+
+Build a complete DevOps platform with monitoring out-of-the-box.
+1. With development shifting cloud-native and massive community-driven investment in tools and patterns, the opportunity to build boring solutions on top of the cloud-native solutions plays right to GitLab's strength.
+1. Instrumentation is commoditized. GitLab will not need to invest in agents since [OpenTelemetry](https://opentelemetry.io) and most vendor agents are all open source and designed to work with multiple backends.
+1. Out-of-the-box monitoring capabilities saves time and money and lower the bar on the expertise required for enterprises and start-ups. The ease by which most users can start monitoring their service, using established vendors, such as DataDog or New Relic, and newer competitors like Honeycomb, is something we should strive to emulate, but do so using open source tools.
+1. Shift left. Monitoring is traditionally for production, there are opportunities to shift monitoring tools and techniques left so that developers can benefit from monitoring in development and staging environments.
+
+### Challenges
+
+1. Monitoring vendors offer generous free tiers (e.g. [New Relic](https://newrelic.com/pricing) and [Honeycomb](https://www.honeycomb.io/pricing/)) for smaller companies and complete solutions for enterprises.
+1. Huge investments are being made by market leaders. Market leaders are also expanding the scope of their solutions. This makes them more sticky with their customers.
+1. Monitoring must meet a high bar to be trusted in production. Running large scale monitoring systems is difficult and will be a big challenge for GitLab.
+1. Currently, GitLab and the GitLab Observability UI are separate applications, integrating the UX is a challenge.
+
+### Partnerships with Observability vendors
+Observability is a cornerstone of a complete DevOps platform. As such, GitLab will include an on-by-default observability solution. In addition, we plan to build a vendor-agnostic continuous verification capability, enabling and encouraging partners to add their own solutions, thereby expanding customer choice.
+ 
+## What’s next?
+
+The Monitor stage currently consists of two development groups. 
+
+The Observability group will be focused on making the [GitLab Observability Platform](/direction/monitor/observability/) and a dashboarding tool, the GitLab Observability UI, available to all GitLab users. 
+
+The Respond group will be focused on [Incident Management](/direction/monitor/debugging_and_health/incident_management), [on-call schedule management](/direction/monitor/debugging_and_health/on-call_schedule_management/), and contributing toward [deployment](/direction/deployment/) by adding [Continuous Verification](/direction/deployment/#continuous-verification) capabilities to the platform. 
+
+### Deprecation of previous capabilities
+
+We deprecated and removed the legacy Logging and Tracing capabilities that were previously available and plan to offer replacement via the GitLab Observability Platform and the GitLab Observability UI. The legacy Metrics capability has been deprecated and is planned for removal in 16.0.

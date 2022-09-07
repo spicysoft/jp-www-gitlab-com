@@ -1,0 +1,94 @@
+---
+layout: markdown_page
+title: "Group Direction - Source Code"
+description: "Overall direction for the Source Code group"
+canonical_path: "/direction/create/source_code_management/"
+---
+
+- TOC
+{:toc}
+
+## The Source Code group
+
+This is the direction page for the Source Code group which is part of the [Create stage](/direction/dev/index.html#create) of the DevOps lifecycle and is responsible for the following categories:
+
+|  Category   |   Direction  |  Description | Maturity  |
+|  ---   |   ---   |   ---   |  ---  |
+| Source Code Management | [Direction Page](/direction/create/source_code_management/source_code_management/) | Core workflows and controls for teams to collaborate using Git | [Loveable](/direction/maturity/) |
+
+
+## Group Goals
+Source Code Management group aims to provide the core workflows and controls for teams to collaborate using Git to build great software.
+
+## What we are currently working on
+
+- [Source code rules - MVC](https://gitlab.com/groups/gitlab-org/-/epics/8075) - We are bringing the settings for protected branches and merge request approvals conveniently in one single place under Settings > Repository > Branch rules. Moreover, as the name suggests, they will be viewed through the lens of a branch as they naturally relate to such. While no functionality will be changed this significantly improves discoverability and intelligibility of your settings. Previously, these settings were in far apart places making them hard to understand as we learned from user feedback including a recent SUS study.
+
+- GitLab is working on [making GitLab.com FedRamp compliant](https://about.gitlab.com/solutions/public-sector/fedramp/) and the source code team it contributing its share of work ([internal link](https://gitlab.com/groups/gitlab-org/-/epics/7987)).
+
+- We have missed our group's availability targets of 99.95% every month since April. (Worst case was in June with 99.87%.) The [root cause has been identified](https://gitlab.com/gitlab-org/gitlab/-/issues/360578.) to be a recurring CPU saturation at peak times in underlying infrastructure. It needs to be fixed on multiple levels by the source code team, the code review team and the scalability team. The work is expected to finalize around 15.4. By then it is expected that the availability hits the targets again.
+
+- Next to such bigger efforts, we also spend capacity on smaller [issues raised by customers](https://gitlab.com/groups/gitlab-org/-/issues/?sort=closed_desc&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=customer&label_name%5B%5D=Deliverable&milestone_title=Upcoming&first_page_size=20) as we have a long list of such and want to start burning these downs after having focused on GitLab.com stability and security for a long time.
+
+- As mentioned above, we also continue to spend a significant portion of our capacity on [scalability of GitLab.com](https://gitlab.com/groups/gitlab-org/-/issues/?sort=closed_desc&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=infradev&label_name%5B%5D=Deliverable&milestone_title=Upcoming&first_page_size=20), [performance](https://gitlab.com/groups/gitlab-org/-/issues/?sort=closed_desc&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=bug%3A%3Aperformance&label_name%5B%5D=Deliverable&milestone_title=Upcoming&first_page_size=20) and [security](https://gitlab.com/groups/gitlab-org/-/issues/?sort=closed_desc&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=security&label_name%5B%5D=Deliverable&milestone_title=Upcoming&first_page_size=20) to keep up the good level that we have achieved after massive work in 2021 and early 2022 in these domains.
+
+In our [milestone planning issues under our prioritization & Planning epic](https://gitlab.com/groups/gitlab-org/-/epics/6592#planning-issues) you find a detailed view of work done in each iteration. In the same epic, you also find our working list for prioritization.
+
+## What's Next & Why
+
+- [Framework for Source Code Rules](https://gitlab.com/groups/gitlab-org/-/epics/6351)
+
+   GitLab offers a number of controls that can be implemented as safeguards. These controls such as protected branches, approval rules, code owners' approvals and many more can be put in place to enforce adherence to policies that ensure quality. A recent SUS study and other feedback suggest that users struggle finding the different controls and struggle understanding which settings interact how. [Framework for Source Code Rules](https://gitlab.com/groups/gitlab-org/-/epics/6351) aims at making it easier and more intuitive to administer your Source Code management tool. To do so we are bringing the different controls together into one single place and will organize them on a per-branch basis.
+
+   The [Source code rules - MVC](https://gitlab.com/groups/gitlab-org/-/epics/8075) currently being worked on.
+
+   After its release, we intend to also [move security approvals under branch rules](https://gitlab.com/gitlab-org/gitlab/-/issues/368467).
+
+   Long-term we will consider also moving settings under per-branch view that currently don't relate to branches but might benefit from attaching them to branches such as status checks or merge checks.
+
+- [Reorganize merge strategies](https://gitlab.com/groups/gitlab-org/-/epics/7705)
+
+   There are different ways for development teams to set up merge strategies depending on their software development, code review, and compliance practices. While we encourage customers practice [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html), we also need to support different strategies as there is no one right way for our customers. This effort streamlines the settings that allow users to create different flows and adds the option.
+
+- Improvements to [Code owners](https://gitlab.com/groups/gitlab-org/-/epics/5886)
+
+   Large organizations with many projects and large projects need to enforce review policies so that they can ensure the correct teams and individuals review changes that impact them. File owners will be automatically added to related Merge Requests (separate feature), but it is also necessary to add controls to prevent changes directly to important branches without approval.
+
+   We should continue to improve on the [first iteration of code owners]( https://gitlab.com/groups/gitlab-org/-/epics/77). [WIP opportunity canvas can be found here](https://gitlab.com/gitlab-org/gitlab/-/issues/329980) - only accessible to internal GitLab team members.
+
+   - [Make it easy to get started with CODEOWNERS](https://gitlab.com/groups/gitlab-org/-/epics/5888)
+
+   - [Allow multiple approvals per CODEOWNER or CODEOWNER section](https://gitlab.com/gitlab-org/gitlab/-/issues/335451)
+
+- Improvements to the list of commits
+
+   - [Better display of tags in commits list view](https://gitlab.com/gitlab-org/gitlab/-/issues/18795)
+
+   - [Better display of tags and branches in commit view](https://gitlab.com/gitlab-org/gitlab/-/issues/325871)
+
+
+## Recent planning issues for more details
+- [Source Code Planning 15.4](https://gitlab.com/gitlab-org/create-stage/-/issues/13038)
+- [Source Code Planning 15.3](hhttps://gitlab.com/gitlab-org/create-stage/-/issues/13025)
+- [Source Code Planning 15.2](https://gitlab.com/gitlab-org/create-stage/-/issues/13017)
+- [Source Code Planning 15.1](https://gitlab.com/gitlab-org/create-stage/-/issues/13012)
+- [Source Code Planning 15.0](https://gitlab.com/gitlab-org/create-stage/-/issues/12990)
+- [Source Code Planning 14.10](https://gitlab.com/gitlab-org/create-stage/-/issues/12987)
+
+## Links and resources
+- [Source Code HQ Epic](https://gitlab.com/groups/gitlab-org/-/epics/5768)
+- Team Pages
+   - [BE team](https://about.gitlab.com/handbook/engineering/development/dev/create/source-code-be/)
+   - [FE team](https://about.gitlab.com/handbook/engineering/development/dev/create/code-review/frontend/)
+- [GitLab Unfiltered Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqB5Css4h_L6IPf-b14pTPt)
+
+#### Git LFS
+
+Git LFS (Large File Storage) is a Git extension, which reduces the impact of large files in your repository by downloading the relevant versions of them lazily. Specifically, large files are downloaded during the checkout process rather than during cloning or fetching..
+
+##### Use cases
+
+1. Version large files—even those as large as a couple GB in size—with Git.
+1. Automatically detect LFS-tracked files and clone them via HTTP
+1. Download less data. This means faster cloning and fetching from repositories that deal with large files.
+1. Host more in your Git repositories. External file storage makes it easy to keep your repository at a manageable size.

@@ -1,0 +1,22 @@
+name: Jon Jenkins
+locality: 
+country: Remote
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>
+reports_to: alexives
+picture: jjenkins.jpg
+pronouns: he/him/his
+pronunciation:
+twitter:
+linkedin: thejonjenkins
+gitlab: jon_jenkins
+departments:
+  - Development
+specialty: Database
+expertise:
+story: |
+  Jon has a passion for technology. He has been programming anything he can get his hands on from an early
+  age, including a Commodore 64 and a 486DX-powered PC. These days, he is a member of the GitLab Database
+  team, brought there by an interest in dev ops tooling and enablement. In his spare time, he enjoys
+  spending time with his family, cycling, cooking, studying languages, playing various instruments,
+  and reading high fantasy literature.
+

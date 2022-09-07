@@ -1,0 +1,21 @@
+name: John Mason
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/">Senior Backend Engineer, Global Search</a>
+reports_to: cliu
+picture: JohnMason.png
+pronouns:
+pronunciation:
+twitter:
+linkedin:
+gitlab: john-mason
+departments:
+  - Development
+specialty: Global Search
+expertise:
+story:
+projects:
+  gitlab:
+    - trainee_maintainer backend
+
+

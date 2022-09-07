@@ -1,0 +1,19 @@
+---
+name: New Vacancy
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Verify:Pipeline Execution</a>
+reports_to: carolinesimpson
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+  - Engineering Function
+  - Development Department
+  - Ops Sub-department
+  - Verify:Pipeline Execution Group
+  - Verify:Pipeline Execution BE Team
+expertise:
+story: |
+  Open Position

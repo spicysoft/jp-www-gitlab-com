@@ -1,0 +1,29 @@
+---
+name: Steve Azzopardi
+locality:
+country: Remote
+role: <a href="/job-families/engineering/infrastructure/site-reliability-engineer/">Senior Site Reliability Engineer</a>, Systems:Gitaly
+reports_to: kwanyangu
+picture: steveazzopardi.jpg
+gitlab: steveazz
+departments:
+- Engineering Function
+- Infrastructure Department
+- Reliability Team
+- Gitaly Group Reliability Stable Counterpart
+projects:
+  labkit: maintainer
+  gitlab:
+    - trainee_maintainer workhorse
+  release-cli: maintainer
+  gitlab-technical-interviews-backend: maintainer
+domain_expertise:
+- runner
+story: |
+  For Steve building software is more than just a job; it’s his
+  passion. Being a big advocate for Open Source Software, GitLab is
+  the perfect place for him to help grow a community around Open
+  Source Software.
+
+  Tea and cat lover.
+specialty: Runner

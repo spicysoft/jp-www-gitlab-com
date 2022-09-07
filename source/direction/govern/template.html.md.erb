@@ -1,0 +1,151 @@
+---
+layout: secure_and_protect_direction
+title: Product Stage Direction - Govern
+description: "GitLab Govern helps users manage security vulnerabilities, policies, and compliance across their organization. Learn more!"
+canonical_path: "/direction/govern/"
+---
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+<p align="center">
+    <font size="+2">
+        <b>Organization-wide security vulnerability, policy, and compliance management</b>
+    </font>
+</p>
+
+<%= partial("direction/govern/templates/overview") %>
+
+<%= devops_diagram(["Govern"]) %>
+
+## Stage Overview
+
+The Govern stage provides the capabilities necessary to meet security and compliance requirements for organizations at any scale, from one project to tens of thousands of projects. This includes the ability to manage policies centrally, at scale, and have them apply to projects across the organization.
+
+### Groups
+
+The Govern Stage is made up of three groups:
+
+* Compliance - Provide users with the tools and features necessary to manage their compliance programs.
+* Security Policies - Apply policies to enforce scans and to require security approvals when vulnerabilities are found.
+* Threat Insights - Holistically view, manage, and reduce potential risks across the entire DevSecOps lifecycle.
+
+### Resourcing and Investment
+
+The existing team members for the Govern Stage can be found in the links below:
+
+* [Development](https://about.gitlab.com/company/team/?department=govern-section)
+* [User Experience](https://about.gitlab.com/company/team/?department=govern-ux-team)
+* [Product Management](https://about.gitlab.com/company/team/?department=govern-pm-team)
+* [Quality Engineering](https://about.gitlab.com/company/team/?department=sec-modelops-qe-team)
+
+## 3 Year Stage Themes
+
+<%= partial("direction/govern/templates/themes") %>
+
+## 3 Year Strategy
+
+Building on those themes, some specific capabilities that we envision developing over the next 3 years include the following:
+
+** Security Policy Management **
+
+1. A unified policy management experience for all security policies, spanning GitLab's stages. The policy editor will be both versatile and easy to use. By providing clear information about what policies are deployed, misconfigurations and accidental security holes can be avoided.
+1. The ability to proactively notify users about newly discovered vulnerabilities in production or in the default branch.
+1. The ability to craft granular custom policies to address a wide range of policies to meet governance and compliance needs.
+
+** Vulnerability Management **
+
+1. Powerful searching, filtering, and grouping of vulnerability and dependency information. This will streamline triage workflows and make it easier to locate specific risks anywhere in your organization’s codebase.
+1. Enhanced visibility provided by proactive alerts, configurable dashboards, and customizable reports will put the right information in the right form at the right time. 
+1. Custom risk profiles let your organization determine the business criticality of projects and assets. This will enable risk-based decision making to maximize return on security efforts.
+
+## 1 Year Plan
+
+Over the next 12 months, the Govern stage is focused on expanding the capabilities of the Security Policies and Threat Insights groups.  Some of the key initiatives include the following:
+
+* Providing security policy management capabilities at the group and workspace levels.
+* Extending security policy management capabilities to cover all of GitLab's security scanners.
+* Improved searching and filtering for dependencies and vulnerabilities.
+* Leveraging the policy engine for vulnerability management including auto-resolving no longer detected vulnerabilities.
+
+### What We're Not Doing
+
+Although we will likely address many of these areas in the future (as described above in our [3 year strategy](/direction/govern/#3-year-strategy)), we are not planning to make progress on the following initiatives in the next 12 months:
+* Attempting to build our own Security Information and Event Management (SIEM) system
+* Building analytics or algorithms to auto-tune or auto-recommend policy improvements
+
+## Competitive Landscape
+
+This area is currently being re-evaluated
+
+## Key Performance Metrics
+
+The following metrics are used to evaluate the success of the Govern stage:
+
+* **Stage Monthly Active Users**: This is the total number of users that have interacted with GitLab's Vulnerability Management in the last 28 days of the given month.
+
+Note: We are not currently evaluating the success of the Govern stage based on the Security Policy Management category, as we do not yet have reliable metrics for this area.
+
+## Target Audience
+GitLab identifies who our DevSecOps application is built for utilizing the following categorization. We list our view of who we will support when in priority order.
+* 🟩- Targeted with strong support
+* 🟨- Targeted but incomplete support
+* ⬜️- Not targeted but might find value
+
+### Today
+To capitalize on the opportunities listed above, the Govern Stage has features that make it useful to the following personas today.
+1. 🟩  Developers / Development Teams
+1. 🟩  Application Security Teams
+1. 🟨️  Compliance Specialists / Manager
+1. 🟨  Infrastructure Security Teams
+
+### Medium Term (1-2 years)
+As we execute our [3 year strategy](#3-year-strategy), our medium term (1-2 year) goal is to provide a single DevSecOps application that enables SecOps to work collaboratively with DevOps and development to mitigate vulnerabilities in production environments.
+1. 🟩  Developers / Development Teams
+1. 🟩  Application Security Teams
+1. 🟩  Compliance Specialists / Manager
+1. 🟩  Infrastructure Security Teams
+
+## Pricing
+
+<%= partial("direction/govern/templates/pricing") %>
+
+<%= partial("direction/categories", :locals => { :stageKey => "govern" }) %>
+
+## Other Top Level Features
+
+Govern has several features that help teams provide necessary governance for their organizations.
+
+#### Policy Management
+
+GitLab's security policies page provides the flexibility of managing policies directly in code or in a streamlined UI editor.  As part of the long-term vision for the policy management experience, users will be able to view a complete history of all changes and easily revert to a previous version.  A two-step approval process can optionally be enforced for all policy changes.  Eventually the policy management UI will be extended to provide visibility into the performance overhead of each policy.  Suggestions into policy adjustments that might help either reduce false positives or increase overall security coverage will be provided in this section as well.
+
+#### Security Approvals
+
+Security approvals define when and how security teams get involved in the development workflow.  The vision for this area is to provide a highly granular level of approval definition functionality at the project, group, and workspace levels.  These capabilities will be tightly integrated with the Security Policy editor to allow for separation of duties for security teams.
+
+### Security Dashboards
+
+Security Dashboards, available at the [group](https://docs.gitlab.com/ee/user/application_security/security_dashboard/)
+and [project](https://docs.gitlab.com/ee/user/application_security/security_dashboard/index.html) level, are the primary tool for Security Teams and Directors of Security. They can use those
+dashboards to access the current security status of their applications and to start a
+remediation process from there.
+
+The dashboard also provides data and charts to summarize how the team is
+performing against their goals to maintain proper levels of security risk.
+
+## Upcoming Releases
+
+<%= direction["all"]["all"] %>
+
+<%= partial("direction/other", :locals => { :stage => "govern" }) %>
+
+<p align="center">
+    <i><br />
+    Last Reviewed: 2022-09-01<br />
+    Last Updated: 2022-09-01
+    </i>
+</p>

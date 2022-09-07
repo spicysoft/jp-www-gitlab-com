@@ -1,0 +1,67 @@
+---
+layout: markdown_page
+title: "Product Direction - Release"
+description: "This is the GitLab direction page for the Release stage. The Release stage is the point at which an application is ready for deployment."
+canonical_path: "/direction/release/"
+---
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+This is the product direction for the Release stage. This direction is aligned with the broader [Deployment Direction](/direction/deployment).
+
+### Mission
+Help our customers deploy software to production.
+
+### Vision
+Our vision is to enable organizations and teams to perform all software deployment activities easily, confidently, and safely. GitLab helps teams collaborate on what needs to be done to ensure software is ready to be shipped to production. GitLab aims to automate as much of these activities as possible leveraging existing data and integrating with other DevOps stages in the platform.
+
+### Letter from the Editor - FY23
+To the GitLab Community and customers,
+
+In the next year, we will be executing on our exciting deployment vision to enable organizations to make deployments easy, flexible, and secure. We have recently shipped a new design for the Environments page to make it easier to understand and see pertinent information related to your deployments. We have also shipped our MVC for deployment approvals to allow organizations to garner the necessary approvals and meet compliance requirements for production deployments. We have continued iterations of the deployment approval feature to view approval decision and comment information in the UI. Next we will be enhancing our Environments capabilities with search and group-level functionality to make this feature even more useful and delightful. Next, we will be continuing to mature our Release Orchestration capabilities to ensure release teams have the ability to coordinate complex releases across multiple projects and automate these activities as much as possible. Features include a streamlined way to create CHANGLOG messages, an auto-populating single view of related production environments for an application, and generating release artifacts for audit and compliance. Furthermore, we will also be looking at ways to even further integrate with our world-class Create and Verify capabilities so that our users can take advantage of these powerful deployment features.
+
+I have also been thinking about how to jumpstart our internal dogfooding of more of the Release capabilities. This will no doubt have an impact on increasing feedback loops and understanding where we need to make improvements for our categories. Lastly, our community has always been an excellent source of feedback and contributions. Furthering our efforts to engage you all will pay off as we continue to bring our vision to life.
+
+### Target personas
+We build solutions targeting the following personas:
+- [Priyanka (Platform Engineer)](/handbook/product/personas/#priyanka-platform-engineer)
+- [Rachel (Release Manager)](/handbook/product/personas/#rachel-release-manager)
+- [Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
+
+### Performance Indicators (PIs)
+The [Key Performance Indicator](/handbook/ceo/kpis/) for the Release stage is the [Release SMAU](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/ops-section/#releaserelease---smau---count-of-users-triggering-deployments-using-gitlab) (internal).
+
+### Categories
+- [Continuous Delivery](/direction/release/continuous_delivery/)
+- [Advanced Deployments](/direction/release/advanced_deployments/)
+- [Feature Flags](/direction/release/feature_flags/)
+- [Release Orchestration](/direction/release/release_orchestration/)
+- [Release Evidence](/direction/release/release_evidence/)
+- [Environment Management](/direction/release/environment_management/)
+
+### What's next and why
+We are currently focusing on improving the experience for [Environments](https://docs.gitlab.com/ee/ci/environments/). We believe that environments is the centralized place for users to think about and manage their deployments. One important feature that we have seen rapid adoption of and will continue iterating on to support more use cases is [Deployment Approval](https://docs.gitlab.com/ee/ci/environments/deployment_approvals.html). Please see [what's next](https://about.gitlab.com/direction/release/environment_management/#whats-next) for environment management for more details about the category. We are also scoping opportunities to link our existing features to each other, such as Environments and Releases, as well as linking them to other stage functionality, e.g. Releases and Packages.
+
+After further progress on environment management and cross-stage features, we will return our focus on [Release Orchestration](/direction/release/release_orchestration/#whats-next--why) to enable our customers to coordinate complex and multi-project releases. Furthermore, we will continue to add more instrumentation so we have a better understanding of how existing users are leveraging the Release stage capabilities and what opportunities we have to increase adoption of key features such as Environments. 
+
+#### FY23-Q3 Plan
+
+We have an ambitious goal to increase SMAU by x%. We also want to continue iterations for deployment approval, differentiate our product with connections to other GitLab features, and start to tackle issues related to helping users manage large number of environments and environments across many projects. The specific projects to help reach our goals are listed in the table below.
+
+| Project | What | Why |
+| ------ | ------ | --- |
+| Onboarding experiment | Ship an experiment that encourages users to create a deployment job to a `production` environment | This has a potential for outsized impact to SMAU growth rate. |
+| [Deployment approval iterations](https://gitlab.com/groups/gitlab-org/-/epics/6832) | Continue iterations for the feature including notifications, possibly Deployment page, more complex use cases | Increase feature usage and adoption. This feature enables a key workflow that help customers adopt GitLab as a whole and/or upgrade to GitLab Premium. Part of our deployment direction.  |
+| Group Environments | Ship iterations for group environments. | Highly requested feature for large organizations to understand their application and production environment. |
+| Connecting to other stages | Ship connections between environments to tags, commits, releases | Differentiate our product by being able to natively connect to other capabilities in GitLab. Increases overall GitLab adoption and feature-specific adoption.|
+| [Kubernetes Agent and Environments MVC](https://gitlab.com/gitlab-org/gitlab/-/issues/352186) | Partner with ~"group::configure" and design and ship a first iteration for integrating Environments and the K8s Agent  | Building this will increase Environments page MAU and help increase K8s Agent adoption and also supports Ops CMAU goal. Supports our deployment direction. |
+|[Environment Search](https://gitlab.com/groups/gitlab-org/-/epics/8467)| Ship ability to search for environments| Highly requested feature. Larger number of environments are currently difficult to manage and navigate. Will impact usability/efficiency of the page and MAU of the page. |
+| [Environments Cleanup](https://gitlab.com/groups/gitlab-org/-/epics/5920)| Help users manage large numbers of environments. Ship a way for users to cleanup stale environments.| Highly requested feature. Larger number of environments are currently difficult to manage and navigate. Will impact usability/efficiency and MAU of the page. |
+
+source (internal): https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues/164
+
+If you are interested specifically in what we are working on next, please see our plans for the [15.5 milestone](https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues/158). For a medium term view of our plans, please see our [roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=opened&sort=start_date_asc&layout=WEEKS&label_name%5B%5D=devops%3A%3Arelease&label_name%5B%5D=Roadmap&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL). If you have questions or feedback, please reach out via [this issue](https://gitlab.com/gitlab-com/Product/-/issues/4643)!

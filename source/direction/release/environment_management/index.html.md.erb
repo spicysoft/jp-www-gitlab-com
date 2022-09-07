@@ -1,0 +1,78 @@
+---
+layout: markdown_page
+title: "Category Direction - Environment Management"
+description: Manage your environments to facilitate continuous deployment and delivery of your applications.
+canonical_path: "/direction/release/environment_management/"
+---
+
+- TOC
+{:toc}
+
+## Introduction and how you can help
+Thanks for visiting this category page on Environment Management in GitLab. 
+This page belongs to the Release stage, and is maintained by [Chris Balane](https://gitlab.com/cbalane) who can be contacted directly via [email](mailto:cbalane@gitlab.com). 
+This vision is a work in progress and everyone can contribute. Sharing your feedback directly on issues and epics at GitLab.com is the best way to contribute to our vision. 
+If you’re a GitLab user and have direct knowledge of your need for managing your environments and deployments in general, we’d especially love to hear from you.
+
+## Overview
+Enable organizations to operate and manage multiple environments directly from GitLab. Environments are encapsulated in GitLab as a target system with associated configurations. By facilitating access control, visualizing deployments and deployment history across teams and projects, adding the ability to query environments, and ensuring that environment's configurations are traceable, platform engineers can enact stronger controls and avoid costly mistakes in deployments.
+
+### Vision
+Through the use of Environments in GitLab, teams can easily understand and take critical action on the changes of their application. Environments provide the infrastructure needed for teams to test, deliver, and gain confidence software will work properly in production in any configuration and enable them to strive towards continuous deployment of their application.
+
+- Ops users and organizations can easily see and take action on deployments
+- Deep integration with target infrastructure e.g. Kubernetes
+- Compatible with all types of application architectures (e.g. monorepo, microservices, etc)
+- Answers key questions such as:
+  - What is deployed to production?
+  - Who deployed to production?
+  - What deployments to production happened in the past 30 days?
+  - What is deployed to other environments?
+  - What is the health and status of my deployment environments?
+- Easily execute key actions such as:
+  - Rollbacks / Rollouts
+  - Deployment / Feature Flag toggling
+  - Promote from lower environments to higher environments such as production
+- Benefits
+  - Tool consolidation
+  - Connect to other capabilities in GitLab. Note: Deployment relies on nearly all upstream activities in GitLab so this is an important place for these types of connections.
+
+### Jobs to be Done
+
+<%= partial("direction/jtbd-flat-list", locals: { parent_key: "environment-management_1" }) %>
+
+## Maturity Plan
+
+## What's next
+
+### Theme: Cross-stage and cross-feature initiatives
+- Enhancing Environments with integrations with other capabilities in GitLab ([link to deployment commit](https://gitlab.com/gitlab-org/gitlab/-/issues/364700), [link to deployment pipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/364699), [show related tags to deployed commit](https://gitlab.com/gitlab-org/gitlab/-/issues/15419), [to releases](https://gitlab.com/gitlab-org/gitlab/-/issues/332103))
+- [Add Environments support to the GitLab Agent](https://gitlab.com/gitlab-org/gitlab/-/issues/352186)
+
+### Theme: Scalability across different dimensions
+
+| Dimension/Problem | Solution(s) |
+| ------ | ------ |
+| Many deployments | [UI usability enhancements, scalability of the pages](https://gitlab.com/groups/gitlab-org/-/epics/5304) |
+| Many environments | [UI scalability of the pages](https://gitlab.com/groups/gitlab-org/-/epics/5304), support for different types of environments (e.g. staging, production, ephemeral, etc), [environment search](https://gitlab.com/gitlab-org/gitlab/-/issues/10754), [ability to favorite an environment](https://gitlab.com/gitlab-org/gitlab/-/issues/298926), [automated environment cleanup/management](https://gitlab.com/groups/gitlab-org/-/epics/5920) |
+| Across multiple teams and roles | group-level permissions, [deployment approval](https://gitlab.com/groups/gitlab-org/-/epics/6832) |
+| Across multiple projects | [group-level environments](https://gitlab.com/groups/gitlab-org/-/epics/7558) |
+
+### Specific issues and epics
+
+1. [Environment search](https://gitlab.com/gitlab-org/gitlab/-/issues/10754)
+1. [Show tags related to deployed commit on Environment Page](https://gitlab.com/gitlab-org/gitlab/-/issues/15419)
+1. [Support variable expansion on environment:auto_stop_in](https://gitlab.com/gitlab-org/gitlab/-/issues/365140)
+1. [Org-level Environment Management](hhttps://gitlab.com/groups/gitlab-org/-/epics/7558)
+1. [Environments cleanup](https://gitlab.com/groups/gitlab-org/-/epics/5920)
+1. [Connect Releases with Environments and Deployments](https://gitlab.com/gitlab-org/gitlab/-/issues/332103)
+1. [Log auto stop environment actions](https://gitlab.com/gitlab-org/gitlab/-/issues/36047)
+
+## Competitive Landscape
+
+### Garden.io
+
+Garden.io allows developers to work against a live Kubernetes cluster that works alongside their CI. Through building and test caching it promises to allow for faster development cycles and better integration test creation.
+
+### ReleaseHub
+ReleaseHub lets users launch ephemeral environments on-demand. Use cases they call out are Staging, Automated Preview, Dev, and QA environments.

@@ -1,0 +1,123 @@
+description: GitLab streamlines software development with comprehensive version
+  control and collaboration.
+canonical_path: /topics/version-control/what-is-innersource/
+parent_topic: version-control
+file_name: what-is-innersource
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: What is InnerSource?
+header_body: GitLab streamlines software development with comprehensive version
+  control and collaboration.
+body: >-
+  Software development teams work best when they can collaborate and code
+  easily, which is why many organizations adopt an InnerSource software
+  development strategy. With the increasing pace of technological change,
+  internal communication and collaboration have become key competitive
+  differentiators, as they are both essential to agility. Seamless collaboration
+  and software development has never been more important to get everyone working
+  better together - not only between technical teams in IT, security, or data,
+  but across entire organizations.
+
+
+  ## What does InnerSource mean?
+
+
+  InnerSource is a growing trend found in high-performing software development teams that adopt open source processes and [version control](/topics/version-control/) in order to work and collaborate more effectively. When teams use InnerSource, they develop proprietary software and open up the work internally between teams so that everyone - from developers to product managers - can contribute to the code.
+
+
+  > InnerSource is a software development strategy that applies open source best practices to proprietary code. InnerSource can help establish an open source culture within an organization while retaining software for internal use. Teams use InnerSource to increase visibility, strengthen collaboration, and break down silos.
+
+
+  By setting the default to open for projects within an organization, teams can enable reuse of existing solutions and minimize redundancy, empower [team collaboration](/topics/version-control/software-team-collaboration/), and leverage talent across the workforce. Organizations of any size benefit from InnerSource and can continuously incorporate modern software development practices by learning from large-scale open source projects.
+
+
+  In large organizations, teams are often spread out across different departments or time zones. Multiple developers may never meet or have access to the same departmental strategies. However, with InnerSource, they can align to the same workflow model, which has been proven successful in open source projects.
+
+
+  Companies like [PayPal](https://www.oreilly.com/library/view/adopting-innersource/9781492041863/ch01.html) demonstrate how open source development practices make more efficient and profitable businesses, even if the “open” in “open source” really only extends as far as one organization’s team. Other innersourcing pioneers, such as Bosch, Autodesk, Bloomberg, and SanDisk, demonstrate the ability to complete complex projects and create innovative products using the same lean, inexpensive system used in open source.
+
+
+  ## Why organizations want to function like open source projects
+
+
+  At their core, large organizations function similarly to big open source projects. In both entities, there are several moving parts: multiple contributors, various tools, and a variety of directives and strategies. However, in the traditional corporate model, an organization functions according to the instructions of a hierarchy of senior leaders. In part, the efficiency of the organization relies on the ability of managers to keep track of large amounts of incoming information.
+
+
+  The abundance of information often funnels up into a managerial bottleneck, so it’s unsurprising that a number of projects may be overlooked. As projects get more complex or more teams get involved, more tasks will likely go unnoticed for some time. In open source [projects](https://about.gitlab.com/blog/2020/09/08/gnome-follow-up/), the information related to development is managed through a process of documentation and checks that are designed to avoid components becoming neglected over time.
+
+
+  The most important open source workflow practices for enterprises are:
+
+
+  * Visibility
+
+  * Forking
+
+  * Pull/merge requests
+
+  * Testing
+
+  * Continuous integration
+
+  * Documentation
+
+  * Issue tracker
+
+
+  By adopting an open source mindset to software development, organizations close gaps and break down silos, leading to a stronger and tighter software development lifecycle.
+
+
+  ## Benefits of InnerSource
+
+
+  Organizations that use InnerSource experience benefits that are typical of open source development, such as:
+
+
+  * **High-quality code**: With unit tests, code coverage, and continuous integration, teams improve code earlier in the lifecycle
+
+  * **Comprehensive documentation**: Code is better documented, both in comments and less formally in discussions, leading to a single source of truth
+
+  * **Effective code reuse**: Code and architecture are discoverable and available across teams and the organization
+
+  * **Strong collaboration**: Code reviews have [less friction](https://about.gitlab.com/blog/2020/09/08/efficient-code-review-tips/), team communication becomes stronger, and contributions increase in number
+
+  * **Healthy culture**: Silos are [broken down](https://about.gitlab.com/blog/2019/10/18/better-devops-with-gitlab-ci-cd/), so developer happiness improves, leading to better retainment and recruitment
+
+
+  ## Problems InnerSourcing solves[](https://about.gitlab.com/topics/version-control/what-is-innersource/#problems-innersourcing-solves)
+
+
+  Here are some of the problems often faced by large organizations that innersourcing could help solve.
+
+
+  | Challenge                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Solution                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+  | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+  | **Communication:** In large organizations, there usually isn’t a single unified team working toward a single goal. Instead, team members tend to be siloed into multiple, disconnected teams that have their own structures and leadership. Communication norms and terminologies can vary between teams, and communication is minimal and ineffective between silos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Open source systems enable [participation and contributions](https://about.gitlab.com/blog/2020/03/30/new-features-to-core/) at a large scale. The lines of communication are direct and visible to everyone in the project. Communication hierarchies are usually flat, eliminating unnecessary noise and connecting contributions with stakeholders.                                                                                                                                                                                                                                                                                                                                                                                                    |
+
+  | **Discovery:** A software solution can be created multiple times in different departments, essentially multiplying effort, simply because departments lack communication and collaboration. Oftentimes, there’s no process for checking whether a solution has been created already.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | The benefit of open source projects is that they’re transparent by nature. Having access to the project means that teams can search to determine whether a solution exists for a problem a team faces. If someone doesn’t search ahead of starting work, other project contributors have full visibility and can identify a pre-existing solution. Open source projects increase the discovery of existing solutions and help reduce the duplication of effort.                                                                                                                                                                                                                                                                                          |
+
+  | **Red tape:** In most commercial environments, there are organizational structures that dictate what team members can access. A team member may be aware that a solution exists, but they need to request access to a project from an administrator, causing the developer and the administrator to shift their focus away from important tasks.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | With open source projects, team members have full access to work on or see projects. This visibility and access decreases the administrative work and delays of having to manage access requests.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+  | **Making modifications:** In a traditional commercial setting, if teams have read-only access to a project, they don’t have the permissions or capability to edit or add a feature — they have to ask someone else to do it. If the designated individuals responsible for changes don’t have time or don’t see the point, contributors have no recourse. The team responsible for the app is tasked with ensuring their app meets deadlines and functions properly, so someone’s job depends on maintaining that application. Even though another team might benefit from this new feature, the request to change the application could interfere with application stability, so granting access is a risk. If a developer can’t get access to make modifications that are needed, this will lead to teams building their own unique codebase or application to solve the problem, which might happen several times, with multiple people running into the same exact issue. This leads to a lot of apps being built separately to solve the same problem. | If teams want to make a change to an open source project, they don’t need to gain approval. Instead, they contribute the change and let the system test its functionality and validity. In practice, teams fork from the codebase, make modifications, and create a merge request which the other developer can verify it, ask questions, and test it. The individuals responsible for accepting the merge request have a reduced workload compared to the other scenario, because they didn’t have to do the extra work themselves, and the feature has been tested, so they know it works. There’s the added benefit that this approach reduces overall load on the report generator, since it only has to support a single codebase instead of eight. |
+
+
+  ## How teams can use InnerSource
+
+
+  For teams that work collaboratively across distance—which is most teams now—and organizations with multiple departments, InnerSource is a simple way to create a more [efficient workflow](https://innersourcecommons.org/). Teams can break down information silos and encourage more effective collaboration across the organization. InnerSource can also be used for faster developer onboarding, and it can encourage team members to contribute software back to the open source community.
+cta_banner:
+  - cta:
+      - text: Learn More
+        url: https://about.gitlab.com/stages-devops-lifecycle/source-code-management/
+    title: Learn how GitLab streamlines software development
+    body: GitLab streamlines software development with comprehensive version control
+      and collaboration.
+resources_title: Learn more about InnerSource and collaborative software development
+resources:
+  - url: https://about.gitlab.com/webcast/collaboration-without-boundaries/
+    title: Watch how GitLab improves developer collaboration and delivery
+    type: Webcast
+  - url: https://about.gitlab.com/resources/ebook-version-control-best-practices/
+    type: Books
+    title: Download the version control best practices eBook to increase collaboration

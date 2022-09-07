@@ -1,0 +1,30 @@
+---
+name: Eugenia Grieff
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer</a>,
+  Plan:Product Planning
+reports_to: kushal-p
+picture: egrieff.jpg
+twitter: euggrie
+gitlab: egrieff
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Plan:Product Planning BE Team
+projects:
+  gitlab:
+  - reviewer backend
+domain_expertise:
+- rails
+- plan
+story: 'Eugenia became a software developer after a brief career in chemistry. She
+  started working with RoR in 2015 and Ruby and open source quickly became her passions.
+  Prior to working at GitLab, she worked writing Ruby code on a variety of projects.
+  She''s a life-long learner and cat enthusiast that enjoys travelling and drinking
+  dark beers.
+
+  '
+specialty: Product Planning
+

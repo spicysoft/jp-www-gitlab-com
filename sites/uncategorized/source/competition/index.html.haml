@@ -1,0 +1,95 @@
+---
+layout: default
+extra_css:
+  - maturity.css
+extra_js:
+  - maturity.js
+title: "Competition"
+description: "To convey the state of our GitLab feature set and be transparent, we have developed a maturity framework for categories, application types, and stages. Here we apply this same maturity framework to our competitors."
+canonical_path: "/competition/"
+---
+
+- competitors = ["GitHub"]
+- stages = Gitlab::Homepage::Stage.all!.select(&:marketing)
+- totals = stage_maturity(stages)
+
+.container
+  %section.maturity-tables
+    %table.stage-table.drop-shadow
+      %tbody
+        %tr.stage-row
+          %td.stage-icon
+          - stages.each do |stage|
+            %td.stage-icon
+              %a{href: "##{stage.key}"}
+                = image_tag "/images/sdlc-icons/#{stage.key}.svg", alt: "#{stage.display_name}"
+                %p #{stage.display_name}
+
+        %tr.stage-row
+          %td.stage-icon.h4
+            GitLab
+          - stages.each do |stage|
+            %td.stage-icon= totals[stage.key]['gitlab']
+
+        - competitors.each do | competitor |
+          %tr.stage-row
+            %td.stage-icon.h4
+              #{competitor}
+            - stages.each do |stage|
+              %td.stage-icon= totals[stage.key][competitor.downcase] || 0
+
+    %p
+      %a.expand-all Toggle Details
+        
+    - stages.each do |stage|
+      - categories = stage.categories.select{|cat| cat.marketing && !cat.available.blank?}
+      - next if categories.empty?
+      %a.scroll-anchor{id: "#{stage.key}"}
+      %table.stage-table.drop-shadow
+        %tbody
+          %tr.stage-row
+            %td.stage-icon
+              %a{href: "##{stage.key}"}
+                = image_tag "/images/sdlc-icons/#{stage.key}.svg", alt: "#{stage.key}"
+                %p #{stage.display_name}
+            %td.stage-icon.h4
+              GitLab
+            - competitors.each do | competitor |
+              %td.stage-icon.h4
+                #{competitor}
+          - categories.each do |category|
+            %tr.maturity-row
+              %td
+                %a.scroll-anchor{id: "#{category.key}"}
+                - if category.direction
+                  %a{href: "#{category.direction}"} #{category.name}
+                - else
+                  = category.name
+              %td.maturity-cell
+                = image_tag "/images/maturity/#{maturity(category)}.svg", alt: "#{maturity(category)}"
+              - competitors.each do |competitor|
+                %td.maturity-cell
+                  - comp = category.competitors[competitor.downcase]
+                  - next unless comp
+                  = image_tag "/images/maturity/#{comp['maturity']}.svg", alt: "#{comp['maturity']}"
+            %tr.detail-row
+              %td
+              %td
+                - if category.description
+                  .description= kramdown(category.description)
+                - if category.documentation
+                  %a.docs-link{href: category.documentation} Documentation
+                
+              - competitors.each do |competitor|
+                %td
+                  - comp = category.competitors[competitor.downcase]
+                  - next unless comp
+                  - if comp['description']
+                    .description= kramdown(comp['description'])
+                  - if comp['documentation']
+                    %a.docs-link{href: comp['documentation']} Documentation
+
+.container
+  %a.scroll-anchor{id: "legend"}
+  %table.legend-table
+    = partial "includes/product/maturity_legend"

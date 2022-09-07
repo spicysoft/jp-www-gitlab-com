@@ -1,0 +1,25 @@
+---
+name: Alex Pooley
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
+  Manage:Workspace
+reports_to: malgorzata-ksionek
+picture: alexpooley.jpg
+twitter: brownbeagle
+gitlab: alexpooley
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Workspace BE Team
+projects:
+  gitlab:
+  - maintainer backend
+  - reviewer database local
+story: |
+  Alex taught himself to code instead of doing homework. Fortunately that "Internet" thing worked out and a couple of decades later he is still able to build innovative web applications for a living.
+  When AFK Alex enjoys spending time with his family, exercise, bouldering, and nerding out on business and finance.
+specialty:
+- 'Manage: Workspace'
+

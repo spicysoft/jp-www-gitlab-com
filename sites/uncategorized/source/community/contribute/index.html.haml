@@ -1,0 +1,98 @@
+---
+layout: default
+title: Contribute to GitLab
+description: "Learn how to contribute to GitLab. This page includes how to get started, how to get help, guidelines, process, and more."
+canonical_path: "/community/contribute/"
+suppress_header: true
+extra_css:
+  - contributing.css
+  - community.css
+  - bl-modal.css
+  - video-carousel.css
+extra_js:
+  - libs/slick.min.js
+  - video-carousel.js
+---
+.wrapper
+  .simple-header
+    %h1 Contribute to GitLab
+    %p
+    :markdown
+      The next [GitLab Hackathon](https://about.gitlab.com/community/hackathon/) is just around the corner!
+  #content
+    .wrapper.container.contributing-content{role: "main"}
+      .block
+        .block-content
+          %h2.block-title
+          %p
+            All contributions to GitLab are subject to the DCO or a CLA. 
+            = link_to "More on the GitLab DCO and CLA.", "/community/contribute/dco-cla/"
+          %p
+            We want to make it as easy as possible for GitLab users to become GitLab contributors, so we created this contribution guide to help you get started. You will find step-by-step instructions to contribute to development, documentation, translation, and design.
+          %p
+            = link_to "Diversity, Inclusion, and Belonging", "/handbook/values/#diversity-inclusion"
+            is one of our values. We want to create a welcoming community for every contributor. Please visit our
+            = link_to "Code of Conduct page", "/community/contribute/code-of-conduct/"
+            to learn more about our commitment to an open and welcoming environment.
+
+      .block
+        .block-content
+          %h2#get-started.block-title Get started
+          %h4.text-center
+            Choose a track to find step-by-step instructions on how to contribute.
+          .row.flex-row.area-row
+            -data.contribute_page.each do |area|
+              .col-md-4
+                %h2.area-name
+                  = area.category
+                %p.area-description
+                  = area.description
+                .row.area-more
+                  = link_to area.link_text, area.link
+
+      .block
+        .block-content
+          %h2#getting-help.block-title Get Help
+          :markdown
+            If you need any help while contributing to GitLab, below are some of the resources that are available.
+
+            1. If you have feature ideas/questions, you can search for existing issues or create a new issue if there isn't one already. Feel free to [mention](https://docs.gitlab.com/ee/user/group/subgroups/#mentioning-subgroups) [product team members](/handbook/product/categories/#devops-stages) in the issue.
+            1. If you need help with a Merge Request or need help finding a reviewer - get in touch with a [Merge Request Coach](/job-families/expert/merge-request-coach/). You can ask for help by typing `@gitlab-bot help` in a comment.
+                1. Alternatively you can find reviewers & maintainers of Gitlab projects in our [handbook](/handbook/engineering/projects/) and [mention](https://docs.gitlab.com/ee/user/group/subgroups/#mentioning-subgroups) them in a comment.
+            1. Ask questions on the [Contributors Gitter Channel](https://gitter.im/gitlabhq/contributors).
+            1. For any other questions or feedback, please email `contributors@gitlab.com`.
+
+      .block
+        .block-content.text-center
+          %h2.block-title Community Contribution Metrics
+          %p
+            You can see the wider community contribution data in our
+            = link_to "community dashboard", "https://gitlab.biterg.io/goto/937475d38035f496df3501c9b30af5ef"
+            as well as the number of
+            = link_to "wider community contributions per milestone.", "https://gitlab.biterg.io/app/kibana#/dashboard/465b66f0-882a-11e9-b37c-9d3431060b53?embed=true&_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now-10y,interval:'1w',mode:relative,timezone:America%2FLos_Angeles,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(darkTheme:!f,hidePanelTitles:!f,useMargins:!t),panels:!((gridData:(h:24,i:'1',w:48,x:0,y:0),id:'43858010-8829-11e9-b37c-9d3431060b53',panelIndex:'1',type:visualization,version:'6.8.6')),query:(language:lucene,query:''),timeRestore:!t,title:'Wider+community+contributions+merged+per+milestone',viewMode:view))"
+
+          :markdown 
+            ![Community growth numbers](/images/community/community_contributions_2021.png){: .medium}<br>
+
+            <!-- Note: The embeds here are not working due to a cross-site issue -->
+            <!-- <embed width="100%" height="100%" style="min-height:300px;" src="https://gitlab.biterg.io/app/kibana#/dashboard/465b66f0-882a-11e9-b37c-9d3431060b53?embed=true&_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now-10y,interval:'1w',mode:relative,timezone:America%2FLos_Angeles,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(darkTheme:!f,hidePanelTitles:!f,useMargins:!t),panels:!((gridData:(h:24,i:'1',w:48,x:0,y:0),id:'43858010-8829-11e9-b37c-9d3431060b53',panelIndex:'1',type:visualization,version:'6.8.6')),query:(language:lucene,query:''),timeRestore:!t,title:'Wider+community+contributions+merged+per+milestone',viewMode:view)"> -->
+            <!-- <embed width="100%" height="100%" style="min-height:300px;" src="https://app.periscopedata.com/app/gitlab/593556/Wider-Community-Dashboard?widget=7765561&udv=0"> -->
+            <br>
+
+      .block
+        .row.flex-row.area-row
+          %h2.block-title
+            Everyone can contribute
+          .video-slider
+            - data.video_carousel.each do |video|
+              -if video.carousel_identifier.include?("Community Contribute Carousel 1")
+                = partial "includes/components/video-carousel/video-item.html.haml", locals: {name: video.name, title: video.title, company: video.company, photourl: video.photourl, videolink: video.video_link}
+
+          - data.video_carousel.each do |video|
+            -if video.carousel_identifier.include?("Community Contribute Carousel 1")
+              = partial "includes/components/video-carousel/video-carousel-modal.html.haml", locals: {videolink: video.video_link, title: video.title, photourl: video.photourl}
+      
+      .block
+        .newsletter-cta
+          <iframe class="mj-w-res-iframe" align="center" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/6wMz/MC9" width="100%"></iframe>
+          <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>

@@ -1,0 +1,209 @@
+---
+layout: markdown_page
+title: "Deployment Direction"
+description: "The job of deploying software is a critical step in DevOps. This page highlights GitLab's direction."
+canonical_path: "/direction/deployment/"
+---
+
+- TOC
+{:toc}
+
+We would appreciate your feedback on this direction page. Please create an issue to collaborate with us or [propose an MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/edit/master/source/direction/deployment/index.html.md.erb) to this page!
+
+<%= devops_diagram(["Configure","Release"]) %>
+
+## Overview
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube-nocookie.com/embed/fvdqsmyxaHI" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
+### What is Deployment?
+
+Deployment is when you promote a coded, integrated, and built software application to a production environment. Once you deploy an application, users derive value from it. Deployment is part of GitLab's [Ops](/direction/ops/) section.
+
+In the journey to become [elite DevOps performers](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance), deployment is the hardest challenge. Deployment is where development and operations meet. Deployment is a team sport. It requires empowered developers and it requires guard rails set by operators. In overcoming these hurdles, **teams must**:
+
+* **Enable Developers**: Deployment is simple when done alone. It's hard when done across hundreds of development teams. Doing it well requires automation, orchestration, coordination, and collaboration.
+* **Increase Frequency**: Rate-of-iteration is a competitive advantage. Products must deploy frequently to capture value sooner. Increasing deployment frequency compounds the stress on teams responsible for deployments. Teams need fast, repeatable, and safe ways to deploy.
+* **Accommodate Target Variety**: Deployment used to involve copying new files to a specific server. Today, deployment targets span environments (dev/staging/production), infrastructure types (VM and container).  Adding to the complexity, these environments and their infrastructure are ephemeral. Operations teams need to provide a consistent interface for deploying to different targets.
+
+Ephemeral infrastructure blurs the line between infrastructure config and software release. As a result, we include our [Configure](/direction/configure/) and [Release](/direction/release/) stages in our Deployment direction. 
+
+### GitLab's Deployment Vision
+
+GitLab's Deployment vision is to enable your organization to be an elite performer in DevOps by making the hardest part of DevOps - deployment - easy, flexible and secure. 
+
+We will accomplish this by
+1. Empowering [Priyanka (Platform Engineer)](https://about.gitlab.com/handbook/product/personas/#priyanka-platform-engineer) and [Ingrid (Infrastructure Operator)](https://about.gitlab.com/handbook/product/personas/#allison-application-ops) to define and automate DevOps practices that have security and compliance guard rails built directly into the process. 
+1. Using the tools and standards built by Priyanka and Ingrid enables developers to own their specific deployment operations without toil, yet retain flexibility and efficiency. 
+1. Taking advantage of the data available in the connected GitLab platform, from planning input to observability and incident data, to make deployment operations, such as scaling rollouts or rollbacks automatic.
+
+### Market
+The total addressable market (TAMkt) for DevOps tools targeting the Release and Configure stages was [$1.79B in 2020 and is expected to grow to $3.25B by 2024 (13.8% CAGR) (i)](https://docs.google.com/spreadsheets/d/1LO57cmXHDjE4QRf6NscRilpYA1mlXHeLFwM_tWlzcwI/edit?ts=5ddb7489#gid=1474156035). This analysis is considered conservative as it focuses only on developers and doesn't include other users. External market sizing shows even more potential. For example, continuous delivery alone, which does not include categories such as infrastructure as code, is estimated to have a [market size of $1.62B in 2018 growing to $6B by 2026 (17.76% CAGR)](https://www.verifiedmarketresearch.com/product/continuous-delivery-market/). This, like the [Ops market](/direction/ops/#market) in general, is a deep value pool and represents a significant portion of GitLab's expanding addressable market. 
+
+The deployment tooling market is evolving and expanding. There are now many more options than just adding a delivery job to your CI/CD pipeline. Release Orchestration, advanced deployments, GitOps, infrastructure provisioning, platform as a service, progressive delivery, and feature flags are all methodologies that help teams deploy more easily, frequently, and confidently. Completeness of feature set from vendors is becoming increasingly important as teams want the benefits from all worlds; traditional, table stakes deployment features alongside modern, differentiating features.
+
+To increase deployment frequency and be competitive in the market, enterprises have turned to [centralized cloud teams or cloud center of excellence](https://gitlab.com/gitlab-com/Product/-/issues/2287#note_526578502) that are responsible for helping [development teams be more efficient and productive](https://gitlab.com/gitlab-com/Product/-/issues/2287#note_526579050). These teams have centralized buying power for DevOps and deployment tools. They may also have organizational support to build a DIY DevOps platform. For cloud-native DIY platforms, we've found (through customer interviews) that open-source point deployment solutions (such as [Flux](https://fluxcd.io/) or [ArgoCD](https://argoproj.github.io/argo-cd/)) are the primary options because of their focus on cloud-native principles and early adoption of pull-based deployment. Otherwise, enterprises, even existing GitLab customers, sometimes buy commercial tools for deployment, such as octopus, harness, and CloudBees electric flow.
+  
+### Current Position
+
+GitLab has a market-leading CI/CD solution. Deployment using GitLab's CI/CD pipelines work well for many use cases. In particular, CI/CD pipelines are great for individual projects which deploy independently. GitLab users love the ability to define their deployment process as code. They love the developer enablement provided by our robust pipeline definition language. 
+
+**Independent deployments** - for deployments of individual projects that can be deployed in an automated fashion without coordination, developers deploy using CI/CD pipelines in the following ways:
+- Writing [customized pipeline definitions](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
+  - Custom pipeline can take advantage of functionalities made available in containers, including [ones published by GitLab](https://about.gitlab.com/blog/2020/12/15/deploy-aws/)
+- [Including](https://docs.gitlab.com/ee/ci/yaml/includes.html) pipeline definitions provided by their platform teams
+- Using GitLab provided deployment [templates](https://docs.gitlab.com/ee/ci/examples/#cicd-templates) (such as Pages, AWS, Fastlane, Serverless, 5 Minute App, etc)
+- Utilizing GitLab's [AutoDevOps](https://docs.gitlab.com/ee/topics/autodevops/) defined deployment process
+
+**Kubernetes deployments** - for deployments to Kubernetes, we have support for pull-based GitOps via the [Kubernetes Agent](https://docs.gitlab.com/ee/user/clusters/agent/). The [CI/CD tunnel](https://about.gitlab.com/blog/2022/01/07/gitops-with-gitlab-using-ci-cd/) can also enable a cluster connection to be used from GitLab CI/CD, enabling users to deploy with only minor adjustment to previous setup. Lastly, evelopers can also use custom CI/CD variables when writing pipelines that [deploy to attached Kubernetes clusters](https://docs.gitlab.com/ee/user/project/clusters/deploy_to_cluster.html). 
+
+**Orchestrated deployment** - for complex deployments, particularly those that require [orchestration](/direction/release/release_orchestration/) across multiple projects, release managers use [Releases](https://docs.gitlab.com/ee/user/project/releases/) to gather artifacts. Sometimes release managers collaborate on the deployment process using GitLab's release. 
+
+None of these methods are duplicative and each serves different use cases. However, we will **focus** on improving:
+- Independent Deployments by providing better tools for publishing and utilizing defined deployment pipeline definitions within organizations
+- Kubernetes Deployments by investing in the GitLab Agent over [certificate-based cluster attachment (deprecated)](https://docs.gitlab.com/ee/user/project/clusters/add_remove_clusters.html)
+- Orchestrated Deployments by adding the ability to manage shared environments, sequence deployments, implement approval gates, and visualize the deployment workflow across the organization
+
+We will also create clarity in the deployment options and retain our focus by:
+- Remove GitLab provided templates that aren't used
+- Deprecate any customized deploy images
+- Limit the applicability of Auto DevOps to Kubernetes based-deployments
+
+## Challenges
+
+The [Ops section challenges](/direction/ops/#challenges) are applicable to deployment. Some challenges are worth expanding on with some additional highlights:
+
+* CNCF/cloud-native open-source solutions can disrupt GitLab's one application vision. They are marketed to a huge and engaged audience. If they're successful in growing adoption, it introduces a barrier to adopting GitLab. For deployment, a risky and highly visible part of the SDLC process, organizations may be more reticent to switch to GitLab's one application solution.
+* GitLab's pipeline-based deployment solution targets the developer as the primary persona. As a deployment tool, it may be less effective relative to solutions that target the operator as the primary persona with specific tooling made for their primary jobs.
+
+## Opportunities
+
+The [Ops section opportunities](/direction/ops/#opportunities) apply to deployment. GitLab also has some important opportunities to take advantage of specific to deployment:
+
+* **Deployment is critical and painful:** As a DevOps platform, GitLab is the ideal tool for solving an industry-wide problem. DevOps adoption is stalling. Organizations state that delivering software quickly is the heart of their DevOps transformation, yet [only 10% are elite performers in deployment frequency, nearly two-thirds take more than one week to deploy code to production, and 50% need more than a day to restore an unplanned outage](https://cd.foundation/wp-content/uploads/sites/78/2021/06/CD-Foundation-State-of-CD-June-2021.pdf). Organizations lack the resources to manage efficient deployment capabilities as they scale. Large organizations are hindered by the complexity of multiple deployment targets and increased frequency across teams.
+* **GitLab is well positioned to help:** GitLab has a significant advantage for organizations already utilizing GitLab CI/CD. While deployment is not the same as the fully automated pipelines prescribed by [Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html) GitLab customers are already used to defining their automation directly within their DevOps Platform. Beyond being adjacent, GitLab's single platform can make collaboration and feedback from deployments smart, faster and more actionable.
+* **Cloud-Native requires new tools:** When organizations make a determination to move toward Kubernetes, this often becomes an opportunity to modernize their deployment toolchain. They want a tool that can help them deploy, manage, and operate their clusters. GitLab is well-positioned to help DevOps teams automate and manage Kubernetes deployments.
+* **Cloud-agnostic:** Having deployment tools tied to specific cloud deployment targets is best solved by the cloud vendor themselves. GitLab can help customers deploy to any target, including all of the common public clouds. This is a potential differentiator compared to GitHub and Microsoft.
+
+## Key Capabilities for Deployment
+
+Enterprises are increasingly choosing to have a [cloud-first strategy](https://gitlab.com/gitlab-com/Product/-/issues/2287#note_526573920). Furthermore, with the increasing adoption of microservices architecture and infrastructure as code, traditional release tools are inadequate. This, coupled with the traditional deployment requirement of governance, compliance, and security, means that deployment tools have to meet a high bar and address a set of evolving technology and compliance requirements. The primary themes for these capabilities are that first organizations need **collaboration and transparency**, then **control and compliance** and before requiring **measurement and advanced patterns**. We list these key capabilities of deployment platforms in **priority order of user need**:
+
+**Collaboration and Transparency**
+1. **Environment management:** Organizations typically operate multiple [environments](https://docs.gitlab.com/ee/ci/environments/), each serving different needs. Deployment tools should help to make managing environments easy and intuitive.
+1. **Everything as code:** Deployment tooling, including pipelines, infrastructure, environments, and monitoring tools, are constantly evolving. If they can be stored as code and version-controlled, it will enable organizations to more effectively collaborate and avoid costly mistakes.
+
+**Control and Compliance**
+1. **GitOps:** Simply checking code into a repository will not prevent drift to occur between code and what is deployed. [GitOps](https://about.gitlab.com/topics/gitops/) solves this problem by automatically managing changes using the single source of truth reflected in the source repository providing more control by preventing drift.
+1. **Release Orchestration & Quality gates:** Organizations need to control what can be deployed and in which sequence. Enabling reviews and approvals built right into the deployment workflow is a critical requirement. The ability to perform automatic rollback, environment freeze, and scaling deployment also enables organizations to be more in control.
+
+**Measurement and Advanced Patterns**
+1. **Feedback:** Deployment is a critical part of the DevOps feedback loop. A successful deployment depends on immediate feedback from Monitoring and Observability tools to ensure a healthy deployment. Furthermore, knowing that an deployment was successful is not just about knowing whether the application deployed is healthy, it also requires understanding the impact to downstream neighbors and the environment as a whole.
+1. **Reporting:** Understanding how the DevOps team and the entire organization is performing, such as using the DORA metrics, is important to enable iteration towards stronger performance.
+1. **Progressive delivery:** Deployments can be risky. To mitigate risks, progressive delivery techniques, such as using feature flags, canary and rolling deployments can help mitigate the risk by limiting the impact until the deployment teams are confident that their changes are good to go.
+
+## Strategy
+
+In Deployment, we are targeting the central platform team personas in [Priyanka (Platform Engineer)](https://about.gitlab.com/handbook/product/personas/#priyanka-platform-engineer) and [Ingrid (Infrastructure Operator)](https://about.gitlab.com/handbook/product/personas/#ingrid-infrastructure-operator). They are responsible for setting up the systems her company's development teams use to develop, test, **ship**, and **operate** their applications. It is likely they work at an enterprise where there is a mix of deployment targets. They also faces the challenges of ever-increasing complexity; as more contributors, more services, more infrastructure, more databases, and a mix of technologies are added to her applications. They are looking for ways to create a system to manage the complexity.
+
+Our investment will focus on two strategic pillars.
+
+### Kubernetes First
+
+In 2021, we have seen that [Kubernetes has officially gone main stream](https://www.cncf.io/wp-content/uploads/2022/02/CNCF-AR_FINAL-edits-15.2.21.pdf). 
+
+[There are two compelling reasons why we want to be Kubernetes first](https://www.loom.com/share/bd6a6e5ffc1845f9ae751bd69ecfd838) (not Kubernetes only).
+
+First, we have seen that our customers are reaching out to GitLab after they have decided to modernize on Kubernetes as a platform. 
+With the clear impetus to modernize, we want to meet our customers where they are at and provide capabilities that enables to benefit from their modernization efforts.
+
+Second, targeting Kubernetes enables us to be more efficient. As Kubernetes becomes more and more ubiquitous, building against Kubernetes is a shortcut around building specific integrations with cloud vendors.
+We now also have the foundational tool, the [GitLab Agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) to take advantage of the Kubernetes ecosystem. Given that the agent has permission to act within the cluster, we can enable integration with the rich ecosystem of k8s tools to enable powerful workflows all from within GitLab, while following Kubernete's [operator pattern](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/). With it, we can do exciting things like [connect GitLab environments to the actual environment of the running application](https://gitlab.com/gitlab-org/gitlab/-/issues/352186)!
+Lastly but not least, Kubernetes is API driven. As such, we can move fast building on top of Kubernetes, instead of complicated undertakings such as figuring out how to connect with load balancers, building on top of Kubernetes easily allows us to implement things like [advanced deployments](/direction/release/advanced_deployments/).
+
+
+### A connected platform
+
+Deploying modern applications is complex. As one of the last steps in delivering change to users, it is imperative to enable transparency and collaboration in each of the steps that lead up to deployment. We plan to focus on improving the connection between [releases](https://docs.gitlab.com/ee/user/project/releases/), [environments](https://docs.gitlab.com/ee/ci/environments/), [Kubernetes cluster](https://docs.gitlab.com/ee/user/clusters/agent/), and Observability to enable a streamlined and safe deployment experience.
+
+## FY23 Plan
+
+In 2021, we created this Deployment Direction to better align our efforts on deployment. I'll highlight some key developments from last year.
+
+First, we consolidated the Release group's broad focus. The Release group was building new features in DORA Metrics, investing in a superior GitLab Pages architecture, AWS EC2 deployment tooling, while simultaneously maintaining a broad swath of categories from feature flags to continuous delivery. We spread the group too thin, especially while we were also trying to onboard several new engineers. We shifted the team to focus on enabling teams to collaborate and deploy with GitLab CI/CD pipelines. Furthermore, having invested heavily in reliability and scalability during the second half of last year, we expect the team to be more efficient in 2022. 
+
+Second, the Configure group launched the [GitLab Agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) for GitLab SaaS in 2021. The agent is an active in-cluster component for connecting Kubernetes clusters to GitLab. The agent enables customers to practice pull-based GitOps and cloud-native deployments. Since we launched the [CI Tunnel](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_tunnel.html) and made it available in the GitLab Free plan, we have seen a spike in adoption. Despite these accomplishments, progress in cloud-native deployment last year has been slower than we would have liked. The team spent a large part of our capacity helping out with various reliability and scaling activities and deprecating the old certificate-based Kubernetes integration. 
+
+In 2022, we plan to bring many improvements to those looking to deploy more frequently. Here are the things I am excited to work on and ship over the next year with my teams:
+
+**Building momentum in Kubernetes Management**
+We plan to build upon our cornerstone technology, the GitLab Agent for Kubernetes, to lower the cost and burden of operating Kubernetes. First, we are working on making the agent setup simpler, enabling more users to easily start gaining the benefits of operating in Kubernetes with GitLab. The agent will have improved permissions management, allowing platform engineers and the teams they serve to have the control they desire. We plan to bring back the most useful functionalities that were deprecated with certificate-based Kubernetes integration, such as auto-deploy, GitLab-managed clusters, and deployment boards. Lastly, the advantage of the agent is that it sits within the cluster. As such, we hope to add integrations to the many capabilities available in the Kubernetes ecosystem. For example, the [integration with Cilium](https://docs.gitlab.com/ee/user/clusters/agent/index.html#kubernetes-network-security-alerts) enables users to see network policy-related alerts directly in GitLab. 
+
+**Introducing Continuous Verification**
+We plan to introduce the Continuous Verification category, which will enable users to monitor their application after a deployment directly in GitLab. By integrating with monitoring tools or using the out-of-the-box integration with GitLab Monitor capabilities, users can make monitoring feedback viewable, actionable, and automatable. In turn, our users can become much more efficient in their deployment process.
+
+**Improving our current deployment capabilities**
+Thousands of users and customers already deploy with GitLab every single day. However, for some teams, this is not easy because GitLab lacks specific deployment workflows, has disconnected user experiences between features, and doesn't make it easy for central platform teams to manage the environments shared between potentially hundreds of services. 
+
+Over the next year, we plan to solve many of these problems. We are adding approval workflows for deployments. We are also making environments in GitLab more useful for large teams managing hundreds of services. Lastly, we are looking to make the entire user experience a connected experience&mdash;from organizing a release to defining infrastructure as code to packaging changes to deployment. 
+
+**Enabling managed deployments**
+GitLab enables developers to deploy projects today, but gaps remain. Setting up even a moderately complex deployment pipeline requires large amounts of custom scripting that is hard to maintain, scale, and understand. Moreover, once these pipelines are run, it's hard to track and check the changes caused from start to end.
+
+### What we aren't focused on now
+There are important things we won't work on to focus on our one year plan.
+
+1. **Auto DevOps Deployments** - While we will enable the creation of Auto DevOps style templates and experiences for the developers in their organization by platform teams, we will not be making significant strides to make Auto DevOps deployments cover a broader set of use cases at this time.
+1. **Progressive Delivery** - By focusing on where platform teams are today, we'll forgo pushing further on our current progressive delivery capabilities like Feature Flags, A/B Testing and Canary Deployments. 
+1. **Cost Optimization** - We should first improve adoption of our Kubernetes Management capability before focusing more on cluster costs. Enterprises want views into costs beyond clusters. Building capabilities like environment management precedes cost optimization tooling.
+1. **Non-Kubernetes Cloud-native** - Distinguishing from [Kubernetes-native](https://cloudark.medium.com/towards-a-kubernetes-native-future-3e75d7eb9d42), which is our initial focus area. We will not be focused on other cloud-native solutions, such as Docker Swarm, Apache Mesos, and Amazon ECS, because they're not nearly as successful as Kubernetes.
+1. **Building more Deployment Methods** - Actively adding templates or improving existing templates is not our main focus. Nor is building customized images for deploying to cloud providers. The CI/CD pipeline is flexible and enables GitLab users to create what they need as is. It is worthwhile to examine how we can enable the wider GitLab community, including our customer success teams, to share and reuse similar templates and treat them as lego blocks that can be adopted and put to use quickly. These will be most beneficial for common deployment targets, such as Fargate and Lambda.
+
+### What's next
+
+Our focus today in deployment are the following:
+
+- Mature [deployment approval](https://gitlab.com/groups/gitlab-org/-/epics/6832)
+- Environment improvements: Group level environment, connection to other parts of GitLab
+- Kubernetes Management: Default Kubernetes Dashboard, Support templating tools, multiple project support
+
+## Jobs To Be done
+
+* When deploying my application, I want to orchestrate the entire process, so that the users can use a well-functioning application.
+* When operating the development platform, I empower engineers while retaining control with SSO, RBAC, Audit trails, secret management, progressive delivery, and auto-scaling deployments and rollbacks.
+* When a developer is using the development platform, I want the developer to be more productive by not having to spend time figuring out how to deploy yet enable them to comply with security and compliance requirements.
+* When operating the development platform, I do not want to slow down the development teams and limit what they need to do to improve and deploy their service so that there's no downside to using the platform.
+* When changing something in my organization's DevOps process, I do not want to create extra work for my development teams yet enable them to still benefit from the improvements in the process.
+* When managing my environments, I want to see and understand what is currently running, so that I can make decisions on what I need to do.
+* When deploying my application, it doesn't matter if I am deploying to legacy servers or to Kubernetes, it all just works.
+* When looking for improvements, I can understand how my organization is performing, so that I can pinpoint actionable improvement areas.
+* When deploying updates to my application, I feel confident my changes will not disrupt the existing environment and I know exactly what will be impacted.
+
+## Competitive Landscape
+
+<%= partial("direction/ops/competition/github-actions") %>
+
+<%= partial("direction/ops/competition/harness") %>
+
+<%= partial("direction/ops/competition/spinnaker") %>
+
+<%= partial("direction/ops/competition/waypoint") %>
+
+<%= partial("direction/ops/competition/argo-cd") %>
+
+<%= partial("direction/ops/competition/weaveworks") %>
+
+<!-- Add back once complete
+<%= partial("direction/ops/competition/jenkins-x") %>
+
+<%= partial("direction/ops/competition/octopus-deploy") %>
+
+<%= partial("direction/ops/competition/cloudbees-electric-flow") %>
+
+<%= partial("direction/ops/competition/IBM-urbancode") %>
+
+<%= partial("direction/ops/competition/digitalai") %>
+-->

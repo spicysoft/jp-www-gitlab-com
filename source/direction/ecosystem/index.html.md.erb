@@ -1,0 +1,117 @@
+---
+layout: markdown_page
+title: "Product Stage Direction - Ecosystem"
+---
+
+Content last reviewed on 2022-06-28
+
+- TOC
+{:toc}
+
+## Stage Overview
+
+Ecosystem focus is on fostering GitLab as a [platform](https://www.scaledagileframework.com/organizing-agile-teams-and-arts-team-topologies-at-scale/) with a consistent and streamlined experience that spans entire DevOps lifecycle and that can be extended by partners and contributors. To achieve this, Ecosystem stage owns cross-stage experiences like Navigation and Integrations. The Ecosystem team also creates building blocks like Pajamas, APIs and Webhooks to help contributions to GitLab be efficient and consistent. 
+
+Ecosystem's goal is to make _integrating with_, _extending the functionality of_, _or contributing to GitLab_ accessible to all of our users. We strongly believe that [Everyone can contribute](#contributing), and Ecosystem supports this value directly through its work.
+
+## Groups
+
+The Ecosystem Stage is made up of two groups supporting the major areas of work, including:
+
+- [**Integrations**](/direction/ecosystem/integrations/) - Integrating external tools and services directly inside the GitLab application
+  - [Group Direction](/direction/ecosystem/integrations/) &middot; [Documentation](https://docs.gitlab.com/ee/integration/) &middot; [Open Issues](https://gitlab.com/gitlab-org/gitlab/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aecosystem&label_name[]=Category%3AIntegrations)
+- [**Foundations**](/direction/ecosystem/foundations/) - Providing a great design system and a set of frontend tools for the design and implementation of excellent user experiences
+  - [Group Direction](/direction/ecosystem/foundations/) &middot; [Pajamas Documentation](https://design.gitlab.com/)
+
+
+## 3 Year Stage Themes
+
+### Freedom of choice
+
+We firmly believe that a [single application](https://about.gitlab.com/handbook/product/single-application/)
+can successfully serve all the needs of the entire DevOps lifecycle. However, there are myriad
+reasons that many customers can't adopt GitLab in this way.
+
+Customers may have specific tools they are committed to using for reasons such as:
+
+1. The cost of migrating off of it, either based on the volume of content to migrate, the risk of errors during the migration, the cost of training, etc.
+1. The cost of building _new integrations_ with other tools in their existing toolchain
+1. Specific regulatory, security, or compliance needs they must be able to meet
+1. Niche or unique functionality that isn't available in GitLab
+
+Because of these realities, we believe that our customers should have the
+**freedom to choose their tools**, and use what makes the most sense for their
+business&mdash;and we will support that freedom as best we can by [playing well with others](https://about.gitlab.com/handbook/product/gitlab-the-product/#plays-well-with-others).
+
+**As examples, GitLab will provide:**
+
+- Integrations natively inside of the GitLab application for the most commonly used tools and services
+- A rich set of APIs that allow users to integrate _anything else_ they may need
+- Resources for external tool vendors that make it straightforward to contribute an integration with their tool directly to the GitLab codebase
+
+### Delightful foundational experiences
+
+A key value proposition GitLab poses to users is that we provide a platform to cover the entire DevOps process. Their expectation is that GitLab should feel streamlined and as if it was built by a single team. In reality, we have a large R&D organization and expect to grow over the coming years. 
+By investing in [Pajamas](https://design.gitlab.com/), [Navigation](https://about.gitlab.com/direction/ecosystem/foundations/navigation_settings/) and other [foundational experiences](https://about.gitlab.com/direction/ecosystem/foundations/#what-is-a-foundational-experience) we can provide a consistent experience to our users throughout GitLab. 
+
+**As examples, GitLab will provide:**
+
+- A component library and documentation that enables teams to self-serve with minimal Foundations team oversight
+- Navigation that is optimized for our top personas and most common use cases
+- Other cross-stage features like a landing page that surfaces content from across GitLab, helping users quickly find what they need
+
+### Everyone can contribute
+
+GitLab's Mission is that [everyone can contribute](https://about.gitlab.com/company/mission/#mission), and Ecosystem supports that in the context of GitLab itself. To accelerate GitLab's growth as a project, and as part of our commitment to our community, it's vital that we ensure that contribution is possible by anyone.
+
+GitLab's community is a large part of how we've gotten as far as we have today, and we'd like to make it even simpler for those contributors to get involved. By improving this experience, we invite more _new_ community members, including current users, to get involved and improve the application. "Everyone can contribute" means that everyone has the opportunity to add features, fix bugs, and improve the experience of the application. While it's sometimes possible for users to fix problems locally, when we make it easy for these contributions to make it upstream in to the project, these improvements can be enjoyed by everyone.
+
+**As examples, GitLab will provide:**
+
+- A robust suite of developer documentation that makes it easy to understand _how_ to contribute, and helps you find _where_ you should get started
+- Great design system documentation that makes it clear which UI patterns should be used, where to use them, and best practices for implementation
+
+## 3 Year Strategy
+
+In three years, the Ecosystem Stage will:
+ 
+- Add integrations with key 3rd party tools such as [Slack](https://gitlab.com/groups/gitlab-org/-/epics/7536), [ServiceNow](https://gitlab.com/groups/gitlab-org/-/epics/1712), [Rally](https://gitlab.com/gitlab-org/gitlab/-/issues/169), and [Microsoft Teams](https://gitlab.com/groups/gitlab-org/-/epics/880)
+- Refine and expand our REST APIs to support [a wider set of functionality](https://about.gitlab.com/company/team/structure/working-groups/api-vision/) in a more performant way
+- Expand GraphQL support and bring it in to [closer parity with our current REST APIs](https://about.gitlab.com/company/team/structure/working-groups/api-vision/)
+- Convert GitLab to use all [Pajamas](https://design.gitlab.com/) components and systematically monitor adherence to our design system.  
+
+As a result, in three years, GitLab will:
+
+- Expand the addressable market of _who can use_ GitLab by supporting the integration of tools that are mission-critical to their organization
+- Have a more vibrant ecosystem of integrations with other 3rd party services that [integrate with GitLab via our APIs and Webhooks](https://developer.gitlab.com/)
+
+
+## 1 Year Plan
+
+### What we have recently completed
+
+- [**Display Jira issue details inside of GitLab**](https://docs.gitlab.com/ee/integration/jira/issues.html) - For developers whose teams leverage Jira for project management, being able to see those issues natively inside of GitLab reduces context-switching and helps them stay in flow.
+- [**Launching a developer/contributor portal**](https://developer.gitlab.com/) - We've creating a single place where you can get get onboarded as a developer of GitLab. This gives everyone a starting point for finding all the content they need access to in order to get started.
+- [**Require Jira issue for Merge Request**](https://docs.gitlab.com/ee/integration/jira/issues.html#require-associated-jira-issue-for-merge-requests-to-be-merged) - Highly regulated organizations want the ensure every GitLab Merge Request is assosciated to prioritized work in Jira. The Intehrations group collaborated with the Compliance group to develop this feature.
+
+### What we are currently working on
+
+The Ecosystem team is actively working on 
+
+- [**Leading the migration to Pajamas**](https://design.gitlab.com/) - There has been significant progress over the last year, but much of the application is still using legacy components.
+- [**Navigation**](https://gitlab.com/groups/gitlab-org/-/epics/4831) - After recently inheriting Navigation, we are focused on information gathering to understand the current state. This will allow us to make informed decisions on the best iterative steps we can take to improve navigational tasks once the team is more fully formed. 
+- [**Rebuilding our Slack application**](https://gitlab.com/groups/gitlab-org/-/epics/6187) - Since its launch, significant new functionality has been added to what Slack Applications can do. We need to rebuild (or simply refactor) to support this new functionality and enrich the workflows of our users who rely on Slack for so much of their day-to-day activities.
+
+<%= partial("direction/ecosystem/templates/next") %>
+
+## Pricing
+
+Ecosystem's contribution to our [company-level financial goals](https://about.gitlab.com/company/okrs/) are driven by offering more complex integrations capabilities for larger organizations that need to closely knit 3rd party tools with GitLab.
+
+We think about integrated functionality through the lens of the [Buyer Based Tiering](https://about.gitlab.com/company/pricing/#buyer-based-tiering-clarification) model, but with some integrations-specific considerations:
+
+1. Free integrations benefit a single developer, offering navigation and lightweight functionality (such as event notifications) between GitLab and a 3rd party system.
+1. Premium integrations benefit teams that require the integration for team cohesion, and may bring more complex functionality (such as issue management of a 3rd party system) _inside of_ GitLab.
+1. Ultimate integrations enforce 3rd party integration workflows for large organizations which may override native GitLab functionality
+
+Additionally, any functionality that is designed expressly to allow 3rd party systems to connect to GitLab (such as our APIs) will be offered for free. We will only monetize integration features that are available inside the GitLab application itself, whereas these types of resources are for 3rd party systems to leverage _outside of_ the GitLab application.
