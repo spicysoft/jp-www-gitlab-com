@@ -8,7 +8,8 @@ features:
     image_url: '/images/unreleased/Slack-App-Home-screenshot.png'
     reporter: g.hickman
     stage: ecosystem
-    categories: []
+    categories:
+    - Integrations
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/363635'
     description: "GitLab is doubling down on Slack for our customers. As one of our
       most heavily used integrations, we're working to simplify and consolidate GitLab+Slack
