@@ -1,20 +1,21 @@
+---
 name: Jerry Seto
-locality: 
+locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>
 reports_to: sean-carroll
-picture: ../gitlab-logo-extra-whitespace.png
+picture: "../gitlab-logo-extra-whitespace.png"
 pronouns:
 pronunciation:
 twitter:
 linkedin:
 gitlab: j.seto
 departments:
-  - Engineering Function
-  - Development Department
-  - Dev Section
-  - Create:Source Code BE Team
-specialty: Source Code
+- Engineering Function
+- Development Department
+- Dev Section
+- Create:Source Code BE Team
+specialty: 'Create: Source Code'
 expertise:
 story:
 
