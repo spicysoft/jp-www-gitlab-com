@@ -19,14 +19,14 @@ You can use the following tools to set up your environment. Most of
 these are not compulsory - you can set up your environment however you choose.
 These are simply suggestions to help you get up and running quickly:
 
-- If you haven't already done this, [install Git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html)
+- If you haven't already, [install Git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html)
   and [add an SSH key to your GitLab profile](https://docs.gitlab.com/ee/ssh/#add-an-ssh-key-to-your-gitlab-account).
-  This is required.
-- [Install a code editor](https://about.gitlab.com/handbook/markdown-guide/#markdown-editors)
-  for working with markdown files.
+  This step is required.
+- Install a code editor, like VS Code or Sublime Text, where you will work with markdown files. You can use whichever tool
+  you're most comfortable with.
 - [Install documentation linters](https://docs.gitlab.com/ee/development/documentation/testing.html#install-linters) and
   [integrate them with your code editor](https://docs.gitlab.com/ee/development/documentation/testing.html#configure-editors).
-- Install [requirements and dependencies](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/setup.md) to build and preview changes to [docs.gitlab.com](https://docs.gitlab.com/) locally. If you are new to working on GitLab documentation as a Technical Writing team member, getting this basic local build and preview setup is recommended. GDK can be added later, once you are comfortable using the combination of git, text editor, linters, and Nanoc (static site generator) for the most common [Technical Writing workflows](https://about.gitlab.com/handbook/engineering/ux/technical-writing/workflow/).
+- To build the docs site locally, install [the requirements and dependencies](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/setup.md). If you are new to working on GitLab documentation as a Technical Writing team member, getting this basic local build and preview setup is recommended. GDK can be added later, after you are comfortable using the combination of Git, text editor, linters, and Nanoc (static site generator) the [Technical Writing workflow](https://about.gitlab.com/handbook/engineering/ux/technical-writing/workflow/).
 - [Install the GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/index.md). GDK enables you:
   - To install, run, and maintain an instance of GitLab locally.
   - To [preview documentation changes locally](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitlab_docs.md).
@@ -38,4 +38,4 @@ These are simply suggestions to help you get up and running quickly:
   defines the standards for GitLab documentation, including grammar and formatting.
 - The [documentation testing page](https://docs.gitlab.com/ee/development/documentation/testing.html)
   has important information about tests you should run to help ensure the quality of our documentation codebase.
-- The [documentation topic types](https://docs.gitlab.com/ee/development/documentation/structure.html) define the structure for how content should be organized.
+- The [documentation topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html) define the structure for how content should be organized.
