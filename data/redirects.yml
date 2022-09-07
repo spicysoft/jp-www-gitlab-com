@@ -2570,6 +2570,11 @@
   target: /company/culture/inclusion/unconscious-bias/
   comp_op: '='
 - sources:
+  - /company/culture/inclusion/erg-gitlab-pride
+  - /company/culture/inclusion/erg-gitlab-pride/
+  target: /company/culture/inclusion/tmrg-gitlab-pride/
+  comp_op: '='
+- sources:
   - /handbook/product/administration
   - /handbook/product/administration/
   target: /handbook/product/product-processes/#our-product-process/
