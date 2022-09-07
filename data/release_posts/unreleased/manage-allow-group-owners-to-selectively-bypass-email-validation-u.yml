@@ -4,7 +4,7 @@ features:
   - name: "Users on verified domains can bypass email validation"
     available_in: [silver, gold]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/group/saml_sso/index.html#user-access-and-management'
     image_url: '/images/unreleased/domain-verification.png'
     reporter: hsutor
     stage: manage
