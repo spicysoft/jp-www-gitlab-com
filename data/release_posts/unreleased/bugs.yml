@@ -14,3 +14,4 @@ tertiary:
       - [Fix internal server error: undefined method `bsearch` when using a remote include](https://gitlab.com/gitlab-org/gitlab/-/issues/365382)
       - [Gitlab release evidence not being collected if release is created via UI](https://gitlab.com/gitlab-org/gitlab/-/issues/371050)
       - [Resource group timeout](https://gitlab.com/gitlab-org/gitlab/-/issues/349336)
+      - [Tooltip doesn't show the URL or title when new links are created in the WYSIWYG wiki editor](https://gitlab.com/gitlab-org/gitlab/-/issues/366932)
