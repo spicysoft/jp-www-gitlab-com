@@ -15,3 +15,4 @@ tertiary:
       - [Gitlab release evidence not being collected if release is created via UI](https://gitlab.com/gitlab-org/gitlab/-/issues/371050)
       - [Resource group timeout](https://gitlab.com/gitlab-org/gitlab/-/issues/349336)
       - [Tooltip doesn't show the URL or title when new links are created in the WYSIWYG wiki editor](https://gitlab.com/gitlab-org/gitlab/-/issues/366932)
+      - [Reduced mount time for the WYSIWYG wiki editor by 9x to improve initial load time](https://gitlab.com/gitlab-org/gitlab/-/issues/369020)
