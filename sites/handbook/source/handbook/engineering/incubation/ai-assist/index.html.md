@@ -30,13 +30,13 @@ early feedback to [iterate](/handbook/values/#iteration) on the strategy.
 
 ### Previous 5 videos
 
-| Date       | Tl;DW;                                                                                                                                | Video                                                                          | 
-|------------|---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| 2022-08-09 | Explanation on what Dokter does and how it helps developers write secure code                                                         | [https://youtu.be/8aKScUQjMWY](https://youtu.be/8aKScUQjMWY){:target="_blank"} |
-| 2022-07-28 | Add support for autocorrecting, formatting and writing Dockerfiles                                                                    | [https://youtu.be/Ck4hE70Jie0](https://youtu.be/Ck4hE70Jie0){:target="_blank"} |
-| 2022-07-22 | Add support for Code Quality reports. Scraped some Dockerfiles and thought about ML models.                                           | [https://youtu.be/zzKCQhk9QQc](https://youtu.be/zzKCQhk9QQc){:target="_blank"} |
-| 2022-07-14 | Initial release of Dokter                                                                                                             | [https://youtu.be/WhH1SCtp70Y](https://youtu.be/WhH1SCtp70Y){:target="_blank"} |
-| 2022-06-2  | Added more rules to the analyzer based on most "popular" Dockerfile vulnerabilities. Loom instead of YouTube due to technical issues. | [https://youtu.be/fi9NX49lfWw](https://youtu.be/fi9NX49lfWw){:target="_blank"} |
+| Date       | Tl;DW;                                                                                     | Video                                                                          | 
+|------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 2022-09-06 | Describes pivoting to real-time / predictive tooling                                       | [https://youtu.be/YfBPIi24tSs](https://youtu.be/YfBPIi24tSs){:target="_blank"} |
+| 2022-08-19 | Describe future plans for Dokter, in which stages it fits and community feedback           | [https://youtu.be/1KCSHrJnjSk](https://youtu.be/1KCSHrJnjSk){:target="_blank"} |
+| 2022-08-09 | Explanation on what Dokter does and how it helps developers write secure code              | [https://youtu.be/8aKScUQjMWY](https://youtu.be/8aKScUQjMWY){:target="_blank"} |
+| 2022-07-28 | Add support for autocorrecting, formatting and writing Dockerfiles                         | [https://youtu.be/Ck4hE70Jie0](https://youtu.be/Ck4hE70Jie0){:target="_blank"} |
+| 2022-07-22 | Add support for Code Quality reports. Scraped some Dockerfiles and thought about ML models. | [https://youtu.be/zzKCQhk9QQc](https://youtu.be/zzKCQhk9QQc){:target="_blank"} |
 
 
 ## What is AI?
