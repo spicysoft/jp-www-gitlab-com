@@ -1,7 +1,9 @@
+---
 name: Jon Jenkins
-locality: 
+locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
+  Engineer</a>
 reports_to: alexives
 picture: jjenkins.jpg
 pronouns: he/him/his
@@ -10,8 +12,8 @@ twitter:
 linkedin: thejonjenkins
 gitlab: jon_jenkins
 departments:
-  - Development
-specialty: Database
+- Development
+specialty: Enablement
 expertise:
 story: |
   Jon has a passion for technology. He has been programming anything he can get his hands on from an early
