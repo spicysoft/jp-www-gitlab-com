@@ -4,7 +4,7 @@ features:
   - name: "Restrict access to groups using API"
     available_in: [premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/api/groups.html#update-group'
     reporter: hsutor
     stage: manage
     categories:
