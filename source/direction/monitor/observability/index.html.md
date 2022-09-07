@@ -33,7 +33,7 @@ We are different because we will focus on making the toil of operating open-sour
 
 Over time, we’ll add additional delightful experiences such as:
 
-1. Add tracing to the Opstrace/GitLab stack. Tracing helps users understand the flow of requests and is particularly useful when you need to debug microservices-based applications.
+1. Add tracing to the Opstrace/GitLab stack. Tracing helps users understand the flow of requests and is particularly useful when you need to debug microservices-based applications. Leverage tracing and metrics to provide further insight into the GitLab stack such as pipeline timings and changes over time.
 1. Add error tracking support to the Opstrace/Gitlab stack. Error tracking is a great way to enable quick action on recurring issues happening in production code. This is easier than searching through logs for stack traces.
 1. Add logging to the Opstrace/GitLab stack. Aggregating logs in a single, searchable interface helps operators find the relevant log message quickly.
 1. Cross-reference different observability data types. Making it easy to go from a metric to the related log messages or to jump from a long-running trace to the impacted metric, will help teams understand more holistically what is happening with their application.
@@ -116,19 +116,15 @@ We are currently focused on integrating the first pieces with the Gitlab platfor
 1. [Integration Milestone 2 - Initial SaaS with Integrated Auth](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/11)
 1. [Integration Milestone 3 - Beta SaaS Available with Error Tracking + Tracing](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/19)
 
-First features coming in 15.2.
+We are coming to an end with Milestone 3 and are targeting to have error tracking and tracing in open beta for 15.4. This will allow using a sentry client (errors) or opentelemetry/jaeger agent (traces) to send data to a gitlab.com instance for a specific project and group (provided features flag is enabled at first). Data will be queryable
+in our observability UI based on a grafana fork.
+
+As we move on from our deliverables with milestone 3, we will start designing out vision milestones linked to this [issue](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1508). First priorities will be designing and implementing metrics backed by clickhouse ([follow here](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1771)).
 
 ### Planning
-Planning happens in planning issues and the [planning board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) where issues are arranged by release.
+Planning happens in the [planning board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) where issues are arranged by release. Over time this will become more populated with a further look into the upcoming releases.
 
-There are located in this [project](https://gitlab.com/gitlab-org/opstrace/general)
-
-#### Issues
-1. 15.2 [Rollout Plan for Error Tracking backed by Clickhouse
-](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1728)
-1. [15.3](https://gitlab.com/gitlab-org/opstrace/general/-/issues/32)
-1. [15.4](https://gitlab.com/gitlab-org/opstrace/general/-/issues/33)
-
+There are located in this [project](https://gitlab.com/gitlab-org/opstrace/general).
 
 ## FAQ
 
