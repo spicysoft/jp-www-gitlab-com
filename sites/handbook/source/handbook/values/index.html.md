@@ -571,9 +571,10 @@ GitLabは成長する中で、どのように活動すれば[スタートアッ�
 
 ##### 書き出す {#write-things-down}
 {:.no_toc}
-We document everything: in the handbook, in meeting notes, in issues.
-We do that because "[the faintest pencil is better than the sharpest memory](https://www.quora.com/What-does-The-faintest-pencil-is-better-than-the-sharpest-memory-mean)."
-It is far more efficient to read a document at your convenience than to have to ask and explain. Having something in version control also lets everyone contribute suggestions to improve it.
+ハンドブック、ミーティングノート、イッシューなどを使い、すべてを文書化しています。
+「[どんなに記憶力が良くても、どんなにかすれていても鉛筆で書き留めたほうが良い](https://www.quora.com/What-does-The-faintest-pencil-is-better-than-the-sharpest-memory-mean)」からです。
+質問して説明してもらうよりも、都合の良い時に文書を読む方がはるかに効率的です。
+さらにバージョン管理されたドキュメントなら、誰もが改善の提案をすることができます。
 
 ##### 枯れた解決策 {#boring-solutions}
 {:.no_toc}
