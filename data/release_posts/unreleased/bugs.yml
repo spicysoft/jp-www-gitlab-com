@@ -16,3 +16,6 @@ tertiary:
       - [Resource group timeout](https://gitlab.com/gitlab-org/gitlab/-/issues/349336)
       - [Tooltip doesn't show the URL or title when new links are created in the WYSIWYG wiki editor](https://gitlab.com/gitlab-org/gitlab/-/issues/366932)
       - [Reduced mount time for the WYSIWYG wiki editor by 9x to improve initial load time](https://gitlab.com/gitlab-org/gitlab/-/issues/369020)
+      - [Remove Create Project prompt when user doesn't have ability to do so](https://gitlab.com/gitlab-org/gitlab/-/issues/334121)
+      - [Return configuration for OpenID Connect provider with custom name](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/95308)
+     
