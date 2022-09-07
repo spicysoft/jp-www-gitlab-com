@@ -1990,15 +1990,16 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-be-navigation@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/be-navigation/-/be-navigation-1.1.2.tgz#67811bd27a4f7b76ea13ab68c92ded2642d33270"
-  integrity sha512-ImBNuIkal1UpB+PIYjAFMd+z4x72RRNxEzTOTLdf8RjVYNBRe5KSDKmA7ZEuvNPH0dhR7IFeJ1Wo27qLAlNNSw==
+be-navigation@1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/be-navigation/-/be-navigation-1.1.4.tgz#b4cbc9f1bd744c1dc524bcac3f08508e7efdfe12"
+  integrity sha512-GA180K4F8jPMSP4L3B5tfFr29n3KtRUpohyQ1bzWbdCdj7skGkz9ElUziWu8dumh8yha7hZmp/bGdD10pQTLIg==
   dependencies:
     axios "^0.27.2"
     core-js "^3.8.3"
-    slippers-ui "^2.0.15"
+    slippers-ui "^2.1.4"
     vue "^2.6.14"
+    vue-progressbar "^0.7.5"
 
 big.js@^5.2.2:
   version "5.2.2"
@@ -8789,10 +8790,10 @@ slippers-ui@0.14.15:
     core-js "^3.8.2"
     vue "^2.6.12"
 
-slippers-ui@^2.0.15:
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/slippers-ui/-/slippers-ui-2.0.15.tgz#0f13417f2ceb2c484d93e4de1c1e66e47c329c50"
-  integrity sha512-UIrBVyGK8DFfYhwPfsrTewTmXDZdqaI+52H+Bfw1jUr8DJopcS3U+UxQsn81LMRe1e2skJDBn9nvL3MuhrqjQQ==
+slippers-ui@^2.1.4:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/slippers-ui/-/slippers-ui-2.1.6.tgz#19f9c4b3b89e6ea334944fa2cfef01968706ade9"
+  integrity sha512-pyAqgzfmbSiJeN5HoHvoFsx+niDx32TzvH1gydJqA5vr2Y/9ZrxRHDgAmSrcD0iVgsTwNeNGLmFWN/F1AFqxBQ==
   dependencies:
     "@gitlab/svgs" "^2.12.0"
     core-js "^3.6.5"
@@ -9882,6 +9883,11 @@ vue-loader@^15.9.6:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-progressbar@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/vue-progressbar/-/vue-progressbar-0.7.5.tgz#414730892252b1e45582d4979dec93038e007f79"
+  integrity sha512-VeNG/inMsFbvdCTS7lJ1gjDAKSUZdqkhW9gS1tb0we1rqFKxR+BCEiVUgw5C84vODKb14M2GWHTw0WVdpoVg6g==
 
 vue-select@^2.5.0:
   version "2.6.4"
