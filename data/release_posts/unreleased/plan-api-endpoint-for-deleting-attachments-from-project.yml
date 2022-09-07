@@ -7,7 +7,8 @@ features:
     documentation_link: 'https://docs.gitlab.com/ee/api/graphql/reference/#mutationuploaddelete'
     reporter: mushakov
     stage: plan
-    categories: Project Management
+    categories: 
+      - Project Management
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/366406'
     description: |
-      Project maintainers and owners can now delete attachments in a project through our GraphQL API. This functionality is essential in cases when sensitive data is accidentally uploaded in an image or for managing disk usage.  
+      Project maintainers and owners can now delete attachments in a project through our GraphQL API. This functionality is essential in cases when sensitive data is accidentally uploaded in an image or for managing disk usage for a GitLab instance.  
