@@ -1,17 +1,19 @@
 name: Justin Wong
 locality: 
 country: Remote
-role: <a href="">Data Engineer</a>
+role: <a href="/job-families/finance/data-engineer/">Data Engineer</a>
 reports_to: dvanrooijen2
-picture: ../gitlab-logo-extra-whitespace.png
+picture: JustinWong.jpg
 pronouns:
 pronunciation:
 twitter:
 linkedin:
 gitlab: juwong
 departments:
+  - Business Technology
   - Data
-specialty: ""
+  - Finance
+specialty:
 expertise:
 story:
 
