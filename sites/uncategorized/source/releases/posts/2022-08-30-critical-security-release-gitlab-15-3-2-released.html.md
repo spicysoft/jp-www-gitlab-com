@@ -30,6 +30,7 @@ When no specific deployment type (omnibus, source code, helm chart, etc.) of a p
 |[Remote Command Execution via GitHub import](#remote-command-execution-via-github-import)|critical|
 |[Stored XSS via labels color](#stored-xss-via-labels-color)|high|
 |[Content injection via Incidents Timeline description](#content-injection-via-incidents-timeline-description)|high|
+|[Denial of Service via Issue preview](#denial-of-service-via-issue-preview)|high|
 |[Lack of length validation in Snippets leads to Denial of Service](#lack-of-length-validation-in-snippets-leads-to-denial-of-service)|medium|
 |[Group IP allow-list not fully respected by the Package Registry](#group-ip-allow-list-not-fully-respected-by-the-package-registry)|medium|
 |[Abusing Gitaly.GetTreeEntries calls leads to denial of service](#abusing-gitalygettreeentries-calls-leads-to-denial-of-service)|medium|
@@ -38,7 +39,6 @@ When no specific deployment type (omnibus, source code, helm chart, etc.) of a p
 |[Regular Expression Denial of Service via special crafted input](#regular-expression-denial-of-service-via-special-crafted-input)|medium|
 |[Information Disclosure via Arbitrary GFM references rendered in Incident Timeline Events](#information-disclosure-via-arbitrary-gfm-references-rendered-in-incident-timeline-events)|medium|
 |[Denial of Service via the Create branch API](#denial-of-service-via-the-create-branch-api)|medium|
-|[Denial of Service via Issue preview](#denial-of-service-via-issue-preview)|medium|
 |[Brute force attack may guess a password even when 2FA is enabled](#brute-force-attack-may-guess-a-password-even-when-2fa-is-enabled)|low|
 |[IDOR in Zentao integration leaked issue details](#idor-in-zentao-integration-leaked-issue-details)|low|
 
