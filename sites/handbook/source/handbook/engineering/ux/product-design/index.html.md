@@ -86,7 +86,7 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 * **No restrictions on pairings:** The Product Designer and Engineer pair do not need to be from the same stage group. This is a voluntary initiative.
 * **Work in MRs, not issues:** Both the Product Designer and the Engineer should work directly in MRs to make changes. For the Product Designer, these MRs will likely be focused on less complex usability issues that the pair identifies, such as documentation, minor UI polish, or UI text changes. To make it easier for others to understand the change, make sure that you add screenshots and explain what was changed and why (unless it's an obvious bug fix) in the MR description.
 * **Length of rotation:** The length of the pairing will be 1-3 milestones, depending on what the pairing believes is appropriate for them. This means that multiple groups could be working on Beautifying our UI in parallel.
-* **Prioritization:** The Product Designer and Engineer will inform their stage group team of their involvement in the initiative, so that they can make time for it during milestone planning.
+* **Prioritization:** The Product Designer and Engineer will inform their direct managers and discuss prioritization and capacity planning prior of their involvement in the initiative, so that they can make time for it during milestone planning. They'll make sure their stage group team is also aware of their involvement.
 * **Documentation:** UI changes can impact the documentation to varying extents. The Product Designer or Engineer will follow the [Definition of Done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), with any docs changes required documented in the `/doc` directory by the Product Designer or Engineer. Assign the [relevant Technical Writer](/handbook/engineering/ux/technical-writing/#assignments) as Reviewer.   
 
 ### Volunteers
@@ -107,7 +107,7 @@ If you are a Product Designer or Engineer who wants to volunteer, please create 
 
 ### I signed up. Great! What's next?
 
-Create an issue, assign it to both Product Designer and Engineer and add it to this [epic](https://gitlab.com/groups/gitlab-org/-/epics/7781). As you progress through the milestone, make sure to link all merge requests to your issue. This will help other stakeholders quickly understand the reason behind the sudden influx of MRs.
+Create an issue, assign it to both Product Designer and Engineer and add it to this [epic](https://gitlab.com/groups/gitlab-org/-/epics/7781). Tag the appropriate Product Design Manager and Engineering Manager for awareness. As you progress through the milestone, make sure to link all merge requests to your issue. This will help other stakeholders quickly understand the reason behind the sudden influx of MRs.
 
 You should also keep track of any needed documentation updates. Work with the relevant technical writers to ensure documentation is kept as up-to-date as possible.
 
