@@ -147,47 +147,175 @@ We would like to do more in each of these areas, and will reassess efforts as we
 
 ## Group Responsibilities
  
-**Self-service Purchase**
+### Self-service Purchase Group
+
 The Self-service Purchase group is responsible for optimizing the web-direct purchase experience. 
- 
+
+Audience
+- Self-service customers
+- Online Sales and Self Service team (Allie Marconi’s team)
+
+Key responsibilities:
+- Net new online sales
 - Creating SKUs
-- Purchase flows in GitLab.com
-- Purchase flows in the Customer Portal
- 
-**Billing and Subscription Management**
+- Purchase flows in GitLab.com SaaS (selecting plan, users, storage, CI minutes)
+- Purchase flows in the Customer Portal SM self-service purchase flows (selecting plan, users)
+- Credit card iframe
+
+Example projects:
+- Move CI minutes purchase flow into GitLab.com UI
+- Move Storage purchase flow into GitLab.com UI
+- Allow users to edit billing information from GitLab.com UI
+- End of Availability for Bronze and Starter
+- Capture credit card address at checkout to pass to Stripe for validation
+- Upgrade Zuora Payment Pages integration to v2, so that we can pass more information to Stripe Radar
+- Community Programs self-serve
+
+KPIs
+- Webstore transaction share/volume
+
+### Billing and Subscription Management Group
+
 The Billing and Subscription Management group is responsible for supporting sales-assisted purchasing, subscription management (e.g., reconciliation, auto-renewal, invoicing, payment collection), and more. The group's primary goal is to increase self-service purchase volume to 95.5%.
+
+Audience
+- Self-service customers
+- Sales assisted customers
+- Channel Partners and their customers
+
+Key responsibilities
 - Auto-Renewal processes
 - Quarterly Subscription Reconciliation processes
 - Subscription management features in GitLab.com (invoices, subscription cards, credit cards)
 - Emails/In-app notifications related to subscription management
+- Displaying all purchases, adding / removing seats / users, upgrading / downgrading subscriptions, renewals.
+- Adding seats / users in a subscription
+- Removing seats / users in a subscription
+- Upgrading a subscription
+- Downgrading a subscription
+- Renewing a subscription
+- Self-Service and Sales Assisted subscriptions.
+- Special UX for Channel customers (directing to original subscription source to manage that subscription)
 
-**Provision**
+Example projects
+- Quarterly Subscription Reconciliation (QSR)
+
+KPIs
+- SUS
+
+### Provision Group
+
 The Provision group is responsible for provisioning and managing licenses across self-managed and SaaS (including Cloud License activation/sync and provisioning of legacy licenses).
 
+Audience
+- Self-service customers
+- Sales assisted customers
+- Channel Partners and their customers
+
+Key responsibilities
 - Post-purchase provisioning and ensuring customers get what they paid for (plan, users, storage, CI minutes, etc.)
 - SaaS provisioning
 - SM provisioning
- 
-**Utilization**
+
+Example projects
+- Strict Cloud Licensing (Offline Support, Remove License File)
+- Multi-user licensing
+
+KPIs
+- Cloud license adoption
+
+### Utilization Group
+
 The Utilization group is responsible for all usage reporting and management, usage admin controls, CI minute management, and storage management.
 
+Audience
+- Self-service customers
+- Sales assisted customers
+- Channel Partners and their customers
+
+Key responsibilities
 - Features related to tracking and visualization of seat usage, CI minutes and storage
 - Billable users, max users calculations in SM & SaaS
 - Emails/In-app notification related to consumption (users/CI/storage)
-- Building admin tools for the support team.
 - Create transparency for internal teams in customer subscription, billing, and licensing.
- 
+- Reporting and managing of usage (users, storage, CI minutes, etc.)
+
+Example projects
+- Cost management 
+- Usage quota budgets
+- Storage Project
+- Billing admin console 
+
+KPIs
+- Number of add on transaction
+- SUS for usage reporting
+
 See [Utilization Direction page](/direction/fulfillment/utilization) for more information.
- 
-**Fulfillment Platform**
+
+### Fulfillment Platform Group
+
 Newly established in FY23, the Fulfillment Platform team aims to extract the complexity of our underlying billing infrastructure to help other Fulfillment teams build features more quickly. 
  
+Audience
+- Order to Cash (O2C) teams (Fulfillment, Enterprise Apps, Field Operations)
+
+Key responsibilities
 - Ensuring reliable infrastructure for our Customers Portal
 - Consistent data models and integrations across our internal billing systems
 - Change Management and SLAs for all Order-to-Cash systems
 - Updating downstream sales and marketing systems (SFDC, Marketo)
 - Modifying error logging
- 
+Example projects
+- Infrastructure
+- Data Models
+- Change Management and SLOs
+
+KPIs
+- Uptime/performance or change velocity
+
+
+
+### Commerce Integrations Group
+
+
+Audience
+- Channel Partners and their customers
+- Worldwide Channels team (Michelle Hodges’s team)
+
+Key Responsibilities:
+- Net new channel sales
+- SM channel purchase flows (selecting plan, users)
+- Robust system integrations across CustomersDot / Zuora Billing / GitLab / Platypus
+
+Example projects:
+- E-Disty
+- Cloud Marketplaces 
+
+KPIs
+- Channel ARR
+
+### Admin Tools Category
+
+Audience
+- GitLab Support team (Tom Cooney’s team)
+- Internal teams (Sales, Billing, Compliance)
+
+Key responsibilities
+- Focuses on building admin tools for the support team.
+- Create transparency for internal teams into customer subscription, billing and licensing.
+
+Example projects:
+- Deprecate Mechanizer
+- Solve for trial plan change
+- Solve for clear subscription
+- Implement minutes and storage change ability in customersdot
+- Solve for data integrity for gitlab.com<>cdot subscriptions
+- CustomersDot Admin maintenance
+- Auditing
+
+KPIs
+- Volume of manual subscription modifications by support
+
 ## Roadmap
 
 ### Principles
