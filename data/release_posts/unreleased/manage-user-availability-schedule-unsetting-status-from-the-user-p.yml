@@ -4,7 +4,7 @@ features:
   - name: "Schedule unsetting status from the user profile page"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/profile/#set-your-current-status'
     reporter: lohrc
     stage: manage
     categories:
