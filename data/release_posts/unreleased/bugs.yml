@@ -23,4 +23,6 @@ tertiary:
       - [API cache not getting invalidated when using /reassign in merge request ](https://gitlab.com/gitlab-org/gitlab/-/issues/364264)
       - [Fix merge request widget icons alignment](https://gitlab.com/gitlab-org/gitlab/-/issues/372162)
       - [HandleAssigneesChangeWorker not executing when merge request assignee changes](https://gitlab.com/gitlab-org/gitlab/-/issues/372038)
+      - [Starring projects causes Gitlab to show wrong info about when project has been last updated](https://gitlab.com/gitlab-org/gitlab/-/issues/30247)
+      - [UI in groups with longer name is broken on mobile](https://gitlab.com/gitlab-org/gitlab/-/issues/370048)
      
