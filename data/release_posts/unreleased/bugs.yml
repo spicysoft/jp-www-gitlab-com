@@ -19,10 +19,7 @@ tertiary:
       - [Remove Create Project prompt when user doesn't have ability to do so](https://gitlab.com/gitlab-org/gitlab/-/issues/334121)
       - [Return configuration for OpenID Connect provider with custom name](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/95308)
       - [Jump to next unresolved thread button should track position as user scrolls through the page](https://gitlab.com/gitlab-org/gitlab/-/issues/281947)
-      - [Merged MR commit SHA is no longer clickable link](https://gitlab.com/gitlab-org/gitlab/-/issues/369031)
       - [API cache not getting invalidated when using /reassign in merge request ](https://gitlab.com/gitlab-org/gitlab/-/issues/364264)
-      - [Fix merge request widget icons alignment](https://gitlab.com/gitlab-org/gitlab/-/issues/372162)
-      - [HandleAssigneesChangeWorker not executing when merge request assignee changes](https://gitlab.com/gitlab-org/gitlab/-/issues/372038)
       - [Starring projects causes Gitlab to show wrong info about when project has been last updated](https://gitlab.com/gitlab-org/gitlab/-/issues/30247)
       - [UI in groups with longer name is broken on mobile](https://gitlab.com/gitlab-org/gitlab/-/issues/370048)
      
