@@ -1532,6 +1532,7 @@ stages:
         categories:
             - service_ping
             - privacy_control_center
+            - application_instrumentation
       product_analytics:
         name: Product Analytics
         direction: /direction/product-analytics/
