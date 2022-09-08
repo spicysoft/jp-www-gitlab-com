@@ -1,0 +1,15 @@
+---
+features:
+  secondary:
+  - name: "Shimo as a wiki alternative"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/shimo.html'
+    image_url: '/images/unreleased/shimo_wiki.png'
+    reporter: g.hickman
+    stage: ecosystem
+    categories:
+    - Integrations
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/343386'
+    description: |
+      Shimo is a popular cloud-productivity suite that includes documentation, spreadsheets, slideshows, and whiteboards. With this integration, you can use the Shimo Wiki directly within GitLab. This contribution from JiHu, our sister company, helps minimize the need to work across multiple tools.
