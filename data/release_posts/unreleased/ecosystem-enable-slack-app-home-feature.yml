@@ -1,7 +1,7 @@
 ---
 features:
   primary:
-  - name: "New "App Home" for GitLab's Slack App"
+  - name: "New App Home for GitLab Slack App"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html'
