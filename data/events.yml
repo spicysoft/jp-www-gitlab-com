@@ -48,16 +48,6 @@
   social_tags:
   event_url: https://info.lacework.com/pnw-happy-hour-with-wwt-gitlab-and-cribl.html?utm_source=partner&utm_medium=email&utm_campaign=20220915_AMER_US_FEP_PNW_Happy_Hour_with_WWT_GitLab_and_Cribl&utm_partner=GitLab
 
-- topic: GitLab Commit New York City
-  type: Conference
-  date_starts: September 22, 2022
-  date_ends: September 22, 2022
-  description: GitLab Commit is an event that connects you to the ideas, technologies, and people that are driving DevOps transformation. GitLab Commit is for everyone – from the technology champions responsible for building, operating and securing applications to the technology executive driving transformation. Learn how The One DevOps Platform enables you to collaborate around code, create stronger security and compliance, and leverage technology to drive business results. It all starts with a commit.
-  location: New York City
-  region: AMER
-  social_tags:
-  event_url: https://about.gitlab.com/events/commit/
-
 - topic: Beyond Code on Twitter Spaces
   type: Meetup
   date_starts: August 16, 2022
@@ -77,16 +67,6 @@
   region: EMEA
   social_tags:
   event_url: https://www.idc.com/eu/events/69929-idc-it-security-2022
-
-- topic: GitLab Commit London
-  type: Conference
-  date_starts: October 18, 2022
-  date_ends: October 18, 2022
-  description: GitLab Commit is an event that connects you to the ideas, technologies, and people that are driving DevOps transformation. GitLab Commit is for everyone – from the technology champions responsible for building, operating and securing applications to the technology executive driving transformation. Learn how The One DevOps Platform enables you to collaborate around code, create stronger security and compliance, and leverage technology to drive business results. It all starts with a commit.
-  location: London
-  region: EMEA
-  social_tags:
-  event_url: https://about.gitlab.com/events/commit/
 
 - topic: AWS Summit Sao Paulo
   type: Conference
