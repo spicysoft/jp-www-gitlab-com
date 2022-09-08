@@ -766,6 +766,21 @@
    - "Diversity, Inclusion, and Belonging"
   presentations:              
     - title: DevSecOps with GitLab
+- name: Eduardo Bonet         
+  region: Europe      
+  location: Amsterdam, The Netherlands  
+  tagline: MLOps Incubation Engineer - Making GitLab a tool Data Scientists Love to Use 
+  twitter: eduardobonet         
+  gitlab: eduardobonet             
+  affiliation: teammember      
+  image: ebonet.jpg              
+  topics: 
+   - MLOps                    
+   - Machine Learning
+   - Data Science
+  presentations:              
+    - title: "DeRisking Machine Learning with Informed Guesser, Minimum Viable Model, Heuristic First"
+      link: https://www.linkedin.com/in/eduardobonet/overlay/1635500785981/single-media-viewer/
 - name: Nick Malcolm
   region: Oceania
   location: Wellington, Aotearoa New Zealand
