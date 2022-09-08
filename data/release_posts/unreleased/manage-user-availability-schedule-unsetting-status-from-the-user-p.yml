@@ -11,4 +11,4 @@ features:
     - User Profile
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/325223'
     description: |
-      Users are now able to schedule unsetting their status from the user profile page. This was previously only possible via the set status modal.
+   You can now use the status settings in your profile page to schedule when to automatically clear your status. Previously, you could do this only from the **Set status** modal.
