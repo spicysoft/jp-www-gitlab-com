@@ -1439,7 +1439,7 @@ license_compliance:
   label: "Category:License Compliance"
   documentation: https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html
   direction: /direction/secure/composition-analysis/license-compliance/
-  description: "Upon code commit, project dependencies are searched for approved and blacklisted licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution."
+  description: "Upon code commit, project dependencies are searched for approved and denied licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution."
   roi: false
   available: 2018-01-01
   viable: 2023-05-22
