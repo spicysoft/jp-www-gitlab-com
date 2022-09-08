@@ -3215,10 +3215,10 @@
   - /stages-devops-lifecycle/defend
   - /stages-devops-lifecycle/defend/
   - /stages-devops-lifecycle/defend/index.html
-  - /stages-devops-lifecycle/govern
-  - /stages-devops-lifecycle/govern/
-  - /stages-devops-lifecycle/govern/index.html
-  target: /stages-devops-lifecycle/protect
+  - /stages-devops-lifecycle/protect
+  - /stages-devops-lifecycle/protect/
+  - /stages-devops-lifecycle/protect/index.html
+  target: /stages-devops-lifecycle/govern
   comp_op: '='
 - sources:
   - /handbook/product/secure-and-defend-section-performance-indicators
