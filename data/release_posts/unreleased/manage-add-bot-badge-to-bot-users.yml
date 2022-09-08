@@ -4,7 +4,7 @@ features:
   - name: "Bot badge easily identifies bot users"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/development/internal_users.html'
     image_url: '/images/unreleased/bot-user.png'
     reporter: hsutor
     stage: manage
