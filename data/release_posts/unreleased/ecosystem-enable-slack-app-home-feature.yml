@@ -11,13 +11,6 @@ features:
     categories:
     - Integrations
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/363635'
-    description: "GitLab is doubling down on Slack for our customers. As one of our
-      most heavily used integrations, we're working to simplify and consolidate GitLab+Slack
-      integration through the GitLab Slack App. As a best practice, the App Home in
-      Slack serves as a communication center between App providers and Slack
-      users, and this will be a key area for us to communicate new and upcoming features,
-      as well as orient new users to the features that are already available with
-      rich content, such as gif walkthroughs. \n\nWith this release, we'll be enabling
-      the Slack App home with a quick orientation to the GitLab App, which will set
-      the stage for more to come. Want to learn more about our plans and weigh in?
-      [Visit our Slack epic](https://gitlab.com/groups/gitlab-org/-/epics/7536)."
+    description: "The App Home provides a central location for GitLab to communicate new and upcoming Slack features and orient you to existing features. As Slack is one of our most deeply used integrations, we're working to simplify and consolidate functionality such as slash commands and notifications into the Gitlab Slack App and the App Home gives us a way to engage directly with you through the process!
+
+Want to learn more about our plans and weigh in? [Visit our Slack epic](https://gitlab.com/groups/gitlab-org/-/epics/7536)."
