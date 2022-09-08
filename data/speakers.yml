@@ -766,23 +766,18 @@
    - "Diversity, Inclusion, and Belonging"
   presentations:              
     - title: DevSecOps with GitLab
-- name: Kristof Goossens
-  region: Europe
-  location: Brussels, Belgium
-  tagline: Solutions Architect at GitLab - writer and performer of dad_jokes🃏
-  twitter: kgoossens
-  gitlab: kgoossens
+- name: Nick Malcolm
+  region: Oceania
+  location: Wellington, Aotearoa New Zealand
+  tagline: Helping teams build more secure software
+  twitter: nickmalcolm
+  gitlab: nmalcolm
   affiliation: teammember
-  image: kgoossens_speaker.png
-  topics:                     # One or more of these topics
-    - Remote Work
-    - DevOps
-    - CI/CD
-    - GitOps
-  presentations:              # A list of previous presentations for the back of the card
-   - title: Why CI/CD? What's the business impact of poor CI/CD? (Virtual Connect Day 2020)
-     link: https://www.youtube.com/watch?v=mwa6nD2wG1s      
-   - title: Why CI/CD? What's the business impact of poor CI/CD? (GitLab Connect EMEA 2021)
-     link: https://www.youtube.com/watch?v=kwwu_4BlSSU
-
-      
+  image: nmalcolm.jpg
+  topics:
+   - Security
+  presentations:
+   - title: How GitLab handles security bugs (and why it matters)
+     link: https://about.gitlab.com/blog/2022/02/17/how-gitlab-handles-security-bugs/
+   - title: "A Recipe for Password Storage: Add Salt to Taste"
+     link: https://www.slideshare.net/NickMalcolm/a-recipe-for-password-storage-add-salt-to-taste     
