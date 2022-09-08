@@ -766,4 +766,18 @@
    - "Diversity, Inclusion, and Belonging"
   presentations:              
     - title: DevSecOps with GitLab
-      
+- name: Nick Malcolm
+  region: Oceania
+  location: Wellington, Aotearoa New Zealand
+  tagline: Helping teams build more secure software
+  twitter: nickmalcolm
+  gitlab: nmalcolm
+  affiliation: teammember
+  image: nmalcolm.jpg
+  topics:
+   - Security
+  presentations:
+   - title: How GitLab handles security bugs (and why it matters)
+     link: https://about.gitlab.com/blog/2022/02/17/how-gitlab-handles-security-bugs/
+   - title: "A Recipe for Password Storage: Add Salt to Taste"
+     link: https://www.slideshare.net/NickMalcolm/a-recipe-for-password-storage-add-salt-to-taste     
