@@ -5,6 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#failing-webhooks'
+    image_url: '/source/images/unreleased/webhook_disabled_alert.png'
     reporter: g.hickman
     stage: ecosystem
     categories: []
