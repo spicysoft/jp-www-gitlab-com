@@ -2126,6 +2126,19 @@ privacy_control_center:
   marketing: false
   maturity: planned
 
+application_instrumentation:
+  name: "Application instrumentation"
+  stage: analytics
+  direction: https://about.gitlab.com/direction/product-intelligence/
+  description:
+  available: 2022-10-01
+  viable: 2023-12-01
+  complete: 2024-06-01
+  lovable: 2024-12-01
+  marketing: false
+  maturity: minimal
+  priority_level: medium
+
 # Enablement
 
 global_search:
