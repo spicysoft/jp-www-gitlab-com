@@ -1,13 +1,13 @@
 ---
 features:
   secondary:
-  - name: "Allow admins to merge topics"
+  - name: "Ability for admins to merge topics"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/api/topics.html#merge-topics'
     reporter: lohrc
     stage: manage
-    categories: []
+    categories: [Projects]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/366884'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      Administrators can now merge source topics into target topics, which will also move the projects associated with a topic. This enhancement allows users to eliminate multiple topics that might only differ in spelling. 
