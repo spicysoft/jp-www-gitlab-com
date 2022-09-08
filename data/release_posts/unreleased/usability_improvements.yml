@@ -13,4 +13,4 @@ tertiary:
 
       - [Tokens with any scope can use the self-revocation API](https://gitlab.com/gitlab-org/gitlab/-/issues/369103).
       - [Localization for GPG key e-mail page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92866).
-      - [Description](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
+      - [Combine unresolved threads actions into one control](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96814).
