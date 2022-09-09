@@ -1,14 +1,14 @@
 name: Ben Holland
-locality: 
+locality:
 country: Remote
 role: <a href="">Senior Strategic Account Leader</a>
 reports_to: peter_mills
-picture: ../gitlab-logo-extra-whitespace.png
+picture: ben_holland.jpg
 pronouns: He/Him
 pronunciation:
 twitter:
-linkedin: https://www.linkedin.com/in/ben-holland-9274552/
-gitlab: ben_holland
+linkedin: ben-holland-9274552
+gitlab: Ben_Holland
 departments:
   - ENTR
 specialty: ""
