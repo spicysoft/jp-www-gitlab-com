@@ -14,3 +14,6 @@ tertiary:
       - [Tokens with any scope can use the self-revocation API](https://gitlab.com/gitlab-org/gitlab/-/issues/369103).
       - [Localization for GPG key e-mail page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92866).
       - [Combine unresolved threads actions into one control](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96814).
+      - [Package duplicate settings UI update for side-by-side layout](https://gitlab.com/gitlab-org/gitlab/-/issues/363428).
+      - [Disable save changes when none in the container registry cleanup page](https://gitlab.com/gitlab-org/gitlab/-/issues/371882).
+      - [Move container registry cleanup policies to a single page](https://gitlab.com/gitlab-org/gitlab/-/issues/363426).
