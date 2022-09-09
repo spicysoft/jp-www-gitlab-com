@@ -12,8 +12,6 @@ description: "Until recently we used OpenSSH Server to handle SSH connections to
 
 GitLab provides [a number of features](https://gitlab.com/gitlab-org/gitlab-shell/-/blob/main/doc/features.md) that execute via an SSH connection. The most popular one is Git-over-SSH, which enables communicating with a Git server via SSH. Historically, we implemented the features through a combination of OpenSSH Server and a separate component, a binary called GitLab Shell. GitLab Shell processes every connection established by OpenSSH Server to communicate data back and forth between the SSH client and the Git server. The solution was battle-tested, and relied on a trusted component such as OpenSSH. Here's why we decided to move away from this solution.
 
-> Join us at [GitLab Commit 2022](/events/commit/) and connect with the ideas, technologies, and people that are driving DevOps and digital transformation.
-
 ## What is SSHD?
 
 SSHD stands for “solid-state hybrid drive.” An SSHD is a traditional spinning hard drive (the HD part) that is combined with a small portion of fast solid-state cache memory all in one place. 
@@ -69,3 +67,4 @@ Unfortunately, issues became visible on production environment, thanks both to t
 
 - **Incremental rollouts:** The rollout plan proved to be extremely effective. It enabled us to iterate without disrupting service to most users.
 - **Seeking multiple perspectives:** We sought a diverse set of opinions from a variety of groups, such as Security, Infrastructure, Quality and Scalability. It helped us to evaluate the project from multiple perspectives, mitigate the risks, and prevent the majority of issues from happening.
+
