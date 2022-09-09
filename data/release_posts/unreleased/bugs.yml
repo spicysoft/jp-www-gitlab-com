@@ -25,3 +25,4 @@ tertiary:
       - [SAST MR Widget displays wrong results](https://gitlab.com/gitlab-org/gitlab/-/issues/362845)
       - [Invalid location in issues created off of a finding/vulnerability](https://gitlab.com/gitlab-org/gitlab/-/issues/337142)
       - [No Vulnerability Approval Required With Detached Pipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/368441)
+      - [Online GC: Lock contention on manifest deletes](https://gitlab.com/gitlab-org/container-registry/-/issues/732)
