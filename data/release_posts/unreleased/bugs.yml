@@ -22,4 +22,5 @@ tertiary:
       - [API cache not getting invalidated when using /reassign in merge request ](https://gitlab.com/gitlab-org/gitlab/-/issues/364264)
       - [Starring projects causes Gitlab to show wrong info about when project has been last updated](https://gitlab.com/gitlab-org/gitlab/-/issues/30247)
       - [UI in groups with longer name is broken on mobile](https://gitlab.com/gitlab-org/gitlab/-/issues/370048)
-      - [SAST MR Widget displays wrong results](https://gitlab.com/gitlab-org/gitlab/-/issues/362845)    
+      - [SAST MR Widget displays wrong results](https://gitlab.com/gitlab-org/gitlab/-/issues/362845)
+      - [Invalid location in issues created off of a finding/vulnerability](https://gitlab.com/gitlab-org/gitlab/-/issues/337142)
