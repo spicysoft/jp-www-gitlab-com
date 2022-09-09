@@ -1,0 +1,21 @@
+---
+name: Bryan Miller
+locality:
+country: Remote
+role: <a href="/job-families/sales/customer-success-management/">Technical Account Manager
+  (Enterprise)</a>
+reports_to: john-woods
+picture: bmiller.png
+twitter: 
+gitlab: bmiller1
+departments:
+- Customer Success
+- Technical Account Managers
+- Static Analysis Group CS Stable Counterpart
+- Dynamic Analysis Group CS Stable Counterpart
+- Composition Analysis Group CS Stable Counterpart
+- Fuzz Testing Group CS Stable Counterpart
+story: |
+  Bryan is passionate about all things Open Source.  This include helping his customers achieve success
+  through Open Source and, best of all, through using GitLab.  Bryan is active in AppSec and IAM and enjoys being
+  out-of-doors when possible.
