@@ -10,4 +10,4 @@ features:
     categories: [Projects]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/366884'
     description: |
-      Administrators can now merge source topics into target topics, which also moves the projects associated with a topic. This way, you can eliminate duplicate topics that might only differ in spelling, and keep your projects organized. Thanks to [Jonas Wälter](https://gitlab.com/wwwjon) for this community contribution.
+      Administrators can now merge source topics into target topics. This action deletes the source topic and moves all assigned projects to the target topic. This way, you can eliminate duplicate topics that might only differ in spelling, and keep your projects organized. Thanks to [Jonas Wälter](https://gitlab.com/wwwjon) for this community contribution.
