@@ -242,6 +242,7 @@ To do this:
 The following will be emailed to you:
 - A payment receipt. You can also access this information in the <a href="https://customers.gitlab.com/customers/sign_in" target="_blank">Customers Portal</a> under **View invoices**.
 - For self-managed instances, a new license. <a href="https://docs.gitlab.com/ee/user/admin_area/license.html#uploading-your-license" target="_blank">Upload this license</a> to your instance to use it.
+
 ___
 
 ### Can I buy more storage?
