@@ -26,3 +26,5 @@ tertiary:
       - [Invalid location in issues created off of a finding/vulnerability](https://gitlab.com/gitlab-org/gitlab/-/issues/337142)
       - [No Vulnerability Approval Required With Detached Pipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/368441)
       - [Online GC: Lock contention on manifest deletes](https://gitlab.com/gitlab-org/container-registry/-/issues/732)
+      - [GitLab Pages fails to start in the GitLab Helm Chart when using UBI images](https://gitlab.com/gitlab-org/charts/gitlab/-/issues/3443)
+      - [Incoming email secret file not created by default in the GitLab Omnibus packages](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/6991)
