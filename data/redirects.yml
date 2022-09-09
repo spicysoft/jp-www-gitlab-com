@@ -4164,7 +4164,9 @@
     - /handbook/product/i2p-demo/
     - /handbook/sales/vision-demo
     - /handbook/sales/vision-demo/
-  target: /learn/public/
+    - /learn/public
+    - /learn/public/
+  target: /learn/
   comp_op: '='
 - sources:
     - /job-families/marketing/director-of-sales-development
