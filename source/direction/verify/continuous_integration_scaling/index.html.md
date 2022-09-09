@@ -10,15 +10,14 @@ canonical_path: "/direction/verify/continuous_integration_scaling/"
 
 ## Continuous Integration Scaling 
 
-In FY23 a top priority for us is [SaaS First](/direction/enablement/#saas-first). In the Verify Stage, this means prioritizing the scale of Continuous Integration and ensuring our users on GitLab.com are leveraging a reliable and available service. We are focused on a goal of 20M builds per day as it represents not only a target to drive our future architecture, but a volume that we expect to achieve within several quarters
-
+In FY23 a top priority for us is [SaaS First](/direction/enablement/#saas-first). In the Verify Stage, this means prioritizing the scale of Continuous Integration and ensuring our users on GitLab.com are leveraging a reliable and available service. We are focused on a goal of 20M builds per day as it represents not only a target to drive our future architecture, but a volume that we expect to achieve within several quarters.
 
 ## Additional Resources
 
 - [Issue List](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=ci%3A%3Ascaling)
 - [Overall Vision of the Verify stage](/direction/ops/#verify)
 
-For specific information and features related to authoring/defining pipelines, check out [Pipeline Authoring](/direction/verify/pipeline_authoring). You may also be looking for one of the following related product direction pages: [GitLab Runner](/direction/verify/runner/).
+For specific information and features related to authoring/defining pipelines, check out [Pipeline Authoring](/direction/verify/pipeline_authoring). For specific information and features related to running and managing pipelines check out [Continuous Integration](/direction/verify/continuous_integration). You may also be looking for one of the following related product direction pages: [GitLab Runner](/direction/verify/runner/).
 
 ## What's Next & Why
 
@@ -57,7 +56,7 @@ For the next phase of this category, we will be working across Database and Veri
 
 ### How we work 
 
-This group uses an [issue board]() and `CI data partitioning` to identify the scope that is in workflow. 
+This group uses an [issue board](https://gitlab.com/groups/gitlab-org/-/boards/1372896?label_name[]=group%3A%3Apipeline%20execution&label_name[]=Category%3AContinuous%20Integration%20Scaling) and `Category:Continuous Integration Scaling` to identify the scope that is in workflow. 
 
 The following epics are used to coordinate the phases of CI Partitioning: 
 
