@@ -204,9 +204,9 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/quality/performance-indicators/ @meks @kwiebers @tpazitny @nick_vh
 /sites/handbook/source/handbook/engineering/quality/issue-triage/ @meks @kwiebers @tpazitny @nick_vh
 /sites/handbook/source/handbook/engineering/quality/merge-request-triage/ @cbacharakis @nick_vh @niskhakova @kwiebers @tpazitny
-/sites/handbook/source/handbook/engineering/quality/onboarding/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @kwiebers
-/sites/handbook/source/handbook/engineering/quality/quality-engineering/ @at.ramya @jo_shih @vincywilson @tpazitny @kwiebers
-/sites/handbook/source/handbook/engineering/quality/quality-engineering/quad-planning/ @at.ramya @jo_shih @vincywilson @tpazitny
+/sites/handbook/source/handbook/engineering/quality/onboarding/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @kwiebers @ksvoboda
+/sites/handbook/source/handbook/engineering/quality/quality-engineering/ @at.ramya @jo_shih @vincywilson @tpazitny @kwiebers @ksvoboda
+/sites/handbook/source/handbook/engineering/quality/quality-engineering/quad-planning/ @at.ramya @jo_shih @vincywilson @tpazitny @ksvoboda
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/dev-qe-team/ @at.ramya
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/ops-qe-team/ @jo_shih
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/fulfillment-growth-qe-team/ @vincywilson

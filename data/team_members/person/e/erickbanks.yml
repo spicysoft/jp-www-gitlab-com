@@ -11,7 +11,7 @@ gitlab: ebanks
 departments:
 - Engineering Function
 - Quality Department
-- Sec & Enablement QE Team
+- Enablement & SaaS Platforms QE team
 - Enablement Sub-department
 projects:
   gitlab: trainee_maintainer qa
