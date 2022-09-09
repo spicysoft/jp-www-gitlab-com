@@ -21,7 +21,4 @@ story: |
 specialty:
 - 'Secure: Threat Insights'
 - " Protect: Container Security"
-projects:
-  secure-container-scanning:
-  - reviewer backend
 
