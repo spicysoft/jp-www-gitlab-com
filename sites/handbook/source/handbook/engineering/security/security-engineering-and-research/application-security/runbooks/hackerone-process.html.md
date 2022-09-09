@@ -103,14 +103,16 @@ the responsible engineering team:
 - See [GitLab's H1 Policy](https://hackerone.com/gitlab), under `Rewards`, for portions of bounty rewards which are awarded at the time of triage
   + It is OK to delay awarding at time of triage. Examples are when we aren't sure if a report is intended behaviour, or if it will be a documentation change. Remember to return and make a partial award if/when appropriate.
   + It is OK to have awarded a partial bounty at time of triage and later learn we have overpaid due to an adjustment of validity or severity
-- Use the `/h1 bounty <report>` Slack bot to post a note on the current [~"bug bounty council"](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council) issue
+- If the report does not already have a council issue, use the `/h1 bounty <report>` Slack bot to post a note on the current [~"bug bounty council"](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council) issue
   + Add descriptions, similar issues, and other commentary as appropriate
-  + Two thumbs up indicate approval of the bug bounty amount
-  + Two bug emoji indicate approval of the CVSS string
-  + For documentation updates, an award can be paid without waiting for two thumbs up
+- Award approval:
+  + For documentation updates, an award can be paid immediately
+  + For Low and Medium CVSS, an award can be paid after at least one team member reacts with a thumbsup emoji
+  + For High and Critical CVSS, two team members must react with a thumbsup emoji on the note
+  + If needed, make a request in `#sec-appsec` when your note has not received enough votes
 - After Bug Bounty Council approval:
+  + If 30 days have passed since the issue was triaged, the approved award may be paid in advance of a confirmed fix using the `04 - Bounty Award / Reviewed and Awarded Prior to Fix` common response.
   + Once a fix is shipped, award the remaining amount (or full amount if none was awarded at time of triage) using the `02 - Bounty Award` common response
-  + If 30 days have passed since the issue was triaged, the award may be paid in advance of a confirmed fix using the `04 - Bounty Award / Reviewed and Awarded Prior to Fix` common response.
 
 We can award GitLab swag to reporters who have submitted a quality report that did not qualify for a monetary reward in our Bug Bounty program. To award swag, please follow the [swag nomination process](/handbook/marketing/community-relations/code-contributor-program/community-appreciation/#nomination-process) that is managed by our Community Relations team.
 
