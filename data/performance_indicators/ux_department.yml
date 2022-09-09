@@ -22,7 +22,7 @@
   health:
     level: 2
     reasons:
-    - The team moved closer to the target in August, with 15 Technical Writing team members contributing almnost 52 MRs each. The 12-month average is 49.        
+    - The team moved closer to the target in August, with 15 Technical Writing team members contributing almost 52 MRs each. A Hackathon contributed 90 MRs. 
   dri: <a href="https://gitlab.com/susantacker">Susan Tacker</a>
   sisense_data:
     chart: 6223816
