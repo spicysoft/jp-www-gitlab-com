@@ -1,0 +1,91 @@
+---
+layout: default
+title: Resources
+suppress_header: true
+description: The list of available resources such as whitepapers, webinars, etc.
+extra_css:
+  - resources.css
+extra_js:
+  - resources.js
+extra_font:
+  - Roboto+Slab
+---
+- resources = data.resources
+.wrapper
+  .asset-hero
+    .container
+      .resources-hero-container
+        = image_tag "/images/developer-survey/decsecops-survey-2021-landing_header.svg", class: "resource-hero-image", alt: "2021 Global DevSecOps Survey"
+
+        .resource-hero-info
+          %h1 2021 Global DevSecOps Survey
+          %p Created to encourage conversation and collaboration, this report dissects the cross-functional relationships of DevOps teams and offers insights into successful practices, problem areas, and potential solutions.
+
+          %a.btn.cta-btn.orange.margin-top20{ href: '/developer-survey/' }
+            Download today
+
+  .toc-links
+    = link_to "All-Remote", "/company/culture/all-remote/"
+    = link_to "Blog", "/blog/"
+    = link_to "Newsletter", "/contact/"
+    = link_to "Events", "/events/"
+    = link_to "Topics", "/topics/"
+    = link_to "Training", "/learn/"
+    %a{ href: "https://docs.gitlab.com/", target: "_blank" } Docs
+    = link_to "Install", "/install/"
+    = link_to "ROI", "/roi/"
+    = link_to "Webcasts", "/webcast/"
+
+  #content
+    .container
+      .row
+        .col-md-10.col-md-offset-1
+          %p.intro
+            All the resources you need to take your idea to production.
+            %br
+            Learn Git, improve your DevOps workflow, or discover new trends with GitLab.
+      .row
+        .col-md-12.resources-filter
+          - topics = resources.collect{ |r| r.topics }.flatten.uniq.sort
+          - types = resources.collect{ |r| r.type }.flatten.uniq.sort
+          - solutions = resources.collect{ |r| r.solutions }.flatten.uniq.compact.sort
+
+          %select.btn{ name: "resource_topic" }
+            %option{ value: "" } Any topic
+            - topics.each do |topic|
+              %option
+                = topic
+
+          %select.btn{ name: "resource_type" }
+            %option{ value: "" } Any type
+            - types.each do |type|
+              %option
+                = type
+
+          %select.btn{ name: "resource_solution" }
+            %option{ value: "" } Any solution
+            - solutions.each do |solution|
+              %option
+                = solution
+
+      .row
+        .col-md-12
+          %h3.resources-no-results-msg.js-resources-no-results-msg.hidden There are no results for your filter.
+
+      .row
+        .col-md-12.u-margin-bottom-lg
+          .resource-tile-group
+            - resources.each do |resource|
+              %a.tile-resource.js-resource-tile{ href: resource.url, 'data-resource-topics' => '||' + resource.topics.join('||') + '||', 'data-resource-type' => resource.type, 'data-resource-solutions' => '||' + (resource.solutions ? resource.solutions.join('||') : '') + '||' }
+                - if resource.image
+                  .tile-background-container{ style: "background-image: url('#{resource.image}');" }
+                .tile-info
+                  %h3.tile-title
+                    = resource.title
+                  %p.tile-subtitle
+                    = resource.type
+                  %p.tile-description
+                    = resource.teaser
+
+  %hr.divider/
+  = partial "includes/blog/try"
