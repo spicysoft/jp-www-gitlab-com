@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Bot badge easily identifies bot users"
+  - name: "Identify bot users with a badge"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/development/internal_users.html'
