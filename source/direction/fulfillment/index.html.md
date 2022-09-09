@@ -224,6 +224,8 @@ Example projects
 KPIs
 - Cloud license adoption
 
+See [Provision Direction](/direction/fulfillment/provision/) page for more information.
+
 ### Utilization Group
 
 The Utilization group is responsible for all usage reporting and management, usage admin controls, CI minute management, and storage management.
