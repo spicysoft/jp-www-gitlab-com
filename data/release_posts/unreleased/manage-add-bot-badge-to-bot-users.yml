@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/development/internal_users.html'
-    image_url: '/images/unreleased/bot-user.png'
+    image_url: '/images/unreleased/bot-account.png'
     reporter: hsutor
     stage: manage
     categories:
