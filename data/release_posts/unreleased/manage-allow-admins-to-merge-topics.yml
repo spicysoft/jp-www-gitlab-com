@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Ability for admins to merge topics"
+  - name: "Improved topic management for administrators with topic merge"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/api/topics.html#merge-topics'
