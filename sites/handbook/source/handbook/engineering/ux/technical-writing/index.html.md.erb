@@ -327,6 +327,39 @@ The Technical Writers edit the documentation based on the following levels of ed
 - Ensure the content conforms to the defined [topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
 - Ensure the content fits well into the larger documentation set and does not duplicate information in other areas.
 
+#### How the writers apply the levels of edit
+
+To balance quality, speed, and resource constraints, the technical writers apply different levels of edit to different documentation.
+
+These guidelines are meant to provide general guidance. They aren't set in stone, and they can be overridden on a case-by-case basis.
+
+These items receive a **light** edit:
+
+- In the GitLab repository:
+  - Blueprint documentation (everything in the `architecture/blueprints` directory)
+  - Contribution guidelines (everything in the `development` directory)
+- Documentation outside of the five main GitLab repositories (GitLab, Charts, Operator, Omnibus, and Runner)
+- Deprecations and removals
+- Merge requests authored by other technical writers, unless the MR is part of an OKR, or the author requests a more in-depth edit
+
+These items receive a **medium** edit:
+
+- Day-to-day product documentation requests:
+  - New feature work
+  - Improvements
+  - Bug fixes
+  - Community contributions
+- Release post items
+
+These items receive a **heavy** edit:
+
+- Topic type restructuring efforts (["CTRT"](https://docs.gitlab.com/ee/development/documentation/topic_types/))
+- OKR work
+
+In all cases, the Technical Writer confirms that an authoritative source has checked the documentation for technical accuracy.
+The Technical Writer can serve as that authoritative source if they have the required knowledge or
+can efficiently perform the necessary verification.
+
 ### Review workflow
 
 To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the writers use this workflow:
@@ -339,9 +372,6 @@ To balance [velocity](/handbook/engineering/development/principles/#the-importan
 
 When a developer opens a merge request, they are the DRI for the code in that MR. Writers should use caution if they work in a developer branch that contains code, and should get explicit approval before doing so. Pushing to a branch can cause hard-to-resolve merge conflicts, and content can be accidentally overwritten.
 
-In all cases, the Technical Writer confirms that an authoritative source has checked the documentation for technical accuracy.
-The Technical Writer can serve as that authoritative source if they have the required knowledge or
-can efficiently perform the necessary verification.
 
 #### Triaging automated group mentions
 
