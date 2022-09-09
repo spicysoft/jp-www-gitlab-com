@@ -3,15 +3,15 @@ locality:
 country: Remote
 role: <a href="">Support Engineer</a>
 reports_to: dstarns
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: edwardhilgendorf.jpg
+pronouns: he/him
 pronunciation:
 twitter:
-linkedin:
-gitlab: ehilgendorf1
+linkedin: https://www.linkedin.com/in/edhilgendorf/
+gitlab: edwardhilgendorf
 departments:
   - Customer Support
 specialty: ""
 expertise:
-story:
+story: Edward spends his free time outdoors, hiking, camping and kayaking in the Pacific Northwest, along with his wife Andrea and his dog, Lucas. When not in the woods or on a lake, he is often working on his ever-growing homelab, with a passion for all things automation and self-hosting. 
 
