@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Schedule when to clear status from the user profile page"
+  - name: 'Schedule when to clear status from the user profile page'
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/profile/#set-your-current-status'
@@ -11,4 +11,4 @@ features:
     - User Profile
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/325223'
     description: |
-   You can now use the status settings in your profile page to schedule when to automatically clear your status. Previously, you could do this only from the **Set status** modal.
+      You can now use the status settings in your profile page to schedule when to automatically clear your status. Previously, you could do this only from the **Set status** modal.
