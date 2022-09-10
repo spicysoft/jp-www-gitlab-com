@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Lock terrafom-image on the terraform templates"
+  - name: "Improve the stable Terraform template to avoid breaking changes"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/infrastructure/iac/#integrate-your-project-with-terraform)'
