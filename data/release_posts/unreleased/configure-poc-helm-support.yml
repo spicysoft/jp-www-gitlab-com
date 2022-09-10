@@ -1,0 +1,31 @@
+---
+features:
+  secondary:
+  - name: "POC: Helm support"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/user/clusters/agent/gitops/helm.html#known-issues),'
+    reporter: nagyv-gitlab
+    stage: configure
+    categories:
+    - Kubernetes Management
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/371019'
+    description: "Kubernetes users can now [use the agent for Kubernetes to deploy
+      their applications packaged in Helm charts](https://docs.gitlab.com/ee/user/clusters/agent/gitops/helm.html).
+      Helm is likely the most popular Kubernetes packaging tool. Until now, the agent
+      for Kubernetes only supported vanilla Kubernetes manifest files for its GitOps
+      workflow. Helm users had to use a CI job to render and commit the resources
+      to benefit from the GitOps workflow. \n\nThe current release ships with Alpha
+      support for Helm in the agent. As Helm is a mature product, we consider the
+      solution performant but has a few [known limitations](https://docs.gitlab.com/ee/user/clusters/agent/gitops/helm.html#known-issues),
+      and the API might change without prior notice. We welcome your feedback in [the
+      related epic](https://gitlab.com/groups/gitlab-org/-/epics/7938), where we discuss
+      future improvements and next steps.\n\n<!-- triage-serverless v3 PLEASE DO NOT
+      REMOVE THIS SECTION -->\n*This page may contain information related to upcoming
+      products, features and functionality.\nIt is important to note that the information
+      presented is for informational purposes only, so please do not rely on the information
+      for purchasing or planning purposes.\nJust like with all projects, the items
+      mentioned on the page are subject to change or delay, and the development, release,
+      and timing of any products, features, or functionality remain at the sole discretion
+      of GitLab Inc.*\n<!-- triage-serverless v3 PLEASE DO NOT REMOVE THIS SECTION
+      -->\n"
