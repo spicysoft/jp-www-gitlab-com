@@ -11342,3 +11342,19 @@ features:
     gitlab_com: true
     github: false
     pps_aggregate: 0
+
+  - title : "Interactive onboarding for GitLab Pages"
+    description: |
+      Build your GitLab Pages configuration file without coding, directly in the GitLab UI.
+    link_description: "Use the Getting Started wizard to build and commit your `.gitlab-ci.yml` file from the GitLab UI."
+    solution: Create
+    category:
+      - pages
+      - pipeline_authoring
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    pps_aggregate: 0
