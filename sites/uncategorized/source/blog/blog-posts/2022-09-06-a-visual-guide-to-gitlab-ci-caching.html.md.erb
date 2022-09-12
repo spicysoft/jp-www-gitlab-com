@@ -105,7 +105,7 @@ gitlab-runner register                                 \
 
 ## Distributed cache
 
-If you want a [shared cache](https://docs.gitlab.com/runner/configuration/autoscale.html#distributed-runners-caching) between all your jobs running on multiple runners and hosts, use the <a href="https://docs.gitlab.com/runner/configuration/advanced-configuration.html#the-runnerscache-section">[runner.cache]<a> section in your `config.toml`:
+If you want to have a [shared cache](https://docs.gitlab.com/runner/configuration/autoscale.html#distributed-runners-caching) between all your jobs running on multiple runners and hosts, use the <a href="https://docs.gitlab.com/runner/configuration/advanced-configuration.html#the-runnerscache-section">[runner.cache]<a> section in your `config.toml`:
 
 ```yaml
 [[runners]]
