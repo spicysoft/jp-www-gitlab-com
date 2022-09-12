@@ -179,6 +179,9 @@ Watch this deep dive video on how you can manage your CI/CD Minutes usage.
 </figure>
 <!-- blank line -->
 
+**Q. What exactly is a CI/CD minute and how is it calculated?**
+A. CI/CD minutes are calculated using a formula that includes the CI/CD job duration and an applied cost factor. Please refer to the [documentation](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#how-cicd-minute-usage-is-calculated) to learn more. 
+
 **Q. I am an active contributor to GitLab. Will the same limits be applicable to me as well?**  
 A. All free tier users receive 50,000 CI/CD minutes for running pipelines on public forks of public open source projects, like GitLab. Contributions to all other projects by free tier users are subject to the new limits.
 
