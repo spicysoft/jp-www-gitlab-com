@@ -1,0 +1,208 @@
+title: Agile delivery
+seo_title: What is Agile Delivery
+description: Agile delivery is an iterative approach to software delivery in
+  which teams build software incrementally at the beginning of a project rather
+  than ship it at once upon completion.
+header_body: >-
+  Agile delivery is an iterative approach to software delivery in which teams
+  build software incrementally at the beginning of a project rather than ship it
+  at once upon completion.
+
+
+  [Learn how to accelerate delivery →](https://learn.gitlab.com/c/201906-whitepaper-re?x=9tzwq4&utm_medium=other&utm_source=webpage&utm_campaign=betterproductsfaster){:data-ga-name="Accelerate delivery"}{:data-ga-location="header"}
+canonical_path: /topics/agile-delivery/
+file_name: agile-delivery
+twitter_image: /images/opengraph/ci-cd-opengraph.png
+related_content:
+  - title: GitLab's ultimate guide to Agile project & portfolio management (PPM)
+    url: https://about.gitlab.com/topics/agile-delivery/agile-ppm/
+cover_image: /images/topics/agile.svg
+body: >-
+  ## What is Agile delivery?
+
+
+  Agile is one of the most important and transformative methodologies introduced to the software engineering discipline in recent decades, helping software teams efficiently create customer-centric products.
+
+
+  > **Agile delivery** is an iterative approach to software delivery in which teams build software incrementally at the beginning of a project rather than ship it at once upon completion.
+
+
+  Agile development means taking iterative, incremental, and lean approaches to streamline and accelerate the delivery of projects. It is based on the Agile Manifesto, which values individuals and interactions, working software, customer collaboration, and responding to change.
+
+
+  ## The key principles of Agile delivery
+
+
+  Agile delivery teams are able to rapidly respond to changes and adapt their plans accordingly. They are also able to deliver high-quality products and services quickly and efficiently. These benefits are achieved through the application of  the four key principles of Agile delivery: 
+  
+
+  1. collaboration,
+
+  2. customer focus, 
+  
+  3. value-based prioritization, 
+  
+  4. and iterative development.
+
+
+  ## Why embrace Agile software delivery?
+
+
+  The demand for faster software development is universal, and [Agile delivery](/solutions/agile-delivery/){:data-ga-name="Agile delivery"}{:data-ga-location="body"}. meets both customer and business needs.
+
+
+  Organizations that adopt Agile delivery practices can gain a competitive edge in a fast changing market. Businesses that empower teams to use Agile development practices satisfy discerning customers and adapt to new technologies, helping them to develop the products that set the standard for industries.
+
+
+  It's not just businesses that benefit from Agile delivery. Customers have more substantive experiences with organizations when their needs are met and their feedback makes a difference in product development. Customers appreciate when their input and expectations help shape an organization’s releases.
+
+
+  ## How can I get started with Agile delivery?
+
+
+  If you're looking to get started with Agile delivery, there are a few things you can do. First, you'll need to identify what your Agile delivery process will look like. You'll also need to consider what your team's goals are, what your customers' needs are, and what your delivery timeline looks like. 
+
+
+  Once you have a good understanding of all of these factors, you can begin to put together your Agile delivery process. Once structured and implemented, you will then need to monitor your Agile delivery process to ensure it is working as required, and if not optimize as necessary.
+
+
+  ## What makes Agile software delivery work effectively?
+
+
+  There are a number of reasons why agile software delivery methods are becoming increasingly popular. Firstly, they allow for much more flexibility and responsiveness to change than traditional waterfall methods. Organizations that are successful with Agile software delivery methods have clear business priorities and engage users and feedback in active delivery refinements.
+  
+  
+  Core agile methodology elements within the software delivery process help make it a success.
+
+  
+  * Teams are kept small and iterations short
+
+  
+  * Feedback from customers is fast
+
+  
+  * Business priorities are value-based
+  
+  
+  * Users are engaged in the refining of end-product requirements
+
+
+  Agile methods tend to focus on delivering value to the end user, rather than simply meeting internal deadlines or milestones. Value-based business priorities and engaging users in refining requirements are key to making agile software delivery methods work effectively.
+
+  
+  ## What are some common challenges with Agile delivery?
+
+
+  Agile delivery can be a great way to improve your software development process, but it can also present some challenges. For example, you may need to change the way you communicate with stakeholders, or you may need to adjust your project management approach. You may also find that you need to invest in new tools and training for your team. 
+
+
+  * Constant feedback and collaboration between the customer and the development team in order to deliver a more flexible and responsive product.
+
+  * Employing an Agile project management style emphasizes iterative development allowing for better collaboration and the application of constant feedback.
+
+  * New tools to manage and integrate the Agile structure and methodology across teams and stakeholders.
+
+  * Team members to be trained in and aware of Agile concepts in order to improve performance and streamline processes.
+
+
+  If you're willing to overcome these challenges, you'll likely find that Agile delivery can help you speed up your development process, delivery and improve your software quality.
+
+benefits_title: Agile delivery basics and benefits
+benefits_description: Getting started with Agile means becoming acquainted with
+  the most common methodologies and characteristics. There are many different agile delivery frameworks, but some of the most common ones are Scrum, Kanban, and Lean. Each of these frameworks has its own unique set of values, principles, and practices that help guide organizations in their transition to an agile way of working.
+benefits:
+  - title: Scrum
+    description: Scrum, often synonymous with Agile, is an approach that emphasizes
+      continuous improvement, self organization, and experience-based learning.
+      By utilizing user stories, tasks, backlogs, and extensions, teams have a
+      structured model to carry them across a software development lifecycle.
+      Teams that use a Scrum approach to development are likely to be committed,
+      respectful, and focused.
+    image: /images/icons/scrum.svg
+  - title: Kanban
+    description: "Teams that use a Kanban framework favor transparency and
+      communication. Tasks are organized using Kanban cards on a board to enable
+      end-to-end visibility throughout production. Three practices guide Kanban:
+      visualize work, limit work in progress, manage flow. Teams that use a
+      Kanban framework are collaborative, transparent, balanced, and customer
+      focused."
+    image: /images/icons/kanban.svg
+  - title: Agile mindset
+    description: An Agile mindset means viewing setbacks as learning opportunities,
+      embracing iteration, collaboration, and change, and focusing on delivering
+      value. With an Agile mindset, teams can adjust to changing market needs,
+      respond to customer feedback, and deliver business value. Adopting a new
+      perspective can positively change a team’s culture, since the shift
+      permits innovation without fear, collaboration with ease, and delivery
+      without roadblocks.
+    image: /images/icons/agile.svg
+  - title: Speed to market
+    description: Faster time-to-market enables quicker customer feedback and higher
+      customer satisfaction.
+    image: /images/icons/scale.svg
+  - title: Higher quality
+    description: Since testing is integrated throughout the lifecycle, teams have
+      early sight into quality issues.
+    image: /images/icons/computer-test2.svg
+  - title: Transparency
+    description: Teams are involved throughout a project — from planning and
+      prioritizing to building and deploying.
+    image: /images/icons/visibility.svg
+    
+resources_title: Resources
+resources_intro: >-
+  Here’s a list of resources on Agile that we find to be particularly helpful in
+  understanding Agile and implementation. We would love to get your
+  recommendations on books, blogs, videos, podcasts and other resources that
+  tell a great Agile story or offer valuable insight on the definition or
+  implementation of the practice.
+
+
+  Please share your favorites with us by tweeting us [@GitLab](https://twitter.com/gitlab)!
+resources:
+  - title: Agile project management
+    url: https://www.youtube.com/watch?v=wmtZKC8m2ew
+    type: Webcast
+  - title: Setting up Agile groups and teams
+    url: https://www.youtube.com/watch?v=VR2r1TJCDew
+    type: Webcast
+  - title: Scaled Agile Framework (SAFe) with GitLab
+    url: https://www.youtube.com/watch?v=PmFFlTH2DQk
+    type: webcast
+  - title: Agile planning
+    url: /solutions/agile-delivery/
+    type: Reports
+  - title: Scaled Agile and GitLab
+    url: https://about.gitlab.com/solutions/agile-delivery/scaled-agile/
+    type: Reports
+  - title: Accelerating software delivery
+    url: /solutions/agile-delivery/scaled-agile/
+    type: Reports
+  - url: /customers/axway-devops/
+    title: Axway was able to achieve hourly deployments with GitLab CI/CD
+    type: Case studies
+  - title: How GitLab CI supported Ticketmaster's ramp up to weekly mobile releases
+    url: /blog/2017/06/07/continuous-integration-ticketmaster/
+    type: Case studies
+suggested_content:
+  - url: /blog/2018/03/05/gitlab-for-agile-software-development/
+  - url: /blog/2019/06/13/agile-mindset/
+  - url: /blog/2018/08/02/4-ways-to-use-gitlab-issue-boards/
+  - url: /blog/2019/06/20/issue-labels-can-now-be-scoped/
+  - url: /blog/2019/06/10/manage-conversation-staying-agile/
+  - url: /blog/2019/08/20/agile-pairing-sessions/
+schema_faq:
+  - question: What is Agile delivery?
+    answer: Agile delivery is an iterative approach to software delivery in which
+      teams build software  incrementally at the beginning of a project rather
+      than ship it at once upon completion.
+    cta:
+      - url: https://about.gitlab.com/topics/agile-delivery/#what-is-agile-delivery:~:text=What%20is%20Agile%20delivery%3F
+        text: Learn more about Agile delivery
+  - question: Why embrace Agile delivery?
+    answer: Businesses that empower teams to use Agile development practices satisfy
+      discerning customers and adapt to new technologies, helping them to
+      develop the products that set the standard for industries.
+    cta:
+      - text: Learn more about embracing Agile delivery
+        url: https://about.gitlab.com/topics/agile-delivery/#why-embrace-agile-delivery:~:text=Why%20embrace%20Agile%20delivery
