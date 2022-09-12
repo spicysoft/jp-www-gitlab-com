@@ -1,5 +1,7 @@
 # Among other things, this file drives the feature comparison section of the DevOps Tools pages.
 
+# TODO - add auto-disable webhooks feature for Integrations
+
 features:
 
   - title : "Restrict access by IP address"
