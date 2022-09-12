@@ -77,13 +77,13 @@ There five teams in the Security Assurance sub-department.
 * [GitLab.com Production Continuous Control Monitoring/Auditing](/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html)
 * [GitLab.com Security Certifications](/handbook/engineering/security/security-assurance/security-compliance/certifications.html)
 * [GitLab.com Production & SOX ITGC User Access Reviews](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/access-reviews.html)
-* [Tier 3 Observation Management](/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html)
+* [Tier 3 Observation Management](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
 
 ### Security Compliance, Dedicated Core Competencies 
 * [GitLab Dedicated Production Continuous Control Monitoring/Auditing](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)
 * [GitLab Dedicated Security Certifcations](https://about.gitlab.com/handbook/engineering/security/security-assurance/dedicated-compliance/certifications.html)
 * [GitLab Dedicated User Access Reviews](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/access-reviews.html)
-* [Tier 3 Observation Management](/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html)
+* [Tier 3 Observation Management](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
 
 ## <i id="biz-tech-icons" class="far fa-newspaper"></i>Core Tools and Systems
 

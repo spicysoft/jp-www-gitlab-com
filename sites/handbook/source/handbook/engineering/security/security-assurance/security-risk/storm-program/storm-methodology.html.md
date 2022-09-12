@@ -361,7 +361,7 @@ Once the Inherent and Residual risk score is determined, the following table can
 
 ### The Impact of Control Health & Effectiveness Rating (CHER) on Risks
 
-In some cases where controls are identified that mitigate a risk, the Security Risk Team considers the CHER of the control that is established based on continuous monitoring performed by the Security Compliance Team. For details on how the Security Compliance Team rates observations, refer to the [Observation Management](/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html) handbook page.
+In some cases where controls are identified that mitigate a risk, the Security Risk Team considers the CHER of the control that is established based on continuous monitoring performed by the Security Compliance Team. For details on how the Security Compliance Team rates observations, refer to the [Observation Management](/handbook/engineering/security/security-assurance/observation-management-procedure.html) handbook page.
 
 Given that the scope of the StORM program is limited to Tier 2 Operational Risks, any information system level risks (i.e. Tier 3) identified within the organization is typically not included as part of the StORM program as the Tier 3 risk should be addressed by one or more internal controls. However, should a control have a high CHER rating, this may be an indicator of a larger risk. Because of this, there are are opportunities for Tier 3 risks to escalate to Tier 2 risks. This decision to escalate a Tier 3 risk in this manner will be documented within the Risk Details.
 
