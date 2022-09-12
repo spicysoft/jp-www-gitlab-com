@@ -4,11 +4,13 @@ features:
   - name: "Incident Timeline Quick Actions"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/quick_actions.html#gitlab-quick-actions'
     reporter: abellucci
     stage: monitor
     categories:
     - Incident Management
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/368721'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      Every second counts when users are working to resolve an incident.  With GitLab 15.4 users can use quick actions to one or more events to the incident timeline.
+
+In any incident comment, add `/timeline <timeline comment> | YYYY-MM-DD'.  If the date is blank, the default is the current date and time.
