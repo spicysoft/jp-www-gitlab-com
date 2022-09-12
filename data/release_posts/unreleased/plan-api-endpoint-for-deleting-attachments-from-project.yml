@@ -8,7 +8,7 @@ features:
     reporter: mushakov
     stage: plan
     categories: 
-      - Project Management
+      - Team Planning
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/366406'
     description: |
       Project maintainers and owners can now delete attachments in a project through our GraphQL API. This functionality is essential in cases when sensitive data is accidentally uploaded in an image or for managing disk usage for a GitLab instance.  
