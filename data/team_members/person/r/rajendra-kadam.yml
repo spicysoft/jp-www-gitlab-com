@@ -18,7 +18,7 @@ departments:
 projects:
   gitlab:
   - reviewer backend
-  - trainee_maintainer
+  - trainee_maintainer backend
 story: |
   Rajendra is passionate about all things OpenSource. He is a Backend Engineer at GitLab.
   He also serves on the Core Team at GitLab. When not working you will find him at the gym,
