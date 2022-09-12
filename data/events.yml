@@ -26,6 +26,16 @@
   social_tags:
   event_url: https://page.gitlab.com/advanced-cicd-virtual-registration-page.html
 
+- topic: DevOpsDays Houston
+  type: Conference
+  date_starts: October 4, 2022
+  date_ends: October 5, 2022
+  description: GitLab will be at DevOpsDays Houston which brings development, operations, QA, InfoSec, management, and leadership together to discuss the culture and tools to make better organizations and products.
+  location: Houston, TX
+  region: AMER
+  social_tags:
+  event_url: https://devopsdays.org/events/2022-houston/welcome/
+
 - topic: Dev Day Workshop - Deploy, Manage, and Scale Kubernetes to AWS EKS with GitLab
   type: Conference
   date_starts: October 11, 2022
