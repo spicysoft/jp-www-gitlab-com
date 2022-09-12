@@ -5,10 +5,10 @@ author_gitlab: frntn
 author_twitter: frntn
 categories: engineering
 tags: CI, CD, DevOps
-guest: true
+guest: false
 description: Learn cache types, as well as when and how to use them.
 image_title: /images/blogimages/visual-guide-caching/cover.jpg
-twitter_text: Understand Gitlab CI/CD caching types and setup with this visual guide
+twitter_text: Understand GitLab CI/CD caching types and setup with this visual guide
 ---
 
 If you've ever worked with GitLab CI/CD you may have needed, at some point, to use a cache to share content between jobs. The decentralized nature of GitLab CI/CD is a strength that can confuse the understanding of even the best of us when we want to connect wires all together. For instance, we need to know critical information such as the difference between artifacts and cache and where/how to place setups.
@@ -20,7 +20,7 @@ This visual guide will help with both challenges.
 The concepts _may_ seem to overlap because they are about sharing content between jobs, but they actually are fundamentally different:
 
 - If your job does not rely on the the previous one (i.e. can produce it by itself but if content already exists the job will run faster), then use cache.
-- If your job does rely on the output of the previous one (i.e. cannot produce it by itself), then use artifacts and dependencies
+- If your job does rely on the output of the previous one (i.e. cannot produce it by itself), then use artifacts and dependencies.
 
 Here is a simple sentence to remember if you struggle between choosing cache or artifact:
 > Cache is here to speed up your job but it may not exist, so don't rely on it.
@@ -37,7 +37,7 @@ Let's say you have:
 
 ![Initial setup](/images/blogimages/visual-guide-caching/vgc-1.png){: .shadow.center}
 
-## Local cache: Docker Volume
+## Local cache: Docker volume
 
 If you want a [local cache](https://docs.gitlab.com/ee/ci/caching/index.html#where-the-caches-are-stored) between all your jobs running on the same runner, use the [cache statement](https://docs.gitlab.com/ee/ci/yaml/#cache) in your `.gitlab-ci.yml`:
 
@@ -70,7 +70,7 @@ Using the [predefined variable](https://docs.gitlab.com/ee/ci/variables/predefin
 
 ![local / container / all branch / one jobs](/images/blogimages/visual-guide-caching/vgc-4.png){: .shadow.center}
 
-## Local cache: Bind Mount
+## Local cache: Bind mount
 
 If you don't want to use a volume for caching purposes (debugging purpose, cleanup disk space more easily, etc.), you can configure a [bind mount for Docker volumes](https://docs.docker.com/storage/bind-mounts/) while registering the runner. With this setup, you do not need to set up the [cache statement](https://docs.gitlab.com/ee/ci/yaml/#cache) in your `.gitlab-ci.yml`:
 
