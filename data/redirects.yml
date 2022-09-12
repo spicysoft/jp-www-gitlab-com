@@ -4572,3 +4572,8 @@
   - /handbook/marketing/readmes/jessicareeder/
   target: /handbook/ceo/chief-of-staff-team/readmes/jessicareeder/
   comp_op: '='
+- sources:
+  - /handbook/mecc
+  - /handbook/mecc/
+  target: /handbook/teamops/
+  comp_op: '='
