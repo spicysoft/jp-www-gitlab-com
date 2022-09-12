@@ -1,3 +1,13 @@
+- topic: DevOps Automation Virtual Workshop for the Public Sector 
+  type: Webcast
+  date_starts: October 27, 2022
+  date_ends: October 27, 2022
+  description: Uncover how the most effective Application Development teams leverage GitLab to automate their DevOps process and achieve material business outcomes. In this 3-hour simulated team environment, attendees will respond to various scenarios utilizing GitLab's single application for the entire DevOps lifecycle. No previous experience with GitLab is required.
+  location: Virtual
+  region: PubSec
+  social_tags:
+  event_url: https://page.gitlab.com/devopsautps-virtual-registration-page.html
+
 - topic: ElevateCX 
   type: Conference
   date_starts: September 29, 2022
