@@ -1058,7 +1058,7 @@ stages:
 
   anti-abuse:
     display_name: "Anti-Abuse"
-    section: sec
+    section: data-science
     description: "Protect against abuse within GitLab instances"
     body: |
       Create protections against insider threat activiy within a GitLab instance. This includes abuse, spam, and other activity for users within a GitLab instance.
@@ -2337,7 +2337,7 @@ stages:
 
   modelops:
     display_name: ModelOps
-    section: modelops
+    section: data-science
     direction: /direction/modelops/
     gitlab_group:
     pm: Taylor McCaslin
