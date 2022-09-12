@@ -8,7 +8,8 @@ features:
     image_url: '/images/unreleased/webhook_disabled_alert.png'
     reporter: g.hickman
     stage: ecosystem
-    categories: []
+    categories:
+    - Integrations
     epic_url: 'https://gitlab.com/groups/gitlab-org/-/epics/8083'
     description: |
       To protect GitLab and users across the system from the potential abuse or misuse of a small few, we've implemented a feature to disable webhooks that fail consistently.
