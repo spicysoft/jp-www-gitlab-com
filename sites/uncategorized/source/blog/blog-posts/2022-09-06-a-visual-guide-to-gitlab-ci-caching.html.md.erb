@@ -72,7 +72,7 @@ Using the [predefined variable](https://docs.gitlab.com/ee/ci/variables/predefin
 
 ## Local cache: Bind Mount
 
-If you don't want volume for caching purposes (debugging purpose, cleanup disk space more easily, etc.), you can set a "bind mount" while registering the runner. With this setup you do not need to set up the [cache statement](https://docs.gitlab.com/ee/ci/yaml/#cache) in your `.gitlab-ci.yml`:
+If you don't want to use a volume for caching purposes (debugging purpose, cleanup disk space more easily, etc.), you can configure a [bind mount for Docker volumes](https://docs.docker.com/storage/bind-mounts/) while registering the runner. With this setup, you do not need to set up the [cache statement](https://docs.gitlab.com/ee/ci/yaml/#cache) in your `.gitlab-ci.yml`:
 
 ```yaml
 #!/bin/bash
