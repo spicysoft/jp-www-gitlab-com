@@ -45,7 +45,7 @@ For a very specific set of [internal](/handbook/communication/confidentiality-le
   * [Handbook Roadmap](/handbook/about/roadmap/)
   * [Handbook Support](/handbook/about/support/)
   * [Handbook On-Call](/handbook/about/on-call/)
-* [Managing so Everyone Can Contribute (MECC)](/handbook/mecc)
+* [TeamOps](/handbook/teamops)
 * [CEO Readme](/handbook/ceo/)
   * [CEO Shadow Program](/handbook/ceo/shadow/)
   * [Cadence](/company/cadence/)
