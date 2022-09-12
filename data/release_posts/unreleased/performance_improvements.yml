@@ -10,5 +10,5 @@ tertiary:
 
       In GitLab 15.4, we're shipping performance improvements for issues, projects, milestones, and much more! Some improvements in GitLab 15.4 are:
 
-      - [Description](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
+      - [Geo::MetricsUpdateWorker slow total job artifacts count](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
       - [Description](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
