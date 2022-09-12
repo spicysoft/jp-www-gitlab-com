@@ -1,6 +1,6 @@
 ---
 features:
-  primary:
+  secondary:
   - name: "New App Home for GitLab Slack application"
     available_in: [core, premium, ultimate]
     gitlab_com: true
