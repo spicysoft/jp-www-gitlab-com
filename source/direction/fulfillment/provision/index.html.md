@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Product Direction - Fulfillment: Provision
+title: "Product Direction - Fulfillment: Provision"
 description: "The Provision team at GitLab focuses on providing a seamless activation experience for customers."
 canonical_path: "/direction/fulfillment/provision"
 ---
