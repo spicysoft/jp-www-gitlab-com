@@ -136,7 +136,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 - Parent Policy: [Information Security Policy](/handbook/engineering/security/)
 - [GCF Contol Lifecycle](/handbook/engineering/security/security-assurance/security-compliance/security-control-lifecycle.html#)
 - [Sarbanes-Oxley (SOX) Compliance](/handbook/internal-audit/sarbanes-oxley/)
-- [Observation Management Procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html)
+- [Observation Management Procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/observation-management-procedure.html)
 - [Control Health and Effectiveness Rating Procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/control-health-effectiveness-rating.html)
 
 ## Contact
