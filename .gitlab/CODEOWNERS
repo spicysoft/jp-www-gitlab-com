@@ -338,7 +338,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/uncategorized/source/community/top-annual-contributors/ @cbacharakis
 /sites/uncategorized/source/community/virtual-meetups/ @jrachel1 @johncoghlan
 /sites/uncategorized/source/customers/ @akramer @mpreuss22
-/sites/handbook/source/handbook/marketing/ @akramer @akramer
+/sites/handbook/source/handbook/marketing/ @akramer
 /sites/handbook/source/handbook/marketing/plan-fy22/ @jgragnola @lblanchard
 /sites/handbook/source/handbook/marketing/plan-fy22/ @jgragnola @lblanchard
 /sites/handbook/source/handbook/marketing/inbound-marketing/ @akramer @mpreuss22
@@ -376,7 +376,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/marketing/community-relations/developer-evangelism/ @abuango @brendan @dnsmichi @johncoghlan @jrachel1 @sugaroverflow
 /data/speakers.yml @brendan @johncoghlan @abuango
 /data/speakers_requirements.yml @brendan @johncoghlan @abuango
-/sites/handbook/source/handbook/marketing/corporate-marketing/ @akramer @akramer
+/sites/handbook/source/handbook/marketing/corporate-marketing/ @akramer 
 /sites/handbook/source/handbook/marketing/corporate-marketing/brand-activation/ @luke @amittner @akramer
 /sites/handbook/source/handbook/marketing/corporate-marketing/brand-activation/brand-standards/ @amittner @luke @monica_galletto @vicbell
 /sites/handbook/source/handbook/marketing/corporate-marketing/brand-activation/brand-design/ @amittner @luke @monica_galletto @vicbell
