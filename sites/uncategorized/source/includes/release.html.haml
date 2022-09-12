@@ -15,9 +15,11 @@
     - datafile.mvp do |mvp|
       .release-post-section
         = image_tag "/images/mvp_badge.png", alt: "GitLab MVP badge"
-        %h2{:id => "mvp"}
+        %h2.refresh-h3{:id => "mvp"}
           %a.header-link{href: "#mvp"}
             %i.fas.fa-link
+            %span.sr-only
+              MVP
           This month's Most Valuable Person (
           %a{href: "/community/mvp/"}> MVP
           ) is
@@ -28,29 +30,39 @@
 
 / top feature
 - if datafile.features.top != nil
-  %section#top-feature.top-feature.release-post-section
-    .release-post-section.text-center
+  %section#top-feature.top-feature.release-post-section.refresh-purple-background
+    .release-post-section
       %h2{:id => "key-features-released", :class => "features-released"}
         %a.header-link{href: "#key-features"}
           %i.fas.fa-link
+          %span.sr-only
+            = current_article.data.release_number
         = "Key improvements released in GitLab #{current_article.data.release_number}"
     - datafile.features.top.each do |top_feature|
       - feature_name_href = top_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
-      %h2{:id => "#{feature_name_href}"}
+      %h2.refresh-h3{:id => "#{feature_name_href}"}
         %a.header-link{href: "##{feature_name_href}"}
           %i.fas.fa-link
+          %span.sr-only
+            = kramdown(top_feature.name)
         = kramdown(top_feature.name)
       .badge-with-tiers
         - if top_feature.stage
           - if top_feature.stage_url
             %a.stage-badge{ href: "#{top_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{top_feature.stage.capitalize}" }
               = partial "/includes/icons/sdlc-icons/#{top_feature.stage}.svg"
+              %span.sr-only
+                stage-badge
           - elsif data.stages.stages[top_feature.stage].marketing
             %a.stage-badge{ href: "/stages-devops-lifecycle/#{top_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{top_feature.stage.capitalize}" }
               = partial "/includes/icons/sdlc-icons/#{top_feature.stage}.svg"
+              %span.sr-only
+                stage-badge
           - else
             %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{top_feature.stage.capitalize}" }
               = partial "/includes/icons/sdlc-icons/#{top_feature.stage}.svg"
+              %span.sr-only
+                stage-badge
         = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(top_feature.available_in), gitlab_com: top_feature.gitlab_com, is_dark: true }
       = kramdown(top_feature.description)
       .column
@@ -89,31 +101,38 @@
             %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.webpage_url}", :target => "_blank"}
               = partial "includes/icons/product-icons/webpage.svg"
               Webpage
-  %hr/
 
 / primary features
 - if datafile.features.primary != nil
-  %section#primary-features.release-post-section
+  %section#primary-features.release-post-section.refresh-purple-background
     - datafile.features.primary.each_with_index do |primary_feature, i|
       - if i.even?
         - feature_name_href = primary_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
         .release-row
           .column
-            %h2{:id => "#{feature_name_href}"}
+            %h2.refresh-h3{:id => "#{feature_name_href}"}
               %a.header-link{href: "##{feature_name_href}"}
                 %i.fas.fa-link
+                %span.sr-only
+                  = kramdown(primary_feature.name)
               = kramdown(primary_feature.name)
             .badge-with-tiers
               - if primary_feature.stage
                 - if primary_feature.stage_url
                   %a.stage-badge{ href: "#{primary_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
                     = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                    %span.sr-only
+                      stage-badge
                 - elsif data.stages.stages[primary_feature.stage].marketing
                   %a.stage-badge{ href: "/stages-devops-lifecycle/#{primary_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
                     = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                    %span.sr-only
+                      stage-badge
                 - else
                   %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
                     = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                    %span.sr-only
+                      stage-badge
               = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(primary_feature.available_in), gitlab_com: primary_feature.gitlab_com, is_dark: true }
             = kramdown(primary_feature.description)
             .row.reference-buttons
@@ -156,24 +175,31 @@
                   = image_tag "#{primary_feature.image_url}", class: "shadow", alt: "#{primary_feature.name}", loading: 'lazy'
       - else
         - feature_name_href = primary_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
-        %hr/
         .release-row.image-left
           .column.text-column
             %h2{:id => "#{feature_name_href}"}
               %a.header-link{href: "##{feature_name_href}"}
                 %i.fas.fa-link
+                %span.sr-only
+                  = kramdown(primary_feature.name)
               = kramdown(primary_feature.name)
             .badge-with-tiers
               - if primary_feature.stage
                 - if primary_feature.stage_url
                   %a.stage-badge{ href: "#{primary_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
                     = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                    %span.sr-only
+                      stage-badge
                 - elsif data.stages.stages[primary_feature.stage].marketing
                   %a.stage-badge{ href: "/stages-devops-lifecycle/#{primary_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
                     = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                    %span.sr-only
+                      stage-badge
                 - else
                   %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{primary_feature.stage.capitalize}" }
                     = partial "/includes/icons/sdlc-icons/#{primary_feature.stage}.svg"
+                    %span.sr-only
+                      stage-badge
               = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(primary_feature.available_in), gitlab_com: primary_feature.gitlab_com, is_dark: true }
             = kramdown(primary_feature.description)
             .row.reference-buttons
@@ -213,48 +239,63 @@
                   = image_tag "#{primary_feature.image_url}", alt: "#{primary_feature.name}"
                 - else
                   = image_tag "#{primary_feature.image_url}", class: "shadow", alt: "#{primary_feature.name}"
-        %hr/
 
 / secondary features
 - if datafile.features.secondary != nil
   %section#secondary-features.release-post-section
     .release-post-section.text-center.zero-bottom-margin
       .title-with-stage
-        %h2{:id => "other-improvements-in-gitlab", :class => "features-released"}
+        %h2.refresh-h2{:id => "other-improvements-in-gitlab", :class => "features-released"}
           %a.header-link{href: "#other-improvements-in-gitlab"}
             %i.fas.fa-link
+            %span.sr-only
+              = current_article.data.release_number
           = "Other improvements in GitLab #{current_article.data.release_number}"
         - if current_article.data.stage
           - if current_article.data.stage_url
             %a.stage-badge{ href: "#{current_article.data.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{current_article.data.stage.capitalize}" }
               = partial "/includes/icons/sdlc-icons/#{current_article.data.stage}.svg"
+              %span.sr-only
+                stage-badge
           - elsif data.stages.stages[current_article.data.stage].marketing
             %a.stage-badge{ href: "/stages-devops-lifecycle/#{current_article.data.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{current_article.data.stage.capitalize}" }
               = partial "/includes/icons/sdlc-icons/#{current_article.data.stage}.svg"
+              %span.sr-only
+                stage-badge
           - else
             %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{current_article.data.stage.capitalize}" }
               = partial "/includes/icons/sdlc-icons/#{current_article.data.stage}.svg"
+              %span.sr-only
+                stage-badge
     .release-row.align-top.divider
       .secondary-release-column
         - datafile.features.secondary.each_with_index do |secondary_feature, i|
           - feature_name_href = secondary_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
           - if (i.even? && !secondary_feature.force_right) || secondary_feature.force_left
             .secondary-column-feature
-              %h3{:id => "#{feature_name_href}"}
+              %h3.refresh-h4{:id => "#{feature_name_href}"}
                 %a.header-link{href: "##{feature_name_href}"}
                   %i.fas.fa-link
+                  %span.sr-only
+                    = kramdown(secondary_feature.name)
                 = kramdown(secondary_feature.name)
               .badge-with-tiers
                 - if secondary_feature.stage
                   - if secondary_feature.stage_url
                     %a.stage-badge{ href: "#{secondary_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
                       = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                      %span.sr-only
+                        stage-badge
                   - elsif data.stages.stages[secondary_feature.stage].marketing
                     %a.stage-badge{ href: "/stages-devops-lifecycle/#{secondary_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
                       = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                      %span.sr-only
+                        stage-badge
                   - else
                     %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
                       = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                      %span.sr-only
+                        stage-badge
                 = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(secondary_feature.available_in), gitlab_com: secondary_feature.gitlab_com, is_dark: true }
               = kramdown(secondary_feature.description)
               - if secondary_feature.video
@@ -311,21 +352,29 @@
           - feature_name_href = secondary_feature.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
           - if (i.odd? && !secondary_feature.force_left) || secondary_feature.force_right
             .secondary-column-feature
-              %h3{:id => "#{feature_name_href}"}
+              %h3.refresh-h4{:id => "#{feature_name_href}"}
                 %a.header-link{href: "##{feature_name_href}"}
                   %i.fas.fa-link
+                  %span.sr-only
+                    = kramdown(secondary_feature.name)
                 = kramdown(secondary_feature.name)
               .badge-with-tiers
                 - if secondary_feature.stage
                   - if secondary_feature.stage_url
                     %a.stage-badge{ href: "#{secondary_feature.stage_url}", "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
                       = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                      %span.sr-only
+                        stage-badge
                   - elsif data.stages.stages[secondary_feature.stage].marketing
                     %a.stage-badge{ href: "/stages-devops-lifecycle/#{secondary_feature.stage}/", "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
                       = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                      %span.sr-only
+                        stage-badge
                   - else
                     %span.stage-badge{ "data-toggle": "tooltip", "data-placement": "auto", title: "#{secondary_feature.stage.capitalize}" }
                       = partial "/includes/icons/sdlc-icons/#{secondary_feature.stage}.svg"
+                      %span.sr-only
+                        stage-badge
                 = partial "includes/features/badges", locals: { tier_hash: available_in_array_to_tier_hash(secondary_feature.available_in), gitlab_com: secondary_feature.gitlab_com, is_dark: true }
               = kramdown(secondary_feature.description)
               - if secondary_feature.video
@@ -383,9 +432,11 @@
   %section#tertiary.release-post-section
     - datafile.tertiary.each do |tertiary_item|
       - feature_name_href = tertiary_item.name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9-]/, '')
-      %h3.text-center{:id => "#{feature_name_href}"}
+      %h3.refresh-h2{:id => "#{feature_name_href}"}
         %a.header-link{href: "##{feature_name_href}"}
           %i.fas.fa-link
+          %span.sr-only
+            = kramdown(tertiary_item.name)
         = kramdown(tertiary_item.name)
       = kramdown(tertiary_item.description)
       .row.reference-buttons.ref-buttons-tertiary-features
@@ -411,9 +462,11 @@
   - current_version = Gem::Version.new(current_article.data.release_number)
 - if datafile.deprecations.present? && current_version <= config[:latest_deprecation_release]
   %section#deprecations.release-post-section
-    %h2.text-center{:id => "release-deprecations"}
+    %h2.refresh-h2{:id => "release-deprecations"}
       %a.header-link{href: "#release-deprecations"}
         %i.fas.fa-link
+        %span.sr-only
+          Deprecations
       Deprecations
       - if current_version > config[:latest_deprecation_release]
         = kramdown("The deprecated items listed below are newly deprecated as of this release.  This list does not include features that were deprecated in previous releases and that have not yet been removed from the product.  A complete list of all features that are currently deprecated can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/deprecations.html).")
@@ -422,6 +475,8 @@
       %h3{:id => "#{feature_name_href}"}
         %a.header-link{href: "##{feature_name_href}"}
           %i.fas.fa-link
+          %span.sr-only
+            = kramdown(deprecation.feature_name)
         = kramdown(deprecation.feature_name)
       = kramdown(deprecation.description)
       %p
@@ -430,9 +485,11 @@
         %strong= "#{deprecation.due}"
 - elsif datafile.deprecations.present? && current_version > config[:latest_deprecation_release]
   %section#deprecations.release-post-section
-    %h2.text-center{:id => "release-deprecations"}
+    %h2.refresh-h2{:id => "release-deprecations"}
       %a.header-link{href: "#release-deprecations"}
         %i.fas.fa-link
+        %span.sr-only
+          Deprecations
       Deprecations
     %p
       = kramdown("New deprecations and the complete list of all features that are currently deprecated can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/deprecations.html).")
@@ -447,6 +504,8 @@
     %h2.text-center{:id => "release-deprecations"}
       %a.header-link{href: "#release-deprecations"}
         %i.fas.fa-link
+        %span.sr-only
+          Deprecations
       Deprecations
     %p
       = kramdown("The complete list of all features that are currently deprecated can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/deprecations.html).")
@@ -454,15 +513,19 @@
 / removals
 - if datafile.removals.present? && current_version <= config[:latest_deprecation_release]
   %section#removals.release-post-section
-    %h2.text-center{:id => "release-removals"}
+    %h2.refresh-h2{:id => "release-removals"}
       %a.header-link{href: "#release-removals"}
         %i.fas.fa-link
+        %span.sr-only
+          Removals and breaking changes
       Removals and breaking changes
     - datafile.removals.each do |removal|
       - feature_name_href = removal.feature_name.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9\-_]/, '')
       %h3{:id => "#{feature_name_href}"}
         %a.header-link{href: "##{feature_name_href}"}
           %i.fas.fa-link
+          %span.sr-only
+            = kramdown(removal.feature_name)
         = kramdown(removal.feature_name)
       = kramdown(removal.description)
       %p
@@ -471,9 +534,11 @@
         %strong= "#{removal.date_of_removal}"
 - elsif datafile.removals.present? && current_version > config[:latest_deprecation_release]
   %section#removals.release-post-section
-    %h2.text-center{:id => "release-removals"}
+    %h2.refresh-h2{:id => "release-removals"}
       %a.header-link{href: "#release-removals"}
         %i.fas.fa-link
+        %span.sr-only
+          Removals and breaking changes
       Removals and breaking changes
     %p
       = kramdown("The complete list of all removed features can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/removals.html).")
@@ -485,9 +550,11 @@
           #{removal.feature_name}
 - else
   %section#removals.release-post-section
-    %h2.text-center{:id => "release-removals"}
+    %h2.refresh-h2{:id => "release-removals"}
       %a.header-link{href: "#release-removals"}
         %i.fas.fa-link
+        %span.sr-only
+          Removals and breaking changes
       Removals and breaking changes
     %p
       = kramdown("The complete list of all removed features can be viewed in the [GitLab documentation](https://docs.gitlab.com/ee/update/removals.html).")
@@ -496,15 +563,19 @@
 
 - if datafile.extras.present? && current_version >= Gem::Version.new(14.0)
   %section#extras.release-post-section
-    %h2.text-center{:id => "release-extras"}
+    %h2.refresh-h2{:id => "release-extras"}
       %a.header-link{href: "#release-extras"}
         %i.fas.fa-link
+        %span.sr-only
+          Other notable changes
       Other notable changes
       - datafile.extras.each do |extra|
         - feature_name_href = extra.title.downcase.tr(" ", "-").squeeze('-').gsub(/[^a-z0-9\-_]/, '')
-        %h3{:id => "#{feature_name_href}"}
+        %h3.refresh-h4{:id => "#{feature_name_href}"}
           %a.header-link{href: "##{feature_name_href}"}
             %i.fas.fa-link
+            %span.sr-only
+              = kramdown(extra.title)
           = kramdown(extra.title)
         = kramdown(extra.description)
 
@@ -516,6 +587,8 @@
     %h2.text-center{:id => "upgrade"}
       %a.header-link{href: "#upgrade"}
         %i.fas.fa-link
+        %span.sr-only
+          Important notes on upgrading to GitLab
       = "Important notes on upgrading to GitLab #{current_article.data.release_number}"
     = kramdown(datafile.upgrade.description)
 
@@ -526,5 +599,7 @@
       %h2.text-center{:id => "barometer"}
         %a.header-link{href: "#barometer"}
           %i.fas.fa-link
+          %span.sr-only
+            Upgrade barometer
         Upgrade barometer
       = kramdown(barometer.description)
