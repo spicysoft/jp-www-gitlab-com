@@ -398,9 +398,9 @@ quality_management:
   description: "Plan and track testing and quality of your product."
   roi: false
   available: 2020-11-22
-  viable: 2022-08-22
-  complete: 2023-02-22
-  lovable: 2024-02-22
+  viable: 2023-09-01
+  complete: 2024-09-01
+  lovable: 2025-09-01
   maturity: minimal
   marketing: true
   priority_level: low
