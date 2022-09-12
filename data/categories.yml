@@ -2505,7 +2505,7 @@ billing_and_subscription_management:
   marketing: false
   maturity:
 
-# ModelOps Section
+# Data Science Section
 
 mlops:
   name: "MLOps"
