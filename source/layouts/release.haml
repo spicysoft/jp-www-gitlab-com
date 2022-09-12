@@ -10,7 +10,7 @@
     = partial "includes/layout/header"
 
     / blog template
-    .blog.article
+    .blog.article.release-post-refresh
       - if is_blog_article?
         - image_title = current_article.data.image_title ? current_article.data.image_title : '/images/default-blog-image.png'
         .cover{ style: "background-image: url(#{image_title});" }
@@ -33,7 +33,9 @@
                 - if current_article.data.author_gitlab
                   = link_to "https://gitlab.com/#{current_article.data.author_gitlab}" do
                     %span &nbsp;
-                    %spam{ class: "author-gitlab #{header_layout_dark ? 'dark-header' : ''}"}
+                    %span.sr-only
+                      = current_article.data.author
+                    %span{ class: "author-gitlab #{header_layout_dark ? 'dark-header' : ''}"}
                       %i.fab.fa-gitlab
               - release_number_dark = current_article.data.release_number_dark
               - if current_article.data.release_number
@@ -66,9 +68,11 @@
           %section#about-gitlab.gray-section
             .release-row.align-top
               .column
-                %h3{:id => "changelog"}
+                %h3.refresh-h3.refresh-h3--secondary{:id => "changelog"}
                   %a.header-link{href: "#changelog"}
                     %i.fas.fa-link
+                    %span.sr-only
+                      Changelog
                   Changelog
                 %p
                   Please check out the changelog to see all the named changes:
@@ -77,46 +81,54 @@
                       %a{:href => "https://gitlab.com/gitlab-org/gitlab-foss/blob/master/CHANGELOG.md", target: "_blank", title: "GitLab"} GitLab
                     %li
                       %a{:href => "https://gitlab.com/gitlab-org/gitlab-runner/blob/main/CHANGELOG.md", target: "_blank", title: "GitLab Runner"} GitLab Runner
-                %h3{:id => "installing"}
+                %h3.refresh-h3.refresh-h3--secondary{:id => "installing"}
                   %a.header-link{href: "#installing"}
                     %i.fas.fa-link
+                    %span.sr-only
+                      Installing
                   Installing
                 %p
                   If you are setting up a new GitLab installation please see the
                   %a{:href => "/install/"} download GitLab page.
-                %h3{:id => "updating"}
+                %h3.refresh-h3.refresh-h3--secondary{:id => "updating"}
                   %a.header-link{href: "#updating"}
                     %i.fas.fa-link
+                    %span.sr-only
+                      Updating
                   Updating
                 %p
                   Check out our
                   %a{:href => "/update/"} update page.
-                %h3{:id => "questions"}
+                %h3.refresh-h3.refresh-h3--secondary{:id => "questions"}
                   %a.header-link{href: "#questions"}
                     %i.fas.fa-link
+                    %span.sr-only
+                      Questions?
                   Questions?
                 %p
                   We'd love to hear your thoughts! Visit the GitLab Forum
                   %a{:href => "https://forum.gitlab.com/", target: "_blank", title: "GitLab Forum"} GitLab Forum
                   and let us know if you have questions about the release.
-              .column
-                %h3{:id => "gitlab-products"}
+              .column.refresh-plans
+                %h3.refresh-h3.refresh-h3--secondary{:id => "gitlab-products"}
                   %a.header-link{href: "#gitlab-products"}
                     %i.fas.fa-link
+                    %span.sr-only
+                      GitLab Subscription Plans
                   GitLab Subscription Plans
-                  %ul
-                    %li
-                      %b Free:
-                      Free-forever features for individual users
-                    %li
-                      %b Premium:
-                      Enhance team productivity and coordination
-                    %li
-                      %b Ultimate:
-                      Organization wide security, compliance, and planning
-                  %p
-                    Try all GitLab features - 
-                    %a{:href => "https://about.gitlab.com/free-trial", title: "GitLab Free Trial"} free for 30 days
+                %ul
+                  %li
+                    %b Free:
+                    Free-forever features for individual users
+                  %li
+                    %b Premium:
+                    Enhance team productivity and coordination
+                  %li
+                    %b Ultimate:
+                    Organization wide security, compliance, and planning
+                %p
+                  Try all GitLab features - 
+                  %a{:href => "https://about.gitlab.com/free-trial", title: "GitLab Free Trial"} free for 30 days
 
           / cover image
           %section#cover-img.release-post-section
@@ -133,7 +145,8 @@
         = partial "includes/blog/pager"
       .wrapper.signup
         = partial "includes/newsletter-signup.html"
-      = partial "includes/blog/try"
+      .refresh-gradient
+        = partial "includes/blog/try"
       - if ci_environment?
         .wrapper.comments
           = partial "includes/blog/comments"
