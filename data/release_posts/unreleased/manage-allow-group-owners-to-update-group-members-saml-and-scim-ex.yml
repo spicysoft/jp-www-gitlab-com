@@ -1,0 +1,14 @@
+---
+features:
+  secondary:
+  - name: "Allow group owners to update group members' SAML (and SCIM) extern_uid
+      via API"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: hsutor
+    stage: manage
+    categories: []
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/227841'
+    description: |
+      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
