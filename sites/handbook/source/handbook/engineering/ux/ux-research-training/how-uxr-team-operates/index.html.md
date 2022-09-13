@@ -94,7 +94,11 @@ The UX Research peer review process is designed to be asynchonous and inclusive 
 1. **Edit** - The UX Researcher looks at the feedback, follows up on any questions, and makes any adjustments necessary.  
 1. **Mark as done** - When complete, they put a green check mark emoji reaction on their original post, indicating that the peer review request has been completed and is closed.
 
-UX Researchers are all required to take part in a peer review with their final reports that they created.  Additionally, it's strongly encouraged for UX Researchers to help their peers by reviewing anything submitted through the peer review process.
+UX Researchers are all required to take part in a peer review with their test plans and final reports that they created.  Additionally, it's strongly encouraged for UX Researchers to help their peers by reviewing anything submitted through the peer review process. 
+
+When reviewing suggestions from peers asynchronously, it's a best practice to provide a note or explanation when closing suggestions.  This is done to explain any rationale behind any decisions made around the suggestion and to add closure to the suggestion. 
+
+Ultimately, it's up to the owner of the document to decide which suggestions they'd like to apply.
 
 ## How UX Researchers socialize research findings
 When we drive our own research projects, it means we're also responsible for socializing those insights.  The most effective way to do that is as follows:
