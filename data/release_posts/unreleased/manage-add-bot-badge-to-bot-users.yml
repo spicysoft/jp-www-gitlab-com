@@ -12,4 +12,4 @@ features:
     - User Management
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/330350'
     description: |
-      Previously, it was difficult to visually identify bot users. Bot users now have a **Bot account** badge in the UI. 
+      Previously, it was difficult to visually identify bot users. Bot users now have a **Bot account** badge in the group and members list. 
