@@ -19,8 +19,8 @@ features:
       to benefit from the GitOps workflow.
       
       The current release ships with Alpha
-      support for Helm in the agent. As Helm is a mature product, we consider the
-      solution performant but has a few [known limitations](https://docs.gitlab.com/ee/user/clusters/agent/gitops/helm.html#known-issues),
+      support for Helm. Because Helm is a mature product, we consider the
+      solution performant. However, [known issues](https://docs.gitlab.com/ee/user/clusters/agent/gitops/helm.html#known-issues) exist
       and the API might change without prior notice. We welcome your feedback in [the
       related epic](https://gitlab.com/groups/gitlab-org/-/epics/7938), where we discuss
       future improvements and next steps.
