@@ -17,3 +17,4 @@ tertiary:
       - [Package duplicate settings UI update for side-by-side layout](https://gitlab.com/gitlab-org/gitlab/-/issues/363428).
       - [Save changes button is disabled in the Container Registry cleanup policies form when no changes have been made](https://gitlab.com/gitlab-org/gitlab/-/issues/371882).
       - [Container Registry cleanup policies moved to a single page](https://gitlab.com/gitlab-org/gitlab/-/issues/363426).
+      - [Retain job filter in URL](https://gitlab.com/gitlab-org/gitlab/-/issues/367566)
