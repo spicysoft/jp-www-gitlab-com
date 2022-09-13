@@ -70,7 +70,7 @@
 
 ^[Company]
 /sites/uncategorized/source/company/team/structure/ @wendybarnes @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @rtakken
-/sites/uncategorized/source/company/family-and-friends-day/ @cheriholmes
+/sites/uncategorized/source/company/family-and-friends-day/ @mmcb
 
 ^[Working Groups]
 /sites/uncategorized/source/company/team/structure/working-groups/cross-functional-prioritization/ @whaber @clefelhocz1 @vkarnes @meks @fseifoddini @justinfarris
@@ -91,7 +91,7 @@
 /sites/uncategorized/source/company/culture/all-remote/ @dmurph @jessicareeder @bbula
 /sites/uncategorized/source/company/culture/contribute/ @Lconway @akramer
 /sites/uncategorized/source/company/culture/cross-culture-collaboration-guide/ @glucchesi @brittanyr
-/sites/uncategorized/source/company/culture/gitlab-101/ @cheriholmes @streas
+/sites/uncategorized/source/company/culture/gitlab-101/ @mmcb @streas
 /sites/uncategorized/source/company/culture/inclusion/ @wendybarnes
 /sites/uncategorized/source/company/culture/internal-feedback/ @wendybarnes @brittanyr @mwilkins
 /sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-generational-understanding/ @darwinjs @wendybarnes @mdrussell @terrichu
@@ -110,7 +110,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/sales/training/field-functional-competencies/ @kreykrey @dhong @cbednarz
 
 ^[EBA team]
-/sites/handbook/source/handbook/eba/ @cheriholmes
+/sites/handbook/source/handbook/eba/ @mmcb
 
 ^[Engineering]
 /data/projects.yml @edjdev
@@ -453,7 +453,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/people-group/offboarding/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
 /sites/handbook/source/handbook/people-group/employment-branding/internal-communications/ @sliang2 @kaylagolden @drogozinski @rallen3
-/sites/handbook/source/handbook/group-conversations/ @cheriholmes
+/sites/handbook/source/handbook/group-conversations/ @mmcb
 /sites/handbook/source/handbook/people-group/celebrations/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/talent-assessment/ @wendybarnes @brittanyr @rtakken @glucchesi @pegan @cbednarz
 /sites/handbook/source/handbook/labor-and-employment-notices/ @pegan @wendybarnes @cgudgenov @streas @sytses
