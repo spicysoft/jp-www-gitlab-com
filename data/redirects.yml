@@ -2403,11 +2403,6 @@
   target: /releases/2018/12/22/gitlab-11-6-released/
   comp_op: '~'
 - sources:
-  - /handbook/customer-success/tam/gemstones/
-  - /handbook/customer-success/tam/gemstones
-  target: /handbook/customer-success/tam/
-  comp_op: '='
-- sources:
   - /job-families/sales/director-of-sales-and-customer-enablement/
   - /job-families/sales/director-of-sales-and-customer-enablement
   target: /job-families/sales/director-of-field-enablement/
@@ -4577,3 +4572,7 @@
   - /handbook/mecc/
   target: /handbook/teamops/
   comp_op: '='
+- sources:
+  - /handbook/customer-success/tam/
+  target: /handbook/customer-success/csm/
+  comp_op: '~'
