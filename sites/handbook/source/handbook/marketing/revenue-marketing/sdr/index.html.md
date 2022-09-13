@@ -352,7 +352,7 @@ While the below measurements do not impact your quota attainment, they are monit
     * Completion of BDR Q1-Q4 Tanuki Techs
         * NOTE: All promotions require a formal application + interview. Performance and adherence to our values will guarantee an interview but the BDR will have to demonstrate that they are the best candidate during the interview process. Factors such as interview performance, headcount, language requirements can influence promotion timelines.
 
-**Some examples of potential next roles after the Sales Dev Org are [Inside Sales Rep](https://about.gitlab.com/job-families/sales/public-sector-inside-account-representative/), [SMB Account Executive](https://about.gitlab.com/job-families/sales/smb-customer-advocate/), [Associate Solutions Architect](https://about.gitlab.com/job-families/sales/solutions-architect/), [Technical Account Manager](https://about.gitlab.com/handbook/customer-success/tam/), and many more!**
+**Some examples of potential next roles after the Sales Dev Org are [Inside Sales Rep](https://about.gitlab.com/job-families/sales/public-sector-inside-account-representative/), [SMB Account Executive](https://about.gitlab.com/job-families/sales/smb-customer-advocate/), [Associate Solutions Architect](https://about.gitlab.com/job-families/sales/solutions-architect/), [Technical Account Manager](https://about.gitlab.com/handbook/customer-success/csm/), and many more!**
 
 
 
