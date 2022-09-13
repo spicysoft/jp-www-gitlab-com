@@ -32,3 +32,4 @@ tertiary:
       - [Fix the loading state for the VSA edit form](https://gitlab.com/gitlab-org/gitlab/-/issues/361331)
       - [Geo: invalid lfs object deletion on secondary when managed object replication is disabled](https://gitlab.com/gitlab-org/gitlab/-/issues/371397)
       - [Geo: LFS redirect from secondary to primary may not work mid-session](https://gitlab.com/gitlab-org/gitlab/-/issues/371571)
+      - [Fix the broken "Run Pipeline" button on MR for some forks](https://gitlab.com/gitlab-org/gitlab/-/issues/371790)
