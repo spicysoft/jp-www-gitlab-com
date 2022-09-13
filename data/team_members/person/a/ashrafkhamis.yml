@@ -2,8 +2,7 @@
 name: Ashraf Khamis
 locality:
 country: Remote
-role: <a href="/job-families/engineering/technical-writer/#senior-technical-writer">Senior
-  Technical Writer</a>
+role: <a href="/job-families/engineering/technical-writer/#senior-technical-writer">Senior Technical Writer</a>
 reports_to: kpaizee
 picture: ashrafkhamis.jpg
 pronouns: he/him
@@ -15,8 +14,17 @@ departments:
 - Engineering Function
 - UX Department
 - Technical Writing
+projects:
+  gitlab: maintainer docs
+  gitlab-docs: maintainer
+  gitlab-development-kit: maintainer docs
+  gitlab-operator: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
+  omnibus-gitlab: maintainer docs
 specialty:
 - 'Ecosystem: Integrations'
+- 'Enablement: Global Search'
+- 'Create: Editor'
 expertise:
 story:
-
