@@ -30,3 +30,5 @@ tertiary:
       - [Incoming email secret file not created by default in the GitLab Omnibus packages](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/6991)
       - [Fix the VSA time to compelete stage chart showing no data for 0 values](https://gitlab.com/gitlab-org/gitlab/-/issues/368304)
       - [Fix the loading state for the VSA edit form](https://gitlab.com/gitlab-org/gitlab/-/issues/361331)
+      - [Geo: invalid lfs object deletion on secondary when managed object replication is disabled](https://gitlab.com/gitlab-org/gitlab/-/issues/371397)
+      - [Geo: LFS redirect from secondary to primary may not work mid-session](https://gitlab.com/gitlab-org/gitlab/-/issues/371571)
