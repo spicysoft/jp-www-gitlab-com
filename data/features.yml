@@ -11352,7 +11352,7 @@ discussion to be focused on."
 
   - title : "Automatic disabling of failing webhooks"
     description: "Webhooks that fail intermittently are temporarily disabled and automatically retried. Webhooks that fail consistently are permanently disabled and re-enabled by project owners and maintainers."
-    link_description: "Webhook Documentation"
+    link_description: "Learn more about failing webhooks"
     link: https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#failing-webhooks
     category:
       - integrations
