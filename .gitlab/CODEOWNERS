@@ -175,8 +175,9 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/development/sec/ @whaber @twoodham @mark.art @pcalder
 /sites/handbook/source/handbook/engineering/development/sec/anti-abuse/ @jayswain @pcalder
 /sites/handbook/source/handbook/engineering/development/sec/govern/ @thiagocsf @nmccorrison @pcalder
-/sites/handbook/source/handbook/engineering/development/sec/secure/ @whaber @twoodham @mark.art @pcalder
-/sites/handbook/source/handbook/engineering/development/sec/govern/threat-insights/ @thiagocsf @nmccorrison @pcalder
+/sites/handbook/source/handbook/engineering/development/sec/govern/threat-insights/ @thiagocsf @nmccorrison
+/sites/handbook/source/handbook/engineering/development/sec/govern/security-policies/ @pcalder @mparuszewski
+/sites/handbook/source/handbook/engineering/development/sec/secure/ @whaber @twoodham @mark.art
 /sites/handbook/source/handbook/engineering/development/sec/secure/vulnerability-research/ @whaber @mark.art
 /sites/handbook/source/handbook/engineering/frontend/ @timzallmann
 /sites/handbook/source/handbook/engineering/development/shadow/ @whaber
