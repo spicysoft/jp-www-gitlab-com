@@ -11351,7 +11351,7 @@ discussion to be focused on."
     pps_aggregate: 0
 
   - title : "Automatic disabling of failing webhooks"
-    description: "Failing webhooks will be automatically disabled. Based on the failure reason, they will either re-enable automatically or owners/maintainers may address the issue and re-enable their webhooks within Projects > Settings > Webhooks."
+    description: "Webhooks that fail intermittently are temporarily disabled and automatically retried. Webhooks that fail consistently are permanently disabled and re-enabled by project owners and maintainers."
     link_description: "Webhook Documentation"
     link: https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#failing-webhooks
     category:
