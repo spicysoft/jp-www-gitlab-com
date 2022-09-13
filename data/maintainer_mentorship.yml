@@ -27,6 +27,7 @@
   max_trainees: 3
   trainees:
     - Bojan Marjanovic (@bmarjanovic)
+    - Rajendra Kadam (@rkadam3)
 - mentor: Luke Duncalfe
   gitlab: .luke
   domains:
