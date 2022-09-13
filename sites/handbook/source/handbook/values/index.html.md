@@ -593,7 +593,11 @@ GitLabは成長する中で、どのように活動すれば[スタートアッ�
 
 ##### 自走と自習 {#self-service-and-self-learning}
 {:.no_toc}
-Team members should first [search for their own answers](/company/culture/all-remote/self-service/) and, if an answer is not readily found or the answer is not clear, ask in public as we all should have a [low level of shame](/handbook/values/#low-level-of-shame). [Write down any new information discovered](/handbook/values/#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
+
+まずは[独力で答えを探してください](/company/culture/all-remote/self-service/)。
+答えがなかなか見つからなかったり、答えが明確でない場合は、[恥ずかしがらず](/handbook/values/#low-level-of-shame)に、オープンな場で質問をしてください。
+[分かったことがあったら書き留め](/handbook/values/#write-things-down)てください。
+コラボレーションの実践やインクルージョンや結果の文書化につとめ、次の人が効率良く働けるようにしてあげてください。
 
 ##### 正しい相手のために効率化をする {#efficiency-for-the-right-group}
 {:.no_toc}
