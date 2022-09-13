@@ -364,14 +364,20 @@ can efficiently perform the necessary verification.
 
 To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the writers use this workflow:
 
-- When a developer opens a merge request:
-  - If the MR contains only documentation, the writer reviews and merges.
-  - If the MR contains documentation and code, the writer reviews but does not merge. The MR is reviewed and merged by another developer.
-
 - When a writer opens a merge request, another writer must review and merge. Peer reviews are important to maintain quality and help the team build a common voice.
 
-When a developer opens a merge request, they are the DRI for the code in that MR. Writers should use caution if they work in a developer branch that contains code, and should get explicit approval before doing so. Pushing to a branch can cause hard-to-resolve merge conflicts, and content can be accidentally overwritten.
+- When anyone else (like a developer, community member, or Support team member) opens a merge request:
+  - If the MR contains documentation and code, the writer adds suggestions but does not merge. The MR is merged by another developer.
 
+  - If the MR contains documentation only:
+    - Writers can apply small suggestions, by using the **Apply suggestion** feature, before they merge.
+      Writers can fix things like missing punctuation, typos, and pipeline failures without additional review.
+    - Writers do not push larger changes (by using suggestions or commits) to the author's branch unless they have explicit approval in the MR to do so.
+      Pushing to a branch can cause hard-to-resolve merge conflicts, and content can be accidentally overwritten.
+    - In rare cases, a writer has agreement from their team to make commits directly to the author's branch.
+      In these cases, if the writer pushes changes other than minor typo fixes (by using suggestions or commits), a developer or other subject
+      matter expert must review before the writer merges. This workflow gives the MR
+      author a chance to verify the changes and it helps ensure accuracy.
 
 #### Triaging automated group mentions
 
