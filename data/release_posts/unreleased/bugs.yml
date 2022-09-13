@@ -28,3 +28,5 @@ tertiary:
       - [Online GC: Lock contention on manifest deletes](https://gitlab.com/gitlab-org/container-registry/-/issues/732)
       - [GitLab Pages fails to start in the GitLab Helm Chart when using UBI images](https://gitlab.com/gitlab-org/charts/gitlab/-/issues/3443)
       - [Incoming email secret file not created by default in the GitLab Omnibus packages](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/6991)
+      - [Fix the VSA time to compelete stage chart showing no data for 0 values](https://gitlab.com/gitlab-org/gitlab/-/issues/368304)
+      - [Fix the loading state for the VSA edit form](https://gitlab.com/gitlab-org/gitlab/-/issues/361331)
