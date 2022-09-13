@@ -129,7 +129,8 @@ Once **added as a Reviewer to this merge request**, the [technical writer design
 **Please only mark a section as completed once you performed all individual checks!** When your review is complete, please `approve` this MR and remove yourself from Reviewers.
 
 - [ ] Feature:
-  - If the feature is listed as `top` or `primary` (not `secondary`), as described in the [Handbook](https://about.gitlab.com/handbook/marketing/blog/release-posts/#features), review changes (as needed) to `features.yml`. Make sure it's associated with the appropriate stage and group.
+  - If the feature is listed as `top` or `primary` (not `secondary`), as described in the [Handbook](https://about.gitlab.com/handbook/marketing/blog/release-posts/#features), review changes (as needed) to `[data/features.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/features.yml)`. Ensure the `category` field contains the relevant categories.
+  - Those categories can be referenced in `[data/categories.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/categories.yml)`
 - [ ] Image:
   - All `top` and `primary` features require an image (`png`, `jpg`, or `gif` format).
   - Make sure the image (png, jpg, or gif) is [smaller than 150 KB](https://about.gitlab.com/handbook/marketing/blog/release-posts/#images), if included.
