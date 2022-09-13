@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Improve the stable Terraform template to avoid breaking changes"
+  - name: "Improvements to the stable Terraform template to avoid breaking changes"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/infrastructure/iac/#integrate-your-project-with-terraform)'
@@ -11,4 +11,4 @@ features:
     - Infrastructure as Code
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/363001'
     description: |
-      The [Terraform CI/CD templates](https://docs.gitlab.com/ee/user/infrastructure/iac/#integrate-your-project-with-terraform) provide many Terraform users with a simple and easy start. For several years, we provided a `stable` and a `latest` template, where we tried to avoid breaking changes in minor GitLab releases in the `stable` template. Still, until now, even the stable template used the `latest` tag of the `gl-terraform` wrapper script that provides most of the GitLab integration logic. Changes to this script sometimes caused breaking changes in the `stable` template. The current release fixed the version of the `stable` template to avoid breaking changes outside of major releases.
+      The [Terraform CI/CD templates](https://docs.gitlab.com/ee/user/infrastructure/iac/#integrate-your-project-with-terraform) provide you with a quick and easy way to integrate your projects with Terraform. However, changes to the `gl-terraform` wrapper script could introduce breaking changes to even the `stable` Terraform template. In this release, changes to the wrapper script no longer cause breaking changes outside of major releases.
