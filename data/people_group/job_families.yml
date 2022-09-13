@@ -27,8 +27,6 @@
   description: "/job-families/finance/accounts-payable/"
 - title: Accounts Receivable
   description: "/job-families/finance/accounts-receivable/"
-- title: Analyst Relations Manager
-  description: "/job-families/marketing/analysts-relations-manager/"
 - title: Analytics and Insights
   description: "/job-families/finance/analytics-and-insights/"
 - title: Awareness Campaign Manager
@@ -383,8 +381,6 @@
   description: "/job-families/people-ops/absence-management/"
 - title: Technical Enablement Program Manager
   description: "/job-families/sales/technical-enablement-program-manager"
-- title: Technical Marketing Manager
-  description: "/job-families/marketing/technical-marketing-manager"
 - title: Technical Writer
   description:
   - "/job-families/engineering/technical-writer/"
