@@ -4,19 +4,18 @@ features:
   - name: "Deploy Helm charts with the agent for Kubernetes"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/user/clusters/agent/gitops/helm.html),'
+    documentation_link: 'https://docs.gitlab.com/ee/user/clusters/agent/gitops/helm.html'
     reporter: nagyv-gitlab
     stage: configure
     categories:
     - Kubernetes Management
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/371019'
     description: |
-      Kubernetes users can now [use the agent for Kubernetes to deploy
-      their applications packaged in Helm charts](https://docs.gitlab.com/ee/user/clusters/agent/gitops/helm.html).
-      Helm is likely the most popular Kubernetes packaging tool. Until now, the agent
-      for Kubernetes only supported vanilla Kubernetes manifest files for its GitOps
-      workflow. Helm users had to use a CI job to render and commit the resources
-      to benefit from the GitOps workflow.
+      You can now [use the agent for Kubernetes to deploy
+      Helm charts to your Kubernetes cluster](https://docs.gitlab.com/ee/user/clusters/agent/gitops/helm.html).
+      Until now, the agent for Kubernetes only supported vanilla Kubernetes manifest files in its GitOps
+      workflow. To benefit from the GitOps workflow, Helm users had to use a CI/CD job to render and commit
+      resources.
       
       The current release ships with Alpha
       support for Helm. Because Helm is a mature product, we consider the
