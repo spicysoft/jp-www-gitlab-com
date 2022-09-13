@@ -1,3 +1,13 @@
+- topic: TechTalk - DORA Metrics with GitLab
+  type: Webcast
+  date_starts: October 18, 2022
+  date_ends: October 18, 2022
+  description: Join us as we take a deep dive into the art of the possible with DORA metrics and beyond. This session will go over what DevOps metrics are available and arm you with the knowledge needed to build out a best practices metrics program, achieve visibility across your team in order to improve efficiencies, and leverage better insights on your software development to improve cycle times. Bring your questions and projects to this interactive session. Attendees will have the option to sign up for a delivered beverage and snack of choice.
+  location: Virtual
+  region: PubSec
+  social_tags:
+  event_url: https://www.meetup.com/gitlab-government-user-group/events/287837327/
+
 - topic: DevOps Automation Virtual Workshop for the Public Sector 
   type: Webcast
   date_starts: October 27, 2022
