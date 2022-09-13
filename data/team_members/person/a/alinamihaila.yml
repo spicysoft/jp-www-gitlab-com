@@ -21,10 +21,14 @@ projects:
   - reviewer backend
   - reviewer database
   - reviewer product_intelligence
-  iglu: trainee_maintainer
+  - reviewer tooling
   version-gitlab-com:
   - maintainer backend
   - reviewer database
+  gitlab-triage: reviewer
+  gitlab-styles: reviewer
+  gitlab-dangerfiles: reviewer
+  triage-ops: reviewer
 story: |
   Alina grew up in country side in the heart of Transylvania, she started to work as a developer at the age of 21 in an outsourcing company. After going to the office for 5 years she decided to take of her own and work remotely.
   She likes solving problems and helping people.

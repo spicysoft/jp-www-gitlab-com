@@ -22,7 +22,7 @@
   health:
     level: 2
     reasons:
-    - The team exceeded the target in May for version 15.0. June and July were lower, impacted by PTO, new hires, and three managers with lower MR rates. The 12-month average is 49.        
+    - The team moved closer to the target in August, with 15 Technical Writing team members contributing almost 52 MRs each. A Hackathon contributed 90 MRs. 
   dri: <a href="https://gitlab.com/susantacker">Susan Tacker</a>
   sisense_data:
     chart: 6223816
@@ -366,7 +366,7 @@
   health:
     level: 0
     reasons:
-    - We are watching this metric to determine a target, because historical data is inconsistent. The number has been dropping since March.  
+    - We are watching this metric to determine a target, because historical data is inconsistent. After several months of dropping numbers, August showed a strong rebound. We're discussing potential reasons for the large increase.   
   dri: <a href="https://gitlab.com/susantacker">Susan Tacker</a>
   sisense_data:
     chart: 12963522

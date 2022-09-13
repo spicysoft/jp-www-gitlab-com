@@ -27,7 +27,7 @@ Control Health and Effectiveness Ratings (CHER) determine a [GitLab Security Con
 
 ## Scope
 
-Observation risk ratings play a key role in determining how to establish a contols CHER. The procedures outlined in the sections below are used specifically by Internal Audit and the Security Compliance Team once an observation's [risk rating is determined](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html). Team members utilizing the CHER for rating information system risks outside of control testing activities will not need to engage in the procedures below.
+Observation risk ratings play a key role in determining how to establish a contols CHER. The procedures outlined in the sections below are used specifically by Internal Audit and the Security Compliance Team once an observation's [risk rating is determined](https://about.gitlab.com/handbook/engineering/security/security-assurance/observation-management-procedure.html). Team members utilizing the CHER for rating information system risks outside of control testing activities will not need to engage in the procedures below.
 
 ### Procedure
 
@@ -288,7 +288,7 @@ The process of completing control assessments will always require an associated 
 
 - [GCF Contol Lifecycle](/handbook/engineering/security/security-assurance/security-compliance/security-control-lifecycle.html#)
 - [Sarbanes-Oxley (SOX) Compliance](/handbook/internal-audit/sarbanes-oxley/)
-- [Observation Creation Procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html)
+- [Observation Creation Procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/observation-management-procedure.html)
 
 ## Contact
 

@@ -23,3 +23,4 @@ projects:
   gitlab: reviewer go
   secure-DS-gemnasium: reviewer backend
   secure-LC-license-finder: reviewer backend
+  secure-container-scanning: reviewer backend

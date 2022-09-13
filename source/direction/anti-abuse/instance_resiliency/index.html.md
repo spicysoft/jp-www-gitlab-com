@@ -12,7 +12,7 @@ canonical_path: "/direction/anti-abuse/instance_resiliency/"
 
 In early 2021, we witnessed the [cryptomining CI co-evolution](https://layerci.com/blog/crypto-miners-are-killing-free-ci/), where free SaaS continuous integration platforms are being seriously compromised by the cryptocurrency mining attacks. GitLab was no exeception to this Industry-wide experience and we instrumented a few practices to mitigate abuse for [on GitLab.com](https://about.gitlab.com/blog/2021/05/17/prevent-crypto-mining-abuse/), which definitely impacts the experience of free and trial users.
 
-Going forward, we needed a more proactive approach for monitoring, detecting, evaluating, preventing, and reacting to pipeline abuse. Traditionally, [product categories](/handbook/product/categories/#hierarchy) are single product group areas an with [one engineering team](/company/team/structure/#product-groups). As a result we funded a cross-cutting Abuse group, and created this Instance Resiliency category as part of our [Model Ops](/handbook/product/categories/#modelops-section) section.
+Going forward, we needed a more proactive approach for monitoring, detecting, evaluating, preventing, and reacting to pipeline abuse. Traditionally, [product categories](/handbook/product/categories/#hierarchy) are single product group areas an with [one engineering team](/company/team/structure/#product-groups). As a result we funded a cross-cutting Abuse group, and created this Instance Resiliency category as part of our [Data Science](/handbook/product/categories/#data-science-section) section.
 
 ## Pipeline Abuse Prevention
 

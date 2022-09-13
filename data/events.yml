@@ -1,3 +1,21 @@
+- topic: DevOps Automation Virtual Workshop for the Public Sector 
+  type: Webcast
+  date_starts: October 27, 2022
+  date_ends: October 27, 2022
+  description: Uncover how the most effective Application Development teams leverage GitLab to automate their DevOps process and achieve material business outcomes. In this 3-hour simulated team environment, attendees will respond to various scenarios utilizing GitLab's single application for the entire DevOps lifecycle. No previous experience with GitLab is required.
+  location: Virtual
+  region: PubSec
+  social_tags:
+  event_url: https://page.gitlab.com/devopsautps-virtual-registration-page.html
+
+- topic: ElevateCX 
+  type: Conference
+  date_starts: September 29, 2022
+  date_ends: September 30, 2022
+  description: Brie Carranza (she/her), Senior Support Engineer, will be giving a talk on effective troubleshooting. She will share a set of general troubleshooting principles that can be applied to all different kinds of technology. This talk will help ICs and managers alike to think about how to troubleshoot effectively by focusing on the art of troubleshooting in general. Together, teams can apply these general principles to the specific technology that they support. The generalized principles help folks across various fields to quickly identify and work towards solving problems asynchronously and in collaboration with customers. 
+  location: Denver, CO
+  region: AMER
+  event_url: https://elevatecx.co/
 - topic: GitLab Advanced CI/CD Virtual Workshop
   type: Webcast
   date_starts: October 25, 2022
@@ -7,6 +25,26 @@
   region: AMER
   social_tags:
   event_url: https://page.gitlab.com/advanced-cicd-virtual-registration-page.html
+
+- topic: DevOpsDays Houston
+  type: Conference
+  date_starts: October 4, 2022
+  date_ends: October 5, 2022
+  description: GitLab will be at DevOpsDays Houston which brings development, operations, QA, InfoSec, management, and leadership together to discuss the culture and tools to make better organizations and products.
+  location: Houston, TX
+  region: AMER
+  social_tags:
+  event_url: https://devopsdays.org/events/2022-houston/welcome/
+
+- topic: Dev Day Workshop - Deploy, Manage, and Scale Kubernetes to AWS EKS with GitLab
+  type: Conference
+  date_starts: October 11, 2022
+  date_ends: October 11, 2022
+  description: This 4-hour hands-on workshop is designed for development teams planning projects involving AWS EKS clusters. Take your Kubernetes skills to the next level! Join industry-leading experts from AWS and GitLab for a hands-on workshop that will enable you to deploy secure applications to AWS Elastic Kubernetes Service in record time.
+  location: Palo Alto, CA
+  region: AMER
+  social_tags:
+  event_url: https://page.gitlab.com/awsworkshoppaloalto-in-person-registration-page.html?utm_medium=email&utm_source=marketo&utm_campaign=20221011awsworkshoppaloaltofmm
 
 - topic: DevOpsDays DC
   type: Conference
@@ -48,16 +86,6 @@
   social_tags:
   event_url: https://info.lacework.com/pnw-happy-hour-with-wwt-gitlab-and-cribl.html?utm_source=partner&utm_medium=email&utm_campaign=20220915_AMER_US_FEP_PNW_Happy_Hour_with_WWT_GitLab_and_Cribl&utm_partner=GitLab
 
-- topic: GitLab Commit New York City
-  type: Conference
-  date_starts: September 22, 2022
-  date_ends: September 22, 2022
-  description: GitLab Commit is an event that connects you to the ideas, technologies, and people that are driving DevOps transformation. GitLab Commit is for everyone – from the technology champions responsible for building, operating and securing applications to the technology executive driving transformation. Learn how The One DevOps Platform enables you to collaborate around code, create stronger security and compliance, and leverage technology to drive business results. It all starts with a commit.
-  location: New York City
-  region: AMER
-  social_tags:
-  event_url: https://about.gitlab.com/events/commit/
-
 - topic: Beyond Code on Twitter Spaces
   type: Meetup
   date_starts: August 16, 2022
@@ -77,16 +105,6 @@
   region: EMEA
   social_tags:
   event_url: https://www.idc.com/eu/events/69929-idc-it-security-2022
-
-- topic: GitLab Commit London
-  type: Conference
-  date_starts: October 18, 2022
-  date_ends: October 18, 2022
-  description: GitLab Commit is an event that connects you to the ideas, technologies, and people that are driving DevOps transformation. GitLab Commit is for everyone – from the technology champions responsible for building, operating and securing applications to the technology executive driving transformation. Learn how The One DevOps Platform enables you to collaborate around code, create stronger security and compliance, and leverage technology to drive business results. It all starts with a commit.
-  location: London
-  region: EMEA
-  social_tags:
-  event_url: https://about.gitlab.com/events/commit/
 
 - topic: AWS Summit Sao Paulo
   type: Conference

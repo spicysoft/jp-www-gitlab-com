@@ -17,6 +17,7 @@ projects:
   secure-DS-gemnasium-maven: maintainer backend
   secure-DS-gemnasium-python: maintainer backend
   secure-LC-license-finder: reviewer backend
+  secure-container-scanning: reviewer backend
   security-report-schemas: trainee_maintainer backend
 story: 'Igor is Backend Engineer from Toronto, Canada. He is passionate about engineering
   craftsmanship and secure software. In his spare time he likes to read scifi, listen

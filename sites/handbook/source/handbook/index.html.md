@@ -20,8 +20,8 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
 
 [社内](/handbook/communication/#internal)に固有な情報は、[社内ハンドブック](https://internal-handbook.gitlab.io/)もあります。
 
-## 会社 {#company}
 
+## 会社 {#company}
 
 * {:.trans-00}[GitLab 会社概要](/company/)
   * {:.trans-00}[沿革](/company/history/)
@@ -110,7 +110,7 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
   * {:.trans-00}[ハンドブック・ロードマップ](/handbook/about/roadmap/)
   * {:.trans-00}[ハンドブック・サポート](/handbook/about/support/)
   * {:.trans-00}[ハンドブック・緊急サポート](/handbook/about/on-call/)
-* {:.trans-00}[Managing so Everyone Can Contribute (MECC)](/handbook/mecc)
+* {:.trans-00}[TeamOps](/handbook/teamops)
 * {:.trans-00}[CEO はじめまして](/handbook/ceo/)
   * {:.trans-20}[CEO シャドウ・プログラム](/handbook/ceo/shadow/)
   * {:.trans-10}[ケイデンス](/company/cadence/)
@@ -126,8 +126,6 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
 * {:.trans-10}[持続可能性](/handbook/environmental-sustainability/)
 
 ## 人事 {#people-group}
-
-## People Group
 
 * {:.trans-10}[人事](/handbook/people-group/)
     * {:.trans-10}[ハラスメント防止に関する方針](/handbook/anti-harassment/)

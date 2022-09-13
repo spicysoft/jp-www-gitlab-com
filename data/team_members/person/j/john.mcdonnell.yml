@@ -3,7 +3,7 @@ locality:
 country: Remote
 role: <a href="/job-families/engineering/software-engineer-in-test/">Senior Software
  Engineer in Test</a>, Systems:Gitaly
-reports_to: vincywilson
+reports_to: ksvoboda
 picture: johnmcdonnell.jpg
 pronouns: he/him
 pronunciation:
@@ -13,7 +13,7 @@ gitlab: john.mcdonnell
 departments:
   - Engineering Function
   - Quality Department
-  - Sec & Enablement QE Team
+  - Enablement & SaaS Platforms QE team
   - Enablement Sub-department
 specialty: 
 expertise:

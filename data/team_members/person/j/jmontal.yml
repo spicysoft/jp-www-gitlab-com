@@ -17,6 +17,9 @@ departments:
 - Growth Section
 - Acquisition Team
 - Acquisition Fullstack Team
+projects:
+  gitlab:
+  - reviewer backend
 specialty: Acquisition
 expertise:
 story: 'Jay enjoys problem solving which drove him to get a degree in Computer Science

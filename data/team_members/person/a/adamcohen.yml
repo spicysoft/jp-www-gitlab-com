@@ -17,6 +17,7 @@ projects:
   secure-DS-gemnasium-maven: maintainer backend
   secure-DS-gemnasium-python: maintainer backend
   secure-LC-license-finder: reviewer backend
+  secure-container-scanning: reviewer backend
 story: 'Adam is a Backend Engineer originally from Toronto, Canada, but now living
   in Sydney, Australia.  He has spent many years working on payment gateway systems,
   product ingestion tools for retailer integration and identity management platforms.  When

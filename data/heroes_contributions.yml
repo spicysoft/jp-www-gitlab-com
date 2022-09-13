@@ -1,4 +1,10 @@
 recent_contributions:
+  - title: "CI/CD docs for OIDC with Azure"
+    contributor: Nico Meisenzahl
+    type: Code
+    logo: /images/heroes/contribution-icons/code.png
+    link: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/94461
+    date: 2022-08-30
 
   - title: "Implement /ready quick action"
     contributor: Raimund Hook

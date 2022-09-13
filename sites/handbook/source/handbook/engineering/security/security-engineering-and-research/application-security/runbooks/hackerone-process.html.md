@@ -73,21 +73,22 @@ following guidelines as necessary:
         - If the new report demonstrates new and higher impact, we calculate the CVSS score and award to the new reporter the difference between the new severity and what was awarded to the original report 
 - If the report is valid, in-scope, original, and requires action, security-related documentation change, or if the report needs further investigation by
 the responsible engineering team:
-    - Verify and/or set the appropriate Severity in H1
-    - Verify and/or set the appropriate Weakness in H1
     - [Calculate the CVSS score](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/) and post the resulting vector string (e.g.: `AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L`) as an internal comment on the report, this will be used later when requesting a CVE ID
-      - We do not use the HackerOne field for CVSS because our bounties are based on our own assesment of severity and business impact rather than the CVSS score and sometimes those will differ
+    - Verify and/or set the appropriate Severity in H1, using the CVSS previously calculated
+      + Optionally explain the CVSS to the researcher, mention that CVSS scores are validated by a peer, and link to our Awards process to avoid inefficient misunderstandings relating to severity and payouts
+    - Verify and/or set the appropriate Weakness in H1
     - If the report is [permissions related](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html#permissions), check for similar issues in the API, GraphQL, and Elasticsearch, as appropriate. Also check with alternate authentication mechanisms like Deploy Tokens, Deploy Keys, Trigger Tokens, etc.
     - Add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
-    - Import the report into a GitLab issue using `/h1 import <report> [project]` in Slack
-        - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/engineering/security/#severity-and-priority-labels-on-security-issues)
-        - On the imported issue:
-            - Assign the appropriate [Due Date](/handbook/engineering/security/#due-date-on-security-issues)
-            - Have a proper [`How to reproduce`](/handbook/engineering/security/#reproducibility-on-security-issues) section
+    - Import the report into a GitLab issue using `/h1 import <report> [project] [options]` in Slack
+        - Note: by default a placeholder [CVE issue](https://gitlab.com/gitlab-org/cves/-/issues) is created and a brief note is added to the latest [bug bounty council issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council). Pass `~no-cve` or `~no-bounty` respectively to the `/h1 import` command to prevent their creation.
+    - On the imported GitLab issue:
+        - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/engineering/security/#severity-and-priority-labels-on-security-issues))
+        - Assign the appropriate [Due Date](/handbook/engineering/security/#due-date-on-security-issues)
+        - Have a proper [`How to reproduce`](/handbook/engineering/security/#reproducibility-on-security-issues) section
         - If the report is a security-related documentation change, add the `~documentation` label
-    - @-mention product manager of appropriate teams for scheduling and/or the engineering managers if additional engineering feedback is required to complete the triage, based on the [product categories page](/handbook/product/categories/)
+        - @-mention the product manager and engineering manager based on the [product categories page](/handbook/product/categories/). Ask for engineering feedback if it is required to complete the triage
         - add labels (`/label ~` command) corresponding to the [DevOps stage](/handbook/product/categories/#devops-stages) and source group (consult the [Hierarchy](/handbook/product/categories/#hierarchy) for an overview on categories forming the hierarchy)
-        - As applicable, notify relevant team members via the issue, chat, and email, depending on the chosen security level.
+        - As applicable, notify other relevant team members via the issue, chat, and email, depending on the chosen security level.
     - Change the state of the report to "Triaged" in HackerOne:
         - See [GitLab's H1 Policy](https://hackerone.com/gitlab), under `Rewards`, for portions of bounty rewards which are awarded at the time of triage
         - Choose from the following common responses:
@@ -95,6 +96,7 @@ the responsible engineering team:
           - `00 - Triaged` for low severity reports, which do not have an initial bounty at the time of triage
           - `00 - Triaged with Bounty` for medium, high, and critical reports which do have an initial bounty at time of triage
         - In the comment, include link to the confidential issue
+    - Update the CVE issue and Bug Bounty Council note with relevant details, while they are still fresh in your mind
     - If full impact is needed to be assessed against GitLab infrastructure, instead of testing in https://gitlab.com, use https://staging.gitlab.com/help to sign in with your GitLab email account
         - If multiple users are needed, use credentials for users gitlab-qa-user* stored in 1password Team Vault to access the staging environment
 
@@ -103,14 +105,16 @@ the responsible engineering team:
 - See [GitLab's H1 Policy](https://hackerone.com/gitlab), under `Rewards`, for portions of bounty rewards which are awarded at the time of triage
   + It is OK to delay awarding at time of triage. Examples are when we aren't sure if a report is intended behaviour, or if it will be a documentation change. Remember to return and make a partial award if/when appropriate.
   + It is OK to have awarded a partial bounty at time of triage and later learn we have overpaid due to an adjustment of validity or severity
-- Use the `/h1 bounty <report>` Slack bot to post a note on the current [~"bug bounty council"](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council) issue
+- If the report does not already have a council issue, use the `/h1 bounty <report>` Slack bot to post a note on the current [~"bug bounty council"](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council) issue
   + Add descriptions, similar issues, and other commentary as appropriate
-  + Two thumbs up indicate approval of the bug bounty amount
-  + Two bug emoji indicate approval of the CVSS string
-  + For documentation updates, an award can be paid without waiting for two thumbs up
+- Award approval:
+  + For documentation updates, an award can be paid immediately
+  + For Low and Medium CVSS, an award can be paid after at least one team member reacts with a thumbsup emoji
+  + For High and Critical CVSS, two team members must react with a thumbsup emoji on the note
+  + If needed, make a request in `#sec-appsec` when your note has not received enough votes
 - After Bug Bounty Council approval:
+  + If 30 days have passed since the issue was triaged, the approved award may be paid in advance of a confirmed fix using the `04 - Bounty Award / Reviewed and Awarded Prior to Fix` common response.
   + Once a fix is shipped, award the remaining amount (or full amount if none was awarded at time of triage) using the `02 - Bounty Award` common response
-  + If 30 days have passed since the issue was triaged, the award may be paid in advance of a confirmed fix using the `04 - Bounty Award / Reviewed and Awarded Prior to Fix` common response.
 
 We can award GitLab swag to reporters who have submitted a quality report that did not qualify for a monetary reward in our Bug Bounty program. To award swag, please follow the [swag nomination process](/handbook/marketing/community-relations/code-contributor-program/community-appreciation/#nomination-process) that is managed by our Community Relations team.
 

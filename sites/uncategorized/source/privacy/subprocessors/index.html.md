@@ -16,7 +16,7 @@ When acting as a processor for Customer, Gitlab may engage the following entitie
 |---|---|---|
 |GitLab BV|Netherlands|Support Services|
 |GitLab IT BV|Netherlands|Support Services|
-|GitLab Ltd|United Kingdom|Support Services|
+|GitLab UK Ltd|United Kingdom|Support Services|
 |GitLab Ireland Ltd|Ireland|Support Services|
 |GitLab GmbH|Germany|Support Services|
 |GitLab France SAS|France|Support Services|

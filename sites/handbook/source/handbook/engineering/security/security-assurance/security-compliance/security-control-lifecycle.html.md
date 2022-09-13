@@ -71,7 +71,7 @@ Additionally, GCF controls that have been previously tested but have an upcoming
 The testing activity consists of 3 major components:
 1. Filling out a control testing worksheet as described by the [GitLab control testing manual](https://gitlab.com/gitlab-com/gl-security/security-assurance/grc-application/-/blob/master/Assessments/assessment_testing_manual.md) (GitLab internal link)
 1. Validating observations (if any were noted during testing) with the observation owners
-1. Recording those observations (if any) according to the [Security Compliance Observation Management process](/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html)
+1. Recording those observations (if any) according to the [Security Compliance Observation Management process](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
    * **Note:** These observations can only be recorded after being validated by the observation owner to ensure that observation is accurate and represents a material deficiency in the security control process
 
 After testing a decision is made about the controls:

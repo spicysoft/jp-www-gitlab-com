@@ -29,7 +29,7 @@ A member of the [Security Assurance](/handbook/engineering/security/security-ass
 1. [Security Certifications](/handbook/engineering/security/security-assurance/security-compliance/certifications.html)
    * External Audits (e.g. SOC 2, SOC 3, ISO, etc.)
    * [Gap Assessments/Readiness Assessments](/handbook/engineering/security/security-assurance/security-compliance/gap-analysis-program.html)
-1. [Observation and Remediation](/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html)
+1. [Observation and Remediation](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
    * Security Control Testing Activities (CCM)
    * Internal Audit Activities
    * Third Party Risk Management (TPRM) Activities
@@ -76,7 +76,7 @@ A member of the [Security Assurance](/handbook/engineering/security/security-ass
 * [GCF Security Control Lifecycle](/handbook/engineering/security/security-assurance/security-compliance/security-control-lifecycle.html)
 * [GCF Secrity Controls](/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html)
 * [User Access Reviews](/handbook/engineering/security/security-assurance/security-compliance/access-reviews.html)
-* [Observation Methodology](/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html)
+* [Observation Methodology](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
 * [Gap Analysis Program](/handbook/engineering/security/security-assurance/security-compliance/gap-analysis-program.html)
 
 <div class="flex-row" markdown="0" style="height:40px">

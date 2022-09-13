@@ -28,6 +28,8 @@ All GitLab team members, contractors and others with access to production data w
 
 For annual General Security Awareness Training, all team members hired prior to May 1 of the current year will receive an email via ProofPoint from GitLab Security awareness@securityeducation.com that will contain a link to access the training(s). GitLab team members hired after May 1 of the current year will have undergone New Hire training as part of their onboarding and therefore will not be required to take the annual security awareness training until the following year.
 
+All users with access to production information systems will need to complete a security awareness training review upon significant changes to the environment. 
+
 ## What if a Team Member is on Extended Leave, but should be marked as an Exception?
 
 People Ops + Security Governance are collaborating to create an automated process to mark exceptions for team members that are on extended leave. However, as this is currently a manual process, the list may not be real-time.  
@@ -42,7 +44,7 @@ The security awareness training(s) have been limited to 30 minutes in an effort 
 
 ## What will be covered in the training?
 
-Security awareness training is a critical component of GitLab's security program and key to ensuring that GitLab Team Members are continuously educated in security core competencies.  
+Security awareness training is a critical component of GitLab's security program and key to ensuring that GitLab team members are continuously educated in security core competencies.  
 
 A GitLab-customized handbook first training is provided via ProofPoint. To receive full credit, the training + annual policy reviews must be completed to identify what you have learned.
 
@@ -59,17 +61,17 @@ A GitLab-customized handbook first training is provided via ProofPoint. To recei
 ## What happens if training is not completed?
 
 The training will be available for 30 days.  If the training is not completed, Security Assurance will send weekly reminder notifications requesting completion of the training.  
-If required, we will communicate incomplete assigned trainings to managers for assistance with completion.  Demonstration of a completed training supports compliance with the Security Awareness Training program and will strengthen our regulatory requirements.
+If required, we will communicate incomplete assigned trainings to managers for assistance with completion and possible escalations.  Demonstration of a completed training supports compliance with the Security Awareness Training program and will strengthen our regulatory requirements.
 
 ### Security Awareness Training Metrics
 
-The Security Governance team will track the annual security awareness training completion metrics and publish them in a GitLab Issue.  Once the training campaign has completed, the Security Governance team will provide results in the [Security Awareness Training Program](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-awareness-training project.
+The Security Governance team will track the annual security awareness training completion metrics and publish them in a GitLab Issue.  Once the training campaign has completed, the Security Governance team will provide results in the [Security Awareness Training Program](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-awareness-training) project.
 
 ### Questions and Answers
 
 *Why are we using an external vendor?*
 
-* While GitLab's learning platform, EdCast, is being built out it doesn't yet have the features required to support security training requirements.  The decision was made to utilize an external solution that would be able to provide a robust and consistent process that we could rely on and a seamless integration when we are ready to move all GitLab security awareness training content into EdCast as soon as the platform is able to support this training program.  We are now collaborating with ProofPoint to run our FY23 Security Awareness Training campaigns.
+* While GitLab's learning platform, Level Up, is being built out it doesn't yet have the features required to support security training requirements.  The decision was made to utilize an external solution that would be able to provide a robust and consistent process that we could rely on and a seamless integration when we are ready to move all GitLab security awareness training content into LevelUp as soon as the platform is able to support this training program.  We are now collaborating with ProofPoint to run our Security Awareness Training campaigns.
 
 *How will I access training?*
 

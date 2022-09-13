@@ -22,6 +22,7 @@ projects:
   secure-DS-gemnasium-python: maintainer backend
   secure-LC-license-finder: reviewer backend
   secure-common-command: maintainer backend
+  secure-container-scanning: reviewer backend
 story: |
   Before joining the GitLab team, Fabien was lead developer of Gemnasium, a SaaS to monitor software dependencies.
   He enjoys coding in Go and SQL, and he's a true fan of Postgres!

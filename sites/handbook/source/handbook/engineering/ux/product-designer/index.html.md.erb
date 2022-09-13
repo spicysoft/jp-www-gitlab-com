@@ -170,7 +170,7 @@ It is our responsibility as Product Designers to research how our work can impac
 
 ### Aiming towards "sophisticated simplicity"
 
-The visual design of GitLab has come a long way from naive simplicity to sophisticated complexity, but there's a third level yet to be reached — sophisticated simplicity. There are three tenets of sophisticated simplicity to keep in mind as you're designing:
+The visual design of GitLab has come a long way from naive simplicity to sophisticated complexity, but there's a third level yet to be reached — sophisticated simplicity ([Sophisticated Simplicity,  Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). There are three tenets of sophisticated simplicity to keep in mind as you're designing:
 
 1. **Structure** - Organization and hierarchy of content and concepts into meaningful groups and patterns
 1. **Discovery** - Ability to interact and explore that leads to learning and proficiency while being mistake adverse
@@ -282,6 +282,19 @@ UI text includes button or menu labels, error messages in the UI or in log files
 
 - Ensure the issue and MR have the [UI text](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name%5B%5D=UI+text) label.
 - Message the [Technical Writer for the group](/handbook/engineering/ux/technical-writing/#designated-technical-writers) in the MR to request a review, including any specific files or lines they should review, and how to preview or understand the location/context of the text from the user's perspective.
+
+#### Collaborating on in-product reference information
+
+Sometimes the designer, PM, and technical writer agree to display additional [in-product reference information](https://design.gitlab.com/usability/helping-users/#providing-reference-information) in a [drawer component](https://design.gitlab.com/components/drawer/). The reference information should align with the existing documentation for the feature.
+
+If the content that should go in the drawer doesn’t exist yet:
+
+1. The designer should write some draft copy identifying what they think needs to go in the drawer so that users can achieve the goal. Designers can work collaboratively with their counterparts in creating this initial draft to get it as close as possible to the final. This is considered a draft copy.
+1. When the draft copy is completed, the designer adds some sort of marker that lets the team know the drawer content is not final. This could be a text watermark overlay that says “waiting on documentation,” “draft,” or “placeholder,” or even a pin added to the Figma file or in the design management area.
+1. The designer completes the rest of the design and follows the current design to development process:
+    1. Dev creates drawer and documentation as part of feature code MR.
+    1. TW reviews documentation and drawer content.
+    1. Documentation published and drawer populated with content. 
 
 ### Partnering with UX Researchers
 

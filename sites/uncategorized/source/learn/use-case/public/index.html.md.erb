@@ -1,0 +1,23 @@
+---
+layout: markdown_page
+title: "Public GitLab Learn Content by Use Case"
+description: "All GitLab-produced learning content organized by use case."
+canonical_path: "/learn/use-case/public/"
+---
+
+Find all publicly accessible GitLab-produced learning content by use case. You can also see a [filterable list of all public learning content](/learn/).
+
+[Understand how we classify content](/learn/classification/).
+
+<% data.learn.classification["use-case"].categories.each do |use_case| %>
+<% course_list = data.learn.learn.select{|course| course.use_case == use_case.name && course.confidentiality == "Public" && course.live_date && Date.parse(course.live_date)} %>
+<% next if course_list.empty? %>
+<%= "## #{use_case.name}" %>
+
+| Course | Registration | Assessment |
+| ------ | --------------- | ---------- | 
+<% course_list.each do |course| %>
+<%= "| [#{course.name}](#{course.url}) | #{course.registration} | #{course.assessment} |" %>
+<% end %>
+
+<% end %>

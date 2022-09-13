@@ -37,7 +37,7 @@ The purpose of the Security Operational Risk Management (“StORM”) program at
 
 The scope of the StORM program is limited to operational (also referred to as Tier 2) risks as defined in the [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final) risk management hierarchy below. These risk are generally identified during the Anual Risk Assessment(ARA) or Ad-Hoc reports. 
 
-**Out of Scope** Risks, such as operational risks that don't impact Security, Third Party Vendor risk, and Information System deficiencies, are managed through separate processes. However, observations noted at the Tier 3 level have the potential to escalate to a Tier 2 Risk based on a [Control Health & Effectiveness Rating (CHER)](/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html).
+**Out of Scope** Risks, such as operational risks that don't impact Security, Third Party Vendor risk, and Information System deficiencies, are managed through separate processes. However, observations noted at the Tier 3 level have the potential to escalate to a Tier 2 Risk based on a [Control Health & Effectiveness Rating (CHER)](/handbook/engineering/security/security-assurance/observation-management-procedure.html).
 
 ![Risk Management Hierarchy](/handbook/engineering/security/security-assurance/images/nist-rm-hierarchy.png)
 

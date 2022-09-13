@@ -30,7 +30,7 @@ As a member of the [Security Assurance](/handbook/engineering/security/security-
 1. [Security Certifications](/handbook/engineering/security/security-assurance/security-compliance/certifications.html)
    * External Audits
    * [Gap Assessments/Readiness Assessments](/handbook/engineering/security/security-assurance/security-compliance/gap-analysis-program.html)
-1. [Observation and Remediation](/handbook/engineering/security/security-assurance/security-compliance/observation-management-procedure.html)
+1. [Observation and Remediation](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
    * Security Control Testing Activities (CCM)
    * Customer Assurance Activities
    * External Audits

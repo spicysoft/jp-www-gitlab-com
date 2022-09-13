@@ -2570,6 +2570,11 @@
   target: /company/culture/inclusion/unconscious-bias/
   comp_op: '='
 - sources:
+  - /company/culture/inclusion/erg-gitlab-pride
+  - /company/culture/inclusion/erg-gitlab-pride/
+  target: /company/culture/inclusion/tmrg-gitlab-pride/
+  comp_op: '='
+- sources:
   - /handbook/product/administration
   - /handbook/product/administration/
   target: /handbook/product/product-processes/#our-product-process/
@@ -3215,10 +3220,10 @@
   - /stages-devops-lifecycle/defend
   - /stages-devops-lifecycle/defend/
   - /stages-devops-lifecycle/defend/index.html
-  - /stages-devops-lifecycle/govern
-  - /stages-devops-lifecycle/govern/
-  - /stages-devops-lifecycle/govern/index.html
-  target: /stages-devops-lifecycle/protect
+  - /stages-devops-lifecycle/protect
+  - /stages-devops-lifecycle/protect/
+  - /stages-devops-lifecycle/protect/index.html
+  target: /stages-devops-lifecycle/govern
   comp_op: '='
 - sources:
   - /handbook/product/secure-and-defend-section-performance-indicators
@@ -4159,7 +4164,9 @@
     - /handbook/product/i2p-demo/
     - /handbook/sales/vision-demo
     - /handbook/sales/vision-demo/
-  target: /learn/public/
+    - /learn/public
+    - /learn/public/
+  target: /learn/
   comp_op: '='
 - sources:
     - /job-families/marketing/director-of-sales-development
@@ -4564,4 +4571,9 @@
   - /handbook/marketing/readmes/jessicareeder
   - /handbook/marketing/readmes/jessicareeder/
   target: /handbook/ceo/chief-of-staff-team/readmes/jessicareeder/
+  comp_op: '='
+- sources:
+  - /handbook/mecc
+  - /handbook/mecc/
+  target: /handbook/teamops/
   comp_op: '='

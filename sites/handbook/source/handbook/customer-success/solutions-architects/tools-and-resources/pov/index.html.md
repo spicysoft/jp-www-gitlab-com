@@ -109,8 +109,9 @@ Sales and SA leader participation in the POV approval process will ensure we can
 
 - Upon mutual agreement with the associated SAL, the Solution Architect working on the opportunity will [create a POV object on the opportunity](#tracking-a-pov-in-salesforce).
 - When a new POV object is created, a notification is posted to the `#troops-pov-created` slack channel.
-- In addition to a weekly review of a region's ongoing POVs and technical win work, Area sales and SA leaders monitor the `#troops-pov-created` slack channel for new POVs.  When a new POV is created, asynchronous or synchronous collaboration on the quality of the opportunity commences.  
+- In addition to a weekly review of a region's ongoing POVs and technical win work, Area sales and SA leaders monitor the `#troops-pov-created` slack channel for new POVs.  When a new POV is created, asynchronous or synchronous collaboration on the quality of the opportunity commences.
 - The ASM or SA Manager marks the POV for approval via the Salesforce object or through a troops action in Slack.
+- The ASM or SA Manager will query about plans to position professional services at this stage. All SALs/SAs are required to position Professional services in opportunities with a qualified POV to guarantee continued success for the customer. Please read more about how to positon [here](https://about.gitlab.com/handbook/customer-success/solutions-architects/processes/#positioning-professional-services)
 
 ### POV Best Practices
 
@@ -355,3 +356,8 @@ These projects are demonstrative of specific stages.  They are generally built 
 
 - [Nodejs Juice Shop](https://github.com/bkimminich/juice-shop) repository comes with a .gitlab-ci.yml file to get started with SAST and Dependency Scanning.  Incorporate others incrementally as needed.
 - [OWASP WebGoat.NET](https://gitlab-core.us.gitlabdemo.cloud/tanuki-group/dot-net-webgoat) repository can be enabled with SAST, License Management and Secrets Scanning very quickly using the packaged templates.  This validates our positioning in .NET application development (both Framework and Core).
+
+#### Proof of Value Enalement 
+
+- [PoV Overview Course](https://levelup.gitlab.com/courses/gitlab-proof-of-value-overview) 
+- [Executing an Exceptional PoV Course](https://levelup.gitlab.com/courses/delivering-an-exceptional-proof-of-value)

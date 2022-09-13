@@ -24,6 +24,7 @@ projects:
   gitlab:
   - maintainer backend
   - reviewer database
+  - trainee_maintainer database
 story: 'As a Backend Engineer Andy is building software for more than 8 years and
   is passionate about clean code and test driven development. He shares an office
   with his <a href="/company/team-pets#246-luzifer-and-sebastian">two cats</a> and

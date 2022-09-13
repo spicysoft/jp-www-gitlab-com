@@ -150,6 +150,15 @@ group, see [Bulk editing SGG values](bulk-editing-sgg-values.html).
    At the moment, we foresee that promotions and hiring will influence group changes.
    The way groups will be evolved is to be determined as folks are promoted and new hires join.
 
+### 5. What happens when I do switch groups?
+
+   1. Open an MR to change your SGG assignment in the [`support-team.yaml` file](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml). This is the SSOT for Zendesk and the [Support Team Page](https://gitlab-com.gitlab.io/support/team/sgg.html), so it's important to keep this updated.
+   1. Add yourself to the Slack channel of your new SGG – they’re all public, so you can just join.
+   1. Submit an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault) to have yourself removed from your old SGG-specific Slack groups (`@spt-sggname` and `@spt-sggname-region`) and added to the new ones.
+   1. Update your tickets to the new SGG, using the [bulk edit method](https://about.gitlab.com/handbook/support/support-global-groups/bulk-editing-sgg-values.html).
+   1. Have a look at the homepage of your new SGG (all linked from the [SGG handbook page](https://about.gitlab.com/handbook/support/support-global-groups/#the-system)) to learn about their established processes – it's probably also a good idea to ask your new colleagues if the information on the homepage is still correct.
+   1. Book coffee chats and / or pairings with your new group members in your region. Also a good idea to book with group members in other regions, as it fits your working hours.
+
 ## Success Measurements
 
 ### 1. What is SGG trying to improve? (What is the purpose of SGG?)
@@ -296,11 +305,13 @@ member from day one. The group becomes an immediate source of information,
 support and psychological safety as the new team member slowly integrates into
 GitLab and the global Support Team.
 
-The regional SGG DRIs are responsible for assigning new team members to groups.
-The DRIs incorporate many factors such as skills, skill levels, areas of focus,
-representation and so on, into maintaining a balance across the groups as they
-assign new team members. When a new group is needed in order to make room for a
-new team member, the group will be formed with a mix of experienced and new SEs.
+The hiring manager is responsible for assigning the new team member to a group.
+They should work with their regional SGG DRI to incorporate into the decision
+many factors such as skills, skill levels, areas of focus, geography,
+representation and so on. This is important for maintaining a balance across
+all groups as new team members are added. When a new group is needed in order
+to make room for a new team member, the group will be formed with a mix of
+experienced and new SEs.
 
 In selecting an onboarding buddy for the new team member, the hiring manager is
 free to choose any appropriate person either in or out of the assigned group.

@@ -253,27 +253,6 @@
     dashboard: 516343
     embed: v2
 
-- name: Merge Requests pipeline cost
-  base_path: "/handbook/engineering/quality/performance-indicators/"
-  definition: Measure the average GitLab project merge request pipeline cost to measure engineering efficiency. This
-    is calculated by taking the total compute cost for the runner machines for merge request pipelines divided by the number of merge requests.
-  target: Below 7.50
-  org: Quality Department
-  is_key: false
-  health:
-    level: 3
-    reasons:
-      - Increased from $12.57 to $18.19 due to a recent <a href="https://gitlab.com/gitlab-org/security/gitlab/-/merge_requests/1551">cache settings change</a> that led to increase of 20-25% for +70% of the pipeline jobs. This has been reverted.
-      - Prior increase due to supporting additional testing for sharding DB composition.
-      - Unable to prioritize investigation of <a href="https://gitlab-org.gitlab.io/rspec_profiling_stats/#time_per_test">test duration increase</a> which may identify new opportunities to lower cost.
-      - Overall GitLab-CI cost has not increased dramatically, we need to re-evaluate how this metric is being measured.
-      - Additional staffing needed to prioritize, 2 new engineers starting in June.
-  sisense_data:
-    chart: 11689663
-    dashboard: 862651
-    embed: v2
-    shared_dashboard: a6ec2792-d044-411d-aca7-f4496543a461
-
 ############################
 # Community Outreach
 ############################

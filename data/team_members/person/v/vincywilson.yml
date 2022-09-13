@@ -3,8 +3,7 @@ name: Vincy Wilson
 placeholder: true
 locality:
 country: Remote
-role: <a href="/job-families/engineering/engineering-management-quality/#engineering-manager-quality">Quality
-  Engineering Manager, Enablement, Fulfillment, Growth, ModelOps, and Sec</a>
+role: <a href="/job-families/engineering/engineering-management-quality/#senior-manager-quality-engineering">Interim Senior Manager, Quality Engineering</a>, Enablement, Fulfillment, Growth, Sec and ModelOps
 reports_to: tanyapazitny
 picture: vincywilson.jpg
 twitter:
@@ -13,7 +12,8 @@ departments:
 - Engineering Function
 - Quality Department
 - Fulfillment & Growth QE Team
-- Sec & Enablement QE Team
+- Enablement & SaaS Platforms QE team
+- Sec & ModelOps QE team
 - Growth Section
 - Fulfillment Section
 - Sec Section

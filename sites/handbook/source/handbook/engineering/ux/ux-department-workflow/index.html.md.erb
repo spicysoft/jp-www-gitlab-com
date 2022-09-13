@@ -104,11 +104,11 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
   - `accessibility::high`: Prevents some users from performing critical tasks. A workaround may exist, but not without creating frustration and inefficiency.
   - `accessibility::medium`: Prevents some users from performing non-critical tasks, or where the user experience is seriously degraded for users with certain assistive technologies.
   - `accessibility::low`: The user experience is degraded for users with certain disabilities or using certain assistive technologies, but users can still accomplish tasks.
-* **Scoped workflow labels** from the [Product Development Flow](/handbook/product-development-flow/#validation-phase-1-validation-backlog) should be used to indicate where an issue is in the development lifecycle. Issues can move between workflow labels as many times as necessary, and not all labels will be applicable to every issue. Issues that require UX would use one of these labels to indicate that the issue is:
-    * waiting to be worked on in the current or future milestone (`workflow::validation backlog`)
-    * being validated to ensure the problem being solved is well understood and a real problem (`workflow::problem validation`)
-    * in a solution design phase, including learning how others have solved the problem, creating sketches, flows, wireframes, mockups and/or prototypes (`workflow::design`)
-    * being validated to ensure the selected solution solves the problem and is easy to use (`workflow::solution validation`)
+* **Scoped workflow labels** from the [Product Development Flow](/handbook/product-development-flow/#validation-phase-1-validation-backlog) should be used to indicate where an issue is in the development lifecycle. Issues can move between workflow labels as many times as necessary, and not all labels will be applicable to every issue. Issues that require UX would use one of these labels as defined in the Product Development Flow:
+    * `workflow::validation backlog`
+    * `workflow::problem validation`
+    * `workflow::design`
+    * `workflow::solution validation`
 * **Pajamas component lifecycle labels** are scoped labels used for creating and updating [Pajamas](https://design.gitlab.com) components. Label usage guidelines can be found in the [Pajamas component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle/).
 * [**UX problem validation** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20problem%20validation): Indicates that the issue requires UX work to validate that the problem is relevant to users. We use this label in addition to the Product Development Flow scoped labels, so that we can track validation efforts over time in our [UX Performance Indicators](/handbook/engineering/ux/performance-indicators/).
 * [**UX solution validation** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20solution%20validation): Indicates that the issue requires tasks to validate that the proposed solution is technically feasible and meets user needs. We use this label in addition to the Product Development Flow scoped labels, so that we can track validation efforts over time in our [UX Performance Indicators](/handbook/engineering/ux/performance-indicators/).

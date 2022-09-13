@@ -1,0 +1,29 @@
+---
+name: Nailia Iskhakova
+placeholder: true
+locality:
+country: Remote
+role: <a href="/job-families/engineering/software-engineer-in-test/">Senior Software
+  Engineer in Test</a>, Enablement:Distribution
+reports_to: ksvoboda
+picture: nailiaiskhakova.jpg
+twitter:
+gitlab: niskhakova
+pronouns: she/her
+departments:
+- Engineering Function
+- Quality Department
+- Enablement & SaaS Platforms QE team
+- Enablement Sub-department
+- Ecosystem QE Team
+projects:
+  gitlab: reviewer qa
+  gitlab-qa: reviewer
+  gitlab-environment-toolkit: maintainer
+  gitlab-performance-tool: maintainer
+story: 'Nailia has a great passion for QA and its various challenges. She loves to
+  bring order out of chaos, enjoys her work and strives to become better every day.
+  In her free time, she likes skating on a longboard, riding BMX, reading books, and
+  playing videogames.
+
+'

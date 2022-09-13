@@ -1,17 +1,17 @@
 name: Tianwen Chen
 locality: 
 country: Remote
-role: <a href="">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Verify:Pipeline Execution</a>
 reports_to: carolinesimpson
-picture: ../gitlab-logo-extra-whitespace.png
+picture: tianwenchen.jpg
 pronouns:
 pronunciation:
-twitter:
-linkedin:
+twitter: tian_im
+linkedin: tian-im
 gitlab: tianwenchen
 departments:
-  - Development
+  - Verify:Pipeline Execution Group
+  - Verify:Pipeline Execution BE Team
 specialty: "Verify:Pipeline Execution"
 expertise:
 story:
-

@@ -398,9 +398,9 @@ quality_management:
   description: "Plan and track testing and quality of your product."
   roi: false
   available: 2020-11-22
-  viable: 2022-08-22
-  complete: 2023-02-22
-  lovable: 2024-02-22
+  viable: 2023-09-01
+  complete: 2024-09-01
+  lovable: 2025-09-01
   maturity: minimal
   marketing: true
   priority_level: low
@@ -1439,7 +1439,7 @@ license_compliance:
   label: "Category:License Compliance"
   documentation: https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html
   direction: /direction/secure/composition-analysis/license-compliance/
-  description: "Upon code commit, project dependencies are searched for approved and blacklisted licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution."
+  description: "Upon code commit, project dependencies are searched for approved and denied licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution."
   roi: false
   available: 2018-01-01
   viable: 2023-05-22
@@ -2126,6 +2126,19 @@ privacy_control_center:
   marketing: false
   maturity: planned
 
+application_instrumentation:
+  name: "Application instrumentation"
+  stage: analytics
+  direction: https://about.gitlab.com/direction/product-intelligence/
+  description:
+  available: 2022-10-01
+  viable: 2023-12-01
+  complete: 2024-06-01
+  lovable: 2024-12-01
+  marketing: false
+  maturity: minimal
+  priority_level: medium
+
 # Enablement
 
 global_search:
@@ -2503,7 +2516,7 @@ billing_and_subscription_management:
   marketing: false
   maturity:
 
-# ModelOps Section
+# Data Science Section
 
 mlops:
   name: "MLOps"
