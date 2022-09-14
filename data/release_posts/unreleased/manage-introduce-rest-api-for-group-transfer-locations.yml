@@ -7,7 +7,7 @@ features:
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
     reporter: lohrc
     stage: manage
-    categories: []
+    categories: [Subgroups]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/371117'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      You are now able to query a new REST API endpoint for a group that will return a list of groups that the current user can transfer the group to.
