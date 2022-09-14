@@ -46,3 +46,4 @@ tertiary:
       - [Misaligned markdown tabs on issue/MR create page](https://gitlab.com/gitlab-org/gitlab/-/issues/372220)
       - [FOSS master broken in spec/graphql/resolvers/group_issues_resolver_spec.rb](https://gitlab.com/gitlab-org/gitlab/-/issues/371710)
       - [Broken master in spec/lib/gitlab/background_migration/rename_task_system_note_to_checklist_item_spec.rb](https://gitlab.com/gitlab-org/gitlab/-/issues/371699)
+      - [Epics Roadmap's weeks start always on Sunday, even though first day of the week is Monday](https://gitlab.com/gitlab-org/gitlab/-/issues/296941)
