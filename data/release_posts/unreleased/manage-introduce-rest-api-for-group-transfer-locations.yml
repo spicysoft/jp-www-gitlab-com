@@ -4,7 +4,7 @@ features:
   - name: "Introduce REST API for group transfer locations"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/api/groups.html#get-groups-to-which-a-user-can-transfer-a-group'
     reporter: lohrc
     stage: manage
     categories: [Subgroups]
