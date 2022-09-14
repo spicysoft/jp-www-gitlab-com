@@ -35,10 +35,6 @@ Images should be uploaded to [`sites/uncategorized/source/images/team/pets`](./s
 
 [Read how to add a blog post.](doc/blog-posts.md)
 
-### Adding an application to the applications page (under `/applications`)
-
-[How to add an application.](doc/applications.md)
-
 ### Updating the promotion link
 
 This link appears at the top of the homepage and can be used to promote new

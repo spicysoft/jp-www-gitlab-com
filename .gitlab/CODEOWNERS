@@ -316,7 +316,6 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 ^[Marketing]
 /sites/uncategorized/source/index.html.haml @akramer @mpreuss22
 /data/analyst_reports.yml @akramer
-/data/applications.yml @akramer @mpreuss22
 /data/redirects.yml @mpreuss22 @akramer
 /data/resources.yml @jgragnola
 /data/webcasts.yml @jgragnola @aoetama
