@@ -7936,6 +7936,21 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
+  - title : "Create Markdown tables from JSON data"
+    description: "Use JSON data to generate sortable, filterable tables in Markdown."
+    link_description: "Learn more about tables in Markdown"
+    link: "https://docs.gitlab.com/ee/user/markdown.html#json"
+    category: 
+      - team_planning
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "Initialize README on project creation"
     description: "A repository can be initialized with an example README when creating a new project. If this option is checked, a project repository is initialized with a default master branch which can be cloned right away."
     link_description: "Learn more about Project creation"
