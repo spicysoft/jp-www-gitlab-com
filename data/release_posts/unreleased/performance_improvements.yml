@@ -12,3 +12,4 @@ tertiary:
 
       - [Geo::MetricsUpdateWorker slow total job artifacts count](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
       - [Description](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
+      - [Convert ee/app/assets/stylesheets/pages/requirements.scss into page specific bundle](https://gitlab.com/gitlab-org/gitlab/-/issues/366603)
