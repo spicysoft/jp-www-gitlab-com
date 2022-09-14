@@ -1931,3 +1931,14 @@
   confidence:
   source: https://gitlab.com/groups/gitlab-org/-/epics/7885
   group: 
+
+##### Start Fulfillment ######
+
+- slug: seat-management
+  parent:
+  short_jtbd: Remove seats from subscription
+  jtbd: As a group owner, I want to keep my seat usage up to date, so that I can keep my namespace compliant with my company's policies.
+  grade: "D"
+  confidence:
+  source:
+  group: Utilization
