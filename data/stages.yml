@@ -1079,7 +1079,7 @@ stages:
           - instance_resiliency
           - insider_threat
         group_link: product/categories/#anti-abuse-group
-        handbook: engineering/development/sec/anti-abuse/
+        handbook: engineering/development/data-science/anti-abuse/
         pm: Jensen Stava
         em: Jay Swain
         appsec_engineer: Nick Malcolm
@@ -1462,7 +1462,7 @@ stages:
         fe_team_tag: Govern:Compliance FE Team
         support: TBD
         pdm:
-          - Justin Mandell
+          - Blair Christopher
         ux:
           - TBD
         uxr:
