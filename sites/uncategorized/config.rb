@@ -172,15 +172,6 @@ data.categories.each do |key, category|
   }, ignore: true
 end
 
-# Event pages
-data.events.each do |event|
-  next unless event.url
-
-  proxy "/events/#{event.url.tr(' ', '-')}/index.html", '/events/template.html', locals: {
-    event: event
-  }, ignore: true
-end
-
 # Webcast pages
 data.webcasts.each do |webcast|
   proxy "/webcast/#{webcast.url.tr(' ', '-')}/index.html", '/webcast/template.html', locals: {
@@ -261,11 +252,6 @@ configure :development do
 
   activate :autoprefixer do |config|
     config.browsers = ['last 2 versions', 'Explorer >= 9']
-  end
-
-  # Proxy slippers event for contruction of event template only http://localhost:4567/event-slippers/commit-test/
-  data.event_slippers.each do |filename, event_slippers|
-    proxy "/event-slippers/#{filename}/index.html", '/templates/slippers-event.html', locals: { event: event_slippers }, ignore: true
   end
 
   # Milestone when deprecations were moved into docs
