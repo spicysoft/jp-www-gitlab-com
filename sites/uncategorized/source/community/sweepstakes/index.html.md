@@ -8,7 +8,7 @@ canonical_path: "/community/sweepstakes/"
 ## Current and previous promotional games
 
 ### Current
-- [KubeCon EU 22 GitLab Product Direction Survey Prize Draw](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/tree/master/-/sites/uncategorized/source/community/sweepstakes/KubeCon_EU_22_GitLab_Product_Direction_Survey/index.html.md/)
+- [KubeCon NA 2022 GitLab Code Challenge - Official Rules](/community/sweepstakes/kubecon-na-2022-code-challenge/)
 
 ### Past
 - [GitLab Survey weekly digest 2022](/community/sweepstakes/2022-survey-weekly-digest/survey-weekly-digest.index.html)
@@ -17,3 +17,4 @@ canonical_path: "/community/sweepstakes/"
 - [GitLab Product Survey Sweepstakes - Official Rules](https://about.gitlab.com/community/sweepstakes/Product_Survey_Sweepstakes/product-survey.index.html)
 - [SCale 19x 2022 GitLab Newsletter Signup and Sweepstakes - Official Rules](/community/sweepstakes/scale-19x-newsletter-sweepstakes/)
 - [SCale 19x 2022 GitLab Code Challenge - Official Rules](/community/sweepstakes/scale-19x-code-challenge/)
+- [KubeCon EU 22 GitLab Product Direction Survey Prize Draw](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/tree/master/-/sites/uncategorized/source/community/sweepstakes/KubeCon_EU_22_GitLab_Product_Direction_Survey/index.html.md/)
