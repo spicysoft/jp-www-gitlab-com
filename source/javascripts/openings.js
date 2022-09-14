@@ -151,12 +151,6 @@
                 $('#jobs-desc-engineering__security').append('<li data-locale="' + data.departments[i].jobs[j].location.name + '"><a href="' + data.departments[i].jobs[j].absolute_url + '" title="' + data.departments[i].jobs[j].title + ' job at GitLab" target="_blank" rel="noopener noreferrer">' + data.departments[i].jobs[j].title + '<br/><em>' + data.departments[i].jobs[j].location.name + '</em></a></li>');
               });
             }
-            // Engineering - ux
-            if( jobBucket == "4021657002" || jobBucket == "4011067002" ) {
-              data.departments[i].jobs.forEach((job, j) => {
-                $('#jobs-desc-engineering__ux').append('<li data-locale="' + data.departments[i].jobs[j].location.name + '"><a href="' + data.departments[i].jobs[j].absolute_url + '" title="' + data.departments[i].jobs[j].title + ' job at GitLab" target="_blank" rel="noopener noreferrer">' + data.departments[i].jobs[j].title + '<br/><em>' + data.departments[i].jobs[j].location.name + '</em></a></li>');
-              });
-            }
             // General - finance
             if( jobBucket == "4011063002" || jobBucket == "4043187002" || jobBucket == "4070572002") {
               data.departments[i].jobs.forEach((job, j) => {
