@@ -2,7 +2,8 @@
 name: Ashraf Khamis
 locality:
 country: Remote
-role: <a href="/job-families/engineering/technical-writer/#senior-technical-writer">Senior Technical Writer</a>
+role: <a href="/job-families/engineering/technical-writer/#senior-technical-writer">Senior
+  Technical Writer</a>
 reports_to: kpaizee
 picture: ashrafkhamis.jpg
 pronouns: he/him
@@ -24,7 +25,6 @@ projects:
   omnibus-gitlab: maintainer docs
 specialty:
 - 'Ecosystem: Integrations'
-- 'Enablement: Global Search'
-- 'Create: Editor'
 expertise:
 story:
+
