@@ -31,7 +31,6 @@ Lint/RedundantCopDisableDirective:
     - 'lib/category.rb'
     - 'lib/cleanup/delete_stale_mr_branches.rb'
     - 'lib/devops_tool.rb'
-    - 'lib/event.rb'
     - 'lib/feature.rb'
     - 'lib/group.rb'
     - 'lib/misused_term.rb'
