@@ -1443,13 +1443,11 @@ stages:
             dri: TBD
         categories:
           - vulnerability_management
+          - dependency_management
         usage_driver_score: 4
         asp_driver_score: 5
         sam_driver_score: 5
         group_link: product/categories/#threat-insights-group
-        feature_labels:
-          - MR security reports
-          - pipeline security reports
 
       compliance:
         name: Compliance
