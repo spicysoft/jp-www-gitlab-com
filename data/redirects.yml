@@ -532,8 +532,10 @@
     - /community/sweepstakes/2020-developer-survey/
   target: /community/sweepstakes/
   comp_op: '='
-- sources: /tam/
-  target: /services/technical-account-management/
+- sources:
+    - /tam/
+    - /services/technical-account-management/
+  target: /services/customer-success-management/
   comp_op: '='
 - sources: /team-pets/
   target: /company/team-pets/
