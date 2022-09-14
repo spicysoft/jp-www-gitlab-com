@@ -41,3 +41,8 @@ tertiary:
       - [CMD+K link pasting doesn&#39;t work as intended](https://gitlab.com/gitlab-org/gitlab/-/issues/360764)
       - [When viewing Epics in a group - Sort by Name constantly fails](https://gitlab.com/gitlab-org/gitlab/-/issues/352286)
       - [Implement auto-saving mechanism on Design Notes](https://gitlab.com/gitlab-org/gitlab/-/issues/55677)
+      - [Work Item references in activity feeds point to the wrong place](https://gitlab.com/gitlab-org/gitlab/-/issues/371209)
+      - [Fix parent groups authorization for member of child groups that has projects](https://gitlab.com/gitlab-org/gitlab/-/issues/371067)
+      - [Misaligned markdown tabs on issue/MR create page](https://gitlab.com/gitlab-org/gitlab/-/issues/372220)
+      - [FOSS master broken in spec/graphql/resolvers/group_issues_resolver_spec.rb](https://gitlab.com/gitlab-org/gitlab/-/issues/371710)
+      - [Broken master in spec/lib/gitlab/background_migration/rename_task_system_note_to_checklist_item_spec.rb](https://gitlab.com/gitlab-org/gitlab/-/issues/371699)
