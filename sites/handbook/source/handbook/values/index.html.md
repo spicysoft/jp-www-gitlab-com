@@ -653,7 +653,9 @@ We have [guidelines](/handbook/spending-company-money/#guidelines) around this o
 
 ##### 自己管理 {#managers-of-one}
 {:.no_toc}
-We want each team member to be [a manager of one](/handbook/leadership/#managers-of-one) who doesn't need daily check-ins to achieve their goals. Team members are given the freedom to own projects and initiatives and are trusted to see them through to a successful end.
+毎日チェックされるなくても目標を達成できるように、全員が[自分自身のマネージャー](/handbook/leadership/#managers-of-one)になってください。
+
+全員にプロジェクトや施策を自由にすすめる権限があるし、全員が結果を出せると信頼しています。
 
 ##### 硬直化より自由と責任 {#freedom-and-responsibility-over-rigidity}
 {:.no_toc}
@@ -684,52 +686,76 @@ When possible, we give people the responsibility to make a decision and hold the
 
 ##### 効率化コンピテンシー {#efficiency-competency}
 {:#efficiency-competency .no_toc}
-[Competencies](/handbook/competencies/) are the Single Source of Truth (SSoT) framework for things we need team members to learn.
-We demonstrate efficiency when we work on the right things, not doing more than needed, and not duplicating work.
+チームメンバーが学ぶべきことを明確にする唯一無二のルール(SSoT)が、[コンピテンシー](/handbook/competencies/)です。
+正しいことに取り組み、必要以上のことをせず、重複した仕事をしないことで、効率性を発揮します。
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
-    <th class="tg-0lax">Demonstrates Efficiency Competency by…</th>
-    <th class="tg-0lax">Knowledge Assessment<br></th>
+    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab ジョブグレード</a></th>
+    <th class="tg-0lax">効率性を追求するために…</th>
+    <th class="tg-0lax">ナレッジ・アセスメント<br></th>
   </tr>
   <tr>
     <td class="tg-0lax">5</td>
-    <td class="tg-0lax">* Developing an understanding of being a manager of 1: Take responsibility for your own tasks and deliver on commitments <br> * Brings up ideas for process improvements to 1:1s. * Learns to write everything down as it is far more efficient to read a document at your convenience than to have to ask and explain.</td>
-    <td class="tg-0lax" rowspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSes0ht9Zj8_bijft2WQmGH4wbmTtzs-ArFHbWoF5H8EiRNI8w/viewform">Knowledge Assessment for Individual Contributors</a></td>
+    <td class="tg-0lax">
+    * 自分は自分のマネージャーであることを理解する：自分のタスクに責任を持ち約束した結果をだす<br> 
+    * 1on1へプロセスを改善するアイデアを出す<br> 
+    * 自分のペースでドキュメントを読む方が、質問したり説明したりするより効率的なので、すべてを書き留めることを学ぶ。
+    </td>
+    <td class="tg-0lax" rowspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSes0ht9Zj8_bijft2WQmGH4wbmTtzs-ArFHbWoF5H8EiRNI8w/viewform">スタッフ向けのナレッジ・アセスメント</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">6</td>
-    <td class="tg-0lax">* Has a growing understanding of efficiency and is acting by surfacing process inefficiencies in the team <br> * Seeks out ways to be more effective in their role, while also starting to mentor others in ways to work efficiently.</td>
+    <td class="tg-0lax">
+    * 効率化への理解を深め、チーム内のプロセスの非効率性をあぶり出し手をうっている <br> 
+    * より効果的に役割を果たす方法を模索している。また効率的に仕事をする方法を他の人に指導し始めている</td>
   </tr>
   <tr>
     <td class="tg-0lax"><br>7</td>
-    <td class="tg-0lax">* Models a culture of efficiency within the team where people make good, timely decisions using available data and assessing multiple alternatives <br> * Models using boring solutions for increasing the speed of innovation for our organization and product </td>
+    <td class="tg-0lax">
+    * 利用可能なデータを使いながら複数の選択肢を評価し適切かつタイムリーな意思決定を行い効率化というカルチャーの見本となります<br>
+    * 組織と製品のイノベーションのスピードを上げるための退屈な解決策を活用する見本となる</td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0lax">* Takes ownership of own team process inefficiencies, implements cross team efforts in ensuring things are running smoothly <br> Implements a way of working in the team where team members first search for their own answers and, if an answer is not readily found or the answer is not clear, ask in public as we all should have a low level of shame</td>
-    <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc45Yrl0FbXOJ27DMFec8L7b7I_Egtlgd7CUeRj2GQCdBhe2g/viewform">Knowledge Assessment for People Leaders</a></td>
+    <td class="tg-0lax">
+    * 自部門のプロセスの非効率な点を把握し、円滑に物事が進むように部門を横断した取り組みを実施する<br>
+    * 部下が、まずは自分で答えを探して、答えが見つからない場合や明確ではない場合に、恥ずかしがらずに人前で質問するようにさせている</td>
+    <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc45Yrl0FbXOJ27DMFec8L7b7I_Egtlgd7CUeRj2GQCdBhe2g/viewform">マネージャー向けナレッジ・アセスメント</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
-    <td class="tg-0lax">* Takes ownership of group level process inefficiencies, guides cross sub-departments in ensuring things are running smoothly <br> Fosters a culture in the sub-departments where you respect others' time and promote self-service and self-learning</td>
+    <td class="tg-0lax">
+    * グループレベルでのプロセスの非効率な点を把握し、円滑に物事が進むように各部門を指導する<br>
+    * 配下の部門に、他人の時間を尊重しセルフサービスと自己学習を促進する文化をつくる</td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>
-    <td class="tg-0lax">* Drives the framework of frugality on a department level and owns departments efforts in ensuring things are running smoothly <br> * Drives efficient resolution of highly complex or unusual business problems that impact the department / team. Holds their managers and peers accountable for upholding this value</td>
+    <td class="tg-0lax">
+    * 部門レベルで質素倹約なやり方を徹底して、物事が円滑に進むように部門の努力を管理する<br>
+    * 部門やチームに影響を与える非常に複雑な問題や異常なビジネス上の問題を効率的に解決する。
+    マネージャーや同僚に効率性というバリューを守る責任を負わせる</td>
   </tr>
   <tr>
     <td class="tg-0lax">11</td>
-    <td class="tg-0lax">* Develops the framework and strategy of frugality cross division.  Resulting in efforts ensuring things are running smoothly <br> * Develops leaders to action on division/department/team inefficiencies. Hold their management teams accountable for upholding this value.</td>
+    <td class="tg-0lax">
+    * 部門横断的な質素倹約の仕組みと戦略を開発する。物事が円滑に進むように努力すること<br>
+    * 部門、部署、チームの非効率性を改善するためのリーダーを育成する<br>
+    * マネージャー達にこのバリューを守る責任を負わせる</td>
   </tr>
   <tr>
     <td class="tg-0lax">12</td>
-    <td class="tg-0lax">* Leads with efficiency across the company. Ensures efficient resource allocation decisions across the company <br> * Leads across company strategy and policy improvements that move the business towards more efficiency. They hold their senior management and the e-group accountable for upholding this value</td>
+    <td class="tg-0lax">
+    * 全社に効率性をもたらす。全社視点で効率的なリソース配分の意思決定をする<br>
+    * ビジネスをより効率的にするために、会社の戦略や方針を改善をしていく<br>
+    * 上級管理職とe-グループに、このバリューを守る責任を負わせる</td>
   </tr>
   <tr>
     <td class="tg-0lax">EVP/CXO</td>
-    <td class="tg-0lax">Champions GitLab's strategy for efficiency internally and externally. Constantly looking for efficiency improvements cross company and holding other e-group members accountable for upholding efficiency too. They are comfortable leading through frugality and accepting of mistakes.</td>
+    <td class="tg-0lax">
+    * GitLabの効率化戦略を社内外に発信する<br>
+    * 常に社内横断的に効率化を模索し、他のEグループメンバーにも効率性を維持する責任を負わせます<br>
+    倹約し、失敗を受け入れながら進めることに抵抗がない</td>
   </tr>
 </table>
 
