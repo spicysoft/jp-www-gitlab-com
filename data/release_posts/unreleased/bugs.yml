@@ -35,3 +35,4 @@ tertiary:
       - [Fix the broken "Run Pipeline" button on MR for some forks](https://gitlab.com/gitlab-org/gitlab/-/issues/371790)
       - [Vulnerability Management tab is empty on fresh gitlab installation](https://gitlab.com/gitlab-org/gitlab/-/issues/367638)
       - [ActiveRecord::RecordInvalid: Validation failed: Name has already been taken](https://gitlab.com/gitlab-org/gitlab/-/issues/370808)
+      - [Group Name not properly rendered in Exported group membership list](https://gitlab.com/gitlab-org/gitlab/-/issues/367612)
