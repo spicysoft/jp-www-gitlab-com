@@ -2506,12 +2506,15 @@
   target: /handbook/engineering/development/analytics/product-intelligence/
   comp_op: '='
 - sources:
-    - /handbook/engineering/development/modelops/anti-abuse/
-    - /handbook/engineering/development/modelops/anti-abuse
-    - /handbook/engineering/development/modelops/insiderthreat/
-    - /handbook/engineering/development/modelops/insiderthreat
-  target: /handbook/engineering/development/sec/anti-abuse/
-  comp_op: '='
+    - /handbook/engineering/development/modelops/
+    - /handbook/engineering/development/modelops
+  target: /handbook/engineering/development/data-science/
+  comp_op: '~'
+- sources:
+    - /handbook/engineering/development/sec/anti-abuse/
+    - /handbook/engineering/development/sec/anti-abuse
+  target: /handbook/engineering/development/data-science/anti-abuse/
+  comp_op: '~'
 - sources:
     - /handbook/engineering/development/growth/conversion
     - /handbook/engineering/development/growth/conversion/
