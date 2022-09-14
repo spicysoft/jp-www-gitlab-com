@@ -1125,3 +1125,13 @@ gitlab-web-ide:
   link: https://gitlab.com/gitlab-org/gitlab-web-ide
   description: |
     A package for bootstrapping GitLab's context-aware Web IDE.
+
+gitlab-cli:
+  name: gitlab-cli
+  path: gitlab-org/cli
+  link: https://gitlab.com/gitlab-org/cli
+  description: |
+    GLab is an open source GitLab CLI tool bringing GitLab to your terminal next 
+    to where you are already working with git and your code without switching 
+    between windows and browser tabs. Work with issues, merge requests, watch 
+    running pipelines directly from your CLI among other features.
