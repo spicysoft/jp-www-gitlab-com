@@ -36,3 +36,8 @@ tertiary:
       - [Vulnerability Management tab is empty on fresh gitlab installation](https://gitlab.com/gitlab-org/gitlab/-/issues/367638)
       - [ActiveRecord::RecordInvalid: Validation failed: Name has already been taken](https://gitlab.com/gitlab-org/gitlab/-/issues/370808)
       - [Group Name not properly rendered in Exported group membership list](https://gitlab.com/gitlab-org/gitlab/-/issues/367612)
+      - [Unauthorized user cannot load boards](https://gitlab.com/gitlab-org/gitlab/-/issues/372822)
+      - [Board sidebar links should inherit text color](https://gitlab.com/gitlab-org/gitlab/-/issues/371684)
+      - [CMD+K link pasting doesn&#39;t work as intended](https://gitlab.com/gitlab-org/gitlab/-/issues/360764)
+      - [When viewing Epics in a group - Sort by Name constantly fails](https://gitlab.com/gitlab-org/gitlab/-/issues/352286)
+      - [Implement auto-saving mechanism on Design Notes](https://gitlab.com/gitlab-org/gitlab/-/issues/55677)
