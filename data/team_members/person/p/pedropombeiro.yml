@@ -44,12 +44,10 @@ remote_story: |
   The fact that my previous employer could no longer use the lack of other opportunities in the region as leverage to
   underpay and to not recognize its workers was a breath of fresh air for me, and it was clear I would likely never work
   co-located again. There are just so many advantages to remote work for me that the alternative is not even something I want to consider.
-
 domain_expertise:
-  - csharp
-  - go
-  - graphql
-  - runner
-specialty:
-  - 'Runner'
-  - 'Runner: Fleet Management'
+- csharp
+- go
+- graphql
+- runner
+specialty: Runner
+
