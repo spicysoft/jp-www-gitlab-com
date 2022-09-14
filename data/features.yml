@@ -6080,7 +6080,7 @@ features:
 
   - title : "GitLab Agent for Kubernetes"
     description: |
-      Manage the deployments and connection to your Kubernetes clusters in a secure and compliant way, driven by code.
+      Manage the deployments and connection to your Kubernetes clusters in a secure and compliant way, driven by code. The agent supports push and pull-based deployments and operational container scanning with fine-grained access controls.
     link_description: "Read more on the docs"
     link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
     category:
@@ -6105,7 +6105,7 @@ features:
     description: |
       Restrict GitLab CI/CD deployment jobs using Kubernetes RBAC
     link_description: "Read more on the docs"
-    link: 'https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_tunnel.html#use-impersonation-to-restrict-project-and-group-access'
+    link: 'https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#restrict-project-and-group-access-by-using-impersonation'
     category:
         - kubernetes_management
     gitlab_core: false
@@ -6129,7 +6129,7 @@ features:
     description: |
       Run GitOps-style deployments tightly integrated into GitLab
     link_description: "Read more on the docs"
-    link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
+    link: 'https://docs.gitlab.com/ee/user/clusters/agent/gitops.html'
     category:
         - kubernetes_management
     gitlab_core: true
