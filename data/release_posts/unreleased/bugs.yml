@@ -49,3 +49,5 @@ tertiary:
       - [Epics Roadmap's weeks start always on Sunday, even though first day of the week is Monday](https://gitlab.com/gitlab-org/gitlab/-/issues/296941)
       - [Manually created vulnerabilities all share a common location](https://gitlab.com/gitlab-org/gitlab/-/issues/373292)
       - [Count of epics in tabs on epics list page does not reflect updated number when filters are applied](https://gitlab.com/gitlab-org/gitlab/-/issues/361748)
+      - [Secret detection ignores SECRET_DETECTION_HISTORIC_SCAN in feature branch](https://gitlab.com/gitlab-org/gitlab/-/issues/331798)
+      - [Remove support for Ant-based projects in Spotbugs due to inconsistent behavior](https://gitlab.com/gitlab-org/gitlab/-/issues/350801)
