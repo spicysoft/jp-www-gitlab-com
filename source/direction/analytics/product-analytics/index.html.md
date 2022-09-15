@@ -57,7 +57,6 @@ We do not plan at this time to pursue use cases and personas around:
 Note that while the above are use cases and personas we are not actively pursuing, this does not mean that those personas will not find some value in what we provide. It means that they are not our primary focus. We do not intend to block functionality around these, just that they are not our primary focus. For example, page views and traffic trends are also useful for marketing personas, but we intend to use them for guiding product-related use cases, not for addressing marketing-related use cases. Similarly, understanding error reporting for a given feature may be important to understand a feature, but we are not focused on making a product quality or bug tracking platform using those pieces of data.
 
 ## What's Next
-- [What's Next for Product Intelligence](/direction/product-intelligence/#our-roadmap-as-of-2022-03-24)
 - [Analytics Section Next Steps](https://gitlab.com/gitlab-com/Product/-/issues/3785)
 
 ### Competitors
