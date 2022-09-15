@@ -48,3 +48,4 @@ tertiary:
       - [Broken master in spec/lib/gitlab/background_migration/rename_task_system_note_to_checklist_item_spec.rb](https://gitlab.com/gitlab-org/gitlab/-/issues/371699)
       - [Epics Roadmap's weeks start always on Sunday, even though first day of the week is Monday](https://gitlab.com/gitlab-org/gitlab/-/issues/296941)
       - [Manually created vulnerabilities all share a common location](https://gitlab.com/gitlab-org/gitlab/-/issues/373292)
+      - [Count of epics in tabs on epics list page does not reflect updated number when filters are applied](https://gitlab.com/gitlab-org/gitlab/-/issues/361748)
