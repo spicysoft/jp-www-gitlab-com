@@ -11,4 +11,4 @@ features:
     - Environment Management
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/351854'
     description: |
-      In this update, we have added a new endpoint for the protected environments API that lets you update the configuration settings. This is useful for changing who is allowed to deploy and how many approvals are required.
+      In this update, we have added a new endpoint for the protected environments API that lets you update the configuration settings. You can use the endpoint for changing who is allowed to deploy and how many approvals are required.
