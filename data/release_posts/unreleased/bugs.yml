@@ -52,3 +52,4 @@ tertiary:
       - [Secret detection ignores SECRET_DETECTION_HISTORIC_SCAN in feature branch](https://gitlab.com/gitlab-org/gitlab/-/issues/331798)
       - [Remove support for Ant-based projects in Spotbugs due to inconsistent behavior](https://gitlab.com/gitlab-org/gitlab/-/issues/350801)
       - [Serialization Error with External Status Check](https://gitlab.com/gitlab-org/gitlab/-/issues/371609)
+      - [Improved messaging clarity on sub-group and project creation](https://gitlab.com/gitlab-org/gitlab/-/issues/371901)
