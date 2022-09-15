@@ -4,7 +4,7 @@ features:
   - name: "Search by environment name in the Environments overview page"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/ci/environments/#view-environments-and-deployments'
     image_url: '/images/unreleased/release-env-search.png'
     reporter: cbalane
     stage: release
