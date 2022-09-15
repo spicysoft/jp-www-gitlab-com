@@ -14,3 +14,4 @@ tertiary:
       - [Description](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
       - [Convert ee/app/assets/stylesheets/pages/requirements.scss into page specific bundle](https://gitlab.com/gitlab-org/gitlab/-/issues/366603)
       - [Autocomplete dropdowns in the navbar should load faster](https://gitlab.com/gitlab-org/gitlab/-/issues/361520)
+      - [Memory watchdog should restart high-memory workers](https://gitlab.com/gitlab-org/gitlab/-/issues/370079)
