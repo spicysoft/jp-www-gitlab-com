@@ -4166,7 +4166,14 @@
     - /handbook/sales/vision-demo/
     - /learn/public
     - /learn/public/
+    - /learn/use-case
+    - /learn/use-case/public
   target: /learn/
+  comp_op: '='
+- sources:
+    - /learn/certifications
+    - /learn/certifications/
+  target: /learn/certifications/public/
   comp_op: '='
 - sources:
     - /job-families/marketing/director-of-sales-development

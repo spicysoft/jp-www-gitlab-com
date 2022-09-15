@@ -306,8 +306,6 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/uncategorized/source/privacy/ @robin
 
 ^[Learn at gitlab]
-/data/learn/ @cmestel
-/helpers/learn_helper.rb @cmestel
 /source/images/learn/ @cmestel
 /sites/uncategorized/source/learn/ @cmestel
 /sites/uncategorized/source/includes/components/video-carousel/learn-video-carousel-modal.html.haml @cmestel
