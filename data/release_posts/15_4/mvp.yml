@@ -6,18 +6,11 @@
 # DELETE THESE COMMENTS BEFORE SUBMITTING THE MERGE REQUEST
 ---
 mvp:
-  fullname: "Matt Gresko"
-  gitlab: mgresko
+  fullname: "Lennard Sprong"
+  gitlab: X_Sheep
   description: |
-    Matt [added support](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/2020)
-    for EC2 instance profile credentials when using AWS hosted elasticsearch clusters,
-    while we could only use static IAM credentials to access them before.
-    This is a complex contribution and a significant improvement to GitLab's
-    integration with [elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html#enabling-elasticsearch),
-    as it allows some aspects of our
-    [Advanced Global Search](https://docs.gitlab.com/ee/user/search/advanced_search.html#advanced-global-search)
-    functionality to be automatically configured when GitLab is run on AWS.
+     This month we are pleased to recognize Lennard Sprong as our MVP for all his contributions!
+     
+     With 7 MRs merged in the 15.4 release, Lennard added multiple significant features to GitLab's VS Code extenstion. Because of his additions, you can now [view your merged GitLab CI/CD configuration file](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/merge_requests/626) directly in VS Code, helping to ensure that your configuration is valid and as you expect before you commit and push your changes. His feature additions also added the ability to [download artifacts](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/merge_requests/635) and [retry or cancel existing pipelines](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/merge_requests/637) from the GitLab Workflow VS Code extension.
 
-    Have we mentioned that Matt also worked on the
-    [initial AWS implementation](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1305)?
-    Yeah, he did! It's all amazing, thank you Matt! 🙌
+     Lennard's improvements have made life easier for many developers using VS Code. Thank you, Lennard for the amazing work!
