@@ -11,4 +11,4 @@ features:
     - Release Orchestration
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/15419'
     description: |
-      With this update, you can now easily see tags that are related to deployments and specifically, the deployed commit.
+      With this update, on the Environments page, you can now easily see tags that are related to deployments and specifically, the deployed commit. This lets you more easily determine what code is currently or has been previously deployed to an environment.
