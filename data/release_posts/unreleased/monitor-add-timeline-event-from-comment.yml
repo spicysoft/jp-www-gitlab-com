@@ -13,4 +13,4 @@ features:
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/344058'
     description: |
       [Incident timelines](https://docs.gitlab.com/ee/operations/incident_management/incident_timeline_events.html) are an important part of record keeping for incidents. Incident timelines break down what happens during an incident, and the steps taken for the incident to be resolved.  
-      Sometimes comments from the incident are an important event in the timeline of the incident.  Instead of manually copying the important comments, users can click on the clock icon on any comment to add the comment to the incident timeline.
+      Sometimes comments from the incident are an important event in the timeline of the incident. Instead of manually copying the important comments, you can now select a button to add the comment to the incident timeline.
