@@ -4,7 +4,7 @@ features:
   - name: "Create API endpoint to update a Protected Environment"
     available_in: [premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/api/protected_environments.html#update-a-protected-environment'
     reporter: cbalane
     stage: release
     categories:
