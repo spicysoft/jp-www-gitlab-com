@@ -1,0 +1,15 @@
+---
+features:
+  secondary:
+  - name: "Integrate newly created gem supporting Microsoft Graph API email sending
+      into GitLab"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: hsutor
+    stage: manage
+    categories:
+    - Authentication and Authorization
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/365524'
+    description: |
+      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
