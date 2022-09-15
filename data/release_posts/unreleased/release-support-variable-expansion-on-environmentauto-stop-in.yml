@@ -4,11 +4,11 @@ features:
   - name: "Support variable expansion on environment:auto_stop_in"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/ci/variables/where_variables_can_be_used.html#gitlab-ciyml-file'
     reporter: cbalane
     stage: release
     categories:
     - Environment Management
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/365140'
     description: |
-      With this update, you can now use a variable when specifying the lifetime of an environment.
+      With this update, you can now use a variable when specifying the lifetime of an environment. This allows you to have more flexibility and dynamic behavior for managing temporary environments and when they should be stopped.
