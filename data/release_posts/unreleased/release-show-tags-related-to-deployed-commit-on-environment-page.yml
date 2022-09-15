@@ -1,10 +1,10 @@
 ---
 features:
   secondary:
-  - name: "Show tags related to deployed commit on Environment Page"
+  - name: "Show tags related to deployed commit on Environments page"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/ci/environments/#view-environments-and-deployments'
     reporter: cbalane
     stage: release
     categories:
