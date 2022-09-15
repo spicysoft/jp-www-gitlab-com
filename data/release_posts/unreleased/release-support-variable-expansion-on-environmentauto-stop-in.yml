@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Support variable expansion on environment:auto_stop_in"
+  - name: "Support variables for environment:auto_stop_in"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/ci/variables/where_variables_can_be_used.html#gitlab-ciyml-file'
