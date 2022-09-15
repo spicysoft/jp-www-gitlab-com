@@ -510,9 +510,10 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/create/editor/content_editor/ @sarahwaldner @ogolowinski @ericschurter @gl-product-leadership
 /source/direction/create/editor/pages/ @sarahwaldner @ericschurter @ogolowinski @gl-product-leadership
 /source/direction/create/gitter/ @sarahwaldner @ericschurter @ogolowinski @gl-product-leadership
-/source/direction/ecosystem/foundations/navigation_settings/ @gl-product-leadership @mushakov @ogolowinski @tauriedavis
+/source/direction/ecosystem/foundations/navigation_settings/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
+/source/direction/ecosystem/foundations/design_system/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
 /source/direction/ecosystem/ @mushakov @ogolowinski @gl-product-leadership
-/source/direction/ecosystem/foundations/gitlab_docs/ @gl-product-leadership @mushakov @ogolowinski @tauriedavis
+/source/direction/ecosystem/foundations/gitlab_docs/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
 /source/direction/ecosystem/integrations/ @gl-product-leadership @mushakov @ogolowinski @g.hickman
 
 ^[Product Section - Ops]
