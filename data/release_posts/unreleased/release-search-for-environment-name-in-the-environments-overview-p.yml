@@ -1,7 +1,7 @@
 ---
 features:
   primary:
-  - name: "Search for environment name in the Environments overview page"
+  - name: "Search by environment name in the Environments overview page"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
