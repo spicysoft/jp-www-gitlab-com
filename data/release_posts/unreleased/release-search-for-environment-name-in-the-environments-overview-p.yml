@@ -14,4 +14,4 @@ features:
     description: |
       <!-- What is the problem and solution you're proposing? This content sets the overall vision for the feature and serves as the release notes that will populate in various places, including the [release post blog](https://about.gitlab.com/releases/categories/releases/) and [Gitlab project releases](https://gitlab.com/gitlab-org/gitlab/-/releases). " -->
 
-      You can now search the list of environments in the Environments page by name. Previously, there was no search functionality. This sometimes required you to scroll through many pages to find a specific environment and its latest deployment. Please note that this feature is not yet complete, and you can only search for an exact match of the environment name.
+      You can now search the list of environments in the Environments page by name. Previously, there was no search functionality. This sometimes required you to scroll through many pages to find a specific environment and its latest deployment. Please note you can only search for an exact match of the environment name. Wildcards or partial names are not yet supported.
