@@ -659,7 +659,11 @@ We have [guidelines](/handbook/spending-company-money/#guidelines) around this o
 
 ##### 硬直化より自由と責任 {#freedom-and-responsibility-over-rigidity}
 {:.no_toc}
-When possible, we give people the responsibility to make a decision and hold them accountable for that, instead of imposing rules and approval processes. You should have clear objectives and the freedom to work on them as you see fit. Freedom and responsibility are more efficient than rigidly following a process, [or creating interdependencies](/company/team/structure/#product-groups), because they enable faster decision velocity and higher rates of [iteration](#iteration).
+決断する権限を与え決断したことへの責任を負ってもらいます。
+できる限りルールや承認フローを押し付けないでください。
+誰もが、明確な目標を持ち、裁量を持って取り組めるはずです。
+プロセスに厳格に従わせたり[相互依存関係を作る](/company/team/structure/#product-groups)よりも、裁量と責任のほうが効率的です。
+より速やかな意思決定と高回転の[イテレーション](#iteration)を実現できます。
 
 ##### 失敗を受け入れる {#accept-mistakes}
 {:.no_toc}
