@@ -6249,6 +6249,22 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
+  - title : "Limit the number of custom Pages domains on Self-managed instances"
+    description: "Set a limit for how many custom domains can be defined for GitLab Pages projects on Self-Managed instances of GitLab."
+    link_description: "Learn more about configuring limits for GitLab Pages"
+    link: 'https://docs.gitlab.com/ee/administration/pages/#set-maximum-number-of-gitlab-pages-custom-domains-for-a-project'
+    category:
+      - pages
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_pages: true
+    gitlab_com: false
+    github: false
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "Secure custom domains (HTTPS) with GitLab Pages"
     description: "Install a SSL/TLS certificate, at no cost, on a website set up with a custom domain served by GitLab Pages."
     link_description: "Learn how to add an SSL/TLS certificate to your GitLab Pages website"
