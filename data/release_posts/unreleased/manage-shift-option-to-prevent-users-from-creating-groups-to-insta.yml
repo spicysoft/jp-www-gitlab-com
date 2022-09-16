@@ -1,0 +1,13 @@
+---
+features:
+  secondary:
+  - name: "Shift option to prevent users from creating groups to Instance Admin UI"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: lohrc
+    stage: manage
+    categories: []
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/367754'
+    description: |
+      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
