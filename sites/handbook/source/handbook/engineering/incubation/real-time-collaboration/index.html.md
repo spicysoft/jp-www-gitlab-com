@@ -27,6 +27,7 @@ There are additional ideas within the [Real-time collaboration Epic](https://git
 
 | | Date | Topic | Description | Video |
 |---|:----------:|-----------------------------------|-----|-----|
+| 8 | 2022-09-16 | Change of plans | Awareness feature not to ship to current issue sidebar and y-rb multi-platform releases. | https://www.youtube.com/watch?v=x47YnULTiro |
 | 7 | 2022-08-18 | Ruby+Rust | Awareness feature about to ship, and a little intro to how Ruby+Rust bindings work. | https://www.youtube.com/watch?v=ng20jSo2TIs |
 | 6 | 2022-08-05 | Progress & Roadmap | Progress on the work to ship the Awareness widget, and an outlook for what is coming next. | https://www.youtube.com/watch?v=ZSdpj_YxsCE |
 | 5 | 2022-07-22 | JTBD and Progress Update | JTBD (Jobs to be done) and Iteration on the Awareness UI | https://www.youtube.com/watch?v=S0s-s45zVv8&list=PL05JrBw4t0KpPmRsaVaDOoWyIp1iKacZo&index=2 |
