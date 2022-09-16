@@ -2,7 +2,7 @@
 tertiary:
   - name: "Performance improvements"
     available_in: [ core, premium, ultimate ]
-    performance_improvements_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues?sort=updated_desc&state=closed&label_name[]=bug::performance&milestone_title=15.4' # closed issues filtered by the given milestone and the ~bug::performance label
+    performance_improvements_url: 'https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=15.4'&label_name[]=performance' # closed issues filtered by the given milestone and the ~bug::performance label
     reporter: multiple
     # Important: Descriptions must be clear and communicated so that a non-expert reader can quickly grasp the benefit of the change
     description: |
@@ -10,7 +10,7 @@ tertiary:
 
       In GitLab 15.4, we're shipping performance improvements for issues, projects, milestones, and much more! Some improvements in GitLab 15.4 are:
 
-      - [Geo::MetricsUpdateWorker slow total job artifacts count](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
+      - [Geo::MetricsUpdateWorker slow total job artifacts count](https://gitlab.com/gitlab-org/gitlab/-/issues/370158)
       - [Description](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
       - [Convert ee/app/assets/stylesheets/pages/requirements.scss into page specific bundle](https://gitlab.com/gitlab-org/gitlab/-/issues/366603)
       - [Autocomplete dropdowns in the navbar should load faster](https://gitlab.com/gitlab-org/gitlab/-/issues/361520)
