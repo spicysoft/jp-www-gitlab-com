@@ -2,7 +2,7 @@
 tertiary:
   - name: "Bug fixes"
     available_in: [ core, premium, ultimate ]
-    bug_fixes_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=closed&milestone_title=15.4&label_name%5B%5D=type%3A%3Abug&first_page_size=20' # closed issues filtered by the given milestone and the ~"type::bug" label
+    bug_fixes_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=closed&milestone_title=15.4&label_name[]=type::bug' # closed issues filtered by the given milestone and the ~"type::bug" label
     reporter: multiple
     # Important: Descriptions must be clear and communicated so that a non-expert reader can quickly grasp the benefit of the change
     # Structure: For consistency, do not end your [Description] with a period as not all titles will be complete sentences
@@ -30,6 +30,7 @@ tertiary:
       - [Fix the VSA time to complete stage chart from showing no data for 0 values](https://gitlab.com/gitlab-org/gitlab/-/issues/368304)
       - [Geo: Invalid LFS object deletion on secondary when managed object replication is disabled](https://gitlab.com/gitlab-org/gitlab/-/issues/371397)
       - [Geo: LFS redirect from secondary to primary may not work mid-session](https://gitlab.com/gitlab-org/gitlab/-/issues/371571)
+      - [Geo: Fix File synchronization concurrency limit](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96934)
       - [Fix the broken "Run Pipeline" button on MR for some forks](https://gitlab.com/gitlab-org/gitlab/-/issues/371790)
       - [Vulnerability Management tab is empty on fresh gitlab installation](https://gitlab.com/gitlab-org/gitlab/-/issues/367638)
       - [ActiveRecord::RecordInvalid: Validation failed: Name has already been taken](https://gitlab.com/gitlab-org/gitlab/-/issues/370808)
