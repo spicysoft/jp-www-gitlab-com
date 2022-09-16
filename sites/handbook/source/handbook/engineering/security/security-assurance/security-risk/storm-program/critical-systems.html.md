@@ -62,7 +62,7 @@ Systems are assigned a critical system tier based on the following matrix:
 .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
 .tg td{border-color:black;border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-zqun{background-color:#ffffff;color:#000000;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-zqun{background-color:#ffffff;color:#000000;text-align:center;vertical-align:middle}
 .tg .tg-knp3{background-color:#6e49cb;border-color:#000000;color:#ffffff !important;;
   text-align:center;vertical-align:middle}
 .tg .tg-clye{background-color:#380d75;color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
@@ -74,13 +74,6 @@ Systems are assigned a critical system tier based on the following matrix:
 .tg .tg-9hzb{background-color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
-<colgroup>
-<col style="width: 100px">
-<col style="width: 200px">
-<col style="width: 200px">
-<col style="width: 43px">
-<col style="width: 200px">
-</colgroup>
 <tbody>
   <tr>
     <td class="tg-clye">Critical System Tier (CST) <span style="color:#DB3B21;">*</span></td>
@@ -91,26 +84,26 @@ Systems are assigned a critical system tier based on the following matrix:
   <tr>
     <td class="tg-e02t">Tier 1 Mission Critical<span style="color:#DB3B21;">**</span></td>
     <td class="tg-zqun">Disruption has an immediate and significant impact to the availability of GitLab subscriptions.</td>
-    <td class="tg-e02t">GitLab</td>
-    <td class="tg-e02t">Tier 1 Product</td>
+    <td class="tg-zqun">GitLab.com</td>
+    <td class="tg-zqun">Tier 1 Product</td>
   </tr>
   <tr>
-    <td class="tg-zqun">Tier 2 Business Critical<span style="color:#DB3B21;">***</span></td>
+    <td class="tg-e02t">Tier 2 Business Critical</td>
     <td class="tg-zqun">Disruption has an immediate and significant impact to critical business functions and customer service.</td>
-    <td class="tg-e02t">customers.gitlab.com/subscription</td>
+    <td class="tg-zqun">customers.gitlab.com/subscription</td>
     <td class="tg-zqun">Tier 1 Business and Tier 2 Core</td>
   </tr>
   <tr>
     <td class="tg-e02t">Tier 3 Business Operational</td>
     <td class="tg-zqun">Disruption affects operational business functions, negatively impacting efficency/cost of operation across departments</td>
-    <td class="tg-e02t">ZenGRC</td>
-    <td class="tg-e02t">Combination of Tier 2 Support and Tier 3 Non-critical and influenced by responses to BIA</td>    
+    <td class="tg-zqun">ZenGRC</td>
+    <td class="tg-zqun">Combination of Tier 2 Support and Tier 3 Non-critical and influenced by responses to BIA</td>    
   </tr>
   <tr>
     <td class="tg-e02t">Tier 4 Administrative</td>
     <td class="tg-zqun">Affects GitLab team members only at an individual level (e.g., quality of life, individual productivity)</td>
-    <td class="tg-e02t">Modern Health</td>
-    <td class="tg-e02t">Combination of Tier 2 Support and Tier 3 Non-critical and influenced by responses to BIA</td>
+    <td class="tg-zqun">Modern Health</td>
+    <td class="tg-zqun">Combination of Tier 2 Support and Tier 3 Non-critical and influenced by responses to BIA</td>
   </tr>
 </tbody>
 </table>
