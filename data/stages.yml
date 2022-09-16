@@ -42,8 +42,8 @@ stages:
         focus: Manage Authentication & Authorization Paid GMAU
         pmm: Cindy Blake
         cm: Suri Patel
-        backend_engineering_manager: Michelle Gill
-        frontend_engineering_manager: Michelle Gill
+        backend_engineering_manager: Adil Farrukh
+        frontend_engineering_manager: Adil Farrukh
         be_team_tag: Manage:Authentication and Authorization BE Team
         fe_team_tag: Manage:Authentication and Authorization FE Team
         support:

@@ -4,7 +4,7 @@ locality:
 country: Remote
 role: <a href="/job-families/engineering/backend-engineer/">Senior Backend Engineer</a>,
   Manage:Authentication and Authorization
-reports_to: michellegill
+reports_to: adil.farrukh
 picture: smriti_pic_minified.jpg
 pronouns: she/her
 pronunciation:
@@ -14,8 +14,10 @@ gitlab: sgarg_gitlab
 projects:
   gitlab: reviewer backend
 departments:
-- Development
-- Manage:Authentication and Authorization BE Team
+  - Engineering Function
+  - Development Department
+  - Dev Section
+  - Manage:Authentication and Authorization BE Team
 specialty: Authentication & Authorization
 expertise: "<li> Ruby/Ruby on Rails </li>"
 remote_story: After taking maternity break for almost forever .. working remotely
