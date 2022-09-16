@@ -73,20 +73,19 @@
 - name: Review App deployment success rate
   base_path: "/handbook/engineering/quality/performance-indicators/"
   definition: Measures the stability of our test tooling to enable end to end and exploratory testing feedback.
-  target: Above 99%
+  target: Above 95%
   org: Quality Department
   is_key: true
   dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
   health:
     level: 3
     reasons:
-      - Trending up to 96%
+      - Deploy with <a href="https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96704">merge result commits</a> will shorten time to recover from upstream failures without requiring MR authors to rebase.
       - <a href="https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1055">Auto-deploy promotion process</a> during 15.6 to reduce review app image build failures
   urls:
-    - https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/38
-    - https://gitlab.com/groups/gitlab-org/-/epics/605
-    - https://gitlab.com/groups/gitlab-org/-/epics/6024
     - https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1055
+    - https://gitlab.com/gitlab-org/charts/gitlab/-/issues/3518
+    - https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/1441
   sisense_data:
     chart: 6721558
     dashboard: 516343
