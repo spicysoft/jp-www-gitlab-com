@@ -262,7 +262,7 @@ stages:
 
       product_planning:
         name: Product Planning
-        pm: Melissa Ushakov
+        pm: Amanda Rueda
         focus: Plan Product Planning Paid GMAU
         pmm: 
         cm: Suri Patel
@@ -302,7 +302,7 @@ stages:
 
       certify:
         name: Certify
-        pm: Melissa Ushakov
+        pm: Matthew Macfarlane
         focus: Plan Certify Paid GMAU
         pmm: 
         cm: Suri Patel
