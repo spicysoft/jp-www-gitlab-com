@@ -84,90 +84,6 @@
   source:
   group: Release
 
-- slug: release-orchestration-1
-  parent:
-  short_jtbd: Manage software releases
-  jtbd: When managing software releases, I want to optimize repeated tasks and workflows, so that I can make the business more efficient.
-  grade: "-"
-  confidence: Researched
-  source: "https://gitlab.com/gitlab-org/ux-research/-/issues/2016"
-  group: Release
-- slug: release-orchestration-2
-  parent: release-orchestration-1
-  short_jtbd: Manage release compliance
-  jtbd: When releasing code, I want to manage release artifacts, so I can deploy and audit them in a repeatable fashion.
-  grade: "-"
-  confidence: Researched
-  source:
-  group: Release
-- slug: release-orchestration-4
-  parent: release-orchestration-1
-  short_jtbd: Communicate release changes
-  jtbd: When my product is ready to be released, I want to make the documentation about it available, so I can educate the adopters on any changes.
-  grade: "-"
-  confidence: Researched
-  source:
-  group: Release
-
-##### Start Configure ######
-
-- slug: secrets-mgt-1
-  parent:
-  short_jtbd: HashiCorp Vault for secrets
-  jtbd: When I need to use a secret/token/password I want to use my HashiCorp Vault so I can leverage the tool I am already using for Secrets Management.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-2
-  parent: secrets-mgt-1
-  short_jtbd:
-  jtbd: When I need to use a secret/token/password for a pipeline I want to authenticate into HashiCorp Vault, pass the secret to the CI Job and execute the pipeline so I can leverage the tool I am already using for Secrets Management.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-3
-  parent:
-  short_jtbd: Securely manage secrets
-  jtbd: When I am deploying changes to environments outside of GitLab I want to easily authenticate and pass the appropriate secrets between GitLab and the environment without exposing the secret so I can deploy my changes to production quickly.
-  grade: "d"
-  confidence: Researched
-  source:
-  group: Configure
-- slug: secrets-mgt-4
-  parent: secrets-mgt-3
-  short_jtbd:
-  jtbd: When I am using secrets for pipelines I want to be able to access those secrets easily and from a single place so I can deploy my changes to production quickly.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-5
-  parent: secrets-mgt-3
-  short_jtbd:
-  jtbd:  When I am working with tokens or passwords I want to keep these secret and avoid revealing the values in an audit log or to other developers so I can maintain secrets management best pratices and avoid a breach of data.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-6
-  parent: secrets-mgt-3
-  short_jtbd:
-  jtbd: When I am enforcing compliance standards for passwords, tokens, and secrets I want to be able to set automated secret rotation so I can avoid disrupting developers workflows and being in breach of compliance.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-7
-  parent: secrets-mgt-3
-  short_jtbd:
-  jtbd: When I am accesing a system to deploy my change to an environment I want to be able to access the system without leaving my CLI to log in so I can deploy my changes to production quickly.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-
 ##### Start Package ######
 
 - slug: package_jtbd_1
@@ -1435,8 +1351,6 @@
   source: https://gitlab.com/groups/gitlab-org/-/epics/4124
   group: Pipeline Authoring
 
-
-
 - slug: Pipeline-Authoring_1_a
   parent: Pipeline-Authoring_1
   short_jtbd: Author a pipeline
@@ -1492,8 +1406,6 @@
   source: https://gitlab.com/groups/gitlab-org/-/epics/6022
   group: Pipeline Authoring
 
-
-
 - slug: Pipeline-Authoring_3
   parent:
   short_jtbd: Configure variables for a specific development environment
@@ -1521,7 +1433,72 @@
   source: 
   group: Pipeline Authoring   
 
-##### Start Secure and Govern ######
+- slug: Secrets-Management_1
+  parent:
+  short_jtbd: Integrate with existing secrets vaults
+  jtbd: When I need to use sensitive credentials, like passwords or tokens, I want to have a native integration with my secrets vault so I can continue using the tool I'm already using for secrets management.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_2
+  parent:
+  short_jtbd: Securely manage secrets
+  jtbd: When I am deploying changes to environments outside of GitLab I want to easily authenticate and pass the appropriate credentials between GitLab and the environment without exposing the credential so I can deploy my changes to production quickly and securely.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_2.1
+  parent: Secrets-Management_2
+  short_jtbd:
+  jtbd:  When I am working with tokens or passwords I want to keep those secret and avoid revealing the values in an audit log or to other developers so I can maintain secrets management best pratices and avoid a breach of data.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_2.2
+  parent: Secrets-Management_2
+  short_jtbd:
+  jtbd: When I am enforcing compliance standards for the handling of sensitive credentials I want to be able to set automated secret rotation so I can avoid disrupting developers workflows and being in breach of compliance.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_2.3
+  parent: Secrets-Management_2
+  short_jtbd:
+  jtbd: When I am enforcing compliance standards for the handling of secrets I want to be able to set the necessary access policies and permissions levels to ensure that only the authorized users and services have the necessary level of access to secrets.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_3
+  parent: 
+  short_jtbd: Easily access secrets
+  jtbd: When I am using secrets for pipelines I want to be able to access those secrets easily and from a single place so I can deploy my changes to production quickly.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_3.1
+  parent: Secrets-Management_3
+  short_jtbd:
+  jtbd: When I am accesing a system to deploy my change to an environment I want to be able to access the system without leaving my CLI to log in so I can deploy my changes to production quickly.
+  grade: "-"
+  confidence:
+  source:
+  group: Pipeline Authoring
+- slug: Secrets-Management_4
+  parent: 
+  short_jtbd: Demonstrate compliance
+  jtbd: When reporting on our security practices I want to have easy access to an audit of the secrets access and management activity in order to demonstrate security compliance. 
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+
+##### Start Secure and Protect ######
 
 - slug: secure-implementing-policies
   group: Secure and Govern
