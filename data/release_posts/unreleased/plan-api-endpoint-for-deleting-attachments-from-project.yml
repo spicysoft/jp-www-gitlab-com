@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "API Endpoint for deleting attachments from project"
+  - name: "GraphQL API endpoint for deleting attachments from project"
     available_in: [premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/api/graphql/reference/#mutationuploaddelete'
