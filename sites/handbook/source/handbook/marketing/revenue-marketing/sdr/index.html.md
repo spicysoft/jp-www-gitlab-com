@@ -783,7 +783,7 @@ Learn more about [Field](/handbook/marketing/field-marketing/) and [Corporate Ma
 The FMM Regional team & the AMER or EMEA/APAC Regional Senior BDR Manager will review the upcoming quarter event calendar to dicuss which events needs BDR support and what level of support would be needed. The Regional Senior BDR Manager will sign off on the related event support by levering the "BDR approved" column in the [Marketing Calendar SSOT worksheet](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit). FMMs will then open the related FMM/ISR/SDR issue mentioning the Regional Senior BDR Manager. The Regional Sr BDR Manager will assign a Manager DRI who will then include related BDRs participating in the event's BDR pre and post tasks. 
 
 *  [Field Marketing SDR Support Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=ISR_SDR_FMTemplate)
-*  [Corporate Event SDR Support Template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/Event-SDR-Support-Template.md)
+*  [Corporate Event SDR Support Template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_SDR_Support_Template)
 
 
 ### Levels of Support
