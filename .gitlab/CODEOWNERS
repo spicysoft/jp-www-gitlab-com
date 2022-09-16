@@ -476,12 +476,12 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/product/fulfillment-guide/ @justinfarris @jeromezng @tgolubeva @jameslopez @csouthard @rhardarson @ofernandez2
 /sites/handbook/source/handbook/product/product-intelligence-guide/ @alinamihaila @justinfarris @rparker2
 /sites/handbook/source/handbook/product/packaging-and-pricing/gitlab-for-campuses/ @keithchung @c_hupy
-/sites/handbook/source/handbook/product/categories/verify/ @jreporter @kencjohnston
-/sites/handbook/source/handbook/product/categories/ops/ @kencjohnston @sgoldstein
+/sites/handbook/source/handbook/product/categories/verify/ @jreporter @david
+/sites/handbook/source/handbook/product/categories/ops/ @david @sgoldstein
 /sites/handbook/source/handbook/product/product-analysis/ @cbraza @gl-product-leadership
 /sites/handbook/source/handbook/product-development-budgeting/ @david
 /sites/handbook/source/handbook/product/product-safe-guidance/ @fseifoddini @gweaver
-/sites/handbook/source/handbook/product/personas/ @david @joshlambert @kencjohnston @asmolinski2
+/sites/handbook/source/handbook/product/personas/ @david @joshlambert @asmolinski2
 
 ^[Product - Dev Section]
 /source/direction/dev/ @ogolowinski @gl-product-leadership
@@ -517,7 +517,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/ecosystem/integrations/ @gl-product-leadership @mushakov @ogolowinski @g.hickman
 
 ^[Product Section - Ops]
-/source/direction/ops/ @kencjohnston
+/source/direction/ops/ @david
 /source/direction/release/ @kbychu @cbalane
 /source/direction/deployment/ @kbychu
 /source/direction/monitor/ @kbychu @abellucci @sebastienpahl
@@ -555,7 +555,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/anti-abuse/ @jstava @tmccaslin @hbenson
 
 ^[Product - Analytics Section]
-/source/direction/analytics/ @kencjohnston
+/source/direction/analytics/ @david
 
 ^[Product - Saas Platforms Section]
 /source/direction/saas-platforms/ @joshlambert @david @gl-product-leadership
