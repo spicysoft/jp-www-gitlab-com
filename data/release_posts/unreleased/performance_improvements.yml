@@ -2,7 +2,7 @@
 tertiary:
   - name: "Performance improvements"
     available_in: [ core, premium, ultimate ]
-    performance_improvements_url: 'https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=15.4'&label_name[]=performance' # closed issues filtered by the given milestone and the ~bug::performance label
+    performance_improvements_url: 'https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=15.4&label_name[]=performance' # closed issues filtered by the given milestone and the ~bug::performance label
     reporter: multiple
     # Important: Descriptions must be clear and communicated so that a non-expert reader can quickly grasp the benefit of the change
     description: |
