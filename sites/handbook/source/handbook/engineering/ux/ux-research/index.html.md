@@ -64,6 +64,8 @@ Below is a full list of our UX Research team handbook content:
 - [Recruiting participants](/handbook/engineering/ux/ux-research-training/recruiting-participants/)
 - [Using the UX Research Google Calendar](/handbook/engineering/ux/ux-research-training/ux-research-google-calendar/)
 - [Attending a research event](/handbook/engineering/ux/ux-research-training/attending-a-research-event/)
+- [Creating and managing a research participant panel](/handbook/engineering/ux/ux-research-training/research-panel-management/)
+
 
 ### Data and research insights
 
@@ -82,6 +84,7 @@ Below is a full list of our UX Research team handbook content:
 - [Usability testing rainbow analysis chart template (internal link)](https://docs.google.com/spreadsheets/d/1_bGO9uUxWL5dKe5r1vxTo4J4QAEHfp6mu7VIQDsTu_E/copy)
 - [Recommendations alignment Mural template (internal link)](https://app.mural.co/template/a5b1cf65-483d-4014-8681-373e1a6c9ee7/c2c2b37a-baf6-4b5f-9e97-87f132d07e19)
 - [Usability benchmarking alignment Mural template (internal link)](https://app.mural.co/template/6c725b01-a3be-422e-8cec-d8823e9aaa73/a9f6620d-47cb-43d1-b2a9-c980c2d51308)
+- [Participant email communication examples](https://docs.google.com/document/d/1vEthOeiZl-yly-afd6eZrh5DIXL-DzH79BZBOKxzqlM/edit?usp=sharing)
 
 ### Checklists
 
