@@ -1,0 +1,29 @@
+---
+name: Evan Read
+locality:
+country: Remote
+role: <a href="/job-families/engineering/technical-writer/">Senior Technical Writer</a>,
+  Create (Gitaly), Manage (Authentication and Authorization, Compliance, Import)
+reports_to: dianalogan
+picture: evanread.jpg
+twitter:
+gitlab: eread
+departments:
+- Engineering Function
+- UX Department
+- Technical Writing
+projects:
+  gitlab: maintainer docs
+  gitlab-docs: maintainer
+  gitlab-development-kit: maintainer docs
+  omnibus-gitlab: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
+story: |
+  Evan is passionate about language and knowledge sharing. His interests include politics,
+  history, and Australian Rules football.
+specialty:
+- Create:Gitaly
+- 'Manage: Access'
+- 'Govern: Compliance'
+- 'Manage: Import'

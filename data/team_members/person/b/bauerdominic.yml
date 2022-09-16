@@ -1,0 +1,28 @@
+---
+name: Dominic Bauer
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/">Backend Engineer, Govern:Security
+  Policies</a>
+reports_to: maciejparuszewski
+picture: dominicbauer.jpg
+pronouns: he/him
+gitlab: bauerdominic
+departments:
+- Engineering Function
+- Development
+- Sec Section
+- Govern Sub-department
+- Govern backend capability
+- Govern:Security Policies BE Team
+story: |
+  Dominic is a software developer with a preference for simplicity. Away from
+  keyboard, he enjoys sports, hiking and traveling to remote places.
+specialty:
+- 'Protect: Container Security'
+projects:
+  gitlab:
+  - reviewer backend
+  - reviewer database
+  secure-container-scanning: maintainer backend
+

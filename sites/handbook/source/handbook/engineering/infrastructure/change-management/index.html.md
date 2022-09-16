@@ -106,7 +106,7 @@ In particular for long running Rails console tasks, it *may* be acceptable to in
 
 ### Criticality 1
 
-These are changes with high impact or high risk. If a change is going to cause downtime to the environment, it is always categorized a `C1`.
+These are changes with high impact or high risk. If a change is going to cause downtime to the Production environment, it is always categorized a `C1`.
 
 **Examples of Criticality 1:**
 
@@ -133,7 +133,9 @@ The EOC must be engaged for the entire execution of the change.
 
 ### Criticality 2
 
-These are changes that are not expected to cause downtime, but which still carry some risk of impact if something unexpected happens. For example, reducing the size of a fleet of cattle is usually ok because we've identified over-provisioning, but we need to take care and monitor carefully before and after.
+These are changes with high impact or high risk. If a change is going to cause downtime to the Staging environment, it is always categorized a `C2`.
+
+These are changes that are not expected to cause downtime in Production, but which still carry some risk of impact if something unexpected happens. For example, reducing the size of a fleet of cattle is usually ok because we've identified over-provisioning, but we need to take care and monitor carefully before and after.
 
 **Examples of Criticality 2:**
 
@@ -292,9 +294,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 |-----------------------------|------------|-------------------------------|
 | Recurring: 22nd of every month         | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](https://about.gitlab.com/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
-| 2022-07-01         | Hard       | [CI Decomposition](https://about.gitlab.com/blog/2022/06/02/splitting-database-into-main-and-ci/)                   |
-| 2022-07-04         | Soft       | [CI Decomposition](https://about.gitlab.com/blog/2022/06/02/splitting-database-into-main-and-ci/)                   |
-| 2022-09-01 23:00 UTC -> 2022-09-02 23:59 UTC | Hard       | [DB OS Upgrades](https://about.gitlab.com/blog/2022/08/12/upgrading-database-os/)                  | 
+| 2022-09-01 23:00 UTC -> 2022-09-02 23:59 UTC | Hard       | [DB OS Upgrades](https://about.gitlab.com/blog/2022/08/12/upgrading-database-os/)                  |
 | 2022-09-05         | Soft       | [DB OS Upgrades](https://about.gitlab.com/blog/2022/08/12/upgrading-database-os/)                  |
 
 There are 2 types of PCLs: soft and hard.
@@ -310,7 +310,7 @@ During the soft PCL, feature flags can be conditionally toggled, depending on th
 
 ### Hard PCL
 
-Hard PCLs include code deploys and infrastructure changes for every criticality level (see [change severities](/handbook/engineering/infrastructure/change-management/#change-severities)).
+In addition to all of the restrictions in the Soft PCL, Hard PCLs include code deploys and infrastructure changes for every criticality level (see [change severities](/handbook/engineering/infrastructure/change-management/#change-severities)).
 In case of an emergency, the EOC should interact with the Incident Manager On Call prior to making any decision.
 It is at EOC and Incident Manager On Call discretion to make a decision on whether a change should be approved and executed. If the change is approved, Incident Manager On Call should inform the VP of Infrastructure of this decision (who will inform the executive team as necessary).
 
@@ -358,7 +358,7 @@ Additionally, during an incident investigation, knowing which high-risk features
 
 - **We have a question that is not answered here?**
 
-    Please raise an issue to [Infrastructure team's queue](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues) and we will be happy to get back to you as soon as we can.
+    Please raise an issue to [Infrastructure team's queue](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues) and we will be happy to get back to you as soon as we can.
 
 # Exceptions
 

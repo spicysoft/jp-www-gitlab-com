@@ -31,7 +31,6 @@ If you are nursing while traveling on GitLab approved business, you can reimburs
 
 Check with your health plan to see if you are eligible for reimbursement for the cost of a breast pump or any other supplies. 
 
-
 ## Self Stay Incentive Policy <a name="self-stay"></a>
 
 If you decide to stay with friends or family instead of a hotel / Airbnb for a business trip, the company will pay you 50% of what would have been
@@ -71,8 +70,6 @@ If you book Trains through TripActions, business related bookings should be, upo
 
 In TripActions, you have the ability to book Personal trips. Note that when selecting this option, a personal credit card will be required at time of booking. Personal trips will not have the option to be added to the GitLab invoice.
 
-
-
 #### Basic economy in TripActions
 
 Many airlines offer [basic economy](https://en.wikipedia.org/wiki/Basic_economy) fares by default. This can create confusion and stress on the traveler if the conditions of their airline ticket aren't known.
@@ -109,14 +106,18 @@ Please read through these FAQ **entirely**.
 
 #### FAQ about travel upgrades
 
-1. If you are taller than 1.95m or 6'5", you can upgrade to Economy Plus. There is no dollar restriction on this since it will be hard to fit in economy with that height.
-1. For flights longer than 8 hours, you can expense:
-    * Up to the first [$300 USD](https://www1.oanda.com/currency/converter/) for an upgrade to Business Class on flights longer than 8 hours if you are taller than 1.95m or 6'5".
-    * Up to the first [$100 USD](https://www1.oanda.com/currency/converter/) for an upgrade to Economy Plus (no height restriction) on flights longer than 8 hours.
+1. If you exceed `193.6cm` or `6'4"` in height (i.e. you exceed the [95th percentile height distribution for a male human](https://ourworldindata.org/human-height#height-is-normally-distributed)) you may:
+    - Expense the full cost for an upgrade to Economy Plus on any flight
+    - Expense up to the first [$300 USD](https://www1.oanda.com/currency/converter/) for an upgrade to Business Class on flights longer than 8 hours
+1. If your height does not match the exact cm/inch requirement, and you feel unsafe to travel, you may:
+    - Expense up to the first [$100 USD](https://www1.oanda.com/currency/converter/) for an upgrade to Economy Plus on flights longer than 8 hours
+    - Review upgrade options with your manager (keeping in mind the guidance on ["spending company money like it is your own"](/handbook/spending-company-money/#guidelines))
 1. GitLab does not cover expenses for significant others or family members for travel or immigration. This includes travel and visas for GitLab events.
-    * There are other things that [the company will not reimburse](/handbook/finance/accounting/#non-reimbursable-expenses), such as dog boarding.
+    - There are other things that [the company will not reimburse](/handbook/finance/accounting/#non-reimbursable-expenses), such as dog boarding.
 
-
+> We base elibibility on the 95 percentile because it is a practical figure for capturing outliers without being overly prescriptive and applicable to all travel if we care to flesh out guidance around other forms of transit in the future.
+>
+> It is common for manufacturers to design seating that comfortably accomodates only a certain percentage of the populate. For example, see [how Herman Miller designs their chairs to accomodate the 95th percentile](https://www.hermanmiller.com/research/categories/white-papers/the-evolution-of-anthropometrics-and-user-control/).
 
 #### FAQ regarding transition from NexTravel to TripActions
 
@@ -311,7 +312,9 @@ The COVID-19 Travel Working Group will re-evaluate our travel policy at least mo
 If a meeting/meet-up includes 5 or more GitLab Team Members meeting in person, please follow these protocols:
 
 ### Covid-19 Testing:  
-All GitLab attendees must test negative on a rapid at-home Antigen test for COVID-19 prior to travel, and again each day of the event prior to meeting with team members.  If you have been exposed to Covid within 10 days of travel, tested positive for Covid, or if you are symptomatic, please do not travel regardless of test results. 
+All GitLab attendees must test negative on a rapid at-home Antigen test for COVID-19 prior to travel, and again each day of the event prior to meeting with team members.  If you have been exposed to Covid within 10 days of travel, tested positive for Covid, or if you are symptomatic, please do not travel regardless of test results.  
+
+The cost of the test kits are often covered by medical insurance.  In the event that the tests aren't covered by your insurance plan, you may expense the cost of the Antigen tests required during business travel. If you are attending a large event, please check with your event facilitator who may have tests available at discounted/bulk prices.  
 
 ### Positive Test Result:  
 If a Team Member tests positive for COVID-19, they are to refrain from meeting with others and must contact the facilitator of the meeting, and/or the venue contact, and notify teammemberrelations@gitlab.com via email. The team member may be required to quarantine until testing negative for COVID-19 which could take 7-10+ days.  Quarantine and isolation rules differ by country and that's where Team Member Relations can help determine next steps.  

@@ -298,7 +298,7 @@
   use_instead: 
     - |
       [TAMkt](https://internal-handbook.gitlab.io/handbook/product/investment/)
-  reason: Avoid name collision with the job-family of [Technical Account Manager](/job-families/sales/technical-account-manager/)
+  reason: Avoid name collision with the job-family of [Technical Account Manager](/job-families/sales/customer-success-management/)
 
 - avoid:
     - Drinking the Kool-Aid

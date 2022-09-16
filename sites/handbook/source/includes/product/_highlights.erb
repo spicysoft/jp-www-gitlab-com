@@ -1,0 +1,37 @@
+<% releases = ['15.5','15.4','15.3'] %>
+<% releases.each do |release| %>
+#### <%= "From #{release}" %>
+<%= '' %>
+   <% datafile = release_post_items(release) %>
+   <% highlights = datafile.features.primary.select{|h| stages.include? h.stage} %>
+   <% highlights = highlights.sort_by do |highlight| %>
+      <% case highlight.stage %>
+      <% when 'manage' %>
+         <% 1 %> 
+      <% when 'plan' %>
+         <% 2 %> 
+      <% when 'create' %>
+         <% 3 %> 
+      <% when 'verify' %>
+         <% 4 %> 
+      <% when 'package' %>
+         <% 5 %>
+      <% when 'release' %>
+         <% 6 %>
+      <% when 'configure' %>
+         <% 7 %>
+      <% when 'monitor' %>
+         <% 8 %>
+      <% when 'secure' %>
+         <% 9 %>
+      <% when 'govern' %>
+         <% 10 %>
+      <% when 'enablement' %>
+         <% 11 %>
+      <% end %>
+   <% end %>
+   <% highlights.each do |h| %>
+<%= "* #{h.stage.capitalize}: [#{h.name}](#{h.documentation_link})" %>
+   <% end %>
+   <%= "" %>
+<% end %>

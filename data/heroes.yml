@@ -882,7 +882,7 @@
   country: Remote
   role: GitLab Hero
   twitter: stingrayza
-  bio: InnerSource & DevOps Specialist @ EXFO Inc | Automation Enthusiast
+  bio: Senior Fullstack Engineer @ GitLab
   gitlab: stingrayza
   picture: raimundhook.jpg
 
@@ -1054,3 +1054,13 @@
   bio: Linux and Open Source advocate
   gitlab: silug
   picture: stevenpritchard.jpg
+
+- type: person
+  name: Shreedhar Bhat
+  locality: Bengaluru
+  country: India
+  role: GitLab Hero
+  twitter:
+  bio: Software Engineer ❤️ OpenSource Contributor @GitLab  
+  gitlab: shridharbhat1998
+  picture: shreedhar.jpg

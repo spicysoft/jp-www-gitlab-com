@@ -29,7 +29,30 @@ New partner program changes are effective on August 15, 2021. Please visit the [
 - Aura Villalobos - Partner Operations Analyst
 - Nick Scala - Director, Channel Operations
 - Bhano Pippala - Channel Operations Specialist
+- Jeff Cho - Channel Operations Specialist
+- Morgan Fuller - Channel Operations Specialist
+- Nikhil Mordia - Channel Operations Specialist
 - Marcella Summers - Manager, Alliance Operations
+- Jack Cassidy - Alliance Operations Analyst 
+
+### Department Responsiblities
+
+#### Alliance Operations (Marcella, Jack)
+- Provide operational support and enablement to our [Alliances team](https://about.gitlab.com/handbook/alliances/) focusing on improving efficiency, effectiveness, and productivity
+- Onboard new alliance partners, develop and document quote-to-cash processes and best practices
+- Collaborate with our alliance partners, marketplace vendors, and internal departments to create systems integrations that support marketplace transactions
+
+#### Channel Operations (Nick, Bhano, Jeff, Morgan, Nikhil)
+- Develop, manage, and improve operational processes for the Channel (Distributor and Reseller) sales organization
+- Provide operational support and enablement to sales and cross-functional teams for Channel related inquiries (e.g., opportunities, quotes and orders, pricebooks, reporting)
+
+Please refer to our [Channel Ops Coverage Model](https://docs.google.com/spreadsheets/d/1kzlowacL9c5bh3C5lN2FWVA9gFO8RXf2OmFg8qmd69E/edit?usp=sharing) for details on Channel Operations Specialist alignment by Geo, Channel Sales Director, and Distributor.
+
+#### Partner Operations (Niles, Aura, Dennis)
+- Operationalize process changes for the partner organizaition (Channel and Alliances)
+- Translate business requirements to technical deliverables, test deliverables in staging environments, deploy changes and communicate process changes to the broader field team
+- Oversee compensation close cycles, SSOT reporting and process automation
+
 
 ### How to Contact Us
 The **#channel-programs-ops** Slack channel can be leveraged for inquiries. Both the Channel Operations Team and the Channel Programs Team monitor this slack channel.
@@ -75,15 +98,14 @@ There are a number of different slack channels to serve the different needs of t
 
 | Slack Channel | Description | Topic | Audience | Posting Permissions |
 | ------ | ------ | ------ | ------ | ------ |
-| channel-fyi | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #channel-programs-ops or #channel-sales | _blank_ | any | Channel Operations, Channel Programs, Michelle Hodges, Nima Badiey
+| partner-fyi | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #channel-programs-ops or #channel-sales | _blank_ | any | Channel Operations, Channel Programs, Nima Badiey
 | channel-program-ops | Questions and comments about channel programs and operations | https://about.gitlab.com/handbook/resellers/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
-| channel-sales |  Questions and comments about opportunities, partner connections, field engagement, and other channel sales questions | _blank_ | any | any |
-| channels-emea | A channel for the EMEA channels team and stakeholders to collaborate | Team coverage: Matthew: France, Russia, Spain, MEA; Ilaria: DACH, Poland, Italy, Cze; Kevin: UK, I, Nordics, BeneLux; Bastian: Commercial (Open partners pan EMEA + Amazic); Camille: Partner Support Helpdesk; Adrian: Solutions Architect - pan EMEA | any | any |
-| channels-amer | A channel for the AMER channels team and stakeholders can collaborate | Team coverage: Jennifer Bailey: Canada & US - West; Sergio Cortes: LATAM & US - Central; Shannon Thomas: US - East; Kyle Olsen: AWS; Kasim Ahmad: GCP; Annie Rooke: Director | any | any |
+| channel-sales |  Questions and comments about opportunities, partner connections, field engagement, and other channel sales questions |  | any | any |
+| channels-emea | A channel for the EMEA channels team and stakeholders to collaborate |  | any | any |
+| channels-amer | A channel for the AMER channels team and stakeholders can collaborate |  | any | any |
 | pub-sec-channels | A channel for the Pubsec channels team and stakeholders to collaborate |  [Team Coverage](https://docs.google.com/spreadsheets/d/1fCaRgYn0qJ5lT3Qgaq-Vqkw3X6wa53py3Qm7yPYYlA4/edit#gid=0) | any | any |
-| apac_partners | A channel for the APAC channels team and stakeholders can collaborate | _blank_ | any | any |
+| apac_partners | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
 | channel-services | Questions and comments about channel services program, enablement and field engagement |  | any | any |
-| channel-team-announcements* | Updates to channel team members ONLY | https://about.gitlab.com/handbook/resellers/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | channel and alliance team members ONLY | Channel Operations, Channel Programs, Michelle Hodges, Nima Badiey |
 | alliances | A channel for collaboration with the alliances Team | https://about.gitlab.com/handbook/alliances/ | any | any |
 | alliance_sales_ops | Questions and comments about alliance operations | https://about.gitlab.com/handbook/alliances/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
 
@@ -125,7 +147,7 @@ Sales Reps are responsible for quoting all GitLab direct and reseller-direct quo
 - Reseller name
 
 ### Transacting Through Distribution
-*   All US PubSec deals are transacted through Carahsoft (gitlab@carahsoft.com) or Immix (GSA only).
+*   All US PubSec deals are transacted through Carahsoft (gitlab@carahsoft.com) or Immix (GSA only). PubSec distribution is not managed by Partner Order Operations.
 *   Open track Commercial partners in AMER are encouraged to transact through our AMER distributor Arrow ECS at gitlabteam@arrow.com.
 *   Open track partners in EMEA are required to transact through our EMEA distributor Amazic at gitlab@amazic.com.
 *   All partners in India are required to transact through our India distributor Redington at gitlab@redington.co.in.
@@ -133,7 +155,7 @@ Sales Reps are responsible for quoting all GitLab direct and reseller-direct quo
 
 Distributors are equipped to self-quote new business or other order types without receiving an official GitLab quote, as long as partner discounts are confirmed to them. So, there may be times, especially in multiple bid scenarios, where you may not be aware of all the partners bidding on an opportunity if they haven’t submitted a Deal Registration, until we receive a PO.
 
-If a reseller requests a quote from a distributor via the aliases above, the distributor will contact partnerorderops@gitlab.com to request an official quote and Partner Operations will generate the quote for the distributor to generate their official PO to place an order.
+If a reseller requests a quote from a distributor via the aliases above, any non-PubSec distributors will contact partnerorderops@gitlab.com to request an official quote and Partner Operations will generate the quote for the distributor to generate their official PO to place an order.
 
 #### Internal Distributor Quote Requests 
 If you are working with an Open partner and need a distributor quote sent, please email the [necessary quote information](https://about.gitlab.com/handbook/sales/field-operations/channel-operations/#opportunity-requirements-to-request-a-quote) and opportunity link to partnerorderops@gitlab.com.
@@ -605,7 +627,7 @@ After all product approvals are complete, Channel Operations will request approv
 
 ### Internal Price File Communications
 
-Channel Operations will post a message on the slack channel #channel-fyi to share the updated Price Files and call out any major changes. 
+Channel Operations will post a message on the slack channel #partner-fyi to share the updated Price Files and call out any major changes. 
 
 ### External Price File Communications
 
@@ -657,7 +679,7 @@ For any questions regarding our Alliance partners, please reach out to the #alli
 ***Use Case 1: Partner Co-Sell (Marketplace transaction with no source credit)*** 
 
 If a deal is being transacted through **GCP Marketplace** or **AWS Marketplace**, then the following fields need to be filled out on the opportunity:
-- **Partner Co-Sell** = [GCP](https://gitlab.my.salesforce.com/0014M00001nJhks)* or [AWS](https://gitlab.my.salesforce.com/0014M00001ldTdt)*  
+- **Resale Partner** = [GCP](https://gitlab.my.salesforce.com/0014M00001nJhks)* or [AWS](https://gitlab.my.salesforce.com/0014M00001ldTdt)*  
 _*Be sure to use the correct SFDC account. Click on the link to confirm the GCP and/or AWS account.)_  
  
 ***Use Case 2: Partner Sourced Deal Registration (No Marketplace transaction)***  

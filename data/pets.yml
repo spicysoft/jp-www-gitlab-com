@@ -1,4 +1,14 @@
 ---
+- name: Turk Turk
+  picture: turkturk.png
+  human: Lauren Barker
+  story: 'Turk Turk will make you tremble in your boots if you set foot in his yard.
+    Moving faster than the unsuspecting elephant seal, he will bolt from underneath
+    the apple tree when your snagging the forbidden avocados in a flying waddle with
+    talons out. It''s moments like these you question the decisions that got you here.
+    You''ve been warned. Don''t mess with Turk Turk or his avocados on E st.
+
+    '
 - name: Vega
   picture: vega.png
   human: Brian Tabbert
@@ -734,13 +744,6 @@
   story: 'Rescue cockapoo who lives for affection and human food.
 
     '
-- name: Petri
-  picture: petri.jpg
-  human: Kenny Johnston
-  story: 'Petri is a two year old merle great dane. She spends most her days moving
-    from one couch to another.
-
-    '
 - name: Albus
   picture: albus.jpg
   human: Scott Hampton
@@ -1005,13 +1008,17 @@
 - name: Henry & Peri
   picture: MWHenryPeri.jpg
   human: Morgan Wilkins
-  story: 'Henry and Peri are best friends and love to go on adventures together. They have climbed mountains, hiked through canyons, kayaked down the Colorado River, and snuggled on many nights in the tent.
+  story: 'Henry and Peri are best friends and love to go on adventures together. They
+    have climbed mountains, hiked through canyons, kayaked down the Colorado River,
+    and snuggled on many nights in the tent.
 
     '
 - name: Willy & Nala
   picture: MWWillyNala.jpg
   human: Morgan Wilkins
-  story: 'Willy only has one eye because if he had two he would conquer the world. Willy is in love with Nala, but Nala would prefer to play with her toys and snuggle in bed.
+  story: 'Willy only has one eye because if he had two he would conquer the world.
+    Willy is in love with Nala, but Nala would prefer to play with her toys and snuggle
+    in bed.
 
     '
 - name: Flora
@@ -2134,13 +2141,6 @@
     is now enjoying her golden years. She likes food and plays bridge on Wednesdays.
 
     '
-- name: Edward
-  picture: Edward.jpg
-  human: Chris Cowell
-  story: 'Edward''s motivation for living is 98% affection from humans, 1% biting
-    humans, and 1% stealing tea from humans.
-
-    '
 - name: Snoopy
   picture: snoopy-sashi.jpg
   human: Sashi Kumar Kumaresan
@@ -2464,11 +2464,11 @@
   human: Madou Coulibaly
   story: ''
 - name: Willow
-  picture: willow-woolf.jpeg
+  picture: willow-woolf.jpg
   human: Max Woolf
-  story: Willow is a Labrador who spends most of her day constantly on the move, chewing her brother's ears, or
-    barking at him. She is very intelligent and keen to learn everything except that sitting still is sometimes
-    fun.
+  story: Willow is a Labrador who spends most of her day constantly on the move, chewing
+    her brother's ears, or barking at him. She is very intelligent and keen to learn
+    everything except that sitting still is sometimes fun.
 - name: Milo
   picture: milofilo.jpeg
   human: Megan Filo
@@ -2655,27 +2655,98 @@
   picture: Belle.jpg
   human: Roy Zwambag
   story: 'Belle is a calico that loves to sleep, getting groomed, eat and then sleep
-    some more. Belle never misses her crazy cat hour in the middle of the night though. ' 
+    some more. Belle never misses her crazy cat hour in the middle of the night though. '
 - name: Dexter
   picture: dexterbeagle.jpg
   human: Dylan Tragjasi
-  story: Dexter is a beagle that loves to eat and sleep 90% of the time.
-    The other 10% of his time is spent expending all of his pent up energy doing zoomies.
-    Dexter's passions include travelling and fine dining.
+  story: Dexter is a beagle that loves to eat and sleep 90% of the time. The other
+    10% of his time is spent expending all of his pent up energy doing zoomies. Dexter's
+    passions include travelling and fine dining.
 - name: Cleo & Chester
   picture: cleochester.jpg
   human: MaryGrace Wajda
-  story: Both born in the uneventful month of March 2020, Cleo and Chester joined the family in June 2020 and have been ruling the household ever since. Cleo is a bengal that enjoys sleeping, following her humans around, and running on her cat wheel (the more you praise her, the faster she runs). She also likes watching TV (she's partial to "The Dog House UK" on HBO), eating anything with chicken, and making her voice heard (mostly in the early morning hours in case her parents forget to feed her, which has yet to happen, but she's extremely proactive). Chester is a tabby or "standard issue cat" that loves supervising, "helping" around the house, and finding new ways to keep his humans on their toes. If you're eating around Chester, expect to share—his favorite foods include cheese and the occasional croissant. Despite his comfortable existence, his mission in life is to get out of the apartment, and he has been known to get into some interesting places in his quest to befriend everyone and everything (except the vet). Chester has his own laptop, but this doesn't stop him from walking across my keyboahajqkwu
+  story: Both born in the uneventful month of March 2020, Cleo and Chester joined
+    the family in June 2020 and have been ruling the household ever since. Cleo is
+    a bengal that enjoys sleeping, following her humans around, and running on her
+    cat wheel (the more you praise her, the faster she runs). She also likes watching
+    TV (she's partial to "The Dog House UK" on HBO), eating anything with chicken,
+    and making her voice heard (mostly in the early morning hours in case her parents
+    forget to feed her, which has yet to happen, but she's extremely proactive). Chester
+    is a tabby or "standard issue cat" that loves supervising, "helping" around the
+    house, and finding new ways to keep his humans on their toes. If you're eating
+    around Chester, expect to share—his favorite foods include cheese and the occasional
+    croissant. Despite his comfortable existence, his mission in life is to get out
+    of the apartment, and he has been known to get into some interesting places in
+    his quest to befriend everyone and everything (except the vet). Chester has his
+    own laptop, but this doesn't stop him from walking across my keyboahajqkwu
 - name: MJ
   picture: mj.jpg
   human: Caroline Simpson
-  story: 'MJ is a dilute calico who loves treats and attention on her own terms. She tolerates 
-    the antics of her humans with the grace only a senior cat can muster.'
+  story: MJ is a dilute calico who loves treats and attention on her own terms. She
+    tolerates the antics of her humans with the grace only a senior cat can muster.
 - name: Gobi
   picture: gobi.jpeg
   human: Inan Perillo
-  story: 'Gobi is the quietest cat in the world, only when he is asleep. When he is awake, he wants to be always at the center of the action. He is super curious, if an encyclopedia ever defines FOMO, his picture will be in it. Always a homeboy, he only ever gets out of the apartment when visiting his vet. He loves chin rubs, head scratches, and kisses and absolutely hates it when you touch his stubby tail. He is mischievous and quite vindictive, but he is also very vocal and affectionate, so he gets away with it most of the time. 
-
+  story: Gobi is the quietest cat in the world, only when he is asleep. When he is
+    awake, he wants to be always at the center of the action. He is super curious,
+    if an encyclopedia ever defines FOMO, his picture will be in it. Always a homeboy,
+    he only ever gets out of the apartment when visiting his vet. He loves chin rubs,
+    head scratches, and kisses and absolutely hates it when you touch his stubby tail.
+    He is mischievous and quite vindictive, but he is also very vocal and affectionate,
+    so he gets away with it most of the time.
+- name: Pepper
+  picture: pepperjh.png
+  human: Raimund Hook
+  story: Pepper is a Miniature Schnauzer who can't decide whether she is a cat or
+    a dog. She loves long walks (preferably in the park/ without a lead - she runs
+    away from that!), cycling on her buddy rider, barking at passers by and snoozing.
+- name: Midna
+  picture: midna.jpg
+  human: Alex Pennells
+  story: Midna is a Sphynx that has no problem demanding attention at any time of
+    the day. She can typically be found snoozing under blankets, sitting in a windowsill
+    or darting outside anytime a door opens.
+- name: Harley
+  picture: harley2.jpg
+  human: Alex Pennells
+  story: Harley is a German Shephard/Collie mix who oddly prefers the great indoors,
+    due to her deadly fear of flies. She does enjoy venturing out to play in the snow
+    during the winter, free from the terror of flying pests.
+- name: Venom
+  picture: venom.png
+  human: Alex Pennells
+  story: Venom is a Border Collie/Golden Retriever mix who likes to push boundaries.
+    He understands the word 'no', but he also knows how to ignore it. He can typically
+    be found eating anything you left on the counter, whether it's actually edible
+    doesn't matter.
+- name: Jynx
+  picture: jynx.png
+  human: Alex Pennells
+  story: Jynx is a Beagle/Boston Terrier mix who is terrified of being left alone.
+    She can typically be found sleeping under blankets, sunbathing, or demanding that
+    you play fetch with her.
+- name: Cooper
+  picture: CooperRoberts.png
+  human: Lauren Roberts
+  story: Cooper is the cutest one year old black lab. He loves listening to Taylor
+    Swift with his mom, watching Clemson football with his dad and snacking on carrots
+    and blueberries while mom takes calls.
+- name: Fynn
+  picture: fynn.jpg
+  human: Jess Perry
+  story: Well, hi there! I'm fun-loving Fynn. I'm an 8 month old red tri Australian
+    Shepherd and live in Southern California with my mom, some other pups at the house,
+    and lizard siblings. I love to run, play ball, play tug of war, rip up my stuffed
+    animals, and chase my frisbee. I get to spend my afternoons and weekends hiking
+    and playing with my new friends at the dog park. I also spend a lot of time in
+    the garden with my mom where I'm on squirrel duty and take that job very seriously,
+    even though I have yet to catch one. I hate when mom is working and won't pay
+    attention to me! '
+- name: Bruce and Betty
+  picture: BruceBetty.png
+  human: Ashley Kramer
+  story: |-
+    Bruce is a laid back yellow lab with the world’s biggest heart. He loves chasing his ball, swimming and looks forward to three square meals a day. Betty is an athletic, outgoing yellow lab who is curious about everything in the world. She loves following her big brother everywhere, cuddling and swimming.
     '
 - name: You?
   picture: "../../gitlab-logo-extra-whitespace.png"

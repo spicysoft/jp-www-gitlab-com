@@ -161,7 +161,6 @@ Ungated asset links can be found on [this document](https://docs.google.com/docu
 * [Speed to Mission (whitepaper)](https://about.gitlab.com/resources/whitepaper-speed-to-mission/)
 * [The Hidden Costs of DevOps Toolchains (with guest speaker from Forrester)(webcast)](https://about.gitlab.com/webcast/simplify-to-accelerate/)
 * [DevOps Powering Your Speed to Mission (webcast)](https://about.gitlab.com/webcast/devops-speed-to-mission/)
-* [Mission Mobility: A DevSecOps Discussion (webcast)](https://about.gitlab.com/webcast/mission-mobility/)
 * [Government Matters Technology Leaders Innovation Series: Low-to-High Collaboration (with Marc Kriz) (video)](https://youtu.be/RvZSTCbPkiE)
 * [Modernizing Government IT through DevOps (whitepaper)](https://about.gitlab.com/resources/whitepaper-modernizing-government-it/)
 * [Cross Domain DevSecOps: Low-to-High Side Collaboration (whitepaper)](https://page.gitlab.com/resources-whitepaper-cross-domain-devsecops.html) 

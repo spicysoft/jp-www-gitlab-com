@@ -58,9 +58,8 @@
   health:
     level: 2
     reasons:
-      - Recovering from 82% low point in May to 86% 
-      - Merge train improvement planned in 15.5
-      - Reasons for failures; Review App failures 4%, Flaky and broken master test failures 4.18%, <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/332411">Dependency proxy bug</a> 1.12%, Other 1.35%
+      - Decreased from 89% to 81% in May due to flaky specs, runner fleet infrastructure changes, and CNG dependency issues.
+      - <a href="https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/42">Corrective actions being identified to prevent future occurances</a>.
   urls:
     - https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/42
     - https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/195
@@ -74,20 +73,19 @@
 - name: Review App deployment success rate
   base_path: "/handbook/engineering/quality/performance-indicators/"
   definition: Measures the stability of our test tooling to enable end to end and exploratory testing feedback.
-  target: Above 99%
+  target: Above 95%
   org: Quality Department
   is_key: true
   dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
   health:
     level: 3
     reasons:
-      - Trending up to 96%
+      - Deploy with <a href="https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96704">merge result commits</a> will shorten time to recover from upstream failures without requiring MR authors to rebase.
       - <a href="https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1055">Auto-deploy promotion process</a> during 15.6 to reduce review app image build failures
   urls:
-    - https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/38
-    - https://gitlab.com/groups/gitlab-org/-/epics/605
-    - https://gitlab.com/groups/gitlab-org/-/epics/6024
     - https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1055
+    - https://gitlab.com/gitlab-org/charts/gitlab/-/issues/3518
+    - https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/1441
   sisense_data:
     chart: 6721558
     dashboard: 516343
@@ -105,10 +103,10 @@
   health:
     level: 3
     reasons:
-      - Reduced to 19 mins from a high point of 32 mins in May
-      - Improvements to speed up review app deployment scheduled for 15.7
+      - Increased due to a recent <a href="https://gitlab.com/gitlab-org/security/gitlab/-/merge_requests/1551">cache settings change</a>, now reverted. This caused test jobs to fail 8-12 minutes later than before.
+      - Added <a href="https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/1288">QA tests</a> in merge requests causes new failures to occur later.
+      - Improvements planned to on speed up time to execute QA tests.
   urls:
-    - https://gitlab.com/groups/gitlab-org/-/epics/7826
     - https://gitlab.com/gitlab-org/gitlab/-/issues/361665
     - https://gitlab.com/gitlab-org/gitlab/-/issues/362766
   sisense_data:
@@ -120,40 +118,40 @@
 - name: S1 OBA
   base_path: "/handbook/engineering/quality/performance-indicators/"
   definition: S1 Open Bug Age (OBA) measures the total number of days that all S1 bugs are open within a month divided by the number of S1 bugs within that month.
-  target: Below 100 days
+  target: Below 60 days
   org: Quality Department
   is_key: true
   dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
   health:
     level: 2
     reasons:
-      - Hit the target in July but spiked back due to outliers
-      - Advocating for oldest S1 bugs in new cross-functional prioritization process
+      - This metric was changed to use median rather than average as a better representation of OBA.
+      - A few recently categorized S1s having a large effect on OBA.
       - Implemented <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/362985">S1 bug auto-scheduling</a> to prioritize S1s within their SLOs.
   sisense_data:
     dashboard: 856737
-    chart: 11997705
+    chart: 14922931
     embed: v2
 
 - name: S2 OBA
   base_path: "/handbook/engineering/quality/performance-indicators/"
   definition: S2 Open Bug Age (OBA) measures the total number of days that all S2 bugs are open within a month divided by the number of S2 bugs within that month.
   org: Quality Department
-  target: Below 300 days
+  target: Below 250 days
   is_key: true
   dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
   health:
     level: 1
     reasons:
-      - Trending up back 380 days in recent month
+      - This metric was changed to use median rather than average as a better representation of OBA.
       - S2 bug refinement is underway to stabilize open age and reduce backlog. Backlog is decreasing.
-      - Advocating for S2 bug prioritization in new cross-functional prioritization process
-      - Implementing <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/368641">S2 bug auto-scheduling</a> for the subset of product groups with healthy S2 backlogs.
+      - QE is collaborating with the product groups with the +300 day old S2 bugs to drive progress further.
+      - Implementing <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/368641">S2 bug auto-scheduling</a> as a first iteration to prioritize S2s within their SLOs.
   urls:
     - https://gitlab.com/groups/gitlab-org/-/epics/8111
   sisense_data:
     dashboard: 856747
-    chart: 11997719
+    chart: 14922923
     embed: v2
 
 - name: Quality Team Member Retention
@@ -243,9 +241,8 @@
   health:
     level: 2
     reasons:
-      - Trending up to 67 mins
-      - We've estimated that tests grows by 2% each month 
-      - The last two milestones the team has been focused on supporting cross functional efforts and unable to prioritize actions on slow tests.
+      - Recent <a href="https://gitlab.com/gitlab-org/security/gitlab/-/merge_requests/1551">security cache isolation change</a> reduced rails cache efficiency. This caused test jobs to fail 8-12 minutes later than before.
+      - Added more End-to-end tests runs in MRs in tradeoff to reduce QA issues caught later in staging and slowing down SaaS deployments requiring scrambling manual interventions by SETs and Delivery team.
   urls:
     - https://gitlab.com/groups/gitlab-org/-/epics/1853
     - https://gitlab.com/groups/gitlab-org/-/epics/7826
@@ -254,27 +251,6 @@
     chart: 6782964
     dashboard: 516343
     embed: v2
-
-- name: Merge Requests pipeline cost
-  base_path: "/handbook/engineering/quality/performance-indicators/"
-  definition: Measure the average GitLab project merge request pipeline cost to measure engineering efficiency. This
-    is calculated by taking the total compute cost for the runner machines for merge request pipelines divided by the number of merge requests.
-  target: Below 7.50
-  org: Quality Department
-  is_key: false
-  health:
-    level: 3
-    reasons:
-      - Increased from $20.91 to $21.20
-      - Unable to prioritize investigation of <a href="https://gitlab-org.gitlab.io/rspec_profiling_stats/#time_per_test">test duration increase</a> which may identify new opportunities to lower cost.
-      - Number of pipelines per MR is increasing from 8.9 to 10.6 from June to July due to more MRs with >30 pipelines. 
-      - Pipeline modifier usage has increased during the month of July. 
-      - Investigation of corrective actions have been deprioritized over cross functional projects, stability, and time to first failure. 
-  sisense_data:
-    chart: 11689663
-    dashboard: 862651
-    embed: v2
-    shared_dashboard: a6ec2792-d044-411d-aca7-f4496543a461
 
 ############################
 # Community Outreach
@@ -366,7 +342,8 @@
   health:
     level: 3
     reasons:
-    - Trend has stabilized just above target
+    - Updated target to 90 minutes, just below previously observed low
+    - Trend has stabilized
     - Short-term - in-progress selective test execution initiative should drive small improvements
     - Long-term - rethinking design of test execution to innovate and drive significant reduction
   sisense_data:
@@ -413,7 +390,7 @@
 - name: Quality Budget Plan vs Actuals
   base_path: "/handbook/engineering/quality/performance-indicators/"
   parent: "/handbook/engineering/performance-indicators/#engineering-budget-plan-vs-actuals"
-  definition: We need to spend our investors' money wisely. We also need to run a responsible business to be successful, and to one day go on the public market.
+  definition: We need to spend our investors' money wisely. We also need to run a responsible business to be successful.
     <a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11464">Latest data is in Adaptive, data team importing to Sisense in FY22Q2</a>
   target: See Sisense for target
   org: Quality Department

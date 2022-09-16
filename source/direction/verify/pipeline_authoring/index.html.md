@@ -48,19 +48,23 @@ If you have any feedback on our 3 year vision which you would like to share plea
 
 ## What's Next & Why
 As part of our [FY23 Product Investment Themes](https://about.gitlab.com/direction/#fy23-product-investment-themes) our team plan to support the following goals
-* Increase in Paid GMAU for gitlab.com - by delivering the first iteration of a [private CI/CD template catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/352347/), as a premium feature to allow engineers in an organization to discover and reuse their CI templates within their organization.
+* Increase in Paid GMAU for gitlab.com - by delivering the first iteration of a [private CI/CD template catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/352347/), as an ultimate feature to allow engineers in an organization to discover and reuse their CI templates within their organization. The discussion on the [architectual blueprint](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/93574) is in progress
 
 ### Upcoming milestone 
-The work in the [current milestone](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&milestone_title=%23started) has been scoped, is underway and you can see the assigned issues on our [Pipeline Authoring planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&milestone_title=%23started). Our team's focus is outlined in the `Goals for the milestone` section for the [current milestone](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&milestone_title=%23started), in this milestone our focus is to improve the way our pipeline processes variables, by building the foundation to [allow users to use $ sign in a variables](https://gitlab.com/gitlab-org/gitlab/-/issues/17069), which is the most popular bug we have in our system. [Define pull policy](https://gitlab.com/gitlab-org/gitlab/-/issues/21619) for images that the CI job runs in, and complete the MVC for [Pipeline simulation](https://gitlab.com/groups/gitlab-org/-/epics/6498). 
+The work in the [current milestone](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&milestone_title=%23started) has been scoped, is underway. The assigned issues listed on our [Pipeline Authoring planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&milestone_title=%23started). Our team's focus is outlined in the `Goals for the milestone` section for the [current milestone](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&milestone_title=%23started), in this milestone, our focus is to improve the way our pipeline processes variables which will allow us to implement some of the top feature requests such as:
+  * [Set a predefined list of values for CI environment variables and surface them in the "Run pipeline" page form](https://gitlab.com/gitlab-org/gitlab/-/issues/29159) ~170 👍      
+  * [Specify variables when retrying a manual job](https://gitlab.com/gitlab-org/gitlab/-/issues/37268) ~115 👍      
+  * [Cannot use $ character in build variables](https://gitlab.com/gitlab-org/gitlab/-/issues/17069)  ~140 👍
+
 The planning for next versions are underway and you can view and contribute directly to the [planning issues](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&not[milestone_title]=%23started).
 
 ## Maturity Plan
 
 We are currently working to mature the Pipeline authoring category from viable to complete. Definitions of these maturity levels can be found on GitLab's [Maturity page](/direction/maturity/). The following epics group the functionality we have planned to mature pipeline authoring.
 
-* [Pipeline Editor - Auto-complete](https://gitlab.com/groups/gitlab-org/-/epics/5246)
-* [Pipeline Editor - CI/CD templates experience](https://gitlab.com/groups/gitlab-org/-/epics/4858)
-* [Simulate pipeline creation](https://gitlab.com/groups/gitlab-org/-/epics/6498)
+* [CI/CD Public catalog](https://gitlab.com/groups/gitlab-org/-/epics/7462)
+* [Expose variables in GitLab CI](https://gitlab.com/groups/gitlab-org/-/epics/6262)
+* [Improve variables experience](https://gitlab.com/groups/gitlab-org/-/epics/8209)
 
 ## Competitive Landscape
 
@@ -92,7 +96,6 @@ Watch this walkthrough video of the different contribution frameworks available 
 
 Our top customer issues ([search](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=Category%3APipeline+Authoring&label_name%5B%5D=customer&scope=all&sort=popularity&state=opened&utf8=%E2%9C%93)) include the following:
 
-* [Make it possible to identify a new/empty branch](https://gitlab.com/gitlab-org/gitlab/-/issues/15170)
 * [Surface the used custom variables for manual jobs and allow to retry the job with updated variables](https://gitlab.com/gitlab-org/gitlab/-/issues/32712)
 * [Integrate GitLab with AWS CodePipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/19082) - Not in our roadmap
 

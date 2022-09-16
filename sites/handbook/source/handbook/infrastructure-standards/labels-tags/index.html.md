@@ -453,7 +453,7 @@ For GitLab SaaS and infrastructure cost allocation or attribution, the Engineeri
 | `eng-dev-configure`    | [Configure Stage](https://about.gitlab.com/handbook/product/categories/#configure-stage)         |
 | `eng-dev-monitor`      | [Monitor Stage](https://about.gitlab.com/handbook/product/categories/#monitor-stage)             |
 | `eng-dev-secure`       | [Secure Stage](https://about.gitlab.com/handbook/product/categories/#secure-stage)               |
-| `eng-dev-protect`      | [Protect Stage](https://about.gitlab.com/handbook/product/categories/#protect-stage)             |
+| `eng-dev-govern`       | [Govern Stage](https://about.gitlab.com/handbook/product/categories/#govern-stage)               |
 | `eng-dev-growth`       | [Growth Stage](https://about.gitlab.com/handbook/product/categories/#growth-stage)               |
 | `eng-dev-fulfillment`  | [Fulfillment Stage](https://about.gitlab.com/handbook/product/categories/#fulfillment-stage)     |
 | `eng-dev-enablement`   | [Enablement Stage](https://about.gitlab.com/handbook/product/categories/#enablement-stage)       |
@@ -499,7 +499,6 @@ The full list of groups was last audited and updated on 2021-07-22.
 | infra-shared-services | wg-infra-shared-services |                             | wg-infra-shared-services [^2]        | |
 | eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-shared-infra          | |
 | eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-access                | |
-| eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-compliance            | |
 | eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-import                | |
 | eng-dev         | eng-dev                  | eng-dev-manage                    | eng-dev-manage-optimize [^1]         | |
 | eng-dev         | eng-dev                  | eng-dev-plan                      | eng-dev-plan-shared-infra            | |
@@ -534,10 +533,11 @@ The full list of groups was last audited and updated on 2021-07-22.
 | eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-dynamic-analysis      | |
 | eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-composition-analysis  | |
 | eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-fuzz-testing          | |
-| eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-threat-insights       | |
 | eng-dev         | eng-dev                  | eng-dev-secure                    | eng-dev-secure-research              | |
-| eng-dev         | eng-dev                  | eng-dev-protect                   | eng-dev-protect-shared-infra         | |
-| eng-dev         | eng-dev                  | eng-dev-protect                   | eng-dev-protect-container-security   | |
+| eng-dev         | eng-dev                  | eng-dev-govern                    | eng-dev-govern-shared-infra          | |
+| eng-dev         | eng-dev                  | eng-dev-govern                    | eng-dev-govern-security-policies     | |
+| eng-dev         | eng-dev                  | eng-dev-govern                    | eng-dev-govern-threat-insights       | |
+| eng-dev         | eng-dev                  | eng-dev-govern                    | eng-dev-govern-compliance            | |
 | eng-dev         | eng-dev                  | eng-dev-modelops                  | eng-dev-modelops-shared-infra [^2]   | |
 | eng-dev         | eng-dev                  | eng-dev-modelops                  | eng-dev-modelops-applied-ml [^2]     | |
 | eng-dev         | eng-dev                  | eng-dev-modelops                  | eng-dev-modelops-ml-ops [^2]         | |
@@ -575,7 +575,7 @@ The full list of groups was last audited and updated on 2021-07-22.
 | eng-dev         | eng-quality              |                                   | eng-quality-ops-ci-cd                | |
 | eng-dev         | eng-quality              |                                   | eng-quality-secure-enablement        | |
 | eng-dev         | eng-quality              |                                   | eng-quality-productivity             | |
-| eng-dev         | eng-quality              |                                   | eng-quality-growth-protect           | |
+| eng-dev         | eng-quality              |                                   | eng-quality-growth-govern            | |
 | eng-security    | eng-security             |                                   | eng-security-shared-infra            | |
 | eng-security    | eng-security             |                                   | eng-security-shared-services         | |
 | eng-security    | eng-security             |                                   | eng-security-ops-infra               | |

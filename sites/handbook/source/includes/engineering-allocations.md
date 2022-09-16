@@ -18,9 +18,8 @@ During periods of Engineering Allocation, the PM remains the interface between t
 | Group/Stage | Description of Goal | Justification | Maximum % of headcount budget | People | Supporting information | EMs / DRI | PMs |
 | ------ | ------ | ------- | ------ | ------ | ------- |  ------ | ------ |
 | Manage:Workspace (BE)  | Scalability of GitLab hierarchy functionality (Workspace) | Reduce duplication of code and increase performance for Groups/Projects |  33% | 2 | [Consolidate Groups and Projects](https://gitlab.com/groups/gitlab-org/-/epics/6473) | @mksionek  | @lohrc |
-| Secure:Threat Insights | Bring error budget back to green | Work on backlog of reliability and security issues | 40% | 5 | [&5629](https://gitlab.com/groups/gitlab-org/-/epics/5629), [&4239](https://gitlab.com/groups/gitlab-org/-/epics/4239), [&2791](https://gitlab.com/groups/gitlab-org/-/epics/2791) | @thiagocsf | @matt_wilson |
-| Quality:Ops QE | Improve Staging environment | Improving reliability & availability is 3rd priority in [Prioritizing technical decisions](https://about.gitlab.com/handbook/engineering/development/principles/#prioritizing-technical-decisions) | 10% | 1 | [New staging epic](https://gitlab.com/groups/gitlab-org/-/epics/6401) | @vincywilson | TBD |
-| Quality:Enablement QE | Improve Staging environment | Improving reliability & availability is 3rd priority in [Prioritizing technical decisions](https://about.gitlab.com/handbook/engineering/development/principles/#prioritizing-technical-decisions) | 10% | 1 | [New staging epic](https://gitlab.com/groups/gitlab-org/-/epics/6401) | @vincywilson | TBD |
+| Govern:Threat Insights | Bring error budget back to green | Work on backlog of reliability and security issues | 40% | 5 | [&5629](https://gitlab.com/groups/gitlab-org/-/epics/5629), [&4239](https://gitlab.com/groups/gitlab-org/-/epics/4239), [&2791](https://gitlab.com/groups/gitlab-org/-/epics/2791) | @thiagocsf | @matt_wilson |
+| Antiabuse | Improve PVS | Avoid production outages | 33% as of Aug 19, 2022  | 1 fixed |  [PVS standup](https://docs.google.com/document/d/1JuFmXABNaUVaqKhohNiHIBdGCiwBywrJGgljJrdUdxs/edit#bookmark=id.f63rvtrdmfag) | @jayswain | @jstava |
 
 #### Broadcasting and communication of Engineering Allocation direction
 
@@ -57,7 +56,7 @@ One of the most frequent questions we get as part of this experiment is "How doe
 To help with getting items that on the list for consideration, we will be performing a survey periodically.  The survey will consist of the following questions:
 
 1. If you were given a % of engineering development per release to work on something, what would it be?
-1. How would you justify it?
+1. How would you justify it?  Have you tried leveraging [cross-functional prioritization process](/handbook/product/cross-functional-prioritization/) before considering an engineering allocation?
 
 We will keep the list of questions short to solicit the most input.  The survey will go out to members of the Development, Quality, Security.  After we get the results, we will consider items for potential adding as an Engineering Allocation.
 

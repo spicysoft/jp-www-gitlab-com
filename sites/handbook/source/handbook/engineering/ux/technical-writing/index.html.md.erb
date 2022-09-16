@@ -297,43 +297,87 @@ Schedule for Docs project maintenance tasks:
 - July, 2022: [Clayton Cornell]
 - August, 2022: [Russell Dickenson]
 - September, 2022: [Amy Qualls]
+- October, 2022: [Marcel Amirault]
+- November, 2022: [Phillip Wells]
+- December, 2022: [Ashraf Khamis]
 
 ## Reviews
 
 Technical Writers are assigned to review merge requests that contain documentation changes authored by GitLab team members and community contributors. The reviews are assigned by subject matter according to the [Technical Writer assignments](#assignments) to [stage groups](../../product/product-categories/#devops-stages) or other specialties.
 
-### Review principles
+### Levels of edit
 
-The following principles guide Technical Writers when conducting technical writing reviews:
+The Technical Writers edit the documentation based on the following levels of edit:
 
-- A technical writing review aims to confirm that the content:
-  - Is clear, grammatically correct, discoverable, navigable, and written with the perspective of the user (or other intended audience) in mind.
-  - Follows the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
-    and Pajamas Design System content guidance on:
-    - [Voice and tone](https://design.gitlab.com/content/voice-tone).
-    - [Terminology](https://design.gitlab.com/content/terminology).
-    - [Punctuation](https://design.gitlab.com/content/punctuation).
-  - Avoids redundancy, bad file locations, typos, and broken links.
-- While Technical Writers apply any subject-matter expertise they possess, a technical writing
-  review focuses on tone, style, and narrative flow.
-- A technical writing review confirms that an authoritative source has checked for technical accuracy.
-  The Technical Writer may serve as that authoritative source if they have the required knowledge or
-  can efficiently perform any necessary verification.
-- To align with the value of [minimal viable change](https://about.gitlab.com/handbook/values/#move-fast-by-shipping-the-minimal-viable-change),
-  the Technical Writer reviews the content of the **Changes** tab only.
-  Other content should be reviewed separately.
+**Light**
+
+- Ensure the pipeline passes and no obvious grammar, spelling, or punctuation errors exist.
+
+**Medium**
+
+- Ensure the pipeline passes and no grammar, spelling, or punctuation errors exist.
+- Ensure the content is clear, discoverable, navigable, and written with the user's perspective in mind.
+- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+
+**Heavy**
+
+- Ensure the pipeline passes and no grammar, spelling, or punctuation errors exist.
+- Ensure the content is clear, discoverable, navigable, and written with the user's perspective in mind.
+- Ensure the content meets the guidelines in the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+- Ensure the content conforms to the defined [topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
+- Ensure the content fits well into the larger documentation set and does not duplicate information in other areas.
+
+#### How the writers apply the levels of edit
+
+To balance quality, speed, and resource constraints, the technical writers apply different levels of edit to different documentation.
+
+These guidelines are meant to provide general guidance. They aren't set in stone, and they can be overridden on a case-by-case basis.
+
+These items receive a **light** edit:
+
+- In the GitLab repository:
+  - Blueprint documentation (everything in the `architecture/blueprints` directory)
+  - Contribution guidelines (everything in the `development` directory)
+- Documentation outside of the five main GitLab repositories (GitLab, Charts, Operator, Omnibus, and Runner)
+- Deprecations and removals
+- Merge requests authored by other technical writers, unless the MR is part of an OKR, or the author requests a more in-depth edit
+
+These items receive a **medium** edit:
+
+- Day-to-day product documentation requests:
+  - New feature work
+  - Improvements
+  - Bug fixes
+  - Community contributions
+- Release post items
+
+These items receive a **heavy** edit:
+
+- Topic type restructuring efforts (["CTRT"](https://docs.gitlab.com/ee/development/documentation/topic_types/))
+- OKR work
+
+In all cases, the Technical Writer confirms that an authoritative source has checked the documentation for technical accuracy.
+The Technical Writer can serve as that authoritative source if they have the required knowledge or
+can efficiently perform the necessary verification.
 
 ### Review workflow
 
 To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the writers use this workflow:
 
-- When a developer opens a merge request:
-  - If the MR contains only documentation, the writer reviews and merges.
-  - If the MR contains documentation and code, the writer reviews but does not merge. The MR is reviewed and merged by another developer.
-
 - When a writer opens a merge request, another writer must review and merge. Peer reviews are important to maintain quality and help the team build a common voice.
 
-When a developer opens a merge request, they are the DRI for the code in that MR. Writers should use caution if they work in a developer branch that contains code, and should get explicit approval before doing so. Pushing to a branch can cause hard-to-resolve merge conflicts, and content can be accidentally overwritten.
+- When anyone else (like a developer, community member, or Support team member) opens a merge request:
+  - If the MR contains documentation and code, the writer adds suggestions but does not merge. The MR is merged by another developer.
+
+  - If the MR contains documentation only:
+    - Writers can apply small suggestions, by using the **Apply suggestion** feature, before they merge.
+      Writers can fix things like missing punctuation, typos, and pipeline failures without additional review.
+    - Writers do not push larger changes (by using suggestions or commits) to the author's branch unless they have explicit approval in the MR to do so.
+      Pushing to a branch can cause hard-to-resolve merge conflicts, and content can be accidentally overwritten.
+    - In rare cases, a writer has agreement from their team to make commits directly to the author's branch.
+      In these cases, if the writer pushes changes other than minor typo fixes (by using suggestions or commits), the author
+      must review before the writer merges. This workflow gives the MR
+      author a chance to verify the changes and it helps ensure accuracy.
 
 #### Triaging automated group mentions
 

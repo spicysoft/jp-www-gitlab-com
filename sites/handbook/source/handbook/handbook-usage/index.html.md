@@ -151,7 +151,7 @@ In an all-remote, asynchronous organization, each team member should practice ha
 **Skills and behaviors of handbook first as a Team Member**:
 
 - Actively contributes to the handbook.
-- [Everything starts with a merge request](/handbook/communication/#everything-starts-with-a-merge-request)
+- [Start with a merge request](/handbook/communication/#start-with-a-merge-request)
 - Provides links information from the handbook when answering questions and if the information doesn't exist in the handbook, then the team member adds it.
 - Understands which information is internal-only, but puts all public information in the public handbook.
 
@@ -167,6 +167,8 @@ In an all-remote, asynchronous organization, each team member should practice ha
 #### Where can it be found?
 
 [Private Project](https://gitlab.com/gitlab-com-private/www-gitlab-com)
+
+__Note: If you don't have appropriate permission, you will get 404 error.__
 
 #### Why is there a staging handbook?
 

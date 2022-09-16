@@ -22,8 +22,8 @@ itself cannot be made completely public.
 Instead, consistent with our value of transparency but in line with our agreements regarding how we use data we have sourced, we provide information regarding the type of data we use to build the calculator and how that information helps us build as complete and accurate of a calculator as possible.
 
 Team members can access [the calculator](https://comp-calculator.gitlab.net/users/sign_in)
-at any time with their GitLab credentials. Applicants will be given credentials and
-will be able access the calculator themselves as well, during the application process. The information from the calculator should only be shared with those who have access (GitLab team members and candidates).
+at any time with their GitLab credentials. Applicants will be issued credentials and
+have access to the calculator during the interview process. The information from the calculator should only be shared with those who have access (GitLab team members and candidates).
 
 You can use the calculator to determine the overall Total Rewards Package Offered by GitLab (Cash + Equity + Benefits). Internal team members can also use the [following spreadsheet](https://docs.google.com/spreadsheets/d/1SJnsj-IOTDrAIhTki-oKaJPydiF6vlS1nMKcE88xax8/edit?usp=sharing) by making a copy and adding in your specific information to calculate the GitLab Total Rewards annual amount.
 
@@ -306,10 +306,9 @@ _Note: This table excludes Enterprise Sales, Commercial Sales, Channel Sales, an
 | 12    | VP               | Fellow                    |
 | 11    | Senior Director  | Senior Distinguished      |
 | 10    |	Director	       | Distinguished  <br> Senior Principal Product Manager           |
-| 9.5   | Manager, Product | Principal Product Manager |
-| 9	    | Senior Manager   | Principal <br> Senior Product Manager    |
-| 8	    | Manager          | Staff <br> Product Manager <br> Consultant |
-| 7			|                  | Senior	                   |
+| 9	    | Senior Manager <br> Group Manager, Product   | Principal <br> Principal Product Manager    |
+| 8	    | Manager          | Staff <br> Senior Product Manager <br> Consultant |
+| 7			|                  | Senior <br> Product Manager	                   |
 | 6			|                  | Intermediate              |
 | 5			|                  | Junior                    |
 | 4			|                  | Intern                    |

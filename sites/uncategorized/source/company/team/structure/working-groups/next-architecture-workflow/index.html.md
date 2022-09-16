@@ -104,7 +104,7 @@ and improving the success rate of working groups in their current form first.
 | Working Group Role                       | Person                          | Title                                    |
 |------------------------------------------|---------------------------------|------------------------------------------|
 | DRI                      | Marshall Cottrell | Principal, Strategy and Operations (Technical)            |
-| Executive Stakeholder    | Eric Johnson | Chief Technology Officer |
+| Executive Stakeholder    | Christopher Lefelhocz | VP of Development |
 | Member                   | Gerardo "Gerir" Lopez-Fernandez | Engineering Fellow, Infrastructure            |
 | Member                   | Joshua Lambert | Director of Product, Enablement |
 | Member                   | Sam Goldstein | Director of Engineering, Ops |
@@ -114,7 +114,6 @@ and improving the success rate of working groups in their current form first.
 | Member                   | Grzegorz Bizon | Principal Backend Engineer |
 | Member                   | Lucas Charles | Staff Backend Engineer, Sec::Static Analysis |
 | Member                   | João Pereira | Staff Backend Engineer, Package |
-| Member                   | Chad Woolley | Senior Engineer, Editor |
 | Member                   | Natalia Tepluhina | Staff Frontend Engineer, Plan |
 
 

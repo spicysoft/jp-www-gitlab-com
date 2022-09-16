@@ -34,12 +34,12 @@ If you've disabled this feature flag and like to maintain the existing behavior 
 
 |Title|Severity|
 |---|---|
+|[Maintainer can leak Packagist and other integration access tokens by changing integration URL](#maintainer-can-leak-packagist-and-other-integration-access-tokens-by-changing-integration-url)|high|
 |[Revoke access to confidential notes todos](#revoke-access-to-confidential-notes-todos)|medium|
 |[Pipeline subscriptions trigger new pipelines with the wrong author](#pipeline-subscriptions-trigger-new-pipelines-with-the-wrong-author)|medium|
 |[Ability to gain access to private project through an email invite by using other user's email address as an unverified secondary email](#ability-to-gain-access-to-private-project-through-an-email-invite-by-using-other-users-email-address-as-an-unverified-secondary-email)|medium|
 |[Import via git protocol allows to bypass checks on repository](#import-via-git-protocol-allows-to-bypass-checks-on-repository)|medium|
 |[Unauthenticated IP allowlist bypass when accessing job artifacts through GitLab Pages](#unauthenticated-ip-allowlist-bypass-when-accessing-job-artifacts-through-gitlab-pages)|medium|
-|[Maintainer can leak Packagist and other integration access tokens by changing integration URL](#maintainer-can-leak-packagist-and-other-integration-access-tokens-by-changing-integration-url)|medium|
 |[Unauthenticated access to victims Grafana datasources through path traversal](#unauthenticated-access-to-victims-grafana-datasources-through-path-traversal)|medium|
 |[Unauthorized users can filter issues by contact and organization](#unauthorized-users-can-filter-issues-by-contact-and-organization)|medium|
 |[Malicious Maintainer may change the visibility of project or a group](#malicious-maintainer-may-change-the-visibility-of-project-or-a-group)|medium|
@@ -50,6 +50,14 @@ If you've disabled this feature flag and like to maintain the existing behavior 
 |[Group Bot Users and Tokens not deleted after group deletion](#group-bot-users-and-tokens-not-deleted-after-group-deletion)|low|
 |[Email invited members can join projects even after the member lock has been enabled](#email-invited-members-can-join-projects-even-after-the-member-lock-has-been-enabled)|low|
 |[Datadog integration returns user emails](#datadog-integration-returns-user-emails)|low|
+
+## Maintainer can leak Packagist and other integration access tokens by changing integration URL
+
+<!-- https://gitlab.com/gitlab-org/security/gitlab/-/issues/703 -->
+
+An issue has been discovered in GitLab CE/EE affecting all versions starting from 12.6 before 15.0.5, all versions starting from 15.1 before 15.1.4, all versions starting from 15.2 before 15.2.1. A malicious maintainer could exfiltrate an integration's access token by modifying the integration URL such that authenticated requests are sent to an attacker controlled server. This is a high severity issue (`CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N`, 8.5). It is now mitigated in the latest release and is assigned [CVE-2022-2497](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2497).
+
+Thanks [joaxcar](https://hackerone.com/joaxcar) for reporting this vulnerability through our HackerOne bug bounty program.
 
 ## Revoke access to confidential notes todos
 
@@ -88,14 +96,6 @@ This vulnerability has been discovered internally by the GitLab team.
 <!-- https://gitlab.com/gitlab-org/security/gitlab/-/issues/722 -->
 
 An improper access control issue in GitLab EE affecting all versions starting from 12.0 before 15.0.5, all versions starting from 15.1 before 15.1.4, all versions starting from 15.2 before 15.2.1 allows an attacker to bypass IP allow-listing and download artifacts. This attack only bypasses IP allow-listing, proper permissions are still required. This is a medium severity issue (`CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N`, 5.9). It is now mitigated in the latest release and is assigned [CVE-2022-2501](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2501).
-
-Thanks [joaxcar](https://hackerone.com/joaxcar) for reporting this vulnerability through our HackerOne bug bounty program.
-
-## Maintainer can leak Packagist and other integration access tokens by changing integration URL
-
-<!-- https://gitlab.com/gitlab-org/security/gitlab/-/issues/703 -->
-
-An issue has been discovered in GitLab CE/EE affecting all versions starting from 12.6 before 15.0.5, all versions starting from 15.1 before 15.1.4, all versions starting from 15.2 before 15.2.1. A malicious maintainer could exfiltrate an integration's access token by modifying the integration URL such that authenticated requests are sent to an attacker controlled server. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N`, 5.5). It is now mitigated in the latest release and is assigned [CVE-2022-2497](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2497).
 
 Thanks [joaxcar](https://hackerone.com/joaxcar) for reporting this vulnerability through our HackerOne bug bounty program.
 

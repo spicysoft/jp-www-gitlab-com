@@ -1,0 +1,137 @@
+title: DevOps Tools Explained
+description: Here you can find all the information you need on DevOps tools, what they are, and how they can help you. Learn more!
+canonical_path: /topics/devops/devops-tools-explained/
+header_body: DevOps teams rely on tools and platforms that foster collaboration and communication, reduce security risk, and automate time-consuming manual tasks.
+file_name: devops-tools-explained
+parent_topic: devops
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+body: >-
+  ## What are DevOps tools
+  
+   [DevOps](/topics/devops/) aims to bridge the gap between application development and IT operations to allow organizations to create better software faster than ever before. DevOps tools and platforms provide a framework to empower teams to plan, build, deploy, monitor, and keep track of operations and feedback. Without these tools and platforms, organizations would have an increasingly difficult task managing software development lifecycles as the complexity and scale of the systems they’re developing increase. 
+   
+  [DevOps tools](/devops-tools/) are applications that help to streamline the process of developing software. Most DevOps tools focus on one or more of the following areas:-
+
+  
+  - Communication and collaboration
+
+  
+  - CI/deployment automation
+
+  
+  - Test automation
+
+  
+  - Version control
+
+  
+  - Container management
+
+  
+  - Monitoring
+
+  
+  - Configuration management
+
+  
+  - Artifact management
+  
+
+
+  ## Benefits of DevOps tools
+
+
+
+  As organizations turn ideas into software to fuel their businesses, they are increasingly relying on DevOps tools to make that happen. DevOps tools empower companies to more quickly, efficiently, and securely develop and deploy software products that engage with customers, promote the brand, and increase revenue.
+
+
+  Here are just a few of the ways DevOps tools can help teams drive real business benefits:-
+
+
+  - **Save time and resources** by [automating repetitive tasks](/solutions/delivery-automation/)
+
+
+  - **Minimize risks** by [integrating security and compliance into your software development lifecycle](/solutions/continuous-software-security-assurance/) 
+
+
+  - **Improve customer satisfaction** by [delivering safer, higher-quality software, faster](/solutions/faster-software-delivery/)
+
+
+
+  ## The DevOps toolchain tax: The drawback of a non-centralized toolchain
+
+
+  Because DevOps ties all parts of the software development lifecycle together, it may be tempting to cobble together various tools to speed up software delivery. But going this route comes at a price:- the time spent integrating and maintaining the toolchain instead of coding and delivering software.That’s the DevOps toolchain tax. 
+
+  
+  Executing development and production processes across multiple tools will ultimately slow down the delivery of products, impact communication, and reduce overall code quality. Setting up numerous integrations can be daunting and, more importantly, many of these are not just a one-time setup, as new projects require new component connections. [The solution to this problem](/topics/devops/use-devops-platform-to-avoid-devops-tax/) is a single end-to-end DevOps platform.
+
+
+  ## GitLab: The end-to-end DevOps Platform
+
+
+  [GitLab’s One DevOps Platform](/solutions/devops-platform/) gives IT teams a single application that covers the entire software lifecycle, giving everyone an overview of projects as they progress from planning to deployment, monitoring, and documentation. GitLab simplifies the entire toolchain, allowing your teams to work together as a unified, collaborative system while maintaining a high level of security.
+
+
+  ### Plan
+  
+  
+  Identifying the work to be done is the first step in the DevOps toolchain. This allows tasks to be prioritized and tracked. 
+
+
+  ### Build
+  
+
+  Enabling developers to easily create feature branches, review code, merge branches, and fix bugs allows for a smooth development cycle.
+
+
+  ### Continuous integration and deployment
+
+  Running automated tests each time code is checked in or merged ensures that bugs are detected early and fixed before they get to production.
+
+
+  ### Monitor 
+
+  Monitoring your application and production server performance, as well as managing incidents, is critical to the smooth operation of your software.
+
+
+  ### Operate
+
+  Ensuring the released system can scale automatically as needed is one of the ways to guarantee smooth system operations. 
+
+
+  ### Continuous feedback
+
+  Distilling and sharing information empowers organizations to develop accurate insights into how well the software is received and used.
+
+
+
+cta_banner:
+  - title: Take a deep dive into GitLab’s DevOps platform
+    body: GitLab Learn is organized into learning paths which cover different
+      subjects and are each a collection of relevant videos and self driven
+      demos. Let's get learning!
+    cta:
+      - text: Visit GitLab Learn
+        url: https://about.gitlab.com/learn/
+resources_title: Read more about DevOps
+resources:
+  - title: Understand shift left DevOps
+    url: https://about.gitlab.com/topics/ci-cd/shift-left-devops/
+    type: Articles
+  - title: How DevOps leads transformation (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthbAbiHjRVNz1WwxbhLfeXXs
+    type: Video
+  - title: Cloud-Native DevOps (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthb4FD4y1UyEzi2ktSeIzLxj
+    type: Video
+  - title: DevOps tips and tricks (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthZ_LGh4EpGJduNd2nFhN5fn
+    type: Video
+  - title: " How to simplify DevOps"
+    url: https://www.youtube.com/watch?v=TUwvgz-wsF4
+    type: Video
+suggested_content:
+  - url: /blog/2017/11/23/autoscale-ci-runners/
+  - url: /blog/2019/10/07/auto-devops-explained/
+  - url: /blog/2020/10/29/gitlab-hero-devops-platform/

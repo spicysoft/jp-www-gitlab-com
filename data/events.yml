@@ -1,3 +1,13 @@
+- topic: All Things Open 2022
+  type: Conference
+  date_starts: October 30, 2022
+  date_ends: November 2, 2022
+  description: GitLab is looking forward to connect with the All Things open attendees at Raleigh, NC.
+  location: Raleigh, NC
+  region: Inclusion & Diversity
+  social_tags:
+  event_url: https://2022.allthingsopen.org/
+
 - topic: GitLab Advanced CI/CD Virtual Workshop
   type: Webcast
   date_starts: October 25, 2022

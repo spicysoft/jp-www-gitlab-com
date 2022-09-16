@@ -104,6 +104,13 @@ GitLab offers benefits in relation to [obtaining visas and work permits](/handbo
 
 GitLab offers an Employee Assistance Program to all team members via [Modern Health](/handbook/total-rewards/benefits/modern-health).
 
+## Care Concierge Pilot Program
+In light of our [“Family First, Work Second”](/handbook/values/#family-and-friends-first-work-second) value, we’re looking to launch a new benefit in FY23 to assist team members with family care needs (child, adult and complex care). As part of this implementation, Total Rewards will run a Pilot Program starting in October 2022 and ending in December 2022 to test our platform of choice, [Helpr](https://www.helpr-app.com/parents). 
+
+Total Rewards will collaborate with the People Business Partners to select 10 team members to ensure that there is a diversity of particpants from different locations, with different care needs, so that we can adequately evaluate the success of the pilot program. Participants will be required to take a survey on their experience with the service. 
+
+If you are interested in participating in the Pilot Program or have any questions, please reach out to total-rewards@gitlab.com. Unfortunately, not all team members who request to particpate may be selected due to the limited space in the Pilot Program. 
+ 
 ## Incentives
 
 The following incentives are available for GitLab team members:
@@ -151,7 +158,7 @@ Examples of when someone may request a meal train (this list isn't exhaustive):
 
 ### Instructions for participating in a Meal Train
 
-1. All Meal Trains are posted by a Total Rewards Analyst in the #whats-happening-at-gitlab and #total-rewards slack channels. You can also check the [Total Rewards issue tracker](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues) where all Meal Trains will be designated as such. 
+1. All Meal Trains are posted by a Total Rewards Analyst in the #whats-happening-at-gitlab and #total-rewards slack channels. You can also check the [Total Rewards issue tracker](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues) where all Meal Trains will be designated as such.
 1. If there is a Meal Train occuring, please read through the entire issue. If you are interested in participating, please edit the issue and add your name to the date you would like to contribute to. There is also a field to add the meal you will be providing or the meal delivery service you intend to gift. More instructions for how to proceed as a team member will be located in the issue.
     * Please note, it is typically only possible to gift a gift card from within the same country. The Total Rewards team is researching possible ways to participate from a different country than the recipient, but until we have a solution, we don't advise participating in this from a different country and can not help facilitate this.
 1. Ensure you can follow through on the date you sign up for or please help coordinate a replacement as soon as you know you can no longer participate. 

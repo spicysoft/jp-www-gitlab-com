@@ -15,7 +15,7 @@ title: Value Stream Assessments
 
 When working with GitLab, many prospects and customers have software delivery performance improvement as a critical business outcome. Unfortunately, due to the inherent and increasing complexity in the software delivery process, an organization's software delivery value stream often consists of dozens, if not hundreds, of manual configuration touch points and handoffs. Usually, there is a lack of understanding and visibility into the current process, making it challenging to identify and measure software delivery improvements. Without understanding the current value stream, organizations risk slower progress in improving their software delivery performance.
 
-Where applicable, GitLab account teams should assist prospects and customers by providing a assessment of their value stream. The content on this page outlines the approaches, tools, and artifacts used to conduct a value stream assessment for our prospects and customers. By creating a better understanding of the current process by identifying bottlenecks and establishing a baseline measurement of software delivery performance, GitLab can ensure our prospects and customers can realize improvements more quickly and continuously.
+Where applicable, GitLab account teams should assist prospects and customers by providing an assessment of their value stream. The content on this page outlines the approaches, tools, and artifacts used to conduct a value stream assessment for our prospects and customers. By creating a better understanding of the current process by identifying bottlenecks and establishing a baseline measurement of software delivery performance, GitLab can ensure our prospects and customers can realize improvements more quickly and continuously.
 
 ## Process
 
@@ -206,23 +206,23 @@ The process which we will go through, at a high level, is as follows:
 
 ### Executive Briefing - Summarize the Findings
 
-The final meeting as part of the Value Stream Assessment process is the findings and next steps presentation (though it's called a executive presentation, it's expected to be a two-way discussion). The high level topics of this meeting are:
+The final meeting as part of the Value Stream Assessment process is the findings and next steps presentation (though it's called an executive presentation, it's expected to be a two-way discussion). The high level topics of this meeting are:
 
 1. Summary of planning outcomes; what process was to be mapped and what target goals were created
 1. Summary of the current state mapping (with VSM diagram)
 1. Summary of the proposed future state mapping (with VSM diagram)
 1. Highlight the key differences, expected process and business benefits
 1. Walkthrough of recommendations
-1. Walkthrough and gain agreement for the transformation plan
+1. Walkthrough and gain agreement for the transformation plan. The transformation plan should be built in conjunction with professional services to yield best results. Please read how to position professional services in an opportunity [here](https://about.gitlab.com/handbook/customer-success/solutions-architects/processes/#positioning-professional-services)
 1. Define next steps and suggest a review date
 
 Example template of the executive briefing can be found [here](https://docs.google.com/presentation/d/133mECaV2vfUQGIn03mixXSI6ENrc4T-R_vRwXBRManA/edit?usp=sharing). Please modify accordingly to suit your customer's need.
 
 It is recommended to review the executive briefing with your champion, key stakeholder before the final meeting to collect additional feedback. The goal is to then deliver it jointly to the broader team to gain agreement.
 
-## FAQs & Objections frequently heard from customers/prospects
+## FAQs from customers/prospects
 
-1. What's in it for the customer?
+1. What's in it for me - the customer?
 
     - Free, hands-on consultative analysis of their software delivery lifecycle, including their current state, future state, and areas of improvements.
     - Competitive analysis of where they are compared to their peers in the industry. This report contains the most recent benchmark values for the four DORA metrics    (widely regarded as good measures of DevOps performance) [State of Devops Report 2021](https://services.google.com/fh/files/misc/state-of-devops-2021.pdf).

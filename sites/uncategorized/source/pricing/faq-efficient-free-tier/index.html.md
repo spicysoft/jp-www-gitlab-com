@@ -27,6 +27,9 @@ A. We are introducing a storage limit of 5GB per top-level namespace to the [Git
 | Price                         | $0   | $19     | $99      |
 | Storage (in GB per namespace) | 5 GB | 50 GB   | 250 GB   |
 
+**Note:** A 10GB project storage limit for git repository and git LFS is currently active for all projects. Once the namespace storage limit is applicable, the project storage limits will be removed.
+{: .note}
+
 **Q. Which users are these changes applicable to?**  
 A. Storage limits are applicable to free and paid tier users of the GitLab SaaS offerings. Community programs - including GitLab for Open Source, Education and Startups users - will have the limits applicable for GitLab Ultimate. This change does not apply to self-managed users (both free and paid tier).
 Customers who are still on the Bronze subscription are not impacted by this change immediately, and the new limits on Premium / Ultimate will be applicable when they upgrade.
@@ -175,6 +178,9 @@ Watch this deep dive video on how you can manage your CI/CD Minutes usage.
   <iframe src="https://www.youtube.com/embed/GrO-8KtIpRA" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
+
+**Q. What exactly is a CI/CD minute and how is it calculated?**
+A. CI/CD minutes are calculated using a formula that includes the CI/CD job duration and an applied cost factor. Please refer to the [documentation](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#how-cicd-minute-usage-is-calculated) to learn more. 
 
 **Q. I am an active contributor to GitLab. Will the same limits be applicable to me as well?**  
 A. All free tier users receive 50,000 CI/CD minutes for running pipelines on public forks of public open source projects, like GitLab. Contributions to all other projects by free tier users are subject to the new limits.

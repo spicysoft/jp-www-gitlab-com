@@ -17,7 +17,7 @@ departments:
   - Package FE Team
   - Frontend
 projects:
-  gitlab: reviewer frontend
+  gitlab: trainee_maintainer frontend
   gitlab-ui: reviewer frontend
 specialty: "Package"
 expertise:

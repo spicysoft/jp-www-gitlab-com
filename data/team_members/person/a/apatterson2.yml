@@ -1,7 +1,9 @@
+---
 name: Andrew Patterson
-locality: 
+locality:
 country: Remote
-role: <a href="">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/#distribution">Senior
+  Distribution Engineer, Distribution:Build</a>
 reports_to: david-mountney
 picture: andrewpatterson.jpg
 pronouns:
@@ -10,8 +12,11 @@ twitter:
 linkedin:
 gitlab: apatterson2
 departments:
-  - Development
-specialty: "Enablement"
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Distribution Build BE Team
+specialty: Enablement
 expertise:
 story:
 

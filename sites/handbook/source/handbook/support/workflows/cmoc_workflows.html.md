@@ -18,6 +18,12 @@ To disambiguate this term on other pages, you may see the acronym ICMOC or see t
 
 Our Slack bot [Woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse) provides a command (`/incident post-statuspage`) to quickly spin up an incident on [Status.io](https://status.io). From there, the basics of how to update and close incidents in Status.io are covered by their [Incident Overview](https://kb.status.io/incidents/incident-overview/) documentation. This document covers how GitLab specifically uses Status.io to perform those tasks.
 
+### How to be added to the CMOC PagerDuty rotation
+
+To be added to the CMOC Rotation:
+  1. First, complete the [GitLab-com CMOC training module](https://gitlab.com/gitlab-com/support/support-training/-/issues/new).
+  2. After discussion and agreement with your manager, create a new [PagerDuty Issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues) requesting that you are added to the appropriate regional CMOC rotation. 
+
 ## Things to Know
 
 Before getting started, take note of the following sections or to get straight into the workflow start at [Incident Management](#incident-management).
@@ -463,9 +469,13 @@ If handover occurs during an active incident where the quick summary you'd provi
 ## CMOC Training Resources
 
 ### CMOC Shadow PagerDuty Schedule
-{:.no_toc}
+
+**NOTE:** When adding yourself to this rotation, be aware that adjusting the `Time Zone` field at the top of the page will adjust it for all users, not just yourself. Before you navigate away, please reset the timezone to UTC. 
 
 The [CMOC Shadow Schedule](https://gitlab.pagerduty.com/schedules#PQBZCSY) can be used by anyone who wishes to shadow the CMOC to learn before officially acting as CMOC. A soon-to-be-CMOC can create an [issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues/new#) in the pagerduty project to be added to a shadow schedule. Or, to shadow for a short span of days, they can click _Schedule an Override_, then click _Custom duration_ and then select the time zone and the start and end dates and times before clicking the _Create Override_ button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen. 
+
+> **Note About CMOC Shadowing**: When the CMOC shadow PagerDuty schedule is active the engineer will receive notifications and get paged the same way as when on the CMOC schedule. **Do not acknowledge or resolve any incidents when on the CMOC shadow schedule as this will stop any potential pages to the real CMOC!**
+
 
 ### CMOC Training Activities
 {:.no_toc}

@@ -1,6 +1,6 @@
 ---
 layout: handbook-page-toc
-title: "Gainsight Adoption Scoring"
+title: "Use Case Adoption Scoring"
 description: "An overview of Adoption Scoring, how it is calculated, and how TAMs can use the information with customers in their conversations."
 ---
 
@@ -12,7 +12,7 @@ description: "An overview of Adoption Scoring, how it is calculated, and how TAM
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 
-For an overview of how TAMs use Gainsight, please refer to the [Gainsight TAM Overview Page](/handbook/customer-success/tam/gainsight)
+For an overview of how TAMs use Gainsight, please refer to the [Gainsight TAM Overview Page](/handbook/customer-success/csm/gainsight)
 
 ## Adoption Scoring
 

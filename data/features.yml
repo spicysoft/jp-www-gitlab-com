@@ -2262,8 +2262,7 @@ features:
     pps_recent: 0
 
   - title : "Required Merge Request Approvals"
-    description: "Guarantee quality and standards of your code by mandating a set number of
-    necessary approvals and predefine a list of specific approvers."
+    description: "Guarantee quality and standards of your code by mandating a set number of necessary approvals and predefine a list of specific approvers."
     link_description: "Learn more about merge request approvals"
     link: https://docs.gitlab.com/ee/user/project/merge_requests/approvals/
     screenshot_url: 46-mr-approvals.png
@@ -3618,12 +3617,7 @@ features:
   # Create:Editor - Wiki: End ---------------------------------------------------
 
   - title : "Design Management"
-    description: "Design Management allows users to upload design assets (such as
-wireframes and mockups) to GitLab Issues and keep them stored in one single place,
-giving product designers, managers, and engineers a seamless way to collaborate on
-design proposals. They can be easily uploaded and are stored in versions. You can
-start a thread by clicking on the image on the exact location you would like the
-discussion to be focused on."
+    description: "Design Management allows users to upload design assets (such as wireframes and mockups) to GitLab Issues and keep them stored in one single place, giving product designers, managers, and engineers a seamless way to collaborate on design proposals. They can be easily uploaded and are stored in versions. You can start a thread by clicking on the image on the exact location you would like the discussion to be focused on."
     link_description: "Documentation"
     link: https://docs.gitlab.com/ee/user/project/issues/design_management.html
     feature_page: true
@@ -6086,7 +6080,7 @@ discussion to be focused on."
 
   - title : "GitLab Agent for Kubernetes"
     description: |
-      Manage the deployments and connection to your Kubernetes clusters in a secure and compliant way, driven by code.
+      Manage the deployments and connection to your Kubernetes clusters in a secure and compliant way, driven by code. The agent supports push and pull-based deployments and operational container scanning with fine-grained access controls.
     link_description: "Read more on the docs"
     link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
     category:
@@ -6111,7 +6105,7 @@ discussion to be focused on."
     description: |
       Restrict GitLab CI/CD deployment jobs using Kubernetes RBAC
     link_description: "Read more on the docs"
-    link: 'https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_tunnel.html#use-impersonation-to-restrict-project-and-group-access'
+    link: 'https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#restrict-project-and-group-access-by-using-impersonation'
     category:
         - kubernetes_management
     gitlab_core: false
@@ -6135,11 +6129,11 @@ discussion to be focused on."
     description: |
       Run GitOps-style deployments tightly integrated into GitLab
     link_description: "Read more on the docs"
-    link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
+    link: 'https://docs.gitlab.com/ee/user/clusters/agent/gitops.html'
     category:
         - kubernetes_management
-    gitlab_core: false
-    gitlab_starter: false
+    gitlab_core: true
+    gitlab_starter: true
     gitlab_premium: true
     gitlab_ultimate: true
     gitlab_ci: true
@@ -7052,24 +7046,6 @@ discussion to be focused on."
     pps_recent: 0
     pricing_theme: "Advanced security testing"
 
-  - title : "Project Dependency List"
-    description: |
-      Identify components included in your project by accessing the Dependency List
-      (also referred to as Bill of Materials or BOM)
-      ,which is often requested by Security and Compliance teams.
-    link: "https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#dependency-list"
-    category:
-      - dependency_scanning
-    gitlab_core: false
-    gitlab_starter: false
-    gitlab_premium: false
-    gitlab_ultimate: true
-    pricing_page: false
-    gitlab_com: true
-    pps_aggregate: 2
-    pps_recent: 0
-    pricing_theme: "Advanced security testing"
-
   - title : "Dependency Scanning"
     description: |
       Protect your application from vulnerabilities that affect dynamic dependencies by automatically detecting well-known security bugs in your included libraries.
@@ -7110,6 +7086,65 @@ discussion to be focused on."
     works_by_default:
       all: setup_required
       note: Ultimate only, needs to be enabled and possibly configured depending on project.
+
+  - title : "Container Scanning"
+    description: |
+      Run a security scan to ensure the Docker images for your application do not
+      have any known vulnerabilities in the environment where your code is shipped.
+    link_description: "Learn more about container scanning"
+    link: 'https://docs.gitlab.com/ee/user/application_security/container_scanning/'
+    screenshot_url: 56-container-scanning.png
+    category:
+        - container_scanning
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    pricing_page: true
+    gitlab_com: true
+    gitlab_ci: true
+    anchore: true
+#   blackduck: true
+    synopsys: true
+    snyk: true
+    ca_veracode: true
+    checkmarx: false
+    circle_ci: false
+    codefresh: false
+    hcl_appscan: false
+    microfocus_fortify: false
+    #prisma_cloud: true
+    sonarqube: false
+    sonatype_nexus_platform: true
+    travis_ci: false
+#    palo-alto: true
+    whitesource: true
+    rapid7: false
+    qualys: true
+    sysdig: true
+    github: false
+    gitlab_security: true
+    plutora: false
+#    semmle: false
+    pps_aggregate: 12
+    pps_recent: 0
+    pricing_theme: "Advanced security testing"
+
+  - title : "Automated solutions for Container Scanning vulnerabilities"
+    description: |
+      Download and apply a patch to fix vulnerabilities affecting your codebase.
+    link_description: "Learn more about automated solutions for vulnerabilities"
+    link: "https://docs.gitlab.com/ee/user/application_security/index.html#solutions-for-vulnerabilities-auto-remediation"
+    screenshot_url: auto-patch.png
+    category:
+      - container_scanning
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    gitlab_com: true
+    pps_aggregate: 4
+    pps_recent: 2
 
   - title : "Dynamic Application Security Testing"
     description: |
@@ -7219,7 +7254,11 @@ discussion to be focused on."
     pps_aggregate: 4
     pps_recent: 1
 
-# Secure - Threat Insights: Start ---------------------------------------------
+# END SECURE STAGE FEATURES
+
+# BEGIN GOVERN STAGE FEATURES
+
+# Govern - Threat Insights: Start ---------------------------------------------
 
   - title : "Vulnerability Management"
     description: |
@@ -7259,7 +7298,7 @@ discussion to be focused on."
     link_description: "Learn more about Standalone Vulnerability Objects"
     link: https://docs.gitlab.com/ee/user/application_security/#interacting-with-the-vulnerabilities
     screenshot_url: 'first_class_vulnerability.png'
-    solution: Secure
+    solution: Govern
     category:
       - vulnerability_management
     gitlab_core: false
@@ -7278,7 +7317,7 @@ discussion to be focused on."
     link_description: "Learn more about Vulnerability Reports"
     link: https://docs.gitlab.com/ee/user/application_security/vulnerability_report/
     screenshot_url: group_vulnerability_report_v14_2.png
-    solution: Secure
+    solution: Govern
     category:
       - vulnerability_management
     gitlab_core: false
@@ -7299,7 +7338,7 @@ discussion to be focused on."
     link_description: "Learn more about Security Dashboards"
     link: https://docs.gitlab.com/ee/user/application_security/security_dashboard/index.html
     screenshot_url: group_security_dashboard_v13_3.png
-    solution: Secure
+    solution: Govern
     category:
       - vulnerability_management
     gitlab_core: false
@@ -7321,7 +7360,7 @@ discussion to be focused on."
       record.
     link_description: "Learn more about creating Jira issues from vulnerabilities"
     link: https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#create-a-gitlab-issue-for-a-vulnerability
-    solution: Secure
+    solution: Govern
     category:
       - vulnerability_management
     gitlab_core: false
@@ -7341,7 +7380,7 @@ discussion to be focused on."
       All merge requests will show a helpful high level security scan summary of finding severities if there have been security scans run. This helps developers understand the risk of introduced vulnerabilities and helps users easily find secure job artifacts. Ultimate customers will continue to enjoy [Vulnerability Management features](https://docs.gitlab.com/ee/user/application_security/#security-scanning-tools) across [all our scan types](https://docs.gitlab.com/ee/user/application_security/#security-scanning-tools).
     link_description: "Read more about the Security Scan summary"
     link: https://about.gitlab.com/releases/2020/10/22/gitlab-13-5-released/#improved-merge-request-experience-for-security-scans
-    solution: Secure
+    solution: Govern
     category:
         - vulnerability_management
     gitlab_core: true
@@ -7361,7 +7400,7 @@ discussion to be focused on."
       match for the most relevant, targeted learning experience.
     link_description: "Read more about integrated security training"
     link: "https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#enable-security-training-for-vulnerabilities"
-    solution: Secure
+    solution: Govern
     category:
         - vulnerability_management
     gitlab_core: false
@@ -7373,20 +7412,16 @@ discussion to be focused on."
     pps_recent: 0
     pricing_theme: "Security risk mitigation"
 
-    # Secure - Threat Insights: End ---------------------------------------------
-
-# END SECURE STAGE FEATURES
-
-# BEGIN PROTECT STAGE FEATURES
+    # Govern - Threat Insights: End ---------------------------------------------
 
   - title : "Security Policies"
     description: |
       Allow security teams to manage and enforce security policies for GitLab projects and for Kubernetes clusters.
     link_description: "Learn more about security policy management"
     link: 'https://docs.gitlab.com/ee/user/application_security/policies'
-    solution: Protect
+    solution: Govern
     category:
-      - security_orchestration
+      - security_policy_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -7398,73 +7433,14 @@ discussion to be focused on."
     pps_recent: 1
     pricing_theme: "Security risk mitigation"
 
-  - title : "Container Scanning"
-    description: |
-      Run a security scan to ensure the Docker images for your application do not
-      have any known vulnerabilities in the environment where your code is shipped.
-    link_description: "Learn more about container scanning"
-    link: 'https://docs.gitlab.com/ee/user/application_security/container_scanning/'
-    screenshot_url: 56-container-scanning.png
-    category:
-        - container_scanning
-    gitlab_core: false
-    gitlab_starter: false
-    gitlab_premium: false
-    gitlab_ultimate: true
-    pricing_page: true
-    gitlab_com: true
-    gitlab_ci: true
-    anchore: true
-#   blackduck: true
-    synopsys: true
-    snyk: true
-    ca_veracode: true
-    checkmarx: false
-    circle_ci: false
-    codefresh: false
-    hcl_appscan: false
-    microfocus_fortify: false
-    #prisma_cloud: true
-    sonarqube: false
-    sonatype_nexus_platform: true
-    travis_ci: false
-#    palo-alto: true
-    whitesource: true
-    rapid7: false
-    qualys: true
-    sysdig: true
-    github: false
-    gitlab_security: true
-    plutora: false
-#    semmle: false
-    pps_aggregate: 12
-    pps_recent: 0
-    pricing_theme: "Advanced security testing"
-
-  - title : "Automated solutions for Container Scanning vulnerabilities"
-    description: |
-      Download and apply a patch to fix vulnerabilities affecting your codebase.
-    link_description: "Learn more about automated solutions for vulnerabilities"
-    link: "https://docs.gitlab.com/ee/user/application_security/index.html#solutions-for-vulnerabilities-auto-remediation"
-    screenshot_url: auto-patch.png
-    category:
-      - container_scanning
-    gitlab_core: false
-    gitlab_starter: false
-    gitlab_premium: false
-    gitlab_ultimate: true
-    gitlab_com: true
-    pps_aggregate: 4
-    pps_recent: 2
-
   - title : "Security Approvals"
     description: |
       Require approval from your security team before allowing developers to merge in code that introduces new vulnerabilities.
     link_description: "Read more about security approvals"
     link: https://docs.gitlab.com/ee/user/application_security/index.html#security-approvals-in-merge-requests
-    solution: Protect
+    solution: Govern
     category:
-        - security_orchestration
+        - security_policy_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -7474,7 +7450,25 @@ discussion to be focused on."
     pps_recent: 2
     pricing_theme: "Security risk mitigation"
 
-# END PROTECT STAGE FEATURES
+  - title : "Project Dependency List"
+    description: |
+      Identify components included in your project by accessing the Dependency List
+      (also referred to as Bill of Materials or BOM)
+      ,which is often requested by Security and Compliance teams.
+    link: "https://docs.gitlab.com/ee/user/application_security/dependency_list/"
+    category:
+      - dependency_management
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    pricing_page: false
+    gitlab_com: true
+    pps_aggregate: 2
+    pps_recent: 0
+    pricing_theme: "Advanced security testing"
+
+# END GOVERN STAGE FEATURES
 
   - title : "Browser Performance Testing"
     description: |
@@ -7942,6 +7936,21 @@ discussion to be focused on."
     pps_aggregate: 0
     pps_recent: 0
 
+  - title : "Create Markdown tables from JSON data"
+    description: "Use JSON data to generate sortable, filterable tables in Markdown."
+    link_description: "Learn more about tables in Markdown"
+    link: "https://docs.gitlab.com/ee/user/markdown.html#json"
+    category: 
+      - team_planning
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "Initialize README on project creation"
     description: "A repository can be initialized with an example README when creating a new project. If this option is checked, a project repository is initialized with a default master branch which can be cloned right away."
     link_description: "Learn more about Project creation"
@@ -8264,8 +8273,7 @@ discussion to be focused on."
     pps_recent: 0
 
   - title : "Interactive Web Terminals"
-    description: "Interactive web terminals allow you to connect to a running or completed Kubernetes,
-    Docker, or Shell runner job and manually run commands to better understand what's happening in the system."
+    description: "Interactive web terminals allow you to connect to a running or completed Kubernetes, Docker, or Shell runner job and manually run commands to better understand what's happening in the system."
     link_description: "Learn more about Interactive Web Terminals"
     link: "https://docs.gitlab.com/ee/ci/interactive_web_terminal/"
     screenshot_url: verify-webterm.png
@@ -11361,3 +11369,19 @@ discussion to be focused on."
     gitlab_premium: true
     gitlab_ultimate: true
     gitlab_com: true
+
+  - title : "Interactive onboarding for GitLab Pages"
+    description: |
+      Build your GitLab Pages configuration file without coding, directly in the GitLab UI.
+    link_description: "Use the Getting Started wizard to build and commit your `.gitlab-ci.yml` file from the GitLab UI."
+    solution: Create
+    category:
+      - pages
+      - pipeline_authoring
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    pps_aggregate: 0

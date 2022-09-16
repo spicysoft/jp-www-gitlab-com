@@ -20,6 +20,7 @@ UX should assist in driving the [product vision](/direction/) early in the proce
 * [Product Designer workflows](/handbook/engineering/ux/product-designer/)
 * [UX Researcher workflows](/handbook/engineering/ux/ux-research/)
 * [Technical Writing workflows](/handbook/engineering/ux/technical-writing/workflow/)
+* [Product Design Manager workflows](/handbook/engineering/ux/product-design/product-design-manager.html)
 
 ## UX team mission
 

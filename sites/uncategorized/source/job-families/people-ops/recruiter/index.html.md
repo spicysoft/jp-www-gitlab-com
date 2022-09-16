@@ -239,6 +239,34 @@ The Director, Recruiting is a [grade 10](/handbook/total-rewards/compensation/co
 * [New Hire Location Factor](https://about.gitlab.com/#new-hire-location-factor)
 * [Average Candidate ISAT](https://about.gitlab.com/#interviewee-satisfaction-isat)
 
+####  Senior Director, Talent Acquisition
+
+##### Job Grade
+The Senior Director, Talent Acquisition is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+##### Responsibilities
+* Partners with the VP, Talent & Engagement to align on overall plan for talent acquisition to ensure we maintain the high caliber of team members
+* Partner with Finance, Department Leaders and People Business Partners to deliver data-driven workforce planning processes to ensure the right people are in the right roles with a clear view of talent supply and demand
+* Champion the diversity efforts within GitLab to drive a diverse talent pool for our open roles
+* Provide leadership to the Global Talent Acquisition team by creating a culture of accountability with a focus on delivering measurable results
+* Continuous partnership with the VP, Talent & Engagement on the structure and capabilities required of the Talent Acquisition team
+* Drive an engaging team culture based on GItLab's core values
+* Consistently evaluate and evolve team structure to support growing business needs
+* Responsible for accurate and transparent hiring plans that are accessible in real time
+
+##### Requirements
+* Proven experience in high growth global environment building an overall Talent Acquisition strategy and team to hire at scale
+* Successfully driven globally distributed hiring
+* Excellent people management skills, enabling the Talent Acquisition team to reach their full potential
+* Led a high performing Global Talent Acquisition team
+* Strong attention to detail and ability to work well with changing information
+* Comfortable building a working knowledge of GitLab
+* Succinct communication skills with the ability to collaborate with cross functional team members
+* A team player who acts with a sense of urgency and adapts to a fast-paced and ever-changing environment
+* Resourceful and takes initiative to seek internal and external resources when problem solving
+* Have implemented talent acquisition tools while delivering internal OKRs
+
+
 ## Specialities
 
 Read more about what a [specialty](/handbook/hiring/vacancies/#definitions) is at GitLab here.
@@ -298,6 +326,29 @@ Read more about what a [specialty](/handbook/hiring/vacancies/#definitions) is a
 - Experience of influence and program build at the executive level, preferably in a global capacity within the software industry 
 - Proven success in leading and running an early career program at scale
 - Proficiencies with LinkedIn Talent Insights and talent mapping
+
+### Internal Mobility 
+
+#### Responsibilities
+- Partner closely with our Talent Acquisition Leadership Team, developing a proposition and execution plan for our Internal recruiting strategy.
+- Develop a working relationship and partnership with our Diversity, Inclusion and Belonging (DIB) team to ensure equitable internal hiring processes and policies
+- Work closely with the business teams to ensure that they have input on the strategy and use influence to ensure positive interaction and partnering with the internal recruiting program
+- Own the end to end internal recruiting experience for our internal team members
+- Develop and execute against an OKR focussing on experience
+- Develop a relationship with our counterparts in finance to build predictability into our internal hiring processes 
+- Use qualitative and quantitative data, with the ability to present data and influence decisions
+- Be able to keep developing our program with the view of it transitioning to have more influence on broader internal mobility programs
+- Work with the People Business Partner (PBP) teams and the L&D teams to innovate in this space
+
+#### Requirements
+- Experience of influence and program build and execution, preferably in a global capacity within the software industry 
+- Proven success in a recruiting role
+- Passionate about candidate experience and career development
+- Proficiencies with LinkedIn Talent Insights and talent mapping
+- Strong project management skills, with an eye for continuous improvement
+- Experience within the development tools or open source space is a plus
+- Experience with Workday is a plus
+- Remote working experience in a technology startup will be an added advantage
 
 ## Hiring Process
 

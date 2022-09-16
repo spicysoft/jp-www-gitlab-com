@@ -14,7 +14,6 @@ departments:
 - Ops Sub-department
 - Verify:Pipeline Execution Group
 - Verify:Pipeline Execution BE Team
-- Merge Request Coach
 projects:
   gitlab:
   - maintainer backend
@@ -25,6 +24,4 @@ story: |
 domain_expertise:
 - rails
 - cicd
-expertise: |
-  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
 specialty: Verify:Pipeline Execution

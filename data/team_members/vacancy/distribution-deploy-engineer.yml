@@ -1,0 +1,18 @@
+---
+name: New Vacancy
+placeholder: true
+locality: Anywhere
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#distribution">Distribution Engineer, Distribution:Deploy</a>
+reports_to: david-mountney
+picture: ../gitlab-logo-extra-whitespace.png
+twitter:
+gitlab:
+departments:
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Distribution Deploy BE Team
+expertise:
+story: |
+  Open Position

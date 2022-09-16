@@ -48,7 +48,7 @@ Ordered alphabetically to avoid the perception that any TMG is more important th
 | [GitLab Generational Understanding](/company/culture/inclusion/tmrg-gitlab-generational-understanding/) | [Wayne Haber](https://gitlab.com/whaber) |#generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | Eric Johnson
 | [Global Voices](/company/culture/inclusion/tmrg-global-voices) | [Eliran Mesika](https://gitlab.com/eliran.mesika) | #global-voices-tmrg | |  | 
 | [GitLab Latinx](/company/culture/inclusion/tmrg-gitlab-latinx/) | [Pilar Mejia](https://gitlab.com/pmejia) [Hugo Azevedo](https://gitlab.com/hugoazevedo) [Romer Gonzalez](https://gitlab.com/romerg) [Chris Cruz](https://gitlab.com/chriscruz) | #latinx | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/latinxtmrg) | [Latinx Agenda](https://docs.google.com/document/d/15I-Lp9BO1FgnSCxANPiTemrvbcSLppf_xp8I0vIUbPY/edit?usp=sharing) | Wendy Barnes |
-| Black @ GitLab | @aprilmarks @marcusbriancarter | TBC |  #minoritiesintech | TBC | TBC | David DeSanto |
+| Black @ GitLab | @aprilmarks @marcusbriancarter | #black-at-gitlab |  [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/black-tmrg) | [Black @ GitLab Agenda](https://docs.google.com/document/d/1G9Be3e3hjj3gexLmrmR1bqzaEErP-4BfDgJR4q_jUTw/edit#heading=h.vf9sdppkn4e0) | David DeSanto |
 | [GitLab Pride](https://about.gitlab.com/company/culture/inclusion/erg-gitlab-pride/) | [Alex Hanselka](https://gitlab.com/ahanselka) and [Helen Mason](https://gitlab.com/hmason) | #lgbtq | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/pride-tmrg) | [Pride Agenda](https://docs.google.com/document/d/11D-Izm5mbopEUCY036Qr0bHx6UePMyfkzhUfNDE-mnk/edit?usp=sharing) | Robin Schulman |
 | [GitLab Veterans](https://about.gitlab.com/company/culture/inclusion/tmrg-gitlab-veterans) | [Christopher Graham](https://gitlab.com/crgraham87), [Josh Zimmerman](https://gitlab.com/Josh_Zimmerman), and [John Mason](https://gitlab.com/john-mason) | #veterans | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/veterantmrg) | [Vets Agenda](https://docs.google.com/document/d/1fOCi5b74r34zukzH728VgIp_bgOzqj7FXWxneir6BlU/edit?usp=sharing) | Brian Robins |
 | [GitLab Women](/company/culture/inclusion/tmrg-gitlab-women/) | [Kyla Gradin Dahl](https://gitlab.com/kyla) [Samantha Lee](https://about.gitlab.com/company/team/#slee24) | #women | [Sign up for future meetings (google group)](https://groups.google.com/a/gitlab.com/g/womenstmrg) | [Women Agenda](https://docs.google.com/document/d/1bJ3Y8IVjnssPpRa3IUafdzC0wsJUU6rYCGf-YEiDHeg/edit) | Robin Schulman and Michael McBride |
@@ -69,6 +69,59 @@ An Executive Sponsor can be any leader at GitLab who is at VP level or above. Th
 - If an E-Group Member is not available for executive sponsorship, TMRG Leaders can identify a VP level team member to be their executive sponsor. This nomination by the TMRG must be approved by the E-Group in the E-Group weekly meeting. 
 - Alternatively, the TMRG can ask the DIB Team to identify a suitable Executive Sponsor. Upon which the DIB Team will ask the E-Group (Via the E-Group Weekly Meeting) for recommendations from their Direct Reports who are at VP level who could be suitable executive sponsors. 
 - The Chief of Staff to the CEO or the Chief People Officer will ensure that this is added to the agenda of the E-Group Weekly Meeting when the situation occurs. 
+
+### The Importance of Executive Sponsorship 
+
+#### Being a Diverse Business is important for business success 
+
+Being a diverse business has been shown to greatly benefit a business on multiple fronts, with Talent, Investors and Customers all wanting to see clear and meaningful impact. Here are some interesting insights from a number of reports: 
+
+The [McKinsey latest report Diversity Wins](https://www.mckinsey.com/featured-insights/diversity-and-inclusion/diversity-wins-how-inclusion-matters) provided some amazing insights into how diversity can enhance business performance had some interesting and exciting statistics:
+    * Top quartile on gender diversity meant a 25% likelihood of financial outperformance than the bottom quartile
+    * Top quartile on ethnic diversity meant a 36% likelihood of financial outperformance than the bottom quartile
+
+The [Deloitte 2021 Global Human Capital Trends: Special report](https://www2.deloitte.com/us/en/insights/focus/human-capital-trends.html)  also provided some great insights into how Diversity, Inclusion & Belonging is perceived by team members & outside talent. 
+    - Organizations embracing a diverse and inclusive culture have a 22% lower turnover rate and a 22% increase in employee productivity
+    - 93% of respondents agreed that belonging drives organisational performance 
+    - 55% of respondents felt that leadership only addressed racial injustice by writing or speaking about it, not by taking action
+
+In the [2021 Edelman Trust research](https://www.edelman.com/sites/g/files/aatuss191/files/2021-03/2021%20Edelman%20Trust%20Barometer.pdf) it shows that it may be very important to customers and investors to know where an organization stands on societal issues. 86% percent of global respondents expect CEOs to publicly speak out about societal challenges, which of course can extend to the wider E-Group. 
+
+[2021 Axios-Harris Poll 100](https://theharrispoll.com/partners/media/axios-harrispoll-100/), which ranks US organizations for their reputation in the marketplace, noted that organizations “with a clear point of view and that deliver not only great products but also an impact on society” ranked at the top of the list.
+
+**This shows that the impact on being an awesome Executive Sponsor can and will drive business outcomes!**
+
+#### Being an effective Executive Sponsor
+
+In the [A 2021 Great Place to Work survey](https://www.greatplacetowork.com/resources/blog/new-research-shows-leaders-are-missing-the-promise-and-problems-of-employee-resource-groups) they measured data around Executive Sponsorship and showed: 
+
+    * 100% of Executive Sponsors say company leadership encourages participation across ERGs. Only 52% of ERG leaders think that’s true.
+    * 78% of Executive Sponsors believe involvement in ERGs support career advancement, but only 40% of ERG leaders agree.
+    * 91% of Executive Sponsors feel a sense of belonging at work, but only 76% of ERG leaders say the same.
+
+We want to ensure our Executive Sponsors are the exception to this data. 
+    * We should ensure we are using TMRGs as a great proving ground for career advancement. 
+    * That as leaders of the business you are setting the standard for participation for the wider team. 
+    * That TMRG leaders feel valued and that they are at the height of belonging at GitLab. 
+
+**Tips and Advice on being a great Executive Sponsor**
+
+    * Be an excellent listener to TMRG leads and members 
+    * Don’t just acknowledge concerns, work to understand concerns
+    * Listen first, understand next and act/help later
+    * Advocate for the TMRGs needs at throughout GitLab 
+    * Share the TMRGs concerns with other executives 
+    * Work to advocate for the TMRGs mission to wider audiences 
+    * Actively evangelise new policies, programs and celebrations 
+    * Challenge the TMRG Leads to think creatively & big 
+        * TMRGs should start small and build momentum but when the time is right get the TMRG to think creatively and bigger. 
+        * Provide a sounding board and access to support to allow this to occur. 
+    * Become a mentor to TMRG Leads - this is a great opportunity to build our leaders of the future
+    * Ensure that the TMRG are aligning to DIB and Business Goals
+    * Provide key insights into GitLab
+    * Provide Feedback on Mission, Strategy and Goals
+    * Above all, create a Psychologically Safe space for leaders 
+
 
 ## Benefits of TMRGs
 In general, TMRGs are an excellent support system and key to providing awareness, respect, and building diversity, inclusion and belonging within the workplace. These groups are a proven way to increase cultural competency, retention of team members, provide marketplace insights to the business, attract diverse talent, and more.  The endorsement of TMRGs gives team members the opportunity to identify common interests, and decide how they can be shared with others.
@@ -149,7 +202,7 @@ A mission statement is the simplest and clearest way to explain the purpose of y
 
 As with all GitLab business, we want to dogfood our own product. As such, you should consider creating a GitLab project to manage discussions in issue and
 update the repo with mission statement, events, and the like. You should create the repo in the [`gitlab-com`](https://gitlab.com/gitlab-com) group. To see
-a project in action, you can check out the [GitLab Pride project](https://gitlab.com/gitlab-com/pride-erg).
+a project in action, you can check out the [GitLab Pride project](https://gitlab.com/gitlab-com/pride-tmrg).
 
 ### Create a Google group
 
@@ -255,7 +308,7 @@ A GitLab team member or team members who are responsible and accountable for str
 * Operational lead/leaders of the TMRG
 * Meets with the DIB team on a quarterly basis as a minimum
 * Responsible for submitting annual strategy using the [Annual Strategy Template](https://docs.google.com/presentation/d/1Zpz6z_0x3rbjYzUd6fSAojg8ME3FKfWPrI7cD4HmV48/edit?usp=sharing) 
-* Responsible for submitting a quarterly strategy using the [Quarterly Strategy issue template] () for the TMRG
+* Responsible for submitting a quarterly strategy using the [Quarterly Strategy issue template in the DIB project](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/new#) for the TMRG
 * Work with business leaders on the success of DIB and the TMRG at GitLab
 * Facilitate TMRG meetings both async and sync ensuring inclusivity across geographical regions
 * Serve as contact for any team, department, or other GitLab team member requesting partnership or education with the TMRG

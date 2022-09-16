@@ -1,6 +1,6 @@
 ---
 layout: handbook-page-toc
-title: "Security Awards Leaderboard  - FY23"
+title: "Security Awards Leaderboard"
 ---
 
 ### On this page
@@ -125,9 +125,9 @@ This page is [auto-generated and updated every Mondays](../security-awards-progr
 
 | Nominee | Rank | Points |
 | ------- | ----:| ------:|
-| [@ashmckenzie](https://gitlab.com/ashmckenzie) | 1 | 600 |
-| [@greg](https://gitlab.com/greg) | 2 | 500 |
-| [@godfat-gitlab](https://gitlab.com/godfat-gitlab) | 3 | 500 |
+| [@godfat-gitlab](https://gitlab.com/godfat-gitlab) | 1 | 800 |
+| [@ashmckenzie](https://gitlab.com/ashmckenzie) | 2 | 600 |
+| [@greg](https://gitlab.com/greg) | 3 | 500 |
 | [@jacobvosmaer-gitlab](https://gitlab.com/jacobvosmaer-gitlab) | 4 | 440 |
 | [@f_santos](https://gitlab.com/f_santos) | 5 | 300 |
 | [@skarbek](https://gitlab.com/skarbek) | 6 | 300 |
@@ -191,7 +191,9 @@ This page is [auto-generated and updated every Mondays](../security-awards-progr
 
 ### Engineering
 
-Category is empty
+| Nominee | Rank | Points |
+| ------- | ----:| ------:|
+| [@godfat-gitlab](https://gitlab.com/godfat-gitlab) | 1 | 300 |
 
 ### Non-Engineering
 

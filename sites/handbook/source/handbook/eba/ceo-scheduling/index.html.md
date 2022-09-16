@@ -35,7 +35,7 @@ All meetings on Sid's calendar should be scheduled and vetted by the EBA to the 
 
 ## Scheduling preferences for Sid Sijbrandij, Co-founder and CEO
 
-1. Meetings before 7:30am and after 6pm Pacific require Sid's approval before scheduling. Please reach out to him in slack to approve. If Sid agrees to a meeting at 7am or earlier, please schedule a block on his calendar on the previous day reminding him that he has a meeting before 7:30am PT the following day.
+1. Meetings before 7:30am and after 6pm Pacific require Sid's approval before scheduling. Please reach out to the EBA to the CEO with your rationale for an exception. If Sid agrees to a meeting at 7am or earlier, please schedule a block on his calendar on the previous day reminding him that he has a meeting before 7:30am PT the following day.
 1. Don't schedule over the Weekly E-group call unless approved by Sid
 1. When our CLO requests a meeting it will always override other meetings that are scheduled if urgent and important (unless there is a Board conflict)
 1. Mark the events listed in [Google Calendar section](/handbook/communication/#google-calendar) of the handbook as 'Private'
@@ -71,7 +71,7 @@ For all external parties meeting with CEO (both video call and in-person), the E
 ```
 GitLab is a very transparent company and materials that are normally confidential can be found online, please consider looking at the following Handbook links prior to your meeting with GitLab:
 
-Company strategy including planned going public date: https://about.gitlab.com/company/strategy/
+Company strategy: https://about.gitlab.com/company/strategy/
 Our Objectives and Key Results per quarter: https://about.gitlab.com/company/okrs/
 All team members and numbers per department: https://about.gitlab.com/company/team/
 Handbook with all our processes in: /handbook/
@@ -116,7 +116,7 @@ The initial content review for the CEO should be in bullet points only.
 Then the CEO can talk through the slides and a team member can capture the CEO's tone of voice as he talks through the talk.
 This helps ensure the talk track is in the CEO's voice.
 
-The Chief of Staff to the CEO is responsible for making sure that all of the CEO's Evangelism engagements are on our events page by updating the [events.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/events.yml) file.
+The Chief of Staff to the CEO is responsible for making sure that all of the CEO's Evangelism engagements are on our events page by updating the [events.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/events/index.yml) file.
 
 ### Pick Your Brain meetings
 

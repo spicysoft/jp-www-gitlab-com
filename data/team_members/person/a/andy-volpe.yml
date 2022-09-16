@@ -1,0 +1,43 @@
+---
+name: Andy Volpe
+locality:
+country: Remote
+role: <a href="/job-families/engineering/product-designer/#staff-product-designer">Staff
+  Product Designer</a>, Secure:Composition Analysis, Configure, Monitor, Secure, Govern
+reports_to: justinmandell
+picture: andyvolpe.png
+twitter: heyandyvolpe
+gitlab: andyvolpe
+departments:
+- Engineering Function
+- UX Department
+- Configure UX Team
+- Monitor UX Team
+- Secure UX Team
+- Govern UX Team
+projects:
+  design.gitlab.com: reviewer UX
+  gitlab: reviewer UX
+  gitlab-design: maintainer
+  gitlab-svgs: maintainer UX
+  gitlab-ui: reviewer UX
+expertise: '<li>Visual Design <a href="/company/team/structure/#expert">expert</a></li>
+
+  '
+story: 'Originally trained as in industrial designer, Andy has been designing interfaces
+  and experiences since the touchscreen revolution. His attention to detail allows
+  him to design effectively and efficiently with the ultimate goal of letting design
+  dissolve into behavior. Andy is a history nerd and random fact sponge who can be
+  found at most trivia nights. He also enjoys playing hockey, golfing, traveling the
+  world with his wife and aspires to get his pilot''s license one day.
+
+  '
+specialty:
+- 'Secure: Vulnerability Research'
+- " Secure: Threat Insights"
+- " Secure: Static Analysis"
+- " Secure: Fuzz Testing"
+- " Secure: Dynamic Analysis"
+- " Secure: Composition Analysis"
+- " Protect: Container Security"
+

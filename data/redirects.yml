@@ -34,6 +34,11 @@
   target: /handbook/people-group/general-onboarding/onboarding-processes/
   comp_op: '='
 - sources:
+  - /handbook/people-group/gender-pronouns/
+  - /handbook/people-group/gender-pronouns
+  target: /handbook/people-group/orientation-identity/
+  comp_op: '='  
+- sources:
   - /handbook/general-onboarding/mr-buddies/
   - /handbook/general-onboarding/mr-buddies
   target: /handbook/people-group/general-onboarding/mr-buddies/
@@ -527,8 +532,10 @@
     - /community/sweepstakes/2020-developer-survey/
   target: /community/sweepstakes/
   comp_op: '='
-- sources: /tam/
-  target: /services/technical-account-management/
+- sources:
+    - /tam/
+    - /services/technical-account-management/
+  target: /services/customer-success-management/
   comp_op: '='
 - sources: /team-pets/
   target: /company/team-pets/
@@ -617,7 +624,8 @@
     - /handbook/engineering/development/dev/plan-portfolio-management-be/
     - /handbook/engineering/development/dev/plan-product-planning-certify-be/
     - /handbook/engineering/development/dev/plan/plan-product-planning-certify-be/
-  target: /handbook/engineering/development/dev/plan/product-planning-certify/
+    - /handbook/engineering/development/dev/plan/product-planning-certify/
+  target: /handbook/engineering/development/dev/plan/product-planning/
   comp_op: '='
 - sources:
     - /handbook/engineering/dev-backend/plan/
@@ -2397,11 +2405,6 @@
   target: /releases/2018/12/22/gitlab-11-6-released/
   comp_op: '~'
 - sources:
-  - /handbook/customer-success/tam/gemstones/
-  - /handbook/customer-success/tam/gemstones
-  target: /handbook/customer-success/tam/
-  comp_op: '='
-- sources:
   - /job-families/sales/director-of-sales-and-customer-enablement/
   - /job-families/sales/director-of-sales-and-customer-enablement
   target: /job-families/sales/director-of-field-enablement/
@@ -2505,12 +2508,15 @@
   target: /handbook/engineering/development/analytics/product-intelligence/
   comp_op: '='
 - sources:
-    - /handbook/engineering/development/modelops/anti-abuse/
-    - /handbook/engineering/development/modelops/anti-abuse
-    - /handbook/engineering/development/modelops/insiderthreat/
-    - /handbook/engineering/development/modelops/insiderthreat
-  target: /handbook/engineering/development/sec/anti-abuse/
-  comp_op: '='
+    - /handbook/engineering/development/modelops/
+    - /handbook/engineering/development/modelops
+  target: /handbook/engineering/development/data-science/
+  comp_op: '~'
+- sources:
+    - /handbook/engineering/development/sec/anti-abuse/
+    - /handbook/engineering/development/sec/anti-abuse
+  target: /handbook/engineering/development/data-science/anti-abuse/
+  comp_op: '~'
 - sources:
     - /handbook/engineering/development/growth/conversion
     - /handbook/engineering/development/growth/conversion/
@@ -2562,6 +2568,11 @@
   - /handbook/communication/unconscious-bias
   - /handbook/communication/unconscious-bias/
   target: /company/culture/inclusion/unconscious-bias/
+  comp_op: '='
+- sources:
+  - /company/culture/inclusion/erg-gitlab-pride
+  - /company/culture/inclusion/erg-gitlab-pride/
+  target: /company/culture/inclusion/tmrg-gitlab-pride/
   comp_op: '='
 - sources:
   - /handbook/product/administration
@@ -3115,19 +3126,82 @@
   - /direction/defend
   - /direction/defend/
   - /direction/defend/index.html
+  - /direction/protect
+  - /direction/protect/
+  - /direction/protect/index.html
   - /direction/protect/container_network_security
   - /direction/protect/container_network_security/
   - /direction/protect/container_network_security/index.html
   - /direction/protect/container_host_security
   - /direction/protect/container_host_security/
   - /direction/protect/container_host_security/index.html
-  target: /direction/protect
+  target: /direction/govern
   comp_op: '='
 - sources:
-  - /direction/secure/container-scanning
-  - /direction/secure/container-scanning/
-  - /direction/secure/container-scanning/index.html
-  target: /direction/protect/container-scanning
+  - /direction/protect/container-scanning
+  - /direction/protect/container-scanning/
+  - /direction/protect/container-scanning/index.html
+  target: /direction/secure/composition-analysis/container-scanning
+  comp_op: '='
+- sources:
+  - /direction/protect/security_orchestration
+  - /direction/protect/security_orchestration/
+  - /direction/protect/security_orchestration/index.html
+  target: /direction/govern/security_policies/security_policy_management/
+  comp_op: '='
+- sources:
+  - /direction/secure/vulnerability_management
+  - /direction/secure/vulnerability_management/
+  - /direction/secure/vulnerability_management/index.html
+  target: /direction/govern/threat_insights/vulnerability_management
+  comp_op: '='
+- sources:
+    - /handbook/engineering/development/sec/secure/threat-insights
+    - /handbook/engineering/development/sec/secure/threat-insights/
+    - /handbook/engineering/development/sec/secure/threat-insights/index.html
+  target: /handbook/engineering/development/sec/govern/threat-insights
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/sec/protect/container-security
+    - /handbook/engineering/metrics/sec/protect/container-security/
+    - /handbook/engineering/metrics/sec/protect/container-security/index.html
+  target: /handbook/engineering/metrics/sec/govern/security-policies
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/sec/protect
+    - /handbook/engineering/metrics/sec/protect/
+    - /handbook/engineering/metrics/sec/protect/index.html
+  target: /handbook/engineering/metrics/sec/govern
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/sec/secure/threat-insights
+    - /handbook/engineering/metrics/sec/secure/threat-insights/
+    - /handbook/engineering/metrics/sec/secure/threat-insights/index.html
+  target: /handbook/engineering/metrics/sec/govern/threat-insights
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/dev/manage/compliance
+    - /handbook/engineering/metrics/dev/manage/compliance/
+    - /handbook/engineering/metrics/dev/manage/compliance/index.html
+  target: /handbook/engineering/metrics/sec/govern/compliance
+  comp_op: '='
+- sources:
+    - /handbook/engineering/ux/stage-group-ux-strategy/protect
+    - /handbook/engineering/ux/stage-group-ux-strategy/protect/
+    - /handbook/engineering/ux/stage-group-ux-strategy/protect/index.html
+  target: /handbook/engineering/ux/stage-group-ux-strategy/govern/
+  comp_op: '='
+- sources:
+    - /handbook/product/secure-and-protect-intern-program
+    - /handbook/product/secure-and-protect-intern-program/
+    - /handbook/product/secure-and-protect-intern-program.html
+  target: /handbook/product/secure-and-govern-intern-program.html
+  comp_op: '='
+- sources:
+  - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure
+  - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure/
+  - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure.html
+  target: /handbook/engineering/security/security-assurance/dedicated-compliance/POAM-Deviation-Request-Procedure.html
   comp_op: '='
 - sources:
     - /direction/growth 
@@ -3146,7 +3220,10 @@
   - /stages-devops-lifecycle/defend
   - /stages-devops-lifecycle/defend/
   - /stages-devops-lifecycle/defend/index.html
-  target: /stages-devops-lifecycle/protect
+  - /stages-devops-lifecycle/protect
+  - /stages-devops-lifecycle/protect/
+  - /stages-devops-lifecycle/protect/index.html
+  target: /stages-devops-lifecycle/govern
   comp_op: '='
 - sources:
   - /handbook/product/secure-and-defend-section-performance-indicators
@@ -3293,11 +3370,6 @@
   - /handbook/marketing/growth-marketing/content/editorial-team
   - /handbook/marketing/growth-marketing/content/editorial-team/
   target: /handbook/marketing/inbound-marketing/content/editorial-team/
-  comp_op: '='
-- sources:
-  - /direction/secure/composition-analysis/container-scanning
-  - /direction/secure/composition-analysis/container-scanning/
-  target: /direction/protect/container-scanning/
   comp_op: '='
 - sources:
   - /direction/product-analytics
@@ -3651,19 +3723,29 @@
 - sources:
     - /direction/manage/audit-events
     - /direction/manage/audit-events/
-  target: /direction/manage/compliance/audit-events/
-  comp_op: '='
-- sources:
+    - /direction/manage/compliance/audit-events
+    - /direction/manage/compliance/audit-events/
+    - /direction/manage/compliance/audit-events/index.html
     - /direction/manage/audit-reports
     - /direction/manage/audit-reports/
-  target: /direction/manage/compliance/audit-reports/
+    - /direction/manage/compliance/audit-reports
+    - /direction/manage/compliance/audit-reports/
+    - /direction/manage/compliance/audit-reports/index.html
+  target: /direction/govern/compliance/audit-events/
   comp_op: '='
 - sources:
     - /direction/manage/compliance-management
     - /direction/manage/compliance-management/
     - /direction/manage/compliance_frameworks/
     - /direction/manage/compliance_frameworks
-  target: /direction/manage/compliance/compliance-management/
+    - /direction/manage/compliance/compliance-management
+    - /direction/manage/compliance/compliance-management/
+    - /direction/manage/compliance/compliance-management/index.html
+  target: /direction/govern/compliance/compliance-management/
+  comp_op: '='
+- sources:
+    - /direction/manage/compliance/tactical-priorities.html
+  target: /direction/govern/compliance/tactical-priorities.html
   comp_op: '='
 - sources:
     - /handbook/legal/employee-privacy-policy
@@ -4082,7 +4164,16 @@
     - /handbook/product/i2p-demo/
     - /handbook/sales/vision-demo
     - /handbook/sales/vision-demo/
-  target: /learn/public/
+    - /learn/public
+    - /learn/public/
+    - /learn/use-case
+    - /learn/use-case/public
+  target: /learn/
+  comp_op: '='
+- sources:
+    - /learn/certifications
+    - /learn/certifications/
+  target: /learn/certifications/public/
   comp_op: '='
 - sources:
     - /job-families/marketing/director-of-sales-development
@@ -4308,8 +4399,10 @@
 - sources: /handbook/engineering/development/sec/secure/delineate-secure-protect.html
   target: /handbook/engineering/development/sec/delineate-sec.html
   comp_op: '='
-- sources: /handbook/engineering/development/protect/
-  target: /handbook/engineering/development/sec/protect/
+- sources:
+  - /handbook/engineering/development/protect/
+  - /handbook/engineering/development/sec/protect/
+  target: /handbook/engineering/development/sec/govern/
   comp_op: '~'
 - sources: /handbook/engineering/development/secure/
   target: /handbook/engineering/development/sec/secure/
@@ -4470,6 +4563,28 @@
   - /direction/memory/
   target: /direction/application_performance/
   comp_op: '~'
-
-
-
+- sources:
+  - /handbook/engineering/incubation/devops-for-mobile
+  - /handbook/engineering/incubation/devops-for-mobile/
+  - /handbook/engineering/incubation/devops-for-mobile/index.html
+  target: /handbook/engineering/incubation/mobile-devops/
+  comp_op: '='
+- sources:
+  - /handbook/marketing/readmes/dmurph
+  - /handbook/marketing/readmes/dmurph/
+  target: /handbook/ceo/chief-of-staff-team/readmes/dmurph/
+  comp_op: '='
+- sources:
+  - /handbook/marketing/readmes/jessicareeder
+  - /handbook/marketing/readmes/jessicareeder/
+  target: /handbook/ceo/chief-of-staff-team/readmes/jessicareeder/
+  comp_op: '='
+- sources:
+  - /handbook/mecc
+  - /handbook/mecc/
+  target: /handbook/teamops/
+  comp_op: '='
+- sources:
+  - /handbook/customer-success/tam/
+  target: /handbook/customer-success/csm/
+  comp_op: '~'

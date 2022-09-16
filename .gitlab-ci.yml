@@ -309,6 +309,9 @@ update-gitlab-project-releases-page:
         - sites/uncategorized/source/releases/posts/*-released.html.md
       allow_failure: true
   needs: []
+  variables:
+    GITLAB_FOSS_PROJECT_ID: 13083
+    GITLAB_EE_PROJECT_ID: 278964
   script:
     - bundle exec rake release:ee:update_project_releases_page
     - bundle exec rake release:foss:update_project_releases_page

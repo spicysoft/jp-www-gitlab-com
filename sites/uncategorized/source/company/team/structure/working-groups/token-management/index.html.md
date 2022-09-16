@@ -12,7 +12,7 @@ canonical_path: "/company/team/structure/working-groups/token-management/"
 {:toc}
 
 ## Attributes
- 
+
 | Property        | Value           |
 |-----------------|-----------------|
 | Date Created    | August 16, 2022   |
@@ -37,9 +37,19 @@ The Token Management Working Group will deliver:
 | Member         | Joaquin Fuentes   | Director Security Operations           |
 | Member         | Valentine Mairet   | SIRT Manager           |
 | Member         | Philippe Lafoucrière    | Security Architect           |
-| Member         | Andrew Kelly   |  AppSec Manager          |
+| Member         | Andrew Kelly    | AppSec Manager            |
 | Member         | Chris Moberly   | Red Team Manager          |
-                                         
+| Member         | Connor Gilbert  | Sr. Product Manager, Secure:Static Analysis |
+| Member         | Grzegorz Bizon  | Principal Engineer, Ops   |
+| Member         | Stan Hu         | Engineering Fellow        |
+| Member         | Michelle Gill   | Senior Engineering Manager, Manage |
+| Member         | Hannah Sutor    | Senior Product Manager, Manage:Auth |
+| Member         | Alex Hanselka   | Senior Site Reliability Engineer |
+| Member         | Dominic Couture | Staff Security Engineer, Application Security |
+| Member         | Thomas Woodham  | Senior Engineering Manager, Secure |
+| Member         | Amar Patel      | Engineering Manager, Secure:Static Analysis |
+| Member         | Zach Rice       | Senior Backend Engineer, Secure:Static Analysis |
+| Member         | Lucas Charles   | Staff Backend Engineer, Secure:Static Analysis |
 
 ## Direction
 TBD

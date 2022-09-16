@@ -18,6 +18,10 @@ The Customer Emergencies rotation is one of the rotations that make up [GitLab S
 
 ## Expectations for Support Engineers in the Customer Emergencies Rotation
 
+### How to be added to the Customer Emergencies PagerDuty rotation
+
+To be added to the Customer Emergency On Call Rotation, you should have first completed the [Customer Emergency On-Call training module](https://gitlab.com/gitlab-com/support/support-training/-/issues/new) and then after agreement with your manager, you should raise a new [Pager Duty Issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues) with the Support-Ops team requesting that you are added to the appropriate Pager Duty rotation. 
+
 ### Communicate
 
 When you get an alert, you should immediately start a Slack thread and take notes therein. Tag the Technical Account Manager (TAM) - "cc @user" is good enough - if the customer has one (steps [here](/handbook/support/workflows/support-sales-escalations.html#role-technical-account-manager-tam) for how to identify TAMs). This creates visibility around the situation and opens the door to let the team join in.
@@ -113,6 +117,30 @@ When the call has ended:
 1. Add all relevant internal-only information as an internal note on the ticket.
 1. Tag the next on-call engineer in the emergency's Slack thread.
 
+#### When the emergency is resolved
+
+As soon as the emergency is resolved, mark the emergency ticket as solved. Consider whether an emergency summary is necessary to add in an internal comment. Any follow up work should be in a separate ticket.
+
+- **Option 1: A related ticket already exists:**
+   1. Add an internal comment linking to the (closed) emergency ticket.
+   1. Add an internal comment in the emergency ticket, linking to this ticket as the follow up ticket.
+   1. Check that the priority of the ticket fits
+   1. Add a comment letting customer know that follow up work will continue in this ticket
+
+- **Option 2: There is no related ticket:**
+   1. Use a browser incognito window to create a new ticket via the [support portal](https://support.gitlab.com) (not via Zendesk itself). Use the customer email address in the "Your email address" field. Review the new ticket to ensure it is properly associated to the correct customer Organization.
+   1. Let customer know in the ticket description, that follow up work will continue in this ticket.
+   1. Add an internal comment linking to the (closed) emergency ticket.
+   1. Add an internal comment in the emergency ticket, linking to this ticket as the follow up ticket.
+   1. The new ticket will now be picked up by the round robin automation and assigned to an SGG, like any other ticket. Optionally, an engineer involved in the emergency can take ownership of the ticket instead.
+
+Why do follow up work in another ticket?      
+- Emergency tickets have specific ZenDesk settings that exclude them from the SGG views, which effectively makes them "invisible" to anyone other than the ticket assignee. The consequences are:
+   - If the assignee is on PTO, nobody will see customer responses.
+   - Collaboration on follow up work becomes unlikely.
+- Emergency tickets have a shorter internal NRT SLO to encourage us to respond very quickly.
+- Emergency tickets count differently in our statistics.
+
 ## What to do if you don't know what to do
 
 First, remember that your primary role is incident management. You are not expected to have all the answers personally and immediately.
@@ -159,7 +187,7 @@ The idea is to get them through the weekend so they can solve this with their TA
 
 A customer may be blocked because of a license expiring or neglecting to apply a renewal. If you're familiar with [L&R Workflows](/handbook/support/license-and-renewals/workflows/), you may solve the case completely by yourself. If you are not, you may:
 
-1. [Manually upgrade the namespace using the mechanizer](https://gitlab-com.gitlab.io/support/toolbox/forms_processor/LR/update_gitlab_plan.html)
+1. Use the mechanizer app from the ticket in the `Update GitLab Plan` option and making sure to add the existing subscription name.  
 1. Alert `#support_licensing-subscription` that you've done so and link to the ticket for follow-up.
 
 ## SaaS Emergencies

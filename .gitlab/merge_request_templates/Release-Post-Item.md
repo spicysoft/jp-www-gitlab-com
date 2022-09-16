@@ -18,7 +18,7 @@ Please be aware [deprecations follow a different process in a different project]
 ## Links
 
 - Feature Issue (required):
-- Pricing theme MR (required for primary features in Premium or Ultimate only): 
+- Pricing theme MR (required for primary features in Premium or Ultimate only):
 - Feature MR (optional):
 - Feature Flag Issue (optional):
 
@@ -70,7 +70,7 @@ Once all content is reviewed and complete, add the ~"Ready" label and set the En
   - Ensure that the YouTube link points to the `https://www.youtube-nocookie.com` domain as this will allow the video to render in the review app correctly.
   - Ensure videos and iframes added within the feature description are wrapped in `<figure class="video_container">` tags (for responsiveness).
   - [Clean up video captions](https://www.youtube.com/watch?v=uJnhnA1fELY); auto-generated captions often mangle technical terms.
-  - Ensure screenshots have realistic looking data. Avoid screenshots that say "test", "demo", "example".  
+  - Ensure screenshots have realistic looking data. Avoid screenshots that say "test", "demo", "example".
   - Remove any remaining instructions (comments).
 - [ ] Frontmatter:
   - Check feature availability frontmatter (`available_in:`) is correct: (Core, Premium, Ultimate). Make sure to set `gitlab_com: false` when the [feature isn't available](https://about.gitlab.com/handbook/marketing/blog/release-posts/#feature-availability) for GitLab.com users. Settings are also available for features only available for GitLab.com users.
@@ -91,7 +91,7 @@ This is required as part of the release post workflow. However, since review/ali
 <details>
 <summary>Expand for Details </summary>
 
-- [ ] In the bottom right corner of this screen, copy the name of the "Source branch" 
+- [ ] In the bottom right corner of this screen, copy the name of the "Source branch"
 - [ ] [Create a new branch](https://gitlab.com/gitlab-com/www-gitlab-com/-/branches/new)
 - [ ] Paste the name of this branch into the name and append it with "-pricing-theme"
 - [ ] Select this branch name as the source from the "Create from" field
@@ -129,12 +129,13 @@ Once **added as a Reviewer to this merge request**, the [technical writer design
 **Please only mark a section as completed once you performed all individual checks!** When your review is complete, please `approve` this MR and remove yourself from Reviewers.
 
 - [ ] Feature:
-  - If the feature is listed as `top` or `primary` (not `secondary`), as described in the [Handbook](https://about.gitlab.com/handbook/marketing/blog/release-posts/#features), review changes (as needed) to `features.yml`. Make sure it's associated with the appropriate stage and group.
+  - If the feature is listed as `top` or `primary` as described in the [Handbook](https://about.gitlab.com/handbook/marketing/blog/release-posts/#features), review changes (as needed) to [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/features.yml). Ensure the `category` field contains the relevant categories. Those categories can be referenced in [`categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/categories.yml).
+  - If the feature is listed as `secondary`, updating `features.yml` is optional.
 - [ ] Image:
-  - All `top` and `primary` features require an image (`png`, `jpg`, or `gif` format).
+  - All `top` and `primary` features require either an image (`png`, `jpg`, or `gif` format) or video as described in the [Handbook](https://about.gitlab.com/handbook/marketing/blog/release-posts/#videos-in-content-blocks).
   - Make sure the image (png, jpg, or gif) is [smaller than 150 KB](https://about.gitlab.com/handbook/marketing/blog/release-posts/#images), if included.
 - [ ] Video:
-  - Use the `/embed/` YouTube URL path and not `?watch=` parameter.
+  - Use the `/embed/` YouTube URL path and not the `?watch=` parameter.
   - Ensure the PM has [reviewed the captions](https://www.youtube.com/watch?v=uJnhnA1fELY) for clarity.
 - [ ] Title:
   - Length limit: 7 words (not including articles or prepositions).

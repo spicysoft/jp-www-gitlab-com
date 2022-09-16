@@ -39,9 +39,9 @@ The following can be used as a guide on what actions could need to be taken befo
 - Unassign / Reassign any open projects, issues or merge requests to other team members or your manager. Use the [Global Search](https://docs.google.com/spreadsheets/d/1kVpBWDgxEp3zLyurE5Q9zpeDrGjWcDB7wb11uBl89ZQ/edit#gid=0) function and search your gitlab handle. 
 - [Install JAMF](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/endpoint-management/#installing-jamf) to assist the IT OPs team (if not already done).
 - Schedule a meeting with one of the IT Ops team members (depending on your region) for 30-60 minutes before your scheduled offboarding **time**. 
-    - Marc DiSabatino - [appointment schedule](https://calendly.com/mdisabatino) - US time zone
-    - Jeff Ford - [appointment schedule](https://calendar.app.google/Qc1wwN94q6RqEyGL9) - US Time Zone
-    - Jenny Wong - [appointment schedule](https://calendar.app.google/HJoCYkbf4XnApqSU6) - Pacific Time Zone
+    - Jeff Ford - [appointment schedule](https://calendar.app.google/Qc1wwN94q6RqEyGL9) - AMER
+    - Alex Kruseic - [appointment schedule](https://calendar.app.google/xsTHAQWxHmT3tpr86) - AMER
+    - Jenny Wong - [appointment schedule](https://calendar.app.google/HJoCYkbf4XnApqSU6) - AMER
     - Paul Laurinavicius - [appointment schedule](https://calendly.com/plaurinavicius) - EMEA time zone
     - Ian Forde - [appointment schedule](https://calendar.app.google/T5Tu4M6UbDXPQ1kLA) - EMEA time zone
     - For APAC, please reach out to us in the #it_help Slack channel
@@ -84,7 +84,7 @@ Please create your final expense report to Expensify (for employees), OR, please
 
 #### How do I submit reimbursable expenses if I don’t have a GitLab access to Expensify?
 
-Finance provides an invoice template that can be emailed to your personal email. Return the completed form to `uspayroll@gitlab.com`
+Please follow the process as listed on the Expense Handbook [page](https://about.gitlab.com/handbook/finance/expenses/#expense-reimbursement-for-terminated-team-members). For any queries regarding final expenses, please send an email to `ap@gitlab.com`
 
 #### Other Reimbursements, Refunds or Repurchasements
 
@@ -114,6 +114,10 @@ More information can be found in the [Growth and Development](/handbook/total-re
 ### USA
 
 If you are a US-based team member, your benefits will cease on last day of the month of your departure. You are eligible for [Consolidated Omnibus Budget Reconciliation Act (“COBRA”)](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf), the COBRA administrator has been notified and will send out the paperwork to your home address on file. More information on timelines and contact information for our COBRA administrator can be found in the [COBRA section](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#cobra).  You may also be eligible under the Patient Protection and Affordable Care Act (“PPACA”) for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month. Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from the Compensation & Benefits team by emailing `total-rewards@ gitlab.com`. If you move, please email `people-connect@ gitlab.com` so that we can keep your address up to date in Workday.
+
+#### Where can I find my pay stubs?
+
+Former team members will retain access to ADP for three years after they leave so they can access pay stubs and W-2s. Former team members will need to access ADP portal directly since Okta has been deprovisioned. If you experience login issues, please send an e-mail to uspayroll@gitlab.com so the team can assist.
 
 #### How do I roll over my retirement account and funds?
 

@@ -10,7 +10,7 @@ canonical_path: "/direction/manage/user-profile/"
 
 | **Stage** | **Maturity** | **Content Last Reviewed** |
 | --- | --- | --- |
-| [Manage](/direction/manage/) | [Not Applicable](/direction/maturity/) | `2022-07-15` |
+| [Manage](/direction/manage/) | [Not Applicable](/direction/maturity/) | `2022-08-24` |
 
 ## Introduction and how you can help
 
@@ -37,4 +37,4 @@ As much about users in GitLab are application-specific, users are considered a n
 
 **Next:** Due to other priorities for the [Manage](https://about.gitlab.com/direction/manage/) stage, we are not planning to make significant investments to the User Profile category in the 3-4 next milestones. 
 
-We are planning improvements to user profiles in the mid-term to make them more personalized, such as [adding custom badges](https://gitlab.com/gitlab-org/gitlab/-/issues/17056). We are currently in the process of adding a community contribution that [adds the user ID to a profile page](https://gitlab.com/gitlab-org/gitlab/-/issues/367328) to help with tasks such as automation. 
+We are planning improvements to user profiles in the mid-term to make them more personalized, such as [adding custom badges](https://gitlab.com/gitlab-org/gitlab/-/issues/17056). If you want to contribute to improve the user profile page, you can add suggestions [in this epic](https://gitlab.com/groups/gitlab-org/-/epics/8488).

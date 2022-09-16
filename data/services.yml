@@ -93,7 +93,7 @@
   sku: GL-SEC-R
   class_size: Maximum 12 attendees. Order <a href ="https://about.gitlab.com/services/education/ILT-Seat-Add-On/">this seat add-on</a> to increase total seats per class.
   standard_sow: https://docs.google.com/document/d/1glYSjPuys_MMiLSi9_ePYCAoKkWyZmU4BCgNZpicu7c/edit?usp=sharing
-  stages: Secure, Protect
+  stages: Secure, Govern
 
 - id: training_sessions_pm
   name:     GitLab for Project Managers Training
@@ -655,4 +655,44 @@
   category: Consulting
   duration_desc: 8 hours per week expert services for 48 of 52 weeks
   price_desc: $115,200
-  target_audience: This is for Customers who know they need expert services guidance over the course of a year. 
+  target_audience: This is for Customers who know they need expert services guidance over the course of a year.
+- id: Implementation-Quickstart-HA
+  name: Implementation Quickstart HA
+  subtitle: Deploy a highly-available, secure GitLab system quickly
+  summary: Engage with the Professional Services Engineering team to deploy and configure a highly-available and secure GitLab system into one of your cloud accounts (AWS, GCP or Azure). We will use deployment automation to help ensure you can maintain software upgrades easily in the future. We will provide you knowledge transfer by providing over-the-shoulder instructions from which your team can learn.
+  whos-this-for: Customers who have more than 1,000 but less than 5,000 users and want to maximize Availability of their GitLab Self-Managed deployment. 
+  whats-included0: A discovery session to understand goals, constraints, and timeline. 
+  whats-included1: Design and deployment preparation using the GitLab Environment Toolkit (GET) installer. 
+  whats-included2: Infrastrucutre as code, Configuration Automation files and a running GitLab instance
+  sku: GL-IMPL-QS-HA
+  standard_sow: https://docs.google.com/document/d/1O_ZzuWzKwuHk04KMpOD4-TYWLXxI0LMPoSsKe4r5NZk/edit#
+  price: $32,500
+  short_desc: Deploy a GitLab 3K user reference architecture in your choice of one of the three major cloud providers.
+  description2: Design, Implement, and configure GitLab HA in AWS, GCP or Azure using Terraform and Ansible. 
+  desc_url: https://about.gitlab.com/services/implementation/implementation-quick-start-ha
+  level: 1 - Product
+  maturity: Viable
+  category: Consulting
+  duration_desc: Estimated to be 3 weeks total 
+  price_desc: $32,500
+  target_audience: Customers who have more than 1,000 users and/or a need for a Highly-Available GitLab instance deployed to one of the three major cloud providers.
+- id: Implementation-Quickstart
+  name: Implementation Quickstart
+  subtitle: Deploy an easy-to-maintain, secure GitLab instance quickly
+  summary: Engage with the Professional Services Engineering team to deploy a simple, easy-to-maintain and secure GitLab instance into one of your cloud accounts (AWS, GCP or Azure). We will use deployment automation to help ensure you can maintain software upgrades easily in the future. We will transfer knowledge by providing over-the-shoulder instructions from which your team can learn.  
+  whos-this-for: Customers who have less than 1,000 users and want to minimize the level of effort to maintain the GitLab deployment
+  whats-included0: A discovery session to understand goals, constraints, and timeline. 
+  whats-included1: Design and deployment preparation using the GitLab Environment Toolkit (GET) or the GitLab Omnibus installer. 
+  whats-included2: Infrastructure as code, Configuration Automation files (if using GET) and a running GitLab instance
+  sku: GL-IMPL-QS
+  standard_sow: https://docs.google.com/document/d/1oR5UP9rKiOgR85bbQ-6FSNJFtVcXkmi0DaOqKMFLCss/edit
+  price: $16,000
+  short_desc: Deploy a GitLab 1K user reference architecture in your choice of one of the three major cloud providers.  
+  description2: Design, Implement, and configure GitLab 1K Reference Architecture in AWS, GCP or Azure
+  desc_url: https://about.gitlab.com/services/implementation/implementation-quick-start
+  level: 1 - Product
+  maturity: Viable
+  category: Consulting
+  duration_desc: Estimated to be 1.5 weeks total 
+  price_desc: $16,000
+  target_audience: Customers who have less than 1,000 users and/or require an easy-to-maintain GitLab deployment

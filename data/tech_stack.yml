@@ -450,12 +450,12 @@
   subprocessor: true
   description: "[Amazon Web Services](https://aws.amazon.com/) is a cloud platform. The Dedicated organization supports customer environment provisioning and management for GitLab Dedicated. The organization management account is restricted to the Dedicated team managers and has limited access. This is used for billing and organization child account policy management. No resources are deployed in this account and team members cannot request access. Due to security reasons, the child AWS accounts for this organization are not listed in the tech stack."
   access_to: null
-  provisioner: "@marin"
-  deprovisioner: "@marin"
+  provisioner: "@marin @o-lluch"
+  deprovisioner: "@marin @o-lluch"
   group_owner: Dedicated Infrastructure
   group_owner_slack_channel: '#g_dedicated-team'
   business_owner: Marin Jankovski
-  technical_owner: Marin Jankovski
+  technical_owner: Marin Jankovski Oriol Lluch
   data_classification: Red
   integration_method: AWS IAM
   need_move_to_okta: false
@@ -618,7 +618,7 @@
   access_to: Community Relations for login (password currently in 1Password). Please
     note that the tool and the wider community contribution metrics are (by design)
     public.
-  provisioner: "@cbacharakis"
+  provisioner: "Open a single person access request to the 'Bitergia' 1Password vault, tag @cbacharakis and @gitlab-com/business-technology/team-member-enablement and add the IT::To do label"
   deprovisioner: "Deprovisioning through 1Password"
   group_owner: Community Relations
   group_owner_slack_channel: "#community-relations"
@@ -1380,12 +1380,12 @@
   subprocessor: false
   description: "[Docker Hub](https://hub.docker.com/) is a service for sharing container images with public, and an authentication system for Docker Desktop application."
   access_to: null
-  provisioner: '@marin; (Please add a label "infra::to do")'
-  deprovisioner: '@marin; (Please add a label "infra::to do")'
+  provisioner: '@marin @amyphillips; (Please add a label "infra::to do")'
+  deprovisioner: '@marin @amyphillips; (Please add a label "infra::to do")'
   group_owner: Infrastructure
   group_owner_slack_channel: '#infrastructure-lounge'
   business_owner: Marin Jankovski
-  technical_owner: Marin Jankovski
+  technical_owner: Marin Jankovski Amy Phillips
   data_classification: Green
   integration_method: null
   need_move_to_okta: null
@@ -3146,12 +3146,12 @@
   description: "Platypus is a custom built in-house integrations platform written with nestjs and node.js. It is a central
     hub where integrations APIs and automations can be run."
   access_to: Enterprise Applications Integrations
-  provisioner: '@dparker, @karuna16'
-  deprovisioner: '@dparker, @karuna16'
+  provisioner: '@karuna16'
+  deprovisioner: '@karuna16'
   group_owner: Enterprise Applications Integrations
   group_owner_slack_channel: '#bt-integrations'
   business_owner: Christopher Nelson
-  technical_owner: Daniel Parker
+  technical_owner: Karuna Singh
   data_classification: Orange
   integration_method: null
   need_move_to_okta: null
@@ -3573,11 +3573,11 @@
   subprocessor: false
   description: "[Postman](https://postman.com) is a tool which allows developers to test API requests during development as well as writing automated tests against APIs."
   access_to: Any engineers at Gitlab
-  provisioner: '@dparker'
-  deprovisioner: '@dparker'
-  group_owner_slack_channel: '#bt-integrations'
-  business_owner: Bryan Wise
-  technical_owner: Daniel Parker
+  provisioner: '@jeffersonmartin'
+  deprovisioner: '@jeffersonmartin'
+  group_owner_slack_channel: '#it_help'
+  business_owner: Jeff Martin
+  technical_owner: Jeff Martin
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -4521,15 +4521,14 @@
 - title: Tenable.IO
   team_member_baseline_entitlement: false
   subprocessor: false
-  description: "[Tenable.IO](https://www.tenable.com/products/tenable-io) is a vulnerability
-    management application."
+  description: "[Tenable.IO](https://www.tenable.com/products/tenable-io) is a vulnerability management application."
   access_to: SecurityOPS
-  provisioner: "@joe-dub, @pmartinsgl"
-  deprovisioner: null
+  provisioner: "@smanzuik, @jhebden, @skahn007"
+  deprovisioner: "@smanzuik, @jhebden, @skahn007"
   group_owner: Security
-  group_owner_slack_channel: "#security-team"
-  business_owner: Joe Dubail
-  technical_owner: Joe Dubail
+  group_owner_slack_channel: "#g_security_vulnmgmt"
+  business_owner: Steve Manzuik
+  technical_owner: Steve Manzuik
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -4539,7 +4538,7 @@
   processing_customer_data: null
   employee_or_customer_facing_app: Employee
   notes: null
-  saas: null
+  saas: true
   handbook_link: null
   google_group: null
 
@@ -4767,8 +4766,8 @@
   subprocessor: false
   description: "[UserTesting.com](https://www.UserTesting.com/) is an unmoderated usability testing service.  Product Designers and UX Researchers use UserTesting.com to conduct usability studies remotely when a moderater isn't required.  As a result, these studies can be conducted very quickly."
   access_to: Product Designers and UX Researchers
-  provisioner: '@asmolinski2'
-  deprovisioner: '@asmolinski2'
+  provisioner: '@laurenevans'
+  deprovisioner: '@j.mundy'
   group_owner: UX
   group_owner_slack_channel: '#ux'
   business_owner: Christie Lenneville
@@ -5061,12 +5060,12 @@
   subprocessor: false
   description: "Automation of enterprise application integrations and creation of slack automations, with possibly more use cases in the future."
   access_to: Enterprise Applications - Integrations Engineering + Access Requests for other teams
-  provisioner: "@dparker, @karuna16"
-  deprovisioner: "@dparker, @karuna16"
-  group_owner: Enterprise Applications
-  group_owner_slack_channel: '#bt-integrations'
+  provisioner: 'Leave "Assignee" blank, tag the group @gitlab-com/business-technology/team-member-enablement (copy and paste the group tag if it does not appear in the dropdown) in the comments and add the label IT::to do'
+  deprovisioner: null
+  group_owner: Enterprise Applications and IT Operations
+  group_owner_slack_channel: '#it_help'
   business_owner: Christopher Nelson
-  technical_owner: Daniel Parker
+  technical_owner: Jeff Martin, Karuna Singh
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null

@@ -16,6 +16,7 @@ departments:
 projects:
   gitlab:
   - reviewer backend
+  - trainee_maintainer backend
 domain_expertise:
 - rails
 - plan

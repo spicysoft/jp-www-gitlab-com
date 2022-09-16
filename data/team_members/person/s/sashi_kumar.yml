@@ -1,0 +1,36 @@
+---
+name: Sashi Kumar Kumaresan
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Govern:Security Policies</a>
+reports_to: maciejparuszewski
+picture: sashikumar.jpg
+pronouns: he/him
+pronunciation:
+twitter: sash1_k
+linkedin:
+gitlab: sashi_kumar
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Govern Sub-department
+- Govern backend capability
+- Govern:Security Policies BE Team
+domain_expertise:
+- govern
+- rails
+- kubernetes
+projects:
+  gitlab:
+  - reviewer backend
+  secure-container-scanning: maintainer backend
+specialty:
+- 'Protect: Container Security'
+expertise:
+story: |
+  Sashi loves contributing to open source and loves writing code in Ruby.
+  Outside of work, Sashi loves playing and watching football(soccer) games.
+  He is also a big coffee lover.
+

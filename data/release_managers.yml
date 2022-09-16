@@ -11,6 +11,8 @@
     - Ahmad Tolba
     - Graeme Gillies
   appsec:
+    - Kevin Morrison
+    - Rohit Shambhuni 
 
 - version: '15.6'
   date: November 22nd, 2022
@@ -20,6 +22,7 @@
     - Reuben Pereira
     - Graeme Gillies
   appsec:
+    - Greg Alfaro
 
 - version: '15.5'
   date: October 22nd, 2022
@@ -29,6 +32,8 @@
     - Amy Phillips
     - Graeme Gillies
   appsec:
+    - Dominic Couture
+    - Nikhil George
 
 - version: '15.4'
   date: September 22nd, 2022
@@ -38,6 +43,8 @@
     - Michele Bursi
     - Graeme Gillies
   appsec:
+    - Nick Malcolm
+    - Kevin Morrison
 
 - version: '15.3'
   date: August 22nd, 2022
@@ -47,7 +54,7 @@
     - Reuben Pereira
     - Graeme Gillies
   appsec:
-    - Vitor Meireles De Sousa
+    - Costel Maxim
     - Greg Alfaro
 
 - version: '15.2'

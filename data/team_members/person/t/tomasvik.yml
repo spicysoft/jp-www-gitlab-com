@@ -1,0 +1,36 @@
+---
+name: Tomas Vik
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/fullstack/">Senior Fullstack Engineer</a>,
+  Create:Editor
+reports_to: davidoregan
+picture: tomasvik.jpg
+twitter:
+gitlab: viktomas
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Frontend
+- Backend
+- Create:Editor Team
+projects:
+  gitlab: reviewer frontend
+  gitlab-vscode-extension: maintainer
+  gitlab-web-ide: maintainer
+domain_expertise:
+  - typescript
+  - vscode_extension_development
+story: 'I’m from a small mountain town in the north of the Czech Republic. I love software
+ design and enjoy the struggle of making it a good one. In my career, I’ve been
+ oscillating between backend and frontend, leadership and individual roles. I consider
+ myself a generalist and enjoy any puzzle that comes my way, be it a DB query optimization
+ or, more recently, styling a UI component.
+
+ When my work laptop is closed,  I read, <a href="https://blog.viktomas.com">write</a>, or
+ explore the outdoors and the mountains.
+ '
+specialty:
+- 'Create:Editor'
+

@@ -60,13 +60,13 @@ Steps to uplevel triaging process:
 |	                  | Business Insights and Analytics |	|	 `@Vikas Agrawal` |	`@Jay Zhang` |	`@Kelly Chen` |	`@charan karthikeyan` |	`@Jay Stemmer` |
 |	                  | GTM Data Fusion |	| `@Peter Empey` |	 | `@Michelle Cooper`	| 	`@Jean Peguero`	 |  |
 | `@R&DAnalyticsTriage` |	Product Data Insights | `@matthewpetersen`	|	 `@Carolyn Braza` | 	`@Dave Peterson` | 	`@Emma Neuberger` |	`@Nicole Galang` |	 `@Neil Raisinghani` |
-|	                  | R&D Data Fusion	|	| 	| `@Tim Poole`	| `@Chris Sharp` 	| `@snalamaru` | `@Miles Russell`	 |
+|	                  | R&D Data Fusion	|	| 	| `@Tim Poole`	| `@Chris Sharp` 	| `@snalamaru` (`@lisvinueza` back up) | `@Miles Russell`	 |
 | `@PeopleAnalyticsTriage` | People Analytics	|	|	|	|	| `@Adrian Pérez` | |	
 |	                  | G&A Data Fusion |	| `@Peter Empey` |	 	| | | |		
-| `@EngineeringAnalyticsTriage` |	Engineering Analytics |		|	 |		| |  `@lily` |	
+| `@EngineeringAnalyticsTriage` |	Engineering Analytics |		|	 | `@Raul Rendon` | |  `@lily` |	
 |	                  | Engineering Data Fusion |		| `@Peter Empey` 	| 	|		|     |     |
-| `@DataPlatformTriage` |	Data Platform | | `@vprakash`| `@Paul Armstrong` | `@Radovan Bacovic` |	`@Rigerta Demiri` | `@jstark` |
-| `@DataCollaborationTriage` | Data Collaboration |	`@Ken` |	`@Ken` |	`@Trang Nguyen` |	`@Trang Nguyen` 	| | |	
+| `@DataPlatformTriage` |	Data Platform | | `@vprakash` / `@csnehansh` (shadowing) | `@Paul Armstrong` | `@Radovan Bacovic` |	`@Rigerta Demiri` | `@jstark` |
+| `@DataCollaborationTriage` | Data Collaboration |	`@Ken` |	`@Ken` |	`@Ken` |	`@Ken` 	| | |	
 
 
 ### Enterprise Data Program Triage Instructions 

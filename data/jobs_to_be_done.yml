@@ -84,90 +84,6 @@
   source:
   group: Release
 
-- slug: release-orchestration-1
-  parent:
-  short_jtbd: Manage software releases
-  jtbd: When managing software releases, I want to optimize repeated tasks and workflows, so that I can make the business more efficient.
-  grade: "-"
-  confidence: Researched
-  source: "https://gitlab.com/gitlab-org/ux-research/-/issues/2016"
-  group: Release
-- slug: release-orchestration-2
-  parent: release-orchestration-1
-  short_jtbd: Manage release compliance
-  jtbd: When releasing code, I want to manage release artifacts, so I can deploy and audit them in a repeatable fashion.
-  grade: "-"
-  confidence: Researched
-  source:
-  group: Release
-- slug: release-orchestration-4
-  parent: release-orchestration-1
-  short_jtbd: Communicate release changes
-  jtbd: When my product is ready to be released, I want to make the documentation about it available, so I can educate the adopters on any changes.
-  grade: "-"
-  confidence: Researched
-  source:
-  group: Release
-
-##### Start Configure ######
-
-- slug: secrets-mgt-1
-  parent:
-  short_jtbd: HashiCorp Vault for secrets
-  jtbd: When I need to use a secret/token/password I want to use my HashiCorp Vault so I can leverage the tool I am already using for Secrets Management.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-2
-  parent: secrets-mgt-1
-  short_jtbd:
-  jtbd: When I need to use a secret/token/password for a pipeline I want to authenticate into HashiCorp Vault, pass the secret to the CI Job and execute the pipeline so I can leverage the tool I am already using for Secrets Management.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-3
-  parent:
-  short_jtbd: Securely manage secrets
-  jtbd: When I am deploying changes to environments outside of GitLab I want to easily authenticate and pass the appropriate secrets between GitLab and the environment without exposing the secret so I can deploy my changes to production quickly.
-  grade: "d"
-  confidence: Researched
-  source:
-  group: Configure
-- slug: secrets-mgt-4
-  parent: secrets-mgt-3
-  short_jtbd:
-  jtbd: When I am using secrets for pipelines I want to be able to access those secrets easily and from a single place so I can deploy my changes to production quickly.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-5
-  parent: secrets-mgt-3
-  short_jtbd:
-  jtbd:  When I am working with tokens or passwords I want to keep these secret and avoid revealing the values in an audit log or to other developers so I can maintain secrets management best pratices and avoid a breach of data.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-6
-  parent: secrets-mgt-3
-  short_jtbd:
-  jtbd: When I am enforcing compliance standards for passwords, tokens, and secrets I want to be able to set automated secret rotation so I can avoid disrupting developers workflows and being in breach of compliance.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-- slug: secrets-mgt-7
-  parent: secrets-mgt-3
-  short_jtbd:
-  jtbd: When I am accesing a system to deploy my change to an environment I want to be able to access the system without leaving my CLI to log in so I can deploy my changes to production quickly.
-  grade: "-"
-  confidence:
-  source:
-  group: Configure
-
 ##### Start Package ######
 
 - slug: package_jtbd_1
@@ -1435,8 +1351,6 @@
   source: https://gitlab.com/groups/gitlab-org/-/epics/4124
   group: Pipeline Authoring
 
-
-
 - slug: Pipeline-Authoring_1_a
   parent: Pipeline-Authoring_1
   short_jtbd: Author a pipeline
@@ -1492,8 +1406,6 @@
   source: https://gitlab.com/groups/gitlab-org/-/epics/6022
   group: Pipeline Authoring
 
-
-
 - slug: Pipeline-Authoring_3
   parent:
   short_jtbd: Configure variables for a specific development environment
@@ -1521,63 +1433,128 @@
   source: 
   group: Pipeline Authoring   
 
+- slug: Secrets-Management_1
+  parent:
+  short_jtbd: Integrate with existing secrets vaults
+  jtbd: When I need to use sensitive credentials, like passwords or tokens, I want to have a native integration with my secrets vault so I can continue using the tool I'm already using for secrets management.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_2
+  parent:
+  short_jtbd: Securely manage secrets
+  jtbd: When I am deploying changes to environments outside of GitLab I want to easily authenticate and pass the appropriate credentials between GitLab and the environment without exposing the credential so I can deploy my changes to production quickly and securely.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_2.1
+  parent: Secrets-Management_2
+  short_jtbd:
+  jtbd:  When I am working with tokens or passwords I want to keep those secret and avoid revealing the values in an audit log or to other developers so I can maintain secrets management best pratices and avoid a breach of data.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_2.2
+  parent: Secrets-Management_2
+  short_jtbd:
+  jtbd: When I am enforcing compliance standards for the handling of sensitive credentials I want to be able to set automated secret rotation so I can avoid disrupting developers workflows and being in breach of compliance.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_2.3
+  parent: Secrets-Management_2
+  short_jtbd:
+  jtbd: When I am enforcing compliance standards for the handling of secrets I want to be able to set the necessary access policies and permissions levels to ensure that only the authorized users and services have the necessary level of access to secrets.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_3
+  parent: 
+  short_jtbd: Easily access secrets
+  jtbd: When I am using secrets for pipelines I want to be able to access those secrets easily and from a single place so I can deploy my changes to production quickly.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+- slug: Secrets-Management_3.1
+  parent: Secrets-Management_3
+  short_jtbd:
+  jtbd: When I am accesing a system to deploy my change to an environment I want to be able to access the system without leaving my CLI to log in so I can deploy my changes to production quickly.
+  grade: "-"
+  confidence:
+  source:
+  group: Pipeline Authoring
+- slug: Secrets-Management_4
+  parent: 
+  short_jtbd: Demonstrate compliance
+  jtbd: When reporting on our security practices I want to have easy access to an audit of the secrets access and management activity in order to demonstrate security compliance. 
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.com/gitlab-org/ux-research/-/issues/1981
+  group: Pipeline Authoring
+
 ##### Start Secure and Protect ######
 
 - slug: secure-implementing-policies
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: Implementing security scanning policies
   grade: "-"
 - slug: secure-implementing-policies-a
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-policies
   micro_job: Defining what scans need to run where, and under which circumstances
   jtbd: When I am configuring a CI/CD security scan, I want to specify which assets need to be scanned and under which circumstances, So that I can ensure my assets are secure prior to or at their release.
   grade: "-"
 - slug: secure-implementing-policies-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-policies
   micro_job: Defining what scans need to run where, and under which circumstances
   jtbd: When I am configuring a security scan outside of CI/CD, I want to specify which assets need to be scanned and under which circumstances, So that I can ensure my assets are secure in production.
   grade: "-"
 - slug: secure-implementing-policies-c
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-policies
   micro_job: Defining what which types of vulnerabilities are relevant to my org
   jtbd: When I am configuring a security scan, I want to specify which types of vulnerabilities the scan should detect, So that we don't waste time sorting through irrelevant findings.
   grade: "-"
 - slug: secure-implementing-policies-d
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-policies
   micro_job: Enabling security tests
   jtbd: When I am either enabling or configuring a security scan, I want to run a demo scan, So that I can validate my configuration before it is implemented
   grade: "-"
 
 - slug: secure-implementing-controls
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: Implementing security controls in developer workflow
   grade: "-"
 - slug: secure-implementing-controls-a
-  group: Secure and Protect
+  group: Secure and Govern
   micro_job: Defining what vulnerabilities must be remediated before code can be integrated
   parent: secure-implementing-controls
   jtbd: When I am implementing security controls in my org, I want to define what vulnerabilities must be resolved prior to release, So I can prevent business-critical vulnerabilities from being introduced into production.
   grade: "-"
 - slug: secure-implementing-controls-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-implementing-controls
   micro_job: Defining who to alert and under which circumstances
   jtbd: When I am implementing security controls in my org, I want to specify who needs to review and approve changes to my assets, So that I can ensure that the changes to my assets maintain compliance with my org's policies
   grade: "-"
 
 - slug: secure-identifying-risk
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: Identifying risk in my org's assets
   grade: "-"
 - slug: secure-identifying-risk-a
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-identifying-risk
   micro_job: Identifying vulnerabilities in new code
   jtbd: When committing changes to my project, I want to know if I introduced any business-critical vulnerabilities, So that I can address them prior to sending my code for review.
@@ -1585,7 +1562,7 @@
   confidence: Tested
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-identifying-risk-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-identifying-risk
   micro_job: Identifying vulnerabilities in new code
   jtbd: When I am ready to release changes into production, I want to verify it is safe to release, So that I can release the changes responsibly.
@@ -1593,7 +1570,7 @@
   confidence: Tested
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-identifying-risk-c
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-identifying-risk
   micro_job: Identifying vulnerabilities in existing code
   jtbd: When I am assessing the security of my application in production, I want to know whether my app is currently vulnerable, So I can address detected business-critical vulnerabilities
@@ -1602,12 +1579,12 @@
   source: https://gitlab.com/gitlab-org/ux-research/-/issues/790
 
 - slug: secure-addressing-vulnerabilities
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: Addressing detected business-critical vulnerabilities
   grade: "b"
 - slug: secure-addressing-vulnerabilities-a
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Triaging vulnerabilities
   jtbd: When I am triaging vulns, I want to address business-critical risks, So I can ensure there is no unattended risk in my orgs assets.
@@ -1615,7 +1592,7 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Remediating or mitigating confirmed business-critical risk
   jtbd: When my code has been scanned, I want to resolve the confirmed business-critical vulnerabilities, So I can ensure my changes are compliant with my org's risk policies.
@@ -1623,7 +1600,7 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-c
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Exempting detected vulnerabilities from further actions
   jtbd: When I have proven a vulnerability to be either a FP or to be not business critical, I want to exempt it, So that it's clearer for me and my teammates what vulnerabilities we should be focusing on.
@@ -1631,7 +1608,7 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-d
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Orchestrating remediation
   jtbd: When I have proven a business-critical true positives, I want to initiate and support remediation efforts, So that I can ensure the vulnerability get remediated.
@@ -1639,7 +1616,7 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-e
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Determining the risk of the vulns found in my application
   jtbd: When I am Investigating a vulnerability, I want to determine it's risk level, So that I can take the next appropriate action.
@@ -1647,7 +1624,7 @@
   confidence: Tested
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-addressing-vulnerabilities-f
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-addressing-vulnerabilities
   micro_job: Verifying resolved business-critical vulnerabilities
   jtbd: When I am made aware a vulnerability has been resolved, I want to verify it has been remediated, So that I can ensure it no longer poses a risk.
@@ -1655,18 +1632,18 @@
   confidence: Researched
   source: https://dovetailapp.com/projects/acde4d0a-768a-4c64-82ce-83807b8676a5/readme
 - slug: secure-license-compliance
-  group: Secure and Protect
+  group: Secure and Govern
   parent:
   short_jtbd: License compliance
   grade: "-"
 - slug: secure-license-compliance-a
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-license-compliance
   micro_job: Applying license compliance policies (Little Job)
   jtbd: When I am creating a compliance framework for my organization to follow, I want to implement policies for software licenses, So I can ensure my org maintains compliance.
   grade: "-"
 - slug: secure-license-compliance-b
-  group: Secure and Protect
+  group: Secure and Govern
   parent: secure-license-compliance
   micro_job: Complying with my project's license compliance policies (Little Job)
   jtbd: When I am committing changes to my application, I want to be made aware if I am violating a policy, So I can ensure my changes maintain compliance with my org's policies.
@@ -1678,7 +1655,7 @@
   grade: "-"
   confidence: Researched
   source: "https://gitlab.com/gitlab-org/ux-research/-/issues/1083"
-  group: Secure and Protect
+  group: Secure and Govern
 - slug: secure-code-qual-a
   parent: secure-code-qual
   short_jtbd:
@@ -1694,7 +1671,7 @@
   grade: "-"
   confidence: Researched
   source: "https://gitlab.com/gitlab-org/ux-research/-/issues/1083"
-  group: Secure and Protect
+  group: Secure and Govern
 - slug: secure-code-qual-c
   parent: secure-code-qual
   short_jtbd:
@@ -1702,7 +1679,7 @@
   grade: "-"
   confidence: Researched
   source: 
-  group: Secure and Protect
+  group: Secure and Govern
 
 ##### Start Global Search ######
 
@@ -1931,3 +1908,14 @@
   confidence:
   source: https://gitlab.com/groups/gitlab-org/-/epics/7885
   group: 
+
+##### Start Fulfillment ######
+
+- slug: seat-management
+  parent:
+  short_jtbd: Remove seats from subscription
+  jtbd: As a group owner, I want to keep my seat usage up to date, so that I can keep my namespace compliant with my company's policies.
+  grade: "D"
+  confidence:
+  source:
+  group: Utilization

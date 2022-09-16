@@ -45,7 +45,7 @@ For a very specific set of [internal](/handbook/communication/confidentiality-le
   * [Handbook Roadmap](/handbook/about/roadmap/)
   * [Handbook Support](/handbook/about/support/)
   * [Handbook On-Call](/handbook/about/on-call/)
-* [Managing so Everyone Can Contribute (MECC)](/handbook/mecc)
+* [TeamOps](/handbook/teamops)
 * [CEO Readme](/handbook/ceo/)
   * [CEO Shadow Program](/handbook/ceo/shadow/)
   * [Cadence](/company/cadence/)
@@ -102,7 +102,7 @@ For a very specific set of [internal](/handbook/communication/confidentiality-le
     * [Fulfillment Sub-department](/handbook/engineering/development/fulfillment/)
     * [Growth Sub-department](/handbook/engineering/development/growth/)
     * [Ops Sub-department](/handbook/engineering/development/ops/)
-    * [Protect Sub-department](/handbook/engineering/development/protect/)
+    * [Govern Sub-department](/handbook/engineering/development/sec/govern/)
     * [Secure Sub-department](/handbook/engineering/development/sec/secure/)
   * [Incubation Engineering Department](/handbook/engineering/incubation/)
   * [Infrastructure Department](/handbook/engineering/infrastructure/)
@@ -164,7 +164,7 @@ For a very specific set of [internal](/handbook/communication/confidentiality-le
     * [Sales Strategy](/handbook/sales/field-operations/sales-strategy/)
     * [Sales Systems](/handbook/sales/field-operations/sales-systems/)
   * [Reporting](/handbook/business-ops/#reporting)
-  * [Customer Success Management](/handbook/customer-success/tam/)
+  * [Customer Success Management](/handbook/customer-success/csm/)
   * [Alliances](/handbook/alliances/)
 
 ## Finance

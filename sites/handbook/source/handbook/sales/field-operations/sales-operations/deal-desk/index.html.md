@@ -94,7 +94,7 @@ As of 2022-02-01, the Deal Desk team is structured as follows:
   - Deal Desk Analyst (APAC)
   - Deal Desk Analyst (EMEA)
   - Deal Desk Specialist (EMEA)
-  - OPEN REQ: Deal Desk Specialist (EMEA)
+  - Deal Desk Analyst (Alliances) (Open Req)
 
 ### Communicating with the Deal Desk Team
 
@@ -259,7 +259,7 @@ C.  Provide Quote, Account, and Subscription Term Details and click “Next.”
 | MSP Order Form                      | Managed Service Provider Transactions                                                                    |
 | Distributor Order Form              | Distributor Transactions                                                                                 |
 
-*   If there is a **signed MSA** between the customer and GitLab, the **“Existing GitLab Agreement Effective Date” field** should be populated with the date of the MSA’s signature. If "Existing Agreement Effective Date" is populated on the quote object, the Order form will automatically generate with Acceptance Language that References the existing agreement. If it **is not populated** the language will default to Standard terms. 
+*   If there is a **signed MSA** between the customer and GitLab, the **“MSA Effective Date” field** should be populated with the date of the MSA’s signature. If "MSA Effective Date" is populated on the quote object, the Order form will automatically generate with Acceptance Language that References the existing agreement. If it **is not populated** the language will default to Standard terms. 
 
 *   Add any preapproved legal language selections to the order form. Checking the box next ot the language selection will automatically generate an order form with pre approved legal language - no need for Deal Desk intervention. Selections are as follows: 
 
@@ -335,7 +335,7 @@ Add On Opportunity should be Closed-Won before submitting a Renewal opportunity 
         *   The "Resale Partner" field should be populated with the Partner Account of the Reseller transacting (please note a partner may have both a Customer and Partner Account Record, the Partner Account must be selected. Check the “Account Record Type” field on an account to identify whether it is Customer or Partner account.).
         *   **We cannot change route to market through an Amendment quote**. If the original order was sold Direct, all subsequent amendments must also be Direct. If it was initially sold through a Partner, all amendments must go through the same partner for the duration of the subscription. 
     *   If the customer or reseller is based in the EU, enter the “VAT ID” number. This is required to book the order.
-    *  If there is a **signed MSA** between the customer and GitLab, the **“Existing GitLab Agreement Effective Date” field** should be populated with the date of the MSA’s signature. If "Existing Agreement Effective Date" is populated on the quote object, the Order form will automatically generate with Acceptance Language that References the existing agreement. If it **is not populated** the language will default to Standard terms.
+    *  If there is a **signed MSA** between the customer and GitLab, the **“MSA Effective Date” field** should be populated with the date of the MSA’s signature. If "MSA Effective Date" is populated on the quote object, the Order form will automatically generate with Acceptance Language that References the existing agreement. If it **is not populated** the language will default to Standard terms.
 *   Under the **Edit Products and Charges** page, increase the existing license quantity to reach your total - i.e. enter the new total license count. This page will show all currently licensed products (marked “Original”), but the Order Form that generates will only show the added quantity and amount for the pro-rated period. 
 *   **To add users to the existing subscription at a different price or discount**, the new user licenses should be added as a separate product line. 
 *   **True-Ups:** NOTE: The true-up SKU does not add users to the license - it's simply a retroactive one time charge. If you are conducting a quarterly or semi annual true-up for a customer with our former percentage-based fee schedule, do not use the true-up SKU unless the true-up is in conjunction with their renewal and the customer will be renewing for less users. Instead, you should add users using an appropriately priced subscription product SKU. If you are quoting true-up users, click “Add Products” and wait for the next page to load. Then, click “Select” and choose “Add Add-On Products.” Select True-Up and click Next. Edit the quantity and effective price. Click “Submit.”
@@ -399,7 +399,7 @@ Important:
         *   If an "Invoice Owner" does not auto-populate in the drop down, this means that a Billing Account does not yet exist for the partner. Chatter `@Billing-ops` and the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created. 
         *   The "Resale Partner" field should be populated with the Partner Account of the Reseller transacting (please note a partner may have both a Customer and Partner Account Record, the Partner Account must be selected. Check the “Account Record Type” field on an account to identify whether it is Customer or Partner account.).
     *   If the customer or reseller is based in the EU, enter the **“VAT ID”** number. This is required to book the order.
-    *   If there is a **signed MSA** between the customer and GitLab, the **“Existing GitLab Agreement Effective Date”** field should be populated with the date of the MSA’s signature. In addition, select the **“EXISTING MSA” quote template.**
+    *   If there is a **signed MSA** between the customer and GitLab, the **“MSA Effective Date”** field should be populated with the date of the MSA’s signature.
     *   Note: Non-standard payment terms (Net 30 = standard) should be reflected on the quote object, and will require approval per the approval matrix.
 *   Click Next, to enter the Products and Charges page.
     *   Note: The product lines from the Initial Term are already listed and will be marked “Original.” You may add new products, update the quantity on the original license, or remove the existing license. 
@@ -602,21 +602,22 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 - Scoped/Custom Services must always be quoted on a standalone opportunity, separately from any subscription products SKUs. (i.e.; You may NOT sell a 12 month SaaS Ultimate SKU on the same quote/ opportunity as Scoped/Custom Services).
 - Create a New Business Opportunity and select “Professional Services Only” under “Opportunity Record Type.”
 - Create a new subscription quote under the Professional Services opportunity by following the steps above under “new Subscription Quote.” 
-  - **If the SOW contains purely Professional Services**, select the GitLab Service Package SKU. Update the price to reflect the total price on the SOW.
-  - **If the SOW contains purely Education Services**, select the Custom PS Education Services SKU. Update the price to reflect the total price on the SOW.
-  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity. Create one quote using the Custom PS Education Services SKU, and another quote using the GitLab Service Package SKU. On each quote, update the price of the applicable SKU to reflect the applicable price for each category from the SOW. Together, the totals of both quotes should add up to the total price on the SOW. 
+  - **If the SOW contains purely Professional Services**, select the "GitLab Service Package" SKU. Update the price to reflect the total price on the SOW.
+  - **If the SOW contains purely Education Services**, select the "Custom PS Education Services" SKU. Update the price to reflect the total price on the SOW.
+  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity. **Note, for this use case ONLY, a Professional Services Engagement Manager will create the quotes on behalf of the SAL/AE.** Create one quote using the GitLab Service Package SKU, and another quote using the Custom PS Education Services SKU. Do not include the individual Education SKU's; instead use this 'umbrella' SKU, and sum the total amount of Education. On each quote, update the price of the applicable SKU to reflect the applicable price for each category from the SOW. Together, the totals of both quotes should add up to the total price on the SOW. **Note: Once this second quote is added, it is likley to overwrite the "Professional Services Value" field against the opportunity. Please ensure that this field continues to reflect the sum of both quotes, in line with the overall SOW.**
     - To determine which portion of the SOW is for Professional Services vs. Education Services, note the following: Education and Services are split out on the SOW in separate sections. The Education portion would display standard SKU names such as "CI/CD Training" and "Admin Training" and will contain a total cost for the full Education portion. The Services portion would be custom, but would often denote "Time and Materials" or "PS Hours" and will contain a total cost for the full Services Portion.
 
 
-**Note:** You do not need to submit the quote for Custom services for approval. Approvals will be handled by the Engagement Manager via the scoping issue, and any discounts in rate should be handled separately via Chatter, as per the [Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y).  The SOW will be sent to the customer for signature, not the quote/order form.
+**Note: You do not need to submit the quote for Custom services for approval.** Approvals will be handled by the Engagement Manager via the scoping issue, and any discounts in rate should be handled separately via Chatter, as per the [Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y). The SAL/AE remains responsible for obtaining any approvals required. As well as discounts in price, this also includes increased payment terms. Once approved, the SOW will be sent to the customer for signature, not the quote/order form.
 - To gain support from the Professional Services team with a Custom SOW, initiate a scoping issue using the [Services Calculator](https://services-calculator.gitlab.io/) and work with a Professional Services [Engagement Manager](https://about.gitlab.com/handbook/customer-success/professional-services-engineering/engagement-mgmt/).
 
 ##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure:
 
-* Ensure that a supporting Quote object has been created with the amount matching the SOW amount
+* Ensure that a supporting Quote object has been created with the amount matching the SOW amount (as per above)
 * Please note that the following items must be attached to the opportunity before it can be Closed Won:
-    *   SOW signed by **both the customer and GitLab's PAO or CFO.**
+    *   SOW signed by **both the customer and GitLab's PAO or CFO**
     *   Cost Estimate (COGS) spreadsheet (Link provided by the PS team)
+    *   A supporting Purchase Order (PO), or email from the Customer stating that a PO is not required for invoicing
 
 
 

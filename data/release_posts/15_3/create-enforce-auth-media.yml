@@ -12,4 +12,4 @@ features:
     description: |
       Images attached to issues, merge requests, or comments did not require authentication to be viewed if you knew the direct URL of the attachment. In some cases, this wasn't enough security for compliance-minded organizations.
 
-      Authorization checks are now enabled by default for all newly created projects, and can be configured in the UI for existing projects to meet your organizational needs. Authentication checks may cause issues for email clients, which can't create a valid GitLab session to authenticate.
+      Authorization checks are now enabled by default for all projects, and can be configured in the UI or via the [projects API](https://docs.gitlab.com/ee/api/projects.html) to meet your organizational needs. Authentication checks may cause issues for email clients or other external services, which can't create a valid GitLab session to authenticate.

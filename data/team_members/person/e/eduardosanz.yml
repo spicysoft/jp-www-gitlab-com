@@ -2,9 +2,9 @@
 name: Eduardo Sanz-Garcia
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/frontend/senior">Senior Frontend
+role: <a href="/job-families/engineering/development/frontend/senior/">Senior Frontend
   Engineer</a>, Manage:Authentication and Authorization
-reports_to: michellegill
+reports_to: adil.farrukh
 picture: eduardosanz.jpg
 pronouns: he/his
 pronunciation:
@@ -12,7 +12,6 @@ twitter:
 linkedin: eduardo-web-developer
 gitlab: eduardosanz
 departments:
-- Development
 - Engineering Function
 - Development Department
 - Dev Section

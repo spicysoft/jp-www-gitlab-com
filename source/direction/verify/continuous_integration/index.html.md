@@ -111,6 +111,8 @@ Our top internal customer issues ([search results](https://gitlab.com/groups/git
 - [Fail the pipeline immediately if one of the jobs fail](https://gitlab.com/gitlab-org/gitlab/-/issues/23605)
 - [Add custom labels to CICD pipelines](https://gitlab.com/gitlab-org/gitlab/-/issues/26618)
 
+In discussing the second issue with customers we have learned that there are two use cases for this: 1.  Labeling before pipeline execution of things like long running integration tests and 2. Dynamic labeling based on results within the pipeline. We will consider both as we work towards the MVC and think about the pipeline searchexperience.
+
 Our top dogfooding issues ([search results](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Apipeline%20execution&label_name[]=Dogfooding)) are:
 
 - [Group level pipeline dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/11960)
@@ -118,11 +120,8 @@ Our top dogfooding issues ([search results](https://gitlab.com/groups/gitlab-org
 
 ## Top Vision Item(s)
 
-Looking to the future, we have plans to help you better monitor and understand your pipeline [epic#4794](https://gitlab.com/groups/gitlab-org/-/epics/4794). Having details about pipeline activities (such as job duration) will allow you to see and react to what's happening while your pipeline is running. Beyond using data simply for reactive purposes, we have plans for a customizable UI for historical pipeline analytics so you can see the trends that will guide your planning and decision-making. The team is running an experiment and [gathering feedback](https://gitlab.com/gitlab-org/gitlab/-/issues/365902) about the Performance Insights screen through the 15.4 Milestone (September 22nd, 2022).
+Looking to the future, we have plans to help you better monitor and understand your pipeline [epic#4794](https://gitlab.com/groups/gitlab-org/-/epics/4794). Having details about pipeline activities (such as job duration) will allow you to see and react to what's happening while your pipeline is running. Beyond using data simply for reactive purposes, we have plans for a customizable UI for historical pipeline analytics so you can see the trends that will guide your planning and decision-making. 
 
-<figure class="video_container">
-  <iframe src="https://youtu.be/2NbR2FFxjvM" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
 
 We'd love to create a holistic approach to automatically merging when pipelines succeed via [gitlab#8128](https://gitlab.com/gitlab-org/gitlab/-/issues/8128), which offers great collaboration between [Code Review](/direction/create/code_review/) and Continuous Integration. 
 

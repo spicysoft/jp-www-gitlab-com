@@ -27,9 +27,10 @@ There are additional ideas within the [Real-time collaboration Epic](https://git
 
 | | Date | Topic | Description | Video |
 |---|:----------:|-----------------------------------|-----|-----|
+| 8 | 2022-09-16 | Change of plans | Awareness feature not to ship to current issue sidebar and y-rb multi-platform releases. | https://www.youtube.com/watch?v=x47YnULTiro |
 | 7 | 2022-08-18 | Ruby+Rust | Awareness feature about to ship, and a little intro to how Ruby+Rust bindings work. | https://www.youtube.com/watch?v=ng20jSo2TIs |
 | 6 | 2022-08-05 | Progress & Roadmap | Progress on the work to ship the Awareness widget, and an outlook for what is coming next. | https://www.youtube.com/watch?v=ZSdpj_YxsCE |
-| 5 | 2022-07-22 | JBDT and Progress Update | JBDT (Jobs to be done) and Iteration on the Awareness UI | https://www.youtube.com/watch?v=S0s-s45zVv8&list=PL05JrBw4t0KpPmRsaVaDOoWyIp1iKacZo&index=2 |
+| 5 | 2022-07-22 | JTBD and Progress Update | JTBD (Jobs to be done) and Iteration on the Awareness UI | https://www.youtube.com/watch?v=S0s-s45zVv8&list=PL05JrBw4t0KpPmRsaVaDOoWyIp1iKacZo&index=2 |
 | 4 | 2022-07-06 | Awareness UI/UX and a CRDT database | Where and how to add the presence indicators on the issue page. A database for CRDTs is usually not necessary, but can become interesting for cases where we need a simple way to fetch the initial document state. | https://www.youtube.com/watch?v=B094U_DvL-s&list=PL05JrBw4t0KpPmRsaVaDOoWyIp1iKacZo&index=3 |
 | 3 | 2022-06-22 | The Awareness feature | Technical challenges on rolling out real-time features at scale. Memory and resource concerns and how to mitigate them. | https://www.youtube.com/watch?v=ZPH9tvcPDfc&list=PL05JrBw4t0KpPmRsaVaDOoWyIp1iKacZo&index=4 |
 | 2 | 2022-06-09 | Tech design & terminology | A proposal for real-time collboration at GitLab. The presented tech design aims to be a comprehensive guide and peer-reviewed document | https://www.youtube.com/watch?v=crzCYkMk5XQ&list=PL05JrBw4t0KpPmRsaVaDOoWyIp1iKacZo&index=5 |

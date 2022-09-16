@@ -14,7 +14,7 @@ description: "The Learning & Development team is rolling out learning programs t
 
 The Learning & Development team is rolling out learning programs to enable a culture of curiosity and continual learning. The learning initiatives are intended to provide a forum for team members to come together to learn about all of the activities taking place in the learning space, as well as hear from leaders internally and externally on various leadership topics.
 
-Check out our [monthly announcements](https://about.gitlab.com/handbook/people-group/learning-and-development/learning-initiatives/monthly-announcements) for upcoming programs for team members.
+Team members can follow our [#learninganddevelopment Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W/thread/G018JT50VH7-1663352618.329159) for upcoming programs.
 
 We record our [past initiatives](/handbook/people-group/learning-and-development/learning-initiatives/past-initiatives) so that we can share and revisit our programs over time.
 
@@ -184,11 +184,11 @@ After the Call:
 
 ## Skill of the Month 
 
-The L&D team outlines a skill of the month for team members to learn more about a particular topic. This provides team members with direction about what topics to learn more about and where to find information on these topics. This initiative begins in April 2021. 
+The L&D team outlines a skill of the month for team members to learn more about a particular topic. This provides team members with direction about what topics to learn more about and where to find information on these topics. This initiative began in April 2021. 
 
 ### Goals
 
-1. Get team members engaged with our learning platforms (GitLab Learn and LinkedIn Learning). 
+1. Get team members engaged with our learning platforms (Level Up and LinkedIn Learning). 
 1. Provide opportunities for Growth and Development. 
 1. Encourage team members to take time out to learn. 
 
@@ -216,6 +216,9 @@ This is the list of topics that will be focused on in FY23.
 - April: Managing High Performing Teams: Building Trust
 - May: Managing Mental Health at Work
 - June: Allyship
+- July: (Suspended due to learning system tranistion)
+- August: (Suspended due to learning system tranistion)
+- September: Creativity
 
 ### Organizing a Skill of the Month 
 

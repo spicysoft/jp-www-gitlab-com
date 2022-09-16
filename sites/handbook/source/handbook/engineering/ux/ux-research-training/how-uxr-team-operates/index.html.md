@@ -28,9 +28,9 @@ The designated UX Researcher is the go-to person for their assigned [stage group
 |---------|-------------------------------|
 | **Enablement**: Distribution, Geo, Memory, Global Search, Database, Pods <br>**SaaS Platforms**: GitLab Dedicated, Delivery <br>**Ops**: Configure, Release, Respond, Observability | [Will Leidheiser] |
 | **Growth**: Activation, Conversion, Expansion, Adoption <br>**Fulfillment**: Provision, Purchase, Utilization <br>**Analytics**: Product Intelligence | [Nicholas Hertz] |
-| **Manage**: Authentication & Authorization, Workspace, Compliance, Import, Optimize, Project Management, Product Planning, Certify | [Anne Lasch] |
+| **Manage**: Authentication & Authorization, Workspace, Import, Optimize, Project Management, Product Planning, Certify | [Anne Lasch] |
 | **Plan**:Project Management, Product Planning, Certify | [Anne Lasch]|
-| **Secure**: Static Analysis, Dynamic Analysis, Composition Analysis, Dynamic Analysis: Fuzz Testing, Threat Insights, Vulnerability Research <br> **Protect**: Security Orchestration, Container Security | [Michael Oliver] |
+| **Secure**: Static Analysis, Dynamic Analysis, Composition Analysis, Dynamic Analysis: Fuzz Testing, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance | [Michael Oliver] |
 | **Create**: Source Code, Editor, Code Review | [Ben Leduc-Mills] |
 | **Ops**: Pipeline Execution, Pipeline Authoring, Runner, Pipeline Insights, Package | [Erika Feldman] |
 | **Ecosystem**: Integrations, Foundations | [Ashley Knobloch] |
@@ -94,7 +94,11 @@ The UX Research peer review process is designed to be asynchonous and inclusive 
 1. **Edit** - The UX Researcher looks at the feedback, follows up on any questions, and makes any adjustments necessary.  
 1. **Mark as done** - When complete, they put a green check mark emoji reaction on their original post, indicating that the peer review request has been completed and is closed.
 
-UX Researchers are all required to take part in a peer review with their final reports that they created.  Additionally, it's strongly encouraged for UX Researchers to help their peers by reviewing anything submitted through the peer review process.
+UX Researchers are all required to take part in a peer review with their test plans and final reports that they created.  Additionally, it's strongly encouraged for UX Researchers to help their peers by reviewing anything submitted through the peer review process. 
+
+When reviewing suggestions from peers asynchronously, it's a best practice to provide a note or explanation when closing suggestions.  This is done to explain any rationale behind any decisions made around the suggestion and to add closure to the suggestion. 
+
+Ultimately, it's up to the owner of the document to decide which suggestions they'd like to apply.
 
 ## How UX Researchers socialize research findings
 When we drive our own research projects, it means we're also responsible for socializing those insights.  The most effective way to do that is as follows:

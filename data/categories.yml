@@ -41,52 +41,6 @@ projects:
   dogfooding_status: Active
   dogfooding_issue: N/A
 
-audit_events:
-  name: "Audit Events"
-  stage: manage
-  documentation: https://docs.gitlab.com/ee/administration/audit_events.html
-  direction: /direction/manage/compliance/audit-events/
-  description: "Track important events for review and compliance such as who performed certain actions and the time they happened."
-  roi: false
-  available: 2017-01-01
-  viable: 2018-11-22
-  complete: 2022-10-22
-  lovable:
-  maturity: viable
-  dogfooding_status: Active
-  dogfooding_issue: N/A
-  ux_scorecard_score: '-'
-  marketing: true
-  priority_level: high
-  competitors:
-    github:
-      maturity: complete
-      documentation: https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization
-
-compliance_management:
-  name: "Compliance Management"
-  stage: manage
-  # TODO: Placeholder documentation to allow linting rule to be committed; replace with proper link
-  documentation: https://docs.gitlab.com/ee/administration/compliance.html
-  direction: /direction/manage/compliance/compliance-management/
-  description: "Provide customers with the tools and features necessary to manage their compliance programs."
-  roi: false
-  available: 2020-01-22
-  viable: 2022-07-22
-  complete: 2023-01-22
-  lovable: 2024-01-12
-  maturity: viable
-  dogfooding_status: Active
-  dogfooding_issue: N/A
-  ux_scorecard_score: '-'
-  new_maturity: true
-  marketing: true
-  priority_level: high
-  competitors:
-    github:
-      maturity: viable
-      documentation: https://docs.github.com/en/code-security/getting-started/securing-your-organization
-
 authentication_and_authorization:
   name: "Authentication and Authorization"
   stage: manage
@@ -444,9 +398,9 @@ quality_management:
   description: "Plan and track testing and quality of your product."
   roi: false
   available: 2020-11-22
-  viable: 2022-08-22
-  complete: 2023-02-22
-  lovable: 2024-02-22
+  viable: 2023-09-01
+  complete: 2024-09-01
+  lovable: 2025-09-01
   maturity: minimal
   marketing: true
   priority_level: low
@@ -604,6 +558,29 @@ pages:
     github:
       maturity: complete
       documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
+
+git_lfs:
+  name: "Git LFS"
+  stage: create
+  documentation: https://docs.gitlab.com/ee/topics/git/lfs/index.html
+  direction: /direction/package/#git-lfs
+  description: |
+    Git LFS (Large File Storage) is a Git extension, which reduces the impact of large files in your repository by downloading the relevant versions of
+    them lazily. Specifically, large files are downloaded during the checkout process rather than during cloning or fetching.
+  roi: false
+  available: 2015-02-22
+  viable: 2023-02-22
+  complete:
+  lovable:
+  maturity: minimal
+  marketing: true
+  dogfooding_status: Exclusive
+  dogfooding_issue: N/A
+  dogfooding_group: All
+  competitors:
+    github:
+      maturity: complete
+      documentation: https://docs.github.com/en/repositories/working-with-files/managing-large-files
 
 gitlab_handbook:
   name: "GitLab Handbook"
@@ -1023,7 +1000,7 @@ build_artifacts:
   description: "Keep build artifacts under control and actionable."
   roi: true
   available: 2021-04-01
-  viable: 2022-12-01
+  viable: 2023-03-01
   complete: 2023-12-01
   lovable: 2025-12-01
   maturity: minimal
@@ -1203,28 +1180,7 @@ dependency_firewall:
   dogfooding_issue: Not Applicable (Planned)
   dogfooding_group: Not Applicable (Planned)
 
-git_lfs:
-  name: "Git LFS"
-  stage: package
-  documentation: https://docs.gitlab.com/ee/topics/git/lfs/index.html
-  direction: /direction/package/#git-lfs
-  description: |
-    Git LFS (Large File Storage) is a Git extension, which reduces the impact of large files in your repository by downloading the relevant versions of
-    them lazily. Specifically, large files are downloaded during the checkout process rather than during cloning or fetching.
-  roi: false
-  available: 2015-02-22
-  viable: 2023-02-22
-  complete:
-  lovable:
-  maturity: minimal
-  marketing: true
-  dogfooding_status: Exclusive
-  dogfooding_issue: N/A
-  dogfooding_group: All
-  competitors:
-    github:
-      maturity: complete
-      documentation: https://docs.github.com/en/repositories/working-with-files/managing-large-files
+
 
 # Secure
 
@@ -1452,12 +1408,26 @@ dependency_scanning:
   maturity: viable
   marketing: true
   priority_level: high
-  feature_labels:
-    - dependency list
-    - security reports integration
   ux_scorecard_link: https://gitlab.com/groups/gitlab-org/-/epics/2396
   ux_scorecard_score: F
   dogfooding_status: limited
+  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+
+container_scanning:
+  name: "Container Scanning"
+  stage: secure
+  documentation: https://docs.gitlab.com/ee/user/application_security/container_scanning/
+  direction: /direction/secure/composition-analysis/container-scanning/
+  description: "Check Docker images for known vulnerabilities in the application environment. Analyze image contents against public vulnerability databases using the open source tool, Clair, that is able to scan any kind of Docker (or App) image. Vulnerabilities are shown in-line with every merge request."
+  roi: true
+  available: 2018-01-01
+  viable: 2019-05-22
+  complete: 2023-05-22
+  lovable: 2027-05-18
+  maturity: viable
+  marketing: true
+  priority_level: medium
+  dogfooding_status: Active
   dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 license_compliance:
@@ -1466,7 +1436,7 @@ license_compliance:
   label: "Category:License Compliance"
   documentation: https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html
   direction: /direction/secure/composition-analysis/license-compliance/
-  description: "Upon code commit, project dependencies are searched for approved and blacklisted licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution."
+  description: "Upon code commit, project dependencies are searched for approved and denied licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution."
   roi: false
   available: 2018-01-01
   viable: 2023-05-22
@@ -1540,57 +1510,59 @@ attack_emulation:
   dogfooding_status: N/A
   dogfooding_issue: N/A
 
-vulnerability_management:
-  name: "Vulnerability Management"
-  stage: secure
-  label: "group::threat insights"
-  description: "View, triage, trend, track, and resolve vulnerabilities detected in your applications."
-  documentation: https://docs.gitlab.com/ee/user/application_security/security_dashboard/
-  direction: /direction/secure/vulnerability_management/
+# Govern
+
+
+audit_events:
+  name: "Audit Events"
+  stage: govern
+  documentation: https://docs.gitlab.com/ee/administration/audit_events.html
+  direction: /direction/govern/compliance/audit-events/
+  description: "Track important events for review and compliance such as who performed certain actions and the time they happened."
   roi: false
-  available: 2020-05-22
-  viable: 2020-12-08
-  complete: 2023-04-22
-  lovable: 2024-07-22
+  available: 2017-01-01
+  viable: 2018-11-22
+  complete: 2022-10-22
+  lovable:
   maturity: viable
-  new_maturity: true
+  dogfooding_status: Active
+  dogfooding_issue: N/A
+  ux_scorecard_score: '-'
   marketing: true
   priority_level: high
-  ux_scorecard_link: https://gitlab.com/gitlab-org/gitlab-design/-/issues/401
-  ux_scorecard_score: D
-  dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
-  feature_labels:
-    - MR security reports
-    - pipeline security reports
   competitors:
     github:
       maturity: complete
-      documentation: https://docs.github.com/en/code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies
+      documentation: https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization
 
-# Protect
-
-container_scanning:
-  name: "Container Scanning"
-  stage: protect
-  documentation: https://docs.gitlab.com/ee/user/application_security/container_scanning/
-  direction: /direction/protect/container-scanning/
-  description: "Scan container image dependencies against public vulnerability databases using the open source tools, Trivy or Grype."
-  roi: true
-  available: 2018-01-01
-  viable: 2019-05-22
-  complete: 2023-05-22
-  lovable: 2027-05-18
+compliance_management:
+  name: "Compliance Management"
+  stage: govern
+  # TODO: Placeholder documentation to allow linting rule to be committed; replace with proper link
+  documentation: https://docs.gitlab.com/ee/administration/compliance.html
+  direction: /direction/govern/compliance/compliance-management/
+  description: "Provide customers with the tools and features necessary to manage their compliance programs."
+  roi: false
+  available: 2020-01-22
+  viable: 2022-07-22
+  complete: 2023-01-22
+  lovable: 2024-01-12
   maturity: viable
-  marketing: true
-  priority_level: medium
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: N/A
+  ux_scorecard_score: '-'
+  new_maturity: true
+  marketing: true
+  priority_level: high
+  competitors:
+    github:
+      maturity: viable
+      documentation: https://docs.github.com/en/code-security/getting-started/securing-your-organization
 
-security_orchestration:
-  name: "Security Orchestration"
-  stage: protect
-  direction: /direction/protect/security_orchestration/
+security_policy_management:
+  name: "Security Policy Management"
+  stage: govern
+  direction: /direction/govern/security_policy_management/
   documentation: https://docs.gitlab.com/ee/user/application_security/policies/
   description: |
     Unified security policy management capabilities across all of GitLab's scanners and security technologies. Apply policies to enforce scans and to require security approvals when vulnerabilities are found.
@@ -1605,6 +1577,55 @@ security_orchestration:
   dogfooding_status: N/A
   dogfooding_issue: N/A
 
+vulnerability_management:
+  name: "Vulnerability Management"
+  stage: govern
+  label: "group::threat insights"
+  description: "View, triage, trend, track, and resolve vulnerabilities detected in your applications."
+  documentation: https://docs.gitlab.com/ee/user/application_security/security_dashboard/
+  direction: /direction/govern/threat_insights/vulnerability_management/
+  roi: false
+  available: 2020-05-22
+  viable: 2020-12-08
+  complete: 2023-04-22
+  lovable: 2024-07-22
+  maturity: viable
+  new_maturity: true
+  marketing: true
+  priority_level: high
+  ux_scorecard_link: https://gitlab.com/gitlab-org/gitlab-design/-/issues/401
+  ux_scorecard_score: D
+  dogfooding_status: Active
+  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  feature_labels:
+    - security dashboard
+    - security reports
+    - security reports integration
+    - vulnerability interaction
+  competitors:
+    github:
+      maturity: complete
+      documentation: https://docs.github.com/en/code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies
+
+dependency_management:
+  name: "Dependency Management"
+  stage: govern
+  label: "group::threat insights"
+  description: "Track dependencies detected in your applications."
+  documentation: https://docs.gitlab.com/ee/user/application_security/dependency_list/
+  direction: /direction/govern/threat_insights/dependency_management/
+  roi: false
+  available: 2019-06-22
+  viable:
+  complete:
+  lovable:
+  maturity: viable
+  new_maturity: true
+  marketing: true
+  priority_level: high
+  feature_labels:
+    - dependency list
+
 # Anti-Abuse
 
 insider_threat:
@@ -1618,7 +1639,7 @@ insider_threat:
   description: "Insider Threat identifies attacks and high risk behaviors by correlating different data sources and observing behavioral patterns"
   maturity: minimal
   available: 2019-06-22
-  viable: 2022-12-22
+  viable: 2023-03-22
   complete: 2023-12-22
   lovable: 2024-12-22
   marketing: false
@@ -1636,7 +1657,7 @@ instance_resiliency:
   description: "We want to prevent malicious activity from occurring within GitLab Instances."
   roi: true
   available: 2021-06-01
-  viable: 2022-03-01
+  viable: 2022-12-01
   complete: 2023-04-01
   lovable: 2025-12-01
   maturity: minimal
@@ -1944,7 +1965,7 @@ incident_management:
   roi: false
   available: 2019-05-22
   viable: 2019-10-22
-  complete: 2022-10-22
+  complete: 2023-01-31
   lovable:
   maturity: viable
   marketing: true
@@ -1964,7 +1985,7 @@ on_call_schedule_management:
   documentation: https://docs.gitlab.com/ee/operations/incident_management/oncall_schedules.html
   roi: false
   available: 2021-04-22
-  viable: 2022-11-22
+  viable: 2023-04-30
   complete:
   lovable:
   maturity: minimal
@@ -2105,6 +2126,19 @@ privacy_control_center:
   lovable: 2024-12-01
   marketing: false
   maturity: planned
+
+application_instrumentation:
+  name: "Application instrumentation"
+  stage: analytics
+  direction: https://about.gitlab.com/direction/product-intelligence/
+  description:
+  available: 2022-10-01
+  viable: 2023-12-01
+  complete: 2024-06-01
+  lovable: 2024-12-01
+  marketing: false
+  maturity: minimal
+  priority_level: medium
 
 # Enablement
 
@@ -2483,7 +2517,7 @@ billing_and_subscription_management:
   marketing: false
   maturity:
 
-# ModelOps Section
+# Data Science Section
 
 mlops:
   name: "MLOps"

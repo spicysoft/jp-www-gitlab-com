@@ -41,19 +41,23 @@ Must do:
 
 Should do:
 - [UX OKRs](/company/okrs/).
-- Tasks that improve understanding of users and their journeys or workflows (e.g. [UX Scorecards](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/))
+- Tasks that improve understanding of users and their journeys or workflows (e.g. [UX Scorecards](/handbook/engineering/ux/ux-scorecards/))
 - Issues in the current release milestone and labeled `Stretch`.
 - Issues labeled `Pajamas`, `pajamas::define`, `pajamas::design`, `pajamas::build`, or `pajamas::integrate`. See [Pajamas component lifecycle](https://design.gitlab.com/get-started/lifecycle) and the [Pajamas issue tracker](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues).
 - Fill in ToDo blocks in Pajamas where we haven't fully speced out components or examples. You can easily search for these [here](https://gitlab.com/search?group_id=5387503&project_id=4456656&scope=blobs&search=todo). 
 
 Nice to do:
-- [Beautifying our UI](https://about.gitlab.com/handbook/engineering/ux/product-design/#beautifying-our-ui).
+- [Beautifying our UI](/handbook/engineering/ux/product-design/#beautifying-our-ui).
 - Issues labeled [`Seeking community contributions`](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name%5B%5D=Seeking+community+contributions&label_name%5B%5D=UX) or other low-hanging usability problems you can fix with an MR.
 - Issues in future milestones. For example, in the next release milestone, [Next 2-3 months](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&milestone_title=Next+2-3+months&label_name%5B%5D=UX), [Next 3-6 months](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&milestone_title=Next+3-6+months&label_name%5B%5D=UX), or [Backlog](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&milestone_title=Backlog&label_name%5B%5D=UX).
 - Popular issues with no milestone (number of comments or upvotes).
 - [Other issues labeled `UX`](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name%5B%5D=UX)
 
 See also [How we use labels](/handbook/engineering/ux/ux-department-workflow/#how-we-use-labels).
+
+#### Engagement with Single Engineer Groups (SEGs)
+
+The [Incubation Engineering Department](https://about.gitlab.com/handbook/engineering/incubation/) utilizes a Single Engineer Group (SEG) to work on "new market" efforts with a directive to move fast, ship, get feedback, and iterate. Occasionally, SEG efforts touch high-usage areas of our product (such as the Issue and MR views), and these engineers will request temporary design support (through the Product Design Manager) to drive the experience direction. Product Designers and their managers should feel comfortable performing in-depth design critiques like they do for their Product Design peers. The goal is for UX to closely collaborate with Incubation Engineering to ensure a great experience for our users.
 
 ### UX Issue Weights
 
@@ -162,11 +166,11 @@ It is our responsibility as Product Designers to research how our work can impac
 
 - Proactively reach out to other Product Designers (using Slack, Weekly UX Sessions, etc.) to get background information on the product area you are about to start working on and to learn how your product area depends and interacts with others.
 - Identify the [DRI](/handbook/people-group/directly-responsible-individuals/) for the product area you're about to start working on, and involve them in your design process from the beginning. If you are unsure who the DRI is, visit the [Product Categories Handbook page](/handbook/product/categories/).
-- Check the [Product Kickoff Review](https://about.gitlab.com/direction/kickoff/) to see the list of issues that are currently planned for next release in other stages.
+- Check the [Product Kickoff Review](/direction/kickoff/) to see the list of issues that are currently planned for next release in other stages.
 
 ### Aiming towards "sophisticated simplicity"
 
-The visual design of GitLab has come a long way from naive simplicity to sophisticated complexity, but there's a third level yet to be reached — sophisticated simplicity. There are three tenets of sophisticated simplicity to keep in mind as you're designing:
+The visual design of GitLab has come a long way from naive simplicity to sophisticated complexity, but there's a third level yet to be reached — sophisticated simplicity ([Sophisticated Simplicity,  Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). There are three tenets of sophisticated simplicity to keep in mind as you're designing:
 
 1. **Structure** - Organization and hierarchy of content and concepts into meaningful groups and patterns
 1. **Discovery** - Ability to interact and explore that leads to learning and proficiency while being mistake adverse
@@ -277,7 +281,21 @@ Any additions or changes to UI text require review by the group's Technical Writ
 UI text includes button or menu labels, error messages in the UI or in log files, user-assistance microcopy, notification emails, and any other text that may be surfaced in the UI.
 
 - Ensure the issue and MR have the [UI text](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name%5B%5D=UI+text) label.
+- If changes to UI text could result in changes to documentation steps, add the `documentation` label. Documentation changes resulting from UI text changes follow the [Documentation for a product change](/handbook/engineering/ux/technical-writing/workflow/#documentation-for-a-product-change) workflow.
 - Message the [Technical Writer for the group](/handbook/engineering/ux/technical-writing/#designated-technical-writers) in the MR to request a review, including any specific files or lines they should review, and how to preview or understand the location/context of the text from the user's perspective.
+
+#### Collaborating on in-product reference information
+
+Sometimes the designer, PM, and technical writer agree to display additional [in-product reference information](https://design.gitlab.com/usability/helping-users/#providing-reference-information) in a [drawer component](https://design.gitlab.com/components/drawer/). The reference information should align with the existing documentation for the feature.
+
+If the content that should go in the drawer doesn’t exist yet:
+
+1. The designer should write some draft copy identifying what they think needs to go in the drawer so that users can achieve the goal. Designers can work collaboratively with their counterparts in creating this initial draft to get it as close as possible to the final. This is considered a draft copy.
+1. When the draft copy is completed, the designer adds some sort of marker that lets the team know the drawer content is not final. This could be a text watermark overlay that says “waiting on documentation,” “draft,” or “placeholder,” or even a pin added to the Figma file or in the design management area.
+1. The designer completes the rest of the design and follows the current design to development process:
+    1. Dev creates drawer and documentation as part of feature code MR.
+    1. TW reviews documentation and drawer content.
+    1. Documentation published and drawer populated with content. 
 
 ### Partnering with UX Researchers
 

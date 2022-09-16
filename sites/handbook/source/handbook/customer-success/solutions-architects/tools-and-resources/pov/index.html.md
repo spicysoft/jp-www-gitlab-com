@@ -91,6 +91,27 @@ Complete the following fields at minimum:
 
 Once the POV begins, the Solutions Architect should change the **Status** field from _New_ to _In Progress_. When the POV is complete, the Solutions Architect should change the **Status** to _Closed_ and the **Result** should be identified as _Successful_ or _Unsuccessful_. Freeform notes should be added to support the reason for the successful or unsuccessful result.
 
+#### Sales and Solutions Architecture Leader Approval Process
+
+When an opportunity is [well-qualified for a Proof of Value](#pov-qualification), Enterprise opportunity win rate is over 90% versus around 30% for other technical evaluations (e.g., tech eval, trials, proof of concept).
+
+The field currently records a considerable volume of technical evaluations as Proof of Values.  Recording nonqualified activity as a POV makes it challenging to track where we can up-level our strategy in an opportunity for a qualified Proof of Value or Value Stream Assessment.
+
+Without the ability to efficiently report on the technical win activity and proof of value work, it's difficult for Sales and SA leadership to identify coaching opportunities and better predict outcomes.
+
+An approval workflow is rolling out to allow Sales and SA leaders to regularly review our activity while marking well-qualified technical win activity as Proof of Values.
+
+Please work closely with your SA or Sales leader counterpart to regularly review opportunities with a Proof of Value object while marking well-qualified POVs with approval.
+
+Sales and SA leader participation in the POV approval process will ensure we can quickly and regularly identify opportunities for coaching and predictability.
+
+##### Approval Process
+
+- Upon mutual agreement with the associated SAL, the Solution Architect working on the opportunity will [create a POV object on the opportunity](#tracking-a-pov-in-salesforce).
+- When a new POV object is created, a notification is posted to the `#troops-pov-created` slack channel.
+- In addition to a weekly review of a region's ongoing POVs and technical win work, Area sales and SA leaders monitor the `#troops-pov-created` slack channel for new POVs.  When a new POV is created, asynchronous or synchronous collaboration on the quality of the opportunity commences.
+- The ASM or SA Manager marks the POV for approval via the Salesforce object or through a troops action in Slack.
+- The ASM or SA Manager will query about plans to position professional services at this stage. All SALs/SAs are required to position Professional services in opportunities with a qualified POV to guarantee continued success for the customer. Please read more about how to positon [here](https://about.gitlab.com/handbook/customer-success/solutions-architects/processes/#positioning-professional-services)
 
 ### POV Best Practices
 
@@ -130,7 +151,7 @@ Below is best practice guidance for conducting each type of POV. These processes
 
 - SA: Ensure the customer architecture is prepared to support the POV (if self-managed)
 - SA: Ensure customer network has access to GitLab.com (if SaaS evaluation)
-- SA: Customer Success project is created in GitLab as per the [TAM Handbook page](/handbook/customer-success/tam/#to-start-a-new-customer-engagement)
+- SA: Customer Success project is created in GitLab as per the [TAM Handbook page](/handbook/customer-success/csm/#to-start-a-new-customer-engagement)
 - SA: POV document is created if this is required by the customer, otherwise default to the Customer Success project
 - SA: Ensure POV goals and business outcomes are clearly identified prior to kickoff
 - SA: For the largest strategic opportunities, notify GitLab Support of POV dates, customer, and other relevant information using the applicable Slack channel related to Self-Managed or GitLab.com support
@@ -253,7 +274,7 @@ The objective of the daily(regularly cadenced) meetings will be:
 
 The Paid POV is less common than other types of POV's. These will commonly have duration greater than 60 days, and the customer will pay for usage of GitLab for the duration of the POV. Before this type of POV can begin, it requires a GitLab prorated licensing purchase to be completed. These POV's are marked by regular touch points and consistent interaction over time without requiring full time dedication to the GitLab evaluation on behalf of the customer. This type of POV will commonly have a larger ecosystem focus, where the value of GitLab is dependent on interactions with other tools and environments within the client's ecosystem. It is common to have kickoff meetings, technical support calls, cadenced retrospective calls and POV conclusion calls similar to those identified for a Guided POV.
 
-### Lite POV - Exclusive to Commercial
+### Lite POV - Exclusive to Commercial (DEPRECATED)
 
 When a prospect has an internal POV process to follow, or when time is of the essence, a Lite POV is utilized.
 
@@ -335,3 +356,8 @@ These projects are demonstrative of specific stages.  They are generally built 
 
 - [Nodejs Juice Shop](https://github.com/bkimminich/juice-shop) repository comes with a .gitlab-ci.yml file to get started with SAST and Dependency Scanning.  Incorporate others incrementally as needed.
 - [OWASP WebGoat.NET](https://gitlab-core.us.gitlabdemo.cloud/tanuki-group/dot-net-webgoat) repository can be enabled with SAST, License Management and Secrets Scanning very quickly using the packaged templates.  This validates our positioning in .NET application development (both Framework and Core).
+
+#### Proof of Value Enalement 
+
+- [PoV Overview Course](https://levelup.gitlab.com/courses/gitlab-proof-of-value-overview) 
+- [Executing an Exceptional PoV Course](https://levelup.gitlab.com/courses/delivering-an-exceptional-proof-of-value)

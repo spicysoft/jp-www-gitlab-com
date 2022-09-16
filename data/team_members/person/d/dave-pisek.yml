@@ -3,7 +3,7 @@ name: Dave Pisek
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/#senior-frontend-engineer">Senior
-  Frontend Engineer, Secure:Threat Insights</a>
+  Frontend Engineer, Govern:Threat Insights</a>
 reports_to: nmccorrison
 picture: davepisek.jpg
 twitter: davepies
@@ -13,7 +13,9 @@ departments:
 - Engineering Function
 - Development Department
 - Sec Section
-- Secure:Threat Insights FE Team
+- Govern Sub-department
+- Govern frontend capability
+- Govern:Threat Insights FE Team
 - Frontend
 projects:
   gitlab: maintainer frontend

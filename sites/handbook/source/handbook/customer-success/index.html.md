@@ -81,7 +81,7 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 
 ### Customer Success Managers
 
-- [Customer Success Manager handbook](/handbook/customer-success/tam/)
+- [Customer Success Manager handbook](/handbook/customer-success/csm/)
 - [Commercial CSM handbook](/handbook/customer-success/comm-sales/#technical-account-managers)
 
 ### Demo Systems
@@ -112,7 +112,7 @@ As a Solutions Architect, Customer Success Manager, or Professional Services Eng
 
 CSM-Created, Enablement Focus:
 
-- [All CSM-created workshops](/handbook/customer-success/tam/workshops/)
+- [All CSM-created workshops](/handbook/customer-success/csm/workshops/)
 
 SA-Created, Hands-On Focus:
 
@@ -124,7 +124,7 @@ Visit [this page](/handbook/customer-success/using-salesforce-within-customer-su
 
 ### Using Gainsight with Customer Success
 
-Visit [this page](/handbook/customer-success/tam/gainsight/) for more information on using Gainsight within Customer Success.
+Visit [this page](/handbook/customer-success/csm/gainsight/) for more information on using Gainsight within Customer Success.
 
 ### Dogfooding
 
@@ -145,6 +145,7 @@ In an effort to keep AWS spend down, initiatives are being taken to automaticall
 ### Customer Success Tools and Scripts
 
 By customer or internal request, we sometimes develop tools to automate certain GitLab tasks using the API. The resulting tools and scripts are publicly available for everyone to use and contribute to in the [GitLab CS Tools group](https://gitlab.com/gitlab-cs-tools).
+**Note : Those tools are not supported by GitLab Support.**
 
 ### Communities of Practice
 

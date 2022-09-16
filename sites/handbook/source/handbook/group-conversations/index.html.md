@@ -333,9 +333,9 @@ If your GC is optional and you need to move the date, please work with your depa
 | Thursday September 1 | CRO | Ryan O'Nell | August 25 |
 | Tuesday September 6 | Marketing | Marketing Leadership | August 25 |
 | Wednesday September 7 | **Available** | | Key Review Date? |
-| Thursday September 8 | Product | Product Leadership | September 1 |
+| Thursday September 8 | **Available**| | Key Review Date? |
 | Tuesday September 13 | **Available** |  |  |
-| Wednesday September 14 | **Available** | | Key Review Date? |
+| Wednesday September 14 |Product | Product Leadership | September 1 |
 | Thursday September 15 | **Available** | |  |
 | Tuesday September 20 | CosT  | Stella Treas | N/A |
 | Wednesday September 21 | General (CEO) | Sid Sijbrandij | N/A |
@@ -352,7 +352,7 @@ If your GC is optional and you need to move the date, please work with your depa
 | Tuesday October 18 | Product | Product Leadership | October 13 |
 | Wednesday October 19  | UX | Christie Lenneville | N/A |
 | Thursday Oct 20 | People | People Leadership | Oct 12 |
-| Tuesday October 25 | Revenue Marketing | JB Larramendy | N/A |
+| Tuesday October 25 | **Available** | **Available** | Key Review Date? |
 | Wednesday October 26  | Alliances | Nima Badiey | N/A |
 | Thursday October 27 | Marketing | Marketing Leadership | October 13 |
 | Tuesday November 1 | **Available** | | Key Review Date? |
