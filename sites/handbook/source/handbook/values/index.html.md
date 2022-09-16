@@ -823,30 +823,30 @@ While it is acceptable for individuals to bring up politics and religion in soci
 
 We're a global company where perspectives and local norms may differ from culture to culture. Diversity, inclusion and belonging is about broad inclusion at a worldwide level. If there is a question or concern, please reach out to [diversityinclusion@gitlab.com](mailto:diversityinclusion@gitlab.com) or [#diversity_inclusion_and_belonging](https://app.slack.com/client/T02592416/CLLDY3L8P).
 
-##### Quirkiness {#quirkiness}
+##### 奇抜さ {#quirkiness}
 {:.no_toc}
 Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. Open source is a great way to interact with interesting people. We try to hire people who think work is a great way to express themselves.
 
-##### Building a safe community {#building-a-safe-community}
+##### 安全なコミュニティーづくり {#building-a-safe-community}
 {:.no_toc}
 Do **not** make jokes or unfriendly remarks about [characteristics of the people who make up GitLab and how they identify](/company/culture/inclusion/#gitlabs-definition-of-diversity--inclusion).
 Everyone has the right to feel safe when working for GitLab and/or as a part of the GitLab community.
 We do not tolerate abuse, [harassment](/handbook/anti-harassment/), exclusion, discrimination, or retaliation by/of any community members, including our team members.
 You can always **refuse** to deal with people who treat you badly and get out of situations that make you feel uncomfortable.
 
-##### Unconscious bias {#unconscious-bias}
+##### 無意識なうちの偏見 {#unconscious-bias}
 {:.no_toc}
 We recognize that unconscious bias is something that affects everyone and that the
 effect it has on us as humans and our company is large.
 We are responsible for understanding our own implicit biases and helping others
 understand theirs. We are continuously [working on getting better at this topic](/company/culture/inclusion/unconscious-bias/).
 
-##### Inclusive benefits {#inclusive-benefits}
+##### インクルーシブな福利厚生 {#inclusive-benefits}
 {:.no_toc}
 We list our [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) publicly so people don't have to ask during interviews.
 
-##### Inclusive language & pronouns {#inclusive-language-pronouns}
+##### インクルーシブな表現や代名詞 {#inclusive-language-pronouns}
 {:.no_toc}
 Use **inclusive** language.
 For example, prefer "Hi everybody" or "Hi people" to "Hi guys", and "they" instead of "he/she". While there are several good guides from folks like [18f](https://content-guide.18f.gov/inclusive-language/), [University of Calgary](https://www.ucalgary.ca/news/ucalgary-guidelines-updated-communicating-about-gender-and-sexual-diversity), and [Buffer](https://open.buffer.com/inclusive-language-tech/) on using inclusive language, we don't keep an exhaustive list.
@@ -855,11 +855,11 @@ If your goal is to be inclusive, it is more effective to make a small adjustment
 And if you make a mistake (e.g. accidentally using the wrong pronoun or an outdated phrase), acknowledge it, **apologize gracefully and move on**; there is no need to dwell on it, and you can work to avoid making that mistake in the future.
 Please also visit our [Gender and Sexual-orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity/) page if you have questions around pronouns and other topics related to gender / sexual orientation.
 
-##### Inclusive interviewing {#inclusive-interviewing}
+##### インクルーシブなインタビュー {#inclusive-interviewing}
 {:.no_toc}
 This is documented on our page about [interviewing](/handbook/hiring/interviewing/#inclusive-interviewing).
 
-##### Inclusive meetings {#inclusive-meetings}
+##### インクルーシブなミーティング {#inclusive-meetings}
 {:.no_toc}
 Be consciously inclusive in [meetings](/company/culture/all-remote/meetings/) by giving everyone present an opportunity to talk and present their points of view. This can be especially important in a remote setting.
 
@@ -867,7 +867,7 @@ With internal meetings, consider using an agenda document for questions. For exa
 
 Customers are not used to working in this way. To promote inclusion with customers: ask participants for their goals; make sure during demos that you pause for question; leave time for discussion.
 
-##### Inclusive and fair policy to regions with fewer employees {#inclusive-and-fair-policy-to-regions-with-fewer-employees}
+##### 従業員数の少ない地域へインクルーシブで公平に対応する {#inclusive-and-fair-policy-to-regions-with-fewer-employees}
 {:.no_toc}
 Being globally distributed has the benefit that someone can cover for you when you are off work. However, population density is not balanced across timezones. Policies should remain fair to those in less dense regions.
 
@@ -875,11 +875,11 @@ For example, the Asia Pacific region covers more timezones but has fewer team me
 
 When planning an event, the organizer should cater for location density differences to maximize participation in all regions.
 
-##### See Something, Say Something {#see-something-say-something}
+##### 見かけたら声をあげて {#see-something-say-something}
 {:.no_toc}
 As a globally-dispersed company, we have team members from many different backgrounds and cultures. That means it is important for each of us to use great judgment in being respectful and inclusive of our teammates. At the same time, we may sometimes not fully realize we have said or done something to offend someone. It is important that our teammates hold each other accountable and let them know if they have unintentionally or intentionally done something so they can learn and gain additional understanding of perspectives different from our own. It is also important that our teammates don't feel excluded or minimized by the words we use or the things we do. Thus, we all need to speak up when we see something that isn't respectful or inclusive.
 
-##### Embracing Neurodiversity {#embracing-neurodiversity}
+##### ニューロダイバーシティの尊重 {#embracing-neurodiversity}
 {:.no_toc}
 [Neurodiversity](https://www.neurodiversityhub.org/what-is-neurodiversity) refers to variations in the human brain regarding learning, attention, sociability, mood, and other mental functions. There are various neurodevelopmental conditions, like autism, ADHD, dyslexia, dyscalculia, dyspraxia, cognitive impairment, schizophrenia, bipolarity, and other styles of neurodivergent functioning. While neurodivergent individuals often bring [unique skills and abilities](https://adhdatwork.add.org/potential-benefits-of-having-an-adhd-employee/) which can be harnessed for a [competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage) in many fields (for example, [cybersecurity](https://www.forbes.com/sites/samcurry/2019/05/13/neurodiversity-a-competitive-advantage-in-cybersecurity/)), neurodivergent individuals are often discriminated against. Due to non-inclusive hiring practices, they sometimes have trouble making it through traditional hiring processes. Neurodiversity inclusion best practices benefit everyone, and at GitLab, everyone can contribute. The handbook, values, strategy, and interviewing processes must support the ability for everyone to thrive.
 
@@ -892,11 +892,11 @@ We also recommend that all team members review the [Reasonable Accommodation](/h
 The most important thing that managers can do is facilitate an environment in which all team members feel [psychologically safe](/handbook/leadership/emotional-intelligence/psychological-safety/#what-is-psychological-safety) enough to make requests for [what they need](/company/culture/inclusion/neurodiversity-resources/#resources-for-team-members-and-managers) in order to do their job.
 
 
-##### Family and friends first, work second {#family-and-friends-first-work-second}
+##### 家族と友人を第一に、仕事は第二に {#family-and-friends-first-work-second}
 {:.no_toc}
 Long-lasting relationships [are the rocks of life](https://www.youtube.com/watch?v=6_N_uvq41Pg), and come before work. As someone said in our #thanks channel after helping a family member for five days after a hurricane: "THANK YOU to GitLab for providing a culture where "family first" is truly meant".  Use the hashtag: **#FamilyAndFriends1st**
 
-##### Diversity, Inclusion & Belonging Competency {#diversity-inclusion-belonging-competency}
+##### ダイバーシティ・インクルージョン・帰属性・コンピテンシー {#diversity-inclusion-belonging-competency}
 {:.no_toc}
 [Competencies](/handbook/competencies/) are the Single Source of Truth (SSoT) framework for things we need team members to learn.
 We demonstrate diversity, inclusion and belongings when we foster an environment where everyone can thrive and ensuring that GitLab is a place where people from every background and circumstance feel like they belong and can contribute.
@@ -1249,7 +1249,7 @@ There are exceptions. Material that is [not public by default is documented](/ha
 
 Even as a [public company](/blog/2021/10/14/gitlab-inc-takes-the-devops-platform-public/), we know that our value of transparency will be key to our success. This value can be hard to follow at times. You might ask yourself: what should be shared, how much to share, whether or not to speak up but definitely take the time to always opt for maximum transparency by adhering to the operating principles below. Often, company values get diluted as they grow, most likely because they do not write anything down. But we will make sure our values scale with the company. As a [public company](/handbook/being-a-public-company/), we declare everyone in the company as an insider, which allows us to remain transparent internally about our numbers, etc. Everything else that can be transparent will continue to be so.
 
-##### Public by default {#public-by-default}
+##### デフォルト全公開 {#public-by-default}
 {:.no_toc}
 Everything at GitLab is public by default.
 If something is not public, there should be a reference in the handbook that states a confidential decision was taken with a link to our Not Public guidelines, unless legal feels it carries undue risk.
@@ -1259,7 +1259,7 @@ In line with our value of transparency and being public by default, all GitLab t
 
 If you believe something shouldn't be public that currently is (or vice versa), then [make a merge request](/handbook/communication/#start-with-a-merge-request) to the relevant page(s) suggesting the change so that you can collaborate with others and discuss with the [DRI](/handbook/people-group/directly-responsible-individuals/).
 
-##### Not public {#not-public}
+##### 非公開 {#not-public}
 {:.no_toc}
 We make information public by default because [transparency is one of our values](/handbook/values/#transparency).
 However it is [most important to focus on results](/handbook/values/#hierarchy).
@@ -1276,34 +1276,34 @@ we should [document this](#not-public). _The only exception to this rule would b
 
 We document what is [not public by default](/handbook/communication/confidentiality-levels/#not-public) on our communication page.
 
-##### Directness {#directness}
+##### 直接伝える {#directness}
 {:.no_toc}
 Being direct is about being transparent with each other. We try to channel our inner [Ben Horowitz](https://en.wikipedia.org/wiki/Ben_Horowitz) by being [both straightforward
 and kind](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Feedback is always about your work and not your person. That doesn't mean it will be easy to give or receive it.
 
-##### Articulate when you change your mind {#articulate-when-you-change-your-mind}
+##### 気が変わったら、はっきりと伝える {#articulate-when-you-change-your-mind}
 {:.no_toc}
 If you state one thing, and then change course and support a different direction, point, or outcome, articulate this. It is OK to have your position changed by new data. Articulating that an *earlier* stance is not your *current* stance provides clarity to others and encourages data-driven decision making.
 
-##### Surface issues constructively {#surface-issues-constructively}
+##### 建設的な問題提起をする {#surface-issues-constructively}
 {:.no_toc}
 Be transparent to the right people (up) at the right time (when still actionable). If you make a mistake, don't worry; correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it, and how—if needed—you changed the process to prevent future mistakes.
 
-##### Transparency is most valuable if you continue to do it when there are costs {#transparency-is-most-valuable-if-you-continue-to-do-it-when-there-are-costs}
+##### コストはかかるが透明性は徹底することに最も価値がある {#transparency-is-most-valuable-if-you-continue-to-do-it-when-there-are-costs}
 {:.no_toc}
 We practice transparency even when hiding the facts would be easier. For example, many companies do not give you the real reason why they declined your application because it increases the chance of legal action. We want to only reject people for the right reasons and we want to give them the opportunity to grow by getting this feedback. Therefore, we'll accept the increased risk of holding ourselves to a high standard of making decisions and do the right thing by telling them what we thought. Other examples are being transparent about [security incidents](http://disq.us/p/1r9gceh) and participating in and contributing to Live Broadcasts.
 
 Transparency has costs (distraction, mis-interpretation, etc.) but also great benefits (productivity, hiring, retention, brand awareness, etc). Team members can view more details on these benefits by referencing the "Transparency Benefit Quantification" slides in Google Drive). We should carefully weigh the tradeoff between costs and benefits, to prevent a knee-jerk reaction to reduce transparency when it has costs.
 
-##### Single Source of Truth {#single-source-of-truth}
+##### 信頼できる唯一の情報源 {#single-source-of-truth}
 {:.no_toc}
 By having most company communications and work artifacts be public to the Internet, we have one single source of truth for all GitLab team members, users, customers, and other community members. We don‘t need separate artifacts with different permissions for different people.
 
-##### Findability {#findability}
+##### 見つけやすさ {#findability}
 {:.no_toc}
 Our transparency value means more than just making information accessible to all. In order to [improve performance](https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture) it's important that we not only ensure information is accessible, but also ensure it flows to the correct places and is [findable](https://en.wikipedia.org/wiki/Findability) by those who need it. Focusing on information flow will ensure you, for example, utilize [multi-modal communication](/handbook/communication/#multimodal-communication), or that you keep your [stakeholders informed of changes](/handbook/product/product-processes/#updated-ssot-for-stakeholder-collaboration) by posting links to MRs in Slack.
 
-##### Say why, not just what {#say-why-not-just-what}
+##### 何をするかだけでなく、なぜするかを伝える {#say-why-not-just-what}
 {:.no_toc}
 Transparent changes have the reasons for the change laid out clearly along with the change itself. This leads to fewer questions later on because people already have some understanding. A change with no public explanation can lead to a lot of extra rounds of questioning, which is less efficient.
 
@@ -1324,11 +1324,11 @@ The DRI is not responsible for convincing other people, but they should be able 
 
 When a GitLab Team Member comes across an ask or material (MR, handbook, etc.) that does not provide a "why" with sufficient context, the Team Member is responsible for getting the why and, if needed, working with the DRI to ensure that it is adequately documented and communicated to give context to other team members.  In the absence of a why, team members may speculate the why. This is something that can lead to disruption and inefficiency.
 
-##### Reproducibility {#reproducibility}
+##### 再現性 {#reproducibility}
 {:.no_toc}
 Enable everybody involved to come to the same conclusion as you. This not only involves [reasoning](#say-why-not-just-what), but also providing, for example: raw data and not just plots; scripts to automate tasks and not just the work they have done; and documenting steps while analyzing a problem. Do your best to make the line of thinking transparent to others, even [if they may disagree](/handbook/leadership/#making-decisions).
 
-##### Transparency Competency {#transparency-competency}
+##### 透明性コンピテンシー {#transparency-competency}
 {:#transparency-competency .no_toc}
 [Competencies](/handbook/competencies/) are the Single Source of Truth (SSoT) framework for things we need team members to learn.
 We demonstrate transparency when we are open with as many things as possible reducing the threshold to contribution and make collaboration easier.
