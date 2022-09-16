@@ -744,13 +744,6 @@
   story: 'Rescue cockapoo who lives for affection and human food.
 
     '
-- name: Petri
-  picture: petri.jpg
-  human: Kenny Johnston
-  story: 'Petri is a two year old merle great dane. She spends most her days moving
-    from one couch to another.
-
-    '
 - name: Albus
   picture: albus.jpg
   human: Scott Hampton
