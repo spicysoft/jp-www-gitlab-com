@@ -1,16 +1,20 @@
-name: Pam Claudine Artiaga
-locality: 
+name: Pam Artiaga
+locality:
 country: Remote
-role: <a href="">Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/intermediate/">Backend Engineer</a>
 reports_to: nicolo-maria-mezzopera
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
+picture: partiaga.jpg
+pronouns: she/her
+pronunciation: Pam Archaga
 twitter:
-linkedin:
-gitlab: pcartiaga-gitlab
+linkedin: pam-artiaga-964351105
+gitlab: partiaga
 departments:
-  - Development
+  - Engineering Function
+  - Development Department
+  - Ops Section
+  - Configure Group
+  - Configure BE Team
 specialty: "Configure"
 expertise:
 story:
