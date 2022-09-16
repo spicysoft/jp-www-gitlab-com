@@ -11,7 +11,6 @@ tertiary:
       In GitLab 15.4, we're shipping performance improvements for issues, projects, milestones, and much more! Some improvements in GitLab 15.4 are:
 
       - [Geo::MetricsUpdateWorker slow total job artifacts count](https://gitlab.com/gitlab-org/gitlab/-/issues/370158)
-      - [Description](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
       - [Convert ee/app/assets/stylesheets/pages/requirements.scss into page specific bundle](https://gitlab.com/gitlab-org/gitlab/-/issues/366603)
       - [Autocomplete dropdowns in the navbar should load faster](https://gitlab.com/gitlab-org/gitlab/-/issues/361520)
       - [Memory watchdog should restart high-memory workers](https://gitlab.com/gitlab-org/gitlab/-/issues/370079)
