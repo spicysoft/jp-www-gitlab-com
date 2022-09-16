@@ -37,7 +37,5 @@ expertise: |
   <li><a href="https://docs.gitlab.com/ee/development/fe_guide/architecture.html">Frontend architecture</a> <a href="/company/team/structure/#expert">expert</a></li>
   <li><a href="https://docs.gitlab.com/ee/development/fe_guide/accessibility.html">a11y</a> <a href="/company/team/structure/#expert">expert</a></li>
   <li><a href="https://docs.gitlab.com/ee/development/fe_guide/content_editor.html">Content Editor</a> <a href="/company/team/structure/#expert">expert</a></li>
-
-specialty:
-- Create:Editor
+specialty: Editor
 
