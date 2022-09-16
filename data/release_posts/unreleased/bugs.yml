@@ -60,3 +60,6 @@ tertiary:
       - [PlantUML is not parsing ReSTRUCTURED files](https://gitlab.com/gitlab-org/gitlab/-/issues/354020)
       - [Issues are closed automatically after  &quot;autoclose_referenced_issues&quot; on a project is disabled](https://gitlab.com/gitlab-org/gitlab/-/issues/240922)
       - [Rake task `gitlab:uploads:migrate` failed to migrate some uploads](https://gitlab.com/gitlab-org/gitlab/-/issues/23593)
+      - [Remove obsolete wiki notes from self-managed instances](https://gitlab.com/gitlab-org/gitlab/-/issues/353084)
+      - [Navbar search dropdown does not appear if user starts a search on page load](https://gitlab.com/gitlab-org/gitlab/-/issues/360709)
+      - [Navbar search field does not expand if focused before the page javascript completely loads](https://gitlab.com/gitlab-org/gitlab/-/issues/365746)
