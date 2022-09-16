@@ -37,6 +37,9 @@ coding_at_scale:
 container_registry:
   display_name: Container Registry
   link: https://docs.gitlab.com/ee/user/packages/container_registry/
+content_editor:
+  display_name: Content Editor
+  link: https://docs.gitlab.com/ee/development/fe_guide/content_editor.html
 govern:
   display_name: Govern
   link: https://about.gitlab.com/stages-devops-lifecycle/govern/
@@ -196,6 +199,9 @@ shell:
 snippets:
   display_name: Snippets
   link: https://docs.gitlab.com/ee/user/snippets.html#snippets
+source_editor:
+  display_name: Source Editor
+  link: https://docs.gitlab.com/ee/development/fe_guide/source_editor.html
 spam_fighting:
   display_name: Spam Fighting
   link: https://docs.gitlab.com/ee/integration/akismet.html
