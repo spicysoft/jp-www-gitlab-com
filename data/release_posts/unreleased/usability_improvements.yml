@@ -11,10 +11,10 @@ tertiary:
 
       In GitLab 15.4, we're shipping usability improvements for issues, projects, milestones, and much more! We highlight the following changes in GitLab 15.4:
 
-      - [Tokens with any scope can use the self-revocation API](https://gitlab.com/gitlab-org/gitlab/-/issues/369103).
-      - [Localization for GPG key e-mail page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92866).
-      - [Combine unresolved threads actions into one control](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96814).
-      - [Package duplicate settings UI update for side-by-side layout](https://gitlab.com/gitlab-org/gitlab/-/issues/363428).
-      - [Save changes button is disabled in the Container Registry cleanup policies form when no changes have been made](https://gitlab.com/gitlab-org/gitlab/-/issues/371882).
-      - [Container Registry cleanup policies moved to a single page](https://gitlab.com/gitlab-org/gitlab/-/issues/363426).
+      - [Tokens with any scope can use the self-revocation API](https://gitlab.com/gitlab-org/gitlab/-/issues/369103)
+      - [Localization for GPG key email page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92866)
+      - [Combine unresolved threads actions into one control](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96814)
+      - [Package duplicate settings UI update for side-by-side layout](https://gitlab.com/gitlab-org/gitlab/-/issues/363428)
+      - [Save changes button is disabled in the Container Registry cleanup policies form when no changes have been made](https://gitlab.com/gitlab-org/gitlab/-/issues/371882)
+      - [Container Registry cleanup policies moved to a single page](https://gitlab.com/gitlab-org/gitlab/-/issues/363426)
       - [Retain job filter in URL](https://gitlab.com/gitlab-org/gitlab/-/issues/367566)
