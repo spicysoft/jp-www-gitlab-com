@@ -15,11 +15,11 @@ GitLab is the one devops platform. Teams use GitLab (SaaS or self-managed) for d
 
 Thus, Cloud Seed — a collaboration with Google Cloud — makes it trivial to consume cloud services from GitLab.
 
-### Capablities
+### Capabilities
 
 #### Generate Google Cloud Service Accounts
 
-- Service accounts are authenticaton credentials that can be generated from the GitLab web inteface
+- Service accounts are authentication credentials that can be generated from the GitLab web interface
 - Used for wide range of integrations and automations with Google Cloud services
 
 #### Deploy to Google Cloud Run
@@ -38,7 +38,7 @@ Thus, Cloud Seed — a collaboration with Google Cloud — makes it trivial to c
 ### Usecases
 
 - Cloud native development with automated deployments to Cloud Run
-- Cloud migration and app modernizaton with Cloud SQL relational databases
+- Cloud migration and app modernization with Cloud SQL relational databases
 
 ### Positive business outcomes (grouped by persona)
 

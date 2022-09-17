@@ -103,7 +103,7 @@ Our current Incident Management tools have been built for users who align with o
 
 Incident Management is a broad category. The following diagram explains all functionality that is currently within scope for our vision of the category.
 
-![image.png](./incident_management.png)
+![image.png](./incident_management_workflow.png)
 
 ### Maturity Plan
 
@@ -126,27 +126,136 @@ We are actively [dogfooding](https://about.gitlab.com/handbook/product/product-p
 1. Incrementally dogfood new features via simulation days ([example](https://gitlab.com/gitlab-org/gitlab/-/issues/231518)) to gather immediate feedback on for improvements
 1. Begin a full migration once we have completed filling in the gap analysis - view migration plan [here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/322)
 
-<details><summary><h3>Incident Management features the Infrastructure team is currently Dogfooding</h3></summary>
+<details><summary><b>Incident Management features the Infrastructure team is currently Dogfooding</b></summary>
 
-| General Feature | Specific Feature | Dogfooding? | Example | Feature needs 'x' to dogfood |
-| --------------- | ---------------- | ----------- | ------- | ------------------ |
-|**Incidents**| [Incident issue Type](https://docs.gitlab.com/ee/operations/incident_management/incidents.html)| ✅ |         |                    |
-|| [Creating incidents manually](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-manually)| ✅ |         |
-|| [Creating incidents automatically](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-automatically)| ✅ | [Sample incident](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/6159) created via ops.gitlab.net |
-|| [Incident Timelines](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#timeline-events)| 🔴 | [Incident Timeline Quick Actions ] (https://gitlab.com/gitlab-org/gitlab/-/issues/368721), [Dogfood issue](https://gitlab.com/gitlab-org/gitlab/-/issues/360452)      |
-|| [Linked Resources](https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html)| 🔴 | TBD, just released, [Dogfood issue](https://gitlab.com/gitlab-org/gitlab/-/issues/370133)      |
-|| [Creating incidents via the PagerDuty webhook](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-via-the-pagerduty-webhook)| 🔴 |         |        |
-|| [Incident List](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#incident-list)| 🔴 || Labels need to be included on the incident list.|
-|| [Metrics Tab](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#metrics)| 🔴 ||There isn't a working integration with our observability vendor.  Metrics are added as screen shots ([example](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/6159#note_808876372)) to the incident.|
-|| [Alert details Tab](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#alert-details)| 🔴 || Not currently dogfooding GitLab alerts|
-|| [Service Level Agreement countdown timer](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#service-level-agreement-countdown-timer)|🔴||SLAs aren't based on a per incident basis|
-|**Alerts**| [GitLab Alerts](https://docs.gitlab.com/ee/operations/incident_management/alerts.html)| 🔴 |         | Alert improvments are noted [here](https://gitlab.com/gitlab-org/monitor/respond/-/issues/149#opportunities-for-alert-improvements)                   |
-|| [Alert List](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alert-list)| 🔴 || Dependent on dogfooding alerts.|
-|| [Alert Details Tab](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alert-details-tab)| 🔴 || Dependent on dogfooding alerts.|
-|| [Metrics Tab](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#metrics-tab)| 🔴 || Dependent on dogfooding alerts.|
-|| [HTTP Endpoints](https://docs.gitlab.com/ee/operations/incident_management/integrations.html#http-endpoints)| 🔴 || Mapping a complex payload to the custom mapping was cumbersome.  Alerts showed a new alert when the payload changed.|
-|| [Prometheus Integration](https://docs.gitlab.com/ee/operations/metrics/alerts.html#external-prometheus-instances)| 🔴 || |
-|| [Grouping of identical alerts](https://docs.gitlab.com/ee/operations/metrics/alerts.html#external-prometheus-instances)| 🔴 ||Dependent on dogfooding alerts.  Looking for the ability to manually add similar alerts to the same incident. |
+<table>
+    <tr>
+        <td>General Feature</td>
+        <td>Specific Feature</td>
+        <td>Dogfooding?</td>
+        <td>Example</td>
+        <td>Feature needs 'x' to dogfood</td>
+    </tr>
+    <tr>
+        <td><b>Incidents</b></td>
+        <td>[Incident issue Type](https://docs.gitlab.com/ee/operations/incident_management/incidents.html)</td>
+        <td>✅</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Creating incidents manually](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-manually)</td>
+        <td>✅</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Creating incidents automatically](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-automatically)</td>
+        <td>✅</td>
+        <td>[Sample incident](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/6159) created via ops.gitlab.net</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Incident Timelines](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#timeline-events)</td>
+        <td>🔴</td>
+        <td>[Incident Timeline Quick Actions ] (https://gitlab.com/gitlab-org/gitlab/-/issues/368721), [Dogfood issue](https://gitlab.com/gitlab-org/gitlab/-/issues/360452)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Linked Resources](https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html)</td>
+        <td>🔴</td>
+        <td>TBD, just released, [Dogfood issue](https://gitlab.com/gitlab-org/gitlab/-/issues/370133)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Creating incidents via the PagerDuty webhook](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-via-the-pagerduty-webhook)</td>
+        <td>🔴</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Incident List](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#incident-list)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>Labels need to be included on the incident list.</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Metrics Tab](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#metrics)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>There isn't a working integration with our observability vendor.  Metrics are added as screen shots ([example](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/6159#note_808876372)) to the incident.</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Alert details Tab](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#alert-details)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>Not currently dogfooding GitLab alerts</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Service Level Agreement countdown timer](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#service-level-agreement-countdown-timer)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>SLAs aren't based on a per incident basis</td>
+    </tr>
+    <tr>
+        <td><b>Alerts</b></td>
+        <td>[GitLab Alerts](https://docs.gitlab.com/ee/operations/incident_management/alerts.html)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>Alert improvments are noted [here](https://gitlab.com/gitlab-org/monitor/respond/-/issues/149#opportunities-for-alert-improvements)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Alert List](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alert-list)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>Dependent on dogfooding alerts.</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Alert Details Tab](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alert-details-tab)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>Dependent on dogfooding alerts.</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Metrics Tab](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#metrics-tab)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>Dependent on dogfooding alerts.</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[HTTP Endpoints](https://docs.gitlab.com/ee/operations/incident_management/integrations.html#http-endpoints)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>Mapping a complex payload to the custom mapping was cumbersome.  Alerts showed a new alert when the payload changed.</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Prometheus Integration](https://docs.gitlab.com/ee/operations/metrics/alerts.html#external-prometheus-instances)</td>
+        <td>🔴</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>[Grouping of identical alerts](https://docs.gitlab.com/ee/operations/metrics/alerts.html#external-prometheus-instances)</td>
+        <td>🔴</td>
+        <td></td>
+        <td>Dependent on dogfooding alerts.  Looking for the ability to manually add similar alerts to the same incident.</td>
+    </tr>
+</table>
 
 </details>
 

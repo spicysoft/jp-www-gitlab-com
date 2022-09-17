@@ -1,16 +1,18 @@
 name: Cynan de Leon
 locality: 
 country: Remote
-role: <a href="">Director, Engineering Analytics</a>
+role: <a href="/job-families/engineering/quality/engineering-analytics/management/">Director, Engineering Analytics</a>
 reports_to: mek
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
-twitter:
-linkedin:
+picture: cdeleon_gitlab.jpg
+pronouns: he/him
+pronunciation: sign-in deh-leh-own
+twitter: cynandeleon
+linkedin: 
 gitlab: cdeleon_gitlab
 departments:
-  - Quality
+  - Engineering Function
+  - Quality Department
+  - Engineering Analytics Team
 specialty: ""
 expertise:
 story:

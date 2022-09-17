@@ -127,6 +127,7 @@ A list of common scenarios and the appropriate option are detailed in the follow
 | Customer needs the license resent to a new person | Use this to request sending a license to a different user. Please note we cannot send licenses to anyone other than the account owner. To send it to someone else, please ask the customer to file a ticket so we can go through the contact change process. An exemption can be made for a temporary license. |
 | Multi-year license needs to be generated | Use this to request the next year's license for a multi-year subscription to be created. **Make sure to check with the customer if they exceeded their seat usage before opening this request.** Support cannot waive true-ups or change anything in SFDC. We cannot create a license until you have checked and amended their subscription as needed.
 | Self-managed NFR license request | Use this for Self-Managed NFR license generation |
+| Cloud Licensing exemption | Use this for SCL exemptions |
 | **Self-Managed Trial Related** | |
 | Problems starting a new Self-managed trial | Use this when the customer has no recent trial or subscription, and is not able to request the trial themselves online. |
 | Modify an existing Self-managed trial | Use this when you want to make changes to the number of users and/or the plan of a currently active trial |
@@ -190,7 +191,7 @@ Customers can get their subscription information and a list of users using a sea
 ### I Want to Escalate a Ticket
 
 To keep the term "_escalation_" [MECEFU](/handbook/communication/#mecefu-terms), Support uses the term "**support ticket attention request**" (STAR) to make sure
-[account escalations](/handbook/customer-success/tam/escalations/) are distinct. "Escalation" can also be confused with "emergency" or "incident."
+[account escalations](/handbook/customer-success/csm/escalations/) are distinct. "Escalation" can also be confused with "emergency" or "incident."
 
 Please open a **support ticket attention request**, during [GitLab Global Support Hours](https://about.gitlab.com/support/#definitions-of-gitlab-global-support-hours) only, if
 any of these are true:
@@ -201,11 +202,11 @@ any of these are true:
 
 [More about support ticket attention requests](/handbook/support/internal-support/support-ticket-attention-requests.html)
 
-Please open an **[account escalation](/handbook/customer-success/tam/escalations/)** if: 
+Please open an **[account escalation](/handbook/customer-success/csm/escalations/)** if: 
  - There is account level risk because of a single ticket or an aggregation of several issues.
  - Visibility and attention from multiple departments is required to restore customer confidence and resolve the issue.
 
-[More about account escalations](/handbook/customer-success/tam/escalations)
+[More about account escalations](/handbook/customer-success/csm/escalations)
 
 Please open an **emergency ticket** if:
  - a customer is facing a situation that meets our [Definitions of Support Impact](https://about.gitlab.com/support/definitions/#Definitions%20of%20Support%20Impact) for "Emergency"

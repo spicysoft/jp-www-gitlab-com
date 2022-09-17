@@ -352,7 +352,7 @@ While the below measurements do not impact your quota attainment, they are monit
     * Completion of BDR Q1-Q4 Tanuki Techs
         * NOTE: All promotions require a formal application + interview. Performance and adherence to our values will guarantee an interview but the BDR will have to demonstrate that they are the best candidate during the interview process. Factors such as interview performance, headcount, language requirements can influence promotion timelines.
 
-**Some examples of potential next roles after the Sales Dev Org are [Inside Sales Rep](https://about.gitlab.com/job-families/sales/public-sector-inside-account-representative/), [SMB Account Executive](https://about.gitlab.com/job-families/sales/smb-customer-advocate/), [Associate Solutions Architect](https://about.gitlab.com/job-families/sales/solutions-architect/), [Technical Account Manager](https://about.gitlab.com/handbook/customer-success/tam/), and many more!**
+**Some examples of potential next roles after the Sales Dev Org are [Inside Sales Rep](https://about.gitlab.com/job-families/sales/public-sector-inside-account-representative/), [SMB Account Executive](https://about.gitlab.com/job-families/sales/smb-customer-advocate/), [Associate Solutions Architect](https://about.gitlab.com/job-families/sales/solutions-architect/), [Technical Account Manager](https://about.gitlab.com/handbook/customer-success/csm/), and many more!**
 
 
 
@@ -783,7 +783,7 @@ Learn more about [Field](/handbook/marketing/field-marketing/) and [Corporate Ma
 The FMM Regional team & the AMER or EMEA/APAC Regional Senior BDR Manager will review the upcoming quarter event calendar to dicuss which events needs BDR support and what level of support would be needed. The Regional Senior BDR Manager will sign off on the related event support by levering the "BDR approved" column in the [Marketing Calendar SSOT worksheet](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit). FMMs will then open the related FMM/ISR/SDR issue mentioning the Regional Senior BDR Manager. The Regional Sr BDR Manager will assign a Manager DRI who will then include related BDRs participating in the event's BDR pre and post tasks. 
 
 *  [Field Marketing SDR Support Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=ISR_SDR_FMTemplate)
-*  [Corporate Event SDR Support Template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/Event-SDR-Support-Template.md)
+*  [Corporate Event SDR Support Template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_SDR_Support_Template)
 
 
 ### Levels of Support

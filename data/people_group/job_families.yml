@@ -27,8 +27,6 @@
   description: "/job-families/finance/accounts-payable/"
 - title: Accounts Receivable
   description: "/job-families/finance/accounts-receivable/"
-- title: Analyst Relations Manager
-  description: "/job-families/marketing/analysts-relations-manager/"
 - title: Analytics and Insights
   description: "/job-families/finance/analytics-and-insights/"
 - title: Awareness Campaign Manager
@@ -153,6 +151,8 @@
   description: "/job-families/legal/global-compliance-manager/"
 - title: Global Programs Manager
   description: "/job-families/marketing/global-programs-manager/"
+- title: Director, Globalization & Localization
+  description: "/job-families/marketing/globalization/"
 - title: Illustrator
   description: "/job-families/marketing/illustrator/"
 - title: Incubation Engineer
@@ -193,8 +193,8 @@
   description: "/job-families/legal/director-legal-us/"
 - title: Senior Director of Legal, Litigation & Risk Management
   description: "/job-families/legal/director-legal-us/"
-- title: Senior Director, ESG
-  description: "/job-families/legal/director-legal-us/"
+- title: Environmental & Social Governance (ESG)
+  description: "/job-families/legal/environmental-social-governance/"
 - title: Learning and Development
   description: "/job-families/people-ops/learning-development/"
 - title: Learner Engagement

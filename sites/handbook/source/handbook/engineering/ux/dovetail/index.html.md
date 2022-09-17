@@ -119,6 +119,131 @@ Gitlab Global Tags are organized into six categories:
 | Personas      | Each tag relates to one of our [user personas](/handbook/product/personas/#list-of-user-personas), or characteristics of those personas.<br><br>Use these tags when looking for jobs or features that correspond to certain personas.| When a user configures a static scanner, they could be `Sam, Security Analyst`.<br><br>Or, if you are performing [foundational research](/handbook/engineering/ux/ux-research-training/foundational-research/) on the users’ organization, you could use `enterprise` or `start-up` tags. |
 | JTBD          | Most of the tags relate to the various stages in [mapping jobs](/handbook/engineering/ux/jobs-to-be-done/mapping-jobs-to-be-done/#how-to-create-a-job-map).<br><br>Can be used when performing foundational jobs research such as [contextual inquiries](/handbook/engineering/ux/ux-research-training/problem-validation-and-methods). | When conducting a contextual, a user may talk about monitoring their pipeline, which could be tagged with `Step in Job - monitor`.|
 
+#### Global tag definitions
+
+##### User Action Tags
+
+| Tag      | Definition       |
+| ------------- | ------------- |
+| Workaround |  Participant completes task in a way other than the predicted “Happy Path”. |
+| Seeks help | Participant needs assistance from the moderator or other sources during the session. |
+| Unsure what to do | Participant gets stuck and is not confident on how to proceed. |
+| Focuses on UI element | Participant is spending time on a particular interface element. |
+| Confused by UI element | Participant is confused by a particular interface element.  |
+| Undo previous action | Participant reverses the progress they made in the task. |
+| Understands goal | Participant gives the desired feedback on the main task. |
+| Blocker | Participant is blocked from completing their task. |
+| Configuration | Participant makes changes to settings or their profile. |
+
+##### User Feedback Tags
+
+| Tag      | Definition       |
+| ------------- | ------------- |
+| Prefer option A | Participant picks option A. |
+| Prefer option B | Participant picks option B. |
+| Prefer option C | Participant picks option C. |
+| Prefer option D | Participant picks option D. |
+| General insights | Feedback that is outside of the scope of a particular product team or feature set. |
+| Feedback on UI | Feedback that is focused on design elements. |
+| Feedback on UX | Feedback that is focused on the user experience. |
+| Opportunity | Feedback that is focused on the user experience. |
+| Pain point | A specific or general instance where the product gets in the way of the participant’s task. |
+| Feature request | Participant makes requests for a specific and particular feature to be added to the product. |
+| Feature requirement | Participant identifies the aspect(s) of a feature that the product should have for the current project. |
+| Missing functionality or feature | Participant expresses that the product is missing some functionality or feature. |
+| Answer to question | Participant answers a question that was posed by the moderator. |
+| Rationale for decision | Participant clarifies or expands upon their thinking on a particular topic. |
+
+##### User Emotion Tags
+
+| Tag      | Definition       |
+| ------------- | ------------- |
+| Positive | Participant expresses positive statements towards the product. |
+| Mixed feelings | Participant expresses conflicting feelings or emotions towards the product. |
+| Negative | Participant expresses negative statements towards the product. |
+| Delighted | Participant feels or shows great pleasure towards the product. |
+| Excited | Participant is very enthusiastic and eager towards the product. |
+| Interested | Participant shows curiosity or concern about something towards the product. |
+| Satisfied | Participant is content or pleased towards the product. |
+| Indifferent | Participant feels unconcerned or has no particular interest towards the product. |
+| Confused | Participant is unable to think clearly about the product. |
+| Frustrated | Participant expresses distress or annoyance towards the product. |
+| Disappointed | Participant is sad or displeased in the product.  |
+| Dissatisfied | Participant feels a large amount of displeasure towards the product.  |
+| Overwhelmed | Participant feels inundated or that something is too much to handle in the product. |
+
+##### Workflow Tags
+
+| Tag      | Definition       |
+| ------------- | ------------- |
+| Workflow | Participant goes through a particular end to end experience in the product. |
+| Task 1 | Participant performs the first task. |
+| Task 2 | Participant performs the second task. |
+| Task 3 | Participant performs the third task. |
+| Task 4 | Participant performs the fourth task. |
+| Task 5 | Participant performs the fifth task. |
+| Task 6 | Participant performs the sixth task. |
+| Task 7 | Participant performs the seventh task. |
+| Task 8 | Participant performs the eighth task. |
+| Task 9 | Participant performs the ninth task. |
+| Task 10 | Participant performs the tenth task. |
+| Start task | Participant starts the task. |
+| Successful end task | Participant completes the task successfully.  |
+| Unsuccessful end task | Participant gets to the end of the tasks, but did not fulfill a primary requirement. |
+| Failed task | Participant unable to finish a task. |
+| Doesn’t understand task | Participant is confused and misinterprets the task instructions. |
+| Mistake in workflows | Participant makes a mistake in the workflow which is easily correctable. |
+| Critical mistake in workflow | Participant makes a mistake in the workflow which cannot be reversed or corrected. |
+| Group-level interaction | Participant approaches UX with a group-centric orientation. |
+| Project-level interaction | Participant approaches UX with a project-centric orientation. |
+| Group/project | Participant has feedback about either a group or a project. |
+
+##### Personas Tags
+
+| Tag      | Definition       |
+| ------------- | ------------- |
+| Cameron, Compliance Manager | Participant’s role or tasks match with [Cameron](/handbook/product/personas/#cameron-compliance-manager). |
+| Parker, Product Manager | Participant’s role or tasks match with [Parker](/handbook/product/personas/#parker-product-manager). |
+| Delaney, Development Team Lead | Participant’s role or tasks match with [Delaney](/handbook/product/personas/#delaney-development-team-lead). |
+| Presley, Product Designer | Participant’s role or tasks match with [Presley](/handbook/product/personas/#presley-product-designer). |
+| Sasha, Software Developer | Participant’s role or tasks match with [Sasha](/handbook/product/personas/#sasha-software-developer). |
+| Devon, DevOps Engineer | Participant’s role or tasks match with [Devon](/handbook/marketing/strategic-marketing/persona-snippets/user-personas/devon/). |
+| Sidney, Systems Administrator | Participant’s role or tasks match with [Sidney](/handbook/product/personas/#sidney-systems-administrator). |
+| Sam, Security Analyst | Participant’s role or tasks match with [Sam](/handbook/product/personas/#sam-security-analyst). |
+| Rachel, Release Manager | Participant’s role or tasks match with [Rachel](/handbook/product/personas/#rachel-release-manager). |
+| Alex, Security Operations Engineer | Participant’s role or tasks match with [Alex](/handbook/product/personas/#alex-security-operations-engineer). |
+| Simone, Software Engineer in Test | Participant’s role or tasks match with [Simone](/handbook/product/personas/#simone-software-engineer-in-test). |
+| Allison, Application Ops | Participant’s role or tasks match with [Allison](/handbook/product/personas/#allison-application-ops). |
+| Ingrid, Infrastructure Operator | Participant’s role or tasks match with [Ingrid](/handbook/product/personas/#ingrid-infrastructure-operator). |
+| Dakota, Application Development Director | Participant’s role or tasks match with [Dakota](/handbook/product/personas/#dakota-application-development-director). |
+| New or unknown persona | User persona that we haven’t previously identified in our [handbook](/handbook/product/personas/). |
+| Buyer personas | Users who serve as the main buyer in an organization or a champion within an enterprise that drives the buying conversation. |
+| Team leader | User who is in a management role and does have direct reports. |
+| C-Suite Executive | User who is a high-ranking executive in an organization (CEO, CIO, CFO, etc.). |
+| Individual Contributor | User who is not in a management role and does not have direct reports. |
+| Enterprise | Companies with 1,000 or more employees. |
+| SMB- Small Medium Business | Companies with up to 1,000 employees. |
+| Start-up | Young company founded to develop a unique product or service. |
+| SaaS | Current GitLab SaaS user. They log into GitLab.com to access their account. |
+| Self-managed | Current GitLab self-managed user. They maintain their own GitLab instance. |
+
+##### Jobs and Tools Tags
+
+| Tag      | Definition       |
+| ------------- | ------------- |
+| Step in job (define) | Participant understands how a process works. |
+| Step in job (locate) | Participant understands and navigates to where they need to go. |
+| Step in job (prepare) | Participant prepares for a major step in a job. |
+| Step in job (confirm) | Participant reviews or validates a step in the job. |
+| Step in job (execute) | Participant executes a step in the job. |
+| Step in job (monitor) | Participant monitors the outcomes of the step in the job. |
+| Step in job (modify) | Participant modifies the previous step in the job. |
+| Step in job (conclude) | Participant finishes the steps in the job. |
+| Job goal | A clear demonstration of what the purpose of the job is for. |
+| Possible JTBD insight | Participant mentions a general insight related to a JTBD. |
+| Tool in job | Participant points out tools that are used when performing a job. |
+| Critical tool in job | Participant points out tools that are crucial for performing a job. |
+
 ##### Can we add more tags?
 
 The global tags are an iterative process which will continue to grow in the future. We strongly encourage feedback from stakeholders so we can tailor the list to suit as many needs as possible.

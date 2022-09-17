@@ -6080,7 +6080,7 @@ features:
 
   - title : "GitLab Agent for Kubernetes"
     description: |
-      Manage the deployments and connection to your Kubernetes clusters in a secure and compliant way, driven by code.
+      Manage the deployments and connection to your Kubernetes clusters in a secure and compliant way, driven by code. The agent supports push and pull-based deployments and operational container scanning with fine-grained access controls.
     link_description: "Read more on the docs"
     link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
     category:
@@ -6105,7 +6105,7 @@ features:
     description: |
       Restrict GitLab CI/CD deployment jobs using Kubernetes RBAC
     link_description: "Read more on the docs"
-    link: 'https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_tunnel.html#use-impersonation-to-restrict-project-and-group-access'
+    link: 'https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#restrict-project-and-group-access-by-using-impersonation'
     category:
         - kubernetes_management
     gitlab_core: false
@@ -6129,7 +6129,7 @@ features:
     description: |
       Run GitOps-style deployments tightly integrated into GitLab
     link_description: "Read more on the docs"
-    link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
+    link: 'https://docs.gitlab.com/ee/user/clusters/agent/gitops.html'
     category:
         - kubernetes_management
     gitlab_core: true
@@ -6245,6 +6245,22 @@ features:
     gitlab_premium: true
     gitlab_ultimate: true
     gitlab_pages: true
+    github: false
+    pps_aggregate: 0
+    pps_recent: 0
+
+  - title : "Limit the number of custom Pages domains on Self-managed instances"
+    description: "Set a limit for how many custom domains can be defined for GitLab Pages projects on Self-Managed instances of GitLab."
+    link_description: "Learn more about configuring limits for GitLab Pages"
+    link: 'https://docs.gitlab.com/ee/administration/pages/#set-maximum-number-of-gitlab-pages-custom-domains-for-a-project'
+    category:
+      - pages
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_pages: true
+    gitlab_com: false
     github: false
     pps_aggregate: 0
     pps_recent: 0
@@ -7926,6 +7942,21 @@ features:
     link_description: "Learn more about GitLab Flavored Markdown"
     link: "https://docs.gitlab.com/ee/user/markdown.html"
     category:
+      - team_planning
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    pps_aggregate: 0
+    pps_recent: 0
+
+  - title : "Create Markdown tables from JSON data"
+    description: "Use JSON data to generate sortable, filterable tables in Markdown."
+    link_description: "Learn more about tables in Markdown"
+    link: "https://docs.gitlab.com/ee/user/markdown.html#json"
+    category: 
       - team_planning
     gitlab_core: true
     gitlab_starter: true
@@ -11342,6 +11373,18 @@ features:
     gitlab_com: true
     github: false
     pps_aggregate: 0
+
+  - title : "Automatic disabling of failing webhooks"
+    description: "Webhooks that fail intermittently are temporarily disabled and automatically retried. Webhooks that fail consistently are permanently disabled and re-enabled by project owners and maintainers."
+    link_description: "Learn more about failing webhooks"
+    link: https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#failing-webhooks
+    category:
+      - integrations
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
 
   - title : "Interactive onboarding for GitLab Pages"
     description: |

@@ -532,8 +532,10 @@
     - /community/sweepstakes/2020-developer-survey/
   target: /community/sweepstakes/
   comp_op: '='
-- sources: /tam/
-  target: /services/technical-account-management/
+- sources:
+    - /tam/
+    - /services/technical-account-management/
+  target: /services/customer-success-management/
   comp_op: '='
 - sources: /team-pets/
   target: /company/team-pets/
@@ -2403,11 +2405,6 @@
   target: /releases/2018/12/22/gitlab-11-6-released/
   comp_op: '~'
 - sources:
-  - /handbook/customer-success/tam/gemstones/
-  - /handbook/customer-success/tam/gemstones
-  target: /handbook/customer-success/tam/
-  comp_op: '='
-- sources:
   - /job-families/sales/director-of-sales-and-customer-enablement/
   - /job-families/sales/director-of-sales-and-customer-enablement
   target: /job-families/sales/director-of-field-enablement/
@@ -2511,12 +2508,15 @@
   target: /handbook/engineering/development/analytics/product-intelligence/
   comp_op: '='
 - sources:
-    - /handbook/engineering/development/modelops/anti-abuse/
-    - /handbook/engineering/development/modelops/anti-abuse
-    - /handbook/engineering/development/modelops/insiderthreat/
-    - /handbook/engineering/development/modelops/insiderthreat
-  target: /handbook/engineering/development/sec/anti-abuse/
-  comp_op: '='
+    - /handbook/engineering/development/modelops/
+    - /handbook/engineering/development/modelops
+  target: /handbook/engineering/development/data-science/
+  comp_op: '~'
+- sources:
+    - /handbook/engineering/development/sec/anti-abuse/
+    - /handbook/engineering/development/sec/anti-abuse
+  target: /handbook/engineering/development/data-science/anti-abuse/
+  comp_op: '~'
 - sources:
     - /handbook/engineering/development/growth/conversion
     - /handbook/engineering/development/growth/conversion/
@@ -4166,7 +4166,14 @@
     - /handbook/sales/vision-demo/
     - /learn/public
     - /learn/public/
+    - /learn/use-case
+    - /learn/use-case/public
   target: /learn/
+  comp_op: '='
+- sources:
+    - /learn/certifications
+    - /learn/certifications/
+  target: /learn/certifications/public/
   comp_op: '='
 - sources:
     - /job-families/marketing/director-of-sales-development
@@ -4577,3 +4584,7 @@
   - /handbook/mecc/
   target: /handbook/teamops/
   comp_op: '='
+- sources:
+  - /handbook/customer-success/tam/
+  target: /handbook/customer-success/csm/
+  comp_op: '~'

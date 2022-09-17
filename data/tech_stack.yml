@@ -4521,15 +4521,14 @@
 - title: Tenable.IO
   team_member_baseline_entitlement: false
   subprocessor: false
-  description: "[Tenable.IO](https://www.tenable.com/products/tenable-io) is a vulnerability
-    management application."
+  description: "[Tenable.IO](https://www.tenable.com/products/tenable-io) is a vulnerability management application."
   access_to: SecurityOPS
-  provisioner: "@joe-dub, @pmartinsgl"
-  deprovisioner: null
+  provisioner: "@smanzuik, @jhebden, @skahn007"
+  deprovisioner: "@smanzuik, @jhebden, @skahn007"
   group_owner: Security
-  group_owner_slack_channel: "#security-team"
-  business_owner: Joe Dubail
-  technical_owner: Joe Dubail
+  group_owner_slack_channel: "#g_security_vulnmgmt"
+  business_owner: Steve Manzuik
+  technical_owner: Steve Manzuik
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -4539,7 +4538,7 @@
   processing_customer_data: null
   employee_or_customer_facing_app: Employee
   notes: null
-  saas: null
+  saas: true
   handbook_link: null
   google_group: null
 

@@ -2,9 +2,9 @@
 name: Tomas Vik
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
-  Create:Code Review
-reports_to: andre-l
+role: <a href="/job-families/engineering/development/fullstack/">Senior Fullstack Engineer</a>,
+  Create:Editor
+reports_to: davidoregan
 picture: tomasvik.jpg
 twitter:
 gitlab: viktomas
@@ -13,8 +13,8 @@ departments:
 - Development Department
 - Dev Section
 - Frontend
-- Create:Code Review FE Team
-- Create:Code Review
+- Backend
+- Create:Editor Team
 projects:
   gitlab: reviewer frontend
   gitlab-vscode-extension: maintainer
@@ -31,5 +31,6 @@ story: 'I’m from a small mountain town in the north of the Czech Republic. I l
  When my work laptop is closed,  I read, <a href="https://blog.viktomas.com">write</a>, or
  explore the outdoors and the mountains.
  '
-specialty: Code Review
+specialty:
+- 'Create:Editor'
 

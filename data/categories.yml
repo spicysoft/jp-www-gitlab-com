@@ -1408,9 +1408,6 @@ dependency_scanning:
   maturity: viable
   marketing: true
   priority_level: high
-  feature_labels:
-    - dependency list
-    - security reports integration
   ux_scorecard_link: https://gitlab.com/groups/gitlab-org/-/epics/2396
   ux_scorecard_score: F
   dogfooding_status: limited
@@ -1601,8 +1598,10 @@ vulnerability_management:
   dogfooding_status: Active
   dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
   feature_labels:
-    - MR security reports
-    - pipeline security reports
+    - security dashboard
+    - security reports
+    - security reports integration
+    - vulnerability interaction
   competitors:
     github:
       maturity: complete
@@ -1624,6 +1623,8 @@ dependency_management:
   new_maturity: true
   marketing: true
   priority_level: high
+  feature_labels:
+    - dependency list
 
 # Anti-Abuse
 

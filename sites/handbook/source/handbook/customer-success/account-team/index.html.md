@@ -23,7 +23,7 @@ An Enterprise account team is comprised of the following people:
 
 - [Strategic Account Leader (SAL)](/job-families/sales/strategic-account-leader/)
 - [Solutions Architect (SA)](/job-families/sales/solutions-architect/)
-- [Customer Success Manager (CSM)](/job-families/sales/customer-success-management/) for [qualifying accounts](/handbook/customer-success/tam/services/#tam-alignment)
+- [Customer Success Manager (CSM)](/job-families/sales/customer-success-management/) for [qualifying accounts](/handbook/customer-success/csm/services/#tam-alignment)
 
 
 ### Commercial/Mid-Market
@@ -31,7 +31,7 @@ An Enterprise account team is comprised of the following people:
 A Mid-Market account team is comprised of the following people:
 
 - [Account Executive (AE)](/job-families/sales/account-executive/)
-- [Customer Success Manager (CSM)](/job-families/sales/customer-success-management/) for [qualifying accounts](/handbook/customer-success/tam/services/#tam-alignment)
+- [Customer Success Manager (CSM)](/job-families/sales/customer-success-management/) for [qualifying accounts](/handbook/customer-success/csm/services/#tam-alignment)
 
 In Mid-Market, Solutions Architects are pooled so they are not aligned with specific account teams.
 
@@ -40,6 +40,8 @@ In Mid-Market, Solutions Architects are pooled so they are not aligned with spec
 ### Strategic Account Leader (SAL) / Account Executive (AE)
 - Negotiates contracts and price on initial sale and renewals
 - Should have a strategy for prospects and how to close
+- Works with the Solutions Architect (SA) on pre-sales prospects and post-sale upgrades
+- Works with the Customer Success Manager (CSM) on account planning and renewals
 
 ### Solutions Architect (SA)
 - Should lead discovery calls to find out where and why the prospect is having issues in the SDLC
@@ -49,11 +51,17 @@ In Mid-Market, Solutions Architects are pooled so they are not aligned with spec
 - Owns the technical side for responding to RFP/RFIs
 
 ### Customer Success Manager (CSM)
-- Trusted strategic and technical advisor to the customer
-- Should handle all things post-sales for the customer (onboarding, stage adoption, EBRs, lunch and learns, etc.)
+- Trusted strategic advisor to the customer
+- [Responsible](/customer-success/csm/#high-level-responsibilities-of-a-csm) for the post-sales customer journey
+   - Onboarding
+   - Success Planning 
+   - Stage adoption & expansion
+   - Executive Business Reviews
+   - Risk Mitigation
+   - Renewal Discussions
 - Leads regular cadence calls and keeps the customer collaboration projects up-to-date
 - Maintains Gainsight records of customer health and triaging as necessary
-- Escalation PoC
+- Account escalation point of contact for [High or Critical Escalations](/customer-success/csm/escalations/)
 
 ## Account Team Meetings
 
@@ -61,7 +69,7 @@ The account team should meet in order to drive strategic growth towards accounts
 
 - Coordinated customer growth/expansion strategies, including renewals and upgrades
 - Onboarding of new customers requiring additional attention
-- Triage if they have a [health score other than Green](/handbook/customer-success/tam/health-score-triage/#health-assessment-guidelines)
+- Triage if they have a [health score other than Green](/handbook/customer-success/csm/health-score-triage/#health-assessment-guidelines)
 
 As a recommendation to [make the most efficient use of everyone’s time](/handbook/values/#be-respectful-of-others-time), these calls should not happen more than once a week, unless there is a specific and urgent need. There is no requirement to have recurring account team calls, but different regions and segments may approach account team alignments and engagement differently. For clarity on specific regions' or segments' approaches, reach out to the corresponding CSM Manager(s).
 

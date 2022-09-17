@@ -204,6 +204,9 @@ At this time, GitLab does not have a formal not-for-profit program. The primary 
 1. To stay up-to-date, you can subscribe to the [the non-profit issue](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/general/-/issues/17) by enabling notifications. To enable notifications, click the Notifications toggle in the sidebar to on.
 2. You can contribute your feedback.  
 
+We are not accepting requests for non-for-profit licensing as we iterate on our internal processes. Please revist this page for update.
+{: .alert .alert-gitlab-orange}
+
 Any inbound request for a discounted or free license by a not-for-profit organization is handled on a case-by-case basis by the DRI (the appropriate sales team member for the geographic region of the non-profit and their manager). We cannot guarantee that non-profit requests will be granted as the decision is at the discretion of the DRI. Discounted or free licenses for non-profits are only issued in very rare cases. Because GitLab does not currently have a license and end-user license agreement (EULA) specifically for non-profits, we are not able to issue a license without additional support from our legal team in order to modify our existing EULA and license granting process.
 
 ## The Gitlab for Education DevOps Guide

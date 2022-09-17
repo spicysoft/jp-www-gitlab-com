@@ -42,8 +42,8 @@ stages:
         focus: Manage Authentication & Authorization Paid GMAU
         pmm: Cindy Blake
         cm: Suri Patel
-        backend_engineering_manager: Michelle Gill
-        frontend_engineering_manager: Michelle Gill
+        backend_engineering_manager: Adil Farrukh
+        frontend_engineering_manager: Adil Farrukh
         be_team_tag: Manage:Authentication and Authorization BE Team
         fe_team_tag: Manage:Authentication and Authorization FE Team
         support:
@@ -159,7 +159,7 @@ stages:
         focus: Manage Optimize GMAU
         pmm: Cormac Foster
         cm: Suri Patel
-        em: Brandon Labuschagne (Acting)
+        em: Brandon Labuschagne (Interim)
         be_team_tag: Manage:Optimize BE Team
         fe_team_tag: Manage:Optimize FE Team
         support: TBD
@@ -262,7 +262,7 @@ stages:
 
       product_planning:
         name: Product Planning
-        pm: Melissa Ushakov
+        pm: Amanda Rueda
         focus: Plan Product Planning Paid GMAU
         pmm: 
         cm: Suri Patel
@@ -302,7 +302,7 @@ stages:
 
       certify:
         name: Certify
-        pm: Melissa Ushakov
+        pm: Matthew Macfarlane
         focus: Plan Certify Paid GMAU
         pmm: 
         cm: Suri Patel
@@ -1079,7 +1079,7 @@ stages:
           - instance_resiliency
           - insider_threat
         group_link: product/categories/#anti-abuse-group
-        handbook: engineering/development/sec/anti-abuse/
+        handbook: engineering/development/data-science/anti-abuse/
         pm: Jensen Stava
         em: Jay Swain
         appsec_engineer: Nick Malcolm
@@ -1443,13 +1443,11 @@ stages:
             dri: TBD
         categories:
           - vulnerability_management
+          - dependency_management
         usage_driver_score: 4
         asp_driver_score: 5
         sam_driver_score: 5
         group_link: product/categories/#threat-insights-group
-        feature_labels:
-          - MR security reports
-          - pipeline security reports
 
       compliance:
         name: Compliance
@@ -1512,7 +1510,7 @@ stages:
         pm: Amanda Rueda
         pmm: Cormac Foster
         cm: Suri Patel
-        backend_engineering_manager: Alina Mihaila
+        backend_engineering_manager: Dennis Tang
         support: TBD
         be_team_tag: Product Intelligence Team
         appsec_engineer: Greg Alfaro

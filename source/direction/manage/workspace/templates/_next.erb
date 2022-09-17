@@ -1,0 +1,9 @@
+
+* We have completed phase 2 which handled database updates to prepare for migrating features to the new project namespace. At this time, any feature that does not require membership or routing can be migrated from the group level to the project level or vice versa.
+  * [Migrating Issues to Namespaces](https://gitlab.com/gitlab-org/gitlab/-/issues/338819)
+  * [Migrating Labels to Namespaces](https://gitlab.com/gitlab-org/gitlab/-/issues/338820)
+
+* We have started to work on [[Phase 3] Migrating basic functionality to Namespaces](https://gitlab.com/groups/gitlab-org/-/epics/6585). This phase also implements membership for project namespaces.
+In parallel, we are also working on [migrating administrative capabilities](https://gitlab.com/groups/gitlab-org/-/epics/7314) to the group and project level so that group/project owners can have more control over their members. 
+
+* One of the biggest pain points that our SaaS users have is the ability to control their users and groups, which exists in the admin panel for self-managed users. In order to overcome this and create feature parity, we will be [migrating administrative capabilities to the group level](https://gitlab.com/groups/gitlab-org/-/epics/7445).

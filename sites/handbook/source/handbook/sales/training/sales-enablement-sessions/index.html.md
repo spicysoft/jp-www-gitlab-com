@@ -23,8 +23,7 @@ To see what training is coming soon, view the [Sales Enablement Session issue li
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|                      
-| Sep 15 | Storage & Transfer Limits  | Josh L.  |
-| Sep 22 | FY23 - Q3 Sales Ops Update - Clari Refresher  | Amber S. & Kathleen R.  |
+| Sep 22 | TBD  | TBD  |
 | Sep 29 | Collaborating with Community Programs  | Christina H. & Bryan B.  |
 | Oct 6 | FY23 - Q3 Product Update  | TBD  |
 | Oct 13 | FY23 - Q3 Competitive Update  | Joe K.  |
@@ -38,6 +37,7 @@ To see what training is coming soon, view the [Sales Enablement Session issue li
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2022-09-15 | **[FY23 - Q3 Sales Ops Update - Clari Data Analytics & Best Practices](https://youtu.be/tNgYhYQH_N0)** | Private  |
 | 2022-09-08 | **[Basics of Legal Subscription Agreements](https://youtu.be/8cmfmqc6iag)**  | Private  |
 | 2022-09-01 | **[VMware Partnership and Go-to-Market Approaches.](https://youtu.be/Hx_QE65GDKA)**  | Private  |
 | 2022-08-25 | **[Q3 Rev Program Update](https://youtu.be/nBV-_LrTqKQ)**  | Private  |

@@ -42,7 +42,6 @@ Our top vision items we have defined include:
 1. [GitLab Runner Autoscaler architecture](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/57051)
 1. [Create the capability to load testing the GitLab CI system](https://gitlab.com/gitlab-org/gitlab/-/issues/328736)
 
-
 ## Team structure 
 
 For the next phase of this category, we will be working across Database and Verify to instrument a cross functional product group. The DRIs are:
@@ -56,7 +55,7 @@ For the next phase of this category, we will be working across Database and Veri
 
 ### How we work 
 
-This group uses an [issue board](https://gitlab.com/groups/gitlab-org/-/boards/1372896?label_name[]=group%3A%3Apipeline%20execution&label_name[]=Category%3AContinuous%20Integration%20Scaling) and `Category:Continuous Integration Scaling` to identify the scope that is in workflow. 
+This group uses an [issue board](https://gitlab.com/groups/gitlab-org/-/boards/1372896?label_name[]=group%3A%3Apipeline%20execution&label_name[]=Category%3AContinuous%20Integration%20Scaling) and `Category:Continuous Integration Scaling` to identify the scope that is in workflow. The team is tracking progress of the partitioning work in the [documentation](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/pipeline_partitioning.html#iterations).
 
 The following epics are used to coordinate the phases of CI Partitioning: 
 

@@ -1,13 +1,15 @@
 title: DevOps Tools Explained
 description: Here you can find all the information you need on DevOps tools, what they are, and how they can help you. Learn more!
 canonical_path: /topics/devops/devops-tools-explained/
-header_body: DevOps aims to bridge the gap between application development and IT operations to allow organizations to create better software faster than ever before. To accomplish this, DevOps teams rely on tools that foster collaboration and communication, reduce security risk, and automate time-consuming manual tasks.
+header_body: DevOps teams rely on tools and platforms that foster collaboration and communication, reduce security risk, and automate time-consuming manual tasks.
 file_name: devops-tools-explained
 parent_topic: devops
 twitter_image: /images/opengraph/gitlab-blog-cover.png
 body: >-
   ## What are DevOps tools
   
+   [DevOps](/topics/devops/) aims to bridge the gap between application development and IT operations to allow organizations to create better software faster than ever before. DevOps tools and platforms provide a framework to empower teams to plan, build, deploy, monitor, and keep track of operations and feedback. Without these tools and platforms, organizations would have an increasingly difficult task managing software development lifecycles as the complexity and scale of the systems they’re developing increase. 
+   
   [DevOps tools](/devops-tools/) are applications that help to streamline the process of developing software. Most DevOps tools focus on one or more of the following areas:-
 
   
@@ -35,10 +37,6 @@ body: >-
   - Artifact management
   
 
-  
-  DevOps tools provide a framework to empower teams to plan, build, deploy, monitor, and keep track of operations and feedback. Without these tools, organizations would have an increasingly difficult task managing software development lifecycles as the complexity and scale of the systems they’re developing increase.
-
-
 
   ## Benefits of DevOps tools
 
@@ -63,7 +61,7 @@ body: >-
   ## The DevOps toolchain tax: The drawback of a non-centralized toolchain
 
 
-  Because DevOps ties all parts of the software development lifecycle together, it may be tempting to cobble together various tools to speed up software delivery. But going this route comes at a price: the time spent integrating and maintaining the toolchain instead of coding and delivering software.That’s the DevOps toolchain tax. 
+  Because DevOps ties all parts of the software development lifecycle together, it may be tempting to cobble together various tools to speed up software delivery. But going this route comes at a price:- the time spent integrating and maintaining the toolchain instead of coding and delivering software.That’s the DevOps toolchain tax. 
 
   
   Executing development and production processes across multiple tools will ultimately slow down the delivery of products, impact communication, and reduce overall code quality. Setting up numerous integrations can be daunting and, more importantly, many of these are not just a one-time setup, as new projects require new component connections. [The solution to this problem](/topics/devops/use-devops-platform-to-avoid-devops-tax/) is a single end-to-end DevOps platform.
@@ -76,9 +74,9 @@ body: >-
 
 
   ### Plan
-
-
-  Identifying the work to be done is the first step in the DevOps toolchain. This allows tasks to be prioritized and tracked.
+  
+  
+  Identifying the work to be done is the first step in the DevOps toolchain. This allows tasks to be prioritized and tracked. 
 
 
   ### Build
