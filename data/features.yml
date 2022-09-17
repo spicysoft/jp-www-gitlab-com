@@ -11129,6 +11129,23 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
+  - title : "Suggested Reviewers"
+    description: "GitLab can suggest reviewers for merge requests powered by machine learning and a projects contribution graph."
+    link_description: "Learn more about Suggested Reviewers"
+    link: https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#suggested-reviewers
+    solution: Create
+    category:
+      - code_review
+      - workflow_automation
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    gitlab_com: true
+    pricing_page: false
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "Maintenance mode"
     description: "Maintenance mode allows systems administrators to perform maintenance operations, such as preparing for a scheduled failover, with minimal disruption to end users."
     logo: '/images/unreleased/maintenance_mode.png'
