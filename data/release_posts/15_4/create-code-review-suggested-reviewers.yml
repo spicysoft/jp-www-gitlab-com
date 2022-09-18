@@ -1,5 +1,5 @@
 features:
-  primary:
+  top:
   - name: "Suggested Reviewers open beta"
     available_in: [gold]
     documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#suggested-reviewers'
