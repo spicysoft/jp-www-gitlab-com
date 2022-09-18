@@ -34,7 +34,7 @@ Read through the Release Posts Handbook for more information:
 https://about.gitlab.com/handbook/marketing/blog/release-posts/#introduction
 -->
 
-Today, we are excited to announce the release of GitLab 15.4 with (Suggested Reviewers open beta)[#suggested-reviewers-open-beta], (email validation bypass for verified domains)[#users-on-verified-domains-can-bypass-email-validation], (Pages Pipeline Wizard)[#getting-started-with-gitlab-pages-just-got-easier], (improved CI/CD integration in VS Code)[#improved-cicd-integration-in-vs-code] and much more!
+Today, we are excited to announce the release of GitLab 15.4 with [Suggested Reviewers open beta](#suggested-reviewers-open-beta), [email validation bypass for verified domains](#users-on-verified-domains-can-bypass-email-validation), [Pages Pipeline Wizard](#getting-started-with-gitlab-pages-just-got-easier), [improved CI/CD integration in VS Code](#improved-cicd-integration-in-vs-code) and much more!
 
 These are just a few highlights from the 66 improvements in this release. Read on to check out all of the great updates below.
 
