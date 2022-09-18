@@ -36,7 +36,7 @@ https://about.gitlab.com/handbook/marketing/blog/release-posts/#introduction
 
 Today, we are excited to announce the release of GitLab 15.4 with `Feature A`, `Feature B`, `Feature C`, `Feature D` and much more!
 
-These are just a few highlights from the 58 improvements in this release. Read on to check out all of the great updates below.
+These are just a few highlights from the 66 improvements in this release. Read on to check out all of the great updates below.
 
 We thank the wider GitLab community for the 221 contributions they provided to GitLab 15.4! At GitLab, everyone can contribute and we couldn't have done it without you!
 
