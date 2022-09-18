@@ -11426,10 +11426,11 @@ features:
     gitlab_ultimate: true
     gitlab_com: true
 
-  - title : "Runner upgrade notification in Admin Area > Runners"
+  - title : "Runner upgrade notification when managing runners"
     description: |
-      The ugprade status badge in Admin Area > Runners allows you to identify at a glance which runners in our environment need updating.
-    link_description: "Display notification to upgrade runners in Admin Area > Runners"
+      The ugprade status badge in your runners list allows you to identify at a glance which runners in your environment need updating.
+    link_description: "Display notification to upgrade runners"
+    link: https://docs.gitlab.com/ee/ci/runners/configure_runners.html#determine-which-runners-need-to-be-upgraded
     solution: Verify
     category:
       - runner
