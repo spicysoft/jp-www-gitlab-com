@@ -1,0 +1,23 @@
+---
+name: Greg Myers
+locality:
+country: Remote
+role: <a href="/job-families/engineering/support-engineer/#senior-support-engineer">Senior
+  Support Engineer</a>
+reports_to: ronnie-alfaro
+picture: gregmyers.png
+twitter: laiuydfoiu
+gitlab: greg
+departments:
+- Engineering Function
+- Customer Support
+expertise: |
+  <li><a href="/handbook/on-call/">On-call</a> champion!</li>
+  <li><a href="https://docs.gitlab.com/omnibus/">Omnibus</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://about.gitlab.com/handbook/marketing/community-relations/">Community Relations</a></li>
+story: 'I like solving problems, helping others, and open source. In my spare time
+  I enjoy reading, playing guitar, exploring nature, and learning new things.
+
+  '
+specialty: Application Security
+

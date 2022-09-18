@@ -204,7 +204,7 @@ features:
     github: false
     pps_aggregate: 0
     pps_recent: 0
-# Plan - Issue Tracking: Start ---------------------------------------------
+  # Plan - Issue Tracking: Start ---------------------------------------------
 
   - title : "Issues"
     description: "Quickly set the status, assignee or milestone for multiple issues at the same time or easily filter them on any properties. See milestones and issues across projects."
@@ -212,7 +212,7 @@ features:
     link_description: "Learn more about the Issue Tracker"
     link: https://docs.gitlab.com/ee/user/project/issues/
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -237,7 +237,7 @@ features:
     link_description: "Learn more about Tasks"
     link: https://docs.gitlab.com/ee/user/tasks.html
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -402,7 +402,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/labels.html
     link_description: "Learn more about GitLab Labels"
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -425,7 +425,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/labels.html#label-priority
     link_description: "Learn more about Prioritized Labels"
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -440,7 +440,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels
     link_description: "Learn more about Prioritized Labels"
     category:
-        - team_planning
+      - team_planning
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -482,7 +482,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/milestones/
     screenshot_url: 28-group-milestones.png
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -505,7 +505,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/iterations/#iteration-cadences
     screenshot_url: iterations.png
     category:
-        - team_planning
+      - team_planning
     gitlab_core: false
     gitlab_starter: true
     gitlab_premium: true
@@ -1203,9 +1203,9 @@ features:
     zoho_sprints: false
     pps_aggregate: 0
     pps_recent: 0
-# Plan - Project Management: End -----------------------------------------------
+  # Plan - Project Management: End -----------------------------------------------
 
-# Plan - Boards: Start --------------------------------------------------
+  # Plan - Boards: Start --------------------------------------------------
 
   - title : "Project Issue Board"
     description: "GitLab has Issue Boards, each list of an Issue Board is based on a label that exists in your issue tracker. The Issue Board will therefore match the state of your issue tracker in a user-friendly way."
@@ -1215,7 +1215,7 @@ features:
     feature_page: true
     pricing_page: true
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -1243,7 +1243,7 @@ features:
     screenshot_url: 49-group_issue_board.png
     feature_page: true
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -1263,7 +1263,7 @@ features:
     screenshot_url: 30-multiple-issue-boards.png
     feature_page: true
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -1291,7 +1291,7 @@ features:
     feature_page: true
     pricing_page: true
     category:
-        - team_planning
+      - team_planning
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -1316,7 +1316,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/issue_board.html#sum-of-issue-weights
     screenshot_url: issue-count-per-list.png
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -1332,7 +1332,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/issue_board.html#sum-of-issue-weights
     screenshot_url: issue-weight-per-list.png
     category:
-        - team_planning
+      - team_planning
     gitlab_core: false
     gitlab_starter: true
     gitlab_premium: true
@@ -1542,9 +1542,9 @@ features:
     redmine: false
     pps_aggregate: 0
     pps_recent: 0
-# Plan - Kanban Boards: End ----------------------------------------------------
+  # Plan - Kanban Boards: End ----------------------------------------------------
 
-# Plan - Time Tracking: Start --------------------------------------------------
+  # Plan - Time Tracking: Start --------------------------------------------------
 
   - title : "Time Tracking"
     description: "Time Tracking in GitLab lets your team add estimates and record time spent on issues and merge requests."
@@ -1553,7 +1553,7 @@ features:
     screenshot_url: 20-time-tracking.png
     feature_page: true
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -1579,7 +1579,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/project/time_tracking.html'
     screenshot_url: spend-time.png
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -1595,7 +1595,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/project/time_tracking.html'
     screenshot_url: estimate-time.png
     category:
-        - team_planning
+      - team_planning
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -1629,9 +1629,9 @@ features:
     zoho_sprints: partially
     pps_aggregate: 0
     pps_recent: 0
-# Plan - Time Tracking: End ----------------------------------------------------
+  # Plan - Time Tracking: End ----------------------------------------------------
 
-# Plan - Portfolio Management: Start -------------------------------------
+  # Plan - Portfolio Management: Start -------------------------------------
 
   - title : "Single level Epics"
     description: "Plan and track features and work group level epics that collect issues together. Easily create and assign Issues directly from the Epic itself"
@@ -1639,7 +1639,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/epics/
     screenshot_url: pending
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -1661,7 +1661,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/epics/
     screenshot_url: child-epics.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -1682,7 +1682,7 @@ features:
     link_description: "Learn more about Epics"
     link: https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -1704,7 +1704,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/epics/#reorder-issues-assigned-to-an-epic
     screenshot_url: reorder-issues-in-epic.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -1719,7 +1719,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/issues/index.html#health-status
     screenshot_url: epic-health-status.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -1735,7 +1735,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#start-and-due-date-inheritance
     screenshot_url: epics-fixed-dates.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -1750,7 +1750,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#start-and-due-date-inheritance
     screenshot_url: epic-dynamic-dates.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -1765,7 +1765,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#promote-an-issue-to-an-epic
     screenshot_url: promote-to-epic.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -1781,7 +1781,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/epics/linked_epics.html
     screenshot_url: related_epics_add.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -1797,7 +1797,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/roadmap/
     screenshot_url: 58-roadmap.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -1822,7 +1822,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/roadmap/
     screenshot_url: Expand-Epic-Hierarchy-Roadmap_roadmap.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -1847,7 +1847,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/planning_hierarchy/
     screenshot_url: gitlab-planning-hierarchy.png
     category:
-        - portfolio_management
+      - portfolio_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -1892,9 +1892,9 @@ features:
     pps_recent: 0
 
 
-# Plan - Agile Portfolio Management: End ---------------------------------------
+  # Plan - Agile Portfolio Management: End ---------------------------------------
 
-# Plan - Value Stream Management: Start ----------------------------------------
+  # Plan - Value Stream Management: Start ----------------------------------------
 
   - title : "Value Stream Management"
     description: "GitLab will surface VSM (value stream management) style metrics, such as cycle time, lead time, and deployment frequency, aggregated and rolled up, per an individual team, across multiple teams within a department, or even across the entire organization."
@@ -1948,9 +1948,9 @@ features:
     pps_recent: 0
     pricing_theme: "Enterprise agile planning"
 
-# Plan - Value Stream Management: End ------------------------------------------
+  # Plan - Value Stream Management: End ------------------------------------------
 
-# Plan - Requirements Management: Start ----------------------------------------
+  # Plan - Requirements Management: Start ----------------------------------------
 
   - title : "Requirements Management"
     description: |
@@ -2041,9 +2041,9 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-# Plan - Requirements Management: End ------------------------------------------
+  # Plan - Requirements Management: End ------------------------------------------
 
-# Plan - Quality Management: Start ---------------------------------------------
+  # Plan - Quality Management: Start ---------------------------------------------
 
   - title : "Quality Management"
     description: "Define and plan test cases, maintain test execution results and create a backlog of work from failed tests."
@@ -2100,9 +2100,9 @@ features:
     pps_aggregate: 1
     pps_recent: 1
 
-# Plan - Quality Management: End -----------------------------------------------
+  # Plan - Quality Management: End -----------------------------------------------
 
-# Plan - Service Desk: Start ---------------------------------------------------
+  # Plan - Service Desk: Start ---------------------------------------------------
 
   - title : "Service Desk"
     description: "Allow external users to create issues in your GitLab instance without an account and without access to anything except their issue. Manage tickets from the GitLab interface."
@@ -2175,7 +2175,7 @@ features:
       note: For self-managed and GitLab.com users, the feature must be turned on within a top-level group.
     pps_aggregate: 0
     pps_recent: 0
-#  Plan - Service Desk: End -----------------------------------------------------
+  #  Plan - Service Desk: End -----------------------------------------------------
 
   - title : "Portfolio Management"
     description: "Plan and track work at the project and portfolio level. Manage capacity and resources together with Portfolio Management."
@@ -2203,7 +2203,7 @@ features:
     pps_aggregate: 1
     pps_recent: 0
 
-# Create - Source Code Management: Start --------------------------------------
+  # Create - Source Code Management: Start --------------------------------------
 
   - title : "Powerful branching"
     description: "A branch in Git contains the entire history that precedes it. It's also created or moved towards instantly and easily shared."
@@ -2211,7 +2211,7 @@ features:
     link: 'https://docs.gitlab.com/ee/topics/git/index.html'
     screenshot_url: 18-repo-graph.png
     category:
-        - source_code_management
+      - source_code_management
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -2228,7 +2228,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/protected_branches.html
     screenshot_url: 35-protected-branches.png
     category:
-        - source_code_management
+      - source_code_management
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -2267,7 +2267,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/merge_requests/approvals/
     screenshot_url: 46-mr-approvals.png
     category:
-        - source_code_management
+      - source_code_management
     pricing_page: true
     gitlab_core: false
     gitlab_starter: true
@@ -2299,8 +2299,8 @@ features:
     link_description: "Approvals Documentation"
     link: https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html
     category:
-        - source_code_management
-        - code_review
+      - source_code_management
+      - code_review
     gitlab_core: false
     gitlab_starter: true
     gitlab_premium: true
@@ -2326,8 +2326,8 @@ features:
     link_description: "Approvals Documentation"
     link: https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html
     category:
-        - source_code_management
-        - code_review
+      - source_code_management
+      - code_review
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -2556,7 +2556,7 @@ features:
     link: https://docs.gitlab.com/ee/push_rules/push_rules.html#enabling-push-rules
     link_description: "Read more about enforcing push rules"
     category:
-        - source_code_management
+      - source_code_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -2576,7 +2576,7 @@ features:
     link: https://docs.gitlab.com/ee/push_rules/push_rules.html#enabling-push-rules
     link_description: "In development for GitLab. Follow this link for more information."
     category:
-        - source_code_management
+      - source_code_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -2599,7 +2599,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/repository/index.html#clone-in-apple-xcode
     gitlab_com: true
     category:
-        - source_code_management
+      - source_code_management
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -2866,17 +2866,17 @@ features:
       all: true
     pps_aggregate: 0
     pps_recent: 0
-# Create - Source Code Management: End ----------------------------------------
+  # Create - Source Code Management: End ----------------------------------------
 
-# Create - Code Review: Start -------------------------------------------------
+  # Create - Code Review: Start -------------------------------------------------
 
   - title : "Optional Merge Request Approvals"
     description: "Code review is an essential practice of every successful project, and giving your approval once a merge request is in good shape is an important part of the review process, as it clearly communicates the ability to merge the change."
     link_description: "Learn more about optional merge request approvals"
     link: https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html
     category:
-        - source_code_management
-        - code_review
+      - source_code_management
+      - code_review
     pricing_page: true
     gitlab_core: true
     gitlab_starter: true
@@ -2955,7 +2955,7 @@ features:
     link_description: "Image Discussions"
     link: https://docs.gitlab.com/ee/user/discussions/#image-threads
     category:
-        - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -2973,7 +2973,7 @@ features:
     link_description: "Merge Request Commit Discussions"
     link: https://docs.gitlab.com/ee/user/discussions/#commit-discussions
     category:
-        - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3041,9 +3041,9 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-# Create - Code Review: End ---------------------------------------------------
+  # Create - Code Review: End ---------------------------------------------------
 
-# Create - Code Review:Editor Extension Start ---------------------------------
+  # Create - Code Review:Editor Extension Start ---------------------------------
 
   - title: "Clone project inside Visual Studio Code"
     description: |
@@ -3259,9 +3259,9 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-# Create - Code Review:Editor Extension End -----------------------------------
+  # Create - Code Review:Editor Extension End -----------------------------------
 
-# Create - Gitaly: Start ------------------------------------------------------
+  # Create - Gitaly: Start ------------------------------------------------------
 
   - title : "Deduplicate Git objects for forked repositories"
     description: |
@@ -3269,7 +3269,7 @@ features:
     link_description: "Read about Git object pools"
     link: https://docs.gitlab.com/ee/administration/repository_storage_types.html#hashed-object-pools
     category:
-        - gitaly
+      - gitaly
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3386,9 +3386,9 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-# Create - Gitaly: End --------------------------------------------------------
+  # Create - Gitaly: End --------------------------------------------------------
 
-# Create:Editor - Web IDE: Start ----------------------------------------------
+  # Create:Editor - Web IDE: Start ----------------------------------------------
 
   - title : "Web IDE"
     description: |
@@ -3401,7 +3401,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/project/web_ide/'
     screenshot_url: 56-web-ide.png
     category:
-        - web_ide
+      - web_ide
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3423,7 +3423,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/project/web_ide/#live-preview'
     screenshot_url: 56-web-ide.png
     category:
-        - web_ide
+      - web_ide
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3451,7 +3451,7 @@ features:
     feature_page: false
     screenshot_url: sync-webide-cirunner.png
     category:
-        - web_ide
+      - web_ide
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3482,7 +3482,7 @@ features:
     feature_page: false
     screenshot_url: sync-webide-cirunner.png
     category:
-        - web_ide
+      - web_ide
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3508,7 +3508,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/project/web_ide/index.html#configure-the-web-ide'
     feature_page: false
     category:
-        - web_ide
+      - web_ide
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3527,7 +3527,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/project/web_ide/index.html#markdown-editing'
     feature_page: false
     category:
-        - web_ide
+      - web_ide
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3547,7 +3547,7 @@ features:
     screenshot_url: phikai-realtime-gitlabci-feedback.png
     feature_page: false
     category:
-        - web_ide
+      - web_ide
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3558,9 +3558,9 @@ features:
     bitbucket: false
     pps_aggregate: 0
     pps_recent: 0
-# Create:Editor - Web IDE: End ------------------------------------------------
+  # Create:Editor - Web IDE: End ------------------------------------------------
 
-# Create:Editor - Wiki: Start ---------------------------------------------------
+  # Create:Editor - Wiki: Start ---------------------------------------------------
 
   - title : "Wiki based project documentation"
     description: "A separate system for documentation called Wiki, is built right into each GitLab project. Every Wiki is a separate Git repository."
@@ -3831,7 +3831,7 @@ features:
     screenshot_url: 10-review-apps.png
     feature_page: true
     category:
-        - review_apps
+      - review_apps
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3868,7 +3868,7 @@ features:
     screenshot_url: 10-review-apps.png
     feature_page: true
     category:
-        - review_apps
+      - review_apps
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -4410,7 +4410,7 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-# BEGIN COMPLIANCE GROUP FEATURES
+  # BEGIN COMPLIANCE GROUP FEATURES
 
   - title : "Interface for audit events"
     description: |
@@ -4542,7 +4542,7 @@ features:
 
   - title : "Credentials inventory"
     description: |
-       Keep track of all the personal access tokens, SSH keys, and GPG keys that can be used for access and verification. See when they expire and manage rotation policies.
+      Keep track of all the personal access tokens, SSH keys, and GPG keys that can be used for access and verification. See when they expire and manage rotation policies.
     link_description: "Learn more about the credentials inventory"
     link: https://docs.gitlab.com/ee/user/admin_area/credentials_inventory.html
     solution: Manage
@@ -4649,7 +4649,7 @@ features:
     link_description: "Learn more about Audit Events"
     link: https://docs.gitlab.com/ee/administration/audit_events.html
     category:
-      - audit_events 
+      - audit_events
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -4658,7 +4658,7 @@ features:
     pps_recent: 0
     pricing_theme: "Compliance"
 
-# END COMPLIANCE GROUP FEATURES
+  # END COMPLIANCE GROUP FEATURES
 
   - title : "Disaster Recovery"
     description: "Fail over in minutes to another data-center."
@@ -4722,7 +4722,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/merge_requests/
     link_description: "Learn more about merge requests"
     category:
-        - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -4740,7 +4740,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html
     link_description: "Learn more about the merge conflict resolution UI"
     category:
-        - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -4757,7 +4757,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html'
     link_description: "Learn more about Merge when pipeline succeeds"
     category:
-        - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -4775,7 +4775,7 @@ features:
     link_description: "Learn how to revert a commit or a merge request from the GitLab UI."
     screenshot_url: 27-revert-commits-ui.png
     category:
-        - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -4799,7 +4799,7 @@ features:
     screenshot_url: phikai-launch-gitpod-editor.gif
     feature_page: false
     category:
-        - web_ide
+      - web_ide
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -4817,7 +4817,7 @@ features:
     screenshot_url: phikai-snippets-multiple-files.png
     feature_page: true
     category:
-        - snippets
+      - snippets
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -4830,7 +4830,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/merge_requests/versions.html
     link_description: "Learn more about merge request versions"
     category:
-        - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -4851,7 +4851,7 @@ features:
     link: https://docs.gitlab.com/ee/user/discussions/#resolvable-discussions
     link_description: "Learn more about resolving discussions"
     category:
-        - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -4888,8 +4888,8 @@ features:
     link: https://docs.gitlab.com/runner/configuration/autoscale.html#overview
     link_description: "Learn more about GitLab CI/CD Horizontal Autoscaling"
     category:
-        - continuous_integration
-        - continuous_delivery
+      - continuous_integration
+      - continuous_delivery
     gitlab_com: true
     gitlab_core: true
     gitlab_starter: true
@@ -4910,8 +4910,8 @@ features:
     link: https://docs.gitlab.com/ee/user/operations_dashboard/
     link_description: "Learn more about Cross-Project Pipelines in the Operations Dashboard"
     category:
-        - continuous_integration
-        - continuous_delivery
+      - continuous_integration
+      - continuous_delivery
     gitlab_com: true
     gitlab_core: false
     gitlab_starter: false
@@ -5051,7 +5051,7 @@ features:
     link_description: "Read the docs"
     link: https://docs.gitlab.com/ee/user/packages/container_registry/
     category:
-        - container_registry
+      - container_registry
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -5072,7 +5072,7 @@ features:
     link_description: "Learn more about the GitLab container registry"
     link: https://docs.gitlab.com/ee/user/packages/container_registry/index.html
     category:
-        - container_registry
+      - container_registry
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -5310,7 +5310,7 @@ features:
     link_description: "Kubernetes integration"
     link: /solutions/kubernetes/
     category:
-        - container_registry
+      - container_registry
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -5335,7 +5335,7 @@ features:
     link_description: "Learn more about the web terminal"
     link: 'https://docs.gitlab.com/ee/ci/environments/index.html#web-terminals'
     category:
-        - container_registry
+      - container_registry
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -5357,7 +5357,7 @@ features:
     link_description: "Learn more about container image cleanup policies"
     link: https://docs.gitlab.com/ee/user/packages/container_registry/#cleanup-policy
     category:
-        - container_registry
+      - container_registry
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -5382,7 +5382,7 @@ features:
     link_description: "Learn more about pipeline graphs"
     link: 'https://docs.gitlab.com/ee/ci/pipelines/index.html#pipeline-graphs'
     category:
-        - continuous_integration
+      - continuous_integration
     gitlab_com: true
     gitlab_core: true
     gitlab_starter: true
@@ -5430,7 +5430,7 @@ features:
     link_description: "Learn more about using job artifacts in your project"
     link: 'https://docs.gitlab.com/ee/ci/pipelines/job_artifacts.html'
     category:
-        - continuous_integration
+      - continuous_integration
     gitlab_com: true
     gitlab_core: true
     gitlab_starter: true
@@ -5463,7 +5463,7 @@ features:
     link_description: "Learn more about job artifacts expiration"
     link: 'https://docs.gitlab.com/ee/ci/yaml/#artifactsexpire_in'
     category:
-        - continuous_integration
+      - continuous_integration
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -5726,7 +5726,7 @@ features:
     link_description: "Learn more about creating a release"
     link: 'https://docs.gitlab.com/ee/user/project/releases/#create-a-release'
     category:
-        - release_orchestration
+      - release_orchestration
     gitlab_core: true
     gitlab_premium: true
     gitlab_ultimate: true
@@ -5742,7 +5742,7 @@ features:
     link_description: "Learn more about history of an environment"
     link: 'https://docs.gitlab.com/ee/ci/environments/index.html#viewing-the-deployment-history-of-an-environment'
     category:
-        - release_orchestration
+      - release_orchestration
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -5808,8 +5808,8 @@ features:
     link_description: "Learn how to configure a custom CI/CD configuration file"
     link: 'https://docs.gitlab.com/ee/ci/pipelines/settings.html#custom-ci-config-path'
     category:
-        - continuous_integration
-        - continuous_delivery
+      - continuous_integration
+      - continuous_delivery
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -5866,8 +5866,8 @@ features:
     link_description: "Install GitLab Runner on Windows"
     link: 'https://docs.gitlab.com/runner/install/windows.html'
     category:
-        - continuous_integration
-        - continuous_delivery
+      - continuous_integration
+      - continuous_delivery
     gitlab_com: true
     gitlab_core: true
     gitlab_starter: true
@@ -5893,8 +5893,8 @@ features:
     link_description: "Install GitLab Runner on macOS"
     link: 'https://docs.gitlab.com/runner/install/osx.html'
     category:
-        - continuous_integration
-        - continuous_delivery
+      - continuous_integration
+      - continuous_delivery
     gitlab_com: true
     gitlab_core: true
     gitlab_starter: true
@@ -5927,8 +5927,8 @@ features:
     link_description: "Install GitLab Runner on Linux"
     link: 'https://docs.gitlab.com/runner/install/linux-manually.html'
     category:
-        - continuous_integration
-        - continuous_delivery
+      - continuous_integration
+      - continuous_delivery
     gitlab_com: true
     gitlab_core: true
     gitlab_starter: true
@@ -5953,8 +5953,8 @@ features:
     link_description: "Install GitLab Runner on FreeBSD"
     link: 'https://docs.gitlab.com/runner/install/freebsd.html'
     category:
-        - continuous_integration
-        - continuous_delivery
+      - continuous_integration
+      - continuous_delivery
     gitlab_com: true
     gitlab_core: true
     gitlab_starter: true
@@ -5979,7 +5979,7 @@ features:
     link_description: "Learn how to generate and show code coverage information in GitLab"
     link: /blog/2016/11/03/publish-code-coverage-report-with-gitlab-pages/
     category:
-        - code_testing
+      - code_testing
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -6002,8 +6002,8 @@ features:
     link_description: "Learn more about job output logs in the documentation"
     link: 'https://docs.gitlab.com/ee/ci/pipelines/#expand-and-collapse-job-log-sections'
     category:
-        - continuous_integration
-        - continuous_delivery
+      - continuous_integration
+      - continuous_delivery
     gitlab_com: true
     gitlab_core: false
     gitlab_starter: false
@@ -6060,8 +6060,8 @@ features:
     link_description: "Read more on the issue"
     link: 'https://docs.gitlab.com/ee/ci/runners/#prevent-runners-from-revealing-sensitive-information'
     category:
-        - continuous_integration
-        - continuous_delivery
+      - continuous_integration
+      - continuous_delivery
     gitlab_com: true
     gitlab_core: true
     gitlab_starter: true
@@ -6084,7 +6084,7 @@ features:
     link_description: "Read more on the docs"
     link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
     category:
-        - kubernetes_management
+      - kubernetes_management
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -6107,7 +6107,7 @@ features:
     link_description: "Read more on the docs"
     link: 'https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#restrict-project-and-group-access-by-using-impersonation'
     category:
-        - kubernetes_management
+      - kubernetes_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -6131,7 +6131,7 @@ features:
     link_description: "Read more on the docs"
     link: 'https://docs.gitlab.com/ee/user/clusters/agent/gitops.html'
     category:
-        - kubernetes_management
+      - kubernetes_management
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -6454,8 +6454,8 @@ features:
     link: 'https://docs.gitlab.com/ee/topics/autodevops/index.html#incremental-rollout-to-production'
     feature_page: false
     category:
-        - continuous_delivery
-        - advanced_deployments
+      - continuous_delivery
+      - advanced_deployments
     pricing_page: true
     gitlab_com: true
     gitlab_core: true
@@ -6476,9 +6476,9 @@ features:
     link: 'https://docs.gitlab.com/ee/user/project/canary_deployments.html'
     feature_page: false
     category:
-        - continuous_delivery
-        - advanced_deployments
-        - kubernetes_management
+      - continuous_delivery
+      - advanced_deployments
+      - kubernetes_management
     pricing_page: true
     gitlab_com: true
     gitlab_core: true
@@ -6761,7 +6761,7 @@ features:
     link_description: "Learn more about Automatic Retry for Failed CI Jobs"
     link: 'https://docs.gitlab.com/ee/ci/yaml/#retry'
     category:
-        - pipeline_authoring
+      - pipeline_authoring
     gitlab_com: true
     gitlab_core: true
     gitlab_starter: true
@@ -6829,7 +6829,7 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-# BEGIN SECURE STAGE FEATURES
+  # BEGIN SECURE STAGE FEATURES
 
   - title : "Static Application Security Testing"
     # https://www.synopsys.com/content/dam/synopsys/sig-assets/datasheets/SAST-Coverity-datasheet.pdf
@@ -6841,27 +6841,27 @@ features:
     link: 'https://docs.gitlab.com/ee/user/application_security/sast/'
     screenshot_url: 54-sast.png
     category:
-        - static_application_security_testing
+      - static_application_security_testing
     gitlab_core:
       valid: true
-#      details: 'supports 18 languages'
+    #      details: 'supports 18 languages'
     gitlab_starter:
       valid: true
-#      details: 'supports 18 languages'
+    #      details: 'supports 18 languages'
     gitlab_premium:
       valid: true
-#      details: 'supports 18 languages'
+    #      details: 'supports 18 languages'
     gitlab_ultimate:
       valid: true
-#      details: 'supports 18 languages'
+    #      details: 'supports 18 languages'
     feature_page: true
     pricing_page: true
     gitlab_com: true
     gitlab_ci: true
-#    blackduck: false
+    #    blackduck: false
     synopsys:
       valid: true
-#      details: 'supports 20 languages' # https://www.synopsys.com/content/dam/synopsys/sig-assets/datasheets/SAST-Coverity-datasheet.pdf
+    #      details: 'supports 20 languages' # https://www.synopsys.com/content/dam/synopsys/sig-assets/datasheets/SAST-Coverity-datasheet.pdf
     snyk: false
     ca_veracode: true
     checkmarx: true
@@ -6872,7 +6872,7 @@ features:
     sonatype_nexus_platform: false
     travis_ci: false
     puppet: true
-#    palo-alto: false
+    #    palo-alto: false
     #prisma_cloud: false
     whitesource: false
     rapid7: false
@@ -6883,7 +6883,7 @@ features:
     gitlab_security: true
     codefresh: false
     plutora: false
-#    semmle: true
+    #    semmle: true
     pps_aggregate: 9
     pps_recent: 0
 
@@ -6894,7 +6894,7 @@ features:
     link: https://docs.gitlab.com/ee/user/application_security/configuration/
     solution: Secure
     category:
-        - static_application_security_testing
+      - static_application_security_testing
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -6911,7 +6911,7 @@ features:
     link: https://docs.gitlab.com/ee/user/application_security/sast/#custom-rulesets
     solution: Secure
     category:
-        - static_application_security_testing
+      - static_application_security_testing
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -6927,7 +6927,7 @@ features:
     link_description: "Learn more about IaC security scanning"
     link: 'https://docs.gitlab.com/ee/user/application_security/iac_scanning/'
     category:
-        - static_application_security_testing
+      - static_application_security_testing
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -6963,7 +6963,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/application_security/secret_detection/'
     screenshot_url: secret-detection_v13_1.png
     category:
-        - secret_detection
+      - secret_detection
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -6973,7 +6973,7 @@ features:
     gitlab_com: true
     gitlab_ci: true
     anchore: true
-#   blackduck: false
+    #   blackduck: false
     synopsys: false
     snyk: false
     ca_veracode: true
@@ -6984,7 +6984,7 @@ features:
     sonarqube: true
     sonatype_nexus_platform: false
     travis_ci: false
-#    palo-alto: false
+    #    palo-alto: false
     whitesource: false
     rapid7: false
     qualys: false
@@ -6992,7 +6992,7 @@ features:
     gitlab_security: true
     codefresh: false
     plutora: false
-#    semmle: false
+    #    semmle: false
     pps_aggregate: 0
     pps_recent: 0
     pricing_theme: "Advanced security testing"
@@ -7004,7 +7004,7 @@ features:
     link: https://docs.gitlab.com/ee/user/application_security/secret_detection/#custom-rulesets
     solution: Secure
     category:
-        - secret_detection
+      - secret_detection
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -7020,7 +7020,7 @@ features:
     link: https://docs.gitlab.com/ee/user/application_security/secret_detection/#full-history-secret-scan
     solution: Secure
     category:
-        - secret_detection
+      - secret_detection
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -7036,7 +7036,7 @@ features:
     link: https://docs.gitlab.com/ee/user/application_security/secret_detection/#post-processing
     solution: Secure
     category:
-        - secret_detection
+      - secret_detection
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -7068,7 +7068,7 @@ features:
     link_description: "Learn more about Dependency Scanning"
     link: 'https://docs.gitlab.com/ee/user/application_security/dependency_scanning/'
     category:
-        - dependency_scanning
+      - dependency_scanning
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -7076,7 +7076,7 @@ features:
     gitlab_com: true
     gitlab_ci: true
     anchore: true
-#    blackduck: true
+    #    blackduck: true
     synopsys: true
     snyk: true
     ca_veracode: true
@@ -7088,7 +7088,7 @@ features:
     sonarqube: false
     sonatype_nexus_platform: true
     travis_ci: false
-#    palo-alto: false
+    #    palo-alto: false
     #prisma_cloud: false
     whitesource: true
     rapid7: false
@@ -7111,7 +7111,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/application_security/container_scanning/'
     screenshot_url: 56-container-scanning.png
     category:
-        - container_scanning
+      - container_scanning
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -7120,7 +7120,7 @@ features:
     gitlab_com: true
     gitlab_ci: true
     anchore: true
-#   blackduck: true
+    #   blackduck: true
     synopsys: true
     snyk: true
     ca_veracode: true
@@ -7133,7 +7133,7 @@ features:
     sonarqube: false
     sonatype_nexus_platform: true
     travis_ci: false
-#    palo-alto: true
+    #    palo-alto: true
     whitesource: true
     rapid7: false
     qualys: true
@@ -7141,7 +7141,7 @@ features:
     github: false
     gitlab_security: true
     plutora: false
-#    semmle: false
+    #    semmle: false
     pps_aggregate: 12
     pps_recent: 0
     pricing_theme: "Advanced security testing"
@@ -7169,7 +7169,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/application_security/dast/'
     screenshot_url: 57-dast.png
     category:
-        - dynamic_application_security_testing
+      - dynamic_application_security_testing
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -7177,7 +7177,7 @@ features:
     pricing_page: true
     gitlab_com: true
     gitlab_ci: true
-#    blackduck: false
+    #    blackduck: false
     synopsys: true
     snyk: false
     ca_veracode: true
@@ -7189,14 +7189,14 @@ features:
     sonarqube: false
     sonatype_nexus_platform: false
     travis_ci: false
-#    palo-alto: false
+    #    palo-alto: false
     whitesource: false
     rapid7: true
     qualys: true
     github: false
     gitlab_security: true
     plutora: false
-#   semmle: false
+    #   semmle: false
     #prisma_cloud: false
     pps_aggregate: 20
     pps_recent: 1
@@ -7209,14 +7209,14 @@ features:
     link_description: ""
     link:
     category:
-        - unknown
+      - unknown
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
     gitlab_ultimate: false
     gitlab_com: false
     gitlab_ci: false
-#   blackduck: false
+    #   blackduck: false
     synopsys: true
     snyk: false
     ca_veracode: true
@@ -7228,7 +7228,7 @@ features:
     sonatype_nexus_platform: false
     travis_ci: false
     codefresh: false
-#    palo-alto: false
+    #    palo-alto: false
     #prisma_cloud: false
     whitesource: false
     rapid7: false
@@ -7236,7 +7236,7 @@ features:
     github: false
     gitlab_security: false
     plutora: false
-#    semmle: false
+    #    semmle: false
     pps_aggregate: 0
     pps_recent: 0
 
@@ -7270,11 +7270,11 @@ features:
     pps_aggregate: 4
     pps_recent: 1
 
-# END SECURE STAGE FEATURES
+  # END SECURE STAGE FEATURES
 
-# BEGIN GOVERN STAGE FEATURES
+  # BEGIN GOVERN STAGE FEATURES
 
-# Govern - Threat Insights: Start ---------------------------------------------
+  # Govern - Threat Insights: Start ---------------------------------------------
 
   - title : "Vulnerability Management"
     description: |
@@ -7283,7 +7283,7 @@ features:
     link_description: "Learn more about Vulnerability Management"
     link: 'https://about.gitlab.com/direction/secure/vulnerability_management/'
     category:
-        - vulnerability_management
+      - vulnerability_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -7398,7 +7398,7 @@ features:
     link: https://about.gitlab.com/releases/2020/10/22/gitlab-13-5-released/#improved-merge-request-experience-for-security-scans
     solution: Govern
     category:
-        - vulnerability_management
+      - vulnerability_management
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -7418,7 +7418,7 @@ features:
     link: "https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#enable-security-training-for-vulnerabilities"
     solution: Govern
     category:
-        - vulnerability_management
+      - vulnerability_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -7456,7 +7456,7 @@ features:
     link: https://docs.gitlab.com/ee/user/application_security/index.html#security-approvals-in-merge-requests
     solution: Govern
     category:
-        - security_policy_management
+      - security_policy_management
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -7484,7 +7484,7 @@ features:
     pps_recent: 0
     pricing_theme: "Advanced security testing"
 
-# END GOVERN STAGE FEATURES
+  # END GOVERN STAGE FEATURES
 
   - title : "Browser Performance Testing"
     description: |
@@ -7715,14 +7715,14 @@ features:
     link: 'https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html'
     screenshot_url: 62-license-management.png
     category:
-        - license_compliance
+      - license_compliance
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
     gitlab_ultimate: true
     gitlab_com: true
     pricing_page: true
-#   blackduck: true
+    #   blackduck: true
     synopsys: true
     snyk: true
     ca_veracode: true
@@ -7737,7 +7737,7 @@ features:
     qualys: false
     saltstack: true
     sysdig: true
-#    semmle: false
+    #    semmle: false
     pps_aggregate: 9
     pps_recent: 4
     pricing_theme: "Compliance"
@@ -7795,7 +7795,7 @@ features:
     link_description: "Learn more about Deploy Tokens"
     link: 'https://docs.gitlab.com/ee/user/project/deploy_tokens/'
     category:
-        - continuous_delivery
+      - continuous_delivery
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -8316,7 +8316,7 @@ features:
     link_description: "Learn more about inline code coverage in MR diffs"
     link: "https://docs.gitlab.com/ee/user/project/merge_requests/test_coverage_visualization.html"
     category:
-       - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -8726,7 +8726,7 @@ features:
     link_description: "Learn more about the web terminal"
     link: 'https://docs.gitlab.com/ee/ci/environments/index.html#web-terminals'
     category:
-        - package_registry
+      - package_registry
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -8745,7 +8745,7 @@ features:
     link_description: "Learn more about the GitLab Package Registry"
     link: 'https://docs.gitlab.com/ee/user/packages/'
     category:
-        - package_registry
+      - package_registry
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -8829,10 +8829,10 @@ features:
 
   - title : "Windows Container Executor"
     description: |
-        With this feature you are able to use Docker containers on Windows directly,
-        in much the same was as if they were on Linux hosts. This enables more
-        advanced kinds of pipeline orchestration and management for users of
-        Microsoft platforms.
+      With this feature you are able to use Docker containers on Windows directly,
+      in much the same was as if they were on Linux hosts. This enables more
+      advanced kinds of pipeline orchestration and management for users of
+      Microsoft platforms.
     link_description: "Learn more about the Windows Container Executor"
     link: "https://docs.gitlab.com/runner/executors/docker.html#using-windows-containers"
     solution: Verify
@@ -9338,7 +9338,7 @@ features:
     screenshot_url: batch-comments.png
     solution: create
     category:
-        - code_review
+      - code_review
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -10022,9 +10022,9 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-  - title : "GitLab SaaS Runners on Linux"
+  - title : "GitLab SaaS Runners on Linux - Small Machine Type"
     description: |
-      GitLab SaaS runners for Linux run your CI job in its own virtual machine using GitLab Runner Docker executor.
+      GitLab SaaS runners for Linux - small machine type runs your CI job in a dedicated one-time-use 1vCPU, 3.75GB RAM virtual machine in Docker containers.
     link_description: "Learn how to use the GitLab SaaS Runners for Linux"
     link: "https://docs.gitlab.com/ee/ci/runners/saas/linux_saas_runner.html"
     solution: Verify
@@ -10032,6 +10032,56 @@ features:
       - runner
     gitlab_core: true
     gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: true
+    deployhq: false
+    harness: false
+    pps_aggregate: 0
+    pps_recent: 0
+    works_by_default:
+      gitlab_com: true
+      omnibus: true
+      chart: true
+      source: true
+      gdk: true
+
+  - title : "GitLab SaaS Runners on Linux - Medium Machine Type"
+    description: |
+      GitLab SaaS runners for Linux - medium machine type runs your CI job in a dedicated one-time-use 2vCPUs, 8GB RAM virtual machine in Docker containers.
+    link_description: "Learn how to use the GitLab SaaS Runners for Linux"
+    link: "https://docs.gitlab.com/ee/ci/runners/saas/linux_saas_runner.html"
+    solution: Verify
+    category:
+      - runner
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: true
+    deployhq: false
+    harness: false
+    pps_aggregate: 0
+    pps_recent: 0
+    works_by_default:
+      gitlab_com: true
+      omnibus: true
+      chart: true
+      source: true
+      gdk: true
+
+  - title : "GitLab SaaS Runners on Linux - Large Machine Type"
+    description: |
+      GitLab SaaS runners for Linux - large machine type runs your CI job in a dedicated one-time-use 4vCPUs, 16GB RAM virtual machine in Docker containers.
+    link_description: "Learn how to use the GitLab SaaS Runners for Linux"
+    link: "https://docs.gitlab.com/ee/ci/runners/saas/linux_saas_runner.html"
+    solution: Verify
+    category:
+      - runner
+    gitlab_core: false
+    gitlab_starter: false
     gitlab_premium: true
     gitlab_ultimate: true
     gitlab_com: true
@@ -10346,7 +10396,7 @@ features:
 
   - title : "DevOps Adoption"
     description:
-        DevOps Adoption shows you which teams across your organization are using GitLab Issues, Merge Requests, Approvals, Runners, Pipelines, Deploys, and Scanning, and also shows the trend of adoption over time.
+      DevOps Adoption shows you which teams across your organization are using GitLab Issues, Merge Requests, Approvals, Runners, Pipelines, Deploys, and Scanning, and also shows the trend of adoption over time.
     link_description: "Learn more about DevOps Adoption"
     link: "https://docs.gitlab.com/ee/user/group/devops_adoption"
     category:
@@ -10650,7 +10700,7 @@ features:
     link: https://docs.gitlab.com/ee/subscriptions/#users-statistics
     solution: Manage
     category:
-        - users
+      - users
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -10811,7 +10861,7 @@ features:
     link: https://docs.gitlab.com/ee/integration/jira/issues.html#view-jira-issues
     solution: Create
     category:
-        - integrations
+      - integrations
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -10828,7 +10878,7 @@ features:
     link: https://docs.gitlab.com/ee/ci/yaml/#parallel-matrix-jobs
     solution: Verify
     category:
-        - pipeline_authoring
+      - pipeline_authoring
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -10851,7 +10901,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/'
     solution: Secure
     category:
-        - fuzz_testing
+      - fuzz_testing
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -10868,7 +10918,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/application_security/api_fuzzing/index.html'
     solution: Secure
     category:
-        - api_security
+      - api_security
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -10884,7 +10934,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html
     solution: manage
     category:
-        - credential_management
+      - credential_management
     gitlab_core: true
     gitlab_premium: true
     gitlab_ultimate: true
@@ -10902,7 +10952,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html
     solution: manage
     category:
-        - credential_management
+      - credential_management
     gitlab_core: true
     gitlab_starter: false
     gitlab_premium: true
@@ -10921,7 +10971,7 @@ features:
     link: https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html
     solution: manage
     category:
-        - credential_management
+      - credential_management
     gitlab_core: true
     gitlab_premium: true
     gitlab_ultimate: true
@@ -10939,7 +10989,7 @@ features:
     link: https://docs.gitlab.com/ee/user/admin_area/moderate_users.html
     solution: manage
     category:
-        - user_management
+      - user_management
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -10956,7 +11006,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/application_security/dast/#on-demand-scans'
     screenshot_url: dast_on_demand_v13_3.png
     category:
-        - dynamic_application_security_testing
+      - dynamic_application_security_testing
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -10964,7 +11014,7 @@ features:
     pricing_page: true
     gitlab_com: true
     gitlab_ci: true
-#    blackduck: false
+    #    blackduck: false
     synopsys: true
     snyk: false
     ca_veracode: true
@@ -10976,15 +11026,15 @@ features:
     sonarqube: false
     sonatype_nexus_platform: false
     travis_ci: false
-#    palo-alto: false
+    #    palo-alto: false
     whitesource: false
     rapid7: true
     qualys: true
     github: false
     gitlab_security: true
     plutora: false
-#    semmle: false
-  #  prisma_cloud: false
+    #    semmle: false
+    #  prisma_cloud: false
     pps_aggregate: 2
     pps_recent: 0
     pricing_theme: "Advanced security testing"
@@ -10996,7 +11046,7 @@ features:
     link_description: "Learn more about application security for containers"
     link: 'https://docs.gitlab.com/ee/user/application_security/dast/#site-profile'
     category:
-        - dynamic_application_security_testing
+      - dynamic_application_security_testing
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -11004,7 +11054,7 @@ features:
     pricing_page: true
     gitlab_com: true
     gitlab_ci: true
-#    blackduck: false
+    #    blackduck: false
     synopsys: true
     snyk: false
     ca_veracode: true
@@ -11016,14 +11066,14 @@ features:
     sonarqube: false
     sonatype_nexus_platform: false
     travis_ci: false
-#    palo-alto: false
+    #    palo-alto: false
     whitesource: false
     rapid7: true
     qualys: true
     github: false
     gitlab_security: true
     plutora: false
-#   semmle: false
+    #   semmle: false
     #prisma_cloud: false
     pps_aggregate: 3
     pps_recent: 1
@@ -11034,7 +11084,7 @@ features:
     link_description: "Create a release directly from .gitlab-ci.yml"
     link: 'https://docs.gitlab.com/ee/user/project/releases/index.html#release-command-line'
     category:
-        - release_orchestration
+      - release_orchestration
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -11051,8 +11101,8 @@ features:
     link_description: "Store any binary with GitLab's Generic Package Registry"
     link: 'https://docs.gitlab.com/ee/user/project/releases/#release-assets'
     category:
-        - release_orchestration
-        - package_registry
+      - release_orchestration
+      - package_registry
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -11145,6 +11195,23 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
+  - title : "Suggested Reviewers"
+    description: "GitLab can suggest reviewers for merge requests powered by machine learning and a projects contribution graph."
+    link_description: "Learn more about Suggested Reviewers"
+    link: https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#suggested-reviewers
+    solution: Create
+    category:
+      - code_review
+      - workflow_automation
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    gitlab_com: true
+    pricing_page: false
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "Maintenance mode"
     description: "Maintenance mode allows systems administrators to perform maintenance operations, such as preparing for a scheduled failover, with minimal disruption to end users."
     logo: '/images/unreleased/maintenance_mode.png'
@@ -11172,7 +11239,7 @@ features:
     link: 'https://docs.gitlab.com/ee/user/application_security/dast/#configure-dast-using-the-ui'
     screenshot_url: dast_config_ui.png
     category:
-        - dynamic_application_security_testing
+      - dynamic_application_security_testing
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -11180,7 +11247,7 @@ features:
     pricing_page: true
     gitlab_com: true
     gitlab_ci: true
-#    blackduck: false
+    #    blackduck: false
     synopsys: true
     snyk: false
     ca_veracode: true
@@ -11192,15 +11259,15 @@ features:
     sonarqube: false
     sonatype_nexus_platform: false
     travis_ci: false
-#    palo-alto: false
+    #    palo-alto: false
     whitesource: false
     rapid7: true
     qualys: true
     github: false
     gitlab_security: true
     plutora: false
-#    semmle: false
-  #  prisma_cloud: false
+    #    semmle: false
+    #  prisma_cloud: false
     pps_aggregate: 1
     pps_recent: 0
     pricing_theme: "Advanced security testing"
@@ -11227,8 +11294,8 @@ features:
     link: https://docs.gitlab.com/ee/ci/pipelines/multi_project_pipelines.html#multi-project-pipeline-visualization
     solution: Verify
     category:
-        - pipeline_authoring
-        - continuous_integration
+      - pipeline_authoring
+      - continuous_integration
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: true
@@ -11249,7 +11316,7 @@ features:
     link_description: "Learn more about scheduling on-demand scans"
     link: 'https://docs.gitlab.com/ee/user/application_security/dast/#schedule-an-on-demand-scan'
     category:
-        - dynamic_application_security_testing
+      - dynamic_application_security_testing
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -11257,7 +11324,7 @@ features:
     pricing_page: true
     gitlab_com: true
     gitlab_ci: true
-#    blackduck: false
+    #    blackduck: false
     synopsys: true
     snyk: false
     ca_veracode: true
@@ -11269,14 +11336,14 @@ features:
     sonarqube: false
     sonatype_nexus_platform: false
     travis_ci: false
-#    palo-alto: false
+    #    palo-alto: false
     whitesource: false
     rapid7: true
     qualys: true
     github: false
     gitlab_security: true
     plutora: false
-#   semmle: false
+    #   semmle: false
     #prisma_cloud: false
     pps_aggregate: 1
     pps_recent: 0

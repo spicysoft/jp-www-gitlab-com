@@ -919,7 +919,9 @@ stages:
         backend_engineering_manager: Amar Patel
         be_team_tag: Secure:Static Analysis BE Team
         fe_team_tag: Secure:Static Analysis FE Team
-        support: Greg Myers, Eric Rosenberg
+        support:
+          - Greg Myers
+          - Eric Rosenberg
         appsec_engineer: Nikhil George
         pdm:
           - Justin Mandell
