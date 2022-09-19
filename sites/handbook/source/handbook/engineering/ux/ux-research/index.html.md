@@ -78,6 +78,7 @@ Below is a full list of our UX Research team handbook content:
 
 ### Templates
 
+- [Time on Task template (internal link)](https://docs.google.com/spreadsheets/d/1rvhUcNlSzs6STv3EGWDddohxOo3F99ZRHN9W7wjBzIo/edit?usp=sharing) 
 - [UX research report template (internal link)](https://docs.google.com/presentation/d/1E8eZpf0T3p6Wf-aEmLjIOFZ_6jdvxc4eySwQ6FnHCZs/copy)
 - [User interview note-taking template (internal link)](https://docs.google.com/spreadsheets/d/1_zFp_WXg9jM84dBqv4ARPFTtwPlJGxAi_IVDeED8VFY/copy)
 - [Usability testing script template (internal link)](https://docs.google.com/document/d/15tvKXmFUxOT7fo550efuFLQ_ZSDZ2fyuVX_XTQSDBJk/copy)
