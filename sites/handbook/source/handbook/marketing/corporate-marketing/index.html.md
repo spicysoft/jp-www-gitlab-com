@@ -112,6 +112,48 @@ To learn more about the Corporate Events team, its purview, and how we work, ple
 
 See our [handbook page](/handbook/marketing/corporate-marketing/corp-event-marketing/) for more details.
 
+## Sponsored Events - Staffing Process
+
+**Sponsored Event Tiers**
+
+Sponsored Events are categorized into (3) Tiers at GitLab.  The Tier of the show is determined by the sponsorship level, thought leadership opportunities, size of the booth, stakeholders attending and if the audience is our key demographic.  Depending on the booths size they are staffed accordingly: 
+
+
+
+    1. Tier 1: Typically uses our 20 x 20 Tier 1 booth structure, which has (4) demo stations, lightning talk area, meeting area, host counter, activation (example: VR experience), & coding challenge desk. Ideally 20-30 staff members will be asked to work at the booth in order to adequately staff all the shifts and ensure coverage in all the zones. 
+    For Tier 1 shows, we may add-on an additional Activation Zone space that will feature other activities. Some examples GitLab has done in that past include: a caricature artist, code challenge, charging stations, or tabletop games. 
+    2. Tier 2: Will either be a smaller version of our Tier 1 booth or a turnkey booth 10 x 10 - 10 x 20 foot print. Around 6 - 10 staff members will be requested to staff the demo stations, activation, host counter & assist with other onsite activities such as sessions, photography or an ancillary event.
+    3. Tier 3: This size sponsorship does not require a big lift from Corporate Events and only 4-6 staff members will be needed onsite to manage two shifts that are properly staffed and can handle 1 or 2 demo stations and a host counter. These shows have no other activities going on such as sessions, meetings or an ancillary event. 
+
+**Staff Process**
+
+
+
+1. **Create the [Staffing Issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_Travel_Staffing_Template) when the epic is created with the show overview & GitLab policy to attend with checklist for staff members to complete & get manager approval. ** 
+2. Consider the audience of the show as well as the show theme/focus before reaching out to departments to ask for staffing help. 
+    1. Example: if it’s a Security focused show like Black Hat, maybe a Security team member from Product or a TMM with Security expertise should attend. 
+
+2. Once you have taken into consideration the audience and focus of the show, you can start reaching out to managers and VPs via group slack channels to staff the show. Try to be specific in your request with travel dates,details of the show, and how many team members from the group that you're needing. 
+
+
+
+    2. Example: we’re looking for 2 TMMs to help with Security demos at Black Hat in Las Vegas on August 10-11. Can you see who is available on your team? 
+
+3. Once you have built a list, start tagging in the team members to complete the staff checklist in the comments and ask them to tag in their manager for approval. 
+
+4. Once the team member completes their checklist, slack DM them their registration code to register for the show with additional information for booking hotels and flights.
+
+5. After you have a full staff list and all those who are expected to attend fully registered, you can start building out the staff schedule to assign booth shifts. Booth shifts typically last 4 hours and are split between AM and PM shifts. 
+
+6. Once the staff list is full, make sure to send out invites for: 
+
+
+
+    3. Kick Off call (ideally 6-8 weeks out) 
+    4. Recurring staff sync meetings every other week for show updates & weekly once 4 weeks out for Tier 1 & 2 shows
+    5. Know Before You Go (KBYG) 2-3 business days prior to travel 
+
+7. Once the staff schedule is finalized, send out calendar invites to the actual booth shifts about 1 week before day 1 of the show. 
 
 - - -
 
