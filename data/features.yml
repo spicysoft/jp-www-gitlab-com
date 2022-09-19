@@ -6249,8 +6249,8 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-  - title : "Limit the number of custom Pages domains on Self-managed instances"
-    description: "Set a limit for how many custom domains can be defined for GitLab Pages projects on Self-Managed instances of GitLab."
+  - title : "Limit the maximum number of custom domains per project"
+    description: "Limit how many custom domains you can define per GitLab Pages project on self-managed instances."
     link_description: "Learn more about configuring limits for GitLab Pages"
     link: 'https://docs.gitlab.com/ee/administration/pages/#set-maximum-number-of-gitlab-pages-custom-domains-for-a-project'
     category:
