@@ -1,0 +1,83 @@
+---
+title: Using GitLab Pages + Let's Encrypt
+author: ""
+author_gitlab: Bryan Behrenshausen, Fatima Sarah Khalid
+author_twitter: https://twitter.com/sugaroverflow
+categories: "open source, security "
+tags: open source, security, community
+description: In this article, we'll explain how you can add a Let's Encrypt TLS
+  certificate to a website hosted and managed via GitLab Pages.
+twitter_text: By integrating Let's Encrypt, GitLab aims to make a more secure,
+  more trustworthy internet more accessible to everyone.#secureeasy
+---
+## Introduction
+
+Many people rely on the internet to connect, create, learn, and share. They should be able to trust it.
+
+Unfortunately, creating a more secure and trustworthy internet is often too complex. And as a result, using this critical tool exposes far too many people to risks they shouldn't need to face.
+
+But internet security shouldn't be difficult.
+
+By integrating [Let's Encrypt](https://letsencrypt.org/), GitLab aims to make a more secure, more trustworthy internet more accessible to everyone. Encrypted web traffic helps protect the confidentiality of information that people share with websites, and that makes us safer online.
+
+In this article, we'll explain how you can add a Let's Encrypt TLS certificate to a website hosted and managed via GitLab Pages.
+
+## What is TLS/SSL?
+
+"TLS" stands for "Transport Layer Security," a protocol designed to make the internet more secure. Now more than two decades old, the TLS protocol (evolved from and alternatively still known by its former name, "Secure Sockets Layer" or "SSL") helps ensure that when you connect to websites—and transmit potentially sensitive data to and from those websites—you're doing so over a secure connection.
+
+It's an important protocol, because internet connections aren't necessarily secure by default. When you connect to a computer you don't own or control (as you do nearly every time you launch a web browser and ask it to retrieve a webpage for you), you need to trust that the connection you've made hasn't been tampered with. Frustratingly, people with malicious intent can intervene in that connection, then view or even manipulate the data traveling through it. To minimize the chance of that happening, you'd need to be able to guarantee—to certify—that the connection you've made is genuine and secure.
+
+And that's what TLS does.
+
+## How does TLS/SSL work?
+
+TLS consists of several components, one of which is [a digital certificate](https://www.digicert.com/what-is-an-ssl-certificate), the goal of which is to secure data flowing to and from a website and help users trust in the integrity and confidentiality of that data.
+
+The website or domain’s controller can install that certificate on a web server so that anyone visiting the site can view it and feel assured their connection to the website is secure. The controller will ask a certifying body— called a "certificate authority" or "CA"—to electronically sign and verify the certificate to indicate that the person or organization has control over the domain. You can then view the certificate's details to scrutinize your connection to a website you visit.
+
+To do this, simply load any TLS-protected website in a browser. You'll recognize one when you see "https://" in the URL (where the "s" indicates a secure connection), and, typically, a "lock" icon in your browser's URL bar. Clicking on that lock reveals certificate details.
+
+As long as you trust the body that issued the certificate, you can feel more confident that your connection to the website with which you're interacting is secure. 
+
+## Making internet security easier since 2014
+
+Historically, however, obtaining TLS certificates was complicated and complex—more difficult and expensive than perhaps it should have been for website administrators.
+
+The folks at [Let's Encrypt](https://letsencrypt.org/) wanted to ensure that everyone had access to the benefits of encryption. [Formed in 2013](https://www.crn.com/news/cloud/300074840/lets-encrypt-a-free-and-automated-certificate-authority-comes-out-of-stealth-mode.htm) as part of the nonprofit [Internet Security Research Group](https://www.abetterinternet.org/), Let's Encrypt aims to drastically simplify the process of issuing, installing, configuring, and managing TLS certificates. By doing so, it hopes to create an internet that is [more privacy-respecting and secure](https://letsencrypt.org/about/). 
+
+Today, Let's Encrypt is an open and secure certificate authority that makes the process of obtaining and applying TLS certificates easy, automated, and free for website administrators.
+
+And thanks to GitLab's integration with Let's Encrypt, anyone hosting a webpage using GitLab Pages can obtain and apply a TLS certificate with a single click.
+
+## Securing a website with GitLab Pages and Let's Encrypt
+
+[GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/index.html) allows anyone with a GitLab project to host and maintain a static website—and, with [the help of Let's Encrypt](https://docs.gitlab.com/ee/user/project/pages/custom_domains_ssl_tls_certification/lets_encrypt_integration.html), do it securely, too.
+
+Before you can secure your website, you'll need to have a website. So if you haven't already, be sure to:
+
+* Create [a new project](https://docs.gitlab.com/ee/user/project/pages/index.html#how-it-works) (or [fork a sample project](https://docs.gitlab.com/ee/user/project/pages/getting_started/pages_new_project_template.html)) in your GitLab namespace
+* Add your website's source code to that project
+* Register a personal domain name, add it to the project, and [verify it](https://docs.gitlab.com/ee/user/project/pages/custom_domains_ssl_tls_certification/index.html#set-up-pages-with-a-custom-domain)
+
+You're now ready to [add an TLS certificate](https://docs.gitlab.com/ee/user/project/pages/custom_domains_ssl_tls_certification/index.html#adding-an-ssltls-certificate-to-pages) to your site [with Let's Encrypt](https://docs.gitlab.com/ee/user/project/pages/custom_domains_ssl_tls_certification/lets_encrypt_integration.html). To do that:
+
+* Navigate to your project's Settings, then choose Pages
+* Find the domain you want to secure and select Details
+* Click Edit in the top-right corner to modify those details
+* Click the switch to activate Automatic certificate management using Let's Encrypt
+* Click Save to save your changes
+
+\[insert video]
+
+And that's it. Really.
+
+The only thing left to do is wait. Obtaining a Let's Encrypt certificate for your website can take up to an hour. But when you've acquired one, you'll see the certificate information underneath the domain name listed in your Pages settings.
+
+Additionally, you can enhance your website's security by forcing incoming traffic to connect to it securely. Just tick the box to enable Force HTTPS.
+
+## Contributing to a more secure internet
+
+The internet is an incredibly valuable tool, but with that value comes complexity. Let’s Encrypt provides digital certificates to more than 290 million websites, working to create an internet that is more secure and respectful of the privacy of its users. 
+
+At GitLab, we believe that everyone can contribute—and that includes contributing to a safer, more secure internet. By obtaining and setting up an TLS certificate, you’re benefiting from and contributing to the adoption of internet encryption. Internet security shouldn’t be difficult, and we hope that our integration with Let’s Encrypt supports a more secure internet for everyone.
