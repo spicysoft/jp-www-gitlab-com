@@ -1,10 +1,10 @@
-The Import group's primary focus is [GitLab-hosted First](https://about.gitlab.com/direction/#gitlab-hosted-first), putting reliability, scalability, and security first. This will be our primary focus during FY23.
+In the upcoming year we will be focused on two main areas:
+* **GitLab Migration** to allow an easy self-serviced migration of Groups and Projects from a self-managed instance to SaaS and vice versa. Users should be able to migrate all the Projects with their Groups from one instance of GitLab to another via a single click. Our goal is to provide an easy to use tool that recovers gracefully from errors and imports over nearly 100% of relevant objects. 
 
-At this time, the Import group is prioritizing issues as follows:
-1. Production incidents - Critical issues with availability of GitLab.com, typically addressed as soon as they are identified, _e.g. a `P1` `S1` incident_
-1. Customer escalations - High-priority bugs that impact the ability of customers to migrate to GitLab, _e.g. an issue escalated by ProServ_
-1. Reliability / infradev - Identified issues with the reliability of GitLab.com and high-priority infradev initiatives, _e.g. [Database Decomposition Initiative](https://gitlab.com/groups/gitlab-org/-/epics/6168)_
-1. Security - Identified vulnerabilities, e.g. _a security issue assigned to Import_
-1. Product direction - Issues that advance the Group's product direction. We will be focusing on:
-  - [GitLab Migration](https://gitlab.com/groups/gitlab-org/-/epics/2771) - the work planned here is to enable users to migrate all the Projects with their Groups from one instance of GitLab to another via a single click.
-  - [GitHub Migration](https://gitlab.com/groups/gitlab-org/-/epics/2860) - we will be focusing on creating feature parity, so that after completing a migration, our users will be able to pick up where they left off and continue their workflows in GitLab. 
+This work can be tracked in [gitlab&2771](https://gitlab.com/groups/gitlab-org/-/epics/2771). We are way on our path to reach the **Complete** maturity level when the GitLab Migration is able to migrate entire groups along with all of their child subgroups and projects in a single click. It will also be possible to migrate users, which has been identified as the highest priority gap in the single Group and Project importers functionality.
+
+* **GitHub Importer** improvements to allow for reliable and scaleable imports of all relevant GitHub concepts for projects of all sizes. We are focusing on creating feature parity, so that after completing a migration, our users will be able to pick up where they left off and continue their workflows in GitLab.
+
+This is the [planning epic](https://gitlab.com/groups/gitlab-org/-/epics/2860) to reach the **Complete** maturity level for GitHub Importer. Currently we are working on releasing the [option to migrate](https://gitlab.com/gitlab-org/gitlab/-/issues/370734) [issue events](https://gitlab.com/groups/gitlab-org/-/epics/7655) and [pull request events history](https://gitlab.com/groups/gitlab-org/-/epics/7673), this includes events like: who added/removed labels, milestones, assignees, etc. 
+
+The next effort will be [translating GitHub rules for protected branches into GitLab rules and apply them in imported projects](https://gitlab.com/groups/gitlab-org/-/epics/8585) and [adding the functionality to cancel project import form GitHub](https://gitlab.com/gitlab-org/gitlab/-/issues/364783).
