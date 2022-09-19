@@ -29,8 +29,8 @@ releases:
   tech-shadow: tbd
 - version: "15.7"
   date: "2022-12-22"
-  manager: brhea
-  manager-name: Brian Rhea
+  manager: abellucci
+  manager-name: Alana Bellucci
   manager-shadow: tbd
   structural_check: tbd
   messaging: supadhyaya
@@ -42,7 +42,7 @@ releases:
   date: "2022-11-22"
   manager: brhea
   manager-name: Brian Rhea
-  manager-shadow: brhea
+  manager-shadow: abellucci
   structural_check: tbd
   messaging: anair5
   messaging-shadow: tbd
