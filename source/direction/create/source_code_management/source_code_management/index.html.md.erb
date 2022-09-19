@@ -120,7 +120,7 @@ Here are some of the customer/user issues that we recently addressed:
 
 ### What we are currently working on 
 
-- [Source code rules - MVC](https://gitlab.com/groups/gitlab-org/-/epics/8075) - We are bringing the settings for protected branches and merge request approvals conveniently in one single place under Settings > Repository > Branch rules. Moreover, as the name suggests, they will be viewed through the lens of a branch as they naturally relate to such. While no functionality will be changed this significantly improves discoverability and intelligibility of your settings. Previously, these settings were in far apart places making them hard to understand as we learned from user feedback including a recent SUS study.  
+- [MVC: view source code rules organized by branches](https://gitlab.com/groups/gitlab-org/-/epics/8578) - We are bringing the settings for protected branches and merge request approvals conveniently in one single place under Settings > Repository > Branch rules. Moreover, as the name suggests, they will be viewed through the lens of a branch as they naturally relate to such. While no functionality will be changed this significantly improves discoverability and intelligibility of your settings. Previously, these settings were in far apart places making them hard to understand as we learned from user feedback including a recent SUS study. This is the first iteration of this work and will allow viewing only. To change the settings you will need to use the existing settings as you know them. Next, we intend to allow the editing of rules in this single place that organizes the rules by branches.  
 
 - GitLab is working on [making GitLab.com FedRamp compliant](https://about.gitlab.com/solutions/public-sector/fedramp/) and the source code team it contributing its share of work ([internal link](https://gitlab.com/groups/gitlab-org/-/epics/7987)).  
 
@@ -138,9 +138,9 @@ In our [milestone planning issues under our prioritization & Planning epic](http
 
    GitLab offers a number of controls that can be implemented as safeguards. These controls such as protected branches, approval rules, code owners' approvals and many more can be put in place to enforce adherence to policies that ensure quality. A recent SUS study and other feedback suggest that users struggle finding the different controls and struggle understanding which settings interact how. [Framework for Source Code Rules](https://gitlab.com/groups/gitlab-org/-/epics/6351) aims at making it easier and more intuitive to administer your Source Code management tool. To do so we are bringing the different controls together into one single place and will organize them on a per-branch basis.  
 
-   The [Source code rules - MVC](https://gitlab.com/groups/gitlab-org/-/epics/8075) currently being worked on.  
+   The [MVC: view source code rules organized by branches](https://gitlab.com/groups/gitlab-org/-/epics/8578) is currently being worked on. It enables viewing only. 
 
-   After its release, we intend to also [move security approvals under branch rules](https://gitlab.com/gitlab-org/gitlab/-/issues/368467).  
+   After its release, we intend to add the ability to also edit the rules in this new branch-view. Beyond this, we intend to also [move security approvals under branch rules](https://gitlab.com/gitlab-org/gitlab/-/issues/368467).  
 
    Long-term we will consider also moving settings under per-branch view that currently don't relate to branches but might benefit from attaching them to branches such as status checks or merge checks.  
 
