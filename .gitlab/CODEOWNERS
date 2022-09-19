@@ -113,12 +113,12 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/eba/ @mmcb
 
 ^[Engineering]
-/data/projects.yml @edjdev
-/sites/handbook/source/handbook/engineering/ @edjdev
-/sites/handbook/source/handbook/engineering/cross-functional-prioritization/ @edjdev @david
+/data/projects.yml @akramer
+/sites/handbook/source/handbook/engineering/ @akramer
+/sites/handbook/source/handbook/engineering/cross-functional-prioritization/ @akramer @david
 /sites/handbook/source/handbook/engineering/metrics/ @meks @lmai1 @kwiebers @rymai
 /sites/handbook/source/handbook/engineering/open-source/ @johncoghlan @c_hupy @cbacharakis @rymai @kwiebers @nick_vh
-/sites/handbook/source/handbook/developer-onboarding/ @edjdev
+/sites/handbook/source/handbook/developer-onboarding/ @akramer
 /sites/handbook/source/handbook/engineering/performance/ @clefelhocz1 @timzallmann @sloyd
 
 ^[Development department]
@@ -463,16 +463,16 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 
 ^[Product]
 /data/categories.yml @david
-/data/sections.yml @david @edjdev
-/data/stages.yml @david @edjdev
+/data/sections.yml @david @akramer
+/data/stages.yml @david @akramer
 /source/direction/ @david @fseifoddini
 /sites/handbook/source/handbook/product/ @david @fseifoddini @brhea
-/sites/handbook/source/handbook/product/cross-functional-prioritization/ @edjdev @david
+/sites/handbook/source/handbook/product/cross-functional-prioritization/ @akramer @david
 /sites/handbook/source/handbook/product/product-manager-responsibilities/ @david @fseifoddini
 /sites/handbook/source/handbook/product-development-flow/ @david @fseifoddini @justinfarris
 /sites/handbook/source/handbook/product/product-manager-role/ @david
 /sites/handbook/source/handbook/product/product-manager-role/learning-and-development/ @david @fseifoddini @brhea
-/sites/handbook/source/handbook/product/categories/ @david @edjdev
+/sites/handbook/source/handbook/product/categories/ @david @akramer
 /sites/handbook/source/handbook/product/fulfillment-guide/ @justinfarris @jeromezng @tgolubeva @jameslopez @csouthard @rhardarson @ofernandez2
 /sites/handbook/source/handbook/product/product-intelligence-guide/ @alinamihaila @justinfarris @rparker2
 /sites/handbook/source/handbook/product/packaging-and-pricing/gitlab-for-campuses/ @keithchung @c_hupy
