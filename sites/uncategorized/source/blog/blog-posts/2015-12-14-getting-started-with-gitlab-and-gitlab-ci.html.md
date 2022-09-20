@@ -24,7 +24,7 @@ Let's dive in!
 
 CI stands for [Continuous Integration][ci-wiki] and has gained in popularity
 the last few years. Together with [Continuous Delivery][cd-wiki] (CD), they
-form the spine of modern agile software development.
+form the spine of modern [agile software development](/topics/agile-delivery/).
 
 Martin Fowler described this approach in [his article][ci-fowler] as:
 
