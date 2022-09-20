@@ -18,8 +18,7 @@ departments:
 story: |
   Dominic is a software developer with a preference for simplicity. Away from
   keyboard, he enjoys sports, hiking and traveling to remote places.
-specialty:
-- 'Protect: Container Security'
+specialty: Security Policies
 projects:
   gitlab:
   - reviewer backend
