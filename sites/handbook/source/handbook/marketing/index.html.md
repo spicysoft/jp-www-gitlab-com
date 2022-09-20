@@ -17,25 +17,17 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 {: .no_toc}
 
-The GitLab Marketing team includes multiple Departments organized as: Corporate Marketing, Integrated Marketing, Portfolio Marketing, & Inbound Marketing. This page documents shared team practices and processed, while the [individual team handbooks](/handbook/marketing/#marketing-handbooks) contain more detailed information about each sub-team.
+The GitLab Marketing team includes multiple Departments organized as: Product Marketing, Integrated Marketing, Sales Development, Marketing Strategy and Operations, and Community Relations. This page documents shared team practices and processed, while the [individual team handbooks](/handbook/marketing/#marketing-handbooks) contain more detailed information about each sub-team.
 
 ## Marketing OKRs
-Each quarter, the Marketing team creates OKRs (Objectives and Key Results) that cascade from the [CEO's OKRs](/company/okrs/#most-recent-okrs). 
+Each quarter, the Marketing team creates OKRs (Objectives and Key Results) in Ally that cascade from the [CEO's OKRs](/company/okrs/#most-recent-okrs). 
 
-**Most Recent OKRs**
-
- * [FY22-Q3 Previous](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2199)
- * [FY22-Q4 Increase awareness around our brand messaging and product positioning](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2379)
- * [FY22-Q4 Deliver First Order Pipeline - Volume and NetARR](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2378)
- * [FY22-Q4 Increase team member community and sense of belonging](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2380)
- * [Previous OKRs](/handbook/marketing/#okr-archive)
-
-Each department within the Marketing team keeps their own cascading OKRs in their [team handbooks](/handbook/marketing/#marketing-handbooks). 
+Each department within the Marketing team manages their own cascading OKRs in Ally. 
 
 ## GitLab Marketing Purpose
 <div class="alert alert-purple center"><h3 class="purple"><strong>We <i class="fas fa-heart color-orange font-awesome" aria-hidden="true"></i> GitLab</strong></h3></div>
 
-GitLab's vision is to become the leader in the DevOps Platform category by providing a comprehensive platform for the entire DevOps lifecycle, delivered as a single application. To accomplish this, GitLab needs to be the most desired organization to work with for understanding and solving DevOps challenges.
+GitLab's vision is to be known as the leading complete DevOps Platform (or, what Gartner calls the DevOps Value Stream Delivery platform) delivered as a single application. 
 
 The GitLab Marketing team aspires to:
 
