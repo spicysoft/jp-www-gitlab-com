@@ -2,12 +2,12 @@
 features:
   secondary:
   - name: "Shift option to prevent users from creating groups to Instance Admin UI"
-    available_in: [core, premium, ultimate]
+    available_in: [dedicated]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
     reporter: lohrc
     stage: manage
-    categories: []
+    categories: [Subgroups]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/367754'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      GitLab administrators can now access the setting to prevent users from creating groups in the Admin UI. Previously it was only possible to configure this setting within gitlab.rb. 
