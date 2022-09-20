@@ -50,7 +50,7 @@
               });
             }
             // Marketing - brand
-            if( jobBucket == "4054429002" || jobBucket == "4054451002" || jobBucket == "4054429002" ) {
+            if( jobBucket == "4054429002" || jobBucket == "4054451002" || jobBucket == "4054429002" || jobBucket == "4070018002" ) {
               data.departments[i].jobs.forEach((job, j) => {
                 $('#jobs-desc-marketing__brand').append('<li data-locale="' + data.departments[i].jobs[j].location.name + '"><a href="' + data.departments[i].jobs[j].absolute_url + '" title="' + data.departments[i].jobs[j].title + ' job at GitLab" target="_blank" rel="noopener noreferrer">' + data.departments[i].jobs[j].title + '<br/><em>' + data.departments[i].jobs[j].location.name + '</em></a></li>');
               });
