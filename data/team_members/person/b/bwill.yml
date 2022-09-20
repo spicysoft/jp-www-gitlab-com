@@ -19,8 +19,7 @@ departments:
 - Govern backend capability
 - Govern:Threat Insights BE Team
 - Merge Request Coach
-specialty:
-- 'Protect: Container Security'
+specialty: Threat Insights
 expertise: <li><a href="/job-families/expert/merge-request-coach/">Merge request coach</a></li>
 domain_expertise:
 - cicd

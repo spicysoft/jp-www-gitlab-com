@@ -26,8 +26,7 @@ projects:
   gitlab:
   - reviewer backend
   secure-container-scanning: maintainer backend
-specialty:
-- 'Protect: Container Security'
+specialty: Security Policies
 expertise:
 story: |
   Sashi loves contributing to open source and loves writing code in Ruby.
