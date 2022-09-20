@@ -70,7 +70,7 @@ A future state of Pages could be described as a lightweight content management s
 
 This category is currently at the "Complete" maturity level, and our next maturity target is "Lovable" (see our [definitions of maturity levels](/direction/maturity/)). The key features and deliverables necessary to promote Pages are captured in the [Lovable Maturity epic](https://gitlab.com/groups/gitlab-org/-/epics/8511).
 
-However, the assessment of this maturity level was made prior to our [new process for measuring maturity](/handbook/engineering/ux/category-maturity-scorecards/). We will be [conducting a category maturity assessment](https://gitlab.com/gitlab-org/gitlab/-/issues/360965) to validate the current maturity level and understand more about what is necessary to get it to the next level. 
+However, the assessment of this maturity level was made prior to our [new process for measuring maturity](/handbook/product/ux/category-maturity-scorecards/). We will be [conducting a category maturity assessment](https://gitlab.com/gitlab-org/gitlab/-/issues/360965) to validate the current maturity level and understand more about what is necessary to get it to the next level. 
 
 ## Competitive Landscape
 

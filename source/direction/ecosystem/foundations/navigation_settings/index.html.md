@@ -213,7 +213,7 @@ None
 ### Other Important Links
 <!-- What's the most important thing to move your strategy forward?-->
 
-- [https://about.gitlab.com/handbook/engineering/ux/navigation/](https://about.gitlab.com/handbook/engineering/ux/navigation/)
+- [https://about.gitlab.com/handbook/product/ux/navigation/](https://about.gitlab.com/handbook/product/ux/navigation/)
 - [https://about.gitlab.com/blog/2019/07/31/navigation-state-of-play/](https://about.gitlab.com/blog/2019/07/31/navigation-state-of-play/)
 - [Design System Docs for Navigation](https://design.gitlab.com/regions/navigation/?_gl=1%2a1pbpte6%2a_ga%2aMTc2NjY3NzExMi4xNjAxNTcxMjg5%2a_ga_ENFH3X7M5Y%2aMTY2MDI4MzYzMi4xMC4xLjE2NjAyODM2NDguMA..)
 
