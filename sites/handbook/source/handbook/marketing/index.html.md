@@ -74,21 +74,21 @@ Detailed explanation of reports & filters used in these reports can be found on 
 
 These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving among members, so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
 
-### Monthly Marketing Strategy and Tactics Call (All Marketing team members)
+### Monthly Marketing All Hands (All Marketing team members)
 
 {: .no_toc}
 
-**Meeting goal: This is the main meeting where marketing strategy and tactics are discussed. Everyone in marketing is invited, but attendance is optional.**
+**Meeting goal: This is the main meeting where marketing gets together to celebrate, collaborate, and stay in sync. Everyone in marketing is invited, but attendance is optional.**
 
 **Run time: 50 minutes**
 
-The Marketing team meets on the third Thursday of the month to review announcements, strategy developments, company updates, OKRs, and KPIs. This is the primary meeting for discussing strategy and tactics, resolving conflicts and communicating information.
+The Marketing team meets on the last Thursday of the month to welcome new hires, celebrate team wins, learn what is top of mind for the CMSO, cover team topics that warrant discussion in an organization wide forum, conducting a Q&A, and recognizing each other. 
 
 The meeting should run as follows:
 
 - Prior to the meeting, any marketer adds agenda items to the agenda doc, linked to the invitation.
-- The CMO prioritizes the agenda and kicks off the meeting with new hire welcomes, promotions/transfers, and announcements and updates on strategy, company and org.
-- The remaining time is used for open discussion and Q&A.
+- The CMO prioritizes the agenda and kicks off the meeting with new hire welcomes, promotions/transfers, key wins, and shares what is top of mind. 
+- The remaining time is used for open discussion, Q&A, and recognition.
 - Interruption is encouraged! Team members are encouraged to interrupt and ask questions throughout.
 - All team members are also encouraged to bring forward discussion topics that they want to share with the team or to have covered during the call.
 - Action items are recorded and owners assigned. Owners are responsible to report back with the outcome of the action item.
