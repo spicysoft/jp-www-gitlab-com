@@ -17,7 +17,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 {: .no_toc}
 
-The GitLab Marketing team includes multiple Departments organized as: Product Marketing, Integrated Marketing, Sales Development, Marketing Strategy and Operations, and Community Relations. This page documents shared team practices and processed, while the [individual team handbooks](/handbook/marketing/#marketing-handbooks) contain more detailed information about each sub-team.
+The GitLab Marketing team includes multiple Departments organized as: Product Marketing, Integrated Marketing, Sales Development, Marketing Strategy and Operations, and Community Relations. This page documents shared team practices and processes, while the [individual team handbooks](/handbook/marketing/#marketing-handbooks) contain more detailed information about each sub-team.
 
 ## Marketing OKRs
 Each quarter, the Marketing team creates OKRs (Objectives and Key Results) in Ally that cascade from the [CEO's OKRs](/company/okrs/#most-recent-okrs). 
