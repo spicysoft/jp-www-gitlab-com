@@ -11,8 +11,17 @@ twitter:
 linkedin:
 gitlab: phillipwells
 departments:
-- UX Department
-- Technical Writing
+  - Engineering Function
+  - UX Department
+  - Technical Writing
+projects:
+  gitlab: maintainer docs
+  omnibus-gitlab: maintainer docs
+  gitlab-docs: maintainer
+  gitlab-development-kit: maintainer docs
+  gitlab-operator: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
 specialty:
 - Acquisition
 - " Configure:Configure"
