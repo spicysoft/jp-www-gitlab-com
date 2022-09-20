@@ -1,10 +1,10 @@
 ---
 release_number: "15.4" # version number - required
-title: "GitLab 15.4 released with Suggested Reviewers and email validation bypass" # short title (no longer than 62 characters) - required
+title: "GGitLab 15.4 released with Suggested Reviewers and better VSCode CI/CD experience" # short title (no longer than 62 characters) - required
 author: Derek Ferguson # author name and surname - required
 author_gitlab: derekferguson # author's gitlab.com username - required
 image_title: '/images/15_4/15_4-cover-image.jpg' # cover image - required
-description: "GitLab 15.4 released with Suggested Reviewers open beta, email validation bypass for verified domains, Pages Pipeline Wizard, improved CI/CD integration in VS Code and much more!" # short description - required
+description: "GitLab 15.4 released with Suggested Reviewers open beta, improved CI/CD integration in VS Code, streamlined account verification, Pages Pipeline Wizard and much more!" # short description - required
 twitter_image: '/images/15_4/15_4-cover-image.jpg' # required - copy URL from image title section above
 categories: releases # required
 layout: release # required
