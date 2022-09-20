@@ -3,15 +3,15 @@ locality:
 country: Remote
 role: <a href="">Senior Legal Counsel</a>
 reports_to: danrhodes
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: irisgorman.jpg
+pronouns: she/her
 pronunciation:
 twitter:
-linkedin:
-gitlab: iegorman
+linkedin: irisgorman
+gitlab: igorman
 departments:
   - Legal & Corporate Affairs
-specialty: ""
+specialty: "Product and IP"
 expertise:
 story:
 
