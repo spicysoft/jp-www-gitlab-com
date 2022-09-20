@@ -39,9 +39,9 @@ stages:
       - Michelle Gill
     groups:
       authentication_and_authorization:
-        name: Authentication & Authorization
+        name: Authentication and Authorization
         pm: Hannah Sutor
-        focus: Manage Authentication & Authorization Paid GMAU
+        focus: Manage Authentication and Authorization Paid GMAU
         pmm: Aathira Nair
         cm: Suri Patel
         backend_engineering_manager: Adil Farrukh
@@ -60,7 +60,7 @@ stages:
           - Anne Lasch
         tech_writer: Evan Read
         appsec_engineer: Rohit Shambhuni
-        cs_team_tag: Authentication & Authorization Group CS Stable Counterpart
+        cs_team_tag: Authentication and Authorization Group CS Stable Counterpart
         internal_customers:
           - department: Customer Support Department
             dri: TBD
