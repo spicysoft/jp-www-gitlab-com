@@ -22,11 +22,12 @@ story: |
   Moving into team leadership roles, I quickly learned that through the servant leadership model I am best able to
   help development teams be happy, productive, and ready to deliver.
   I live in New Zealand with my wife and children and love to get out on the trails to run.
-remote_story: "When I started at GitLab I swapped a three hour round trip commute
-  for more time with family.\nI used to get daily traffic reports and rail announcements
-  warning of delays for commuters, now I get to be at home\nfor meals with family.\nBeing
-  all-remote at GitLab means greater flexibility in terms of work hours, and has enabled
-  me to work async with \nand learn from colleagues from around the world.\n"
+remote_story: | 
+  When I started at GitLab I swapped a three hour round trip commute for more time with family.\n
+  I used to get daily traffic reports and rail announcements warning of delays for commuters, 
+  now I get to be at home for meals with family.\n
+  Being all-remote at GitLab means greater flexibility in terms of work hours, and has enabled
+  me to work async with \nand learn from colleagues from around the world.
 specialty:
 - Growth
 
