@@ -225,6 +225,26 @@ We try to maintain partner registries containing the following community contact
 * **Technical:** The person we contact regarding participation in surveys or focus studies that require technical expertise, or when something at GitLab may require input from technical contacts at open source partner organizations.
 * **Legal:** (optional) The person we contact to weigh in on legal matters, such as updates to terms of service agreements, partnership activities, or permission to use a project's logo.
 
+### Renewing and extending partner subscriptions
+
+Members of the GitLab Open Source Partners program who are also members of the GitLab for Open Source Program may be eligible for an extended-period subscription. The current extended subscription renewal period is **36 months**.
+
+Partners seeking extended-period renewals should email their requests to opensource@gitlab.com. If the request is urgent, please include `[Urgent]` in the email's subject line. Partners should use this template to format their requests:
+
+```
+Subject: Open Source Partner (Application/Renewal)
+Subscription Term: 36
+Number of seats you are requesting: 
+The license type to be issued (Self-Managed or SaaS): 
+List any change of ownership to the account: 
+(If account ownership details change, please send the new account holder's name, email address, and contact's mailing address)
+```
+
+When a request is processed and accepted, applicants will be asked to sign a $0 quote with a 36-month term. After that:
+
+- For **Saas**: No further action is necessary.
+- For **Self-managed**: Applicants need to download licenses from the GitLab Customer Portal and upload them to their instances.
+
 ### Tracking partner issues
 
 Gitlab's open source partners requesting support track most of their issues publicly. They do this via issue trackers located in the [GitLab Open Source Partners](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners) group—most commonly the [Community Support](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues) project. Here, fellow open source partners partners and GitLab team members can collaborate on supporting GitLab's open source partners.
