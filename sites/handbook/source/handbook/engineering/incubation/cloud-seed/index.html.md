@@ -71,11 +71,11 @@ List of [user personas](https://about.gitlab.com/handbook/product/personas/) wit
     - ☑️ Deployment credential generation
     - ☑️ Provisioning and enablement of cloud services
     - ☑️ Deployment pipelines
-    - ☑️ POreview environments
+    - ☑️ Preview environments
 - Provision cloud data stores
     - ☑️ Authentication and authorization
-    - ⏳ Database instance generation
-    - ⏳ Database and user setup
+    - ☑️ Database instance generation
+    - ☑️ Database and user setup
     + ⏳ Networking configuration
 
 ### Open source
