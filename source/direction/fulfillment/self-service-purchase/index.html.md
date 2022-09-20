@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Product Direction - Fulfillment - Self-Service Purchase
+title: Product Direction - Fulfillment - Purchase
 description: "The Fulfillment team at GitLab focuses on creating and supporting the enablement of our customers to purchase, upgrade, downgrade, and renew licenses and subscriptions."
 canonical_path: "/direction/fulfillment/self-service-purchase/"
 ---
@@ -15,9 +15,9 @@ canonical_path: "/direction/fulfillment/self-service-purchase/"
  
 Last reviewed: 2022-09
 
-## Fulfillment: Self-Service Purchase Overview
+## Fulfillment: Purchase Overview
 
-Self-service Purchase, a [Fulfillment](https://about.gitlab.com/direction/fulfillment/) subgroup, is responsible for our primary e-commerce experience, with the goal of increasing the number of first-orders we receive through our self-service purchase flow and in turn, reducing the need for a GitLab team member to manually intervene.
+Purchase, a [Fulfillment](https://about.gitlab.com/direction/fulfillment/) subgroup, is responsible for our primary e-commerce experience, with the goal of increasing the number of first-orders we receive through our purchase flow and in turn, reducing the need for a GitLab team member to manually intervene.
 
 ## Performance Indicators
 
@@ -27,7 +27,7 @@ Self-service Purchase, a [Fulfillment](https://about.gitlab.com/direction/fulfil
 
 ### Strategic Fit: What is the business context of self-service purchasing?
 
-How the self-service purchase mission aligns to GitLab's broader strategy:
+How the purchase mission aligns to GitLab's broader strategy:
 
 - **GitLab Mission & Vision**: [GitLab's mission](https://about.gitlab.com/company/mission/#mission) to make it so that everyone can contribute. [GitLab's vision](https://about.gitlab.com/company/vision/#vision) is to **develop great open source software** to enable people to collaborate in this way. GitLab is a single application based on convention over configuration that everyone should be able to afford and adapt.
 - **Company Strategy**: [Our strategic goal](https://about.gitlab.com/company/strategy/) is to be known as the leading complete DevOps Platform. By using a DevOps platform to replace multiple point solutions, GitLab customers can achieve cost saving and efficiency gain. Therefore, when **GitLab develops more features to improve the product maturity**, it becomes easier to replace point solutions and GitLab will attract more users.
@@ -38,7 +38,7 @@ How the self-service purchase mission aligns to GitLab's broader strategy:
    - Make our core journey categories lovable
    - GitLab-hosted first
 - **Fulfillment Mission**: Our goal is to **make it easy for customers to purchase**, activate, and manage their GitLab subscriptions. By making it easier for customers to transact and manage their subscriptions, we increase customer satisfaction and improve our go-to-market (GTM) efficiency.
-- **Self-Service Purhase Mission**: Improving GitLab's self-service purchasing allows customers to engage with us on their terms: interacting with us should be flexible, asynchronous enabled, and transparent.
+- **Purhase Mission**: Improving GitLab's self-service purchasing allows customers to engage with us on their terms: interacting with us should be flexible, asynchronous enabled, and transparent.
 
 ### User Value: What is the hypothesis around the user problem and opportunity?
 
