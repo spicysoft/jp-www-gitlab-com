@@ -79,7 +79,7 @@ While preparing for the Retrospective Discussion:
 | Secure:Dynamic Analysis     | @sethgitlab + @nmccorrison              | @jmandell       | @derekferguson  |  |  |
 | Secure:Static Analysis      | @twoodham + @nmccorrison                | @jmandell       | @@connorgilbert |  |  |
 | Govern:Threat Insights      | @nmccorrison + @thiagocsf               | @jmandell       | @matt_wilson    |  |  |
-| Govern:Security Policies    | @nmccorrison + @thiagocsf               | @jmandell       | @sam.white      |  |  |
+| Govern:Security Policies    | @pcalder                                | @jmandell       | @sam.white      |  |  |
 | Govern:Compliance           | @nrosandich                             | @jmandell       | @stkerr         |  |  |
 | Database                    | @craig-gomes                            | -               | @fzimmer        |  |  |
 | Distribution                | @mendeni                                | @mvanremmerden  | @dorrino        |  |  |
@@ -91,10 +91,9 @@ While preparing for the Retrospective Discussion:
 | Fulfillment:License         | @jameslopez                             | @jackib         | @teresatison    |  |  |
 | Fulfillment:Utilization     | @csouthard                              | @jackib         | @amandarueda    |  |  |
 | Product Intelligence        | @alinamihaila                           | @jackib         | @amandarueda    |  |  |
-| Growth:Activation           | @jayswain                               | @jackib         | @jstava         |  |  |
-| Growth:Adoption             | @jayswain                               | @jackib         | @jstava    |  |  |
-| Growth:Conversion           | @kniechajewicz                          | @jackib         | @s_awezec       |  |  |
-| Growth:Expansion            | @kniechajewicz                          | @jackib         | @gdoud          |  |  |
+| Growth:Activation           | @kniechajewicz                          | @jackib         | @s_awezec       |  |  |
+| Growth:Acquisition          | @kniechajewicz                          | @jackib         | @s_awezec       |  |  |
+| DataScience:Anti-abuse      | @jay_swain                              | @jmandell       | @jstava         |  |  |
 | Quality                     | @tpazitny                               |                 |                 |  |  |
 | UX                          | @vkarnes                                |                 |                 |  |  |
 
