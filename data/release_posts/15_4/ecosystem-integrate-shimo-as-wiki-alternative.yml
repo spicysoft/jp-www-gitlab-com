@@ -12,4 +12,4 @@ features:
     - Integrations
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/343386'
     description: |
-      Shimo is a popular cloud-productivity suite that includes documentation, spreadsheets, slideshows, and whiteboards. With this integration, you can use the Shimo Wiki directly within GitLab. This contribution from JiHu, our sister company, helps minimize the need to work across multiple tools.
+      [Shimo](https://shimo.im/) is a popular cloud-productivity suite that includes documentation, spreadsheets, slideshows, and whiteboards. With this integration, you can use the Shimo Wiki directly within GitLab.
