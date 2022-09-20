@@ -1,6 +1,6 @@
 ---
 release_number: "15.4" # version number - required
-title: "GGitLab 15.4 released with Suggested Reviewers and better VSCode CI/CD experience" # short title (no longer than 62 characters) - required
+title: "GitLab 15.4 released with Suggested Reviewers and better VSCode + CI/CD experience" # short title (no longer than 62 characters) - required
 author: Derek Ferguson # author name and surname - required
 author_gitlab: derekferguson # author's gitlab.com username - required
 image_title: '/images/15_4/15_4-cover-image.jpg' # cover image - required
