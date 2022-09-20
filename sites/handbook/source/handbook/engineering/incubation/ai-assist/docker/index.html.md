@@ -77,7 +77,7 @@ create a Dockerfile for a repo.
 ## Jobs to be done
 
 Below are a few of the jobs to be done (JTBD) as defined in the
-[Category Maturity Scorecard](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/) and are
+[Category Maturity Scorecard](https://about.gitlab.com/handbook/product/ux/category-maturity-scorecards/) and are
 meant to be as a guideline for AI assist and are subject to change based on learnings and feedback.
 
 1. When I want to dockerize my solution, I want to make sure my Dockerfile is reliable and secure, so I have peace of 

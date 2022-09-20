@@ -1,18 +1,18 @@
 <!--
 
-Before nominating yourself as a trainee, talk with your manager and team about it, as the traineeship is likely to impact your capacity. More information in https://about.gitlab.com/handbook/engineering/ux/pajamas-design-system/design-review/#duration.
+Before nominating yourself as a trainee, talk with your manager and team about it, as the traineeship is likely to impact your capacity. More information in https://about.gitlab.com/handbook/product/ux/pajamas-design-system/design-review/#duration.
 
 -->
 
 ## Basic setup
 
-1. [ ] Decide which [project and type](https://about.gitlab.com/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer-types)
+1. [ ] Decide which [project and type](https://about.gitlab.com/handbook/product/ux/pajamas-design-system/design-review/#maintainer-types)
     you would like to become a maintainer of.
 1. [ ] Change this issue title to include your name, project, and maintainer type:
     `Trainee Design Maintainer ([Project], [Type]): [Your Name]`.
-1. [ ] Read the [design review page in the handbook](https://about.gitlab.com/handbook/engineering/ux/pajamas-design-system/design-review).
-1. [ ] Understand [how to become a maintainer](https://about.gitlab.com/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer)
-    and add yourself as a [trainee maintainer](https://about.gitlab.com/handbook/engineering/ux/pajamas-design-system/design-review/#trainee-maintainer)
+1. [ ] Read the [design review page in the handbook](https://about.gitlab.com/handbook/product/ux/pajamas-design-system/design-review).
+1. [ ] Understand [how to become a maintainer](https://about.gitlab.com/handbook/product/ux/pajamas-design-system/design-review/#maintainer)
+    and add yourself as a [trainee maintainer](https://about.gitlab.com/handbook/product/ux/pajamas-design-system/design-review/#trainee-maintainer)
     in the [team database](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/team_database.md).
     Indicate your selected project and maintainer type:
     1. [ ] `design.gitlab.com: trainee_maintainer Figma`

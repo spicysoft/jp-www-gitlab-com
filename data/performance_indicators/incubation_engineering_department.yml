@@ -2,7 +2,7 @@
   base_path: "/handbook/engineering/incubation/performance-indicators/"
   parent: "/handbook/engineering/performance-indicators/#seg-category-maturity"
   definition: Incubation Engineering Single-Engineer Groups aim to reach a <a href="https://about.gitlab.com/direction/maturity/">Viable level of maturity</a> for each of our areas of focus.  We aim to accomplish this within 12 months of inception.  This metric focuses on our ability to ship a product, not on the success or failure of usage, market share, or revenue based metrics.
-  target: <a href="https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/">Category Maturity Scorecard</a> of 3.14
+  target: <a href="https://about.gitlab.com/handbook/product/ux/category-maturity-scorecards/">Category Maturity Scorecard</a> of 3.14
   org: Incubation Engineering Department
   is_key: true
   health:

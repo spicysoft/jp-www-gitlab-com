@@ -50,7 +50,7 @@ _Handbook references:_
 
 - [Blog handbook](https://about.gitlab.com/handbook/marketing/blog/)
 - [Release post handbook](https://about.gitlab.com/handbook/marketing/blog/release-posts/)
-- [Markdown guide](https://about.gitlab.com/handbook/engineering/technical-writing/markdown-guide/)
+- [Markdown guide](https://about.gitlab.com/handbook/markdown-guide/)
 
 _People:_
 
