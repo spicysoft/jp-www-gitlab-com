@@ -4,7 +4,7 @@ features:
   - name: "API endpoint to get project transfer locations"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/api/projects.html#get-groups-to-which-a-user-can-transfer-a-project'
     reporter: lohrc
     stage: manage
     categories: [Projects]
