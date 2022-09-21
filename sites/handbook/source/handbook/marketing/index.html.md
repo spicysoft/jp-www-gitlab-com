@@ -258,7 +258,7 @@ When working remotely in a fast-paced organization, it is important for a team t
       </div>
     </div>
   </a>
-  <a href="https://gitlab.myshopify.com/">
+  <a href="https://shop.gitlab.com/">
     <div class="col-sm-6 col-md-3 mkt-box">
       <div class="thumbnail product">
         <img src="/images/icons/swag_shop.png" alt="GitLab Marketing - Design - Icon">
@@ -270,7 +270,7 @@ When working remotely in a fast-paced organization, it is important for a team t
       </div>
     </div>
   </a>
-  <a href="/blog/categories/events/">
+  <a href="/events/">
     <div class="col-sm-6 col-md-3 mkt-box">
       <div class="thumbnail product">
         <img src="/images/icons/location.png" alt="GitLab Marketing - Developer Relations - Icon">
@@ -632,7 +632,7 @@ Each week on Monday, any open MRs and issues still assigned to the previous week
 
 [The latest recommendations for Epics](/handbook/marketing/project-management-guidelines/epics/) and [the latest for Issues](/handbook/marketing/project-management-guidelines/issues/) from FY21-Q2 Agility Project
 
-1. Each issue represents a discrete unit of work with a deliverable. For example [1](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/10) [2](https://gitlab.com/gitlab-com/marketing/online-growth/issues/8) [3](https://gitlab.com/gitlab-com/marketing/general/issues/2574)
+1. Each issue represents a discrete unit of work with a deliverable. For example [1](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/10) [2](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/36) [3](https://gitlab.com/gitlab-com/marketing/general/-/issues/2574)
 1. Every MR should have an issue so that it can be tracked on issue boards.
 1. Milestones represent units of work to be completed within a specific time frame, sometimes referred to as sprints. They are comprised of multiple issues that share a common due date, and help break large projects into more manageable parts.
 1. Epics represent projects that comprise multiple issues. (Don't use "meta" issues for this purpose. If you have an existing meta issue you can promote them to epics using the `/promote` quick command.)
