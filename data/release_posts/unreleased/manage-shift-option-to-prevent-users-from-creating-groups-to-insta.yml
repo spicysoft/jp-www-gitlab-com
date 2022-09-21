@@ -10,4 +10,4 @@ features:
     categories: [Subgroups]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/367754'
     description: |
-      GitLab administrators can now access the setting to prevent users from creating groups in the Admin UI. Previously it was only possible to configure this setting within gitlab.rb. 
+      GitLab administrators (including Dedicated customers) can now disable users' permission to create top-level groups directly from the Admin UI. Previously, users with admin access to the instances file system could access this setting only in the `gitlab.rb` file.
