@@ -21,6 +21,7 @@ projects:
   gitlab-compose-kit: maintainer
   gitlab-technical-interviews-backend: maintainer
   gitlab-metrics-exporter: maintainer
+  gitlab-attr_encrypted: maintainer
 story: |
   Matthias has been working with computers since he first made ASCII based treasure maps as a kid in the mid-80s.
   Realizing that there's no career in treasure maps, he started to direct his attention to more promising pursuits,

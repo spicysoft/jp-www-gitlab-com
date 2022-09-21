@@ -1051,6 +1051,14 @@ gitlab-mail_room:
     `mail_room` is a configuration based process that will listen for incoming
     e-mail and execute a delivery method when a new message is received.
 
+gitlab-attr_encrypted:
+  name: GitLab AttrEncrypted
+  path: gitlab-org/ruby/gems/attr_encrypted
+  link: https://gitlab.com/gitlab-org/ruby/gems/attr_encrypted
+  description: |
+    This is a fork of `attr_encrypted` (unmaintained) and contains patches
+    necessary for it to operate correctly in gitlab-rails.
+
 gitlab-styles:
   name: GitLab Styles
   path: gitlab-org/ruby/gems/gitlab-styles
