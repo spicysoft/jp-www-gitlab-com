@@ -138,6 +138,7 @@ If you are interested in participating in an active working group, it is general
 * [Continuous Scanning](/company/team/structure/working-groups/continuous-scanning/)
 * [Cross Functional Prioritization](/company/team/structure/working-groups/cross-functional-prioritization/)
 * [Demo & Test Data](/company/team/structure/working-groups/demo-test-data/)
+* [Engineering Internship](/company/team/structure/working-groups/engineering-internship/)
 * [Event Stream](/company/team/structure/working-groups/event-stream/)
 * [Expense Management](/company/team/structure/working-groups/expense-management/)
 * [FedRAMP Execution](/company/team/structure/working-groups/fedramp-execution/)
@@ -219,7 +220,7 @@ This is the list of our active Top Cross-Functional Initiatives.
 | Initiative | DRI / Sponsor | Description | Links |
 | ------ | ------ |------ | ------ |
 | Usage Reporting | @jdbeaumont / @mmcb   | Ensure customer product usage and utilization metrics are surfaced to the right teams at the right time to drive improvements in customer adoption and flag high potential user growth/tier-upgrade opportunities. | [Operational Data Vision](https://about.gitlab.com/handbook/customer-success/product-usage-data/), [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/1) |
-| Cloud Licensing | @ofernandez2 / @david  | Provide automated licensing functionality to customers to improve their experience while reducing the chances of sales and support escalations. | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/2) |
+| Fulfillment Efficiency | @ofernandez2 / @sytses  | Rollout new Quote Studio using new Zuora Orders API and Ramps functionality. Move CustomersDot to use Zuora Orders APIs. Align to Zuora Billing Account as a Customer Account. SSO / combine CDot and Gitlab user databases. Link ArrowSphere to CustomersDot. | [FY23 Roadmap](https://docs.google.com/presentation/d/1eTH09QZqnazJ4jh-jVGTEYEFA3m6R2jwWuhY5_EtPL4/edit#slide=id.g123a13deda8_0_405) |
 | FedRAMP | @JohnathanHunt / @edjdev | Achieve FedRAMP Moderate Certification. | [Working group page](/company/team/structure/working-groups/fedramp-execution/), [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/3) |
 | Project Horse | @marin / @edjdev  | [Internally confidential](https://about.gitlab.com/handbook/communication/confidentiality-levels/#internal) | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/4)  |
 | SaaS Reliability | @sloyd / @edjdev  | Achieve enterprise grade security and reliability for our SaaS. | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/5) |
@@ -264,3 +265,5 @@ This is a a list of top cross-functional initiatives that have been retired.
 | Initiative | DRI / Sponsor | Description | Links | Start / Year |
 | ------ | ------ |------ | ------ | ------ |
 |Category Leadership | @melsmo / @akramer   | Become the overall leader of The DevOps Platform through defining and owning the category. **This is still important to GitLab, but it will be managed by the Marketing Team, not as a top cross-functional initiative** | [Working group page](/company/team/structure/working-groups/category-leadership/), [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/10) | FY23-Q1 - FY23-Q2 |
+| Cloud Licensing | @ofernandez2 / @david  | Provide automated licensing functionality to customers to improve their experience while reducing the chances of sales and support escalations. | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/2) | FY23-Q1 - FY23-Q3 |
+

@@ -1,7 +1,7 @@
 ---
 name: Alan (Maciej) Paruszewski
-role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer and Acting Fullstack Manager,
-  Govern:Security Policies</a>
+role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer
+  and Acting Fullstack Manager, Govern:Security Policies</a>
 reports_to: pcalder
 picture: maciejparuszewski.jpg
 gitlab: mparuszewski
@@ -29,6 +29,5 @@ story: |
   Alan is an experienced backend engineer passionate about Security, API, and Integrations.
   In his spare time, he loves spending time with his family (lovely wife, daughter, son, and adorable dog)
   and enjoys cooking, learning new languages, and traveling.
-specialty:
-- 'Protect: Container Security'
+specialty: Security Policies
 

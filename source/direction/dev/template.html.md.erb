@@ -8,7 +8,7 @@ canonical_path: "/direction/dev/"
 - TOC
 {:toc}
 
-Last Reviewed: 2022-08-18
+Last Reviewed: 2022-09-19
 
 <%= devops_diagram(["Manage","Plan","Create","Ecosystem"]) %>
 
@@ -42,6 +42,23 @@ page and a complete list of upcoming features can be found on the [Upcoming Rele
 
 #### Recent Accomplishments
 
+* [Create tasks in issues](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#create-tasks-in-issues)
+* [Submit merge request review with summary comment](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#submit-merge-request-review-with-summary-comment)
+* [Add approval rules for all protected branches](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#add-approval-rules-for-all-protected-branches)
+* [UI for custom HTTP headers on streaming audit events](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#ui-for-custom-http-headers-on-streaming-audit-events)
+* [Define password complexity requirements](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#define-password-complexity-requirements)
+* [DORA custom reporting for data-driven software development improvements](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#dora-custom-reporting-for-data-driven-software-development-improvements)
+* [Audit event for changes to audit event custom headers](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#audit-event-for-changes-to-audit-event-custom-headers)
+* [Fortinet push notification support for Git over SSH](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#fortinet-push-notification-support-for-git-over-ssh)
+* [Maintain SAML Group Links with API](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#maintain-saml-group-links-with-api)
+* [Migrate multiple MR assignees when migrating groups](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#migrate-multiple-mr-assignees-when-migrating-groups)
+* [New links to SSH fingerprints](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#new-links-to-ssh-fingerprints)
+* [Secure defaults for new access tokens](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#secure-defaults-for-new-access-tokens)
+* [User ID added to profile page](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#user-id-added-to-profile-page)
+* [User SCIM identity visible in UI](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#user-scim-identity-visible-in-ui)
+* [Enforce authorization checks for all media files](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#enforce-authorization-checks-for-all-media-files)
+* [https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#remove-approvals-by-code-owners-if-their-files-changed](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#remove-approvals-by-code-owners-if-their-files-changed)
+* [Visualize table of contents in the WYSIWYG wiki editor](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#visualize-table-of-contents-in-the-wysiwyg-wiki-editor)
 * [Change failure rate chart for visualizing software stability](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#change-failure-rate-chart-for-visualizing-software-stability)
 * [Live preview diagrams in the wiki WYSIWYG editor](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#live-preview-diagrams-in-the-wiki-wysiwyg-editor)
 * [Merge request reports redesign](https://about.gitlab.com/releases/2022/07/22/gitlab-15-2-released/#merge-request-reports-redesign)
@@ -81,28 +98,34 @@ page and a complete list of upcoming features can be found on the [Upcoming Rele
 * [improve the user experience for the compliance report](https://gitlab.com/groups/gitlab-org/-/epics/5237)
 * [Add assignees to a task](https://gitlab.com/gitlab-org/gitlab/-/issues/334810)
 * [Jira Cloud App proxy for Self-managed GitLab users](https://gitlab.com/groups/gitlab-org/-/epics/5650)
-* [FIPs Compliance](https://gitlab.com/groups/gitlab-org/-/epics/6476)
 * [Convert compliance dashboard into an insightful report](https://gitlab.com/groups/gitlab-org/-/epics/5237)
-* [API Endpoint for SAML Group Sync](https://gitlab.com/gitlab-org/gitlab/-/issues/290367)
 * [API Support for user management - Max role](https://gitlab.com/gitlab-org/gitlab/-/issues/354749)
-* [Add Password policy settings](https://gitlab.com/gitlab-org/gitlab/-/issues/353874)
-* [Migrate Slack App from Classic App to Granular Bot Permissions App](https://gitlab.com/groups/gitlab-org/-/epics/7729)
 * [Allow private comments on all comment-able resources](https://gitlab.com/groups/gitlab-org/-/epics/2697)
-* [Add Admin Ability to Define a Password Complexity](https://gitlab.com/gitlab-org/gitlab/-/issues/348484)
 * [API Support for Immediate Group Deletion](https://gitlab.com/gitlab-org/gitlab/-/issues/360008)
 * [Consolidate Group and Project member management](https://gitlab.com/groups/gitlab-org/-/epics/7054)
 * [Create a custom source control module for VS Code](https://gitlab.com/groups/gitlab-org/-/epics/7684)
 * [Highlight source code syntax on the frontend using HighlightJS](https://gitlab.com/groups/gitlab-org/-/epics/7146)
-* [APIs to specify custom HTTP headers for streaming audit events](https://gitlab.com/groups/gitlab-org/-/epics/7976)
 * [Add event type information for all streaming audit events](https://gitlab.com/groups/gitlab-org/-/epics/8057)
-* [Support email sending via Microsoft Graph](https://gitlab.com/gitlab-org/gitlab/-/issues/341908)
-* [Domain Verification MVC using Domain(s) verified via GitLab Pages](https://gitlab.com/gitlab-org/gitlab/-/issues/353030)
+* [Support email sending via Microsoft Graph](https://gitlab.com/groups/gitlab-org/-/epics/8259)
 * [Cancel project imports from GitHub - backend](https://gitlab.com/gitlab-org/gitlab/-/issues/364783)
 * [GitHub Importer - Migrate issue events](https://gitlab.com/groups/gitlab-org/-/epics/7655) 
 * [Merge Request Report Widgets Working Group](https://gitlab.com/groups/gitlab-org/-/epics/6644)
 * [Integrate with YAML extension to provide](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/issues/382)
-* [🚀  View and update weight](https://gitlab.com/gitlab-org/gitlab/-/issues/362550)
-* [[VSA] Apply filters to the "Tasks by type"](https://gitlab.com/gitlab-org/gitlab/-/issues/258680)
+* [Enterprise Users - MVC: Claim management of existing users](https://gitlab.com/gitlab-org/gitlab/-/issues/322039)
+* [Group SCIM for Self-Managed]()
+* [Enhancements to Insights DORA's custom reporting](https://gitlab.com/gitlab-org/gitlab/-/issues/371867)
+* [DORA Lead Time For Changes - Support multiple environment branches](https://gitlab.com/gitlab-org/gitlab/-/issues/358385)
+* [Pages internal API caching](https://gitlab.com/groups/gitlab-org/-/epics/7920)
+* [Enforcing domain limits for Pages](https://gitlab.com/gitlab-org/gitlab/-/issues/373424)
+* [Masking and encryption of tokens in webhook settings](https://gitlab.com/gitlab-org/gitlab/-/issues/361125)
+* [Automated API Docs Generation](https://gitlab.com/gitlab-org/gitlab/-/issues/211512)
+* [MVC: Branch Rules Overview](https://gitlab.com/groups/gitlab-org/-/epics/8578#release-post)
+* [Add ability to link to a line on File Blame page](https://gitlab.com/gitlab-org/gitlab/-/issues/361747)
+* [Configurable list of things 'to be imported' that can be adjusted by the user](https://gitlab.com/gitlab-org/gitlab/-/issues/370734)
+* [Update sort order when navigating from View latest projects in admin](https://gitlab.com/gitlab-org/gitlab/-/issues/369483)
+* [Create API to list entities that will be deleted when deleting a user](https://gitlab.com/gitlab-org/gitlab/-/issues/372878)
+* [Reporter+ role required to view and create internal notes](https://gitlab.com/gitlab-org/gitlab/-/issues/363045)
+* []
 
 ## Dev Section FY23 Themes
 

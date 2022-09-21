@@ -36,6 +36,5 @@ projects:
 domain_expertise:
 - rails
 - govern
-specialty:
-- 'Secure: Threat Insights'
+specialty: Threat Insights
 

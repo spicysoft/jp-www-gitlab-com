@@ -15,9 +15,9 @@
   health:
     level: 2
     reasons:
-      - Quarterly average decreased from 117 to 106
-      - Decreased amount of first time contributors
-      - Need to improve review time and retention
+      - August reached new high at 126
+      - Contribution workflow improvements has resulted in better efficiency
+      - Leading Organization pitches are underway in Q3 OKR
   urls:
     - https://gitlab.com/gitlab-com/quality/contributor-success/-/issues/134
   sisense_data:
@@ -56,12 +56,12 @@
   is_key: true
   dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
   health:
-    level: 2
+    level: 3
     reasons:
-      - Decreased from 89% to 81% in May due to flaky specs, runner fleet infrastructure changes, and CNG dependency issues.
-      - <a href="https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/42">Corrective actions being identified to prevent future occurances</a>.
+      - Increased to 90% and 96% in the recent months due to completing corrective actions, and quicker resolution of broken master
+      - <a href="https://gitlab.com/groups/gitlab-org/-/epics/8584">Corrective actions being identified to prevent future occurrences</a>.
   urls:
-    - https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/42
+    - https://gitlab.com/groups/gitlab-org/-/epics/8584
     - https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/195
     - https://gitlab.com/gitlab-org/gitlab/-/issues/361672
     - https://gitlab.com/gitlab-org/gitlab/-/issues/332411
@@ -78,9 +78,11 @@
   is_key: true
   dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
   health:
-    level: 3
+    level: 2
     reasons:
-      - Deploy with <a href="https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96704">merge result commits</a> will shorten time to recover from upstream failures without requiring MR authors to rebase.
+      - Recovering to 94%
+      - Deploy with <a href="https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96704">merge result commits</a>
+        shortens time to recover from upstream failures without requiring MR authors to rebase.
       - <a href="https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1055">Auto-deploy promotion process</a> during 15.6 to reduce review app image build failures
   urls:
     - https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/1055
@@ -101,14 +103,13 @@
   is_key: true
   dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
   health:
-    level: 3
+    level: 2
     reasons:
-      - Increased due to a recent <a href="https://gitlab.com/gitlab-org/security/gitlab/-/merge_requests/1551">cache settings change</a>, now reverted. This caused test jobs to fail 8-12 minutes later than before.
-      - Added <a href="https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/1288">QA tests</a> in merge requests causes new failures to occur later.
-      - Improvements planned to on speed up time to execute QA tests.
+      - Spiked in earlier month due to review app instabilities, recovering to 21 mins
+      - Plan to optimize selective tests in place for backend and frontend tests
   urls:
+    - https://gitlab.com/groups/gitlab-org/-/epics/8584
     - https://gitlab.com/gitlab-org/gitlab/-/issues/361665
-    - https://gitlab.com/gitlab-org/gitlab/-/issues/362766
   sisense_data:
     chart: 11955006
     dashboard: 878780
@@ -123,11 +124,11 @@
   is_key: true
   dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
   health:
-    level: 2
+    level: 3
     reasons:
-      - This metric was changed to use median rather than average as a better representation of OBA.
-      - A few recently categorized S1s having a large effect on OBA.
-      - Implemented <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/362985">S1 bug auto-scheduling</a> to prioritize S1s within their SLOs.
+      - Under target at 44 days
+      - Two oldest performance bugs are scheduled for the next milestone
+      - Auto-scheduling has been helpful in reminding product teams to schedule S1s
   sisense_data:
     dashboard: 856737
     chart: 14922931
@@ -141,7 +142,7 @@
   is_key: true
   dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
   health:
-    level: 1
+    level: 2
     reasons:
       - This metric was changed to use median rather than average as a better representation of OBA.
       - S2 bug refinement is underway to stabilize open age and reduce backlog. Backlog is decreasing.
@@ -241,8 +242,7 @@
   health:
     level: 2
     reasons:
-      - Recent <a href="https://gitlab.com/gitlab-org/security/gitlab/-/merge_requests/1551">security cache isolation change</a> reduced rails cache efficiency. This caused test jobs to fail 8-12 minutes later than before.
-      - Added more End-to-end tests runs in MRs in tradeoff to reduce QA issues caught later in staging and slowing down SaaS deployments requiring scrambling manual interventions by SETs and Delivery team.
+      - Recovering to 56 mins, due to optimization of frontend pipeline jobs, review apps & test parallelization
   urls:
     - https://gitlab.com/groups/gitlab-org/-/epics/1853
     - https://gitlab.com/groups/gitlab-org/-/epics/7826
@@ -264,11 +264,10 @@
   org: Quality Department
   is_key: false
   health:
-    level: 2
+    level: 3
     reasons:
-      - Open Age is increasing but count has been decreasing
-      - Outreach has been putting attention towards more recent open MRs
-      - Prioritize break out <a href="https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/1117">analysis</a> of stale MRs by product areas
+      - Under target for the first time
+      - Community merge request workflow improvement has proven effective
   sisense_data:
     chart: 11850655
     dashboard: 872455
@@ -285,7 +284,7 @@
   health:
     level: 2
     reasons:
-      - Increased to 36
+      - Decreased to 35
       - We realized small progress in FY22Q3 to improve specialties (Development, Quality, UX)
       - Planned MR Coach survey to identify bottlenecks, expedite of Contributor Success team will also add to the momentum
   sisense_data:
@@ -340,11 +339,9 @@
   is_key: false
   dri: <a href="https://gitlab.com/tpazitny">Tanya Pazitny</a>
   health:
-    level: 3
+    level: 2
     reasons:
-    - Updated target to 90 minutes, just below previously observed low
-    - Trend has stabilized
-    - Short-term - in-progress selective test execution initiative should drive small improvements
+    - Spiked in September, need further investigation
     - Long-term - rethinking design of test execution to innovate and drive significant reduction
   sisense_data:
     chart: 12908180

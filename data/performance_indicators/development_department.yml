@@ -59,7 +59,7 @@
     embed: v2
 - name: UX Debt
   base_path: "/handbook/engineering/development/performance-indicators/"
-  definition: See <a href="https://about.gitlab.com/handbook/engineering/ux/performance-indicators/#ux-debt"> UX Debt</a> for the definition.  We include this as part of the development PIs since we need to help to positively affect change of this metric.
+  definition: See <a href="https://about.gitlab.com/handbook/product/ux/performance-indicators/#ux-debt"> UX Debt</a> for the definition.  We include this as part of the development PIs since we need to help to positively affect change of this metric.
   target: Below 50 open "ux debt" issues
   org: Development Department
   is_key: false
@@ -68,7 +68,7 @@
     reasons:
     - Currently following UX guidance for health where we are above target.  
   urls:
-    - "/handbook/engineering/ux/performance-indicators/#ux-debt"
+    - "/handbook/product/ux/performance-indicators/#ux-debt"
   sisense_data:
     chart: 6599301
     dashboard: 462325

@@ -97,6 +97,7 @@
 /sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-generational-understanding/ @darwinjs @wendybarnes @mdrussell @terrichu
 sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia @hugoazevedo @romerg @chriscruz
 /sites/uncategorized/source/company/culture/inclusion/erg-gitlab-diversability/ @wspillane @igroenewegenmackintosh @matt_wilson @kchappell
+/sites/uncategorized/source/company/culture/inclusion/tmrg-global-voices/ @eliran.mesika @sethgitlab @marin
 
 ^[Customer Success]
 /sites/handbook/source/handbook/customer-success/ @dsakamoto @jfullam @spatching @bstevens1 @michael_lutz
@@ -212,7 +213,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/ops-qe-team/ @jo_shih
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/fulfillment-growth-qe-team/ @vincywilson
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/enablement-saas-platforms-qe-team/ @ksvoboda
-/sites/handbook/source/handbook/engineering/quality/quality-engineering/sec-modelops-qe-team/ @vincywilson
+/sites/handbook/source/handbook/engineering/quality/quality-engineering/sec-data-science-qe-team/ @vincywilson
 /sites/handbook/source/handbook/engineering/quality/engineering-productivity/ @kwiebers
 /sites/handbook/source/handbook/engineering/quality/engineering-analytics/ @meks @lmai1
 /sites/handbook/source/handbook/engineering/quality/contributor-success/ @nick_vh
@@ -230,12 +231,12 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/security/security-engineering-and-research/infrastructure-security/ @laurence.bierner @joe-dub
 
 ^[UX department]
-/sites/handbook/source/handbook/engineering/ux/ @clenneville @vkarnes @asmolinski2 @jackib @mvanremmerden @jmandell @tauriedavis @rayana @susantacker @badnewsblair
-/sites/handbook/source/handbook/engineering/ux/stage-group-ux-strategy/ci-cd/ @rayana
-/sites/handbook/source/handbook/engineering/ux/stage-group-ux-strategy/fulfillment/ @jackib
-/sites/handbook/source/handbook/engineering/ux/stage-group-ux-strategy/release/ @rayana @vkarnes
-/sites/handbook/source/handbook/engineering/ux/stage-group-ux-strategy/release/release-management/ @rayana @vkarnes
-/sites/handbook/source/handbook/engineering/ux/stage-group-ux-strategy/verify/ @rayana @v_mishra @nadia_sotnikova
+/sites/handbook/source/handbook/product/ux/ @clenneville @vkarnes @asmolinski2 @jackib @mvanremmerden @jmandell @tauriedavis @rayana @susantacker @badnewsblair
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/ci-cd/ @rayana
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/fulfillment/ @jackib
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/release/ @rayana @vkarnes
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/release/release-management/ @rayana @vkarnes
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/verify/ @rayana @v_mishra
 
 ^[Incubation department]
 /sites/handbook/source/handbook/engineering/incubation/ @bmarnane
@@ -494,8 +495,8 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/manage/devops-reports/ @hsnir1 @ogolowinski @gl-product-leadership
 /source/direction/manage/code-analytics/ @hsnir1 @ogolowinski @gl-product-leadership
 /source/direction/manage/value_stream_management/ @hsnir1 @ogolowinski @gl-product-leadership
-/source/direction/plan/portfolio_management/ @mushakov @ogolowinski @cdybenko @gl-product-leadership
-/source/direction/plan/design_management/ @mushakov @ogolowinski @cdybenko @gl-product-leadership
+/source/direction/plan/portfolio_management/ @mushakov @ogolowinski @amandarueda @gl-product-leadership
+/source/direction/plan/design_management/ @mushakov @ogolowinski @amandarueda @gl-product-leadership
 /source/direction/plan/certify/ @mushakov @ogolowinski @gl-product-leadership
 /source/direction/plan/project_management/ @mushakov @ogolowinski @gweaver @gl-product-leadership
 /source/direction/plan/project_management/team_planning/ @mushakov @ogolowinski @gweaver @gl-product-leadership
@@ -698,7 +699,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/support/workflows/team/performance_review.html.md @tcooney @lbot @lyle @shaunmccann @vparsons
 
 ^[Technical Writing]
-/sites/handbook/source/handbook/engineering/ux/technical-writing/ @susantacker @dianalogan @kpaizee
+/sites/handbook/source/handbook/product/ux/technical-writing/ @susantacker @dianalogan @kpaizee
 /sites/handbook/source/handbook/documentation/ @susantacker @dianalogan @kpaizee
 /sites/uncategorized/source/job-families/engineering/technical-writer/ @susantacker @dianalogan @kpaizee
 /sites/uncategorized/source/job-families/engineering/technical-writing-manager/ @susantacker @dianalogan @kpaizee

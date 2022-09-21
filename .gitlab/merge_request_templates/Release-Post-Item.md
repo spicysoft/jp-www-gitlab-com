@@ -124,7 +124,7 @@ _Tip:_ Try using the [Review App](https://docs.gitlab.com/ee/ci/review_apps/) in
 <details>
 <summary>Expand for Details </summary>
 
-Once **added as a Reviewer to this merge request**, the [technical writer designated to the corresponding DevOps stage/group](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#assignments) will perform their review according to the criteria described below.
+Once **added as a Reviewer to this merge request**, the [technical writer designated to the corresponding DevOps stage/group](https://about.gitlab.com/handbook/product/ux/technical-writing/#assignments) will perform their review according to the criteria described below.
 
 **Please only mark a section as completed once you performed all individual checks!** When your review is complete, please `approve` this MR and remove yourself from Reviewers.
 

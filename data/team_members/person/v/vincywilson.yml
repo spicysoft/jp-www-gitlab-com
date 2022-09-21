@@ -13,12 +13,12 @@ departments:
 - Quality Department
 - Fulfillment & Growth QE Team
 - Enablement & SaaS Platforms QE team
-- Sec & ModelOps QE team
+- Sec & Data Science QE team
 - Growth Section
 - Fulfillment Section
 - Sec Section
 - Enablement Section
-- ModelOps Section
+- Data Science Section
 projects:
   gitlab: reviewer qa
   gitlab-qa: reviewer

@@ -47,14 +47,16 @@ Over the next 12 months, the Provision team has three primary objectives:
 2. Improve Internal Team Efficiency
 3. Reduce Code Complexity to Address Longstanding Bugs
 
+For a full list of our upcoming and ongoing projects, check out our [GitLab Epic Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=start_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Aprovision&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP).
+
 ### Increase Cloud Licensing Adoption
 In August 2021, we introduced Cloud Licensing. Cloud Licensing provides an improved activation and subscription management experience for self-managed customers. This year, we're focused on increasing Cloud Licensing adoption to ensure more GitLab customers are able to benefit from this functionality. This is being done with the release of [Offline Cloud Licensing](https://gitlab.com/groups/gitlab-org/-/epics/7095) and [making Cloud Licensing the default activation method](https://gitlab.com/groups/gitlab-org/-/epics/7550).
  
 ### Improve Internal Team Efficiency
-A major focus this year is on providing our internal customer-facing team members with the information they need to facilitate a positive customer experience. This includes visibility into license delivery status and usage data collected as part of Cloud Licensing.
+A major focus this year is on providing our internal customer-facing team members with the information they need to facilitate a positive customer experience. This includes visibility into provisioning status and [license usage data](https://gitlab.com/groups/gitlab-org/-/epics/8133) collected as part of Cloud Licensing.
 
 ### Reduce Code Complexity to Address Longstanding Bugs
-Another primary focus this year is on addressing some of the common license-related bugs impacting customers and our internal support teams. As GitLab has scaled, the complexity of our licensing logic has grown as well, resulting in multiple customer and support pain points. We hope to take the time this year to identify areas for reducing complexity in our code, as we believe this will help to address many longstanding bugs. Some of the primary [pain points we are working to address are are outlined in more detail in our [internal handbook page](https://internal-handbook.gitlab.io/handbook/product/fulfillment/licensingissues/).
+Another primary focus this year is on addressing some of the common license-related bugs impacting customers and our internal support teams. As GitLab has scaled, the complexity of our licensing logic has grown as well, resulting in multiple customer and support pain points. We hope to take the time this year to [identify areas for reducing complexity in our code](https://gitlab.com/groups/gitlab-org/-/epics/8129), as we believe this will help to address many longstanding bugs. Some of the primary pain points we are working to address are are outlined in more detail in our [internal handbook page](https://internal-handbook.gitlab.io/handbook/product/fulfillment/licensingissues/).
  
 ## Looking Forward
 As outlined above, the Provision team is focused this year on key efficiency gains and reducing complexity in our current processes. As we are able to complete these improvements, the team is planning to shift focus towards building a state-of-the-art provisioning system.

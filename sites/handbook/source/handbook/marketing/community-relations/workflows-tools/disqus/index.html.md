@@ -51,7 +51,7 @@ It's also advisable to check the rest of the queues (`Approved`, `Spam` and `Del
 We are using [Zapier](/handbook/marketing/community-relations/workflows-tools/zapier/) to forward Disqus comments into Slack.
 
 - [#mentions-of-gitlab](https://gitlab.slack.com/archives/C03N3AY9W) for about.gitlab.com - DRI is [Developer Evangelism](/handbook/marketing/community-relations/developer-evangelism/hacker-news/#blog-comments)
-- [#docs-comments](https://gitlab.slack.com/archives/C7WE1CBQW) for docs.gitlab.com - DRI is [Technical Writing](/handbook/engineering/ux/technical-writing/)
+- [#docs-comments](https://gitlab.slack.com/archives/C7WE1CBQW) for docs.gitlab.com - DRI is [Technical Writing](/handbook/product/ux/technical-writing/)
 
 ### Expert Responses in Disqus
 

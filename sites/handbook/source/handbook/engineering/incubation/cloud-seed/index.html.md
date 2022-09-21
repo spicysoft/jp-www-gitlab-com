@@ -71,16 +71,16 @@ List of [user personas](https://about.gitlab.com/handbook/product/personas/) wit
     - ☑️ Deployment credential generation
     - ☑️ Provisioning and enablement of cloud services
     - ☑️ Deployment pipelines
-    - ☑️ POreview environments
+    - ☑️ Preview environments
 - Provision cloud data stores
     - ☑️ Authentication and authorization
-    - ⏳ Database instance generation
-    - ⏳ Database and user setup
+    - ☑️ Database instance generation
+    - ☑️ Database and user setup
     + ⏳ Networking configuration
 
 ### Open source
 
-Cloud Seed is an open-source program lead by GitLab Incubation Engineering.
+Cloud Seed is an open-source program led by GitLab Incubation Engineering.
 
 Sign up for the invite-only [Trusted Testers platform](https://docs.google.com/forms/d/e/1FAIpQLSeJPtFE8Vpqs_YTAKkFK42p5mO9zIYA2jr_PiP2h32cs8R39Q/viewform) and try out Cloud Seed before anyone else.
 ### Everyone can contribute

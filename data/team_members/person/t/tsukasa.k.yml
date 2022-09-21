@@ -1,17 +1,19 @@
 name: Tsukasa Komatsubara
 locality: 
 country: Remote
-role: <a href="">Senior Solutions Architect</a>
+role: <a href="/job-families/sales/solutions-architect/">Senior Solutions Architect</a>
 reports_to: pbopardikar
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
-twitter:
-linkedin:
+picture: tsukasa_komatsubara.png
+pronouns: They/Them
+pronunciation: tsu-ka-sa
+twitter: https://twitter.com/GL_Tsukasa
+linkedin: https://www.linkedin.com/in/t-komatsubara/
 gitlab: tsukasa.k
 departments:
   - Customer Success
+  - Solutions Architects
 specialty: ""
 expertise:
 story:
-
+  'Tsukasa has over 20 years of experience in the IT industry, which includes software development, localization, technical consulting, technical sales, architecting, and partner enablement. They are married and have two children, and enjoys working remotely and traveling. Their hobbies include cooking, dessert hunting, and programming retro computers. MSX, for example.
+They will be primarily responsible for APAC partner'

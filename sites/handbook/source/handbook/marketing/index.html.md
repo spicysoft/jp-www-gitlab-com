@@ -17,25 +17,17 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 {: .no_toc}
 
-The GitLab Marketing team includes multiple Departments organized as: Corporate Marketing, Integrated Marketing, Portfolio Marketing, & Inbound Marketing. This page documents shared team practices and processed, while the [individual team handbooks](/handbook/marketing/#marketing-handbooks) contain more detailed information about each sub-team.
+The GitLab Marketing team includes multiple Departments organized as: Product Marketing, Integrated Marketing, Sales Development, Marketing Strategy and Operations, and Community Relations. This page documents shared team practices and processes, while the [individual team handbooks](/handbook/marketing/#marketing-handbooks) contain more detailed information about each sub-team.
 
 ## Marketing OKRs
-Each quarter, the Marketing team creates OKRs (Objectives and Key Results) that cascade from the [CEO's OKRs](/company/okrs/#most-recent-okrs). 
+Each quarter, the Marketing team creates OKRs (Objectives and Key Results) in Ally that cascade from the [CEO's OKRs](/company/okrs/#most-recent-okrs). 
 
-**Most Recent OKRs**
-
- * [FY22-Q3 Previous](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2199)
- * [FY22-Q4 Increase awareness around our brand messaging and product positioning](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2379)
- * [FY22-Q4 Deliver First Order Pipeline - Volume and NetARR](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2378)
- * [FY22-Q4 Increase team member community and sense of belonging](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2380)
- * [Previous OKRs](/handbook/marketing/#okr-archive)
-
-Each department within the Marketing team keeps their own cascading OKRs in their [team handbooks](/handbook/marketing/#marketing-handbooks). 
+Each department within the Marketing team manages their own cascading OKRs in Ally. 
 
 ## GitLab Marketing Purpose
 <div class="alert alert-purple center"><h3 class="purple"><strong>We <i class="fas fa-heart color-orange font-awesome" aria-hidden="true"></i> GitLab</strong></h3></div>
 
-GitLab's vision is to become the leader in the DevOps Platform category by providing a comprehensive platform for the entire DevOps lifecycle, delivered as a single application. To accomplish this, GitLab needs to be the most desired organization to work with for understanding and solving DevOps challenges.
+GitLab's vision is to be known as the leading complete DevOps Platform (or, what Gartner calls the DevOps Value Stream Delivery platform) delivered as a single application. 
 
 The GitLab Marketing team aspires to:
 
@@ -74,21 +66,21 @@ Detailed explanation of reports & filters used in these reports can be found on 
 
 These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving among members, so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
 
-### Monthly Marketing Strategy and Tactics Call (All Marketing team members)
+### Monthly Marketing All Hands (All Marketing team members)
 
 {: .no_toc}
 
-**Meeting goal: This is the main meeting where marketing strategy and tactics are discussed. Everyone in marketing is invited, but attendance is optional.**
+**Meeting goal: This is the main meeting where marketing gets together to celebrate, collaborate, and stay in sync. Everyone in marketing is invited, but attendance is optional.**
 
 **Run time: 50 minutes**
 
-The Marketing team meets on the third Thursday of the month to review announcements, strategy developments, company updates, OKRs, and KPIs. This is the primary meeting for discussing strategy and tactics, resolving conflicts and communicating information.
+The Marketing team meets on the last Thursday of the month to welcome new hires, celebrate team wins, learn what is top of mind for the CMSO, cover team topics that warrant discussion in an organization wide forum, conducting a Q&A, and recognizing each other. 
 
 The meeting should run as follows:
 
 - Prior to the meeting, any marketer adds agenda items to the agenda doc, linked to the invitation.
-- The CMO prioritizes the agenda and kicks off the meeting with new hire welcomes, promotions/transfers, and announcements and updates on strategy, company and org.
-- The remaining time is used for open discussion and Q&A.
+- The CMO prioritizes the agenda and kicks off the meeting with new hire welcomes, promotions/transfers, key wins, and shares what is top of mind. 
+- The remaining time is used for open discussion, Q&A, and recognition.
 - Interruption is encouraged! Team members are encouraged to interrupt and ask questions throughout.
 - All team members are also encouraged to bring forward discussion topics that they want to share with the team or to have covered during the call.
 - Action items are recorded and owners assigned. Owners are responsible to report back with the outcome of the action item.
@@ -266,7 +258,7 @@ When working remotely in a fast-paced organization, it is important for a team t
       </div>
     </div>
   </a>
-  <a href="https://gitlab.myshopify.com/">
+  <a href="https://shop.gitlab.com/">
     <div class="col-sm-6 col-md-3 mkt-box">
       <div class="thumbnail product">
         <img src="/images/icons/swag_shop.png" alt="GitLab Marketing - Design - Icon">
@@ -278,7 +270,7 @@ When working remotely in a fast-paced organization, it is important for a team t
       </div>
     </div>
   </a>
-  <a href="/blog/categories/events/">
+  <a href="/events/">
     <div class="col-sm-6 col-md-3 mkt-box">
       <div class="thumbnail product">
         <img src="/images/icons/location.png" alt="GitLab Marketing - Developer Relations - Icon">
@@ -640,7 +632,7 @@ Each week on Monday, any open MRs and issues still assigned to the previous week
 
 [The latest recommendations for Epics](/handbook/marketing/project-management-guidelines/epics/) and [the latest for Issues](/handbook/marketing/project-management-guidelines/issues/) from FY21-Q2 Agility Project
 
-1. Each issue represents a discrete unit of work with a deliverable. For example [1](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/10) [2](https://gitlab.com/gitlab-com/marketing/online-growth/issues/8) [3](https://gitlab.com/gitlab-com/marketing/general/issues/2574)
+1. Each issue represents a discrete unit of work with a deliverable. For example [1](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/10) [2](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/36) [3](https://gitlab.com/gitlab-com/marketing/general/-/issues/2574)
 1. Every MR should have an issue so that it can be tracked on issue boards.
 1. Milestones represent units of work to be completed within a specific time frame, sometimes referred to as sprints. They are comprised of multiple issues that share a common due date, and help break large projects into more manageable parts.
 1. Epics represent projects that comprise multiple issues. (Don't use "meta" issues for this purpose. If you have an existing meta issue you can promote them to epics using the `/promote` quick command.)

@@ -32,19 +32,19 @@ This chart reflects the available signatories for each of GitLab's entities. The
 |-------- | -----|
 | GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Ferber, Ursela Knezevic), Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. LOAs can be signed by Morgan Wilkins  | 
 | GitLab Federal LLC    |       Bob Stevens     |  
-| GitLab BV Belgium, Dutch & English | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab BV, Netherlands | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab GmbH | Rob Allen & Pattie Egan. Backup: Igor Groenewegen-Mackintosh | 
-| GitLab PTY Ltd, Australia | Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab PTY Ltd, New Zealand | Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab Ireland LTD | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab UK Ltd | Rob Allen, Pattie Egan, Dale Brown. Backup: Igor Groenewegen-Mackintosh | 
+| GitLab BV Belgium, Dutch & English | Rob Allen & Pattie Egan. Backups: Craig Mestel| 
+| GitLab BV, Netherlands | Rob Allen & Pattie Egan. Backup: Craig Mestel| 
+| GitLab GmbH | Rob Allen & Pattie Egan| 
+| GitLab PTY Ltd, Australia | Craig Mestel| 
+| GitLab PTY Ltd, New Zealand | Craig Mestel| 
+| GitLab Ireland LTD | Rob Allen & Pattie Egan. Backup: Craig Mestel| 
+| GitLab UK Ltd | Rob Allen, Pattie Egan, Dale Brown| 
 | GitLab Canada Corp | Craig Mestel, Dale Brown | 
 | GitLab GK, Japan | Dale Brown, Craig Mestel | 
-| GitLab IT BV | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh | 
+| GitLab IT BV | Rob Allen & Pattie Egan. Backup: Craig Mestel| 
 | GitLab South Korea | Dale Brown, Craig Mestel | 
-| GitLab France S.A.S. | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh |
-| GitLab Singapore PTE. LTD. | Dale Brown, Igor Groenewegen-Mackintosh |
+| GitLab France S.A.S. | Rob Allen & Pattie Egan. Backup: Craig Mestel|
+| GitLab Singapore PTE. LTD. | Dale Brown|
 | LOAs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For LOAs, choose Morgan Wilkins or Marissa Ferber |
 
@@ -60,7 +60,7 @@ Once the entity of the chosen candidate has been determined and the CES team has
 
 1. Once the offer package has been approved in Greenhouse and the recruiter has given the verbal offer, go to the candidate's profile in Greenhouse. Verify the address is listed on the details tab. If the address is not listed you can locate it on the background check, or in the reference request email reply.
 1. If necessary click Edit Profile to update the candidate's name to their legal name (given during the reference/background check stage) and list any preferred names in quotes as the first name. Legal names are required on contracts and for proper export to Bamboo HR.
-1. Ensure the start date is on a Monday, unless Monday is a holiday/[no start date](/handbook/people-group/people-experience-team/#people-experience-team-availability) or the non-Monday date is legally required.
+1. Ensure the start date is on a Monday, unless Monday is a holiday/[no start date](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/people_connect_team/#people-connect-availability) or the non-Monday date is legally required.
 1.  Update signatory and entity by clicking "Update" under Offer Details. Add signatory name and title, as well as entity based on candidate's location.
 1. Next you'll need to update the signatory's permissions to ensure we're able to send the DocuSign contract to them.
     - Navigate to `Job Setup` at the top of the page.
@@ -203,6 +203,13 @@ In rare cases, we may rescind our offer before a candidate signs the contract. W
 1. Void the contract in DocuSign utilizing the same communication that was emailed.
 1. Reject the candidate in Greenhouse. Be sure to select 'Reject and Don't Send Email.'
 
+### How to Void a Contract when the candidate declines the offer and not marked as hired in the system
+ 
+In cases where the candidate has declined the offer verbally or via email to the talent acquisition team or CES, follow these steps once the recruiter confirms it is okay to void the contract:
+1. Go to the docusign portal, under the “ waiting for others” tab, click on the candidate’s name whose contract needs to be voided. 
+1. Under “More” tab, click “Void”. Enter the reason for voiding the contract e.g "Candidate declined offer" then click on Void.
+1. Go to the candidate’s Greenhouse profile, make a note saying the contract is voided by copying the recruiter. This will prompt the recruiter to reject the candidate in GH if it hasn’t been done.
+
 ### How to Resend a Contract After Being Marked as Hired
 
 There are certain times when a contract needs to get resent to the candidate after they have been hired into the system, should that happen. Follow the steps below:
@@ -342,7 +349,7 @@ It is common for Dutch employers to offer a second temporary contract when the f
 The process for New Hires is as follows:
 
 1. The offer is made by the recruiter per the [hiring process](https://about.gitlab.com/handbook/hiring/).
-1. The Candidate Experience Specialist emails the new team member the Contract Info Request - the Netherlands from GreenHouse.
+1. If the BSN and date of birth are not filled out and cannot be found in a reference check form, the Candidate Experience Specialist can use the emails the email template Contract Info Request - the Netherlands from GreenHouse and send to the candidate.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will update the GreenHouse Offer Details with BSN and Date of Birth when the new team member provides the necessary details and then generates the "IT BV Employee Temporary - the Netherlands" contract out of GreenHouse.
 1. The Candidate Experience Specialist will stage the contract for signature via DocuSign, CC the hiring manager, and CC the HRSavvy group email. This will ensure our payroll provider in this location can start their onboarding, well ahead of ours.
@@ -421,7 +428,7 @@ GitLab is working in partnership with [Global Upside](https://globalupside.com) 
 
 The process for creating and sending an agreement is as follows:
 1. The Offer is made by the recruiter per the [hiring process](/handbook/hiring/).
-1. CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details.
+1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
     - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-periods-of-team-members-employed-through-a-peo-or-an-entity) and check the candidate's country.
@@ -456,7 +463,7 @@ GitLab has partnered with [Remote.com](https://remote.com/) to hire in South Afr
 To create the contract:
 
 1. Offer is made by the recruiter per the [hiring process](/handbook/hiring/).
-1. The Candidate Experience Specialist emails the new team member the Contract Info Request - Remote.com from GreenHouse.
+1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details.
     -Click “Email CANDIDATE NAME”
     -Select “Contract Info Request-Remote.com” from dropdown.
     -CC Recruiter

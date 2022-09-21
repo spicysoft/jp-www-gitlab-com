@@ -12,7 +12,7 @@ canonical_path: "/direction/gitaly/"
 
 | Section | Maturity | Last Reviewed |
 | --- | --- | --- |
-| [Enablement](/direction/enablement/) | Non-marketable | 2022-08-11 |
+| [Enablement](/direction/enablement/) | Non-marketable | 2022-09-19 |
 
 ## Introduction and how you can help
 
@@ -56,6 +56,14 @@ Gitaly provides multiple interfaces to read and write Git data:
   <iframe src="https://www.youtube.com/embed/RNLWrvIkB9E" frameborder="0" allowfullscreen="true"></iframe>
 </figure>
 <!-- blank line -->
+
+### Gitaly within GitLab
+
+While GitLab is the largest user of the Gitaly project, it is important to note that Gitaly is a standalone project that can be adopted separately from GitLab. As such, we strive to ensure that all business specific decisions are made within the GitLab application. Our belief is that Gitaly should provide the ability for management interfaces, but not make any specific decisions.
+
+For example, some users may want the ability to move repositories between different storage nodes for either cost savings or performance reasons. While Gitaly should provide an easy to use interface to efficiently move repositories, the calling application should be making the decisions around which repositories to move where.
+
+Processes requiring no business data or inputs should be fully contained withing Gitaly. These types of processes include repository maintenance and storage maintenance type tasks. We believe that these types of features provide substantial value for projects utilizing Gitaly and provide a compelling reason to chose Gitaly as a repository storage architecture.
 
 ### Gitaly Cluster
 

@@ -2,16 +2,16 @@
 name: Amanda Rueda
 locality:
 country: Remote
-role: <a href="/job-families/product/product-manager/">Senior Product Manager, Product
-  Intelligence</a>
-reports_to: justinfarris
+role: <a href="/job-families/product/product-manager/">Senior Product Manager, Plan:Product
+  Planning</a>
+reports_to: melissaushakov
 picture: amandarueda.jpg
 twitter: amandamrueda
 gitlab: amandarueda
+pronouns: she/her
 departments:
 - Product Management
-- Analytics Section
-- Product Intelligence Team
+- Dev PM Team
 expertise: |
   <li><a href="https://docs.gitlab.com/ee/ci/">CI/CD</a> <a href="/company/team/structure/#expert">expert</a></li>
   <li><a href="https://docs.gitlab.com/ee/api/">API</a> <a href="/company/team/structure/#expert">expert</a></li>

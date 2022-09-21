@@ -112,6 +112,48 @@ To learn more about the Corporate Events team, its purview, and how we work, ple
 
 See our [handbook page](/handbook/marketing/corporate-marketing/corp-event-marketing/) for more details.
 
+## Sponsored Events - Staffing Process
+
+**Sponsored Event Tiers**
+
+Sponsored Events are categorized into (3) Tiers at GitLab.  The Tier of the show is determined by the sponsorship level, thought leadership opportunities, size of the booth, stakeholders attending and if the audience is our key demographic.  Depending on the booths size they are staffed accordingly: 
+
+
+
+    1. Tier 1: Typically uses our 20 x 20 Tier 1 booth structure, which has (4) demo stations, lightning talk area, meeting area, host counter, activation (example: VR experience), & coding challenge desk. Ideally 20-30 staff members will be asked to work at the booth in order to adequately staff all the shifts and ensure coverage in all the zones. 
+    For Tier 1 shows, we may add-on an additional Activation Zone space that will feature other activities. Some examples GitLab has done in that past include: a caricature artist, code challenge, charging stations, or tabletop games. 
+    2. Tier 2: Will either be a smaller version of our Tier 1 booth or a turnkey booth 10 x 10 - 10 x 20 foot print. Around 6 - 10 staff members will be requested to staff the demo stations, activation, host counter & assist with other onsite activities such as sessions, photography or an ancillary event.
+    3. Tier 3: This size sponsorship does not require a big lift from Corporate Events and only 4-6 staff members will be needed onsite to manage two shifts that are properly staffed and can handle 1 or 2 demo stations and a host counter. These shows have no other activities going on such as sessions, meetings or an ancillary event. 
+
+**Staff Process**
+
+
+
+1. **Create the [Staffing Issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_Travel_Staffing_Template) when the epic is created with the show overview & GitLab policy to attend with checklist for staff members to complete & get manager approval. ** 
+2. Consider the audience of the show as well as the show theme/focus before reaching out to departments to ask for staffing help. 
+    1. Example: if it’s a Security focused show like Black Hat, maybe a Security team member from Product or a TMM with Security expertise should attend. 
+
+2. Once you have taken into consideration the audience and focus of the show, you can start reaching out to managers and VPs via group slack channels to staff the show. Try to be specific in your request with travel dates,details of the show, and how many team members from the group that you're needing. 
+
+
+
+    2. Example: we’re looking for 2 TMMs to help with Security demos at Black Hat in Las Vegas on August 10-11. Can you see who is available on your team? 
+
+3. Once you have built a list, start tagging in the team members to complete the staff checklist in the comments and ask them to tag in their manager for approval. 
+
+4. Once the team member completes their checklist, slack DM them their registration code to register for the show with additional information for booking hotels and flights.
+
+5. After you have a full staff list and all those who are expected to attend fully registered, you can start building out the staff schedule to assign booth shifts. Booth shifts typically last 4 hours and are split between AM and PM shifts. 
+
+6. Once the staff list is full, make sure to send out invites for: 
+
+
+
+    3. Kick Off call (ideally 6-8 weeks out) 
+    4. Recurring staff sync meetings every other week for show updates & weekly once 4 weeks out for Tier 1 & 2 shows
+    5. Know Before You Go (KBYG) 2-3 business days prior to travel 
+
+7. Once the staff schedule is finalized, send out calendar invites to the actual booth shifts about 1 week before day 1 of the show. 
 
 - - -
 
@@ -127,6 +169,34 @@ All swag requests, creation and vendor selection is handled by the Brand Strateg
 - We strive to make small batch, limited edition and themed swag for the community to collect.
 - Our goal is to make swag self-serve => [web shop](https://gitlab.myshopify.com/). Please note our swag store is not intended for ordering and expensing back items purchased, see the [swag handbook](/handbook/marketing/corporate-marketing/merchandise-handling/) to order swag if you are internal to GitLab.
 
+## FAQ Writing Process
+
+FAQ Examples:
+
+[Virtual Event FAQ Example - 2022 Virtual SKO](https://docs.google.com/document/d/1OTRQjtWs-8sAnZG_ITQwNn0B2bZ6ed6sqhDEWKlimqE/edit?usp=sharing)
+
+[In-Person FAQ - 2022 Contribute](https://docs.google.com/document/d/1mW6OQJGpnBWek_QE7YcoyxfaELNprRUNqAup-XHYqtQ/edit?usp=sharing)
+
+[External Facing FAQ Example - 2022 Commit](https://docs.google.com/document/d/1w_MysOiyfDRW5DFi3NUx1cTCuN3VNBJWwPmZilRdxhE/edit?usp=sharing)
+
+The purpose of a FAQ is to provide answers to questions that event attendees might have and to provide a SSoT (Single Source of Truth) for people to look to for answers. 
+
+We would highly recommend referencing previous event FAQs for a template and clear concise precedent that was set. 
+
+
+
+1. Start with identifying your audience. 
+    1. Are they internal team members?
+    2. Are they customers?
+    3. Are they first time attendees?
+    4. Are they mostly GitLab users/customers?
+    5. Does this include speakers? 
+    6. Do you need to have internal FAQs and an external facing one as well? 
+2. Once you consider your audience, this will dictate the level of contributors and review you’ll need for the FAQs before publishing. Certain events will require more contributors and reviews than others. As an example, Contribute will need legal and People Group review for team member travel
+3. Outline your FAQs into digestible categories of information. Suggested categories include Registration, Travel, Who to contact with questions, CFP/speaker information, Health and Safety. These are some of the essential categories you will likely need.
+4. Decide where the FAQs will live, for example in an issue or a GoogleDoc or maybe on a public Website. Confirm SSoT so that only one place needs to be updated. This will likely be determined based on your audience. 
+5. Keep your FAQ iterable. Once posted, this is a living document. As questions are asked, make sure to add relevant items to the FAQ so it's updated.
+6. Don’t assume that people will understand the information. People from various cultures, ages, and be understanding. Lowest common denominator - will a kindergartener be able to figure out the directions? Assume someone knows nothing! Is the information incomplete? What else is missing? 
 - - -
 
 ## All-Remote Marketing

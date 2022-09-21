@@ -47,7 +47,7 @@ Steps to uplevel triaging process:
 | [Product Data Insights](https://gitlab.com/gitlab-data/product-analytics) |
 | [Business Analytics](https://gitlab.com/gitlab-com/business-analytics) |
 | [Engineering Analytics](https://gitlab.com/gitlab-com/quality/engineering-analytics) |
-| [People Analytics](https://gitlab.com/gitlab-com/people-group/people-operations/people-analytics2) |
+| [People Analytics](https://gitlab.com/gitlab-com/people-group/people-analytics) |
 | [Customer Success Operations - Use CSAnalytics label](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations) |
 | [Online Sales and Self-Service](https://gitlab.com/gitlab-com/sales-team/self-service) |
 
@@ -65,8 +65,8 @@ Steps to uplevel triaging process:
 |	                  | G&A Data Fusion |	| `@Peter Empey` |	 	| | | |		
 | `@EngineeringAnalyticsTriage` |	Engineering Analytics |		|	 | `@Raul Rendon` | |  `@lily` |	
 |	                  | Engineering Data Fusion |		| `@Peter Empey` 	| 	|		|     |     |
-| `@DataPlatformTriage` |	Data Platform | | `@vprakash` / `@csnehansh` (shadowing) | `@Paul Armstrong` | `@Radovan Bacovic` |	`@Rigerta Demiri` | `@jstark` |
-| `@DataCollaborationTriage` | Data Collaboration |	`@Ken` |	`@Ken` |	`@Ken` |	`@Ken` 	| | |	
+| `@DataPlatformTriage` |	Data Platform | | `@vprakash` / `@csnehansh` (shadowing) | `@Paul Armstrong` | `@Radovan Bacovic` |	`@Rigerta Demiri` | `@jstark` / @juwong (shadowing) |
+| `@DataCollaborationTriage` | Data Collaboration |	`@Ken` |	`@Ken` |	`@Ken` |	`@Ken` 	| `@Ken` | |	
 
 
 ### Enterprise Data Program Triage Instructions 
