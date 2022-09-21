@@ -4,7 +4,7 @@ features:
   - name: "Streamlined sign-in page"
     available_in: [core, premium, ultimate]  # Include all supported tiers
     documentation_link: 'https://docs.gitlab.com/ee/user/admin_area/appearance.html#sign-in--sign-up-pages'
-    image_url: '/images/unreleased/manage-login.png'
+    image_url: '/images/15_4/manage-login.png'
     reporter: hsutor
     stage: manage
     categories:

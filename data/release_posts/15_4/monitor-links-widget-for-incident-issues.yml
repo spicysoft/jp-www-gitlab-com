@@ -5,7 +5,7 @@ features:
     available_in: [premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html'
-    image_url: '/images/unreleased/links_widget_for_incident_issues.png'
+    image_url: '/images/15_4/links_widget_for_incident_issues.png'
     reporter: abellucci
     stage: monitor
     categories:

@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/issue_board.html#move-an-issue-to-the-start-of-the-list'
-    image_url: '/images/unreleased/move_cards_on_a_board_to_the_top_or_bottom_of_list.png'
+    image_url: '/images/15_4/move_cards_on_a_board_to_the_top_or_bottom_of_list.png'
     reporter: gweaver
     stage: plan
     categories:

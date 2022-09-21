@@ -3,7 +3,7 @@ features:
   - name: "Unified navigational elements in the top bar"
     available_in: [core, premium, ultimate]  # Include all supported tiers
     documentation_link: 'https://design.gitlab.com/regions/navigation'
-    image_url: '/images/unreleased/ecosystem-top-bar-menu-update.png'
+    image_url: '/images/15_4/ecosystem-top-bar-menu-update.png'
     reporter: cdybenko
     stage: ecosystem
     categories:

@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/shimo.html'
-    image_url: '/images/unreleased/shimo_wiki.png'
+    image_url: '/images/15_4/shimo_wiki.png'
     reporter: g.hickman
     stage: ecosystem
     categories:

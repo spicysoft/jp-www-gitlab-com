@@ -4,7 +4,7 @@ features:
   - name: "Move group push rules to Settings > Repository"
     available_in: [premium, ultimate]
     documentation_link: 'https://docs.gitlab.com/ee/user/group/access_and_permissions.html#group-push-rules'
-    image_url: '/images/unreleased/ecosystem-group-settings-repository-push-rules.png'
+    image_url: '/images/15_4/ecosystem-group-settings-repository-push-rules.png'
     reporter: cdybenko
     stage: ecosystem
     categories:

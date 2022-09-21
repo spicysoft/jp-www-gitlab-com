@@ -5,7 +5,7 @@ features:
     available_in: [silver, gold]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/group/saml_sso/index.html#bypass-user-email-confirmation-with-verified-domains'
-    image_url: '/images/unreleased/domain-verification.png'
+    image_url: '/images/15_4/domain-verification.png'
     reporter: hsutor
     stage: manage
     categories:
