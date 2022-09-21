@@ -56,6 +56,27 @@ We do not plan at this time to pursue use cases and personas around:
 
 Note that while the above are use cases and personas we are not actively pursuing, this does not mean that those personas will not find some value in what we provide. It means that they are not our primary focus. We do not intend to block functionality around these, just that they are not our primary focus. For example, page views and traffic trends are also useful for marketing personas, but we intend to use them for guiding product-related use cases, not for addressing marketing-related use cases. Similarly, understanding error reporting for a given feature may be important to understand a feature, but we are not focused on making a product quality or bug tracking platform using those pieces of data.
 
+## Our unique opportunity
+
+When conducting user research, a common theme we heard is that developers find it hard to add instrumentation code to their app or to successfully gather together the reported data. This could
+be because they are unfamiliar with their app's architecture, the specific SDK of the instrumentation tool, or because they had to use another tool to configure reporting and monitor results.
+GitLab is the One DevOps platform so has a unique opportunity to address these pain points that other solutions may have.
+
+One area that we have an opportunity is to make it easy for developers to add instrumentation code. This is the first step in any analytics workflow. Our primary personas we work with so we know
+what they like, do not like, are good at, and what sorts of experiences they prefer. Additionally, they are already familiar with GitLab and many conventions of our product. This gives us the
+ability to create an approach to adding product instrumentation that is easy and familiar to our users. If developers are excited and easily able to add instrumentation to their apps, they
+will add more, which means their teams will get more valuable insights. Other functional counterparts, such as Product Managers, will see how easy it is for developers to use GitLab to
+instrument their apps, so they will also be excited to use GitLab, rather than another tool.
+
+Another opportunity we have is to do the entire analytics reporting and analysis directly within GitLab, rather than requiring users to use another tool. We know from talking to users that accessing another
+tool is time-consuming and friction filled. Being able to go from reading a GitLab issue to looking at an MR to visualizing the latest Product Analytics data in a single place will make it easy for users
+to get access to the insights from their data quickly. Because it is so painless to view analytics data, these users will do so more and more often, which means that they get even more value out of GitLab.
+
+A final, longer-term opportunity is because we store the user's application code, we have a larger amount of context about the app than any other analytics product could.
+It will be possible for us to suggest or even automatically add analytics instrumentation code to parts of the app.
+This will require a lot of research, but one way this experience could look may be that if a user creates an MR, GitLab provides suggestions directly within the MR with code snippets that will
+automatically instrument the newly added portions of code.
+
 ## What's Next
 - [Analytics Section Next Steps](https://gitlab.com/gitlab-com/Product/-/issues/3785)
 
