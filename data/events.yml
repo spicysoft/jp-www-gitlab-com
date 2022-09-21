@@ -1,3 +1,13 @@
+- topic: CHIRP - Making Tiwtter Bots
+  type: Conference
+  date_starts: November 16, 2022
+  date_ends: November 16, 2022
+  description: Twitter Devreal Jessica Garson and GitLab Education Evangelist Pj Metz will host an in person workshop all about Twitter bots! 
+  location: San Francisco 
+  region: AMER
+  social_tags:
+  event_url: https://developer.twitter.com/en/chirp
+  
 - topic: All Things Open 2022
   type: Conference
   date_starts: October 30, 2022
