@@ -83,7 +83,7 @@ Systems are assigned a critical system tier based on the following matrix:
   </tr>
   <tr>
     <td class="tg-e02t">Tier 1 Mission Critical<span style="color:#DB3B21;">**</span></td>
-    <td class="tg-zqun">Disruption has an immediate and significant impact to the availability of GitLab subscriptions.</td>
+    <td class="tg-zqun">Disruption or breach has an immediate and significant impact to the availability/security of GitLab subscriptions and [customer data](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html#data-classification-definitions).</td>
     <td class="tg-zqun">GitLab.com</td>
     <td class="tg-zqun">Tier 1 Product</td>
   </tr>
@@ -117,7 +117,7 @@ Systems are assigned a critical system tier based on the following matrix:
 <span style="color:#DB3B21;"><b>\*</b></span> As an extension of tiering methodology, the [Data Classification Standard](/handbook/engineering/security/data-classification-standard.html) prescribes **specific** [Security and Privacy](/handbook/engineering/security/data-classification-standard.html#security-and-privacy-controls) control requirements for each data classification level. These requirements should be followed based on a system's data classification, regardless of the system's tier.
 {: .note}
 
-<span style="color:#DB3B21;"><b>\**</b></span> By default, any system that contains <b>RED Data</b> per the [Data Classification Standard](/handbook/engineering/security/data-classification-standard.html#red) OR is a [Third Party Sub-Processor](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors) will be a **Tier 1 Product** system. This is due to the fact that this data is customer owned and uploaded and as such, has been deemed to be mission critical in nature.
+<span style="color:#DB3B21;"><b>\**</b></span> By default, any system that contains <b>RED Data</b> per the [Data Classification Standard](/handbook/engineering/security/data-classification-standard.html#red) OR is a [Third Party Sub-Processor](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors) will be a **Tier 1 Mission Critical** system. This is due to the fact that this data is customer owned and uploaded and as such, has been deemed to be mission critical in nature.
 {: .note}
 
 </div>
