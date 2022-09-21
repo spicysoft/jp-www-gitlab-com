@@ -879,9 +879,26 @@ When planning an event, the organizer should cater for location density differen
 {:.no_toc}
 As a globally-dispersed company, we have team members from many different backgrounds and cultures. That means it is important for each of us to use great judgment in being respectful and inclusive of our teammates. At the same time, we may sometimes not fully realize we have said or done something to offend someone. It is important that our teammates hold each other accountable and let them know if they have unintentionally or intentionally done something so they can learn and gain additional understanding of perspectives different from our own. It is also important that our teammates don't feel excluded or minimized by the words we use or the things we do. Thus, we all need to speak up when we see something that isn't respectful or inclusive.
 
-##### ニューロダイバーシティの尊重 {#embracing-neurodiversity}
+##### ニューロダイバーシティーの尊重 {#embracing-neurodiversity}
 {:.no_toc}
-[Neurodiversity](https://www.neurodiversityhub.org/what-is-neurodiversity) refers to variations in the human brain regarding learning, attention, sociability, mood, and other mental functions. There are various neurodevelopmental conditions, like autism, ADHD, dyslexia, dyscalculia, dyspraxia, cognitive impairment, schizophrenia, bipolarity, and other styles of neurodivergent functioning. While neurodivergent individuals often bring [unique skills and abilities](https://adhdatwork.add.org/potential-benefits-of-having-an-adhd-employee/) which can be harnessed for a [competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage) in many fields (for example, [cybersecurity](https://www.forbes.com/sites/samcurry/2019/05/13/neurodiversity-a-competitive-advantage-in-cybersecurity/)), neurodivergent individuals are often discriminated against. Due to non-inclusive hiring practices, they sometimes have trouble making it through traditional hiring processes. Neurodiversity inclusion best practices benefit everyone, and at GitLab, everyone can contribute. The handbook, values, strategy, and interviewing processes must support the ability for everyone to thrive.
+[ニューロダイバーシティー](https://www.neurodiversityhub.org/what-is-neurodiversity)とは、学習力・注意力・社交性・気分等の精神的な機能に関する脳の特性の違いに関するダイバーシティーです。
+
+[経済産業省: ニューロダイバーシティとは](https://www.meti.go.jp/policy/economy/jinzai/diversity/neurodiversity/neurodiversity.html)
+
+
+自閉症、ADHD、失読症、失認症、認知障害、統合失調症、双極性障害、その他、いろいろな神経発達症があります。
+
+様々なスタイルの多様な神経機能など、様々な神経発達症があります。
+
+神経多様性な人は、例えば[サイバーセキュリティ](https://www.forbes.com/sites/samcurry/2019/05/13/neurodiversity-a-competitive-advantage-in-cybersecurity/)のような多くの分野で活躍するために[有利](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage)になる[ユニークなスキルや能力](https://adhdatwork.add.org/potential-benefits-of-having-an-adhd-employee/)になる一方で、神経多様性な人はしばしば差別されがちです。
+
+
+インクルーシブではない雇用慣行のため、神経多様性な人は、従来の採用プロセスを通過しがたいことが多いです。
+
+神経多様性へのインクルージョンのベストプラクティスにより、すべての人に利益をもたらすことができます。
+だから、GitLabでは、誰もが貢献することができます。
+
+ハンドブック、バリュー、戦略、面接プロセスは、誰もが成功できるようにサポートするものであるべきです。
 
 At GitLab we embrace Neurodiversity through adopting a variety of different work styles and communication styles, and we lean into [transparency](/handbook/values/#transparency), asynchronous as a default working style, and pre-filled meeting agendas. These best practices become even more important when embracing neurodiversity. Providing multiple ways to consume information (written / video / audio) allows everyone to contribute independent of their preferred comprehension style. It is important to ask team members specifically what their preferred communication method is in order to provide them information in a format that is easily consumable for them.
 
@@ -894,7 +911,12 @@ The most important thing that managers can do is facilitate an environment in wh
 
 ##### 家族と友人を第一に、仕事は第二に {#family-and-friends-first-work-second}
 {:.no_toc}
-Long-lasting relationships [are the rocks of life](https://www.youtube.com/watch?v=6_N_uvq41Pg), and come before work. As someone said in our #thanks channel after helping a family member for five days after a hurricane: "THANK YOU to GitLab for providing a culture where "family first" is truly meant".  Use the hashtag: **#FamilyAndFriends1st**
+長く続く人間関係が[人生の基盤](https://www.youtube.com/watch?v=6_N_uvq41Pg)です。
+仕事よりも優先してください。
+Slackの `#thanks` チャンネルで、ハリケーンの後5日間家族と共に時間を過ごした社員が言いました。
+「GitLabは、"家族第一"というカルチャーを提供してくれてありがとうございました」。 
+ハッシュタグを使ってください。**#FamilyAndFriends1st**のハッシュタグを使ってください。
+
 
 ##### ダイバーシティ・インクルージョン・帰属性・コンピテンシー {#diversity-inclusion-belonging-competency}
 {:.no_toc}
