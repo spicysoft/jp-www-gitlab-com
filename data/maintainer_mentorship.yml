@@ -134,3 +134,10 @@
   max_trainees: 2
   trainees:
     - Drew Blessing (@dblessing)
+- mentor: Zack Cuddy
+  gitlab: zcuddy
+  domains:
+    - frontend
+  max_trainees: 2
+  trainees: []
+
