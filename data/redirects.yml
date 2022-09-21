@@ -4588,3 +4588,7 @@
   - /handbook/customer-success/tam/
   target: /handbook/customer-success/csm/
   comp_op: '~'
+- sources:
+  - /handbook/marketing/community-relations/developer-evangelism/how-to-be-an-evangelist/
+  target: /handbook/marketing/community-relations/developer-evangelism/learn-developer-evangelism/
+  comp_op: '~'
