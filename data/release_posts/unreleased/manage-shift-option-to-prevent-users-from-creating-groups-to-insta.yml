@@ -2,7 +2,7 @@
 features:
   secondary:
   - name: "Admin UI setting to prevent users from creating groups"
-    available_in: [dedicated]
+    available_in: [core, premium, ultimate]
     gitlab_com: false
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
     reporter: lohrc
