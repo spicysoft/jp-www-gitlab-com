@@ -1,7 +1,7 @@
 ---
 layout: handbook-page-toc
 title: "GitLab for Open Source Program Verification"
-description: "This page contains details regarding the verification process for the GitLab for Open Source program."
+description: "This page contains details regarding the process of verification for the GitLab for Open Source Program."
 ---
 
 ## On this page
@@ -10,32 +10,17 @@ description: "This page contains details regarding the verification process for 
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-# Overview
-This page contains details regarding the verification process for [GitLab for Open Source Program](/solutions/open-source/) applications. GitLab uses a third party, [SheerID](https://www.sheerid.com/), for verification services.
+## Overview
 
-Please see the [Community Programs Automation Workflow](/handbook/marketing/community-relations/community-programs/automated-community-programs/#automated-application-workflow) for details on the full application process.
+This page contains details regarding the process of verifying applications for [GitLab for Open Source Program](/solutions/open-source/). Because the GitLab for Open Source Program is part of GitLab's [Community Programs](handbook/marketing/community-relations/community-programs/), team members verify applications by using the the seven-step [Community Programs Automation Workflow](/handbook/marketing/community-relations/community-operations/automated-community-programs/#automated-application-workflow). See the handbook page on that workflow for details that pertain to all GitLab community programs.
 
-## GitLab for Open Source Program requirements and verification
-SheerID is not able to completely automate the [Verification phase](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-1-verification) of the application workflow for the GitLab for Open Source Program. This means the program manager and team members must verify applications with some amount of manual effort. GitLab plans to explore ways to more fully automate the application process of the program in the future.
+## Program application form
 
-While unable to fully automate the Verification phase, SheerID is able to make the reviewing process easier by doing the following:
+GitLab engages a third party, [SheerID](https://www.sheerid.com/), to assist with processing program applications and verifying that applicants meet program requirements. Applicants must complete a SheerID form to apply for the GitLab for Open Source Program:
 
-* Requesting screenshots to verify the project's publicly visible status and OSI-approved license
-* Asking the applicant to check a box to certify they are not seeking profit
+* [Program application form](https://offers.sheerid.com/gitlab/member/)
 
-When applicants submit forms to the GitLab for Open Source Program, those forms enter a review queue. Note that:
-
-* Applications in the queue expire after 20 days
-* The queue displays only the 20 most recently submitted applications (when processed, older applications become visible)
-
-Verification for the GitLab for Open Source Program will require an application processing team until further automation is implemented.
-
-The most up-to-date requirements for GitLab for Open Source Program eligibility are listed in the [program's handbook page](/handbook/marketing/community-relations/opensource-program/).
-
-# Forms
-SheerID hosts a specific form for the GitLab for Open Source program: [SheerID OSS Form](https://offers.sheerid.com/gitlab/member/).
-
-This SheerID OSS form contains the following fields:
+This SheerID form contains the following fields:
 
 - First Name
 - Last Name
@@ -49,56 +34,55 @@ This SheerID OSS form contains the following fields:
 - Not Seeking Profile (checkbox)
 - Marketing email opt-in (checkbox)
 
-(*) Note: US Embargoed countries are not on the list. SheerID is not able to separate out the two different regions in Ukraine so we have asked them to remove Ukraine entirely from the list of countries. If someone from Ukraine does want to apply, they will need to contact us directly and we will determine if they qualify based on the region of origin.
+(*) Note: US Embargoed countries are not on the list. SheerID is not able to separate out the two different regions in Ukraine, so we have asked them to remove Ukraine entirely from the list of countries. Applicants from Ukraine will need to contact the team directly at `opensource@gitlab.com`, and team members determine whether they qualify based on their region of origin.
 
-### Legal text on form
-The following text was added to the bottom of the SheerID form with help from GitLab's legal team.
+The SheerID form also includes the following statement, added with help from GitLab's legal team:
 
 ```
 By submitting this form, you understand that your information will be shared with GitLab by SheerID and used for verification purposes.
 
 `For more information please see the [GitLab's Privacy Policy](/privacy/).`
 
-If you are accepted into the GitLab for Open Source program, you will be subject to [GitLab's terms and conditions](/handbook/legal/opensource-agreement/). All use of GitLab products must comply with United States export control and economic sanction laws.
+If you are accepted into the GitLab for Open Source Program, you will be subject to [GitLab's terms and conditions](/handbook/legal/opensource-agreement/). All use of GitLab products must comply with United States export control and economic sanction laws.
 ```
 
-# Verification flow
+## Verifying applicants
 
-Applicants will have 3 attempts to upload a document providing verification of eligibility for the GitLab for Open Source program. Upon the third unsuccessful attempt, applicant will be rejected.
+Eligibility requirements for the GitLab for Open Source Program are listed in the [program's handbook page](/handbook/marketing/community-relations/opensource-program/). SheerID assists GitLab with reviewing program applications and ensuring applicants meet these program requirements.
 
-The GitLab review team will manually review these documents through the [SheerID Review Portal](https://my.sheerid.com/). ([Training material for SheerID can be found here](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/automated-community-programs/#sheer-id-training-materials))
+SheerID is not able to completely automate the [Verification phase](/handbook/marketing/community-relations/community-operations/automated-community-programs/#phase-1-verification) of the application workflow for the GitLab for Open Source Program. This means the program manager and team members must verify applications with some amount of manual effort. However, while unable to fully automate the Verification phase, SheerID is able to make the reviewing process easier by doing the following:
 
-**How to verify OSS applications:**
+* Requesting screenshots to verify the project's publicly visible status and application of OSI-approved licenses
+* Asking the applicant to check a box to certify they are not seeking profit with their project
+
+When applicants submit forms to the GitLab for Open Source Program, those forms enter a review queue. Note that:
+
+* Applications in the queue expire after 20 days
+* The queue displays only the 20 most recently submitted applications; when processed, older applications become visible
+
+<i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59);"></i> Verification for the GitLab for Open Source Program will require an application processing team until further automation is implemented. The team plans to explore ways to more fully automate the application process of the program in the future.
+{: .alert .alert-warning}
+
+Applicants have three attempts to upload a documentation verifying their eligibility for the GitLab for Open Source Program. Upon a third unsuccessful attempt, applicant will be rejected.
+
+Members of GitLab's Community Programs team [have trained](https://about.gitlab.com/handbook/marketing/community-relations/community-operations/automated-community-programs/#sheer-id-training-materials) to use SheerID to review these documents via the [SheerID Review Portal](https://my.sheerid.com/) according to the following process:
+
  1. Login to MySheerID. Go to the "Document review" section.
  1. Click "Begin" or click on any open application to view.
  1. _Verify license type:_ Make sure that an OSI approved license is being used by checking the screenshot against this [OSI license list](https://opensource.org/licenses/alphabetical). If you find a match, check the box on the right about license type.
  1. _Verify public settings:_ make sure there is a screenshot showing that the project is publicly visible. If it is, click on the checkbox saying you've verified this.
- 1. If they have all screenshots requested ([see instructions for screenshots here](https://docs.gitlab.com/ee/subscriptions/#gitlab-for-open-source)), `Approve` the application. Click `Hold` if you need more time to decide, or `Reject` if they do not meet the criteria.
+ 1. Visit the applying namespace on GitLab to verify that all remaining projects in the namespace meet program requirements.
+ 1. If all requested screenshots are present ([see instructions for screenshots here](https://docs.gitlab.com/ee/subscriptions/#gitlab-for-open-source)), `Approve` the application. Click `Hold` if you need more time to decide, or `Reject` if they do not meet the criteria.
 
-Note: Make sure to check different views in the "Review Documents" section. There is a drop down that takes you to applications "On Hold", and "Escalated". Make sure that you've reviewed all of these views.
-{: .alert .alert-gitlab-purple}
+<i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59);"></i> Reviewers should be sure to check different views in the "Review Documents" section. A drop-down field takes reveals applications "On Hold" and "Escalated."
+{: .alert .alert-warning}
 
-**Verification for OSS Partners:**  
- * **Open Source Partners** should reach out to the OSS Program Manager for verification and will be supplied with a coupon code and instructions on how to proceed. (See WIP MR about [additional coupon codes](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3830).
- * **Linux Foundation member projects** go through a [different verification and provising process](/handbook/marketing/community-relations/opensource-program/#linux-foundation-partnership) altogether.
+Successfully verified applicants receive a welcome email containing a coupon code and instructions for activating their subscriptions. See the [Community Applications Workflow](/handbook/marketing/community-relations/community-operations/automated-community-programs/#coupon-codes) for additional details on what follows.
 
-**After SheerID Verification:**  
-If applicants are successfully verified, they will recieve a welcome email with a coupon code and instructions for next steps. Please see the rest of the [Community Applications Workflow](/handbook/marketing/community-relations/community-programs/automated-community-programs/#coupon-codes) for more details on what follows.
+If the GitLab review team is unable to determine the eligibility based on the screenshots that the applicant provided via the SheerID Review Portal, the GitLab review team will send a rejection email. The applicant can then choose to reach out to `opensource@gitlab.com` if they believe the rejection was sent in error, or if they have additional questions about eligibility.
 
-If the GitLab review team is unable to determine the eligibility based on the screenshots that the applicant provided via the SheerID Review Portal, the GitLab review team will send a rejection email. The applicant can then choose to reach out to opensource@gitlab.com if they believe the rejection was sent in error, or if they have additional questions about eligibility.
+To view the welcome and rejection emails that applicants recieve, please see the `Verification Simulation` section below.
 
-To view the welcome and rejection emails that applicants receive, please see the `Verification Simulation` section below.
+## Verification limit
 
-
-### Verification limit
-Any individual can apply through the form and verify up to 5 times per 365 days. This limit provides room for error and allows a single individual to apply for licenses on behalf of multiple open source projects.
-
-This limit is determined by GitLab and set in the system by SheerID. It can be changed at any time.
-
-Note: Linux Foundation Projects will need to go through a slightly different process due to the quantity of applications we expect to see and their special requirements, TBD.
-
-
-### Verification Simulation
-The SheerID verification process for the OSS program can be simulated by following the directions in [this issue](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/general/-/issues/224).
-
-Simulating the verification will allow GitLab team members to view the browser and email communications sent to applicants.
+Any individual can apply through the form and attempt verification up to five times per 365-day period. This limit provides room for error and allows a single individual to apply for licenses on behalf of multiple open source projects. This limit is determined by GitLab and set by SheerID. It can be changed at any time.
