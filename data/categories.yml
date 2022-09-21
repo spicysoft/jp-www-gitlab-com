@@ -2517,6 +2517,14 @@ billing_and_subscription_management:
   marketing: false
   maturity:
 
+commerce_integrations:
+  name: Commerce Integrations
+  stage: fulfillment
+  description: "Responsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
+  direction: https://about.gitlab.com/direction/fulfillment/#group-responsibilities
+  marketing: false
+  maturity:
+
 # Data Science Section
 
 mlops:

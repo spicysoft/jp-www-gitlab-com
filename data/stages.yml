@@ -1755,6 +1755,41 @@ stages:
             dri: TBD
           - department: Customer Success
             dri: TBD
+      commerce_integrations:
+        name: Commerce Integrations
+        description: "RResponsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
+        pm: Isabel Sandin
+        pmm: Saumya Upadhyaya
+        slack:
+          channel: g_commerce_integrations
+        cm: Suri Patel
+        backend_engineering_manager: Isabel Sandin
+        frontend_engineering_manager: Isabel Sandin
+        support: TBD
+        be_team_tag: TBD
+        fe_team_tag: TBD
+        appsec_engineer: TBD
+        pdm:
+          - Jacki Bauer
+        tech_writer: Fiona Neill
+        ux:
+          - Emily Sybrant
+        uxr:
+          - Nicholas Hertz
+        sets:
+          - TBD
+        cs_team_tag: TBD
+        categories:
+          - commerce_integrations
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
 
   growth:
     display_name: Growth
