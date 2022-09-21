@@ -1528,30 +1528,6 @@
   external_link: null
   google_group: null
 
-- title: EdCast
-  team_member_baseline_entitlement: true
-  subprocessor: false
-  description: Provide structured, personalized learning experiences for GitLab team members, customers (including our community), and partners
-  access_to: Team Members, Customers, and Wider Community Members/Free Users
-  provisioner: Provisioning is automated for new team members. Access change requests for elevated access are completed by @jallen16 
-  deprovisioner: Deprovisioning is automated for offboarded team members. Access change requests for active team members who no longer require access are completed by @jallen16
-  group_owner: Learning and Development
-  group_owner_slack_channel: '#learninganddevelopment'
-  business_owner: Pattie Egan
-  technical_owner: Christopher Nelson
-  data_classification: Orange
-  integration_method: SAML
-  need_move_to_okta: null
-  critical_systems_tier: Tier 3 / Non-critical
-  compliance_scope: none
-  collected_data: null
-  processing_customer_data: null
-  employee_or_customer_facing_app: Employee and Customer
-  notes: null
-  saas: null
-  handbook_link: null
-  google_group: null
-
 - title: Elastic Cloud Indexing
   team_member_baseline_entitlement: false
   subprocessor: null
