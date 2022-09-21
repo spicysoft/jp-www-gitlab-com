@@ -3,7 +3,7 @@ features:
   secondary:
   - name: "Shift option to prevent users from creating groups to Instance Admin UI"
     available_in: [dedicated]
-    gitlab_com: true
+    gitlab_com: false
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
     reporter: lohrc
     stage: manage
