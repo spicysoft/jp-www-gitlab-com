@@ -1,0 +1,39 @@
+---
+title: Integration Services
+suppress_header: true
+description: "Integrate with the services your team needs to be productive."
+canonical_path: "/services/implementation/integration"
+extra_css:
+  - services.css
+---
+
+.wrapper
+  .simple-header
+    %h1
+      Integration Services
+    %h3.headline-subtitle
+      Facilitate your transition to GitLab
+
+.services-inner
+  .page-container.container
+    %ol.breadcrumb
+      %li 
+      = breadcrumbs(current_page)
+    .row
+      .col-md-10.col-md-offset-1.tile
+        %h1 Summary
+        %p.service-para
+          Your team has to have a centralized DevOps platform to be effective. Our integration services will facilitate your integration of external tools to GitLab by providing professional, best-of-breed integrations with the other tools you use every day.
+
+        %h2 Who is this service for?
+        %p.service-para
+          Customers who need to integrate GitLab to existing enterprise systems
+
+        %h1 What's included?
+        %p Examples of the types of integrations our team can facilitate:
+        %ul
+          %li LDAP / SAML / SSO
+          %li JIRA
+          %li Jenkins
+
+= partial "includes/services-contact-form"

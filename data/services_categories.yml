@@ -1,0 +1,47 @@
+- id: 1
+  icon: configure-icon.svg
+  name: Implementation Services
+  desc: Optimize your organization's adoption of GitLab through our implementation services.
+  href: /services/implementation/
+
+- id: 2
+  icon: import-drag-icon.svg
+  name: Migration Services
+  desc: Our migration services will facilitate your transition to GitLab by providing a clean dataset to resume operations at once.
+  href: /services/migration/
+
+- id: 3
+  icon: gitlab-icon.svg
+  name: Education Services
+  desc: Our product specialists - technology professionals themselves - are available to train your teams to become efficient in GitLab quickly.
+  href: /services/education/
+
+# - id: 4
+#   icon: code-1-icon.svg
+#   name: Specialized Training
+#   desc: GitLab enables all stages of the DevOps lifecycle, and we provide specialized training such as CI/CD, version control, metrics, and more.
+#   href: /services/specialized
+
+- id: 4
+  icon: sync-icon.svg
+  name: DevOps / DevSecOps Transformation
+  desc: Achieve greater agility and delivery velocity by shifting development, quality, and compliance activities left! Optimize how your company builds, tests, packages, scans, and deploys software - allowing you to achieve greater business agility.
+  href: /services/transformation/
+
+# - id: 5
+#   icon: file-locking-icon-2.svg
+#   name: Train the Trainer
+#   desc: Scale your DevOps transformation across your entire global enterprise.
+#   href: /services/education/train-the-trainer
+
+- id: 5
+  icon: unified-icon.svg
+  name: Dedicated Engineering 
+  desc: GitLab experts join your team to design and build solutions to improve the efficiency and effectiveness of your value stream. 
+  href: /services/dedicated-engineering/
+
+- id: 6
+  icon: high-performance-icon.svg
+  name: Advisory Services
+  desc: GitLab Experts to can provide guidance on GitLab workflows and other best practices to help your company achieve its most ambitious goals. 
+  href: /services/advisory/
