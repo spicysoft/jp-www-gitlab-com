@@ -3,12 +3,18 @@ features:
   secondary:
   - name: "Support delivery of emails using Microsoft Graph API with OAuth 2.0 client credentials flow"
     available_in: [core, premium, ultimate]
-    gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    gitlab_com: false
+    documentation_link: 'https://docs.gitlab.com/omnibus/settings/microsoft_graph_mailer.html'
     reporter: hsutor
     stage: manage
     categories:
     - Authentication and Authorization
-    issue_url: 'https://gitlab.com/groups/gitlab-org/-/epics/8259'
+    epic_url: 'https://gitlab.com/groups/gitlab-org/-/epics/8259'
+    mr_url: 'https://gitlab.com/gitlab-org/gitlab/-/merge_requests/97372'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      If you've enabled security defaults in Azure AD,
+      [legacy authentication protocols for SMTP are blocked](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#block-legacy-authentication-protocols).
+
+      You can configure your GitLab instance to deliver emails using
+      [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/api/user-sendmail)
+      with [OAuth 2.0 client credentials flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
