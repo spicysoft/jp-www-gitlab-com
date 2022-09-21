@@ -10,4 +10,4 @@ features:
     categories: [Projects]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/371006'
     description: |
-      We added a new Projects API endpoint that returns a list of groups to which you can transfer the current project.
+      We added a new Projects API endpoint that returns a list of groups to which you can transfer the specified project.
