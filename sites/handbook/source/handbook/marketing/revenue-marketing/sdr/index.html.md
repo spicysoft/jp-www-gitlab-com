@@ -412,6 +412,7 @@ The SDR Managers will be responsible for facilitating lead routing level changes
 
 * Typical Timeframe: Months 3+
 * Parameters: SDR is on full quota, leads are set at 100% in LeanData, SDR is added to Drift queues via access request. SDR is now able to create their own Outreach sequences (pending approval).
+* To add SDRs to Drift, create a new [access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and copy and paste in the code for the [Drift access request template](https://gitlab.com/-/ide/project/gitlab-com/team-member-epics/access-requests/edit/master/-/.gitlab/issue_templates/role_baseline_access_request_tasks/department_sales_development/role_sales_development_representative_drift.md)
 
 #### Performance Requirements
 
