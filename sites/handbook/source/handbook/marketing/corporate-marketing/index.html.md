@@ -169,6 +169,34 @@ All swag requests, creation and vendor selection is handled by the Brand Strateg
 - We strive to make small batch, limited edition and themed swag for the community to collect.
 - Our goal is to make swag self-serve => [web shop](https://gitlab.myshopify.com/). Please note our swag store is not intended for ordering and expensing back items purchased, see the [swag handbook](/handbook/marketing/corporate-marketing/merchandise-handling/) to order swag if you are internal to GitLab.
 
+## FAQ Writing Process
+
+FAQ Examples:
+
+[Virtual Event FAQ Example - 2022 Virtual SKO](https://docs.google.com/document/d/1OTRQjtWs-8sAnZG_ITQwNn0B2bZ6ed6sqhDEWKlimqE/edit?usp=sharing)
+
+[In-Person FAQ - 2022 Contribute](https://docs.google.com/document/d/1mW6OQJGpnBWek_QE7YcoyxfaELNprRUNqAup-XHYqtQ/edit?usp=sharing)
+
+[External Facing FAQ Example - 2022 Commit](https://docs.google.com/document/d/1w_MysOiyfDRW5DFi3NUx1cTCuN3VNBJWwPmZilRdxhE/edit?usp=sharing)
+
+The purpose of a FAQ is to provide answers to questions that event attendees might have and to provide a SSoT (Single Source of Truth) for people to look to for answers. 
+
+We would highly recommend referencing previous event FAQs for a template and clear concise precedent that was set. 
+
+
+
+1. Start with identifying your audience. 
+    1. Are they internal team members?
+    2. Are they customers?
+    3. Are they first time attendees?
+    4. Are they mostly GitLab users/customers?
+    5. Does this include speakers? 
+    6. Do you need to have internal FAQs and an external facing one as well? 
+2. Once you consider your audience, this will dictate the level of contributors and review you’ll need for the FAQs before publishing. Certain events will require more contributors and reviews than others. As an example, Contribute will need legal and People Group review for team member travel
+3. Outline your FAQs into digestible categories of information. Suggested categories include Registration, Travel, Who to contact with questions, CFP/speaker information, Health and Safety. These are some of the essential categories you will likely need.
+4. Decide where the FAQs will live, for example in an issue or a GoogleDoc or maybe on a public Website. Confirm SSoT so that only one place needs to be updated. This will likely be determined based on your audience. 
+5. Keep your FAQ iterable. Once posted, this is a living document. As questions are asked, make sure to add relevant items to the FAQ so it's updated.
+6. Don’t assume that people will understand the information. People from various cultures, ages, and be understanding. Lowest common denominator - will a kindergartener be able to figure out the directions? Assume someone knows nothing! Is the information incomplete? What else is missing? 
 - - -
 
 ## All-Remote Marketing
