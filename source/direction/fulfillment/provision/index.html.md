@@ -47,6 +47,8 @@ Over the next 12 months, the Provision team has three primary objectives:
 2. Improve Internal Team Efficiency
 3. Reduce Code Complexity to Address Longstanding Bugs
 
+For a full list of our upcoming and ongoing projects, check out our [GitLab Epic Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=start_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Aprovision&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP).
+
 ### Increase Cloud Licensing Adoption
 In August 2021, we introduced Cloud Licensing. Cloud Licensing provides an improved activation and subscription management experience for self-managed customers. This year, we're focused on increasing Cloud Licensing adoption to ensure more GitLab customers are able to benefit from this functionality. This is being done with the release of [Offline Cloud Licensing](https://gitlab.com/groups/gitlab-org/-/epics/7095) and [making Cloud Licensing the default activation method](https://gitlab.com/groups/gitlab-org/-/epics/7550).
  
