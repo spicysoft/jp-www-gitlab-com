@@ -332,6 +332,10 @@ module CustomHelpers
     data.heroes.count { |entry| entry['type'] == 'person' }
   end
 
+  def heroes_alumni_size
+    data.heroes_alumni.count { |entry| entry['type'] == 'person' }
+  end
+
   def handbook_product_page?(relative_path)
     relative_path.to_s.include? 'handbook/product/'
   end

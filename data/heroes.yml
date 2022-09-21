@@ -39,26 +39,6 @@
   picture: ../gitlab-logo-extra-whitespace.png
 
 - type: person
-  name: Karan Verma
-  locality:
-  country: Remote
-  twitter: karanvrm19
-  role: Gitlab Hero
-  bio: 
-  gitlab: karanverma
-  picture: karanverma.jpg
-
-- type: person
-  name: Abubakar Sadiq Hassan
-  locality:
-  country: Remote
-  role: GitLab Hero
-  bio:
-  twitter: itssadon
-  gitlab: itssadon
-  picture: abubakarhassan.png
-
-- type: person
   name: Kevin Davin
   locality:
   country: Remote
@@ -169,16 +149,6 @@
   picture: mariogarcia.jpg
 
 - type: person
-  name: Mark Downey
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: markdaviddowney
-  bio: Sr Manager at Genworth | Tech Enthusiast
-  gitlab: markdowney
-  picture: markdowney.png
-
-- type: person
   name: Sean Corkum
   locality:
   country: Remote
@@ -196,26 +166,6 @@
   bio: The Village Cloudsmith - At The Flaming Forge Of The Cloud
   gitlab: DarwinJS
   picture: darwinsanoy.jpg
-
-- type: person
-  name: Mike Nick
-  locality:
-  country: Remote
-  role: GitLab Hero
-  bio: Engineer who enjoys moving actual boulders as well as the metaphorical kind
-  twitter:
-  gitlab: michaelnick
-  picture: mikenick.jpg
-
-- type: person
-  name: Kyle Persohn
-  locality:
-  country: Remote
-  role: GitLab Hero
-  bio: Software Engineer | DIYer | GitLab enthusiast, especially CICD/Runners
-  twitter: kylepersohn
-  gitlab: kpersohn
-  picture: kylepersohn.jpg
 
 - type: person
   name: Manuel Grabowski
@@ -258,26 +208,6 @@
   picture: rpadovani.jpg
 
 - type: person
-  name: Frank Ford
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: ArchonVT
-  bio: Application Development Manager, Genworth
-  gitlab: fford
-  picture: fford.jpg
-
-- type: person
-  name: Simone D'Avico
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: simonedavico
-  bio: Software Engineer | FP fanboy | Incurable optimist
-  gitlab: simonedavico
-  picture: simonedavico.jpg
-
-- type: person
   name: James Tharpe
   locality:
   country: Remote
@@ -296,16 +226,6 @@
   bio: Platform engineer, devops but more dev than ops
   gitlab: alexviscreanu
   picture: alexviscreanu.png
-
-- type: person
-  name: Cory Zibell
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: coryzibell
-  bio: Tech Lead | Extropian
-  gitlab: coryzibell
-  picture: coryzibell.jpg
 
 - type: person
   name: Max Wittig
@@ -336,26 +256,6 @@
   bio: DevOps Engineer, Big Data passionate, loves sharing knowledge and talking about technology
   gitlab: devlifealways
   picture: hamzarouineb.jpg
-
-- type: person
-  name: Zach Dunn
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: SillySophist
-  bio: Dad, Herder of Trolls, Builder of Clouds - In that order
-  gitlab: zadunn
-  picture: zachdunn.jpg
-
-- type: person
-  name: Yannick Siewe
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: YSiewe
-  bio: DevOps Specialist / MultiCloud Engineer, Meetup and Conference Speaker - open source contributor.
-  gitlab: yannicksiewe
-  picture: YannickSiewe.png
 
 - type: person
   name: J. Manrique López de la Fuente
@@ -437,25 +337,6 @@
   picture: fabiohuser.jpg
 
 - type: person
-  name: Artur Frysiak
-  locality:
-  country: Remote
-  role: GitLab Hero
-  bio: DevOps Engineer
-  gitlab: wiget
-  picture: arturfrysiak.jpg
-
-- type: person
-  name: Matteo Codogno
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: teo1690
-  bio: Tech Lead | Full stack tinkerer | Love to experiment with new technologies
-  gitlab: papasmurf17
-  picture: matteocodogno.jpg
-
-- type: person
   name: Jason Mongaras
   locality:
   country: Remote
@@ -474,16 +355,6 @@
   bio: Software engineer | Web Enthusiast | Open Source Enthusiast
   gitlab: nuwe1
   picture: marvinkaregyeya.png
-
-- type: person
-  name: Tom West
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: TWest_Dev
-  bio: Solutions Architect | Dad | Data Analyst | Splunk Trust MVP
-  gitlab: tomawest
-  picture: tomawest.jpg
 
 - type: person
   name: Aaron Brown
@@ -517,36 +388,6 @@
   picture: anthonysayre.jpg
 
 - type: person
-  name: Katrin Leinweber
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter:
-  bio: Teach, translate, FLOSS advocate, #GitLab4Science
-  gitlab: katrinleinweber
-  picture: katrinleinweber.png
-
-- type: person
-  name: Solomon Rubin
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: serubin_
-  bio: Software & Security Engineer | FOSS Advocate
-  gitlab: serubin
-  picture: solomonrubin.jpg
-
-- type: person
-  name: Kenneth Ijama
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: teamwebbravo
-  bio: Software developer | Tech Evangelist | Leadership | Solutions Architect | Think Tank
-  gitlab: webbravo
-  picture: kennethijama.jpg
-
-- type: person
   name: Giovanni Bucci
   locality:
   country: Remote
@@ -577,46 +418,6 @@
   picture: profile-vladimirroudakov-400.jpg
 
 - type: person
-  name: Bethan Vincent
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: BethanVincent
-  bio: Marketer | Indie Maker | Speaker
-  gitlab: bethan_vincent
-  picture: bethanvincent.png
-
-- type: person
-  name: Benjamin Leggett
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: phanboy_iv
-  bio: Principal SWE, T-Mobile
-  gitlab: bleggett
-  picture: bleggett.png
-
-- type: person
-  name: Mateusz Nowotyński
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter:
-  bio: Software engineer | Open Source Enthusiast
-  gitlab: maxmati
-  picture: mateusznowotynski.jpg
-
-- type: person
-  name: Mario Kleinsasser
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: m4r10k
-  bio: SysOps | Cloud Architect | Speaker | Author | Open Source Enthusiast
-  gitlab: m4r10k
-  picture: mariokleinsasser.jpg
-
-- type: person
   name: Alejandro Mercado
   locality:
   country: Remote
@@ -635,26 +436,6 @@
   bio: Ci/CD | Containers | OpenShift | Open Source Advocate
   gitlab: arangogutierrez
   picture: arangogutierrez.jpeg
-
-- type: person
-  name: Elad Leev
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: eladleev
-  bio: Platform Engineer
-  gitlab: eladleev
-  picture: elad_leev.png
-
-- type: person
-  name: Rajendra Kadam
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: rajendra_ak
-  bio: I want to help build the best DevOps tool in a single application
-  gitlab: raju249
-  picture: rajendrakadam.jpg
 
 - type: person
   name: Cheng Wei Chen
@@ -677,16 +458,6 @@
   picture: joostevertse.png
 
 - type: person
-  name: Roland Heusser
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: skofgar
-  bio: technology evangelist, software engineer, ui/ux, design, dogs
-  gitlab: skofgar
-  picture: rolandheusser.png
-
-- type: person
   name: David Nicholaeff
   locality:
   country: Remote
@@ -695,16 +466,6 @@
   bio: I hack and break things with mathematical rigour.
   gitlab: dnic
   picture: davidnicholaeff.png
-
-- type: person
-  name: Drew Malone
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: thatdrewmalone
-  bio: I automate things. A lot.
-  gitlab: drawsmcgraw
-  picture: drewmalone.png
 
 - type: person
   name: Diego Louzán
@@ -747,34 +508,14 @@
   picture: ../gitlab-logo-extra-whitespace.png
 
 - type: person
-  name: Micheal Iyanda
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: miyanda000
-  bio:
-  gitlab: miyanda2
-  picture: mike.jpg
-
-- type: person
   name: Jean-Philippe Baconnais
   locality:
   country: Remote
   role: GitLab Hero
-  twitter: JPhi_Baconnais 
+  twitter: JPhi_Baconnais
   bio: Consultant at Zenika Nantes
   gitlab: jeanphi.baconnais
   picture: jeanphilippebaconnais.jpeg
-
-- type: person
-  name: Huss EL-Sheikh
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: HUSSTECH
-  bio: CTO & Co-founder at 9fin
-  gitlab: HUSSTECH
-  picture: husselsheikh.jpg
 
 - type: person
   name: Niclas Mietz
@@ -785,26 +526,16 @@
   bio: Cloud Engineer | Courious Hacker | Open Source User, Contributor & Maintainer
   gitlab: solidnerd
   picture: niclasmietz.png
- 
+
 - type: person
   name: Irtiza Ali
   locality:
   country: Remote
   role: GitLab Hero
-  twitter: IrtizaAli75 
-  bio: DevOps Engineer at Onebyte 
+  twitter: IrtizaAli75
+  bio: DevOps Engineer at Onebyte
   gitlab: aliartiza75
   picture: irtiza-ali.png
-
-- type: person
-  name: Akanksha Bhasin
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: Akii_20
-  bio: Web Developer, Conversational Designer, Voice enthusiast, Community lead.
-  gitlab: Akankshabhasin
-  picture: Akankshabhasin.png
 
 - type: person
   name: Alejandro Medina
@@ -822,7 +553,7 @@
   country: Remote
   role: GitLab Hero
   twitter: clems_dev
-  bio: 
+  bio:
   gitlab: profclems
   picture: clementsam.png
 
@@ -857,26 +588,6 @@
   picture: mousonchen.jpg
 
 - type: person
-  name: Gaga Pan
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: 
-  bio: Taiwanese
-  gitlab: gaga5lala1013
-  picture: gagapan.jpg
-
-- type: person
-  name: Gilang Gumilar
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: gilang_gumilar
-  bio: Software Engineer
-  gitlab: gilangmlr
-  picture: gilanggumilar.png
-
-- type: person
   name: Raimund Hook
   locality:
   country: Remote
@@ -895,16 +606,6 @@
   bio: An Open Sorcerer | Software Developer
   gitlab: imskr
   picture: shubhamkumar.png
-
-- type: person
-  name: Julien Millau
-  locality:
-  country: Remote
-  role: GitLab Hero
-  twitter: devnied
-  bio: Software engineer | IT Expert @ Michelin | Open Source Enthusiast
-  gitlab: devnied
-  picture: julienmillau.png
 
 - type: person
   name: Andrew Smith
@@ -991,7 +692,7 @@
   country: Remote
   role: GitLab Hero
   twitter: Asthana31
-  bio: Working on @GitLab one commit at a time 
+  bio: Working on @GitLab one commit at a time
   gitlab: edith007
   picture: siddharthasthana.jpg
 
@@ -1041,7 +742,7 @@
   country: India
   role: GitLab Hero
   twitter: AnshulRiyal
-  bio: FullStack Engineer ❤️ OpenSource Contributor @Gitlab  
+  bio: FullStack Engineer ❤️ OpenSource Contributor @Gitlab
   gitlab: anshulriyal
   picture: anshulriyal.jpg
 
