@@ -15,7 +15,7 @@ This page holds the email templates used to interact with people who are interet
 
 Since we interact with program members and applicants mainly via Zendesk, we have created Zendesk macros for most emails we need to send.
 
-The macros below are organized into the various stages of our [community programs application workflow](/handbook/marketing/community-relations/community-operations/community-program-applications/#application-workflow).
+The macros below are organized into the various stages of our [community programs application workflow](/handbook/marketing/community-relations/community-programs/community-program-applications/#application-workflow).
 
 ### Using Gmail as an alternative to Zendesk
 
@@ -30,15 +30,15 @@ If you end up using Gmail on a regular basis, consider adding the relevant templ
 ### Community program workflows and common tasks
 Since this page is part of the community program application workflow, the following pages hold more context on when to use each of the macros and email templates:
 
- * [Community program workflows](/handbook/marketing/community-relations/community-operations/community-program-applications/) - this page holds the application workflow for the community programs.
- * [Common tasks](/handbook/marketing/community-relations/community-operations/automated-community-programs/community-program-applications/common-tasks/) - this page holds common requests, tasks, and errors related to the community applicaiton workflow.
+ * [Community program workflows](/handbook/marketing/community-relations/community-programs/community-program-applications/) - this page holds the application workflow for the community programs.
+ * [Common tasks](/handbook/marketing/community-relations/community-programs/automated-community-programs/community-program-applications/common-tasks/) - this page holds common requests, tasks, and errors related to the community applicaiton workflow.
 
 
 # Zendesk Macros and Email Templates
 
 A [Zendesk macro](/handbook/marketing/community-relations/workflows-tools/zendesk/#zendesk-macros) is essentially an email template that allows you to send messages that are often used.
 
-Below are Zendesk macros that are regularly used when communicating with community program participants. We have mapped them out to match the various phases of the [community program workflows](/handbook/marketing/community-relations/community-operations/community-program-applications/#application-workflow).
+Below are Zendesk macros that are regularly used when communicating with community program participants. We have mapped them out to match the various phases of the [community program workflows](/handbook/marketing/community-relations/community-programs/community-program-applications/#application-workflow).
 
 Not everyone at GitLab can access the [Community Zendesk instance](https://gitlab-community.zendesk.com/), so this page is meant to document all of the Zendesk macros we use. This provides transparency around our messaging, and it also allows others to integrate with our workflows.
 
@@ -73,7 +73,7 @@ Use the following guidelines when processing tickets for all programs.
 
 The following Zendesk macros are meant to help you interface with people interested in one of our community programs. We've designated them as common requests because they can be used for multiple programs.
 
-For more context on when to send them, please reference the [Community program workflow page](/handbook/marketing/community-relations/community-operations/community-program-applications/).
+For more context on when to send them, please reference the [Community program workflow page](/handbook/marketing/community-relations/community-programs/community-program-applications/).
 
 ## Pre-Qualification Phase
 
@@ -360,7 +360,7 @@ Best,
 
 # Education program - Zendesk Macros
 
-The following Zendesk macros are meant to help interface with people interested in our [GitLab for Education program](/solutions/education/). For more context on when to send them, please reference the [Community program workflow page](/handbook/marketing/community-relations/community-operations/community-program-applications/).
+The following Zendesk macros are meant to help interface with people interested in our [GitLab for Education program](/solutions/education/). For more context on when to send them, please reference the [Community program workflow page](/handbook/marketing/community-relations/community-programs/community-program-applications/).
 
 ## Pre-Qualificaiton Phase
 
@@ -742,7 +742,7 @@ Did you know that your Education License includes access to our world-class Comm
 
 # Open Source program - Zendesk Macros
 
-The following Zendesk macros are meant to help interface with people interested in our [GitLab for Open Source program](/solutions/open-source/). For more context on when to send them, please reference the [Community program workflow page](/handbook/marketing/community-relations/community-operations/community-program-applications/).
+The following Zendesk macros are meant to help interface with people interested in our [GitLab for Open Source program](/solutions/open-source/). For more context on when to send them, please reference the [Community program workflow page](/handbook/marketing/community-relations/community-programs/community-program-applications/).
 
 ## Pre-Qualification Phase
 
@@ -1316,7 +1316,7 @@ We currently do not have a formal non-profit program. Non-profit subscriptions a
 
 [Here](/handbook/marketing/community-relations/education-program/#non-profits) is our handbook link.  Please let me know if you have any questions. At this time, I would recommend that they follow the issue in that handbook page and stay tuned. We hope to have more progress on this in the coming months.
 
-We are happy to send our [template non-profit](/handbook/marketing/community-relations/community-operations/community-program-applications/#rejecting-non-profits) response if you'd like.
+We are happy to send our [template non-profit](/handbook/marketing/community-relations/community-programs/community-program-applications/#rejecting-non-profits) response if you'd like.
 
 Best Regards,
 
