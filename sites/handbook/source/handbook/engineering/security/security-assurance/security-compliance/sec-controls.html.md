@@ -296,7 +296,6 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 | MON-02 | Centralized Collection of Security Event Logs | Utilize a Security Incident Event Manager (SIEM) or similar automated tool, to support the centralized collection of security-related event logs to maintain situational awareness. |
 | MON-03 | Content of Audit Records | Configure systems to produce audit records that contain sufficient information to, at a minimum: <br> - Establish what type of event occurred; <br> - When (date and time) the event occurred; <br> - Where the event occurred; <br> - The source of the event; <br> - The outcome (success or failure) of the event; and <br> - The identity of any user/subject associated with the event. |  
 | MON-10 | Audit Record Retention | Retain audit records for a time period consistent with records retention requirements to provide support for after-the-fact investigations of security incidents and to meet statutory, regulatory and contractual retention requirements. |
-| MON-16 | Anomalous Behavior | Detect and respond to anomalous behavior that could indicate account compromise or other malicious activities. |
 
 </details>
 
