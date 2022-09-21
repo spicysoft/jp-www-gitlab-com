@@ -1830,8 +1830,8 @@
     expand revenue, and scale operations."
   access_to: 'Customer Success: Technical Account Managers, Field Ops: Customer Success
     Enablement, Field Ops: SalesSystems, and FieldOps: CS Operations'
-  provisioner: "@jdbeaumont @cankney @emcinerney"
-  deprovisioner: "@cankney @emcinerney"
+  provisioner: "@jdbeaumont @cankney @ndumas"
+  deprovisioner: "@cankney @ndumas"
   group_owner: Customer Success Operations
   group_owner_slack_channel: '#sales-support'
   business_owner: David Sakamoto
