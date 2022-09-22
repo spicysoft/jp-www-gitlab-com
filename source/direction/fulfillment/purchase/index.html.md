@@ -2,22 +2,22 @@
 layout: markdown_page
 title: Product Direction - Fulfillment - Purchase
 description: "The Fulfillment team at GitLab focuses on creating and supporting the enablement of our customers to purchase, upgrade, downgrade, and renew licenses and subscriptions."
-canonical_path: "/direction/fulfillment/self-service-purchase/"
+canonical_path: "/direction/fulfillment/purchase/"
 ---
 
 ## On this page
 {:.no_toc .hidden-md .hidden-lg}
- 
+
 - TOC
 {:toc}
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
- 
+
 Last reviewed: 2022-09
 
 ## Fulfillment: Purchase Overview
 
-Purchase, a [Fulfillment](https://about.gitlab.com/direction/fulfillment/) subgroup, is responsible for our primary e-commerce experience, with the goal of increasing the number of first-orders we receive through our purchase flow and in turn, reducing the need for a GitLab team member to manually intervene.
+Purchase, a [Fulfillment](https://about.gitlab.com/direction/fulfillment/) subgroup, is responsible for our primary e-commerce experience, with the goal of increasing the number of first-orders we receive through our self-service purchase flow and in turn, reducing the need for a GitLab team member to manually intervene.
 
 ## Performance Indicators
 
@@ -38,7 +38,7 @@ How the purchase mission aligns to GitLab's broader strategy:
    - Make our core journey categories lovable
    - GitLab-hosted first
 - **Fulfillment Mission**: Our goal is to **make it easy for customers to purchase**, activate, and manage their GitLab subscriptions. By making it easier for customers to transact and manage their subscriptions, we increase customer satisfaction and improve our go-to-market (GTM) efficiency.
-- **Purhase Mission**: Improving GitLab's self-service purchasing allows customers to engage with us on their terms: interacting with us should be flexible, asynchronous enabled, and transparent.
+- **Purchase Mission**: Improving GitLab's self-service purchasing allows customers to engage with us on their terms: interacting with us should be flexible, asynchronous enabled, and transparent.
 
 ### User Value: What is the hypothesis around the user problem and opportunity?
 
@@ -46,7 +46,7 @@ still need to validate the following via research:
 
 User persona: [buyer](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/buyer-persona/)
 
-- **Buyer**: Having an easy, reliable way to purchase from GitLab is a factor that influences my buying decision. 
+- **Buyer**: Having an easy, reliable way to purchase from GitLab is a factor that influences my buying decision.
 
 ### Business Value: What is the hypothesis around the business impact of self-service purchasing?
 
@@ -67,16 +67,13 @@ still need to validate the following via research:
 - FY'24-Q2: Vendor integration, build & launch.
 
 ### Vendor Overview
-From our [fulfillment direction](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service) page:
+From our [fulfillment direction](/direction/fulfillment/#increase-new-customer-acquisition-via-self-service) page:
   > In FY23, we began an effort to evaluate, procure, and integrate a vendor solution for subscription commerce and management. This will enable GitLab to provide internal teams and our customers with the benefits of typical e-commerce functionality, without building and and maintaining standard e-commerce and subscription management functionality that a vendor solution can provide. We will focus our team's e-commerce efforts on differentiated functionality that enhances what the vendor solution can provide. We will also enable other teams, such as Growth, to contribute more to our webstore experience. As part of our efforts we also aim to provide more options at checkout and improve cohesion in our GTM self-service funnel. As one example: we want to enable promotions with discounts from a marketing campaign, making that experience seamless. This will help improve conversion and lead to a better overall experience transacting with GitLab.
 
 ### Ranked Criteria for Vendor Selection
 
 1. **Severity of problem / size of opportunity** - How often is the persona encountering their problem? Are there any workarounds today? Does a vendor solve that problem? Does a vendor provide new opportunities we don't have today?
-3. **Time to market** - When might we be able to unlock business requirements; both paths (vendor, no vendor) are similar in time to execute, save more in outyears vs initial build out. 
+3. **Time to market** - When might we be able to unlock business requirements; both paths (vendor, no vendor) are similar in time to execute, save more in outyears vs initial build out.
 5. **Scope / opportunity cost** - Engineering capacity can be reapplied to other critical initiatives; offload compliance and operational support to a vendor; How much does it cost to maintain x,y,z? What is the boring solution? Will a vendor scale with us in the future?
-6. **Costs** - Additional hires to deliver necessary e-commerce functionality, while maintaining momentum on other initiatives. 
+6. **Costs** - Additional hires to deliver necessary e-commerce functionality, while maintaining momentum on other initiatives.
 7. **Risk** - Is either pathway (vendor v. no vendor) more or less risky?
-
-
-
