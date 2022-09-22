@@ -1,17 +1,22 @@
 name: Kasia Misirli
 locality: 
 country: Remote
-role: <a href="">Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Verify:Pipeline Execution</a>
 reports_to: carolinesimpson
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
+picture: KasiaMisirli.jpg
+pronouns: She/her
+pronunciation: <a href="https://www.howtopronounce.com/kasia">kash-ya</a>
 twitter:
-linkedin:
-gitlab: kasia_misirli
+linkedin: kasia-misirli
+gitlab: Kasia_Misirli
 departments:
   - Development
-specialty: ""
+  - Engineering Function
+  - Development Department
+  - Ops Sub-department
+  - Verify:Pipeline Execution Group
+  - Verify:Pipeline Execution BE Team
+specialty: Verify:Pipeline Execution
 expertise:
 story:
 
