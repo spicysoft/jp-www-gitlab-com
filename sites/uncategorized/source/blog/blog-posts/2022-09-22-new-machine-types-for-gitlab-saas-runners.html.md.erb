@@ -17,7 +17,14 @@ With these two machine types, you can now access more choices for your GitLab Sa
 
 ## New machine type details
 
-The new [SaaS Runners on Linux](https://docs.gitlab.com/ee/ci/runners/saas/linux_saas_runner.html) are a 2 vCPU, 8GB RAM (`saas-linux-medium-amd64`), and a 4 vCPU, 16GB RAM (`saas-linux-large-amd64`) machine type. These machine types, powered by the latest generation of Google Compute N2D virtual machines, deliver significant performance improvements for general-purpose CI workloads. The medium machine type is available to all subscriptions, with the large machine type available to customers with Premium and Ultimate subscriptions.
+The new [SaaS Runners on Linux](https://docs.gitlab.com/ee/ci/runners/saas/linux_saas_runner.html) are a 2 vCPU, 8GB RAM (`saas-linux-medium-amd64`), and a 4 vCPU, 16GB RAM (`saas-linux-large-amd64`) machine type. These machine types, powered by the latest generation of Google Compute N2D virtual machines, deliver significant performance improvements for general-purpose CI workloads. The medium machine type, `saas-linux-medium-amd64`,  is available to all subscriptions (Free, Premium, Ultimate). The large machine type, `saas-linux-large-amd64` is only available to paid plans (Premium and Ultimate) and GitLab for Open Source program members.
+
+Note: If you are in a Free plan and tag a CI job with the large machine type, `saas-linux-large-amd64`, you will get an error at the job level and the job will not run.
+
+```
+This job is stuck because of one of the following problems. There are no active runners online, no runners for the protected branch, or no runners that match all of the job's tags: saas-linux-large-amd64
+
+```
 
 ## Are the new machine types right for my CI job?
 
@@ -33,7 +40,7 @@ To get started with the new machine types, simply add a tag to your CI file. Wit
 
 ### Example pipeline configuration
 
-In this example pipeline configuration, `job_001` will run on the default Linux SaaS Runner as no machine type tag is defined. The subsequent job, `job_002` in the build stage will run on the medium machine type, and `job_003` will run on the large machine type. So you have flexibility within a GitLab CI/CD pipeline to choose the right machine type for each job.
+In this example pipeline configuration, `job_001` will run on the default Linux SaaS Runner as no machine type tag is defined. The subsequent job, `job_002`, in the build stage will run on the medium machine type, and `job_003` will run on the large machine type. So you have flexibility within a GitLab CI/CD pipeline to choose the right machine type for each job.
 
 ```
 stages:
@@ -63,7 +70,7 @@ job_003:
 
 ## Understanding the new machine types and cost factors
 
-You can start using the new machine types now with the CI minutes currently available in your plan. The new machine types will consume your CI minutes at a different rate than the default (small) machine type based on an applied cost factor.
+You can start using the new machine types now with the CI minutes currently available in your plan. The new machine types will consume your CI minutes at a different rate than the default (small) machine type based on an applied cost factor. If you are a GitLab for Open Source program member, then refer to the [cost factor documentation page](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#cost-factor) for details on how cost factors are applied to your CI/CD jobs.
 
 
 |  | saas-linux-small-amd64 |saas-linux-medium-amd64 |saas-linux-large-amd64 |
