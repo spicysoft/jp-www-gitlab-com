@@ -900,13 +900,23 @@ As a globally-dispersed company, we have team members from many different backgr
 
 ハンドブック、バリュー、戦略、面接プロセスは、誰もが成功できるようにサポートするものであるべきです。
 
-At GitLab we embrace Neurodiversity through adopting a variety of different work styles and communication styles, and we lean into [transparency](/handbook/values/#transparency), asynchronous as a default working style, and pre-filled meeting agendas. These best practices become even more important when embracing neurodiversity. Providing multiple ways to consume information (written / video / audio) allows everyone to contribute independent of their preferred comprehension style. It is important to ask team members specifically what their preferred communication method is in order to provide them information in a format that is easily consumable for them.
 
-Remember, **brains work differently** and always [assume positive intent](/handbook/values/#assume-positive-intent), even if someone behaves in an unexpected way. While it may be an unexpected behavior to you, it may not be unexpected to the individual exhibiting the behavior. That is the beauty and value of diversity, embracing differences and becoming stronger and better as a result.
+GitLabでは、様々なワークスタイルやコミュニケーションスタイルを採用して、ニューロダイバーシティを受け入れています。
+また、[透明性](/handbook/values/#transparency)や、原則非同期で仕事をすることや、ミーティングのアジェンダを事前に準備することに注力しています。
 
-We also recommend that all team members review the [Reasonable Accommodation](/handbook/people-policies/inc-usa/#reasonable-accommodation) process. A Reasonable Accommodation for a team member could include noise-cancelling headphones, scheduling smaller group session zoom calls, providing very explicit and precise instructions and due-dates when given tasks, or providing a variety of supportive software tools.
+これらのベストプラクティスは、ニューロダイバーシティを受け入れる際に、とても重要です。
+情報を入手する方法を複数用意する（文書、ビデオ、オーディオ）ことで、得意な理解スタイルに関係なく誰もが貢献することができます。
+得意なコミュニケーション方法を具体的に尋ねて、チームメンバーが使いやすいフォーマットで情報を提供することが重要です。
 
-The most important thing that managers can do is facilitate an environment in which all team members feel [psychologically safe](/handbook/leadership/emotional-intelligence/psychological-safety/#what-is-psychological-safety) enough to make requests for [what they need](/company/culture/inclusion/neurodiversity-resources/#resources-for-team-members-and-managers) in order to do their job.
+
+たとえ相手が予想外の行動をしたとしても、**脳の働きが人によって違う**ことを思い出して、[相手が善意であることを想定](/handbook/values/#assume-positive-intent)してください。
+自分にとっては予期せぬ行動であったとしても、その行動をとった本人にとっては予期せぬ行動ではないかもしれません。
+それが多様性の美しさであり価値です。違いを受け入れ、その結果、より強く、より良くなっていくのです。
+
+また、すべてのチームメンバーは[配慮されてあたりまえのこと](/handbook/people-policies/inc-usa/#reasonable-accommodation)を確認することをお勧めします。
+一例として、ノイズキャンセリングヘッドフォン、少人数でのZoom会議、明快で正確な指示と期日でのタスクの割り振り、またはさまざまな支援ソフトウェアツールの提供などがあります。
+
+マネージャーができることは、チームメンバー全員が[心理的に安心](/handbook/leadership/emotional-intelligence/psychological-safety/#what-is-psychological-safety)して、自分の[仕事に必要なもの](/company/culture/inclusion/neurodiversity-resources/#resources-for-team-members-and-managers)を要求できる環境を整えることです。
 
 
 ##### 家族と友人を第一に、仕事は第二に {#family-and-friends-first-work-second}
