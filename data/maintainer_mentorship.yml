@@ -81,7 +81,8 @@
   domains:
     - backend
   max_trainees: 3
-  trainees: []
+  trainees:
+    - Juliet Wanjohi (@jwanjohi)
 - mentor: Dmitry Gruzd
   gitlab: dgruzd
   domains:
