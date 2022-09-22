@@ -13,6 +13,21 @@ featured: no
 
 GitLab’s Distribution Engineering team has been hard at work getting Amazon Linux 2 distro-specific packages ready in preparation for GitLab’s official support of Amazon Linux 2. Starting with Version 15.0 of GitLab, Amazon Linux 2 is a supported distro and packages are available for both x86 and Graviton ARM architectures.
 
+## What is Amazon Linux 2?
+
+Amazon Linux 2 is the next-generation Amazon Linux operating system that provides a modern application environment with the most recent enhancements from the Linux community alongside long-term support. Amazon Linux 2 is accessible as a virtual machine image for on-premises development and testing. This lets you easily develop, test, and certify your applications right from your local development environment. 
+
+According to the AWS FAQ page for Amazon Linux 2, the primary elements of this latest version of the operating system include:
+
+1. A Linux kernel tuned for performance on Amazon EC2.
+
+2. A set of core packages including systemd, GCC 7.3, Glibc 2.26, Binutils 2.29.1 that receive Long Term Support (LTS) from AWS.
+
+3. An extras channel for rapidly evolving technologies that are likely to be updated frequently and outside the Long Term Support (LTS) model.
+
+Amazon Linux 2 has a support lifespan through June 20, 2024, to allow enough time for users to migrate to Amazon Linux 2022.
+
+
 ## Safely moving forward to Amazon Linux 2 packages from EL7
 
 While Amazon Linux 2 has not been officially supported before 15.0, as a convenience to customers who wanted to use yum and RPM packages to install the EL7 packages, GitLab configured a workaround in our packaging services to direct Amazon Linux 2 yum requests to the EL7 packages. If you’ve been using GitLab’s yum repo registration script, you many not know that you were using EL7 packages and not distro-specific packages.
