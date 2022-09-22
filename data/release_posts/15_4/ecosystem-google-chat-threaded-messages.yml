@@ -4,7 +4,7 @@ features:
   - name: "Support for threaded messages in Google Chat"
     available_in: [core, premium, ultimate]  # Include all supported tiers
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/hangouts_chat.html#enable-threads-in-google-chat'
-    image_url: '/images/unreleased/Ecosystem-Integrations-Test-Space-2-Chat.png'
+    image_url: '/images/15_4/Ecosystem-Integrations-Test-Space-2-Chat.png'
     reporter: g.hickman
     stage: ecosystem
     categories:

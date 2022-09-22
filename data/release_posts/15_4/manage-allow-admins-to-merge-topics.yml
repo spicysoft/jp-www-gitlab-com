@@ -4,7 +4,7 @@ features:
   - name: "Improved topic management for administrators with topic merge"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/api/topics.html#merge-topics'
+    documentation_link: 'https://docs.gitlab.com/ee/user/admin_area/#administering-topics'
     reporter: lohrc
     stage: manage
     categories: [Projects]

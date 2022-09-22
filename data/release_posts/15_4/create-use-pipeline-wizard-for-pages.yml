@@ -5,7 +5,7 @@ features:
       available_in: [core, premium, ultimate]  # Include all supported tiers
       gitlab_com: true
       documentation_link: 'https://docs.gitlab.com/ee/user/project/pages/getting_started/pages_ui.html'
-      image_url: '/images/unreleased/create-pages-onboarding.png'
+      image_url: '/images/15_4/create-pages-onboarding.png'
       image_noshadow: true
       reporter: janis
       stage: create # Prefix this file name with stage-informative-title.yml

@@ -11,6 +11,7 @@ tertiary:
 
       In GitLab 15.4, we're shipping usability improvements for issues, projects, milestones, and much more! We highlight the following changes in GitLab 15.4:
 
+      - [Unified navigational elements in the top bar](https://gitlab.com/gitlab-org/gitlab/-/issues/366082)
       - [Tokens with any scope can use the self-revocation API](https://gitlab.com/gitlab-org/gitlab/-/issues/369103)
       - [Localization for GPG key email page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/92866)
       - [Combine unresolved threads actions into one control](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96814)

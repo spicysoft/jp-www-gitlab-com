@@ -4,7 +4,7 @@ features:
     available_in: [core, premium, ultimate]  # Include all supported tiers
     gitlab_com: false
     documentation_link: 'https://gitlab.com/gitlab-org/gitlab-vscode-extension#show-merged-gitlab-cicd-configuration'
-    image_url: '/images/unreleased/create-vs-code-cicd-improvements.png'
+    image_url: '/images/15_4/create-vs-code-cicd-improvements.png'
     reporter: phikai
     stage: create # Prefix this file name with stage-informative-title.yml
     categories:

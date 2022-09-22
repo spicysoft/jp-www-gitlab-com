@@ -13,11 +13,9 @@ features:
         #### What's new:
         
         - [Continuous masking of masked variables above 4 KiB](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/28128)
-        - [Dependencies update for `gitlab-runner:ubi-fips-bleeding`](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/29207)
         
         #### Bug Fixes:
 
-        - [Update `prometheus/client-golang` to version 1.11.1](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/29209)
         - [On GitLab 14.8, registering a runner fails from template config merging](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/28911)
         - [Gitlab Runner helper image not using alpine 3.15](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/29188)
         

@@ -1,9 +1,9 @@
 features:
-  primary:
+  top:
   - name: "Suggested Reviewers open beta"
     available_in: [gold]
     documentation_link: 'https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#suggested-reviewers'
-    image_url: '/images/unreleased/create-code-review-suggested-reviewers.png'
+    image_url: '/images/15_4/create-code-review-suggested-reviewers.png'
     reporter: tmccaslin
     stage: create
     categories:

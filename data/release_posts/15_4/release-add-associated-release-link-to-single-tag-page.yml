@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/releases/'
-    image_url: '/images/unreleased/release-show-release-in-tag-page.png'
+    image_url: '/images/15_4/release-show-release-in-tag-page.png'
     reporter: cbalane
     stage: release
     categories:

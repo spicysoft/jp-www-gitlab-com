@@ -4,7 +4,7 @@ features:
   - name: "Dedicated page for merge requests and approvals settings"
     available_in: [core, premium, ultimate]  # Include all supported tiers
     documentation_link: 'https://docs.gitlab.com/ee/user/project/settings/#configure-merge-request-settings-for-a-project'
-    image_url: '/images/unreleased/merge-request-menu.png'
+    image_url: '/images/15_4/merge-request-menu.png'
     reporter: pedroms
     stage: create
     categories:

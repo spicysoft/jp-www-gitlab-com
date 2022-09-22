@@ -4,7 +4,7 @@ features:
       gitlab_com: true
       available_in: [silver, gold]
       documentation_link: 'https://docs.gitlab.com/ee/ci/runners/saas/linux_saas_runner.html'
-      image_url: '/images/unreleased/select-multiple-gitlab-saas-linux-runners.png'
+      image_url: '/images/15_4/select-multiple-gitlab-saas-linux-runners.png'
       reporter: DarrenEastman
       stage: verify
       categories:
