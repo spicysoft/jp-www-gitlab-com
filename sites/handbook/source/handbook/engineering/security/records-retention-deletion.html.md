@@ -88,6 +88,7 @@ The below retention and secure disposal requirements apply to all GitLab records
 | Production backups                                 | Organizationally-defined  | [GCP/AWS Secure Deletion] |
 | Customer data backups                              | Organizationally-defined  | [GCP/AWS Secure Deletion] |
 | Employment applications and interview notes of US-based applicants| 4 years (updated 2021-07)|N/A          | 
+| Temporary Files with PII data                      | As long as needed for business purpose | Per System's default deletion schedule            | 
 
 ## Exceptions
 Exceptions to these requirements will be tracked as per the [Information Security Policy Exception Management Process](/handbook/engineering/security/#information-security-policy-exception-management-process).
