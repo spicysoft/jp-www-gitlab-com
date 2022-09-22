@@ -167,7 +167,7 @@
   team_member_baseline_entitlement: false
   subprocessor:
   description: Key system utilized by Security Compliance for User Access Reviews
-  access_to: Security Assurance and Techincal Owners 
+  access_to: Security Assurance and Technical Owners 
   provisioner: '@rcshah, @Julia.Lake'
   deprovisioner: '@rcshah, @Julia.Lake'
   group_owner_slack_channel: '#sec-assurance'
@@ -2030,7 +2030,7 @@
 - title: Google Cloud Platform
   team_member_baseline_entitlement: false
   subprocessor: true
-  description: 'Additonal information on how GitLab utilizes [Google Cloud Platform](https://cloud.google.com/)
+  description: 'Additional information on how GitLab utilizes [Google Cloud Platform](https://cloud.google.com/)
     can be found [here](/partners/technology-partners/google-cloud-platform/).'
   access_to: null
   provisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
@@ -2056,7 +2056,7 @@
   team_member_baseline_entitlement: false
   subprocessor: false
   description: "[Google Search Console](https://search.google.com/search-console/about)
-    tracks and reports GitLab's site traffice and performance."
+    tracks and reports GitLab's site traffic and performance."
   access_to: Marketing Operations, Digital Marketing, Inbound Marketing, Infrastructure; Limited access is granted
     to this system, defined w/in baseline entitlements
   provisioner: "@jburton"
