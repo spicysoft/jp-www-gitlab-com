@@ -85,7 +85,7 @@ For more specific instructions on obtaining and submitting required screenshots,
 
 Gitlab uses SheerID, a trusted partner, to verify that applicants meet the GitLab for Open Source Program requirements. In most cases, applicants receive a decision on their application within three to five business days of submission. During periods of high submission volume, processing an application requires up to ten business days.
 
-The GitLab for Open Source team will then follow the [community programs application workflow](/handbook/marketing/community-relations/community-operations/community-program-applications/) to process applications.
+The GitLab for Open Source team will then follow the [community programs application workflow](/handbook/marketing/community-relations/community-programs/community-program-applications/) to process applications.
 
 When verified, applicants receive a verification email containing specific instructions for obtaining their license.
 

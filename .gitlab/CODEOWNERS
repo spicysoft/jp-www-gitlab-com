@@ -363,15 +363,11 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/marketing/community-relations/evangelist-program/ @jrachel1 @johncoghlan
 /data/heroes.yml @jrachel1 @johncoghlan
 /data/heroes_contributions.yml @jrachel1 @johncoghlan
+/sites/handbook/source/handbook/marketing/community-relations/community-programs/ @johncoghlan @c_hupy
 /sites/handbook/source/handbook/marketing/community-relations/opensource-program/ @johncoghlan @bbehr
 /sites/handbook/source/handbook/marketing/community-relations/startups-program/ @johncoghlan @c_hupy
 /sites/handbook/source/handbook/marketing/community-relations/program-resources/ @johncoghlan @akramer
 /sites/handbook/source/handbook/marketing/community-relations/project-management/ @johncoghlan @akramer
-/sites/handbook/source/handbook/marketing/community-relations/community-operations/ @johncoghlan @c_hupy
-/sites/handbook/source/handbook/marketing/community-relations/community-operations/automated-community-programs/ @johncoghlan @c_hupy
-/sites/handbook/source/handbook/marketing/community-relations/community-operations/automated-community-programs/edu-program-verification/ @c_hupy
-/sites/handbook/source/handbook/marketing/community-relations/community-operations/automated-community-programs/oss-program-verification/ @bbehr
-/sites/handbook/source/handbook/marketing/community-relations/community-operations/automated-community-programs/startups-program-verification/ @johncoghlan @c_hupy
 /sites/handbook/source/handbook/marketing/community-relations/developer-evangelism/ @abuango @brendan @dnsmichi @johncoghlan @jrachel1 @sugaroverflow
 /data/speakers.yml @brendan @johncoghlan @abuango
 /data/speakers_requirements.yml @brendan @johncoghlan @abuango
