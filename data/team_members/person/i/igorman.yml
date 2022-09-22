@@ -1,17 +1,17 @@
 name: Iris Gorman
 locality: 
 country: Remote
-role: <a href="">Senior Legal Counsel</a>
+role: <a href="">Senior Legal Counsel, Product and IP</a>
 reports_to: danrhodes
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: irisegorman.jpg
+pronouns: she/her
 pronunciation:
 twitter:
-linkedin:
-gitlab: iegorman
+linkedin: irisgorman
+gitlab: igorman
 departments:
   - Legal & Corporate Affairs
-specialty: ""
+specialty: 
 expertise:
 story:
 
