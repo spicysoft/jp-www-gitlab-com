@@ -20,13 +20,14 @@ So you're interested in becoming a public speaker? That's great!
 - If you're looking to learn how to be a more effective and confident public speaker, you can check out:
     - [LinkedIn Learning courses](https://www.linkedin.com/learning/public-speaking-foundations-2018/)
     - Books like _The Art of Public Speaking_ by Dale Carnegie
+    - Brendan's blog post: [What makes a great tech talk](https://boleary.dev/blog/2022-09-21-what-makes-a-great-tech-talk)     
     - Or join your local [Toastmasters](https://www.toastmasters.org/Resources/Public-Speaking-Tips).
 - Review the steps on this page for 
     - Getting help with CfP and talk ideas
     - Finding events
     - Process and requirements for speaking at events 
     - Best practices 
-
+   
 ### Get help developing CFP ideas
 
 Sometimes people have an awesome story to share but can't find the time to put words on paper. [Share your ideas (Google Form)](https://forms.gle/5RbekekqWD1e6F686) and the Developer evangelism team will work with you to build it into a talk. In the event that you are unable to speak on the topic, we can get other speakers to do justice to the talk.
