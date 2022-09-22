@@ -4940,11 +4940,11 @@
   subprocessor: false
   description: ACCOUTNING TEAMS!! Xactly Commission Expense Accounting (CEA) is an end-to-end solution for managing commissions, or ‘the costs of obtaining a contract,’ under ASC 606 (IFRS 15). Including full capitalization and amortization, Xactly CEA allows GitLab to easily and securely monitor performance obligations and ensure full compliance with the new commission accounting requirements.
   access_to: Finance
-  provisioner: '@edelongpre'  
-  deprovisioner: '@gggonzalez'
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'  
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner_slack_channel: 'Finance (Group Owner) #finance'
   business_owner: Erica de Longpre
-  technical_owner: Griz Gonzalez
+  technical_owner: FinSys admin team
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
