@@ -30,9 +30,9 @@ This job is stuck because of one of the following problems. There are no active 
 
 The answer is that it depends. If the CI job is compute-intensive, you will likely see a performance improvement measured by reduced build times. We ran a series of  [Linux kernel](https://gitlab.com/gitlab-org/ci-cd/gitlab-runner-stress/linux-kernel) builds on the medium machine type to test the potential performance gains for compute-intensive CI jobs.
 
-![Linux kernel build CI job execution time benchmark](/images/blogimages/new-machine-types-gitlab-saas-linux/linux-kernel-build-runner-saas-benchmark.png)
+![Linux kernel build CI job execution time benchmark](/images/blogimages/new-machine-types-gitlab-saas-linux/linux-kernel-build-runner-saas-benchmark_2022-09-22.png)
 
-Our testing found an average 25% reduction in CI job execution time for the medium machine types compared to the baseline small machine type. We recommend you experiment with the new machine types for your CI jobs to determine the right choice based on your build workflows.
+Our testing found an average 41% reduction in CI job execution time for the medium machine types compared to the baseline small machine type. We recommend you experiment with the new machine types for your CI jobs to determine the right choice based on your build workflows.
 
 ## Getting started
 
