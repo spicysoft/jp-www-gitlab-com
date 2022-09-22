@@ -1,17 +1,18 @@
 name: Ryan Appleby
 locality: 
 country: Remote
-role: <a href="">Senior Professional Services Technical Architect</a>
+role: <a href="/job-families/sales/professional-services-architect/">Senior Professional Services Technical Architect</a>
 reports_to: melaniross
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
+picture: ryanappleby.jpg
+pronouns: he/him/his
+pronunciation: rye-an apple-bee
 twitter:
-linkedin:
+linkedin: ryanappleby
 gitlab: ryappleby
 departments:
   - Consulting Delivery
-specialty: ""
+  - Professional Services
+specialty: 
 expertise:
-story:
+story: Prior to joining GitLab in September 2022, Ryan worked in technical, architectural and team lead roles in both global enterprises and small start-ups. He lives near the sea with his wife, son and Springador dog. When not working, he can usually be found building lego with his son or taking Bronwen (the Springador) for long walks in the vain hope of finally wearing her out.
 
