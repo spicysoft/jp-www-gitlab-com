@@ -18,7 +18,7 @@ features:
       Now you can insert data-driven tables using JSON syntax as follows:
 
       1. Write or export a table in JSON.
-      1. Wrap JSON in a code block that starts with triple backticks `\`` followed by `json:table`.
+      1. Wrap JSON in a code block that starts with triple backticks followed by `json:table`.
       1. Save your issue, submit your comment, or publish your page.
 
       In the rendered table, you can also enable:
