@@ -2912,6 +2912,11 @@
   target: /handbook/marketing/community-relations/workflows-tools/forum/
   comp_op: '='
 - sources:
+    - /handbook/marketing/community-relations/community-operations/community-program-applications
+    - /handbook/marketing/community-relations/community-operations/community-program-applications/
+  target: /handbook/marketing/community-relations/community-programs/
+  comp_op: '='
+- sources:
     - /job-families/finance/accounts-payable-specialist
     - /job-families/finance/accounts-payable-specialist/
   target: /job-families/finance/accounts-payable/
