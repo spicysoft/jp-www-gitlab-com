@@ -2005,7 +2005,7 @@ logging:
   direction: /direction/monitor/apm/logging/
   description: "GitLab makes it easy to view the logs distributed across multiple pods and services using log aggregation with Elastic Stack. Once Elastic Stack is enabled, you can view your aggregated Kubernetes logs across multiple services and infrastructure, go back in time, conduct infinite scroll, and search through your application logs from within the GitLab UI itself."
   roi: false
-  available: 2022-08-22
+  available: 2023-04-22
   viable:
   complete:
   lovable:
@@ -2013,7 +2013,7 @@ logging:
   marketing: true
   priority_level: medium
   dogfooding_status: N/A
-  dogfooding_issue: This category is at the "minimal" level of maturity and is not actively being worked on.
+  dogfooding_issue: 
   dogfooding_group: Infrastructure
   ux_scorecard_link:
   ux_scorecard_score:
@@ -2026,11 +2026,11 @@ tracing:
   direction: /direction/monitor/apm/tracing/
   description: "Tracing provides insight into the performance and health of a deployed application, tracking each function or microservice which handles a given request. This makes it easy to understand the end-to-end flow of a request, regardless of whether you are using a monolithic or distributed system."
   roi: false
-  available: 2018-11-22
+  available: 2023-12-22
   viable:
   complete:
   lovable:
-  maturity: minimal
+  maturity: planned
   marketing: true
   priority_level: medium
   dogfooding_status: N/A
