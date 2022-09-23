@@ -5076,7 +5076,7 @@
   employee_or_customer_facing_app: Employee
   notes: null
   saas: null
-  handbook_link: null
+  handbook_link: "[Workday Guide](/handbook/people-group/workday/tech-stack-guide-workday)"
   google_group: null
 
 - title: Workiva
