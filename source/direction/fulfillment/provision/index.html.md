@@ -21,12 +21,12 @@ The Provision Group within Fulfillment owns the process that provides customers 
 
 For GitLab customers, we provide tools for subscription activation, de-activation, and reporting license usage. For self-managed customers, this includes Cloud License sync and offline usage data reporting. For SaaS customers, this includes namespace association and usage data syncs. 
  
-For internal GitLab team members working in support and operational roles, our group strives to reduce the need for their involvement in provisioning and subscription usage management. This is achieved through automating inefficient processes, clearer documentation, and customer empowerment. 
+For GitLab team members working in support and operational roles, our group strives to reduce the need for their involvement in provisioning and subscription usage management. This is achieved through automating processes, clearer documentation, and customer empowerment.
 
-For internal GitLab team members working in sales and customer-success roles, we work to provide real-time insight into the current state of subscription provisioning and customer usage data. This allows these teams to facilitate accurate renewals, add-ons and upgrades with the latest subscription information.
+For GitLab team members working in sales and customer-success roles, we work to provide real-time insight into the current state of subscription provisioning and customer usage data. This allows these teams to facilitate accurate renewals, add-ons and upgrades with the latest subscription information.
 
 ## Performance Indicators
-We use performance indicators to track our progress towards our team's mission. Currently, our PI's include the three metrics outlined below. The status of these PI's are reviewed monthly with product leadership. For the latest metrics, see our [GitLab Internal Handbook](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/fulfillment-section/).
+We use performance indicators to track our progress towards our team's mission. Currently, our PI's include the three metrics outlined below. The status of these PI's is reviewed monthly with product leadership. For the latest metrics, see our [GitLab Internal Handbook](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/fulfillment-section/).
 
 #### Cloud Licensing Adoption Rate
 * **What?** The percent of self-managed customers activating a new or renewal subscription with Cloud Licensing on a weekly basis.
@@ -38,7 +38,7 @@ We use performance indicators to track our progress towards our team's mission. 
 
 #### (Minimize) % of License & Renewal Support Tickets Related to Provision
 * **What?** The percent of overall support tickets received by the L&R Support team related to processes owned by the Provision team. 
-* **Why?** Fewer provisioning-related support tickets received by the L&R team indicate more customers are able to activate their subscriptions without issue. 
+* **Why?** Fewer provisioning-related support tickets received by the L&R team indicate more customers are able to activate their subscriptions with no issue. 
 
 ## 1 Year Plan
 Over the next 12 months, the Provision team has three primary objectives:
@@ -56,7 +56,7 @@ In August 2021, we introduced Cloud Licensing. Cloud Licensing provides an impro
 A major focus this year is on providing our internal customer-facing team members with the information they need to facilitate a positive customer experience. This includes visibility into provisioning status and [license usage data](https://gitlab.com/groups/gitlab-org/-/epics/8133) collected as part of Cloud Licensing.
 
 ### Reduce Code Complexity to Address Longstanding Bugs
-Another primary focus this year is on addressing some of the common license-related bugs impacting customers and our internal support teams. As GitLab has scaled, the complexity of our licensing logic has grown as well, resulting in multiple customer and support pain points. We hope to take the time this year to [identify areas for reducing complexity in our code](https://gitlab.com/groups/gitlab-org/-/epics/8129), as we believe this will help to address many longstanding bugs. Some of the primary pain points we are working to address are are outlined in more detail in our [internal handbook page](https://internal-handbook.gitlab.io/handbook/product/fulfillment/licensingissues/).
+Another primary focus this year is on addressing some of the common license-related bugs impacting customers and our internal support teams. As GitLab has scaled, the complexity of our licensing logic has grown as well, resulting in multiple customer and support pain points. We hope to take the time this year to [identify areas for reducing complexity in our code](https://gitlab.com/groups/gitlab-org/-/epics/8129), as we believe this will help to address many longstanding bugs. Some of the primary pain points we are working to address are outlined in more detail in our [internal handbook page](https://internal-handbook.gitlab.io/handbook/product/fulfillment/licensingissues/).
  
 ## Looking Forward
 As outlined above, the Provision team is focused this year on key efficiency gains and reducing complexity in our current processes. As we are able to complete these improvements, the team is planning to shift focus towards building a state-of-the-art provisioning system.
