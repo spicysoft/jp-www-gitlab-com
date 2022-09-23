@@ -14,8 +14,23 @@ canonical_path: "/direction/monitor/observability/"
 This is the product direction for Monitor:Observability. If you'd like to discuss this direction
 directly with the product managers for Monitor:Observability, feel free to reach out to Sebastien Pahl (Principal PM of Monitor:Observability) ([GitLab](https://gitlab.com/sebastienpahl), [Email](mailto:spahl@gitlab.com)).
 
-## Vision
-We aim to democratize access to open-source observability tools and APIs in order to create a world where developers and operators can easily, and seemlessly collaborate to ensure production applications are availble and responsive to their users.
+## Overview
+
+[Observability](https://en.wikipedia.org/wiki/Observability) is a measure of how well internal states of a system can be inferred from knowledge of its external outputs. In the (recent) past, simply monitoring your application and related systems may have been sufficient, e.g. watching for specific metrics to track whether performance and health are within expectations. Today, with the rapid adoption of cloud-native technologies and distributed systems, it is no longer sufficient to only look for known indicators. An observable system is one that enables operators to efficiently drill in and understand what went wrong even for previously unencountered problems.
+
+GitLab's Observability solution is powered by two key platform capabilities, [GitLab Observability Platform](/platform) and the [GitLab Observability UI](/ui). Please visit their respective direction pages for more details.
+
+## Mission & Vision
+
+### Mission
+
+Make data useful for every stage of the DevOps process.
+
+### Vision
+
+GitLab users and customers use GitLab Observability to improve the outcome of their software investment. They process, store, manage, provide access to, query, visualize, collaborate on, and operationalize on data collected throughout the entire DevOps process. 
+
+The practice of observability is typically done for only production applications. Our vision is broader. How teams build software, how the software operates, and ultimately how users interface and use our software, all generate meaningful data that can help software teams to better infer the states of a system and thus make meaningful improvements. As such, we are aiming to build an observability capability that not only helps enable teams to ensure the health and performance of production systems, but also enable teams to continuously improve outcome in each stage of the DevOps process.
 
 ## Newsworthy
 On Dec 14, 2021, GitLab announced the [acquisition of Opstrace](https://about.gitlab.com/press/releases/2021-12-14-gitlab-acquires-opstrace-to-expand-its-devops-platform-with-open-source-observability-solution.html). Opstrace is an observability distribution that will become integrated and usable out-of-the-box for all GitLab users. Using Opstrace, users gain the benefit of having a full observability platform, starting with Metrics, powered by Prometheus. 
@@ -50,7 +65,6 @@ We believe that observability data is most valuable when it is easy to glean ins
 
 ### Integrated UI
 A common interface, and most importantly a common collaboration space is key to bringing observability to where developers work. We'll create an [integrated UI](/handbook/engineering/development/ops/monitor/observability/#gitlab-observability-ui-previously-known-as-opstrace-ui) that allows for collaboration on observability data directly within GitLab.
-
 
 ## Diagram of future vision
 
