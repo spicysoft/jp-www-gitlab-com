@@ -58,7 +58,7 @@ Our KPIs and processes follow industry best practices. We regularly iterate on n
 ## <i class="fa fa-external-link" aria-hidden="true"></i> Useful links
 
 1. [GitLab Speakers Bureau](/handbook/marketing/community-relations/developer-evangelism/speakers-bureau/)
-1. [How to be an evangelist](/handbook/marketing/community-relations/developer-evangelism/how-to-be-an-evangelist/)
+1. [Developer Evangelism on Social Media](/handbook/marketing/community-relations/developer-evangelism/social-media/)
 1. [How to submit a successful conference proposal](/handbook/marketing/community-relations/developer-evangelism/writing-cfps/)
-1. [Consortiums we work with](/handbook/marketing/community-relations/opensource-program/#consortium-memberships-and-sponsorships)
-1. [Speaking logistics](/handbook/marketing/community-relations/developer-evangelism/speaking-logistics/)
+1. [Consortia we work with](/handbook/marketing/community-relations/opensource-program)
+1. [Speaking resources](/handbook/marketing/corporate-marketing/speaking-resources/)

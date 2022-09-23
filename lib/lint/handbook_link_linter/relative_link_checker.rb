@@ -17,7 +17,6 @@ module Lint
         '/handbook/finance',
         '/handbook/hiring',
         '/handbook/marketing/campaigns',
-        '/handbook/marketing/community-relations',
         '/handbook/marketing/corporate-marketing',
         '/handbook/marketing/events',
         '/handbook/marketing/revenue-marketing',

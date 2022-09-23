@@ -33,7 +33,7 @@ For this reason, we choose to have a team with credibility from real-world educa
 [Social media](/handbook/marketing/community-relations/education-program/education-evangelism/#social-media){:.btn .btn-purple-inv}
 [Content creation](/handbook/marketing/community-relations/education-program/education-evangelism/#content-creation){:.btn .btn-purple-inv}
 [Presentations and events](/handbook/marketing/community-relations/education-program/education-evangelism/#presentations-and-events){:.btn .btn-purple-inv}
-[Student Spotlight Program](/handbook/marketing/community-relations/education-program/education-evangelism/#student-spotlights-program){:.btn .btn-purple-inv}
+[Student Spotlight Program](/handbook/marketing/community-relations/education-program/education-evangelism){:.btn .btn-purple-inv}
 
 
 

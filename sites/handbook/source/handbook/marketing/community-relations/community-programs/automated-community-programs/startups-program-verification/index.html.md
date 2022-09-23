@@ -45,8 +45,8 @@ Currently, only YCombinator Startups (YC Startups) qualify for our Startups prog
 Here's how to qualify them:
 
  1. Make sure they are part of the current or two most recent [YCombinator batches](https://www.ycombinator.com/companies/).
- 1. If they are not on that list, follow up with the [`Startups:: Qualification for program` macro](/handbook/marketing/community-relations/community-programs/community-program-applications/#asking-for-a-proof-for-the-current-batch-participants) to ask them to provide verification that they are a YC startup.
+ 1. If they are not on that list, follow up with the [`Startups:: Qualification for program` macro](/handbook/marketing/community-relations/community-programs/community-program-applications/email-and-zendesk-macros/) to ask them to provide verification that they are a YC startup.
 
-If they do qualify, continue to [create an opportunity](/handbook/marketing/community-relations/community-programs/community-program-applications/#step-2-create-an-opportunity).
+If they do qualify, continue to [create an opportunity](/handbook/marketing/community-relations/community-programs/community-program-applications/).
 
-If they do not qualify, send them the [Startups:: Rejection macro](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/automated-community-programs/community-program-applications/email-and-zendesk-macros/#startups-startups-rejection) and offer to connect them to sales via the [Sales handoff process](/handbook/marketing/community-relations/community-programs/community-program-applications/#handoff-process-to-sales).
+If they do not qualify, send them the [Startups:: Rejection macro](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/community-program-applications/email-and-zendesk-macros/#startups-startups-rejection) and offer to connect them to sales via the [Sales handoff process](/handbook/marketing/community-relations/community-programs/community-program-applications/#handoff-process-to-sales).
