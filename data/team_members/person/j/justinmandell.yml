@@ -3,18 +3,18 @@ name: Justin Mandell
 locality:
 country: Remote
 role: <a href="/job-families/engineering/product-design-management/#product-design-manager">Product
-  Design Manager, Configure, Monitor, Secure & Govern</a>
+  Design Manager</a>
 reports_to: valerie
 picture: justinmandell.png
 twitter:
 gitlab: jmandell
 departments:
-- Engineering Function
 - UX Department
-- Configure UX Team
-- Monitor UX Team
-- Secure UX Team
-- Govern UX Team
+specialty:
+- Configure
+- Monitor
+- Secure
+- Govern
 story: 'Justin is a user experience, interaction, visual design leader with a passion
   for product creation and user-centered design. He''s worked on products with screens
   no bigger than a typical thumbnail image all the way up to a flat screen TV and
@@ -24,5 +24,4 @@ story: 'Justin is a user experience, interaction, visual design leader with a pa
   and looks forward to the day he can set up a muaythai heavy bag in his garage again.
 
   '
-specialty: Secure, Protect, Configure, Monitor
 

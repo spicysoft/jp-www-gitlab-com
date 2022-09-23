@@ -1,7 +1,7 @@
 name: Blair Christopher
 locality:
 country: Remote
-role: <a href="/job-families/engineering/product-design-management/#product-design-manager">Manager, Product Design</a>
+role: <a href="/job-families/engineering/product-design-management/#product-design-manager">Product Design Manager</a>
 reports_to: valerie
 picture: blairchristopher.jpg
 pronouns: he/him
@@ -9,8 +9,8 @@ twitter: badnewsblair
 linkedin: badnewsblair
 gitlab: badnewsblair
 departments:
-- Engineering Function
 - UX Department
-- Dev UX Team
-specialty: Manage, Plan
+specialty:
+- Manage
+- Plan
 story: With a diverse background as a designer, Blair has led award-winning teams of talented designers in crafting delightful, user centered experiences. Away from work, he enjoys spending time with his family, visiting the mountains, the sand, and participating in the occasional online, competitive video game.
