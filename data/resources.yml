@@ -1,3 +1,23 @@
+- title: 'The GitLab 2022 Global DevSecOps Survey'
+  url: https://about.gitlab.com/developer-survey/
+  image: /images/resources/security.png
+  type: 'Report'
+  topics:
+    - DevSecOps
+  solutions:
+    - Deliver better products faster
+    - Security
+  teaser: "In our 2022 Global DevSecOps Survey more than 5000 DevOps practitioners shared their successes and struggles with us in their own words."
+- title: 'GitLab broadens view of DevOps with enhanced support for stakeholders, value delivery'
+  url: https://page.gitlab.com/resources-report-451-gitlab-broadens-devops.html
+  image: /images/resources/devops.png
+  type: 'Report'
+  topics:
+    - DevSecOps
+  solutions:
+    - Deliver better products faster
+    - Improve operational efficiencies
+  teaser: "This Market Insight Report by 451 Research deep-dives into GitLab's DevOps platform and it's value for security, business, and other stakeholders."
 - title: '2022 GigaOm radar for GitOps - GitLab a forward mover'
   url: https://page.gitlab.com/resources-report-gigaom-gitops-radar.html
   image: /images/resources/resources-gitops.png
