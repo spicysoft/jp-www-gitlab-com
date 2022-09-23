@@ -971,21 +971,19 @@
   target: /job-families/engineering/technical-writer/
   comp_op: '='
 - sources:
+  - /handbook/engineering/ux/
+  target: /handbook/product/ux/
+  comp_op: '~'
+- sources:
   - /handbook/engineering/ux/ux-researcher
   - /handbook/engineering/ux/ux-researcher/
   - /handbook/engineering/ux/uxresearcher-onboarding
   - /handbook/engineering/ux/uxresearcher-onboarding/
-  - /handbook/product/ux/ux-researcher
-  - /handbook/product/ux/ux-researcher/
-  - /handbook/product/ux/uxresearcher-onboarding
-  - /handbook/product/ux/uxresearcher-onboarding/
   target: /handbook/product/ux/ux-research/
   comp_op: '='
 - sources:
   - /handbook/engineering/ux/ux-researcher-training
   - /handbook/engineering/ux/ux-researcher-training/
-  - /handbook/product/ux/ux-researcher-training
-  - /handbook/product/ux/ux-researcher-training/
   target: /handbook/product/ux/ux-research-training/
   comp_op: '='
 - sources:
@@ -2366,9 +2364,7 @@
   target: /blog/2020/04/14/github-free-for-teams/
   comp_op: '='
 - sources:
-  - /handbook/engineering/technical-writing
   - /handbook/engineering/technical-writing/
-  - /handbook/product/technical-writing
   - /handbook/product/technical-writing/
   target: /handbook/product/ux/technical-writing/
   comp_op: '~'
@@ -2476,8 +2472,8 @@
   target: /handbook/marketing/revenue-marketing/account-based-marketing/
   comp_op: '='
 - sources:
-   - /handbook/product/ux/technical-writing/markdown-guide/
-   - /handbook/product/ux/technical-writing/markdown-guide
+   - /handbook/engineering/ux/technical-writing/markdown-guide/
+   - /handbook/engineering/ux/technical-writing/markdown-guide
   target: /handbook/markdown-guide/
   comp_op: '='
 - sources: /handbook/engineering/security/third-party-vendor-security-review.html
@@ -3194,11 +3190,9 @@
   target: /handbook/engineering/metrics/sec/govern/compliance
   comp_op: '='
 - sources:
-    - /handbook/engineering/ux/stage-group-ux-strategy/govern
-    - /handbook/engineering/ux/stage-group-ux-strategy/govern/
-    - /handbook/product/ux/stage-group-ux-strategy/protect
-    - /handbook/product/ux/stage-group-ux-strategy/protect/
-    - /handbook/product/ux/stage-group-ux-strategy/protect/index.html
+    - /handbook/engineering/ux/stage-group-ux-strategy/protect
+    - /handbook/engineering/ux/stage-group-ux-strategy/protect/
+    - /handbook/engineering/ux/stage-group-ux-strategy/protect/index.html
   target: /handbook/product/ux/stage-group-ux-strategy/govern/
   comp_op: '='
 - sources:
@@ -3245,9 +3239,9 @@
   target: /handbook/product/sec-section-performance-indicators
   comp_op: '='
 - sources:
-  - /handbook/product/ux/stage-group-ux-strategy/secure-and-protect
-  - /handbook/product/ux/stage-group-ux-strategy/secure-and-protect/
-  - /handbook/product/ux/stage-group-ux-strategy/secure-and-protect/index.html
+  - /handbook/engineering/ux/stage-group-ux-strategy/secure-and-protect
+  - /handbook/engineering/ux/stage-group-ux-strategy/secure-and-protect/
+  - /handbook/engineering/ux/stage-group-ux-strategy/secure-and-protect/index.html
   target: /handbook/product/ux/stage-group-ux-strategy/sec
   comp_op: '='
 - sources:
@@ -3889,10 +3883,8 @@
   target: /handbook/engineering/development/ops/verify/pipeline-execution/
   comp_op: '='
 - sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/ci-cd/pipeline-execution
-  - /handbook/engineering/ux/stage-group-ux-strategy/ci-cd/pipeline-execution/
-  - /handbook/product/ux/stage-group-ux-strategy/ci-cd/continuous-integration/
-  - /handbook/product/ux/stage-group-ux-strategy/ci-cd/continuous-integration/index.html
+  - /handbook/engineering/ux/stage-group-ux-strategy/ci-cd/continuous-integration/
+  - /handbook/engineering/ux/stage-group-ux-strategy/ci-cd/continuous-integration/index.html
   target: /handbook/product/ux/stage-group-ux-strategy/ci-cd/pipeline-execution/
   comp_op: '='
 - sources:
@@ -3901,8 +3893,8 @@
   target: /handbook/sales/sales-term-glossary/arr-in-practice/
   comp_op: '='
 - sources:
-    - /handbook/product/ux/stage-group-ux-strategy/growth
-    - /handbook/product/ux/stage-group-ux-strategy/growth/
+    - /handbook/engineering/ux/stage-group-ux-strategy/growth
+    - /handbook/engineering/ux/stage-group-ux-strategy/growth/
   target: /handbook/product/growth/
   comp_op: '='
 - sources:
@@ -4285,7 +4277,7 @@
   target: https://internal-handbook.gitlab.io/handbook/product/investment/
   comp_op: '='
 - sources:
-    - /handbook/product/ux/technical-writing/workflow/release.html
+    - /handbook/engineering/ux/technical-writing/workflow/release.html
   target: https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md
   comp_op: '='
 - sources:
@@ -4329,8 +4321,8 @@
   target: /handbook/engineering/security/security-engineering-and-research/infrastructure-security/
   comp_op: '='
 - sources:
-  - /handbook/product/ux/ux-research-training/strategic-research-at-gitlab/cross-stage-research-program.html
-  - /handbook/product/ux/ux-research-training/strategic-research-at-gitlab/devops-platform-research-program.html
+  - /handbook/engineering/ux/ux-research-training/strategic-research-at-gitlab/cross-stage-research-program.html
+  - /handbook/engineering/ux/ux-research-training/strategic-research-at-gitlab/devops-platform-research-program.html
   target: /handbook/product/ux/ux-research-training/strategic-research-at-gitlab/gitlab-adoption-research-program.html
   comp_op: '='
 - sources:
@@ -4605,568 +4597,4 @@
 - sources:
   - /handbook/marketing/community-relations/developer-evangelism/how-to-be-an-evangelist/
   target: /handbook/marketing/community-relations/developer-evangelism/learn-developer-evangelism/
-  comp_op: '~'  
-- sources:
-  - /handbook/engineering/ux/qualtrics
-  - /handbook/engineering/ux/qualtrics/
-  target: /handbook/product/ux/qualtrics/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-resources/designers-guide-to-data
-  - /handbook/engineering/ux/ux-resources/designers-guide-to-data/
-  target: /handbook/product/ux/ux-resources/designers-guide-to-data/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-resources/experimentation
-  - /handbook/engineering/ux/ux-resources/experimentation/
-  target: /handbook/product/ux/ux-resources/experimentation/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab
-  - /handbook/engineering/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/
-  target: /handbook/product/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-resources
-  - /handbook/engineering/ux/ux-resources/
-  target: /handbook/product/ux/ux-resources/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-resources/designers-step-by-step-guide-to-make-code-changes
-  - /handbook/engineering/ux/ux-resources/designers-step-by-step-guide-to-make-code-changes/
-  target: /handbook/product/ux/ux-resources/designers-step-by-step-guide-to-make-code-changes/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/navigation
-  - /handbook/engineering/ux/navigation/
-  target: /handbook/product/ux/navigation/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/pajamas-design-system
-  - /handbook/engineering/ux/pajamas-design-system/
-  target: /handbook/product/ux/pajamas-design-system/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/pajamas-design-system/design-review
-  - /handbook/engineering/ux/pajamas-design-system/design-review/
-  target: /handbook/product/ux/pajamas-design-system/design-review/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-coordination/research-coordinator-fill-in
-  - /handbook/engineering/ux/ux-research-coordination/research-coordinator-fill-in/
-  target: /handbook/product/ux/ux-research-coordination/research-coordinator-fill-in/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-coordination/NDAs
-  - /handbook/engineering/ux/ux-research-coordination/NDAs/
-  target: /handbook/product/ux/ux-research-coordination/NDAs/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-coordination/IP-Assignment
-  - /handbook/engineering/ux/ux-research-coordination/IP-Assignment/
-  target: /handbook/product/ux/ux-research-coordination/IP-Assignment/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-coordination
-  - /handbook/engineering/ux/ux-research-coordination/
-  target: /handbook/product/ux/ux-research-coordination/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-coordination/first-look-ux-research-panel
-  - /handbook/engineering/ux/ux-research-coordination/first-look-ux-research-panel/
-  target: /handbook/product/ux/ux-research-coordination/first-look-ux-research-panel/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-scorecards
-  - /handbook/engineering/ux/ux-scorecards/
-  target: /handbook/product/ux/ux-scorecards/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-scorecards/onboarding.html
-  target: /handbook/product/ux/ux-scorecards/onboarding.html
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/one-pagers/laurenevans-readme
-  - /handbook/engineering/ux/one-pagers/laurenevans-readme/
-  target: /handbook/product/ux/one-pagers/laurenevans-readme/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/one-pagers/christie-readme
-  - /handbook/engineering/ux/one-pagers/christie-readme/
-  target: /handbook/product/ux/one-pagers/christie-readme/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/dovetail
-  - /handbook/engineering/ux/dovetail/
-  target: /handbook/product/ux/dovetail/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/heuristics
-  - /handbook/engineering/ux/heuristics/
-  target: /handbook/product/ux/heuristics/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/secure
-  - /handbook/engineering/ux/stage-group-ux-strategy/secure/
-  target: /handbook/product/ux/stage-group-ux-strategy/secure/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/enablement
-  - /handbook/engineering/ux/stage-group-ux-strategy/enablement/
-  target: /handbook/product/ux/stage-group-ux-strategy/enablement/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/verify
-  - /handbook/engineering/ux/stage-group-ux-strategy/verify/
-  target: /handbook/product/ux/stage-group-ux-strategy/verify/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/sec
-  - /handbook/engineering/ux/stage-group-ux-strategy/sec/
-  target: /handbook/product/ux/stage-group-ux-strategy/sec/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/sec/jtbd
-  - /handbook/engineering/ux/stage-group-ux-strategy/sec/jtbd/
-  target: /handbook/product/ux/stage-group-ux-strategy/sec/jtbd/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/package
-  - /handbook/engineering/ux/stage-group-ux-strategy/package/
-  target: /handbook/product/ux/stage-group-ux-strategy/package/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy
-  - /handbook/engineering/ux/stage-group-ux-strategy/
-  target: /handbook/product/ux/stage-group-ux-strategy/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/release
-  - /handbook/engineering/ux/stage-group-ux-strategy/release/
-  target: /handbook/product/ux/stage-group-ux-strategy/release/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/release/release-management
-  - /handbook/engineering/ux/stage-group-ux-strategy/release/release-management/
-  target: /handbook/product/ux/stage-group-ux-strategy/release/release-management/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/ci-cd
-  - /handbook/engineering/ux/stage-group-ux-strategy/ci-cd/
-  target: /handbook/product/ux/stage-group-ux-strategy/ci-cd/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/ci-cd/runner
-  - /handbook/engineering/ux/stage-group-ux-strategy/ci-cd/runner/
-  target: /handbook/product/ux/stage-group-ux-strategy/ci-cd/runner/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/stage-group-ux-strategy/fulfillment
-  - /handbook/engineering/ux/stage-group-ux-strategy/fulfillment/
-  target: /handbook/product/ux/stage-group-ux-strategy/fulfillment/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/jobs-to-be-done/mapping-jobs-to-be-done
-  - /handbook/engineering/ux/jobs-to-be-done/mapping-jobs-to-be-done/
-  target: /handbook/product/ux/jobs-to-be-done/mapping-jobs-to-be-done/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/jobs-to-be-done/prioritizing-jobs-to-be-done
-  - /handbook/engineering/ux/jobs-to-be-done/prioritizing-jobs-to-be-done/
-  target: /handbook/product/ux/jobs-to-be-done/prioritizing-jobs-to-be-done/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/jobs-to-be-done
-  - /handbook/engineering/ux/jobs-to-be-done/
-  target: /handbook/product/ux/jobs-to-be-done/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/jobs-to-be-done/deep-dive
-  - /handbook/engineering/ux/jobs-to-be-done/deep-dive/
-  target: /handbook/product/ux/jobs-to-be-done/deep-dive/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/learning-and-development
-  - /handbook/engineering/ux/learning-and-development/
-  target: /handbook/product/ux/learning-and-development/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/product-designer
-  - /handbook/engineering/ux/product-designer/
-  target: /handbook/product/ux/product-designer/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/product-designer/mr-reviews
-  - /handbook/engineering/ux/product-designer/mr-reviews/
-  target: /handbook/product/ux/product-designer/mr-reviews/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux
-  - /handbook/engineering/ux/
-  target: /handbook/product/ux/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/category-maturity-scorecards
-  - /handbook/engineering/ux/category-maturity-scorecards/
-  target: /handbook/product/ux/category-maturity-scorecards/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-department-workflow
-  - /handbook/engineering/ux/ux-department-workflow/
-  target: /handbook/product/ux/ux-department-workflow/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-department-workflow/ux-showcase
-  - /handbook/engineering/ux/ux-department-workflow/ux-showcase/
-  target: /handbook/product/ux/ux-department-workflow/ux-showcase/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-direction
-  - /handbook/engineering/ux/ux-direction/
-  target: /handbook/product/ux/ux-direction/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/attending-a-research-event
-  - /handbook/engineering/ux/ux-research-training/attending-a-research-event/
-  target: /handbook/product/ux/ux-research-training/attending-a-research-event/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/kano-model
-  - /handbook/engineering/ux/ux-research-training/kano-model/
-  target: /handbook/product/ux/ux-research-training/kano-model/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/tracking-research-velocity
-  - /handbook/engineering/ux/ux-research-training/tracking-research-velocity/
-  target: /handbook/product/ux/ux-research-training/tracking-research-velocity/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/writing-usability-testing-script
-  - /handbook/engineering/ux/ux-research-training/writing-usability-testing-script/
-  target: /handbook/product/ux/ux-research-training/writing-usability-testing-script/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/early-solution-validation-process-for-navigation
-  - /handbook/engineering/ux/ux-research-training/early-solution-validation-process-for-navigation/
-  target: /handbook/product/ux/ux-research-training/early-solution-validation-process-for-navigation/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/problem-validation-and-methods
-  - /handbook/engineering/ux/ux-research-training/problem-validation-and-methods/
-  target: /handbook/product/ux/ux-research-training/problem-validation-and-methods/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/choosing-a-research-methodology
-  - /handbook/engineering/ux/ux-research-training/choosing-a-research-methodology/
-  target: /handbook/product/ux/ux-research-training/choosing-a-research-methodology/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/user-story-mapping
-  - /handbook/engineering/ux/ux-research-training/user-story-mapping/
-  target: /handbook/product/ux/ux-research-training/user-story-mapping/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/longitudinal-studies
-  - /handbook/engineering/ux/ux-research-training/longitudinal-studies/
-  target: /handbook/product/ux/ux-research-training/longitudinal-studies/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/using-rite-to-test-navigation
-  - /handbook/engineering/ux/ux-research-training/using-rite-to-test-navigation/
-  target: /handbook/product/ux/ux-research-training/using-rite-to-test-navigation/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/research-prioritization/index.html
-  target: /handbook/product/ux/ux-research-training/research-prioritization/index.html
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/research-prioritization
-  - /handbook/engineering/ux/ux-research-training/research-prioritization/
-  target: /handbook/product/ux/ux-research-training/research-prioritization/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/usability-benchmarking
-  - /handbook/engineering/ux/ux-research-training/usability-benchmarking/
-  target: /handbook/product/ux/ux-research-training/usability-benchmarking/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/how-uxr-team-operates
-  - /handbook/engineering/ux/ux-research-training/how-uxr-team-operates/
-  target: /handbook/product/ux/ux-research-training/how-uxr-team-operates/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/foundational-research
-  - /handbook/engineering/ux/ux-research-training/foundational-research/
-  target: /handbook/product/ux/ux-research-training/foundational-research/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/analyzing-research-data
-  - /handbook/engineering/ux/ux-research-training/analyzing-research-data/
-  target: /handbook/product/ux/ux-research-training/analyzing-research-data/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/preference-testing
-  - /handbook/engineering/ux/ux-research-training/preference-testing/
-  target: /handbook/product/ux/ux-research-training/preference-testing/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/research-shadowing
-  - /handbook/engineering/ux/ux-research-training/research-shadowing/
-  target: /handbook/product/ux/ux-research-training/research-shadowing/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses
-  - /handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/
-  target: /handbook/product/ux/ux-research-training/defining-goals-objectives-and-hypotheses/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/recruiting-participants
-  - /handbook/engineering/ux/ux-research-training/recruiting-participants/
-  target: /handbook/product/ux/ux-research-training/recruiting-participants/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/recruiting-participants/common-screener
-  - /handbook/engineering/ux/ux-research-training/recruiting-participants/common-screener/
-  target: /handbook/product/ux/ux-research-training/recruiting-participants/common-screener/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/recruiting-participants/recruiting-email-tips
-  - /handbook/engineering/ux/ux-research-training/recruiting-participants/recruiting-email-tips/
-  target: /handbook/product/ux/ux-research-training/recruiting-participants/recruiting-email-tips/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/evaluating-navigation
-  - /handbook/engineering/ux/ux-research-training/evaluating-navigation/
-  target: /handbook/product/ux/ux-research-training/evaluating-navigation/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/ux-cloud-sandbox
-  - /handbook/engineering/ux/ux-research-training/ux-cloud-sandbox/
-  target: /handbook/product/ux/ux-research-training/ux-cloud-sandbox/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/facilitating-user-interviews
-  - /handbook/engineering/ux/ux-research-training/facilitating-user-interviews/
-  target: /handbook/product/ux/ux-research-training/facilitating-user-interviews/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/research-tools
-  - /handbook/engineering/ux/ux-research-training/research-tools/
-  target: /handbook/product/ux/ux-research-training/research-tools/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/community-contributions-for-actionable-insights
-  - /handbook/engineering/ux/ux-research-training/community-contributions-for-actionable-insights/
-  target: /handbook/product/ux/ux-research-training/community-contributions-for-actionable-insights/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/comparative-testing-for-navigation
-  - /handbook/engineering/ux/ux-research-training/comparative-testing-for-navigation/
-  target: /handbook/product/ux/ux-research-training/comparative-testing-for-navigation/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/solution-validation-and-methods
-  - /handbook/engineering/ux/ux-research-training/solution-validation-and-methods/
-  target: /handbook/product/ux/ux-research-training/solution-validation-and-methods/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/interview-carousel
-  - /handbook/engineering/ux/ux-research-training/interview-carousel/
-  target: /handbook/product/ux/ux-research-training/interview-carousel/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/research-insights
-  - /handbook/engineering/ux/ux-research-training/research-insights/
-  target: /handbook/product/ux/ux-research-training/research-insights/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/problem-validation-single-stage-group
-  - /handbook/engineering/ux/ux-research-training/problem-validation-single-stage-group/
-  target: /handbook/product/ux/ux-research-training/problem-validation-single-stage-group/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/collecting-useful-data
-  - /handbook/engineering/ux/ux-research-training/collecting-useful-data/
-  target: /handbook/product/ux/ux-research-training/collecting-useful-data/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/diary-studies
-  - /handbook/engineering/ux/ux-research-training/diary-studies/
-  target: /handbook/product/ux/ux-research-training/diary-studies/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/rite
-  - /handbook/engineering/ux/ux-research-training/rite/
-  target: /handbook/product/ux/ux-research-training/rite/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/ux-research-growth-and-development
-  - /handbook/engineering/ux/ux-research-training/ux-research-growth-and-development/
-  target: /handbook/product/ux/ux-research-training/ux-research-growth-and-development/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/first-click-testing
-  - /handbook/engineering/ux/ux-research-training/first-click-testing/
-  target: /handbook/product/ux/ux-research-training/first-click-testing/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/finding-saas-users
-  - /handbook/engineering/ux/ux-research-training/finding-saas-users/
-  target: /handbook/product/ux/ux-research-training/finding-saas-users/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/write-effective-screener
-  - /handbook/engineering/ux/ux-research-training/write-effective-screener/
-  target: /handbook/product/ux/ux-research-training/write-effective-screener/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/creating-first-click-study-qualtrics
-  - /handbook/engineering/ux/ux-research-training/creating-first-click-study-qualtrics/
-  target: /handbook/product/ux/ux-research-training/creating-first-click-study-qualtrics/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/ux-research-google-calendar
-  - /handbook/engineering/ux/ux-research-training/ux-research-google-calendar/
-  target: /handbook/product/ux/ux-research-training/ux-research-google-calendar/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/strategic-research-at-gitlab
-  - /handbook/engineering/ux/ux-research-training/strategic-research-at-gitlab/
-  target: /handbook/product/ux/ux-research-training/strategic-research-at-gitlab/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/finding-existing-research
-  - /handbook/engineering/ux/ux-research-training/finding-existing-research/
-  target: /handbook/product/ux/ux-research-training/finding-existing-research/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/quantitative-data
-  - /handbook/engineering/ux/ux-research-training/quantitative-data/
-  target: /handbook/product/ux/ux-research-training/quantitative-data/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/usability-testing
-  - /handbook/engineering/ux/ux-research-training/usability-testing/
-  target: /handbook/product/ux/ux-research-training/usability-testing/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/unmoderated-testing
-  - /handbook/engineering/ux/ux-research-training/unmoderated-testing/
-  target: /handbook/product/ux/ux-research-training/unmoderated-testing/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/tracking-research-projects
-  - /handbook/engineering/ux/ux-research-training/tracking-research-projects/
-  target: /handbook/product/ux/ux-research-training/tracking-research-projects/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/research-panel-management
-  - /handbook/engineering/ux/ux-research-training/research-panel-management/
-  target: /handbook/product/ux/ux-research-training/research-panel-management/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/ux-research-training/discussion-guide-user-interviews
-  - /handbook/engineering/ux/ux-research-training/discussion-guide-user-interviews/
-  target: /handbook/product/ux/ux-research-training/discussion-guide-user-interviews/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/technical-writing/workflow
-  - /handbook/engineering/ux/technical-writing/workflow/
-  target: /handbook/product/ux/technical-writing/workflow/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/technical-writing/fundamentals/examples.html
-  target: /handbook/product/ux/technical-writing/fundamentals/examples.html
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/technical-writing/fundamentals
-  - /handbook/engineering/ux/technical-writing/fundamentals/
-  target: /handbook/product/ux/technical-writing/fundamentals/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/technical-writing/hiring
-  - /handbook/engineering/ux/technical-writing/hiring/
-  target: /handbook/product/ux/technical-writing/hiring/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/technical-writing/setup
-  - /handbook/engineering/ux/technical-writing/setup/
-  target: /handbook/product/ux/technical-writing/setup/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/product-designer-onboarding
-  - /handbook/engineering/ux/product-designer-onboarding/
-  target: /handbook/product/ux/product-designer-onboarding/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/product-design/ux-roadmaps
-  - /handbook/engineering/ux/product-design/ux-roadmaps/
-  target: /handbook/product/ux/product-design/ux-roadmaps/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/product-design/product-design-manager.html
-  target: /handbook/product/ux/product-design/product-design-manager.html
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/product-design/hiring-product-designers.html
-  target: /handbook/product/ux/product-design/hiring-product-designers.html
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/product-design
-  - /handbook/engineering/ux/product-design/
-  target: /handbook/product/ux/product-design/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/persona-creation
-  - /handbook/engineering/ux/persona-creation/
-  target: /handbook/product/ux/persona-creation/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/collaborators-playbook
-  - /handbook/engineering/ux/collaborators-playbook/
-  target: /handbook/product/ux/collaborators-playbook/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/how-we-work/design-pair-rotation
-  - /handbook/engineering/ux/how-we-work/design-pair-rotation/
-  target: /handbook/product/ux/how-we-work/design-pair-rotation/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/how-we-work
-  - /handbook/engineering/ux/how-we-work/
-  target: /handbook/product/ux/how-we-work/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/sus-database
-  - /handbook/engineering/ux/sus-database/
-  target: /handbook/product/ux/sus-database/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/competitor-evaluations
-  - /handbook/engineering/ux/competitor-evaluations/
-  target: /handbook/product/ux/competitor-evaluations/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/thinkbig
-  - /handbook/engineering/ux/thinkbig/
-  target: /handbook/product/ux/thinkbig/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/design-sprint
-  - /handbook/engineering/ux/design-sprint/
-  target: /handbook/product/ux/design-sprint/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/performance-indicators/system-usability-scale/sus-outreach.html
-  target: /handbook/product/ux/performance-indicators/system-usability-scale/sus-outreach.html
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/performance-indicators/system-usability-scale
-  - /handbook/engineering/ux/performance-indicators/system-usability-scale/
-  target: /handbook/product/ux/performance-indicators/system-usability-scale/
-  comp_op: '='
-- sources:
-  - /handbook/engineering/ux/performance-indicators
-  - /handbook/engineering/ux/performance-indicators/
-  target: /handbook/product/ux/performance-indicators/
-  comp_op: '='
+  comp_op: '~'
