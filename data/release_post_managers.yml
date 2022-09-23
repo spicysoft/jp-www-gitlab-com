@@ -18,8 +18,8 @@ releases:
   tech-shadow: tbd
 - version: "15.8"
   date: "2023-01-22"
-  manager: tbd
-  manager-name: tbd
+  manager: hsutor
+  manager-name: Hannah Sutor
   manager-shadow: tbd
   structural_check: tbd
   messaging: BrianMason
@@ -31,7 +31,7 @@ releases:
   date: "2022-12-22"
   manager: dorrino
   manager-name: Dilan Orrino
-  manager-shadow: tbd
+  manager-shadow: hsutor
   structural_check: tbd
   messaging: supadhyaya
   messaging-shadow: tbd
