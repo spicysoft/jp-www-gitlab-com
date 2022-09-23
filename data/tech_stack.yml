@@ -525,7 +525,7 @@
   deprovisioner: null
   group_owner: People Ops
   group_owner_slack_channel: '#people-connect'
-  business_owner: Wendy Barnes
+  business_owner: Wendy Barnes, Pattie Egan
   technical_owner: Anesia Chan
   data_classification: Orange
   integration_method: SWA
@@ -1088,7 +1088,7 @@
     it easy to collect, understand and act on team member feedback. It helps improve
     engagement, the experience and effectiveness of every team member."
   access_to: Team Members
-  provisioner: "@anechan"
+  provisioner: "@Laura-Janssen @anechan"
   deprovisioner: null
   group_owner: People Ops
   group_owner_slack_channel: '#people-connect'
@@ -5060,11 +5060,11 @@
   subprocessor: false
   description: "Workday is used to store all team member information in one central location."
   access_to: Team Members
-  provisioner: "@nutaurus @anechan"
+  provisioner: "@Laura-Janssen @demina @anechan"
   deprovisioner: Deprovisioned through Okta
   group_owner: People Technology
   group_owner_slack_channel: '#people-connect'
-  business_owner: Wendy Barnes
+  business_owner: Wendy Barnes, Pattie Egan
   technical_owner: Anesia Chan
   data_classification: Orange
   integration_method: SAML
