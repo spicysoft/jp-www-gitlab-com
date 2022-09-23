@@ -29,10 +29,10 @@ The goals of this page are to:
 | Phase | Description |
 | ------ | ------ |
 | 0. [Application](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-0-application) | SheerId hosted application form is filled out for OSS and EDU. Startups applicants fill out Marketo Form.|
-| 1. [Verification](/handbook/marketing/community-relations/community-programs/automated-community-program/#phase-1-verification) | Automated verification by SheerID for EDU. Document review for OSS. Manual verification for Startups.|
+| 1. [Verification](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-1-verification) | Automated verification by SheerID for EDU. Document review for OSS. Manual verification for Startups.|
 | 2. [Booking](/handbook/marketing/community-relations/community-programs/community-program-applications/#phase-2-booking) | Success email directs applicant to a separate Community Programs  page for each program on the GitLab Customer Portal. Coupon code is entered during checkout. |
-| 3. [Provisioning](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-3-provisioning-and-phase-4-compliance) | Licenses are provisioned through the web direct process on the GitLab Customer Portal.|
-| 4. [Compliance](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-3-provisioning-and-phase-4-compliance) | Handled by Sales-Support and Billing Ops. |
+| 3. [Provisioning](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-3-provisioning) | Licenses are provisioned through the web direct process on the GitLab Customer Portal.|
+| 4. [Compliance](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-4-compliance) | Handled by Sales-Support and Billing Ops. |
 | 5. [Renewal](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-5-renewal) | Program members will repeat the process within 3-months of renewal. The renewal process is manual at this time. |
 | 6. [Support](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-5-renewal) | Each step of the automated application workflow has different set of potential errors and support flow.|
 

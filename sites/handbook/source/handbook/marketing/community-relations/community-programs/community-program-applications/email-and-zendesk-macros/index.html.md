@@ -1,7 +1,7 @@
 ---
 layout: handbook-page-toc
 title: "Email and Zendesk Macros"
-description: "This page holds the email templates used to interact with people who are intereted in our community programs."
+description: "This page holds the email templates used to interact with people who are interested in our community programs."
 ---
 
 ## On this page
@@ -31,7 +31,7 @@ If you end up using Gmail on a regular basis, consider adding the relevant templ
 Since this page is part of the community program application workflow, the following pages hold more context on when to use each of the macros and email templates:
 
  * [Community program workflows](/handbook/marketing/community-relations/community-programs/community-program-applications/) - this page holds the application workflow for the community programs.
- * [Common tasks](/handbook/marketing/community-relations/community-programs/automated-community-programs/community-program-applications/common-tasks/) - this page holds common requests, tasks, and errors related to the community applicaiton workflow.
+ * [Common tasks](/handbook/marketing/community-relations/community-programs/community-program-applications/common-tasks/) - this page holds common requests, tasks, and errors related to the community applicaiton workflow.
 
 
 # Zendesk Macros and Email Templates
@@ -446,7 +446,7 @@ Hello {{ticket.requester.first_name}},
 
 Thank you for your interest in GitLab and applying to our Education Program!
 
-In order to qualify for our Education Program, we need to verify that the Educational Institution you are applying on behalf of is a non-profit entity. Applications from for-profit educational entities do not qualify.  [Please see our handbook](/handbook/marketing/community-relations/education-program/#education-program-requirements) for more details on GitLab for Education Program requirements.
+In order to qualify for our Education Program, we need to verify that the Educational Institution you are applying on behalf of is a non-profit entity. Applications from for-profit educational entities do not qualify.  [Please see our handbook](/handbook/marketing/community-relations/education-program/) for more details on GitLab for Education Program requirements.
 
 Please respond to this email with proof that the Educational Institution you are applying on behalf of is a non-profit entity. Acceptable proof can consist of a webpage on your institution's domain or an official document.
 
@@ -465,7 +465,7 @@ Best regards,
 
 Hello {{ticket.requester.first_name}},
 
-Thank you for the additional details regarding your institution and proposed use of GitLab. Unfortunately, your application does not qualify for our GitLab for Education Program. Please see our [program requirements](https://about.gitlab.com/solutions/education/join/) and [our handbook](/handbook/marketing/community-relations/education-program/#education-program-requirements) for more details on the program requirements including the types of educational institutions that qualify and acceptable use cases. Please feel free to email us directly with questions.
+Thank you for the additional details regarding your institution and proposed use of GitLab. Unfortunately, your application does not qualify for our GitLab for Education Program. Please see our [program requirements](https://about.gitlab.com/solutions/education/join/) and [our handbook](/handbook/marketing/community-relations/education-program/) for more details on the program requirements including the types of educational institutions that qualify and acceptable use cases. Please feel free to email us directly with questions.
 
 We are happy to connect you with a sales representative within your region to discuss licensing options.
 
@@ -522,7 +522,7 @@ Best regards,
 
 Hello {{ticket.requester.first_name}},
 
-Thanks for your reply. In order to process your application we need more details on how the license will be used at your educational institution. Please see our [GitLab for Education Program requirements](https://about.gitlab.com/handbook/marketing/community-relations/education-program/#gitlab-for-education-program-requirements).
+Thanks for your reply. In order to process your application we need more details on how the license will be used at your educational institution. Please see our [GitLab for Education Program requirements](https://about.gitlab.com/handbook/marketing/community-relations/education-program/#-gitlab-for-education-program-requirements).
 
 In order to proceed:
 * Please reply to this email and **describes specifically how the license will be used at your educational institution**.
@@ -631,7 +631,7 @@ Thank you for being a valued GitLab Education Program member!
 
 In order to renew, please reply directly to this email with the following information:
  - The number of seats desired for the education license renewal.
- - Describe your use case for the education license. See the [GitLab for Education Program requirements](/handbook/marketing/community-relations/education-program/#education-program-requirements). Professional IT and infrastructure operations do not fall within the stated terms of the Education Program.
+ - Describe your use case for the education license. See the [GitLab for Education Program requirements](/handbook/marketing/community-relations/education-program/#gitlab-for-education-program-requirements). Professional IT and infrastructure operations do not fall within the stated terms of the Education Program.
  - Will the current account owner on the license stay the same? If not, please see the steps below for adding a new account owner.
 
 Steps for adding a new account owner:
@@ -1304,7 +1304,7 @@ We look forward to getting to know you better, welcome again to the GitLab Start
 
 
 # Non-profits Program (not active yet)
-We are currently exploring the creation of a non-profit program ([see handbook page](/handbook/marketing/community-relations/education-program/#non-profits) with more info). In the meantime, these responses help us respond to inquiries about the program's status.
+We are currently exploring the creation of a non-profit program ([see handbook page](/handbook/marketing/community-relations/education-program/) with more info). In the meantime, these responses help us respond to inquiries about the program's status.
 
 
 ### Email Response to request from Sales
@@ -1314,9 +1314,9 @@ Thanks for reaching out. This certainly does look like an interesting non-profit
 
 We currently do not have a formal non-profit program. Non-profit subscriptions are rarely granted as of now, and generally, the ones that are granted have a champion or approval from the E-group or Sales leadership. If you are able to obtain such support, we are able to help issue the license.
 
-[Here](/handbook/marketing/community-relations/education-program/#non-profits) is our handbook link.  Please let me know if you have any questions. At this time, I would recommend that they follow the issue in that handbook page and stay tuned. We hope to have more progress on this in the coming months.
+[Here](/handbook/marketing/community-relations/education-program/) is our handbook link.  Please let me know if you have any questions. At this time, I would recommend that they follow the issue in that handbook page and stay tuned. We hope to have more progress on this in the coming months.
 
-We are happy to send our [template non-profit](/handbook/marketing/community-relations/community-programs/community-program-applications/#rejecting-non-profits) response if you'd like.
+We are happy to send our [template non-profit](/handbook/marketing/community-relations/community-programs/community-program-applications/email-and-zendesk-macros/) response if you'd like.
 
 Best Regards,
 
