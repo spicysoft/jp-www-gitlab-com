@@ -93,7 +93,7 @@
   employee_or_customer_facing_app: null
   notes: null
   saas: null
-  handbook_link: "[ADP Guide for Pay Date](/handbook/finance/payroll/#pay-date) and [ADP Guide for New Hires](/handbook/finance/payroll/#us)"
+  handbook_link: "[ADP Guide for Pay Date](/handbook/finance/payroll/#pay-date), [ADP Guide for New Hires](/handbook/finance/payroll/#us) and [ADP Tech Stack Guide](handbook/finance/payroll/tech-stack-guide-adp)"
   google_group: null
 
 - title: Allocadia
