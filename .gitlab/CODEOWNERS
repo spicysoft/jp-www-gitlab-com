@@ -571,7 +571,10 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/gitaly/ @joshlambert @mjwood
 
 ^[Product - Fulfillment Section]
-/source/direction/fulfillment/ @ofernandez2 @tgolubeva @doniquesmit @courtmeddaugh
+/source/direction/fulfillment/ @ofernandez2 @tgolubeva @doniquesmit @courtmeddaugh @alex_martin
+/source/direction/fulfillment/utilization/ @ofernandez2 @doniquesmit
+/source/direction/fulfillment/purchase/ @ofernandez2 @alex_martin
+/source/direction/fulfillment/provision/ @ofernandez2 @courtmeddaugh
 
 ^[Product Section - ModelOps]
 /source/direction/data-science/
