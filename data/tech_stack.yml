@@ -3066,7 +3066,7 @@
   employee_or_customer_facing_app: null
   notes: null
   saas: null
-  handbook_link: null
+  handbook_link: "[Netuite Guide](/handbook/finance/accounting/finance-ops/tech-stack-guide-netsuite)"
   google_group: okta-netsuite-users@gitlab.com
 
 - title: Nira
