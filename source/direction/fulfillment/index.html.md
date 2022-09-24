@@ -232,30 +232,6 @@ See [Provision Direction](/direction/fulfillment/provision/) page for more infor
 
 [Utilization Direction](/direction/fulfillment/utilization/)
 
-The Utilization group is responsible for all usage reporting and management, usage admin controls, CI minute management, and storage management.
-
-Audience
-- Self-service customers
-- Sales assisted customers
-- Channel Partners and their customers
-
-Key responsibilities
-- Features related to tracking and visualization of seat usage, CI minutes and storage
-- Billable users, max users calculations in SM & SaaS
-- Emails/In-app notification related to consumption (users/CI/storage)
-- Create transparency for internal teams in customer subscription, billing, and licensing.
-- Reporting and managing of usage (users, storage, CI minutes, etc.)
-
-Example projects
-- Cost management 
-- Usage quota budgets
-- Storage Project
-- Billing admin console 
-
-KPIs
-- Number of add on transaction
-- SUS for usage reporting
-
 ### Fulfillment Platform Group
 
 Newly established in FY23, the Fulfillment Platform team aims to extract the complexity of our underlying billing infrastructure to help other Fulfillment teams build features more quickly. 
