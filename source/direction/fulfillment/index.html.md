@@ -258,22 +258,26 @@ KPIs
 
 ### Fulfillment Platform Group
 
-Newly established in FY23, the Fulfillment Platform team aims to extract the complexity of our underlying billing infrastructure to help other Fulfillment teams build features more quickly. 
+Newly established in FY23, the Fulfillment Platform team aims to extract the complexity of our underlying order-to-cash infrastructure to help other Fulfillment teams build features more quickly. 
  
 Audience
-- Order to Cash (O2C) teams (Fulfillment, Enterprise Apps, Field Operations)
+- Order to Cash (O2C) teams (Fulfillment, Enterprise Apps, Sales Systems, Field Operations)
 
 Key responsibilities
 - Ensuring reliable infrastructure for our Customers Portal
-- Consistent data models and integrations across our internal billing systems
+- Enables delivery of features through an automated deployment process
+- Add and set metrics, error budgets, alerts, and SLOs to CustomersDot
+- Consistent data architecture across our internal Order-to-Cash systems
+- Integration with Zuora
 - Change Management and SLAs for all Order-to-Cash systems
-- Updating downstream sales and marketing systems (SFDC, Marketo)
 - Modifying error logging
 
 Example projects
 - Infrastructure
-- Data Models
 - Change Management and SLOs
+- Upgrade CustomersDot to Zuora Orders API
+- Improve accuracy of determining subscription state using the Zuora Subscription API
+- Align to Zuora Billing Account as a Customer Account
 
 KPIs
 - Uptime/performance or change velocity
@@ -282,16 +286,19 @@ KPIs
 
 Audience
 - Channel Partners and their customers
-- Worldwide Channels team (Michelle Hodges’s team)
+- Worldwide Channels team
+- Order to Cash (O2C) teams (Fulfillment, Enterprise Apps, Sales Systems, Field Operations)
 
 Key Responsibilities
 - Net new channel sales
 - SM channel purchase flows (selecting plan, users)
 - Robust system integrations across CustomersDot / Zuora Billing / GitLab / Platypus
+- Integration with downstream sales and marketing systems (SFDC, Marketo)
 
 Example projects
 - E-Disty
 - Cloud Marketplaces 
+- License Usage Data in SFDC
 
 KPIs
 - Channel ARR
