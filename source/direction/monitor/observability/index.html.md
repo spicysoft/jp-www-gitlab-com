@@ -18,7 +18,7 @@ directly with the product managers for Monitor:Observability, feel free to reach
 
 [Observability](https://en.wikipedia.org/wiki/Observability) is a measure of how well internal states of a system can be inferred from knowledge of its external outputs. In the (recent) past, simply monitoring your application and related systems may have been sufficient, e.g. watching for specific metrics to track whether performance and health are within expectations. Today, with the rapid adoption of cloud-native technologies and distributed systems, it is no longer sufficient to only look for known indicators. An observable system is one that enables operators to efficiently drill in and understand what went wrong even for previously unencountered problems.
 
-GitLab's Observability solution is powered by two key platform capabilities, [GitLab Observability Platform](/platform) and the [GitLab Observability UI](/ui). Please visit their respective direction pages for more details.
+GitLab's Observability solution is powered by two key platform capabilities, [GitLab Observability Platform](./platform) and the [GitLab Observability UI](./ui). Please visit their respective direction pages for more details.
 
 ## Mission & Vision
 
