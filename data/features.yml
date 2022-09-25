@@ -10825,8 +10825,8 @@ features:
     solution: Release
     category:
       - secrets_management
-    gitlab_core: true
-    gitlab_starter: true
+    gitlab_core: false
+    gitlab_starter: false
     gitlab_premium: true
     gitlab_ultimate: true
     gitlab_com: true
