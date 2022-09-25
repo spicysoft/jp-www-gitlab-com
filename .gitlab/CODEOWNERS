@@ -202,20 +202,20 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 
 ^[Quality department]
 /sites/handbook/source/handbook/engineering/automation/ @meks @kwiebers @rymai
-/sites/handbook/source/handbook/engineering/quality/ @meks @nick_vh @kwiebers @tpazitny
-/sites/handbook/source/handbook/engineering/quality/performance-indicators/ @meks @kwiebers @tpazitny @nick_vh
-/sites/handbook/source/handbook/engineering/quality/issue-triage/ @meks @kwiebers @tpazitny @nick_vh
+/sites/handbook/source/handbook/engineering/quality/ @meks @cdeleon_gitlab @nick_vh @kwiebers @tpazitny
+/sites/handbook/source/handbook/engineering/quality/performance-indicators/ @meks @cdeleon_gitlab @kwiebers @tpazitny @nick_vh
+/sites/handbook/source/handbook/engineering/quality/issue-triage/ @meks @cdeleon_gitlab @kwiebers @tpazitny @nick_vh
 /sites/handbook/source/handbook/engineering/quality/merge-request-triage/ @cbacharakis @nick_vh @niskhakova @kwiebers @tpazitny
 /sites/handbook/source/handbook/engineering/quality/onboarding/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @kwiebers @ksvoboda
-/sites/handbook/source/handbook/engineering/quality/quality-engineering/ @at.ramya @jo_shih @vincywilson @tpazitny @kwiebers @ksvoboda
-/sites/handbook/source/handbook/engineering/quality/quality-engineering/quad-planning/ @at.ramya @jo_shih @vincywilson @tpazitny @ksvoboda
+/sites/handbook/source/handbook/engineering/quality/quality-engineering/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @kwiebers @ksvoboda
+/sites/handbook/source/handbook/engineering/quality/quality-engineering/quad-planning/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @ksvoboda
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/dev-qe-team/ @at.ramya
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/ops-qe-team/ @jo_shih
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/fulfillment-growth-qe-team/ @vincywilson
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/enablement-saas-platforms-qe-team/ @ksvoboda
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/sec-data-science-qe-team/ @vincywilson
 /sites/handbook/source/handbook/engineering/quality/engineering-productivity/ @kwiebers
-/sites/handbook/source/handbook/engineering/quality/engineering-analytics/ @meks @lmai1
+/sites/handbook/source/handbook/engineering/quality/engineering-analytics/ @meks @cdeleon_gitlab @lmai1
 /sites/handbook/source/handbook/engineering/quality/contributor-success/ @nick_vh
 
 ^[Security department]
