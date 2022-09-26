@@ -1,4 +1,11 @@
 recent_contributions:
+  - title: "Create and configure Your own GitLab Runner automatically on Gitpod"
+    contributor: Jean-Philippe Baconnais
+    type: Blog post
+    logo: /images/heroes/contribution-icons/blog.png
+    link: https://dev.to/zenika/create-and-configure-your-own-gitlab-runner-automatically-on-gitpod-27gg
+    date: 2022-09-26
+
   - title: "CI/CD docs for OIDC with Azure"
     contributor: Nico Meisenzahl
     type: Code
