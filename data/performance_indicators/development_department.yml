@@ -23,11 +23,9 @@
   is_key: true
   public: true
   health:
-    level: 3
+    level: 2
     reasons:
-    - We regressed above 20.  
-    - We see trending to go back below 20 and continue towards 0.
-    - We have moved to sub-department tracking.
+    - We are focused on improving our needed vulnerabilities requiring an SLA.  This metric will change in the next 90 days.
   sisense_data:
       chart: 13092814
       dashboard: 913607
@@ -45,12 +43,7 @@
   health:
     level: 2
     reasons:
-    - We have seen our MR Rate drop below the 7-9 range.
-    - We have seen impact from our focus on Reliability and Security (less MRs than feature development).
-    - We have seen impact form the war due to employees being unavailable to work and less focus on GitLab.
-    - We have focused on hiring and meeting our aspirational hiring goals.
-    - We have new hires starting who will start with lower productivity. 
-    - Improved results in March with April being comparable to February (both in rate and time)
+    - Plan is to change this metric to calculate the overall MR Rate again.  
   urls:
     - "/handbook/engineering/metrics/#merge-request-rate"
   sisense_data:
@@ -67,6 +60,7 @@
     level: 2
     reasons:
     - Currently following UX guidance for health where we are above target.  
+    - This metric may change as our usability strategy is being reviewed.  
   urls:
     - "/handbook/product/ux/performance-indicators/#ux-debt"
   sisense_data:
@@ -174,7 +168,8 @@
   health:
     level: 2
     reasons:
-      - Metric is new and is being monitored
+      - We have been consistently below 10% goal for 4 of the last 6 months.
+      - We will discuss having another review to encourage more recognition.
   sisense_data:
     chart: 11860249
     dashboard: 873088
@@ -184,21 +179,6 @@
         value: Department
       - name: Breakout_Division_Department
         value: Engineering - Development
-- name: Sales Renewal CSAT
-  base_path: "/handbook/engineering/development/performance-indicators/"
-  definition: Can we improve the sales renewal process to meet a 92% satisfaction
-    rating from internal sales teams?
-  target: Above 92%
-  org: Development Department
-  is_key: true
-  health:
-    level: 3
-    reasons:
-    - We've been consistently tracking at above 92% for the financial quarter.
-  sisense_data:
-    chart: 9257321
-    dashboard: 705845
-    embed: v2
 - name: Open MR Review Time (OMRT)
   base_path: "/handbook/engineering/development/performance-indicators/"
   definition: We want to be more intuitive with calculating how long it takes an MR in review state. Open MR Review Time (OMRT) measures the median time of all open MRs in review as of a specific date. In other words, on any given day, we calculate the number of open MRs in review and median time in review state for those MRs at that point in time. MRs are considered in review at the point when a review is requested on an MR. This dataset is filtered for MRs authored by team members in the Development Department.
@@ -208,8 +188,8 @@
   health:
     level: 3
     reasons:
-    - Usually has spike in mid-December to early January due to number of working days and holidays.
-    - Changes for compliance may affect this metric in the future.  We will monitor more closely.  
+    - Changes for compliance (segregations of duties) had a short term effect.  It increased short term median by ~1.5 days. 
+    - We will continue to monitor to see if this is a long term effect.  
   sisense_data:
     chart: 11896976
     dashboard: 871128
@@ -240,8 +220,8 @@
   health:
     level: 2
     reasons:
-    - Age will adjust down again as we open Q4 positions.  
-    - We do not anticipate going below goal this year.
+    - Need to investigate whether evergreen and long sought after positions are affecting this metric.  Median (with evergreen) in late september was 81 days.
+    - We do not anticipate going below goal this year. As we close out positions if new ones are not opened the metric may vary heavily.
   sisense_data:
       chart: 12847712
       dashboard: 929641
@@ -363,8 +343,8 @@
     level: 2
     reasons:
     - Not enough trainees are converted into maintainers
-    - Recent downward trends due to attrition
-    - We have started a [maintainership working group](https://about.gitlab.com/company/team/structure/working-groups/maintainership/)
+    - Have seen recent improvements with making it easier to become maintainer
+    - We have continued a [maintainership working group](https://about.gitlab.com/company/team/structure/working-groups/maintainership/)
   sisense_data:
     chart: 8842432
     dashboard: 475647
@@ -462,8 +442,7 @@
   health:
     level: 3
     reasons:
-      - Metric is new and is being monitored
-      - Since July per plan, we've been increasing the number of promotions.
+      - We are coming in line with promotion level goals.  
   sisense_data:
     chart: 11860231
     dashboard: 873087
