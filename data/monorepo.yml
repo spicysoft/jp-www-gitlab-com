@@ -200,14 +200,9 @@ uncategorized:
     - work-from-home-field-guide
     # Files - note that (unlike shared_files) these should NOT have any extra extensions like `haml`, only what will be in the actual URL path:
     - 404.html
-    - GitLabEvent.ics
-    - State_of_Your_Territory.png
     - atom.xml
-    - expensify.txt
-    - feature-portland.jpg
     - hotjar.txt
     - index.html
-    - mindmap.txt
     - releases.xml
     - robots.txt
     - roulette.json
@@ -218,7 +213,6 @@ uncategorized:
     - security-releases.xml
     - sitemap.xml
     - team.json
-    - unnamed.png
     - all-releases.xml
     - googlefb840fa97e1634e7.html
   development_paths:
