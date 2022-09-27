@@ -1358,7 +1358,14 @@ When a GitLab Team Member comes across an ask or material (MR, handbook, etc.) t
 
 ##### 再現性 {#reproducibility}
 {:.no_toc}
-Enable everybody involved to come to the same conclusion as you. This not only involves [reasoning](#say-why-not-just-what), but also providing, for example: raw data and not just plots; scripts to automate tasks and not just the work they have done; and documenting steps while analyzing a problem. Do your best to make the line of thinking transparent to others, even [if they may disagree](/handbook/leadership/#making-decisions).
+関係者のだれもが自分と同じ結論に到達できるようにしてください
+
+[理由を言う](#say-why-not-just-what)だけではなく、例えば次のようなことが含まれます。
+結論への筋道だけでなく生のデータを提供する。
+自動化してただ作業を終わらせるだけではなく、タスクを自動化するスクリプトも提供する。
+問題を分析するだけではなく、問題分析の手順も文書化する。
+たとえ周囲から[異論があった](/handbook/leadership/#making-decisions)としても、
+考えてきた筋道を開示するように最善を尽くしてください
 
 ##### 透明性コンピテンシー {#transparency-competency}
 {:#transparency-competency .no_toc}
