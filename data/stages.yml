@@ -1428,7 +1428,7 @@ stages:
           - Neil McCorrison
         be_team_tag: Govern:Threat Insights BE Team
         fe_team_tag: Govern:Threat Insights FE Team
-        support: Greg Myers
+        support: Gerardo Gutierrez
         appsec_engineer: Nikhil George
         pdm:
           - Justin Mandell
