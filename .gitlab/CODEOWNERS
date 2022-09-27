@@ -301,16 +301,10 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 ^[Legal]
 /sites/handbook/source/handbook/legal/gitlab-code-of-business-conduct-and-ethics/ @robin
 /sites/handbook/source/handbook/legal/ @robin
-/sites/uncategorized/source/includes/terms/consultancy.haml @robin
-/sites/uncategorized/source/includes/terms/edu-oss.haml @robin
-/sites/uncategorized/source/includes/terms/gitlab-com.haml @robin
 /sites/uncategorized/source/privacy/ @robin
 
 ^[Learn at gitlab]
 /source/images/learn/ @cmestel
-/sites/uncategorized/source/learn/ @cmestel
-/sites/uncategorized/source/includes/components/video-carousel/learn-video-carousel-modal.html.haml @cmestel
-/sites/uncategorized/source/includes/components/video-carousel/learn-video-item.html.haml @cmestel
 
 ^[Marketing]
 /sites/uncategorized/source/index.html.haml @akramer @mpreuss22
@@ -420,8 +414,6 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/marketing/blog/unfiltered/ @vsilverthorne @akramer
 /sites/handbook/source/handbook/marketing/blog/release-posts/ @fseifoddini @brhea
 /source/images/heroes/ @johncoghlan
-/sites/uncategorized/source/includes/customers/ @FionaOKeeffe @lclymer
-/sites/uncategorized/source/includes/contact-sales-public-sector.html.haml @traci @mpreuss22
 /sites/uncategorized/source/includes/contact-sales.html.haml @mpreuss22
 /sites/uncategorized/source/resources/ @jgragnola
 /sites/uncategorized/source/solutions/ @supadhyaya @dsteer @mpreuss22
