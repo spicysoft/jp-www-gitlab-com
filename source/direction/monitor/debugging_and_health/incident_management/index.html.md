@@ -21,7 +21,7 @@ Check out this short demo that highlights what we've built so far.
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="https://www.youtube-nocookie.com/embed/MIjGyoTh7hQ" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/ResCq5DsjME" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
 
