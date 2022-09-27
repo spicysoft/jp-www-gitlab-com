@@ -920,7 +920,6 @@ stages:
         be_team_tag: Secure:Static Analysis BE Team
         fe_team_tag: Secure:Static Analysis FE Team
         support:
-          - Greg Myers
           - Eric Rosenberg
         appsec_engineer: Nikhil George
         pdm:
@@ -1039,7 +1038,7 @@ stages:
         pmm: Cindy Blake
         backend_engineering_manager: Mark Art
         be_team_tag: Secure:Vulnerability Research BE Team
-        support: Greg Myers
+        support: TBD
         appsec_engineer: Nikhil George
         tech_writer: Clayton Cornell
         cs_team_tag: Vulnerability Research Group CS Stable Counterpart
