@@ -1616,9 +1616,9 @@ dependency_management:
   direction: /direction/govern/threat_insights/dependency_management/
   roi: false
   available: 2019-06-22
-  viable:
-  complete:
-  lovable:
+  viable: 2022-09-01
+  complete: 2023-10-22
+  lovable: 2024-10-22
   maturity: viable
   new_maturity: true
   marketing: true
