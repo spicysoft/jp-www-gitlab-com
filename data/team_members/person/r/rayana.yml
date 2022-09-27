@@ -2,25 +2,21 @@
 name: Rayana Verissimo
 locality:
 country: Remote
-role: <a href="/job-families/engineering/product-design-management/#product-design-manager">Product Design
-  Manager</a>
+role: <a href="/job-families/engineering/product-design-management/#product-design-manager">Product
+  Design Manager</a>
 reports_to: valerie
 picture: rayanaverissimo.png
 twitter: hellorayana
 gitlab: rayana
 departments:
 - UX Department
-
-specialty:
-- Verify
-- Package
-- Release
-
+specialty: Verify, Package, Release
 projects:
   gitlab-design: maintainer
   design.gitlab.com: maintainer UX
   gitlab-ui: reviewer UX
-expertise: '<li><a href="https://docs.gitlab.com/ee/user/project/releases/">Release</a> <a href="/company/team/structure/#expert">expert</a></li>
+expertise: '<li><a href="https://docs.gitlab.com/ee/user/project/releases/">Release</a>
+  <a href="/company/team/structure/#expert">expert</a></li>
 
   '
 story: |
