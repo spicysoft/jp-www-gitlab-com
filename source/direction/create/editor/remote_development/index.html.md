@@ -12,7 +12,7 @@ canonical_path: "/direction/create/editor/remote_development/"
 
 | Section | Stage | Maturity | Last Reviewed |
 | --- | --- | --- | --- |
-| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Planned](/direction/maturity/) | 2022-09-13 |
+| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Planned](/direction/maturity/) | 2022-09-27 |
 
 ### Introduction and how you can help
 
@@ -101,9 +101,29 @@ The major focus areas right now are:
 1. Use a Devfile that describes the components, credentials, and configuration of the development environments to provision a container on a Kubernetes cluster
 1. Create a dashboard for managing running environments
 
+**Eclipse Che**
+
+Eclipse Che is an open source, Kubernetes-native platform that provides container-based developer workspaces capable of running multiple browser-based IDEs and extensible through a flexible plug-in architecture. Che offers many of the componenets necessary to provide a complete remote development solution within GitLab. Our initial iterations will focus on integrating with Che as the primary backend component for defining, provisioning, and managing the remote environment while we build out custom UI in GitLab for configuring and monitoring your environments. 
+
+**Bring-your-own Cloud**
+
+Our initial iterations will be focused on integrating with existing cloud providers like Amazon Web Services (AWS), Google Cloud, or Microsoft Azure to provide a solution for those who already have access to cloud compute. We will eventually look to offer a fully-managed option within GitLab. This is likely to be provided as a service billed based on consumption, much like our [Runner SaaS](/direction/verify/runner_saas) offering. 
+
+**Packaging and Pricing**
+
+Remote Developement as a category will be a multi-level offering, providing value across all tiers and distributions. 
+
+**Free tiers** will be able to securely connect the Web IDE to a remote environment that is manually configured with a compatible code server and authentication token. We will provide detailed documentation and a configuration script to reduce friction in the configuration of the server.
+
+In addition, **Premium tiers** will be able to define an environment as code in a devfile, use that file to provision remote environments on an existing cloud infrastructure, and monitor multiple environments from a GitLab dashboard. Team leads or DevOps Engineers will be able to define a standardized environment across their organization and improve team efficiency.
+
+Eventually, **Ultimate tiers** will have access to advanced monitoring and auditing tools, providing insight into usage across the organization and enforcing security best practices through development tooling. 
+
+_Note: Our pricing strategy is still being researched and validated. This strategy may be subject to change._
+
 #### What is not planned right now
  
- While we want to provide an editor-agnostic solution, our initial iterations will focus on support for VS Code. The vast majority of developers are using VS Code and facilitating the connection between a VS Code client and host simplifies the architecture. Support for vim, JetBrains editors, Xcode, or other IDEs will come as the category reaches `Complete` or `Loveable` maturity. 
+While we want to provide an editor-agnostic solution, our initial iterations will focus on support for VS Code. The vast majority of developers are using VS Code and facilitating the connection between a VS Code client and host simplifies the architecture. Support for vim, JetBrains editors, Xcode, or other IDEs will come as the category reaches `Complete` or `Loveable` maturity. 
 
 #### Maturity plan 
 
