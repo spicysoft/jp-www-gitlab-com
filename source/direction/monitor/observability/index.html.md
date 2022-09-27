@@ -84,31 +84,15 @@ A common interface, and most importantly a common collaboration space is key to 
 
 ## Video FAQ
 
-##### Is this the way to deploy the Observability Component?
-No this video is a demo of the local development environment. A new video will be posted soon using our terraform installer to GCP.
-
-##### API credentials are now linked to personal GitLab account, are the plans using the GitLab Agent permissions?
-That is something we can discuss with the GitLab Agent team of course.
-
-##### The users now need Kubectl, are there plans to only need the GitLab interface by leveraging the GitLab Agent?
-The users don't need kubectl, this is only because the above demo is for a development environment. The fact that we use Kubernetes to run the observability and Clickhouse is transparent to the end user.
-
-##### Why does the user have to press an enable button? What is preventing us from automatically enabling it?
-This will be automatic in the future and just the current state of the development code.
-
-##### What is the plan to have the Grafana interface iframed in GitLab instead of completely separate?
-This will be worked on here: [Integrating GitLab Observability UI (provided by Opstrace) into GitLab UI as an Iframe
-](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1743)
-
-##### Can we add to API key to Graphana automatically?
-Yes this will be automatic (just like the GitLab pages one).
-
-##### Is it possible to replace the docker compose step with something part of the initial helm chart? Or is this for the example app that generates data?
-It's an example app. docker compose is only for deploying a local test app for testing this during dev and demos. The actual system is deployed with terraform and can be wrapped in helm in the future.
-
-##### Are datasources going to be added automatically?
-Yes of course. As a general rule we don't want to leave anything to the user that could be done for them.
-
+1. **Is this the way to deploy the Observability Component?** _No this video is a demo of the local development environment. A new video will be posted soon using our terraform installer to GCP._
+1. **API credentials are now linked to personal GitLab account, are the plans using the GitLab Agent permissions?** _That is something we can discuss with the GitLab Agent team of course._
+1. **The users now need Kubectl, are there plans to only need the GitLab interface by leveraging the GitLab Agent?** _The users don't need kubectl, this is only because the above demo is for a development environment. The fact that we use Kubernetes to run the observability and Clickhouse is transparent to the end user._
+1. **Why does the user have to press an enable button? What is preventing us from automatically enabling it?** _This will be automatic in the future and just the current state of the development code._
+1. **What is the plan to have the Grafana interface iframed in GitLab instead of completely separate?** _This will be worked on here: [Integrating GitLab Observability UI (provided by Opstrace) into GitLab UI as an Iframe
+](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1743)_
+1. **Can we add to API key to Graphana automatically?** _Yes this will be automatic (just like the GitLab pages one)._
+1. **Is it possible to replace the docker compose step with something part of the initial helm chart? Or is this for the example app that generates data?** _It's an example app. docker compose is only for deploying a local test app for testing this during dev and demos. The actual system is deployed with terraform and can be wrapped in helm in the future._
+1. **Are datasources going to be added automatically?** _Yes of course. As a general rule we don't want to leave anything to the user that could be done for them._
 
 ## Performance Indicators
 The Monitor:Observability will work to help all GitLab customers Monitor their apps by providing a simple on-by-default observability stack. We'll focus first on more users, and more contributors' adoption in our [dual flywheel strategy](/company/strategy/#dual-flywheels). We'll know if we are trending in the right direction by looking at the Monitor:Observability Monthly Active Users adoption, which will grow if we are providing value to our users. 
