@@ -16,7 +16,7 @@ Data is everywhere. Whether explicitly calculated and collected, or generated au
 
 ### What is the GitLab Observability UI?
 
-GitLab Observability UI was created in 2022 as a fork of [Grafana 7](https://github.com/grafana/grafana). The reason we forked Grafana - add reasons
+GitLab Observability UI was created in 2022 as a fork of [Grafana 7](https://github.com/grafana/grafana). To learn more about why we forked Grafana, check out [this](https://opstrace.com/blog/gitlabobsvervabilityui#new-observability-user-interface) blog post.
 
 ## Mission & Vision
 
