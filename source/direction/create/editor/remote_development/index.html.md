@@ -46,7 +46,13 @@ Remote Development, as the name suggests, directly targets software developers a
 
 - **[Devon (DevOps Engineer):](/handbook/product/personas/#devon-devops-engineer)** targets engineers tasked with supporting and enabling software teams. Their tasks often revolve around platform creation and maintenance, where [GitOps](/topics/gitops/)] workflows are crucial.
 
-<!-- ### Challenges to address -->
+### Challenges to address
+
+As we bring this feature to a viable maturity level, we'll have to tackle these major challenges: 
+
+1. How do we move away from the project-centric scope and enable a workflow that lets you work with the Web IDE across multiple projects or groups? How does that context change when you connect to a remote development environment?
+1. How can we support user-level, project-level, and instance-level editor configuration settings and what happens when they conflict?
+1. Similarly, how do we support an extensible IDE at the user or project level but gracefully handle conflicts when connecting to a remote host pre-configured with extensions and potentially with policies on whether extensions are even allowed to be installed? 
 
 <!-- - What needs, goals, or jobs to be done do the users have?
 - How do users address these challenges today? What products or work-arounds are utilized?
@@ -108,6 +114,10 @@ Eclipse Che is an open source, Kubernetes-native platform that provides containe
 **Bring-your-own Cloud**
 
 Our initial iterations will be focused on integrating with existing cloud providers like Amazon Web Services (AWS), Google Cloud, or Microsoft Azure to provide a solution for those who already have access to cloud compute. We will eventually look to offer a fully-managed option within GitLab. This is likely to be provided as a service billed based on consumption, much like our [Runner SaaS](/direction/verify/runner_saas) offering. 
+
+![Illustrative diagram of the remote development architecture](/source/images/direction/create/editor-remote-dev-diagram.png)
+
+_This high-level diagram illustrates how the components of the remote development offering fit together._ 
 
 **Packaging and Pricing**
 
