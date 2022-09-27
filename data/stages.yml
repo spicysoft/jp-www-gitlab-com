@@ -2056,6 +2056,7 @@ stages:
         fe_team_tag: Geo FE Team
         support:
           - Bo Carbonell
+          - Łukasz Korbasiewicz
         appsec_engineer: Kevin Morrison
         pdm:
           - Marcel van Remmerden
