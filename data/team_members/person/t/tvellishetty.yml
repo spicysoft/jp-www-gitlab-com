@@ -20,9 +20,6 @@ departments:
 projects:
   gitlab:
   - reviewer backend
-  - reviewer product_intelligence
-  version-gitlab-com:
-  - reviewer backend
   customers-app:
   - reviewer backend
 specialty: Fulfillment Platform
