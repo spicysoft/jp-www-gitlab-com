@@ -1455,7 +1455,7 @@ stages:
         name: Compliance
         pm: Sam Kerr
         focus: Govern Compliance Paid GMAU
-        pmm: Cindy Blake
+        pmm: TBD
         cm: Suri Patel
         em: Nathan Rosandich
         be_team_tag: Govern:Compliance BE Team
@@ -1495,7 +1495,7 @@ stages:
     direction: /direction/analytics/
     marketing: false
     tw: true
-    pm: Kenny Johnston
+    pm: Sam Kerr
     established: 2022
     related:
       - "monitor"
@@ -1510,7 +1510,7 @@ stages:
         direction: /direction/product-intelligence/
         handbook: engineering/development/analytics/product-intelligence
         pm: Amanda Rueda
-        pmm: Cormac Foster
+        pmm: TBD
         cm: Suri Patel
         backend_engineering_manager: Dennis Tang
         support: TBD
