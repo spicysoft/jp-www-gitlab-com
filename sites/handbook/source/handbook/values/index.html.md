@@ -1333,7 +1333,13 @@ By having most company communications and work artifacts be public to the Intern
 
 ##### 見つけやすさ {#findability}
 {:.no_toc}
-Our transparency value means more than just making information accessible to all. In order to [improve performance](https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture) it's important that we not only ensure information is accessible, but also ensure it flows to the correct places and is [findable](https://en.wikipedia.org/wiki/Findability) by those who need it. Focusing on information flow will ensure you, for example, utilize [multi-modal communication](/handbook/communication/#multimodal-communication), or that you keep your [stakeholders informed of changes](/handbook/product/product-processes/#updated-ssot-for-stakeholder-collaboration) by posting links to MRs in Slack.
+透明性というバリューは、単にすべての人が情報にアクセスできればいいというものではありません。
+[パフォーマンスを向上させる](https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture)ためには、
+情報にアクセスできるようにするだけでなく、
+情報が正しい場所に届き、必要とする人が[見つけ出せる](https://en.wikipedia.org/wiki/Findability)ようにすることが重要です。
+情報の流れという視点があれば、
+例えば、[マルチモーダルなコミュニケーション](/handbook/communication/#multimodal-communication)を活用したり、
+SlackでMRへのリンクを貼って[ステークホルダーへ変更点を伝える](/handbook/product/product-processes/#updated-ssot for-stakeholder-collaboration)ことの必要性を理解できるでしょう。
 
 ##### 何をするかだけでなく、なぜするかを伝える {#say-why-not-just-what}
 {:.no_toc}
