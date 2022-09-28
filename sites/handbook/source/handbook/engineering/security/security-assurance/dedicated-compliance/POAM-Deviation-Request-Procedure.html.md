@@ -31,17 +31,22 @@ Inline with GitLab's regulatory obligations, changes to [controlled documents](h
 </div>
 
 ## Purpose
-In accordance with expectations set by the FedRAMP PMO, GitLab must follow a formal process to manage vulnerability deviation requests (DR) to the [GitLab POA&M (internal only)](https://docs.google.com/spreadsheets/d/1Tj3_vqNp34CSIHZsiSI0eM2zdfG574CD/edit?usp=sharing&ouid=107738356047141217629&rtpof=true&sd=true). Deviation requests for risk adjustments, false positives, and operational requirements require Authorizing Official (AO) approval.  
+In accordance with expectations set by the FedRAMP PMO, GitLab must follow a formal process to track and request approval from our sponsoring Agency Authorizing Official (AO) for any vulnerabilities that are not [remediated within SLAs](https://about.gitlab.com/handbook/engineering/security/threat-management/vulnerability-management/#remediation-slas). These are called vulnerability Deviation Requests (DR) and are formally reported to our AO every month using [GitLab's Plan of Action & Milestones (POA&M) (internal only)](https://docs.google.com/spreadsheets/d/1Tj3_vqNp34CSIHZsiSI0eM2zdfG574CD/edit?usp=sharing&ouid=107738356047141217629&rtpof=true&sd=true). Deviation requests for risk adjustments (severity downgrades), false positives, and operational requirements require Authorizing Official (AO) approval.
 
 ## Scope
-Deviations to control findings and vulnerabilities impactful to the [FedRAMP production environment](https://www.fedramp.gov/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf) (authorization boundary) to include:
+Vulnerabilities (CVEs) impactful to the [FedRAMP production environment](https://internal-handbook.gitlab.io/handbook/engineering/fedramp-compliance/#system-architecture) (authorization boundary) to include:
 - False positives 
 - Risk adjustments 
 - Operational requirements
 - Vendor dependencies 
 
-Not in scope:
-- Date adjustments (not allowed)
+**Assets:**
+- Container images (including base OS image and installed dependencies) for CNG `-fips` tag, secure analyzers with `-fips`, and GitLab Dedicated scope
+  - Detected by container scans and dependency scans
+- Host OS (EC2 instances such as Gitaly and Consul, kubernetes (EKS) worker nodes)
+  - Detected by dependency scans and in-boundary Tenable.sc
+- Web application (GitLab Rails/puma) only if confirmed CVE (as opposed to CWE)
+  - In-boundary Acunetix (GitLab DAST only detects CWEs)
 
 ## Roles & Responsibilities
 
@@ -53,12 +58,12 @@ Not in scope:
 | Authorizing official (AO) | Approve or deny DR (ultimate decision maker) |
 
 ## Procedure
-Anyone at GitLab can submit a deviation request (DR) via a [GitLab issue in this private project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance/poam-deviation-requests). Deviation requests must be submitted in a timely manner and should never be used as a method to avoid late SLAs. 
+Anyone at GitLab can submit a deviation request (DR) via a [GitLab issue in this private project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance/poam-deviation-requests). DRs must be submitted in a timely manner and should never be used as a method to avoid late SLAs. All DRs are reviewed and approved by security, compliance, and our AO and they must meet the definitions and critieria defined within the issue templates.
 
-To open the DR the applicable issue template must be selected and all information must be completed prior to submitting the issue for internal review. Each DR will undergo three rounds of review:
+To open a DR the applicable issue template must be selected and all information must be completed prior to submitting the issue for internal review. Each DR will undergo three rounds of review:
 
 1. First a security technical review will be completed to ensure the DR is justified and there are no alternative options. 
-1. Second an ISSO review will be completed to determine the level of impact the DR will have on security controls, compensating control opportunities and, if approved, upgrade to the GitLab POA&M.
+1. Second a compliance review will be completed to determine the level of impact the DR will have on security controls, compensating control opportunities and, if approved, upgrade to the GitLab POA&M.
 1. Finally an [authorizing official (AO)](https://csrc.nist.gov/glossary/term/authorizing_official) from our sponsoring Agency will review the request in accordance with the [Continuous Monitoring (ConMon) Guidance](https://www.fedramp.gov/assets/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf). This is the ultimate decision maker. Note: Risk acceptance by GitLab (the business) is not allowed (i.e. we cannot ignore a legitimate vulnerability) as this responsibility lays with the AO.
 
 If denied, a remediation plan must be developed and this item will remain on the POA&M. 
@@ -76,6 +81,7 @@ The following definitions were adopted from the FedRAMP PMO:
 - [**Risk adjustments**](https://www.fedramp.gov/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx): A reduction in the scanner-cited risk level of a finding. Accomplished through existing or new compensating controls that reduce likelihood and/or impact of exploitation. 
 - [**Operational requirements**](https://www.fedramp.gov/assets/resources/templates/FedRAMP-Vulnerability-Deviation-Request-Form.xlsx): A finding that cannot be remediated, often because the system will not function as intended, or because a 3rd party/vendor explicitly indicated it does not intend to offer a fix to their product. FedRAMP will not approve an OR for a High vulnerability; however, the risk may be mitigated and adjusted accordingly. 
 - [**Vendor dependencies**](https://www.fedramp.gov/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf): The remediation of the weakness required by the action of a third party vendor or actively maintained open source project other than GitLab (e.g., through the issuing of a patch that is not yet released). We are required to check the status of the vendor’s remedy at least every 30 days. As long as the fix is still pending from the vendor, and we have checked-in within 30 days of POA&M submission, FedRAMP will not count the entry as late.
+  - Important Note: It is possible for a vulnerability to be both a vendor dependency and have a risk adjustment. FedRAMP requires that Critical/High severity vendor dependencies  be downgraded to a Moderate by putting in place (or specifying existing) compensating controls. In this scenario, the DR issue template for Risk Adjustment should be used, and the `FedRAMP Vendor Dependency` label also applied.
 
 ### Workflow Labels
 
@@ -87,10 +93,11 @@ The following definitions were adopted from the FedRAMP PMO:
 | 4 | Security Compliance reviews and if approved, tracks vulnerability deviation on POA&M and discusses with Authorizing Official during next monthly meeting | If approved _label remains unchanged_ or if denied `FedRAMP DR Status::Denied` | If approved `FedRAMP DR Status::AO review`; If denied `FedRAMP DR Status::Denied` |
 | 5 | Security Compliance seeks Authorizing Official approval during next monthly meeting | If approved `FedRAMP DR Status::Approved`; If denied `FedRAMP DR Status::Denied` | If approved `FedRAMP DR Status::AO approved`; If denied `FedRAMP DR Status::AO denied` |
 
-
-### Workflow
-
-
+#### Grouping Multiple Vulnerabilities in a Deviation Request
+Multiple occurences of the same vulnerability (e.g. across different container images/packages) can be grouped in a single DR if they are Vendor Dependencies for the same container image or package version (e.g. Red Hat ubi8 version 8.6-latest). For other DR types, vulnerabilities can be grouped if **all** of the following criteria are met:
+- The DR is specific to a single unique vulnerability (CVE) impacting multiple images/packages
+- All vulnerabilities have the same DR type and justification (e.g. all are false positives in RedHat ubi8 base image used by multiple GitLab container images)
+- The DR makes it clear which GitLab application components are impacted (for dependencies, specify all CNG container images or omnibus components that are impacted)
 
 ## Exceptions
 There are no exceptions allowed to this procedure. 
@@ -103,4 +110,4 @@ There are no exceptions allowed to this procedure.
 - [**Plan of Action & Milestones (POA&M)**](https://www.fedramp.gov/assets/resources/documents/CSP_POAM_Template_Completion_Guide.pdf): A FedRAMP-required .xlsx template used to track and share security findings and remediation plans with GitLab's Authorizing Official.
 - [**Authorizing Official (AO)**](https://www.fedramp.gov/agency-authorization/): A senior (federal) official (usually CISO/CIO or their delegated team) with the authority to formally assume responsibility for operating an information system at an acceptable level of risk to organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, and the nation.
 - [**Authorization Boundary**](https://csrc.nist.gov/glossary/term/security_authorization_boundary): All components of an information system to be authorized for operation by an authorizing official and excludes separately authorized systems, to which the information system is connected.
-- [[Information System Security Officer (ISSO)](https://csrc.nist.gov/glossary/term/information_system_security_officer)]: GitLab individual with assigned responsibility for maintaining the appropriate operational security posture for an information system or program.
+- [**Information System Security Officer (ISSO)**](https://csrc.nist.gov/glossary/term/information_system_security_officer): GitLab individual with assigned responsibility for maintaining the appropriate operational security posture for an information system or program.
