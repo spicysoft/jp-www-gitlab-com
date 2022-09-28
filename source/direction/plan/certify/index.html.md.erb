@@ -10,7 +10,7 @@ canonical_path: "/direction/plan/certify/"
 
 ## Certify Group
 
-**Last Updated:** 2022-09-06
+**Last Updated:** 2022-09-19
 
 This is the direction page for the Certify group, which is part of the [Plan stage](/direction/plan/) of the DevOps life cycle and is resposible for the following categories:
 
@@ -19,6 +19,24 @@ This is the direction page for the Certify group, which is part of the [Plan sta
 | Requirements Management | See the [Requirements Management](#requirements-management) section | Manage functional requirements within GitLab | [minimal](/direction/maturity/) |
 | Quality Management | See the [Quality Management](#quality-management) section | Manage and trace test cases within GitLab | [minimal](/direction/maturity/) |
 | Service Desk | See the [Service Desk](#service-desk) section | Collaborate with users within GitLab | [viable](/direction/maturity/) |
+
+### Team Members
+
+| Person                | Role |
+| :---                    | :---      |
+| Dan Mizzi-Harris                    | Product Designer     |
+| Jarka Kosanova                    | Fullstack Engineering Manager     |
+|    Charlie Ablett                 |   Senior Backend Engineer   |
+|   Felipe Cardozo                |  Senior Backend Engineer    |
+|    Rajat Jain                | Frontend Engineer     |
+|    Marcin Sedlak-Jakubowski               |  Technical Writer    |
+|    Matthew Macfarlane               |   Product Manager   |
+
+### Team members
+
+<%= direct_team(manager_role: 'Fullstack Engineering Manager, Plan:Certify') %>
+<%= stable_counterparts(role_regexp: /[,&] (Plan(?!:)|Plan:Certify)/) %>
+
 
 ### What are we working on and why
 
@@ -68,11 +86,11 @@ We would like to extend this functionality to provide additional methods for lin
 
 ### Certify Team Long term goals
 
-Once we have certify a great option for the software developers and software engineers in test, we plan to continue iterating as follows.
+Once we have certify a great option for the Software Developer](/marketing/strategic-marketing/roles-personas/#sasha-software-developer) and [Software Engineering in Test](/marketing/strategic-marketing/roles-personas/#simone-software-engineer-in-test), we plan to continue iterating as follows:
 
-- As GitLab expands to support larger enterprises, it is natural that there would be a need multiple levels of requirements and test cases which can be decomposed down to requirements or test cases at lower levels. Our goal is to expand our work item definition to allow for multi-level objects. This would allow for teams to create a system of sub-systems and perform all requirement tracing and test tracing directly within GitLab.
+- GitLab continues to support larger enterprises, and the natural need for multiple levels of requirements and test cases which can be decomposed down to requirements or test cases at lower levels has risen. Our objective is to expand our work item definition to allow for multi-level objects. This would allow for teams to create a system of sub-systems and perform all requirement tracing and test tracing directly within GitLab, further adhering to our mission as The One DevOps Platform.
 - We recognize that requirements and their associated trace data is often required as release evidence / artifacts. We would like to work closely with our release team to integrate requirements traceability into release evidence.
-- Visual representation of traceability and test coverage. We would like to provide a visual representation of ancestors and descendants of requirements, making it easy to visualize decomposition and traceability. It would also be ideal for passing / failing test results to roll up visually to the requirements, allowing for quick visualization of the requirement status with regards to implementation and verification.
+- Visual representation of traceability and test coverage is also of importance. We would like to provide a visual representation of ancestors and descendants of requirements, making it easy to visualize decomposition and traceability. It would also be ideal for passing / failing test results to roll up visually to the requirements, allowing for quick visualization of the requirement status with regards to implementation and verification.
 
 ### Requirements Management
 
@@ -104,9 +122,7 @@ It is important to recognize that all artifacts must be under revision control.
 
 During audits, teams are asked to demonstrate traceability from the customer specification through all downstream, version-controlled artifacts. Teams are often asked to analyze a change in a system level requirement, assessing exactly which downstream artifacts will need to be modified based on that change.
 
-#### Other Regulated Industries
-
-Further research has shown that many other regulated industries have similar process requirements. Medical, financial, and automative industries are held to similar standards as their aerospace counterparts.
+Further research has shown that many other regulated industries have similar process requirements, such as those in the medical, financial, and automative.
 
 #### Key Terms / Concepts
 
@@ -120,7 +136,7 @@ Further research has shown that many other regulated industries have similar pro
 
 #### Competitive landscape
 
-Top competitors in this area are traditional tools that do requirements management used by business analysts, managers, and similar personas. Jama Connect and IBM Rational DOORS are two popular tools. Both of these tools offer limited integration with version control systems, making linking to necessary artifacts cumbersome. While these tools may be necessary for complex system level requirement work, we believe that managing requirements within GitLab can offer a much better user experience for individual teams who are not trying to integrate numerous complex systems.
+Top competitors in this area are traditional tools that do requirements management used by business analysts, managers, and similar personas. Jama Connect and IBM Rational DOORS are two popular tools. Both of these tools offer limited integration with version control systems, making linking to necessary artifacts cumbersome. While these tools may be necessary for complex system level requirement work, we believe that managing requirements within GitLab can offer a much better user experience for individual teams who are not trying to integrate numerous complex systems. 
 
 ### Quality Management
 
