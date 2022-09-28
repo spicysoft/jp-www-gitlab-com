@@ -1,0 +1,141 @@
+title: Value Stream Mapping
+description: Value stream mapping is a great way to identify value within your process and help you minimize waste.
+header_body: Value stream mapping is a great way to identify value within your process and help you minimize waste.
+canonical_path: /topics/devops/value-stream-mapping/
+file_name: value-stream-mapping
+parent_topic: devops
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+body: >-
+  ## What is value stream mapping?
+
+
+  [Value stream mapping](/solutions/value-stream-management/) (VSM) is a management method that enables you to visualize and create detailed analyses of all the activities required to deliver a product to a customer. VSM is helpful in various industries, including software development, marketing, manufacturing, IT operations, and logistics.
+
+
+  In software development, VSM tools focus on workflow management and provide easy access to products that improve data availability and flow across DevOps and CI/CD pipelines. These pipelines are transforming the IT industry by implementing value streams across development and operations.
+
+
+  ## The importance of value stream mapping
+
+
+  VSM uses flowcharts to represent activities step by step, giving you a clear picture of the flow of information. It allows you to visualize the current state and data and provide feedback on overall progress. In the case of unwanted activities, your team can strategize and create value where needed using the knowledge they obtained from VSM.
+
+
+  Using VSM to map your workflow visually helps you [identify any waste](https://about.gitlab.com/blog/2022/02/11/4-must-know-devops-principles/#continuous-improvement-and-minimization-of-waste) in the process that should either be reduced or completely removed. This lets you focus on value-adding activities and results in an efficient and productive workflow.
+
+
+  ## How VSM applies to continuous delivery
+
+
+  The [continuous delivery](https://about.gitlab.com/topics/ci-cd/) (CD) pipeline describes the automated activities and workflows needed to release new functionality accurately. CD channels benefit greatly from VSM implementation, as it improves the flow of value across the pipeline and provides excellent visibility into the problem or decision point areas.
+
+
+  The first step to improving any value stream is mapping the current CD pipeline. VSM provides a better view of the crucial activities in the delivery process and the flow of value upstream. It enables you to better understand the pipeline’s current state and identify improvement opportunities.
+
+
+  ## Why map your value stream?
+
+  VSM provides value by:-
+
+
+  - Identifying key areas to improve to maximize value for the user
+
+
+  - Providing a clear picture of the current and future state, helping you determine if any improvements are needed
+
+
+  - Identifying wasteful activities, such as inappropriate processing, and their causes
+
+
+  - Helping teams learn about the development process through visual aids and serving as an instrument for communication and collaboration
+
+
+
+  ## Steps involved in value stream mapping
+
+
+  Let’s take a look at the four steps involved in VSM.
+
+
+  1. **Identify the product you want to map and improve.** To start, identify the product that needs improvement and can profit from a more streamlined experience. Next, define the start and end of the key processes related to the product. Defining this early will draw your focus to the activities that are adding value to the process.
+
+
+  1. **Create the current state VSM (CSVSM).** This step involves collaborating with your entire team to build an understanding of your current state. Invite all parties directly involved with the product and gather as much information as possible. During this time, you can analyze your data closely, review what you have, diagnose the potential causes of waste, and identify opportunities for potential improvements.
+
+
+  1. **Create the future state VSM (FSVSM).** As you create the future state of your VSM, prioritize the processes that need to be improved in the future. Focus on critical functions that add value and keep an eye out for opportunities to reduce waste. If you need to add to or simplify a process, now’s the time.
+
+
+  1. **Move from current state to future state VSM.** As you start adapting to the new future state VSM, always maintain a visual connection between the current and the future state VSM. This will help you align your goals and practical progress whenever you return to the drawing board.
+
+
+
+  ## Driving DevOps with value stream mapping
+
+
+  DevOps is a competitive software development strategy that embraces lean manufacturing techniques. Driving DevOps with VSM makes the entire development process more productive and presents opportunities for improvements. 
+
+  Let’s take a look at the components of VSM and their corresponding impact on DevOps:
+
+
+  - **Process map:** This visually describes the flow of work and a series of activities that produce an outcome. This is vital for the DevOps team as they plan their work and keep up with its progress.
+
+
+  - **Information flow:** This shows how information is delivered along the workflow and can help the DevOps team identify areas of waste.
+
+
+  - **Timeline:** This shows the cycle, wait, and down times. If managed well, it can help the DevOps team make better decisions for future improvements, speed up delivery times, and make the entire approach to development more productive.
+
+
+
+  ## Tools and techniques used in value stream mapping
+
+
+  Let’s take a look at some of the tools and techniques used in VSM.
+
+
+  - **Process activity mapping:** This tool eliminates unnecessary activities, simplifies complex ones, and upgrades processes to reduce waste.
+
+
+  - **Supply chain response matrix:** This tool focuses on time-based mapping to analyze activities and lead time within an organization. The lead time is the amount of time between the start of activities or a project and the delivery of its intended results.
+
+
+  - **Quality filter mapping:** This tool identifies where quality problems exist in the workflow. The information is used to understand where there is waste and what improvements are needed.
+
+
+  - **Decision point analysis:** The decision point is associated with learning about the entire workflow of the decision. This information drives the direction of decision-making rules. The decision point analysis is the extraction of decisions and detects the links between data related to the whole situation. This tool points to any variability in the workflow.
+
+
+  ## How can value stream mapping be used to improve process performance?
+
+
+  VSM helps you see the specific processes that add value to your product or service. It also aids in identifying communication disparities between teams and across tasks and other activities. VSM analysis verifies the relevance of the value added, and visualization enhances effective collaboration between team members. 
+
+cta_banner:
+  - title: GitLab Value Stream Management
+    body: Jumpstart VSM by utilizing a single end-to-end DevOps platform to get visibility throughout the entire lifecycle, without the “toolchain tax.” GitLab’s [Value Stream Management](/solutions/value-stream-management/) helps businesses visualize their DevOps workstream, identify and target waste and inefficiencies, and take action to optimize those workstreams to deliver the highest possible velocity of value.
+
+    cta:
+      - text: Learn more about GitLab Value Stream Management
+        url: https://about.gitlab.com/solutions/value-stream-management/
+resources_title: Read more about DevOps
+resources:
+  - title: Understand shift left DevOps
+    url: https://about.gitlab.com/topics/ci-cd/shift-left-devops/
+    type: Articles
+  - title: How DevOps leads transformation (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthbAbiHjRVNz1WwxbhLfeXXs
+    type: Video
+  - title: Cloud-Native DevOps (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthb4FD4y1UyEzi2ktSeIzLxj
+    type: Video
+  - title: DevOps tips and tricks (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthZ_LGh4EpGJduNd2nFhN5fn
+    type: Video
+  - title: " How to simplify DevOps"
+    url: https://www.youtube.com/watch?v=TUwvgz-wsF4
+    type: Video
+suggested_content:
+  - url: /blog/2017/11/23/autoscale-ci-runners/
+  - url: /blog/2019/10/07/auto-devops-explained/
+  - url: /blog/2020/10/29/gitlab-hero-devops-platform/

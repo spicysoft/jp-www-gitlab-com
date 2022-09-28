@@ -1,0 +1,21 @@
+---
+name: Brandon Labuschagne
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Engineering Manager (Interim)</a>, Manage:Optimize
+reports_to: michellegill
+picture: brandonlabuschagne.jpg
+twitter: brandonlabs
+gitlab: blabuschagne
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Optimize
+- Frontend
+projects:
+  gitlab: maintainer frontend
+  gitlab-ui: reviewer frontend
+story: 'Brandon has a background in fullstack engineering. He joined GitLab as a frontend engineer and has since transitioned into engineering management. He moved to The Netherlands in 2021 from his origional home Cape Town, South Africa. He believes in the vision that everyone can contribute and is excited to be part of GitLab''s amazing, global team of creative people.'
+specialty:
+- 'Manage: Optimize'

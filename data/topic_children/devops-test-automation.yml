@@ -1,0 +1,154 @@
+title:  DevOps Test Automation
+description: Software test automation allows DevOps teams to accelerate their workflows and improve user experience.
+header_body: Software testing is a vital process in the development of software. However, manual testing processes create considerable difficulty in collaborating and communicating feedback for DevOps and quality assurance (QA) teams, resulting in slower release cycles. By automating software testing, organizations can remove redundancy, create a more unified approach among teams, and facilitate more efficient development.
+canonical_path:  /topics/devops/devops-test-automation/
+file_name: devops-test-automation
+parent_topic: devops
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+body: >-
+  ## What is test automation?
+
+
+  Test automation, or automated QA testing, involves automatically reviewing, validating, and analyzing a software product and using the results from these assessments to improve software quality — ensuring more consistent and unified code and optimizing product functionality and user experience. Plus, it makes for happier developers.
+
+
+  ## The importance of test automation
+
+
+  Test automation increases the reliability, consistency, and efficiency of both the development team and the final product. This makes it easier for DevOps and QA teams to remain on schedule without sacrificing crucial debugging and troubleshooting processes. 
+
+
+  Additionally, test automation is faster and more effective than manual testing. It reduces the potential for costly human error and eliminates communication barriers among team members, saving time and money.
+
+
+  Testing automation also offers new modes of flexibility, meaning development teams can reuse their test scripts for any related testing suites. Thanks to the automation environment, they don’t have to worry about breaking the code or creating new scripts for each test case. 
+
+
+  ## Test automation stages
+
+
+  Test automation contains several key automation concepts you should follow to ensure quality software testing. These test automation frameworks appear in stages, following the [test pyramid](https://martinfowler.com/bliki/TestPyramid.html) hierarchy.
+
+
+  ### Unit testing
+
+
+  Unit testing involves isolating your application into units and then testing the behavior of each as a function independent from external parties, databases, or configurations. Unit testing often occurs during the build period and is considered the first layer of testing. 
+
+
+  ### Integration testing
+
+
+  Integration testing evaluates how several units are logically integrated, and how this affects the system functionality without unintended errors in the integration process. The main purpose of integration testing is to test the compliance of a system by verifying how disparate modules work together. 
+
+
+  ### End-to-end testing
+
+
+  An end-to-end testing framework tests the functionality and performance of the application by simulating the user’s expectations and needs from start to finish. The end goal isn’t just to ensure the application validates and checks all the user’s needs, but to ensure it operates and behaves at least as well as expected.
+
+
+  ### Exploratory testing 
+
+
+  Exploratory testing is a more sophisticated software testing strategy that involves parallel learning, testing, and reviewing various functional and visual components from the user’s perspective. 
+
+
+  ## Automated testing in DevOps
+
+
+  DevOps involves the software development workflows that accelerate the build, test, configuration, deployment, and release of software products. This approach helps teams build applications much faster. Adopting automated testing into DevOps makes continuous integration and continuous delivery (CI/CD) practices more efficient and enables teams to release software more frequently.
+
+
+  Quality assurance engineers should focus on developing automated integration and end-to-end tests while developers perform unit tests for each block of code they build. These tests should be executed early enough in the DevOps CI/CD pipeline to ensure each component works as expected. Additionally, product managers should perform functional testing (e.g., the black-box method) to ensure the optimal user experience. 
+
+
+  ## The benefits of automated testing 
+
+
+  Automated testing provides many benefits, including:
+
+
+  - Improved team collaboration between quality assurance architects and developers, which ensures an efficient software lifecycle
+  
+  - Simplified scaling due to the decentralized nature of development teams working in the squad (both QA and DevOps)
+  
+  - Improved customer satisfaction and more referrals, because faster and more reliable product releases enable customers to have their feedback and problems resolved more quickly 
+
+  - Easier incident management, since DevSecOps teams can quickly detect vulnerabilities in various application points and threat models 
+
+
+
+  ## Getting started with automated testing 
+
+
+  When aligning test automation for your teams, you’ll want to consider the following components of your development lifecycle.
+
+
+  ### Release frequency
+
+
+  If the frequency of software release takes several days, your development team should adopt automation testing in their DevOps CI/CD pipelines to accelerate the build, deployment, and release. Unit tests should be performed throughout the development phase along with end-to-end testing. As the application grows throughout the build process, integration testing is performed to ensure all dependent third-party applications work as expected. This ensures 100% test coverage, speeding software release to production and the market. 
+
+
+  ### Testing tool accessibility
+
+
+  Not all testing tools work the same way. A test automation architect should identify which features work best for the organization. Reliability, frequency of maintenance, efficiency in test creation, and CI/CD integration with your current stack are some features to look for in an automation testing tool.
+
+
+  The ease of use and learning curve across your team members are also important. The more accessible the tool, the more smoothly your organization can kick start the automation process.  
+
+
+  ### CI/CD pipeline and data testing
+
+
+  Understanding your CI/CD environments is very important when deciding at which point you want to incorporate automation testing. To achieve a useful testing environment, it’s crucial to have a strong testing infrastructure. Arrive at a consensus with team members on which strategy works best and for which scenarios. 
+
+
+  For example, an infrastructure for providing temporary test environments early can rapidly improve the feedback and review process. 
+
+
+
+  ## Best practices 
+
+
+  - Decide which tests to automate. Organizations shouldn’t aim for 100% automation. Instead, determine which areas of your testing process will benefit the most from automated testing.
+
+
+  - Pick the right test automation framework for your organization's capability and application complexity. 
+
+
+  - Testing shouldn’t take days or weeks. By using automation testing, you should aim to test frequently and early to reduce production errors and improve customer satisfaction. 
+
+
+  - DevOps teams should prioritize comprehensive and quality test reporting. 
+
+
+cta_banner:
+  - title: Automate testing with GitLab CI/CD
+    body: Automate all the steps required to build, test and deploy your code to your production environment. Every change triggers an automated pipeline to make your life easier.
+    cta:
+      - text: Learn more about GitLab CI/CD
+        url: /features/continuous-integration/
+resources_title: Read more about DevOps
+resources:
+  - title: Understand shift left DevOps
+    url: https://about.gitlab.com/topics/ci-cd/shift-left-devops/
+    type: Articles
+  - title: How DevOps leads transformation (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthbAbiHjRVNz1WwxbhLfeXXs
+    type: Video
+  - title: Cloud-Native DevOps (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthb4FD4y1UyEzi2ktSeIzLxj
+    type: Video
+  - title: DevOps tips and tricks (GitLab Virtual Commit 2020 track)
+    url: https://www.youtube.com/playlist?list=PLFGfElNsQthZ_LGh4EpGJduNd2nFhN5fn
+    type: Video
+  - title: " How to simplify DevOps"
+    url: https://www.youtube.com/watch?v=TUwvgz-wsF4
+    type: Video
+suggested_content:
+  - url: /blog/2017/11/23/autoscale-ci-runners/
+  - url: /blog/2019/10/07/auto-devops-explained/
+  - url: /blog/2020/10/29/gitlab-hero-devops-platform/

@@ -76,53 +76,53 @@ The Support Operations Team usually make the critical changes over weekends
 and communicate them via Slack channel [`#support_ops-annoucements`](https://gitlab.slack.com/archives/C02EK1QV5K9)
 and SWIR ([/handbook/support/#support-week-in-review](/handbook/support/#support-week-in-review)).
 
-### Support Ops Change Criticalities
+## Support Ops Change Criticalities
 
 Mirroring [infrastructure's change management criticalities](/handbook/engineering/infrastructure/change-management/#change-criticalities) Support Ops
 defines changes on a C1 - C4 scale that helps determine appropriate planning horizons. 
 
 Criticalities can be estimated during a [Requested Change](/handbook/support/managers/change-management.html#creating-a-requested-change-issue-andor-mrs) and will be finalized once an issue is moved to the Support Ops project. The [scheduling intervals](#scheduling-intervals-and-exceptions) indicate the delay between change annoucement and change deployment.
 
-#### Support Operations Criticality 1
+### Support Operations Criticality 1
 
 These are changes with high impact or high risk that may significantly modify Support Engineer or Customer experience. If a change is going to cause downtime to the environment, it is always categorized a C1.
 
-##### Examples of Support Operations Criticality 1
+#### Examples of Support Operations Criticality 1
 
 1. Changing the functionality of a widely used Zendesk View
 1. Altering Zendesk in a way to support a significant process change
 1. Changes to any SLA policy in use
 
-#### Support Operations Criticality 2
+### Support Operations Criticality 2
 
 These are changes that aren't expected to significantly impact Support Engineer or Customer experiences, but which still carry some risk of impact if something unexpected happens. 
 
-##### Examples of Support Operations Criticality 2
+#### Examples of Support Operations Criticality 2
 
 1. Updating the theme on the Support Portal
 1. Changing SLA timers on a subset of tickets
 
-#### Support Operations Criticality 3
+### Support Operations Criticality 3
 
 These are changes with either no or very-low risk of negative impact, but where there is still some inherent complexity, or it is not fully automated and hands-off.
 
-##### Examples of Support Operations Criticality 3
+#### Examples of Support Operations Criticality 3
 
 1. Adding a new form field on a Support form
 1. Bulk removing expired Zendesk organizations
 1. Adding a new Zendesk app that will make things more convenient for Support Engineers
 
 
-#### Support Operations Criticality 4 
+### Support Operations Criticality 4 
 
 These are changes that are exceedingly low risk and commonly executed, or which are fully automated. Often these will be changes that are mainly being recorded for visibility rather than as a substantial control measure.
 
-##### Examples of Support Operations Criticality 4
+#### Examples of Support Operations Criticality 4
 
 1. Adding or removing users from a ZD organization
 1. Updating the language in a macro
 
-#### Scheduling intervals and exceptions
+### Scheduling intervals and exceptions
 
 Each criticiality has a required time interval that ensures adequate time for Ops scheduling and for the change creator to go through an appropriate change management process. If the change is of high priority, the required interval can be overriden pending the approval at the appropriate level.
 
@@ -144,45 +144,46 @@ team. The current division of responsibilities is:
 | Access Requests     | Internal License Requests  | @nabeel.bilgrami | @dnolan1         |
 |                     | Offboarding                | @jcolyer         | @nabeel.bilgrami |
 |                     | Onboarding                 | @jcolyer         | @lyle            |
-| Audits              |                            | @jcolyer         | @dnolan1         |
-| Calendly            | Management                 | @avilla4         | @lyle            |
-|                     | Procurement                | @jcolyer         | @dtragjasi       |
-| Forms               | Account Deletions          | @dtragjasi       | @jcolyer         |
-|                     | Internal Requests          | @dtragjasi       | @jcolyer         |
-|                     | Usage Ping Requests        | @dtragjasi       | @dnolan1         |
-| Pagerduty           | Management                 | @jcolyer         | @avilla4         |
-|                     | Provisioning               | @jcolyer         | @avilla4         |
-| Slack               | SGG Slackbot               | @dtragjasi       | @jcolyer         |
+| [Audits](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/audits) | | @jcolyer | @dnolan1 |
+| Calendly            | Management                 | @avilla4         | @dtragjasi       |
+|                     | Procurement                | @jcolyer         | @lyle            |
+| Forms | [Account Deletions](https://gitlab.com/gitlab-com/support/support-ops/forms/account-deletion) | @dtragjasi | @jcolyer |
+| | [Internal Requests](https://gitlab.com/gitlab-com/support/internal-requests-form) | @dtragjasi | @jcolyer |
+| | [Usage Ping Requests](https://gitlab.com/support/usage-ping-request) | @dtragjasi | @dnolan1 |
+| | [Customer Ticket Generator](https://gitlab.com/gitlab-com/support/support-ops/forms/customer-ticket-generator) | @jcolyer | @avilla4 |
+| Pagerduty | [Management](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty) | @jcolyer | @dtragjasi |
+|                     | Provisioning               | @jcolyer         | @dtragjasi       |
+| Slack | [SGG Slackbot](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot) | @dtragjasi | @jcolyer |
 |                     | Workflows                  | @dtragjasi       | @jcolyer         |
 | Status.io           | User management            | @jcolyer         | @lyle            |
 | Zapier              | Support Zap management     | @jcolyer         | @nabeel.bilgrami |
-| Zendesk Global      | Agent Sync                 | @nabeel.bilgrami | @avilla4         |
-|                     | Articles                   | @avilla4         | @jcolyer         |
-|                     | Automations                | @avilla4         | @dtragjasi       |
-|                     | Forms and Fields           | @nabeel.bilgrami | @avilla4         |
-|                     | Macros                     | @avilla4         | @dtragjasi       |
-|                     | Organizations              | @nabeel.bilgrami | @avilla4         |
-|                     | Procurement                | @jcolyer         | @lyle            |
-|                     | SLAs                       | @jcolyer         | @nabeel.bilgrami |
-|                     | Theme                      | @dtragjasi       | @jcolyer         |
-|                     | Ticket Round Robin         | @nabeel.bilgrami | @jcolyer         |
-|                     | Triggers                   | @avilla4         | @dtragjasi       |
-|                     | Views                      | @avilla4         | @dtragjasi       |
-|                     | ZD<>SFDC Sync              | @jcolyer         | @nabeel.bilgrami |
-|                     | Zendesk Apps               | @dtragjasi       | @avilla4         |
-| Zendesk US Federal  | Agent Sync                 | @dnolan1         | @jcolyer         |
-|                     | Automations                | @dnolan1         | @jcolyer         |
-|                     | Forms and Fields           | @jcolyer         | @dnolan1         |
-|                     | Macros                     | @dnolan1         | @jcolyer         |
-|                     | Organizations              | @dnolan1         | @jcolyer         |
-|                     | Procurement                | @jcolyer         | @lyle            |
-|                     | SLAs                       | @jcolyer         | @dnolan1         |
-|                     | Theme                      | @dnolan1         | @jcolyer         |
-|                     | Ticket Round Robin         | @dnolan1         | @jcolyer         |
-|                     | Triggers                   | @dnolan1         | @jcolyer         |
-|                     | Views                      | @dnolan1         | @jcolyer         |
-|                     | ZD<>SFDC Sync              | @jcolyer         | @dnolan1         |
-|                     | Zendesk Apps               | @dnolan1         | @jcolyer         |
+| Zendesk Global | [Agent Sync](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/agents) | @nabeel.bilgrami | @avilla4 |
+| | [Articles](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/articles) | @avilla4 | @jcolyer |
+| | [Automations](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/automations) | @avilla4 | @dtragjasi |
+| | [Forms and Fields](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/ticket-forms-and-fields) | @nabeel.bilgrami | @avilla4 |
+| | [Macros](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros) | @avilla4 | @dtragjasi |
+| | [Organizations](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations) | @nabeel.bilgrami | @avilla4 |
+| | Procurement                | @jcolyer         | @lyle            |
+| | [SLAs](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/sla-policies) | @jcolyer | @nabeel.bilgrami |
+| | [Theme](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/zendesk-theme) | @dtragjasi | @jcolyer |
+| | [Ticket Round Robin](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/ticket-round-robin) | @nabeel.bilgrami | @jcolyer |
+| | [Triggers](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers) | @avilla4 | @dtragjasi |
+| | [Views](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/views) | @avilla4 | @dtragjasi |
+| | [ZD<>SFDC Sync](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/zd-sfdc-sync-global) | @jcolyer | @nabeel.bilgrami |
+| | [Zendesk Apps](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/zendesk-apps) | @dtragjasi | @avilla4 |
+| Zendesk US Federal  | [Agent Sync](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/agents) | @dnolan1 | @jcolyer |
+| | [Automations](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/automations) | @dnolan1 | @jcolyer |
+| | [Forms and Fields](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/ticket-forms-and-fields)           | @jcolyer | @dnolan1 |
+| | [Macros](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/macros)                     | @dnolan1 | @jcolyer |
+| | Organizations | @dnolan1 | @jcolyer |
+| | Procurement | @jcolyer | @lyle |
+| | SLAs | @jcolyer | @dnolan1 |
+| | [Theme](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/zendesk-theme) | @dnolan1 | @jcolyer |
+| | [Ticket Round Robin](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/ticket-round-robin) | @dnolan1 | @jcolyer |
+| | [Triggers](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/triggers) | @dnolan1 | @jcolyer |
+| | [Views](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/views) | @dnolan1 | @jcolyer |
+| | [ZD<>SFDC Sync](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/zd-sfdc-sync-us-federal) | @jcolyer | @dnolan1 |
+| | [Zendesk Apps](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/zendesk-apps) | @dnolan1 | @jcolyer |
 
 ## Code freeze
 

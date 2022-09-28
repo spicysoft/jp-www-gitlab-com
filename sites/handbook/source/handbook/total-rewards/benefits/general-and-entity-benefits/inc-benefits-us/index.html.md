@@ -483,34 +483,6 @@ As you are eligible to participate in GitLab's 401k as of your hire date, you ar
  
 All employer contributions are pre-tax contributions. Team members can still make Roth 401(k) team member contributions and receive pre-tax employer contributions to your Traditional 401(k) account.
  
-**Vesting:**
- 
-Employer contributions vest according to the following schedule:
- 
-| Years of Vesting Service             | Vesting Percentage |
-|--------------------------------------|:------------------:|
-| Less than One Year                   | 0%                 |
-| One Year but less than Two Years     | 25%                |
-| Two Years but less than Three Years  | 50%                |
-| Three Years but less than Four Years | 75%                |
-| Four or More Years                   | 100%               |
- 
-*Team Member* contributions are the assets of those team members and are not applicable to this vesting schedule.
- 
-**Vesting example**
- 
-To help you understand the math, here is a hypothetical vesting chart showing how much the employee would receive if they left the company.
- 
-In this example the team member's salary is $50,000 USD and they max out their match every year. $50,000 * 6% = $3000. $3000 * 50% = $1500 match.
- 
-Year 1: Put in 3K, GitLab matches 1500. Leave the company get 3K (none vested)
-Year 2: Put in 3K, GitLab matches 1500. Leave the company get 6K own money + $750 USD vested contribution.   (3K * 0.25)
-Year 3: Put in 3K, GitLab matches 1500. Leave the company get 9K own money + $2250 USD vested contribution. (4500 * 0.50)
-Year 4: Put in 3K, GitLab matches 1500. Leave the company get 12K own money + $4500 USD vested contribution. (6000 * 0.75)
-Year 5: Put in 3K, GitLab matches 1500. Leave the company get 15K own money + $7500 USD (fully vested)
-
-The above example assumed no earnings on the contributions to the team member's 401(k). If the team member has any gains on their own contributions, this would be considered their own money and can be withdrawn when leaving the company. If the team member has any gains on the employer contribution, this would be subject to the vesting schedule. For example, if my employer contribution earns $50 and I leave after year two, I would be 50% vested and be able to leave with $25 of the gains from the employer contribution.
-
 **Administration of the 401(k) Match:**
 * The employer will use the calculation on each check date effective as of January 1, 2019.
 * The team member must have a contribution for a check date to be eligible for the employer match.
@@ -523,33 +495,13 @@ If you leave GitLab and would like to rollover your 401(k) account, contact Bett
  
 ### 401(k) Committee
  
-The 401(k) Committee will meet quarterly with Betterment to review how the plan is doing as well as updates from the Betterment investment team.
- 
-**Committee Members:**
-Chair: Principal Accounting Officer (PAO)
-**Other Members:**
-* Principal Accounting Officer
-* Chief Legal Officer
-* Manager, Total Rewards
-* Senior Director, People Success
-* Senior Manager, Payroll and Payments
- 
-**Gitlab's 401(k) Committee Responsibilities:**
-* Maintain and enforce the plan document and features
-* Comply with all reporting, testing and disclosure requirements
-* Timely data & deposit transmission
-* Evaluating plan services and fees
-* Review and approval of prepared forms and distributions
-* Employee engagement and eligibility
-* Adding new eligible employees to the plan
- 
-**Betterment's Responsibilities (co-fiduciary):**
-* Investment selection and monitoring
-* Audit support
-* Employee education
-* Administrative support on distributions, loans and more
-* Employee and Plan Sponsor customer support via email and phone
-* Statement and tax form generation
+The 401(k) Committee meets on a regular cadence with Betterment to review how the plan is doing as well as updates from the Betterment investment team. The Committee Members are:
+
+Chief People Officer
+Principal Accounting Officer
+Director, Total Rewards
+Director, Treasurer
+Note: Chief Legal Officer will serve as an committee observer.  
  
 ## Optional Plans Available at Team Member Expense
  
@@ -597,6 +549,36 @@ For active employees: Up to 180 days after plan year has concluded (also known a
  
 For terminated employees: Up to 90 days after the termination date.
  
+### Navia - Health Reimbursement Arrangement (HRA)
+
+Effective 2022-10-01, GitLab offers a TravelHealth Reimbursement Arrangement (HRA) benefit to reimburse eligible team members and their dependents for transportation and lodging expenses related to travel while obtaining medical care not offered within 100 miles of the location the member resides. 
+
+To be eligible for the Travel HRA benefit, team members and their dependents must be enrolled in one of the Cigna Medical Plans. Navia Benefit Solutions administers the HRA benefit.
+
+The HRA Benefit is split into a pre-tax account, in which team members can receive reimbursement of up to $2,100 USD for eligible pre-tax travel expenses, and a post-tax account of $900 USD for eligible travel expenses that exceed the pre-tax travel limits.
+
+
+Please see the [HRA Summary of Benefits and Coverage](https://drive.google.com/file/d/1NWUiDsVV9ECaACkjJujgt_oU-jfGVDN6/view?usp=sharing) document for information on coverage and the [Navia Navigation Guide](https://drive.google.com/file/d/1mTGCLX73yFTEbBWYhabaYwhM7kOsBKMx/view?usp=sharing) for information on claim eligibility and how to submit claims. Additional details can be found in our [Health Reimbursement Arrangement (HRA) FAQ](https://docs.google.com/document/d/1ZpVaDB62vG2djOOjYNBjHnoKVEvwcbELF9gMdwwM2Go/edit?usp=sharing)
+
+#### How to Submit an HRA Claim
+
+To access the benefit, eligible team members can create an account on the [Navia Portal](https://app.naviabenefits.com/app/#/signup), first time users will click the Register button in the top right corner of the page.
+
+To register for online account access you will be requested to provide the following
+information:
+- Last Name, First Initial
+- E-mail Address
+- Employer Code: Please click the link to receive the [GitLab Employer Code](https://docs.google.com/document/d/1VTuyywdcPpfzMjQzVwaED_smzePzSgYxPwq_z-P1620/edit?usp=sharing) 
+- Last four digits of your social security number/employeeID
+- Date of Birth
+- Choose a Username
+- Answer three security questions
+
+Reminder!  review and accept the Terms and Conditions. After clicking Submit for online access, you will receive an email confirmation with a temporary link to set your
+password to complete your registration.
+
+If you are a newly hired GitLab Team Member, please allow 1 month following your start date to access the portal. Should you require access to the portal earlier, please contact Total-Rewards@gitlab.com. Once you have access to the portal you can submit a claim directly with Navia, and view plan documents. 
+
 ### Cigna Supplemental Life Insurance/AD&D
  
 Team members who wish to elect additional life insurance above what is provided by GitLab through the Basic Life Insurance or elect life insurance for their dependents, can elect [Voluntary Life Insurance](https://drive.google.com/file/d/1yY1tFJTuj1wCMlorUvnfcgWwZUuP279r/view?usp=sharing) through Cigna.

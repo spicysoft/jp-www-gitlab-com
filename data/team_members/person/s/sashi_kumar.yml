@@ -4,7 +4,7 @@ locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
   Govern:Security Policies</a>
-reports_to: thiagofigueiro
+reports_to: maciejparuszewski
 picture: sashikumar.jpg
 pronouns: he/him
 pronunciation:
@@ -25,11 +25,8 @@ domain_expertise:
 projects:
   gitlab:
   - reviewer backend
-  secure-container-scanning:
-  - reviewer backend
-  - maintainer backend
-specialty:
-- 'Protect: Container Security'
+  secure-container-scanning: maintainer backend
+specialty: Security Policies
 expertise:
 story: |
   Sashi loves contributing to open source and loves writing code in Ruby.

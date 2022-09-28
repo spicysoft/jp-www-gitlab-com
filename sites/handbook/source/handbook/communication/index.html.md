@@ -62,7 +62,7 @@ The above examples overlap with the [GitLab's SAFE Framework](/handbook/legal/sa
 
 1. **Legal risk:** These are the risks that arise from regulations and laws that govern GitLab or the market in which it operates. This includes content that would compromise a GitLab team member, customer, or user's personal data and/or privacy.
 1. **Morale risk:** Raising GitLab sensitive topics that may be misinterpreted without the opportunity to ask clarifying questions can create risk to team culture and/or morale.
-1. **PR risk:** Remember that anything you document could ultimately be shared/viewed externally.
+1. **PR risk:** Remember that anything you document could ultimately be shared/viewed externally. Consider that a discussion in a public MR or issue is a demonstration of our [values](https://about.gitlab.com/handbook/values/) to those outside of GitLab who are looking to learn more about how we collaborate. 
 
 We encourage communicating risks to GitLab, its team members, or customers in a synchronous 1:1 setting.
 
@@ -268,6 +268,8 @@ To learn more on when to use asynchronous and synchronous communication, example
    When you announce anything, include links to the respective Handbook pages for more information. Consider adding link to an Issue if the information is not public yet.
 1. Optional AMA.
    If desired and appropriate, offer a company wide Zoom call to host an AMA (Ask Me Anything). Oftentimes, questions can be managed within the Discussion tab of a GitLab Issue or Merge Request. For broad announcements, such as registration opening for GitLab Contribute, an AMA may be better suited for a large volume of inquiries. To schedule a company wide call, please make a request in the `#people-connect` Slack channel, and include a Google Doc in the invite for questions.
+1. Remember we are a global company with significant time-zone differences. Unless there is a reason to do otherwise, ensure any time-sensitive calls to action or announcements are made when the whole company has enough time to action. Consider different timezones, non-linear work days, and PTO. Announcements should be made ideally 72 hours (at minimum 24 hours) in advance of a due date. This is to prevent APAC/EMEA team members missing important announcements posted outside their normal working hours.
+Sometimes a late announcement is better than none at all, and acknowledging those who will miss it might be a kind gesture, such as "Apologies to our APAC/EMEA friends for the late notice".
 
 ### Ask Me Anything meetings
 
@@ -1675,6 +1677,15 @@ There are several benefits and reasons to sharing your calendar with everyone at
 ![Google Calendar - make calendar available setting](/images/handbook/tools-and-tips/google-calendar-share.png)
 
 If you add blocks of time spent on recurring tasks to your Google Calendar to remind yourself to do things (e.g. "Check Google Analytics"), consider marking yourself "Free" for those events so that coworkers know they may schedule a meeting during that time if they can't find another convenient time.
+
+### Google Calendar Appointment Scheduling
+
+This feature allows you to create a link to an availability schedule that you can send to your customers or coworkers for them to schedule a call according to your availability.
+
+This allows you to only show available spots while keeping your other calls private. This also avoids having to go back and forth between you and other person figuring out what day and time works best for both of you. Since this is a native Google Calendar functionality, there is no need to set up integrations with your calendar like other scheduling tools.
+
+A member of our Customer Success team created a [demo video of how to use this feature](https://youtu.be/NqJu_tg4aLs).
+
 
 ## Posting or streaming to YouTube
 

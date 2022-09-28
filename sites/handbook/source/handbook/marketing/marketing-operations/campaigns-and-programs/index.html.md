@@ -127,7 +127,7 @@ White Paper or other content offer.
 
 Any type of inbound request that requires follow up.
 
-**Bizible:** This is tracked as an _online_ channel.
+**Bizible:** This is tracked as an _online_ channel with the exception of Linkedin LeadGen campaigns which are tracked as an offline activity.
 
 | Member Status | Definition | Success |
 | ------------- | ---------- | ------- |
@@ -376,7 +376,7 @@ If this is to set up a program that involves a channel partner, you must also fo
 - Click on the appropriate template for your tactic below (you must be logged into Marketo to proceed)
 - Right click on the template in Marketo and select `Clone`
 - In the `Clone To` field, select `A campaign folder`
-- In the `Name` field, input the campaign name (this should be the campaign name previously created in Allocadia - example: 20220704_BestEventEver)
+- In the `Name` field, input the campaign name (this should be the campaign name previously created in Allocadia - example: 20220704_BestEventEver)  - The date should be the START date of your campaign. 
 - In the `Folder` field, select the appropriate folder based on your campaign type. Most folders are also organized by fiscal year and quarter.
 - In the `Description` field, paste your epic URL
 - Click `Create`
@@ -515,7 +515,7 @@ Based on the [Step 5. list above](/handbook/marketing/marketing-operations/campa
     - Change the `Enable Bizible Touchpoints` to `Include only "Responded" Campaign Members`
     - `Budgeted Cost` in SFDC pulls from your `plan` number, not your `forecast` number from Allocadia. If you do not have a `plan` cost in Allocadia then Budgeted Cost in SFDC will remain blank. If this is the case, you will want to add in your Budgeted Cost manually into your SFDC campaign. The initial Plan Cost in the campaign needs 1 night to synch. The campaign meta data is a one time synch, where as the Actual Cost in Campaign (which is run off of the Campaign Tag to be Created field in Allocadia), synchs every nightly. **Please Note:** `Budgeted Cost` in SFDC pulls from your plan number, not your forecast number from Allocadia. If you do not have a plan cost in Allocadia then `Budgeted Cost` in SFDC will remain blank. If this is the case, you will want to add in your `Budgeted Cost` manually into your SFDC campaign. If cost is $0 list `$1` in the `Budgeted Cost` field. There needs to be at least a $1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
 
-### Owned Event - Waitlist processing
+### Waitlist processing - Owned Event, Workshop, Webcasts
 If you need to change an event from registration to waitlist, or you want to start off with a waitlist, use these instructions.
 - Confirm that the email copy you would like to use is set-up in the `Confirm - Waitlist` email. This email uses tokens and should be set for you, but you can customize as necessary.
 - Confirm that the {{my.event owner email address}} is completed in the tokens section. The Waitlist program will send an alert to this email address so you know each time someone is added to the waiting list based on this token.
@@ -524,7 +524,7 @@ If you need to change an event from registration to waitlist, or you want to sta
 - Activate the `01c Waitlist to Registered` Smart Campaign
 You have now activated the waiting list processing. If you need to reactivate Registration, you will deactivate the two Waitlist campaigns, and reactivate `01b Registration`. 
 
-### Owned Event - Moving from Waitlist to Registered
+### Moving from Waitlist to Registered - Owned Event, Workshop, Webcasts
 Use these instructions to move people from the waiting list to Registered.
 - Click on the Marketo program (the name of the campaign)
 - Click on `Members`
@@ -721,7 +721,7 @@ Important Notes:
    - `{{my.hopin event name}}` - You can pull the `Event Name` from the HopIn platform - This is the name of the event exactly as it appears in Hopin.
    - `{{my.hopin ticket code}}` - Find your Ticket Integration Code in Hopin by selecting an event, and going to the Tickets page of your event dashboard. Copy the URL of the ticket name you want to use, and strip out everything but the number at the end (keep everything after the word `code=` in the URL).
      - If you are only registering for a single ticket, all you need to do is update the token, but if you have multiple ticket options, you will need to create a select dropdown in the form that holds the Integration Codes as stored values - ([ask Mops to do this for you](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new#form_request)).
-1. `01a Registration from Hopin` is used if you are using HopIn registration pages (skip to next step if you are using a Marketo landing page). This smart campaign triggers off of a custom activity `Registers for HopIn Event` and will add the registrant to the proper campaign. **THIS WILL ONLY PASS `First Name`, `Last Name`, `Email`, and the name of the event. In order to capture any of the custom fields (like company name), you'll need to set up the next step to capture registrants from Marketo. Otherwise, a dataload will be required**
+1. (Skip if using a marketo form) `01a Registration from Hopin` is used if you are using HopIn registration pages. This smart campaign triggers off of a custom activity `Registers for HopIn Event` and will add the registrant to the proper campaign. **THIS WILL ONLY PASS `First Name`, `Last Name`, `Email`, and the name of the event. In order to capture any of the custom fields (like company name), you'll need to set up the next step to capture registrants from Marketo. Otherwise, a dataload will be required**
    - The program token `{{my.hopin event name}}` must be populated to use this with your HopIn event name. Use `starts with` as the operator to make sure you catch all registrants. 
    - If token is updated, you can turn on. No changes are necessary for the Flow.
    - Do not turn on if you are not utilizing HopIn registration pages. You will not use this if you are using a Marketo landing page.
@@ -738,7 +738,7 @@ Important Notes:
 
 
 ## Steps to Setup Linkedin Lead Gen Form *Gated Content Only
-We have listeners set up in Marketo listening certain parameters. Please check the `Marketo Listener` column below to see if a program is already set up in Marketo. If it is, you do not need to create a new listener. Otherwise, please follow the process outlined below to ensure leads are being captured.
+We have listeners set up in Marketo listening certain parameters. Please check the `Marketo Listener` column below to see if a program is already set up in Marketo. If it is, you do not need to create a new listener, you only need to add the content to the program. Otherwise, please follow the process outlined below to ensure leads are being captured.
 
 | Campaign                                 | Campaign Parameter for Tracking |Marketo Listener?|
 |------------------------------------------|---------------------------------|-----------------|
@@ -752,7 +752,7 @@ We have listeners set up in Marketo listening certain parameters. Please check t
 | Reduce Security and Compliance Risk	   | reducesecurityrisk              ||
 | CI Build & Test Auto	                   | cicdcmp3                        ||
 | OctoCat	                               | octocat                         ||
-| DevSecOps Use Case	                   | devsecopsusecase                ||
+| DevSecOps Use Case	                   | devsecopsusecase                | [Yes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG9200A1)|
 | AWS	                                   | awspartner                      ||
 | PubSec                                   | amer-pubsec                     |[Yes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG7588A1)|
 | DevOps GTM                               | devopsgtm                       |[Yes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8342A1)|
@@ -834,6 +834,24 @@ _e.g.: 2020_Social_GitOps_iacgitops_LinkedIn Lead Gen_
 ### Step 7: Update this Handbook page
 - Update this [handbook page with the parameter](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-linkedin-lead-gen-form-gated-content-only) with a `yes` and a link to the parameter and campaign you have set up.
 
+## Raffles
+Raffles can be associated with many different campaign types and have various ways to enter. You must complete the [legal requirements](https://about.gitlab.com/handbook/legal/marketing-collaboration/#engaging-legal-for-approval) before launching your raffle. 
+
+In general, the [YYYYMMDD_SurveyName](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG6402A1) Marketo program and Survey Campaign type will be used for raffles. Due to the potential set-up complexities for raffles, Marketing Ops will need to be involved even if you use the instructions below. Use these instructions to create the program and to engage Marketing Ops for additional set-up or review.
+
+#### For a Raffle Update Smart Lists, Flows and Tokens
+- Clone the [YYYYMMDD_SurveyName](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG6402A1)
+- Name the program using the following syntax: `YYYYMMDD_NameofProgram_Raffle`. You will likely have another campaign type associated as well (for example, a Conference) and this program should be housed in the folder for that event. This is a similar process to creating a speaking session associated to a conference.
+- Sync to SFDC at the program main screen in Marketo, where it says Salesforce Sync with "not set", click on "not set", Click "Create New." The program will automatically populate the campaign tag, so you do not need to edit anything except click `Save`. 
+   - If you are a user of Allocadia, you will need to add the Allocadia raffle line item ID to the `Description` field. Click `Save`.
+- [Update the SFDC campaign](https://about.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#step-4-update-the-salesforce-campaign) and associate it to the [parent campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#parentchild-campaigns) where applicable.
+   - If you are a user of Allocadia, please see instructions [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-update-the-salesforce-campaign---using-allocadia).
+- Go back to the Marketo program and complete the tokens. Update the {{my.Survey Name}} token with the word "Default" - do not use another entry on this token.
+- If you are using a landing page: Update your [Registration page](https://about.gitlab.com/handbook/marketing/demand-generation/campaigns/landing-pages/#general-marketo-landing-page-creation-instructions), thank you page, and registration confirmation email.
+- If you are using a landing page: Click into the `01a Registration Flow` and change the Smart List to "Form Name is any" and "Web page is" should already be populated with the registration page for this program. The Flow should already be populated for you, but update Step 5 - Interesting Moment to read: "Filled out form to enter raffle {{my.Survey Title}}" in the `Description` field of Step 5. Go to `Schedule` and click "Activate".
+- Responders to the form will be added to the program and SFDC campaign as `Filled out Survey` and will be scored according to the `Survey - Low` entry in the [scoring model](https://about.gitlab.com/handbook/marketing/marketing-operations/marketo/#behavior-scoring).
+- Due to the potential set-up complexities for raffles, Marketing Ops will need to be involved. You can add the `MktgOps::00:Triage` and `MktgOps-Support` labels to your `Marketo LP and Automation` issue for assistance with set-up.
+- If you are not using a landing page, MarketingOps will help you determine the correct processing for this campaign.
 
 ## Removing Registrations from Marketo Programs
 
@@ -885,9 +903,9 @@ Notes:
 1. Check your list type. DB1 can only pass `person` lists, not `account` lists. 
 1. Make sure your list filters contain `Compliance Segment Value` not equal to `NULL` or empty, `Default`, `Do Not Email`
 1. Check your numbers on the list. The following applies:
-    - Any list over 10k - you need opps approval to send - tag @amy.waller in the issue if you need to send over 10k 
+    - **Any list over 10k** - you need ops approval to send - Add label ~"MktgOps::00: Triage" in the issue if you need to send over 10k 
     - Please try to not include over 100 people at a single account to avoid triggering SPAM filters at that account
-        - Add the `Engagement Minute` filter at the person level to get down under 100 people per account. If you send to more than 100 people per account, it will trigger spam filters.
+        - Add the `Engagement Minutes` filter at the person level to get down under 100 people per account. If you send to more than 100 people per account, it will trigger spam filters.
     - For *geo wide* - i.e. all of AMER West - send should be no more than 10K
     - For *Sub-geo* - i.e all of NorCal - no more than 5k sends
     - For *territory* - i.e. Bay Area - no more than 2,500k

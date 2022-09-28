@@ -1,0 +1,22 @@
+---
+name: Caleb Cooper
+locality:
+country: Remote
+role: <a href="/job-families/engineering/support-engineer/#us-federal-support-engineer">Support Engineer (US Federal)</a>
+reports_to: jameslopes
+picture: calebcooper.jpg
+pronouns: he/him
+pronunciation: KAY-lehb KOO-pr
+twitter: 
+gitlab: calebcooper
+departments:
+- Customer Support
+expertise: |
+  <li> Linux </li>
+  <li> Scripting, <a href="https://git.technolibre.net/bashadventures/bashadventures">especially BASH</a> </li>
+  <li> Customer Support </li>
+story: Caleb is a Support Engineer in the Americas team. He came to GitLab from <a
+  href="https://www.ornl.gov">Oak Ridge National Laboratory</a>. Caleb enjoys solving
+  hard problems and seeing others succeed. For the last several years, he has been
+  spending his free time writing <a href="https://git.technolibre.net/bashadventures/bashadventures">a
+  game in BASH</a>.

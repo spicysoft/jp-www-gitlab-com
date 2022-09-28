@@ -93,7 +93,7 @@
   employee_or_customer_facing_app: null
   notes: null
   saas: null
-  handbook_link: "[ADP Guide for Pay Date](/handbook/finance/payroll/#pay-date) and [ADP Guide for New Hires](/handbook/finance/payroll/#us)"
+  handbook_link: "[ADP Guide for Pay Date](/handbook/finance/payroll/#pay-date), [ADP Guide for New Hires](/handbook/finance/payroll/#us) and [ADP Tech Stack Guide](handbook/finance/payroll/tech-stack-guide-adp)"
   google_group: null
 
 - title: Allocadia
@@ -167,7 +167,7 @@
   team_member_baseline_entitlement: false
   subprocessor:
   description: Key system utilized by Security Compliance for User Access Reviews
-  access_to: Security Assurance and Techincal Owners 
+  access_to: Security Assurance and Technical Owners 
   provisioner: '@rcshah, @Julia.Lake'
   deprovisioner: '@rcshah, @Julia.Lake'
   group_owner_slack_channel: '#sec-assurance'
@@ -525,7 +525,7 @@
   deprovisioner: null
   group_owner: People Ops
   group_owner_slack_channel: '#people-connect'
-  business_owner: Wendy Barnes
+  business_owner: Wendy Barnes, Pattie Egan
   technical_owner: Anesia Chan
   data_classification: Orange
   integration_method: SWA
@@ -1088,7 +1088,7 @@
     it easy to collect, understand and act on team member feedback. It helps improve
     engagement, the experience and effectiveness of every team member."
   access_to: Team Members
-  provisioner: "@anechan"
+  provisioner: "@Laura-Janssen @anechan"
   deprovisioner: null
   group_owner: People Ops
   group_owner_slack_channel: '#people-connect'
@@ -1528,30 +1528,6 @@
   external_link: null
   google_group: null
 
-- title: EdCast
-  team_member_baseline_entitlement: true
-  subprocessor: false
-  description: Provide structured, personalized learning experiences for GitLab team members, customers (including our community), and partners
-  access_to: Team Members, Customers, and Wider Community Members/Free Users
-  provisioner: Provisioning is automated for new team members. Access change requests for elevated access are completed by @jallen16 
-  deprovisioner: Deprovisioning is automated for offboarded team members. Access change requests for active team members who no longer require access are completed by @jallen16
-  group_owner: Learning and Development
-  group_owner_slack_channel: '#learninganddevelopment'
-  business_owner: Pattie Egan
-  technical_owner: Christopher Nelson
-  data_classification: Orange
-  integration_method: SAML
-  need_move_to_okta: null
-  critical_systems_tier: Tier 3 / Non-critical
-  compliance_scope: none
-  collected_data: null
-  processing_customer_data: null
-  employee_or_customer_facing_app: Employee and Customer
-  notes: null
-  saas: null
-  handbook_link: null
-  google_group: null
-
 - title: Elastic Cloud Indexing
   team_member_baseline_entitlement: false
   subprocessor: null
@@ -1830,8 +1806,8 @@
     expand revenue, and scale operations."
   access_to: 'Customer Success: Technical Account Managers, Field Ops: Customer Success
     Enablement, Field Ops: SalesSystems, and FieldOps: CS Operations'
-  provisioner: "@jdbeaumont @cankney @emcinerney"
-  deprovisioner: "@cankney @emcinerney"
+  provisioner: "@jdbeaumont @cankney @ndumas"
+  deprovisioner: "@cankney @ndumas"
   group_owner: Customer Success Operations
   group_owner_slack_channel: '#sales-support'
   business_owner: David Sakamoto
@@ -2030,7 +2006,7 @@
 - title: Google Cloud Platform
   team_member_baseline_entitlement: false
   subprocessor: true
-  description: 'Additonal information on how GitLab utilizes [Google Cloud Platform](https://cloud.google.com/)
+  description: 'Additional information on how GitLab utilizes [Google Cloud Platform](https://cloud.google.com/)
     can be found [here](/partners/technology-partners/google-cloud-platform/).'
   access_to: null
   provisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
@@ -2056,7 +2032,7 @@
   team_member_baseline_entitlement: false
   subprocessor: false
   description: "[Google Search Console](https://search.google.com/search-console/about)
-    tracks and reports GitLab's site traffice and performance."
+    tracks and reports GitLab's site traffic and performance."
   access_to: Marketing Operations, Digital Marketing, Inbound Marketing, Infrastructure; Limited access is granted
     to this system, defined w/in baseline entitlements
   provisioner: "@jburton"
@@ -3090,7 +3066,7 @@
   employee_or_customer_facing_app: null
   notes: null
   saas: null
-  handbook_link: null
+  handbook_link: "[Netuite Guide](/handbook/finance/accounting/finance-ops/tech-stack-guide-netsuite)"
   google_group: okta-netsuite-users@gitlab.com
 
 - title: Nira
@@ -4521,15 +4497,14 @@
 - title: Tenable.IO
   team_member_baseline_entitlement: false
   subprocessor: false
-  description: "[Tenable.IO](https://www.tenable.com/products/tenable-io) is a vulnerability
-    management application."
+  description: "[Tenable.IO](https://www.tenable.com/products/tenable-io) is a vulnerability management application."
   access_to: SecurityOPS
-  provisioner: "@joe-dub, @pmartinsgl"
-  deprovisioner: null
+  provisioner: "@smanzuik, @jhebden, @skahn007"
+  deprovisioner: "@smanzuik, @jhebden, @skahn007"
   group_owner: Security
-  group_owner_slack_channel: "#security-team"
-  business_owner: Joe Dubail
-  technical_owner: Joe Dubail
+  group_owner_slack_channel: "#g_security_vulnmgmt"
+  business_owner: Steve Manzuik
+  technical_owner: Steve Manzuik
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -4539,7 +4514,7 @@
   processing_customer_data: null
   employee_or_customer_facing_app: Employee
   notes: null
-  saas: null
+  saas: true
   handbook_link: null
   google_group: null
 
@@ -4965,11 +4940,11 @@
   subprocessor: false
   description: ACCOUTNING TEAMS!! Xactly Commission Expense Accounting (CEA) is an end-to-end solution for managing commissions, or ‘the costs of obtaining a contract,’ under ASC 606 (IFRS 15). Including full capitalization and amortization, Xactly CEA allows GitLab to easily and securely monitor performance obligations and ensure full compliance with the new commission accounting requirements.
   access_to: Finance
-  provisioner: '@edelongpre'  
-  deprovisioner: '@gggonzalez'
+  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'  
+  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner_slack_channel: 'Finance (Group Owner) #finance'
   business_owner: Erica de Longpre
-  technical_owner: Griz Gonzalez
+  technical_owner: FinSys admin team
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -5085,11 +5060,11 @@
   subprocessor: false
   description: "Workday is used to store all team member information in one central location."
   access_to: Team Members
-  provisioner: "@nutaurus @anechan"
+  provisioner: "@Laura-Janssen @demina @anechan"
   deprovisioner: Deprovisioned through Okta
   group_owner: People Technology
   group_owner_slack_channel: '#people-connect'
-  business_owner: Wendy Barnes
+  business_owner: Wendy Barnes, Pattie Egan
   technical_owner: Anesia Chan
   data_classification: Orange
   integration_method: SAML
@@ -5101,7 +5076,7 @@
   employee_or_customer_facing_app: Employee
   notes: null
   saas: null
-  handbook_link: null
+  handbook_link: "[Workday Guide](/handbook/people-group/workday/tech-stack-guide-workday)"
   google_group: null
 
 - title: Workiva

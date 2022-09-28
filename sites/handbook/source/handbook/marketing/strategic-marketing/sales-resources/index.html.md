@@ -137,7 +137,7 @@ Customers aren't going to think about or ask for different "stages". They are go
 ### Monitor
 
 - [Monitor overview](/stages-devops-lifecycle/monitor/)
-- [Integrated APM for Cloud Native Applications](/solutions/apm/)
+- Integrated APM for Cloud Native Applications
 - [Monitor Demo video](https://www.youtube.com/watch?v=mm_8wVjn808&t=2s)
 - [Incident Management video](https://www.youtube.com/watch?v=f4wNjjF9NhQ)
 

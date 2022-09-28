@@ -22,7 +22,7 @@ Last reviewed: 2022-08-07
 
 1. Distribution: Spamcheck was an internal tool that was intended to help detect and prevent spam from GitLab. After initial testing we felt users would benefit from this tool as well. [Spamcheck is now included in `omnibus-gitlab` packages](https://gitlab.com/gitlab-org/spamcheck), and our [GitLab Helm chart](https://gitlab.com/gitlab-org/charts/gitlab/-/issues/2936) for use by our self-managed customers.
 1. Geo: [Replication and verification of project-level secure files](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#geo-supports-project-level-secure-files) across Geo sites was added in 15.3. With [project-level secure files](https://docs.gitlab.com/ee/ci/secure_files/) you can upload binary files, such as profiles, certificates, and keystores, to projects in GitLab and use them in CI/CD jobs.
-1. Geo: Performance improvement - Commenting on an issue generates a keep around ref if it doesn't exist for the current commit. Each keep around ref triggers a subsequent repository replication event on the secondaries. This behaviour uses a lot of overhead. Batch processing keep around refs and triggering a single repository replication for a collection of keep around refs help deliver a performance improvement and reduces overhead.  
+1. Geo: Performance improvement - Enabled by default batch count logic used in usage ping to improve performance of slow count queries triggered by the Geo::MetricsUpdateWorker. This will reduce the load on the database at the primary Geo site.
 1. Database: In 15.0 we released the batched background migrations framework to all teams inside GitLab. This is a novel, more reliable way for performing large scale data updates in the background. We are excited that all background migrations introduced during 15.1 and 15.2 are using this new framework, a 100% adoption rate. 
 
 #### What's Ahead
@@ -42,7 +42,6 @@ Upcoming features can always be found on the [Enablement kick off page](https://
 1. Database: [Automated database testing using production clones](https://gitlab.com/groups/gitlab-org/database-team/-/epics/9) - Expand scope and start work on performing [automated query analysis for Merge Requests](https://gitlab.com/groups/gitlab-org/database-team/-/epics/12). (On hold during 15.3)
 1. Geo: Continue effort to [Move existing data types into the Self Service Framework](https://gitlab.com/groups/gitlab-org/-/epics/3588)
   - [Projects and Wikis](https://gitlab.com/groups/gitlab-org/-/epics/4623)
-  - [Container registry](https://gitlab.com/groups/gitlab-org/-/epics/6506)
   - [Design repositories](https://gitlab.com/groups/gitlab-org/-/epics/4624)
 1. Global Search: [Add search filtering by programming language](https://gitlab.com/groups/gitlab-org/-/epics/6853)
 1. Global Search: [Update Global Search scopes to be vertical navigation](https://gitlab.com/gitlab-org/gitlab/-/issues/293740)

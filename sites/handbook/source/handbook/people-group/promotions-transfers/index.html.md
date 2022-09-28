@@ -330,7 +330,6 @@ This section describes the approval chain after a manager submits a promotion or
 1. If the request is approved through Workday, the People Connect Team will create the [Letter of Adjustment](/handbook/people-group/promotions-transfers/#letter-of-adjustment), whereas if the request is through Greenhouse the `People Connect Team will be notified via the People Connect team email` inbox that the [Letter of Adjustment](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#letter-of-adjustment) has been created by the CES team and signed. If this is the case, only data systems will need to be updated.
 1. If the request comes through Workday, approve the request, then update the entries in Workday to ensure that there are the proper dates, amounts, job information. Also, ensure to add stock options to the job tab if applicable. If the team member is moving to a Manager position, update their access level in Workday.
 1. Notify Payroll of the changes. This can be done in the following google docs: United States: "Payroll Changes", Everyone else: "Monthly payroll changes for non-US international team members". Payroll does not need to be notified for Contractors.
-1. If the team member is in Sales or transferred to Sales, update the changes tab on the "Final Sales OTE FY 2020" google doc.
 1. If the team member is employed in Canada notify Total Rewards of the salary change (so they can update their salaries on Canada Life and Collage platforms).
 
 #### Letter of Adjustment
@@ -360,7 +359,7 @@ This section describes the approval chain after a manager submits a promotion or
 1. the People Connect Team members will create an associated [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) with the [Slack Command](/handbook/people-group/engineering/#internal-transition-issue-creation) list and track associated tasks for the previous and new manager. Tag or mention the aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) in the Career Mobility Issue.
 1. The previous manager will be prompted to create an [Access Removal Request Issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/blob/master/.gitlab/issue_templates/Access%20Removal%20Request.md) and the new manager will create an [Access Request Issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests) to ensure the correct access is given for the new role and deprovisioned for the previous role, if need be.
 
-**Note** Letter of adjustment is sent to team member's personal email address instead of GitLab email address to ensure a proper audit trail.  
+**Note** Letter of adjustment is sent to team member's GitLab email address.  
 
 ## Interim and Acting Roles
 
@@ -442,9 +441,18 @@ To demote one of your direct reports, a manager should follow the following step
 
 Job information changes are anything that requires an update to the team member's profile in Workday that is not compensation related. The current manager is the person who needs to submit all job information change requests (including requests to change team member's manager). These changes need to get requested through Workday to have an approval trail for compliance reasons.
 
+**TO UPDATE**
+
 **Process for the current manager:**
 
-**TO UPDATE**
+[This job aid](https://docs.google.com/document/d/1JEobACNSMeHU4pU5DaaF7aqmv9wmSDoXx7veZ6_SM_I/edit?usp=sharing) will help provide people managers with instructions on how to move team members to another manager within Workday.
+If the manager you need to move your direct report to is not available, it likely means they do not have a supervisory organization set up. Even if their management level shows “Manager” a supervisory organization is needed in Workday for a team member to have a direct report. Supervisory organizations should have a name unique to the team they are managing (e.g. Commercial Sales - EMEA, Content Marketing (John Smith), Backend Engineering - Ruby).
+Please reach out to #people-connect with the name of the team member who needs the supervisory organization set up, the unique name, and the effective date of the supervisory organization. We can gladly help get it set up in Workday.
+
+### For People Connect: Processing Manager changes
+1. The People Connect Specialist logs into Workday via Okta to approve the transfer in Workday > click on Inbox in top right corner
+1. Review the business process titled 'Transfer' and reason 'Manager to Another Manager' > click: approve
+1. Log into BambooHR and update the manager, as this is currently connected to PTO by roots: Click on tab: Job > scroll to: Job Information > Click on: Update Job Information > Fill in the following fields: Under 'Effective Date' add the same effective date as in Workday and select under 'Reports To' the applicable new manager > click: save
 
 **Process for EBA to update senior leadership:**
 1. Send an email to People Connect, `people-connect@gitlab.com` requesting the changes to be made in Workday

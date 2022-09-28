@@ -30,6 +30,7 @@ When no specific deployment type (omnibus, source code, helm chart, etc.) of a p
 |[Remote Command Execution via GitHub import](#remote-command-execution-via-github-import)|critical|
 |[Stored XSS via labels color](#stored-xss-via-labels-color)|high|
 |[Content injection via Incidents Timeline description](#content-injection-via-incidents-timeline-description)|high|
+|[Denial of Service via Issue preview](#denial-of-service-via-issue-preview)|high|
 |[Lack of length validation in Snippets leads to Denial of Service](#lack-of-length-validation-in-snippets-leads-to-denial-of-service)|medium|
 |[Group IP allow-list not fully respected by the Package Registry](#group-ip-allow-list-not-fully-respected-by-the-package-registry)|medium|
 |[Abusing Gitaly.GetTreeEntries calls leads to denial of service](#abusing-gitalygettreeentries-calls-leads-to-denial-of-service)|medium|
@@ -38,7 +39,6 @@ When no specific deployment type (omnibus, source code, helm chart, etc.) of a p
 |[Regular Expression Denial of Service via special crafted input](#regular-expression-denial-of-service-via-special-crafted-input)|medium|
 |[Information Disclosure via Arbitrary GFM references rendered in Incident Timeline Events](#information-disclosure-via-arbitrary-gfm-references-rendered-in-incident-timeline-events)|medium|
 |[Denial of Service via the Create branch API](#denial-of-service-via-the-create-branch-api)|medium|
-|[Denial of Service via Issue preview](#denial-of-service-via-issue-preview)|medium|
 |[Brute force attack may guess a password even when 2FA is enabled](#brute-force-attack-may-guess-a-password-even-when-2fa-is-enabled)|low|
 |[IDOR in Zentao integration leaked issue details](#idor-in-zentao-integration-leaked-issue-details)|low|
 
@@ -133,7 +133,7 @@ Thanks [elise](https://gitlab.com/elise) for reporting this vulnerability.
 
 <!-- https://gitlab.com/gitlab-org/gitlab/-/issues/361982 -->
 
-A potential DOS vulnerability was discovered in GitLab CE/EE affecting all versions before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. Malformed content added to the issue description could have been used to trigger high CPU usage. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`, 7.5). It is now mitigated in the latest release and will update this blog post with a CVE  when it is assigned.
+A potential DOS vulnerability was discovered in GitLab CE/EE affecting all versions before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. Malformed content added to the issue description could have been used to trigger high CPU usage. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`, 7.5). It is now mitigated in the latest release and is assigned [CVE-2022-2931](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2931).
 
 Thanks [legit-security](https://hackerone.com/legit-security) for reporting this vulnerability through our HackerOne bug bounty program.
 

@@ -1,0 +1,37 @@
+---
+name: Tetiana Chupryna
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend
+  Engineer, Secure:Composition Analysis</a>
+reports_to: olivier-g
+picture: tetianachupryna.jpg
+twitter: TetianaOfficial
+gitlab: brytannia
+pronouns: she/her
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Composition Analysis BE Team
+- Merge Request Coach
+expertise: |
+  <li><a href="https://docs.gitlab.com/ee/api/graphql">GraphQL</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+domain_expertise:
+- rails
+- secure
+projects:
+  gitlab:
+  - maintainer backend
+  secure-LC-license-finder: maintainer backend
+  secure-container-scanning: reviewer backend
+  tanuki_emoji: maintainer
+story: |
+  Tetiana became a GitLab user in 2015 and she joined the team almost 4 years after.
+  She is interested in security and secretly obsessed with math statistics.
+  In her spare time, Tetiana grows herbs and vegetables in her balcony garden,
+  learns new languages, cooks, paints in watercolor and reads books.
+  If she is lucky and there is snow outside, she enjoys riding a snowboard.
+specialty: Composition Analysis
+

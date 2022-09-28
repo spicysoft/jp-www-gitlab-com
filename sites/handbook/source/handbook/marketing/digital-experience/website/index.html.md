@@ -455,8 +455,8 @@ This list is used in the automated triage operation ["Stage and group labels inf
 - `body`: content added in markdown will be [auto-generated](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/config.rb#L133) and turned into a page at `/product/<category>/`. Features and missing features sections are automatically added to the generated category pages based on what category a feature belongs to in `features.yml`. c.f. [Project Management](/product/project-management/) (and auto-generated page from the [`body` section in `categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml#L148)) with [Continuous Integration](/stages-devops-lifecycle/continuous-integration/) (a [custom page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/stages-devops-lifecycle/continuous-integration/index.html.haml).)
 - `opportunity`: values can be `Core`, `Adjacent`, `Distant` - is this category considered part of our existing `Core` DevOps platform, a directly `Adjacent` set of capabilities or a `Distant` vision for future breadth.
 - `differentiation`: values can be `Winning`,`Compelling`,`Minimal` - is this category sufficiently differentiated from competitors to be considered capable of consistently `winning`, providing an `compelling` additive component to our single platform value or adding only `minimal` differentiated value.
-- `ux_scorecard_score`: value should be a letter score, following the [grading rubric](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/#grading-rubric)
-- `ux_scorecard_link`: should link to the specific issue for the scorecard for this category. More details on [UX Scorecards here](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/#setup)
+- `ux_scorecard_score`: value should be a letter score, following the [grading rubric](https://about.gitlab.com/handbook/product/ux/ux-scorecards/#grading-rubric)
+- `ux_scorecard_link`: should link to the specific issue for the scorecard for this category. More details on [UX Scorecards here](https://about.gitlab.com/handbook/product/ux/ux-scorecards/#setup)
 - `dogfooding_status`: values can be `planned`, `limited`, and `exclusive`. Described in detail and used on `/source/direction/dogfooding`
 - `dogfooding_issue`: should link to the specific issue tracking dogfooding for this issue, per the [Dogfooding process](/handbook/product/product-processes/#dogfooding-process)
 - `dogfooding_group`: should list the right group/team/role/individual inside GitLab that should use the capability
@@ -592,66 +592,19 @@ Copy and paste this template:
 
 ### Updating content on GitLab Learn
 
-The underlying data shown on the [GitLab Learn](/learn/) page is available in [https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/learn](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/learn)
+The underlying data shown on the [GitLab Learn](/learn/) page is available in [https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml)
 
 To update the course content data:
 1. Open an MR to the [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) file. Follow the existing syntax in the file. For ease of adding a new course, we recommend copying an existing entry and updating the values based on the new course being added, populating every field.
 1. Add content to the list as soon as it is planned. 
 1. To indicate that a course is planned for the future, include a live_date in the future. You can see an example in [this MR #94773](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/94773). 
-1. You can see the full list of valid values to use in course classification fields (e.g., maintainer, level) in the [classification.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/learn/classification.yml) file. This classification file has the underlying data for our [GitLab Learn Classification page](/learn/classification/). 
-1. If you'd like to use a new value for the course that you're adding, make sure to add it to classification.yml as part of your MR. 
-
-Please avoid leaving any classification fields empty if they apply, since that would prevent the course from appearing in the appropriate filtered results. If a value for a data field is not yet available, for example the url for a future course, leave the field empty. 
 
 Important guidelines to keep in mind: 
-1. [learn.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/learn/learn.yml) is our SSOT for GitLab-produced content, including all existing and future planned content. 
-1. When planning new learning content, add it to [learn.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/learn/learn.yml) as soon as possible, at a minimum monthly, and aim to include what you plan to produce over the upcoming 6 months or more. This gives visibility to all other GitLab team members producing learning content as to what has been planned. 
-1. Before producing new content, check [learn.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/learn/learn.yml) for redundancy, as other teams may have developed or plan to develop similar content. 
+1. [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) is our SSOT for GitLab-produced content, including all existing and future planned content. 
+1. When planning new learning content, add it to [learn.yml]https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) as soon as possible, at a minimum monthly, and aim to include what you plan to produce over the upcoming 6 months or more. This gives visibility to all other GitLab team members producing learning content as to what has been planned. 
+1. Before producing new content, check [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) for redundancy, as other teams may have developed or plan to develop similar content. 
 1. Communicate updates with other DRIs working on learning content by posting on the #gitlab-learn-updates Slack channel (available to team members only)
 
-### Creating a new page listing learning resources
-
-When creating new pages to list subsets of our learning resources, you should make the lists autogenerate based on the SSOT [learn.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/learn/learn.yml) file. Here are a few examples of how to do this, you can edit these to generate other variations based on the course attributes available at [classification.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/learn/classification.yml).
-
-**List of courses for a specific use case**
-
-This embedded ruby (erb) code generates a list of courses in from learn.yml filtering for only courses tagged with the use_case of "Continuous Integration". This will work on erb pages (e.g., index.html.md.erb).
-
-```erb
-<% data.learn.learn.select{|course| course.use_case == "Continuous Integration"}.sort_by(&:name).each do |course| %>
-<%= "- [#{course.name}](#{course.url})" %>
-<% end %>
-```
-
-**List of certifications**
-
-This embedded ruby (erb) code generates a table from learn.yml with only those courses tagged as a certification and as available to the public. This code generates the table on our [Public GitLab Certifications](https://about.gitlab.com/learn/certifications/public/) page. This will work on erb pages (e.g., index.html.md.erb).
-
-```erb
-| Use Case | Certification | Level |
-| --- | --- | --- |
-<% data.learn.learn.select{|course| course.assessment == "Certification" && course.confidentiality == "Public" && course.live_date && Date.parse(course.live_date) <= Date.today}.each do |course| %>
-<%= "| #{course.use_case} | [#{course.name}](#{course.url}) | #{course.level} |" %>
-<% end %>
-```
-
-**List of learning materials by use case in table form**
-You can see the source code on [this page](/learn/use-case/public/) for an example on how to build a page with headers based on the classification.yml file and then for each header (use case in this case) build a table with the relevant course data. This will work on erb pages (e.g., index.html.md.erb).
-
-```erb
-<% data.learn.classification["use-case"].categories.each do |use_case| %>
-<% course_list = data.learn.learn.select{|course| course.use_case == use_case.name && course.confidentiality == "Public" && course.live_date && Date.parse(course.live_date)} %>
-<% next if course_list.empty? %>
-<%= "## #{use_case.name}" %>
-
-| Course | Registration | Assessment |
-| ------ | --------------- | ---------- | 
-<% course_list.each do |course| %>
-<%= "| [#{course.name}](#{course.url}) | #{course.registration} | #{course.assessment} |" %>
-<% end %>
-
-<% end %>
-```
 
 ### Creating a DevOps tools comparison page
 

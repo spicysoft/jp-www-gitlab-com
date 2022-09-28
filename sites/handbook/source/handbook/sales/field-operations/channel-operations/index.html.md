@@ -98,13 +98,13 @@ There are a number of different slack channels to serve the different needs of t
 
 | Slack Channel | Description | Topic | Audience | Posting Permissions |
 | ------ | ------ | ------ | ------ | ------ |
-| partner-fyi | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #channel-programs-ops or #channel-sales | _blank_ | any | Channel Operations, Channel Programs, Michelle Hodges, Nima Badiey
+| partner-fyi | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #channel-programs-ops or #channel-sales | _blank_ | any | Channel Operations, Channel Programs, Nima Badiey
 | channel-program-ops | Questions and comments about channel programs and operations | https://about.gitlab.com/handbook/resellers/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
-| channel-sales |  Questions and comments about opportunities, partner connections, field engagement, and other channel sales questions | _blank_ | any | any |
-| channels-emea | A channel for the EMEA channels team and stakeholders to collaborate | Team coverage: Matthew: France, Russia, Spain, MEA; Ilaria: DACH, Poland, Italy, Cze; Kevin: UK, I, Nordics, BeneLux; Bastian: Commercial (Open partners pan EMEA + Amazic); Camille: Partner Support Helpdesk; Adrian: Solutions Architect - pan EMEA | any | any |
-| channels-amer | A channel for the AMER channels team and stakeholders can collaborate | Team coverage: Jennifer Bailey: Canada & US - West; Sergio Cortes: LATAM & US - Central; Shannon Thomas: US - East; Kyle Olsen: AWS; Kasim Ahmad: GCP; Annie Rooke: Director | any | any |
+| channel-sales |  Questions and comments about opportunities, partner connections, field engagement, and other channel sales questions |  | any | any |
+| channels-emea | A channel for the EMEA channels team and stakeholders to collaborate |  | any | any |
+| channels-amer | A channel for the AMER channels team and stakeholders can collaborate |  | any | any |
 | pub-sec-channels | A channel for the Pubsec channels team and stakeholders to collaborate |  [Team Coverage](https://docs.google.com/spreadsheets/d/1fCaRgYn0qJ5lT3Qgaq-Vqkw3X6wa53py3Qm7yPYYlA4/edit#gid=0) | any | any |
-| apac_partners | A channel for the APAC channels team and stakeholders can collaborate | _blank_ | any | any |
+| apac_partners | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
 | channel-services | Questions and comments about channel services program, enablement and field engagement |  | any | any |
 | alliances | A channel for collaboration with the alliances Team | https://about.gitlab.com/handbook/alliances/ | any | any |
 | alliance_sales_ops | Questions and comments about alliance operations | https://about.gitlab.com/handbook/alliances/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
@@ -679,7 +679,7 @@ For any questions regarding our Alliance partners, please reach out to the #alli
 ***Use Case 1: Partner Co-Sell (Marketplace transaction with no source credit)*** 
 
 If a deal is being transacted through **GCP Marketplace** or **AWS Marketplace**, then the following fields need to be filled out on the opportunity:
-- **Partner Co-Sell** = [GCP](https://gitlab.my.salesforce.com/0014M00001nJhks)* or [AWS](https://gitlab.my.salesforce.com/0014M00001ldTdt)*  
+- **Resale Partner** = [GCP](https://gitlab.my.salesforce.com/0014M00001nJhks)* or [AWS](https://gitlab.my.salesforce.com/0014M00001ldTdt)*  
 _*Be sure to use the correct SFDC account. Click on the link to confirm the GCP and/or AWS account.)_  
  
 ***Use Case 2: Partner Sourced Deal Registration (No Marketplace transaction)***  

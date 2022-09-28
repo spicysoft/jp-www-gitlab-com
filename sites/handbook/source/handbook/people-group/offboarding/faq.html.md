@@ -38,13 +38,8 @@ The following can be used as a guide on what actions could need to be taken befo
 
 - Unassign / Reassign any open projects, issues or merge requests to other team members or your manager. Use the [Global Search](https://docs.google.com/spreadsheets/d/1kVpBWDgxEp3zLyurE5Q9zpeDrGjWcDB7wb11uBl89ZQ/edit#gid=0) function and search your gitlab handle. 
 - [Install JAMF](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/endpoint-management/#installing-jamf) to assist the IT OPs team (if not already done).
-- Schedule a meeting with one of the IT Ops team members (depending on your region) for 30-60 minutes before your scheduled offboarding **time**. 
-    - Marc DiSabatino - [appointment schedule](https://calendly.com/mdisabatino) - US time zone
-    - Jeff Ford - [appointment schedule](https://calendar.app.google/Qc1wwN94q6RqEyGL9) - US Time Zone
-    - Jenny Wong - [appointment schedule](https://calendar.app.google/HJoCYkbf4XnApqSU6) - Pacific Time Zone
-    - Paul Laurinavicius - [appointment schedule](https://calendly.com/plaurinavicius) - EMEA time zone
-    - Ian Forde - [appointment schedule](https://calendar.app.google/T5Tu4M6UbDXPQ1kLA) - EMEA time zone
-    - For APAC, please reach out to us in the #it_help Slack channel
+- Schedule a meeting with one of the IT Ops team members (depending on your region) for 30-60 minutes before your scheduled offboarding **time**.
+  - You can schedule an appointment with one of the IT Analysts, their schedules can be found in this [handbook page](https://about.gitlab.com/handbook/business-technology/team-member-enablement/#laptop-wipe-schedules-for-it-analysts).
 - Copy over any personal passwords currently stored in 1Password (this will be disabled once offboarding is processed and you will no longer have any access to any of your personal passwords).
 - Prepare a handover document for your team / manager. 
 - Notify customers and introduce them to the team member that will be assisting them going forward (if applicable). 
@@ -84,7 +79,7 @@ Please create your final expense report to Expensify (for employees), OR, please
 
 #### How do I submit reimbursable expenses if I don’t have a GitLab access to Expensify?
 
-Finance provides an invoice template that can be emailed to your personal email. Return the completed form to `uspayroll@gitlab.com`
+Please follow the process as listed on the Expense Handbook [page](https://about.gitlab.com/handbook/finance/expenses/#expense-reimbursement-for-terminated-team-members). For any queries regarding final expenses, please send an email to `ap@gitlab.com`
 
 #### Other Reimbursements, Refunds or Repurchasements
 

@@ -1,0 +1,29 @@
+regions:
+  - North America
+  - South America
+  - Central America
+  - Europe
+  - Asia
+  - Africa
+  - Oceania
+
+topics:
+  - Remote Work
+  - 'Diversity, Inclusion, and Belonging'
+  - CI/CD
+  - Git
+  - Security
+  - DevOps
+  - Open Source
+  - Education
+  - Engineering
+  - SRE / Operations
+  - Kubernetes
+  - Monitoring & Observability
+  - UX Design
+  - Documentation
+  - Cloud Native
+  - GitOps
+  - MLOps
+  - Data Science
+  - Machine Learning

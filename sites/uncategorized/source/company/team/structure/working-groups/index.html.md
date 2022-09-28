@@ -138,6 +138,7 @@ If you are interested in participating in an active working group, it is general
 * [Continuous Scanning](/company/team/structure/working-groups/continuous-scanning/)
 * [Cross Functional Prioritization](/company/team/structure/working-groups/cross-functional-prioritization/)
 * [Demo & Test Data](/company/team/structure/working-groups/demo-test-data/)
+* [Engineering Internship](/company/team/structure/working-groups/engineering-internship/)
 * [Event Stream](/company/team/structure/working-groups/event-stream/)
 * [Expense Management](/company/team/structure/working-groups/expense-management/)
 * [FedRAMP Execution](/company/team/structure/working-groups/fedramp-execution/)
@@ -206,9 +207,9 @@ If you are interested in participating in an active working group, it is general
 * [Transient Bugs](/company/team/structure/working-groups/transient-bugs/)
 * [Upstream Diversity](/company/team/structure/working-groups/upstream-diversity/)
 
-## 12 Cross-Functional Initiatives
+## Top Cross-Functional Initiatives
 
-In FY22-Q4, we identified top cross-functional initiatives that are key to GitLab's success in FY23 and beyond. While there are other important business initiatives and priorities that exist within functions or require engagement across the business, we elevated these initiatives to address cross-functional dependencies, align on goals, and ensure ongoing reporting and monitoring. These projects are the most important _cross-functional_ ones, not necessarily the most important projects and initiatives. 
+We identify annual top cross-functional initiatives that are key to GitLab's success in the fiscal year and beyond. While there are other important business initiatives and priorities that exist within functions or require engagement across the business, we elevated these initiatives to address cross-functional dependencies, align on goals, and ensure ongoing reporting and monitoring. These projects are the most important _cross-functional_ ones, not necessarily the most important projects and initiatives. 
 
 Please note that a limited set of team members currently have access to the linked Epics. We are exploring ways to make more information available to all team members and the wider-community while keeping sensitive information contained to a smaller group.
 
@@ -219,10 +220,10 @@ This is the list of our active Top Cross-Functional Initiatives.
 | Initiative | DRI / Sponsor | Description | Links |
 | ------ | ------ |------ | ------ |
 | Usage Reporting | @jdbeaumont / @mmcb   | Ensure customer product usage and utilization metrics are surfaced to the right teams at the right time to drive improvements in customer adoption and flag high potential user growth/tier-upgrade opportunities. | [Operational Data Vision](https://about.gitlab.com/handbook/customer-success/product-usage-data/), [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/1) |
-| Cloud Licensing | @ofernandez2 / @david  | Provide automated licensing functionality to customers to improve their experience while reducing the chances of sales and support escalations. | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/2) |
-| FedRAMP | @JohnathanHunt / @edjdev | Achieve FedRAMP Moderate Certification. | [Working group page](/company/team/structure/working-groups/fedramp-execution/), [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/3) |
-| Project Horse | @marin / @edjdev  | [Internally confidential](https://about.gitlab.com/handbook/communication/confidentiality-levels/#internal) | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/4)  |
-| SaaS Reliability | @sloyd / @edjdev  | Achieve enterprise grade security and reliability for our SaaS. | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/5) |
+| Fulfillment Efficiency | @ofernandez2 / @sytses  | Rollout new Quote Studio using new Zuora Orders API and Ramps functionality. Move CustomersDot to use Zuora Orders APIs. Align to Zuora Billing Account as a Customer Account. SSO / combine CDot and Gitlab user databases. Link ArrowSphere to CustomersDot. | [FY23 Roadmap](https://docs.google.com/presentation/d/1eTH09QZqnazJ4jh-jVGTEYEFA3m6R2jwWuhY5_EtPL4/edit#slide=id.g123a13deda8_0_405) |
+| FedRAMP | @JohnathanHunt / @akramer | Achieve FedRAMP Moderate Certification. | [Working group page](/company/team/structure/working-groups/fedramp-execution/), [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/3) |
+| Project Horse | @marin / @akramer  | [Internally confidential](https://about.gitlab.com/handbook/communication/confidentiality-levels/#internal) | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/4)  |
+| SaaS Reliability | @sloyd / @akramer  | Achieve enterprise grade security and reliability for our SaaS. | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/5) |
 | SaaS Free User Efficiency | @ipedowitz / @akramer  | Adjust free program offerings to increase conversion rate and reduce sales and marketing cost while still giving back to students, startups, educational institutions, open source projects, GitLab contributors, and nonprofits. | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/free-saas-user-efficiency/-/epics/1) |
 | User Engagement | @johncoghlan / @akramer  | Create a developer brand through generating awareness among various communities that become advocates of GitLab and influence purchase decisions. | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/8) |
 | Project Matterhorn | @keithchung / @david   | [Limited access](https://about.gitlab.com/handbook/communication/confidentiality-levels/#limited-access) | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/7) |
@@ -244,7 +245,7 @@ Top Cross-Functional Initiatives are discussed in the annual planning process. I
 
 Any addition or retirement of Top Cross-Functional Initiatives should be shared with E-Group in advance of retirement. It is important that there is room for alignment and discussion in advance of removal. This can happen in a designated forum as part of the annual planning process or through a discussion topic in an [E-Group Weekly](https://about.gitlab.com/handbook/e-group-weekly/). After the E-Group Sponsor and CEO have agreed to retire the initiative, and E-Group has had a forum for any feedback; the E-Group Sponsor is responsible for ensuring that the initiative is appropriately closed out and any internal and/or external communication is thoughtfully managed. 
 
-When an initiative is retired, it should be moved from the [current initiative list](/company/team/structure/working-groups/#12-cross-functional-initiatives) to the [retired initiative list](/company/team/structure/working-groups/#retired-top-cross-functional-initiatives).
+When an initiative is retired, it should be moved from the [current initiative list](/company/team/structure/working-groups/#top-cross-functional-initiatives) to the [retired initiative list](/company/team/structure/working-groups/#retired-top-cross-functional-initiatives).
 
 ### Cross-Functional Initiative DRIs
 
@@ -255,7 +256,7 @@ Each of our top cross-functional initiatives has an Executive Sponsor and a [dir
 
 ### Information Access
 
-We are tracking in epics and issues in a separate namespace to comply with [SAFE guidelines](/handbook/legal/safe-framework/). If team members want access to a specific initiative, they should reach out to the appropriate DRI. Links to each initiative and other details are captured in the [chart above](/company/team/structure/working-groups/#12-cross-functional-initiatives). 
+We are tracking in epics and issues in a separate namespace to comply with [SAFE guidelines](/handbook/legal/safe-framework/). If team members want access to a specific initiative, they should reach out to the appropriate DRI. Links to each initiative and other details are captured in the [chart above](/company/team/structure/working-groups/#top-cross-functional-initiatives). 
 
 ## Retired Top Cross-Functional Initiatives
 
@@ -264,3 +265,5 @@ This is a a list of top cross-functional initiatives that have been retired.
 | Initiative | DRI / Sponsor | Description | Links | Start / Year |
 | ------ | ------ |------ | ------ | ------ |
 |Category Leadership | @melsmo / @akramer   | Become the overall leader of The DevOps Platform through defining and owning the category. **This is still important to GitLab, but it will be managed by the Marketing Team, not as a top cross-functional initiative** | [Working group page](/company/team/structure/working-groups/category-leadership/), [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/10) | FY23-Q1 - FY23-Q2 |
+| Cloud Licensing | @ofernandez2 / @david  | Provide automated licensing functionality to customers to improve their experience while reducing the chances of sales and support escalations. | [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/2) | FY23-Q1 - FY23-Q3 |
+

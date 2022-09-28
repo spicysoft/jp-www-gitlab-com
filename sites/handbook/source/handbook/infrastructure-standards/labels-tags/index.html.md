@@ -586,6 +586,7 @@ The full list of groups was last audited and updated on 2021-07-22.
 | eng-security    | eng-security             |                                   | eng-security-eng-app-sec             | |
 | eng-security    | eng-security             |                                   | eng-security-eng-automation          | |
 | eng-security    | eng-security             |                                   | eng-security-eng-research            | |
+| eng-security    | eng-security             |                                   | eng-security-eng-vuln-mgmt            | |
 | eng-support     | eng-support              |                                   | eng-support-shared-infra             | |
 | eng-support     | eng-support              |                                   | eng-support-saas                     | |
 | eng-support     | eng-support              |                                   | eng-support-self-managed             | |

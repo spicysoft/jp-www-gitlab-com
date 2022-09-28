@@ -1,0 +1,25 @@
+---
+name: Alex Ives
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/manager/">Backend Engineering Manager,
+  Database</a>
+reports_to: nick-nguyen
+pronouns: he/him/his
+picture: alexives.png
+twitter: alexeives
+linkedin: alexeives
+gitlab: alexives
+departments:
+- Engineering Function
+- Development Department
+- Enablement Sub-department
+- Database BE Team
+projects:
+  gitlab:
+  - maintainer database
+story: |
+  With his strong passion for devops, Alex found his way to GitLab after 2 years of sporadic
+  community contributions. In his spare time Alex likes building custom keyboards (for typing),
+  spending time with his kid and numerous pets, and judging beer as a certified homebrew judge.
+specialty: Database

@@ -42,8 +42,8 @@ stages:
         focus: Manage Authentication & Authorization Paid GMAU
         pmm: Cindy Blake
         cm: Suri Patel
-        backend_engineering_manager: Michelle Gill
-        frontend_engineering_manager: Michelle Gill
+        backend_engineering_manager: Adil Farrukh
+        frontend_engineering_manager: Adil Farrukh
         be_team_tag: Manage:Authentication and Authorization BE Team
         fe_team_tag: Manage:Authentication and Authorization FE Team
         support:
@@ -159,7 +159,7 @@ stages:
         focus: Manage Optimize GMAU
         pmm: Cormac Foster
         cm: Suri Patel
-        em: Brandon Labuschagne (Acting)
+        em: Brandon Labuschagne (Interim)
         be_team_tag: Manage:Optimize BE Team
         fe_team_tag: Manage:Optimize FE Team
         support: TBD
@@ -262,7 +262,7 @@ stages:
 
       product_planning:
         name: Product Planning
-        pm: Melissa Ushakov
+        pm: Amanda Rueda
         focus: Plan Product Planning Paid GMAU
         pmm: 
         cm: Suri Patel
@@ -302,7 +302,7 @@ stages:
 
       certify:
         name: Certify
-        pm: Melissa Ushakov
+        pm: Matthew Macfarlane
         focus: Plan Certify Paid GMAU
         pmm: 
         cm: Suri Patel
@@ -428,7 +428,7 @@ stages:
         handbook: engineering/development/dev/create/code-review/
         support: Ben King
         sets:
-          - TBD
+          - Jay McCure
         pdm:
           - Marcel van Remmerden
         ux:
@@ -693,7 +693,7 @@ stages:
         uxr:
           - Erika Feldman
         ux:
-          - Nadia Sotnikova
+          - Kevin Comoli (Interim)
         qm: Joanna Shih
         sets:
           - Tiffany Rea
@@ -918,8 +918,9 @@ stages:
         pmm: Cindy Blake
         backend_engineering_manager: Amar Patel
         be_team_tag: Secure:Static Analysis BE Team
-        fe_team_tag:
-        support: Greg Myers, Eric Rosenberg
+        fe_team_tag: Secure:Static Analysis FE Team
+        support:
+          - Eric Rosenberg
         appsec_engineer: Nikhil George
         pdm:
           - Justin Mandell
@@ -1037,7 +1038,7 @@ stages:
         pmm: Cindy Blake
         backend_engineering_manager: Mark Art
         be_team_tag: Secure:Vulnerability Research BE Team
-        support: Greg Myers
+        support: TBD
         appsec_engineer: Nikhil George
         tech_writer: Clayton Cornell
         cs_team_tag: Vulnerability Research Group CS Stable Counterpart
@@ -1058,7 +1059,7 @@ stages:
 
   anti-abuse:
     display_name: "Anti-Abuse"
-    section: sec
+    section: data-science
     description: "Protect against abuse within GitLab instances"
     body: |
       Create protections against insider threat activiy within a GitLab instance. This includes abuse, spam, and other activity for users within a GitLab instance.
@@ -1079,7 +1080,7 @@ stages:
           - instance_resiliency
           - insider_threat
         group_link: product/categories/#anti-abuse-group
-        handbook: engineering/development/sec/anti-abuse/
+        handbook: engineering/development/data-science/anti-abuse/
         pm: Jensen Stava
         em: Jay Swain
         appsec_engineer: Nick Malcolm
@@ -1426,7 +1427,7 @@ stages:
           - Neil McCorrison
         be_team_tag: Govern:Threat Insights BE Team
         fe_team_tag: Govern:Threat Insights FE Team
-        support: Greg Myers
+        support: Gerardo Gutierrez
         appsec_engineer: Nikhil George
         pdm:
           - Justin Mandell
@@ -1443,19 +1444,17 @@ stages:
             dri: TBD
         categories:
           - vulnerability_management
+          - dependency_management
         usage_driver_score: 4
         asp_driver_score: 5
         sam_driver_score: 5
         group_link: product/categories/#threat-insights-group
-        feature_labels:
-          - MR security reports
-          - pipeline security reports
 
       compliance:
         name: Compliance
         pm: Sam Kerr
         focus: Govern Compliance Paid GMAU
-        pmm: Cindy Blake
+        pmm: TBD
         cm: Suri Patel
         em: Nathan Rosandich
         be_team_tag: Govern:Compliance BE Team
@@ -1495,7 +1494,7 @@ stages:
     direction: /direction/analytics/
     marketing: false
     tw: true
-    pm: Kenny Johnston
+    pm: Sam Kerr
     established: 2022
     related:
       - "monitor"
@@ -1510,9 +1509,9 @@ stages:
         direction: /direction/product-intelligence/
         handbook: engineering/development/analytics/product-intelligence
         pm: Amanda Rueda
-        pmm: Cormac Foster
+        pmm: TBD
         cm: Suri Patel
-        backend_engineering_manager: Alina Mihaila
+        backend_engineering_manager: Dennis Tang
         support: TBD
         be_team_tag: Product Intelligence Team
         appsec_engineer: Greg Alfaro
@@ -1538,6 +1537,7 @@ stages:
         categories:
             - service_ping
             - privacy_control_center
+            - application_instrumentation
       product_analytics:
         name: Product Analytics
         direction: /direction/product-analytics/
@@ -1745,6 +1745,41 @@ stages:
         cs_team_tag: TBD
         categories:
           - billing_and_subscription_management
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+      commerce_integrations:
+        name: Commerce Integrations
+        description: "RResponsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
+        pm: Isabel Sandin
+        pmm: Saumya Upadhyaya
+        slack:
+          channel: g_commerce_integrations
+        cm: Suri Patel
+        backend_engineering_manager: Isabel Sandin
+        frontend_engineering_manager: Isabel Sandin
+        support: TBD
+        be_team_tag: TBD
+        fe_team_tag: TBD
+        appsec_engineer: TBD
+        pdm:
+          - Jacki Bauer
+        tech_writer: Fiona Neill
+        ux:
+          - Emily Sybrant
+        uxr:
+          - Nicholas Hertz
+        sets:
+          - TBD
+        cs_team_tag: TBD
+        categories:
+          - commerce_integrations
         internal_customers:
           - department: Sales Department
             dri: TBD
@@ -2020,6 +2055,7 @@ stages:
         fe_team_tag: Geo FE Team
         support:
           - Bo Carbonell
+          - Łukasz Korbasiewicz
         appsec_engineer: Kevin Morrison
         pdm:
           - Marcel van Remmerden
@@ -2336,7 +2372,7 @@ stages:
 
   modelops:
     display_name: ModelOps
-    section: modelops
+    section: data-science
     direction: /direction/modelops/
     gitlab_group:
     pm: Taylor McCaslin

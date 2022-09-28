@@ -1,0 +1,137 @@
+---
+layout: default
+title: Contact
+description: Click here to contact GitLab and get help, contact sales, find us on social media, office address and directions.
+canonical_path: "/company/contact/"
+google_optimize: true
+suppress_header: true
+extra_css:
+  - contact.css
+---
+
+.blank-header
+  = image_tag "/images/home/icons-pattern-left.svg", class: "image-border image-border-left", alt: "Gitlab hero border pattern left svg"
+  = image_tag "/images/home/icons-pattern-right.svg", class: "image-border image-border-right", alt: "Gitlab hero border pattern right svg"
+  .header-content
+    %h1 Contact
+    %p Let us know how we can help by getting in touch
+.gitlab-content-container
+  .content
+    .contact-tiles.grid-layout.grid-layout3
+      = link_to "/sales/", class: "tile tile-animated", :"data-ga-name" => "sales", :"data-ga-location" => "body" do
+        = image_tag "/images/contact/contact-sales.svg", alt: "Gitlab contact sales svg"
+        .tile-content
+          %h4 Sales
+          %p Contact our sales team for any questions about GitLab.
+      = link_to "/get-help/", class: "tile tile-animated", :"data-ga-name" => "get help", :"data-ga-location" => "body" do
+        = image_tag "/images/community/community-help.svg", alt: "Gitlab community help svg"
+        .tile-content
+          %h4 Get help
+          %p How to get technical and account support.
+      = link_to "/press/", class: "tile tile-animated", :"data-ga-name" => "press", :"data-ga-location" => "body" do
+        = image_tag "/images/contact/contact-press.svg", alt: "Gitlab contact press svg"
+        .tile-content
+          %h4 Press
+          %p Information on press-related inquiries.
+  .content
+    .grid-layout.grid-layout2
+      .newsletter-form-content
+        %h4 🚀 Sign up for our newsletter
+        %p Explore upcoming events, webcasts, how-to blogs, and stay up-to-date on exciting new features released every month.
+        %script{src: "//page.gitlab.com/js/forms2/js/forms2.min.js"}
+        %form#mktoForm_1073
+        :javascript
+          MktoForms2.setOptions(
+          {
+            formXDPath : "/rs/194-VVC-221/images/marketo-xdframe-relative.html"
+          });
+          MktoForms2.onFormRender(function() {
+                  ga(function () {
+                      var tracker = ga.getAll()[0];
+                      var clientId = tracker.get('clientId');
+                      document.getElementsByName('GACLIENTID__c')[1].value = clientId;
+                      var trackingId = tracker.get('trackingId');
+                      document.getElementsByName('GATRACKID__c')[1].value = trackingId;
+                  });
+                });          
+          MktoForms2.loadForm("//page.gitlab.com", "194-VVC-221", 1073, function(form) {
+            form.onSuccess(function(values, followUpUrl) {
+              dataLayer.push(
+              {
+                'event' : 'mktoLead', 
+                'mktoFormId' : form.getId(),
+                'eventCallback' : function()
+                {
+                  form.getFormElem().hide();
+                  document.getElementById('confirmformnewlsetter').style.visibility = 'visible';
+                }, 'eventTimeout' : 3000
+              });
+              return false;
+            });
+            function getgacid() {
+              try {
+                var tracker = ga.getAll()[0];
+                return tracker.get('clientId');
+              } catch (e) {
+                return 'n/a';
+              }
+            }
+            form.vals({
+              'gacid': getgacid()
+            });
+          });
+        #confirmformnewlsetter{style: "visibility:hidden;"}
+          %p.thanks-subscribing
+            Thanks for subscribing!
+            %a{href: "https://www.twitter.com/gitlab", target: "_blank"}
+              Follow us on twitter
+            for even more updates!
+      .newsletter-form-content
+        %h4 🔒 Sign up for security notices
+        %form#mktoForm_1102
+        :javascript
+          MktoForms2.setOptions(
+          {
+            formXDPath : "/rs/194-VVC-221/images/marketo-xdframe-relative.html"
+          });
+          MktoForms2.onFormRender(function() {
+            ga(function () {
+                var tracker = ga.getAll()[0];
+                var clientId = tracker.get('clientId');
+                document.getElementsByName('GACLIENTID__c')[0].value = clientId;
+                var trackingId = tracker.get('trackingId');
+                document.getElementsByName('GATRACKID__c')[0].value = trackingId;
+            });
+          });
+          MktoForms2.loadForm("//page.gitlab.com", "194-VVC-221", 1102, function(form) {
+            form.onSuccess(function(values, followUpUrl) {
+              dataLayer.push(
+              {
+                'event' : 'mktoLead', 
+                'mktoFormId' : form.getId(),
+                'eventCallback' : function()
+                {
+                  form.getFormElem().hide();
+                  document.getElementById('confirmform').style.visibility = 'visible';
+                }, 'eventTimeout' : 3000
+              });
+              return false;
+            });
+            function getgacid() {
+              try {
+                var tracker = ga.getAll()[0];
+                return tracker.get('clientId');
+              } catch (e) {
+                return 'n/a';
+              }
+            }
+            form.vals({
+              'gacid': getgacid()
+            });
+          });
+        #confirmform{style: "visibility:hidden;"}
+          %p.thanks-subscribing
+            Thanks for subscribing!
+            %a{href: "https://www.twitter.com/gitlab", target: "_blank"}
+              Follow us on twitter
+            for even more updates!

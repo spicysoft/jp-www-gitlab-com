@@ -1,0 +1,28 @@
+---
+name: Jason Goodman
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Fulfillment:Utilization</a>
+reports_to: chasesouthard
+picture: jasongoodman.png
+twitter:
+gitlab: jagood
+departments:
+- Engineering Function
+- Development Department
+- Fulfillment Section
+- Fulfillment Sub-department
+- Fulfillment:Utilization Team
+- Fulfillment:Utilization BE Team
+- Backend
+projects:
+  gitlab:
+  - reviewer backend
+  - trainee_maintainer backend
+  customers-app:
+  - maintainer backend
+story: 'Joined March 21st
+
+  '
+specialty: Utilization
+

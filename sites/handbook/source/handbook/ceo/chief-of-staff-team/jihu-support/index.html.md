@@ -99,6 +99,16 @@ graph LR
   repo(GitLab Inc. Repo)
 ```
 
+#### Upstream feature contribution guidelines
+
+For large initiatives, ones that take multiple MRs or have broad-range implications, upstream feature contributions are more efficient and predictable when there's joint upfront planning. In order to set up both teams for success they should follow these guidelines:
+
+1. **At least one milestone prior to the milestone where implementation starts** - JiHu team creates an upstream feature planning issue that provides an overview of the feature scope in English, intended uses, and iterative implementation plan. JiHu will ask the relevant team's PM and EM for feedback on the issue and implementation plan. 
+   - The relevant GitLab product group will provide feedback on the feature, the relevant iterative implementation plan and provide feedback to JiHu.
+1. **During implementation start** - JiHu team will author MRs following the implementation plan and upstream guidelines below. The review will be done based on the agreement in the feature planing issue.
+
+Example upstream planning issue: TBD
+
 ##### Guidelines for iterative contributions
 
 Bigger product feature contributions should follow GitLab
@@ -173,6 +183,25 @@ Certification issues containing a report can be found in the [issue tracker](htt
 JiHu is responsible for building and releasing the JiHu Edition each month including all patch and security releases. For security releases, GitLab Inc will continue to follow our existing [security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md) to publish our [security releases](https://about.gitlab.com/releases/categories/releases/). To enable JiHu to build their security releases in a timely manner, GitLab Inc will notify JiHu when a security release is in progress along so that their teams can be on stand by. GitLab Inc will not notify JiHu of the contents of the security release or of the vulnerability.
 
 To notify JiHu of an upcoming security release, please simply post a comment in: https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues/112
+
+### Vulnerability Disclosure Process
+
+GitLab Inc will follow the [documented vulnerability disclosure process](https://about.gitlab.com/security/disclosure/#vulnerability-disclosure) and will not provide detailed information about vulnerabilities directly to JiHu. No information will be shared prior to or during an in-progress security release.
+
+Only after a GitLab [security release](https://about.gitlab.com/handbook/engineering/security/#security-releases), GitLab Inc may provide JiHu with:
+
+* A link to the public security release blog post
+* A link to the GitLab issue describing the vulnerability, which will remain confidential until 30 days after the release in which the vulnerability was patched
+
+This information will be communicated via Slack and the weekly engineering sync with JiHu.
+
+For security vulnerabilities introduced by JiHu contributions, the GitLab Application Security team will share mitigation steps as long as they do not disclose vulnerability details or information that could result in the discovery of vulnerability details.
+* If such mitigation steps exist, the GitLab Application Security team will notify JiHu by creating a confidential issue in the JiHu enablement project with the mitigation steps.
+* If no mitigation steps exist, the vulnerability will be disclosed as per GitLab's regular security vulnerability disclosure process.
+
+### Security Best Practices
+
+GitLab can share security best practices with JiHu. This may include defense in depth measures, hardening techniques, and other information in the interest of keeping GitLab, JiHu, and their customers secure. This can not include vulnerability details or specific remediations that could expose information about an unpatched vulnerability or ongoing incident.
 
 ### Consulting Process
 

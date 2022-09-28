@@ -70,7 +70,7 @@ The summary list below includes a few popular items that we have decided not to 
 
 |Kubernetes  |Linux|macOS|Windows|
 |:------ |:------ |:------ |:------ |
-| Viable - HELM & Operator based installation capabilities available. Install and configuration is not yet 100% automated. Transition to an Operator only install model planned to complete by GitLab 16.0 |Viable - install and configuration is not yet 100% automated.|Viable - install and configuration is not yet 100% automated.|Viable - install and configuration is not yet 100% automated.|
+| Viable - Helm & Operator based installation capabilities available. Install and configuration is not yet 100% automated. Transition to an Operator only install model planned to complete by GitLab 16.0 |Viable - install and configuration is not yet 100% automated.|Viable - install and configuration is not yet 100% automated.|Viable - install and configuration is not yet 100% automated.|
 
 ### Vison Category: Autoscaling on public cloud provider virtual machines
 

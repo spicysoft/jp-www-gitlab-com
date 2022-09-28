@@ -20,13 +20,14 @@ So you're interested in becoming a public speaker? That's great!
 - If you're looking to learn how to be a more effective and confident public speaker, you can check out:
     - [LinkedIn Learning courses](https://www.linkedin.com/learning/public-speaking-foundations-2018/)
     - Books like _The Art of Public Speaking_ by Dale Carnegie
+    - Brendan's blog post: [What makes a great tech talk](https://boleary.dev/blog/2022-09-21-what-makes-a-great-tech-talk)     
     - Or join your local [Toastmasters](https://www.toastmasters.org/Resources/Public-Speaking-Tips).
 - Review the steps on this page for 
     - Getting help with CfP and talk ideas
     - Finding events
     - Process and requirements for speaking at events 
     - Best practices 
-
+   
 ### Get help developing CFP ideas
 
 Sometimes people have an awesome story to share but can't find the time to put words on paper. [Share your ideas (Google Form)](https://forms.gle/5RbekekqWD1e6F686) and the Developer evangelism team will work with you to build it into a talk. In the event that you are unable to speak on the topic, we can get other speakers to do justice to the talk.
@@ -87,7 +88,7 @@ If there is an event you would like to attend, are attending, speaking, or have 
 
 1. Contact your manager for approval to attend/ speak.
 1. After getting approval from your manager to attend, follow the steps in the Corporate Communications handbook section on [Speaking Opportunities](/handbook/marketing/corporate-marketing/corporate-communications/#speaking-opportunities-conferences-meetups-webinars-and-other-events).
-1. [Add your event/ talk](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/events.yml) to the [events page](/events/) and submit the merge request to Brendan O'Leary.
+1. [Add your event/ talk](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/events/index.yml) to the [events page](/events/) and assign a [Developer Evangelism team member](/handbook/marketing/community-relations/developer-evangelism/#-team-members-and-focus-areas) to review the merge request. 
 1. If the conference does not cover your travel and expenses, GitLab will cover your expenses (transportation, meals, and lodging for days said event takes place). If those expenses exceed $500, please get approval from your manager. When booking your trip, use our [travel portal](/handbook/travel/#booking-travel-and-lodging), book early, and spend as if it is your own money. Note: Your travel and expenses will not be approved until your event/engagement has been added to the events page.
 1. If you are speaking, please note your talk in the description when you add it to the Events Page.
 1. If you are not already on the [speakers page](/speakers/), please [add yourself](/handbook/marketing/community-relations/developer-evangelism/speakers-bureau/#join-the-speakers-bureau).

@@ -30,21 +30,23 @@ This chart reflects the available signatories for each of GitLab's entities. The
 
 | Entity | Signatory | 
 |-------- | -----|
-| GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Ferber, Ursela Knezevic), Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document.   | 
+| GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Ferber, Ursela Knezevic), Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. LOAs can be signed by Morgan Wilkins  | 
 | GitLab Federal LLC    |       Bob Stevens     |  
-| GitLab BV Belgium, Dutch & English | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab BV, Netherlands | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab GmbH | Rob Allen & Pattie Egan. Backup: Igor Groenewegen-Mackintosh | 
-| GitLab PTY Ltd, Australia | Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab PTY Ltd, New Zealand | Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab Ireland LTD | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh | 
-| GitLab UK Ltd | Rob Allen, Pattie Egan, Dale Brown. Backup: Igor Groenewegen-Mackintosh | 
+| GitLab BV Belgium, Dutch & English | Rob Allen & Pattie Egan. Backups: Craig Mestel| 
+| GitLab BV, Netherlands | Rob Allen & Pattie Egan. Backup: Craig Mestel| 
+| GitLab GmbH | Rob Allen & Pattie Egan| 
+| GitLab PTY Ltd, Australia | Craig Mestel| 
+| GitLab PTY Ltd, New Zealand | Craig Mestel| 
+| GitLab Ireland LTD | Rob Allen & Pattie Egan. Backup: Craig Mestel| 
+| GitLab UK Ltd | Rob Allen, Pattie Egan, Dale Brown| 
 | GitLab Canada Corp | Craig Mestel, Dale Brown | 
 | GitLab GK, Japan | Dale Brown, Craig Mestel | 
-| GitLab IT BV | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh | 
+| GitLab IT BV | Rob Allen & Pattie Egan. Backup: Craig Mestel| 
 | GitLab South Korea | Dale Brown, Craig Mestel | 
-| GitLab France S.A.S. | Rob Allen & Pattie Egan. Backups: Craig Mestel, Igor Groenewegen-Mackintosh |
-| GitLab Singapore PTE. LTD. | Dale Brown, Igor Groenewegen-Mackintosh |
+| GitLab France S.A.S. | Rob Allen & Pattie Egan. Backup: Craig Mestel|
+| GitLab Singapore PTE. LTD. | Dale Brown|
+| LOAs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
+| PEOs | The Candidate Experience Specialist processing the offer. For LOAs, choose Morgan Wilkins or Marissa Ferber |
 
 #### Offer Details Access steps
 Not all individuals who are signatories for entities have the appropriate access in Greenhouse and this is something that has to be set up on a per req basis at time of contract sending. 
@@ -58,7 +60,7 @@ Once the entity of the chosen candidate has been determined and the CES team has
 
 1. Once the offer package has been approved in Greenhouse and the recruiter has given the verbal offer, go to the candidate's profile in Greenhouse. Verify the address is listed on the details tab. If the address is not listed you can locate it on the background check, or in the reference request email reply.
 1. If necessary click Edit Profile to update the candidate's name to their legal name (given during the reference/background check stage) and list any preferred names in quotes as the first name. Legal names are required on contracts and for proper export to Bamboo HR.
-1. Ensure the start date is on a Monday, unless Monday is a holiday/[no start date](/handbook/people-group/people-experience-team/#people-experience-team-availability) or the non-Monday date is legally required.
+1. Ensure the start date is on a Monday, unless Monday is a holiday/[no start date](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/people_connect_team/#people-connect-availability) or the non-Monday date is legally required.
 1.  Update signatory and entity by clicking "Update" under Offer Details. Add signatory name and title, as well as entity based on candidate's location.
 1. Next you'll need to update the signatory's permissions to ensure we're able to send the DocuSign contract to them.
     - Navigate to `Job Setup` at the top of the page.
@@ -104,9 +106,9 @@ Once the entity of the chosen candidate has been determined and the CES team has
     1. Check all of the token/fields to ensure they are formatted correctly (`{{ }}`). For each of the fields with curly brackets (`{ }`) in the template on Google Drive, find and replace that field (including the curly brackets) with the corresponding Greenhouse tokens (including the curly bracket). For example, `{Contributor Name}` in the Drive template will be replaced with `{{CANDIDATE_NAME}}`.
 1. To delete a contract template from Greenhouse, click the three dots `...` to the right of the template name, then click delete and confirm.
 
-The SSOT for the contract templates are on [this handbook page updated by Legal and People Operations](https://about.gitlab.com/handbook/people-group/contracts-probation-periods/). Any updates to contracts will be done there first, and then the talent acquisition team needs to be pinged to be made aware of the changes so they can update the corresponding Greenhouse template.
+The SSOT for the contract templates are on [this handbook page updated by Legal and People Connect](https://about.gitlab.com/handbook/people-group/contracts-probation-periods/). Any updates to contracts will be done there first, and then the talent acquisition team needs to be pinged to be made aware of the changes so they can update the corresponding Greenhouse template.
 
-These steps are executed by the **People Operations and Legal teams** when contracts are being updated, but for reference, if any changes need to be made to the templates, these tasks can be referenced below:
+These steps are executed by the **People Connect and Legal teams** when contracts are being updated, but for reference, if any changes need to be made to the templates, these tasks can be referenced below:
    1. Some fields that are not necessarily clear are the compensation fields as there are separate fields for the _vacancy_ and for the _candidate_; we want the candidate fields for the contract, so in Greenhouse, the appropriate token for salary is `{{CURRENCY}}`, bonus is `{{BONUS_AMOUNT}}`, and stock options is `{{STOCK_OPTIONS}}`. Another field that is easily confused is the title; the `{{JOB_NAME}}` is the name of the vacancy, which is not always necessarily the same as the title the candidate will have; to make sure it is always correct and includes the appropriate level and specialty for the candidate, use the token `{{FULL_TITLE__INCLUDING_LEVEL_AND_SPECIALTY_}}`.
    1. The one exception to the curly bracket find and replace process is the Belgian contract. The fields that need to be edited are highlighted.
    1. When removing optional clauses, take care that the paragraph / section numbering still makes sense.
@@ -123,7 +125,7 @@ Consistent with GitLab’s policy governing Hiring Significant Others or Family 
 1. If you have not been notified by the recruiter that there is a family relationship in play, there is now a field in the 'Offer Details' that will show whether a relationship exists. There should also be a *Family Member* tag on their profile. It, however, will not show who that family member is.
 1. The Recruiter will post the name of the family member in the Private Notes within the Greenhouse profile. If not there, the CES will reach out to the recruiter to find out who the current GitLab team member is.
 1. Once the family member is identified, you will send the [Family Member Relationship Acknowledgment](https://docs.google.com/document/d/1IseZy4zJZMgP0VCAsGqCP3I6sfnavGdD81THnqljaPI/edit?usp=sharing) via DocuSign to the new hire as well as the GitLab team member for signing.
-1. After all parties have signed, upload a copy into both the new hire and the current GitLab team members BambooHR profile.
+1. After all parties have signed, upload a copy into both the new hire and the current GitLab team members Workday profile.
 
 ### How to Update a Start Date After the Contract is Signed
 
@@ -201,6 +203,13 @@ In rare cases, we may rescind our offer before a candidate signs the contract. W
 1. Void the contract in DocuSign utilizing the same communication that was emailed.
 1. Reject the candidate in Greenhouse. Be sure to select 'Reject and Don't Send Email.'
 
+### How to Void a Contract when the candidate declines the offer and not marked as hired in the system
+ 
+In cases where the candidate has declined the offer verbally or via email to the talent acquisition team or CES, follow these steps once the recruiter confirms it is okay to void the contract:
+1. Go to the docusign portal, under the “ waiting for others” tab, click on the candidate’s name whose contract needs to be voided. 
+1. Under “More” tab, click “Void”. Enter the reason for voiding the contract e.g "Candidate declined offer" then click on Void.
+1. Go to the candidate’s Greenhouse profile, make a note saying the contract is voided by copying the recruiter. This will prompt the recruiter to reject the candidate in GH if it hasn’t been done.
+
 ### How to Resend a Contract After Being Marked as Hired
 
 There are certain times when a contract needs to get resent to the candidate after they have been hired into the system, should that happen. Follow the steps below:
@@ -228,17 +237,16 @@ The Candidate Experience Specialist who initiated the contract process is expect
 
 ## Amended Contracts
 
-Contract amendments or modifications are processed by the Candidate Experience Specialist if the team member has not started or by the People Operations Specialist if they have.
+Contract amendments or modifications are processed by the Candidate Experience Specialist if the team member has not started or by the People Connect Team member if they have.
 
 ### Amendments prior to starting with GitLab:
 
 If an amendment needs to be made and the previous contract was never active, the Candidate Experience Specialist should:
 
-* Delete the previous contract from BambooHR
-* Upload the updated contract in the BambooHR file 'Contracts and Changes'
-* Notify the People Operations Specialist of the change in the [GitLab Onboarding Tracker](https://docs.google.com/spreadsheets/d/1L1VFODUpfU249E6OWc7Bumg8ko3NXUDDeCPeNxpE6iE/edit#gid=1721125348)
+* Ask People Connect in the `people-exp_ces` Slack channel to delete the previous contract from Workday.
+* Upload the updated contract in the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category. 
 
-_Note: It is essential that People Operations Specialists are informed of all changes, as various fields must be updated in BambooHR._
+_Note: It is essential that People Connect Team members are informed of all changes, as various fields must be updated in BambooHR._
 
 ### Amendments to contracts for new hires with planned relocations
 
@@ -275,14 +283,13 @@ _Note: It is essential that People Operations Specialists are informed of all ch
 
 A contractor requests a modification to their contract due to a name change/company incorporation (Example: The individual recently incorporated a company, and would like to invoice GitLab through their company versus individually)
 
-* The People Operations Specialist should log the requested change in BambooHR in the `Contracts & Changes`
-section of the employee's profile
-* The People Operations Specialist should draft the new contract using the appropriate template in the [Employment and Contractor Agreements](/handbook/people-group/contracts-probation-periods/#employment-agreements) section. ***Please remember to always make a copy of the template before editing.***
+* The People Connect Team member should log the requested change in the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category.
+* The People Connect Team member should draft the new contract using the appropriate template in the [Employment and Contractor Agreements](/handbook/people-group/contracts-probation-periods/#employment-agreements) section. ***Please remember to always make a copy of the template before editing.***
 
 _Important: Employment contracts cannot be backdated. If a team member requests to backdate a contract for invoicing purposes, an addendum should be added to the contract stating: "As the Contractor has not invoiced GitLab for payment since their start date on `contractor start date`, GitLab will pay the Contractor for this period of time in accordance with the Contractor’s base compensation". The start date on the new contract should always reflect the date the contract is staged for signatures._
 
-* The People Operations Specialist should stage the contract in DocuSign to be signed by both the team member and the Director of People Operations.
-* Once siged by both parties, the contract should be uploaded to the team members BambooHR profile in the `Contracts & Changes` section.
+* The People Connect Team member should stage the contract in DocuSign to be signed by both the team member and the Director of People Operations.
+* Once siged by both parties, the contract should be uploaded to the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category.
 
 ### How to Unhire a Candidate After Contract is Signed
 If for some reason a candidate declines an offer after they have been hired into the system, whoever receives that information needs to make sure `@ces` is tagged in the Greenhouse profile and is made aware that the candidate will no longer be starting at GitLab. Please note that the steps below are assuming that the person will not be working for GitLab; if you are hoping to just amend their offer after they've been marked as hried, please view the Resend process above. 
@@ -299,12 +306,12 @@ If they have been hired in Greenhouse and exported to BambooHR, Enablement will 
 
 ## Letter of Adjustment
 
-When a team member applies for and receives a new position through Greenhouse, a Letter of Adjustment is prepared in lieu of a new contract using DocuSign. The Candidate Experience Specialist will prepare the letter. This document is signed by the Director, Total Rewards or the Sr. Director, Global People Operations or the Chief People Officer and the team member through DocuSign. Using the Offer through DocuSign - Letter of Adjustment template in Greenhouse the letter is cc'd to the Total Rewards team for processing.
+When a team member applies for and receives a new position through Greenhouse, a Letter of Adjustment is prepared in lieu of a new contract using DocuSign. The Candidate Experience Specialist will prepare the letter. This document is signed by the Director, Total Rewards or the Sr. Director, Global People Operations or the Chief People Officer and the team member through DocuSign. Using the Offer through DocuSign - Letter of Adjustment template in Greenhouse the letter is cc'd to peopleops@gitlab.com team for processing.
 
-Effective dates for a letter of adjustment should be the first (1st) of the month or the sixteenth (16th). These effective dates do not need to be on a business day and should be adhered to payroll purposes. 
+Effective dates for a letter of adjustment should be the first (1st) of the month or the sixteenth (16th). For Sales or Sales Development team members, they can only be the first of the month. These effective dates do not need to be on a business day and should be adhered to payroll purposes. 
 Please note that LOAs cannot be used if a team member is moving from the Federal, LLC. entity into any other entity **or** any entity that is not Federal, LLC into the Federal, LLC. entity. In those cases, a new contract **must** be issued as there are tax implications to this entity.
 
-The Candidate Experience Specialist needs to merge any additional candidate profiles before marking as hired. If the profiles are not merged, it will create a duplicate and mess with the employment bot sync to BambooHR. The signed letter is uploaded into BambooHR under the Contracts and Changes folder on the Documents Tab by the Total Rewards Analyst. The Total Rewards team ensures the information in HRIS and Payroll systems is updated.
+The Candidate Experience Specialist needs to merge any additional candidate profiles before marking as hired. If the profiles are not merged, it will create a duplicate and mess with the employment bot sync to Workday & BambooHR. The signed letter is uploaded into Workday under the Contracts and Changes folder on the Documents Tab by the Total Rewards Analyst. 
 
 When an internal transition is taking place and the start date for that LOA is amended, please ensure to update the People Connect team via Slack in the `#people-exp_ces` channel of the new start date.
 
@@ -312,8 +319,8 @@ If a team member goes through a promotion through BambooHR versus Greenhouse, a 
 
 CES: Follow the instructions below on how to create and send a letter of adjustment. 
 
-1. Confirm that the start date is either on the 1st or 16th of the month. This is for payroll purposes and does not need to be on a business day. 
-1. The signatory is Director, Total Rewards, Brittany Rhodes. 
+1. Confirm that the start date is either on the 1st or 16th of the month. For Sales or Sales Development, the start date should be the 1st. This is for payroll purposes and does not need to be on a business day. 
+1. The signatory matches the appropriate entity. If the candidate is located in the US (including Federal), Morgan Wilkins can be a signatory. If the candidate is employed through a PEO, Morgan Wilkins and Marissa Ferber can be signatories (this process is subject to change)
 1. Next, Click Generate 
 1. Select Letter of adjustment template in Greenhouse:
 - Letter of Adjustment w/ OTE
@@ -328,7 +335,7 @@ CES: Follow the instructions below on how to create and send a letter of adjustm
 - #3 Nitin Upadhyay (receives a copy)
 - This ensures that the contract goes to the GitLab signatory to sign first, as well as the recruiter for a Cc and once signed by them it will go to the People Experience for an update of records. 
 1. Then click "Done".
-1. When LOA is signed, ensure that you merge profiles before Hiring into BambooHR to avoid creating duplicate profile
+1. When LOA is signed, ensure that you merge profiles before Hiring to avoid creating duplicate profile
 
 ## Rehires
 
@@ -342,7 +349,7 @@ It is common for Dutch employers to offer a second temporary contract when the f
 The process for New Hires is as follows:
 
 1. The offer is made by the recruiter per the [hiring process](https://about.gitlab.com/handbook/hiring/).
-1. The Candidate Experience Specialist emails the new team member the Contract Info Request - the Netherlands from GreenHouse.
+1. If the BSN and date of birth are not filled out and cannot be found in a reference check form, the Candidate Experience Specialist can use the emails the email template Contract Info Request - the Netherlands from GreenHouse and send to the candidate.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will update the GreenHouse Offer Details with BSN and Date of Birth when the new team member provides the necessary details and then generates the "IT BV Employee Temporary - the Netherlands" contract out of GreenHouse.
 1. The Candidate Experience Specialist will stage the contract for signature via DocuSign, CC the hiring manager, and CC the HRSavvy group email. This will ensure our payroll provider in this location can start their onboarding, well ahead of ours.
@@ -421,7 +428,7 @@ GitLab is working in partnership with [Global Upside](https://globalupside.com) 
 
 The process for creating and sending an agreement is as follows:
 1. The Offer is made by the recruiter per the [hiring process](/handbook/hiring/).
-1. CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details.
+1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
     - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-periods-of-team-members-employed-through-a-peo-or-an-entity) and check the candidate's country.
@@ -456,7 +463,7 @@ GitLab has partnered with [Remote.com](https://remote.com/) to hire in South Afr
 To create the contract:
 
 1. Offer is made by the recruiter per the [hiring process](/handbook/hiring/).
-1. The Candidate Experience Specialist emails the new team member the Contract Info Request - Remote.com from GreenHouse.
+1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details.
     -Click “Email CANDIDATE NAME”
     -Select “Contract Info Request-Remote.com” from dropdown.
     -CC Recruiter

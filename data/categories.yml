@@ -398,9 +398,9 @@ quality_management:
   description: "Plan and track testing and quality of your product."
   roi: false
   available: 2020-11-22
-  viable: 2022-08-22
-  complete: 2023-02-22
-  lovable: 2024-02-22
+  viable: 2023-09-01
+  complete: 2024-09-01
+  lovable: 2025-09-01
   maturity: minimal
   marketing: true
   priority_level: low
@@ -1408,9 +1408,6 @@ dependency_scanning:
   maturity: viable
   marketing: true
   priority_level: high
-  feature_labels:
-    - dependency list
-    - security reports integration
   ux_scorecard_link: https://gitlab.com/groups/gitlab-org/-/epics/2396
   ux_scorecard_score: F
   dogfooding_status: limited
@@ -1439,7 +1436,7 @@ license_compliance:
   label: "Category:License Compliance"
   documentation: https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html
   direction: /direction/secure/composition-analysis/license-compliance/
-  description: "Upon code commit, project dependencies are searched for approved and blacklisted licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution."
+  description: "Upon code commit, project dependencies are searched for approved and denied licenses defined by custom policies per project. Software licenses being used are identified if they are not within policy. This scan relies on an open source tool, LicenseFinder and license analysis results are shown in-line for every merge request for immediate resolution."
   roi: false
   available: 2018-01-01
   viable: 2023-05-22
@@ -1601,8 +1598,10 @@ vulnerability_management:
   dogfooding_status: Active
   dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
   feature_labels:
-    - MR security reports
-    - pipeline security reports
+    - security dashboard
+    - security reports
+    - security reports integration
+    - vulnerability interaction
   competitors:
     github:
       maturity: complete
@@ -1617,13 +1616,15 @@ dependency_management:
   direction: /direction/govern/threat_insights/dependency_management/
   roi: false
   available: 2019-06-22
-  viable:
-  complete:
-  lovable:
+  viable: 2022-09-01
+  complete: 2023-10-22
+  lovable: 2024-10-22
   maturity: viable
   new_maturity: true
   marketing: true
   priority_level: high
+  feature_labels:
+    - dependency list
 
 # Anti-Abuse
 
@@ -2004,7 +2005,7 @@ logging:
   direction: /direction/monitor/apm/logging/
   description: "GitLab makes it easy to view the logs distributed across multiple pods and services using log aggregation with Elastic Stack. Once Elastic Stack is enabled, you can view your aggregated Kubernetes logs across multiple services and infrastructure, go back in time, conduct infinite scroll, and search through your application logs from within the GitLab UI itself."
   roi: false
-  available: 2022-08-22
+  available: 2023-04-22
   viable:
   complete:
   lovable:
@@ -2012,7 +2013,7 @@ logging:
   marketing: true
   priority_level: medium
   dogfooding_status: N/A
-  dogfooding_issue: This category is at the "minimal" level of maturity and is not actively being worked on.
+  dogfooding_issue: 
   dogfooding_group: Infrastructure
   ux_scorecard_link:
   ux_scorecard_score:
@@ -2025,11 +2026,11 @@ tracing:
   direction: /direction/monitor/apm/tracing/
   description: "Tracing provides insight into the performance and health of a deployed application, tracking each function or microservice which handles a given request. This makes it easy to understand the end-to-end flow of a request, regardless of whether you are using a monolithic or distributed system."
   roi: false
-  available: 2018-11-22
+  available: 2023-12-22
   viable:
   complete:
   lovable:
-  maturity: minimal
+  maturity: planned
   marketing: true
   priority_level: medium
   dogfooding_status: N/A
@@ -2125,6 +2126,19 @@ privacy_control_center:
   lovable: 2024-12-01
   marketing: false
   maturity: planned
+
+application_instrumentation:
+  name: "Application instrumentation"
+  stage: analytics
+  direction: https://about.gitlab.com/direction/product-intelligence/
+  description:
+  available: 2022-10-01
+  viable: 2023-12-01
+  complete: 2024-06-01
+  lovable: 2024-12-01
+  marketing: false
+  maturity: minimal
+  priority_level: medium
 
 # Enablement
 
@@ -2503,7 +2517,15 @@ billing_and_subscription_management:
   marketing: false
   maturity:
 
-# ModelOps Section
+commerce_integrations:
+  name: Commerce Integrations
+  stage: fulfillment
+  description: "Responsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
+  direction: https://about.gitlab.com/direction/fulfillment/#group-responsibilities
+  marketing: false
+  maturity:
+
+# Data Science Section
 
 mlops:
   name: "MLOps"

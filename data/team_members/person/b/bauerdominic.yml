@@ -4,7 +4,7 @@ locality:
 country: Remote
 role: <a href="/job-families/engineering/backend-engineer/">Backend Engineer, Govern:Security
   Policies</a>
-reports_to: thiagofigueiro
+reports_to: maciejparuszewski
 picture: dominicbauer.jpg
 pronouns: he/him
 gitlab: bauerdominic
@@ -18,13 +18,10 @@ departments:
 story: |
   Dominic is a software developer with a preference for simplicity. Away from
   keyboard, he enjoys sports, hiking and traveling to remote places.
-specialty:
-- 'Protect: Container Security'
+specialty: Security Policies
 projects:
   gitlab:
   - reviewer backend
   - reviewer database
-  secure-container-scanning:
-  - reviewer backend
-  - maintainer backend
+  secure-container-scanning: maintainer backend
 

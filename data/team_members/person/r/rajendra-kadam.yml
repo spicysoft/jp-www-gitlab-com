@@ -1,0 +1,27 @@
+---
+name: Rajendra Kadam
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Monitor:Respond</a>
+reports_to: crystalpoole
+picture: rajendrak.jpg
+pronouns: he/him
+twitter: rajendra_ak
+gitlab: rkadam3
+departments:
+- Core Team
+- Engineering Function
+- Development Department
+- Ops Section
+- Monitor:Respond BE Team
+- Monitor:Respond
+projects:
+  gitlab:
+  - reviewer backend
+  - trainee_maintainer backend
+story: |
+  Rajendra is passionate about all things OpenSource. He is a Backend Engineer at GitLab.
+  He also serves on the Core Team at GitLab. When not working you will find him at the gym,
+  or cycling, or reading a book on finance or playing his guitar/keyboard.
+specialty: Monitor
+

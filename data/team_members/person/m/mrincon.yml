@@ -1,0 +1,29 @@
+---
+name: Miguel Rincon
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer,
+  Verify:Runner</a>
+reports_to: sam-beckham
+picture: mrincon.jpg
+twitter: miguelrincon86
+gitlab: mrincon
+mentor: true
+departments:
+- Engineering Function
+- Development Department
+- Verify:Runner FE Team
+- Frontend
+- Ops Sub-department
+- Verify:Runner Group
+projects:
+  gitlab: maintainer frontend
+story: |
+  Miguel has over 10 years of experience in web development, both as an individual contributor and team lead.
+  He believes in lifelong education and likes to learn about all sorts of topics.
+  After graduating in Colombia he moved to China, where he met his beautiful wife.
+  Thanks to GitLab, he is working from two opposite sides of the globe.
+  His JavaScript is better than his Chinese.
+specialty:
+- 'Verify: Runner'
+

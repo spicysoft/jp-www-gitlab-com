@@ -1,17 +1,22 @@
 name: Joe Burnett
 locality: 
 country: Remote
-role: <a href="">Staff Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/staff/">Staff Backend Engineer</a>
 reports_to: elliot-rushton
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
-twitter:
-linkedin:
+picture: josephburnett.png
+pronouns: he/him
+linkedin: joburnett
 gitlab: josephburnett
 departments:
-  - Development
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Runner Group
+- Runner BE Team
 specialty: ""
 expertise:
-story:
-
+story: |
+ Joe is a Staff Backend Engineer who loves running, coding in Golang
+ and building Lego. He also loves traveling and building open,
+ inclusive community around software projects. Joe is a former member
+ of Google Cloud, AWS and the United States Marine Corps.

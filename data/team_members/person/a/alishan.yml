@@ -1,0 +1,29 @@
+---
+name: Alishan 'Ali' Ladhani
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Release</a>
+reports_to: nicole-williams
+picture: alishan.jpg
+gitlab: ali-gitlab
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Release BE Team
+- Release Group
+projects:
+  gitlab:
+  - reviewer backend
+  - reviewer go
+  release-cli: reviewer
+  iglu: maintainer
+story: |
+  Alishan has been a technology geek for as long as he can remember. He has been a software engineer since 2014, and
+  has helped build the technological foundation at two startups. A passion for open-source software drew his
+  attention to GitLab, where he now works on improving integration with serverless platforms. In his spare time,
+  Alishan enjoys watching movies, listening to electronic music, and perusing Hacker News.
+domain_expertise:
+- rails
+specialty: Release
+

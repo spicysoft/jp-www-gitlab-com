@@ -48,8 +48,8 @@ sec:
   ar_team_tag: Sec Section AR Stable Counterpart
   direction: /direction/security/
 
-modelops:
-  name: "ModelOps"
+data-science:
+  name: "Data Science"
   pm: Hillary Benson
   em:
     - Wayne Haber
@@ -58,7 +58,7 @@ modelops:
   sm: TBD
   pmm: Cormac Foster
   qm: Vincy Wilson
-  direction: /direction/modelops/
+  direction: /direction/data-science
 
 analytics:
   name: "Analytics"
