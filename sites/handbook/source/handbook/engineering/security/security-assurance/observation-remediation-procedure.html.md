@@ -114,7 +114,7 @@ A more detailed SLA and Remediation Goal process can be found [in this runbook](
 
 Throughout the course of testing or general monitoring of the GitLab ecosystem, Opportunities for Improvement (OFI) may be identified and documented so that the overall control environment and GitLab's processes can be improved.
  
-To capture an OFI, create an issue in the [Observation Management](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/observation-management) project and add the RiskRating::OFI label.
+To capture an OFI, create an issue in the [Observation Management](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/sec-compliance/observation-management) project and add the RiskRating::OFI label.
 
 OFI's do not have defined remediation SLA's as they are process improvements or suggestions only. The Remediation Goal to communicate the OFI to the appropriate stakeholder is 10 weeks.
 
@@ -141,4 +141,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## Contact
 
-If you have any questions or feedback about the security compliance observation management process please [contact the GitLab Security Compliance Team](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/)
+If you have any questions or feedback about the observation management process please [contact the GitLab Security Assurance Team](https://about.gitlab.com/handbook/engineering/security/security-assurance/#contacting-the-team)
