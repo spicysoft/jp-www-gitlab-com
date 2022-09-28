@@ -1170,10 +1170,10 @@ dependency_firewall:
   description: |
     GitLab ensures that the dependencies stored in your package registries conform to your corporate compliance guidelines. This means you can prevent your organization from using dependencies that are insecure or out of policy.
   roi: false
-  available: 2022-12-22
-  viable:
+  available: 2023-05-22
+  viable: 2023-11-22
   complete:
-  lovable: 2023-11-22
+  lovable: 
   maturity: planned
   marketing: true
   dogfooding_status: Not Applicable (Planned)
