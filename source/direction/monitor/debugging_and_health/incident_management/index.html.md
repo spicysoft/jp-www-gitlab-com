@@ -17,13 +17,16 @@ While downtime avoidance is preferable, downtime is not avoidable. As such, it i
 The majority of investment and focus of the DevOps industry (including GitLab) to date has been on downtime avoidance. There are some entrenched competitors approaching incident management from the perspective of workflows (ServiceNow), or incident notification (Pager Duty, OpsGenie). Despite this, holistic incident management products are lacking resulting in many organizations stitching together point solutions mixed with a healthy dose of DIY. We believe that many organizations are looking for ways to avoid reinventing the wheel on incident management
 
 ### Demo
-Check out this short demo that highlights what we've built so far.
+Check out this short demo that highlights GitLab Incidents as the single source of truth (SSOT).
 
 <!-- blank line -->
 <figure class="video_container">
   <iframe src="https://www.youtube-nocookie.com/embed/ResCq5DsjME" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
+
+To see past demos take a look at the [Respond Group playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoO5WmppV5TduOD9D-IP2p0) or click the link(s) below.
+- [August 2022](https://www.youtube.com/watch?v=MIjGyoTh7hQ) - What we've built so far; on-call schedules, escalation policies, alerts, and incidents.
 
 ### Vision
 
@@ -60,44 +63,48 @@ We are uniquely positioned to take advantage of the following opportunities:
 
 Our current Incident Management tools have been built for users who align with our [Allison (Application Ops)](https://about.gitlab.com/handbook/product/personas/#allison-application-ops) and [Ingrid (Infrastructure Operator)](https://about.gitlab.com/handbook/product/personas/#ingrid-infrastructure-operator) personas. The experience targets DevOps teams at smaller companies where it is common for the engineers to be on-call and responding to alerts for the software that they also write code for. As we mature this category, we will evolve the experience to appeal to and serve the enterprise customer.
 
-## Strategy
-
-### Today - (FY23Q3)
-
+## Strategy and Roadmap
+ 
+### Now - (FY23Q3)
+ 
 #### GitLab Incidents are the single source of truth (SSOT)
-
-- We are continuing to build out more incident management features with a focus on dogfooding [Incidents](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#incidents) for our internal Infrastructure and Reliability Teams as the SSOT.
-
+ 
+- We are continuing to build more incident management features, and working to enable our internal Infrastructure and Reliability Teams to adopt GitLab [Incidents](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#incidents).
+- Our current focus is [ensuring the most relevant information is visible so stakeholders can track progress during an on-going incident](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1767).
+ 
 **_How are we tracking success?_**
-
-- We are focused on dogfooding, and we are measuring the number of [Incident Management features the Infrastructure team is currently Dogfooding](https://about.gitlab.com/direction/monitor/debugging_and_health/incident_management/#incident-management-features-the-infrastructure-team-is-currently-dogfooding).
-- [Incident timeline](https://gitlab.com/groups/gitlab-org/-/epics/6376) plays an important role in establishing incidents as the SSOT. We plan to track monthly active users using timelines and expect user adoption to increase over time.
-
-### Near Term (6 months - 1 year, ~ FY23Q4 - FY24Q1)
-
+ 
+- We are focused on dogfooding, and we are measuring the number of [Incident Management features the Infrastructure team is currently Dogfooding](https://about.gitlab.com/direction/monitor/debugging_and_health/incident_management/#dogfooding-plan).
+ 
+ 
+### Next (6 months - 1 year, ~ FY23Q4 - FY24Q1)
+ 
 #### _Empower team collaboration_
-
-- The vast majority of do it yourself (DIY) users use Slack or similar apps as the main collaboration tool during an incident. We want to make it easy for incident response teams to use Slack _and_ GitLab incident management. For example, users should be able to easily capture the most pertinent information in Slack and have it be recorded in an incident or visa versa; users receive a notification in Slack with an update on the GitLab incident. For our internal team, we plan to replace [woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse) with a productized Slack integration.
-- Teams to conduct [incident reviews](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1945) so users can improve their incident response posture.
-
+ 
+- The vast majority of do it yourself (DIY) users use Slack or similar apps as the main collaboration tool during an incident. We want to make it easy for incident response teams to use Slack _and_ GitLab incident management, ensuring [Slack-to-GitLab workflows are seamless to minimize repetitive, manual work for incident response teams](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1944). For our internal team, we plan to replace [woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse) with a productized Slack integration.
+- [Introduce a post-incident review process so teams can learn from past incidents and better prepare for future, similar events](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1945) so users can improve their incident response posture.
+ 
 **_How are we tracking success?_**
-
+ 
 - Ship [Slack App for Incident Management](https://gitlab.com/groups/gitlab-org/-/epics/8545); measure the number of integrations setup and work on a [go to market (GTM) effort directly with Slack](https://gitlab.com/groups/gitlab-org/-/epics/8545#note_1084388282).
 - Ship [Incident Review](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1945). We will track usage, particularly percentage of incident reviews conducted relative to the number of severity one incidents created.
-
-### Medium Term (1-2 years, ~ FY24)
-
+- [Incident response teams can track timestamps in incidents](https://gitlab.com/groups/gitlab-org/-/epics/7013#:~:text=Ensure-,incident%20response%20teams%20can%20track%20timestamps%20in%20incidents,-workflow) to start measuring important incident metrics.
+ 
+### Future (1-2 years, ~ FY24)
+ 
 #### _Customers are interested in replacing expensive incident tools with GitLab._
-
+ 
 - GitLab Incident Management reaches [complete maturity](https://gitlab.com/groups/gitlab-org/-/epics/1494)!
-
+ 
 ### Long Term (3+ years, FY25 and beyond)
-
+ 
 #### _Customers come to GitLab for their incident management solution._
-
-- Strengthen bi-directional product tie-in to other GitLab stages and Monitor categories inclduing, Error Tracking, Tracing, Logging, Metric and Runbooks.
+ 
+- Strengthen bi-directional product tie-in to other GitLab stages and Monitor categories including, Error Tracking, Tracing, Logging, Metric and Runbooks.
 - A sound integration strategy has been identified and validated for Monitor tools that will allow users to more quickly communicate and resolve incidents.
 - Customers can quantify and show a decrease in MTTR.
+ 
+
 
 ### Workflow
 
@@ -113,9 +120,8 @@ We are currently working to mature the **Incident Management** category from `vi
 
 ### What is Next & Why?
 
-- Continue working on [Incident Timelines](https://gitlab.com/groups/gitlab-org/-/epics/6376) and shipping the [Links widget](https://gitlab.com/groups/gitlab-org/-/epics/3994) to ensure the most relevant information is visible so stakeholders can track progress during an on-going incident.
-- Ship [Links widget](https://gitlab.com/groups/gitlab-org/-/epics/3994)
-- [Introduce incident management workflow to GitLab Slack App](https://gitlab.com/gitlab-org/gitlab/-/issues/359322) to ensure Slack-to-GitLab workflows are seamless to minimize repetitive, manual work for incident response teams.
+- [Introduce incident management workflow to GitLab Slack App](https://gitlab.com/groups/gitlab-org/-/epics/8545) to ensure Slack-to-GitLab workflows are seamless to minimize repetitive, manual work for incident response teams.
+- [Incident Tags MVC](https://gitlab.com/groups/gitlab-org/-/epics/8741) to start capturing relevant incident timestamps to begin measuring important inincidentcient metrics like mean time to resolve (MTTR).
 
 ### Dogfooding Plan
 
@@ -126,7 +132,9 @@ We are actively [dogfooding](https://about.gitlab.com/handbook/product/product-p
 1. Incrementally dogfood new features via simulation days ([example](https://gitlab.com/gitlab-org/gitlab/-/issues/231518)) to gather immediate feedback on for improvements
 1. Begin a full migration once we have completed filling in the gap analysis - view migration plan [here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/322)
 
-<details><summary><b>Incident Management features the Infrastructure team is currently Dogfooding</b></summary>
+#### Incident Management features the Infrastructure team is currently Dogfooding
+
+<details><summary><b>Feature List</b></summary>
 
 <table>
     <tr>
@@ -138,119 +146,127 @@ We are actively [dogfooding](https://about.gitlab.com/handbook/product/product-p
     </tr>
     <tr>
         <td><b>Incidents</b></td>
-        <td>[Incident issue Type](https://docs.gitlab.com/ee/operations/incident_management/incidents.html)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/incidents.html">Incident issue Type</a></p>
+        </td>
         <td>✅</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
-        <td>[Creating incidents manually](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-manually)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-manually">Creating incidents manually</a></p>
+        </td>
         <td>✅</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
-        <td>[Creating incidents automatically](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-automatically)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-automatically">Creating incidents automatically</a></p>
+        </td>
         <td>✅</td>
-        <td>[Sample incident](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/6159) created via ops.gitlab.net</td>
+        <td><p><a href="https://gitlab.com/gitlab-com/gl-infra/production/-/issues/6159">Sample incident</a></p> created via ops.gitlab.net</td>
         <td></td>
     </tr>
     <tr>
         <td></td>
-        <td>[Incident Timelines](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#timeline-events)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/incidents.html#timeline-events">Incident Timelines</a></p>
+        </td>
+        <td>✅</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html">Linked Resources</a></p>
+        </td>
         <td>🔴</td>
-        <td>[Incident Timeline Quick Actions ] (https://gitlab.com/gitlab-org/gitlab/-/issues/368721), [Dogfood issue](https://gitlab.com/gitlab-org/gitlab/-/issues/360452)</td>
+        <td>TBD, just released, <p><a href="https://gitlab.com/gitlab-org/gitlab/-/issues/370133">Dogfood issue</a></p></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
-        <td>[Linked Resources](https://docs.gitlab.com/ee/operations/incident_management/linked_resources.html)</td>
-        <td>🔴</td>
-        <td>TBD, just released, [Dogfood issue](https://gitlab.com/gitlab-org/gitlab/-/issues/370133)</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>[Creating incidents via the PagerDuty webhook](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-via-the-pagerduty-webhook)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/incidents.html#create-incidents-via-the-pagerduty-webhook">Creating incidents via the PagerDuty webhook</a></p></td>
         <td>🔴</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td></td>
-        <td>[Incident List](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#incident-list)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/incidents.html#incident-list">Incident List</a></p></td>
         <td>🔴</td>
         <td></td>
         <td>Labels need to be included on the incident list.</td>
     </tr>
     <tr>
         <td></td>
-        <td>[Metrics Tab](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#metrics)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/incidents.html#metrics">Metrics Tab</a></p></td>
         <td>🔴</td>
         <td></td>
-        <td>There isn't a working integration with our observability vendor.  Metrics are added as screen shots ([example](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/6159#note_808876372)) to the incident.</td>
+        <td>There isn't a working integration with our observability vendor.  Metrics are added as screen shots <p><a href="https://gitlab.com/gitlab-com/gl-infra/production/-/issues/6159#note_808876372">(example)</a></p> to the incident.</td>
     </tr>
     <tr>
         <td></td>
-        <td>[Alert details Tab](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#alert-details)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/incidents.html#alert-details">Alert details Tab</a></p></td>
         <td>🔴</td>
         <td></td>
         <td>Not currently dogfooding GitLab alerts</td>
     </tr>
     <tr>
         <td></td>
-        <td>[Service Level Agreement countdown timer](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#service-level-agreement-countdown-timer)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/incidents.html#service-level-agreement-countdown-timer">Service Level Agreement countdown timer</a></p></td>
         <td>🔴</td>
         <td></td>
         <td>SLAs aren't based on a per incident basis</td>
     </tr>
     <tr>
         <td><b>Alerts</b></td>
-        <td>[GitLab Alerts](https://docs.gitlab.com/ee/operations/incident_management/alerts.html)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/alerts.html">GitLab Alerts</a></p>
+</td>
         <td>🔴</td>
         <td></td>
-        <td>Alert improvments are noted [here](https://gitlab.com/gitlab-org/monitor/respond/-/issues/149#opportunities-for-alert-improvements)</td>
+        <td>Alert improvments are noted <p><a href="https://gitlab.com/gitlab-org/monitor/respond/-/issues/149#opportunities-for-alert-improvements">here</a></p></td>
     </tr>
     <tr>
         <td></td>
-        <td>[Alert List](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alert-list)</td>
-        <td>🔴</td>
-        <td></td>
-        <td>Dependent on dogfooding alerts.</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>[Alert Details Tab](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alert-details-tab)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alert-list">Alert List</a></p></td>
         <td>🔴</td>
         <td></td>
         <td>Dependent on dogfooding alerts.</td>
     </tr>
     <tr>
         <td></td>
-        <td>[Metrics Tab](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#metrics-tab)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alert-details-tab">Alert Details Tab</a></p></td>
         <td>🔴</td>
         <td></td>
         <td>Dependent on dogfooding alerts.</td>
     </tr>
     <tr>
         <td></td>
-        <td>[HTTP Endpoints](https://docs.gitlab.com/ee/operations/incident_management/integrations.html#http-endpoints)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/alerts.html#metrics-tab">Metrics Tab</a></p></td>
+        <td>🔴</td>
+        <td></td>
+        <td>Dependent on dogfooding alerts.</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/incident_management/integrations.html#http-endpoints">HTTP Endpoints</a></p></td>
         <td>🔴</td>
         <td></td>
         <td>Mapping a complex payload to the custom mapping was cumbersome.  Alerts showed a new alert when the payload changed.</td>
     </tr>
     <tr>
         <td></td>
-        <td>[Prometheus Integration](https://docs.gitlab.com/ee/operations/metrics/alerts.html#external-prometheus-instances)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/metrics/alerts.html#external-prometheus-instances">Prometheus Integration</a></p>
+        </td>
         <td>🔴</td>
         <td></td>
-        <td></td>
+        <td>Right now Pager Duty is the single source of truth for alerts.  There is not any value, beyond associating GitLab Alerts to GitLab Incidents.</td>
     </tr>
     <tr>
         <td></td>
-        <td>[Grouping of identical alerts](https://docs.gitlab.com/ee/operations/metrics/alerts.html#external-prometheus-instances)</td>
+        <td><p><a href="https://docs.gitlab.com/ee/operations/metrics/alerts.html#external-prometheus-instances">Grouping of identical alerts</a></p>
+        </td>
         <td>🔴</td>
         <td></td>
         <td>Dependent on dogfooding alerts.  Looking for the ability to manually add similar alerts to the same incident.</td>
