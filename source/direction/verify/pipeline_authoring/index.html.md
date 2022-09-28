@@ -30,7 +30,7 @@ The standalone CI Lint tool offers an option to simulate the pipeline for the de
 * [Setting a predefined list of values for CI environment variables](https://gitlab.com/gitlab-org/gitlab/-/issues/29159) - Adding variables manually to a pipeline is manual task that might be error prone, setting the wrong variables could fail your pipeline, users would like to be able to set a list of predefined variable values for CI environment variables to make it easier to run a pipeline with the available variables.
 
 ### Top Vision Items in Ultimate tier
-* * [Expose variables in GitLab UI](https://gitlab.com/groups/gitlab-org/-/epics/6262) - Variables can help you perform complexed operations without scripting those tasks to save time, to help achieve that we would like to expose those variables in GitLab UI at the Job level
+* [Expose variables in GitLab UI](https://gitlab.com/groups/gitlab-org/-/epics/6262) - Variables can help you perform complexed operations without scripting those tasks to save time, to help achieve that we would like to expose those variables in GitLab UI at the Job level
 * [CI/CD Private catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/359047) - CI Templates lives in separate distributed projects which are scattered across your organization. Developers don't have an easy way to access, understand and use the CI templates to create pipelines, a private catalog is a service that is completely controlled by a single organization and not shared with others 
 
 ## Who we are focusing on? 
@@ -47,8 +47,10 @@ Check out our [Ops Section Direction "Who's is it for?"](/direction/ops/#who-is-
 If you have any feedback on our 3 year vision which you would like to share please do so in the [Pipeline authoring 3 year vision](https://gitlab.com/groups/gitlab-org/-/epics/4534)
 
 ## What's Next & Why
-As part of our [FY23 Product Investment Themes](https://about.gitlab.com/direction/#fy23-product-investment-themes) our team plan to support the following goals
-* Increase in Paid GMAU for gitlab.com - by delivering the first iteration of a [private CI/CD template catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/352347/), as an ultimate feature to allow engineers in an organization to discover and reuse their CI templates within their organization. The discussion on the [architectual blueprint](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/93574) is in progress
+As part of our [FY23 Product Investment Themes](https://about.gitlab.com/direction/#fy23-product-investment-themes) our team plan to support the following goals:
+* Increase in Paid GMAU for gitlab.com - by delivering [Expose variables in GitLab UI](https://gitlab.com/groups/gitlab-org/-/epics/6262).
+* [Variable work](https://gitlab.com/groups/gitlab-org/-/epics/8209) - to improve way our pipeline processes variables (more details in the [Upcoming milestone](https://about.gitlab.com/direction/verify/pipeline_authoring/#upcoming-milestone) section).
+* The first iteration of a [private CI/CD template catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/352347/) is on hold until next year. The discussion on the [architectual blueprint](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/93574) is in progress.
 
 ### Upcoming milestone 
 The work in the [current milestone](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&milestone_title=%23started) has been scoped, is underway. The assigned issues listed on our [Pipeline Authoring planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&milestone_title=%23started). Our team's focus is outlined in the `Goals for the milestone` section for the [current milestone](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues?scope=all&state=opened&milestone_title=%23started), in this milestone, our focus is to improve the way our pipeline processes variables which will allow us to implement some of the top feature requests such as:
