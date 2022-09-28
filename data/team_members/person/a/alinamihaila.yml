@@ -19,7 +19,6 @@ expertise: |
 projects:
   gitlab:
   - reviewer backend
-  - reviewer database
   - reviewer product_intelligence
   - reviewer tooling
   version-gitlab-com:
