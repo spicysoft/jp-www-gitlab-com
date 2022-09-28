@@ -26,7 +26,6 @@ This strategy is a work in progress, and everyone can contribute. Please comment
 
 Useful resources
 - [Roadmap for Commerce Integrations](https://gitlab.com/groups/gitlab-org/-/roadmap?timeframe_range_type=CURRENT_QUARTER&label_name[]=group::commerce+integrations)
-- [Maturity: <%= data.categories["commerce_integrations"].maturity.capitalize %>](/direction/maturity/)
 
 ### Overview
 
