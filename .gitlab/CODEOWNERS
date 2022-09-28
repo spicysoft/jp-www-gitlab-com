@@ -76,11 +76,11 @@
 /sites/uncategorized/source/company/team/structure/working-groups/cross-functional-prioritization/ @wayne @clefelhocz1 @vkarnes @meks @fseifoddini @justinfarris
 
 ^[Compensation]
-/data/currency_conversions.yml @brittanyr @mwilkins
-/data/entity_mapper.yml @brittanyr @anechan
-/sites/handbook/source/handbook/total-rewards/ @brittanyr @mwilkins
-/sites/handbook/source/handbook/total-rewards/compensation/ @brittanyr @mwilkins
-/data/country_payment_information.yml @brittanyr @upatel
+/data/currency_conversions.yml @wendybarnes @mwilkins
+/data/entity_mapper.yml @wendybarnes @anechan
+/sites/handbook/source/handbook/total-rewards/ @wendybarnes @mwilkins
+/sites/handbook/source/handbook/total-rewards/compensation/ @wendybarnes @mwilkins
+/data/country_payment_information.yml @wendybarnes @upatel
 /data/variable_pay_frequency.yml @mwilkins
 
 ^[Conversion]
@@ -90,10 +90,10 @@
 /sites/uncategorized/source/company/culture/ @dmurph @jessicareeder @bbula
 /sites/uncategorized/source/company/culture/all-remote/ @dmurph @jessicareeder @bbula
 /sites/uncategorized/source/company/culture/contribute/ @Lconway @akramer
-/sites/uncategorized/source/company/culture/cross-culture-collaboration-guide/ @glucchesi @brittanyr
+/sites/uncategorized/source/company/culture/cross-culture-collaboration-guide/ @glucchesi @wendybarnes
 /sites/uncategorized/source/company/culture/gitlab-101/ @mmcb @streas
 /sites/uncategorized/source/company/culture/inclusion/ @wendybarnes
-/sites/uncategorized/source/company/culture/internal-feedback/ @wendybarnes @brittanyr @mwilkins
+/sites/uncategorized/source/company/culture/internal-feedback/ @wendybarnes @mwilkins
 /sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-generational-understanding/ @darwinjs @wendybarnes @mdrussell @terrichu
 sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia @hugoazevedo @romerg @chriscruz
 /sites/uncategorized/source/company/culture/inclusion/erg-gitlab-diversability/ @wspillane @igroenewegenmackintosh @matt_wilson @kchappell
@@ -296,7 +296,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 
 ^[Job Families]
 /sites/uncategorized/source/job-families/ @sytses @streas
-/sites/handbook/source/handbook/hiring/job-families/ @streas @brittanyr
+/sites/handbook/source/handbook/hiring/job-families/ @streas @wendybarnes
 
 ^[Legal]
 /sites/handbook/source/handbook/legal/gitlab-code-of-business-conduct-and-ethics/ @robin
@@ -428,20 +428,20 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 ^[People]
 /sites/handbook/source/handbook/leadership/underperformance/ @wendybarnes @pegan @cbednarz @rtakken @glucchesi
 /sites/handbook/source/handbook/people-policies/ @cgudgenov @emilyplotkin @pegan @wendybarnes
-/sites/handbook/source/handbook/people-group/ @wendybarnes @brittanyr @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
+/sites/handbook/source/handbook/people-group/ @wendybarnes @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
 /sites/handbook/source/handbook/people-group/acceptable-use-policy/ @wendybarnes @JohnathanHunt @emilyplotkin @pegan
 /sites/handbook/source/handbook/people-group/employment-solutions/ @pegan @hdevlin
 /sites/handbook/source/handbook/people-group/contracts-probation-periods/ @ashjameson @mpatel8 @shensiek @alex_venter @Mowry @nutaurus
 /sites/handbook/source/handbook/people-group/people-compliance/ @cgudgenov
 /sites/handbook/source/handbook/people-group/general-onboarding/ @mpatel8 @Mowry @alex_venter @anechan @asjones @nutaurus
-/sites/handbook/source/handbook/people-group/promotions-transfers/ @wendybarnes @mpatel8 @brittanyr
+/sites/handbook/source/handbook/people-group/promotions-transfers/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/offboarding/offboarding_guidelines/ @mpatel8 @Mowry @alex_venter @anechan @asjones @nutaurus
 /sites/handbook/source/handbook/people-group/offboarding/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
 /sites/handbook/source/handbook/people-group/employment-branding/internal-communications/ @sliang2 @kaylagolden @drogozinski @rallen3
 /sites/handbook/source/handbook/group-conversations/ @mmcb
 /sites/handbook/source/handbook/people-group/celebrations/ @wendybarnes @mpatel8
-/sites/handbook/source/handbook/people-group/talent-assessment/ @wendybarnes @brittanyr @rtakken @glucchesi @pegan @cbednarz
+/sites/handbook/source/handbook/people-group/talent-assessment/ @wendybarnes @rtakken @glucchesi @pegan @cbednarz
 /sites/handbook/source/handbook/labor-and-employment-notices/ @pegan @wendybarnes @cgudgenov @streas @sytses
 /sites/handbook/source/handbook/people-policies/leave-of-absence/ @lyndemeiers @pegan @cgudgenov
 /sites/handbook/source/handbook/people-policies/leave-of-absence/us/ @lyndemeiers @pegan @cgudgenov
