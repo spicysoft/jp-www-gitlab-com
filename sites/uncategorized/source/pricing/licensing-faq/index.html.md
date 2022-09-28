@@ -263,7 +263,7 @@ ___
 
 ### Can I apply one license to multiple instances?
 
-You can apply one license to multiple instances if **the users on the instances**:
+You can apply one self-managed license to multiple self-managed instances if **the users on the instances**:
 
 - Are the same, or
 - Are a subset of your licensed production instance.
