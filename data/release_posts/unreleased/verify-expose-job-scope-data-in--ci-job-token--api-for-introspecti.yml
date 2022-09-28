@@ -1,0 +1,13 @@
+---
+features:
+  secondary:
+  - name: "Expose job scope data in  CI_JOB_TOKEN  API for introspection"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: jheimbuck_gl
+    stage: verify
+    categories: []
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/337087'
+    description: |
+      GitLab has introduced a secure workflow for CI_JOB_TOKEN and you may be looking for information about if the setting is enabled in your project. Now you can easily use the CI_JOB_TOKEN API for introspection into the token's data such as if the scope has been enabled.
