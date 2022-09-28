@@ -260,6 +260,8 @@ KPIs
 
 ### Commerce Integrations Group
 
+Learn more about this group in the [Commerce Integrations Direction](/direction/fulfillment/commerce-integrations/) page.
+
 Audience
 - Channel Partners and their customers
 - Worldwide Channels team
