@@ -24,8 +24,7 @@ Fulfillment is currently divided into six established groups:
 - [Utilization](#utilization-group)
 - [Fulfillment Platform](#fulfillment-platform-group)
 - [Commerce Integrations](#commerce-integrations-group)
-
-In the near future, we plan to establish a dedicated group to focus on [Fulfillment Admin Tools](#fulfillment-admin-tools-group)
+- [Fulfillment Admin Tools](#fulfillment-admin-tools-group)
  
 We collaborate frequently across all of GitLab to achieve our goals. Most commonly we work with [Field Operations](/handbook/sales/field-operations/), [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Support](handbook/support/support-ops/), and [Data](/handbook/business-technology/data-team/) teams.
  
@@ -283,27 +282,7 @@ KPIs
 
 ### Fulfillment Admin Tools Group
 
-NOTE: as of 2022-09 this group has not been established yet. Work related to Fulfillment Admin Tools is currently being managed by the [Utilization Group](#utilization-group). 
-
-Audience
-- GitLab Support team (Tom Cooney’s team)
-- Internal teams (Sales, Billing, Compliance)
-
-Key responsibilities
-- Focuses on building admin tools for the support team.
-- Create transparency for internal teams into customer subscription, billing and licensing.
-
-Example projects:
-- Deprecate Mechanizer
-- Solve for trial plan change
-- Solve for clear subscription
-- Implement minutes and storage change ability in CustomersDot
-- Solve for data integrity for gitlab.com <> CustomersDot subscriptions
-- CustomersDot Admin maintenance
-- Auditing
-
-KPIs
-- Volume of manual subscription modifications by support
+See [Fulfillment Admin Tools Direction](/direction/fulfillment/fulfillment-admin-tools/)
 
 ## Roadmap
 
