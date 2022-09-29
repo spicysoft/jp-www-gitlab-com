@@ -44,7 +44,7 @@ _Release post task and branch ownership:_
 
 _Reminding and Alerting DRIs:_
 
-It's important to keep PMs up to date regularly with items they need to deliver for the release post. Early reminders are especially helpful due to how async and distributed GitLab team members are. The release post manager will alert DRIs (PMs, EMs and others as needed) at least one working day before each due date (post a comment to the `#release-post` Slack channel, issues or MRs) per the release post manager task list below. But the release post manager can also opt to do addtional reminders or announements specific to the release post they're leading as they see fit. 
+It's important to keep PMs up to date regularly with items they need to deliver for the release post. Early reminders are especially helpful due to how async and distributed GitLab team members are. The release post manager will alert DRIs (PMs, EMs and others as needed) at least one working day before each due date (post a comment to the `#release-post` Slack channel, issues or MRs) per the release post manager task list below. But the release post manager can also opt to do addtional reminders or announements specific to the release post they're leading as they see fit.
 
 _Handbook references:_
 
@@ -105,7 +105,7 @@ To accommodate the tight timelines of tasks during the 18th-22nd of the month, m
   - Link to their handbook sections: [TW Lead](https://about.gitlab.com/handbook/marketing/blog/release-posts/#tw-lead) and [Technical Advisors](https://about.gitlab.com/handbook/marketing/blog/release-posts/#technical-advisors)
   - Tell them that if they have any questions, post them to you in the `#X-Y-release-post-prep` Slack channel and cc Product Operations
   - Tell them it's recommended they set up a coffee chat with their predecessor for any helpful tips. The previous TW lead and TA can be found on the [RP scheduling page](https://about.gitlab.com/handbook/marketing/blog/release-posts/managers/)
-  
+
 10. [ ] Update the `#release-post` Slack bookmarks in the `#release-post` channel:
 
   ```md
@@ -193,7 +193,7 @@ For more guidance about what to include in the release post, check the [Product 
 
 **Due date: YYYY-MM-10**
 
-The following sections are always present and managed by the PM or Eng lead owning the related area. 
+The following sections are always present and managed by the PM or Eng lead owning the related area.
 
 - [ ] Add GitLab Runner improvements: `@DarrenEastman`
 - [ ] Add Omnibus improvements: `@dorrino`
@@ -484,10 +484,6 @@ Ideally, the team should complete all the reviews by the 19th of the month, so t
 
 The structural check is performed by the technical writing lead: `@tw_lead`
 
-Before starting the structural check:
-
-1. [ ] Ensure that the [docs release process](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md) **is started** (but not completed). This process should start around the same time as the release post structural check, and be completed soon after the release post goes live.
-
 When starting the structural check:
 
 For suggestions that you are confident don't need to be reviewed, change them locally
@@ -528,8 +524,9 @@ In general:
 
 1. [ ] Report any problems from the structural check in the `#release-post` channel by pinging the reporters directly for each problem. Do NOT ping `@all` or `@channel`, and do NOT leave a general message that no one will pay attention to. If possible, ensure open discussion threads in this merge request track any issues.
 1. [ ] Ping the release post manager in Slack `#X-Y-release-post-prep` to let them know your review is over and they can start [final content review](#final-content-review)
-1. [ ] `Approve` the release post merge request to communicate you have completed your tasks
+1. [ ] `Approve` the release post merge request to communicate you have completed your tasks.
 1. [ ] Within 1 week, update the release post templates and release post handbook with anything that comes up during the process.
+1. [ ] Set a reminder for yourself on the 17th of the following month to prepare for the [versioned documentation release](https://about.gitlab.com/handbook/marketing/blog/release-posts/#versioned-documentation-release).
 
 ---
 
