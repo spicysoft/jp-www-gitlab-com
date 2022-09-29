@@ -25,8 +25,6 @@ Now that we have delivered the [Next CI/CD scale target: 20M builds per day by 2
 
 The first track of effort will be focused on partitioning the active CI/CD tables via [gitlab&5417](https://gitlab.com/groups/gitlab-org/-/epics/5417) and the second track is to partition queuing tables via [gitlab&7438](https://gitlab.com/groups/gitlab-org/-/epics/7438).
 
-* Not part of the blueprint, but supports the overall initiative
-
 [Roadmap View](https://gitlab.com/groups/gitlab-org/-/roadmap?state=opened&sort=end_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name%5B%5D=Category%3AContinuous+Integration+Scaling&progress=WEIGHT&show_progress=true&show_milestones=true&milestones_type=ALL)
 
 ### Queue Improvements PI
