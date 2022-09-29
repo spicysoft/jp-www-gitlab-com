@@ -21,17 +21,17 @@ When you're setting up something new, and especially when learning a new CI plat
 
 ### Our top visionary items are:
 
-* [Pipeline editor improvments](https://gitlab.com/groups/gitlab-org/-/epics/7289) - Pipeline editor is our one-stop-shop for writing a CI/CD pipeline, our usability testing had uncover opportunities for improving the pipeline editor UI and functionality. 
+* [Pipeline editor improvements](https://gitlab.com/groups/gitlab-org/-/epics/7289) - Pipeline editor is our one-stop-shop for writing a CI/CD pipeline, our usability testing had uncover opportunities for improving the pipeline editor UI and functionality. 
 * [Auto-complete](https://gitlab.com/groups/gitlab-org/-/epics/5246) - When writing a pipeline it's hard to keep track of all the keywords and remember the different nuances, we want to make your writing experience as easy as writing a text message on your phone
-Triggering and retrying jobs and pipelines
+Triggering and retrying jobs and pipelines.
 * [CI/CD Public catalog](https://gitlab.com/groups/gitlab-org/-/epics/7462) - CI Templates lives in separate distributed projects which are scattered across different repositories. Developers don't have an easy way to find, access, understand and use the CI templates to create pipelines, a public catalog acts as a single source of truth available to anyone who wants to publish or use a CI template.
-* [Pipeline simulation](https://gitlab.com/groups/gitlab-org/-/epics/6498) - Creating a complex pipeline configuration that is as efficient and reliable as it can be will require iteration. Organizations are interested in tools that can help them reduce the time to an efficient and reliable pipeline. Currently, it's possible to validate the pipeline syntax statically in the pipeline editor, but we don't evaluate the pipeline logic like rules and needs: job dependencies. We want to make it possible to validate your pipeline under different conditions, such as different pipeline sources and different variables directly from the pipeline editor
+* [Pipeline simulation](https://gitlab.com/groups/gitlab-org/-/epics/6498) - Creating a complex pipeline configuration that is as efficient and reliable as it can be will require iteration. Organizations are interested in tools that can help them reduce the time to an efficient and reliable pipeline. Currently, it's possible to validate the pipeline syntax statically in the pipeline editor, but we don't evaluate the pipeline logic like rules and needs: job dependencies. We want to make it possible to validate your pipeline under different conditions, such as different pipeline sources and different variables directly from the pipeline editor.
 The standalone CI Lint tool offers an option to simulate the pipeline for the default branch, but that feature is not discoverable, not well documented, and is difficult to understand what it does from how it's presented in the Linter UI.
 * [Setting a predefined list of values for CI environment variables](https://gitlab.com/gitlab-org/gitlab/-/issues/29159) - Adding variables manually to a pipeline is manual task that might be error prone, setting the wrong variables could fail your pipeline, users would like to be able to set a list of predefined variable values for CI environment variables to make it easier to run a pipeline with the available variables.
 
 ### Top Vision Items in Ultimate tier
-* [Expose variables in GitLab UI](https://gitlab.com/groups/gitlab-org/-/epics/6262) - Variables can help you perform complexed operations without scripting those tasks to save time, to help achieve that we would like to expose those variables in GitLab UI at the Job level
-* [CI/CD Private catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/359047) - CI Templates lives in separate distributed projects which are scattered across your organization. Developers don't have an easy way to access, understand and use the CI templates to create pipelines, a private catalog is a service that is completely controlled by a single organization and not shared with others 
+* [Expose variables in GitLab UI](https://gitlab.com/groups/gitlab-org/-/epics/6262) - Variables can help you perform complexed operations without scripting those tasks to save time, to help achieve that we would like to expose those variables in GitLab UI at the Job level.
+* [CI/CD Private catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/359047) - CI Templates lives in separate distributed projects which are scattered across your organization. Developers don't have an easy way to access, understand and use the CI templates to create pipelines, a private catalog is a service that is completely controlled by a single organization and not shared with others.
 
 ## Who we are focusing on? 
 
@@ -40,7 +40,7 @@ Check out our [Ops Section Direction "Who's is it for?"](/direction/ops/#who-is-
 
 1. [Priyanka - Platform engineer](/handbook/product/personas/#priyanka-platform-engineer)
 1. [Devon - DevOps Engineer](/handbook/product/personas/#devon-devops-engineer)
-1. [Sasha - Software Developer](m/handbook/product/personas/#sasha-software-developer)
+1. [Sasha - Software Developer](/handbook/product/personas/#sasha-software-developer)
 
 ### Everyone can contribute 
 
@@ -88,7 +88,7 @@ A limitation of the [GitHub Actions API](https://docs.github.com/en/rest/referen
 
 Circle CI is a Continuous Integration platform that builds a robust process for using and contributing Orbs. Circle CI Orbs are reusable snippets of code packages as YAML configuration condenses repeated pieces of config into a single line of code. Once an orb is created, it could be published to the orb registry, which becomes available to any of the Circle CI user base.
 
-Watch this walkthrough video of the different contribution frameworks available by GitHub Marketplace, Circle CI and CodeFresh.io
+Watch this walkthrough video of the different contribution frameworks available by GitHub Marketplace, Circle CI and CodeFresh.io.
  
  <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/7WSWGDtMD7A" frameborder="0" allowfullscreen="true"> </iframe>
@@ -112,5 +112,3 @@ Our top internal customer issues ([search](https://gitlab.com/groups/gitlab-org/
 ## Analyst Landscape
 
 Pipeline Authoring is not independently analyzed as an analyst category. See our [Continuous Integration Direction](/direction/verify/continuous_integration/) for this content.
-
-
