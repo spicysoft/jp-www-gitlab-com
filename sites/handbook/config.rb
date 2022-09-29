@@ -37,7 +37,7 @@ require 'generators/prodops_direction'
 # Settings
 set :haml, { format: :xhtml }
 set :markdown_engine, :kramdown
-set :markdown, tables: true, hard_wrap: false, input: 'GFM'
+set :markdown, tables: true, hard_wrap: false, input: 'GFM', parse_block_html: true
 
 # Disable HAML warnings
 # https://github.com/middleman/middleman/issues/2087#issuecomment-307502952
