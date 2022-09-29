@@ -14,11 +14,11 @@ Runner SaaS is the product development effort for Runners on GitLab SaaS.
 
 ## Vision
 
-By 2025, our vision for GitLab Runner SaaS is that 70% of GitLab SaaS customers' CI job workloads run on GitLab-hosted Runners.  We see this vision for Runner Fleet as enabling the broader GitLab product [vision](https://about.gitlab.com/direction/#vision) of continuing to mature the GitLab DevOps platform rapidly. Delivering on the vision means providing GitLab.com customers with a zero-friction, highly performant, secure, and reliable CI/CD build experience for the market-leading operating systems and development technologies.
+By 2025, our vision for GitLab Runner SaaS is that 70% of GitLab SaaS customers' CI job workloads run on GitLab-hosted Runners.  We see this vision for Runner Fleet as enabling the broader GitLab product [vision](https://about.gitlab.com/direction/#vision) of continuing to mature the GitLab DevOps platform rapidly. Delivering on the vision means providing GitLab.com customers with a zero-friction, highly performant, secure, and reliable CI/CD build experience for the market-leading operating systems and development technologies. n addition, it means working towards providing a GitLab Runner SaaS solution where you can easily choose and use the correct type of public cloud-hosted compute resources for your CI/CD jobs.
 
 A few key pillars to enable the vision for Runner Saas include:
-- An expanded catalog of GitLab SaaS Runner virtual machines
-- Runner SaaS virtual machine resource discoverability (near-term).
+- An expanded catalog of GitLab SaaS Runner virtual machines (near-term)
+- Runner SaaS machine type resource discoverability (near-term).
 - Autonomous build environment selection for CI job execution (long-term).
 
 ## Who we are focusing on?
@@ -35,19 +35,19 @@ Check out our [Ops Section Direction "Who's is it for?"](/direction/ops/#who-is-
 | Offer Name                                                                                 | Offer Status|
 |--------------------------------------------------------------------------------------------|----------------|
 | [GitLab SaaS Runners on Linux](https://docs.gitlab.com/ee/ci/runners/saas/linux_saas_runner.html) |GA|
-| [GitLab SaaS Runners on Windows](https://docs.gitlab.com/ee/ci/runners/saas/macos_saas_runner.html)                                                                |Beta|
-| [GitLab SaaS Runners on macOS x86-64](https://docs.gitlab.com/ee/ci/runners/saas/macos_saas_runner.html)                                                                  |Beta|
+| [GitLab SaaS Runners on Windows](https://docs.gitlab.com/ee/ci/runners/saas/macos_saas_runner.html)                                                                |[Beta](https://docs.gitlab.com/ee/policy/alpha-beta-support.html#beta-features)|
+| [GitLab SaaS Runners on macOS x86-64](https://docs.gitlab.com/ee/ci/runners/saas/macos_saas_runner.html)                                                                  |[Beta](https://docs.gitlab.com/ee/policy/alpha-beta-support.html#beta-features)|
 
 ## Strategic Priorities
 
 The table below represents the current strategic priorities for Runner SaaS. This list will change with each monthly revision of this direction page.
 
-| Theme-Category                       | Item                                                                                                                 |Why?| Target delivery QTR |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|----------------|---------------------|
-| SaaS Runners on Linux                |[Offer GCP n2d-standard-2 VM's on GitLab SaaS Linux Runners](https://gitlab.com/gitlab-org/gitlab/-/issues/357676); [Offer GCP n2d-standard-4 VM's on GitLab SaaS Linux Runners](https://gitlab.com/gitlab-org/gitlab/-/issues/357681)|The ongoing feedback from customers and users is that the current build machine type offered on the SaaS Runners on Linux is not powerful enough to run specific workflows efficiently. For example, a similar CI job on a competing hosted solution ran in 12 minutes compared to 28 minutes on the GitLab SaaS Runners. In another example, the recently published [CI Free Tier Showdown blog post](https://earthly.dev/blog/ci-comparison/) ranked the performance of the current n1-standard-1 backed machine type for the SaaS Runners on Linux last. To accelerate offering more compute machine types on GitLab SaaS, the initial MVC will add two additional build machine types to the GitLab SaaS Runners for Linux offer. This effort will inform the work planned in Q4 to extend the various compute offerings available on the SaaS Runners on Linux. |Q3 FY 2023|
-| SaaS Runners on macOS                | [GitLab SaaS Runners on macOS Apple Silicon M1 Limited Availability](https://gitlab.com/gitlab-org/gitlab/-/issues/342848)                      |In Q3 FY 2022, we launched the [Runner SaaS for macOS beta](https://docs.gitlab.com/ee/ci/runners/saas/macos_saas_runner.html) on x86-64 architecture. The user and customer demand for this service have been exceptional. Further reinforcing the [one DevOps strategy](https://about.gitlab.com/direction/mobile/mobile-devops/), the current beta participants strongly favor having a fully integrated build solution for the Apple ecosystem embedded in GitLab. We plan to transition to Apple Silicon M1 compute and transition the offer to [limited availability](https://docs.gitlab.com/ee/policy/alpha-beta-support.html#limited-availability-la)| Q4 FY 2023            |
-| Scalability and Performance | [Dogfooding of Taskscaler and the Google Compue Plugin on GitLab SaaS internal use Runners](https://gitlab.com/gitlab-org/gitlab/-/issues/352168) |The GitLab Runner SaaS for Linux with docker container builds executes millions of CI jobs each month. The autoscaling architecture that is the foundation of this solution has served us well. However, since its introduction, we have launched new autoscaling solutions to manage the Runner SaaS for Windows and macOS. In addition, the core technology used for Linux, Docker Machine, is no longer maintained by Docker. Though we maintain a fork of Docker Machine, the right long-term strategy is to iterate towards the [Next Runner autos-scaling architecture](https://docs.gitlab.com/ee/architecture/blueprints/runner_scaling/index.html) for the Runner SaaS. This architectural technology pivot will enable us to accomplish several goals. First - enabling GitLab to scale over the next five years. Second, as a critical foundational enabler to consistently achieve and exceed our CI Runners SLO goal of 99.95%. Finally, the autoscaling technology that we implement to manage the scale of GitLab SaaS is the same technology made available to customers that self-manage Runner Fleets.|Q4 FY 2023 |
-| SaaS Runners on Windows              | [Runner SaaS for Windows General Availability](https://gitlab.com/gitlab-org/gitlab/-/issues/300476)                    |We launched the Runner SaaS for Windows in beta in FY21Q1. At the time, our initial plan was to transition the offer to GA within a few quarters. However, due to other strategic priorities, we delayed that timeline. Now users and customers rely on a Windows build solution hosted on GitLab SaaS for their mission-critical CI/CD builds, so we must migrate the Windows offer to GA.|Q2 FY 2024           |
+| Theme-Category                       | Item                                                                                                                                               |Why?| Target delivery QTR |
+|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------|---------------------|
+| SaaS Runners on Linux                | [Offer GPU enabled GitLab SaaS Linux Runners](https://gitlab.com/gitlab-org/gitlab/-/issues/358026)                                                |Advanced computing is a critical requirement for AI models. As the first iteration to enable the [ModelOps strategy](https://about.gitlab.com/direction/modelops/) for GitLab SaaS, we will add a GPU enable machine type to the GitLab SaaS Runners on Linux. |Q4 FY 2023|
+| SaaS Runners on macOS                | [GitLab SaaS Runners on macOS Apple Silicon M1 Limited Availability](https://gitlab.com/gitlab-org/gitlab/-/issues/342848)                         |In Q3 FY 2022, we launched the [Runner SaaS for macOS beta](https://docs.gitlab.com/ee/ci/runners/saas/macos_saas_runner.html) on x86-64 architecture. The user and customer demand for this service have been exceptional. Further reinforcing the [one DevOps strategy](https://about.gitlab.com/direction/mobile/mobile-devops/), the current beta participants strongly favor having a fully integrated build solution for the Apple ecosystem embedded in GitLab. We plan to transition to Apple Silicon M1 compute and transition the offer to [limited availability](https://docs.gitlab.com/ee/policy/alpha-beta-support.html#limited-availability-la)| Q4 FY 2023            |
+| Scalability and Performance | [Dogfooding of Taskscaler and the Google Compute Plugin on GitLab SaaS internal use Runners](https://gitlab.com/gitlab-org/gitlab/-/issues/352168) |The GitLab Runner SaaS for Linux with docker container builds executes millions of CI jobs each month. The autoscaling architecture that is the foundation of this solution has served us well. However, since its introduction, we have launched new autoscaling solutions to manage the Runner SaaS for Windows and macOS. In addition, the core technology used for Linux, Docker Machine, is no longer maintained by Docker. Though we maintain a fork of Docker Machine, the right long-term strategy is to iterate towards the [Next Runner autos-scaling architecture](https://docs.gitlab.com/ee/architecture/blueprints/runner_scaling/index.html) for the Runner SaaS. This architectural technology pivot will enable us to accomplish several goals. First - enabling GitLab to scale over the next five years. Second, as a critical foundational enabler to consistently achieve and exceed our CI Runners SLO goal of 99.95%. Finally, the autoscaling technology that we implement to manage the scale of GitLab SaaS is the same technology made available to customers that self-manage Runner Fleets.|Q4 FY 2023 |
+| SaaS Runners on Windows              | [Runner SaaS for Windows General Availability](https://gitlab.com/gitlab-org/gitlab/-/issues/300476)                                               |We launched the Runner SaaS for Windows in beta in FY21Q1. At the time, our initial plan was to transition the offer to GA within a few quarters. However, due to other strategic priorities, we delayed that timeline. Now users and customers rely on a Windows build solution hosted on GitLab SaaS for their mission-critical CI/CD builds, so we must migrate the Windows offer to GA.|Q2 FY 2024           |
 
 ## Prioritization for feature enhancements, maintenance and bugs
 
@@ -69,14 +69,15 @@ Organizations that use Cloud-native CI/CD solutions, such as GitLab.com, CircleC
 
 In addition to eliminating CI build server maintenance costs, there are other critical considerations for organizations that can migrate 100% of their CI/CD processes to a cloud-native solution. These include security, reliability, performance, multiple build server and configuration options, and on-demand scale.
 
-Some competitors focus on building platform [speed](https://circleci.com/circleci-versus-github-actions/) and performance as critical competitive differentiators. Other industry participants, such as GitHub, have also invested in providing more computing choices for their hosted offerings. With the recent [announcement](https://github.blog/2022-09-01-github-actions-introducing-the-new-larger-github-hosted-runners-beta/) by GitHub that new larger GitHub-hosted runners are now in beta, the market is adopting CircleCI's position of providing computing choices for customers that use SaaS-delivered CI/CD services.
+Some competitors focus on building platform [speed](https://circleci.com/circleci-versus-github-actions/) and performance as critical competitive differentiators. Other industry participants, such as GitHub, have also invested in providing more computing choices for their hosted offerings. With the recent [announcement](https://github.blog/2022-09-01-github-actions-introducing-the-new-larger-github-hosted-runners-beta/) by GitHub that new larger GitHub-hosted runners are now in beta, the market is adopting CircleCI's position of providing more computing choices for customers that use SaaS-delivered CI/CD services.
 
-Today on GitLab SaaS, we execute docker container CI builds only on GCP 1vCPU n1-standard-1 instances. Clearly, the performance of this lower compute machine type will be slower than larger machine types offered by our primary competitors. However, as indicated in our strategic priorities, we are closing this gap in our hosted offering and will start expanding the catalog of hosted Runner resource types on GitLab.com.
+With the recent release of new machine types for GitLab SaaS Linux Runners, we have closed the competitive gap measured by build environment compute performance. From our perspective, GitLab Runner SaaS is well-positioned to compete on the performance and speed vector over the long term:
 
-From our perspective, GitLab Runner SaaS is well-positioned to compete on the performance and speed vector over the long term. First, the Runner core build execution engine is highly performant.
+1. The Runner core build execution engine is highly performant.
+1. We are introducing the Next Runner autoscaling technology that will provide added value with faster performance and near-real-time fleet scaling.
+1. As we expand the catalog of more compute offerings on GitLab SaaS, customers will benefit from speedier build times for compute-intensive workloads.
 
-Secondly, we are introducing the Next Runner autoscaling technology that will provide added value with faster performance and near-real-time fleet scaling. Finally, as we expand the catalog of more compute offerings on GitLab SaaS, customers will benefit from speedier build times for compute-intensive workloads.
-
+However, the value of GitLab as the one DevOps platform far outweighs comparisons solely focused on the compute performance of the Runner machine types.
 
 ### A note on Xcode Cloud
 
@@ -88,27 +89,22 @@ With this initial release, Apple appears to signal that the vision and future is
 
 For GitLab customers that are building applications for multiple platforms, GitLab SaaS continues to be the right choice as the single DevOps platform. In one pipeline hosted on GitLab SaaS, a customer can execute build jobs targeting Android, Apple iOS and Windows.
 
-One of the goals of the [Mobile DevOps](https://about.gitlab.com/direction/mobile/mobile-devops/) strategy is to provide high-value DevOps capabilities for enterprise mobile application development (iOS, Android). Therefore our value proposition remains strong, even in light of the new Xcode Cloud offer.
-
+One of the goals of the [Mobile DevOps](https://about.gitlab.com/direction/mobile/mobile-devops/) strategy is to provide high-value DevOps capabilities for enterprise mobile application development (iOS, Android). As noted in the recently published blog post, [Mobile DevOps with GitLab, Part 2 - Code signing for Android with GitLab](https://about.gitlab.com/blog/2022/09/28/mobile-devops-with-gitlab-part-2/) GitLab provides market leading features such as [Project-level Secure Files](https://docs.gitlab.com/ee/ci/secure_files/), and support for Android and iOS builds in one hosted solution. Therefore our value proposition remains strong, even in light of the launch of Xcode Cloud.
 
 ### Competitive Matrix
 
-### Hosted Build Environment Resource Classes
+### Hosted Build Environment Resource Classes - non GPU enabled
 
-| Machine Type | GitLab | GitHub | CircleCI |
-| ------ | :-----: |  :-----: |  :-----:|
-| 1 vCPU, 4GB RAM class build VM | Available | Not available | Available |
-| 2 vCPU, 8GB RAM class build VM | Not available | Available | Available |
-| 4 vCPU, 16GB RAM class build VM | Not available | Offer in beta as of 2022-09-01 | Available |
-| 8 vCPU, 32GB RAM class build VM | Not available | Offer in beta as of 2022-09-01 | Available |
-| 16 vCPU, 32GB RAM class build VM | Not available | Offer in beta as of 2022-09-01 | Available |
-
-### Windows Builds - Hosted Build Machines
-
-| Machine Type                   | GitLab        | GitHub        |
-| ------------------------------ | ------------- | ------------- |
-| 2 vCPU, 8GB RAM class build VM | Available     | Offer in beta as of 2022-09-01 |
-
+|Machine Class| Machine Type/Class | GitLab | GitHub | CircleCI |
+| ------ | :-----: |  :-----: |  :-----:|:-----:|
+|S| 1 vCPU, 4GB RAM | Available | Not available | Available |
+|M| 2 vCPUs, 8GB RAM | Available | Available | Available |
+|L| 4 vCPUs, 16GB RAM  | Available | Beta  | Available |
+|XL | 8 vCPUs, 32GB RAM  | Not available | Beta| Available |
+|2XL|16 vCPUs 64GB RAM| Not available | Beta| Available |
+|3XL |32 vCPUs 128GB RAM|Not available|Beta|Avaiable on Windows|
+|4XL|48 vCPUs 192GB RAM|Not available|Beta|Not available|
+|5XL|64 vCPUs 256GB RAM|Not available|Beta|Not available|
 
 ### macOS - Offer Positioning and Hosted Build Machines
 
@@ -116,7 +112,7 @@ One of the goals of the [Mobile DevOps](https://about.gitlab.com/direction/mobil
 |----------|----------------|----------------|----------------|----------------|----------------|
 |Positioning Statement ||A GitHub-hosted runner is  VM hosted by GitHub with the GitHub actions runner application installed.|A CI/CD service built into Xcode, designed expressly for Apple developers.|Industry-leading speed. No other CI/CD platform takes performance as seriously as we do.|Build better mobile applications, faster|
 |Value Proposition||When you use a GitHub-hosted runner, machine maintenance and upgrades are taken care of.|Build your apps in the cloud and eliminate dedicated build infrastructure.| The macOS execution environment allows you to test, build, and deploy macOS and iOS apps on CircleCI.|CI for mobile - save time spent on testing, onboarding, and maintenance with automated workflows and triggers|
-|macOS Virtual Machine Specs||3-core CPU, 14 GB RAM |TBD|Medium: 4 vCPU, 8 GB RAM; Large: 8 vCPU, 16 GB RAM;  Metal 12 vCPU 32 GB RAM|Standard: 4 vCPU, 19 GB RAM; Elite 8 vCPU 35 GB ram; Elite XL 12 vCPU 54 GB RAM|
+|macOS Virtual Machine Specs||3-core CPU, 14 GB RAM |--|Medium: 4 vCPU, 8 GB RAM; Large: 8 vCPU, 16 GB RAM;  Metal 12 vCPU 32 GB RAM|Standard: 4 vCPU, 19 GB RAM; Elite 8 vCPU 35 GB ram; Elite XL 12 vCPU 54 GB RAM|
 
 
 ## Give Feedback
@@ -125,4 +121,4 @@ If you have questions about a specific runner feature request or have a requirem
 
 ## Revision Date
 
-This direction page was revised on: 2022-09-02
+This direction page was revised on: 2022-09-28
