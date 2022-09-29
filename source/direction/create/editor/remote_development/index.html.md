@@ -115,9 +115,7 @@ Eclipse Che is an open source, Kubernetes-native platform that provides containe
 
 Our initial iterations will be focused on integrating with existing cloud providers like Amazon Web Services (AWS), Google Cloud, or Microsoft Azure to provide a solution for those who already have access to cloud compute. We will eventually look to offer a fully-managed option within GitLab. This is likely to be provided as a service billed based on consumption, much like our [Runner SaaS](/direction/verify/runner_saas) offering. 
 
-![Illustrative diagram of the remote development architecture](/source/images/direction/create/editor-remote-dev-diagram.png)
-
-_This high-level diagram illustrates how the components of the remote development offering fit together._ 
+![Illustrative diagram of the remote development architecture](/images/direction/dev/create/editor-remote-dev-diagram.png)*This high-level diagram illustrates how the components of the remote development offering fit together.*
 
 **Packaging and Pricing**
 
