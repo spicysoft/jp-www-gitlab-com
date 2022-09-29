@@ -562,7 +562,8 @@ Currently, the GoogleDoc has pre-set filter views to help you see plans by Regio
 Instead please see [All-Marketing SSoT Calendar section](/handbook/marketing/#fy22-calendar) (above)!
 
 <details>
-<summary>Expand to see former googlecal (didn't display all activities, so moved to googlesheets solution)</summary>
+<summary>Expand to see former googlecal (didn't display all activities, so moved to googlesheets solution)
+</summary>
 
 <image>
 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Z2l0bGFiLmNvbV91ZW52dTBocGkwdGtsYWNwamgyN3EwOXRuY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Z2l0bGFiLmNvbV9icGp2bW03ZXJ0cnJobW1zM3I3b2pqcmt1MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Z2l0bGFiLmNvbV82MnA4YWM1ZmVzZ2I2OGczcjFsbnNlZjNtNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Z2l0bGFiLmNvbV9hbWU5ODQzYzYwOTRmZmM0NzV2ZWE5ZnRuNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;

@@ -76,7 +76,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 *We are continuing to update the controls with additional details*
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/asset-management.html" target="_blank">Asset Management (AST) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/asset-management.html" target="_blank">Asset Management (AST) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -86,7 +87,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html" target="_blank">Business Continuity & Disaster Recovery (BCD) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html" target="_blank">Business Continuity & Disaster Recovery (BCD) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -103,7 +105,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/configuration-management.html" target="_blank">Configuration Management (CFG) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/configuration-management.html" target="_blank">Configuration Management (CFG) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -113,7 +116,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/change-management.html" target="_blank">Change Management (CHG) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/change-management.html" target="_blank">Change Management (CHG) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -126,7 +130,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/cloud-security.html" target="_blank">Cloud Security (CLD) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/cloud-security.html" target="_blank">Cloud Security (CLD) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -135,7 +140,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/compliance.html" target="_blank">Compliance (CPL) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/compliance.html" target="_blank">Compliance (CPL) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -148,7 +154,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/cryptographic-protections.html" target="_blank">Cryptographic Protections (CRY) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/cryptographic-protections.html" target="_blank">Cryptographic Protections (CRY) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -160,7 +167,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/data-classification-and-handling.html" target="_blank">Data Classification & Handling (DCH) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/data-classification-and-handling.html" target="_blank">Data Classification & Handling (DCH) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -180,7 +188,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/endpoint-security.html" target="_blank">Endpoint Security (END) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/endpoint-security.html" target="_blank">Endpoint Security (END) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -191,7 +200,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/security-and-privacy-governance.html" target="_blank">Security & Privacy Governance (GOV) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/security-and-privacy-governance.html" target="_blank">Security & Privacy Governance (GOV) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -206,7 +216,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/human-resources-security.html" target="_blank">Human Resources Security (HRS) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/human-resources-security.html" target="_blank">Human Resources Security (HRS) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -226,7 +237,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/identification-and-authentication.html" target="_blank">Identification & Authentication (IAC) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/identification-and-authentication.html" target="_blank">Identification & Authentication (IAC) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -250,7 +262,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/information-assurance.html" target="_blank">Information Assurance (IAO) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/information-assurance.html" target="_blank">Information Assurance (IAO) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -263,7 +276,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/incident-response.html" target="_blank">Incident Response (IRO) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/incident-response.html" target="_blank">Incident Response (IRO) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -278,7 +292,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/mobile-device-management.html" target="_blank">Mobile Device Management (MDM) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/mobile-device-management.html" target="_blank">Mobile Device Management (MDM) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -288,7 +303,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/continuous-monitoring.html" target="_blank">Continuous Monitoring (MON) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/continuous-monitoring.html" target="_blank">Continuous Monitoring (MON) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -300,7 +316,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/network-security.html" target="_blank">Network Security (NET) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/network-security.html" target="_blank">Network Security (NET) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -316,7 +333,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/security-operations.html" target="_blank">Security Operations (OPS) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/security-operations.html" target="_blank">Security Operations (OPS) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -327,7 +345,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/physical-and-environmental-security.html" target="_blank">Physical & Environmental Security (PES) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/physical-and-environmental-security.html" target="_blank">Physical & Environmental Security (PES) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -338,7 +357,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/privacy.html" target="_blank">Privacy (PRI) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/privacy.html" target="_blank">Privacy (PRI) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -348,7 +368,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/project-and-resource-management.html" target="_blank">Project & Resource Management (PRM) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/project-and-resource-management.html" target="_blank">Project & Resource Management (PRM) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -363,7 +384,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/risk-management.html" target="_blank">Risk Management (RSK) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/risk-management.html" target="_blank">Risk Management (RSK) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -381,7 +403,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/security-awareness-and-training.html" target="_blank">Security Awareness & Training (SAT) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/security-awareness-and-training.html" target="_blank">Security Awareness & Training (SAT) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -390,7 +413,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/secure-engineering-and-architecture.html" target="_blank">Secure Engineering & Architecture (SEA) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/secure-engineering-and-architecture.html" target="_blank">Secure Engineering & Architecture (SEA) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -400,7 +424,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/technology-development-and-acquisition.html" target="_blank">Technology Development & Acquisition (TDA) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/technology-development-and-acquisition.html" target="_blank">Technology Development & Acquisition (TDA) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -411,7 +436,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/threat-management.html" target="_blank">Threat Management (THR) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/threat-management.html" target="_blank">Threat Management (THR) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -422,7 +448,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/third-party-management.html" target="_blank">Third-Party Management (TPM) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/third-party-management.html" target="_blank">Third-Party Management (TPM) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
@@ -441,7 +468,8 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 </details>
 
 <details markdown="1">
-<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/vulnerability-and-patch-management.html" target="_blank">Vulnerability & Patch Management (VPM) </a></summary>
+<summary><a href="https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/guidance/vulnerability-and-patch-management.html" target="_blank">Vulnerability & Patch Management (VPM) </a>
+</summary>
 
 | Control | Title | Description |
 |---------|-------------|---------------|
