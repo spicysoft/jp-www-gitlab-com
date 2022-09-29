@@ -1,3 +1,21 @@
+- topic: ElevateCX 
+  type: Conference
+  date_starts: September 29, 2022
+  date_ends: September 30, 2022
+  description: Brie Carranza (she/her), Senior Support Engineer, will be giving a talk on effective troubleshooting. She will share a set of general troubleshooting principles that can be applied to all different kinds of technology. This talk will help ICs and managers alike to think about how to troubleshoot effectively by focusing on the art of troubleshooting in general. Together, teams can apply these general principles to the specific technology that they support. The generalized principles help folks across various fields to quickly identify and work towards solving problems asynchronously and in collaboration with customers. 
+  location: Denver, CO
+  region: AMER
+  event_url: https://elevatecx.co/
+- topic: GitLab Advanced CI/CD Virtual Workshop
+  type: Webcast
+  date_starts: October 25, 2022
+  date_ends: October 25, 2022
+  description: GitLab is a complete DevOps platform, delivered as a single application, fundamentally changing the way Development, Security, and Ops teams collaborate. You might have had the chance to take it for a test drive, but even our most advanced users know there’s still a lot to learn to push better and faster automation throughout your DevOps lifecycle! We’re inviting you to a deep-dive workshop on Advanced GitLab CI/CD, including everything you need to enable you to take your automation game to the next level, and provide thought leadership within your organization.
+  location: Virtual
+  region: AMER
+  social_tags:
+  event_url: https://page.gitlab.com/advanced-cicd-virtual-registration-page.html
+
 - topic: CHIRP - Making Tiwtter Bots
   type: Conference
   date_starts: November 16, 2022
