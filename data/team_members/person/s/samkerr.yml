@@ -1,16 +1,16 @@
 ---
 name: Sam Kerr
-locality:
+locality: Cincinnati, OH
 country: Remote
-role: <a href="/job-families/product/product-manager/">Principal Product Manager</a>,
-  Govern:Compliance
-reports_to: oritg
+role: <a href="/job-families/product/product-manager/">Group Manager, Product</a>,
+  Analytics
+reports_to: justinfarris
 picture: samkerr.jpeg
 twitter:
 gitlab: stkerr
 departments:
 - Product Management
-- Dev PM Team
+- PM Team
 - Dev Section
 story: Sam has spent his career in security, as an analyst, a software engineer, and
   most recently as a product manager. With a foundation in Computer Science from Purdue
