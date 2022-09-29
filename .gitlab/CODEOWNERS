@@ -246,6 +246,8 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/incubation/jamstack/ @bmarnane @janis
 /sites/handbook/source/handbook/engineering/incubation/ai-assist/ @bmarnane @fdegier
 /sites/handbook/source/handbook/engineering/incubation/real-time-collaboration/ @bmarnane @lamportsapprentice
+/sites/handbook/source/handbook/engineering/incubation/okr/ @bmarnane @akotte
+/sites/handbook/source/handbook/engineering/incubation/server-runtime/ @bmarnane @shekharpatnaik
 
 ^[Engineering READMEs]
 /sites/handbook/source/handbook/engineering/readmes/andras-horvath/ @andrashorvath
