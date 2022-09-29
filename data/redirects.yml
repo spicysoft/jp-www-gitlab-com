@@ -4603,3 +4603,8 @@
   - /handbook/marketing/community-relations/developer-evangelism/how-to-be-an-evangelist/
   target: /handbook/marketing/community-relations/developer-evangelism/learn-developer-evangelism/
   comp_op: '~'
+- sources:
+  - /blog/2016/07/29/the-basics-of-gitlab-ci
+  - /blog/2016/07/29/the-basics-of-gitlab-ci/
+  target: /blog/2020/12/10/basics-of-gitlab-ci-updated/
+  comp_op: '='
