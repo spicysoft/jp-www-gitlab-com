@@ -637,6 +637,13 @@ Before scheduling the meeting with the AE/SAL, you will need to verify the sales
 2. On ZoomInfo or other sources, verify the HQ of the company or the ultimate user. Unless the account is Named, lead ownership is determined based on the HQ of a company, regardless of the lead's location geographically.
 3. If there's an account already assigned to a different segment, please do not immediately pass leads that your research says should be for another segment. Instead, please chatter ASM and the current account owner with your data. If there is a consensus, please then tag Sales Support for the reassignment. Please be mindful of discrepancies between our SSOT and LinkedIn. There are many cases where LI employee count does not indicate the reality of their employee size. For example, in companies with commonly used names, LI can overstate their employee count. On the other hand, LI can understate the employee count of companies that do not have a very strong tech presence.
 
+#### How do I request SAO credit on a Web Direct opportunity?
+On the opportunity record in Saleforce, compose a new Chatter message that includes the following:
+1. Tag your manager (do not tag Sales Support)
+2. Include a link to the record in Salesforce that shows your related two-way activity
+3. Explain how you influenced their decision to purchase GitLab (helped with evaluation, uncovered a need, provided value, etc)
+
+Your manager will review the information and decide whether SAO credit is warranted. If confirmed, they will Chatter Sales Support to add you to the opportunity. If rejected, they will communicate to you the reasoning for their decision.
 
 ## BDR Outbound Process
 
