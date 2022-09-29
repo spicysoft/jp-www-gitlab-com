@@ -224,7 +224,7 @@ stages:
         name: Project Management
         pm: Gabe Weaver
         focus: Plan Project Management Paid GMAU
-        pmm: 
+        pmm:
         cm: Suri Patel
         backend_engineering_manager: Donald Cook
         frontend_engineering_manager: Donald Cook
@@ -264,7 +264,7 @@ stages:
         name: Product Planning
         pm: Amanda Rueda
         focus: Plan Product Planning Paid GMAU
-        pmm: 
+        pmm:
         cm: Suri Patel
         backend_engineering_manager: Kushal Pandya
         frontend_engineering_manager: Kushal Pandya
@@ -304,7 +304,7 @@ stages:
         name: Certify
         pm: Matthew Macfarlane
         focus: Plan Certify Paid GMAU
-        pmm: 
+        pmm:
         cm: Suri Patel
         backend_engineering_manager: Jarka Košanová
         frontend_engineering_manager: Jarka Košanová
@@ -477,7 +477,7 @@ stages:
           - TBD
         uxr:
           - Ben Leduc-Mills
-        tech_writer: Amy Qualls
+        tech_writer: Ashraf Khamis
         appsec_engineer: TBD
         cs_team_tag: Editor Group CS Stable Counterpart
         internal_customers:
