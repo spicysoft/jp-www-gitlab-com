@@ -1,0 +1,29 @@
+---
+name: Herber Madrigal
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/">Senior Backend Engineer,
+  Secure:Dynamic Analysis</a>
+reports_to: sethberger
+picture: herbmadrigal.png
+pronouns: he/him
+pronunciation:
+twitter: hmadrigal
+gitlab: herbmadrigal
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Dynamic Analysis BE Team
+projects:
+  secure-api-security: reviewer backend
+expertise:
+story: I am a software developer who started coding in 1999, but professionally since
+  2005. I have had the chance to work on projects of different sizes, desktop apps,
+  cloud apps, mobile apps, etc. About 2007 I started working mainly on Microsoft stack,
+  but I am always willing to work with the best stack for the solution. I am curious
+  and open to hearing new ideas, like tech talks and having fun with video games.
+  Feel you free to talk to me and reach me for any help.
+specialty:
+- 'Secure: Fuzz Testing'
+
