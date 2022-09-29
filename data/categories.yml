@@ -983,7 +983,7 @@ code_testing:
   roi: false
   available: 2017-01-01
   viable: 2021-01-12
-  complete: 2023-07-22
+  complete: 2024-07-22
   lovable: 2024-11-18
   maturity: viable
   marketing: true
@@ -1000,8 +1000,8 @@ build_artifacts:
   description: "Keep build artifacts under control and actionable."
   roi: true
   available: 2021-04-01
-  viable: 2023-03-01
-  complete: 2023-12-01
+  viable: 2023-07-01
+  complete: 2024-06-01
   lovable: 2025-12-01
   maturity: minimal
   marketing: false
@@ -1021,9 +1021,9 @@ performance_testing:
   description: "Be confident in the performance of your changes by ensuring that they are validated against real world scenarios."
   roi: false
   available: 2020-07-15
-  viable: 2023-10-22
-  complete: 2025-11-18
-  lovable: 2027-11-18
+  viable: 2024-10-22
+  complete: 2026-11-18
+  lovable: 2028-11-18
   maturity: minimal
   marketing: true
   dogfooding_status: limited
@@ -1063,7 +1063,7 @@ review_apps:
   available: 2017-01-01
   viable: 2017-01-01
   complete: 2017-01-01
-  lovable: 2023-11-18
+  lovable: 2024-11-30
   maturity: complete
   marketing: true
   priority_level: low
