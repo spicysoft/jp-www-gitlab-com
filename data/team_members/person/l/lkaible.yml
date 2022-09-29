@@ -1,17 +1,15 @@
 name: Lauren Kaible
-locality: 
+locality:
 country: Remote
-role: <a href="/job-families/sales/smb-customer-advocate/">Account Executive (SMB, Named), US West</a>
+role: <a href="/job-families/sales/smb-customer-advocate/">Account Executive (SMB,
+  Named), US West</a>
 reports_to: nickchristou
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: laurenkaible.jpg
 pronunciation:
 twitter:
-linkedin:
 gitlab: lkaible
 departments:
-  - SMB
-specialty: "Named"
+- Sales
+- Commercial Sales
 expertise:
-story:
-
+story: 
