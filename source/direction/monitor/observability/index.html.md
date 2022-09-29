@@ -102,7 +102,7 @@ GitLab previously relied on the wrong tool (relational database) to store errors
 
 Details TBD
 
-### Planning
+## Planning
 Planning happens in the [planning board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) where issues are arranged by release. Over time this will become more populated with a further look into the upcoming releases.
 
 There are located in this [project](https://gitlab.com/gitlab-org/opstrace/general).
