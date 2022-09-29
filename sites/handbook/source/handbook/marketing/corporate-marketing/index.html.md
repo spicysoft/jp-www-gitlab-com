@@ -219,6 +219,27 @@ GitLab utilizes, [Boundless](https://www.boundlesscollection.com/) and their war
 
 - - -
 
+## Post-Event Process 
+
+### Lead upload
+
+1. Within 24 hours of an event finishing, you should either receive the leads from the lead scanner company or download all registrants from the registration database (Eventbrite, CVent, etc). 
+2. Once leads are received by event DRI, Corp Events Coordinator cleans lead list from show using [this list import process](https://about.gitlab.com/handbook/marketing/marketing-operations/list-import/)
+3. MOps gets tagged into Cleaned Lead List and uploads to Marketo program, which syncs into SFDC in 15 min to 2 hours usually
+4. MOps uploads lead into Marketo program, alerts Event Manager, and closes issue 
+5. Event Manager then watches the SFDC campaign for lead assignment and follow up 
+6. Add a calendar reminder to check the SFDC campaign 1 week, 1 month, 3 months, and 6 months post-show to see the lead conversion rates. 
+
+### Create Recap/Results Deck
+
+The purpose of the recap/results deck is to give leadership a quick overview of the show in 3-5 slides. The deck should include event highlights, results, budget updates, and shout outs. Additionally, this deck will be a living document that the Event Manager should update as leads are followed up on and converted. Most recap/results decks should be completed roughly 2 weeks post-show and no later than 1 month post-show.
+
+Example Decks:
+
+Tier 1: [2022 KubeCon EU](https://docs.google.com/presentation/d/1eR_GXpH9koGV7stgvMpsOBWivc0z3CjnSslgYZPsA5Y/edit?usp=sharing)
+
+Tier 2: [2022 OSSNA](https://docs.google.com/presentation/d/1_EvEdzHQVa6tDI4YPDbAOJKVrvy2b91vyY27QGTY5y8/edit?usp=sharing)
+
 ## All-Remote Marketing
 
 Please consult the [All-Remote Marketing Handbook](/handbook/ceo/chief-of-staff-team/workplace/).
