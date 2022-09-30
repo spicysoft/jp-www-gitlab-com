@@ -2009,12 +2009,12 @@
   description: 'Additional information on how GitLab utilizes [Google Cloud Platform](https://cloud.google.com/)
     can be found [here](/partners/technology-partners/google-cloud-platform/).'
   access_to: null
-  provisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
-  deprovisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
+  provisioner: "@jeffersonmartin, @malkobaisy, Add it-eng-type::access-request label"
+  deprovisioner: "@jeffersonmartin, @malkobaisy, Add it-eng-type::access-request label"
   group_owner: BT Infrastructure, Eng Infrastructure
-  group_owner_slack_channel: '#infra-access-requests'
+  group_owner_slack_channel: '#it_help'
   business_owner: Peter Kaldis, Jeff Martin, David Smith, Marin Jankovski 
-  technical_owner: Jeff Martin, Dillon Wheeler, David Smith, Marin Jankovski 
+  technical_owner: Jeff Martin, Mohammed Al Kobaisy, David Smith, Marin Jankovski 
   data_classification: Red
   integration_method: SWA
   need_move_to_okta: null
