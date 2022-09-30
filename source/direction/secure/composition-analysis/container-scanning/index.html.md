@@ -16,7 +16,8 @@ canonical_path: "/direction/secure/composition-analysis/container-scanning/"
 | --- | --- |
 | Stage | [Secure](/direction/secure/) |
 | Maturity | [Viable](/direction/maturity/) |
-| Content Last Reviewed | `2022-07-08` |
+| Content Last Reviewed | `2022-10-03` |
+| Content Last Updated  | `2022-10-03` |
 
 ### Introduction and how you can help
 
@@ -80,13 +81,13 @@ In addition to this work, we also need to allow users to [scan images that are u
 <!-- This is almost always sourced from the following sections, which describe top
 priorities for a few stakeholders. This section must provide a link to an issue
 or [epic](https://about.gitlab.com/handbook/product/product-processes/#epics-for-a-single-iteration) for the MVC or first/next iteration in the category.-->
-In the GitLab [14.1](https://gitlab.com/groups/gitlab-org/-/milestones/61) release, we introduced a feature in an Alpha state to allow users to [scan container images that are actively running](https://docs.gitlab.com/ee/user/application_security/cluster_image_scanning/) in a Kubernetes cluster for vulnerabilities.  Those vulnerabilities then get reported back to the Security Center.  In the next few milestones, we plan to [finish developing this feature](https://gitlab.com/groups/gitlab-org/-/epics/3410) and move it from an Alpha state into a production-ready GA state.
+In the GitLab [14.1](https://gitlab.com/groups/gitlab-org/-/milestones/61) release, we introduced a feature in an Alpha state to allow users to [scan container images that are actively running](https://docs.gitlab.com/ee/user/application_security/cluster_image_scanning/) in a Kubernetes cluster for vulnerabilities.  Those vulnerabilities then get reported back to the Security Center.  In the 15.5 milestone, we plan to [finish developing this feature](https://gitlab.com/groups/gitlab-org/-/epics/3410) and move it from an Alpha state into a production-ready GA state.
 
 In the GitLab 15.0 release, we moved the basic ability to run a container scan [down to the free tier](https://gitlab.com/groups/gitlab-org/-/epics/2233).
 
 For next steps, we plan to allow GitLab to continuously scan dependencies for known vulnerabilities by synchronously triggering a re-scan anytime either the container image changes or when the advisory database is updated.  These plans can be tracked in more detail [in this epic](https://gitlab.com/groups/gitlab-org/-/epics/7886).
 
-A full list of our near-term priorities is kept up-to-date on our open [priorities issue](https://gitlab.com/gitlab-org/gitlab/-/issues/222791#container-scanning-priorities).
+A full list of our near-term priorities is kept up-to-date on our open [priorities issue](https://gitlab.com/gitlab-org/gitlab/-/issues/361784).
 
 #### What is Not Planned Right Now
 <!-- Often it's just as important to talk about what you're not doing as it is to
