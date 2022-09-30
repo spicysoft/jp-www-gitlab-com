@@ -1,13 +1,13 @@
 ---
 features:
   secondary:
-  - name: "Expose job scope data in  CI_JOB_TOKEN  API for introspection"
+  - name: "Expose CI_JOB_TOKEN scope status in the jobs API endpoint"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/api/jobs.html'
     reporter: jheimbuck_gl
     stage: verify
     categories: []
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/337087'
     description: |
-      GitLab has introduced a secure workflow for CI_JOB_TOKEN and you may be looking for information about if the setting is enabled in your project. Now you can easily use the CI_JOB_TOKEN API for introspection into the token's data such as if the scope has been enabled.
+      Since GitLab 14.4 you can [limit the access scope](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html#limit-gitlab-cicd-job-token-access) of the CI/CD job token for a more secure `CI_JOB_TOKEN` workflow. If you wanted to determine if the setting was enabled in a project though, the only option was to manually go into the project's settings. Starting in GitLab 15.5, you can check the response from the `/jobs`, `/deployments` and `/environments` API endpoints and programmatically verify the status of the setting.
