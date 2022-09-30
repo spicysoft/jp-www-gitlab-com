@@ -969,9 +969,34 @@
   target: /job-families/engineering/
   comp_op: '='
 - sources:
-  - /job-families/product/technical-writer/
-  - /job-families/product/technical-writer
-  target: /job-families/engineering/technical-writer/
+  - /job-families/engineering/technical-writer/
+  - /job-families/engineering/technical-writer
+  target: /job-families/product/technical-writer/
+  comp_op: '='
+- sources:
+  - /job-families/engineering/technical-writing-manager/
+  - /job-families/engineering/technical-writing-manager
+  target: /job-families/product/technical-writing-manager/
+  comp_op: '='
+- sources:
+  - /job-families/engineering/product-designer/
+  - /job-families/engineering/product-designer
+  target: /job-families/product/product-designer/
+  comp_op: '='
+- sources:
+  - /job-families/engineering/ux-research-manager/
+  - /job-families/engineering/ux-research-manager
+  target: /job-families/product/ux-research-manager/
+  comp_op: '='
+- sources:
+  - /job-families/engineering/ux-research-operations-coordinator/
+  - /job-families/engineering/ux-research-operations-coordinator
+  target: /job-families/product/ux-research-operations-coordinator/
+  comp_op: '='
+- sources:
+  - /job-families/engineering/ux-researcher/
+  - /job-families/engineering/ux-researcher
+  target: /job-families/product/ux-researcher/
   comp_op: '='
 - sources:
   - /handbook/engineering/ux/
