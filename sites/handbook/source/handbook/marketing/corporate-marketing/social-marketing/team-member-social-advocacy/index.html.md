@@ -45,8 +45,7 @@ Bambu by Sprout Social is an employee advocacy platform for you to share content
 
 <figure class="video_container"><iframe src="https://www.youtube.com/embed/5AWFUYd3myw"></iframe>"></iframe></figure>
 
-<details><summary>How do I get started?
-</summary>
+<details><summary>How do I get started?</summary>
 
 <p>
 First, you'll need to confirm that you have been assigned the Bambu application in Okta in order to use it. If you are not assigned Bambu in Okta and you are interested, please reach out to the team in the #social-advocacy Slack channel.
@@ -63,8 +62,7 @@ Click the login with SSO option at the bottom of the page to log in whenever you
 
 </details>
 
-<details><summary>What am I supposed to do inside Bambu?
-</summary>
+<details><summary>What am I supposed to do inside Bambu?</summary>
 
 <p>
 When you log into Bambu, you will see a collection of stories curated specifically for you.
@@ -78,8 +76,7 @@ When you click the share icon on any story, you’ll see that we’ve added a su
 
 </details>
 
-<details><summary>How often am I supposed to login to Bambu?
-</summary>
+<details><summary>How often am I supposed to login to Bambu?</summary>
 
 <p>
 As often as you like, but try to make a habit of logging in at least once a week, as we are constantly adding new and useful information.
@@ -101,8 +98,7 @@ If you run your workday via your calendar, consider adding a 25 min block once a
 
 </details>
 
-<details><summary>Can I automate Bambu?
-</summary>
+<details><summary>Can I automate Bambu?</summary>
 
 <p>
 It’s possible to spend less than 25 minutes every time you log into Bambu to schedule content on your social media channels for a week or two. <a href="https://bambu.zendesk.com/hc/en-us/articles/360004450291-Sharing-a-Story">We highly recommend taking advantage of the “Send Later” button feature</a> when you want to share a story. 
@@ -112,8 +108,7 @@ It’s possible to spend less than 25 minutes every time you log into Bambu to s
 
 #### Team Member Roles in Bambu, the advocacy program
 
-<details><summary>Admins
-</summary>
+<details><summary>Admins</summary>
 
 <p>
 The GitLab Social Team are the administrators of the social advocacy program. Admins have all access to our tool, Bambu, as needed to operate the program. Admins may act as curators from time to time as well.
@@ -145,8 +140,7 @@ The GitLab Social Team are the administrators of the social advocacy program. Ad
 
 </details>
 
-<details><summary>Curators (or Contributors)
-</summary>
+<details><summary>Curators (or Contributors)</summary>
 
 <p>
 Curators are selected intentionally to drive our advocacy content strategy and specific team members are asked to take on the role of a curator as a part of their everyday jobs at GitLab. We will have curators representing all areas of GitLab the brand and the product in order to curate a list of related content worth sharing on social media. 
@@ -163,8 +157,7 @@ Join the #social-advocacy-curators Slack channel to stay in touch with the curat
 
 </details>
 
-<details><summary>General Team Members (or Readers)
-</summary>
+<details><summary>General Team Members (or Readers)</summary>
 
 <p>
 All team members can access the Stories feed, share to their social networks and leverage the Suggestions feature to submit links to a Manager or Admin for complete Story curation.
