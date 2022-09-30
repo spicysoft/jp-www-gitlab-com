@@ -40,7 +40,7 @@ stages:
         name: Authentication & Authorization
         pm: Hannah Sutor
         focus: Manage Authentication & Authorization Paid GMAU
-        pmm: Cindy Blake
+        pmm: Aathira Nair
         cm: Suri Patel
         backend_engineering_manager: Adil Farrukh
         frontend_engineering_manager: Adil Farrukh
@@ -81,7 +81,7 @@ stages:
         name: Workspace
         pm: Christina Lohr
         focus: Manage Workspace Paid GMAU
-        pmm: Cindy Blake
+        pmm: Aathira Nair
         cm: Suri Patel
         backend_engineering_manager: Małgorzata Ksionek
         frontend_engineering_manager: Małgorzata Ksionek
@@ -121,7 +121,7 @@ stages:
         name: Import
         pm: Magdalena Frankiewicz (Acting)
         focus: Manage Import GMAU
-        pmm: Cormac Foster
+        pmm: Aathira Nair
         cm: Suri Patel
         em: Martin Wortschack
         be_team_tag: Manage:Import BE Team
@@ -157,7 +157,7 @@ stages:
         name: Optimize
         pm: Haim Snir
         focus: Manage Optimize GMAU
-        pmm: Cormac Foster
+        pmm: Aathira Nair
         cm: Suri Patel
         em: Brandon Labuschagne (Interim)
         be_team_tag: Manage:Optimize BE Team
@@ -224,7 +224,7 @@ stages:
         name: Project Management
         pm: Gabe Weaver
         focus: Plan Project Management Paid GMAU
-        pmm:
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Donald Cook
         frontend_engineering_manager: Donald Cook
@@ -264,7 +264,7 @@ stages:
         name: Product Planning
         pm: Amanda Rueda
         focus: Plan Product Planning Paid GMAU
-        pmm:
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Kushal Pandya
         frontend_engineering_manager: Kushal Pandya
@@ -304,7 +304,7 @@ stages:
         name: Certify
         pm: Matthew Macfarlane
         focus: Plan Certify Paid GMAU
-        pmm:
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Jarka Košanová
         frontend_engineering_manager: Jarka Košanová
@@ -377,7 +377,7 @@ stages:
         name: Source Code
         pm: Torsten Linz
         focus: Create Source Code GMAU
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Sean Carroll
         frontend_engineering_manager: André Luís
@@ -419,7 +419,7 @@ stages:
         name: Code Review
         pm: Kai Armstrong
         focus: Create Code Review GMAU
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Matt Nohr
         frontend_engineering_manager: André Luís
@@ -461,7 +461,7 @@ stages:
         name: Editor
         pm: Eric Schurter
         focus: Create Editor GMAU
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: David O'Regan
         frontend_engineering_manager: David O'Regan
@@ -525,7 +525,7 @@ stages:
         name: Integrations
         pm: Grant Hickman
         focus: Ecosystem Integrations GMAU
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Arturo Herrero
         frontend_engineering_manager: Arturo Herrero
         be_team_tag: Ecosystem:Integrations BE Team
@@ -633,7 +633,7 @@ stages:
           - James Heimbuck
         focus: Verify & Runner SMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Caroline Simpson
         frontend_engineering_manager: Sam Beckham
         be_team_tag: Verify:Pipeline Execution BE Team
@@ -682,7 +682,7 @@ stages:
           - Dov Hershkovitch
         focus: Verify & Runner SMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Mark Nuzzo
         frontend_engineering_manager: Sam Beckham
         be_team_tag: Verify:Pipeline Authoring BE Team
@@ -729,7 +729,7 @@ stages:
         pm: "Darren Eastman"
         focus: Verify & Runner SMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Elliot Rushton
         frontend_engineering_manager: Sam Beckham
         be_team_tag: Runner BE Team
@@ -773,7 +773,7 @@ stages:
         pm: "Jocelyn Eillis"
         focus: Verify Pipeline Insights Sum of AMAUs
         cm:
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Scott Hampton
         frontend_engineering_manager: Scott Hampton
         be_team_tag: Verify:Pipeline Insights BE Team
@@ -839,7 +839,7 @@ stages:
         pm: Tim Rizzi
         focus: Package GMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Michelle Torres
         frontend_engineering_manager: Michelle Torres
         be_team_tag: Package BE Team
@@ -915,7 +915,7 @@ stages:
         name: Static Analysis
         pm: Connor Gilbert
         focus: Static Analysis Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         backend_engineering_manager: Amar Patel
         be_team_tag: Secure:Static Analysis BE Team
         fe_team_tag: Secure:Static Analysis FE Team
@@ -954,7 +954,7 @@ stages:
         name: Dynamic Analysis
         pm: Derek Ferguson
         focus: Dynamic Analysis Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         backend_engineering_manager: Seth Berger
         be_team_tag: Secure:Dynamic Analysis BE Team
         fe_team_tag:
@@ -992,7 +992,7 @@ stages:
         name: Composition Analysis
         pm: Sam White
         focus: Composition Analysis Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         backend_engineering_manager: Olivier Gonzalez
         be_team_tag: Secure:Composition Analysis BE Team
         fe_team_tag: Secure:Composition Analysis FE Team
@@ -1035,7 +1035,7 @@ stages:
         name: Vulnerability Research
         pm: Hillary Benson
         focus: Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         backend_engineering_manager: Mark Art
         be_team_tag: Secure:Vulnerability Research BE Team
         support: TBD
@@ -1123,7 +1123,7 @@ stages:
         pm: Chris Balane
         focus: Release SMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Aathira Nair
         backend_engineering_manager: Nicole Williams
         be_team_tag: Release BE Team
         fe_team_tag: Release FE Team
@@ -1181,7 +1181,7 @@ stages:
     related:
       - "release"
     pm: Viktor Nagy
-    pmm: Saumya Upadhyaya
+    pmm: Aathira Nair
     pdm:
       - Justin Mandell
     spd:
@@ -1202,7 +1202,7 @@ stages:
         name: "Configure"
         pm: Viktor Nagy
         focus: Configure GMAU
-        pmm: Saumya Upadhyaya
+        pmm: Aathira Nair
         cm: Chrissie Buchanan
         backend_engineering_manager: Nicolò Maria Mezzopera
         be_team_tag: Configure BE Team
@@ -1268,13 +1268,13 @@ stages:
     gitlab_group: gitlab-org/monitor
     handbook: engineering/development/ops/monitor/
     pm: Kevin Chu
-    pmm: Cormac Foster
+    pmm: Aathira Nair
     groups:
       respond:
         name: "Respond"
         pm: Alana Bellucci
         focus: Respond GMAU
-        pmm: Cormac Foster
+        pmm: Aathira Nair
         cm: Chrissie Buchanan
         backend_engineering_manager: Crystal Poole
         frontend_engineering_manager: Crystal Poole
@@ -1319,7 +1319,7 @@ stages:
         pm: Seb Pahl
         direction: /direction/monitor/observability
         focus: Acquisition Integration
-        pmm: Cormac Foster
+        pmm: Aathira Nair
         cm:
         em: Nicholas Klick
         be_team_tag: Monitor:Observability
@@ -1386,7 +1386,7 @@ stages:
         name: Security Policies
         pm: Sam White
         focus: Security Policies Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         fullstack_managers:
           - Thiago Figueiró
           - Neil McCorrison
@@ -1421,7 +1421,7 @@ stages:
           channel: g_govern_threat_insights
         pm: Matt Wilson
         focus: Threat Insights Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         fullstack_managers:
           - Thiago Figueiró
           - Neil McCorrison
@@ -1454,7 +1454,7 @@ stages:
         name: Compliance
         pm: Sam Kerr
         focus: Govern Compliance Paid GMAU
-        pmm: TBD
+        pmm: Brian Mason
         cm: Suri Patel
         em: Nathan Rosandich
         be_team_tag: Govern:Compliance BE Team
@@ -1509,7 +1509,7 @@ stages:
         direction: /direction/product-intelligence/
         handbook: engineering/development/analytics/product-intelligence
         pm: Amanda Rueda
-        pmm: TBD
+        pmm: Saumya Upadhyaya
         cm: Suri Patel
         backend_engineering_manager: Dennis Tang
         support: TBD
@@ -1543,7 +1543,7 @@ stages:
         direction: /direction/product-analytics/
         handbook: engineering/development/analytics
         pm: Sam Kerr (Interim)
-        pmm: TBD
+        pmm: Saumya Upadhyaya
         cm: Suri Patel
         backend_engineering_manager: Dennis Tang
         support: TBD
@@ -2048,7 +2048,7 @@ stages:
         direction: /direction/geo/
         roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Adistribution&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
         pm: Sampath Ranasinghe
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Juan Silva
         frontend_engineering_manager: Juan Silva
         be_team_tag: Geo BE Team
@@ -2110,7 +2110,7 @@ stages:
         description: "Responsible for improving availability, reliability, and performance of the GitLab application"
         focus: Memory PPI
         pm: Gabe Weaver (Acting)
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Changzheng Liu
         be_team_tag: Application Performance BE Team
         fe_team_tag:
@@ -2151,7 +2151,7 @@ stages:
         roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Asearch&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
         pm: John McGuire
         focus: Paid GMAU
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Changzheng Liu
         frontend_engineering_manager: Changzheng Liu (Interim)
         be_team_tag: Global Search BE Team
@@ -2192,7 +2192,7 @@ stages:
         description: "Developing solutions for scalability, application performance, data growth and developer enablement especially where it concerns interactions with the database."
         focus: Database PPI
         pm: Gabe Weaver (Acting)
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Alex Ives
         be_team_tag: Database BE Team
         fe_team_tag:
@@ -2227,7 +2227,7 @@ stages:
         description: "Scale the GitLab database for 10 million daily-active users (DAU)"
         focus: Database PPI
         pm: Fabian Zimmer
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Barry Firman
         be_team_tag: Pods BE Team
         fe_team_tag:
@@ -2283,7 +2283,7 @@ stages:
         description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
         direction: /handbook/engineering/infrastructure/team/delivery/
         pm: Andrew Thomas (Life Support)
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         uxr:
           - Will Leidheiser
         appsec_engineer: TBD
@@ -2300,7 +2300,7 @@ stages:
         description: "The Scalability team is responsible for GitLab and GitLab.com at scale, working on the highest priority scaling items related to the application and GitLab.com."
         direction: /handbook/engineering/infrastructure/team/scalability/
         pm: Andrew Thomas (Life Support)
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         appsec_engineer: Rohit Shambhuni
         tech_writer: "#docs Slack channel"
         slack:
@@ -2320,7 +2320,7 @@ stages:
           Single-tenant SaaS service currently in Limited Availability
         direction: /direction/horse/
         pm: Andrew Thomas
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         uxr:
           - Will Leidheiser
         backend_engineering_manager: TBH
@@ -2352,7 +2352,7 @@ stages:
           SaaS services for the US public sector
         direction: https://internal-handbook.gitlab.io/handbook/engineering/fedramp-compliance/
         pm: Connor Gilbert
-        pmm: TBD
+        pmm: Jennifer Bianchini
         uxr:
           - TBD
         backend_engineering_manager: Stephen Dumesnil
