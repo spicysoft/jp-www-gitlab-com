@@ -10,7 +10,7 @@ canonical_path: "/direction/manage/workspace/"
 
 ## The Workspace group
 
-**Content last reviewed on 2022-06-01**
+**Content last reviewed on 2022-09-15**
 
 This is the direction page for the Workspace group which is part of the [Manage stage](/direction/dev/index.html#manage) of the DevOps lifecycle and is responsible for the following categories: 
 
@@ -57,8 +57,8 @@ This leads to a few problems:
 
 While it would be ideal to have one way to build a new feature, most GitLab functionality should exist at the group level rather than the instance level at a minimum.
 
-We should extract features from the admin panel into a new object called a *Workspace* that cascades behavior to all the projects and groups that are owned by the same user or organization. 
-* A workplace includes settings, data, and features from all groups, subgroups, and projects under the same owner (including personal namespaces).
+We should extract features from the admin panel into a new object called *Workspace* that cascades behavior to all the projects and groups that are owned by the same user or organization. 
+* A workspace includes settings, data, and features from all groups, subgroups, and projects under the same owner (including personal namespaces).
 * Data from all groups, subgroups and projects in a workspace can be aggregated. 
 
 ### Goals
@@ -72,7 +72,7 @@ We should extract features from the admin panel into a new object called a *Work
 ### Terminology 
 
 Namespace is the logical object container in the code. 
-Workspace is the name for the top level group.
+Workspace is the name for the top-level group.
 
 ### What's next and why
 
@@ -86,6 +86,6 @@ Workspace is the name for the top level group.
 
 ## What is Not Planned Right Now
 
-* The Workspace team will not be responsible for migrating all features from a Group or Project to a Namespace. We will build a framework and document the process for features to be migrated. We'll then collaborate with the respective teams to migrate existing functionality to Namespace.
+* The Workspace team will not be responsible for migrating all features from a group or project to a namespace. We will [build a framework](https://gitlab.com/groups/gitlab-org/-/epics/6473) and document the process for features to be migrated. We'll then collaborate with the respective teams to migrate existing functionality to Namespace.
 * Since we're focused on merging groups and projects at this time, we don't plan to make significant improvements to them, as this would create redundant work.
-* We are not planning to make improvements to Users since the Worspace group's capacity will be dedicated to merging groups and projects.
+* We are not planning to make improvements to users in the near term since the Workspace group's capacity will be dedicated to merging groups and projects.

@@ -19,14 +19,65 @@ title: "Data Team Direction"
 
 ## FY23 Data Strategy
 
-In November-2021 we held several cross-team sessions to help align on the GitLab data strategy for FY23. Parcipants included Growth, Finance, Marketing, Sales Stragy, and Customer Success.
+In November-2021 we held several cross-team sessions to help align on the GitLab data strategy for FY23. Parcipants included Growth, Finance, Marketing, Sales Strategy, and Customer Success.
 
 - [Strategy Worksheet](https://docs.google.com/spreadsheets/d/11fkA6hAGcZGrVj7Ho2LIzHk9JGukG-x77KbC9Unsj0Q/edit#gid=0)
 - [Project Team Issue (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/10588) 
 
+We are in progress of running the exercise for Q4.
+
 ## Strategy
 
 As an important step towards achieving our [mission](/handbook/business-technology/data-team/#mission), meeting our [responsibilities](/handbook/business-technology/data-team/#responsibilities), and helping GitLab [become a successful public company](/handbook/being-a-public-company/), we are creating an Enterprise Data Platform (EDP), a single unified data and analytics stack, along with a broad suite of Data Programs such as Self-Serve Data and Data Quality. The EDP will power GitLab's KPIs, cross-functional reporting and analysis, and in general, allow all team members to make better decisions with trusted data. Over time, the EDP will further accelerate GitLab's analytics capabilities with features such as data publishing and products - enriched and aggregated data integrated into business systems or into the GitLab product for use by our customers. This acceleration happens through the development of "Data Flywheels", much like GitLab's [Open Core and Development Spend](https://about.gitlab.com/company/strategy/#dual-flywheels) flywheels.
+
+### 1) Customer Centricity
+KPI: Revenue/Efficiency gains from Data Products
+Definition:
+1. Visibility and deep understanding of how our customers use our product and interact with our teams
+1. Focus on the Customer Journey Lifecycle & Related Analytics
+1. Build a Better GitLab for our Customers. Be customer zero.
+
+### 2) Data Community
+KPI: Data Engagement measured by MAU
+Definition:
+1. Create a community where everyone can make their best decisions with data built on SSOT Data Architecture and One Data Warehouse
+1. Best-in Class Talent, Tenure, and Growth
+
+### 3) GitLab Culture of Data First
+KPI: % of Top cross functional & LRO Projects with Measurement plans 
+Definition:
+1. All product features logged for analysis in a centrally governed way
+1. Iteration and experimentation to drive business value
+1. Strong visibility into key business results, business processes, product behavior and programs
+1. Data Governance across business systems, product, and warehouse so we all speak the same language
+1. Be customer zero for ML Ops
+
+### 4) World class data and analytics capabilities
+KPI: % Analytics Time on Level 1 / 2 work
+Definition:
+1. Scalable data platform, data collection, modeling, and visualization
+1. Master data management 
+1. Create unified data models with robust governance
+1. Cutting-edge data and analytics tools available to team members 
+1. Integrate advanced analytics with our business processes
+
+
+## Data Capability Model
+
+The Data Capability Model lists six levels (0-5) that correspond to the data maturity of a company.
+
+It is used to identify target state requirements to support [GitLab's Company Strategy](https://about.gitlab.com/company/strategy).
+
+**To help GitLab become a public company, we need our lead-to-cash and public-facing metrics to reach Level 2 of the capability model.**
+
+| Level                                                                                   | Characteristics                                                                                                                                                                        | Benefits                                                                                              |
+| --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| (5)Prescriptive                                                                         | Real-time complex analysis embedded in products, shape actions and perceptions; Data analytics is a strategic differentiator                                                           | New Data Products, Improved Decision ROI                                                              |
+| (4)Predictive                                                                           | Data Science” Insight into what is likely to happen, Widespread and effortless analytics production, Enterprise Data Quality and Governance                                            | Reliable Customer Lifetime Value, Expansion & Churn Prediction, Product Embedded Analytics            |
+| (3)Strategic                                                                            | Widespread & effortless drillable analysis, Drillable cross-functional scorecards, dashboards, Enterprise Data Warehouse                                                               | Customer 360 & Health Score, Predictable & Trusted Data Reporting, Robust Self-Service & Data @ Scale |
+| (2)Advanced: [Reference Solution](/handbook/business-technology/data-team/direction/reference/) | Operational Automated Reports and Dashboards, Reliable and validated data with automated tests, Mixture of manual and automated integration, core integrated data with some Data silos | Trusted Data, Self-Service Data, Key Performance Indicators, Stable platform for expansion            |
+| **(1)Reactive**                                                                         | Static lists and reports, Highly focused on history/lagging - last 30/90/365 days, Unpredictable velocity, minimal cross-functional analysis, Data Silos                               | Historical Tabular Reports, Data Visualization                                                        |
+| (0)None                                                                                 | Inconsistent report generation, Results not widely trusted, No stable analytics infrastructure                                                                                         |                                                                                                       |
 
 ## Quarterly Objectives
 
@@ -160,18 +211,3 @@ graph LR
 	K[Knowledge] -->
 	W[Wisdom]
 ```
-
-## Data Capability Model
-
-The Data Capability Model is used to identify target state requirements to support [GitLab's Strategy](https://about.gitlab.com/company/strategy).
-
-**To help GitLab become a public company, we need our lead-to-cash and public-facing metrics to reach Level 2 of the capability model.**
-
-| Level                                                                                   | Characteristics                                                                                                                                                                        | Benefits                                                                                              |
-| --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| (5)Prescriptive                                                                         | Real-time complex analysis embedded in products, shape actions and perceptions; Data analytics is a strategic differentiator                                                           | New Data Products, Improved Decision ROI                                                              |
-| (4)Predictive                                                                           | Data Science” Insight into what is likely to happen, Widespread and effortless analytics production, Enterprise Data Quality and Governance                                            | Reliable Customer Lifetime Value, Expansion & Churn Prediction, Product Embedded Analytics            |
-| (3)Strategic                                                                            | Widespread & effortless drillable analysis, Drillable cross-functional scorecards, dashboards, Enterprise Data Warehouse                                                               | Customer 360 & Health Score, Predictable & Trusted Data Reporting, Robust Self-Service & Data @ Scale |
-| (2)Advanced: [Reference Solution](/handbook/business-technology/data-team/direction/reference/) | Operational Automated Reports and Dashboards, Reliable and validated data with automated tests, Mixture of manual and automated integration, core integrated data with some Data silos | Trusted Data, Self-Service Data, Key Performance Indicators, Stable platform for expansion            |
-| **(1)Reactive**                                                                         | Static lists and reports, Highly focused on history/lagging - last 30/90/365 days, Unpredictable velocity, minimal cross-functional analysis, Data Silos                               | Historical Tabular Reports, Data Visualization                                                        |
-| (0)None                                                                                 | Inconsistent report generation, Results not widely trusted, No stable analytics infrastructure                                                                                         |                                                                                                       |

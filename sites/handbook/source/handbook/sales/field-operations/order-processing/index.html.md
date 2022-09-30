@@ -528,12 +528,11 @@ For assistance with a Subscription Transfer Agreement please open a Legal Reques
 
 ### Open Source, Education, and Startup Application Opportunities
 
-GitLab provides free licenses to qualifying entities through the Community Programs: [GitLab for Education Program](https://about.gitlab.com/solutions/education/), [GitLab for Open Source Program](https://about.gitlab.com/solutions/open-source/) and [GitLab for Startups Program](https://about.gitlab.com/solutions/startups/). All applications to these programs are routed through the [Community Programs application workflow](https://about.gitlab.com/handbook/marketing/community-relations/community-operations/community-program-applications/). **Only Community Relations team members** should handle these applications and opportunities because the team verifies program requirements before issuing/renewing licenses and these opportunities are handled differently since the opportunities are free.
+GitLab provides free licenses to qualifying entities through the [Community Programs](/handbook/marketing/community-relations/community-programs/): [GitLab for Education Program](/solutions/education/), [GitLab for Open Source Program](/solutions/open-source/) and [GitLab for Startups Program](/solutions/startups/). All applications to these programs are routed through the [Community Programs applications automated workflows](/handbook/marketing/community-relations/community-programs/automated-community-programs). **Only Community Relations team members** should handle these applications and opportunities because the team verifies program requirements before issuing/renewing licenses and these opportunities are handled differently since the opportunities are free.
 
 #### Inquiry and Application Process (Leads or Contacts)
-1. If an existing contact or new lead is interested in applying to one of the programs, direct them to the appropriate application form: [GitLab for Education Program](https://about.gitlab.com/solutions/education/), [GitLab for Open Source Program](https://about.gitlab.com/solutions/open-source/)and [GitLab for Startups Program](https://about.gitlab.com/solutions/startups/) or send the appropriate inquiry template: [Education Program inquiry template](/handbook/marketing/community-relations/community-operations/automated-community-programs/community-program-applications/email-and-zendesk-macros/#edu-basic-info-on-edu-program), [Open Source Program inquiry template](/handbook/marketing/community-relations/community-operations/automated-community-programs/community-program-applications/email-and-zendesk-macros/#oss-oss-basic-program-information), or [Startups Program inquiry template](/handbook/marketing/community-relations/community-operations/automated-community-programs/community-program-applications/email-and-zendesk-macros/#startups-providing-basic-program-information). If the lead has specific questions, direct them to send an email to education@gitlab.com, startups@gitlab.com, or opensource@gitlab.com. Then reassign the lead to the appropriate program manager.
+1. If an existing contact or new lead is interested in applying to one of the programs, use the [Community Programs lead routing matrix](/handbook/marketing/community-relations/community-programs/#inbound-sales-requests-routing-workflows) to determine how best to assist. If the lead has specific questions, direct them to send an email to `education@gitlab.com`, `startups@gitlab.com`, or `opensource@gitlab.com`. Then reassign the lead to the appropriate program manager.
 1. In the situation that you need direct assistance with the lead/contact, chatter the program manager in Salesforce with a note about the requested action. 
-1. When an applicant applies to one of the programs, the program managers will receive a notification via the Zendesk-Marketo integration. All in-bound applicants will automatically be turned into a lead and assigned to the program managers as part of this process.
 
 #### Assigning Opportunities and Renewal Opportunities
 1. All Education opportunities should be owned by the Manager, Education Programs and all open source or startup opportunities should be owned by Sr. Open Source Program Manager.
@@ -617,7 +616,7 @@ If an opportunity meets the criteria listed above, but does not have a Professio
 
 **Summary: Waived True-Ups require executive approvals and may negatively impact Net ARR.**
 
-1. Waived True-Ups require written VP, and PAO approval, per the [approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?ts=5d6ea430#heading=h.dccvx02huo2y). Approvals should be sought in SFDC Chatter on the related Opportunity.
+1. Waived True-Ups require written approvals per the [approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?ts=5d6ea430#heading=h.dccvx02huo2y). Approvals should be sought in SFDC Chatter on the related Opportunity.
 2. After approval is obtained, Sales should create the appropriate opportunity and quote. Typically, true up waivers are required after renewal, and thus require an Add-On opportunity with an amend subscription quote. The true up SKU must be added to the same subscription that incurred the overage. On the quote, Sales should apply the appropriate true up SKU and quantity approved to be waived, at a 100% discount. After saving the quote, Sales should tag @Sales-Support to override the quote approval requirement. 
 3. Like all GitLab deals, waived true up orders must meet booking requirements as described [here](https://about.gitlab.com/handbook/sales/field-operations/order-processing/#opportunity-booking-requirements). In most cases, that means that the customer must sign a $0 Order Form, or issue a $0 PO.
 3. Upon booking the true up waiver opportunity, Order Management will notify @Revenue of the waiver in SFDC chatter.
@@ -838,7 +837,10 @@ All opportunities must meet *all* requirements outlined below to be processed. *
 
 #### Opportunity Booking Requirements
 
-There are unique requirements for different methods of selling GitLab. Review the drop down related to your order type.
+There are unique requirements for different methods of selling GitLab. 
+Please see the general summary presentation of our booking requirements [here](https://docs.google.com/presentation/d/1Di6aPQQmu3pRFUeX1Qk_Ky52856T0weRTti1AwBZvNU/edit#slide=id.g123a13deda8_0_405).
+
+Review the drop down below related to your order type.
 
 
 <details>

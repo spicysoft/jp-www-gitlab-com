@@ -3,15 +3,16 @@ locality:
 country: Remote
 role: <a href="">Director, Learning and Development</a>
 reports_to: rallen3
-picture: ../gitlab-logo-extra-whitespace.png
+picture: satusalminen.jpeg
 pronouns:
 pronunciation:
 twitter:
-linkedin:
+linkedin: ssatu
 gitlab: ssalminen
 departments:
-  - Engagement
-specialty: ""
+  - People Group
+  - Learning & Development
+specialty: "Learning & Development"
 expertise:
 story:
 

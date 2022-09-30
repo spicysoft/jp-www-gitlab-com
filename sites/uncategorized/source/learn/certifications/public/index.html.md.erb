@@ -13,20 +13,8 @@ Certifying with GitLab can help individuals, teams, and organizations validate t
 
 To get started, consider the [GitLab Certified Associate](https://about.gitlab.com/services/education/gitlab-certified-associate/). Once you've completed the GitLab Certified Associate, you can move on to Specialist certifications. 
 
-## Available public certifications
-
-All GitLab Certifications currently available to the entire GitLab community are listed below. 
-
-| Certification | Level |
-| --- | --- |
-<% data.learn.learn.select{|course| course.assessment == "Certification" && course.confidentiality == "Public" && course.live_date && Date.parse(course.live_date) <= Date.today}.each do |course| %>
-<%= "| [#{course.name}](#{course.url}) | #{course.level} |" %>
-<% end %>
-
 Other resources:
 - Publicly available learning resources on [GitLab Learn for everyone](/learn/)
-- Publicly available learning resources [organized by use case](/learn/use-case/public/)  
-- [Full list of certifications](/learn/certifications/) including those only available to GitLab Team Members
 
 ## Why Certifications
 

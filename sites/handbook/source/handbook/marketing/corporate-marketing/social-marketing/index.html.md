@@ -60,7 +60,8 @@ twitter_creator: gitlab
 
 The Social Marketing Team is working towards a long term strategy that includes three major pillars. Each pillar would require dedicated resources to grow and flourish.
 
-<details><summary>Brand</summary>
+<details><summary>Brand
+</summary>
 
 GitLab’s company profiles on core social channels like Twitter and LinkedIn
 <br> - Calendaring (Copy + Creative)
@@ -71,7 +72,8 @@ GitLab’s company profiles on core social channels like Twitter and LinkedIn
 
 </details>
 
-<details><summary>Advocacy</summary>
+<details><summary>Advocacy
+</summary>
 
 Enabling GitLab’s team members to publish GitLab-related content on their personal social media channels
 <br> - Copy + Creative
@@ -80,7 +82,8 @@ Enabling GitLab’s team members to publish GitLab-related content on their pers
 
 </details>
 
-<details><summary>Institutional Listening</summary>
+<details><summary>Institutional Listening
+</summary>
 
 Data analysis to inform future campaigns, slogans, comms, as well as, competitive research
 <br> - General Social Listening
@@ -442,7 +445,8 @@ The elements the social team uses for our designs are mainly GitLab-owned. Icons
 - 1620 x 1620 for Instagram wall posts (unless we are deliberately using IG's vertical or horizontal options)
 - 1620 x 2880 for stories (vertical) posts on any channel that supports stories 
 
-<details><summary>Here's the strategy behind the decisions above</summary>
+<details><summary>Here's the strategy behind the decisions above
+</summary>
 
 - Images in the dimensions of 1800 x 945 are currently visible correctly across Facebook, LinkedIn, and Twitter. In some instances, the images are a bit off-center on Twitter's mobile app, however, the majority of our audience engages with us via desktop, which puts our visual strategies into a desktop-first experience. They are also the correct size for opengraph cards. This may change in the future, as channels continue to tweak how their sites show images. 
 <br> 
@@ -462,7 +466,8 @@ Each social channel can have videos uploaded directly to them. We can use videos
 
 ## Social during an incident
 
-<details><summary>Going Dark</summary>
+<details><summary>Going Dark
+</summary>
 
 When an incident occurs, it may be appropriate for the social team to pause all brand channel social posts. This is called "going dark", and is a regular part of evaluating whether or not company messaging is appropriate to share at any given time. It is considered good practice to minimize the digital space brands occupy on social media during these times. This can help to not distract social conversation but can also reduce the probability of being accidentally caught up in conversation unintentionally, sounding tone-deaf, or otherwise coming across as insensitive.
 <br><br>
@@ -472,7 +477,8 @@ Going dark could have a negative impact on social metrics, depending on the seve
 
 </details>
 
-<details><summary>Rewriting copy or switching assets</summary>
+<details><summary>Rewriting copy or switching assets
+</summary>
 
 It may be necessary to update copy or assets depending on cultural impact during an incident. The social team reserves the agency to do this as we see necessary, however, we will communicate the changes to our stakeholders if we'd consider the changes to be major.
 <br><br>

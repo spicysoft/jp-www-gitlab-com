@@ -5,6 +5,9 @@ title: "Developer Evangelism CFPs"
 
 ## How we manage CFPs (Call for Proposals)
 
+- [FY23 CFP tracking epic](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/195)
+- [FY24 CFP tracking epic](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/211)
+
 ### Our events list
 
 Every year, developer evangelism prioritizes some key events in our ecosystem for which we run the conference proposal (CFP) process. These events are maintained in the [Events Master List sheet](https://docs.google.com/spreadsheets/d/1KX8uf-4Ov8ybztJibQlGr9HvgH9VobpA8Nv5ecny1N4/edit#gid=1294176754) as we add suggestions that fulfill our requirements for focus events. You can also find a calendar view of our events below:

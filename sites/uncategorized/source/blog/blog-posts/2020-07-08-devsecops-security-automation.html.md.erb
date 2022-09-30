@@ -1,0 +1,66 @@
+---
+title: "Automated security testing for DevSecOps"
+window_title: "How to Automate Security Testing for DevSecOps | GitLab"
+author: Vanessa Wegner
+author_gitlab: vwegner
+author_twitter: gitlabvanessa
+categories: insights
+image_title: "/images/blogimages/devsecops-automated-security.jpg"
+description: "We share four fool-proof ways to bring your security automation to the next level and five reasons why it's critical."
+tags: DevOps, security, workflow, zero trust
+postType: content marketing
+merch_banner: merch_four
+merch_sidebar: merch_four
+---
+
+_This is the third in our five-part series on getting started with [DevSecOps](/topics/devsecops/). Part one gives you nine ways to [shift security left](/blog/2020/06/23/efficient-devsecops-nine-tips-shift-left/). Part two outlines the steps needed to create [silo-free collaboration](/blog/2020/07/01/achieve-devsecops-collaboration/)._
+
+Nearly 83% of developers in [GitLab’s 2020 DevSecOps survey](/developer-survey/) say they’re releasing code faster today than ever before thanks to [DevOps](/topics/devops/). About 65% also say security is shifting left in their organizations. How far left is that shift? Not that far: Over 60% of developers don’t actually run static [application security](/topics/devsecops/) testing (SAST) scans, and 73% don’t conduct dynamic application security testing (DAST) scans.
+
+This needs to change.
+
+Security is often a bottleneck to faster releases but it is much too risky to minimize or ignore. DevSecOps promises to bring security  forward in the software development lifecycle (SDLC). This can be done a number of ways but automated security testing streamlines adoption and scalability. A respondent to this year’s DevSecOps Survey summarized it nicely:
+
+> Automated testing and continuous integration have made our deployments safer and more optimized. Now everyone in the team has the permission to deploy the code.
+
+## 4 Ways to automate security in software development
+
+[Automation](/stages-devops-lifecycle/auto-devops/) comes in all shapes and sizes. Scans and policies can be programmed manually or come as set operations out of the box; scans can be triggered automatically at code commit or manually initiated; and these scans can result in automated remediation and reports or they can require human intervention. Here are four ways automated security testing can be integrated into your software development practices:
+
+1. Automate security scans for every code change by [running SAST scans](https://docs.gitlab.com/ee/user/application_security/sast/index.html). For ease of assessment, results should be sorted by the priority level of the vulnerability.
+
+1. Scan results should automatically initiate a work ticket or issue, or may stop a build depending on the policy in place. These results should be presented to the developer – in the workspace or IDE in use to avoid context switching – for instant remediation.
+
+1. Policies are automatically applied upon code commit with the option to capture and approve exceptions as needed.
+
+1. Analyze running web applications for known vulnerabilities [using DAST scans](https://docs.gitlab.com/ee/user/application_security/dast/). In GitLab, DAST scans can be automated by [including the CI job in your existing .gitlab-ci.yml file](https://docs.gitlab.com/ee/user/application_security/dast/#configuration), or by [using Auto DAST](https://docs.gitlab.com/ee/topics/autodevops/stages.html#auto-dast).
+
+
+
+## 5 Benefits of automated security
+
+In addition to making jobs easier across development, security, and operations, automated security testing will help your team produce a safer and better-quality result.
+
+1. **Reduced human error.** Across all functions, automation reduces human error by taking the manual work out of tedious processes that rely on excessive attention to detail.
+
+1. **Early security intervention.** By placing security earlier in the SDLC, threats and vulnerabilities can be detected and addressed faster – hopefully before there’s even a chance that they’re exposed.
+
+1. **Streamlined vulnerability triage.** Automated scan reports can present the threat level of any vulnerability so that developers and security engineers alike can decide which must be addressed immediately and who is responsible for resolving the problem.
+
+1. **Repeatable security checks.** Any automated task should be repeatable, which means that all code can be reviewed and assessed the same way every time. This creates a trusted and secure environment and code base, and also helps reviewers identify patterns when results are presented in a consistent manner.
+
+1. **Responsibility clarification.** Automation takes uncertainty out of DevSecOps. Shifting security can cause confusion about who is responsible for what. But automated scans can present remediation options for the party responsible _at that stage of development_.
+
+But it is also important to find a productive balance between automated security testing and manual work. For example, trying to automate overly rigorous policies may prove detrimental to business objectives and may not be realistically achieved – it’s important to find a balance between policy compliance and efficiency. It’s also key that automation doesn’t obstruct visibility. Make sure there is still a trail of operations to review if necessary – automated processes should still generate reports of what was done, when, and why the action was triggered. Last, but certainly not least: Automation is **not** meant to replace human beings. It is a tool meant to make their work more efficient and help them produce better results for the team, the business, and the customer.
+
+**Read more about DevSecOps:**
+* [Efficient DevSecOps: 9 tips for shifting left](https://about.gitlab.com/blog/2020/06/23/efficient-devsecops-nine-tips-shift-left/)
+* [Want better DevSecOps? Try cross-functional collaboration](https://about.gitlab.com/blog/2020/07/01/achieve-devsecops-collaboration/)
+* [Compliance made easy with GitLab](https://about.gitlab.com/blog/2020/07/02/compliance-made-easy/)
+* [How application security engineers can use GitLab to secure their projects](https://about.gitlab.com/blog/2020/07/07/secure-stage-for-appsec/)
+
+Cover image by [Daniele Levis Pelusi](https://unsplash.com/@yogidan2012) on [Unsplash](https://unsplash.com/photos/Pp9qkEV_xPk)
+{: .note}
+
+
+

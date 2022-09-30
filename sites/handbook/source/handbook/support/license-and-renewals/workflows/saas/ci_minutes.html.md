@@ -16,14 +16,16 @@ From time to time, you may need to grant additional CI minutes to a namespace
 _without_ affecting the namespace's usual monthly quota.
 
 <details>
-<summary>Using Support Forms Processor</summary>
+<summary>Using Support Forms Processor
+</summary>
 
 Use the <a href="https://gitlab-com.gitlab.io/support/toolbox/forms_processor/LR/extra_minutes.html">
 Extra Minutes form</a>.
 </details>
 
 <details>
-<summary>Using GitLab.com ChatOps</summary>
+<summary>Using GitLab.com ChatOps
+</summary>
 
 View the <a href="/handbook/support/workflows/chatops.html#setting-additional-minutes-quota-for-a-namespace">
 Support ChatOps documentation</a> for more information.
@@ -50,7 +52,7 @@ Please do **not** use the enabling CI minutes process for validating a user acco
 
 Requirements:
 
-1. Requester has [filed an internal request](https://gitlab.com/gitlab-com/support/internal-requests/-/blob/master/.gitlab/issue_templates/Wider%20Community%20Contributor%20Shared%20Runner%20SaaS%20CC%20bypass.md) or ZenDesk ticket to track request.
+1. Requester has [filed an internal request](https://gitlab-com.gitlab.io/support/internal-requests-form/) or ZenDesk ticket to track request.
 1. Request is approved or created by a [Community Relations](https://about.gitlab.com/handbook/marketing/community-relations/#-meet-the-team) team member.
 1. GitLab.com admin account
 

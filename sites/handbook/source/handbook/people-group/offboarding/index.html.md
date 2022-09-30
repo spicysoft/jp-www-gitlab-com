@@ -66,6 +66,7 @@ For any other offboarding questions, please reach out to People Connect via peop
 ### Offboarding
 
 1. **People Connect:** Initiate the offboarding process by completing the [Offboarding Form](https://docs.google.com/forms/d/e/1FAIpQLScBBnV7bKKVkqfTk9Aq9sfSB_r85SKTxt0_mC6RhbRwU3DtSA/viewform) which feeds the tracker and prompts automated creation of the [Offboarding Issue](https://about.gitlab.com/handbook/people-group/engineering/offboarding/#scheduled-offboarding-issue-creation) which opens after the team member is done working on their last day - this will also create an alert in the #offboardings channel which will ensure all other stakeholders are aware of the team members departure particulars i.e. IT Operations, Payroll and Total Rewards.
+1. **People Connect:** Update BambooHR with the respective termination information, along with ensuring that the exit impact is completed.
 1. **People Connect:** On the Termination Date indicated in Workday at the [pre-determined time](https://about.gitlab.com/handbook/people-group/offboarding/offboarding_guidelines/#notice-of-offboarding) the offboarding issue will be [created](https://about.gitlab.com/handbook/people-group/engineering/offboarding/#scheduled-offboarding-issue-creation) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Connect can get underway.
 1. **Deprovisioners (Systems):**  You will be tagged in the departing team members offboarding issue and required to indicate that the team members access has been revoked kindly note that access to SOX Systems must be attended to with urgency and all other tasks within the offboarding issue must be closed out within five days.
 
@@ -129,7 +130,7 @@ The manager and the team member should have walked through the guidelines on [un
 If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month”.
 1. **HIPAA:** " Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from People Ops”.
 1. **Unemployment Insurance:** "It is up to your state's labor agency (in CA: EDD) to decide if you are eligible for unemployment insurance”.
-1. ** Keep GitLab Informed:** "If you move I want to be sure your W-2 gets to you at the end of the year.
+1. **Keep GitLab Informed:** "If you move I want to be sure your W-2 gets to you at the end of the year.
 You may also contact X at GitLab (provide phone number and email address) with any other questions that you may have" (consider inviting them to contact you at anytime for any reason).
 
 ### Initiating an Involuntary Termination in Workday

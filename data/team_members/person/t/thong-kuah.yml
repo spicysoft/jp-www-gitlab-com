@@ -21,6 +21,7 @@ projects:
   auto-build-image: maintainer
   cluster-applications: maintainer
   gitlab-technical-interviews-backend: maintainer
+  gitlab-attr_encrypted: maintainer
 story: |
   Thong is a software developer, who loves to solve complex problems with neat code.
 

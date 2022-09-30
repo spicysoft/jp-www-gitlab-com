@@ -19,8 +19,7 @@ departments:
 - Govern backend capability
 - Govern:Threat Insights BE Team
 - Backend
-specialty:
-- 'Secure: Threat Insights'
+specialty: Threat Insights
 projects:
   gitlab:
   - reviewer backend

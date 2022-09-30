@@ -22,7 +22,7 @@ Inline with GitLab's regulatory obligations, changes to [controlled documents](h
 </div>
 
 ## Purpose
-GitLab has adopted the ISO/IEC 27001:2013 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
+GitLab has adopted the ISO/IEC 27001:2013, ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
 
 ## Scope
 The scope of GitLab's ISMS is limited to the resources that directly support GitLab SaaS applications.
@@ -136,6 +136,4 @@ As part of GitLab's tier 2 security operational risk program, each risk identifi
 Exceptions to Information Security policies or procedures will be tracked as per the [Information Security Policy Exception Management Process](https://about.gitlab.com/handbook/engineering/security/#information-security-policy-exception-management-process).
 
 ## References
-* Parent Policy: [Information Security Policy](/handbook/engineering/security/)
-* ISO/IEC 27001:2013
-* ISO/IEC 27002:2013
+* Policy: [Information Security Policy](/handbook/engineering/security/)

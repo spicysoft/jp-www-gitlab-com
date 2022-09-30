@@ -48,9 +48,14 @@ Since there is not 1:1 parity for our self-managed and SaaS offerings, Utilizati
 
 Utilization serves customers and internal teams.
 
-Our customers can be described with the help of [buyer personas](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/buyer-persona) and may play a different role in the decision-making and purchasing process depending on their company size and their role.
+For customers, at a high-level we serve: 
+- Self-service customers
+- Sales assisted customers
+- Channel Partners and their customers
 
-- For SMB and mid-market company: [The application development manager](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/buyer-persona/#alex---the-application-development-manager) needs to have visibility into usage across their team/s and be able to control usage in a way that fits their company preferences/processes/budget.
+More specifically, our customers can be described with the help of [buyer personas](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/buyer-persona) and may play a different role in the decision-making and purchasing process depending on their company size and their role.
+
+- For SMB and mid-market company: [The application development manager](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/buyer-persona/#alex---the-application-development-manager) needs to have visibility into usage across their teams and be able to control usage in a way that fits their company preferences/processes/budget.
 - For large or enterprise company: [The release and change management director](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/buyer-persona/#casey---the-release-and-change-management-director) is concerned with acurate billing and being able to make purchasing decisions based on usage information.
 
 Internal teams are:
@@ -60,6 +65,30 @@ Internal teams are:
 - [sales](https://about.gitlab.com/handbook/sales/)
 
 #### Challenges to address
+
+### Utilization Group Responsibilities
+
+The Utilization group is responsible for all managerial accounting of usage and other reporting including CI minutes, storage types, and related admin controls.
+
+#### Key responsibilities
+- Features related to tracking and visualization of seat usage, CI minutes, and storage
+- Billable users, max users calculations in SM & SaaS
+- Emails/In-app notification related to consumption (users/CI/storage)
+- Create transparency for internal teams in customer subscription, billing, and licensing.
+- Reporting and analysis of usage (users, storage, CI minutes, etc.)
+
+#### Example projects
+- Cost management 
+- Usage quota budgets
+- Free User Efficiency: Storage Limits
+- Billing admin console 
+
+#### What we're not responsible for
+
+The Utilization Group relies on calculations provided by other teams as part of building the right reporting and visualization for customers and admins. However, Utilization is not responsible for the collection or raw calculations of this underlying data. Specifically, Utilization relies on Enablement teams to provide accurate data around things such as: 
+1. Project-level storage calculations (git repo + git LFS)
+1. Namespace storage calculation: git repo, LFS, artifacts, container registry, etc. 
+1. CI minutes
 
 
 ### Where we are headed

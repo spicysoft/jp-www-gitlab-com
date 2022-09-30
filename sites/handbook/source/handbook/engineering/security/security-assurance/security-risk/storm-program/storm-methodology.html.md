@@ -31,7 +31,8 @@ The annual StORM assessment is conducted on a predefined schedule from year to y
 On an annual cadence, the Security Risk Team reassesses GitLab's overall Risk Appetite. This is a key activity that drives risk treatment decisions for risks identified as part of the Annual Risk Assessment. While significant changes to risk appetite are not anticipated, this activity provides a mechanism to ensure GitLab's appetite and tolerance for risk align with changes to threat sources and events.
 
 <details markdown="1">
-<summary><b>How GitLab Determines Risk Appetite and Tolerance</b></summary>
+<summary><b>How GitLab Determines Risk Appetite and Tolerance</b>
+</summary>
 GitLab’s risk appetite is determined based on the total average priority order determined by senior leadership on the following risk strategy statements:
 * GitLab should seek solutions to transfer risks to others whenever possible (risk taking vs risk transfer)
 * GitLab should balance pursuing opportunities that align with organizational objectives against the associated risks (organizational objectives)
@@ -105,7 +106,8 @@ Scoring is performed by individuals operating in at least Senior Leadership capa
 The identification of threat sources and events in relation to operational risks includes multiple considerations. These threat sources and events have been identified based on their potential to have an impact on mission critical objectives in relation to GitLab's operations. 
 
 <details markdown="1">
-<summary><b>Example Threat Sources and Events Considered</b></summary>
+<summary><b>Example Threat Sources and Events Considered</b>
+</summary>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -135,7 +137,8 @@ The identification of threat sources and events in relation to operational risks
 A scoring model is used to score each risk and is based on the Likelihood of the risk event occurring and the Impact to GitLab if the event occurred. Likelihood and Impact scores directly determine the overall inherent risk to GitLab.
 
 <details markdown="1">
-<summary><b>Determining Likelihood of initiation of a threat event</b></summary>
+<summary><b>Determining Likelihood of initiation of a threat event</b>
+</summary>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -189,7 +192,8 @@ A scoring model is used to score each risk and is based on the Likelihood of the
 </details>
 
 <details markdown="1">
-<summary><b>Determining the impact of a threat event</b></summary>
+<summary><b>Determining the impact of a threat event</b>
+</summary>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -269,7 +273,8 @@ To arrive at a final impact score, the impact score of all impact categories is 
 </details>
 
 <details markdown="1">
-<summary><b>Determining Inherent Risk vs Residual Risk</b></summary>
+<summary><b>Determining Inherent Risk vs Residual Risk</b>
+</summary>
 
 * Inherent Risk is the risk _before_ considering any existing mitigations in place, such as existing controls, internal processes/procedures, etc. and is determined by the following formula:
    > `Inherent Risk = Likelihood x Impact`
@@ -278,7 +283,8 @@ To arrive at a final impact score, the impact score of all impact categories is 
 </details>
 
 <details markdown="1">
-<summary><b>Determining if a risk is considered LOW, MODERATE, or HIGH</b></summary>
+<summary><b>Determining if a risk is considered LOW, MODERATE, or HIGH</b>
+</summary>
 
 Once the Inherent and Residual risk score is determined, the following table can be used to determine if a risk is considered LOW, MODERATE, or HIGH.
 
@@ -370,7 +376,8 @@ Given that the scope of the StORM program is limited to Tier 2 Operational Risks
 Each risk identified and triaged through the StORM program is required to undergo a risk treatment determination. This is an activity that will be discussed with each individual risk owner for the risks that they own.
 
 <details markdown="1">
-<summary><b>Available Risk Treatment Options</b></summary>
+<summary><b>Available Risk Treatment Options</b>
+</summary>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

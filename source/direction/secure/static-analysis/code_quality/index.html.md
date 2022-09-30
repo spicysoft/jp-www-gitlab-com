@@ -80,7 +80,7 @@ Our direction follows certain themes:
 1. Offering flexibility for sophisticated teams, but a simple way to get started.
 1. Maintaining alignment with other features in [Static Analysis](/handbook/product/categories/#static-analysis-group).
     - We believe that it is valuable to keep security issues separate from maintainability, code style, and other non-security findings.
-    - However, users should see a [consistent user experience](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/system-usability-scale/) for quality and security findings, and we shouldn't have to [inefficiently](https://about.gitlab.com/handbook/values/#efficiency) build each workflow feature twice either.
+    - However, users should see a [consistent user experience](https://about.gitlab.com/handbook/product/ux/performance-indicators/system-usability-scale/) for quality and security findings, and we shouldn't have to [inefficiently](https://about.gitlab.com/handbook/values/#efficiency) build each workflow feature twice either.
 
 ## Recent highlights
 

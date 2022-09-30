@@ -16,8 +16,13 @@ departments:
 - Monitor:Respond FE Team
 - Monitor:Respond
 - Frontend
+- Merge Request Coach
 specialty: "Monitor"
-expertise: Teaching technical things to non technical people. Spreadsheets
+expertise: |
+  <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
+  <li>Frontend training for beginners</li>
+  <li>Teaching technical things to non technical people</li>
+  <li>Spreadsheets</li>
 projects:
   gitlab: reviewer frontend
 story: After working in advertising sales for 10 years, I build a spreasheet to optimise my workflow, learnt JavaScript in order to automate it (with the help of  <a href="https://about.gitlab.com/company/team/#tristan.read">Tristan Read</a>), one thing lead to another, now I'm a Frontend Engineer :) 

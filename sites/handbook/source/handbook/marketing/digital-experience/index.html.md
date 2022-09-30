@@ -195,17 +195,13 @@ We release videos for:
 
 All videos are accessible in our [Digital Experience playlist on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba).
 
-### Repository Health Day
+### Repository Health Contributions
 
-At the end of every sprint cycle, Digital Experience will spend 10% or one day to work on issues related to improving the health of about.gitlab.com, the developer experience, tackle tech debt, or improve our documentation.
+At the end of every sprint cycle, Digital Experience team members can spend 10% or one day to work on issues related to improving the health of about.gitlab.com, the developer experience, tackle tech debt, or improve our documentation.
 
-The structure of Repository Health Day is as follows: 1. Team members will choose what they wish to work on for this day. 1. Each team member will submit a single merge request to the `www-gitlab-com` repository by the end of repository health day. 1. This merge request will be related to an issue from any partner or group within GitLab.
+The structure of Repository Health Day is as follows: 1. Team members will choose what they wish to work on for this day. 1. Each team member will submit a single merge request to the [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui), [Navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), or [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) repository by the end of repository health day. 1. This merge request will be related to an issue from any partner or group within GitLab.
 
-By allowing our team members to contribute to the health of our repository for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for the `www-gitlab-com` repository. We’re all good at different things and come from different backgrounds. Let’s use that to our advantage to build a better repository that is inclusive of the team members that use it everyday.
-
-### Repository Health Week
-
-Digital Experience will dedicate one week or 8.33% per quarter to work on projects that improve the health of the `www-gitlab-com` repository, the developer experience, or tackle larger tech debt projects. These are projects that can not be completed in a single repository health day and require a higher degree of effort.
+By allowing our team members to contribute to the health of our repositories for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for https://about.gitlab.com/. We’re all good at different things and come from different backgrounds. Let’s use that to our advantage to build a better tech stack that is inclusive of the team members that use it everyday.
 
 ### Data Studio Dashboard
 
@@ -255,14 +251,16 @@ We love collaborating on work that drives our North Star and supporting metrics.
 ## Digital Experience FAQ
 
 <details>
-    <summary>Previous <b>Quarterly Plans & OKRs</b></summary>
+    <summary>Previous <b>Quarterly Plans & OKRs</b>
+</summary>
     <li><a href="https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/107">FY23Q2 Digital Experience Quarterly Plan & OKRs</a></li>
     <li><a href="https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/85">FY23Q1 Digital Experience Quarterly Plan & OKRs</a></li>
     <li><a href="https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/3">FY22Q4 Digital Experience Quarterly Plan & OKRs</a></li>    
     <li><a href="https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/385">FY22Q3 Digital Experience Quarterly Plan & OKRs</a></li>
 </details>
 <details>
-    <summary>Content Wireframe Instructions</summary>
+    <summary>Content Wireframe Instructions
+</summary>
     The Digital Experience team is primarily responsible for facilitating content, not creating it. Please prepare a content plan:
     <li>Provide the layout you think would work best from existing pages or existing blocks</li>
     <ul>
@@ -278,7 +276,8 @@ We love collaborating on work that drives our North Star and supporting metrics.
 
 </details>
 <details>
-    <summary>Requesting homepage promotion</summary>
+    <summary>Requesting homepage promotion
+</summary>
     <ul>
       <li>Use <a href="https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/-/issues/new?issuable_template=request-website-homepage-promotion">this template</a> to request addition to the content calendar for homepage promotion</li>
       <li>If this is for a campaign, please put in the request as part of the initial campaign distribution plan</li>
@@ -286,13 +285,15 @@ We love collaborating on work that drives our North Star and supporting metrics.
     </ul>
 </details>
 <details>
-    <summary>Image Requirements</summary>
+    <summary>Image Requirements
+</summary>
     <ul>
       <li>See <a href="https://about.gitlab.com/handbook/marketing/digital-experience/image-guidelines/">image guidelines</a> for specs</li>
     </ul>
 </details>
 <details>
-    <summary>SEO Requirements</summary>
+    <summary>SEO Requirements
+</summary>
     <li>Know the URL and keywords you want to use</li>
     <ul>
       <li>SEO and keyword analysis from the Search Team <a href="https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/issues/new?issuable_template=keyword-research-request">Issue Templates</a> is recommended.</li>
@@ -300,7 +301,8 @@ We love collaborating on work that drives our North Star and supporting metrics.
     </ul>
 </details>
 <details>
-    <summary>Related Pages</summary>
+    <summary>Related Pages
+</summary>
     <ul>
       <li><a href="/handbook/marketing/digital-experience/data-dictionary/">Data Attribute Dictionary</a></li>
       <li><a href="/handbook/marketing/digital-experience/buyer-experience-repository/">Buyer Experience Repository</a></li>
@@ -315,13 +317,14 @@ We love collaborating on work that drives our North Star and supporting metrics.
       <li><a href="/handbook/marketing/digital-experience/marketo-page-template/">Marketo Page Template</a></li>
       <li><a href="/handbook/marketing/digital-experience/navigation-repository/">Navigation Repository</a></li>
       <li><a href="/handbook/marketing/digital-experience/onetrust-cookie-consent/">OneTrust Implementation</a></li>
-      <li><a href="/handbook/marketing/digital-experience/slippers-design-system/">Slippers Design System</a></li>
+      <li><a href="https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui">Slippers Design System</a></li>
       <li><a href="/handbook/marketing/digital-experience/video-bands/">Video Bands</a></li>
       <li><a href="/handbook/marketing/digital-experience/website/">Website</a></li>
     </ul>
 </details>
 <details>
-    <summary>Checklists</summary>
+    <summary>Checklists
+</summary>
     <ul>
       <li><a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Inbound-Marketing-Checklist-Basic.md">All Merge Requests</a></li>
       <li><a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Inbound-Marketing-AB-Checklist.md">AB Test MR</a></li>

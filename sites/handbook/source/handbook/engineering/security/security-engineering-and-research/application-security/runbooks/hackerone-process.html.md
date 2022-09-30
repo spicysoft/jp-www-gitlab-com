@@ -70,7 +70,7 @@ following guidelines as necessary:
           - The bounty we award as a thank you should be $100 for low severity reports and equivalent to the initial bounty we pay on triage for the higher severities
           - If we realize our mistake late in the process and we have already rewarded the new report, the bounty should be raised to the amounts above or left as is if it's already higher
           - The author of the duplicate report should also be thanked in the CVE credits and blog post
-        - If the new report demonstrates new and higher impact, we calculate the CVSS score and award to the new reporter the difference between the new severity and what was awarded to the original report 
+          - If the new report demonstrates new and higher impact, we calculate the CVSS score and award to the new reporter the difference between the new severity and what was awarded to the original report 
 - If the report is valid, in-scope, original, and requires action, security-related documentation change, or if the report needs further investigation by
 the responsible engineering team:
     - [Calculate the CVSS score](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/) and post the resulting vector string (e.g.: `AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L`) as an internal comment on the report, this will be used later when requesting a CVE ID

@@ -21,46 +21,21 @@
   .top-row
     %a{ :href => "/pricing/#gitlab-com", "title" => free_title, "data-toggle" => "tooltip", "data-placement" => "top", :"data-ga-name" => "free", :"data-ga-location" => "body"}
       .badge{class: "#{'available' if is_available_for_gitlab_free}"}<
-        - if is_available_for_gitlab_free
-          = partial "images/icons/slp-checkmark.svg"
-        - else
-          = partial "images/icons/slp-close.svg"
-        Free
+        FREE
     %a{ :href => "/pricing/#gitlab-com", "title" => silver_title, "data-toggle" => "tooltip", "data-placement" => "top", :"data-ga-name" => "premium", :"data-ga-location" => "body"}
       .badge{class: "#{'available' if is_available_for_gitlab_silver}"}<
-        - if is_available_for_gitlab_silver
-          = partial "images/icons/slp-checkmark.svg"
-        - else
-          = partial "images/icons/slp-close.svg"
-        Premium
+        PREMIUM
     %a{ :href => "/pricing/#gitlab-com", "title" => gold_title, "data-toggle" => "tooltip", "data-placement" => "top", :"data-ga-name" => "ultimate", :"data-ga-location" => "body"}
       .badge{class: "#{'available' if is_available_for_gitlab_gold}"}<
-        - if is_available_for_gitlab_gold
-          = partial "images/icons/slp-checkmark.svg"
-        - else
-          = partial "images/icons/slp-close.svg"
-        Ultimate
+        ULTIMATE
   .badge-container-type Self-Managed
   .bottom-row
     %a{ :href => "/pricing/#self-managed", "title" => core_title, "data-toggle" => "tooltip", "data-placement" => "top", :"data-ga-name" => "free", :"data-ga-location" => "body"}
       .badge{class: "#{'available' if is_available_for_core}"}<
-        - if is_available_for_core
-          = partial "images/icons/slp-checkmark.svg"
-        - else
-          = partial "images/icons/slp-close.svg"
-        Free
+        FREE
     %a{ :href => "/pricing/#self-managed", "title" => premium_title, "data-toggle" => "tooltip", "data-placement" => "top", :"data-ga-name" => "premium", :"data-ga-location" => "body"}
       .badge{class: "#{'available' if is_available_for_premium}"}<
-        - if is_available_for_premium
-          = partial "images/icons/slp-checkmark.svg"
-        - else
-          = partial "images/icons/slp-close.svg"
-        Premium
+        PREMIUM
     %a{ :href => "/pricing/#self-managed", "title" => ultimate_title, "data-toggle" => "tooltip", "data-placement" => "top", :"data-ga-name" => "ultimate", :"data-ga-location" => "body"}
       .badge{class: "#{'available' if is_available_for_ultimate}"}<
-        - if is_available_for_ultimate
-          = partial "images/icons/slp-checkmark.svg"
-        - else
-          = partial "images/icons/slp-close.svg"
-        Ultimate
-
+        ULTIMATE

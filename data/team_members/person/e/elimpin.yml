@@ -3,7 +3,7 @@ name: Eugie Limpin
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/fullstack/">Senior Fullstack
-  Engineer</a>, Sec:Anti-Abuse
+  Engineer</a>, Data Science:Anti-Abuse
 reports_to: jayswain
 picture: eugielimpin.jpg
 twitter:
@@ -11,7 +11,7 @@ gitlab: eugielimpin
 departments:
 - Engineering Function
 - Development Department
-- Sec Section
+- Data Science Section
 - Anti-Abuse Team
 - Anti-Abuse Fullstack Team
 projects:

@@ -114,7 +114,7 @@ Here are the security and privacy controls to apply for each data classification
 
 | Access| Reproduction | Distribution/ Disclosure | Storage/Disposal |
 |-|-|-|-|
-| Business need-to-know required for approved business functions | All copies of Red data outside of approved system(s) must be pre-approved by both Legal and Security. **Note:** This pre-approval does not extend to team member data classified as ORANGE which cannot be copied to test environments | Do not share publicly | Data must be encrypted at rest |
+| Business need-to-know required for approved business functions | All copies of Red data outside of approved system(s) must be pre-approved by both Legal and Security. **Note:** This pre-approval does not extend to team member data classified as ORANGE which cannot be copied to test environments | Do not share publicly | Data must be encrypted at rest and in transit |
 | Manager and data owner approval required | Systems must have security controls equal to or greater than the approved system(s) | Data sharing with internal GitLab team members is authorized by the Data Owner and management after establishing “need-to-know” | Stored or processed on approved GitLab managed systems only unless otherwise approved |
 | Logging and monitoring of access required |  | Data sharing with non GitLab team members is not allowed unless explicitly approved by Legal and Security | Electronic storage media must be irretrievably erased, degaussed and/or disposed of in a secure fashion |
 | Quarterly access reviews required |  | API/Integrations must be approved by Security | When information is no longer valid or necessary, it should be completely and permanently destroyed in accordance with the Record Retention Policy. |

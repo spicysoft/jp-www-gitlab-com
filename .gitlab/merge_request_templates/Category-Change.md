@@ -27,7 +27,7 @@ The following people need to be on the merge request so they stay informed:
 ### After Approvals and Merge 
 
 - [ ] Create an issue in the [triage-ops project](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new?issuable_template=category-label-change) to update GitLab Bot automation 
-- [ ] Mention the [product group Technical Writer](https://about.gitlab.com/handbook/engineering/ux/technical-writing/#designated-technical-writers) to update the [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#stage-and-group-metadata)
+- [ ] Mention the [product group Technical Writer](https://about.gitlab.com/handbook/product/ux/technical-writing/#designated-technical-writers) to update the [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#stage-and-group-metadata)
 - [ ] Share MR in #product, #development, and relevant #s_, #g_, and #f_ slack channels 
 
 <!--

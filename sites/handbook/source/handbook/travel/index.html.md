@@ -34,8 +34,7 @@ Check with your health plan to see if you are eligible for reimbursement for the
 ## Self Stay Incentive Policy <a name="self-stay"></a>
 
 If you decide to stay with friends or family instead of a hotel / Airbnb for a business trip, the company will pay you 50% of what would have been
-the cost of a reasonable hotel. A reasonable hotel would be the negotiated hotel rate a conference provides. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on
-accommodation expenses. Contractors should take a screenshot of a hotel search from the same location in TripActions and submit this along with your expense report or invoice. Employees will be paid through payroll by submitting the screenshot by email to People Operations for processing.
+the cost of a reasonable hotel. A reasonable hotel would be the negotiated hotel rate a conference provides. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on accommodation expenses. Contractors should take a screenshot of a hotel search from the same location in TripActions and submit this along with your expense report or invoice. Team Members Employed through a GitLab Entity should submit the screenshot for approval via [Expensify](https://about.gitlab.com/handbook/finance/expenses/#-introduction).
 
 ## Booking travel and lodging<a name="TripActions"></a>
 
@@ -312,7 +311,9 @@ The COVID-19 Travel Working Group will re-evaluate our travel policy at least mo
 If a meeting/meet-up includes 5 or more GitLab Team Members meeting in person, please follow these protocols:
 
 ### Covid-19 Testing:  
-All GitLab attendees must test negative on a rapid at-home Antigen test for COVID-19 prior to travel, and again each day of the event prior to meeting with team members.  If you have been exposed to Covid within 10 days of travel, tested positive for Covid, or if you are symptomatic, please do not travel regardless of test results. 
+All GitLab attendees must test negative on a rapid at-home Antigen test for COVID-19 prior to travel, and again each day of the event prior to meeting with team members.  If you have been exposed to Covid within 10 days of travel, tested positive for Covid, or if you are symptomatic, please do not travel regardless of test results.  
+
+The cost of the test kits are often covered by medical insurance.  In the event that the tests aren't covered by your insurance plan, you may expense the cost of the Antigen tests required during business travel. If you are attending a large event, please check with your event facilitator who may have tests available at discounted/bulk prices.  
 
 ### Positive Test Result:  
 If a Team Member tests positive for COVID-19, they are to refrain from meeting with others and must contact the facilitator of the meeting, and/or the venue contact, and notify teammemberrelations@gitlab.com via email. The team member may be required to quarantine until testing negative for COVID-19 which could take 7-10+ days.  Quarantine and isolation rules differ by country and that's where Team Member Relations can help determine next steps.  

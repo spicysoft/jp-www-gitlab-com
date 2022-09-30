@@ -1,16 +1,20 @@
 name: Dzmitry Meshcharakou
 locality: 
 country: Remote
-role: <a href="">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer, Package</a>
 reports_to: michelletorres
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: dmeshcharakou.png
+pronouns: he/him
 pronunciation:
 twitter:
 linkedin:
 gitlab: dmeshcharakou
 departments:
-  - Development
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Package Group
+- Package BE Team
 specialty: "Package"
 expertise:
 story:

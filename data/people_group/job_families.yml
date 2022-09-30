@@ -27,8 +27,6 @@
   description: "/job-families/finance/accounts-payable/"
 - title: Accounts Receivable
   description: "/job-families/finance/accounts-receivable/"
-- title: Analyst Relations Manager
-  description: "/job-families/marketing/analysts-relations-manager/"
 - title: Analytics and Insights
   description: "/job-families/finance/analytics-and-insights/"
 - title: Awareness Campaign Manager
@@ -153,6 +151,8 @@
   description: "/job-families/legal/global-compliance-manager/"
 - title: Global Programs Manager
   description: "/job-families/marketing/global-programs-manager/"
+- title: Director, Globalization & Localization
+  description: "/job-families/marketing/globalization/"
 - title: Illustrator
   description: "/job-families/marketing/illustrator/"
 - title: Incubation Engineer
@@ -165,6 +165,8 @@
   description: "/job-families/finance/internal-audit/"
 - title: Instructional Design (L&D)
   description: "/job-families/people-ops/instructional-designer/"
+- title: Investor Relations
+  description: "/job-families/finance/investor-relations/"
 - title: Corporate Communications
   description: "/job-families/marketing/corporate-communications-manager/"
 - title: Internal Communication
@@ -173,6 +175,8 @@
   description: "/job-families/chief-executive-officer/strategy-and-operations/"
 - title: IT Operations
   description: "/job-families/finance/director-it-operations/"
+- title: IT Site Reliability Engineer
+  description: "/job-families/finance/it-site-reliability-engineer/"
 - title: Tax Analyst
   description: "/job-families/finance/tax/"
 - title: IT Operations System Engineer
@@ -193,8 +197,8 @@
   description: "/job-families/legal/director-legal-us/"
 - title: Senior Director of Legal, Litigation & Risk Management
   description: "/job-families/legal/director-legal-us/"
-- title: Senior Director, ESG
-  description: "/job-families/legal/director-legal-us/"
+- title: Environmental & Social Governance (ESG)
+  description: "/job-families/legal/environmental-social-governance/"
 - title: Learning and Development
   description: "/job-families/people-ops/learning-development/"
 - title: Learner Engagement

@@ -21,13 +21,21 @@ projects:
   gitlab-ui: maintainer frontend
   www-gitlab-com:
   - maintainer frontend
-expertise: |
-  <li>Static Site Editor <a href="/company/team/structure/#expert">expert</a></li>
-  <li><a href="https://gitlab.com/gitlab-org/gitlab-ui/">GitLab UI</a> <a href="/company/team/structure/#expert">expert</a></li>
 story: 'Enrique is passionate about design, developing software in a kind environment,
   and achieving high user satisfaction with his work. In his free time he enjoys cooking,
   writing, and relaxing on the beach with his partner.
 
   '
+domain_expertise:
+- a11y
+- frontend_testing
+- frontend_architecture
+- i18n
+- gfm
+- content_editor
+expertise: |
+  <li><a href="https://docs.gitlab.com/ee/development/fe_guide/architecture.html">Frontend architecture</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/development/fe_guide/accessibility.html">a11y</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/development/fe_guide/content_editor.html">Content Editor</a> <a href="/company/team/structure/#expert">expert</a></li>
 specialty: Editor
 

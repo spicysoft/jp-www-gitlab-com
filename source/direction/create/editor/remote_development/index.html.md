@@ -12,7 +12,7 @@ canonical_path: "/direction/create/editor/remote_development/"
 
 | Section | Stage | Maturity | Last Reviewed |
 | --- | --- | --- | --- |
-| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Planned](/direction/maturity/) | 2022-07-21 |
+| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Planned](/direction/maturity/) | 2022-09-27 |
 
 ### Introduction and how you can help
 
@@ -46,7 +46,13 @@ Remote Development, as the name suggests, directly targets software developers a
 
 - **[Devon (DevOps Engineer):](/handbook/product/personas/#devon-devops-engineer)** targets engineers tasked with supporting and enabling software teams. Their tasks often revolve around platform creation and maintenance, where [GitOps](/topics/gitops/)] workflows are crucial.
 
-<!-- ### Challenges to address -->
+### Challenges to address
+
+As we bring this feature to a viable maturity level, we'll have to tackle these major challenges: 
+
+1. How do we move away from the project-centric scope and enable a workflow that lets you work with the Web IDE across multiple projects or groups? How does that context change when you connect to a remote development environment?
+1. How can we support user-level, project-level, and instance-level editor configuration settings and what happens when they conflict?
+1. Similarly, how do we support an extensible IDE at the user or project level but gracefully handle conflicts when connecting to a remote host pre-configured with extensions and potentially with policies on whether extensions are even allowed to be installed? 
 
 <!-- - What needs, goals, or jobs to be done do the users have?
 - How do users address these challenges today? What products or work-arounds are utilized?
@@ -56,7 +62,27 @@ Provide links to UX Research issues, which validate these problems exist. -->
 <!-- - conflicting dependencies
 - inefficient troubleshooting -->
 
-<!-- ### Where we are headed -->
+### Where we are headed
+
+Our goal is to eliminate the need to configure and maintain complex local development environments by providing secure on-demand environments in the cloud. Developers, however, have very specific requirements and individual preferences for how they configure their editors and environments. In support of this, we aim to meet developers where they are by providing editor-agnostic development environments with centrally-managed configurations and a seamless transition between editing either from the Web IDE or in your local IDE. 
+
+By offering an end-to-end remote development solution within GitLab, we are uniquely positioned to gracefully extend the editing experience as the needs arise, reducing costs without sacrificing speed or quality. The GitLab Web IDE is ubiquitous and free for everyone, a fully-featured web-based editor enabling everyone to contribute from any web browser. As you need to make more complex changes or require a runtime environment to compile code, the Web IDE will connect seamlessly to a "headless" remote environment, reducing the need for context switching. And once we have access to these remote environments, we also unlock functionality that can bring other stages of the DevOps workflow closer to the developer and integrated in the Web IDE. 
+
+These development environments will be configured in a single file stored in a repository, allowing you to provision a new environment on your existing cloud infrastructure with a single click. Monitoring tools and dashboards will be available in GitLab to manage running and suspended environments, ensuring efficient usage of resources. Eventually, we intend to offer GitLab-hosted shared infrastructure as well, abstracting away the burden of cloud service administration and simplifying billing.   
+
+#### Ideal user journey
+
+As you take on more complex editing tasks, the GitLab Web IDE will grow with you. 
+
+1. You open the Web IDE with the intention of making some simple edits to a Markdown page. 
+1. You commit those changes and create an MR. 
+1. A maintainer points out that your change will require some SCSS and JavaScript updates. 
+1. You open the Web IDE again, referencing the comments directly in the editor thanks to the integrated GitLab Workflow extension. 
+1. After making the changes, you realize you need to preview them to make sure they look right. Rather than wait for a pipeline to run, you start up a Live Preview session, providing a real-time, client-side JavaScript preview.
+1. You commit some more changes, only to find that you actually need to make some edits to Ruby and PHP files. Oh, and you need to run your test cases and generate some localization files for internationalization. 
+1. Back to the Web IDE, this time you know you're going to need some compute. You start up a remote development environment from the Web IDE, and after a minute or so you have a fully interactive terminal panel at your disposal. 
+1. You make your changes, run your tests, troubleshoot based on the terminal output, then commit the new changes. 
+1. Your MR is accepted and you can move on, never having had to clone the repository locally or manually update your npm packages locally.
 
 <!--
 Describe the future state for your category.
@@ -71,9 +97,41 @@ Use narrative techniques to paint a picture of how the lives of your users will 
 - principles 
 - future state -->
 
-<!-- #### What's Next & Why
+#### What's Next & Why
 
-#### What is not planned right now -->
+As we finalize our investigation of the underlying technologies and polish our initial proofs of concept, we are focused on defining our MVC for the category,  building an iteration plan, and validating our reference architecture with customers. 
+
+The major focus areas right now are: 
+
+1. Extending the VS Code-based Web IDE to connect securely to a remote host running VS Code Server
+1. Use a Devfile that describes the components, credentials, and configuration of the development environments to provision a container on a Kubernetes cluster
+1. Create a dashboard for managing running environments
+
+**Eclipse Che**
+
+Eclipse Che is an open source, Kubernetes-native platform that provides container-based developer workspaces capable of running multiple browser-based IDEs and extensible through a flexible plug-in architecture. Che offers many of the componenets necessary to provide a complete remote development solution within GitLab. Our initial iterations will focus on integrating with Che as the primary backend component for defining, provisioning, and managing the remote environment while we build out custom UI in GitLab for configuring and monitoring your environments. 
+
+**Bring-your-own Cloud**
+
+Our initial iterations will be focused on integrating with existing cloud providers like Amazon Web Services (AWS), Google Cloud, or Microsoft Azure to provide a solution for those who already have access to cloud compute. We will eventually look to offer a fully-managed option within GitLab. This is likely to be provided as a service billed based on consumption, much like our [Runner SaaS](/direction/verify/runner_saas) offering. 
+
+![Illustrative diagram of the remote development architecture](/images/direction/dev/create/editor-remote-dev-diagram.png)*This high-level diagram illustrates how the components of the remote development offering fit together.*
+
+**Packaging and Pricing**
+
+Remote Developement as a category will be a multi-level offering, providing value across all tiers and distributions. 
+
+**Free tiers** will be able to securely connect the Web IDE to a remote environment that is manually configured with a compatible code server and authentication token. We will provide detailed documentation and a configuration script to reduce friction in the configuration of the server.
+
+In addition, **Premium tiers** will be able to define an environment as code in a devfile, use that file to provision remote environments on an existing cloud infrastructure, and monitor multiple environments from a GitLab dashboard. Team leads or DevOps Engineers will be able to define a standardized environment across their organization and improve team efficiency.
+
+Eventually, **Ultimate tiers** will have access to advanced monitoring and auditing tools, providing insight into usage across the organization and enforcing security best practices through development tooling. 
+
+_Note: Our pricing strategy is still being researched and validated. This strategy may be subject to change._
+
+#### What is not planned right now
+ 
+While we want to provide an editor-agnostic solution, our initial iterations will focus on support for VS Code. The vast majority of developers are using VS Code and facilitating the connection between a VS Code client and host simplifies the architecture. Support for vim, JetBrains editors, Xcode, or other IDEs will come as the category reaches `Complete` or `Loveable` maturity. 
 
 #### Maturity plan 
 
@@ -84,7 +142,7 @@ The maturity plan section captures this by showing what's required to achieve th
 
 This category is currently `Planned` with no specific date for moving to `Minimal`. 
 
-As part of the [Web IDE](/direction/create/editor/web_ide/) strategy, the Editor group is investigating an approach that would replace the existing Web IDE with a [browser-based instance of VSCode](https://gitlab.com/groups/gitlab-org/-/epics/7143). 
+As part of the [Web IDE](/direction/create/editor/web_ide/) strategy, the Editor group is working toward replacing the existing Web IDE with a [browser-based instance of VSCode](https://gitlab.com/groups/gitlab-org/-/epics/7143). 
 
 Watch here as Paul Slaughter and Eric Schurter from the Editor group discuss the proof of concept and the various user experience benefits it provides.
 

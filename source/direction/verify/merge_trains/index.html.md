@@ -20,7 +20,7 @@ A core tenet of our Ops section [direction](/direction/ops/#speedy-reliable-pipe
 
 For an overview of our plans for Merge Trains, see epic [Merge Trains Vision](https://gitlab.com/groups/gitlab-org/-/epics/5122).
 
-In FY23, we plan to proceed with work to enable [Fast-forward merge support](https://gitlab.com/groups/gitlab-org/-/epics/4911#proposal) for merge trains. We have heard from users that while Merge Trains are great they often need to re-run the same pipeline to get the correct SHA value into a package prior to release. Reducing the number of pipelines required to merge a change by one means shipping value to customers faster.
+In FY24, we plan to proceed with work to enable [Fast-forward merge support](https://gitlab.com/groups/gitlab-org/-/epics/4911#proposal) for merge trains. We have heard from users that while Merge Trains are great they often need to re-run the same pipeline to get the correct SHA value into a package prior to release. Reducing the number of pipelines required to merge a change by one means shipping value to customers faster.
 
 ### Overview
 

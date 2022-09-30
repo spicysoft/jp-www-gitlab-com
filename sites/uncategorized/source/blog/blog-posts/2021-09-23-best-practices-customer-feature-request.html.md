@@ -29,7 +29,7 @@ For example, the comment should include the following:
 
 The TAM includes a link to the account in the customer relationship management system (CRM), in GitLab’s case Salesforce, so the internal teams can view the details. We even have a [feedback template](/handbook/product/how-to-engage/#feedback-template) to ensure the proper details are captured in the comment. The comment is public but the record in the CRM is private.
 
-The product manager reviews the request and responds. Relevant [labels](/handbook/customer-success/tam/product/#priority-of-feature-requests) are added based on priority. For example, labels include **critical requests**, **high-priority requests**, **low priority requests** or **promised to a customer**. Milestones can be assigned to track timelines and make sure the feature ships on time. The feature tracking issue should be maintained regularly and acts as the single source of truth on the customer needs. These issues can also be reviewed for metrics on previously delivered feature requests.
+The product manager reviews the request and responds. Relevant [labels](/handbook/customer-success/csm/product/#priority-of-feature-requests) are added based on priority. For example, labels include **critical requests**, **high-priority requests**, **low priority requests** or **promised to a customer**. Milestones can be assigned to track timelines and make sure the feature ships on time. The feature tracking issue should be maintained regularly and acts as the single source of truth on the customer needs. These issues can also be reviewed for metrics on previously delivered feature requests.
 
 **Elevating your DevOps skills? Join us at [Commit at KubeCon - Oct. 11!](/events/commit/)**
 

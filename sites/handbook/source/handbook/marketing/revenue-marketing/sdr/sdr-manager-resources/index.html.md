@@ -26,6 +26,7 @@ Onboarding is essential for all SDR Managers at GitLab. As part of onboarding, a
 | :----: | :----: | 
 |  [Leadership Handbook](/handbook/leadership/) | Tools and resources to assist people managers in effectively leading and developing team members at GitLab |
 |  [Compensation Review Cycle (Compa Review)](/handbook/total-rewards/compensation/compensation-review-cycle/) | How to review our Compensation Calculator and carry out the Compensation Review Cycle |
+|  [Sales Dev Manager Onboarding Checklist](https://docs.google.com/spreadsheets/d/1cnKc757SWenlJRoa_zqPhFyekp4mq56oSMFXPSDW-CU/edit#gid=0) | Make a copy and complete this checklist to ensure you know your team's tools and processes |
 |  [360 Feedback](/handbook/people-group/360-feedback/) | Opporunity for managers, direct reports, and cross functional team members to give feedback to each other. Schedule and all information on this page.|
 |  [Workday](/handbook/people-group/360-feedback/) | All team member HR information |
 |  [Transitioning to a Manager Role at GitLab](/handbook/people-group/learning-and-development/manager-development/) | New manager resources and what to expect |

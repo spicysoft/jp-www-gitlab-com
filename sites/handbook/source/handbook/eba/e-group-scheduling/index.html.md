@@ -24,18 +24,6 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 
 
 
-## Scheduling for Cheri Holmes, Chief of Staff to the CRO
-
-* All meeting requests are preferred to be routed through the EBA to the CRO & CoS and are scheduled through her.
-* Prefers “appropriate length” conversations, so short meetings are okay on the calendar.  If a topic only needs 10 mins, book 10 mins instead of 30, etc.
-* Include Meeting Agendas in invites / make sure the team knows to include this with requests for time.
-* Please do not schedule prior to 9:00 AM PT - check with Cheri if urgent meetings need to occur earlier.
-* Add pre-emptive blocks in calendar that can be used for catch-up and To-Do items.
-* Please do not book during the lunch hour, 1:00 - 1:50 PM PT.
-* Please do not schedule any meetings after 5:00 PM PT unless approved by Cheri.
-* It is preferred to keep the afternoons as free as possible for email & Slack correspondence, catch-up, and appropriate prep.
-
-
 ## Scheduling for Brian Robins, Chief Financial Officer
 
 * Daily office hours are 9am-5pm ET, please Do Not Book meetings outside of working hours unless arranged with Sr. EBA
@@ -57,7 +45,7 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 
 ## Scheduling for Stella Treas, Chief of Staff to the CEO
 
-* All meeting requests should go through Katrina Allen
+* All meeting requests should go through Aimee David.
 * Priority given to candidate interviews, CEO, E-Group, GitLab BoD, and direct reports to the CoS to the CEO
 * Limited availability due to personal commitments from 7-9am PT Mon.-Fri. due personal commitments during the California shelter in place order (related to Covid-19). Can often make meetings during these blocks, if given advance notice, but strong preference for meeting outside of these times
 * If meetings need to happen before 9am PT or after 5pm PT check with EBA
@@ -131,8 +119,8 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 * Scheduling should ideally be kept between 9:00 am and 5:30 pm Pacific Time
 
 ## Scheduling for David DeSanto, VP Product 
-* Daily office hours are 9am-5pm ET, please Do Not Book meetings outside of working hours unless arranged with EBA, Jennifer Garcia
-* All meeting requests should go through the EBA for Product, Jennifer, and should include an agenda doc
+* Daily office hours are 9am-5pm ET, please Do Not Book meetings outside of working hours unless arranged with Sr. EBA, Gena Schwam
+* All meeting requests should go through the Sr. EBA for Product, Gena, and should include an agenda doc
 * If you add any meetings to calendar directly, tick the box “Attendees can modify” so EBA can change if necessary
 * 1:1's with direct reports should occur weekly unless scheduling conflicts
 * Biweekly Product Meeting and Weekly Product Leadership meetings cannot be scheduled over

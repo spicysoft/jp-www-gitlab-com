@@ -580,9 +580,63 @@ The Corporate Events team believes that everyone can contribute to virtual event
 Having run several global-focused virtual events, the GitLab team has some [best practices and recommendations to share](https://docs.google.com/document/d/1rPvewsTWm8uqGv-6Wr4-_j4ZmBVjL75fU5_YGV98d24/edit?usp=sharing) with prospective speakers.
 
 
-## Coming soon
+
+
+## Corporate Events’ Diversity, Inclusion, and Belonging Initiatives
+
+As part of the event planning and execution process at GitLab, the event lead will ensure that diversity, inclusion, and belonging initiatives are taken into consideration throughout the entire event process.
+
+#### Content Creation
+The planning committee will ensure that there is an inclusive environment when selecting CFP/keynote/speakers which aligns with [GitLab's event requirements for speaking](https://about.gitlab.com/handbook/marketing/corporate-marketing/speaking-resources/#event-requirements).
+This includes researching and sourcing for speakers from [underrepresented groups](https://about.gitlab.com/company/culture/inclusion/#examples-of-select-underrepresented-groups) and with various backgrounds including:
+* Ability, disability, and ableism
+* Faith and/or religious identity
+* Gender identity
+* Racial identity
+* Global citizenship
+* Intergenerational differences
+* Sexual respect
+* LGBTQIA+ identity
+
+
+#### Venue/Vendor/Supplier Selection
+When working with a vendor or supplier, the team will ensure that the selected venue/vendor/supplier is supportive of GitLab’s DIB values. These may include, but are not limited to the following:
+* LGBTQIA+, racial, faith/religious, and gender friendly
+* Are able to accommodate accessibility needs or are able to make special arrangements if needed
+* Work with diverse and locally owned businesses when possible
+* Avoid any religious and cultural days of observance
+* Partner with venues that have all-gendered restrooms or are willing to designate specific restrooms as gender neutral, as well as setting up any additional designated rooms as needed (i.e. lactation room, prayer room, etc.)
+
+
+#### GitLab Hosted Events Best Practices:
+* During registration, when applicable, include questions about dietary needs and accessibility needs.
+* Ensure there is reserved seating available who may need/request for it (i.e. pregnant attendees, attendees with disabilities, older attendees, etc.).
+* Ensure that signage, tables, spacing, and other materials are easily accessible and readable for all attendees.
+* Provide pronoun stickers or pins for attendees to include on their badges.
+* Use inclusive language and naming conventions in all messaging and content.
+* Provide a safe environment for all attendees with additional resources available.
+* Ensure enough time is given for any team member who may need to apply for a visa when applicable. 
+* The ability for team members or attendees to do normal activities safely and without restrictions at the event (i.e. gender neutral bathrooms, lactation room, prayer room, etc).
+* Provide a physically safe environment for as many people to participate  in activities/excursions (i.e. accessibility).
 
 
 
-* Supplier/ Vendor diversity list that encourages the use of LGBTQ-, woman-, veteran-, or minority-owned businesses.
-* Venue Sourcing Accessibility Checklist
+## Environmental Sustainability Initiatives
+At GitLab, the Corporate Events team wants to continue to play our part and operate with integrity when we are making decisions. The team is consciously making decisions that help align with the company’s social and environmental efforts. 
+
+The Corporate Events team works with our [swag vendor](https://about.gitlab.com/handbook/marketing/corporate-marketing/#swag-merchandise-handling) that sources swag with a goal of 95% of swag is sustainable or eco-friendly or work with companies that have sustainable initiatives. Some categories that the Corporate Events team considers when selecting suppliers are:
+* Union Made Products
+* Give-Back Programs
+* Eco Products
+* Supplier Diversity 
+    * Women Owned
+    * Black Owned
+    * Asian-Am Owned
+    * Hispanic/Lantinx-Am Owner
+    * Native American Owned
+    * Native Hawaiian/PI Owned
+    * Owner with Disability
+    * Veteran Owned
+    * LGBTQIA+ Owned
+    * Small Business Enterprise
+    * Small Disadvantaged Business

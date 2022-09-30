@@ -51,11 +51,11 @@ It's also advisable to check the rest of the queues (`Approved`, `Spam` and `Del
 We are using [Zapier](/handbook/marketing/community-relations/workflows-tools/zapier/) to forward Disqus comments into Slack.
 
 - [#mentions-of-gitlab](https://gitlab.slack.com/archives/C03N3AY9W) for about.gitlab.com - DRI is [Developer Evangelism](/handbook/marketing/community-relations/developer-evangelism/hacker-news/#blog-comments)
-- [#docs-comments](https://gitlab.slack.com/archives/C7WE1CBQW) for docs.gitlab.com - DRI is [Technical Writing](/handbook/engineering/ux/technical-writing/)
+- [#docs-comments](https://gitlab.slack.com/archives/C7WE1CBQW) for docs.gitlab.com - DRI is [Technical Writing](/handbook/product/ux/technical-writing/)
 
 ### Expert Responses in Disqus
 
-Community Relations team members can reach out to blog post authors, technical writers, and other internal experts in order to communicate with the wider GitLab community on Disqus. You can read more about this process on the [Involving Experts Workflow](/handbook/marketing/community-relations/community-operations/#expert-responses) handbook page.
+Community Relations team members can reach out to blog post authors, technical writers, and other internal experts in order to communicate with the wider GitLab community on Disqus. You can read more about this process on the [Involving Experts Workflow](/handbook/marketing/community-relations/workflows-tools/disqus/#expert-responses-in-disqus) handbook page.
 
 It is advised that Community Relations team members consider updating the status of GitLab team members in Disqus whenever an expert responds. Disqus Moderators have a `GitLab` visual indicator (a small grey label with text) next to their name when they reply so the wider community can see when GitLab is entering the conversation. This transparency provides clout for their comments, as a verified badge, and lets people know that the response authentically belongs to a GitLab team member.
 

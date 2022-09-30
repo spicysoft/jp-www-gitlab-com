@@ -1,0 +1,50 @@
+---
+layout: default
+title: DevOps Tools vs GitLab
+description: "Compare GitLab to other DevOps tools. Review the pros and cons of each to help make your decision easier."
+canonical_path: "/devops-tools/"
+suppress_header: true
+image_title: '/images/devops-tools/title_image.png'
+extra_css:
+  - compared.css
+  - release-posts.css
+  - sdlc-alt.css
+extra_js:
+  - comparison.js
+  - bootstrap-tooltip.js
+---
+.blank-header
+  = image_tag "/images/home/icons-pattern-left.svg", class: "image-border image-border-left", alt: "Gitlab hero border pattern left svg"
+  = image_tag "/images/home/icons-pattern-right.svg", class: "image-border image-border-right", alt: "Gitlab hero border pattern right svg"
+  .header-content
+    %h1
+      DevOps Tools Landscape
+    :markdown
+      There are a ton of DevOps tools to choose from. As a single application for the entire DevOps lifecycle, GitLab provides an end-to-end solution for your DevOps needs. See how GitLab compares to other tools by clicking on a logo.
+
+.comparison-container.full-post
+  .container.comparison-table
+    .comparison-page-content.col-sm-
+    
+      - devops_tools = data.devops_tools_list.devops_tools
+      = partial "includes/devops-tools/sdlc-alt"
+
+    .content-container.explore-gitlab-products.text-center
+      .container
+        %h2.color-primary
+          Try GitLab for free
+        %p.subheader-text
+          Get unlimited access to all of GitLab’s features free for 30 days. Activate your trial, invite your coworkers, and start exploring.
+        .action
+          = link_to "Get started", "/free-trial/", class: "btn cta-btn btn-red margin-top20", :"data-ga-name" => "free trial", :"data-ga-location" => "footer"
+
+    .content-container.text-center{ style: "border-top: 1px solid #d7d7d7; color: #777" }
+      .container
+        %p
+          If you feel there are inaccurate statements in this comparison or a tool missing, please 
+          %a{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/sites/uncategorized/source/devops-tools/index.html.haml"}edit this page 
+          or propose edits by 
+          %a{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/incoming+gitlab-com-marketing-product-marketing-7424125-issue-@incoming.gitlab.com"}opening an issue. 
+          You can also send an email to 
+          %a{:href => "mailto:devopstools@gitlab.com?subject=Suggested edit https://about.gitlab.com/devops-tools/"}devopstools@gitlab.com 
+          with your suggested edits if you're unable to open an issue or edit this page.

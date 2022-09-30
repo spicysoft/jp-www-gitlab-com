@@ -85,7 +85,7 @@ currency_rates:
     countries:
       - United Kingdom
   - currency_code: HUF
-    rate_from_usd: 303.03030
+    rate_from_usd: 396.82539
     rate_to_usd: 0.00252
     symbol: Ft
     countries:

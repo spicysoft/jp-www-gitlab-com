@@ -26,6 +26,27 @@ You can use the [request an evangelist issue template](https://gitlab.com/gitlab
 
 The Developer Evangelism team workflow is supported by labels, which help determine the type of issue, its status, and other relevant information. The team's primary label is `dev-evangelism`. All issues the team owns, are a part of, or needs to be aware of, should be tagged with `dev-evangelism`. Other Labels are listed below:
 
+#### General labels
+
+| **CFP Labels** | **Description** |
+| ---------- | ----------- |
+| `DE-DueSoon` | This is used to monitor DE issues that are due soon |
+| `DE-Peer-Review` | Feedback is needed on the issue from DE team members |
+| `DE-Ops` | Used to label issues related to the Developer Evangelism `Ops in DevOps` theme |
+| `DE-Dev` | Used to label issues related to the Developer Evangelism `Dev in DevOps` theme |
+| `DE-k8s` | Used to label issues related to the Developer Evangelism `Kubernetes` theme |
+
+### Issue management
+
+The team creates issues for iteration, team discussions, and other issues for internal processes. These issues are tracked using the following labels:
+
+| **Process Labels** | **Description** |
+| -------------- | ----------- |
+| `DE-Process::Open` | Process related issues that are still being discussed or worked |
+| `DE-Process::Pending` | Process related issues on hold due to an external factor |
+| `DE-Process::Done` | Completed Process issues |
+| `DE-Process::FYI` | Issues that require no action from the team, but need to be aware of |
+
 #### Workflow
 
 | Label | Use |

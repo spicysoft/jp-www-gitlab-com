@@ -178,9 +178,9 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
       * {:.trans-00}[セキュリティ運用](/handbook/engineering/security/security-operations/)
       * {:.trans-00}[脅威のマネジメント](/handbook/engineering/security/threat-management/)
       * {:.trans-00}[セキュリティ保証](/handbook/engineering/security/security-assurance/)
-  * {:.trans-10}[UX部](/handbook/engineering/ux/)
-    * {:.trans-10}[テクニカル・ライティング](/handbook/engineering/ux/technical-writing/)
-    * {:.trans-10}[UXリサーチ](/handbook/engineering/ux/ux-research/)
+  * {:.trans-10}[UX部](/handbook/product/ux/)
+    * {:.trans-10}[テクニカル・ライティング](/handbook/product/ux/technical-writing/)
+    * {:.trans-10}[UXリサーチ](/handbook/product/ux/ux-research/)
   * {:.trans-00}[セキュリティ対策](/handbook/security/)
   * {:.trans-00}[オープンソース](/handbook/engineering/open-source/)
 
@@ -230,7 +230,7 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
     * {:.trans-00}[セールス戦略](/handbook/sales/field-operations/sales-strategy/)
     * {:.trans-00}[セールス・システム](/handbook/sales/field-operations/sales-systems/)
   * {:.trans-00}[報告](/handbook/business-ops/#reporting)
-  * {:.trans-00}[テクニカル・アカウント・マネジメント](/handbook/customer-success/tam/)
+  * {:.trans-00}[カスタマー・サクセス・マネージメント](/handbook/customer-success/csm/)
   * {:.trans-00}[アライアンス](/handbook/alliances/)
 
 ## 財務 {#finance}

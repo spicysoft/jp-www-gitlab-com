@@ -3,7 +3,7 @@ name: Jay Swain
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack
-  Engineering Manager</a>, Sec:Anti-Abuse
+  Engineering Manager</a>, Data Science:Anti-Abuse
 reports_to: pcalder
 picture: jayswain.jpg
 twitter: jayswain
@@ -12,7 +12,7 @@ pronouns: he/him
 departments:
 - Engineering Function
 - Development Department
-- Sec Section
+- Data Science Section
 - Anti-Abuse Team
 projects:
   gitlab:

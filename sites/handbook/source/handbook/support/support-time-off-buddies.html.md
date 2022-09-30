@@ -15,6 +15,8 @@ The Support Time Off Buddies program is intended to solve a few problems:
 1. Reduce strain on SGGs when out of office
 1. Help keep each other accountable for taking time off
 1. Help keep each other accountable for not checking in with work during time off
+1. Help ease the burden of on-call swaps by serving as backups to each other
+1. Provide opportunities for focus days (time for self-learning where focus days become quasi time off)
 
 It is currently in a trial phase until October 15, 2022. You can find the
 initial proposal and add your thoughts to the discussion on
@@ -29,17 +31,19 @@ initial proposal and add your thoughts to the discussion on
 
 ## Responsibilities
 
-Buddies will be expected to adhere to a minimum set of responsibilities. These
-responsibilities include:
+At a minimum, Time Of Buddies are expected to review their buddy's tickets each day until their return, and action them accordingly. This _does not_ mean that buddies must _work_ the tickets, but instead that they should be prepared to interact with anything that needs attention.
 
-1. Something
-1. Something else
-1. Something more
+Since this is intended to be a low barrier program, the baseline responsibilities are intentionally simple. Time Off Buddies are welcome to work with their buddy to develop additional responsibilities as they see fit.
 
 ## Tips
 
 While it's up to each buddy to manage their responsibilities, some ideas are
 included here to get you started.
+
+- Set up a "time off" pairing session with your buddy 1-2 days prior to going on vacation to discuss tickets and expectations.
+- Set up a "catch-up" pairing session with your buddy 1-2 days after your return to get up-to-speed on the state of your tickets.
+- Inform your buddy of upcoming OOO as soon as it's scheduled
+- Set your buddy as covering for ticket reopens (and other agreed-upon responsibilities) in PTO by Roots
 
 ### Use pairings
 
@@ -61,8 +65,16 @@ You can set up a Zendesk view to track your buddy's tickets while they're out.
 
 ### Am I in charge of my buddy's tickets while they're out?
 
+Your buddy is not expected to take over your tickets while you are out, but they should serve as the interim DRI to help progress any of your active tickets. This may include finding others to step in and help, reaching out to managers for help, and/or sending quick updates to keep customers informed of status and progress. At a minimum, your buddy should cc themselves on your tickets to help with any follow-up to customers needed during your time off. If your buddy is overloaded, they should seek additional help from managers, or from the global Support team.
+
 ### Does the Time Off Buddies program account for holidays?
+
+Not specifically. For holidays, follow the Support team guidelines around [holiday time off ticket management](https://about.gitlab.com/handbook/support/support-time-off.html#how-support-handles-holidays).
 
 ### Does my buddy need to be in the same region as me?
 
+For now, yes. For the future, maybe not. The only key thing is to identify a buddy that is outside of your own SGG as this adds an additional layer of backup not just for you, but for your group.
+
 ### How many people can I be a buddy for?
+
+While the number can theoretically turn infinite, ideally you should keep this to a minimum of 2-3 buddies. Any more can cause confusion and/or duplicated work. Having at least 2 buddies means you are backing up 2 other engineers, but also means you will have 2 buddies you can reach out to for backup, depending on their availability and schedules.

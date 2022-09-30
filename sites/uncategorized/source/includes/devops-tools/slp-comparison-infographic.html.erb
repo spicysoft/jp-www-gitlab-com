@@ -1,5 +1,13 @@
-<% competitor_data = data.comparison_pages[key_one] %>
-<% gitlab_data = data.comparison_pages.gitlab %>
+<%
+competitor_data = data.comparison_pages[key_one]
+gitlab_data = data.comparison_pages.gitlab
+
+# During the implementation of https://gitlab.com/gitlab-com/Product/-/issues/4792, we switched "Protect" to "Govern".
+# This component was originally built expecting to find `protect` keys in its data. It has some hardcoded values around "Protect" as well.
+# In order to keep the component from breaking, we augment the data to include a `protect` key again, which duplciates the `govern` values from the yml files.
+competitor_data.protect = competitor_data.govern
+gitlab_data.protect = gitlab_data.govern
+%>
 
 <style>
 /* Inline styles required for overriding Middleman existing styles */

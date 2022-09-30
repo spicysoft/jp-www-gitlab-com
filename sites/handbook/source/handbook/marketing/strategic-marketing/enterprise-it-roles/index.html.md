@@ -82,7 +82,7 @@ Related Reading:
             - [ROI](/calculator/roi/)
             - [Concurrent DevOps](/concurrent-devops/)
             - [Cloud Transformation](/solutions/cloud-native/)
-            - [Software-defined Infrastructure](/solutions/no-ticket-provisioning/)
+            - Software-defined Infrastructure
             - [Visibility and Velocity](/blog/2017/06/07/continuous-integration-ticketmaster/)
             - [Geographically distributed teams](/features/gitlab-geo/)
             - [High availability development](/high-availability/)
@@ -108,7 +108,7 @@ Related Reading:
           - [GitLab home page](https://about.gitlab.com)
           - [ROI](/calculator/roi/)
           - [Concurrent DevOps](/concurrent-devops/)
-          - [Software-defined Infrastructure](/solutions/no-ticket-provisioning/)
+          - Software-defined Infrastructure
           - [Visibility and Velocity](/blog/2017/06/07/continuous-integration-ticketmaster/)
           - [Geographically distributed teams](/features/gitlab-geo/)
           - [High availability development](/high-availability/)
@@ -150,11 +150,11 @@ Related Reading:
             - [GitLab home page](https://about.gitlab.com)
             - [ROI](/calculator/roi/)
             - [CI/CD](/stages-devops-lifecycle/continuous-integration/)
-            - [Concurrent DevOps](/concurrent-devops/)
+            - [Concurrent DevOps](/topics/concurrent-devops/)
             - [Cloud Transformation](/solutions/cloud-native/)
             - [Google Cloud Platform](/partners/technology-partners/google-cloud-platform/)
-            - [AWS](/aws/)
-            - [Software-defined Infrastructure](/solutions/no-ticket-provisioning/)
+            - [AWS](/partners/technology-partners/aws/)
+            - Software-defined Infrastructure
             - [Geographically distributed teams](/features/gitlab-geo/)
             - [DevSecOps](/solutions/dev-sec-ops/)
             - [Product page](/stages-devops-lifecycle/)

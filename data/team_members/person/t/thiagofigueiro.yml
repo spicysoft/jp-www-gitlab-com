@@ -3,7 +3,7 @@ name: Thiago Figueiró
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack
-  Engineering Manager, Govern:Threat Insights, Govern:Security Policies</a>
+  Engineering Manager, Govern:Threat Insights</a>
 reports_to: pcalder
 picture: thiagofigueiro.jpg
 twitter:
@@ -18,7 +18,5 @@ story: |
   Thiago was born in Brazil and graduated as a Computer Engineer in Rio de Janeiro, then
   moved to Sydney, Australia to experience another country and new way of life. Hobbies
   include brewing, beekeeping, automation projects and Sci-Fi.
-specialty:
-- 'Secure: Threat Insights'
-- " Protect: Container Security"
+specialty: Govern
 

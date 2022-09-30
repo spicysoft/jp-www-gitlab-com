@@ -983,7 +983,7 @@ code_testing:
   roi: false
   available: 2017-01-01
   viable: 2021-01-12
-  complete: 2023-07-22
+  complete: 2024-07-22
   lovable: 2024-11-18
   maturity: viable
   marketing: true
@@ -1000,8 +1000,8 @@ build_artifacts:
   description: "Keep build artifacts under control and actionable."
   roi: true
   available: 2021-04-01
-  viable: 2023-03-01
-  complete: 2023-12-01
+  viable: 2023-07-01
+  complete: 2024-06-01
   lovable: 2025-12-01
   maturity: minimal
   marketing: false
@@ -1021,9 +1021,9 @@ performance_testing:
   description: "Be confident in the performance of your changes by ensuring that they are validated against real world scenarios."
   roi: false
   available: 2020-07-15
-  viable: 2023-10-22
-  complete: 2025-11-18
-  lovable: 2027-11-18
+  viable: 2024-10-22
+  complete: 2026-11-18
+  lovable: 2028-11-18
   maturity: minimal
   marketing: true
   dogfooding_status: limited
@@ -1063,7 +1063,7 @@ review_apps:
   available: 2017-01-01
   viable: 2017-01-01
   complete: 2017-01-01
-  lovable: 2023-11-18
+  lovable: 2024-11-30
   maturity: complete
   marketing: true
   priority_level: low
@@ -1408,9 +1408,6 @@ dependency_scanning:
   maturity: viable
   marketing: true
   priority_level: high
-  feature_labels:
-    - dependency list
-    - security reports integration
   ux_scorecard_link: https://gitlab.com/groups/gitlab-org/-/epics/2396
   ux_scorecard_score: F
   dogfooding_status: limited
@@ -1601,8 +1598,10 @@ vulnerability_management:
   dogfooding_status: Active
   dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
   feature_labels:
-    - MR security reports
-    - pipeline security reports
+    - security dashboard
+    - security reports
+    - security reports integration
+    - vulnerability interaction
   competitors:
     github:
       maturity: complete
@@ -1617,13 +1616,15 @@ dependency_management:
   direction: /direction/govern/threat_insights/dependency_management/
   roi: false
   available: 2019-06-22
-  viable:
-  complete:
-  lovable:
+  viable: 2022-09-01
+  complete: 2023-10-22
+  lovable: 2024-10-22
   maturity: viable
   new_maturity: true
   marketing: true
   priority_level: high
+  feature_labels:
+    - dependency list
 
 # Anti-Abuse
 
@@ -2004,7 +2005,7 @@ logging:
   direction: /direction/monitor/apm/logging/
   description: "GitLab makes it easy to view the logs distributed across multiple pods and services using log aggregation with Elastic Stack. Once Elastic Stack is enabled, you can view your aggregated Kubernetes logs across multiple services and infrastructure, go back in time, conduct infinite scroll, and search through your application logs from within the GitLab UI itself."
   roi: false
-  available: 2022-08-22
+  available: 2023-04-22
   viable:
   complete:
   lovable:
@@ -2012,7 +2013,7 @@ logging:
   marketing: true
   priority_level: medium
   dogfooding_status: N/A
-  dogfooding_issue: This category is at the "minimal" level of maturity and is not actively being worked on.
+  dogfooding_issue: 
   dogfooding_group: Infrastructure
   ux_scorecard_link:
   ux_scorecard_score:
@@ -2025,11 +2026,11 @@ tracing:
   direction: /direction/monitor/apm/tracing/
   description: "Tracing provides insight into the performance and health of a deployed application, tracking each function or microservice which handles a given request. This makes it easy to understand the end-to-end flow of a request, regardless of whether you are using a monolithic or distributed system."
   roi: false
-  available: 2018-11-22
+  available: 2023-12-22
   viable:
   complete:
   lovable:
-  maturity: minimal
+  maturity: planned
   marketing: true
   priority_level: medium
   dogfooding_status: N/A
@@ -2512,6 +2513,14 @@ billing_and_subscription_management:
   name: Billing and Subscription Management
   stage: fulfillment
   description: "Responsible for experiences to manage an existing subscription, including the purchase of seat add-ons, upgrades, renewals, auto-renewals, and Quarterly Subscription Reconciliation."
+  direction: https://about.gitlab.com/direction/fulfillment/#group-responsibilities
+  marketing: false
+  maturity:
+
+commerce_integrations:
+  name: Commerce Integrations
+  stage: fulfillment
+  description: "Responsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
   direction: https://about.gitlab.com/direction/fulfillment/#group-responsibilities
   marketing: false
   maturity:

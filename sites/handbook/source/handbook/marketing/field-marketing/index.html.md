@@ -409,9 +409,11 @@ Thank you for your interest in this [insert event type]. This event has conclude
 Thank you for your interest in this [insert event type]. The event has reached capacity and registration is now closed, but GitLab has a number of hands-on events and educational programs scheduled at any given time. Please visit our [events page](https://about.gitlab.com/events/) for more information on upcoming events and dates.
 
 ## Adding a Registrant after Marketo LP is Closed
-If you have closed a Marketo LP because your event has reached capacity but need to add in an important registrant after the fact, please follow the below instructions. 
+If you have closed a Marketo LP because your event has reached capacity but need to add in an important registrant after the fact, please follow the below instructions.
 
-** Important context: The landing page and form themselves have no bearing on whether or not someone is synced. The sync relies solely on `Program Members` and their statuses. Thus, a person can fill out a form, but if their program member status is never updated to `Registered`, they will never sync over into the webcast in Zoom. Likewise, we can update someone's status to `Registered` without any form every being filled out, and they will still sucessfully sync to Zoom.
+**IMPORTANT NOTE:** Field Marketing does not have access for the below actions. Please ping Marketing Operations in the `#mktgops` Slack channel to add registrants when needed.
+
+Important context: The landing page and form themselves have no bearing on whether or not someone is synced. The sync relies solely on `Program Members` and their statuses. Thus, a person can fill out a form, but if their program member status is never updated to `Registered`, they will never sync over into the webcast in Zoom. Likewise, we can update someone's status to `Registered` without any form every being filled out, and they will still sucessfully sync to Zoom.
 
 1. Navigate to the `Database` tab in Marketo
 1. In the quick find box, type in the person's email and click the magnifying glass to search (If they do not exist, click `NEW` in the upper ribbon and add a `new person`. It will take up to 10 minutes for them to then show in the lead database)
@@ -611,7 +613,7 @@ Delivery options and timelines are provided during the ordering process. Any new
 
 ## Swag for Non-Field Marketing Teams
 
-If you are looking to order swag or event assets for a non-Field Marketing event or would like to order swag for a customer, please reach out to the Brand team directly on Slack at `#brand-activation`.
+If you are looking to order swag or event assets for a non-Field Marketing event or would like to order swag for a customer, please reach out on Slack to `#sales-swag-ordering`.
 
 # Field Marketing Fedex Account
 
@@ -688,7 +690,7 @@ In Field Marketing, the FMCs manage all [Coupa requisitions](/handbook/business-
 | [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@juliette.frcn` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
  [EMEA MEA](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426540?&label_name[]=MEA) | Juliette Francon | `@juliette.frcn` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
 | [EMEA Northern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438252?scope=all&utf8=%E2%9C%93&label_name[]=Northern%20Europe&label_name[]=EMEA) | Elena Sheveleva | `@Lena333` |[#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
-| [EMEA UK/I](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Elena Sheveleva | `@Lena333` | [#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
+| [EMEA UK/I](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neja Pujari | `@npujari2` | [#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
 | [EMEA Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA) | Sarina Kraft | `@sarinakraft` | [#emea_central_europe_fieldmarketing](https://gitlab.slack.com/archives/CQJ90VD8B)|
 | [EMEA CEE](https://gitlab.com/groups/gitlab-com/marketing/-/boards/3206565?scope=all&label_name[]=Europe%20CEE) | Sarina Kraft | `@sarinakraft` | [emea_central_europe_fieldmarketing](https://gitlab.slack.com/archives/CQJ90VD8B)|
 | [EMEA Russia](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1484015?&label_name[]=Russia) | Elena Sheveleva | `@Lena333` | [#rus-marketing](https://gitlab.slack.com/archives/C01AHK5M6LX)|
@@ -1288,7 +1290,7 @@ Field Marketing utilizes regional email aliases for pre and post tactic outreach
 ## Monthly Calls
 
 - The World Wide Field Marketing team has one standing call on the calendar.
-- The team meets on the 1st Wednesday of each month.
+- The team meets on the 1st Thursday of each month.
 - All team members are invited to each call although, if the call is scheduled outside of the team member's normal working hours, the team member is NOT expected to attend. The calendar invite simply serves as a reminder to the team member to check out the recording of the meeting the next working day and to also review the agenda.
 - The purpose of the team call is to share relevant company, marketing, and Field Marketing announcements.
 - Anyone on the team should feel empowered to add content to the team meeting agenda.
@@ -1363,6 +1365,29 @@ Can be found on the [DemandBase1 Handbook page.](/handbook/marketing/account-bas
 # Field Marketing during COVID-19 Pandemic
 The health and safety of our team members continue to be a top priority.  If you are a Marketer who is planning on attending an event, please follow instructions listed in our [Policy & Guidelines](https://about.gitlab.com/handbook/travel/#policy-and-guidelines) section. 
 
+# Tiers of support from Field Marketing for Corporate lead events 
+In an effort to support the events the corporate marketing team runs, Field Marketing will rank the shows on an annual basis that corporate marketing runs. 
+
+## Tier 1 
+Field Marketing will: 
+1. Run a meeting setting program at this event - this means that sales leadership has agreed that they want their sales team spending time on driving these meetings.
+1. Evangelize the event is taking place with all regional sales teams. 
+1. If not already being planned by the corporate marketing team, run an auxiliary event driving registration with the sales teams. 
+1. Be onsite to support the event as needed 
+1. Participate in Corporate Events lead stakeholder calls 
+
+### FY23 Tier 1 
+1. AWS re:Invent 
+
+## Tier 2 
+Field Marketing will: 
+1. Evangelize the event is taking place with all regional sales teams, but will have no specific ask of the sales team or 
+1. Will not be on onsite to support the event. 
+
+### FY23 Tier 2 
+1. DevOps Enterprise Summit - US
+1. KubeCon US 
+
 # Deprecated handbook content
 We feel like this info is too good to delete, and while we currently aren't using either the tool that is descirbed or the process, we just aren't ready to delete.....its like that sweater you just can't seem to get rid of in case you may need it one day... 
 
@@ -1370,7 +1395,8 @@ We feel like this info is too good to delete, and while we currently aren't usin
 
 <details markdown="1">
 
-<summary>We will be deprecating usage of Printfection and will use Reachdesk or our selected swag vendor for direct mail. Expand below to see details regarding Printfection</summary>
+<summary>We will be deprecating usage of Printfection and will use Reachdesk or our selected swag vendor for direct mail. Expand below to see details regarding Printfection
+</summary>
 
 
 The below steps can be followed to set up and run a giveaway campaign using Printfection for field marketing. If you come across any steps that you can’t follow in Printfection, post in the [#swag Slack channel](https://app.slack.com/client/T02592416/C66R8N98F) so a Community Advocate can update your permissions levels.
@@ -1408,7 +1434,8 @@ using the Direct Mail campaign status progressions. (for example, when a person'
 
 <details markdown="1">
 
-<summary>Expand below to see details regarding Account-Centric Micro-Campaigns</summary>
+<summary>Expand below to see details regarding Account-Centric Micro-Campaigns
+</summary>
 
 
 The purpose of the regional integrated micro-campaign is to build and drive a specific strategy in a region (with a specific list of targeted accounts/look-a-like accounts). This could be based on intent data pulled from our ABM tool, DemandBase, or it could be based on accounts you’ve agreed to target with your SAL. A micro-campaign must include a minimum of 2 different account-centric tactics.
@@ -1568,7 +1595,8 @@ For example - You have created a micro-campaign that will include a self-service
 
 <details markdown="1">
 
-<summary>Expand below to see details regarding SimplyDirect</summary>
+<summary>Expand below to see details regarding SimplyDirect
+</summary>
 
 #### Overview
 SimplyDirect is a third party company that helps companies identify buyers and early adopters using the latest in big data tools and high-response surveys. The program from SimplyDirect includes surveying (through GatePoint Research), responder intelligence, and custom content creation in the shape of a Pulse Report highlighting the overall findings from survey responses.  These custom built surveys are developed via collaboration with GitLab sellers, Product Marketing, and Sales Development Reps, where the aim is to target accounts to create actionable sales intelligence which reveals an account’s needs, pain, plans and trends. In addition, GatePoint Research provides an incentive of a free gift upon completing the survey.

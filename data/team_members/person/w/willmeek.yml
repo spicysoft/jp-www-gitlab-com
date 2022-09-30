@@ -11,7 +11,7 @@ gitlab: willmeek
 departments:
 - Engineering Function
 - Quality Department
-- Sec & ModelOps QE team
+- Sec & Data Science QE team
 - Sec Section
 projects:
   gitlab: trainee_maintainer qa

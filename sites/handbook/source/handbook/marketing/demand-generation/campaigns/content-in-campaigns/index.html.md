@@ -121,7 +121,8 @@ If you have any questions on this process, please contact `@jgragnola` in the [#
 * [ ] [Resource Page Addition Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-resource-page-addition) - Campaigns
 
 <details>
-<summary>Expand below for quick links to optional activation issues to be created and linked to the epic.</summary>
+<summary>Expand below for quick links to optional activation issues to be created and linked to the epic.
+</summary>
 
 * [ ] [Digital Marketing Promotion Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/digital-marketing/-/issues/new?issuable_template=paid-digital-request) - Digital Marketing
 * [ ] [Organic Social Issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-gtm-organic) - Social
@@ -203,7 +204,8 @@ As a guide in developing timeline, please view the workback timeline calculator 
 * [ ] [Expiration Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=campaigns-expire-analyst) - Multiple Teams
 
 <details>
-<summary>Expand below for quick links to optional activation issues to be created and linked to the epic.</summary>
+<summary>Expand below for quick links to optional activation issues to be created and linked to the epic.
+</summary>
 
 * [ ] [Analyst Report Commentary Page Issue](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/new?issuable_template=AR-Commentary-Page) - Analyst Relations
 * [ ] [Digital Marketing Promotion Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/digital-marketing/-/issues/new?issuable_template=paid-digital-request) - Digital Marketing (DO NOT OPEN FOR ANALYST CONTENT)
@@ -211,7 +213,7 @@ As a guide in developing timeline, please view the workback timeline calculator 
 * [ ] [Homepage Feature (only when applicable)](https://gitlab.com/gitlab-com/marketing/indbound-marketing/growth/-/issues/new?issuable_template=request-website-homepage-promotion) - Growth Marketing
 * [ ] [Blog Issue](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/content-marketing/issues/new#?issuable_template=blog-post-pitch) - Editorial
 * [ ] [PR Announcement Issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/issues/new?issuable_template=announcement) - PR
-* [ ] [Field Announcement Request Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=field-announcement-request) (see [handbook entry](https://about.gitlab.com/handbook/sales/field-communications/#requesting-field-announcements) for more detail) - AR
+* [ ] Add to the open Product Marketing / Field Communications Planning epic (see [handbook entry](https://about.gitlab.com/handbook/sales/field-communications/#recurring-announcements) for more detail & link to latest epic) - AR
 
 </details>
 

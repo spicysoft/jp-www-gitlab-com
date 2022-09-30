@@ -43,7 +43,6 @@ As a Business Development Associate (BDA), Sales Development Representative (SDR
 
 **APAC**
 * **SDR APAC - (Manager - Glenn Perez)** = [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0LF6NL)
-* **BDR APAC - (Manager - Jessica Wong)** = [`#bdr_apac`](https://gitlab.slack.com/archives/C0327R1NZBK)
 
 **Please acknowledge any Slack messages from your managers in your Slack channels, if you have nothing to say at least be creative and funny with emojis so they know you are seeing their requests and updates and are not talking to an empty room!**
 
@@ -352,7 +351,7 @@ While the below measurements do not impact your quota attainment, they are monit
     * Completion of BDR Q1-Q4 Tanuki Techs
         * NOTE: All promotions require a formal application + interview. Performance and adherence to our values will guarantee an interview but the BDR will have to demonstrate that they are the best candidate during the interview process. Factors such as interview performance, headcount, language requirements can influence promotion timelines.
 
-**Some examples of potential next roles after the Sales Dev Org are [Inside Sales Rep](https://about.gitlab.com/job-families/sales/public-sector-inside-account-representative/), [SMB Account Executive](https://about.gitlab.com/job-families/sales/smb-customer-advocate/), [Associate Solutions Architect](https://about.gitlab.com/job-families/sales/solutions-architect/), [Technical Account Manager](https://about.gitlab.com/handbook/customer-success/tam/), and many more!**
+**Some examples of potential next roles after the Sales Dev Org are [Inside Sales Rep](https://about.gitlab.com/job-families/sales/public-sector-inside-account-representative/), [SMB Account Executive](https://about.gitlab.com/job-families/sales/smb-customer-advocate/), [Associate Solutions Architect](https://about.gitlab.com/job-families/sales/solutions-architect/), [Technical Account Manager](https://about.gitlab.com/handbook/customer-success/csm/), and many more!**
 
 
 
@@ -413,6 +412,7 @@ The SDR Managers will be responsible for facilitating lead routing level changes
 
 * Typical Timeframe: Months 3+
 * Parameters: SDR is on full quota, leads are set at 100% in LeanData, SDR is added to Drift queues via access request. SDR is now able to create their own Outreach sequences (pending approval).
+* To add SDRs to Drift, create a new [access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and copy and paste in the code for the [Drift access request template](https://gitlab.com/-/ide/project/gitlab-com/team-member-epics/access-requests/edit/master/-/.gitlab/issue_templates/role_baseline_access_request_tasks/department_sales_development/role_sales_development_representative_drift.md)
 
 #### Performance Requirements
 
@@ -637,6 +637,13 @@ Before scheduling the meeting with the AE/SAL, you will need to verify the sales
 2. On ZoomInfo or other sources, verify the HQ of the company or the ultimate user. Unless the account is Named, lead ownership is determined based on the HQ of a company, regardless of the lead's location geographically.
 3. If there's an account already assigned to a different segment, please do not immediately pass leads that your research says should be for another segment. Instead, please chatter ASM and the current account owner with your data. If there is a consensus, please then tag Sales Support for the reassignment. Please be mindful of discrepancies between our SSOT and LinkedIn. There are many cases where LI employee count does not indicate the reality of their employee size. For example, in companies with commonly used names, LI can overstate their employee count. On the other hand, LI can understate the employee count of companies that do not have a very strong tech presence.
 
+#### How do I request SAO credit on a Web Direct opportunity?
+On the opportunity record in Saleforce, compose a new Chatter message that includes the following:
+1. Tag your manager (do not tag Sales Support)
+2. Include a link to the record in Salesforce that shows your related two-way activity
+3. Explain how you influenced their decision to purchase GitLab (helped with evaluation, uncovered a need, provided value, etc)
+
+Your manager will review the information and decide whether SAO credit is warranted. If confirmed, they will Chatter Sales Support to add you to the opportunity. If rejected, they will communicate to you the reasoning for their decision.
 
 ## BDR Outbound Process
 
@@ -783,7 +790,7 @@ Learn more about [Field](/handbook/marketing/field-marketing/) and [Corporate Ma
 The FMM Regional team & the AMER or EMEA/APAC Regional Senior BDR Manager will review the upcoming quarter event calendar to dicuss which events needs BDR support and what level of support would be needed. The Regional Senior BDR Manager will sign off on the related event support by levering the "BDR approved" column in the [Marketing Calendar SSOT worksheet](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit). FMMs will then open the related FMM/ISR/SDR issue mentioning the Regional Senior BDR Manager. The Regional Sr BDR Manager will assign a Manager DRI who will then include related BDRs participating in the event's BDR pre and post tasks. 
 
 *  [Field Marketing SDR Support Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=ISR_SDR_FMTemplate)
-*  [Corporate Event SDR Support Template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/Event-SDR-Support-Template.md)
+*  [Corporate Event SDR Support Template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_SDR_Support_Template)
 
 
 ### Levels of Support
@@ -1308,11 +1315,11 @@ Steps:
 ## Working with the Community Relations Team
 The [Community Relations team](/handbook/marketing/community-relations/) owns GitLab's [Education](/handbook/marketing/community-relations/education-program/), [Open Source](/handbook/marketing/community-relations/opensource-program/), and [Startups](/solutions/startups/) programs. When a lead fills out the form to apply for one of these free community programs, Salesforce `Lead` ownership will automatically change to the `Community Advocate Queue`. If this Lead was in an Outreach sequence, it will automatically be marked as finished.
 
-The [Community Operations team](/handbook/marketing/community-relations/community-operations/) (a sub-team of Community Relations), and the Program Managers for each program, will then work to qualify the lead. If the Lead does not end up qualifying for one of the programs, they will be passed straight to sales.
+The [Community Programs team](/handbook/marketing/community-relations/community-programs/) (a sub-team of Community Relations), and the Program Managers for each program, will then work to qualify the lead. If the Lead does not end up qualifying for one of the programs, they will be passed straight to sales.
 - Forms
      -   [GitLab for education](https://about.gitlab.com/solutions/education/)
      -   [GitLab for Startups](https://about.gitlab.com/solutions/startups/)
      -   [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/)
 - Questions
-     - Chatter the relevant Program Manager in Salesforce. For EDU, OSS, and Startups `@Christina Hupy`.
+     - Chatter the relevant Program Manager in Salesforce. For EDU and Startups `@Christina Hupy` for OSS `@Bryan Behrenshausen`.
      - Slack channel: `#community-programs`

@@ -23,7 +23,7 @@ Check out our [Ops Section Direction "Who's is it for?"](/direction/ops/#who-is-
 
 ## What's Next & Why
 
-There are no planned investments in Code Teting and Coverage until 2023, though Pipeline Insights will support high priority bug fixes in this category in 2022. 
+There are no planned investments in Code Testing and Coverage until 2023, though Pipeline Insights will support high priority bug fixes in this category in 2022. 
 
 ## Additional Resources
 

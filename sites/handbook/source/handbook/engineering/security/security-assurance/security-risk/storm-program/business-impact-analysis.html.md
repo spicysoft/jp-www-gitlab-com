@@ -45,15 +45,18 @@ The scope of the BIA is the entirety of systems utilized across GitLab as docume
 
 ## BIA Procedures
 
-BIAs are performed once per fiscal year for each system listed on GitLab's [Tech Stack](/handbook/business-technology/tech-stack-applications/). The Security Risk Team is responsible for the periodic review and reconciliation of systems which require a BIA year over year. Additionally, the BIA is also integrated with GitLab's [process for adding net-new systems to the tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack) to ensure that BIA data is captured at the time that new systems have been implemented/onboarded to the organization. The steps listed below summarize how BIAs are completed.
+### New systems
 
-1. A formal BIA questionnaire is distributed to the technical system owners for each system, as listed in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). If there are multiple individuals listed, one team member will be selected. The questionnaire will be sent to the team member's GitLab email directly from GitLab's GRC Application, ZenGRC. Additional information on completing this questionnaire can be found on the [ZenGRC Activities](/handbook/engineering/security/security-assurance/zg-activities.html#completing-zengrc-questionnaires) handbook page. More info on the questionnaire is available in the video below.
+A BIA is initiated as the result of GitLab's [process for adding net-new systems to the tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack) to ensure that BIA data is captured at the time of new system implementation. The steps listed below summarize how BIAs are completed:
 
-2. Once all responses have been received, the data will be sanitized and aggregated. Follow-ups with technical owners will be completed as required to ensure the data used is accurate, complete, and objective.
-
+1. A formal BIA questionnaire is distributed to the technical system owners for each system, as listed in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) or merge request related to adding the system to the tech stack. If there are multiple individuals listed, one team member will be selected. The questionnaire will be sent to the team member's GitLab email directly from GitLab's GRC Application, ZenGRC. Additional information on completing this questionnaire can be found on the [ZenGRC Activities](/handbook/engineering/security/security-assurance/zg-activities.html#completing-zengrc-questionnaires) handbook page. More info on the questionnaire is available in the video below.
+2. Once the responses are recieved, the data will be sanitized and aggregated. Follow-ups with the technical owner will be completed as required to ensure the data used is accurate, complete, and objective.
 3. Mission critical systems are identified and next steps are taken to ensure that a system recovery/business continuity plan is documented accordingly.
+4. On a periodic basis, the BIA is reviewed and will be reperformed. While we do not anticipate significant changes year over year, as part of our due diligence and compliance needs, the Security Risk Team ensures that the data obtained from BIA questionnaires does not become stale through periodic validation.
 
-4. On a periodic basis, the BIA is reviewed and will be reperformed. While we do not anticipate significant changes year over year, as part of our due diligence and compliance needs, the Security Risk Team ensures that the data obtained from BIA questionnaires does not become stale through periodic review and reperformance.
+### Existing systems
+
+BIA data validation is performed once per fiscal year for each system listed on GitLab's [Tech Stack](/handbook/business-technology/tech-stack-applications/) above Tier 4. Tier 4 systems will validated every 2 years as they are lower-risk systems and changes from year to year should be minimal. In addition to BIA data/response validation, additional questions may be incorporated for the Technical Owner to answer (e.g., questions regarding Technical Debt). The Security Risk Team is responsible for the periodic review and reconciliation of systems which require a BIA year over year. System BIAs will be performed in waves and prioritized by Tier and regulatory need.
 
 ### BIA Ouputs:
 
@@ -62,9 +65,10 @@ The data obtained from BIA questionnaires results in:
 1. Ensuring that the correct data classification has been applied to a system based on GitLab's [Data Classification Standard](/handbook/engineering/security/data-classification-standard.html)
 1. Provides visibility, where applicable, on the operating system that a system is deployed on, to corroborate that an appropriate [approved operating system](/handbook/security/approved_os.html) is used. 
 1. Assignment of the appropriate [Critical System Tier](/handbook/engineering/security/security-assurance/security-risk/storm-program/critical-systems.html)
-   - Critical System Tiers additionally help identify and inventory systems which are considered mission critical (i.e. disruption or outage that has a significant impact to critical business operations or the availability/functionality of the GitLab.com SaaS product)
+   - Critical System Tiers additionally help identify and inventory systems which are considered critical (i.e. disruption that has a significant impact to critical business operations or the functionality/security of GitLab SaaS subscriptions.)
    - Critical System Tiers provide a mechanism to help prioritize and scope activities impacting multiple systems (leveraging tiering assignements to plan work)
 1. Data such as maximum tolerable downtime and impact of service disruptions or outages are used as an input for [Business Continuity Planning](/handbook/business-technology/gitlab-business-continuity-plan/)
+1. PILOT: Security risk assessment to inform the Security Compliance backlog.
 
 ## Reporting
 

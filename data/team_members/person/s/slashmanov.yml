@@ -23,6 +23,11 @@ projects:
   gitlab-svgs: trainee_maintainer frontend
 specialty: Code Review
 expertise:
+domain_expertise:
+  - vue
+  - vuex
+  - css
+  - frontend_performance
 story: Stanislav is a web performance and user experience enthusiast, also invested
   into design and accessibility. He loves to help the Frontend community and truly
   believes in open source. When offline he's probably riding bicycle or motorcycle,

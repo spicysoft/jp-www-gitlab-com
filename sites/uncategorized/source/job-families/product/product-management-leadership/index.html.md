@@ -39,7 +39,7 @@ This job family represents all Managers in the Product Management department. Th
 This role typically manages 2-4 Product Managers, and reports either to a [Director of Product](#director-of-product-management), a [Senior Director of Product Management](#senior-director-of-product-management) or the [VP of Product](#vp-of-product).
 
 #### Group Manager, Product (GMP) - Job Grade 
-The Group Manager, Product is a [grade 9.5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Group Manager, Product is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Group Manager, Product (GMP) - Responsibilities
 **Team responsibilities**
@@ -53,7 +53,7 @@ The Group Manager, Product is a [grade 9.5](/handbook/total-rewards/compensation
 * Keep relevant [/direction](/direction) pages up to date as our high level roadmap
 * Prioritize, build and assess business cases for new or existing opportunities in your group that have no investment
 * Understand deeply and synthesize the market, competition, and upcoming solutions in the space their team is responsible for.
-* Review [release post announcements]() to ensure they focus on user problems and [jobs-to-be-done](/handbook/engineering/ux/jobs-to-be-done/) 
+* Review [release post announcements]() to ensure they focus on user problems and [jobs-to-be-done](/handbook/product/ux/jobs-to-be-done/) 
 * Own driving connections between the groups their PMs drive to ensure a single-application user experience.
 * Demonstrate leadership as [expected of Managers across GitLab](/company/team/structure/#management-group).
 * Find opportunities where teams need to collaborate with each other and help them make those decisions that are optimal for the company even if they maybe sub-optimal in the short term for particular groups.

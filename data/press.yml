@@ -1,5 +1,55 @@
 recent_news:
 
+  - title: "Harvard Business Review: Advice from the CEO of an All-Remote Company"
+    logo: /images/press/harvard-business-review-logo.png
+    link: "https://hbr.org/podcast/2022/09/advice-from-the-ceo-of-an-all-remote-company"
+    date: 2022-09-27
+
+  - title: "Hackernoon: Building Remote Teams: Lessons From The Gitlab Remote Playbook"
+    logo: /images/press/hackernoon-logo.png
+    link: "https://hackernoon.com/building-remote-teams-lessons-from-the-gitlab-remote-playbook"
+    date: 2022-09-26
+
+  - title: "VentureBeat: Report: Only 10% of orgs had higher budget for cybersecurity, despite increased threat landscape"
+    logo: /images/press/venture-beat-logo.svg
+    link: "https://venturebeat.com/security/report-only-10-of-orgs-had-higher-budget-for-cybersecurity-despite-increased-threat-landscape/"
+    date: 2022-09-15
+
+  - title: "The Talent Economy Podcast: GitLab: Leading in an Open-source World"
+    logo: /images/press/the-talent-economy-logo.png
+    link: "https://talenteconomypodcast.com/episodes/gitlab-leading-in-an-open-source-world"
+    date: 2022-09-09
+
+  - title: "Washington Post: How to promote culture in a remote workplace"
+    logo: /images/press/washington-post-logo.png
+    link: "https://www.washingtonpost.com/technology/2022/09/09/remote-work-culture-tips/"
+    date: 2022-09-09
+
+  - title: "TechStrong TV: GitLab DevSecOps Report – David DeSanto, GitLab"
+    logo: /images/press/digital-anarchist-logo.png
+    link: "https://techstrong.tv/videos/interviews/gitlab-devsecops-reports-david-desanto-gitlab"
+    date: 2022-09-08
+
+  - title: "Military Embedded Systems: Securing the software supply chain by modernizing legacy systems"
+    logo: /images/press/military-embedded-systems-logo.png
+    link: "https://militaryembedded.com/cyber/cybersecurity/securing-the-software-supply-chain-by-modernizing-legacy-systems"
+    date: 2022-09-08
+
+  - title: "FedScoop: New playbook for secure software; Two-pronged zero trust approach at NSF"
+    logo: /images/press/fedscoop-logo.png
+    link: "https://www.fedscoop.com/radio/new-playbook-for-secure-software-two-pronged-zero-trust-approach-at-nsf/"
+    date: 2022-09-08
+
+  - title: "SHRM: The Rise of the Chief Remote Officer"
+    logo: /images/press/shrm-logo.jpg
+    link: "https://www.shrm.org/executive/resources/articles/Pages/chief-remote-officer-.aspx"
+    date: 2022-09-07
+
+  - title: "Washington Post: Bosses say remote work kills culture. These companies disagree."
+    logo: /images/press/washington-post-logo.png
+    link: "https://www.washingtonpost.com/technology/2022/09/01/remote-work-culture/"
+    date: 2022-09-01
+
   - title: "Security Boulevard: Application Security Responsibility Shifting Further Left"
     logo: /images/press/security-boulevard-logo.png
     link: "https://securityboulevard.com/2022/09/application-security-responsibility-shifting-further-left/"

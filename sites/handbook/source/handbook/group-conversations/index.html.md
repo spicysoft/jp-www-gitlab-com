@@ -289,7 +289,7 @@ If your GC is optional and you need to move the date, please work with your depa
 | [Infrastructure](/handbook/engineering/infrastructure/) | Steve Loyd | Yes | Twice per quarter | | EBA to Engineering | 
 | [Support](/handbook/support/) | Tom Cooney | Yes | Twice per quarter | @lbot @lyle @vparsons| EBA to Engineering | 
 | [Security](/handbook/engineering/security/) | Johnathan Hunt | Yes | Every other month| | EBA to Engineering | 
-| [UX](/handbook/engineering/ux/) | Christie Lenneville | Yes | Every other month | | EBA to Engineering | 
+| [UX](/handbook/product/ux/) | Christie Lenneville | Yes | Every other month | | EBA to Engineering | 
 | [Development](/handbook/engineering/development/) | Christopher Lefelhocz | Yes | Every other month | | EBA to Engineering | 
 | [Quality](/handbook/engineering/quality/) | Mek Stittri | Yes | Every other month | | EBA to Engineering | 
 | [General](/handbook/ceo/) | Sid Sijbrandij | No | Every other month | | EBA to CEO|
@@ -340,14 +340,14 @@ If your GC is optional and you need to move the date, please work with your depa
 | Tuesday September 20 | CosT  | Stella Treas | N/A |
 | Wednesday September 21 | General (CEO) | Sid Sijbrandij | N/A |
 | Thursday September 22 | Infrastructure | Steve Loyd | September 14 |
-| Tuesday September 27 | CRO | Mike Pyle | N/A|
+| Tuesday September 27 | Quality | Mek Stittri | September 22 |
 | Wednesday September 28 | Support | Tom Cooney| September 14 |
 | Thursday September 29 | MECC AMA | Darren Murph | N/A |
 | Tuesday October 4 | Finance | Brian Robbins | September 27 |
-| Wednesday October 5 | Quality | Mek Stittri | September 22 |
+| Wednesday October 5 | CRO | Mike Pyle | N/A |
 | Thursday October 6 | Development | Christopher Lefelhocz | September 28 |
 | Tuesday October 11 | **Available** | | Key Review Date? |
-| Wednesday October 12 | **Available** | | Key Review Date? |
+| Wednesday October 12 | Remote Development | Eric Schurter | N/A |
 | Thursday October 13 | CRO Group Conversation | CRO Leadership | N/A |
 | Tuesday October 18 | Product | Product Leadership | October 13 |
 | Wednesday October 19  | UX | Christie Lenneville | N/A |

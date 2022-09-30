@@ -744,13 +744,6 @@
   story: 'Rescue cockapoo who lives for affection and human food.
 
     '
-- name: Petri
-  picture: petri.jpg
-  human: Kenny Johnston
-  story: 'Petri is a two year old merle great dane. She spends most her days moving
-    from one couch to another.
-
-    '
 - name: Albus
   picture: albus.jpg
   human: Scott Hampton
@@ -1245,24 +1238,6 @@
   story: 'Mattie is a Poodle mix who lives with her hoomans and big brother Edison
     in Seattle, WA. She loves to wrestle in the back yard, play fetch with anybody
     willing to throw the ball, and is (of course) almost always ready for cuddles.
-
-    '
-- name: Wednesday
-  picture: wednesdayjackson.jpg
-  human: Jeremy Jackson
-  story: 'Prince Wednesday Jackson (Prince is his first name and isn''t an honorific)
-    is a black German Shephard and rescue pup currently employed as the Director of
-    Security for an anonymous client. Wednesday likes long walks on the beach, naps
-    in the sunshine, and gets along well with every dog and human he''s had the pleasure
-    of meeting.
-
-    '
-- name: Freya
-  picture: freyajackson.jpg
-  human: Jeremy Jackson
-  story: 'Freya is a Bat Terrier. She was rescued and trained at a Colorado correctional
-    facility and under the right circumstances you can find her hanging upside-down
-    from a branch eating fruit and enjoying the warmth of sunbeams.
 
     '
 - name: Cider

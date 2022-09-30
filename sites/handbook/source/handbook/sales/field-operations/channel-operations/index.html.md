@@ -672,14 +672,14 @@ The Channel Managers use a [tracking system](https://docs.google.com/presentatio
 
  
 ## Alliances and OEMs
-Please visit the [Alliances Handbook](https://about.gitlab.com/handbook/alliances/) for an overview of the GitLab Alliance Team. If you are a GitLab employee, the [Private Alliance Handbook](https://gitlab-com.gitlab.io/alliances/alliances-internal/) is another available resource. The [Alliances Salesforce Dashboard](https://gitlab.my.salesforce.com/01Z4M000000oYAp) is also available.
+Please visit the [Alliances Handbook](https://about.gitlab.com/handbook/alliances/) for an overview of the GitLab Alliance Team. If you are a GitLab employee, the [Private Alliance Handbook](https://internal-handbook.gitlab.io/handbook/alliances/) is another available resource. The [Alliances Salesforce Dashboard](https://gitlab.my.salesforce.com/01Z4M000000oYAp) is also available.
 For any questions regarding our Alliance partners, please reach out to the #alliances Slack channel. If your inquiry is deal-specific, please use one of these Slack channels: **#a_gcp_deal_registration, #a_aws_deal_registration, #a_ibm_deal_registration**.
  
 ### Opportunity Tagging for GCP and AWS Deals
 ***Use Case 1: Partner Co-Sell (Marketplace transaction with no source credit)*** 
 
 If a deal is being transacted through **GCP Marketplace** or **AWS Marketplace**, then the following fields need to be filled out on the opportunity:
-- **Partner Co-Sell** = [GCP](https://gitlab.my.salesforce.com/0014M00001nJhks)* or [AWS](https://gitlab.my.salesforce.com/0014M00001ldTdt)*  
+- **Resale Partner** = [GCP](https://gitlab.my.salesforce.com/0014M00001nJhks)* or [AWS](https://gitlab.my.salesforce.com/0014M00001ldTdt)*  
 _*Be sure to use the correct SFDC account. Click on the link to confirm the GCP and/or AWS account.)_  
  
 ***Use Case 2: Partner Sourced Deal Registration (No Marketplace transaction)***  
@@ -697,7 +697,18 @@ If GCP or AWS brought us a lead/referred GitLab a deal, and will be transacting 
 
 If GCP or AWS support a deal and help drive the customer to buy GitLab, but were not the original source of the opportunity nor are they transacting the deal, then the following field should be filled out on the Opportunity:
 - **Influence Partner** should be filled out using [GCP](https://gitlab.my.salesforce.com/0014M00001nJhks) or [AWS](https://gitlab.my.salesforce.com/0014M00001ldTdt) account
- 
+
+### Marketplace Transaction Fees
+Deals booked through the Amazon and Google markeplaces use the following fee schedule (non-negotiable):
+
+***Google Cloud***
+
+- Google Marketplace fee: 3% of the value of the booking for all orders through Marketplace
+
+***Amazon Web Services (AWS)***
+
+- Amazon Marketplace fee: 8% for New/FO deal <$1M; 6% for New/FO deal >$1M; 3% for renewals (based on value of the order). About 85% of our AWS transactions at the 3% traunch so for most deals Amazon and Google are at parity. 
+
 ### Requesting Google Cloud Credits
 Required fields when requesting Google Cloud Credits on an Opportunity
 1. Have you engaged with the GCP Team already? (Drop down: Yes, No)
