@@ -1343,24 +1343,36 @@ SlackでMRへのリンクを貼って[ステークホルダーへ変更点を伝
 
 ##### 何をするかだけでなく、なぜするかを伝える {#say-why-not-just-what}
 {:.no_toc}
-Transparent changes have the reasons for the change laid out clearly along with the change itself. This leads to fewer questions later on because people already have some understanding. A change with no public explanation can lead to a lot of extra rounds of questioning, which is less efficient.
+何かを変える際の透明性とは、変更内容を明確にすることにあわせて変更の理由をきちんと示すことです。
+そうすれば、みなが状況を理解することができるため、後から質問がでることがなくなります。
+説明がなく変更をすると、多くの無駄な質問を巻き起こし、効率的ではありません。
 
-This also helps with institutional memory: a year from now when you want to know why a decision was made, or not, the issue or MR that has the decision also shares why the decision was made.
-This is related to [Chesterton's fence](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence) - it's much easier to suggest removing or changing something if you know why it exists in the first place.
+そうすることで組織に「インスティテューショナル・メモリ(組織に蓄積された記憶)」が積み上がります。
+決めた理由／決めなかった理由を一年後に知りたくなったら、決めた背景が書かれたIssueチケットやMergeRequestがあれば、決めた時の根拠を共有することができます。
+[チェスタートンの柵](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)にもつながります。
+ある制度が、導入された理由を知っていれば、その制度を止めたり変えやすくなります
 
-Avoid using terms such as "industry standard" or "best practices" as they are vague, opaque, and don't provide enough context as a reason for a change.
+> チェスタートンの柵とは公共政策において、現状にいたった背景を理解するまでは、改革を進めてはならないとする原則。
 
-Similarly, merely stating a single value isn't a great explanation for why we are making a particular decision. Many things could be considered "iteration" or "efficiency" that don't match our definition of those values. Try to link to an operating principle of the value or provide more context, instead of just saying a single value's name.
+曖昧だし不透明でもあるし、採用にいたった理由について情報量が欠けているため、「業界標準」や「ベストプラクティス」といった言葉は、使用しないようにしましょう。
 
-Saying why and not just what enables discussion around topics that may impact more than one value; for instance, when weighing the [efficiency of boring solutions](/handbook/values/#boring-solutions) with the focus on [customer results](/handbook/values/#customer-results). When decisions align with all of our values, they are easy to discuss and decide. When there are multiple values involved, using our [values hierarchy](/handbook/values/#hierarchy) and [directly](/handbook/values/#directness) discussing the tradeoffs is easier with more context.
+おなじように根拠として単にあるバリューをあげるだけでは、なぜそのような判断をするのかの説明にはなりません。
+「イテレーション」や「効率」が理由とされているものの中には、本来のバリューの定義には合致しないものが多くあります。
+単にあるバリューの名前をあげるだけではなく、そのバリューのオペレーティング・プリンシプル(運営原則)と関連付けて説明するか、より多くの情報を提供するようにしましょう。
 
-Articulating why also helps people understand how something changed when you [articulate that you changed your mind](/handbook/values/#articulate-when-you-change-your-mind).
+単に、どんな変更をするのかではなく、どうして変更をするのかを伝えることで、複数のバリューに影響を与える議題を議論することができます。
+例えば、[退屈なソリューションを採用して効率を求める](/handbook/values/#boring-solutions)と[顧客の成果](/handbook/values/#customer-results)のどちらを優先するか検討する場合などです。
+意思決定がすべてのバリューに合致していれば、議論して決めるのは簡単です。
+複数のバリューが関係する場合、[バリューのヒエラルキー](/handbook/values/#hierarchy)を活用することと、[ダイレクト](/handbook/values/#directness)にトレードオフを議論することで、より背景が分かりやすくなります。
 
-Saying why does not mean justifying a decision against all other suggestions.
-The [DRI](/handbook/people-group/directly-responsible-individuals/) is responsible for their decision.
-The DRI is not responsible for convincing other people, but they should be able to articulate their reasoning for the change.
+また、[考えを変えたことを伝える](/handbook/values/#articulate-when-you-change-your-mind)ときには、「理由」を伝えることで、どのように変化したのかを理解してもらうのに役立ちます。
 
-When a GitLab Team Member comes across an ask or material (MR, handbook, etc.) that does not provide a "why" with sufficient context, the Team Member is responsible for getting the why and, if needed, working with the DRI to ensure that it is adequately documented and communicated to give context to other team members.  In the absence of a why, team members may speculate the why. This is something that can lead to disruption and inefficiency.
+理由を言ったとしても、他の提案の中からある提案を選択した意思決定を正当化するわけではありません。
+[DRI](/handbook/people-group/directly-responsible-individuals/) は、決定に責任を持ちます。
+DRIは、他人を説得する責任はありませんが、変更する理由を明確に説明する責任はあります。
+
+GitLab社員が、十分な情報量のある「理由」が書かれていない質問や資料（MR、ハンドブックなど）を見つけたら、社員は理由を確認する責任があります。必要におうじて、DRIと協力して、きちんと文書化し、他の社員に十分な情報を伝えてください。
+理由が書かれていないと、憶測してしまうかもしれません。そうすると混乱をうみ非効率になってしまいます。
 
 ##### 再現性 {#reproducibility}
 {:.no_toc}
