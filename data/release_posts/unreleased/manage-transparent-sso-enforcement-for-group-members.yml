@@ -1,0 +1,15 @@
+---
+features:
+  primary:
+  - name: "Transparent SSO enforcement for group members"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
+    reporter: hsutor
+    stage: manage
+    categories:
+    - Authentication and Authorization
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/215155'
+    description: |
+      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
