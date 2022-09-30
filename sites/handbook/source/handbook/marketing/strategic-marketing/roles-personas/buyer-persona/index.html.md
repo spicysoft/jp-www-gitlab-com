@@ -118,9 +118,11 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
    * Director or VP App Development  
 
 * **Job Responsibilities:**  
-   *    
-   *    
-   *  
+   * Lead a team of full-stack developers    
+   * Manage the iteration cycle, ensure capacity, and participate in both high-level and detailed design for new product capabilities and improvements   
+   * Collaborate with architects and developers on specifications, designs, standards, code reviews, and test capabilities
+   * Scale efficiencies and new ways of working across multiple projects and environments 
+   * Establish practices, processes, and platforms, working horizontally across Digital to govern and operationalize new technologies to enable their broad adoption
 
 * **Job is Measured by:**  
    * Productivity / Speed  
@@ -235,9 +237,9 @@ organizations
    * CIO or VP, Platform / Infrastructure   
 
 * **Job Responsibilities:**  
-   *    
-   *    
-   *  
+   * Design and coordinate implementation of automated solutions to replace or enhance manual processes  
+   * Collect requirements, researches, and analyzes alternatives, and make recommendations for IT infrastructure solutions   
+   * Ensure that new IT infrastructure solutions are designed and deployed to meet functional, security and technical requirements 
 
 * **Job is Measured by:**  
    * Efficiency / Speed  
