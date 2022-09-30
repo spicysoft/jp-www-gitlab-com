@@ -186,17 +186,18 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 ^[Infrastructure department]
 /sites/handbook/source/handbook/engineering/infrastructure/ @sloyd @marin @alanrichards
 /sites/handbook/source/handbook/engineering/infrastructure/team/scalability/ @rnienaber @marin
-/sites/handbook/source/handbook/engineering/infrastructure/team/delivery/ @amyphillips @marin
+/sites/handbook/source/handbook/engineering/infrastructure/team/delivery/ @amyphillips @marin @mbursi
 /sites/handbook/source/handbook/engineering/infrastructure/team/gitlab-dedicated/ @o-lluch @marin
 /sites/handbook/source/handbook/engineering/infrastructure/team/reliability/ @sloyd @afappiano @amoter @dawsmith @kwanyangu
 /sites/handbook/source/handbook/engineering/infrastructure/incident-management/ @sloyd @afappiano @amoter @dawsmith @kwanyangu
 /sites/handbook/source/handbook/engineering/infrastructure/emergency-change-processes/ @marin @sloyd
 /sites/handbook/source/handbook/engineering/infrastructure/service-maturity-model/ @rnienaber @marin
 /sites/handbook/source/handbook/engineering/monitoring/ @marin @sloyd
-/sites/handbook/source/handbook/engineering/releases/ @marin
+/sites/handbook/source/handbook/engineering/releases/ @amyphillips @marin @mbursi
+/sites/handbook/source/handbook/engineering/deployments-and-releases/ @amyphillips @marin @mbursi
 /sites/handbook/source/handbook/engineering/infrastructure/production/kubernetes/ @marin
 /sites/handbook/source/handbook/engineering/infrastructure/team/dei/ @andrewn
-/sites/handbook/source/handbook/engineering/career-development/matrix/engineering/infrastructure/ @marin @kwanyangu @sloyd @alanrichards @dawsmith @amyphillips @rnienaber @amoter @afappiano
+/sites/handbook/source/handbook/engineering/career-development/matrix/engineering/infrastructure/ @marin @kwanyangu @sloyd @alanrichards @dawsmith @amyphillips @rnienaber @amoter @afappiano @mbursi
 /sites/handbook/source/handbook/engineering/error-budgets/ @marin @rnienaber
 /sites/handbook/source/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability
 
