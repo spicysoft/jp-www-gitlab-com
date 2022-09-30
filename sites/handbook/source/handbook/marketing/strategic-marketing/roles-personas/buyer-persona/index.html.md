@@ -15,7 +15,7 @@ Buyer personas represent the people who serve as the main buyers in an organizat
 the champions within an enterprise that drive the buying conversation and
 coordinate various teams to make a purchase. We've updated our approach to include persona groups, in addition to specific roles or titles within a group, based on the Jobs To Be Done (JTBD) framework. 
 
-![IT Orgchart](/handbook/marketing/strategic-marketing/images/IT-Org-v2.png)
+![IT Orgchart](/handbook/marketing/strategic-marketing/images/Buyer Persona Org Chart-2022-09-29.png)
 
 1. [CIO](#tech-exec-tristan)
 2. [App Dev](#app-dev-avery)
