@@ -30,10 +30,10 @@ For this reason, we choose to have a team with credibility from real-world educa
 
 
 ## What we do
-[Social media](/handbook/marketing/community-relations/education-program/education-evangelism/#social-media){:.btn .btn-purple-inv}
-[Content creation](/handbook/marketing/community-relations/education-program/education-evangelism/#content-creation){:.btn .btn-purple-inv}
-[Presentations and events](/handbook/marketing/community-relations/education-program/education-evangelism/#presentations-and-events){:.btn .btn-purple-inv}
-[Student Spotlight Program](/handbook/marketing/community-relations/education-program/education-evangelism){:.btn .btn-purple-inv}
+[Social media](/handbook/marketing/community-relations/community-programs/education-program/education-evangelism/#social-media){:.btn .btn-purple-inv}
+[Content creation](/handbook/marketing/community-relations/community-programs/education-program/education-evangelism/#content-creation){:.btn .btn-purple-inv}
+[Presentations and events](/handbook/marketing/community-relations/community-programs/education-program/education-evangelism/#presentations-and-events){:.btn .btn-purple-inv}
+[Student Spotlight Program](/handbook/marketing/community-relations/community-programs/education-program/education-evangelism){:.btn .btn-purple-inv}
 
 
 
@@ -46,7 +46,7 @@ There are specific goals for the team:
 
 
 ### Social media
-The GitLab for Education team builds thought leadership, connects with our community, and increases our reach on social media.  See the [Education Evangelism on Social Media](/handbook/marketing/community-relations/education-program/education-evangelism/social-media/) handbook page to learn more about our social media strategy.
+The GitLab for Education team builds thought leadership, connects with our community, and increases our reach on social media.  See the [Education Evangelism on Social Media](/handbook/marketing/community-relations/community-programs/education-program/education-evangelism/social-media/) handbook page to learn more about our social media strategy.
 
 #### Bambu
 
@@ -67,7 +67,7 @@ We build out content to help educate developers around best practices related to
 
 Content is especially valuable when connected between mediums. Consider making a video version of a blog, or livestreaming the creation of a code demo or lesson plan.
 
-Livestreaming guidelines can be found on our [Twitch handbook page](/handbook/marketing/community-relations/education-program/education-evangelism/twitch/)
+Livestreaming guidelines can be found on our [Twitch handbook page](/handbook/marketing/community-relations/community-programs/education-program/education-evangelism/twitch/)
 
 
 #### Blog Posts
@@ -79,16 +79,16 @@ If the blog post is not featured on the GitLab blog, posts will publish on the G
 Recordings from past workshops and other team activities can be found on the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) channel on YouTube.
 
 ### Presentations and events
-Participation in events such as conferences and conventions are an important part of Evangelism. In the case of Education Evangelism, both tech and education events are important to take part in. An Education Evangelist seeks out relevant organizations and events to participate in as part of their role. As events and organizations to consider are found we will add them to an issue in the [Outreach project](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/outreach/).
+Participation in events such as conferences and conventions are an important part of Evangelism. In the case of Education Evangelism, both tech and education events are important to take part in. An Education Evangelist seeks out relevant organizations and events to participate in as part of their role. As events and organizations to consider are found we will add them to an issue in the [Outreach project](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/).
 
 When preparing for presentations and talks, post your slides to the [Developer Evangelism](https://gitlab.slack.com/archives/CMELFQS4B) or [Community Relations](https://gitlab.slack.com/archives/C0R04UMT9) slack channel for feedback on slides. This ensures that the most current messaging is being used. It's also good for a sanity check and quick edit on the content. Another good way to review for a speaking engagement is to post a zoom room to the [speaking channel](https://gitlab.slack.com/archives/CCGD905AR) and ask for people to join a practice session. 
 
 Education Evangelists should consider being a part of the [Speakers Bureau.](https://about.gitlab.com/speakers/)
 
-An overview of how to handle events where the Education team has a booth, see [this handbook page](/handbook/marketing/community-relations/education-program/education-conferences)
+An overview of how to handle events where the Education team has a booth, see [this handbook page](/handbook/marketing/community-relations/community-programs/education-program/education-conferences)
 
 #### CFPs
-We directly contribute to the wider community by speaking at education and tech conferences. If you've come across a conference you feel is valuable to the Education Team, please open an issue in the [Outreach project](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/outreach/) and use the `edu-conference` label to suggest a conference for attendance.
+We directly contribute to the wider community by speaking at education and tech conferences. If you've come across a conference you feel is valuable to the Education Team, please open an issue in the [Outreach project](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/) and use the `edu-conference` label to suggest a conference for attendance.
 
 
 <!-- commented out until spotlight program is more likely to be used. Currently not viable
@@ -101,7 +101,7 @@ Students, faculty, or staff can apply to be highlighted in the Students Spotligh
 ## <i class="fa fa-code-fork" aria-hidden="true"></i> How we work
 
 ### Issues
-All of our work is stored as issues in the [Education Program Group](https://gitlab.com/gitlab-com/marketing/community-relations/education-program). Issues are stored in projects. A list of projects and descriptions can be [found here.](https://gitlab.com/gitlab-com/marketing/community-relations/education-program)
+All of our work is stored as issues in the [Education Program Group](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program). Issues are stored in projects. A list of projects and descriptions can be [found here.](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program)
 
 
 #### Issue labels

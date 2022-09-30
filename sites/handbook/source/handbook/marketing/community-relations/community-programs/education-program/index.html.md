@@ -40,11 +40,11 @@ At GitLab, we believe that **every student and every teacher can contribute**! T
 | ------ | ------ |------|
 | [GitLab for Education Program](/solutions/education/)| Marketing page | Community facing page with program requirements, benefits, content, and application|
 | [GitLab Solutions for Education](/solutions/education/campus/)| Marketing page | Customer facing page presenting the different options for educational institutions to obtain a GitLab license|
-| [GitLab for Education](/handbook/marketing/community-relations/education-program/) | Handbook |  Information on how the GitLab for Education team operates and how to reach us.|
-| [Education Evangelism](/handbook/marketing/community-relations/education-program/education-evangelism) | Handbook |  Information on education evangelism processes and metrics.|
+| [GitLab for Education](/handbook/marketing/community-relations/community-programs/education-program/) | Handbook |  Information on how the GitLab for Education team operates and how to reach us.|
+| [Education Evangelism](/handbook/marketing/community-relations/community-programs/education-program/education-evangelism) | Handbook |  Information on education evangelism processes and metrics.|
 | [Community Programs Applications Workflows ](/handbook/marketing/community-relations/community-programs/community-program-applications/) | Handbook | Workflow for processing GitLab for Education Program applications.|
 | [GitLab for Campuses ](/handbook/product/packaging-and-pricing/gitlab-for-campuses/)| Handbook | Process and details for the GitLab for Campuses offering. |
-| [Education Conferences](/handbook/marketing/community-relations/education-program/education-conferences)| Handbook | Processes and details regarding conferences|
+| [Education Conferences](/handbook/marketing/community-relations/community-programs/education-program/education-conferences)| Handbook | Processes and details regarding conferences|
 
 
 ## <i class="fa fa-map-marker" aria-hidden="true"></i> Mission
@@ -69,11 +69,11 @@ The vision of the GitLab for Education Program is to enable educational institut
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> Where to find what we're working on
 
-GitLab for Education Program issues typically exist in the [Education Program subgroup](https://gitlab.com/gitlab-com/marketing/community-relations/education-program) of the [Community Relations Group](https://gitlab.com/gitlab-com/marketing/community-relations) but they can also exist in [Field Marketing](https://gitlab.com/gitlab-com/marketing/field-marketing), [Corporate Marketing](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing), or other [marketing subgroups](https://gitlab.com/gitlab-com/marketing).
+GitLab for Education Program issues typically exist in the [Education Program subgroup](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program) of the [Community Relations Group](https://gitlab.com/gitlab-com/marketing/community-relations) but they can also exist in [Field Marketing](https://gitlab.com/gitlab-com/marketing/field-marketing), [Corporate Marketing](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing), or other [marketing subgroups](https://gitlab.com/gitlab-com/marketing).
 
 ### OKR and KR Organization
 
-OKR Epics are located in the [Community Relations](https://gitlab.com/gitlab-com/marketing/community-relations) subgroup. We use the `Education Program` and the `OKR` label on each OKR epic. Each KR will be added as an issue to the [`EDU Key Results`](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/edu-key-results/-/issues) project within the [Education Program](https://gitlab.com/gitlab-com/marketing/community-relations/education-program) sub-group. Each KR issue should have a milestone and an assignee at the time of creation. If there is a question about who the DRI is for a KR, assign the Program Manager until a DRI is decided upon.
+OKR Epics are located in the [Community Relations](https://gitlab.com/gitlab-com/marketing/community-relations) subgroup. We use the `Education Program` and the `OKR` label on each OKR epic. Each KR will be added as an issue to the [`EDU Key Results`](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/edu-key-results/-/issues) project within the [Education Program](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program) sub-group. Each KR issue should have a milestone and an assignee at the time of creation. If there is a question about who the DRI is for a KR, assign the Program Manager until a DRI is decided upon.
 
 The roles, KR assignees, and other details should be covered in the first Education Team meeting (or 1-on-1) of each quarter. There, create a todo list for each member of the team to cover Milestones, KR Issues, and OKR Epics. This organization ensures a clear direction and performance for the quarter.
 
@@ -201,7 +201,7 @@ Children under the age of 13 are not permitted to use GitLab.com (SaaS Software)
 # <i class="far fa-newspaper" id="biz-tech-icons"></i>  GitLab for Non-Profits
 At this time, GitLab does not have a formal not-for-profit program. The primary reason is that the volume of applications to our current free programs takes up all of our bandwidth! We do generally see the value in non-profits and we hope to create some sort of a non-profit offering in the future.
 
-1. To stay up-to-date, you can subscribe to the [the non-profit issue](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/general/-/issues/17) by enabling notifications. To enable notifications, click the Notifications toggle in the sidebar to on.
+1. To stay up-to-date, you can subscribe to the [the non-profit issue](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/general/-/issues/17) by enabling notifications. To enable notifications, click the Notifications toggle in the sidebar to on.
 2. You can contribute your feedback.  
 
 We are not accepting requests for non-for-profit licensing as we iterate on our internal processes. Please revist this page for update.
@@ -219,5 +219,5 @@ Alumni are an important part of every school's community. If you'd like to reach
 * Email former professor you really liked and share information about our GitLab for Education Program. Email template coming soon.
 * Contact your alumni association about “Alumni updates" and share what you do at GitLab. 
 * Contact Student organizations you were in, especially if it's realted to tech in some way. 
-* Offer to visit your alma mater virtually to give an “Introduction to DevOps guest lecture” You can also refer them to an [Education Evangelist](/handbook/marketing/community-relations/education-program/education-evangelism)
+* Offer to visit your alma mater virtually to give an “Introduction to DevOps guest lecture” You can also refer them to an [Education Evangelist](/handbook/marketing/community-relations/community-programs/education-program/education-evangelism)
 
