@@ -23,13 +23,11 @@ directly with the product managers for Monitor:Observability, feel free to reach
 
 ### Mission
 
-Make data useful for every stage of the DevOps process.
+Make data collectable, meaningful, and feedback-ready for every stage of the DevOps process. 
 
 ### Vision
 
-GitLab users and customers use GitLab Observability to improve the outcome of their software investment. They process, store, manage, provide access to, query, visualize, collaborate on, and operationalize on data collected throughout the entire DevOps process. 
-
-The practice of observability is typically done for only production applications. Our vision is broader. How teams build software, how the software operates, and ultimately how users interface and use our software, all generate meaningful data that can help software teams to better infer the states of a system and thus make meaningful improvements. As such, we are aiming to build an observability capability that not only helps enable teams to ensure the health and performance of production systems, but also enable teams to continuously improve outcome in each stage of the DevOps process. 
+GitLab will empower users with early and continuous insight into the state and behavior of their software systems by leveraging ubiquitous telemetry data in unique fashion--not just in production, but across every stage of the DevOps process.
 
 ## Strategy
 
