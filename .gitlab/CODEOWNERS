@@ -696,8 +696,8 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 ^[Technical Writing]
 /sites/handbook/source/handbook/product/ux/technical-writing/ @susantacker @dianalogan @kpaizee
 /sites/handbook/source/handbook/documentation/ @susantacker @dianalogan @kpaizee
-/sites/uncategorized/source/job-families/engineering/technical-writer/ @susantacker @dianalogan @kpaizee
-/sites/uncategorized/source/job-families/engineering/technical-writing-manager/ @susantacker @dianalogan @kpaizee
+/sites/uncategorized/source/job-families/product/technical-writer/ @susantacker @dianalogan @kpaizee
+/sites/uncategorized/source/job-families/product/technical-writing-manager/ @susantacker @dianalogan @kpaizee
 /sites/handbook/source/handbook/style-guide/ @susantacker @dianalogan @kpaizee
 /sites/handbook/source/handbook/markdown-guide/ @susantacker @dianalogan @kpaizee
 /sites/handbook/source/includes/stages/tech-writing.html.haml @dianalogan @kpaizee

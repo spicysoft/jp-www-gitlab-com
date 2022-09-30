@@ -1,0 +1,30 @@
+---
+name: Annabel Dunstone Gray
+locality:
+country: Remote
+role: <a href="/job-families/product/product-designer/#senior-product-designer">Senior
+  Product Designer, Create:Code Review</a>
+reports_to: mvanremmerden
+picture: annabel.png
+twitter: annabeldunstone
+gitlab: annabeldunstone
+departments:
+- Engineering Function
+- UX Department
+- Dev UX Team
+- Create:Code Review
+projects:
+  design.gitlab.com: reviewer UX
+  gitlab: reviewer UX
+  gitlab-design: maintainer
+  gitlab-ui: reviewer UX
+expertise: <li><a href="https://docs.gitlab.com/ee/development/fe_guide/style_guide_scss.html">CSS</a>
+  <a href="/company/team/structure/#expert">expert</a></li>
+story: Annabel is a product designer (former frontend engineer) with a passion for
+  creating beautiful and functional applications. She has learned bits and pieces
+  of various languages during her career, but is most excited about JavaScript, SASS,
+  and Rails. In her free time she enjoys curling up with a good book, inventing cookie
+  recipes, and spending time with her wonderful family.
+specialty:
+- Create:Code Review
+
