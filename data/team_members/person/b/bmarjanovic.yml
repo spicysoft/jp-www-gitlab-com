@@ -18,7 +18,9 @@ departments:
 - Dev Section
 - Ecosystem:Integrations BE Team
 projects:
-  gitlab: trainee_maintainer backend
+  gitlab:
+  - trainee_maintainer backend
+  - reviewer backend
 specialty:
 - 'Ecosystem: Integrations'
 expertise:
