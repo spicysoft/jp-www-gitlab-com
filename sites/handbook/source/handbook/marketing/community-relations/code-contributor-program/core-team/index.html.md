@@ -75,8 +75,7 @@ A list of the up-to-date channels the Core should/have access to can be found in
 
 #### Slack channels Core Team can access
 <details>
-  <summary>Click to expand! Keep in mind, it's long!
-</summary>
+  <summary>Click to expand! Keep in mind, it's long!</summary>
 
   -	development
   -	gdk
@@ -139,8 +138,7 @@ A list of the up-to-date channels the Core should/have access to can be found in
 
 #### Slack channels Core Team cannot access
 <details>
-  <summary>Click to expand! Keep in mind, it's long!
-</summary>
+  <summary>Click to expand! Keep in mind, it's long!</summary>
   
   -	release-post
   -	security
