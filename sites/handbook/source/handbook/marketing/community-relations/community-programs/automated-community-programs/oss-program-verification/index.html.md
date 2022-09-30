@@ -12,7 +12,7 @@ description: "This page contains details regarding the process of verification f
 
 ## Overview
 
-This page contains details regarding the process of verifying applications for [GitLab for Open Source Program](/solutions/open-source/). Because the GitLab for Open Source Program is part of GitLab's [Community Programs](handbook/marketing/community-relations/community-programs/), team members verify applications by using the the seven-step [Community Programs Automation Workflow](/handbook/marketing/community-relations/community-programs/automated-community-programs/#automated-application-workflow). See the handbook page on that workflow for details that pertain to all GitLab community programs.
+This page contains details regarding the process of verifying applications for [GitLab for Open Source Program](/solutions/open-source/). Because the GitLab for Open Source Program is part of GitLab's [Community Programs](handbook/marketing/community-relations/community-programs/), team members verify applications by using the the seven-step [Community Programs Automation Workflow](/handbook/marketing/community-relations/community-programs/automated-community-programs). See the handbook page on that workflow for details that pertain to all GitLab community programs.
 
 ## Program application form
 
@@ -50,7 +50,7 @@ If you are accepted into the GitLab for Open Source Program, you will be subject
 
 Eligibility requirements for the GitLab for Open Source Program are listed in the [program's handbook page](/handbook/marketing/community-relations/opensource-program/). SheerID assists GitLab with reviewing program applications and ensuring applicants meet these program requirements.
 
-SheerID is not able to completely automate the [Verification phase](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-1-verification) of the application workflow for the GitLab for Open Source Program. This means the program manager and team members must verify applications with some amount of manual effort. However, while unable to fully automate the Verification phase, SheerID is able to make the reviewing process easier by doing the following:
+SheerID is not able to completely automate the [Verification phase](/handbook/marketing/community-relations/community-programs/automated-community-programs/#verification) of the application workflow for the GitLab for Open Source Program. This means the program manager and team members must verify applications with some amount of manual effort. However, while unable to fully automate the Verification phase, SheerID is able to make the reviewing process easier by doing the following:
 
 * Requesting screenshots to verify the project's publicly visible status and application of OSI-approved licenses
 * Asking the applicant to check a box to certify they are not seeking profit with their project
@@ -77,7 +77,7 @@ Members of GitLab's Community Programs team [have trained](https://about.gitlab.
 <i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59);"></i> Reviewers should be sure to check different views in the "Review Documents" section. A drop-down field takes reveals applications "On Hold" and "Escalated."
 {: .alert .alert-warning}
 
-Successfully verified applicants receive a welcome email containing a coupon code and instructions for activating their subscriptions. See the [Community Applications Workflow](/handbook/marketing/community-relations/community-programs/automated-community-programs/#coupon-codes) for additional details on what follows.
+Successfully verified applicants receive a welcome email containing a coupon code and instructions for activating their subscriptions. See the [Community Applications Workflow](/handbook/marketing/community-relations/community-programs/automated-community-programs) for additional details on what follows.
 
 If the GitLab review team is unable to determine the eligibility based on the screenshots that the applicant provided via the SheerID Review Portal, the GitLab review team will send a rejection email. The applicant can then choose to reach out to `opensource@gitlab.com` if they believe the rejection was sent in error, or if they have additional questions about eligibility.
 

@@ -1,7 +1,7 @@
 ---
 layout: handbook-page-toc
 title: "Community Programs Applications Automated Workflows"
-description: "This page describes the automated workflows for the GitLab for Education, GitLab for Open Source, and GitLab for Startups applications."  
+description: "This page describes automated workflows for processing applications to the GitLab for Education, GitLab for Open Source, and GitLab for Startups programs."
 ---
 
 ## On this page
@@ -10,126 +10,115 @@ description: "This page describes the automated workflows for the GitLab for Edu
 - TOC
 {:toc .hidden-md .hidden-lg}
 
+Community Programs workflows have been automated since FY23Q3. For details on the team's legacy workflows, see the 
+[Community Programs Legacy Application Workflow](/handbook/marketing/community-relations/community-programs/community-program-applications/) handbook.
+{: .alert .alert-warning}
 
-During 2022, we are transitioning to a fully automated process for our Community Programs Application Workflow. As we roll out the automation project in phases, we will use a **hybrid-method**. The hybrid method uses:
-The automated community programs workflow for the **Application**, **Verification**, and **Booking** phases.
-The [Community Programs Application Workflow](/handbook/marketing/community-relations/community-programs/community-program-applications/) for the **Renewal** phase.
-{: .alert .alert-gitlab-orange}
+## About
 
+The goals of this handbook page are to:
 
-## Overview
+* Provide an overview of the automated workflows the [Community Programs team](/handbook/marketing/community-relations/community-programs/) uses to process applications to [GitLab's community programs](/handbook/marketing/community-relations/community-programs/#what-is-a-community-program)
+* Provide detailed descriptions of each step in those workflows
+* Establish more transparency into our workflows so GitLab team members can integrate with them
 
-The goals of this page are to:
- * Provide an overview of the automated community programs applications workflows
- * Store details for each step of the automated workflow
- * Allow transparency into our workflows to help others integrate with it
+## Automated applications workflow overview
 
-## Automated Application workflow
+The Community Programs team partners with a third party, [SheerID](https://www.sheerid.com/shoppers/aboutsheerid/), to assist in processing applications to community programs.
+{: .alert .alert-warning}
 
-| Phase | Description |
+The Community Programs team processes applications to [GitLab's community programs](/handbook/marketing/community-relations/community-programs/#meet-the-programs) with a seven-stage workflow:
+
+| Stage | Description |
 | ------ | ------ |
-| 0. [Application](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-0-application) | SheerId hosted application form is filled out for OSS and EDU. Startups applicants fill out Marketo Form.|
-| 1. [Verification](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-1-verification) | Automated verification by SheerID for EDU. Document review for OSS. Manual verification for Startups.|
-| 2. [Booking](/handbook/marketing/community-relations/community-programs/community-program-applications/#phase-2-booking) | Success email directs applicant to a separate Community Programs  page for each program on the GitLab Customer Portal. Coupon code is entered during checkout. |
-| 3. [Provisioning](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-3-provisioning) | Licenses are provisioned through the web direct process on the GitLab Customer Portal.|
-| 4. [Compliance](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-4-compliance) | Handled by Sales-Support and Billing Ops. |
-| 5. [Renewal](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-5-renewal) | Program members will repeat the process within 3-months of renewal. The renewal process is manual at this time. |
-| 6. [Support](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-5-renewal) | Each step of the automated application workflow has different set of potential errors and support flow.|
+| 0. [Application](/handbook/marketing/community-relations/community-programs/automated-community-programs/#application) | Applicant completes an application form and submits it for eligibility verification. |
+| 1. [Verification](/handbook/marketing/community-relations/community-programs/automated-community-programs/#verification) | SheerID and/or Commuity Programs team verifies applicant's eligibility. |
+| 2. [Booking](/handbook/marketing/community-relations/community-programs/automated-community-programs/#booking) | Successfully verified applicants receive an email with instructions for activating complimentary GitLab licenses. Applicants receive coupon codes and enter those codes during checkout via a program-specific checkout page in the GitLab Customer Portal. |
+| 3. [Provisioning](/handbook/marketing/community-relations/community-programs/automated-community-programs/#provisioning) | Subscription licenses are provisioned through the web direct process on the GitLab Customer Portal. |
+| 4. [Compliance](/handbook/marketing/community-relations/community-programs/automated-community-programs/#compliance) | (Stage handled by Sales-Support and Billing Ops teams. |
+| 5. [Renewal](/handbook/marketing/community-relations/community-programs/automated-community-programs/#renewal) | Program members receive notifications when their subscriptions are due to expire. They also receive insturctions for renewing those subscriptions. |
+| 6. [Support](/handbook/marketing/community-relations/community-programs/automated-community-programs/#support) | Both new applicants and renewing members can seek support for issues they encounter during most stages of the application process. |
 
-## PHASE 0: Application
+## Application
 
-GitLab uses a third party vendor, [SheerID](https://www.sheerid.com/shoppers/aboutsheerid/), for verification services. SheerId builds and hosts the application forms for the GitLab for Education Program and the GitLab for Open Source Program. All communications (email and browser notifications) sent during the verification phase for these two programs are hosted and sent by SheerID.
+SheerID hosts [applications](/handbook/marketing/community-relations/community-programs/#meet-the-programs) for the GitLab for Open Education and GitLab for Open Source programs. All communications (email and browser notifications) sent during the verification phase for these two programs are hosted and sent by SheerID.
 
-The DRI for SheerID is Christina Hupy. The contract is renewed on an annual basis and is based on the total number of verifications across the two programs.
+SheerID provides [customer service](https://drive.google.com/file/d/13AW0BYt4HNFzGfM6iRuMtpjZ1J8tAXyI/view?usp=sharing) specific to GitLab. [MySheerID](https://my.sheerid.com/) is the customer portal for the verification system. The portal contains details on each application form, a reporting system, and account settings. Anyone requiring access to the MySheerID portal can request an account through an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
 
-[MySheerID](https://my.sheerid.com/) is the customer portal for the verification system. The portal contains details on each application form, a reporting system, and account settings. Anyone needing to access the MySheerId portal can request an account through an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+The [application](/handbook/marketing/community-relations/community-programs/#meet-the-programs) to GitLab for Startups is a Marketo form.
 
-SheerID Customer Service specific to GitLab can be found [here](https://drive.google.com/file/d/13AW0BYt4HNFzGfM6iRuMtpjZ1J8tAXyI/view?usp=sharing).
+The DRI for SheerID is Christina Hupy. We review GitLab's contract with SheerID on an annual basis. Costs are based on the total number of verifications across all programs.
+{: .alert .alert-warning}
 
-## PHASE 1: Verification
+## Verification
 
-The verification process differs by program. The GitLab for Education Program uses SheerId's automated service and documents are only forwarded to the Education team if SheerID cannot resolve the application. The GitLab for Open Source program applications are manually reviewed by GitLab team members in the SheerID document review portal.
-
-The verification process for each program can be found on the pages below:
+The verification process differs by program. See these handbook pages for more detail:
 
 - [GitLab for Education verification](/handbook/marketing/community-relations/community-programs/automated-community-programs/edu-program-verification/)
 - [GitLab for Open Source verification](/handbook/marketing/community-relations/community-programs/automated-community-programs/oss-program-verification/)
 - [GitLab for Startups verification](/handbook/marketing/community-relations/community-programs/automated-community-programs/startups-program-verification/)
 
+The links below contain helpful resources for navigating the SheerID review portal:
 
-### Sheer ID Training Materials
+* [Document review instructions](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/uploads/2369fc68e18a67c4c1aedf402b6fe116/How_to_Asset_Review.pdf)
+* [Customer service overview](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/uploads/82d879a5a2311e272b043b00215cabbb/GitLab_+_SheerID_-_CS_Overview.pdf)
+* [Hotkeys for quickly navigating the SheerID platform](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/uploads/a0a869d02959c9e33cb642244968a8e5/Doc_Review_2.0_hotkeys.pdf)
+* [Instructions for navigating the SheerID customer search portal](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/uploads/c52eae1c8e3d77f3991cf9051d0263f6/My.SheerID_Customer_Search_Tool_-_Updated_Dec_1_with_VRE___SPL_Rules.pdf)
 
-The links below contain helpful resources when navigating the SheerID review portal.
+Upon successful verification, applicants receive an email with instructions for obtaining their licenses. These instructions include a unique coupon code generated by the fulfillment team at GitLab (via a coupon code generator). The DRI for the coupon code generator is the [fulfillment team](https://about.gitlab.com/direction/fulfillment/). To generate new coupon codes, open an issue ([example](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3041)) in the `customers-gitlab-com` project.
 
-   1. Document review instructions: [How to Asset Review ](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/uploads/2369fc68e18a67c4c1aedf402b6fe116/How_to_Asset_Review.pdf)
-   1. Customer service overview: [Gitlab + SheerID CS Overview](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/uploads/82d879a5a2311e272b043b00215cabbb/GitLab_+_SheerID_-_CS_Overview.pdf)
-   1. Sheer ID hotkeys for quickly navigating the platform: [SheerID Hotkeys](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/uploads/a0a869d02959c9e33cb642244968a8e5/Doc_Review_2.0_hotkeys.pdf)
-   1. How to navigate the customer search portal within SheerID: [MySheerID Customer Search Tool](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/uploads/c52eae1c8e3d77f3991cf9051d0263f6/My.SheerID_Customer_Search_Tool_-_Updated_Dec_1_with_VRE___SPL_Rules.pdf)
+Additionally, note the following:
 
+* We store sensitive, program-specific codes [internally](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/-/issues/149); only Christina Hupy and Alex Karsten can access these codes.
+* SheerID provides coupon codes to Christina Hupy when requested via email to `productsupport@sheerid.com`.
+* SheerID provides codes in an individual .csv file specific to each program. The .csv file should only have one column, with no header.
+* SheerID provides sufficient coupon codes for one year of verifications for each program at a time. The number of coupon codes per year is determined using the following basic formula: `number of applications expected per quarter` + `number of expected renewals` * `an average re-verification factor`.
 
+## Booking
 
-### Coupon Codes
+The success email applicants receive contains a direct link to a program-specific page in the Customer Portal. These program-specific pages are *not* available directly in the GitLab Customer Portal; they are only accessible via links in success emails.
 
-Upon successful verification, the applicant will receive an email with instructions to obtain their license and a unique coupon code.
+During the checkout process:
 
-The coupon codes are generated by the fulfillment team at GitLab via a coupon code generator. The DRI for the coupon code generator is the [fulfillment team](https://about.gitlab.com/direction/fulfillment/).
-
-In order to generate new coupon codes, open an issue in the `customers-gitlab-com` project. Here is the [original issue](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3041) for details.
-
-**Coupon codes for SheerID:**
-
-Program specific codes are [stored internally](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/-/issues/149) and they can only be accessed by Christina Hupy and Alex Karsten due to their sensitive nature.
-
-Coupon codes are provided to SheerID by Christina Hupy via an email to productsupport@sheerid.com.
-
-The coupon codes are provided in an individual .csv for each program. The .csv should only have one column with no header. Enough coupon codes to cover one year of verifications for each program will be provided at a time.
-
-The number of coupon codes per year is determined by estimated the number of applications expected per quarter + the number of expected renewals * an average re-verification factor.  
-
-
-## PHASE 2: Booking
-
-The success email will contain a direct link to a program specific page for each of the three programs (EDU/OSS/YC) in the GitLab Customer Portal. The program specific pages are not available directly in the GitLab Customer Portal without the direct link. The applicant will need to enter the unique coupon code during the process. The links for the community specific customer portal are [here](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/-/issues/150).
-
-### Terms
-
-During the self-checkout process, the applicant will need to accept terms specific to the relevant program: [GitLab for Education Program Agreement](/handbook/legal/education-agreement/) or [GitLab for Open Source Agreement](/handbook/legal/opensource-agreement/). The GitLab for Startups Terms are presented directly upon checkout.  
+* Applicants must enter the unique coupon codes they receive in their verification emails
+* Applicants must accept a program agreement
+  * [GitLab for Education Program Agreement](/handbook/legal/education-agreement/)
+  * [GitLab for Open Source Agreement](/handbook/legal/opensource-agreement/)
+  * GitLab for Startups Agreement is presented directly upon checkout
 
 The GitLab for Startups Terms:
 
+```
 If you meet the requirements of the GitLab for Startups Program, you will be eligible to receive twelve (12) months Ultimate [SaaS or Self-Managed] at no cost, without Support. Renewal of the User(s) will be at the current published List Price. Your use of the GitLab Software is subject to the GitLab Subscription Agreement. Software is provided as “Free Software”.
+```
 
-## PHASE 3: Provisioning
+## Provisioning
 
-Licenses will be provisioned directly during process via the WebDirect flow.  
+Licenses are provisioned directly during process via the WebDirect flow.
 
+## Compliance
 
-## PHASE 4: Compliance
+Sales-Support and Billing Ops handle compliance-related issues. This stage results in granting the license and notifying the customer of how to access the licenses.
 
-Compliance is handled by Sales-Support and Billing Ops. This phase results in granting the license and notifying the customer of how to access the licenses.
+## Renewal
 
-## PHASE 5: Renewal
+Applicants renewing their program memberships must re-apply to their respective programs to ensure continued eligibility. To do this, they use [the same application forms](/handbook/marketing/community-relations/community-programs/#meet-the-programs) they used when initially enrolling in the program.
 
-The [renewal phase](https://gitlab.com/groups/gitlab-org/-/epics/5711) of the Community Efficiency Project is currently in progress. This work will add the ability to renew license upon successful verification directly in the GitLab Customers Portal via the program specific page.
-{: .alert .alert-warning}
+The success email will contain a direct link to a program-specific page for each program (Education/Open Source) in the GitLab Customer Portal. The program-specific pages are not available directly in the GitLab Customer Portal without the direct link. The applicant will need to enter the unique coupon code during the checkout process. Links for community-specific customer portal are [here](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/-/issues/169).
 
-Until the renewal phase is completed, the renewal process will remain as stated on the [Community Programs Applications Workflow](/handbook/marketing/community-relations/community-programs/community-program-applications/#phase-5-renewal) page.
+## Support
 
-
-## PHASE 6: Support
-
-Each step of the automated application workflow has different set of potential errors and support flow.
-
+Each step of the automated application workflow has different set of potential errors and related support workflows.
 
 |Phase|Source|Error|DRI|Action|
-|----|----|----|---|---|
-| Verification| SheerID Application| False Rejection EDU | SheerID  | Contact SheerID from Rejection Email.  |
-| Verification| SheerID Application| False Rejection OSS | @bbehr / OSS Program | Contact opensource@gitlab.com from rejection email |
-| Verification| SheerID Application | Never received success email. |SheerId | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
-| Verification| SheerID Application | Deletes success email. | SheerId | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
-| Verification| SheerID Application | Form not responding or something goes wrong with form. | SheerID | [Contact SheerID Support Team ](https://offers.sheerid.com/sheerid/help-center/?name=form-doesnt-work)|
-| Verification| SheerID Application | Applicant makes a case to SheerID that EDU rejection was in error but SheerID cannot resolve. | @c_hupy / EDU Program | SheerID emails education@gitlab.com with details. GitLab EDU team resolves. |
-|Booking| GitLab Customer Portal | Coupon Code has already been used. | GitLab Support |Error message on the portal. `The code has already been used.` There is no CTA on the portal, user will go back to email which directs them to open a support ticket under [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses)|  
-|Booking| GitLab Customer Portal | Coupon Code is invalid. | GitLab Support | Error message on the portal. `This code is not valid. Try re-entering the code from your email`. There is no CTA message on the portal, the user will go back to email which directs them to open a support ticket under [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses)|
-|Fulfillment| GitLab Customer Portal | Any problems with Customer Portal itself after coupon code succeeds.| GitLab Support | Open Support Ticket [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) )|
-|Fulfillment| GitLab Customer Portal | If the applicant enters the incorrect number of seats or choses the incorrect hosting type (self-managed or Saas) and the license has already been granted, the application will need to obtain an [add on quote to change](/handbook/sales/field-operations/sales-operations/deal-desk/#a--add-on-quote-creation) the license parameters |Community Programs| Email education@gitlab.com, opensource@gitlab.com or startups@gitlab.com requesting changes |.
+|-----|------|-----|---|------|
+| Verification | SheerID Application| False Rejection EDU | SheerID  | Contact SheerID from Rejection Email.  |
+| Verification | SheerID Application| False Rejection OSS | [@bbehr](https://gitlab.com/bbehr) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
+| Verification | SheerID Application | Never received success email | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
+| Verification | SheerID Application | Deletes success email. | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
+| Verification | SheerID Application | Form not responding or something goes wrong with form. | SheerID | [Contact SheerID Support Team ](https://offers.sheerid.com/sheerid/help-center/?name=form-doesnt-work)|
+| Verification | SheerID Application | Applicant makes a case to SheerID that EDU rejection was in error but SheerID cannot resolve. | [@c_hupy](https://gitlab.com/c_hupy) / Education Program team | SheerID emails education@gitlab.com with details. GitLab EDU team resolves. |
+| Booking | GitLab Customer Portal | Coupon Code has already been used | GitLab Support |Error message on the portal. `The code has already been used.` There is no CTA on the portal, user will go back to email which directs them to open a support ticket under [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses)|
+| Booking | GitLab Customer Portal | Coupon Code is invalid | GitLab Support | Error message on the portal. `This code is not valid. Try re-entering the code from your email`. There is no CTA message on the portal, the user will go back to email which directs them to open a support ticket under [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) |
+| Fulfillment | GitLab Customer Portal | Any problems with Customer Portal itself after coupon code succeeds.| GitLab Support | Open Support Ticket [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) )|
+| Fulfillment | GitLab Customer Portal | If the applicant enters the incorrect number of seats or choses the incorrect hosting type (self-managed or Saas) and the license has already been granted, the application will need to obtain an [add on quote to change](/handbook/sales/field-operations/sales-operations/deal-desk/#a--add-on-quote-creation) the license parameters | Community Programs | Email `education@gitlab.com`, `opensource@gitlab.com`, or `startups@gitlab.com` requesting changes |
