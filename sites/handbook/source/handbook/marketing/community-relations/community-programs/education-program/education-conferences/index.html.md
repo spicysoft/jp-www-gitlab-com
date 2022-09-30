@@ -66,7 +66,7 @@ The venue will provide details on shipping and handling for the booth assets.
 - Check the estimated shipping times in order to ensure the package arrives at the proper time. Note that many venues charge per day to hold packages and will only keep them for a set number of days. 
 ### Pre conference
 
-Before the conference begins, create an issue in the Education project [Outreach](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/outreach/-/issues) titled `Name of Conference Location Date` and make it confidential. Assign attendees of the conference to the issue. Inside comments, create several comment threads including Flights, Hotel, Booth Assets, Swag, and any other planning threads as necessary. Use this issue for all planning related to the execution of the conference booth and/or talk or presentation. If there is no booth, still coordinate in the issue with threads relevant to whatever the team has planned for this event. 
+Before the conference begins, create an issue in the Education project [Outreach](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/-/issues) titled `Name of Conference Location Date` and make it confidential. Assign attendees of the conference to the issue. Inside comments, create several comment threads including Flights, Hotel, Booth Assets, Swag, and any other planning threads as necessary. Use this issue for all planning related to the execution of the conference booth and/or talk or presentation. If there is no booth, still coordinate in the issue with threads relevant to whatever the team has planned for this event. 
 
 ### At Conference
 

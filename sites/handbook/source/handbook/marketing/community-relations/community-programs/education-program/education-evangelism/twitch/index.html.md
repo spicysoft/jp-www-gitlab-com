@@ -44,7 +44,7 @@ Using Twitch as part of the Education program involves using an Education Evange
 
 ## Meet the Tanukis
 
-If you are a GitLab team member and you would like to join an episode of ["Meet the Tanukis"](), please create an issue with the [`edu_twitch_internal_request` template](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/outreach/-/issues/new?issuable_template=edu_twitch_internal_request).
+If you are a GitLab team member and you would like to join an episode of ["Meet the Tanukis"](https://dev.to/metzinaround/series/14323), please create an issue with the [`edu_twitch_internal_request` template](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/-/issues/new?issuable_template=edu_twitch_internal_request).
 
 ### Goals
 
@@ -64,7 +64,7 @@ The host should schedule a meeting with the guest some time before show itself t
 
 ## After the Stream
 
-It's important to keep track of what must be done after a show. Are you using the stream for more content? Did you upload it to youtube? In order to keep track of what has been done after a stream, use the issue template [`edu_twitch_template`](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/outreach/-/blob/main/.gitlab/issue_templates/edu_twitch_template.md). It asks you if you have created an article based on the stream. This is not necessary, but if you do you should link it here. The four other checkboxes are to remind you to upload it to the GitLab Unfiltered page, that you add it to a playlist for the show, post the link to the Youtube video in slack and post it on twitter as well.
+It's important to keep track of what must be done after a show. Are you using the stream for more content? Did you upload it to youtube? In order to keep track of what has been done after a stream, use the issue template [`edu_twitch_template`](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/-/blob/main/.gitlab/issue_templates/edu_twitch_template.md). It asks you if you have created an article based on the stream. This is not necessary, but if you do you should link it here. The four other checkboxes are to remind you to upload it to the GitLab Unfiltered page, that you add it to a playlist for the show, post the link to the Youtube video in slack and post it on twitter as well.
 
 There is also a dev.to series article checkbox. This is done in order to have a single area that fans and viewers can access all the episodes, articles, and information about the show [Meet the Tanukis](https://dev.to/metzinaround/series/14323) in one location. It's a regular dev.to article that is named after the show and contains links to all the content for each guest. The final action to complete is posting the video in the [education impressions excel sheet](https://docs.google.com/spreadsheets/d/1k1ci9BPEDDb_CxrR9-uQ_YQD_UXBMDeAU-KTpfQfHD4/edit?usp=sharing).
 
