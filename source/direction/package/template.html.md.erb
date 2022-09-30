@@ -12,18 +12,11 @@ canonical_path: "/direction/package/"
 
 ### What's next and why
 
-Every day the container registry is used to publish and install hundreds of thousands of images. With the implementation of online garbage collection complete, we will focus on testing, deployment, and migration to the new registry. You can follow that work in [GitLab-#5523](https://gitlab.com/groups/gitlab-org/-/epics/5523). In the next month, we intend to complete the migration of the [Premium and Ultimate tiers](https://gitlab.com/gitlab-org/gitlab/-/issues/364566).
+Every day the container registry is used to publish and install hundreds of thousands of images. With the implementation of online garbage collection complete, we will focus on testing, deployment, and migration to the new registry. You can follow that work in [GitLab-#5523](https://gitlab.com/groups/gitlab-org/-/epics/5523). In the next month, we intend to complete the migration of the [GitLab.com Container Registry](https://gitlab.com/groups/gitlab-org/-/epics/5523).
 
-For the Package Registry, we we have a few technical investigations planned that will help unblock work in the second half of 2022.
+For the Package Registry, I'm excited to say that we are finishing up work on a new feature for Maven and Gradle. [GitLab-#8081](https://gitlab.com/groups/gitlab-org/-/epics/8081) will introduce a new feature that will automatically forward requests for Java pacakges not found in your GitLab project to [Maven Central](https://mvnrepository.com/repos/central). We will also add a new setting via [GitLab-#360487](https://gitlab.com/gitlab-org/gitlab/-/issues/360487) that will allow you to toggle this feature on and off. This new setting will also work for PyPI and npm request forwarding.
 
-- [GitLab-#898726](https://gitlab.com/gitlab-org/gitlab/-/issues/298726) will investigate how we can make it easier to migrate from Artifactory to GitLab.
-- [GitLab-#296785](https://gitlab.com/gitlab-org/gitlab/-/issues/296785) will investigate how to add support for RPM Linux packages.
-- [GitLab-#328738](https://gitlab.com/gitlab-org/gitlab/-/issues/328738) will investigate how to add package usage data to GitLab.
-
-For the Dependency Proxy, we will resolve two bugs that are preventing some users from using the feature.
-
-- [GitLab-#352551](https://gitlab.com/gitlab-org/gitlab/-/issues/352551) will resolve an issue in which the feature is not working with Azure storage.
-- [GitLab-#332411](https://gitlab.com/gitlab-org/gitlab/-/issues/332411) will resolve an issue where project access tokens are not working as an authentication mechanism.
+We don't have any issues scheduled for the Dependency Proxy.
 
 ### Helpful links
 
