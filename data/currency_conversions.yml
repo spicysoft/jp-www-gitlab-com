@@ -12,6 +12,12 @@ currency_rates:
     symbol: A$
     countries:
       - Australia
+  - currency_code: AED
+    rate_from_usd: 3.6738
+    rate_to_usd: 0.2722
+    symbol: د.إ
+    countries:
+      - United Arab Emirates
   - currency_code: BRL
     rate_from_usd: 5.37346
     rate_to_usd: 0.1861
