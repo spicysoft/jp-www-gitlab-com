@@ -41,7 +41,7 @@ A. Yes, GitLab Ultimate Trial and Premium Trial will receive entitlements from G
 A. Yes, the change is applicable to both public and private projects. Free tier users using GitLab for public open source projects should consider applying for the [GitLab for Open Source program](/solutions/open-source/), which provides access to the GitLab Ultimate features and entitlements for free.
 
 **Q. What is the effective date of the changes?**  
-A. For existing free tier users, storage limits will not be applied before **2022-10-19**.
+A. For existing free tier users, storage limits will not be applied before 2022-10-19, and [storage management improvements](https://gitlab.com/gitlab-org/gitlab/-/issues/375296) are available. We intend to roll out application of these limits gradually, impacted users will be notified in-app at least 60 days prior to the storage limits being applied.
 
 ### Managing your Storage Usage
 
@@ -66,7 +66,7 @@ A. Below you will find steps for managing the different storage types:
 - Wikis: Wikis follow the same process as [reducing repository size](https://docs.gitlab.com/ee/administration/wikis/index.html#reduce-wiki-repository-size).
 
 **Q: How can I automate storage usage analysis and cleanup?**
-A: You can use the [GitLab API](https://docs.gitlab.com/ee/api/) to programmatically view and delete storage data types. There are [programming language libraries](https://about.gitlab.com/partners/technology-partners/#api-clients) available that can help with easy-to-use interfaces, for example listing and deleting job artifacts using the [Python library for GitLab](https://python-gitlab.readthedocs.io/en/stable/gl_objects/pipelines_and_jobs.html#jobs). A script based on the Python library has been developed by the GitLab Developer Evangelism team [in this project](https://gitlab.com/gitlab-de/gitlab-storage-analyzer). This MIT-licensed script is not officially supported by GitLab and comes without warranty. 
+A: You can use the [GitLab API](https://docs.gitlab.com/ee/api/) to programmatically view and delete storage data types. There are [programming language libraries](https://about.gitlab.com/partners/technology-partners/#api-clients) available that can help with easy-to-use interfaces, for example listing and deleting job artifacts using the [Python library for GitLab](https://python-gitlab.readthedocs.io/en/stable/gl_objects/pipelines_and_jobs.html#jobs). A script based on the Python library has been developed by the GitLab Developer Evangelism team [in this project](https://gitlab.com/gitlab-de/gitlab-storage-analyzer). This MIT-licensed script is not officially supported by GitLab and comes without warranty.
 
 **Q. How will the storage limits affect me when I’m contributing to another project?**  
 A. Forks of projects get deduplicated, so only the changes you make will contribute to your storage consumption as long as the fork relationship is maintained.
@@ -74,8 +74,7 @@ A. Forks of projects get deduplicated, so only the changes you make will contrib
 ### Purchasing additional Storage
 
 **Q. How much does it cost to buy additional Storage units?**  
-A. Additional units can be purchased from the [GitLab Customer Portal](https://customers.gitlab.com/) at $60/year for 10GB of storage. More details [here](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#purchase-more-storage-and-transfer). 
-For example:
+A. Additional units can be purchased from the [GitLab Customer Portal](https://customers.gitlab.com/) at $60/year for 10GB of storage. More details [here](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#purchase-more-storage-and-transfer). For example:
 
 - If you require 15GB storage, you will pay $120 for the year.
 - If you have purchased 5 add-ons, you will be entitled to 50GB storage
@@ -103,17 +102,17 @@ A. No. These user limits do not apply to Trials during the trial period.
 **Q. Do these changes apply to public projects as well?**  
 A. No, these changes are applicable to top-level namespaces with private visibility. At this time, public projects in a top-level namespace with public visibility do not have a user limit. If you're a public open source project, you should consider applying for the [GitLab for Open Source Program](/solutions/open-source/), which provides access to the GitLab Ultimate features and entitlements for free.
 
-**Q. What happens if I change the top-level visibility from private to public?**
-A. The namespace is [publicly visible](https://docs.gitlab.com/ee/user/public_access.html), this includes information such as members, issues, and merge requests. The namespace will be indexed by search engines. 
+**Q. What happens if I change the top-level visibility from private to public?**  
+A. The namespace is [publicly visible](https://docs.gitlab.com/ee/user/public_access.html), this includes information such as members, issues, and merge requests. The namespace will be indexed by search engines.
 
-**Q. Do these changes apply to private projects within a top-level namespace with public visibility?**
+**Q. Do these changes apply to private projects within a top-level namespace with public visibility?**  
 A. User limits are currently applied based on the visibility of the top-level namespace. We will monitor how top-level namespaces with public visibility are using private projects to identify whether any limits on such projects are needed.
 
 **Q. When are these changes effective?**  
-A. The new user limit on the free SaaS tier will not be applied before 2022-10-19 to new and existing free SaaS top-level namespaces with private visibility.
+A. User limits will not be applied before 2022-10-19 to top-level namespaces with private visibility on GitLab SaaS. We intend to roll out application of these limits gradually, impacted users will be notified in-app at least 60 days prior to the user limits being applied.
 
 **Q. Will I be personally notified of the changes?**  
-A. Namespaces impacted by this change will receive an in-product notification in the coming weeks. Those who do not engage with the in-app notification will also receive an email notification approximately four weeks prior to the effective date.
+A. We intend to roll out application of these limits gradually, impacted users will be notified in-app at least 60 days prior to the user limits being applied.
 
 ### Managing User Limits (Free tier only)
 
@@ -132,7 +131,7 @@ A. If your project is not located within a group, you can manage the users in ea
 GitLab strongly encourages personal projects to be moved into Groups which will allow these projects to access all GitLab features as well as give you the ability to manage all users from the Usage Quotas page, start a trial, and purchase a subscription.
 
 **Q. What happens if I don’t reduce my user count before the date they're applied?**  
-A. When the 5-user limit is applied to top-level namespaces with private visibility, only the most recently active 5-users can continue to access the namespace. The remaining users will be moved to the over-limit user state. These users will not be able to access the namespace. The namespace owner will be able to manage users from the Usage Quotas page - including deleting users, moving users from over-limit to active and vice versa.
+A. When the 5-user limit is applied to top-level namespaces with private visibility, namespaces exceeding the user limit will be placed in a read only state. These namespaces exceeding the user limit will continue to have read access but will be unable to write any new data. This applies to all types of storage including Repository, LFS, Packages, and Registry.
 
 **Q. How can I add users beyond the limit of 5 users?**  
 A. The free tier has a limit of 5 users on top-level namespaces with private visibility which cannot be increased. GitLab recommends the paid tiers - Premium or Ultimate - for larger teams as there are no user limits and they contain features designed to increase your team’s productivity. We recommend starting a [free trial](https://gitlab.com/-/trial_registrations/new?glm_source=about.gitlab.com&glm_content=storage-usage-blog-post) of GitLab Ultimate to experience the value of the paid features while also getting access to unlimited users for the trial period.
@@ -157,8 +156,7 @@ As previously announced, [all free tier public projects will not receive Ultimat
 A. These changes are applicable to users with public projects on the free tier of GitLab SaaS. These changes do not apply to self-managed free and paid tier users, SaaS paid tier users, and community programs - including GitLab for Open Source, Education and Startups users.
 
 **Q. What is the effective date of the changes?**  
-A. The CI/CD limits on public projects will be applicable for all users including paid and free tier with public projects starting June 1, 2022.  
-Public projects on the free tier will stop receiving Ultimate entitlements by default starting July 1, 2022.  
+A. The CI/CD limits on public projects will be applicable for all users including paid and free tier with public projects starting 2022-06-01. Public projects on the free tier will stop receiving Ultimate entitlements by default starting 2022-07-01.
 
 **Q. How can I retain the Ultimate entitlements for my public projects?**  
 A. There are two ways:
@@ -179,8 +177,8 @@ Watch this deep dive video on how you can manage your CI/CD Minutes usage.
 </figure>
 <!-- blank line -->
 
-**Q. What exactly is a CI/CD minute and how is it calculated?**
-A. CI/CD minutes are calculated using a formula that includes the CI/CD job duration and an applied cost factor. Please refer to the [documentation](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#how-cicd-minute-usage-is-calculated) to learn more. 
+**Q. What exactly is a CI/CD minute and how is it calculated?**  
+A. CI/CD minutes are calculated using a formula that includes the CI/CD job duration and an applied cost factor. Please refer to the [documentation](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#how-cicd-minute-usage-is-calculated) to learn more.
 
 **Q. I am an active contributor to GitLab. Will the same limits be applicable to me as well?**  
 A. All free tier users receive 50,000 CI/CD minutes for running pipelines on public forks of public open source projects, like GitLab. Contributions to all other projects by free tier users are subject to the new limits.
