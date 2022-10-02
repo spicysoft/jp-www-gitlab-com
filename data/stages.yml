@@ -153,46 +153,6 @@ stages:
         pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039162
         pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=11173918
 
-      optimize:
-        name: Optimize
-        pm: Haim Snir
-        focus: Manage Optimize GMAU
-        pmm: Aathira Nair
-        cm: Suri Patel
-        em: Brandon Labuschagne (Interim)
-        be_team_tag: Manage:Optimize BE Team
-        fe_team_tag: Manage:Optimize FE Team
-        support: TBD
-        pdm:
-          - Blair Christopher
-        ux:
-          - TBD
-        uxr:
-          - Anne Lasch
-        tech_writer: Fiona Neill
-        sets:
-          - TBD
-        appsec_engineer: Nick Malcolm
-        cs_team_tag: Analytics Group CS Stable Counterpart
-        internal_customers:
-          - department: Engineering Department
-            dri: TBD
-          - department: Product Department
-            dri: TBD
-          - department: Quality Department
-            dri: TBD
-          - department: Development Department
-            dri: TBD
-        categories:
-          - devops_reports
-          - value_stream_management
-        usage_driver_score: 2
-        asp_driver_score: 2
-        sam_driver_score: 3
-        group_link: product/categories/#value-stream-management-group
-        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039390
-        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039413
-
   plan:
     display_name: "Plan"
     marketing: true
@@ -343,6 +303,46 @@ stages:
         pi_pgmau: https://app.periscopedata.com/app/gitlab/634539/?widget=11465457
         analyst_reports: https://drive.google.com/drive/u/1/search?ths=true&q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20requirements%20jmanagement
         comp_comparison: https://about.gitlab.com/devops-tools/microfocus-alm-octane-vs-gitlab/
+
+      optimize:
+        name: Optimize
+        pm: Haim Snir
+        focus: Manage Optimize GMAU
+        pmm: Aathira Nair
+        cm: Suri Patel
+        em: Brandon Labuschagne (Interim)
+        be_team_tag: Manage:Optimize BE Team
+        fe_team_tag: Manage:Optimize FE Team
+        support: TBD
+        pdm:
+          - Blair Christopher
+        ux:
+          - TBD
+        uxr:
+          - Anne Lasch
+        tech_writer: Fiona Neill
+        sets:
+          - TBD
+        appsec_engineer: Nick Malcolm
+        cs_team_tag: Analytics Group CS Stable Counterpart
+        internal_customers:
+          - department: Engineering Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Quality Department
+            dri: TBD
+          - department: Development Department
+            dri: TBD
+        categories:
+          - devops_reports
+          - value_stream_management
+        usage_driver_score: 2
+        asp_driver_score: 2
+        sam_driver_score: 3
+        group_link: product/categories/#value-stream-management-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039390
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039413
 
   create:
     display_name: "Create"
