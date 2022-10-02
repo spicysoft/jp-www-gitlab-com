@@ -1,0 +1,13 @@
+---
+features:
+  secondary:
+  - name: "Update default insights config file to include DORA"
+    available_in: [ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: hsnir1
+    stage: plan
+    categories: []
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/371867'
+    description: |
+      <!-- What is the problem and solution you're proposing? This content sets the overall vision for the feature and serves as the release notes that will populate in various places, including the [release post blog](https://about.gitlab.com/releases/categories/releases/) and [Gitlab project releases](https://gitlab.com/gitlab-org/gitlab/-/releases). " -->
