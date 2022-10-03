@@ -2572,12 +2572,12 @@ workflow_automation:
   description: "Automatic generation of new Issues and merge requests as well as automatic labeling and label tracking. This includes identifying and assigning code reviewer assignments automatically. Our customers are looking for us to help them streamline their processes and deliver their software faster. This is our first focus as we can easily dogfood these capabilities as they are implemented."
   maturity: minimal
   available: 2021-03-22
-  viable: 2022-06-22
+  viable: 2022-11-22
   complete: 2023-06-22
   lovable: 2024-12-22
   marketing: false
-  dogfooding_status: Planned
-  dogfooding_issue: https://gitlab.com/gitlab-org/gitlab/-/issues/332873
+  dogfooding_status: minimal
+  dogfooding_issue: https://gitlab.com/gitlab-org/gitlab/-/issues/375624
 
 intel_code_security:
   name: "Intelligent Code Security"
