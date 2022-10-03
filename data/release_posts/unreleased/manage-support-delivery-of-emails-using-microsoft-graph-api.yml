@@ -8,7 +8,7 @@ features:
     reporter: hsutor
     stage: manage
     categories:
-    - Authentication and Authorization
+    - System Access
     epic_url: 'https://gitlab.com/groups/gitlab-org/-/epics/8259'
     mr_url: 'https://gitlab.com/gitlab-org/gitlab/-/merge_requests/97372'
     description: |
