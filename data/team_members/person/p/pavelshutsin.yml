@@ -15,23 +15,23 @@ departments:
 - Dev Section
 - Plan:Optimize BE Team
 projects:
-  gitlab: 
-    - maintainer backend
-    - reviewer database
-    - maintainer database
+  gitlab:
+  - maintainer backend
+  - reviewer database
+  - maintainer database
 story: 'Pavel is a Ruby developer with strong thirst of making fast, stable, secure
-  and flexible software. As a hobby Pavel does snowboarding, plays basketball,
-  drives real and virtual racing cars.
+  and flexible software. As a hobby Pavel does snowboarding, plays basketball, drives
+  real and virtual racing cars.
 
   '
 specialty:
-  - 'Plan: Optimize'
+- 'Manage: Optimize'
 domain_experise:
-  - ruby
-  - rails
-  - rest_api
-  - graphql
-  - postgres
+- ruby
+- rails
+- rest_api
+- graphql
+- postgres
 expertise: |
   <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge Request Buddy</a></li>
   <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
