@@ -3,7 +3,7 @@ name: Matej Latin
 locality:
 country: Remote
 role: <a href="/job-families/product/product-designer/">Senior Product Designer,
-  Growth</a>
+  <a href="/job-families/product/product-designer/">Senior Product Designer</a>
 reports_to: jackibauer
 picture: matejlatin.png
 twitter: matejlatin
@@ -18,10 +18,7 @@ projects:
   gitlab: reviewer UX
   gitlab-ui: reviewer UX
 specialty:
-- 'Growth: Adoption'
 - " Growth: Activation"
-- " Growth: Expansion"
-- " Growth: Conversion"
 expertise: Registration Flow and Free Trial Flow, <li>Visual Design <a href="/company/team/structure/#expert">expert</a></li>
 remote_story: 'I started my design career as a freelancer working remotely with companies
   worldwide but I had always wanted to work in a full-time, on-site design position.
