@@ -19,6 +19,8 @@ Stack Overflow is a place for questions, discussions, and support on all things 
 
 ## Stack Overflow GitLab Collective
 
+***Note:** The sponsorship for Stack Overflow's GitLab Collective concluded on September 30, 2022 and the GitLab Collective was decomissioned. All of knowledge and submissions shared by our community will be retained. Articles and answers to questions about GitLab will be decoupled from the Collective and continue to exist in the public Stack Overflow knowledge base. For more details on decommissioning, visit [this Stack Overflow article](https://stackoverflow.com/help/collectives-decommissioned).*
+
 The [GitLab Collective on Stack Overflow](https://stackoverflow.com/collectives/gitlab) groups content related to GitLab in one place. The GitLab Collective creates a space to engage with our community on Stack Overflow though questions, answers, knowledge articles, and bulletins.
 
 To request the `GitLab Employee` role, ping `@community-team` in the `#community-relations` Slack channel, and include your Stack Overflow username.
