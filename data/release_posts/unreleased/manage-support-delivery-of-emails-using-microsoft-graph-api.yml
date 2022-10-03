@@ -15,6 +15,6 @@ features:
       If you've enabled security defaults in Azure AD,
       [legacy authentication protocols for SMTP are blocked](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#block-legacy-authentication-protocols).
 
-      You can configure your GitLab instance to deliver emails using
+      You can now configure your GitLab instance to instead deliver emails using
       [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/api/user-sendmail)
       with [OAuth 2.0 client credentials flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
