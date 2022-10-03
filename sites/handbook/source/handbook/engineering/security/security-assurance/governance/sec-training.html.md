@@ -39,13 +39,14 @@ Applies to all GitLab team members, contractors, consultants, vendors and other 
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
 ## Procedure
-All GitLab Team members are required to participate in General Security Awareness Training, New Hire Training and on-going phishing simulations and training.  Security Trainings that require participation include the following:
+All GitLab Team members are required to participate in New Hire Security training, Annual General Security Awareness Training, and on-going phishing simulations and training.  Security Trainings that require participation include the following:
 
-### New Hire Security Training
-[New Hire Security Training](https://about.gitlab.com/handbook/security/#new-hire-security-training) is required to be completed by all GitLab Team Members during their onboarding at GitLab and [annually thereafter](https://about.gitlab.com/handbook/engineering/security/security-assurance/governance/sec-awareness-training.html).  This security training provides new hires with the knowledge to identify cybersecurity threats, vulnerabilities, and attacks.
+### GitLab Security Awareness Training
+Security awareness training is provided by [ProofPoint](https://gitlab.ws01-securityeducation.com/), GitLab's third-party provider, and requires participation and completion by all GitLab team members.
 
-### General Security Awareness Training (GSAT)
-The GitLab [security awareness training program](https://about.gitlab.com/handbook/engineering/security/security-assurance/governance/sec-awareness-training.html) provides ongoing training to GitLab team members that enhances knowledge and identification of cybersecurity threats, vulnerabilities, and attacks as well as satisfying external regulatory requirements and bolster customer assurance. General Security Awareness Training is provided annually by [ProofPoint](https://gitlab.ws01-securityeducation.com/), GitLab's third-party provider, and requires participation and completion by all GitLab Team Members.
+[New Hire Security training](https://about.gitlab.com/handbook/security/#gitlab-security-awareness-training) is required to be completed by all GitLab team members during their onboarding at GitLab. This security training provides new hires with the knowledge to identify cybersecurity threats, vulnerabilities and attacks.
+
+[Annual Security Awareness training](https://about.gitlab.com/handbook/engineering/security/security-assurance/governance/sec-awareness-training.html) provides ongoing training to GitLab team members that enhances knowledge and identification of cybersecurity threats, vulnerabilities and attacks as well as satisfying external regulatory requirements and bolster customer assurance.  
 
 ### Phishing Training
 The GitLab [Phishing Training Program](https://about.gitlab.com/handbook/engineering/security/security-assurance/governance/phishing.html) is designed to educate and evaluate GitLab's ability to detect and prevent phishing attempts.  Ongoing [phishing simulations and trainings](https://about.gitlab.com/handbook/security/#phishing-tests) are conducted at a minimum, once per quarter, by [ProofPoint](https://gitlab.ws01-securityeducation.com/), GitLab's third-party provider, and requires participation and completion by all assigned GitLab Team Members.
