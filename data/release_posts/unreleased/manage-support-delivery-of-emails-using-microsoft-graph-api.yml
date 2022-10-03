@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Support delivery of emails using Microsoft Graph API with OAuth 2.0 client credentials flow"
+  - name: "Deliver emails using Microsoft Graph API with client credentials flow"
     available_in: [core, premium, ultimate]
     gitlab_com: false
     documentation_link: 'https://docs.gitlab.com/omnibus/settings/microsoft_graph_mailer.html'
