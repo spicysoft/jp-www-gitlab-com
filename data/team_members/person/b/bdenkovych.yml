@@ -14,7 +14,7 @@ departments:
 - Dev Section
 - Manage:Authentication and Authorization BE Team
 projects:
-  gitlab: reviewer backend
+  gitlab: maintainer backend
 domain_expertise:
 - ruby
 - rails
