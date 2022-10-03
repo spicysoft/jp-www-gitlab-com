@@ -1,0 +1,20 @@
+---
+features:
+  secondary:
+  - name: "Add 'commit email' user attribute to the API model for users, ensure it
+      is writeable via the REST API"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: hsutor
+    stage: manage
+    categories:
+    - User Management
+    - User Profile
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/375148'
+    description: |
+      <!-- What is the problem and solution you're proposing? This content sets the overall vision for the feature and serves as the release notes that will populate in various places, including the [release post blog](https://about.gitlab.com/releases/categories/releases/) and [Gitlab project releases](https://gitlab.com/gitlab-org/gitlab/-/releases). " -->
+
+      In the Drupal community we provision contributor user accounts in our GitLab instance (git.drupalcode.org) automatically from their Drupal.org user accounts. In the past, we used Drupal.org to manage multiple email accounts per user, and to provide a no-reply 'private' commit email. We would like to migrate multiple email account handling to GitLab, but at the same time we want to be able to bulk set the public commit_email of users to the GitLab provided no-reply address to preserve privacy.
+
+      Unfortunately, the user api does not seem to provide the capability to set the commit_email property.
