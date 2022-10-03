@@ -51,7 +51,7 @@ Please be sure to complete **all** of the requested information in the template,
 The Field Security Team also maintains the following resources for **GitLab Team Members** to collaborate with us!
 <div class="flex-row" markdown="0" style="height:80px">
        <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/field-security/-/issues/new?issuable_template=customer%20feedback" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Customer Feedback</a>
-       <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/field-security/-/issues/new?issuable_template=general%20request" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">General Request</a>
+       <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/field-security/-/issues/new?issuable_template=internal%20feedback%20request" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Internal Feedback</a>
        <a href="/handbook/engineering/security/security-assurance/field-security/answerbase.html" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">AnswerBase</a>
 </div>   
 <br>
