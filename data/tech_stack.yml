@@ -194,19 +194,19 @@
   provisioner: "@tmccaslin, @jstava, @jayswain"
   deprovisioner: "@tmccaslin, @jstava, @jayswain"
   group_owner_slack_channel: '#g_anti-abuse'
-  business_owner: Taylor McCaslin
+  business_owner: Jensen Stava
   technical_owner: Jay Swain
   data_classification: Orange
-  integration_method: 'Direct Access'
+  integration_method: Okta
   need_move_to_okta: null
   critical_systems_tier: Tier 1 Business
   compliance_scope:
   collected_data: "Access device metadata https://www.arkoselabs.com/legal/privacy-policy/#categories-of-personal-data-we-collect"
   processing_customer_data: null
   employee_or_customer_facing_app: employee
-  notes: null
+  notes: Arkose support tickets for GitLab accessed at https://support.arkoselabs.com/hc/en-us/requests/organization
   saas: true
-  handbook_link: null
+  handbook_link: https://docs.gitlab.com/ee/integration/arkose.html
   google_group: null
 
 - title: AuditBoard
