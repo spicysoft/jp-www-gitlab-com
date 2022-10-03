@@ -4619,8 +4619,6 @@
 - sources:
   - /handbook/mecc
   - /handbook/mecc/
-  - /teamops
-  - /teamops/
   target: /handbook/teamops/
   comp_op: '='
 - sources:
