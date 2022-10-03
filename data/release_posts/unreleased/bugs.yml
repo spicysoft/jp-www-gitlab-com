@@ -9,4 +9,4 @@ tertiary:
     description: |
       Some of the notable bug fixes in 15.5 are:
 
-      - [Description](https://gitlab.com/gitlab-org/gitlab-ce/issues/12345).
+      - [Progressively load CI/CD variable for 100+](https://gitlab.com/gitlab-org/gitlab/-/issues/372728).
