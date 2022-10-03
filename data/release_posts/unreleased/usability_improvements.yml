@@ -11,5 +11,5 @@ tertiary:
 
       In GitLab 15.5, we're shipping usability improvements for issues, projects, milestones, and much more! We highlight the following changes in GitLab 15.5:
 
-      - [Description](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
-      - [Description](https://gitlab.com/gitlab-org/gitlab/-/issues/12345).
+      - [Improve Package settings loading screen](https://gitlab.com/gitlab-org/gitlab/-/issues/372874).
+      - [Improve modal copy when deleting the last package assets](https://gitlab.com/gitlab-org/gitlab/-/issues/368908).
