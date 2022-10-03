@@ -4,15 +4,15 @@ locality:
 country: Remote
 role: <a href="">Backend Engineer</a>
 reports_to: sean-carroll
-picture: "../gitlab-logo-extra-whitespace.png"
-pronouns:
-pronunciation:
+picture: jpcyiza.jpg
+pronouns: "He/His"
+pronunciation: khi-iza
 twitter:
-linkedin:
+linkedin: https://be.linkedin.com/in/j-patrick-cyiza-67819291
 gitlab: jpcyiza
 departments:
 - Development
-specialty: 'Create: Editor'
+specialty: "Create: Source code"
 expertise:
 story:
 
