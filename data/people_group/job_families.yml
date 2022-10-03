@@ -393,8 +393,8 @@
   description: "/job-families/marketing/technical-marketing-manager"
 - title: Technical Writer
   description:
-  - "/job-families/product/technical-writer/"
-  - "/job-families/product/technical-writing-manager/"
+  - "/job-families/engineering/technical-writer/"
+  - "/job-families/engineering/technical-writing-manager/"
 - title: Technical Writer, Customer Programs
   description: "/job-families/sales/technical-writer-customer-programs/"
 - title: Technology Partner Manager
@@ -403,14 +403,14 @@
   description: "/job-families/engineering/threat-intelligence-engineer/"
 - title: Product Designer
   description:
-  - "/job-families/product/product-designer/"
+  - "/job-families/engineering/product-designer/"
   - "/job-families/marketing/product-designer-ux-marketing/"
 - title: Engineering Leadership (UX)
   description: "/job-families/engineering/ux-management/"
 - title: UX Research
   description:
-  - "/job-families/product/ux-researcher/"
-  - "/job-families/product/ux-research-manager/"
+  - "/job-families/engineering/ux-researcher/"
+  - "/job-families/engineering/ux-research-manager/"
 - title: UX Research Operations Coordinator
   description: "/job-families/engineering/ux-research-coordinator/"
 - title: Director, Marketing Operations
