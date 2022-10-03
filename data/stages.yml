@@ -1403,7 +1403,7 @@ stages:
       GitLab helps users manage security vulnerabilities, policies, and compliance across their organization.
     direction: /direction/govern/
     roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Agovern&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
-    established: 2022
+    established: 2017 # Although Govern was established in 2022, the earliest category of Audit Events has been around much longer than that.  This has been changed to say 2017 to keep this page from being misleading: https://about.gitlab.com/direction/maturity/
     lifecycle: 1
     usage_driver_score: 1
     revenue_driver_score: 1
