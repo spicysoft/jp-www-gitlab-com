@@ -107,8 +107,8 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/customer-success/solutions-architects/processes/commercial/ @jfullam @poffey21
 /sites/handbook/source/handbook/customer-success/professional-services-engineering/ @michael_lutz @bryan-may @mross1
 /sites/handbook/source/handbook/customer-success/professional-services-engineering/education-services/ @kmarquart @michael_lutz @seanjsandoval
-/sites/handbook/source/handbook/customer-success/education-enablement/ @jfullam @spatching @jordanthomas @michael_lutz @kreykrey
-/sites/handbook/source/handbook/sales/training/field-functional-competencies/ @kreykrey @dhong @cbednarz
+/sites/handbook/source/handbook/customer-success/education-enablement/ @jfullam @spatching @jordanthomas @michael_lutz @elikrohn
+/sites/handbook/source/handbook/sales/training/field-functional-competencies/ @elikrohn @dhong @cbednarz
 
 ^[EBA team]
 /sites/handbook/source/handbook/eba/ @mmcb
@@ -608,7 +608,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/sales/field-operations/ @dhong @jbrennan1 @jakebielecki @james_harrison @jdbeaumont @cfarris
 /sites/handbook/source/handbook/sales/field-operations/channel-operations/ @cfarris
 /sites/handbook/source/handbook/sales/field-operations/customer-success-operations/ @jdbeaumont
-/sites/handbook/source/handbook/sales/field-operations/field-enablement/ @monicaj @kreykrey @dhong @kshirazi
+/sites/handbook/source/handbook/sales/field-operations/field-enablement/ @monicaj @elikrohn @dhong @kshirazi
 /sites/handbook/source/handbook/sales/field-operations/gtm-resources/ @james_harrison
 /sites/handbook/source/handbook/sales/field-operations/customersdot-access-and-use/ @james_harrison
 /sites/handbook/source/handbook/sales/field-operations/order-processing/ @jrabbits
@@ -620,7 +620,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/sales/field-operations/sfdc/ @jbrennan1
 /sites/handbook/source/handbook/sales/forecasting/ @james_harrison
 /sites/handbook/source/handbook/sales/gainsight/ @jdbeaumont
-/sites/handbook/source/handbook/sales/idea-to-production-demo/ @dhong @kreykrey
+/sites/handbook/source/handbook/sales/idea-to-production-demo/ @dhong @elikrohn
 /sites/handbook/source/handbook/sales/insidesales/ @james_harrison
 /sites/handbook/source/handbook/sales/it-agility-director-interview/ @dhong
 /sites/handbook/source/handbook/sales/manager-operating-rhythm/ @dhong 
@@ -648,12 +648,12 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/sales/territories/latam/ @hugoazevedo @ricardoamarilla
 /sites/handbook/source/handbook/sales/territory-planning/ @dhong @emelier
 /sites/handbook/source/handbook/sales/training/ @dhong @jblevins608
-/sites/handbook/source/handbook/sales/training/field-certification/ @kreykrey @kshirazi @pdaliparthi @emelier @dhong
-/sites/handbook/source/handbook/sales/training/field-functional-competencies/ @kreykrey @dhong @kshirazi
+/sites/handbook/source/handbook/sales/training/field-certification/ @elikrohn @kshirazi @pdaliparthi @emelier @dhong
+/sites/handbook/source/handbook/sales/training/field-functional-competencies/ @elikrohn @dhong @kshirazi
 /sites/handbook/source/handbook/sales/training/sales-enablement-sessions/ @dhong @jblevins608
 /sites/handbook/source/handbook/sales/training/SKO/ @azaglul @monicaj @dhong
 /sites/handbook/source/handbook/sales/understand-customer-gitlab-use/ @jdbeaumont
-/sites/handbook/source/handbook/sales/training/customer-success-skills-exchange/ @kreykrey @pdaliparthi
+/sites/handbook/source/handbook/sales/training/customer-success-skills-exchange/ @elikrohn @pdaliparthi
 /sites/handbook/source/handbook/sales/field-communications/gitlab-highspot/ @abryson1 @monicaj
 
 
