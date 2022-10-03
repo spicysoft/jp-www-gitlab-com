@@ -1,13 +1,16 @@
 ---
 features:
   secondary:
-  - name: "Update default insights config file to include DORA"
+  - name: "Improve DevOps efficiency with new out-of-the-box DORA comparison report"
     available_in: [ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/insights/index.html#dora-query-parameters'
     reporter: hsnir1
     stage: plan
-    categories: []
+    categories: 
+    - 'Value Stream Management'
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/371867'
     description: |
-      <!-- What is the problem and solution you're proposing? This content sets the overall vision for the feature and serves as the release notes that will populate in various places, including the [release post blog](https://about.gitlab.com/releases/categories/releases/) and [Gitlab project releases](https://gitlab.com/gitlab-org/gitlab/-/releases). " -->
+      Following the [recent release of the new DORA Insights custom reporting](https://about.gitlab.com/releases/2022/08/22/gitlab-15-3-released/#dora-custom-reporting-for-data-driven-software-development-improvements), we have added to the default insights config file a pre-defined DORA overtime comparison report. This report visuzlaie the performance of the 4 DORA metrics over the past 180 days in monthly and daily aggregation.
+
+      With this enhancement, users can quickly learn the DORA framework, understand how to use the metrics, and see how they work with real data.
