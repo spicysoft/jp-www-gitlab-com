@@ -1,0 +1,31 @@
+---
+name: Magdalena Frankiewicz
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer</a>, Plan:Optimize, <a href="/job-families/product/product-manager">Product Management internship</a>
+reports_to: brandon-l
+picture: magdalenafrankiewicz.jpg
+twitter: madziafff
+gitlab: m_frankiewicz
+projects:
+  gitlab: reviewer backend
+pronouns: she/her
+departments:
+- Engineering Function
+- Development Department
+- Dev Section
+- Plan:Optimize BE Team
+- Merge Request Coach
+expertise: '<li>Merge request <a href="/job-families/expert/merge-request-coach/">Coach</a></li>
+
+  '
+story: |
+  Magdalena is a professional software developer since 2015. She has a background in Psychology and Cultural Studies,
+  plus an adventure with Neuroscience on top. She mastered her coding craft working in startups and in technology consulting,
+  where she sharpened her skills with numerous tech stacks and programming languages. She believes that software is made by people
+  for people, and that great code is built together. In her spare time, she loves hiking, reading, sailing, and pickles.
+domain_expertise:
+- rails
+specialty:
+- 'Plan: Optimize'
+
