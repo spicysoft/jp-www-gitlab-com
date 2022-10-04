@@ -38,6 +38,10 @@ To request new or updated CAP collateral, click the button below:
     <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/field-security/-/issues/new?issuable_template=cap_collateral_request" class="btn btn-purple-inv" style="width:100%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">New or updated CAP collateral</a>
 </div>
 
+#### SME owned collateral
+
+For collateral owned by SMEs outside of Field Security, we perform an annual review and maintenance session. SMEs are notified via a GitLab issue and assigned relevant collateral pieces for review and maintenance. Upon completion, the updated collateral pieces are added to the appropriate CAP and prepared for publishing.
+
 ### Additional support
 
 If you have any further questions, please follow the below steps:
