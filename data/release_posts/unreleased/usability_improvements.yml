@@ -13,3 +13,6 @@ tertiary:
 
       - [Improve Package settings loading screen](https://gitlab.com/gitlab-org/gitlab/-/issues/372874).
       - [Improve modal copy when deleting the last package assets](https://gitlab.com/gitlab-org/gitlab/-/issues/368908).
+      - [Separate issue actions from the activity feed](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/96260)
+      - [Improved layout for comments in the activity feed](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/95824)
+      - [Remove user status and availability from the activity feed](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/95796)
