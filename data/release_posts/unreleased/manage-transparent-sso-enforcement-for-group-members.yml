@@ -4,12 +4,12 @@ features:
   - name: "Transparent SSO enforcement for group members"
     available_in: [premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/group/saml_sso/#sso-enforcement'
     image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
     reporter: hsutor
     stage: manage
     categories:
-    - Authentication and Authorization
+    - [System Access]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/215155'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      Previously, when `SSO enforcement` was turned on, all users are required to use SSO to access a group and its projects. Now, when `SSO enforcement` is turned on, there is a check to see if the user is a member of the project and has a SAML identity. If they have both, they must authenticate through SSO. If not, they can choose to authenticate whichever way they want.
