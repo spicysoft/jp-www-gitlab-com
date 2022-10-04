@@ -159,6 +159,7 @@ Key responsibilities
 - Creating SKUs
 - Purchase flows in GitLab.com SaaS (selecting plan, users, storage, CI minutes)
 - Purchase flows in the Customer Portal SM self-service purchase flows (selecting plan, users)
+- Optimization of the end-to-end purchase flow, including optimizations to steps required pre-purchase, such as gitLab.com registration
 - Credit card iframe
 
 Example projects
@@ -169,6 +170,10 @@ Example projects
 - Capture credit card address at checkout to pass to Stripe for validation
 - Upgrade Zuora Payment Pages integration to v2, so that we can pass more information to Stripe Radar
 - Community Programs self-serve
+
+Out of scope
+- Trial/free sign-up
+- Trial/free experience before purchasing
 
 KPIs
 - Webstore transaction share/volume
@@ -214,6 +219,7 @@ Audience
 - Channel Partners and their customers
 
 Key responsibilities
+- Trials Provisioning
 - Post-purchase provisioning and ensuring customers get what they paid for (plan, users, storage, CI minutes, etc.)
 - SaaS provisioning
 - SM provisioning
