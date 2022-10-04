@@ -1,14 +1,15 @@
 ---
 features:
   primary:
-  - name: "Email the user when their two-factor OTP attempt is wrong"
+  - name: "Email notification when two-factor OTP attempt is wrong"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
     image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
     reporter: hsutor
     stage: manage
-    categories: []
+    categories: System Access
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/374740'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      If a user has 2FA enabled, and a bad actor has entered their username and password successfully, they then have to enter an OTP successfully to breach an account. OTP codes can be brute force hacked, but the user would not know incorrect codes are being entered.
+      Now, users are immediately alerted via e-mail when their OTP is incorrectly entered, improving security by giving them notice that their account may be comprimised.  
