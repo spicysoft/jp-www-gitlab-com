@@ -94,7 +94,7 @@ Contribution Help:
 
 The Leading Organizations program is a cross-functional initiative that is led by [Nick Veenhof](/company/team/#nick_vh), [Contributor Success](/handbook/engineering/quality/contributor-success/) team and [John Coghlan](/company/team/#johncoghlan), [Community Relations team](/handbook/marketing/community-relations/). 
 
-This program is part of the [Contribution Efficiency Initiative](https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/collaborations/) and [User Engagement Initiative](https://gitlab.com/groups/gitlab-com/-/epics/1794).
+This program is part of the [Contribution Efficiency Initiative](https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/collaborations/) and a current top [cross-functional initiative](https://about.gitlab.com/company/top-cross-functional-initiatives/#current-top-cross-functional-initiatives), [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794).
 
 - Executive Sponsor: [Ashley Kramer](/company/team/#akramer), Chief Marketing and Strategy Officer, Interim Chief Technology Officer
 - DRI: [Liz Petoskey](/company/team/#epetoskey), Director of Strategy and Operations
