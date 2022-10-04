@@ -1,3 +1,6 @@
+- sources: /handbook/marketing/community-relations/non-profit-program/
+  target: /handbook/marketing/community-relations/community-programs/non-profit-program/
+  comp_op: '='
 - sources: /handbook/marketing/community-relations/startups-program/
   target: /handbook/marketing/community-relations/community-programs/startups-program/
   comp_op: '='
