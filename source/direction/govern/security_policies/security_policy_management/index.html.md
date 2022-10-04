@@ -14,7 +14,7 @@ canonical_path: "/direction/govern/security_policies/security_policy_management"
 | --- | --- |
 | Stage | [Govern](/direction/govern/) |
 | Maturity | [Minimal](/direction/maturity/) |
-| Content Last Reviewed | `2022-07-08` |
+| Content Last Reviewed | `2022-10-03` |
 
 ### Introduction and how you can help
 <!-- Introduce yourself and the category. Use this as an opportunity to point users to the right places for contributing and collaborating with you as the PM -->
@@ -120,7 +120,9 @@ The matrixes below describe the scope of the work that is planned in the long-ru
 
 #### What's Next & Why (Near-term Roadmap)
 
-Security Policies allow users to require that certain scans are run as part of the project pipeline.  Currently requiring [SAST, Secret Detection, Container Scanning, and DAST scans](https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html) is supported.  In the GitLab 15.2 release we made [scan execution policies](https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html) available at the group and sub-group levels.  Next we plan to extend that group and sub-group level support to [scan result policies](https://gitlab.com/groups/gitlab-org/-/epics/7622) as well.  Once that is complete, we will shift our focus to add support for [Dependency Scanning](https://gitlab.com/groups/gitlab-org/-/epics/7669) and SAST and Secret Detection [custom rulesets](https://gitlab.com/groups/gitlab-org/-/epics/7671).
+Security Policies allow users to require that certain scans are run as part of the project pipeline.  Currently requiring [SAST, Secret Detection, Container Scanning, and DAST scans](https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html) is supported.  In the GitLab 15.2 release we made [scan execution policies](https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html) available at the group and sub-group levels.  In the 15.5 milestone, we plan to extend that group and sub-group level support to [scan result policies](https://gitlab.com/groups/gitlab-org/-/epics/7622) while also adding the ability to edit scan execution policies in Rule Mode.
+
+Once that is complete, we will shift our focus to add support for [License Approval Policies](https://gitlab.com/groups/gitlab-org/-/epics/8092) which are designed to be a replacement for the current `License-Check` functionality.  Additionally, we plan to extend scan execution policy support to also include[Dependency Scanning](https://gitlab.com/groups/gitlab-org/-/epics/7669) as well as SAST and Secret Detection [custom rulesets](https://gitlab.com/groups/gitlab-org/-/epics/7671).
 
 A full list of our near-term priorities is kept up-to-date on our open [priorities issue](https://gitlab.com/gitlab-org/gitlab/-/issues/222791).
 
@@ -136,7 +138,13 @@ This category is currently at Minimal maturity.  A [plan has been created](https
 - What specific user behaviors are indicate that users are trying these features, and solving their problems?
 - How will users discover these features?
 -->
-We plan to measure the success of this category based on the total number of users that interact with the Policy and Alert pages in the GitLab UI.
+We plan to [measure the success of this category](https://gitlab.com/gitlab-org/gitlab/-/issues/375284) based on the the following metrics:
+
+1. The total number of projects with an assigned security policy project.
+1. The total number of groups with an assigned security policy project.
+1. The total number of projects with at least one scan result policy.
+1. The total number of open merge requests with at least one applicable scan result policy.
+1. The total number of users who have created merge requests in Projects that have an assigned security policy project.
 
 ## Competitive Landscape
 

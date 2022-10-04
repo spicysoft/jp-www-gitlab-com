@@ -16,8 +16,8 @@ canonical_path: "/direction/secure/composition-analysis/dependency-scanning/"
 | --- | --- |
 | Stage | [Secure](/direction/secure/) |
 | Maturity | [Viable](/direction/maturity/) |
-| Content Last Reviewed | `2022-07-08` |
-| Content Last Updated | `2022-07-08` |
+| Content Last Reviewed | `2022-10-03` |
+| Content Last Updated  | `2022-10-03` |
 
 ### Introduction and how you can help
 
@@ -84,17 +84,13 @@ Currently we notify developers when they add dependencies [in these supported la
 
 #### What is our Vision (Long-term Roadmap)
 
-To reach the [Complete Maturity](/direction/maturity/) level, we will need to accomplish the following.  Epics and issues for most of these items can be found nested in the either the Dependency Scanning [Viable to Complete](https://gitlab.com/groups/gitlab-org/-/epics/1664) or [Complete to Lovable](https://gitlab.com/groups/gitlab-org/-/epics/2725) epics.  The items below are grouped thematically and are not in priority order.  Priorities for these items can be found on our always-open [priorities issue](https://gitlab.com/gitlab-org/gitlab/-/issues/361784).
+We recently added the ability to parse `poetry.lock` files in the 15.0 release.  Additionally, in the 15.1 release, we added the ability to filter out NPM development dependencies.
 
-- Continuous scanning
-   - [Continuous vulnerability scans](https://gitlab.com/groups/gitlab-org/-/epics/7886)
-   - Alert when the advisory database is updated and new vulnerabilities are detected in previously scanned code (Epic/Issue creation in progress)
-- Better dependency management
-   - [Group/Sub-group dependency list](https://gitlab.com/groups/gitlab-org/-/epics/8090)
-   - [Dependency list filtering and searching](https://gitlab.com/groups/gitlab-org/-/epics/8089)
-   - [Dependency list grouping](https://gitlab.com/groups/gitlab-org/-/epics/8091)
+For next steps, we plan to allow GitLab to continuously scan dependencies for known vulnerabilities by synchronously triggering a re-scan anytime either the project dependencies change or when the advisory database is updated.  These plans can be tracked in more detail [in this epic](https://gitlab.com/groups/gitlab-org/-/epics/7886).
 
-In addition to this work, we also need to expand our language support, improve the configurability of the scanner, and provide better [dependency graph visualizations](https://gitlab.com/groups/gitlab-org/-/epics/3858).  With a few exceptions, this work generally falls lower in priority compared to the items listed above.
+Once that is complete, we intend to shift our focus to add support for the latest formats, including adding support for [yarn v2](https://gitlab.com/gitlab-org/gitlab/-/issues/263358), [yarn v3](https://gitlab.com/gitlab-org/gitlab/-/issues/351841), and [npm v3](https://gitlab.com/gitlab-org/gitlab/-/issues/365176).
+
+A full list of our near-term priorities is kept up-to-date on our open [priorities issue](https://gitlab.com/gitlab-org/gitlab/-/issues/361784).
 
 #### What's Next & Why
 <!-- This is almost always sourced from the following sections, which describe top
