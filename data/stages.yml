@@ -347,12 +347,12 @@ stages:
       optimize:
         name: Optimize
         pm: Haim Snir
-        focus: Manage Optimize GMAU
+        focus: Plan Optimize GMAU
         pmm: Aathira Nair
         cm: Suri Patel
         em: Brandon Labuschagne (Interim)
-        be_team_tag: Manage:Optimize BE Team
-        fe_team_tag: Manage:Optimize FE Team
+        be_team_tag: Plan:Optimize BE Team
+        fe_team_tag: Plan:Optimize FE Team
         support: TBD
         pdm:
           - Blair Christopher
@@ -360,7 +360,7 @@ stages:
           - TBD
         uxr:
           - Anne Lasch
-        tech_writer: Fiona Neill
+        tech_writer: Lorena Ciutacu
         sets:
           - TBD
         appsec_engineer: Nick Malcolm
