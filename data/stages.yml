@@ -916,7 +916,7 @@ stages:
         slack:
           channel: s_package
           alias: package-group
-        gitlab_group: "gitlab-org/package"
+        gitlab_group: "gitlab-org/ci-cd/package-stage"
         handbook: engineering/development/ops/package/
         google_group: "package-stage@gitlab.com"
 
