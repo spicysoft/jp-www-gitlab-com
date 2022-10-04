@@ -4636,3 +4636,7 @@
   - /blog/2016/07/29/the-basics-of-gitlab-ci/
   target: /blog/2020/12/10/basics-of-gitlab-ci-updated/
   comp_op: '='
+- sources:
+  - /handbook/marketing/corporate-marketing/#requests-for-announcements
+  target: /handbook/marketing/corporate-marketing/corporate-communications/#requests-for-external-announcements
+  comp_op: '='
