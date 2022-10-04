@@ -1,7 +1,9 @@
+---
 name: Alex Pennells
-locality: 
+locality:
 country: Remote
-role: <a href="/job-families/engineering/development/frontend/#senior-frontend-engineer">Senior Frontend Engineer</a>, Plan:Optimize
+role: <a href="/job-families/engineering/development/frontend/#senior-frontend-engineer">Senior
+  Frontend Engineer</a>, Plan:Optimize
 reports_to: brandon-l
 picture: apennells.jpg
 pronouns:
@@ -10,10 +12,9 @@ twitter: pebbz__
 linkedin: alex-pennells-50aa8844
 gitlab: apennells
 departments:
-  - Development
-  - Plan:Optimize FE Team
-specialty:
-- 'Plan: Optimize'
+- Development
+- Plan:Optimize FE Team
+specialty: Optimize
 expertise:
 story:
 
