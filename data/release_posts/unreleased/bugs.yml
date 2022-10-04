@@ -12,3 +12,4 @@ tertiary:
       - [Progressively load CI/CD variable for 100+](https://gitlab.com/gitlab-org/gitlab/-/issues/372728).
       - [Container Registry only showing 100 tags per image](https://gitlab.com/gitlab-org/gitlab/-/issues/359277).
       - [NuGet packages with uppercase characters cannot be found](https://gitlab.com/gitlab-org/gitlab/-/issues/273664).
+      - [Group permissions do not allow project moves between namespaces](https://gitlab.com/gitlab-org/gitlab/-/issues/296817)
