@@ -539,11 +539,11 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/secure/composition-analysis/license-compliance/ @sam.white @hbenson
 /source/direction/secure/composition-analysis/container-scanning/ @sam.white @hbenson
 /source/direction/govern/threat_insights/vulnerability_management/ @matt_wilson @hbenson
-/source/direction/govern/ @sam.white @hbenson @stkerr @matt_wilson
+/source/direction/govern/ @sam.white @hbenson @derekferguson @matt_wilson
 /source/direction/govern/security_policies/security_policy_management/ @sam.white @hbenson
-/source/direction/govern/compliance/ @stkerr @hbenson
-/source/direction/govern/compliance/audit-events/ @stkerr @hbenson
-/source/direction/govern/compliance/compliance-management/ @stkerr @hbenson
+/source/direction/govern/compliance/ @derekferguson @hbenson
+/source/direction/govern/compliance/audit-events/ @derekferguson @hbenson
+/source/direction/govern/compliance/compliance-management/ @derekferguson @hbenson
 /source/direction/anti-abuse/ @jstava @tmccaslin @hbenson
 
 ^[Product - Analytics Section]
