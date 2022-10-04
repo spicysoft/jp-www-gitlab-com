@@ -8,7 +8,7 @@ features:
     image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
     reporter: hsutor
     stage: manage
-    categories: System Access
+    categories: [System Access]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/374740'
     description: |
       If a user has 2FA enabled, and a bad actor has entered their username and password successfully, they then have to enter an OTP successfully to breach an account. OTP codes can be brute force hacked, but the user would not know incorrect codes are being entered.
