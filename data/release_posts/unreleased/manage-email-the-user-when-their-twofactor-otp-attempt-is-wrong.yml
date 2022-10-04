@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
-    image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
+    image_url: '/images/unreleased/manage-otp-email.png'
     reporter: hsutor
     stage: manage
     categories: [System Access]
