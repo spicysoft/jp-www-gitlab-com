@@ -72,7 +72,7 @@ Ensuring everyone can contribute requires a concious effort to ensure the commun
   * [OSS](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/opensource-program/)
   * [Developer Evangslism](https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/)
   * [Education Program](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/education-program/)
-  * [StartUps Program](https://about.gitlab.com/handbook/marketing/community-relations/startups-program/)
+  * [StartUps Program](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/startups-program/)
 * Meetups and evangelism
   * [Evangelist Program](https://about.gitlab.com/handbook/marketing/community-relations/evangelist-program/)
 * [GitLab Diversity Scholarship program](https://about.gitlab.com/community/sponsorship/)

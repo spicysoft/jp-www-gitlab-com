@@ -31,8 +31,13 @@ MRs must be tagged with the `Community Relations` labeled *before being merged* 
 | [Developer Evangslism](https://gitlab.com/groups/gitlab-com/-/boards/1565342?label_name[]=dev-evangelism) | Developer Evangelism | Developer Evangelism issues across the entire `gitlab-com` group |  |
 | [Consortium Memberships](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/consortium-memberships/-/boards) | Open Source | Track all activities related to GitLab's [consortium memberships](/handbook/marketing/community-relations/community-programs/opensource-program/#consortium-memberships-and-sponsorships) | |
 | [Open Source Partners Support (Internal)](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program/-/boards/2150795) | Open Source | Contains sensitive partner requests and therefore confidential. | |
+<<<<<<< sites/handbook/source/handbook/marketing/community-relations/project-management/index.html.md
+| [Linux Foundation Parntership](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/linux-foundation) | Open Source | Activities and initiatives related to our [partnership with the Linux Foundation](/handbook/marketing/community-relations/community-programs/opensource-program/#linux-foundation-partnership) | | 
+| [Startups](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-for-startups/-/boards) | Startups | Issues related to the [Startups program](/handbook/marketing/community-relations/community-programs/startups-program/) | |
+=======
 | [Linux Foundation Parntership](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/opensource-program/linux-foundation) | Open Source | Activities and initiatives related to our [partnership with the Linux Foundation](/handbook/marketing/community-relations/community-programs/opensource-program/#linux-foundation-partnership) | | 
 | [Startups](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-for-startups/-/boards) | Startups | Issues related to the [Startups program](https://about.gitlab.com/handbook/marketing/community-relations/startups-program/) | |
+>>>>>>> sites/handbook/source/handbook/marketing/community-relations/project-management/index.html.md
 | [Community Sponsorship Requests](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-sponsorship-requests/-/boards) | Community Ops | Requests from the community for event and other types of sponsorship | |
 
 ## Community Relations labels
