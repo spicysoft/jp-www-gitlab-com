@@ -204,7 +204,7 @@
   collected_data: "Access device metadata https://www.arkoselabs.com/legal/privacy-policy/#categories-of-personal-data-we-collect"
   processing_customer_data: null
   employee_or_customer_facing_app: employee
-  notes: Arkose support tickets for GitLab accessed at https://support.arkoselabs.com/hc/en-us/requests/organization
+  notes: To add users to Arkose Dashboard add them to this google group https://groups.google.com/a/gitlab.com/g/okta-arkose-users. Arkose support tickets for GitLab accessed at https://support.arkoselabs.com/hc/en-us/requests/organization users can request to be added in the closed slack channel ext-gitlab-arkose
   saas: true
   handbook_link: https://docs.gitlab.com/ee/integration/arkose.html
   google_group: null
