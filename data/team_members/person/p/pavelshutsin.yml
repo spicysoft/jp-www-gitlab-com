@@ -18,7 +18,7 @@ projects:
   gitlab:
   - maintainer backend
   - reviewer database
-  - maintainer database
+  - trainee_maintainer database
 story: 'Pavel is a Ruby developer with strong thirst of making fast, stable, secure
   and flexible software. As a hobby Pavel does snowboarding, plays basketball, drives
   real and virtual racing cars.
