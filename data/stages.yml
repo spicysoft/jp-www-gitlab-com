@@ -1492,7 +1492,7 @@ stages:
 
       compliance:
         name: Compliance
-        pm: Sam Kerr
+        pm: Derek Ferguson
         focus: Govern Compliance Paid GMAU
         pmm: Brian Mason
         cm: Suri Patel
