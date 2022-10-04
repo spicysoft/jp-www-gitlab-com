@@ -17,9 +17,9 @@ description: Learn about the GitLab for Open Source Program and other open sourc
 # About
 GitLab's open source program is part of the [Community Relations team](/handbook/marketing/community-relations/). It consists of three sub-programs:
 
-* [**GitLab for Open Source Program**](/handbook/marketing/community-relations/opensource-program/#gitlab-for-open-source-program), through which qualifying open source projects [receive benefits](/solutions/open-source/) like GitLab Ultimate and 50,000 CI minutes for free.
-* [**GitLab Open Source Partners**](/handbook/marketing/community-relations/opensource-program/#gitlab-open-source-partners), a [partnership program](/solutions/open-source/partners) designed for large or prominent open source projects and organizations.
-* [**Consortium Memberships**](/handbook/marketing/community-relations/opensource-program/#consortium-memberships-and-sponsorships), which allow us to [extend GitLab's leadership in key open source initiatives](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/consortium-memberships), enhance GitLab's brand, and/or improve engineering alignment
+* [**GitLab for Open Source Program**](/handbook/marketing/community-relations/community-programs/opensource-program/#gitlab-for-open-source-program), through which qualifying open source projects [receive benefits](/solutions/open-source/) like GitLab Ultimate and 50,000 CI minutes for free.
+* [**GitLab Open Source Partners**](/handbook/marketing/community-relations/community-programs/opensource-program/#gitlab-open-source-partners), a [partnership program](/solutions/open-source/partners) designed for large or prominent open source projects and organizations.
+* [**Consortium Memberships**](/handbook/marketing/community-relations/community-programs/opensource-program/#consortium-memberships-and-sponsorships), which allow us to [extend GitLab's leadership in key open source initiatives](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/consortium-memberships), enhance GitLab's brand, and/or improve engineering alignment
 
 # How to reach us
 
@@ -161,7 +161,7 @@ The following active SKUs are related to the GitLab for Open Source Program:
 # GitLab Open Source Partners
 The [GitLab Open Source Partners](/solutions/open-source/partners/) program exists to build relationships with prominent open source projects using GitLab as a critical component of their infrastructure. By building these relationships, GitLab hopes to strengthen the open source ecosystem.
 
-Open source partners receive [specific benefits](/handbook/marketing/community-relations/opensource-program/#what-are-the-benefits-of-being-a-member-of-the-gitlab-open-source-partners-program) by joining the program. GitLab benefits from these partnerships when open source partners provide valuable feedback and data on their use of GitLab, even contribute to GitLab's open core. All parties jointly benefit when they're able to collaborate on community outreach, co-marketing, joint announcements, and special initiatives.
+Open source partners receive [specific benefits](/handbook/marketing/community-relations/community-programs/opensource-program/#what-are-the-benefits-of-being-a-member-of-the-gitlab-open-source-partners-program) by joining the program. GitLab benefits from these partnerships when open source partners provide valuable feedback and data on their use of GitLab, even contribute to GitLab's open core. All parties jointly benefit when they're able to collaborate on community outreach, co-marketing, joint announcements, and special initiatives.
 
 ## FAQs
 
