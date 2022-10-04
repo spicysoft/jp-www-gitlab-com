@@ -53,6 +53,7 @@ Leading Organizations receive:
 - Public recognition with special Leading Organization badge visible on LinkedIn and other social channels
 - Increased employer brand visibility through blog posts on GitLab.com, contributor stories and social media
 - Access to GitLab through Engineers, Product Managers, Community Relations, and other Core Members to provide guidance and answer questions on MRs
+- General guidance on the legal considerations of contributing to open source and open core software projects
 
 ## Enrollment
 
