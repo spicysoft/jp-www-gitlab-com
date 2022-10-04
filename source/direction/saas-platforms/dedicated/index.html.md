@@ -144,7 +144,7 @@ The goal of this phase is to be able to operate a small set of paid, production-
 
 #### General Availability
 
-In this phase, we plan to make the offering available to all customers who are willing to pay for it. Compared to LA, the focus in GA is on scaling the platform from a handful of early customers in specific geos to our broader customer base around the Globe. 
+In this phase, we plan to make the offering available to all customers who are willing to pay for it. Compared to LA, the focus in GA is on scaling the platform from a handful of early customers in specific geos to our broader customer base around the Globe.
 
 ### Prioritization Framework
 
@@ -158,7 +158,7 @@ Based on the prioritization framework, during Limited Availability we will focus
 | Priority | Category | Description |
 |-----------------------------|--------------------------|-----------------------|
 | 0 | KTLO - On Call | Operating Tenant Production Environments |
-| 1 | Security | Supporting security certifications and addressing findings from audits | 
+| 1 | Security | Supporting security certifications and addressing findings from audits |
 | 2 | Improve SLAs (Availability, RTO, RPO) | Geo, failover testing, automated restore |
 | 3 | Support Customer Config Changes |  Customers will need config changes during onboarding and weekly maintenance windows. |
 | 4 | Enable GitLab Functionality | Dependency proxy, Pages, advanced search |
@@ -212,7 +212,7 @@ _The following links are internal to GitLab_
 
 - Timelines
   - Product launch milestones are [documented here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/README.md#timeline)
-- [Comms Plan](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/616) 
+- [Comms Plan](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/616)
 - [Field Enablement Guide](https://internal-handbook.gitlab.io/handbook/engineering/horse/field-enablement/index.html)
 - Customer Onboarding Plan
   - Selection criteria [documented here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/190)
@@ -224,7 +224,7 @@ When engaging with customers, we encourage everyone to be very intentional about
 
 Prior to discussing GitLab Dedicated with an opportunity/customer:
 
-1. Review the [target customer profile](#target-customer-profile) to ensure it is a good fit
+1. Review the [target customer profile](#target-customer) to ensure it is a good fit
 1. Review the estimated [timeline](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/README.md#timeline)(GitLab internal) to ensure it meets the customer's desired onboarding timeframes. Note, there will be a limited number of customers we can support during the Limited Availability period. Once we move to GA, the offering will be available to all customers who are willing to [pay for it](#pricing).
 1. Review [pricing](#pricing), as this will cost more than our other offerings and will have a minimum seat count
 1. Review the [features unavailable at launch](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-not-available-at-launch)
