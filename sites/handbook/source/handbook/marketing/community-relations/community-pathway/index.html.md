@@ -69,7 +69,7 @@ Ensuring everyone can contribute requires a concious effort to ensure the commun
 #### Community Programs
 * [Contributor Program](https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/)
 * Free community programs:
-  * [OSS](https://about.gitlab.com/handbook/marketing/community-relations/opensource-program/)
+  * [OSS](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/opensource-program/)
   * [Developer Evangslism](https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/)
   * [Education Program](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/education-program/)
   * [StartUps Program](https://about.gitlab.com/handbook/marketing/community-relations/startups-program/)

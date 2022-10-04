@@ -816,7 +816,7 @@ Get to know the people who work in GitLab's marketing team by visiting our [READ
 [Code Contributor Program]: /handbook/marketing/community-relations/code-contributor-program/
 [Evangelist Program]: /handbook/marketing/community-relations/evangelist-program/
 [Education Program]: /handbook/marketing/community-relations/community-programs/education-program/
-[Open Source Program]: /handbook/marketing/community-relations/opensource-program/
+[Open Source Program]: /handbook/marketing/community-relations/community-programs/opensource-program/
 [Corporate Marketing]: /handbook/marketing/corporate-marketing/
 [Inbound Marketing]: /handbook/marketing/inbound-marketing/
 [Design]: /handbook/marketing/corporate-marketing/#design

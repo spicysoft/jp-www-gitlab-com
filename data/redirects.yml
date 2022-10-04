@@ -1,3 +1,6 @@
+- sources: /handbook/marketing/community-relations/opensource-program/
+  target: /handbook/marketing/community-relations/community-programs/opensource-program/
+  comp_op: '='
 - sources: /handbook/marketing/community-relations/education-program/
   target: /handbook/marketing/community-relations/community-programs/education-program/
   comp_op: '='
