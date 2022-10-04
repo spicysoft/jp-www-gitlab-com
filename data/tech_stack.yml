@@ -727,10 +727,10 @@
   subprocessor: false
   description: Scheduling
   access_to: Support
-  provisioner: "@jcolyer @gitlab-com/support/managers"
-  deprovisioner: "@jcolyer @gitlab-com/support/managers"
+  provisioner: "@jcolyer"
+  deprovisioner: "@jcolyer"
   group_owner: Support
-  group_owner_slack_channel: '#support-managers'
+  group_owner_slack_channel: '#support_operations'
   business_owner: Lyle Kozloff
   technical_owner: Jason Colyer, Lyle Kozloff
   data_classification: Orange
@@ -4720,7 +4720,7 @@
   provisioner: "@jcolyer"
   deprovisioner: "@jcolyer"
   group_owner: Support
-  group_owner_slack_channel: '#support-managers'
+  group_owner_slack_channel: '#support_operations'
   business_owner: Tom Cooney
   technical_owner: Jason Colyer
   data_classification: Orange
@@ -5189,9 +5189,9 @@
   provisioner: "@nabeel.bilgrami light agent access is available by following the handbook instructions [here](https://about.gitlab.com/handbook/support/internal-support/#viewing-support-tickets)"
   deprovisioner: null
   group_owner: Support
-  group_owner_slack_channel: '#support-managers'
+  group_owner_slack_channel: '#support_operations'
   business_owner: Tom Cooney
-  technical_owner: 'Nabeel Bilgrami'
+  technical_owner: 'Jason Colyer'
   data_classification: Orange
   integration_method: SWA/SAML/Other
   need_move_to_okta: null
@@ -5211,9 +5211,9 @@
   description: HelpDesk
   access_to: Customer Support - US only
   provisioner: "@jcolyer"
-  deprovisioner: "@jcolyer, @lyle, @lbot"
+  deprovisioner: "@jcolyer"
   group_owner: Support
-  group_owner_slack_channel: '#support-managers'
+  group_owner_slack_channel: '#support_operations'
   business_owner: Tom Cooney
   technical_owner: Jason Coyler
   data_classification: Orange
