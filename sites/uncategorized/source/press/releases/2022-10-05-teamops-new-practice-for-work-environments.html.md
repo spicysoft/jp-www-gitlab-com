@@ -11,7 +11,7 @@ twitter_image_alt: "Celebrating GitLab's press release about xx with fun emojis"
 
 _New Certification Makes Teamwork an Objective Discipline_
 
-SAN FRANCISCO, CA – Oct 5, 2022 – All-Remote – Today, GitLab Inc., provider of The One DevOps Platform, introduced TeamOps, a results-focused management discipline, bringing precision and operation to how people work together. 
+SAN FRANCISCO, CA – Oct 5, 2022 – All-Remote – Today, GitLab Inc., provider of The One DevOps Platform, introduced [TeamOps](https://about.gitlab.com/teamops/), a results-focused management discipline, bringing precision and operation to how people work together. 
 
 TeamOps is how GitLab scaled from a startup to a global public company in a decade. While GitLab has shared some of its practices in its handbook, through [The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook) and  partnering on the [Coursera course](https://www.coursera.org/learn/remote-team-management) on Remote Team Management, the TeamOps certification encompasses the actionable set of techniques and tools for making decisions in all work environments — remote, hybrid, and in-office. Supported by a set of Action Tenets with real-world examples for process, organizational structure and culture, TeamOps enables teams and companies to create an environment for better decision-making and improved execution. 
 
