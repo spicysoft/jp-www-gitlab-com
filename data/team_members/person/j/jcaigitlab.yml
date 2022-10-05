@@ -2,8 +2,7 @@
 name: John Cai
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
-  Gitaly</a>
+role: <a href="/job-families/engineering/development/backend/">Interim Engineering Manager, Git</a>
 reports_to: andrashorvath
 picture: johncai.JPG
 pronouns: He/Him
@@ -19,8 +18,7 @@ departments:
 - Engineering Function
 - Development Department
 - Enablement Sub-department
-- Gitaly Team
-- Gitaly BE Team
+- Gitaly Git Team
 story: |
   John has been a backend engineer working on SAAS for over 10 years. He enjoys tackling tough
   technical challenges and scaling distributed systems. Outside of work, John is involved with mentoring
