@@ -193,6 +193,93 @@ stages:
         pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039390
         pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039413
 
+      integrations:
+        name: Integrations
+        pm: Grant Hickman
+        focus: Ecosystem Integrations GMAU
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: Arturo Herrero
+        frontend_engineering_manager: Arturo Herrero
+        be_team_tag: Manage:Integrations BE Team
+        fe_team_tag: Manage:Integrations FE Team
+        support: TBD
+        pdm:
+          - Taurie Davis
+        ux:
+          - Libor Vanc
+        uxr:
+          - Ashley Knobloch
+        tech_writer: Ashraf Khamis
+        appsec_engineer: Dominic Couture
+        slack:
+          channel: g_manage_integrations
+        gitlab_group: gitlab-org/manage
+        qm: Ramya Authappan
+        sets:
+          - Sean Gregory
+        cs_team_tag: Ecosystem Group CS Stable Counterpart
+        internal_customers:
+          - department: Alliances Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - integrations
+        group_link: product/categories/#integrations-group
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 1
+
+      foundations:
+        name: Foundations
+        pm: Christen Dybenko
+        focus: Driving Pajamas adoption
+        frontend_engineering_manager: Lukas Eipert
+        fe_team_tag: Manage:Foundations FE Team
+        support: TBD
+        pdm:
+          - Taurie Davis
+        ux:
+          - Jeremy Elder
+          - Austin Regnery
+          - Sascha Eggenberger
+        uxr:
+          - TBD
+        tech_writer: Russell Dickenson
+        appsec_engineer: Dominic Couture
+        slack:
+          channel: g_manage_foundations
+        gitlab_group: gitlab-org/manage
+        qm: Ramya Authappan
+        sets:
+          - TBD
+        cs_team_tag: Ecosystem Group CS Stable Counterpart
+        internal_customers:
+          - department: Alliances Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - design_system
+          - navigation
+          - gitlab_docs
+        group_link: product/categories/#foundations-group
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 1
+
   plan:
     display_name: "Plan"
     marketing: true
@@ -545,107 +632,6 @@ stages:
         pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9980340
         analyst_reports: https://drive.google.com/drive/search?q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20editor
 
-  ecosystem:
-    display_name: "Ecosystem"
-    marketing: false
-    tw: true
-    image: "/images/solutions/solutions-create.png"
-    description: "Supports the ecosystem with 3rd party integrations, APIs, and contributor tools such as GDK and Pajamas."
-    established: 2018
-    lifecycle: 0
-    usage_driver_score: 5
-    asp_driver_score: 4
-    sam_driver_score: 5
-    handbook: engineering/development/dev/ecosystem/
-    direction: /direction/ecosystem
-    section: dev
-    pm: Melissa Ushakov
-    groups:
-      integrations:
-        name: Integrations
-        pm: Grant Hickman
-        focus: Ecosystem Integrations GMAU
-        pmm: Saumya Upadhyaya
-        backend_engineering_manager: Arturo Herrero
-        frontend_engineering_manager: Arturo Herrero
-        be_team_tag: Ecosystem:Integrations BE Team
-        fe_team_tag: Ecosystem:Integrations FE Team
-        support: TBD
-        pdm:
-          - Taurie Davis
-        ux:
-          - Libor Vanc
-        uxr:
-          - TBD
-        tech_writer: Ashraf Khamis
-        appsec_engineer: Dominic Couture
-        slack:
-          channel: g_ecosystem_integrations
-        gitlab_group: gitlab-org/ecosystem-team
-        qm: Ramya Authappan
-        sets:
-          - Sean Gregory
-        cs_team_tag: Ecosystem Group CS Stable Counterpart
-        internal_customers:
-          - department: Alliances Department
-            dri: TBD
-          - department: Customer Success
-            dri: TBD
-          - department: Quality Department
-            dri: TBD
-          - department: Infrastructure Department
-            dri: TBD
-          - department: Engineering Department
-            dri: TBD
-        categories:
-          - integrations
-        group_link: product/categories/#integrations-group
-        usage_driver_score: 5
-        asp_driver_score: 4
-        sam_driver_score: 1
-      foundations:
-        name: Foundations
-        pm: Christen Dybenko
-        focus: Driving Pajamas adoption
-        frontend_engineering_manager: Lukas Eipert
-        fe_team_tag: Ecosystem:Foundations FE Team
-        support: TBD
-        pdm:
-          - Taurie Davis
-        ux:
-          - Jeremy Elder
-          - Austin Regnery
-          - Sascha Eggenberger
-        uxr:
-          - TBD
-        tech_writer: Russell Dickenson
-        appsec_engineer: Dominic Couture
-        slack:
-          channel: g_ecosystem_foundations
-        gitlab_group: gitlab-org/ecosystem-team
-        qm: Ramya Authappan
-        sets:
-          - TBD
-        cs_team_tag: Ecosystem Group CS Stable Counterpart
-        internal_customers:
-          - department: Alliances Department
-            dri: TBD
-          - department: Customer Success
-            dri: TBD
-          - department: Quality Department
-            dri: TBD
-          - department: Infrastructure Department
-            dri: TBD
-          - department: Engineering Department
-            dri: TBD
-        categories:
-          - design_system
-          - navigation
-          - gitlab_docs
-        group_link: product/categories/#foundations-group
-        usage_driver_score: 5
-        asp_driver_score: 4
-        sam_driver_score: 1
   verify:
     display_name: "Verify"
     marketing: true
