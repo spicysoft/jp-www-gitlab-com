@@ -10,9 +10,8 @@ tags: git, workflow, rebase, tutorial
 featured: yes
 ---
 
-These days, developers spend a lot of time on reviewing merge requests
-and taking these reviews into account to improve the code in their
-merge requests. We'll discuss how
+These days, developers spend a lot of time reviewing merge requests
+and taking these reviews into account to improve the code. We'll discuss how
 [Git rebase](https://git-scm.com/docs/git-rebase) can help in
 speeding up these review cycles. But first, let's take a look at some
 workflow considerations.
@@ -21,7 +20,7 @@ workflow considerations.
 
 A developer who worked on some code changes and created a merge
 request with these changes will often have to rework them. Why does
-this happen? Tests can fail, bugs are found, reviewers suggest
+this happen? Tests can fail, bugs are found, or reviewers suggest
 improvements and find shortcomings.
 
 ### Simple but messy method: add more commits
@@ -35,9 +34,7 @@ When a number of commits have been added in this way, the merge
 request becomes problematic:
 
 - It's difficult to review by looking at all the changes together.
-- It's difficult to review the commits separately as they may contain
-- different unrelated changes, or even multiple reworks of the same
-- code.
+- It's difficult to review the commits separately as they may contain different unrelated changes, or even multiple reworks of the same code.
 
 Reviewers find it easier to review changes split into a number of small,
 self-contained commits that can be reviewed individually.
@@ -91,9 +88,9 @@ commits. The commits are listed in chronological order, with the
 oldest commit at the top. (This order is the opposite of the default
 `git log` order.) What do these lines contain?
 
-- An instruction (here, `pick`) that tells Git what action to take.
-- An abbreviated commit ID.
-- A commit subject to help you identify the commit contents.
+- An instruction (here, `pick`) that tells Git what action to take
+- An abbreviated commit ID
+- A commit subject to help you identify the commit contents
 
 ### Edit the instruction list
 
@@ -119,9 +116,9 @@ If the comment lines aren't enough, more information about what you
 can do and how it works is available in:
 
 - The [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
-  section of the "Pro Git" book.
+  section of the "Pro Git" book
 - The [Interactive mode](https://git-scm.com/docs/git-rebase#_interactive_mode)
-  section of the `git rebase` documentation.
+  section of the `git rebase` documentation
 
 ### Continue or abort the rebase
 
@@ -148,7 +145,7 @@ soon want to use the abbreviated versions of these instructions: `r`,
 
 ### Run shell commands in your rebase
 
-You might also have noticed an `exec <command>` instruction, that
+You might also have noticed an `exec <command>` instruction that
 allows you to run any shell command at any point in the interactive rebase.
 I've found it more useful for non-interactive rebases, such as:
 
@@ -183,5 +180,4 @@ regressions.
 In Git, a rebase is a very versatile and useful tool to rework
 commits. Use it to achieve a workflow with high-quality changes
 proposed in high-quality commits and merge requests. It makes your
-developers and reviewers more efficient. Code review and debugging
-become easier and more effective.
+developers and reviewers more efficient. Code reviews and debugging also become easier and more effective.
