@@ -2044,20 +2044,21 @@ stages:
         # asp_driver_score: 4
         # sam_driver_score:
 
-      gitaly:
-        name: Gitaly
+      gitaly_cluster:
+        name: Gitaly:Cluster
         pm: Mark Wood
         focus: Gitaly GMAU
         pmm: Saumya Upadhyaya
         image: "/images/solutions/solutions-gitaly.png"
         description: |
+          Scalable, resilient Git storage layer accessible via RPC.
+        body: |
           Gitaly provides a performant and durable Git storage layer for all
           repositories at GitLab.
-        body: |
-          GitLab makes Gitaly
         direction: "https://gitlab.com/groups/gitlab-org/-/epics/710"
+        roadmap: "https://gitlab.com/groups/gitlab-org/-/epics/7608"
         backend_engineering_manager: Andras Horvath
-        be_team_tag: Gitaly BE Team
+        be_team_tag: Gitaly Cluster Team
         fe_team_tag:
         support: Gerardo Gutierrez
         appsec_engineer: Costel Maxim
@@ -2077,6 +2078,41 @@ stages:
         asp_driver_score: 4
         sam_driver_score: 1
         group_link: product/categories/#gitaly-group
+        label: "group::gitaly"  # the team still uses a single group label
+
+      gitaly_git:
+        name: Gitaly:Git
+        pm: Mark Wood
+        focus: Gitaly GMAU
+        pmm: Saumya Upadhyaya
+        image: "/images/solutions/solutions-gitaly.png"
+        description: |
+          Open-source Git development and integration.
+        body: |
+          Git team develops features and improvements in the Git
+          open source project aligned with the needs of GitLab, as well as
+          integrating Git features into Gitaly.
+        direction: "https://gitlab.com/groups/gitlab-org/-/epics/710"
+        roadmap: "https://gitlab.com/groups/gitlab-org/-/epics/8016"
+        backend_engineering_manager: John Cai
+        be_team_tag: Gitaly Git Team
+        fe_team_tag:
+        support: Gerardo Gutierrez
+        appsec_engineer: Costel Maxim
+        tech_writer: Evan Read
+        sets:
+          - John McDonnell
+        cs_team_tag: Gitaly Group CS Stable Counterpart
+        infra_reliability_team_tag: Gitaly Group Reliability Stable Counterpart
+        internal_customers:
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - gitaly
+        group_link: product/categories/#gitaly-group
+        label: "group::gitaly"  # the team still uses a single group label
 
       geo:
         name: "Geo"

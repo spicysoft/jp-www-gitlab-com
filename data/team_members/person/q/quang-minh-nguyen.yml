@@ -12,10 +12,12 @@ departments:
 - Engineering Function
 - Development Department
 - Enablement Sub-department
-- Gitaly Team
-- Gitaly BE Team
+- Gitaly Cluster Team
 projects:
   tamland: maintainer
+  gitaly:
+    - reviewer
+    - maintainer
 story:
-specialty: 'Create: Gitaly'
+specialty: Gitaly
 
