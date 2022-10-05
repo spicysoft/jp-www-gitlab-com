@@ -15,4 +15,8 @@ ___
 
 Check if the related confidential security issue has the label `~"security-fix-in-public"`. This label means that the security issue is [already accepted](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/vulnerability-management.html#fixing-in-public) to be to be addressed in public, so it is ok to have this MR in public. If this is not the case then [Engage the Security Engineer On-Call](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call) to delete the MR and branch.
 
+### Who can I contact if my Stable Counterpart is out of office?
+
+In GitLab, @ mention `@gitlab-com/gl-security/appsec` and the AppSec engineer on rotation will respond. In Slack, reach out on `#sec-appsec`.
+
 ___
