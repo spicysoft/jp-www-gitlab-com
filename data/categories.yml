@@ -434,7 +434,7 @@ design_management:
 
 navigation:
   name: "Navigation & Settings"
-  stage: ecosystem
+  stage: manage
   description: "How users easily discover and configure product features."
   documentation:
   direction: /direction/ecosystem/foundations/navigation_settings/
@@ -597,7 +597,7 @@ gitlab_handbook:
 
 gitlab_docs:
   name: "GitLab Documentation Site"
-  stage: ecosystem
+  stage: manage
   label: Category:Docs Site
   feature_labels:
     - gitlab docs
@@ -702,7 +702,7 @@ remote_development:
 
 integrations:
   name: Integrations
-  stage: ecosystem
+  stage: manage
   feature_labels:
     - Category:Integrations
   direction: /direction/ecosystem/integrations/
@@ -718,7 +718,7 @@ integrations:
 
 design_system:
   name: Design System
-  stage: ecosystem
+  stage: manage
   documentation: https://design.gitlab.com
   direction: /direction/ecosystem/foundations/design_system/
   description: "GitLab's design system called Pajamas. Used internally to power GitLab in order to improve user interface consistency and accessibility."
