@@ -61,3 +61,13 @@ For those comfortable with external interactions, they may offer their services 
 - Error messages  / stack traces / logs may indicate that this is an `incubation` feature.
 - Before feature flag roll-out, is the feature documented in sufficient detail? Documentation is the first resource for users and support agents working with the feature.
 - Pro-actively reach out and make introductions before feature roll-out / general availability.
+
+### Security Guidelines for Incubation Projects
+
+Incubation Engineers should familiarize themselves with the [GitLab AppSec Review](/handbook/engineering/security/security-engineering-and-research/application-security/appsec-reviews.html) process and preferably have the AppSec review triggered early for each merge request when appropriate.
+
+Incubation Engineers are often required to create prototypes or demo applications as they are iterating on ideas and gathering feedback. Below are some security guidelines to keep in mind while building these applications:
+
+- Code for prototypes and demo projects should be hosted in the Incubation Engineering specific `gitlab-incubation-engineering-demos`. This is preferred because projects in a subgroup will inherit configurations from the parent group ([group access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) or [group CI variables](https://docs.gitlab.com/ee/ci/variables/#add-a-cicd-variable-to-a-group) for example), which can result in unintended behavior when an project hasn't accounted for the inherited configurations appropriately.
+- Prototypes and demo projects should follow GitLab's [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
+- Use of [Personal Access Tokens is discouraged](/handbook/security/#personal-access-tokens), Project Access Tokens are often sufficient.
