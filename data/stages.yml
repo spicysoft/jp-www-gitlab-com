@@ -51,7 +51,7 @@ stages:
         sets:
           - Sanad Liaquat
         pdm:
-          - Blair Christopher
+          - Chris Micek
         ux:
           - Daniel Mora
         uxr:
@@ -92,7 +92,7 @@ stages:
         sets:
           - Valerie Burton
         pdm:
-          - Blair Christopher
+          - Chris Micek
         ux:
           - Mike Nichols
         uxr:
@@ -128,7 +128,7 @@ stages:
         fe_team_tag: Manage:Import FE Team
         support: Cynthia Ng
         pdm:
-          - Blair Christopher
+          - Chris Micek
         ux:
           - TBD
         uxr:
@@ -1501,7 +1501,7 @@ stages:
         fe_team_tag: Govern:Compliance FE Team
         support: TBD
         pdm:
-          - Blair Christopher
+          - Justin Mandell
         ux:
           - TBD
         uxr:
