@@ -67,7 +67,7 @@ There five teams in the Security Assurance sub-department.
 * Security Assurance Metrics
 * [Security Awareness and Training](/handbook/engineering/security/security-assurance/governance/sec-awareness-training.html)
 * Regulatory Landscape Monitoring 
-* Security Assurance Application Administration 
+* [Security Assurance Application Administration](/handbook/engineering/security/security-assurance/#core-tools-and-systems)
 
 ### Security Risk Core Competencies 
 * [Third Party Risk Management](/handbook/engineering/security/security-assurance/security-risk/third-party-risk-management.html)
