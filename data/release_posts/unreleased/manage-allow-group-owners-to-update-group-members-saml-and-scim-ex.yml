@@ -4,7 +4,7 @@ features:
   - name: "Allow owners to update group members' SAML and SCIM extern_uid via API"
     available_in: [silver, gold]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/user/group/saml_sso/#get-in-to-gitlabcom-with-saml'
+    documentation_link: 'https://docs.gitlab.com/ee/api/saml.md'
     reporter: hsutor
     stage: manage
     categories: User Management
