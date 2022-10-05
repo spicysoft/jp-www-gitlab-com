@@ -1628,16 +1628,16 @@ This is a manifestation of the [Belief Bias](https://twitter.com/g_s_bhogal/stat
 Proposals should be weighed on their merits and not on who proposed them.
 Another example is people being promoted based on others liking them or having a lot of alliances. We want people to be promoted based on their results. We value collaboration, but that's different from being promoted just because people like you.
 
-Below are some attributes of political and non-political work environments. GitLab plans maintain a non-political one. 
+以下は、政治的な職場環境と非政治的な職場環境の特徴です。GitLabではは非政治的な環境を維持していきます。
 
-| Political environment | Non-political environment |
+| 政治的環境|非政治的環境|
 | ------ | ------ |
-| Values are weaponized and used out of their intended context | Team members utilize values with a positive intent |
-| Team members are driven by self-interest | Team members are driven by company interest |
-| Team members work in silos | Team members optimize globally  |
-| People have territorial behaviors | People have [short toes](/handbook/values/#short-toes) |
-| People have unhealthy alliances with backroom conversations | People have good intent and actively collaborate with folks |
-| Information is intentionally withheld | Information is shared early (often WIP) and at the same time with all interested parties  |
+| 本来の目的から外れてバリューが武器として使われている | チームメンバーが肯定的な意図を持ってバリューを活用している | 
+| チームメンバーが自己利益のために動いている | チームメンバーは会社の利益のために動いている | 
+| チームメンバーはサイロ化している | チームメンバーは全社最適化している |
+| 縄張り意識が強い | 縄張り意識がない[ショートトゥー](/handbook/values/#short-toes) | 
+| 不健全な徒党を組み裏話をする | 善意を持ち積極的に多くの人と協働する |
+| 意図的に情報が隠蔽される | 情報は早期に(多くの場合WIPの段階で)かつ同時にすべての関係者に共有される |
 
 <figure class="video_container">
     <iframe src="https://www.youtube.com/embed/vEk9z5vumB8" frameborder="0" allowfullscreen="true"> </iframe>
@@ -1659,13 +1659,14 @@ Below are some attributes of political and non-political work environments. GitL
 
 ## 新メンバーからの質問 {#questions-from-new-team-members}
 
-During every [GitLab 101 session with new hires](/company/culture/gitlab-101/) we discuss our values. We document the questions and answers to [Frequently Asked Questions about the GitLab Culture](/company/culture/gitlab-101/#frequently-asked-questions-about-the-gitlab-culture).
+[新入社員とのGitLab 101セッション](/company/culture/gitlab-101/)で毎回バリューについて話し合います。
+私たちは、[GitLabのカルチャーに関するよくある質問](/company/culture/gitlab-101/#frequently-asked-questions-about-the-gitlab-culture)に、よくある質問と答えを文章化しています。
 
-New team members should read [GitLab's guide to starting a new remote role](/company/culture/all-remote/getting-started/), and reference [interviews](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) centered on values within the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/search?query=values).
+新入社員は[新しい役割をはじめるためのGitLabガイド](/company/culture/all-remote/getting-started/) を読み、[GitLab ぶっちゃけ YouTube チャネル](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/search?query=values) のバリューに関する [インタビュー](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) を参考にするとよいでしょう。
 
 ## ミッション {#mission}
 
-Our [mission](/company/mission/#mission) is that **everyone can contribute**. This mission guides our path, and we live our values along that path.
+**誰もが貢献できる**が私たちの[ミッション](/company/mission/#mission)です。このミッションが私たちの進むべき道を示します。バリューと共にその道を進みます。
 
 ## 最大のリスク {#biggest-risks}
 
