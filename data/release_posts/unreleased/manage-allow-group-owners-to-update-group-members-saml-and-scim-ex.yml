@@ -10,4 +10,4 @@ features:
     categories: User Management
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/227841'
     description: |
-      Previously, if there were changes related to group members' SAML and SCIM `extern_uid`, the only way to update it was using the SCIM API (which is not recommended) or by a manual re-linking process. Now, you can update the `extern_uid` field for both SAML and SCIM identities using a new endpoint in the groups API.
+      Previously, if there were changes to group members' SAML or SCIM identifier (also known as the NameID), the only way to update it was by having users unlink and manually re-link their GitLab and SSO account. Now, group owners can update the `extern_uid` field in GitLab for both SAML and SCIM identities to match the SSO identifier using a new endpoint in the groups API.
