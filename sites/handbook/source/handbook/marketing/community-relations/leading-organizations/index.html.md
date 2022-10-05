@@ -59,14 +59,14 @@ Leading Organizations receive:
 
 Process for applying to the Leading Organization program: 
 
-1. Fill out form to receive more information [Google form link to come]
+1. Fill out [form](https://forms.gle/HRWyXBKkgbnwhUdU6) to receive more information
 1. Fill out issue to apply [link to come] 
 1. Welcome Email, once accepted
-1. Schedule an onboarding workshop [calendly link to come]
+1. Schedule an onboarding workshop
 
 ## Workshops
 
-GitLab hosts workshops with organizations interested in increasing their contributions and becoming eligible for the program benefits. Leading Organization team will reach out directly to organizations that either meet or are close to the threshold. For organizations interested in starting to contribute, please fill out this form. (link to come)
+GitLab hosts workshops with organizations interested in increasing their contributions and becoming eligible for the program benefits. Leading Organization team will reach out directly to organizations that either meet or are close to the threshold. For organizations interested in starting to contribute, please fill out [this form](https://forms.gle/HRWyXBKkgbnwhUdU6).
 
 **Types of Workshops**
 
