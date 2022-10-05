@@ -12,4 +12,4 @@ features:
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/374740'
     description: |
       If a user has 2FA enabled, and a bad actor has entered their username and password successfully, they then have to enter an OTP successfully to breach an account. OTP codes can be brute force hacked, but the user would not know incorrect codes are being entered.
-      Now, users are immediately alerted via e-mail when their OTP is incorrectly entered, improving security by giving them notice that their account may be comprimised.  
+      Now, users are immediately alerted via e-mail when their OTP is incorrectly entered, improving security by giving them notice that their account may be compromised.  
