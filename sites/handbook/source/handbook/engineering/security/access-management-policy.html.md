@@ -73,12 +73,11 @@ These templates should be used during the [onboarding process](/handbook/people-
 
 * Access requests are required when requesting a role above developer (i.e. maintainer, owner) on the following GitLab repositories and Groups:
 
-- Repos:
-   - www-gitlab-com
-   - [GitLab CE and GitLab EE](https://gitlab.com/gitlab-org/gitlab) (aka single Rails repository)
-
-- Groups:
-   - gitlab.com and gitlab.org - top level group permissions
+  - Repos:
+    - www-gitlab-com
+    - [GitLab CE and GitLab EE](https://gitlab.com/gitlab-org/gitlab) (aka single Rails repository)
+  - Groups:
+    - gitlab.com and gitlab.org - top level group permissions
 
 * Access requests should be submitted when requesting explicit access to private groups, sub-groups, and repositories in order to facilitate deprovisioning.
 
