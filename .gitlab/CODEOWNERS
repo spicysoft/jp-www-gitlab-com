@@ -89,7 +89,7 @@
 ^[Culture]
 /sites/uncategorized/source/company/culture/ @dmurph @jessicareeder @bbula
 /sites/uncategorized/source/company/culture/all-remote/ @dmurph @jessicareeder @bbula
-/sites/uncategorized/source/company/culture/contribute/ @Lconway @akramer
+/sites/uncategorized/source/company/culture/contribute/ @akramer
 /sites/uncategorized/source/company/culture/cross-culture-collaboration-guide/ @glucchesi @wendybarnes
 /sites/uncategorized/source/company/culture/gitlab-101/ @mmcb @streas
 /sites/uncategorized/source/company/culture/inclusion/ @wendybarnes
@@ -385,7 +385,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/marketing/lifecycle-marketing/emails-nurture/ @aklatzkin @dambrold
 /sites/handbook/source/handbook/marketing/lifecycle-marketing/agency-verticurl/ @dambrold @aklatzkin @krogel
 /sites/handbook/source/handbook/marketing/emergency-response/ @akramer @rkohnke @amy.waller
-/sites/handbook/source/handbook/marketing/events/ @Lconway @akramer
+/sites/handbook/source/handbook/marketing/events/ @akramer
 /sites/handbook/source/handbook/marketing/localization/ @lblanchard
 /sites/handbook/source/handbook/marketing/marketing-operations/ @akramer @rkohnke
 /sites/handbook/source/handbook/marketing/sales-plays-cicd/ @dsteer @supadhyaya
