@@ -1562,7 +1562,7 @@ compliance_management:
 security_policy_management:
   name: "Security Policy Management"
   stage: govern
-  direction: /direction/govern/security_policy_management/
+  direction: /direction/govern/security_policies/security_policy_management/
   documentation: https://docs.gitlab.com/ee/user/application_security/policies/
   description: |
     Unified security policy management capabilities across all of GitLab's scanners and security technologies. Apply policies to enforce scans and to require security approvals when vulnerabilities are found.
