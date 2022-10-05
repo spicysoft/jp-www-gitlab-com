@@ -3,7 +3,7 @@ name: Alex Kalderimis
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
-  Ecosystem:Integrations
+  Manage:Integrations
 reports_to: arturo-herrero
 picture: alexkalderimis.jpg
 twitter: involans
@@ -13,7 +13,7 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Ecosystem:Integrations BE Team
+- Manage:Integrations BE Team
 projects:
   gitlab: maintainer backend
   gitlab-gollum-lib: reviewer backend
@@ -37,5 +37,4 @@ story: |
   Outside the office, you are most likely to find him on a bike, or sniffing out
   a new café.
 specialty:
-- 'Ecosystem: Integrations'
-
+- 'Manage: Integrations'
