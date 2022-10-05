@@ -4,7 +4,7 @@ features:
   - name: "Admin Area setting to prevent users from creating groups"
     available_in: [core, premium, ultimate]
     gitlab_com: false
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html#prevent-users-from-creating-top-level-groups'
     reporter: lohrc
     stage: manage
     categories: [Subgroups]
