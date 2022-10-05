@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "'Commit email' user attribute writeable via API"
+  - name: "Modify user's commit email through the Users API"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/api/users.html'
