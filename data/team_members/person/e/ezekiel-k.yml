@@ -15,8 +15,9 @@ departments:
 - Plan:Optimize FE Team
 - Frontend
 - Merge Request Coach
-expertise: |
-  <li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+expertise: '<li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+
+  '
 projects:
   gitlab: maintainer frontend
   gitlab-ui: reviewer frontend
@@ -29,5 +30,5 @@ story: 'Ezekiel is a Frontend Engineer, while primarily working with javascript 
 
   '
 specialty:
-- 'Plan: Optimize'
+- 'Manage: Optimize'
 
