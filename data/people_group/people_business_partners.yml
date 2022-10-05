@@ -41,16 +41,16 @@
     - Channel
     - Alliances
 - name: Thilene Samuel 
-  present: "Engineering: Customer Support, Infrastructure, Quality, Security and UX"
+  present: "Engineering: Customer Support, Infrastructure, Quality, and Security"
   divisions_or_departments:
     - Customer Support
     - Infrastructure
     - Quality
     - Security
-    - UX
 - name: Giuliana Lucchesi
-  present: "Engineering: Development and Incubation Engineering; Product: Product Management" 
+  present: "Engineering: Development and Incubation Engineering; Product: Product Management and UX" 
   divisions_or_departments:
     - Development
     - Incubation Engineering
     - Product Management
+    - UX
