@@ -4,7 +4,7 @@ features:
   - name: "Modify user's commit email through the Users API"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/api/users.html'
+    documentation_link: 'https://docs.gitlab.com/ee/api/users.html#user-modification'
     reporter: hsutor
     stage: manage
     categories:
