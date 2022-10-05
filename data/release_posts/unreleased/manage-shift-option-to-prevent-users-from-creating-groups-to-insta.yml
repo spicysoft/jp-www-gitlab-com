@@ -10,4 +10,4 @@ features:
     categories: [Subgroups]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/367754'
     description: |
-      GitLab administrators and GitLab Dedicated administrators can now use the Admin Area to disable users' permission to create top-level groups. Previously, administrators with access to the instance's file system could change this setting only in the `gitlab.rb` file.
+      GitLab administrators can now use the Admin Area to disable users' permission to create top-level groups. Previously, administrators with access to the instance's file system could change this setting only in the `gitlab.rb` file.
