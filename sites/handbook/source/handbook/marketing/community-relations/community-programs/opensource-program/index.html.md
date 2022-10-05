@@ -45,7 +45,7 @@ Members of the GitLab for Open Source Program receive the following benefits at 
 * [GitLab Ultimate](/pricing/) (self-managed or SaaS) with unlimited seats per license
 * 50,000 CI/CD minutes (users can purchase 1,000 [additional CI minutes](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#purchase-additional-cicd-minutes) for a one-time, $8 fee)
 
-<i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59);"></i> While members of the GitLab for Open Source Program receive GitLab Ultimate at no cost, they do not receive support as part of their license.
+While members of the GitLab for Open Source Program receive GitLab Ultimate at no cost, they do not receive support as part of their license.
 {: .alert .alert-warning}
 
 ### Who qualifies for the GitLab for Open Source Program?
@@ -56,7 +56,7 @@ In order to be accepted into the GitLab for Open Source Program, applicants must
 *  **Not seek profit:** An organization can accept donations to sustain its work, but it can’t seek to make a profit by selling services, by charging for enhancements or add-ons, or by other means.
 * **Be publicly visible:** Both the applicant's GitLab.com group or self-managed instance and source code must be publicly visible and publicly available.
 
-<i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59);"></i> Benefits of the GitLab for Open Source Program apply to a namespace. To qualify, every project in an applicant’s namespace must carry an OSI-approved open source license.
+Benefits of the GitLab for Open Source Program apply to a namespace. To qualify, every project in an applicant’s namespace must carry an OSI-approved open source license.
 {: .alert .alert-warning}
 
 #### Qualification exceptions
@@ -83,18 +83,16 @@ For more specific instructions on obtaining and submitting required screenshots,
 
 ### How are GitLab for Open Source Program applications processed?
 
-Gitlab uses SheerID, a trusted partner, to verify that applicants meet the GitLab for Open Source Program requirements. In most cases, applicants receive a decision on their application within three to five business days of submission. During periods of high submission volume, processing an application requires up to ten business days.
+Gitlab uses SheerID, a trusted partner, to verify that applicants meet the GitLab for Open Source Program requirements. In most cases, applicants receive a decision on their application within three to five business days of submission. During periods of high submission volume, processing an application requires up to ten business days. When verified, applicants receive a verification email containing specific instructions for obtaining their license.
 
-The GitLab for Open Source team will then follow the [community programs application workflow](/handbook/marketing/community-relations/community-programs/community-program-applications/) to process applications.
-
-When verified, applicants receive a verification email containing specific instructions for obtaining their license.
+The GitLab for Open Source team processes applications according to the [Community Programs application workflow](/handbook/marketing/community-relations/community-programs/automated-community-programs/).
 
 ### Must members of the GitLab for Open Source Program renew their memberships?
 
 Yes. Program members must renew their memberships annually. If they don’t renew, [their accounts will be downgraded](https://about.gitlab.com/pricing/licensing-faq/#what-happens-when-my-subscription-is-about-to-expire-or-has-expired).
 
-<i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59);"></i> We recommend that applicants begin the renewal process at least one month in advance of their renewal dates to ensure sufficient processing time. Note that applications will not be processed during U.S. holidays and responses may be delayed during those periods.
-{: .alert .alert-warning}
+We recommend that applicants begin the renewal process at least one month in advance of their renewal dates to ensure sufficient processing time. Note that applications will not be processed during U.S. holidays and responses may be delayed during those periods.
+{: .alert .alert-info}
 
 ### How does someone renew their membership in the GitLab for Open Soure Program?
 
@@ -141,9 +139,7 @@ Members of the GitLab for Open Source Program may also be interested in:
 
 ### Where can members of the GitLab for Open Source Program find support?
 
-While GitLab for Open Source Program benefits do not include product [support](/support/), program members can receive help with GitLab in a number of ways. Use the [GitLab Community Programs support workflow](https://docs.gitlab.com/ee/subscriptions/#support-for-community-programs) to determine which is most useful in your case.
-
-In general, we recommend the following:
+While GitLab for Open Source Program benefits do not include product [support](/support/), program members can receive help with GitLab in a number of ways. In general, we recommend the following:
 
 * Send questions or issues requiring immediate attention or sensitive information to the GitLab for Open Source Program team at `opensource@gitlab.com`.
 * Review [GitLab Docs](https://docs.gitlab.com/) for answers to general product-related questions.
@@ -192,7 +188,7 @@ Membership in GitLab Open Source Partners program is largely by invitation. Memb
 
 Additionally, GitLab team members can nominate open source projects or organizations to become partners. To do so, they can simply open an issue in the [Open Source Partners Program project](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program) and use the `open-source-partner-nomination` issue template.
 
-<i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59);"></i> The GitLab Open Source Partners Program project contains sensitive data and personally identifying information about program members. It is therefore accessible only to GitLab team members.
+The GitLab Open Source Partners Program project contains sensitive data and personally identifying information about program members. It is therefore accessible only to GitLab team members.
 {: .alert .alert-warning}
 
 ## Program management resources
@@ -316,7 +312,7 @@ First, create two SVGs: one color, one grey:
      * In the top menu, go to `Filters` -> `Color` -> `Greyscale`. Click on `Live Preview` so you can see what will happen. Save your changes.
      * Export the logo and make sure that it is called: `logo_ORG Name.svg` as detailed above.
 
-<i class="fas fa-hand-point-right" aria-hidden="true" style="color: rgb(138, 109, 59);"></i> If you are not using Inkscape, aim for getting a greyscale image with Hex Color Code: Dark Grey `#444444` and then export the greyscale logo as an SVG with a transparent background.
+If you are not using Inkscape, aim for getting a greyscale image with Hex Color Code: Dark Grey `#444444` and then export the greyscale logo as an SVG with a transparent background.
 {: .alert .alert-warning}
 
 Next, optimize the SVGs both color and grey logos:
