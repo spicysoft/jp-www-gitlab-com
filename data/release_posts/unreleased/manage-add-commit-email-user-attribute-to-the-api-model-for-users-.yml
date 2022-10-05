@@ -3,7 +3,7 @@ features:
   secondary:
   - name: "Modify user's commit email through the Users API"
     available_in: [core, premium, ultimate]
-    gitlab_com: true
+    gitlab_com: false
     documentation_link: 'https://docs.gitlab.com/ee/api/users.html#user-modification'
     reporter: hsutor
     stage: manage
@@ -12,4 +12,6 @@ features:
     - User Profile
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/375148'
     description: |
-      Previously, a user's commit e-mail was only able to be modified in the UI. Now, you can use the Users API to modify the commit e-mail, allowing you to perform this as a bulk action.
+      Previously, a user's commit e-mail was only able to be modified in the UI. Now, administrators can use the Users API to modify the commit e-mail, allowing this to be performed as a bulk action.
+
+      Thank you [Neil Drumm](https://gitlab.com/drumm) for your contribution!
