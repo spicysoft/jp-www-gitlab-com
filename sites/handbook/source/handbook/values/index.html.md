@@ -1597,13 +1597,21 @@ To reinforce that GitLab's values are a living document, we [capture contributio
 
 ## バリューが発揮されていない場合の対処法 {#what-to-do-if-values-arent-being-lived-out}
 
-Value erosion can occur when indifference and apathy are tolerated. It can also occur when individuals justify undesired behaviors by interpreting values as "me values" rather than "company values." For example, a team member may speak to the importance of personal efficiency in order to justify not collaborating professionally with peers. This is not what we expect from team members in terms of efficiency and collaboration.
+無関心や無気力が許されてしまうとバリューは崩壊します。
+また、バリューを「会社のバリュー」ではなく「自分のバリュー」と誤読して、不適切な行動を正当化してしまっても、バリューは崩壊します。
+例えば、個人の効率を言い訳に、同僚とプロフェッショナルな協力関係を築かないことを正当化するケースもあります。
+効率やコラボレーションというバリューが、チームメンバーに期待している振る舞いではありません。
 
-If you feel that values are not being lived out in a given scenario, speak up and ask for context in a respectful manner. Navigating value conflicts starts with [assuming positive intent](/handbook/values/#assume-positive-intent) from other team members. Offer links to relevant values and/or operating principles when discussing the issue. If there is confusion or disagreement about the interpretation of a value, please surface the discussion in GitLab's `#values` Slack channel (for GitLab team members) or @-mentioning  [@gitlab](https://twitter.com/gitlab) on Twitter (for those who do not work at GitLab).
+もし、バリューが無視されていると感じるシチュエーションにであったら、敬意をもって背景を尋ねてください。
+バリューの対立を解決するには、まずは相手が[肯定的な意図であると仮定](/handbook/values/#assume-positive-intent)してください。
+問題を議論する際には、関連するバリューや経営理念へのリンクをはってください。
+バリューの解釈についてわからないことや意見の相違がある場合は、GitLabの `#values` Slackチャンネル(GitLabチームメンバー用)か、Twitterで [@gitlab](https://twitter.com/gitlab)(GitLabで働かない人用)へ @マークをつけてメンションして議論を見える化させてください。
 
-In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder and CEO Sid Sijbrandij offers the following context.
+[GitLab ぶっちゃ インタビュー バリュー編](https://youtu.be/7kMQj4O4ZGU)で、GitLabの共同創業者兼CEOのSid Sijbrandijは、次のように語っています。
 
-> Almost every time we face a hard decision at GitLab, it's because values are in conflict. It's not binary logic. It requires conversation, and sometimes there is no obvious answer. We can only achieve resolution by respectfully talking with each other and trusting the DRI to make the ultimate decision.
+> 複数のバリューがコンフリクトするときに、難しい決断を迫られがちです。正しいか間違っているか単純なものではありません。
+> 対話をするべきですし、時には確実な答えがないこともあります。
+> お互いを尊重しながら話し合い、DRIを信頼して最終的な決断を任せる以外には、解決には至りません。
 
 ## パーミッション・トゥ・プレイ {#permission-to-play}
 
