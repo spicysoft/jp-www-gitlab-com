@@ -27,6 +27,7 @@ There are additional ideas within the [Real-time collaboration Epic](https://git
 
 | | Date | Topic | Description | Video |
 |---|:----------:|-----------------------------------|-----|-----|
+| 9 | 2022-10-06 | Celebrate the first table `y-rb` multip-platform release with a sandbox demo. | https://www.youtube.com/watch?v=1gfYfUMh3dU |
 | 8 | 2022-09-16 | Change of plans | Awareness feature not to ship to current issue sidebar and y-rb multi-platform releases. | https://www.youtube.com/watch?v=x47YnULTiro |
 | 7 | 2022-08-18 | Ruby+Rust | Awareness feature about to ship, and a little intro to how Ruby+Rust bindings work. | https://www.youtube.com/watch?v=ng20jSo2TIs |
 | 6 | 2022-08-05 | Progress & Roadmap | Progress on the work to ship the Awareness widget, and an outlook for what is coming next. | https://www.youtube.com/watch?v=ZSdpj_YxsCE |
