@@ -259,7 +259,7 @@ dora_metrics:
   viable: 2023-06-01
   complete: 2024-01-01
   lovable: 2024-06-01
-  marketing: false
+  marketing: true
   maturity: minimal
   priority_level: high
 
