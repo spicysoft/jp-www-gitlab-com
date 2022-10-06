@@ -2971,11 +2971,6 @@
   target: /job-families/finance/general-ledger-accounting/
   comp_op: '='
 - sources:
-    - /direction/telemetry
-    - /direction/telemetry/
-  target: /direction/product-intelligence
-  comp_op: '='
-- sources:
     - /job-families/product/pricing-manager
     - /job-families/product/pricing-manager/
   target: /job-families/product/pricing/
@@ -3418,9 +3413,13 @@
   target: /handbook/marketing/inbound-marketing/content/editorial-team/
   comp_op: '='
 - sources:
+  - /direction/telemetry
+  - /direction/telemetry/
   - /direction/product-analytics
   - /direction/product-analytics/
-  target: /direction/product-intelligence/
+  - /direction/product-intelligence
+  - /direction/product-intelligence/
+  target: /direction/analytics/product-intelligence/
   comp_op: '='
 - sources:
   - /handbook/product/product-analytics-guide
