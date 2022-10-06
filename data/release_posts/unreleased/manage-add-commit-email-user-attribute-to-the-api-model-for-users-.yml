@@ -15,3 +15,4 @@ features:
       Previously, a user's commit e-mail could be modified only in the UI. Now, administrators can use the Users API to modify the commit e-mail and perform this as a bulk action.
 
       Thank you [Neil Drumm](https://gitlab.com/drumm) for your contribution!
+      
