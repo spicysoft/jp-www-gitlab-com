@@ -7,7 +7,7 @@ role: <a href="/job-families/engineering/development/backend/">Senior Backend En
 reports_to: arturo-herrero
 picture: luke-duncalfe.png
 twitter: l_d
-gitlab: .luke
+gitlab: ".luke"
 pronouns: he/him
 departments:
 - Engineering Function
@@ -33,4 +33,5 @@ story: 'Luke is a developer who enjoys everything about programming: the problem
   the learning curves and the creativity. Besides programming, he enjoys experimental
   art and music, camping, playing the piano, and playing with his kids.'
 specialty:
-- 'Manage: Integrations'
+- 'Ecosystem: Integrations'
+
