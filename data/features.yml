@@ -9180,8 +9180,27 @@ features:
       - continuous delivery
     pps_aggregate: 0
     pps_recent: 0
+    
+  - title : "DORA Metrics dashboard in Value Stream Analytics"
+    description: |
+      Value Stream Analytics (VSA) flow metrics overview dashboard with the four DORA metrics
+    link_description: "Learn more about DORA metrics in the VSA metrics overview dashboard"
+    link: "https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics"
+    solution: manage
+    category:
+      - dora_metrics
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    gitlab_com: true
+    github_com: true
+    github_enterprise: false
+    pps_aggregate: 0
+    pps_recent: 0
+    pricing_theme: "Value stream management"
 
-  - title : "DORA-4 metric - Lead time for changes"
+  - title : "DORA - Lead time for changes"
     description: |
       Lead time for changes measures the time to merge a change to production and
       helps you understand the efficiency of your deployments over time and find improvement areas.
@@ -9189,9 +9208,7 @@ features:
     link: "https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics.html#lead-time-charts"
     solution: manage
     category:
-      - value_stream_management
-      - continuous_delivery
-      - release_orchestration
+      - dora_metrics
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -9203,16 +9220,14 @@ features:
     pps_recent: 0
     pricing_theme: "Value stream management"
 
-  - title : "DORA-4 metric - Deployment frequency"
+  - title : "DORA - Deployment frequency"
     description: |
       Monitor the frequency of your deployments over time, find bottlenecks, and make improvements when necessary.
     link_description: "Learn more about deployment frequency charts"
     link: "https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics.html#deployment-frequency-charts"
     solution: manage
     category:
-      - value_stream_management
-      - continuous_delivery
-      - release_orchestration
+      - dora_metrics
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -9224,16 +9239,14 @@ features:
     pps_recent: 0
     pricing_theme: "Value stream management"
 
-  - title : "DORA 4 Metrics: Time To restore Service"
+  - title : "DORA - Time To restore Service"
     description: |
       Monitor the time to restore service over time, improve your uptime, and reduce service impairments on your environments.
     link_description: "Learn more about time to restore service"
     link: "https://docs.gitlab.com/ee/api/dora/metrics.html"
     solution: manage
     category:
-      - value_stream_management
-      - continuous_delivery
-      - release_orchestration
+      - dora_metrics
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -9245,16 +9258,14 @@ features:
     pps_recent: 0
     pricing_theme: "Value stream management"
 
-  - title : "DORA 4 Metrics: Change Failure Rate"
+  - title : "DORA - Change Failure Rate"
     description: |
       Monitor the change failure rate, improve your uptime, and reduce service impairments on your environments.
     link_description: "Learn more about change failure rate"
     link: "https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics"
     solution: manage
     category:
-      - value_stream_management
-      - continuous_delivery
-      - release_orchestration
+      - dora_metrics
     gitlab_core: false
     gitlab_starter: false
     gitlab_premium: false
@@ -9266,11 +9277,49 @@ features:
     pps_recent: 0
     pricing_theme: "Value stream management"
 
-  - title : "DORA Metrics: Metrics overview in Value Stream Analytics"
+  - title : "Insights: Custom DORA reporting"
     description: |
-      Value Stream Analytics (VSA) metrics overview dashboard with the four DORA metrics
-    link_description: "Learn more about DORA metrics in the VSA metrics overview dashboard"
-    link: "https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics"
+      Custom charts to visualize DORA data with Insights YAML-based reports
+    link_description: "Learn more about Insights custom DORA reporting"
+    link: "https://docs.gitlab.com/ee/user/project/insights/"
+    solution: Manage
+    category:
+      - dora_metrics
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    gitlab_com: true
+    collabnet_continuum: true
+    splunk: true
+    pps_aggregate: 0
+    pps_recent: 0
+    pricing_theme: "Value stream management"
+
+  - title : "DORA Trends Over Time Charts"
+    description: |
+      Visibility into Value Stream work with DORA metrics
+    link_description: "Learn more about DORA charts"
+    link: "https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics.html"
+    solution: Manage
+    category:
+      - dora_metrics
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    gitlab_com: true
+    collabnet_continuum: true
+    splunk: true
+    pps_aggregate: 0
+    pps_recent: 0
+    pricing_theme: "Value stream management"
+
+  - title : "End-to-end Flow & DORA Metrics dashboard in Value Stream Analytics"
+    description: |
+      Value Stream Analytics (VSA) flow metrics overview dashboard with the four DORA metrics
+    link_description: "The Overview dashboard shows key value stream metrics"
+    link: "https://docs.gitlab.com/ee/user/group/value_stream_analytics/#key-metrics-in-the-value-stream"
     solution: manage
     category:
       - value_stream_management
@@ -9767,25 +9816,6 @@ features:
     collabnet_continuum: true
     splunk: true
     pps_aggregate: 2
-    pps_recent: 0
-    pricing_theme: "Value stream management"
-
-  - title : "Insights: Custom DORA reporting"
-    description: |
-      Custom charts to visualize DORA data with Insights YAML-based reports.
-    link_description: "Learn more about Insights custom DORA reporting"
-    link: "https://docs.gitlab.com/ee/user/project/insights/"
-    solution: Manage
-    category:
-      - value_stream_management
-    gitlab_core: false
-    gitlab_starter: false
-    gitlab_premium: false
-    gitlab_ultimate: true
-    gitlab_com: true
-    collabnet_continuum: true
-    splunk: true
-    pps_aggregate: 0
     pps_recent: 0
     pricing_theme: "Value stream management"
 

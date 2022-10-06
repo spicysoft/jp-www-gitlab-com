@@ -246,6 +246,23 @@ value_stream_management:
   ux_scorecard_link: https://gitlab.com/groups/gitlab-org/-/epics/1454
   ux_scorecard_score: C
 
+dora_metrics:
+  name: "DORA Metrics"
+  stage: manage
+  feature_labels:
+    - DORA Metrics
+  documentation: https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics
+  marketing_page: /solutions/value-stream-management/
+  direction: /direction/manage/dora_metrics/
+  description: "Drive software engineering excellence with GitLab's out-of-the-box DORA metrics."
+  available: 2022-10-01
+  viable: 2023-06-01
+  complete: 2024-01-01
+  lovable: 2024-06-01
+  marketing: false
+  maturity: minimal
+  priority_level: high
+
 # Plan
 
 team_planning:

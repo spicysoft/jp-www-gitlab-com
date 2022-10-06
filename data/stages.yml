@@ -185,6 +185,7 @@ stages:
             dri: TBD
         categories:
           - devops_reports
+          - dora_metrics
           - value_stream_management
         usage_driver_score: 2
         asp_driver_score: 2
