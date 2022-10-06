@@ -1,5 +1,6 @@
+---
 name: Gavin Hinfey
-locality: 
+locality:
 country: Remote
 role: <a href="/job-families/engineering/backend-engineer/">Backend Engineer</a>
 reports_to: sean-carroll
@@ -10,7 +11,11 @@ twitter:
 linkedin:
 gitlab: ghinfey
 departments:
-  - Development
-specialty: "Create: Source Code"
+- Engineering Function
+- Development Department
+- Dev Section
+- Create:Source Code BE Team
+- Merge Request Coach
+- Create:Source Code
 expertise:
 story: "Gavin is a Backend Engineer who loves solving problems and coding in Ruby. In his free time he also enjoys cycling, running, swimming, playing piano and guitar."
