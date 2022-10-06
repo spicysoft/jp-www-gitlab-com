@@ -14,6 +14,8 @@ departments:
 - Development Department
 - Dev Section
 - Manage:Authentication and Authorization BE Team
+projects:
+  gitlab: reviewer backend
 specialty: "Authentication & Authorization"
 story: Jessie has built software for early stage start-ups, the United States Federal Government, Fortune 500 companies, and everything in between. She is famous for her creative use of emojis in code review comments.
 
