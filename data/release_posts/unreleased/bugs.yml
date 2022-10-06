@@ -17,5 +17,6 @@ tertiary:
       - [Fix empty password submitting failure on admin editing user page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/99042)
       - [Invalid current password error not set when 2FA setting is on for group](https://gitlab.com/gitlab-org/gitlab/-/issues/346494)
       - [Fix crash if createAlert dismissed multiple times](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/99494)
+      - [Fix Potential for high memory consumption by negative caching](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/issues/171)
       
 
