@@ -16,8 +16,8 @@ departments:
 projects:
   tamland: maintainer
   gitaly:
-    - reviewer
-    - maintainer
+  - reviewer
+  - maintainer
 story:
-specialty: Gitaly
+specialty: 'Create: Gitaly'
 

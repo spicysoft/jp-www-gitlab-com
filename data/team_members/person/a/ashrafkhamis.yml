@@ -25,6 +25,7 @@ projects:
   omnibus-gitlab: maintainer docs
 specialty:
 - Create:Editor
-- " Manage: Integrations"
+- " Ecosystem: Integrations"
 expertise:
 story:
+
