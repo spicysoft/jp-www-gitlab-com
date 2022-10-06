@@ -1,7 +1,7 @@
 ---
 features:
   primary:
-  - name: "Transparent SSO enforcement for group members"
+  - name: "Selective SSO enforcement for group members"
     available_in: [premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/group/saml_sso/#sso-enforcement'
