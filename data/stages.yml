@@ -217,7 +217,7 @@ stages:
         qm: Ramya Authappan
         sets:
           - Sean Gregory
-        cs_team_tag: Ecosystem Group CS Stable Counterpart
+        cs_team_tag: Integrations Group CS Stable Counterpart
         internal_customers:
           - department: Alliances Department
             dri: TBD
@@ -259,7 +259,7 @@ stages:
         qm: Ramya Authappan
         sets:
           - TBD
-        cs_team_tag: Ecosystem Group CS Stable Counterpart
+        cs_team_tag: Foundations Group CS Stable Counterpart
         internal_customers:
           - department: Alliances Department
             dri: TBD
