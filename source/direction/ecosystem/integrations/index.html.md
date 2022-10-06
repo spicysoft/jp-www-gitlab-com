@@ -16,11 +16,11 @@ title: "Group Direction - Integrations"
 - [Overall Ecosystem Direction](/direction/ecosystem/)
 
 
-## Ecosystem:Integrations Vision
+## Manage:Integrations Vision
 
 GitLab's vision is to be the best [single application for every part of the DevOps toolchain](/handbook/product/single-application/).
 
-As we expand on how our team can make the most significant impact towards that vision, we've identified a narrower vision for the Ecosystem:Integrations Group:
+As we expand on how our team can make the most significant impact towards that vision, we've identified a narrower vision for the Manage:Integrations Group:
 
 **We want GitLab to enable [intuitive collaboration with tools our customers rely on](https://about.gitlab.com/handbook/product/gitlab-the-product/#plays-well-with-others) so they can capture the most value possible from the GitLab product and its many features.**
 
@@ -44,10 +44,10 @@ The following statements further highlight how we'll execute in these areas.
 - Enterprise customers have more complex tools, some of which they are committed to using and motivated to make work with other tools in their toolchain.
 - Enterprise customers have many users/seats which means issues they raise, if solved, could benefit a large number of users at once.
 - Enterprise customers represent a larger amount of potential revenue to be gained or lost.
-- By [reducing the cost of products that are complements](https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/) of GitLab (cost being the cost of using other complementary products _with_ GitLab), we can increase the value of GitLab and the share of wallet for Enterprise customers to spend more with GitLab. This is a strategic leverage point for the Ecosystem:Integrations team in particular.
+- By [reducing the cost of products that are complements](https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/) of GitLab (cost being the cost of using other complementary products _with_ GitLab), we can increase the value of GitLab and the share of wallet for Enterprise customers to spend more with GitLab. This is a strategic leverage point for the Manage:Integrations team in particular.
 - Key Enterprise Customers within this strategy will be defined as [Large Accounts (2,000+ Employees) as per our MQL Scoring](https://about.gitlab.com/handbook/sales/field-operations/gtm-resources/#mql-definition-and-scoring).
 
-**We will identify the top 20 `Strategic Enterprise Partnerships` to focus on for the next 2-3 years between the Ecosystem:Integrations team & Alliance team and identify cross-functional teams that will help us achieve a Solution Complete Enterprise Toolchain, pairing with the top ISVs.**
+**We will identify the top 20 `Strategic Enterprise Partnerships` to focus on for the next 2-3 years between the Manage:Integrations team & Alliance team and identify cross-functional teams that will help us achieve a Solution Complete Enterprise Toolchain, pairing with the top ISVs.**
 
 When evaluating `Strategic Enterprise Partnerships`, we want to design a robust and opinionated Ecosystem comprised of the most heavily used complementary and competitive Enterprise tools our customers leverage. This Ecosystem should provide customers with a complete solution that covers each GitLab Stage, while driving adoption and usage across more stages. Our strategy here will be to choose one or two top partners in each Product Stage or Industry Category and prioritize based on our resourcing and GitLab's greatest gaps/needs (e.g. Slack for Chat/Communications, Jira for Project Management, DataDog for Monitoring/Observability, ServiceNow for Customer Service, and CircleCI as a CI alternative). We'd like to have a "complete" Ecosystem that gives our customers first-class Integration options in each category before expanding to add other tools.
 
@@ -66,13 +66,13 @@ We're actively building/iterating on our [Top 20 Strategic Enterprise Partnershi
 
 To achieve this, we plan on leveraging our GitLab expertise and resources as follows:
 
-- Ecosystem:Integrations will begin to gradually shift our focus from building/maintaining Strategic Integrations to building Self-Service Tools, Documentation, Guides, Best Practices, and Standards that support our Product teams, Partners, and Contributors to scale the growth of our Ecosystem. By positioning our team in the role of a platform team, we believe we can accelerate the process of building and maintaining integrations.
+- Manage:Integrations will begin to gradually shift our focus from building/maintaining Strategic Integrations to building Self-Service Tools, Documentation, Guides, Best Practices, and Standards that support our Product teams, Partners, and Contributors to scale the growth of our Ecosystem. By positioning our team in the role of a platform team, we believe we can accelerate the process of building and maintaining integrations.
 
-- Moving forward, Ecosystem:Integrations will not be adding support for new integrations that pertain to other product domains/groups. In the short-term, we will continue to support those where we currently own and will continue to prioritize and support integrations that are core to our business, including Jira, Slack (and other Chat tools), and ServiceNow. 
+- Moving forward, Manage:Integrations will not be adding support for new integrations that pertain to other product domains/groups. In the short-term, we will continue to support those where we currently own and will continue to prioritize and support integrations that are core to our business, including Jira, Slack (and other Chat tools), and ServiceNow. 
 
 - Over time, Product Managers in other stages will become owners for integrations that are particular to their domain, giving them full visibility and ownership in serving customers in their domain based on their strategy, as has been the case for many integrations to date (such as SAST/DAST Scanners in Security). Many times, individual groups will have more in-depth knowledge of customer pain points and how integrations should work within their product stage. 
 
-- The Alliance team will support in establishing relationships and facilitating the Ecosystem expansion, and work more hands-on with Product teams in each of the domain areas. The Ecosystem:Integrations team will establish tools and processes to help Product teams in building integrations, such as:
+- The Alliance team will support in establishing relationships and facilitating the Ecosystem expansion, and work more hands-on with Product teams in each of the domain areas. The Manage:Integrations team will establish tools and processes to help Product teams in building integrations, such as:
 
     - Expanding our Integrations Domain-Specific Language (DSL)
     - Establishing a Review Bot for integration activities
@@ -94,11 +94,11 @@ To achieve this, we plan on leveraging our GitLab expertise and resources as fol
 
 **In alignment with GitLab's values, we want to encourage and make it easier for users to contribute. To do so, we want to prioritize workflows, tools, and processes that make it possible for contributors to more easily self-serve.**
 
-Beyond `Strategic Enterprise Partnerships`, our other two pillars of the Ecosystem:Integration team will support this strategic objective:
+Beyond `Strategic Enterprise Partnerships`, our other two pillars of the Manage:Integrations team will support this strategic objective:
 
 **1. Guide, facilitate, and lead implementation of an `API Strategy`. This will be executed on first through an API Working Group.**
 
-The Ecosystem:Integrations team will drive and facilitate discussion around our APIs with a key objective of improving usability, reliability, and performance for customers and partners in our Ecosystem. To identify the key areas of focus, we feel this particular topic will require significant cross-functional support. We've established a [working group](https://about.gitlab.com/company/team/structure/working-groups/api-vision/) to drive these topics forward, and will update this section based on the exit criteria below:
+The Manage:Integrations team will drive and facilitate discussion around our APIs with a key objective of improving usability, reliability, and performance for customers and partners in our Ecosystem. To identify the key areas of focus, we feel this particular topic will require significant cross-functional support. We've established a [working group](https://about.gitlab.com/company/team/structure/working-groups/api-vision/) to drive these topics forward, and will update this section based on the exit criteria below:
 
 - Define the vision of the GitLab API for the future years.
 - Set the foundation of a cohesive development strategy going forward.
@@ -158,13 +158,13 @@ Why? Our hypothesis is that they serve larger Enterprises with real, complex cha
 
 ### Resourcing & Capabilities Insights
 
-Our Integrations team became a Stage only recently and is working to staff up and resume full working capacity following security allocation. However, even with a full team, there's a limit to the number of integrations we can prioritize and complete in a given period. We can explore the [number of customer impacting releases](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features&selectedCategories=Integrations&selectedStages=create&selectedStages=ecosystem) here to see that the Integrations team has primarily focused on two key integrations since 13.0: Jira and Slack, in addition to critical core changes to allow for enabling integrations across a project, group, or instance. At a high level, we might estimate no more than 4 new integrations or major integration updates could be developed within a single fiscal year by the Ecosystem:Integrations team. Keeping in mind as well that our team has other responsibilities for supporting our API Strategy and any technical improvements we plan for the Integration Experience.
+There's a limit to the number of integrations we can prioritize and complete in a given period. We can explore the [number of customer impacting releases](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features&selectedCategories=Integrations&selectedStages=create&selectedStages=ecosystem) here to see that the Integrations team has primarily focused on two key integrations since 13.0: Jira and Slack, in addition to critical core changes to allow for enabling integrations across a project, group, or instance. At a high level, we might estimate no more than 4 new integrations or major integration updates could be developed within a single fiscal year by the Manage:Integrations team. Keeping in mind as well that our team has other responsibilities for supporting our API Strategy and any technical improvements we plan for the Integration Experience.
 
 ## Why are we wanting to update/refresh our Vision & Strategy?
 
 To set up a foundation for success, it's critical for our team to have a clear understanding of where we're trying to go, how we want to get there with the people/expertise we have, and how we plan to achieve real business objectives, while providing real customer value.
 
-This is an extension of GitLab's overall Vision/Goals and how the Ecosystem:Integration team can make the most impact, and our strategy should explain why we made the decisions we did to create the most possible focus for our team. We'd like to reassess regularly and if we are not achieving our objectives, we'll want to adjust our strategy.
+This is an extension of GitLab's overall Vision/Goals and how the Manage:Integrations team can make the most impact, and our strategy should explain why we made the decisions we did to create the most possible focus for our team. We'd like to reassess regularly and if we are not achieving our objectives, we'll want to adjust our strategy.
 
 See below for more background: 
 
@@ -301,6 +301,5 @@ _This direction is constantly evolving, and [everyone can contribute](#contribut
 
 * Please comment, thumbs-up (or down!), and contribute to the linked issues and epics on this group page. Sharing your feedback directly on GitLab.com is the best way to contribute to our vision.
 * If there's an integration that you'd like to see GitLab offer, please [submit an issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issue) with the label `~"group::integrations"` on any relevant issues.
-* Feel free to mention the Ecosystem:Integrations PM [@g.hickman](https://gitlab.com/g.hickman) for visibility. If you're a GitLab user and have direct
+* Feel free to mention the Manage:Integrations PM [@g.hickman](https://gitlab.com/g.hickman) for visibility. If you're a GitLab user and have direct
   knowledge of your need from a particular integration, we'd love to hear from you.
-

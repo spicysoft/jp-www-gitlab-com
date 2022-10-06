@@ -3,7 +3,7 @@ name: Austin Regnery
 locality:
 country: Remote
 role: <a href="/job-families/product/product-designer/#senior-product-designer">Senior
-  Product Designer, Ecosystem:Foundations</a>
+  Product Designer, Manage:Foundations</a>
 reports_to: taurie
 picture: austinregnery.jpg
 twitter: reglyson
@@ -12,7 +12,7 @@ departments:
 - Engineering Function
 - UX Department
 - Dev UX Team
-- Ecosystem:Foundations Team
+- Manage:Foundations Team
 projects:
   gitlab: reviewer UX
   design.gitlab.com: trainee_maintainer UX
@@ -21,5 +21,4 @@ story: Austin has spent the last several years designing products for large ente
   and teach others how to do the same. You can find him exploring new places, playing
   sports, or chilling with his wife and Goldendoodle.
 specialty:
-- 'Ecosystem: Foundations'
-
+- 'Manage: Foundations'
