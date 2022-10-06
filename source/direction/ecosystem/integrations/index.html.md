@@ -94,7 +94,7 @@ To achieve this, we plan on leveraging our GitLab expertise and resources as fol
 
 **In alignment with GitLab's values, we want to encourage and make it easier for users to contribute. To do so, we want to prioritize workflows, tools, and processes that make it possible for contributors to more easily self-serve.**
 
-Beyond `Strategic Enterprise Partnerships`, our other two pillars of the Manage:Integration team will support this strategic objective:
+Beyond `Strategic Enterprise Partnerships`, our other two pillars of the Manage:Integrations team will support this strategic objective:
 
 **1. Guide, facilitate, and lead implementation of an `API Strategy`. This will be executed on first through an API Working Group.**
 
@@ -164,7 +164,7 @@ There's a limit to the number of integrations we can prioritize and complete in 
 
 To set up a foundation for success, it's critical for our team to have a clear understanding of where we're trying to go, how we want to get there with the people/expertise we have, and how we plan to achieve real business objectives, while providing real customer value.
 
-This is an extension of GitLab's overall Vision/Goals and how the Manage:Integration team can make the most impact, and our strategy should explain why we made the decisions we did to create the most possible focus for our team. We'd like to reassess regularly and if we are not achieving our objectives, we'll want to adjust our strategy.
+This is an extension of GitLab's overall Vision/Goals and how the Manage:Integrations team can make the most impact, and our strategy should explain why we made the decisions we did to create the most possible focus for our team. We'd like to reassess regularly and if we are not achieving our objectives, we'll want to adjust our strategy.
 
 See below for more background: 
 
