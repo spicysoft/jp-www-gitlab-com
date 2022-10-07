@@ -1,9 +1,10 @@
+---
 name: Mohamed Hamda
-locality: 
+locality:
 country: Remote
 role: <a href="">Backend Engineer</a>
 reports_to: chasesouthard
-picture: ../gitlab-logo-extra-whitespace.png
+picture: "../gitlab-logo-extra-whitespace.png"
 pronouns:
 pronunciation:
 twitter:
@@ -17,7 +18,7 @@ departments:
 - Fulfillment:Utilization Team
 - Fulfillment:Utilization BE Team
 - Backend
-specialty: Utilization
+specialty: Fulfillment
 expertise:
 story:
 
