@@ -1483,37 +1483,43 @@ We hope that the way we work and our values will instill trust, instead of manda
 
 ## GitLabのバリューを守りながら、いかにしてビジネスをスケールさせるか。 {#how-to-scale-the-business-while-preserving-gitlab-values}
 
-*For certain business decisions or projects (such as [compensation](/handbook/total-rewards/compensation/) and [end-point management](/handbook/business-technology/team-member-enablement/onboarding-access-requests/endpoint-management/) ), GitLab team members may have a lot of opinions and interest,
-and they want to provide their feedback and comments.
-On the other hand,  it might be challenging for the project DRI to digest and respond to all these inputs.
-What should you do in this scenario?*
+*GitLabチームメンバーは、事業に関する意思決定や、
+[報酬](/handbook/total-rewards/compensation/)や[エンドポイント管理](/handbook/business-technology/team-member-enablement/onboarding-access-requests/endpoint-management/)などのプロジェクトに関する意思決定について、
+いろいろな意見や関心があり、さらにフィードバックやコメントに積極的です。
+とはいえ、プロジェクトのDRIからすると、すべての声を咀嚼して対応するのは大変です。
+こんな場合はどうしたらよいでしょうか？*
 
-Everyone can contribute at GitLab.
-We encourage team members to share feedback and leave comments on issues.
-Leaving feedback and comments shows that team members care about a topic and about GitLab as a company.
-These perspectives may also uncover potential risks and problems in the project.
+GitLab では、誰もが貢献することができます。
+チームメンバーが、フィードバックを共有したり、課題に対してコメントを残したりすることを奨励しています。
+フィードバックやコメントを残すことは、チームメンバーがその議題やGitLabという会社のことを気にかけているということです。
+またチームメンバー視点での意見から、プロジェクトの潜在的なリスクや問題が明らかになることがあります。
 
-There shouldn't be a [“Don’t they have their job to do?”](https://www.youtube.com/watch?v=U9de50APPAg) type of response.
-Furthermore, we shouldn’t judge team members who are perceived as being the “squeaky wheel.”
-At GitLab, we [measure results, not hours](/handbook/values/#measure-results-not-hours).
-As long as a team member is producing required results, they are empowered to decide how to spend their time.
+[口を出す前に自分の仕事に専念しろ]」(https://www.youtube.com/watch?v=U9de50APPAg)というような反応があってはなりません。
+もちろん「うるさい奴だ」とチームメンバーを批判してはいけません。
+GitLabでは、[時間ではなく結果を測定](/handbook/values/#measure-results-not-hours)します。
+チームメンバーは、結果を出している限り、時間の使い方を決める裁量を与えられます。
 
-On the other hand, as GitLab grows in size, we need to make decisions and the decisions may not be agreed to by everyone.
-If a decision or project is sensitive or controversial, and receives large amounts of feedback, it can be challenging for the project DRI to handle.
-In these cases, it's best to have time-boxed feedback built into timelines.
+一方で、GitLabの組織が大きくなるにつれて、さまざまな意思決定が必要になりますが、それを全員が同意するとは限りません。
+デリケートで議論をまきおこす意思決定やプロジェクトに、大量のフィードバックを受けると、プロジェクトのDRIは対応するのが難しくなります。
+このような場合は、スケジュールを守れるようにフィードバックの締切を決めるとよいです。
 
-In a hypothetical example where a DRI needs to decide between red and gold potatoes for a stew, they would create an issue with the following sentiment:
+DRIがシチューに使うジャガイモを紅芋にするか金時芋にするか決めるという状況を考えてみます。
+次のように書かれた Issue チケット を切ります。
 
-> We’re deciding between red potatoes and gold potatoes to go into the stew. We have to decide by Tuesday 2020-07-14 so that we can get our order to the grocery store on Wednesday 2020-07-15. We’ll be collecting input and feedback until that point. Jane is the DRI and will make the decision on 2020-07-14 with all the information we have at that point. Here is the framework we’re using for the decision:
+> シチューに入れるジャガイモを紅芋と金時芋のどちらにするかを検討しています。
+> 2020年7月14日までに決めて、2020年7月15日にはスーパーに発注する必要があるので、それまでに意見や感想をください。
+> ジェーンがDRIで、ジェーンが2020年7月14日に把握している情報で決めます。
+> 次の点を考慮して決めます。
 >
-> * are there allergies to consider?
-> * cost per pound
-> * team member preferences
+> アレルギーはありませんか？
+> 重量あたりのコスト
+> チームメンバーの好き嫌い
 >
-> Once the decision is made, it will be what is going into the stew.
+> 2020年7月14日に決定したものがシチューの材料になります
 
-This method [has shown itself to be effective](https://gitlab.com/groups/gitlab-com/marketing/-/epics/858#what-happens-next) at soliciting productive feedback that doesn't derail a timeline while ensuring team members feel heard.
-
+この方法であれば、
+チームメンバーの声に耳を傾けてくれているという安心感のまま、スケジュールを守りながらも、生産的なフィードバックを集めるのに、
+[有効](https://gitlab.com/groups/gitlab-com/marketing/-/epics/858#what-happens-next)です。
 
 
 ## バリューを公開する理由 {#why-our-values-are-public}
