@@ -52,7 +52,7 @@ For DORA Metrics, we are targeting the following personas (in priority order):
 
 ### What's next and why
 
-<%= partial("direction/manage/value_stream_management/templates/next") %>
+<%= partial("direction/manage/dora_metrics/templates/next") %>
 
 ### Goals
 
