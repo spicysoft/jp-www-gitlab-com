@@ -342,7 +342,7 @@
   jtbd: When I am managing the execution of many CI jobs, I want an overall understanding of the job execution agents connected to my organization, so I can make effective decisions.
   grade: "c"
   confidence: Researched
-  source: https://gitlab.com/gitlab-org/gitlab-design/-/issues/1666
+  source: https://gitlab.com/gitlab-org/gitlab-design/-/issues/1995
   group: Runner
 - slug: runner-enterprise-administration-b
   parent: runner-enterprise-administration
