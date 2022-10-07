@@ -1609,7 +1609,7 @@ stages:
     groups:
       purchase:
         name: Purchase
-        description: "Responsible for all purchase experiences. Trials, purchase flows, and account management (invoices, contact, billing info) - Systems and Integrations include CustomersDot, Zuora, Stripe, GitLab."
+        description: "Focused on first-order purchase experiences, including SM Web-Direct First Order, SaaS Web-Direct First Order, Purchase CI Minutes, Purchase Storage, and Community Programs - sign up."
         slack:
           channel: g_purchase
         pm: Tatyana Golubeva
@@ -1666,7 +1666,8 @@ stages:
           - Dan Davison
         cs_team_tag: Fulfillment section CS Stable Counterpart
         categories:
-          - provision
+          - sm_provisioning
+          - saas_provisioning
         internal_customers:
           - department: Sales Department
             dri: TBD
@@ -1701,7 +1702,8 @@ stages:
           - Edgars Brālītis
         cs_team_tag: Fulfillment section CS Stable Counterpart
         categories:
-          - utilization
+          - subscription_usage_reports
+          - subscription_cost_management
         internal_customers:
           - department: Sales Department
             dri: TBD
@@ -1736,7 +1738,9 @@ stages:
           - TBD
         cs_team_tag: TBD
         categories:
-          - fulfillment_platform
+          - fulfillment_infrastructure
+          - fulfillment_developer_productivity
+          - customersdot_application
         internal_customers:
           - department: Sales Department
             dri: TBD
@@ -1771,7 +1775,8 @@ stages:
           - TBD
         cs_team_tag: TBD
         categories:
-          - billing_and_subscription_management
+          - billing_and_payments
+          - subscription_management
         internal_customers:
           - department: Sales Department
             dri: TBD
@@ -1807,6 +1812,41 @@ stages:
         cs_team_tag: TBD
         categories:
           - commerce_integrations
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+      fulfillment_admin_tooling:
+        name: Fulfillment Admin Tooling
+        description: ""
+        pm: Donique Smit
+        pmm: Saumya Upadhyaya
+        slack:
+          channel: TBD
+        cm: TBD
+        backend_engineering_manager: TBD
+        frontend_engineering_manager: TBD
+        support: TBD
+        be_team_tag: TBD
+        fe_team_tag: TBD
+        appsec_engineer: TBD
+        pdm:
+          - Jacki Bauer
+        tech_writer: Fiona Neill
+        ux:
+          - TBD
+        uxr:
+          - TBD
+        sets:
+          - TBD
+        cs_team_tag: TBD
+        categories:
+          - fulfillment_admin_tooling
         internal_customers:
           - department: Sales Department
             dri: TBD
