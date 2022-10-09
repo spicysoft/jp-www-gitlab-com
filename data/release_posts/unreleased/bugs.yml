@@ -21,5 +21,6 @@ tertiary:
       - [The Wiki rich text editor preserves new lines between lists and tables](https://gitlab.com/gitlab-org/gitlab/-/issues/354795)
       - [Wiki pages set as the project landing page display Asciidoc links correctly](https://gitlab.com/gitlab-org/gitlab/-/issues/254796)
       - [Convert unicode characters included in PlantUML code blocks when switching between Wiki source and rich text editors](https://gitlab.com/gitlab-org/gitlab/-/issues/375344)
+      - [Filter bar missing for developers in audit events](https://gitlab.com/gitlab-org/gitlab/-/issues/344452)
       
 
