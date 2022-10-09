@@ -1,0 +1,16 @@
+---
+features:
+  primary:
+  - name: "Configurable list of things 'to be imported' that can be adjusted by the
+      user"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
+    reporter: gitlab_bot
+    stage: manage
+    categories:
+    - Importers
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/370734'
+    description: |
+      When importing project from GitHub, you can now choose which relations, that take a considerable amount of time to be imported, you want to be included in the import. Those relations are: issue and PR (MR) events, thorough notes and release attached files, and by default they are all excluded.
