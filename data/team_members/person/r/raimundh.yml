@@ -14,6 +14,10 @@ departments:
   - Contributor Success Team
   - Merge Request Coach
 specialty: ""
+projects:
+  gitlab: reviewer backend
+  gitlab-triage: reviewer
+  triage-ops: reviewer
 expertise: |
   <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
 story: Raimund has been preaching the DevOps mindset for several years. He also strongly believes 
