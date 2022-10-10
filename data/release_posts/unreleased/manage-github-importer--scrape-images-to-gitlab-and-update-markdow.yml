@@ -1,14 +1,14 @@
 ---
 features:
   secondary:
-  - name: "GitHub importer - Scrape images to GitLab and update markdown"
+  - name: "GitHub Importer - import and store attachments in GitLab"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
-    reporter: gitlab_bot
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/import/github.html#imported-data'
+    reporter: m_frankiewicz
     stage: manage
     categories:
     - Importers
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/18052'
     description: |
-      With GitHub importer we now import also your images. Upon importing projects from GitHub, image resources are now added to GitLab's system and their links are updated to new GitLab URLs.
+      Upon importing projects from GitHub we now import project's image resources and other attachments types - from release notes, comments and notes, issues and PR descriptions. They are added to GitLab's system and their links are updated to new GitLab URLs, so that they not longer link to external sources.
