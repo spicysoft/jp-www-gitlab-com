@@ -818,7 +818,7 @@ stages:
         cs_team_tag: Pipeline Insights Group CS Stable Counterpart
         internal_customers:
           - department: Quality Department
-            dri: Kyle Wiebers
+            dri: Joanna Shih
           - department: UX Department
             dri: TBD
           - department: Infrastructure Department
@@ -1968,7 +1968,7 @@ stages:
         group_link: product/categories/#distribution-group
         internal_customers:
           - department: Quality Department
-            dri: Kyle Wiebers
+            dri: Jennifer Li
           - department: Infrastructure Department
             dri: TBD
           - department: Customer Success
@@ -2019,7 +2019,7 @@ stages:
         group_link: product/categories/#distribution-group
         internal_customers:
           - department: Quality Department
-            dri: Kyle Wiebers
+            dri: Jennifer Li
           - department: Infrastructure Department
             dri: TBD
           - department: Customer Success
