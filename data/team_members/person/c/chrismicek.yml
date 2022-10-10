@@ -3,15 +3,14 @@ locality:
 country: Remote
 role: <a href="">Manager, Product Design</a>
 reports_to: valerie
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: chrismicek.jpg
+pronouns: he/him
 pronunciation:
-twitter:
-linkedin:
+twitter: https://twitter.com/cmicek
+linkedin: https://www.linkedin.com/in/micek/
 gitlab: chrismicek
 departments:
   - UX
 specialty: "Manage"
 expertise:
-story:
-
+story: "Chris is a UX design leader with 15 years experience building products, defining strategy, and crafting vision. Outside of work he loves travelling, going to the theater, and spending time with his family."
