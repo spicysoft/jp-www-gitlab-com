@@ -12,8 +12,6 @@ features:
     - Deployment Management
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/357934'
     description: |
-      <!-- What is the problem and solution you're proposing? This content sets the overall vision for the feature and serves as the release notes that will populate in various places, including the [release post blog](https://about.gitlab.com/releases/categories/releases/) and [Gitlab project releases](https://gitlab.com/gitlab-org/gitlab/-/releases). " -->
-
       The agent for Kubernetes allows both pull- and push-based deployment support. Push-based support is provided through its GitLab CI/CD integration, called the CI/CD workflow. The integration allows [restricting the potential of CI jobs using Kubernetes RBAC](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#impersonate-the-cicd-job-that-accesses-the-cluster).
 
       Until now, users could not restrict CI access to specific [environment tiers](https://docs.gitlab.com/ee/ci/environments/#deployment-tier-of-environments), increasing the security risks of the integration. The current release expands the `groups` the impersonated CI job account belongs to with environment-tier specific information. Kubernetes admins can target these groups with RBAC for improved control of CI access to clusters.
