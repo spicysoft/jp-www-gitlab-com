@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Improve DevOps efficiency with new out-of-the-box DORA comparison report"
+  - name: "Improve DevOps efficiency with the pre-defined DORA comparison report"
     available_in: [ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/insights/index.html#dora-query-parameters'
