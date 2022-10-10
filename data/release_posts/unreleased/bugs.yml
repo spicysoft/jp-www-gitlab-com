@@ -22,5 +22,9 @@ tertiary:
       - [Wiki pages set as the project landing page display Asciidoc links correctly](https://gitlab.com/gitlab-org/gitlab/-/issues/254796)
       - [Convert unicode characters included in PlantUML code blocks when switching between Wiki source and rich text editors](https://gitlab.com/gitlab-org/gitlab/-/issues/375344)
       - [Filter bar missing for developers in audit events](https://gitlab.com/gitlab-org/gitlab/-/issues/344452)
-      
-
+      - [Import/Export fails to export projects due to errors while exporting merge requests](https://gitlab.com/gitlab-org/gitlab/-/issues/370741)
+      - [Gitlab Migration fails systematically with some data not being migrated](https://gitlab.com/gitlab-org/gitlab/-/issues/367915)
+      - [Validate source type in Gitlab Migration](https://gitlab.com/gitlab-org/gitlab/-/issues/374693)
+      - [Set BulkImports::Tracker as skipped if entity is failed](https://gitlab.com/gitlab-org/gitlab/-/issues/375100)
+      - [Github import: incorrect amount of imported issues in import status endpoint](https://gitlab.com/gitlab-org/gitlab/-/issues/353583)
+      - [Missing objects for imported Github repo when github api rate limit is reached](https://gitlab.com/gitlab-org/gitlab/-/issues/354848)
