@@ -19,11 +19,9 @@ expertise: |
 projects:
   gitlab:
   - reviewer backend
-  - reviewer product_intelligence
   - reviewer tooling
   version-gitlab-com:
   - maintainer backend
-  - reviewer database
   gitlab-triage: reviewer
   gitlab-styles: reviewer
   gitlab-dangerfiles: reviewer
