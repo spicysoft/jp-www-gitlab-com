@@ -1,6 +1,6 @@
 ---
 features:
-  primary:
+  secondary:
   - name: "User can opt-in to import expensive relations from GitHub"
     available_in: [core, premium, ultimate]
     gitlab_com: true
