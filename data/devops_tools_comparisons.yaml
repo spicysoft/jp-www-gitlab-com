@@ -787,7 +787,7 @@ devops_tools:
 
             What is Azure DevOps? Azure DevOps offers functionality that covers multiple stages of the DevOps lifecycle including planning tools, source code management (SCM), and CI/CD.   Azure DevOps got there by rebranding some products to Azure DevOps and by integrating some of the tools that make up the DevOps Toolchain.  For example, on September 10, 2018 Microsoft renamed VSTS to Azure DevOps and later renamed TFS to Azure DevOps Server, and upgraded both with the same new user interface.
 
-            GitLab has built a single application that covers the entire DevOps Tool Chain - planning, source code management, continuous integration, continuous delivery, security too monitoring.  This enable close and seamless exchange of information and actions from one point in the DevOps lifecycle to another.
+            GitLab has built a single application that covers the entire DevOps Tool Chain - planning, source code management, continuous integration, continuous delivery, security to monitoring.  This enables close and seamless exchange of information and actions from one point in the DevOps lifecycle to another.
 
 # Defines the comparison table for Jenkins
 
