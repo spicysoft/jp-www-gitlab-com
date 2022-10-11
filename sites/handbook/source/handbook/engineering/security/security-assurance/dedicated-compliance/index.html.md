@@ -9,7 +9,7 @@ title: "Security Compliance, Dedicated Markets Team"
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Compliance, Dedicated Markets Mission
+## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Compliance (Dedicated Markets) Mission
 
 Our Mission is to advance customer trust with a focus on customers operating in highly regulated industries or who otherwise have unique security and compliance requirements. We will accomplish this mission by:
 
@@ -22,24 +22,34 @@ For more information on the direction of the GitLab Dedicated category, please s
 ## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Competencies
 As a member of the [Security Assurance](/handbook/engineering/security/security-assurance/) sub-department, and fork of the existing [Security Compliance team](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/), we share many of the same core competencies. The difference between our teams is in the product/system scope (GitLab Dedicated and any future offerings for highly regulated markets) and the security certifications we are pursuing.
 
-1. [Internal Security Compliance Audit](/handbook/engineering/security/security-assurance/security-compliance/security-control-lifecycle.html)
-   * [GCF Continuous Control Monitoring](/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html)
-   * Continuous Control Monitoring Automation
+1. [Security Certifications](/handbook/engineering/security/security-assurance/security-compliance/certifications.html)
+   * External Audit Coordination
+   * [Gap Assessments/Readiness Assessments](/handbook/engineering/security/security-assurance/security-compliance/gap-analysis-program.html)
+1. [Observation and Remediation Management](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
+   * Identifying control weaknesses and gaps (observations)
+   * Remediation recommendations
+   * Tracking remediation plans to completion
+1. [Continuous Monitoring of GitLab's Security Controls](handbook/engineering/security/security-assurance/security-compliance/sec-controls.html) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
    * [User Access Reviews](/handbook/engineering/security/security-assurance/security-compliance/access-reviews.html)
    * [Business Continuity Plan (BCP)](https://about.gitlab.com/handbook/business-technology/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)](https://about.gitlab.com/handbook/engineering/security/Information-System-Contingency-Plan-ISCP.html) testing
-1. [Security Certifications](/handbook/engineering/security/security-assurance/security-compliance/certifications.html)
-   * External Audits
-   * [Gap Assessments/Readiness Assessments](/handbook/engineering/security/security-assurance/security-compliance/gap-analysis-program.html)
-1. [Observation and Remediation](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
-   * Security Control Testing Activities (CCM)
-   * Customer Assurance Activities
-   * External Audits
-   * Ad-hoc Observations
-   * Gap Assessment Activities
 
 Some of our work is [not public](https://about.gitlab.com/handbook/communication/confidentiality-levels/#not-public) for now. Please see the [internal handbook](https://internal-handbook.gitlab.io/handbook/engineering/) to find out more about what our team is working on, or reach out to us.
 
-## <i id="biz-tech-icons" class="fas fa-tasks"></i>Metrics and Measures of Success
+## <i class="fa-solid fa-magnifying-glass"> Vision and Focus Areas
+Security Compliance is part of the [2nd line of defense](https://www.isaca.org/resources/isaca-journal/issues/2018/volume-4/roles-of-three-lines-of-defense-for-information-security-and-governance#:~:text=While%20the%20three%20lines%20of,explore%20ways%20to%20optimize%20outputs) and our goal is identify and treat risks early before they have more severe impacts later on (i.e. regulatory or reputational). We strive to partner with the 1st line of defense (Engineering, Product, and other parts of the organization) to shift compliance left where it is both more effective and less burdensome. To achieve that vision, we need to focus on the following areas and solicit feedback from other parts of the organization:
+* Meet our stakeholders where they are
+   * Learn the key projects, architectures, and technologies of the products we support 
+* Reduce [toil](https://sre.google/sre-book/eliminating-toil/) for control owners and ourselves
+   *  Automate controls as part of the 1st line of defense and look for efficiencies
+* Modernize and scale
+   * Identify and implement Governance, Risk, and Compliance (GRC) best practices and "cloud native compliance" solutions
+* Measure success and impact on customer trust
+   * Identify actionable key performance indicators (KPIs) and key risk indicators (KRIs) for leadership
+
+### Where we work
+We primarily work out of projects in our [Dedicated Compliance team subgroup](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance), the Security Department and Security Assurance parent groups, the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team), and the Security Compliance [Observation Management project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/sec-compliance/observation-management).
+
+## <i class="fa-solid fa-chart-mixed" style="color:rgb(110,73,203)" aria-hidden="true"></i> Metrics and Measures of Success
 
 1. [Security Control Health](/handbook/engineering/security/performance-indicators/#security-control-health)
 1. [Security Observations](/handbook/engineering/security/performance-indicators/#security-observations-tier-3-risks)
@@ -47,7 +57,7 @@ Some of our work is [not public](https://about.gitlab.com/handbook/communication
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
 
 * Slack
-   * Feel free to tag is with `@dedicated_compliance`
+   * Feel free to tag us with `@dedicated_compliance` or `@sec-compliance-team` to reach the entire Security Compliance team
    * The #sec-assurance slack channel is the best place for questions relating to our team (please add the above tag)
 * Tag us in GitLab
    * `@gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance`
