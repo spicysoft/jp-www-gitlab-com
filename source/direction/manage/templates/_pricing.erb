@@ -1,0 +1,47 @@
+The Manage stage is mainly focused around enabling users to quickly get started with using GitLab, and therefore many of the features a are available at Core/Free. However, as we move into specific requirements for compliance and Enterprise customers that need to manage their GitLab workspace at scale, features will be introduced into paid tiers as well and are intended to drive [company-level financial goals](https://about.gitlab.com/company/okrs/).
+
+##### Free
+This tier is the primary way to increase broad adoption of the Manage stage, as well as encouraging community contributions and improving security across the entire GitLab user base.
+
+As a general rule of thumb, features will fall in the Core/Free tier when they meet one or more of the following criteria:
+* The feature is primarily for an individual with a few small projects rather than meeting the needs of an organization or enterprise that is operating at scale
+* The feature is provided by an integration with an open source project rather than being natively developed by GitLab
+* The feature has the potential to increase the security posture of all GitLab projects in a significant way, or there is a reasonable ethical/moral obligation to make the feature available to all users
+* The ongoing cost for GitLab to maintain and update the feature is relatively minimal
+
+Some examples include:
+
+###### Compliance capabilities
+* [Restrict SSH keys](https://docs.gitlab.com/ee/security/ssh_keys_restrictions.html)
+* [Granular user roles and flexible permissions](https://docs.gitlab.com/ee/user/permissions.html)
+* [Enforce TOS acceptance](https://docs.gitlab.com/ee/user/admin_area/settings/terms.html)
+* Importing capabilities (such as [project](https://docs.gitlab.com/ee/user/project/import/) and [group](https://docs.gitlab.com/ee/user/group/settings/import_export.html) import/export) will always be free. Widely available import capabilities will increase the number of GitLab instances, decrease time to value, and drive SMAU.
+* While some authentication features like [group sync](https://docs.gitlab.com/ee/administration/auth/ldap/#group-sync) will be paid, configuring and using basic authentication strategies (LDAP, SAML) will be free.
+
+##### Premium
+As the default paid tier for enterprises, Premium will cater to directors operating a medium to large instance. We'll direct features that solve for typical entry-level enterprise needs: reporting and analytics, operational efficiency, deployment automation, security and compliance, and other needs that are must-haves for medium to large organizations. While this type of organization should be able to get started in GitLab at lower tiers, they won't be able to thrive at scale.
+
+Some examples include:
+
+###### Compliance capabilities
+* [Email all users of a project, group, or entire server](https://docs.gitlab.com/ee/tools/email.html)
+* [Omnibus package supports log forwarding](https://docs.gitlab.com/omnibus/settings/logs.html#udp-log-forwarding)
+* [Lock project membership to group](https://docs.gitlab.com/ee/user/group/index.html#prevent-members-from-being-added-to-a-group)
+* [LDAP group sync](https://docs.gitlab.com/ee/administration/auth/ldap/index.html#group-sync)
+* [LDAP group sync filters](https://docs.gitlab.com/ee/administration/auth/ldap/index.html#group-sync)
+* [Audit events](https://docs.gitlab.com/ee/administration/audit_events.html)
+* [Auditor users](https://docs.gitlab.com/ee/administration/auditor_users.html)
+* Separation of Duties using [Protected branches](https://docs.gitlab.com/ee/user/project/protected_branches.html#protected-branches-approval-by-code-owners) and [custom CI Configuration Paths](https://docs.gitlab.com/ee/ci/pipelines/settings.html#custom-cicd-configuration-path)
+* [Compliance frameworks](https://docs.gitlab.com/ee/user/project/settings/index.html#compliance-frameworks)
+* * Authentication/authorization capabilities that make managing users easy at scale. While the task of onboarding/offboarding a single user is straightforward for managers, we need to manage this aspect of operations consistently and automatically for instances with thousands of users. We anticipate features like [LDAP group mapping](https://docs.gitlab.com/ee/user/group/index.html#creating-group-links-via-filter) and [SCIM](https://docs.gitlab.com/ee/user/group/saml_sso/scim_setup.html) to remain in this tier.
+
+##### Ultimate
+This tier is directed toward an executive likely buyer. Manage groups will direct capabilities into Ultimate which serve the organizational needs of a complex enterprise operating a large GitLab instance. We'll focus on features which will help drive compliance into the workflows.
+
+Some examples include:
+
+###### Compliance capabilities
+* [Credentials inventory](https://docs.gitlab.com/ee/user/admin_area/credentials_inventory.html)
+* [Compliance pipelines](https://docs.gitlab.com/ee/user/project/settings/index.html#compliance-pipeline-configuration)
+* [Compliance dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/index.html)
+* Intelligent alerting that use predictive analytics to identify important events. These events may include instance events that lie outside of a compliance framework (e.g. creating an issue and assigning it to an administrator on a new IP address failing an MFA check).

@@ -478,14 +478,18 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 ^[Product - Dev Section]
 /source/direction/dev/ @ogolowinski @gl-product-leadership
 /source/direction/dev/strategies/ @ogolowinski @gl-product-leadership
-/source/direction/manage/ @ogolowinski @gl-product-leadership
+/source/direction/manage/ @mushakov @ogolowinski @gl-product-leadership
 /source/direction/manage/auth/ @ogolowinski @hsutor @gl-product-leadership
 /source/direction/manage/subgroups/ @ogolowinski @gl-product-leadership
 /source/direction/manage/importers/ @ogolowinski @gl-product-leadership
 /source/direction/manage/internationalization/ @ogolowinski @gl-product-leadership
 /source/direction/manage/devops-reports/ @hsnir1 @ogolowinski @gl-product-leadership
 /source/direction/manage/code-analytics/ @hsnir1 @ogolowinski @gl-product-leadership
-/source/direction/manage/value_stream_management/ @hsnir1 @ogolowinski @gl-product-leadership
+/source/direction/manage/foundations/navigation_settings/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
+/source/direction/manage/foundations/design_system/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
+/source/direction/manage/foundations/gitlab_docs/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
+/source/direction/manage/integrations/ @gl-product-leadership @mushakov @ogolowinski @g.hickman
+/source/direction/plan/value_stream_management/ @hsnir1 @ogolowinski @gl-product-leadership
 /source/direction/plan/portfolio_management/ @mushakov @ogolowinski @amandarueda @gl-product-leadership
 /source/direction/plan/design_management/ @mushakov @ogolowinski @amandarueda @gl-product-leadership
 /source/direction/plan/certify/ @mushakov @ogolowinski @gl-product-leadership
@@ -502,11 +506,6 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/create/editor/content_editor/ @sarahwaldner @ogolowinski @ericschurter @gl-product-leadership
 /source/direction/create/editor/pages/ @sarahwaldner @ericschurter @ogolowinski @gl-product-leadership
 /source/direction/create/gitter/ @sarahwaldner @ericschurter @ogolowinski @gl-product-leadership
-/source/direction/ecosystem/foundations/navigation_settings/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
-/source/direction/ecosystem/foundations/design_system/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
-/source/direction/ecosystem/ @mushakov @ogolowinski @gl-product-leadership
-/source/direction/ecosystem/foundations/gitlab_docs/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
-/source/direction/ecosystem/integrations/ @gl-product-leadership @mushakov @ogolowinski @g.hickman
 
 ^[Product Section - Ops]
 /source/direction/ops/ @david

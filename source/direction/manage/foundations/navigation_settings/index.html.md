@@ -2,7 +2,7 @@
 layout: markdown_page
 title: "Category Direction - Navigation & Settings"
 description: "This is the Product Direction Page for the Navigation and Settings patterns within GitLab."
-canonical_path: "/direction/ecosystem/foundations/navigation_settings/"
+canonical_path: "/direction/manage/foundations/navigation_settings/"
 ---
 
 - TOC

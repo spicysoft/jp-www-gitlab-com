@@ -209,67 +209,14 @@ _You can view a list of all of our current integrations on our [Integrations pag
 
 ## What's next and why
 
-### Consolidate Slack Integrations into a Simplified and Upgraded Slack Application
+<%= partial("direction/manage/integrations/templates/next") %>
 
-Slack is one of our most heavily used integrations, is leveraged by customers large and small, and is our primary chat solution outside of GitLab To-Dos and Notifications, which allows for dogfooding and rapid feedback loops.
-
-Today we have multiple Slack integrations, but our goal is to consolidate and simplify our integrations into a single Slack Application that serves GitLab.com and GitLab Self-Managed customers, making it easier for users to access the full set of features, as well as to improve the efficiency of our development/maintenance. 
-
-Our current plans are captured in our [Planning Epic](https://gitlab.com/groups/gitlab-org/-/epics/7536).
-
-### Improve our Webhooks
-
-Webhooks are a generic way for projects to be integrated with any other service. GitLab's APIs allow other services to _reach in to_ our data, Webhooks proactively send data to another service when certain events happen. These are increasingly important for external vendors, as they offer a key way to integrate with GitLab that doesn't require them building inside our codebase.
-
-While we recently implemented [limits on Webhooks per plan](https://docs.gitlab.com/ee/user/gitlab_com/index.html#webhooks), we'll continue improving the scalability of this service, as well as improve usability:
-
-* [Disabled Webhooks](https://gitlab.com/groups/gitlab-org/-/epics/8083) 
-* [Add alert for Disabled Webhooks](https://gitlab.com/gitlab-org/gitlab/-/issues/363027)
-* Improving Latency, such as with [this endpoint](https://gitlab.com/gitlab-org/gitlab/-/issues/365408)
-* [Disable Invalid Webhooks](https://gitlab.com/groups/gitlab-org/-/epics/8198)
-* [Encrypting Personal Web Tokens in Webhook URLs](https://gitlab.com/groups/gitlab-org/-/epics/7970)
-* [Open Issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Integration%3A%3Awebhooks)
-
-### Improve Jira Integration support
-
-Jira is one of our most popular integrations, and a common thread we hear is that "developers want
-to be able to stay in GitLab", and not need to visit Jira to do daily tasks. The goal of our upcoming work is to get the features to a point where a typical developer can stay in GitLab for the majority of their Jira needs.
-
-Self-managed GitLab users will soon be able to use the GitLab for Jira App via the [self-managed proxy](https://gitlab.com/groups/gitlab-org/-/epics/5650).
-
-Customers are also increasingly interested in [leveraging Jira issue data within GitLab's Value Stream Analytics](https://gitlab.com/gitlab-org/gitlab/-/issues/348626) as well as adding [support for PATs](https://gitlab.com/groups/gitlab-org/-/epics/8222).
-
-### Build a native ServiceNow integration
-
-ServiceNow is a key component in how many of our largest customers handle Change Management. Through ServiceNow, they maintain an audited chain of custody with code changes, approve/deny changes based on a strict approval workflow, and manage deployment on a scheduled cadence. ServiceNow allows these customers to take these audit logs and centralize them with other data that they're using to monitor and report about their compliance regime.
-
-In coordination with ServiceNow as a partner, ServiceNow is actively working to enhance their GitLab Spoke to support more actions for CI/CD, Incident Management, MR Management, and Package Management.
-
-We'll next be exploring an MVC for a native GitLab integration that [enables Ultimate users to facilitate Change Management between GitLab and ServiceNow](https://gitlab.com/groups/gitlab-org/-/epics/8180).
-
-### Create a joint REST and GraphQL API strategy
-
-GitLab offers a REST and GraphQL API to give customers options on how to best integrate with GitLab. Until now, we have not developed a cohesive strategy that optimizes for parity between them and efficiency in maintaining both implementations.
-
-Immediate next steps, as a function of our [API Working Group](https://about.gitlab.com/company/team/structure/working-groups/api-vision/) are:
-
-* Test our [POC for a REST wrapper over our GraphQL API](https://gitlab.com/gitlab-org/gitlab/-/issues/363795), dubbed `Raisin`
-* Explore mechanisms for [Automated Documentation](https://gitlab.com/groups/gitlab-org/-/epics/5792), ideally generating OpenAPI specs based on our REST APIs
 
 
 ## What we're not doing
 
-### Building a "marketplace"
+<%= partial("direction/manage/integrations/templates/not_doing") %>
 
-GitLab does not utilize a plugin model for integrations with other common tools and services, or provide a marketplace for them. As an [open core project](https://en.wikipedia.org/wiki/Open-core_model), integrations can live directly inside the product. Learn more about our reasons for this in our [Product Handbook](/handbook/product/product-principles/#avoid-plugins-and-marketplaces).
-
-This does not mean we will **never** build a "marketplace" for GitLab, it just means we have no intention of doing it at this time.
-
-### Integrating "everything"
-
-There are dozens of products and services that customers have requested that we build an integration with, and we sincerely wish we had the time and funding to be able to build all of them. However, since we are a team of limited size and there are only so many hours in a day, we are focused on the priorities listed above.
-
-However, we're happy to [partner with your company](/partners/technology-partners/integrate/) if you'd like to contribute an integration with your product. As an [open core project](https://en.wikipedia.org/wiki/Open-core_model), anyone in our community is welcome to add the integrations they need.
 
 ## Contributing
 
