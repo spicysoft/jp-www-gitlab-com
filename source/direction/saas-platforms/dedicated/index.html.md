@@ -158,11 +158,13 @@ Based on the prioritization framework, during Limited Availability we will focus
 | Priority | Category | Description |
 |-----------------------------|--------------------------|-----------------------|
 | 0 | KTLO - On Call | Operating Tenant Production Environments |
-| 1 | Security | Supporting security certifications and addressing findings from audits |
-| 2 | Improve SLAs (Availability, RTO, RPO) | Geo, failover testing, automated restore |
-| 3 | Support Customer Config Changes |  Customers will need config changes during onboarding and weekly maintenance windows. |
+| 1 | Security/Compliance | Attain security and third party compliance certifications and addressing findings from audits |
+| 2 | Improve SLAs (Availability, RTO, RPO) | Geo, disaster recovery, failover testing, automated restore |
+| 3 | Automation | Reduce toil required to operate Dedicated platform including Switchboard (management portal for customer admins) MVC and Automated Version Management  |
 | 4 | Enable GitLab Functionality | Dependency proxy, Pages, advanced search |
-| 5 | Switchboard (management portal for customer admins) |  Deliver MVC |
+| 5 | Support Customer Config Changes |  Customers will need config changes during onboarding and weekly maintenance windows. |
+
+
 
 The full roadmap for LA can be [found here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/484#roadmap-during-limited-availability)(GitLab internal).
 The full roadmap for GA [is documented in this Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/485#post-ga-roadmap)(GitLab internal).
