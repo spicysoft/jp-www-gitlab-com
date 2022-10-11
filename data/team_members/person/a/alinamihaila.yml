@@ -2,8 +2,9 @@
 name: Alina Mihaila
 locality:
 country: Remote
-role: <a href="/job-families/engineering/backend-engineer/#engineering-productivity">Senior Backend Engineer, Engineering Productivity</a>
-reports_to: kyle-wiebers
+role: <a href="/job-families/engineering/backend-engineer/#engineering-productivity">Senior
+  Backend Engineer, Engineering Productivity</a>
+reports_to: mek
 picture: alinamihaila.png
 twitter: alina_vancea
 gitlab: alinamihaila
@@ -14,8 +15,9 @@ departments:
 - Merge Request Coach
 specialty: Engineering Productivity
 mentor: true
-expertise: |
-  <li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+expertise: '<li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+
+  '
 projects:
   gitlab:
   - reviewer backend
