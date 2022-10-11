@@ -454,7 +454,7 @@ navigation:
   stage: manage
   description: "How users easily discover and configure product features."
   documentation:
-  direction: /direction/ecosystem/foundations/navigation_settings/
+  direction: /direction/manage/foundations/navigation_settings/
   marketing: false
   roi:
   priority_level:
@@ -620,7 +620,7 @@ gitlab_docs:
     - gitlab docs
   documentation: 'https://docs.gitlab.com/ee/development/documentation/site_architecture/'
   description: "Improve and maintain the features, style, and build process for the GitLab Documentation website."
-  direction: /direction/ecosystem/foundations/gitlab_docs/
+  direction: /direction/manage/foundations/gitlab_docs/
   roi: false
   marketing: false
   dogfooding_status: Active
@@ -722,7 +722,7 @@ integrations:
   stage: manage
   feature_labels:
     - Category:Integrations
-  direction: /direction/ecosystem/integrations/
+  direction: /direction/manage/integrations/
   documentation: https://docs.gitlab.com/ee/integration/
   description: "Integrations are places where the GitLab product connects to features and services from other products. These integrations seek to offer our customers a seamless experience between these products, and range from lightweight features like Slack notifications for projects, to deep and complex integrations with Atlassian JIRA that connect a wide array of functionality throughout the GitLab product."
   roi: false
@@ -737,7 +737,7 @@ design_system:
   name: Design System
   stage: manage
   documentation: https://design.gitlab.com
-  direction: /direction/ecosystem/foundations/design_system/
+  direction: /direction/manage/foundations/design_system/
   description: "GitLab's design system called Pajamas. Used internally to power GitLab in order to improve user interface consistency and accessibility."
   feature_labels:
     - Category:Foundations
