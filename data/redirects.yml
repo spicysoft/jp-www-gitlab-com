@@ -3227,6 +3227,24 @@
   target: /handbook/engineering/metrics/sec/govern/compliance
   comp_op: '='
 - sources:
+    - /handbook/engineering/metrics/dev/ecosystem
+    - /handbook/engineering/metrics/dev/ecosystem/
+    - /handbook/engineering/metrics/dev/ecosystem/index.html
+  target: /handbook/engineering/metrics/dev/manage
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/dev/ecosystem/foundations
+    - /handbook/engineering/metrics/dev/ecosystem/foundations/
+    - /handbook/engineering/metrics/dev/ecosystem/foundations/index.html
+  target: /handbook/engineering/metrics/dev/manage/foundations
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/dev/ecosystem/integrations
+    - /handbook/engineering/metrics/dev/ecosystem/integrations/
+    - /handbook/engineering/metrics/dev/ecosystem/integrations/index.html
+  target: /handbook/engineering/metrics/dev/manage/integrations
+  comp_op: '='
+- sources:
     - /handbook/engineering/ux/stage-group-ux-strategy/protect
     - /handbook/engineering/ux/stage-group-ux-strategy/protect/
     - /handbook/engineering/ux/stage-group-ux-strategy/protect/index.html
