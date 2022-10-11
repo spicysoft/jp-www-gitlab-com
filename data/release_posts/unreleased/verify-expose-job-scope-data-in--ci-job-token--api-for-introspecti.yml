@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Expose CI_JOB_TOKEN scope status in the jobs API endpoint"
+  - name: "Expose CI/CD job token scope status in the jobs API endpoint"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/api/jobs.html'
