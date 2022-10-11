@@ -19,6 +19,7 @@ projects:
   gitlab: reviewer frontend
   gitlab-vscode-extension: maintainer
   gitlab-web-ide: maintainer
+  gitlab-cli: maintainer
 domain_expertise:
 - typescript
 - vscode_extension_development
