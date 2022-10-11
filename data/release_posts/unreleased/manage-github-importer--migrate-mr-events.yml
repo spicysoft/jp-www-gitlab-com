@@ -1,0 +1,14 @@
+---
+features:
+  secondary:
+  - name: "GitHub Importer - Migrate MR events"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: gitlab_bot
+    stage: manage
+    categories:
+    - Importers
+    epic_url: 'https://gitlab.com/groups/gitlab-org/-/epics/7673'
+    description: |
+      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
