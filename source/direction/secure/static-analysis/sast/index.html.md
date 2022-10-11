@@ -1,5 +1,5 @@
 ---
-layout: secure_and_protect_direction
+layout: sec_direction
 title: "Category Direction - Static Application Security Testing (SAST)"
 description: "Static Application Security Testing (SAST) checks source code to find possible security vulnerabilities."
 canonical_path: "/direction/secure/static-analysis/sast/"

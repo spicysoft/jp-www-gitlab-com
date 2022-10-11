@@ -1,5 +1,5 @@
 ---
-layout: secure_and_protect_direction
+layout: sec_direction
 title: "Category Direction - Security Policy Management"
 description: "GitLab's Security Policy Management category provides unified policy and alert orchestration capabilities that span across the breadth of GitLab's security offerings."
 canonical_path: "/direction/govern/security_policies/security_policy_management/"

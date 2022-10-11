@@ -1,0 +1,114 @@
+---
+layout: sec_direction
+title: "Group Direction - Applied Machine Learning"
+description: "Focused on improving GitLab features with data science"
+canonical_path: "/direction/modelops/applied_ml/"
+---
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+
+## Overview
+
+Machine Learning and Artificial Intelligence promise smarter and powerful software and features. With the depth, breadth, and scale of the GitLab platform, there are many opportunities to leverage data science to make existing GitLab features more intelligent.
+
+> [Watch a video overview](https://about.gitlab.com/direction/modelops/#stage-direction-walkthrough) of the GitLab ModelOps direction
+
+### Goal
+
+This group is focused on extending GitLab functionality by providing additional value via leveraging ML/AI. This group will support our [Product Groups](https://about.gitlab.com/handbook/product/categories/) on applying ML/AI to their existing categories and features with a focus on making them smarter, easier to use, and more intelligent. Prioritization of applying ML/AI to existing categories will be set in partnership between the Applied Machine Learning PM and the PM desiring to add ML/AI to their category.
+
+### Categories
+
+- *Workflow Automation* → Automatic generation of new Issues and merge requests as well as automatic labeling and label tracking. This includes identifying and assigning code reviewer assignments automatically. Our customers are looking for us to help them streamline their processes and deliver their software faster. This is our first focus as we can easily dogfood these capabilities as they are implemented.
+    - Current examples include proper labeling of issues based on issue content, finding the right code-reviewers to review code, automatically trimming or expanding the CI/CD pipeline based on learned past behavior, and helping users find "related issues even if they are not linked explicitly".
+    - Future examples include helping users “be more polite and inclusive in their responses to issues", and "helping people write complete and better issues by using NLP techniques".
+- *Intelligent Code Security* → Automatic detection of insecure coding (e.g., code quality) as well as automatic remediation of insecure coding / security vulnerabilities. This will enable us to provide “auto-healing” as well as empower customers with solutions so they can reduce future insecure coding practices. Our customers are asking us to partner with them to reduce their overall risk. This is our final focus and will expand our capabilities in the Verify and Secure stages.
+    - Examples include "auto-suggesting remedies and fixes to configuration" based on what we have learned from source code history and leveraging knowledge from abstract code graphs at scale to prevent others from running into the same issues the "ticket-reporting" customer ran into.
+
+### Roadmap
+
+- Current: Automatic Issue Labeling (internal dogfooding).
+- Integrating [our recent acquisition of UnReview](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html) for smarter code reviewer suggestions.
+
+## What's Next & Why
+
+### Smarter Code Reviewer suggestions
+
+> [GitLab acquires UnReview as it looks to bring more ML tools to its platform](https://techcrunch.com/2021/06/02/gitlab-acquires-unreview-as-it-looks-to-bring-more-ml-tools-to-its-platform/)
+
+Integrating [UnReview’s technology](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html) into the GitLab platform marks our first step in building GitLab’s Applied Machine Learning for DevOps.
+
+### Automatic Issue Labeling
+We are currently actively working on an ML model that automatically labels GitLab internal issues based on issue content. [You'll see GitLab issues](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=automation%3Aml) with the `automation:ml` label that have been automatically labeled by our model. You can also provide training feedback to the model if it is incorrect by applying the `automation:ml wrong` label. Internal employees can view a feed of these issues with probability data in Slack in the [#feed-tanuki-stan](https://gitlab.slack.com/archives/C01HM3RA2RE) channel.
+
+We pursued this feature first as a way to get a data science workload working within GitLab's existing CI/CD as well as running on top of production GitLab data and interacting with the GitLab data model. This will set the foundation for work in our [MLOps group](../mlops) and our other Applied ML categories listed above.
+
+## How We Work
+
+You can read more about our engineering team and our processes in the [Applied ML Engineering handbook](https://about.gitlab.com/handbook/engineering/development/modelops/appliedml/).
+
+## Analyst Landscape
+
+Based on [GitLab’s 2021 DevSecOps survey,](https://about.gitlab.com/developer-survey/) 75% of respondents report their DevOps teams are either using or planning to use ML/artificial intelligence for testing and code review. Additionally, a majority (55%) of operations teams report their life cycles were either completely or mostly automated. These statistics validate the importance of [GitLab’s Applied Machine Learning for DevOps](https://about.gitlab.com/direction/learn/applied_ml/), integrating automation and machine learning technology like UnReview into the GitLab platform.
+
+Industry analyst research into successful operationalization of machine learning outlines the many challenges organizations face by adopting point solution technologies. This is contrasted with the business value provided by integrating applied machine learning, DataOps, MLOps, and ModelOps into existing DevOps processes.
+
+> "With the rapid increase in cloud adoption, spurred by the COVID-19 pandemic, we’re seeing increased demand for cloud-enabled DevOps solutions," said Jim Mercer, research director DevOps and DevSecOps at IDC. "DevOps teams who can capitalize on cloud solutions that provide innovative technologies, such as machine learning, to remove friction from the DevOps pipeline while optimizing developer productivity are better positioned to improve code quality and security driving improved business outcomes."
+
+* Gartner's 2020 [Artificial Intelligence Use Case Prism for Development and Testing](https://www.gartner.com/en/documents/3994888/infographic-artificial-intelligence-use-case-prism-for-d) cited Security Vulnerability Detection as an emerging application of ML and rule-based systems.
+* [Forrester Research Overview: Machine Learning For Information Platforms](https://www.forrester.com/report/Research+Overview+Machine+Learning+For+Information+Platforms/-/E-RES157757?objectid=RES157757)
+
+## Other potential future areas of interest
+
+### Signal / noise separation
+
+Signal detection is very hard in a noisy environment. GitLab intends to use
+ML to warn users of any signals that stand out against the background noise in several features:
+
+- security scans, notifying the user of stand-out warnings or changes
+- error rates and log output, allowing you to rollback / automatically rollback a change if the network notices aberrant behavior
+
+
+### Recommendation engines
+
+Automatically categorizing and labelling is risky. Modern models tend to overfit, e.g. resulting
+in issues with too many labels. However, similar models can be used very well in combination
+with human interaction in the form of recommendation engines.
+
+- [suggest labels to add to an issue / MR (one click to add)](https://gitlab.com/tromika/gitlab-issues-label-classification)
+- suggest a comment based on your behavior
+- suggesting approvers for particular code
+
+### Smart behavior
+
+Because of their great ability to recognize patterns, neural networks are an excellent
+tool to help with scaling by anticipating needs. In GitLab, we can imagine:
+
+- auto scaling applications / CI based on past load performance
+- prioritizing parallelized builds based on the content of a change
+
+### Code quality
+
+Similar to [DeepScan](https://deepscan.io/home/).
+
+### Code navigation
+
+Similar to [Sourcegraph](https://about.sourcegraph.com/) although we now have [code intelligence](https://docs.gitlab.com/ee/user/project/code_intelligence.html) in GitLab.
+
+### Audit events
+
+Identifying anomalous activity within audit events systems can be both challenging and valuable. This identification is difficult because audit events are raw, objective data points and must be interpreted against an organization's policies. Knowing about anomalous behavior is valuable because it can allow GitLab administrators and group owners to proactively manage undesirable events.
+
+This is a difficult [problem to solve](https://about.gitlab.com/direction/manage/audit-events/#problems-to-solve), but can help to drastically reduce the overhead of managing risk within a GitLab environment.
+
+<p align="center">
+    <i><br>
+    Last Reviewed: 2021-10-26<br>
+    Last Updated: 2021-10-26
+    </i>
+</p>

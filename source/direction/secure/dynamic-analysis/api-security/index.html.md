@@ -1,5 +1,5 @@
 ---
-layout: secure_and_protect_direction
+layout: sec_direction
 title: "Category Direction - API Security"
 description: "API Security is focused on securing APIs through DAST API scanning and API fuzz testing."
 canonical_path: "/direction/secure/dynamic-analysis/api-security/"

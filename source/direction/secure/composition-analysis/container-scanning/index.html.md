@@ -1,5 +1,5 @@
 ---
-layout: secure_and_protect_direction
+layout: sec_direction
 title: "Category Direction - Container Scanning"
 description: "Container Scanning tests your Docker images against known vulnerabilities that may affect software that is installed in the image. Learn more!"
 canonical_path: "/direction/secure/composition-analysis/container-scanning/"
