@@ -1,14 +1,25 @@
 ---
 features:
   secondary:
-  - name: "GitHub Importer - Migrate MR events"
+  - name: "Support for pull request events import from GitHub"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
-    reporter: gitlab_bot
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/import/github.html#imported-data'
+    reporter: m_frankiewicz
     stage: manage
     categories:
     - Importers
     epic_url: 'https://gitlab.com/groups/gitlab-org/-/epics/7673'
     description: |
-      Lorem ipsum [dolor sit amet](#link), consectetur adipisicing elit. Perferendis nisi vitae quod ipsum saepe cumque quia `veritatis`.
+      We continue to improve the GitHub project importer by adding more metadata to the migrated projects. With added [pull request events history](https://gitlab.com/groups/gitlab-org/-/epics/7673) the following pull request events can be imported from GitHub and
+      become part of an imported merge request's metadata:
+
+      - Closed or reopened.
+      - Labeled or unlabeled.
+      - Review requested or review request removed.
+      - Assigned or unassigned.
+      - Edited.
+
+      Because importing pull request events can take a long time, they aren't imported by default. To import them, select **Import issue and pull request events** when
+      importing with the GitLab UI.
+
