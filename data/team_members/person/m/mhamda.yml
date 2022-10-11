@@ -2,9 +2,9 @@
 name: Mohamed Hamda
 locality:
 country: Remote
-role: <a href="">Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/intermediate/">Backend Engineer, Fulfillment</a>
 reports_to: chasesouthard
-picture: "../gitlab-logo-extra-whitespace.png"
+picture: mohamedhamda.jpg
 pronouns:
 pronunciation:
 twitter:
@@ -18,7 +18,23 @@ departments:
 - Fulfillment:Utilization Team
 - Fulfillment:Utilization BE Team
 - Backend
+projects:
+  customers-app: reviewer backend
 specialty: Fulfillment
 expertise:
-story:
+story: >
+  Mohamed loves challenges where he can put effort into gaining knowledge, not
+  just in programming which he loves, but also in life.
+
+  He is always trying to discover a new country, culture, or learn a new
+  language.
+
+  He loves getting to know new people, helping others, and spreading that
+  attitude to the world.
+
+  He likes playing football/soccer, running, hiking, or trying new activities.
+
+  You can always find him in a city with a minimum of 30°C in summer, but in
+  winter, it depends!
+
 

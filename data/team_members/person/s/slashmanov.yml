@@ -20,7 +20,7 @@ departments:
 - Create:Code Review
 projects:
   gitlab: reviewer frontend
-  gitlab-svgs: trainee_maintainer frontend
+  gitlab-svgs: maintainer frontend
 specialty: Code Review
 expertise:
 domain_expertise:

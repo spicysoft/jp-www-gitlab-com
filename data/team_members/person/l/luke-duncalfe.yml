@@ -8,6 +8,7 @@ reports_to: arturo-herrero
 picture: luke-duncalfe.png
 twitter: l_d
 gitlab: ".luke"
+mentor: true
 pronouns: he/him
 departments:
 - Engineering Function
@@ -17,9 +18,11 @@ departments:
 projects:
   gitlab: maintainer backend
   gitlab-gollum-lib: reviewer backend
-expertise: '<li><a href="https://docs.gitlab.com/ee/api/graphql">GraphQL</a> <a href="/company/team/structure/#expert">expert</a></li>
-
-  '
+expertise: |
+  <li><a href="https://docs.gitlab.com/ee/api/graphql">GraphQL</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/project/integrations/">Integrations</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/user/project/integrations/webhooks.html">Webhooks</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://about.gitlab.com/handbook/engineering/workflow/code-review/#reviewer-mentorship-program">Backend maintainer mentor</a></li>
 domain_expertise:
 - rails
 - ruby
