@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "GitHub Importer - import and store attachments in GitLab"
+  - name: "Import and store attachments when importing from GitHub"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/import/github.html#imported-data'
@@ -11,5 +11,8 @@ features:
     - Importers
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/18052'
     description: |
-      Upon importing projects from GitHub you can now import project's image resources and other attachments types from release notes and comments. They are added to GitLab's infrastructure and their links are updated to new GitLab URLs, so that they not longer link to GitHub CDN.
-      As importing attachments might take a considerable amount of time, [you can choose in the UI](https://gitlab.com/gitlab-org/gitlab/-/issues/370734) if you want to import them or not. By default they are not imported.
+      When importing projects from GitHub, you can now import project image resources and other attachments types from release notes and comments. The attachments are
+      added to GitLab and their links are updated to new GitLab URLs.
+
+      Because importing attachments can take a long time, they aren't imported by default. To import them, select **Thorough notes import** when importing with the
+      GitLab UI.
