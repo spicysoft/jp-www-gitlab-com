@@ -34,7 +34,9 @@ stages:
       - "secure"
       - "govern"
     section: dev
-    pm: Sarah Waldner (Acting)
+    pm: Orit Golowinski
+    em:
+      - Michelle Gill
     groups:
       authentication_and_authorization:
         name: Authentication & Authorization
@@ -307,6 +309,8 @@ stages:
       - "create"
     section: dev
     pm: Melissa Ushakov
+    em:
+      - John Hope
     groups:
       project_management:
         name: Project Management
@@ -500,6 +504,8 @@ stages:
       - "verify"
     section: dev
     pm: Sarah Waldner
+    em:
+      - Darva Satcher
     groups:
       source_code:
         name: Source Code
@@ -653,6 +659,8 @@ stages:
       - "create"
     section: ops
     pm: Jackie Porter
+    em:
+      - Cheryl Li
     groups:
       pipeline_execution:
         name: "Pipeline Execution"
@@ -856,6 +864,8 @@ stages:
     stage_development_spend_percent: 3.5
     analyst_reports:
     pm: Viktor Nagy
+    em:
+      - Sam Goldstein
     section: ops
     slack:
       channel: s_package
@@ -937,6 +947,8 @@ stages:
     gitlab_group: gitlab-org/secure
     handbook: engineering/development/sec/secure/
     cta: includes/ctas/security-whitepaper
+    em:
+      - Thomas Woodham
     groups:
       static_analysis:
         name: Static Analysis
@@ -1142,6 +1154,8 @@ stages:
     slack:
       channel: s_release
     pm: Viktor Nagy
+    em:
+      - Sam Goldstein
     handbook: product/categories/#release-stage
     groups:
       release:
@@ -1213,6 +1227,8 @@ stages:
       - Justin Mandell
     spd:
       - Andy Volpe
+    em:
+      - Sam Goldstein
     section: ops
     slack:
       channel: s_configure
@@ -1296,6 +1312,8 @@ stages:
     handbook: engineering/development/ops/monitor/
     pm: Kevin Chu
     pmm: Aathira Nair
+    em:
+      - Daniel Croft
     groups:
       respond:
         name: "Respond"
@@ -1522,6 +1540,8 @@ stages:
     marketing: false
     tw: true
     pm: Sam Kerr
+    em:
+      - Tim Zallmann
     established: 2022
     related:
       - "monitor"
@@ -1605,6 +1625,8 @@ stages:
     marketing: false
     pm: Omar Fernandez
     pmm: Saumya Upadhyaya
+    em:
+      - Jerome Ng
     tw: true
     groups:
       purchase:
@@ -1867,6 +1889,8 @@ stages:
     handbook: engineering/development/growth/
     marketing: false
     tw: true
+    em:
+      - Phil Calder
     related:
       - manage
       - plan
@@ -1967,6 +1991,8 @@ stages:
     usage_driver_score: 5
     revenue_driver_score: 4
     sam_driver_score: 5
+    em:
+      - Chun Du
     groups:
       distribution_build:
         name: Distribution:Build
@@ -2207,6 +2233,8 @@ stages:
     usage_driver_score: 5
     revenue_driver_score: 4
     sam_driver_score: 5
+    em:
+      - Nick Nguyen
     groups:
       application_performance:
         name: "Application Performance"
@@ -2479,6 +2507,8 @@ stages:
     direction: /direction/modelops/
     gitlab_group:
     pm: Taylor McCaslin
+    em:
+      - Wayne Haber
     pdm:
         - Taurie Davis
     handbook: /handbook/engineering/development/modelops/
