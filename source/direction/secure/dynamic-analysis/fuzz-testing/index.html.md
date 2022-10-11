@@ -1,5 +1,5 @@
 ---
-layout: secure_and_protect_direction
+layout: sec_direction
 title: "Category Direction - Fuzz Testing"
 description: "GitLab's fuzz testing helps you find security vulnerabilities and bugs that traditional QA misses."
 canonical_path: "/direction/secure/dynamic-analysis/fuzz-testing/"

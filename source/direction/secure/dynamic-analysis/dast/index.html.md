@@ -1,5 +1,5 @@
 ---
-layout: secure_and_protect_direction
+layout: sec_direction
 title: "Category Direction - Dynamic Application Security Testing"
 description: "Dynamic application security testing (DAST) is a process of testing an application or software product in an operating state. Learn more here!"
 canonical_path: "/direction/secure/dynamic-analysis/dast/"
