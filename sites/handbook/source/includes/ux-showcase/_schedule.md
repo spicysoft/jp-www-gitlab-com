@@ -2,7 +2,7 @@
 
 | Date       | Host                        | Presenter 1     | Presenter 2     | Presenter 3      | 
 | ---------- | --------------------------- | --------------- | --------------- | ---------------- | 
-| 2022-10-12 | Blair Christopher           | Alexis Ginsberg | Philip Joyce    |                  |
+| 2022-10-12 | Blair Christopher           | Alexis Ginsberg | Philip Joyce    | Gina Doyle       |
 | 2022-10-26 | Jacki Bauer                 | Becka Lippert   | Libor Vanc      | Andy Volpe       | 
 | 2022-11-09 | Justin Mandell              | Matej Latin     | Kevin Comoli    | Ali Ndlovu       | 
 | 2022-11-23 | Taurie Davis                | Matt Nearents   | Nick Brandt     |                  | 
