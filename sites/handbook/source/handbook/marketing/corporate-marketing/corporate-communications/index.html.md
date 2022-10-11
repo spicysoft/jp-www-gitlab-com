@@ -273,7 +273,7 @@ Please ensure that the vendor meets the below criteria before proceeding with th
 
 **Approval Process**
 
-If the vendor has met the above criteria, please [submit an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new#vendor-reference-request) in the Corporate Marketing project including the following information for review. Please title the issue `Vendor Reference Request: XYZ Company`. Once the request has been submitted to the corp comms team, please allow for 7-10 days for review and approval of the request. The corp comms team will review all content and relevant info to ensure it follows the SAFE framework and route through the approval process.
+If the vendor has met the above criteria, please [submit an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=vendor-reference-request) in the Corporate Marketing project including the following information for review. Please title the issue `Vendor Reference Request: XYZ Company`. Once the request has been submitted to the corp comms team, please allow for 7-10 days for review and approval of the request. The corp comms team will review all content and relevant info to ensure it follows the SAFE framework and route through the approval process.
 
 - How are you using the vendor/technology?
 - Who is the GitLab DRI for the vendor?
