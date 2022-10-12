@@ -1,16 +1,17 @@
 name: Tao Guo
 locality: 
 country: Remote
-role: <a href="">Staff Incubation Engineer</a>
+role: <a href="/job-families/engineering/incubation-engineer/">Staff Incubation Engineer</a>, Low-Code / No-Code
 reports_to: bartekmarnane
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
+picture: TaoGuo.png
+pronouns: he/him
+pronunciation: Td-how G-w-oh
 twitter:
 linkedin:
 gitlab: astao
 departments:
-  - Incubation Engineering
+  - Engineering Function
+  - Incubation Engineering Department
 specialty: ""
 expertise:
 story:
