@@ -687,13 +687,16 @@
     - Engineering
   presentations:
     - title:
-        "Data Science Conference Croatia 2022: How we build and leverage data services
-        in GitLab.com"
-      link: https://dsccroatia.com/
+        "Data Science Conference Croatia 2022: How we build and leverage data services in GitLab.com"
+      link: https://www.youtube.com/watch?v=DITobq1EJV4
     - title: "Data Science Conference 2021 Europe: How we build data services in GitLab.com"
-      link: https://datasciconference.com/schedule/talks-2.html
-    - title: "Data Science Conference 2021 Europe: Career journey in the Data World"
-      link: https://datasciconference.com
+      link: https://www.youtube.com/watch?v=x74Koq-cNqM&t=723s
+    - title: "PyGeekle'22 US: How we build data services and data products in GitLab.com"
+      link: https://events.geekle.us/python/
+    - title: "DevOpsDays Berlin 2022: Do the magic with DevOps, Open Source and All-Remote Team"
+      link: https://devopsdays.org/events/2022-berlin/welcome/
+    - title: "The Geek Gathering 2022: Do the magic with DevOps, Open Source and All-Remote Team"
+      link: https://thegeekgathering.org/
 - name: Ricardo Amarilla
   region: South America
   location: Asunción, Paraguay
