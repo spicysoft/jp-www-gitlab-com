@@ -1,7 +1,7 @@
 ---
 layout: handbook-page-toc
-title: "Nira"
-description: "What is Nira?"
+title: "NordLayer"
+description: "NordLayer End User Setup Guide"
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -11,4 +11,4 @@ description: "What is Nira?"
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-This page has moved to [/handbook/it/guides/nira](/handbook/it/guides/nira).
+This page has moved to [/handbook/it/guides/nordlayer](/handbook/it/guides/nordlayer).
