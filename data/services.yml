@@ -321,7 +321,7 @@
 
 - id: integration_jira
   name:     JIRA Integration
-  desc_url: /services/integration/
+  desc_url: /services/implementation/integration/
   level:    1 - Product
   category: Integration
   maturity: Viable
@@ -337,7 +337,7 @@
 
 - id: integration_jenkins
   name:     Jenkins Integration
-  desc_url: /services/integration/
+  desc_url: /services/implementation/integration/
   level:    1 - Product
   category: Integration
   maturity: Viable
@@ -353,7 +353,7 @@
 
 - id: integration_ldap
   name:     LDAP Integration
-  desc_url: /services/integration/
+  desc_url: /services/implementation/integration/
   level:    1 - Product
   category: Integration
   maturity: Viable
