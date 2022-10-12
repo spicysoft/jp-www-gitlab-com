@@ -32,7 +32,7 @@ This page focuses on emails and nurture programs, owned and managed by Lifecycle
     - this is an ongoing effort led by Campaigns in collaboration with Content Mktg, Product Mktg, Technical Mktg
     - [see the epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
 * Logic-based Marketo nurture programs by segment
-    - this is an ongoing effort led by Campaigns, and specifically spearheded by our Email Marketing Campaign Manager @nbsmith.
+    - this is an ongoing effort led by Campaigns, and specifically spearheded by our Email Marketing Campaign Manager [@Aklatzkin](https://gitlab.com/Aklatzkin).
     - [see this epic for holding location of projects to be prioritized](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1040)
 
 ### Quick Links
@@ -202,8 +202,7 @@ The following are active GTM motion nurture programs, which each contain content
 Note: Nurtures were moved from every-other-week to be weekly on 2021-01-16 to accelerate INQ > MQL conversion. [Issue for Reference >](https://gitlab.com/gitlab-com/marketing/lifecycle-marketing/-/issues/670)
 
 <details>
-<summary>See inactive nurture programs here
-</summary>
+<summary>See inactive nurture programs here</summary>
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/7889a7fb-e1f0-4c67-92ae-7becd009625f" id="XA5ojeoO~Tej"></iframe></div>
 

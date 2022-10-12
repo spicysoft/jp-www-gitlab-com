@@ -395,7 +395,7 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
    </td>
   </tr>
   <tr>
-   <td><a href="https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_SDR_Support_Template">Event SDR Support Issue Template</a>
+   <td><a href="https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=ISR_SDR_FMTemplate">FM Event SDR Support Issue Template</a>
    </td>
   </tr>
   <tr>

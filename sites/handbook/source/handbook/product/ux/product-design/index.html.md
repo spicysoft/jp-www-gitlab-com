@@ -45,7 +45,7 @@ For specific details:
 * [Prioritization](/handbook/product/ux/product-designer/#priority-for-UX-issues)
 * [Working on Issues](/handbook/product/ux/product-designer/#working-on-issues) 
 * [Design Process](/handbook/product/ux/product-designer/#product-design-process)
-* [Partnering with UX Resesarch](/handbook/product/ux/product-designer/#product-design-process)
+* [Partnering with UX Research](/handbook/product/ux/product-designer/#product-design-process)
 * [Partnering with Technical Writers](/handbook/product/ux/product-designer/#partnering-with-technical-writers)
 * [Contributing to Pajamas](https://design.gitlab.com/get-started/contribute)
 * [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager.html)
@@ -71,7 +71,7 @@ Our [design principles](https://design.gitlab.com/get-started/principles) can be
 
 ## Beautifying our UI
 
-In Q4 FY22 and Q1 FY23, we ran an experiment called "Macro UX," in which we paired a Product Designer and an Engineer to make self-directed improvements to a product workflow (Kubernetes Agent). The idea was to empower the pair to make changes they identified themselves and resolved directly with MRs, rather than following our existing [Product Development Flow](https://about.gitlab.com/handbook/product-development-flow/). 
+In Q4 FY22 and Q1 FY23, we ran an experiment called "Macro UX," in which we paired a Product Designer and an Engineer to make self-directed improvements to a product workflow (Kubernetes Agent). The idea was to empower the pair to make changes they identified themselves and resolved directly with MRs, rather than following our existing [Product Development Flow](/handbook/product-development-flow/). 
 
 The result of the experiment was that the pair was able to resolve low-hanging usability problems, but they ran into challenges when attempting to address larger, more complex problems. However, they did find value in the ability to identify usability problems through heuristic reviews and then quickly partner to fix them. (See the [retro issue](https://gitlab.com/gitlab-org/gitlab/-/issues/351288) for details).
 
@@ -97,8 +97,8 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 | [15.1 (2022-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/361641) | Sascha Eggenberger | Robert Hunt |
 | [15.2 (2022-06-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/362122) | Emily Bauman     | Jannik Lehmann |
 | 15.3 (2022-07-18) | Matthew Nearents | Tom Quirk |
-| 15.4 (2022-08-18) | Nadia Sotnikova | Alex Kalderimis |
-| 15.5 (2022-09-18) | Katie Macoy | Anna Vovchenko |
+| [15.4 (2022-08-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/370364) | Nadia Sotnikova | Alex Kalderimis |
+| [15.5 (2022-09-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/374580) | Katie Macoy | Anna Vovchenko |
 | 15.6 (2022-10-18) | Matej Latin | Deepika Guliani |
 
 ### How do I volunteer?

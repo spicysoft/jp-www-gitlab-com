@@ -1,13 +1,13 @@
-name: Vandavagili Ashish Reddy
+name: Ashish Reddy
 locality: 
 country: Remote
-role: <a href="">Support Engineer</a>
+role: <a href="/job-families/engineering/support-engineer/">Support Engineer (APAC)</a>
 reports_to: ket_slaats
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: ashishreddy.jpeg
+pronouns: he/him
 pronunciation:
 twitter:
-linkedin:
+linkedin: ashish-reddy-v
 gitlab: ashish-reddy
 departments:
   - Customer Support

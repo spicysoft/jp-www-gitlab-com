@@ -13,8 +13,7 @@ departments:
   - Engineering Function
   - Development Department
   - Enablement Sub-department
-  - Gitaly Team
-  - Gitaly BE Team
+  - Gitaly Git Team
 projects:
   gitlab-development-kit: maintainer
   gitaly:

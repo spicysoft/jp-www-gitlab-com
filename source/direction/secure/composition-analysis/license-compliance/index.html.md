@@ -16,8 +16,8 @@ canonical_path: "/direction/secure/composition-analysis/license-compliance/"
 | --- | --- |
 | Stage | [Secure](/direction/secure/) |
 | Maturity | [Minimal](/direction/maturity/) |
-| Content Last Reviewed | `2022-07-08` |
-| Content Last Updated | `2022-07-08` |
+| Content Last Reviewed | `2022-10-03` |
+| Content Last Updated  | `2022-10-03` |
 
 ### Introduction and how you can help
 Thanks for visiting this category direction page on License Compliance at GitLab. This page belongs to the [Composition Analysis](/handbook/product/categories/#composition-analysis-group) group of the [Secure](/direction/secure/) stage and is hiring a new Product Manager. The interim Product Manager is [Sam White](https://gitlab.com/sam.white).

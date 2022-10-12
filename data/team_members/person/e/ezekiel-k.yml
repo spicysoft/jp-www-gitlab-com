@@ -3,7 +3,7 @@ name: Ezekiel Kigbo
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/#senior-frontend-engineer">Senior
-  Frontend Engineer</a>, Manage:Optimize
+  Frontend Engineer</a>, Plan:Optimize
 reports_to: brandon-l
 picture: ezekielkigbo.png
 twitter: theatlasroom
@@ -12,11 +12,12 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Manage:Optimize FE Team
+- Plan:Optimize FE Team
 - Frontend
 - Merge Request Coach
-expertise: |
-  <li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+expertise: '<li>Merge request <a href="/job-families/expert/merge-request-coach/">coach</a></li>
+
+  '
 projects:
   gitlab: maintainer frontend
   gitlab-ui: reviewer frontend

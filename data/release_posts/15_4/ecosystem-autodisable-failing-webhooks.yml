@@ -7,7 +7,7 @@ features:
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#failing-webhooks'
     image_url: '/images/15_4/webhook_disabled_alert.png'
     reporter: g.hickman
-    stage: ecosystem
+    stage: manage
     categories:
     - Integrations
     epic_url: 'https://gitlab.com/groups/gitlab-org/-/epics/8083'

@@ -22,7 +22,7 @@ These are the core responsibilities of the security governance discipline.
 Keeping the organization on track and within established boundaries to ensure compliance with laws and regulations while maintaining GitLab's [Information Security Policies](https://about.gitlab.com/handbook/engineering/security/#information-security-policies). Providing guidance, consistency and accountability to streamline internal processes and align with GitLab's values and mission. 
 
 ### Security Assurance Metrics
-Measuring performance effectiveness of our security controls, against a plan to prevent security incidents and safeguard sensitive data to improve the security posture of GitLab and the reduction of risk.  "If you cannot measure it, you cannot improve it" -Lord Kevin.
+Measuring performance effectiveness of our security controls, against a plan to prevent security incidents and safeguard sensitive data to improve the security posture of GitLab and the reduction of risk. "If you cannot measure it, you cannot improve it" -Lord Kevin.
 
 ### Regulatory and Compliance Landscape Monitoring
 As the world of regulatory compliance is always evolving and GitLab is growing, it is important to continue monitoring for changes, updating existing controls and implementing new regulations as needed helps to improve the security of GitLab.
@@ -37,8 +37,8 @@ Creating and managing [security compliance trainings](https://about.gitlab.com/h
 Managing a [variety of tools](https://about.gitlab.com/handbook/engineering/security/security-assurance/#core-tools-and-systems-1) used by the Security Assurance Team carrying out defined administrative tasks such as 
 * Configuration changes
 * User Access Management
-* Upgrades/patching/incidents/Restores
-* High-Level Quality oversight
+* Upgrades/patching/incidents/restores
+* High-Level quality oversight
 * etc.
 
 We will assist in managing and providing guidance to carry out day to day activities related to the core competencies of all [compliance activities within ZenGRC](https://about.gitlab.com/handbook/engineering/security/security-assurance/zg-activities.html) such as Control Testing, UARs, Vendor Reviews and Risk Assessments to automate, integrate and streamline business processes to increase GitLab's Information Security Program maturity and deliver measurable ROI. 
@@ -51,7 +51,7 @@ We will assist in managing and providing guidance to carry out day to day activi
 
 * Primary DRI - Rupal Shah @rcshah
 * Manager - Joseph Longo @jlongo_gitlab 
-* Director - Julia Lake @julia.lake
+* Sr. Director - Julia Lake @julia.lake
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 

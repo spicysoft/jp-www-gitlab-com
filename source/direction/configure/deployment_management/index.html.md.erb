@@ -14,6 +14,10 @@ Managing an organization's deployments is a major challenge. Particularly in lar
 
 Platform teams want to help development teams become more efficient; so that they can meet compliance and security requirements and deploy to environments they can't (and probably shouldn't) update, without slowing down their ability to implement changes to their applications. 
 
+## Mission
+
+Help GitLab users to deploy in automated and standardized ways to any envrionment and target infrastructure.
+
 ## Vision
 
 GitLab distrupts the market with a fully declarative, scalable, modular, testable approach to deployment management that supports any major target infrastructure from bare metal servers to container orchestrators to edge devices and mobile app stores. 
@@ -36,6 +40,16 @@ As CI became mainstream, we believe that the next big market is around integrate
 
 Deployment Management enables an integrated, programmable approach to serve this market, and provides opportunities for GitLab in the future.
 
+## Target persona
+
+The primary persona is [the Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer). Their job is to support all the development teams with standardised and compliant pipelines.
+
+The secondary personas are [the Application Operator](/handbook/product/personas/#allison-application-ops) and [the Compliance Manager](/handbook/product/personas/#cameron-compliance-manager). The Application Operator is responsible for deploying and operating the business applications, while the compliance manager assures that all the processes follow internal policies.
+
+### User story map
+
+Deployments don't live in a vacuum, but are part of a companies delivery process. They are preceded and followed by CI jobs, are surrounded by security checks and guardrails, are integrated with monitoring and work in coordination with release management. We created [a user story map](https://app.mural.co/t/gitlab2474/m/gitlab2474/1642001078399/2dfb4a6a7307e42f2a2e42f0e10f49dc83bdfbae?wid=0-1647471145120) to highlight and discuss these cross-stage and intra-group jobs and integration requirements.
+
 ## Strategy
 
 ### Current
@@ -46,9 +60,16 @@ We are working on [defining the entities and processes around deployments](https
 
 As GitLab already provides support to deploy into non-production and production environments, we updated the GitLab Documentation to reflect this by moving existing content under "Use GitLab / Release Your Application" and renaming "Release Your Application" to "Deploy and Release Your Application"
 
-### Next 6-12 months
+### Next 6 months
 
-We want to lay down the foundations for a new Deployment Management framework within GitLab.
+- We want to improve support for industry standard Kubernetes-oriented deployment tools, like [Helm and Kustomize](https://gitlab.com/groups/gitlab-org/-/epics/7938).
+- We want to provide [a simple, fully automated approach to deploy to non-production environments on top of Kubernetes](https://gitlab.com/groups/gitlab-org/-/epics/8874). This is a follow-up action as we deprecated the legacy [GitLab Managed Cluster](https://docs.gitlab.com/ee/user/project/clusters/gitlab_managed_clusters.html) functionality together with deprecating the certificate-based cluster connections.
+- Together with the Release group, we are working on [showing Kubernetes-related, operational insights on Environment pages](https://gitlab.com/gitlab-org/gitlab/-/issues/352186).
+
+### Next 6-18 months
+
+- We want to lay down the foundations for a new Deployment Management framework within GitLab.
+- We want to further improve the Kubernetes - Environments page integration by integrating with the [GitLab Observability stack](https://about.gitlab.com/direction/monitor/observability/) and building out a [feature-full Kubernetes dashboard](https://gitlab.com/groups/gitlab-org/-/epics/2493)
 
 ### Pricing
 This section establishes the pricing alignment scaffolding for this category based on GitLab's [buyer-based tiering](https://about.gitlab.com/company/pricing/#buyer-based-tiering-clarification). 
@@ -61,23 +82,3 @@ Orchestrating moderately complex deployments across a number of projects becomes
 
 #### Ultimate
 Helping organizations with a standards-based and compliant deployment pipeline is critically important that gets the attention of CIOs. Dashboards that summarize compliance and empower leaders with a birds-eye-view of their entire organization's change management solves a fundamental problem for GitLab's largest customers. 
-
-### Work focus
-
-We want to target Kubernetes first as it already provides declarative operations. As a result, first we want to focus on improving deployment support on top of the GitLab agent for Kubernetes. Some notable directions, work we are investigating:
-
-- [Support for templating tools](https://gitlab.com/gitlab-org/gitlab/-/issues/329773)
-- [Improve the coverage of supported Kubernetes versions](https://gitlab.com/groups/gitlab-org/-/epics/4827)
-- [Add environments support to the agent](https://gitlab.com/gitlab-org/gitlab/-/issues/352186)
-- [Provide a Kubernetes dashboard](https://gitlab.com/groups/gitlab-org/-/epics/2493)
-- [Support an opinionated flow for deployments](https://gitlab.com/gitlab-org/gitlab/-/issues/297004), similar to the deprecated GitLab-managed clusters
-
-## Target persona
-
-The primary persona is [the Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer). Their job is to support all the development teams with standardised and compliant pipelines.
-
-The secondary personas are [the Application Operator](/handbook/product/personas/#allison-application-ops) and [the Compliance Manager](/handbook/product/personas/#cameron-compliance-manager). The Application Operator is responsible for deploying and operating the business applications, while the compliance manager assures that all the processes follow internal policies.
-
-### User story map
-
-Deployments don't live in a vacuum, but are part of a companies delivery process. They are preceded and followed by CI jobs, are surrounded by security checks and guardrails, are integrated with monitoring and work in coordination with release management. We created [a user story map](https://app.mural.co/t/gitlab2474/m/gitlab2474/1642001078399/2dfb4a6a7307e42f2a2e42f0e10f49dc83bdfbae?wid=0-1647471145120) to highlight and discuss these cross-stage and intra-group jobs and integration requirements.

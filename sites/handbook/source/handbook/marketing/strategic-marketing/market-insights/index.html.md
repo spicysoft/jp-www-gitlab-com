@@ -179,6 +179,109 @@ Based on business priorities and constraints including executive direction, leve
 - Reposition ourselves in the market
 
 
+**BUYER PERSONA DEVELOPMENT PROCESS:**
+
+1. Gather research requirements. Define anticipated usage of research deliverable (persona profile).
+2. Define the buyer journey for the persona and understand all of the corresponding organizational touchpoints.
+3. Define research factors/dimensions and obtain stakeholder buy-in.
+4. Perform a secondary research market analysis using: publicly available materials (Google search), analyst briefings/reports/primary research results, etc. to construct an initial understanding and framework of the identified persona and to identify what is missing to complete a full persona profile.
+5. Develop the survey research instrument. Review with stakeholders and the UX team to validate. If feasible, test externally in a small setting and iterate based on feedback. Use Qualtrics as the survey tool.
+6. Field the survey with internal and externally obtained target audiences. Use third party vendors to provide a blind experience, if possible.
+7. Perform analysis and synthesis of the survey responses.
+8. Using respondents and/or third party vendors, recruit for and plan the interview portion of the study.
+9. Conduct approximately (10-30) one-on-one interviews with a wide demographic of the targeted audience(s). Use Zoom and record the calls. Note: It is important to obtain written permission to record in advance from the participants. Email is sufficient; however, ensure a double opt-in and add a line in that confirmation that they "may withdraw their consent" by informing you via email "at any time." 
+
+Resources:
+- [Buyer persona discussion/interview guide](https://docs.google.com/document/d/1-7LO3rrvJj6fGojU2Q_KIA1u62N9ejSo1__jCeNgCKw/edit#)
+- [Buyer Persona Interview Summary Template](https://docs.google.com/document/d/1en9tLz1yQ2UnXPSGxgU2C7EfzsM0N52lTZIj41jHILU/edit)
+- [Market Insights Buyer Persona Interview Recording Consent Form Request](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/971)
+
+10. Perform analysis and synthesis of the interviews.
+11. Optional: Conduct messaging research interviews to determine how specific personas relate to products/branding/messaging, validate research from the first round of interviews, and fill in any gaps.
+12. Create the persona profile.
+- Add to the [Product Marketing Buyer Persona Matrix](https://docs.google.com/spreadsheets/d/1YcMU4JfqEAtF9YiraJJgV2Y2sAXLmGQi0qePsLjuZPU/edit#gid=721271483)
+- Use an online tool (E.g. [Hubspot](https://www.hubspot.com/make-my-persona) ) to create the profile visual
+- Record a video
+13. Execute an enablement plan:
+- Share via the Handbook
+- Share on Slack channels
+- Hold an enablement session for Marketing/Sales
+
+**BUYER PERSONA INTERVIEW OUTREACH:**
+
+Resources:
+- [Example discussion guide](https://docs.google.com/document/d/1-7LO3rrvJj6fGojU2Q_KIA1u62N9ejSo1__jCeNgCKw/edit)
+- Template for outreach to people who completed a survey and volunteered for future research opportunities: <br>
+   _Hi {name},
+   At this year's <conference>, you kindly participated in our GitLab booth survey and indicated that you are open to further discussion on DevOps topics. Would you be willing to speak with me within the next two weeks for approximately 30 minutes regarding your DevOps work and how you are doing your job-related tasks?
+   If you are interested, I'd like to set up a recorded Zoom call with you at your earliest convenience. I've provided my Calendly link below to share my availability for this important conversation. As a thank you for your time, we are offering <incentive>.
+   Please reach out with any additional questions._
+
+
+**FOCUS GROUP (IN-PERSON) PROCESS**
+
+1. Gather research requirements and determine objectives/topic of focus group.
+2. Determine audience.
+3. Create recruitment and incentive plan. Develop screener questions.
+- Recruitment sources may include:
+   - Past conference attendees
+   - Previous survey respondents who said they would participate in future research
+   - Social media outreach
+   - Booth visitors or general tradeshow attendees
+4. Select moderator and co-moderator/recorder.
+5. Coordinate video recording and logistics. 
+6. Coordinate venue. 
+7. Create discussion guide. 
+8. Develop materials to review with participants. 
+9. Execute recruitment plan.
+   Collect the following info from recruits as we get volunteers:
+   - Name
+   - Organization
+   - Title/Role (classify into Persona Group to attempt persona diversity)
+   - Phone number 
+   - Email
+- Send confirmation email/text with logistics info 
+- Send reminder (1) hour before session
+
+10. Conduct session. Ensure consent forms are signed, recorded, and stored. 
+   - If necessary, provide [Uber gift cards ($10)](https://www.uber.com/us/en/gift-cards/) to participants (send after the session)
+   - Pick up drinks and light snacks to have in the room 
+   - Verify TV/monitor connections for room 
+   - Determine needed signage
+   - Assign handlers/guides (if necessary) 
+   - Collect addresses and sizes for swag distribution
+Things to Bring:
+   - Laptop with loaded presentation of materials with connection cords
+      - Include swag photo slide
+   - Business cards
+   - Refreshments
+   - Tabletop signs for names
+   - Markers
+   - Extra masks (optional)
+   - Printed video recording consent forms 
+
+Sample agenda:
+
+
+- Welcome & Topic Overview
+   _Our Marketing team has asked us to help them understand more about what our customers and prospective customers similar to you like, what you don't like, and how our messaging might be improved. We are having discussions like this with several groups both in person and virtually._
+- Introductions
+   Name
+   Role/Title & Company
+   Where you live
+   If you are a current customer / user
+- Icebreaker
+   What is your favorite place in the world and why?
+-Ground Rules 
+- Discussion Prompts
+- Wrap Up & Thank You
+
+11. Create transcripts (use the Rev tool). 
+12. Moderator and co-moderator debrief.
+13. Create initial findings report and share with research team/internal stakeholders for feedback.
+14. Prepare final report and post to research issue. Notify stakeholders. 
+
+
 
 
 

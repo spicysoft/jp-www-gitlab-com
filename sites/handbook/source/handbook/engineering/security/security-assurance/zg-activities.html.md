@@ -16,8 +16,7 @@ This page provides an overview of the various ZenGRC Activities that are carried
 ## Field Security Activities
 
 <details markdown="1">
-<summary>Customer Assurance Activities
-</summary>
+<summary>Customer Assurance Activities</summary>
 
 The Field Security team utilizes the following ZenGRC objects:
 * Requests are used for each Customer Assurance Request
@@ -29,8 +28,7 @@ The Field Security team utilizes the following ZenGRC objects:
 ## Risk Activities
 
 <details markdown="1">
-<summary>Security Opeartional Risk Management(StORM)
-</summary>
+<summary>Security Opeartional Risk Management(StORM)</summary>
 
 All activities related to the StORM program are executed exclusively within ZenGRC. There may be instances where the identification of a risk occurs on GitLab.com (e.g. incident issues, internal issues where security concerns are raised which may be an indicator of risk, etc.) and in these cases, the Risk & Field Security team will review the related details within GitLab and subsequently create a new risk record within ZenGRC for assessment. The wide variety of activities related to StORM that are carried out in ZenGRC include but are not limited to:
 * Documenting the identification of a risk
@@ -43,8 +41,7 @@ All activities related to the StORM program are executed exclusively within ZenG
 </details>
 
 <details markdown="1">
-<summary>Third Party Risk Management
-</summary>
+<summary>Third Party Risk Management</summary>
 
 All activities related to TPRM begin in either a GitLab TPRM Issue or Coupa. Management of all phases of the [third party risk management program) is done via ZenGRC using the following objects:
 * Audits and Asessment are used in the Testing phase
@@ -54,8 +51,7 @@ All activities related to TPRM begin in either a GitLab TPRM Issue or Coupa. Man
 
 ## Security Compliance Activities
 <details markdown="1">
-<summary>Continuous Control Monitoring
-</summary>
+<summary>Continuous Control Monitoring</summary>
 
 The GitLab Security Compliance team manages all phases of the [security control lifecycle](/handbook/engineering/security/security-assurance/security-compliance/security-control-lifecycle.html) via ZenGRC using the following objects:
 * Programs, Standards, Section, Objectives, and Controls are all used in the Preparation phase
@@ -66,8 +62,7 @@ The GitLab Security Compliance team manages all phases of the [security control 
 </details>
 
 <details markdown="1">
-<summary>Observation Management
-</summary>
+<summary>Observation Management</summary>
 
 Observations (aka: findings, exceptions, issues, deficiencies, Tier 3 operational risks) are recorded and managed within ZenGRC. This allows the Security Compliance team to map those observations out to any and all related systems, control assessments, vendors, etc. as well as capture meaningful data about the current state of our [observation management program](/handbook/engineering/security/security-assurance/observation-management-procedure.html) and program operating metrics.
 </details>
@@ -77,8 +72,7 @@ Project-based work, Quarterly OKR work, and Ad-Hoc workstreams are all captured 
 ## Security Governance Activities
 
 <details markdown="1">
-<summary>ZenGRC Admin Activities
-</summary>
+<summary>ZenGRC Admin Activities</summary>
 
 The Security Governance team manages the [overall administrative activities on ZenGRC objects](https://about.gitlab.com/handbook/engineering/security/security-assurance/#core-tools-and-systems-1):
 * Configuration changes
@@ -89,8 +83,7 @@ The Security Governance team manages the [overall administrative activities on Z
 </details>
 
 <details markdown="1">
-<summary>Controlled Documents Review
-</summary>
+<summary>Controlled Documents Review</summary>
 
 The Security Governance Team manages the review of all [controlled documents](https://about.gitlab.com/handbook/engineering/security/controlled-document-procedure.html) confirming all controlled documents are unified and reviewed annually.
 
@@ -103,8 +96,7 @@ Controlled Documents identified as policies/procedures/standards reside within t
 The Security Assurance Team may periodically engage stakeholders that are outside of the sub department using ZenGRC. The various activities that the sub deparment may engage stakeholders on can be found below. SlackBot will alert users when they are assigned a task or tagged in a comment within ZenGRC. Additionally, daily to-do emails are sent to users with a list of tasks assigned in ZenGRC. 
 
 <details markdown="1">
-<summary>ZenGRC Questionnaires
-</summary>
+<summary>ZenGRC Questionnaires</summary>
 
 ### Completing ZenGRC Questionnaires
 

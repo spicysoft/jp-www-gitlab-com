@@ -67,7 +67,7 @@ At GitLab, we promote on a quarterly cadence. This means that there is **one eff
 | [Calibration](/handbook/people-group/promotions-transfers/#calibration) | The calibration exercise is an opportunity for leaders (sync or async) to review projected promotions on a quarterly basis. This is an opportunity to create visibility and ensure consistency in who we are promoting and why. |
 | [Processing](/handbook/people-group/promotions-transfers/#process-for-managers-requesting-a-promotion-or-compensation-change) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse). 
 
-**Managers do not need to submit promotions that are part of the quarterly calibration process via Workday or Greenhouse. These will be processed by the PBP, Total Rewards, and People Connect team following calibration and Division leader approval.** The exception to this rule are promotions that are submitted as [exceptions](https://about.gitlab.com/handbook/people-group/promotions-transfers/#quarterly-promotion-cadence-exceptions) and not part of the quarterly cycle and timeline outlined below.
+**Managers do not need to submit promotions that are part of the quarterly calibration process via Workday or Greenhouse. These will be processed by the PBP, Total Rewards, and People Connect team following calibration and Division leader approval.** The exception to this rule are promotions that are submitted as [exceptions](https://about.gitlab.com/handbook/people-group/promotions-transfers/#promotionstransfers-processed-outside-of-the-quarterly-promotion-calibration-process) and not part of the quarterly cycle and timeline outlined below.
 
 Below is the timeline for FY23: 
 
@@ -188,7 +188,7 @@ Promotion budget is held at the division leader level, and optionally scaled dow
 Please review the [Compensation Program Budget](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/#compensation-program-budget) to understand how quarterly promotion budget is allocated and the process to review potential tradeoffs if divisions/departments are over/under budget for any given quarter. 
 
 
-## Promotions/Transfers Processed Outside of the Quarterly Promotion Calibration Process 
+## Promotions/Transfers Exceptions Processed Outside of the Quarterly Promotion Calibration Process 
 
 Certain types of promotions/transfers can be handled outside of the Quarterly Promotion Calibration process:
 1. Application to a new, approved headcount in Greenhouse: 
@@ -363,7 +363,7 @@ This section describes the approval chain after a manager submits a promotion or
 
 ## Interim and Acting Roles
 
-### Interim (Engineering-Specific)
+### Interim 
 
 As part of the career development structure within the Engineering division, interim and acting role opportunities occasionally arise. For more information on how interim and acting roles fit into Engineering career development, please reference the [Engineering career development handbook page](/handbook/engineering/career-development/). For information on the interim and acting processes, please continue reading below.
 
@@ -386,7 +386,7 @@ When the interim period comes to a close, one of two outcomes can occur:
 - The team member successfully completes the interim period aligned with [the success criteria](https://about.gitlab.com/handbook/engineering/career-development/#interim-manager) and moves into the interim role permanently.
 
   - As a general guideline, the interim period should last no _less_ than 30 days, and no _more_ than 4 months .
-  - The hiring manager should submit a formal offer through Greenhouse including the promotion document to make the change official. The accomplishments leading up to the interim and during the interim can be used for the promotion document.
+  - The People Business Partner should submit the promotion request through Workday using the [Change Job](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit) job aid including the promotion document to make the change official. In Workday, the reason for the change should be `Promotion - Promotion`. The accomplishments leading up to the interim and during the interim can be used for the promotion document. The manager is responsible for creating the promotion document and [recommending a compensation increase](https://about.gitlab.com/handbook/people-group/promotions-transfers/#recommending-a-compensation-increase). _Note: Promotion documents are only required if the team member move results in a promotion. For lateral moves, we do not require promotion documents._
 
 - The team member does not complete the interim period successful or decides that the manager track is not something they want to pursue, and moves back to their role prior to the interim period.
 

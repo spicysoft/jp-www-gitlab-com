@@ -23,13 +23,11 @@ directly with the product managers for Monitor:Observability, feel free to reach
 
 ### Mission
 
-Make data useful for every stage of the DevOps process.
+Make data collectable, meaningful, and feedback-ready for every stage of the DevOps process. 
 
 ### Vision
 
-GitLab users and customers use GitLab Observability to improve the outcome of their software investment. They process, store, manage, provide access to, query, visualize, collaborate on, and operationalize on data collected throughout the entire DevOps process. 
-
-The practice of observability is typically done for only production applications. Our vision is broader. How teams build software, how the software operates, and ultimately how users interface and use our software, all generate meaningful data that can help software teams to better infer the states of a system and thus make meaningful improvements. As such, we are aiming to build an observability capability that not only helps enable teams to ensure the health and performance of production systems, but also enable teams to continuously improve outcome in each stage of the DevOps process. 
+GitLab will empower users with early and continuous insight into the state and behavior of their software systems by leveraging ubiquitous telemetry data in unique fashion--not just in production, but across every stage of the DevOps process.
 
 ## Strategy
 
@@ -64,9 +62,9 @@ We plan to follow our FY23 investment theme of [GitLab Hosted First](https://abo
 
 ### How we are different
 
-Organizations have the choice of using an observability vendor or building their own observability platform. With the former, teams outsource the problems of operating a system that needs to be scaled and consistently updated but are locked-in to proprietary software and APIs. With the latter, teams not only have to manage the complexity of operating an observability platform at scale, they have to also figure out how to make the components work together, and up to date. We want that choice to be easy to make by offering a completely open, yet managed platform.
+Organizations have the choice of using a third party, observability vendor or building their own observability platform. With the former, teams outsource the problems of operating a system that needs to be scaled and consistently updated but are locked-in to proprietary software and APIs. With the latter, teams not only have to manage the complexity of operating an observability platform at scale, they have to also figure out how to make the components work together, and up to date. We want that choice to be easy to make by offering a completely open, yet managed platform.
 
-We are different because by first focusing on making the toil of operating open-source observability tools easy. Instead of staffing a team to keep toolings up to date, you can easily and confidently upgrade with each GitLab release if you are self-managing a GitLab instance (or simply use our SaaS offering). Furthermore, this observability solution is integrated with the rest of GitLab so you have a single tool to build, test, collaborate, deploy, and monitor your applications. 
+With each GitLab release you can confidently upgrade and maintain your open-source observability tooling.  Furthermore, this observability solution is integrated with the rest of GitLab so you have a single tool to build, test, collaborate, deploy, and monitor your applications.
 
 The decisions we made in architecting the GitLab observability stack also enable a level of flexibility that other solutions don't have. GitLab customers can how they want to operate to maintain data ownership and governance. We plan to enable the following capabilities in the future
 
@@ -84,9 +82,9 @@ We have an ambitious [vision](#vision), but we're not going to get there overnig
 
 ##### When addressing performance problems of GitLab CI/CD, I want to understand what is happening in a pipeline, so that I can help developers be more productive
 
-One of the [issue](https://gitlab.com/groups/gitlab-org/-/epics/5071) today with the GitLab CI/CD is there is no out-of-the-box solution to visualize where bottlenecks are in the pipeline. Inspired by the [OpenTelemetry Jenkins plugin](https://plugins.jenkins.io/opentelemetry/) we should enable runners to instrument pipeline jobs using OpenTelemetry, provide traces to the GitLab Observability Platform, and help users understand what is happening in the GitLab Observability UI. Given that GitLab CI/CD is one of the most used features, we believe we can drive observability usage by providing a solution for this job.  
+One of the [issues](https://gitlab.com/groups/gitlab-org/-/epics/5071) today with the GitLab CI/CD is there is no out-of-the-box solution to visualize where bottlenecks are in the pipeline. Inspired by the [OpenTelemetry Jenkins plugin](https://plugins.jenkins.io/opentelemetry/) we should enable runners to instrument pipeline jobs using OpenTelemetry, provide traces to the GitLab Observability Platform, and help users understand what is happening in the GitLab Observability UI. Given that GitLab CI/CD is one of the most used features, we believe we can drive observability usage by providing a solution for this job.  
 
-Focusing on this job, we will also lay down the plumbing needed for the generic tracing use case. We want to make it easy for our users and customers to port over existing tracing jobs. We also want to make it easier for all GitLab users to start gaining the benefits of tracing.
+Focusing on this job, we will also architect for the generic tracing use case. We want to make it easy for our users and customers to port over existing tracing jobs. We also want to make it easier for all GitLab users to start gaining the benefits of tracing.
 
 ##### When deploying to a Kubernetes cluster, I want insights into on the deployment, so that I can intervene and troubleshoot as needed
 

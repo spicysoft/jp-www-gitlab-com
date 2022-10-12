@@ -207,5 +207,5 @@ We use [dev-evangelism-updates](https://gitlab.slack.com/archives/C02TP3H62MV) f
 
 The Developer Evangelism calendar provides insights into speaking engagements, important events, CFP timelines, and other dates. Learn more in our [CFP handbook](/handbook/marketing/community-relations/developer-evangelism/cfps/). 
 
-<iframe src="https://calendar.google.com/calendar/embed?src=gitlab.com_eta7o4tn4btn8h0f8eid5q98ro%40group.calendar.google.com&ctz=Europe%2FAmsterdam" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_7930fcb0c9e4783bdd3d23858ae9af4306f28d976a40c833f50710c7cb86ba82%40group.calendar.google.com&ctz=UTC" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 

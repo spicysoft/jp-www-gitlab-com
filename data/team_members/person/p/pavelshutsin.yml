@@ -3,7 +3,7 @@ name: Pavel Shutsin
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
-  Manage:Optimize
+  Plan:Optimize
 reports_to: brandon-l
 picture: pavelshutsin.jpg
 twitter: by_pluff
@@ -13,25 +13,25 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Manage:Optimize BE Team
+- Plan:Optimize BE Team
 projects:
-  gitlab: 
-    - maintainer backend
-    - reviewer database
-    - trainee_maintainer database
+  gitlab:
+  - maintainer backend
+  - reviewer database
+  - trainee_maintainer database
 story: 'Pavel is a Ruby developer with strong thirst of making fast, stable, secure
-  and flexible software. As a hobby Pavel does snowboarding, plays basketball and
-  drives racing karts.
+  and flexible software. As a hobby Pavel does snowboarding, plays basketball, drives
+  real and virtual racing cars.
 
   '
 specialty:
-  - 'Manage: Optimize'
+- 'Manage: Optimize'
 domain_experise:
-  - ruby
-  - rails
-  - rest_api
-  - graphql
-  - postgres
+- ruby
+- rails
+- rest_api
+- graphql
+- postgres
 expertise: |
   <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge Request Buddy</a></li>
   <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>

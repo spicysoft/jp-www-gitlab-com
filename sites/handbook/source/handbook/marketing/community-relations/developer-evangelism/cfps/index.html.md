@@ -14,7 +14,7 @@ Every year, developer evangelism prioritizes some key events in our ecosystem fo
 
 <br>
 
-<iframe src="https://calendar.google.com/calendar/embed?src=gitlab.com_eta7o4tn4btn8h0f8eid5q98ro%40group.calendar.google.com&ctz=Europe%2FAmsterdam" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_7930fcb0c9e4783bdd3d23858ae9af4306f28d976a40c833f50710c7cb86ba82%40group.calendar.google.com&ctz=UTC" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ### CFP Library 
 

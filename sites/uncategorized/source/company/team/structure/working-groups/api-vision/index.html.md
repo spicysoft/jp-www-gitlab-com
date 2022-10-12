@@ -33,7 +33,7 @@ We don't have a cohesive view between the REST and GraphQL APIs. We specify that
 
 This is a list of topics that we want to discuss:
 
-- Responsibilities, Directly Responsible Individual, and technical experts. At the moment, the `Ecosystem:Integrations` group is the DRI of the APIs but there is also the `@graphql-experts` group.
+- Responsibilities, Directly Responsible Individual, and technical experts. At the moment, the `Manage:Integrations` group is the DRI of the APIs but there is also the `@graphql-experts` group.
 - General vision of the GitLab API:
   - REST / GraphQL API consistency.
   - REST first vs. GraphQL first vs. another approach.
@@ -62,29 +62,33 @@ This is a list of topics that we want to discuss:
 
 ### Exit Criteria
 
-- Define the vision of the GitLab API for the future years.
-- Set the foundation of a cohesive development strategy going forward.
-- Improve the API or capture the work needed to have a world-class API.
-- Clarify the lifecycle of the API.
-- Improve the documentation of the API.
-- Create learning paths and content to contribute to the API.
-- Define minimum levels of performance and stability, with appropriate checks and monitoring.
-- Refresh personas to account for users of our APIs.
+The table below lists all exit criteria for the working group. This is the [top-level epic](https://gitlab.com/groups/gitlab-org/-/epics/8638).
+
+| # | Completed Date | Progress | DRI             | Criteria                                                                                                                                        |
+|---|----------------|----------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | TBD            | 10%       | @g.hickman      | [Define the vision of the GitLab API for the future years](https://gitlab.com/groups/gitlab-org/-/epics/8633) |
+| 2 | TBD            | 0%       | @alexkalderimis | [Set the foundation of a cohesive development strategy going forward](https://gitlab.com/groups/gitlab-org/-/epics/8634)                        |
+| 3 | TBD            | 0%       | @fabiopitino    | [Capture work needed for next generation API](https://gitlab.com/groups/gitlab-org/-/epics/8115)                       |
+| 4 | TBD            | 15%       | @.luke          | [Clarify the lifecycle of the API](https://gitlab.com/groups/gitlab-org/-/epics/7667)                                                           |
+| 5 | TBD            | 15%       | @kpaizee        | [Improve the documentation of the API](https://gitlab.com/groups/gitlab-org/-/epics/8636)                                                    |
+| 6 | TBD            | 0%       | @arturoherrero | [Create learning paths and content to contribute to the API](https://gitlab.com/groups/gitlab-org/-/epics/8637) |
+| 7 | TBD            | 0%       |                 | [Define minimum levels of performance and stability, with appropriate checks and monitoring](https://gitlab.com/groups/gitlab-org/-/epics/7520) |
+| 8 | TBD            | 35%       | @g.hickman      | [Refresh personas to account for users of our APIs](https://gitlab.com/groups/gitlab-org/-/epics/7760)                                          |
 
 ## Roles and Responsibilities
 
 | Working Group Role      | Username        | Person                                                                   | Title                                                           |
 | :---------------------- | :-------------- | ------------------------------------------------------------------------ | :-------------------------------------------------------------- |
 | Executive Stakeholder   | @timzallmann    | [Tim Zallmann](https://about.gitlab.com/company/team/#timzallmann)       | Senior Director of Engineering, Dev                             |
-| Facilitator             | @arturoherrero  | [Arturo Herrero](https://about.gitlab.com/company/team/#arturoherrero)   | Engineering Manager, Ecosystem:Integrations                     |
-| Facilitator             | @g.hickman      | [Grant Hickman](https://about.gitlab.com/company/team/#g.hickman)        | Senior Product Manager, Ecosystem:Integrations                  |
-| Functional Lead         | @.luke          | [Luke Duncalfe](https://about.gitlab.com/company/team/#.luke)            | Senior Backend Engineer, Ecosystem:Integrations                 |
-| Functional Lead         | @alexkalderimis | [Alex Kalderimis](https://about.gitlab.com/company/team/#alexkalderimis) | Senior Backend Engineer, Ecosystem:Integrations                 |
+| Facilitator             | @arturoherrero  | [Arturo Herrero](https://about.gitlab.com/company/team/#arturoherrero)   | Engineering Manager, Manage:Integrations                     |
+| Facilitator             | @g.hickman      | [Grant Hickman](https://about.gitlab.com/company/team/#g.hickman)        | Senior Product Manager, Manage:Integrations                  |
+| Functional Lead         | @.luke          | [Luke Duncalfe](https://about.gitlab.com/company/team/#.luke)            | Senior Backend Engineer, Manage:Integrations                 |
+| Functional Lead         | @alexkalderimis | [Alex Kalderimis](https://about.gitlab.com/company/team/#alexkalderimis) | Senior Backend Engineer, Manage:Integrations                 |
 | Functional Lead         | @axil           | [Achilleas Pipinellis](https://about.gitlab.com/company/team/#axil)      | Senior Technical Writer, Enablement                             |
-| Functional Lead         | @Andysoiron     | [Andy Soiron](https://about.gitlab.com/company/team/#Andysoiron)         | Senior Backend Engineer, Ecosystem:Integrations                 |
+| Functional Lead         | @Andysoiron     | [Andy Soiron](https://about.gitlab.com/company/team/#Andysoiron)         | Senior Backend Engineer, Manage:Integrations                 |
 | Member                  | @grzesiek       | [Grzegorz Bizon](https://about.gitlab.com/company/team/#grzesiek)        | Principal Engineer, Verify                                      |
 | Member                  | @f_caplette     | [Frédéric Caplette](https://about.gitlab.com/company/team/#f_caplette)   | Senior Frontend Engineer, Verify:Pipeline Authoring             |
-| Member                  | @bmarjanovic    | [Bojan Marjanovic](https://about.gitlab.com/company/team/#bmarjanovic)   | Senior Backend Engineer, Ecosystem:Integrations                 |
+| Member                  | @bmarjanovic    | [Bojan Marjanovic](https://about.gitlab.com/company/team/#bmarjanovic)   | Senior Backend Engineer, Manage:Integrations                 |
 | Member                  | @kerrizor       | [Kerri Miller](https://about.gitlab.com/company/team/#kerrizor)          | Senior Backend Engineer, Create:Code Review                     |
 | Member                  | @lauraX         | [Laura Montemayor](https://about.gitlab.com/company/team/#lauraX)        | Backend Engineer, Verify:Pipeline Authoring                     |
 | Member                  | @nagyv-gitlab   | [Viktor Nagy](https://about.gitlab.com/company/team/#nagyv-gitlab)       | Senior Product Manager, Configure                               |

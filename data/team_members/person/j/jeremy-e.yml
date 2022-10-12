@@ -2,8 +2,8 @@
 name: Jeremy Elder
 locality:
 country: Remote
-role: <a href="/job-families/engineering/product-designer/">Staff Product Designer</a>,
-  Ecosystem:Foundations
+role: <a href="/job-families/product/product-designer/">Staff Product Designer</a>,
+  Manage:Foundations
 reports_to: taurie
 picture: jelder.jpg
 twitter: jeremyelder
@@ -12,7 +12,7 @@ departments:
 - Engineering Function
 - UX Department
 - Dev UX Team
-- Ecosystem:Foundations Team
+- Manage:Foundations Team
 projects:
   design.gitlab.com:
   - maintainer Figma
@@ -30,5 +30,4 @@ story: 'Jeremy thinks in systems and designs in moments. He is passionate about 
 
   '
 specialty:
-- 'Ecosystem: Foundations'
-
+- 'Manage: Foundations'

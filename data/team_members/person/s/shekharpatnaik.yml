@@ -1,17 +1,18 @@
 name: Shekhar Patnaik
 locality: 
 country: Remote
-role: <a href="">Principal Fullstack Engineer</a>
+role: <a href="/job-families/engineering/incubation-engineer/">Principal Fullstack Engineer</a>, Server Runtime
 reports_to: bartekmarnane
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: shekharpatnaik.png
+pronouns: he/him
 pronunciation:
 twitter:
-linkedin:
+linkedin: patnaikshekhar
 gitlab: shekharpatnaik
 departments:
-  - Incubation Engineering
+  - Engineering Function
+  - Incubation Engineering Department
 specialty: ""
 expertise:
-story:
-
+story: |
+  Loves solving tough engineering problems.

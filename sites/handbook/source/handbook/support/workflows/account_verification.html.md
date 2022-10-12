@@ -246,9 +246,11 @@ As stressed in the Slack notification template, we will wait for the customer's 
 
 Once the customer has approved the request, disable 2FA on the user's account, add an [Admin Note](admin_note.html) on the user's account, and then close both the support ticket and issue.
 
+Peer review is **not** required. You may make the change yourself.
+
 ## **Account Ownership Changes**
 
-There are some conditions under which a change of ownership may be requested by a company with a business relationship with GitLab. Our [support page](https://about.gitlab.com/support/#ownership-disputes) outlines that these processes are not available for unpaid groups.
+There are some conditions under which a change of ownership may be requested by a company with a business relationship with GitLab. Our [support page](https://about.gitlab.com/support/gitlab-com-policies/#ownership-disputes) outlines that these processes are not available for unpaid groups.
 
 The outcome of a successful request is a new or existing user in the namespace will have the Owner role.
 
@@ -269,7 +271,7 @@ Account Ownership Change Requests are initiated when the sole Owner of a group l
 
 **If no self-service options are viable, follow the steps below:**
 
-1. Use the `Support::SaaS::Account Ownership Change Request (Self-Service Not Possible)` [macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360073396100) , adding the add the account owner or account manager in CC if possible.
+1. Use the `Support::SaaS::Account Ownership Change Request (Self-Service Not Possible)` [macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360073396100), adding the account owner or account manager in CC if possible.
 1. Once you have received the requested document, verify that all of the necessary information is included. If not, follow up with the requestor to obtain any outstanding information. Once the required information has been obtained, carefully follow the next steps.
 1. Assess the request to verify if the following criteria have been met:
    1. Self-service options have been suggested and aren’t viable.

@@ -2,7 +2,7 @@
 layout: markdown_page
 title: Product Direction - Product Intelligence
 description: "Product Intelligence manages a variety of technologies that are important for GitLab's understanding of how our users use our products. Learn more here!"
-canonical_path: "/direction/anlytics/product-intelligence/"
+canonical_path: "/direction/analytics/product-intelligence/"
 ---
 
 ## On this page

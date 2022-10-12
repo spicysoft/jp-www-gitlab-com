@@ -2,8 +2,8 @@
 name: Kevin Comoli
 locality:
 country: Remote
-role: <a href="/job-families/engineering/product-designer/">Senior Product Designer,
-  Growth:Acquisition, Verify:Pipeline Authoring (Interim)</a>
+role: <a href="/job-families/product/product-designer/">Senior Product Designer, Growth:Acquisition,
+  Verify:Pipeline Authoring (Interim)</a>
 reports_to: jackibauer
 picture: kevincomoli.png
 twitter:
@@ -19,8 +19,8 @@ projects:
   gitlab: reviewer UX
   gitlab-ui: reviewer UX
 specialty:
-- 'Growth: Adoption'
-- " Growth: Conversion"
+- 'Verify: Pipeline Authoring'
+- " Acquisition"
 expertise: Continous Onboarding, PQLs, Registration, Free Trial Flow
 story: Kevin is a multidisciplinary designer focused on user experience and interaction
   design. Over the past years, he had the opportunity to work for various companies,

@@ -1,0 +1,38 @@
+---
+name: Ash McKenzie
+locality:
+country: Remote
+role: <a href="/job-families/engineering/backend-engineer/#engineering-productivity">Staff
+  Backend Engineer, Engineering Productivity</a>
+reports_to: mek
+picture: ash-mckenzie.png
+twitter: ashmckenzie
+gitlab: ashmckenzie
+departments:
+- Engineering Function
+- Quality Department
+- Engineering Productivity Team
+projects:
+  gitlab-development-kit: maintainer
+  gitlab-shell: maintainer
+  gitlab:
+  - reviewer tooling
+  - trainee_maintainer workhorse
+  gitlab-qa: reviewer
+  gitlab-triage: reviewer
+  gitlab-styles: reviewer
+  gitlab-dangerfiles: reviewer
+  quality-pipeline-common: reviewer
+  triage-ops: reviewer
+domain_expertise:
+- geo
+- go
+- ruby
+- rails
+story: |
+  Ash loves making peoples lives easier and more fun by writing &
+  deploying simple software solutions.  In his spare time he loves
+  tinkering with electronics and pouring countless hours (and dollars)
+  into the ultimate open source based home automation system.
+specialty: Engineering Productivity
+

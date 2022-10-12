@@ -1,5 +1,5 @@
 ---
-layout: secure_and_protect_direction
+layout: sec_direction
 title: "Category Direction - API Security"
 description: "API Security is focused on securing APIs through DAST API scanning and API fuzz testing."
 canonical_path: "/direction/secure/dynamic-analysis/api-security/"
@@ -13,7 +13,7 @@ canonical_path: "/direction/secure/dynamic-analysis/api-security/"
 | --- | --- |
 | Stage | [Secure](/direction/secure/) |
 | Maturity | [Viable](/direction/maturity/) |
-| Content Last Reviewed | `2022-07-14` |
+| Content Last Reviewed | `2022-10-05` |
 
 ## Description
 ### Introduction and how you can help
@@ -52,13 +52,12 @@ We also want to ensure that the production environment is always secure by allow
 ### Roadmap
 
 - [API Security scanner for DAST](https://gitlab.com/groups/gitlab-org/-/epics/4254)
-- [API Security scanner speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/6502)
 - [API Discovery](https://gitlab.com/groups/gitlab-org/-/epics/7539)
   - [Java Spring Boot Rest API Discovery](https://gitlab.com/gitlab-org/gitlab/-/issues/362659)
 - [API Security gRPC support](https://gitlab.com/gitlab-org/gitlab/-/issues/244492)
-- [API Security Parameter exclusion](https://gitlab.com/gitlab-org/gitlab/-/issues/292196)
 - [API Security support for dotenv based dynamic environments](https://gitlab.com/gitlab-org/gitlab/-/issues/247641)
 - [API Security x-request-id header](https://gitlab.com/gitlab-org/gitlab/-/issues/329722)
+- [API Security parameter dependency generation](https://gitlab.com/gitlab-org/gitlab/-/issues/368627)
 - [API Security sample data generation for XML](https://gitlab.com/gitlab-org/gitlab/-/issues/320842)
 - [API Security Authentication improvements](https://gitlab.com/groups/gitlab-org/-/epics/3932)
 
@@ -67,12 +66,10 @@ We also want to ensure that the production environment is always secure by allow
 We are integrating the Peach API Security scanner into DAST to give us an immediate and major improvement in DAST API scanning coverage, configuration, and confidence. As soon as the API Security scanner is integrated, we will gain capabilities that will increase the number and type of APIs that we are able to scan. The new scanner allows for specifying API endpoints via Postman collections and HAR files, adding onto the OpenAPI specification we support currently. It also gives access to scan GraphQL and SOAP APIs, rather than being limited to REST APIs. Improved authentication support for more authentication methods is another major improvement that we will gain with the integration of the new scnner. This scanner was released as a beta feature in GitLab 14.1 and we are actively working on issues to release it as a GA feature.
 - [API Security scanner for DAST](https://gitlab.com/groups/gitlab-org/-/epics/4254)
 
-As a part of bringing the API Security scanner to GA for DAST API, we are working on a number of speed improvements. Integrating any security test into the CI/CD pipeline brings the question of how long these tests will take to complete. We believe that while our API Security scanning is already fast enough for a large number of users, there is still room for some major improvements. We have already seen improvements of ~30% faster tests and expected to see even faster test times as more optimizations are put in place.
-- [API Security scanner speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/6502)
-
 Moving past the GA of the API Security scanner, we want to address one of the biggest pain points in getting started with API Security testing - the lack of proper API specifications or definitions. While many organizations recognize the need to scan their APIs for security vulnerabilities, they often don't have a full API specification or definition (or any specification or definition at all) that they can use to configure the test. Since APIs cannot be discovered by crawling it in the same way you'd crawl a web application, API testing has to start (at a minimum) with an input of which API endpoints are available. Even better is being able to tell the test what methods the endpoint accepts and having example data to seed the test inputs. Currently, our API Security tests accept multiple inputs to help define the API that needs to be tested. OpenAPI specifications, Postman collections, and HAR files all provide the basis on which our tests are run. However, with our current capabilities, you need to provide those to the test yourself, rather than relying on a feature in GitLab to generate them. We want to be able to use the source code that is housed in GitLab to automatically build a specification as a step during the build process. This would be a separate job within a pipeline that output the specification as an artifact. After the artifact is available, it could be used to automatically configure an API scan, rather than relying on you manually adding the spec yourself. As the first step, we are going to focus on Java Spring Boot projects and automatically building REST API specifications for these projects.
 - [API Discovery](https://gitlab.com/groups/gitlab-org/-/epics/7539)
   - [Java Spring Boot Rest API Discovery](https://gitlab.com/gitlab-org/gitlab/-/issues/362659)
+  - [Automated OpenAPI specification generation](https://gitlab.com/gitlab-org/gitlab/-/issues/213552)
 
 ## Competitive Landscape
 

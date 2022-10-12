@@ -1,8 +1,9 @@
+---
 name: Brian Wong
-locality: 
+locality:
 country: Remote
 role: <a href="">Finance Systems Administrator</a>
-reports_to: alexwestbrook
+reports_to: craig-mestel
 picture: brianwong.png
 pronouns:
 pronunciation:
@@ -10,8 +11,8 @@ twitter:
 linkedin: brian-matt-wong
 gitlab: brianmwong
 departments:
-  - Business Technology
-specialty: ""
+- Business Technology
+specialty: ''
 expertise:
 story:
 

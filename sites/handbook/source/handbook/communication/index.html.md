@@ -187,7 +187,7 @@ Below are a few things to remember when creating issues:
 1. We keep our **promises** and do not make external promises without internal agreement.
 1. Be proactive and consistent with communication on discussions that have external stakeholders such as customers. It's important to keep communication flowing to keep everyone up to date. Issues can appear stale if there aren't recent discussions and no clear definition on when another update will be provided, based on feedback. This leaves those subscribed in the dark, causing unnecessary surprise if something ends up delayed and suddenly jumps to the next milestone. It is important that issues are closed in a timely manner. One way of doing this is having the current assignee set a due date for when they will provide another update. This can be days or weeks ahead depending on the situation, prioritization, and available capacity that we may have.
 
-<i>**Pro Tip:**</i> When creating a Merge Request you can add `closes: #[insert issue number here]` and when the Merge Request is merged, the issue will automatically close. You can see an example of this [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/merge_requests/60).
+<i>**Pro Tip:**</i> When creating a Merge Request you can add `closes: #[insert issue number here]` and when the Merge Request is merged, the issue will automatically close. You can see an example of this [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/merge_requests/60). **Note:** [Automatic issue closing](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#disable-automatic-issue-closing) is disabled on some projects.
 
 1. If a user suggests an enhancement, try and find an existing issue that addresses their concern, or create a new one. Ask if they'd like to elaborate on their idea in an issue to help define the first MVC via a subsequent MR.
 1. **Cross link** issues or MRs with related conversations. Another example is to add "Report: " lines to the issue description with links to relevant issues and feature requests. When done, add a comment to relevant issues (and close them if you are responsible for reporting back, or reassign if you are not). This prevents internal confusion and us failing to report back to the reporters.
@@ -949,7 +949,7 @@ Leave the no headphones to:
 - People who don't have them handy at that time
 - People from outside the company
 
-Suggested headphone models can be found in the handbook under [spending company money](/handbook/finance/expenses/#headphones-and-earbuds).
+Further headphone advice can be found in the [home office setup](/company/culture/all-remote/workspace/#headphones) guide.
 
 If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/noise_cancelling_headphones.html), that is fine, but please ensure the microphone is active.
 
@@ -1043,14 +1043,9 @@ Theoretically you can have multiple people in a room with their own equipment bu
 
 1. {: #american-english} At GitLab, we use American English as the standard written language.
 1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](/handbook/markdown-guide/) to format text that is stored in a Git repository. In Google Docs use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
+1. Read our [Markdown Style Guide](/handbook/markdown-guide/) for more information when using Markdown.
 1. Do not use ALL CAPS because it [feels like shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting). However, there is the [`#all-caps` Slack channel](https://gitlab.slack.com/archives/C01BC085AVB) for your good-natured shouting needs.
 1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
-1. Always write a paragraph on a single line. Use soft breaks ("word wrap") for readability. Do not put in a hard return at a certain character limit (e.g., 80 characters) and don't set your IDE to automatically insert hard breaks. Merge requests for the blog and handbook are very difficult to edit when hard breaks are inserted.
-1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation". Using [meaningful links](https://www.futurehosting.com/blog/links-should-have-meaningful-anchor-text-heres-why/){:rel="nofollow noindex"} is important to both search engine crawlers (SEO) and accessibility for people with learning differences and/or physical disabilities.
-   This guidance should be followed in all places links are provided, whether in the handbook, website, GoogleDocs, or any other content.
-   Avoid writing GoogleDocs content which states - `Zoom Link [Link]`.
-   Rather, paste the full link directly following the word `Zoom`.
-   This makes the link more prominent and makes it easier to follow while viewing the document.
 1. When specifying measurements, please include both Metric and Imperial equivalents.
 1. Although we're a San Francisco based company we're also an internationally diverse one. Please do not refer to team members outside the US as international, instead use non-US. Please also avoid the use of offshore/overseas to refer to non-American continents.
 1. If you have multiple points in a comment or email, please number them. Numbered lists are easier to reference during a discussion over bulleted lists.
@@ -1074,7 +1069,6 @@ Theoretically you can have multiple people in a room with their own equipment bu
 1. Try to use the [active voice](https://writing.wisc.edu/Handbook/CCS_activevoice.html) whenever possible.
 1. If you use headers, properly format them (`##` in Markdown, "Heading 2" in Google Docs); start at the second header level because header level 1 is for titles. Do not end headers with a colon. Do not use emoji in headers as these cause links to have strange characters.
 1. Always use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma) (a.k.a. an "Oxford comma") before the coordinating conjunction in a list of three, four, or more items.
-1. Always use a single space between sentences rather than two.
 1. Read our [Documentation Styleguide](https://docs.gitlab.com/ee/development/documentation/styleguide/) for more information when writing documentation.
 1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request (MR)`.
    1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
@@ -1253,7 +1247,7 @@ We have a low internal email culture, as we see greater efficiency in other form
 1. Only Google Workspace domain admins are allowed to provision Google Groups and email distributions.
 1. Emails are asynchronous, for example, if your manager emails you on a weekend it is fine to reply during the workweek.
 1. If an email is or has become **urgent** feel free to ping people via chat referencing the subject of the email.
-1. If you or your team needs to send an email to a group of team members, not grouped in a current [Google email group](https://gitlab.com/gitlab-com/security-tools/report-gsuite-group-members), and specifically related to PII (location, state, country, etc) please contact a Total Rewards Analyst at total-rewards@gitlab who can create an email list from Workday data, with approval.
+1. If you or your team needs to send an email to a group of team members, not grouped in a current [Google email group](https://gitlab.com/gitlab-com/security-tools/report-gsuite-group-members), and specifically related to personally identifiable information (location, state, country, etc) please contact a Total Rewards Analyst at total-rewards@gitlab who can create an email list from Workday data, with approval.
 1. Where appropriate, consider using professional salutations including Hi or Hello and avoid colloquial expressions such as Hey, Oh, or Sup. Sometimes only the person's name is suitable. The level of formality should often mirror the formality from previous messages when communicating with internal team members as well as external persons.
 1. Try to always use a person's name when starting or responding to a message, especially if there are multiple persons cc'd, so that the addressee knows you are addressing them.
 1. Make sure all relevant letters and words that need capitalization are capitalized, such as the start of sentences or the word "I".
@@ -1697,13 +1691,9 @@ A member of our Customer Success team created a [demo video of how to use this f
 
 See the [YouTube page](/handbook/marketing/marketing-operations/youtube/) for options and instructions for posting recordings and live streaming to our YouTube channels.
 
-## GitLabコミュニケーションのやり方のアセスメント {#gitlab-communication-knowledge-assessment}
+## 日々の同期型エスカレーション手順 {#daily-sync-escalation-process}
 
-Anyone can test their knowledge on GitLab Communication. To obtain a certificate, you will need to complete this [knowledge assessment](https://gitlab.edcast.com/pathways/ECL-b01718a2-192c-4e0c-9852-31115b1e054f) and earn at least an 80%. Once the quiz has been passed, you will receive an email with your certificate that you can share on your personal LinkedIn or Twitter pages. If you have questions, please reach out to our L&D team at `learning@gitlab.com`.
-
-## Crisis Process {#crisis-process}
-
-GitLab has a specific process to follow in crisis situations to ensure effective communications. Details can be found in the [internal handbook](https://internal-handbook.gitlab.io/handbook/company/crisis-process).
+GitLab has a specific process to follow in crisis situations to ensure effective communications. Details can be found in the [internal handbook](https://internal-handbook.gitlab.io/handbook/company/daily-sync-escalation-process/).
 
 ## Avoid using Git in Project Names {#avoid-using-git-in-project-names}
 

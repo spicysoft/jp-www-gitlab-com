@@ -3,7 +3,7 @@ name: Mike Greiling
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
-  Ecosystem:Foundations
+  Manage:Foundations
 reports_to: leipert
 picture: mikegreiling.png
 twitter: mikegreiling
@@ -13,8 +13,8 @@ departments:
 - Development Department
 - Frontend
 - Dev Section
-- Ecosystem:Foundations Team
-- Ecosystem:Foundations FE Team
+- Manage:Foundations Team
+- Manage:Foundations FE Team
 projects:
   gitlab: maintainer frontend
   gitlab-ui: maintainer frontend

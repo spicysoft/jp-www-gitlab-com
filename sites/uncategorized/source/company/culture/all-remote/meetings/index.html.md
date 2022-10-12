@@ -90,6 +90,8 @@ When scheduling a meeting at GitLab, we value people's time and prefer the "spee
 
 アジェンダドキュメントの[テンプレ英語版](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing)・[日本語版](https://docs.google.com/document/d/159Hc4sjzNOvmkx6gHKhR18aj8Uf_q1jhR83dMJ0cyH8/edit?usp=sharing)を作成しましたので、コピーして使ってください。1:1ミーティング向けには[追加の説明と別のテンプレート](/handbook/leadership/1-1/#the-1-1-agenda)を用意しました。[コーヒーチャット](/culture/all-remote/informal-communication/#coffee-chats)は、インフォーマルなコミュニケーションです。議題は必要ありません。
 
+While it is problematic to have no agenda, it is also problematic to have more than one agenda. Meeting and meeting notes require a single source of truth. If you are in a meeting with more than one agenda, stop the meeting as soon as this is known. Clarify the agenda to use with other attendees and immediately deprecate the additional agenda. Add a link to the agenda being used from the deprecated agenda, so anyone who discovers it is aware of the source of truth agenda.
+
 ### 5. リアルタイムですべてを文書化する(すべてです)  {#n5-document-everything-live-yes-everything}
 
 **If you determine that a meeting is needed to move a project forward, address a blocker, or resolve a miscommunication, visit our detailed guide on conducting a [live doc meeting](/company/culture/all-remote/live-doc-meetings/).**

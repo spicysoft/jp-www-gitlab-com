@@ -246,6 +246,23 @@ value_stream_management:
   ux_scorecard_link: https://gitlab.com/groups/gitlab-org/-/epics/1454
   ux_scorecard_score: C
 
+dora_metrics:
+  name: "DORA Metrics"
+  stage: manage
+  feature_labels:
+    - DORA Metrics
+  documentation: https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics
+  marketing_page: /solutions/value-stream-management/
+  direction: /direction/manage/dora_metrics/
+  description: "Drive software engineering excellence with GitLab's out-of-the-box DORA metrics."
+  available: 2022-10-01
+  viable: 2023-06-01
+  complete: 2024-01-01
+  lovable: 2024-06-01
+  marketing: true
+  maturity: minimal
+  priority_level: high
+
 # Plan
 
 team_planning:
@@ -434,10 +451,10 @@ design_management:
 
 navigation:
   name: "Navigation & Settings"
-  stage: ecosystem
+  stage: manage
   description: "How users easily discover and configure product features."
   documentation:
-  direction: /direction/ecosystem/foundations/navigation_settings/
+  direction: /direction/manage/foundations/navigation_settings/
   marketing: false
   roi:
   priority_level:
@@ -597,13 +614,13 @@ gitlab_handbook:
 
 gitlab_docs:
   name: "GitLab Documentation Site"
-  stage: ecosystem
+  stage: manage
   label: Category:Docs Site
   feature_labels:
     - gitlab docs
   documentation: 'https://docs.gitlab.com/ee/development/documentation/site_architecture/'
   description: "Improve and maintain the features, style, and build process for the GitLab Documentation website."
-  direction: /direction/ecosystem/foundations/gitlab_docs/
+  direction: /direction/manage/foundations/gitlab_docs/
   roi: false
   marketing: false
   dogfooding_status: Active
@@ -702,10 +719,10 @@ remote_development:
 
 integrations:
   name: Integrations
-  stage: ecosystem
+  stage: manage
   feature_labels:
     - Category:Integrations
-  direction: /direction/ecosystem/integrations/
+  direction: /direction/manage/integrations/
   documentation: https://docs.gitlab.com/ee/integration/
   description: "Integrations are places where the GitLab product connects to features and services from other products. These integrations seek to offer our customers a seamless experience between these products, and range from lightweight features like Slack notifications for projects, to deep and complex integrations with Atlassian JIRA that connect a wide array of functionality throughout the GitLab product."
   roi: false
@@ -718,9 +735,9 @@ integrations:
 
 design_system:
   name: Design System
-  stage: ecosystem
+  stage: manage
   documentation: https://design.gitlab.com
-  direction: /direction/ecosystem/foundations/design_system/
+  direction: /direction/manage/foundations/design_system/
   description: "GitLab's design system called Pajamas. Used internally to power GitLab in order to improve user interface consistency and accessibility."
   feature_labels:
     - Category:Foundations
@@ -844,7 +861,7 @@ pipeline_authoring:
   roi: false
   available: 2021-01-22
   viable: 2021-06-22
-  complete: 2022-11-22
+  complete: 2023-11-22
   lovable: 2024-01-22
   maturity: viable
   marketing: false
@@ -1170,10 +1187,10 @@ dependency_firewall:
   description: |
     GitLab ensures that the dependencies stored in your package registries conform to your corporate compliance guidelines. This means you can prevent your organization from using dependencies that are insecure or out of policy.
   roi: false
-  available: 2022-12-22
-  viable:
+  available: 2023-05-22
+  viable: 2023-11-22
   complete:
-  lovable: 2023-11-22
+  lovable: 
   maturity: planned
   marketing: true
   dogfooding_status: Not Applicable (Planned)
@@ -1562,7 +1579,7 @@ compliance_management:
 security_policy_management:
   name: "Security Policy Management"
   stage: govern
-  direction: /direction/govern/security_policy_management/
+  direction: /direction/govern/security_policies/security_policy_management/
   documentation: https://docs.gitlab.com/ee/user/application_security/policies/
   description: |
     Unified security policy management capabilities across all of GitLab's scanners and security technologies. Apply policies to enforce scans and to require security approvals when vulnerabilities are found.
@@ -1679,7 +1696,7 @@ continuous_delivery:
   available: 2017-01-01
   viable: 2017-01-01
   complete: 2017-01-01
-  lovable:
+  lovable: 2024-01-22
   maturity: complete
   marketing: true
   priority_level: medium
@@ -1706,8 +1723,8 @@ advanced_deployments:
   roi: false
   available: 2017-05-22
   viable: 2018-04-22
-  complete:
-  lovable:
+  complete: 2024-01-22
+  lovable: 2025-01-22
   maturity: viable
   marketing: true
   priority_level: low
@@ -1727,8 +1744,8 @@ feature_flags:
   roi: false
   available: 2018-10-22
   viable: 2019-03-22
-  complete:
-  lovable:
+  complete: 2024-01-22
+  lovable: 2025-01-22
   maturity: viable
   marketing: true
   priority_level: medium
@@ -1747,9 +1764,9 @@ release_evidence:
   description: "Release Evidence includes all the assurances and evidence collection that are necessary for you to trust the changes you're delivering."
   roi: false
   available: 2020-01-22
-  viable:
-  complete:
-  lovable:
+  viable: 2024-01-22
+  complete: 2025-01-22
+  lovable: 2025-06-22
   maturity: minimal
   marketing: true
   dogfooding_status: Exclusive
@@ -1787,8 +1804,8 @@ environment_management:
   roi: true
   available: 2017-01-01
   viable: 2022-10-22
-  complete:
-  lovable:
+  complete: 2023-06-22
+  lovable: 2024-06-22
   maturity: minimal
   marketing: true
   priority_level: high
@@ -2480,50 +2497,99 @@ onboarding:
 purchase:
   name: Purchase
   stage: fulfillment
-  description: "Responsible for all purchase experiences. Trials, purchase flows, and account management (invoices, contact, billing info) - Systems and Integrations include CustomersDot, Zuora, Stripe, GitLab."
-  direction: https://about.gitlab.com/direction/fulfillment/#purchase
-  marketing: false
-  maturity:
-
-provision:
-  name: Provision
-  stage: fulfillment
-  description: "Responsible for retrieving and managing licenses, overall system architecture, data integrity. Systems/Integrations - SFDC Integration"
-  direction: https://about.gitlab.com/direction/fulfillment/#provision
-  marketing: false
-  maturity:
-
-utilization:
-  name: Utilization
-  stage: fulfillment
-  description: "Responsible for all consumables management, usage reporting, and usage notifications (excluding license utilization). Systems - GitLab."
-  direction: https://about.gitlab.com/direction/fulfillment/#utilization
-  marketing: false
-  maturity:
-
-fulfillment_platform:
-  name: Fulfillment Platform
-  stage: fulfillment
-  description: "Responsible for the underlying architecture of the Fulfillment systems."
-  direction: https://about.gitlab.com/direction/fulfillment/#fulfillment-platform
-  marketing: false
-  maturity:
-
-billing_and_subscription_management:
-  name: Billing and Subscription Management
-  stage: fulfillment
-  description: "Responsible for experiences to manage an existing subscription, including the purchase of seat add-ons, upgrades, renewals, auto-renewals, and Quarterly Subscription Reconciliation."
-  direction: https://about.gitlab.com/direction/fulfillment/#group-responsibilities
+  description: "Focused on first-order purchase experiences, including SM Web-Direct First Order, SaaS Web-Direct First Order, Purchase CI Minutes, Purchase Storage, and Community Programs - sign up."
+  direction: https://about.gitlab.com/direction/fulfillment/purchase/
   marketing: false
   maturity:
 
 commerce_integrations:
   name: Commerce Integrations
   stage: fulfillment
-  description: "Responsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
-  direction: https://about.gitlab.com/direction/fulfillment/#group-responsibilities
+  description: "Includes the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
+  direction: https://about.gitlab.com/direction/fulfillment/commerce-integrations/
   marketing: false
   maturity:
+
+sm_provisioning:
+  name: SM Provisioning
+  stage: fulfillment
+  description: "Includes all Self-Managed instance provisioning features such as Cloud License, Offline License, Legacy license, and Trial Licenses"
+  direction: 
+  marketing: false
+  maturity:
+
+saas_provisioning:
+  name: SaaS Provisioning
+  stage: fulfillment
+  description: "Includes all SaaS instance provisioning features such as Namespace Paid or Trial Plan provisioning and deprovisioning, consumables provisioning and deprovisioning, and more." 
+  direction: 
+  marketing: false
+  maturity:
+
+billing_and_payments:
+  name: Billing & Payments
+  stage: fulfillment
+  description: "Tools to allow customers to view their invoices and pay them. Includes: Pay invoices, Payment Method Management, Subscription view, w/ special UX for Reseller customers, Gitlab.com Billing page, Viewing invoices" 
+  direction: 
+  marketing: false
+  maturity:
+
+subscription_management:
+  name: Subscription Management
+  stage: fulfillment
+  description: "Allow customers to modify existing subscriptions. Includes: seat purchases (via portal or QSR), plan upgrades, cancel subscription (disable auto-renewal), renewals (manual or auto-renewal), Community Programs - Renewal, and account contact management" 
+  direction: 
+  marketing: false
+  maturity:
+
+subscription_usage_reports:
+  name: Subscription Usage Reports
+  stage: fulfillment
+  description: "Gives users visibility into their subscription usage and consumption. Includes: Seat Usage Visibility, Billable Users Calculation, Storage Usage Visibility, and CI Minutes Usage Visibility" 
+  direction: 
+  marketing: false
+  maturity:
+
+subscription_cost_management:
+  name: Subscription Cost Management
+  stage: fulfillment
+  description: "Enables Subscription Admins to manage their subscription costs. Includes Seat Limits, Storage Quota, CI Minutes Quotas." 
+  direction: 
+  marketing: false
+  maturity:
+
+fulfillment_infrastructure:
+  name: Fulfillment Infrastructure
+  stage: fulfillment
+  description: "CustomersDot availability, reliability, performance, scalability, delivery, and observability efforts."
+  direction: https://about.gitlab.com/direction/fulfillment/platform/#infradev-roadmap-and-vision
+  marketing: false
+  maturity:
+
+fulfillment_developer_productivity:
+  name: Fulfillment Developer Productivity
+  stage: fulfillment
+  description: "Make Fulfillment developers more productive via improved development tooling."
+  direction: 
+  marketing: false
+  maturity:
+
+customersdot_application: 
+  name: CustomersDot Application
+  stage: fulfillment
+  description: "Build, improve and maintain the overall CustomersDot Application, including Sign-up/Sign in/SSO, Zuora integration, OTC Data Architecture in CDot."
+  direction: 
+  marketing: false
+  maturity: 
+
+fulfillment_admin_tooling:
+  name: Fulfillment Admin Tooling
+  stage: fulfillment
+  description: "The Fulfillment Admin Tools team works with internal teams to build robust systems that enable our internal, customer-facing teams better support our customers."
+  direction: https://about.gitlab.com/direction/fulfillment/fulfillment-admin-tools/
+  marketing: false
+  maturity: 
+
 
 # Data Science Section
 
@@ -2572,12 +2638,12 @@ workflow_automation:
   description: "Automatic generation of new Issues and merge requests as well as automatic labeling and label tracking. This includes identifying and assigning code reviewer assignments automatically. Our customers are looking for us to help them streamline their processes and deliver their software faster. This is our first focus as we can easily dogfood these capabilities as they are implemented."
   maturity: minimal
   available: 2021-03-22
-  viable: 2022-06-22
+  viable: 2022-11-22
   complete: 2023-06-22
   lovable: 2024-12-22
   marketing: false
-  dogfooding_status: Planned
-  dogfooding_issue: https://gitlab.com/gitlab-org/gitlab/-/issues/332873
+  dogfooding_status: minimal
+  dogfooding_issue: https://gitlab.com/gitlab-org/gitlab/-/issues/375624
 
 intel_code_security:
   name: "Intelligent Code Security"

@@ -1,5 +1,5 @@
 ---
-layout: secure_and_protect_direction
+layout: sec_direction
 title: "Category Direction - Dynamic Application Security Testing"
 description: "Dynamic application security testing (DAST) is a process of testing an application or software product in an operating state. Learn more here!"
 canonical_path: "/direction/secure/dynamic-analysis/dast/"
@@ -13,7 +13,7 @@ canonical_path: "/direction/secure/dynamic-analysis/dast/"
 | --- | --- |
 | Stage | [Secure](/direction/secure/) |
 | Maturity | [Viable](/direction/maturity/) |
-| Content Last Reviewed | `2022-07-22` |
+| Content Last Reviewed | `2022-10-05` |
 
 ## Description
 ### Introduction and how you can help
@@ -53,17 +53,12 @@ We also want to ensure that the production environment is always secure by allow
 
 ### Roadmap
 
-- Recently Delivered
-  - [On-demand scans index page](https://gitlab.com/groups/gitlab-org/-/epics/6637) (Shipped in 14.7)
-  - [On-demand configuration workflow redesign](https://gitlab.com/groups/gitlab-org/-/epics/7631) (Shipped in 15.1)
-  - [CI/CD UI configuration workflow redesign](https://gitlab.com/groups/gitlab-org/-/epics/7632) (Shipped in 15.2)
-- Upcoming
-  - [On-demand DAST improvements](https://gitlab.com/groups/gitlab-org/-/epics/6778)
-  - [DAST Pre-flight validation](https://gitlab.com/groups/gitlab-org/-/epics/7069)
-  - [Browser-based scanner for DAST](https://gitlab.com/groups/gitlab-org/-/epics/4248)
-    - [Crawlgraph SVG artifact for browser-based scans](https://gitlab.com/gitlab-org/gitlab/-/issues/345354)
-    - [Browser-based passive vulnerability checks](https://gitlab.com/groups/gitlab-org/-/epics/5779)
-    - [Browser-based active vulnerability checks](https://gitlab.com/groups/gitlab-org/-/epics/5780)
+- [On-demand DAST improvements](https://gitlab.com/groups/gitlab-org/-/epics/6778)
+  - [Runner tags for on-demand tests](https://gitlab.com/gitlab-org/gitlab/-/issues/345430)
+- [DAST Pre-flight validation](https://gitlab.com/groups/gitlab-org/-/epics/7069)
+- [Browser-based scanner for DAST](https://gitlab.com/groups/gitlab-org/-/epics/4248)
+  - [Browser-based passive vulnerability checks](https://gitlab.com/groups/gitlab-org/-/epics/5779)
+  - [Browser-based active vulnerability checks](https://gitlab.com/groups/gitlab-org/-/epics/5780)
 
 
 ## What's Next & Why
@@ -92,21 +87,13 @@ Browser-based DAST inherits GitLab's [product principles](https://about.gitlab.c
 
   - [On-demand DAST improvements](https://gitlab.com/groups/gitlab-org/-/epics/6778)
 
-After we have validated our Complete maturity, we will turn our attention to growing the options for the on-demand section. In addition to providing more configuration options and eventually reaching parity with all the possible configuration options provided by using environment variables in the `.gitlab-ci.yml` file, we will also be looking at ways to enable more scan types to use on-demand features. Our goal is that on-demand provide a fully feature alternate to CI/CD scans for users who want an easy, graphical way to enable scans, separate from MRs and code changes. By expanding these options, we hope to provide better opportunities for the integration of security teams with development teams, by allowing security teams autonomy to run scans outside of pipelines.
+Now that we have validated our Complete maturity, we will turn our attention to growing the options for the on-demand section. In addition to providing more configuration options and eventually reaching parity with all the possible configuration options provided by using environment variables in the `.gitlab-ci.yml` file, we will also be looking at ways to enable more scan types to use on-demand features. Our goal is that on-demand provide a fully feature alternate to CI/CD scans for users who want an easy, graphical way to enable scans, separate from MRs and code changes. By expanding these options, we hope to provide better opportunities for the integration of security teams with development teams, by allowing security teams autonomy to run scans outside of pipelines.
 
   - [DAST pre-flight validation](https://gitlab.com/groups/gitlab-org/-/epics/7069)
 
 Configuration validation can be very difficult with DAST, especially when authentication is in the picture. We want to make it easier to validate and debug your DAST config before ever starting a test. We plan to run a short test to make sure that we can connect to your application, log in, crawl a few pages, and not run into any issues. If we do run into any problems, we'll report back with debug files to help determine what the problem is and how you can fix it. This will be an optional step, but will be very useful for anyone whose application might have some peculiarities or uncommon features.
 
-  - [Crawlgraph SVG artifact for browser-based scans](https://gitlab.com/gitlab-org/gitlab/-/issues/345354)
-
-In addition to adding new vulnerability checks, we are working to increase the usability and relevance of the scan output. One of the areas identified that will help DAST users understand what has been scanned is exporting an overview of all the pages that have been crawled. In order to do this, we will be adding a crawlgraph SVG as one of the artifacts in the job. This artifact will show each page that was crawled and how the crawler followed links to discover everything that was included in the scan. In the future, we hope to improve the usability of this feature by including more information in the UI about what was crawled.
-
-
-
-
 ## Maturity Plan
- - [Viable to Complete](https://gitlab.com/groups/gitlab-org/-/epics/2912)
  - [Complete to Lovable](https://gitlab.com/groups/gitlab-org/-/epics/3207)
 
 ## Competitive Landscape

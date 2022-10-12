@@ -7,7 +7,7 @@ features:
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html'
     image_url: '/images/15_4/Slack-App-Home-screenshot.png'
     reporter: g.hickman
-    stage: ecosystem
+    stage: manage
     categories:
     - Integrations
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/363635'

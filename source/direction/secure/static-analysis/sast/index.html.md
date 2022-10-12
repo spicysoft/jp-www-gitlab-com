@@ -1,5 +1,5 @@
 ---
-layout: secure_and_protect_direction
+layout: sec_direction
 title: "Category Direction - Static Application Security Testing (SAST)"
 description: "Static Application Security Testing (SAST) checks source code to find possible security vulnerabilities."
 canonical_path: "/direction/secure/static-analysis/sast/"
@@ -8,28 +8,44 @@ canonical_path: "/direction/secure/static-analysis/sast/"
 - TOC
 {:toc}
 
-## Description
+## Overview
 
-### Overview
+### Scope
 
-Static Application Security Testing (SAST) checks source code to find possible security vulnerabilities. SAST helps developers identify weaknesses and security issues earlier in the software development lifecycle before code is deployed. SAST usually is performed when code is being submitted to a code repository. Think of it like spell check for security issues.
+Static Application Security Testing (SAST) checks source code to find possible security vulnerabilities.
+It helps developers identify weaknesses and security issues earlier in the software development lifecycle before code is deployed.
+GitLab SAST runs on merge requests and the default branch of your software projects so you can continuously monitor and improve the security of the code you write.
 
-SAST is performed on source code or binary files and thus usually won't require code to be compiled, built, or deployed. However, this means that SAST cannot detect runtime or environment issues. SAST can analyze the control flow, the abstract syntax tree, how functions are invoked, and if there are information leaks to detect weak points that may lead to unintended behaviors.
+SAST _does_:
 
-Just like spell checkers, SAST analyzers are language and syntax specific and can only identify known classes of issues. SAST does not replace code reviewers, instead, it augments them, and provides another line of proactive defense against common and known classes of security issues. SAST is specifically about identifying potential security issues, so it should not be mistaken for [Code Quality](https://about.gitlab.com/direction/secure/static-analysis/code_quality/).
+- Use static analysis techniques to find issues early in the development process.
+- Udentify weaknesses, which may be vulnerabilities, in the code it scans.
+- Analyze the control and data flow of your program, check how functions are called, and otherwise analyze what the code could do at runtime.
+- Help find issues that code reviewers or tests might miss.
 
-Security tools like SAST are best when integrated directly into the [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/) and every project can benefit from SAST scans, which is why we include it in [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/).
+SAST _doesn't_:
+
+- Find known vulnerabilities in software dependencies; this is software composition analysis.
+- Run code and attempt to trigger behaviors behaviors; this is dynamic analysis.
+- Look for generic bugs or maintenance issues; this is [Code Quality](/direction/secure/static-analysis/code_quality/).
+- Replace code reviewers or tests; it augments them instead.
+
+Security tools like SAST are best when integrated directly into the [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/).
+We believe that every project can benefit from SAST scans, so we include it in [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/) and make SAST scanning available at all GitLab tiers, including Free.
+Additional features, including proprietary code analysis and integration with GitLab Vulnerability Management, are [available only in GitLab Ultimate](https://docs.gitlab.com/ee/user/application_security/sast/#summary-of-features-per-tier).
 
 > GitLab was recently named as a [Challenger in the 2021 Magic Quadrant for Application Security Testing](https://about.gitlab.com/analysts/gartner-ast21/) and a [Contender in Forrester's 2021 SAST Wave](https://www.forrester.com/report/The+Forrester+Wave+Static+Application+Security+Testing+Q1+2021/-/E-RES162015).
 
+> “GitLab Secure allowed us to consolidate spend with centralized tools enabling a more streamlined workflow for our developers” - Retail product research organization, GitLab Ultimate Customer
+
 ### Goal
 
-Overall we want to help developers write better code and worry less about common security mistakes. SAST should help _prevent_ security vulnerabilities by helping developers easily _identify_ common security issues as code is being contributed and _mitigate_ proactively. SAST should _integrate_ seamlessly into a developer’s workflow because security tools that are actively used are effective.
+We want to help developers write better code and worry less about common security mistakes. SAST should help _prevent_ security vulnerabilities by helping developers easily _identify_ common security issues as code is being contributed and _mitigate_ proactively. SAST should _integrate_ seamlessly into a developer’s workflow because security tools that are actively used are effective.
 
 - _Prevent_ - find common security issues as code is being contributed and before it gets deployed to production.
 - _Identify_ - continuously monitor source code for known or common issues.
 - _Mitigate_ - make it easy to remediate identified issues, automatically if possible.
-- _Integrate_ - integrate with the rest of the DevOps pipeline and [play nice with other vendors](https://about.gitlab.com/handbook/product/gitlab-the-product/#plays-well-with-others).
+- _Integrate_ - integrate with the rest of the DevOps pipeline and [play nicely with other vendors](https://about.gitlab.com/handbook/product/gitlab-the-product/#plays-well-with-others).
 
 The importance of these goals is validated by GitLab's [2020 DevSecOps Landscape Survey](https://about.gitlab.com/developer-survey/#security). With 3,650 respondents from 21 countries, the survey found:
 
@@ -40,27 +56,38 @@ The importance of these goals is validated by GitLab's [2020 DevSecOps Landscape
 
 > “GitLab Secure enables us to ship faster. Our other scanner tools could take up to a day to finish scanning whereas Secure scans finish as little a few minutes” - Healthcare services organization, GitLab Ultimate Customer
 
+## What's Next & Why
+
+We are currently investing in various areas of GitLab SAST.
+We expect different parts of these initiatives to deliver value in the short, medium, and long term.
+
+### Maturity plan
+
+[The SAST Category Maturity level](https://about.gitlab.com/direction/maturity/#secure) is currently at _Complete_. We plan to mature it to _Lovable_ by late 2023.
+
+- [SAST Direction Epic](https://gitlab.com/groups/gitlab-org/-/epics/527)
+- Next Maturity Milestone Epic: [SAST to Lovable](https://gitlab.com/groups/gitlab-org/-/epics/1652)
+
 ### Language Support
 
-We want to make SAST easy to set up and use, making complexity transparent to users where possible. GitLab can automatically detect the programming language of a project and run the appropriate analyzer. We [support a variety of popular languages and frameworks](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks).
+We want to make SAST easy to set up and use.
+While SAST uses sophisticated techniques, we want it to be simple to understand and use day-to-day, especially by developers who may not have specific security expertise.
+Today, GitLab SAST automatically detects the programming languages used in your project and runs the right analyzer.
 
-We want to increase language coverage by including support for the most common languages. We look at a variety of sources to determine language priorities including [industry trends](https://insights.stackoverflow.com/survey/2019#technology), [projects hosted on GitLab](https://about.gitlab.com/blog/2020/04/02/security-trends-in-gitlab-hosted-projects/), as well as [analyst reports](https://www.gartner.com/en/documents/3984345/magic-quadrant-for-application-security-testing) (italics below indicate languages called out specifically in analyst reports).
+Currently, we're focusing on making it easier and faster to use SAST on [the many languages and frameworks we already support](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), rather than adding support for new languages.
+However, if we don't support a language you use, you can request support by [opening an issue in this epic](https://gitlab.com/groups/gitlab-org/-/epics/297) with details.
 
-Language priorities (in addition to our existing [language support](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks)):
+When we decide where to invest resources toward new languages or maintenance of existing languages, we look at a variety of sources, including:
 
-- _Java_
-- _C#_ (.NET Core & Framework)
-- _PHP_
-- _JavaScript_ (better support for popular frameworks)
-- Python
-- Go
-- Mobile (iOS & Android) - [Added in 13.6](https://about.gitlab.com/releases/2020/10/22/gitlab-13-5-released/#sast-support-for-ios-and-android-mobile-apps)
+- Customer requests.
+- Industry trends, such as [developer surveys](https://insights.stackoverflow.com/survey/2021#most-popular-technologies-language-prof).
+- Languages used in [projects hosted on GitLab.com](https://app.periscopedata.com/app/gitlab/635927) (internal link; team members only).
+- Analyst reports.
 
-If we don't support a language you use, you can request support by [commenting on this epic](https://gitlab.com/groups/gitlab-org/-/epics/297) with details.
-
-We are also working on a [next generation language-agnostic scanning](https://gitlab.com/groups/gitlab-org/-/epics/3260) approach. This CI/CD-focused scanning approach presents many opportunities to move faster and put more focus on the security rulesets rather than the implementation of those rules in various scanners. This is a strategic focus for GitLab SAST during 2022 and our 15.x release cycle.
+We are also working on a [next generation language-agnostic scanning](https://gitlab.com/groups/gitlab-org/-/epics/3260) approach. This CI/CD-focused scanning approach presents many opportunities to move faster and put more focus on the security rulesets rather than the implementation of those rules in various scanners. This is a strategic focus for GitLab SAST.
 
 _User success metrics_
+
 At GitLab, we [collect product usage data](https://about.gitlab.com/handbook/product/product-intelligence-guide/) to help us build a better product. You can see [growth of GitLab SAST on our performance indicators dashboard](https://about.gitlab.com/handbook/product/sec-section-performance-indicators/#securestatic-analysis---gmau---users-running-static-analysis-jobs).
 
 The following metrics are also of interest as they help us know which area of SAST on which to focus:
@@ -71,51 +98,63 @@ The following metrics are also of interest as they help us know which area of SA
 - Tracking the # of issues resolved that were identified by SAST
 - Diversity of coverage of SAST jobs (language, type of identified issues, severity of issues)
 
-## Roadmap
+### Analysis technology
 
-[The SAST Category Maturity level](https://about.gitlab.com/direction/maturity/#secure) is currently at _Complete_. We plan to mature it to _Lovable_ by late 2023.
+GitLab SAST historically has been powered by [over a dozen open-source static analysis security analyzers](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks).
+These analyzers have proactively identified millions of vulnerabilities for GitLab users, but each of these analyzers is language-specific and uses a different scanning approach.
 
-- [SAST Direction Epic](https://gitlab.com/groups/gitlab-org/-/epics/527)
-- Next Maturity Milestone Epic: [SAST to Lovable](https://gitlab.com/groups/gitlab-org/-/epics/1652)
+We are currently streamlining the set of [SAST analyzers](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks) to provide:
 
-### What's Next & Why
+- A simpler operational experience, for example, by not requiring compilation or complicated build configuration steps.
+- Faster performance.
+- Better rule customization, since rules can be defined in configuration files instead of code.
+- A more consistent user experience across languages.
 
-With all of our open-source based [SAST scanners now available in our Free tier for all GitLab users](https://about.gitlab.com/releases/2020/08/22/gitlab-13-3-released/#sast-security-analyzers-available-for-all), and UI-based [configuration tools](https://docs.gitlab.com/ee/user/application_security/sast/#configure-sast-in-the-ui) for all customers, we're turning our focus to data quality and accuracy improvements.
+#### Semgrep-based scanning
 
-### Next Generation Scanning
+The GitLab Static Analysis and Vulnerability Research teams have worked together to transition coverage from a number of existing open-source analyzers to Semgrep-based scanning.
+We plan to continue to [migrate existing scanner coverage to Semgrep-based scanning](https://gitlab.com/groups/gitlab-org/-/epics/5245).
 
-We also are continuing our efforts with our next generation [generic language-agnostic scanning](https://gitlab.com/groups/gitlab-org/-/epics/3260) approach. This will bring improvements to our vulnerability detection engine, [vulnerability fingerprinting and tracking accuracy](https://gitlab.com/groups/gitlab-org/-/epics/5144), as well as help reduce false positives to [provide developers increased context for taking action](https://gitlab.com/gitlab-org/gitlab/-/issues/284337) to remediate SAST findings. This next generation SAST scanner will be a proprietary tool build upon research by our [Vulnerability Research Team](https://about.gitlab.com/handbook/engineering/development/sec/secure/vulnerability-research/) and uses advanced detection techniques like [abstract syntax tree parsing](https://en.wikipedia.org/wiki/Abstract_syntax_tree). This approach allows this next-generation scanner to analyze data and control flow to understand how logic and data flow through source code to identify vulnerabilities. We will initially use this approach to improve accuracy and reduce false positives by leveraging this next-gen scanner to validate findings from our existing SAST tools.
+Semgrep-based scanning in GitLab SAST includes:
 
-### Inline Annotation of MR Diffs
+- The [Semgrep](https://semgrep.dev/) scanning engine, maintained by [r2c](https://r2c.dev). GitLab and r2c have partnered on areas of mutual interest.
+- Detection rules that are created, maintained, and supported by GitLab.
+- GitLab Ultimate features like [Advanced Vulnerability Tracking](https://docs.gitlab.com/ee/user/application_security/sast/#advanced-vulnerability-tracking).
+- Integration with GitLab [Vulnerability Management](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/index.html).
 
-With Static Analysis now taking over [Code Quality](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/81271), we're looking to streamline some of the experience between SAST and Code Quality. One area we're actively working on is annotating MR diff files with inline vulnerability alerts which is a [recent feature for code quality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html#code-quality-in-diff-view). This will compliment our existing [MR security widget](https://docs.gitlab.com/ee/user/application_security/#view-security-scan-information-in-merge-requests) and make it easier for developers to see vulnerabilities in files they are working on inline just like in their IDEs.
+#### Next-generation scanning
 
-What our Product Designer walk through [our plans](https://gitlab.com/gitlab-org/gitlab/-/issues/322689):
+While we work on Semgrep-based scanning, we're also continuing our efforts toward our [next-generation scanning approach](https://gitlab.com/groups/gitlab-org/-/epics/3260). This will enhance our vulnerability detection engine, improve our [vulnerability fingerprinting and tracking accuracy](https://gitlab.com/groups/gitlab-org/-/epics/5144) features, and help reduce false positives as we work to [provide developers increased context](https://gitlab.com/gitlab-org/gitlab/-/issues/284337) to remediate SAST findings.
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/591776e645c5419ab598a15e7b4f8b83" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+This next-generation SAST scanner is a proprietary tool built on research by our [Vulnerability Research Team](https://about.gitlab.com/handbook/engineering/development/sec/secure/vulnerability-research/).
+The scanner's advanced approach allows it to analyze data and control flow to understand how logic and data flow through source code to identify vulnerabilities.
 
-### Semgrep & Simplicity
+We are initially using this tool to improve accuracy and reduce false positives by double-checking findings from other SAST analyzers.
+Later, we plan to replace some of the other analyzers with the next-gen scanner.
+And, ultimately, we hope to use the data it provides to build features that underscore the value of building workflows inside _The One DevOps Platform_.
 
-As part of our transition to next generation SAST engine, we're also looking to streamline our existing suite of 15 SAST analyzer tools. GitLab SAST historically has been powered by [over a dozen open-source static analysis security analyzers](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks). These analyzers have proactively identified millions of vulnerabilities for developers using GitLab every month. Each of these analyzers is language-specific and has different technology approaches to scanning. These differences produce overhead for updating, managing, and maintaining [additional features](https://docs.gitlab.com/ee/user/application_security/sast/analyzers.html#sast-analyzer-features) we build on top of these tools, and they create confusion for anyone attempting to debug.
+### Code review user experience
 
-The GitLab Static Analysis team is continuously evaluating new security analyzers. We have been impressed by a relatively new tool from the development team at [r2c](https://r2c.dev) called [Semgrep](https://semgrep.dev/). It's a fast, open-source, static analysis tool for finding bugs and enforcing code standards. Semgrep's rules look like the code you are searching for; this means you can write your own rules without having to understand abstract syntax trees (ASTs) or wrestle with regexes.
+We want to make it easier for merge request authors and code reviewers to spot possible security issues.
 
-Semgrep's flexible rule syntax is ideal for streamlining GitLab's [Custom Rulesets](https://docs.gitlab.com/ee/user/application_security/sast/#customize-rulesets) feature for extending and modifying detection rules, a popular request from GitLab SAST customers. Semgrep also has a growing open-source registry of 1,000+ [community rules](https://semgrep.dev/explore).
+To do this, we plan to [show SAST findings in the MR changes view](https://gitlab.com/gitlab-org/gitlab/-/issues/322689).
+We're approaching this problem by:
 
-We are in the process of transitioning many of our lint-based SAST analyzers to Semgrep. This transition will help increase stability, performance, rule coverage, and allow GitLab customers access to Semgrep's community rules and additional custom ruleset capabilities that we will be adding in the future. We have enjoyed working with the r2c team and we cannot wait to transition more of our analyzers to Semgrep. You can read more in our [transition epic](https://gitlab.com/groups/gitlab-org/-/epics/5245), or try out our first experimental Semgrep analyzers for [JavaScript, TypeScript, and Python](#experimental-semgrep-analyzer-for-python-javascript-and-typescript).
+1. First, improving the existing diff view [available in GitLab Code Quality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html#code-quality-in-diff-view).
+1. Then, displaying SAST findings in a similar way.
 
-We are excited about what this transition means for the future of GitLab SAST and the larger Semgrep community. GitLab will be contributing to the [Semgrep open-source project](https://github.com/returntocorp/semgrep) including additional rules to ensure coverage matches or exceeds our existing analyzers.
+This will complement our existing [MR security widget](https://docs.gitlab.com/ee/user/application_security/#view-security-scan-information-in-merge-requests) and make it easier for developers to see vulnerabilities in files they're working on inline, just like in their IDEs.
 
-**Why is this important?**
+### Workflow improvements
 
-In 2020, GitLab greatly expanded access to SAST to all our customers including our Free tier users. In 2021, we want GitLab SAST to be industry-leading with high-signal findings and low false-positive rates. SAST has a very real impact to help the world write better code. With wide accessibility to SAST and high-quality security data built directly into the DevSecOps workflow. GitLab will be able to leverage the context of not just repository source code, but also how projects are built, deployed, and changes over time. We'll be able to further integrate [all of our application tools](https://about.gitlab.com/stages-devops-lifecycle/secure/) to make them smarter, more accurate, and more automated.
+While we're working on these larger initiatives, we aren't losing sight of usability and other concerns.
 
-> “GitLab Secure allowed us to consolidate spend with centralized tools enabling a more streamlined workflow for our developers” - Retail product research organization, GitLab Ultimate Customer
+We're investing in improvements that will help:
 
-**Differentiation**
-
-Gitlab uniquely has opportunities within the entire DevOps lifecycle. We can integrate across different DevSecOps stages leveraging data, insight, and functionality from other steps to enrich and automate based on SAST findings.
-We even allow [integration with partners and competitors](https://about.gitlab.com/partners/#security) to ensure flexibility. This allows teams to choose specific SAST solutions that fit their unique needs without GitLab being a constraint. This centers GitLab as the system of control and allows people to [extend and integrate other solutions](https://docs.gitlab.com/ee/development/integrations/secure.html) into the GitLab DevSecOps workflow.
+- Make it easier to configure SAST, including at a group level across multiple projects.
+- Allow GitLab to iterate on detection rules without causing confusing behavior in Vulnerability Management.
+- Empower developers and other users to debug issues without requiring Support assistance.
+- Demonstrate the value of SAST scanning at tiers below Ultimate. (Scanning is currently available in all tiers, but, below Ultimate, results are provided [only as JSON report artifacts](https://docs.gitlab.com/ee/user/application_security/sast/#summary-of-features-per-tier).)
 
 ## Maturity Plan
 
@@ -123,7 +162,9 @@ We even allow [integration with partners and competitors](https://about.gitlab.c
 
 ## Recent Noteworthy Features
 
-- [Faster, easier Java scanning in SAST](https://about.gitlab.com/releases/2022/04/22/gitlab-14-10-released/#faster-easier-java-scanning-in-sast) (14.10)
+- [Faster, easier Semgrep-based C# scanning](https://about.gitlab.com/releases/2022/09/22/gitlab-15-4-released/#faster-easier-c-scanning-in-sast) (15.4)
+- [Replacement of Bandit, ESLint, and Gosec with Semgrep-based scanning](https://about.gitlab.com/releases/2022/09/22/gitlab-15-4-released/#streamlined-sast-analyzer-coverage) (15.4)
+- [Faster, easier Semgrep-based Java scanning](https://about.gitlab.com/releases/2022/04/22/gitlab-14-10-released/#faster-easier-java-scanning-in-sast) (14.10)
 - [CWE-based severities for .NET](https://about.gitlab.com/releases/2022/02/22/gitlab-14-8-released/#sast-severities-now-available-for-net) (14.8)
 - [Customize built-in SAST and Secret Detection rules](https://about.gitlab.com/releases/2022/02/22/gitlab-14-8-released/#customize-built-in-sast-and-secret-detection-rules) (14.8)
 - [Support for .NET 6](https://about.gitlab.com/releases/2021/12/22/gitlab-14-6-released/#sast-support-for-net-6) (14.6)
@@ -137,8 +178,9 @@ We even allow [integration with partners and competitors](https://about.gitlab.c
 - [Pin to Specific SAST Analyzer Versions](https://about.gitlab.com/releases/2021/06/22/gitlab-14-0-released/#pin-to-specific-sast-analyzer-versions) (14.0)
 - [Mobile application binary scanning support](https://about.gitlab.com/releases/2021/05/22/gitlab-13-12-released/#mobile-application-binary-scanning-support) (13.12)
 - [Semgrep-based scanning for JavaScript, TypeScript, and Python](https://about.gitlab.com/releases/2021/05/22/gitlab-13-12-released/#semgrep-sast-analyzer-for-javascript-typescript-and-python) (13.12)
+- [SAST scanners now available in our Free tier for all GitLab users](https://about.gitlab.com/releases/2020/08/22/gitlab-13-3-released/#sast-security-analyzers-available-for-all) (13.3)
 
-[View the full list of announced SAST features](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features&selectedCategories=SAST)
+View the [full list of announced SAST features](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features&selectedCategories=SAST).
 
 ## Competitive Landscape
 
@@ -165,6 +207,8 @@ Here are some vendors providing SAST tools:
 GitLab has a unique position to deeply integrate into the development lifecycle, with the ability to leverage CI/CD pipelines to perform the security tests. There is no need to connect the remote source code repository, or to use a different interface. GitLab is consistently now having enterprise customers replacing traditional Security scanning tools in favor of GitLab's fully integrated Security Scanning tools:
 
 > “GitLab Secure replaced Veracode, Checkmarx, and Fortify in my DevOps toolchain. Secure scans faster, more accurate, and doesn’t require my developers to learn new tools” - Financial services organization, GitLab Gold Customer
+
+We even allow [integration with partners and competitors](https://about.gitlab.com/partners/#security) to ensure flexibility. This allows teams to choose specific SAST solutions that fit their unique needs without GitLab being a constraint. This centers GitLab as the system of control and allows people to [extend and integrate other solutions](https://docs.gitlab.com/ee/development/integrations/secure.html) into the GitLab DevSecOps workflow.
 
 We can improve the experience even further by supporting additional features that are currently present in other tools.
 
@@ -208,6 +252,6 @@ We want to engage analysts to make them aware of the security features already a
 - [Dependency Scanning](https://about.gitlab.com/direction/secure/composition-analysis/dependency-scanning/): identifying vulnerabilities in software dependencies
 - [Vulnerability Management](https://about.gitlab.com/direction/secure/vulnerability_management/): helping you manage findings through security dashboards, reports, and other management features
 
-Last Reviewed: 2022-04-29
+Last Reviewed: 2022-10-07
 
-Last Updated: 2022-04-29
+Last Updated: 2022-10-07

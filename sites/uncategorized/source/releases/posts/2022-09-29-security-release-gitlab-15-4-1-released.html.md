@@ -196,7 +196,7 @@ A non-security issue in Geo LFS is being backported to our `15.2.5` release: ["G
 
 ## Updating
 
-To update GitLab, see the [Update page](/update).
+To update GitLab, see the [update page](/update/).
 To update Gitlab Runner, see the [Updating the Runner page](https://docs.gitlab.com/runner/install/linux-repository.html#updating-the-runner).
 
 ## Receive Security Release Notifications

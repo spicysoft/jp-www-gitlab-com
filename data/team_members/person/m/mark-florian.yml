@@ -3,7 +3,7 @@ name: Mark Florian
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
-  Ecosystem:Foundations
+  Manage:Foundations
 reports_to: leipert
 picture: markrian.jpg
 twitter: mdflorian
@@ -12,8 +12,8 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Ecosystem:Foundations Team
-- Ecosystem:Foundations FE Team
+- Manage:Foundations Team
+- Manage:Foundations FE Team
 - Frontend
 projects:
   gitlab: maintainer frontend

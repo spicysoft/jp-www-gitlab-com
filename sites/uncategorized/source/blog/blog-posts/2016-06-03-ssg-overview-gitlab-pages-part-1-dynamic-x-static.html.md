@@ -40,11 +40,41 @@ Stay tuned for the next two posts:
 
 ## A static Vs dynamic Website
 
+At the core, the difference between static and dynamic websites is that a static website appears the same for every user that visits it. Static websites can only change when the source files are modified by a developer. A dynamic website, however, changes based on data from visitor behaviors and serves up different look, feel and content depending on the users. 
+
+### Static website
+
 A static website is a combination of HTML markup (the text we see written on web pages), CSS (Cascading Style Sheets), which are the styles and layouts applied to that pages, and JavaScript, a programming language that defines their behavior (e.g., fade in and fade out, hover effects, etc.). These pages are stored as simple files, usually in a [VPS][wiki-vps], which are then served by a web server. When we type in our web browsers the URL for a web page like that, our browser (called _client_) is making an _HTTP request_ to that server, which identifies which files are being requested, and send them back to our browsers via an _HTTP response_.
+
+#### Advantages of a static site
+
+Static sites are simple. They’re a collection of basic files that are manually updated as needed. Static sites are generally built using HTML and CSS and they’re a common choice for new or small companies to get their presence on the web.
+
+And even though static sites can require more time on the backend, they can also be faster from a user perspective because they don’t undergo any changes when requested - they just are as they are.  
+
+#### Disadvantages of a static site
+
+Though it can be an advantage, the simple style of a static site can also be a roadblock. The process of making changes to a given page is entirely manual because there’s no user interface or data processing to automate page changes. It can be time-consuming and repetitive, and far less scalable than a dynamic site. 
+
+The other major disadvantage of a static site is that it shows the same content to every visitor. That may work for certain page purposes, but content creation isn’t a one-size-fits-all scenario. Different content attracts and converts different visitors, so the same page for all is not always a good thing.
+
+### Dynamic website
 
 A dynamic website is more complicated than that. Besides the markup, the styles and the behavior, they do more things that our **web browsers** can identify. For example, if you are buying something online, it's easy to understand that the prices and the availability of that item are _dynamically_ recovered from some data, generally stored in _databases_. This process of recovering data and processing it _before_ responding to our browsers as web pages containing that information, is called _server-side_ processing.
 
-Now let's take a better look into these processes to be able to understand how those things work, how important they are, and why this information is useful for us. How about starting from the beginning?
+#### Advantages of a dynamic site
+
+A dynamic site is a bit more easily customizable without nearly the amount of manual work a static site change requires. This type of site changes more fluidly based on a visitor’s geographic location, time zone, and other preferences. Web servers build dynamic site pages at a random pace when a user requests a page. 
+
+After that request, information is pulled by the server from one or more databases to custom build an HTML file that gets shipped back to the browser and becomes the page. No site visitor necessarily sees the same page as another, making the user experience more personalized.
+
+#### Disadvantages of a dynamic site
+
+As opposed to the simplicity of a static site, a dynamic site can be a bit more complex to build and maintain due to its ever-changing nature. It may require a bit more developer knowledge or the help of an experienced developer to keep it updated, which can cost more in terms of learning or hiring. 
+
+Also, since the pages are more customized, the load time can be affected. Now let's take a better look into these processes to be able to understand how those things work, how important they are, and why this information is useful for us. 
+
+How about starting from the beginning?
 
 ### A static Vs dynamic website: the history
 

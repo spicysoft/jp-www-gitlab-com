@@ -185,7 +185,7 @@ Affects all versions of GitLab CE/EE
 
 ## Updating
 
-To update GitLab, see the [Update page](/update).
+To update GitLab, see the [update page](/update/).
 To update Gitlab Runner, see the [Updating the Runner page](https://docs.gitlab.com/runner/install/linux-repository.html#updating-the-runner).
 
 ## Receive Security Release Notifications

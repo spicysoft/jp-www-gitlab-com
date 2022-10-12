@@ -2,7 +2,7 @@
 name: Kati Paizee
 locality:
 country: Remote
-role: <a href="/job-families/engineering/technical-writing-manager/">Manager, Technical Writing</a>
+role: <a href="/job-families/product/technical-writing-manager/">Manager, Technical Writing</a>
 reports_to: susan-tacker
 picture: katipaizee.jpg
 pronouns: she/her
@@ -26,11 +26,10 @@ specialty:
 - 'Growth: Conversion'
 - 'Growth: Expansion'
 - 'Growth: Adoption'
-- 'Ecosystem: Integrations'
+- 'Manage: Integrations'
 expertise:
 story: Kati's career as a technical writer probably started at age 12, when she wrote
   down instructions for her family on how to use the new microwave properly. Since
   then she's written documentation about many other things, from word processing software
   to cloud networking. When not writing, she likes to spend time outdoors with her
   family.
-

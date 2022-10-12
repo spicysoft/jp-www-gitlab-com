@@ -42,8 +42,8 @@ A. Yes, GitLab Trial will receive entitlements from GitLab Ultimate.
 **Q. What is the effective date of the changes?**  
 A. For existing paid tier users:
 
-- These limits will not apply immediately and will be in the terms of your subscription at your next renewal on or after **2022-10-15**.
-- Storage limits will be applicable for impacted subscriptions from **2023-02-15**.
+- Storage limits are not yet applicable for paid customers. GitLab will release additional features in the coming months for users to [view and manage storage usage](https://gitlab.com/gitlab-org/gitlab/-/issues/375296) well ahead of the storage limits being applicable.
+- Storage limits will be added to the subscription terms at a later date and namespaces on the updated terms which are over the limits will be notified in-app at least 60 days prior to the storage limits being applied.
 - Transfer limits will not be applicable until further communication from GitLab.
 
 **Q. Will limits apply only once both storage and transfer are available?**  
@@ -69,7 +69,7 @@ A. Below you will find steps for managing the different storage types:
 - Wikis: Wikis follow the same process as [reducing repository size](https://docs.gitlab.com/ee/administration/wikis/index.html#reduce-wiki-repository-size).
 
 **Q: How can I automate storage usage analysis and cleanup?**
-A: You can use the [GitLab API](https://docs.gitlab.com/ee/api/) to programmatically view and delete storage data types. There are [programming language libraries](https://about.gitlab.com/partners/technology-partners/#api-clients) available that can help with easy-to-use interfaces, for example listing and deleting job artifacts using the [Python library for GitLab](https://python-gitlab.readthedocs.io/en/stable/gl_objects/pipelines_and_jobs.html#jobs). A script based on the Python library has been developed by the GitLab Developer Evangelism team [in this project](https://gitlab.com/gitlab-de/gitlab-storage-analyzer). This MIT-licensed script is not officially supported by GitLab and comes without warranty. 
+A: You can use the [GitLab API](https://docs.gitlab.com/ee/api/) to programmatically view and delete storage data types. There are [programming language libraries](https://about.gitlab.com/partners/technology-partners/#api-clients) available that can help with easy-to-use interfaces, for example listing and deleting job artifacts using the [Python library for GitLab](https://python-gitlab.readthedocs.io/en/stable/gl_objects/pipelines_and_jobs.html#jobs). A script based on the Python library has been developed by the GitLab Developer Evangelism team [in this project](https://gitlab.com/gitlab-de/gitlab-storage-analyzer). This MIT-licensed script is not officially supported by GitLab and comes without warranty.
 
 **Q. How will the storage limits affect me when I’m contributing to another project?**  
 A. Forks of projects get deduplicated, so only the changes you make will contribute to your storage consumption as long as the fork relationship is maintained.

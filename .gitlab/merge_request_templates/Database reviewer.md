@@ -16,8 +16,6 @@ Note that *approving and accepting* merge requests is *restricted* to
 Database Maintainers only. As a reviewer, pass the MR to a maintainer
 for approval.
 
-Want to become a database maintainer? Get started by [filing a trainee issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=trainee-database-maintainer)!
-
 /label ~Database
 
 ## Where to go for questions?

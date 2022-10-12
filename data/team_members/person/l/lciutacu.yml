@@ -1,7 +1,7 @@
 name: Lorena Ciutacu
 locality: 
 country: Remote
-role: <a href="/job-families/engineering/technical-writer/">Technical Writer</a>
+role: <a href="/job-families/product/technical-writer/">Technical Writer</a>
 reports_to: kpaizee
 picture: lorenaciutacu.jpg
 pronouns: she/her
@@ -20,7 +20,8 @@ projects:
   gitlab-chart: reviewer docs
   gitlab-development-kit: reviewer docs
   gitlab-docs: reviewer
-specialty: 
+specialty:
+- 'Plan: Optimize'
 expertise:
 story: Lorena has a background in data science, linguistics, and translation. She enjoys combining these skills into writing and translating documentation and educational content that help people achieve their goals. In her free time, you can find her in the kendo dojo, on the yoga mat, or taking photos around the world.
 

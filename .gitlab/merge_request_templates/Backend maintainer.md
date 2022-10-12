@@ -1,41 +1,33 @@
-/label ~backend ~"trainee maintainer"
+/label ~backend ~"maintainer application"
+/assign `@manager`
 
 <!-- Congratulations! Fill out the following MR when you feel you are ready to become -->
 <!-- a backend maintainer! This MR should contain updates to a file in `data/team_members/person/` -->
 <!-- declaring yourself as a maintainer of the relevant application -->
 
-Trainee maintainer issue: <!-- Link to the trainee issue -->
+## Manager Justification
 
-### Overview
+It's hard to specify hard requirements for becoming a maintainer, which is why [the documentation](https://about.gitlab.com/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer) consists of flexible guidelines. Reviewers are encouraged to think of their eligibility for maintainership in the terms of "I could be ready at any time to be a maintainer as long as my work as an author and reviewer is consistent with other maintainers".
 
-<!-- Overall experience at GitLab, how many merge requests authored, -->
-<!-- gitlab-org projects at which already a maintainer -->
+- [ ] The MRs reviewed by the candidate consistently make it through maintainer review without significant additionally required changes.
+- [ ] The MRs authored by the candidate consistently make it through reviewer and maintainer review without significant required changes.
 
-### Examples of reviews
+...justification...
 
-<!-- Examples of reviews that hold the codebase to a high standard of quality -->
+## Before Merging(Manager Tasks)
 
-### Things to improve
+- [ ] Mention the maintainers from the given specialty and ask them to provide feedback directly on this merge request.
+- [ ] Leave this merge request open for 1 week, to give the maintainers time to provide feedback.
+- [ ] Ensure we have at least 2 approvals from existing maintainers.
 
-<!-- Things to improve based on the feedback received during trainee maintainership -->
+## Once This MR is Merged
 
-@gitlab-org/maintainers/rails-backend please chime in below with your thoughts, and
-approve this MR if you agree.
+1. [ ] Create an [access request][access-request]
+       for maintainer access to `gitlab-org/<project>`. <!-- make sure to update the <project> as needed, for example `gitlab-org/gitlab` -->
+1. [ ] Join the `backend-maintainers` slack group
+1. [ ] Ask the maintainers in your group to invite you to any maintainer-specific meeting if one exists.
+1. [ ] Let a maintainer add you to `@gitlab-org/maintainers/rails-backend`
+1. [ ] Announce it _everywhere_
+1. [ ] Keep reviewing, start merging :sign_of_the_horns: :sunglasses: :sign_of_the_horns:
 
-## Developer checklist
-
-- [ ] Before this MR is merged
-  - [ ] Mention `@gitlab-org/maintainers/rails-backend`, if not done (this issue template should do this automatically)
-  - [ ] Assign this issue to your manager
-- [ ] After this MR is merged
-  - [ ] Request a maintainer from the `#backend_maintainers` Slack channel to add you as an Owner to `gitlab-org/maintainers/rails-backend`
-  - [ ] Consider adding 'backend maintainer' to your [Slack notification keywords](https://slack.com/intl/en-gb/help/articles/201398467-Set-up-keyword-notifications)
-
-## Manager checklist
-
-- [ ] Before this MR is merged
-  - [ ] The MR has been open for 5 working days
-  - [ ] If we have 10 or fewer backend maintainers, more than half of the existing maintainers approve the MR, otherwise if we have 11 or more maintainers, 5 existing maintainers approve the MR (see the [maintainer list](https://about.gitlab.com/handbook/engineering/projects/#gitlab_maintainers_backend))
-  - [ ] There are no blocking concerns raised (if there are, please follow https://about.gitlab.com/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer)
-- [ ] After this MR is merged
-  - [ ] Announce the good news in the relevant channels listed in https://about.gitlab.com/handbook/engineering/#keeping-yourself-informed
+[access-request]: https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request

@@ -54,7 +54,7 @@
   target: Above 95%
   org: Quality Department
   is_key: true
-  dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
+  dri: <a href="https://gitlab.com/jennli">Jennifer Li</a>
   health:
     level: 3
     reasons:
@@ -76,7 +76,7 @@
   target: Above 95%
   org: Quality Department
   is_key: true
-  dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
+  dri: <a href="https://gitlab.com/jennli">Jennifer Li</a>
   health:
     level: 2
     reasons:
@@ -101,7 +101,7 @@
   target: Below 15 minutes
   org: Quality Department
   is_key: true
-  dri: <a href="https://gitlab.com/kwiebers">Kyle Wiebers</a>
+  dri: <a href="https://gitlab.com/jennli">Jennifer Li</a>
   health:
     level: 2
     reasons:

@@ -31,7 +31,7 @@ There are no planned investments in Code Testing and Coverage until 2023, though
 - [Issue List](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Category%3ACode%20Testing%20and%20Coverage)
 - [Overall Vision](/direction/ops/#verify)
 
-Interested in joining the conversation for this category? Please join us in the issues where we discuss this topic and can answer any questions you may have. Your contributions are more than welcome.
+Interested in joining the conversation for this category? Please join us in the [issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=group%3A%3Apipeline%20insights&label_name%5B%5D=Category%3ACode%20Testing%20and%20Coverage&first_page_size=20) where we discuss this topic and can answer any questions you may have. Your contributions are more than welcome.
 
 This page is maintained by the Product Manager for Pipeline Insights, Jocelyn Eillis ([E-mail](mailto:jeillis@gitlab.com))
 

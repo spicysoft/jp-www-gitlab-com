@@ -5,7 +5,7 @@ features:
     available_in: [free, silver, gold]
     documentation_link: 'https://docs.gitlab.com/ee/user/gitlab_com/#rate-limits'
     reporter: g.hickman
-    stage: ecosystem
+    stage: manage
     categories: [Integrations]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/365605'
     description: |

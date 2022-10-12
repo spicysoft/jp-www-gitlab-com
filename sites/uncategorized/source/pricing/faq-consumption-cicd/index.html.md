@@ -21,11 +21,11 @@ canonical_path: "/pricing/faq-consumption-cicd/"
 
 **Q. How can I view and manage my CI/CD Minutes usage?**
 
-A. A Group Owner can view CI/CD Minutes usage on the Usage page in your Group settings page. Due to an [existing defect](https://gitlab.com/gitlab-org/gitlab/-/issues/243722), CI/CD minutes for public projects is currently not reflecting in the CI/CD minutes usage.
+A. A Group Owner can view CI/CD Minutes usage on the Usage page in your Group settings page. 
 
 **Q. How can I view and manage my CI/CD Minutes usage on Public Projects?**
 
-A. The CI/CD minutes limit is applicable for public projects on GitLab.com as well. For public projects on GitLab.com, after we resolve an [existing defect](https://gitlab.com/gitlab-org/gitlab/-/issues/243722) for displaying CI/CD minutes for public projects, users will be provided 8 weeks notice (via [our blog](https://about.gitlab.com/blog/) and [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/243722)) before implementing the CI/CD minute limits.
+A. The CI/CD minutes limit is applicable for public projects on GitLab.com as well. 
 
 **Q. How can I reduce the amount of CI/CD Minutes consumed?**
 

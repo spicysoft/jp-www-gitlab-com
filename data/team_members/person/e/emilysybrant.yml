@@ -2,8 +2,7 @@
 name: Emily Sybrant
 locality:
 country: Remote
-role: <a href="/job-families/engineering/product-designer/">Senior Product Designer,
-  Fulfillment:Purchase</a>
+role: <a href="/job-families/product/product-designer/">Senior Product Designer, Fulfillment:Purchase</a>
 reports_to: jackibauer
 picture: emilysybrant.jpg
 twitter:
@@ -19,7 +18,7 @@ projects:
   customers-app: reviewer UX
   gitlab: reviewer UX
 specialty:
-- 'Fulfillment: Purchase'
+- Fulfillment
 expertise:
 story: As a designer, Emily is a passionate advocate for design systems, accessibility,
   and a collaborative approach to design. In her free time, she's an avid traveler

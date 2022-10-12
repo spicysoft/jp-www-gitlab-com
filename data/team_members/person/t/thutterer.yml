@@ -1,7 +1,7 @@
 name: Thomas Hutterer
 locality: 
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>, Ecosystem:Foundations
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>, Manage:Foundations
 reports_to: leipert
 picture: thutterer.png
 pronouns:
@@ -13,13 +13,13 @@ departments:
   - Engineering Function
   - Development Department
   - Dev Section
-  - Ecosystem:Foundations Team
-  - Ecosystem:Foundations FE Team
+  - Manage:Foundations Team
+  - Manage:Foundations FE Team
   - Frontend
 projects:
   gitlab: reviewer backend
 specialty:
-  - 'Ecosystem: Foundations'
+  - 'Manage: Foundations'
   - " Ecosystem"
 expertise:
 domain_expertise:

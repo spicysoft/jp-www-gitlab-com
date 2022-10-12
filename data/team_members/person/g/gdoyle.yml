@@ -1,0 +1,33 @@
+---
+name: Gina Doyle
+locality:
+country: Remote
+role: <a href="/job-families/product/product-designer/">Product Designer, Verify:Pipeline
+  Insights, Verify:Runner</a>
+reports_to: rayana
+picture: ginadoyle.png
+pronouns: she/her/hers
+pronunciation:
+twitter: ginadoyle2442
+linkedin: gdoyle25
+gitlab: gdoyle
+departments:
+- Engineering Function
+- CI/CD UX Team
+- Ops Sub-department
+- Verify:Runner Group
+- Verify:Pipeline Insights Group
+projects:
+  gitlab-design: maintainer
+  gitlab: reviewer UX
+expertise:
+story: Gina is dedicated to designing usable and efficient experiences for users.
+  She has a passion for empathizing with users, which stems from her studies in engineering
+  psychology. Her detail-oriented and data-driven work style help her achieve her
+  daily tasks. She is a huge dog lover and enjoys anything active. Offline, you'll
+  find her attempting to try new workouts or somewhere outdoors with her pups by her
+  side.
+specialty:
+- 'Verify: Testing'
+- 'Verify: Runner'
+

@@ -5,11 +5,11 @@ description: Lifecycle management of credentials, including tokens, for both use
 canonical_path: "/direction/manage/auth/credential-management/"
 ---
 
-## Permissions
+## Credential Management
 
 | **Stage** | **Maturity** | **Content Last Reviewed** |
 | --- | --- | --- |
-| [Manage](/direction/dev/#manage) | [Minimal](/direction/maturity/) | `2022-06-27` |
+| [Manage](/direction/dev/#manage) | [Minimal](/direction/maturity/) | `2022-10-04` |
 
 ### Overview
 

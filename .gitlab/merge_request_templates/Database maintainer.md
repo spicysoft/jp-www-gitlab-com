@@ -1,43 +1,33 @@
-/label ~database ~"trainee maintainer"
+/label ~database ~"maintainer application"
+/assign `@manager`
 
 <!-- Congratulations! Fill out the following MR when you feel you are ready to become -->
 <!-- a database maintainer! This MR should contain updates to a file in `data/team_members/person/` -->
 <!-- declaring yourself as a maintainer of the relevant application -->
 
-Trainee maintainer issue: <!-- Link to the trainee issue -->
+## Manager Justification
 
-### Overview
+It's hard to specify hard requirements for becoming a maintainer, which is why [the documentation](https://about.gitlab.com/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer) consists of flexible guidelines. Reviewers are encouraged to think of their eligibility for maintainership in the terms of "I could be ready at any time to be a maintainer as long as it is justified".
 
-<!-- Overall experience at GitLab, how many merge requests authored, -->
-<!-- gitlab-org projects at which already a maintainer -->
+- [ ] The MRs reviewed by the candidate consistently make it through maintainer review without significant additionally required changes.
+- [ ] The MRs authored by the candidate consistently make it through reviewer and maintainer review without significant required changes.
 
-### Examples of reviews
+...justification...
 
-<!-- Examples of reviews that hold the codebase to a high standard of quality -->
+## Before Merging(Manager Tasks)
 
-### Things to improve
+- [ ] Mention the maintainers from the given specialty and ask them to provide feedback directly on this merge request.
+- [ ] Leave this merge request open for 1 week, to give the maintainers time to provide feedback.
+- [ ] Ensure we have at least 2 approvals from existing maintainers.
 
-<!-- Things to improve based on the feedback received during trainee maintainership -->
+## Once This MR is Merged
 
-@gitlab-org/maintainers/database please chime in below with your thoughts, and
-approve this MR if you agree. Keep in mind this advice from the handbook:
+1. [ ] Create an [access request][access-request]
+       for maintainer access to `gitlab-org/<project>`. <!-- make sure to update the <project> as needed, for example `gitlab-org/gitlab` -->
+1. [ ] Join the `database_maintainers` slack group
+1. [ ] Ask the maintainers in your group to invite you to any maintainer-specific meeting if one exists.
+1. [ ] Let a maintainer add you to `@gitlab-org/maintainers/database`
+1. [ ] Announce it _everywhere_
+1. [ ] Keep reviewing, start merging :sign_of_the_horns: :sunglasses: :sign_of_the_horns:
 
-> Normal non-blocking feedback should be submitted as comments to the MR. To support GitLab Values and avoid groupthink, any blocking negative feedback should be instead submitted to the manager of the aspiring maintainer. The manager will then share the feedback with the aspiring maintainer and post a generic message with a "TL;DR" in the MR.
-
-## Developer checklist
-
-- [ ] Before this MR is merged
-  - [ ] Mention `@gitlab-org/maintainers/database`, if not done (this issue template should do this automatically)
-  - [ ] Assign this issue to your manager
-- [ ] After this MR is merged
-  - [ ] Consider adding 'database maintainer' to your [Slack notification keywords](https://slack.com/intl/en-gb/help/articles/201398467-Set-up-keyword-notifications)
-  - [ ] Add yourself to the `#database_maintainers` slack channel
-
-## Manager checklist
-
-- [ ] Before this MR is merged
-  - [ ] The MR has been open for 5 working days
-  - [ ] 5 existing maintainers approve the MR (see the [maintainer list](https://about.gitlab.com/handbook/engineering/projects/#gitlab_maintainers_database))
-  - [ ] There are no blocking concerns raised (if there are, please follow https://about.gitlab.com/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer)
-- [ ] After this MR is merged
-  - [ ] Announce the good news in the relevant channels listed in https://about.gitlab.com/handbook/engineering/#keeping-yourself-informed
+[access-request]: https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request

@@ -26,6 +26,13 @@ This area of the product is in need of continued refinement to add more kinds of
 - [Documentation](https://docs.gitlab.com/ee/ci/review_apps/)
 - [UX Research](https://gitlab.com/gitlab-org/ux-research/-/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=Category%3AReview%20Apps) 
 - [Research insights](https://gitlab.com/gitlab-org/uxr_insights/-/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=Category%3AReview%20Apps)
+
+Interested in joining the conversation for this category? Please join us in our
+[issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=group%3A%3Apipeline%20insights&label_name%5B%5D=Category%3AReview%20Apps&first_page_size=20) where
+we discuss this topic and can answer any questions you may have. Your contributions
+are more than welcome.
+
+This page is maintained by the Product Manager for Pipeline Insights, Jocelyn Eillis ([E-mail](mailto:jeillis@gitlab.com))
  
 ## What's Next & Why
 
