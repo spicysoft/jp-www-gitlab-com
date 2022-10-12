@@ -2475,12 +2475,17 @@
 - sources:
   - /handbook/engineering/development/enablement/ecosystem/
   - /handbook/engineering/development/dev/create/ecosystem/
-  target: /handbook/engineering/development/dev/ecosystem/
+  target: /handbook/engineering/development/dev/manage/
   comp_op: '='
 - sources:
   - /handbook/engineering/development/dev/ecosystem/ecosystem-be/
   - /handbook/engineering/development/dev/create/ecosystem/ecosystem-be/
-  target: /handbook/engineering/development/dev/ecosystem/integrations/
+  - /handbook/engineering/development/dev/ecosystem/integrations/
+  target: /handbook/engineering/development/dev/manage/integrations/
+  comp_op: '='
+- sources:
+    - /handbook/engineering/development/dev/ecosystem/foundations/
+  target: /handbook/engineering/development/dev/manage/foundations/
   comp_op: '='
 - sources:
   - /handbook/sales/field-operations/sales-enablement/
