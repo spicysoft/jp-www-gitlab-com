@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Support for pull request events import from GitHub"
+  - name: "Support for pull request and issue events import from GitHub"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/import/github.html#imported-data'
@@ -9,7 +9,7 @@ features:
     stage: manage
     categories:
     - Importers
-    epic_url: 'https://gitlab.com/groups/gitlab-org/-/epics/7673'
+    epic_url: ['https://gitlab.com/groups/gitlab-org/-/epics/7673', 'https://gitlab.com/groups/gitlab-org/-/epics/7655']
     description: |
       We continue to improve the GitHub project importer by adding more metadata to the migrated projects. With added [pull request events history](https://gitlab.com/groups/gitlab-org/-/epics/7673) the following pull request events can be imported from GitHub and
       become part of a merge request's metadata:
@@ -20,6 +20,16 @@ features:
       - Assigned or unassigned.
       - Edited.
 
-      Because importing pull request events can take a long time, they aren't imported by default. To import them, select **Import issue and pull request events** when
+      With added [issue events history](https://gitlab.com/groups/gitlab-org/-/epics/7655) the following issue events can be imported from GitHub and
+      become part of an issue's metadata:
+
+      - Closed or reopened.
+      - Labeled or unlabeled.
+      - Milestone added or removed.
+      - Cross-referenced.
+      - Assigned or unassigned.
+      - Renamed.
+
+      Because importing pull request and issue events can take a long time, they aren't imported by default. To import them, select **Import issue and pull request events** when
       importing with the GitLab UI.
 
