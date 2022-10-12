@@ -28,7 +28,7 @@ You can find biweekly updates on Navigation in this [epic](https://gitlab.com/gr
 This direction is constantly evolving and everyone can contribute:
 
 - Please comment and contribute in the linked [issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=weight&state=opened&label_name%5B%5D=Category%3ANavigation%20%26%20Settings&first_page_size=20) and [epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=Category:Navigation+&+Settings) on this page. Sharing your feedback directly on GitLab.com or submitting a merge request to this page are the best ways to contribute to our strategy.
-- Please share feedback directly via email, Twitter, or [schedule a video call](https://calendly.com/cdybenko-gitlab/meeting-30). If you're a GitLab user and have direct feedback about your needs for Navigation, we'd especially love to hear from you. To contribute, please open an issue using the `~"Category:Navigation & Settings"` label, or reach out to us internally in the `#g_ecosystem_foundations` Slack channel.
+- Please share feedback directly via email, Twitter, or [schedule a video call](https://calendly.com/cdybenko-gitlab/meeting-30). If you're a GitLab user and have direct feedback about your needs for Navigation, we'd especially love to hear from you. To contribute, please open an issue using the `~"Category:Navigation & Settings"` label, or reach out to us internally in the `#g_manage_foundations` Slack channel.
 
 
 
