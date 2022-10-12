@@ -59,7 +59,7 @@ _People:_
 
 | Release post manager | Tech writer | Technical Advisor | Social | PMM lead | Product Operations DRI | Release post manager shadow |
 | --- | --- | --- | --- | --- | --- | --- |
-| `@release_post_manager` | `@tw_lead` | `@tech_advisor` | DRI: `@wspillane` & `@social` for Slack Checklist item | `@pmm_lead` | `@fseifoddini` | `@release_post_manager_shadow` |
+| `@release_post_manager` | `@tw_lead` | `@tech_advisor` | DRI: `@wspillane` & `@social` for Slack Checklist item | `@pmm_lead` | `@fseifoddini` | `@rpm_shadow` |
 
 _Response time SLA:_
 
@@ -85,10 +85,10 @@ To accommodate the tight timelines of tasks during the 18th-22nd of the month, m
 1. [ ] Read the [RPM specific section](https://about.gitlab.com/handbook/marketing/blog/release-posts/#release-post-manager-responsibilities) of the release post handbook page in detail
 1. [ ] Review the rest of the [release post handbook page](https://about.gitlab.com/handbook/marketing/blog/release-posts/) and all the tasks in this MR template, not just your own, so you're familiar with the overall process, roles and tasks involved
 1. [ ] Consider setting up a coffee chat with the previous release post manager and/or Product Operations DRI to ask for tips and any helpful "latest info"
-1. [ ] After meeting with the previous release post manager and/or Product Operations for insights, consider setting up a meeting with your release post shadow (`@release_post_manager_shadow`) to help them understand their role and how much capacity they have to support the work that month
+1. [ ] After meeting with the previous release post manager and/or Product Operations for insights, consider setting up a meeting with your release post shadow (`@rpm_shadow`) to help them understand their role and how much capacity they have to support the work that month
 1. [ ] Schedule a 30 min Live Retrospective meeting for some time after the 22nd. All action items for the retro need to be completed prior to the 3rd of the next month in order to incorporate any process changes before the next [release post automation](https://about.gitlab.com/handbook/marketing/blog/release-posts/#release-post-branch-creation-rake-task) begins. Make sure to invite Product Ops to the Live Retro meeting. Product Ops will need to approve any major updates to the process identified during the Retrospective.
 1. [ ] Create a `X-Y-release-post-prep` channel in Slack
-  1. [ ] Invite `@tw_lead`, `@tech_advisor`, `@pmm_lead`, `@release_post_manager_shadow`, `@fseifoddini`, and `@brhea`. There is no need to invite the social team to the channel.
+  1. [ ] Invite `@tw_lead`, `@tech_advisor`, `@pmm_lead`, `@rpm_shadow`, `@fseifoddini`, and `@brhea`. There is no need to invite the social team to the channel.
   1. [ ] Post the following message in `X-Y-release-post-prep`: `Hi team! This channel is to discuss production-specific topics that don't concern the broader product team. By keeping our conversations in this channel, we can help keep #release-post focused.`
   - See additional guidance on [release post communication](https://about.gitlab.com/handbook/marketing/blog/release-posts/#communication)
 1. [ ] Update the `#X-Y-release-post-prep` Slack bookmarks in the `#release-post` channel:
