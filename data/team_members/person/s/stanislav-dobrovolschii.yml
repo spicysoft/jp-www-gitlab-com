@@ -8,6 +8,8 @@ role: <a href="/job-families/engineering/development/backend/">Backend Engineer<
 reports_to: kushal-p
 picture: sdobrovolschii.jpg
 gitlab: sdobrovolschii
+projects:
+  gitlab: reviewer backend
 departments:
 - Engineering Function
 - Development Department
