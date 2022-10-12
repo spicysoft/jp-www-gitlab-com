@@ -1524,17 +1524,25 @@ DRIがシチューに使うジャガイモを紅芋にするか金時芋にす�
 
 ## バリューを公開する理由 {#why-our-values-are-public}
 
-Companies are encouraged to copy and implement GitLab's values. They are Creative Commons and can be copied verbatim.
+GitLabのバリューはコピーして採用していただいてかまいません。
+クリエイティブ・コモンズですし、一語一句コピーしても大丈夫です。
 
-We make our values public for the same [reasons](/company/culture/all-remote/hiring/#make-your-strategy-public) we make our [OKRs](/company/okrs/) (Objectives and Key Results) and [strategy](/company/strategy/) public. There is great power and efficiency in teams who share company values. Concealing values until *after* someone is hired into an organization is not a wise strategy.
+[OKR](/company/okrs/) や[戦略](/company/strategy/) を公開している[理由](/company/culture/all-remote/hiring/#make-your-strategy-public) と同じ理由でバリューも公開しています。
 
-Not everyone will see our values and feel aligned with them, and that's OK. By making values public, it shows respect for the time of job seekers who conduct due diligence on prospective employers. When people who *are* aligned with GitLab's values apply for an [open vacancy](/jobs/), this allows our hiring teams to more efficiently move candidates through the [interview process](/handbook/hiring/interviewing/).
+会社のバリューを共有すれば、力強い効率的なチームになります。
+内定者以外にはバリューを隠すことは賢いやり方ではありません。
 
-In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder and CEO Sid Sijbrandij offers the following context.
+私たちのバリューにみんなが共感してくれるわけではありませんが、それで構わないのです。
 
-> Companies may ask you to write a blank check. They'll say, 'Come join our organization, and when you're here, you need to subscribe to our values, our way of working, and our strategy. It's very essential, and it's part of our identity!'
+バリューを公開しておけば、求職者が入社しようとしている会社についての理解をする手助けになります。
+
+GitLabのバリューを理解してくれている人が、[求人](/jobs/)に応募してくれれば、採用チームは効率的に[面接](/handbook/hiring/interviewing/)を進めることができます。
+
+[GitLab ぶっちゃけインタビュー バリュー編](https://youtu.be/7kMQj4O4ZGU)にて、GitLab共同創業者兼CEOのSid Sijbrandijは次のように語っています。
+
+> 求職者に白紙委任状を求めがちです。『ぜひ入社してください。入社したら、うちのバリュー、働き方、戦略に全面的にコミットしてください。私達が大事にしていることです。私たちのアイデンティティの一部です！』
 >
-> But these companies don't give you the opportunity up front to evaluate it. It doesn't make any sense to me. If it's so important that people share your values, have them out there.
+> しかしこういうことを言う会社は入社前にバリュー等を事前に確認させてくれません。それでは何の意味もありません。バリューを共有することが大事なら事前に公開するべきです。
 
 ## ヒエラルキー {#hierarchy}
 
