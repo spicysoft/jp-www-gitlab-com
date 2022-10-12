@@ -30,6 +30,5 @@ features:
       - Assigned or unassigned.
       - Renamed.
 
-      Because importing pull request and issue events can take a long time, they aren't imported by default. To import them, select **Import issue and pull request events** when
-      importing with the GitLab UI.
+      Because importing pull request and issue events can take a long time, they aren't imported by default. To import them, select **Import issue and pull request events** in **Advanced import settings** dropdown on GitHub import page, when importing with the GitLab UI.
 
