@@ -20,7 +20,7 @@ class UpdateReleasesService
   # These lists define the order of the features in the release notes.
   # Anything that doesn't have a matching tier or stage gets funnelled into the "other" bucket
   TIERS = [OTHER, ULTIMATE, PREMIUM, CORE].freeze
-  STAGES = %W[#{OTHER} manage plan create verify package secure release configure monitor protect].freeze
+  STAGES = %W[#{OTHER} manage plan create verify package secure release configure monitor protect modelops anti-abuse].freeze
 
   # Color hexes used for the feature count badges that align with
   # Pajamas colors: https://design.gitlab.com/product-foundations/colors/
