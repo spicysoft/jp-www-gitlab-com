@@ -7,7 +7,7 @@ title: "Category Direction - Design System"
 {:toc}
 
 | ------ | ------ |
-| **Stage** | [Ecosystem](/direction/ecosystem/) |
+| **Stage** | [Manage](/direction/manage/) |
 | **Maturity** | [Viable](/handbook/product/categories/maturity/) |
 | **Last reviewed** | 2022-08-06 |
 
@@ -15,9 +15,9 @@ title: "Category Direction - Design System"
 - [Pajamas Project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
 - [Issue list](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&label_name[]=Category%3AFoundations)
 - [Epic list](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&state=opened&label_name[]=Category%3AFoundations)
-- [Overall direction](/direction/ecosystem/)
+- [Overall direction](/direction/manage/)
 
-Thanks for visiting this direction page on the Design System category in GitLab. This page belongs to the [Foundations Group](https://about.gitlab.com/handbook/product/categories/#foundations-group) within the Ecosystem Stage and is maintained by [Christen Dybenko](mailto:cdybenko@gitlab.com).
+Thanks for visiting this direction page on the Design System category in GitLab. This page belongs to the [Foundations Group](https://about.gitlab.com/handbook/product/categories/#foundations-group) within the Manage Stage and is maintained by [Christen Dybenko](mailto:cdybenko@gitlab.com).
 
 This direction is constantly evolving and everyone can contribute:
 
