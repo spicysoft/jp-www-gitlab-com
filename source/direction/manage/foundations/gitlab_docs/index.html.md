@@ -11,7 +11,7 @@ canonical_path: "/direction/manage/foundations/gitlab_docs/"
 
 |                       |                               |
 | -                     | -                             |
-| Stage                 | [Ecosystem](/direction/ecosystem/)      |
+| Stage                 | [Manage](/direction/manage/)      |
 | Maturity              | N/A |
 | Content Last Reviewed | `2022-06-20`                  |
 | Maintained by | [Susan Tacker](https://gitlab.com/susantacker)|

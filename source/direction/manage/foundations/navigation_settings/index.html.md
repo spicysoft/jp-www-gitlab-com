@@ -12,18 +12,18 @@ canonical_path: "/direction/manage/foundations/navigation_settings/"
 
 |                       |                               |
 | -                     | -                             |
-| Stage                 | [Ecosystem](/direction/ecosystem/)      |
+| Stage                 | [Manage](/direction/manage/)      |
 | Maturity              | N/A |
 | Content Last Reviewed | `2022-08-12`                  |
 
 ### Introduction
 <!-- Introduce yourself and the category. Use this as an opportunity to point users to the right places for contributing and collaborating with you as the PM -->
 
-Thanks for visiting this direction page on the Navigation & Settings category at GitLab. This page belongs to the [Foundations Group](https://about.gitlab.com/handbook/product/categories/#foundations-group) within the Ecosystem Stage and is maintained by [Christen Dybenko](mailto:cdybenko@gitlab.com). 
+Thanks for visiting this direction page on the Navigation & Settings category at GitLab. This page belongs to the [Foundations Group](https://about.gitlab.com/handbook/product/categories/#foundations-group) within the Manage Stage and is maintained by [Christen Dybenko](mailto:cdybenko@gitlab.com). 
 
-As a global, foundational aspect of the GitLab product, the Foundations Group within the Ecosystem stage leads navigation and settings. Still, it is a collaborative cross-stage effort, because Navigation is vital to the GitLab experience and significantly impacts users. Because of this, Foundations must align with every stage group to ensure that Navigation's overall useability takes precedence when balancing the business needs of individual stage groups.
+As a global, foundational aspect of the GitLab product, the Foundations Group within the Manage stage leads navigation and settings. Still, it is a collaborative cross-stage effort, because Navigation is vital to the GitLab experience and significantly impacts users. Because of this, Foundations must align with every stage group to ensure that Navigation's overall useability takes precedence when balancing the business needs of individual stage groups.
 
-You can find biweekly updates on Navigation in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/8434). Our [most recent update](https://gitlab.com/gitlab-org/ecosystem-stage/team-tasks/-/issues/160) includes information on the progress of our current North Star Design prototypes that are currently in testing.
+You can find biweekly updates on Navigation in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/8434). Our [most recent update](https://gitlab.com/gitlab-org/manage/foundations/team-tasks/-/issues/160) includes information on the progress of our current North Star Design prototypes that are currently in testing.
 
 This direction is constantly evolving and everyone can contribute:
 
@@ -144,7 +144,7 @@ or [epic](https://about.gitlab.com/handbook/product/product-processes/#epics-for
 
 **Next:** 15.5 - After narrowing down the north star direction, we will utilize [RITE to iterate on a single proposal](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2050#the-approach) that addresses any lingering usability questions.
 
-**Next:** ~15.5 - Once we have confidence in our north star direction, we’ll then [break it down into at least 3 MVCs](https://gitlab.com/gitlab-org/ecosystem-stage/team-tasks/-/issues/164#star-kr-define-3-mvcs-from-the-chosen-north-star-designs) and work with engineering to build and test with users. We’ll continue to ship from this point on, but this will be the first point of delivery for our users and critical to the mechanics of how we ship Navigation.
+**Next:** ~15.5 - Once we have confidence in our north star direction, we’ll then [break it down into at least 3 MVCs](https://gitlab.com/gitlab-org/manage/foundations/team-tasks/-/issues/164#star-kr-define-3-mvcs-from-the-chosen-north-star-designs) and work with engineering to build and test with users. We’ll continue to ship from this point on, but this will be the first point of delivery for our users and critical to the mechanics of how we ship Navigation.
 
 **Later:** TBD - Audit Navigation accessibility to check how we measure against the high bar of inclusive standards.
 
