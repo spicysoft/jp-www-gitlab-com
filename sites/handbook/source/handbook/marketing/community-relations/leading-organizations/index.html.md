@@ -48,7 +48,7 @@ Lack of developer talent is one of the biggest threats to businesses. Contributi
 
 Leading Organizations receive: 
 
-- Faster time [service level objective](/handbook/engineering/workflow/code-review/#review-response-slo) from GitLab team members
+- Faster time to review [service level objective](/handbook/engineering/workflow/code-review/#review-response-slo) from GitLab team members
 - Certainty that if you need something added to GitLab, you have a path to ensuring that you get it
 - Public recognition with special Leading Organization badge visible on LinkedIn and other social channels
 - Increased employer brand visibility through blog posts on GitLab.com, contributor stories and social media
