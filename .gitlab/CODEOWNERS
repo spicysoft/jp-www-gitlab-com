@@ -542,7 +542,6 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/govern/compliance/ @derekferguson @hbenson
 /source/direction/govern/compliance/audit-events/ @derekferguson @hbenson
 /source/direction/govern/compliance/compliance-management/ @derekferguson @hbenson
-/source/direction/anti-abuse/ @jstava @tmccaslin @hbenson
 
 ^[Product - Analytics Section]
 /source/direction/analytics/ @david
@@ -572,9 +571,10 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/fulfillment/fulfillment-admin-tools/ @doniquesmit
 /source/direction/fulfillment/platform/ @jameslopez @tgolubeva
 
-^[Product Section - ModelOps]
-/source/direction/data-science/
+^[Product Section - Data Science]
+/source/direction/data-science/ @tmccaslin @hbenson
 /source/direction/modelops/ @tmccaslin @hbenson
+/source/direction/anti-abuse/ @jstava @tmccaslin @hbenson
 
 ^[Product Section - Other]
 /source/direction/product-analysis/ @cbraza @gl-product-leadership
@@ -593,7 +593,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 
 ^[Sales]
 /sites/handbook/source/handbook/resellers/ @ecepulis
-/sites/handbook/source/handbook/resellers/training/ @dhong @ecepulis @bfraser 
+/sites/handbook/source/handbook/resellers/training/ @dhong @ecepulis @bfraser
 /sites/handbook/source/handbook/sales/ @dhong @jbrennan1 @jakebielecki @james_harrison @jdbeaumont @cfarris
 /sites/handbook/source/handbook/sales/account-planning/ @lschoenfeld @RobbieB @dhong @emelier @kgavalas
 /sites/handbook/source/handbook/sales/assistance-from-investors/ @james_harrison
@@ -624,7 +624,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/sales/idea-to-production-demo/ @dhong @elikrohn
 /sites/handbook/source/handbook/sales/insidesales/ @james_harrison
 /sites/handbook/source/handbook/sales/it-agility-director-interview/ @dhong
-/sites/handbook/source/handbook/sales/manager-operating-rhythm/ @dhong 
+/sites/handbook/source/handbook/sales/manager-operating-rhythm/ @dhong
 /sites/handbook/source/handbook/sales/manager-operating-rhythm/enterprise-sales/ @dhong @emelier
 /sites/handbook/source/handbook/sales/meddppicc/ @dhong
 /sites/handbook/source/handbook/sales/negotiate-to-close/ @dhong @emelier

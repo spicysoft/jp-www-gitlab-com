@@ -3,7 +3,7 @@ name: Wayne Haber
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/#director-of-engineering">Director
-  of Engineering for Growth, Sec, and ModelOps</a>
+  of Engineering for Growth, Sec, and Data Science</a>
 reports_to: christopher-l
 picture: waynehaberpicture.png
 twitter: waynehaber
@@ -15,7 +15,7 @@ departments:
 - Development Department
 - Growth Section
 - Sec Section
-- ModelOps Section
+- Data Science Section
 story: 'Prior to joining GitLab, Wayne was a Senior Director of Engineering at a security
   company for 15+ years.  GitLab is Wayne''s 3rd startup.  Wayne''s interests include
   security, agile software development best practices, coaching engineers and engineering
@@ -38,4 +38,3 @@ specialty:
 - Growth
 - Sec
 - ModelOps
-

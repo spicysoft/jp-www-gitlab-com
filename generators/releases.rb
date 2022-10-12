@@ -51,7 +51,9 @@ class ReleaseList
           release: [],
           configure: [],
           monitor: [],
-          govern: []
+          govern: [],
+          modelops: [],
+          "anti-abuse": []
         }
 
         post.highlights.each do |highlight|

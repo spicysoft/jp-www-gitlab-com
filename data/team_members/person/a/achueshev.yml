@@ -12,7 +12,7 @@ gitlab: achueshev
 departments:
 - Engineering Function
 - Development Department
-- ModelOps Section
+- Data Science Section
 - ModelOps:Applied ML
 story: 'Alexander is passionate about machine learning and distributed computing.
   Prior to joining GitLab, Alexander worked on UnReview, a code reviewer recommendation
@@ -23,4 +23,3 @@ story: 'Alexander is passionate about machine learning and distributed computing
   '
 specialty:
 - 'ModelOps: Applied ML'
-
