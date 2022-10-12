@@ -2160,7 +2160,7 @@ stages:
           - Marcel van Remmerden
         uxr:
           - Will Leidheiser
-        tech_writer: Suzanne Selhorn
+        tech_writer: Jonathan Glassman
         slack:
           channel: g_application_performance
         gitlab_group: gitlab-org/memory-team
@@ -2277,7 +2277,7 @@ stages:
           - Marcel van Remmerden
         uxr:
           - Will Leidheiser
-        tech_writer: Suzanne Selhorn
+        tech_writer: Jonathan Glassman
         slack:
           channel: g_pods
         gitlab_group: TBD
