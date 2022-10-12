@@ -1,17 +1,18 @@
+---
 name: Evgeny Rudinsky
 locality: 
 country: Remote
-role: <a href="">Senior Professional Services Engineer</a>
+role: <a href="/job-families/sales/professional-services-engineer/#senior-professional-services-engineer">Senior Professional Services Engineer</a>
 reports_to: melaniross
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
-twitter:
-linkedin:
+picture: erudinsky.jpg
+pronouns: he/his
+pronunciation: yev-geh-nee
+twitter: evgenyrudinsky
+linkedin: evgenyrudinsky
 gitlab: erudinsky1
 departments:
-  - Consulting Delivery
-specialty: "Sales"
-expertise:
-story:
-
+- Customer Success
+- Professional Services
+- Consulting Delivery
+story: |
+  IT consultant, DevOps and application security enthusiast. 
