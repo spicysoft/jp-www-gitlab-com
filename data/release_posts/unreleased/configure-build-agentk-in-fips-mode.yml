@@ -1,0 +1,14 @@
+---
+features:
+  secondary:
+  - name: "Build agentk in FIPS mode"
+    available_in: [premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/user/clusters/agent/)'
+    reporter: nagyv-gitlab
+    stage: configure
+    categories:
+    - Kubernetes Management
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/375324'
+    description: |
+      For some GitLab customers, U.S. government regulatory requirements require using FIPS (Federal Information Processing Standards) compliant software. The FIPS 140-2 and FIPS 140-3 publications define the security requirements for cryptographic modules used in computer and telecommunication systems and within cyber systems that protect sensitive information. The [agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) is now available on a FIPS-enabled GitLab installation accompanied with FIPS-compliant `agent` images to be installed into the clusters.
