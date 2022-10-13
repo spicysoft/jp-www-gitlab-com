@@ -27,6 +27,16 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 
 #### Working the Queue
 
+##### HackerOne Triage Team
+
+GitLab's bug bounty program is managed by HackerOne. The HackerOne triage team are the first responders, and will work with researchers to validate reports before assigning to `GitLab Team`.
+
+We usually trust the HackerOne Triage Team and don't necessarily validate the report a second time. There are however cases when the GitLab team member on rotation may want to re-validate it, for example (non exhaustive list):
+- There may be additional impact that require more investigation
+- The severity can't be properly assessed without further investigation
+
+##### GitLab Team
+
 - When beginning work on a report, the security team member should assign the
 report to themselves immediately.
 - It is OK to take a report that you will not work on immediately, especially
@@ -39,10 +49,11 @@ be sure to get it reassigned if you won't be able to meet the estimated triage t
   1. Triage the `GitLab Team` queue first, then `New`.
 
   If a reporter has questions about the order of report responses, `06 - Duplicates/Invalid Reports Triaged First` common response may be used.
-- Conduct initial communication with the reporter and investigation, using the
+- Review the validation performed by the HackerOne triage team
+- Communicate with the reporter and investigate, using the
 following guidelines as necessary:
-    - [Request clarification](#if-a-report-is-unclear)
-    - Attempt to verify the report and triage the vulnerability.
+    - [Request clarification](#if-a-report-is-unclear), from either the reporter or the triage team
+    - Verify the report yourself
 - When a report contains externally-hosted static content for reproduction (for example some HTML file triggering a CSRF or a vulnerability exploiting a `postMessage` issue), follow the instructions in [this project](https://gitlab.com/gitlab-com/gl-security/appsec/vuln-repro-static-pages) to re-host it internally
 - Potential, non-bounty outcomes:
     - Report is out-of-scope. If actionable, issues may still be created, but
@@ -97,6 +108,7 @@ the responsible engineering team:
           - `00 - Triaged with Bounty` for medium, high, and critical reports which do have an initial bounty at time of triage
         - In the comment, include link to the confidential issue
     - Update the CVE issue and Bug Bounty Council note with relevant details, while they are still fresh in your mind
+    - If you relied on the HackerOne Triage Team's validation of the issue, consider setting time in your calendar to validate it yourself. This will help if you need to validate the fix later.
     - If full impact is needed to be assessed against GitLab infrastructure, instead of testing in https://gitlab.com, use https://staging.gitlab.com/help to sign in with your GitLab email account
         - If multiple users are needed, use credentials for users gitlab-qa-user* stored in 1password Team Vault to access the staging environment
 
@@ -211,9 +223,7 @@ When that happens, the creation of a new license should be avoided.
 
 Members of the public can ask questions about our HackerOne bug bounty program here: [https://gitlab.com/gitlab-com/gl-security/appsec/hackerone-questions/](https://gitlab.com/gitlab-com/gl-security/appsec/hackerone-questions/). Note that this repository **is not** the place to discuss or disclose reports and vulnerabilities.
 
-### HackerOne Triage Team
-
-GitLab's bug bounty program is managed by HackerOne. The HackerOne triage team are often the first responders, and will work with researchers to validate reports before assigning to `GitLab Team`.
+### HackerOne Triage Team GitLab licenses
 
 All members of the HackerOne triage team have access to GitLab Ultimate licenses. HackerOne will inform us annually when the license needs to be renewed. 
 
