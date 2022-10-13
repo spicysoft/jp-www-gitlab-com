@@ -20,7 +20,7 @@ features:
       - Assigned or unassigned.
       - Edited.
 
-      With added [issue events history](https://gitlab.com/groups/gitlab-org/-/epics/7655) the following issue events can be imported from GitHub and
+      With added [issue events history](https://gitlab.com/groups/gitlab-org/-/epics/7655), the following issue events can be imported from GitHub and
       become part of an issue's metadata:
 
       - Closed or reopened.
