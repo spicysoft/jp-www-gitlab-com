@@ -11,4 +11,4 @@ features:
     - Kubernetes Management
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/375324'
     description: |
-      For some GitLab customers, U.S. government regulatory requirements require using FIPS (Federal Information Processing Standards) compliant software. The FIPS 140-2 and FIPS 140-3 publications define the security requirements for cryptographic modules used in computer and telecommunication systems and within cyber systems that protect sensitive information. The [agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) is now available on a FIPS-enabled GitLab installation accompanied with FIPS-compliant `agent` images to be installed into the clusters.
+      The U.S. Government requires some GitLab customers to use FIPS (Federal Information Processing Standards) compliant software. You can now use the [agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) on FIPS-enabled GitLab installations. This release also adds FIPS-compliant `agent` images that you can install on your clusters.
