@@ -67,6 +67,15 @@ When responding to a post about GitLab on Hacker News:
   - Search for `minutes ago` using the browser (`cmd+f` on macOS) to highlight the most recent posts in the past hour.
 - Don't upvote/downvote comments based on whether you agree with them personally or whether or not they are critical of GitLab. Instead vote based on if they are thoughtful and substantive, since HN is about curious conversations.
 
+#### Formatting tips for Hacker News
+
+Follow the [formatting options documentation](https://news.ycombinator.com/formatdoc), with additional tips below:
+
+1. When replying to a specific sentence or thought, use `>` to quote the section in your reply, add a blank line, and your comment. 
+2. Indent the lines with 2 spaces to format shell commands and code as code blocks (thanks to [this comment](https://news.ycombinator.com/item?id=33108536))
+3. When sharing more than 2 URLs, consider using `[0]`, `[1]`, etc. anchors with a list of URLs at the bottom of the comment. The list needs a blank line between items to render correctly. Separating URLs from text can increase readability and intention of the comment, and making the URLs less important. ([example](https://news.ycombinator.com/item?id=32155848)).
+
+
 ### Conveying without convincing
 
 Remember that your comments are being read by many more folks than the person to whom you are responding. Make sure that the information you share is helpful to them, too. Aim to make your replies valuable to everyone involved in the conversation, not just the person you are replying to. When addressing criticism or negative feedback, it is unlikely to change the mind of someone whose comment or point-of-view is antagonistic or disagreeable but your reply can be valuable to the folks who are simply there to read and learn.  
