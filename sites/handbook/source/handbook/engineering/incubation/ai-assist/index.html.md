@@ -25,18 +25,18 @@ early feedback to [iterate](/handbook/values/#iteration) on the strategy.
 
 ### Latest video
 <figure class="video_container">
-    <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0KoQ2a8sLO059BdU4F5c-jGE" frameborder="0" allowfullscreen></iframe>
+    <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=1&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0KoQ2a8sLO059BdU4F5c-jGE" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 ### Previous 5 videos
 
-| Date       | Tl;DW;                                                                                      | Video                                                                          | 
-|------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| 2022-09-28 | Lots of work on the GitLab Workflow VS Code extension                                       | [https://youtu.be/YPROwTbyxig](https://youtu.be/YPROwTbyxig){:target="_blank"} |
-| 2022-09-15 | Shows a first working prototype in VS Code using FauxPilot backend                          | [https://youtu.be/FfhLyxAlUho](https://youtu.be/FfhLyxAlUho){:target="_blank"}                   |
-| 2022-09-06 | Describes pivoting to real-time / predictive tooling                                        | [https://youtu.be/YfBPIi24tSs](https://youtu.be/YfBPIi24tSs){:target="_blank"} |
-| 2022-08-19 | Describe future plans for Dokter, in which stages it fits and community feedback            | [https://youtu.be/1KCSHrJnjSk](https://youtu.be/1KCSHrJnjSk){:target="_blank"} |
-| 2022-08-09 | Explanation on what Dokter does and how it helps developers write secure code               | [https://youtu.be/8aKScUQjMWY](https://youtu.be/8aKScUQjMWY){:target="_blank"} |
+| Date       | Tl;DW;                                                                           | Video                                                                          | 
+|------------|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 2022-10-13 | First release of VS Code extension, work on authentication                       | [https://youtu.be/VYl0dg8xyeE](https://youtu.be/VYl0dg8xyeE){:target="_blank"} |
+| 2022-09-28 | Lots of work on the GitLab Workflow VS Code extension                            | [https://youtu.be/YPROwTbyxig](https://youtu.be/YPROwTbyxig){:target="_blank"} |
+| 2022-09-15 | Shows a first working prototype in VS Code using FauxPilot backend               | [https://youtu.be/FfhLyxAlUho](https://youtu.be/FfhLyxAlUho){:target="_blank"} |
+| 2022-09-06 | Describes pivoting to real-time / predictive tooling                             | [https://youtu.be/YfBPIi24tSs](https://youtu.be/YfBPIi24tSs){:target="_blank"} |
+| 2022-08-19 | Describe future plans for Dokter, in which stages it fits and community feedback | [https://youtu.be/1KCSHrJnjSk](https://youtu.be/1KCSHrJnjSk){:target="_blank"} |
 
 
 ## What is AI?
