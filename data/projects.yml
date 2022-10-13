@@ -1144,3 +1144,11 @@ discoto:
     Discoto (A mix of "DISCussion" and "AUTOmation") is a discussion-automation
     tool. It automatically creates and propagates discussion summaries and helps
     keep discussions organized.
+
+pipeline-validation-service:
+  name: pipeline-validation-service
+  path: gitlab-org/modelops/anti-abuse/pipeline-validation-service
+  link: https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service
+  description: |
+    Implements https://docs.gitlab.com/ee/administration/external_pipeline_validation.html
+

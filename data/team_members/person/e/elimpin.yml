@@ -17,6 +17,7 @@ departments:
 projects:
   gitlab:
   - reviewer backend
+  pipeline-validation-service: maintainer
 specialty: Anti-Abuse
 story: Eugie is a software engineer based in the Philippines. He has been building
   applications using various languages and frameworks for almost a decade before joining
