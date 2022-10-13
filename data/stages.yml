@@ -530,7 +530,7 @@ stages:
         uxr:
           - Ben Leduc-Mills
         tech_writer: Amy Qualls
-        appsec_engineer: TBD
+        appsec_engineer: Greg Alfaro
         cs_team_tag: TBD
         internal_customers:
           - department: Engineering Department
@@ -571,7 +571,7 @@ stages:
         uxr:
           - Ben Leduc-Mills
         tech_writer: Ashraf Khamis
-        appsec_engineer: TBD
+        appsec_engineer: Greg Alfaro
         cs_team_tag: Editor Group CS Stable Counterpart
         internal_customers:
           - department: Marketing Department
