@@ -22,7 +22,7 @@
   health:
     level: 2
     reasons:
-    - The team moved closer to the target in August, with 15 Technical Writing team members contributing almost 52 MRs each. A Hackathon contributed 90 MRs. 
+    - The team moved closer to the target in August, with 15 Technical Writing team members contributing almost 52 MRs each. September numbers were lower at 44 MRs per writer. 
   dri: <a href="https://gitlab.com/susantacker">Susan Tacker</a>
   sisense_data:
     chart: 6223816
@@ -366,7 +366,7 @@
   health:
     level: 0
     reasons:
-    - We are watching this metric to determine a target, because historical data is inconsistent. After several months of dropping numbers, August showed a strong rebound. We're discussing potential reasons for the large increase.   
+    - We are watching this metric to determine a target, because historical data is inconsistent. After several months of dropping numbers, August showed a strong rebound. September was a bit lower.   
   dri: <a href="https://gitlab.com/susantacker">Susan Tacker</a>
   sisense_data:
     chart: 12963522
