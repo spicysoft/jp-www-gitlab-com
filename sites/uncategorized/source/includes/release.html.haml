@@ -77,10 +77,11 @@
             %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.issue_url}", :target => "_blank"}
               = partial "includes/icons/product-icons/issue-boards.svg"
               Issue Board
-          - if top_feature.epic_url != nil
-            %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.epic_url}", :target => "_blank"}
-              = partial "includes/icons/product-icons/epics.svg"
-              Epic
+          - if Array(top_feature.epic_url).any?
+            - Array(top_feature.epic_url).each do |epic_url|
+              %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.epic_url}", :target => "_blank"}
+                = partial "includes/icons/product-icons/epics.svg"
+                Epic
           - if top_feature.mr_url != nil
             %a{ class: "btn btn-default btn-sm product-icon", :href => "#{top_feature.mr_url}", :target => "_blank"}
               = partial "includes/icons/product-icons/merge-requests.svg"
@@ -131,10 +132,11 @@
                   %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.issueboard_url}", :target => "_blank"}
                     = partial "includes/icons/product-icons/issue-boards.svg"
                     Issue Board
-                - if primary_feature.epic_url != nil
-                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.epic_url}", :target => "_blank"}
-                    = partial "includes/icons/product-icons/epics.svg"
-                    Epic
+                - if Array(primary_feature.epic_url).any?
+                  - Array(primary_feature.epic_url).each do |epic_url|
+                    %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.epic_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/epics.svg"
+                      Epic
                 - if primary_feature.mr_url != nil
                   %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.mr_url}", :target => "_blank"}
                     = partial "includes/icons/product-icons/merge-requests.svg"
@@ -191,10 +193,11 @@
                   %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.issueboard_url}", :target => "_blank"}
                     = partial "includes/icons/product-icons/issue-boards.svg"
                     Issue Board
-                - if primary_feature.epic_url != nil
-                  %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.epic_url}", :target => "_blank"}
-                    = partial "includes/icons/product-icons/epics.svg"
-                    Epic
+                - if Array(primary_feature.epic_url).any?
+                  - Array(primary_feature.epic_url).each do |epic_url|
+                    %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.epic_url}", :target => "_blank"}
+                      = partial "includes/icons/product-icons/epics.svg"
+                      Epic     
                 - if primary_feature.mr_url != nil
                   %a{ class: "btn btn-default btn-sm product-icon", :href => "#{primary_feature.mr_url}", :target => "_blank"}
                     = partial "includes/icons/product-icons/merge-requests.svg"
@@ -281,10 +284,11 @@
                     %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.issueboard_url}", :target => "_blank"}
                       = partial "includes/icons/product-icons/issue-boards.svg"
                       Issue Board
-                  - if secondary_feature.epic_url != nil
-                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.epic_url}", :target => "_blank"}
-                      = partial "includes/icons/product-icons/epics.svg"
-                      Epic
+                  - if Array(secondary_feature.epic_url).any?
+                    - Array(secondary_feature.epic_url).each do |epic_url|
+                      %a{ class: "btn btn-default btn-sm product-icon", :href => "#{secondary_feature.epic_url}", :target => "_blank"}
+                        = partial "includes/icons/product-icons/epics.svg"
+                        Epic
                   - if secondary_feature.mr_url != nil
                     %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.mr_url}", :target => "_blank"}
                       = partial "includes/icons/product-icons/merge-requests.svg"
@@ -352,10 +356,11 @@
                     %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.issueboard_url}", :target => "_blank"}
                       = partial "includes/icons/product-icons/issue-boards.svg"
                       Issue Board
-                  - if secondary_feature.epic_url != nil
-                    %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.epic_url}", :target => "_blank"}
-                      = partial "includes/icons/product-icons/epics.svg"
-                      Epic
+                  - if Array(secondary_feature.epic_url).any?
+                    - Array(secondary_feature.epic_url).each do |epic_url|
+                      %a{ class: "btn btn-default btn-sm product-icon", :href => "#{secondary_feature.epic_url}", :target => "_blank"}
+                        = partial "includes/icons/product-icons/epics.svg"
+                        Epic
                   - if secondary_feature.mr_url != nil
                     %a{ class: "btn btn-default btn-xs product-icon-xm", :href => "#{secondary_feature.mr_url}", :target => "_blank"}
                       = partial "includes/icons/product-icons/merge-requests.svg"
