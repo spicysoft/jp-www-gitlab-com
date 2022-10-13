@@ -54,13 +54,9 @@ If an open-scope activity uncovers a vulnerability that puts GitLab at immediate
 
 ## Red Team Technique Handover
 
-The Red Team will develop new adversary emulation techniques on a regular basis, both during official operations as well as informal [open-scope](#open-scope-work) activities.
+The Red Team will develop new adversary emulation techniques on a regular basis, both during official operations as well as informal [open-scope](#open-scope-work) activities. For example, the Red Team may create a bot that logs into development instances and attempts to exploit a specific configuration. Once the risk has been proven and existing detection/response capabilities have been tested, it is time for the technique to be fully disclosed internally.
 
-When a technique has been proven effective, the Red Team will configure any existing automation around this technique to publish messages using [Google Cloud Pub/Sub](https://cloud.google.com/pubsub). These messages can then be ingested by the SIEM to generate alerts and integrate into the standard process of responding to known risks.
-
-For example, the Red Team may create a bot that logs into development instances and attempts to exploit a specific configuration. Once the risk has been proven and existing detection/response capabilities have been tested, it is time for the technique to be fully disclosed internally.
-
-While this may result in product fixes or infrastructure changes, it is possible that vulnerable configurations may reappear in the environment. The bot can continue to run at scheduled intervals, but will be enhanced to publish a message to Google Cloud that will have a corresponding SIEM alert. At this point, SIRT will respond to new occurrences and the Red Team will no longer attempt exploitation.
+While this may result in product fixes or infrastructure changes, it is possible that vulnerable configurations may reappear in the environment. At this point, GitLab's [Vulnerability Management](https://about.gitlab.com/handbook/engineering/security/threat-management/vulnerability-management/) group will take over any ongoing scanning required to monitor for this scenario. The Red Team will share any tools they used for the initial discovery, but Vulnerability Management will generally implement a more production-ready permanent scanning solution.
 
 ## Is This the Red Team?
 
