@@ -2,10 +2,10 @@
 features:
   primary:
   - name: "Selective SSO enforcement for group members"
-    available_in: [premium, ultimate]
+    available_in: [silver, gold]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/group/saml_sso/#sso-enforcement'
-    image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
+    video: 'https://www.youtube.com/embed/kLZGlt8MYd4'
     reporter: hsutor
     stage: manage
     categories:
