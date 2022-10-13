@@ -3,7 +3,7 @@ name: João Pereira
 pronunciation: <a href="http://ipa-reader.xyz/?text=%CB%88%CA%92w.%C9%90%CC%83w%CC%83&voice=Cristiano">/ˈʒw.ɐ̃w̃/ (audio link)</a>
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/staff/">Staff Backend Engineer, Package</a>
+role: <a href="/job-families/engineering/development/backend/staff/">Staff Backend Engineer, Package:Container Registry</a>
 reports_to: michelletorres
 picture: joaopereira.jpg
 twitter: joaodrp
@@ -13,8 +13,9 @@ departments:
 - Engineering Function
 - Development Department
 - Ops Sub-department
-- Package Group
-- Package BE Team
+- Package Stage
+- Package:Container Registry Group
+- Package:Container Registry BE Team
 projects:
   gitlab:
   - reviewer go
@@ -29,6 +30,6 @@ story: |
 domain_expertise:
 - container_registry
 expertise: Maintainer of <a href="https://landscape.cncf.io/?project=hosted,member,no&selected=distribution">CNCF Distribution</a>
-specialty: Package
+specialty: Package:Container Registry
 mentor: true
 

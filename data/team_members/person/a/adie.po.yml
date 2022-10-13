@@ -1,7 +1,7 @@
 name: Adie Po
 locality: 
 country: Remote
-role: <a href="/job-families/engineering/development/backend/intermediate/">Backend Engineer, Package</a>
+role: <a href="/job-families/engineering/development/backend/intermediate/">Backend Engineer, Package:Container Registry</a>
 reports_to: michelletorres
 picture: ../gitlab-logo-extra-whitespace.png
 pronouns: she/her
@@ -13,9 +13,10 @@ departments:
   - Engineering Function
   - Development Department
   - Ops Sub-department
-  - Package Group
-  - Package BE Team
-specialty: ""
+  - Package Stage
+  - Package:Container Registry Group
+  - Package:Container Registry BE Team
+specialty: Package:Container Registry
 expertise:
 story:
 

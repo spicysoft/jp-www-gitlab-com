@@ -2,7 +2,7 @@
 name: Hayley Swimelar
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer, Package</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer, Package:Container Registry</a>
 reports_to: michelletorres
 picture: hayleyswimelar.jpg
 twitter:
@@ -18,8 +18,9 @@ departments:
 - Engineering Function
 - Development Department
 - Ops Sub-department
-- Package Group
-- Package BE Team
+- Package Stage
+- Package:Container Registry Group
+- Package:Container Registry BE Team
 story: |
   Hayley is a software developer with an eclectic background ranging from running 35mm film projectors to being a professional genealogist.
   She's originally from the verdant green land of the Appalachian Foothills, but she now happily lives in the Pacific Northwest.
@@ -27,5 +28,5 @@ story: |
 domain_expertise:
 - container_registry
 expertise: Maintainer of <a href="https://landscape.cncf.io/?project=hosted,member,no&selected=distribution">CNCF Distribution</a>
-specialty: Package
+specialty: Package:Container Registry
 

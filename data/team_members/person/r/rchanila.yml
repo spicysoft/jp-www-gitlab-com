@@ -1,7 +1,7 @@
 name: Rahul Chanila
 locality: 
 country: Remote
-role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer, Package</a>
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer, Package:Container Registry</a>
 reports_to: michelletorres
 picture: ../gitlab-logo-extra-whitespace.png
 pronouns: he/him
@@ -13,13 +13,15 @@ departments:
   - Development
   - Engineering Function
   - Ops Sub-department
-  - Package Group
-  - Package FE Team
+  - Package Stage
+  - Package:Container Registry Group
+  - Package:Package Registry FE Team
+  - Package:Container Registry FE Team
   - Frontend
 projects:
   gitlab: trainee_maintainer frontend
   gitlab-ui: reviewer frontend
-specialty: "Package"
+specialty: Package:Package Registry, Package:Container Registry
 expertise:
 story:
 
