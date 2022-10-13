@@ -159,8 +159,8 @@ Based on the prioritization framework, during Limited Availability we will focus
 |-----------------------------|--------------------------|-----------------------|
 | 0 | KTLO - On Call | Operating Tenant Production Environments |
 | 1 | Security/Compliance | Attain security and third party compliance certifications and addressing findings from audits |
-| 2 | Improve SLAs (Availability, RTO, RPO) | Geo, disaster recovery, failover testing, automated restore |
-| 3 | Automation | Reduce toil required to operate Dedicated platform including Switchboard (management portal for customer admins) MVC and Automated Version Management  |
+| 2 | Automation | Reduce toil required to operate Dedicated platform including Switchboard (management portal for customer admins) MVC, automated restore, and Automated Version Management  |
+| 3 | Reliability | Improve SLAs - Availability, RTO, RPO, Geo, disaster recovery, failover testing |
 | 4 | Enable GitLab Functionality | Dependency proxy, Pages, advanced search |
 | 5 | Support Customer Config Changes |  Customers will need config changes during onboarding and weekly maintenance windows. |
 
