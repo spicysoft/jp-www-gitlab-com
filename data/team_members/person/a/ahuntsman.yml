@@ -1,17 +1,23 @@
 name: Aaron Huntsman
 locality: 
 country: Remote
-role: <a href="">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/backend-engineer/">Senior Backend Engineer</a>
 reports_to: nrosandich
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: aaronhuntsman.jpg
+pronouns: he/him
 pronunciation:
 twitter:
 linkedin:
 gitlab: ahuntsman
 departments:
-  - Development
+  - Engineering Function
+  - Development Department
+  - Dev Section
+  - Govern:Compliance BE Team
+  - Govern:Compliance Fullstack Team
 specialty: "Compliance"
 expertise:
-story:
-
+story: >
+  Aaron strives to leverage his 20+ years of software development experience to make
+  other developers' lives a little easier. He enjoys programming as a hobby, as well
+  as writing, speaking, singing and woodworking.
