@@ -9,7 +9,7 @@ description: "The Utilization strategy page belongs to the Utilization group of 
 
 ## Introduction and how you can help
 
-Thanks for visiting this direction page on Utilization in GitLab. This page belongs to the [Utilization](/handbook/product/categories/#utilization-group) group of the Fulfillment stage and is maintained by Donique Smit ([E-Mail](mailto:dsmit@gitlab.com)). 
+Thanks for visiting this direction page on Utilization in GitLab. This page belongs to the [Utilization](/handbook/product/categories/#utilization-group) group of the [Fulfillment](/direction/fulfillment) stage and is maintained by Donique Smit ([E-Mail](mailto:dsmit@gitlab.com)). 
 
 This direction is constantly evolving and everyone can contribute:
 
