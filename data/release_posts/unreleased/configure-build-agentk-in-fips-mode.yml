@@ -1,10 +1,10 @@
 ---
 features:
   secondary:
-  - name: "Build agentk in FIPS mode"
+  - name: "FIPS compliant Kubernetes integration"
     available_in: [premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/user/clusters/agent/)'
+    documentation_link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
     reporter: nagyv-gitlab
     stage: configure
     categories:
