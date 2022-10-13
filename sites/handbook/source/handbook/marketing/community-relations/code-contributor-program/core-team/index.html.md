@@ -3,6 +3,8 @@ layout: handbook-page-toc
 title: "Core Team"
 ---
 
+{::options parse_block_html="true" /}
+
 ## On this page
 
 {:.no_toc .hidden-md .hidden-lg}
@@ -73,86 +75,105 @@ Core Team members are granted [access to the GitLab team's Slack instance](/hand
 
 A list of the up-to-date channels the Core should/have access to can be found in the [Core Team and Slack](https://docs.google.com/spreadsheets/d/1kohQBbvk2JSl3DXrmF5TDsWVoAMi_yujFWzzAP6vq2M/edit#gid=0) Google Sheets and in the list below:
 
-#### Slack channels Core Team can access
-<details>
-  <summary>Click to expand! Keep in mind, it's long!</summary>
+<style>
+.display-inline-block {
+  display: inline-block;
+}
+</style>
 
-  -	development
-  -	gdk
-  -	mr-coaching
-  -	quality
-  -	community-relations
-  -	backend
-  -	frontend
-  -	frontend_pairs
-  -	is-this-known
-  -	gitter-contributors-room
-  -	gitpod-gdk
-  -	database-lab
-  -	docs
-  -	triage
-  -	linux
-  -	g_runner
-  -	golang
-  -	community-hangout
-  -	community-relations-fyi
-  -	community-programs
-  -	developer-evangelism
-  -	cfp
-  -	fosdem
-  -	master-broken
-  -	review-apps-broken
-  -	qa-master
-  -	qa-nightly
-  -	qa-preprod
-  -	qa-production
-  -	qa-staging
-  -	triage-automations
-  -	backend_maintainers
-  -	frontend_maintainers
-  -	lang-ru, lang-jp
-  -	opensource
-  -	docs-tooling
-  -	production
-  -	competition
-  -	gck
-  -	website
-  -	vim
-  -	tw-team
-  -	g_engineering_productivity
-  -	mr_feedback
-  -	backend_pairs
-  -	f_graphql
-  -	f_rubocop
-  -	database
-  -	product
-  -	jetbrains-ide
-  -	design-system
-  -	ux-coworking
-  -	office-today
-  -	remote
-  -	questions
-  -	lang_ru
-  -	lang_jp
+<details>
+
+<summary>
+
+#### Slack channels Core Team can access
+{: .display-inline-block}
+
+</summary>
+
+- development
+- gdk
+- mr-coaching
+- quality
+- community-relations
+- backend
+- frontend
+- frontend_pairs
+- is-this-known
+- gitter-contributors-room
+- gitpod-gdk
+- database-lab
+- docs
+- triage
+- linux
+- g_runner
+- golang
+- community-hangout
+- community-relations-fyi
+- community-programs
+- developer-evangelism
+- cfp
+- fosdem
+- master-broken
+- review-apps-broken
+- qa-master
+- qa-nightly
+- qa-preprod
+- qa-production
+- qa-staging
+- triage-automations
+- backend_maintainers
+- frontend_maintainers
+- lang-ru, lang-jp
+- opensource
+- docs-tooling
+- production
+- competition
+- gck
+- website
+- vim
+- tw-team
+- g_engineering_productivity
+- mr_feedback
+- backend_pairs
+- f_graphql
+- f_rubocop
+- database
+- product
+- jetbrains-ide
+- design-system
+- ux-coworking
+- office-today
+- remote
+- questions
+- lang_ru
+- lang_jp
+
 </details>
+
+<details>
+
+<summary>
 
 #### Slack channels Core Team cannot access
-<details>
-  <summary>Click to expand! Keep in mind, it's long!</summary>
-  
-  -	release-post
-  -	security
-  -	questions
-  -	connect-to-contribute
-  -	all-caps
-  -	random
-  -	whats-happening-at-gitlab
-  -	thanks
-  -	diversity_inclusion_and_belonging
-  -	company-fyi
-  -	contribute2021
-  -ux
+{: .display-inline-block}
+
+</summary>
+
+- release-post
+- security
+- questions
+- connect-to-contribute
+- all-caps
+- random
+- whats-happening-at-gitlab
+- thanks
+- diversity_inclusion_and_belonging
+- company-fyi
+- contribute2021
+- ux
+
 </details>
+
 #### Requesting Core Team access to Slack channels
 1. Please submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) with the new channel(s) requested.
 1. Assign the issue to the [Code Contributor Program Manager](https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/#contact) who will complete the next steps.
