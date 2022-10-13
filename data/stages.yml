@@ -58,7 +58,7 @@ stages:
           - Daniel Mora
         uxr:
           - Anne Lasch
-        tech_writer: Evan Read
+        tech_writer: Jon Glassman
         appsec_engineer: Rohit Shambhuni
         cs_team_tag: Authentication and Authorization Group CS Stable Counterpart
         internal_customers:
