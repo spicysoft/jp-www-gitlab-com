@@ -212,7 +212,7 @@ Note: All the `Final Content Assembly` and `Structural Check` steps happen in se
  **Due date: YYYY-MM-12**
 
 1. [ ] Encourage team members to vote on MVP nominations in the `#release-post`, `#community-relations`, `#mr-coaching` and `#core` Slack channels by sharing a link to the [MVP Issue](MVP_ISSUE_LINK).
-1. [ ] Remind PMs/EMs to contribute to the bugs, usability, and performance improvement MRs by commenting on the various Slack threads you initiated in `#release-post`, `#development` and `#eng-managers` by the 12th
+1. [ ] Remind PMs/EMs to contribute to the bugs, usability, and performance improvement MRs by commenting on the various Slack threads you initiated in `#release-post`, `#development`, `ux_managers`, and `#eng-managers` by the 12th
 
 #### General Content Review due by the 14th
 
@@ -300,6 +300,8 @@ To assist managers in determining whether a release contains a feature. The foll
 ### Content assembly (`@release_post_manager`) due on the 18th
 
 **Due date: YYYY-MM-18** at **4 pm UTC (11 am ET / 8 am PT)** and NO earlier
+
+On the `release-X-Y` branch:
 
 1. [ ] Verify the presence of .yml files in the `X_Y` data directory: `data/release_posts/X_Y/`
 1. [ ] Verify the absence .yml files in the `unreleased` data directory: `data/release_posts/unreleased/`
@@ -391,7 +393,7 @@ In the run-up to publishing the release post on the 22nd, some release post mana
 1. [ ] Check if the number of [merged community contributions](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Community+contribution&milestone_title=X.Y&scope=all&sort=popularity&state=merged) you added in the introductory paragraph has changed. Remove the backticks around the number if you have not already.
 1. [ ] Use `/rebase` on the release post MR. If you receive an error that the rebase cannot be scheduled, resolve any conflicts that appear in the merge request widget. If no conflicts appear, consult with the Tech Advisor to resolve them locally.
 1. [ ] Alert the product team of the top/primary items in Slack.
-  1. PMs can use `[this query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=X.Y&not%5Blabel_name%5D%5B%5D=released%3A%3Acandidate)` (update it with the current milestone) and check with their EMs to verify the features did make it into the release.
+  1. PMs can use [this query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=X.Y&not%5Blabel_name%5D%5B%5D=released%3A%3Acandidate) (update it with the current milestone) and check with their EMs to verify the features did make it into the release.
   1. Post in the `#release-post` channel:
 
   ```md
