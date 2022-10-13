@@ -14,5 +14,5 @@ features:
       When importing projects from GitHub, you can now import project image resources and other attachments types from release notes and comments. The attachments are
       added to GitLab and their links are updated to new GitLab URLs.
 
-      Because importing attachments can take a long time, they aren't imported by default. To import them, select **Import Markdown attachments** when importing with the
-      GitLab UI.
+      Because importing attachments can take a long time, they aren't imported by default. To import them, go to the GitHub import page,
+      and select **Import Markdown attachments** under **Advanced import settings** when importing using the GitLab UI.
