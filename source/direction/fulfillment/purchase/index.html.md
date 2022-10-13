@@ -13,11 +13,16 @@ canonical_path: "/direction/fulfillment/purchase/"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-Last reviewed: 2022-09
+Last reviewed: 2022-10
 
 ## Fulfillment: Purchase Overview
 
 Purchase, a [Fulfillment](https://about.gitlab.com/direction/fulfillment/) subgroup, is responsible for our primary e-commerce experience, with the goal of increasing the number of first-orders we receive through our self-service purchase flow and in turn, reducing the need for a GitLab team member to manually intervene.
+
+## Roadmap
+
+Find our roadmap [here](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Apurchase&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP).
+
 
 ## Performance Indicators
 
@@ -58,6 +63,8 @@ still need to validate the following via research:
 - **Account Executive / Support**: If we have a vendor, I expect my customers not to have issues with common self-service functionality -- renewals, licensing, QSR, buying, and account management.
 
 ## 1-year Plan
+
+To achieve our mission, over the next 12 months we are focusing on the following areas:
 
 ### Timeline
 
