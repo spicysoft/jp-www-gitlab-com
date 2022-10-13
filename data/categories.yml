@@ -1918,7 +1918,7 @@ cluster_cost_management:
   description: "Gain insights and recommendations about your cluster spending"
   documentation: https://docs.gitlab.com/ee/user/clusters/cost_management.html
   roi: false
-  available: 2023-10-22
+  available: 2024-04-22
   viable:
   complete:
   lovable:
