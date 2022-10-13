@@ -347,21 +347,21 @@ If your GC is optional and you need to move the date, please work with your depa
 | Wednesday October 5 | Finance| Brian Robins | September 27 |
 | Thursday October 6 | **Available*** | | Key Review Date? |
 | Tuesday October 11 | **Available** | | Key Review Date? |
-| Wednesday October 12 | Remote Development | Eric Schurter | N/A |
-| Thursday October 13 | CRO Group Conversation | CRO Leadership | N/A |
+| Wednesday October 12 | **Available** | | Key Review Date? |
+| Thursday October 13 | CRO Group Conversation | Mike Pyle/Michel Isnard | N/A |
 | Tuesday October 18 | Product | Product Leadership | October 13 |
 | Wednesday October 19  | UX | Christie Lenneville | N/A |
 | Thursday Oct 20 | People | People Leadership | Oct 12 |
 | Tuesday October 25 | **Available** | **Available** | Key Review Date? |
 | Wednesday October 26  | Alliances | Nima Badiey | N/A |
 | Thursday October 27 | Marketing | Marketing Leadership | October 13 |
-| Tuesday November 1 | **Available** | | Key Review Date? |
-| Wednesday November 2 | **Available** | | Key Review Date? |
+| Tuesday November 1 | IT | Craig Mestel | October 20 |
+| Wednesday November 2 | Remote Development | Eric Schurter | N/A |
 | Thursday November 3 | Security | Johnathan Hunt | October 25 |
 | Tuesday November 8 | Infrastructure | Steve Loyd | October 27 |
 | Wednesday November 9 | Support | Tom Cooney | October 26 |
-| Thursday November 10 | UX | Christie Lenneville | October 26 |
-| Tuesday November 15 | **Available** | | Key Review Date? |
+| Thursday November 10 | Product | Product Leadership | October 13 |
+| Tuesday November 15 | UX | Christie Lenneville | October 13 |
 | Wednesday November 16  | **Available** | | Key Review Date? |
 | Thursday November 17 | **Available** | | Key Review Date? |
 | Tuesday November 22 | **Available** | | Key Review Date? |
@@ -372,7 +372,7 @@ If your GC is optional and you need to move the date, please work with your depa
 | Wednesday December 7 | **Available** | | Key Review Date? |
 | Thursday December 8 | **Available** | | Key Review Date? |
 | Tuesday December 13 | Quality | Mek Stittri | December 1 |
-| Wednesday December 14 | **Available** | | Key Review Date? |
+| Wednesday December 14 | Product | Product Leadership | TBD |
 | Thursday December 15 | **Available** | | Key Review Date? |
 | Tuesday December 20 | Infrastructure | Steve Loyd | December 8 |
 | Wednesday December 21 | Support | Tom Cooney | December 7 |

@@ -16,16 +16,16 @@ description: "The Customer Success Operations team's handbook page. This covers 
 
 ## Mission
 
-Customer Success Operations cross-functionally aligns GitLab for a superb customer experience through creating trust in data, clarity in effective processes, and predictability in outcomes.
+Customer Success Operations cross-functionally aligns GitLab for a superb customer experience through trust in data, clarity in effective processes, and predictability in customer and GitLab outcomes.
 
 ## Strategy
 
 Develop and operationalize Customer strategies leveraging analytics and insights for key expansion and renewal initiatives, resulting in increased net ARR.
 
-1. Operationalize Product Usage Data
-1. Expand Customer Programs
-1. Develop Renewal Operations
-1. Enhance Gainsight Buildout
+1. Operationalize Product Usage Data for customer value realization and outcomes
+1. Enable customers through Digital Programs
+1. Support customer renewal effectiveness through Renewal Operations
+1. Increase Sales and CS effectiveness through systems and tools
 
 
 ## What we do
@@ -74,6 +74,16 @@ See the [global issue board](https://gitlab.com/gitlab-com/sales-team/field-oper
 ### Projects
 
 Create issues in the [CS Operations project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations).
+
+### Issue Weighting
+
+- Weight = 1: 0-1 hours of work
+- Weight = 3: 1-3 hours of work
+- Weight = 5: 3-5 hours of work
+- Weight = 7: 5-7 hours of work
+
+Anything that takes longer than a day of work should be captured in an epic/multiple issues
+
 
 ### Labels
 

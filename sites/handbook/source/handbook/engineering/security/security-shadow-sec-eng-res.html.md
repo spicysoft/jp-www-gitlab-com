@@ -31,10 +31,18 @@ Do you like magic? Do you enjoy pointing out bad ideas and then advising what to
 - AS101.4: Unstable Counterparts (1 hour)
 - AS101.5: Security “It’s Happening” Release (1-2 hours)
 
+This schedule is a suggestion. The AppSec Engineer and the shadow are encouraged to communicate
+ahead of time or during the first session to understand the interests of the shadow to adapt the
+schedule in a way that provides as much value as possible to them.
+
+It is also suggested to have a Google Doc to write down questions that might come between sessions.
+This captures questions and thoughts from the shadow and gives time to the AppSec Engineer to
+prepare quality answers before the next session.
+
 **Course Length:**
 5 days, 5-8 hours
 
-**Team Manager:** James Ritchey @jritchey
+**Team Manager:** Andrew Kelly @ankelly, Vitor Meireles De Sousa @vdesousa
 
 ## Security Research
 

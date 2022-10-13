@@ -18,6 +18,7 @@ departments:
 projects:
   gitlab:
     - trainee_maintainer backend
+  pipeline-validation-service: maintainer
 story: |
   Alex Buijs has over 15 years of experience creating web applications. He enjoys using the latest
   techniques and a diversity of frameworks. He takes pride in creating beautiful and minimal code.

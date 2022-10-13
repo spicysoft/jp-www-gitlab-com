@@ -44,7 +44,7 @@ The Field Security team is tasked with providing high levels of security assuran
 
 [Joe Longo](https://about.gitlab.com/company/team/#jlongo_gitlab), @jlongo_gitlab, Manager, Governance and Field Security
  
-[Julia Lake](https://about.gitlab.com/company/team/#Julia.Lake), @julia.lake, Director, Security Assurance
+[Julia Lake](https://about.gitlab.com/company/team/#Julia.Lake), @julia.lake, Sr. Director, Security Assurance
    * [Field Security Study](/handbook/engineering/security/security-assurance/field-security/field-security-study.html)
    * [Independent Security Assurance](https://about.gitlab.com/handbook/engineering/security/security-assurance/field-security/independent_security_assurance.html)
 
@@ -69,6 +69,7 @@ Do you have an idea, feedback, or recommendation for how Field Security can bett
 
 * [Customer Assurance Activities Procedure](/handbook/engineering/security/security-assurance/field-security/customer-security-assessment-process.html)
 * [Customer Assurance Pacakge](https://about.gitlab.com/security/cap/)
+* [Customer Assurance Package Internal Request Process](https://about.gitlab.com/handbook/engineering/security/security-assurance/field-security/customer-assurance-package.html)
 * [Vendorpedia](https://about.gitlab.com/handbook/engineering/security/security-assurance/field-security/Vendorpedia.html)
 * [RFP Completion](https://about.gitlab.com/handbook/engineering/security/security-assurance/field-security/Field-Security-RFP.html)
 * [AnswerBase](https://about.gitlab.com/handbook/engineering/security/security-assurance/field-security/answerbase.html)

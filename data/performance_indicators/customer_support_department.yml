@@ -150,7 +150,7 @@
     shared_dashboard: fc54cf54-e5f9-4708-9dfe-9e4c921ac79e?
     embed: v2
 - name: Support Team Member Retention
-  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
+  base_path: "/handbook/support/performance-indicators/"
   parent: "/handbook/engineering/performance-indicators/#engineering-team-member-retention"
   definition: We need to be able to retain talented team members. Retention measures our ability to keep them sticking around at GitLab. Team Member Retention = (1-(Number of Team Members leaving GitLab/Average of the 12 month Total Team Member Headcount)) x 100. GitLab measures team member retention over a rolling 12 month period.
   target: at or above 84%
@@ -164,7 +164,7 @@
   urls:
     - "https://app.periscopedata.com/app/gitlab/862336/Support-Department-Retention" 
 - name: Support Average Age of Open Positions
-  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
+  base_path: "/handbook/support/performance-indicators/"
   parent: "/handbook/engineering/performance-indicators/#engineering-vacancy-time-to-fill"
   definition: Measures the average time job openings take from open to close. This metric includes sourcing time of candidates compared to Time to Hire or Time to Offer Accept which only measures the time from when a candidate applies to when they accept.
   target: at or below 50 days

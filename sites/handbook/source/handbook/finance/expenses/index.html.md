@@ -34,14 +34,23 @@ GitLab utilizes Expensify as our team member expense reimbursement tool. All tea
 
 Some entities also use Tipalti for reimbursement. If you are in BV, Ireland, GmbH, GK or PTY Ltd you will also receive an invite from Tipalti to set up your banking details.
 
-Expense reports are to be submitted at least once a month and must be submitted within 90 days of the invoice date, service date or purchase date. Additional information on getting started with Expensify and creating/submitting expense reports can be found [here](https://community.expensify.com/discussion/5922/deep-dive-day-1-with-expensify-for-submitters/p1?new=1).
-
 The procedure by which reimbursable expenses are processed varies and is dependent on contributor legal status (e.g. independent contractor, employee) and [subsidiary assignment](https://about.gitlab.com/handbook/tax/#tax-procedure-for-maintenance-of-gitlabs-corporate-structure). Check with Payroll if you are unsure about either of these.
 
 Team members should also consider the terms and conditions of their respective contractor agreements when submitting invoices to the company.
 
 Team members are reimbursed on different schedules depending on their location. Please see the reimbursement process below to find the listing of reimbursement dates based on your location or employment status.
 
+### Submitting Expenses
+
+Expense reports are to be submitted at least once a month and must be submitted within 90 days of the invoice date, service date or purchase date. Additional information on getting started with Expensify and creating/submitting expense reports can be found [here](https://community.expensify.com/discussion/5922/deep-dive-day-1-with-expensify-for-submitters/p1?new=1).
+
+When possible and if not impacting your finances, we suggest that all expenses in a month would be on one report as it helps us to be [efficient](https://about.gitlab.com/handbook/values/#efficiency) by reducing time reviewing and tracking expenses. You can do this automatically in Expensify by doing the following:
+
+1. Go to **Settings** -> **Policies** -> **Individual**.
+1. If no policy exists here, create one.
+1. Otherwise, click on the existing individual policy.
+1. Go to **Reports**.
+1. Enabled **Scheduled Submit** with **Monthly** frequency and an appropriate report submission date. You can find cut-off dates per location in [Reimbursement Payout Timelines](#reimbursement-payout-timelines).
 
 ## <i class="far fa-flag" id="biz-tech-icons"></i> Expense Policy Summary
 
@@ -69,7 +78,7 @@ Team members are reimbursed on different schedules depending on their location. 
 | Car Rental | All car rentals can be reimbursed. Up to full sized car allowable.<br><br>A. Third Party Liability<br><br>Purchase the liability insurance that is excess of the standard inclusion of State minimum coverage in the rental agreement at the rental agency. GitLab’s insurance policy provides liability insurance for rental cars while conducting company business, but it may be excess over any underlying liability coverage through the driver or credit card company used to purchase the rental.<br>Purchase the liability offered at the rental counter if there are foreign employees renting autos in the US or Canada. While workers' compensation would protect an injured US employee, other passengers may have the right to sue. To ensure that GitLab has protection when a foreign employee invites another person into the car we recommend the purchase of this insurance when offered at the rental counter.<br><br>B. Physical Damage - Collision Damage Waiver<br><br>Do not purchase the Collision Damage Waiver offered at the rental counter. GitLab purchases coverage for damage to rented vehicles. If travel to Mexico is required, purchase the liability insurance for Mexico offered at the rental counter. You should verify that the rental agreement clearly states that the vehicle may be driven into Mexico and liability coverage will apply.<br><br><br>**Countries other than the US and Canada**<br><br>A. Third Party Liability<br><br>Purchase the liability insurance offered at the rental counter when traveling outside the US and Canada. Automobile Bodily Injury and Property Damage Liability insurance are required by law in almost every country. Please verify this coverage is included with the rental agreement.<br><br>B. Physical Damage - Collision Damage Waiver<br><br>Purchase the Collision Damage Waiver or Physical Damage Coverage offered by the rental agency when traveling outside the US and Canada.<br><br>In the event of an accident resulting in damage to the rental car, the foreign rental agency will charge the credit card used to make the reservation with an estimated amount of repair costs if insurance is not purchased. If this happens, GitLab does not purchase Foreign Corporate Hired Auto Physical Damage Coverage to reimburse for damages. |
 | Co-Working Space | Reimbursable up to $700 USD per month. Must be pre-approved by Manager, and Finance (via email to expenses@gitlab.com) before expensing. No contracts are allowed to be under the GitLab name and it must be under team members. Gitlab will not cover security deposits or advance payments for co-working space. The co-working space must be submitted monthly in the month it pertains to. |
 | Company Functions | Reimbursable costs that are allowed are set in advance by GitLab management and are specific to each event. |
-| Conferences | All costs associated with attending a conference to represent GitLab are reimbursable and an approved [completed G&D issue](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) will need to be noted in the expense report upon submission. Select classification or tag “Growth and Development” in Expensify when you create expenses. |
+| Conferences | Costs associated with attending a work-related conference are reimbursable and an approved [completed G&D issue](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) will need to be noted in the expense report upon submission. Claim receipts that are $1,000 USD and below via Expensify. Select classification or tag “Growth and Development” in Expensify when you create expenses. |
 | Customer/Partner Facing Events | Gala/Black Tie Events: Tuxedo or Gown Rental, $150-$225 USD per event is reimbursable.<br>The event must be customer specific and the invitation must state black tie only. |
 | Get Together/Visiting Grant | Please refer to our [Incentives at Gitlab Handbook Page](https://about.gitlab.com/handbook/incentives/#get-together-grant). |
 | Gifts for Significant Life Events | The event in question must pertain to a GitLab team member or the immediate family of a GitLab team member and will be allocated to the respective team members departmental budget - the spend range for significant life events is $75 to $125 USD.  Managers are able to send Gifts and Flowers on behalf of their team members in acknowledgment of significant life events such as the birth of a little one; well wishes ahead of surgery, or the loss of a loved one.<br><br>Managers can facilitate the ordering of Flowers or Gifts for delivery, but please note that you are unable to send restaurant gift cards at this time. In an instance where you would like to extend the offer of a meal or food delivery service, this will need to be expensed by the recipient for reimbursement.<br><br>**Please note that gift cards and cash of any kind are not reimbursable, as they are considered taxable income to team members.** |
@@ -224,7 +233,7 @@ Sometimes expenses get rejected by our third party accounting team (Montpac). Pl
 
 ## Currency conversion
 
-The handbook [uses USD when describing budgets](/handbook/handbook-usage/#fine-points). When budgeting and submitting expenses in other currencies, team members should use live currency conversion rates (exchange rates).
+The handbook [uses USD when describing budgets](/handbook/handbook-usage/#fine-points). When budgeting and submitting expenses in other currencies, team members should use live currency conversion rates (exchange rates). These can be looked up online using a site such as [OANDA](https://www.oanda.com/currency-converter/en/).
 
 **Example:** a team event has a meal budget of USD25 per person. A team member notes that this is $50 in local currency, at current exchange rates. The team member can purchase a meal in their local currency up to $50, and expense it in their local currency.
 

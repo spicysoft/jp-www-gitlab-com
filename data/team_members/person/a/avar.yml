@@ -1,0 +1,40 @@
+---
+name: Ævar Arnfjörð Bjarmason
+locality:
+country: Remote
+role: Git contractor at GitLab
+reports_to: andrashorvath
+picture: avar.png
+twitter: avarab
+gitlab: avar
+linkedin: avarab
+pronouns: ae
+departments:
+  - Engineering Function
+  - Development Department
+  - Dev Section
+  - Gitaly Git Team
+projects:
+  gitaly:
+    - reviewer
+    - maintainer
+expertise: |
+  <li>Git <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Unix-like"><code>*nix</code></a> <a href="/company/team/structure/#expert">expert</a></li>
+story: |
+  Ævar is a programmer with a long involvement in free
+  software from working on early verisons <a
+  href="https://www.mediawiki.org/wiki/Special:Version">of
+  MediaWiki</a> when Wikipedia was still a new thing, to <a
+  href="https://perl5.git.perl.org/perl5.git">hacking on the
+  perl compiler</a> and a long involvement in <a
+  href="https://git-scm.com">the Git project</a>.
+  <br><br>
+  After a <a href="https://www.booking.com">long stint</a>
+  doing proprietary backend work he is now working on writing
+  & upstreaming patches to git.git relevant to GitLab's aims
+  as well as other general <a
+  href="https://gitlab.com/gitlab-org/gitaly">Gitaly</a>
+  work. He's also available for other Open Source/free
+  software development / contracting work, particularly work
+  focused on Git core.

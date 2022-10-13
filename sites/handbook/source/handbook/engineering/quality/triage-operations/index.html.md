@@ -405,9 +405,10 @@ graph LR
 #### Reactive `label` command
 
 * Automation conditions:
-  - A new MR note that start with `@gitlab-bot label ~"label-name"` where `label-name` matches
-    `group::*`, `type::*`, `feature::*`, `bug::*`, `maintenance::*` or is `backend`, `frontend`,
-    `workflow::in dev`, `workflow::ready for review`, `workflow::blocked`
+  - A new MR note that start with `@gitlab-bot label ~"label-name"` where `label-name` matches: 
+    - `group::*`, `type::*`, `feature::*`, `bug::*`, `maintenance::*`
+    - `backend`, `database`, `documentation`, `frontend`, `security`, `UX`
+    - `workflow::in dev`, `workflow::ready for review`, `workflow::blocked`
   - The note is posted by the MR author or a team member
 * Automation actions:
   - Adds the requested label to the MR
@@ -464,6 +465,18 @@ graph LR
   - Posts a note mentioning the Hackathon
   - Adds the `Hackathon` label
 * Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/community/hackathon_label.rb>
+
+#### Spam detector
+
+* Automation conditions:
+  - MR has the `Community contribution` label set
+  - MR not currently labelled as `Spam`
+  - MR content matches phrases associated with inappropriate and abusive activity (More information can be found in the Processor implementation)
+* Automation actions:
+  - Posts a note linking to [GitLab Website Terms of Use](https://about.gitlab.com/handbook/legal/policies/website-terms-of-use/)
+  - Relabels (removes all other labels) as `Spam`
+  - Closes the MR
+* Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/community/detect_and_flag_spam.rb>
 
 ### Engineering workflow automation
 

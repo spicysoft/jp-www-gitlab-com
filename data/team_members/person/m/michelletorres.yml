@@ -1,7 +1,7 @@
 name: Michelle Torres
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering Manager, Package</a>
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering Manager, Package:Container Registry</a>
 reports_to: samgoldstein
 picture: michelletorres.jpg
 pronouns: she/her
@@ -13,8 +13,9 @@ departments:
   - Engineering Function
   - Development Department
   - Ops Section
-  - Package Group
-specialty: Package
+  - Package Stage
+  - Package:Container Registry Group
+specialty: Package:Container Registry
 mentor: true
 expertise:
 story: |

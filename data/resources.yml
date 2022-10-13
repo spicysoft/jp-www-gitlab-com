@@ -1,3 +1,13 @@
+- title: 'Forrester Consulting Study: GitLab enabled 427% ROI'
+  url: https://page.gitlab.com/resources-study-forrester-tei-gitlab-ultimate.html
+  image: /images/resources/security.png
+  type: 'Report'
+  topics:
+    - DevSecOps
+  solutions:
+    - Deliver better products faster
+    - Security
+  teaser: "The 2022 Forrester Consulting Total Economic Impact ™️ of GitLab's Ultimate Plan study commissioned by GitLab seeks to understand the value of using Gitlab’s Ultimate Plan to meet software development needs across the entire DevOps lifecycle."
 - title: 'The GitLab 2022 Global DevSecOps Survey'
   url: https://about.gitlab.com/developer-survey/
   image: /images/resources/security.png

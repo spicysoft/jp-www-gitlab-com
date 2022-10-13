@@ -13,8 +13,9 @@ title: "GitLab's Customer Assurance Activities"
 # Submit a Request!
 
 <div class="flex-row" markdown="0" style="height:80px">
-       <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=main_template" class="btn btn-purple-inv" style="width:45%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Click here to submit a Customer Request!</a>
-       <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=Contract%20Review%20CAA" class="btn btn-purple-inv" style="width:45%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Click Here to submit a Contract Review request!</a>
+       <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=main_template" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Questionnaire or<br /> Customer Call Request</a>
+       <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=cap_request_template" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">CAP Request</a>
+       <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=Contract%20Review%20CAA" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Contract Review Request</a>
     
 </div>   
 
@@ -51,11 +52,14 @@ Please be sure to complete **all** of the requested information in the template,
 The Field Security Team also maintains the following resources for **GitLab Team Members** to collaborate with us!
 <div class="flex-row" markdown="0" style="height:80px">
        <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/field-security/-/issues/new?issuable_template=customer%20feedback" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Customer Feedback</a>
-       <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/field-security/-/issues/new?issuable_template=general%20request" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">General Request</a>
+       <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/field-security/-/issues/new?issuable_template=internal%20feedback%20request" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Internal Feedback</a>
        <a href="/handbook/engineering/security/security-assurance/field-security/answerbase.html" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">AnswerBase</a>
 </div>   
 <br>
 
+### Feedback from Field Security
+
+The Field Security Team has the unique privilege of conversing with and receiving feedback from both customers and fellow GitLab team members. To ensure we always support our customers, Field Security follows GitLab's [observation creation procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/observation-management-procedure.html) to relay customers' requirements or concerns internally to the appropriate teams. To proactively request feedback from Field Security, use the [Internal Feedback](https://about.gitlab.com/handbook/engineering/security/security-assurance/field-security/customer-security-assessment-process.html#collaborate-with-field-security) button to open a request.
 
 ---
 

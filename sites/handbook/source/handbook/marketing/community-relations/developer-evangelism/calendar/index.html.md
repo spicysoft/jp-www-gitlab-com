@@ -14,6 +14,6 @@ title: "Developer Evangelism Team Calendar"
 
 The Developer Evangelism Team calendar contains team member speaking engagements, important conferences, CFP timelines, and other important dates.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=gitlab.com_eta7o4tn4btn8h0f8eid5q98ro%40group.calendar.google.com&ctz=Europe%2FAmsterdam" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_7930fcb0c9e4783bdd3d23858ae9af4306f28d976a40c833f50710c7cb86ba82%40group.calendar.google.com&ctz=UTC" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 Developer Evangelists should add new speaking engagements to this calendar as they are scheduled. The Developer Evangelist Program Manager will manage team-wide events such as industry conferences and their CFP timelines. If you need write access to this calendar, please contact a member of the Community Relations team via Slack.

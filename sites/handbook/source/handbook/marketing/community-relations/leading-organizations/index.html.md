@@ -48,25 +48,25 @@ Lack of developer talent is one of the biggest threats to businesses. Contributi
 
 Leading Organizations receive: 
 
-- Faster time [service level objective](/handbook/engineering/workflow/code-review/#review-response-slo) from GitLab team members
+- Faster time to review [service level objective](/handbook/engineering/workflow/code-review/#review-response-slo) from GitLab team members
 - Certainty that if you need something added to GitLab, you have a path to ensuring that you get it
 - Public recognition with special Leading Organization badge visible on LinkedIn and other social channels
 - Increased employer brand visibility through blog posts on GitLab.com, contributor stories and social media
 - Access to GitLab through Engineers, Product Managers, Community Relations, and other Core Members to provide guidance and answer questions on MRs
-- Legal Resources provided through a designated product attorney to answer questions about about licensing and other Open Core implications
+- General guidance on the legal considerations of contributing to open source and open core software projects
 
 ## Enrollment
 
 Process for applying to the Leading Organization program: 
 
-1. Fill out form to receive more information [Google form link to come]
+1. Fill out [form](https://forms.gle/HRWyXBKkgbnwhUdU6) to receive more information
 1. Fill out issue to apply [link to come] 
 1. Welcome Email, once accepted
-1. Schedule an onboarding workshop [calendly link to come]
+1. Schedule an onboarding workshop
 
 ## Workshops
 
-GitLab hosts workshops with organizations interested in increasing their contributions and becoming eligible for the program benefits. Leading Organization team will reach out directly to organizations that either meet or are close to the threshold. For organizations interested in starting to contribute, please fill out this form. (link to come)
+GitLab hosts workshops with organizations interested in increasing their contributions and becoming eligible for the program benefits. Leading Organization team will reach out directly to organizations that either meet or are close to the threshold. For organizations interested in starting to contribute, please fill out [this form](https://forms.gle/HRWyXBKkgbnwhUdU6).
 
 **Types of Workshops**
 
@@ -94,7 +94,7 @@ Contribution Help:
 
 The Leading Organizations program is a cross-functional initiative that is led by [Nick Veenhof](/company/team/#nick_vh), [Contributor Success](/handbook/engineering/quality/contributor-success/) team and [John Coghlan](/company/team/#johncoghlan), [Community Relations team](/handbook/marketing/community-relations/). 
 
-This program is part of the [Contribution Efficiency Initiative](https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/collaborations/) and [User Engagement Initiative](https://gitlab.com/groups/gitlab-com/-/epics/1794).
+This program is part of the [Contribution Efficiency Initiative](https://about.gitlab.com/handbook/marketing/community-relations/code-contributor-program/collaborations/) and a current top [cross-functional initiative](https://about.gitlab.com/company/top-cross-functional-initiatives/#current-top-cross-functional-initiatives), [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794).
 
 - Executive Sponsor: [Ashley Kramer](/company/team/#akramer), Chief Marketing and Strategy Officer, Interim Chief Technology Officer
 - DRI: [Liz Petoskey](/company/team/#epetoskey), Director of Strategy and Operations

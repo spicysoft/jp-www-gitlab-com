@@ -2,16 +2,20 @@
 name: Patrick Cyiza
 locality:
 country: Remote
-role: <a href="">Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer</a>
 reports_to: sean-carroll
-picture: "../gitlab-logo-extra-whitespace.png"
-pronouns:
-pronunciation:
+picture: jpcyiza.jpg
+pronouns: He/His
+pronunciation: khi-iza
 twitter:
-linkedin:
+linkedin: https://be.linkedin.com/in/j-patrick-cyiza-67819291
 gitlab: jpcyiza
 departments:
-- Development
+- Engineering Function
+- Development Department
+- Dev Section
+- Create:Source Code BE Team
+- Merge Request Coach
 specialty: 'Create: Editor'
 expertise:
 story:

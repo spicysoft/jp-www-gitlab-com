@@ -3,7 +3,7 @@ name: Bojan Marjanović
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
-  Engineer</a>, Ecosystem:Integrations
+  Engineer</a>, Manage:Integrations
 reports_to: arturo-herrero
 picture: bojanmarjanovic.jpg
 pronouns: he/him
@@ -16,7 +16,7 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Ecosystem:Integrations BE Team
+- Manage:Integrations BE Team
 projects:
   gitlab:
   - trainee_maintainer backend

@@ -198,7 +198,8 @@ At this time, GitLab does not issue licenses directly to students as part of the
 
 Children under the age of 13 are not permitted to use GitLab.com (SaaS Software).
 
-# <i class="far fa-newspaper" id="biz-tech-icons"></i>  GitLab for Non-Profits
+# GitLab for Non-Profits
+
 At this time, GitLab does not have a formal not-for-profit program. The primary reason is that the volume of applications to our current free programs takes up all of our bandwidth! We do generally see the value in non-profits and we hope to create some sort of a non-profit offering in the future.
 
 1. To stay up-to-date, you can subscribe to the [the non-profit issue](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/general/-/issues/17) by enabling notifications. To enable notifications, click the Notifications toggle in the sidebar to on.

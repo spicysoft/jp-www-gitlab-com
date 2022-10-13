@@ -27,7 +27,7 @@ Please use this menu to navigate:
 #### [🤝 Swag for customers and partners](/handbook/marketing/corporate-marketing/merchandise-handling/#swag-for-customer-prospects)
 #### [Swag for GitLab hosted events or speaking engagements](/handbook/marketing/corporate-marketing/merchandise-handling/#swag-for-speaking-at-or-hosting-gitlab-events) - on hold due to COVID
 #### [👚GitLab nominations for Community Swag](/handbook/marketing/community-relations/code-contributor-program/community-appreciation/)
-#### I want swag for me. Visit our [web shop](https://gitlab.myshopify.com/)
+#### I want swag for me. Visit our [web shop](https://shop.gitlab.com/)
 #### [🦄 TMRG swag process](/handbook/marketing/corporate-marketing/merchandise-handling/#swag-for-tmrgs)
 #### [🦊 Team swag ordering process](/handbook/marketing/corporate-marketing/merchandise-handling/#swag-for-internal-teams)
 #### [🌟 MVP appreciation gifts process](/handbook/marketing/community-relations/code-contributor-program/#sending-mvp-appreciation-gifts)

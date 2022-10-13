@@ -13,6 +13,7 @@ projects:
   gitlab:
   - reviewer backend
   - reviewer frontend
+  pipeline-validation-service: maintainer
 departments:
 - Engineering Function
 - Development Department

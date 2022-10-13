@@ -195,9 +195,9 @@ Exceptional community members may be able to participate, as well.
 | 2022-09-19 | 2022-09-23 | NO SHADOWS | NO SHADOWS |
 | 2022-09-27 | 2022-09-30 |  [Ed Bao](https://gitlab.com/ebao2) - Assoc Sales Dev Operations Manager  | [Ellie Bertani](https://www.linkedin.com/in/ellie-bertani-1000/) |
 | 2022-10-03 | 2022-10-07 | NO SHADOWS | NO SHADOWS |
-| 2022-10-10 | 2022-10-14 | AVAILABLE - REMOTE | AVAILABLE - REMOTE FOR SHADOW ALUMNI |
+| 2022-10-10 | 2022-10-14 | NO SHADOWS | NO SHADOWS |
 | 2022-10-17 | 2022-10-21 | NO SHADOWS | NO SHADOWS |
-| 2022-10-24 | 2022-10-28 | [Kristine Setschin](https://gitlab.com/KSetschin) - Manager, Field Marketing, EMEA  | AVAILABLE - REMOTE |
+| 2022-10-24 | 2022-10-28 | [Kristine Setschin](https://gitlab.com/KSetschin) - Manager, Field Marketing, EMEA  | AVAILABLE - REMOTE FOR SHADOW ALUMNI |
 | 2022-10-31 | 2022-11-04 | AVAILABLE - REMOTE | [Kristine Setschin](https://gitlab.com/KSetschin) - Manager, Field Marketing, EMEA | 
 | 2022-11-07 | 2022-11-11 | [Jacki Bauer](https://gitlab.com/jackib) - Product Design Manager | Adrienne Rimmer (https://gitlab.com/arimmer) - Manager, Executive Communications |
 | 2022-11-14 | 2022-11-18 | Adrienne Rimmer (https://gitlab.com/arimmer) - Manager, Executive Communications | [Jacki Bauer](https://gitlab.com/jackib) - Product Design Manager |
@@ -1152,3 +1152,4 @@ CEO Shadow program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2022-05-30 | 2022-06-10 | [Victor Brew](https://gitlab.com/Vbrew) | Pub Sec ISR | |
 | 2022-06-06 | 2022-07-01 | [Alexander Turinske](https://gitlab.com/aturinske) | Sr. Frontend Engineer | |
 | 2022-06-27 | 2022-07-15 | [Tiffany Rea](https://gitlab.com/treagitlab) | SET - Verify::Pipeline Authoring | |
+| 2022-10-27 | 2022-10-30 | [Ed Bao](https://gitlab.com/ebao2) | Assoc Sales Dev Operations Manager | |

@@ -1,0 +1,35 @@
+---
+name: Tiger Watson
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Configure</a>
+reports_to: nicolo-maria-mezzopera
+picture: tigerwatson.jpg
+twitter:
+gitlab: tigerwnz
+departments:
+- Engineering Function
+- Development Department
+- Ops Section
+- Configure BE Team
+- Configure Group
+projects:
+  gitlab:
+  - trainee_maintainer backend
+  - maintainer ci_template
+  - maintainer database
+  gitlab-agent: trainee_maintainer
+  version-gitlab-com: maintainer database
+  gitlab-development-kit: maintainer
+  auto-deploy-image: trainee_maintainer
+  auto-build-image: maintainer
+  cluster-applications: maintainer
+domain_expertise:
+- rails
+- cicd
+- kubernetes
+- postgresql
+story:
+specialty: Configure
+

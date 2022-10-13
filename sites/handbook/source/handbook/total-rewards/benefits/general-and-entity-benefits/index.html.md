@@ -33,6 +33,7 @@ For any questions relating to benefits, please reach out to [Total Rewards](/han
 - [Gitlab France S.A.S.](/handbook/total-rewards/benefits/general-and-entity-benefits/france-sas)
 - [GitLab Singapore Pte Ltd](/handbook/total-rewards/benefits/general-and-entity-benefits/singapore-pte-ltd)
 - [Remote Technology (Denmark, Spain, Italy, Switzerland, South Africa, Mexico, Hungary, Sweden and Austria)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com)
+- [Papaya Global (UAE)](/handbook/total-rewards/benefits/general-and-entity-benefits/papaya-global)
 
 ### Benefits Available to Contractors
 
@@ -85,6 +86,7 @@ For more information and compilations of our past events check out our [previous
 [This policy](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPVl9rYW4tXzIyeUlMR0hidWIzNk1sZjJyLUhB/view?usp=sharing) provides coverage for team members who travel domestic and internationally for business purposes. This policy will provide Emergency Medical and Life Insurance coverage should an emergency happen while you are traveling. In accompaniment, there is coverage for security evacuations, as well a travel assistance line which helps with pre-trip planning and finding contracted facilities worldwide.
    * Coverage:
       - Accidental Death [enhanced coverage]: 5 times Annual Salary up to USD 500,000.
+      - The treatment of Covid is covered like any other illness under the Out-of-Country Medical Expense coverage, however there are no covid quarantine benefits covered under our policy.
       - Out of Country Emergency Medical: Coverage up to $250,000 per occurrence. If there is an injury or sickness while outside of his or her own country that requires treatment by a physician.
       - Security Evacuation with Natural Disaster: If an occurrence takes place outside of his or her home country and Security Evacuation is required, you will be transported to the nearest place of safety.
       - Personal Deviation: Coverage above is extended if personal travel is added on to a business trip. Coverage will be provided for 25% of length of the business trip.
@@ -192,9 +194,9 @@ You don't have to take your Parental Leave in one continuous period, we encourag
 
 ### How to Initiate Your Parental Leave
 
-Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country](#entity-benefits) (if any). 
+Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits) (if any). 
 
-**To initiate your Parental Leave, submit your time off by selecting `Parental Leave` in PTO by Roots at least 30 days before your leave starts.** We understand that Parental Leave dates may change, so you can edit your PTO by Roots at a later time if you need to adjust the dates of your Parental Leave. It's important that you submit a tentative date at least 30 days in advance. Your manager and the Absence Management team will get notified after you submit your leave. The Absence Management team will send you an e-mail within 48 hours (whenever possible) confirming that they've been notified of your Parental Leave dates.
+**To initiate your Parental Leave**, submit the dates of your leave in PTO by Roots by selecting the `Parental Leave` label 30 days before your leave starts, unless otherwise required by your [country](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits). We understand Parental Leave dates may change, and you can edit your PTO by Roots entry at a later time, but it is important you submit a tentative date 30 days in advance. After you submit your request, your Manager and the Absence Management team will be notified. The Absence Management team will contact you within 48 hours (whenever possible) confirming receipt of your Parental Leave and provide you with additional information and `TODO` items.
 
 You don't have to take your Parental Leave in one continuous period, we encourage you to plan and arrange your Parental Leave in a way that suits you and your family's needs. You may split your Parental Leave dates as you see fit, so long as it is completed prior to the child's first birth or first anniversary of the adoption event. The Absence Management team will receive a notification every time you edit your Parental Leave dates. Make sure your leave is under the `Parental Leave` category, otherwise the Absence Management team won't get a notification.
 

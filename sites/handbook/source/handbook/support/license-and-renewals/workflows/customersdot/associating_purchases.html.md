@@ -18,7 +18,7 @@ than the one used on the purchasing account.
 
 ## Add or change subscription management contact workflow
 
-This process should be a last resort for **non-reseller customers**, and self-service options must first be explored.
+This process should be a last resort for **non-reseller customers**, and [self-service options must first be explored](https://docs.gitlab.com/ee/subscriptions/#change-account-owner-information).
 
 Reseller customers **do not** have access to CustomersDot -- for such customers, proceed to the [ownership verification](#ownership-verification) steps.
 
@@ -56,7 +56,10 @@ ownership change:
    - This option is not available for customers who purchased through a reseller. Instead, the reseller can either open a ticket with this request or the customer can CC the reseller and also confirm that they would like to authorize the reseller to participate in the ticket. The reseller can then provide the invoice as proof of identity.
 1. Copy of last loaded license (Self-Managed only) in text format only.
    - Screenshots are not valid
-   - Customer can quickly and easily [retrieve the license text data](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html#export-your-license-usage) from `/admin/subscription` -> `Export license usage file` button on the right-hand side (or directly from `/admin/license/usage_export.csv`).
+   - To obtain the license code:
+     - GitLab version 14.2 and newer: Use [license usage export](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html#export-your-license-usage).
+     - GitLab version 14.1, run the command `sudo gitlab-rails runner 'print License.current.data'` on the GitLab instance. N.B. this command can take a few minutes to complete.
+     - GitLab versions older than 14.1, use `Download license` from the `Admin area > License` page.
    - License file can be decoded in customersDot from `Licenses` -> `Validate License` (`/admin/license/validate_license`)
 
 **NOTE:** We do not accept vouches from GitLab Team Members (including Account Owners listed in SFDC) as proof of a customer's association to a subscription.
@@ -107,7 +110,7 @@ As first option we should **always** ask the customer to reset the account passw
 For any situation where the customer is not able to complete the self-served option on CustomersDot:
 
 1. If the customer has already created a new account and wants the ownership to be transferred.
-    - Point them to [Issue#4247](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4247) and explain that might cause purcharing problems.
+    - Point them to [Issue#4247](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4247) and explain that might cause purchasing problems.
     - Change the email in the new account for example: `person@example.com` to `person_edited@example.com`
 1. Update the `Name` and `Email` of the current account.
 1. For SaaS only, use the [unlink GitLab.com Account mechanizer function](mechanizer.html#unlink-gitlabcom-account).

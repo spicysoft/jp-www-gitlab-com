@@ -1,17 +1,18 @@
+---
 name: Cat Tran
-locality: 
+locality:
 country: Remote
 role: <a href="">Senior Program Manager, Field Enablement</a>
-reports_to: kreynolds
-picture: ../gitlab-logo-extra-whitespace.png
+reports_to: ashahrazad1
+picture: "../gitlab-logo-extra-whitespace.png"
 pronouns:
 pronunciation:
 twitter:
 linkedin:
 gitlab: cttran
 departments:
-  - Field Operations
-specialty: ""
+- Field Operations
+specialty: ''
 expertise:
 story:
 

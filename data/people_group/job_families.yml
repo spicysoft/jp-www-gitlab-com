@@ -159,8 +159,6 @@
   description: "/job-families/engineering/incubation-engineer/"
 - title: Integrations Engineer
   description: "/job-families/finance/integrations-engineer/"
-- title: Partner Integration Engineer
-  description: "/job-families/product/partner-integration-engineering/"
 - title: Internal Audit
   description: "/job-families/finance/internal-audit/"
 - title: Instructional Design (L&D)
@@ -215,9 +213,9 @@
   description: "/job-families/marketing/marketing-strategy-and-operations/"
 - title: Field Marketing Specialist
   description: "/job-families/marketing/field-marketing-specialist/"
-- title: Digital Experience and Design
+- title: Digital Experience
   description:
-  - "/job-families/marketing/digital-experience-management/"
+  - "/job-families/marketing/digital-experience/"
 - title: Digital Marketing Programs
   description: "/job-families/marketing/digital-marketing-programs-manager/"
 - title: Online Sales and Self Service
@@ -393,8 +391,8 @@
   description: "/job-families/marketing/technical-marketing-manager"
 - title: Technical Writer
   description:
-  - "/job-families/product/technical-writer/"
-  - "/job-families/product/technical-writing-manager/"
+  - "/job-families/engineering/technical-writer/"
+  - "/job-families/engineering/technical-writing-manager/"
 - title: Technical Writer, Customer Programs
   description: "/job-families/sales/technical-writer-customer-programs/"
 - title: Technology Partner Manager
@@ -403,14 +401,14 @@
   description: "/job-families/engineering/threat-intelligence-engineer/"
 - title: Product Designer
   description:
-  - "/job-families/product/product-designer/"
+  - "/job-families/engineering/product-designer/"
   - "/job-families/marketing/product-designer-ux-marketing/"
 - title: Engineering Leadership (UX)
   description: "/job-families/engineering/ux-management/"
 - title: UX Research
   description:
-  - "/job-families/product/ux-researcher/"
-  - "/job-families/product/ux-research-manager/"
+  - "/job-families/engineering/ux-researcher/"
+  - "/job-families/engineering/ux-research-manager/"
 - title: UX Research Operations Coordinator
   description: "/job-families/engineering/ux-research-coordinator/"
 - title: Director, Marketing Operations

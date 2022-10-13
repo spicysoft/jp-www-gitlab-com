@@ -12,8 +12,7 @@ departments:
   - Engineering Function
   - Development Department
   - Enablement Sub-department
-  - Gitaly Team
-  - Gitaly BE Team
+  - Gitaly Git Team
 specialty: Gitaly
 projects:
   gitaly:

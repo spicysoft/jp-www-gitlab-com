@@ -3,7 +3,7 @@ name: Lukas Eipert
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/manager/">Engineering
-  Manager</a>, Ecosystem:Foundations
+  Manager</a>, Manage:Foundations
 reports_to: tim-z
 picture: leipert.jpg
 twitter: leipert_io
@@ -13,8 +13,8 @@ departments:
 - Development Department
 - Frontend
 - Dev Section
-- Ecosystem:Foundations Team
-- Ecosystem:Foundations FE Team
+- Manage:Foundations Team
+- Manage:Foundations FE Team
 projects:
   gitlab: reviewer frontend
   gitlab-build-images: maintainer
@@ -31,4 +31,3 @@ story: |
   quite clear. He likes building software for other developers. In his
   spare time Lukas enjoys cooking, brewing beer and playing "Skat".
 specialty: Foundations
-

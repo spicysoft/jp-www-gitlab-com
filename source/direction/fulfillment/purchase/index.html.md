@@ -77,3 +77,13 @@ From our [fulfillment direction](/direction/fulfillment/#increase-new-customer-a
 5. **Scope / opportunity cost** - Engineering capacity can be reapplied to other critical initiatives; offload compliance and operational support to a vendor; How much does it cost to maintain x,y,z? What is the boring solution? Will a vendor scale with us in the future?
 6. **Costs** - Additional hires to deliver necessary e-commerce functionality, while maintaining momentum on other initiatives.
 7. **Risk** - Is either pathway (vendor v. no vendor) more or less risky?
+
+## Vision for Self-Service Purchasing Experience
+
+### Attributes
+This section is meant to highlight the key attributes that we want as part of our north star, self-service purchasing experience. This list will be added to and can change over time
+
+|  **Attribute** | **Possible Solutions** | **Solution Details** | **Reasoning** |
+| :--------------- | :----------------- | :----------------- | :----------------- |
+| User can purchase and manage their subscription in 1 place | 1. Build purchase and management UI into GitLab instance <br> 2. Standalone portal <br> 3. iFrame in GitLab instance to standalone portal <br> | **#3 - iFrame in GitLab instance to standalone portal**<br>- Customers access the experience via 1 login associated with gitlab.com. [SSO work](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1868) to aid this effort. This means that customers would be able to access their subscriptions via SSO login using GitLab.com and if already logged into GitLab.com, customers wouldn't have to do any additional login to access their subscription <br> - The experience, although easy to find on gitlab.com, will have a code base maintained outside of gitlab.com and can be accessed via iFrame within gitlab.com or on portal site for SM/re-seller customers (eg similiar to how it feels to go to Slack > Analytics) | **#3 - iFrame in GitLab instance to standalone portal**<br>- Allows us to to be more agile with code working outside of gitlab.com code base <br>- Although this only happens less than 5% of the time: by not having the experience integrated within gitlab.com, this likely allows for easier management across GitLab instances for customers who have multiple GitLab instances (eg customer could see renewal dates across their 3 GitLab paid instances) |
+| Payment Methods Beyond Credit Card | We need to be able to support alternative payment types beyond credit cards | Still need to determine what those payment methods are | 1. Need to be able to support [globalization](https://about.gitlab.com/company/team/structure/working-groups/globalization/) |

@@ -2,8 +2,7 @@
 name: Libor Vanc
 locality:
 country: Remote
-role: <a href="/job-families/product/product-designer/">Senior Product Designer,
-  Ecosystem:Integrations</a>
+role: <a href="/job-families/product/product-designer/">Senior Product Designer, Manage:Integrations</a>
 reports_to: taurie
 picture: liborvanc.jpg
 twitter: liborvanc
@@ -13,17 +12,15 @@ departments:
 - Engineering Function
 - UX Department
 - Dev UX Team
-- Ecosystem:Integrations
+- Manage:Integrations
 projects:
   design.gitlab.com: maintainer Figma
   gitlab: reviewer UX
-expertise: '<li>Visual Design <a href="/company/team/structure/#expert">expert</a></li>'
-
+expertise: <li>Visual Design <a href="/company/team/structure/#expert">expert</a></li>
 story: 'Libor has years of experience designing digital products and services for
   a variety of company types and sizes. He is always looking for new ways to either
   reimagine or improve upon any experience. In his free time, he enjoys being outdoors,
-  reading, listing to jazz and spending time with his family.
-  '
+  reading, listing to jazz and spending time with his family. '
 specialty:
 - 'Ecosystem: Integrations'
 

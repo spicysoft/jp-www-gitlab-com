@@ -1,5 +1,5 @@
 name: Aboobacker MK
-locality: 
+locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>,
   Manage:Authentication and Authorization
@@ -15,7 +15,8 @@ departments:
   - Development Department
   - Dev Section
   - Manage:Authentication and Authorization BE Team
-specialty: "Authentication & Authorization"
+specialty:
+- 'Manage: Authentication and Authorization'
 expertise: "<li> Ruby/Ruby on Rails </li>"
 story: Aboobacker is a software engineer and open source enthusiast.
 

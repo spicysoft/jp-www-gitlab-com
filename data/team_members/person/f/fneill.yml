@@ -3,7 +3,7 @@ name: Fiona Neill
 locality:
 country: Remote
 role: <a href="/job-families/product/technical-writer/">Senior Technical Writer</a>,
-  Manage (Optimize, Workspace), Growth (Product Intelligence)
+  Manage (Workspace), Growth (Product Intelligence)
 reports_to: kpaizee
 picture: fionaneill.jpg
 pronouns: she/her
@@ -23,7 +23,6 @@ projects:
   gitlab-runner: maintainer docs
   gitlab-chart: maintainer docs
 specialty:
-- 'Manage: Optimize'
 - 'Govern: Threat Insights'
 - 'Secure: Vulnerability Research'
 - 'Growth: Product Intelligence'

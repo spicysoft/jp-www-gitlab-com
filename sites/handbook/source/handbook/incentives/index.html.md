@@ -292,11 +292,15 @@ For information regarding the program details and team member eligibility and un
 
 If a team member has been referred, the People Connect team will review team members' self-identification data in Workday including Gender, Ethnicity and Veteran status to determine if the team member qualifies as belonging to a select underrepresented group. The People Connect team will edit the referrer's referral bonus as applicable. People Connect will confirm the bonus amount when it is entered into Workday and will process the bonus.
 
-* Exceptions
+##### Exceptions
    * no bonus for hiring people who report to you directly or are in your direct reporting chain,
-   * no bonus for a current executive team member (VP and above) who's referral is hired,
    * no bonus if you refer current team members,
    * no bonus for referring a Boomerang Team Member (returning team member),
+   * no bonus if the referring Team Member is a part of the Talent Acquisition team - they are not eligible given the nature of their position is to engage candidates.
+   * no bonus if there's a perceived conflict of interest.
+   * no bonus for VP level [grade 12](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) or the [Executive Group](https://about.gitlab.com/company/team/structure/#executives).
+   * no bonus if the referral is an intern. You will be paid a referral bonus if the referral(intern) is converted to a full-time, intermediate-level team member.
+
    * no bonus for a referring team member will be applicable if the team members employment is terminated prior to the referral bonus payout date. You need to be an active team member.
 
 * In the event that more than one GitLab employee refers the same team member for the same role the People Ops team will ask the new team member to confirm who they were referred by (who should get the credit). If they mention two or more people then the bonus will be split between them.
@@ -304,6 +308,8 @@ If a team member has been referred, the People Connect team will review team mem
 * In the event that someone wants to refer another candidate to GitLab before they have started, the referring party must have a signed contract at the time of the new candidate's application.
 
 * In the event that a GitLab sourcer adds a candidate to GreenHouse and the recruiter screens the candidate a referring party cannot be added to their profile after. The candidate source would be Prospecting by the GitLab sourcer.
+
+* If the referral was submitted on or before 2022-06-01, then refer to the bonus amounts as listed under [Referral Operations](https://about.gitlab.com/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-connect-team).
 
 #### Referral Bonus Processing
 
@@ -443,6 +449,8 @@ We'll attempt to document answers to frequently asked questions in the handbook,
    1. While utilizing the Visiting Grant is completely optional and voluntary, and since its intent is to allow Team Members to get together in person, yes, you are eligible to participate in the Q3 Visiting Grant program as this is not considered a business related expense. Other business expenses related to completing work during a leave of absence are not allowed, as per our [Expense Policy](https://about.gitlab.com/handbook/finance/expenses/#-expense-policy-summary).
 1. My significant other will be traveling with me.  Should I use the TripActions portal to book and then pay back to GitLab for the significant other booking fees? 
    1. TripActions Business Travel is paid by GitLab's corporate card, so you need to use your personal card (personal booking or outside TripActions) for that portion that is +1, not yours. To book both tickets together, you should pay for the flights on your personal card and expense your own ticket with the rest of your trip/event related fees. See [personal bookings](https://about.gitlab.com/handbook/travel/#booking-travel-through-tripactions-) for more guidance. 
+1. I am a DRI who planned and hosted an event for a number of GitLab team members who committed to attending. Some of these folks dropped out last minute, so we went over budget. Can I have an exception, so I don't have to pay for this out-of-pocket?
+   1. If you went over budget due to unanticipated cancellations, you can use an [exception form](https://gitlab.com/gitlab-com/chief-of-staff-team/cos-team/-/issues/new) to ask for these costs to be covered. If we do a future visiting grant program, we will make it clear that team members who commit their budget to one event can't later switch events and reallocate their budget. 
 
 #### Sharing your Visiting Grant stories
 

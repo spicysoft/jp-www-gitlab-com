@@ -89,7 +89,7 @@
 ^[Culture]
 /sites/uncategorized/source/company/culture/ @dmurph @jessicareeder @bbula
 /sites/uncategorized/source/company/culture/all-remote/ @dmurph @jessicareeder @bbula
-/sites/uncategorized/source/company/culture/contribute/ @Lconway @akramer
+/sites/uncategorized/source/company/culture/contribute/ @akramer
 /sites/uncategorized/source/company/culture/cross-culture-collaboration-guide/ @glucchesi @wendybarnes
 /sites/uncategorized/source/company/culture/gitlab-101/ @mmcb @streas
 /sites/uncategorized/source/company/culture/inclusion/ @wendybarnes
@@ -107,8 +107,8 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/customer-success/solutions-architects/processes/commercial/ @jfullam @poffey21
 /sites/handbook/source/handbook/customer-success/professional-services-engineering/ @michael_lutz @bryan-may @mross1
 /sites/handbook/source/handbook/customer-success/professional-services-engineering/education-services/ @kmarquart @michael_lutz @seanjsandoval
-/sites/handbook/source/handbook/customer-success/education-enablement/ @jfullam @spatching @jordanthomas @michael_lutz @kreykrey
-/sites/handbook/source/handbook/sales/training/field-functional-competencies/ @kreykrey @dhong @cbednarz
+/sites/handbook/source/handbook/customer-success/education-enablement/ @jfullam @spatching @jordanthomas @michael_lutz @elikrohn
+/sites/handbook/source/handbook/sales/training/field-functional-competencies/ @elikrohn @dhong @cbednarz
 
 ^[EBA team]
 /sites/handbook/source/handbook/eba/ @mmcb
@@ -117,8 +117,8 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /data/projects.yml @akramer
 /sites/handbook/source/handbook/engineering/ @akramer
 /sites/handbook/source/handbook/engineering/cross-functional-prioritization/ @akramer @david
-/sites/handbook/source/handbook/engineering/metrics/ @meks @lmai1 @kwiebers @rymai
-/sites/handbook/source/handbook/engineering/open-source/ @johncoghlan @c_hupy @cbacharakis @rymai @kwiebers @nick_vh
+/sites/handbook/source/handbook/engineering/metrics/ @meks @lmai1 @rymai
+/sites/handbook/source/handbook/engineering/open-source/ @johncoghlan @c_hupy @cbacharakis @rymai @meks @nick_vh
 /sites/handbook/source/handbook/developer-onboarding/ @akramer
 /sites/handbook/source/handbook/engineering/performance/ @clefelhocz1 @timzallmann @sloyd
 
@@ -140,16 +140,15 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/development/dev/training/ic-to-manager/ @dsatcher
 /sites/handbook/source/handbook/engineering/development/dev/create/ @dsatcher
 /sites/handbook/source/handbook/engineering/development/dev/create/editor/ @oregand
-/sites/handbook/source/handbook/engineering/development/dev/ecosystem/ @arturoherrero @leipert
-/sites/handbook/source/handbook/engineering/development/dev/ecosystem/foundations/ @leipert @mushakov @tauriedavis
-/sites/handbook/source/handbook/engineering/development/dev/ecosystem/integrations/ @arturoherrero
 /sites/handbook/source/handbook/engineering/development/dev/plan/plan-fe/ @donaldcook @timzallmann @johnhope
 /sites/handbook/source/handbook/engineering/development/dev/manage/ @wortschi @m_gill @mksionek
-/sites/handbook/source/handbook/engineering/development/dev/manage/workspace/ @mksionek
-/sites/handbook/source/handbook/engineering/development/dev/manage/import/ @wortschi
-/sites/handbook/source/handbook/engineering/development/dev/manage/compliance/ @nrosandich @m_gill
-/sites/handbook/source/handbook/engineering/development/dev/manage/optimize/ @blabuschagne
 /sites/handbook/source/handbook/engineering/development/dev/manage/authentication-and-authorization/ @m_gill
+/sites/handbook/source/handbook/engineering/development/dev/manage/compliance/ @nrosandich @m_gill
+/sites/handbook/source/handbook/engineering/development/dev/manage/foundations/ @leipert @tauriedavis
+/sites/handbook/source/handbook/engineering/development/dev/manage/import/ @wortschi
+/sites/handbook/source/handbook/engineering/development/dev/manage/integrations/ @arturoherrero
+/sites/handbook/source/handbook/engineering/development/dev/manage/optimize/ @blabuschagne
+/sites/handbook/source/handbook/engineering/development/dev/manage/workspace/ @mksionek
 /sites/handbook/source/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope
 /sites/handbook/source/handbook/engineering/development/dev/plan/product-planning/ @kushalpandya @donaldcook @timzallmann @johnhope
 /sites/handbook/source/handbook/engineering/development/dev/plan/certify/ @kushalpandya @donaldcook @timzallmann @johnhope
@@ -202,20 +201,20 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability
 
 ^[Quality department]
-/sites/handbook/source/handbook/engineering/automation/ @meks @kwiebers @rymai
-/sites/handbook/source/handbook/engineering/quality/ @meks @cdeleon_gitlab @nick_vh @kwiebers @tpazitny
-/sites/handbook/source/handbook/engineering/quality/performance-indicators/ @meks @cdeleon_gitlab @kwiebers @tpazitny @nick_vh
-/sites/handbook/source/handbook/engineering/quality/issue-triage/ @meks @cdeleon_gitlab @kwiebers @tpazitny @nick_vh
-/sites/handbook/source/handbook/engineering/quality/merge-request-triage/ @cbacharakis @nick_vh @niskhakova @kwiebers @tpazitny
-/sites/handbook/source/handbook/engineering/quality/onboarding/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @kwiebers @ksvoboda
-/sites/handbook/source/handbook/engineering/quality/quality-engineering/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @kwiebers @ksvoboda
+/sites/handbook/source/handbook/engineering/automation/ @meks @rymai
+/sites/handbook/source/handbook/engineering/quality/ @meks @cdeleon_gitlab @nick_vh @tpazitny
+/sites/handbook/source/handbook/engineering/quality/performance-indicators/ @meks @cdeleon_gitlab @tpazitny @nick_vh
+/sites/handbook/source/handbook/engineering/quality/issue-triage/ @meks @cdeleon_gitlab @tpazitny @nick_vh
+/sites/handbook/source/handbook/engineering/quality/merge-request-triage/ @cbacharakis @nick_vh @niskhakova @meks @tpazitny
+/sites/handbook/source/handbook/engineering/quality/onboarding/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @ksvoboda
+/sites/handbook/source/handbook/engineering/quality/quality-engineering/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @ksvoboda
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/quad-planning/ @meks @at.ramya @jo_shih @vincywilson @tpazitny @ksvoboda
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/dev-qe-team/ @at.ramya
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/ops-qe-team/ @jo_shih
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/fulfillment-growth-qe-team/ @vincywilson
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/enablement-saas-platforms-qe-team/ @ksvoboda
 /sites/handbook/source/handbook/engineering/quality/quality-engineering/sec-data-science-qe-team/ @vincywilson
-/sites/handbook/source/handbook/engineering/quality/engineering-productivity/ @kwiebers
+/sites/handbook/source/handbook/engineering/quality/engineering-productivity/ @meks
 /sites/handbook/source/handbook/engineering/quality/engineering-analytics/ @meks @cdeleon_gitlab @lmai1
 /sites/handbook/source/handbook/engineering/quality/contributor-success/ @nick_vh
 
@@ -258,7 +257,6 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/readmes/daniel-diniz/ @dnldnz
 /sites/handbook/source/handbook/engineering/readmes/dillon-starns/ @dstarns
 /sites/handbook/source/handbook/engineering/readmes/emily-chang/ @emchang
-/sites/handbook/source/handbook/engineering/readmes/eric-johnson/ @edjdev
 /sites/handbook/source/handbook/engineering/readmes/izzy-fee/ @izzyfee
 /sites/handbook/source/handbook/engineering/readmes/james-lopes/ @JamesRLopes
 /sites/handbook/source/handbook/engineering/readmes/jane-gianoutsos/ @jgianoutsos
@@ -326,7 +324,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/uncategorized/source/community/gitlab-first-look/ @asmolinski2
 /sites/uncategorized/source/community/hackathon/ @cbacharakis
 /sites/uncategorized/source/community/heroes/ @johncoghlan
-/sites/uncategorized/source/community/issue-bash/ @kwiebers
+/sites/uncategorized/source/community/issue-bash/ @meks
 /sites/uncategorized/source/community/meetups/ @jrachel1 @johncoghlan
 /sites/uncategorized/source/community/mvp/ @cbacharakis
 /sites/uncategorized/source/community/ten-year/ @jrachel1 @johncoghlan
@@ -356,13 +354,14 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/marketing/community-relations/ @johncoghlan @akramer
 /sites/handbook/source/handbook/marketing/community-relations/code-contributor-program/ @cbacharakis @johncoghlan
 /sites/handbook/source/handbook/marketing/community-relations/community-programs/education-program/ @c_hupy @johncoghlan
-/sites/handbook/source/handbook/marketing/community-relations/non-profit-program/ @c_hupy @johncoghlan
+/sites/handbook/source/handbook/marketing/community-relations/community-programs/non-profit-program/ @c_hupy @johncoghlan
 /sites/handbook/source/handbook/marketing/community-relations/evangelist-program/ @jrachel1 @johncoghlan
 /data/heroes.yml @jrachel1 @johncoghlan
 /data/heroes_contributions.yml @jrachel1 @johncoghlan
 /sites/handbook/source/handbook/marketing/community-relations/community-programs/ @johncoghlan @c_hupy
-/sites/handbook/source/handbook/marketing/community-relations/opensource-program/ @johncoghlan @bbehr
-/sites/handbook/source/handbook/marketing/community-relations/startups-program/ @johncoghlan @c_hupy
+/sites/handbook/source/handbook/marketing/community-relations/community-programs/opensource-program/ @johncoghlan @bbehr
+/sites/handbook/source/handbook/marketing/community-relations/community-programs/startups-program/ @johncoghlan @c_hupy
+/sites/handbook/source/handbook/marketing/community-relations/community-programs/opensource-program/ @johncoghlan @bbehr
 /sites/handbook/source/handbook/marketing/community-relations/program-resources/ @johncoghlan @akramer
 /sites/handbook/source/handbook/marketing/community-relations/project-management/ @johncoghlan @akramer
 /sites/handbook/source/handbook/marketing/community-relations/developer-evangelism/ @abuango @brendan @dnsmichi @johncoghlan @jrachel1 @sugaroverflow
@@ -384,7 +383,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/marketing/lifecycle-marketing/emails-nurture/ @aklatzkin @dambrold
 /sites/handbook/source/handbook/marketing/lifecycle-marketing/agency-verticurl/ @dambrold @aklatzkin @krogel
 /sites/handbook/source/handbook/marketing/emergency-response/ @akramer @rkohnke @amy.waller
-/sites/handbook/source/handbook/marketing/events/ @Lconway @akramer
+/sites/handbook/source/handbook/marketing/events/ @akramer
 /sites/handbook/source/handbook/marketing/localization/ @lblanchard
 /sites/handbook/source/handbook/marketing/marketing-operations/ @akramer @rkohnke
 /sites/handbook/source/handbook/marketing/sales-plays-cicd/ @dsteer @supadhyaya
@@ -441,7 +440,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/people-group/offboarding/offboarding_guidelines/ @mpatel8 @Mowry @alex_venter @anechan @asjones @nutaurus
 /sites/handbook/source/handbook/people-group/offboarding/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
-/sites/handbook/source/handbook/people-group/employment-branding/internal-communications/ @sliang2 @kaylagolden @drogozinski @rallen3
+/sites/handbook/source/handbook/people-group/employment-branding/people-communications/ @sliang2 @kaylagolden @drogozinski @rallen3
 /sites/handbook/source/handbook/group-conversations/ @mmcb
 /sites/handbook/source/handbook/people-group/celebrations/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/talent-assessment/ @wendybarnes @rtakken @glucchesi @pegan @cbednarz
@@ -467,7 +466,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/product/categories/ @david @akramer
 /sites/handbook/source/handbook/product/fulfillment-guide/ @justinfarris @jeromezng @tgolubeva @jameslopez @csouthard @rhardarson @ofernandez2
 /sites/handbook/source/handbook/product/product-intelligence-guide/ @alinamihaila @justinfarris @rparker2
-/sites/handbook/source/handbook/product/packaging-and-pricing/gitlab-for-campuses/ @keithchung @c_hupy
+/sites/handbook/source/handbook/product/packaging-and-pricing/gitlab-for-campuses/ @justinfarris @c_hupy
 /sites/handbook/source/handbook/product/categories/verify/ @jreporter @david
 /sites/handbook/source/handbook/product/categories/ops/ @david @sgoldstein
 /sites/handbook/source/handbook/product/product-analysis/ @cbraza @gl-product-leadership
@@ -478,14 +477,18 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 ^[Product - Dev Section]
 /source/direction/dev/ @ogolowinski @gl-product-leadership
 /source/direction/dev/strategies/ @ogolowinski @gl-product-leadership
-/source/direction/manage/ @ogolowinski @gl-product-leadership
+/source/direction/manage/ @mushakov @ogolowinski @gl-product-leadership
 /source/direction/manage/auth/ @ogolowinski @hsutor @gl-product-leadership
 /source/direction/manage/subgroups/ @ogolowinski @gl-product-leadership
 /source/direction/manage/importers/ @ogolowinski @gl-product-leadership
 /source/direction/manage/internationalization/ @ogolowinski @gl-product-leadership
 /source/direction/manage/devops-reports/ @hsnir1 @ogolowinski @gl-product-leadership
 /source/direction/manage/code-analytics/ @hsnir1 @ogolowinski @gl-product-leadership
-/source/direction/manage/value_stream_management/ @hsnir1 @ogolowinski @gl-product-leadership
+/source/direction/manage/foundations/navigation_settings/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
+/source/direction/manage/foundations/design_system/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
+/source/direction/manage/foundations/gitlab_docs/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
+/source/direction/manage/integrations/ @gl-product-leadership @mushakov @ogolowinski @g.hickman
+/source/direction/plan/value_stream_management/ @hsnir1 @ogolowinski @gl-product-leadership
 /source/direction/plan/portfolio_management/ @mushakov @ogolowinski @amandarueda @gl-product-leadership
 /source/direction/plan/design_management/ @mushakov @ogolowinski @amandarueda @gl-product-leadership
 /source/direction/plan/certify/ @mushakov @ogolowinski @gl-product-leadership
@@ -502,11 +505,6 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/create/editor/content_editor/ @sarahwaldner @ogolowinski @ericschurter @gl-product-leadership
 /source/direction/create/editor/pages/ @sarahwaldner @ericschurter @ogolowinski @gl-product-leadership
 /source/direction/create/gitter/ @sarahwaldner @ericschurter @ogolowinski @gl-product-leadership
-/source/direction/ecosystem/foundations/navigation_settings/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
-/source/direction/ecosystem/foundations/design_system/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
-/source/direction/ecosystem/ @mushakov @ogolowinski @gl-product-leadership
-/source/direction/ecosystem/foundations/gitlab_docs/ @gl-product-leadership @mushakov @ogolowinski @cdybenko
-/source/direction/ecosystem/integrations/ @gl-product-leadership @mushakov @ogolowinski @g.hickman
 
 ^[Product Section - Ops]
 /source/direction/ops/ @david
@@ -539,12 +537,11 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/secure/composition-analysis/license-compliance/ @sam.white @hbenson
 /source/direction/secure/composition-analysis/container-scanning/ @sam.white @hbenson
 /source/direction/govern/threat_insights/vulnerability_management/ @matt_wilson @hbenson
-/source/direction/govern/ @sam.white @hbenson @stkerr @matt_wilson
+/source/direction/govern/ @sam.white @hbenson @derekferguson @matt_wilson
 /source/direction/govern/security_policies/security_policy_management/ @sam.white @hbenson
-/source/direction/govern/compliance/ @stkerr @hbenson
-/source/direction/govern/compliance/audit-events/ @stkerr @hbenson
-/source/direction/govern/compliance/compliance-management/ @stkerr @hbenson
-/source/direction/anti-abuse/ @jstava @tmccaslin @hbenson
+/source/direction/govern/compliance/ @derekferguson @hbenson
+/source/direction/govern/compliance/audit-events/ @derekferguson @hbenson
+/source/direction/govern/compliance/compliance-management/ @derekferguson @hbenson
 
 ^[Product - Analytics Section]
 /source/direction/analytics/ @david
@@ -566,14 +563,18 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/gitaly/ @joshlambert @mjwood
 
 ^[Product - Fulfillment Section]
-/source/direction/fulfillment/ @ofernandez2 @tgolubeva @doniquesmit @courtmeddaugh @alex_martin
-/source/direction/fulfillment/utilization/ @ofernandez2 @doniquesmit
-/source/direction/fulfillment/purchase/ @ofernandez2 @alex_martin
-/source/direction/fulfillment/provision/ @ofernandez2 @courtmeddaugh
+/source/direction/fulfillment/ @ofernandez2
+/source/direction/fulfillment/utilization/ @doniquesmit
+/source/direction/fulfillment/purchase/ @alex_martin
+/source/direction/fulfillment/provision/ @courtmeddaugh
+/source/direction/fulfillment/commerce-integrations/ @isandin
+/source/direction/fulfillment/fulfillment-admin-tools/ @doniquesmit
+/source/direction/fulfillment/platform/ @jameslopez @tgolubeva
 
-^[Product Section - ModelOps]
-/source/direction/data-science/
+^[Product Section - Data Science]
+/source/direction/data-science/ @tmccaslin @hbenson
 /source/direction/modelops/ @tmccaslin @hbenson
+/source/direction/anti-abuse/ @jstava @tmccaslin @hbenson
 
 ^[Product Section - Other]
 /source/direction/product-analysis/ @cbraza @gl-product-leadership
@@ -592,7 +593,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 
 ^[Sales]
 /sites/handbook/source/handbook/resellers/ @ecepulis
-/sites/handbook/source/handbook/resellers/training/ @dhong @ecepulis @bfraser 
+/sites/handbook/source/handbook/resellers/training/ @dhong @ecepulis @bfraser
 /sites/handbook/source/handbook/sales/ @dhong @jbrennan1 @jakebielecki @james_harrison @jdbeaumont @cfarris
 /sites/handbook/source/handbook/sales/account-planning/ @lschoenfeld @RobbieB @dhong @emelier @kgavalas
 /sites/handbook/source/handbook/sales/assistance-from-investors/ @james_harrison
@@ -608,7 +609,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/sales/field-operations/ @dhong @jbrennan1 @jakebielecki @james_harrison @jdbeaumont @cfarris
 /sites/handbook/source/handbook/sales/field-operations/channel-operations/ @cfarris
 /sites/handbook/source/handbook/sales/field-operations/customer-success-operations/ @jdbeaumont
-/sites/handbook/source/handbook/sales/field-operations/field-enablement/ @monicaj @kreykrey @dhong @kshirazi
+/sites/handbook/source/handbook/sales/field-operations/field-enablement/ @monicaj @elikrohn @dhong @kshirazi
 /sites/handbook/source/handbook/sales/field-operations/gtm-resources/ @james_harrison
 /sites/handbook/source/handbook/sales/field-operations/customersdot-access-and-use/ @james_harrison
 /sites/handbook/source/handbook/sales/field-operations/order-processing/ @jrabbits
@@ -620,10 +621,10 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/sales/field-operations/sfdc/ @jbrennan1
 /sites/handbook/source/handbook/sales/forecasting/ @james_harrison
 /sites/handbook/source/handbook/sales/gainsight/ @jdbeaumont
-/sites/handbook/source/handbook/sales/idea-to-production-demo/ @dhong @kreykrey
+/sites/handbook/source/handbook/sales/idea-to-production-demo/ @dhong @elikrohn
 /sites/handbook/source/handbook/sales/insidesales/ @james_harrison
 /sites/handbook/source/handbook/sales/it-agility-director-interview/ @dhong
-/sites/handbook/source/handbook/sales/manager-operating-rhythm/ @dhong 
+/sites/handbook/source/handbook/sales/manager-operating-rhythm/ @dhong
 /sites/handbook/source/handbook/sales/manager-operating-rhythm/enterprise-sales/ @dhong @emelier
 /sites/handbook/source/handbook/sales/meddppicc/ @dhong
 /sites/handbook/source/handbook/sales/negotiate-to-close/ @dhong @emelier
@@ -648,12 +649,12 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/sales/territories/latam/ @hugoazevedo @ricardoamarilla
 /sites/handbook/source/handbook/sales/territory-planning/ @dhong @emelier
 /sites/handbook/source/handbook/sales/training/ @dhong @jblevins608
-/sites/handbook/source/handbook/sales/training/field-certification/ @kreykrey @kshirazi @pdaliparthi @emelier @dhong
-/sites/handbook/source/handbook/sales/training/field-functional-competencies/ @kreykrey @dhong @kshirazi
+/sites/handbook/source/handbook/sales/training/field-certification/ @elikrohn @kshirazi @pdaliparthi @emelier @dhong
+/sites/handbook/source/handbook/sales/training/field-functional-competencies/ @elikrohn @dhong @kshirazi
 /sites/handbook/source/handbook/sales/training/sales-enablement-sessions/ @dhong @jblevins608
 /sites/handbook/source/handbook/sales/training/SKO/ @azaglul @monicaj @dhong
 /sites/handbook/source/handbook/sales/understand-customer-gitlab-use/ @jdbeaumont
-/sites/handbook/source/handbook/sales/training/customer-success-skills-exchange/ @kreykrey @pdaliparthi
+/sites/handbook/source/handbook/sales/training/customer-success-skills-exchange/ @elikrohn @pdaliparthi
 /sites/handbook/source/handbook/sales/field-communications/gitlab-highspot/ @abryson1 @monicaj
 
 

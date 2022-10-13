@@ -98,7 +98,7 @@ To mitigate a potential incident and/or if an incident has occurred, please foll
 
 Speaking on behalf of GitLab via a public channel such as a media interview (in-person or via phone), on a podcast, in a public issue on GitLab.com, on a forum, at a conference/event (live or virtual), in a blog or an external platform is a significant responsibility.
 
-**As of September 13, 2021, all GitLab team members who speak with the media are required to first complete the [GitLab Media Training](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-media-training) and all GitLab team members who speak externally at a conference or event are required to first complete the [GitLab Speaker Training](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-speaker-training-2021).** Both of these trainings have been designed to keep us aligned in representing the company following GitLab’s [SAFE framework](/handbook/legal/safe-framework/). Being mindful of how you say things within open issues, on social media, or at a booth during an event will help keep the company SAFE. We all represent the company.
+**As of September 13, 2021, all GitLab team members who speak with the media are required to first complete the [GitLab Media Training](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-media-training) and all GitLab team members who speak externally at a conference or event are required to first complete the [GitLab Speaker Training](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-speaker-training-2021).** Both of these trainings have been designed to keep us aligned in representing the company following GitLab’s [SAFE framework](/handbook/legal/safe-framework/). Being mindful of how you say things within open issues, on social media, or at a booth during an event will help keep the company SAFE. We all represent the company. Note, any spokesperson who violates the Speaking on Behalf of GitLab guidelines will have their spokesperson privileges revoked.
 
 If you are unsure whether or not you should accept a speaking opportunity, create a public issue to gather feedback/communicate a message, or provide comments representing GitLab please see below for guidance.
 
@@ -266,14 +266,14 @@ Please ensure that the vendor meets the below criteria before proceeding with th
 
 - GitLab team and/or team member(s) need to have been using the product, service and/or technology for at LEAST 6 months prior to the reference request.
 - The product, service, and/or technology has met or exceeded your expectations.
-- E-group member approval for providing reference (E-group member will be for the specific organization using the vendor. For example, if it is a tool the security team uses, Eric Johnson will be the approver for e-group.)
+- E-group member approval for all reference requests except logo use. (E-group member will be for the specific organization using the vendor. For example, if it is a tool the Product team uses, David DeSanto will be the approver for e-group.)
 - If the request involves GitLab logo/brand use, please ensure the vendor follows the below:
     1. [Trademark Guidelines](/handbook/marketing/corporate-marketing/brand-activation/trademark-guidelines/)
     1. [Brand Standards](/handbook/marketing/corporate-marketing/brand-activation/brand-guidelines/#brand-standards)
 
 **Approval Process**
 
-If the vendor has met the above criteria, please [submit an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new#vendor-reference-request) in the Corporate Marketing project including the following information for review. Please title the issue `Vendor Reference Request: XYZ Company`. Once the request has been submitted to the corp comms team, please allow for 7-10 days for review and approval of the request. The corp comms team will review all content and relevant info to ensure it follows the SAFE framework and route through the approval process.
+If the vendor has met the above criteria, please [submit an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=vendor-reference-request) in the Corporate Marketing project including the following information for review. Please title the issue `Vendor Reference Request: XYZ Company`. Once the request has been submitted to the corp comms team, please allow for 7-10 days for review and approval of the request. The corp comms team will review all content and relevant info to ensure it follows the SAFE framework and route through the approval process.
 
 - How are you using the vendor/technology?
 - Who is the GitLab DRI for the vendor?
@@ -290,7 +290,8 @@ If the vendor has met the above criteria, please [submit an issue](https://gitla
 
 - [ ] Vendor DRI
 - [ ] Corporate Communications
-- [ ] E-group member for organization using the vendor
+- [ ] Brand
+- [ ] E-group member for organization using the vendor (all reference requests except logo use)
 - [ ] Legal ([Legal Materials Review Process](https://about.gitlab.com/handbook/legal/materials-legal-review-process/))
 
 ### GitLab Press Releases

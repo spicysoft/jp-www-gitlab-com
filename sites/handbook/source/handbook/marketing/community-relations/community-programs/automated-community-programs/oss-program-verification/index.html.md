@@ -48,7 +48,7 @@ If you are accepted into the GitLab for Open Source Program, you will be subject
 
 ## Verifying applicants
 
-Eligibility requirements for the GitLab for Open Source Program are listed in the [program's handbook page](/handbook/marketing/community-relations/opensource-program/). SheerID assists GitLab with reviewing program applications and ensuring applicants meet these program requirements.
+Eligibility requirements for the GitLab for Open Source Program are listed in the [program's handbook page](/handbook/marketing/community-relations/community-programs/opensource-program/). SheerID assists GitLab with reviewing program applications and ensuring applicants meet these program requirements.
 
 SheerID is not able to completely automate the [Verification phase](/handbook/marketing/community-relations/community-programs/automated-community-programs/#verification) of the application workflow for the GitLab for Open Source Program. This means the program manager and team members must verify applications with some amount of manual effort. However, while unable to fully automate the Verification phase, SheerID is able to make the reviewing process easier by doing the following:
 

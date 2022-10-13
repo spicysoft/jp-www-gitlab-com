@@ -16,7 +16,7 @@ departments:
 projects:
   gitlab: reviewer UX
   gitlab-design: maintainer
-  design.gitlab.com: trainee_maintainer Figma
+  design.gitlab.com: maintainer Figma
 specialty: Plan
 expertise:
 story: Dan joins GitLab after 7 years designing award-winning websites and apps for

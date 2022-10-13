@@ -57,21 +57,22 @@ Business functions included in the scope of the ISMS include:
 | Role | Responsibility |
 | --- | --- |
 | ISMS Council | Oversight, implementation and continual improvement of the ISMS |
-| VP, Security | Executive sponsor of the ISMS; coordinate, promote and improve information security; establish information security policy |
+| Chief Legal Officer | Executive sponsor of the ISMS; coordinate, promote and improve information security; establish information security policy |
+| Security Management (Code Owners) | Owner of the ISMS responsible for approving significant changes and exceptions of the ISMS |
 | Security Assurance | Reporting on the performance of the information security management system to top management; security risk assessments and treatment; continuous monitoring and auditing; customer assurance activities; security awareness program; security governance activities |
 | Application Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks |
 | SIRT | Monitor, manage and report on security incidents; monitor compliance with security policies through technical tools; identify security risks; |
 | Infrastructure Security | Manage infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
 | Other ISMS Business units | Implement, operate and/or administer information security requirements; remediate information security findings; collaborate with the Security department |
 | All GitLab Team Members | Awareness of responsibilities as it relates to information security; adherence to information security controlled documents; reporting of suspected security violations |
-| Security Management (Code Owners) | Responsible for approving significant changes and exceptions of the ISMS |
+
 
 ## Implementation Manual Procedure
 
 ### Leadership
 GitLab is committed to information security. The general objective for the ISMS is to protect GitLab's confidential information and assets against new and existing security and privacy risks while maintaining confidentiality, integrity and availability. Objectives for individual security controls are inherited by the in scope security standards and regulations which are: ISO 27001, SOC 2 Type 2 Security and PCI DSS Level 1.
 
-The ISMS council, comprised of Security and Privacy leadership, shall meet on a minimum of an annual basis to discuss the state of the ISMS and measure the fulfillment of all ISMS objectives. The following topics will be covered:
+The ISMS council, comprised of Security and Privacy (Legal) leadership, shall meet on a minimum of an annual basis to discuss the state of the ISMS and measure the fulfillment of all ISMS objectives. The following topics will be covered:
 
 - Review of membership and objectives
 - ISMS Internal Audit Results

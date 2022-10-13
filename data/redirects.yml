@@ -1,3 +1,12 @@
+- sources: /handbook/marketing/community-relations/non-profit-program/
+  target: /handbook/marketing/community-relations/community-programs/non-profit-program/
+  comp_op: '='
+- sources: /handbook/marketing/community-relations/startups-program/
+  target: /handbook/marketing/community-relations/community-programs/startups-program/
+  comp_op: '='
+- sources: /handbook/marketing/community-relations/opensource-program/
+  target: /handbook/marketing/community-relations/community-programs/opensource-program/
+  comp_op: '='
 - sources: /handbook/marketing/community-relations/education-program/
   target: /handbook/marketing/community-relations/community-programs/education-program/
   comp_op: '='
@@ -2466,12 +2475,17 @@
 - sources:
   - /handbook/engineering/development/enablement/ecosystem/
   - /handbook/engineering/development/dev/create/ecosystem/
-  target: /handbook/engineering/development/dev/ecosystem/
+  target: /handbook/engineering/development/dev/manage/
   comp_op: '='
 - sources:
   - /handbook/engineering/development/dev/ecosystem/ecosystem-be/
   - /handbook/engineering/development/dev/create/ecosystem/ecosystem-be/
-  target: /handbook/engineering/development/dev/ecosystem/integrations/
+  - /handbook/engineering/development/dev/ecosystem/integrations/
+  target: /handbook/engineering/development/dev/manage/integrations/
+  comp_op: '='
+- sources:
+    - /handbook/engineering/development/dev/ecosystem/foundations/
+  target: /handbook/engineering/development/dev/manage/foundations/
   comp_op: '='
 - sources:
   - /handbook/sales/field-operations/sales-enablement/
@@ -2962,11 +2976,6 @@
   target: /job-families/finance/general-ledger-accounting/
   comp_op: '='
 - sources:
-    - /direction/telemetry
-    - /direction/telemetry/
-  target: /direction/product-intelligence
-  comp_op: '='
-- sources:
     - /job-families/product/pricing-manager
     - /job-families/product/pricing-manager/
   target: /job-families/product/pricing/
@@ -3223,6 +3232,24 @@
   target: /handbook/engineering/metrics/sec/govern/compliance
   comp_op: '='
 - sources:
+    - /handbook/engineering/metrics/dev/ecosystem
+    - /handbook/engineering/metrics/dev/ecosystem/
+    - /handbook/engineering/metrics/dev/ecosystem/index.html
+  target: /handbook/engineering/metrics/dev/manage
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/dev/ecosystem/foundations
+    - /handbook/engineering/metrics/dev/ecosystem/foundations/
+    - /handbook/engineering/metrics/dev/ecosystem/foundations/index.html
+  target: /handbook/engineering/metrics/dev/manage/foundations
+  comp_op: '='
+- sources:
+    - /handbook/engineering/metrics/dev/ecosystem/integrations
+    - /handbook/engineering/metrics/dev/ecosystem/integrations/
+    - /handbook/engineering/metrics/dev/ecosystem/integrations/index.html
+  target: /handbook/engineering/metrics/dev/manage/integrations
+  comp_op: '='
+- sources:
     - /handbook/engineering/ux/stage-group-ux-strategy/protect
     - /handbook/engineering/ux/stage-group-ux-strategy/protect/
     - /handbook/engineering/ux/stage-group-ux-strategy/protect/index.html
@@ -3409,9 +3436,13 @@
   target: /handbook/marketing/inbound-marketing/content/editorial-team/
   comp_op: '='
 - sources:
+  - /direction/telemetry
+  - /direction/telemetry/
   - /direction/product-analytics
   - /direction/product-analytics/
-  target: /direction/product-intelligence/
+  - /direction/product-intelligence
+  - /direction/product-intelligence/
+  target: /direction/analytics/product-intelligence/
   comp_op: '='
 - sources:
   - /handbook/product/product-analytics-guide
@@ -4252,18 +4283,6 @@
   target: /direction/create/editor/
   comp_op: '='
 - sources:
-    - /direction/create/gitlab_docs
-    - /direction/create/gitlab_docs/
-    - /direction/create/editor/gitlab_docs/
-    - /direction/create/editor/gitlab_docs
-  target: /direction/ecosystem/foundations/gitlab_docs/
-  comp_op: '='
-- sources:
-    - /direction/create/navigation_settings
-    - /direction/create/navigation_settings/
-  target: /direction/ecosystem/foundations/navigation_settings/
-  comp_op: '='
-- sources:
     - /handbook/sales/field-operations/sales-systems/gtm-technical-documentation/gainsight/
   target: /handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html
   comp_op: '='
@@ -4619,8 +4638,6 @@
 - sources:
   - /handbook/mecc
   - /handbook/mecc/
-  - /teamops
-  - /teamops/
   target: /handbook/teamops/
   comp_op: '='
 - sources:
@@ -4635,4 +4652,38 @@
   - /blog/2016/07/29/the-basics-of-gitlab-ci
   - /blog/2016/07/29/the-basics-of-gitlab-ci/
   target: /blog/2020/12/10/basics-of-gitlab-ci-updated/
+  comp_op: '='
+- sources:
+  - /direction/manage/value_stream_management/
+  - /direction/manage/value_stream_management
+  target: /direction/plan/value_stream_management/
+  comp_op: '='
+- sources:
+  - /direction/ecosystem/integrations/
+  - /direction/ecosystem/integrations
+  target: /direction/manage/integrations/
+  comp_op: '='
+- sources:
+  - /direction/ecosystem/foundations/
+  - /direction/ecosystem/foundations
+  target: /direction/manage/foundations/
+  comp_op: '='
+- sources:
+  - /direction/ecosystem/foundations/navigation_settings/
+  - /direction/ecosystem/foundations/navigation_settings
+  target: /direction/manage/foundations/navigation_settings/
+  comp_op: '='
+- sources:
+  - /direction/ecosystem/foundations/design_system/
+  - /direction/ecosystem/foundations/design_system
+  target: /direction/manage/foundations/design_system/
+  comp_op: '='
+- sources:
+  - /direction/ecosystem/foundations/gitlab_docs/
+  - /direction/ecosystem/foundations/gitlab_docs
+  target: /direction/manage/foundations/gitlab_docs/
+  comp_op: '='
+- sources:
+  - /handbook/marketing/corporate-marketing/#requests-for-announcements
+  target: /handbook/marketing/corporate-marketing/corporate-communications/#requests-for-external-announcements
   comp_op: '='

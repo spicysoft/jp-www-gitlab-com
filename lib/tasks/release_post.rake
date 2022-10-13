@@ -29,7 +29,7 @@ namespace :release_post do
     # Participants
     release_post_manager = @current_post.release_post_manager
     release_post_manager_name = @current_post.release_post_manager_name
-    release_post_manager_shadow = @current_post.release_post_manager_shadow
+    rpm_shadow = @current_post.rpm_shadow
     tw_lead = @current_post.tw_lead
     tech_advisor = @current_post.tech_advisor
     pmm_lead = @current_post.pmm_lead
@@ -236,7 +236,7 @@ namespace :release_post do
     template.gsub!('/DD', '/' + day)
     template.gsub!('-DD', '-' + day)
     template.gsub!('@release_post_manager', release_post_manager)
-    template.gsub!('@release_post_manager_shadow', release_post_manager_shadow)
+    template.gsub!('@rpm_shadow', rpm_shadow)
     template.gsub!('@tw_lead', tw_lead)
     template.gsub!('@tech_advisor', tech_advisor)
     template.gsub!('@pmm_lead', pmm_lead)
@@ -325,7 +325,7 @@ namespace :release_post do
     retro_issue_template.gsub!('_MILESTONE_', version)
     retro_issue_template.gsub!('X-Y', version_dash)
     retro_issue_template.gsub!('@release_post_manager', release_post_manager)
-    retro_issue_template.gsub!('@release_post_manager_shadow', release_post_manager_shadow)
+    retro_issue_template.gsub!('@rpm_shadow', rpm_shadow)
     retro_issue_template.gsub!('@tw_lead', tw_lead)
     retro_issue_template.gsub!('@tech_advisor', tech_advisor)
     retro_issue_template.gsub!('@pmm_lead', pmm_lead)

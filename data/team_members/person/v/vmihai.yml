@@ -9,7 +9,9 @@ gitlab: vmihai
 departments:
 - Customer Support
 specialty: ''
-expertise:
+expertise: '<li><a href="/handbook/on-call/">On-call</a> champion!</li>
+
+  '
 story: Vlad is a support enigineer with previous experience in the HoReCa and banking
   sectors. Originaly from Romania, he is now based in Zurich together with his wife
   and son. In his spare time he enjoys spending time with his family, swimming, hiking
