@@ -11,7 +11,7 @@ features:
     - Importers
     epic_url: ['https://gitlab.com/groups/gitlab-org/-/epics/7673', 'https://gitlab.com/groups/gitlab-org/-/epics/7655']
     description: |
-      We continue to improve the GitHub project importer by adding more metadata to the migrated projects. With added [pull request events history](https://gitlab.com/groups/gitlab-org/-/epics/7673) the following pull request events can be imported from GitHub and
+      We continue to improve the GitHub project importer by adding more metadata to the migrated projects. With added [pull request events history](https://gitlab.com/groups/gitlab-org/-/epics/7673), the following pull request events can be imported from GitHub and
       become part of a merge request's metadata:
 
       - Closed or reopened.
