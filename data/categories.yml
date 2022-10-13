@@ -2137,10 +2137,10 @@ privacy_control_center:
   stage: analytics
   direction: https://about.gitlab.com/direction/product-intelligence/
   description:
-  available: 2022-12-01
-  viable: 2023-12-01
-  complete: 2024-06-01
-  lovable: 2024-12-01
+  available: 2023-12-01
+  viable: 2024-12-01
+  complete: 2025-06-01
+  lovable: 2025-12-01
   marketing: false
   maturity: planned
 
