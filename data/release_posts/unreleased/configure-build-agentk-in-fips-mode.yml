@@ -2,7 +2,7 @@
 features:
   secondary:
   - name: "FIPS compliant Kubernetes integration"
-    available_in: [premium, ultimate]
+    available_in: [free, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/clusters/agent/'
     reporter: nagyv-gitlab
