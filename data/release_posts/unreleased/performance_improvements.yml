@@ -12,3 +12,4 @@ tertiary:
 
       - [Convert stylesheets/pages/clusters.scss into page specific bundle](https://gitlab.com/gitlab-org/gitlab/-/issues/239803).
       - [Use the creation timestamp returned by the Container Registry API in cleanup policies](https://gitlab.com/groups/gitlab-org/-/epics/8379).
+      - [Redundant Vulnerabilities::StateTransition records that don&#39;t actually present a state transition.](https://gitlab.com/gitlab-org/gitlab/-/issues/373808)
