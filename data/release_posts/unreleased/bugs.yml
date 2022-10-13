@@ -29,3 +29,4 @@ tertiary:
       - [Github import: incorrect amount of imported issues in import status endpoint](https://gitlab.com/gitlab-org/gitlab/-/issues/353583)
       - [Missing objects for imported Github repo when github api rate limit is reached](https://gitlab.com/gitlab-org/gitlab/-/issues/354848)
       - [Incorrect "environments" API endpoint path in GitLab UI results in "There was an error fetching the environments information"](https://gitlab.com/gitlab-org/gitlab/-/issues/372349)
+      - [Account owner being removed results in a group with no owner](https://gitlab.com/gitlab-org/gitlab/-/issues/367510)
