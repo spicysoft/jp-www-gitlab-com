@@ -3,8 +3,8 @@ name: Vincy Wilson
 placeholder: true
 locality:
 country: Remote
-role: <a href="/job-families/engineering/engineering-management-quality/#senior-manager-quality-engineering">Interim Senior Manager, Quality Engineering</a>, Enablement, Fulfillment, Growth, Sec and ModelOps
-reports_to: tanyapazitny
+role: <a href="/job-families/engineering/engineering-management-quality/#senior-manager-quality-engineering">Interim Senior Manager, Quality Engineering</a>, Enablement, Fulfillment, Growth, Sec and Data Science
+reports_to: mek
 picture: vincywilson.jpg
 twitter:
 gitlab: vincywilson
@@ -36,4 +36,3 @@ specialty:
 - " Growth"
 - " Fulfillment"
 - " Enablement"
-

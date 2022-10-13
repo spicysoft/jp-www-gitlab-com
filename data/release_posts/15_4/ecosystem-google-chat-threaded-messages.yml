@@ -6,7 +6,7 @@ features:
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/hangouts_chat.html#enable-threads-in-google-chat'
     image_url: '/images/15_4/Ecosystem-Integrations-Test-Space-2-Chat.png'
     reporter: g.hickman
-    stage: ecosystem
+    stage: manage
     categories:
     - Integrations
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/27823'

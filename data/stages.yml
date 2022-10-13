@@ -34,13 +34,15 @@ stages:
       - "secure"
       - "govern"
     section: dev
-    pm: Sarah Waldner (Acting)
+    pm: Orit Golowinski
+    em:
+      - Michelle Gill
     groups:
       authentication_and_authorization:
-        name: Authentication & Authorization
+        name: Authentication and Authorization
         pm: Hannah Sutor
-        focus: Manage Authentication & Authorization Paid GMAU
-        pmm: Cindy Blake
+        focus: Manage Authentication and Authorization Paid GMAU
+        pmm: Aathira Nair
         cm: Suri Patel
         backend_engineering_manager: Adil Farrukh
         frontend_engineering_manager: Adil Farrukh
@@ -51,14 +53,14 @@ stages:
         sets:
           - Sanad Liaquat
         pdm:
-          - Blair Christopher
+          - Chris Micek
         ux:
           - Daniel Mora
         uxr:
           - Anne Lasch
         tech_writer: Evan Read
         appsec_engineer: Rohit Shambhuni
-        cs_team_tag: Authentication & Authorization Group CS Stable Counterpart
+        cs_team_tag: Authentication and Authorization Group CS Stable Counterpart
         internal_customers:
           - department: Customer Support Department
             dri: TBD
@@ -81,7 +83,7 @@ stages:
         name: Workspace
         pm: Christina Lohr
         focus: Manage Workspace Paid GMAU
-        pmm: Cindy Blake
+        pmm: Aathira Nair
         cm: Suri Patel
         backend_engineering_manager: Małgorzata Ksionek
         frontend_engineering_manager: Małgorzata Ksionek
@@ -92,7 +94,7 @@ stages:
         sets:
           - Valerie Burton
         pdm:
-          - Blair Christopher
+          - Chris Micek
         ux:
           - Mike Nichols
         uxr:
@@ -121,14 +123,14 @@ stages:
         name: Import
         pm: Magdalena Frankiewicz (Acting)
         focus: Manage Import GMAU
-        pmm: Cormac Foster
+        pmm: Aathira Nair
         cm: Suri Patel
         em: Martin Wortschack
         be_team_tag: Manage:Import BE Team
         fe_team_tag: Manage:Import FE Team
         support: Cynthia Ng
         pdm:
-          - Blair Christopher
+          - Chris Micek
         ux:
           - TBD
         uxr:
@@ -153,45 +155,92 @@ stages:
         pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039162
         pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=11173918
 
-      optimize:
-        name: Optimize
-        pm: Haim Snir
-        focus: Manage Optimize GMAU
-        pmm: Cormac Foster
-        cm: Suri Patel
-        em: Brandon Labuschagne (Interim)
-        be_team_tag: Manage:Optimize BE Team
-        fe_team_tag: Manage:Optimize FE Team
+      integrations:
+        name: Integrations
+        pm: Grant Hickman
+        focus: Ecosystem Integrations GMAU
+        pmm: Saumya Upadhyaya
+        backend_engineering_manager: Arturo Herrero
+        frontend_engineering_manager: Arturo Herrero
+        be_team_tag: Manage:Integrations BE Team
+        fe_team_tag: Manage:Integrations FE Team
         support: TBD
         pdm:
-          - Blair Christopher
+          - Taurie Davis
         ux:
-          - TBD
+          - Libor Vanc
         uxr:
-          - Anne Lasch
-        tech_writer: Fiona Neill
+          - Ashley Knobloch
+        tech_writer: Ashraf Khamis
+        appsec_engineer: Dominic Couture
+        slack:
+          channel: g_manage_integrations
+        gitlab_group: gitlab-org/manage
+        qm: Ramya Authappan
         sets:
-          - TBD
-        appsec_engineer: Nick Malcolm
-        cs_team_tag: Analytics Group CS Stable Counterpart
+          - Sean Gregory
+        cs_team_tag: Integrations Group CS Stable Counterpart
         internal_customers:
-          - department: Engineering Department
+          - department: Alliances Department
             dri: TBD
-          - department: Product Department
+          - department: Customer Success
             dri: TBD
           - department: Quality Department
             dri: TBD
-          - department: Development Department
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
             dri: TBD
         categories:
-          - devops_reports
-          - value_stream_management
-        usage_driver_score: 2
-        asp_driver_score: 2
-        sam_driver_score: 3
-        group_link: product/categories/#value-stream-management-group
-        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039390
-        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039413
+          - integrations
+        group_link: product/categories/#integrations-group
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 1
+
+      foundations:
+        name: Foundations
+        pm: Christen Dybenko
+        focus: Driving Pajamas adoption
+        frontend_engineering_manager: Lukas Eipert
+        fe_team_tag: Manage:Foundations FE Team
+        support: TBD
+        pdm:
+          - Taurie Davis
+        ux:
+          - Jeremy Elder
+          - Austin Regnery
+          - Sascha Eggenberger
+        uxr:
+          - Ashley Knobloch
+        tech_writer: Russell Dickenson
+        appsec_engineer: Dominic Couture
+        slack:
+          channel: g_manage_foundations
+        gitlab_group: gitlab-org/manage
+        qm: Ramya Authappan
+        sets:
+          - TBD
+        cs_team_tag: Foundations Group CS Stable Counterpart
+        internal_customers:
+          - department: Alliances Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - design_system
+          - navigation
+          - gitlab_docs
+        group_link: product/categories/#foundations-group
+        usage_driver_score: 5
+        asp_driver_score: 4
+        sam_driver_score: 1
 
   plan:
     display_name: "Plan"
@@ -219,12 +268,14 @@ stages:
       - "create"
     section: dev
     pm: Melissa Ushakov
+    em:
+      - John Hope
     groups:
       project_management:
         name: Project Management
         pm: Gabe Weaver
         focus: Plan Project Management Paid GMAU
-        pmm: 
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Donald Cook
         frontend_engineering_manager: Donald Cook
@@ -264,7 +315,7 @@ stages:
         name: Product Planning
         pm: Amanda Rueda
         focus: Plan Product Planning Paid GMAU
-        pmm: 
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Kushal Pandya
         frontend_engineering_manager: Kushal Pandya
@@ -304,7 +355,7 @@ stages:
         name: Certify
         pm: Matthew Macfarlane
         focus: Plan Certify Paid GMAU
-        pmm: 
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Jarka Košanová
         frontend_engineering_manager: Jarka Košanová
@@ -344,6 +395,46 @@ stages:
         analyst_reports: https://drive.google.com/drive/u/1/search?ths=true&q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20requirements%20jmanagement
         comp_comparison: https://about.gitlab.com/devops-tools/microfocus-alm-octane-vs-gitlab/
 
+      optimize:
+        name: Optimize
+        pm: Haim Snir
+        focus: Plan Optimize GMAU
+        pmm: Aathira Nair
+        cm: Suri Patel
+        em: Brandon Labuschagne (Interim)
+        be_team_tag: Plan:Optimize BE Team
+        fe_team_tag: Plan:Optimize FE Team
+        support: TBD
+        pdm:
+          - Blair Christopher
+        ux:
+          - TBD
+        uxr:
+          - Anne Lasch
+        tech_writer: Lorena Ciutacu
+        sets:
+          - TBD
+        appsec_engineer: Nick Malcolm
+        cs_team_tag: Analytics Group CS Stable Counterpart
+        internal_customers:
+          - department: Engineering Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Quality Department
+            dri: TBD
+          - department: Development Department
+            dri: TBD
+        categories:
+          - devops_reports
+          - value_stream_management
+        usage_driver_score: 2
+        asp_driver_score: 2
+        sam_driver_score: 3
+        group_link: product/categories/#value-stream-management-group
+        pi_gmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039390
+        pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/?widget=10039413
+
   create:
     display_name: "Create"
     marketing: true
@@ -372,12 +463,14 @@ stages:
       - "verify"
     section: dev
     pm: Sarah Waldner
+    em:
+      - Darva Satcher
     groups:
       source_code:
         name: Source Code
         pm: Torsten Linz
         focus: Create Source Code GMAU
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Sean Carroll
         frontend_engineering_manager: André Luís
@@ -419,7 +512,7 @@ stages:
         name: Code Review
         pm: Kai Armstrong
         focus: Create Code Review GMAU
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: Matt Nohr
         frontend_engineering_manager: André Luís
@@ -461,7 +554,7 @@ stages:
         name: Editor
         pm: Eric Schurter
         focus: Create Editor GMAU
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         cm: Suri Patel
         backend_engineering_manager: David O'Regan
         frontend_engineering_manager: David O'Regan
@@ -477,7 +570,7 @@ stages:
           - TBD
         uxr:
           - Ben Leduc-Mills
-        tech_writer: Amy Qualls
+        tech_writer: Ashraf Khamis
         appsec_engineer: TBD
         cs_team_tag: Editor Group CS Stable Counterpart
         internal_customers:
@@ -505,107 +598,6 @@ stages:
         pi_pgmau: https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9980340
         analyst_reports: https://drive.google.com/drive/search?q=parent:0B4LeL42bnImlbmZwcmhrTEthdkE%20editor
 
-  ecosystem:
-    display_name: "Ecosystem"
-    marketing: false
-    tw: true
-    image: "/images/solutions/solutions-create.png"
-    description: "Supports the ecosystem with 3rd party integrations, APIs, and contributor tools such as GDK and Pajamas."
-    established: 2018
-    lifecycle: 0
-    usage_driver_score: 5
-    asp_driver_score: 4
-    sam_driver_score: 5
-    handbook: engineering/development/dev/ecosystem/
-    direction: /direction/ecosystem
-    section: dev
-    pm: Melissa Ushakov
-    groups:
-      integrations:
-        name: Integrations
-        pm: Grant Hickman
-        focus: Ecosystem Integrations GMAU
-        pmm: Cormac Foster
-        backend_engineering_manager: Arturo Herrero
-        frontend_engineering_manager: Arturo Herrero
-        be_team_tag: Ecosystem:Integrations BE Team
-        fe_team_tag: Ecosystem:Integrations FE Team
-        support: TBD
-        pdm:
-          - Taurie Davis
-        ux:
-          - Libor Vanc
-        uxr:
-          - TBD
-        tech_writer: Ashraf Khamis
-        appsec_engineer: Dominic Couture
-        slack:
-          channel: g_ecosystem_integrations
-        gitlab_group: gitlab-org/ecosystem-team
-        qm: Ramya Authappan
-        sets:
-          - Sean Gregory
-        cs_team_tag: Ecosystem Group CS Stable Counterpart
-        internal_customers:
-          - department: Alliances Department
-            dri: TBD
-          - department: Customer Success
-            dri: TBD
-          - department: Quality Department
-            dri: TBD
-          - department: Infrastructure Department
-            dri: TBD
-          - department: Engineering Department
-            dri: TBD
-        categories:
-          - integrations
-        group_link: product/categories/#integrations-group
-        usage_driver_score: 5
-        asp_driver_score: 4
-        sam_driver_score: 1
-      foundations:
-        name: Foundations
-        pm: Christen Dybenko
-        focus: Driving Pajamas adoption
-        frontend_engineering_manager: Lukas Eipert
-        fe_team_tag: Ecosystem:Foundations FE Team
-        support: TBD
-        pdm:
-          - Taurie Davis
-        ux:
-          - Jeremy Elder
-          - Austin Regnery
-          - Sascha Eggenberger
-        uxr:
-          - TBD
-        tech_writer: Russell Dickenson
-        appsec_engineer: Dominic Couture
-        slack:
-          channel: g_ecosystem_foundations
-        gitlab_group: gitlab-org/ecosystem-team
-        qm: Ramya Authappan
-        sets:
-          - TBD
-        cs_team_tag: Ecosystem Group CS Stable Counterpart
-        internal_customers:
-          - department: Alliances Department
-            dri: TBD
-          - department: Customer Success
-            dri: TBD
-          - department: Quality Department
-            dri: TBD
-          - department: Infrastructure Department
-            dri: TBD
-          - department: Engineering Department
-            dri: TBD
-        categories:
-          - design_system
-          - navigation
-          - gitlab_docs
-        group_link: product/categories/#foundations-group
-        usage_driver_score: 5
-        asp_driver_score: 4
-        sam_driver_score: 1
   verify:
     display_name: "Verify"
     marketing: true
@@ -626,6 +618,8 @@ stages:
       - "create"
     section: ops
     pm: Jackie Porter
+    em:
+      - Cheryl Li
     groups:
       pipeline_execution:
         name: "Pipeline Execution"
@@ -633,7 +627,7 @@ stages:
           - James Heimbuck
         focus: Verify & Runner SMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Caroline Simpson
         frontend_engineering_manager: Sam Beckham
         be_team_tag: Verify:Pipeline Execution BE Team
@@ -682,7 +676,7 @@ stages:
           - Dov Hershkovitch
         focus: Verify & Runner SMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Mark Nuzzo
         frontend_engineering_manager: Sam Beckham
         be_team_tag: Verify:Pipeline Authoring BE Team
@@ -729,7 +723,7 @@ stages:
         pm: "Darren Eastman"
         focus: Verify & Runner SMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Elliot Rushton
         frontend_engineering_manager: Sam Beckham
         be_team_tag: Runner BE Team
@@ -773,7 +767,7 @@ stages:
         pm: "Jocelyn Eillis"
         focus: Verify Pipeline Insights Sum of AMAUs
         cm:
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Scott Hampton
         frontend_engineering_manager: Scott Hampton
         be_team_tag: Verify:Pipeline Insights BE Team
@@ -791,7 +785,7 @@ stages:
         cs_team_tag: Pipeline Insights Group CS Stable Counterpart
         internal_customers:
           - department: Quality Department
-            dri: Kyle Wiebers
+            dri: Joanna Shih
           - department: UX Department
             dri: TBD
           - department: Infrastructure Department
@@ -829,6 +823,8 @@ stages:
     stage_development_spend_percent: 3.5
     analyst_reports:
     pm: Viktor Nagy
+    em:
+      - Sam Goldstein
     section: ops
     slack:
       channel: s_package
@@ -839,7 +835,7 @@ stages:
         pm: Tim Rizzi
         focus: Package GMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Heather Simpson
         backend_engineering_manager: Michelle Torres
         frontend_engineering_manager: Michelle Torres
         be_team_tag: Package BE Team
@@ -876,7 +872,7 @@ stages:
         slack:
           channel: s_package
           alias: package-group
-        gitlab_group: "gitlab-org/package"
+        gitlab_group: "gitlab-org/ci-cd/package-stage"
         handbook: engineering/development/ops/package/
         google_group: "package-stage@gitlab.com"
 
@@ -910,12 +906,14 @@ stages:
     gitlab_group: gitlab-org/secure
     handbook: engineering/development/sec/secure/
     cta: includes/ctas/security-whitepaper
+    em:
+      - Thomas Woodham
     groups:
       static_analysis:
         name: Static Analysis
         pm: Connor Gilbert
         focus: Static Analysis Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         backend_engineering_manager: Amar Patel
         be_team_tag: Secure:Static Analysis BE Team
         fe_team_tag: Secure:Static Analysis FE Team
@@ -954,7 +952,7 @@ stages:
         name: Dynamic Analysis
         pm: Derek Ferguson
         focus: Dynamic Analysis Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         backend_engineering_manager: Seth Berger
         be_team_tag: Secure:Dynamic Analysis BE Team
         fe_team_tag:
@@ -992,7 +990,7 @@ stages:
         name: Composition Analysis
         pm: Sam White
         focus: Composition Analysis Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         backend_engineering_manager: Olivier Gonzalez
         be_team_tag: Secure:Composition Analysis BE Team
         fe_team_tag: Secure:Composition Analysis FE Team
@@ -1035,7 +1033,7 @@ stages:
         name: Vulnerability Research
         pm: Hillary Benson
         focus: Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         backend_engineering_manager: Mark Art
         be_team_tag: Secure:Vulnerability Research BE Team
         support: TBD
@@ -1115,6 +1113,8 @@ stages:
     slack:
       channel: s_release
     pm: Viktor Nagy
+    em:
+      - Sam Goldstein
     handbook: product/categories/#release-stage
     groups:
       release:
@@ -1123,7 +1123,7 @@ stages:
         pm: Chris Balane
         focus: Release SMAU
         cm: Chrissie Buchanan
-        pmm: Saumya Upadhyaya
+        pmm: Aathira Nair
         backend_engineering_manager: Nicole Williams
         be_team_tag: Release BE Team
         fe_team_tag: Release FE Team
@@ -1181,11 +1181,13 @@ stages:
     related:
       - "release"
     pm: Viktor Nagy
-    pmm: Saumya Upadhyaya
+    pmm: Aathira Nair
     pdm:
       - Justin Mandell
     spd:
       - Andy Volpe
+    em:
+      - Sam Goldstein
     section: ops
     slack:
       channel: s_configure
@@ -1202,7 +1204,7 @@ stages:
         name: "Configure"
         pm: Viktor Nagy
         focus: Configure GMAU
-        pmm: Saumya Upadhyaya
+        pmm: Aathira Nair
         cm: Chrissie Buchanan
         backend_engineering_manager: Nicolò Maria Mezzopera
         be_team_tag: Configure BE Team
@@ -1268,13 +1270,15 @@ stages:
     gitlab_group: gitlab-org/monitor
     handbook: engineering/development/ops/monitor/
     pm: Kevin Chu
-    pmm: Cormac Foster
+    pmm: Aathira Nair
+    em:
+      - Daniel Croft
     groups:
       respond:
         name: "Respond"
         pm: Alana Bellucci
         focus: Respond GMAU
-        pmm: Cormac Foster
+        pmm: Aathira Nair
         cm: Chrissie Buchanan
         backend_engineering_manager: Crystal Poole
         frontend_engineering_manager: Crystal Poole
@@ -1319,7 +1323,7 @@ stages:
         pm: Seb Pahl
         direction: /direction/monitor/observability
         focus: Acquisition Integration
-        pmm: Cormac Foster
+        pmm: Aathira Nair
         cm:
         em: Nicholas Klick
         be_team_tag: Monitor:Observability
@@ -1363,7 +1367,7 @@ stages:
       GitLab helps users manage security vulnerabilities, policies, and compliance across their organization.
     direction: /direction/govern/
     roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name%5B%5D=devops%3Agovern&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
-    established: 2022
+    established: 2017 # Although Govern was established in 2022, the earliest category of Audit Events has been around much longer than that.  This has been changed to say 2017 to keep this page from being misleading: https://about.gitlab.com/direction/maturity/
     lifecycle: 1
     usage_driver_score: 1
     revenue_driver_score: 1
@@ -1386,7 +1390,7 @@ stages:
         name: Security Policies
         pm: Sam White
         focus: Security Policies Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         fullstack_managers:
           - Thiago Figueiró
           - Neil McCorrison
@@ -1421,7 +1425,7 @@ stages:
           channel: g_govern_threat_insights
         pm: Matt Wilson
         focus: Threat Insights Paid GMAU
-        pmm: Cindy Blake
+        pmm: Brian Mason
         fullstack_managers:
           - Thiago Figueiró
           - Neil McCorrison
@@ -1452,16 +1456,16 @@ stages:
 
       compliance:
         name: Compliance
-        pm: Sam Kerr
+        pm: Derek Ferguson
         focus: Govern Compliance Paid GMAU
-        pmm: TBD
+        pmm: Brian Mason
         cm: Suri Patel
         em: Nathan Rosandich
         be_team_tag: Govern:Compliance BE Team
         fe_team_tag: Govern:Compliance FE Team
         support: TBD
         pdm:
-          - Blair Christopher
+          - Justin Mandell
         ux:
           - TBD
         uxr:
@@ -1495,6 +1499,8 @@ stages:
     marketing: false
     tw: true
     pm: Sam Kerr
+    em:
+      - Tim Zallmann
     established: 2022
     related:
       - "monitor"
@@ -1509,7 +1515,7 @@ stages:
         direction: /direction/product-intelligence/
         handbook: engineering/development/analytics/product-intelligence
         pm: Amanda Rueda
-        pmm: TBD
+        pmm: Saumya Upadhyaya
         cm: Suri Patel
         backend_engineering_manager: Dennis Tang
         support: TBD
@@ -1543,7 +1549,7 @@ stages:
         direction: /direction/product-analytics/
         handbook: engineering/development/analytics
         pm: Sam Kerr (Interim)
-        pmm: TBD
+        pmm: Saumya Upadhyaya
         cm: Suri Patel
         backend_engineering_manager: Dennis Tang
         support: TBD
@@ -1578,11 +1584,13 @@ stages:
     marketing: false
     pm: Omar Fernandez
     pmm: Saumya Upadhyaya
+    em:
+      - Jerome Ng
     tw: true
     groups:
       purchase:
         name: Purchase
-        description: "Responsible for all purchase experiences. Trials, purchase flows, and account management (invoices, contact, billing info) - Systems and Integrations include CustomersDot, Zuora, Stripe, GitLab."
+        description: "Focused on first-order purchase experiences, including SM Web-Direct First Order, SaaS Web-Direct First Order, Purchase CI Minutes, Purchase Storage, and Community Programs - sign up."
         slack:
           channel: g_purchase
         pm: Tatyana Golubeva
@@ -1639,7 +1647,8 @@ stages:
           - Dan Davison
         cs_team_tag: Fulfillment section CS Stable Counterpart
         categories:
-          - provision
+          - sm_provisioning
+          - saas_provisioning
         internal_customers:
           - department: Sales Department
             dri: TBD
@@ -1674,7 +1683,8 @@ stages:
           - Edgars Brālītis
         cs_team_tag: Fulfillment section CS Stable Counterpart
         categories:
-          - utilization
+          - subscription_usage_reports
+          - subscription_cost_management
         internal_customers:
           - department: Sales Department
             dri: TBD
@@ -1709,7 +1719,9 @@ stages:
           - TBD
         cs_team_tag: TBD
         categories:
-          - fulfillment_platform
+          - fulfillment_infrastructure
+          - fulfillment_developer_productivity
+          - customersdot_application
         internal_customers:
           - department: Sales Department
             dri: TBD
@@ -1744,7 +1756,8 @@ stages:
           - TBD
         cs_team_tag: TBD
         categories:
-          - billing_and_subscription_management
+          - billing_and_payments
+          - subscription_management
         internal_customers:
           - department: Sales Department
             dri: TBD
@@ -1789,6 +1802,41 @@ stages:
             dri: TBD
           - department: Customer Success
             dri: TBD
+      fulfillment_admin_tooling:
+        name: Fulfillment Admin Tooling
+        description: ""
+        pm: Donique Smit
+        pmm: Saumya Upadhyaya
+        slack:
+          channel: TBD
+        cm: TBD
+        backend_engineering_manager: TBD
+        frontend_engineering_manager: TBD
+        support: TBD
+        be_team_tag: TBD
+        fe_team_tag: TBD
+        appsec_engineer: TBD
+        pdm:
+          - Jacki Bauer
+        tech_writer: Fiona Neill
+        ux:
+          - TBD
+        uxr:
+          - TBD
+        sets:
+          - TBD
+        cs_team_tag: TBD
+        categories:
+          - fulfillment_admin_tooling
+        internal_customers:
+          - department: Sales Department
+            dri: TBD
+          - department: Marketing Department
+            dri: TBD
+          - department: Product Department
+            dri: TBD
+          - department: Customer Success
+            dri: TBD
 
   growth:
     display_name: Growth
@@ -1800,6 +1848,8 @@ stages:
     handbook: engineering/development/growth/
     marketing: false
     tw: true
+    em:
+      - Phil Calder
     related:
       - manage
       - plan
@@ -1900,6 +1950,8 @@ stages:
     usage_driver_score: 5
     revenue_driver_score: 4
     sam_driver_score: 5
+    em:
+      - Chun Du
     groups:
       distribution_build:
         name: Distribution:Build
@@ -1941,7 +1993,7 @@ stages:
         group_link: product/categories/#distribution-group
         internal_customers:
           - department: Quality Department
-            dri: Kyle Wiebers
+            dri: Jennifer Li
           - department: Infrastructure Department
             dri: TBD
           - department: Customer Success
@@ -1992,7 +2044,7 @@ stages:
         group_link: product/categories/#distribution-group
         internal_customers:
           - department: Quality Department
-            dri: Kyle Wiebers
+            dri: Jennifer Li
           - department: Infrastructure Department
             dri: TBD
           - department: Customer Success
@@ -2004,20 +2056,21 @@ stages:
         # asp_driver_score: 4
         # sam_driver_score:
 
-      gitaly:
-        name: Gitaly
+      gitaly_cluster:
+        name: Gitaly:Cluster
         pm: Mark Wood
         focus: Gitaly GMAU
         pmm: Saumya Upadhyaya
         image: "/images/solutions/solutions-gitaly.png"
         description: |
+          Scalable, resilient Git storage layer accessible via RPC.
+        body: |
           Gitaly provides a performant and durable Git storage layer for all
           repositories at GitLab.
-        body: |
-          GitLab makes Gitaly
         direction: "https://gitlab.com/groups/gitlab-org/-/epics/710"
+        roadmap: "https://gitlab.com/groups/gitlab-org/-/epics/7608"
         backend_engineering_manager: Andras Horvath
-        be_team_tag: Gitaly BE Team
+        be_team_tag: Gitaly Cluster Team
         fe_team_tag:
         support: Gerardo Gutierrez
         appsec_engineer: Costel Maxim
@@ -2037,6 +2090,41 @@ stages:
         asp_driver_score: 4
         sam_driver_score: 1
         group_link: product/categories/#gitaly-group
+        label: "group::gitaly"  # the team still uses a single group label
+
+      gitaly_git:
+        name: Gitaly:Git
+        pm: Mark Wood
+        focus: Gitaly GMAU
+        pmm: Saumya Upadhyaya
+        image: "/images/solutions/solutions-gitaly.png"
+        description: |
+          Open-source Git development and integration.
+        body: |
+          Git team develops features and improvements in the Git
+          open source project aligned with the needs of GitLab, as well as
+          integrating Git features into Gitaly.
+        direction: "https://gitlab.com/groups/gitlab-org/-/epics/710"
+        roadmap: "https://gitlab.com/groups/gitlab-org/-/epics/8016"
+        backend_engineering_manager: John Cai
+        be_team_tag: Gitaly Git Team
+        fe_team_tag:
+        support: Gerardo Gutierrez
+        appsec_engineer: Costel Maxim
+        tech_writer: Evan Read
+        sets:
+          - John McDonnell
+        cs_team_tag: Gitaly Group CS Stable Counterpart
+        infra_reliability_team_tag: Gitaly Group Reliability Stable Counterpart
+        internal_customers:
+          - department: Quality Department
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - gitaly
+        group_link: product/categories/#gitaly-group
+        label: "group::gitaly"  # the team still uses a single group label
 
       geo:
         name: "Geo"
@@ -2048,7 +2136,7 @@ stages:
         direction: /direction/geo/
         roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Adistribution&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
         pm: Sampath Ranasinghe
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Juan Silva
         frontend_engineering_manager: Juan Silva
         be_team_tag: Geo BE Team
@@ -2104,13 +2192,15 @@ stages:
     usage_driver_score: 5
     revenue_driver_score: 4
     sam_driver_score: 5
+    em:
+      - Nick Nguyen
     groups:
       application_performance:
         name: "Application Performance"
         description: "Responsible for improving availability, reliability, and performance of the GitLab application"
         focus: Memory PPI
         pm: Gabe Weaver (Acting)
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Changzheng Liu
         be_team_tag: Application Performance BE Team
         fe_team_tag:
@@ -2120,7 +2210,7 @@ stages:
           - Marcel van Remmerden
         uxr:
           - Will Leidheiser
-        tech_writer: Suzanne Selhorn
+        tech_writer: Jonathan Glassman
         slack:
           channel: g_application_performance
         gitlab_group: gitlab-org/memory-team
@@ -2151,7 +2241,7 @@ stages:
         roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Asearch&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
         pm: John McGuire
         focus: Paid GMAU
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Changzheng Liu
         frontend_engineering_manager: Changzheng Liu (Interim)
         be_team_tag: Global Search BE Team
@@ -2192,7 +2282,7 @@ stages:
         description: "Developing solutions for scalability, application performance, data growth and developer enablement especially where it concerns interactions with the database."
         focus: Database PPI
         pm: Gabe Weaver (Acting)
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Alex Ives
         be_team_tag: Database BE Team
         fe_team_tag:
@@ -2227,7 +2317,7 @@ stages:
         description: "Scale the GitLab database for 10 million daily-active users (DAU)"
         focus: Database PPI
         pm: Fabian Zimmer
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         backend_engineering_manager: Barry Firman
         be_team_tag: Pods BE Team
         fe_team_tag:
@@ -2237,7 +2327,7 @@ stages:
           - Marcel van Remmerden
         uxr:
           - Will Leidheiser
-        tech_writer: Suzanne Selhorn
+        tech_writer: Jonathan Glassman
         slack:
           channel: g_pods
         gitlab_group: TBD
@@ -2283,7 +2373,7 @@ stages:
         description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
         direction: /handbook/engineering/infrastructure/team/delivery/
         pm: Andrew Thomas (Life Support)
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         uxr:
           - Will Leidheiser
         appsec_engineer: TBD
@@ -2300,7 +2390,7 @@ stages:
         description: "The Scalability team is responsible for GitLab and GitLab.com at scale, working on the highest priority scaling items related to the application and GitLab.com."
         direction: /handbook/engineering/infrastructure/team/scalability/
         pm: Andrew Thomas (Life Support)
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         appsec_engineer: Rohit Shambhuni
         tech_writer: "#docs Slack channel"
         slack:
@@ -2320,7 +2410,7 @@ stages:
           Single-tenant SaaS service currently in Limited Availability
         direction: /direction/horse/
         pm: Andrew Thomas
-        pmm: Cormac Foster
+        pmm: Saumya Upadhyaya
         uxr:
           - Will Leidheiser
         backend_engineering_manager: TBH
@@ -2352,7 +2442,7 @@ stages:
           SaaS services for the US public sector
         direction: https://internal-handbook.gitlab.io/handbook/engineering/fedramp-compliance/
         pm: Connor Gilbert
-        pmm: TBD
+        pmm: Jennifer Bianchini
         uxr:
           - TBD
         backend_engineering_manager: Stephen Dumesnil
@@ -2376,6 +2466,8 @@ stages:
     direction: /direction/modelops/
     gitlab_group:
     pm: Taylor McCaslin
+    em:
+      - Wayne Haber
     pdm:
         - Taurie Davis
     handbook: /handbook/engineering/development/modelops/

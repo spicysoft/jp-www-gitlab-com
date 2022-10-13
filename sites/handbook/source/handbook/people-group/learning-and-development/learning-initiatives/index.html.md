@@ -22,7 +22,7 @@ We record our [past initiatives](/handbook/people-group/learning-and-development
 
 ### Live Learning
 
-Live Learning sessions will be conducted on a monthly basis. There will be a Zoom video conference set up for each session. Official dates and topics will be added to the schedule below as confirmed. If you were unable to attend a live learning session but still want to learn, check out our past live learning sessions below. At GitLab we [give agency](/handbook/values/#give-agency), but if you are attending Live Learning sessions, you will be asked to be engaged and participate with your full attention.
+Live Learning sessions are conducted on an ad hoc. There will be a Zoom video conference set up for each session. Official dates and topics will be added to the schedule below as confirmed. If you were unable to attend a live learning session but still want to learn, check out our past live learning sessions below. At GitLab we [give agency](/handbook/values/#give-agency), but if you are attending Live Learning sessions, you will be asked to be engaged and participate with your full attention.
 
 <details>
   <summary markdown='span'>
@@ -100,7 +100,7 @@ Example of a Social Learning Live Learning Session on [Building High Performing 
   <iframe src="https://www.youtube.com/embed/aezVF1nOBWc" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Social Learning can also occur in GitLab's Learning Experience Platform - [Level Up](https://levelup.gitlab.com/learn/dashboard) and asynchronous forums using GitLab. (i.e. [Manager Challenge](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/26))
+Social Learning can also occur in GitLab's Learning Experience Platform - [Level Up](https://levelup.gitlab.com/learn/dashboard) and asynchronous forums using GitLab. (i.e. [Elevate](https://about.gitlab.com/handbook/people-group/learning-and-development/elevate/))
 
 
 ## Learning & Development Quarterly Newsletter

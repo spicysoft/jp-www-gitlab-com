@@ -2,7 +2,7 @@
 name: Dan Mizzi-Harris
 locality:
 country: Remote
-role: <a href="/job-families/engineering/product-designer/">Product Designer</a>, Plan:Certify
+role: <a href="/job-families/product/product-designer/">Product Designer</a>, Plan:Certify
 reports_to: badnewsblair
 picture: danmizziharris.jpg
 pronouns: he/his
@@ -16,7 +16,7 @@ departments:
 projects:
   gitlab: reviewer UX
   gitlab-design: maintainer
-  design.gitlab.com: trainee_maintainer Figma
+  design.gitlab.com: maintainer Figma
 specialty: Plan
 expertise:
 story: Dan joins GitLab after 7 years designing award-winning websites and apps for

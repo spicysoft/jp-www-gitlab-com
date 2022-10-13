@@ -7,7 +7,7 @@ features:
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/shimo.html'
     image_url: '/images/15_4/shimo_wiki.png'
     reporter: g.hickman
-    stage: ecosystem
+    stage: manage
     categories:
     - Integrations
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/343386'

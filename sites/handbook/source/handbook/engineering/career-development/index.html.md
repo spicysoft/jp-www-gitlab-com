@@ -257,6 +257,7 @@ For more details on logistics of ending an interim or acting period please refer
     qual:jset(Intern Software Engineer in Test)-->qual:iset(Intermediate Software Engineer in Test);
     qual:iset(Intermediate Software Engineer in Test)-->qual:sset(Senior Software Engineer in Test);
     qual:ibeep(Intermediate Backend Engineer, Engineering Productivity)-->qual:sbeep(Senior Backend Engineer, Engineering Productivity);
+    qual:ifsecs(Intermediate Fullstack Engineer, Contributor Success)-->qual:sfsecs(Senior Fullstack Engineer, Contributor Success);
   end
 
   subgraph Based on Merit &amp; Company Need
@@ -265,6 +266,8 @@ For more details on logistics of ending an interim or acting period please refer
 
     qual:sbeep(Senior Backend Engineer, Engineering Productivity)-->qual:stbeep(Staff Backend Engineer, Engineering Productivity);
     qual:sbeep(Senior Backend Engineer, Engineering Productivity)-->qual:bemep(Backend Engineering Manager, Engineering Productivity);
+
+    qual:sfsecs(Senior Fullstack Engineer, Contributor Success)-->qual:stfsecs(Staff Fullstack Engineer, Contributor Success)
 
     qual:bemep(Backend Engineering Manager, Engineering Productivity)-->qual:dqe(Director of Quality Engineering);
     qual:qem(Quality Engineering Manager)-->qual:dqe(Director of Quality Engineering);
@@ -346,30 +349,30 @@ subgraph Based on Merit &amp; Company Need
   eng:stwm(Senior Technical Writing Manager)-->eng:dtw(Director of Technical Writing);
 end
 
-  click eng:pd "/job-families/engineering/product-designer/";
-  click eng:spd "/job-families/engineering/product-designer/";
-  click eng:stpd "/job-families/engineering/product-designer/";
-  click eng:ppd "/job-families/engineering/product-designer/";
-  click eng:pdm "/job-families/engineering/product-design-management/";
-  click eng:spdm "/job-families/engineering/product-design-management/";
-  click eng:dpd "/job-families/engineering/product-design-management/";
-  click eng:uxrc "/job-families/engineering/ux-research-operations-coordinator/";
-  click eng:suxrc "/job-families/engineering/ux-research-operations-coordinator/";
-  click eng:uxr "/job-families/engineering/ux-researcher/";
-  click eng:suxr "/job-families/engineering/ux-researcher/";
-  click eng:stuxr "/job-families/engineering/ux-researcher/";
-  click eng:puxr "/job-families/engineering/ux-researcher/";
-  click eng:muxr "/job-families/engineering/ux-research-manager/";
-  click eng:smuxr "/job-families/engineering/ux-research-manager/";
-  click eng:duxr "/job-families/engineering/ux-research-manager/";
-  click eng:tw "/job-families/engineering/technical-writer/";
-  click eng:stw "/job-families/engineering/technical-writer/";
-  click eng:sttw "/job-families/engineering/technical-writer/";
-  click eng:ptw "/job-families/engineering/technical-writer/";
-  click eng:mtw "/job-families/engineering/technical-writing-manager/";
-  click eng:stwm "/job-families/engineering/technical-writing-manager/";
-  click eng:dtw "/job-families/engineering/technical-writing-manager/";
-  click eng:vpux "/job-families/engineering/product-design-management/";
+  click eng:pd "/job-families/product/product-designer/";
+  click eng:spd "/job-families/product/product-designer/";
+  click eng:stpd "/job-families/product/product-designer/";
+  click eng:ppd "/job-families/product/product-designer/";
+  click eng:pdm "/job-families/product/product-design-management/";
+  click eng:spdm "/job-families/product/product-design-management/";
+  click eng:dpd "/job-families/product/product-design-management/";
+  click eng:uxrc "/job-families/product/ux-research-operations-coordinator/";
+  click eng:suxrc "/job-families/product/ux-research-operations-coordinator/";
+  click eng:uxr "/job-families/product/ux-researcher/";
+  click eng:suxr "/job-families/product/ux-researcher/";
+  click eng:stuxr "/job-families/product/ux-researcher/";
+  click eng:puxr "/job-families/product/ux-researcher/";
+  click eng:muxr "/job-families/product/ux-research-manager/";
+  click eng:smuxr "/job-families/product/ux-research-manager/";
+  click eng:duxr "/job-families/product/ux-research-manager/";
+  click eng:tw "/job-families/product/technical-writer/";
+  click eng:stw "/job-families/product/technical-writer/";
+  click eng:sttw "/job-families/product/technical-writer/";
+  click eng:ptw "/job-families/product/technical-writer/";
+  click eng:mtw "/job-families/product/technical-writing-manager/";
+  click eng:stwm "/job-families/product/technical-writing-manager/";
+  click eng:dtw "/job-families/product/technical-writing-manager/";
+  click eng:vpux "/job-families/product/product-design-management/";
 ```
 
 #### Infrastructure Department

@@ -376,7 +376,7 @@ Hello {{ticket.requester.first_name}},
 
 Thanks for your interest in our Education Program at GitLab!
 
-If you would like to learn more about our program please visit our [Education Program Website](https://about.gitlab.com/solutions/education/) and our [handbook](https://about.gitlab.com/handbook/marketing/community-relations/education-program/). If you wish to apply, please fill out our [application form](https://about.gitlab.com/solutions/education/join/#application). Specific program requirements can be found [here](https://about.gitlab.com/solutions/education/join/).
+If you would like to learn more about our program please visit our [Education Program Website](https://about.gitlab.com/solutions/education/) and our [handbook](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/education-program/). If you wish to apply, please fill out our [application form](https://about.gitlab.com/solutions/education/join/#application). Specific program requirements can be found [here](https://about.gitlab.com/solutions/education/join/).
 
 We encourage you to apply to our program by filling out the application form. Once you apply, one of our team members will reach out to you directly! Please note that it may take up to 10 business days for us to review your application.
 
@@ -402,7 +402,7 @@ Hello {{ticket.requester.first_name}},
 
 Thanks for your interest in GitLab and for applying to our Education Program!
 
-We are so excited that you would like to learn about GitLab. Unfortunately, we are unable to accept your application because you do not meet our [program requirements](https://about.gitlab.com/handbook/marketing/community-relations/education-program/#students).
+We are so excited that you would like to learn about GitLab. Unfortunately, we are unable to accept your application because you do not meet our [program requirements](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/education-program/#students).
 
 Your application indicates that you are currently a student. Our GitLab Education Program only offers a centralized license to the University via a campus faculty or staff member. Please encourage a University representative to apply [here](https://about.gitlab.com/solutions/education/).
 
@@ -446,7 +446,7 @@ Hello {{ticket.requester.first_name}},
 
 Thank you for your interest in GitLab and applying to our Education Program!
 
-In order to qualify for our Education Program, we need to verify that the Educational Institution you are applying on behalf of is a non-profit entity. Applications from for-profit educational entities do not qualify.  [Please see our handbook](/handbook/marketing/community-relations/education-program/) for more details on GitLab for Education Program requirements.
+In order to qualify for our Education Program, we need to verify that the Educational Institution you are applying on behalf of is a non-profit entity. Applications from for-profit educational entities do not qualify.  [Please see our handbook](/handbook/marketing/community-relations/community-programs/education-program/) for more details on GitLab for Education Program requirements.
 
 Please respond to this email with proof that the Educational Institution you are applying on behalf of is a non-profit entity. Acceptable proof can consist of a webpage on your institution's domain or an official document.
 
@@ -465,7 +465,7 @@ Best regards,
 
 Hello {{ticket.requester.first_name}},
 
-Thank you for the additional details regarding your institution and proposed use of GitLab. Unfortunately, your application does not qualify for our GitLab for Education Program. Please see our [program requirements](https://about.gitlab.com/solutions/education/join/) and [our handbook](/handbook/marketing/community-relations/education-program/) for more details on the program requirements including the types of educational institutions that qualify and acceptable use cases. Please feel free to email us directly with questions.
+Thank you for the additional details regarding your institution and proposed use of GitLab. Unfortunately, your application does not qualify for our GitLab for Education Program. Please see our [program requirements](https://about.gitlab.com/solutions/education/join/) and [our handbook](/handbook/marketing/community-relations/community-programs/education-program/) for more details on the program requirements including the types of educational institutions that qualify and acceptable use cases. Please feel free to email us directly with questions.
 
 We are happy to connect you with a sales representative within your region to discuss licensing options.
 
@@ -490,7 +490,7 @@ Hello {{ticket.requester.first_name}},
 
 Thanks for your interest in GitLab and applying to the GitLab for Education Program!
 
-In order to qualify for a free Educational Program License, we need to verify that your use case meets the requirements of our [GitLab for Education Program requirements](/handbook/marketing/community-relations/education-program/#gitlab-for-education-program-requirements). Once we receive verification of the use case, we will send a  zero dollar quote with the End User License Agreement attached.
+In order to qualify for a free Educational Program License, we need to verify that your use case meets the requirements of our [GitLab for Education Program requirements](/handbook/marketing/community-relations/community-programs/education-program/#gitlab-for-education-program-requirements). Once we receive verification of the use case, we will send a  zero dollar quote with the End User License Agreement attached.
 
 **In order to proceed, please reply to this email with the following:**
 * A description of how the license will be used at your educational institution
@@ -522,7 +522,7 @@ Best regards,
 
 Hello {{ticket.requester.first_name}},
 
-Thanks for your reply. In order to process your application we need more details on how the license will be used at your educational institution. Please see our [GitLab for Education Program requirements](https://about.gitlab.com/handbook/marketing/community-relations/education-program/#-gitlab-for-education-program-requirements).
+Thanks for your reply. In order to process your application we need more details on how the license will be used at your educational institution. Please see our [GitLab for Education Program requirements](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/education-program/#-gitlab-for-education-program-requirements).
 
 In order to proceed:
 * Please reply to this email and **describes specifically how the license will be used at your educational institution**.
@@ -631,7 +631,7 @@ Thank you for being a valued GitLab Education Program member!
 
 In order to renew, please reply directly to this email with the following information:
  - The number of seats desired for the education license renewal.
- - Describe your use case for the education license. See the [GitLab for Education Program requirements](/handbook/marketing/community-relations/education-program/#gitlab-for-education-program-requirements). Professional IT and infrastructure operations do not fall within the stated terms of the Education Program.
+ - Describe your use case for the education license. See the [GitLab for Education Program requirements](/handbook/marketing/community-relations/community-programs/education-program/#gitlab-for-education-program-requirements). Professional IT and infrastructure operations do not fall within the stated terms of the Education Program.
  - Will the current account owner on the license stay the same? If not, please see the steps below for adding a new account owner.
 
 Steps for adding a new account owner:
@@ -677,7 +677,7 @@ Thank you for reaching out to GitLab support.
 In order to renew your GitLab for Education license, please email education@gitlab.com with the following information:
 
 - The number of seats desired for the education license.
-- Describe your use case for the education license. See the [GitLab for Education Program requirements](https://about.gitlab.com/handbook/marketing/community-relations/education-program/#education-program-requirements). Professional IT and infrastructure operations do not fall within the stated terms of the Education Program.
+- Describe your use case for the education license. See the [GitLab for Education Program requirements](https://about.gitlab.com/handbook/marketing/community-relations/community-programs/education-program/#education-program-requirements). Professional IT and infrastructure operations do not fall within the stated terms of the Education Program.
 - Will the current account owner on the license stay the same? If not, please see the steps below for adding a new account owner.
 
 Steps for adding a new account owner:
@@ -734,7 +734,7 @@ All the best,
 
 | Metadata | Description |
 | ------ | ------ |
-| Description | Booking and Renewals Phase: Add this to the end of emails if there are any special EDU program announcements we're making. [Link to issue with announcements](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/general/-/issues/77)  |
+| Description | Booking and Renewals Phase: Add this to the end of emails if there are any special EDU program announcements we're making. [Link to issue with announcements](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/general/-/issues/77)  |
 | Available for | All Agents |
 | Actions | `Add:Comment/Description` |
 
@@ -1304,7 +1304,7 @@ We look forward to getting to know you better, welcome again to the GitLab Start
 
 
 # Non-profits Program (not active yet)
-We are currently exploring the creation of a non-profit program ([see handbook page](/handbook/marketing/community-relations/education-program/) with more info). In the meantime, these responses help us respond to inquiries about the program's status.
+We are currently exploring the creation of a non-profit program ([see handbook page](/handbook/marketing/community-relations/community-programs/education-program/) with more info). In the meantime, these responses help us respond to inquiries about the program's status.
 
 
 ### Email Response to request from Sales
@@ -1314,7 +1314,7 @@ Thanks for reaching out. This certainly does look like an interesting non-profit
 
 We currently do not have a formal non-profit program. Non-profit subscriptions are rarely granted as of now, and generally, the ones that are granted have a champion or approval from the E-group or Sales leadership. If you are able to obtain such support, we are able to help issue the license.
 
-[Here](/handbook/marketing/community-relations/education-program/) is our handbook link.  Please let me know if you have any questions. At this time, I would recommend that they follow the issue in that handbook page and stay tuned. We hope to have more progress on this in the coming months.
+[Here](/handbook/marketing/community-relations/community-programs/education-program/) is our handbook link.  Please let me know if you have any questions. At this time, I would recommend that they follow the issue in that handbook page and stay tuned. We hope to have more progress on this in the coming months.
 
 We are happy to send our [template non-profit](/handbook/marketing/community-relations/community-programs/community-program-applications/email-and-zendesk-macros/) response if you'd like.
 
@@ -1334,7 +1334,7 @@ Hi {{ticket.requester.first_name}},,
 
 Thanks for your interest in GitLab and for sharing your amazing efforts with us! Unfortunately, at this time, the work you explained, does not qualify for one of our existing free programs([GitLab for Open Source](https://about.gitlab.com/solutions/open-source/), [GitLab for Education](https://about.gitlab.com/solutions/education/), and  [GitLab for Startups](https://about.gitlab.com/solutions/startups/)).
 
-We would absolutely love to support non-profit organizations, and are actively working towards doing so in the future! I hope you understand that we see the value in the work that you do, but our bandwidth is currently full with our existing programs. Please stay tuned on our [non-profit issue](https://gitlab.com/gitlab-com/marketing/community-relations/education-program/general/-/issues/17) and please feel free to add feedback for us.
+We would absolutely love to support non-profit organizations, and are actively working towards doing so in the future! I hope you understand that we see the value in the work that you do, but our bandwidth is currently full with our existing programs. Please stay tuned on our [non-profit issue](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/general/-/issues/17) and please feel free to add feedback for us.
 
 In the meantime, please consider [signing up](https://about.gitlab.com/pricing/) for one of our free-tiers (SaaS or Self-Managed). That way we still get to work together.
 

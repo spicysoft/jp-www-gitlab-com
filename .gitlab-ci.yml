@@ -767,10 +767,6 @@ include:
   - template: Dependency-Scanning.gitlab-ci.yml
   - project: 'gitlab-org/frontend/untamper-my-lockfile'
     file: 'templates/merge_request_pipelines.yml'
-  # Include Reviewers.gitlab-ci.yml to recommend code reviewers for a given MR
-  - project: gitlab-org/modelops/applied-ml/review-recommender/ci-templates
-    ref: v0.2.1
-    file: recommender/Reviewers.gitlab-ci.yml
 
 # Override https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Code-Quality.gitlab-ci.yml
 code_quality:
@@ -916,14 +912,6 @@ danger-review:
   needs: []
   script:
     - danger --fail-on-errors=true --verbose
-
-reviewers-recommender:
-  variables:
-    RECOMMENDER_REPORT_FILENAME: tmp/gl-recommended-reviewers-report.json
-  rules:
-    - if: '$CI_MERGE_REQUEST_IID'
-  stage: test
-  needs: []
 
 dependency_scanning:
   needs: []

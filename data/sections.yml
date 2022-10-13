@@ -7,8 +7,11 @@ dev:
     - Taurie Davis
     - Marcel van Remmerden
     - Blair Christopher
+    - Chris Micek
   sm: Shaun McCann
-  pmm: Cormac Foster
+  pmm: 
+    - Aathira Nair
+    - Heather Simpson
   qm: Ramya Authappan
   rem: Gerardo Lopez Fernandez
   ar_team_tag: Dev Section AR Stable Counterpart
@@ -22,7 +25,9 @@ ops:
   pm_team_tag: Ops Product Leadership
   development_team_tag: Ops Development Leadership
   support_team_tag: Ops Support Stable Counterpart
-  pmm: Saumya Upadhyaya
+  pmm:
+    - Heather Simpson
+    - Aathira Nair
   pdm:
     - Justin Mandell
     - Rayana Verissimo
@@ -42,7 +47,7 @@ sec:
   ux:
     - Andy Volpe
   sm: TBD
-  pmm: Cindy Blake
+  pmm: Brian Mason
   qm: Vincy Wilson
   rem: Steve Loyd (Acting)
   ar_team_tag: Sec Section AR Stable Counterpart
@@ -56,7 +61,7 @@ data-science:
   pdm:
     - Taurie Davis
   sm: TBD
-  pmm: Cormac Foster
+  pmm: Saumya Upadhyaya
   qm: Vincy Wilson
   direction: /direction/data-science
 
@@ -66,6 +71,7 @@ analytics:
   em:
     - Tim Zallmann
   qm: Joanna Shih
+  pmm: Saumya Upadhyaya
   direction: /direction/analytics/  
   handbook: product/categories/analytics/
   slack:
@@ -107,7 +113,7 @@ enablement:
   pdm: 
     - Marcel van Remmerden 
   sm: Jason Colyer
-  pmm: Cormac Foster
+  pmm: Saumya Upadhyaya
   qm: Kassandra Svoboda
   rem: Dave Smith
   ar_team_tag: Enablement Section AR Stable Counterpart
@@ -121,7 +127,7 @@ platforms:
   pdm: 
     - Marcel van Remmerden  
   sm: Jason Colyer
-  pmm: Cormac Foster
+  pmm: Saumya Upadhyaya
   qm: Kassandra Svoboda
   rem: Dave Smith
   ar_team_tag: SaaS Platforms Section AR Stable Counterpart

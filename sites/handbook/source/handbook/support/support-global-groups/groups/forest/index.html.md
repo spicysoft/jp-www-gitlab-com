@@ -39,13 +39,12 @@ While each SGG is encouraged to work together and develop a plan for upcoming ti
 The following are suggestions only. There is no particular order or requirement to go through each, nor is there a limit to stick with just one approach:
 - Help rebalance or transfer tickets where it makes sense (this is manual, but may help under certain situations).
 - Start a [branch-out session](https://about.gitlab.com/handbook/support/support-global-groups/branch-out-sessions.html) (or encourage team members to start one) to help an SGG that is low on staff.
+- Request Support Engineers who are not part of an SGG to assist.
 - Help rebalance groups as needed by:
     - assessing SGGs and upcoming OOO statuses to understand which groups are `at risk+` (high OOOs) and which groups may have capacity to help
     - informing low-risk groups of the groups that are currently `at risk+` (see table below), and asking them to try to help with FRT and possibly with assignment, too
     - identifying 1-2 volunteers from group(s) that are not at risk to act as Tanukis for the day
     
-![Screen_Shot_2022-07-28_at_10.46.09_AM](/uploads/d4dae550b4ff0be8011e7d8ae8029cdb/Screen_Shot_2022-07-28_at_10.46.09_AM.png)
-
 **What is a Tanuki?**
 A Tanuki is a Support Engineer who will divide their time (i.e. "float") between their SGG and another SGG that is low on staff to help with tickets (FRTs and/or NRTs, depending on where the help will be most effective).
 

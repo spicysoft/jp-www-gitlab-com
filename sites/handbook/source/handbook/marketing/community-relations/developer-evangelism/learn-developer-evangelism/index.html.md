@@ -60,5 +60,5 @@ Our KPIs and processes follow industry best practices. We regularly iterate on n
 1. [GitLab Speakers Bureau](/handbook/marketing/community-relations/developer-evangelism/speakers-bureau/)
 1. [Developer Evangelism on Social Media](/handbook/marketing/community-relations/developer-evangelism/social-media/)
 1. [How to submit a successful conference proposal](/handbook/marketing/community-relations/developer-evangelism/writing-cfps/)
-1. [Consortia we work with](/handbook/marketing/community-relations/opensource-program)
+1. [Consortia we work with](/handbook/marketing/community-relations/community-programs/opensource-program)
 1. [Speaking resources](/handbook/marketing/corporate-marketing/speaking-resources/)

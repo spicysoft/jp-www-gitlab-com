@@ -44,7 +44,7 @@ _Release post task and branch ownership:_
 
 _Reminding and Alerting DRIs:_
 
-It's important to keep PMs up to date regularly with items they need to deliver for the release post. Early reminders are especially helpful due to how async and distributed GitLab team members are. The release post manager will alert DRIs (PMs, EMs and others as needed) at least one working day before each due date (post a comment to the `#release-post` Slack channel, issues or MRs) per the release post manager task list below. But the release post manager can also opt to do addtional reminders or announements specific to the release post they're leading as they see fit. 
+It's important to keep PMs up to date regularly with items they need to deliver for the release post. Early reminders are especially helpful due to how async and distributed GitLab team members are. The release post manager will alert DRIs (PMs, EMs and others as needed) at least one working day before each due date (post a comment to the `#release-post` Slack channel, issues or MRs) per the release post manager task list below. But the release post manager can also opt to do addtional reminders or announements specific to the release post they're leading as they see fit.
 
 _Handbook references:_
 
@@ -59,7 +59,7 @@ _People:_
 
 | Release post manager | Tech writer | Technical Advisor | Social | PMM lead | Product Operations DRI | Release post manager shadow |
 | --- | --- | --- | --- | --- | --- | --- |
-| `@release_post_manager` | `@tw_lead` | `@tech_advisor` | DRI: `@wspillane` & `@social` for Slack Checklist item | `@pmm_lead` | `@fseifoddini` | `@release_post_manager_shadow` |
+| `@release_post_manager` | `@tw_lead` | `@tech_advisor` | DRI: `@wspillane` & `@social` for Slack Checklist item | `@pmm_lead` | `@fseifoddini` | `@rpm_shadow` |
 
 _Response time SLA:_
 
@@ -85,10 +85,10 @@ To accommodate the tight timelines of tasks during the 18th-22nd of the month, m
 1. [ ] Read the [RPM specific section](https://about.gitlab.com/handbook/marketing/blog/release-posts/#release-post-manager-responsibilities) of the release post handbook page in detail
 1. [ ] Review the rest of the [release post handbook page](https://about.gitlab.com/handbook/marketing/blog/release-posts/) and all the tasks in this MR template, not just your own, so you're familiar with the overall process, roles and tasks involved
 1. [ ] Consider setting up a coffee chat with the previous release post manager and/or Product Operations DRI to ask for tips and any helpful "latest info"
-1. [ ] After meeting with the previous release post manager and/or Product Operations for insights, consider setting up a meeting with your release post shadow (`@release_post_manager_shadow`) to help them understand their role and how much capacity they have to support the work that month
+1. [ ] After meeting with the previous release post manager and/or Product Operations for insights, consider setting up a meeting with your release post shadow (`@rpm_shadow`) to help them understand their role and how much capacity they have to support the work that month
 1. [ ] Schedule a 30 min Live Retrospective meeting for some time after the 22nd. All action items for the retro need to be completed prior to the 3rd of the next month in order to incorporate any process changes before the next [release post automation](https://about.gitlab.com/handbook/marketing/blog/release-posts/#release-post-branch-creation-rake-task) begins. Make sure to invite Product Ops to the Live Retro meeting. Product Ops will need to approve any major updates to the process identified during the Retrospective.
 1. [ ] Create a `X-Y-release-post-prep` channel in Slack
-  1. [ ] Invite `@tw_lead`, `@tech_advisor`, `@pmm_lead`, `@release_post_manager_shadow`, `@fseifoddini`, and `@brhea`. There is no need to invite the social team to the channel.
+  1. [ ] Invite `@tw_lead`, `@tech_advisor`, `@pmm_lead`, `@rpm_shadow`, `@fseifoddini`, and `@brhea`. There is no need to invite the social team to the channel.
   1. [ ] Post the following message in `X-Y-release-post-prep`: `Hi team! This channel is to discuss production-specific topics that don't concern the broader product team. By keeping our conversations in this channel, we can help keep #release-post focused.`
   - See additional guidance on [release post communication](https://about.gitlab.com/handbook/marketing/blog/release-posts/#communication)
 1. [ ] Update the `#X-Y-release-post-prep` Slack bookmarks in the `#release-post` channel:
@@ -105,7 +105,7 @@ To accommodate the tight timelines of tasks during the 18th-22nd of the month, m
   - Link to their handbook sections: [TW Lead](https://about.gitlab.com/handbook/marketing/blog/release-posts/#tw-lead) and [Technical Advisors](https://about.gitlab.com/handbook/marketing/blog/release-posts/#technical-advisors)
   - Tell them that if they have any questions, post them to you in the `#X-Y-release-post-prep` Slack channel and cc Product Operations
   - Tell them it's recommended they set up a coffee chat with their predecessor for any helpful tips. The previous TW lead and TA can be found on the [RP scheduling page](https://about.gitlab.com/handbook/marketing/blog/release-posts/managers/)
-  
+
 10. [ ] Update the `#release-post` Slack bookmarks in the `#release-post` channel:
 
   ```md
@@ -193,7 +193,7 @@ For more guidance about what to include in the release post, check the [Product 
 
 **Due date: YYYY-MM-10**
 
-The following sections are always present and managed by the PM or Eng lead owning the related area. 
+The following sections are always present and managed by the PM or Eng lead owning the related area. As release post manager, you do not need to act on the checkboxes below. You will be asked to send a reminder ping later in the process.
 
 - [ ] Add GitLab Runner improvements: `@DarrenEastman`
 - [ ] Add Omnibus improvements: `@dorrino`
@@ -212,7 +212,7 @@ Note: All the `Final Content Assembly` and `Structural Check` steps happen in se
  **Due date: YYYY-MM-12**
 
 1. [ ] Encourage team members to vote on MVP nominations in the `#release-post`, `#community-relations`, `#mr-coaching` and `#core` Slack channels by sharing a link to the [MVP Issue](MVP_ISSUE_LINK).
-1. [ ] Remind PMs/EMs to contribute to the bugs, usability, and performance improvement MRs by commenting on the various Slack threads you initiated in `#release-post`, `#development` and `#eng-managers` by the 12th
+1. [ ] Remind PMs/EMs to contribute to the bugs, usability, and performance improvement MRs by commenting on the various Slack threads you initiated in `#release-post`, `#development`, `ux_managers`, and `#eng-managers` by the 12th
 
 #### General Content Review due by the 14th
 
@@ -252,6 +252,7 @@ As PMs finalize their release post items it can be helpful for the RPM to review
   1. [ ] After one or more quality nominations have been received, choose one and notify the `#release-post` channel of your choice. Use this chance to confirm that the contribution your MVP choice was nominated for will make it into this release.
 1. [ ] Before handing off the bugs, usability, and performance improvements MRs to the TW lead for final review, remind PMs/EMs about the content due date by revisiting and commenting on the Slack threads you created by the 10th in `#release-post`, `#development`, and `#eng-managers`. Let them know it's the "last call" and no further contributions to the MRs will be taken after the 15th.
 1. [ ] In the threads of this MR, look for a GitLab Mattermost update, similar to [this example comment](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/78893#note_546017926). Thank the poster, then tag the [Distribution PM](https://about.gitlab.com/handbook/product/categories/#distribution-group) as an FYI and ask them to [check the box](#recurring-content-blocks) and resolve the thread.
+1. [ ] Tag the [Runner PM](https://about.gitlab.com/handbook/product/categories/#runner-group) in a new comment as an FYI and ask them to [check the box](#recurring-content-blocks) and resolve the thread.
 1. [ ] If there are no [deprecation announcements for this milestone](https://docs.gitlab.com/ee/update/deprecations), do [a search](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name%5B%5D=release%20post%20item%3A%3Adeprecation) to see if there are any open or merged MRs for the current milestone.
   1. Depending on any discrepancies you find, engage the PMs in Slack `#release-post`
   1. If there are no deprecations MRs in the search, remind PMs to create deprecations MRs, if they have them for this milestone
@@ -300,6 +301,8 @@ To assist managers in determining whether a release contains a feature. The foll
 
 **Due date: YYYY-MM-18** at **4 pm UTC (11 am ET / 8 am PT)** and NO earlier
 
+On the `release-X-Y` branch:
+
 1. [ ] Verify the presence of .yml files in the `X_Y` data directory: `data/release_posts/X_Y/`
 1. [ ] Verify the absence .yml files in the `unreleased` data directory: `data/release_posts/unreleased/`
 1. [ ] Verify the presence of image files in the `X_Y` image directory: `source/images/X_Y/`
@@ -344,6 +347,7 @@ TW review cannot proceed if content assembly is incomplete. Only perform these s
 1. [ ] Check all comments in the MR thread (make sure no contribution was left behind).
 1. [ ] Make sure all discussions in the thread are resolved.
 1. [ ] Confirm the list of deprecations and removals in the release post reflects the [deprecations](https://docs.gitlab.com/ee/update/deprecations.html) and [removals](https://docs.gitlab.com/ee/update/removals.html) in docs. On the docs pages, all `H2` titles that apply to the release should be listed as bullets at the bottom of the release post. Ping `@brhea` and `@fseifoddini` in `#x-y-release-post-prep` if there is a mismatch.
+1. [ ] Check if any [removals](https://docs.gitlab.com/ee/update/removals.html) in this release post milestone are indicated as "Breaking Changes" in docs. Ping `@brhea` and `@fseifoddini` in `#x-y-release-post-prep` if so.
 1. [ ] If the pipeline is failing, confirm all release post content blocks have the right formatting. Common issues include extra spaces, missing quotes, or missing `---` at the beginning and end. If you are unable to locate these items, give the TW lead a heads up and proceed with TW Lead structural check.
 1. [ ] Assign the MR to the next reviewer (Technical Writer lead) and ping them to complete the [structural check](#structural-check)
 1. [ ] Ask the Technical Advisor in Slack `#X-Y-release-post-prep` channel to prep handoff of any release post issues to the next Technical Advisor by referencing [TA handoff](https://about.gitlab.com/handbook/marketing/blog/release-posts/#handoff)
@@ -363,21 +367,15 @@ In the run-up to publishing the release post on the 22nd, some release post mana
 1. [ ] Mention `@Sid`, `@david` in the `#release-post` channel when the post has been generated for their review per these [communication guidelines](https://about.gitlab.com/handbook/marketing/blog/release-posts/#communication).
 1. [ ] Capture any feedback from Slack into a single comment on the Release Post MR with action items assigned to the DRIs to address. Check the [content review guidelines](https://about.gitlab.com/handbook/marketing/blog/release-posts/#content-reviews) for more details.
 
-#### Incorporating Feedback
+#### Create the What's New MR
 
-1. [ ] Make sure all feedback from CEO and Product team reviews have been addressed by working with the DRIs of those areas as needed.
-1. [ ] If you receive feedback about the ordering of the primary Items, you might need to adjust the order.
-1. [ ] If needed. re-order secondary items by adjusting the `titles` in the content blocks. More information to consider about altering secondary items in the [content review guidelines](https://about.gitlab.com/handbook/marketing/blog/release-posts/#content-reviews) and [feature order technical instructions](https://about.gitlab.com/handbook/marketing/blog/release-posts/#feature-order)
-1. [ ] Make sure there are no open feedback items in this MR or in the `#release-post` channel.
-1. [ ] On the 20th, ping Product Operations DRI (`@fseifoddini` ) for final check in the `#release-post` channel. You should also assign them as a reviewer to the release post merge request.
-1. [ ] After the Product Operations review, the Product Operations DRI (`@fseifoddini` ) will `approve` the release post merge request
-1. [ ] After content assembly on the 18th and by 10 AM PDT on the 20th, the RPM will identify the 3-7 items for **What's New** and create the MR by following the guidance in [Creating an MR for What's New entries](https://about.gitlab.com/handbook/marketing/blog/release-posts/index.html#creating-an-mr-for-whats-new-entries).
-  1. [ ] Post the following message in `#backend_maintainers` on Slack:
-    > I am the release post manager for XX.Y and will need help merging in the "What's new" notification following the publication of the release post. This will be a time-sensitive MR on the 22nd. Could I please request a volunteer or two to be ready and available to help merge the MR when I have it ready to go? Thanks! cc: @a_akgun
-  1. [ ] The RPM will create and finalize the MR draft by 11:59 PDT on the 21st.
-  1. [ ] The RPM will tag in What's New DRIs Product Operations `@fseifoddini` and `@brhea` and VP of Product `@david` as Reviewers, to review and Approve.
-  1. [ ] The RPM will tag in any maintainers who respond to the above message in `#backend_maintainers` as Reviewers, to review and Approve.
-  1. [ ] The RPM will merge the MR after the release post is live on the 22nd and images have been checked to load correctly locally.
+1. [ ] Identify the 3-7 items for **What's New** and create the MR by following the guidance in [Creating an MR for What's New entries](https://about.gitlab.com/handbook/marketing/blog/release-posts/index.html#creating-an-mr-for-whats-new-entries).
+1. [ ] Post the following message in `#backend_maintainers` on Slack:
+`I am the release post manager for XX.Y and will need help merging in the "What's new" notification following the publication of the release post. This will be a time-sensitive MR on the 22nd (15:00-19:00 UTC). Could I please request a volunteer or two to be ready and available to help merge the MR when I have it ready to go? Thanks! cc: @a_akgun`
+1. [ ] The RPM will create and finalize the MR draft by 11:59 PDT on the 21st.
+1. [ ] The RPM will tag in What's New DRIs Product Operations `@fseifoddini` and `@brhea` and VP of Product `@david` as Reviewers, to review and Approve.
+1. [ ] The RPM will tag in any maintainers who respond to the above message in `#backend_maintainers` as Reviewers, to review and Approve.
+1. [ ] The RPM will merge the MR after the release post is live on the 22nd and images have been checked to load correctly locally.
 
 ---
 
@@ -385,11 +383,28 @@ In the run-up to publishing the release post on the 22nd, some release post mana
 
 **Due date: YYYY-MM-20**
 
+#### Incorporating Feedback
+
+1. [ ] Make sure all feedback from CEO and Product team reviews have been addressed by working with the DRIs of those areas as needed.
+1. [ ] If you receive feedback about the ordering of the primary Items, you might need to adjust the order.
+1. [ ] If needed. re-order secondary items by adjusting the `titles` in the content blocks. More information to consider about altering secondary items in the [content review guidelines](https://about.gitlab.com/handbook/marketing/blog/release-posts/#content-reviews) and [feature order technical instructions](https://about.gitlab.com/handbook/marketing/blog/release-posts/#feature-order)
+1. [ ] Make sure there are no open feedback items in this MR or in the `#release-post` channel.
+
+#### ProdOps Review
+
+1. [ ] On the 20th, ping Product Operations DRI (`@fseifoddini` ) for final check in the `#release-post` channel. You should also assign them as a reviewer to the release post merge request.
+1. [ ] After the Product Operations review, the Product Operations DRI (`@fseifoddini` ) will `approve` the release post merge request
+
+#### Branch maintenance
+
 1. [ ] Check if the number of features you added in the introductory paragraph has changed. To get the number, do a hand count of just the features (top, primary, secondary) in `/data/release_posts/X_Y`, and also count the number of items in the performance improvements and the usability improvements files in the current `release-X-Y` branch. Do not include bugs, upgrades, etc. You can use an approximate count (i.e. 40+ instead of 43). Remove the backticks around the number if you have not already.
 1. [ ] Check if the number of [merged community contributions](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Community+contribution&milestone_title=X.Y&scope=all&sort=popularity&state=merged) you added in the introductory paragraph has changed. Remove the backticks around the number if you have not already.
 1. [ ] Use `/rebase` on the release post MR. If you receive an error that the rebase cannot be scheduled, resolve any conflicts that appear in the merge request widget. If no conflicts appear, consult with the Tech Advisor to resolve them locally.
+
+#### Announcements
+
 1. [ ] Alert the product team of the top/primary items in Slack.
-  1. PMs can use `[this query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=X.Y&not%5Blabel_name%5D%5B%5D=released%3A%3Acandidate)` (update it with the current milestone) and check with their EMs to verify the features did make it into the release.
+  1. PMs can use [this query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=X.Y&not%5Blabel_name%5D%5B%5D=released%3A%3Acandidate) (update it with the current milestone) and check with their EMs to verify the features did make it into the release.
   1. Post in the `#release-post` channel:
 
   ```md
@@ -399,16 +414,14 @@ In the run-up to publishing the release post on the 22nd, some release post mana
 
   _Please let us know if any of your merged primary release post items shifted out of the release after the 18th and will not make it into the final release packages by the 22nd._
   ```
-
-
-5. Top/Primary items can move.
+1. Top/Primary items can move.
   1. It is the Release Post Manager's responsibility to make sure any top/primary items mentioned in the introduction are accurate prior to the 22nd, because release post items can sometimes move in/out of the packaged release after the 18th, and this could affect the themes, headline, etc.
   1. If you learn that any top/primary items have moved in/out of the packaged release after the 18th, communicate this directly to stop or start associated actions, with the DRIs for:
     1. [Technical Marketing](https://about.gitlab.com/handbook/marketing/strategic-marketing/technical-marketing/) (the TMM team), who produce demo videos per release.
     1. [Social Marketing](https://about.gitlab.com/handbook/marketing/corporate-marketing/social-marketing/), who produce feature campaigns per release.
     1. [Corporate Communications](https://about.gitlab.com/handbook/marketing/corporate-marketing/corporate-communications/), who lead media outreach and may have produced a press release
     1. Any other related efforts you're aware of, for example related blog posts.
-6. [ ] Post a comment in the `#whats-happening-at-gitlab` channel.
+1. [ ] Post a comment in the `#whats-happening-at-gitlab` channel.
   ```md
   Hey all!
   This month's release post is almost ready!
@@ -484,10 +497,6 @@ Ideally, the team should complete all the reviews by the 19th of the month, so t
 
 The structural check is performed by the technical writing lead: `@tw_lead`
 
-Before starting the structural check:
-
-1. [ ] Ensure that the [docs release process](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md) **is started** (but not completed). This process should start around the same time as the release post structural check, and be completed soon after the release post goes live.
-
 When starting the structural check:
 
 For suggestions that you are confident don't need to be reviewed, change them locally
@@ -528,8 +537,9 @@ In general:
 
 1. [ ] Report any problems from the structural check in the `#release-post` channel by pinging the reporters directly for each problem. Do NOT ping `@all` or `@channel`, and do NOT leave a general message that no one will pay attention to. If possible, ensure open discussion threads in this merge request track any issues.
 1. [ ] Ping the release post manager in Slack `#X-Y-release-post-prep` to let them know your review is over and they can start [final content review](#final-content-review)
-1. [ ] `Approve` the release post merge request to communicate you have completed your tasks
+1. [ ] `Approve` the release post merge request to communicate you have completed your tasks.
 1. [ ] Within 1 week, update the release post templates and release post handbook with anything that comes up during the process.
+1. [ ] Set a reminder for yourself on the 17th of the following month to prepare for the [versioned documentation release](https://about.gitlab.com/handbook/marketing/blog/release-posts/#versioned-documentation-release).
 
 ---
 

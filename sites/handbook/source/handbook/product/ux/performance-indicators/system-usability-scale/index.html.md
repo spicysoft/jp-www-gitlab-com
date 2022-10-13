@@ -132,7 +132,6 @@ Every quarter, an issue will be created and assigned to the PDMs to categorize t
 | Manage     |   #s_manage                    |      
 | Plan       |   #s_plan                      |      
 | Create     |   #s_create                    |      
-| Ecosystem  |  #s_ecosystem                  |      
 | Verify     |  #s_verify, #ops_section       |      
 | Package    |  #s_package, #ops_section      |      
 | Release    |  #s_release, #ops_section      |      
@@ -143,7 +142,7 @@ Every quarter, an issue will be created and assigned to the PDMs to categorize t
 | Growth     |  #s_growth                     |      
 | Fulfillment|  #s_fulfillment                |      
 | Enablement |      #s_enablement             |      
-| Foundations|     #g_ecosystem_foundations   | 
+| Foundations|     #g_manage_foundations   | 
 
 Use the following sample messaging text when sharing out the stage-specific insights:
 

@@ -3,7 +3,7 @@ name: Andy Soiron
 locality:
 country: Remote
 role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer</a>,
-  Ecosystem:Integrations
+  Manage:Integrations
 reports_to: arturo-herrero
 picture: asoiron.jpg
 twitter: andysoiron
@@ -19,7 +19,7 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Ecosystem:Integrations BE Team
+- Manage:Integrations BE Team
 projects:
   gitlab:
   - maintainer backend

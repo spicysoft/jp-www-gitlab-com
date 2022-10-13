@@ -345,11 +345,11 @@ See the [Observation Management Procedure Handbook page](https://about.gitlab.co
 
 ### Observation Risk Rating Adjustments
 
-As observations are identified, assigned and then move into remediation, there may be cases in which observations do not appropriately map to current GCF controls or are deemed stale. These observations could qualify for an upgraded or downgraded risk level depending on a subset of resolution criteria. Procedures for this process can be found in the [Observation Risk Rating Adjustment Runbook]](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/observation-management/-/blob/master/Updating%20Observation%20Risk%20Ratings.md)
+As observations are identified, assigned and then move into remediation, there may be cases in which observations do not appropriately map to current GCF controls or are deemed stale. These observations could qualify for an upgraded or downgraded risk level depending on a subset of resolution criteria. Procedures for this process can be found in the [Observation Risk Rating Adjustment Runbook](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/observation-management/-/blob/master/Updating%20Observation%20Risk%20Ratings.md)
 
 ### Observation Remediation
 
-For detailed procedures relating to observation remediation, refer to the [observation remediation procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/observation-remediation-procedure.html).
+For detailed procedures relating to observation remediation, refer to the [observation remediation procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/observation-remediation-procedure.html).
 
 ## Exceptions
 
@@ -361,11 +361,11 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 - Parent Policy: [Information Security Policy](/handbook/engineering/security/)
 - [GCF Contol Lifecycle](/handbook/engineering/security/security-assurance/security-compliance/security-control-lifecycle.html#)
-- [Observation remediation procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/observation-remediation-procedure.html)]
+- [Observation remediation procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/observation-remediation-procedure.html)]
 - [Sarbanes-Oxley (SOX) Compliance](/handbook/internal-audit/sarbanes-oxley/)
 
 ## Contact
 
-If you have any questions or feedback about the security compliance observation management process please [contact the GitLab Security Compliance Team](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/)
+If you have any questions or feedback about the observation management process please [contact the GitLab Security Assurance Team](https://about.gitlab.com/handbook/engineering/security/security-assurance/#contacting-the-team)
 
 

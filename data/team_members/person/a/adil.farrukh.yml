@@ -1,5 +1,5 @@
 name: Adil Farrukh
-locality: 
+locality:
 country: Remote
 role: <a href="/job-families/engineering/development/management/fullstack-manager/">Manager, Fullstack Engineering</a>, Manage:Authentication
   and Authorization
@@ -15,7 +15,8 @@ departments:
   - Development Department
   - Dev Section
   - Manage:Authentication and Authorization
-specialty: "Authentication & Authorization"
+specialty:
+- 'Manage: Authentication and Authorization'
 expertise:
 story:
 

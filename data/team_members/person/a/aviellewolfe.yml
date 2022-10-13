@@ -16,7 +16,9 @@ departments:
 - Verify:Pipeline Authoring Group
 - Verify:Pipeline Authoring BE Team
 projects:
-  gitlab: reviewer backend
+  gitlab:
+    - trainee_maintainer backend
+    - maintainer ci_template
 story: 'Avielle is a backend engineer who loves clean, well tested code. She also
   loves video games, lying in the sun, and her two little house panthers.
 

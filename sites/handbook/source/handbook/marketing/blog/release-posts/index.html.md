@@ -429,6 +429,7 @@ Before pinging the release post manager, ask yourself if your content absolutely
   - PM Ensure that the `image_url` field in the release post yml file points to the image file under `/source/images/x_y/`.
   - PM requests a review of the release post item MR from the release post manager, release post tech advisor (`@brhea`), and release post DRI (`@fseifoddini`). Quick action: `/assign_reviewer @brhea @fseifoddini RP-manager`
   - PM notifies release post team in the `#X-Y-release-post` Slack channel that the late addition has been requested with a link to the MR.
+  - The MR can be approved and merged by the release post manager or Product Operations: `@fseifoddini` or `@brhea`.
 - If the feature is primary and you had not previously added it to `features.yml`, you will need to create a second MR, branched from `master` to add the feature to `features.yml`. (`features.yml` should be merged to `master`, not the release post branch).
 
 ### Process for removing merged content blocks
@@ -573,7 +574,6 @@ The TW Lead is responsible for a final review of:
 - [Usability improvements](#usability-improvements-mr)
 - [MVP check](#mvp-entry)
 - Verifying the deprecations and removals sections in the release post link to GitLab the corresponding pages in GitLab Docs.
-- [Releasing the next version of the documentation](#versioned-documentation-release)
 
 While individual TW reviewers and product managers have ultimate responsibility for the style and language of their release post items, including [Deprecations](#deprecations), [Removals](#removals), and [Upgrades](#upgrades), TW leads still have an overall responsibility to notify the release post manager, the product managers and TW reviewers if style and language don't seem reasonably consistent (things are obviously out of sync with known guidelines). But it is not the responsibility of the TW leads to _fix_ style and language inconsistencies. However, TW leads _do_ have the responsibility and ownership to make sure that all links in the release post point to relevant content and be fixed, if issues are found.
 
@@ -734,10 +734,9 @@ This MR has **not** been reviewed by any other TW. For this MR, you'll check thi
 
 ### Versioned documentation release
 
-When a new GitLab version is released on the 22nd, the TW Lead also sets up the release
-of the published documentation for that version.
+When a new GitLab version is released on the 22nd, the Technical Writer who completed the release post structural check for the previous milestone sets up the release of the published documentation for that version.
 
-For instructions, see the GitLab docs [Monthly release process](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md).
+For instructions, see the GitLab docs [monthly release process](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md).
 
 ## TW Reviewers
 
@@ -1629,6 +1628,7 @@ To ensure the generator script runs correctly follow the process below:
 1. Make sure the issue is open.
 1. Make sure the issue is not confidential. If you need to link to a confidential issue you will need to manually create the Release Post Item Merge Request as the [release post item generator](https://about.gitlab.com/handbook/marketing/blog/release-posts/#release-post-item-generator) does not currently create MRs from confidential issues.
 1. Update your issue or epic with content in `### Release notes` (including a docs link and image, although those can always be added/updated in the MR later) specifically having it contain both a `Description:` then a `Documentation:`.
+1. Make sure there is only plain text in the content beneath `### Release notes`. If there is any additional formatting, the script will fail.
 1. Make sure `devops::`, `group::`, `category:` and tier (e.g. `GitLab Core`) labels are applied
 1. Apply one of the `release post item::` scoped labels. This will make the generator script pick up your issue next time it runs (once per hour)
 
@@ -1760,9 +1760,10 @@ The What's New MR will be initiated by the Release Post Manager on the 20th, fin
     - It is recommended to strive for a balance of features available to both free and paid users. If we only include Ultimate features, non-Ultimate users may stop engaging.
 1. The release post manager will create a new MR in the `gitlab.com/gitlab-org/gitlab` project
    1. Use this [template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/data/whats_new/templates/YYYYMMDD0001_XX_YY.yml) to create a new file in the `gitlab/data/whats_new` directory.
-   1. Title the file as `YYYYMMDD00001_XX_YY.yml` - for example, the 13.4 entry is titled `202009300001_13_04.yml`.
+   1. Title the file as `YYYYMMDD0001_XX_YY.yml` - for example, the 13.4 entry is titled `202009300001_13_04.yml`.
    1. Using the content that is in the release post items, duplicate the content for What's New.
       1. Sometimes it is necessary to trim down the description. Keep in mind that these should be short, and generally a single paragraph.
+      1. SaaS-only features need to use `[free, premium, ultimate]` in the What's New MR instead of `[free, silver, gold]` or `core` as is used in the release post items. We will streamline this discrepancy in the future, but for now, the RPM should update the values as necessary when creating the What's New MR.
 1. Images are not required, but encouraged when possible.
    1. For videos, you will need to provide an image. For YouTube videos, you can use the image URL, which can be found by inserting the youtube unique ID into this format: `https://img.youtube.com/vi/[insert-youtube-video-id-here]/hqdefault.jpg`. For cases where a video thumbnail doesn't look great, consider using a generic image from [the `source/images/growth` directory](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/source/images/growth).
    1. Images will end up at a URL like `https://about.gitlab.com/images/X_Y/XXXXXXX.XXX` Make sure you provide a full URL for the YAML entry. Ex: `https://about.gitlab.com/images/13_7/reviewers_sidebar.png`.

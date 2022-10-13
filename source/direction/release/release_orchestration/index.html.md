@@ -42,6 +42,8 @@ Security, compliance, control and governance of the release pipeline is handled 
 ## What's Next & Why
 
 1. [Create annotated tags with Releases UI](https://gitlab.com/gitlab-org/gitlab/-/issues/362481)
+1. [Publish Releases without giving access to source code](https://gitlab.com/gitlab-org/gitlab/-/issues/216485)
+1. [Update a Release through Release-CLI](https://gitlab.com/gitlab-org/release-cli/-/issues/157)
 1. [Automatically insert changelog into Release](https://gitlab.com/gitlab-org/gitlab/-/issues/26015)
 1. [Group Releases](https://gitlab.com/groups/gitlab-org/-/epics/3561)
 1. [Release Notes](https://gitlab.com/groups/gitlab-org/-/epics/2285)

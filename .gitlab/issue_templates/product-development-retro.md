@@ -57,16 +57,16 @@ While preparing for the Retrospective Discussion:
 | Group                       | Development Managers (DRIs)             | UX              | Product Manager | Retro done? | Doc updated? |
 | --------------------------- | --------------------------------------- | :-------------: | :-------------: | :---------: | :----------: |
 | Manage:Authentication and Authorization | @m_gill                      | @badnewsblair   | @hsutor         |  |  |
-| Manage:Optimize             | @m_gill                                 | @badnewsblair   | @hsnir1         |  |  |
 | Manage:Import               | @wortschi                               | @badnewsblair   | @ogolowinski    |  |  |
 | Manage:Workspace            | @mksionek                               | @badnewsblair   | @clohr          |  |  |
 | Plan                        | @donaldcook + @johnhope                 | @badnewsblair   | @gweaver + @mushakov |  |  |
+| Plan:Optimize             | @johnhope                                 | @badnewsblair   | @hsnir1         |  |  |
 | Create:Code Review          | @mnohr + @andr3                         | @mvanremmerden  | @phikai         |  |  |
 | Create:Editor               | @oregand                                | @mvanremmerden  | @ericschurter   |  |  |
 | Create:Source Code          | @sean_carroll + @andr3                  | @mvanremmerden  | @tlinz   |  |  |
 | Gitaly                      | @zj-gitlab                              | -               | @mjwood         |  |  |
-| Ecosystem:Foundations       | @leipert                                | @tauriedavis    | @cdybenko      |  |  |
-| Ecosystem:Integrations      | @arturoherrero                          | @mvanremmerden  | @g.hickman       |  |  |
+| Manage:Foundations       | @leipert                                | @tauriedavis    | @cdybenko      |  |  |
+| Manage:Integrations      | @arturoherrero                          | @mvanremmerden  | @g.hickman       |  |  |
 | Verify:Pipeline Authoring   | @marknuzzo + @samdbeckham               | @rayana         | @dhershkovitch  |  |  |
 | Verify:Pipeline Execution   | @avielle + @samdbeckham                 | @rayana         | @jheimbuck_gl   |  |  |
 | Verify:Runner               | @erushton                               | @rayana         | @DarrenEastman  |  |  |

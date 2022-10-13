@@ -18,7 +18,8 @@ departments:
   - Development Department
   - Dev Section
   - Manage:Authentication and Authorization BE Team
-specialty: Authentication & Authorization
+specialty:
+  - 'Manage: Authentication and Authorization'
 expertise: "<li> Ruby/Ruby on Rails </li>"
 remote_story: After taking maternity break for almost forever .. working remotely
   enabled me to start working again and do what I love along with taking care of my

@@ -19,3 +19,5 @@ features:
       - A token's name.
 
       These new API filters for PATs provide users and administrators more useful results from the PAT API.
+
+      Thank you [Andreas Deicha](https://gitlab.com/TrueKalix) for your contribution! 

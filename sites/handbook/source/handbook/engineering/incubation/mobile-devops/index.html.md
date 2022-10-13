@@ -9,20 +9,21 @@ title: Mobile DevOps Apps Single-Engineer Group
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-### [2022-09-13] Secure Files Parsers
+### [2022-09-29] Content Strategy
 
-In this update we dig into parsing out useful metadata from Apple provisioning profiles and signing certificates.
+In this update we look into how we're approaching content and feedback related to Mobile DevOps.
 
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/R4asgR4Q1Q4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/yF1ipQS8dXI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-[https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/86](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/86)
+[https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/90](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/90)
 
 ### Recent Updates
 
 | Date              | Topic | Video | Issue |
 |-------------------|-------|-------|-------|
+| September 13, 2022 | Secure Files Parsers | [https://youtu.be/R4asgR4Q1Q4](https://youtu.be/R4asgR4Q1Q4) | [https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/86](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/86) |
 | August 25, 2022 | Mobile DevOps Project Settings | [https://youtu.be/mmeHhMQV-ck](https://youtu.be/mmeHhMQV-ck) | [https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/85](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/85) |
 | August 11, 2022 | Auto iOS | [https://youtu.be/cKdxDFCT91I](https://youtu.be/cKdxDFCT91I) | [https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/79](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/79) |
 | July 29, 2022 | Ngrok Pipeline Debugger | [https://youtu.be/VmUFpaJiD84](https://youtu.be/VmUFpaJiD84) | [https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/77](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/77) |

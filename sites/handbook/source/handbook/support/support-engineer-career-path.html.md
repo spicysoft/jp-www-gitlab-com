@@ -19,7 +19,7 @@ While it's important to understand the how (how do I accomplish my goal? how do 
   
 Promotions within the Support Department are guided by the [Support Career Framework Matrix](/handbook/engineering/career-development/matrix/engineering/support/), following [this track of role promotions](/handbook/engineering/career-development/#support-department). Consider the matrix (competency requirements) and promotion path as your expected baseline targets. Utilize the resources and recommendations in this document to explore your *why*, and to build your path to promotion with an extended view of what you can expect as you decide on your direction.
 
-When you are ready to start building your path to promotion, review the tips on [creating and building a promotion doc](/handbook/people-group/promotions-transfers/#creating-a-promotion-or-compensation-change-document). Ask for manager guidance and feedback as necessary.
+When you are ready to start building your path to promotion, review the section on [creating and building a promotion doc](/handbook/people-group/promotions-transfers/#promotion-document). Ask for manager guidance and feedback as necessary.
 
 ### General Recommendations and Useful Resources (Applies to Any Promotion Path)
 
@@ -95,7 +95,7 @@ Recommendations to explore this path:
 - Read [Transitioning from Individual Contributor to Manager](/handbook/engineering/development/dev/create/engineers/training/ic-to-manager/).
 - Read about [Individual Contribution vs. Management](/handbook/engineering/career-development/#individual-contribution-vs-management) and [Trying the Management Track](/handbook/engineering/career-development/#trying-the-management-track).
 - Read about the [Interim Manager](/handbook/engineering/career-development/#interim-manager) role.
-- Read about the [Manager Challenge](https://about.gitlab.com/handbook/people-group/learning-and-development/manager-challenge/) and consider participating.
+- Read about [Elevate](/handbook/people-group/learning-and-development/elevate/) and consider participating.
 
 Considerations when building your path:
 

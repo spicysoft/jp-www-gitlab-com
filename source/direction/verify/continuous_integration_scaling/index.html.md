@@ -23,9 +23,7 @@ For specific information and features related to authoring/defining pipelines, c
 
 Now that we have delivered the [Next CI/CD scale target: 20M builds per day by 2024](https://docs.gitlab.com/ee/architecture/blueprints/ci_scale/) blueprint and related scope on queueing mechanisms via [gitlab&5909](https://gitlab.com/groups/gitlab-org/-/epics/5909), primary key capacity via [gitlab#325618](https://gitlab.com/gitlab-org/gitlab/-/issues/325618), and handling large amounts of data via [gitlab&6009](https://gitlab.com/groups/gitlab-org/-/epics/6009), and have delivered our [CI/CD Time Decay](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/) blueprint, we are ready to begin Phase II of CI Scaling: partitioning data with the CI/CD Time Decay pattern.
 
-The first track of effort will be focused on partitioning the active CI/CD tables via [gitlab&5417](https://gitlab.com/groups/gitlab-org/-/epics/5417) and the second track is to partition queuing tables via [gitlab#347027](https://gitlab.com/gitlab-org/gitlab/-/epics/7438).
-
-* Not part of the blueprint, but supports the overall initiative
+The first track of effort will be focused on partitioning the active CI/CD tables via [gitlab&5417](https://gitlab.com/groups/gitlab-org/-/epics/5417) and the second track is to partition queuing tables via [gitlab&7438](https://gitlab.com/groups/gitlab-org/-/epics/7438).
 
 [Roadmap View](https://gitlab.com/groups/gitlab-org/-/roadmap?state=opened&sort=end_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name%5B%5D=Category%3AContinuous+Integration+Scaling&progress=WEIGHT&show_progress=true&show_milestones=true&milestones_type=ALL)
 

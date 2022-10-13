@@ -1,7 +1,7 @@
 ---
 layout: markdown_page
-title: Product Direction - Fulfillment
-description: "The Fulfillment team at GitLab focuses on creating and supporting the enablement of our customers to purchase, upgrade, downgrade, and renew licenses and subscriptions."
+title: "Product Section Direction - Fulfillment"
+description: "The Fulfillment section at GitLab focuses on supporting our customers to purchase, upgrade, downgrade, and renew paid subscriptions."
 canonical_path: "/direction/fulfillment/"
 ---
  
@@ -11,23 +11,13 @@ canonical_path: "/direction/fulfillment/"
 - TOC
 {:toc}
  
-Last reviewed: 2022-09
+Last reviewed: 2022-10
 
 ## Fulfillment Section Overview
  
 The GitLab Fulfillment section is responsible for creating seamless commercial experiences for our customers by investing in our order-to-cash systems. Our goal is to make it easy for customers to purchase, activate, and manage their GitLab subscriptions. By making it easier for customers to transact and manage their subscriptions, we increase customer satisfaction and improve our go-to-market (GTM) efficiency. Improving our GTM efficiency helps our team to accelerate revenue growth and helps GitLab scale as a company. 
  
-Fulfillment is currently divided into six established groups:
-- [Purchase](#purchase-group)
-- [Billing & Subscription Management](#billing-and-subscription-management-group)
-- [Provision](#provision-group)
-- [Utilization](#utilization-group)
-- [Fulfillment Platform](#fulfillment-platform-group)
-- [Commerce Integrations](#commerce-integrations-group)
-
-In the near future, we plan to establish a dedicated group to focus on [Fulfillment Admin Tools](#fulfillment-admin-tools-group)
- 
-We collaborate frequently across all of GitLab to achieve our goals. Most commonly we work with [Field Operations](/handbook/sales/field-operations/), [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Support](handbook/support/support-ops/), and [Data](/handbook/business-technology/data-team/) teams.
+Fulfillment currently spans [seven groups](#groups) and 12 categories. We collaborate frequently across all of GitLab to achieve our goals. Most commonly we work with [Field Operations](/handbook/sales/field-operations/), [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Billing Ops](/handbook/finance/accounting/finance-ops/billing-ops/), [Support](handbook/support/support-ops/), and [Data](/handbook/business-technology/data-team/) teams.
  
 If you have any feedback on our direction we'd love to hear from you. Feel free and raise an MR, [open an issue](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/new), or contact [Omar Fernández](https://gitlab.com/ofernandez2)
  
@@ -143,282 +133,57 @@ At the moment, Fulfillment is not investing in the following items:
 
 We would like to do more in each of these areas, and will reassess efforts as we wrap up existing projects and/or grow our team size. 
 
-## Group Responsibilities
- 
-### Purchase Group
-
-[Purchase Direction](/direction/fulfillment/purchase/)
-
-The Purchase group is responsible for optimizing the web-direct purchase experience, with a focus on first orders.
-
-Audience
-- Self-service customers
-- Online Sales and Self Service team (Allie Marconi’s team)
-
-Key responsibilities
-- Net new online sales
-- Creating SKUs
-- Purchase flows in GitLab.com SaaS (selecting plan, users, storage, CI minutes)
-- Purchase flows in the Customer Portal SM self-service purchase flows (selecting plan, users)
-- Credit card iframe
-
-Example projects
-- Move CI minutes purchase flow into GitLab.com UI
-- Move Storage purchase flow into GitLab.com UI
-- Allow users to edit billing information from GitLab.com UI
-- End of Availability for Bronze and Starter
-- Capture credit card address at checkout to pass to Stripe for validation
-- Upgrade Zuora Payment Pages integration to v2, so that we can pass more information to Stripe Radar
-- Community Programs self-serve
-
-KPIs
-- Webstore transaction share/volume
-
-### Billing and Subscription Management Group
-
-The Billing and Subscription Management group is responsible for supporting sales-assisted purchasing, subscription management (e.g., reconciliation, auto-renewal, invoicing, payment collection), and more. The group's primary goal is to increase self-service purchase volume to 95.5%.
-
-Audience
-- Self-service customers
-- Sales assisted customers
-- Channel Partners and their customers
-
-Key responsibilities
-- Auto-Renewal processes
-- Quarterly Subscription Reconciliation processes
-- Subscription management features in GitLab.com (invoices, subscription cards, credit cards)
-- Emails/In-app notifications related to subscription management
-- Displaying all purchases, adding / removing seats / users, upgrading / downgrading subscriptions, renewals.
-- Adding seats / users in a subscription
-- Removing seats / users in a subscription
-- Upgrading a subscription
-- Downgrading a subscription
-- Renewing a subscription
-- Self-Service and Sales Assisted subscriptions.
-- Special UX for Channel customers (directing to original subscription source to manage that subscription)
-
-Example projects
-- Quarterly Subscription Reconciliation (QSR)
-
-KPIs
-- SUS
-
-### Provision Group
-
-[Provision Direction](/direction/fulfillment/provision/)
-
-The Provision group is responsible for provisioning and managing licenses across self-managed and SaaS (including Cloud License activation/sync and provisioning of legacy licenses).
-
-Audience
-- Self-service customers
-- Sales assisted customers
-- Channel Partners and their customers
-
-Key responsibilities
-- Post-purchase provisioning and ensuring customers get what they paid for (plan, users, storage, CI minutes, etc.)
-- SaaS provisioning
-- SM provisioning
-
-Example projects
-- Strict Cloud Licensing (Offline Support, Remove License File)
-- Multi-user licensing
-
-KPIs
-- Cloud license adoption
-
-See [Provision Direction](/direction/fulfillment/provision/) page for more information.
-
-### Utilization Group
-
-[Utilization Direction](/direction/fulfillment/utilization/)
-
-### Fulfillment Platform Group
-
-Newly established in FY23, the Fulfillment Platform team aims to extract the complexity of our underlying order-to-cash infrastructure to help other Fulfillment teams build features more quickly. 
- 
-Audience
-- Order to Cash (O2C) teams (Fulfillment, Enterprise Apps, Sales Systems, Field Operations)
-
-Key responsibilities
-- Ensuring reliable infrastructure for our Customers Portal
-- Enables delivery of features through an automated deployment process
-- Add and set metrics, error budgets, alerts, and SLOs to CustomersDot
-- Consistent data architecture across our internal Order-to-Cash systems
-- Integration with Zuora
-- Change Management and SLAs for all Order-to-Cash systems
-- Modifying error logging
-
-Example projects
-- Infrastructure
-- Change Management and SLOs
-- Upgrade CustomersDot to Zuora Orders API
-- Improve accuracy of determining subscription state using the Zuora Subscription API
-- Align to Zuora Billing Account as a Customer Account
-
-KPIs
-- Uptime/performance or change velocity
-
-### Commerce Integrations Group
-
-Audience
-- Channel Partners and their customers
-- Worldwide Channels team
-- Order to Cash (O2C) teams (Fulfillment, Enterprise Apps, Sales Systems, Field Operations)
-
-Key Responsibilities
-- Net new channel sales
-- SM channel purchase flows (selecting plan, users)
-- Robust system integrations across CustomersDot / Zuora Billing / GitLab / Platypus
-- Integration with downstream sales and marketing systems (SFDC, Marketo)
-
-Example projects
-- E-Disty
-- Cloud Marketplaces 
-- License Usage Data in SFDC
-
-KPIs
-- Channel ARR
-
-### Fulfillment Admin Tools Group
-
-NOTE: as of 2022-09 this group has not been established yet. Work related to Fulfillment Admin Tools is currently being managed by the [Utilization Group](#utilization-group). 
-
-Audience
-- GitLab Support team (Tom Cooney’s team)
-- Internal teams (Sales, Billing, Compliance)
-
-Key responsibilities
-- Focuses on building admin tools for the support team.
-- Create transparency for internal teams into customer subscription, billing and licensing.
-
-Example projects:
-- Deprecate Mechanizer
-- Solve for trial plan change
-- Solve for clear subscription
-- Implement minutes and storage change ability in CustomersDot
-- Solve for data integrity for gitlab.com <> CustomersDot subscriptions
-- CustomersDot Admin maintenance
-- Auditing
-
-KPIs
-- Volume of manual subscription modifications by support
-
 ## Roadmap
 
-Our latest roadmap can be seen within the GitLab product by following these links: 
-- [Fulfillment Overall Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
-- [Purchase Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Apurchase&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
-- [Billing & Subscription Management Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Abilling+and+subscription+management&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
-- [Provision Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Aprovision&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
-- [Utilization](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Autilization&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
-- [Fulfillment Platform](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Afulfillment+platform&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
+Our latest roadmap can be seen within the GitLab product: **[Fulfillment Overall Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)**
 
 We also have [Fulfillment Roadmap Slides](https://docs.google.com/presentation/d/1eTH09QZqnazJ4jh-jVGTEYEFA3m6R2jwWuhY5_EtPL4/edit#slide=id.g123a13deda8_0_405) (Not Public), that internal team members can reference for executive reviews. 
 
-### Principles
- 
-Across our stable counterparts, we follow four key principles to keep us focused on delivering the right results. These principles are not absolute, the intent is for them to guide our decision-making.
- 
-**Make conducting business with GitLab seamless**
- 
-When customers choose to purchase GitLab they've already decided to unlock additional value by accessing the features or services enabled by a transaction. We strive to make the transaction experiences fade into the background, helping customers unlock this additional value as easily as possible. This creates a better customer experience and results in accelerated growth for GitLab.
+### Roadmap Prioritization 
 
-This means that in every initiative we question the need for complexity. We strive to build functionality that is easy to understand and use, and make sure it works flawlessly for customers of all types. As much as we can, we won't require a customer to speak to a sales representative and will allow them to choose whether to transact via online self-service tools. 
- 
-**Build a strong foundation so GitLab can scale**
- 
-Fulfillment systems are the foundational layer for many commerce activities within GitLab. Our systems provision licenses for customers, are the source of data for multiple KPIs and data models, and interact directly with [Zuora](/handbook/business-technology/enterprise-applications/guides/zuora/) and Salesforce. These systems need to be reliable, scale with demand, and allow other teams to collaborate. 
+To learn more about our roadmap prioritization principles and process, please see [Fulfillment Roadmap Prioritization](/handbook/product/fulfillment-guide/#fulfillment-roadmap-prioritization)
 
-We regularly invest in our foundations and will continue to pause new feature development in favor of foundations whenever we feel that our foundational systems aren't robust enough. We established a Fulfillment Platform group in FY23 for focused efforts in this area. 
- 
-**Use data to make decisions and measure impact**
- 
-We have many sensing mechanisms at our disposal: feedback routed via our GTM teams, meetings with business counterparts, customer feedback from user research, and improvement suggestions raised by GitLab team members and members of the wider community in our issue tracker. 
- 
-We're also improving how we use data as a sensing mechanism to set direction and prioritization. Understanding our funnel is paramount in building a seamless commerce experience for our customers. Fulfillment teams in collaboration with Growth are instrumenting each point in our transaction funnels so we can use data to inform our strategy and direction.
- 
-**Iterate, especially when the impact of a change is sizeable**
- 
-Iteration is one of the most challenging values to follow, especially within Fulfillment. Oftentimes our work needs to be bundled and aligned closely with external announcements or communications. Even so, we strive to break work down as much as possible and decouple functionality releases from broader announcements. Doing this expedites delivering value to our customers and the business.
+## Groups
 
-**Minimize and remove business logic from the GitLab application code**
+### Purchase Group
 
-In the past, we have embedded significant business logic into the GitLab instance code directly. For example, we have logic in our licensing system that checks at the instance level whether the customer license should be activated based on licenses paid for, etc. This causes significant issues as we evolve our business policies, which we can't then reflect in past GitLab versions that we support. 
+* [Direction](/direction/fulfillment/purchase/)
+* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Apurchase&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
+* The Purchase group is responsible for optimizing the web-direct purchase experience, with a focus on first orders.
+* Categories: Purchase
 
-We will minimize such logic and remove it from the application code whenever possible, seeking alternative solutions. 
+### Billing and Subscription Management Group
 
-### Prioritization Process
+* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Abilling+and+subscription+management&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP) 
+* The Billing and Subscription Management group is responsible for supporting sales-assisted purchasing, subscription management (e.g., reconciliation, auto-renewal, invoicing, payment collection), and more. The group's primary goal is to increase self-service purchase volume to 95.5%.
+* Categories: Billing & Payments, Subscription Management
 
-Our roadmap is prioritized and scheduled following our [Project management process](/handbook/engineering/development/fulfillment/#project-management-process). We aim to update this roadmap every month as a part of our milestone [planning process](/handbook/engineering/development/fulfillment/#planning). 
- 
-To request work to be added to the Fulfillment roadmap, please follow our [intake request process](/handbook/engineering/development/fulfillment/#intake-request). Changes in priorities of this roadmap follow our [prioritization process](/handbook/engineering/development/fulfillment/#prioritization).
- 
-The source of truth for all Fulfillment projects is our **[in-product Fulfillment Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)**.
-       
-By nature of our [direction](/direction/fulfillment/), Fulfillment works mostly on highly cross-functional projects where either or both of the following are true:
-1. Many cross-team dependencies: project execution relies on collaboration with other teams, with significant coordination of time and resources required.
-1. Downstream impacts: projects may change how other teams operate (e.g., Field Operations, Enterprise Apps, Billing) and may also impact the success of their efforts (e.g., achieving sales efficiency targets, accomplishing e-commerce conversion goals)
- 
-To focus on the most impactful work, Fulfillment’s prioritization process seeks to:
-1. Prioritize the highest ROI initiatives as measured by long-term impact on GitLab, Inc’s value. (Note: “cost to build” is a key consideration in the I of the ROI calculation)
-1. Provide future visibility into priorities to adequately plan cross-team and cross-functional resource needs.
-1. Minimize waste and churn due to re-prioritization mid-execution.
- 
-#### Prioritization Criteria
+### Provision Group
 
-A project will be prioritized in the Fulfillment roadmap based on the considerations below.
-1. Revenue impact potential
-   1. Value of unlocking new sales channels
-   1. Sales efficiency improvements and reduction in time spent by a field team member to close a deal, this includes eliminating sales team involvement on most transactions
-   1. Conversion improvements
-   1. Risks and compliance issues (negative revenue potential)
-1. Operational cost reduction
-   1. Reduction in support costs
-   1. Seamless transactions with GitLab, efficiency gains, and improved customer satisfaction.
-1. Foundations to unlock opportunities
-   1. Value of new or improved data to inform future opportunities
-   1. System robustness to support 10x customers
-   1. Value of the foundational work to unlock other opportunities
-   1. Number of GitLab team members able to contribute towards e-commerce improvements
-   1. Work that will help us scale (support more customers, improve operations, simplify business processes, etc.)
-1. Confidence level around the impact and solution
-   1. Low for initiatives that haven’t been properly scoped or researched. PM/UX/Eng and cross-functional partners will increase the confidence by scoping the initiative.
-1. Ease of implementation
-   1. Consider the time and resources required to complete the initiative.
-   1. Consider a solution that is long-term sustainable, and corresponds to the revenue/cost impact estimated.
-   1. For efforts that are not well understood, we will start by assuming a larger effort to account for unknowns. As we do some scoping, we can refine the cost/complexity.
- 
-All initiatives, regardless of who requests them, will be evaluated based on this same criteria.
- 
-Some initiatives will have a direct impact on these criteria, but others will have an indirect impact. We will consider indirect impact as part of the prioritization.
+* [Direction](/direction/fulfillment/provision/)
+* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Aprovision&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
+* The Provision group is responsible for provisioning and managing licenses across self-managed and SaaS (including Cloud License activation/sync and provisioning of legacy licenses).
+* Categories: SM Provisioning, SaaS Provisioning
 
-When scoping new solutions we will prefer those that best allow GitLab to scale and accelerate future work. These solutions often require more upfront foundational work, which we will include in the initial scope. In cases when we decide to accelerate a solution by skipping on some foundational work, we will add this foundational work as a separate line item to the roadmap.
- 
-**A note on Customer Satisfaction**: to understand the impact of efforts aimed at improving customer satisfaction, we should estimate the indirect impact of improving CSAT on revenue and cost. For example, by reducing the number of steps or improving the steps required to purchase we will see an increase in conversion rate and thus revenue.
- 
-#### Scheduling new work
+### Utilization Group
 
-Prioritization based on the established criteria will drive the order in which work is scheduled to be completed. The product team will review overall prioritization regularly. Before changing priorities, will consider:
-1. Efficiency and morale impact of disrupting ongoing efforts
-1. Impact of changes to existing customer and partner commitments
-1. Feedback from cross-functional partners
- 
-To minimize impact and give more predictability to partner teams, we will minimize changes to initiatives that we’ve already agreed with cross-functional partners to do within the ongoing quarter.
- 
-Anyone can request new items to be added to the roadmap via an [intake request](/handbook/engineering/development/fulfillment/#intake-request).
- 
-#### Quarterly cross-functional review
+* [Direction](/direction/fulfillment/utilization/)
+* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Autilization&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
+* Categories: Subscription Usage Reports, Subscription Cost Management
 
-One of our prioritization goals is to maximize overall team output across Fulfillment and cross-functional partners. We want to give transparency to all GitLab team members about the work that Fulfillment and its partner teams plan to deliver.
- 
-To enable this, we will do a roadmap review with our [stable counterparts](/handbook/engineering/development/fulfillment/#stable-counterparts) before the beginning of a new fiscal quarter. As part of this review, we gather feedback on roadmap priorities, update the roadmap based on the feedback, and agree with partners on the scope and delivery milestones for the upcoming 3-6 months.
- 
-During these quarterly reviews we will aim to commit up to 70% of Fulfillment’s engineering capacity for the upcoming quarter, and no more than 30% of capacity for the quarter after. This is meant to provide enough visibility into upcoming activities for cross-functional partners to plan for them while leaving room for reprioritization and changes as needed.
- 
-#### Communicating roadmap changes
+### Fulfillment Platform Group
 
-Any proposed changes to the roadmap will be first communicated to cross-functional partners async in a relevant Slack channel with the relevant context and rationale, and ask for feedback. As needed, a synchronous meeting will be scheduled to discuss. All feedback will be considered by the product team and a final decision will be made and communicated once made.
- 
+* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Afulfillment+platform&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
+* Categories: Fulfillment Infrastructure, Fulfillment Developer Productivity, CustomersDot Application
+
+### Commerce Integrations Group 
+* [Direction](/direction/fulfillment/commerce-integrations/)
+* Categories: Commerce Integrations
+
+### Fulfillment Admin Tools Group
+* [Direction](/direction/fulfillment/fulfillment-admin-tools/)
+* Categories: Fulfillment Admin Tooling
+
 ## OKRs
  
 We follow the [OKR (Objective and Key Results)](/company/okrs/) framework to set and track goals quarterly. The Fulfillment section OKRs are set across the entire [Quad](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris). 

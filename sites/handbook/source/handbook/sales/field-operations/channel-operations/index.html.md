@@ -526,6 +526,28 @@ Partner Help Desk’s primary internal communication channel is Salesforce Chatt
 **Please do not tag PHD team members directly in chatter or make a request through Slack direct message. Always use @Partner Help Desk for SFDC requests or post in #channel-programs-ops in Slack for general questions.**. This ensures our team is working as efficiently as possible for everyone and that you are covered in case the team member who replied first becomes unavailable.
 If someone is working on a case, they will continue to support until the case is closed. If a matter was resolved, but needs to be revisited, please chatter @Partner Help Desk to reopen a case.
 To Chatter the PHD team, tag @Partner Help Desk in Chatter on the related opportunity or account page and a short sentence on your request. If the PHD team needs more information or needs to pull in another team, we will follow up directly via Chatter. If you need to involve a partner, please email partnersupport@gitlab.com, instead of an individual PHD team member so any team member can jump in as something moves forward.
+
+### Tagging Partner Operations or Partner Help Desk in Salesforce
+
+Here is a general list of items that can help you decide when to tag @Partner Operations or @Partner Help Desk in Salesforce. Please continue to refer to our respective handbooks for in-depth information before tagging. 
+
+**Partner Operations**
+Most internal Salesforce (SFDC) and Vartopia system questions and changes, including:
+- Channel Compensation Questions
+- Channel Manager Territory Mapping and Account Assignment
+- Deal Registration Record Updates
+- Specific Channel Quoting Questions (Discounts, Approvals,etc.)
+- Distributor Quote Requests
+- SFDC Reporting Issues
+
+**Partner Help Desk**
+Most partner-facing questions and changes to the Impartner (Partner Portal) system, including:
+- General Channel Program Questions
+- Partner Portal Access Issues and Resources
+- Reseller Deal Registration Activation
+- Partner Training and Certifications
+- Partner Rebates and Payment Set-Up in Coupa
+- Partner Not-for-Resale (NFR) Licenses
  
  
 ##  Program and Incentive Definitions
@@ -613,7 +635,7 @@ The following departments/people will be tagged for gathering this information:
 The following departments/people will be tagged for FYI/Additional Input:
 
 * **Partner Operations:** Colleen Farris, Nick Scala, Niles Jamshaid
-* **Channel Programs**: Evon Collett, Kim Yaegar
+* **Channel Programs**: Evon Collett, Kim Jaegar
 * **Deal Desk**: Jesse Rabbits
 * **PubSec Channel**: Pilar Meija
 
@@ -672,7 +694,7 @@ The Channel Managers use a [tracking system](https://docs.google.com/presentatio
 
  
 ## Alliances and OEMs
-Please visit the [Alliances Handbook](https://about.gitlab.com/handbook/alliances/) for an overview of the GitLab Alliance Team. If you are a GitLab employee, the [Private Alliance Handbook](https://gitlab-com.gitlab.io/alliances/alliances-internal/) is another available resource. The [Alliances Salesforce Dashboard](https://gitlab.my.salesforce.com/01Z4M000000oYAp) is also available.
+Please visit the [Alliances Handbook](https://about.gitlab.com/handbook/alliances/) for an overview of the GitLab Alliance Team. If you are a GitLab employee, the [Private Alliance Handbook](https://internal-handbook.gitlab.io/handbook/alliances/) is another available resource. The [Alliances Salesforce Dashboard](https://gitlab.my.salesforce.com/01Z4M000000oYAp) is also available.
 For any questions regarding our Alliance partners, please reach out to the #alliances Slack channel. If your inquiry is deal-specific, please use one of these Slack channels: **#a_gcp_deal_registration, #a_aws_deal_registration, #a_ibm_deal_registration**.
  
 ### Opportunity Tagging for GCP and AWS Deals
@@ -697,7 +719,18 @@ If GCP or AWS brought us a lead/referred GitLab a deal, and will be transacting 
 
 If GCP or AWS support a deal and help drive the customer to buy GitLab, but were not the original source of the opportunity nor are they transacting the deal, then the following field should be filled out on the Opportunity:
 - **Influence Partner** should be filled out using [GCP](https://gitlab.my.salesforce.com/0014M00001nJhks) or [AWS](https://gitlab.my.salesforce.com/0014M00001ldTdt) account
- 
+
+### Marketplace Transaction Fees
+Deals booked through the Amazon and Google markeplaces use the following fee schedule (non-negotiable):
+
+***Google Cloud***
+
+- Google Marketplace fee: 3% of the value of the booking for all orders through Marketplace
+
+***Amazon Web Services (AWS)***
+
+- Amazon Marketplace fee: 8% for New/FO deal <$1M; 6% for New/FO deal >$1M; 3% for renewals (based on value of the order). About 85% of our AWS transactions at the 3% traunch so for most deals Amazon and Google are at parity. 
+
 ### Requesting Google Cloud Credits
 Required fields when requesting Google Cloud Credits on an Opportunity
 1. Have you engaged with the GCP Team already? (Drop down: Yes, No)

@@ -1,0 +1,72 @@
+Through 2022, the Manage stage will provide such compelling, must-have value to large customers that we will be able to **attribute over $100M in ARR to Manage capabilities by end of year**. This means that Manage is a must-have part of the feature set that supports that customer, or Manage was a key part of their adoption journey.
+
+### Goal Themes
+
+#### Enterprise readiness
+We're going to focus on increasing and retaining the number of customers with enterprise-scale needs. We're doing this by focusing on:
+
+* Enterprise-grade authentication and authorization. We'll focus on SAML and build excellent compatibility and documentation with large identity providers. This should work on both GitLab.com and self-managed.
+* Comprehensive audit events for everything that’s done within GitLab and allowing those events to be accessible via the API and UI.
+* Isolation and control, especially for GitLab.com. For some organizations, there must be safeguards in place to prevent users from viewing or accessing other groups and projects. Providing isolation of [enterprise users](https://gitlab.com/groups/gitlab-org/-/epics/4786)] will help organizations better manage their GitLab usage by providing a more "instance-like" experience at the group level.
+
+| Success factor | How we'll measure |
+| ------ | ------ |
+| Increased self-managed enterprise adoption | At least X customers over Y paid seats purchasing a self-managed license in 2022 |
+| Increased GitLab.com enterprise adoption | At least 15 customers over 500 paid seats purchasing GitLab.com in 2022 |
+| Increased engagement with enterprise must-have features | Increase in paid feature engagement for the enterprise: [Paid SAML](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/dev-section/#manageaccess---paid-gmau---mau-using-paid-saml)(internal link) |
+
+##### GitLab.com
+Of particular importance to our goal of enterprise readiness is ensuring that GitLab.com is ready to meet the needs of large organizations. By the end of 2022, we will close the following gaps between self-managed and GitLab.com:
+
+| Problem | Approach |
+| ------ | ------ |
+| Some user events lack auditability and visibility. | We'll continue to add [additional audit events](https://about.gitlab.com/direction/manage/compliance/audit-events/#whats-next--why) in line with our prioritization framework. |
+| Organizations want to have traceability (and control) over the actions a user's account is taking. | While we don't have plans for an organization to have control over all actions a user's account is taking (a single user account can belong to multiple paid groups; defining account ownership in GitLab.com's current architecture is very challenging), we will allow an enterprise to [provision their accounts](https://gitlab.com/groups/gitlab-org/-/epics/4786). |
+| Since GitLab, Inc. employees are the only admins on GitLab.com, administrative controls for group owners are limited. | We're planning to pull instance-level admin activity into an [administrative area for group owners](https://gitlab.com/gitlab-org/gitlab/-/issues/209020). |
+| Managing credentials (e.g. regular rotation) is not possible, since users belong to the instance and not a particular namespace. | We will allow users to create group specific credentials that can be managed by administrators in a group specific version of [Credentials Inventory](https://gitlab.com/groups/gitlab-org/-/epics/4123)|
+| Since instance-level functionality is admin-only, group owners can't use any features built at this level. | [Workspaces and cascading settings](https://gitlab.com/groups/gitlab-org/-/epics/4419) will allow us to build features and settings at the group-level so they are accessible in both GitLab deployment models.|
+
+If you'd like to comment on our GitLab.com approach, please comment on any of our epics or issues.
+
+#### Enhancing Ultimate
+We're going to drive an Ultimate story that creates obvious, compelling value. The majority of Ultimate's value proposition lies in application security, but we'll strive to improve the breadth of this tier by driving more value in Ultimate, such as:
+
+* Improving tools that help compliance-minded organizations thrive. GitLab makes it easy to contribute, but administrators should have comprehensive control to establish, enforce, and provide evidence of organizational policies that are part of a compliance program or framework. Our compliance vision will evolve to introduce features that enable organizations to rely on GitLab for the enforcement and documentation of policies they set.
+* More customizable and fine-grained permissions. GitLab's RBAC permissions system works well for most, but we should offer more powerful customization for customers to leverage.
+* Powerful analytical insights. Provide dashboarding and analytics for project and portfolio management, allowing business to track and communicate progress on work in flight, capacity of teams and projects, and overall efficiency across their full portfolio.
+
+Success in this theme looks like:
+* Increased share of IACV in Ultimate.
+* Increased adoption and engagement with Ultimate-level features.
+
+### Security and Reliability
+
+GitLab has become mission critical for many organizations. The Manage team will continue to work on ensuring that any security vulnerability that is found is quickly remediated within its [SLO](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity). Performance for both our self-managed and SaaS users is also top priority for the team since this impacts the day-to-day of our users and we want to make GitLab a delightful experience for them and to contribute to increase in efficiency and velocity of the teams.
+
+#### Easy adoption
+Manage will create easy paths to support our land-and-expand strategy. There's a starting point for any organization with an expansive new tool, and Manage will make this transition easy by supporting natural starting points - ideally in Core, for all groups - that get our customers started and hooked on GitLab:
+* Easier import at any scale. Large-scale moves to GitLab should be significantly easier. We'll particularly focus on the user experience migrating from 2-3 key competitors, including gracefully recovering from failures.
+* Drive entry-level enterprise table stakes into Core. Each group will focus on a Core value proposition that allows every user to get value - and encourages enterprises testing the water to land (and later expand) in GitLab.
+
+### Authentication and Authorization
+1. [Flexible Roles and Permissions](https://gitlab.com/groups/gitlab-org/-/epics/4035) are top of mind for customers. The pre-defined 5 roles that GitLab [currently provides](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions) are not flexible enough for the needs of today's enterprise: some roles are too permissive and others are not permissive enough. We want to enable our customers to define their own roles and the permissions that come along with each role, so that they can find their perfect balance between security and ease of use.
+2. [Enterprise Users](https://gitlab.com/groups/gitlab-org/-/epics/5299) - As customers adopt GitLab, they want to retain control over their company's users and what they can and can't do in GitLab. They also have an interest in protecting their inetellectual property. To accomplish this, we will enable enterprises to establish ownership of their [domains](https://gitlab.com/gitlab-org/gitlab/-/issues/321763). From there, they can then [claim users](https://gitlab.com/gitlab-org/gitlab/-/issues/322039) which fall under that domain. Once users are claimed, administrators can customize workflows to reduce friction for enterprise owned users.
+3. Add the ability to create and use [service accounts](https://gitlab.com/gitlab-org/gitlab/-/issues/284393), allowing automated processes to act on behalf of users without consuming a license seat.
+4. [Workspace](https://docs.gitlab.com/ee/user/workspace/#workspace) is being created as the top level namespace - a very important place in the application for GitLab Administrators, since this is where many top level settings and user management resides. Currently, the lack of top level container on GitLab.com makes for a discrepancy on the administrator controls available on GitLab.com vs self-hosted. Our team will work to close this gap - as Workspace is created, we will migrate Administrator functionality to the new container.
+
+Authentication and Authorization uses a [board](https://gitlab.com/groups/gitlab-org/-/boards/3313904?not[label_name][]=security&not[label_name][]=infradev&label_name[]=group::authentication+and+authorization) that is a reflection of our roadmap, divided approximately by quarters. If you're not confident an important Authentication and Authorization issue is on our roadmap, please feel free to highlight by commenting in the relevant issue and @ mentioning hsutor.
+
+### Compliance
+Towards this vision, the Compliance group at GitLab is focused on three key areas:
+* Enabling organizations to define controls and policies, such as separation of duties, in a single location and easily apply and enforce them on the groups and projects that need it.
+* Provide visibility into what is happening in GitLab through a comprehensive audit event system that can be used either directly inside GitLab or exported into third-party tools.
+* Delivering a "single pane of glass" to enable compliance teams to quickly identify non-compliant activities throughout the organization so they can take action.
+
+### Import
+Following our [vision](https://gitlab.com/gitlab-com/Product/-/issues/2680), the Import group is focused on these goals for 2022:
+
+ * Achieve reliable and scaleable imports from GitHub and GitLab for both self-managed and SaaS installations.
+
+### Workspace
+
+The workspace group is focused on creating a better experience for organizations to manage their GitLab experience. This includes moving administrative capabilities that previously existed only for self-managed users to our SaaS users, such as management of users and groups and supporting cascading settings. This also introduces a new concept for feature parity between projects, subgroups and groups. This will create a more intuitive user experience for all our users which expect common behaviors throughout our product.

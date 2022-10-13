@@ -159,8 +159,6 @@
   description: "/job-families/engineering/incubation-engineer/"
 - title: Integrations Engineer
   description: "/job-families/finance/integrations-engineer/"
-- title: Partner Integration Engineer
-  description: "/job-families/product/partner-integration-engineering/"
 - title: Internal Audit
   description: "/job-families/finance/internal-audit/"
 - title: Instructional Design (L&D)
@@ -215,9 +213,9 @@
   description: "/job-families/marketing/marketing-strategy-and-operations/"
 - title: Field Marketing Specialist
   description: "/job-families/marketing/field-marketing-specialist/"
-- title: Digital Experience and Design
+- title: Digital Experience
   description:
-  - "/job-families/marketing/digital-experience-management/"
+  - "/job-families/marketing/digital-experience/"
 - title: Digital Marketing Programs
   description: "/job-families/marketing/digital-marketing-programs-manager/"
 - title: Online Sales and Self Service
@@ -248,6 +246,8 @@
 - title: Director, Risk and Resilience
   description: "/job-families/people-ops/leadership-people-operations-tech-analytics/"
 - title: People Compliance
+  description: "/job-families/people-ops/people-compliance/"
+- title: Background Check
   description: "/job-families/people-ops/people-compliance/"
 - title: Public Relations
   description: "/job-families/marketing/pr-manager/"

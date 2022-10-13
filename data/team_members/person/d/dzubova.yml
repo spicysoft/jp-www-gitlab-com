@@ -20,7 +20,7 @@ departments:
 - Fulfillment:Billing and Subscription Management FE Team
 - Frontend
 projects:
-  customers-app: trainee_maintainer frontend
+  customers-app: maintainer frontend
   gitlab: reviewer frontend
 expertise:
 story: 'Diana is a frontend developer who cares about user impact, loves UX, and will

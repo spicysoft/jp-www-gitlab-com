@@ -13,7 +13,7 @@ description: "This page contains details regarding the verification process for 
 # Overview
 This page contains details regarding the verification process for the [GitLab for Startups](/solutions/startups/) program.
 
-Please see the [Community Programs Automation Workflow](/handbook/marketing/community-relations/community-programs/automated-community-programs/#phase-1-verification) for the full application process.
+Please see the [Community Programs Application Workflow](/handbook/marketing/community-relations/community-programs/automated-community-programs) for complete details on the application process.
 
 # Forms
 We use a Marketo form with the following fields:
@@ -44,8 +44,8 @@ Currently, only YCombinator Startups (YC Startups) qualify for our Startups prog
 
 Here's how to qualify them:
 
- 1. Make sure they are part of the current or two most recent [YCombinator batches](https://www.ycombinator.com/companies/).
- 1. If they are not on that list, follow up with the [`Startups:: Qualification for program` macro](/handbook/marketing/community-relations/community-programs/community-program-applications/email-and-zendesk-macros/) to ask them to provide verification that they are a YC startup.
+1. Make sure they are part of the current or two most recent [YCombinator batches](https://www.ycombinator.com/companies/).
+1. If they are not on that list, follow up with the [`Startups:: Qualification for program` macro](/handbook/marketing/community-relations/community-programs/community-program-applications/email-and-zendesk-macros/) to ask them to provide verification that they are a YC startup.
 
 If they do qualify, continue to [create an opportunity](/handbook/marketing/community-relations/community-programs/community-program-applications/).
 

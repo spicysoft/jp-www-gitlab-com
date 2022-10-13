@@ -235,19 +235,22 @@ module Generators
       end
     end
 
-    STAGES = %w[manage plan create verify package release configure monitor secure govern enablement].freeze
+    STAGES = %w[manage plan create verify package release configure monitor secure govern enablement modelops anti-abuse].freeze
     DEV_STAGES = %w[manage plan create].freeze
     SEC_STAGES = %w[secure govern].freeze
     SECURE_STAGES = %w[secure].freeze
     OPS_STAGES = %w[verify package release configure monitor].freeze
     GOVERN_STAGES = %w[govern].freeze
     ENABLEMENT_STAGES = %w[enablement].freeze
+    DATA_SCIENCE_STAGES = %w[modelops anti-abuse].freeze
 
     # set your stage to 'true' to include Epics with Direction label
     INCLUDE_EPICS = Hash.new("false")
     INCLUDE_EPICS['secure'] = true
     INCLUDE_EPICS['govern'] = true
     INCLUDE_EPICS['enablement'] = true
+    INCLUDE_EPICS['modelops'] = true
+    INCLUDE_EPICS['anti-abuse'] = true
     INCLUDE_EPICS.freeze
 
     def single_engineer_group_data
@@ -444,6 +447,8 @@ module Generators
         'devops::configure',
         'devops::monitor',
         'devops::secure',
+        'devops::modelops',
+        'devops::anti-abuse',
         'HA',
         'Cloud Native',
         'moonshots',

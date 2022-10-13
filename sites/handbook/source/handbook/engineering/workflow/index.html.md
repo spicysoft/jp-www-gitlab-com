@@ -5,7 +5,7 @@ description: "This document explains the workflow for anyone working with issues
 ---
 
 This document explains the workflow for anyone working with issues in GitLab Inc.
-For the workflow that applies to everyone please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/PROCESS.md).
+For the workflow that applies to the wider community see the [contributing guide](https://docs.gitlab.com/ee/development/contributing/).
 
 ## On this page
 {:.no_toc .hidden-md .hidden-lg}
@@ -292,7 +292,7 @@ Be sure to read general guidelines about [issues](https://docs.gitlab.com/ee/dev
 
 ## Working in Teams
 
-For larger issues or issues that contain many different moving parts, you'll be likely working in a team. This team will typically consist of a [backend engineer](/job-families/engineering/backend-engineer/), a [frontend engineer](/job-families/engineering/frontend-engineer/), a [Product Designer](/job-families/engineering/product-designer/) and a [product manager](/job-families/product/product-manager/).
+For larger issues or issues that contain many different moving parts, you'll be likely working in a team. This team will typically consist of a [backend engineer](/job-families/engineering/backend-engineer/), a [frontend engineer](/job-families/engineering/frontend-engineer/), a [Product Designer](/job-families/product/product-designer/) and a [product manager](/job-families/product/product-manager/).
 
 1. Teams have a shared responsibility to ship the issue in the planned release.
     1. If the team suspects that they might not be able to ship something in time, the team should escalate / inform others as soon as possible. A good start is informing your manager.

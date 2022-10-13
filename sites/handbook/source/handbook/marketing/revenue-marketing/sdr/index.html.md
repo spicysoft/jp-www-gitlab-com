@@ -637,6 +637,13 @@ Before scheduling the meeting with the AE/SAL, you will need to verify the sales
 2. On ZoomInfo or other sources, verify the HQ of the company or the ultimate user. Unless the account is Named, lead ownership is determined based on the HQ of a company, regardless of the lead's location geographically.
 3. If there's an account already assigned to a different segment, please do not immediately pass leads that your research says should be for another segment. Instead, please chatter ASM and the current account owner with your data. If there is a consensus, please then tag Sales Support for the reassignment. Please be mindful of discrepancies between our SSOT and LinkedIn. There are many cases where LI employee count does not indicate the reality of their employee size. For example, in companies with commonly used names, LI can overstate their employee count. On the other hand, LI can understate the employee count of companies that do not have a very strong tech presence.
 
+#### How do I request SAO credit on a Web Direct opportunity?
+On the opportunity record in Saleforce, compose a new Chatter message that includes the following:
+1. Tag your manager (do not tag Sales Support)
+2. Include a link to the record in Salesforce that shows your related two-way activity
+3. Explain how you influenced their decision to purchase GitLab (helped with evaluation, uncovered a need, provided value, etc)
+
+Your manager will review the information and decide whether SAO credit is warranted. If confirmed, they will Chatter Sales Support to add you to the opportunity. If rejected, they will communicate to you the reasoning for their decision.
 
 ## BDR Outbound Process
 
@@ -1188,7 +1195,7 @@ Past Business Development Associates have shared their best practice steps relat
 * **I do not know what this person did to score as an MQL**: First check the last interesting moment description on Salesforce and then check the Scoring tab of the Marketo Sales Insight widget that is also on the Salesforce lead page. If no points were allocated to behavior and only to demographic type information please Slack the Marketing Ops group so they are aware that this lead did not take any new action. 
 * **I received a personal data subject request by a prospect**: Our MOPs team has set up a process to address any data subject requests for deletion or access to data. If you receive a request for deletion or access to data, please re-direct inquiries to the [Personal Data Subject Request](https://support.gitlab.io/account-deletion/). This messaging snippet [can be used and tailored.](https://app1a.outreach.io/snippets/1903)
 * **Why are BDRs no longer the Account Owner in Outreach?**: BDRs are no longer listed as the account Owner in Outreach to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the  ‘BDR Assigned’ field.
-* **A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did?**: SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect shortly before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect's account. Then chatter your manager and provide a link to the correspondence you had with the original lead/contact. 
+* **A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did?**: SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect shortly before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect's account. Then follow [this process](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#how-do-i-request-sao-credit-on-a-web-direct-opportunity) to request SAO credit.
     * Note: Sometimes someone else from your prospect's company actually made the GitLab purchase, leading to the opportunity being related to them instead
 
 ## Sales Development Organization Time Off
@@ -1306,7 +1313,7 @@ Steps:
     * Under partners, add the reseller account as VAR/Reseller"
 
 ## Working with the Community Relations Team
-The [Community Relations team](/handbook/marketing/community-relations/) owns GitLab's [Education](/handbook/marketing/community-relations/education-program/), [Open Source](/handbook/marketing/community-relations/opensource-program/), and [Startups](/solutions/startups/) programs. When a lead fills out the form to apply for one of these free community programs, Salesforce `Lead` ownership will automatically change to the `Community Advocate Queue`. If this Lead was in an Outreach sequence, it will automatically be marked as finished.
+The [Community Relations team](/handbook/marketing/community-relations/) owns GitLab's [Education](/handbook/marketing/community-relations/community-programs/education-program/), [Open Source](/handbook/marketing/community-relations/community-programs/opensource-program/), and [Startups](/solutions/startups/) programs. When a lead fills out the form to apply for one of these free community programs, Salesforce `Lead` ownership will automatically change to the `Community Advocate Queue`. If this Lead was in an Outreach sequence, it will automatically be marked as finished.
 
 The [Community Programs team](/handbook/marketing/community-relations/community-programs/) (a sub-team of Community Relations), and the Program Managers for each program, will then work to qualify the lead. If the Lead does not end up qualifying for one of the programs, they will be passed straight to sales.
 - Forms
