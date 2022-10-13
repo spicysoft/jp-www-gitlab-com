@@ -61,9 +61,9 @@ still need to validate the following via research:
 
 ### Timeline
 
-- FY'23-Q3: Validate user and business problems. Make [vendor no-go / go decision](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service). Conduct proof of concept via testing handful of use cases in Sandbox environment. Define MVP. Note: this work could slip into Q4.
-- FY'23-Q4: Assuming we pick a vendor, execute upon MVP.
-- FY'24-Q1: Vendor integration, build & launch.
+- FY'23-Q3: Validate user and business problems. Conduct 1 proof of concept use case via sandbox testing on in vendor's Sandbox environment. Note: this work could continue to slip into Q4.
+- FY'23-Q4: Continue to work through proof of concept sandbox use cases. Make [vendor no-go / go decision](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service) by Nov 15th. Define MVP. 
+- FY'24-Q1: Assuming we pick a vendor, execute upon MVP. Vendor integration, build & launch.
 - FY'24-Q2: Vendor integration, build & launch.
 
 ### Vendor Overview
