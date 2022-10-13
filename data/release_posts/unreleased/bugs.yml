@@ -34,4 +34,4 @@ tertiary:
       - [At group level, an empty merge request search result view does not include the buttons, search bar, etc.](https://gitlab.com/gitlab-org/gitlab/-/issues/373862)
       - [Finish review fails when &quot;approve&quot; box is checked on already-approved MR](https://gitlab.com/gitlab-org/gitlab/-/issues/372972)
       - [Merge button red, pipeline widget stuck on &quot;Checking pipeline status&quot;, yet the last pipeline is green](https://gitlab.com/gitlab-org/gitlab/-/issues/229738)
-
+      - [Database timeout in Sidekiq/StoreSecurityReportsWorker](https://gitlab.com/gitlab-org/gitlab/-/issues/374138)
