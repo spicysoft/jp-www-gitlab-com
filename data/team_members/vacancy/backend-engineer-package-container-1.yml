@@ -3,7 +3,7 @@ name: New Vacancy
 placeholder: true
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Package</a>
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Package:Container Registry</a>
 reports_to: michelletorres
 picture: ../gitlab-logo-extra-whitespace.png
 twitter:
@@ -12,7 +12,8 @@ departments:
   - Engineering Function
   - Development Department
   - Ops Sub-department
-  - Package
+  - Package Stage
+  - Package:Container Registry Group
 expertise:
 story: |
   Open Position
