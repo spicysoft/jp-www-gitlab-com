@@ -367,21 +367,15 @@ In the run-up to publishing the release post on the 22nd, some release post mana
 1. [ ] Mention `@Sid`, `@david` in the `#release-post` channel when the post has been generated for their review per these [communication guidelines](https://about.gitlab.com/handbook/marketing/blog/release-posts/#communication).
 1. [ ] Capture any feedback from Slack into a single comment on the Release Post MR with action items assigned to the DRIs to address. Check the [content review guidelines](https://about.gitlab.com/handbook/marketing/blog/release-posts/#content-reviews) for more details.
 
-#### Incorporating Feedback
+#### Create the What's New MR
 
-1. [ ] Make sure all feedback from CEO and Product team reviews have been addressed by working with the DRIs of those areas as needed.
-1. [ ] If you receive feedback about the ordering of the primary Items, you might need to adjust the order.
-1. [ ] If needed. re-order secondary items by adjusting the `titles` in the content blocks. More information to consider about altering secondary items in the [content review guidelines](https://about.gitlab.com/handbook/marketing/blog/release-posts/#content-reviews) and [feature order technical instructions](https://about.gitlab.com/handbook/marketing/blog/release-posts/#feature-order)
-1. [ ] Make sure there are no open feedback items in this MR or in the `#release-post` channel.
-1. [ ] On the 20th, ping Product Operations DRI (`@fseifoddini` ) for final check in the `#release-post` channel. You should also assign them as a reviewer to the release post merge request.
-1. [ ] After the Product Operations review, the Product Operations DRI (`@fseifoddini` ) will `approve` the release post merge request
-1. [ ] After content assembly on the 18th and by 10 AM PDT on the 20th, the RPM will identify the 3-7 items for **What's New** and create the MR by following the guidance in [Creating an MR for What's New entries](https://about.gitlab.com/handbook/marketing/blog/release-posts/index.html#creating-an-mr-for-whats-new-entries).
-  1. [ ] Post the following message in `#backend_maintainers` on Slack:
-    > I am the release post manager for XX.Y and will need help merging in the "What's new" notification following the publication of the release post. This will be a time-sensitive MR on the 22nd. Could I please request a volunteer or two to be ready and available to help merge the MR when I have it ready to go? Thanks! cc: @a_akgun
-  1. [ ] The RPM will create and finalize the MR draft by 11:59 PDT on the 21st.
-  1. [ ] The RPM will tag in What's New DRIs Product Operations `@fseifoddini` and `@brhea` and VP of Product `@david` as Reviewers, to review and Approve.
-  1. [ ] The RPM will tag in any maintainers who respond to the above message in `#backend_maintainers` as Reviewers, to review and Approve.
-  1. [ ] The RPM will merge the MR after the release post is live on the 22nd and images have been checked to load correctly locally.
+1. [ ] Identify the 3-7 items for **What's New** and create the MR by following the guidance in [Creating an MR for What's New entries](https://about.gitlab.com/handbook/marketing/blog/release-posts/index.html#creating-an-mr-for-whats-new-entries).
+1. [ ] Post the following message in `#backend_maintainers` on Slack:
+`I am the release post manager for XX.Y and will need help merging in the "What's new" notification following the publication of the release post. This will be a time-sensitive MR on the 22nd (15:00-19:00 UTC). Could I please request a volunteer or two to be ready and available to help merge the MR when I have it ready to go? Thanks! cc: @a_akgun`
+1. [ ] The RPM will create and finalize the MR draft by 11:59 PDT on the 21st.
+1. [ ] The RPM will tag in What's New DRIs Product Operations `@fseifoddini` and `@brhea` and VP of Product `@david` as Reviewers, to review and Approve.
+1. [ ] The RPM will tag in any maintainers who respond to the above message in `#backend_maintainers` as Reviewers, to review and Approve.
+1. [ ] The RPM will merge the MR after the release post is live on the 22nd and images have been checked to load correctly locally.
 
 ---
 
@@ -389,9 +383,26 @@ In the run-up to publishing the release post on the 22nd, some release post mana
 
 **Due date: YYYY-MM-20**
 
+#### Incorporating Feedback
+
+1. [ ] Make sure all feedback from CEO and Product team reviews have been addressed by working with the DRIs of those areas as needed.
+1. [ ] If you receive feedback about the ordering of the primary Items, you might need to adjust the order.
+1. [ ] If needed. re-order secondary items by adjusting the `titles` in the content blocks. More information to consider about altering secondary items in the [content review guidelines](https://about.gitlab.com/handbook/marketing/blog/release-posts/#content-reviews) and [feature order technical instructions](https://about.gitlab.com/handbook/marketing/blog/release-posts/#feature-order)
+1. [ ] Make sure there are no open feedback items in this MR or in the `#release-post` channel.
+
+#### ProdOps Review
+
+1. [ ] On the 20th, ping Product Operations DRI (`@fseifoddini` ) for final check in the `#release-post` channel. You should also assign them as a reviewer to the release post merge request.
+1. [ ] After the Product Operations review, the Product Operations DRI (`@fseifoddini` ) will `approve` the release post merge request
+
+#### Branch maintenance
+
 1. [ ] Check if the number of features you added in the introductory paragraph has changed. To get the number, do a hand count of just the features (top, primary, secondary) in `/data/release_posts/X_Y`, and also count the number of items in the performance improvements and the usability improvements files in the current `release-X-Y` branch. Do not include bugs, upgrades, etc. You can use an approximate count (i.e. 40+ instead of 43). Remove the backticks around the number if you have not already.
 1. [ ] Check if the number of [merged community contributions](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Community+contribution&milestone_title=X.Y&scope=all&sort=popularity&state=merged) you added in the introductory paragraph has changed. Remove the backticks around the number if you have not already.
 1. [ ] Use `/rebase` on the release post MR. If you receive an error that the rebase cannot be scheduled, resolve any conflicts that appear in the merge request widget. If no conflicts appear, consult with the Tech Advisor to resolve them locally.
+
+#### Announcements
+
 1. [ ] Alert the product team of the top/primary items in Slack.
   1. PMs can use [this query](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=X.Y&not%5Blabel_name%5D%5B%5D=released%3A%3Acandidate) (update it with the current milestone) and check with their EMs to verify the features did make it into the release.
   1. Post in the `#release-post` channel:
@@ -403,16 +414,14 @@ In the run-up to publishing the release post on the 22nd, some release post mana
 
   _Please let us know if any of your merged primary release post items shifted out of the release after the 18th and will not make it into the final release packages by the 22nd._
   ```
-
-
-5. Top/Primary items can move.
+1. Top/Primary items can move.
   1. It is the Release Post Manager's responsibility to make sure any top/primary items mentioned in the introduction are accurate prior to the 22nd, because release post items can sometimes move in/out of the packaged release after the 18th, and this could affect the themes, headline, etc.
   1. If you learn that any top/primary items have moved in/out of the packaged release after the 18th, communicate this directly to stop or start associated actions, with the DRIs for:
     1. [Technical Marketing](https://about.gitlab.com/handbook/marketing/strategic-marketing/technical-marketing/) (the TMM team), who produce demo videos per release.
     1. [Social Marketing](https://about.gitlab.com/handbook/marketing/corporate-marketing/social-marketing/), who produce feature campaigns per release.
     1. [Corporate Communications](https://about.gitlab.com/handbook/marketing/corporate-marketing/corporate-communications/), who lead media outreach and may have produced a press release
     1. Any other related efforts you're aware of, for example related blog posts.
-6. [ ] Post a comment in the `#whats-happening-at-gitlab` channel.
+1. [ ] Post a comment in the `#whats-happening-at-gitlab` channel.
   ```md
   Hey all!
   This month's release post is almost ready!
