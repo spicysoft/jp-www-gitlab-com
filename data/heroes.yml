@@ -775,3 +775,13 @@
   bio: Software Engineer ❤️ DevOps Engineer • DevSecOps • AWS Community Builder • GitLab Hero • Open-source  ❤️
   gitlab: roxsross
   picture: roxsross.png
+
+- type: person
+  name: Jonas Wälter
+  locality:
+  country: Switzerland
+  role: GitLab Hero
+  twitter:
+  bio: Software Engineer
+  gitlab: wwwjon
+  picture: jonaswaelter.jpg
