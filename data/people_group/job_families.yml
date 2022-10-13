@@ -218,13 +218,15 @@
   - "/job-families/marketing/digital-experience/"
 - title: Digital Marketing Programs
   description: "/job-families/marketing/digital-marketing-programs-manager/"
-- title: Online Sales and Self Service
+- title: Online Sales and Self Service Data
   description:
   - "/job-families/sales/senior-manager-online-sales-self-service-product-data-analytics/"
 - title: Online Sales and Self Service (Growth)
   description:
   - "/job-families/sales/Director-online-sales-and-self-service-growth/"
   - "/job-families/sales/self-service-online-sales-growth/"
+- title: Online Sales and Self Service Operations/Product GTM
+  description: "/job-families/sales/online-sales-operations/"
 - title: Open Source Program Manager
   description: "/job-families/marketing/open-source-program-manager/"
 - title: Order Management
