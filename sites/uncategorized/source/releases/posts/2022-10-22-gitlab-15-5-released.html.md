@@ -1,11 +1,11 @@
 ---
 release_number: "15.5" # version number - required
 title: "GitLab 15.5 released with Feature A and Feature B" # short title (no longer than 62 characters) - required
-author: matt_wilson_name # author name and surname - required
+author: Matt Wilson # author name and surname - required
 author_gitlab: matt_wilson # author's gitlab.com username - required
-image_title: '/images/X_Y/X_Y-cover-image.jpg' # cover image - required
+image_title: '/images/15_5/15_5-cover-image.jpg' # cover image - required
 description: "GitLab 15.5 released with Feature A, Feature B, Feature C, Feature D and much more!" # short description - required
-twitter_image: '/images/X_Y/X_Y-cover-image.jpg' # required - copy URL from image title section above
+twitter_image: '/images/15_5/15_15-cover-image.jpg' # required - copy URL from image title section above
 categories: releases # required
 layout: release # required
 featured: yes
@@ -17,9 +17,9 @@ featured: yes
 
 # COVER IMAGE LICENCE
 cover_img:
-  image_url: "https://example.com#link_to_original_image" # required
+  image_url: "https://drive.google.com/file/d/1LrT1c-udF2ImonYJi0S3-YznQnsvaGIC/view?usp=sharing" # required - Matt Wilson took this picture personally
   licence: CC0 # which licence the image is available with - required
-  licence_url: "#https://example.com#link_to_licence" # required
+  licence_url: "https://creativecommons.org/publicdomain/zero/1.0/legalcode" # required
 
 ---
 
