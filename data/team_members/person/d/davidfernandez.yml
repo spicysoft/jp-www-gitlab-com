@@ -2,8 +2,8 @@
 name: David Fernandez
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer,
-  Package:Package Registry</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
+  Engineer, Package:Package Registry</a>
 reports_to: michelletorres
 picture: davidfernandez.png
 twitter: 10io
@@ -26,5 +26,5 @@ domain_expertise:
 - rails
 - container_registry
 - package_registry
-specialty: Package:Package Registry
+specialty: Package
 
