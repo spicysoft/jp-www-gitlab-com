@@ -828,18 +828,60 @@ stages:
     section: ops
     slack:
       channel: s_package
-    handbook: product/categories/#package-stage
+    handbook: engineering/development/ops/package
     groups:
-      package:
-        name: Package
+      package_registry:
+        name: Package Registry
         pm: Tim Rizzi
-        focus: Package GMAU
+        focus: Package Registry GMAU
+        cm: Chrissie Buchanan
+        pmm: Heather Simpson
+        backend_engineering_manager: Carrie Kroutil
+        frontend_engineering_manager: Carrie Kroutil
+        be_team_tag: Package:Package Registry BE Team
+        fe_team_tag: Package:Package Registry FE Team
+        support:
+          - Nourdin el Bacha
+        qm: Joanna Shih
+        sets:
+          - TBD
+        pdm:
+          - Rayana Verissimo
+        ux:
+          - Katie Macoy
+        uxr:
+          - Erika Feldman
+        tech_writer: Clayton Cornell
+        appsec_engineer: TBD
+        cs_team_tag: Package Registry Group CS Stable Counterpart
+        internal_customers:
+          - department: Distribution Team
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - package_registry
+          - helm_chart_registry
+        usage_driver_score: 3
+        asp_driver_score: 2
+        sam_driver_score: 4
+        group_link: product/categories/#package-group
+        slack:
+          channel: g_package-registry
+          alias: package-registry-group
+        gitlab_group: "gitlab-org/ci-cd/package-stage/package-registry-group"
+        handbook: engineering/development/ops/package/package-registry
+        google_group: "package-stage@gitlab.com"
+      container_registry:
+        name: Container Registry
+        pm: Tim Rizzi
+        focus: Container Registry GMAU
         cm: Chrissie Buchanan
         pmm: Heather Simpson
         backend_engineering_manager: Michelle Torres
         frontend_engineering_manager: Michelle Torres
-        be_team_tag: Package BE Team
-        fe_team_tag: Package FE Team
+        be_team_tag: Package:Container Registry BE Team
+        fe_team_tag: Package:Container Registry FE Team
         support:
           - Nourdin el Bacha
         qm: Joanna Shih
@@ -848,12 +890,12 @@ stages:
         pdm:
           - Rayana Verissimo
         ux:
-          - Katie Macoy
+          - TBD
         uxr:
           - Erika Feldman
         tech_writer: Clayton Cornell
-        appsec_engineer: Vitor Meireles De Sousa
-        cs_team_tag: Package Group CS Stable Counterpart
+        appsec_engineer: TBD
+        cs_team_tag: Container Registry Group CS Stable Counterpart
         internal_customers:
           - department: Distribution Team
             dri: TBD
@@ -861,8 +903,6 @@ stages:
             dri: TBD
         categories:
           - container_registry
-          - package_registry
-          - helm_chart_registry
           - dependency_proxy
           - dependency_firewall
         usage_driver_score: 3
@@ -870,11 +910,11 @@ stages:
         sam_driver_score: 4
         group_link: product/categories/#package-group
         slack:
-          channel: s_package
-          alias: package-group
-        gitlab_group: "gitlab-org/ci-cd/package-stage"
-        handbook: engineering/development/ops/package/
-        google_group: "package-stage@gitlab.com"
+          channel: g_container-registry
+          alias: container-registry-group
+        gitlab_group: "gitlab-org/ci-cd/package-stage/container-registry-group"
+        handbook: engineering/development/ops/package/container-registry
+        google_group: "package-stage@gitlab.com"  
 
   secure:
     display_name: "Secure"
