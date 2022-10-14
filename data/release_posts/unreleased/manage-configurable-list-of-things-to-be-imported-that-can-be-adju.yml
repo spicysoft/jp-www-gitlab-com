@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/doc/user/project/import/github.md#select-additional-items-to-import'
-    image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
+    image_url: '/images/unreleased/import-more-relationships-from-github.png'
     reporter: gitlab_bot
     stage: manage
     categories:
