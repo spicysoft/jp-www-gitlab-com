@@ -48,3 +48,6 @@ tertiary:
       - [Project autocomplete members/commands NoMethodError](https://gitlab.com/gitlab-org/gitlab/-/issues/376088)
       - [TODOs APIs failing when todo's target_type is WorkItem](https://gitlab.com/gitlab-org/gitlab/-/issues/374954)
       - [Filtering roadmap by milestone returns &quot;Something went wrong while fetching epics&quot;](https://gitlab.com/gitlab-org/gitlab/-/issues/370630)
+      - [API Security string values are not escaped by the GraphQlAstPrinter](https://gitlab.com/gitlab-org/gitlab/-/issues/374981)
+      - [API Security GraphQL Schema doesn't support a GraphQL endpoind of / (slash)](https://gitlab.com/gitlab-org/gitlab/-/issues/374715)
+      - [Reduce API Security XML external entity vulnerability false positives](https://gitlab.com/gitlab-org/gitlab/-/issues/374690)
