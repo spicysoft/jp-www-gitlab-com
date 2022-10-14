@@ -35,3 +35,10 @@ tertiary:
       - [Finish review fails when &quot;approve&quot; box is checked on already-approved MR](https://gitlab.com/gitlab-org/gitlab/-/issues/372972)
       - [Merge button red, pipeline widget stuck on &quot;Checking pipeline status&quot;, yet the last pipeline is green](https://gitlab.com/gitlab-org/gitlab/-/issues/229738)
       - [Database timeout in Sidekiq/StoreSecurityReportsWorker](https://gitlab.com/gitlab-org/gitlab/-/issues/374138)
+      - [Allowlist CVE in generalallowlist ignored if no value assigned to key](https://gitlab.com/gitlab-org/gitlab/-/issues/371471)
+      - [Scan Execution Rule mode is not disabled for invalid cron syntax or cron syntax rule mode does not support](https://gitlab.com/gitlab-org/gitlab/-/issues/375490)
+      - [Scan Execution Policy editor UI is incorrectly validating policies before saving](https://gitlab.com/gitlab-org/gitlab/-/issues/375191)
+      - [Policy List Drawer stays open when the security policy project is changed](https://gitlab.com/gitlab-org/gitlab/-/issues/374029)
+      - [Editing DAST Profiles not Disabled for Group Security Policies](https://gitlab.com/gitlab-org/gitlab/-/issues/366994)
+
+
