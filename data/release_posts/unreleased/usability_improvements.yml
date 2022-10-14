@@ -19,3 +19,5 @@ tertiary:
       - [Update sort order to 'Last created' when navigating from admin dashboard using 'View latest projects'](https://gitlab.com/gitlab-org/gitlab/-/issues/369483)
       - [Enhance activity menu on Vulnerability Report](https://gitlab.com/gitlab-org/gitlab/-/issues/370280)
       - [Improve behavior of submit button if initial Personal Access Token submit is unsuccessful](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/100174)
+      - [Make it easier to traverse errors in job logs](https://gitlab.com/gitlab-org/gitlab/-/issues/343658)
+      - [`Scheduled` tag is missing in pipeline details page for scheduled pipelines](https://gitlab.com/gitlab-org/gitlab/-/issues/375222)
