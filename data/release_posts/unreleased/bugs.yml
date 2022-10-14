@@ -42,3 +42,8 @@ tertiary:
       - [Editing DAST Profiles not Disabled for Group Security Policies](https://gitlab.com/gitlab-org/gitlab/-/issues/366994)
       - [Roadmaps: child epics showing as top level epics](https://gitlab.com/gitlab-org/gitlab/-/issues/374704)
       - [When moving subepic out of the parent epic, there is no information it was moved in the former parent epic](https://gitlab.com/gitlab-org/gitlab/-/issues/364684)
+      - [(confidential)](https://gitlab.com/gitlab-org/gitlab/-/issues/376418)
+      - [Epic errors when loading child issues and epics for signed out users](https://gitlab.com/gitlab-org/gitlab/-/issues/376303)
+      - [Project autocomplete members/commands NoMethodError](https://gitlab.com/gitlab-org/gitlab/-/issues/376088)
+      - [TODOs APIs failing when todo's target_type is WorkItem](https://gitlab.com/gitlab-org/gitlab/-/issues/374954)
+      - [Filtering roadmap by milestone returns &quot;Something went wrong while fetching epics&quot;](https://gitlab.com/gitlab-org/gitlab/-/issues/370630)
