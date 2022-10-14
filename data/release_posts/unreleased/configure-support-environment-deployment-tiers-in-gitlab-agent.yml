@@ -2,7 +2,7 @@
 features:
   secondary:
   - name: "Restrict the agent for Kubernetes by environment deployment tiers"
-    available_in: [premium, ultimate]
+    available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html#impersonate-the-cicd-job-that-accesses-the-cluster'
     reporter: nagyv-gitlab
