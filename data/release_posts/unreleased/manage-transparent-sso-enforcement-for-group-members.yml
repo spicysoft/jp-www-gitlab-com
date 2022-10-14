@@ -12,4 +12,9 @@ features:
     - [System Access]
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/215155'
     description: |
-      Previously, when SSO enforcement was enabled, you were required to use SSO to access a group and its projects. Now, GitLab first checks if you're a member of the project and have a SAML identity. If you meet both conditions and SSO enforcement is enabled, you must authenticate through SSO; if SSO enforcement is disabled, you can choose your authentication method.
+      Previously, when SSO enforcement was enabled, you were required to use SSO to access a group and its projects. Now, GitLab first checks that you:
+
+      - Are a member of the project.
+      - Have a SAML identity.
+
+      If you meet both conditions and SSO enforcement is enabled, you must authenticate through SSO. If SSO enforcement is disabled, you can choose your authentication method.
