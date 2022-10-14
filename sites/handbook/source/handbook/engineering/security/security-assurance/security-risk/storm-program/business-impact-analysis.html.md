@@ -56,7 +56,7 @@ A BIA is initiated as the result of GitLab's [process for adding net-new systems
 
 ### Existing systems
 
-BIA data validation is performed once per fiscal year for each system listed on GitLab's [Tech Stack](/handbook/business-technology/tech-stack-applications/) above Tier 4. Tier 4 systems will validated every 2 years as they are lower-risk systems and changes from year to year should be minimal. In addition to BIA data/response validation, additional questions may be incorporated for the Technical Owner to answer (e.g., questions regarding Technical Debt). The Security Risk Team is responsible for the periodic review and reconciliation of systems which require a BIA year over year. System BIAs will be performed in waves and prioritized by Tier and regulatory need.
+A BIA is performed or validated once per fiscal year for each Tier 1 system listed on GitLab's [Tech Stack](/handbook/business-technology/tech-stack-applications/). BIA data for systems below Tier 1 will be performed or validated every 2 years. In addition to BIA data/response validation, additional questions may be incorporated for the Technical Owner to answer (e.g., questions regarding Technical Debt). The Security Risk Team is responsible for the periodic review and reconciliation of systems which require a BIA year over year. System BIAs will be performed in waves and prioritized by Tier and regulatory need.
 
 ### BIA Ouputs:
 
