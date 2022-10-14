@@ -2,7 +2,8 @@
 name: Hayley Swimelar
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer, Package:Container Registry</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
+  Engineer, Package:Container Registry</a>
 reports_to: michelletorres
 picture: hayleyswimelar.jpg
 twitter:
@@ -27,6 +28,7 @@ story: |
   She likes to learn about natural languages, cook tasy food, go on runs, and make terrible, terrible puns.
 domain_expertise:
 - container_registry
-expertise: Maintainer of <a href="https://landscape.cncf.io/?project=hosted,member,no&selected=distribution">CNCF Distribution</a>
-specialty: Package:Container Registry
+expertise: Maintainer of <a href="https://landscape.cncf.io/?project=hosted,member,no&selected=distribution">CNCF
+  Distribution</a>
+specialty: Package
 
