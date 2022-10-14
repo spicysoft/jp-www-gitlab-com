@@ -30,6 +30,8 @@ The scope of GitLab's ISMS is limited to the resources that directly support Git
 #### Assets
 Assets within the scope of the ISMS include: customer data, software, people, and internal information assets to host and operate the cloud-based solution.
 
+External assets that are subject to shared responsiblity include cloud service providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, physical infrastructure assets and management, processes that run on a multi-tenant virtualized environment, cloud service administration as it supports internal administration, geographical location.
+
 #### Excluded from Scope
 As an all remote company, there are no physical office locations in the scope of the ISMS. All third party data center operations and physical hardware assets are not in scope and are managed by the third party service provider.
 
