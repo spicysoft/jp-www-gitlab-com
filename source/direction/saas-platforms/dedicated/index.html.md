@@ -169,13 +169,31 @@ Based on the prioritization framework, during Limited Availability we will focus
 The full roadmap for LA can be [found here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/484#roadmap-during-limited-availability)(GitLab internal).
 The full roadmap for GA [is documented in this Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/485#post-ga-roadmap)(GitLab internal).
 
+### Available Features
+Please see list of [Available Features](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features) in our documentation.
 
 ### What's Next & Why
 <!-- This is almost always sourced from the following sections, which describe top
 priorities for a few stakeholders. This section must provide a link to an issue
 or [epic](https://about.gitlab.com/handbook/product/product-processes/#epics-for-a-single-iteration) for the MVC or first/next iteration in the category.-->
 
-From the table above, we plan to focus on security enhancements and improving SLAs as those items are highest in our priortization framework.
+From the table above, we plan to focus on security enhancements, compliance certifications, automation, and establishing SLOs, as those items are highest in our prioritization framework. 
+
+We plan to complete the following to conclude Limited Availability. All links below are GitLab internal.
+
+P1 - Security/Compliance 
+- [SOC2 Type 1 Certification](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/70)
+- [Network Architecture](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/68)
+- [Continued security enhancements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/513)
+
+P2 - Automation
+- [Switchboard for Configuration management](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/54)
+- [Automated Version Management](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/29)
+- [Automated Restore](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/39)
+
+P3 - Reliability
+- [Geo secondary](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/2)
+- [Access to observability dashboard](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/325)
 
 ### What is Not Planned Right Now
 <!-- Often it's just as important to talk about what you're not doing as it is to
@@ -186,14 +204,11 @@ in fact do. We should limit this to a few items that are at a high enough level 
 someone with not a lot of detailed information about the product can understand
 the reasoning-->
 
-The following items are not planned to be delivered at launch and are under consideration for the Post-GA timeframe:
+Please see list of [Features that are not available](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available) in our documentation. In addition to the features from that page, the items from the below list will not be available before the launch of GA but are under consideration for release in the Post-GA launch timeframe.
 
-- Hosted Runners
-- Bring Your Own Key (BYOK) Encryption
-- Authentication via LDAP
-- Multiple Geo secondaries beyond the secondary site included by default
-- Custom Domain
-- Choice of Cloud Providers (e.g. GCP)
+- Observability Dashboard via Switchboard
+- Security and Compliance Phase 3 Items
+- Pre-Production Instance
 
 ### Maturity Plan
 <!-- It's important your users know where you're headed next. The maturity plan
