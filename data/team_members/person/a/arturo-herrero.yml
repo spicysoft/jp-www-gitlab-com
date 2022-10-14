@@ -8,6 +8,9 @@ reports_to: dsatcher
 picture: arturo-herrero.jpg
 twitter: ArturoHerrero
 gitlab: arturoherrero
+mentor: true
+expertise: |
+  <li><a href="https://about.gitlab.com/handbook/people-group/learning-and-development/manager-development/#transitioning-to-a-manager-role">Transitioning to a manager role</a> <a href="/company/team/structure/#expert">expert</a></li>
 departments:
 - Engineering Function
 - Development Department
@@ -21,4 +24,3 @@ story: 'Software is my craft. During my career I have had the opportunity to wor
   '
 specialty:
 - 'Ecosystem: Integrations'
-
