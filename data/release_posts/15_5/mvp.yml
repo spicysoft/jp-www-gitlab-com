@@ -6,18 +6,9 @@
 # DELETE THESE COMMENTS BEFORE SUBMITTING THE MERGE REQUEST
 ---
 mvp:
-  fullname: "Matt Gresko"
-  gitlab: mgresko
+  fullname: "Anatoli Babenia"
+  gitlab: abitrolly
   description: |
-    Matt [added support](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/2020)
-    for EC2 instance profile credentials when using AWS hosted elasticsearch clusters,
-    while we could only use static IAM credentials to access them before.
-    This is a complex contribution and a significant improvement to GitLab's
-    integration with [elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html#enabling-elasticsearch),
-    as it allows some aspects of our
-    [Advanced Global Search](https://docs.gitlab.com/ee/user/search/advanced_search.html#advanced-global-search)
-    functionality to be automatically configured when GitLab is run on AWS.
+    Anatoli made [multiple improvements and fixes](https://gitlab.com/gitlab-org/gitlab-docs/-/merge_requests?scope=all&state=all&author_username=abitrolly&milestone_title=15.5) to `gitlab-docs` this release. His contributions include improving discoverability of certain topics, adding suggestions to improve the efficiency and overall experience for some technical tasks, and adds coverage collection and reporting for Ruby tests with coverage visualization! He also squashed [a bug](https://gitlab.com/gitlab-org/gitlab-docs/-/issues/1232) related to launching GitPod.
 
-    Have we mentioned that Matt also worked on the
-    [initial AWS implementation](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/1305)?
-    Yeah, he did! It's all amazing, thank you Matt! 🙌
+    Your nominator had this to say: "It's been excellent to have some engineering help from the community." Agreed! Thank you Anatoli for all of your contributions.
