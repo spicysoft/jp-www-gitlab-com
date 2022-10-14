@@ -14,3 +14,4 @@ tertiary:
       - [Use the creation timestamp returned by the Container Registry API in cleanup policies](https://gitlab.com/groups/gitlab-org/-/epics/8379).
       - [Redundant Vulnerabilities::StateTransition records that don&#39;t actually present a state transition.](https://gitlab.com/gitlab-org/gitlab/-/issues/373808)
       - [Loading a specific epic is extremely slow, participants fails](https://gitlab.com/gitlab-org/gitlab/-/issues/362944)
+      - [Migrate API Security analyzer to .NET 6](https://gitlab.com/gitlab-org/gitlab/-/issues/345188)
