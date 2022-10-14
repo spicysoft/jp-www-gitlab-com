@@ -270,17 +270,21 @@ team_planning:
   stage: plan
   label: Category:Team Planning
   feature_labels:
-    - filter bar
+    - Issues list
     - issue weight
     - issues
     - labels
     - markdown
     - milestones
+    - iterations
     - notifications
     - quick actions
     - todos
     - time tracking
     - boards
+    - discussions
+    - internal notes
+    - work items
   marketing_page:
   documentation: https://docs.gitlab.com/ee/topics/plan_and_track.html#team-planning
   direction: /direction/plan/project_management/team_planning/
@@ -329,6 +333,9 @@ portfolio_management:
     - epic boards
     - roadmaps
     - epics
+    - health status
+    - linked items
+    - parent/child items widget
   marketing_page: /stages-devops-lifecycle/portfolio-management/
   documentation: https://docs.gitlab.com/ee/topics/plan_and_track.html#portfolio-management
   direction: /direction/plan/portfolio_management/
@@ -378,6 +385,9 @@ service_desk:
   viable: 2017-01-01
   complete:
   lovable:
+  feature_labels:
+     - service desk issues
+     - customer relationships management
   maturity: viable
   marketing: true
   priority_level: low
@@ -398,6 +408,11 @@ requirements_management:
   viable: 2023-01-01
   complete: 2023-11-01
   lovable: 2024-11-01
+  feature_labels:
+     - requirements
+     - link requirements to test cases
+     - merge request to issue traceability
+     - issue description diff
   maturity: minimal
   marketing: true
   priority_level: high
@@ -418,6 +433,8 @@ quality_management:
   viable: 2023-09-01
   complete: 2024-09-01
   lovable: 2025-09-01
+  feature_labels:
+    - test cases
   maturity: minimal
   marketing: true
   priority_level: low
@@ -438,6 +455,10 @@ design_management:
   viable: 2020-12-22
   complete: 2024-01-01
   lovable: 2024-12-31
+  feature_labels:
+    - design assets
+    - link issues to designs
+    - figma plugin
   maturity: viable
   new_maturity: true
   marketing: true
