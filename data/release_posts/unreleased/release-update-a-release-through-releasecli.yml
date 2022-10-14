@@ -1,0 +1,14 @@
+---
+features:
+  secondary:
+  - name: "Update a Release through Release-CLI"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: cbalane
+    stage: release
+    categories:
+    - Release Orchestration
+    issue_url: 'https://gitlab.com/gitlab-org/release-cli/-/issues/157'
+    description: |
+      In this milestone we have added the ability to update release directly from the release-cli. This can be used for automating releases by updating any of the release attributes directly from the `.gitlab-ci.yml` file and leveraging the CI/CD pipeline to do so.
