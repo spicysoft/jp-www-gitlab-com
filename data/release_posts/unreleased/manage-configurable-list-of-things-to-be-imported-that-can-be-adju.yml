@@ -4,7 +4,7 @@ features:
   - name: "Import more relationships when importing projects from GitHub"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/doc/user/project/import/github.md#select-additional-items-to-import'
     image_url: '/images/unreleased/REPLACE_THIS_WITH_THE_IMAGE_PATH.png'
     reporter: gitlab_bot
     stage: manage
@@ -20,4 +20,4 @@ features:
       - [Pull request events](https://gitlab.com/groups/gitlab-org/-/epics/7673).
       - [Pull request and issue comments](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/67150).
 
-      Now you can include these additional relationships in an import if you require them, which slows down the import but includes more information.
+      Now you can include these additional relationships in an import if you require them, which slows down the import but includes more information. To import additional relationships, go to the GitHub import page and select appropriate checkboxes under **Advanced import settings**.
