@@ -219,9 +219,9 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/quality/contributor-success/ @nick_vh
 
 ^[Security department]
-/sites/handbook/source/handbook/engineering/security/ @JohnathanHunt @Julia.Lake
+/sites/handbook/source/handbook/engineering/security/ @akramer @Julia.Lake
 /sites/handbook/source/handbook/engineering/security/architecture/ @plafoucriere
-/sites/handbook/source/handbook/engineering/security/security-operations/ @JohnathanHunt @jfuentes2
+/sites/handbook/source/handbook/engineering/security/security-operations/ @akramer @jfuentes2
 /sites/handbook/source/handbook/engineering/security/security-assurance/ @Julia.Lake @jburrows001 @tdilbeck @corey-oas @jlongo_gitlab
 /sites/handbook/source/handbook/engineering/security/threat-management/ @smanzuik @estrike
 /sites/handbook/source/handbook/engineering/security/threat-management/red-team/ @cmoberly
@@ -431,7 +431,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/leadership/underperformance/ @wendybarnes @pegan @cbednarz @rtakken @glucchesi
 /sites/handbook/source/handbook/people-policies/ @cgudgenov @emilyplotkin @pegan @wendybarnes
 /sites/handbook/source/handbook/people-group/ @wendybarnes @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
-/sites/handbook/source/handbook/people-group/acceptable-use-policy/ @wendybarnes @JohnathanHunt @emilyplotkin @pegan
+/sites/handbook/source/handbook/people-group/acceptable-use-policy/ @wendybarnes @akramer @emilyplotkin @pegan
 /sites/handbook/source/handbook/people-group/employment-solutions/ @pegan @hdevlin
 /sites/handbook/source/handbook/people-group/contracts-probation-periods/ @ashjameson @mpatel8 @shensiek @alex_venter @Mowry @nutaurus
 /sites/handbook/source/handbook/people-group/people-compliance/ @cgudgenov
@@ -659,10 +659,10 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 
 
 ^[Security]
-/sites/handbook/source/handbook/security/ @JohnathanHunt @Julia.Lake
+/sites/handbook/source/handbook/security/ @akramer @Julia.Lake
 
 ^[Security Compliance]
-/sites/uncategorized/source/security/ @JohnathanHunt @Julia.Lake
+/sites/uncategorized/source/security/ @akramer @Julia.Lake
 
 ^[Support]
 /sites/handbook/source/handbook/support/ @gitlab-com/support
