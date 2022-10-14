@@ -40,5 +40,5 @@ tertiary:
       - [Scan Execution Policy editor UI is incorrectly validating policies before saving](https://gitlab.com/gitlab-org/gitlab/-/issues/375191)
       - [Policy List Drawer stays open when the security policy project is changed](https://gitlab.com/gitlab-org/gitlab/-/issues/374029)
       - [Editing DAST Profiles not Disabled for Group Security Policies](https://gitlab.com/gitlab-org/gitlab/-/issues/366994)
-
-
+      - [Roadmaps: child epics showing as top level epics](https://gitlab.com/gitlab-org/gitlab/-/issues/374704)
+      - [When moving subepic out of the parent epic, there is no information it was moved in the former parent epic](https://gitlab.com/gitlab-org/gitlab/-/issues/364684)
