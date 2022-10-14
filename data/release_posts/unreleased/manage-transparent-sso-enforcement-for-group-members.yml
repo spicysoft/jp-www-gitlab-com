@@ -9,7 +9,7 @@ features:
     reporter: hsutor
     stage: manage
     categories:
-    - [System Access]
+      - "System Access"
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/215155'
     description: |
       Previously, when SSO enforcement was enabled, you were required to use SSO to access a group and its projects. Now, GitLab first checks that you:
