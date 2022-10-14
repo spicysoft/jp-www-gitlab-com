@@ -87,21 +87,39 @@ There is no one formula for this challenge, which all maturing organizations fac
 
 ## 1 year Prod Ops Plans
 
+### Key Performance Indicators
+
+_To be added for FY24._
+
 ### FY23 Key Initiatives
+
+#### Simplify GitLab's product manager onboarding 
+
+_Supports [Outcome driven products](#operationalizing-outcome-driven-products)_
+
+**Streamline the general and product management specific onboarding workflows to better compliment each other.**  
+
+**Why?**  Minimize the amount of time it takes for product managers to ramp up to be ready to perform their job successfuly at GitLab.
+
+**How are we measuring success?**
+
+- [x] Reduce the number of tasks in the general PM onbaording and product management specific onboarding templates by 40%
+- [x] Reduce total the number of onboarding templates from 4 to 2
+- [x] Reduce the timeline to complete required product manager onboarding from 3 months to 4 weeks
 
 #### Scale up GitLab's release notes workflow and design
 
 _Supports [Outcome driven products](#operationalizing-outcome-driven-products)_
 
-🏹 **Automate the release post workflow to communicate product release notes more efficiently.**  
+**Automate the release post workflow to communicate product release notes more efficiently.**  
 
 **Why?**  Minimize the amount of work necessary for product managers to contribute to and manage their release notes.
 
 **How are we measuring success?**
 
-- Reduce [documentation of the Release Post](https://about.gitlab.com/handbook/marketing/blog/release-posts/) from 18,623 words to 10,000 words
-- Reduce number of manual release post manager tasks in the [monthly release post MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md) from ~120 to 10
-- Increase percent of automated ~"release post item" MRs from 32% to 51%
+- [x] Reduce [documentation of the Release Post](https://about.gitlab.com/handbook/marketing/blog/release-posts/) from 18,623 words to 10,000 words
+- [ ] Reduce number of manual release post manager tasks in the [monthly release post MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md) from ~120 to 10
+- [ ] Increase percent of automated ~"release post item" MRs from 32% to 51%
   - [Manual 68%](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?scope=all&state=merged&label_name[]=release%20post%20item&deployed_after=2021-01-01&not[author_username]=gitlab-bot&deployed_before=2022-09-01)
   - [Automated 32%](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?scope=all&state=merged&label_name[]=release%20post%20item&deployed_after=2021-01-01&deployed_before=2022-09-01&author_username=gitlab-bot)
 
@@ -111,8 +129,11 @@ _Supports [Outcome driven products](#operationalizing-outcome-driven-products)_
 
 **How are we measuring success?**
 
-- Reduce Deprecations and Removals documentation pages from 2 to 1
-- Develop mechanism to send opt-in Breaking Changes notifications via email
+- [x] Create an SSOT for documentatin of deprecations, removals and breaking changes in GitLab Docs
+     - [x] Add a content filtering mechanism to the depreciations docs page
+     - [ ] Add a content filtering mechanism to the removals docs page
+- [ ] Reduce the number of deprecations and removals documentation pages from 2 to 1
+- [ ] Identify a soluton to enable users to receive push notifications (such as email, RSS, pub/sub) about breaking changes 
 
 #### Grow GitLab's post purchase survey
 _Supports [Feedback loops](#building-qualitative--quantitative-feedback-loops)_
@@ -123,13 +144,13 @@ _Supports [Feedback loops](#building-qualitative--quantitative-feedback-loops)_
 
 **How are we measuring success?**
 
-- 90% reduction of aggregate manual work needed to perform/share out  quarterly analysis (from 80 hours --> 8 hours)
-- Reduce the number of manual interventions required to add PPS data to `features.yml` to 0
-- Take manual calculation error risk to 0%  by implementing full automation between SFDC, Qualtrics and Sisense for:
-    - quarterly feature counts
-    - all time feature counts
-    - quarterly ARR segmentation
-    - all time ARR segmentation
+- [ ] 90% reduction of aggregate manual work needed to perform/share out  quarterly analysis (from 80 hours --> 8 hours)
+- [ ] Reduce the number of manual interventions required to add PPS data to `features.yml` to 0
+- [ ] Take manual calculation error risk to 0%  by implementing full automation between SFDC, Qualtrics and Sisense for:
+    - [ ]  quarterly feature counts
+    - [ ]  all time feature counts
+    - [ ]  quarterly ARR segmentation
+    - [ ]  all time ARR segmentation
 
 **Expand data types collected by post purchase survey to include web direct sales.**
 
@@ -137,7 +158,7 @@ _Supports [Feedback loops](#building-qualitative--quantitative-feedback-loops)_
 
 **How are we measuring success?**
 
-- 100% awareness and consideration of web direct survey insights by product management, marketing, sales and customer service teams.
+- [ ] Trigger post purchase survey to 100% of web direct sales 
 
 #### Establish thought leadership for GitLab  
 _Supports [Scaling product knowledge](#scaling-product-knowledge)_
@@ -148,57 +169,10 @@ _Supports [Scaling product knowledge](#scaling-product-knowledge)_
 
 **How are we measuring success?**
 
-- Publish at least 2 product operations authored [GitLab blog](https://about.gitlab.com/blog/) posts in FY23
-- Elevate rank `/direction/product-operations/` from position 18 to position 5 in Google search results
-- 100% of blog posts generated by product managers have the 'product tag in preparation for launching a product category in the Gitlab blog
-
-### FY24 Key Initiatives
-
-#### Scale up GitLab's prioritization framework
-_Supports [Outcome driven products](#operationalizing-outcome-driven-products)_
-
-**Evolve Gitlab's prioritization framework and supporting documentation to reduce complexity in process and increase focus on desired outcomes.
-
-**Why?** To empower Sections, Stages and Groups by giving them clear guidance and flexibility so they can prioritize work to achieve optimal balance between product growth, product optimization and product maintenance for their customers and users.
-
-**How are we measuring success?**
-
--  TBD
-
-#### Grow GitLab's Paid NPS survey
-_Supports [Feedback loops](#building-qualitative--quantitative-feedback-loops)_
-
-**Implement a solution to collect survey responses from paid account self-managed users.**
-
-**Why?** To better understand the sentiment of self-managed users given they make up X% user population.
-
-**How are we measuring success:**
-
-- Increase the percent of self-managed paid NPS responses collected from 0% to 20%
-
-#### Improve usability GitLab's Product Handbook
-
-***Redesign Product Handbook content to make it easier discover or find specific content types**
-_Supports [Scaling product knowledge](#scaling-product-knowledge)_
-
-**Why?** So product managers, cross-functional team members and the wider GitLab community can find helpful references and workflow to due their job. 
-
-**How are we measuring success?**
-- Reduce word count of [Product Handbook](https://about.gitlab.com/handbook/product) from X to X 
-
-#### Establish thought leadership for GitLab  
-_Supports [Scaling product knowledge](#scaling-product-knowledge)_
-
-**Increase GitLab's footprint as thought leaders in Product Management and Product Operations.**
-
-**Why?** So GitLab customers and the broader tech community can benefit from and contribute to our best practices.
-
-**How are we measuring success?**
-
-- Publish at least 4 product operations authored [GitLab blog](https://about.gitlab.com/blog/) posts in FY24
-- Create a new/separate category for product manager generated content  in the [GitLab blog](https://about.gitlab.com/blog/)
-- Take Product operations speaker engagements from 0 t0 2
-- Increase product operations direction page views by X%
+- [ ] Publish at least 2 product operations authored [GitLab blog](https://about.gitlab.com/blog/) posts in FY23
+- [ ] Implement rank opptimizaton content to take `/direction/product-operations/` from position 18 to position 10 in Google search results
+- [ ] 100% of blog posts generated by product managers have the 'product tag in preparation for launching a product category in the Gitlab blog
+- [ ] Take Product operations speaker engagements from 0 t0 1
 
 ## Areas of Focus 
 
@@ -245,6 +219,7 @@ The areas of ownership below highlight workflows and processes for which Product
 
 - [GitLab's product release notes (release post),related templates and workflow automations](https://about.gitlab.com/handbook/marketing/blog/release-posts/)
 - [Paid NPS and Post Purchase Surveys](/direction/product-operations/#product-operations-surveys)
+- [Prioritization framework](https://about.gitlab.com/handbook/product/product-processes/#prioritization)
 - [Product development flow](https://about.gitlab.com/handbook/product-development-flow/)
 - [Product handbook](https://about.gitlab.com/handbook/product)
 - [Product manager learning and development](https://about.gitlab.com/handbook/product/product-manager-role/learning-and-development/)
@@ -260,7 +235,7 @@ The areas of advisement below highlight workflows and processes for which Produc
  - [Cross-functional prioritization](https://about.gitlab.com/handbook/product/cross-functional-prioritization/)
  - [GitLab working groups](https://about.gitlab.com/company/team/structure/working-groups/)
  - [Product manager career development, assessment and growth](https://about.gitlab.com/handbook/product/product-manager-role/product-CDF-competencies/)
- - [Prioritization framework](https://about.gitlab.com/handbook/product/product-processes/#prioritization)
+ - [Product development timeline](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline)
 
 ## Suggesting edits to this page
 
