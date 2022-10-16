@@ -8,10 +8,9 @@ tertiary:
     # Structure: For consistency, do not end your [Description] with a period as not all titles will be complete sentences
     description: |
       Some of the notable bug fixes in 15.5 are:
-
-      - [Progressively load CI/CD variable for 100+](https://gitlab.com/gitlab-org/gitlab/-/issues/372728).
-      - [Container Registry only showing 100 tags per image](https://gitlab.com/gitlab-org/gitlab/-/issues/359277).
-      - [NuGet packages with uppercase characters cannot be found](https://gitlab.com/gitlab-org/gitlab/-/issues/273664).
+      - [Progressively load CI/CD variable for 100+](https://gitlab.com/gitlab-org/gitlab/-/issues/372728)
+      - [Container Registry only showing 100 tags per image](https://gitlab.com/gitlab-org/gitlab/-/issues/359277)
+      - [NuGet packages with uppercase characters cannot be found](https://gitlab.com/gitlab-org/gitlab/-/issues/273664)
       - [Group permissions do not allow project moves between namespaces](https://gitlab.com/gitlab-org/gitlab/-/issues/296817)
       - [Allow custom logo for login page](https://gitlab.com/gitlab-org/gitlab/-/issues/375269)
       - [Fix empty password submitting failure on admin editing user page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/99042)
