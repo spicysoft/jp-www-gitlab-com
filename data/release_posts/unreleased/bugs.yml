@@ -30,7 +30,7 @@ tertiary:
       - [Missing objects for imported GitHub repository when GitHub API rate limit is reached](https://gitlab.com/gitlab-org/gitlab/-/issues/354848)
       - [Incorrect "environments" API endpoint path in GitLab UI results in "There was an error fetching the environments information"](https://gitlab.com/gitlab-org/gitlab/-/issues/372349)
       - [Account owner being removed results in a group with no owner](https://gitlab.com/gitlab-org/gitlab/-/issues/367510)
-      - [500 Error when listing merge requests with approver and sorting by merged date](https://gitlab.com/gitlab-org/gitlab/-/issues/375192)
+      - [HTTP 500 Internal Server Error when listing merge requests with approver and sorting by merged date](https://gitlab.com/gitlab-org/gitlab/-/issues/375192)
       - [At group level, an empty merge request search result view does not include the buttons, search bar, etc.](https://gitlab.com/gitlab-org/gitlab/-/issues/373862)
       - [Finish review fails when &quot;approve&quot; box is checked on already-approved MR](https://gitlab.com/gitlab-org/gitlab/-/issues/372972)
       - [Merge button red, pipeline widget stuck on &quot;Checking pipeline status&quot;, yet the last pipeline is green](https://gitlab.com/gitlab-org/gitlab/-/issues/229738)
