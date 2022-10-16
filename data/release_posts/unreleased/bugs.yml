@@ -32,7 +32,7 @@ tertiary:
       - [Account owner being removed results in a group with no owner](https://gitlab.com/gitlab-org/gitlab/-/issues/367510)
       - [HTTP 500 Internal Server Error when listing merge requests with approver and sorting by merged date](https://gitlab.com/gitlab-org/gitlab/-/issues/375192)
       - [At group level, an empty merge request search result view does not include the buttons, search bar, and tabs](https://gitlab.com/gitlab-org/gitlab/-/issues/373862)
-      - [Finish review fails when the approve box is checked on an MR that is already approved](https://gitlab.com/gitlab-org/gitlab/-/issues/372972)
+      - [Finish review fails when Approve merge request is selected on an MR that is already approved](https://gitlab.com/gitlab-org/gitlab/-/issues/372972)
       - [Merge button red, pipeline widget stuck on &quot;Checking pipeline status&quot;, yet the last pipeline is green](https://gitlab.com/gitlab-org/gitlab/-/issues/229738)
       - [Database timeout in Sidekiq/StoreSecurityReportsWorker](https://gitlab.com/gitlab-org/gitlab/-/issues/374138)
       - [Allowlist CVE in generalallowlist ignored if no value assigned to key](https://gitlab.com/gitlab-org/gitlab/-/issues/371471)
