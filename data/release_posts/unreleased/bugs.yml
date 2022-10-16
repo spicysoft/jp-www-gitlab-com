@@ -50,6 +50,5 @@ tertiary:
       - [API Security string values are not escaped by the GraphQlAstPrinter](https://gitlab.com/gitlab-org/gitlab/-/issues/374981)
       - [API Security GraphQL Schema doesn't support GraphQL endpoints that have no path](https://gitlab.com/gitlab-org/gitlab/-/issues/374715)
       - [Reduce API Security XML external entity vulnerability false positives](https://gitlab.com/gitlab-org/gitlab/-/issues/374690)
-      - [User correctly prompted for incorrect 2FA PIN or password input vs no prompt](https://gitlab.com/gitlab-org/gitlab/-/issues/346494)
       - [Auditors cannot see group CI/CD Runners](https://gitlab.com/gitlab-org/gitlab/-/issues/357328)
       - [Searching by excluded extension only excludes the first extension](https://gitlab.com/gitlab-org/gitlab/-/issues/273162)
