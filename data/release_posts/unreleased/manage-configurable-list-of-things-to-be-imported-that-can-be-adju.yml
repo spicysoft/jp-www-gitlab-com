@@ -4,7 +4,7 @@ features:
   - name: "Import more relationships when importing projects from GitHub"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/doc/user/project/import/github.md#select-additional-items-to-import'
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/import/github.html#select-additional-items-to-import'
     image_url: '/images/unreleased/import-more-relationships-from-github.png'
     reporter: gitlab_bot
     stage: manage
