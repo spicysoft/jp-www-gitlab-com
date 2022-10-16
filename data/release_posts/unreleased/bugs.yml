@@ -14,7 +14,7 @@ tertiary:
       - [Group permissions do not allow project moves between namespaces](https://gitlab.com/gitlab-org/gitlab/-/issues/296817)
       - [Allow custom logo for login page](https://gitlab.com/gitlab-org/gitlab/-/issues/375269)
       - [Fix empty password submitting failure on admin editing user page](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/99042)
-      - [Invalid current password error not set when 2FA setting is on for group](https://gitlab.com/gitlab-org/gitlab/-/issues/346494)
+      - [Invalid current password error not shown when 2FA setting is on for group](https://gitlab.com/gitlab-org/gitlab/-/issues/346494)
       - [Fix crash if createAlert dismissed multiple times](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/99494)
       - [Fix Potential for high memory consumption by negative caching](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/issues/171)
       - [Fix KAS CI/CD Tunnels to work for projects/groups outside of the group with the agent config](https://gitlab.com/gitlab-org/gitlab/-/issues/346566)
