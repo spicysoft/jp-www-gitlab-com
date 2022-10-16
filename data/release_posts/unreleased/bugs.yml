@@ -48,7 +48,7 @@ tertiary:
       - [TODOs APIs failing when todo's target_type is WorkItem](https://gitlab.com/gitlab-org/gitlab/-/issues/374954)
       - [Filtering roadmap by milestone returns "Something went wrong while fetching epics"](https://gitlab.com/gitlab-org/gitlab/-/issues/370630)
       - [API Security string values are not escaped by the GraphQlAstPrinter](https://gitlab.com/gitlab-org/gitlab/-/issues/374981)
-      - [API Security GraphQL Schema doesn't support a GraphQL endpoind of / (slash)](https://gitlab.com/gitlab-org/gitlab/-/issues/374715)
+      - [API Security GraphQL Schema doesn't support GraphQL endpoints that have no path](https://gitlab.com/gitlab-org/gitlab/-/issues/374715)
       - [Reduce API Security XML external entity vulnerability false positives](https://gitlab.com/gitlab-org/gitlab/-/issues/374690)
       - [User correctly prompted for incorrect 2FA PIN or password input vs no prompt](https://gitlab.com/gitlab-org/gitlab/-/issues/346494)
       - [Auditors cannot see group CI/CD Runners](https://gitlab.com/gitlab-org/gitlab/-/issues/357328)
