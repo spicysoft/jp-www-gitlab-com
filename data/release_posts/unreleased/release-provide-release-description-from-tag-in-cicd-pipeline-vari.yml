@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Provide Release Description from Tag in CI/CD pipeline variable"
+  - name: "Provide release description from tag in CI/CD pipeline variable"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/#amazing'
