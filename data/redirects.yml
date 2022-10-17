@@ -4223,7 +4223,8 @@
     - /devops-tools/pdfs/zoho-sprints-vs-gitlab.html
     - /devops-tools/zoho-sprints-vs-gitlab.html
     - /devops-tools/zoho-sprints-vs-gitlab/
-  target: /devops-tools/
+    - /devops-tools/
+  target: /competition/
   comp_op: '='
 - sources:
     - /training
