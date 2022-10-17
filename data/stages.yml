@@ -99,7 +99,7 @@ stages:
           - Mike Nichols
         uxr:
           - Anne Lasch
-        tech_writer: Fiona Neill
+        tech_writer: Lorena Ciutacu
         appsec_engineer: Rohit Shambhuni
         cs_team_tag: Access Group CS Stable Counterpart
         internal_customers:
@@ -1601,7 +1601,7 @@ stages:
           - TBD
         sets:
           - Carlo Catimbang
-        tech_writer: Clayton Cornell
+        tech_writer: Lorena Ciutacu
         cs_team_tag: Product Intelligence Group CS Stable Counterpart
         internal_customers:
           - department: Sales Department
