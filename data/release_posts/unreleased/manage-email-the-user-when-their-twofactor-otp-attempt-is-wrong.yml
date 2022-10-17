@@ -4,7 +4,7 @@ features:
   - name: "Email notification when two-factor OTP attempt is wrong"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/user/profile/wrong_two_factor_authentication_code_notification.html#email-notification-for-attempted-sign-in-using-wrong-two-factor-authentication-code'
+    documentation_link: 'https://docs.gitlab.com/ee/user/profile/notifications.html#notifications-for-attempted-sign-in-using-wrong-two-factor-authentication-codes'
     image_url: '/images/unreleased/manage-otp-email.png'
     reporter: hsutor
     stage: manage
