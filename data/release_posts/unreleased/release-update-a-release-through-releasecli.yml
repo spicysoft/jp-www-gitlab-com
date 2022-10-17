@@ -11,4 +11,4 @@ features:
     - Release Orchestration
     issue_url: 'https://gitlab.com/gitlab-org/release-cli/-/issues/157'
     description: |
-      In this milestone we have added the ability to update release directly from the release-cli. This can be used for automating releases by updating any of the release attributes directly from the `.gitlab-ci.yml` file and leveraging the CI/CD pipeline to do so.
+      In this milestone we added the ability to update a release using the Release CLI. You can use this to automate releases by updating any of the release attributes directly from the `.gitlab-ci.yml` file, and leveraging the CI/CD pipeline to do so.
