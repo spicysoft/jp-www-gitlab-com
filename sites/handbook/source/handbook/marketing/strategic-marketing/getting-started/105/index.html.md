@@ -28,7 +28,7 @@ Automation can address all of these situations and streamline work.
 Define a set of rules that will automatically
 - Add a label when it is missing
 - Change or remove a label when it's wrong
-- Add a comment, mention a user, and more through comments and /quick actions.
+- Add a comment, mention a user, and more thorough comments and /quick actions.
 
 The [Triage Bot](https://gitlab.com/gitlab-org/gitlab-triage) is an Open GitLab project that makes it possible to automate many issue and merge request hygiene tasks to ensure that your projects are more consistently following a given process.
 
