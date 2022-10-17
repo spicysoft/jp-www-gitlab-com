@@ -4,7 +4,7 @@ features:
   - name: "Provide release description from tag in CI/CD pipeline variable"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/ci/variables/predefined_variables.html'
     reporter: cbalane
     stage: release
     categories:
