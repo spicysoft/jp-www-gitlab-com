@@ -12,11 +12,9 @@ twitter: ginadoyle2442
 linkedin: gdoyle25
 gitlab: gdoyle
 departments:
-- Engineering Function
-- CI/CD UX Team
-- Ops Sub-department
-- Verify:Runner Group
-- Verify:Pipeline Insights Group
+- Product Team
+- UX Department
+- Product Design
 projects:
   gitlab-design: maintainer
   gitlab: reviewer UX

@@ -9,10 +9,9 @@ picture: Veethika_Mishra.jpg
 twitter: veethikaa
 gitlab: v_mishra
 departments:
-- Engineering Function
+- Product Team
 - UX Department
-- CI/CD UX Team
-- Verify:Pipeline Execution Group
+- Product Design
 projects:
   gitlab-design: maintainer
   gitlab: reviewer UX

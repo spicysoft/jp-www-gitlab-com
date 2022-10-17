@@ -13,7 +13,9 @@ specialty:
 - Ecosystem
 - Data Science
 departments:
+- Product Team
 - UX Department
+- Product Design
 projects:
   gitlab-design: maintainer
   design.gitlab.com: maintainer UX
