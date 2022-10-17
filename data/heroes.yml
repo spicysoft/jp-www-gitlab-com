@@ -775,7 +775,7 @@
   bio: Software Engineer ❤️ DevOps Engineer • DevSecOps • AWS Community Builder • GitLab Hero • Open-source  ❤️
   gitlab: roxsross
   picture: roxsross.png
-
+  
 - type: person
   name: Jonas Wälter
   locality:
@@ -785,3 +785,13 @@
   bio: Software Engineer
   gitlab: wwwjon
   picture: jonaswaelter.jpg
+
+- type: person
+  name: Karthikayan
+  locality: Pondicherry
+  country: India
+  role: GitLab Hero
+  twitter: parkourkarthik
+  bio: Senior Software Engineer ❤️ Open-source Enthusiast
+  gitlab: parkourkarthik
+  picture: parkourkarthik.jpg
