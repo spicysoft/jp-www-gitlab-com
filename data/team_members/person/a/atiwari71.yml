@@ -18,6 +18,7 @@ departments:
 projects:
   gitlab: reviewer backend
   secure-coverage-fuzzing: maintainer backend 
+  secure-browser-based-dast: maintainer
 specialty: Dynamic Analysis
 expertise:
 story:
