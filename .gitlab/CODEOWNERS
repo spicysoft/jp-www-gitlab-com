@@ -572,6 +572,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/fulfillment/commerce-integrations/ @isandin
 /source/direction/fulfillment/fulfillment-admin-tools/ @doniquesmit
 /source/direction/fulfillment/platform/ @jameslopez @tgolubeva
+/source/direction/fulfillment/billing-and-subscription-management/ @tgolubeva
 
 ^[Product Section - Data Science]
 /source/direction/data-science/ @tmccaslin @hbenson
