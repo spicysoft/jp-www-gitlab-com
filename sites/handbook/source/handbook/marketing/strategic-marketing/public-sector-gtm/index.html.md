@@ -196,7 +196,7 @@ Ungated asset links can be found on [this document](https://docs.google.com/docu
 
 * [Most Commonly Used Sales Resources](/handbook/marketing/strategic-marketing/sales-resources/)
 * [Learn@GitLab Use Case-driven Demo Videos](https://www.youtube.com/playlist?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)
-* [Competitive Intelligence Resources](/devops-tools/)
+* [Competitive Intelligence Resources](/competition/)
 * [Global PubSec Marketing Account Profile Template (outside of US)](https://docs.google.com/document/d/1SUS0fbtVpvN4y44AT-BAiPAD32Bbq-hW-CSZco7uiUQ/edit) (use this to compile account-specific knowledge to share with Marketing) 
 * [Product Marketing Team Talk Inventory](/handbook/marketing/strategic-marketing/pmmteam/#pmm-talk-inventory)
 * [Global PubSec Speakers Bureau (outside of US)](https://drive.google.com/drive/folders/1u47kBHDh9cqOuA683k0MxzwxrZmqobzR?usp=sharing)
