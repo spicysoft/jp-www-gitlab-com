@@ -18,6 +18,6 @@ features:
       - [Image resources and other attachments types](https://gitlab.com/gitlab-org/gitlab/-/issues/18052).
       - [Issue events](https://gitlab.com/groups/gitlab-org/-/epics/7655).
       - [Pull request events](https://gitlab.com/groups/gitlab-org/-/epics/7673).
-      - [Pull request and issue comments](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/67150).
+      - [All pull request and issue comments](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/67150). In regular import of large repositories some comments might get skipped due to limitation of GitHub API. We implemented alternative method of importing comments to ensure import of all comments.
 
       Now you can include these additional relationships in an import if you require them, which slows down the import but includes more information. To import additional relationships, go to the GitHub import page and select appropriate checkboxes under **Advanced import settings**.
