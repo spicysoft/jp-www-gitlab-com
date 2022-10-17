@@ -11,4 +11,4 @@ features:
     - Release Orchestration
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/22831'
     description: |
-      Previously, there was no easy way to refer to release notes associated with a tag or a release as part of a pipeline. With this update, you can now easily refer to this information by using two new predefined environment variables, `$CI_COMMIT_TAG_MESSAGE` and `$CI_RELEASE_DESCRIPTION`. This allows you to incorporate this information as part of your deploy workflow.
+      In past releases, there was no easy way to configure a pipeline that refers to a release or to release notes associated with a tag. Now, you can refer to this information using two predefined environment variables: `$CI_COMMIT_TAG_MESSAGE` and `$CI_RELEASE_DESCRIPTION`.
