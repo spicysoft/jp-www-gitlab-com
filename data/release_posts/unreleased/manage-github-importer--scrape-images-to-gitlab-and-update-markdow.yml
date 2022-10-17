@@ -11,7 +11,7 @@ features:
     - Importers
     issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/18052'
     description: |
-      When importing projects from GitHub, you can now import project image resources and other attachment types from release notes and comments. The attachments are
+      You can now import GitHub project image resources and other attachment types from release notes and comments. The attachments are
       added to GitLab and their links are updated to new GitLab URLs.
 
       Attachments aren't imported by default because it can be a time intensive operation. To import them, go to the GitHub import page,
