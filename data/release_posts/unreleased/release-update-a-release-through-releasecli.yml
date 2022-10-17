@@ -4,7 +4,7 @@ features:
   - name: "Update a release using the Release CLI"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://gitlab.com/gitlab-org/release-cli/-/blob/master/docs/index.md#update-a-release'
     reporter: cbalane
     stage: release
     categories:
