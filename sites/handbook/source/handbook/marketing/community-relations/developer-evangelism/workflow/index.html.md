@@ -12,7 +12,7 @@ title: "Developer Evangelism Team Workflow"
 
 ## Team Workflow
 
-Welcome to the Developer Evangelism team workflow page. Learn how the team works and how to work with the team. We primarily use the [Corporate Marketing issue tracker](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues). We own the team label `dev-evangelism` and all of our other labels which are located at the [gitlab-com](https://gitlab.com/gitlab-com) group level. You can add the labels as necessary to any issue under this group for our team to track.
+Welcome to the Developer Evangelism team workflow page. Learn how the team works and how to work with the team. We primarily use the [Developer Evangelism Meta issue tracker](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/meta/-/issues). We own the team label `dev-evangelism` and all of our other labels which are located at the [gitlab-com](https://gitlab.com/gitlab-com) group level. You can add the labels as necessary to any issue under this group for our team to track.
 
 ### How to work with the Developer Evangelism Team
 
@@ -20,7 +20,7 @@ Opening an issue is the best way to get a conversation started. The `dev-evangel
 
 The `dev-evangelism` label is required, other labels are optional. The [DE-Bot](/handbook/marketing/community-relations/developer-evangelism/projects/#developer-evangelism-bot) or a team member will do the triage and add the necessary labels. To reduce noise in the comments, please add the `DE-Type::Consulting` and the relevant `Consulting` team labels yourself.
 
-You can use the [request an evangelist issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=developer-evangelist-request) to submit a request. It provides a guide to collect the required information to triage the request.
+You can use the [request an evangelist issue template](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/meta/-/issues/new?issuable_template=developer-evangelist-request) to submit a request. It provides a guide to collect the required information to triage the request.
 
 ### Labels
 
@@ -161,7 +161,7 @@ stop
 Example CFP workflow using [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html):
 
 1. Planning to submit, or when you have submitted already: 
-    1. Create a new [CFP issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=CFP-Meta). 
+    1. Create a new [CFP issue](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/meta/-/issues/new?issuable_template=cfp). 
     2. The issue template already sets the `~"CFP" ~"CFP::Open"` labels.
     3. Set the due date to the CFP submission due date. 
 2. Submitted 1 talk:
