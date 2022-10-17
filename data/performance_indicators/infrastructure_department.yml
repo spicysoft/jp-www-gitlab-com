@@ -238,7 +238,7 @@
   definition: The Corrective Actions (CAs) SLO focuses on the number of open severity::1/severity::2 Corrective Action Issues past their due date. Corrective Actions and their due dates are defined in our <a href="/handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership">Incident Review process</a>.
   target: below 0
   org: Infrastructure Department
-  is_key: true
+  is_key: false
   health:
     level: 3
     reasons:
@@ -273,7 +273,7 @@
   definition: <a href="https://cloud.google.com/resource-manager/docs/creating-managing-labels">GCP Labels</a> & AWS Tags allow us to segment our cloud spend into more meaningful buckets that align with our business units. This PI tracks our progress towards adopting our <a href="https://about.gitlab.com/handbook/infrastructure-standards/labels-tags">Labeling Standards</a> which is very important for improved understanding of cloud spend. Currently, the metric only tracks adoption of gl_env_name label to replace currently used pet_name label for services, but eventually will grow to encompass all the required standard labels.
   target: at or above 80%
   org: Infrastructure Department
-  is_key: false
+  is_key: true
   health:
     level: 2
     reasons:
