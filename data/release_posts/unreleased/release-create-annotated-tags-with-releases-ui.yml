@@ -1,0 +1,14 @@
+---
+features:
+  secondary:
+  - name: "Create annotated tags with Releases UI"
+    available_in: [core, premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    reporter: cbalane
+    stage: release
+    categories:
+    - Release Orchestration
+    issue_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/362481'
+    description: |
+      We have added the ability to create an annotated tag when creating a release in the UI. Now, when creating a release, you can include optional text that will be used to create an annotated tag. This enables you to include relevant information along with the new tag, so downstream users and applications can have additional context.
