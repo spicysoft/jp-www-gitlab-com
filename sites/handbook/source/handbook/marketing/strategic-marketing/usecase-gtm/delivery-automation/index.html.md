@@ -183,7 +183,7 @@ Apart from the single application, DevOps Platform narrative, there are a number
 
 ### Competitors
 
-From a competitive comparison for Automated Software Delivery, the following are the key competitors and what they are lacking at a high level. Review the detailed comparison in the [devops-tools](https://about.gitlab.com/devops-tools/) comparison pages
+From a competitive comparison for Automated Software Delivery, the following are the key competitors and what they are lacking at a high level. Review the detailed comparison in the [devops-tools](https://about.gitlab.com/competition/) comparison pages
 - [GitHub](https://about.gitlab.com/devops-tools/github-vs-gitlab/) - Strong on SCM, GitHub Actions for CI/CD is still not ready for primetime. GitLab can integrate and migrate customers using GitHub for SCM easily with GitLab.
 - [Jenkins](https://about.gitlab.com/devops-tools/jenkins-vs-gitlab.html) - Complex to manage, many fragile integrations, not suitable for cloud native transformation
 - [JFrog](https://about.gitlab.com/devops-tools/jfrog-vs-gitlab/) - Strong on CI, but requires integrations or has limited capabilities for rest of the areas.

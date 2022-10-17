@@ -197,7 +197,7 @@ Key Whitepapers:
 - **[ALL Customer Case Studies](/customers/)**
 - [Overall Customer Reference Program](/handbook/marketing/strategic-marketing/customer-reference-program/)
 
-## [Comparisons](/devops-tools/)
+## [Comparisons](/competition/)
 
 Here are links to a few **KEY comparisons** and then a link to main comparison page where over 50 comparisons are available.
 
@@ -207,7 +207,7 @@ Here are links to a few **KEY comparisons** and then a link to main comparison p
 - [Jenkins](/devops-tools/jenkins-vs-gitlab.html)
 - [Azure](/devops-tools/azure-devops-vs-gitlab.html)
 - [Jira](/devops-tools/jira-vs-gitlab.html)
-- [ALL Comparisons](/devops-tools/)
+- [ALL Comparisons](/competition/)
 
 ## Alliance Partnerships
 
