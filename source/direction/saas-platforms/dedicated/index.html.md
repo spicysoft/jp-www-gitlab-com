@@ -130,7 +130,7 @@ category once your strategy is at least minimally realized. In order to challeng
 (with the goal to make it sufficiently high), link to the current market leaders long-term vision and address how
 we plan to displace them. -->
 
-The main goal for FY23 is to make GitLab Dedicated [available to external customers](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/master/README.md#timeline)(GitLab internal). The initial version of the service will be [fully automated, but will contain a minimal feature set](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/master/README.md#product-development-principle-100-automation-1-features)(GitLab internal). After releasing the offering, we plan to deliver application features and operational capabilities that were [not included in the first launch](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-not-available-at-launch) based on customer demand.
+The main goal for FY23 is to make GitLab Dedicated [available to external customers](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/master/README.md#timeline)(GitLab internal). The initial version of the service will be [fully automated, but will contain a minimal feature set](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/master/README.md#product-development-principle-100-automation-1-features)(GitLab internal). After releasing the offering, we plan to deliver application features and operational capabilities that were [not included in the first launch](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available) based on customer demand.
 
 The product will be made available to customers over the course of the following milestones.
 
@@ -177,11 +177,11 @@ Please see list of [Available Features](https://docs.gitlab.com/ee/subscriptions
 priorities for a few stakeholders. This section must provide a link to an issue
 or [epic](https://about.gitlab.com/handbook/product/product-processes/#epics-for-a-single-iteration) for the MVC or first/next iteration in the category.-->
 
-From the table above, we plan to focus on security enhancements, compliance certifications, automation, and establishing SLOs, as those items are highest in our prioritization framework. 
+From the table above, we plan to focus on security enhancements, compliance certifications, automation, and establishing SLOs, as those items are highest in our prioritization framework.
 
 We plan to complete the following to conclude Limited Availability. All links below are GitLab internal.
 
-P1 - Security/Compliance 
+P1 - Security/Compliance
 - [SOC2 Type 1 Certification](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/70)
 - [Network Architecture](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/68)
 - [Continued security enhancements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/513)
@@ -244,7 +244,7 @@ Prior to discussing GitLab Dedicated with an opportunity/customer:
 1. Review the [target customer profile](#target-customer) to ensure it is a good fit
 1. Review the estimated [timeline](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/README.md#timeline)(GitLab internal) to ensure it meets the customer's desired onboarding timeframes. Note, there will be a limited number of customers we can support during the Limited Availability period. Once we move to GA, the offering will be available to all customers who are willing to [pay for it](#pricing).
 1. Review [pricing](#pricing), as this will cost more than our other offerings and will have a minimum seat count
-1. Review the [features unavailable at launch](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-not-available-at-launch)
+1. Review the [features unavailable at launch](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available)
 
 ### LA Onboarding Timeline
 
