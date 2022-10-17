@@ -1554,7 +1554,7 @@ stages:
         name: Product Intelligence
         direction: /direction/product-intelligence/
         handbook: engineering/development/analytics/product-intelligence
-        pm: Amanda Rueda
+        pm: Sam Kerr (Acting)
         pmm: Saumya Upadhyaya
         cm: Suri Patel
         backend_engineering_manager: Dennis Tang
