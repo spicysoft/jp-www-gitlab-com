@@ -914,7 +914,7 @@ stages:
           alias: container-registry-group
         gitlab_group: "gitlab-org/ci-cd/package-stage/container-registry-group"
         handbook: engineering/development/ops/package/container-registry
-        google_group: "package-stage@gitlab.com"  
+        google_group: "package-stage@gitlab.com"
 
   secure:
     display_name: "Secure"
@@ -2102,6 +2102,9 @@ stages:
         focus: Gitaly GMAU
         pmm: Saumya Upadhyaya
         image: "/images/solutions/solutions-gitaly.png"
+        handbook: /engineering/development/enablement/systems/gitaly/
+        slack:
+          channel: g_gitaly
         description: |
           Scalable, resilient Git storage layer accessible via RPC.
         body: |
@@ -2138,6 +2141,9 @@ stages:
         focus: Gitaly GMAU
         pmm: Saumya Upadhyaya
         image: "/images/solutions/solutions-gitaly.png"
+        handbook: /engineering/development/enablement/systems/gitaly/
+        slack:
+          channel: g_gitaly
         description: |
           Open-source Git development and integration.
         body: |
@@ -2411,7 +2417,7 @@ stages:
       delivery:
         name: "Delivery"
         description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
-        direction: /handbook/engineering/infrastructure/team/delivery/
+        direction: /engineering/infrastructure/team/delivery/
         pm: Andrew Thomas (Life Support)
         pmm: Saumya Upadhyaya
         uxr:
@@ -2421,14 +2427,14 @@ stages:
         slack:
           channel: g_delivery
         gitlab_group: gitlab-org/delivery
-        handbook: /handbook/engineering/infrastructure/team/delivery/
+        handbook: /engineering/infrastructure/team/delivery/
         categories:
           - delivery
 
       scalability:
         name: "Scalability"
         description: "The Scalability team is responsible for GitLab and GitLab.com at scale, working on the highest priority scaling items related to the application and GitLab.com."
-        direction: /handbook/engineering/infrastructure/team/scalability/
+        direction: /engineering/infrastructure/team/scalability/
         pm: Andrew Thomas (Life Support)
         pmm: Saumya Upadhyaya
         appsec_engineer: Rohit Shambhuni
@@ -2436,7 +2442,7 @@ stages:
         slack:
           channel: g_scalability
         gitlab_group: gitlab-org/scalability
-        handbook: /handbook/engineering/infrastructure/team/scalability/
+        handbook: /engineering/infrastructure/team/scalability/
         categories:
           - scalability
           - error_budgets
@@ -2510,7 +2516,7 @@ stages:
       - Wayne Haber
     pdm:
         - Taurie Davis
-    handbook: /handbook/engineering/development/modelops/
+    handbook: /engineering/development/modelops/
     marketing: false
     tw: true
     slack:
