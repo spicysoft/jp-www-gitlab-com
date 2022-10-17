@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Create annotated tags with Releases UI"
+  - name: "Create annotated tags with the Releases UI"
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/releases/#create-a-release-in-the-releases-page'
