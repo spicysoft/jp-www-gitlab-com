@@ -176,7 +176,6 @@
   comp_op: '='
 - sources: 
   - /blog/categories/events
-  - /events/aws-reinvent
   - /events/gitlab-connect-benelux
   target: /events/
   comp_op: ^~
