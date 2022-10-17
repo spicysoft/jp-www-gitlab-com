@@ -52,3 +52,4 @@ tertiary:
       - [Reduce API Security XML external entity vulnerability false positives](https://gitlab.com/gitlab-org/gitlab/-/issues/374690)
       - [Auditors cannot see group CI/CD Runners](https://gitlab.com/gitlab-org/gitlab/-/issues/357328)
       - [Searching by excluded extension only excludes the first extension](https://gitlab.com/gitlab-org/gitlab/-/issues/273162)
+      - [Prevent users from entering negative number of replicas in Advanced Search settings](https://gitlab.com/gitlab-org/gitlab/-/issues/245219)
