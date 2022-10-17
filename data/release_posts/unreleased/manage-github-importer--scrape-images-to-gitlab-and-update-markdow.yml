@@ -4,7 +4,7 @@ features:
   - name: "Import and store attachments when importing from GitHub"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/user/project/import/github.html#imported-data'
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/import/github.html#select-additional-items-to-import'
     reporter: m_frankiewicz
     stage: manage
     categories:
