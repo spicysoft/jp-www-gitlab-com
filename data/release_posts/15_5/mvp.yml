@@ -9,6 +9,16 @@ mvp:
   fullname: "Anatoli Babenia"
   gitlab: abitrolly
   description: |
-    Anatoli made [multiple improvements and fixes](https://gitlab.com/gitlab-org/gitlab-docs/-/merge_requests?scope=all&state=all&author_username=abitrolly&milestone_title=15.5) to `gitlab-docs` this release. His contributions include improving discoverability of certain topics, adding suggestions to improve the efficiency and overall experience for some technical tasks, and adds coverage collection and reporting for Ruby tests with coverage visualization! He also squashed [a bug](https://gitlab.com/gitlab-org/gitlab-docs/-/issues/1232) related to launching GitPod.
+    Anatoli made [multiple improvements and fixes](https://gitlab.com/gitlab-org/gitlab-docs/-/merge_requests?scope=all&state=merged&author_username=abitrolly&milestone_title=15.5)
+    to the [`gitlab-docs` project](https://gitlab.com/gitlab-org/gitlab-docs) during this milestone. The `gitlab-docs` project is responsible for taking content from many of our
+    projects and publishing it to <https://docs.gitlab.com>.
+
+    Anatoli's contributions to `gitlab-docs` during this milestone include:
+
+    - Improving [code quality](https://gitlab.com/gitlab-org/gitlab-docs/-/merge_requests/3098).
+    - Adding [Ruby code coverage support](https://gitlab.com/gitlab-org/gitlab-docs/-/merge_requests/3158).
+    - Squashing [a bug](https://gitlab.com/gitlab-org/gitlab-docs/-/issues/1232) related to launching GitPod.
+
+    Thank you Anatoli for all your contributions!
 
     Your nominator had this to say: "It's been excellent to have some engineering help from the community." Agreed! Thank you Anatoli for all of your contributions.
