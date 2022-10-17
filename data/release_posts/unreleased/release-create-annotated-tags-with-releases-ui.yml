@@ -4,7 +4,7 @@ features:
   - name: "Create annotated tags with Releases UI"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/#amazing'
+    documentation_link: 'https://docs.gitlab.com/ee/user/project/releases/#create-a-release-in-the-releases-page'
     reporter: cbalane
     stage: release
     categories:
