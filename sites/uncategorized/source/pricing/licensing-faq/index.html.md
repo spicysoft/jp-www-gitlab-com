@@ -294,7 +294,7 @@ ___
 - During the grace period, your subscription may still be eligible to receive support. Please [contact your account manager](#how-do-i-contact-my-account-manager-or-the-sales-team) to further discuss prior to submitting a support ticket.
 - After the grace period expires, you will lose access to paid features and may lose some functionality. You will not be eligible to receive support. See below for distribution specific notes.
 - Up until 30 days after the subscription has ended, you'll be able to renew your previous subscription to restore functionality.
-- Please note the grace period only applies to purchased subscriptions and not to trials.
+- Please note the grace period only applies to purchased, OSS, and EDU subscriptions. It does not apply to trials and temporary subscription extensions.
 
 #### SaaS
 {:.no_toc}
