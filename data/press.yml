@@ -1,5 +1,70 @@
 recent_news:
 
+  - title: "SDXCentral: GitLab Says Cloud Seed Will Drive Cloud Migration Behavior"
+    logo: /images/press/sdxcentral-logo.svg
+    link: "https://www.sdxcentral.com/articles/interview/gitlab-says-cloud-seed-will-drive-cloud-migration-behavior/2022/10/"
+    date: 2022-10-14
+
+  - title: "CRN: GitLab Launches Cloud Seed To Simplify Google Cloud"
+    logo: /images/press/crn-logo.png
+    link: "https://www.crn.com/news/cloud/google-cloud-s-5-big-new-partnerships-accenture-servicenow-hcltech/5"
+    date: 2022-10-14
+
+  - title: "SD Times: Open-Source Project of the Week: Cloud Seed"
+    logo: /images/press/sd-times-logo.png
+    link: "https://sdtimes.com/software-development/sd-times-open-source-project-of-the-week-cloud-seed/"
+    date: 2022-10-14
+
+  - title: "TechStrong TV: The Lab with Brendan O’Leary EP 18"
+    logo: /images/press/digital-anarchist-logo.png
+    link: "https://techstrong.tv/videos/the-lab/the-lab-with-brendan-oleary-ep-18"
+    date: 2022-10-13
+
+  - title: "HelpNetSecurity: GitLab and Google Cloud launch Cloud Seed to accelerate cloud adoption"
+    logo: /images/press/helpnetsecurity-logo.png
+    link: "https://www.helpnetsecurity.com/2022/10/13/gitlab-cloud-seed-google-cloud/"
+    date: 2022-10-13
+
+  - title: "InfoQ: GitLab Cloud Seed Aims to Simplify Google Cloud Integration"
+    logo: /images/press/infoQ-logo.png
+    link: "https://www.infoq.com/news/2022/10/gitlab-cloud-seed-preview/"
+    date: 2022-10-12
+
+  - title: "VentureBeat: GitLab Cloud Seed lets developers deploy web apps to Google Cloud"
+    logo: /images/press/venture-beat-logo.svg
+    link: "https://venturebeat.com/security/gitlab-google-cloud/"
+    date: 2022-10-11
+
+  - title: "ItOps Times: Google Cloud Next ‘22: Google Cloud envisions the future of data clouds, open infrastructure, and more"
+    logo: /images/press/ipopstimes-logo.png
+    link: "https://www.itopstimes.com/cloud/google-cloud-next-22-google-cloud-envisions-the-future-of-data-clouds-open-infrastructure-and-more/"
+    date: 2022-10-11
+
+  - title: "DevOps.com: GitLab Allies With Google to Improve Developer Productivity"
+    logo: /images/press/devops-dot-com-logo.png
+    link: "https://devops.com/gitlab-allies-with-google-to-improve-developer-productivity/"
+    date: 2022-10-11
+
+  - title: "DevOps digest: GitLab Launches Cloud Seed in Collaboration with Google Cloud"
+    logo: /images/press/devops-digest-logo.png
+    link: "https://www.devopsdigest.com/gitlab-launches-cloud-seed-in-collaboration-with-google-cloud"
+    date: 2022-10-11
+
+  - title: "DBTA: Cloud Seed from GitLab Appeases Desires for a Secure, Streamlined Cloud Adoption Tool"
+    logo: /images/press/dbta-logo.png
+    link: "https://www.dbta.com/Editorial/News-Flashes/Cloud-Seed-from-GitLab-Appeases-Desires-for-a-Secure-Streamlined-Cloud-Adoption-Tool-155364.aspx"
+    date: 2022-10-11
+
+  - title: "SD Times: GitLab Inc. Launches Cloud Seed in Collaboration with Google Cloud to Bolster Cloud Adoption"
+    logo: /images/press/sd-times-logo.png
+    link: "https://sdtimes.com/gitlab-inc-launches-cloud-seed-in-collaboration-with-google-cloud-to-bolster-cloud-adoption/"
+    date: 2022-10-11
+
+  - title: "TechStrong TV: The Lab with Brendan O’Leary EP 17"
+    logo: /images/press/digital-anarchist-logo.png
+    link: "https://techstrong.tv/videos/the-lab/the-lab-with-brendan-oleary-ep-17"
+    date: 2022-09-28
+
   - title: "Harvard Business Review: Advice from the CEO of an All-Remote Company"
     logo: /images/press/harvard-business-review-logo.png
     link: "https://hbr.org/podcast/2022/09/advice-from-the-ceo-of-an-all-remote-company"
