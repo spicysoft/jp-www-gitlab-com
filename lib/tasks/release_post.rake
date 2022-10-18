@@ -404,7 +404,7 @@ namespace :release_post do
 
     # Sync with upstream master
     `git checkout master`
-    `git pull https://jobbot:glpat-ZQ1Ac7Wo-guXyHFK2jn-@gitlab.com/gitlab-com/www-gitlab-com.git master`
+    `git pull https://jobbot:#{ENV.fetch('GITLAB_BOT_TOKEN')}@gitlab.com/gitlab-com/www-gitlab-com.git master`
 
     # Create branch
     `git checkout #{branch_name}`
