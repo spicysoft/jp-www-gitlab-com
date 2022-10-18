@@ -3,7 +3,7 @@ features:
     - name: "Bulk delete runners in the Admin Area"
       available_in: [core, premium, ultimate]
       documentation_link: 'https://docs.gitlab.com/ee/user/admin_area/#bulk-delete-runners'
-      image_url: '/images/unreleased/admin-bulk-delete-runners.png'
+      image_url: '/images/15_5/admin-bulk-delete-runners.png'
       reporter: DarrenEastman
       stage: verify
       categories:

@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/profile/notifications.html#notifications-for-attempted-sign-in-using-wrong-two-factor-authentication-codes'
-    image_url: '/images/unreleased/manage-otp-email.png'
+    image_url: '/images/15_5/manage-otp-email.png'
     reporter: hsutor
     stage: manage
     categories: [System Access]

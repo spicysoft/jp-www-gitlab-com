@@ -4,7 +4,7 @@ features:
       available_in: [ultimate]
       gitlab_com: true
       documentation_link: 'https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html'
-      image_url: '/images/unreleased/govern-scan-execution-policy-rule-mode.png'
+      image_url: '/images/15_5/govern-scan-execution-policy-rule-mode.png'
       reporter: sam.white
       stage: govern
       categories:

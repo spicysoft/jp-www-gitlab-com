@@ -4,7 +4,7 @@ features:
       available_in: [ultimate]
       gitlab_com: true
       documentation_link: 'https://docs.gitlab.com/ee/user/clusters/agent/vulnerabilities.html'
-      image_url: '/images/unreleased/secure-operational-vulnerabilities.png'
+      image_url: '/images/15_5/secure-operational-vulnerabilities.png'
       reporter: sam.white
       stage: secure
       categories:

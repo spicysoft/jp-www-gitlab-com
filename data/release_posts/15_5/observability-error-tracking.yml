@@ -5,7 +5,7 @@ features:
     available_in: [free, silver, gold]  # Include all supported tiers
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/operations/error_tracking.html#integrated-error-tracking'
-    image_url: "/images/unreleased/feature_error_tracking.png"
+    image_url: "/images/15_5/feature_error_tracking.png"
     reporter: sebastienpahl
     stage: monitor
     categories:

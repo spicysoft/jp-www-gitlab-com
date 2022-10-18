@@ -5,7 +5,7 @@ features:
     available_in: [premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/group/epics/#child-issues-from-different-group-hierarchies'
-    image_url: '/images/unreleased/plan-cross-group-issue-linking.png'
+    image_url: '/images/15_5/plan-cross-group-issue-linking.png'
     reporter: mushakov
     stage: plan
     categories: [Portfolio Management]

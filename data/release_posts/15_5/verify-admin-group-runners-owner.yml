@@ -3,7 +3,7 @@ features:
     - name: "Display runner owner in Admin Area and group runners page"
       available_in: [core, premium, ultimate]
       documentation_link: 'https://docs.gitlab.com/ee/user/admin_area/#administering-runners'
-      image_url: '/images/unreleased/admin-group-runners-owner.png'
+      image_url: '/images/15_5/admin-group-runners-owner.png'
       reporter: DarrenEastman
       stage: verify
       categories:
