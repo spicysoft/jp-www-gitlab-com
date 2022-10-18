@@ -795,3 +795,14 @@
   bio: Senior Software Engineer ❤️ Open-source Enthusiast
   gitlab: parkourkarthik
   picture: parkourkarthik.jpg
+
+- type: person
+  name: Lucas Zampieri
+  locality:
+  country: Brazil
+  role: GitLab Hero
+  twitter:
+  bio: Software Engineer, Kernel maintainer and Open Source developer
+  gitlab: lzampier
+  picture: lzampier.jpg
+
