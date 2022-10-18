@@ -1747,6 +1747,7 @@ stages:
         support: TBD
         be_team_tag: TBD
         fe_team_tag: TBD
+        infra_reliability_team_tag: Fulfillment Group Reliability Stable Counterpart
         appsec_engineer: TBD
         pdm:
           - Jacki Bauer
