@@ -86,6 +86,8 @@ Provide links to UX Research issues, which validate these problems exist.
 
 Overall, the main challenge our target customer has is maintaining an up-to-date GitLab instance that fulfills their security and compliance requirements. More granular customer needs are documented in the sections below.
 
+Note, this section does not reflect the list of currently available features within the Dedicated offering; rather, it contains the needs we're hearing from our customer base. The list of currently supported features in Dedicated is documented here: https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features
+
 #### Migration
 
 - Users want to seamlessly migrate their data, which can exceed many TBs in size, to GitLab Dedicated in a timely and reliable fashion from their existing DevOps solution, whether it's a third-party offering like BitBucket, a self-managed GitLab instance, or gitlab.com.
