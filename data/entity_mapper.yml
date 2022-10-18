@@ -281,3 +281,11 @@
   country: Latvia
   notice_during_probation: 1 month
   notice_after_probation: 1 month
+- greenhouse_entity: Papaya Global - UAE
+  bhr_location: Papaya Global - UAE
+  bhr_payroll_type: Employee-PEO
+  probation_months: 6
+  country: United Arab Emirates
+  notice_during_probation: During the probation period only 14 days' notice must be given by the employer; if a worker resigns during probation to move to a new company in the UAE they must give 30 days’ notice. However, if a worker is leaving the UAE then they just need to give 14 days’ notice.
+  notice_after_probation: A minimum of 30 days' notice (up to 5 years' service) and a maximum of 90 days' notice (over 10 years' service) can be used. 60 days' notice for between 5 and 10 years' service.
+
