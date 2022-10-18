@@ -11,7 +11,7 @@ twitter:
 linkedin:
 gitlab: phillipwells
 departments:
-  - Engineering Function
+  - Product Team
   - UX Department
   - Technical Writing
 projects:
@@ -23,9 +23,9 @@ projects:
   gitlab-runner: maintainer docs
   gitlab-chart: maintainer docs
 specialty:
-- Acquisition
-- " Configure:Configure"
-- " Activation"
+- 'Growth: Acquisition'
+- 'Growth: Activation'
+- 'Configure: Configure'
 expertise:
 story: |
   Phillip is a technical writer with a background in computer science and mathematics.

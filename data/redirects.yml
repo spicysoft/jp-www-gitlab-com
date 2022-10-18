@@ -13,6 +13,9 @@
 - sources: /handbook/business-ops/
   target: /handbook/business-technology/
   comp_op: '~'
+- sources: /de-de/
+  target: https://de-569af3b027cac853f.getsmartling.com/de-de/
+  comp_op: "~"
 - sources: /cloud-native/
   target: /topics/cloud-native/
   comp_op: '~'
@@ -176,7 +179,6 @@
   comp_op: '='
 - sources: 
   - /blog/categories/events
-  - /events/aws-reinvent
   - /events/gitlab-connect-benelux
   target: /events/
   comp_op: ^~
@@ -640,7 +642,6 @@
   comp_op: '='
 - sources:
     - /handbook/engineering/dev-backend/plan/
-    - /handbook/engineering/development/dev/plan/
     - /handbook/engineering/development/dev/plan-team-planning-be/
     - /handbook/engineering/frontend/plan/
     - /handbook/engineering/development/dev/fe-plan/
@@ -2631,6 +2632,7 @@
 - sources:
   - /handbook/product/product-categories/plan/
   - /handbook/product/product-categories/plan
+  - /handbook/engineering/development/dev/plan/
   target: /handbook/product/categories/plan/
   comp_op: '='
 - sources:
@@ -4212,8 +4214,7 @@
     - /devops-tools/pdfs/zoho-sprints-vs-gitlab.html
     - /devops-tools/zoho-sprints-vs-gitlab.html
     - /devops-tools/zoho-sprints-vs-gitlab/
-    - /devops-tools/
-  target: /competition/
+  target: /devops-tools/
   comp_op: '='
 - sources:
     - /training
@@ -4674,3 +4675,5 @@
   - /handbook/marketing/corporate-marketing/#requests-for-announcements
   target: /handbook/marketing/corporate-marketing/corporate-communications/#requests-for-external-announcements
   comp_op: '='
+
+

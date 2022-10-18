@@ -3476,7 +3476,7 @@
     tracks and micro-personalized website recommendations."
   access_to: Marketing Operations; Direct access to this system is limited to specific functional
     groups w/in Marketing, defined in baseline entitlements
-  provisioner: "@Nikkitoth"
+  provisioner: "@Nikkiroth"
   deprovisioner: "@Nikkiroth"
   group_owner: Marketing
   group_owner_slack_channel: '#marketing'

@@ -3,7 +3,7 @@ name: Charan Karthikeyan
 locality:
 country: Remote
 role: <a href="">Senior Manager, Analytics & Insights</a>
-reports_to: craig-mestel
+reports_to: rparker
 picture: "../gitlab-logo-extra-whitespace.png"
 pronouns:
 pronunciation:
@@ -11,7 +11,7 @@ twitter:
 linkedin:
 gitlab: kkarthikeyan
 departments:
-- Finance
+  - Business Technology
 specialty:
 expertise:
 story:

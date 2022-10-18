@@ -1,17 +1,25 @@
 name: Davis Bickford
 locality: 
 country: Remote
-role: <a href="">Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer,
+  Verify:Runner SaaS</a>
 reports_to: elliot-rushton
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: davisbickford.png
+pronouns: he/him
 pronunciation:
 twitter:
-linkedin:
+linkedin: davisbickford
 gitlab: dbickford
 departments:
-  - Development
-specialty: ""
+  - Development Department
+  - Ops Sub-department
+  - Verify Stage
+  - Verify:Runner Group
+  - Backend
+specialty: Runner SaaS
 expertise:
-story:
+story: |
+ Davis is a Backend Engineer who loves exercising, gaming, reading, 
+ and creating things. When he isn't working or nerding out, he's 
+ spending time with his wife and two pugs.
 

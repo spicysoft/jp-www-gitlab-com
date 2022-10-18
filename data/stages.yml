@@ -34,7 +34,7 @@ stages:
       - "secure"
       - "govern"
     section: dev
-    pm: Orit Golowinski
+    pm: Urvi Chetta
     em:
       - Michelle Gill
     groups:
@@ -741,7 +741,7 @@ stages:
           - Erika Feldman
         ux:
           - Gina Doyle
-        tech_writer: Suzanne Selhorn
+        tech_writer: Fiona Neill
         appsec_engineer: Dominic Couture
         cs_team_tag: Runner Group CS Stable Counterpart
         infra_reliability_team_tag: Runner Group Reliability Stable Counterpart
@@ -1633,7 +1633,7 @@ stages:
         description: "Focused on first-order purchase experiences, including SM Web-Direct First Order, SaaS Web-Direct First Order, Purchase CI Minutes, Purchase Storage, and Community Programs - sign up."
         slack:
           channel: g_purchase
-        pm: Tatyana Golubeva
+        pm: Alex Martin
         pmm: Saumya Upadhyaya
         cm: Suri Patel
         backend_engineering_manager: Ragnar Hardarson
@@ -1737,7 +1737,7 @@ stages:
       fulfillment_platform:
         name: Fulfillment Platform
         description: "Responsible for all consumables management, usage reporting, and usage notifications (excluding license utilization). Systems - GitLab."
-        pm: Tatyana Golubeva
+        pm: Manuel Gass
         pmm: Saumya Upadhyaya
         slack:
           channel: g_fulfillment_platform
@@ -1810,7 +1810,7 @@ stages:
             dri: TBD
       commerce_integrations:
         name: Commerce Integrations
-        description: "RResponsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
+        description: "Responsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
         pm: Isabel Sandin
         pmm: Saumya Upadhyaya
         slack:
@@ -1950,7 +1950,7 @@ stages:
         slack:
           channel: g_activation
         handbook: engineering/development/growth/
-        pm: Sam Awezec
+        pm: Paige Cordero
         pmm: Saumya Upadhyaya
         em: Kamil Niechajewicz
         be_team_tag: Activation Fullstack Team
@@ -2457,7 +2457,7 @@ stages:
           Single-tenant SaaS service currently in Limited Availability
         direction: /direction/horse/
         pm: Andrew Thomas
-        pmm: Saumya Upadhyaya
+        pmm: Saumya Upadhyaya & Heather Simpson
         uxr:
           - Will Leidheiser
         backend_engineering_manager: TBH
@@ -2467,7 +2467,7 @@ stages:
         appsec_engineer: Greg Alfaro
         tech_writer: "#docs Slack channel"
         slack:
-          channel: TBD
+          channel: #f_gitlab_dedicated
           alias: TBD
         handbook: engineering/development/platforms/horse/
         gitlab_group: TBD

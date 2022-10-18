@@ -83,7 +83,8 @@ If you need a basis for a response where you send the challenges, or in a 2FA ti
 
 1. To verify the challenge answers, use [chatops](https://about.gitlab.com/handbook/support/workflows/chatops.html), the [Zendesk GitLab User Lookup App](https://about.gitlab.com/handbook/support/support-ops/documentation/zendesk_global_apps.html#gitlab-user-lookup) or, for those who have admin access, check at `https://gitlab.com/admin/users/USERNAME`.
 1. Using the [Risk Factor Worksheet: Zendesk requests](https://docs.google.com/spreadsheets/d/1NBH1xaZQSwdQdJSbqvwm1DInHeVD8_b2L08-V1QG1Qk/edit#gid=0) (internal only), determine the appropriate data classification level and the risk factor you have determined from customer's answers to the challenges. Leave a comment with the `Support::SaaS::2FA::2FA Internal Note` [macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360043856894) to put an internal note on the ticket with the table at the bottom of the sheet.
-   - [Specific conditions are required to be considered for 2FA resets](#conditions-for-2fa-reset-consideration).  However, challenge responses can be accepted from any (paid or unpaid) group or project associated with the user.
+   - [Specific conditions are required to be considered for 2FA resets](#conditions-for-2fa-reset-consideration).
+   - Challenge answers must be evaluated against a paid namespace if the user is a member of any paid namespace. If the user is not a member of a paid namespace, refer to [Conditions for 2FA Reset Consideration](#conditions-for-2fa-reset-consideration) for further guidance.
    - If a group owner is answering on an [enterprise user's](gitlab-com_overview.html#enterprise-users) behalf, you can accept the owner's answers on the user's behalf. Use the same verification process, and [owner vouch process](#authenticating-an-owner-vouch) (the same owner can be the on vouching).
    - Once you're familiar with the Risk Factor Worksheet, feel free to use the [2FA App in Zendesk](../support-ops/documentation/zendesk_global_apps.html#2fa-app) to post your assessment of the verification questions.
 1. **If verification passed:** Request that your decision be peer-reviewed by another member of the team via Slack `#support_gitlab-com`.
@@ -165,13 +166,13 @@ In order for a SaaS user to be a candidate for the [workflow](#workflow), one of
 
 1. The user on GitLab.com occupies a seat in a paid group on GitLab.com.
 1. The user is the primary billing contact on a current invoice for either Self-managed or SaaS purchases.
-1. GitLab team member (account managers, TAMs or others) collaborate with the holder of this account in an account management project.
+1. GitLab team member (account managers, CSMs or others) collaborate with the holder of this account in an account management project.
 
 More succinctly: they're paid, they use the account to pay, or we use the account to communicate with them.
 
 While Support typically identifies users by their membership in a paid namespace, there are cases where users cannot be added manually by group owners, such as with [SSO enforcement](https://docs.gitlab.com/ee/user/group/saml_sso/#sso-enforcement) enabled. In these cases:
 
-1. [Owner vouch](#authenticating-an-owner-vouch) is required.
+1. An [Owner vouch](#authenticating-an-owner-vouch) from an owner in the paid namespace is required.
 1. Primary email of the account must match the company domain.
 1. User must still prove account ownership following the [workflow](#workflow).
    - Include the paid namespace when determining the data classification level.
@@ -183,7 +184,7 @@ For customers who are large enough to have an account management project, a diff
 
 ### Setup (For CS & Sales)
 
-The steps to follow depend on whether or not the customer has a shared Slack channel with us. Either the customer's Technical Account Manager (CS) or Account Manager (Sales) is responsible for performing this setup. Please proceed to [Shared Slack Channel](#shared-slack-channel) if they do or [No Shared Slack Channel](#no-shared-slack-channel) if they don't.
+The steps to follow depend on whether or not the customer has a shared Slack channel with us. Either the customer's Customer Success Manager (CS) or Account Manager (Sales) is responsible for performing this setup. Please proceed to [Shared Slack Channel](#shared-slack-channel) if they do or [No Shared Slack Channel](#no-shared-slack-channel) if they don't.
 
 #### Shared Slack Channel
 

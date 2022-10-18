@@ -1,0 +1,70 @@
+description: Follow these ten steps to seamlessly integrate security into DevOps
+canonical_path: /topics/devsecops/devsecops-security-checklist/
+parent_topic: devsecops
+file_name: devsecops-security-checklist
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: A DevSecOps security checklist
+header_body: Your team has embraced the DevOps methodology and you’re ready to shift security left, moving it closer to developers. Developers are more likely to find and fix bugs if it’s easy for them to do so right in their workflow. But changing long-held beliefs and biases about security requires planning, patience, and persistence.
+related_content:
+  - title: What is fuzz testing?
+    url: /topics/devsecops/what-is-fuzz-testing/
+  - title: Why developer-first security is important to understand
+    url: /topics/devsecops/what-is-developer-first-security/
+  - title: DevSecOps with GitLab
+    url: /solutions/dev-sec-ops/
+cover_image: /images/topics/application-security.svg
+body: >-
+  Here’s a ten-step [DevSecOps](/topics/devsecops/) security checklist that can help any team get on
+  the same page.
+
+
+  ## Understand where security is creating challenges in the development process 
+  
+  Our [2022 Global DevSecOps Survey](/developer-survey/) shows the divide between developers and security is closing, but some friction remains. A full 57% of survey takers agreed security is a performance metric for developers in their organization, but 56% said it was difficult to get developers to prioritize fixing code vulnerabilities. In the end, 59% said security vulnerabilities were most likely to be found by the security team after the code is merged in a test environment. There isn’t even agreement on who is actually responsible for security: 43% of security pros said they are, but 53% said everyone is. The bottom line: confusion abounds. The first step should be to understand what is most challenging within your DevSecOps pipeline.
+
+
+  ## Align everyone on a common goal
+  
+  With so many different assumptions about security and ownership, offering clear goals to the team will provide something tangible to work towards. Moving security forward in the software lifecycle won’t help anyone if your team doesn’t understand their responsibilities and expectations. For example, aligning on the goal of testing more code could translate into faster releases once things are going smoothly. Similarly, establishing a goal of improving planning by bringing in a security champion from the beginning means security is involved in every step of the process, reducing friction and ultimately speeding up release cycles. A [successful DevSecOps practice](/solutions/dev-sec-ops/) improves accountability even among non-security team members by creating a culture where reducing security risks is everyone’s responsibility.
+
+
+  ## Complete an audit to identify where teams are wasting time
+
+  Without DevSecOps, security teams identify security vulnerabilities using their own tools, usually at the end of a development cycle, and then kick them back to the development team for remediation. This back and forth puts the two teams in a constant state of friction and wastes time with inefficient communications. By understanding just how much time your team wastes dealing with vulnerabilities after code is merged, you might be able to identify patterns and make adjustments for improvement. For example, are security teams having trouble tracking the remediation status of critical vulnerabilities, meaning they constantly have to check in with the development team to understand the latest? This could point to the need for a [single dashboard](/blog/2021/06/01/gitlab-is-setting-standard-for-devsecops/) where both developers and security pros can see the status of remediation for critical vulnerabilities.
+
+
+  ## Discuss pain points and bottlenecks
+  
+  Security can be a bottleneck to releasing software quickly, but it’s much too important to minimize or ignore. DevSecOps promises to bring security forward in the software development lifecycle — but getting there is a journey. An important step is to bring everyone together — development, security, and operations teams — for a frank discussion about the pain points and bottlenecks related to security. Once everything is on the table, create a plan to resolve each concern, and then execute that plan. Having this discussion helps to ensure that everyone’s voice is heard and identifies pain points that might not be apparent from cold, hard data.
+  
+  
+  ## Make small, incremental code changes
+  
+  At GitLab, [iteration](/handbook/values/) is one of our core values, so when we make changes, we make tiny, quick-to-accomplish alterations and then build on them. The same principle is true when shifting from [DevOps](/topics/devops/) to DevSecOps. Smaller, incremental code changes are easier to review and secure, and can be launched more quickly than monolithic project changes. Producing code in small chunks or units, and then running automated tests on those units as they’re committed, allows developers to remediate any vulnerabilities on the spot — rather than waiting for feedback days, weeks, or even months later. Running regular tests saves time down the road, when the completed app is tested before pushing it to production.
+
+
+  ## Automate and integrate
+  
+  Automation and [integration](/topics/ci-cd/implement-continuous-integration/) are key for DevOps, but they’re also what make security scans a powerful tool. If scans are ubiquitous, every code change will be reviewed and vulnerabilities will be found much earlier in the process. The scans must be built into the developer’s workflow. Integrated security enables developers to find and fix vulnerabilities before the code ever leaves their hands. This also reduces the volume of security issues sent to the security team, streamlining their review.
+
+
+  ## Give developers access to the results of security reports
+  
+  Rather than keeping the results of static application security testing (SAST) and dynamic application security testing (DAST) siloed with security teams, make sure this information is shared across the team, especially with developers. While this is important for remediation, it’s also a valuable tool to help developers build the necessary security controls into the software development lifecycle.
+
+
+
+  ## Complete an audit of waterfall-style security processes
+  
+  In the traditional [waterfall-style approach to security](https://www.umsl.edu/~hugheyd/is6840/waterfall.html), vulnerabilities are typically found at the end of the development cycle. Take the time to audit existing security workflows within your software development lifecycle. If you find any waterfall-style processes, consider eliminating or at least greatly reducing your dependence on them. You should always be able to change direction as needs arise: Keep your organization nimble.
+
+
+  ## Make sure the security team has visibility into vulnerability status
+  
+  The [2022 Global DevSecOps Survey](/developer-survey/) showed that the biggest challenge facing security professionals is prioritizing vulnerability remediation. Other concerns included the volume of false positives and difficulty tracking vulnerability status. This could be one of the factors behind security pros’ somewhat negative outlook for the future: only 56% said they feel “somewhat” or “very prepared” for the future (almost 20 points lower than the average dev and ops response). It’s clear that security teams need better visibility into both resolved and unresolved vulnerabilities, where the vulnerabilities reside, who created them, and their status for remediation.
+
+
+  ## Streamline your tools into a single DevOps platform
+  
+  It’s difficult for everyone to be responsible for security when teams don’t have the right tools. The best way to shift security left is with an end-to-end platform that helps DevOps teams move away from waterfall-style processes, streamlines communication, includes automation and continuous integration, and provides a single source of truth for the results of security scans and the status of critical vulnerabilities.
+

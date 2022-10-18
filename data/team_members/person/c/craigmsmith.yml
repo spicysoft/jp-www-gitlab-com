@@ -1,0 +1,26 @@
+---
+name: Craig Smith
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/#secure">Senior Backend
+  Engineer, Secure:Dynamic Analysis</a>
+reports_to: sethberger
+picture: craigmsmith.jpg
+gitlab: craigmsmith
+pronouns: he/him
+projects:
+  secure-browser-based-dast: maintainer
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Dynamic Analysis BE Team
+story: 'Craig is a lifelong software engineer who loves to work in an Agile manner
+  to deliver useful, working software in the fastest and most flexible way possible.
+  When he''s not coding you''ll find Craig in the ocean, surfing, swimming or snorkeling.
+
+  '
+domain_expertise:
+- secure
+specialty: Dynamic Analysis
+

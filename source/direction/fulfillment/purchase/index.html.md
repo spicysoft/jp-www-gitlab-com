@@ -79,7 +79,7 @@ From our [fulfillment direction](/direction/fulfillment/#increase-new-customer-a
 
 ### Ranked Criteria for Vendor Selection
 
-1. **Severity of problem / size of opportunity** - How often is the persona encountering their problem? Are there any workarounds today? Does a vendor solve that problem? Does a vendor provide new opportunities we don't have today?
+1. **Severity of problem / size of opportunity** - How often is the persona encountering their problem? Are there any workarounds today? How well does a vendor solve that problem? Does a vendor provide new opportunities we don't have today?
 3. **Time to market** - When might we be able to unlock business requirements; both paths (vendor, no vendor) are similar in time to execute, save more in outyears vs initial build out.
 5. **Scope / opportunity cost** - Engineering capacity can be reapplied to other critical initiatives; offload compliance and operational support to a vendor; How much does it cost to maintain x,y,z? What is the boring solution? Will a vendor scale with us in the future?
 6. **Costs** - Additional hires to deliver necessary e-commerce functionality, while maintaining momentum on other initiatives.

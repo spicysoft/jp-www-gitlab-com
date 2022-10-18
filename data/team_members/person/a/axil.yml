@@ -9,11 +9,9 @@ picture: axil.jpg
 twitter: _axil
 gitlab: axil
 departments:
-- Engineering Function
+- Product Team
 - UX Department
 - Technical Writing
-- Core Team Alumni
-- Merge Request Buddy
 projects:
   gitlab-docs: maintainer
   gitlab_kramdown: maintainer
@@ -41,4 +39,6 @@ story: |
 specialty:
 - 'Enablement: Geo'
 - 'Enablement: Distribution'
+- Core Team Alumni
+- Merge Request Buddy
 

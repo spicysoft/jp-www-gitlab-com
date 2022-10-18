@@ -3,9 +3,7 @@
   domains:
     - database
   max_trainees: 2
-  trainees:
-    - Michał Zając (@Quintasan)
-    - Matthew Kasa (@mattkasa)
+  trainees: []
 - mentor: Paul Slaughter
   gitlab: pslaughter
   domains:
@@ -83,6 +81,7 @@
   max_trainees: 3
   trainees:
     - Juliet Wanjohi (@jwanjohi)
+    - Carla Drago (@carlad-gl)
 - mentor: Dmitry Gruzd
   gitlab: dgruzd
   domains:

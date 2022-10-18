@@ -3,15 +3,20 @@ locality:
 country: Remote
 role: <a href="">Senior Solutions Architect</a>
 reports_to: drelli
-picture: ../gitlab-logo-extra-whitespace.png
+picture: adess.jpg
 pronouns:
 pronunciation:
-twitter:
-linkedin:
+twitter: https://twitter.com/dessCloud
+linkedin: https://www.linkedin.com/in/adess/
 gitlab: adess-gitlab
 departments:
   - SA
 specialty: "Customer Success"
-expertise:
+domain_expertise:
+- Kubernetes
+- Prometheus
+- Linux
+- AWS Infrastrucutre (Certified)
+- VMware
 story:
 

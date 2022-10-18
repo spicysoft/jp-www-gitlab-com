@@ -7,6 +7,8 @@ reports_to: danielcroft
 picture: nicholas-klick.png
 twitter:
 gitlab: nicholasklick
+projects:
+  gitlab-observability-ui: maintainer
 departments:
 - Engineering Division
 - Development Department
