@@ -387,11 +387,29 @@ namespace :release_post do
       @current_post ||= ReleasePosts::Kickoff.new(r[0])
     end
 
+    puts "Setting version and branch name"
+
     version = @current_post.version
     version_dash = version.tr('.', '-')
     branch_name = "release-#{version_dash}"
 
+    puts "Version: #{version_dash}"
+    puts "Release Post Branch: release-#{version_dash}"
+
+    # Stash modified and untracked files so we have a "clean" environment
+    # without accidentally deleting data
+    puts "Stashing changes"
+    status = `git status --porcelain`
+    `git stash -u` unless status.empty?
+
+    # Sync with upstream master
+    `git checkout master`
+    `git pull https://jobbot:glpat-ZQ1Ac7Wo-guXyHFK2jn-@gitlab.com/gitlab-com/www-gitlab-com.git master`
+
+    # Create branch
     `git checkout #{branch_name}`
+    `git pull`
+    `git merge master`
     `bin/release-post-assemble`
     `git add .`
     `git commit -m 'Perform content assembly'`
