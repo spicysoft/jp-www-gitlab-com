@@ -835,7 +835,7 @@ container-registry:
   path: gitlab-org/container-registry
   link: https://gitlab.com/gitlab-org/container-registry
   description: |
-    With the Docker Container Registry integrated into GitLab, every project can have its own space to store its Docker images.
+    With the Container Registry in GitLab, every project can have its own space to store its images.
 
 iglu:
   name: Iglu
