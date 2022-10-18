@@ -63,7 +63,7 @@ data-science:
   sm: TBD
   pmm: Saumya Upadhyaya
   qm: Vincy Wilson
-  direction: /direction/data-science
+  direction: /direction/data-science/
 
 analytics:
   name: "Analytics"
