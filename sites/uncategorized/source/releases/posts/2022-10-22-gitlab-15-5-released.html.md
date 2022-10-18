@@ -1,6 +1,6 @@
 ---
 release_number: "15.5" # version number - required
-title: "GitLab 15.5 released with Cloud Seed and Autocomplete suggestions" # short title (no longer than 62 characters) - required
+title: "GitLab 15.5 released with GitLab Cloud Seed and Autocomplete suggestions" # short title (no longer than 62 characters) - required
 author: Matt Wilson # author name and surname - required
 author_gitlab: matt_wilson # author's gitlab.com username - required
 image_title: '/images/15_5/15_5-cover-image.jpg' # cover image - required
