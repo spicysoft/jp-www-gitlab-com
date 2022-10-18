@@ -92,6 +92,19 @@
   registration: "None"
   confidentiality: "Public"
 
+- name: "Kubernetes Observability workshop for Kube Simplify"
+  url: https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/projects/#kubernetes-observability-workshop-for-kube-simplify
+  description: |
+    Michael Friedrich, Senior Developer Evangelist, provides a 3.5 hours live workshop on Kubernetes Observability for the Kube Simplify workshop series as a free learning resource. After an introduction, the workshop starts with an overview of monitoring, metrics with Prometheus, and how to build and use dashboards in Kubernetes. Alerts, incidents and SLOs are practiced by example, building the bridge into more Observability data with tracing, logs and more event types. Chaos engineering is practiced with Chaos Mesh to trigger alerts when DNS errors force an app to leak memory. This allows users to practice the KubeCon EU 2022 demo themselves. Scaling, long term storage, security workflows as well as new innovative ideas with OpenTelemetry and eBPF are discussed too. The workshop includes exercises and solutions ready for production environments afterwards.  
+  live_date:
+  maintainer: "Developer Evangelism"
+  level: "Intermediate"
+  use_case: "Observability"
+  pace: "Self-Paced"
+  assessment: "None"
+  registration: "None"
+  confidentiality: "Public"  
+
 - name: "Technical Writing Fundamentals"
   url: https://gitlab.edcast.com/pathways/ECL-02528ee2-c334-4e16-abf3-e9d8b8260de4
   description: |

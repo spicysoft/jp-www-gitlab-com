@@ -21,6 +21,7 @@ story: |
   gaming and spending time outdoors.
 projects:
   gitlab: reviewer go
+  gitlab-shell: trainee_maintainer
   secure-DS-gemnasium: reviewer backend
   secure-LC-license-finder: reviewer backend
   secure-container-scanning: reviewer backend

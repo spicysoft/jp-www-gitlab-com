@@ -58,7 +58,7 @@ stages:
           - Daniel Mora
         uxr:
           - Anne Lasch
-        tech_writer: Evan Read
+        tech_writer: Jon Glassman
         appsec_engineer: Rohit Shambhuni
         cs_team_tag: Authentication and Authorization Group CS Stable Counterpart
         internal_customers:
@@ -99,7 +99,7 @@ stages:
           - Mike Nichols
         uxr:
           - Anne Lasch
-        tech_writer: Fiona Neill
+        tech_writer: Lorena Ciutacu
         appsec_engineer: Rohit Shambhuni
         cs_team_tag: Access Group CS Stable Counterpart
         internal_customers:
@@ -530,7 +530,7 @@ stages:
         uxr:
           - Ben Leduc-Mills
         tech_writer: Amy Qualls
-        appsec_engineer: TBD
+        appsec_engineer: Greg Alfaro
         cs_team_tag: TBD
         internal_customers:
           - department: Engineering Department
@@ -571,7 +571,7 @@ stages:
         uxr:
           - Ben Leduc-Mills
         tech_writer: Ashraf Khamis
-        appsec_engineer: TBD
+        appsec_engineer: Greg Alfaro
         cs_team_tag: Editor Group CS Stable Counterpart
         internal_customers:
           - department: Marketing Department
@@ -828,18 +828,60 @@ stages:
     section: ops
     slack:
       channel: s_package
-    handbook: product/categories/#package-stage
+    handbook: engineering/development/ops/package
     groups:
-      package:
-        name: Package
+      package_registry:
+        name: Package Registry
         pm: Tim Rizzi
-        focus: Package GMAU
+        focus: Package Registry GMAU
+        cm: Chrissie Buchanan
+        pmm: Heather Simpson
+        backend_engineering_manager: Carrie Kroutil
+        frontend_engineering_manager: Carrie Kroutil
+        be_team_tag: Package:Package Registry BE Team
+        fe_team_tag: Package:Package Registry FE Team
+        support:
+          - Nourdin el Bacha
+        qm: Joanna Shih
+        sets:
+          - TBD
+        pdm:
+          - Rayana Verissimo
+        ux:
+          - Katie Macoy
+        uxr:
+          - Erika Feldman
+        tech_writer: Clayton Cornell
+        appsec_engineer: TBD
+        cs_team_tag: Package Registry Group CS Stable Counterpart
+        internal_customers:
+          - department: Distribution Team
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - package_registry
+          - helm_chart_registry
+        usage_driver_score: 3
+        asp_driver_score: 2
+        sam_driver_score: 4
+        group_link: product/categories/#package-group
+        slack:
+          channel: g_package-registry
+          alias: package-registry-group
+        gitlab_group: "gitlab-org/ci-cd/package-stage/package-registry-group"
+        handbook: engineering/development/ops/package/package-registry
+        google_group: "package-stage@gitlab.com"
+      container_registry:
+        name: Container Registry
+        pm: Tim Rizzi
+        focus: Container Registry GMAU
         cm: Chrissie Buchanan
         pmm: Heather Simpson
         backend_engineering_manager: Michelle Torres
         frontend_engineering_manager: Michelle Torres
-        be_team_tag: Package BE Team
-        fe_team_tag: Package FE Team
+        be_team_tag: Package:Container Registry BE Team
+        fe_team_tag: Package:Container Registry FE Team
         support:
           - Nourdin el Bacha
         qm: Joanna Shih
@@ -848,12 +890,12 @@ stages:
         pdm:
           - Rayana Verissimo
         ux:
-          - Katie Macoy
+          - TBD
         uxr:
           - Erika Feldman
         tech_writer: Clayton Cornell
-        appsec_engineer: Vitor Meireles De Sousa
-        cs_team_tag: Package Group CS Stable Counterpart
+        appsec_engineer: TBD
+        cs_team_tag: Container Registry Group CS Stable Counterpart
         internal_customers:
           - department: Distribution Team
             dri: TBD
@@ -861,8 +903,6 @@ stages:
             dri: TBD
         categories:
           - container_registry
-          - package_registry
-          - helm_chart_registry
           - dependency_proxy
           - dependency_firewall
         usage_driver_score: 3
@@ -870,10 +910,10 @@ stages:
         sam_driver_score: 4
         group_link: product/categories/#package-group
         slack:
-          channel: s_package
-          alias: package-group
-        gitlab_group: "gitlab-org/ci-cd/package-stage"
-        handbook: engineering/development/ops/package/
+          channel: g_container-registry
+          alias: container-registry-group
+        gitlab_group: "gitlab-org/ci-cd/package-stage/container-registry-group"
+        handbook: engineering/development/ops/package/container-registry
         google_group: "package-stage@gitlab.com"
 
   secure:
@@ -1514,7 +1554,7 @@ stages:
         name: Product Intelligence
         direction: /direction/product-intelligence/
         handbook: engineering/development/analytics/product-intelligence
-        pm: Amanda Rueda
+        pm: Sam Kerr (Acting)
         pmm: Saumya Upadhyaya
         cm: Suri Patel
         backend_engineering_manager: Dennis Tang
@@ -1561,7 +1601,7 @@ stages:
           - TBD
         sets:
           - Carlo Catimbang
-        tech_writer: Clayton Cornell
+        tech_writer: Lorena Ciutacu
         cs_team_tag: Product Intelligence Group CS Stable Counterpart
         internal_customers:
           - department: Sales Department
@@ -1707,6 +1747,7 @@ stages:
         support: TBD
         be_team_tag: TBD
         fe_team_tag: TBD
+        infra_reliability_team_tag: Fulfillment Group Reliability Stable Counterpart
         appsec_engineer: TBD
         pdm:
           - Jacki Bauer
@@ -2062,6 +2103,9 @@ stages:
         focus: Gitaly GMAU
         pmm: Saumya Upadhyaya
         image: "/images/solutions/solutions-gitaly.png"
+        handbook: /engineering/development/enablement/systems/gitaly/
+        slack:
+          channel: g_gitaly
         description: |
           Scalable, resilient Git storage layer accessible via RPC.
         body: |
@@ -2098,6 +2142,9 @@ stages:
         focus: Gitaly GMAU
         pmm: Saumya Upadhyaya
         image: "/images/solutions/solutions-gitaly.png"
+        handbook: /engineering/development/enablement/systems/gitaly/
+        slack:
+          channel: g_gitaly
         description: |
           Open-source Git development and integration.
         body: |
@@ -2371,7 +2418,7 @@ stages:
       delivery:
         name: "Delivery"
         description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
-        direction: /handbook/engineering/infrastructure/team/delivery/
+        direction: /engineering/infrastructure/team/delivery/
         pm: Andrew Thomas (Life Support)
         pmm: Saumya Upadhyaya
         uxr:
@@ -2381,14 +2428,14 @@ stages:
         slack:
           channel: g_delivery
         gitlab_group: gitlab-org/delivery
-        handbook: /handbook/engineering/infrastructure/team/delivery/
+        handbook: /engineering/infrastructure/team/delivery/
         categories:
           - delivery
 
       scalability:
         name: "Scalability"
         description: "The Scalability team is responsible for GitLab and GitLab.com at scale, working on the highest priority scaling items related to the application and GitLab.com."
-        direction: /handbook/engineering/infrastructure/team/scalability/
+        direction: /engineering/infrastructure/team/scalability/
         pm: Andrew Thomas (Life Support)
         pmm: Saumya Upadhyaya
         appsec_engineer: Rohit Shambhuni
@@ -2396,7 +2443,7 @@ stages:
         slack:
           channel: g_scalability
         gitlab_group: gitlab-org/scalability
-        handbook: /handbook/engineering/infrastructure/team/scalability/
+        handbook: /engineering/infrastructure/team/scalability/
         categories:
           - scalability
           - error_budgets
@@ -2470,7 +2517,7 @@ stages:
       - Wayne Haber
     pdm:
         - Taurie Davis
-    handbook: /handbook/engineering/development/modelops/
+    handbook: /engineering/development/modelops/
     marketing: false
     tw: true
     slack:

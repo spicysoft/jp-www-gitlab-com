@@ -157,7 +157,7 @@ The [message house](./message-house/) for DevSecOps provides a structure to desc
 
 ## Competitive Comparison
 
-See how we [compare against other Security tools](https://about.gitlab.com/devops-tools/)
+See how we [compare against other Security tools](https://about.gitlab.com/competition/)
 
 How our governance compares:
 1. Role-based access control (RBAC) for separation of duties. Competitive products's roles are broader and when a person changes roles, his/her permissions must be changed manually. Why is this important? If someone has access to push to prod and is demoted or moves to another group, you'd want the permissions to change automatically to avoid insider threats.

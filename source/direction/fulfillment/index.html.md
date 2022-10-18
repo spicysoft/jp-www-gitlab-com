@@ -145,44 +145,16 @@ To learn more about our roadmap prioritization principles and process, please se
 
 ## Groups
 
-### Purchase Group
 
-* [Direction](/direction/fulfillment/purchase/)
-* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Apurchase&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
-* The Purchase group is responsible for optimizing the web-direct purchase experience, with a focus on first orders.
-* Categories: Purchase
-
-### Billing and Subscription Management Group
-
-* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Abilling+and+subscription+management&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP) 
-* The Billing and Subscription Management group is responsible for supporting sales-assisted purchasing, subscription management (e.g., reconciliation, auto-renewal, invoicing, payment collection), and more. The group's primary goal is to increase self-service purchase volume to 95.5%.
-* Categories: Billing & Payments, Subscription Management
-
-### Provision Group
-
-* [Direction](/direction/fulfillment/provision/)
-* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Aprovision&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
-* The Provision group is responsible for provisioning and managing licenses across self-managed and SaaS (including Cloud License activation/sync and provisioning of legacy licenses).
-* Categories: SM Provisioning, SaaS Provisioning
-
-### Utilization Group
-
-* [Direction](/direction/fulfillment/utilization/)
-* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Autilization&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
-* Categories: Subscription Usage Reports, Subscription Cost Management
-
-### Fulfillment Platform Group
-
-* [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Afulfillment+platform&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
-* Categories: Fulfillment Infrastructure, Fulfillment Developer Productivity, CustomersDot Application
-
-### Commerce Integrations Group 
-* [Direction](/direction/fulfillment/commerce-integrations/)
-* Categories: Commerce Integrations
-
-### Fulfillment Admin Tools Group
-* [Direction](/direction/fulfillment/fulfillment-admin-tools/)
-* Categories: Fulfillment Admin Tooling
+| Group | Description | Roadmap | Categories |
+|------------|---------------|----------|-------|
+| Billing and Subscription Management | The Billing and Subscription Management group is responsible for supporting sales-assisted purchasing, subscription management (e.g., reconciliation, auto-renewal, invoicing, payment collection), and more. | [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Abilling+and+subscription+management&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP) | `Billing & Payments`, `Subscription Management` |
+| [Commerce Integrations](/direction/fulfillment/commerce-integrations/) | Commerce Integrations manages the buying experience for customers provisioning instances through third party distributors and marketplaces. | Coming soon | `Commerce Integrations` |
+| [Fulfillment Admin Tools](/direction/fulfillment/fulfillment-admin-tools/) | The Fulfillment Admin Tools team works with internal teams to build robust systems that enable our internal, customer-facing teams better support our customers. | Coming soon | `Fulfillment Admin Tooling` |
+| [Fulfillment Platform](https://about.gitlab.com/direction/fulfillment/platform/) | Fulfillment Platform maintains and evolves our underlying order-to-cash infrastructure, including integrations with Zuora to help accelerate our goals as a section. | [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Afulfillment+platform&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP) | `Fulfillment Infrastructure`, `Fulfillment Developer Productivity`, `CustomersDot Application` |
+| [Provision](/direction/fulfillment/provision/) | The Provision group is responsible for provisioning and managing licenses across self-managed and SaaS (including Cloud License activation/sync and provisioning of legacy licenses). | [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Aprovision&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP) | `SM Provisioning`, `SaaS Provisioning` |
+| [Purchase](/direction/fulfillment/purchase/)  | The Purchase group is responsible for optimizing the web-direct purchase experience, with a focus on first orders. | [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Apurchase&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP) | `Purchase` |
+| [Utilization](/direction/fulfillment/utilization/) | The Utilization group endeavors to capture and deliver usage data to internal team members, prospects, and customers so that they can make the best decision for their business needs.  | [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Autilization&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP) | `Subscription Usage Reports`, `Subscription Cost Management` |
 
 ## OKRs
  

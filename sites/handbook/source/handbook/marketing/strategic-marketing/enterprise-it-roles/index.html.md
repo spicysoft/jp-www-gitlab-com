@@ -51,7 +51,7 @@ Related Reading:
               - [GitLab home page](https://about.gitlab.com)
               - [ROI](/calculator/roi/)
               - [Product page](/stages-devops-lifecycle/)
-              - [Comparison page](/devops-tools/)
+              - [Comparison page](/competition/)
               - [Solutions page](/solutions/), depending upon unique challenges/interests  
 
 
@@ -64,7 +64,7 @@ Related Reading:
               - Improve visibility while at the same time reducing friction between processes and tools used by dev and app sec teams.  
         1. Resources:
               - [DevSecOps](/solutions/dev-sec-ops/)
-              - [Comparison](/devops-tools/)
+              - [Comparison](/competition/)
               - [Current Security Deck](https://docs.google.com/presentation/d/1z4v6v_lP7BHCP2jfRJ9bK_XoUgQ9XW01X2ZhQcon8bY/edit#slide=id.g2823c3f9ca_0_9) - [Deprecated Security Deck](https://docs.google.com/presentation/d/1lNr9pz7axLlN7uw7Wkwi_FYMuEh4F4QzPaoJLfReGFk/edit#slide=id.g2823c3f9ca_0_9)
               - [Regulatory Compliance](/solutions/compliance/)  
 
@@ -89,7 +89,7 @@ Related Reading:
             - [Team development platform](/solutions/developer-platform/)
             - [DevSecOps](/solutions/dev-sec-ops/)
             - [Product page](/stages-devops-lifecycle/)
-            - [Comparison page](/devops-tools/)
+            - [Comparison page](/competition/)
             - [Solutions page](/solutions/), depending upon unique challenges/interests
 
 
@@ -116,7 +116,7 @@ Related Reading:
           - [Auto DevOps](/stages-devops-lifecycle/auto-devops/)
           - [CI/CD](/stages-devops-lifecycle/continuous-integration/)
           - [Product page](/stages-devops-lifecycle/)
-          - [Comparison page](/devops-tools/)
+          - [Comparison page](/competition/)
           - [Solutions page](/solutions/), depending upon unique challenges/interests
 
 
@@ -133,7 +133,7 @@ Related Reading:
             - [High availability development](/high-availability/)
             - [DevSecOps](/solutions/dev-sec-ops/)
             - [Product page](/stages-devops-lifecycle/)
-            - [Comparison page](/devops-tools/)
+            - [Comparison page](/competition/)
             - [Solutions page](/solutions/), depending upon unique challenges/interests
             - [Security Deck](https://docs.google.com/presentation/d/1lNr9pz7axLlN7uw7Wkwi_FYMuEh4F4QzPaoJLfReGFk/edit#slide=id.g2823c3f9ca_0_9)
             - [Regulatory Compliance](/solutions/compliance/)
@@ -158,7 +158,7 @@ Related Reading:
             - [Geographically distributed teams](/features/gitlab-geo/)
             - [DevSecOps](/solutions/dev-sec-ops/)
             - [Product page](/stages-devops-lifecycle/)
-            - [Comparison page](/devops-tools/)
+            - [Comparison page](/competition/)
             - [Solutions page](/solutions/), depending upon unique challenges/interests
 
 

@@ -107,7 +107,6 @@
             <% categoryLinks << "[Marketing Page](#{category.marketing_page})" if category.marketing_page %>
             <% categoryLinks << "[Documentation](#{category.documentation})" if category.documentation %>
             <% categoryLinks << "[Direction Page](#{category.direction})" if category.direction %>
-            <% categoryLinks << "[Category Health](/handbook/product/category-health/##{category.name})" %>
             <% links = categoryLinks.empty? ? '' : (' \\| ' + categoryLinks.join(' • ')) %>
 <%= "  * #{name}#{kbdElement ? kbdElement : ''}#{links}" %>
           <% end %>

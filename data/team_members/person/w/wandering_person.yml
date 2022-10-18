@@ -17,7 +17,13 @@ departments:
 - Dev Section
 - Govern:Compliance BE Team
 - Govern:Compliance Fullstack Team
+projects:
+  gitlab:
+  - reviewer backend
 specialty: Compliance
 expertise:
+  - rails
+  - ruby
+  - shell
 story:
 

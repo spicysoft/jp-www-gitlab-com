@@ -117,7 +117,7 @@ These status updates are used to:
 1. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as EOC you should page the Incident Manager to find a team member with the appropriate expertise.
     1. Requesting assistance does not mean relinquishing EOC responsibility. The EOC is still responsible for the incident.
     1. The [GitLab Organizational Chart](https://comp-calculator.gitlab.net/org_chart) and the [GitLab Team Page](/company/team/), which lists areas of expertise for team members, are important tools for finding the right people.
-1. As soon as an [S1/S2](/handbook/engineering/infrastructure/production/#severity) [incident is declared](#declaring-an-incident), join the `The Situation Room Permanent Zoom`. The Zoom link is in the `#incident-management` topic.
+1. As soon as an [S1/S2](/handbook/engineering/infrastructure/production/#severity) [incident is declared](#report-an-incident-via-slack), join the `The Situation Room Permanent Zoom`. The Zoom link is in the `#incident-management` topic.
     1. GitLab works in an asynchronous manner, but incidents require a synchronous response. Our collective goal is high availability of 99.95% and beyond, which means that the timescales over which communication needs to occur during an incident is measured in seconds and minutes, not hours.
 1. It is important that the "Summary" section of incident issues is updated **early and often** during an incident. This supports our async ability to independently discover the context of an incident and helps all stakeholders (including users) understand the general idea of what is going on.
 1. Keep in mind that a GitLab.com incident is not an "infrastructure problem". It is a company-wide issue, and as EOC, you are leading the response on behalf of the company.
@@ -161,8 +161,6 @@ If a second incident zoom is desired, choose which incident will move to the new
 1. In the event of an incident which has been triaged and confirmed as a clear Severity 1 impact, notify Infrastructure leadership via PagerDuty [Infrastructure Leadership Escalation](https://gitlab.pagerduty.com/escalation_policies#PO2KR8R) This notification should occur 24/7.
 1. The IM should not consider immediate work on an incident completed until the top description section in the Incident Issue (above the "Incident Review" section) is filled out with useful information to describe all the key aspects of the Incident.
 1. After the incident is resolved, the Incident Manager is responsible for conducting the [post-incident review](/handbook/engineering/infrastructure/incident-review/).
-    1. If an incident is either an S1 or S2 and has been communicated on the status page (including security) then the Incident Manager should add the incident to the [Gitlab.com standup agenda (internal only)](https://docs.google.com/document/d/1vww0BfRzHtrGhMppTEw5Q27KSzD1e72dmJ3XoppxC-A/edit#).
-    1. If the meeting is not active (no planned agenda or active calendar event) then the Incident Manager should call for activation of the meeting for the following business day by noting the need in slack #vp-development and #vp-infrastructure.
 1. For high severity bugs that affect customers, the Incident Manager is responsible for making sure Incident Reviews are coordinated with other departments in Engineering and go through the complete Incident Review process.
 1. When engaged in an active incident near the end of an Incident Manager shift, the current Incident Manager owns the decision as to whether to continue in their role or to transition the active incident to the incoming Incident Manager. In most cases, this transition should be the expected default behavior.
 1. During a shift where no Incident Manager engaged incidents have occurred, no transition ("handover") is required.
@@ -180,7 +178,6 @@ During a Severity 1 Incident there is a lot going on. Here is a checklist of the
 1. Ensure that the root cause is clearly articulated and the appropriate `RootCause::` label is used OR that a clear path of investigation to determine root cause is continuing.
 1. Review that the mitigation steps were reasonable, effective, and don't leave us in a state vulnerable for other problems.
 1. Review that the necessary external communications have been completed (Engage CMOC for this).
-1. Add a summary & link to the [Reliability Standup agenda](https://docs.google.com/document/d/1vww0BfRzHtrGhMppTEw5Q27KSzD1e72dmJ3XoppxC-A/edit#) (internal only)
 1. Ensure that any Sev1/P1 Corrective Actions have clear ownership and engagement.
 1. Ensure that any ongoing effort or oversight by future IM and EOC shifts is supported with handoff notes and sync handoff (if needed).
 

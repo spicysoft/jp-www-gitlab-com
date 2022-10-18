@@ -157,7 +157,7 @@ Your notable bugs and performance improvement MRs are ready to receive your cont
 cc: @fseifoddini @brhea
 ```
 
-3. [ ] Paste the following message in `#ux_managers`
+3. [ ] Paste the following message in `#ux_leadership`
 
 ```md
 Your notable usability improvement MR is ready to receive your contributions!
@@ -212,7 +212,7 @@ Note: All the `Final Content Assembly` and `Structural Check` steps happen in se
  **Due date: YYYY-MM-12**
 
 1. [ ] Encourage team members to vote on MVP nominations in the `#release-post`, `#community-relations`, `#mr-coaching` and `#core` Slack channels by sharing a link to the [MVP Issue](MVP_ISSUE_LINK).
-1. [ ] Remind PMs/EMs to contribute to the bugs, usability, and performance improvement MRs by commenting on the various Slack threads you initiated in `#release-post`, `#development`, `ux_managers`, and `#eng-managers` by the 12th
+1. [ ] Remind PMs/EMs to contribute to the bugs, usability, and performance improvement MRs by commenting on the various Slack threads you initiated in `#release-post`, `#development`, `ux_leadership`, and `#eng-managers` by the 12th
 
 #### General Content Review due by the 14th
 

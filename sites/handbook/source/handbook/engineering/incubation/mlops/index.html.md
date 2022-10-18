@@ -17,10 +17,10 @@ MLOps is a [Single-Engineer Group](/company/team/structure/#single-engineer-grou
 
 ## Updates
 
-August 8th 2022: The first MR towards ML Experiment Tracking! [Issue](https://gitlab.com/gitlab-org/incubation-engineering/mlops/meta/-/issues/60)
+October 10th 2022: First DEMO of MLFlow working with GitLab! [Issue](https://gitlab.com/gitlab-org/incubation-engineering/mlops/meta/-/issues/62)
 
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/N0aQK6IHMdE" frameborder="0" allowfullscreen="true"> </iframe>
+    <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0KpC6-JQy8lY4tNAZKXBaM_-" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 [Subscribe to the issue for updates](https://gitlab.com/gitlab-org/incubation-engineering/mlops/meta/-/issues/16)

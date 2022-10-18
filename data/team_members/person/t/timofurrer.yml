@@ -1,13 +1,13 @@
 name: Timo Furrer
 locality: 
 country: Remote
-role: <a href="">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>
 reports_to: nicolo-maria-mezzopera
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
-twitter:
-linkedin:
+picture: timofurrer.jpg
+pronouns: he/him
+pronunciation: ti-mo
+twitter: tuxtimo
+linkedin: timo-furrer-4bb13362
 gitlab: timofurrer
 departments:
   - Development

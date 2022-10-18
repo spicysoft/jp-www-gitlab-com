@@ -1,17 +1,18 @@
+---
 name: Dan Ward
-locality: 
+locality:
 country: Remote
 role: <a href="">Senior Public Sector Strategic Account Leader</a>
-reports_to: jks
-picture: ../gitlab-logo-extra-whitespace.png
+reports_to: bstevens1
+picture: "../gitlab-logo-extra-whitespace.png"
 pronouns:
 pronunciation:
 twitter:
 linkedin:
 gitlab: d1ward
 departments:
-  - PubSec
-specialty: "Public Sector"
+- PubSec
+specialty: Public Sector
 expertise:
 story:
 

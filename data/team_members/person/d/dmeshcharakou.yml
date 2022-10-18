@@ -1,7 +1,9 @@
+---
 name: Dzmitry Meshcharakou
-locality: 
+locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer, Package:Package Registry</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
+  Engineer, Package:Package Registry</a>
 reports_to: michelletorres
 picture: dmeshcharakou.png
 pronouns: he/him
@@ -16,7 +18,7 @@ departments:
 - Package Stage
 - Package:Package Registry Group
 - Package:Package Registry BE Team
-specialty: Package:Package Registry
+specialty: Package
 expertise:
 story:
 

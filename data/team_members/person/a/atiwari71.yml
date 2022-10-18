@@ -17,6 +17,7 @@ departments:
 - Secure:Dynamic Analysis BE Team
 projects:
   gitlab: reviewer backend
+  secure-coverage-fuzzing: maintainer backend 
 specialty: Dynamic Analysis
 expertise:
 story:

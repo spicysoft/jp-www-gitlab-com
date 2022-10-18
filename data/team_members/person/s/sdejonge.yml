@@ -1,5 +1,6 @@
+---
 name: Scott de Jonge
-locality: 
+locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
   Manage:Foundations
@@ -21,7 +22,7 @@ projects:
   gitlab: reviewer frontend
   gitlab-ui: reviewer frontend
   design.gitlab.com: reviewer frontend
-specialty: "Manage - FE/UX Foundations"
+specialty: Ecosystem - FE/UX Foundations
 expertise:
 story:
 

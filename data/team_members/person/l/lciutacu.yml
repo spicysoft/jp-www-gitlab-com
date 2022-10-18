@@ -14,13 +14,15 @@ departments:
   - UX Department
   - Technical Writing
 projects:
-  gitlab: reviewer docs
-  omnibus-gitlab: reviewer docs
-  gitlab-runner: reviewer docs
-  gitlab-chart: reviewer docs
-  gitlab-development-kit: reviewer docs
-  gitlab-docs: reviewer
+  gitlab: maintainer docs
+  omnibus-gitlab: maintainer docs
+  gitlab-runner: maintainer docs
+  gitlab-chart: maintainer docs
+  gitlab-development-kit: maintainer docs
+  gitlab-docs: maintainer
 specialty:
+- 'Analytics: Product Analytics'
+- 'Manage: Workspace'
 - 'Plan: Optimize'
 expertise:
 story: Lorena has a background in data science, linguistics, and translation. She enjoys combining these skills into writing and translating documentation and educational content that help people achieve their goals. In her free time, you can find her in the kendo dojo, on the yoga mat, or taking photos around the world.

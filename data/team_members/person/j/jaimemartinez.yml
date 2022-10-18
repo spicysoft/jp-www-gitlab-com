@@ -2,7 +2,8 @@
 name: Jaime Martínez
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer, Package:Container Registry</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
+  Engineer, Package:Container Registry</a>
 reports_to: michelletorres
 picture: jaimemartinez.jpg
 twitter: jimbart098
@@ -20,9 +21,9 @@ departments:
 projects:
   release-cli: maintainer
   gitlab-pages: maintainer
-  gitlab: 
-    - reviewer go
-    - reviewer workhorse
+  gitlab:
+  - reviewer go
+  - reviewer workhorse
   go-mimedb: reviewer
   container-registry: reviewer
   labkit: reviewer
@@ -32,5 +33,5 @@ story: |
 domain_expertise:
 - go
 - pages
-specialty: Package:Container Registry
+specialty: Package
 

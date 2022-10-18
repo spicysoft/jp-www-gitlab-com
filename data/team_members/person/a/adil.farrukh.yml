@@ -1,8 +1,9 @@
+---
 name: Adil Farrukh
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/management/fullstack-manager/">Manager, Fullstack Engineering</a>, Manage:Authentication
-  and Authorization
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Manager,
+  Fullstack Engineering</a>, Manage:Authentication and Authorization
 reports_to: michellegill
 picture: adilfarrukh.jpg
 pronouns:
@@ -11,12 +12,11 @@ twitter:
 linkedin:
 gitlab: adil.farrukh
 departments:
-  - Engineering Function
-  - Development Department
-  - Dev Section
-  - Manage:Authentication and Authorization
-specialty:
-- 'Manage: Authentication and Authorization'
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Authentication and Authorization
+specialty: Authentication and Authorization
 expertise:
 story:
 

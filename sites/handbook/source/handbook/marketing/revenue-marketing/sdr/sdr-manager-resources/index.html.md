@@ -1,6 +1,6 @@
 ---
 layout: handbook-page-toc
-title: "SDR Management Resources"
+title: "Sales Development Management Resources"
 ---
 
 ## On this page
@@ -10,7 +10,7 @@ title: "SDR Management Resources"
 {:toc .hidden-md .hidden-lg}
 
 ## General leadership principles
-This page will serve as a training resource and operational guide for current and future managers. All SDR Managers should follow the [general leadership
+This page will serve as a training resource and operational guide for current and future managers. All Sales Development Managers should follow the [general leadership
 principles](/handbook/leadership/) set out in the handbook. 
 
 - [1-1s](/handbook/leadership/1-1/)
@@ -18,9 +18,9 @@ principles](/handbook/leadership/) set out in the handbook.
 - [Dealing with underperformance](/handbook/leadership/underperformance/)
 
 ## Manager Onboarding
-Onboarding is essential for all SDR Managers at GitLab. As part of onboarding, a [Becoming a GitLab Manager](https://gitlab.com/gitlab-com/people-group/Training/blob/master/.gitlab/issue_templates/becoming-a-gitlab-manager.md) issue will be created for each manager when they join, or are promoted. This issue is intended to connect new managers with the crucial information they need, and ensure they have access to all the resources and training available.
+Onboarding is essential for all Sales Development Managers at GitLab. As part of onboarding, a [Becoming a GitLab Manager](https://gitlab.com/gitlab-com/people-group/Training/blob/master/.gitlab/issue_templates/becoming-a-gitlab-manager.md) issue will be created for each manager when they join, or are promoted. This issue is intended to connect new managers with the crucial information they need, and ensure they have access to all the resources and training available.
 
-## General SDR Leadership Resources
+## General Sales Development Leadership Resources
 
 | Resource | Purpose |   
 | :----: | :----: | 
@@ -35,8 +35,8 @@ Onboarding is essential for all SDR Managers at GitLab. As part of onboarding, a
 
 | Resource | Purpose |   
 | :----: | :-----: | 
-|  SSoT Sales > SDR Territory Alignment Sheet  | Can be found in Manager Home Base sheet. Single source of truth document for SDR to AE/SAL/Territory Alignment | 
-|  [LeanData Change Request Issue Template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=leandata_change_sdralignment)  | Use this template to request any update in lead routing/SDR alignment. Use a new issue for each SDR. Once this request is received, Marketing Operations will update LeanData, the SSoT alignment spreadsheet, Drift routing/team, and the `SDR Assigned` Salesforce field. Confirmation of completion will be stated on the issue prior to close. Please note: if an SDR or a number of SDRs are changing teams within the org, an [internal transition](/handbook/marketing/revenue-marketing/sdr/sdr-manager-resources/#internal-team-transition) issue will be created with this as one of the steps. |
+|  SSoT Sales > Sales Development Territory Alignment Sheet  | Can be found in Manager Home Base sheet. Single source of truth document for Sales Development to AE/SAL/Territory Alignment | 
+|  [LeanData Change Request Issue Template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=leandata_change_sdralignment)  | Use this template to request any update in lead routing/SDR alignment. Use a new issue for each SDR. Once this request is received, Marketing Operations will update LeanData, the SSoT alignment spreadsheet, Drift routing/team, and the `BDR Assigned` Salesforce field. Confirmation of completion will be stated on the issue prior to close. Please note: if an SDR or a number of SDRs are changing teams within the org, an [internal transition](/handbook/marketing/revenue-marketing/sdr/sdr-manager-resources/#internal-team-transition) issue will be created with this as one of the steps. |
 |  [SDR Internal Transition issue template](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/new?issuable_template=sdr_internal_team_change) | Use this issue template when you have an SDR moving from one team within our SDR org team to another. More information can be found in the [internal trasition section](/handbook/marketing/revenue-marketing/sdr/sdr-manager-resources/#internal-team-transition) below. |
 
 ##  GitLab Resources
@@ -45,15 +45,15 @@ Onboarding is essential for all SDR Managers at GitLab. As part of onboarding, a
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| :-----: | 
 |                                [How to update the org chart and team page](/handbook/marketing/digital-experience/website/#updating-the-team-page-and-org-chart)                                 | Update the org chart to ensure the correct memebers of your team roll up to you. Ensure each member of your team has your `slug` listed next to the `reports to` line. You can also update the team page information from the team.yml |
 |                                         [Adding yourself or someone else to the team page](/handbook/git-page-update/#12-add-yourself-to-the-team-page)                                          | Video to assist new hires with updating their blank team page placeholder |
-|                                                                             Update manager or SDR role in Salesforce                                                                             | To update a manager or SDR role in Salesforce, submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of roles that need to be updated. Keep in mind if this is needed due to someone transferring teams within the SDR org, this is already part of the [Internal transfer issue template](/handbook/marketing/revenue-marketing/sdr/sdr-manager-resources/#internal-team-transition).  |
-|                                                                          Create or update members of a Slack user group                                                                          | A user group is a group of members in a workspace who often need to be notified at once — for example, @managers. To update who is in one of the SDR groups, submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of people that need to be added. Fill out the requested info and delete any remaining info that isn't needed. Under 'Account Creation' put Slack User Group: @ Name (i.e. @Managers). You can also use the bulk AR to request the creation of a user group and list the users who should be in it.  |
-|                                                                                Add someone to the SDR Gmail alias                                                                                | Submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of people that need to be added. Fill out the appropriate info and delete any remaining info that isn't needed. Under 'Account Creation' put the SDR email alias |
+|                                                                             Update manager or SDR role in Salesforce                                                                             | To update a manager or Sales Development role in Salesforce, submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of roles that need to be updated. Keep in mind if this is needed due to someone transferring teams within the Sales Development org, this is already part of the [Internal transfer issue template](/handbook/marketing/revenue-marketing/sdr/sdr-manager-resources/#internal-team-transition).  |
+|                                                                          Create or update members of a Slack user group                                                                          | A user group is a group of members in a workspace who often need to be notified at once — for example, @managers. To update who is in one of the Sales Development groups, submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of people that need to be added. Fill out the requested info and delete any remaining info that isn't needed. Under 'Account Creation' put Slack User Group: @ Name (i.e. @Managers). You can also use the bulk AR to request the creation of a user group and list the users who should be in it.  |
+|                                                                                Add someone to the Sales Development Gmail alias                                                                                | Submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of people that need to be added. Fill out the appropriate info and delete any remaining info that isn't needed. Under 'Account Creation' put the Sales Development email alias |
 |                                                         [Make an edit to the handbook](/handbook/git-page-update/#12-edit-the-handbook)                                                          | Guide for how to edit the handbook. *Note: all new hires must do this as part of their onboarding |
 |                                                          [Add a new page to the handbook](https://www.youtube.com/watch?v=9NcJG9Bv6sQ)                                                           | This GitLab Unfiltered video will walk you through how to create a new handbook page |
 |                                            [Create a new job family](/handbook/hiring/job-families/#job-family-creation-using-web-version-of-gitlab)                                             | For each job at GitLab, the job family is the single source of truth for the expectations of that role. If you need information about when to create a new job family vs when to use an existing one watch [this video](https://www.youtube.com/watch?v=5EcFz1qNj2E&feature=emb_title) |
 |                                                    [Rename a handbook page](/handbook/marketing/digital-experience/website/#renaming-a-page)                                                     | Update the name of the URL to a handbook page |
 |                                           [Resolve failed pipeline when creating an MR](https://www.youtube.com/watch?v=WlgH-6cX1k8&feature=youtu.be)                                            | Quick overview of how to go about identifying why a pipeline might be failing for a merge request to the handbook page |
-| [SDR Onboarding Job Specific Task Section](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_sales_development.md) | This task section will automatically be added to the general onboarding issue for new SDRs based on their role when hired. |
+| [Sales Development Onboarding Job Specific Task Section](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_sales_development.md) | This task section will automatically be added to the general onboarding issue for new SDRs based on their role when hired. |
 
 ##  Tracking & Monitoring Resources
 
@@ -165,11 +165,11 @@ If an SDR will be out for a prolonged period of time, please follow the proper p
 - [Emergency Situations](/handbook/paid-time-off/#communicating-time-off-for-emergency-situations)
 - [Unpaid leave](/handbook/paid-time-off/#unpaid-leave-of-absence)
 
-### Manager SDR Leave Checklist
+### Manager Sales Development Leave Checklist
 - Submit a [LeanData change request issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=leandata_change_sdralignment) to ensure leads will be worked and Drift conversations will reroute to another member of your team during this time. In the additional information section detail the starting date and date of return. Try to give MktgOps a minimum of a weeks notice. 
 - Work with your SDR to clean up tasks and mark sequences as finished or pause if needed. 
 
-Similar to onboarding, there is a role-specific tasks section that will automatically be populated for the SDR team. This section includes tasks for the new manager and sales operations that must be filled out to ensure proper alignment, routing and reporting.  
+Similar to onboarding, there is a role-specific tasks section that will automatically be populated for the Sales Development team. This section includes tasks for the new manager and sales operations that must be filled out to ensure proper alignment, routing and reporting.  
 
 ## Offboarding
 The full process for offboarding at GitLab differs based on whether it is voluntary or involuntary. These processes can be found on the [offboarding handbook page](/handbook/people-group/offboarding/#offboarding). 

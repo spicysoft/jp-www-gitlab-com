@@ -56,7 +56,7 @@
 /sites/handbook/source/handbook/ceo/chief-of-staff-team/jihu-support/ @streas @jeromezng
 /sites/handbook/source/handbook/leadership/ @sytses @streas
 /sites/handbook/source/handbook/communication/ @robin @streas
-/sites/handbook/source/handbook/communication/internal-communications/ @robin @streas @sliang2
+/sites/handbook/source/handbook/communication/internal-communications/ @robin @streas @drogozinski
 /sites/uncategorized/source/company/ @sytses @streas
 /sites/uncategorized/source/company/strategy/ @sytses
 /sites/uncategorized/source/company/stewardship/ @sytses
@@ -131,7 +131,9 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-authoring/ @marknuzzo @samdbeckham @cheryl.li
 /sites/handbook/source/handbook/engineering/development/ops/verify/runner/ @erushton @samdbeckham @cheryl.li
 /sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-insights/ @shampton @cheryl.li
-/sites/handbook/source/handbook/engineering/development/ops/package/ @michelletorres
+/sites/handbook/source/handbook/engineering/development/ops/package/ @nicolewilliams @michelletorres
+/sites/handbook/source/handbook/engineering/development/ops/package/container-registry/ @michelletorres
+/sites/handbook/source/handbook/engineering/development/ops/package/package-registry/ @michelletorres
 /sites/handbook/source/handbook/engineering/development/ops/release/ @nicolewilliams
 /sites/handbook/source/handbook/engineering/development/analytics/product-intelligence/ @alinamihaila @timzallmann
 /sites/handbook/source/handbook/engineering/development/analytics/product-intelligence/gitlab_com_performance_dashboard.html.md.erb @alinamihaila
@@ -149,10 +151,10 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/development/dev/manage/integrations/ @arturoherrero
 /sites/handbook/source/handbook/engineering/development/dev/manage/optimize/ @blabuschagne
 /sites/handbook/source/handbook/engineering/development/dev/manage/workspace/ @mksionek
-/sites/handbook/source/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope
-/sites/handbook/source/handbook/engineering/development/dev/plan/product-planning/ @kushalpandya @donaldcook @timzallmann @johnhope
-/sites/handbook/source/handbook/engineering/development/dev/plan/certify/ @kushalpandya @donaldcook @timzallmann @johnhope
-/sites/handbook/source/handbook/engineering/development/dev/plan/plan-project-management-be/ @donaldcook @timzallmann @johnhope
+/sites/handbook/source/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @jarka @kushalpandya
+/sites/handbook/source/handbook/engineering/development/dev/plan/product-planning/ @kushalpandya
+/sites/handbook/source/handbook/engineering/development/dev/plan/certify/ @jarka
+/sites/handbook/source/handbook/engineering/development/dev/plan/plan-project-management-be/ @donaldcook
 /sites/handbook/source/handbook/engineering/development/enablement/ @cdu1
 /sites/handbook/source/handbook/engineering/development/enablement/systems/distribution/ @twk3 @cdu1
 /sites/handbook/source/handbook/engineering/development/enablement/systems/geo/ @juan-silva
@@ -219,9 +221,9 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/quality/contributor-success/ @nick_vh
 
 ^[Security department]
-/sites/handbook/source/handbook/engineering/security/ @JohnathanHunt @Julia.Lake
+/sites/handbook/source/handbook/engineering/security/ @akramer @Julia.Lake
 /sites/handbook/source/handbook/engineering/security/architecture/ @plafoucriere
-/sites/handbook/source/handbook/engineering/security/security-operations/ @JohnathanHunt @jfuentes2
+/sites/handbook/source/handbook/engineering/security/security-operations/ @akramer @jfuentes2
 /sites/handbook/source/handbook/engineering/security/security-assurance/ @Julia.Lake @jburrows001 @tdilbeck @corey-oas @jlongo_gitlab
 /sites/handbook/source/handbook/engineering/security/threat-management/ @smanzuik @estrike
 /sites/handbook/source/handbook/engineering/security/threat-management/red-team/ @cmoberly
@@ -422,7 +424,7 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/uncategorized/source/solutions/education/ @c_hupy @mpreuss22
 /sites/uncategorized/source/solutions/open-source/ @johncoghlan @bbehr @mpreuss22
 /sites/uncategorized/source/stages-devops-lifecycle/ @supadhyaya @dsteer
-sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communications/ @nwoods1 @cweaver1 @sliang2
+sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communications/ @nwoods1 @cweaver1 @drogozinski
 /sites/handbook/source/handbook/marketing/account-based-marketing/ @jgragnola @megan_odowd
 /sites/handbook/source/handbook/marketing/account-based-marketing/ideal-customer-profile/ @jgragnola
 /sites/handbook/source/handbook/marketing/account-based-marketing/key-account-lists/ @jgragnola @jcaine
@@ -431,7 +433,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/leadership/underperformance/ @wendybarnes @pegan @cbednarz @rtakken @glucchesi
 /sites/handbook/source/handbook/people-policies/ @cgudgenov @emilyplotkin @pegan @wendybarnes
 /sites/handbook/source/handbook/people-group/ @wendybarnes @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
-/sites/handbook/source/handbook/people-group/acceptable-use-policy/ @wendybarnes @JohnathanHunt @emilyplotkin @pegan
+/sites/handbook/source/handbook/people-group/acceptable-use-policy/ @wendybarnes @akramer @emilyplotkin @pegan
 /sites/handbook/source/handbook/people-group/employment-solutions/ @pegan @hdevlin
 /sites/handbook/source/handbook/people-group/contracts-probation-periods/ @ashjameson @mpatel8 @shensiek @alex_venter @Mowry @nutaurus
 /sites/handbook/source/handbook/people-group/people-compliance/ @cgudgenov
@@ -440,7 +442,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/people-group/offboarding/offboarding_guidelines/ @mpatel8 @Mowry @alex_venter @anechan @asjones @nutaurus
 /sites/handbook/source/handbook/people-group/offboarding/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
-/sites/handbook/source/handbook/people-group/employment-branding/people-communications/ @sliang2 @kaylagolden @drogozinski @rallen3
+/sites/handbook/source/handbook/people-group/employment-branding/people-communications/ @kaylagolden @drogozinski @rallen3
 /sites/handbook/source/handbook/group-conversations/ @mmcb
 /sites/handbook/source/handbook/people-group/celebrations/ @wendybarnes @mpatel8
 /sites/handbook/source/handbook/people-group/talent-assessment/ @wendybarnes @rtakken @glucchesi @pegan @cbednarz
@@ -555,7 +557,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/geo/geo_replication/ @joshlambert @fzimmer @sranasinghe
 /source/direction/geo/backup_restore/ @joshlambert @fzimmer @sranasinghe
 /source/direction/geo/disaster_recovery/ @joshlambert @fzimmer @sranasinghe
-/source/direction/global-search/ @joshlambert @fzimmer @johnmcguire
+/source/direction/global-search/ @joshlambert @fzimmer
 /source/direction/application_performance/ @joshlambert @fzimmer
 /source/direction/distribution/ @joshlambert @dorrino
 /source/direction/enablement/dotcom/ @joshlambert
@@ -570,6 +572,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/fulfillment/commerce-integrations/ @isandin
 /source/direction/fulfillment/fulfillment-admin-tools/ @doniquesmit
 /source/direction/fulfillment/platform/ @jameslopez @tgolubeva
+/source/direction/fulfillment/billing-and-subscription-management/ @tgolubeva
 
 ^[Product Section - Data Science]
 /source/direction/data-science/ @tmccaslin @hbenson
@@ -659,10 +662,10 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 
 
 ^[Security]
-/sites/handbook/source/handbook/security/ @JohnathanHunt @Julia.Lake
+/sites/handbook/source/handbook/security/ @akramer @Julia.Lake
 
 ^[Security Compliance]
-/sites/uncategorized/source/security/ @JohnathanHunt @Julia.Lake
+/sites/uncategorized/source/security/ @akramer @Julia.Lake
 
 ^[Support]
 /sites/handbook/source/handbook/support/ @gitlab-com/support

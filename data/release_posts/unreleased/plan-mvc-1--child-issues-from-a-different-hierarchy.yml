@@ -1,0 +1,14 @@
+---
+features:
+  primary:
+  - name: "Epics can have child issues from different group hierarchies"
+    available_in: [premium, ultimate]
+    gitlab_com: true
+    documentation_link: 'https://docs.gitlab.com/ee/user/group/epics/#child-issues-from-different-group-hierarchies'
+    image_url: '/images/unreleased/plan-cross-group-issue-linking.png'
+    reporter: mushakov
+    stage: plan
+    categories: [Portfolio Management]
+    epic_url: 'https://gitlab.com/groups/gitlab-org/-/epics/8550'
+    description: |
+      Many times, cross-functional initiatives require work from multiple teams in different parts of the organization. Representing these initiatives has been difficult in GitLab because we didn't allow cross-group relationships within epics. With this change, you can now add child issues from different groups to a single-parent epic.

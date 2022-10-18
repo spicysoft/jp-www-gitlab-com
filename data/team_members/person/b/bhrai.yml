@@ -20,7 +20,7 @@ departments:
 - Fulfillment:Purchase BE Team
 - Backend
 projects:
-  customers-app: reviewer backend
+  customers-app: trainee_maintainer backend
   gitlab: reviewer backend
 specialty:
 - 'Fulfillment: Purchase'

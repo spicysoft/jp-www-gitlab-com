@@ -86,6 +86,8 @@ Provide links to UX Research issues, which validate these problems exist.
 
 Overall, the main challenge our target customer has is maintaining an up-to-date GitLab instance that fulfills their security and compliance requirements. More granular customer needs are documented in the sections below.
 
+Note, this section does not reflect the list of currently available features within the Dedicated offering; rather, it contains the needs we're hearing from our customer base. The list of currently supported features in Dedicated is documented here: https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features
+
 #### Migration
 
 - Users want to seamlessly migrate their data, which can exceed many TBs in size, to GitLab Dedicated in a timely and reliable fashion from their existing DevOps solution, whether it's a third-party offering like BitBucket, a self-managed GitLab instance, or gitlab.com.
@@ -130,7 +132,7 @@ category once your strategy is at least minimally realized. In order to challeng
 (with the goal to make it sufficiently high), link to the current market leaders long-term vision and address how
 we plan to displace them. -->
 
-The main goal for FY23 is to make GitLab Dedicated [available to external customers](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/master/README.md#timeline)(GitLab internal). The initial version of the service will be [fully automated, but will contain a minimal feature set](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/master/README.md#product-development-principle-100-automation-1-features)(GitLab internal). After releasing the offering, we plan to deliver application features and operational capabilities that were [not included in the first launch](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-not-available-at-launch) based on customer demand.
+The main goal for FY23 is to make GitLab Dedicated [available to external customers](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/master/README.md#timeline)(GitLab internal). The initial version of the service will be [fully automated, but will contain a minimal feature set](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/master/README.md#product-development-principle-100-automation-1-features)(GitLab internal). After releasing the offering, we plan to deliver application features and operational capabilities that were [not included in the first launch](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available) based on customer demand.
 
 The product will be made available to customers over the course of the following milestones.
 
@@ -159,8 +161,8 @@ Based on the prioritization framework, during Limited Availability we will focus
 |-----------------------------|--------------------------|-----------------------|
 | 0 | KTLO - On Call | Operating Tenant Production Environments |
 | 1 | Security/Compliance | Attain security and third party compliance certifications and addressing findings from audits |
-| 2 | Improve SLAs (Availability, RTO, RPO) | Geo, disaster recovery, failover testing, automated restore |
-| 3 | Automation | Reduce toil required to operate Dedicated platform including Switchboard (management portal for customer admins) MVC and Automated Version Management  |
+| 2 | Automation | Reduce toil required to operate Dedicated platform including Switchboard (management portal for customer admins) MVC, automated restore, and Automated Version Management  |
+| 3 | Reliability | Improve SLAs - Availability, RTO, RPO, Geo, disaster recovery, failover testing |
 | 4 | Enable GitLab Functionality | Dependency proxy, Pages, advanced search |
 | 5 | Support Customer Config Changes |  Customers will need config changes during onboarding and weekly maintenance windows. |
 
@@ -169,13 +171,31 @@ Based on the prioritization framework, during Limited Availability we will focus
 The full roadmap for LA can be [found here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/484#roadmap-during-limited-availability)(GitLab internal).
 The full roadmap for GA [is documented in this Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/485#post-ga-roadmap)(GitLab internal).
 
+### Available Features
+Please see list of [Available Features](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features) in our documentation.
 
 ### What's Next & Why
 <!-- This is almost always sourced from the following sections, which describe top
 priorities for a few stakeholders. This section must provide a link to an issue
 or [epic](https://about.gitlab.com/handbook/product/product-processes/#epics-for-a-single-iteration) for the MVC or first/next iteration in the category.-->
 
-From the table above, we plan to focus on security enhancements and improving SLAs as those items are highest in our priortization framework.
+From the table above, we plan to focus on security enhancements, compliance certifications, automation, and establishing SLOs, as those items are highest in our prioritization framework.
+
+We plan to complete the following to conclude Limited Availability. All links below are GitLab internal.
+
+P1 - Security/Compliance
+- [SOC2 Type 1 Certification](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/70)
+- [Network Architecture](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/68)
+- [Continued security enhancements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/513)
+
+P2 - Automation
+- [Switchboard for Configuration management](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/54)
+- [Automated Version Management](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/29)
+- [Automated Restore](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/39)
+
+P3 - Reliability
+- [Geo secondary](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/2)
+- [Access to observability dashboard](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/325)
 
 ### What is Not Planned Right Now
 <!-- Often it's just as important to talk about what you're not doing as it is to
@@ -186,14 +206,11 @@ in fact do. We should limit this to a few items that are at a high enough level 
 someone with not a lot of detailed information about the product can understand
 the reasoning-->
 
-The following items are not planned to be delivered at launch and are under consideration for the Post-GA timeframe:
+Please see list of [Features that are not available](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available) in our documentation. In addition to the features from that page, the items from the below list will not be available before the launch of GA but are under consideration for release in the Post-GA launch timeframe.
 
-- Hosted Runners
-- Bring Your Own Key (BYOK) Encryption
-- Authentication via LDAP
-- Multiple Geo secondaries beyond the secondary site included by default
-- Custom Domain
-- Choice of Cloud Providers (e.g. GCP)
+- Observability Dashboard via Switchboard
+- Security and Compliance Phase 3 Items
+- Pre-Production Instance
 
 ### Maturity Plan
 <!-- It's important your users know where you're headed next. The maturity plan
@@ -218,7 +235,7 @@ _The following links are internal to GitLab_
 - [Field Enablement Guide](https://internal-handbook.gitlab.io/handbook/engineering/horse/field-enablement/index.html)
 - Customer Onboarding Plan
   - Selection criteria [documented here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/190)
-  - Slot availability timeline [documented below](#LA-Onboarding-Timeline)
+  - Slot availability timeline [documented below](https://internal-handbook.gitlab.io/handbook/engineering/horse/#LA-Onboarding-Timeline)
 
 ### Customer Communication Guidelines
 
@@ -229,29 +246,17 @@ Prior to discussing GitLab Dedicated with an opportunity/customer:
 1. Review the [target customer profile](#target-customer) to ensure it is a good fit
 1. Review the estimated [timeline](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/README.md#timeline)(GitLab internal) to ensure it meets the customer's desired onboarding timeframes. Note, there will be a limited number of customers we can support during the Limited Availability period. Once we move to GA, the offering will be available to all customers who are willing to [pay for it](#pricing).
 1. Review [pricing](#pricing), as this will cost more than our other offerings and will have a minimum seat count
-1. Review the [features unavailable at launch](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-not-available-at-launch)
+1. Review the [features unavailable at launch](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available)
 
 ### LA Onboarding Timeline
 
-```mermaid
-gantt
-  title Limited Availability Onboarding Timeline
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b %d
-    section Limited Availability Slots
-    Slot 1* :one, 2022-04-14, 14d
-    Slot 2* :two, 2022-07-14, 14d
-    Slot 3* :three, 2022-09-01, 14d
-    Slot 4 :four, 2022-11-01, 14d
-    Slot 5 :five, 2023-01-15, 14d
-```
-\* indicates Slot already filled by a customer
+The Dedicated customer onboarding timeline is available in GitLab's [internal handbook](https://internal-handbook.gitlab.io/handbook/engineering/horse/#LA-Onboarding-Timeline).
 
 ### Channel Partner Role in GitLab Dedicated
 
 GitLab Dedicated creates a business opportunity for both GitLab and GitLab channel partners who offer hosted GitLab services. We are creating this offering to meet the needs of customers who want to consume hosted solutions directly from the DevOps vendor (in this case GitLab, Inc.) to more closely align operational and DevOps application needs. Customers who are interested in purchasing hosting services that include value-add managed services (for example, helping meet industry-specific specific requirements like HIPAA) would benefit from working with a Managed Service Provider (MSP) [Partner](https://partners.gitlab.com/English/directory/) Additionally, many customers have existing relationships with Channel Partners. Per the [services ROE](https://about.gitlab.com/handbook/sales/selling-professional-services/), these customers should continue consuming GitLab through their Channel Partner. By following the segmentation laid out above, we can minimize any disruption to existing [channel-sourced ARR](https://gitlab.my.salesforce.com/00O4M000004aqhB)(GitLab internal).
 
-With this effort, we also see an opportunity to grow the overall market for GitLab-hosted services through collaboration with partners. In the short-term we plan to enable MSP partners with design guidance and certifications so that they can offer better hosted GitLab solutions for their customers. We will work with the GitLab Channel Partner team to create a partner certification (available at GA) that will provide MSP partners with technical certifications, training, deployment and maintenance guidelines, and access to some of the same underlying tooling that powers GitLab Dedicated (e.g. GitLab Environment Toolkit and official Reference Architectures). We plan to keep the other underlying services (e.g. Switchboard and Amp) as well as the `GitLab Dedicated` branding proprietary to GitLab, Inc. Longer-term opportunities for consideration include enabling partners [to resell GitLab Dedicated](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/499)(GitLab internal). These partners would provide customers value-added services or integrated vendor stacks while the GitLab Dedicated team would still host the GitLab instance on behalf of the partner.
+With this effort, we also see an opportunity to grow the overall market for GitLab-hosted services through collaboration with partners. In the short-term we plan to enable MSP partners with design guidance and certifications so that they can offer better hosted GitLab solutions for their customers. We will work with the GitLab Channel Partner team to create a partner certification that will provide MSP partners with technical certifications, training, deployment and maintenance guidelines, and access to some of the same underlying tooling that powers GitLab Dedicated (e.g. GitLab Environment Toolkit and official Reference Architectures). We plan to keep the other underlying services (e.g. Switchboard and Amp) as well as the `GitLab Dedicated` branding proprietary to GitLab, Inc. Longer-term opportunities for consideration include enabling partners [to resell GitLab Dedicated](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/499)(GitLab internal). These partners would provide customers value-added services or integrated vendor stacks while the GitLab Dedicated team would still host the GitLab instance on behalf of the partner.
 
 ### Pricing
 

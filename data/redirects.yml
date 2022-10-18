@@ -327,7 +327,6 @@
   comp_op: '='
 - sources:
     - /culture/
-    - /culture
   target: /company/culture/
   comp_op: '~'
 - sources:
@@ -677,9 +676,7 @@
   target: /job-families/marketing/digital-marketing-programs-manager/
   comp_op: ^~
 - sources:
-    - /2019/06/04/gitlab-11-11-2-released
     - /2019/06/04/gitlab-11-11-2-released/
-    - /2019/06/05/gitlab-11-11-2-released
     - /2019/06/05/gitlab-11-11-2-released/
     - /blog/2019/06/05/gitlab-11-11-2-released/
   target: /releases/2019/06/05/gitlab-11-11-2-released/
@@ -771,16 +768,16 @@
   target: /handbook/engineering/development/ops/
   comp_op: '='
 - sources:
-    - /handbook/engineering/development/ci-cd/verify
-  target: /handbook/engineering/development/ops/verify
+    - /handbook/engineering/development/ci-cd/verify/
+  target: /handbook/engineering/development/ops/verify/
   comp_op: '~'
 - sources:
-    - /handbook/engineering/development/ci-cd/package
-  target: /handbook/engineering/development/ops/package
+    - /handbook/engineering/development/ci-cd/package/
+  target: /handbook/engineering/development/ops/package/
   comp_op: '~'
 - sources:
-    - /handbook/engineering/development/ci-cd/release
-  target: /handbook/engineering/development/ops/release
+    - /handbook/engineering/development/ci-cd/release/
+  target: /handbook/engineering/development/ops/release/
   comp_op: '~'
 - sources:
     - /handbook/engineering/devlopment/secure/fuzz-testing
@@ -940,8 +937,6 @@
 - sources:
   - /handbook/marketing/revenue-marketing/xdr/
   - /handbook/marketing/marketing-sales-development/sdr/
-  - /handbook/marketing/revenue-marketing/xdr
-  - /handbook/marketing/marketing-sales-development/sdr
   target: /handbook/marketing/revenue-marketing/sdr/
   comp_op: '~'
 - sources: /events/SKO21/
@@ -2498,9 +2493,7 @@
   comp_op: '^~'
 - sources:
   - /handbook/people-group/global-compensation/
-  - /handbook/people-group/global-compensation
   - /handbook/people-group/global-compensation-framework/
-  - /handbook/people-group/global-compensation-framework
   target: /handbook/total-rewards/compensation/
   comp_op: '~'
 - sources:
@@ -2555,12 +2548,10 @@
   comp_op: '='
 - sources:
     - /handbook/engineering/development/modelops/
-    - /handbook/engineering/development/modelops
   target: /handbook/engineering/development/data-science/
   comp_op: '~'
 - sources:
     - /handbook/engineering/development/sec/anti-abuse/
-    - /handbook/engineering/development/sec/anti-abuse
   target: /handbook/engineering/development/data-science/anti-abuse/
   comp_op: '~'
 - sources:
@@ -3532,7 +3523,6 @@
   target: /blog/2019/07/19/python-3-defailt-for-license-compliance/
   comp_op: '~'
 - sources:
-  - /2018/06/06/eks-gitlab-integration
   - /2018/06/06/eks-gitlab-integration/
   - /releases/2018/06/06/eks-gitlab-integration/
   target: /blog/2018/06/06/eks-gitlab-integration/
@@ -3868,7 +3858,6 @@
   comp_op: '='
 - sources:
   - /handbook/hiring/recruiting-framework/
-  - /handbook/hiring/recruiting-framework
   target: /handbook/hiring/talent-acquisition-framework/
   comp_op: '~'
 - sources:
@@ -4223,7 +4212,8 @@
     - /devops-tools/pdfs/zoho-sprints-vs-gitlab.html
     - /devops-tools/zoho-sprints-vs-gitlab.html
     - /devops-tools/zoho-sprints-vs-gitlab/
-  target: /devops-tools/
+    - /devops-tools/
+  target: /competition/
   comp_op: '='
 - sources:
     - /training
@@ -4249,7 +4239,6 @@
   target: /job-families/marketing/sales-development-leadership/
   comp_op: '='
 - sources:
-    - /handbook/marketing/strategic-marketing/analyst-relations/channel-marketing
     - /handbook/marketing/strategic-marketing/analyst-relations/channel-marketing/
   target: /handbook/marketing/channel-marketing/
   comp_op: '~'
@@ -4507,7 +4496,6 @@
   target: /handbook/engineering/development/principles/
   comp_op: '='
 - sources:
-  - /handbook/marketing/inbound-marketing/digital-experience
   - /handbook/marketing/inbound-marketing/digital-experience/
   - /handbook/marketing/brand-and-digital-design/
   - /handbook/marketing/growth-marketing/brand-and-digital-design/
@@ -4615,7 +4603,6 @@
   target: /company/team/structure/working-groups/cross-functional-prioritization/index.html
   comp_op: '='
 - sources:
-  - /direction/memory
   - /direction/memory/
   target: /direction/application_performance/
   comp_op: '~'

@@ -21,8 +21,7 @@ projects:
   gitlab:
   - maintainer backend
   - reviewer database
-specialty:
-- 'Manage: Compliance'
+specialty: Compliance
 expertise:
 story:
 
