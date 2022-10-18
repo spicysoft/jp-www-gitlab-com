@@ -34,10 +34,10 @@ Read through the Release Posts Handbook for more information:
 https://about.gitlab.com/handbook/marketing/blog/release-posts/#introduction
 -->
 
-Today, we are excited to announce the release of GitLab 15.5 with `Feature A`, `Feature B`, `Feature C`, `Feature D` and much more!
+Today, we are excited to announce the release of GitLab 15.5 with [GitLab Cloud Seed](#deploy-apps-to-google-cloud-with-gitlab-cloud-seed), [Autocomplete suggestions in the Content Editor](#autocomplete-suggestions-in-the-content-editor), [Error Tracking Open Beta](#error-tracking-open-beta), [Operational Container Scanning](#operational-container-scanning) and much more!
 
-These are just a few highlights from the `XX` improvements in this release. Read on to check out all of the great updates below.
+These are just a few highlights from the 50+ improvements in this release. Read on to check out all of the great updates below.
 
-We thank the wider GitLab community for the `XX` contributions they provided to GitLab 15.5! At GitLab, everyone can contribute and we couldn't have done it without you!
+We thank the wider GitLab community for the 152 contributions they provided to GitLab 15.5! At GitLab, everyone can contribute and we couldn't have done it without you!
 
 To preview what's coming in next month’s release, check out our [Upcoming Releases page](/direction/kickoff/), which includes our 15.6 release kickoff video.

@@ -1,6 +1,6 @@
 ---
 features:
-  primary:
+  top:
   - name: "Deploy apps to Google Cloud with GitLab Cloud Seed"
     available_in: [core, premium, ultimate]  # Include all supported tiers
     gitlab_com: true
