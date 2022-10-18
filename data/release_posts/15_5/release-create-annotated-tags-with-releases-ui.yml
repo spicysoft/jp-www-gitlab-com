@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/releases/#create-a-release-in-the-releases-page'
-    image_url: '/images/unreleased/release-create-annotated-tag.png'
+    image_url: '/images/15_5/release-create-annotated-tag.png'
     reporter: cbalane
     stage: release
     categories:
