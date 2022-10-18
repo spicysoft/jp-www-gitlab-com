@@ -233,7 +233,7 @@ _The following links are internal to GitLab_
 - [Field Enablement Guide](https://internal-handbook.gitlab.io/handbook/engineering/horse/field-enablement/index.html)
 - Customer Onboarding Plan
   - Selection criteria [documented here](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/190)
-  - Slot availability timeline [documented below](#LA-Onboarding-Timeline)
+  - Slot availability timeline [documented below](https://internal-handbook.gitlab.io/handbook/engineering/horse/#LA-Onboarding-Timeline)
 
 ### Customer Communication Guidelines
 
@@ -248,19 +248,7 @@ Prior to discussing GitLab Dedicated with an opportunity/customer:
 
 ### LA Onboarding Timeline
 
-```mermaid
-gantt
-  title Limited Availability Onboarding Timeline
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b %d
-    section Limited Availability Slots
-    Slot 1* :one, 2022-04-14, 14d
-    Slot 2* :two, 2022-07-14, 14d
-    Slot 3* :three, 2022-09-01, 14d
-    Slot 4 :four, 2022-11-01, 14d
-    Slot 5 :five, 2023-01-15, 14d
-```
-\* indicates Slot already filled by a customer
+The Dedicated customer onboarding timeline is available in GitLab's [internal handbook](https://internal-handbook.gitlab.io/handbook/engineering/horse/#LA-Onboarding-Timeline).
 
 ### Channel Partner Role in GitLab Dedicated
 
