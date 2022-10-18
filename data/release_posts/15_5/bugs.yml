@@ -53,3 +53,5 @@ tertiary:
       - [Squash commit message does not honor regex settings](https://gitlab.com/gitlab-org/gitlab/-/issues/345359)
       - [500 Error viewing a single large commit](https://gitlab.com/gitlab-org/gitlab/-/issues/342703)
       - [Codeowners approver list not showing correctly](https://gitlab.com/gitlab-org/gitlab/-/issues/329214)
+      - [Geo:Problems arise if there are multiple parallel Omnibus backup/restore processes](https://gitlab.com/gitlab-org/gitlab/-/issues/362593)
+      
