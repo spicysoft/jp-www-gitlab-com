@@ -25,6 +25,5 @@ story: |
 projects:
   gitlab: maintainer frontend
   gitlab-ui: reviewer frontend
-specialty:
-- 'Manage: Compliance'
+specialty: Analytics
 
