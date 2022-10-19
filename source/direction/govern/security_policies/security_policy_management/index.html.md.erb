@@ -124,7 +124,7 @@ Security Policies allow users to require that certain scans are run as part of t
 
 Once that is complete, we will shift our focus to add support for [License Approval Policies](https://gitlab.com/groups/gitlab-org/-/epics/8092) which are designed to be a replacement for the current `License-Check` functionality.  Additionally, we plan to extend scan execution policy support to also include[Dependency Scanning](https://gitlab.com/groups/gitlab-org/-/epics/7669) as well as SAST and Secret Detection [custom rulesets](https://gitlab.com/groups/gitlab-org/-/epics/7671).
 
-A full list of our near-term priorities is kept up-to-date on our open [priorities issue](https://gitlab.com/gitlab-org/gitlab/-/issues/222791).
+See a full list of our [near-term priorities](#priorities) below.
 
 #### What is Not Planned Right Now
 We do not currently plan to be a full-featured SOAR solution capable of aggregating, correlating, and enriching events from multiple security vendors.  We intend to remain focused on providing security management and security orchestration for the security tools that are part of the GitLab product only.
@@ -153,3 +153,17 @@ As this category is new, we are still completing our evaluation of the competiti
 ## Analyst Landscape
 
 As this category is new, we have not yet engaged analysts on this topic.
+
+## Priorities
+
+| Priority | Name | BE DRI | FE DRI | Size | Target release |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+<% data.product_priorities.security_policies.priorities.each.with_index do |priority, index| %>
+| <%= index + 1 %> | [<%= priority.name %>](<%= priority.url %>) | `<%= priority.be_dri.presence || "TBD" %>` | `<%= priority.fe_dri || "TBD" %>` | `<%= priority.estimated_size.presence || "TBD" %>` | `<%= priority.target_release.presence || "TBD" %>`  |
+<% end %>
+
+*This page may contain information related to upcoming products, features and functionality.
+
+It is important to note that the information presented is for informational purposes only, so please do not rely on the information for purchasing or planning purposes.
+
+Just like with all projects, the items mentioned on the page are subject to change or delay, and the development, release, and timing of any products, features, or functionality remain at the sole discretion of GitLab Inc.*
