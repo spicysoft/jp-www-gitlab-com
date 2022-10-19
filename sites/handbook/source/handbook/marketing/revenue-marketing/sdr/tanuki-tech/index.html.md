@@ -23,7 +23,7 @@ The average coding bootcamp here in the United States costs 13.5k and graduates 
 * Enablement should be quick and effective. We are not trying to inundate you with information to eat up all of your time. Most courses in our curriculum are designed to take up around two hours including examination.
 * We test often and we test behaviors that apply to your actual job. Research shows that the most effective teachers consistently test more than their peers. **Do not get discouraged if you fail a test; it is better to fail in front of a peer who is trying to help you than in front of a customer.**
 * Classes are generally offered in hybrid format (live and recorded options). Examinations are mostly offered in a written format.
-* All classes are available on demand. Recordings and assets (slides, exams) are listed [here](https://gitlab.edcast.com/channel/sdr).
+* All classes are available on demand. Recordings and assets (slides, exams) are listed [here](https://levelup.gitlab.com/) under "Sales Development."
 
 ## Curriculum
 
@@ -196,7 +196,7 @@ To hand in written exams:
 
 ## Enrollment
 Coursework will be assigned at the beginning of each quarter. To see your assigned coursework, see [here](https://docs.google.com/spreadsheets/d/1P7QvZ09F8OT7LJTeMRYbu6_Oxjw9UdouaJ5Oeo8SU8k/edit?usp=sharing).
-* To complete coursework virtually, take classes at your on pace on [EdCast](https://gitlab.edcast.com/channel/sdr).
+* To complete coursework virtually, take classes at your on pace on [Level Up](https://levelup.gitlab.com/).
 * Some sessions are offered live. Those that are offered live will be communicated to team members.
 
 ## Sales Development Leveling
