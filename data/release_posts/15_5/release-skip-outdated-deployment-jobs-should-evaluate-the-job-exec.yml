@@ -4,7 +4,7 @@ features:
   - name: "Prevent outdated deployment jobs"
     available_in: [core, premium, ultimate]
     gitlab_com: true
-    documentation_link: 'https://docs.gitlab.com/ee/ci/pipelines/settings.html#skip-outdated-deployment-jobs'
+    documentation_link: 'https://docs.gitlab.com/ee/ci/environments/deployment_safety.html#prevent-outdated-deployment-jobs'
     reporter: cbalane
     stage: release
     categories:
