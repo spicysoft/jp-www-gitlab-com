@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Update group members' SAML and SCIM extern_uid with API"
+  - name: "Update group members' SAML and SCIM `extern_uid` with API"
     available_in: [silver, gold]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/api/saml.html'

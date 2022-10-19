@@ -40,4 +40,4 @@ These are just a few highlights from the 50+ improvements in this release. Read 
 
 We thank the wider GitLab community for the 152 contributions they provided to GitLab 15.5! At GitLab, everyone can contribute and we couldn't have done it without you!
 
-To preview what's coming in next month’s release, check out our [Upcoming Releases page](/direction/kickoff/), which includes our 15.6 release kickoff video.
+To preview what's coming in next month's release, check out our [Upcoming Releases page](/direction/kickoff/), which includes our 15.6 release kickoff video.

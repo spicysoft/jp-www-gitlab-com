@@ -1,7 +1,7 @@
 ---
 features:
   secondary:
-  - name: "Enforce 'Developer Certificate of Origin' on all contributions"
+  - name: "Enforce Developer Certificate of Origin on all contributions"
     available_in: [premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/user/project/repository/push_rules.html#reject-commits-that-arent-dco-certified'
@@ -14,4 +14,4 @@ features:
     description: |
       The Developer Certificate of Origin (DCO) is a per-commit sign-off made by a contributor stating that they have the right to submit the code to the project. By signing off on a commit, the contributor agrees to the terms published at [developercertificate.org](https://developercertificate.org).
 
-      Now, you can easily enforce this Developer Certificate via [a per-project setting](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#reject-commits-that-arent-dco-certified) to prevent contibutors from contributing code that violates your license. When enabled, all new commits must include such a certificate of origin in form of a line in the commit message `Signed-off-by:`.
+      Now, you can easily enforce this Developer Certificate via [a per-project setting](https://docs.gitlab.com/ee/user/project/repository/push_rules.html#reject-commits-that-arent-dco-certified) to prevent contributors from contributing code that violates your license. When enabled, all new commits must include such a certificate of origin in the form of a line in the commit message `Signed-off-by:`.
