@@ -74,7 +74,7 @@ To view previously recorded BDR/SDR Enablement content, you can view the [BDR/SD
 - If you would like to request or run an enablement session on a specific topic, please fill out [this issue](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/new?issuable_template=sdr_enablement_series_request).
 
 #### Sales Development Technical Development
-As part of your [onboarding](/handbook/marketing/revenue-marketing/sdr/sdr-playbook-onboarding/), you will begin an Sales Development Technical Development course with our Senior Sales Development Solutions Architect. The goal of this course is to enable you to be more comfortable have technical discussions - specifically when it comes to GitLab’s use cases. Each level of the course is tied to our [levels](https://about.gitlab.com/job-families/marketing/sales-development-representative/#levels) in the BDR and SDR roles.
+As part of your [onboarding](/handbook/marketing/revenue-marketing/sdr/sdr-playbook-onboarding/), you will begin an Sales Development Technical Development course with our Senior Sales Dev Enablement Manager. The goal of this course is to enable you to be more comfortable have technical discussions - specifically when it comes to GitLab’s use cases. Each level of the course is tied to our [levels](https://about.gitlab.com/job-families/marketing/sales-development-representative/#levels) in the BDR and SDR roles.
 
 
 ## Sales Development Resources
