@@ -5,7 +5,7 @@ locality:
 country: Remote
 role: <a href="/job-families/finance/analytics-and-insights/">Senior Manager, Analytics
   & Insights</a>
-reports_to: craig-mestel
+reports_to: rparker
 picture: zzhang.jpeg
 pronouns: he/him
 pronunciation:
@@ -13,8 +13,7 @@ twitter:
 linkedin: zhejayzhang
 gitlab: zzhang7
 departments:
-- Finance
-- Analytics And Insights
+  - Business Technology
 specialty: Data Science & Engineering, Business Analytics
 expertise:
 story: Jay spent around 9 years in Bay Area, CA, and just relocated to Texas in Q2
