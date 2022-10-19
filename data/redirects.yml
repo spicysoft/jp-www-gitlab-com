@@ -639,7 +639,6 @@
   comp_op: '='
 - sources:
     - /handbook/engineering/dev-backend/plan/
-    - /handbook/engineering/development/dev/plan/
     - /handbook/engineering/development/dev/plan-team-planning-be/
     - /handbook/engineering/frontend/plan/
     - /handbook/engineering/development/dev/fe-plan/
@@ -2630,6 +2629,7 @@
 - sources:
   - /handbook/product/product-categories/plan/
   - /handbook/product/product-categories/plan
+  - /handbook/engineering/development/dev/plan/
   target: /handbook/product/categories/plan/
   comp_op: '='
 - sources:
@@ -4673,3 +4673,5 @@
   - /handbook/marketing/corporate-marketing/#requests-for-announcements
   target: /handbook/marketing/corporate-marketing/corporate-communications/#requests-for-external-announcements
   comp_op: '='
+
+
