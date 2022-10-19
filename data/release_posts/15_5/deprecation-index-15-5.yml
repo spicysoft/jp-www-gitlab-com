@@ -1,0 +1,4 @@
+---
+  deprecations:
+    - feature_name: GraphQL field confidential changed to internal on notes
+    - feature_name: vulnerabilityFindingDismiss GraphQL mutation
