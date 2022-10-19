@@ -483,7 +483,7 @@ Below are some pre-set filter examples:
 ## Adding to the All-Marketing Calendar
 {: #marketing-calendar-inputs}
 <!-- DO NOT CHANGE ANCHOR -->
-**Location for inputs: In your [Google Drive](https://drive.google.com/drive/u/1/my-drive), search for (and bookmark) `FY22 All-Marketing Calendar SSoT`.**
+**Location for inputs: In your [Google Drive](https://drive.google.com/drive/u/1/my-drive), search for (and bookmark) `FY23 All-Marketing Calendar SSoT`.**
 
 This is where all teams will input and categorize planned activities, content production, themes, and more - with filters that align to key pieces of information (GTM Motions, Alliance Partners, Sales Segments, Regions, Funnel Stage, Language, and more). This will be iterative and everyone should feel open to share their feedback and ideas - [comment in the issue to sare your thoughts!](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/734)
 
