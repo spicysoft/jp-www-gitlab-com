@@ -7,6 +7,8 @@ reports_to: sethberger
 picture: mrocha.jpg
 pronouns:
 pronunciation:
+projects:
+  secure-browser-based-dast: maintainer
 twitter:
 linkedin:
 gitlab: mc_rocha
