@@ -3,7 +3,7 @@ name: Jay Stemmer
 locality:
 country: Remote
 role: <a href="">Manager, Analytics & Insights</a>
-reports_to: craig-mestel
+reports_to: rparker
 picture: jaystemmer.png
 pronouns:
 pronunciation:
@@ -11,7 +11,7 @@ twitter:
 linkedin:
 gitlab: jstemmer1
 departments:
-- Finance
+  - Business Technology
 specialty:
 expertise:
 story:
