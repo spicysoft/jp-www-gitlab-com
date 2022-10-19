@@ -11443,13 +11443,12 @@ features:
     harness: false
     pps_aggregate: 0
 
-  - title : "CAPTCHA Integration"
+  - title : "reCAPTCHA"
     description: "GitLab leverages Google's reCAPTCHA to protect against spam and abuse."
-    link_description: "reCAPTCHA"
+    link_description: "Google’s reCAPTCHA"
     link: https://docs.gitlab.com/ee/integration/recaptcha.html
     category:
-      - instance_resilience
-      - integrations
+      - authentication_and_authorization
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
