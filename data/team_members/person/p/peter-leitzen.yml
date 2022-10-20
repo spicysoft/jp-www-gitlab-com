@@ -1,0 +1,38 @@
+---
+name: Peter Leitzen
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Staff Backend Engineer,
+  Monitor:Respond</a>
+role_slug: developer
+reports_to: crystalpoole
+picture: peterleitzen.jpg
+twitter: splattael
+gitlab: splattael
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Ops Section
+- Monitor:Respond BE Team
+- Monitor:Respond
+- Merge Request Coach
+projects:
+  gitlab: maintainer backend
+  gitlab-styles: maintainer
+  gitlab-rspec-profiling-stats: maintainer
+  gitlab-technical-interviews-backend: maintainer
+  tanuki_emoji: maintainer
+  gitlab-observability: maintainer
+  gitlab-observability-ui: maintainer
+story: |
+  Passionate coder and open-source enthusiast specialised in backend development using Ruby, Crystal, and Docker.
+  In his spare time he enjoys playing chess and riding race bikes, but not at the same time.
+expertise: '<li><a href="/job-families/expert/merge-request-coach/">Merge Request
+  Coach</a></li>
+
+  '
+domain_expertise:
+- rails
+specialty: Monitor
+
