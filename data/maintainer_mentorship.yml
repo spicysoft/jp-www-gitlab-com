@@ -3,9 +3,7 @@
   domains:
     - database
   max_trainees: 2
-  trainees:
-    - Michał Zając (@Quintasan)
-    - Matthew Kasa (@mattkasa)
+  trainees: []
 - mentor: Paul Slaughter
   gitlab: pslaughter
   domains:
