@@ -14,7 +14,7 @@ canonical_path: "/direction/plan/design_management/"
 | --- | --- |
 | Stage | [Plan](/direction/plan/) |
 | Maturity | [Viable](/direction/maturity/) |
-| Content Last Reviewed | `2022-08-12` |
+| Content Last Reviewed | `2022-10-20` |
 
 ## Introduction
 
@@ -96,15 +96,6 @@ The **minimal** user journey provides designers with the ability to upload mocku
 
 We have achieved the core workflow for a design persona on a GitLab Issue and are considering how to build additional Design Management features targeted at [software developers](/handbook/product/personas/#sasha-software-developer) and [product managers](/handbook/product/personas/#parker-product-manager) to expand our growth. 
 
-## Features we shipped
-
-**13.3** - Our Figma Plugin is live in the [Figma plugin store](https://www.figma.com/community/plugin/860845891704482356/GitLab). You can also check out the source code in our [GitLab Figma plugin repository](https://gitlab.com/gitlab-org/gitlab-figma-plugin).
-
-**13.0** - [Move Design Managment to Core/Foss/Free](https://gitlab.com/gitlab-org/gitlab/-/issues/212566) so it can but used by everyone for free.**  Read more about in the blog: https://about.gitlab.com/blog/2020/03/30/new-features-to-core/
-
-**12.9** - [Versioned designs and point of interest discussions](https://gitlab.com/groups/gitlab-org/-/epics/660)- We closed the original design management epic with a focus on collaboration between designers, developers and product managers on GitLab issues. This first iteration made ossible to upload discuss designs far more efficiently. Point of interest comments are the key feature, that allows much precise discussion rather than trying to verbally discuss multiple items of feedback on a single image in a single thread. 
-
-
 ## What's Next & Why
 <!-- This is almost always sourced from the following sections, which describe top
 priorities for a few stakeholders. This section must provide a link to an issue
@@ -112,7 +103,7 @@ or [epic](/handbook/product/product-processes/#epics-for-a-single-iteration) for
 the category.-->
 
 ### Now
-Since Design Management has moved to the Product Planning group, we've paused on new development for the foreseeable future.
+Since Design Management has moved to the Product Planning group, we've paused on new development and are reevaluating direction.
 
 ### Next
 Once work on this category resumes, our focus will be on new expansion themes that will enable more users to use design management:
