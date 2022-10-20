@@ -65,11 +65,11 @@ A. Below you will find steps for managing the different storage types:
 - Snippets: Snippets follow the same process as [reducing repository size](https://docs.gitlab.com/ee/user/snippets.html#reduce-snippets-repository-size).
 - Wikis: Wikis follow the same process as [reducing repository size](https://docs.gitlab.com/ee/administration/wikis/index.html#reduce-wiki-repository-size).
 
-**Q: How can I automate storage usage analysis and cleanup?**
+**Q: How can I automate storage usage analysis and cleanup?**  
 A: You can use the [GitLab API](https://docs.gitlab.com/ee/api/) to programmatically view and delete storage data types. There are [programming language libraries](https://about.gitlab.com/partners/technology-partners/#api-clients) available that can help with easy-to-use interfaces, for example listing and deleting job artifacts using the [Python library for GitLab](https://python-gitlab.readthedocs.io/en/stable/gl_objects/pipelines_and_jobs.html#jobs). A script based on the Python library has been developed by the GitLab Developer Evangelism team [in this project](https://gitlab.com/gitlab-de/gitlab-storage-analyzer). This MIT-licensed script is not officially supported by GitLab and comes without warranty.
 
 **Q. How will the storage limits affect me when I’m contributing to another project?**  
-A. Forks of projects get deduplicated, so only the changes you make will contribute to your storage consumption as long as the fork relationship is maintained.
+A. We plan to [apply a cost factor](https://gitlab.com/gitlab-org/gitlab/-/issues/373914) to forks, similar to what is done today for [CI minutes](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#cost-factor), as long as the fork relationship is maintained.
 
 ### Purchasing additional Storage
 
