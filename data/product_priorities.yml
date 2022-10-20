@@ -4,30 +4,30 @@ security_policies:
     url: "https://gitlab.com/groups/gitlab-org/-/epics/7622"
     be_dri: zmartins
     fe_dri: zmartins
-    estimaged_size: "L"
+    estimated_size: "L"
     target_release: "15.6"
   - name: "Fix Security Approvals not required when scans removed in MR"
     url: "https://gitlab.com/gitlab-org/gitlab/-/issues/37239"
     be_dri: zmartins
     fe_dri: zmartins
-    estimaged_size: "M"
+    estimated_size: "M"
     target_release: "15.6"
   - name: "Support Role Based Approvers"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/8018"
     be_dri: sashi_kumar
     fe_dri: aturinske
-    estimaged_size: "M"
+    estimated_size: "M"
     target_release: "15.7"
   - name: "Add Support for Dependency Scanning"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/7669"
     be_dri: bauerdominic
-    estimaged_size: "S"
+    estimated_size: "S"
     target_release: "15.7"
   - name: "License Approval Policies"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/8092"
     be_dri: ""
     fe_dri: farias-gl
-    estimaged_size: "M"
+    estimated_size: "M"
     target_release: "15.8"
   - name: "Support Additional Filtering for Scan Result Policies"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/6826"
@@ -40,7 +40,7 @@ security_policies:
     url: "https://gitlab.com/groups/gitlab-org/-/epics/5510"
     be_dri: mparuszewski
     fe_dri: aturinske
-    estimaged_size: "M"
+    estimated_size: "M"
   - name: "Custom SAST/Secret Detection Ruleset Support for Scan Execution Policies"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/7671"
     be_dri: sashi_kumar
