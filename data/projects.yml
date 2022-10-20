@@ -1152,3 +1152,14 @@ pipeline-validation-service:
   description: |
     Implements https://docs.gitlab.com/ee/administration/external_pipeline_validation.html
 
+gitlab-observability:
+  name: GitLab Observability backend
+  path: gitlab-org/opstrace/opstrace
+  link: https://gitlab.com/gitlab-org/opstrace/opstrace
+  description: Gitlab Observability Platform is a secure, horizontally-scalable, open source observability platform installed in your cloud account.
+
+gitlab-observability-ui:
+  name: GitLab Observability UI
+  path: gitlab-org/opstrace/opstrace-ui
+  link: https://gitlab.com/gitlab-org/opstrace/opstrace-ui
+  description: The GitLab Observability UI provides a solid base to build upon and create a place where we can rapidly iterate on new use cases and ways to query and display data regardless of the type.
