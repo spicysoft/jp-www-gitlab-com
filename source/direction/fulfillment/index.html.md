@@ -60,19 +60,24 @@ To achieve our mission, over the next 12 months we are focusing on the following
 - Make subscription management intuitive and simple
 - Enable channel partners and distributors to provide good selling motions
 
-All of these efforts help us support our Mission (/direction/fulfillment/#mission) to support our customers experience purchasing and managing their GitLab paid subscriptions.
+All of these efforts help us support our [Mission](#mission) to support our customers experience purchasing and managing their GitLab paid subscriptions.
 
 ### Complete key foundational improvements to our order-to-cash systems and data architecture
 
-Our ability to scale and innovate in the Fulfillment space will only be possible and accelerated if we invest in our systems and data architecture. To that point, we have identified a few key projects to complete in FY23 and FY24:
+Our ability to scale and innovate in the Fulfillment space will only be possible and accelerated if we invest in our underlying systems and data architecture. We aim for a strong foundation of our Fulfillment systems to support GitLab's further growth in the Fulfillment space. To that point, we have identified a few key projects to complete in FY23 and FY24:
 
-1. [Improve accuracy of determining subscription state using the Zuora Subscription API](https://gitlab.com/groups/gitlab-org/-/epics/8402) (COMPLETED: 2022-08)
-1. [Upgrade CustomersDot to Zuora Orders API](https://gitlab.com/groups/gitlab-org/-/epics/6438)
-1. [Align to Zuora Billing Account as a Customer Account](https://gitlab.com/groups/gitlab-org/-/epics/8331)
-1. [SSO: Combine Gitlab.com and CustomersDot user databases](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1868)
-1. [Deduplicate source of truth and remove data architecture problems across SFDC, Zuora, and Customers Portal](https://gitlab.com/groups/gitlab-org/-/epics/7725)
+| Key project | Status |
+|-------------|---------|
+|[Improve accuracy of determining subscription state using the Zuora Subscription API](https://gitlab.com/groups/gitlab-org/-/epics/8402)|COMPLETED: 2022-08|
+|[Upgrade CustomersDot to Zuora Orders API](https://gitlab.com/groups/gitlab-org/-/epics/6438)| ⏳ In Progress|
+|[Align to Zuora Billing Account as a Customer Account](https://gitlab.com/groups/gitlab-org/-/epics/8331)| ⏳ In Progress |
+|[SSO: Combine Gitlab.com and CustomersDot user databases](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1868)| ⏳ In Progress|
+|[Deduplicate source of truth and remove data architecture problems across SFDC, Zuora, and Customers Portal](https://gitlab.com/groups/gitlab-org/-/epics/7725)| ⏳ In Progress|
 
-As we complete these investments we will reduce the complexity of our order-to-cash systems, making it easier to innovate and deliver improvements to GitLab customers and our internal stakeholders across sales, billing, and more. 
+
+As we complete these investments we will reduce the complexity of our order-to-cash systems, making it easier to innovate and deliver improvements to GitLab customers and our internal stakeholders across sales, billing, and more.
+
+To learn more about our fulfillment platform efforts, see [Fulfillment Platform Direction](direction/fulfillment/platform/) (WIP)
 
 ### Increase new customer acquisition via self-service
 
