@@ -1950,7 +1950,7 @@ stages:
         slack:
           channel: g_activation
         handbook: engineering/development/growth/
-        pm: Sam Awezec
+        pm: Paige Cordero
         pmm: Saumya Upadhyaya
         em: Kamil Niechajewicz
         be_team_tag: Activation Fullstack Team
