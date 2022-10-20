@@ -1633,7 +1633,7 @@ stages:
         description: "Focused on first-order purchase experiences, including SM Web-Direct First Order, SaaS Web-Direct First Order, Purchase CI Minutes, Purchase Storage, and Community Programs - sign up."
         slack:
           channel: g_purchase
-        pm: Tatyana Golubeva
+        pm: Alex Martin
         pmm: Saumya Upadhyaya
         cm: Suri Patel
         backend_engineering_manager: Ragnar Hardarson
@@ -1737,7 +1737,7 @@ stages:
       fulfillment_platform:
         name: Fulfillment Platform
         description: "Responsible for all consumables management, usage reporting, and usage notifications (excluding license utilization). Systems - GitLab."
-        pm: Tatyana Golubeva
+        pm: Manuel Gass
         pmm: Saumya Upadhyaya
         slack:
           channel: g_fulfillment_platform
@@ -1810,7 +1810,7 @@ stages:
             dri: TBD
       commerce_integrations:
         name: Commerce Integrations
-        description: "RResponsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
+        description: "Responsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
         pm: Isabel Sandin
         pmm: Saumya Upadhyaya
         slack:
