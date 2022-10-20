@@ -13,6 +13,9 @@
 - sources: /handbook/business-ops/
   target: /handbook/business-technology/
   comp_op: '~'
+- sources: /fr-fr/
+  target: https://fr-569af3b0252fd2592.getsmartling.com/fr-fr/
+  comp_op: "~"
 - sources: /cloud-native/
   target: /topics/cloud-native/
   comp_op: '~'
