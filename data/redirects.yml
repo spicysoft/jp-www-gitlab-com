@@ -4214,8 +4214,7 @@
     - /devops-tools/pdfs/zoho-sprints-vs-gitlab.html
     - /devops-tools/zoho-sprints-vs-gitlab.html
     - /devops-tools/zoho-sprints-vs-gitlab/
-    - /devops-tools/
-  target: /competition/
+  target: /devops-tools/
   comp_op: '='
 - sources:
     - /training
