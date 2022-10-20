@@ -214,12 +214,12 @@
   subprocessor:
   description: "[AuditBoard](https://www.auditboard.com/) is an audit management tool used by the Internal Audit team to manage Internal Audits and the SOX program in GitLab"
   access_to: Control owners and Internal Audit team
-  provisioner: "@pranavpolisetty, @hpoojary"
-  deprovisioner: "@pranavpolisetty, @hpoojary"
+  provisioner: "@pranavpolisetty, @hpoojary, @egulla"
+  deprovisioner: "@pranavpolisetty, @hpoojary, @egulla"
   group_owner_slack_channel: Internal Audit
-  business_owner: Brijen Joshi, Sheetal Jain
-  technical_owner: Pranav Polisetty, Harinakshi Poojary
-  data_classification: Orange
+  business_owner: Brijen Joshi, Sheetal Jain, Sean Brown
+  technical_owner: Pranav Polisetty, Harinakshi Poojary, Liz Gulla
+  data_classification: Red
   integration_method: SAML
   need_move_to_okta: null
   critical_systems_tier: null
