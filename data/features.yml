@@ -8370,6 +8370,33 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
+  - title : "Package Registry cleanup policies"
+    description: |
+      A cleanup policy defines a set of rules that, applied to a project, defines which package assets you can automatically delete.
+    link_description: "Check out the docs to learn more"
+    link: https://docs.gitlab.com/ee/user/packages/package_registry/reduce_package_registry_storage.html
+    category:
+      - package_registry
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    bitbucket_org: false
+    bitbucket_data_center: false
+    gogs: false
+    gitea: false
+    codefresh: false
+    sonatype_nexus_repo: true
+    jfrog: false
+    roi_case: ""
+    shortand:
+    hours_per_incident:
+    incidents_per_year:
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "Forward requests for npm packages not found in GitLab to npmjs.com"
     description: |
       By default, when an npm package is not found in the GitLab registry, the request is forwarded to npmjs.com
@@ -8540,6 +8567,32 @@ features:
     description: "Python developers can set up GitLab as a remote PyPI repository and build, publish, and share packages using the PyPI client or GitLab CI/CD."
     link_description: "Documentation for the PyPI Repository"
     link: https://docs.gitlab.com/ee/user/packages/pypi_repository/
+    category:
+      - package_registry
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    bitbucket_org: false
+    bitbucket_data_center: false
+    gogs: false
+    gitea: false
+    codefresh: false
+    sonatype_nexus_repo: true
+    jfrog: true
+    roi_case: ""
+    shortand:
+    hours_per_incident:
+    incidents_per_year:
+    pps_aggregate: 0
+    pps_recent: 0
+
+  - title : "Terraform Module Registry"
+    description: "Publish Terraform modules in your project’s Infrastructure Registry, then reference them using GitLab as a Terraform module registry."
+    link_description: "Documentation for the Terraform Registry"
+    link: https://docs.gitlab.com/ee/user/packages/terraform_module_registry/index.html
     category:
       - package_registry
     gitlab_core: true
