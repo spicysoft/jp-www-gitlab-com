@@ -41,7 +41,7 @@ A. Yes, GitLab Ultimate Trial and Premium Trial will receive entitlements from G
 A. Yes, the change is applicable to both public and private projects. Free tier users using GitLab for public open source projects should consider applying for the [GitLab for Open Source program](/solutions/open-source/), which provides access to the GitLab Ultimate features and entitlements for free.
 
 **Q. What is the effective date of the changes?**  
-A. For existing free tier users, storage limits will not be applied before 2022-10-19, and [storage management improvements](https://gitlab.com/gitlab-org/gitlab/-/issues/375296) are available. We intend to roll out application of these limits gradually, impacted users will be notified in-app at least 60 days prior to the storage limits being applied.
+A. Storage limits for the Free tier of GitLab SaaS will not be applied before 2022-10-19, and [storage management improvements](https://gitlab.com/gitlab-org/gitlab/-/issues/375296) are available. We intend to roll out application of these limits gradually, impacted users will be notified in-app at least 60 days prior to the storage limits being applied.
 
 ### Managing your Storage Usage
 
@@ -109,7 +109,7 @@ A. The namespace is [publicly visible](https://docs.gitlab.com/ee/user/public_ac
 A. User limits are currently applied based on the visibility of the top-level namespace. We will monitor how top-level namespaces with public visibility are using private projects to identify whether any limits on such projects are needed.
 
 **Q. When are these changes effective?**  
-A. User limits will not be applied before 2022-10-19 to top-level namespaces with private visibility on GitLab SaaS. We intend to roll out application of these limits gradually, impacted users will be notified in-app at least 60 days prior to the user limits being applied.
+A. User limits for the Free tier of GitLab SaaS will not be applied before 2022-10-19 to top-level namespaces with private visibility on GitLab SaaS. We intend to roll out application of these limits gradually, impacted users will be notified in-app at least 60 days prior to the user limits being applied.
 
 **Q. Will I be personally notified of the changes?**  
 A. We intend to roll out application of these limits gradually, impacted users will be notified in-app at least 60 days prior to the user limits being applied.
