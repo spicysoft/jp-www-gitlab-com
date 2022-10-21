@@ -131,9 +131,9 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-authoring/ @marknuzzo @samdbeckham @cheryl.li
 /sites/handbook/source/handbook/engineering/development/ops/verify/runner/ @erushton @samdbeckham @cheryl.li
 /sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-insights/ @shampton @cheryl.li
-/sites/handbook/source/handbook/engineering/development/ops/package/ @nicolewilliams @michelletorres
+/sites/handbook/source/handbook/engineering/development/ops/package/ @nicolewilliams @michelletorres @ckroutil
 /sites/handbook/source/handbook/engineering/development/ops/package/container-registry/ @michelletorres
-/sites/handbook/source/handbook/engineering/development/ops/package/package-registry/ @michelletorres
+/sites/handbook/source/handbook/engineering/development/ops/package/package-registry/ @ckroutil
 /sites/handbook/source/handbook/engineering/development/ops/release/ @nicolewilliams
 /sites/handbook/source/handbook/engineering/development/analytics/product-intelligence/ @alinamihaila @timzallmann
 /sites/handbook/source/handbook/engineering/development/analytics/product-intelligence/gitlab_com_performance_dashboard.html.md.erb @alinamihaila
