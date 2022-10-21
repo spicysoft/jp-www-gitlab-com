@@ -1202,6 +1202,8 @@ Past Business Development Associates have shared their best practice steps relat
 
 While we have a "no ask, must tell" PTO policy we ask that, in accordance with the [Time Off Policy](https://about.gitlab.com/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off), you give your manager a heads up early of your intended time off so that they can help arrange cover for your tasks, if necessary. We want to help our team members being able to [fully unplug from work](https://about.gitlab.com/company/culture/all-remote/mental-health/mental-health-awareness-learning-path/#part-1-your-mental-health-matters) during their PTO, while not having to worry about their workload or target attainment. Based on this, we have created this PTO Territory Planning Issue that you can use to strategize your work and be aligned to the GitLab value of being a [Manager of One](https://about.gitlab.com/handbook/leadership/#managers-of-one). 
 
+To help BDRs and SDRs who are on PTO please review [this video](https://www.youtube.com/watch?v=sDzeqbd0Jes) on how to sequence on behalf of your teammembers. 
+
 To log a PTO Territory Planning request, please go to the Issue list on the SDR GitLab project [here](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/new#) and choose `PTO_Planning_Issue` from the `Description` drop-down list.
 
 ## Sales Development Org Announcement Process: 
