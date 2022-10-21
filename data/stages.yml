@@ -2457,7 +2457,7 @@ stages:
           Single-tenant SaaS service currently in Limited Availability
         direction: /direction/horse/
         pm: Andrew Thomas
-        pmm: Saumya Upadhyaya
+        pmm: Saumya Upadhyaya & Heather Simpson
         uxr:
           - Will Leidheiser
         backend_engineering_manager: TBH
@@ -2467,7 +2467,7 @@ stages:
         appsec_engineer: Greg Alfaro
         tech_writer: "#docs Slack channel"
         slack:
-          channel: TBD
+          channel: #f_gitlab_dedicated
           alias: TBD
         handbook: engineering/development/platforms/horse/
         gitlab_group: TBD
