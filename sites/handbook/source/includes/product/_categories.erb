@@ -26,6 +26,7 @@
 <% sectionLine << "Customer Success: #{team_links_from_group(group: section.cs_team_tag)}" if section.cs_team_tag %>
 <% sectionLine << "Analyst Relations: #{team_links_from_group(group: section.ar_team_tag)}" if section.ar_team_tag %>
 <% sectionLine << "Infrastructure Manager: [#{section.rem}]" if section.rem %>
+<% sectionLine << "Legal & Corporate Affairs: #{team_links_from_group(group: section.legal_team_tag)}" if section.legal_team_tag %>
 
 <%= "#{sectionLine.join(' \\| ')}" if sectionLine %>
   <% data.stages.stages.select{|stageKey,stage| stage.section==sectionKey}.each do |stageKey, stage| %>
