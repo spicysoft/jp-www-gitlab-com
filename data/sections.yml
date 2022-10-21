@@ -16,6 +16,7 @@ dev:
   rem: Gerardo Lopez Fernandez
   ar_team_tag: Dev Section AR Stable Counterpart
   direction: /direction/dev/
+  legal_team_tag: Dev Section Legal & Corporate Affairs Stable Counterpart
 
 ops:
   name: "Ops"
@@ -36,6 +37,7 @@ ops:
   infra_team_tag: Ops Infra Stable Counterpart
   ar_team_tag: Ops Section AR Stable Counterpart
   direction: /direction/ops/
+  legal_team_tag: Ops Section Legal & Corporate Affairs Stable Counterpart
 
 sec:
   name: "Sec"
@@ -52,6 +54,7 @@ sec:
   rem: Steve Loyd (Acting)
   ar_team_tag: Sec Section AR Stable Counterpart
   direction: /direction/security/
+  legal_team_tag: Sec Section Legal & Corporate Affairs Stable Counterpart
 
 data-science:
   name: "Data Science"
@@ -64,6 +67,8 @@ data-science:
   pmm: Saumya Upadhyaya
   qm: Vincy Wilson
   direction: /direction/data-science/
+  legal_team_tag: Data Science Section Legal & Corporate Affairs Stable Counterpart
+
 
 analytics:
   name: "Analytics"
@@ -90,6 +95,7 @@ growth:
   rem: Dave Smith
   ar_team_tag: Growth Section AR Stable Counterpart
   direction: /handbook/marketing/growth/
+  legal_team_tag: Growth Section Legal & Corporate Affairs Stable Counterpart
 
 fulfillment:
   name: "Fulfillment"
@@ -104,6 +110,7 @@ fulfillment:
   rem: Dave Smith
   ar_team_tag: Fulfillment Section AR Stable Counterpart
   direction: /direction/fulfillment/
+  legal_team_tag: Fulfillment Section Legal & Corporate Affairs Stable Counterpart
 
 enablement:
   name: "Enablement"
@@ -132,6 +139,7 @@ platforms:
   rem: Dave Smith
   ar_team_tag: SaaS Platforms Section AR Stable Counterpart
   direction: /direction/saas-platforms/
+  legal_team_tag: SaaS Platforms Section Legal & Corporate Affairs Stable Counterpart
 
 seg:
   name: "Single-Engineer Groups"
