@@ -46,6 +46,10 @@ A. For existing paid tier users:
 - Storage limits will be added to the subscription terms at a later date and namespaces on the updated terms which are over the limits will be notified in-app at least 60 days prior to the storage limits being applied.
 - Transfer limits will not be applicable until further communication from GitLab.
 
+For existing paid tier users on a multi-year contract:
+
+- Storage limits will not apply to customers until their first renewal after the storage limits have been added to the subscription terms (slated for a later date). After a customer is on the new subscription terms, limit effective date would apply based on the timeline outlined above.
+
 **Q. Will limits apply only once both storage and transfer are available?**  
 A. No, application of storage and transfer limits will be independent of each other. Storage usage visibility, and storage limits will be first, transfer usage visibility and transfer limits will follow.
 
