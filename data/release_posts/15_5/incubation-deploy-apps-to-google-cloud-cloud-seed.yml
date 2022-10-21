@@ -19,3 +19,10 @@ features:
       To develop this capability, GitLab worked with Google Cloud to build best-in-class experiences to simplify, automate and thus accelerate cloud resource provisioning, deployment automation and configuration. Google Cloud and GitLab worked together in an open-source model to make Cloud Seed available for paid and free users.
 
       Cloud Seed's easy-to-use and accessible format drives organic cloud adoption amongst users. Since it is a frictionless, open-source tool, developers and product teams can consume the Google Cloud services complementing its leadership's cloud adoption efforts leading to an organic company-wide shift. As a result, GitLab is seeing increased bottom-up adoption of cloud services.
+
+      Learn more:
+
+      - [Documentation](https://docs.gitlab.com/ee/cloud_seed/index.html)
+      - [Accelerate cloud adoption with Cloud Seed](https://about.gitlab.com/blog/2022/10/11/accelerate-cloud-adoption-with-gitlabs-open-source-partnership-with-google-cloud/)
+      - [Become a Cloud Seed Trusted Tester](https://docs.google.com/forms/d/e/1FAIpQLSeJPtFE8Vpqs_YTAKkFK42p5mO9zIYA2jr_PiP2h32cs8R39Q/viewform)
+      - [Follow development on the Issue Board](https://gitlab.com/groups/gitlab-org/incubation-engineering/five-minute-production/-/boards)
