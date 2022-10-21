@@ -11,10 +11,9 @@ gitlab: msedlakjakubowski
 pronouns: he/him
 pronunciation: MAR-chin SEND-whack ya-koo-BOV-ski
 departments:
-- Engineering Function
+- Product Team
 - UX Department
 - Technical Writing
-- Merge Request Buddy
 projects:
   gitlab: maintainer docs
   gitlab-docs: maintainer
@@ -31,8 +30,9 @@ story: |
   And he thinks building bridges is better than building walls.
 specialty:
 - 'Monitor: Monitor'
-- " Monitor:Observability"
-- " Plan: Project Management"
-- " Plan: Product Planning"
-- " Plan: Certify"
+- 'Monitor: Observability'
+- 'Plan: Project Management'
+- 'Plan: Product Planning'
+- 'Plan: Certify'
+- Merge Request Buddy
 
