@@ -60,7 +60,7 @@ Examples include:
 * **[DevSecOps](https://about.gitlab.com/solutions/dev-sec-ops)**  
 * **[GitOps](/handbook/marketing/strategic-marketing/usecase-gtm/gitops/)** (infrastructure automation) has been a solution/use case, with an accompanying sales play. GitOps has been folded into the Automated software delivery solution.
  
-The Technical Account Managers (TAMs) are goaled on expanding an existing customer's use of GitLab capabilities. It is measured in stage utilization. Mapping capabilities to stages helps the TAMs know which capability/use case material to apply.
+The Customer Success Managers (CSMs) are goaled on expanding an existing customer's use of GitLab capabilities. It is measured in stage utilization. Mapping capabilities to stages helps the CSMs know which capability/use case material to apply.
 
 ### Which solution to use for which persona
 
