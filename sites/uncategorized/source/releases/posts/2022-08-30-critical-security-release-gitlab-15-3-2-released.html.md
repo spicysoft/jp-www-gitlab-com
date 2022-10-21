@@ -125,7 +125,7 @@ Thanks [yvvdwf](https://hackerone.com/yvvdwf) for reporting this vulnerability t
 
 <!-- https://gitlab.com/gitlab-org/gitlab/-/issues/366876 -->
 
-An issue has been discovered in GitLab CE/EE affecting all versions starting from 12.9 before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. Improper data handling on branch creation could have been used to trigger high CPU usage. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N`, 6.5). It is now mitigated in the latest release and will update this blog post with a CVE  when it is assigned.
+An issue has been discovered in GitLab CE/EE affecting all versions starting from 12.9 before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. Improper data handling on branch creation could have been used to trigger high CPU usage. This is a medium severity issue (`CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N`, 6.5). It is now mitigated in the latest release and is assigned [CVE-2022-3639](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3639).
 
 Thanks [elise](https://gitlab.com/elise) for reporting this vulnerability.
 
@@ -141,7 +141,7 @@ Thanks [legit-security](https://hackerone.com/legit-security) for reporting this
 
 <!-- https://gitlab.com/gitlab-org/gitlab/-/issues/360372 -->
 
-An issue has been discovered in GitLab EE affecting all versions starting from 14.5 before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. GitLab's Zentao integration has an insecure direct object reference vulnerability that may be exploited by an attacker to leak project issues. This is a low severity issue (`CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N`, 3.5). It is now mitigated in the latest release and will update this blog post with a CVE  when it is assigned.
+An issue has been discovered in GitLab EE affecting all versions starting from 14.5 before 15.1.6, all versions starting from 15.2 before 15.2.4, all versions starting from 15.3 before 15.3.2. GitLab's Zentao integration has an insecure direct object reference vulnerability that may be exploited by an attacker to leak project issues. This is a low severity issue (`CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N`, 3.5). It is now mitigated in the latest release and is assigned [CVE-2022-3331](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3331).
 
 Thanks [joaxcar](https://hackerone.com/joaxcar) for reporting this vulnerability through our HackerOne bug bounty program.
 
