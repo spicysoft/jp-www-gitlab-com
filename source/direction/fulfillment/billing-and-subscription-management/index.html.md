@@ -72,7 +72,9 @@ Transparency for Sales and Customer Success teams
 - 😁 **Complete**: Fully functional for all eligible use cases. Full transparency for internal teams.
 - 😍 **Lovable**: Glowing review from external and internal users.
    
-## What we're currently working on
+## Roadmap and Planning
+
+### What we're currently working on
 
 1. Improving SaaS auto-renewal process by addressing recently discovered edge cases and creating transparency for internal teams.
 1. Creating transparency into QSR process for internal teams, so that they can better assist our customers.
@@ -80,15 +82,23 @@ Transparency for Sales and Customer Success teams
 1. [Enabling self-service renewal for Community Programs](https://gitlab.com/groups/gitlab-org/-/epics/5711).
 1. Ongoing research on the Renewal experience and existing processes (both internal teams and GitLab customers), so we can understand and improve the Renewal process for all.
 
-## What's next and why
+### What's next and why
 
-1. Enabling Self-Managed subscriptions to auto-renew.
-1. [Allowing customers that puchased via Reseller to access Customers Portal](https://gitlab.com/groups/gitlab-org/-/epics/7230).
+1. Enabling Self-Managed subscriptions to auto-renew. **Why?** We are continuing to iterate on Auto-Renew functionality. SM subscriptions that are enrolled in auto-renewal are our next biggest use case to solve for.
+1. [Allowing customers that puchased via Reseller to access Customers Portal](https://gitlab.com/groups/gitlab-org/-/epics/7230). **Why?** Reseller customers are unable to self-serve their access to what they purchased, having to contact Support for help.
 
-## 1 Year Plan
-
-To be added
-
-## Looking forward
+### 1 Year Plan
 
 To be added
+
+### Reference to Epics, Issues and Boards
+
+Some content is confidential and therefore won't be visible.
+
+* [Fulfillment Roadmap > Billing and Subscription Management](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Abilling+and+subscription+management&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)
+* All Billing and Subscription Management epics
+   * [List of epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=group::billing+and+subscription+management)
+   * [Organized epics board](https://gitlab.com/groups/gitlab-org/-/epic_boards/31408?label_name[]=group%3A%3Abilling%20and%20subscription%20management)
+* All Billing and Subscription Management issues
+   * [List of issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Abilling%20and%20subscription%20management&first_page_size=20)
+   * [Organized issues board](https://gitlab.com/groups/gitlab-org/-/boards/4282426?label_name[]=group%3A%3Abilling%20and%20subscription%20management)
