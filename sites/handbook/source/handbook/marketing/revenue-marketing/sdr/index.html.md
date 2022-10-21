@@ -240,7 +240,7 @@ We hold our Sales Development Org accountable to three pillars:
 
     - [Collaborate with the Sales team](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#working-with-sales) in terms of [account planning](https://about.gitlab.com/handbook/sales/account-planning/)
 
-    - [Collaborate with the Field Marketing team](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#event-promotion-and-follow-up-assistance) in terms of event outreach
+    - [Collaborate with the Field Marketing team](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#bdr-event-promotion-and-sales-dev-org-follow-up) in terms of event outreach
 
 
 ## BDR and SDR Compensation and Quota
