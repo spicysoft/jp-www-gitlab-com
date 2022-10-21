@@ -13,6 +13,13 @@ departments:
   - Engineering Function
   - UX Department
   - Technical Writing
+projects:
+  gitlab: reviewer docs
+  omnibus-gitlab: reviewer docs
+  gitlab-runner: reviewer docs
+  gitlab-chart: reviewer docs
+  gitlab-development-kit: reviewer docs
+  gitlab-docs: reviewer
 specialty: ""
 expertise:
 story: Jon became a technical writer after going through a career change process. He realised that he liked explaining things, technical things, and talking to people. Technical writing seemed like a natural fit. Jon loves martial arts, cooking, baking, reading and gaming.
