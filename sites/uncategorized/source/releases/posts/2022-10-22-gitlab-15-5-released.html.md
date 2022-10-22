@@ -4,8 +4,8 @@ title: "GitLab 15.5 released with GitLab Cloud Seed and Autocomplete suggestions
 author: Matt Wilson # author name and surname - required
 author_gitlab: matt_wilson # author's gitlab.com username - required
 image_title: '/images/15_5/15_5-cover-image.jpg' # cover image - required
-description: "GitLab 15.5 released with Feature A, Feature B, Feature C, Feature D and much more!" # short description - required
-twitter_image: '/images/15_5/15_15-cover-image.jpg' # required - copy URL from image title section above
+description: "GitLab 15.5 released with with GitLab Cloud Seed, Autocomplete suggestions in the Content Editor, Error Tracking Open Beta, Operational Container Scanning and much more!" # short description - required
+twitter_image: '/images/15_5/15_5-cover-image.jpg' # required - copy URL from image title section above
 categories: releases # required
 layout: release # required
 featured: yes
