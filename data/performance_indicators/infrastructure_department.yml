@@ -1,19 +1,8 @@
-- name: Infrastructure Budget Plan vs Actuals
-  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
-  parent: "/handbook/engineering/performance-indicators/#engineering-budget-plan-vs-actuals"
-  definition: We need to spend our investors' money wisely. We also need to run a responsible business to be successful. <a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11464">Latest data is in Adaptive, data team importing to Sisense in FY22Q2</a>
-  target: Identified in Sisense Chart
-  org: Infrastructure Department
-  is_key: false
-  health:
-    level: 0
-    reasons:
-    - There is currently a data lag to resolve
 - name: Infrastructure Handbook MR Rate
   base_path: "/handbook/engineering/infrastructure/performance-indicators/index.html#infrastructure-handbook-update-frequency"
   parent: "/handbook/engineering/performance-indicators/#engineering-handbook-mr-rate"
   definition: The handbook is essential to working remote successfully, to keeping up our transparency, and to recruiting successfully. Our processes are constantly evolving and we need a way to make sure the handbook is being updated at a regular cadence. This data is retrieved by querying the API with a python script for merge requests that have files matching `/source/handbook/engineering/**` or `/source/handbook/support/**` over time.
-  target: .55
+  target: .25
   org: Infrastructure Department
   is_key: false
   health:
@@ -123,19 +112,6 @@
     chart: 10056392
     dashboard: 764913
     embed: v2
-- name: GitLab.com Hosting Cost per GitLab.com Unique Monthly Active Users
-  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
-  definition: This metric reflects an estimate of the dollar cost necessary to support one user in GitLab.com. It is an important metric because it allows us to estimate infrastructure costs as our user base grows. GitLab.com Hosting Cost comes from Netsuite; it is a sum of actual amounts within GitLab.com:Marketing and GitLab.com departments, with account numbers of 5026 or 6026. This cost is divided by <a href="/handbook/product/performance-indicators/#unique-monthly-active-users-umau">UMAU</a>. In the same dashboard is the free & paid breakdown of this metric. Free Hosting Cost include costs from the GitLab.com:Marketing department, while Paid cost is from the GitLab.com department. Paid Cost is divided by total paid licensed users, rather than UMAU.
-  target: less than .80
-  public: false
-  org: Infrastructure Department
-  is_key: true
-  urls:
-  - https://app.periscopedata.com/app/gitlab:safe-dashboard/919250/GitLab.com-Hosting-Cost-UMAU-KPI
-  health:
-    level: -1
-    reasons:
-    - Confidential metric - See notes in Key Review agenda.
 - name: Infrastructure Team Member Retention
   base_path: "/handbook/engineering/infrastructure/performance-indicators/"
   parent: "/handbook/engineering/performance-indicators/#engineering-team-member-retention"
@@ -172,7 +148,6 @@
             value: Engineering
           - name: Department
             value: Infrastructure
-
 - name: GitLab.com individual service maturity
   base_path: "/handbook/engineering/infrastructure/performance-indicators/"
   definition: This metric aims to show the level of confidence we have of our insight into the significant GitLab services on GitLab.com. We are looking to capture the maturity on the scale of "manual check is necessary" to "the system informs us of an upcoming scaling need". 
