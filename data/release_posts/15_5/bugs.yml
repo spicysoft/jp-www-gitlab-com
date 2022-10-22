@@ -8,6 +8,7 @@ tertiary:
     # Structure: For consistency, do not end your [Description] with a period as not all titles will be complete sentences
     description: |
       Some of the notable bug fixes in 15.5 are:
+
       - [Progressively load CI/CD variables when there are more than 100 results](https://gitlab.com/gitlab-org/gitlab/-/issues/372728)
       - [Container Registry only showing 100 tags per image](https://gitlab.com/gitlab-org/gitlab/-/issues/359277)
       - [NuGet packages with uppercase characters cannot be found](https://gitlab.com/gitlab-org/gitlab/-/issues/273664)
@@ -53,3 +54,5 @@ tertiary:
       - [Squash commit message does not honor regex settings](https://gitlab.com/gitlab-org/gitlab/-/issues/345359)
       - [500 Error viewing a single large commit](https://gitlab.com/gitlab-org/gitlab/-/issues/342703)
       - [Codeowners approver list not showing correctly](https://gitlab.com/gitlab-org/gitlab/-/issues/329214)
+      - [Geo:Problems arise if there are multiple parallel Omnibus backup/restore processes](https://gitlab.com/gitlab-org/gitlab/-/issues/362593)
+

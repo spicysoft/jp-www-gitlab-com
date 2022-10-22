@@ -5,7 +5,7 @@ features:
     available_in: [core, premium, ultimate]
     gitlab_com: true
     documentation_link: 'https://docs.gitlab.com/ee/ci/environments/#view-environments-and-deployments'
-    image_url: '/images/unreleased/release-env-search.png'
+    image_url: '/images/15_5/release-env-search.png'
     reporter: cbalane
     stage: release
     categories:
