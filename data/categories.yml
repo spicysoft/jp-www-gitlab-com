@@ -169,12 +169,12 @@ users:
 
 devops_reports:
   name: "DevOps Reports"
-  stage: manage
+  stage: plan
   feature_labels:
     - convdev
     - devops score
   documentation: https://docs.gitlab.com/ee/user/admin_area/analytics/dev_ops_report.html
-  direction: /direction/manage/devops-reports/
+  direction: /direction/plan/devops-reports/
   description: "Get an overview of how well your organization is adopting DevOps and to see the impact on your velocity."
   roi: false
   available: 2017-01-01
