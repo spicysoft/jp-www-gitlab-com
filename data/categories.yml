@@ -235,8 +235,8 @@ value_stream_management:
   roi: false
   available: 2017-01-01
   viable: 2020-10-22
-  complete: 2022-10-22
-  lovable: 2024-04-18
+  complete: 2023-06-01
+  lovable: 2024-06-01
   maturity: viable
   dogfooding_status: Active
   dogfooding_issue: N/A
