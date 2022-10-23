@@ -17,3 +17,5 @@ features:
         #### Bug Fixes:
 
         - [FIPS GitLab Runner missing `pgrep`](https://gitlab.com/gitlab-org/charts/gitlab-runner/-/issues/387)
+
+        The list of all changes is in the GitLab Runner [CHANGELOG](https://gitlab.com/gitlab-org/gitlab-runner/blob/15-5-stable/CHANGELOG.md).
