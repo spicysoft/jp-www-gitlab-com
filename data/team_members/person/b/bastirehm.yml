@@ -3,15 +3,17 @@ locality:
 country: Remote
 role: <a href="">Manager, Fullstack Engineering</a>
 reports_to: tim-z
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: bastirehm.jpg
+pronouns: he/him
 pronunciation:
-twitter:
-linkedin:
+twitter: _bastiRe
+linkedin: sebastianrehm
 gitlab: bastirehm
 departments:
-  - Development
+  - Engineering Function
+  - Development Department
+  - Analytics Section
+  - Product Intelligence Team
 specialty: "Product Intelligence"
 expertise:
-story:
-
+story: 'Basti is an engineering manager who has previously worked across the whole web stack with different frameworks and languages. He is passionate about helping team members grow and building teams that can deliver impact. Outside work he likes to spend time with his family, read or go bouldering in a nearby gym.'
