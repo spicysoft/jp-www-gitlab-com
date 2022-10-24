@@ -123,7 +123,7 @@ The persona interested in application automation is generally different from the
 
 ### Customer Adoption and Value
 
-These value statements are used to measure of GitLab Adoption by the customer and provide guidance to our field teams (TAMs in particular) for conversations on expanding usage.
+These value statements are used to measure of GitLab Adoption by the customer and provide guidance to our field teams (CSMs in particular) for conversations on expanding usage.
 
 ##### CI Adoption Score
 

@@ -3,7 +3,7 @@ name: Stephen Graham
 placeholder: true
 locality:
 country: Remote
-role: <a href="/job-families/sales/customer-success-management/">Technical Account Manager
+role: <a href="/job-families/sales/customer-success-management/">Customer Success Manager
   (Enterprise)</a>
 reports_to: john-woods
 picture: stephengraham.jpg
@@ -12,7 +12,7 @@ gitlab: sgrahamgl
 pronouns: he/him
 departments:
 - Customer Success
-- Technical Account Managers
+- Customer Success Managers
 story: |
   Steve is a broad based technologist whose career has spanned Network Engineering, Systems Integration and Engineering, LAMP Architectures, and Programming.  Steve has built and maintened both the infrastructure and code bases used for some of the largest and most scalable websites in existence.  He decided to join GitLab due to the intense support for custom collaborative workflows, CI/CD, and well developed cloud scaling architectures.  GitLab is a thought leader in many well established engineering categories, something that Steve was drawn to.
 

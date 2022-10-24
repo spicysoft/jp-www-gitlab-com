@@ -173,7 +173,7 @@ _Note: see [this confidential issue](https://gitlab.com/gitlab-com/gl-security/s
 
 - Security: If `VP Security` is not available, one of the `Security directors` may approve, if not available move to `EVP of Engineering`.
 - Legal: `Senior Director of Legal, Privacy and Product` can approve. If not available, then move to `Legal Counsel`, and then move to `CLO`.
-- Customer Success: `VP Customer Success` can approve. If not available, `Snr Director, Technical Account Managers`, then `Director of Customer Success, Public Sector`.
+- Customer Success: `VP Customer Success` can approve. If not available, `Snr Director, Customer Success Managers`, then `Director of Customer Success, Public Sector`.
 - Support Team: `Support Manager on call` can approve. If not available, move to a member of [Support Senior Leadership](https://gitlab.com/groups/gitlab-com/support/managers/senior/-/group_members?with_inherited_permissions=exclude), then to [Support Managers](https://gitlab.com/groups/gitlab-com/support/managers/-/group_members?with_inherited_permissions=exclude) if needed.
 - Corporate Comms: `Director of Corp Comms` can approve. If not available, move to `Manager, Public Relations` and then move to `Manager, Corp Comms` if needed.
 - Investor Relations: `VP of Investor Relations` can approve. If not available, move to `Chief Financial Officer`, and then move to `VP Finance and Business Technology` for back-up approval.

@@ -185,7 +185,7 @@ How our governance compares:
 * More enterprise-level compliance controls
 
 In addition, enjoy these benefits of Ultimate:
-* Enterprise-grade priority support, including 24/7 uptime support, a named Technical Account Manager (TAM), and upgrade assistance are all still included with Ultimate.
+* Enterprise-grade priority support, including 24/7 uptime support, a named Customer Success Manager (CSM), and upgrade assistance are all still included with Ultimate.
 * Embed security and compliance into your CI Pipelines.
 * Protect your IP and get access to free guest users.
 
@@ -387,7 +387,7 @@ GitLab customer, Arctic Engine, [shares their experience](https://about.gitlab.c
 
 ## Adoption Guide
 
-The following section provides resources to help TAMs lead capabilities adoption, but can also be used for prospects or customers interested in adopting GitLab stages and categories.
+The following section provides resources to help CSMs lead capabilities adoption, but can also be used for prospects or customers interested in adopting GitLab stages and categories.
 
 ### Playbook Steps
 
