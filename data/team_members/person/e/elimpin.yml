@@ -16,7 +16,7 @@ departments:
 - Anti-Abuse Fullstack Team
 projects:
   gitlab:
-  - reviewer backend
+  - trainee_maintainer backend
   pipeline-validation-service: maintainer
 specialty: Anti-Abuse
 story: Eugie is a software engineer based in the Philippines. He has been building
