@@ -2,8 +2,7 @@
 name: Marcin Sędłak-Jakubowski
 locality:
 country: Remote
-role: <a href="/job-families/product/technical-writer/">Technical Writer</a>,
-  Plan
+role: <a href="/job-families/product/technical-writer/">Technical Writer</a>, Plan
 reports_to: dianalogan
 picture: msedlakjakubowski.png
 twitter: manualcookie
@@ -30,9 +29,8 @@ story: |
   And he thinks building bridges is better than building walls.
 specialty:
 - 'Monitor: Monitor'
-- 'Monitor: Observability'
-- 'Plan: Project Management'
-- 'Plan: Product Planning'
-- 'Plan: Certify'
-- Merge Request Buddy
+- " Monitor:Observability"
+- " Plan: Project Management"
+- " Plan: Product Planning"
+- " Plan: Certify"
 
