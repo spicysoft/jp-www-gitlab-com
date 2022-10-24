@@ -12,7 +12,7 @@ canonical_path: "/direction/create/code_review/"
 
 | Section | Stage | Maturity | Last Reviewed |
 | --- | --- | --- | --- |
-| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Loveable](/direction/maturity/) | 2022-08-23 |
+| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Loveable](/direction/maturity/) | 2022-10-24 |
 
 ## Introduction and how you can help
 Thanks for visiting this direction page on Code Review in GitLab. This page belongs to the [Code Review](/handbook/product/categories/#code-review-group) group of the Create stage and is maintained by Kai Armstrong ([E-Mail](mailto:karmstrong@gitlab.com)).
@@ -160,14 +160,6 @@ This section must provide a link to an issue or [epic](/handbook/product/product
 
 #### Feature Enhancements
 
-- **In Progress:** [Merge conflicts in diffs](https://gitlab.com/groups/gitlab-org/-/epics/4893)
-
-    Building upon our functionality for merge refs which was [shipped in GitLab 13.9](/releases/2021/02/22/gitlab-13-9-released/#merge-refs-for-changes-in-merge-requests). We're continuing to refine this area with improvements so that merge requests don't fall back to the merge base when conflicts are detected and are instead displayed directly within the merge request.
-
-- **In Progress:** [Integration of Suggested Reviewers](https://gitlab.com/groups/gitlab-org/-/epics/6113) 
-
-    Partnering with [Applied ML](https://about.gitlab.com/direction/modelops/applied_ml/) we're working to support users with reviewer suggestions on their merge requests.
-
 - **In Progress:** [Improve code review (batch comments) experience](https://gitlab.com/groups/gitlab-org/-/epics/7362)
 
     Understanding the state of a merge request and what needs to be done and who needs to take action is an important part of moving the merge request forward. We're currently focused on [designs for review rounds](https://gitlab.com/gitlab-org/gitlab/-/issues/354055) to further explore the merge request state and how we can communicate review cycles more easily to merge request participants.
@@ -178,13 +170,13 @@ This section must provide a link to an issue or [epic](/handbook/product/product
 
 #### Performance and Reliability Improvements
 
-- **In Progress:** [Better defined mergability](https://gitlab.com/groups/gitlab-org/-/epics/5598)
-
-    Mergeability checks are an essential part of the review process that ensure automated tasks and requirements are completed and approvals have been given prior to merge. Currently checks can span long running backend processes and some frontend confirmations, but these are not all implemented consistently which can result in improper or non-existent state for the merge button. New mergeability checks have been developed and we're currently working to [use these new checks for the merge widget](https://gitlab.com/gitlab-org/gitlab/-/issues/367965).
-
 - **In Progress:** [Restructure merge requests](https://gitlab.com/groups/gitlab-org/-/epics/5038)
 
     The merge request interface is overwhelming and can be challenging to find the information you need to complete the tasks you're working on. We're exploring several areas to restructure information on the page, remove items where appropriate, and increase the focus on completing the important tasks for merge requests. 
+
+**In Progress:** [Merge request performance roundtables](https://gitlab.com/groups/gitlab-org/-/epics/9086)
+
+    The performance of the merge request is critical in moving our product forward and improving developer satisfaction with the product. In an effort to take a "what would we do today" approach, we're beginning a series of performance roundtables focused on improving the experience from a core level.
 
 ### What is Not Planned Right Now
 
@@ -278,10 +270,10 @@ These are sourced from internal customers wanting to [dogfood](/handbook/values/
 What's the most important thing to move your vision forward?
 -->
 
-- **In Progress:** [Better defined mergability](https://gitlab.com/groups/gitlab-org/-/epics/5598)
-
-    Mergeability checks are an essential part of the review process that ensure automated tasks and requirements are completed and approvals have been given prior to merge. Currently checks can span long running backend processes and some frontend confirmations, but these are not all implemented consistently which can result in improper or non-existent state for the merge button. New mergeability checks have been developed and we're currently working to [use these new checks for the merge widget](https://gitlab.com/gitlab-org/gitlab/-/issues/367965).
-
 - **In Progress:** [Restructure merge requests](https://gitlab.com/groups/gitlab-org/-/epics/5038)
 
     The merge request interface is overwhelming and can be challenging to find the information you need to complete the tasks you're working on. We're exploring several areas to restructure information on the page, remove items where appropriate, and increase the focus on completing the important tasks for merge requests. 
+
+**In Progress:** [Merge request performance roundtables](https://gitlab.com/groups/gitlab-org/-/epics/9086)
+
+    The performance of the merge request is critical in moving our product forward and improving developer satisfaction with the product. In an effort to take a "what would we do today" approach, we're beginning a series of performance roundtables focused on improving the experience from a core level.
