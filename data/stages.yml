@@ -1701,7 +1701,7 @@ stages:
       utilization:
         name: Utilization
         description: "Responsible for all consumables management, usage reporting, and usage notifications (excluding license utilization). Systems - GitLab."
-        pm: Donique Smit
+        pm: Donique Smit (Acting)
         pmm: Saumya Upadhyaya
         slack:
           channel: g_utilization
@@ -1811,7 +1811,7 @@ stages:
       commerce_integrations:
         name: Commerce Integrations
         description: "Responsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
-        pm: Isabel Sandin
+        pm: Courtney Meddaugh (Acting)
         pmm: Saumya Upadhyaya
         slack:
           channel: g_commerce_integrations
