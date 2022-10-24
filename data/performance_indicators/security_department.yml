@@ -1,4 +1,4 @@
-- name: Age of current open vulnerabilities by severity
+- name: Age of current open vulnerabilities by severity 
   base_path: "/handbook/engineering/security/performance-indicators/"
   definition: The age of current open vulnerabilities gives us an at the moment snapshot in time of how fast we are scheduling and fixing the vulnerabilities found post-Production deploy. The age is measured in days, and the targets for each severity are defined in the <a href="https://about.gitlab.com/handbook/engineering/security/#severity-and-priority-labels-on-security-issues">Security Handbook</a>. For Security purposes, please view this chart directly in Sisense.
   target: <a href="https://about.gitlab.com/handbook/engineering/security/#severity-and-priority-labels-on-security-issues">Time to remediate</a>
@@ -10,7 +10,7 @@
   health:
     level: 3
     reasons:
-    - We continue to see sustained numbers below SLO targets. The average number of days that S3s stay open has been trending upward and is approaching the SLO target. There has also been an increase in the average number of days that S4s stay open. The total count of both S3 and S4 issues is declining. This KPI is currently considered healthy.
+    - We continue to see sustained numbers below SLO targets. However for the month of October, S1 average days is over the threshold due to a single false positive scanner vulnerability. There has also been an increase in the average number of days that S4s stay open, but the total count of both S3 and S4 issues are declining. This KPI is currently considered healthy.
 
 - name: Security Engineer On-Call Page Volume
   base_path: "/handbook/engineering/security/performance-indicators/"
@@ -22,7 +22,8 @@
   health:
     level: 3
     reasons:
-    - A 45% decrease in on-call pages were experienced over the last 3 months as compared to the last 12 months. This is well within the acceptable threshold and while a steady and consistent number of on-call pages have occurred, we saw the number of pages drop significantly in June and start to trend upwards in July. Similarly, the number of S1 paged incidents is down 60% over the last 3 months, compared the last 12 months average. Notably, while this month is not complete, August is trending significantly upwards.
+    - A 165% increase in on-call pages were experienced over the last 3 months as compared to the last 12 months. We saw the number of pages drop significantly in July and September, with a significant spike in on-call pages occuring in August. Similarly, the number of S1 paged incidents is up 129% over the last 3 months, compared the last 12 months average. These increases are well above the acceptable threshold and we believe we have addressed this through actions performed via a rapid response group, as evidenced by the drop in on-call pages during the month of September. October is also showing a low and stable volume.
+
     - Short term fluctuation are to be expected. Long term trending both negative and positive, should be identified and actions created to correct negative trends and continue promoting positive trends.
   urls:
   - https://app.periscopedata.com/app/gitlab/592612/Security-KPIs?widget=9217413&udv=0
@@ -36,7 +37,7 @@
   health:
     level: -1
     reasons:
-    - ITGC applications have been removed from this KPI as testing has been handed back to IA with the exception of 2 shared applications. 46% (or 6 out of 13) systems assessed met the target. There are 51 observations open for the 7 systems.
+    - Security Compliance performs regular testing of controls by system and uses the System Health Rating methodology to determine the overall health of each system in scope of GitLab’s compliance and regulatory programs. A System health rating of 1 means all controls evaluated for that system are operating fully effectively and a system health rating of 5 means none of the controls are operating effectively. 84% (or 11 out of 13) systems assessed met the target. There are 72 observations open for these 13 systems. 
   urls:
     - https://app.periscopedata.com/app/gitlab/977899/Security-Impact?widget=14446739&udv=0
 
@@ -49,7 +50,7 @@
   health:
     level: -1
     reasons:
-    - Field Security implemented the new RFx process with the field reps on July 13, 2022. As of the new process’ implementation, Field Security has seen an increase in the number of issues being created in the Customer Assurance Service Desk. At this point in August, 2022, we are trending higher than we were at the same point in each of the last 3 months. We have currently received 83 issues in the month of August.
+    - Field Security have observed an uptick in the average number of issues coming into the Customer Assurance Activities Service Desk. Between August and September, there were an average of 116 issues opened. Over the 4 prior months, there were an average of 99 issues opened. The average ARR impact for August and September was 30% higher compared to the 4 prior months.
 
   urls:
     - https://app.periscopedata.com/app/gitlab/977899/Security-Impact?widget=13710204&udv=0
@@ -247,7 +248,7 @@
   health:
     level: 3
     reasons:
-    - There are currently 6 high risks on the Security Operational Risk Register.  Security’s Annual Risk Assessment was completed in early June. After audit committee and leadership reporting, risk treatment will occur. Action = Security Risk are actively working with leadership to complete treatments for risks identified during the FY23Q2  Annual Risk Assessment.
+    - There are currently 6 high risks on the Security Operational Risk Register.  Security’s Annual Risk Assessment was completed in Q2. As part of the ARA and standard operational risk activities (such as risk treatment or trends in the IT environment), risk scores displayed in the heatmap are subject to change over time. Risks identified during the ARA have been associated with Risk Treatment plans (8/8 or 100%). Each of these plans have been validated with risk owners. Action = In Q4, all Tier 2 risks identified prior to the FY23 ARA will be reviewed and associated treatment plans will be either established or refreshed.
 
   sisense_data:
     chart: 11437860
@@ -263,7 +264,7 @@
   health:
     level: 3
     reasons:
-    - 4 high risk observations have been opened this fiscal year. 
+    - 20% (or 48 of 230) of all observations opened to date have been resolved. Of observations identified this fiscal year, 50% (or 21 of 42) have been resolved. 12 high-risk observations have been identified so far this fiscal year. 
 
   sisense_data:
     chart: 11426201
@@ -279,7 +280,7 @@
   health:
     level: 3
     reasons:
-    - 53 new vendor risk assessments have been initiated in FY23Q3. This is a 42% increase in high and moderate risk vendors quarter over quarter. Fiscal year to date we have seen a 37% increase in total vendor assessments over prior year (288 vs. 354). 
+    - 131 new vendor risk assessments have been initiated in FY23Q3. This includes a 21% increase in high and moderate risk vendors quarter over quarter. Fiscal year to date we have seen a 24% increase in moderate and high vendor assessments over prior year (156 vs. 194). 
   sisense_data:
     chart: 11439229
     dashboard: 847984
