@@ -56,6 +56,60 @@ If you are using Alfred on macOS, you can use [Alfred's Powerpack with the emoji
 
 Alternatively, [Better Tweetdeck](https://better.tw/) as browser extension offers the same auto-complete mechanism known from GitLab and Slack: Start with a `:` and type the emoji name to start the live search. 
 
+### Twitter Tips
+
+#### Twitter: Allow direct messages from everyone
+
+On Twitter, you need to follow another user to allow them for sending you a direct message. Sometimes, invitation to events, wider community highlights or new opportunities may come from direct messages, and it is desirable to [enable them for everyone](https://help.twitter.com/en/using-twitter/direct-message-faqs). Users you do not follow yet are then able to send so-called "Message requests" that will show up in a separate section inside the direct messages view.
+
+Navigate to `Settings > Privacy and Safety > Direct Messages` to enable the `Allow message requests from everyone` checkbox. 
+
+New message requests will show up in your Twitter DMs on top, saying `Message requests. X people you may know.`. You can review the request without the users seeing a read notification, and accept the request to continue the conversation. 
+
+Note: be cautious of phishing, spam, and other undesirable messages arriving via Message requests. 
+
+### LinkedIn Tips
+
+#### LinkedIn: Use Creator Mode Profile 
+
+LinkedIn defaults to connections between users, and everyone uses a different strategy to manage connections, i.e. only having met in person, etc. Sometimes users want to follow and engage with your content, without the direct need of a LinkedIn connection. This is a great strategy to share thought leadership content on LinkedIn too, for example [automated schedules](#scheduled-content) in the same way as Twitter. 
+
+LinkedIn provides the [Creator Mode](https://www.linkedin.com/help/linkedin/answer/a522537/creator-mode) for profiles which brings multiple benefits: 
+
+- Content is highlighted by moving the `Activity` and `Featured` sections on top of the profile. 
+- Users can follow you as the default action.
+  - Connections are an extra step in the dotted menu. This can also be helpful to reduce connection requests to review. 
+  - Your followers will see your content in their feed and can engage. 
+- Number of followers are displayed on the profile. Your profile might be shown to others as influencer profile and suggestion to follow.
+- Possibility to [add a URL to your profile introduction](https://www.linkedin.com/help/linkedin/answer/a727760) to drive traffic there. 
+- [Creator Analytics](https://www.linkedin.com/help/linkedin/answer/a701208)
+  - Impressions, engagements, profile view metrics are displayed on the LinkedIn profile.
+  - Required for thought leadership strategy metrics in Developer Evangelism. 
+
+Example profile from [Michael Friedrich](https://www.linkedin.com/in/dnsmichi/) with Creator Mode enabled:
+
+![LinkedIn Profile with creator mode enabled: Michael Friedrich](/images/handbook/marketing/community-relations/developer-evangelism/social-media/linkedin_creator_mode_profile_michael_friedrich.png)
+
+### Polywork Tips
+
+#### Polywork: Collaboration requests
+
+Edit your availability on your profile which brings up a form to:
+
+- Add an introduction text. Example below.
+- Enable that you are open to receiving requests
+- Add topics you are open to. Examples: `Open Source Contributions`, `Guest lecturing`, `Live streaming`, `Mentoring`, `Speaking at Events`, `Writing`, `Speaking on podcasts`, `Brainstorming`, `Content Creation`, `Speaking on Twitter Spaces`. 
+
+Example introduction text from [Michael](https://polywork.com/dnsmichi):
+
+```
+Hi, thanks for reaching out. Here's a few notes to set expectations right :)
+
+I'm a fan of free education, sharing my experiences in talks & podcasts, and spark fresh thoughts for innovation. I prefer to work in public, and transparently allow everyone to benefit from our collaboration. 
+ 
+Please be kind on everyone's time, and provide full context and URLs to start async, without a request to jump on a call. Answers may take a while, as I am active in many ecosystems, communities and todos :) 
+```
+
 ## Content
 
 ### Scheduled Content
