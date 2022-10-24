@@ -233,12 +233,25 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/security/security-engineering-and-research/infrastructure-security/ @laurence.bierner @joe-dub
 
 ^[UX department]
-/sites/handbook/source/handbook/product/ux/ @clenneville @vkarnes @asmolinski2 @jackib @mvanremmerden @jmandell @tauriedavis @rayana @susantacker @badnewsblair
+/sites/handbook/source/handbook/product/ux/ @clenneville @vkarnes @asmolinski2 @jackib @mvanremmerden @jmandell @tauriedavis @rayana @susantacker @badnewsblair @chrismicek
 /sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/ci-cd/ @rayana
 /sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/fulfillment/ @jackib
 /sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/release/ @rayana @vkarnes
 /sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/release/release-management/ @rayana @vkarnes
 /sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/verify/ @rayana @v_mishra
+
+^[Product Design]
+/sites/handbook/source/handbook/product/ux/product-design/ @clenneville @vkarnes @badnewsblair @chrismicek @jackib @jmandell @mvanremmerden @rayana @tauriedavis
+/sites/handbook/source/handbook/product/ux/product-designer/ @clenneville @vkarnes @badnewsblair @chrismicek @jackib @jmandell @mvanremmerden @rayana @tauriedavis
+
+^[UX Research]
+/sites/handbook/source/handbook/product/ux/ux-research/ @clenneville @asmolinski2 @laurenevans @alasch
+/sites/handbook/source/handbook/product/ux/ux-research-training/ @clenneville @asmolinski2 @laurenevans @alasch
+/sites/handbook/source/handbook/product/ux/ux-research-coordination/ @clenneville @asmolinski2 @laurenevans @alasch
+/sites/handbook/source/handbook/product/ux/persona-creation/ @clenneville @asmolinski2 @laurenevans @alasch
+/sites/handbook/source/handbook/product/ux/qualtrics/ @clenneville @asmolinski2 @laurenevans @alasch
+/sites/handbook/source/handbook/product/ux/sus/ @clenneville @asmolinski2 @laurenevans @alasch
+/sites/handbook/source/handbook/product/ux/sus-database/ @clenneville @asmolinski2 @laurenevans @alasch
 
 ^[Incubation department]
 /sites/handbook/source/handbook/engineering/incubation/ @bmarnane
