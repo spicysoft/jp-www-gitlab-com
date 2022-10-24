@@ -17,7 +17,7 @@ departments:
 projects:
   gitlab-shell: maintainer
   gitlab:
-  - trainee_maintainer workhorse
+  - maintainer workhorse
   - maintainer backend
   - reviewer database
 story: 'Igor started his career as a software engineer back in 2013. Before joining
