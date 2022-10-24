@@ -188,7 +188,7 @@ A [competitive analysis](https://docs.google.com/document/d/12o6h6Fm7bAjhW5AK1r-
 ## Business Opportunity
 <!-- This section should highlight the business opportunity highlighted by the particular category. -->
 
-### Estimating our TAM for Design Management
+### Estimating our CSM for Design Management
 
 We've learned that a typical designer:developer ratio is [1:8](https://techcrunch.com/2017/05/31/here-are-some-reasons-behind-techs-design-shortage/) (at GitLab, our ratio is 1:7).  
 
@@ -196,7 +196,7 @@ Also, we know there are [24M developers worldwide](https://www.statista.com/stat
 
 24M / 8 = 3M designers worldwide
 
-If we achieved signing up all of these designers for GitLab, our TAM would be $684M on Premium and $3.6B on Ultimate.
+If we achieved signing up all of these designers for GitLab, our CSM would be $684M on Premium and $3.6B on Ultimate.
 
 ### Growth of other tools
 

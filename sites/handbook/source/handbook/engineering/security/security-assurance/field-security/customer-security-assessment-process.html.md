@@ -75,13 +75,13 @@ In the spirit of iteration, GitLab is continuously evolving our list of complian
 
 ## Service Level Agreements 
 
-- **Security Questionnaires:** 10 Business Day. SA or TAM will utlize AnswerBase and/or other self-service resources prior to requesting Field Security assistance. SA or TAM will ensure everyone on the Field Security team has access to any files or portals.
+- **Security Questionnaires:** 10 Business Day. SA or CSM will utlize AnswerBase and/or other self-service resources prior to requesting Field Security assistance. SA or CSM will ensure everyone on the Field Security team has access to any files or portals.
 
 - **Contract Reviews:** 5 Business Days. The VP of Security must be engaged in all Contract Reviews. 
 
-- **Customer Calls:** SA or TAM will provide context to the Customer or Prospects questions or concerns prior to the meeting. Field Security will provide a PowerPoint presentation with critical information about GitLab Security and specifics to the Customer or Prospect's request. The VP of Security must be invited to all Customer Meetings. 
+- **Customer Calls:** SA or CSM will provide context to the Customer or Prospects questions or concerns prior to the meeting. Field Security will provide a PowerPoint presentation with critical information about GitLab Security and specifics to the Customer or Prospect's request. The VP of Security must be invited to all Customer Meetings. 
 
-- **Security Documents:** 2 Business Days. SA or TAM must provide the name and email address of the recipient. 
+- **Security Documents:** 2 Business Days. SA or CSM must provide the name and email address of the recipient. 
 
 ## Exceptions
 If the Account Owner or Customer Success point of contact feel they have sufficient knowledge and resources to complete a Customer Assessment, this procedure does not have to used. These exceptions will not be tracked. 

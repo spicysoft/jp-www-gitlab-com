@@ -543,7 +543,7 @@
   target: /community/sweepstakes/
   comp_op: '='
 - sources:
-    - /tam/
+    - /csm/
     - /services/technical-account-management/
   target: /services/customer-success-management/
   comp_op: '='

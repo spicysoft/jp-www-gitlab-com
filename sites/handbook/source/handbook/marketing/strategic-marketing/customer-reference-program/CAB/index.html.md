@@ -61,16 +61,16 @@ A number of our customers continue the conversation with each other and with our
 Please raise an issue via this [issue template](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/customer-advisory-board/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) to request consideration to communicate on this channel 
 Please provide as much context about your announcement as possible, specifically around the relevance and value to the members.
 
-### TAMs managing their customer feedback from the Product CAB 
-Find TAM [process](https://docs.google.com/presentation/d/1LPJazgskhQJnqjBYzRlu5dGDVmUbnvfpzfYrPXqXkRY/edit#slide=id.gf25b6c3b0c_2_0) for managing customer feedback from the Product CAB. 
+### CSMs managing their customer feedback from the Product CAB 
+Find CSM [process](https://docs.google.com/presentation/d/1LPJazgskhQJnqjBYzRlu5dGDVmUbnvfpzfYrPXqXkRY/edit#slide=id.gf25b6c3b0c_2_0) for managing customer feedback from the Product CAB. 
 
 **Process**
-1. The Customer Reference Manager (CRM) creates the “CAB TAM Follow up” [issue template](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/customer-advisory-board/-/issues/new?issue%5Bmilestone_id%5D=) in the CAB project and uploads links to the recordings etc
-2. The CRM tags the TAMs and TAM managers in the issue to review the CAB recordings/ notes and transcripts when their customer has attended the CAB 
-3. The TAM create new issues in the Product repo as per [agreed process](https://about.gitlab.com/handbook/customer-success/csm/product/) based upon their customer feedback (links to the customer SFDC account as per standard process for reporting)
+1. The Customer Reference Manager (CRM) creates the “CAB CSM Follow up” [issue template](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/customer-advisory-board/-/issues/new?issue%5Bmilestone_id%5D=) in the CAB project and uploads links to the recordings etc
+2. The CRM tags the CSMs and CSM managers in the issue to review the CAB recordings/ notes and transcripts when their customer has attended the CAB 
+3. The CSM create new issues in the Product repo as per [agreed process](https://about.gitlab.com/handbook/customer-success/csm/product/) based upon their customer feedback (links to the customer SFDC account as per standard process for reporting)
 4. If the issue already exists please add the CAB label provided and add the customer SFDC record 
-5. The TAM tags the issue with the CAB label (CAB Takeaway+FQ+FY) so we can track CAB input into product)
-6. The CRM schedules an annual meeting with CS/TAM/Product teams to review the CAB Takeaway label board in the Product Repo
+5. The CSM tags the issue with the CAB label (CAB Takeaway+FQ+FY) so we can track CAB input into product)
+6. The CRM schedules an annual meeting with CS/CSM/Product teams to review the CAB Takeaway label board in the Product Repo
  
 ### 2021 Meeting Schedule
 

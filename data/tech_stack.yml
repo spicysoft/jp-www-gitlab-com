@@ -828,7 +828,7 @@
     training and development for existing team members, provide non-sales employees
     with access to sales calls, and allow sales reps to recall certain points of a
     call or demo. All ROW customer facing team members are required to complete the [Chorus GDPR training](https://gitlab.edcast.com/insights/card-c6492843-12f5-4353-9aab-fa82cf58d9cd) before receiving a Recorder license in Chorus.'
-  access_to: "**Recorders:** SALs, AEs, TAMs, SAs, and SDRs **Listeners:** Can be requested & granted case by case"
+  access_to: "**Recorders:** SALs, AEs, CSMs, SAs, and SDRs **Listeners:** Can be requested & granted case by case"
   provisioner: 'Add Label "SalesOpsAR::Action Needed"'
   deprovisioner: '@kbetances'
   group_owner: Sales Ops
@@ -1804,7 +1804,7 @@
   description: "[Gainsight](https://gainsight.com/) Gainsight transforms data points
     into actionable insights for customer success, helping you increase retention,
     expand revenue, and scale operations."
-  access_to: 'Customer Success: Technical Account Managers, Field Ops: Customer Success
+  access_to: 'Customer Success: Customer Success Managers, Field Ops: Customer Success
     Enablement, Field Ops: SalesSystems, and FieldOps: CS Operations'
   provisioner: "@jdbeaumont @cankney @ndumas"
   deprovisioner: "@cankney @ndumas"
@@ -1817,7 +1817,7 @@
   need_move_to_okta: null
   critical_systems_tier: Tier 3 / Non-critical
   compliance_scope: none
-  collected_data: Gainsight is the post-sales tool for TAMs to manage the customer's
+  collected_data: Gainsight is the post-sales tool for CSMs to manage the customer's
     lifecycle and pull in data from Salesforce, Zendesk tickets, and usage ping/snowplow
     data.
   processing_customer_data: null
@@ -3835,7 +3835,7 @@
   team_member_baseline_entitlement: false
   subprocessor: false
   description: '[Retain.ai](https://retain.ai/) is used to monitor customer engagement'
-  access_to: Customer Success in TAM Sales
+  access_to: Customer Success in CSM Sales
   provisioner: '@chloe, @spatching'
   deprovisioner: '@chloe, @spatching'
   group_owner: Sales
@@ -3962,7 +3962,7 @@
   team_member_baseline_entitlement: false
   subprocessor: false
   description: "[Salesforce Inbox](https://chrome.google.com/webstore/detail/salesforce/jjghhkepijgakdammjldcbnjehfkfmha) is a Chrome extension that allows team members to work with Salesforce records directly in their email application via the Gmail integration."
-  access_to: "Enterprise (excluding West), Enterprise ISRs, TAMs, SAs, Professional Services, PubSec, PubSec ISRs, and PubSec CAMs"
+  access_to: "Enterprise (excluding West), Enterprise ISRs, CSMs, SAs, Professional Services, PubSec, PubSec ISRs, and PubSec CAMs"
   provisioner: 'Add Label "SalesOpsAR::Action Needed"'
   deprovisioner: null
   group_owner: null

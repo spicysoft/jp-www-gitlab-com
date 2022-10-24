@@ -727,7 +727,7 @@
   registration: "Free"
   confidentiality: "Internal"
 
-- name: "Building Success Plans for TAMs"
+- name: "Building Success Plans for CSMs"
   url: https://gitlab.edcast.com/pathways/tam-building-success-plans
   description: |
     In this Field Accreditation course, you will: define success plans and their purpose, distinguish between success plans and collab projects, explain the process of creating a success plan, and define well-written customer outcomes
@@ -740,10 +740,10 @@
   registration: "Free"
   confidentiality: "Internal"
 
-- name: "Executive Business Reviews for TAMs"
+- name: "Executive Business Reviews for CSMs"
   url: https://gitlab.edcast.com/pathways/tam-executive-business-reviews
   description: |
-    Training for TAMs to understand the purpose of an Executive Business Review and how to position one with a customer
+    Training for CSMs to understand the purpose of an Executive Business Review and how to position one with a customer
   live_date: "2021-07-27"
   maintainer: "Field Enablement"
   level: "Beginner"

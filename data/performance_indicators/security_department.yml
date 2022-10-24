@@ -42,7 +42,7 @@
 
 - name: Security Impact on Net ARR 
   base_path: "/handbook/engineering/security/performance-indicators/"
-  definition: The Field Security organization functions as a sales and customer enablement team therefore a clear indicator of success is directly reflected in the engagement of their assessment services by Legal, Sales, TAMs and customers themselves. Assessment services include completing security questionnaires, participating in customer calls, creating and providing security documentation, and facilitating customer audits. The dashboard is calculated as (assessments completed by customer + total contract value by customer = monthly dollar security impact).
+  definition: The Field Security organization functions as a sales and customer enablement team therefore a clear indicator of success is directly reflected in the engagement of their assessment services by Legal, Sales, CSMs and customers themselves. Assessment services include completing security questionnaires, participating in customer calls, creating and providing security documentation, and facilitating customer audits. The dashboard is calculated as (assessments completed by customer + total contract value by customer = monthly dollar security impact).
   target: Confidential
   org: Security Department
   is_key: true
