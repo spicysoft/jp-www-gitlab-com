@@ -88,7 +88,7 @@ If an observation is confirmed Ignored or Invalid, the associated risk rating of
 
 If multiple observation issues relate to the same root cause or are blocked by the same component of work, these issues will be connected together into an Epic in order to more clearly see how multiple observations issues are connected. 
 
- A list of observation Epics can be found [here](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/sec-compliance/-/epics?label_name%5B%5D=Observation+Epics).
+ A list of observation Epics can be found [here](https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=Observation+Epics).
  
 ## Remediation 
 
@@ -114,7 +114,7 @@ A more detailed SLA and Remediation Goal process can be found [in this runbook](
 
 Throughout the course of testing or general monitoring of the GitLab ecosystem, Opportunities for Improvement (OFI) may be identified and documented so that the overall control environment and GitLab's processes can be improved.
  
-To capture an OFI, create an issue in the [Observation Management](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/sec-compliance/observation-management) project and add the RiskRating::OFI label.
+To capture an OFI, create an issue in the [Observation Management](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management) project and add the RiskRating::OFI label.
 
 OFI's do not have defined remediation SLA's as they are process improvements or suggestions only. The Remediation Goal to communicate the OFI to the appropriate stakeholder is 10 weeks.
 
@@ -135,7 +135,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 - Parent Policy: [Information Security Policy](/handbook/engineering/security/)
 - [GCF Contol Lifecycle](/handbook/engineering/security/security-assurance/security-compliance/security-control-lifecycle.html#)
-- [Sarbanes-Oxley (SOX) Compliance](/handbook/internal-audit/sarbanes-oxley/)
+- [Sarbanes-Oxley (SOX) Compliance](https://about.gitlab.com/handbook/internal-audit/sarbanes-oxley/)
 - [Observation Management Procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/observation-management-procedure.html)
 - [Control Health and Effectiveness Rating Procedure](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/control-health-effectiveness-rating.html)
 
