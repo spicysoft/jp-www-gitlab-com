@@ -2293,9 +2293,9 @@ backup_restore:
   documentation: https://docs.gitlab.com/ee/raketasks/backup_restore.html
   roi: false
   available: 2015-01-01
-  viable: 2022-10-22
-  complete: 2023-07-22
-  lovable: 2024-07-22
+  viable: 2023-10-22
+  complete: 2024-07-22
+  lovable: 2025-07-22
   maturity: minimal
   marketing: false
   dogfooding_status: not planned
@@ -2323,7 +2323,7 @@ geo_replication:
   roi: false
   available: 2018-01-01
   viable: 2019-09-01
-  complete: 2022-10-22
+  complete: 2022-11-04
   lovable: 2023-11-18
   maturity: viable
   marketing: true
