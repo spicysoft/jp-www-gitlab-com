@@ -21,6 +21,7 @@ projects:
   gitlab:
   - maintainer backend
   - reviewer database
+  gitlab-cli: reviewer
 specialty: Compliance
 expertise:
 story:

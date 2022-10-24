@@ -1,0 +1,43 @@
+---
+name: Brendan O'Leary
+pronouns: he/him
+locality:
+country: Remote
+role: <a href="/job-families/marketing/developer-evangelist/#staff-developer-evangelist">Staff Developer Evangelist</a>
+reports_to: john-coghlan
+picture: brendan.png
+twitter: olearycrew
+linkedin: olearycrew
+gitlab: brendan
+departments:
+- Marketing
+- Corporate Marketing
+- Community Relations
+- Merge Request Buddy
+- Parental Leave Reentry buddy
+projects:
+  gitlab-cli: reviewer
+expertise: |
+  <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge Request Buddy</a></li>
+  <li><a href="/handbook/people-group/general-onboarding/parental-leave-buddy/">Parental Leave Reentry buddy</a></li>
+  <li><a href="https://docs.gitlab.com/ee/ci/">CI/CD</a> <a href="/company/team/structure/#expert">expert</a></li>
+  <li><a href="https://docs.gitlab.com/ee/integration/jira/">JIRA</a> <a href="/company/team/structure/#expert">expert</a></li>
+remote_story: 'As my bio says, I have 4 young children at home.  When I came back
+  to GitLab after having my fourth I noted in our Thanks channel - ''Much easier transition
+  coming back from paternity then I’ve ever had.  Being at home & being able to step
+  away to help is so much better than commuting into an office and not being able
+  to help at all.''
+
+'
+story: 'Brendan has a passion for software development and iterating on processes
+  just as quickly as we iterate on code.  He is a zealous advocate for the user experience.
+  Brendan can still remember what his first computer - a Tandy 2000 - felt like to
+  use (and break...sorry Dad). Working with customers to deliver value is what drives
+  Brendan''s passion for DevOps and smooth CI/CD implementation.  Brendan has worked
+  with a wide range of customers - from the nation''s top healthcare institutions
+  to environmental services companies to the Department of Defense.  The only thing
+  more eclectic is probably his taste in music.  Outside of work, you''ll find Brendan
+  with 1 to 4 kids hanging off of him at any given time or occasionally finding a
+  moment alone to build something in his workshop.
+
+'

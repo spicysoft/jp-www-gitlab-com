@@ -17,6 +17,7 @@ specialty: Release
 projects:
   gitlab:
   - trainee_maintainer backend
+  gitlab-cli: reviewer
 story: |
   Ahmed started tinkering with computers at a young age, and he hasn't stopped since. He has 6+ years
   of experience building and delivering software at scale, and working in agile and fast paced environments. He spent most of that time focusing on backend, infrastructure and data topics. In his spare time, you can find him explaining

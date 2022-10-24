@@ -18,6 +18,7 @@ departments:
 projects:
   gitlab: maintainer backend
   tanuki_emoji: maintainer
+  gitlab-cli: maintainer
 expertise: |
   <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
 domain_expertise:

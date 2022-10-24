@@ -16,6 +16,8 @@ departments:
 - Development Department
 - Sec Section
 - Secure:Static Analysis BE Team
+projects:
+  gitlab-cli: reviewer
 specialty: Static Analysis
 expertise:
 story: |
