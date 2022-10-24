@@ -1,7 +1,7 @@
 /* global setupCountdown */
 
 function setupHackathonCountdown() {
-  var nextHackathonDate = new Date('August 2, 2022 12:00:00').getTime();
+  var nextHackathonDate = new Date('November 29, 2022 12:00:00').getTime();
 
   setupCountdown(nextHackathonDate, 'nextHackathonCountdown');
 }
@@ -17,7 +17,7 @@ function setupHackathonCountdown() {
 // Hackathon tracker issue. Update the issue ID for each Hackathon
 // E.g. on https://gitlab.com/gitlab-com/marketing/community-relations/contributor-program/hackathon/issues/18
 // the issue ID is '18'
-var hackathonIssueID = '67';
+var hackathonIssueID = '71';
 var gitlabProjectPath = 'gitlab-com/marketing/community-relations/contributor-program/hackathon';
 var gitlabHost = 'https://gitlab.com';
 var hackathonIssue = `${gitlabHost}/${gitlabProjectPath}/issues/${hackathonIssueID}`;
