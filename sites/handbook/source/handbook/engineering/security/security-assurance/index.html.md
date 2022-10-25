@@ -12,7 +12,7 @@ title: "Security Assurance"
 {:toc .hidden-md .hidden-lg}
 
 ## Overview
-As a member of the [Engineering](/handbook/engineering/) organization and the greater [Security department](/handbook/engineering/security/#assure-the-customer), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab service offerings.
+As a member of the the greater [Security department](/handbook/engineering/security/#assure-the-customer), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab service offerings.
 
 There five teams in the Security Assurance sub-department.
 
@@ -65,9 +65,10 @@ There five teams in the Security Assurance sub-department.
 ### Security Governance Core Competencies 
 * [Security Policies, Standards and Control maintenance](https://about.gitlab.com/handbook/engineering/security/controlled-document-program.html) 
 * Security Assurance Metrics
+* Regulatory Landscape Monitoring
 * [Security Awareness and Training](/handbook/engineering/security/security-assurance/governance/sec-awareness-training.html)
-* Regulatory Landscape Monitoring 
 * [Security Assurance Application Administration](/handbook/engineering/security/security-assurance/#core-tools-and-systems)
+* Security Assurance Automation
 
 ### Security Risk Core Competencies 
 * [Third Party Risk Management](/handbook/engineering/security/security-assurance/security-risk/third-party-risk-management.html)
@@ -78,12 +79,14 @@ There five teams in the Security Assurance sub-department.
 * [GitLab.com Security Certifications](/handbook/engineering/security/security-assurance/security-compliance/certifications.html)
 * [GitLab.com Production & SOX ITGC User Access Reviews](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/access-reviews.html)
 * [Tier 3 Observation Management](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
+* [GitLab.com Production Readiness: Compliance Assessment] (https://about.gitlab.com/handbook/engineering/security/security-assurance/production_readiness_compliance_assessment.html)
 
 ### Security Compliance, Dedicated Core Competencies 
 * [GitLab Dedicated Production Continuous Control Monitoring/Auditing](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)
 * [GitLab Dedicated Security Certifcations](https://about.gitlab.com/handbook/engineering/security/security-assurance/dedicated-compliance/certifications.html)
 * [GitLab Dedicated User Access Reviews](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/access-reviews.html)
 * [Tier 3 Observation Management](/handbook/engineering/security/security-assurance/observation-management-procedure.html)
+* [GitLab Dedicated Production Readiness: Compliance Assessment] (https://about.gitlab.com/handbook/engineering/security/security-assurance/production_readiness_compliance_assessment.html)
 
 ## <i id="biz-tech-icons" class="far fa-newspaper"></i>Core Tools and Systems
 
@@ -102,7 +105,6 @@ All other actions are the responsibility of the assigned DRI.
 | System Name | System Description | Admin | DRI |
 |---------|-------------|---------------|---------|
 | [ZenGRC](/handbook/business-technology/tech-stack/#zengrc) | Key system utilized for initiating, tracking/documenting, and completing Governance, Risk, and Compliance related activities. Access is provided as a standard [baseline entitlement for all team members](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/baseline-entitlements/#baseline-entitlements-all-gitlab-team-members). Refer to the [ZenGRC FAQ](/handbook/engineering/security/security-assurance/zg-faq.html) and [ZenGRC Activities](/handbook/engineering/security/security-assurance/zg-activities.html) handbook pages for additional information. | [Donovan Felton](@dfelton) | * Security Compliance - [Madeline Lake](@madlake) <br><br> * Security Risk - [Ty Dilbeck](@tdilbeck) |
-| [Anecdotes](https://www.anecdotes.ai/) | Key system utilized for Compliance automation | [Donovan Felton](@dfelton) | [Byron Boots](@byronboots) |
 | [Authomize](https://www.authomize.com/) | Key system utilized by Security Compliance for [User Access Reviews](/handbook/engineering/security/security-assurance/security-compliance/access-reviews.html) | [Donovan Felton](@dfelton) | [Alex Frank](alexfrank09) |
 | [OneTrust Vendorpedia QRA](/handbook/business-technology/tech-stack/#onetrust) | Key system utilized for Privacy, Security, and Data Governance for completing customer questionnaires | [Donovan Felton](@dfelton) | [Marie-Claire Cerny](@marieclairecerny) |
 | [OneTrust Vendorpedia Exchange](/handbook/business-technology/tech-stack/#onetrust) | System utilized for Privacy, Security, and Data Governance for TPRM | [Donovan Felton](@dfelton) | [Ty Dilbeck](@tdilbeck) |
