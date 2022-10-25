@@ -15,6 +15,17 @@ The LCNC SEG is a [Single-Engineer Group](/company/team/structure/#single-engine
 
 Low-code and no-code are [two distinct concepts](https://lowcode.com/articles/low-code-vs--no-code--the-differences--similarities--and-how-to-.html) that target different personas and require separate product strategies. This page presents low-code and no-code work streams in two sections.
 
+### Latest video
+<figure class="video_container">
+    <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=1&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0KrvsoO39e_NFtFMTIYgSJ7t" frameborder="0" allowfullscreen></iframe>
+</figure>
+
+### Recent updates
+
+| Date       | Summary                                                                                                                                          | Video                                                                          |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 2022-10-24 | [Introduce low-code/no-code SEG](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/22)                         | [https://youtu.be/r3Ib00Z5Dj0](https://youtu.be/r3Ib00Z5Dj0){:target="_blank"} |
+
 ### Low-code
 
 #### Problem Statement
@@ -27,7 +38,7 @@ Gartner predicts by 2024, 75% of software solutions will be delivered with some 
 
 #### Vision
 
-GitLab is well-positioned to disrupt the low-code market by unifying a new breed of open-source low-code platforms with GitLab's mature DevOps workflow to provide an alternative software delivery approach with maximied efficiency.
+GitLab is well-positioned to disrupt the low-code market by unifying a new breed of open-source low-code platforms with GitLab's mature DevOps workflow to provide an alternative software delivery approach with maximized efficiency.
 
 #### Milestones
 
@@ -46,7 +57,7 @@ In addition, the project may also benefit from the [internal dogfooding process]
 #### References
 
 - [Direction - No-Code and Low-Code](https://about.gitlab.com/direction/create/nolowcode)
-- Low-code Platform Integration - Ideation (https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/3)
+- [Low-code Platform Integration - Ideation](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/3)
 
 #### Glossary
 
