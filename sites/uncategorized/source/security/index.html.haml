@@ -1,0 +1,146 @@
+---
+layout: feature-kubernetes
+title: GitLab Trust Center
+description: At GitLab, we're committed to Information Security.
+canonical_path: "/security/"
+suppress_header: true
+extra_css:
+  - gitlab-feature-landing-page.css
+  - security-trust.css
+extra_js:
+  - all-clickable.js
+---
+
+.wrapper.gitlab-ee-page
+  .image-title
+    .color-bg
+      %div
+        %h1 GitLab Trust Center
+        -#%a.btn.btn-lg.btn-white{ href: "https://docs.gitlab.com/ee/integration/jira/", target: "_blank" } Documentation
+  .sub-wrapper
+    .container
+      .row.advantages
+        .col-xs-12.col-md-10.col-md-offset-1
+          %p.security-trust-intro
+            %strong At GitLab, we're committed to Information Security.
+            It's our mission to be the leading example in security, innovation, and transparency.
+
+      %hr.divider/
+
+      .row.text-center
+        .col-md-10.col-md-offset-1
+
+          %h2 Compliance at GitLab
+
+          %p.security-trust-sub-text #{link_to 'We take compliance seriously', 'https://about.gitlab.com/handbook/security/security-assurance/security-compliance/sec-controls.html'}, because we know how much security, privacy and accessibility matters to our customers and stakeholders. 
+          
+          %p.security-trust-sub-text 
+            %strong For detailed information on our Security and Compliance posture, see our #{link_to 'Customer Assurance Package', 'https://about.gitlab.com/security/cap/'}. 
+
+      .row
+        .col-md-5.col-md-offset-1
+          .panel.panel-default.panel-margin
+            .panel-heading
+              %h3.panel-title SOC Certification
+            .panel-body
+              %div.security-trust-logo
+                %img(src="/images/risk-and-field-security/SOC_NonCPA.jpg")
+              %p.overview
+                GitLab maintains #{link_to 'SOC 2 Type 2 and SOC 3', 'https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/serviceorganization-smanagement.html'} reports for the Security and Confidentiality Trust Services Criteria for the GitLab software-as-a-service (SaaS) platform.
+  
+        .col-md-5.col
+          .panel.panel-default.panel-margin
+            .panel-heading
+              %h3.panel-title ISO/IEC 27001:2013 Certification
+            .panel-body
+              %div.security-trust-logo
+                %img(src="/images/risk-and-field-security/ISO_27001_Logo.png")
+              %p.overview
+                GitLab maintains #{link_to 'ISO/IEC 27001:2013', 'https://www.schellman.com/certificate-directory?certificateNumber=1652216-1'} certification for the information security management system supporting the GitLab software-as-a-service (SaaS) platform.
+
+      .row
+        .col-md-5.col-md-offset-1
+          .panel.panel-default.panel-margin
+            .panel-heading
+              %h3.panel-title VPAT Compliance
+            .panel-body
+              %div.security-trust-logo
+                %img(src="/images/risk-and-field-security/vpat.jpg")
+              %p.overview
+                GitLab's #{link_to 'Accessibility Conformance Report', 'https://design.gitlab.com/accessibility/vpat'} shows our commitment to maintaining a product where everyone can contribute.
+
+        .col-md-5
+          .panel.panel-default.panel-margin
+            .panel-heading
+              %h3.panel-title GDPR Compliance
+            .panel-body
+              %div.security-trust-logo
+                %img(src="/images/risk-and-field-security/gdpr.jpg")
+              %p.overview
+                GitLab is compliant with #{link_to 'GDPR requirements', '/privacy/privacy-compliance/'}.
+
+      .row
+        .col-md-5.col-md-offset-1
+          .panel.panel-default.panel-margin
+            .panel-heading
+              %h3.panel-title Bitsight Security Rating
+            .panel-body
+              %div.security-trust-logo
+                %img(src="/images/risk-and-field-security/BitSight_Logo_Tagline.png")
+              %p.overview
+                GitLab maintains an advanced #{link_to 'Bitsight security rating', 'https://about.gitlab.com/blog/2020/12/18/how-gitlab-uses-third-party-security-ratings-to-build-customer-confidence/'} for our production environment.
+
+        .col-md-5
+          .panel.panel-default.panel-margin
+            .panel-heading
+              %h3.panel-title CSA Trusted Cloud Provider
+            .panel-body
+              %div.security-trust-logo
+                %img(src="/images/risk-and-field-security/CSA_Trusted_Cloud_Provider_badge.png")
+              %p.overview
+                GitLab is a #{link_to 'Cloud Security Alliance (CSA) Trusted Cloud Provider', 'https://cloudsecurityalliance.org/star/registry/gitlab/'}. 
+
+.row.security-trust-card-group
+  .card.security-trust-card
+    .card-body.security-trust-card-body
+      %h4.card-title.security-trust-title Security
+      %p.card-text
+        %ul.security-trust-list
+          %li #{link_to 'Frequently asked questions (FAQs)', '/security/faq/'}
+          %li #{link_to 'Our security practices', 'https://about.gitlab.com/handbook/security/'}
+          %li #{link_to 'Best practices for securing your GitLab instance', 'https://about.gitlab.com/blog/2020/05/20/gitlab-instance-security-best-practices/'}
+          %li #{link_to 'Security blog', 'https://about.gitlab.com/blog/categories/security/'}
+          %li #{link_to 'Security department overview', 'https://about.gitlab.com/handbook/security/'}
+
+  .card.security-trust-card
+    .card-body.security-trust-card-body
+      %h4.card-title.security-trust-title Privacy
+      %p.card-text
+        %ul.security-trust-list
+          %li #{link_to 'Frequently asked questions (FAQs)', '/privacy/2021-update-faq/'}
+          %li #{link_to 'Privacy policy', '/privacy/'}
+          %li #{link_to 'Personal data requests', 'https://about.gitlab.com/handbook/gdpr/'}
+          %li #{link_to 'Responsible disclosure policy', '/security/disclosure/'}
+          %li #{link_to 'GitLab privacy processes', 'https://about.gitlab.com/handbook/legal/privacy/'}
+
+  .card.security-trust-card
+    .card-body.security-trust-card-body
+      %h4.card-title.security-trust-title Availability
+      %p.card-text
+        %ul.security-trust-list
+          %li #{link_to 'Frequently asked questions (FAQs)', 'https://about.gitlab.com/handbook/engineering/infrastructure/faq/'}
+          %li #{link_to 'Monitoring of GitLab.com', 'https://about.gitlab.com/handbook/engineering/monitoring/'}
+          %li #{link_to 'GitLab.com production architecture', 'https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/'}
+          %li #{link_to 'GitLab releases', 'https://about.gitlab.com/releases/'}
+          %li #{link_to 'Infrastructure department overview', 'https://about.gitlab.com/handbook/engineering/infrastructure/'}
+
+.row.text-center
+  .col-md-10.col-md-offset-1
+    = link_to "Contact our Security Team", "mailto:customer-assurance@gitlab.com", class: "btn cta-btn accent"
+    
+.row.text-center
+  .col-md-10.col-md-offset-1
+    %p
+      %br>/
+      To sign up for Security Notices, visit the
+      %a{:href => "https://about.gitlab.com/company/contact/"} Sign up for security notices

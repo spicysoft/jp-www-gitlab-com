@@ -84,7 +84,7 @@ Visit the [Solutions GTM handbook page](/handbook/marketing/strategic-marketing/
 ## Help with RFPs
 
 - [RFP Archive](https://drive.google.com/drive/u/0/folders/0B0JubjRNovkvNVJTVmNJdXJNZEk)
-- [Request for SOC2 Type 2 Compliance Report](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/certifications.html#requesting-a-copy-of-the-gitlab-soc2-type-2-report)
+- [Request for SOC2 Type 2 Compliance Report](https://about.gitlab.com/handbook/security/security-assurance/security-compliance/certifications.html#requesting-a-copy-of-the-gitlab-soc2-type-2-report)
 - [GitLab's publicly available SOC 3 report](https://about.gitlab.com/security/cap/)
 
 ## GitLab by the Stages

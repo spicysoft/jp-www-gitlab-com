@@ -7,7 +7,7 @@ canonical_path: "/security/disclosure/"
 
 ## Reporting a Vulnerability about GitLab or GitLab.com
 
-Please report any security vulnerabilities in GitLab itself via our [HackerOne](https://hackerone.com/gitlab) bug bounty program. If you do not desire to use HackerOne or if your finding is out of scope of the bug bounty program but you believe it's important to communicate it to us our next preferred method is to have you create a confidential issue following the instructions in our [handbook](https://about.gitlab.com/handbook/engineering/security/#creating-new-security-issues). Please refrain from requesting compensation for reporting vulnerabilities.
+Please report any security vulnerabilities in GitLab itself via our [HackerOne](https://hackerone.com/gitlab) bug bounty program. If you do not desire to use HackerOne or if your finding is out of scope of the bug bounty program but you believe it's important to communicate it to us our next preferred method is to have you create a confidential issue following the instructions in our [handbook](https://about.gitlab.com/handbook/security/#creating-new-security-issues). Please refrain from requesting compensation for reporting vulnerabilities.
 
 If you are looking to discover vulnerabilities in GitLab, please see our [HackerOne bug bounty policy](https://hackerone.com/gitlab?type=team) for details on rules of engagement, scope, and additional information. 
 
@@ -28,7 +28,7 @@ how to request a CVE for a public project hosted on GitLab.com.
 
 ## Red Team Rules of Engagement
 
-If you want to conduct red teaming against GitLab you will need written permission upfront. Customers can [contact Support](https://about.gitlab.com/support/) or [the Field Security team](/handbook/engineering/security/security-assurance/field-security/answerbase.html#contact-the-field-security-team).
+If you want to conduct red teaming against GitLab you will need written permission upfront. Customers can [contact Support](https://about.gitlab.com/support/) or [the Field Security team](/handbook/security/security-assurance/field-security/answerbase.html#contact-the-field-security-team).
 
 You need to get a written authorization letter from our Directory of Security.
 While you are engaged in red teaming activities you should coordinate with the Security Team so escalation (law enforcement, etc.) can be avoided.

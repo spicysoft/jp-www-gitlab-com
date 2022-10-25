@@ -107,16 +107,19 @@ For a very specific set of [internal](/handbook/communication/confidentiality-le
   * [Incubation Engineering Department](/handbook/engineering/incubation/)
   * [Infrastructure Department](/handbook/engineering/infrastructure/)
   * [Quality Department](/handbook/engineering/quality/)
-  * [Security Department](/handbook/engineering/security/)
-      * [Security Engineering](/handbook/engineering/security/#secure-the-product--security-engineering)
-      * [Security Operations](/handbook/engineering/security/security-operations/)
-      * [Threat Management](/handbook/engineering/security/threat-management/)
-      * [Security Assurance](/handbook/engineering/security/security-assurance/)
   * [UX Department](/handbook/product/ux/)
     * [Technical Writing](/handbook/product/ux/technical-writing/)
     * [UX Research](/handbook/product/ux/ux-research/)
   * [Security Practices](/handbook/security/)
   * [Open Source](/handbook/engineering/open-source/)
+
+## Security
+
+* [Security](/handbook/security/)
+  * [Security Engineering](/handbook/security/#secure-the-product--security-engineering)
+  * [Security Operations](/handbook/security/security-operations/)
+  * [Threat Management](/handbook/security/threat-management/)
+  * [Security Assurance](/handbook/security/security-assurance/)
 
 ## Marketing
 

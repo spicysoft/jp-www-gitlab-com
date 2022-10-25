@@ -28,7 +28,7 @@ A number of issues are intentionally confidential despite our value of transpare
 
 - [Issue List](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name%5B%5D=pipeline+abuse+prevention)
 
-For specific information related to spam and abuse reduction intiatives, check out [Trust and Safety](https://about.gitlab.com/handbook/engineering/security/security-operations/trustandsafety/).
+For specific information related to spam and abuse reduction intiatives, check out [Trust and Safety](https://about.gitlab.com/handbook/security/security-operations/trustandsafety/).
 
 ## Stable counterparts in Pipeline Abuse Prevention
 
