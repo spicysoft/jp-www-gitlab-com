@@ -32,7 +32,7 @@ projects:
   - reviewer database
   - reviewer backend
   security-report-schemas:
-  - trainee_maintainer backend
+  - trainee_maintainer
 domain_expertise:
 - rails
 - govern

@@ -15,7 +15,7 @@ projects:
   - maintainer backend
   - reviewer backend
   security-report-schemas:
-  - trainee_maintainer backend
+  - trainee_maintainer
 domain_expertise:
 - ruby
 - rails

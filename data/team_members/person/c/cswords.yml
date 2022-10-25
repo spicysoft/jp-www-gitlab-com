@@ -14,7 +14,7 @@ departments:
 - Secure:Dynamic Analysis BE Team
 projects:
   secure-dast: maintainer
-  security-report-schemas: maintainer backend
+  security-report-schemas: maintainer
   secure-browser-based-dast: maintainer
 story: |
   Cam is a curious software engineer who enjoys writing software that people love to use.

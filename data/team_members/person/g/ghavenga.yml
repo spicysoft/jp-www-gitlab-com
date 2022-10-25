@@ -24,7 +24,7 @@ projects:
   gitlab:
   - reviewer backend
   security-report-schemas:
-  - reviewer backend
+  - reviewer
 expertise:
 - ruby
 - rails
