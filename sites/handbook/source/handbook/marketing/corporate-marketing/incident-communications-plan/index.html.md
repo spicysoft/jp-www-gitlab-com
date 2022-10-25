@@ -9,7 +9,7 @@ description: 'Escalations, Processes, and How to Manage Incidents'
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-### If you need review from the corporate communications team on a potential incident, gather information in an issue or link us to the Slack discussion by message the team in the #corpcomms Slack channel and we'll work with the [Security Communication Manager on Call](/handbook/engineering/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident) to determine next steps.
+### If you need review from the corporate communications team on a potential incident, gather information in an issue or link us to the Slack discussion by message the team in the #corpcomms Slack channel and we'll work with the [Security Communication Manager on Call](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident) to determine next steps.
 
 ## Incident Communication Plan
 
@@ -24,7 +24,7 @@ When determining the need for communication escalation, it is important to first
 
 #### Tier 4 - Event
 
-A Tier 4 event is something we already have a process for like a [security incident](/handbook/engineering/security/security-operations/sirt/sec-incident-response.html) or a customer support request via Zendesk. In the case of a Tier 4, please follow the established company process.
+A Tier 4 event is something we already have a process for like a [security incident](/handbook/security/security-operations/sirt/sec-incident-response.html) or a customer support request via Zendesk. In the case of a Tier 4, please follow the established company process.
 
 #### Tier 3 - Rapid Response
 

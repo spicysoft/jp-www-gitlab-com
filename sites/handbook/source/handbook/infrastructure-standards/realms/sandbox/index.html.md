@@ -85,13 +85,13 @@ Self-service creation and IAM management is not available yet for end users in H
 
 ##### Product Related
 
-For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel. 
+For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](https://about.gitlab.com/handbook/security/data-classification-standard.html#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel. 
 
 Most environments are typically created in the [config-mgmt project](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) using the [Create a new environment](https://gitlab.com/gitlab-com/gl-infra/config-mgmt/#creating-a-new-environment) instructions.
 
 You can learn more about GitLab.com SaaS on the [Production Architecture](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/) handbook page.
 
-Any projects with [yellow or green](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html#data-classification-levels) data usually are better suited for self management using [Group Projects](#groupteam-aws-account-or-gcp-project-non-production) using [Infrastructure Standards](https://about.gitlab.com/handbook/infrastructure-standards) guidelines.
+Any projects with [yellow or green](https://about.gitlab.com/handbook/security/data-classification-standard.html#data-classification-levels) data usually are better suited for self management using [Group Projects](#groupteam-aws-account-or-gcp-project-non-production) using [Infrastructure Standards](https://about.gitlab.com/handbook/infrastructure-standards) guidelines.
 
 ##### Business Related
 
@@ -99,7 +99,7 @@ For any infrastructure services related to business operations and our tech stac
 
 New SaaS applications should go through the [Procurement Process](https://about.gitlab.com/handbook/finance/procurement/) and are managed by the respective department's [system owners](https://about.gitlab.com/handbook/business-technology/#cross-department-system-owners). 
 
-Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](https://about.gitlab.com/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](https://about.gitlab.com/handbook/engineering/security/architecture/), [Infrastructure Security](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/infrastructure-security/), [Application Security](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/), and [3rd Party Risk](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-risk/third-party-risk-management.html). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
+Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](https://about.gitlab.com/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](https://about.gitlab.com/handbook/security/architecture/), [Infrastructure Security](https://about.gitlab.com/handbook/security/security-engineering-and-research/infrastructure-security/), [Application Security](https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/), and [3rd Party Risk](https://about.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management.html). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
 
 #### Accessing your AWS Account
 

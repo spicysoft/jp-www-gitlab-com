@@ -1286,7 +1286,7 @@ static_application_security_testing:
   ux_scorecard_link: https://gitlab.com/gitlab-org/gitlab-design/-/issues/400
   ux_scorecard_score: D
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
   competitors:
     github:
       maturity: complete
@@ -1319,7 +1319,7 @@ secret_detection:
   marketing: true
   priority_level: medium
   dogfooding_status: Limited
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
   competitors:
     github:
       maturity: lovable
@@ -1346,7 +1346,7 @@ code_quality:
   maturity: minimal
   marketing: true
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 dynamic_application_security_testing:
   name: "DAST"
@@ -1449,7 +1449,7 @@ dependency_scanning:
   ux_scorecard_link: https://gitlab.com/groups/gitlab-org/-/epics/2396
   ux_scorecard_score: F
   dogfooding_status: limited
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 container_scanning:
   name: "Container Scanning"
@@ -1466,7 +1466,7 @@ container_scanning:
   marketing: true
   priority_level: medium
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 license_compliance:
   name: "License Compliance"
@@ -1514,7 +1514,7 @@ advisory_database:
   marketing: false
   priority_level: high
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 security_benchmarking:
   name: Security Benchmarking
@@ -1530,7 +1530,7 @@ security_benchmarking:
   maturity:
   marketing: false
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 attack_emulation:
   name: Attack Emulation
@@ -1634,7 +1634,7 @@ vulnerability_management:
   ux_scorecard_link: https://gitlab.com/gitlab-org/gitlab-design/-/issues/401
   ux_scorecard_score: D
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
   feature_labels:
     - security dashboard
     - security reports
