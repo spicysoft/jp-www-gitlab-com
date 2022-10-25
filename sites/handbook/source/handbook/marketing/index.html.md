@@ -1,7 +1,7 @@
 ---
 layout: handbook-page-toc
 title: "Marketing"
-description: "GitLab Marketing Handbook: Social Media, Corporate Marketing, Revenue Marketing, Sales Development, Community Relations and Portfolio Marketing"
+description: "GitLab Marketing Handbook: Product Marketing, Integrated Marketing, Sales Development, Marketing Strategy and Platforms, Community Relations, and Corporate Communications"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
@@ -17,7 +17,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 {: .no_toc}
 
-The GitLab Marketing team includes multiple Departments organized as: Product Marketing, Integrated Marketing, Sales Development, Marketing Strategy and Operations, and Community Relations. This page documents shared team practices and processes, while the [individual team handbooks](/handbook/marketing/#marketing-handbooks) contain more detailed information about each sub-team.
+The GitLab Marketing team includes multiple Departments organized as: [Product Marketing](/handbook/marketing/#product-marketing), [Integrated Marketing](/handbook/marketing/#integrated-marketing), [Sales Development](/handbook/marketing/#sales-development), [Marketing Strategy and Platforms](/handbook/marketing/#marketing-strategy-and-platforms), [Community Relations](/handbook/marketing/#community-relations), and [Corporate Communications](/handbook/marketing/#corporate-communications). This page documents shared team practices and processes, while the individual team handbooks contain more detailed information about each sub-team.
 
 ## Marketing OKRs
 Each quarter, the Marketing team creates OKRs (Objectives and Key Results) in Ally that cascade from the [CEO's OKRs](/company/okrs/#most-recent-okrs). 
@@ -209,7 +209,7 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 
 {: #email}
 
-- Analysts@ company domain: external email address for contacting Analyst Relations at GitLab. Replies are forwarded to Analyst Relations manager and VP Product and Portfolio Marketing
+- Analysts@ company domain: external email address for contacting Analyst Relations at GitLab. Replies are forwarded to Analyst Relations manager and VP Product and Product Marketing
 - Community@ company domain: external email address for sending confirmation emails related to GitLab products. Replies are forwarded to Zen Desk support
 - Content@ company domain: external email address associated with management of our SlideShare account. Replies are forwarded to Content Marketing team and Marketing OPS Manager
 - Events@ company domain: external email address for sending live, VIP & in-person training related emails. Replies go to Field Marketing Managers and Marketing OPS Manager
@@ -312,7 +312,7 @@ When working remotely in a fast-paced organization, it is important for a team t
   <a href="https://docs.gitlab.com/ee/university/">
     <div class="col-sm-6 col-md-3 mkt-box">
       <div class="thumbnail product">
-        <img src="/images/icons/training.png" alt="GitLab Marketing - Portfolio Marketing - Icon">
+        <img src="/images/icons/training.png" alt="GitLab Marketing - Product Marketing - Icon">
         <div class="caption">
           <p class="center description">
             <h4 class="orange">UNIVERSITY</h4>
@@ -326,11 +326,45 @@ When working remotely in a fast-paced organization, it is important for a team t
 <!-- END OF MARKETING PRODUCTS -->
 
 
-# <i class="fas fa-users fa-fw color-orange font-awesome"></i> Marketing Team Functional Groups
+# <i class="fas fa-users fa-fw color-orange font-awesome"></i> Marketing Departments
 
 {: #groups}
 
-### Sales Development Organization
+### Product Marketing
+
+Product marketing is GitLab's interface to the market. The market is made up of customers, analysts, press, thought leaders, competitors, etc. Product marketing enables other GitLab groups such as Sales, Marketing, and Channel with narrative, positioning, messaging, and go-to-market strategy to go outbound to the market. Product marketing does market research to gather customer knowledge, analyst views, market landscapes, and competitor intelligence providing marketing insights inbound to the Product org and the rest of GitLab.
+
+[Handbook][Product Marketing]{:.btn .btn-purple}
+
+#### Handbook Links
+{: .no_toc}
+
+- [Global Content]
+  - [Editorial]
+
+### Integrated Marketing
+
+Integrated Marketing consists of the Account Based Strategy, Alliances Marketing, Channel Marketing, Marketing Campaigns, Digital Marketing Programs, and Field Marketing teams.
+
+[Handbook][Product Marketing]{:.btn .btn-purple}
+
+#### Handbook Links
+{: .no_toc}
+
+- [Field Marketing](/handbook/marketing/field-marketing/)
+- [Account Based Strategy](/handbook/marketing/account-based-marketing/)
+- [Digital Marketing Programs](/handbook/marketing/demand-generation/digital-marketing/)
+- [Marketing Programs]
+- [Campaigns](/handbook/marketing/demand-generation/campaigns/)
+- [Partner & Channel Marketing](/handbook/marketing/strategic-marketing/partner-marketing/)
+- Channel Marketing
+- Alliances Marketing 
+- [Social Marketing]
+- [Team Member Social Media Policy]
+- [Events]
+- [Inbound Marketing](/handbook/marketing/inbound-marketing/)
+
+### Sales Development
 
 Business Development Representatives (BDRs) and Sales Development Representatives (SDRs) focus on serving the needs of prospective customers' during the beginning of their buying process. When prospective customers have questions about GitLab, the SDRs assist them or connect them to a technical team member as needed. During the initial exploration if the prospective customer is interested in continuing their exploration of GitLab, SDRs will connect them to an Account Executive (AE) or Strategic Account Leader (SAL).
 
@@ -340,50 +374,18 @@ BDRs contact people who work at large organizations to uncover or create early s
 
 [Handbook][Sales Development Organization]{:.btn .btn-purple}
 
-### Field Marketing
+### Marketing Strategy and Platforms
 
+Marketing Strategy and Platforms focuses on enabling the GitLab marketing organization with marketing technology, process, enablement and insights. They are responsible for evaluating, deploying and administering marketing systems, documenting and improving administrative processes, and analyzing our marketing data to ensure marketers are held accountable to continuously improving their work.
+
+[Handbook][Marketing Strategy and Platforms]{:.btn .btn-purple}
+
+#### Handbook Links
 {: .no_toc}
 
-Field marketers focus on understanding the specific needs of the geographic regions where GitLab operates. They manage marketing activities, such as events and sponsorships, tailored to the needs of the region where the activity takes place.
-
-[Position Description](/job-families/marketing/field-marketing-manager){:.btn .btn-purple-inv}
-
-[Handbook][Field Marketing]{:.btn .btn-purple}
-
-### Marketing Operations
-
-{: .no_toc}
-
-Marketing operations focuses on enabling the GitLab marketing organization with marketing technology, process, enablement and insights. They are responsible for evaluating, deploying and administering marketing systems, documenting and improving administrative processes, and analyzing our marketing data to ensure marketers are held accountable to continuously improving their work. Marketing Operations owns the tech stack used by Marketing.
-
-[Position Description](/job-families/marketing/marketing-operations-manager/){:.btn .btn-purple-inv}
-
-[Handbook][Marketing Operations]{:.btn .btn-purple}
-
-### Corporate Marketing
-
-Corporate Marketing is responsible for PR/communications, the stewardship of the GitLab brand, corporate events and the company-level messaging/positioning.  Corporate Marketing creates global marketing materials and communications and supports the field marketing teams so they can execute regionally while staying true to the GitLab brand.
-
-[Position Description](/job-families/marketing/corporate-events-manager/){:.btn .btn-purple-inv}
-
-[Handbook][Corporate Marketing]{:.btn .btn-purple}
-
-### Digital Experience
-
-{: .no_toc}
-
-Digital Experience is repsonsible for the overall website strategy, design, and peformance on about.gitlab.com. Our primary conversion rates on `about.gitlab.com`.
-
-[Handbook][Digital Experience]{:.btn .btn-purple}
-
-
-### Demand Generation
-
-{: .no_toc}
-
-Demand Generation includes the [Campaigns Team](/handbook/marketing/demand-generation/campaigns/), [Digital Marketing](/handbook/marketing/demand-generation/digital-marketing/), and [Partner & Channel Marketing](/handbook/marketing/strategic-marketing/partner-marketing/). The Demand Gen team collaborates across marketing to plan, execute, and optimize integrated campaigns aligned to GTM Motions.
-
-[Handbook][Demand Generation]{:.btn .btn-purple}
+- [Digital Experience](/handbook/marketing/digital-experience)
+- [Marketing Operations]
+- [Emergency Response]
 
 ### Community Relations
 
@@ -403,46 +405,21 @@ Community Relations includes community advocacy, code contributor program and ev
 
 [Handbook][Community Relations]{:.btn .btn-purple}
 
-### Portfolio Marketing
+#### Handbook Links
+{: .no_toc}
 
-Portfolio marketing is GitLab's interface to the market. The market is made up of customers, analysts, press, thought leaders, competitors, etc. Portfolio marketing enables other GitLab groups such as Sales, Marketing, and Channel with narrative, positioning, messaging, and go-to-market strategy to go outbound to the market. Portfolio marketing does market research to gather customer knowledge, analyst views, market landscapes, and competitor intelligence providing marketing insights inbound to the Product org and the rest of GitLab.
+- [Code Contributor Program]
+- [Evangelist Program]
+- [Education Program]
+- [Open Source Program]
+- [Developer Evangelism](/handbook/marketing/community-relations/developer-evangelism/)
 
-[Handbook][Portfolio Marketing]{:.btn .btn-purple}
+### Corporate Communications
+The mission of GitLab’s Corporate Communications team is to amplify GitLab's product, people and partnerships in the media, via social media channels and through award wins. This team is responsible for global public relations (PR), social media, and executive communications (speaking). 
 
-## Marketing Handbooks
+[Handbook][Corporate Communications]{:.btn .btn-purple}
 
-{: #marketing-handbooks}
-
-- [Integrated Marketing](/handbook/marketing/integrated-marketing/)
-    - [Field Marketing](/handbook/marketing/field-marketing/)
-    - [Account Based Strategy](/handbook/marketing/account-based-marketing/)
-    - [Digital Marketing Programs]
-    - [Marketing Programs]
-    - [Campaigns]
-    - Channel Marketing
-    - Alliances Marketing 
-    
-- [Sales Development Organization]
-- [Marketing Operations]
-    - [Emergency Response]
-- [Corporate Marketing]
-    - [Social Marketing]
-    - [Team Member Social Media Policy]
-    - [Events]
-- [Community Relations]
-    - [Code Contributor Program]
-    - [Evangelist Program]
-    - [Education Program]
-    - [Open Source Program]
-    - [Developer Evangelism](/handbook/marketing/community-relations/developer-evangelism/)
-- [Portfolio Marketing]
-- [Digital Experience](/handbook/marketing/digital-experience)
-- [Inbound Marketing](/handbook/marketing/inbound-marketing/)
-    - [Global Content]
-        - [Editorial]
-- [Marketing Career Development]
-
-### Marketing Handbook Updates
+## Marketing Handbook Updates
 
 {: #handbook}
 
@@ -612,7 +589,7 @@ Each week on Monday, any open MRs and issues still assigned to the previous week
 1. Labels should be created at the **group** level so they can be used in all projects within Marketing group.
     - Labels **should not** be duplicated in individual projects. It creates board/tracking conflicts.
 1. The following are the approved marketing projects, CMO approval is needed to begin a new project.
-    - [Portfolio Marketing](https://gitlab.com/gitlab-com/marketing/strategic-marketing) (includes PMM, TMM, and Market Insights)
+    - [Product Marketing](https://gitlab.com/gitlab-com/marketing/strategic-marketing) (includes PMM, TMM, and Market Insights)
     - [Community Relations](https://gitlab.com/gitlab-com/marketing/community-relations)
     - [Digital Marketing Programs](https://gitlab.com/gitlab-com/marketing/demand-generation/digital-marketing)
     - [Demand Generation](https://gitlab.com/gitlab-com/marketing/demand-generation)
@@ -807,8 +784,10 @@ Get to know the people who work in GitLab's marketing team by visiting our [READ
 <!-- HANDBOOKS -->
 [Blog]: /handbook/marketing/blog/
 [Website]: /handbook/marketing/digital-experience/website/
+[Corporate Communications]: /handbook/marketing/corporate-marketing/corporate-communications/
 [Campaigns]: /handbook/marketing/campaigns/
 [Inbound Marketing]: /handbook/marketing/inbound-marketing/
+[Integrated Marketing]: /handbook/marketing/integrated-marketing/
 [Digital Experience]: /handbook/marketing/digital-experience/
 [Global Content]: /handbook/marketing/inbound-marketing/content/
 [Editorial]: /handbook/marketing/inbound-marketing/content/editorial-team/
@@ -824,12 +803,13 @@ Get to know the people who work in GitLab's marketing team by visiting our [READ
 [Account Based Marketing]: /handbook/marketing/account-based-marketing/
 [Revenue Marketing]: /handbook/marketing/revenue-marketing/
 [Marketing Programs]: /handbook/marketing/
+[Marketing Strategy and Platforms](/handbook/marketing/marketing-strategy-and-platforms/)
 [Marketing Operations]: /handbook/marketing/marketing-operations/
 [Digital Marketing Programs]: /handbook/marketing/demand-generation/digital-marketing/
 [Demand Generation]: /handbook/marketing/demand-generation/
 [Campaigns Team]: /handbook/marketing/demand-generation/campaigns/
 [Partner Marketing]: /handbook/marketing/strategic-marketing/partner-marketing/
-[Portfolio Marketing]: /handbook/marketing/strategic-marketing/
+[Product Marketing]: /handbook/marketing/strategic-marketing/
 [Business Operations]: /handbook/business-ops/
 [Sales Development Organization]: /handbook/marketing/revenue-marketing/sdr/
 [Outbound SDR]: /handbook/marketing/revenue-marketing/sdr/#how-to-sdr
