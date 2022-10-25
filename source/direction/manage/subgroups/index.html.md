@@ -10,7 +10,7 @@ canonical_path: "/direction/manage/subgroups/"
 
 | **Stage** | Group | **Maturity** | **Content Last Reviewed** |
 | --- | --- | --- | -- |
-| [Manage](/direction/manage/) | [Workspace](https://about.gitlab.com/handbook/product/categories/#workspace-group) | [Complete](/direction/maturity/) | `2022-09-15` |
+| [Manage](/direction/manage/) | [Workspace](https://about.gitlab.com/handbook/product/categories/#workspace-group) | [Complete](/direction/maturity/) | `2022-10-25` |
 
 ## Introduction and how you can help
 Thanks for visiting this category page on Subgroups in GitLab. This vision and direction is a work in progress and sharing your feedback directly on issues and epics on GitLab.com is the best way to contribute.
