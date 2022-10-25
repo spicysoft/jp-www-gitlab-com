@@ -4353,6 +4353,20 @@ features:
     pps_recent: 2
     pricing_theme: "Release controls"
 
+  - title : "Group sharing"
+    description: "Share projects with other groups."
+    link_description: "Learn more about group sharing"
+    link: https://docs.gitlab.com/ee/user/project/members/share_project_with_groups.html
+    category:
+      - subgroups
+    gitlab_com: true
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "Restrict SSH Keys"
     description: "Control the technology and key length of SSH keys used to access GitLab"
     link_description: "View the administration documentation"
@@ -5035,7 +5049,7 @@ features:
     link: '/features/subgroups/'
     link_description: "Learn more about Subgroups"
     category:
-      - unknown
+      - subgroups
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
