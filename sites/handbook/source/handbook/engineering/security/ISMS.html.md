@@ -25,15 +25,15 @@ Inline with GitLab's regulatory obligations, changes to [controlled documents](h
 GitLab has adopted the ISO/IEC 27001:2013, ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
 
 ## Scope
-The scope of GitLab's ISMS is limited to the resources that directly support GitLab SaaS applications.
+The scope of GitLab's ISMS is limited to the production resources that directly support GitLab SaaS applications.
 
 #### Assets
 Assets within the scope of the ISMS include: customer data, software, people, and internal information assets to host and operate the cloud-based solution.
 
-External assets that are subject to shared responsiblity include cloud service providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, physical infrastructure assets and management, processes that run on a multi-tenant virtualized environment, cloud service administration as it supports internal administration, geographical location.
+External assets that are subject to shared responsiblity include cloud service providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, infrastructure assets management, processes that run on a multi-tenant virtualized environment, and cloud service administration.
 
 #### Excluded from Scope
-As an all remote company, there are no physical office locations in the scope of the ISMS. All third party data center operations and physical hardware assets are not in scope and are managed by the third party service provider.
+As an all remote company, there are no physical office locations in the scope of the ISMS. Contracted third party data center services to include physical and environmental controls are not in scope and are managed by the third party service providers.
 
 #### Locations
 GitLab's headquarter mailing address is in scope and covers all sub organizations. Please note this is a mailing address only, there is no physical location to visit:
@@ -50,9 +50,14 @@ Business functions included in the scope of the ISMS include:
 - Legal - Senior Director, Contracts and Legal Operations; Director of Legal, Privacy and Product
 
 ### Interested Parties
+This ISMS governs GitLab security operations. Interested parties include:
+
 - Customers
-- Team Members
+   - Require GitLab to operate according to this ISMS to protect their information
 - Shareholders/owners of the business
+   - Require GitLab to operate in a secure manner to maintain a sustainable business
+- Team Members
+   - GitLab requires Team Members to operate in a secure manner as defined by this ISMS. Require GitLab to operate in a secure manner to maintain services and provide continued employment
 
 ## ISMS Roles and Responsibilities
 
