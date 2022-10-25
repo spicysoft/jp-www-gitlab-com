@@ -31,13 +31,13 @@ projects:
   secure-SAST-kubesec: maintainer backend
   secure-SAST-mobsf: maintainer backend
   secure-SAST-pmd-apex: maintainer backend
-  secure-SAST-semgrep: maintainer backend
+  secure-SAST-semgrep: maintainer
   secure-SAST-sobelow: maintainer backend
   secure-SAST-spotbugs: maintainer backend
-  secure-SAST-tracking-calculator: maintainer backend
-  secure-SD-secrets: maintainer backend
+  secure-SAST-tracking-calculator: maintainer
+  secure-SD-secrets: maintainer
   sec-danger-bot: maintainer backend
-  security-report-schemas: maintainer backend
+  security-report-schemas: maintainer
 pronouns: he/him
 pronunciation: <a href="http://ipa-reader.xyz/?text=%CB%88lu.k%C9%90s%20t%CA%83%C9%91%C9%B9lz">/ˈlu.kɐs
   tʃɑɹlz/ (audio link)</a>
