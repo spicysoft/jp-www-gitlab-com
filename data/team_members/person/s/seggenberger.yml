@@ -1,3 +1,4 @@
+---
 name: Sascha Eggenberger
 locality:
 country: Remote
@@ -10,16 +11,18 @@ twitter: saschaeggi
 linkedin: saschaeggenberger
 gitlab: seggenberger
 departments:
-  - Product Team
-  - UX Department
-  - Product Design
+- Product Team
+- UX Department
+- Product Design
 expertise:
-story: Sascha has created several award-winning user-centric experiences.
-  He loves to code and contribute to Open Source, where he is a lead designer for the Drupal Admin UI.
-  When he's not working, he enjoys running, hiking & skiing.
+story: Sascha has created several award-winning user-centric experiences. He loves
+  to code and contribute to Open Source, where he is a lead designer for the Drupal
+  Admin UI. When he's not working, he enjoys running, hiking & skiing.
 projects:
   gitlab: reviewer UX
   gitlab-design: maintainer
   design.gitlab.com: maintainer Figma
 specialty:
-- 'Manage: Foundations'
+- 'Manage: Compliance'
+- " Manage: Foundations"
+
