@@ -140,13 +140,20 @@ The product will be made available to customers over the course of the following
 
 #### Limited Availability
 
-GitLab Dedicated was launched in Limited Availability (LA) with select customers at the end of Q1 FY23.
+GitLab Dedicated is available in Limited Availability (LA) today.
 
-The goal of this phase is to be able to operate a small set of paid, production-level instances for select customers. Compared to Beta, Limited Availability delivers the availability, scalability, performance, security, and durability that customers need in a production environment.
+The primary goal of this phase is to gain operational experience with a small set of paid, production instances for customers. During this time, improvements to the service will be made to prepare for increased scale, as well as establishing the core foundation required for customers to utilize the service.
+Criteria for exiting Limited Availability and entering General Availability: 
+
+- Items from [What's Next and Why](https://about.gitlab.com/direction/saas-platforms/dedicated/#whats-next--why) in product.
+- 100% automated configuration changes, provisioning of new instances, and version updates.
+- Minimum seat count of 1000 or below.
 
 #### General Availability
 
-In this phase, we plan to make the offering available to all customers who are willing to pay for it. Compared to LA, the focus in GA is on scaling the platform from a handful of early customers in specific geos to our broader customer base around the Globe.
+General Availability will be driven by the ability of Dedicated to scale to the expected demand of the service. Customers who want a production-quality Dedicated instance and are willing to pay for it will be able to get one in this phase, as opposed to LA where instances were limited to selected customers. Targeting expected demand avoids prematurely optimizing for demand significantly beyond what is projected.
+
+In line with GitLab's value of [Iteration](https://about.gitlab.com/handbook/product/product-principles/#iteration), GA will not support all GitLab features at launch, but will provide customers with an enterprise-ready solution that they can integrate into their environments.
 
 ### Prioritization Framework
 
@@ -163,7 +170,7 @@ Based on the prioritization framework, during Limited Availability we will focus
 | 1 | Security/Compliance | Attain security and third party compliance certifications and addressing findings from audits |
 | 2 | Automation | Reduce toil required to operate Dedicated platform including Switchboard (management portal for customer admins) MVC, automated restore, and Automated Version Management  |
 | 3 | Reliability | Improve SLAs - Availability, RTO, RPO, Geo, disaster recovery, failover testing |
-| 4 | Enable GitLab Functionality | Dependency proxy, Pages, advanced search |
+| 4 | Enable GitLab Functionality | Pages, advanced search, reply-by email, service desk |
 | 5 | Support Customer Config Changes |  Customers will need config changes during onboarding and weekly maintenance windows. |
 
 
