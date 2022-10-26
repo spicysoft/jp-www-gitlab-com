@@ -6,8 +6,8 @@ security_policies:
     fe_dri: zmartins
     estimated_size: "L"
     target_release: "15.6"
-  - name: "Fix Security Approvals not required when scans removed in MR"
-    url: "https://gitlab.com/gitlab-org/gitlab/-/issues/37239"
+  - name: "Make Security Approval Policies more Robust"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/9102"
     be_dri: zmartins
     fe_dri: zmartins
     estimated_size: "M"
@@ -31,6 +31,10 @@ security_policies:
     target_release: "15.8"
   - name: "Support Additional Filtering for Scan Result Policies"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/6826"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Follow-up UX enhancements for scan execution policy rule mode"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/8695"
     be_dri: ""
     fe_dri: aturinske
   - name: "Refine Policy Application Limits"
