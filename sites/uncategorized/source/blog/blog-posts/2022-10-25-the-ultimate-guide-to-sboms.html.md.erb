@@ -56,15 +56,15 @@ SBOMs are highly beneficial for DevOps teams and software consumers.
 
 For SBOMs to be fully impactful, organizations must be able to automatically generate them, connect them with application security scanning tools, integrate the vulnerabilities and licenses into a dashboard for easy comprehension and actionability, and update them continuously. GitLab supports all of these goals.
 
-Users can find [SBOM capability](/blog/2022/10/17/fast-and-efficient-sbom-with-gitlab-and-rezilion/) in the Secure Stage under the “Dependency List” page. The GitLab DevSecOps platform is comprehensive as it provides Dependency SBOM and Container SBOM insights.
+Users can find [SBOM capability](/blog/2022/10/17/fast-and-efficient-sbom-with-gitlab-and-rezilion/) in the Govern Stage under the [Dependency List page](https://docs.gitlab.com/ee/user/application_security/dependency_list/). The GitLab DevSecOps platform is comprehensive as it provides Dependency SBOM and Container SBOM insights.
 
-GitLab’s SBOM function enables DevOps teams to scan containers to find operating system, container, and package vulnerabilities in the pipeline and in production. GitLab provides auto-suggested remediations so dev and ops professionals can easily find and fix vulnerabilities. Users can create a vulnerability allow list to reduce noise. The results of the scans, including detected application and language dependencies as well as associated licenses, feed into the dependency list and can be exported. Scan results also can be viewed in GitLab’s Security Center and in Merge Requests.
+GitLab’s SBOM function enables DevOps teams to scan containers to find operating system, container, and package vulnerabilities in the pipeline and in production. GitLab provides auto-suggested remediations so dev and ops professionals can easily find and fix vulnerabilities. Users can create a vulnerability allow list to reduce noise. The results of the scans, including detected application and language dependencies as well as associated licenses, feed into the dependency list and can be exported. Scan results also can be viewed in GitLab’s [Security Center](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) and in Merge Requests.
 
 Developers are able to perform scans early and often in the build, test, and deploy process. From there, they can either dismiss vulnerabilities and add audit trail notes or triage them and then track the remediations with commits. This tight integration ensures that SBOMs can be an integral part of release verification processes.
 
 GitLab also has integrated vulnerability training into the platform so that when vulnerabilities are encountered, developers and security teams can understand the CVEs in context and how to fix them. The platform also supports creation of new policies (and compliance enforcement) based on newly detected vulnerabilities.
 
-DevOps teams who require compliance functionality (ex. [SLSA 2 framework](/releases/2022/06/22/gitlab-15-1-released/)) can use GitLab to [generate attestation for all build artifacts][(/blog/2022/08/10/securing-the-software-supply-chain-through-automated-attestation/) produced by the GitLab Runner. The process is secure because it is produced by the Runner itself with no handoff of data to an external service.
+DevOps teams who require compliance functionality (ex. [SLSA 2 framework](/releases/2022/06/22/gitlab-15-1-released/)) can use GitLab to [generate attestation for all build artifacts](/blog/2022/08/10/securing-the-software-supply-chain-through-automated-attestation/) produced by the GitLab Runner. The process is secure because it is produced by the Runner itself with no handoff of data to an external service.
 
 ## The future of GitLab’s SBOM functionality
 
@@ -72,7 +72,7 @@ There is no doubt that as software supply chain security garners more attention,
 
 GitLab has made SBOMs an integral part of its [software supply chain direction](/direction/supply-chain/#overview) and continues to improve upon its SBOM capabilities within the DevSecOps platform, including planning new features and functionality. For instance, GitLab currently plans to have the Runner automate attestation. Also, to reduce the need for users to manage and store their own signing keys, GitLab currently plans to support code signature generation via a short-lived key.
 
-GitLab is expected to soon feature automatic digital signing of build artifacts. Additionally GitLab anticipates supporting the ingestion of externally generated SBOMs. 
+GitLab is expected to soon feature automatic digital signing of build artifacts. Additionally GitLab anticipates supporting the [ingestion of externally generated SBOMs](https://gitlab.com/groups/gitlab-org/-/epics/8024).
 
 ## Get started with SBOMs
 
