@@ -22,7 +22,8 @@ projects:
   gitlab: reviewer frontend
   gitlab-ui: reviewer frontend
   design.gitlab.com: reviewer frontend
-specialty: Ecosystem - FE/UX Foundations
+specialty:
+- 'Manage: Foundations'
 expertise:
 story:
 
