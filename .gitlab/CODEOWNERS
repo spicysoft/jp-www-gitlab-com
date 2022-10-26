@@ -221,9 +221,9 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/quality/contributor-success/ @nick_vh
 
 ^[Security department]
-/sites/handbook/source/handbook/security/ @akramer @Julia.Lake
+/sites/handbook/source/handbook/security/ @robin @Julia.Lake
 /sites/handbook/source/handbook/security/architecture/ @plafoucriere
-/sites/handbook/source/handbook/security/security-operations/ @akramer @jfuentes2
+/sites/handbook/source/handbook/security/security-operations/ @robin @jfuentes2
 /sites/handbook/source/handbook/security/security-assurance/ @Julia.Lake @jburrows001 @tdilbeck @corey-oas @jlongo_gitlab
 /sites/handbook/source/handbook/security/threat-management/ @smanzuik @estrike
 /sites/handbook/source/handbook/security/threat-management/red-team/ @cmoberly
@@ -677,10 +677,10 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 
 
 ^[Security]
-/sites/handbook/source/handbook/security/ @akramer @Julia.Lake
+/sites/handbook/source/handbook/security/ @robin @Julia.Lake
 
 ^[Security Compliance]
-/sites/uncategorized/source/security/ @akramer @Julia.Lake
+/sites/uncategorized/source/security/ @robin @Julia.Lake
 
 ^[Support]
 /sites/handbook/source/handbook/support/ @gitlab-com/support
