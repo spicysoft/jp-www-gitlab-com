@@ -131,8 +131,7 @@
   domains:
     - backend
   max_trainees: 2
-  trainees:
-    - Drew Blessing (@dblessing)
+  trainees: []
 - mentor: Zack Cuddy
   gitlab: zcuddy
   domains:
