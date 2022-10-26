@@ -88,7 +88,6 @@
     level: 3
     reasons:
     - This metric is equivalent to the <i>Lead Time for Changes</i> metric in the <a href="https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance">Four Keys Project from the DevOps Research and Assessment</a>. Additionally, the data for this metric also shows <i>Deployment Frequency</i>, another of the Four Keys metrics.
-    - MTTP is higher than recent months due to Production Change Locks for maintenance work as well as reduced deployments during APAC-hours due to team member PTO.  
     - The next step for this metric is to move from Continuous Delivery to Continuous Deployment for GitLab.com. Work is tracked in <a href="https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/280"> epic 280 </a>.
     - MTTP breakdown can be visualized on the <a href="/handbook/engineering/infrastructure/team/delivery/metrics.html"> Delivery Metrics page </a>.
   sisense_data:
