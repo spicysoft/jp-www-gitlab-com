@@ -30,13 +30,13 @@ early feedback to [iterate](/handbook/values/#iteration) on the strategy.
 
 ### Previous 5 videos
 
-| Date       | Tl;DW;                                                                           | Video                                                                          | 
-|------------|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| 2022-10-13 | First release of VS Code extension, work on authentication                       | [https://youtu.be/VYl0dg8xyeE](https://youtu.be/VYl0dg8xyeE){:target="_blank"} |
-| 2022-09-28 | Lots of work on the GitLab Workflow VS Code extension                            | [https://youtu.be/YPROwTbyxig](https://youtu.be/YPROwTbyxig){:target="_blank"} |
-| 2022-09-15 | Shows a first working prototype in VS Code using FauxPilot backend               | [https://youtu.be/FfhLyxAlUho](https://youtu.be/FfhLyxAlUho){:target="_blank"} |
-| 2022-09-06 | Describes pivoting to real-time / predictive tooling                             | [https://youtu.be/YfBPIi24tSs](https://youtu.be/YfBPIi24tSs){:target="_blank"} |
-| 2022-08-19 | Describe future plans for Dokter, in which stages it fits and community feedback | [https://youtu.be/1KCSHrJnjSk](https://youtu.be/1KCSHrJnjSk){:target="_blank"} |
+| Date       | Tl;DW;                                                             | Video                                                                          | 
+|------------|--------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 2022-10-25 | Authentication MR's 2/3 finished, 1 in review. Worked on FauxPilot | [https://youtu.be/JNLkmZk0iB8](https://youtu.be/JNLkmZk0iB8){:target="_blank"} |
+| 2022-10-13 | First release of VS Code extension, work on authentication         | [https://youtu.be/VYl0dg8xyeE](https://youtu.be/VYl0dg8xyeE){:target="_blank"} |
+| 2022-09-28 | Lots of work on the GitLab Workflow VS Code extension              | [https://youtu.be/YPROwTbyxig](https://youtu.be/YPROwTbyxig){:target="_blank"} |
+| 2022-09-15 | Shows a first working prototype in VS Code using FauxPilot backend | [https://youtu.be/FfhLyxAlUho](https://youtu.be/FfhLyxAlUho){:target="_blank"} |
+| 2022-09-06 | Describes pivoting to real-time / predictive tooling               | [https://youtu.be/YfBPIi24tSs](https://youtu.be/YfBPIi24tSs){:target="_blank"} |
 
 
 ## What is AI?
