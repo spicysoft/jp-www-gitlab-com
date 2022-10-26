@@ -41,9 +41,9 @@ As part of the [FY23 Product Themes](https://about.gitlab.com/direction/#fy23-pr
 
 To [Extend our lead in CI/CD](https://about.gitlab.com/direction/#extend-our-lead-in-cicd) and build a top notch experience for users of [GitLab SaaS Runners](https://about.gitlab.com/direction/verify/runner_saas/) we will provide users with better visbility about their [CI/CD minute consumption](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#how-cicd-minutes-are-calculated). 
 
-This is a key milestone to delivering our top priority of enforcement of [CI/CD minutes limits for public projects](https://gitlab.com/groups/gitlab-org/-/epics/5653). We are on track to deliver the work in the FY23-Q3 to add limits for public projects while retaining a superior experience for the Open Source Projects that belong to GitLab's Open Source Program.
+This was a key milestone to delivering our top priority of enforcement of [CI/CD minutes limits for public projects](https://gitlab.com/groups/gitlab-org/-/epics/5653). We have delivered the work in the FY23-Q3 to add limits for public projects and are cleaning up some tech debt to make cost factors easier to maintain in FY23-Q4.
 
-We have heard from GitLab SaaS users that they would like to set quotas on projects as self-managed namespace admins can. We have set a goal to deliver [Configure CI/CD Quotas by project](https://gitlab.com/gitlab-org/gitlab/-/issues/357760) in the second half of the year.
+We have heard from GitLab SaaS users that they would like to set quotas on projects as self-managed namespace admins can. We have set a goal to deliver [Configure CI/CD Quotas by project](https://gitlab.com/gitlab-org/gitlab/-/issues/357760) in FY24.
 
 ### Pipeline Experience
 
@@ -58,13 +58,12 @@ The [CI_JOB_TOKEN](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html) makes i
 Our current maturity is at "Complete" and the next maturity target is "Lovable"  (see our [definitions of maturity levels](/direction/maturity/)). We previously reached "Lovable" in 2017, after being listed a [CI Leader](https://about.gitlab.com/blog/2017/09/27/gitlab-leader-continuous-integration-forrester-wave/). In order to maintain this lead while staying ahead of the changing DevOps landscape needs for stability, performance and quality we need to restablish a strong foundation of the core elements for CI. As such, we are prioritizing bugs and user experience improvements, while continuing to design and validate features for future implementation that move our vision forward. The following investments will be key to moving our maturity forward in the next two quarters: 
 
 - [Bugs related CI/CD Minute Quotas](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=CI%20minutes&label_name[]=type::bug)
-- [Bugs related to Mergeability](https://gitlab.com/groups/gitlab-org/-/epics/5455)
+- [Simplify merge strategies with automerge](https://gitlab.com/groups/gitlab-org/-/epics/6687)
 
 These investments will lay the ground work to deliver on the top vision items in 2022 (see [Epic#4794](https://gitlab.com/groups/gitlab-org/-/epics/4794)) which involve features under these key areas:
 
 - [Secure CI_JOB_TOKEN Workflows](https://gitlab.com/groups/gitlab-org/-/epics/6546)
 - [Make GitLab CI/CD work better with external repositories](https://gitlab.com/groups/gitlab-org/-/epics/943)
-
 
 ## What is Not Planned Right Now
 
