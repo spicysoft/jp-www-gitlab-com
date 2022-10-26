@@ -10,6 +10,7 @@ image_title: /images/blogimages/blog-compliance.jpg
 twitter_text: Need to get up to speed on SBOMs quickly? We've got you covered
   with our comprehensive guide
 ---
+
 Modern software development is marked by a commitment to application security – not just for code developed in-house, but for the [entirety of the software supply chain](/blog/2022/08/30/the-ultimate-guide-to-software-supply-chain-security/). However, which upstream dependencies are included in software and the reasons why they are required can be difficult to determine. A software bill of materials, or SBOM, sheds light on an application’s contents and code origins, and, when paired with vulnerability management tools, can help identify vulnerabilities and highlight risk for subsequent mitigation. This guide will explain what SBOMs are, their importance in a multi-faceted [DevSecOps](/topics/devsecops/) strategy, their relationship to vulnerability management, and how to assess and improve an application’s SBOM health. 
 
 ## What is an SBOM?
@@ -41,7 +42,7 @@ There are three main types of SBOM data exchange standards in use today:
 *Software Identification Tagging, or [SWID](https://csrc.nist.gov/projects/Software-Identification-SWID)
 *[SPDX](​​https://spdx.dev/)
 
-GitLab uses the CycloneDX for its SBOM generation because the standard is prescriptive and user-friendly, can simplify complex relationships, and is extensible to support specialized and future use cases. In addition, [cyclonedx-cli](https://github.com/CycloneDX/cyclonedx-cli#convert-command) is an open source tool that can be used to convert CycloneDX files to SPDX if necessary.
+GitLab uses CycloneDX for its SBOM generation because the standard is prescriptive and user-friendly, can simplify complex relationships, and is extensible to support specialized and future use cases. In addition, [cyclonedx-cli](https://github.com/CycloneDX/cyclonedx-cli#convert-command) is an open source tool that can be used to convert CycloneDX files to SPDX if necessary.
 
 ## Benefits of pairing SBOMs and software vulnerability management
 
@@ -51,12 +52,11 @@ SBOMs are highly beneficial for DevOps teams and software consumers.
 *The details that SBOMs offer enable a DevOps team to identify vulnerabilities, assess the risk, and then mitigate them. 
 *SBOMs can deliver the transparency that application purchasers now demand.
 
-
 ## GitLab and SBOMs
 
 For SBOMs to be fully impactful, organizations must be able to automatically generate them, connect them with application security scanning tools, integrate the vulnerabilities and licenses into a dashboard for easy comprehension and actionability, and update them continuously. GitLab supports all of these goals.
 
-Users can find [SBOM capability](/blog/2022/10/17/fast-and-efficient-sbom-with-gitlab-and-rezilion/) in the Secure Stage under the “Dependency List” page. The GitLab DevOps platform is comprehensive as it provides Dependency SBOM and Container SBOM insights.
+Users can find [SBOM capability](/blog/2022/10/17/fast-and-efficient-sbom-with-gitlab-and-rezilion/) in the Secure Stage under the “Dependency List” page. The GitLab DevSecOps platform is comprehensive as it provides Dependency SBOM and Container SBOM insights.
 
 GitLab’s SBOM function enables DevOps teams to scan containers to find operating system, container, and package vulnerabilities in the pipeline and in production. GitLab provides auto-suggested remediations so dev and ops professionals can easily find and fix vulnerabilities. Users can create a vulnerability allow list to reduce noise. The results of the scans, including detected application and language dependencies as well as associated licenses, feed into the dependency list and can be exported. Scan results also can be viewed in GitLab’s Security Center and in Merge Requests.
 
@@ -66,17 +66,16 @@ GitLab also has integrated vulnerability training into the platform so that when
 
 DevOps teams who require compliance functionality (ex. [SLSA 2 framework](/releases/2022/06/22/gitlab-15-1-released/)) can use GitLab to [generate attestation for all build artifacts][(/blog/2022/08/10/securing-the-software-supply-chain-through-automated-attestation/) produced by the GitLab Runner. The process is secure because it is produced by the Runner itself with no handoff of data to an external service.
 
-
 ## The future of GitLab’s SBOM functionality
 
 There is no doubt that as software supply chain security garners more attention, SBOMs will be a focus as well. And although the SBOM industry is evolving quickly, there are still concerns around how SBOMs are generated, the frequency of that generation, where they are stored, how to combine multiple SBOMs for complex applications, how to analyze them, and how to leverage them for application health.
 
-GitLab has made SBOMs an integral part of its [software supply chain direction](/direction/supply-chain/#overview) and continues to improve upon its SBOM capabilities within the DevOps platform, including planning new features and functionality. For instance, GitLab currently plans to have the Runner automate attestation. Also, to reduce the need for users to manage and store their own signing keys, GitLab currently plans to support code signature generation via a short-lived key.
+GitLab has made SBOMs an integral part of its [software supply chain direction](/direction/supply-chain/#overview) and continues to improve upon its SBOM capabilities within the DevSecOps platform, including planning new features and functionality. For instance, GitLab currently plans to have the Runner automate attestation. Also, to reduce the need for users to manage and store their own signing keys, GitLab currently plans to support code signature generation via a short-lived key.
 
 GitLab is expected to soon feature automatic digital signing of build artifacts. Additionally GitLab anticipates supporting the ingestion of externally generated SBOMs. 
 
 ## Get started with SBOMs
 
-The demand for SBOMs is already high. Government agencies increasingly recommend or require SBOM creation for software vendors, federal software developers, and even open source communities. To get ahead of this requirement, check out the SBOM capabilities in [GitLab’s DevOps platform](https://gitlab.com/-/trials/new).
+The demand for SBOMs is already high. Government agencies increasingly recommend or require SBOM creation for software vendors, federal software developers, and even open source communities. To get ahead of this requirement, check out the SBOM capabilities in [GitLab’s DevSecOps platform](https://gitlab.com/-/trials/new).
 
 **Disclaimer This blog contains information related to upcoming products, features, and functionality. It is important to note that the information in this blog post is for informational purposes only. Please do not rely on this information for purchasing or planning purposes. As with all projects, the items mentioned in this blog and linked pages are subject to change or delay. The development, release, and timing of any products, features, or functionality remain at the sole discretion of GitLab.**
