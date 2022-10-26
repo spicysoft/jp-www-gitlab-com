@@ -3052,7 +3052,7 @@ features:
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#clone-gitlab-projects
     screenshot_url: create_code_review-clone-project-vscode.gif
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3070,7 +3070,7 @@ features:
     link: https://docs.gitlab.com/ee/user/project/repository/#clone-and-open-in-visual-studio-code
     screenshot_url: create-code-review-open-in-vscode.png
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3088,7 +3088,7 @@ features:
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#insert-snippet
     screenshot_url: create-editor-insert-snippet-vscode.gif
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3106,7 +3106,7 @@ features:
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#view-issue-and-mr-details-and-comments-in-vs-code
     screenshot_url: create-editor-webview-vs-code.png
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3124,7 +3124,7 @@ features:
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#sidebar-details
     screenshot_url: phikai-show-mr-changes-vscode.png
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3142,7 +3142,7 @@ features:
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#ci-variable-autocompletion
     screenshot_url: create_code_review-ci-autocomplete-vscode.png
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3160,7 +3160,7 @@ features:
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#merge-request-reviews
     screenshot_url: create_mr_show_comments_vs_code.png
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3178,7 +3178,7 @@ features:
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#merge-request-reviews
     #screenshot_url: create_code_review-merge-request-review.gif #gif is too large to push
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3196,7 +3196,7 @@ features:
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#merge-request-reviews
     screenshot_url: create_mr_show_comments_vs_code.png
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3214,7 +3214,7 @@ features:
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#merge-request-reviews
     screenshot_url: code-review-vs-code-checkout-mr-branch.png
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3231,7 +3231,7 @@ features:
     link_description: "Create and apply patch in VS Code"
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#create-and-apply-snippet-patch
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
@@ -3248,7 +3248,7 @@ features:
     link_description: "Remote Repositories for GitLab"
     link: https://gitlab.com/gitlab-org/gitlab-vscode-extension#browse-a-remote-repository
     category:
-      - editor_extension
+      - editor
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
