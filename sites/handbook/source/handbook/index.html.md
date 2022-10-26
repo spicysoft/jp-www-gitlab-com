@@ -192,7 +192,7 @@ For a very specific set of [internal](/handbook/communication/confidentiality-le
   * [Being a Product Manager at GitLab](/handbook/product/product-manager-role/)
   * [Product Principles](/handbook/product/product-principles/)
   * [Product Processes](/handbook/product/product-processes/)
-  * [Product Categorization](/handbook/product/categories/)
+  * [Product sections, stages, groups, and categories](/handbook/product/categories/)
   * [Product Development Flow](/handbook/product-development-flow/)
   * [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
   * [Data for Product Managers](/handbook/business-ops/data-team/data-for-product-managers/)
