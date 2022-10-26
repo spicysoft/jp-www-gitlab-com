@@ -1,13 +1,13 @@
 name: Carrie Kroutil
 locality: 
 country: Remote
-role: <a href="">Manager, Fullstack Engineering</a>
+role: <a href="">Manager, Fullstack Engineering, Package:Package Registry</a>
 reports_to: samgoldstein
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
+picture: carriekroutil.jpg
+pronouns: she/her
+pronunciation: Keh-ree Crow-chill
 twitter:
-linkedin:
+linkedin: carriekroutil
 gitlab: ckroutil
 departments:
 - Engineering Function
@@ -17,5 +17,10 @@ departments:
 - Package:Package Registry Group
 specialty: Package
 expertise:
-story:
+story: |
+  Carrie is a engineering manager focused on people and process improvements. The first 18 years of her career was focused on the engineering side  
+  and supporting customers which has given her a grounded perspective on what works to make the team communicate well and be successful. Prior to 
+  this role Carrie was responsible for managing engineering teams at an education tech startup. Outside of work you will find her golfing with her 
+  spouse, playing instruments, walking/grooming their labradoodles, and spending time with her family cooking/grilling, playing board games, or
+  catching up on the latest show.
 
