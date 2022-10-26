@@ -12,7 +12,7 @@ pronouns: she/her
 projects:
   gitlab: reviewer go
   container-registry:
-  - maintainer backend
+  - maintainer
   - reviewer database
   gitlab-pages: reviewer
 departments:
