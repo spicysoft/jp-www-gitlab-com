@@ -38,9 +38,9 @@ There is also a cost component to finding and remediating security vulnerability
 SBOMs work best when their generation and interpretation of information such as name, version, packager, and more are able to be automated. This happens best if all parties use a standard data exchange format.
 
 There are three main types of SBOM data exchange standards in use today:
-*OWASP [CycloneDX](https://cyclonedx.org/capabilities/sbom/)
-*Software Identification Tagging, or [SWID](https://csrc.nist.gov/projects/Software-Identification-SWID)
-*[SPDX](​​https://spdx.dev/)
+* OWASP [CycloneDX](https://cyclonedx.org/capabilities/sbom/)
+* Software Identification Tagging, or [SWID](https://csrc.nist.gov/projects/Software-Identification-SWID)
+* [SPDX](https://spdx.dev/)
 
 GitLab uses CycloneDX for its SBOM generation because the standard is prescriptive and user-friendly, can simplify complex relationships, and is extensible to support specialized and future use cases. In addition, [cyclonedx-cli](https://github.com/CycloneDX/cyclonedx-cli#convert-command) is an open source tool that can be used to convert CycloneDX files to SPDX if necessary.
 
@@ -49,8 +49,8 @@ GitLab uses CycloneDX for its SBOM generation because the standard is prescripti
 SBOMs are highly beneficial for DevOps teams and software consumers.
 * They enable a standard approach to understanding what is in an application and why.
 * They provide ongoing visibility into the history of an application’s creation, including details about third-party code origins and host repositories.
-*The details that SBOMs offer enable a DevOps team to identify vulnerabilities, assess the risk, and then mitigate them. 
-*SBOMs can deliver the transparency that application purchasers now demand.
+* The details that SBOMs offer enable a DevOps team to identify vulnerabilities, assess the risk, and then mitigate them. 
+* SBOMs can deliver the transparency that application purchasers now demand.
 
 ## GitLab and SBOMs
 
