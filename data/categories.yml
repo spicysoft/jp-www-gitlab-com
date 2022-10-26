@@ -655,6 +655,7 @@ web_ide:
   feature_labels:
     - "Category:Web IDE"
     - "Web IDE::Live Preview"
+    - VS Code
   documentation: https://docs.gitlab.com/ee/user/project/web_ide/index.html
   direction: /direction/create/editor/web_ide/
   description: "A full featured Integrated Development Environment (IDE) built into GitLab so you can start contributing on day one with no need to spend days getting all the right packages installed into your local dev environment."
@@ -677,8 +678,6 @@ web_ide:
 editor_extension:
   name: "Editor Extension"
   stage: create
-  feature_labels:
-    - VS Code
   documentation: https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/README.md
   direction: /direction/create/editor_extension/
   description: "Tools that support developers where they work and how they work with GitLab."
@@ -694,7 +693,7 @@ editor_extension:
     github:
       maturity: lovable
       description:
-        GitHub is deeply integrated with VSCode.
+        GitHub is deeply integrated with developer tools.
 
 snippets:
   name: "Snippets"

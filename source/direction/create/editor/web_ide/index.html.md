@@ -58,6 +58,12 @@ The path to wider reach and adoption of Live Preview hinges on the ability to of
 
 GitLab is also supportive of 3rd party integrations to extend these features to developers. One example is the community contribution [Gitpod](https://www.gitpod.io/) made to add a native integration to GitLab, making it possible to [launch a remote Gitpod instance](https://docs.gitlab.com/ee/integration/gitpod.html) from the repository or merge request with a single click.
 
+#### GitLab Workflow for Visual Studio Code
+
+The [GitLab Workflow extension for VS Code](https://docs.gitlab.com/ee/user/project/repository/vscode.html) is available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow) and enables you to interact with merge request discussions, issues, and pipelines directly from VS Code. 
+
+One of the benefits of [replacing the Web IDE with a VS Code instance](https://gitlab.com/groups/gitlab-org/-/epics/7683) is that you will be able to install compatible extensions in the browser-based Web IDE. By [bundling the GitLab Workflow extension in the Web IDE](https://gitlab.com/gitlab-org/gitlab/-/issues/355054), we will enable new functionality and provide consistency across the desktop and web editing experience. Functionality contributed by the community and additional investments in the capabilities of the extension will then be available on both platforms.
+
 ### Target Audience and Experience
 
 <!-- An overview of the personas (https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas#user-personas) involved in this category. An overview
@@ -111,6 +117,12 @@ Documentation is a less intensive type of engineering effort that requires fewer
 When working through the code review process users are often trying to understand feedback in the context of their changes. Engineers must examine feedback in one window and then return to their editor to make changes. By expanding [code review tools in to the Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/72) we can help provide that review feedback in the Web IDE so that changes can be made more easily.
 
 It's also important to help users quickly jump to definition and find references while reviewing and editing code within the Web IDE. Supporting [code intelligence](https://gitlab.com/groups/gitlab-org/-/epics/1576) features [in the Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/2332) will move that vision forward.
+
+#### GitLab Workflow extension for VS Code Code
+
+Following the integration of the extension into the Web IDE, we will focus on tighter integration with other parts of GitLab. 
+
+**Quality and Security Scan results in VS Code [&6515](https://gitlab.com/groups/gitlab-org/-/epics/6515)**: GitLab provides feedback to developers through code quality and security scans. This information is provided in GitLab through merge requests and report data, but it isn't immediately available to engineers as they're working in their editor. We'll continue to look for opportunities to expand our efforts here. 
 
 ### Maturity
 
