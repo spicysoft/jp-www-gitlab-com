@@ -16,17 +16,15 @@ Modern software development is marked by a commitment to application security �
 
 An SBOM is a nested inventory or [list of ingredients that make up software components](https://www.cisa.gov/sbom#). In addition to the components themselves, SBOMs include critical information about the libraries, tools, and processes used to develop, build, and deploy a software artifact.
 
-The SBOM concept has existed [for more than a decade](https://spdx.dev/about/). However, a [2021 Executive Order from the Biden Administration](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) aimed at improving the nation’s cybersecurity made the term synonymous with software supply chain security and boosted its profile. The U.S. government has [issued mandates](/blog/2022/03/29/comply-with-nist-secure-supply-chain-framework-with-gitlab/) that require application developers selling to the public sector to include SBOMs with their software packages.
-
-The private sector is likely not far behind, sending SBOMs on the path to ubiquity. In its “Innovation Insight for SBOMs” report, Gartner® writes, “By 2025, 60% of organizations building or procuring critical infrastructure software will mandate and standardize SBOMs in their software engineering practice, up from less than 20% in 2022.”
+The SBOM concept has existed [for more than a decade](https://spdx.dev/about/). However, a [2021 Executive Order from the Biden Administration](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) aimed at improving the nation’s cybersecurity made the term synonymous with software supply chain security and boosted its profile. The U.S. government has [issued mandates](/blog/2022/03/29/comply-with-nist-secure-supply-chain-framework-with-gitlab/) that require application developers selling to the public sector to include SBOMs with their software packages. The private sector is likely not far behind, sending SBOMs on the path to ubiquity. 
 
 Although SBOMs are often created with stand-alone software, platform companies like GitLab are integrating SBOM generation early and deep in the DevSecOps workflow.
 
-[Joel’s “Early Detection Saves Money and Time” workflow slide here]
+![supply chain chart](/images/blogimages/fast-and-efficient-supply-chain-security-with-rezilion-and-gitlab/sdlc.png)
 
 ## Why SBOMs are important
 
-Modern software development is laser-focused on delivering applications at a faster pace and in a more efficient manner. This can lead to developers incorporating code from open source repositories or proprietary packages into their applications. Gartner estimates in its “Emerging Tech: An SBOM is Critical to Software Supply Chain Management” report that 40% to 80% of the lines of code in new software projects come from third parties (e.g. runtime, libraries, components and SDKs).
+Modern software development is laser-focused on delivering applications at a faster pace and in a more efficient manner. This can lead to developers incorporating code from open source repositories or proprietary packages into their applications.
 
 Pulling in code from unknown repositories increases the potential for vulnerabilities that can be exploited by hackers. In fact, the [2020 SolarWinds attack](https://www.techtarget.com/whatis/feature/SolarWinds-hack-explained-Everything-you-need-to-know) was sparked by the activation of a malicious injection of code in a package used by SolarWinds’ Orion product. Customers across the software supply chain were significantly impacted. Other attacks, including the log4j vulnerability that impacted a number of commercial software vendors, cemented the need for a deep dive into application dependencies, including containers and infrastructure, to be able to assess risk throughout the software supply chain.
 
