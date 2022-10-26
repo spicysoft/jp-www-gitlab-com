@@ -682,15 +682,15 @@ In Field Marketing, the FMCs manage all [Coupa requisitions](/handbook/business-
 | ------ | ------ | -------------- | -------------- |
 | [AMER East - NE, SE, Mid-Atlantic, NYC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/915674?&label_name%5B%5D=East) | Beth Parker | `@BParker` |
 | [AMER East - South Central, LATAM](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1105137?&label_name[]=East%20-%20Central) | Ginny Reib | `@GReib` |
-| [AMER West - NW, North Central](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933457?&label_name[]=West) | Matthew Macfarlane | `@mmacfarlane` |
+| [AMER West - NW, North Central](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933457?&label_name[]=West) | Matthew Macfarlane | `@GReib` |
 | [AMER West - SW, New First Order](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933457?&label_name[]=West) |  Lisa Rom | `@lrom`  |
 | [AMER Public Sector](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Kira Aubrey | & `@KiraAubrey` |
-| [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | TBH | `TBH` |
+| [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | Kate Baker | `@kbaker4` |
 | Japan - link WIP | Shu Kawaguchi | `@skawaguchi1` |
 | [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@juliette.frcn` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
  [EMEA MEA](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426540?&label_name[]=MEA) | Juliette Francon | `@juliette.frcn` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
 | [EMEA Northern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438252?scope=all&utf8=%E2%9C%93&label_name[]=Northern%20Europe&label_name[]=EMEA) | Elena Sheveleva | `@Lena333` |[#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
-| [EMEA UK/I](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neja Pujari | `@npujari2` | [#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
+| [EMEA UK/I](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neha Pujari | `@npujari2` | [#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
 | [EMEA Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA) | Sarina Kraft | `@sarinakraft` | [#emea_central_europe_fieldmarketing](https://gitlab.slack.com/archives/CQJ90VD8B)|
 | [EMEA CEE](https://gitlab.com/groups/gitlab-com/marketing/-/boards/3206565?scope=all&label_name[]=Europe%20CEE) | Sarina Kraft | `@sarinakraft` | [emea_central_europe_fieldmarketing](https://gitlab.slack.com/archives/CQJ90VD8B)|
 | [EMEA Russia](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1484015?&label_name[]=Russia) | Elena Sheveleva | `@Lena333` | [#rus-marketing](https://gitlab.slack.com/archives/C01AHK5M6LX)|
@@ -718,10 +718,10 @@ If you are interested in requesting Field Marketing's support for a particular i
 
 It is our goal to have planning for each qtr completed four (4) weeks before the next quarter starts. At this time, we have the following time line set for regional plans:
 
-- Q1 plan is due Jan 14
-- Q2 plan is due April 1, and this is no [April Fools](https://www.history.com/topics/holidays/april-fools-day) joke! ;)
-- Q3 plan is due July 1
-- Q4 plan is due Oct 1
+- Q1 plan is due Jan 13
+- Q2 plan is due April 3
+- Q3 plan is due July 3
+- Q4 plan is due Oct 2
 
 A standard deck will also be used to ensure consistency across the world in terms of how the plan is presented.
 
@@ -806,7 +806,7 @@ In order for a GitLab Partner to reach Select status, the Select Partner must:
 | AMER West-PacNorWest | Matthew Macfarlane | Jen Bailey |
 | AMER West - NorCal/SoCal/Rockies | Lisa Rom | Jen Bailey |
 | AMER Public Sector | Kira Aubrey | Chris Novello|
-| APAC | TBH | Dirk de Vos |
+| APAC | Kate Baker | Dirk de Vos |
 | APAC - Japan | Shu Kawaguchi |  |
 | EMEA Southern Europe | Juliette Francon | Tristan Ouin |
 | EMEA MEA | Juliette Francon | Matthew Coughlan |
@@ -858,7 +858,7 @@ All campaigns we are working with channel partners must flow through the outline
 Please refer to the [Channel ROI section](/handbook/marketing/field-marketing/#field-marketing-roi-to-gitlab-channel).
 
 ### Useful Fields in SFDC that relate to Vartopia 
-1. Please refer to [this handbook page](/handbook/marketing/channel-marketing/partner-campaigns/#sfdc-partner-prospect-admin) for further details. 
+1. Please refer to [this handbook page](/handbook/marketing/marketing-operations/vartopia/#sfdc-partner-prospect-admin) for further details. 
 
 ### Channel Program 
 The below list is not exhaustive. 

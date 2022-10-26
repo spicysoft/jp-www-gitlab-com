@@ -2,17 +2,16 @@
 name: Steve Abrams
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Package</a>
-reports_to: michelletorres
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Delivery:Orchestration</a>
+reports_to: amyphillips
 picture: steveabrams.png
 twitter:
 gitlab: sabrams
 departments:
 - Engineering Function
-- Development Department
-- Ops Sub-department
-- Package Group
-- Package BE Team
+- Infrastructure Department
+- Platform Subdepartment
+- Delivery Team
 - Merge Request Buddy
 - Merge Request Coach
 projects:
@@ -33,4 +32,4 @@ domain_expertise:
 expertise: |
   <li><a href="/handbook/people-group/general-onboarding/mr-buddies/">Merge Request Buddy</a></li>
   <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
-specialty: Package
+specialty: Delivery

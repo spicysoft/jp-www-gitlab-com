@@ -169,12 +169,12 @@ users:
 
 devops_reports:
   name: "DevOps Reports"
-  stage: manage
+  stage: plan
   feature_labels:
     - convdev
     - devops score
   documentation: https://docs.gitlab.com/ee/user/admin_area/analytics/dev_ops_report.html
-  direction: /direction/manage/devops-reports/
+  direction: /direction/plan/devops-reports/
   description: "Get an overview of how well your organization is adopting DevOps and to see the impact on your velocity."
   roi: false
   available: 2017-01-01
@@ -235,8 +235,8 @@ value_stream_management:
   roi: false
   available: 2017-01-01
   viable: 2020-10-22
-  complete: 2022-10-22
-  lovable: 2024-04-18
+  complete: 2023-06-01
+  lovable: 2024-06-01
   maturity: viable
   dogfooding_status: Active
   dogfooding_issue: N/A
@@ -270,17 +270,21 @@ team_planning:
   stage: plan
   label: Category:Team Planning
   feature_labels:
-    - filter bar
+    - Issues list
     - issue weight
     - issues
     - labels
     - markdown
     - milestones
+    - iterations
     - notifications
     - quick actions
     - todos
     - time tracking
     - boards
+    - discussions
+    - internal notes
+    - work items
   marketing_page:
   documentation: https://docs.gitlab.com/ee/topics/plan_and_track.html#team-planning
   direction: /direction/plan/project_management/team_planning/
@@ -329,6 +333,9 @@ portfolio_management:
     - epic boards
     - roadmaps
     - epics
+    - health status
+    - linked items
+    - parent/child items widget
   marketing_page: /stages-devops-lifecycle/portfolio-management/
   documentation: https://docs.gitlab.com/ee/topics/plan_and_track.html#portfolio-management
   direction: /direction/plan/portfolio_management/
@@ -378,6 +385,9 @@ service_desk:
   viable: 2017-01-01
   complete:
   lovable:
+  feature_labels:
+     - service desk issues
+     - customer relationships management
   maturity: viable
   marketing: true
   priority_level: low
@@ -398,6 +408,11 @@ requirements_management:
   viable: 2023-01-01
   complete: 2023-11-01
   lovable: 2024-11-01
+  feature_labels:
+     - requirements
+     - link requirements to test cases
+     - merge request to issue traceability
+     - issue description diff
   maturity: minimal
   marketing: true
   priority_level: high
@@ -418,6 +433,8 @@ quality_management:
   viable: 2023-09-01
   complete: 2024-09-01
   lovable: 2025-09-01
+  feature_labels:
+    - test cases
   maturity: minimal
   marketing: true
   priority_level: low
@@ -438,6 +455,10 @@ design_management:
   viable: 2020-12-22
   complete: 2024-01-01
   lovable: 2024-12-31
+  feature_labels:
+    - design assets
+    - link issues to designs
+    - figma plugin
   maturity: viable
   new_maturity: true
   marketing: true
@@ -1265,7 +1286,7 @@ static_application_security_testing:
   ux_scorecard_link: https://gitlab.com/gitlab-org/gitlab-design/-/issues/400
   ux_scorecard_score: D
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
   competitors:
     github:
       maturity: complete
@@ -1298,7 +1319,7 @@ secret_detection:
   marketing: true
   priority_level: medium
   dogfooding_status: Limited
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
   competitors:
     github:
       maturity: lovable
@@ -1325,7 +1346,7 @@ code_quality:
   maturity: minimal
   marketing: true
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 dynamic_application_security_testing:
   name: "DAST"
@@ -1428,7 +1449,7 @@ dependency_scanning:
   ux_scorecard_link: https://gitlab.com/groups/gitlab-org/-/epics/2396
   ux_scorecard_score: F
   dogfooding_status: limited
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 container_scanning:
   name: "Container Scanning"
@@ -1445,7 +1466,7 @@ container_scanning:
   marketing: true
   priority_level: medium
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 license_compliance:
   name: "License Compliance"
@@ -1493,7 +1514,7 @@ advisory_database:
   marketing: false
   priority_level: high
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 security_benchmarking:
   name: Security Benchmarking
@@ -1509,7 +1530,7 @@ security_benchmarking:
   maturity:
   marketing: false
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
 
 attack_emulation:
   name: Attack Emulation
@@ -1613,7 +1634,7 @@ vulnerability_management:
   ux_scorecard_link: https://gitlab.com/gitlab-org/gitlab-design/-/issues/401
   ux_scorecard_score: D
   dogfooding_status: Active
-  dogfooding_issue: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
+  dogfooding_issue: https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/#gitlab-secure-tools-coverage
   feature_labels:
     - security dashboard
     - security reports
@@ -1828,7 +1849,7 @@ auto_devops:
   roi: true
   available: 2017-09-22
   viable: 2019-12-22
-  complete:
+  complete: 2024-03-22
   lovable:
   maturity: viable
   marketing: true
@@ -1849,7 +1870,7 @@ kubernetes_management:
   roi: true
   available: 2018-01-01
   viable: 2019-07-22
-  complete: 2022-11-01
+  complete: 2023-02-22
   lovable:
   maturity: viable
   marketing: true
@@ -1868,8 +1889,8 @@ deployment_management:
   description: "Enable platform engineers to use GitLab as their deployment platform: platform engineers can define common DevOps practices, streamline compliance, and share common patterns to enable application development teams to be more efficient."
   roi: true
   available: 2017-09-22
-  viable: 2022-12-22
-  complete:
+  viable: 2023-05-22
+  complete: 2023-12-22
   lovable:
   maturity: minimal
   marketing: true
@@ -1902,7 +1923,7 @@ infrastructure_as_code:
   roi: false
   available: 2019-09-01
   viable: 2021-01-22
-  complete: 2022-09-22
+  complete: 2022-11-22
   lovable: 2023-12-22
   maturity: viable
   marketing: true
@@ -1918,7 +1939,7 @@ cluster_cost_management:
   description: "Gain insights and recommendations about your cluster spending"
   documentation: https://docs.gitlab.com/ee/user/clusters/cost_management.html
   roi: false
-  available: 2023-10-22
+  available: 2024-04-22
   viable:
   complete:
   lovable:
@@ -2137,10 +2158,10 @@ privacy_control_center:
   stage: analytics
   direction: https://about.gitlab.com/direction/product-intelligence/
   description:
-  available: 2022-12-01
-  viable: 2023-12-01
-  complete: 2024-06-01
-  lovable: 2024-12-01
+  available: 2023-12-01
+  viable: 2024-12-01
+  complete: 2025-06-01
+  lovable: 2025-12-01
   marketing: false
   maturity: planned
 
@@ -2272,9 +2293,9 @@ backup_restore:
   documentation: https://docs.gitlab.com/ee/raketasks/backup_restore.html
   roi: false
   available: 2015-01-01
-  viable: 2022-10-22
-  complete: 2023-07-22
-  lovable: 2024-07-22
+  viable: 2023-10-22
+  complete: 2024-07-22
+  lovable: 2025-07-22
   maturity: minimal
   marketing: false
   dogfooding_status: not planned
@@ -2302,7 +2323,7 @@ geo_replication:
   roi: false
   available: 2018-01-01
   viable: 2019-09-01
-  complete: 2022-10-22
+  complete: 2022-11-04
   lovable: 2023-11-18
   maturity: viable
   marketing: true

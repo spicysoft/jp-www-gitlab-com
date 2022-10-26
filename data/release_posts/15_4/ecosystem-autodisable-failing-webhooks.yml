@@ -2,8 +2,7 @@
 features:
   secondary:
   - name: "Automatic disabling of failing webhooks"
-    available_in: [core, premium, ultimate]
-    gitlab_com: true
+    available_in: [free, silver, gold]
     documentation_link: 'https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#failing-webhooks'
     image_url: '/images/15_4/webhook_disabled_alert.png'
     reporter: g.hickman

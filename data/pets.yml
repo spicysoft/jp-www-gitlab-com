@@ -1,4 +1,12 @@
 ---
+- name: Rocco
+  picture: rocco.jpg
+  human: Gaby Berkman
+  story: Rocco is a chihuahua-rat terrier mix, rescued from Last Hope K9. Originally
+    from Little Rock Arkansas (hence his name) , Rocco finds he hates the cold Boston
+    winters, but loves wearing his coats and sweaters, and of course, snuggling with
+    his humans. His other hobbies include eating carrots, visiting his neighborhood
+    dog friends, chasing small(er than him) creatures, napping and giving kisses.
 - name: Turk Turk
   picture: turkturk.png
   human: Lauren Barker
@@ -7,6 +15,25 @@
     the apple tree when your snagging the forbidden avocados in a flying waddle with
     talons out. It''s moments like these you question the decisions that got you here.
     You''ve been warned. Don''t mess with Turk Turk or his avocados on E st.
+
+    '
+- name: Lady Pug
+  picture: ladypug.png
+  human: Davis Bickford
+  story: 'Lady Pug is a sweet girl who loves treats, naps and cuddles. She''s a world-class
+    sprinter, and was 
+    <a href="https://www.reddit.com/r/aww/comments/3pjmox/pugs_first_time_at_the_dog_park/">
+    famous for a day</a> because she''s such a fast pug. She will sit on your lap, you
+    really don''t have a choice in this.
+
+    '
+- name: Idgie
+  picture: idgiepug.png
+  human: Davis Bickford
+  story: 'Idgie is a pug / american bulldog mix who loves playing with toys, eating leaves, 
+    and cuddling on laps. She''s especially skillful at spinning in circles, annoying her 
+    sister pug, Lady, and scaring away squirrels who didn''t do anything remotely deserving 
+    of her sassy ''tude. 
 
     '
 - name: Vega
@@ -777,14 +804,6 @@
     mini flying pig Gucchan. Follow their adventures near home and around the world
     on their <a href="https://twitter.com/Squishventures/">Twitter account</a>!
 
-    '
-- name: Lexa
-  picture: lexawaters.jpg
-  human: Adrian Waters
-  story: 'Lexa is a rescue, having been found abandoned when a few months old. She
-    also needed major surgery on both back legs, so had a tough start to life, but
-    is now through that and is an adorable, affectionate and energetic part of the
-    family.
 
     '
 - name: Sadie
@@ -2540,14 +2559,6 @@
   human: Alice Crosbie
   story: " Chico loves to sleep, he sleeps about 22 hours a day and fills his awake
     moments with eating "
-- name: Mochi
-  picture: MochiSawtelle.png
-  human: Jon Sawtelle
-  story: " Mochi is an extremely goofy Ragdoll. Mochi was a rescue kitty that became
-    the perfect addition to our home. He loves hanging out in high places and frequents
-    meetings usually from the top of a media cabinet. Other than that, Mochi also
-    loves spending time in boxes, cabinets, or wherever else he feels like he is winning
-    at hide and seek "
 - name: Jack the Red Dog
   picture: jackthereddog.png
   human: Peter Jones
@@ -2715,7 +2726,11 @@
   human: Ashley Kramer
   story: |-
     Bruce is a laid back yellow lab with the world’s biggest heart. He loves chasing his ball, swimming and looks forward to three square meals a day. Betty is an athletic, outgoing yellow lab who is curious about everything in the world. She loves following her big brother everywhere, cuddling and swimming.
-    '
+- name: Ricci
+  picture: Ricci_Tosin.png
+  human: Tosin Falade
+  story: |-
+    Ricci is an energetic and extremely social Pomeranian living in Arizona who keep me quite busy (daily). She loves going to the dog park to interact with other dogs & humans.     
 - name: You?
   picture: "../../gitlab-logo-extra-whitespace.png"
   human:

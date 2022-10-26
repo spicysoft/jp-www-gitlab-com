@@ -23,17 +23,29 @@ directly with the product managers for Monitor:Observability, feel free to reach
 
 ### Mission
 
-Make data collectable, meaningful, and feedback-ready for every stage of the DevOps process. 
+Make data manageable, understandable, and feedback-ready for every stage of the DevOps process.  
 
 ### Vision
 
-GitLab will empower users with early and continuous insight into the state and behavior of their software systems by leveraging ubiquitous telemetry data in unique fashion--not just in production, but across every stage of the DevOps process.
+GitLab will empower users with continuous insight into the state and behavior of their software systems and software delivering system by leveraging ubiquitous telemetry data in a unique fashion--not just in production, but across every stage of the DevOps process.
 
 ## Strategy
 
 On Dec 14, 2021, GitLab [acquired Opstrace](https://about.gitlab.com/press/releases/2021-12-14-gitlab-acquires-opstrace-to-expand-its-devops-platform-with-open-source-observability-solution.html) to jumpstart the plan to offer an observability solution in the One DevOps platform.
 
-Opstrace added two foundational capabilities to the GitLab platform: the [GitLab Observability Platform](./platform) and the [GitLab Observability UI](./ui). We plan to build features that help us achieve our Observability [mission and vision](#mission--vision) by leveraging these platform capabilities.
+Opstrace added two foundational capabilities to the GitLab platform: the GitLab Observability Backend for [data management](./data-management) and the GitLab Observability UI for [data visualization](./data-visualization). We plan to continue to invest in and mature these two areas. They enable the table stakes in any observability solution by enabling users to manage data all in one place and to access and visualize data through a single interface.
+
+Beyond building on the foundation, we plan to lean into well-used areas of GitLab to bring users into GitLab Observability. These capabilities are our key differentiators and the key to our [Go-To-Market](#go-to-market) strategy.
+
+### The SMT Lockup
+
+The table below is inspired by the [Strategy/Metric/Tactic Lockup](https://gibsonbiddle.medium.com/3-the-strategy-metric-tactic-lock-up-b7539ec69a7e)
+
+| **Strategy**                               | **Metric**                                         | **Tactic / Project**                 |
+|--------------------------------------------|----------------------------------------------------|--------------------------------------|
+| Data all in one place                      | Percent of customers with two different data types | Integration of Observability Backend |
+| Data is accessible from a single interface | Percent of customers who creates a dashboard       | Integration of Observability UI      |
+| Deep GitLab integration                    | MAU of features enabled by Observability           | [GTM JTBD](#jobs-to-be-done)         |
 
 ### Principles
 
@@ -41,66 +53,76 @@ We plan to work toward our vision with the following principles:
 
 #### On by Default
 
-We want developers to have immediate access to an available observability solution. That means we will ensure it is on by default, starts with convention over configuration, and is easy to use. 
+We want developers to have immediate access to an available observability solution. That means we will ensure it is on by default, starts with convention over configuration, and is easy to use.  
 
 #### Unified Data Store
 
-Data is most valuable when it is easy to glean insights across data types. As a result, we're working to store all types of data in a [unified datastore - Clickhouse](/handbook/engineering/development/ops/monitor/observability/#clickhouse-datastore), from metrics, logs, traces, and errors, to analytics data and other data types across the entire DevOps process. 
+Data is most valuable when it is easy to glean insights across data types. As a result, we're working to store all types of data in a [unified datastore - ClickHouse](/handbook/engineering/development/ops/monitor/observability/#clickhouse-datastore) from metrics, logs, traces, and errors, to analytics data and other data types across the entire DevOps process.  
 
 #### Integrated UI
 
-We plan to create an [integrated UI](/handbook/engineering/development/ops/monitor/observability/#gitlab-observability-ui-previously-known-as-opstrace-ui) that allows for visualization and collaboration of data directly within GitLab.
+We plan to create an [integrated UI](/handbook/engineering/development/ops/monitor/observability/#gitlab-observability-ui-previously-known-as-opstrace-ui) that enables visualization and collaboration of data directly within GitLab.
 
 #### Play well with the community
 
-There is a vibrant open-source community working on observability and related toolings. We intend to leverage, augment, and work with what people already use and love. For example, we intend to adopt [OpenTelemetry](https://opentelemetry.io/) as the primary way to instrument, generate, collect, and export telemetry data. We also rely on Prometheus APIs and metric labeling as conventions. 
+There is a vibrant open-source community working on observability and related toolings. The GitLab observability solution is built on top of the shoulder of the giants in this space. We intend to continue to leverage, augment, and work with what people already use and love. For example, we intend to adopt [OpenTelemetry](https://opentelemetry.io/) as the primary way to instrument, generate, collect, and export telemetry data. We also rely on Prometheus APIs and metric labeling as conventions.  
 
 #### Reduce operational complexity
 
 We plan to follow our FY23 investment theme of [GitLab Hosted First](https://about.gitlab.com/direction/#gitlab-hosted-first) in bringing our observability solution first as a SaaS solution. We plan to offer the same solution, specifically designed to ease the toil of operation, to our self-managed customers. As we mature the product, maintainability and operability will continue to be built into the product based on our learnings operating GitLab SaaS.
 
-
 ### How we are different
 
-Organizations have the choice of using a third party, observability vendor or building their own observability platform. With the former, teams outsource the problems of operating a system that needs to be scaled and consistently updated but are locked-in to proprietary software and APIs. With the latter, teams not only have to manage the complexity of operating an observability platform at scale, they have to also figure out how to make the components work together, and up to date. We want that choice to be easy to make by offering a completely open, yet managed platform.
+Organizations have the choice of using an observability vendor or building their own observability platform. With the former, teams outsource the problems of operating a system that needs to be scaled and consistently updated but are locked into proprietary software and APIs. With the latter, teams not only have to manage the complexity of operating an observability platform at scale, but they have to also figure out how to make the components work together, and keep them up to date. We want that choice to be easy to make by offering a completely open, yet managed platform.
 
 With each GitLab release you can confidently upgrade and maintain your open-source observability tooling.  Furthermore, this observability solution is integrated with the rest of GitLab so you have a single tool to build, test, collaborate, deploy, and monitor your applications.
 
-The decisions we made in architecting the GitLab observability stack also enable a level of flexibility that other solutions don't have. GitLab customers can how they want to operate to maintain data ownership and governance. We plan to enable the following capabilities in the future
+The decisions we made in architecting GitLab observability also enable a level of flexibility that other solutions don't have. GitLab customers can decide how they want to operate to maintain data ownership and governance. We plan to enable the following capabilities in the future:
 
-1. GitLab Observability SaaS using long-term storage in own cloud account
-1. GitLab Observability as a managed service
-1. GitLab Observability as a self-managed service
+1. Use GitLab Observability SaaS while using long-term storage in own cloud account
+1. Use GitLab Observability as a managed service
+1. Use GitLab Observability as a self-managed service
+1. Use GitLab Self-Managed but connect to GitLab Observability SaaS
 
 ### Go to Market
 
-We have an ambitious [vision](#vision), but we're not going to get there overnight. We intend to leverage GitLab's strength as a comprehensive DevOps platform that our users already trust and use to create, build, test, and deploy software, to bring users into our observability solution. During our next phase of development, we are going to focus on bringing users into the observability solution. We intend to iteratively do so by solving specific jobs to be done that are outlined below.
+We have an ambitious [vision](#vision), but we're not going to get there overnight. As outlined in our [strategy](#strategy), we intend to leverage GitLab's strength as a comprehensive DevOps platform that our users already trust and use to create, build, test, and deploy software, to bring users into our observability solution. The identified jobs to be done are outlined below:
 
-### Jobs to be Done
+#### Jobs to be Done
 
-#### Current Focus
+##### Current Focus
 
-##### When addressing performance problems of GitLab CI/CD, I want to understand what is happening in a pipeline, so that I can help developers be more productive
+###### When managing defects in my code, I want to prioritize and address the most impactful bug, so that I can release the highest quality software
+
+GitLab previously relied on the wrong tool (relational database) to store errors. The spiky nature of errors caused unfortunate outages to our service. We are working to move errors to the GitLab Observability Platform, and create dedicated visualization in the GitLab Observability UI. We plan to use GitLab error tracking internally and make it available to our users and customers.
+
+##### Next Focus
+
+###### When addressing performance problems of GitLab CI/CD, I want to understand what is happening in a pipeline, so that I can help developers be more productive
 
 One of the [issues](https://gitlab.com/groups/gitlab-org/-/epics/5071) today with the GitLab CI/CD is there is no out-of-the-box solution to visualize where bottlenecks are in the pipeline. Inspired by the [OpenTelemetry Jenkins plugin](https://plugins.jenkins.io/opentelemetry/) we should enable runners to instrument pipeline jobs using OpenTelemetry, provide traces to the GitLab Observability Platform, and help users understand what is happening in the GitLab Observability UI. Given that GitLab CI/CD is one of the most used features, we believe we can drive observability usage by providing a solution for this job.  
 
 Focusing on this job, we will also architect for the generic tracing use case. We want to make it easy for our users and customers to port over existing tracing jobs. We also want to make it easier for all GitLab users to start gaining the benefits of tracing.
 
-##### When deploying to a Kubernetes cluster, I want insights into on the deployment, so that I can intervene and troubleshoot as needed
+###### When deploying to a Kubernetes cluster, I want insights into on the deployment, so that I can intervene and troubleshoot as needed
 
-Kubernetes is the operating platform or the future platform for many organizations. As such, we want to [lower the cost to operate in Kubernetes via GitLab](https://about.gitlab.com/direction/configure/kubernetes_management/#vision). We can create a solution for the job by creating a [Kubernetes Dashboard](https://gitlab.com/groups/gitlab-org/-/epics/2493). By building the Kubernetes Dashboard on top of the observability stack, we can help the Configure and Release team to have less code to maintain, and build generic plumbing for generic data that changes frequently that should be displayed in dashboards. 
+Kubernetes is the operating platform or the future platform for many organizations. As such, we want to [lower the cost to operate in Kubernetes via GitLab](https://about.gitlab.com/direction/configure/kubernetes_management/#vision). We can create a solution for the job by creating a [Kubernetes Dashboard](https://gitlab.com/groups/gitlab-org/-/epics/2493). By building the Kubernetes Dashboard on top of GitLab observability, we can help the Configure and Release team to have less code to maintain, and build generic plumbing for generic data that changes frequently that should be displayed in dashboards.  
 
-##### When managing defects in my code, I want to prioritize and address the most impactful bug, so that I can release the highest quality software
+##### Future Focus
 
-GitLab previously relied on the wrong tool (relational database) to store errors. The spiky nature of errors caused unfortunate outages to our service. We are working to move errors to the GitLab Observability Platform, and create dedicated visualization in the GitLab Observability UI. We plan to use GitLab error tracking internally and make it available to our users and customers.
-
-#### Future Focus
-
-##### When managing my self-managed GitLab instance, I want to monitor the key metrics, so I can ensure the health and performance of GitLab for my teams
+###### When managing my self-managed GitLab instance, I want to monitor the key metrics, so I can ensure the health and performance of GitLab for my teams
 
 Details TBD
 
+## Roadmap  
+
+|                    | FY23`Q4 | FY24`Q1 | FY24`Q2 | FY24`Q3 |
+|--------------------|---------|---------|---------|---------|
+| o11y Backend       |         |         |         |         |
+| o11y Visualization |         |         |         |         |
+
 ## Planning
+
 Planning happens in the [planning board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) where issues are arranged by release. Over time this will become more populated with a further look into the upcoming releases.
 
 There are located in this [project](https://gitlab.com/gitlab-org/opstrace/general).

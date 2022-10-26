@@ -96,7 +96,7 @@ A variety of product usage statistics are pushed back from Gainsight to Salesfor
 
 <br>
 
-## TAM Actions
+## CSM Actions
 
 ### Viewing all Unknown Self-Managed Instances
 
@@ -150,6 +150,11 @@ See User & Project Adoption Metrics tab on [Product Usage Reporting for Gainsigh
 Data will be integrated from Snowflake —> Gainsight on a monthly basis. Over time, this will move to bi-weekly and then weekly.
 
 ![Product Usage Data Flow Diagram](https://lucid.app/publicSegments/view/cba91861-d0aa-4f96-8848-56a2eec5798b/image.jpeg)
+
+Detailed data flow diagrams included below:
+1. [Self-Managed Data Flow](https://lucid.app/lucidchart/232217df-3928-4756-bab5-ff5d9e9f8e1d/edit?page=p7SKh-RIp~zU#)
+1. [SaaS Data Flow](https://lucid.app/lucidchart/232217df-3928-4756-bab5-ff5d9e9f8e1d/edit?page=N..FbmDj1brI#)
+1. [dbt flows](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_product_usage_paid_user_metrics_monthly?g_v=1&g_i=%2Bmart_product_usage_paid_user_metrics_monthly%2B) (note: this is very detailed)
 
 ### Data Sources and Application
 

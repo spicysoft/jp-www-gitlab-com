@@ -20,7 +20,31 @@ Related Pages:
  
 US based benefits are arranged through Willis Towers Watson and managed on the PlanSource platform. The benefits decision discussions are held by Total Rewards, the CFO, and the CEO to elect the next year's benefits by the carrier's deadlines. Total Rewards will notify the team of open enrollment as soon as details become available. 
  
+## 2023 Plan Year 
+
+For the 2023 plan year GitLab will continue to cover 100% of team member coverage and will increase the employer contribution portion for dependent medical coverage from 66% to 71% for all medical plans with dependent coverage.   
+
+Please see additional information on the 2023 US Benefit Plans: 
+
+* Need help selecting a plan? Check out the [PlanSelect Tool](https://myplanselect.com/navigation/Gitlab/2022) to help you find a plan that best suits your needs. 
+
+* Review the [2023 US Benefits Guide](https://drive.google.com/file/d/1vwdEJIdqogqbfFpwcRVC1cHcjH4SsckR/view?usp=sharing) for full plan details and updated plan rates. 
+
+* Watch the [2023 US Benefits Video](https://www.brainshark.com/willis/vu?pi=zIgzfm1iozgaiCz0) for a full review of the benefit plans. 
+
+* GitLab offers Mental Wellnesss Services through [Modern Health](https://about.gitlab.com/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
+
+* Please review the full [summary plan description](https://drive.google.com/file/d/1SAmlBXC6AZUy3vSNRjdcEgQIFCQP01L6/view?usp=sharing) of all related health benefits and a the most recent [Summary of Material Modifications](https://drive.google.com/file/d/1_j61NVNqUQ0A4RBWM3ihooRuf094QdWr/view?usp=sharing) from Jan 1, 2022. Please review the [2023 Annual Rights and Notices](https://drive.google.com/file/d/1ku6hO8_ckJL49MLqOfFchIq_L4GblksZ/view?usp=sharing)
+
+### Open Enrollment
+
+GitLab’s US Benefits Open Enrollment for Calendar Year 2023 will take place from 2022-10-31 through 2022-11-11. This year will be a passive enrollment, which means that if you do not wish to make changes to your health benefits (medical, dental and vision), you do not have to re-enroll for 2023; your 2022 elections will automatically roll over, with the exception of Flexible Spending Accounts (FSAs), which you must actively (re)enroll in every year. We are staying with our current carriers (Cigna, Kaiser, etc).
+
+Please take note of the updated premium rates for the Cigna and Kaiser plans listed in the [2023 US Benefits Guide](https://drive.google.com/file/d/1vwdEJIdqogqbfFpwcRVC1cHcjH4SsckR/view?usp=sharing). 
+
 ## 2022 Plan Year
+
+For the 2022 Plan year GitLab covers **100% of team member contributions and 66% for spouse, dependents, and/or domestic partner** of premiums for medical, dental, and vision coverage. Plan rates are locked through December 31, 2022. 
 
 Please see additional information on the 2022 US Benefit Plans: 
 
@@ -37,15 +61,11 @@ Please see additional information on the 2022 US Benefit Plans:
 **Illinois Team Members:** In accordance to the Illinois Consumer Coverage Disclosure Act, please find the [2022 Coverage Summary](https://drive.google.com/file/d/1TpmjxTN15sauveW5VqN3D18gP1YwoOgi/view?usp=sharing) for the essential health benefits available to you. See the [HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR/view?usp=sharing), [PPO](https://drive.google.com/file/d/1O9LW50Wa7Dq6C9SRoEiCR422XK-0_2ZB/view?usp=sharing), and [EPO](https://drive.google.com/file/d/1tHFEoBDaI1O4yluL9U-X7RBWG8JZOdOS/view?usp=sharing) Summary Plan Descriptions for reference. 
 
 
-## 2021 Plan Year
+**2021 Plan Year** 
 
 Team Members can find information on the **2021 Calendar Year** benefit plans, details, and open enrollment [archived here.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/fd1efce5ea06c2a26dddeec9dea3f3c217adeeab/sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/index.html.md) 
 
-### 1095-C Forms (2021)
- * Team Members can access their 2021 Form 1095-C tax documents on PlanSource. 
-     - To access your 1095-C form, log on to your [PlanSource home page](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource). On the side bar select Documents> Tax Documents> Prior Calendar Year > View Form.
-    - Form 1095-C has information about the health insurance the company offered you, your spouse and/or your dependents. While the information may assist in preparing tax returns, the form is not submitted with your tax return and is not generally requried, however the Form 1095-C should be saved with your other important tax dcouments. 
-     - Team Members will also receive these documents to their home address via US mail 
+
  
 ## Who To Contact
 
@@ -69,7 +89,7 @@ Please allow up to two weeks for ID cards to generate after completing your enro
  
 If you have existing coverage when joining GitLab (e.g. coverage for an additional month from your prior employer), you have the option of enrolling in GitLab's coverage after your prior coverage terminates. If you wish to do this, you should register with PlanSource during onboarding and waive all coverages. Once your previous coverage is terminated, you should sign up for coverage through PlanSource on or within 30 days of the termination date by initiating a Qualifying Life Event and providing proof of coverage termination.
  
-GitLab covers **100% of team member contributions and 66% for spouse, dependents, and/or domestic partner** of premiums for medical, dental, and vision coverage. Plan rates are locked through December 31, 2020.
+ **If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP).**
  
 More information on the processed deductions in payroll from PlanSource can be found on the [Accounting and Reporting page](/handbook/finance/accounting/).
 
@@ -86,20 +106,6 @@ Effective 16 June 2022, You can log into PlanSource through your Workday profile
 
 Review the [PlanSource Login & Enrollment](https://drive.google.com/file/d/1py7C8ngTpVlYNSKG4If3yBw43dg3F6Ml/view?usp=sharing) Guide for additional details on logging in and electing benefits. 
 
-### Group Medical Coverage
- 
-GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California, and Colorado. Hawaii residents are offered Kaiser options for medical plan enrollment. 
-
- Deductibles are for plan year of 2022-01-01 to 2022-12-31.
- 
-If you already have current group medical coverage, you may choose to waive or opt out of group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance and will still be able to enroll in dental, vision, optional plans, and flexible spending accounts. In order to receive the monthly benefit allowance you must log on to PlanSource and actively waive medical cover. 
- 
-**If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP).**
- 
-GitLab has confirmed that our medical plans are CREDITABLE. Please see the attached [2021 notice](https://drive.google.com/file/d/1_w2svtOAP09lVKLWXsKzyLhZdlmB2ElZ/view?usp=sharing) and page 7 of the [2022 Annual Notice](https://drive.google.com/file/d/1Um-mVPUiub7HPLBf6wtkRoY1tMleDuQq/view?usp=sharing). If you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
-- Visit [www.medicare.gov](https://www.medicare.gov)
-- Call your State Health Insurance Assistance Program (see the [“Medicare & You” handbook](https://www.medicare.gov/medicare-and-you) for their telephone number) for personalized help.
-- Call 1-800-MEDICARE (1-800-633-4227). TTY users should call 1-877-486-2048.
  
 #### Eligibility
  
@@ -137,21 +143,33 @@ If your Qualifying Life Event requires documentation the steps below will follow
 1. Upload the documentation in to PlanSource. 
 1. Once submitted the Total Rewards Team will review your request and documentation for approval. 
 
+## Group Medical Coverage
  
-#### Cigna Medical Plans
+GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California, and Colorado. Hawaii residents are offered Kaiser options for medical plan enrollment. 
+ 
+If you already have current group medical coverage, **you may choose to waive or opt out of group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance** and will still be able to enroll in dental, vision, optional plans, and flexible spending accounts. In order to receive the monthly benefit allowance you must log on to PlanSource and actively waive medical cover. 
+ 
+If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP).
+ 
+GitLab has confirmed that our medical plans are CREDITABLE. Please see the attached [2021 notice](https://drive.google.com/file/d/1_w2svtOAP09lVKLWXsKzyLhZdlmB2ElZ/view?usp=sharing) and page 7 of the [2022 Annual Notice](https://drive.google.com/file/d/1Um-mVPUiub7HPLBf6wtkRoY1tMleDuQq/view?usp=sharing). If you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
+- Visit [www.medicare.gov](https://www.medicare.gov)
+- Call your State Health Insurance Assistance Program (see the [“Medicare & You” handbook](https://www.medicare.gov/medicare-and-you) for their telephone number) for personalized help.
+- Call 1-800-MEDICARE (1-800-633-4227). TTY users should call 1-877-486-2048.
+ 
+### Cigna Medical Plans
 
-##### Cigna 2022 Calendar Year Plans
+#### Cigna 2022 & 2023 Calendar Year Plans
  
 **Coverages:**
  
 Cigna plans are available to team members located in all US states, with the exception of Hawaii. 
- The Cigna 2022 plan details include the following enhancements: inclusion of acupuncture, chiropractic care, and hearing aid benefits.
+
  
 In Network:
  
-| Plan Details               | [2022 Cigna HDHP- HSA](https://drive.google.com/file/d/13TITeW4_KkSM8aQcWL4ya42OtkYY9wRD/view?usp=sharing) |  [2022 Cigna EPO (PPO $0)](https://drive.google.com/file/d/1HgXi45ik3YwzghWvJZhDatOyAtCiUa-_/view?usp=sharing)\*\*  | [2022 Cigna PPO 500](https://drive.google.com/file/d/1uLa9P6kSkLQ8decI7NMfSf1fzNIXsU7N/view?usp=sharing)\*\*\*    |
+| Plan Details               | [2022 Cigna HDHP- HSA](https://drive.google.com/file/d/13TITeW4_KkSM8aQcWL4ya42OtkYY9wRD/view?usp=sharing) <br> [2023 Cigna HDHP - HSA](https://drive.google.com/file/d/1QkInnwGyMOZyaPLrktnBPCp9h14_Q8sg/view?usp=sharing) |  [2022 Cigna EPO (PPO $0)](https://drive.google.com/file/d/1HgXi45ik3YwzghWvJZhDatOyAtCiUa-_/view?usp=sharing)\*\* <br> [2023 Cigna EPO (PPO $0)](https://drive.google.com/file/d/1N96ON4VS_0Tfq0JAIui7WYBJosV5WiG9/view?usp=sharing)\*\* | [2022 Cigna PPO 500](https://drive.google.com/file/d/1uLa9P6kSkLQ8decI7NMfSf1fzNIXsU7N/view?usp=sharing)\*\*\*  <br> [2023 Cigna PPO 500](https://drive.google.com/file/d/18A2fDCNEUBdXOhd7kIGWRy1w_1ljIlIS/view?usp=sharing)\*\*\* |
 |:---------------------------|:----------------------:|:------------------:|:-----------------:|
-| Deductible (Single/Family) | $2,000 / $2,800        | $0 / $0            | $500 / $1,000     |
+| Deductible (Single/Family) | $2,000 / $2,800 (3,000 for 2023)     | $0 / $0            | $500 / $1,000     |
 | Out of Pocket Max (Single/Family)    | $4,000 / $8,000        | $2,500 / $5,000    | $3,000 / $6,000   |
 | Primary Care Visit         | 20%                    | $20 per visit      | $20 per visit     |
 | Specialist Visit           | 20%                    | $20 per visit      | $20 per visit     |
@@ -162,8 +180,9 @@ In Network:
 | Generic                    | $10                    | $10                | $10               |
 | Brand - Preferred          | $30                    | $30                | $30               |
 | Brand - Non-Preferred      | $50                    | $50                | $50               |
+| HSA Annual Employer Contribution      | $1200       | N/A                | N/A               |
 | Rx Plan^                   | [Standard 3-tier](https://www.cigna.com/static/www-cigna-com/docs/individuals-families/member-resources/prescription/standard-3-tier.pdf) | [Standard 3-tier](https://www.cigna.com/static/www-cigna-com/docs/individuals-families/member-resources/prescription/standard-3-tier.pdf) | [Standard 3-tier](https://www.cigna.com/static/www-cigna-com/docs/individuals-families/member-resources/prescription/standard-3-tier.pdf) |
-| Summary Plan Descriptions  | [HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR/view?usp=sharing)  | [EPO](https://drive.google.com/file/d/1tHFEoBDaI1O4yluL9U-X7RBWG8JZOdOS/view?usp=sharing)       | [PPO](https://drive.google.com/file/d/1O9LW50Wa7Dq6C9SRoEiCR422XK-0_2ZB/view?usp=sharing)               |
+| Summary Plan Descriptions  | [2022 HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR/view?usp=sharing) <br> [2023 HDHP](https://drive.google.com/file/d/1eBWTivdV3WyWr3Ie3spIV2uGWdGySe7t/view?usp=sharing) | [2022 EPO](https://drive.google.com/file/d/1tHFEoBDaI1O4yluL9U-X7RBWG8JZOdOS/view?usp=sharing)  <BR> [2023 EPO](https://drive.google.com/file/d/1xpW3mWOaKiqnLO4DZqnqcV-LZEGdpIeY/view?usp=sharing)    | [2022 PPO](https://drive.google.com/file/d/1O9LW50Wa7Dq6C9SRoEiCR422XK-0_2ZB/view?usp=sharing) <BR>  [2023 PPO](https://drive.google.com/file/d/1gW9evvoVy-JEIiVL05q22dQt1pE_auCw/view?usp=sharing) <BR> [2023 PPO UTAH](https://drive.google.com/file/d/1TxTQuBRSLWa-gwrc2flIiJdzJPKBLj_g/view?usp=sharing)      |
 
 
 ** In order for the EPO plan to be compliant in all states, it has been set up as a PPO plan with bad out-of-networks benefits including a deductible of $10k/$20k, an Out of Pocket Max of $20k/$40k, and a coinsurance of 50%. Please do not enroll in this plan if you are intending to use the out-of-networks benefits and instead review the Cigna PPO 500 or Cigna HSA plans.
@@ -178,7 +197,7 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 **Team Member Costs:**
  
 
-_2022 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
+##### _2022 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
  
 | Tier                     | HDHP-HSA | EPO  | PPO  |
 |--------------------------|:---:|:----:|:----:|
@@ -186,6 +205,16 @@ _2022 Rates_: The following costs are monthly rates which would be deducted from
 | Team Member + Spouse     | $0  | $248 | $242 |
 | Team Member + Child(ren) | $0  | $188 | $184 |             
 | Family                   | $0  | $426 | $416 |
+
+ ##### _2023 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
+ 
+| Tier                     | HDHP-HSA | EPO  | PPO  |
+|--------------------------|:---:|:----:|:----:|
+| Team Member Only         | $0  | $0   | $0   |
+| Team Member + Spouse     | $0  | $272 | $262 |
+| Team Member + Child(ren) | $0  | $206 | $198 |             
+| Family                   | $0  | $466 | $450 |
+
 
 Note: For the **HSA**, GitLab will contribute $100 per month. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.  
 
@@ -210,7 +239,7 @@ Coverage will be provided for the following services:
  
 Cigna has advised they will provide [WPATH](https://www.wpath.org/) compliant coverage for all plans. For more information on their coverage, please see the [coverage policy document](https://drive.google.com/file/d/1sdsiFcTFEWsIidOXwPBcNNOCqFVERSXg/view?usp=sharing). For Cigna to provide coverage, medical necessity must be proven. It is highly recommended to go through the prior authorization process when seeking treatment.
  
-Please reach out to the [Total Rewards team and WTW](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#who-to-contact) with any questions or if you need help while seeking authorization for a treatment.
+Please reach out to the [Total Rewards team and WTW](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#who-to-contact) with any questions or if you need help while seeking authorization for a treatment. 
  
 ##### Cigna Provider Search
  
@@ -235,9 +264,9 @@ Virtual visits for Cigna members can be accessed by visiting [myCigna](https://m
 
 Benefits for services and supplies received outside the Service Area are covered only for medical emergencies and other urgent situations where treatment could not have been reasonably delayed until the insured person was able to return to the United States
 
-#### Kaiser Medical Plans
+### Kaiser Medical Plans
  
-##### Kaiser 2022 Calendar Year Plans
+#### Kaiser 2022 & 2023 Calendar Year Plans
 
 The following Kaiser options are availble for Hawaii residents.
 Residents in California and Colorado have the Kaiser options below, in addition to the Cigna plan options. 
@@ -245,9 +274,12 @@ Residents in California and Colorado have the Kaiser options below, in addition 
 
 **Coverages:**
 
- The Kaiser 2022 plan details will include the following enhancements: inclusion of acupuncture, chiropractic care, and hearing aid benefits. Review the [Kaiser Permanente Chiropractic and Acupuncture Benefits flyer](https://drive.google.com/file/d/1UtDITIjSk43hPDYml-bNubmju4qIx_Ac/view?usp=sharing) for more information on these plans. 
+ The Kaiser 2022 & 2023 Coverage details can be found below.
+
+ The Kaiser CO plan is closed to new enrollees with effective dates 1/1/2023 and beyond. Team members currently enrolled in the plan in 2022 may remain on the plan. 
+
  
-| Plan Details               | [2022 HMO NorCal](https://drive.google.com/file/d/1br0BSmgAaiHF08in77Bjezk0vQvDzg3k/view?usp=sharing)     | [2022 HMO 20 SoCal](https://drive.google.com/file/d/1VF3sWuFdIhpR6ScnBuqUl6R_OGvH7d1e/view?usp=sharing) |  [2022 HMO 20 CO](https://drive.google.com/file/d/1BosRYdWVsrdpLpaGP--ci79zmTbFPOto/view?usp=sharing)    | 2022 HMO 20 HI (TBD)   |
+| Plan Details               | [2022 HMO NorCal](https://drive.google.com/file/d/1br0BSmgAaiHF08in77Bjezk0vQvDzg3k/view?usp=sharing) <br> [2023 HMO Norcal](https://drive.google.com/file/d/1IiqTRhloWsANkg42fmry6Ch9lXBVciMw/view?usp=sharing)   | [2022 HMO 20 SoCal](https://drive.google.com/file/d/1VF3sWuFdIhpR6ScnBuqUl6R_OGvH7d1e/view?usp=sharing) <br> [2023 HMO 20 SoCal](https://drive.google.com/file/d/1jZ6dvgCrqdVMSS3I1PxfGagpUXdIngge/view?usp=sharing) |  [2022 HMO 20 CO](https://drive.google.com/file/d/1BosRYdWVsrdpLpaGP--ci79zmTbFPOto/view?usp=sharing) <br> [2023 HMO CO](https://drive.google.com/file/d/11fsZfiYwgIkLVEtwLvL7-mn0sw63zb_5/view?usp=sharing) | [2022 HMO 20 HI](https://drive.google.com/file/d/1hhOOBbgEI3HLmM5fzXi-MrpNl9hotr8V/view?usp=sharing) <br> 2023 HMO 20 HI (tbd)   |
 |----------------------------|:--------------------:|:---------------:|:---------------:|:---------------:|
 | Deductible (Single/Family) | $0 / $0              | $0 / $0         | $0 / $0         | $0 / $0         |
 | Out Of Pocket Max (Single/Family)    | $1,500 / $3,000      | $1,500 / $3,000 | $2,000 / $4,000 | $2,500 / $7,500 |
@@ -261,21 +293,33 @@ Residents in California and Colorado have the Kaiser options below, in addition 
 | Brand - Preferred          | $35                  | $35             | $30             | $50             |
 | Brand - Non-Preferred      | $35                  | $35             | $50             | $50             |
 | Specialty Drugs            | 20% up to $150       | 20% up to $150  | 20% up to $250  | $200            |
+| Disclosures          | [2023 HMO Norcal](https://drive.google.com/file/d/1eHbGgFJW0mI1GxaZTQRJmrdqKg5Av8Ff/view?usp=sharing)    | [2023 HMO 20 SoCal](https://drive.google.com/file/d/1ryB9zwFrs6e7r0ZpvEiSM30y0nCOWvsh/view?usp=sharing) | [2023 HMO 20 CO](https://drive.google.com/file/d/1euEYQFuSEeW4cQ79mQNZenJ5YaBUzYtu/view?usp=sharing)        | 2023 HMO HI (TBD)   | 
  
 Please see the [2022 Kaiser Colorado Enrollment Guide](https://drive.google.com/file/d/1oOqIMImcUShku7gKKd3IKkyMv2z7wRto/view?usp=sharing) for more information on the Kaiser Colorado plan. 
+
+Please see the [Disclosure Part 2 form for the Kaiser CA Plans](https://drive.google.com/file/d/1Ry5uVrGWp42P7z8dso4zd0lg7JGC-BTV/view?usp=sharing)
 
 **Team Member Costs:**
  
 The following costs are monthly rates which would be deducted from your paycheck.
 
-_2022 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
+##### _2022 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
  
 | Tier                     | HMO CA North | HMO CA South | HMO CO | HMO HI |
 |--------------------------|:------------:|:------------:|:------:|:------:|
 | Team Member Only         | $0           | $0           | $0     | $0     |
 | Team Member + Spouse     | $244         | $244         | $340   | $178   |
-| Team Member + Child(ren) | $194         | $194         | $284   | $144   |         
+| Team Member + Child(ren) | $194         | $194         | $284   | $144   |        
 | Family                   | $378         | $378         | $566   | $356   |
+
+##### _2023 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
+ 
+| Tier                     | HMO CA North | HMO CA South | HMO HI |
+|--------------------------|:------------:|:------------:|:------:|
+| Team Member Only         | $0           | $0           | $0     |
+| Team Member + Spouse     | $214         | $214         | $146   |
+| Team Member + Child(ren) | $170         | $170         | $116   |         
+| Family                   | $330         | $330         | $290   |
 
 
 ##### Kaiser Telehealth
@@ -310,11 +354,17 @@ Kaiser California and Colorado Members are covered for infertility services at 5
 
 Kaiser Hawaii Plan members are covered for an infertility consultation and certain In Vitro Fertilization (IVF) procedures. More information on the Infertility services for Hawaii Kaiser members can be found on the [2021 Hawaii Health Plan](https://drive.google.com/file/d/1jQhVbbd0xpNDLB093nfptlUv972ALlDF/view?usp=sharing). 
 
+##### Kaiser Chiropactic and Acupuncture
+
+Review the [Kaiser Permanente Chiropractic and Acupuncture Benefits flyer](https://drive.google.com/file/d/1UtDITIjSk43hPDYml-bNubmju4qIx_Ac/view?usp=sharing) for more information on these plans.
+
 #### Pregnancy & Maternity Care
  
 With medical plans, GitLab offers pregnancy and maternity care. Depending on the plan you selected, your coverages may differ for in-network vs out-of-network, visits, and inpatient care. Please contact the [Total Rewards team or WTW](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#who-to-contact) with any questions about your plan. To learn more about Parental Leave, please refer to our [Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Once your child has arrived, please follow the steps outlined above in regard to this [Qualifying Life Event](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#qualifying-life-events).
 
 You may need a [reasonable accommodation](/handbook/people-policies/inc-usa/#reasonable-accommodation) during your pregnancy. For more information regarding GitLab's [Pregnancy Accommodation](/handbook/people-policies/inc-usa/#pregnancy-accommodation) policy, please also refer to our [Individuals with Disabilities](/handbook/people-policies/inc-usa/#individuals-with-disabilities-policy) policy. 
+
+
  
 ### Dental
  
@@ -324,12 +374,12 @@ Dental does not come with individualized insurance cards from Cigna, although yo
  
 When submitting a claim, you can mail it to Cigna Dental PO Box 188037 Chattanooga, TN, 37422 or fax it to 859-550-2662.
  
-#### Dental 2022 Calendar Year Plan
+#### Dental 2022 & 2023 Calendar Year Plan
  
 **Coverages:**
 
  
-| Plan Details                         | [DDPO 2022](https://drive.google.com/file/d/10lDPQ-EfmHpE_danm3cwMEb7KA9njlts/view?usp=sharing)  | 
+| Plan Details                         | [DDPO 2022](https://drive.google.com/file/d/10lDPQ-EfmHpE_danm3cwMEb7KA9njlts/view?usp=sharing) <br> [DDPO 2023](https://drive.google.com/file/d/12Y1VcaEzU3mvIMvvJu4wZBlUxIx3lC10/view?usp=sharing) | 
 |--------------------------------------|:----------:|
 | Deductible (Single/Family)                          | $50 / $150 |
 | Maximum Benefit                      | $2,000     |
@@ -345,7 +395,7 @@ When submitting a claim, you can mail it to Cigna Dental PO Box 188037 Chattanoo
  
 The following costs are monthly rates which would be deducted from your paycheck.
 
- _2022 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
+ ##### _2022 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
 
 | Tier                     | DPPO |
 |--------------------------|:----:|
@@ -353,6 +403,16 @@ The following costs are monthly rates which would be deducted from your paycheck
 | Team Member + Spouse     | $14  |
 | Team Member + Child(ren) | $20  |
 | Family                   | $36  |
+
+##### _2023 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
+
+| Tier                     | DPPO |
+|--------------------------|:----:|
+| Team Member Only         | $0   |
+| Team Member + Spouse     | $16  |
+| Team Member + Child(ren) | $20  |
+| Family                   | $38  |
+
  
 ##### Cigna Dental Period to Submit Claims
  
@@ -376,10 +436,9 @@ When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingha
  
 **Coverages:**
 
- The 2022 Vision plan details will include the following enhancements: increase frame allowance to up to $150. 
 
  
-| Plan Details                      | [Vision 2022](https://drive.google.com/file/d/1VmjN9hLqVk7AqaHdWVUqK155U7yO-mBV/view?usp=sharing)     | 
+| Plan Details                      | [Vision 2022](https://drive.google.com/file/d/1VmjN9hLqVk7AqaHdWVUqK155U7yO-mBV/view?usp=sharing) <br> [Vision 2023](https://drive.google.com/file/d/1mgxotPpH-ODgu3bFWUMp-0Z6mK7dprVt/view?usp=sharing)  | 
 |-----------------------------------|:------------:|
 | Frequency of Services             | 12 months   |
 | Copay Exam                        | $20          | 
@@ -387,16 +446,15 @@ When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingha
 | Single Vision                     | $0           | 
 | Bifocal                           | $0           |
 | Trifocal                          | $0           |
-| Frame Allowance                   | up to $130   |
+| Frame Allowance                   | up to $150   |
 | Elective Lenses Contact Allowance | up to $130   |
  
-**The Frame allowance has increase to up to $150 for the Vision 2022 Calendar Year Plan.**
 
 **Team Member Costs:**
  
 The following costs are monthly rates which would be deducted from your paycheck.
 
-2022 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
+##### _2022 & 2023 Rates_: The following costs are monthly rates which would be deducted from your paycheck.
  
 | Tier                     | Vision |
 |--------------------------|:------:|
@@ -404,6 +462,8 @@ The following costs are monthly rates which would be deducted from your paycheck
 | Team Member + Spouse     | $2.40  |
 | Team Member + Child(ren) | $1.80  |
 | Family                   | $4.80  |
+
+
 
 
 ##### Cigna Vision Period to Submit Claims
@@ -478,6 +538,8 @@ The company offers a 401k plan in which you may make voluntary pre-tax contribut
  
 GitLab offers matching 50% of contributions on the first 6% of allocated gross earnings per pay period with a yearly cap of $1,500 USD. If a hypothetical team members salary is $50,000 USD, their gross pay per period is $50,000 / 24 = $2083.33. This is then matched at a rate of $2083.33 * 6% * 50% = $62.50.
 
+As of 1 August, 2022 GitLab has removed the vesting schedule for the employer match. All prior employer match amounts have fully vested as of 1 August, 2022, new employer match contributions will automatically vest when received. 
+
 As you are eligible to participate in GitLab's 401k as of your hire date, you are *also* eligible for GitLab matching contributions as of your hire date.
  
 All employer contributions are pre-tax contributions. Team members can still make Roth 401(k) team member contributions and receive pre-tax employer contributions to your Traditional 401(k) account.
@@ -526,6 +588,8 @@ FSAs help you pay for eligible out-of-pocket health care and dependent day care 
 
 FSAs typically have a $550 rollover each calendar year. This is subject to change as dictated by the IRS. Due to COVID legislation, the IRS is allowing for unlimited carryover of FSA funds from 2021 to 2022. Starting in 2022 the IRS increased the FSA rollover amount to $570. 
 
+In 2023 the maximum salary deferral contribution has increased to $3,050 USD, with the maximium rollover amount increasing to $610 USD
+
 FSAs are employer-owned accounts. If you leave GitLab, your FSA account will be terminated on your date of termination unless you continue this through COBRA. You are able to use your full FSA amounts up to and on your last day, but not afterwards unless you enroll into COBRA. WEX (Discovery) asks that all claims be submitted up to 90 days after termination date. You can enroll into COBRA FSA if you have spent less out of your account than you have contributed to it. If you decide to enroll, you will be required to continue making your monthly contributions on a post-tax status.  For additional information, please reach out to WEX (Discovery) at 866.451.3399 or `customerservice@discoverybenefits.com`.
  
 FSAs (and Dependent Care FSAs) are subject to annual testing by the Internal Revenue Code guidelines to ensure the pre-tax benefits do not disproportionately benefit highly compensated employees. At the end of each plan year, GitLab will work with WTW to conduct the nondiscrimination testing. If a test returns that highly compensated employees benefit, you may not be able to pre-tax the full amount of your election. This can vary each year and is based upon the dollar amount of non-highly compensated employees’ elections.
@@ -540,8 +604,10 @@ Due to the Consolidated Appropriations Act, the IRS is allowing for unlimited ca
  
 #### Commuter Benefits
  
-GitLab offers [commuter benefits](https://drive.google.com/file/d/0B4eFM43gu7VPek1Ia0ZqYjhuT25zYjdYTUpiS1NFSXFXc0Vn/view?usp=sharing) which are administered through WEX (Discovery Benefits). The contribution limits from the IRS for 2021 are $270/month for parking and $270/month for transit. Starting in 2022 the contribution limits will increase to $280/month for parking and $280 per month of transit. These contributions rollover month to month. 
- 
+GitLab offers [commuter benefits](https://drive.google.com/file/d/0B4eFM43gu7VPek1Ia0ZqYjhuT25zYjdYTUpiS1NFSXFXc0Vn/view?usp=sharing) which are administered through WEX (Discovery Benefits).  
+
+In 2022 the contribution limits are $280/month for parking and $280 per month of transit. In 2023 the contribution limits are $300/month for parking and $300 per month of transit. These contributions rollover month to month. 
+
 ##### Commuter Benefits Period to Submit Claims
  
 For active employees: Up to 180 days after plan year has concluded (also known as the runout period).
@@ -723,8 +789,7 @@ If you are enrolled in medical, dental, and/or vision when you terminate from Gi
  
 If you are currently employed and have any general COBRA questions, feel free to contact the Compensation & Benefits team. If you have terminated already or have specific questions on the administration of COBRA, feel free to contact WEX (Discovery) Benefits directly: (866) 451-3399.
  
-### Costs per Month
- 
+#### 2022 
 **Medical**
  
  2022
@@ -759,3 +824,40 @@ If you are currently employed and have any general COBRA questions, feel free to
 | Team Member + Spouse           |   $15.35   |         
 | Team Member + Child(ren)       |   $12.99   |
 | Family                         |   $21.43   |
+
+#### 2023
+
+**Medical**
+
+
+ 
+| Tier                           | Cigna EPO | Cigna HDPHP HSA  |  Cigna PPO   | Kaiser HMO NorCal | Kaiser HMO SoCal | Kaiser HMO HI |
+|--------------------------------|:---------:|:-------------:|:----------:|:-----------------:|:----------------:|:------------:|
+| Team Member Only               | $792.55   |   $538.26    | $764.39   |     $560.23    |     $560.23   |    $496.90    |
+| Team Member + Domestic Partner | $1,727.87 |   $1,171.76  | $1,666.35 |  $1,293.75     |     $1,293.75 |      $993.80  |
+| Team Member + Spouse           | $1,727.87 |   $1,171.76  | $1,666.35 |     $1,293.75  |     $1,293.75 |       $993.80 |           
+| Team Member + Child(ren)       | $1,499.90 |   1,017.39   | $1,446.58 |    $1,142.88   |     $1,142.88 |      $894.42  |
+| Family                         | $2,396.00 |   $1,624.26  | $2,310.64 |     1697.11    |     1697.11   |      $1,490.70 |
+
+
+
+
+
+**Dental**
+| Tier                           | Cigna DPPO |
+|--------------------------------|:----------:|
+| Team Member Only               |   $42.15   |
+| Team Member + Domestic Partner |   $83.76  |
+| Team Member + Spouse           |   $83.76   |
+| Team Member + Child(ren)       |   $96.89  |
+| Family                         |   $148.64  |
+ 
+**Vision**
+ 
+| Tier                           | Cigna VPPO |
+|--------------------------------|:----------:|
+| Team Member Only               |   $7.13    |
+| Team Member + Domestic Partner |   $14.30  |
+| Team Member + Spouse           |   $14.30   |         
+| Team Member + Child(ren)       |   $12.10  |
+| Family                         |   $19.96   |

@@ -11,9 +11,9 @@ twitter:
 linkedin:
 gitlab: phillipwells
 departments:
-  - Engineering Function
-  - UX Department
-  - Technical Writing
+- Product Team
+- UX Department
+- Technical Writing
 projects:
   gitlab: maintainer docs
   omnibus-gitlab: maintainer docs

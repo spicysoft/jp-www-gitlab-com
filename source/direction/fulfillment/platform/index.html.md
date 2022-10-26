@@ -2,7 +2,7 @@
 layout: markdown_page
 title: "Product Direction - Fulfillment: Platform"
 description: "The Fulfillment Platform team at GitLab focuses on providing the foundations to our billing system."
-canonical_path: "/direction/fulfillment/provision/"
+canonical_path: "/direction/fulfillment/platform/"
 ---
  
 ## On this page

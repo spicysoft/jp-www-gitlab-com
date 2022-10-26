@@ -176,7 +176,6 @@
   comp_op: '='
 - sources: 
   - /blog/categories/events
-  - /events/aws-reinvent
   - /events/gitlab-connect-benelux
   target: /events/
   comp_op: ^~
@@ -327,7 +326,6 @@
   comp_op: '='
 - sources:
     - /culture/
-    - /culture
   target: /company/culture/
   comp_op: '~'
 - sources:
@@ -545,7 +543,7 @@
   target: /community/sweepstakes/
   comp_op: '='
 - sources:
-    - /tam/
+    - /csm/
     - /services/technical-account-management/
   target: /services/customer-success-management/
   comp_op: '='
@@ -641,7 +639,6 @@
   comp_op: '='
 - sources:
     - /handbook/engineering/dev-backend/plan/
-    - /handbook/engineering/development/dev/plan/
     - /handbook/engineering/development/dev/plan-team-planning-be/
     - /handbook/engineering/frontend/plan/
     - /handbook/engineering/development/dev/fe-plan/
@@ -677,9 +674,7 @@
   target: /job-families/marketing/digital-marketing-programs-manager/
   comp_op: ^~
 - sources:
-    - /2019/06/04/gitlab-11-11-2-released
     - /2019/06/04/gitlab-11-11-2-released/
-    - /2019/06/05/gitlab-11-11-2-released
     - /2019/06/05/gitlab-11-11-2-released/
     - /blog/2019/06/05/gitlab-11-11-2-released/
   target: /releases/2019/06/05/gitlab-11-11-2-released/
@@ -771,16 +766,16 @@
   target: /handbook/engineering/development/ops/
   comp_op: '='
 - sources:
-    - /handbook/engineering/development/ci-cd/verify
-  target: /handbook/engineering/development/ops/verify
+    - /handbook/engineering/development/ci-cd/verify/
+  target: /handbook/engineering/development/ops/verify/
   comp_op: '~'
 - sources:
-    - /handbook/engineering/development/ci-cd/package
-  target: /handbook/engineering/development/ops/package
+    - /handbook/engineering/development/ci-cd/package/
+  target: /handbook/engineering/development/ops/package/
   comp_op: '~'
 - sources:
-    - /handbook/engineering/development/ci-cd/release
-  target: /handbook/engineering/development/ops/release
+    - /handbook/engineering/development/ci-cd/release/
+  target: /handbook/engineering/development/ops/release/
   comp_op: '~'
 - sources:
     - /handbook/engineering/devlopment/secure/fuzz-testing
@@ -940,8 +935,6 @@
 - sources:
   - /handbook/marketing/revenue-marketing/xdr/
   - /handbook/marketing/marketing-sales-development/sdr/
-  - /handbook/marketing/revenue-marketing/xdr
-  - /handbook/marketing/marketing-sales-development/sdr
   target: /handbook/marketing/revenue-marketing/sdr/
   comp_op: '~'
 - sources: /events/SKO21/
@@ -1037,8 +1030,8 @@
   - /handbook/sales/training/sdr-coaching/
   target: /handbook/marketing/revenue-marketing/sdr/sdr-coaching/
   comp_op: '='
-- sources: /handbook/engineering/security/guidance/AM.1.01_inventory_management.html
-  target: /handbook/engineering/security/guidance/am.1.01-inventory-management.html
+- sources: /handbook/security/guidance/AM.1.01_inventory_management.html
+  target: /handbook/security/guidance/am.1.01-inventory-management.html
   comp_op: '='
 - sources:
   - /job-families/finance/revenue-manager
@@ -2498,9 +2491,7 @@
   comp_op: '^~'
 - sources:
   - /handbook/people-group/global-compensation/
-  - /handbook/people-group/global-compensation
   - /handbook/people-group/global-compensation-framework/
-  - /handbook/people-group/global-compensation-framework
   target: /handbook/total-rewards/compensation/
   comp_op: '~'
 - sources:
@@ -2518,29 +2509,29 @@
    - /handbook/engineering/ux/technical-writing/markdown-guide
   target: /handbook/markdown-guide/
   comp_op: '='
-- sources: /handbook/engineering/security/third-party-vendor-security-review.html
-  target: /handbook/engineering/security/security-assurance/security-compliance/third-party-vendor-security-review.html
+- sources: /handbook/security/third-party-vendor-security-review.html
+  target: /handbook/security/security-assurance/security-compliance/third-party-vendor-security-review.html
   comp_op: '='
-- sources: /handbook/engineering/security/pci.html
-  target: /handbook/engineering/security/security-assurance/security-compliance/pci.html
+- sources: /handbook/security/pci.html
+  target: /handbook/security/security-assurance/security-compliance/pci.html
   comp_op: '='
-- sources: /handbook/engineering/security/sec-controls.html
-  target: /handbook/engineering/security/security-assurance/security-compliance/sec-controls.html
+- sources: /handbook/security/sec-controls.html
+  target: /handbook/security/security-assurance/security-compliance/sec-controls.html
   comp_op: '='
-- sources: /handbook/engineering/security/compliance.html
-  target: /handbook/engineering/security/security-assurance/security-compliance/
+- sources: /handbook/security/compliance.html
+  target: /handbook/security/security-assurance/security-compliance/
   comp_op: '='
-- sources: /handbook/engineering/security/access-reviews.html
-  target: /handbook/engineering/security/security-assurance/security-compliance/access-reviews.html
+- sources: /handbook/security/access-reviews.html
+  target: /handbook/security/security-assurance/security-compliance/access-reviews.html
   comp_op: '='
-- sources: /handbook/engineering/security/field-security/customer-assurance-package.html
-  target: /handbook/engineering/security/security-assurance/field-security/customer-assurance-package.html
+- sources: /handbook/security/field-security/customer-assurance-package.html
+  target: /handbook/security/security-assurance/field-security/customer-assurance-package.html
   comp_op: '='
-- sources: /handbook/engineering/security/risk-management.html
-  target: /handbook/engineering/security/security-assurance/security-compliance/risk-management.html
+- sources: /handbook/security/risk-management.html
+  target: /handbook/security/security-assurance/security-compliance/risk-management.html
   comp_op: '='
-- sources: /handbook/engineering/security/soc2.html
-  target: /handbook/engineering/security/security-assurance/security-compliance/soc2.html
+- sources: /handbook/security/soc2.html
+  target: /handbook/security/security-assurance/security-compliance/soc2.html
   comp_op: '='
 - sources:
     - /handbook/engineering/development/growth/acquisition-conversion-be-telemetry
@@ -2555,12 +2546,10 @@
   comp_op: '='
 - sources:
     - /handbook/engineering/development/modelops/
-    - /handbook/engineering/development/modelops
   target: /handbook/engineering/development/data-science/
   comp_op: '~'
 - sources:
     - /handbook/engineering/development/sec/anti-abuse/
-    - /handbook/engineering/development/sec/anti-abuse
   target: /handbook/engineering/development/data-science/anti-abuse/
   comp_op: '~'
 - sources:
@@ -2640,6 +2629,7 @@
 - sources:
   - /handbook/product/product-categories/plan/
   - /handbook/product/product-categories/plan
+  - /handbook/engineering/development/dev/plan/
   target: /handbook/product/categories/plan/
   comp_op: '='
 - sources:
@@ -3262,10 +3252,10 @@
   target: /handbook/product/secure-and-govern-intern-program.html
   comp_op: '='
 - sources:
-  - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure
-  - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure/
-  - /handbook/engineering/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure.html
-  target: /handbook/engineering/security/security-assurance/dedicated-compliance/POAM-Deviation-Request-Procedure.html
+  - /handbook/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure
+  - /handbook/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure/
+  - /handbook/security/security-assurance/dedicated-compliance/POA&M-Deviation-Request-Procedure.html
+  target: /handbook/security/security-assurance/dedicated-compliance/POAM-Deviation-Request-Procedure.html
   comp_op: '='
 - sources:
     - /direction/growth 
@@ -3327,9 +3317,9 @@
   target: /handbook/leadership/coaching/
   comp_op: '='
 - sources:
-  - /handbook/engineering/security/operations/abuse
-  - /handbook/engineering/security/operations/abuse/
-  target: /handbook/engineering/security/operations/trustandsafety/
+  - /handbook/security/operations/abuse
+  - /handbook/security/operations/abuse/
+  target: /handbook/security/operations/trustandsafety/
   comp_op: '='
 - sources:
   - /job-families/finance/payroll-specialist
@@ -3455,9 +3445,9 @@
   target: /topics/ci-cd/choose-continuous-integration-tool/
   comp_op: '='
 - sources:
-  - /handbook/engineering/security/operations/
-  - /handbook/engineering/security/operations
-  target: /handbook/engineering/security/security-operations/
+  - /handbook/security/operations/
+  - /handbook/security/operations
+  target: /handbook/security/security-operations/
   comp_op: '~'
 - sources:
   - /job-families/marketing/director-product-marketing
@@ -3532,7 +3522,6 @@
   target: /blog/2019/07/19/python-3-defailt-for-license-compliance/
   comp_op: '~'
 - sources:
-  - /2018/06/06/eks-gitlab-integration
   - /2018/06/06/eks-gitlab-integration/
   - /releases/2018/06/06/eks-gitlab-integration/
   target: /blog/2018/06/06/eks-gitlab-integration/
@@ -3868,7 +3857,6 @@
   comp_op: '='
 - sources:
   - /handbook/hiring/recruiting-framework/
-  - /handbook/hiring/recruiting-framework
   target: /handbook/hiring/talent-acquisition-framework/
   comp_op: '~'
 - sources:
@@ -4249,7 +4237,6 @@
   target: /job-families/marketing/sales-development-leadership/
   comp_op: '='
 - sources:
-    - /handbook/marketing/strategic-marketing/analyst-relations/channel-marketing
     - /handbook/marketing/strategic-marketing/analyst-relations/channel-marketing/
   target: /handbook/marketing/channel-marketing/
   comp_op: '~'
@@ -4368,9 +4355,9 @@
   target: /handbook/engineering/development/ops/verify/pipeline-insights/JTBD/
   comp_op: '='
 - sources:
-  - /handbook/engineering/security/security-operations/infrastructure-security
-  - /handbook/engineering/security/security-operations/infrastructure-security/
-  target: /handbook/engineering/security/security-engineering-and-research/infrastructure-security/
+  - /handbook/security/security-operations/infrastructure-security
+  - /handbook/security/security-operations/infrastructure-security/
+  target: /handbook/security/security-engineering-and-research/infrastructure-security/
   comp_op: '='
 - sources:
   - /handbook/engineering/ux/ux-research-training/strategic-research-at-gitlab/cross-stage-research-program.html
@@ -4489,13 +4476,13 @@
   target: /analysts/gartner-vsdp21/
   comp_op: '='
 - sources:
-  - /handbook/engineering/security/security-engineering-and-research/security-research/
-  target: /handbook/engineering/security/threat-management/security-research/
+  - /handbook/security/security-engineering-and-research/security-research/
+  target: /handbook/security/threat-management/security-research/
   comp_op: '~'
 - sources:
-  - /handbook/engineering/security/vulnerability_management/
-  - /handbook/engineering/security/threat-management/vulnerability_management/
-  target: /handbook/engineering/security/threat-management/vulnerability-management/
+  - /handbook/security/vulnerability_management/
+  - /handbook/security/threat-management/vulnerability_management/
+  target: /handbook/security/threat-management/vulnerability-management/
   comp_op: '~'
 - sources:
   - /handbook/sales/field-operations/customer-success-operations/gainsight/using-gainsight-data-in-sfdc
@@ -4507,7 +4494,6 @@
   target: /handbook/engineering/development/principles/
   comp_op: '='
 - sources:
-  - /handbook/marketing/inbound-marketing/digital-experience
   - /handbook/marketing/inbound-marketing/digital-experience/
   - /handbook/marketing/brand-and-digital-design/
   - /handbook/marketing/growth-marketing/brand-and-digital-design/
@@ -4615,7 +4601,6 @@
   target: /company/team/structure/working-groups/cross-functional-prioritization/index.html
   comp_op: '='
 - sources:
-  - /direction/memory
   - /direction/memory/
   target: /direction/application_performance/
   comp_op: '~'
@@ -4687,3 +4672,6 @@
   - /handbook/marketing/corporate-marketing/#requests-for-announcements
   target: /handbook/marketing/corporate-marketing/corporate-communications/#requests-for-external-announcements
   comp_op: '='
+- sources: /handbook/engineering/security/
+  target: /handbook/security/
+  comp_op: '~'

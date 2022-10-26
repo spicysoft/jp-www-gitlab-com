@@ -2,7 +2,7 @@
 name: Katie Macoy
 locality:
 country: Remote
-role: <a href="/job-families/product/product-designer/">Product Designer, Package</a>
+role: <a href="/job-families/product/product-designer/">Product Designer</a>, Data Science:Applied ML & Anti-Abuse, Package:Package Registry (Interim)</a>
 reports_to: rayana
 picture: katiemacoy.png
 pronouns: she/her
@@ -13,9 +13,8 @@ gitlab: katiemacoy
 departments:
 - Engineering Function
 - UX Department
-- Ops Section
-- Package Group
-- CI/CD UX Team
+- Data Science Section
+- Package Stage
 projects:
   gitlab: reviewer UX
   gitlab-design: maintainer

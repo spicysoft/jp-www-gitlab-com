@@ -750,7 +750,7 @@ This label/tag is required for resources that store data (databases, storage buc
 gl_data_classification: red
 ```
 
-Values should match the documented [Data Classification Levels](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html#data-classification-levels) with all lowercase value (for cloud provider tag and label consistency).
+Values should match the documented [Data Classification Levels](https://about.gitlab.com/handbook/security/data-classification-standard.html#data-classification-levels) with all lowercase value (for cloud provider tag and label consistency).
 
 ### Expected Values
 

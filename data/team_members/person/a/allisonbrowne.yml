@@ -18,6 +18,7 @@ departments:
 projects:
   gitlab:
   - maintainer backend
+  gitlab-cli: reviewer
 story: |
   Allison is a backend engineer who enjoys making nice experiences for users.
   Outside of work, Allison has a dog and enjoys outdoor activities like hiking

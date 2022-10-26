@@ -23,7 +23,6 @@ To see what training is coming soon, view the [Sales Enablement Session issue li
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|                      
-| Oct 13 | FY23 - Q3 Competitive Update  | Joe K.  |
 | Oct 20 | *No session during the last two weeks of the quarter* | N/A |
 | Oct 27 | *No session during the last two weeks of the quarter* | N/A |
                                                                                                                                    
@@ -34,6 +33,7 @@ To see what training is coming soon, view the [Sales Enablement Session issue li
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2022-10-13 | **[How GitLab Competes with Snyk](https://youtu.be/SzAbgQGQ8Wg)**  | Private  |
 | 2022-10-06 | **[Security & Governance Enablement](https://youtu.be/O3osCCcZbt4)** | Private  |
 | 2022-09-29 | **[Collaborating with Community Programs](https://youtu.be/B75IPB5L4yI)**  | Private  |
 | 2022-09-15 | **[FY23 - Q3 Sales Ops Update - Clari Data Analytics & Best Practices](https://youtu.be/tNgYhYQH_N0)** | Private  |
@@ -68,7 +68,7 @@ To see what training is coming soon, view the [Sales Enablement Session issue li
 | 2021-09-20 | **[NEW DevOps Platform customer deck](https://youtu.be/mtQ1HbnXjb4)** | Private |
 | 2021-09-09 | **[Bitbucket Sales Play](https://youtu.be/SjvL0hyV3Zo)** | Private |
 | 2021-09-02 | **[Verify: Testing Vision & Positioning](https://youtu.be/Zisa9Qfh8v8)** | Public |
-| 2021-08-26 | **[Digital Programs for non-TAM-assigned accounts](https://www.youtube.com/watch?v=_2J71ruCqH8)** | Private |
+| 2021-08-26 | **[Digital Programs for non-CSM-assigned accounts](https://www.youtube.com/watch?v=_2J71ruCqH8)** | Private |
 | 2021-08-19 | **[Deal Review Panel Discussion](https://youtu.be/Onn7K9k3jsw)**   | Private | 
 | 2021-08-12 | **[ServiceNow <> GitLab: Better Together](https://youtu.be/bUl1-mAmMY4)**    |    Public    |
 | 2021-08-05 | **[Q3FY22 Channel Update](https://youtu.be/mwSnV5s_CsQ)**    |  Private    |

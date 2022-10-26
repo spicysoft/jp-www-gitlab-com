@@ -1,0 +1,116 @@
+description: Continuous integration helps DevOps teams reduce cycle times and
+  ship better quality software. Learn how to find the right CI tool for your
+  needs.
+canonical_path: /topics/ci-cd/choose-continuous-integration-tool/
+parent_topic: ci-cd
+file_name: choose-continuous-integration-tool
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: How to choose the right continuous integration tool
+header_body: >+
+  Continuous integration (CI) can help DevOps teams reduce cycle times and ship
+  better quality software. There are several CI options available – how can you
+  find the right CI tool for your needs? Once you’ve implemented CI, how will
+  you know if you’ve picked successfully?
+
+
+  To find [the right CI/CD tool](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) for you, it’s important to look at a few criteria: cost, features, support, and industry analysis.
+
+cover_image: https://about.gitlab.com/images/ci/ci-cd-test-deploy-illustration_2x.png
+body: >-
+  ## How much does continuous integration
+  cost?[](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/#how-much-does-continuous-integration-cost)
+
+
+  [CI solutions](/topics/ci-cd/) have different pricing models. Teams can opt for [open source](https://about.gitlab.com/solutions/open-source/) CI or a pay-per-user solution, each with their own pros and cons.
+
+
+  ### Open source vs. commercial[](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/#open-source-vs-commercial)
+
+
+  Open source software has benefits that go beyond being free. Open source is an excellent way for developers to learn new skills and collaborate within a larger open source community. Open source software, in turn, benefits from the new ideas and creative problem-solving from an engaged community. Enterprises get to take advantage of these efforts – for free.
+
+
+  While it’s hard to beat “free,” it’s important to consider more than just cost.
+
+
+  Paid software might have a cost, but with that investment comes advantages. For one, you will receive support with paid software, and higher-tier pricing models even have their own dedicated support team. When you pay for a service, you have the right to tell a provider, “I’m having trouble with this and I need your help to fix it.” In the realm of CI/CD, where configuration plays such a big role, this kind of support can save teams a lot of time and headaches.
+
+
+  A free product may have everything a team needs, but an organization has to consider if paying for a service is the better decision in the long run. The best way to do that is by doing a cost/benefit analysis.
+
+
+  ## Continuous integration cost/benefit analysis[](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/#continuous-integration-costbenefit-analysis)
+
+
+  When evaluating a CI solution or platform, it’s important to measure an organization's current needs vs. expected needs. All organizations have some sort of growth plan or expected growth trajectory and goals to go with them such as headcount goals, expansion plans, additional products or services, etc. Investing in CI has the potential to help you hit those numbers faster.
+
+
+  A cost/benefit analysis helps prioritize goals and separate long term from short term needs. A revenue-generating expense is not a dollar-for-dollar scenario. When it comes to budget considerations, it’s important to look at the big picture and discuss value as well as cost. If you’re paying the lowest price but not getting everything you need to scale, you may not have the solution you need.
+
+
+  ### CI scalability[](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/#ci-scalability)
+
+
+  Will a free software give you the room to grow or will it eventually limit you? Will you have the CI pipeline minutes you need for increased output? Will you need additional support for containers or Kubernetes later on? While small teams don't necessarily need to buy the most expensive enterprise-level software, teams should consider scale when selecting a CI tool.
+
+
+  ### Better code quality[](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/#better-code-quality)
+
+
+  Will you be able to produce better quality code and reduce code vulnerabilities? Look at the testing, collaboration, and automation capabilities.
+
+
+  ### Increased efficiency[](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/#increased-efficiency)
+
+
+  Will you be able to reduce manual tasks? Will the CI tool require a significant amount of resources or expertise to maintain? Look at workflows and maintenance needs for different CI solutions.
+
+
+  Higher-cost plans may offer additional security functionality, support for Kubernetes, additional pipeline minutes, and other perks that can help you maximize your CI/CD. When it comes to modernizing applications later, it can be a lot more expensive the bigger an organization is. Adopting technologies early, when teams are more nimble, can often be a much easier and cheaper endeavor.
+
+
+  Open source CI might be the wisest choice for smaller or highly specialized teams. It all depends on the expertise in-house and how CI plays into long-term goals. It’s important to analyze your CI budget and identify areas for revenue-generating opportunities.
+
+
+  ## Compare CI solutions[](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/#compare-ci-solutions)
+
+
+  User reviews and industry analysts can provide an unbiased opinion and give additional insight into why one CI solution may be more preferable than another.
+
+
+  What are customers of these CI tools saying? Word of mouth is a powerful indicator of how a CI tool's functionality translates into a workflow. If you’re interested in a particular CI/CD platform, learn about their customers. Read case studies and look for customers with similar problems or in similar industries to your own.
+
+
+  What are analysts saying? Happy customers won’t always point out shortcomings but industry experts can provide the vendor-neutral perspective you need to make an informed decision. Read reports and industry publications to learn how experts evaluate one CI/CD platform to another along a strict set of criteria.
+
+
+  Once you gather enough information, join webinars to learn more about a product and ask questions. Demos and free trials allow you to test drive features and see how a platform performs in an actual workflow.
+
+
+  Below are some resources you can use to learn more about CI products and read user/analyst reviews:
+
+
+  * [G2](https://www.g2.com/products/gitlab/reviews) is the largest tech marketplace where businesses can discover, review, and manage the technology they need to reach their potential.
+
+  * [TrustRadius](https://www.trustradius.com/compare-products/gitlab-vs-jenkins) is another option for trusted user reviews on business technology. Users are asked about technology on specific criteria such as the likelihood to recommend, usability, performance, return on investment, and others. TrustRadius is also good for featuring platforms head-to-head.
+
+  * Forrester is a market research company that provides reports and insights on technology in a variety of categories. [The Forrester Wave™: Cloud-Native Continuous Integration Tools](https://about.gitlab.com/analysts/forrester-cloudci19/) is a free report that evaluated the most popular tools in cloud native CI.
+
+  * Gartner is a global research and advisory firm that provides technology insights for a variety of industries. In addition to research on CI, Gartner recently introduced a new category called [Value Stream Delivery Platforms](https://www.gartner.com/en/documents/3991050/market-guide-for-devops-value-stream-delivery-platforms) that includes all stages of the software development lifecycle, including continuous integration.
+
+  * GitLab provides data and comparisons to other [DevOps tools](https://about.gitlab.com/competition/), in addition to tools for CI, SCM, agile planning, and security, among others.
+
+
+  Having the right CI tool is a competitive advantage in the current development landscape. Teams that utilize the right CI strategy for their needs are going to produce better quality software much faster, and they’re going to free up valuable resources to focus on long-term growth and innovation. While CI can help teams increase deployments and improve code quality, choosing the right CI tool for your organization's needs will have the greatest success.
+resources_title: Learn more about continuous integration tools
+resources:
+  - title: GitLab vs Jenkins
+    type: Case studies
+    url: https://about.gitlab.com/devops-tools/jenkins-vs-gitlab/
+  - title: How GitLab CI helps solve common DevSecOps challenges
+    url: https://about.gitlab.com
+    type: Blog
+suggested_content:
+  - url: /blog/2019/11/01/devops-tool-landscape/
+  - url: /blog/blog/2020/05/12/solve-devsecops-challenges-with-gitlab-ci-cd/
+  - url: /blog/2018/01/22/a-beginners-guide-to-continuous-integration/

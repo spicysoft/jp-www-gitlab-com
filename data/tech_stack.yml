@@ -24,18 +24,18 @@
   handbook_link: "[1Password Guide](/handbook/security/#1password)"
   google_group: null
 
-- title: Adaptive Planning
+- title: Adaptive Insights
   team_member_baseline_entitlement: false
   subprocessor: false
   description: A Planning System that will allow us to measure how accurate our forecasts
     are on a monthly, quarterly and annual basis
   access_to: "Accounting, FP&A"
-  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Adaptive Insights", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "FinSys - Adaptive Insights", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner: Finance Planning and Analysis
   group_owner_slack_channel: '#finance'
   business_owner: James Shen
-  technical_owner: Alex Westbrook
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -214,12 +214,12 @@
   subprocessor:
   description: "[AuditBoard](https://www.auditboard.com/) is an audit management tool used by the Internal Audit team to manage Internal Audits and the SOX program in GitLab"
   access_to: Control owners and Internal Audit team
-  provisioner: "@pranavpolisetty, @hpoojary"
-  deprovisioner: "@pranavpolisetty, @hpoojary"
+  provisioner: "@pranavpolisetty, @hpoojary, @egulla"
+  deprovisioner: "@pranavpolisetty, @hpoojary, @egulla"
   group_owner_slack_channel: Internal Audit
-  business_owner: Brijen Joshi, Sheetal Jain
-  technical_owner: Pranav Polisetty, Harinakshi Poojary
-  data_classification: Orange
+  business_owner: Brijen Joshi, Sheetal Jain, Sean Brown
+  technical_owner: Pranav Polisetty, Harinakshi Poojary, Liz Gulla
+  data_classification: Red
   integration_method: SAML
   need_move_to_okta: null
   critical_systems_tier: null
@@ -235,12 +235,12 @@
   subprocessor: false
   description: 'We use [Avalara](https://www1.avalara.com/us/en/index.html) to automate and manage all of our sales tax compliance obligations.'
   access_to: Finance Team
-  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Avalara", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "FinSys - Avalara", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner: Finance
   group_owner_slack_channel: '#finance'
-  business_owner: Igor Groenewegen-Mackintosh
-  technical_owner: Jessica Salcido
+  business_owner: Sally Tian
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: SWA
   need_move_to_okta: null
@@ -828,7 +828,7 @@
     training and development for existing team members, provide non-sales employees
     with access to sales calls, and allow sales reps to recall certain points of a
     call or demo. All ROW customer facing team members are required to complete the [Chorus GDPR training](https://gitlab.edcast.com/insights/card-c6492843-12f5-4353-9aab-fa82cf58d9cd) before receiving a Recorder license in Chorus.'
-  access_to: "**Recorders:** SALs, AEs, TAMs, SAs, and SDRs **Listeners:** Can be requested & granted case by case"
+  access_to: "**Recorders:** SALs, AEs, CSMs, SAs, and SDRs **Listeners:** Can be requested & granted case by case"
   provisioner: 'Add Label "SalesOpsAR::Action Needed"'
   deprovisioner: '@kbetances'
   group_owner: Sales Ops
@@ -1036,11 +1036,11 @@
   subprocessor: false
   description: "Coupa is a procure-to-pay system to streamline the purchase request process, initiate workflow with approvals, and enable Purchase Orders. It will help us be more efficient, save time, and provide metrics for predictability.."
   access_to: Procurement, Accounts Payable, Marketing, Professional Services, Security, Legal 
-  provisioner: '@wlam @csotomango (please add the labels "FinSys - Coupa", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: '@wlam @csotomango (please add the labels "FinSys - Coupa", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Coupa", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "FinSys - Coupa", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner_slack_channel: '#enterprise-apps'
   business_owner: '@a.hansen'
-  technical_owner: '@wlam'
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -1405,12 +1405,12 @@
   description: "[Docusign](https://www.docusign.com/) enables people to electronically
     sign agreements."
   access_to: null
-  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Docusign", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "FinSys - Docusign", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner: Business Technology
   group_owner_slack_channel: '#business-technology'
   business_owner: Craig Mestel
-  technical_owner: Wendy Lam
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -1804,7 +1804,7 @@
   description: "[Gainsight](https://gainsight.com/) Gainsight transforms data points
     into actionable insights for customer success, helping you increase retention,
     expand revenue, and scale operations."
-  access_to: 'Customer Success: Technical Account Managers, Field Ops: Customer Success
+  access_to: 'Customer Success: Customer Success Managers, Field Ops: Customer Success
     Enablement, Field Ops: SalesSystems, and FieldOps: CS Operations'
   provisioner: "@jdbeaumont @cankney @ndumas"
   deprovisioner: "@cankney @ndumas"
@@ -1817,7 +1817,7 @@
   need_move_to_okta: null
   critical_systems_tier: Tier 3 / Non-critical
   compliance_scope: none
-  collected_data: Gainsight is the post-sales tool for TAMs to manage the customer's
+  collected_data: Gainsight is the post-sales tool for CSMs to manage the customer's
     lifecycle and pull in data from Salesforce, Zendesk tickets, and usage ping/snowplow
     data.
   processing_customer_data: null
@@ -2009,12 +2009,12 @@
   description: 'Additional information on how GitLab utilizes [Google Cloud Platform](https://cloud.google.com/)
     can be found [here](/partners/technology-partners/google-cloud-platform/).'
   access_to: null
-  provisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
-  deprovisioner: "@jeffersonmartin, @dillonwheeler, Add bt-infra::access-request label"
+  provisioner: "@jeffersonmartin, @malkobaisy, Add it-eng-type::access-request label"
+  deprovisioner: "@jeffersonmartin, @malkobaisy, Add it-eng-type::access-request label"
   group_owner: BT Infrastructure, Eng Infrastructure
-  group_owner_slack_channel: '#infra-access-requests'
+  group_owner_slack_channel: '#it_help'
   business_owner: Peter Kaldis, Jeff Martin, David Smith, Marin Jankovski 
-  technical_owner: Jeff Martin, Dillon Wheeler, David Smith, Marin Jankovski 
+  technical_owner: Jeff Martin, Mohammed Al Kobaisy, David Smith, Marin Jankovski 
   data_classification: Red
   integration_method: SWA
   need_move_to_okta: null
@@ -3050,12 +3050,12 @@
   subprocessor: false
   description: '[NetSuite](http://www.netsuite.com/portal/home.shtml?noredirect=T) is the company Enterprise Resource Planning (ERP) system, which is primarily managed by the Finance team. The platform allows enhanced dimensional reporting as well as multi-currency and multi-entity reporting. This is where the General Ledger resides and all financial activity is ultimately recorded, which is critical to reporting the financial health of the company.'
   access_to: Finance Team
-  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Netsuite", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "FinSys - Netsuite", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner: Finance
   group_owner_slack_channel: '#finance'
-  business_owner: Erica de Longpre
-  technical_owner: Wendy Lam
+  business_owner: Erica de Longpre or Urja Patel
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -3220,7 +3220,7 @@
 - title: OneTrust Vendorpedia
   team_member_baseline_entitlement: false
   subprocessor: false
-  description: '[OneTrust Vendorpedia](https://exchange.vendorpedia.com/) is a community of shared vendor assessments and due diligence data on 70,000+ third parties that is leveraged by GitLab to complete [Customer Security Assessments](https://about.gitlab.com/handbook/engineering/security/security-assurance/field-security/customer-security-assessment-process.html) and [Third-Party Risk Management Security reviews](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-risk/third-party-risk-management.html).'
+  description: '[OneTrust Vendorpedia](https://exchange.vendorpedia.com/) is a community of shared vendor assessments and due diligence data on 70,000+ third parties that is leveraged by GitLab to complete [Customer Security Assessments](https://about.gitlab.com/handbook/security/security-assurance/field-security/customer-security-assessment-process.html) and [Third-Party Risk Management Security reviews](https://about.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management.html).'
   access_to: Security Assurance
   provisioner: '@rcshah,@Julia.Lake'
   deprovisioner: '@rcshah, @Julia.Lake'
@@ -3238,7 +3238,7 @@
   employee_or_customer_facing_app: employee
   notes: null
   saas: null
-  handbook_link: '[Vendorpedia](https://about.gitlab.com/handbook/engineering/security/security-assurance/field-security/Vendorpedia.html)'
+  handbook_link: '[Vendorpedia](https://about.gitlab.com/handbook/security/security-assurance/field-security/Vendorpedia.html)'
   external_link: 
   google_group:
 
@@ -3476,7 +3476,7 @@
     tracks and micro-personalized website recommendations."
   access_to: Marketing Operations; Direct access to this system is limited to specific functional
     groups w/in Marketing, defined in baseline entitlements
-  provisioner: "@Nikkitoth"
+  provisioner: "@Nikkiroth"
   deprovisioner: "@Nikkiroth"
   group_owner: Marketing
   group_owner_slack_channel: '#marketing'
@@ -3835,7 +3835,7 @@
   team_member_baseline_entitlement: false
   subprocessor: false
   description: '[Retain.ai](https://retain.ai/) is used to monitor customer engagement'
-  access_to: Customer Success in TAM Sales
+  access_to: Customer Success in CSM Sales
   provisioner: '@chloe, @spatching'
   deprovisioner: '@chloe, @spatching'
   group_owner: Sales
@@ -3962,7 +3962,7 @@
   team_member_baseline_entitlement: false
   subprocessor: false
   description: "[Salesforce Inbox](https://chrome.google.com/webstore/detail/salesforce/jjghhkepijgakdammjldcbnjehfkfmha) is a Chrome extension that allows team members to work with Salesforce records directly in their email application via the Gmail integration."
-  access_to: "Enterprise (excluding West), Enterprise ISRs, TAMs, SAs, Professional Services, PubSec, PubSec ISRs, and PubSec CAMs"
+  access_to: "Enterprise (excluding West), Enterprise ISRs, CSMs, SAs, Professional Services, PubSec, PubSec ISRs, and PubSec CAMs"
   provisioner: 'Add Label "SalesOpsAR::Action Needed"'
   deprovisioner: null
   group_owner: null
@@ -4378,12 +4378,12 @@
     GitLab customers to make online payments. Finance uses this system to collect
     information pertaining to payments made online."
   access_to: Finance Team
-  provisioner: '@jesssalcido @wlam @csotomango @awestbrook (please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: '@jesssalcido @wlam @csotomango @awestbrook (please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Stripe", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "FinSys - Stripe", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner: Finance
   group_owner_slack_channel: '#finance'
   business_owner: Erica de Longpre
-  technical_owner: Jessica Salcido
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: null
   need_move_to_okta: null
@@ -4548,12 +4548,12 @@
   subprocessor: false
   description: "[Tesorio](https://tesorio.com/) is a collection AR Management tool used by our Billing team."
   access_to: null
-  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Tesorio", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "FinSys - Tesorio", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner: Finance
   group_owner_slack_channel: '#finance'
   business_owner: 'Sarah McCauley @s_mccauley'
-  technical_owner: '@jesssalcido'
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: SSO
   need_move_to_okta: No
@@ -4596,12 +4596,12 @@
   subprocessor: false
   description: "[Tipalti](https://tipalti.com/) is an account payable automation tool."
   access_to: null
-  provisioner: '@wlam @csotomango @awestbrook (please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: '@wlam @csotomango @awestbrook (please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Tipalti", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  deprovisioner: 'Please add the labels "FinSys - Tipalti", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
   group_owner: Finance
   group_owner_slack_channel: '#finance'
   business_owner: Misty Brown
-  technical_owner: Wendy Lam and Alex Westbrook
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: null
   need_move_to_okta: null
@@ -4938,13 +4938,13 @@
 - title: Commission Expense Accounting (CEA) -Xactly
   team_member_baseline_entitlement: false
   subprocessor: false
-  description: ACCOUTNING TEAMS!! Xactly Commission Expense Accounting (CEA) is an end-to-end solution for managing commissions, or ‘the costs of obtaining a contract,’ under ASC 606 (IFRS 15). Including full capitalization and amortization, Xactly CEA allows GitLab to easily and securely monitor performance obligations and ensure full compliance with the new commission accounting requirements.
+  description: ACCOUNTING TEAMS! Xactly Commission Expense Accounting (CEA) is an end-to-end solution for managing commissions, or ‘the costs of obtaining a contract,’ under ASC 606 (IFRS 15). Including full capitalization and amortization, Xactly CEA allows GitLab to easily and securely monitor performance obligations and ensure full compliance with the new commission accounting requirements.
   access_to: Finance
-  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'  
-  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Xactly CEA", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'  
+  deprovisioner: 'Please add the labels "FinSys - Xactly CEA", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'  
   group_owner_slack_channel: 'Finance (Group Owner) #finance'
   business_owner: Erica de Longpre
-  technical_owner: FinSys admin team
+  technical_owner: FinSys Admin team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -5328,7 +5328,7 @@
   handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/zoominfo/)"
   google_group: null
 
-- title: Zuora
+- title: Zuora Billing
   team_member_baseline_entitlement: false
   subprocessor: false
   description: "[Zuora](https://www.zuora.com/) is our subscription management and
@@ -5338,12 +5338,12 @@
     in Zuora and the invoice is delivered or payment is applied if the customer provides
     their credit card details."
   access_to: null
-  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Zuora Billing", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'  
+  deprovisioner: 'Please add the labels "FinSys - Zuora Billing", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'  
   group_owner: Finance
   group_owner_slack_channel: '#finance'
-  business_owner: Andrew Murray
-  technical_owner: Jessica Salcido
+  business_owner: Andrew Murray or Sarah McCauley
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null
@@ -5367,7 +5367,7 @@
   group_owner: Finance
   group_owner_slack_channel: '#finance'
   business_owner: Andrew Murray
-  technical_owner: Jessica Salcido
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: null
   need_move_to_okta: null
@@ -5386,12 +5386,12 @@
   subprocessor: false
   description: Zuora Revenue is our automated revenue recognition application that meets current and future U.S. GAAP, including the new ASC 606 and IFRS 15 revenue standards. Its features help us achieve a faster quarter close, minimize compliance risk and more precisely, forecast the revenue impact of business decisions.
   access_to: Revenue Team
-  provisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
-  deprovisioner: 'Please add the labels "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")'
+  provisioner: 'Please add the labels "FinSys - Zuora Revenue", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")' 
+  deprovisioner: 'Please add the labels "FinSys - Zuora Revenue", "BT Finance Systems", "BT-Priority::1", "FinSys::Service Desk")' 
   group_owner: Finance
   group_owner_slack_channel: '#finance'
   business_owner: Andrew Murray
-  technical_owner: Jessica Salcido
+  technical_owner: FinSys Admin Team '@gitlab-com/business-technology/enterprise-apps/financeops'
   data_classification: Orange
   integration_method: SAML
   need_move_to_okta: null

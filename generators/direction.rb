@@ -527,7 +527,8 @@ module Generators
         GitLabProject.new('gitlab-org/incubation-engineering/mobile-devops/readme', instance),
         GitLabProject.new('gitlab-org/incubation-engineering/five-minute-production/meta', instance),
         GitLabProject.new('gitlab-org/incubation-engineering/jamstack/meta', instance),
-        GitLabProject.new('gitlab-org/incubation-engineering/mlops/meta', instance)
+        GitLabProject.new('gitlab-org/incubation-engineering/mlops/meta', instance),
+        GitLabProject.new('gitlab-org/incubation-engineering/okr/meta', instance)
       ]
 
       projects.flat_map do |project|

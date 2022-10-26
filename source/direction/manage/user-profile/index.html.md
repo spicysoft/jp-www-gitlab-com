@@ -10,7 +10,7 @@ canonical_path: "/direction/manage/user-profile/"
 
 | **Stage** | **Maturity** | **Content Last Reviewed** |
 | --- | --- | --- |
-| [Manage](/direction/manage/) | [Not Applicable](/direction/maturity/) | `2022-08-24` |
+| [Manage](/direction/manage/) | [Not Applicable](/direction/maturity/) | `2022-10-25` |
 
 ## Introduction and how you can help
 

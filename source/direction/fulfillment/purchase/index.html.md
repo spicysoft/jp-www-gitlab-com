@@ -13,11 +13,16 @@ canonical_path: "/direction/fulfillment/purchase/"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-Last reviewed: 2022-09
+Last reviewed: 2022-10
 
 ## Fulfillment: Purchase Overview
 
 Purchase, a [Fulfillment](https://about.gitlab.com/direction/fulfillment/) subgroup, is responsible for our primary e-commerce experience, with the goal of increasing the number of first-orders we receive through our self-service purchase flow and in turn, reducing the need for a GitLab team member to manually intervene.
+
+## Roadmap
+
+- Find our roadmap [here](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Apurchase&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP).
+
 
 ## Performance Indicators
 
@@ -59,11 +64,13 @@ still need to validate the following via research:
 
 ## 1-year Plan
 
+To achieve our mission, over the next 12 months we are focusing on the following areas:
+
 ### Timeline
 
-- FY'23-Q3: Validate user and business problems. Make [vendor no-go / go decision](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service). Conduct proof of concept via testing handful of use cases in Sandbox environment. Define MVP. Note: this work could slip into Q4.
-- FY'23-Q4: Assuming we pick a vendor, execute upon MVP.
-- FY'24-Q1: Vendor integration, build & launch.
+- FY'23-Q3: Validate user and business problems. Conduct 1 proof of concept use case via sandbox testing on in vendor's Sandbox environment. Note: this work could continue to slip into Q4.
+- FY'23-Q4: Continue to work through proof of concept sandbox use cases. Make [vendor no-go / go decision](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service) by Nov 17th. Define MVP. 
+- FY'24-Q1: Assuming we pick a vendor, execute upon MVP. Vendor integration, build & launch.
 - FY'24-Q2: Vendor integration, build & launch.
 
 ### Vendor Overview
@@ -72,7 +79,7 @@ From our [fulfillment direction](/direction/fulfillment/#increase-new-customer-a
 
 ### Ranked Criteria for Vendor Selection
 
-1. **Severity of problem / size of opportunity** - How often is the persona encountering their problem? Are there any workarounds today? Does a vendor solve that problem? Does a vendor provide new opportunities we don't have today?
+1. **Severity of problem / size of opportunity** - How often is the persona encountering their problem? Are there any workarounds today? How well does a vendor solve that problem? Does a vendor provide new opportunities we don't have today?
 3. **Time to market** - When might we be able to unlock business requirements; both paths (vendor, no vendor) are similar in time to execute, save more in outyears vs initial build out.
 5. **Scope / opportunity cost** - Engineering capacity can be reapplied to other critical initiatives; offload compliance and operational support to a vendor; How much does it cost to maintain x,y,z? What is the boring solution? Will a vendor scale with us in the future?
 6. **Costs** - Additional hires to deliver necessary e-commerce functionality, while maintaining momentum on other initiatives.

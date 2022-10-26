@@ -107,7 +107,7 @@ GitLab DevSecOps use case overview
 | Scan results for the Developer | Incremental scanning for rapid, iterative scans. Integrate scan results into the CI pipeline. Auto Remediation to automatically create a fix. | CI (for [MR pipeline](https://docs.gitlab.com/ee/user/application_security/)), [Auto remediation](https://docs.gitlab.com/ee/user/application_security/#solutions-for-vulnerabilities-auto-remediation) | [![Adding Security to your CICD Pipeline](../../images/youtube_social_icon_red-32x23.png) Adding Security to your CICD Pipeline](https://youtu.be/Fd5DhebtScg) |
 | Application Security Testing of code and components | SAST, Dependency Scanning, Container scanning, Secrets Detection, and License Compliance | [SAST](https://docs.gitlab.com/ee/user/application_security/sast/), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/), [Container scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/), [Secrets Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/#:~:text=GitLab%2011.9%20includes%20a%20new,Security%20Dashboard), and [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) | [![SAST and Secret Detection](../../images/youtube_social_icon_red-32x23.png) SAST and Secret Detection](https://youtu.be/8sOjvlkl8QY)<BR>[![Dependency scanning](../../images/youtube_social_icon_red-32x23.png) Dependency scanning](https://youtu.be/39RvTMLDszc)<BR>[![Container scanning](../../images/youtube_social_icon_red-32x23.png) Container scanning](https://youtu.be/wIcaSerMfFQ)<BR>[![License compliance](../../images/youtube_social_icon_red-32x23.png) License compliance](https://youtu.be/42f9LiP5J_4)<BR>[![Mobile SAST](../../images/youtube_social_icon_red-32x23.png) Mobile SAST](https://youtu.be/v0GhEHZWtdw)|
 | Application Security Testing of running app | GitLab uses its review app, spun up during CI, to run dynamic application security tests. Recent acquisitions will provide multi-dimensional fuzz testing, useful for API scanning. Mobile app sec testing can be performed on any app within our language scanning capabilities | [DAST](https://docs.gitlab.com/ee/user/application_security/dast/), [Input Fuzzing](https://about.gitlab.com/direction/secure/fuzz-testing/fuzz-testing/), Mobile app sec testing (partners needed) | [![DAST](../../images/youtube_social_icon_red-32x23.png) DAST](https://youtu.be/9tIrrByOum4) |
-| Security Governance | Security Policy Automation, Compliance Assessment, Security Risk Assessment, Audit Assessment, Security Process Improvement/ Assessment, Vulnerability Management, Advisory Database  | [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/), [Vulnerability Management](/handbook/engineering/security/threat-management/vulnerability-management/), [Audit events](https://docs.gitlab.com/ee/administration/audit_events.html) [Compliance Management](https://about.gitlab.com/direction/manage/compliance-management/) | [![Accelerate AppSec Efficiency with the GitLab Security Dashboard](../../images/youtube_social_icon_red-32x23.png) Accelerate AppSec Efficiency with the GitLab Security Dashboard](https://youtu.be/p3qt2z1rQk8) |
+| Security Governance | Security Policy Automation, Compliance Assessment, Security Risk Assessment, Audit Assessment, Security Process Improvement/ Assessment, Vulnerability Management, Advisory Database  | [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/), [Vulnerability Management](/handbook/security/threat-management/vulnerability-management/), [Audit events](https://docs.gitlab.com/ee/administration/audit_events.html) [Compliance Management](https://about.gitlab.com/direction/manage/compliance-management/) | [![Accelerate AppSec Efficiency with the GitLab Security Dashboard](../../images/youtube_social_icon_red-32x23.png) Accelerate AppSec Efficiency with the GitLab Security Dashboard](https://youtu.be/p3qt2z1rQk8) |
 | Security guardrails (Preventative - Pre CI/CD) | GitLab provides bill of materials showing dependencies. We do not yet use this to limit developers to use only pre-approved dependencies | [bill of materials feature](https://docs.gitlab.com/ee/user/application_security/dependency_list/) | [![Manage your Application Dependencies with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage your Application Dependencies with GitLab](https://youtu.be/scNS4UuPvLI)|
 | Works with existing and diverse tools | GitLab allows the integration of external CI tools to run alongside GitLab's CI enabling Jenkins users to also use GitLab Secure capabilities. Similarly, users may have invested in third party security scanners or may require another scanner for a language not covered by GitLab. We have made it easier for third party scanners to integrate into the GitLab MR and the security dashboards. | CI (for [MR pipeline](https://docs.gitlab.com/ee/user/application_security/)), [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) | [![Using GitLab Application Security Capabilities with Jenkins](../../images/youtube_social_icon_red-32x23.png) Using GitLab Application Security Capabilities with Jenkins](https://youtu.be/8VoxulxxM4Y)<BR>[![Creating Jira issues from GitLab vulns](../../images/youtube_social_icon_red-32x23.png) Creating Jira issues from GitLab vulns](https://youtu.be/fTELCoSkBiY) |
 
@@ -157,7 +157,7 @@ The [message house](./message-house/) for DevSecOps provides a structure to desc
 
 ## Competitive Comparison
 
-See how we [compare against other Security tools](https://about.gitlab.com/devops-tools/)
+See how we [compare against other Security tools](https://about.gitlab.com/competition/)
 
 How our governance compares:
 1. Role-based access control (RBAC) for separation of duties. Competitive products's roles are broader and when a person changes roles, his/her permissions must be changed manually. Why is this important? If someone has access to push to prod and is demoted or moves to another group, you'd want the permissions to change automatically to avoid insider threats.
@@ -185,7 +185,7 @@ How our governance compares:
 * More enterprise-level compliance controls
 
 In addition, enjoy these benefits of Ultimate:
-* Enterprise-grade priority support, including 24/7 uptime support, a named Technical Account Manager (TAM), and upgrade assistance are all still included with Ultimate.
+* Enterprise-grade priority support, including 24/7 uptime support, a named Customer Success Manager (CSM), and upgrade assistance are all still included with Ultimate.
 * Embed security and compliance into your CI Pipelines.
 * Protect your IP and get access to free guest users.
 
@@ -195,7 +195,7 @@ In addition, enjoy these benefits of Ultimate:
 * [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) - evaluate third-party dependencies to identify potential security issues.
 * [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) - analyze Docker images and check for potential security issues.
 * [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) - visualize security status for projects.
-* [Vulnerability Management](/handbook/engineering/security/threat-management/vulnerability-management/)
+* [Vulnerability Management](/handbook/security/threat-management/vulnerability-management/)
 * [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
 * [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/index.html) - See if merge requests were approved, and by whom.
 
@@ -387,7 +387,7 @@ GitLab customer, Arctic Engine, [shares their experience](https://about.gitlab.c
 
 ## Adoption Guide
 
-The following section provides resources to help TAMs lead capabilities adoption, but can also be used for prospects or customers interested in adopting GitLab stages and categories.
+The following section provides resources to help CSMs lead capabilities adoption, but can also be used for prospects or customers interested in adopting GitLab stages and categories.
 
 ### Playbook Steps
 
@@ -430,9 +430,9 @@ The table includes free/community and paid tiers associated with GitLab's self-m
 ### Additional Documentation Links
 
 - [From SCM and CI to Security](https://docs.google.com/presentation/d/1Oq8znDkHrgGK5Xe5D23SdiRLt33OIJZ30OWCHNNDV14/edit?usp=sharing) *(GitLab internal only)*
-- [GitLab Security Compliance Controls](/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html)
+- [GitLab Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls.html)
 - [GitLab Security Practices](/handbook/security/)
-- [Security Planning](/handbook/engineering/security/planning/)
+- [Security Planning](/handbook/security/planning/)
 
 ### Enablement and Training
 

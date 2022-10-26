@@ -341,9 +341,9 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 
 ### Additional Documentation Links
 
-- [GitLab Security Compliance Controls](/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html)
+- [GitLab Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls.html)
 - [GitLab Security Practices](/handbook/security/)
-- [Security Planning](/handbook/engineering/security/planning/)
+- [Security Planning](/handbook/security/planning/)
 
 ### Enablement and Training
 

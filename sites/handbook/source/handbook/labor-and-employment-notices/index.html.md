@@ -98,6 +98,7 @@ Since GitLab is an [all remote](/company/culture/all-remote/) company we don't h
 * [Notice to Employer of Injury](https://codwc.app.box.com/v/WC50-Injury-Poster)
 * [Notice of Paydays](https://drive.google.com/file/d/1B9NG0eCOvxGD_KE_R9Zxtw58lTi4fkje/view?usp=sharing)
 * [Workers' Compensation Act](https://drive.google.com/file/d/1OkdN7QSD23d5-etB7awiU4C_JjM9KXHM/view?usp=sharing)
+* [Paid Family and Medical Leave Insurance](https://famli.colorado.gov/sites/famli/files/FAMLI%20Break%20Room%20Poster%20Officialv3.pdf)
 * [Paid Leave, Whistleblowing, and Personal Protective Equipment](https://cdle.colorado.gov/sites/cdle/files/Poster%2C%20Paid%20Leave%20%26%20Whistleblower%202022%20CLEAN.pdf)
 
 ### Connecticut
@@ -367,6 +368,7 @@ Since GitLab is an [all remote](/company/culture/all-remote/) company we don't h
 * [Sick Time](https://www.oregon.gov/boli/employers/Documents/BOLI_SickLeave.pdf)
 * [Oregon OSHA's COVID-19 Standard for all Workplaces](https://osha.oregon.gov/OSHAPubs/5504.pdf)
 * [Workplace Accommodations Notice](https://drive.google.com/file/d/1qe-dqjG5ClcglfGFo75bojPXgIAkmAg7/view?usp=sharing)
+* [Paid Leave Notice Poster](https://paidleave.oregon.gov/DocumentsForms/Paid-Leave-ModelNotice-Poster-EN.pdf)
 
 ### Pennsylvania
 * [Minimum Wage Law](https://www.dli.pa.gov/Documents/Mandatory%20Postings/llc-1.pdf)

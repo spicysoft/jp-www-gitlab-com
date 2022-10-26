@@ -61,7 +61,7 @@ For cloud infrastructure, we have created top-level AWS organizational units and
 | `it`       | Orange/Yellow/Green | [IT Engineering](/handbook/business-technology/engineering/#infrastructure-engineering) | [Realm Docs](/handbook/infrastructure-standards/realms/it) | `#it_help` (tag `@it-eng`) |
 | `saas`     | Red/Orange/Yellow/Green | [Reliability Engineering](https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/) | [Realm Docs](/handbook/infrastructure-standards/realms/saas) | `#infrastructure-lounge` |
 | `sandbox`  | Green | Self Service (Team Member) | [Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox) | `#sandbox-cloud-questions` |
-| `security` | Orange/Yellow/Green | [Infrastructure Security](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/infrastructure-security/) | [Realm Docs](/handbook/infrastructure-standards/realms/security) | `#security-infrasec` |
+| `security` | Orange/Yellow/Green | [Infrastructure Security](https://about.gitlab.com/handbook/security/security-engineering-and-research/infrastructure-security/) | [Realm Docs](/handbook/infrastructure-standards/realms/security) | `#security-infrasec` |
 
 ### Managed by Infrastructure Teams
 
@@ -99,7 +99,7 @@ Learn more on the [sandbox realm handbook page](/handbook/infrastructure-standar
 * Any infrastructure that is only used internally (scripts, test apps, tools, etc) and does not impact business continuity if the service is unavailable temporarily.
 * Any infrastructure that is ephemeral in nature that is available externally but does not contain real customer data/information/intellectual property or RED/ORANGE data. This categorically includes collaboratively reproducing customer problems (with fake data), demos, proof-of-concepts, training, workshops, etc.
 * Any infrastructure that does not have global infrastructure support coverage (ex. is this managed by the SRE team?).
-* Please review the [Data Classification Policy](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html) and the [Data Classification Index](https://docs.google.com/spreadsheets/d/1eNuSLuBcZWQe13SV1TfEjtNdCOZw7G7ofY9A42Y0sPA/edit#gid=797822036) to ensure your infrastructure does not contain sensitive information. It is best practice to contact the [Security team](https://about.gitlab.com/handbook/engineering/security/) for a review if your infrastructure is in a gray area.
+* Please review the [Data Classification Policy](https://about.gitlab.com/handbook/security/data-classification-standard.html) and the [Data Classification Index](https://docs.google.com/spreadsheets/d/1eNuSLuBcZWQe13SV1TfEjtNdCOZw7G7ofY9A42Y0sPA/edit#gid=797822036) to ensure your infrastructure does not contain sensitive information. It is best practice to contact the [Security team](https://about.gitlab.com/handbook/security/) for a review if your infrastructure is in a gray area.
 
 In the near future, we will be introducing [readiness reviews](https://about.gitlab.com/handbook/engineering/infrastructure/production/readiness/) for more infrastructure realms.
 

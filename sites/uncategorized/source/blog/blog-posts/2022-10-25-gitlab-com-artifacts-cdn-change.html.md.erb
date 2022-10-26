@@ -1,0 +1,55 @@
+---
+title: GitLab.com CI artifacts to use Google Cloud CDN
+author: Stan Hu
+author_gitlab: stanhu
+author_twitter: stanhu
+categories: news
+description: "GitLab CI users might benefit from faster downloads from edge caches closest to the user's location."
+tags: DevOps, inside GitLab, customers, integrations, CI
+image_title: '/images/blogimages/ESA_case_study_image.jpg'
+twitter_text: "GitLab.com CI artifacts to use Google Cloud #CDN. Find out how this will impact GitLab CI users."
+featured: yes
+postType: announcement
+---
+
+Over the next month and going forward, requests for GitLab CI artifacts downloads may be redirected
+to [Google Cloud CDN](https://cloud.google.com/cdn) instead of
+[Google Cloud Storage](https://cloud.google.com/storage). We anticipate that GitLab CI users may benefit from faster
+downloads from edge caches closest to your location.
+
+**Disclaimer:** This blog contains information related to upcoming products, features, and functionality. It is important to note that the information in this blog post is for informational purposes only. Please do not rely on this information for purchasing or planning purposes. As with all projects, the items mentioned in this blog and linked pages are subject to change or delay. The development, release, and timing of any products, features, or functionality remain at the sole discretion of GitLab.
+
+## How will this work?
+
+Currently when a CI runner or other client [downloads a CI artifact](https://docs.gitlab.com/ee/api/job_artifacts.html),
+GitLab.com responds with a 302 redirect to a time-limited, pre-signed URL with a domain of `storage.googleapis.com`.
+
+After this change, the domain will change to `cdn.artifacts.gitlab-static.net`.
+
+The exception is for requests originating from within the Google Cloud
+Platform. These will continue to be redirected to Cloud Storage.
+
+## When will this change occur?
+
+We expect to start the transition around the end of October 2022. This will be a
+gradual transition using a percentage-based rollout, so we anticipate that you will see
+an increasing number of your requests redirected to Google Cloud
+CDN instead of Google Cloud Storage until all of the requests are served by the
+former.
+
+You can follow along with the progress of this initiative and raise any
+questions in [this issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/7894). We
+will post more detailed timelines in that issue as we refine the rollout
+plan.
+
+## How does this change impact you?
+
+Since GitLab CI runners and certain clients automatically handle URL
+redirections already, we expect that downloads for CI artifacts should
+continue to work without any action. If a runner cannot download from
+the CDN host, it will retry without the CDN and download the artifact
+directly through GitLab.com.
+
+However, if you have a firewall that only allows
+`storage.googleapis.com`, you will need to add
+`cdn.artifacts.gitlab-static.net` to the allow list.

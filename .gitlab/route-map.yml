@@ -62,7 +62,7 @@
   public: 'handbook/engineering/quality/performance-indicators/'
 
 - source: 'data/performance_indicators/security_department.yml'
-  public: 'handbook/engineering/security/performance-indicators/'
+  public: 'handbook/security/performance-indicators/'
 
 - source: 'data/performance_indicators/ux_department.yml'
   public: 'handbook/product/ux/performance-indicators/'

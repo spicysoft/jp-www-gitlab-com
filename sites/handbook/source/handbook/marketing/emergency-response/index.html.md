@@ -23,7 +23,7 @@ At times GitLab needs to communicate a "breaking" change or details related to a
 1. Review the S1 coverage matrix below and assign the issue and tag the coverage owner closest available per their timezone hin the  #mktgops Slack channel.
 1. If there is not a timely response in Slack, please review the coverage owners' Slack profile and send them a quick call or text. If no timely response, tag @mktg-ops within the  #mktgops Slack channel or use escalation path below.
 1. In the template the requesting team will include details including CTA, email body, send date and **provide link to Google sheet containing list**. 
-1. If security, make sure to follow [instructions](/handbook/engineering/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident)
+1. If security, make sure to follow [instructions](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident)
 
 ### Coverage Matrix
 
@@ -72,7 +72,11 @@ For Marketing Operations - When OOO/PTO please add this to the backup team membe
       * Creating [Landing Page request issue (if necessary)](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=marketo_landing_page_request)
 * Providing approval list and who signs off on the email
     * Legal, Customer Service VP and VP of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure) are required to sign off
-* [Notifying affected field teams](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/security-incident-communication-plan.html#communicating-internally) (Customer Success, TAM, SAL/AE, SA, Professional Services)
+<<<<<<< HEAD
+* [Notifying affected field teams](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/security-incident-communication-plan.html#communicating-internally) (Customer Success, CSM, SAL/AE, SA, Professional Services)
+=======
+* [Notifying affected field teams](https://about.gitlab.com/handbook/security/security-operations/sirt/security-incident-communication-plan.html#communicating-internally) (Customer Success, TAM, SAL/AE, SA, Professional Services)
+>>>>>>> 5cd81b4a62d (Bulk update security links)
    * Also make sure to notify #sales and #customer-success before email is set to go out
 * Approving test email 
 * Providing any edits to the test email
@@ -122,7 +126,7 @@ The following approvers are needed for the copy and list size:
  - Vice President of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure)
  - Legal (copy only)
  - Marketing Operations Manager
- - Appropriate field teams driven by the scope of customers receiving the communication (SAL/AE, SA, TAM, Professional Services)
+ - Appropriate field teams driven by the scope of customers receiving the communication (SAL/AE, SA, CSM, Professional Services)
  - Support, if there is any call to action in the communication to contact support
 
 
@@ -236,7 +240,7 @@ We recommend the following actions to identify and resolve this issue:
 - If you use {GitLab Feature}, please review the [scenarios] and avoid them.
 - If you have not migrated to {GitLab Feature}, please know that we [provided additional support] to all affected releases.
 
-We're working to reduce the conditions that can cause {specific issue} and will update the [{cases}] when we do so. If you are using {GitLab Feature} and require additional guidance, please contact your support representative or your TAM.
+We're working to reduce the conditions that can cause {specific issue} and will update the [{cases}] when we do so. If you are using {GitLab Feature} and require additional guidance, please contact your support representative or your CSM.
 
 Kind regards,
 {Sender}
@@ -247,7 +251,7 @@ Kind regards,
 {: #customer-comms-epic-issues .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-The requestor (Security, TAM, etc.) will follow the process below to create the epic, which will have quick links to the appropriate issues to open.
+The requestor (Security, CSM, etc.) will follow the process below to create the epic, which will have quick links to the appropriate issues to open.
 
 * Create epic here and input code below: [https://gitlab.com/groups/gitlab-com/-/epics/new](https://gitlab.com/groups/gitlab-com/-/epics/new)
 
@@ -283,6 +287,6 @@ The requestor (Security, TAM, etc.) will follow the process below to create the 
 * Requestor is responsible for approving test email and providing send time and date
 
 /confidential
-/label ~"MktgOps-Urgency::P1" ~"MktgOps-Priority::High Priority" ~"Customer Success" ~TAM 
+/label ~"MktgOps-Urgency::P1" ~"MktgOps-Priority::High Priority" ~"Customer Success" ~CSM 
 /cc @amy.waller
 ```

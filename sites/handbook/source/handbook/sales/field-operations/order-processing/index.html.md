@@ -35,7 +35,7 @@ This page outlines the Quote to Cash process. Topics include account and opportu
     *   [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement)
     *   [ARR Calculation Guide](https://about.gitlab.com/handbook/sales/sales-term-glossary/arr-in-practice/)
     *   [Vendor Setup Form Process](/handbook/sales/field-operations/order-processing/#how-to-process-customer-requested-vendor-setup-forms)
-    *   [Security Questionnaire Process](/handbook/engineering/security/#process)
+    *   [Security Questionnaire Process](/handbook/security/#process)
     *   [Troubleshooting: True Ups, Licenses + EULAS](https://about.gitlab.com/handbook/support/internal-support/#regarding-licensing-and-subscriptions)
     *   [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/)
     *   [Legal Authorization Matrix](/handbook/finance/authorization-matrix/)
@@ -226,6 +226,8 @@ The below process applies to any existing customers with an active subscription 
   - The opportunity becomes Closed Won automatically
   - The night after the opportunity becomes Closed Won, a nightly job will run to create the underlying quote and populate opportunity data fields accurately. 
 
+- Note: If the opportunity does not become Closed Won after the close date, please close the opportunity as Closed Lost. 
+
 #### How To Opt-Out of Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and Operational Data
 
 During the Sales process, a customer who would not otherwise be exempt from Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and/or Operational Data may request to disable one or more of these features. Every opt-out will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If an opt-out is requested and approved, upon Closed Won the related feature will be disabled for the subscription in question.
@@ -259,7 +261,7 @@ During the Sales process, there may be a need for Sales to "pause" an upcoming A
 4. **How can I tell if Auto-Renewal or Quarterly Subscription Reconciliation are enabled on a subscription?**
   - Navigate to the SFDC Account, and click on the "Subscriptions" related list. Select the subscription in question, and review the "Auto-Renewal" and "Quarterly Reconciliation" fields. If these are marked "Yes," then these processes apply to the subscription. If these fields are marked "No" or are blank, these processes will not occur for this subscription.
 5. **A QSR opportunity was opened automatically, but my customer was never charged, and the opportunity never closed. What do I do?**
-  - In most cases, if a QSR opportunity is opened but is not closed within 14 days after creation, that means the QSR failed and the opportunity should be closed as duplicate.
+  - In most cases, if a QSR opportunity is opened but is not closed within 14 days after creation, that means the QSR failed and the opportunity should be closed as Closed Lost.
 6. **My customer did not opt out of Cloud Licensing during the sales process, but now they need a Legacy/Offline license file. How do I get my customer a Legacy/Offline license?**
   - To provide the customer with a legacy or offline license file, Sales should first collect the necessary approvals as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). Sales should then work with Support Engineering to request that a legacy or offline license be sent to the customer. 
   - To open a Support ticket, click [here](https://about.gitlab.com/handbook/support/internal-support/#internal-requests).
@@ -974,7 +976,7 @@ Quoting:
 Requirements to Close Deal:
 
 1. A Private Offer must have been created, accepted by the customer,and must match the deal elements as approved on the SFDC quote object / Order Form. The Private Offer will include the AWS Private Offer Order Form and the standard GitLab Subscription Agreement (as provided by Legal). Note that the Order Form's purpose is to highlight what is being sold, and will not be signed by the end customer.
-1. Once the Private Offer has been accepted by the customer,Deal Desk will chatter on the opportuniuty to submit for processing by attaching offer acceptance email. Then sales rep needs to submit the opportunity for approval. 
+1. Once the Private Offer has been accepted by the customer,Deal Desk will chatter on the opportunity to submit for processing by attaching offer acceptance email. Then sales rep needs to submit the opportunity for approval. 
 
 Closing the Deal:
 

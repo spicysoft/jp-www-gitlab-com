@@ -133,9 +133,9 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
    - GitLab's Solutions Architects (SAs) are trusted advisors to GitLab prospects and customers during the presales motion, demonstrating how the GitLab application and GitLab Professional Services address common and unique business requirements.
    - Read the [Solutions Architect Role Description](https://about.gitlab.com/job-families/sales/solutions-architect/)
    - Read about the [Proof of Value Deliverable](/handbook/customer-success/solutions-architects/tools-and-resources/pov)
-*  **Technical Account Managers (Material, - Handbook - 15 minutes)**
-   - GitLab's Technical Account Managers serve as trusted advisors to GitLab's customers. This section outlines to TAM role and their key deliverables: Health Checks, Sucess Plans, and Executive Business Reviews.
-   - Read the [TAM Handbook](/handbook/customer-success/csm/#what-is-a-technical-account-manager-tam)
+*  **Customer Success Managers (Material, - Handbook - 15 minutes)**
+   - GitLab's Customer Success Managers serve as trusted advisors to GitLab's customers. This section outlines to CSM role and their key deliverables: Health Checks, Sucess Plans, and Executive Business Reviews.
+   - Read the [CSM Handbook](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm)
    - Read about [Customer Health Scores in the Handbook](https://about.gitlab.com/handbook/customer-success/csm/health-score-triage/)
    - Read about [Success Plans in the Handbook](/handbook/customer-success/csm/success-plans/)
    - Read about [Executive Business Reviews in the Handbook](/handbook/customer-success/csm/ebr/)
@@ -188,7 +188,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
    - [https://martinfowler.com/](https://martinfowler.com/)
    - [https://about.gitlab.com/blog/](https://about.gitlab.com/blog/)
 *  **Competitor Overview (Material - Handbook - 30 Minutes)**
-   - There are a lot of [DevOps tools](https://about.gitlab.com/devops-tools/) out there. As a single application for the entire DevOps life cycle, GitLab can remove the pain of having to choose, integrate, learn, and maintain the multitude of tools necessary for a successful DevOps tool chain. However, GitLab does not claim to contain all the functionality of all the tools listed here. Click on a DevOps tool to compare it to GitLab. Last thing dont forget to log into [Crayon](https://app.crayon.co/intel/gitlab/battlecards/), our competitive intelligence platform to view all of our latest competitive advantages.
+   - There are a lot of [DevOps tools](https://about.gitlab.com/competition/) out there. As a single application for the entire DevOps life cycle, GitLab can remove the pain of having to choose, integrate, learn, and maintain the multitude of tools necessary for a successful DevOps tool chain. However, GitLab does not claim to contain all the functionality of all the tools listed here. Click on a DevOps tool to compare it to GitLab. Last thing dont forget to log into [Crayon](https://app.crayon.co/intel/gitlab/battlecards/), our competitive intelligence platform to view all of our latest competitive advantages.
 *  **GitLab vs. GitHub (Material - Video - 3 Minutes)**
    - No... we are not the same company! This short YouTube video on [GitLab vs. GitHub](https://www.youtube.com/watch?v=s8DCpG1PeaU) covers some basic differences.
    - Check out the [GitLab vs. GitHub](https://about.gitlab.com/devops-tools/github-vs-gitlab/)
@@ -200,7 +200,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 *  **ACTIVITY: Phone-A-Friend: Competitors (Assignment - 45 Minutes - 10 Points - Pre Work)**
    - Talk with 3 tenured GitLab sales professionals (individual contributors or people managers) and ask them for their tips and tricks on successfully beating the competition. Please take notes from your calls and briefly summarize one or two things you learned from each conversation in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdCwvGRS_-fV9J57KGYIjkXNEUHDigKoPXss-kf9r3Zjozo9w/viewform?usp=sf_link) to submit the assignment.
 * **QUIZ: Competitors (Assignment - 5 Points - Pre Work)**
-Please take a moment to answer the questions in this short [quiz.](https://docs.google.com/forms/d/e/1FAIpQLSc6-LgwwSBBnsXDn1spi68FCseBY8OjP0rur_DKqa9RmEwQIg/viewform) The information in this quiz is covered in the handbook pages on [Competitive Intelligence](/handbook/marketing/strategic-marketing/competitive/) and [DevOps Tools Landscape.](https://about.gitlab.com/devops-tools/)
+Please take a moment to answer the questions in this short [quiz.](https://docs.google.com/forms/d/e/1FAIpQLSc6-LgwwSBBnsXDn1spi68FCseBY8OjP0rur_DKqa9RmEwQIg/viewform) The information in this quiz is covered in the handbook pages on [Competitive Intelligence](/handbook/marketing/strategic-marketing/competitive/) and [DevOps Tools Landscape.](https://about.gitlab.com/competition/)
 
 </details>
 
@@ -303,9 +303,9 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 ## Customer Success Quick Start - Role Based Curriculum
 
 <details>
-<summary markdown="span">Technical Deep Dive (SA, TAM, and PSE ONLY</summary> 
+<summary markdown="span">Technical Deep Dive (SA, CSM, and PSE ONLY</summary> 
 
-### 12. Technical Deep Dive (SA, TAM, and PSE ONLY)
+### 12. Technical Deep Dive (SA, CSM, and PSE ONLY)
 *  **GitLab Ultimate Demo (Material - Video - 60 minutes)**
    -Review the [GitLab Ultimate Demo](https://chorus.ai/meeting/1837148?tab=summary&call=5E63AE4EDCAD4960A59BEBBEF4CEE1BF)
 * **Auto DevOps (Material - GitLab Docs - 15 minutes)**
@@ -343,10 +343,10 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 
 
 <details>
-<summary markdown="span">Integrations (SA, TAM, and PSE Only)</summary> 
+<summary markdown="span">Integrations (SA, CSM, and PSE Only)</summary> 
 
 
-### 13. Integrations (SA, TAM, and PSE Only)
+### 13. Integrations (SA, CSM, and PSE Only)
 * **Category Overview**
    - GitLab's vision is to be the best single application for every part of the DevOps toolchain. However, some customers use tools other than our built-in features–and we respect those decisions. The Integrations category was created specifically to better serve those customers. Currently, GitLab offers [30+ project services](https://docs.gitlab.com/ee/user/project/integrations/project_services.html#project-services) that integrate with a variety of external systems. Integrations are a high priority for GitLab, and the Integrations category was established to develop and maintain these integrations with key 3rd party systems and services.
 * **Jira**
@@ -391,9 +391,9 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 </details>
 
 <details>
-<summary markdown="span">TAMs Only: Certifications to Complete and Lifecycle Processes</summary> 
+<summary markdown="span">CSMs Only: Certifications to Complete and Lifecycle Processes</summary> 
 
-### 15. TAMs Only: Certifications to Complete and Lifecycle Processes
+### 15. CSMs Only: Certifications to Complete and Lifecycle Processes
 
 #### Certifications:
 1. Success Plans
@@ -402,7 +402,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 
 #### Customer Onboarding
 *  **Customer Onboarding (Material - Handbook and Video - 60 Minutes)**
-   - Customer on-boarding is a 45 day time period. Technical Account Managers and Professional Services Engineers should work closely together throughout the on-boarding process, with support from Solutions Architects and Strategic Account Leaders/Account Managers where appropriate. The Customer Kickoff is a moment that matters in the customer's journey. Below are resources you should familiarize yourself with as you get ready to start interacting with customers.
+   - Customer on-boarding is a 45 day time period. Customer Success Managers and Professional Services Engineers should work closely together throughout the on-boarding process, with support from Solutions Architects and Strategic Account Leaders/Account Managers where appropriate. The Customer Kickoff is a moment that matters in the customer's journey. Below are resources you should familiarize yourself with as you get ready to start interacting with customers.
    - [Customer Onboarding](/handbook/customer-success/csm/onboarding/)
    - [Using Gainsight within Customer Success](/handbook/customer-success/csm/gainsight/)
    - [Customer Onboarding Dashboard](https://gitlab--jbcxm.na129.visual.force.com/apex/GainsightNXT?sfdc.tabName=01r4M000000wqZv#home%2358502af5-e7c2-4cbd-8645-d612b74424ff)

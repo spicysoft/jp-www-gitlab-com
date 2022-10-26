@@ -21,7 +21,7 @@ title: "GitLab tiers for sales assessment"
 | **Likely Buyer** | Individual Contributor | Manager or Director | Executive |
 | **Support**	| None | Priority support | Priority support |
 | **Version upgrade assistance** | No | Yes | Yes |
-| **Dedicated Technical Account Manager** | No | Yes | Yes |
+| **Dedicated Customer Success Manager** | No | Yes | Yes |
 | **SDLC coverage**	|	Basic | Complete coverage less Secure & Protect | 	Complete coverage |
 | **Version Control & Collaboration** | Yes | Yes | Yes |
 | **Portfolio management capabilities** |	No | Yes | Yes |
@@ -47,7 +47,7 @@ For further details on individual feature - visit [Why starter](https://about.gi
 | **CI/CD** | * Collaboration for small teams - Code Owners, Push rules, Merge Approvals <br> * Deploy with confidence with Operations Dashboard, Pipeline dashboard, Merge trains, Multi Project Pipelines, Protected Environments	and browser performance testing |  |
 | **DevSecOps** | |  * Shift security left with SAST, DAST, Dependency scanning, container scanning within your CI/CD pipeline itself <br> * Visualize security status of each project with Security Dashboard |
 | **Enterprise Readiness** | * Authentication and Authorization via multiple LDAP, AD server support, Kerberos authentication <br> * High Availability, Disaster Recovery and Geo Replication <br> * Manage compliance with audit logs, auditor users, MR reviews | * Ease of compliance with credentials management, license compliance and compliance dashboards <br> * Free guest users to control your license consumption |
-| **Support** | * Enterprise level support with priority support, TAM and upgrade assistance | {Same as premium} |
+| **Support** | * Enterprise level support with priority support, CSM and upgrade assistance | {Same as premium} |
 
 ### Customer License FAQs
 

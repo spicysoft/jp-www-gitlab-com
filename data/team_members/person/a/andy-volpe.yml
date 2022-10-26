@@ -9,12 +9,9 @@ picture: andyvolpe.png
 twitter: heyandyvolpe
 gitlab: andyvolpe
 departments:
-- Engineering Function
+- Product Team
 - UX Department
-- Configure UX Team
-- Monitor UX Team
-- Secure UX Team
-- Govern UX Team
+- Product Design
 projects:
   design.gitlab.com: reviewer UX
   gitlab: reviewer UX

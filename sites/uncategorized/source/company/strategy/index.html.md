@@ -22,9 +22,8 @@ strategic goal is to be the leading complete [DevSecOps Platform](/solutions/dev
 
 To achieve this, we will endeavor to:
 
-### 1) ARR: Customer Results
+### 1) Customer Results
 Ensure that GitLab is the default when customers buy DevSecOps software.
-**Note:** See our SEC filings on the SEC's Edgar website for information regarding ARR.
 
 1. Even easier to buy
     1. [Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/)
@@ -37,13 +36,12 @@ Ensure that GitLab is the default when customers buy DevSecOps software.
        1. Channel
        1. Renewals
        1. [Project Matterhorn--a limited access initiative](/company/top-cross-functional-initiatives/#current-top-cross-functional-initiatives) 
-    1. [Registration features](/direction/registration-initiatives/)
+    1. [Registration features](/direction/registration-initiatives//#registration-features)
 1. Prove value
-  1. Advocate Training
+    1. Advocate Training
     1. Advocate Certification
     1. Standardize customer value data
     1. [Exec dashboards](https://gitlab.com/gitlab-org/gitlab/-/issues/370887) 
-#registration-features)
 1. Co-create
     1. [Leading Organizations](/handbook/marketing/community-relations/leading-organizations/)
       1. Reaching 1000 monthly contributors
@@ -54,7 +52,7 @@ Ensure that GitLab is the default when customers buy DevSecOps software.
       1. Information technology service management 
       1. [Service desk](/stages-devops-lifecycle/service-desk/) 
 
-### 2) Product: Mature the product
+### 2) Mature the Platform
 Build upon our current platform to meet current and future user needs. 
 
 1. Be recognized as the leader in the DevSecOps Platform Category
@@ -62,23 +60,23 @@ Build upon our current platform to meet current and future user needs.
     1. GitHub Differentiation 
     1. DIY best in class comparison
     1. [Plan](/direction/plan/)
-      1. Provide mature planning solution to Ultimate customers
-      1. Custom fields
-      1. Workflow automation
-      1. Great importers
+        1. Provide mature planning solution to Ultimate customers
+        1. Custom fields
+        1. Workflow automation
+        1. Great importers
     1. [Create](/direction/create/)
-      1. Code suggestions 
-      1. Remote Dev 
+        1. Code suggestions 
+        1. Remote Dev 
     1. [Verify](/direction/ops/#verify)
-      1. Build, test, and deployment automation
-      1. Increase speed
+        1. Build, test, and deployment automation
+        1. Increase speed
     1. [Ops](/direction/ops)
-      1. Monitor UI library 
-      1. Agent using environments 
-      1. [GitOps](/topics/gitops/)
+        1. Monitor UI library 
+        1. Agent using environments 
+        1. [GitOps](/topics/gitops/)
     1. [Incubation engineering](/handbook/engineering/incubation/) 
-      1. [OKRs](/company/okrs/)
-      1. [MLOps](/handbook/engineering/incubation/mlops/)
+        1. [OKRs](/company/okrs/)
+        1. [MLOps](/handbook/engineering/incubation/mlops/)
 1. Scaling
     1. Dedicated (see ARR strategy pillar for details)
     1. Free user limits 
@@ -102,7 +100,7 @@ Build upon our current platform to meet current and future user needs.
 
 More detail on our product strategy can be found on our [direction page](/direction/#vision){:data-ga-name="direction page"}{:data-ga-location="body"}.
 
-### 3) People: Growing careers
+### 3) Grow Careers
 Support GitLab team members in excelling within GitLab and beyond. Be a company to externally emulate and have a training impact that extends beyond the wider-community. 
 
 1. Accountability
@@ -243,7 +241,7 @@ To make sure our goals are clearly defined and aligned throughout the organizati
 
 ## North Star KPI
 
-Our North Star KPI is [Net ARR](https://about.gitlab.com/handbook/sales/sales-term-glossary/arr-in-practice/#net-arr){:data-ga-name="net arr"}{:data-ga-location="body"} vs. plan. While our ARR data is [limited access](/handbook/communication/confidentiality-levels/#limited-access) given that it is [material nonpublic information (MNPI)](/handbook/product/product-safe-guidance/#materially-non-public-information), ARR versus plan is a leading indicator of our likelihood of success in achieving revenue targets. Predictable revenue attainment is critical for continued business success.
+Our North Star KPI is [revenue](https://about.gitlab.com/company/kpis/#sales-kpis) vs. plan. While our revenue data is [limited access](/handbook/communication/confidentiality-levels/#limited-access) given that it is [material nonpublic information (MNPI)](/handbook/product/product-safe-guidance/#materially-non-public-information), revenue versus plan is a leading indicator of our likelihood of success in achieving revenue targets. Predictable revenue attainment is critical for continued business success.
 
 ## Plan
 

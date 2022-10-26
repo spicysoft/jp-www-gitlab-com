@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "SDR Onboarding"
+title: "Sales Development Onboarding"
 ---
 
 ## The Goal of Sales Development Onboarding

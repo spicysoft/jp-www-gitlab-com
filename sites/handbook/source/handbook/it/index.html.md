@@ -131,25 +131,25 @@ This handbook page is oriented towards self service IT for team members. You can
         * Xactly
         * Z-Revenue (RevPro)
         * Zuora
-* [Security Department](https://about.gitlab.com/handbook/engineering/security/) `#security` and `#security-department`
+* [Security Department](https://about.gitlab.com/handbook/security/) `#security` and `#security-department`
     * 🆕 👀 [Security Best Practices](https://about.gitlab.com/handbook/security/)
-    * 👀 [Departmental Structure](https://about.gitlab.com/handbook/engineering/security/#departmental-structure)
-    * [Security Assurance Sub-department](https://about.gitlab.com/handbook/engineering/security/security-assurance/)
-        * [Field Security](https://about.gitlab.com/handbook/engineering/security/security-assurance/field-security/)
-        * [Security Compliance](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/)
-        * [Security Governance](https://about.gitlab.com/handbook/engineering/security/security-assurance/governance/)
-        * [Security Risk](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-risk/)
-    * [Security Engineering and Research Sub-department](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/)
-        * [Application Security](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/application-security/)
-        * [Security Automation](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/automation/)
-    * [Security Operations Sub-department](https://about.gitlab.com/handbook/engineering/security/security-operations)
-        * [Security Incident Response Team "SIRT"](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt)
-        * [Trust and Safety](https://about.gitlab.com/handbook/engineering/security/security-operations/trustandsafety/)
-        * [Infrastructure Security](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/infrastructure-security/)
-        * [Security Logging](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/security-logging)
-    * [Security Threat Management Sub-department](https://about.gitlab.com/handbook/engineering/security/threat-management)
-        * [Red Team](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team)
-        * [Security Research](https://about.gitlab.com/handbook/engineering/security/threat-management/security-research/)
+    * 👀 [Departmental Structure](https://about.gitlab.com/handbook/security/#departmental-structure)
+    * [Security Assurance Sub-department](https://about.gitlab.com/handbook/security/security-assurance/)
+        * [Field Security](https://about.gitlab.com/handbook/security/security-assurance/field-security/)
+        * [Security Compliance](https://about.gitlab.com/handbook/security/security-assurance/security-compliance/)
+        * [Security Governance](https://about.gitlab.com/handbook/security/security-assurance/governance/)
+        * [Security Risk](https://about.gitlab.com/handbook/security/security-assurance/security-risk/)
+    * [Security Engineering and Research Sub-department](https://about.gitlab.com/handbook/security/security-engineering-and-research/)
+        * [Application Security](https://about.gitlab.com/handbook/security/security-engineering-and-research/application-security/)
+        * [Security Automation](https://about.gitlab.com/handbook/security/security-engineering-and-research/automation/)
+    * [Security Operations Sub-department](https://about.gitlab.com/handbook/security/security-operations)
+        * [Security Incident Response Team "SIRT"](https://about.gitlab.com/handbook/security/security-operations/sirt)
+        * [Trust and Safety](https://about.gitlab.com/handbook/security/security-operations/trustandsafety/)
+        * [Infrastructure Security](https://about.gitlab.com/handbook/security/security-engineering-and-research/infrastructure-security/)
+        * [Security Logging](https://about.gitlab.com/handbook/security/security-engineering-and-research/security-logging)
+    * [Security Threat Management Sub-department](https://about.gitlab.com/handbook/security/threat-management)
+        * [Red Team](https://about.gitlab.com/handbook/security/threat-management/red-team)
+        * [Security Research](https://about.gitlab.com/handbook/security/threat-management/security-research/)
 
 
 ## 🆕 Onboarding
@@ -477,11 +477,11 @@ TODO
 
 ## Laptop Data
 
-* [Data Classification Standards](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html)
-    * [RED Data](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html#red)
-    * [ORANGE Data](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html#orange)
-    * [YELLOW Data](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html#yellow)
-    * [GREEN Data](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html#green)
+* [Data Classification Standards](https://about.gitlab.com/handbook/security/data-classification-standard.html)
+    * [RED Data](https://about.gitlab.com/handbook/security/data-classification-standard.html#red)
+    * [ORANGE Data](https://about.gitlab.com/handbook/security/data-classification-standard.html#orange)
+    * [YELLOW Data](https://about.gitlab.com/handbook/security/data-classification-standard.html#yellow)
+    * [GREEN Data](https://about.gitlab.com/handbook/security/data-classification-standard.html#green)
 
 ### 🆕 Backup Best Practices
 {: #laptop-data-backup}
@@ -581,7 +581,7 @@ All GitLab.com SaaS production/staging infrastructure and services are managed b
 All non-production infrastructure for sandbox and testing purposes is managed by the IT Engineering team with self-service automation using the [GitLab Sandbox Cloud](#infrastructure-sandbox-cloud). Please ask any questions in the `#sandbox-cloud-questions` Slack channel.
 
 * Reliability Engineering Team: https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/
-* Infastructure Security Team: https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/infrastructure-security/
+* Infastructure Security Team: https://about.gitlab.com/handbook/security/security-engineering-and-research/infrastructure-security/
 * Infrastructure Standards: https://about.gitlab.com/handbook/infrastructure-standards
 
 ### AWS

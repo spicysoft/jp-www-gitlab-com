@@ -117,7 +117,7 @@ These status updates are used to:
 1. GitLab.com is a complex system. It is ok to not fully understand the underlying issue or its causes. However, if this is the case, as EOC you should page the Incident Manager to find a team member with the appropriate expertise.
     1. Requesting assistance does not mean relinquishing EOC responsibility. The EOC is still responsible for the incident.
     1. The [GitLab Organizational Chart](https://comp-calculator.gitlab.net/org_chart) and the [GitLab Team Page](/company/team/), which lists areas of expertise for team members, are important tools for finding the right people.
-1. As soon as an [S1/S2](/handbook/engineering/infrastructure/production/#severity) [incident is declared](#declaring-an-incident), join the `The Situation Room Permanent Zoom`. The Zoom link is in the `#incident-management` topic.
+1. As soon as an [S1/S2](/handbook/engineering/infrastructure/production/#severity) [incident is declared](#report-an-incident-via-slack), join the `The Situation Room Permanent Zoom`. The Zoom link is in the `#incident-management` topic.
     1. GitLab works in an asynchronous manner, but incidents require a synchronous response. Our collective goal is high availability of 99.95% and beyond, which means that the timescales over which communication needs to occur during an incident is measured in seconds and minutes, not hours.
 1. It is important that the "Summary" section of incident issues is updated **early and often** during an incident. This supports our async ability to independently discover the context of an incident and helps all stakeholders (including users) understand the general idea of what is going on.
 1. Keep in mind that a GitLab.com incident is not an "infrastructure problem". It is a company-wide issue, and as EOC, you are leading the response on behalf of the company.
@@ -147,6 +147,12 @@ When there are multiple incidenets and you decide that additional incident manag
 
 If a second incident zoom is desired, choose which incident will move to the new zoom and create a new meeting in zoom.  Be sure to edit the channel topic of the incident slack channel to indicate the correct zoom link. 
 
+#### Weekend Escalations
+
+EOCs are responsible for responding to alerts even on the weekends.  Time should not be spent mitigating the incident _unless_ it is a `~severity::1` or `~severity::2`.  Mitigation for `~severity::3` and `~severity::4` incidents can occur during normal business hours, Monday-Friday.  If you have any questions on this please reach out to an [Infrastructure Engineering Manager](https://gitlab.com/gitlab-com/gl-infra/managers).
+
+If a `~severity::3` and `~severity::4` occurs multiple times and requires weekend work, the multiple incidents should be combined into a single `severity::2` incident.
+If assistance is needed to determine severity, EOCs and Incident Managers are encouraged to contact [Reliability Leadership via PagerDuty ](https://gitlab.pagerduty.com/schedules#P12EH0Z)
 ### Incident Manager Responsibilities
 
 1. When the Incident Manager is engaged on an incident, they are responsible for keeping the `Current Status` section of the incident issue regularly updated.
@@ -161,8 +167,6 @@ If a second incident zoom is desired, choose which incident will move to the new
 1. In the event of an incident which has been triaged and confirmed as a clear Severity 1 impact, notify Infrastructure leadership via PagerDuty [Infrastructure Leadership Escalation](https://gitlab.pagerduty.com/escalation_policies#PO2KR8R) This notification should occur 24/7.
 1. The IM should not consider immediate work on an incident completed until the top description section in the Incident Issue (above the "Incident Review" section) is filled out with useful information to describe all the key aspects of the Incident.
 1. After the incident is resolved, the Incident Manager is responsible for conducting the [post-incident review](/handbook/engineering/infrastructure/incident-review/).
-    1. If an incident is either an S1 or S2 and has been communicated on the status page (including security) then the Incident Manager should add the incident to the [Gitlab.com standup agenda (internal only)](https://docs.google.com/document/d/1vww0BfRzHtrGhMppTEw5Q27KSzD1e72dmJ3XoppxC-A/edit#).
-    1. If the meeting is not active (no planned agenda or active calendar event) then the Incident Manager should call for activation of the meeting for the following business day by noting the need in slack #vp-development and #vp-infrastructure.
 1. For high severity bugs that affect customers, the Incident Manager is responsible for making sure Incident Reviews are coordinated with other departments in Engineering and go through the complete Incident Review process.
 1. When engaged in an active incident near the end of an Incident Manager shift, the current Incident Manager owns the decision as to whether to continue in their role or to transition the active incident to the incoming Incident Manager. In most cases, this transition should be the expected default behavior.
 1. During a shift where no Incident Manager engaged incidents have occurred, no transition ("handover") is required.
@@ -180,7 +184,6 @@ During a Severity 1 Incident there is a lot going on. Here is a checklist of the
 1. Ensure that the root cause is clearly articulated and the appropriate `RootCause::` label is used OR that a clear path of investigation to determine root cause is continuing.
 1. Review that the mitigation steps were reasonable, effective, and don't leave us in a state vulnerable for other problems.
 1. Review that the necessary external communications have been completed (Engage CMOC for this).
-1. Add a summary & link to the [Reliability Standup agenda](https://docs.google.com/document/d/1vww0BfRzHtrGhMppTEw5Q27KSzD1e72dmJ3XoppxC-A/edit#) (internal only)
 1. Ensure that any Sev1/P1 Corrective Actions have clear ownership and engagement.
 1. Ensure that any ongoing effort or oversight by future IM and EOC shifts is supported with handoff notes and sync handoff (if needed).
 
@@ -240,15 +243,15 @@ Due to the overhead involved and the risk of detracting from impact mitigation e
 Implementing a direct customer interaction call for an incident is to be initiated by the current Incident Manager by taking these steps:
 1. Identify a second Incident Manager who will be dedicated to the customer call. If not already available in the incident, announce the need in #imoc_general with a message like `/here A second incident manager is required for a customer interaction call for XXX`.
 1. Page the [Infrastructure Leadership pagerduty rotation](https://gitlab.pagerduty.com/schedules#PBSMJH2) for additional assistance and awareness.
-1. Identify a Technical Account Manager who will act as the primary TAM and also be dedicated to the customer call. If this role is not clear, also refer to Infrastructure Leadership for assistance.
+1. Identify a Customer Success Manager who will act as the primary CSM and also be dedicated to the customer call. If this role is not clear, also refer to Infrastructure Leadership for assistance.
 1. Request that both of these additional roles join the main incident to come up to speed on the incident history and current status. If necessary to preserve focus on mitigation, this information sharing may be done in another Zoom meeting (which could then also be used for the customer conversation)
 
 After learning of the history and current state of the incident the Engineering Communications Lead will initiate and manage the customer interaction through these actions:
-1. Start a new Zoom meeting - unless one is already in progress - invite the primary TAM.
-1. The Engineering Communications Lead and TAM should appropriately set their Zoom name to indicate `GitLab`, as well as their Role, `TAM` `Engineering Communications Lead`
-1. Through the TAM, invite any customers who are required for the discussion.
+1. Start a new Zoom meeting - unless one is already in progress - invite the primary CSM.
+1. The Engineering Communications Lead and CSM should appropriately set their Zoom name to indicate `GitLab`, as well as their Role, `CSM` `Engineering Communications Lead`
+1. Through the CSM, invite any customers who are required for the discussion.
 1. The Engineering Communications Lead and the Incident Manager need to prioritize async updates that will allow for the correct information to flow between conversations. Consider using the incident slack channel for this but agree before the customer call starts.
-1. Both the Engineering Communications Lead and TAM should remain in the Zoom with the customers for the full time required for the incident. To avoid loss of context, neither should "jump" back and forth from the internal incident Zoom and the customer interaction Zoom.
+1. Both the Engineering Communications Lead and CSM should remain in the Zoom with the customers for the full time required for the incident. To avoid loss of context, neither should "jump" back and forth from the internal incident Zoom and the customer interaction Zoom.
 
 In some scenarios it may be necessary for most all participants of an incident (including the EOC, other developers, etc.) to work directly with a customer. In this case, the customer interaction Zoom shall be used, NOT the main GitLab Incident Zoom. This will allow for the conversation (as well as text chat) while still supporting the ability for primary responders to quickly resume internal communications in the main Incident Zoom. Since the main incident Zoom may be used for multiple incidents it will also prevent the risk of confidential data leakage and prevent the inefficiency of having to frequently announce that there are customers in the main incident zoom each time the call membership changes.
 
@@ -383,7 +386,7 @@ In the case of a high severity bug that is in an ongoing, or upcoming deployment
 
 ## Security Incidents
 
-If an incident may be security related, engage the Security Engineer on-call by using `/security` in Slack. More detail can be found in [Engaging the Security Engineer On-Call](/handbook/engineering/security/security-operations/sirt/engaging-security-on-call.html).
+If an incident may be security related, engage the Security Engineer on-call by using `/security` in Slack. More detail can be found in [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call.html).
 
 ## Communication
 
@@ -450,9 +453,9 @@ Incident Managers and Engineers On-Call can use the following table as a guide f
 
 | Severity | Description     | Example Incidents     |
 | ------------- | ------------- | -------------|
-| `~severity::1` |  &emsp;  - GitLab.com is unavailable or severely degraded for the typical GitLab user<br>&emsp;  - Any data loss directly impacting customers<br>&emsp;  - The [guaranteed self-managed release date](/handbook/engineering/releases/#timelines) is put in jeopardy<br>&emsp;  - It is a [high impact security incident](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br><br>[Incident Managers](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::1` incidents| Past `severity::1` [Issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A1&first_page_size=100)|
-| `~severity::2` |   &emsp;  - GitLab.com is unavailable or degraded for a small subset of users <br>&emsp;- Gitlab.com is degraded but a reasonable workaround is available<br>&emsp;- Any [moderate impact security incident](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br><br>[Incident Managers](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::2` incidents| Past `severity::2` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A2&first_page_size=100)|
-| `~severity::3` |   &emsp;  - Broad impact on GitLab.com and minor inconvenience to typical user's workflow <br>&emsp;- A workaround is not needed<br>&emsp;- Any [low impact security incident](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br><br>Incident Managers should **NOT** be paged for `~severity::3` incidents| Past `severity::3` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A3&first_page_size=100)|
+| `~severity::1` |  &emsp;  - GitLab.com is unavailable or severely degraded for the typical GitLab user<br>&emsp;  - Any data loss directly impacting customers<br>&emsp;  - The [guaranteed self-managed release date](/handbook/engineering/releases/#timelines) is put in jeopardy<br>&emsp;  - It is a [high impact security incident](https://about.gitlab.com/handbook/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br><br>[Incident Managers](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::1` incidents| Past `severity::1` [Issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A1&first_page_size=100)|
+| `~severity::2` |   &emsp;  - GitLab.com is unavailable or degraded for a small subset of users <br>&emsp;- Gitlab.com is degraded but a reasonable workaround is available<br>&emsp;- Any [moderate impact security incident](https://about.gitlab.com/handbook/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br><br>[Incident Managers](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) should be paged for all `~severity::2` incidents| Past `severity::2` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A2&first_page_size=100)|
+| `~severity::3` |   &emsp;  - Broad impact on GitLab.com and minor inconvenience to typical user's workflow <br>&emsp;- A workaround is not needed<br>&emsp;- Any [low impact security incident](https://about.gitlab.com/handbook/security/security-operations/sirt/severity-matrix.html#functional-impact-rating-examples)<br><br>Incident Managers should **NOT** be paged for `~severity::3` incidents| Past `severity::3` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A3&first_page_size=100)|
 | `~severity::4` |   &emsp;  - Minimal impact on GitLab.com typical user's workflow<br><br>Incident Managers should **NOT** be paged for `~severity::4` incidents| Past `severity::4` [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=severity%3A%3A4&first_page_size=100)|
 
 ### Alert Severities
@@ -515,7 +518,7 @@ The current Root Cause labels are listed below. In order to support trend awaren
 | `~RootCause::Naive-Traffic` | elevated external traffic exhibiting anti-pattern behavior for interface usage |
 | `~RootCause::Release-Compatibility` | forward- or backwards-compatibility issues between subsequent releases of the software running concurrently, and sharing state, in a single environment (e.g. Canary and Main stage releases). They can be caused by incompatible database DDL changes, canary browser clients accessing non-canary APIs, or by incompatibilities between Redis values read by different versions of the application. |
 | `~RootCause::Saturation` | failure resulting from a service or component which failed to scale in response to increasing demand (whether or not it was expected) |
-| `~RootCause::Security` | an incident where the [SIRT team](/handbook/engineering/security/#sirt---security-incident-response-team-former-security-operations) was engaged, generally via a request originating from the SIRT team or in a situation where Reliability has paged SIRT to assist in the mitigation of an incident not caused by `~RootCause::Malicious-Traffic` |
+| `~RootCause::Security` | an incident where the [SIRT team](/handbook/security/#sirt---security-incident-response-team-former-security-operations) was engaged, generally via a request originating from the SIRT team or in a situation where Reliability has paged SIRT to assist in the mitigation of an incident not caused by `~RootCause::Malicious-Traffic` |
 | `~RootCause::Software-Change` | feature or other code change |
 | `~RootCause::SPoF` | the failure of a service or component which is an architectural SPoF (Single Point of Failure) |
 

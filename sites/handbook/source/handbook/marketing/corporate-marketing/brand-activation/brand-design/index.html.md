@@ -41,6 +41,13 @@ Please fill out one of these Issue Templates to request support. Please note, if
     * Do NOT use this template for brand reviews
   * [Requesting a Brand Refresh](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-rebrand)
     * Use this template to request re-branding design support (multiple or single asset)
+    * What has changed with our branding?
+        1. [Logomark](https://design.gitlab.com/brand-logo/logomark) and [Core Logo](https://design.gitlab.com/brand-logo/core-logo) the rules around how to use it properly
+        2. [Font and typography guidelines](https://design.gitlab.com/brand-design/typography)
+        3. [Colors and color usage](https://design.gitlab.com/brand-design/color)
+        4. [Marketing icons and illustration style](https://design.gitlab.com/brand-design/marketing-illustrations)
+        5. Added [photography guidelines](https://design.gitlab.com/brand-design/photography) for our brand
+        6. Small adjustments to [Tone of voice](https://design.gitlab.com/brand/overview) and [co-branding guidelines](https://design.gitlab.com/brand-logo/branded-lockups)
     * Do NOT use this template for complicated campaign design support
     * Do NOT use this template for brand reviews
   * [Requesting Brand review](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-brand-review)

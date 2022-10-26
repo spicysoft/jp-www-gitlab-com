@@ -58,7 +58,7 @@ A blueprint is required for changes that meet any of the following conditions:
   or introduce special handling across distributions and deployments
 - adds a new service outside of the rails monolith, or an additional data source.
 
-Invoking this workflow is unecessary if:
+Invoking this workflow is unnecessary if:
 
 - fixing a flaky test
 - minor refactoring of code
@@ -72,17 +72,14 @@ Architecture Evolution Workflow. When in doubt, do not hesitate to reach out to
 a Principal+ Engineer for input.
 
 1. Determine with your manager whether to invoke the workflow.
-1. Open an architecture evolution issue in
-   [architecture/tasks](https://gitlab.com/gitlab-org/architecture/tasks)
-   project, which tracks progress of the workflow itself. Briefly describe your
-   ideas there. Link to relevant issues / documents.
 1. Start writing a blueprint somewhere! Depending on whether the content can be
    considered [SAFE](/handbook/legal/safe-framework/) or not you may want to do
-   that in a private space first.
+   that in a private space first. If you don't know how what content to start
+   with you can use [a template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/_template.md?plain=1).
+1. Post a link to your blueprint with a brief description in the internal
+   [`#architecture`](https://gitlab.slack.com/archives/CJ4DB7517) channel on Slack.
 1. Involve Architecture Evolution Coach, a Principal+ Engineer who will
    support you throughout the process.
-1. Post a link to your blueprint in the internal
-   [`#architecture`](https://gitlab.slack.com/archives/CJ4DB7517) channel on Slack.
 1. Open an architecture evolution blueprint [merge request](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/architecture/blueprints)
    if you have not done it already.
 1. Work with Architecture Evolution Coach, a Product Manager, Engineering
@@ -119,8 +116,10 @@ other stakeholders.
 
 For any given proposal, the following people should be involved:
 
-* An Architecture Evolution Coach (a Principal+ Engineer) who will be a coach and a mentor guiding the author through the process,
-* A Management Engineering Leader, who is a people's leader supposed to support the process,
+* An Architecture Evolution Coach (a Principal+ Engineer) who will be a coach
+  and a mentor guiding the author through the process,
+* A Management Engineering Leader, who is a people's leader supposed to support
+  the process,
 * A Product Manager responsible for finding a way to fund the initiative.
 
 During the process of working on the proposal, the author collaborates with an
@@ -131,6 +130,11 @@ first need to understand what is the scope of their proposal, what departments
 and teams will need to help to get the work done and how important it is for
 the organization, then they can involve the Architecture Evolution Coach to
 guide them through the workflow.
+
+Once the blueprint has enough content to evaluate the proposal (it can still be
+fairly short and simple) new processes and workflows become available for you,
+to make the proposal visible to the right people. See the section about
+[amplification](#amplification).
 
 ### Roles
 
@@ -193,7 +197,7 @@ another person.
 #### Functional Experts
 
 Functional Experts are engineers with deep knowledge across specific functional
-areas, which include [Security](/handbook/engineering/security/#-contacting-the-team), QA, Database, and Infrastructure. You should
+areas, which include [Security](/handbook/security/#-contacting-the-team), QA, Database, and Infrastructure. You should
 always involve these functional experts during the generation of blueprint so
 that we generate awareness early in the cycle and so that they can provide
 appropriate input into the blueprint.
@@ -229,6 +233,10 @@ associated with a blueprint once we enter the execution phase.
 Merged blueprints will be published on [GitLab Architecture Docs](https://docs.gitlab.com/architecture/blueprints)
 public pages.
 
+If you don't know what content you should put into a blueprint, you can use
+[this template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/_template.md?plain=1)
+as a starting point.
+
 Please be conscious of our [SAFE](/handbook/legal/safe-framework/) framework
 guidelines, and start collaborating on a blueprint in a private space (like a
 Google Doc) if it should not be made public.
@@ -258,6 +266,28 @@ The concept of a Working Groups can be an extension of the Architecture
 Evolution Workflow, but if it is not applicable in a particular case, a
 different process can be followed, like the suggested one that is described
 below.
+
+### Amplification
+
+We recognize the challenge of implementing complex architectural changes, over
+many months or even years. It is difficult to start such a work, fund it in the
+long term and avoid disruptive distractions as the implementation moves
+forward.
+
+Blueprints are often written by individual engineers, yet these documents
+usually describe far-reaching visions. Implementing such a vision takes time
+and might require funding. The Architecture Evolution Workflow has been built
+to better support teams in getting this kind of work done. There are a few
+associated processes, established to increase the likelihood of a success.
+
+One of processes designed to help is a monthly Architecture Evolution Sync
+meeting with Engineering Fellows and VP of Development, among others. The
+purpose of this meeting is to:
+
+- Increase visibility and awareness of blueprints.
+- Coordinate large initiatives across the organization.
+- Provide status updates about the most important initiatives.
+- Receive guidance regarding staffing and funding.
 
 ### Evolution
 

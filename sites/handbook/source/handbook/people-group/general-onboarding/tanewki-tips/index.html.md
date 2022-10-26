@@ -37,7 +37,7 @@ After you sign your offer and complete your background check and references, you
 1. Sign your offer, and be on the lookout for your :email: Welcome Email from the Candidate Experience Specialist team. You can read about the team on [this handbook page](https://about.gitlab.com/handbook/hiring/talent-acquisition-framework/coordinator/).
     - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/#laptops).
     - Please note,when you receive your laptop, make sure to **not** sign into the laptop with your personal Apple ID. You will be asked to create an Apple ID on day one with your GitLab email address. 
-1. If you are being employed by one of GitLab's US entities, either GitLab, Inc or GitLab, Fed, you will need to [complete your I9 via LawLogix](https://about.gitlab.com/handbook/people-group/general-onboarding/onboarding-processes/#timing-of-i-9). You will receive an email from LawLogix. This email will walk you through the process of completing the I9. 
+1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to [complete your I9 via LawLogix](https://about.gitlab.com/handbook/people-group/general-onboarding/onboarding-processes/#timing-of-i-9). You will receive an email from LawLogix. This email will walk you through the process of completing the I9. 
 1. If you live in Germany, South Korea, Japan, France, or the UK you will need to be on a lookout from an email from the People Connect team (via DocuSign or directly from the team) to complete some payroll documents. 
 1. The next email you will receive, is a [TaNEWki call](https://about.gitlab.com/handbook/people-group/general-onboarding/#tanuki-orange) invite. We hope you can join us! This Zoom call addresses those first day nerves and gives you some time to meet other new team members. You will see this invite sent to you 1-2 weeks before your start date. 
 1. You may receive an email from Okta (our SAAS application portal) with an invite to register. **Please ignore this email** until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day. 
@@ -65,8 +65,8 @@ As point 36 on our [communication handbook page](https://about.gitlab.com/handbo
 
 | Acronym| Word/Saying/Title | 
 |:---------------|:---------------|
-| AMA | Ask Me Anything | 
-| AR | Access Request | 
+| AMA | [Ask Me Anything](https://about.gitlab.com/handbook/communication/ask-me-anything/) | 
+| AR | [Access Request](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) | 
 | DRI | Directly Responsible Individual | 
 | E-Group | Executive Group |
 | EBA | Executive Business Administrator | 
@@ -76,10 +76,17 @@ As point 36 on our [communication handbook page](https://about.gitlab.com/handbo
 | MECC| [Managing so Everyone Can Contribute](https://about.gitlab.com/handbook/mecc/)|
 | MR | Merge Request  | 
 | MVC| [Minimum Viable Change](https://about.gitlab.com/handbook/values/#minimal-viable-change-mvc) (not related to Model-View-Controller)|
-| OKRs | Objectives & Key Results |
-| PTO | Paid Time Off |
-| SIRT | Security Incident Response Team |
+| OKRs | [Objectives & Key Results](https://about.gitlab.com/company/okrs) |
+| PTO | [Paid Time Off](https://about.gitlab.com/handbook/paid-time-off) |
+| SIRT | [Security Incident Response Team](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt) |
 | TMRG | [Team Member Resource Group](https://about.gitlab.com/company/culture/inclusion/#tmrgs---team-member-resource-groups) |
+
+
+**Customer Success Related Acronyms**
+
+| Acronym| Word/Saying/Title | 
+|:---------------|:---------------|
+| VSA |  [Value Stream Assessment](https://about.gitlab.com/handbook/customer-success/solutions-architects/sa-practices/value-stream-assessments) |
 
 **Engineering Related Acronyms**
 
@@ -116,7 +123,7 @@ As point 36 on our [communication handbook page](https://about.gitlab.com/handbo
 | SAL | Strategic Account Leader | 
 | SQL | Sales Qualified Lead |
 | SRE | Site Reliability Engineer |
-| TAM | Technical Account Manager | 
+| CSM | Customer Success Manager | 
 | TAM | Total Addressable Market | 
 | TCV | Total Contract Value |
 

@@ -8,8 +8,9 @@ canonical_path: "/community/sweepstakes/"
 ## Current and previous promotional games
 
 ### Current
-- [KubeCon EU 22 GitLab Code Challenge - Official Rules](/community/sweepstakes/kubecon-na-2022-code-challenge/)
+- [KubeCon NA 22 GitLab Code Challenge - Official Rules](/community/sweepstakes/kubecon-na-2022-code-challenge/)
 - [Google Cloud Next 2022 GitLab Newsletter Promotion - Official Rules](/community/sweepstakes/google-cloud-next-2022/)
+- [KubeCon NA 22 Secrets Features Survey Prize Draw - Official Rules](/community/sweepstakes/Kubecon-na-2022-secrets-survey/)
 
 ### Past
 - [GitLab Survey weekly digest 2022](/community/sweepstakes/2022-survey-weekly-digest/survey-weekly-digest.index.html)

@@ -74,7 +74,7 @@ To view previously recorded BDR/SDR Enablement content, you can view the [BDR/SD
 - If you would like to request or run an enablement session on a specific topic, please fill out [this issue](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/new?issuable_template=sdr_enablement_series_request).
 
 #### Sales Development Technical Development
-As part of your [onboarding](/handbook/marketing/revenue-marketing/sdr/sdr-playbook-onboarding/), you will begin an Sales Development Technical Development course with our Senior Sales Development Solutions Architect. The goal of this course is to enable you to be more comfortable have technical discussions - specifically when it comes to GitLab’s use cases. Each level of the course is tied to our [levels](https://about.gitlab.com/job-families/marketing/sales-development-representative/#levels) in the BDR and SDR roles.
+As part of your [onboarding](/handbook/marketing/revenue-marketing/sdr/sdr-playbook-onboarding/), you will begin an Sales Development Technical Development course with our Senior Sales Dev Enablement Manager. The goal of this course is to enable you to be more comfortable have technical discussions - specifically when it comes to GitLab’s use cases. Each level of the course is tied to our [levels](https://about.gitlab.com/job-families/marketing/sales-development-representative/#levels) in the BDR and SDR roles.
 
 
 ## Sales Development Resources
@@ -135,7 +135,7 @@ As part of your [onboarding](/handbook/marketing/revenue-marketing/sdr/sdr-playb
 | Self Serve | A sales method where a customer purchases online through our web store. Also known as a "web direct" |
 | SLA | Service Level Agreement |
 | SQO | Sales Qualified Opportunity |
-| TAM | Technical Account Manager |
+| CSM | Customer Success Manager |
 | TEDD | Technology, Engineering, Development and Design - used to estimate the maximum potential users of GitLab at a company |
 | Won Opportunity | Contract signed to Purchase GitLab |
 
@@ -240,7 +240,7 @@ We hold our Sales Development Org accountable to three pillars:
 
     - [Collaborate with the Sales team](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#working-with-sales) in terms of [account planning](https://about.gitlab.com/handbook/sales/account-planning/)
 
-    - [Collaborate with the Field Marketing team](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#event-promotion-and-follow-up-assistance) in terms of event outreach
+    - [Collaborate with the Field Marketing team](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#bdr-event-promotion-and-sales-dev-org-follow-up) in terms of event outreach
 
 
 ## BDR and SDR Compensation and Quota
@@ -351,7 +351,7 @@ While the below measurements do not impact your quota attainment, they are monit
     * Completion of BDR Q1-Q4 Tanuki Techs
         * NOTE: All promotions require a formal application + interview. Performance and adherence to our values will guarantee an interview but the BDR will have to demonstrate that they are the best candidate during the interview process. Factors such as interview performance, headcount, language requirements can influence promotion timelines.
 
-**Some examples of potential next roles after the Sales Dev Org are [Inside Sales Rep](https://about.gitlab.com/job-families/sales/public-sector-inside-account-representative/), [SMB Account Executive](https://about.gitlab.com/job-families/sales/smb-customer-advocate/), [Associate Solutions Architect](https://about.gitlab.com/job-families/sales/solutions-architect/), [Technical Account Manager](https://about.gitlab.com/handbook/customer-success/csm/), and many more!**
+**Some examples of potential next roles after the Sales Dev Org are [Inside Sales Rep](https://about.gitlab.com/job-families/sales/public-sector-inside-account-representative/), [SMB Account Executive](https://about.gitlab.com/job-families/sales/smb-customer-advocate/), [Associate Solutions Architect](https://about.gitlab.com/job-families/sales/solutions-architect/), [Customer Success Manager](https://about.gitlab.com/handbook/customer-success/csm/), and many more!**
 
 
 
@@ -1121,7 +1121,7 @@ In case of any AE requests for outbounding, the go-to BDRs for each Sales territ
 ### Expand BDRs are responsible for:
 
 - Accounts with their name in the `BDR Assigned` field
-- Leading account planning efforts with SALs/TAMs/ISRs and creating in-depth account plans for top focus expand accounts and other accounts in their hierarchy
+- Leading account planning efforts with SALs/CSMs/ISRs and creating in-depth account plans for top focus expand accounts and other accounts in their hierarchy
 - Qualifying and converting marketing-generated leads (MQLs) and inquiries into sales accepted opportunities (SAOs)
 - Aligning their outbound/inbound prospecting efforts to field/corporate/strategic/account based marketing campaigns
 - Educating prospects and making positive impressions
@@ -1140,8 +1140,8 @@ In case of any AE requests for outbounding, the go-to BDRs for each Sales territ
 ## Working with Sales
 Expand BDRs should prioritize communication with the SALs within territories they are aligned to. BDRs will organize and schedule a kickoff call to:
 - Review the focus expand accounts (including all children/subsidiaries of over 500 employees)
-- Gather actionable intelligence from SALs/TAMs/ISRs and discuss key expand strategy
-- Research the account with the SALs/TAMs/ISRs, see if LinkedIn introductions can be made
+- Gather actionable intelligence from SALs/CSMs/ISRs and discuss key expand strategy
+- Research the account with the SALs/CSMs/ISRs, see if LinkedIn introductions can be made
 - Research the account on LISN and select 10 - 15 contacts who follow GitLab or who fall into the personas we target
 - Review outbound BDR plays, campaigns, field tactics, and other offers
 - Review [Outreach persona sequences](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/#outbound-messaging) with SAL:  
@@ -1201,6 +1201,8 @@ Past Business Development Associates have shared their best practice steps relat
 ## Sales Development Organization Time Off
 
 While we have a "no ask, must tell" PTO policy we ask that, in accordance with the [Time Off Policy](https://about.gitlab.com/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off), you give your manager a heads up early of your intended time off so that they can help arrange cover for your tasks, if necessary. We want to help our team members being able to [fully unplug from work](https://about.gitlab.com/company/culture/all-remote/mental-health/mental-health-awareness-learning-path/#part-1-your-mental-health-matters) during their PTO, while not having to worry about their workload or target attainment. Based on this, we have created this PTO Territory Planning Issue that you can use to strategize your work and be aligned to the GitLab value of being a [Manager of One](https://about.gitlab.com/handbook/leadership/#managers-of-one). 
+
+To help BDRs and SDRs who are on PTO please review [this video](https://www.youtube.com/watch?v=sDzeqbd0Jes) on how to sequence on behalf of your teammembers. 
 
 To log a PTO Territory Planning request, please go to the Issue list on the SDR GitLab project [here](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/new#) and choose `PTO_Planning_Issue` from the `Description` drop-down list.
 
