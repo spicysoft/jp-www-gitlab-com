@@ -2726,7 +2726,11 @@
   human: Ashley Kramer
   story: |-
     Bruce is a laid back yellow lab with the world’s biggest heart. He loves chasing his ball, swimming and looks forward to three square meals a day. Betty is an athletic, outgoing yellow lab who is curious about everything in the world. She loves following her big brother everywhere, cuddling and swimming.
-    '
+- name: Ricci
+  picture: Ricci_Tosin.png
+  human: Tosin Falade
+  story: |-
+    Ricci is an energetic and extremely social Pomeranian living in Arizona who keep me quite busy (daily). She loves going to the dog park to interact with other dogs & humans.     
 - name: You?
   picture: "../../gitlab-logo-extra-whitespace.png"
   human:
