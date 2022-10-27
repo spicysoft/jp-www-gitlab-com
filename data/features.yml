@@ -4760,22 +4760,6 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-  - title : "Projects"
-    description: "Organize your repository into private, internal, or public projects."
-    link_description: "Learn more about Projects"
-    link: https://docs.gitlab.com/ee/user/project/index.html
-    screenshot_url: 01-projects.png
-    category:
-      - projects
-    gitlab_core: true
-    gitlab_starter: true
-    gitlab_premium: true
-    gitlab_ultimate: true
-    gitlab_com: true
-    bitbucket: true
-    pps_aggregate: 0
-    pps_recent: 0
-
   - title : "Merge Requests"
     description: "Create merge requests and @mention team members to review and safely merge your changes."
     screenshot_url: 07-merge-requests.png
@@ -7866,22 +7850,6 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-  - title : "Project badges"
-    description: |
-      First-class support for badges that are commonly added to a Project's
-      README, so that they are shown with the project description.
-    link_description: "Learn more about Project badges"
-    link: https://docs.gitlab.com/ee/user/project/badges.html
-    category:
-      - projects
-    gitlab_core: true
-    gitlab_starter: true
-    gitlab_premium: true
-    gitlab_ultimate: true
-    gitlab_com: true
-    pps_aggregate: 0
-    pps_recent: 0
-
   - title : "Enforce accepting terms of service"
     description: |
       Enforce your users accepting new terms of service by blocking GitLab traffic.
@@ -7895,9 +7863,38 @@ features:
     gitlab_ultimate: true
     gitlab_com: false
 
-  - title : "Project Topic Management"
-    description: |
-      Administrators can manage project topics in the Admin Area. They can add or edit project topics, and include a description and avatar.
+  - title : "Projects"
+    description: "Organize your repository into private, internal, or public projects."
+    link_description: "Learn more about Projects"
+    link: https://docs.gitlab.com/ee/user/project/index.html
+    screenshot_url: 01-projects.png
+    category:
+      - projects
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    bitbucket: true
+    pps_aggregate: 0
+    pps_recent: 0
+
+  - title : "Badges"
+    description: "Badges are a unified way to present condensed pieces of information about your projects. They consist of a small image and a URL that the image points to."
+    link_description: "Learn more about Badges"
+    link: https://docs.gitlab.com/ee/user/project/badges.html
+    category:
+      - projects
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    pps_aggregate: 0
+    pps_recent: 0
+
+  - title : "Project topic management"
+    description: "Administrators can manage project topics in the Admin Area. They can add or edit project topics, and include a description and avatar."
     link_description: "Learn more about project topic management"
     link: 'https://docs.gitlab.com/ee/user/admin_area/#administering-topics'
     category:
@@ -7908,6 +7905,35 @@ features:
     gitlab_premium: true
     gitlab_ultimate: true
     gitlab_com: false
+    pps_aggregate: 0
+    pps_recent: 0
+
+  - title : "Project settings"
+    description: "Use the Settings page to manage the configuration options in your project."
+    link_description: "Learn more about Project settings"
+    link: "https://docs.gitlab.com/ee/user/project/settings/"
+    category:
+      - projects
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: true
+    pps_aggregate: 0
+    pps_recent: 0
+
+  - title : "Manage projects"
+    description: "Most work in GitLab is done in a project. Files and code are saved in projects, and most features are in the scope of projects."
+    link_description: "Learn more about managing projects"
+    link: "https://docs.gitlab.com/ee/user/project/working_with_projects.html"
+    category:
+      - projects
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
     pps_aggregate: 0
     pps_recent: 0
 
@@ -7948,22 +7974,6 @@ features:
     pps_aggregate: 1
     pps_recent: 0
     pricing_theme: "Release controls"
-
-  - title : "Projects navigation"
-    description: "Navigate and bookmark your favorite projects. You can now explore, view, and star all projects in GitLab,  and explore project topics."
-    link_description: "Learn more about Projects"
-    link: "https://docs.gitlab.com/ee/user/project/settings/"
-    screenshot_url: project_nav.png
-    category:
-      - projects
-    gitlab_core: true
-    gitlab_starter: true
-    gitlab_premium: true
-    gitlab_ultimate: true
-    gitlab_com: true
-    github: true
-    pps_aggregate: 0
-    pps_recent: 0
 
   - title : "GitLab Flavored Markdown with CommonMark"
     description: "GitLab Flavored Markdown is now rendered using CommonMark, a modern standard, for new Markdown content."
