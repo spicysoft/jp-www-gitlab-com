@@ -29,7 +29,7 @@
 <%= partial('includes/product/internal_customers', locals: { customers: group.internal_customers }) -%>
 <%= partial('includes/product/link_table_row', locals: { label: 'Infrastructure Manager', link: group.rem }) -%>
 <%= partial('includes/product/tag_group_row', locals: { label: 'Site Reliability Engineering', tag: group.infra_reliability_team_tag }) -%>
-<%= partial('includes/product/link_table_row', locals: { label: 'Focus', link: group.focus }) -%>
+<%= partial('includes/product/text_table_row', locals: { label: 'Focus', value: group.focus }) -%>
 
 [Features in this Group](/handbook/product/categories/features#<%= stage.display_name.downcase %><%= group.name.downcase.tr(" ","-") %>-group)
 
