@@ -15,7 +15,7 @@ departments:
 - Plan:Certify BE Team
 projects:
   gitlab:
-  - trainee_maintainer backend
+  - maintainer backend
   gitlab-qa:
   - reviewer backend
 expertise: |
