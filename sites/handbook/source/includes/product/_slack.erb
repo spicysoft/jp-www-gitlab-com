@@ -1,0 +1,6 @@
+<% if slack -%>
+  <% if slack.channel -%>
+| Slack Channel | [<%=slack.channel%>](https://gitlab.slack.com/app_redirect?channel=<%=slack.channel%>) |
+  <% end -%>
+<%= partial('includes/product/user_table_row', locals: { label: 'Slack Alias', username: slack.alias }) -%>
+<% end -%>

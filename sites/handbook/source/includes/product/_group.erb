@@ -1,0 +1,36 @@
+##### <%= group.name %> group
+
+<% summary = group_engineering_total_summary(group: group) %>
+<% if summary %>
+  <p>Development totals: <%= summary %></p>
+<% end %>
+
+<%= partial('includes/product/common_rows', locals: { unit: group }) -%>
+<%= partial('includes/product/tag_group_row', locals: { label: 'Product Management', tag: group.pm_team_tag }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Product Manager', suffix: '', collection: group.pm }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Product Sponsor', link: group.product_sponsor }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Product Marketing Manager', link: group.pmm }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Engineering Manager', link: group.em }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Fullstack Manager', suffix: '', collection: group.fullstack_managers }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Support', suffix: '', collection: group.support }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Backend Engineering Manager', link: group.backend_engineering_manager }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Frontend Engineering Manager', link: group.frontend_engineering_manager }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Software Engineer', suffix: 'in Test', collection: group.sets }) -%>
+<%= partial('includes/product/tag_group_row', locals: { label: 'Backend Engineering', tag: group.be_team_tag }) -%>
+<%= partial('includes/product/tag_group_row', locals: { label: 'Frontend Engineering', tag: group.fe_team_tag }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Product Design Manager', suffix: '', collection: group.pdm }) -%>
+<%= partial('includes/product/tag_group_row', locals: { label: 'Staff Product Designer', tag: group.spd_team_tag }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'UX Researcher', suffix: '', collection: group.uxr }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Product Designer', suffix: '', collection: group.ux }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Content Marketing', link: group.cm }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Technical Writer', link: group.tech_writer }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Application Security Engineer', link: group.appsec_engineer }) -%>
+<%= partial('includes/product/tag_group_row', locals: { label: 'Customer Success', tag: group.cs_team_tag }) -%>
+<%= partial('includes/product/internal_customers', locals: { customers: group.internal_customers }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Infrastructure Manager', link: group.rem }) -%>
+<%= partial('includes/product/tag_group_row', locals: { label: 'Site Reliability Engineering', tag: group.infra_reliability_team_tag }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Focus', link: group.focus }) -%>
+
+[Features in this Group](/handbook/product/categories/features#<%= stage.display_name.downcase %><%= group.name.downcase.tr(" ","-") %>-group)
+
+<%= partial('includes/product/group_categories', locals: { group: group }) -%>
