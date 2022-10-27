@@ -82,17 +82,25 @@ We have a plan to [iteratively](https://about.gitlab.com/handbook/values/#iterat
 develop Product Analytics. We will start small
 and incrementally add new capabilities. Each iteration will let us learn more
 and solicit feedback to improve, before we start our next iteration.
-Our first iterations will be primarily internally focused and not ready for
-end users to use out of the box.
+Our first iterations will be primarily internally focused and later we will focus on
+customer-facing releases.
 
-Our next iteration will be focused on an [internal preview](https://gitlab.com/groups/gitlab-org/-/epics/8462)
+The list below is in rough priority order, but is by no means final. We will update
+it as we learn more and add or remove items. If you have feedback, please share it,
+we'd love to hear it!
+
+* Our first iteration will be focused on an [internal preview](https://gitlab.com/groups/gitlab-org/-/epics/8462)
 of Product Analytics that we can [dogfood](https://about.gitlab.com/handbook/product/product-processes/#dogfood-everything).
 This will let us work through the technical questions about how to best develop
 Product Analytics, how to host and maintain relevant infrastructure, as well
 as how to use it like an end-user would. This will culminate with us adding
 Product Analytics to the internal handbook for dogfooding.
-
-Following our internal preview, we will focus on creating the
+* We will next focus on adding [schema-driven dashboards](https://gitlab.com/groups/gitlab-org/-/epics/8574)
+as a way to visualize and consume information from Analytics. Our first iteration will have
+hardcoded, pre-configured dashboards, so this epic will allow for more customization. Additionally,
+other groups within GitLab are interested in using this dashboarding approach, so we expect to
+collaborate with them so they can benefit from this initiative as well.
+* We will next focus on creating the
 [first user-facing release](https://gitlab.com/groups/gitlab-org/-/epics/8525)
 of Product Analytics. This release will involve having a stable environment
 for analytics collection, storage, and retrieval. It will also include several
@@ -104,16 +112,12 @@ Once our first user-facing release is available, we will respond to feedback
 on where to next focus our efforts. We have several ideas on follow-on iterations
 after this release, which include:
 
-* Providing data export capabilities
-* Introducing funnel analysis
+* Providing [data export capabilities](https://gitlab.com/groups/gitlab-org/-/epics/8981)
+* Introducing [funnel analysis](https://gitlab.com/groups/gitlab-org/-/epics/9016)
 * Enriching results with data from other GitLab features, like [releases](https://docs.gitlab.com/ee/user/project/releases/) or [feature flags](https://docs.gitlab.com/ee/operations/feature_flags.html)
 * Introducing schemas to define dashboards
 * Improving speed of analytics to be near real-time
-* Allowing dashboards to be embedded in external applications
-
-This list is in rough priority order, but is by no means final. We will update
-it as we learn more and may add items. If you have feedback, please share it,
-we'd love to hear it!
+* Allowing [dashboards to be embedded in external applications](https://gitlab.com/groups/gitlab-org/-/epics/8940)
 
 ## Competitors
 The market is divided between big tech entrants building on top of complete Marketing Automation platforms marketed towards enterprise marketing orgs and stand-alone tools user engagement tools that are marketed towards Product (and occasionally Development) teams.
