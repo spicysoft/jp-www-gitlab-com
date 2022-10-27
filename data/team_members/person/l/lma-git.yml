@@ -1,17 +1,27 @@
 name: Leaminn Ma
 locality: 
 country: Remote
-role: <a href="">Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Verify:Pipeline
+  Authoring</a>
 reports_to: marknuzzo
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
-pronunciation:
+picture: leaminnma.jpg
+pronouns: she/her
+pronunciation: leemin
 twitter:
-linkedin:
+linkedin: leaminn-ma
 gitlab: lma-git
 departments:
-  - Development
-specialty: ""
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Pipeline Authoring Group
+- Verify:Pipeline Authoring BE Team
+specialty:
+- 'Verify: Pipeline Authoring'
 expertise:
-story:
+story: Leaminn is a clean code enthusiast who loves finding efficient solutions to
+  technical challenges. She is also the proud mom of an extremely handsome cat. Her
+  hobbies include binge watching shows, napping, acting in community theatre and
+  short films, singing opera, vegetable gardening, jigsaw puzzles, playing games,
+  and exploring new activities!
 
