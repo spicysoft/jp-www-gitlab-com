@@ -49,7 +49,9 @@ stages:
         be_team_tag: Manage:Authentication and Authorization BE Team
         fe_team_tag: Manage:Authentication and Authorization FE Team
         support:
-          - Cynthia Ng
+          - Alejandro Guerrero de Alba 
+          - Gerardo Gutierrez
+          - Cynthia Ng      
         sets:
           - Sanad Liaquat
         pdm:
