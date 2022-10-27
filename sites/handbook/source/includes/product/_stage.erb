@@ -13,10 +13,6 @@
 <%= partial('includes/product/multiple_link_row', locals: { label: 'Product Designer', suffix: '', collection: stage.ux }) -%>
 <%= partial('includes/product/link_table_row', locals: { label: 'Content Marketing', link: stage.cm }) -%>
 <%= partial('includes/product/link_table_row', locals: { label: 'Technical Writer', link: stage.tech_writer }) -%>
-<% if stage.cs_team_tag %>
-| Customer Success | <%= team_links_from_group(group: stage.cs_team_tag) -%> |
-<% end %>
-<% if stage.ar_team_tag %>
-| Analyst Relations | <%= team_links_from_group(group: stage.ar_team_tag) -%> |
-<% end %>
+<%= partial('includes/product/customer_success', locals: { unit: stage }) -%>
+<%= partial('includes/product/tag_group_row', locals: { label: 'Analyst Relations', tag: stage.ar_team_tag }) -%>
 <%= partial('includes/product/internal_customers', locals: { customers: stage.internal_customers }) -%>
