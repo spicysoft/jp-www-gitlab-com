@@ -14,7 +14,7 @@ canonical_path: "/direction/create/editor/web_ide/"
 | --- | --- |
 | Stage | [Create](/direction/dev/#create) |
 | Maturity | [Viable](/direction/maturity/) |
-| Content Last Reviewed | `2022-08-03` |
+| Content Last Reviewed | `2022-10-27` |
 
 ### Introduction and how you can help
 Thanks for visiting this direction page on the Web IDE in GitLab. This page belongs to the [Editor](/handbook/product/categories/#editor-group) group of the Create stage and is maintained by Eric Schurter ([E-Mail](mailto:eschurter@gitlab.com)). More information about the Editor group's priorities and direction can be found on the [Editor group direction page](/direction/create/editor/).

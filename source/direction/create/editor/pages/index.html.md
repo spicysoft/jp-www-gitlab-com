@@ -14,7 +14,7 @@ canonical_path: "/direction/create/editor/pages/"
 | --- | --- |
 | Stage | [Create](/direction/dev/#create) |
 | Maturity | [Complete](/direction/maturity/) |
-| Content Last Reviewed | `2022-08-02` |
+| Content Last Reviewed | `2022-10-27` |
 
 ### Introduction and how you can help
 
