@@ -10,7 +10,7 @@ canonical_path: "/direction/create/editor/source_editor/"
 
 ## Source Editor
 
-**Content last reviewed on 2022-08-03**
+**Content last reviewed on 2022-10-27**
 
 Thanks for visiting the direction page for the Source Editor, a code editor maintained by the [Editor](/handbook/product/categories/#editor-group) group. While not a singular feature or official category in itself, the Source Editor is a critical component and cornerstone of the Editor group's strategy. More information about the Editor group's priorities and direction can be found on the [Editor group direction page](/direction/create/editor/) and additional questions can be directed to Eric Schurter ([E-Mail](mailto:eschurter@gitlab.com)).
 

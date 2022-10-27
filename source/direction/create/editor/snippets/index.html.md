@@ -14,7 +14,7 @@ canonical_path: "/direction/create/editor/snippets/"
 | --- | --- |
 | Stage | [Create](/direction/dev/#create) |
 | Maturity | [Complete](/direction/maturity/) |
-| Content Last Reviewed | `2022-08-03` |
+| Content Last Reviewed | `2022-10-27` |
 
 <!-- A good description of what your category is. If there are
 special considerations for your strategy or how you plan to prioritize, the

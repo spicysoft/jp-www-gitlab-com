@@ -10,7 +10,7 @@ canonical_path: "/direction/create/editor/"
 
 ## The Editor group
 
-**Content last reviewed on 2022-08-03**
+**Content last reviewed on 2022-10-27**
 
 This is the direction page for the Editor group which is part of the [Create stage](/direction/dev/index.html#create) of the DevOps lifecycle and is responsible for the following categories: 
 
@@ -37,11 +37,11 @@ With 5 categories and 2 foundational editor components, the Editor group has to 
 
 The Web IDE is a very capable multi-file editor, offering a streamlined way to contribute to projects without cloning a repository or reconfiguring your local development environment. There are features, however, that don't meet a developer's expectations when it comes to making more complex edits. We are in the process of building the [next iteration of the Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/7683), based on the open-source VS Code project and running entirely in the browser. This will not only bring a more robust, mature feature set to the Web IDE, but it will lay a strong foundation for our Remote Development category. 
 
-#### Remote Development - 25%
+#### Remote Development - 30%
 
 The Web IDE makes it possible for anyone to contribute to a project right from their web browser. Editing the actual code, however, is only a small part of a developer's workflow. Local IDEs, combined with properly-configured development environments, make it possible to run tests, lint code, generate previews, and offer features that improve developer efficiency like code completion. Without these features, developers can't fully adopt a tool. Remote Development is an early stage category that aims to provide a server-based runtime environment that can be accessed from the Web IDE or your local IDE, eliminating the need for managing a complex set of dependencies on your local machine. 
 
-#### Content Editor - 20%
+#### Content Editor - 10%
 
 In GitLab 14.0, we [introduced a WYSIWYG Markdown editor](https://gitlab.com/groups/gitlab-org/-/epics/5403), what we've come to call the Content Editor, that provides a rich text editing experience to make it easier for everyone to contribute. Initially available in the Wiki, the highest priority for the Editor group here is to build [complete support for GitLab Flavored Markdown](https://gitlab.com/groups/gitlab-org/-/epics/5438) so that the Content Editor can be used as a production-ready, default editing experience for Wiki. Afterward, the Content Editor can be introduced anywhere Markdown content is written in GitLab. This includes issue and epic descriptions, comments, and even when editing Markdown files directly in the Repository view or Web IDE. 
 
@@ -49,7 +49,7 @@ In GitLab 14.0, we [introduced a WYSIWYG Markdown editor](https://gitlab.com/gro
 
 The [Source Editor](https://gitlab.com/groups/gitlab-org/-/epics/4861) is a flexible and extensible code editing component, based on [Monaco](https://microsoft.github.io/monaco-editor/), used in several places across GitLab including the [Web Editor](https://docs.gitlab.com/ee/user/project/repository/web_editor.html) (also referred to as the Single File Editor, what you use when you edit a file from the repository view), the [Pipeline Editor](https://docs.gitlab.com/ee/ci/pipeline_editor/), and the Snippet editor. One of the primary goals for the category is to bridge the gap between the Web Editor and the more complex, but powerful, Web IDE. We are currently focusing on extending the underlying Source Editor itself and enabling more advanced workflows like [live Markdown preview](https://gitlab.com/groups/gitlab-org/-/epics/4859) or [inline merge request discussions](https://gitlab.com/groups/gitlab-org/-/epics/72). 
 
-#### Pages - 10%
+#### Pages - 15%
 
 GitLab Pages offers a streamlined way to deploy and host your statically generated website on our shared infrastructure. The current implementation is focused primarily on making the connection between the CI build process and the deployment of static assets, there is huge potential to improve the user experience around managing, editing, and collaborating on static assets from within GitLab. Pages is a critical piece of the Editor group's strategy for enabling everyone to contribute. 
 
