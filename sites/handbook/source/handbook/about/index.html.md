@@ -67,6 +67,7 @@ The handbook is over _two_ _thousand_ pages long. That's a lot of good info!
 | 2022-01-01 | 3,280,108 | 2,395 |
 | 2022-04-01 | 3,474,993 | 2,553 |
 | 2022-07-01 | 3,628,280 | 2,641 |
+| 2022-10-01 | 3,732,384 | 2,724 |
 
 ### Methodology
 
