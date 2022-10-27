@@ -46,10 +46,45 @@ plan.
 
 Since GitLab CI runners and certain clients automatically handle URL
 redirections already, we expect that downloads for CI artifacts should
-continue to work without any action. If a runner cannot download from
-the CDN host, it will retry without the CDN and download the artifact
-directly through GitLab.com.
+continue to work without any action.
+
+We encourage upgrading to the latest version of the GitLab Runner in
+order to take advantage of the CDN. This feature was [introduced in
+GitLab Runner v13.1.0](https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2115).
+If a runner cannot download from the CDN host, it will retry without the
+CDN and download the artifact directly through GitLab.com.
 
 However, if you have a firewall that only allows
 `storage.googleapis.com`, you will need to add
-`cdn.artifacts.gitlab-static.net` to the allow list.
+`cdn.artifacts.gitlab-static.net` (34.110.204.38) to the allow list.
+
+### What do these warning messages mean?
+
+With this change, users may see warning messages in the CI job logs:
+
+#### read: connection reset by peer
+
+```plaintext
+ERROR: Downloading artifacts from coordinator... error couldn't execute GET against https://gitlab.com/api/v4/jobs/<job id>/artifacts?direct_download=true: Get "https://cdn.artifacts.gitlab-static.net/...
+read tcp 172.17.0.2:59332->34.110.204.38:443: read: connection reset by peer  id=1234 token=<some token>
+WARNING: Retrying...                                error=invalid argument
+Downloading artifacts from coordinator... ok        id=1234 responseStatus=200 OK token=<some token>
+```
+
+This error suggests the runner was not able to access the CDN. Check
+your network firewalls and allow access to the IP 34.110.204.38.
+
+Note that there are two `Downloading artifacts from coordinator`
+messages. The second attempt succeeded because the runner retried
+without the CDN.
+
+#### x509: certificate signed by unknown authority
+
+```plaintext
+ERROR: Downloading artifacts from coordinator... error couldn't execute GET against https://gitlab.com/api/v4/jobs/<job id>/artifacts?direct_download=true: Get "https://storage.googleapis.com/gitlab-gprd-artifacts/...: x509: certificate signed by unknown authority  id=1234 token=<some token>
+```
+
+This error suggests the runner is configured with [custom SSL
+certificates](https://docs.gitlab.com/runner/configuration/tls-self-signed.html).
+You may need to update your certificates or include the certificates
+directly in the bundle.
