@@ -113,20 +113,10 @@ With all the above AI features, there are a few assumptions that need to be vali
 Ultimately the AI part will be a self learning application. However, this takes a lot of time and is not in line with 
 iteration and efficiency. Besides, we first need to validate the underlying assumptions, so to keep it simple and 
 efficient, it's broken down into the following roadmap:
-1. Use off the shelf products (collect feedback on the approach). No new ML models will be involved at this point.
-2. Seamlessly integrate the output of step 1 into the UI 
-3. Figure out what the shortcomings / gaps are of step 1 and explore alternatives to fill the gaps
-4. The first two steps will probably create a lot of irrelevant warnings, train a model to determine relevancy
-5. Determine the most effective suggestions
-6. Create a GitLab owned linter based on the learnings and feedback
-7. Integrate the GitLab linter into IDEs for realtime suggestions
-8. Evolve into GitLab Assist
-
-## Sub-projects
-
-AI Assist is broken down in subsets:
-- [Docker](/handbook/engineering/incubation/ai-assist/docker) (Current focus)  
-- GitLab CI (Next)
+1. Build a PoC with off the shelf products. No new ML models will be involved at this point.
+2. Integrate with the official GitLab IDE extensions for realtime suggestions
+3. Start dogfooding the PoC
+4. Determine shortcomings and explore options to improve
 
 ## GitLab Assist
 For years developers have been exposed to code completion tools such as IntelliSense and recently there are developments
@@ -156,6 +146,14 @@ which will be similar to the core functionality of a code completion product but
 - Adhere to company coding guidelines
 - Be aware of licencing
 - Incorporate all learnings from the roadmap
+
+
+## Sub-projects
+
+AI Assist SEG is also involved in the following projects:
+- [FauxPilot](https://github.com/moyix/fauxpilot)
+- [GitLab VS Code extension](https://gitlab.com/gitlab-org/gitlab-vscode-extension)
+- [Dokter](https://gitlab.com/gitlab-org/incubation-engineering/ai-assist/dokter)
 
 
 ## External reads
