@@ -2152,18 +2152,6 @@ service_ping:
   marketing: false
   maturity: viable
 
-privacy_control_center:
-  name: "Privacy Control Center"
-  stage: analytics
-  direction: https://about.gitlab.com/direction/product-intelligence/
-  description:
-  available: 2023-12-01
-  viable: 2024-12-01
-  complete: 2025-06-01
-  lovable: 2025-12-01
-  marketing: false
-  maturity: planned
-
 application_instrumentation:
   name: "Application instrumentation"
   stage: analytics

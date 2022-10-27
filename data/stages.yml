@@ -1584,7 +1584,6 @@ stages:
             dri: TBD
         categories:
             - service_ping
-            - privacy_control_center
             - application_instrumentation
       product_analytics:
         name: Product Analytics
