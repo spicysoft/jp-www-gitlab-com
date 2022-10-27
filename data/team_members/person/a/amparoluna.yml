@@ -13,7 +13,7 @@ departments:
 - Development Department
 - Fulfillment Section
 - Fulfillment Sub-department
-- Fulfillment:Provision Team
+- Fulfillment:Commerce Integrations
 - Backend
 projects:
   gitlab: reviewer backend
