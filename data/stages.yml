@@ -1260,7 +1260,7 @@ stages:
           - Will Leidheiser
         qm: Joanna Shih
         tech_writer: Phillip Wells
-        appsec_engineer: Vitor Meireles De Sousa
+        appsec_engineer: TBD
         cs_team_tag: Configure Group CS Stable Counterpart
         internal_customers:
           - department: Quality Department
@@ -1337,7 +1337,7 @@ stages:
           - Will Leidheiser
         qm: Joanna Shih
         tech_writer: Marcin Sędłak-Jakubowski
-        appsec_engineer: Vitor Meireles De Sousa
+        appsec_engineer: TBD
         slack:
           channel: g_respond
           alias: respond-group
@@ -1379,7 +1379,7 @@ stages:
           - Will Leidheiser
         qm: TBD
         tech_writer: Marcin Sędłak-Jakubowski
-        appsec_engineer: Vitor Meireles De Sousa
+        appsec_engineer: TBD
         slack:
           channel: g_observability
           alias: observability-group
