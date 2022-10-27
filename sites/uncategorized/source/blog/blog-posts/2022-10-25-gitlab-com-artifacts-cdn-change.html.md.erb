@@ -84,7 +84,9 @@ without the CDN.
 ERROR: Downloading artifacts from coordinator... error couldn't execute GET against https://gitlab.com/api/v4/jobs/<job id>/artifacts?direct_download=true: Get "https://storage.googleapis.com/gitlab-gprd-artifacts/...: x509: certificate signed by unknown authority  id=1234 token=<some token>
 ```
 
-This error suggests the runner is configured with [custom SSL
-certificates](https://docs.gitlab.com/runner/configuration/tls-self-signed.html).
-You may need to update your certificates or include the certificates
-directly in the bundle.
+If you see this error with a Windows runner, upgrade to v15.5.0 since it
+is compiled with [Go 1.18](https://tip.golang.org/doc/go1.18), which
+supports [using the system certificate pool](https://github.com/golang/go/issues/16736).
+
+Otherwise, this error suggests the runner is configured with [custom SSL certificates](https://docs.gitlab.com/runner/configuration/tls-self-signed.html).
+You may need to update your certificates or include the certificates directly in the bundle.
