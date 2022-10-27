@@ -8113,11 +8113,25 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
+  - title : "User profile page"
+    description: "Each GitLab account has a user profile, which contains information about you and your GitLab activity."
+    link_description: "Learn more about User profiles"
+    link: "https://docs.gitlab.com/ee/user/profile/"
+    category:
+      - users
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: true
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "User status message"
-    description: "Define and show your personal status message via an Emoji and text message, exposed on your profile page and on any comment and author line."
+    description: "You can provide a custom status message for your user profile along with an emoji that describes it."
     link_description: "Learn more about Status messages"
-    link: "https://docs.gitlab.com/ee/user/profile/#current-status"
-    screenshot_url: status-messages-profile.png
+    link: "https://docs.gitlab.com/ee/user/profile/#set-your-current-status"
     category:
       - users
     gitlab_core: true
@@ -8130,13 +8144,10 @@ features:
     pps_aggregate: 0
     pps_recent: 0
 
-  - title : "Private profile page"
-    description: "In certain situations, when privacy is of concern, users might not want to show their
-      activity, contributions and personal projects. Activity-related information can be disabled in the
-      profile settings."
-    link_description: "Learn more about Private profiles"
-    link: "https://docs.gitlab.com/ee/user/profile/#private-profile"
-    screenshot_url: private-profile.png
+  - title : "Contributions calendar"
+    description: "The contributions calendar displays a user’s events from the past 12 months. This includes contributions made in forked and private repositories."
+    link_description: "Learn more about Contributions calendar"
+    link: "https://docs.gitlab.com/ee/user/profile/contributions_calendar.html"
     category:
       - users
     gitlab_core: true
@@ -8144,7 +8155,8 @@ features:
     gitlab_premium: true
     gitlab_ultimate: true
     gitlab_com: true
-    github: false
+    github: true
+    redmine: partially
     pps_aggregate: 0
     pps_recent: 0
 
@@ -10782,22 +10794,6 @@ features:
     solution: Release
     category:
       - release_orchestration
-    gitlab_core: true
-    gitlab_starter: true
-    gitlab_premium: true
-    gitlab_ultimate: true
-    gitlab_com: true
-    pps_aggregate: 0
-    pps_recent: 0
-
-  - title : "User Statistics Improved"
-    description: |
-      The User Statistics page provides administrators with a broken out user summary to assist with monitoring seat allocation and utilization.
-    link_description: "Read more about User Statistics"
-    link: https://docs.gitlab.com/ee/subscriptions/#users-statistics
-    solution: Manage
-    category:
-      - users
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
