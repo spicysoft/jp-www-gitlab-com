@@ -4334,10 +4334,42 @@ features:
     pps_recent: 1
     pricing_theme: "Self-managed reliability"
 
+  - title : "Manage groups"
+    description: "Use groups to manage one or more related projects at the same time."
+    link: https://docs.gitlab.com/ee/user/group/manage.html
+    link_description: "Learn more about managing Groups"
+    category:
+      - subgroups
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    bitbucket: false
+    pps_aggregate: 0
+    pps_recent: 0
+
+  - title : "Subgroups: groups within groups"
+    description: "Create groups within groups to easily manage large numbers of people and projects."
+    link: https://docs.gitlab.com/ee/user/group/subgroups/index.html
+    link_description: "Learn more about Subgroups"
+    category:
+      - subgroups
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    bitbucket: false
+    pps_aggregate: 0
+    pps_recent: 0
+
   - title : "Lock project membership to group"
-    description: "Group owners can prevent new members from being added to projects within a group."
+    description: "Group owners can prevent any new project membership for all projects in a group."
     link_description: "Learn more about locking project membership to a group"
-    link: https://docs.gitlab.com/ee/user/group/index.html#member-lock
+    link: https://docs.gitlab.com/ee/user/group/access_and_permissions.html#prevent-members-from-being-added-to-projects-in-a-group
     category:
       - subgroups
     gitlab_com: true
@@ -4353,9 +4385,23 @@ features:
     pps_recent: 2
     pricing_theme: "Release controls"
 
-  - title : "Group sharing"
-    description: "Share projects with other groups."
-    link_description: "Learn more about group sharing"
+  - title : "Share groups with other groups"
+    description: "Share a group with another group."
+    link_description: "Learn more about sharing a group with another group"
+    link: https://docs.gitlab.com/ee/user/group/manage.html#share-a-group-with-another-group
+    category:
+      - subgroups
+    gitlab_com: true
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    pps_aggregate: 0
+    pps_recent: 0
+
+  - title : "Share projects with other groups"
+    description: "Share a project with another group."
+    link_description: "Learn more about sharing a project with another group"
     link: https://docs.gitlab.com/ee/user/project/members/share_project_with_groups.html
     category:
       - subgroups
@@ -5041,22 +5087,6 @@ features:
     gitlab_premium: true
     gitlab_ultimate: true
     gitlab_com: true
-    pps_aggregate: 0
-    pps_recent: 0
-
-  - title : "Subgroups: groups within groups"
-    description: "Create groups within groups to easily manage large numbers of people and projects."
-    link: '/features/subgroups/'
-    link_description: "Learn more about Subgroups"
-    category:
-      - subgroups
-    gitlab_core: true
-    gitlab_starter: true
-    gitlab_premium: true
-    gitlab_ultimate: true
-    gitlab_com: true
-    github: false
-    bitbucket: false
     pps_aggregate: 0
     pps_recent: 0
 
@@ -7918,22 +7948,6 @@ features:
     pps_aggregate: 1
     pps_recent: 0
     pricing_theme: "Release controls"
-
-  - title : "Groups dropdown in navigation"
-    description: "Searching for a group is directly available behind a lightweight dropdown menu, removing the need to navigate away from your work into a separate view when you’re looking for a hard-to-remember group."
-    link_description: "Learn more about Groups"
-    link: "https://docs.gitlab.com/ee/user/group/"
-    screenshot_url: groups-dropdown.png
-    category:
-      - subgroups
-    gitlab_core: true
-    gitlab_starter: true
-    gitlab_premium: true
-    gitlab_ultimate: true
-    gitlab_com: true
-    github: false
-    pps_aggregate: 0
-    pps_recent: 0
 
   - title : "Projects navigation"
     description: "Navigate and bookmark your favorite projects. You can now explore, view, and star all projects in GitLab,  and explore project topics."
