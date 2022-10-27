@@ -25,7 +25,7 @@ projects:
   - reviewer go
   - reviewer workhorse
   go-mimedb: reviewer
-  container-registry: reviewer
+  container-registry: trainee_maintainer
   labkit: reviewer
 story: |
   Jaime is a software engineer who has been working with Go writing backend applications for the last few years. He enjoys mentoring others and spreading the Go love.
