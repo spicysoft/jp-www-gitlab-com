@@ -214,6 +214,7 @@ uncategorized:
     - sitemap.xml
     - team.json
     - all-releases.xml
+    - breaking-changes.xml
     - googlefb840fa97e1634e7.html
   development_paths:
     - ico
