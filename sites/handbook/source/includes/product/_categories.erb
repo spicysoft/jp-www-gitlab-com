@@ -59,9 +59,7 @@
 <% if section.tw %>
   | Technical Writing | [<%=section.tw%>] |
 <% end %>
-<% if section.cs_team_tag %>
-  | Customer Success | <%=team_links_from_group(group: section.cs_team_tag)%> |
-<% end %>
+<%= partial('includes/product/customer_success', locals: { unit: section }) -%>
 <% if section.ar_team_tag %>
   | Analyst Relations | <%=team_links_from_group(group: section.ar_team_tag)%> |
 <% end %>

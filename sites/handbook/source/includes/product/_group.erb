@@ -25,7 +25,7 @@
 <%= partial('includes/product/link_table_row', locals: { label: 'Content Marketing', link: group.cm }) -%>
 <%= partial('includes/product/link_table_row', locals: { label: 'Technical Writer', link: group.tech_writer }) -%>
 <%= partial('includes/product/link_table_row', locals: { label: 'Application Security Engineer', link: group.appsec_engineer }) -%>
-<%= partial('includes/product/tag_group_row', locals: { label: 'Customer Success', tag: group.cs_team_tag }) -%>
+<%= partial('includes/product/customer_success', locals: { unit: group }) -%>
 <%= partial('includes/product/internal_customers', locals: { customers: group.internal_customers }) -%>
 <%= partial('includes/product/link_table_row', locals: { label: 'Infrastructure Manager', link: group.rem }) -%>
 <%= partial('includes/product/tag_group_row', locals: { label: 'Site Reliability Engineering', tag: group.infra_reliability_team_tag }) -%>
