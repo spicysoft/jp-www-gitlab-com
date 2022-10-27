@@ -124,9 +124,9 @@ All teams are responsible for requesting social posts themselves. If you are not
 - Press/media coverage: Post in `#external-comms` for assistance
 - Social media, RTs of mentions, CEO Statements/posts: Post in `#social_media_action` for assistance
 
-### Public relations (PR)
+### Company Spokesperson
 
-Speaking to media or on a podcast as a GitLab team member is a significant responsibility. Please see [PR review and media guidelines](/handbook/marketing/corporate-marketing/#pr-public-relations).
+Speaking on behalf of GitLab at a conference, to media or on a podcast as a GitLab team member is a significant responsibility. Please see the [Corporate Communications Handbook Page](https://about.gitlab.com/handbook/marketing/corporate-marketing/corporate-communications/) for guidelines and trainings.
 
 ### Blog post editing
 
