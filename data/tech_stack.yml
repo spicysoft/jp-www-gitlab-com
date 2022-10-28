@@ -2871,7 +2871,7 @@
   employee_or_customer_facing_app: Employee
   notes: null
   saas: null
-  handbook_link: "[Handbook page](/handbook/marketing/marketing-operations/marketo)"
+  handbook_link: "[Marketo Tech Stack Guide](/handbook/marketing/marketing-operations/marketo/tech-stack-guide-marketo)"
   google_group: null
 
 - title: Mavenlink
