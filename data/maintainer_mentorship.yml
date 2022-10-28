@@ -131,7 +131,8 @@
   domains:
     - backend
   max_trainees: 2
-  trainees: []
+  trainees:
+    - Pedro Pombeiro
 - mentor: Zack Cuddy
   gitlab: zcuddy
   domains:
