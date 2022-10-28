@@ -4623,7 +4623,9 @@
 - sources:
   - /handbook/mecc
   - /handbook/mecc/
-  target: /handbook/teamops/
+  - /handbook/teamops
+  - /handbook/teamops/
+  target: /teamops/
   comp_op: '='
 - sources:
   - /handbook/customer-success/tam/
