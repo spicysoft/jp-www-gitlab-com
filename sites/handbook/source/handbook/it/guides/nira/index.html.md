@@ -215,7 +215,7 @@ This filter shows you which of your documents have been shared with a personal e
 
 #### Link type
 
-This filter allows you to see which of your items have a Restricted, Company, Public, or Outside link.
+This filter allows you to see which of your items have a Restricted, Company, Public, Outside, Targeted, External and Unknown link.
 
 #### People
 
@@ -251,7 +251,16 @@ This filter will be on by default. It hides invalid data from Google’s APIs fo
 
 ### Google Workspace link types
 
-> There are 4 types of links in Google Workspace.
+There are 4 types of links in Google Workspace.
+Google Workspace link types
+##### External links
+* External links will only be displayed if you clicked on an external document link through an open link.
+* When you access an externally owned document via an open link, this is called External.
+##### Targeted links
+* If Target audience is enabled by your administrator, or you have been added as a Target Audience through another domain, you will be able to see items that have these types of links.
+##### Unknown links
+* Unknown links are rare
+* When Google's APIs don't provide enough information about a link type, then it’s classified as an Unknown link.
 
 #### Restricted link
 
