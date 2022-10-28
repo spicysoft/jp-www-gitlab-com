@@ -645,6 +645,10 @@ On the opportunity record in Saleforce, compose a new Chatter message that inclu
 
 Your manager will review the information and decide whether SAO credit is warranted. If confirmed, they will Chatter Sales Support to add you to the opportunity. If rejected, they will communicate to you the reasoning for their decision.
 
+#### Opportunity Creation Workflow
+
+![Opportunity Creation Workflow](/handbook/marketing/revenue-marketing/sdr/Opportunity creation workflow.png)
+
 ## BDR Outbound Process
 
 BDR outbound lead generation is done by prospecting to companies and individuals who could be a great fit for our product. Prospecting is the process of finding and developing new business through searching for potential customers with the end goal of moving these people through the sales funnel until they eventually convert into customers.
