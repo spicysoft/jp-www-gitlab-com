@@ -10,7 +10,6 @@ twitter:
 gitlab: drew
 projects:
   gitlab: reviewer backend
-  verify-codequality: maintainer
   verify-accessibility: maintainer
 departments:
 - Engineering Function
