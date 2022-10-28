@@ -15,9 +15,10 @@ description: Learn about the GitLab for Open Source Program and other open sourc
 {::options parse_block_html="true" /}
 
 # About
+
 GitLab's open source program is part of the [Community Relations team](/handbook/marketing/community-relations/). It consists of three sub-programs:
 
-* [**GitLab for Open Source Program**](/handbook/marketing/community-relations/community-programs/opensource-program/#gitlab-for-open-source-program), through which qualifying open source projects [receive benefits](/solutions/open-source/) like GitLab Ultimate and 50,000 CI minutes for free.
+* [**GitLab for Open Source Program**](/handbook/marketing/community-relations/community-programs/opensource-program/#gitlab-for-open-source-program), through which qualifying open source projects [receive benefits](/solutions/open-source/) like GitLab Ultimate with 50,000 CI minutes for free.
 * [**GitLab Open Source Partners**](/handbook/marketing/community-relations/community-programs/opensource-program/#gitlab-open-source-partners), a [partnership program](/solutions/open-source/partners) designed for large or prominent open source projects and organizations.
 * [**Consortium Memberships**](/handbook/marketing/community-relations/community-programs/opensource-program/#consortium-memberships-and-sponsorships), which allow us to [extend GitLab's leadership in key open source initiatives](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/consortium-memberships), enhance GitLab's brand, and/or improve engineering alignment
 
@@ -40,13 +41,10 @@ Send questions about the GitLab for Open Source Program to `opensource@gitlab.co
 
 ### What are the benefits of the GitLab for Open Source Program?
 
-Members of the GitLab for Open Source Program receive the following benefits at no cost:
+At no cost, members of the GitLab for Open Source Program receive a [GitLab Ultimate](/pricing/) subscription (self-managed or SaaS), which includes 50,000 CI/CD minutes (users can purchase 1,000 [additional CI minutes](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#purchase-additional-cicd-minutes) for a one-time, $8 fee). Product support is not included as part of this subscription.
 
-* [GitLab Ultimate](/pricing/) (self-managed or SaaS) with unlimited seats per license
-* 50,000 CI/CD minutes (users can purchase 1,000 [additional CI minutes](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#purchase-additional-cicd-minutes) for a one-time, $8 fee)
-
-While members of the GitLab for Open Source Program receive GitLab Ultimate at no cost, they do not receive support as part of their license.
-{: .alert .alert-warning}
+While members of the GitLab for Open Source Program receive features of GitLab Ultimate at no cost, they do not receive support as part of their subscription.
+{: .alert .alert-info}
 
 ### Who qualifies for the GitLab for Open Source Program?
 
@@ -57,7 +55,7 @@ In order to be accepted into the GitLab for Open Source Program, applicants must
 * **Be publicly visible:** Both the applicant's GitLab.com group or self-managed instance and source code must be publicly visible and publicly available.
 
 Benefits of the GitLab for Open Source Program apply to a namespace. To qualify, every project in an applicant’s namespace must carry an OSI-approved open source license.
-{: .alert .alert-warning}
+{: .alert .alert-info}
 
 #### Qualification exceptions
 
@@ -92,7 +90,7 @@ The GitLab for Open Source team processes applications according to the [Communi
 Yes. Program members must renew their memberships annually. If they don’t renew, [their accounts will be downgraded](https://about.gitlab.com/pricing/licensing-faq/#what-happens-when-my-subscription-is-about-to-expire-or-has-expired).
 
 We recommend that applicants begin the renewal process at least one month in advance of their renewal dates to ensure sufficient processing time. Note that applications will not be processed during U.S. holidays and responses may be delayed during those periods.
-{: .alert .alert-info}
+{: .alert .alert-warning}
 
 ### How does someone renew their membership in the GitLab for Open Soure Program?
 
@@ -120,9 +118,8 @@ To help us plan for next year:
 * Number of seats you are renewing: 
 * Please verify the license type to be renewed: 
 * Please attach a PDF version of last year's quote if available
-* List any change of ownership to the account:
+* List any change of ownership to the account: 
 (If account ownership details change, please send the new account holder's name, email address, and contact's mailing address)
-      
 ```
 
 When a renewal request is processed and accepted, applicants will be asked to sign a $0 renewal quote. After that:
@@ -148,13 +145,19 @@ While GitLab for Open Source Program benefits do not include product [support](/
 
 ## Program management resources
 
-### OSS product SKUs
+### Product SKUs
+
 The following active SKUs are related to the GitLab for Open Source Program:
 
- * `[OSS Program] SaaS - Ultimate (formerly Gold) - 1 Year`
- * `[OSS Program] Self-Managed - Ultimate - 1 Year`
- 
+* `[OSS Program] SaaS - Ultimate (formerly Gold) - 1 Year`
+* `[OSS Program] Self-Managed - Ultimate - 1 Year`
+
+### Application page location
+
+When seeking to edit the GitLab for Open Source application page, find the appropriate file at `data/solution_children/join.yml`.
+
 # GitLab Open Source Partners
+
 The [GitLab Open Source Partners](/solutions/open-source/partners/) program exists to build relationships with prominent open source projects using GitLab as a critical component of their infrastructure. By building these relationships, GitLab hopes to strengthen the open source ecosystem.
 
 Open source partners receive [specific benefits](/handbook/marketing/community-relations/community-programs/opensource-program/#what-are-the-benefits-of-being-a-member-of-the-gitlab-open-source-partners-program) by joining the program. GitLab benefits from these partnerships when open source partners provide valuable feedback and data on their use of GitLab, even contribute to GitLab's open core. All parties jointly benefit when they're able to collaborate on community outreach, co-marketing, joint announcements, and special initiatives.
@@ -176,7 +179,7 @@ Program members receive:
 
 Members of the GitLab Open Source Partners program agree to:
 
-* Engage in co-marketing efforts with GitLab 
+* Engage in co-marketing efforts with GitLab
 * Complete a public case study about their innovative use of GitLab
 * Plan and participate in joint initiatives and events
 
@@ -189,7 +192,7 @@ Membership in GitLab Open Source Partners program is largely by invitation. Memb
 Additionally, GitLab team members can nominate open source projects or organizations to become partners. To do so, they can simply open an issue in the [Open Source Partners Program project](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program) and use the `open-source-partner-nomination` issue template.
 
 The GitLab Open Source Partners Program project contains sensitive data and personally identifying information about program members. It is therefore accessible only to GitLab team members.
-{: .alert .alert-warning}
+{: .alert .alert-info}
 
 ## Program management resources
 
@@ -198,7 +201,6 @@ The GitLab Open Source Partners Program project contains sensitive data and pers
 Work on the GitLab Open Source Partners program occurs in two primary locations:
 
 * [GitLab Open Source Partners](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners), a **public group** and the default location for program activity. Program members receive access to the project and `Developer`-level persmission inside it. It's the place where program members, GitLab team memebers, and the wider open source community can interact, collaborate, share, and build.
-
 * [Open Source Partners Program](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program), a **private project** accessible only to GitLab team members. This project is private because it contains sensitive personal data pertaining to open source partners and features a private service desk exclusively for GitLab Open Source Partners working on non-public issues. See the [Community Relations Program Management handbook section](/handbook/marketing/community-relations/project-management/) to learn more.
 
 ### Welcoming new partners
@@ -280,9 +282,9 @@ Follow this format (you can copy and paste it at the bottom of the organizations
 ```markdown
 - name: ORG NAME
   logo: /images/organizations/logo_ORG NAME.svg
-  logo_color: /images/organizations/logo_ORG NAME_color.svg  
+  logo_color: /images/organizations/logo_ORG NAME_color.svg
   industry_type: 'open source software'
-  home_url:  
+  home_url:
   landing: false
   opensource_partner: true
 ```
@@ -292,7 +294,7 @@ Example:
 ```markdown
 - name: Inkscape
   logo: /images/organizations/logo_inkscape.svg
-  logo_color: /images/organizations/logo_inkscape_color.svg  
+  logo_color: /images/organizations/logo_inkscape_color.svg
   industry_type: 'open source software'
   home_url: https://inkscape.org
   landing: false
@@ -313,7 +315,7 @@ First, create two SVGs: one color, one grey:
      * Export the logo and make sure that it is called: `logo_ORG Name.svg` as detailed above.
 
 If you are not using Inkscape, aim for getting a greyscale image with Hex Color Code: Dark Grey `#444444` and then export the greyscale logo as an SVG with a transparent background.
-{: .alert .alert-warning}
+{: .alert .alert-info}
 
 Next, optimize the SVGs both color and grey logos:
 
@@ -367,15 +369,19 @@ GitLab's open source program team also oversees GitLab's representation and part
 ## FAQs
 
 ### What is a consortium?
+
 We define "consortium" as a group createdto further some technological cause. In the context of open source software, a prototypical consortium would be the [Linux Foundation (LF)](https://en.wikipedia.org/wiki/Linux_Foundation), a non-profit organization founded in 2000 as a merger between Open Source Development Labs and the Free Standards Group, which [hosts and promotes](https://www.linuxfoundation.org/about/) collaborative development of open source software projects.
 
 ### Why is consortium marketing important?
+
 Consortia are influential leaders in their respective ecosystems, as they often host conferences and underwrite programs that influence global conversations about particular technological developments. Participating in consortia enhances GitLab's brand—and helps align GitLab's engineering efforts with global efforts and trends.
 
 ### How does GitLab particpate in consortium activities?
+
 While select consortium memberships fall within the purview (and budget) of GitLab's open source program, the [Developer Evangelism team](/handbook/marketing/community-relations/developer-evangelism/) focuses on consortium marketing, working to integrate GitLab's overall community message and technical perspective into the most appropriate and effective industry conversations.
 
 ### How can I recommend GitLab get involved in a consortium?
+
 You can open an issue in the [Consortium Memberships project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/consortium-memberships). When you do, please use the `membership-evaluation` template to structure your issue. Open source program team members will evaluate your application using the following criteria. When we review the application, we'll assess it with these considerations in mind:
 
 * Awareness opportunities
@@ -384,11 +390,12 @@ You can open an issue in the [Consortium Memberships project](https://gitlab.com
 
 | Considerations | What we're interested in | Questions we're asking |
 | --------------| ------------------ | -----------------------------|
-| Awareness opportunities | Size of the organization<br /><br />Frequency and impact of marketing opportunities<br /><br />| How many authenticated and non-authenticated users are visiting organization's website monthly?<br /><br />How many people are part of the organization’s community?<br /><br />What sorts of marketing and communication channels (social media platforms, newsletters, blogs, events) does the organization use?<br /><br /> Will GitLab appear in those official channels? How prominent would our placement be? | 
+| Awareness opportunities | Size of the organization<br /><br />Frequency and impact of marketing opportunities<br /><br />| How many authenticated and non-authenticated users are visiting organization's website monthly?<br /><br />How many people are part of the organization’s community?<br /><br />What sorts of marketing and communication channels (social media platforms, newsletters, blogs, events) does the organization use?<br /><br /> Will GitLab appear in those official channels? How prominent would our placement be? |
 | Ease of collaboration | Access to a dedicated marketing resources/point person<br /><br />Time-to-execute for standard communication types | Does the organization have marketing capacity?<br /><br />How mature is the organization's brand and marketing portions?<br /><br />How quickly can this organization produce a resource (e.g., a case study)? A week? A month? A quarter?<br /><br />How responsive is the person in charge of the relationship?<br /><br />Is marketing handled by volunteers or paid employees? |
 | Contribution and hiring pool | Size of contributor/member base<br /><br />Overall community/member activity<br /><br />Frequency of community contribution<br /><br />Rate of adoption | How active is the community the organization is attempting to foster?<br /><br /> Does the organization have a sense of its community's health?<br /><br />Do we see hiring opportunities opportunities to recruit from the community's talent pool?<br /><br />What is the growth of the community or foundation itself?<br /><br />Do we see job opportunities within that software ecosystem (are people hiring contributors from this community in general)?<br /><br />How can GitLab contribute in ways that align with our interests?<br /><br />Can GitLab participate in the project's roadmap in ways that creates mutual value? |
 
 ### In which consortia is GitLab involved?
+
 We are currently members of the following consortia:
 
 * [Continuous Delivery Foundation](https://cd.foundation/)
@@ -409,13 +416,13 @@ Some of the consortia in which we participate allow members to run for their res
 
 Review the information below if you're thinking of seeking nomination for (or election to) consortium positions.
 
-**Internal nominations**  
+**Internal nominations** \
 Create an issue for each nomination so GitLab team members who are also interested in running can discuss, and so additional internal nominations can occur. Community Relations, Alliances, and Marketing leadership (CMO, Director of Corporate Marketing) teams will likely be involved. Prepare a [nomination statement](https://docs.google.com/document/d/1IrtEBGfjuwi8Tz87U0vOsCxN9-f2-Krt1t-db87nyzU/edit?ts=60c13066#heading=h.5tbh3ex4b8al) that explains your interest in joining the board. Post this as part of your issue so our internal teams can help you polish it.
 
-**Campaigning**  
+**Campaigning** \
 Once GitLab candidates are nominated, the Community Relations team can help them campaign for their positions. We'll make other GitLab team members  aware of the election and equip them to assist your campaign, too (e.g., by announcing the campaign on the `#whats-happening-at-gitlab` Slack channel).
 
-**Promoting**  
+**Promoting** \
 The social media team is able to promote elections notification news. They simply need a place to point people, preferably an updated webpage that lists the board of directors or a social media post from the organization that mentions the election results.
 
 ### Event sponsorships
@@ -439,6 +446,7 @@ Note: In addition to having the Linux Foundation as an Open Source Partner, we a
 Our team measures the success of our work in the following ways.
 
 ## Sisene
+
 We use the [GitLab for Open Source KPI Dashboard](https://app.periscopedata.com/app/gitlab/670411/Open-Source-Program) on Sisene to track program metrics. This dashboard's visibility is internal to GitLab team members only and measures the following:
 
 **Current status stats:**
@@ -458,6 +466,7 @@ Lifetime stats of how the program has performed since its creation.
  * Number of seats granted per quarter
 
 ## Impressions Dashboard
+
 We keep track of OSS impressions in the [OSS Impressions Dashboard](https://datastudio.google.com/u/0/reporting/b62b70f4-ed1d-4f0a-8ed4-ebbcbca29962/page/YsgmB).
 
 This dashboard takes into account:
@@ -473,16 +482,18 @@ The dashboard is generated by the content in:
  * [OSS Marketing Board](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/oss-marketing/-/boards) -- Events
 
 ## Cumulative Data
+
 We only use cumulative metrics in external presentations as per our [communication guidelines (#8 of presentation section)](https://about.gitlab.com/handbook/communication/#presentations).
 
 OSS cumulative metrics are kept in a spreadsheet: [OSS Cumulative Metrics](https://docs.google.com/spreadsheets/d/1wr1G7N9-XiQmfkIcq3wNvS3JE0-EdOOAkqpG5TvkW6o/edit#gid=1969501712). They include the number of new projects and new seats per fiscal quarter.
 
 To generate these cumulative graphs:
-1. Go to the [OSS dashboard on Sisene](https://app.periscopedata.com/app/gitlab/670411/Open-Source-Program).  
+1. Go to the [OSS dashboard on Sisene](https://app.periscopedata.com/app/gitlab/670411/Open-Source-Program).
 1. Download `New projects enrolled per fiscal quarter` and `Number of new seats issued per fiscal quarter` by clicking on the hamburger menu by each and clicking on **Download Data**.
 1. Go to the [OSS Cumulative Metrics](https://docs.google.com/spreadsheets/d/1wr1G7N9-XiQmfkIcq3wNvS3JE0-EdOOAkqpG5TvkW6o/edit#gid=1969501712) sheet and copy any existing tab for `New Projects` and `New Seats`. Paste the data from the relevant Sisene downloads there. This will generate new graphs that you can use to display cumulative metrics per fiscal quarter.
 
 ## Hacker News Topics
+
 We also track (and, when necessary, participate in) Hacker News discussions related to both our open source programs and partners. Examples include:
 
 - 2022-06-14: [Gitlab Now the Main Development Platform for Wine](https://news.ycombinator.com/item?id=31737807)
