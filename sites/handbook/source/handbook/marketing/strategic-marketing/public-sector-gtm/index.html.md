@@ -12,101 +12,161 @@ title: "Public Sector Go To Market"
 ### Public Sector Message House
 
 #### Booth Messaging / Tagline
-
 * **Secure the Speed to Mission.**
 *Deliver more secure code faster and better.*
 
 <br>
 
 #### Positioning Statement
-
-For public sector government buyers whose existing DevOps solutions prevent their secure speed to mission to protect the nation because they rely on manual processes, dated policies, and antiquated systems that are complex, expensive to maintain and are susceptible to vulnerabilities.
-
-GitLab is the one DevOps Platform that empowers organizations to deliver secure software, demonstrate compliance, and automate the end-to-end DevOps experience in a single application.
+For government agencies whose existing DevSecvOps solution prevents their secure speed to mission. GitLab enables you to deliver secure software, automate the end-to-end DevSecOps experience, and empower collaboration between teams. We do this by embedding security (secure by design), automating software factory deployment, and increasing the speed of code deployment so that you can secure the speed to mission. This is underpinned by robust security scanning embedded within continuous integration (CI), automated requirements, and enterprise Agile planning where everyone can contribute.
 
 #### Short Description
-GitLab empowers government agencies to deliver secure software so they are  successful with their digital transformation efforts to protect and secure the nation - securing the speed to mission.
-
+GitLab empowers government agencies to deliver secure software so they are successful with their digital transformation efforts to protect communities - securing the speed to mission.
 
 #### Long Description
-Government agencies strive to be able to serve the public by providing optimal experiences to their communities. One of the best ways to do this is to ensure a successful DevOps digital transformation overcoming manual processes, dated policies, and IT infrastructures that can jeopardize the experiences providing positive civilian experiences.
+Government agencies strive to serve the public by providing optimal experiences to their communities. One way to do this is a successful digital transformation ensuring software is secure, manual processes are minimized, and there is collaboration between teams and vendors.  
 
-GitLab is the one DevOps platform for the public sector. It enables government software buyers to deliver secure software faster, strengthen compliance, and automate the end-to-end DevOps experience empowering organizations to serve the public - securing the speed to mission.
+GitLab supports your digital transformation because it is secure by design, reduces manual processes, and empowers collaboration to provide a positive civilian experience. 
 
+GitLab, The One DevSecOps platform, is for software users in government agencies, enabling them to deliver secure software faster,  automate software factory deployment, and empower collaboration to serve the public - securing the speed to mission.
 
-#### User Personas
-* [Allison](https://about.gitlab.com/handbook/product/personas/#allison-application-ops) (Application Ops)
-* Program Managers
+### Positioning Strategy
+#### Competitive Alternatives
+* GitHub
+* Fortify
+* SonarQube
+
+#### Unique Attributes
+* Complete SDLC with embedded security in one platform
+* Shift security left to automate security scanning and compliance adherence across the SDLC
+* Cloud neutral
+* Everyone can contribute at every development stage
+
+#### Value
+* Allow developers to see, track and fix the vulnerabilities earlier in the software development lifecycle
+* Security guardrails to prevent vulnerable code from making it into production
+* Connects with AWS, Google Cloud, Azure, + more
+* Increase code deployment (up to 200% faster)
+
+#### Who Cares A Lot
+* See target audience below
+
+### Messaging Framework
+#### Target Audience
+_User personas_
+* Application Ops - Alternative Job Titles: DevOps engineer, Lead developer, Site Reliability Engineer, AppSec Engineer
+* Program Managers - Alternative Job Titles:  Compliance Program Manager, Audit Report Analyst, Audit Events Analyst
 * Contracting Officer
 
-#### Buyer Personas
-* [Skyler](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/buyer-persona/#skyler---the-chief-information-security-officer) (Chief Information Security Officer)
-* Chief Technology Officer (CTO)
-* Chief Information Officer (CIO)
-* [Dakota](https://about.gitlab.com/handbook/product/personas/#dakota-application-development-director) (Application Development Director)
+_Buyer personas_
+* DevOps Leader 
+* Chief Technology Officer (CTO) 
+* Chief Information Officer (CIO) 
+* Chief Information Security Officer (CISO)
+* Procurement / Contracting Officer
+* Application Development Director
+* Admin / Finance Operations
+* Compliance / Legal
 
-#### Key-Value 1: Embedded Security
-**Promise:** Initiate a proactive security strategy where vulnerabilities are discovered earlier (shifting left) in the Software Delivery Lifecycle (SDLC) with security and compliance embedded within the end to end devSecOps workflow enabling you to understand and manage risk.
+#### Unifying Message
+GitLab secures your speed to mission by addressing elements to stay ahead of threat vectors, automating the end-to-end DevSecOps experience, and empowering collaboration between teams and vendors.  With development, operations, security, and compliance processes embedded within a single DevSecOps platform and aligning to the [Improving the Nation’s Cybersecurity](https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/12/fact-sheet-president-signs-executive-order-charting-new-course-to-improve-the-nations-cybersecurity-and-protect-federal-government-networks/) Executive Order,  GitLab helps you achieve a secure and successful digital transformation - without compromising your speed to mission.
 
-**Pain Point:** Increasing cyber-attacks and cybersecurity threats from internal and external entities. 
+#### Pain Point 1: How do we stay ahead of threat vectors to ensure we are securing the mission?
+**Solution:** GitLab, secure by design, supports a proactive security strategy where vulnerabilities are discovered earlier (shift left) in the Software Delivery Lifecycle (SDLC) thus positioning you to be secure by design also.  Your are empowered to design a secure SDLC because we embed security and compliance within the end-to-end DevSecOps workflow, and application vulnerabilities are continuously addressed before code ships, helping you to understand and manage risk while aligning to NIST and CISA guidance.  GitLab is vendor and deployment-neutral, addressing elements to stay ahead of threat vectors; such as a zero trust framework, for securing the software supply chain, automated creation of a software bill of materials (SBOM), and Infrastructure as Code security scanning, and support for security scanning in Offline or Limited Connectivity Environments.
 
- **Why GitLab:** 
- * Continuously address application vulnerabilities before code ships. 
- * Support for [Zero Trust](https://about.gitlab.com/handbook/security/#:~:text=In%20our%20case%2C%20Zero%20Trust,to%20authenticate%20and%20be%20authorized.) architecture with authentication and authorization of devices, end-users, endpoints, or assets, users and approvers. 
- * Simplified [workflows](https://docs.gitlab.com/ee/topics/gitlab_flow.html) that comply with internal processes, controls, and federal regulations ensuring the software being developed is secured per the National Institute of Standards and Technology's (NIST) [Secure Software Development Framework](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) (SSDF). 
-* Integrated security training
-* [Rule mode for scan result policies](https://release-14-9.about.gitlab-review.app/releases/2022/03/22/gitlab-14-9-released/#rule-mode-for-scan-result-policies)
-* [Scheduled DAST Scans](https://about.gitlab.com/releases/2021/10/22/gitlab-14-4-released/#scheduled-dast-scans)
-* [Infrastructure as Code security scanning](https://about.gitlab.com/releases/2021/11/22/gitlab-14-5-released/#introducing-infrastructure-as-code-iac-security-scanning)
+**Value Prop Pillars:** 
+* [Security scanning](https://docs.gitlab.com/ee/user/application_security/): Find vulnerabilities sooner in the SDLC with static application security testing (SAST), dynamic application security testing (DAST), secret detection, and license compliance verification. 
+* Automated unit testing, code quality, and fuzz testing: Automated capabilities can run on every code commit helping to prevent coding flaws.
+* [Offline environments](https://docs.gitlab.com/ee/user/application_security/offline_deployments/): Run security scans when not connected to the internet addressing cloud-native attack surfaces without getting in the way of rapid development and with fewer tools to manage.
+* Policy Management: Teams can create, maintain, and track every contribution to their software packages in a single repository with [source code management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/).
+* Optimized Workflows: Verifying code commits and releases can be challenging. GitLab helps protect source code from tampering and unauthorized contributions via source code management, protected branches, commit signatures, advanced code review capabilities, and merge approvals with [hardened containers](https://about.gitlab.com/press/releases/2020-07-01-gitlab-announces-hardened-container-image-in-support-of-the-us-department-of-defense-enterprise-devsecops-initiative.html).
+* Container Scanning: Vulnerabilities are automatically exposed and displayed in a merge request to helping to address them faster and more efficiently. 
+* [SBOM](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#cyclonedx-software-bill-of-materials): Dependency scanning, embedded in GitLab, automatically generates an SBOM while identifying vulnerabilities in operating systems, containers, and packages. Vulnerabilities are triaged and remediated earlier in the process with solutions suggested to guide developers to a fix. Then they are automatically added to the dependency list (SBOM). This information is available for every commit rather than at the end of the software development lifecycle. Also, SBOM workflows allow users to secure the software supply chain and development environment plus easily identify software dependencies in one DevOps platform.
+   * Vulnerabilities are listed to provide clarity by including dependencies.
+   * Quick click issue creation drives simplified remediation workflows.
+   * When presented in a merge request (MR), view and triage them before the code is committed to the mainline.
+* Safeguarding environments: Maintain a secure platform throughout the process with role-based permissions models, lightweight directory access protocol (LDAP), single sign-on (SSO), and multi-factor authentication (MFA) support.  Policy management, audits, and [zero trust](https://about.gitlab.com/handbook/security/#:~:text=In%20our%20case%2C%20Zero%20Trust,to%20authenticate%20and%20be%20authorized.) continuously validate every interaction.
+* Continuous Software Compliance: Significantly reduce the time to achieve Authority to Operate (ATO) with continuous automation of compliance management.
+* FIPS 140-2: GitLab can be run in a FIPS-compliant manner and is [FIPS 140-2](https://about.gitlab.com/security/cap/) compliant.
 
+**Key Messages:** Secure by design: Your SDLC is secure by design discovering vulnerabilities earlier helping you to shift left. 
 
-#### Key-Value 2: Automation for software factory deployment
-**Promise:** Deploy an easy to manage software factory  quickly to build, test, and deliver applications.
+#### Pain Point 2: How do we overcome manual processes, dated policies, and aging technology to achieve automated software factory deployment?
+**Solution:** GitLab with end-to-end DevSecOps workflows is built on a single codebase enabling software development that eliminates the digital duct tape inefficiencies so you can accelerate the delivery of critical capabilities. 
 
-**Pain Point:** Manual processes, dated policies, and aging technology preventing digital transformation.
+A software factory that accelerates the delivery of critical capabilities with flexible, automatic business, development, operations, and security requirements and workflows in one DevSecOps platform speeding  up Authority to Operate (ATO). Slow manual processes are eliminated, what once took months to produce is now developed, tested, and in a citizen’s hands in days/weeks. 
 
-**Why GitLab:**
-* Software factory that accelerates the delivery of critical capabilities with flexible, automatic business, development, operations, and security workflows in one platform speed up Authority to Operate (ATO).
-* [Agile project management, distributed version control](https://about.gitlab.com/solutions/agile-delivery/) based on Git, and automated [CI/CD](https://docs.gitlab.com/ee/ci/).
+GitLab is cloud-neutral—connecting with AWS, Google Cloud, Azure, and beyond—so IT leaders and developers know it will work seamlessly with other investments now and in the future further enabling the digital transformation journey.
 
-#### Key-Value 3: Modernize IT infrastructure
-**Promise:** Protect antiquated IT infrastructure from compromised applications and streamline control points for end-to-end software.
+**Value Prop Pillars:** 
+* Automated Software Delivery:  Shortened lead times from code to production reduces error frequency and severity and helps to deploy more frequently. This delivers more business value more often with less effort helping to accelerate the delivery of critical capabilities in one platform, speeding up ATO.
+* Remote Delivery, Collaborative Workflow Management, and Observability:  [Agile project management, distributed version control](https://about.gitlab.com/solutions/agile-delivery/) based on Git, and automated [CI/CD](https://docs.gitlab.com/ee/ci/) for an easy-to-deploy and manage software factory.
+* Artifact Generation: Users can take advantage of endless automation for artifact generation that is easily collected as a central standard source for remediation. 
 
-**Pain Point:** Aging technology leaves agencies more vulnerable to cyber attacks, obstructs budgeting for long term IT improvements, and lead to overspending resulting in in unnecessary IT support.
+**Key Messages:** Automate software factory deployment: Deploy an easy-to-manage software factory quickly to build, test, and deliver applications
 
-**Why GitLab**
-* One DevOps platform empowers organizations to maximize the overall return on software development simplifying their [digital transformation](https://about.gitlab.com/images/press/gitlab-data-sheet.pdf).
-* Support for [self-hosting](https://about.gitlab.com/handbook/marketing/strategic-marketing/dot-com-vs-self-managed/) options and low to high workflows aligning to the [Improving the Nation’s Cybersecurity](https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/12/fact-sheet-president-signs-executive-order-charting-new-course-to-improve-the-nations-cybersecurity-and-protect-federal-government-networks/) Executive Order. 
+#### Pain Point 3: How do we encourage collaboration between teams and vendors while promoting employee retention?
+**Solution:** GitLab supports public sector missions and enables collaboration between teams and vendors with multi-system integrations. Everyone can contribute at every development stage - Plan, Create, Verify, Secure, Package, Release, Configure, Monitor, Protect, and Manage within one DevSecOps platform. The embedded security, frequent update cycle, and agile project management provide visibility within the SDLC with end-to-end traceability dramatically accelerating the speed to mission — increasing code deployment by up to 200%. GitLab also increases user adoption and employee retention enabling organizations to do more for citizens, peacekeepers, students, and the public sector workforce.
 
-#### Key-Value 4: Visibility into the software supply chain
-**Promise:** Software Bill of Materials (SBOM) securing the software development environment and identification of software dependencies providing deep application visibility.
+GitLab intimately understands the evolving challenges of software development for mission success and is designed to empower government employees, developers, and vendors to build remotely—or wherever they’re most efficient. GitLab is a pioneer in remote work, recognizing it as an advantage that enables progress.
 
-**Pain Point:** Weak software supply chain that leads to security breaches and invisible security threats.
+**Value Prop Pillars:** 
+* [Agile project management](https://about.gitlab.com/solutions/agile-delivery/): GitLab enables teams to apply Agile practices and principles to organize and manage their work, whatever their chosen methodology within one platform for the complete DevOps lifecycle.
+* [Visibility level(https://docs.gitlab.com/ee/development/permissions.html#general-permissions)]: Set the visibility levels from Public, Internal to Private for your groups and projects.
+* Low-to-high-side development is supported so agencies can work with the most talented developers across the country. 
 
-**Why GitLab**
-* [SBOM](https://about.gitlab.com/solutions/supply-chain/) for an end-to-end secure platform to help protect multiple attacks, including protection for internal code, external sources, and even the build process.
-* Aligns with the [“Improving the Nation’s Cybersecurity”](https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/12/fact-sheet-president-signs-executive-order-charting-new-course-to-improve-the-nations-cybersecurity-and-protect-federal-government-networks/) Executive Order.
+**Key Messages:** Empowering the mission: GitLab empowers collaboration between teams and vendors to come together and focus on the mission.
 
-#### Key-Value 5: Accelerate ATO with automated Compliance
-**Promise:** Automate compliance management to significantly reduce time to achieve authority to operate (ATO).
+**Competitive Differentiators:** 
+Same as Unique Attributes listed above:
+* Complete SDLC with Embedded security in one platform
+* Shift security left by automating security scanning and compliance adherence across the SDLC
+* Cloud neutral
+* Everyone can contribute at every development stage
 
-**Pain Point:** Agencies are burdened  by the ATO process at the end of the SDLC adding unplanned and unscheduled work to delivery timelines.
+**Proof Points/Customer References:** 
+Secure by design:
+* [Posted on LinkedIn](https://www.linkedin.com/posts/jasonrweiss_sbom-go-usgovernment-activity-6965445746875658240-cB86/) by a user who was part of Department of Defense - GitLab generates an SBOM automatically when you enable the GitLab Dependency Scanning in your .gitlab-ci.yml file. It's a one-liner to turn this on. It's as close to an ⒺⒶⓈⓎ button as you can get these days.
 
-**Why GitLab**
-* [Complaint workflow automation](https://about.gitlab.com/solutions/compliance/) enforces policies and separation of duties while reducing risk.
-* One place to view compliance data. 
-* GitLab groups and projects ensure they are operating appropriately.
-* Easily identify when a project is subject to compliance requirements. 
-* Observability
-* Enhanced Audit Events: [Streaming Audit Events](https://about.gitlab.com/releases/2022/01/22/gitlab-14-7-released/#streaming-audit-events), [MR Approval Auditing](https://gitlab.com/groups/gitlab-org/-/epics/7268), [Compliance framework changes](https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/#audit-events-for-project-compliance-frameworks-changes)
-* [Security Approval Policies](https://about.gitlab.com/releases/2022/02/22/gitlab-14-8-released/#security-approval-policies)
-
-#### Proof Points
-* [How the U.S. Army Cyber School created “Courseware as Code” with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/)
-
+Automate software factory deployment: 
+* [The Paul G. Allen Center for Computer Science & Engineering gains control and flexibility to easily manage 10,000+ projects](https://about.gitlab.com/customers/uw/)
 * [How Chicago’s Cook County assesses economic data with transparency and version control](https://about.gitlab.com/customers/cook-county/)
 
-* [The Paul G. Allen Center for Computer Science & Engineering gains control and flexibility to easily manage 10,000+ projects](https://about.gitlab.com/customers/uw/)
+Empowering the mission:
+* [How the U.S. Army Cyber School created “Courseware as Code” with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/)
+
+GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/).  
+
+### Use Cases
+**Secure by Design**
+* Challenge: Increasing cyber-attacks and cybersecurity threats from internal and external entities
+* Solution: One DevSecOps Platform, secure by desig, enables you to secure your software supply chain staying ahead of threat vectors
+* Benefits: Remediate vulnerabilities before pushing to production with automated scanning earlier in the SDLC (shifting left), producing well-secured software
+
+**Software Factory**
+* Challenge: Manual processes, dated policies, and aging technology prevent digital transformation
+* Solution: One DevSecOps Platform that automates, end-to-end DevSecOps workflows,  manual, and repetitive tasks in the software delivery life cycle (SDLC)
+* Benefits: Deploy an easy-to-manage software factory improving velocity to build, test, and deliver applications
+
+**Low to High Development**
+* Challenge: Collaboration is siloed with teams working in multiple isolated, classified, or air-gapped networks 
+* Solution: One DevSecOps Platform with project export/import
+* Benefits: Streamlined processes and tools, seamless collaboration, control and visibility
+
+**GitOps**
+* Challenge: Need to manage and automate  infrastructure and application deployment, version control is not centralized, ops unable to iterate at pace of Dev 
+* Solution: One DevSecOps Platform with GitOps functionality - on-prem, cloud, cloud neutral 
+* Benefits: Increase agility in meeting customer demands of commercial cloud vendors capabilities (elasticity) while fostering visibility and collaboration across teams
+
+**SBOM (Software Bill of Materials)**
+* Challenge: Weak software supply chain leads to security breaches and invisible security threats
+* Solution: One DevSecOps Platform with security embedded - pre-build dependency scanning for SBOM generation, vulnerability workflows, and speedy resolutions
+* Benefits:  Insights into dependencies across transient structures, teams can expedite remediation activities with SBOM vulnerabilities displayed in the UI
+
+**ATO (Authority to Operate)**
+* Challenge: The ATO process at the end of the SDLC adds unplanned and unscheduled work to delivery timelines
+* Solution: One DevSecOps Platform that automates compliance management to significantly reduce time to achieve ATO
+* Benefits:  Accelerate the delivery of critical capabilities with flexible, automatic business, development, operations, and security workflows in one platform
 
 <br>
 
@@ -150,58 +210,3 @@ GitLab is the one DevOps platform for the public sector. It enables government s
 * Lack of GitLab ability to maneuver fast enough to respond/competitors with FedRAMP authorization and EO/NIST alignmnent
 
 <br>
-
-### Content 
-Ungated asset links can be found on [this document](https://docs.google.com/document/d/1Yvqq-X2fcUgwSKC-UtIP7qLnywIs9BA65F5NgyR4PoQ/edit?usp=sharing). 
-
-* [Biden administration accelerates software supply chain security expectations a year into Executive Order (blog)](https://about.gitlab.com/blog/2022/05/12/biden-administration-celebrates-1-year-anniversary-of-eo-by-accelerating-software-supply-chain-security/)
-* [GitLab and AWS Make DevOps Easier](https://docs.google.com/document/d/1ilcgjvHBJp0zK5vGQrnvuTUoHDZFXNHbGV6A6iqTACk/edit?usp=sharing)
-* [Comply with NIST's secure software supply chain framework with GitLab (blog)](https://about.gitlab.com/blog/2022/03/29/comply-with-nist-secure-supply-chain-framework-with-gitlab/)  
-* [GitLab Public Sector Capabilities Statement](https://cdn.pathfactory.com/assets/10519/contents/430162/ba2b7fd5-ba10-4065-8eb2-d4f90ce9a1d2.pdf)  
-* [Speed to Mission (whitepaper)](https://about.gitlab.com/resources/whitepaper-speed-to-mission/)
-* [The Hidden Costs of DevOps Toolchains (with guest speaker from Forrester)(webcast)](https://about.gitlab.com/webcast/simplify-to-accelerate/)
-* [DevOps Powering Your Speed to Mission (webcast)](https://about.gitlab.com/webcast/devops-speed-to-mission/)
-* [Government Matters Technology Leaders Innovation Series: Low-to-High Collaboration (with Marc Kriz) (video)](https://youtu.be/RvZSTCbPkiE)
-* [Modernizing Government IT through DevOps (whitepaper)](https://about.gitlab.com/resources/whitepaper-modernizing-government-it/)
-* [Cross Domain DevSecOps: Low-to-High Side Collaboration (whitepaper)](https://page.gitlab.com/resources-whitepaper-cross-domain-devsecops.html) 
-* [DevSecOps: How Proactive Security Integration Reduces Your Agency's Risks & Vulnerability(article)](https://drive.google.com/file/d/1G5UHVBMIeoYZHRjPt1owk2b_aQShDffJ/view?usp=sharing)
-* [The Right Application Platform Can Help DoD Develop Its DevSecOps Culture (article)](https://page.gitlab.com/resources-article-RightPlatformDoD.html)
-* [GitLab and the USDS Playbook: Delivering on the Promise of Digital Services (ebook)](https://page.gitlab.com/resources-ebook-gitlab-usds-playbook.html)
-* [Software as the New Operational Excellence (webcast)](https://page.gitlab.com/resources-webcast-software-delivery-new-excellence.html)
-* [GitLab’s Hardened Container Image for Secure Software Development](https://drive.google.com/file/d/1o2pSl7yUKaHwCVYHF73l68AkWHmitLmI/view?usp=sharing)
-* [Commit Virtual 2020 Pubsec Playlist](https://www.youtube.com/playlist?list=PLFGfElNsQthZWB92q2KaDvMqRWUsWnz3P)
-* [Commit Virtual 2020 Compliance Playlist](https://www.youtube.com/watch?v=aQh2XTHTE0o&list=PLFGfElNsQthafOhkq9M_wYKh1K4dmjg7w)
-* [GitLab for PubSec & Regulated Industries Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KpEQDAhM3Txia7QHdYlngMa)
-* [GitLab for the IC Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KpxOMt0YK-ZDnfWxdfKtotv)
-* [Digital Transformation & IT Modernization for Gov't & Regulated Industries Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrqCgQwKdxEom3bULFdUi4x)
-* [Accelerate Digital Transformation (datasheet)](https://drive.google.com/file/d/1WZTjVTNlkCx-lX9vvVqJlri8Z1euHR8H/view?usp=sharing)
-* [ATARC Federal IT Newscast (podcast)](https://open.spotify.com/show/6AU2VxO4j7dtDls4ouxdIq?si=5IB4tzdLTZmt03TtNMBt2g)
-* [Building a Modern DevSecOps Software Factory](https://learn.gitlab.com/gov-digital-transformation-6/building-modern-devsecops-software-factory)
-* [Growing IT & Business Resilience through DevSecOps](https://learn.gitlab.com/gov-digital-transformation-4/growing-it-business-resilience)
-* [Efficiency Messaging for PubSec](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/4558)
-* [VPAT Template](https://docs.google.com/document/d/1o6gCe2Se_Cuia-VsrUTdGvESNZVefyoqFAu1NY8rJpQ/) 
-
-* [Strategic Marketing Asset Inventory](https://about.gitlab.com/handbook/marketing/strategic-marketing/asset_inventory/)
-
-***Coming Soon:***
-
-* Application Security for the DevOps Lifecycle: The critical value of shifting security left (S&L focus)
-* GitLab Security for the DoD & IC (DoD & IC focus)
-* How to Build-In Collaboration Across Your Enterprise
-* Empower Your Workforce: Automate Your DevOps & Shift to Higher Value Work
-* Ways to Make Your DevOps Procurements More Agile
-* Moving to the Cloud with Less Pain (S&L focus)
-
-### Resources 
-
-* [Most Commonly Used Sales Resources](/handbook/marketing/strategic-marketing/sales-resources/)
-* [Learn@GitLab Use Case-driven Demo Videos](https://www.youtube.com/playlist?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)
-* [Competitive Intelligence Resources](/competition/)
-* [Global PubSec Marketing Account Profile Template (outside of US)](https://docs.google.com/document/d/1SUS0fbtVpvN4y44AT-BAiPAD32Bbq-hW-CSZco7uiUQ/edit) (use this to compile account-specific knowledge to share with Marketing) 
-* [Product Marketing Team Talk Inventory](/handbook/marketing/strategic-marketing/pmmteam/#pmm-talk-inventory)
-* [Global PubSec Speakers Bureau (outside of US)](https://drive.google.com/drive/folders/1u47kBHDh9cqOuA683k0MxzwxrZmqobzR?usp=sharing)
-
-### Getting PMM Support    
-* [Strategic Marketing Request](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/new?issuable_template=A-SM-Support-Request)
-* [Speaker Request](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/new#)
-
