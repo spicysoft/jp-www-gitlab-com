@@ -92,6 +92,7 @@ stages:
         be_team_tag: Manage:Workspace BE Team
         fe_team_tag: Manage:Workspace FE Team
         support:
+          - Asmaa Hassan
           - Cynthia Ng
         sets:
           - Valerie Burton
