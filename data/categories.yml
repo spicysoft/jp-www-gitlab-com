@@ -2310,9 +2310,9 @@ geo_replication:
   roi: false
   available: 2018-01-01
   viable: 2019-09-01
-  complete: 2022-11-04
+  complete: 2022-10-28
   lovable: 2023-11-18
-  maturity: viable
+  maturity: complete
   marketing: true
   dogfooding_status: planned
   dogfooding_issue: https://gitlab.com/groups/gitlab-org/-/epics/3171
