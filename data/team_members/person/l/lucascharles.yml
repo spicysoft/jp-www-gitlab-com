@@ -24,6 +24,7 @@ projects:
   secure-common-ruleset: maintainer backend
   secure-SAST-bandit: maintainer backend
   secure-SAST-brakeman: maintainer backend
+  secure-SAST-codequality: maintainer backend  
   secure-SAST-eslint: maintainer backend
   secure-SAST-flawfinder: maintainer backend
   secure-SAST-gosec: maintainer backend

@@ -676,6 +676,13 @@ secure-SAST-brakeman:
   description: |
     Brakeman analyzer providing scanning capabilities for our Static Analysis category.
 
+secure-SAST-codequality:
+  name: Code Quality
+  path: gitlab-org/ci-cd/codequality
+  link: https://gitlab.com/gitlab-org/ci-cd/codequality
+  description: |
+    Code Quality Analysis tool for GitLab CI
+
 secure-SAST-eslint:
   name: Static Analysis - Eslint analyzer
   path: gitlab-org/security-products/analyzers/eslint
@@ -822,13 +829,6 @@ verify-accessibility:
   link: https://gitlab.com/gitlab-org/ci-cd/accessibility
   description: |
     Accessibility tool for GitLab CI
-
-verify-codequality:
-  name: Code Quality
-  path: gitlab-org/ci-cd/codequality
-  link: https://gitlab.com/gitlab-org/ci-cd/codequality
-  description: |
-    Code Quality Analysis tool for GitLab CI
 
 container-registry:
   name: Container Registry
