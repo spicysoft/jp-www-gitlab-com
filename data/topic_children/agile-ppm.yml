@@ -1,0 +1,124 @@
+title: What is Agile project and portfolio management?
+seo_title: What is Agile project and portfolio management?
+description: Learn how your entire organization can align project teams with strategic goals to reduce risk, move more quickly, and get ahead of the competition.
+header_body: Learn how your entire organization can align project teams with strategic goals to reduce risk, move more quickly, and get ahead of the competition.
+canonical_path: /topics/agile-delivery/agile-ppm/
+file_name: /agile-ppm/
+parent_topic: agile-delivery
+twitter_image: /images/opengraph/auto-devops.svg
+related_content:
+  - url: https://about.gitlab.com/blog/2021/05/19/agile-planning-with-a-devops-platform/
+    title: Agile planning with a DevOps platform
+body: >-
+  ## Agile project and portfolio management defined
+
+  Project and portfolio management (PPM) just means centralized management of projects — and Agile PPM takes this to the next level by incorporating real-time data to prioritize work, allowing organizations to respond to rapidly changing market conditions and deliver value to customers more quickly. Agile PPM practices help teams get better software out the door faster and improve cross-functional collaboration across the organization. And Agile isn’t just for software developers: project managers, product managers, finance folks, the legal team, and even the C-suite can benefit from Agile project management, particularly when it’s available as part of an all-in-one DevOps platform like GitLab.
+
+  
+  ## Benefits of Agile project portfolio management
+
+
+  The Agile PPM approach is about enabling a business to continuously deliver value by streamlining the ways in which that value is created — and doing so in a sustainable, predictable way. Agile PPM does this by allowing teams to:-
+  
+  
+  - Consistently align priorities to business objectives and strategic goals
+
+
+  - Accurately understand their own performance and delivery capacity and those of their teammates
+
+
+  - Reduce the risks (and costs) associated with slow or late responses to problems such as software bugs or customer complaints
+
+
+  - Make quick decisions in response to evolving customer needs or market conditions
+
+
+  - Deliver and receive fast feedback to and from coworkers and customers
+
+
+  ## Best practices for implementing Agile project portfolio management
+
+  
+  1. Start with strategy, plan continuously: First, identify whether a project is aligned with the organization’s business strategy, and deprioritize anything that’s not. If the organization’s strategic objectives change, make sure the course of each project shifts, too.
+  
+  2. Closely monitor project progress: As team members go to work, make sure you have a view into the status of each task as well as how the overall set of tasks for each sprint or milestone is progressing over time. A graphical representation of the work remaining, such as a burndown chart, can be helpful in gaining a quick understanding of the current status and sharing status updates with stakeholders across the business.
+  
+  3. Manage project resources: Similarly, keep an eye on where project resources and team members might be overloaded and where there might be extra bandwidth or budget. Tools like issue boards or kanban boards offer a quick way for team members to give status updates and identify resource gaps.
+  
+  4. Iterate, iterate, iterate: Deliver work in short sprints so that customer feedback can help to maximize value delivered with each release — but don’t make each iteration so small that it doesn’t deliver on an actual need. Working in iterations allows teams to experiment and explore while learning from their successes and failures.
+
+
+  ## Where Agile, DevOps, and GitLab meet
+  
+
+  To understand how to get the most out of Agile PPM it’s helpful to take a deep dive into how [Agile works on a DevOps platform](/blog/2018/03/05/gitlab-for-agile-software-development/).
+
+  
+  Breaking it down further, here are the Agile steps most teams follow, and how they work seamlessly with a DevOps platform:
+
+
+  - Issues: Start with an issue that captures a single feature that delivers business value for users.
+
+
+  - Tasks: Often, an issue can be further separated into individual parts. Use tasks within GitLab issues to break issues down into smaller steps or deliverables.
+
+
+  - Issue boards: Track issues and communicate progress, all in one platform. An issue board is a single interface that allows you to follow your issues from backlog to done.
+
+
+  - Epics: Manage your portfolio of projects more efficiently and with less effort by tracking groups of issues that share a theme, across projects and milestones.
+
+
+  - Milestones: Track issues and merge requests created to achieve a broader business goal or strategic objective in a certain period of time.
+
+
+  - Roadmaps: Start date and/or due date can be visualized in the form of a timeline. The epics roadmap page shows such a visualization for all the epics which are under a group and/or its subgroups.
+
+
+  - Labels: Create and assign labels to individual issues, which then allows you to filter the issue lists by a single label or multiple labels.
+
+
+  - Burndown chart: Track work in real time and mitigate risks as they arise. Burndown charts allow teams to visualize the issues scoped to a current sprint as they are being completed.
+
+
+  - Issue weights: Indicate the estimated effort required to complete an issue by assigning it a weight.
+
+
+  - Collaboration: The ability to contribute conversationally is offered throughout GitLab in issues, epics, merge requests, commits, and more!
+
+
+  - Traceability: Align your team’s issues with subsequent merge requests that give you complete traceability from issue creation to completion once the related pipeline passes.
+
+
+  - Wikis: Keep your documentation in the same project where your code resides.
+  
+
+  - Enterprise Agile frameworks: Large enterprises have adopted Agile at enterprise scale using a variety of frameworks. GitLab can support SAFe, Spotify, Disciplined Agile Delivery, and more.
+
+
+
+  ## Manage any project
+
+
+  It’s easy to forget that every part of an organization needs help with planning and project management, not just those involved with software development. We’re always happy to “dogfood” our own tool: here’s how we [use GitLab for marketing project management](/blog/2019/12/06/gitlab-for-project-management-one/) and how one team [manages partner alliances](/blog/2021/05/11/project-management-using-gitlab-platform/). In our experience, [Agile planning works best](/blog/2021/05/19/agile-planning-with-a-devops-platform/) with a DevOps platform.
+
+
+  ## Fine tune the process
+
+
+  Since Agile project and portfolio management has a lot of moving parts, we created a quick [hands-on demo](https://www.youtube.com/watch?v=VR2r1TJCDew) and a [more in-depth option](https://www.youtube.com/watch?v=YzlI2z_bGAo).
+
+  If you’re trying to project manage multiple Agile teams, [watch a walkthrough](https://www.youtube.com/watch?v=VR2r1TJCDew) of how to do that. And if you’re confused about how GitLab’s issues work, [watch this GitLab issue boards demo](https://www.youtube.com/watch?v=CiolDtBIOA0).
+
+  Wonder how it all can work using the Scaled Agile Framework? [Here’s everything you need to know](https://www.youtube.com/watch?v=PmFFlTH2DQk).
+
+
+  ## Agile project management in the real world
+
+
+  The British Geological Society needed a way its scientific staff could stay involved with the software development team. The solution was GitLab’s DevOps platform and its project management capabilities. [Check out the case study](/customers/bgs/) to learn how BGS has accelerated software development with a collaborative process where code is visible to everyone and security testing is built in.
+  
+pull_quote:
+  - quote: It’s easy to forget that every part of an organization needs help with
+      planning and project management, not just those involved with software
+      development.
