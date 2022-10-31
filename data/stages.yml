@@ -2058,7 +2058,7 @@ stages:
         roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Adistribution&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
         pm: Dilan Orrino
         pmm: Saumya Upadhyaya
-        backend_engineering_manager: DJ Mountney (Interim)
+        backend_engineering_manager: Peter Lu
         be_team_tag: Distribution Deploy BE Team
         fe_team_tag:
         support:

@@ -1,17 +1,19 @@
 name: Peter Lu
 locality: 
 country: Remote
-role: <a href="">Manager, Engineering</a>
+role: <a href="/job-families/engineering/development/backend/#distribution">Backend Engineering Manager, Distribution:Deploy</a>
 reports_to: chun-d
-picture: ../gitlab-logo-extra-whitespace.png
+picture: plu8.png
 pronouns:
 pronunciation:
 twitter:
 linkedin:
 gitlab: plu8
 departments:
-  - Development
-specialty: "Enablement"
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Distribution Deploy BE Team
+specialty: Distribution
 expertise:
 story:
-
