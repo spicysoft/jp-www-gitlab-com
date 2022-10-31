@@ -23,7 +23,7 @@ projects:
   - reviewer go
   - reviewer database
   container-registry:
-  - maintainer backend
+  - maintainer
   - reviewer database
   labkit: maintainer
 story: |
