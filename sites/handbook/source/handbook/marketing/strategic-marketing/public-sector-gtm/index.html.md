@@ -18,7 +18,7 @@ title: "Public Sector Go To Market"
 <br>
 
 #### Positioning Statement
-For government agencies whose existing DevSecvOps solution prevents their secure speed to mission. GitLab enables you to deliver secure software, automate the end-to-end DevSecOps experience, and empower collaboration between teams. We do this by embedding security (secure by design), automating software factory deployment, and increasing the speed of code deployment so that you can secure the speed to mission. This is underpinned by robust security scanning embedded within continuous integration (CI), automated requirements, and enterprise Agile planning where everyone can contribute.
+For government agencies whose existing DevSecOps solution prevents their secure speed to mission. GitLab enables you to deliver secure software, automate the end-to-end DevSecOps experience, and empower collaboration between teams. We do this by embedding security (secure by design), automating software factory deployment, and increasing the speed of code deployment so that you can secure the speed to mission. This is underpinned by robust security scanning embedded within continuous integration (CI), automated requirements, and enterprise Agile planning where everyone can contribute.
 
 #### Short Description
 GitLab empowers government agencies to deliver secure software so they are successful with their digital transformation efforts to protect communities - securing the speed to mission.
