@@ -20,7 +20,7 @@ Our goal is for 10% of GitLab customers to be Leading Organizations by FY25Q4. T
 
 ## Qualification
 
-_A company or individual that reaches 20 merged merge requests or more over a trailing three full calendar month basis._
+See the definition for Leading Organizations in the [code review section](/handbook/engineering/workflow/code-review/#leading-organizations)
 
 Eligibility for existing Leading Organizations will be reviewed [quarterly](/handbook/communication/#communicating-dates-and-time).
 
