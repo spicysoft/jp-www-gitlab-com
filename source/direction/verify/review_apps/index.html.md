@@ -32,11 +32,11 @@ Interested in joining the conversation for this category? Please join us in our
 we discuss this topic and can answer any questions you may have. Your contributions
 are more than welcome.
 
-This page is maintained by the Product Manager for Pipeline Insights, Jocelyn Eillis ([E-mail](mailto:jeillis@gitlab.com))
+This page is maintained by the Product Manager for Pipeline Insights, Jocelyn Eillis ([E-mail](mailto:jeillis@gitlab.com)).
  
 ## What's Next & Why
 
-Currently, Pipeline Insights is collecting feedback on Review Apps and plans to improve the discoverability of review apps in merge requests via [gitlab#343652](https://gitlab.com/gitlab-org/gitlab/-/issues/343652). 
+Currently, Pipeline Insights is collecting feedback on Review Apps and plans to improve the discoverability of review apps in merge requests via [gitlab#343652](https://gitlab.com/gitlab-org/gitlab/-/issues/343652). We are considering improvements for the [Visual Review Tool](https://gitlab.com/groups/gitlab-org/-/epics/8733) to increase efficiency during code reviews. 
 
 ## Maturity Plan
  
@@ -64,7 +64,7 @@ Netlify Deploy Previews provide functionality similar to Review Apps and work wi
  
 ### Vercel Previews
 
-Vercel is a newer product with a suite of features focused on the web developer, including Previews. Their product is compatible with GitLab, GitHub, and BitBucket. We are currently evaluating the Previews feature to understand if there are additional features we may consider for Review Apps. 
+Vercel is a newer product with a suite of features focused on the web developer, including Previews. Their product is compatible with GitLab, GitHub, and BitBucket. Vercel recently launched [commenting on previews](https://vercel.com/blog/introducing-commenting-on-preview-deployments), which is similar to our [Visual Review Tool](https://docs.gitlab.com/ee/ci/review_apps/#visual-reviews). We are evaluating the Previews as part setting our category direction. 
 
 ## Top Customer Success/Sales Issue(s)
  
