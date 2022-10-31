@@ -85,6 +85,12 @@
                 $('#jobs-desc-marketing__digital').append('<li data-locale="' + data.departments[i].jobs[j].location.name + '"><a href="' + data.departments[i].jobs[j].absolute_url + '" title="' + data.departments[i].jobs[j].title + ' job at GitLab" target="_blank" rel="noopener noreferrer">' + data.departments[i].jobs[j].title + '<br/><em>' + data.departments[i].jobs[j].location.name + '</em></a></li>');
               });
             }
+            // Marketing - digital exp
+            if( jobBucket == "4049468002" ) {
+              data.departments[i].jobs.forEach((job, j) => {
+                $('#jobs-desc-marketing__digital').append('<li data-locale="' + data.departments[i].jobs[j].location.name + '"><a href="' + data.departments[i].jobs[j].absolute_url + '" title="' + data.departments[i].jobs[j].title + ' job at GitLab" target="_blank" rel="noopener noreferrer">' + data.departments[i].jobs[j].title + '<br/><em>' + data.departments[i].jobs[j].location.name + '</em></a></li>');
+              });
+            }
             // Marketing - field
             if( jobBucket == "4011056002" ) {
               data.departments[i].jobs.forEach((job, j) => {
