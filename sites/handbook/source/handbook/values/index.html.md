@@ -1293,29 +1293,41 @@ If you believe something shouldn't be public that currently is (or vice versa), 
 
 ##### 非公開 {#not-public}
 {:.no_toc}
-We make information public by default because [transparency is one of our values](/handbook/values/#transparency).
-However it is [most important to focus on results](/handbook/values/#hierarchy).
-Therefore, a category of information is **public** unless there is a reason for it not to be.
+[透明性がバリューの一つ](/handbook/values/#transparency)です。
+だから原則すべての情報を公開しています。
 
-When information is not public, it may also be treated as limited access, only shared with certain GitLab roles, teams, or team members due to privacy considerations, contractual obligation, or other reasons that the author or DRI can specify.
-Certain kinds of information default to limited access, including details about team members or customers who did not give permission to share the information.
+それ以上に[結果に焦点を当てることが最も重要](/handbook/values/#hierarchy)です。
 
-Most companies become non-transparent over time because they don't accept any
-mistakes. Instead, we should always err on the side of transparency when there
-is a choice to be made between caution or inaction, and transparency. If we make
-a mistake, we now know what the limits of transparency are for the company and
-we should [document this](#not-public). _The only exception to this rule would be in the case when there are legal concerns._
+公開しない理由が明確にない限り、情報は**公開される**べきなのです。
 
-We document what is [not public by default](/handbook/communication/confidentiality-levels/#not-public) on our communication page.
+プライバシーへの配慮や契約上の義務もしくは何らかの理由で情報源やDRIが情報の非公開を決めた場合は、特定の役職、チーム、チームメンバーだけがアクセスできるようにする場合があります。
+
+チームメンバーや顧客に関する詳しい情報は、情報を共有する許可が与えられていない限り、原則アクセス制限をかけます。
+
+
+多くの企業は間違いを受け入れないため、時間が経つにつれて情報は隠されていきます。
+しかし、慎重さと透明性のどちらを取るべきかといえば、常に透明性を選択する必要があります。
+もし間違いを犯したとしても、会社にとっての透明性の限界がわかったわけですから、それを[文書化](#not-public)しなければなりません。
+_このルールの唯一の例外は、法的な懸念がある場合だけです。_
+
+
+コミュニケーション・ページで、何を[原則非公開](/handbook/communication/confidentiality-levels/#not-public)にするかを文書化しています。
+
 
 ##### 直接伝える {#directness}
 {:.no_toc}
-Being direct is about being transparent with each other. We try to channel our inner [Ben Horowitz](https://en.wikipedia.org/wiki/Ben_Horowitz) by being [both straightforward
-and kind](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Feedback is always about your work and not your person. That doesn't mean it will be easy to give or receive it.
+「直接伝える」ということは、お互いに何も隠さないということです。
+[率直でありながらと親切](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b)であることで、内面の[ベン・ホロウィッツ](https://en.wikipedia.org/wiki/Ben_Horowitz)を表現します。
+常に仕事についてフィードバックされるものであり、人柄についてフィードバックされるわけではありません。
+だからといってフィードバックを与えるのも受け取るのも簡単なことではありません。
 
 ##### 気が変わったら、はっきりと伝える {#articulate-when-you-change-your-mind}
 {:.no_toc}
-If you state one thing, and then change course and support a different direction, point, or outcome, articulate this. It is OK to have your position changed by new data. Articulating that an *earlier* stance is not your *current* stance provides clarity to others and encourages data-driven decision making.
+なにか意見を言ったとしても、軌道を修正した場合は方向性や論点や成果基準を見直した場合は、それを明言してください
+新しいデータが出てきたら意見を変えても問題はありません。
+ただ以前のスタンスと現在のスタンスが違うことは明確してください。
+そうすれば他の人が状況を把握しやすくなります。
+またデータに基づいて意思決定することが当たり前になっていきます。
 
 ##### 建設的な問題提起をする {#surface-issues-constructively}
 {:.no_toc}
