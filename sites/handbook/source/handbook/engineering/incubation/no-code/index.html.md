@@ -24,6 +24,7 @@ Low-code and no-code are [two distinct concepts](https://lowcode.com/articles/lo
 
 | Date       | Summary                                                                                                                                          | Video                                                                          |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 2022-10-31 | [Workflow Automation MVC](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/23)                                | [https://youtu.be/L_pvpjtYdLk](https://youtu.be/L_pvpjtYdLk){:target="_blank"} |
 | 2022-10-24 | [Introduce low-code/no-code SEG](https://gitlab.com/gitlab-org/incubation-engineering/no-code-low-code/meta/-/issues/22)                         | [https://youtu.be/r3Ib00Z5Dj0](https://youtu.be/r3Ib00Z5Dj0){:target="_blank"} |
 
 ### Low-code
