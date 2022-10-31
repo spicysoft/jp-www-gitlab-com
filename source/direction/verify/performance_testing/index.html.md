@@ -43,7 +43,7 @@ Interested in joining the conversation for this category? Please join us in our
 we discuss this topic and can answer any questions you may have. Your contributions
 are more than welcome.
 
-This page is maintained by the Product Manager for Pipeline Insights, Jocelyn Eillis ([E-mail](mailto:jeillis@gitlab.com))
+This page is maintained by the Product Manager for Pipeline Insights, Jocelyn Eillis ([E-mail](mailto:jeillis@gitlab.com)).
 
 ## Maturity Plan
 
