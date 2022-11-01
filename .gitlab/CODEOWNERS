@@ -126,11 +126,11 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/engineering/workflow/ @clefelhocz1
 /sites/handbook/source/handbook/engineering/development/ @clefelhocz1
 /sites/handbook/source/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @dcroft
-/sites/handbook/source/handbook/engineering/development/ops/verify/ @cheryl.li @samdbeckham @erushton @shampton @marknuzzo
-/sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-execution/ @cheryl.li @samdbeckham
-/sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-authoring/ @marknuzzo @samdbeckham @cheryl.li
-/sites/handbook/source/handbook/engineering/development/ops/verify/runner/ @erushton @samdbeckham @cheryl.li
-/sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-insights/ @shampton @cheryl.li
+/sites/handbook/source/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @erushton @shampton @marknuzzo
+/sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
+/sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-authoring/ @marknuzzo
+/sites/handbook/source/handbook/engineering/development/ops/verify/runner/ @erushton
+/sites/handbook/source/handbook/engineering/development/ops/verify/pipeline-insights/ @shampton
 /sites/handbook/source/handbook/engineering/development/ops/package/ @nicolewilliams @michelletorres @ckroutil
 /sites/handbook/source/handbook/engineering/development/ops/package/container-registry/ @michelletorres
 /sites/handbook/source/handbook/engineering/development/ops/package/package-registry/ @ckroutil
