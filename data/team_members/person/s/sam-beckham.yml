@@ -1,0 +1,31 @@
+---
+name: Sam Beckham
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/manager/">Frontend Engineering
+  Manager, Verify</a>
+reports_to: cheryl-li
+picture: sambeckham.jpg
+twitter: samdbeckham
+gitlab: samdbeckham
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Frontend
+- Verify FE Team
+- Verify:Pipeline Execution Group
+- Verify:Pipeline Authoring Group
+projects:
+  gitlab: reviewer frontend
+domain_expertise:
+- frontend_architecture
+- frontend_graphql
+- frontend_performance
+- vue
+story: |
+  Sam is a hairy fella from the north of England.
+  He likes movies, music, and long walks in Jurassic Park.
+  His jokes are terrible, but he means well.
+specialty: Ecosystem - FE/UX Foundations
+
