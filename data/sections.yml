@@ -81,6 +81,7 @@ analytics:
   handbook: product/categories/analytics/
   slack:
     channel: ops-section
+  legal_team_tag: Analytics Section Legal & Corporate Affairs Stable Counterpart
 
 growth:
   name: "Growth"
@@ -125,6 +126,7 @@ enablement:
   rem: Dave Smith
   ar_team_tag: Enablement Section AR Stable Counterpart
   direction: /direction/enablement/
+  legal_team_tag: Enablement Section Legal & Corporate Affairs Stable Counterpart
   
 platforms:
   name: "SaaS Platforms"
