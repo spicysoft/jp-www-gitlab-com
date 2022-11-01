@@ -764,6 +764,38 @@ stages:
         pi_pgmau: https://app.periscopedata.com/app/gitlab/800667/GitLab-Runner-performance-indicator-metrics?widget=11518294&udv=1297938
         analyst_reports: https://drive.google.com/drive/search?q=continuous%20integration%20parent:0B4LeL42bnImlbmZwcmhrTEthdkE
 
+      runner_saas:
+        name: "Runner SaaS"
+        pm: "Darren Eastman"
+        focus: Verify & Runner SaaS SMAU
+        cm: Chrissie Buchanan
+        pmm: Heather Simpson
+        fullstack_engineering_manager: Elliot Rushton
+        be_team_tag: Runner SaaS BE Team
+        support:
+          - tbd
+          - tbd
+        qm: Joanna Shih
+        sets:
+          - Zeff Morgan
+          - Aleksandr Lyubenkov
+        tech_writer: Fiona Neill
+        appsec_engineer: Dominic Couture
+        cs_team_tag: Runner SaaS Group CS Stable Counterpart
+        infra_reliability_team_tag: Runner Group Reliability Stable Counterpart
+        internal_customers:
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - runner_saas
+        usage_driver_score: 5
+        asp_driver_score: 3
+        sam_driver_score: 2
+        group_link: product/categories/#runner-saas
+        pi_gmau: https://app.periscopedata.com/app/gitlab/1074396/Verify-Performance-Indicator-Dashboard?widget=15423299&udv=0
+
       pipeline_insights:
         name: "Pipeline Insights"
         pm: "Jocelyn Eillis"
