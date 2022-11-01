@@ -232,27 +232,6 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/handbook/source/handbook/security/security-engineering-and-research/automation/ @laurence.bierner @agroleau
 /sites/handbook/source/handbook/security/security-engineering-and-research/infrastructure-security/ @laurence.bierner @joe-dub
 
-^[UX department]
-/sites/handbook/source/handbook/product/ux/ @clenneville @vkarnes @asmolinski2 @jackib @mvanremmerden @jmandell @tauriedavis @rayana @susantacker @badnewsblair @chrismicek
-/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/ci-cd/ @rayana
-/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/fulfillment/ @jackib
-/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/release/ @rayana @vkarnes
-/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/release/release-management/ @rayana @vkarnes
-/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/verify/ @rayana @v_mishra
-
-^[Product Design]
-/sites/handbook/source/handbook/product/ux/product-design/ @clenneville @vkarnes @badnewsblair @chrismicek @jackib @jmandell @mvanremmerden @rayana @tauriedavis
-/sites/handbook/source/handbook/product/ux/product-designer/ @clenneville @vkarnes @badnewsblair @chrismicek @jackib @jmandell @mvanremmerden @rayana @tauriedavis
-
-^[UX Research]
-/sites/handbook/source/handbook/product/ux/ux-research/ @clenneville @asmolinski2 @laurenevans @alasch
-/sites/handbook/source/handbook/product/ux/ux-research-training/ @clenneville @asmolinski2 @laurenevans @alasch
-/sites/handbook/source/handbook/product/ux/ux-research-coordination/ @clenneville @asmolinski2 @laurenevans @alasch
-/sites/handbook/source/handbook/product/ux/persona-creation/ @clenneville @asmolinski2 @laurenevans @alasch
-/sites/handbook/source/handbook/product/ux/qualtrics/ @clenneville @asmolinski2 @laurenevans @alasch
-/sites/handbook/source/handbook/product/ux/sus/ @clenneville @asmolinski2 @laurenevans @alasch
-/sites/handbook/source/handbook/product/ux/sus-database/ @clenneville @asmolinski2 @laurenevans @alasch
-
 ^[Incubation department]
 /sites/handbook/source/handbook/engineering/incubation/ @bmarnane
 /sites/handbook/source/handbook/engineering/incubation/mlops/ @bmarnane @eduardobonet
@@ -600,6 +579,27 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /source/direction/monorepos/ @jreporter @gl-product-leadership
 /source/direction/mobile/mobile-devops/ @darbyfrey @bmarnane
 
+^[UX department]
+/sites/handbook/source/handbook/product/ux/ @clenneville @vkarnes @asmolinski2 @jackib @mvanremmerden @jmandell @tauriedavis @rayana @susantacker @badnewsblair @chrismicek @david
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/ci-cd/ @clenneville @rayana @david
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/fulfillment/ @clenneville @jackib @david
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/release/ @clenneville @rayana @vkarnes @david
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/release/release-management/ @clenneville @rayana @vkarnes @david
+/sites/handbook/source/handbook/product/ux/stage-group-ux-strategy/verify/ @clenneville @rayana @v_mishra @david
+
+^[Product Design]
+/sites/handbook/source/handbook/product/ux/product-design/ @clenneville @vkarnes @badnewsblair @chrismicek @jackib @jmandell @mvanremmerden @rayana @tauriedavis @david
+/sites/handbook/source/handbook/product/ux/product-designer/ @clenneville @vkarnes @badnewsblair @chrismicek @jackib @jmandell @mvanremmerden @rayana @tauriedavis @david
+
+^[UX Research]
+/sites/handbook/source/handbook/product/ux/ux-research/ @clenneville @asmolinski2 @laurenevans @alasch @david
+/sites/handbook/source/handbook/product/ux/ux-research-training/ @clenneville @asmolinski2 @laurenevans @alasch @david
+/sites/handbook/source/handbook/product/ux/ux-research-coordination/ @clenneville @asmolinski2 @laurenevans @alasch @david
+/sites/handbook/source/handbook/product/ux/persona-creation/ @clenneville @asmolinski2 @laurenevans @alasch @david
+/sites/handbook/source/handbook/product/ux/qualtrics/ @clenneville @asmolinski2 @laurenevans @alasch @david
+/sites/handbook/source/handbook/product/ux/sus/ @clenneville @asmolinski2 @laurenevans @alasch @david
+/sites/handbook/source/handbook/product/ux/sus-database/ @clenneville @asmolinski2 @laurenevans @alasch @david
+
 ^[Recruiting]
 /sites/handbook/source/handbook/hiring/ @rallen3 @drogozinski @marissaferber
 /sites/handbook/source/handbook/hiring/talent-acquisition-framework/ @rallen3 @drogozinski @marissaferber
@@ -713,13 +713,13 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/support/workflows/team/performance_review.html.md @tcooney @lbot @lyle @shaunmccann @vparsons
 
 ^[Technical Writing]
-/sites/handbook/source/handbook/product/ux/technical-writing/ @susantacker @dianalogan @kpaizee
-/sites/handbook/source/handbook/documentation/ @susantacker @dianalogan @kpaizee
-/sites/uncategorized/source/job-families/product/technical-writer/ @susantacker @dianalogan @kpaizee
-/sites/uncategorized/source/job-families/product/technical-writing-manager/ @susantacker @dianalogan @kpaizee
-/sites/handbook/source/handbook/style-guide/ @susantacker @dianalogan @kpaizee
-/sites/handbook/source/handbook/markdown-guide/ @susantacker @dianalogan @kpaizee
-/sites/handbook/source/includes/stages/tech-writing.html.haml @dianalogan @kpaizee
+/sites/handbook/source/handbook/product/ux/technical-writing/ @clenneville @susantacker @dianalogan @kpaizee @david
+/sites/handbook/source/handbook/documentation/ @clenneville @susantacker @dianalogan @kpaizee @david
+/sites/uncategorized/source/job-families/product/technical-writer/ @clenneville @susantacker @dianalogan @kpaizee @david
+/sites/uncategorized/source/job-families/product/technical-writing-manager/ @clenneville @susantacker @dianalogan @kpaizee @david
+/sites/handbook/source/handbook/style-guide/ @clenneville @susantacker @dianalogan @kpaizee @david
+/sites/handbook/source/handbook/markdown-guide/ @clenneville @susantacker @dianalogan @kpaizee @david
+/sites/handbook/source/includes/stages/tech-writing.html.haml @clenneville @susantacker @dianalogan @kpaizee @david
 
 ^[Releases blog posts]
 /sites/uncategorized/source/releases/posts/ @gitlab-org/delivery, @gl-product-leadership
