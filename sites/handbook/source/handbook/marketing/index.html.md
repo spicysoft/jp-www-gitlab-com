@@ -17,7 +17,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 {: .no_toc}
 
-The GitLab Marketing team operates as one team and is organized by the following departments: [Product and Brand Marketing](/handbook/marketing/#product-marketing), [Integrated Marketing](/handbook/marketing/#integrated-marketing), [Marketing Strategy and Platforms](/handbook/marketing/#marketing-strategy-and-platforms), [Corporate Communications](/handbook/marketing/#corporate-communications), [Community & Developer Relations](/handbook/marketing/#community-relations), and [Sales Development](/handbook/marketing/#sales-development). This page documents our shared team philosophy and processes, while the individual team handbooks contain more detailed information about each sub-team.
+The GitLab Marketing team operates as one team and is organized by the following departments: [Brand and Product Marketing](/handbook/marketing/#product-marketing), [Integrated Marketing](/handbook/marketing/#integrated-marketing), [Marketing Strategy and Platforms](/handbook/marketing/#marketing-strategy-and-platforms), [Corporate Communications](/handbook/marketing/#corporate-communications), [Community & Developer Relations](/handbook/marketing/#community-relations), and [Sales Development](/handbook/marketing/#sales-development). This page documents our shared team philosophy and processes, while the individual team handbooks contain more detailed information about each sub-team.
 
 ## Marketing Purpose
 
@@ -223,7 +223,7 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 
 {: #groups}
 
-### Product and Brand Marketing
+### Brand and Product Marketing
 
 Product and Brand Marketing represents the GitLab story at the brand, solution, product, and technical levels. We accelerate GitLab’s path to market by developing market insights, leadership positioning, messaging, and narratives that elevate our brand, show value in our solution, and fuel demand for our platform. We activate brand ambassadors and customer advocates to show momentum and trust in the market. The team includes Solutions & Product Marketing, Brand Marketing, Design, and Content. 
 
@@ -233,30 +233,28 @@ Product and Brand Marketing represents the GitLab story at the brand, solution, 
 {: .no_toc}
 
 - [Global Content]
-  - [Editorial]
+  - the  [Editorial]
 
 ### Integrated Marketing
 
 The Integrated Marketing team is focused on creating awareness, generating demand and collaborating with the broader ecosystem globally, through a co-ordinated and unified approach.  We connect the dots and bring content and messaging to life by leveraging various channels as our levers to communicate across segments, regions and personas.  
 
-The team includes [Field Marketing](/handbook/marketing/field-marketing/), [Channel & Alliances Marketing](/handbook/marketing/strategic-marketing/partner-marketing/), [Corporate Events](/handbook/marketing/corporate-marketing/corp-event-marketing/), [Account-Based Marketing (ABM)](/handbook/marketing/account-based-marketing/), [Campaigns](/handbook/marketing/demand-generation/campaigns/), [Lifecycle Marketing](/handbook/marketing/lifecycle-marketing/), [Digital Strategy](/handbook/marketing/demand-generation/digital-marketing/), [Social Marketing](/handbook/marketing/corporate-marketing/social-marketing/) and [Corporate Communications](/handbook/marketing/corporate-marketing/corporate-communications/).
+The team includes [Field Marketing], [Channel & Alliances Marketing], [Corporate Events], [Account Based Marketing], [Campaigns], [Lifecycle Marketing], [Digital Strategy], [Social Marketing] and [Corporate Communications].
 
-Integrated Marketing consists of the Account Based Strategy, Alliances Marketing, Channel Marketing, Marketing Campaigns, Digital Marketing Programs, and Field Marketing teams.
-
-[Handbook][Product Marketing]{:.btn .btn-purple}
+[Handbook][Integrated Marketing]{:.btn .btn-purple}
 
 #### Handbook Links
 {: .no_toc}
 
-- [Field Marketing](/handbook/marketing/field-marketing/)
-- [Channel & Alliances Marketing](/handbook/marketing/strategic-marketing/partner-marketing/)
-- [Corporate Events](/handbook/marketing/corporate-marketing/corp-event-marketing/)
-- [Account-Based Marketing (ABM)](/handbook/marketing/account-based-marketing/)
-- [Campaigns](/handbook/marketing/demand-generation/campaigns/)
-- [Lifecycle Marketing](/handbook/marketing/lifecycle-marketing/)
-- [Digital Strategy](/handbook/marketing/demand-generation/digital-marketing/)
-- [Social Marketing](/handbook/marketing/corporate-marketing/social-marketing/)
-- [Corporate Communications](/handbook/marketing/corporate-marketing/corporate-communications/)
+- [Field Marketing]
+- [Channel & Alliances Marketing]
+- [Corporate Events]
+- [Account Based Marketing]
+- [Campaigns]
+- [Lifecycle Marketing]
+- [Digital Strategy]
+- [Social Marketing]
+- [Corporate Communications]
 
 ### Sales Development
 
@@ -279,10 +277,10 @@ BDRs contact people who work at large organizations to uncover or create early-s
 #### Handbook Links
 {: .no_toc}
 
-- [Digital Experience](/handbook/marketing/digital-experience)
-- [Marketing Operations](/handbook/marketing/marketing-operations/)
-- [Marketing Strategy & Analytics](/handbook/marketing/strategy-performance/)
-- [Growth](/handbook/marketing/growth/)
+- [Digital Experience]
+- [Marketing Operations]
+- [Marketing Strategy & Analytics]
+- [Growth]
 
 ### Community Relations
 
@@ -682,6 +680,7 @@ Get to know the people who work in GitLab's marketing team by visiting our [READ
 [Blog]: /handbook/marketing/blog/
 [Website]: /handbook/marketing/digital-experience/website/
 [Corporate Communications]: /handbook/marketing/corporate-marketing/corporate-communications/
+[Corporate Events]: /handbook/marketing/corporate-marketing/corp-event-marketing/
 [Campaigns]: /handbook/marketing/campaigns/
 [Inbound Marketing]: /handbook/marketing/inbound-marketing/
 [Integrated Marketing]: /handbook/marketing/integrated-marketing/
@@ -700,23 +699,27 @@ Get to know the people who work in GitLab's marketing team by visiting our [READ
 [Account Based Marketing]: /handbook/marketing/account-based-marketing/
 [Revenue Marketing]: /handbook/marketing/revenue-marketing/
 [Marketing Programs]: /handbook/marketing/
-[Marketing Strategy and Platforms](/handbook/marketing/marketing-strategy-and-platforms/)
+[Marketing Strategy and Platforms]: /handbook/marketing/marketing-strategy-and-platforms/
+[Marketing Strategy & Analytics]: /handbook/marketing/strategy-performance/
 [Marketing Operations]: /handbook/marketing/marketing-operations/
+[Growth]: /handbook/marketing/growth/
 [Digital Marketing Programs]: /handbook/marketing/demand-generation/digital-marketing/
+[Digital Strategy]: /handbook/marketing/demand-generation/digital-marketing/
 [Demand Generation]: /handbook/marketing/demand-generation/
 [Campaigns Team]: /handbook/marketing/demand-generation/campaigns/
-[Partner Marketing]: /handbook/marketing/strategic-marketing/partner-marketing/
+[Campaigns]: /handbook/marketing/demand-generation/campaigns/
+[Lifecycle Marketing]: /handbook/marketing/lifecycle-marketing/
+[Channel & Alliances Marketing]: /handbook/marketing/strategic-marketing/partner-marketing/
 [Product Marketing]: /handbook/marketing/strategic-marketing/
 [Business Operations]: /handbook/business-ops/
 [Sales Development Organization]: /handbook/marketing/revenue-marketing/sdr/
-[Outbound SDR]: /handbook/marketing/revenue-marketing/sdr/#how-to-sdr
 [Social Marketing]: /handbook/marketing/corporate-marketing/social-marketing/
 [Team Member Social Media Policy]: /handbook/marketing/team-member-social-media-policy/
 [Swag]: /handbook/marketing/corporate-marketing#swag
-[Corporate Marketing Events]: /handbook/marketing/corporate-marketing/#corporate-events
 [Events]: /handbook/marketing/events/
 [Marketing Career Development]: /handbook/marketing/career-development
 [Emergency Response]: /handbook/marketing/emergency-response
+
 
 ## Marketing Career Development 
 
