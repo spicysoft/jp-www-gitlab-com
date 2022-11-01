@@ -82,6 +82,10 @@ Once all content is reviewed and complete, add the ~"Ready" label and set the En
   - Be sure to label your MR ~"release post item::primary" to help the Messaging Lead find and review it for the release post. (Note that if your MR was auto-generated through your feature issue, you can skip this step)
 - [ ] [Review Alpha, Beta, Limited, and General Availability guidelines](https://about.gitlab.com/handbook/product/gitlab-the-product/#alpha-beta-ga)
 - [ ] Add Reviewers: Once the above are complete, add the Tech Writer, PMM, and Group Manager or Director as Reviewers.
+- [ ] If this MR is a community contribution, consider nominating the contributor for MVP.
+  - Search the `www-gitlab-com` repo for "Release Post X.Y MVP Nominations" ([example](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/14021)), or
+  - Check the `#release-post` channel in Slack for the most recent call for MVP Nominations.
+  - (The MVP Nomination issue is generated around the 3rd of each month, so there is a period of time between the 18th-3rd when an open nomination issue may not yet exist.)
 </details>
 
 ### Pricing theme updates for Premium and Ultimate primary features
