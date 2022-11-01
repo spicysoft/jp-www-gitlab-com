@@ -881,8 +881,6 @@ stages:
           - TBD
         pdm:
           - Rayana Verissimo
-        ux:
-          - Katie Macoy
         uxr:
           - Erika Feldman
         tech_writer: Clayton Cornell
@@ -1142,6 +1140,8 @@ stages:
     pm: Jensen Stava
     em:
       - Phil Calder
+    pdm:
+      - Taurie Davis
     groups:
       anti-abuse:
         name: Anti-Abuse
@@ -1157,8 +1157,9 @@ stages:
         em: Jay Swain
         appsec_engineer: Nick Malcolm
         tech_writer: Phillip Wells
+        ux:
+          - Katie Macoy
         be_team_tag: Anti-Abuse Fullstack Team
-
 
   release:
     display_name: "Release"
@@ -2564,6 +2565,8 @@ stages:
         em: Monmayuri Ray
         be_team_tag: ModelOps:Applied ML
         tech_writer: "#docs Slack channel"
+        ux:
+          - Katie Macoy
         sets:
           - Mark Lapierre
         appsec_engineer: Nick Malcolm
