@@ -505,6 +505,19 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ---
 
+### Enablement Artifacts
+* [Slides](https://docs.google.com/presentation/d/18Cro-xz9k8jHAdnLOLX1Y0QP9pEdkCli_bnnm3oHGWk/edit#slide=id.p1)
+* [Video 1](https://drive.google.com/file/d/1e5pojzdV3mdQzqLhXiTYniJNTHuwktxD/view?usp=share_link)
+* [Video 2 - updates](https://drive.google.com/file/d/1-Drm1XdBvyO9adU8bjJDqp4z2tjq8W-M/view?usp=share_link)
+* [Feedback Issue](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/6670)
+
+### Enablement Sessions
+* Product 2022-11-01 [Recording]()
+* All Marketing 2022-11-15 [Recording]()
+* Sales 2022-11-TBD [Recording]()
+* Customer Success 2022-11-TBD [Recording]()
+
+
 ### Deprecated Buyer Videos
 
 Note: for continuity we've historically used these buyer persona descriptions. Consider them deprecated, as the above Buyer Personas are more complete.
