@@ -17,100 +17,93 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 {: .no_toc}
 
-The GitLab Marketing team includes multiple Departments organized as: [Product Marketing](/handbook/marketing/#product-marketing), [Integrated Marketing](/handbook/marketing/#integrated-marketing), [Sales Development](/handbook/marketing/#sales-development), [Marketing Strategy and Platforms](/handbook/marketing/#marketing-strategy-and-platforms), [Community Relations](/handbook/marketing/#community-relations), and [Corporate Communications](/handbook/marketing/#corporate-communications). This page documents shared team practices and processes, while the individual team handbooks contain more detailed information about each sub-team.
+The GitLab Marketing team operates as one team and is organized by the following departments: [Product and Brand Marketing](/handbook/marketing/#product-marketing), [Integrated Marketing](/handbook/marketing/#integrated-marketing), [Marketing Strategy and Platforms](/handbook/marketing/#marketing-strategy-and-platforms), [Corporate Communications](/handbook/marketing/#corporate-communications), [Community & Developer Relations](/handbook/marketing/#community-relations), and [Sales Development](/handbook/marketing/#sales-development). This page documents our shared team philosophy and processes, while the individual team handbooks contain more detailed information about each sub-team.
+
+## Marketing Purpose
+
+GitLab is The One DevOps Platform that empowers organizations to deliver quality software faster and more efficiently while strengthening security and compliance. The marketing team’s purpose is to amplify the value of the GitLab platform, authentically and transparently, by putting customers and the community at the center of everything we do.
+
+## Marketing Strategy
+
+As the GitLab Marketing team puts customers at the center of everything we do, the marketing strategy aligns with the customer journey. The journey’s purpose is to provide a clear and cohesive experience to a prospect/customer from the minute they become **Aware** of GitLab, to **Considering** the platform and **Converting** into a happy customer, and then of course **Expanding** over time and becoming an **Evangelist**.
+
+![marketing customer journey](/handbook/marketing/mktgcustomerjourney.png)
+
+Each stage has a purpose which is the guiding indicator for the marketing team to measure our success. Everything the team plans and executes in the short and long term will revolve around the customer journey, and we will also measure our success along each step to hold ourselves accountable.
+
+![marketing customer journey stages](/handbook/marketing/mktgcustomerjourneystages.png)
 
 ## Marketing OKRs
+
 Each quarter, the Marketing team creates OKRs (Objectives and Key Results) in Ally that cascade from the [CEO's OKRs](/company/okrs/#most-recent-okrs). 
 
 Each department within the Marketing team manages their own cascading OKRs in Ally. 
 
-## GitLab Marketing Purpose
-<div class="alert alert-purple center"><h3 class="purple"><strong>We <i class="fas fa-heart color-orange font-awesome" aria-hidden="true"></i> GitLab</strong></h3></div>
-
-GitLab's vision is to be known as the leading complete DevOps Platform (or, what Gartner calls the DevOps Value Stream Delivery platform) delivered as a single application. 
-
-The GitLab Marketing team aspires to:
-
-- Collaborate to achieve our board approved company goals and KPIs
-- Foster an inclusive and efficient open source community for contributors and users
-- Market GitLab in an inspiring, authentic and helpful way to our users and buyers
-- Understand customers' DevOps challenges and share solutions
-- Be the leader in transparent marketing
-
-[The FY23 Marketing Strategy is here.](https://about.gitlab.com/handbook/marketing/plan-fy22/)
-
-## Go to market: value drivers and customer use cases
-
-We are customer centered in our messaging and go to market approach. _Value Drivers_ define the overarching business goals and objectives that customers are trying to achieve. Through the _value drivers_ we are able to understand the reasons **why** a customer is transforming part of their software delivery toolchain. [_Customer Use Cases_](/handbook/use-cases/) define **what** specific activity or process they will be using GitLab to transform their delivery process. The _customer use cases_ help us define and organize specific collateral and go to market efforts along the [buyer's journey](/handbook/journeys/#buyer-journey).
-
-**Value drivers** = why they are changing
-**Customer use cases** = what they are changing
-
-We will develop collateral, content, and integrated campaigns leveraging the _Value drivers_ and _customer use cases_ based on strategic priorities and input from the field and product teams.
 
 # <i class="fas fa-users fa-fw color-orange font-awesome"></i> How we work
 
-## Honest Advertising and Marketing
+## Value-driven Marketing Team
 
-It is our responsibility to accurately represent GitLab and our products in our marketing, advertising, and sales materials. Deliberately misleading messages, omissions of important facts or false claims about our products, individuals, competitors or their products, services, or employees or contractors are inconsistent with our values. Sometimes it is necessary to make comparisons between our products and our competitors. When we do, we will make factual and accurate statements that can be easily verified or reasonably relied upon.
+How we work as one team aligns with the [GitLab Values](/handbook/values/).
 
-## Data informed decisions
+**Results** - The team measures success together along the customer journey. Each quarter, we align CMO OKRs based on company goals set in the CEO OKRs. This helps us stay aligned with company-level goals while also understanding if what we are doing quarter over quarter is moving the needle on our marquee metrics along the customer journey. Being data-driven as a team is essential for team success.
 
-At GitLab, we are committed to making data informed decisions. 
+**Iteration** - Like the rest of the company, we aspire to be agile and experimental where possible.  In every area possible, we roll out campaigns, brand updates, messaging, etc. in small iterations, measure the success, and take next steps accordingly. 
 
-Detailed explanation of reports & filters used in these reports can be found on the [Marketing Metrics page](/handbook/marketing/strategy-performance/marketing-metrics) under Marketing Operations.
+**Transparency** - We strive to be as transparent as possible in all areas of marketing. We welcome thoughts and feedback from each other, other GitLab team members, and the community at all times.
 
-## Meetings and structure
+**Collaboration** - A major key to success is operating as one team. Leveraging the different backgrounds, cultures and, skill sets of an entire company and community, the marketing team operates in a way where everyone can contribute. Collaboration is key to taking Marketing to the next level. 
+
+**Diversity, Inclusion and Belonging (DIB)** - With GitLab team members being located across the world, we strive to always keep DIB at the core of everything we do. Like the rest of GitLab, we follow asynchronous meeting principles, welcome diverse perspectives, and as marketers, foster an environment where quirkiness is welcomed.
+
+**Efficiency** - We keep efficiency at the forefront of everything we do. Whether it is bringing in marketing technology to automate menial tasks and foster collaboration, finding ways to save cost, or simply doing the right things to be respectful of others’ time, efficiency drives faster results for marketing.
+
+## Team Meeting Cadence
 
 {: #meetings}
-
-These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving among members, so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
 
 ### Monthly Marketing All Hands (All Marketing team members)
 
 {: .no_toc}
 
-**Meeting goal: This is the main meeting where marketing gets together to celebrate, collaborate, and stay in sync. Everyone in marketing is invited, but attendance is optional.**
+**Goal**: Align all Marketing team members on activities in progress to achieve our goals, and update the team on cross-functional items.
 
-**Run time: 50 minutes**
+The meeting is 50 minutes and runs as follows:
+1. Always begin by welcoming our newest GitLab Marketing Team Members
+1. Celebrate well-deserved promotions
+1. CMO Top of Mind (5 items per month)
+1. ~20 minutes of CMO Leadership sharing updates 
+1. ~20 of either marketing team member updates (to be added during the call for items announcement prior) or special guest from another GitLab org 
+1. The remaining time for Q&A and most importantly…recognition!
 
-The Marketing team meets on the last Thursday of the month to welcome new hires, celebrate team wins, learn what is top of mind for the CMSO, cover team topics that warrant discussion in an organization wide forum, conducting a Q&A, and recognizing each other. 
+All team members are encouraged to bring forward discussion topics that they want to share with the team or to have covered during the call.
 
-The meeting should run as follows:
+### Quarterly CMO Q&A (one session for each department)
 
-- Prior to the meeting, any marketer adds agenda items to the agenda doc, linked to the invitation.
-- The CMO prioritizes the agenda and kicks off the meeting with new hire welcomes, promotions/transfers, key wins, and shares what is top of mind. 
-- The remaining time is used for open discussion, Q&A, and recognition.
-- Interruption is encouraged! Team members are encouraged to interrupt and ask questions throughout.
-- All team members are also encouraged to bring forward discussion topics that they want to share with the team or to have covered during the call.
-- Action items are recorded and owners assigned. Owners are responsible to report back with the outcome of the action item.
+{: .no_toc}
+
+**Goal**: Provide the team a smaller forum to ask any questions they may have, offer feedback, and brainstorm ideas directly with the CMO
+
+### Weekly CMO Leadership Direct Reports Team Meetings (Each manager with their direct team)
+
+{: .no_toc}
+
+**Goal**: Foster an environment to empower managers overseeing different functions to collaborate and share ideas and feedback.
 
 ### Weekly Direct Reports Meetings (Each manager with their direct reports)
 
 {: .no_toc}
 
-**Meeting goal: For managers to work with direct reports on personnel issues, performance reviews and hiring.**
+**Goal**: For managers to work with direct reports on removing roadblocks, brainstorming, coaching, and providing/receiving feedback.
 
-**Run time: 25 minutes**
-
-Strategy and tactics should be discussed in the weekly Marketing Strategy and Tactics meeting. Weekly direct reports meetings should be held to discuss tactical people management issues. These meetings should be short and tactical - save strategy discussions for the all-marketing weekly call.
-
-The meeting should run as follows:
-
-- Populate the agenda (linked to the meeting invite) prior to the meeting.
-- Manager guides the team through the agenda.
-
-# <i class="fas fa-paper-plane fa-fw color-orange font-awesome"></i> How to contact marketing 
+# <i class="fas fa-paper-plane fa-fw color-orange font-awesome"></i> Contacting Marketing 
 
 {: #contact-marketing}
 
+### General Questions and Feedback
+
 - [**GitLab Marketing public issue tracker**](https://gitlab.com/gitlab-com/marketing); please use confidential issues for topics that should only be visible to team members at GitLab
-- You can also send an email to the Marketing team (see the "Email, Slack, and GitLab Groups and Aliases" Google doc for the alias).
-- [**Slack channel**](https://gitlab.slack.com/archives/marketing); please use the `#marketing` Slack channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
-
-## Requests from other teams
-
-For all material requiring legal review, please refer to the [Materials Legal Review Process](https://about.gitlab.com/handbook/legal/materials-legal-review-process). 
+- [**Slack channel**](https://gitlab.slack.com/archives/marketing); please use the `#marketing` Slack channel for questions that don't seem appropriate to use the issue tracker
 
 ### Social Requests
 
@@ -158,7 +151,7 @@ Organizational or project sponsorships may also be considered where a marketing 
 
 Cash sponsorship of projects or organizations may be considered only in exceptional cases - for example, if a project or organization that GitLab depends on is struggling to survive financially.
 
-## Marketing Slack Channels
+### Marketing Slack Channels
 
 {: #slack}
 
@@ -205,7 +198,7 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 - `#website`: Discuss topics related to website redesign project
 - `#wg_partners_website`: Discuss improvements to the Partners portion of about.gitlab.com
 
-## Marketing email alias list
+### Marketing email alias list
 
 {: #email}
 
@@ -226,113 +219,13 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 - Surveys@ company domain: external email address for sending the Developer Survey and/or related surveys. Replies go to Content Team and Product Marketing Manager
 - Webcasts@ company domain: external email address for sending webcast related emails. Replies go to Marketing OPS Manager and Marketing Program Managers
 
-
-## Marketing team SLAs (Service Level Agreements)
-
-{: #sla}
-
-When working remotely in a fast-paced organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With any of these, things can come up that make it not possible to meet the SLAs, but we all agree to use best effort when possible.
-
-- Respond to your emails by end of next business day.
-- Respond when you are cc'd with an action item on issues by end of next business day.
-- Be on time to meetings. We start at on time.
-- Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
-- Try not to email co-workers on weekends. Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
-
-# <i class="fas fa-star fa-fw color-orange font-awesome"></i>Marketing Production
-
-{: #marketing-products}
-<!-- The following HTML blocks are the Marketing Products boxes -->
-<!-- DON'T EDIT THIS PART BELOW UNLESS YOU KNOW WHAT YOU'RE DOING :) -->
-
-<div class="row mkt-row">
-  <a href="/blog/">
-    <div class="col-sm-6 col-md-3 mkt-box">
-      <div class="thumbnail product">
-        <img src="/images/icons/blog.png" alt="GitLab Marketing - Demand Generation - Icon">
-        <div class="caption">
-          <p class="center description">
-            <h4 class="orange">BLOG</h4>
-          </p>
-        </div>
-      </div>
-    </div>
-  </a>
-  <a href="https://shop.gitlab.com/">
-    <div class="col-sm-6 col-md-3 mkt-box">
-      <div class="thumbnail product">
-        <img src="/images/icons/swag_shop.png" alt="GitLab Marketing - Design - Icon">
-        <div class="caption">
-          <p class="center description">
-            <h4 class="orange">SWAG</h4>
-          </p>
-        </div>
-      </div>
-    </div>
-  </a>
-  <a href="/events/">
-    <div class="col-sm-6 col-md-3 mkt-box">
-      <div class="thumbnail product">
-        <img src="/images/icons/location.png" alt="GitLab Marketing - Developer Relations - Icon">
-        <div class="caption">
-          <p class="center description">
-            <h4 class="orange">EVENTS</h4>
-          </p>
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
-<!-- NEXT ROLL OF 4 -->
-<div class="row mkt-row">
-  <a href="https://docs.gitlab.com/">
-    <div class="col-sm-6 col-md-3 mkt-box">
-      <div class="thumbnail product">
-        <img src="/images/icons/documentation.png" alt="GitLab Marketing - Demand Generation - Icon">
-        <div class="caption">
-          <p class="center description">
-            <h4 class="orange">DOCS</h4>
-          </p>
-        </div>
-      </div>
-    </div>
-  </a>
-  <a href="/">
-    <div class="col-sm-6 col-md-3 mkt-box">
-      <div class="thumbnail product">
-        <img src="/images/icons/website.png" alt="GitLab Marketing - Design - Icon">
-        <div class="caption">
-          <p class="center description">
-            <h4 class="orange">WEBSITE</h4>
-          </p>
-        </div>
-      </div>
-    </div>
-  </a>
-  <a href="https://docs.gitlab.com/ee/university/">
-    <div class="col-sm-6 col-md-3 mkt-box">
-      <div class="thumbnail product">
-        <img src="/images/icons/training.png" alt="GitLab Marketing - Product Marketing - Icon">
-        <div class="caption">
-          <p class="center description">
-            <h4 class="orange">UNIVERSITY</h4>
-          </p>
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
-
-<!-- END OF MARKETING PRODUCTS -->
-
-
-# <i class="fas fa-users fa-fw color-orange font-awesome"></i> Marketing Departments
+# <i class="fas fa-users fa-fw color-orange font-awesome"></i> Marketing Team Departments
 
 {: #groups}
 
-### Product Marketing
+### Product and Brand Marketing
 
-Product marketing is GitLab's interface to the market. The market is made up of customers, analysts, press, thought leaders, competitors, etc. Product marketing enables other GitLab groups such as Sales, Marketing, and Channel with narrative, positioning, messaging, and go-to-market strategy to go outbound to the market. Product marketing does market research to gather customer knowledge, analyst views, market landscapes, and competitor intelligence providing marketing insights inbound to the Product org and the rest of GitLab.
+Product and Brand Marketing represents the GitLab story at the brand, solution, product, and technical levels. We accelerate GitLab’s path to market by developing market insights, leadership positioning, messaging, and narratives that elevate our brand, show value in our solution, and fuel demand for our platform. We activate brand ambassadors and customer advocates to show momentum and trust in the market. The team includes Solutions & Product Marketing, Brand Marketing, Design, and Content. 
 
 [Handbook][Product Marketing]{:.btn .btn-purple}
 
@@ -344,6 +237,10 @@ Product marketing is GitLab's interface to the market. The market is made up of 
 
 ### Integrated Marketing
 
+The Integrated Marketing team is focused on creating awareness, generating demand and collaborating with the broader ecosystem globally, through a co-ordinated and unified approach.  We connect the dots and bring content and messaging to life by leveraging various channels as our levers to communicate across segments, regions and personas.  
+
+The team includes [Field Marketing](/handbook/marketing/field-marketing/), [Channel & Alliances Marketing](/handbook/marketing/strategic-marketing/partner-marketing/), [Corporate Events](/handbook/marketing/corporate-marketing/corp-event-marketing/), [Account-Based Marketing (ABM)](/handbook/marketing/account-based-marketing/), [Campaigns](/handbook/marketing/demand-generation/campaigns/), [Lifecycle Marketing](/handbook/marketing/lifecycle-marketing/), [Digital Strategy](/handbook/marketing/demand-generation/digital-marketing/), [Social Marketing](/handbook/marketing/corporate-marketing/social-marketing/) and [Corporate Communications](/handbook/marketing/corporate-marketing/corporate-communications/).
+
 Integrated Marketing consists of the Account Based Strategy, Alliances Marketing, Channel Marketing, Marketing Campaigns, Digital Marketing Programs, and Field Marketing teams.
 
 [Handbook][Product Marketing]{:.btn .btn-purple}
@@ -352,31 +249,30 @@ Integrated Marketing consists of the Account Based Strategy, Alliances Marketing
 {: .no_toc}
 
 - [Field Marketing](/handbook/marketing/field-marketing/)
-- [Account Based Strategy](/handbook/marketing/account-based-marketing/)
-- [Digital Marketing Programs](/handbook/marketing/demand-generation/digital-marketing/)
-- [Marketing Programs]
+- [Channel & Alliances Marketing](/handbook/marketing/strategic-marketing/partner-marketing/)
+- [Corporate Events](/handbook/marketing/corporate-marketing/corp-event-marketing/)
+- [Account-Based Marketing (ABM)](/handbook/marketing/account-based-marketing/)
 - [Campaigns](/handbook/marketing/demand-generation/campaigns/)
-- [Partner & Channel Marketing](/handbook/marketing/strategic-marketing/partner-marketing/)
-- Channel Marketing
-- Alliances Marketing 
-- [Social Marketing]
-- [Team Member Social Media Policy]
-- [Events]
-- [Inbound Marketing](/handbook/marketing/inbound-marketing/)
+- [Lifecycle Marketing](/handbook/marketing/lifecycle-marketing/)
+- [Digital Strategy](/handbook/marketing/demand-generation/digital-marketing/)
+- [Social Marketing](/handbook/marketing/corporate-marketing/social-marketing/)
+- [Corporate Communications](/handbook/marketing/corporate-marketing/corporate-communications/)
 
 ### Sales Development
 
-Business Development Representatives (BDRs) and Sales Development Representatives (SDRs) focus on serving the needs of prospective customers' during the beginning of their buying process. When prospective customers have questions about GitLab, the SDRs assist them or connect them to a technical team member as needed. During the initial exploration if the prospective customer is interested in continuing their exploration of GitLab, SDRs will connect them to an Account Executive (AE) or Strategic Account Leader (SAL).
+The [Sales Development](/handbook/marketing/revenue-marketing/sdr/) organization is focused on serving the needs of prospective customers during the beginning of their buying process.
 
-BDRs contact people who work at large organizations to uncover or create early stage sales opportunities for GitLab SALs. BDRs team will plan with their paired Sales counterpart to target interesting accounts and develop plan for prospecting including contact discovery, understanding enterprise-wide initiatives that GitLab could assist with, and ensuring accurate data quality of accounts and contact in salesforce.com.
+The Sales Development department is composed of 2 groups: the SDR team who handles all the inbound interest and the BDR team who specializes in outreach of prospective customers.
 
-[Position Description](/job-families/marketing/sales-development-representative/){:.btn .btn-purple-inv}
+When prospective customers have questions about GitLab, the SDRs assist them or connect them to a technical team member as needed. During the initial exploration, if the prospective customer is interested in continuing their exploration of GitLab, SDRs will connect them to an Account Executive (AE) or Strategic Account Leader (SAL).
+
+BDRs contact people who work at large organizations to uncover or create early-stage sales opportunities for GitLab SALs. The BDR team will plan with their paired Sales counterpart to approach interesting accounts and develop a plan for prospecting including contact discovery, understanding enterprise-wide initiatives that GitLab could assist with, and ensuring accurate data quality of accounts and contact in salesforce.com.
 
 [Handbook][Sales Development Organization]{:.btn .btn-purple}
 
 ### Marketing Strategy and Platforms
 
-Marketing Strategy and Platforms focuses on enabling the GitLab marketing organization with marketing technology, process, enablement and insights. They are responsible for evaluating, deploying and administering marketing systems, documenting and improving administrative processes, and analyzing our marketing data to ensure marketers are held accountable to continuously improving their work.
+[Marketing Strategy and Platforms](/handbook/marketing/marketing-strategy-and-platforms/) includes Strategy & Analytics, Digital Experience, Marketing Operations, Growth Product, and Globalization. The team focuses on enabling efficient and quality growth of our sales pipeline through actionable analytics insights, conversion optimization, and user experience integration. The team also owns the AdTech and MarTech stack used by Marketing.
 
 [Handbook][Marketing Strategy and Platforms]{:.btn .btn-purple}
 
@@ -384,8 +280,9 @@ Marketing Strategy and Platforms focuses on enabling the GitLab marketing organi
 {: .no_toc}
 
 - [Digital Experience](/handbook/marketing/digital-experience)
-- [Marketing Operations]
-- [Emergency Response]
+- [Marketing Operations](/handbook/marketing/marketing-operations/)
+- [Marketing Strategy & Analytics](/handbook/marketing/strategy-performance/)
+- [Growth](/handbook/marketing/growth/)
 
 ### Community Relations
 
