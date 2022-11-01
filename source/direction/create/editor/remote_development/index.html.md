@@ -140,7 +140,7 @@ Our approach to Remote Development involves a few core components working togeth
 1. Devfiles: An open standard for defining your environment in code.
 1. Custom remote development server: The engine that provisions the environments from a Devfile, establishes connections to your cloud and databases, and provides information about all running environments.
 1. GitLab Agent for Kubernetes: The GitLab Agent runs in both GitLab and your cloud to facilitate a secure network connection between the two.
-1. Remote Envuironment: The editor, depenencies, and configuration that runs in the container or VM on your cloud.
+1. Remote Environment: The editor, depenencies, and configuration that runs in the container or VM on your cloud.
 
 ![Illustrative diagram of the remote development architecture](/images/direction/dev/create/editor-remote-dev-diagram.png)*This high-level diagram illustrates how the components of the remote development offering fit together.*
 
