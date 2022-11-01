@@ -138,5 +138,6 @@
   domains:
     - frontend
   max_trainees: 2
-  trainees: []
+  trainees:
+    - Fernando Arias (@farias-gl)
 
