@@ -30,6 +30,13 @@ Developers want to spend less time managing their development environment and mo
 
 In addition, the global COVID-19 pandemic has accelerated the shift toward remote and hybrid workforces, increasing the emphasis on privacy and security. A cloud-based development environment enables organizations working in regulated industries to enforce a zero-trust policy that prevents source code from ever being stored locally while maintaining a high quality developer experience. Remote development environments also contribute to our v[ision for managing Software Supply Chain Security](/direction/supply-chain/) by providing a single place where dependencies and tools can be audited and verified and access to those environments can be controlled through strong authentication.       
 
+In this short (9-minute) video, Eric Schurter walks you through the goals and technical approach for the Remote Development category: 
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/apgU0y-u4A8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+
 <!-- ### Performance indicators
 
 #### Primary metric
