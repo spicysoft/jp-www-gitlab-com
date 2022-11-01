@@ -10,8 +10,6 @@ locality:
 country: Remote
 projects:
   gitlab: reviewer backend
-  secure-container-scanning:
-  - maintainer backend
 departments:
 - Engineering Function
 - Development Department

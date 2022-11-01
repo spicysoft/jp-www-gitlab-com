@@ -45,7 +45,6 @@ projects:
   - maintainer ci_template
   gitlab-pages: reviewer
   gitlab-runner: reviewer
-  secure-container-scanning: maintainer backend
   sec-danger-bot: maintainer backend
   security-report-schemas: reviewer
 
