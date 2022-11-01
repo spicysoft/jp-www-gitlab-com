@@ -19,6 +19,7 @@ projects:
   omnibus-gitlab: maintainer docs
   gitlab-runner: maintainer docs
   gitlab-chart: maintainer docs
+  gitaly: maintainer docs
 story: |
   Evan is passionate about language and knowledge sharing. His interests include politics,
   history, and Australian Rules football.
