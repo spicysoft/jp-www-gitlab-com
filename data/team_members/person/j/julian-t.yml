@@ -9,14 +9,18 @@ picture: julianthome.jpg
 gitlab: julianthome
 projects:
   secure-DS-gemnasium-db: maintainer
+  secure-SAST-brakeman: maintainer
+  secure-SAST-tracking-calculator: maintainer
 departments:
 - Engineering Function
 - Development Department
 - Sec Section
 - Secure:Vulnerability Research BE Team
 story: |
-  Julian has a keen interest in security testing. Before joining GitLab, he worked at ShiftLeft Inc. in the
-  areas of software security, static analysis and compiler engineering. Julian completed his PhD at the University of Luxembourg in the
-  context of static analysis and symbolic execution. In his spare time, Julian loves traveling, hiking and cooking.
+  Julian has a keen interest in security testing. He has a background in the
+  areas of software security, static analysis and compiler engineering. Julian
+  completed his PhD at the University of Luxembourg in the context of static
+  analysis and symbolic execution. In his spare time, Julian loves traveling,
+  hiking and cooking.
 specialty: Vulnerability Research
 
