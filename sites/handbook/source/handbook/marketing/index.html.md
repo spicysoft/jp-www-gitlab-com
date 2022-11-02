@@ -27,11 +27,11 @@ GitLab is The One DevOps Platform that empowers organizations to deliver quality
 
 As the GitLab Marketing team puts customers at the center of everything we do, the marketing strategy aligns with the customer journey. The journey’s purpose is to provide a clear and cohesive experience to a prospect/customer from the minute they become **Aware** of GitLab, to **Considering** the platform and **Converting** into a happy customer, and then of course **Expanding** over time and becoming an **Evangelist**.
 
-![marketing customer journey](/handbook/marketing/mktgcustomerjourney.png)
+![marketing customer journey](/handbook/marketing/mktgcustomerjourney.png){: .medium.center}
 
 Each stage has a purpose which is the guiding indicator for the marketing team to measure our success. Everything the team plans and executes in the short and long term will revolve around the customer journey, and we will also measure our success along each step to hold ourselves accountable.
 
-![marketing customer journey stages](/handbook/marketing/mktgcustomerjourneystages.png)
+![marketing customer journey stages](/handbook/marketing/mktgcustomerjourneystages.png){: .medium.center}
 
 ## Marketing OKRs
 
@@ -220,8 +220,6 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 - Webcasts@ company domain: external email address for sending webcast related emails. Replies go to Marketing OPS Manager and Marketing Program Managers
 
 # <i class="fas fa-users fa-fw color-orange font-awesome"></i> Marketing Team Departments
-
-{: #groups}
 
 ### Brand and Product Marketing
 
