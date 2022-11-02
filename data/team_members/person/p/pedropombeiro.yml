@@ -22,7 +22,7 @@ projects:
   autoscaler: maintainer
   orka: maintainer
   release-cli: reviewer
-  gitlab: reviewer backend
+  gitlab: trainee_maintainer backend
 story: |
   Pedro has always enjoyed making fellow developers' lives easier and more productive,
   so GitLab is a perfect fit for him. He's worked remotely for the last 2 decades,
