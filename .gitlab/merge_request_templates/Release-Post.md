@@ -253,9 +253,6 @@ As PMs finalize their release post items it can be helpful for the RPM to review
 1. [ ] Before handing off the bugs, usability, and performance improvements MRs to the TW lead for final review, remind PMs/EMs about the content due date by revisiting and commenting on the Slack threads you created by the 10th in `#release-post`, `#development`, and `#eng-managers`. Let them know it's the "last call" and no further contributions to the MRs will be taken after the 15th.
 1. [ ] In the threads of this MR, look for a GitLab Mattermost update, similar to [this example comment](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/78893#note_546017926). Thank the poster, then tag the [Distribution PM](https://about.gitlab.com/handbook/product/categories/#distribution-group) as an FYI and ask them to [check the box](#recurring-content-blocks) and resolve the thread.
 1. [ ] Tag the [Runner PM](https://about.gitlab.com/handbook/product/categories/#runner-group) in a new comment as an FYI and ask them to [check the box](#recurring-content-blocks) and resolve the thread.
-1. [ ] If there are no [deprecation announcements for this milestone](https://docs.gitlab.com/ee/update/deprecations), do [a search](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name%5B%5D=release%20post%20item%3A%3Adeprecation) to see if there are any open or merged MRs for the current milestone.
-  1. Depending on any discrepancies you find, engage the PMs in Slack `#release-post`
-  1. If there are no deprecations MRs in the search, remind PMs to create deprecations MRs, if they have them for this milestone
 1. [ ] Remind PMs to review existing deprecations on the [Docs page](https://docs.gitlab.com/ee/update/deprecations.html) in case any edits are needed.
 1. [ ] Assign [Bug](BUG_MR_LINK) [Usability improvements](USABILITY_MR_LINK) and [Performance Improvement](PERFORMANCE_MR_LINK) MRs to the technical writer
 
