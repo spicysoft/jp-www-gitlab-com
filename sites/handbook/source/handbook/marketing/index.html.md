@@ -314,22 +314,6 @@ The mission of GitLab’s Corporate Communications team is to amplify GitLab's p
 
 [Handbook][Corporate Communications]{:.btn .btn-purple}
 
-## Marketing Handbook Updates
-
-{: #handbook}
-
-Anything that is a process in marketing should be documented in the Marketing Handbook.
-
-- Format of all pages should be as follows:
-    - Welcome to the Handbook.
-    - Functional group overview if handbook for entire Department or organization.
-    - "On this page" index of all top level headers on the current page ([create a ToC]).
-    - Links to other handbooks included on this page.
-- Rather than create many nested pages, include everything on one page of your role's handbook with an index at the top.
-- Each role should have a handbook page.
-- If more than one person are performing a role, the task should be shared to update the handbook with all processes or guidelines.
-- Follow the [Markdown Style Guide] for about.GitLab.com.
-
 # <i class="fas fa-calendar-check fa-fw color-orange font-awesome"></i> Marketing Calendar
 {: #marketing-calendar .gitlab-purple}
 <!-- DO NOT CHANGE ANCHOR -->
