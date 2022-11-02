@@ -1825,7 +1825,7 @@ environment_management:
   description: "Enable organizations to operate and manage multiple environments directly from GitLab. Environments are encapsulated in GitLab as a target system with associated configurations. By facilitating access control, visualizing deployments and deployment history across teams and projects, adding the ability to query environments, and ensuring that environment's configurations are traceable, platform engineers can enact stronger controls and avoid costly mistakes in deployments."
   roi: true
   available: 2017-01-01
-  viable: 2022-10-22
+  viable: 2022-12-22
   complete: 2023-06-22
   lovable: 2024-06-22
   maturity: minimal
