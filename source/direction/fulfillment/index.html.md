@@ -142,7 +142,7 @@ We would like to do more in each of these areas and will reassess efforts as we 
 
 Our latest roadmap can be seen within the GitLab product: **[Fulfillment Overall Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)**
 
-We also have [Fulfillment Roadmap Slides](https://docs.google.com/presentation/d/1eTH09QZqnazJ4jh-jVGTEYEFA3m6R2jwWuhY5_EtPL4/edit#slide=id.g123a13deda8_0_405) (Not Public), that internal team members can reference for executive reviews. 
+We also have [Fulfillment Roadmap by Group](https://drive.google.com/drive/search?q=type:presentation%20title:%22Fulfillment%20Roadmap%20by%20Group%22) (Not Public), that internal team members can reference for executive reviews. 
 
 ### Roadmap Prioritization 
 
