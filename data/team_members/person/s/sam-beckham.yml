@@ -2,20 +2,18 @@
 name: Sam Beckham
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/frontend/manager/">Frontend Engineering
-  Manager, Verify</a>
-reports_to: cheryl-li
+role: <a href="/job-families/engineering/development/frontend/manager/">Engineering
+  Manager</a>, Manage:Foundations
+reports_to: tim-z
 picture: sambeckham.jpg
 twitter: samdbeckham
 gitlab: samdbeckham
 departments:
 - Engineering Function
 - Development Department
-- Ops Sub-department
 - Frontend
-- Verify FE Team
-- Verify:Pipeline Execution Group
-- Verify:Pipeline Authoring Group
+- Dev Section
+- Manage:Foundations Team
 projects:
   gitlab: reviewer frontend
 domain_expertise:

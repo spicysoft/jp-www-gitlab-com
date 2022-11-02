@@ -65,7 +65,7 @@ While preparing for the Retrospective Discussion:
 | Create:Editor               | @oregand                                | @mvanremmerden  | @ericschurter   |  |  |
 | Create:Source Code          | @sean_carroll + @andr3                  | @mvanremmerden  | @tlinz   |  |  |
 | Gitaly                      | @zj-gitlab                              | -               | @mjwood         |  |  |
-| Manage:Foundations       | @leipert                                | @tauriedavis    | @cdybenko      |  |  |
+| Manage:Foundations       | @samdbeckham                                | @tauriedavis    | @cdybenko      |  |  |
 | Manage:Integrations      | @arturoherrero                          | @mvanremmerden  | @g.hickman       |  |  |
 | Verify:Pipeline Authoring   | @marknuzzo + @samdbeckham               | @rayana         | @dhershkovitch  |  |  |
 | Verify:Pipeline Execution   | @avielle + @samdbeckham                 | @rayana         | @jheimbuck_gl   |  |  |

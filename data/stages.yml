@@ -203,8 +203,8 @@ stages:
       foundations:
         name: Foundations
         pm: Christen Dybenko
+        em: Sam Beckham
         focus: Driving Pajamas adoption
-        frontend_engineering_manager: Lukas Eipert
         fe_team_tag: Manage:Foundations FE Team
         support: TBD
         pdm:
