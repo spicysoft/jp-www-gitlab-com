@@ -2326,7 +2326,9 @@ stages:
         frontend_engineering_manager: Changzheng Liu (Interim)
         be_team_tag: Global Search BE Team
         fe_team_tag: Global Search FE Team
-        support: Vlad Stoianovici
+        support: 
+          - Vlad Stoianovici
+          - Cleveland Bledsoe Jr
         appsec_engineer: Kevin Morrison
         pdm:
           - Marcel van Remmerden
