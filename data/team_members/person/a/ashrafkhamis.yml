@@ -24,8 +24,8 @@ projects:
   gitlab-chart: maintainer docs
   omnibus-gitlab: maintainer docs
 specialty:
-- 'Manage: Integrations'
-- 'Create: Editor'
-- 'Data Stores: Global Search'
+- Create:Editor
+- " Manage: Integrations"
 expertise:
 story:
+
