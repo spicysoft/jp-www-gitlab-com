@@ -489,6 +489,8 @@ source_code_management:
     - lfs
     - mirror
     - repository
+    - "Category:Source Code Management"
+    - "Source Code Management::Snippets"
   marketing_page: /stages-devops-lifecycle/source-code-management/
   documentation: https://docs.gitlab.com/ee/user/project/repository/
   direction: /direction/create/source_code_management/

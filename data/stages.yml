@@ -588,7 +588,6 @@ stages:
             dri: TBD
         categories:
           - web_ide
-          - snippets
           - wiki
           - pages
           - remote_development

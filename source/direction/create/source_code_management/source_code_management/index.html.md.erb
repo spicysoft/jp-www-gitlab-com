@@ -33,6 +33,12 @@ To achieve this, teams need to protect production while making it easy for every
 - Which quality tests must be passed before changes can be applied ([coverage checks](https://docs.gitlab.com/ee/ci/pipelines/settings.html#coverage-check-approval-rule); [security checks](https://docs.gitlab.com/ee/user/application_security/policies/scan-result-policies.html)) 
 - Which branches need to be protected because they influence production ([default branch](https://docs.gitlab.com/ee/user/project/repository/branches/default.html); [protected branches](https://docs.gitlab.com/ee/user/project/protected_branches.html); [push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html)) 
 
+### Snippets
+
+GitLab Snippets allows users to share small bits of code and text by directly linking, downloading, or embedding them in web apps within an HTML tag. Each snippet is essentially a lightweight Git repository, meaning they are versioned and even support multiple files.
+
+Commonly Snippets are often used for smaller pieces of code that are reused among several projects, additional documentation for specific one-off scripts/functions and instructions for using the main project.
+
 ### Challenges  
 While the principles have been around for half a century, SCM is not without challenges. SCM needs to address a large set of requirements that are partly contradicting:  
 - encourage sound development practices  
