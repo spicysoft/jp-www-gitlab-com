@@ -94,38 +94,12 @@ We recommend that applicants begin the renewal process at least one month in adv
 
 ### How does someone renew their membership in the GitLab for Open Soure Program?
 
-To request a renewal, program members should email a renewal request to `opensource@gitlab.com`. If the request is urgent, please include `[Urgent]` in the email's subject line.
+To request a renewal, program members should complete the [program application](/solutions/open-source/join/). The team will use this form to determine whether the entity applying for renewal still meets the program's eligibility criteria. Whether applying to the program for the first time or renewing a pre-existing membership, applicants complete the same form.
 
-A renewal request should use the following template:
+The person claiming the renewal for the subscription must be the same person who created the subscription for this open source project or organization in the GitLab Customer Portal. If a different person wishes to initiate the renewal, the existing owner needs to [transfer ownership of the Customers Portal account](https://docs.gitlab.com/ee/subscriptions/#change-account-owner-information). If the existing owner is no longer able to transfer ownership or renew, the project should [open a support ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293) to change the owner of the subscription before initiating renewal.
+{: .alert .alert-danger}
 
-```
-Subject: Renewal Request | Date of Expiration (MM/YYYY)
-
-To help us find your account:
-
-* Name of your organization or project: 
-* Email associated with this account: 
-
-To help us make sure you still qualify:
-
-* Link to your publicly visible GitLab instance: 
-* Link to one of your OSI-compliant licenses: 
-* Written acceptance of this statement (Include this sentence in your request): 
-    `I confirm that my organization does not seek to make a profit from this OSS project`
-
-To help us plan for next year:
-
-* Number of seats you are renewing: 
-* Please verify the license type to be renewed: 
-* Please attach a PDF version of last year's quote if available
-* List any change of ownership to the account: 
-(If account ownership details change, please send the new account holder's name, email address, and contact's mailing address)
-```
-
-When a renewal request is processed and accepted, applicants will be asked to sign a $0 renewal quote. After that:
-
-* **For Saas renewals:** No further action is necessary.
-* **For Self-managed renewals:** You'll need to download your license from the GitLab Customer Portal and upload it to your instance.
+After completing application form, verified applicants receive a verification email with instructions to obtain their subscription licenses.
 
 ### How else can GitLab assist open source projects?
 
