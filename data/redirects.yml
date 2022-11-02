@@ -4248,7 +4248,8 @@
 - sources:
     - /direction/create/snippets
     - /direction/create/snippets/
-  target: /direction/create/editor/snippets/
+    - /direction/create/editor/snippets/
+  target: /direction/create/source_code_management/source_code_management/#snippets
   comp_op: '='
 - sources:
     - /direction/create/live_preview

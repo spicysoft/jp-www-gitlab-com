@@ -4861,7 +4861,7 @@ features:
     screenshot_url: phikai-snippets-multiple-files.png
     feature_page: true
     category:
-      - snippets
+      - source_code_management
     gitlab_core: true
     gitlab_starter: true
     gitlab_premium: true
