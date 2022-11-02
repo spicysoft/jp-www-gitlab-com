@@ -1,0 +1,32 @@
+---
+name: Furkan Ayhan
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/senior">Senior Backend Engineer,
+  Verify:Pipeline Authoring</a>
+reports_to: marknuzzo
+picture: furkanayhan.jpg
+twitter: furkanayhn
+gitlab: furkanayhan
+pronouns: he/him
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify:Pipeline Authoring Group
+- Verify:Pipeline Authoring BE Team
+projects:
+  gitlab:
+  - maintainer backend
+  - reviewer database
+story: 'Furkan has been working on web applications using Ruby on Rails and different
+  frontend frameworks for more than 6 years. He loves playing video games and watching
+  TV shows.
+
+  '
+domain_expertise:
+- rails
+- cicd
+specialty:
+- 'Verify: Pipeline Authoring'
+
