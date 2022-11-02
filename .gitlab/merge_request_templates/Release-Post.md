@@ -369,10 +369,10 @@ In the run-up to publishing the release post on the 22nd, some release post mana
 1. [ ] Identify the 3-7 items for **What's New** and create the MR by following the guidance in [Creating an MR for What's New entries](https://about.gitlab.com/handbook/marketing/blog/release-posts/index.html#creating-an-mr-for-whats-new-entries).
 1. [ ] Post the following message in `#backend_maintainers` on Slack:
 `I am the release post manager for XX.Y and will need help merging in the "What's new" notification following the publication of the release post. This will be a time-sensitive MR on the 22nd (15:00-19:00 UTC). Could I please request a volunteer or two to be ready and available to help merge the MR when I have it ready to go? Thanks! cc: @a_akgun`
-1. [ ] The RPM will create and finalize the MR draft by 11:59 PDT on the 21st.
-1. [ ] The RPM will tag in What's New DRIs Product Operations `@fseifoddini` and `@brhea` and VP of Product `@david` as Reviewers, to review and Approve.
-1. [ ] The RPM will tag in any maintainers who respond to the above message in `#backend_maintainers` as Reviewers, to review and Approve.
-1. [ ] The RPM will merge the MR after the release post is live on the 22nd and images have been checked to load correctly locally.
+1. [ ] Create and finalize the MR draft by 11:59 PDT on the 21st.
+1. [ ] Tag in What's New DRIs Product Operations `@fseifoddini` and `@brhea` and VP of Product `@david` as Reviewers, to review and Approve.
+1. [ ] Tag in any maintainers who respond to the above message in `#backend_maintainers` as Reviewers, to review and Approve.
+1. [ ] If you do not have merge rights on `gitlab-org/gitlab`, mention to the maintainers you've tagged above that you will need them to merge this MR *after the release post is live on the 22nd*. (There is a task on the 22nd reminding you to merge or request to merge.)
 
 ---
 
@@ -465,6 +465,7 @@ After the release manager confirms that the packages are publicly available by p
 1. [ ] Hand off social posts to the social team and confirm that it's ready to publish: Mention `@social` in the `#release-post` Slack channel. Be sure to include the live URL link and social media copy (you can copy/paste the final copy from the review app).
 1. [ ] Share the links to the post on the `#release-posts` and `#whats-happening-at-gitlab` channels in Slack.
 1. [ ] Ping an engineer on the [Digital Experience Conversion Group team](https://about.gitlab.com/handbook/marketing/digital-experience/#groups-metrics--team-members) to merge the homepage update MR (link to the MR should be found in [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/merge_requests)).
+1. [ ] Merge (or request a maintainer to merge) the "What's New" MR after the images referenced in that MR have been checked to load correctly locally.
 
 ##### After the MR is merged
 
