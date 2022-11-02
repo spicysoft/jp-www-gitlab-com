@@ -90,3 +90,20 @@ supports [using the system certificate pool](https://github.com/golang/go/issues
 
 Otherwise, this error suggests the runner is configured with [custom SSL certificates](https://docs.gitlab.com/runner/configuration/tls-self-signed.html).
 You may need to update your certificates or include the certificates directly in the bundle.
+
+#### Authentication required
+
+Some clients may report a 401 error with `Authentication required` after
+requesting to download a job artifact:
+
+```xml
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AuthenticationRequired</Code><Message>Authentication required.</Message></Error>
+```
+
+This error message suggests the HTTP client is following the 302
+redirect and sending the `Authorization` header with the redirected
+URL. This is a known issue with Java HTTP clients.
+
+Update your client to drop the `Authorization` header the
+redirect. Google Cloud Storage ignores this header if it were set, but
+Cloud CDN rejects requests that have the `Authorization` header set.
