@@ -3,11 +3,11 @@ locality:
 country: Remote
 role: <a href="">Manager, Support Engineering</a>
 reports_to: valparsons
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: erikamiklos.jpeg
+pronouns: She/her
 pronunciation:
 twitter:
-linkedin:
+linkedin: erika-miklos
 gitlab: erikamiklos
 departments:
   - Customer Support
