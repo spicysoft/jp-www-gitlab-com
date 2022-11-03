@@ -4274,11 +4274,6 @@
   target: /handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html
   comp_op: '='
 - sources:
-    - /handbook/customer-success/tam/gainsight/license-usage
-    - /handbook/customer-success/tam/gainsight/license-usage/
-  target: /handbook/customer-success/product-usage-data/license-utilization/
-  comp_op: '='
-- sources:
     - /direction/plan/epics
     - /direction/plan/roadmaps
   target: /direction/plan/portfolio_management
@@ -4677,3 +4672,15 @@
 - sources: /handbook/engineering/security/
   target: /handbook/security/
   comp_op: '~'
+- sources: 
+  - /handbook/customer-success/product-usage-data/product-usage-data-FAQs
+  - /handbook/customer-success/product-usage-data/product-usage-data-FAQs/
+  target: /handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/
+  comp_op: '='
+- sources: 
+  - /handbook/customer-success/product-usage-data/license-utilization
+  - /handbook/customer-success/product-usage-data/license-utilization/
+  - /handbook/customer-success/tam/gainsight/license-usage
+  - /handbook/customer-success/tam/gainsight/license-usage/
+  target: /handbook/customer-success/product-usage-data/use-case-adoption/
+  comp_op: '='
