@@ -732,7 +732,7 @@ stages:
         fe_team_tag: Verify:Runner FE Team
         support:
           - Alexander Tanayno
-          - Nourdin el Bacha
+          - TBD
         qm: Joanna Shih
         sets:
           - Zeff Morgan
@@ -875,7 +875,7 @@ stages:
         be_team_tag: Package:Package Registry BE Team
         fe_team_tag: Package:Package Registry FE Team
         support:
-          - Nourdin el Bacha
+          - TBD
         qm: Joanna Shih
         sets:
           - TBD
@@ -915,7 +915,7 @@ stages:
         be_team_tag: Package:Container Registry BE Team
         fe_team_tag: Package:Container Registry FE Team
         support:
-          - Nourdin el Bacha
+          - TBD
         qm: Joanna Shih
         sets:
           - Sofia Vistas
