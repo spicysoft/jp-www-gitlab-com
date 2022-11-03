@@ -2404,7 +2404,7 @@ redis:
 dedicated:
   name: "GitLab Dedicated"
   stage: platforms
-  direction: https://internal-handbook.gitlab.io/handbook/engineering/horse/
+  direction: https://about.gitlab.com/direction/saas-platforms/dedicated/
   documentation: https://docs.gitlab.com/ee/user/
   description: "Single-tenant SaaS service"
   roi: false
