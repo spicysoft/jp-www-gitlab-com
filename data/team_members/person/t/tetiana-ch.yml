@@ -24,11 +24,11 @@ domain_expertise:
 projects:
   gitlab:
   - maintainer backend
-  secure-DS-gemnasium: reviewer backend
-  secure-DS-gemnasium-maven: reviewer backend
-  secure-DS-gemnasium-python: reviewer backend
-  secure-LC-license-finder: maintainer backend
-  secure-container-scanning: maintainer backend
+  secure-DS-gemnasium: reviewer
+  secure-DS-gemnasium-maven: reviewer
+  secure-DS-gemnasium-python: reviewer
+  secure-LC-license-finder: maintainer
+  secure-container-scanning: maintainer
   tanuki_emoji: maintainer
 story: |
   Tetiana became a GitLab user in 2015 and she joined the team almost 4 years after.

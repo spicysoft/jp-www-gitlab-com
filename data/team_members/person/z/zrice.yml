@@ -20,19 +20,19 @@ story: |
   Outside of programming Zach enjoys photography, visiting Lake Michigan, playing basketball, walking his dog, and brewing kombucha.
 specialty: Static Analysis
 projects:
-  secure-analyzers: reviewer backend
-  secure-common-command: trainee_maintainer backend
-  secure-common-report: trainee_maintainer backend
-  secure-common-ruleset: trainee_maintainer backend
-  secure-SAST-bandit: trainee_maintainer backend
-  secure-SAST-eslint: trainee_maintainer backend
-  secure-SAST-gosec: trainee_maintainer backend
-  secure-SAST-kubesec: trainee_maintainer backend
-  secure-SAST-nodejs-scan: trainee_maintainer backend
-  secure-SAST-pmd-apex: trainee_maintainer backend
-  secure-SAST-security-code-scan: trainee_maintainer backend
+  secure-analyzers: reviewer
+  secure-common-command: trainee_maintainer
+  secure-common-report: trainee_maintainer
+  secure-common-ruleset: trainee_maintainer
+  secure-SAST-bandit: trainee_maintainer
+  secure-SAST-eslint: trainee_maintainer
+  secure-SAST-gosec: trainee_maintainer
+  secure-SAST-kubesec: trainee_maintainer
+  secure-SAST-nodejs-scan: trainee_maintainer
+  secure-SAST-pmd-apex: trainee_maintainer
+  secure-SAST-security-code-scan: trainee_maintainer
   secure-SAST-semgrep: trainee_maintainer
-  secure-SAST-sobelow: trainee_maintainer backend
+  secure-SAST-sobelow: trainee_maintainer
   secure-SD-secrets: maintainer
 
 
