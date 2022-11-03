@@ -4672,15 +4672,19 @@
 - sources: /handbook/engineering/security/
   target: /handbook/security/
   comp_op: '~'
-- sources: 
-  - /handbook/customer-success/product-usage-data/product-usage-data-FAQs
-  - /handbook/customer-success/product-usage-data/product-usage-data-FAQs/
-  target: /handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/
-  comp_op: '='
-- sources: 
-  - /handbook/customer-success/product-usage-data/license-utilization
-  - /handbook/customer-success/product-usage-data/license-utilization/
-  - /handbook/customer-success/tam/gainsight/license-usage
-  - /handbook/customer-success/tam/gainsight/license-usage/
-  target: /handbook/customer-success/product-usage-data/use-case-adoption/
-  comp_op: '='
+- sources:
+  - /handbook/teamops/informed-decisions/
+  target: /handbook/teamops/shared-reality/
+  comp_op: '~'
+- sources:
+  - /handbook/teamops/executing-decisions/
+  target: /handbook/teamops/measurement-clarity/
+  comp_op: '~'
+- sources:
+  - /handbook/teamops/fast-decisions/
+  target: /handbook/teamops/everyone-contributes/
+  comp_op: '~'
+- sources:
+  - /handbook/teamops/many-decisions/
+  target: /handbook/teamops/decision-velocity/
+  comp_op: '~'
