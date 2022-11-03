@@ -2629,7 +2629,6 @@
 - sources:
   - /handbook/product/product-categories/plan/
   - /handbook/product/product-categories/plan
-  - /handbook/engineering/development/dev/plan/
   target: /handbook/product/categories/plan/
   comp_op: '='
 - sources:
