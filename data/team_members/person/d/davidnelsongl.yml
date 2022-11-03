@@ -16,7 +16,7 @@ departments:
 - Sec Section
 - Secure:Dynamic Analysis BE Team
 projects:
-  secure-api-security: reviewer backend
+  secure-api-security: reviewer
 specialty: Secure
 expertise:
 domain_expertise:
