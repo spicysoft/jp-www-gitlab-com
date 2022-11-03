@@ -4688,3 +4688,6 @@
   - /handbook/teamops/many-decisions/
   target: /handbook/teamops/decision-velocity/
   comp_op: '~'
+- sources: /handbook/engineering/readmes/wayne-haber/development-director-shadow-experiment.html
+  target: /handbook/engineering/development/shadow/director-shadow-program.html
+  comp_op: '='
