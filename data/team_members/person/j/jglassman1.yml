@@ -1,5 +1,6 @@
+---
 name: Jon Glassman
-locality: 
+locality:
 country: Remote
 role: <a href="/job-families/product/technical-writer/">Senior Technical Writer</a>.
 reports_to: kpaizee
@@ -10,9 +11,9 @@ twitter:
 linkedin: jonathan-glassman-39b13541
 gitlab: jglassman1
 departments:
-  - Product Team
-  - UX Department
-  - Technical Writing
+- Product Team
+- UX Department
+- Technical Writing
 projects:
   gitlab: reviewer docs
   omnibus-gitlab: reviewer docs
@@ -20,7 +21,10 @@ projects:
   gitlab-chart: reviewer docs
   gitlab-development-kit: reviewer docs
   gitlab-docs: reviewer
-specialty: ""
+specialty: 'Enablement: Pods'
 expertise:
-story: Jon became a technical writer after going through a career change process. He realised that he liked explaining things, technical things, and talking to people. Technical writing seemed like a natural fit. Jon loves martial arts, cooking, baking, reading and gaming.
+story: Jon became a technical writer after going through a career change process.
+  He realised that he liked explaining things, technical things, and talking to people.
+  Technical writing seemed like a natural fit. Jon loves martial arts, cooking, baking,
+  reading and gaming.
 
