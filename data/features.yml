@@ -7515,6 +7515,21 @@ features:
     gitlab_com: true
     pps_aggregate: 0
     pps_recent: 0
+
+  - title : "Members of a project"
+    description: "Members are the users and groups who have access to your project. Each member gets a role, which determines what they can do in the project."
+    link_description: "Learn more about managing Members of a projects"
+    link: "https://docs.gitlab.com/ee/user/project/members/"
+    category:
+      - projects
+    gitlab_core: true
+    gitlab_starter: true
+    gitlab_premium: true
+    gitlab_ultimate: true
+    gitlab_com: true
+    pps_aggregate: 0
+    pps_recent: 0    
+
   - title : "SAML SSO for Groups"
     description: "Connect a group in GitLab to a SAML identity provider to manage authentication."
     link_description: "Learn more about LDAP group synchronization"
