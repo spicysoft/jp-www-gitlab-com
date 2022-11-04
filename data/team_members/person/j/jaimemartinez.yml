@@ -27,6 +27,7 @@ projects:
   go-mimedb: reviewer
   container-registry: trainee_maintainer
   labkit: reviewer
+  gitlab-cli: reviewer
 story: |
   Jaime is a software engineer who has been working with Go writing backend applications for the last few years. He enjoys mentoring others and spreading the Go love.
   In his spare time, he can be seen playing video games, walking his dog and going to concerts with his partner!
