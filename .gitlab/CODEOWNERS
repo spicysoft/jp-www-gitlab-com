@@ -727,8 +727,8 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /data/release_managers.yml @gitlab-org/delivery
 
 ^[Netlify CMS]
-/sites/uncategorized/source/admin/ @laurenbarker @tywilliams @mpreuss22
-/sites/handbook/source/handbook/marketing/netlifycms/ @laurenbarker @tywilliams @mpreuss22
+/sites/uncategorized/source/admin/ @laurenbarker @justin.vetter @mpreuss22
+/sites/handbook/source/handbook/marketing/netlifycms/ @laurenbarker @justin.vetter @mpreuss22
 
 [SourceCode]
 /sites/handbook/source/handbook/engineering/development/dev/create/source-code-be/ @sean_carroll @robotmay_gitlab @igor.drozdov @vyaklushin
@@ -750,4 +750,4 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /scripts/setup-macos-dev-environment.sh @cmestel
 
 ^[Ruby Version]
-.ruby-version @tywilliams @laurenbarker @cwoolley-gitlab
+.ruby-version @justin.vetter @laurenbarker @cwoolley-gitlab
