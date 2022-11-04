@@ -1014,7 +1014,7 @@
 - sources:
   - /handbook/engineering/ux/ux-researcher-training
   - /handbook/engineering/ux/ux-researcher-training/
-  target: /handbook/product/ux/ux-research-training/
+  target: /handbook/product/ux/ux-researcher-training/
   comp_op: '='
 - sources:
   - /job-families/legal
@@ -4357,7 +4357,7 @@
 - sources:
   - /handbook/engineering/ux/ux-research-training/strategic-research-at-gitlab/cross-stage-research-program.html
   - /handbook/engineering/ux/ux-research-training/strategic-research-at-gitlab/devops-platform-research-program.html
-  target: /handbook/product/ux/ux-research-training/strategic-research-at-gitlab/gitlab-adoption-research-program.html
+  target: /handbook/product/ux/ux-research/strategic-research-at-gitlab/gitlab-adoption-research-program.html
   comp_op: '='
 - sources:
   - /handbook/hiring/resource-guide
