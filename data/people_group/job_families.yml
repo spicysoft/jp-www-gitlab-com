@@ -11,7 +11,7 @@
   description:
   - "/job-families/finance/accounting-operations-manager/"
   - "/job-families/finance/corporate-controller/accounting-operations/"
-- title: Manager, Technical Accounting
+- title: Technical Accounting
   description: "/job-families/finance/technical-accounting/"
 - title: General Ledger Accounting
   description: "/job-families/finance/general-ledger-accounting/"
@@ -145,6 +145,7 @@
   - "/job-families/people-ops/people-ops-fullstack-engineer/"
   - "/job-families/engineering/development/management/fullstack-manager/"
   - "/job-families/marketing/fullstack-engineer-marketing/"
+  - "/job-families/product/ux-fullstack-engineer/"
 - title: Contributor Success
   description: "/job-families/engineering/quality/contributor-success/"
 - title: Go-to Market Planning and Operations
