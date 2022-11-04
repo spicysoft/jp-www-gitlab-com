@@ -3,15 +3,16 @@ locality:
 country: Remote
 role: <a href="">Senior Backend Engineer</a>
 reports_to: nklick
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: nickilieskou.png
+pronouns: he/his
 pronunciation:
 twitter:
-linkedin:
+linkedin: nick-ilieskou
 gitlab: nilieskou
 departments:
   - Development
 specialty: "Monitor:Observability"
 expertise:
-story:
-
+story: |
+  Nick is a backend engineer who enjoys contributing in all parts of the tech stack.
+  Outside of work, Nick has a daughter and enjoys travelling, gaming and exercising crossfit. 
