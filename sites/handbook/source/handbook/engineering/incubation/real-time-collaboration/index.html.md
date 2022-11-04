@@ -27,7 +27,8 @@ There are additional ideas within the [Real-time collaboration Epic](https://git
 
 | | Date | Topic | Description | Video |
 |---|:----------:|-----------------------------------|-----|-----|
-| 10 | 2022-10-06 | Message protocol, Editor bindings, Awareness Pt. 2 | Two busy weeks, and lots of complexity. | https://www.youtube.com/watch?v=wJnvhW4eBKQ |
+| 11 | 2022-11-02 | Adding Rust to GitLab | Shipping a gem with a native extension is tricky and extends the scope of the project. | https://www.youtube.com/watch?v=IQS81adVWWg |
+| 10 | 2022-10-19 | Message protocol, Editor bindings, Awareness Pt. 2 | Two busy weeks, and lots of complexity. | https://www.youtube.com/watch?v=wJnvhW4eBKQ |
 | 9 | 2022-10-06 | Real-time demo (y-rb usage) | Celebrate the first table `y-rb` multip-platform release with a sandbox demo. | https://www.youtube.com/watch?v=1gfYfUMh3dU |
 | 8 | 2022-09-16 | Change of plans | Awareness feature not to ship to current issue sidebar and y-rb multi-platform releases. | https://www.youtube.com/watch?v=x47YnULTiro |
 | 7 | 2022-08-18 | Ruby+Rust | Awareness feature about to ship, and a little intro to how Ruby+Rust bindings work. | https://www.youtube.com/watch?v=ng20jSo2TIs |
@@ -69,6 +70,12 @@ This [Ruby](https://www.ruby-lang.org/en/) gem is developed under the `y-crdt` u
 This [Ruby](https://www.ruby-lang.org/en/) gem is developed under the `y-crdt` umbrella ([The y-crdt organization](https://github.com/y-crdt)). It is a thin abstraction layer to allow persisting changesets to Redis. The updates produced by `y-crdt` documents are stored as easy to store and fetch elements in a list. This allows us to persist and restore documents efficiently.
 
 - [Project](https://gitlab.com/gitlab-org/incubation-engineering/real-time-editing/yrb-redis)
+
+#### The `y-rb_actioncable` gem
+
+**Current State:** Started
+
+The default ActionCable implementation has no delivery guarantees (we look for `at-least-once`), and no atomic broadcast mechanism. The order of messages sent should be the same when they are received.
 
 ### Awareness
 
