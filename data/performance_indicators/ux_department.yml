@@ -163,7 +163,7 @@
       embed: v2
 - name: Usability benchmarking overall score by stage
   base_path: "/handbook/product/ux/performance-indicators/"
-  definition: This PI tracks the overall stage score for <a href="https://about.gitlab.com/handbook/product/ux/ux-research-training/usability-benchmarking/">usability benchmarking</a> studies performed across stage groups as they change over time. The tasks and workflows that comprise each benchmarking study are derived from JTBD for one or more target personas typical for the stage running the study. The overall score for each study takes into account the performance of each task that was tested, through metrics like completion rate, severity, and customer effort score (CES). The scale is 0-100, where 90-100 is ‘Great’, 80-89 is ‘Good’, 70-79 is ‘Fair’, 69 and below is ‘Poor’.
+  definition: This PI tracks the overall stage score for <a href="https://about.gitlab.com/handbook/product/ux/ux-research/usability-benchmarking/">usability benchmarking</a> studies performed across stage groups as they change over time. The tasks and workflows that comprise each benchmarking study are derived from JTBD for one or more target personas typical for the stage running the study. The overall score for each study takes into account the performance of each task that was tested, through metrics like completion rate, severity, and customer effort score (CES). The scale is 0-100, where 90-100 is ‘Great’, 80-89 is ‘Good’, 70-79 is ‘Fair’, 69 and below is ‘Poor’.
   target: 5% increase in overall score from previous benchmarking, maintaining an overall score above 79/100. 
   org: UX Department
   is_key: false
