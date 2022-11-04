@@ -20,7 +20,7 @@ Our goal is for 10% of GitLab customers to be Leading Organizations by FY25Q4. T
 
 ## Qualification
 
-See the definition for Leading Organizations in the [code review section](/handbook/engineering/workflow/code-review/#leading-organizations)
+Defintion: A company or individual that reaches 20 merged merge requests or more over a trailing three full calendar month basis. See more about qualification Leading Organizations in the [code review section](/handbook/engineering/workflow/code-review/#leading-organizations)
 
 Continued program membership for existing Leading Organizations will be reviewed [quarterly](/handbook/communication/#communicating-dates-and-time).
 
@@ -40,7 +40,7 @@ Lack of developer talent is one of the biggest threats to businesses. Contributi
 
 80% of companies expect to increase their use of enterprise open source software for emerging technologies. [^1]
 
-1. Paying employees to contribute to Open Source can double the company’s productivity, when compared to non-contributing competitors [^2].
+1. Paying employees to contribute to open source can double the company’s productivity, when compared to non-contributing competitors [^2].
 1. Open source saves time and money while increasing efficiency.
 1. Consistent contributing enables organizations to replace point solutions faster while reducing technical debt.
 
@@ -49,9 +49,9 @@ Lack of developer talent is one of the biggest threats to businesses. Contributi
 Leading Organizations receive: 
 
 - Faster time to review [service level objective](/handbook/engineering/workflow/code-review/#review-response-slo) from GitLab team members
-- Certainty that if you need something added to GitLab, you have a path to ensuring that you get it
+- A productive dialogue with GitLab team members about features important to you
 - Public recognition with special Leading Organization badge visible on LinkedIn and other social channels
-- Increased employer brand visibility through blog posts on GitLab.com, contributor stories, and social media
+- Opportunities to increase employer brand visibility through blog posts on GitLab.com, contributor stories, and social media
 - Access to GitLab team members including Engineers, Product Managers, Community Relations, and Core Team Members to provide guidance and answer questions on MRs
 - General guidance on the legal considerations of contributing to open source and open core software projects
 
@@ -60,7 +60,7 @@ Leading Organizations receive:
 To apply to join the Leading Organization program: 
 
 1. Fill out [form](https://forms.gle/HRWyXBKkgbnwhUdU6) to receive more information
-1. Fill out issue to apply [link to come] 
+1. To schedule a workshop, click [here](https://calendly.com/lizpetoskey/leading-organization-workshop)
 1. Once accepted into the prorgam you'll receive a Welcome Email
 1. Schedule an onboarding workshop
 
