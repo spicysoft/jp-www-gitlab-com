@@ -1051,7 +1051,7 @@
   employee_or_customer_facing_app: customer
   notes: null
   saas: null
-  handbook_link: "[Coupa Guide](/handbook/business-technology/enterprise-applications/guides/coupa-guide/)"
+  handbook_link: "[Coupa Tech Stack Guide](/handbook/finance/accounts-payable/tech-stack-coupa-guide)"
   google_group: null
 
 - title: Crowdin.com
@@ -5402,5 +5402,5 @@
   employee_or_customer_facing_app:
   notes: null
   saas: null
-  handbook_link: "[Zuora Revenue Tech Stack Guide](/handbook/finance/accounting/finance-ops/Revenue-Operations/tech-stack-guide-zuora-revenue)"
+  handbook_link: "[Zuora Revenue Tech Stack Guide](/handbook/finance/accounting/finance-ops/Revenue-Accounting/tech-stack-guide-zuora-revenue/)"
   google_group: null
