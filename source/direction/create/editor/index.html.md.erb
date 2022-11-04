@@ -10,7 +10,7 @@ canonical_path: "/direction/create/editor/"
 
 ## The Editor group
 
-**Content last reviewed on 2022-10-27**
+**Content last reviewed on 2022-11-04**
 
 This is the direction page for the Editor group which is part of the [Create stage](/direction/dev/index.html#create) of the DevOps lifecycle and is responsible for the following categories: 
 
@@ -18,7 +18,6 @@ This is the direction page for the Editor group which is part of the [Create sta
 |  ---   |   ---   |   ---   |  ---  |
 | Web IDE | [Direction page](/direction/create/editor/web_ide/) | A web-based multi-file code editor |  [Viable](/direction/maturity/) |
 | Remote Development | [Direction page](/direction/create/editor/remote_development/) | Server-side runtime environments | [Planned](/direction/maturity/) |
-| Snippets | [Direction page](/direction/create/editor/snippets/) | Small, sharable bits of code saved for easy access  |  [Complete](/direction/maturity/) |
 | Wiki | [Direction page](/direction/create/editor/wiki/) | Built-in, git-backed knowledge base |  [Viable](/direction/maturity/) |
 | Pages | [Direction page](/direction/create/editor/pages/) | Deploy and host static sites |  [Complete](/direction/maturity/) |
 
@@ -33,7 +32,7 @@ In support of these categories, the Editor group created and maintains two core 
 
 With 5 categories and 2 foundational editor components, the Editor group has to prioritize aggressively. In general, the group's goals revolve around consolidation and standardization of editing experiences to improve consistency and maintainability. Our current focus areas and engineering investment are broken down by category below, percentages represent how much engineering time on average is allocated in each milestone.
 
-#### Web IDE – 25%
+#### Web IDE – 30%
 
 The Web IDE is a very capable multi-file editor, offering a streamlined way to contribute to projects without cloning a repository or reconfiguring your local development environment. There are features, however, that don't meet a developer's expectations when it comes to making more complex edits. We are in the process of building the [next iteration of the Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/7683), based on the open-source VS Code project and running entirely in the browser. This will not only bring a more robust, mature feature set to the Web IDE, but it will lay a strong foundation for our Remote Development category. 
 
@@ -56,10 +55,6 @@ GitLab Pages offers a streamlined way to deploy and host your statically generat
 #### Wiki – 0-5%
 
 The Wiki is one of our most used categories and there are several opportunities to improve the experience and drive growth. We are wrapping up an effort to migrate the wiki functionality to native Gitaly RPCs, which will bring performance and stability improvements. Following that, however, we will reduce our investment in Wiki to support only the most critical and severe bug fixes while we shift our attention to building an MVC for Remote Development. 
-
-#### Snippets – 0-5%
-
-Snippets reached Complete maturity in late 2020 with the introduction of [versioned](https://gitlab.com/groups/gitlab-org/-/epics/239) and [multi-file snippets](https://gitlab.com/groups/gitlab-org/-/epics/2829). Snippets are powered by Source Editor, so improvements to that experience can in turn benefit the editing experience of Snippets. The next category-specific features we would like to focus on are around [organization](https://gitlab.com/groups/gitlab-org/-/epics/3204) and [sharing](https://gitlab.com/groups/gitlab-org/-/epics/1496) but the team will focus first on categories with larger user bases and wider potential reach.
 
 ## Recent opportunity canvases (GitLab internal)
 
