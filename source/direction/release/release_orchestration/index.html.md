@@ -37,7 +37,7 @@ A related category in the [Configure stage](/direction/configure/) describes one
 
 ### Compliance and Security in the Release Pipeline
 
-Security, compliance, control and governance of the release pipeline is handled as part of [Release Evidence](/direction/release/release_evidence/). Secrets in the pipeline are part of our [Secrets Management](/direction/configure/secrets_management/) category.  Another category for governance and security within GitLab is [Compliance Management](/direction/manage/compliance-management/), which is inclusive of change management and approval workflows. For governance workflows pertaining to issues and requirements, check out our category of [Requirements Management](/direction/plan/certify/) from the [Plan](/direction/plan/) stage. 
+Security, compliance, control and governance of the release pipeline is handled as part of [Release Evidence](/direction/release/release_evidence/). Secrets in the pipeline are part of our [Secrets Management](/direction/configure/secrets_management/) category.  Another category for governance and security within GitLab is [Compliance Management](/direction/govern/compliance/compliance-management/), which is inclusive of change management and approval workflows. For governance workflows pertaining to issues and requirements, check out our category of [Requirements Management](/direction/plan/certify/) from the [Plan](/direction/plan/) stage. 
 
 ## What's Next & Why
 
