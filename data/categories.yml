@@ -906,7 +906,7 @@ secrets_management:
   documentation: https://docs.gitlab.com/ee/ci/secrets/
   roi: false
   available: 2019-12-22
-  viable: 2023-01-22
+  viable: 2023-07-22
   complete:
   lovable:
   maturity: minimal
