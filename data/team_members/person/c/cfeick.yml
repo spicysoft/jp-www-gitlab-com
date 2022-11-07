@@ -1,7 +1,9 @@
+---
 name: Chance Feick
-locality: 
+locality:
 country: Remote
-role: <a href="/job-families/engineering/backend-engineer/#senior-backend-engineer">Senior Backend Engineer</a>
+role: <a href="/job-families/engineering/backend-engineer/#senior-backend-engineer">Senior
+  Backend Engineer</a>
 reports_to: liam-m
 picture: cfeick.jpg
 pronouns: he/him
@@ -10,8 +12,8 @@ twitter:
 linkedin: chancefeick
 gitlab: cfeick
 departments:
-  - Infrastructure
-specialty: <a href="/job-families/engineering/backend-engineer/#scalability">Scalability</a>
+- Infrastructure
+specialty: Scalability
 expertise:
 story:
 
