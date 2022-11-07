@@ -1,5 +1,50 @@
 recent_news:
 
+  - title: "DevOps digest: Quokka Partners with GitLab"
+    logo: /images/press/devops-digest-logo.png
+    link: "https://www.devopsdigest.com/quokka-partners-with-gitlab"
+    date: 2022-11-02
+
+  - title: "TechStrong TV: The Lab with Brendan O’Leary EP 19"
+    logo: /images/press/digital-anarchist-logo.png
+    link: "https://techstrong.tv/videos/the-lab/the-lab-with-brendan-oleary-ep-19"
+    date: 2022-11-01
+
+  - title: "Protocol: What’s the most effective way to tie developer experience and company goals together?"
+    logo: /images/press/protocol-logo.png
+    link: "https://www.protocol.com/braintrust/developer-experience-company-goal-strategy?rebelltitem=5#rebelltitem7"
+    date: 2022-11-01
+
+  - title: "Dark Reading: GitLab Adds Governance, Software Supply Chain Enhancements"
+    logo: /images/press/dark-reading-logo.png
+    link: "https://www.darkreading.com/dr-tech/gitlab-adds-governance-software-supply-chain-enhancements"
+    date: 2022-10-26
+
+  - title: "Security Boulevard: GitLab Releases Bevy of Security and Compliance Enhancements"
+    logo: /images/press/security-boulevard-logo.png
+    link: "https://securityboulevard.com/2022/10/gitlab-releases-bevy-of-security-and-compliance-enhancements/"
+    date: 2022-10-26
+
+  - title: "VMBlog.com: GitLab Security and Governance Solution Helps Secure Organizations' End-to-End Software Supply Chains"
+    logo: /images/press/vmblog-logo.png
+    link: "https://vmblog.com/archive/2022/10/25/gitlab-security-and-governance-solution-helps-secure-organizations-end-to-end-software-supply-chains.aspx#.Y2VcXOzMITt"
+    date: 2022-10-25
+
+  - title: "SD Times: KubeCon 2022: GitLab announces new Security and Governance updates"
+    logo: /images/press/sd-times-logo.png
+    link: "https://sdtimes.com/software-development/kubecon-2022-gitlab-announces-new-security-and-governance-updates-slim-ai-launches-container-intelligence-sigstore-announces-free-software-signing-service-and-more/"
+    date: 2022-10-25
+
+  - title: "The New Stack: Cadence Is Everything: 10x Engineering Orgs for 10x Engineers"
+    logo: /images/press/the-new-stack-logo.svg
+    link: "https://thenewstack.io/cadence-is-everything-10x-engineering-orgs-for-10x-engineers/"
+    date: 2022-10-19
+
+  - title: "FedTech Magazine: Agencies Shifting to Zero Trust Contend with New IT Supply Chain Best Practices"
+    logo: /images/press/fedtech-logo.png
+    link: "https://fedtechmagazine.com/article/2022/10/agencies-shifting-zero-trust-contend-new-it-supply-chain-best-practices"
+    date: 2022-10-14
+
   - title: "SDXCentral: GitLab Says Cloud Seed Will Drive Cloud Migration Behavior"
     logo: /images/press/sdxcentral-logo.svg
     link: "https://www.sdxcentral.com/articles/interview/gitlab-says-cloud-seed-will-drive-cloud-migration-behavior/2022/10/"
