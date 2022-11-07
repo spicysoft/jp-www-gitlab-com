@@ -1,0 +1,30 @@
+---
+name: Adrien Kohlbecker
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Verify:Runner SaaS</a>
+reports_to: elliot-rushton
+picture: akohlbecker.png
+twitter:
+gitlab: akohlbecker
+projects:
+  gitlab-runner: reviewer
+  autoscaler: reviewer
+  orka: maintainer
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify Stage
+- Verify:Runner SaaS Group
+- Backend
+story: 'Joined June 3rd, 2019
+
+  '
+domain_expertise:
+- rails
+- go
+- cicd
+- runner
+specialty: Runner

@@ -6,7 +6,7 @@ role: <a href="/job-families/engineering/development/management/#fullstack-manag
   Engineering Manager, Verify:Runner</a>
 reports_to: danielcroft
 picture: elliotrushton.jpg
-twitter: ehxor
+twitter:
 gitlab: erushton
 departments:
 - Engineering Function
