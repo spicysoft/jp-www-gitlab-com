@@ -513,10 +513,10 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Enablement Sessions
 * Product: 2022-11-01 [Recording](https://gitlab.slack.com/files/U01HVL4CLTX/F0496QE1KBQ/traci_-_buyer_persona_refresh.mp4)
-* All Marketing: 2022-11-10 [Recording]()
+* All Marketing: Scheduled for 2022-11-10 730 pm ET / 1230 am UTC [Recording]()
 * Sales: 2022-11-TBD [Recording]()
-* Customer Success: 2022-11-30 [Recording]()
-* Office Hours: 2022-11-15 [Notes](https://docs.google.com/document/d/1qbZK3_cwxzyOIqeqYcoZDby-5dibSW6HQT8D4jrMaLw/edit)
+* Customer Success: Scheduled for 2022-11-30 12 pm ET / 5 pm UTC [Recording]()
+* Office Hours: Scheduled for 2022-11-15 11 am ET / 4 pm UTC [Notes](https://docs.google.com/document/d/1qbZK3_cwxzyOIqeqYcoZDby-5dibSW6HQT8D4jrMaLw/edit)
 
 
 ### Deprecated Buyer Videos
