@@ -17,7 +17,7 @@ MLOps is a [Single-Engineer Group](/company/team/structure/#single-engineer-grou
 
 ## Updates
 
-October 10th 2022: First DEMO of MLFlow working with GitLab! [Issue](https://gitlab.com/gitlab-org/incubation-engineering/mlops/meta/-/issues/62)
+November 7th 2022: Candidate Artifacts Storage and User Testing Timeline!
 
 <figure class="video_container">
     <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0KpC6-JQy8lY4tNAZKXBaM_-" frameborder="0" allowfullscreen></iframe>
