@@ -1,7 +1,7 @@
 name: Alissa Meeks
 locality: 
 country: Remote
-role: <a href="">Manager, People Connect</a>
+role: <a href="/job-families/people-ops/people-connect/">Manager, People Connect</a>
 reports_to: mpatel8
 picture: alissameeks.jpg
 pronouns: She/Her
@@ -10,7 +10,9 @@ twitter:
 linkedin:
 gitlab: ameeks
 departments:
-  - People Connect
+  - People Group
+  - People Operations
+  - People Connect Team
 specialty: ""
 expertise:
 story:
