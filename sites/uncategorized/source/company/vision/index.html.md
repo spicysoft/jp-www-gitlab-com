@@ -14,11 +14,11 @@ canonical_path: "/company/vision/"
 
 ## Vision
 
-Our 10 year Vision is to grow our single application to do the following:
+Our 10 year Vision is to grow our single application through the following phases:
 
-1. _First phase:_ **DevSecOps Platform.** Move market from best-in-class / do-it-yourself solutions to the DevSecOps Platform. Platforms are the majority of DevOps tooling revenue.
-1. _Second phase:_ **AllOps / xOps.** Adoption of GitLab for MLOps, DataOps, and Plan.
-1. _Third phase:_ **R&D system of record.** Includes IT Service Management (ITSM), capacity planning, Objectives and Key Results (OKRs), [TeamOps](/teamops/), and CRM. What Salesforce is for go-to-market, GitLab is for research and development. General and administrative (G&A) has enterprise resource planning, human resource management, and contract lifecycle management for finance, people, and legal teams.
+1. Phase 1: **DevSecOps Platform -** Move market from best-in-class / do-it-yourself solutions to the DevSecOps Platform. Platforms are the majority of DevOps tooling revenue.
+1. Phase 2: **AllOps / xOps -** Adoption of GitLab for MLOps, DataOps, and Plan.
+1. Phase 3: **R&D system of record -** Includes IT Service Management (ITSM), capacity planning, Objectives and Key Results (OKRs), [TeamOps](/teamops/), and CRM. What Salesforce is for go-to-market, GitLab is for research and development. General and administrative (G&A) has enterprise resource planning, human resource management, and contract lifecycle management for finance, people, and legal teams.
 
 Our Vision is on a 10 year [cadence](/company/cadence/#vision){:data-ga-name="vision"}{:data-ga-location="body"}. Our [Mission](/company/mission/){:data-ga-name="mission"}{:data-ga-location="body"} is on a 30 year cadence. 
 
