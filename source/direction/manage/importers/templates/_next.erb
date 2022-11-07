@@ -3,8 +3,22 @@ In the upcoming year we will be focused on two main areas:
 
 This work can be tracked in [gitlab&2771](https://gitlab.com/groups/gitlab-org/-/epics/2771). We are way on our path to reach the **Complete** maturity level when the GitLab Migration is able to migrate entire groups along with all of their child subgroups and projects in a single click. It will also be possible to migrate users, which has been identified as the highest priority gap in the single Group and Project importers functionality.
 
+In the upcoming milestone we plan to:
+* [Preserve association of migrated MRs to issue](https://gitlab.com/gitlab-org/gitlab/-/issues/267947), which will populate the "Related merge requests" section on the issue details page.
+* [Show the user information that the provided token doesn't have sufficient scope early](https://gitlab.com/gitlab-org/gitlab/-/issues/375057), instead of failing the migration in the middle of the process.
+* Work on [GitLab Migration efficiency](https://gitlab.com/groups/gitlab-org/-/epics/8983).
+* Continue making GitLab Migration more reliable by fixing more bugs (like [Gitlab Migration gets stuck in the importing state for a long time when migrating from Community Edition (CE) to Enterprise Edition (EE)](https://gitlab.com/gitlab-org/gitlab/-/issues/375588) and
+[Project export should not fail when a single file is missing from object storage](https://gitlab.com/gitlab-org/gitlab/-/issues/292420).
+
+If you have any feedback regarding GitLab Migration, please comment on [GitLab Migration feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/284495).
+
 * **GitHub Importer** improvements to allow for reliable and scaleable imports of all relevant GitHub concepts for projects of all sizes. We are focusing on creating feature parity, so that after completing a migration, our users will be able to pick up where they left off and continue their workflows in GitLab.
 
-This is the [planning epic](https://gitlab.com/groups/gitlab-org/-/epics/2860) to reach the **Complete** maturity level for GitHub Importer. Currently we are working on releasing the [option to migrate](https://gitlab.com/gitlab-org/gitlab/-/issues/370734) [issue events](https://gitlab.com/groups/gitlab-org/-/epics/7655) and [pull request events history](https://gitlab.com/groups/gitlab-org/-/epics/7673), this includes events like: who added/removed labels, milestones, assignees, etc. 
+This is the [planning epic](https://gitlab.com/groups/gitlab-org/-/epics/2860) to reach the **Complete** maturity level for GitHub Importer. 
 
-The next effort will be [translating GitHub rules for protected branches into GitLab rules and apply them in imported projects](https://gitlab.com/groups/gitlab-org/-/epics/8585) and [adding the functionality to cancel project import form GitHub](https://gitlab.com/gitlab-org/gitlab/-/issues/364783).
+Currently we are working on [translating GitHub rules for protected branches into GitLab settings and appling them in imported projects](https://gitlab.com/groups/gitlab-org/-/epics/8585) and [adding the functionality to cancel project import form GitHub](https://gitlab.com/gitlab-org/gitlab/-/issues/247325).
+
+In the upcoming milestone we also plan to:
+* [Create a public API endpoint for bulk import of personal gists to personal GitLab Snippets](https://gitlab.com/gitlab-org/gitlab/-/issues/371099) visible on Snippets Dashboard.
+*  [Migrate MR approvers/reviewers](https://gitlab.com/gitlab-org/gitlab/-/issues/355137). Note: Importing review approval status and reviews requested from teams are out of scope and considered for future iterations.
+
