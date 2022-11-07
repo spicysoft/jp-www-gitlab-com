@@ -23,6 +23,9 @@ prior versions.
 - [Description](GitLab MR LINK)
 -->
 
+* [Mentioned FF in WI iteration docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/101977)
+* [Fix Opensearch compatibility check](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/102285)
+* [Potential fix for flaky compliance dashboard spec](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/102699)
 <!-- {{ MERGE_REQUEST_LIST }} -->
 
 ## Important notes on upgrading
