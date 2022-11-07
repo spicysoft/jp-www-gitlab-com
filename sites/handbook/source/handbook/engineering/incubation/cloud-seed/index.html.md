@@ -20,7 +20,7 @@ Thus, Cloud Seed — a collaboration with Google Cloud — makes it trivial to c
 #### Generate Google Cloud Service Accounts
 
 - Service accounts are authentication credentials that can be generated from the GitLab web interface
-- Used for wide range of integrations and automations with Google Cloud services
+- Used for a wide range of integrations and automation with Google Cloud services
 
 #### Deploy to Google Cloud Run
 
