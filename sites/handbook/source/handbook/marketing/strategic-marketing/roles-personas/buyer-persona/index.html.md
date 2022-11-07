@@ -512,10 +512,11 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 * [Feedback Issue](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/6670)
 
 ### Enablement Sessions
-* Product 2022-11-01 [Recording](https://gitlab.slack.com/files/U01HVL4CLTX/F0496QE1KBQ/traci_-_buyer_persona_refresh.mp4)
-* All Marketing 2022-11-15 [Recording]()
-* Sales 2022-11-TBD [Recording]()
-* Customer Success 2022-11-TBD [Recording]()
+* Product: 2022-11-01 [Recording](https://gitlab.slack.com/files/U01HVL4CLTX/F0496QE1KBQ/traci_-_buyer_persona_refresh.mp4)
+* All Marketing: 2022-11-10 [Recording]()
+* Sales: 2022-11-TBD [Recording]()
+* Customer Success: 2022-11-30 [Recording]()
+* Office Hours: 2022-11-15 [Notes](https://docs.google.com/document/d/1qbZK3_cwxzyOIqeqYcoZDby-5dibSW6HQT8D4jrMaLw/edit)
 
 
 ### Deprecated Buyer Videos
