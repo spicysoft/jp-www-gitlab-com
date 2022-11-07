@@ -1,7 +1,7 @@
 ---
 layout: markdown_page
 title: "Category Direction - Importers"
-description: "This GitLab group is focused on enabling GitLab.com adoption through the introduction of group import/export. Find more information here!"
+description: "This GitLab group is focused on enabling GitLab.com adoption through various importers, mainly GitLab Migration and GitHub importer. Find more information here!"
 canonical_path: "/direction/manage/importers/"
 ---
 
@@ -12,7 +12,7 @@ canonical_path: "/direction/manage/importers/"
 
 | Section | Maturity | Last Reviewed |
 | --- | --- | --- |
-| [Dev](/direction/dev/) | Non-marketable | 2022-09-15 |
+| [Dev](/direction/dev/) | Non-marketable | 2022-10-18 |
 
 
 ## Introduction and how you can help
@@ -52,13 +52,17 @@ Large organizations looking to move possibly hundreds or thousands of projects f
 
 ## Recent accomplishments
 #### GitLab Migration
-* [Migrate Merge Request reviewers and approvers](https://gitlab.com/gitlab-org/gitlab/-/issues/369868)
+* In the last milestone we focused on improving the reliability of GitLab Migration and fixed a [bunch of bugs](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=group%3A%3Aimport&label_name%5B%5D=Importer%3AGitLab%20Migration&label_name%5B%5D=type%3A%3Abug&milestone_title=15.5&first_page_size=20). We also:
+* [Improved the reponse of GitLab Migration API in case of failures](https://gitlab.com/gitlab-org/gitlab/-/issues/363339) to speed up troubleshooting.
+* [Added API endpoint to view details of the provided token](https://gitlab.com/gitlab-org/gitlab/-/issues/373999) which will allow us to [show information that the provided token doesn't have sufficient scope to the user early](https://gitlab.com/gitlab-org/gitlab/-/issues/375057), instead of failing the migration in the middle of the process.
 
 #### GitHub Importer
-* [Preserve branch protection status when importing from GitHub](https://gitlab.com/gitlab-org/gitlab/-/issues/22650)
-* [Add attachments that exists in the GitHub Release Notes to the import](https://gitlab.com/gitlab-org/gitlab/-/issues/15620)
-* [Migrate issue events](https://gitlab.com/groups/gitlab-org/-/epics/7655) and [pull request events history](https://gitlab.com/groups/gitlab-org/-/epics/7673)
-
+* Users can now [opt-in to import more relationships when importing projects from GitHub](https://gitlab.com/gitlab-org/gitlab/-/issues/370734). Importing all supported relationships can take a long time and is disabled by default. However, users can now [choose to import](https://docs.gitlab.com/ee/user/project/import/github.html#select-additional-items-to-import):
+  - [Image resources and other attachments types](https://gitlab.com/gitlab-org/gitlab/-/issues/18052)
+  - [Issue events](https://gitlab.com/groups/gitlab-org/-/epics/7655)
+  - [Pull request events](https://gitlab.com/groups/gitlab-org/-/epics/7673)
+  - [All pull request and issue comments](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/67150) (delivered in GitLab 14.2.).
+* We made a good progress on [translating GitHub rules for protected branches into GitLab rules and appling them in imported projects](https://gitlab.com/groups/gitlab-org/-/epics/8585).
 
 ## Overview of existing importers
 
