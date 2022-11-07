@@ -22,7 +22,7 @@ security_policies:
     url: "https://gitlab.com/groups/gitlab-org/-/epics/7669"
     be_dri: bauerdominic
     estimated_size: "S"
-    target_release: "15.7"
+    target_release: "15.6"
   - name: "License Approval Policies"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/8092"
     be_dri: "mparuszewski"
@@ -40,6 +40,10 @@ security_policies:
   - name: "Refine Policy Application Limits"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/8084"
     be_dri: ""
+  - name: "Allow Users to Define Tags for Scan Execution Policies"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/9176"
+    be_dri: ""
+    fe_dri: aturinske
   - name: "Limit Group/Workspace Policies to only Projects with Specified Compliance Framework Labels"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/5510"
     be_dri: mparuszewski
