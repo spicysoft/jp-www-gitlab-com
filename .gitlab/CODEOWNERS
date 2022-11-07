@@ -100,14 +100,14 @@ sites/uncategorized/source/company/culture/inclusion/tmrg-gitlab-latinx/ @pmejia
 /sites/uncategorized/source/company/culture/inclusion/tmrg-global-voices/ @eliran.mesika @sethgitlab @marin
 
 ^[Customer Success]
-/sites/handbook/source/handbook/customer-success/ @dsakamoto @jfullam @spatching @bstevens1 @michael_lutz
+/sites/handbook/source/handbook/customer-success/ @dsakamoto @jfullam @spatching @bstevens1
 /sites/handbook/source/handbook/customer-success/csm/ @dsakamoto @spatching
 /sites/handbook/source/handbook/customer-success/demo-systems/ @dsakamoto @jeffersonmartin
 /sites/handbook/source/handbook/customer-success/solutions-architects/ @dsakamoto @jfullam
 /sites/handbook/source/handbook/customer-success/solutions-architects/processes/commercial/ @jfullam @poffey21
-/sites/handbook/source/handbook/customer-success/professional-services-engineering/ @michael_lutz @bryan-may @mross1
-/sites/handbook/source/handbook/customer-success/professional-services-engineering/education-services/ @kmarquart @michael_lutz @seanjsandoval
-/sites/handbook/source/handbook/customer-success/education-enablement/ @jfullam @spatching @jordanthomas @michael_lutz @elikrohn
+/sites/handbook/source/handbook/customer-success/professional-services-engineering/ @dsakamoto @bryan-may @mross1
+/sites/handbook/source/handbook/customer-success/professional-services-engineering/education-services/ @kmarquart @dsakamoto @seanjsandoval
+/sites/handbook/source/handbook/customer-success/education-enablement/ @jfullam @spatching @jordanthomas @dsakamoto @elikrohn
 /sites/handbook/source/handbook/sales/training/field-functional-competencies/ @elikrohn @dhong @cbednarz
 
 ^[EBA team]
@@ -658,7 +658,7 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /sites/handbook/source/handbook/sales/sales-operating-procedures/ @dhong
 /sites/handbook/source/handbook/sales/sales-renewal-process/ @james_harrison
 /sites/handbook/source/handbook/sales/sales-term-glossary/ @james_harrison
-/sites/handbook/source/handbook/sales/selling-professional-services/ @james_harrison @michael_lutz
+/sites/handbook/source/handbook/sales/selling-professional-services/ @james_harrison @dsakamoto
 /sites/handbook/source/handbook/sales/shadow-program/ @emelier @dhong
 /sites/handbook/source/handbook/sales/sop/ @jrabbits
 /sites/handbook/source/handbook/sales/tam/ @jakebielecki
