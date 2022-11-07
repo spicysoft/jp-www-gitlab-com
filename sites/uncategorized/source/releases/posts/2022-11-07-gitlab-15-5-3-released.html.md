@@ -26,6 +26,8 @@ prior versions.
 * [Mentioned FF in WI iteration docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/101977)
 * [Fix Opensearch compatibility check](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/102285)
 * [Potential fix for flaky compliance dashboard spec](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/102699)
+* [Add support to AWS encryption with KMS key + S3 endpoint URL](https://gitlab.com/gitlab-org/build/CNG/-/merge_requests/1085)
+* [gitlab-base: set /tmp sticky, RH bug 2138434](https://gitlab.com/gitlab-org/build/CNG/-/merge_requests/1184)
 <!-- {{ MERGE_REQUEST_LIST }} -->
 
 ## Important notes on upgrading
