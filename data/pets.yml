@@ -2733,6 +2733,10 @@
     his favourite pastimes is helping with jigsaw puzzles by lying down on top of
     the pieces you're working on. Overall, he's a very friendly and cuddly cat, and
     is very much loved to bits.
+- name: Humphry
+  picture: humphry.png
+  human: Catherine Pope
+  story: Humph enjoys eating, sleeping, and nibbling bipeds. He's named after a Victorian novelist called Mrs Humphry Ward (we only use his full name when he's disgraced himself).
 - name: You?
   picture: "../../gitlab-logo-extra-whitespace.png"
   human:
