@@ -1,9 +1,9 @@
 ---
 title: "GitLab Patch Release: 15.5.3"
 categories: releases
-author: ADD_YOUR_FULL_NAME
-author_gitlab: GITLAB_USERNAME
-author_twitter: TWITTER_USERNAME # please use gitlab if you don't want to use your own
+author: John T Skarbek
+author_gitlab: skarbek
+author_twitter: gitlab # please use gitlab if you don't want to use your own
 description: "GitLab releases 15.5.3"
 tags: patch releases, releases
 ---
@@ -13,7 +13,7 @@ tags: patch releases, releases
 Today we are releasing version 15.5.3 for GitLab Community Edition and Enterprise Edition.
 
 This version resolves a number of regressions and bugs in
-[this month's 15.5 release](/releases/YYYY/MM/DD/gitlab-x-y-released/) and
+[this month's 15.5 release](/releases/2022/10/22/gitlab-15-5-released/) and
 prior versions.
 
 ## GitLab Community Edition and Enterprise Edition
@@ -25,9 +25,9 @@ prior versions.
 
 * [Mentioned FF in WI iteration docs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/101977)
 * [Fix Opensearch compatibility check](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/102285)
-* [Potential fix for flaky compliance dashboard spec](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/102699)
 * [Add support to AWS encryption with KMS key + S3 endpoint URL](https://gitlab.com/gitlab-org/build/CNG/-/merge_requests/1085)
 * [gitlab-base: set /tmp sticky, RH bug 2138434](https://gitlab.com/gitlab-org/build/CNG/-/merge_requests/1184)
+* [Container Registry: Return 404 Not Found when the metadata DB is not enabled](https://gitlab.com/gitlab-org/container-registry/-/issues/815)
 <!-- {{ MERGE_REQUEST_LIST }} -->
 
 ## Important notes on upgrading
