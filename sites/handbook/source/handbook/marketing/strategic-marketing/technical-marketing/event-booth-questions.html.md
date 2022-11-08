@@ -17,38 +17,38 @@ with just one platform. This includes making sure your code is secure!
 **Note:** Go over the different stages as seen in our [about page](https://about.gitlab.com/). Also ask them if they would like a
 demo.
 
-1. Is GitLab part of GitHub?
+2. Is GitLab part of GitHub?
 
 No, we are a competitor which provides the complete develoment lifecycle under one platform.
 
-1. Why should someone choose GitLab over GitHub?
+3. Why should someone choose GitLab over GitHub?
 
 - GitLab is a complete DevOps platform
 - GitLab is cloud-agnostic and allows users to deploy to their preferred cloud providers
 - GitLab is open source and driven by a vibrant ecosystem of community contributors
 - GitLab can be self-hosted and self-managed
 
-1. Can I use GitLab with my current tools?
+4. Can I use GitLab with my current tools?
 
 Yes, other tools can be integrated with GitLab. You can always use our integrations or build custom solutions.
 GitLab offers everything you need, and you can work on migrating to save time and money.
 
 **Note:** Get information on the tools the user is currently using.
 
-1. What is new in GitLab?
+5. What is new in GitLab?
 
 To checkout the newest GitLab features, see:
 
 - Go to the newest release in the [Release Post](https://about.gitlab.com/releases/categories/releases/)
 - We are completely transparent and you can see what's expected in [Future Versions](https://about.gitlab.com/upcoming-releases/)
 
-1. Can I have some swag?
+6. Can I have some swag?
 
 Sure! Feel free to take some, Is it ok if I scan your badge? So, are you Currently a GitLab user?
 
 **Note:** Some swag may only be for users who complete a challenge. Check with the event planning staff.
 
-1. How is GitLab different from other tools?
+7. How is GitLab different from other tools?
 
 With GitLab you can achieve from every step of the development lifecycle from planning to production
 with just one platform. What that means is you save time (due to less context switching and trouble with integrations)
