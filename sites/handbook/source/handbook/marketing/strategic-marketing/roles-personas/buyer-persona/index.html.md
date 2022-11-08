@@ -516,6 +516,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 * Product: 2022-11-01 [Recording](https://gitlab.slack.com/files/U01HVL4CLTX/F0496QE1KBQ/traci_-_buyer_persona_refresh.mp4)
 * All Marketing: Scheduled for 2022-11-10 730 pm ET / 1230 am UTC [Recording]()
 * Sales: 2022-11-TBD [Recording]()
+* Sales Strategy: Scheduled for 2022-11-21 830 am PT / 430 pm UTC [Recording]()
 * Customer Success: Scheduled for 2022-11-30 12 pm ET / 5 pm UTC [Recording]()
 * Office Hours: Scheduled for 2022-11-15 11 am ET / 4 pm UTC [Notes](https://docs.google.com/document/d/1qbZK3_cwxzyOIqeqYcoZDby-5dibSW6HQT8D4jrMaLw/edit)
 
