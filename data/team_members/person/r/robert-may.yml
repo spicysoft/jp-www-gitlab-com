@@ -17,6 +17,7 @@ departments:
 projects:
   gitlab:
   - maintainer backend
+  gitlab-rspec-profiling-stats: maintainer
   rouge: trainee_maintainer
   project-templates: maintainer
 story: 'Rob is a backend engineer with wide experience in various languages, but primarily
