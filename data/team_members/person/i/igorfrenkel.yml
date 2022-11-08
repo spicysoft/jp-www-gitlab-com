@@ -13,12 +13,10 @@ departments:
 - Sec Section
 - Secure:Composition Analysis BE Team
 projects:
-  secure-DS-gemnasium: maintainer
-  secure-DS-gemnasium-maven: maintainer
-  secure-DS-gemnasium-python: maintainer
-  secure-LC-license-finder: reviewer
-  secure-container-scanning: maintainer
-  security-report-schemas: trainee_maintainer
+  secure-DS-gemnasium: maintainer backend
+  secure-LC-license-finder: reviewer backend
+  secure-container-scanning: maintainer backend
+  security-report-schemas: maintainer
 story: 'Igor is Backend Engineer from Toronto, Canada. He is passionate about engineering
   craftsmanship and secure software. In his spare time he likes to read scifi, listen
   to podcasts, and rock climb.
