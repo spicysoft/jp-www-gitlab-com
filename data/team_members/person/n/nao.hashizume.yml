@@ -23,6 +23,7 @@ projects:
   gitlab-styles: reviewer
   gitlab-dangerfiles: reviewer
   gitlab-development-kit: reviewer
+  gitlab-rspec-profiling-stats: reviewer
   quality-pipeline-common: reviewer
   triage-ops: reviewer
 expertise:

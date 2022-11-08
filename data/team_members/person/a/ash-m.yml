@@ -22,6 +22,7 @@ projects:
   gitlab-triage: reviewer
   gitlab-styles: reviewer
   gitlab-dangerfiles: reviewer
+  gitlab-rspec-profiling-stats: maintainer
   quality-pipeline-common: reviewer
   triage-ops: reviewer
 domain_expertise:
