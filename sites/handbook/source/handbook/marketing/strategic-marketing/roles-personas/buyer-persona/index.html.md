@@ -105,6 +105,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
 
 ### App Dev Avery 
 
+![appdevavery](/handbook/marketing/strategic-marketing/images/appdevavery.png)
 
 * **Job To Be Done:**  
    *  Drive application and product development activities 
