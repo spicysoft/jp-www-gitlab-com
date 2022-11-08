@@ -2122,10 +2122,10 @@ continuous_verification:
 product_analytics:
   name: "Product Analytics"
   stage: analytics
-  documentation: https://docs.gitlab.com/ee/operations/product_analytics.html
+  documentation:
   direction:
   roi: false
-  available: 2020-12-15
+  available: 2023-04-01
   viable: 2023-01-01
   complete: 2023-06-01
   lovable: 2024-06-01
