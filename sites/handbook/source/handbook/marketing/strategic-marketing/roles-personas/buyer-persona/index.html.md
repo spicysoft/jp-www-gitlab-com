@@ -54,7 +54,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
    * Lead the technology vision, strategy, innovation, and execution for the organization 
    
 * **Summary:**
-   *I’m really motivated by leading organizational change
+   * I’m really motivated by leading organizational change
    * I’m an Influencer and Initiator/Identifier of need for tech purchases but I am very often the decision-maker
    * My biggest challenges are silo’d teams and workflows along with the need to increase the speed of development as well as  scaling efficiencies and new ways of working across multiple projects and environments
 
