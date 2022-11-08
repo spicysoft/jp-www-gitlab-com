@@ -96,7 +96,7 @@ Product Analytics, how to host and maintain relevant infrastructure, as well
 as how to use it like an end-user would. This will culminate with us adding
 Product Analytics to the internal handbook for dogfooding.
 * We will next focus on adding [schema-driven dashboards](https://gitlab.com/groups/gitlab-org/-/epics/8574)
-as a way to visualize and consume information from Analytics. Our first iteration will have
+as a way to visualize and consume information from Analytics. Our first iteration will have had
 hardcoded, pre-configured dashboards, so this epic will allow for more customization. Additionally,
 other groups within GitLab are interested in using this dashboarding approach, so we expect to
 collaborate with them so they can benefit from this initiative as well.
@@ -109,15 +109,19 @@ and dashboards. The goal of this release is to create something that the
 community can begin looking at so we can gather feedback.
 
 Once our first user-facing release is available, we will respond to feedback
-on where to next focus our efforts. We have several ideas on follow-on iterations
+on where to next focus our efforts. We have several ideas for follow-on iterations
 after this release, which include:
 
 * Providing [data export capabilities](https://gitlab.com/groups/gitlab-org/-/epics/8981)
+* Enabling users to [bring their own Product Analytics cluster](https://gitlab.com/groups/gitlab-org/-/epics/8921)
 * Introducing [funnel analysis](https://gitlab.com/groups/gitlab-org/-/epics/9016)
+* Defining a more specific [event taxonomy](https://gitlab.com/groups/gitlab-org/-/epics/8645)
 * Enriching results with data from other GitLab features, like [releases](https://docs.gitlab.com/ee/user/project/releases/) or [feature flags](https://docs.gitlab.com/ee/operations/feature_flags.html)
-* Introducing schemas to define dashboards
-* Improving speed of analytics to be near real-time
 * Allowing [dashboards to be embedded in external applications](https://gitlab.com/groups/gitlab-org/-/epics/8940)
+* Providing built-in [pseudonymization](https://gitlab.com/groups/gitlab-org/-/epics/8709)
+* Supporting [product experiments](https://gitlab.com/groups/gitlab-org/-/epics/8445)
+* Improving speed of analytics to be near real-time
+
 
 ## Competitors
 The market is divided between big tech entrants building on top of complete Marketing Automation platforms marketed towards enterprise marketing orgs and stand-alone tools user engagement tools that are marketed towards Product (and occasionally Development) teams.
@@ -152,7 +156,7 @@ Some nuance can be added to our personas and how we approach them. Nearly all an
 As part of considering these personas, consider what personas we are _not_ including in this initial list. Specifically, we are not targeting executive personas or Directors with the initial offering. Sasha and Parker are individual contributors and have unique needs different than Directors or executives. They are focused mainly on specific applications and the analytics related to them, whereas executives and Directors will be concerned about multiple, or a "fleet", of applications. We intend to go after these personas eventually and will not intentionally create capabilities that exclude them, but they are not our primary focus at this point.
 
 ## Pricing
-Our tiering plan will leverage our buyer-based model. The Analytics section, as a bridge from Ops to Dev (Plan) is an inherently collaborative stage. As a result, there are significant Paid Tier possibilities. Core will be seen primarily as a developer on-ramp.
+Our tiering plan will leverage our buyer-based model. The Analytics section, as a bridge from Ops to Dev (Plan) is an inherently collaborative stage. As a result, there are significant Paid Tier possibilities. Core will be seen primarily as a developer on-ramp. This section is subject to change without notice.
 - **Core - Developer Buyer**
     - Instrumentation
     - Collection
