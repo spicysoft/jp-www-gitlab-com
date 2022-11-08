@@ -16,12 +16,13 @@ departments:
 - Merge Request Coach
 - Create:Source Code
 projects:
-  gitlab: 
-  - maintainer backend 
+  gitlab:
+  - maintainer backend
   - trainee_maintainer workhorse
   gitlab-docs: maintainer backend
   www-gitlab-com:
   - maintainer backend
+  project-templates: maintainer
 expertise: |
   <li><a href="/job-families/expert/merge-request-coach/">Merge Request Coach</a></li>
 story: 'Vasilii is a software developer based in Berlin, Germany. He likes building
@@ -31,4 +32,3 @@ story: 'Vasilii is a software developer based in Berlin, Germany. He likes build
 
   '
 specialty: Source Code
-
