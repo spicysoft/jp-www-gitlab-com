@@ -48,9 +48,15 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
 
 ### Tech Exec Tristan 
 
+![techexectristan](/handbook/marketing/strategic-marketing/images/techexectristan.png)
+
 * **Job To Be Done:**  
    * Lead the technology vision, strategy, innovation, and execution for the organization 
    
+* **Summary:**
+   *I’m really motivated by leading organizational change
+   * I’m an Influencer and Initiator/Identifier of need for tech purchases but I am very often the decision-maker
+   * My biggest challenges are silo’d teams and workflows along with the need to increase the speed of development as well as  scaling efficiencies and new ways of working across multiple projects and environments
 
 * **Potential Titles:**
    * CTO / CINO / CDO / Founder / Owner / VP 
@@ -66,12 +72,10 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
    * Plan and direct implementation of new IT systems
 
 * **Job is Measured by:**  
-   * Results / Speed 
-    
+   * Results / Speed    
 
 * **Goals & Objectives:**
-   * Helping IT to play a more strategic role in achieving business objectives   
-   
+   * Helping IT to play a more strategic role in achieving business objectives      
 
 * **Motivated by:**
    * Contributing to solving real problems 
@@ -94,7 +98,6 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
    * Tertiary: Podcasts
    * Internal Influencers: Data Consultants / Marketing / C-Suite / Engineering Team / Tech Leads / Developers / Peer Tech Execs
   
-
 * **Purchasing Roles:**
 1. Influencer
 1. Decision-maker
@@ -110,11 +113,14 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
 * **Job To Be Done:**  
    *  Drive application and product development activities 
    
+* **Summary:**
+   * I want to choose the technology/tools I use to do my work
+   * I’m mostly an Influencer and Researcher for tech purchases (but sometimes I am the Identifier of a need)
+   * My biggest challenges are increasing the speed of development and dealing with team silos and workflows while constantly switching between multiple point solutions
 
 * **Potential Titles:**
    * Application Development Executive (VP, etc) / Application Development Director / Application Development Manager / Product Development / Product Management (May also include: Application Developer, Software Developer, Software Engineer)   
      
-
 * **Reports to:**
    * Director or VP App Development  
 
@@ -126,15 +132,13 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
    * Establish practices, processes, and platforms, working horizontally across Digital to govern and operationalize new technologies to enable their broad adoption
 
 * **Job is Measured by:**  
-   * Productivity / Speed  
-    
+   * Productivity / Speed      
 
 * **Goals & Objectives:**
    * Drive standardization of the production environment   
    * Reduce complexity
    * Optimize management of applications 
    * Introduce innovative technologies that provide new business capabilities to reduce the technology total cost of ownership and create a competitive advantage
-
 
 * **Motivated by:**
    * Contributing to solving real problems 
@@ -145,8 +149,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
 * **Biggest Challenges:**     
    * The need to increase speed of development
    * Silo’d teams and workflows 
-   * Transition to DevOps is challenging for certain legacy workloads and environments  
-   
+   * Transition to DevOps is challenging for certain legacy workloads and environments     
 
 * **Gains Information by:**  
    * Primary: Analyst reports / Conference presos / Tech videos & demos / Webinars / eBooks
@@ -154,7 +157,6 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
    * Tertiary: Social Media / Emails & Newsletters
    * Internal Influencers: Senior members in the group / execs in engineering and PLM orgs / CTO / Head of DevOps / Architects and developer advocates
   
-
 * **Purchasing Role:**
 1. Influencer
 1. Initiator / Identifier of Need and Researcher
@@ -164,15 +166,19 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
 
 ### InfoSec Shiloh 
 
+![infosecshiloh](/handbook/marketing/strategic-marketing/images/infosecshiloh.png)
 
 * **Job To Be Done:**  
    * Secure and protect the organization against cyber risks
    
+* **Summary:**
+   * Protecting my organization from a constant barrage of global attacks from bad actors drives my work. (And on a personal level, career growth/learning--and the ability to fail/learn in a safe environment--is my biggest motivator)
+   * I’m an Influencer and Researcher for tech purchases but I am very often the decision-maker
+   * My biggest challenges are dealing with team silos and workflows and the lack of a strong security culture with the risk that entails
 
 * **Potential Titles:**
    * CISO / Deputy CISO / Director or VP CyberSecurity / Cloud Security Architect / Information Security Operations Manager / IT Security Manager / Sr. Manager, DevSecOps  
        
-
 * **Reports to:**
    * CTO, CIO, or SVP Engineering   
 
@@ -185,11 +191,9 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
 * **Job is Measured by:**  
    * Number of Incidents / Time to Respond & Mitigate  
     
-
 * **Goals & Objectives:**
    * Create and own the long term security vision and strategy that inspires confidence    
    * Minimize the impact of cyber events and return the organization to normal status quickly 
-
 
 * **Motivated by:**
    * The need to constantly battle attacks by global bad actors 
@@ -215,7 +219,6 @@ organizations
    * Tertiary: Podcasts
    * Internal Influencers: C-Suite / Network Administrator / Directors, VPs and senior engineers & analysts / Evaluators / security management teams / CISO / IT SME / User Testing
   
-
 * **Purchasing Role:**
 1. Influencer
 1. Researcher
@@ -225,15 +228,20 @@ organizations
 
 ### Platform Perry 
 
+![platformperry](/handbook/marketing/strategic-marketing/images/platformperry.png)
 
 * **Job To Be Done:**  
    *  Drive digital transformation, cloud migration / IT modernization, and DevSecOps transformation efforts 
    
+* **Summary:**
+   * Having autonomy and independence is my biggest motivator
+   * While I’m an Influencer, Researcher, and Initiator, I am a strong Decision-Maker—my purchases lead ARR and First Orders for GitLab
+   * My biggest challenges are transitioning to DevOps due to legacy workloads and environments, silo’d teams and workflows, and 
+scaling efficiencies and new ways of working across multiple projects and environments
 
 * **Potential Titles:**
    * Architect/Manager/Director/VP of: Infrastructure Engineering, Platform, Engineering, Operations, IT Operations, CloudOps, Architecture, Systems   
        
-
 * **Reports to:**
    * CIO or VP, Platform / Infrastructure   
 
@@ -245,7 +253,6 @@ organizations
 * **Job is Measured by:**  
    * Efficiency / Speed  
     
-
 * **Goals & Objectives:**
    * Break down artificial barriers between development and operations teams   
    * Improve development velocity via highly integrated, more versatile teams 
@@ -258,19 +265,16 @@ organizations
    * Achieve built in platform security
    * Define and manage Service Level Objectives
 
-
 * **Motivated by:**
    * Contributing to solving real problems 
    * Career growth/learning (and the ability to fail/learn in a safe environment)
    * Having autonomy/independence
-
 
 * **Biggest Challenges:**     
    * Transition to DevOps is challenging for certain legacy workloads and environments
    * Silo’d teams and workflows  
    * Scaling efficiencies and new ways of working across multiple projects and environments   
   
-
 * **Gains Information by:**  
    * Primary: Technical videos & demos / Conference presos /Analyst reports /Blog posts / Case Studies
    * Secondary: Peer review sites / eBooks / Websites / Events & Meetups / Podcasts
@@ -278,7 +282,6 @@ organizations
    * Internal Influencers: User & Quality Testing / PMs / Solutions & Tech Architects / Platform
 Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / Innovation Team / IT Director / Head of Development & Sr. Developers / Peers / Partners
   
-
 * **Purchasing Role:**
 1. Influencer
 1. Initiator / Identifier of Need & Researcher
@@ -288,10 +291,15 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Compliance Cooper 
 
+![compliancecooper](/handbook/marketing/strategic-marketing/images/compliancecooper.png)
 
 * **Job To Be Done:**  
-   * Maintain the company's legal and ethical integrity 
-   
+   * Maintain the company's legal and ethical integrity    
+
+* **Summary:**
+   * I’m really motivated by contributing to a greater purpose or mission
+   * I’m very often a Decision-Maker but I also am an Influencer, and Initiator
+   * My biggest challenges are tool and process sprawl and anything manual / lack of automation
 
 * **Potential Titles:**
    * Compliance Officer / Director or Manager: Risk & Regulatory, Audit, or Ethics, Governance    
@@ -308,30 +316,25 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 * **Job is Measured by:**  
    * Efficiency / Incidents that do NOT happen  
     
-
 * **Goals & Objectives:**
    * Assess and understand all risks (including risk of failing to meet regulatory compliance obligations) and then develop policies, procedures, and internal controls to keep risk at tolerable levels    
-
 
 * **Motivated by:**
    * Contributing to solving real problems 
    * Contributing to a greater purpose/ mission
    * Career growth/learning (and the ability to fail/learn in a safe environment)
 
-
 * **Biggest Challenges:**     
    * Tool and process sprawl
    * Anything manual / lack of automation 
    * Silo’d teams and workflows   
   
-
 * **Gains Information by:**  
    * Primary: Announcements & Press releases /Conference presos / Analyst reports / Case studies / Events & Meetups
    * Secondary: Email updates & newsletters / References & testimonials from customers / Blog posts / Peer review sites / Webinars
    * Tertiary: Social media / Podcasts
    * Internal Influencers: Tech management / C-Suite / Peers
   
-
 * **Purchasing Role:**
 1. Decision-maker
 1. Influencer
@@ -341,16 +344,19 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Release Rory 
 
+![releaserory](/handbook/marketing/strategic-marketing/images/releaserory.png)
 
 * **Job To Be Done:**  
    *  Ensure delivery milestones are met on time and with quality
  
-   
-
+ * **Summary:**
+   * I’m really motivated by being more efficient and effective
+   * I’m an Influencer and Researcher for tech purchases but I am very often the decision-maker
+   * My biggest challenges are tool and process sprawl and the volume of required integrations (and associated maintenance). My job also restricts tooling choices (and I don’t like the tools I am allowed to use)
+  
 * **Potential Titles:**
    * Manager/Director: Release and Change Management / Test, QA / Engagement / Scrum Master   
   
-
 * **Reports to:**
    * Head of Delivery   
 
@@ -360,8 +366,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    * Identifies functional requirements for each department to ensure the completion of SW development 
 
 * **Job is Measured by:**  
-   * Meeting Delivery Milestones (Speed) / Quality  
-    
+   * Meeting Delivery Milestones (Speed) / Quality    
 
 * **Goals & Objectives:**
    * Establishing a successful delivery process by setting up procedural guidelines   
@@ -369,11 +374,9 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    * Ensuring that operations are cost-effective and stay within budget
    * Acting as liaison officer between different teams to build partnerships and develop solutions
 
-
 * **Motivated by:**
    * Being more efficient / effective 
    * Leading organizational change
-
 
 * **Biggest Challenges:**    
    * Tool and process sprawl
@@ -384,7 +387,6 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    * Primary: Announcements & Press releases / Blog posts / Analyst reports / Technical videos & demos / Social media
    * Secondary: eBooks / Case studies / Conference presos
    * Internal Influencers: Infrastructure Team
-  
 
 * **Purchasing Role:**
 1. Influencer
@@ -395,9 +397,15 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Program Management Payton 
 
+![pmpayton](/handbook/marketing/strategic-marketing/images/pmpayton.png)
+
 * **Job To Be Done:**  
    *  Plan, govern, and oversee the delivery of new capabilities 
-   
+
+ * **Summary:**  
+   * I’m really motivated by being more effective and efficient
+   * I’m both an Influencer and Decision-maker
+   * My biggest challenges are that the transition to DevOps is challenging for certain legacy workloads and environments, the need to increase the speed of development, and the disjointed developer experience
 
 * **Potential Titles:**
    * PMO Lead / Agile Coach or Consultant / IT Program Manager / Senior Project Manager   
@@ -418,18 +426,15 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 * **Job is Measured by:**  
    * Productivity / Efficiency / ROI / Profit Margin / Timeliness  
     
-
 * **Goals & Objectives:**
    * Increase productivity   
    * Ensure milestones and delivery 
    * Stay on time and on budget
 
-
 * **Motivated by:**
    * Being more efficient/effective 
    * Contributing to a greater purpose/mission
    * Contributing to solving real problems
-
 
 * **Biggest Challenges:**    
    * Transition to DevOps is challenging for certain legacy workloads and environments
@@ -441,7 +446,6 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    * Secondary: eBooks / Websites / Whitepapers
    * Tertiary: (Minimally) Webinars / Podcasts
    * Internal Influencers: Devops Consultants / Developers / System Administrators / DBAs / PMO / Security Product Management
-  
 
 * **Purchasing Role:**
 1. Influencer
@@ -451,10 +455,21 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Back Office Blake 
 
+![backofficeblake](/handbook/marketing/strategic-marketing/images/backofficeblake.png)
 
 * **Job To Be Done:**  
    *  Manage, coordinate, and facilitate operational, (and often cross-functional) non-development related business activities
    
+* **Summary:**
+   * I’m really motivated by leading organizational change
+   * I represent functions like Marketing, Finance, Legal, HR, and Operations and I’m both an Influencer and Decision-maker 
+   * My biggest challenges are: 
+      - Tool and process sprawl 
+      - Anything manual / lack of automation
+      - The need to increase the speed of development
+      - Silo’d teams and workflows
+      - Scaling efficiencies and new ways of working across multiple projects and environments
+      - Not being able to find/hire/retain the right skill sets
 
 * **Potential Titles:**
    *  CFO, VP Finance / CLO / COO / CMO, VP Mktg / CHRO, VP HR / Head of Procurement  
@@ -472,18 +487,15 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    * Anything that requires SSOT functionality
 
 * **Job is Measured by:**  
-   * Efficiency / Productivity / (KPIs vary by Division)  
-    
+   * Efficiency / Productivity / (KPIs vary by Division)    
 
 * **Goals & Objectives:**
    * Manage business operations effectively / efficiently   
-
 
 * **Motivated by:**
    * Contributing to solving real problems 
    * Career growth/learning (and the ability to fail/learn in a safe environment)
    * Leading organizational change
-
 
 * **Biggest Challenges:**  -   
    * Tool and process sprawl
@@ -499,7 +511,6 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    * Secondary: Announcements & Press releases / Peer review sites / Conference presos
    * Internal Influencers: Within team / C-level / Software development lead
   
-
 * **Purchasing Role:**
 1. Influencer
 1. Decision-maker
@@ -515,7 +526,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 ### Enablement Sessions
 * Product: 2022-11-01 [Recording](https://gitlab.slack.com/files/U01HVL4CLTX/F0496QE1KBQ/traci_-_buyer_persona_refresh.mp4)
 * All Marketing: Scheduled for 2022-11-10 730 pm ET / 1230 am UTC [Recording]()
-* Sales: 2022-11-TBD [Recording]()
+* Sales: TBD 
 * Sales Strategy: Scheduled for 2022-11-21 830 am PT / 430 pm UTC [Recording]()
 * Customer Success: Scheduled for 2022-11-30 12 pm ET / 5 pm UTC [Recording]()
 * Office Hours: Scheduled for 2022-11-15 11 am ET / 4 pm UTC [Notes](https://docs.google.com/document/d/1qbZK3_cwxzyOIqeqYcoZDby-5dibSW6HQT8D4jrMaLw/edit)
