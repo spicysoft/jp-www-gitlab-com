@@ -1,8 +1,8 @@
 name: Mia Naranjo-Lepe
 locality: 
 country: Remote
-role: <a href="">People Connect Specialist</a>
-reports_to: mpatel8
+role: <a href="/job-families/people-ops/people-connect/">People Connect Specialist</a>
+reports_to: ameeks
 picture: mianaranjolepe.png
 pronouns: she/ her 
 pronunciation:
@@ -11,6 +11,7 @@ linkedin: mia-naranjo-lepe
 gitlab: mianaranjo-lepe
 departments:
   - People Operations
+  - People Connect Team
 specialty: ""
 expertise:
 story:
