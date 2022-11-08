@@ -21,6 +21,7 @@ This page will outline top provisioning bugs and when they were resolved or expe
 
 | SM or SaaS? |  Category    | Description of Bug         | Related Issue Link(s) |  Version Resolved |
 |---------|--------------|----------|--------------------------------|--------------------|
+| Self Managed | Offline Cloud Licensing | Some mime types are not supported when a customer emails their offline usage file. | [4812](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4812) | 15.6 |
 | Self Managed | Cloud Licensing | Cloud license valid from dates show prior year's term after applying new subscription. | [3651](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3651) | 15.5 |
 | All | Banners | Subscription expiration alert is still shown after customer activates renewal subscription. | [372119](https://gitlab.com/gitlab-org/gitlab/-/issues/372119), [4507](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4507) | 15.5 |
 | Self Managed | License Creation | Using Optional "Customer" field causes licenses to generate using customer portal data instead of details entered. | [3566](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3566) | 15.5 |
@@ -38,7 +39,6 @@ This page will outline top provisioning bugs and when they were resolved or expe
 | Self Managed | Cloud Licensing  |  Multi-year subscription results in already expired license. | [4815](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4815) | `severity::2` | 15.6 |
 | Self Managed | Cloud Licensing | Cloud Licensing Multi-Year Subscriptions not on QSR expire after 1 year. | [4816](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4816) | `severity::2` | 15.6 |
 | SaaS | SaaS Provisioning | SaaS subscriptions with multiple product line items do not provision seats correctly. | [3956](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3956) | `severity::2` | 15.6 |
-| Self Managed | Offline Cloud Licensing | Some mime types are not supported when a customer emails their offline usage file. | [4812](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4812) | `severity::3` | 15.6 |
 | Both | True-Ups | True-up validation fails when no previous_users_count is present. | [361345](https://gitlab.com/gitlab-org/gitlab/-/issues/361345) | `severity::3` | 15.6 |
 | Self Managed | Cloud Licensing | CustomersDot Admin Cloud Activations tab lists multiple activation codes when zuora_id is blank. | [4580](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4580) | `severity::4` | 15.7 |
 | SaaS | Deprovisioning | Paid features are not deprovisioned upon transfer to subgroup. | [351780](https://gitlab.com/gitlab-org/gitlab/-/issues/351780) | `severity::3` | 15.7 |
