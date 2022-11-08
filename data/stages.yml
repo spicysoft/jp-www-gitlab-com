@@ -49,9 +49,9 @@ stages:
         be_team_tag: Manage:Authentication and Authorization BE Team
         fe_team_tag: Manage:Authentication and Authorization FE Team
         support:
-          - Alejandro Guerrero de Alba 
+          - Alejandro Guerrero de Alba
           - Gerardo Gutierrez
-          - Cynthia Ng      
+          - Cynthia Ng
         sets:
           - Sanad Liaquat
         pdm:
@@ -2310,6 +2310,7 @@ stages:
         categories:
           - application_performance
           - redis
+          - rate_limiting
         # usage_driver_score: 5
         #asp_driver_score: 1
         # sam_driver_score:

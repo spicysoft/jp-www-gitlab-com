@@ -1212,7 +1212,7 @@ dependency_firewall:
   available: 2023-05-22
   viable: 2023-11-22
   complete:
-  lovable: 
+  lovable:
   maturity: planned
   marketing: true
   dogfooding_status: Not Applicable (Planned)
@@ -2052,7 +2052,7 @@ logging:
   marketing: true
   priority_level: medium
   dogfooding_status: N/A
-  dogfooding_issue: 
+  dogfooding_issue:
   dogfooding_group: Infrastructure
   ux_scorecard_link:
   ux_scorecard_score:
@@ -2398,6 +2398,16 @@ redis:
   dogfooding_issue: N/A
   dogfooding_group: Engineering
 
+rate_limiting:
+  name: Rate Limiting Framework
+  stage: data_stores
+  direction: /direction/application_performance/
+  roi: false
+  marketing: false
+  dogfooding_status: Exclusive
+  dogfooding_issue: N/A
+  dogfooding_group: Engineering
+
 
 # SaaS Platforms
 
@@ -2624,7 +2634,7 @@ fulfillment_developer_productivity:
   maturity: minimal
   marketing: false
 
-customersdot_application: 
+customersdot_application:
   name: CustomersDot Application
   stage: fulfillment
   description: "Build, improve and maintain the overall CustomersDot Application, including Sign-up/Sign in/SSO, Zuora integration, OTC Data Architecture in CDot."
