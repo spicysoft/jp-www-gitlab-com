@@ -195,9 +195,7 @@ stages:
           - department: Engineering Department
             dri: TBD
         categories:
-          - api
           - integrations
-          - webhooks
         group_link: product/categories/#integrations-group
         usage_driver_score: 5
         asp_driver_score: 4
