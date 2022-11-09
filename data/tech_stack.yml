@@ -827,8 +827,8 @@
     and Outreach. Chorus will be used to onboard new team members, provide ongoing
     training and development for existing team members, provide non-sales employees
     with access to sales calls, and allow sales reps to recall certain points of a
-    call or demo. All ROW customer facing team members are required to complete the [Chorus GDPR training](https://gitlab.edcast.com/insights/card-c6492843-12f5-4353-9aab-fa82cf58d9cd) before receiving a Recorder license in Chorus.'
-  access_to: "**Recorders:** SALs, AEs, CSMs, SAs, and SDRs **Listeners:** Can be requested & granted case by case"
+    call or demo. All ROW customer facing team members are required to complete the [Chorus GDPR training](https://levelup.gitlab.com/learn/course/chorusai-recording-compliance-training-1/chorusai/overview?client=internal-team-members) before receiving a Recorder license in Chorus.'
+  access_to: "**Recorders:** SALs, AEs, CSMs, and SAs **Listeners:** Can be requested & granted case by case"
   provisioner: 'Add Label "SalesOpsAR::Action Needed"'
   deprovisioner: '@kbetances'
   group_owner: Sales Ops
@@ -2551,7 +2551,7 @@
   subprocessor: false  
   description: "[LinkedIn Sales Insights](https://business.linkedin.com/sales-solutions/sales-insights) provides access to LinkedIn data and insights at scale, giving sales operations the clarity they need to do smarter sales planning."
   access_to: Sales Strategy & Analytics, Sales Leadership
-  provisioner: "@kbetances"
+  provisioner: ‘Add Label “SalesOpsAR::Action Needed”’
   deprovisioner: "@kbetances"
   group_owner_slack_channel: null
   business_owner: Lindsay Schoenfeld
@@ -3764,8 +3764,8 @@
   subprocessor: false
   description: ReferenceEdge is a complete reference management system. Each component addresses a specific program pain point such as recruiting, data maintenance, customer reference lead generation, customer rewards and metrics. It was designed to provide sellers with every form of social proof needed at every stage of the sales cycle, from content to reference accounts and contacts. Ultimately, the value of a program is measured by revenue influenced, and that is one of the KPIs included in our report package.
   access_to: Marketing operations, strategic marketing, reference programs, sales ops/systems
-  provisioner: 'Add Label "SalesOpsAR::Action Needed"'
-  deprovisioner: "@kbetances"
+  provisioner: Sheela Viswanathan and Jack Brennan
+  deprovisioner: Sheela Viswanathan and Jack Brennan
   group_owner: Strategic Marketing
   group_owner_slack_channel: '#product-marketing'
   business_owner: Jennifer Parker
