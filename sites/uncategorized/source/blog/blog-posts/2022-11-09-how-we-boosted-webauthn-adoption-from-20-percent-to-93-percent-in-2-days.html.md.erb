@@ -7,10 +7,10 @@ tags: security, compliance, inside GitLab
 description: With phishing campaigns on the rise across the industry, we had to
   quickly elevate our security posture even higher. This is what we did.
 image_title: '/images/blogimages/webauthn.jpg'
-twitter_text: When phishing campaigns increased across the industry, we accelerated our already-in-the-works plans to strengthen our security hygiene program even more. Here is how we raised WebAuthn adoption from 20% of our workforce to over 90% in just two days.
+twitter_text: When phishing campaigns increased across the industry, we accelerated our already-in-the-works plans to further enhance our security hygiene program. Here is how we raised WebAuthn adoption from 20% of our workforce to over 90% in just two days.
 featured: yes
 ---
-In light of the high-profile phishing campaigns that breached public technology companies (e.g. [Twilio](https://techcrunch.com/2022/08/08/twilio-breach-customer-data/), [Uber](https://www.wired.com/story/uber-hack-mfa-phishing/), [Dropbox](https://www.securityweek.com/hackers-stole-source-code-personal-data-dropbox-following-phishing-attack), and others), GitLab decided to accelerate the implementation of the next phase of our security hygiene program, which would strengthen our security posture even more. As part of this acceleration, GitLab’s IT and Security teams recommended a swift adoption of phishing-resistant authentication across the entire company.
+In light of the high-profile phishing campaigns that breached public technology companies (e.g. [Twilio](https://techcrunch.com/2022/08/08/twilio-breach-customer-data/), [Uber](https://www.wired.com/story/uber-hack-mfa-phishing/), [Dropbox](https://www.securityweek.com/hackers-stole-source-code-personal-data-dropbox-following-phishing-attack), and others), GitLab decided to accelerate the implementation of the next phase of our security hygiene program, which would further enhance our security posture. As part of this acceleration, GitLab’s IT and Security teams recommended a swift adoption of phishing-resistant authentication across the entire company.
 
 ## What did we decide to implement?
 
@@ -30,17 +30,17 @@ The communication to team members about the transition to WebAuthn started with 
 
 We also:
 - Created a dedicated Slack channel for team member questions.
--Circulated a Google Doc FAQ with more than 47 questions populated by team members and answered by the [DRI](/handbook/people-group/directly-responsible-individuals/) for the implementation or other team members. At GitLab everyone is encouraged to contribute.
+- Circulated a Google Doc FAQ with more than 47 questions populated by team members and answered by the [DRI](/handbook/people-group/directly-responsible-individuals/) for the implementation or other team members. At GitLab everyone is encouraged to contribute.
 - Highlighted the change in our internal newsletter.
 - Added documentation, including easy-to-follow instructions, to our [handbook](/handbook/business-technology/okta/).
 
 ## How did we implement the change to WebAuthn?
 
-How could we roll WebAuthn out so quickly, with more than 1,700 team members working remotely across more than 65 countries? We had already started the ball rolling earlier this year. First, we pre-tested with a small group of IT, and then company-wide volunteers, providing instructions for team members to use. Uptake was low though, so we knew we had to be more assertive. 
+How could we roll out WebAuthn so quickly, with more than 1,700 team members working remotely across more than 65 countries? We had already started the ball rolling earlier this year. First, we pre-tested with a small group of IT, and then company-wide volunteers, providing instructions for team members to use. Uptake was low though, so we knew we had to be more assertive. 
 
 GitLab is a majority Mac company, so we were able to take advantage of the built-in Touch ID capability already available on team members' laptops. It was also very helpful that users were familiar with the technology from using it on their smartphones.
 
-For the ~5% of users who are on Linux, we instructed them to use their YubiKeys, and if they didn’t already have one, we facilitated delivery via Yubico’s YubiEnterprise Delivery. We allowed any team member who wanted a YubiKey to get one via our deal, including Mac users who wanted to use Firefox ([Touch ID isn’t supported yet](https://bugzilla.mozilla.org/show_bug.cgi?id=1536482)), those who work with their laptop docked and didn’t want a new Touch ID external keyboard, or other reasons. In all, we had about 20% of our team members take up our offer to obtain YubiKeys.
+For the ~5% of users who are on Linux, we instructed them to use their YubiKeys, and if they didn’t already have one, we facilitated delivery via Yubico’s [YubiEnterprise Delivery](https://www.yubico.com/products/yubienterprise-delivery/). We allowed any team member who wanted a YubiKey to get one via our deal, including Mac users who wanted to use Firefox ([Touch ID isn’t supported yet](https://bugzilla.mozilla.org/show_bug.cgi?id=1536482)), those who work with their laptop docked and didn’t want a new Touch ID external keyboard, or any other reason. In all, we had about 20% of our team members take up our offer to obtain YubiKeys.
 
 Our biggest win after the start of rollout was the discovery of how to add new WebAuthn devices to Okta (such as a new laptop or smartphone) via QR code scanning. This meant that as long as team members had a single enrolled device (either their laptop or their phone), they could [self-service](/handbook/business-technology/okta/#i-want-to-add-touch-id--face-id-to-okta-for-my-mobile-device-iphone-android-tablet) the WebAuthn enrollment of a new device, without requiring IT Helpdesk support. This helped us to speed the rollout and reinforced our security posture at a quicker pace, and meant that we didn’t have to send all team members YubiKeys that would only be used in the relatively rare event of needing to enroll a new device.
 
