@@ -9,7 +9,7 @@ canonical_path: "/community/contribute/documentation/"
 
 If you're updating documentation as part of developing code, go to the [Contributing to Development page](/community/contribute/development/index.html).
 
-- View the [documentation issues curated specifically for new contributors](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=good%20for%20new%20contributors&label_name%5B%5D=Accepting%20merge%20requests&label_name%5B%5D=documentation).
+- View the [documentation issues curated specifically for new contributors](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=documentation&label_name%5B%5D=docs-only&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=20).
 
   - Pick an issue you'd like to work on. In the issue, check out the following:
     - If another contributor has already been assigned to the issue, pick a different one to work on.
