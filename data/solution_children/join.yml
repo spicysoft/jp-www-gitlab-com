@@ -5,7 +5,7 @@ parent_solution: open-source
 twitter_image: /images/opengraph/open-source-card.png
 header:
   title: Join the GitLab for Open Source Program
-  subtitle: Features of [GitLab Ultimate](/pricing/ultimate/), including 50,000 CI/CD minutes, are free to qualifying open source projects.
+  subtitle: Features of GitLab Ultimate, including 50,000 CI/CD minutes, are free to qualifying open source projects.
   image: /images/solutions/open-source-partners-logo.svg
   buttons: 
     - button_text: Learn more
