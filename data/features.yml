@@ -10999,3 +10999,18 @@ features:
     gitlab_com: true
     github: false
     pps_aggregate: 0
+  - title : "Summary of outdated runners metric"
+    description: |
+      The ugprade status badge in your runners list allows you to identify at a glance which runners in your environment need updating.
+    link_description: "The outdated runners metric in the Admin Area > Runners, and Group views shows a count of runners with an available upgrade"
+    link: https://docs.gitlab.com/ee/ci/runners/configure_runners.html#determine-which-runners-need-to-be-upgraded
+    solution: Verify
+    category:
+      - runner
+    gitlab_core: false
+    gitlab_starter: false
+    gitlab_premium: false
+    gitlab_ultimate: true
+    gitlab_com: true
+    github: false
+    pps_aggregate: 0
