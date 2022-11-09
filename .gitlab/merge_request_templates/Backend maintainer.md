@@ -24,7 +24,7 @@ It's hard to specify hard requirements for becoming a maintainer, which is why [
 
 1. [ ] Create an [access request][access-request]
        for maintainer access to `gitlab-org/<project>`. <!-- make sure to update the <project> as needed, for example `gitlab-org/gitlab` -->
-1. [ ] Join the `backend-maintainers` slack group
+1. [ ] Join the `#backend-maintainers` Slack channel
 1. [ ] Ask the maintainers in your group to invite you to any maintainer-specific meeting if one exists.
 1. [ ] Let a maintainer add you to `@gitlab-org/maintainers/rails-backend`
 1. [ ] Announce it _everywhere_
