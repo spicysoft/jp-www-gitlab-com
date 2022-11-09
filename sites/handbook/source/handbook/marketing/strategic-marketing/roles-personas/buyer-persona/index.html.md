@@ -43,6 +43,14 @@ See the [Enterprise IT Roles page](/handbook/marketing/strategic-marketing/enter
 - Never alienate other personas. You can appeal to a buyer without buzzword bingo.
 - Look at who uses a channel most (twitter & docs: user, webinar linkedin: buyer) when shared (website) guide them /features for users /solutions for buyers.
 
+#### Overall recommendations
+
+* Develop content and build ‘persona-lized’ buyer’s journeys for more efficient targeting
+* Rethink messaging to leverage most effective drivers by persona
+* Consider alternative content sites (Reddit, Quora, Medium) to target specific personas
+* Help champions sell their ideas internally with the resources they say they need (ROI / case studies / real world benefits / hard data / Proof of Concepts)
+* Explore opportunities to provide tech education / ‘mentoring’ to personas with less than 10 years experience (due to lack of mid-level personnel peers / mentors and 16+ years set aging out)
+
 
 ---
 
