@@ -31,7 +31,6 @@ devops_tools:
       - code_review
       - wiki
       - design_management
-      - snippets
       - web_ide
       - continuous_integration
       - code_testing

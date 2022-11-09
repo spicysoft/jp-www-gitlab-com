@@ -14,6 +14,18 @@ The Field Operations Changelog keeps a running log of Field Ops changes related 
 
 To learn more about Field Ops releases, see the [Field Ops Release Schedule handbook page](/handbook/sales/field-operations/release-schedule/).
 
+## Q4-FY23
+
+### 2022-11-07 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/197))
+
+**Sales Ops: [Clari New Logo Forecasting Changes](https://internal-handbook.gitlab.io/handbook/sales/sales-forecasting/#new-logo-override-for-clari)**
+
+**Sales Ops: [Account Ownership Rules of Engagement Updates](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/111511/diffs#note_1111460308)**
+
+**Sales Ops: [Content from Sales Handbook Definitions & Glossary Docs Moved to the Internal Handbook](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/3156)**
+
+**Alliance Ops: [New Google Cloud Listing | GitLab Enterprise Edition Virtual Machine | Managed by Tackle.io](https://gitlab.com/gitlab-com/sales-team/field-operations/channel-operations/-/issues/542)**
+
 ## Q3-FY23
 
 ### 2022-10-17 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/192))
@@ -207,7 +219,7 @@ CSOPS: [Gainsight Dashboard filtering: added CSM Manager as filter](https://gitl
 
 CSOPS: [At-Risk Customer Dashboard](https://gitlab.gainsightcloud.com/v1/ui/home#/8e0f5cb6-c8e1-4b06-8cd2-92af72d76615), [issue](https://gitlab.com/groups/gitlab-com/-/epics/1462) and [handbook page](/handbook/customer-success/csm/renewals/#tracking-account-health-and-risks)
 
-CSOPS: [Gainsight: License Utilization calculations now use billable_user_count](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/400) and [handbook](/handbook/customer-success/product-usage-data/license-utilization/)
+CSOPS: [Gainsight: License Utilization calculations now use billable_user_count](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/400) and [handbook](/handbook/customer-success/product-usage-data/use-case-adoption/)
 
 Customer Programs: [Updated digital onboarding program and CSM playbook to include links to Docs](https://gitlab.com/gitlab-com/customer-success/tam/-/issues/470)
 

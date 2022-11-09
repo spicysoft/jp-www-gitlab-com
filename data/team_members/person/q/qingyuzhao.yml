@@ -15,7 +15,7 @@ departments:
 - Development Department
 - Fulfillment Section
 - Fulfillment Sub-department
-- Fulfillment:Fulfillment Platform Team
+- Fulfillment:Commerce Integrations
 - Backend
 projects:
   gitlab: reviewer backend

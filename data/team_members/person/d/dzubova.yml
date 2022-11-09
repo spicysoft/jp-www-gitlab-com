@@ -22,11 +22,12 @@ departments:
 projects:
   customers-app: maintainer frontend
   gitlab: reviewer frontend
-expertise:
-story: 'Diana is a frontend developer who cares about user impact, loves UX, and will
-  help you with all the git related questions. In her free time, she listens to podcasts
-  about linguistics, plays board games, and participates in local tech meetups.
-
-  '
+domain_expertise:
+- frontend_testing
+- vue
+- css
+- zuora
+story: "Diana is a frontend developer who cares about user impact, loves UX, and will
+help you with all the git related questions. In her free time, she listens to podcasts
+about linguistics, plays board games, and participates in local tech meetups."
 specialty: Billing and Subscription Management
-

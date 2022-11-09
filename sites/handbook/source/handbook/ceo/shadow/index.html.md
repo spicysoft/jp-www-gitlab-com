@@ -175,14 +175,14 @@ Exceptional community members may be able to participate, as well.
 | 2022-11-21 | 2022-11-25 | NO SHADOWS | NO SHADOWS |
 | 2022-11-28 | 2022-12-02 | NO SHADOWS | NO SHADOWS |
 | 2022-12-05 | 2022-12-09 | [Kurt Dusek](https://gitlab.com/kdusek) - Alliances Solutions Architect | [Liz Petoskey](https://gitlab.com/epetoskey), Director, Strategy and Operations |
-| 2022-12-12 | 2022-12-16 | [Liz Petoskey](https://gitlab.com/epetoskey), Director, Strategy and Operations | [Kurt Dusek](https://gitlab.com/kdusek) - Alliances Solutions Architect |
+| 2022-12-12 | 2022-12-16 | Elicia Wilson - GitLab Foundation | [Kurt Dusek](https://gitlab.com/kdusek) - Alliances Solutions Architect |
 | 2022-12-19 | 2022-12-23 | NO SHADOWS | NO SHADOWS |
 | 2022-12-26 | 2022-12-30 | NO SHADOWS | NO SHADOWS |
-| 2023-01-02 | 2023-01-06 | AVAILABLE - REMOTE | AVAILABLE for Shadow Alumni - REMOTE | 
+| 2023-01-02 | 2023-01-06 | [Aaron Burgess](https://gitlab.com/GitLabAaron) - IBM Alliance Business Development Manager | [Liz Petoskey](https://gitlab.com/epetoskey), Director, Strategy and Operations | 
 | 2022-01-09 | 2023-01-13 | NO SHADOWS | NO SHADOWS |
-| 2023-01-16 | 2023-01-20 | AVAILABLE - REMOTE | AVAILABLE - REMOTE | 
+| 2023-01-16 | 2023-01-20 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Aaron Burgess](https://gitlab.com/GitLabAaron) - IBM Alliance Business Development Manager  | 
 | 2022-01-23 | 2023-01-27 | NO SHADOWS | NO SHADOWS |
-| 2023-01-30 | 2023-02-02 | AVAILABLE - REMOTE | AVAILABLE - REMOTE | 
+| 2023-01-30 | 2023-02-02 | AVAILABLE - REMOTE | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | 
 
 If you have questions regarding the planned rotation schedule, please ping the [Chief of Staff to the CEO](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO](https://about.gitlab.com/job-families/chief-executive-officer/chief-of-staff/). The CoS to the CEO to the CEO manages the rotation schedule, please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -262,8 +262,8 @@ If you're not familiar with some of the business acronyms, take a bit of time to
 
 - [KPI (Key Performance Indicator)](/company/kpis/#what-are-kpis)
 - [OKRs (Objectives and Key Results)](/company/okrs/#what-are-okrs)
-- Product performance indicators such as [xMAU (Monthly Active User)](/handbook/product/performance-indicators/#three-versions-of-xmau) and [SpU (Stages per User)](/handbook/product/performance-indicators/#stages-per-user-spu)
-- [Revenue definitions](/handbook/sales/sales-term-glossary/#revenue-definitions) such as [ARR (Annual Recurring Revenue)](/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr)
+- Product performance indicators such as [CMAU (Combined Monthly Active User)(Internal link)](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/#estimated-combined-monthly-active-users-cmau) and [SpU (Stages per User )(Internal link)](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/#stages-per-user-spu)
+- [Revenue definitions (Internal link)](https://internal-handbook.gitlab.io/handbook/sales/sales-glossary/) such as [ARR (Annual Recurring Revenue)(Internal link)](https://internal-handbook.gitlab.io/handbook/sales/annual-recurring-revenue-arr/)
 - Other business terminology may come up. [Wall Street Oasis Finance Dictionary](https://www.wallstreetoasis.com/finance-dictionary#DicT) is a handy guide.
 
 **Note:** This list is not meant to be exhaustive and [should not become a glossary](/handbook/handbook-usage/#single-source-of-truth). While we strive to be handbook first, you may find that we are using acronyms without a clear handbook definition. If you can't find it in the handbook or find a standard definition on Google, ask someone what the acronym means. Not being able to find it could be a sign that we need to do a better job with documentation.

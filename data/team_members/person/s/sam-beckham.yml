@@ -1,0 +1,29 @@
+---
+name: Sam Beckham
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/manager/">Engineering
+  Manager</a>, Manage:Foundations
+reports_to: tim-z
+picture: sambeckham.jpg
+twitter: samdbeckham
+gitlab: samdbeckham
+departments:
+- Engineering Function
+- Development Department
+- Frontend
+- Dev Section
+- Manage:Foundations Team
+projects:
+  gitlab: reviewer frontend
+domain_expertise:
+- frontend_architecture
+- frontend_graphql
+- frontend_performance
+- vue
+story: |
+  Sam is a hairy fella from the north of England.
+  He likes movies, music, and long walks in Jurassic Park.
+  His jokes are terrible, but he means well.
+specialty: Ecosystem - FE/UX Foundations
+

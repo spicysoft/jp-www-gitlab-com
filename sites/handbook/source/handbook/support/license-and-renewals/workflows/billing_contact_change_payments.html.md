@@ -39,12 +39,9 @@ customer as far as possible before passing the request*
    request, by checking the following:
    - if they are a contact in SFDC
    - if their domain name matches the company/previous contact
-   - getting permission from the old contact
    - checking if they are the owner of the group (for a SaaS subscription)
-   - checking if they have access to the instance (via a screenshot)
-   - checking if they have access to the account by asking for an invoice
-1. Use the [`Support::L&R::Zuora Contact Change`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=360072090060) macro to transfer the ticket to AR to
-   update the bill to and sold to contact in Zuora
+   - if they pass the [account ownership verification](https://about.gitlab.com/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases.html#ownership-verification)
+1. Use the [`Support::L&R::Zuora Contact Change`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=360072090060) macro to transfer the ticket to AR to update the bill to and sold to contact in Zuora
 
 Support will still generate a manual license if new contact wants an updated
 license. Zuora update is primarily effective for future purchases.
@@ -112,12 +109,12 @@ When a Billing Entity Change occurs, there will be two Zuora accounts and two su
 
 To create an Order and link the namespace to the new subscription:
 
-1. The support engineer requires [console access to CustomersDot](https://about.gitlab.com/handbook/support/license-and-renewals/workflows/customersdot/customer_console.html). There is not currently a way to fullfil it via mechanizer.
+1. The support engineer requires [console access to CustomersDot](/handbook/support/license-and-renewals/workflows/customersdot/customer_console.html). There is not currently a way to fullfil it via mechanizer.
 1. [Find the old and new Zuora Accounts](#finding-zuora-accounts)
 1. Confirm the CustomersDot account has the new `Zuora account` ID
-1. [Create an Order for the new subscription](/support/license-and-renewals/workflows/customersdot/customer_console.html#create_order_from_zuora)
-1. [Link the new subscription to the group](/support/license-and-renewals/workflows/customersdot/customer_console.html#force_reassociation)
-1. Confirm the `Max seats used` is reset to current seats in use count. If not, update it using the [account_seats](support/license-and-renewals/workflows/customersdot/customer_console.html#reset-max-seats) function.
+1. [Create an Order for the new subscription](/handbook/support/license-and-renewals/workflows/customersdot/customer_console.html#create_order_from_zuora)
+1. [Link the new subscription to the group](/handbook/support/license-and-renewals/workflows/customersdot/customer_console.html#force_reassociation)
+1. Confirm the `Max seats used` is reset to current seats in use count. If not, update it using the [account_seats](/handbook/support/license-and-renewals/workflows/customersdot/customer_console.html#reset-max-seats) function.
     - This step may be needed here to adjust their `Max seats used` to their `Seats currently in use`, because this process does not automatically reset that like it normally would during a renewal. You may need to use discretion here if the customer's max historical seatcount is wildly different from what they are currently paying for. 
 
 Examples of this workflow:

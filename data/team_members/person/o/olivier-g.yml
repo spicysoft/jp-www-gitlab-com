@@ -15,7 +15,7 @@ departments:
 - Secure:Composition Analysis BE Team
 projects:
   gitlab-technical-interviews-backend: maintainer
-  secure-container-scanning: reviewer backend
+  secure-container-scanning: maintainer
 story: |
   With a full-stack engineer background Olivier likes to work on all the layers of an application.
   Previously at Gemnasium working on a SaaS to monitor software dependencies.

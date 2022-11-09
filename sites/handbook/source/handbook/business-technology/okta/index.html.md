@@ -44,84 +44,23 @@ GitLab is using Okta for a few key goals :
 
 All GitLab team-members will have an Okta account set up as part of their onboarding process. You should already have an activation email in both your Gmail and Personal Accounts.  For efficiency, please follow the onboarding process for setting up Okta and set up 1Password first and follow that up with Okta.  Please also set up Okta from your computer rather than your mobile or the mobile app, as you will be guided to set up the mobile app as part of the onboarding process.
 
-Follow the GitLab Okta [Getting Started Guide](https://docs.google.com/document/d/1x2NJan0job5nM5tT8HF6yofg-Y2aAsSVKc6qNnCuoxo/) and [FAQs](/handbook/business-technology/okta/okta-enduser-faq/).
+GitLab requires all team members to use either YubiKey or Biometrics as your OKTA authentication (handbook/business-technology/okta/#i-want-to-add-touch-id--face-id--yubikey-to-okta)
 
-We have also prepared Introductory Videos on [Okta Setup](https://youtu.be/upJ4p3lKYKw), [Setting up MFA/Yubikeys](https://youtu.be/9UyKml_aO3s), [Configuring Applications](https://youtu.be/xS2CarGUPLc) and [Dashboard Tips](https://youtu.be/xQQwa_pbe2U).
+### I want to add Touch ID / Face ID / YubiKey to Okta
 
-We recommend particularly that once your account is set up, you set up an additional MFA factor [either YubiKey or biometric](/handbook/business-technology/okta/#i-want-to-add-touch-id--face-id--yubikey-to-okta) in case there's an issue with one of your MFA factors.
+**Using [WebAuthn](https://www.okta.com/sites/default/files/pdf/How_WebAuthn_Works_0.pdf) authentication is required for all team members.**
 
-### Setting up my Okta Account requires me to use the app Okta Verify on my phone, and I don't like that.
+1. Touch ID on Mac currently requires Chrome or Safari. There is a known [issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1536482) with Firefox preventing it from working with Touch ID. Yubikeys can be used with all browsers.
 
-Our Okta implementation defaults to using Okta Verify as the Required MFA factor.
-Okta Verify is a safe and secure application that allows push notifications and one-time tokencodes on your phone to validate your login.
-It is supported on iPhone, Android and Windows Phones.
-
-For some people, there are issues with installing a verification app on their phone.
-If there is some reason that this is not appropriate for your geography or other reasons, please submit an issue to [Opt Out](https://gitlab.com/gitlab-com/business-technology/team-member-enablement/issue-tracker/issues/new?issuable_template=okta_verify_optout) and we can add you to an authentication group that will make Okta Verify optional.
-Please note that we still recommend that you set up at least two MFA factors, in case something happens to one of your factors.
-
-### I occassionally get an additional challenge in Okta Verify when signing in, why and how do I deal with it?
-
-Okta Verify will provide an additional challenge when a high-risk sign-on is performed (new device, changing locations, etc.) Example: computer (left), phone (right).
-
-<div style="text-align:center;">
-  <img src="/handbook/business-technology/Okta-PC-Number-Challenge.png" alt="Okta PC Number Challenge" width="300"/>
-  <img src="/handbook/business-technology/Okta-Phone-Number-Challenge.png" alt="Okta Phone Number Challenge" width="300"/>
-  </div>
-<br>
-
-## I forgot my password/my login doesn't work, what do I do?
-
-There is a "need help signing in?" button on the login screen.
-If you expand this there is a link to an automated password reset process via email.
-You will need to know the answers to your security question(s) to use this.
-
-We recommend that you store your Okta password in 1Password as well as your Security Questions there.
-Please review the [1Password Guidelines](/handbook/security/#1password-guidelines) for best ways to use Okta and 1Password together.
-
-### I forgot my Security Questions, how do I reset my password?
-
-Firstly, review the [1Password Guidelines](/handbook/security/#1password-guidelines).
-Then head to `#it_help` in Slack and ask for a temporary password to be issued.
-You will be issued a temporary password at which point you can reset your access.
-
-## I need to reconfigure Okta 2FA/MFA! What do I do?
-
-### I still have my old phone and its not wiped
-
-Great! Firstly sign into your Okta account by going to [gitlab.okta.com](https://gitlab.okta.com) use your email, password, and the 2FA code on your old phone.
-
-Once you're on the Okta webpage click on your name in the top right corner and then click settings.
-
-In the settings page, press the edit profile button. You may be prompted for your Okta password and 2FA (On old device)
-
-<div style="text-align:center;">
-  <img src="/handbook/business-technology/Edit-profile-button.png" alt="Edit Profile" width="500"/>
-</div>
-<br>
-
-Scroll down until you see "Extra Verification", once you're there click "remove" to disable that specific 2FA and then click setup to configure the new 2FA code on your new phone.
-
-<div style="text-align:center;">
-  <img src="/handbook/business-technology/Extra-verification-Okta.png" alt="Okta 2FA" width="700"/>
-</div>
-<br>
-
-### I want to add Touch ID / Face ID / Yubikey to Okta
-
-**Using [WebAuthn](https://www.okta.com/sites/default/files/pdf/How_WebAuthn_Works_0.pdf) authentication is required for administrators, and highly recommended for all team members.**
-
-1. Touch ID on Mac currently requires Chrome or Safari. There is a known [issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1536482) with Firefox preventing it from working with Touch ID. Yubikeys can be used with all browsers. 
-
-1. While logged in to Okta from the device you wish to add, access the [Settings](https://gitlab.okta.com/enduser/settings) page. 
-1. Choose `Set up` or `Set up another` next to `Security Key or Biometric Authenticator` in the `Extra Verification` section of the page. 
-1. You may then be presented with another prompt to confirm if you wish to `Set up another`, followed by an `Enroll` prompt. 
+1. While logged in to Okta from the device you wish to add, access the [Settings](https://gitlab.okta.com/enduser/settings) page.
+1. In the 'Security Methods' section of the page, choose `Set up` or `Set up another` next to `Security Key or Biometric`.
+1. You may then be presented with another prompt to confirm if you wish to `Set up another`, followed by an `Enroll` prompt.
 1. After pressing `Enroll`, a prompt from your web browser will appear.
-1. For Touch ID or Face ID, choose `This Device`. For a [Yubikey](https://about.gitlab.com/handbook/tools-and-tips/#u2f-devices), choose `USB security key`.
+1. For Touch ID or Face ID, choose `This Device`. For a [YubiKey](https://about.gitlab.com/handbook/tools-and-tips/#u2f-devices), choose `USB security key`.
 
     <img src="/handbook/business-technology/Okta-Add-Biometric-1.png" alt="Okta Add Biometric #1" width="300"/>
 
-1. For Touch ID or Face ID, another prompt will appear asking you to authenticate using that method.
+1. For Touch ID or Face ID, another prompt will appear asking you to authenticate using Touch ID or Face ID.
 
     <img src="/handbook/business-technology/Okta-Add-Biometric-2.png" alt="Okta Add Biometric #2" width="300"/>
 
@@ -133,22 +72,45 @@ Scroll down until you see "Extra Verification", once you're there click "remove"
 
     <img src="/handbook/business-technology/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
 
- 
 
-### I want to increase my security by removing Google Authenticator as a valid factor, and primarily use Biometric and Security Keys for authentication
+Follow the GitLab Okta [FAQ](/handbook/business-technology/okta/okta-enduser-faq/).
 
-Great - these factors are phishing resistent! To do so, choose "Remove" next to the relevant factor under "Extra Verification". If you plan to use biometric solely, we recommend having at least one Yubikey as a backup in order to be able to add a new device in a self-service way.
+We have also prepared Introductory Videos on [Setting up MFA/Yubikeys](https://youtu.be/9UyKml_aO3s), [Configuring Applications](https://youtu.be/xS2CarGUPLc) and [Dashboard Tips](https://youtu.be/xQQwa_pbe2U).
 
-At this time, it is not possible to permanently remove Okta Verify as a valid factor, and if you do so, you will be prompted to re-add it upon next login.
 
-### I don't have my old phone but have a Yubikey
 
-If you wiped and returned your old mobile device you could use a [Yubikey](https://www.yubico.com/products/) as another form of authentication (if you have one set one up). Use that to access your settings page and follow the steps above to reset your Okta MFA.
+### I want to add Touch ID / Face ID to Okta for my mobile device (iPhone, Android, Tablet) 
 
-### Lost access to all your 2FA/MFA?
+These steps are for an iPhone, and may be slightly different for Android.  If you are using an iPhone and receive a Developer or XCODE error, please upgrade to iOS 16+. We recommend enrolling a phone even if you don't plan to use it often, in case you need a way to [add a new computer or your credential gets accidentally removed on the computer](https://about.gitlab.com/handbook/business-technology/okta/#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-phone-enrolled).
+1. On the computer, login into your [Okta](https://gitlab.okta.com)
+1. On the computer, click on your name on the top right to open the drop down menu (smiliar to above) and navigate to "Settings".
+1. On the computer, under Security Methods click "Set up another" beside Security Key or Biometric. This will take you to a setup authentication screen, click "Verify". Provide Touch ID.
+1. On the computer, click "Set up", then click "Set up" again on the next screen
+1. On the computer, in Chrome, the pop up that opens choose the Use phone with a QR code. This should display a QR code. In Safari, click "Other options", then choose "iPhone, iPad or Android device - save a passkey on a device with a camera", then "Continue".
+1. On the mobile device, open your camera app and scan. (It may take a few seconds for it to connect). This requires Bluetooth to be enabled on both devices, but does not require pairing.
+1. On the mobile device, a pop on your phone should show up to allow the credential to be saved. Allow this.
+1. On the mobile device, attempt to sign in by visiting [Okta](https://gitlab.okta.com).
 
-- Head to `#it_help` in Slack and ask for a 2FA Reset.
-- Once Okta 2FA is reset please reconfigure it by logging into your Okta account and scanning the QR code presented using Okta Verify app on your phone
+### I want to login or add a new computer to Okta and I have a mobile device enrolled 
+This method has been verified on Macs and Linux with Chrome. For Safari, it requires macOS Ventura 13+. Steps below for iPhone require iOS 16+, may be slightly different for Android.
+1. On the computer, log in with username and password
+1. On the computer, a popup appears to "Verify your identity with gitlab.okta.com"
+1. On the computer, choose "Use phone with a QR code". This requires Bluetooth be enabled on both the phone and the laptop, but doesn't require pairing.
+1. On the mobile device, scan the code using the Camera app
+1. On the mobile device, click "Sign in with a Passkey"
+1. On the mobile device, a "Sign in" popup appears - "Do you want to sign in to "gitlab.okta.com" with your saved passkey for "xxxxx@gitlab.com"? Click Continue and provide biometric.
+1. On the computer, you will now be signed in to Okta.
+1. If applicable, follow the standard [steps](#i-want-to-add-touch-id--face-id-to-okta-for-my-mobile-device-iphone-android-tablet) to enroll your Touch ID into Okta.
+
+### I don't have an enrolled phone or computer but have a YubiKey
+
+If both of previous devices are not available, you could use a [YubiKey](https://www.yubico.com/products/) as another form of authentication (if you have one set one up). Use that to access your settings page and follow the steps above to enroll a new device.
+
+### Lost access to your 2FA or your OKTA account has been locked out because of failed attempts?
+
+- Head to `#it_help` in Slack or email `it-help@gitlab.com` and ask for a 2FA Reset, please be prepared to verify your identity
+- Once Okta 2FA is reset please reconfigure it by logging into your Okta account and setting up with either Biometrics or a YubiKey.
+- If your account is locked please head to `#it_help` and ask to have your account unlocked. As a precaution, you will also need to change your Okta Password.
 
 
 ## Managing Okta Access Using Google Groups
@@ -167,11 +129,6 @@ The GitLab Team Member Enablement team has created a new process for Owners and 
 When a member is added/removed from the group it may take up to 1 hour for the sync to happen between Google and Okta. Once the sync happens the user will see the application in Okta, if removed the opposite.
 If you have any questions or require assistance please reach out to the IT team in the #it-help Slack channel.
 
-
-### My Okta account has been locked out because of failed attempts, what do I do?
-
-Head to `#it_help` and ask to have your account unlocked.
-As a precaution, you will also need to change your Okta Password.
 
 ## Why isn't an application I need available in Okta?
 
@@ -210,5 +167,5 @@ Note that the 2FA for GitLab.com is different to the MFA you use to log into Okt
 
 ## Where do I go if I have any questions?
 
-- For Okta  help, setup and integration questions: `#it_help` slack channel
+- For Okta help, setup and integration questions: `#it_help` slack channel
 

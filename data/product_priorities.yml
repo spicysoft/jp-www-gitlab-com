@@ -6,8 +6,8 @@ security_policies:
     fe_dri: zmartins
     estimated_size: "L"
     target_release: "15.6"
-  - name: "Fix Security Approvals not required when scans removed in MR"
-    url: "https://gitlab.com/gitlab-org/gitlab/-/issues/37239"
+  - name: "Make Security Approval Policies more Robust"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/9102"
     be_dri: zmartins
     fe_dri: zmartins
     estimated_size: "M"
@@ -22,7 +22,7 @@ security_policies:
     url: "https://gitlab.com/groups/gitlab-org/-/epics/7669"
     be_dri: bauerdominic
     estimated_size: "S"
-    target_release: "15.7"
+    target_release: "15.6"
   - name: "License Approval Policies"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/8092"
     be_dri: "mparuszewski"
@@ -33,9 +33,17 @@ security_policies:
     url: "https://gitlab.com/groups/gitlab-org/-/epics/6826"
     be_dri: ""
     fe_dri: aturinske
+  - name: "Follow-up UX enhancements for scan execution policy rule mode"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/8695"
+    be_dri: ""
+    fe_dri: aturinske
   - name: "Refine Policy Application Limits"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/8084"
     be_dri: ""
+  - name: "Allow Users to Define Tags for Scan Execution Policies"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/9176"
+    be_dri: ""
+    fe_dri: aturinske
   - name: "Limit Group/Workspace Policies to only Projects with Specified Compliance Framework Labels"
     url: "https://gitlab.com/groups/gitlab-org/-/epics/5510"
     be_dri: mparuszewski

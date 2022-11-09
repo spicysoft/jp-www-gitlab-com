@@ -73,6 +73,10 @@ GitLab should support developers closer to where they're doing their meaningful 
 1. [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow) extension for Visual Studio Code
 1. [GitLab CLI](https://gitlab.com/gitlab-org/cli)
 
+#### GitLab Workflow extension
+
+The GitLab Workflow extension for Visual Studio Code is maintained by the [Editor group](/direction/create/editor). Details about what's next for the extension and how it plays into the strategy for the Web IDE can be found on the [Web IDE direction page](/direction/create/editor/web_ide).   
+
 ### What's Next & Why
 
 **In Progress:** [Transition `glab` to GitLab](https://gitlab.com/groups/gitlab-org/-/epics/7514)

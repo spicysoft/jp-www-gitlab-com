@@ -1,7 +1,9 @@
+---
 name: Sean Gregory
 locality:
 country: Remote
-role: <a href="/job-families/engineering/software-engineer-in-test/">Senior Software Engineer in Test, Manage:Integrations</a>
+role: <a href="/job-families/engineering/software-engineer-in-test/">Senior Software
+  Engineer in Test</a>, Manage:Integrations
 reports_to: ramya-authappan
 picture: seangregory.jpg
 pronouns: He/Him
@@ -10,10 +12,11 @@ twitter:
 linkedin: sean-gregory-8a551b153
 gitlab: sgregory2
 departments:
-  - Quality Department
-  - Engineering Function
-  - Dev QE Team
-specialty: Ecosystem
+- Quality Department
+- Engineering Function
+- Dev QE Team
+specialty:
+- 'Manage: Integrations'
 projects:
   gitlab: reviewer qa
   gitlab-qa: reviewer

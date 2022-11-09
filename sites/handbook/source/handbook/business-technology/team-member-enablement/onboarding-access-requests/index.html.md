@@ -125,7 +125,7 @@ Most roles that require higher performance machines are approved for a 14" or 16
 IT strongly encourages team members to select Macs; please only request a Linux laptop if you are experienced in Linux and capable of self-support.
 {: .alert .alert-info}
 
--  \*\* Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are elibible for Dell Precision Mobile Workstation laptops from the 5500 or 5700 lines. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [15.6” display / 512 GB SSD / 32 GB of RAM / Intel i9 or i7 CPU](https://www.dell.com/en-us/work/shop/laptops/new-15-5560-workstation/spd/precision-15-5560-laptop).  
+-  \*\* Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5500 or 5700 lines. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [15.6” display / 512 GB SSD / 32 GB of RAM / Intel i9 or i7 CPU](https://www.dell.com/en-us/work/shop/laptops/new-15-5560-workstation/spd/precision-15-5560-laptop).  
 - Everyone else is eligible for laptops from the Dell Latitude 7300 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [13.3” display / 256 GB SSD / 16 GB of RAM / Intel Quad-Core i5 CPU](https://www.dell.com/en-uk/work/shop/laptop-computers-for-businesses/latitude-7300-business-laptop/spd/latitude-13-7300-laptop)
 
 
@@ -433,7 +433,7 @@ Below is a table with the current workflows setup:
     <td>Okta 2FA Assistance</td>
     <td>Okta</td>
     <td>:okta:</td>
-    <td>Hi {user]<br>Did you set up a YubiKey or Google Authenticator as another form of MFA? Use that to access your settings page to re-set your Okta Verify application.<br>If this was not helpful, an IT technician will reach out for assistance!</td>
+    <td>Hi {user]<br>Did you set up a YubiKey or Touch ID as another form of MFA? Use that to access your settings page to re-set your Okta Verify application.<br>If this was not helpful, an IT technician will reach out for assistance!</td>
   </tr>
   <tr>
     <td>Access Request</td>

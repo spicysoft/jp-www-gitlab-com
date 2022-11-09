@@ -317,6 +317,9 @@ In parallel with feature development, a merge request should be prepared by the 
 - **17th of the month - Merged**: release post item MR merged by the Engineering Manager if feature has been merged
 - **18th of the month - Final content assembly**: and release post blog content lock in preparation for final reviews/editing
 
+**Important**: If a feature being announced involves references to external business partners, you'll need to start MR draft approvals earlier. One such example would be [Cloud Seed](https://about.gitlab.com/releases/2022/10/22/gitlab-15-5-released/#deploy-apps-to-google-cloud-with-gitlab-cloud-seed). These types of announcements require extra reviews with Gitlab leadership, business partners and Legal team. In these cases, please reach out to Prod Ops `@fseifoddini` or `@brhea` to start MR reviews at least one milestone ahead of the milestone in which you want to make the release post announcement.
+{:.alert .alert-info}
+
 ### Release Post Item Instructions
 
 #### Option 1: automated MR creation
@@ -629,11 +632,7 @@ In its [frontmatter](#frontmatter):
 
 - Look for each entry as shown on the code block below.
 - Remove any remaining HTML comments and unused blocks to clean up the file.
-- Make sure that `title` is no longer than 62 characters, to ensure it presents well against the blog post's title graphic. The title should be short for the following reasons:
-
-  - Translation to other languages makes it longer.
-  - Long titles break and look bad on smaller devices.
-  - Content-writing best practices: short, concise titles are better to deliver an easy-to-understand message for users.
+- Check the `title` length. The title should be short and deliver an easy-to-understand message Ensure the title fits nicely with the blog post's title graphic. A general guideline for title length is about 60 to 70 characters.
 
 ```yaml
 ---
@@ -644,7 +643,7 @@ author_gitlab: gitlab.com-username
 categories: releases
 image_title: '/images/X_Y/X_Y-cover-image.ext'
 description: "GitLab X.Y Released with XXX, YYY, ZZZ, KKK, and much more!"
-twitter_image: '/images/X_Y/X_Y-cover-image.ext'
+twitter_image: '/images/X_Y/X_Y-cover-image.ext' # required - copy URL from image title section above
 layout: release
 featured: yes
 # header_layout_dark: true #uncomment if the cover image is dark
@@ -684,7 +683,7 @@ YAML data:
 
 - Syntax: `[]()` for links, URLs wrapped in single quotes, text wrapped in double quotes, code wrapped in code blocks or inline code blocks.
 - `- name: "Bug fixes"`
-- `bug_fixes_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=closed&milestone_title=XX.Y&label_name[]=type::bug` - replace XX.Y with the current milestone. For example, for GitLab 13.8, the correct link is `https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=closed&milestone_title=13.8&label_name[]=type::bug'` - this links to closed issues for the 13.8 milestone with the `~"type::bug"` label.
+- `bug_fixes_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=closed&milestone_title=XX.Y&label_name%5B%5D=type%3A%3Abug&first_page_size=20` - replace XX.Y with the current milestone. For example, for GitLab 15.5, the correct link is `https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=closed&milestone_title=15.5&label_name%5B%5D=type%3A%3Abug&first_page_size=20` - this links to closed issues for the 15.5 milestone with the `~"type::bug"` label.
 
 ### Performance improvements MR
 
@@ -702,7 +701,7 @@ YAML data:
 
 - Syntax: `[]()` for links, URLs wrapped in single quotes, text wrapped in double quotes, code wrapped in code blocks or inline code blocks.
 - `- name: "Performance improvements"`
-- `performance_improvements_url: 'https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=XX.Y&label_name[]=performance'` - replace XX.Y with the current milestone. For example, for GitLab 13.8, the correct link is `https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=13.8&label_name[]=performance` - this links to merged merge requests for the 13.8 milestone with the `~performance` label.
+- `performance_improvements_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues?sort=updated_desc&state=closed&label_name[]=bug::performance&milestone_title=XX.Y` - replace XX.Y with the current milestone. For example, for GitLab 15.5, the correct link is `https://gitlab.com/gitlab-org/gitlab/-/issues?sort=updated_desc&state=closed&label_name[]=bug::performance&milestone_title=15.5` - this links to merged merge requests for the 15.5 milestone with the `~bug::performance` label.
 
 ### Usability improvements MR
 
@@ -721,7 +720,7 @@ YAML data:
 
 - Syntax: `[]()` for links, URLs wrapped in single quotes, text wrapped in double quotes, code wrapped in code blocks or inline code blocks.
 - `- name: "Usability improvements"`
-- `ux_improvements_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=closed&milestone_title=XX.Y&label_name[]=usability` - replace XX.Y with the current milestone. For example, for GitLab 13.8, the correct link is `https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=closed&milestone_title=13.8&label_name[]=usability'` - this links to closed issues for the 13.8 milestone with the `~usability` label.
+- `ux_improvements_url: 'https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=closed&label_name%5B%5D=SUS::Impacting&milestone_title=XX.Y` - replace XX.Y with the current milestone. For example, for GitLab 15.5, the correct link is `https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=closed&label_name%5B%5D=SUS::Impacting&milestone_title=15.5` - this links to closed issues for the 15.5 milestone with the `~SUS::Impacting` label.
 
 ### MVP entry
 
@@ -1330,7 +1329,7 @@ Please see the [Terminology section of our Deprecation guidelines](https://docs.
 
 - To be added by Product Managers or Engineering Managers and merged by Technical Writers during the milestone in which the removal will happen. To reduce confusion for customers, removal announcements should not be merged into Docs until the code removal has happened in the product.
 - Create a separate MR for each removal announcement.
-- Per GitLab's [Versioning Policy](https://docs.gitlab.com/ee/policy/maintenance.html#versioning), non-backward-compatible and breaking changes are recommended for a major release, whereas backward-compatible changes can be introduced in a minor release.
+- Per GitLab's [Versioning Policy](https://docs.gitlab.com/ee/policy/maintenance.html#versioning), non-backward-compatible and breaking changes are recommended for a major release (unless it is a security fix), whereas backward-compatible changes can be introduced in a minor release.
      - **If you need to introduce a breaking change outside a major release XX.0, make sure you've already followed the guidance in [Breaking changes, deprecations, and removing features](https://about.gitlab.com/handbook/product/gitlab-the-product/#breaking-changes-deprecations-and-removing-features.**
 
 ##### Creating a removal announcement
@@ -1449,7 +1448,7 @@ For entries that support Markdown, use regular [Markdown Kramdown](/handbook/mar
 - {:#cover-image} **Cover image**:
   use a unique cover image for every post, usually from [Unsplash](https://unsplash.com/), and add
   [the required copyright info](#cover-image-license) into the Yaml file.
-  This image should be eye-catching, inspiring and avoid images of people. Suggested aspect ratio is 3:1 and resolution should be enough to be good-looking on big displays. To test the image and see how it fits (without waiting for a build or running the handbook locally):
+  This image should be eye-catching, inspiring and avoid images of people. The image should be landscape orientation, roughly 1920 x 1080, and no larger than 300KB. To test the image and see how it fits (without waiting for a build or running the handbook locally):
   - Navigate to a previous release post
   - Using a web inspector find the element `<div class="cover" style="background-image: url();">`
   - Inside of `url()` replace the string with the URL of the upsplash image (the actual URL of the image, you may need to right-click the image and select "copy image address")
@@ -1460,8 +1459,6 @@ For entries that support Markdown, use regular [Markdown Kramdown](/handbook/mar
   - `![image alt text](#img-url){:.shadow}`
   - If the original image already has shadow applied, don't use `{:.shadow}`.
   - If you're inserting the image in the YAML file via `image_url` entry, add the `image_noshadow: true` [entry](#feature-blocks) right after `image_url`.
-- {:#social-sharing-image} **Social sharing image**:
-  It's required to add a [social sharing image](../index.html#social-media-info) to the blog post. It is the image that will display on social media feeds (and Slack) whenever the link to the post is shared. This is fulfillled by adding the [cover image](#cover-image) to the release post.
 
 #### Videos
 
@@ -1764,6 +1761,7 @@ The What's New MR will be initiated by the Release Post Manager on the 20th, fin
    1. Using the content that is in the release post items, duplicate the content for What's New.
       1. Sometimes it is necessary to trim down the description. Keep in mind that these should be short, and generally a single paragraph.
       1. SaaS-only features need to use `[free, premium, ultimate]` in the What's New MR instead of `[free, silver, gold]` or `core` as is used in the release post items. We will streamline this discrepancy in the future, but for now, the RPM should update the values as necessary when creating the What's New MR.
+      1. Stage names are case-sensitive, so be sure the the stages are capitalized in order for the pipeline to pass.
 1. Images are not required, but encouraged when possible.
    1. For videos, you will need to provide an image. For YouTube videos, you can use the image URL, which can be found by inserting the youtube unique ID into this format: `https://img.youtube.com/vi/[insert-youtube-video-id-here]/hqdefault.jpg`. For cases where a video thumbnail doesn't look great, consider using a generic image from [the `source/images/growth` directory](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/source/images/growth).
    1. Images will end up at a URL like `https://about.gitlab.com/images/X_Y/XXXXXXX.XXX` Make sure you provide a full URL for the YAML entry. Ex: `https://about.gitlab.com/images/13_7/reviewers_sidebar.png`.

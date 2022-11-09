@@ -9,8 +9,7 @@ picture: drewcimino.png
 twitter:
 gitlab: drew
 projects:
-  gitlab: reviewer backend
-  verify-codequality: maintainer
+  gitlab: trainee_maintainer backend
   verify-accessibility: maintainer
 departments:
 - Engineering Function

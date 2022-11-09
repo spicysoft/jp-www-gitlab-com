@@ -49,6 +49,8 @@ stages:
         be_team_tag: Manage:Authentication and Authorization BE Team
         fe_team_tag: Manage:Authentication and Authorization FE Team
         support:
+          - Alejandro Guerrero de Alba
+          - Gerardo Gutierrez
           - Cynthia Ng
         sets:
           - Sanad Liaquat
@@ -90,6 +92,7 @@ stages:
         be_team_tag: Manage:Workspace BE Team
         fe_team_tag: Manage:Workspace FE Team
         support:
+          - Asmaa Hassan
           - Cynthia Ng
         sets:
           - Valerie Burton
@@ -201,8 +204,8 @@ stages:
       foundations:
         name: Foundations
         pm: Christen Dybenko
+        em: Sam Beckham
         focus: Driving Pajamas adoption
-        frontend_engineering_manager: Lukas Eipert
         fe_team_tag: Manage:Foundations FE Team
         support: TBD
         pdm:
@@ -586,7 +589,6 @@ stages:
             dri: TBD
         categories:
           - web_ide
-          - snippets
           - wiki
           - pages
           - remote_development
@@ -730,7 +732,7 @@ stages:
         fe_team_tag: Verify:Runner FE Team
         support:
           - Alexander Tanayno
-          - Nourdin el Bacha
+          - TBD
         qm: Joanna Shih
         sets:
           - Zeff Morgan
@@ -761,6 +763,38 @@ stages:
         pi_gmau: https://app.periscopedata.com/app/gitlab/800667/GitLab-Runner-performance-indicator-metrics?widget=11518294&udv=1297938
         pi_pgmau: https://app.periscopedata.com/app/gitlab/800667/GitLab-Runner-performance-indicator-metrics?widget=11518294&udv=1297938
         analyst_reports: https://drive.google.com/drive/search?q=continuous%20integration%20parent:0B4LeL42bnImlbmZwcmhrTEthdkE
+
+      runner_saas:
+        name: "Runner SaaS"
+        pm: "Darren Eastman"
+        focus: Verify & Runner SaaS SMAU
+        cm: Chrissie Buchanan
+        pmm: Heather Simpson
+        fullstack_engineering_manager: Elliot Rushton
+        be_team_tag: Runner SaaS BE Team
+        support:
+          - tbd
+          - tbd
+        qm: Joanna Shih
+        sets:
+          - Zeff Morgan
+          - Aleksandr Lyubenkov
+        tech_writer: Fiona Neill
+        appsec_engineer: Dominic Couture
+        cs_team_tag: Runner SaaS Group CS Stable Counterpart
+        infra_reliability_team_tag: Runner Group Reliability Stable Counterpart
+        internal_customers:
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - runner_saas
+        usage_driver_score: 5
+        asp_driver_score: 3
+        sam_driver_score: 2
+        group_link: product/categories/#runner-saas
+        pi_gmau: https://app.periscopedata.com/app/gitlab/1074396/Verify-Performance-Indicator-Dashboard?widget=15423299&udv=0
 
       pipeline_insights:
         name: "Pipeline Insights"
@@ -841,14 +875,12 @@ stages:
         be_team_tag: Package:Package Registry BE Team
         fe_team_tag: Package:Package Registry FE Team
         support:
-          - Nourdin el Bacha
+          - TBD
         qm: Joanna Shih
         sets:
           - TBD
         pdm:
           - Rayana Verissimo
-        ux:
-          - Katie Macoy
         uxr:
           - Erika Feldman
         tech_writer: Clayton Cornell
@@ -883,7 +915,7 @@ stages:
         be_team_tag: Package:Container Registry BE Team
         fe_team_tag: Package:Container Registry FE Team
         support:
-          - Nourdin el Bacha
+          - TBD
         qm: Joanna Shih
         sets:
           - Sofia Vistas
@@ -1108,6 +1140,8 @@ stages:
     pm: Jensen Stava
     em:
       - Phil Calder
+    pdm:
+      - Taurie Davis
     groups:
       anti-abuse:
         name: Anti-Abuse
@@ -1123,8 +1157,9 @@ stages:
         em: Jay Swain
         appsec_engineer: Nick Malcolm
         tech_writer: Phillip Wells
+        ux:
+          - Katie Macoy
         be_team_tag: Anti-Abuse Fullstack Team
-
 
   release:
     display_name: "Release"
@@ -1258,7 +1293,7 @@ stages:
           - Will Leidheiser
         qm: Joanna Shih
         tech_writer: Phillip Wells
-        appsec_engineer: Vitor Meireles De Sousa
+        appsec_engineer: TBD
         cs_team_tag: Configure Group CS Stable Counterpart
         internal_customers:
           - department: Quality Department
@@ -1335,7 +1370,7 @@ stages:
           - Will Leidheiser
         qm: Joanna Shih
         tech_writer: Marcin Sędłak-Jakubowski
-        appsec_engineer: Vitor Meireles De Sousa
+        appsec_engineer: TBD
         slack:
           channel: g_respond
           alias: respond-group
@@ -1377,7 +1412,7 @@ stages:
           - Will Leidheiser
         qm: TBD
         tech_writer: Marcin Sędłak-Jakubowski
-        appsec_engineer: Vitor Meireles De Sousa
+        appsec_engineer: TBD
         slack:
           channel: g_observability
           alias: observability-group
@@ -1489,6 +1524,7 @@ stages:
         categories:
           - vulnerability_management
           - dependency_management
+          - sbom
         usage_driver_score: 4
         asp_driver_score: 5
         sam_driver_score: 5
@@ -1557,7 +1593,7 @@ stages:
         pm: Sam Kerr (Acting)
         pmm: Saumya Upadhyaya
         cm: Suri Patel
-        backend_engineering_manager: Dennis Tang
+        backend_engineering_manager: Sebastian Rehm
         support: TBD
         be_team_tag: Product Intelligence Team
         appsec_engineer: Greg Alfaro
@@ -1582,7 +1618,6 @@ stages:
             dri: TBD
         categories:
             - service_ping
-            - privacy_control_center
             - application_instrumentation
       product_analytics:
         name: Product Analytics
@@ -1782,7 +1817,7 @@ stages:
         cm: Suri Patel
         backend_engineering_manager: Ragnar Hardarson
         frontend_engineering_manager: Ragnar Hardarson
-        support: TBD
+        support: Firdaws Farukh
         be_team_tag: TBD
         fe_team_tag: TBD
         appsec_engineer: TBD
@@ -2057,7 +2092,7 @@ stages:
         roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Adistribution&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
         pm: Dilan Orrino
         pmm: Saumya Upadhyaya
-        backend_engineering_manager: DJ Mountney (Interim)
+        backend_engineering_manager: Peter Lu
         be_team_tag: Distribution Deploy BE Team
         fe_team_tag:
         support:
@@ -2257,7 +2292,7 @@ stages:
           - Marcel van Remmerden
         uxr:
           - Will Leidheiser
-        tech_writer: Jonathan Glassman
+        tech_writer: Jon Glassman
         slack:
           channel: g_application_performance
         gitlab_group: gitlab-org/memory-team
@@ -2276,6 +2311,7 @@ stages:
         categories:
           - application_performance
           - redis
+          - rate_limiting
         # usage_driver_score: 5
         #asp_driver_score: 1
         # sam_driver_score:
@@ -2293,7 +2329,9 @@ stages:
         frontend_engineering_manager: Changzheng Liu (Interim)
         be_team_tag: Global Search BE Team
         fe_team_tag: Global Search FE Team
-        support: Vlad Stoianovici
+        support: 
+          - Vlad Stoianovici
+          - Cleveland Bledsoe Jr
         appsec_engineer: Kevin Morrison
         pdm:
           - Marcel van Remmerden
@@ -2374,7 +2412,7 @@ stages:
           - Marcel van Remmerden
         uxr:
           - Will Leidheiser
-        tech_writer: Jonathan Glassman
+        tech_writer: Jon Glassman
         slack:
           channel: g_pods
         gitlab_group: TBD
@@ -2531,6 +2569,8 @@ stages:
         em: Monmayuri Ray
         be_team_tag: ModelOps:Applied ML
         tech_writer: "#docs Slack channel"
+        ux:
+          - Katie Macoy
         sets:
           - Mark Lapierre
         appsec_engineer: Nick Malcolm

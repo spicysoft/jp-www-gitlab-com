@@ -1,0 +1,18 @@
+#### <%= stage.display_name %> stage
+
+<%= partial('includes/product/common_rows', locals: { unit: stage }) -%>
+<%= partial('includes/product/link_table_row', locals: { label:'Product Management', link: stage.pm }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Development', suffix: '', collection: stage.em }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Product Marketing Manager', link: stage.pmm }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Backend Engineering Manager', link: stage.backend_engineering_manager }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Frontend Engineering Manager', link: stage.frontend_engineering_manager }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Software Engineer', suffix: 'in Test', collection: stage.sets }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Product Design Manager', suffix: '', collection: stage.pdm }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Staff Product Designer', suffix: '', collection: stage.spd }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'UX Researcher', link: stage.uxr }) -%>
+<%= partial('includes/product/multiple_link_row', locals: { label: 'Product Designer', suffix: '', collection: stage.ux }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Content Marketing', link: stage.cm }) -%>
+<%= partial('includes/product/link_table_row', locals: { label: 'Technical Writer', link: stage.tech_writer }) -%>
+<%= partial('includes/product/customer_success', locals: { unit: stage }) -%>
+<%= partial('includes/product/tag_group_row', locals: { label: 'Analyst Relations', tag: stage.ar_team_tag }) -%>
+<%= partial('includes/product/internal_customers', locals: { customers: stage.internal_customers }) -%>

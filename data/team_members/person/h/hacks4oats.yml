@@ -22,6 +22,6 @@ story: |
 projects:
   gitlab: reviewer go
   gitlab-shell: trainee_maintainer
-  secure-DS-gemnasium: reviewer backend
-  secure-LC-license-finder: reviewer backend
-  secure-container-scanning: reviewer backend
+  secure-DS-gemnasium: reviewer
+  secure-LC-license-finder: reviewer
+  secure-container-scanning: maintainer

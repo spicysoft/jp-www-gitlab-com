@@ -1,0 +1,3 @@
+<% if customers && customers.any? %>
+| <%= 'Internal Customer'.pluralize(customers.count) %> | <%= customers.map{ |c| "[#{c.department}](#{c.dri})" }.join(", ") %> |
+<% end %>

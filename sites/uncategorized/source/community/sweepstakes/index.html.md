@@ -9,8 +9,8 @@ canonical_path: "/community/sweepstakes/"
 
 ### Current
 - [KubeCon NA 22 GitLab Code Challenge - Official Rules](/community/sweepstakes/kubecon-na-2022-code-challenge/)
-- [Google Cloud Next 2022 GitLab Newsletter Promotion - Official Rules](/community/sweepstakes/google-cloud-next-2022/)
 - [KubeCon NA 22 Secrets Features Survey Prize Draw - Official Rules](/community/sweepstakes/Kubecon-na-2022-secrets-survey/)
+- [GitLab Product Feature Survey Sweepstakes - Official Rules](/community/sweepstakes/GitLab_Product_Feature_Survey_Sweepstakes)
 
 ### Past
 - [GitLab Survey weekly digest 2022](/community/sweepstakes/2022-survey-weekly-digest/survey-weekly-digest.index.html)
@@ -20,3 +20,4 @@ canonical_path: "/community/sweepstakes/"
 - [SCale 19x 2022 GitLab Newsletter Signup and Sweepstakes - Official Rules](/community/sweepstakes/scale-19x-newsletter-sweepstakes/)
 - [SCale 19x 2022 GitLab Code Challenge - Official Rules](/community/sweepstakes/scale-19x-code-challenge/)
 - [KubeCon EU 22 GitLab Product Direction Survey Prize Draw](/community/sweepstakes/KubeCon_EU_22_GitLab_Product_Direction_Survey/)
+- [Google Cloud Next 2022 GitLab Newsletter Promotion - Official Rules](/community/sweepstakes/google-cloud-next-2022/)

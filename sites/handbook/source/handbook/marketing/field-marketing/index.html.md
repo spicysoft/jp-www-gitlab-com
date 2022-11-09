@@ -102,12 +102,6 @@ Find out more on the social media page[here](/handbook/marketing/corporate-marke
 - To run plays where we are targeting a specific geography or where we would like to propose content syndication, we work through our Digital Marketing Programs team. Please create an issue utilizing DMPs [Paid Digital Request Issue Template](https://gitlab.com/gitlab-com/marketing/demand-generation/digital-marketing/-/issues/new?issuable_template=paid-digital-request) if you'd like them to do work for you.
 - To run plays where we are targeting a specific list of accounts, we utilize [Demandbase](/handbook/marketing/account-based-marketing/demandbase/).
 
-### Working with PMG
-
-- For [paid social campaigns](/handbook/marketing/demand-generation/digital-marketing/digital-marketing-management/#paid-social), details on how we collaborate with the Digital team can be [found here](/handbook/marketing/demand-generation/digital-marketing/digital-marketing-management/#agency).
-- We are not using PMG to run ads for webcasts or workshops - as that is handled by our campaigns team. 
-- We will run paid ads with PMG to drive registration to regional in person events.
-
 ### Tracking success of digital tactics 
 Please ensure you are using our UTM tracker (look up `Google Analytics Campaign Tagging Tool - UTM generator for tracking` in the Gdrive to find doc). In order to identify which campaigns are from the Field Marketing team, you must add the letters fmm at the end of your campaign name in column E. All lowercase with no spaces or special characters. This allows us to pull ROI reporting, so please don't leave these letters out or else you will lose reporting from a dashboard standpoint. 
 
@@ -126,6 +120,12 @@ Remember, an account-centric micro-campaign consists of at least 2 different acc
 
 1. FMM opens a [Self-Service Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Self_Service_Event)
 1. FMM and FMC to follow Plan to WIP process [here](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)
+
+# Confidentiality in GitLab Issues and Epics
+
+When working in GitLab issues and epics, please remember that due to GitLab's value of [Transparency](/handbook/values/#transparency), many of our issues and epics are, by default, public. Best practice is to avoid including any PII or login details in issues and epics directly. If posting details of this nature is a necessity, please remember to always make your [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential` when doing so. Please also be diligent in your issues and epics regarding comments made by other team members as well. If you notice another team member has posted details that should not remain public, immediately make the [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential`. Other options to allow our issues to remain public, are including PII in a spreadsheet or document posted in the issue or epic that are only accesible by certain people. If logins need to be shared, please utilize the Marketing Vault in [1pass](/handbook/security/#security-process-and-procedures-for-team-members). 
+
+For more information regarding confidentiality levels and compliancy, please visit [this handbook page](/handbook/communication/confidentiality-levels/).
 
 # Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
@@ -230,6 +230,10 @@ At the highest level, Field Marketing is responsible for helping to progress MQL
 Our FMM Dashboard lives in the SAFE Intermediate space within the platform and provides an overview on the performance of the Field Marketing programs. 
 
 - [Field Marketing Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965060/Field-Marketing-Metrics-(V2---WIP)) 
+
+## Adding SFDC Campaigns to Leads for Attribution
+
+For instructions on how to add a SFDC campaign to a lead for attribution, please watch this two minute [instructional video](https://youtu.be/IYzkR3h4Ajo) (you must be signed into GitLab Unfiltered to view).
 
 ## Useful Links
 This section provides links to relevant reports that may live outside of the Field Marketing Dashboard. 
@@ -348,8 +352,8 @@ FMMs are to provide a 5 business day lead time for all plan to WIP requests in o
 
 ## Items required by FMM to request moving an issue from Plan to WIP
 
-- Contract is fully executed (if applicable)
-- Event Details and FMC Checklist sections in the issue are updated and complete
+- Contract is fully executed (if applicable) - For contract approval, FMM is to obtain the agreement from the vendor, review and make any changes needed with the vendor, then submit a [Contract Request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to the FMC for processing through Coupa.
+- Event Details and FMC Checklist sections in the main issue are updated and complete
 - Allocadia sub-category and line item detail panels are updated and complete
 
 ## Moving from Plan to WIP
@@ -363,6 +367,7 @@ FMMs are to provide a 5 business day lead time for all plan to WIP requests in o
 - FMC adds the event to the [GitLab Events Page](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents), if applicable (specified by the FMM in the FMC Checklist section of the issue) 
 - FMC creates the [Marketo program and SFDC campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) utilizing the Facilitate Tracking sub-issue previously created
    - FMC pings the FMM in the Facilitate Tracking issue that the Marketo program and SFDC campaign have been created and closes issue
+- FMC and FMM to follow the [Copy Deadline Process](/handbook/marketing/field-marketing/#field-marketing-event-copy-deadline-process) for any assets the FMM has requested in the main issue's FMC Checklist.
 - When all the above tasks have been completed, the FMC will ping the FMM in the Field Marketing issue to confirm completion of the above tasks and will move the issue label `mktg-status::plan` to `mktg-status::wip`.
 
 ### Plan to WIP video walk through 
@@ -476,6 +481,13 @@ Verticurl will follow the instructions in [this video](https://www.youtube.com/e
 
 For more information regarding the regional workshop/demo pages, please visit [this handbook page](/handbook/marketing/virtual-events/webcasts/#technical-demo-landing-pages).
 
+# Registration Problems on a GitLab Landing Page
+
+If a registrant is having issues registering for an event on a GitLab landing page, please have them first try the below fixes. If these still do not work, open a [bug issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/bug_request.md?_gl=1%2a1652726%2a_ga%2aMTg4MDU0MzY5Ni4xNjAxMTI2MTEw%2a_ga_ENFH3X7M5Y%2aMTY2NzU3MzczMi4xNTAuMS4xNjY3NTc3MDQyLjAuMC4w) with Marketing Ops to help determine if there is a problem with the landing page.
+- Ask what browser they are utilizing and if there are any plugins potentially blocking the registration page. 
+- If they have not already, have them try registering utilizing Chrome.
+- Have them try registering using Incognito Mode.
+
 # Owned Tactics that Involve Collecting Addresses
 There are times that Field Marketing will run campaigns that involve building a landing page in Marketo in order to collect addresses for shipping swag. Examples of these instances are a 5k run, GitLab-hosted tasting event, direct mail campaigns, etc. When collecting addresses, please follow the below instructions for ensuring PII compliancy.
 
@@ -490,10 +502,10 @@ Please note that due to PII compliancy, addresses collected in Marketo landing p
 - FMM to assign FMC in main event issue.
 - FMC to attach their regional event tracking label to the event issue.
 - FMM and FMC to follow the [Process for Issues Moving from Plan to WIP](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip).
-- FMC to add all copy deadlines or link the write copy issue to main event issue under the `Copy Deadline` section.
-- FMM to update Copy Document file with copy and keep the Copy Document linked in the epic. Sample Copy Templates in the [Event Support Folder](https://drive.google.com/drive/folders/1S-4PVueBj7FPAE9fB-IKz_Bbuz17rPtH).
-- Once FMM completes copy, they will update the [FM copy issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) that copy has been completed and ping the FMC.
-- One (1) business day before copy is due, FMC to ping FMM in [FM copy issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) with copy reminder.
+- FMC to create a [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) and fill in the requested copy due dates for each asset the FMM has requested in the FMC checklist, and then attach the issue to the epic.
+- FMM to update the Copy Document file the FMC created for them (linked in the epic) with copy for each asset. Previous Copy Documents for reference are available in the [Event Support Folder](https://drive.google.com/drive/folders/1S-4PVueBj7FPAE9fB-IKz_Bbuz17rPtH).
+- Once the FMM completes copy, they will ping the FMC in the [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) to notify them which asset copy has been completed.
+- If copy has not been completed for an asset yet, (1) business day before copy is due, the FMC will ping the FMM in [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) with a copy due reminder.
 - FMC will make sure copy has been provided or continue to remind the FMM, if needed.
 
 # Lead List Deadline Process
@@ -649,7 +661,7 @@ Once you feel confident that you have chosen the right 3rd party vendor, now is 
 1. FMM to open a Field Marketing issue and detail out the justification for the potential new vendor/product. Include any presentations, slides and demos that have been provided to help explain the product. Tag your regional manager in the issue to review and discuss. Approval must be received to move forward. Make sure to attach all of the following issues to your main Field Marketing Issue for easy access.
 1. FMM to open a [Contract Request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) issue and assign to the regional FMC.
     - SLA for FMC to complete the Contract Request issue is 3 business days from the date all needed info is filled out by the FMM in the Contract Request issue. FMM to leave a note if turnaround is urgent (FMCs have been averaging 1-2 business days currently).
-1. FMC to process an NDA with the vendor, specified in the [Prior to Contacting Procurement](/handbook/finance/procurement/prior-to-contacting-procurement/) instructions in the Handbook. Remember to attached your executed NDA when opening your Coupa requisition in the steps below.
+1. FMC to process an NDA with the vendor, specified in the procurement handbook [here](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#nda-process). Remember to attach your executed NDA when opening your Coupa requisition in the steps below.
 1. If you're requesting a new tool, FMM to open a [Marketing Ops Eval](/handbook/marketing/marketing-operations/#requesting-a-new-tool) issue. Marketing Ops will help evaluate the product and will assist in the procurement process. They will also help you determine if an integration is required with any products in our current tech stack and if so, which team will be the DRI for the integration.
 1. FMC to check to see if the vendor is [already in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-search-for-a-supplier). If not, the FMC will submit a [new supplier request](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-request-a-new-supplier). The Coupa requisition cannot be opened until the vendor is in Coupa. 
 1. FMC to follow [these instructions](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-create-a-requisition) for opening a Coupa requisition. Please note that you can submit the Coupa requisition even before a contract has been provided. This template details the following approvals:
@@ -680,11 +692,11 @@ In Field Marketing, the FMCs manage all [Coupa requisitions](/handbook/business-
 
 | Region | FM DRI | GitLab User ID | Slack Channel |
 | ------ | ------ | -------------- | -------------- |
-| [AMER East - NE, SE, Mid-Atlantic, NYC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/915674?&label_name%5B%5D=East) | Beth Parker | `@BParker` |
-| [AMER East - South Central, LATAM](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1105137?&label_name[]=East%20-%20Central) | Ginny Reib | `@GReib` |
-| [AMER West - NW, North Central](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933457?&label_name[]=West) | Matthew Macfarlane | `@GReib` |
+| [AMER - East & Canada ](https://gitlab.com/groups/gitlab-com/marketing/-/boards/915674?label_name[]=East) | Beth Parker | `@BParker` |
+| [AMER - South Central & LATAM](https://gitlab.com/groups/gitlab-com/marketing/-/boards/4435497?label_name[]=South%20Central%20-%20LATAM) | Jonathan Santiago  | `@JonathanSanti` |
+| [AMER West - NW, North Central](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933457?&label_name[]=West) | Ginny Reib | `@greib` |
 | [AMER West - SW, New First Order](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933457?&label_name[]=West) |  Lisa Rom | `@lrom`  |
-| [AMER Public Sector](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Kira Aubrey | & `@KiraAubrey` |
+| [AMER - Public Sector](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Kira Aubrey | & `@KiraAubrey` |
 | [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | Kate Baker | `@kbaker4` |
 | Japan - link WIP | Shu Kawaguchi | `@skawaguchi1` |
 | [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@juliette.frcn` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
@@ -801,10 +813,10 @@ In order for a GitLab Partner to reach Select status, the Select Partner must:
 
 | Region | FMM | CAM |
 | ------ | ------ | -------------- |
-| AMER East NE & SE | Ginny Reib | TBH |
-| AMER East-Central | Ginny Reib | TBH |
-| AMER West-PacNorWest | Matthew Macfarlane | Jen Bailey |
-| AMER West - NorCal/SoCal/Rockies | Lisa Rom | Jen Bailey |
+| AMER East & Canada | Beth Parker | Maria Henry |
+| AMER South Central & LATAM | Jonathan Santiago | Rodrigo Rios - LATAM and Joe McAninch - Central |
+| AMER West-PacNorWest | Ginny Reib | TBD |
+| AMER West - NorCal/SoCal/Rockies | Lisa Rom | TBD |
 | AMER Public Sector | Kira Aubrey | Chris Novello|
 | APAC | Kate Baker | Dirk de Vos |
 | APAC - Japan | Shu Kawaguchi |  |
@@ -830,14 +842,6 @@ Select Partner marketing activities can be:
 - Fully funded by FMM budget
 - Funded jointly by FMM budget and Select Partner
 - Funded jointly by FMM, GitLab MDF (see [MDF process](/handbook/marketing/channel-marketing/#requesting-mdf-funds)) and Select Partner
-
-### CAM/Partner Initiated (MDF Funded)
-
-As outlined in the [Channel Handbook - [MDF section](/handbook/marketing/channel-marketing/#requesting-mdf-funds)), GitLab Select partners have access to the proposal-based GitLab Marketing Development Funds (MDF) Program.
-
-The DRI for budget tracking and ROI measurement will be the Channel Marketing team with Field Marketing being the DRI for the 3rd step in the approval of the MDF proposal within their respective region.
-
-FMMs may work with “Open” partners outside of P0 and P1 regions depending upon the strength of their MDF proposal AND their potential/desire to elevate to Select status. Those proposals will be considered on a case by case basis, and final approval lies with GitLab Channel Marketing, unless Field Marketing support is requested, in which case final approval lies with the regional FMM involved.
 
 ### Sample types of activities to engage with Select Partners
 
@@ -1352,7 +1356,7 @@ At times, Field Marketers may want to create a SPIF (sales performance incentive
 - [Events at GitLab](/handbook/marketing/events/)
 - [Marketing Operations](/handbook/marketing/marketing-operations/)
 - [Sales Development](/handbook/marketing/revenue-marketing/sdr/)
-- [3rd party Marketo Agency](/handbook/marketing/lifecycle-marketing/agency-verticurl/)
+- [Verticurl - 3rd party Marketo contractor](/handbook/marketing/lifecycle-marketing/agency-verticurl/)
 - [Field Marketing onboarding videos](https://drive.google.com/open?id=1m8ReMIiymMTqqk5PJAG7u_IG-Q5pkusV) - NOTE - these are also in the Field Marketing Onboarding issue that is kept in the [Marketing onboarding project](https://gitlab.com/gitlab-com/marketing/onboarding#onboarding)
 
 # Account Based Marketing
@@ -1628,6 +1632,13 @@ SimplyDirect defines engagement by targets filling out the survey.  The SimplyDi
 - Total number of meetings
 - Total number of SAOs
 - Pipeline progression
+
+# Working with PMG
+
+- For [paid social campaigns](/handbook/marketing/demand-generation/digital-marketing/digital-marketing-management/#paid-social), details on how we collaborate with the Digital team can be [found here](/handbook/marketing/demand-generation/digital-marketing/digital-marketing-management/#agency).
+- We are not using PMG to run ads for webcasts or workshops - as that is handled by our campaigns team. 
+- We will run paid ads with PMG to drive registration to regional in person events.
+
 
 #### Helpful Links
 * [**Survey Details**](/handbook/marketing/field-marketing/#survey)  

@@ -26,11 +26,13 @@ For the 2023 plan year GitLab will continue to cover 100% of team member coverag
 
 Please see additional information on the 2023 US Benefit Plans: 
 
-* Need help selecting a plan? Check out the [PlanSelect Tool](https://myplanselect.com/navigation/Gitlab/2022) to help you find a plan that best suits your needs. 
+* Need help selecting a plan? Check out the [PlanSelect Tool](https://myplanselect.com/navigation/Gitlab/2022) to help you find a plan that best suits your needs. You can also reach out to the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing) to walk through the GitLab Cigna plans available. 
 
-* Review the [2023 US Benefits Guide](https://drive.google.com/file/d/1vwdEJIdqogqbfFpwcRVC1cHcjH4SsckR/view?usp=sharing) for full plan details and updated plan rates. 
+* Review the [2023 US Benefits Guide](https://drive.google.com/file/d/1vwdEJIdqogqbfFpwcRVC1cHcjH4SsckR/view?usp=sharing) for full plan details and updated plan rates. - Candidates and New hires who are about to start with GitLab can view this document by clicking on the link and requesting access, access will be granted shortly after request.  
 
 * Watch the [2023 US Benefits Video](https://www.brainshark.com/willis/vu?pi=zIgzfm1iozgaiCz0) for a full review of the benefit plans. 
+
+* Watch the [High Deductible (HDHP) & HSA Deep dive Webinar](https://drive.google.com/file/d/1N9DpIyoqKnoDWDZdoU8MlWV_NB30GZeu/view?usp=sharing) to learn more about this health plan and the tax advantages of enrolling in the HDHP plan with an HSA. 
 
 * GitLab offers Mental Wellnesss Services through [Modern Health](https://about.gitlab.com/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
 
@@ -216,7 +218,7 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 | Family                   | $0  | $466 | $450 |
 
 
-Note: For the **HSA**, GitLab will contribute $100 per month. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.  
+Note: For the **HSA**, GitLab will contribute $100 per month. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.  Watch the [High Deductible (HDHP) & HSA Deep dive Webinar](https://drive.google.com/file/d/1N9DpIyoqKnoDWDZdoU8MlWV_NB30GZeu/view?usp=sharing) to learn more about this health plan and the tax advantages of enrolling in the HDHP plan with an HSA. 
 
 ##### Cigna Emotional Well-Being Virtual Support
 
@@ -250,6 +252,8 @@ Please reach out to the [Total Rewards team and WTW](/handbook/total-rewards/ben
 
 Potential joiners who do not have a myCigna account yet can search for providers on the [Cigna Website](https://hcpdirectory.cigna.com/web/public/consumer/directory/plan-selection). When selecting a plan everyone at GitLab (PPO, EPO, and HDHP members) will use the OPEN ACCESS PLUS selection, except for Utah members, who will use the PPO option. 
 
+Team Members and potential joiners can also reach out to the [Cigna One Guide service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing) to check if their doctors are in-network and walk through the GitLab plans with a Cigna rep.
+
 IMPORTANT NOTE:
  
 As an additional measure to confirm “Contracted Providers” (i.e. In-Network), it’s always a good idea to follow up with Providers directly (phone, email or otherwise) to additionally confirm if a Provider is contracted with Cigna or not and if the type of service is covered. In some instances, the same provider may be covered In-Network for certain types of services, but may be Out-Network for other services.
@@ -279,7 +283,7 @@ Residents in California and Colorado have the Kaiser options below, in addition 
  The Kaiser CO plan is closed to new enrollees with effective dates 1/1/2023 and beyond. Team members currently enrolled in the plan in 2022 may remain on the plan. 
 
  
-| Plan Details               | [2022 HMO NorCal](https://drive.google.com/file/d/1br0BSmgAaiHF08in77Bjezk0vQvDzg3k/view?usp=sharing) <br> [2023 HMO Norcal](https://drive.google.com/file/d/1IiqTRhloWsANkg42fmry6Ch9lXBVciMw/view?usp=sharing)   | [2022 HMO 20 SoCal](https://drive.google.com/file/d/1VF3sWuFdIhpR6ScnBuqUl6R_OGvH7d1e/view?usp=sharing) <br> [2023 HMO 20 SoCal](https://drive.google.com/file/d/1jZ6dvgCrqdVMSS3I1PxfGagpUXdIngge/view?usp=sharing) |  [2022 HMO 20 CO](https://drive.google.com/file/d/1BosRYdWVsrdpLpaGP--ci79zmTbFPOto/view?usp=sharing) <br> [2023 HMO CO](https://drive.google.com/file/d/11fsZfiYwgIkLVEtwLvL7-mn0sw63zb_5/view?usp=sharing) | [2022 HMO 20 HI](https://drive.google.com/file/d/1hhOOBbgEI3HLmM5fzXi-MrpNl9hotr8V/view?usp=sharing) <br> 2023 HMO 20 HI (tbd)   |
+| Plan Details               | [2022 HMO NorCal](https://drive.google.com/file/d/1br0BSmgAaiHF08in77Bjezk0vQvDzg3k/view?usp=sharing) <br> [2023 HMO Norcal](https://drive.google.com/file/d/1IiqTRhloWsANkg42fmry6Ch9lXBVciMw/view?usp=sharing)   | [2022 HMO 20 SoCal](https://drive.google.com/file/d/1VF3sWuFdIhpR6ScnBuqUl6R_OGvH7d1e/view?usp=sharing) <br> [2023 HMO 20 SoCal](https://drive.google.com/file/d/1jZ6dvgCrqdVMSS3I1PxfGagpUXdIngge/view?usp=sharing) |  [2022 HMO 20 CO](https://drive.google.com/file/d/1BosRYdWVsrdpLpaGP--ci79zmTbFPOto/view?usp=sharing) <br> [2023 HMO CO](https://drive.google.com/file/d/11fsZfiYwgIkLVEtwLvL7-mn0sw63zb_5/view?usp=sharing) | [2022 HMO 20 HI](https://drive.google.com/file/d/1hhOOBbgEI3HLmM5fzXi-MrpNl9hotr8V/view?usp=sharing) <br> [2023 HMO 20 HI](https://drive.google.com/file/d/1ewKOYHgP-NDoyfDl4yefS49Tzd0Z_t9L/view?usp=sharing)  |
 |----------------------------|:--------------------:|:---------------:|:---------------:|:---------------:|
 | Deductible (Single/Family) | $0 / $0              | $0 / $0         | $0 / $0         | $0 / $0         |
 | Out Of Pocket Max (Single/Family)    | $1,500 / $3,000      | $1,500 / $3,000 | $2,000 / $4,000 | $2,500 / $7,500 |
@@ -293,7 +297,7 @@ Residents in California and Colorado have the Kaiser options below, in addition 
 | Brand - Preferred          | $35                  | $35             | $30             | $50             |
 | Brand - Non-Preferred      | $35                  | $35             | $50             | $50             |
 | Specialty Drugs            | 20% up to $150       | 20% up to $150  | 20% up to $250  | $200            |
-| Disclosures          | [2023 HMO Norcal](https://drive.google.com/file/d/1eHbGgFJW0mI1GxaZTQRJmrdqKg5Av8Ff/view?usp=sharing)    | [2023 HMO 20 SoCal](https://drive.google.com/file/d/1ryB9zwFrs6e7r0ZpvEiSM30y0nCOWvsh/view?usp=sharing) | [2023 HMO 20 CO](https://drive.google.com/file/d/1euEYQFuSEeW4cQ79mQNZenJ5YaBUzYtu/view?usp=sharing)        | 2023 HMO HI (TBD)   | 
+| Disclosures          | [2023 HMO Norcal](https://drive.google.com/file/d/1eHbGgFJW0mI1GxaZTQRJmrdqKg5Av8Ff/view?usp=sharing)    | [2023 HMO 20 SoCal](https://drive.google.com/file/d/1ryB9zwFrs6e7r0ZpvEiSM30y0nCOWvsh/view?usp=sharing) | [2023 HMO 20 CO](https://drive.google.com/file/d/1euEYQFuSEeW4cQ79mQNZenJ5YaBUzYtu/view?usp=sharing)        | [2023 HMO HI](https://drive.google.com/file/d/1pK_9qQc1EvR4tuPeVjKqcucq-nCKXdUK/view?usp=sharing)   | 
  
 Please see the [2022 Kaiser Colorado Enrollment Guide](https://drive.google.com/file/d/1oOqIMImcUShku7gKKd3IKkyMv2z7wRto/view?usp=sharing) for more information on the Kaiser Colorado plan. 
 

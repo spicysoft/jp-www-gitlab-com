@@ -37,11 +37,10 @@ A related category in the [Configure stage](/direction/configure/) describes one
 
 ### Compliance and Security in the Release Pipeline
 
-Security, compliance, control and governance of the release pipeline is handled as part of [Release Evidence](/direction/release/release_evidence/). Secrets in the pipeline are part of our [Secrets Management](/direction/configure/secrets_management/) category.  Another category for governance and security within GitLab is [Compliance Management](/direction/manage/compliance-management/), which is inclusive of change management and approval workflows. For governance workflows pertaining to issues and requirements, check out our category of [Requirements Management](/direction/plan/certify/) from the [Plan](/direction/plan/) stage. 
+Security, compliance, control and governance of the release pipeline is handled as part of [Release Evidence](/direction/release/release_evidence/). Secrets in the pipeline are part of our [Secrets Management](/direction/configure/secrets_management/) category.  Another category for governance and security within GitLab is [Compliance Management](/direction/govern/compliance/compliance-management/), which is inclusive of change management and approval workflows. For governance workflows pertaining to issues and requirements, check out our category of [Requirements Management](/direction/plan/certify/) from the [Plan](/direction/plan/) stage. 
 
 ## What's Next & Why
 
-1. [Create annotated tags with Releases UI](https://gitlab.com/gitlab-org/gitlab/-/issues/362481)
 1. [Publish Releases without giving access to source code](https://gitlab.com/gitlab-org/gitlab/-/issues/216485)
 1. [Update a Release through Release-CLI](https://gitlab.com/gitlab-org/release-cli/-/issues/157)
 1. [Automatically insert changelog into Release](https://gitlab.com/gitlab-org/gitlab/-/issues/26015)

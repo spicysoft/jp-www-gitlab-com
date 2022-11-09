@@ -4,7 +4,7 @@ locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
   Manage:Foundations
-reports_to: leipert
+reports_to: sam-beckham
 picture: mikegreiling.png
 twitter: mikegreiling
 gitlab: mikegreiling
@@ -36,6 +36,5 @@ story: |
   and enjoys exploring new languages and frameworks whenever possible.  In his free time, Mike enjoys
   biking, craft beer, travel, and spending time with his wife and daughter.
 specialty:
-- 'Ecosystem: Foundations'
-- " Ecosystem"
+- 'Manage: Foundations'
 

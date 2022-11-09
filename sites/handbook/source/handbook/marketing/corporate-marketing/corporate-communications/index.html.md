@@ -42,6 +42,8 @@ The GitLab Corporate Communications team is responsibility for the following act
 - We are invested in one another’s growth and development
 - We are committed to producing high quality work, being stewards of the GitLab values and sharing our expertise
 - We get stuff done!
+  - We are in a highly visible role, managing high stakes opportunities that impact the GitLab brand. While there are "glass balls" vs "rubber balls," most of the opportunities we oversee are "glass" and will break if dropped. 
+
 
 ## Objectives and Goals
 

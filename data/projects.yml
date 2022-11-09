@@ -57,6 +57,13 @@ gitlab-workhorse:
     requests such as file downloads, file uploads, Git push/pull and Git archive
     downloads.
 
+project-templates:
+  name: GitLab Project Templates
+  path: gitlab-org/project-templates
+  link: https://gitlab.com/gitlab-org/project-templates
+  description: |
+    GitLab project-templates are a collection of language-specific starter templates.
+
 omnibus-gitlab:
   name: Omnibus GitLab
   path: gitlab-org/omnibus-gitlab
@@ -676,6 +683,13 @@ secure-SAST-brakeman:
   description: |
     Brakeman analyzer providing scanning capabilities for our Static Analysis category.
 
+secure-SAST-codequality:
+  name: Code Quality
+  path: gitlab-org/ci-cd/codequality
+  link: https://gitlab.com/gitlab-org/ci-cd/codequality
+  description: |
+    Code Quality Analysis tool for GitLab CI
+
 secure-SAST-eslint:
   name: Static Analysis - Eslint analyzer
   path: gitlab-org/security-products/analyzers/eslint
@@ -822,13 +836,6 @@ verify-accessibility:
   link: https://gitlab.com/gitlab-org/ci-cd/accessibility
   description: |
     Accessibility tool for GitLab CI
-
-verify-codequality:
-  name: Code Quality
-  path: gitlab-org/ci-cd/codequality
-  link: https://gitlab.com/gitlab-org/ci-cd/codequality
-  description: |
-    Code Quality Analysis tool for GitLab CI
 
 container-registry:
   name: Container Registry
@@ -1131,9 +1138,9 @@ gitlab-cli:
   path: gitlab-org/cli
   link: https://gitlab.com/gitlab-org/cli
   description: |
-    GLab is an open source GitLab CLI tool bringing GitLab to your terminal next 
-    to where you are already working with git and your code without switching 
-    between windows and browser tabs. Work with issues, merge requests, watch 
+    GLab is an open source GitLab CLI tool bringing GitLab to your terminal next
+    to where you are already working with git and your code without switching
+    between windows and browser tabs. Work with issues, merge requests, watch
     running pipelines directly from your CLI among other features.
 
 discoto:

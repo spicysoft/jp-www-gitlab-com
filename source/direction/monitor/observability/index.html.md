@@ -116,10 +116,14 @@ Details TBD
 
 ## Roadmap  
 
-|                    | FY23`Q4 | FY24`Q1 | FY24`Q2 | FY24`Q3 |
-|--------------------|---------|---------|---------|---------|
-| o11y Backend       |         |         |         |         |
-| o11y Visualization |         |         |         |         |
+| FY23 Q4 | FY24 Q1 | FY24 Q2 | FY24 Q3 |
+|---------|---------|---------|---------|
+| [Move navigation to GitLab](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/31)        |  [GitLab pipeline instrumentation](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/41)           |  [Self-hosted alpha distribution is available](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/26)       |         |
+| [Embed traces or errors in Issues and Incidents (our first embed)](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/33)        |  [Automatically observe kubernetes cluster](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/40)       |         |         |
+| [User can add and remove datasources](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/36)        |  [Collect kubernetes cluster information](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/39)        |         |         |
+| [Manage dashboards in project repositories as code](Manage dashboards in project repositories as code)        |         |         |         |
+| [Default dashboards included when adding certain data sources](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/38)        |         |         |         |
+| [Metrics design](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1771)       |  [ClickHouse backed Metrics: first implementation](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/42)       |         |         |
 
 ## Planning
 

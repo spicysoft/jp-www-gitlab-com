@@ -24,9 +24,9 @@ projects:
   gitlab-qa: reviewer
   gitlab-styles: reviewer
   gitlab-triage: reviewer
+  gitlab-rspec-profiling-stats: reviewer
   quality-pipeline-common: reviewer
-  triage-ops: reviewer
+  triage-ops: maintainer
 specialty: Engineering Productivity
 expertise:
 story:
-

@@ -15,7 +15,7 @@ departments:
 - Sec Section
 - Secure:Dynamic Analysis BE Team
 projects:
-  secure-api-security: maintainer backend
+  secure-api-security: maintainer
 story: 'Mike has spent his career focused on computer security and building security
   testing tools. Mike is proud to have been part of the early hacker culture that
   grew into the diverse professional  computer security field we now have. Along the

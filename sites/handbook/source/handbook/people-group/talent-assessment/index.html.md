@@ -41,7 +41,7 @@ In addition to assessing Performance/Growth Potential, we annually review Key Ta
 |-----------------|---------------|---------------|----------------|
 | **Exceeding** | **Box 5** Team member is performing well in their current job but needs to continue to grow in current role, or has not exhibited the willingness or ability to grow in the current role.| **Box 2** Team member performs well in their current job, makes valuable contributions and consistently demonstrates competencies required. They have shown willingness and/or ability to further grow in their role and they may be ready to take on additional responsibilities in the next 12 months. | **Box 1** Team member is developing faster than the demands of their current position and/or division. Team member has been given additional assignments and has demonstrated high-level commitment/achieved significant results. Team member is ready to broaden their skill set and take on significantly greater scope and responsibility |
 | **Performing** | **Box 7** Team member is currently meeting expectations of their role. Team member is not willing or able to absorb greater scope, impact or complexity. | **Box 4** Team member is currently meeting expectations and has shown willingness or ability to further grow; may not be ready to absorb greater scope, impact or complexity in the next 12 months. | **Box 3** Team member is contributing as expected and is meeting performance expectations. They have shown willingness and/or ability to further grow in their role and they may be ready to take on additional responsibilities in the near future. |
-| **Developing** | **Box 9** Team member is not meeting performance expectations and there is still more to learn in the current position. Team member has not been in the position long enough (promotion, new to the role, or new hire) to adequately demonstrate the pillars of growth potential for a sustained period of time, or they do not have the willingness to further grow. | **Box 8** Team member has not been in the position long enough to adequately demonstrate their capacity (promotion, new to the role, or new hire), or may have lost pace with changes in the organization. The team member has shown the willingness and/or ability to grow in the role aligned with the pillars of growth. | **Box 6** The team member is not meeting the requirements of their current role, but has demonstrated willingness and ability to extend beyond scope once ramped, and/or is showing the willingness and ability to grow further with additional guidance or direction. The team member could be more successful in the current role with more direction/time to ramp, or in another role or department that more appropriately suits their skill set.|
+| **Developing** | **Box 9** Team member is not meeting performance expectations and there is still more to learn in the current position. Team member has not been in the position long enough (promotion, new to the role, or new hire) to adequately demonstrate the pillars of growth potential for a sustained period of time, or they do not have the willingness to further grow. | **Box 8** Team member has not been in the position long enough to adequately demonstrate their capacity (promotion, new to the role, or new hire), or may have lost pace with changes in the organization. The team member has shown the willingness and/or ability to grow in the role aligned with the pillars of growth or has had opportunity to consistently demonstrate performance and growth potential. | **Box 6** The team member is not meeting the requirements of their current role, but has demonstrated willingness and ability to extend beyond scope once ramped, and/or is showing the willingness and ability to grow further with additional guidance or direction. The team member could be more successful in the current role with more direction/time to ramp, or in another role or department that more appropriately suits their skill set.|
 
 This matrix is an individual assessment tool that evaluates both a team members current contribution to the organization and their potential level of contribution.
 It is commonly used in succession planning as a method of evaluation an organization's talent pool, identifying potential leaders, and identifying any gaps or risks.
@@ -111,6 +111,8 @@ Examples:
 
 ### Expected Distribution Performance/Growth Potential Company-Wide
 
+Note that this is an expected distribution, not a forced distribution. The bell curve distribution aligns with what is most commonly used as a benchmark in the industry and serves as a baseline for us to review and calibrate against. There may be exceptions that are justified that can be discussed and reviewed during calibration. Where deviations from the expected distribution occur, managers should use this as a data point to further review and work with their leadership to ensure appropriate growth plans are in place, proper role fit exists, hiring plans are adjusted, that we are promoting at a fair and accurate rate.
+
 Performance: 
 - **Developing**: 10-15%, not yet meeting all of the expectations 
 - **Performing**: 60-65%, “on track” and meeting expectations 
@@ -120,6 +122,10 @@ Growth Potential:
 - **Developing**: 10-15%
 - **Growing**: 60-65%
 - **Exceeding**: 25%
+
+
+Remember that "Developing" for Performance and Growth Potential should not be automatically associated with underperformance, and that many newly promoted team members and new hires fall into this category.
+
 
 ### The Performance Factor
 
@@ -166,7 +172,7 @@ There are four primary pillars to consider when measuring growth potential:
 
 | "Growth Potential" Pillar | Definition |
 | --------------- | ----------------- |
-| Adaptability | Demonstrating a willingness and ability to learn new skills and apply them to be successful under new, tough, or difficult conditions. |
+| Adaptability | Demonstrating a willingness and ability to learn new skills and apply them to be successful under new, tough, or difficult conditions. Ability to navigate uncertainty and be flexibile with change. |
 | Expandability | Expandability outside their areas (laterally or vertically), with the willingness and ability to take on a role of greater complexity, impact, and scope |
 | Consistency | Demonstrating effective problem-solving capabilities, the consistent delivery of results over time in changing circumstances, and dependability in the commitments you make. |
 | Self-Awareness | The depth to which an individual recognizes skills, strengths, weaknesses, blind spots, and is able to reflect and act to improve and invest in their own development. Judgment in decision-making is also a key element of self-awareness. Judgment can be seen through our level of self-awareness in several ways, including communication, collaboration, and results. Judgment can be defined as "The ability to make considered decisions or come to well thought-out conclusions", and to do this effectively, we need to have a heightened sense of self-awareness in terms of how our communication will come across and how decisions and conclusions drawn will impact others and their willingness to collaborate. |
@@ -268,7 +274,9 @@ The calibration session is one of the most important pieces of the Performance/G
 * Refer to performance data that you may have taken on a team member throughout the past year - including 360 review feedback (if both team member and manager agree to include), performance against metrics over time, key accomplishments, etc.; this will help avoid bias like recency bias or the halo effect. Please note that when reviewing 360 data for the Q4 talent assessment, it's important to take into account areas in which the team member has improved. Two quarters is a fairly significant amount of time and team members have (hopefully) take action on improvement areas during this period, which should be reflected in the assessment. Managers and other participants in calibration discussions should be prepared with this information if asked how they determined a rating. 
 * Leaders should feel comfortable highlighting team members in other functions
 * Focus on discussing artifacts that are relevant to the performance factor and refrain from discussing artifacts that are not relevant to performance being developing, performing or exceeding. Examples of artifacts which are not relevant: upcoming maternity/parental leave, personal information/home situation or things that were confidentially shared and do not relate to performance. 
+* Refer to the competencies and values when deciding what is relevant.
 * Focus on facts and avoid blanket statements (I.E. [team member] has poor communication)
+* Calibration is not a stack ranking of team members. While some inter-person comparison may happen, it should only be to ensure that evaluations are being applied fairly across different raters.
 * **Ask questions and provide feedback!** This may seem obvious, but it is import aspect to help identify any potential bias
 
 ##### Who Do I Calibrate?
@@ -703,6 +711,8 @@ _Note that the `Emergency Coverage` slide in the [template above](https://docs.g
 | [Workday Job Aid: How to Complete My Annual Self Evaluation](https://docs.google.com/document/d/1xLsiB6RljJUQGT9EWbNOMqCVL-Kb8dS1PivriVjgz5E/edit?usp=sharing) | Team member instructions for how to complete their annual Self-Evaluation task in Workday. |
 | [Workday Job Aid: How to Complete the Manager  Evaluation and Assess Growth Potential](https://docs.google.com/document/d/11wq7xkWi0O6a_YXtkH8RSy7DX5Rvxx1j7muWkaFIym0/edit?usp=sharing) | Manager instructions for how to complete their Manager Evaluation task and Assess Growth Potential task in Workday. |
 | [Workday Job Aid: How to Complete Talent Calibration](https://docs.google.com/document/d/1rcHLTE3cvmh_zglHO789uqaN25vYhvGSFRBbHMg8tJk/edit?usp=sharing) | Manager instructions for how to complete their Talent Calibration in Workday. |
+| [Workday Job Aid: How to Facilitate Calibration - PBPs](https://docs.google.com/document/d/1NZWGjhwGnRDcP2ANnyg8PLsNY-tRSlH5V8sEoSCE1Dc/edit) | PBP instructions for how to facilitate calibration sessions in Workday.| 
+| [Workday Calibration Video Tutorial] (https://drive.google.com/file/d/1WiX6qawWqscJGMYR3IaxiCUycWwrrl-U/view?usp=share_link) | Manager instructions for how to complete their Talent Calibration in Workday. |
 | [Talent Assessment Calibration Agenda Doc](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#heading=h.q1ptlqi506at) | This template can be used by managers to ensure similar pre-work, structure, and context to generate alignment ahead of live calibration sessions. The agenda is also recommend to ensure rationale behind potential assessment changes during calibration are recorded. |
 | [Values competencies](/handbook/competencies/#values-competencies) | Values competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
 |[Remote work competencies](/handbook/competencies/#remote-work-competencies) | Remote work competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
@@ -735,20 +745,17 @@ _Note: Intentionally hoarding knowledge is in direct conflict with our [transpar
 
 ## Process To Determine Key Talent
 
-The first time we assessed Key Talent in March FY'22, Key Talent was determined at the ["all-directs" level](https://about.gitlab.com/company/team/structure/#all-directs). The All-Directs group is made up of anyone who reports directly to the e-group. It is made up of some ICs, some managers, some directors, and some senior leaders. 
+It is important to have a holistic view of all team members when determining who meets the key talent criteria, which is why we require a certain scope when calibrating key talent and making final recommendations in the organization. There are several factors that can help determine the level at which key talent should be assessed, including things like reporting lines and span of control. As a general rule, if a people manager meets the following requirements, key talent calibrations should start at their level:
 
-It is important to have a holistic view of all team members when determining who meets the key talent criteria, which is why we require a certain scope when assessing key talent in the organization. There are several factors that can help determine the level at which key talent should be assessed, including things like reporting lines and span of control. As a general rule, if a people manager meets the following requirements, key talent recommendations should start at their level:
 - Senior Manager level or above
 - 20+ direct and indirect reports
 
 The process to determine Key Talent is as follows: 
 
-   1. Senior Managers (if applicable), Directors, and Senior Directors can propose Key Talent to their manager and ultimately [All Directs](https://about.gitlab.com/company/team/structure/#all-directs) leader by highlighting team members in their division's key talent sheet. The fields that will be captured mirror [this template for the sheet](https://docs.google.com/spreadsheets/d/1D8zO_Yat9pMmNoxSh61J4qg1IqRxCBJ58EsPEOOcZK0/edit#gid=0) explaining how team members meet the Key Talent [criteria](/handbook/people-group/talent-assessment/#key-talent). 
-   2. The Senior Manager (if applicable), Director, Senior Directors, VP, and People Business Partner (PBP) discuss and calibrate the Key Talent nominations.
-   3. All proposals are gathered in one overview sheet for the Department. 
-   4. The PBP can use this sheet to review distributions levels across diversity factors and department/team/division.
+   1. Direct managers make initial key talent recommendations in Workday. The direct manager should include the key talent recommendation along with the Performance and Growth Potential recommendation. The [key talent criteria](https://about.gitlab.com/handbook/people-group/talent-assessment/#key-talent-criteria) that is met should be noted in Workday.
+   1. During sub-department calibration sessions, Senior Managers+ should calibrate on the initial key talent recommendations and make adjustments as appropriate, keeping in mind both [key talent criteria](https://about.gitlab.com/handbook/people-group/talent-assessment/#key-talent-criteria), and number of individuals identified as key talent, as key talent makes up only ~10% of team members company-wide.
+   2. The Senior Manager (if applicable), Director, Senior Directors, VP, and People Business Partner (PBP) discuss and calibrate the Key Talent nominations at the department level calibration sessions.
    5. A final proposal goes to the E-Group member who adds in their Key Talent and reviews for final approval on Division level.
-   6. PBP and E-Group member deliver sheet to Total Rewards to be uploaded in BHR.
 
 ## Organizational Value
 

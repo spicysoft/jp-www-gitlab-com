@@ -17,16 +17,17 @@ While downtime avoidance is preferable, downtime is not avoidable. As such, it i
 The majority of investment and focus of the DevOps industry (including GitLab) to date has been on downtime avoidance. There are some entrenched competitors approaching incident management from the perspective of workflows (ServiceNow), or incident notification (Pager Duty, OpsGenie). Despite this, holistic incident management products are lacking resulting in many organizations stitching together point solutions mixed with a healthy dose of DIY. We believe that many organizations are looking for ways to avoid reinventing the wheel on incident management
 
 ### Demo
-Check out this short demo that highlights GitLab Incidents as the single source of truth (SSOT).
+Check out this short video that highlights important incident metrics and what we're building to measure these metrics in GitLab Incidents.
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="https://www.youtube-nocookie.com/embed/ResCq5DsjME" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/l2Larebm1Ic" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
 
 To see past demos take a look at the [Respond Group playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoO5WmppV5TduOD9D-IP2p0) or click the link(s) below.
 - [August 2022](https://www.youtube.com/watch?v=MIjGyoTh7hQ) - What we've built so far; on-call schedules, escalation policies, alerts, and incidents.
+- [September 2022](https://www.youtube.com/watch?v=ResCq5DsjME) - GitLab Incidents as the single source of truth (SSOT).
 
 ### Vision
 

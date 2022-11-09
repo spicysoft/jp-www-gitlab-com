@@ -65,9 +65,6 @@ The Growth and Development policy is meant to further team members' learning and
 |[Coaching Right Now (GitLab's coaching vendor of choice)](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issuable_template=coaching) Learn more about Coaching Right Now [below](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#coaching-right-now). | 30 days before the commencement date|
 | Your 4th Trimester | For Your 4th Trimester applications, please notify Total Rewards that you would like to participate in the program by sending an email to `growth-development@gitlab.com`. |
 
-
-* For bulk applications or if you are a manager creating one issue for your team members, please include the team members' GitLab emails on the issue.
-
 * Note: This application process is visible internally. It is preferred and more efficient to create an issue for your application, however, if there is any reason that you would like to keep your application confidential, please send growth-development@gitlab an email with the details of your application (refer to the issue templates for the information required).
 
 **Step 3:** Request approval on the issue. Manager approval is needed for all applications and Executive Leader approval is needed for applications above $1000 USD. 
@@ -88,6 +85,10 @@ The Growth and Development policy is meant to further team members' learning and
 * If you have signed up for academic study, you may claim for [reimbursement](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#reimbursements-of-growth-and-development-applications) once you receive your grade/transcript (this can be done at the end of each semester if your course is split into semesters or at the end of the program). You may close the issue once you have received reimbursement for the whole program. 
 * For other types of Growth & Development opportunities, you may claim for [reimbursement](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#reimbursements-of-growth-and-development-applications) once you have obtained the reimbursement requirement per the [descriptions below](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements). You may close the issue once you have gained approval for your application.
 
+## Bulk Applications
+* If multiple team members are doing the same training or attending the same conference, please open one issue.
+* For ease of processing, it is recommended that bulk applications are paid via [Coupa](/handbook/finance/procurement/). If the bulk application is for a conference, the group tickets may be paid via [Coupa](/handbook/finance/procurement/) under one invoice and individual costs (such as accommodation and food) may be claimed by Expensify or the Growth & Development email per the [reimbursement process](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#reimbursements-of-growth-and-development-applications) below.
+
 ## Reimbursements of Growth and Development Applications
 
 **If the cost is [$1,000 USD or less](https://about.gitlab.com/handbook/total-rewards/compensation/#exchange-rates)**
@@ -99,9 +100,10 @@ The Growth and Development policy is meant to further team members' learning and
 * Please claim conference and workshop meals and lodging that cost $1,000 USD and below per receipt via [Expensify](/handbook/finance/expenses/#-introduction).
 
 **If the cost is [over $1,000 USD](https://about.gitlab.com/handbook/total-rewards/compensation/#exchange-rates)**
-* For conference/workshop tickets and lodging (that are above $1,000 USD per receipt), memberships, please send the invoice to `growth-development@gitlab` once you have signed up. 
-* For academic study, send a copy of your grades/transcript and invoice to `growth-development@gitlab`. 
-* For professional development and certifications, please send a copy of your certificate or proof of completion to `growth-development@gitlab`.
+* For conference/workshop tickets and lodging (that are above $1,000 USD per receipt), memberships, please send the invoice to `growth-development@gitlab.com` once you have signed up. 
+* For academic study, send a copy of your grades/transcript and invoice to `growth-development@gitlab.com`. 
+* For professional development and certifications, please send a copy of your certificate or proof of completion to `growth-development@gitlab.com`.
+* For coaching recieved outside of our Coaching Right Now vendor, please send a copy of your paid invoice to `growth-development@gitlab.com`
 * Please see the Growth & Development [table](https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements) for what additional documentation may be required for reimbursement.
 * Total Rewards will then notify payroll to begin the reimbursement process.
 
@@ -140,9 +142,11 @@ The course must be from a credentialed college or university and must be relevan
 
 **Desription:** Professional coaching for managers and leaders to support their development in their professional area of interest.  We encourage team members to utilize GitLab's internal resources but understand that some team members may desire to have additional external coaching resources to develop their leadership skills. Team members are expected to know their confidentiality obligations and are responsible for keeping conversations [SAFE](/handbook/legal/safe-framework/) during coaching sessions.
 
-If you are interested in Coaching, GitLab's coaching vendor of choice is [Coaching Right Now](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?usp=sharing&ouid=113211236094818760555&rtpof=true&sd=true). Review the [available coach bios with Coaching Right Now.](https://drive.google.com/file/d/1OG0Gn1Cef-9OulTKpXANqBWkTaFuVC2P/view?usp=sharing). Please note that coaches schedules are available on a first come, first served basis. Team members have access to 4, 6, or 8hrs of coaching with the vendor on all topics related to leadership.
+If you are interested in Coaching, GitLab's coaching vendor of choice is [Coaching Right Now](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?usp=sharing&ouid=113211236094818760555&rtpof=true&sd=true). Review the [available coach bios with Coaching Right Now.](https://drive.google.com/file/d/1OG0Gn1Cef-9OulTKpXANqBWkTaFuVC2P/view?usp=sharing). Please note that coaches schedules are available on a first come, first served basis. Team members have access to 4, 6, or 8hrs of coaching with the vendor on all topics related to leadership. By pairing with a coach via Coaching Right Now, team members save time and energy looking for their own coach, and know they are pairing with a coach that is familar with and aligned to GitLab values and way of working.
 
-When you're ready to apply, open a Growth and Development approval issue using the [coaching template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issuable_template=coaching).
+When you're ready to apply for a coach via Coaching Right Now, open a Growth and Development approval issue using the [coaching template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issuable_template=coaching).
+
+Coaching Right Now is our preferred coaching partner, which has been vetted for GitLab. If for some reason the coaches offered via Coaching Right Now do not fit your needs, please open the [Other G&D Types (Under $300 USD)](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issuable_template=other-GD-under). After approvals, you will need to provide a paid invoice to GitLab as proof for reimbursement. 
 
 **The specifics of your coaching sessions will not be communicated to GitLab**. While not required, we strongly encourage you to share your experience, learnings, reflections,  and discoveries with your manager so they can reinforce them and support you on this journey. Individual contributors below Grade 8 are encouraged to receive coaching and mentorship from their managers and our [internal resources](/handbook/leadership/coaching/).
 
@@ -187,7 +191,7 @@ Examples of English Language Courses:
 
 ### Workshops and Conferences
 
-**Desription:** Work-related conferences including registration, lodging, and meals. The training budget does not include the cost for traveling to and from an event. We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [Corporate Marketing](/handbook/marketing/corporate-marketing/#speakers) page. We suggest to the attendees bring and share a post or document about the news and interesting items that can bring value to our environment. 
+**Desription:** Work-related conferences including registration, lodging, and meals. **The training budget does not include the cost for traveling to and from an event.** We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [Corporate Marketing](/handbook/marketing/corporate-marketing/#speakers) page. We suggest to the attendees bring and share a post or document about the news and interesting items that can bring value to our environment. 
 
 **Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After manager approval, the team member needs to submit a Growth & Development form for expenses either [over $1,000 or under $1,000](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all parties sign the document, they can schedule travel. Please review current [GitLab travel policy](https://about.gitlab.com/handbook/travel/) for the most up-to-date information about booking and planning conference travel and determine if travel is [business essential](/handbook/travel/#business-essential) during Covid-19. Reimbursement for the workshop or conference fee, and for related expenses will be processed once proof of attendance is provided. Attach a copy of the Growth & Development Benefit Form to your expenses. 
 
@@ -256,6 +260,7 @@ The following programs have been contributed by leaders across the organization.
 | Security | [Defcon Trainings](https://defcon.org/) | Two-day courses that are held immediately following the normal Defcon conference. |
 | Security | [Black Hat Trainings](https://www.blackhat.com/trainings/) | Two to four-day courses held on a schedule not connected to the yearly conference. |
 | Security | [SANS Trainings](https://www.sans.org/) | Remote and in-person trainings and certifications. |
+| Security | [Offensive Security](https://www.offensive-security.com/) | Rigorous and specialized infosec training. |
 | Any | [The Power of Habit](https://cruciallearning.com/the-power-of-habit/) | 3-5 hours of self-paced learning. Read a review from GitLab team member [here](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/597#note_1083831440) |
 
 ## Benefit processing documentation for the Total Rewards team 

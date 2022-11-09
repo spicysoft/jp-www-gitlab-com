@@ -9,20 +9,21 @@ title: Mobile DevOps Apps Single-Engineer Group
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-### [2022-10-214] Secure Files Metadata Processing
+### [2022-11-04] Secure Files Runner Support
 
-In this update we look into how the secure file metadata processing works, and the initial MVC for the Mobile DevOps Settings page.
+This update covers the process needed to download Project-level Secure Files into CI jobs, and demos some code to show how this could be integrated directly with the GitLab Runner.
 
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/mvQUFYIaVv4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/UPJhZ_9Tdjs" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-[https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/91](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/91)
+[https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/93](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/93)
 
 ### Recent Updates
 
 | Date              | Topic | Video | Issue |
 |-------------------|-------|-------|-------|
+| October 14, 2022 | Secure Files Metadata Processing| [https://youtu.be/mvQUFYIaVv4](https://youtu.be/mvQUFYIaVv4) | [https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/91](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/91) |
 | September 29, 2022 | Content Strategy | [https://youtu.be/yF1ipQS8dXI](https://youtu.be/yF1ipQS8dXI) | [https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/90](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/90) |
 | September 13, 2022 | Secure Files Parsers | [https://youtu.be/R4asgR4Q1Q4](https://youtu.be/R4asgR4Q1Q4) | [https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/86](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/86) |
 | August 25, 2022 | Mobile DevOps Project Settings | [https://youtu.be/mmeHhMQV-ck](https://youtu.be/mmeHhMQV-ck) | [https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/85](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/readme/-/issues/85) |

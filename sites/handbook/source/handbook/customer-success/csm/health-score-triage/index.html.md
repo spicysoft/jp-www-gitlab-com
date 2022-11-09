@@ -90,7 +90,12 @@ There might be well understood reasons within the account team why a customer is
 Specific, known risks to account retention or upcoming opportunity, or overwhelming lack of information, such as unresponsiveness leading up to renewal. Customer's experience: engagement, adoption and/or experiences are significantly lower than expected where issues are blocking GitLab's ability to deliver expected value, outcomes, or positive experiences as defined by the customer.
 Examples:
 
-- Lack of alignment with stakeholders who can drive desired outcomes
+- Lack of alignment with stakeholders who can drive outcomes... 
+   - [Economic Buyer](https://about.gitlab.com/handbook/sales/meddppicc/#economic-buyer) 
+   - [Champion](https://about.gitlab.com/handbook/sales/meddppicc/#champion)
+   - Key [Personas](https://about.gitlab.com/handbook/product/personas/) 
+      - [Cameron (Compliance Manager)](https://about.gitlab.com/handbook/product/personas/#cameron-compliance-manager)
+      - [Delaney (Development Team Lead)](https://about.gitlab.com/handbook/product/personas/#delaney-development-team-lead)
 - Product does not deliver expected value or outcomes as defined by success plan
 - No or low product adoption with no progression
 - Communication of poor sentiment
@@ -154,6 +159,9 @@ There are a number of [enablement videos](/handbook/customer-success/csm/gainsig
 
 #### Clearing Stale Health Measures
 
+**Product**
+If usage data stops being received into Gainsight, the health measures will move to "NA" after 60 days. This is to prevent analysis and actions based on outdated data. In this case, we prefer to show nothing ("NA") over outdated data.
+
 **CSM Sentiment**
 `CSM Sentiment` health scores become stale after 90 days of not being updated; this will be reflected on your health score dashboard by an exclamation point next to the score. If an account is marked as stale, but you've updated the `CSM Sentiment` within 90 days, please reach out in [gainsight-users](https://gitlab.slack.com/archives/C011ACG9MJB). Accounts with a stale `CSM Sentiment` will also be monitored via the CSM Burn-Down Dashboard in Gainsight and discussed in account planning meetings. Sentiment scores will be set to NA if they have not been updated in more than 120 days to remove outdated values.
 
@@ -173,8 +181,9 @@ Health score criteria is either manually or automatically applied to determine t
 
 | Group (PROVE) | Measure | Description | Method | Calculation | Measure Weight | Group Weighting | Segmentation |
 |---|---|---|---|---|---|---|---|
-| **Product** |  | Scores the customer based on their depth and breadth of adoption, if Operational Metrics are available | Automatic | [See Customer Use Case Adoption](https://rgorbanescu-master-patch-65934.about.gitlab-review.app/handbook/customer-success/product-usage-data/use-case-adoption/) |  | 25% |  |
-|  | License utilization |  |  |  | 40% |  | All |
+| **Product** |  | Scores the customer based on their depth and breadth of adoption, if Operational Metrics are available | Automatic | [See Customer Use Case Adoption](https://rgorbanescu-master-patch-65934.about.gitlab-review.app/handbook/customer-success/product-usage-data/use-case-adoption/) |  | 50% |  |
+|  | License utilization |  |  |  | 30% |  | All |
+|  | User Engagement |  |  |  | 10% |  | All |
 |  | SCM adoption |  |  |  | 15% |  | All |
 |  | CI adoption |  |  |  | 15% |  | All |
 |  | DevSecOps adoption |  |  |  | 15% |  | All |

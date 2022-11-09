@@ -1014,7 +1014,7 @@
 - sources:
   - /handbook/engineering/ux/ux-researcher-training
   - /handbook/engineering/ux/ux-researcher-training/
-  target: /handbook/product/ux/ux-research-training/
+  target: /handbook/product/ux/ux-researcher-training/
   comp_op: '='
 - sources:
   - /job-families/legal
@@ -2629,7 +2629,6 @@
 - sources:
   - /handbook/product/product-categories/plan/
   - /handbook/product/product-categories/plan
-  - /handbook/engineering/development/dev/plan/
   target: /handbook/product/categories/plan/
   comp_op: '='
 - sources:
@@ -4248,7 +4247,8 @@
 - sources:
     - /direction/create/snippets
     - /direction/create/snippets/
-  target: /direction/create/editor/snippets/
+    - /direction/create/editor/snippets/
+  target: /direction/create/source_code_management/source_code_management/#snippets
   comp_op: '='
 - sources:
     - /direction/create/live_preview
@@ -4272,11 +4272,6 @@
 - sources:
     - /handbook/sales/field-operations/sales-systems/gtm-technical-documentation/gainsight/
   target: /handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html
-  comp_op: '='
-- sources:
-    - /handbook/customer-success/tam/gainsight/license-usage
-    - /handbook/customer-success/tam/gainsight/license-usage/
-  target: /handbook/customer-success/product-usage-data/license-utilization/
   comp_op: '='
 - sources:
     - /direction/plan/epics
@@ -4362,7 +4357,7 @@
 - sources:
   - /handbook/engineering/ux/ux-research-training/strategic-research-at-gitlab/cross-stage-research-program.html
   - /handbook/engineering/ux/ux-research-training/strategic-research-at-gitlab/devops-platform-research-program.html
-  target: /handbook/product/ux/ux-research-training/strategic-research-at-gitlab/gitlab-adoption-research-program.html
+  target: /handbook/product/ux/ux-research/strategic-research-at-gitlab/gitlab-adoption-research-program.html
   comp_op: '='
 - sources:
   - /handbook/hiring/resource-guide
@@ -4623,7 +4618,9 @@
 - sources:
   - /handbook/mecc
   - /handbook/mecc/
-  target: /handbook/teamops/
+  - /handbook/teamops
+  - /handbook/teamops/
+  target: /teamops/
   comp_op: '='
 - sources:
   - /handbook/customer-success/tam/
@@ -4675,3 +4672,27 @@
 - sources: /handbook/engineering/security/
   target: /handbook/security/
   comp_op: '~'
+- sources:
+  - /handbook/teamops/informed-decisions/
+  target: /handbook/teamops/shared-reality/
+  comp_op: '~'
+- sources:
+  - /handbook/teamops/executing-decisions/
+  target: /handbook/teamops/measurement-clarity/
+  comp_op: '~'
+- sources:
+  - /handbook/teamops/fast-decisions/
+  target: /handbook/teamops/everyone-contributes/
+  comp_op: '~'
+- sources:
+  - /handbook/teamops/many-decisions/
+  target: /handbook/teamops/decision-velocity/
+  comp_op: '~'
+- sources: /handbook/engineering/readmes/wayne-haber/development-director-shadow-experiment.html
+  target: /handbook/engineering/development/shadow/director-shadow-program.html
+  comp_op: '='
+- sources:
+  - /handbook/engineering/development/dev/manage/optimize/
+  - /handbook/engineering/development/dev/manage/optimize
+  target: /handbook/engineering/development/dev/plan/optimize/
+  comp_op: '='

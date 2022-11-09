@@ -2,11 +2,11 @@
 name: Elliot Rushton
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/#backend-manager-engineering">Backend
+role: <a href="/job-families/engineering/development/management/#fullstack-manager">Fullstack
   Engineering Manager, Verify:Runner</a>
 reports_to: danielcroft
 picture: elliotrushton.jpg
-twitter: ehxor
+twitter:
 gitlab: erushton
 departments:
 - Engineering Function

@@ -70,6 +70,15 @@ There are two new fields in SFDC, `MQL DateTime` that is the lesser of the above
 
 The logic for finding when a person became an MQL is captured in the `mql_reporting_date` field. The `mql_reporting_date` field should always be used to report inquiries unless you are looking for something specific.
 
+| Field Label (SFDC)           | Field API Name           | Definition                                                                                                                            | Purpose and When to Use                                         |
+|------------------------------|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [Beta] MQL DateTime          | True_MQL_Date__c         | The true/reportable MQL Date for the most recent MQL of a record. Lesser of Marketo MQL DateTime and SFDC MQL DateTime                   | Current MQL Count/ When a record most recently MQL'd |
+| Initial MQL DateTime         | True_Initial_MQL_Date__c | The true/reportable MQL Date for the first/initial MQL of a record. Lesser of Initial Marketo MQL DateTime and Initial SFDC MQL DateTime | When a record First MQL'd                            |
+| Initial Marketo MQL DateTime | Initial_MQL_Date__c      | Set by Marketo when a record reaches the MQL Threshold. Stamped the first time this happens                                              | input metric - not needed for reporting              |
+| Initial SFDC MQL DateTime    | Initial_MQL_DateTime__c  | Set by SFDC when a record skips the MQL Stage, Inquiry > Accepted for example. Stamped the first time this happens.                      | input metric - not needed for reporting              |
+| Marketo MQL DateTime         | MQL_Date__c              | Set by Marketo when a record reaches the MQL Threshold.  Updates each time this happens.                                                 | input metric - not needed for reporting              |
+| SFDC MQL DateTime            | MQL_DateTime_Inferred__c | Set by SFDC when a record skips the MQL Stage, Inquiry > Accepted for example. Updates each time this happens.                           | input metric - not needed for reporting              |
+
 ##### Technical Definition
 Any lead or contact from the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table where the MQL first or Inferred MQL date is not null. 
 
@@ -224,6 +233,27 @@ We use a variety of methods and systems to collect leads and understand how peop
 Note: The time delay between a record being added to SFDC and the time it takes to process in Marketo, get a score, and get pushed back to SFDC as a MQL causes a discrepancy between Inquiries and MQLs for trials on a given day or in a given month (when the trial occurs on the first/last day of the month) when viewed on the [Marketing Metrics Dashboard](https://app.periscopedata.com/app/gitlab/431555/Marketing-Metrics).
 
 ![Trial sign up flow](/images/handbook/marketing/marketing-operations/trial-sign-up-flow.png)
+
+### Alternative Method for Account Demographics Fields on Leads
+
+In Q3 FY23 we completed the first phase of creating an alternative method for supplementing our Account Demographics fields on SFDC leads. We started this project after noticing a large portion of our leads had `null` values in the Account Demographics fields for segment, geo, etc.
+
+To address this, we created and validated two new alternative mappings to account demographics fields for Segment and Geo. We took a waterfall approach, by first using the Account Demographics fields if present, then falling back to data enrichment fields on the lead record. Below is the more detialed logic:
+
+To find Segment the logic is as follows (`employee_bucket_segment_custom`):
+- If Lean_Data_Matched_Account_Sales_Segment__c shows as pubsec, use it first; otherwise use Account Demographics
+- If still null, use the ZoomInfo employee count
+- If still null, use the manual input employee count
+
+To find Geo the logic is as follows (`geo_custom`):
+We used the [FY23 Territories Mapping File - SSoT](https://docs.google.com/spreadsheets/d/1gElhORjqraKDMQnWzApPelyP_vVa24tAOA85vb5f3Uc/edit#gid=1236326957) mapping doc to find how countries mapped to Geos across segments.  
+  - If Account Demographics, use it    
+  - Otherwise find the first non-null value from Zoominfo then Cognism
+  - Map the found country to a GEO via a hardcoded list.
+        
+This logic has been [added to DBT](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.map_alternative_lead_demographics), and can be used in models as needed.
+
+We have added new charts to the [Weekly Marketing Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965065/TD:-Weekly-Marketing-Metrics) with the alternative mappings while keeping the Account Demographics (original) version. We have also added tables to the [Integrated Marketing Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/1061201/Draft:-Integrated-Marketing-v1), ensuring we left the original Account Demographics versions too.
 
 
 ## Filters on Marketing Dashboards

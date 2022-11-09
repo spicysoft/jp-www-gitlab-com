@@ -103,7 +103,8 @@ If you received the same nomination twice (for the same person and the same reas
 
 ##### Nominator Bot Process
 
-**Any GitLab team member**
+###### Any GitLab team member
+
 1. Go to Slack and type `/nominate`
 1. Slack will open a dialog and ask you for some details about the nomination. Use the motivation text field, to write a few sentences describing how the GitLab team member has demonstrated a specific GitLab value in their work.  Please make sure you have viewed the valid and invalid criteria listed above. Don't forget that the nomination request should tie to our values and be detailed enough to ensure that the nomination meets the criteria. You can select the values it applies to.
 1. If applicable, please be sure to include any relevant issues or merge requests that support the nomination.
@@ -111,13 +112,16 @@ If you received the same nomination twice (for the same person and the same reas
 1. If at any point in the approval flow the manager or the manager's manager has a question about approving the bonus they can reach out to the manager and/or nominator for more context. If they have remaining questions related to the process and logistics (e.g., where is the bonus in the approval chain?) they can reach out to [people connect](/handbook/people-group/people-connect/). For remaining questions regarding guidance on whether to approve a nomination, they can reach out to their aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
 1. Once everyone has approved the bot will report back to you with the good news. If it's rejected we ask the person who rejects, to reach out to you. That is not done by the bot.
 
-**Manager Process**
+###### Manager Process
+
 1. The Nominator bot will send you a Slack DM asking to approve or reject the nomination.
 1. When you decide to approve, all you need to do is click the approve button. The bot will take care of the next steps (sending it to the second level manager and the People Connect team).
 1. When you decide to reject, click the reject button. The nomination will be updated as `rejected_by_manager`. The bot will ask you to reach out to the nominator as to make sure they understand why the nomination was not approved.
-1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the [#team-member-updates](https://gitlab.slack.com/archives/CL55Q4U0K) Slack channel, and optionally cross-post to the team member's group channel.
+1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the [#team-member-updates](https://gitlab.slack.com/archives/CL55Q4U0K) Slack channel, and make sure the team member's direct peers can easily see it:
+     - For example, cross-post to the team member's group channel
+     - For Support, add it to the [Support Week in Review](https://about.gitlab.com/handbook/support/#support-week-in-review) as a "Team Member Update" item
 
-**Approval flow**
+###### Approval flow
 ```mermaid
 graph TD;
   A[Nomination] -->|Bot logs and sends to manager| C;
@@ -332,7 +336,7 @@ Visit our [GitLab Anniversary Gift](/handbook/people-group/celebrations/#anniver
 
 Start your quarter off by getting to know someone new at GitLab, or meeting someone in person for the first time! During the first month of every quarter in Feb, May, Aug, and Nov, we invite team members to use a Get Together Grant to meet up with a team member either in person or virtually. To take part in the grant, check out the following details:
 
-1. Each team member can expense up to $50 USD each quarter on a meal, activity, or ground transportation to spend time with a GitLab team member in-person. Or, up to $25 USD each quarter for a virtual Get Together on a remote activity, remote coffees or remote meals (yes, this means you can have a real coffee for your remote coffee chat).
+1. Each team member can expense up to $50 USD each quarter on a meal, activity, and/or ground transportation to spend time with a GitLab team member in-person. Or, up to $25 USD each quarter for a virtual Get Together on a remote activity, remote coffees or remote meals (yes, this means you can have a real coffee for your remote coffee chat).
 1. To use the grant, get together with a team member and expense up to $50 USD for in-person meet-ups or $25 USD for virtual meet-ups in Expensify by selecting the Get Together Grant category in the dropdown the first month of every quarter (Feb, May, Aug, and Nov) and writing whether your get together was live or virtual in the line items. The expense report must be submitted within 1 month of the Get Together.
 _Please note, Get Together expenses that are submitted outside of these months will not be approved and any amount over the allotted $50 USD per person for in-person and $25 USD per person for remote get togethers will not be approved. Limit one Get Together Grant per person the first month of each quarter._
 1. Team members can plan, pay for, and expense a Get Together in an eligible month (Feb, May, Aug, and Nov) for an activity or expense that allows them to get together with another team member later in that quarter.

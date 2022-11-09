@@ -489,6 +489,8 @@ source_code_management:
     - lfs
     - mirror
     - repository
+    - "Category:Source Code Management"
+    - "Source Code Management::Snippets"
   marketing_page: /stages-devops-lifecycle/source-code-management/
   documentation: https://docs.gitlab.com/ee/user/project/repository/
   direction: /direction/create/source_code_management/
@@ -655,6 +657,7 @@ web_ide:
   feature_labels:
     - "Category:Web IDE"
     - "Web IDE::Live Preview"
+    - VS Code
   documentation: https://docs.gitlab.com/ee/user/project/web_ide/index.html
   direction: /direction/create/editor/web_ide/
   description: "A full featured Integrated Development Environment (IDE) built into GitLab so you can start contributing on day one with no need to spend days getting all the right packages installed into your local dev environment."
@@ -677,8 +680,6 @@ web_ide:
 editor_extension:
   name: "Editor Extension"
   stage: create
-  feature_labels:
-    - VS Code
   documentation: https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/README.md
   direction: /direction/create/editor_extension/
   description: "Tools that support developers where they work and how they work with GitLab."
@@ -694,7 +695,7 @@ editor_extension:
     github:
       maturity: lovable
       description:
-        GitHub is deeply integrated with VSCode.
+        GitHub is deeply integrated with developer tools.
 
 snippets:
   name: "Snippets"
@@ -905,7 +906,7 @@ secrets_management:
   documentation: https://docs.gitlab.com/ee/ci/secrets/
   roi: false
   available: 2019-12-22
-  viable: 2023-01-22
+  viable: 2023-07-22
   complete:
   lovable:
   maturity: minimal
@@ -1211,7 +1212,7 @@ dependency_firewall:
   available: 2023-05-22
   viable: 2023-11-22
   complete:
-  lovable: 
+  lovable:
   maturity: planned
   marketing: true
   dogfooding_status: Not Applicable (Planned)
@@ -1664,6 +1665,22 @@ dependency_management:
   feature_labels:
     - dependency list
 
+sbom:
+  name: "Software Bill of Materials"
+  stage: govern
+  description: "Track dependencies detected in your applications."
+  documentation: https://docs.gitlab.com/ee/user/application_security/dependency_list/
+  direction: /direction/supply-chain/
+  roi: false
+  available: 2019-06-22
+  viable: 2022-09-01
+  complete: 2023-10-22
+  lovable: 2024-10-22
+  maturity: viable
+  new_maturity: true
+  marketing: true
+  priority_level: high
+
 # Anti-Abuse
 
 insider_threat:
@@ -1824,7 +1841,7 @@ environment_management:
   description: "Enable organizations to operate and manage multiple environments directly from GitLab. Environments are encapsulated in GitLab as a target system with associated configurations. By facilitating access control, visualizing deployments and deployment history across teams and projects, adding the ability to query environments, and ensuring that environment's configurations are traceable, platform engineers can enact stronger controls and avoid costly mistakes in deployments."
   roi: true
   available: 2017-01-01
-  viable: 2022-10-22
+  viable: 2022-12-22
   complete: 2023-06-22
   lovable: 2024-06-22
   maturity: minimal
@@ -2051,7 +2068,7 @@ logging:
   marketing: true
   priority_level: medium
   dogfooding_status: N/A
-  dogfooding_issue: 
+  dogfooding_issue:
   dogfooding_group: Infrastructure
   ux_scorecard_link:
   ux_scorecard_score:
@@ -2123,10 +2140,10 @@ continuous_verification:
 product_analytics:
   name: "Product Analytics"
   stage: analytics
-  documentation: https://docs.gitlab.com/ee/operations/product_analytics.html
+  documentation:
   direction:
   roi: false
-  available: 2020-12-15
+  available: 2023-04-01
   viable: 2023-01-01
   complete: 2023-06-01
   lovable: 2024-06-01
@@ -2152,18 +2169,6 @@ service_ping:
   lovable: 2023-12-01
   marketing: false
   maturity: viable
-
-privacy_control_center:
-  name: "Privacy Control Center"
-  stage: analytics
-  direction: https://about.gitlab.com/direction/product-intelligence/
-  description:
-  available: 2023-12-01
-  viable: 2024-12-01
-  complete: 2025-06-01
-  lovable: 2025-12-01
-  marketing: false
-  maturity: planned
 
 application_instrumentation:
   name: "Application instrumentation"
@@ -2323,9 +2328,9 @@ geo_replication:
   roi: false
   available: 2018-01-01
   viable: 2019-09-01
-  complete: 2022-11-04
+  complete: 2022-10-28
   lovable: 2023-11-18
-  maturity: viable
+  maturity: complete
   marketing: true
   dogfooding_status: planned
   dogfooding_issue: https://gitlab.com/groups/gitlab-org/-/epics/3171
@@ -2409,13 +2414,23 @@ redis:
   dogfooding_issue: N/A
   dogfooding_group: Engineering
 
+rate_limiting:
+  name: Rate Limiting Framework
+  stage: data_stores
+  direction: /direction/application_performance/
+  roi: false
+  marketing: false
+  dogfooding_status: Exclusive
+  dogfooding_issue: N/A
+  dogfooding_group: Engineering
+
 
 # SaaS Platforms
 
 dedicated:
   name: "GitLab Dedicated"
   stage: platforms
-  direction: https://internal-handbook.gitlab.io/handbook/engineering/horse/
+  direction: https://about.gitlab.com/direction/saas-platforms/dedicated/
   documentation: https://docs.gitlab.com/ee/user/
   description: "Single-tenant SaaS service"
   roi: false
@@ -2520,96 +2535,144 @@ purchase:
   stage: fulfillment
   description: "Focused on first-order purchase experiences, including SM Web-Direct First Order, SaaS Web-Direct First Order, Purchase CI Minutes, Purchase Storage, and Community Programs - sign up."
   direction: https://about.gitlab.com/direction/fulfillment/purchase/
+  available: 
+  viable: 
+  complete:
+  lovable:
+  maturity: viable
   marketing: false
-  maturity:
 
 commerce_integrations:
   name: Commerce Integrations
   stage: fulfillment
   description: "Includes the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
   direction: https://about.gitlab.com/direction/fulfillment/commerce-integrations/
+  available: 2021-02-01
+  viable: 
+  complete:
+  lovable:
+  maturity: minimal
   marketing: false
-  maturity:
 
 sm_provisioning:
   name: SM Provisioning
   stage: fulfillment
   description: "Includes all Self-Managed instance provisioning features such as Cloud License, Offline License, Legacy license, and Trial Licenses"
   direction: 
+  available: 
+  viable: 
+  complete:
+  lovable:
+  maturity: viable
   marketing: false
-  maturity:
 
 saas_provisioning:
   name: SaaS Provisioning
   stage: fulfillment
   description: "Includes all SaaS instance provisioning features such as Namespace Paid or Trial Plan provisioning and deprovisioning, consumables provisioning and deprovisioning, and more." 
   direction: 
+  available: 
+  viable: 
+  complete:
+  lovable:
+  maturity: viable
   marketing: false
-  maturity:
 
 billing_and_payments:
   name: Billing & Payments
   stage: fulfillment
   description: "Tools to allow customers to view their invoices and pay them. Includes: Pay invoices, Payment Method Management, Subscription view, w/ special UX for Reseller customers, Gitlab.com Billing page, Viewing invoices" 
   direction: 
+  available: 
+  viable: 
+  complete:
+  lovable:
+  maturity: viable
   marketing: false
-  maturity:
 
 subscription_management:
   name: Subscription Management
   stage: fulfillment
   description: "Allow customers to modify existing subscriptions. Includes: seat purchases (via portal or QSR), plan upgrades, cancel subscription (disable auto-renewal), renewals (manual or auto-renewal), Community Programs - Renewal, and account contact management" 
   direction: 
+  available: 
+  viable: 
+  complete:
+  lovable:
+  maturity: viable
   marketing: false
-  maturity:
 
 subscription_usage_reports:
   name: Subscription Usage Reports
   stage: fulfillment
   description: "Gives users visibility into their subscription usage and consumption. Includes: Seat Usage Visibility, Billable Users Calculation, Storage Usage Visibility, and CI Minutes Usage Visibility" 
   direction: 
+  available: 
+  viable: 2020-10-19
+  complete:
+  lovable:
+  maturity: viable
   marketing: false
-  maturity:
 
 subscription_cost_management:
   name: Subscription Cost Management
   stage: fulfillment
   description: "Enables Subscription Admins to manage their subscription costs. Includes Seat Limits, Storage Quota, CI Minutes Quotas." 
   direction: 
+  available: 2021-02-13
+  viable: 
+  complete:
+  lovable:
+  maturity: minimal
   marketing: false
-  maturity:
 
 fulfillment_infrastructure:
   name: Fulfillment Infrastructure
   stage: fulfillment
   description: "CustomersDot availability, reliability, performance, scalability, delivery, and observability efforts."
   direction: https://about.gitlab.com/direction/fulfillment/platform/#infradev-roadmap-and-vision
+  available: 
+  viable: 
+  complete:
+  lovable:
+  maturity: viable
   marketing: false
-  maturity:
 
 fulfillment_developer_productivity:
   name: Fulfillment Developer Productivity
   stage: fulfillment
   description: "Make Fulfillment developers more productive via improved development tooling."
   direction: 
+  available: 
+  viable: 
+  complete:
+  lovable:
+  maturity: minimal
   marketing: false
-  maturity:
 
-customersdot_application: 
+customersdot_application:
   name: CustomersDot Application
   stage: fulfillment
   description: "Build, improve and maintain the overall CustomersDot Application, including Sign-up/Sign in/SSO, Zuora integration, OTC Data Architecture in CDot."
   direction: 
+  available: 
+  viable: 
+  complete:
+  lovable:
+  maturity: viable
   marketing: false
-  maturity: 
 
 fulfillment_admin_tooling:
   name: Fulfillment Admin Tooling
   stage: fulfillment
   description: "The Fulfillment Admin Tools team works with internal teams to build robust systems that enable our internal, customer-facing teams better support our customers."
   direction: https://about.gitlab.com/direction/fulfillment/fulfillment-admin-tools/
+  available: 
+  viable: 
+  complete:
+  lovable:
+  maturity: minimal
   marketing: false
-  maturity: 
 
 
 # Data Science Section

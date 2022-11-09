@@ -25,7 +25,6 @@ domain_expertise:
 projects:
   gitlab:
   - reviewer backend
-  secure-container-scanning: maintainer backend
 specialty: Security Policies
 expertise:
 story: |

@@ -349,22 +349,36 @@
     chart: 8842432
     dashboard: 475647
     embed: v2
-- name: Maintainers per MR
+- name: Project/Area Maintainership Health
   base_path: "/handbook/engineering/development/performance-indicators/"
-  definition: We aim to keep the maintainer per merge request at a reasonable level.
-  target: Above 0.05
+  definition: A project's maintainership is considered unhealthy if it has fewer maintainers than the target maintainer count. Each project's target maintainer count is based on the number of incoming MRs and maintainer availability.
+  target: Below 20%
   org: Development Department
   is_key: false
   health:
-    level: 3
+    level: 2
     reasons:
-    - The chart shows Frontend and DB maintainer load is roughly 2x of Backend, which
-      means we need to incubate more DB and Frontend maintainers proactively.
-    - Load needs to be continued area of focus as we haven’t hit targets yet.
-    - There is an increasing trend of maintainers per MR. 
+    - The chart shows a decrease in overall unhealthy projects or areas in the last quarter
+    - Some areas are not being properly tracked which should lead to a further decrease once resolved
   sisense_data:
-    chart: 11397931
-    dashboard: 655064
+    chart: 15584648
+    dashboard: 1055628
+    embed: v2
+- name: Unhealthy Core Areas of Maintainership Health
+  base_path: "/handbook/engineering/development/performance-indicators/"
+  definition: Within a given project (for example, gitlab-org/gitlab), maintainers cover different areas within the project - backend, database, frontend, and more. An area of maintainership receives more than 100 merge requests per month and is considered unhealthy if it has less maintainers than the target maintainer count. This indicator is a subset of Project Maintainership Health.
+  target: 0
+  org: Development Department
+  is_key: false
+  health:
+    level: 2
+    reasons:
+    - We are trending down for overall areas, but the percentage of areas having more than 100+ MRs per month without enough maintainers is increasing
+    - The chart shows a decrease in overall unhealthy areas in the last quarter
+    - Database and Backend maintainers for the GitLab project have the highest need
+  sisense_data:
+    chart: 15630818
+    dashboard: 1055628
     embed: v2
 - name: MR Rate Percentiles
   base_path: "/handbook/engineering/development/performance-indicators/"

@@ -29,13 +29,13 @@ This page is maintained by the Product Manager for Pipeline Insights, Jocelyn Ei
 
 ## What's Next & Why
 
-In 15.5 we continue to focused on resolving storage calculations for Build Artifacts as we begin to focus more on storage consumption [gitlab&5754](https://gitlab.com/groups/gitlab-org/-/epics/5754) over the next two quarters. The team is also excited to complete and deliver the MVC for the new Artifacts page [gitlab#33418](https://gitlab.com/gitlab-org/gitlab/-/issues/33418). In subsequent milestones, we will be adding more capabilities to enable you to manage your build artifacts [gitlab&8715](https://gitlab.com/groups/gitlab-org/-/epics/8715) more easily. 
+In 15.6 we continue to focused on resolving storage calculations for Build Artifacts as we begin to focus more on storage consumption [gitlab&5754](https://gitlab.com/groups/gitlab-org/-/epics/5754) over the next two quarters. The team is also excited to deliver the MVC for the new Artifacts page [gitlab#33418](https://gitlab.com/gitlab-org/gitlab/-/issues/33418) which had missed our 15.5 release. In addition to the release of this MVC, we will also enable [filtering/sorting by branch name](https://gitlab.com/gitlab-org/gitlab/-/issues/367294). In subsequent iterations, we will be adding features to enable you to manage your build artifacts [gitlab&8715](https://gitlab.com/groups/gitlab-org/-/epics/8715) more easily via the UI. 
 
 Beyond this, we will continue working on our goal of providing a great artifact experience for both operators and users of GitLab there are some opportunities we can address. These are listed in priority order in this table:
 
 | | **Challenge** | **Related Epics & Issues** |
 | 1 | There is no easy way to manage and analyze all artifacts in a Project. Downloading artifacts from jobs/pipelines and comparing or analyzing them is painful today given the sizes of the files and the other workarounds that are necessary. | [gitlab&7473](https://gitlab.com/groups/gitlab-org/-/epics/7473) |
-| 2 | Artifacts are hard to manage | [gitlab&5754](https://gitlab.com/groups/gitlab-org/-/epics/5754) |
+| 2 | Artifacts storage is hard to manage | [gitlab&5754](https://gitlab.com/groups/gitlab-org/-/epics/5754) |
 | 3 | Reports from child pipelines are hard to find | [gitlab&4019](https://gitlab.com/groups/gitlab-org/-/epics/4019) |
 | 4 | MR reports do not have visibility to child pipeline artifacts | [gitlab&8205](https://gitlab.com/groups/gitlab-org/-/epics/8205) |
 

@@ -7,6 +7,9 @@ role: <a href="/job-families/engineering/development/backend/">Backend Engineer,
 reports_to: michelletorres
 picture: sahmed.jpg
 pronouns: he/him
+projects:
+  container-registry:
+    - reviewer
 pronunciation: suw-lay-me
 twitter:
 linkedin:

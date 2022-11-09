@@ -12,7 +12,7 @@ canonical_path: "/direction/create/editor/remote_development/"
 
 | Section | Stage | Maturity | Last Reviewed |
 | --- | --- | --- | --- |
-| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Planned](/direction/maturity/) | 2022-09-27 |
+| [Dev](/direction/dev/) | [Create](https://about.gitlab.com/stages-devops-lifecycle/create/) | [Planned](/direction/maturity/) | 2022-10-27 |
 
 ### Introduction and how you can help
 
@@ -29,6 +29,13 @@ The GitLab Web IDE allows for anyone to contribute to a project right from their
 Developers want to spend less time managing their development environment and more time contributing high-quality code. And at GitLab, we want _everyone_ to contribute. Eliminating the responsibility of configuring and maintaining a local development environment frees up valuable development time and streamlines onboarding of new developers joining the team. For developers working on larger teams, or those contributing to multiple open source projects, the cost of switching contexts can be so high that it discourages collaboration. With an on-demand, cloud-based development environment code reviews are less of a disruption because developers can move more quickly from project to project and sensitive data is securely stored in the cloud rather than distributed across numerous local devices. 
 
 In addition, the global COVID-19 pandemic has accelerated the shift toward remote and hybrid workforces, increasing the emphasis on privacy and security. A cloud-based development environment enables organizations working in regulated industries to enforce a zero-trust policy that prevents source code from ever being stored locally while maintaining a high quality developer experience. Remote development environments also contribute to our v[ision for managing Software Supply Chain Security](/direction/supply-chain/) by providing a single place where dependencies and tools can be audited and verified and access to those environments can be controlled through strong authentication.       
+
+In this short (9-minute) video, Eric Schurter walks you through the goals and technical approach for the Remote Development category: 
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/apgU0y-u4A8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 
 <!-- ### Performance indicators
 
@@ -70,6 +77,15 @@ By offering an end-to-end remote development solution within GitLab, we are uniq
 
 These development environments will be configured in a single file stored in a repository, allowing you to provision a new environment on your existing cloud infrastructure with a single click. Monitoring tools and dashboards will be available in GitLab to manage running and suspended environments, ensuring efficient usage of resources. Eventually, we intend to offer GitLab-hosted shared infrastructure as well, abstracting away the burden of cloud service administration and simplifying billing.   
 
+#### Principles
+
+As we iterate on our technical approach, we're validating against a handful of guiding principles: 
+
+1. **Platform agnostic:** You should be able to host a remote environment on AWS, GCP, Azure, or IBM cloud platforms.
+1. **IDE agnostic:** Developer tooling is a very individual thing and productivity can depend on having access to the right IDE. You should be able to contribute from the GitLab Web IDE, a desktop IDE like VS Code or JetBrains RubyMine, or vim.
+1. **"Headless" server runtime:** You should be able to securely connect your existing tooling to a remote development environment, not be forced to work exclusively inside a container.
+1. **Environments as code:** You should be able to define your environment in an easy-to-use document format, stored and versioned in your project repository alongside your source code. 
+
 #### Ideal user journey
 
 As you take on more complex editing tasks, the GitLab Web IDE will grow with you. 
@@ -99,7 +115,7 @@ Use narrative techniques to paint a picture of how the lives of your users will 
 
 #### What's Next & Why
 
-As we finalize our investigation of the underlying technologies and polish our initial proofs of concept, we are focused on defining our MVC for the category,  building an iteration plan, and validating our reference architecture with customers. 
+As we finalize our investigation of the underlying technologies and polish our initial proofs of concept, we are focused on [shipping the new VS Code-based Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/7683) and making [our MVC broadly available](https://gitlab.com/groups/gitlab-org/-/epics/8880), building an iteration plan for our more complete solution, and validating our reference architecture with customers. 
 
 The major focus areas right now are: 
 
@@ -107,15 +123,9 @@ The major focus areas right now are:
 1. Use a Devfile that describes the components, credentials, and configuration of the development environments to provision a container on a Kubernetes cluster
 1. Create a dashboard for managing running environments
 
-**Eclipse Che**
-
-Eclipse Che is an open source, Kubernetes-native platform that provides container-based developer workspaces capable of running multiple browser-based IDEs and extensible through a flexible plug-in architecture. Che offers many of the componenets necessary to provide a complete remote development solution within GitLab. Our initial iterations will focus on integrating with Che as the primary backend component for defining, provisioning, and managing the remote environment while we build out custom UI in GitLab for configuring and monitoring your environments. 
-
 **Bring-your-own Cloud**
 
 Our initial iterations will be focused on integrating with existing cloud providers like Amazon Web Services (AWS), Google Cloud, or Microsoft Azure to provide a solution for those who already have access to cloud compute. We will eventually look to offer a fully-managed option within GitLab. This is likely to be provided as a service billed based on consumption, much like our [Runner SaaS](/direction/verify/runner_saas) offering. 
-
-![Illustrative diagram of the remote development architecture](/images/direction/dev/create/editor-remote-dev-diagram.png)*This high-level diagram illustrates how the components of the remote development offering fit together.*
 
 **Packaging and Pricing**
 
@@ -128,6 +138,18 @@ In addition, **Premium tiers** will be able to define an environment as code in 
 Eventually, **Ultimate tiers** will have access to advanced monitoring and auditing tools, providing insight into usage across the organization and enforcing security best practices through development tooling. 
 
 _Note: Our pricing strategy is still being researched and validated. This strategy may be subject to change._
+
+#### Core components
+
+Our approach to Remote Development involves a few core components working together that enable a seamless experience:
+
+1. The IDE: Within GitLab, this means the Web IDE, but we'll suppoprt connecting from desktop IDEs as well.
+1. Devfiles: An open standard for defining your environment in code.
+1. Custom remote development server: The engine that provisions the environments from a Devfile, establishes connections to your cloud and databases, and provides information about all running environments.
+1. GitLab Agent for Kubernetes: The GitLab Agent runs in both GitLab and your cloud to facilitate a secure network connection between the two.
+1. Remote Environment: The editor, depenencies, and configuration that runs in the container or VM on your cloud.
+
+![Illustrative diagram of the remote development architecture](/images/direction/dev/create/editor-remote-dev-diagram.png)*This high-level diagram illustrates how the components of the remote development offering fit together.*
 
 #### What is not planned right now
  

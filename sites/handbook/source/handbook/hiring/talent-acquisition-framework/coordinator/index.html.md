@@ -79,6 +79,15 @@ Please ensure you have the [Prelude Chrome Extension](https://chrome.google.com/
 
 Prelude processes can be found [here](https://about.gitlab.com/handbook/hiring/prelude/).
 
+### Zoom troubleshooting using Prelude when there is a zoom link error
+When a candidate or an interviewer reaches out to CES via slack / email / Guide chat with a zoom link error, the CES can follow the below steps to create a new zoom link through Prelude in under 2 minutes.
+1. Open Prelude, go to the interviews tab, search for the candidates name.
+1. Click on the candidate’s name and interview title. This would open up a smaller tab with a pencil icon on the right hand side.
+1. Once you click on the pencil icon, a new pop up window will appear with the interview details. Delete the zoom link and password from the body of the email and the drop down bar.
+1. Click Add zoom meeting and Choose “other” as a reason for updating this interview.
+ Apply the changes and send the updated invite. This will send a new calendar invite to the interviewers.
+1. Go to the GH profile; click “ Email Candidate”. Choose the template   - “ Zoom Link Troubleshooting” and send the email to the candidate. The interview details with the new zoom link will be auto populated. Please be sure to delete any other interviews listed in the email other than the one with zoom link error. All this can be done under 2 minutes with practice!!
+
 #### Resource - Candidate Guide
 
 Please ensure you have the [guide Chrome extension](https://chrome.google.com/webstore/detail/resource-button/ikeemflbkbdhkgmgbdpeapmnnggbfogd) installed on your Chrome Browser.
@@ -149,7 +158,7 @@ Make yourself a reminder in Greenhouse to initiate the NYC Step 2 background che
 
 **PIAA**
 
-In the form, you'll find a question that informs the candidate that they will be required to sign an Employee Invention Assignment Agreement. They are asked for invention disclosures. If they state "none" or "n/a", you can skip this step. If the candidate discloses any outside activities, CES will notify the People Connect Team by emailing people-connect@gitlab.com with the link to the candidate's Greenhouse profile, who the hiring manager is, and the PDF form attached. Please remember to put the name of the candidate in the email subject line. People Connect will follow our standard process per the [internal handbook](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/onboarding_process/#piaa). Reach out to legal_employment@gitlab.com with any questions about things written in a PIAA.
+In the form, you'll find a question that informs the candidate that they will be required to sign an Employee Invention Assignment Agreement. They are asked for invention disclosures. If they state "none" or "n/a", you can skip this step. If the candidate discloses any outside activities, CES will notify the People Connect Team by emailing people-connect@gitlab.com with the link to the candidate's Greenhouse profile, who the hiring manager is, and a screen shot of the disclosed information. Please remember to put the name of the candidate in the email subject line. People Connect will follow our standard process per the [internal handbook](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/onboarding_process/#piaa). Reach out to legal_employment@gitlab.com with any questions about things written in a PIAA.
 
 **Outside Work**
 

@@ -1362,6 +1362,15 @@
   confidence: To be Researched
   source: 
   group: Pipeline Execution
+
+- slug: pipeline-execution_5
+  parent:
+  short_jtbd: Debugging a failed check
+  jtbd: When running pipelines on code changes, I want to timely see the specific reason a check failed, so I can resolve it and move to another task.
+  grade: "-"
+  confidence: Researched
+  source: https://gitlab.dovetailapp.com/projects/5dIkLDWFXWJ9ZqUvq2fMPR/v/4sh3BQnjLxpqivXcCvcqBR/present/1LQ5kpdu1v37VtfqXjfW1w
+  group: Pipeline Execution
   
 
 

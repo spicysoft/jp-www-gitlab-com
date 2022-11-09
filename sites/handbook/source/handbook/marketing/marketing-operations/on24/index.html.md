@@ -21,7 +21,7 @@ Page in progress - Recently purchased. Marketing Operations is in the process of
 
 ## Provisioning
 
-We have a limited number of seats. Before putting in an Access Request, please [open an issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=on24_access_request) for Marketing Operations to review your request.   Once your request is approved, then proceed to open an [Access Request]([create one](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)
+We have a limited number of seats. Before putting in an Access Request, please [open an issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=on24_access_request) for Marketing Operations to review your request.   Once your request is approved, then proceed to open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request)
 
 ### User Roles
 ON24 licenses are only required for people who are building webinar programs (presenters/speakers do not need a license). We have a limited number of licenses and adding more comes with a price.
@@ -39,18 +39,18 @@ The chart below outlines the user permissions for each role (Producer, Presenter
 
 |   | Producer | Presenter | Q&A Moderator |
 | - | -------- | --------- | -------------|
-| Upload slide and videos | :white_check_mark: |  |  |
-| Add poll questions | :white_check_mark: |  |  |
-| Start/stop the webinar | :white_check_mark: |  |  |
-| Arrange presentation materials | :white_check_mark: |  |  |
-| Change webcam layouts | :white_check_mark: |  |  |
-| Mute and disconnect presenters | :white_check_mark: |  |  |
-| Advance slides | :white_check_mark: | :white_check_mark: |  |
-| Push poll questions to the audience | :white_check_mark: | :white_check_mark: |  |
-| Whiteboarding tools | :white_check_mark: | :white_check_mark: |  |
-| Screenshare | :white_check_mark: | :white_check_mark: |  |
-| Q&A | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Team chat | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Upload slide and videos | x |  |  |
+| Add poll questions | x |  |  |
+| Start/stop the webinar | x |  |  |
+| Arrange presentation materials | x |  |  |
+| Change webcam layouts | x |  |  |
+| Mute and disconnect presenters | x |  |  |
+| Advance slides | x | x |  |
+| Push poll questions to the audience | x | x |  |
+| Whiteboarding tools | x | x |  |
+| Screenshare | x | x |  |
+| Q&A | x | x | x |
+| Team chat | x | x | x |
 
 ## Resources 
 
@@ -172,7 +172,7 @@ Follow these steps to apply a console template:
 
 After completing the creation of an On24 web event, the next step is to connect the webinar to Marketo.
 1. From the previous event set up, please be sure to have the `Event ID` and `Audience URL` handy.
-1. Navigate to the Marketo template folder `Templates On24 - Webcast`. Located in this folder is the program template `YYYYMMDD_EventName_EventType_On24_template`. Make a copy of this program template in the appropriate folder.
+1. Navigate to the Marketo template folder `Templates - On24`. Located in this folder are program templates Designed with triggers to work with On24's Marketo cusom object. Make a copy of the needed program type template in the appropriate folder.
 1. Next step will be to connect the Marketo program to the On24 webcast. In the Smart Campaigns folder of the newly cloned program, add the On24 `Event ID` to the following smart campaigns on the `Added to ON24 Attendee` trigger filter:
     1. 04 On24 Processing - Attended
     1. 04 On24 Processing - Follow Up Requested
@@ -187,14 +187,20 @@ After completing the creation of an On24 web event, the next step is to connect 
     1. 04 On24 Processing - On Demand. 
         - Only activate this smart campaign if it is appropriate for the webinar, such as in the event the webinar will be left available for on-demand viewing. 
     1. 04 On24 Processing - No Show. 
-        - No Show will not be activated as a trigger, but as a batch campaign scheduled to run 6 hours after the event.
+        - No Show will not be activated as a trigger, but as a batch campaign scheduled to run 6 hours after the event has completed.
 1. Unlike other tools, the On24 room and Marketo program do not need to be connected via the `Event Partner` field on the Marketo program. All data transfer is done via the `Event ID` and smart campaigns.
-1. Update the program tokens as needed within the program. Important tokens to review:
-  - `my.webcastDate`, `my.webcastTitle` and `my.event location` are standard to update.
-  - `my.on24URL`: This token needs to be updated as upon registration the registrant is sent an automatic email with the Audience URL attached to this token.
-  - `my.On24password`: Update this with the webinar password. If no password was set up in the console, completely remove token from `registration confirmation` email as it is not necessary.
-  - `my.bullet1` - `my.bullet4` may appear on the `registration confirmation` email so be sure to update either the tokens or the email template to accommodate 
-  - Update others as needed
-1. Please note the `Registration Flow` smart campaigns will send out the `Audience URL` for the event and have tokens arranged to share event passwords.
+1. Before continuing on, check if it seems appropriate to [set any of the local assets to expire](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date). Appropriate items to set an expiration would be, for example, smart campaigns like the `04 On24 Processing - Attended` campaign, which is no longer needed after the event ends.
+1. Update the program tokens as needed within the program. All email assets and landing pages are token dependent. Important tokens to review:
+    - `my.webcastDate`, `my.webcastTitle` and `my.event location` are standard to update.
+    - `my.on24URL`: This token needs to be updated as upon registration the registrant is sent an automatic email with the Audience URL attached to this token.
+    - `my.On24password`: Update this with the webinar password. If no password was set up in the console, completely remove token from `registration confirmation` and `reminder` emails as it is not necessary. You may also alter the token to say "`no password needed`" but be sure to remove the first part of the token warning that says "`if no password remove token from rem and reg emails`" in that case.
+    - `my.Add to Calendar` token needs to be updated for every program in order for the calendar invite to be correctly downloadable.
+    - `my.bullet1` - `my.bullet4` may appear on the `registration confirmation email` and `registration landing page` so be sure to update either the tokens or the templates to accommodate. The series of tokens for `my.InviteEmailBody1` and `my.AgendaTopic/my.AgendaTime` also appear on the `reminder` and `invitation` email templates. 
+    - If speakers are to be shown on the landing page, be sure to update the series of `speakers` tokens. If there is no need to display the speakers, deactivate the `speaker lists` on the `registration landing page` template. 
+    - Update others as needed, but be sure to review **each** asset to understanding what needs to be updated and where. 
+    - Please note the `Registration Flow` smart campaigns will send out the `Audience URL` for the event and have tokens arranged to share event passwords.
+8. `Reminder` and `Invitation` email campaigns are supplied within the template. 
+    - Take note of the suggested timelines for the email programs and schedule accordingly.
+9. Utilize `Waitlist` email and smart campaigns as needed.
 
 

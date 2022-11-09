@@ -645,6 +645,10 @@ On the opportunity record in Saleforce, compose a new Chatter message that inclu
 
 Your manager will review the information and decide whether SAO credit is warranted. If confirmed, they will Chatter Sales Support to add you to the opportunity. If rejected, they will communicate to you the reasoning for their decision.
 
+#### Opportunity Creation Workflow
+
+![Opportunity Creation Workflow](/handbook/marketing/revenue-marketing/sdr/Opportunity creation workflow.png)
+
 ## BDR Outbound Process
 
 BDR outbound lead generation is done by prospecting to companies and individuals who could be a great fit for our product. Prospecting is the process of finding and developing new business through searching for potential customers with the end goal of moving these people through the sales funnel until they eventually convert into customers.
@@ -1102,15 +1106,23 @@ The EMEA MM FO team is split equally between North and South Europe. The 100-500
 
 The team's baseline outbound activity revolves around at least 20 accounts per SDR per week. 15 from the P0 territories and 5 from their P1 territories. First Order BDRs source all 20 accounts from their territories.
 
-|**BDR**|**P1 Territory**|**P1 Territory Carve**|**P2 Territory**|**P2 Territory Carve**| BDR Secondary Language Profficiency |
-| ------ | ------ | ------ | ------ | ------ | ----- | 
-| Johan Rosendahl | Germany, South Europe / First Order  | COM_MM_EMEA_SOUTH_FO_2, COM_MM_EMEA_CENTRAL_FO_2 | UKI / Under 500 | COM_MM_EMEA_NORTH_TERR_5 | German, Swedish | 
-| Raquel Gulin | United Kingdom, Netherlands, Nordics / First Order | COM_MM_EMEA_SOUTH_FO_1, COM_MM_EMEA_NORTH_FO_1 | UKI / Under 500 | COM_MM_EMEA_NORTH_TERR_1 | French, Italian, Spanish, Portugese | 
-| Luis Calixto | South Europe / First Order | COM_MM_EMEA_SOUTH_FO_4, COM_MM_EMEA_CENTRAL_FO_4 | South Europe, UKI / Under 500 | COM_MM_EMEA_SOUTH_TERR_6TBH, COM_MM_EMEA_SOUTH_TERR_2, COM_MM_EMEA_NORTH_TERR_1 | Spanish |
-| Daniel Fuller | Germany / Under 500 | COM_MM_EMEA_CENTRAL_TERR_2, COM_MM_EMEA_CENTRAL_TERR_3TBH, COM_MM_EMEA_CENTRAL_TERR_4TBH | Nordics, UKI / Under 500 | COM_MM_EMEA_NORTH_TERR_2 | N/A | 
-| Barbara Schreuder | Germany / Under 500 | COM_MM_EMEA_CENTRAL_TERR_1, COM_MM_EMEA_CENTRAL_TERR_5TBH | BeNeLux / Under 500 | COM_MM_EMEA_NORTH_TERR_3TBH | French, Dutch | 
-| Denis Stete | United Kingdom, South Europe / First Order | COM_MM_EMEA_NORTH_FO_3, COM_MM_EMEA_SOUTH_FO_3 | East Europe, MEA / Under 500 | COM_MM_EMEA_SOUTH_TERR_1, COM_MM_EMEA_SOUTH_TERR_3TBH, COM_MM_EMEA_SOUTH_TERR_4TBH | Spanish, Romanian | 
-| Q3FY23 New Hire | France / First Order | COM_MM_EMEA_SOUTH_FO_4 | France / Under 500 | COM_MM_EMEA_SOUTH_TERR_7TBH, COM_MM_EMEA_SOUTH_TERR_5TBH | French |    
+|**BDR**|**Territory / Segment**|**Territory Codes**| BDR Secondary Language Profficiency |
+| ------ | ------ | ------ | ------ | 
+| Luis Calixto | South Europe / 501-1999  | COM_MM_EMEA_SOUTH_FO_1, COM_MM_EMEA_SOUTH_FO_2, COM_MM_EMEA_SOUTH_FO_3, COM_MM_EMEA_SOUTH_FO_4 | Spanish |
+| Daniel Fuller |  GB, Nordics / 100-500 | COM_MM_EMEA_NORTH_TERR_2, COM_MM_EMEA_NORTH_TERR_1, COM_MM_EMEA_NORTH_TERR_5 | N/A 
+| Denis Stete | South Europe / 100-500 | COM_MM_EMEA_SOUTH_TERR_1, COM_MM_EMEA_SOUTH_TERR_4TBH, COM_MM_EMEA_SOUTH_TERR_3TBH, COM_MM_EMEA_SOUTH_TERR_6TBH, COM_MM_EMEA_SOUTH_TERR_2 | Spanish 
+| Barbara Schreuder | BeNeLux, DACH / 100-500 | COM_MM_EMEA_NORTH_TERR_3TBH, COM_MM_EMEA_NORTH_TERR_4, COM_MM_EMEA_CENTRAL_TERR_2, COM_MM_EMEA_CENTRAL_TERR_1, COM_MM_EMEA_CENTRAL_TERR_3TBH | Dutch 
+| Omar Meflah | France / 100-500 | COM_MM_EMEA_SOUTH_TERR_5TBH, COM_MM_EMEA_SOUTH_TERR_7TBH | French, Arabic 
+| Israel Akinniranye | France / 501-1999 | COM_MM_EMEA_NORTH_FO_4, COM_MM_EMEA_SOUTH_FO_4, COM_MM_EMEA_CENTRAL_FO_4 | French 
+| Eamon Keanne | GB, Nordics / 501-1999 | COM_MM_EMEA_NORTH_FO_1, COM_MM_EMEA_NORTH_FO_3 | N/A | 
+| New Hire Q4 | DACH / 100-500, 501-1999 | COM_MM_EMEA_CENTRAL_FO_2, COM_MM_EMEA_CENTRAL_TERR_4TBH, COM_MM_EMEA_CENTRAL_TERR_5TBH | Germany
+
+
+
+
+ 
+
+   
 
 In case of any AE requests for outbounding, the go-to BDRs for each Sales territory are below and [may also be found here](https://docs.google.com/spreadsheets/d/1Zx9SEcPmOtSFPjJEQgoRsO3n4GFAJehxvgbS1-onqZg/edit#gid=2102471434). The BDR team is briefed to incorporate as a priority any request for OB collaboration from AEs.
 

@@ -18,6 +18,9 @@ departments:
 - Package Stage
 - Package:Package Registry Group
 - Package:Package Registry BE Team
+projects:
+  gitlab:
+  - reviewer backend
 specialty: Package
 expertise:
 story:

@@ -51,7 +51,6 @@ This list has been pre-approved so if any team-member needs access to these syst
 | -------------------------------- | --------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------- |
 | 1Password                        | User Password Management                            | Team Member                                                                | Read+Write                       |
 | BambooHR                         | Human Resource Platform                             | Employee, Manager (if people manager)                                                                    | Read+Write                       |                              
-| Carta                            | Shares Management                                   | Employee                                                                   | Read+Write                       |
 | CultureAmp                       | Survey Management                                   | User                                                                       | Read+Write                       |
 | EdCast                           | Structured and personal learning experiences        | User                                                                       | Read-Only                        |
 | Expensify                        | Expense Claims and Management                       | User                                                                       | Read+Write                       |
@@ -74,6 +73,7 @@ This list has been pre-approved so if any team-member needs access to these syst
 | ZenGRC                           | Governance, Risk, and Compliance tool               | ZenGRC `Reader` role                                                       | Read-Only                        |
 | Zoom                             | For video conferencing / meetings                   | Pro                                                                        | Read-Only                        |
 | Authomize                        | User Access Review tool                             | Reviewer                                                                   | Read + Write for assigned campaigns |
+| OneTrust Vendorpedia                      | RFx Tool                                            | Answerbase General Users | Read-Only |
 
 ## Role Entitlements for a specific job
 

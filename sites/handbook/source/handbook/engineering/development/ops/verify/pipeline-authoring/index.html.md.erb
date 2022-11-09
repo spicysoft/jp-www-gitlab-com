@@ -34,13 +34,16 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - Pipeline creation: process of building and persisting a pipeline including multi-project
   or child pipelines.
 
+## Exciting things and accomplishments
+This section will list the top three most recent, exciting accomplishments from the team.
+
+* We [added](https://gitlab.com/gitlab-org/gitlab/-/issues/293645) in the `rules:change:compare:` which allows you to compare a branches and prevent those pipelines or jobs to run every time a new branch is pushed.
+* We welcomed our new Backend Engineer to the team, [Leaminn Ma](https://gitlab.com/lma-git)!!
+* We welcomed our new Interim Senior Product Designer to the team, [Kevin Comoli](https://gitlab.com/kcomoli)!!
+
 ## Team Members
 
-### Backend
-<%= direct_team(manager_role: 'Backend Engineering Manager, Verify:Pipeline Authoring', role_regexp: /Pipeline Authoring/) %>
-
-### Frontend
-<%= direct_team(manager_role: 'Frontend Engineering Manager, Verify', role_regexp: /Pipeline Authoring/) %>
+<%= direct_team(manager_role: 'Fullstack Engineering Manager, Verify:Pipeline Authoring') %>
 
 ## Stable Counterparts
 
@@ -96,6 +99,7 @@ Engineering uses the [following handbook guidance for determining weights](#weig
     1. Does the proposal address the problem statement?
     1. Are there any unintended side effects of the implementation?
 1. Does the issue have proper labeling matching the job to be done? (e.g. bug, feature, performance)
+1. If the issue is a `type::bug`, is it clear how to reproduce the behavior and can a sample CI configuration file be provided?
 
 Any one on the team can contribute to answering the questions in this checklist, but the final decisions are up to the PM and EMs.
 
@@ -144,6 +148,10 @@ Similar to the [Three Amigos](https://www.agilealliance.org/glossary/three-amigo
 The Product Manager will label relevant issues from the milestone planning issue with the `quad-planning:ready` label. Supplying these distinct viewpoints at this early stage of planning is valuable to informing the feasibility of the effort, as well as refining any unclear requirements or scope. Once acceptance criteria is agreed upon, the `quad-planning:complete` label is applied by the SET on each of the issues.
 
 ### Workflow
+
+Starting in October 2022, the team is currently trialing an enhanced workflow model. When there is new work to be reviewed by the team, an engineering pod is selected (1 backend and 1 frontend) to partner with UX to ensure alignment on the proposal of a solution to a feature that is being delivered. The goal of this trial is see if it can improve collaboration across Engineering, UX, and Product, as well as improve efficiency around our planning processes. The workflow is illustrated below:
+
+![Verify Groups](/images/handbook/engineering/verify/pa-workflow-model.png)
 
 We use the [Pipeline Authoring Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/2019514?&milestone_title=%23started) to track what we work on in the current iteration for the target milestone.
 

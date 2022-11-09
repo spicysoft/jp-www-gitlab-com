@@ -65,7 +65,7 @@ This is the list of our active Top Cross-Functional Initiatives.
    1. Links: [Epic](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/11)
    1. Quarter Started/Starting: FY23-Q1    
 1. Shift LAM to Primary Metric
-   1. DRI / Sponsor: TBD / TBD 
+   1. DRI / Sponsor: @aileenlu / @mmcb 
    1. Description: Shift LAM to our primary metric for top of funnel and decision-maker.
    1. Links: TBD
    1. Quarter Started/Starting: FY23-Q3
@@ -76,7 +76,7 @@ This is the list of our active Top Cross-Functional Initiatives.
    1. Quarter Started/Starting: FY23-Q3
 1. DevSecOps Adoption
    1. DRI / Sponsor: @spatching  / @mmcb 
-   1. Description: No customers in red on DevSecOps Adoption within 2 months of purchase. 
+   1. Description: No customers in red on DevSecOps Adoption within 3 months of purchase. 
    1. Links: [Epic](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/59)
    1. Quarter Started/Starting: FY23-Q4
 1. Consumption Add-Ons

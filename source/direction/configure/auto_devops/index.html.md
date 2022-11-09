@@ -39,7 +39,7 @@ This vision offers enormous benefit to users confronted with the pain of adoptin
 
 The target persona for Auto DevOps is the platform engineer who wants to simplify, possibly automate the ops-work that falls on software developers. The [pipeline authoring category](https://about.gitlab.com/direction/verify/pipeline_authoring/) deals with the question on simplifying DevOps practices for single engineers.
 
-Platform engineers require a platform. They either have to build it themselves or can use GitLab for it. These platforms have to support complex processes for CI, security, compliance and deployments alike.
+Platform engineers require a platform. They either have to build it themselves or can use GitLab. These platforms have to support complex processes for CI, security, compliance, and deployments alike. The Private [CI/CD Catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/359047/) is the next step towards creating reusable components for a platform.
 
 ## What's Next & Why
 
@@ -47,7 +47,7 @@ We learned that the current Auto DevOps offering has many shortcomings:
 
 - **no clear user focus**: While we presented Auto DevOps as being targeted to Software developers, they don't really like to think even about CI, and ops topics are foreign to most of them. As a result, if the Auto DevOps templates fail for them, they require external support. Moreover, in medium+ companies, there is often a dedicated platform/ops team to support the software developers, provide standard tools for them. Our solution was not really fit for their needs.
 - **brittle solution**: The CI template based approach was very sensitive to changes, and the strict set of CI/CD stages made it extremely challenging to integrate with external tools.
-- **versioning problems**: As CI templates can not be versioned, we regularly break out users' CI/CD pipelines when we introduce breaking changes.
+- **versioning problems**: As CI templates can not be versioned, we regularly break our users' CI/CD pipelines when we introduce breaking changes.
 - **limited deployment support**: The CI templates seems to limit our possibility of easily adding support for several possible deployment targets. Even extending beyong Kubernetes was a challenge. At the same time, even the Kubernetes targeting deployments are rather minimal as we don't support metrics integrated canary deployments.
 - **hard to maintain and develop**: As the CI templates are brittle and the stages are static, adding new features is demanding.
 - **not enough customization**: Given the above limitations, many users require customizations, but at the same time, they would like us to maintain these customisations.

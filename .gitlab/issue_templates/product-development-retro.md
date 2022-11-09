@@ -65,10 +65,10 @@ While preparing for the Retrospective Discussion:
 | Create:Editor               | @oregand                                | @mvanremmerden  | @ericschurter   |  |  |
 | Create:Source Code          | @sean_carroll + @andr3                  | @mvanremmerden  | @tlinz   |  |  |
 | Gitaly                      | @zj-gitlab                              | -               | @mjwood         |  |  |
-| Manage:Foundations       | @leipert                                | @tauriedavis    | @cdybenko      |  |  |
-| Manage:Integrations      | @arturoherrero                          | @mvanremmerden  | @g.hickman       |  |  |
-| Verify:Pipeline Authoring   | @marknuzzo + @samdbeckham               | @rayana         | @dhershkovitch  |  |  |
-| Verify:Pipeline Execution   | @avielle + @samdbeckham                 | @rayana         | @jheimbuck_gl   |  |  |
+| Manage:Foundations          | @samdbeckham                            | @tauriedavis    | @cdybenko      |  |  |
+| Manage:Integrations         | @arturoherrero                          | @mvanremmerden  | @g.hickman       |  |  |
+| Verify:Pipeline Authoring   | @marknuzzo                              | @rayana         | @dhershkovitch  |  |  |
+| Verify:Pipeline Execution   | @carolinesimpson                        | @rayana         | @jheimbuck_gl   |  |  |
 | Verify:Runner               | @erushton                               | @rayana         | @DarrenEastman  |  |  |
 | Verify:Pipeline Insights    | @shampton                               | @rayana         | @jreporter   |  |  |
 | Package                     | @michelletorres                         | @rayana         | @trizzi         |  |  |
