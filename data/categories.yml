@@ -739,11 +739,20 @@ remote_development:
   priority_level: medium
   opportunity: Core
 
+api:
+  name: API
+  stage: manage
+  label: "Category:API"
+  direction: /direction/manage/integrations/
+  documentation: https://docs.gitlab.com/ee/integration/
+  description: "GitLab offers a REST and GraphQL API to give customers options on how to best integrate with GitLab."
+  roi: false
+  marketing: false
+
 integrations:
   name: Integrations
   stage: manage
-  feature_labels:
-    - Category:Integrations
+  label: "Category:Integrations"
   direction: /direction/manage/integrations/
   documentation: https://docs.gitlab.com/ee/integration/
   description: "Integrations are places where the GitLab product connects to features and services from other products. These integrations seek to offer our customers a seamless experience between these products, and range from lightweight features like Slack notifications for projects, to deep and complex integrations with Atlassian JIRA that connect a wide array of functionality throughout the GitLab product."
@@ -754,6 +763,16 @@ integrations:
   viable: 2018-01-22
   complete:
   lovable:
+
+webhooks:
+  name: Webhooks
+  stage: manage
+  label: "Category:Webhooks"
+  direction: /direction/manage/integrations/
+  documentation: https://docs.gitlab.com/ee/integration/
+  description: "Webhooks are a generic way for projects to be integrated with any other service. GitLab's Webhooks proactively send data to another service when certain events happen. These are increasingly important for external vendors, as they offer a key way to integrate with GitLab that doesn't require them building inside our codebase."
+  roi: false
+  marketing: false
 
 design_system:
   name: Design System
