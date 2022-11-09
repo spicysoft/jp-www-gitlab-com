@@ -77,7 +77,7 @@ Our ability to scale and innovate in the Fulfillment space will only be possible
 
 As we complete these investments we will reduce the complexity of our order-to-cash systems, making it easier to innovate and deliver improvements to GitLab customers and our internal stakeholders across sales, billing, and more.
 
-To learn more about our fulfillment platform efforts, see [Fulfillment Platform Direction](direction/fulfillment/platform/) (WIP)
+To learn more about our fulfillment platform efforts, see [Fulfillment Platform Direction](/direction/fulfillment/platform/) (WIP)
 
 ### Increase new customer acquisition via self-service
 
