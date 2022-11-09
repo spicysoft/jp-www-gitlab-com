@@ -15,7 +15,7 @@ Process Improvements? Have suggestions for improving the release post process as
 Capture them in the [Retrospective issue](RETRO_ISSUE_LINK).
 
 - **[Preview page](https://about.gitlab.com/releases/gitlab-com/)** (shows the latest merged content blocks, for reference use untill the 17th)
-- **[View App](https://release-X-Y.about.gitlab-review.app/releases/YYYY/MM/DD/gitlab-X-Y-released/index.html)** (shows the introduction, MVP and latest merged content blocks, for reference use between 18th - 21st
+- **[View App](https://release-X-Y.about.gitlab-review.app/releases/YYYY/MM/DD/gitlab-X-Y-released/index.html)** (shows the introduction, MVP and latest merged content blocks, for reference use between 18th - 21st)
 
 _Release post:_
 
@@ -34,8 +34,8 @@ _Related MRs:_
 _Related files:_
 
 - **[Features YAML](https://gitlab.com/gitlab-com/www-gitlab-com/blob/release-X-Y/data/features.yml)**
-- **[Features YAML Images](https://gitlab.com/gitlab-com/www-gitlab-com/blob/release-X-Y/source/images/feature_page/screenshots)** link
-- **[Homepage YAML](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/index.yml#L1)**
+- **[Features YAML Images](https://gitlab.com/gitlab-com/www-gitlab-com/blob/release-X-Y/source/images/feature_page/screenshots)**
+- **[Homepage YAML](https://gitlab.com/-/ide/project/gitlab-com/marketing/digital-experience/buyer-experience/edit/X-Y-release-post-changes/-/content/index.yml#:~:text=event_type%3A%20Release%0A)**
 - **[MVPs](https://gitlab.com/gitlab-com/www-gitlab-com/blob/release-X-Y/data/mvps.yml)**
 
 _Release post task and branch ownership:_
@@ -125,7 +125,7 @@ To accommodate the tight timelines of tasks during the 18th-22nd of the month, m
    - **Please note a sync standup is always required for major releases**.
 13. [ ] Review  the release post major due dates in the [standup agenda](https://docs.google.com/document/d/1LhAEBgZmSq8gs7Dm60RwqU60EZK5cafvILgQUoiakBM/edit) you created. If any fall on a weekend, Family and Friends day or other holiday, flag this to your release post team in Slack prep channel for awareness and to initiate any necessary planning to ensure smooth handoffs/completion of tasks over weekends, etc.
 14. [ ] In the `#release-post` Slack channel, remind Product Managers that all [content blocks (features, recurring, bugs, etc.)](#content-blocks) should be drafted and under review by the 10th. All direction items and notable community contributions should be included in the release post.
-15. [ ] Remind the Technical Writer in Slack prep channel to not to merge in changes from `master` to the release post branch. See the `Release post branch ownership` section above for more details.
+15. [ ] Remind the Technical Writer in Slack prep channel to not to merge in changes from `master` to the release post branch. See the `Release post task and branch ownership` section above for more details.
 
 ### Release post item creation reminders (`@release_post_manager`) due by the 10th
 
