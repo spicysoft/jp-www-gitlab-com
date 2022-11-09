@@ -1524,6 +1524,7 @@ stages:
         categories:
           - vulnerability_management
           - dependency_management
+          - sbom
         usage_driver_score: 4
         asp_driver_score: 5
         sam_driver_score: 5

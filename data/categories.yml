@@ -1665,6 +1665,22 @@ dependency_management:
   feature_labels:
     - dependency list
 
+sbom:
+  name: "Software Bill of Materials"
+  stage: govern
+  description: "Track dependencies detected in your applications."
+  documentation: https://docs.gitlab.com/ee/user/application_security/dependency_list/
+  direction: /direction/supply-chain/
+  roi: false
+  available: 2019-06-22
+  viable: 2022-09-01
+  complete: 2023-10-22
+  lovable: 2024-10-22
+  maturity: viable
+  new_maturity: true
+  marketing: true
+  priority_level: high
+
 # Anti-Abuse
 
 insider_threat:
