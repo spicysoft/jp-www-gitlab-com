@@ -1005,11 +1005,15 @@
   target: /handbook/product/ux/
   comp_op: '~'
 - sources:
+  - /handbook/product/ux/ux-research-training/
+  target: /handbook/product/ux/ux-research/
+  comp_op: '~'
+- sources:
   - /handbook/engineering/ux/ux-researcher
   - /handbook/engineering/ux/ux-researcher/
   - /handbook/engineering/ux/uxresearcher-onboarding
   - /handbook/engineering/ux/uxresearcher-onboarding/
-  target: /handbook/product/ux/ux-research/
+  target: /handbook/product/ux/ux-research/#
   comp_op: '='
 - sources:
   - /handbook/engineering/ux/ux-researcher-training
