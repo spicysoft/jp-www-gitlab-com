@@ -655,6 +655,155 @@ BDR outbound lead generation is done by prospecting to companies and individuals
 
 BDRs will work closely with their dedicated SAL or AE to choose which accounts move into “Actively Working”. Together they will build a strategy for those companies. It is crucial that outreach is very intentional and strategic. When reaching out, we want BDRs to offer value and become a trusted advisor, ensuring a positive impression is left whether there is current demand or not.
 
+Below, we break down our outbound process in 10 actionable steps, and we include a 2' video walkthrough of each step along with any associated documentation.
+
+### 1. Defining the scope of the outbound campaign
+
+To be able to accurately forecast our results, and pipeline required, it is important to conceptualize and defining a constant calendar of micro-campaigns as the first step to any outbound process.
+
+To brainstorm and conceptualize campaigns, the best practice is to have a monthly recurring call between all the BDR members of your region. In this call information gathered from prospects on calls/emails, information sources from news sources, or any other type of datapoint can be used to discuss and come up with the micro-campaigns that the team will run for the near future.
+
+These can take the form of:
+
+- Competitor Campaigns (ie. targetting users of competing technologies)<br>
+- Campaigns based on external events (ie. world evensts)<br>
+- Campaigns that utilize Field Marketing or Digital Program initiatives (ie. DevSecOps survey results)<br>
+
+These campaigns [need to be specific and defined](https://smallbusinessbonfire.com/how-to-run-an-effective-micromarketing-campaign/), in the following ways:
+
+- Duration<br>
+- Target Demographic<br>
+- Intended Messaging, Value Driver or Compelling Event<br>
+- Ultimate Goal or Outcome<br>
+
+All of the above will be used in the next steps that we'll walk you through in setting up the campaign.
+
+### 2. Evaluating Database Options
+
+Having clearly defined the target audience of the micro-campaign, the next step is to evaluate which of our tools can be used to source the specific prospects. 
+
+Below, we outline the main datapoints that each of our tools can provide, and how they can be used to help structure your micro-campaign:
+
+**Cognism:** 
+ 
+| Functionality | Feature Benefit | Tool Availability
+| ------ | ------ | ------ |
+| Technologies Used  | can be used for sourcing accounts that use competitor technologies | ZoomInfo, Cognism |
+| Financial Information | can be used for sourcing accounts that have recently secured funding or have been reporting increases/decreases to their annual earnings  | Zoominfo, Cognism, Sales Navigator |
+| Industries | can be used to source accounts from specific industries | Zoominfo, Cognism, Sales Navigator |
+| Personnel Changes | can be used to source accounts that are hiring for specific positions | ZoomInfo, Sales Navigator, Cognism |
+| Hiring per department | can be used to source accounts that have increases or decreases in headcount across departments | Cognism |
+| Scoops and Attributes | can be used to source accounts that have specific information publicized for product launches, key pain points and so on | ZoomInfo |
+
+Full documentation below:
+1. [Cognism](https://help.cognism.com/hc/en-gb/articles/4405749259026-What-are-event-triggers-and-how-do-I-use-them-)
+2. [ZoomInfo](https://university.zoominfo.com/learn/article/getting-the-scoops)
+
+In each of the tools you may find a library of pre-saved searches that may be indicatively be used as per the below:
+
+| Template Name | Campaigns Applicable for | Tool Availability
+| ------ | ------ | ------ |
+| [High Value Re-engage](https://gitlab.my.salesforce.com/00O4M000004e2wE)  | Re-engagement on **individual** high value prospects  | SFDC |
+| [Companies with Competitor Technology](https://app.cognism.com/search/saved-search)  | Using for Field/Digital Marketing events, or outbound campaigns centered around specific GitLab features  | Cognism |
+| [Companies with competitor technology](https://app.zoominfo.com/#/apps/search/v2/results/company?query=eyJmaWx0ZXJzIjp7InBhc3RQb3NpdGlvbiI6W3siZCI6IkN1cnJlbnQgQ29tcGFueSIsInYiOiIxIn1dLCJpc0NlcnRpZmllZCI6W3siZCI6IkluY2x1ZGUgTm9uLUNlcnRpZmllZCBDb21wYW5pZXMiLCJ2IjpmYWxzZX1dLCJzb3J0UGVvcGxlIjpbeyJkIjoiUmVsZXZhbmNlIiwidiI6IlJlbGV2YW5jZSIsImlzRGVmU3J0Ijp0cnVlfV0sInNvcnRQZW9wbGVPcmRlciI6W3siZCI6IiIsInYiOiJkZXNjIn1dLCJzb3J0Q29tcGFueSI6W3siZCI6IlJlbGV2YW5jZSIsInYiOiIiLCJpc0RlZlNydCI6dHJ1ZX1dLCJzb3J0Q29tcGFueU9yZGVyIjpbeyJkIjoiIiwidiI6ImRlc2MifV0sInNvcnRTY29vcCI6W3siZCI6IiIsInYiOiIiLCJpc0RlZlNydCI6dHJ1ZX1dLCJzb3J0U2Nvb3BPcmRlciI6W3siZCI6IiIsInYiOiJkZXNjIn1dLCJib2FyZE1lbWJlcnMiOlt7ImQiOiJFeGNsdWRlIEJvYXJkIE1lbWJlcnMiLCJ2IjowfV0sInBhcnRpYWxQcm9maWxlcyI6W3siZCI6IkV4Y2x1ZGUgUGFydGlhbCBQcm9maWxlcyIsInYiOnRydWV9XSwiZXhjbHVkZURlZnVuY3RDb21wYW5pZXMiOlt7ImQiOiJFeGNsdWRlIERlZnVuY3QgQ29tcGFuaWVzIiwidiI6dHJ1ZX1dLCJuZWdhdGlvbiI6W3siZCI6IiIsInYiOmZhbHNlfV0sImNvbnRhY3RJbmZvIjpbeyJkIjoiQW55IEluZm8iLCJ2IjoiIn1dLCJleGNsdWRlRXhwb3J0ZWRDb250YWN0cyI6W3siZCI6IiIsInYiOmZhbHNlfV0sImV4Y2x1ZGVFeHBvcnRlZENvbXBhbmllcyI6W3siZCI6IiIsInYiOmZhbHNlfV0sImV4Y2x1ZGVJbXBvcnRlZENvbXBhbmllcyI6W3siZCI6IiIsInYiOmZhbHNlfV0sImV4Y2x1ZGVJbXBvcnRlZENvbnRhY3RzIjpbeyJkIjoiIiwidiI6ZmFsc2V9XSwiY29uZmlkZW5jZVJhbmdlIjpbeyJkIjoiODUtOTkiLCJ2IjpbODUsOTldfV0sIm91dHB1dEN1cnJlbmN5Q29kZSI6W3siZCI6IiIsInYiOiJVU0QifV0sImlucHV0Q3VycmVuY3lDb2RlIjpbeyJkIjoiIiwidiI6IlVTRCJ9XSwidGltZUZyYW1lRHJvcGRvd24iOlt7ImQiOiJQYXN0T25lWWVhciIsInYiOjF9XSwic2NvcmluZ09wdGlvbnMiOlt7ImQiOiJNeSBmaXJzdCBJQ1AiLCJ2Ijoie1wiaWRcIjpcIlpSaFJ5Ym1QcjEwZTZwRVBUNUFxXCIsXCJvbmx5Q29udGFjdEZpbHRlcnNcIjpmYWxzZX0ifV0sImNvbnRpbmVudCI6W3siZCI6IkFmcmljYSIsInYiOiJBZnJpY2EifSx7ImQiOiJFdXJvcGUiLCJ2IjoiRXVyb3BlIn1dLCJ0ZWNoUHJvZHVjdHMiOlt7ImQiOiJHaXRodWIiLCJ2IjoiMzAxNzAifSx7ImQiOiJKZW5raW5zIiwidiI6IjI1MDYzIn0seyJkIjoiQXNzZXQgVHJhY2tlciBmb3IgSmlyYSIsInYiOiIxMjgxOTYifSx7ImQiOiJKaXJhIiwidiI6IjMwNTI1In0seyJkIjoiQXRsYXNzaWFuIiwidiI6IjEwNzUxNSJ9LHsiZCI6IkNpcmNsZUNJIiwidiI6IjMwMjA3In0seyJkIjoiQ2xvdWRCZWVzIiwidiI6IjExMDA5MSJ9LHsiZCI6IlNvdXJjZSBDb2RlIE1hbmFnZW1lbnQiLCJ2IjoiMzI4LjMxNS4qIn0seyJkIjoiU29sYW5vIENJIiwidiI6IjMwMjEzIn0seyJkIjoiVHJhdmlzIENJIiwidiI6IjMwMjA1In0seyJkIjoiSHVkc29uIENvbnRpbnVvdXMgSW50ZWdyYXRpb24gKENJKSIsInYiOiIxMTQxNTEifSx7ImQiOiJBenVyZSBBdXRvbWF0aW9uIiwidiI6IjEyODg1MyJ9LHsiZCI6IkF6dXJlIEJhY2t1cCIsInYiOiIxMjg3ODkifV19LCJzZWFyY2hUeXBlIjoxLCJpY3BTdGF0dXMiOnRydWUsImRlZmF1bHRJY3BQcm9maWxlIjp7Il9pZCI6IlpSaFJ5Ym1QcjEwZTZwRVBUNUFxIiwic2hhcmVkVXNlcnMiOltdLCJzaGFyZVdpdGhBbGxVc2VycyI6ZmFsc2UsIm9ubHlDb250YWN0RmlsdGVycyI6ZmFsc2UsIl9ycGVybSI6W10sIl93cGVybSI6W10sInNjb3JpbmdQcm9maWxlTmFtZSI6Ik15IGZpcnN0IElDUCIsImZpZWxkcyI6W3sibmFtZSI6ImVtcGxveWVlU2l6ZU1pbiIsInZhbHVlcyI6W3sidmFsdWUiOiIxMDAiLCJ3ZWlnaHQiOjV9XX0seyJuYW1lIjoiZW1wbG95ZWVTaXplTWF4IiwidmFsdWVzIjpbeyJ2YWx1ZSI6IjUwMDAiLCJ3ZWlnaHQiOjV9XX0seyJuYW1lIjoiZG96aUluZHVzdHJ5IiwidmFsdWVzIjpbeyJ2YWx1ZSI6ImJpenNlcnZpY2UudGVjaGNvbnN1bHRpbmciLCJ3ZWlnaHQiOjV9XX0seyJuYW1lIjoiY29udGluZW50IiwidmFsdWVzIjpbeyJ2YWx1ZSI6IkV1cm9wZSIsIndlaWdodCI6NX1dfV0sInVzZXJJZCI6InVBdm5EQUVtUUttdnU1a2JZcVVFIiwidXNlciI6eyJ1c2VybmFtZSI6InByb2RvcG91bG9zQGdpdGxhYi5jb20iLCJuYW1lIjoiUGFub3MgUm9kb3BvdWxvcyIsInpvb21fYWNjb3VudF9pZCI6MzAxNzgyNjl9LCJjb21wYW55SWQiOjIwMDIxNDc2LCJfdXBkYXRlZF9hdCI6IjIwMjEtMTEtMDhUMDk6Mjg6MDcuNDQzWiIsIl9jcmVhdGVkX2F0IjoiMjAyMS0xMS0wOFQwOToyODowNy40NDNaIn0sInNraXBIaXN0b3J5IjpmYWxzZSwicGFnZSI6MX0%3D) | Using for Field/Digital Marketing events, or outbound campaigns centered around specific GitLab features  | ZoomInfo |
+| [Companies with Recent Funding](https://app.cognism.com/search/saved-search)  | Using in conjuction with our value driver messaging (cost, efficiency, compliance) which is particularly of interest of companies that have recently acquired, or are about to acquire, fudning  | Cognism |
+| [Companies with Headcount Decrease more than 30%](https://app.zoominfo.com/#/apps/search/v2/results/company?query=eyJmaWx0ZXJzIjp7InBhc3RQb3NpdGlvbiI6W3siZCI6IkN1cnJlbnQgQ29tcGFueSIsInYiOiIxIn1dLCJpc0NlcnRpZmllZCI6W3siZCI6IkluY2x1ZGUgTm9uLUNlcnRpZmllZCBDb21wYW5pZXMiLCJ2IjpmYWxzZX1dLCJzb3J0UGVvcGxlIjpbeyJkIjoiUmVsZXZhbmNlIiwidiI6IlJlbGV2YW5jZSIsImlzRGVmU3J0Ijp0cnVlfV0sInNvcnRQZW9wbGVPcmRlciI6W3siZCI6IiIsInYiOiJkZXNjIn1dLCJzb3J0Q29tcGFueSI6W3siZCI6IlJlbGV2YW5jZSIsInYiOiIiLCJpc0RlZlNydCI6dHJ1ZX1dLCJzb3J0Q29tcGFueU9yZGVyIjpbeyJkIjoiIiwidiI6ImRlc2MifV0sInNvcnRTY29vcCI6W3siZCI6IiIsInYiOiIiLCJpc0RlZlNydCI6dHJ1ZX1dLCJzb3J0U2Nvb3BPcmRlciI6W3siZCI6IiIsInYiOiJkZXNjIn1dLCJib2FyZE1lbWJlcnMiOlt7ImQiOiJFeGNsdWRlIEJvYXJkIE1lbWJlcnMiLCJ2IjowfV0sInBhcnRpYWxQcm9maWxlcyI6W3siZCI6IkV4Y2x1ZGUgUGFydGlhbCBQcm9maWxlcyIsInYiOnRydWV9XSwiZXhjbHVkZURlZnVuY3RDb21wYW5pZXMiOlt7ImQiOiJFeGNsdWRlIERlZnVuY3QgQ29tcGFuaWVzIiwidiI6dHJ1ZX1dLCJuZWdhdGlvbiI6W3siZCI6IiIsInYiOmZhbHNlfV0sImNvbnRhY3RJbmZvIjpbeyJkIjoiQW55IEluZm8iLCJ2IjoiIn1dLCJleGNsdWRlRXhwb3J0ZWRDb250YWN0cyI6W3siZCI6IiIsInYiOmZhbHNlfV0sImV4Y2x1ZGVFeHBvcnRlZENvbXBhbmllcyI6W3siZCI6IiIsInYiOmZhbHNlfV0sImV4Y2x1ZGVJbXBvcnRlZENvbXBhbmllcyI6W3siZCI6IiIsInYiOmZhbHNlfV0sImV4Y2x1ZGVJbXBvcnRlZENvbnRhY3RzIjpbeyJkIjoiIiwidiI6ZmFsc2V9XSwiY29uZmlkZW5jZVJhbmdlIjpbeyJkIjoiODUtOTkiLCJ2IjpbODUsOTldfV0sIm91dHB1dEN1cnJlbmN5Q29kZSI6W3siZCI6IiIsInYiOiJVU0QifV0sImlucHV0Q3VycmVuY3lDb2RlIjpbeyJkIjoiIiwidiI6IlVTRCJ9XSwidGltZUZyYW1lRHJvcGRvd24iOlt7ImQiOiJQYXN0T25lWWVhciIsInYiOjF9XSwic2NvcmluZ09wdGlvbnMiOlt7ImQiOiJNeSBmaXJzdCBJQ1AiLCJ2Ijoie1wiaWRcIjpcIlpSaFJ5Ym1QcjEwZTZwRVBUNUFxXCIsXCJvbmx5Q29udGFjdEZpbHRlcnNcIjpmYWxzZX0ifV0sImVtcGxveWVlR3Jvd3RoUmF0ZSI6W3siZCI6IiIsInYiOnsibWF4UmF0ZSI6LTMwLCJ0aW1lRnJhbWUiOjF9fV0sImNvbnRpbmVudCI6W3siZCI6IkFmcmljYSIsInYiOiJBZnJpY2EifSx7ImQiOiJFdXJvcGUiLCJ2IjoiRXVyb3BlIn1dfSwic2VhcmNoVHlwZSI6MSwiaWNwU3RhdHVzIjp0cnVlLCJkZWZhdWx0SWNwUHJvZmlsZSI6eyJfaWQiOiJaUmhSeWJtUHIxMGU2cEVQVDVBcSIsInNoYXJlZFVzZXJzIjpbXSwic2hhcmVXaXRoQWxsVXNlcnMiOmZhbHNlLCJvbmx5Q29udGFjdEZpbHRlcnMiOmZhbHNlLCJfcnBlcm0iOltdLCJfd3Blcm0iOltdLCJzY29yaW5nUHJvZmlsZU5hbWUiOiJNeSBmaXJzdCBJQ1AiLCJmaWVsZHMiOlt7Im5hbWUiOiJlbXBsb3llZVNpemVNaW4iLCJ2YWx1ZXMiOlt7InZhbHVlIjoiMTAwIiwid2VpZ2h0Ijo1fV19LHsibmFtZSI6ImVtcGxveWVlU2l6ZU1heCIsInZhbHVlcyI6W3sidmFsdWUiOiI1MDAwIiwid2VpZ2h0Ijo1fV19LHsibmFtZSI6ImRvemlJbmR1c3RyeSIsInZhbHVlcyI6W3sidmFsdWUiOiJiaXpzZXJ2aWNlLnRlY2hjb25zdWx0aW5nIiwid2VpZ2h0Ijo1fV19LHsibmFtZSI6ImNvbnRpbmVudCIsInZhbHVlcyI6W3sidmFsdWUiOiJFdXJvcGUiLCJ3ZWlnaHQiOjV9XX1dLCJ1c2VySWQiOiJ1QXZuREFFbVFLbXZ1NWtiWXFVRSIsInVzZXIiOnsidXNlcm5hbWUiOiJwcm9kb3BvdWxvc0BnaXRsYWIuY29tIiwibmFtZSI6IlBhbm9zIFJvZG9wb3Vsb3MiLCJ6b29tX2FjY291bnRfaWQiOjMwMTc4MjY5fSwiY29tcGFueUlkIjoyMDAyMTQ3NiwiX3VwZGF0ZWRfYXQiOiIyMDIxLTExLTA4VDA5OjI4OjA3LjQ0M1oiLCJfY3JlYXRlZF9hdCI6IjIwMjEtMTEtMDhUMDk6Mjg6MDcuNDQzWiJ9LCJza2lwSGlzdG9yeSI6ZmFsc2UsInBhZ2UiOjF9)  | Using in conjunction with our messaging around a singular DevOps platform, and it's benefits towards attrition and bottom line  | ZoomInfo |
+
+### 3. Cross-Referencing with DemandBase
+
+In additional to our B2B toolstack, we also use DemandBase to narrow down the validity of our results. Demandbase offers a lot of additional datapoints like [qualification scores](https://about.gitlab.com/handbook/marketing/account-based-marketing/demandbase/), that can be used to narrow down a big data set to a hyper-targetted prospecting list. 
+
+To cross-reference with Demandbase, please follow the steps below:
+
+1. Export the list(s) sourced from ZoomInfo/Cognism to .CSV by following the steps [here](https://help.zoominfo.com/18435-account-search/exporting-companies) or [here](https://help.cognism.com/hc/en-gb/articles/4407711013650-Navigating-the-Company-Contact-full-page-View-)<br>
+2. Make sure that the exported .CSV has the company domain and company name, these will be used by DemandBase to match accounts to their database.<br>
+3. Follow the [steps here](https://support.demandbase.com/hc/en-us/articles/4404424750861-Create-and-Access-Account-Lists) to upload the .CSV to demandbase<br>
+4. Navigate to Account Lists in DemandBase and find the report template named [ADD REPORT NAME HERE]<br>
+5. Clone the report and go to the selector tab<br>
+6. Change the countries or regions to the ones that you are covering, along with the employee count<br>
+7. Make sure that the 1 or 2 `Member of List` fields are assigned to your new account imports<br>
+8. If the results are too extensive, you can add the DemandBase fields `Qualification Score`, `Pipeline Predict` or `Engagement Minutes` to drill down results even further.<br>
+
+### 4. Manual Research on Accounts
+
+No matter how efficiently we're trying to use our toolchain, these tools are still prone to error, and manual research is required to best shortlist the prospecting lists that cross-referencing will provide. 
+
+Manual research will also provide additional context that can be used to hyper-personalize your outreach to your prospects.
+
+For each account that you want to investigate, start with SFDC to make sure that there are no duplicate accounts. The report templates in DemandBase should exclude existing customers or accounts actively prospected, but we cannot automatically exclude accounts that have a different naming or domain on salesforce (ie. GitLab and GTLB)
+
+The importance of diligent manual research will lead to the below efficiencies:
+
+→ Better use of time in the long-run by making sure accounts are indeed within your segment and territory, or are not duplicates. <br>
+→ Avoiding unecessary RoE conflicts by making sure there are no hidden parent accounts that would cause SAO ownership to be re-assigned to other segments in the future.<br>
+
+**To double-check the account on Salesforce:**
+
+1. Search for the account name on SFDC
+2. Search for the account email domain on SFDC
+3. Search for the account website domain of SFDC
+4. Search for the Account's HQ address, along with any regional business unit address.
+
+**To hyper-personalize your messaging:**
+
+1. Search for past opportunities on SFDC<br>
+    i. Check the qualification notes<br>
+    ii. Check the unqualified reasons by the AE team<br>
+    iii. Check past email communication on the activity records<br>
+
+2. Search for the account record on SFDC<br>
+    i. Check Account Rank notes by the AE team<br>
+    ii. Check the PathFactory, ZoomInfo, Marketo integration tabs<br>
+    iii. Check their product usage information (if applicable)<br>
+    iv. Check their LAM Dev Count<br>
+
+3. Search for relevant leads on SFDC<br>
+    i. Check for past communication<br>
+    ii. Check for Last Interesting Moment and how it connects to their title and lead source to determine their compelling events<br>
+    iii. Check for Web Activity on Marketo and PathFactory to gauge past interest<br>
+
+4. Cross-reference with External sources<br>
+    i. Search LinkedIn Insights for company growth, financials and recent news<br>
+    ii. Search company webpage for recent news, career openings or specific technologies used<br>
+    iii. Search online sources like newsletter or crunchbase<br>
+
+4. Cross-reference the above with HighSpot<br>
+    i. Check for relevant playbooks based on company size<br>
+    ii. Check for relevant messaging based on persona<br>
+    iii. Check for relevant pain-points based on value driver<br>
+
+### 5. Exporting Accounts and Leads to SFDC, and adding to your Outbound Pipeline
+
+After having manually shortlisted the accounts that are applicable to your campaign, the next step is to determine the relevant prospects per account and export them to SFDC. It is important to add accounts to your outbound pipeline so that AEs and other SDRs/BDRs know this is an account that is already being touched, and to avoid confusion or multiple people approaching the same prospects. Before moving an account into “Actively Working Status”, make sure there have been no MQLs, or opportunities created, from that account within the past 30 days, in case you are not sure you can double check with the AE or SDR/BDR who worked in this.
+
+**To determine which prospects to enroll per account, please follow the steps below:**
+
+1. Identify the idea value drivers to be used for the account's pain-points through your manual research, as outlined above
+2. Determine which personas would most benefit from the specific value drivers by using our CoM documentation on HighSpot
+3. Run queries for the specific titles on ZoomInfo, and export to CRM
+
+**To export to CRM, please follow the guidelines below:**
+
+1. Click the Export to CRM button on [ZoomInfo](https://about.gitlab.com/handbook/marketing/marketing-operations/zoominfo/#training)
+2. That's it
+3. No, really. 
+
+**To fill in the BDR fields, please follow the guidelines below:** 
+
+1. Use the format found on [this template](https://docs.google.com/document/d/1EN2U8wrUdti4MTxCNceoOlltAmtUt4pqN1GxwRTCnK4/edit)
+2. Copy-Paste the Structure to the `BDR Account Research` field and populate accordingly. 
+3. Populate the `BDR Next Step Date` to be at the end of the account's sequence length (typically one month out)
+
+### 6. Maintaining a clean pipeline, and using BDR fields for cross-functional collaboration.
+
+1. To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for `watch and help`. Team specific variants of these dashboard components will also be found on your team's dashboard. These dashboards will give you a bird's eye view of what actions are required from to maintain a clean pipeline, in terms of:
+    i. Accounts with BDR fields past due
+    ii. Prospects with sequence steps past due
+    iii. Prospects that have been moved to `Qualifying` status but have not had any outreach since. <br>
+
+2. To utilize the BDR fields in maintaing an automated 1:1 outbound agenda with the AEs/SALs that you collaborate with, please follow the [link here](https://about.gitlab.com/handbook/marketing/revenue-marketing/sdr/sales-sdr-alignment/#expectations-and-strategic-processes) for a list or report templates that may be cloned and customized. 
+
+**Important Note**
 You do not have to wait until the end of the month or quarter to change the BDR prospecting status, you just have to make sure you stay under the limit for your segment and move the account to either “Queued” or “Worked in FY” based on criteria.
 
 BDR Account views are to help with territory organization. It is very important for BDRs and their manager to update the BDR assigned field for their territory. Contacts ownership will be based on the BDR Assigned to the account. BDRs will be responsible for contact follow up should they MQL. BDRs will also be responsible for any leads that MQL when they’re related to accounts where they are the BDR Assigned and the account is in “Actively Working” status.
