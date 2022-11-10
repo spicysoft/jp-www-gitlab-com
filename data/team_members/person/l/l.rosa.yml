@@ -1,17 +1,24 @@
-name: Leo da Rosa
-locality: 
+name: Leonardo da Rosa
+locality:
 country: Remote
-role: <a href="">Backend Engineer</a>
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Database</a>
 reports_to: alexives
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: leonardodarosa.jpg
+pronouns: he/him/his
 pronunciation:
 twitter:
-linkedin:
+linkedin: leobagua
 gitlab: l.rosa
 departments:
-  - Development
-specialty: "Database"
+  - Engineering Function
+  - Development Department
+  - Enablement Sub-department
+  - Database BE Team
+specialty: Database
 expertise:
-story:
-
+story: |
+  Leo is a backend engineer from Brazil with more than six years of experience in web development.
+  Recently, he found passion for software architecture, especially for distributed architecture.
+  In his spare time, he enjoys cycling, traveling and playing with his Beagle, Lua.
+projects:
+  gitlab: []
