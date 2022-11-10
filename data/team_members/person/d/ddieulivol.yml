@@ -17,6 +17,7 @@ departments:
 - Engineering Productivity Team
 projects:
   gitlab:
+  - maintainer pipeline
   - reviewer backend
   - reviewer tooling
   gitlab-build-images: reviewer
