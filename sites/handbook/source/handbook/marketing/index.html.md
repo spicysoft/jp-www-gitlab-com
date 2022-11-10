@@ -17,7 +17,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 {: .no_toc}
 
-The GitLab Marketing team operates as one team and is organized by the following departments: [Brand and Product Marketing](/handbook/marketing/#product-marketing), [Integrated Marketing](/handbook/marketing/#integrated-marketing), [Marketing Strategy and Platforms](/handbook/marketing/#marketing-strategy-and-platforms), [Corporate Communications](/handbook/marketing/#corporate-communications), [Community & Developer Relations](/handbook/marketing/#community-relations), and [Sales Development](/handbook/marketing/#sales-development). This page documents our shared team philosophy and processes, while the individual team handbooks contain more detailed information about each sub-team.
+The GitLab Marketing team operates as one team and is organized by the following departments: [Brand and Product Marketing](/handbook/marketing/##brand-and-product-marketing), [Integrated Marketing](/handbook/marketing/#integrated-marketing), [Marketing Strategy and Platforms](/handbook/marketing/#marketing-strategy-and-platforms), [Corporate Communications](/handbook/marketing/#corporate-communications), [Community & Developer Relations](/handbook/marketing/#community-relations), and [Sales Development](/handbook/marketing/#sales-development). This page documents our shared team philosophy and processes, while the individual team handbooks contain more detailed information about each sub-team.
 
 ## Marketing Purpose
 
