@@ -516,13 +516,15 @@
         %hr.hidden-lg
 
 / Updgrade warning - introduced on 11.8 - replaces "upgrade barometer"
-- if datafile.upgrade
+- if datafile.upgrades.present?
   %section#upgrade-warning.release-post-section
     %h2.text-center{:id => "upgrade"}
       %a.header-link{href: "#upgrade"}
         %i.fas.fa-link
       = "Important notes on upgrading to GitLab #{current_article.data.release_number}"
-    = kramdown(datafile.upgrade.description)
+    - datafile.upgrades.each do |upgrade|
+      = kramdown(upgrade.description)
+      %hr/
 
 / Updgrade barometer - deprecated on 11.8 (leave it here for the older posts)
 - if datafile.barometer

@@ -928,10 +928,10 @@ cover_img:
   licence: Unsplash License
   licence_url: 'https://unsplash.com/license'
 
-upgrade:
-  reporter: ljlane
-  description: |
-    The version of Consul in Omnibus GitLab was updated from 0.9.0 to 1.6.1 in GitLab 12.5. When upgrading Consul nodes in a high availability cluster, the Consul nodes must be upgraded one node at a time. The upgrade procedure is documented in [Upgrades for bundled Consul](https://docs.gitlab.com/ee/administration/consul.html#upgrade-the-consul-nodes).
+upgrades:
+  - reporter: ljlane
+    description: |
+      The version of Consul in Omnibus GitLab was updated from 0.9.0 to 1.6.1 in GitLab 12.5. When upgrading Consul nodes in a high availability cluster, the Consul nodes must be upgraded one node at a time. The upgrade procedure is documented in [Upgrades for bundled Consul](https://docs.gitlab.com/ee/administration/consul.html#upgrade-the-consul-nodes).
 
 # CTA BUTTONS (optional)
 cta:

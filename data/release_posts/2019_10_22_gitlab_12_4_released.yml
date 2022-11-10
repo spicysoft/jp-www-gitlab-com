@@ -868,40 +868,40 @@ cta:
 
 # UPGRADE WARNING (optional)
 # https://about.gitlab.com/handbook/marketing/blog/release-posts/#important-notes-on-upgrading
-upgrade:
-  reporter: nagyv.gitlab
-  description: |
-    - GitLab 12.4 now installs Knative 0.7 as a [GitLab Managed
-    App](https://docs.gitlab.com/ee/user/clusters/applications.html#knative).
-    Note: GitLab Serverless is still in alpha. If you run into issues with
-    previous Knative versions, please reach out to the GitLab support.
+upgrades:
+  - reporter: nagyv.gitlab
+    description: |
+      - GitLab 12.4 now installs Knative 0.7 as a [GitLab Managed
+      App](https://docs.gitlab.com/ee/user/clusters/applications.html#knative).
+      Note: GitLab Serverless is still in alpha. If you run into issues with
+      previous Knative versions, please reach out to the GitLab support.
 
-    - Starting with GitLab 12.4, the Kubernetes integration will install
-    Cert-Manager v0.9.1. If you installed Cert-Manager via the Kubernetes
-    integration previously, then you will be on an older version. [Older
-    versions will be blocked by Let's
-    Encrypt](https://community.letsencrypt.org/t/blocking-old-cert-manager-versions/98753)
-    starting November 1st, 2019. See more info on the
-    [Cert-Manager](#cert-manager) deprecation notice.
-    GitLab 12.3 upgrades Cert-Manager to v0.9.1 when installing it through the
-    Kubernetes integration. If you are using an older version of Cert-Manager
-    (installed through the Kubernetes integration) you will need to uninstall
-    the old version and install the latest version as [older versions will be
-    blocked by Let's
-    Encrypt](https://community.letsencrypt.org/t/blocking-old-cert-manager-versions/98753)
-    starting November 1st, 2019. See more info on the
-    [Cert-Manager](#cert-manager) deprecation notice.
+      - Starting with GitLab 12.4, the Kubernetes integration will install
+      Cert-Manager v0.9.1. If you installed Cert-Manager via the Kubernetes
+      integration previously, then you will be on an older version. [Older
+      versions will be blocked by Let's
+      Encrypt](https://community.letsencrypt.org/t/blocking-old-cert-manager-versions/98753)
+      starting November 1st, 2019. See more info on the
+      [Cert-Manager](#cert-manager) deprecation notice.
+      GitLab 12.3 upgrades Cert-Manager to v0.9.1 when installing it through the
+      Kubernetes integration. If you are using an older version of Cert-Manager
+      (installed through the Kubernetes integration) you will need to uninstall
+      the old version and install the latest version as [older versions will be
+      blocked by Let's
+      Encrypt](https://community.letsencrypt.org/t/blocking-old-cert-manager-versions/98753)
+      starting November 1st, 2019. See more info on the
+      [Cert-Manager](#cert-manager) deprecation notice.
 
-    - To help with the larger migrations [we have introduced background
-    migrations](https://gitlab.com/gitlab-org/gitlab/merge_requests/17993) for
-    this release. Background migrations are Sidekiq jobs that will run
-    asynchronously. For GitLab.com these migrations took around 36 hours to
-    complete, and no side effects were expected nor present. To find the
-    approximate time (in hours) it will take to complete these migrations on your instance
-    run the following command from a Rails console: `(Project.count.to_f /
-    300_000).ceil`. You can check the status of background migrations by running
-    this command from a Rails console:
-    `Sidekiq::Queue.new('background_migration').size`.
+      - To help with the larger migrations [we have introduced background
+      migrations](https://gitlab.com/gitlab-org/gitlab/merge_requests/17993) for
+      this release. Background migrations are Sidekiq jobs that will run
+      asynchronously. For GitLab.com these migrations took around 36 hours to
+      complete, and no side effects were expected nor present. To find the
+      approximate time (in hours) it will take to complete these migrations on your instance
+      run the following command from a Rails console: `(Project.count.to_f /
+      300_000).ceil`. You can check the status of background migrations by running
+      this command from a Rails console:
+      `Sidekiq::Queue.new('background_migration').size`.
 
 # DEPRECATIONS (optional)
 # include as many deprecation blocks as necessary
