@@ -1,7 +1,9 @@
+---
 name: Hercules Lemke Merscher
-locality: 
+locality:
 country: Remote
-role: <a href="/job-families/engineering/backend-engineer/#backend-engineer">Backend Engineer</a>
+role: <a href="/job-families/engineering/backend-engineer/#backend-engineer">Backend
+  Engineer</a>
 reports_to: rachel-nienaber
 picture: hmerscher.png
 pronouns: he/him
@@ -10,7 +12,9 @@ twitter: bitmaybewise
 linkedin: herculesmerscher
 gitlab: hmerscher
 departments:
-  - Infrastructure
-specialty: <a href="/job-families/engineering/backend-engineer/#scalability">Scalability</a>
+- Infrastructure
+specialty: Scalability
 expertise:
-story: Coding for a living and for fun. Once in a while, writes on <a href="http://bitmaybewise.com/">Bit Maybe Wise</a>.
+story: Coding for a living and for fun. Once in a while, writes on <a href="http://bitmaybewise.com/">Bit
+  Maybe Wise</a>.
+

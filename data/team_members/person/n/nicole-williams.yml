@@ -2,7 +2,8 @@
 name: Nicole Williams
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/management/senior-manager/">Interim Senior Engineering Manager, Monitor & Runner</a>
+role: <a href="/job-families/engineering/development/management/senior-manager/">Interim
+  Senior Engineering Manager, Monitor & Runner</a>
 reports_to: samgoldstein
 picture: nicolewilliams.jpg
 twitter: nicolemw
@@ -17,5 +18,5 @@ story: |
   Nicole has many years of experience building large scale web applications and leading
   high performing engineering teams. Outside of work she can usually be found reading a book,
   buying a plant, or spending quality time with her family and friends.
-specialty: Monitor & Runner
+specialty: Release
 
