@@ -1,5 +1,6 @@
+---
 name: Ross Byrne
-locality: 
+locality:
 country: Remote
 role: <a href="/job-families/engineering/development/fullstack/">Fullstack Engineer</a>,
   Growth:Acquisition
@@ -11,11 +12,12 @@ twitter:
 linkedin: ross-byrne-5992b5107
 gitlab: robyrne
 departments:
-  - Engineering Function
-  - Development Department
-  - Growth Section
-  - Acquisition Team
-  - Acquisition Fullstack Team
-specialty: Acquisition
+- Engineering Function
+- Development Department
+- Growth Section
+- Acquisition Team
+- Acquisition Fullstack Team
+specialty: Growth
 expertise:
 story:
+
