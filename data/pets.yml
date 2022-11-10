@@ -2737,6 +2737,12 @@
   picture: humphry.png
   human: Catherine Pope
   story: Humph enjoys eating, sleeping, and nibbling bipeds. He's named after a Victorian novelist called Mrs Humphry Ward (we only use his full name when he's disgraced himself).
+- name: Lua
+  picture: lrosa-lua.jpg
+  human: Leonardo da Rosa
+  story: Lua is a 12 years-old Beagle passionate for food and treats! 
+    She's a very sweet girl that likes adventures and sleeping in the afternoon.
+    On her free time, she enjoys watching movies with her mommy and daddy.
 - name: You?
   picture: "../../gitlab-logo-extra-whitespace.png"
   human:
