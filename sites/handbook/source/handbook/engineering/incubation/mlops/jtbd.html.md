@@ -8,17 +8,17 @@ description: "What are the problems users want MLOps to solve?"
 
 To better contextualize our efforts on MLOps Incubation Engineering, we are defining a list of [Jobs To Be Done](https://about.gitlab.com/handbook/product/ux/jobs-to-be-done/) - the objectives our users are trying to accomplish in MLOps. We will anchor these JTBD to the [stage](https://about.gitlab.com/stages-devops-lifecycle/) they belong to, and each MLOps exploration will try to address one or more of these JTBD.
 
-This is a living issue, and new JBTD will continue to be added based on our understanding of MLOps and user Feedback.
+This is a living issue, and new JTBD will continue to be added based on our understanding of MLOps and user Feedback.
 
 ## Why is MLOps different from traditional DevOps?
 
 While MLOps goals is the exact same as DevOps, the JTBD are a result of the difference between software the includes ML (sometimes referred as [software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35)) and traditional software. **For traditional software, logic is made explicit through code, while on for ML the logic is implicit in the data, and extracted through a variety of technique's**. By relying on the data, it becomes a first class citizen for Ops (quality of the underlying data will impact directly on the quality of the software output), and not being explicit brings different types of vulnerability and uncertainty that needs to be addressed. **Note that MLOps is not a branch of DevOps, it's a superset of it.**
 
-## MLOps JBTD
+## MLOps JTBD
 
 When working with software that includes Machine Learning, I want be able to iterate on the models with confidence, so that I can deliver the most value to my users.
 
-## MLOps JBTD per stage     
+## MLOps JTBD per stage     
 
 ### Plan
 
