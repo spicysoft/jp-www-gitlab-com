@@ -70,15 +70,19 @@ GitLab hosts workshops with organizations interested in increasing their contrib
 
 **Types of Workshops**
 
-1. Program Workshop - Program Overview and Benefits, Audience: Business Stakeholders, GitLab: Leading Organization Team and CSM/Account Executive (optional)
-2. Onboarding Workshop - Technical Deep Dive -  How to start/increase contributions, Audience: Technical Leadership, Engineers interested in contributing. Meet with Contributor Success Team on open issues and scope out new requests. 
+1. Program Workshop - Program Overview and Benefits
+   1. Audience: Business Stakeholders, GitLab: Leading Organization Team and CSM/Account Executive
+   1. Content: [Workshop deck](https://docs.google.com/presentation/d/18KhqZwtSVsWyu7A84Oww1blQank98BRuyDiFWGy19_Y/edit#slide=id.g1583b4f80c1_2_221) (only accessible from within the company)
+2. Onboarding Workshop - Technical Deep Dive 
+   1. Audience: Technical Leadership, Engineers interested in contributing, GitLab: Contributor Success 
+   1. Content: Meet with Contributor Success cohort on how to start/increase contributions, open issues and scope out new requests 
 
 ## Tips from GitLab on how to accelerate your organization's contribution rate
 
 - Ensure your contributions are being counted by entering your organization’s name into your GitLab profile details
 - Enable employees to make their [first contributions](/community/hackathon/)
 - Join [Monthly Hackathons](/community/hackathon/)
-- Allocate dedicated time for employees to contribute back to open source.
+- Allocate dedicated time for employees to contribute back to open source
 
 ## Communication with GitLab
 
