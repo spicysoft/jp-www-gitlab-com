@@ -1,4 +1,0 @@
-<% if collection %>
-  <% collection = Array(collection) %>
-| <%= label.pluralize(collection.count) %> <%= suffix %> | <%= collection.map{ |elem| "[#{elem}]" }.join(", ") %> |
-<% end %>

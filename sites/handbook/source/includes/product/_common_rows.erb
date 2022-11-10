@@ -1,5 +1,0 @@
-<%= partial('includes/product/slack', locals: { slack: unit.slack }) -%>
-<%= partial('includes/product/user_table_row', locals: { label: 'GitLab Group', username: unit.gitlab_group }) -%>
-<% if unit.handbook -%>
-| Handbook | [Handbook](/handbook/<%=unit.handbook%>) |
-<% end -%>
