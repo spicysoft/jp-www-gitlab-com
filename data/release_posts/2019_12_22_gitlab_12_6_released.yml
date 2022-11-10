@@ -981,26 +981,26 @@ cta:
   - title: "Release survey"
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSdWA8nKZ7eRMDOk3HCJTLRvaSRTY22GGyyE-8cvfCwIuy3Iyg/viewform'
 
-upgrade:
-  reporter: ogolowinski
-  description: |
-    As part of our architecture updates for GitLab pages, Pages will be using an
-    API instead of using disk-database access. This has already been done on
-    GitLab.com.
+upgrades:
+  - reporter: ogolowinski
+    description: |
+      As part of our architecture updates for GitLab pages, Pages will be using an
+      API instead of using disk-database access. This has already been done on
+      GitLab.com.
 
-    To help with the larger migrations, we have introduced background migrations
-    (Sidekiq jobs that will run asynchronously) for this release. For
-    GitLab.com, these migrations took around 36 hours to complete, and no side
-    effects were expected nor introduced.
+      To help with the larger migrations, we have introduced background migrations
+      (Sidekiq jobs that will run asynchronously) for this release. For
+      GitLab.com, these migrations took around 36 hours to complete, and no side
+      effects were expected nor introduced.
 
-    To find the approximate time it will take to complete these migrations on
-    your instance, run the following command from a Rails console:
-    `(Project.count.to_f / 300_000).ceil`. To check the status of the background
-    migrations, run: `Sidekiq::Queue.new`
-    `('background_migration').size`.
+      To find the approximate time it will take to complete these migrations on
+      your instance, run the following command from a Rails console:
+      `(Project.count.to_f / 300_000).ceil`. To check the status of the background
+      migrations, run: `Sidekiq::Queue.new`
+      `('background_migration').size`.
 
-    For more information see the [issue for Pages virtual host configuration
-    API](https://gitlab.com/gitlab-org/gitlab/issues/28781).
+      For more information see the [issue for Pages virtual host configuration
+      API](https://gitlab.com/gitlab-org/gitlab/issues/28781).
 
 deprecations:
   - feature_name: "Kubernetes 1.11 no longer supported"

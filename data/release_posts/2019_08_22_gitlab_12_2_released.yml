@@ -660,16 +660,16 @@ cta:
 
 # UPGRADE WARNING (optional)
 # https://about.gitlab.com/handbook/marketing/blog/release-posts/#important-notes-on-upgrading
-upgrade:
-  reporter: joshlambert # required
-  description: | # example (supports markdown)
-    - As detailed in the critical security [release blog post](https://about.gitlab.com/blog/2019/08/12/critical-security-release-gitlab-12-dot-1-dot-6-released/), existing Grafana data will be backed up, Grafana will be reset to the initial configuration, and GitLab SSO will be the only authentication mode available.
-    - Rails' authenticated cookie encryption is now enabled and old sessions are automatically upgraded.
-      However, session cookie downgrades are not supported. So after upgrading to 12.2, any downgrades would result to all sessions being invalidated and users are logged out.
-    - Similar to GitLab 12.0 and GitLab 12.1, GitLab 12.2 will
-      [automatically upgrade the PostgreSQL version to 10.9](https://docs.gitlab.com/omnibus/settings/database.html#upgrade-packaged-postgresql-server).
-    - You can skip the auto-upgrade to PostreSQL 10.9 by
-      creating `/etc/gitlab/disable-postgresql-upgrade`.
+upgrades:
+  - reporter: joshlambert # required
+    description: | # example (supports markdown)
+      - As detailed in the critical security [release blog post](https://about.gitlab.com/blog/2019/08/12/critical-security-release-gitlab-12-dot-1-dot-6-released/), existing Grafana data will be backed up, Grafana will be reset to the initial configuration, and GitLab SSO will be the only authentication mode available.
+      - Rails' authenticated cookie encryption is now enabled and old sessions are automatically upgraded.
+        However, session cookie downgrades are not supported. So after upgrading to 12.2, any downgrades would result to all sessions being invalidated and users are logged out.
+      - Similar to GitLab 12.0 and GitLab 12.1, GitLab 12.2 will
+        [automatically upgrade the PostgreSQL version to 10.9](https://docs.gitlab.com/omnibus/settings/database.html#upgrade-packaged-postgresql-server).
+      - You can skip the auto-upgrade to PostreSQL 10.9 by
+        creating `/etc/gitlab/disable-postgresql-upgrade`.
 
 # DEPRECATIONS (optional)
 # include as many deprecation blocks as necessary

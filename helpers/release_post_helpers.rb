@@ -22,7 +22,7 @@ module ReleasePostHelpers
 
   def release_post_items(milestone)
     # Stub structure into which feature blocks will be merged
-    items = Hashie::Mash.new(features: { top: [], primary: [], secondary: [] }, tertiary: [], deprecations: [], removals: [])
+    items = Hashie::Mash.new(features: { top: [], primary: [], secondary: [] }, tertiary: [], deprecations: [], removals: [], upgrades: [])
 
     (data.release_posts[milestone.tr('.', '_')] || {}).each do |filename, content|
       next if filename == 'samples'
