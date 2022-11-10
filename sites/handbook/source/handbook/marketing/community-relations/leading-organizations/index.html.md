@@ -72,7 +72,11 @@ GitLab hosts workshops with organizations interested in increasing their contrib
 
 1. Program Workshop - Program Overview and Benefits
    1. Audience: Business Stakeholders, GitLab: Leading Organization Team and CSM/Account Executive
-   1. Content: [Workshop deck](https://docs.google.com/presentation/d/18KhqZwtSVsWyu7A84Oww1blQank98BRuyDiFWGy19_Y/edit#slide=id.g1583b4f80c1_2_221) (only accessible from within the company)
+   
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQPnTgg5pmmW8N8Az0NlhPqY_1Dp2CutG3CYv7USmIp-FjNyfYNuEo0BL1E0yiL98Izi76grobevzOn/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+
 2. Onboarding Workshop - Technical Deep Dive 
    1. Audience: Technical Leadership, Engineers interested in contributing, GitLab: Contributor Success 
    1. Content: Meet with Contributor Success cohort on how to start/increase contributions, open issues and scope out new requests 
