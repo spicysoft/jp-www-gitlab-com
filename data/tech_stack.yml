@@ -756,7 +756,7 @@
   group_owner_slack_channel: '#marketing-design'
   business_owner: Adam Mittner
   technical_owner: Adam Mittner, Luke Babb
-  data_classification: Yellow
+  data_classification: Orange
   integration_method: null
   need_move_to_okta: null
   critical_systems_tier: Tier 3 / Non-critical
