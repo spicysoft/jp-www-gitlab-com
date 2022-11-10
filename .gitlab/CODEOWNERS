@@ -453,7 +453,10 @@ sites/handbook/source/handbook/marketing/corporate-marketing/corporate-communica
 /data/sections.yml @david @akramer
 /data/stages.yml @david @akramer
 /source/direction/ @david @fseifoddini
-/sites/handbook/source/handbook/product/ @david @fseifoddini @brhea
+/sites/handbook/source/handbook/product/ @david @fseifoddini
+/sites/handbook/source/handbook/product/product-management/ @david @fseifoddini @justinfarris @brhea
+/sites/handbook/source/handbook/product/product-operations/ @david @fseifoddini @justinfarris @brhea
+/sites/handbook/source/handbook/product/product-monetization/ @david @fseifoddini @justinfarris
 /sites/handbook/source/handbook/product/cross-functional-prioritization/ @akramer @david
 /sites/handbook/source/handbook/product/product-manager-responsibilities/ @david @fseifoddini
 /sites/handbook/source/handbook/product-development-flow/ @david @fseifoddini @justinfarris
