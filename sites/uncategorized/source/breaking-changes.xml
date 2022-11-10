@@ -15,7 +15,7 @@
     <link>https://docs.gitlab.com/ee/update/deprecations.html#gitlab-runner-register-command</link> 
     <description>The command to [register](https://docs.gitlab.com/runner/register/) a runner, `gitlab-runner register` is deprecated. GitLab plans to introduce a new [GitLab Runner token architecture](https://docs.gitlab.com/ee/architecture/blueprints/runner_tokens/), which introduces a new method for registering runners and eliminates the legacy [runner registration token](https://docs.gitlab.com/ee/security/token_overview.html#runner-registration-tokens).
 </description>
-    <pubDate>Tue, 22 Oct 2022 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
   </item>
 
   <item>
@@ -30,7 +30,7 @@ and method in GitLab 16.0, and introduce a new
 This new architecture introduces a new method for registering runners and eliminates the legacy
 [runner registration token](https://docs.gitlab.com/ee/security/token_overview.html#runner-registration-tokens).
 </description>
-    <pubDate>Tue, 22 Oct 2022 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
   </item>
 
   <item>
