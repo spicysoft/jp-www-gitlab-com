@@ -43,7 +43,8 @@ A. Yes, GitLab Trial will receive entitlements from GitLab Ultimate.
 A. For existing paid tier users:
 
 - Storage limits are not yet applicable for paid customers. GitLab will release additional features in the coming months for users to [view and manage storage usage](https://gitlab.com/gitlab-org/gitlab/-/issues/375296) well ahead of the storage limits being applicable.
-- Storage limits will be added to the subscription terms at a later date and namespaces on the updated terms which are over the limits will be notified in-app at least 60 days prior to the storage limits being applied.
+- Storage limits will be added to the subscription terms at a later date, and only namespaces on the updated terms will be have storage limits applied.
+- We intend to roll out application of these limits gradually. We will show in-app notifications to affected namespaces prior to the storage limits being applied. Users that are already above the limit will see the in-app notifications at least 60 days ahead of enforcement. Users that go above the limit during the period where the in-app notifications are showing will see them as soon as they go above the threshold.
 - Transfer limits will not be applicable until further communication from GitLab.
 
 For existing paid tier users on a multi-year contract:

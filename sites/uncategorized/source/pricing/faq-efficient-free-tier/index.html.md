@@ -41,7 +41,7 @@ A. Yes, GitLab Ultimate Trial and Premium Trial will receive entitlements from G
 A. Yes, the change is applicable to both public and private projects. Free tier users using GitLab for public open source projects should consider applying for the [GitLab for Open Source program](/solutions/open-source/), which provides access to the GitLab Ultimate features and entitlements for free.
 
 **Q. What is the effective date of the changes?**  
-A. Storage limits for the Free tier of GitLab SaaS will not be applied before 2022-10-19, and [storage management improvements](https://gitlab.com/gitlab-org/gitlab/-/issues/375296) are available. We intend to roll out application of these limits gradually, impacted users will be notified in-app at least 60 days prior to the storage limits being applied.
+A. Storage limits for the Free tier of GitLab SaaS will not be applied before 2022-10-19, and [storage management improvements](https://gitlab.com/gitlab-org/gitlab/-/issues/375296) are available. We intend to roll out application of these limits gradually. We will show in-app notifications to affected namespaces prior to the storage limits being applied. Users that are already above the limit will see the in-app notifications at least 60 days ahead of enforcement. Users that go above the limit during the period where the in-app notifications are showing will see them as soon as they go above the threshold.
 
 ### Managing your Storage Usage
 
