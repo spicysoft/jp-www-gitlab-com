@@ -335,7 +335,7 @@
   group_owner: IT Infrastructure, Eng Infrastructure
   group_owner_slack_channel: '#it_help or #infrastructure_lounge'
   business_owner: Laurence Bierner, Joe Dubail, Joaquin Fuentes, Steve Manzuik
-  technical_owner: Marco Lancini, Paulo Martins, Joaquin Fuentes
+  technical_owner: Paulo Martins, Joaquin Fuentes
   data_classification: Red
   integration_method: AWS IAM
   need_move_to_okta: false
