@@ -13,7 +13,7 @@
     <title>`gitlab-runner register` command</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#gitlab-runner-register-command</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#gitlab-runner-register-command</link> 
-    <description>The command to [register](https://docs.gitlab.com/runner/register/) a runner, `gitlab-runner register` is deprecated. GitLab plans to introduce a new [GitLab Runner token architecture](https://docs.gitlab.com/ee/architecture/blueprints/runner_tokens/), which introduces a new method for registering runners and eliminates the legacy [runner registration token](https://docs.gitlab.com/ee/security/token_overview.html#runner-registration-tokens).
+    <description>The command to <a href="https://docs.gitlab.com/runner/register/">register</a> a runner, `gitlab-runner register` is deprecated. GitLab plans to introduce a new <a href="https://docs.gitlab.com/ee/architecture/blueprints/runner_tokens/">GitLab Runner token architecture</a>, which introduces a new method for registering runners and eliminates the legacy <a href="https://docs.gitlab.com/ee/security/token_overview.html#runner-registration-tokens">runner registration token</a>.
 </description>
     <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
   </item>
@@ -23,12 +23,12 @@
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#post-apiv4runners-method-to-register-runners</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#post-apiv4runners-method-to-register-runners</link> 
     <description>The `POST` method operation on the `/api/v4/runners` endpoint is deprecated.
-This endpoint and method [registers](https://docs.gitlab.com/ee/api/runners.html#register-a-new-runner) a runner
+This endpoint and method <a href="https://docs.gitlab.com/ee/api/runners.html#register-a-new-runner">registers</a> a runner
 with a GitLab instance at the instance, group, or project level through the API. We plan to remove this endpoint
 and method in GitLab 16.0, and introduce a new
-[GitLab Runner token architecture](https://docs.gitlab.com/ee/architecture/blueprints/runner_tokens/).
+<a href="https://docs.gitlab.com/ee/architecture/blueprints/runner_tokens/">GitLab Runner token architecture</a>.
 This new architecture introduces a new method for registering runners and eliminates the legacy
-[runner registration token](https://docs.gitlab.com/ee/security/token_overview.html#runner-registration-tokens).
+<a href="https://docs.gitlab.com/ee/security/token_overview.html#runner-registration-tokens">runner registration token</a>.
 </description>
     <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
   </item>
@@ -46,7 +46,7 @@ This new architecture introduces a new method for registering runners and elimin
     <title>vulnerabilityFindingDismiss GraphQL mutation</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#vulnerabilityfindingdismiss-graphql-mutation</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#vulnerabilityfindingdismiss-graphql-mutation</link> 
-    <description>The `VulnerabilityFindingDismiss` GraphQL mutation is being deprecated and will be removed in GitLab 16.0. This mutation was not used often as the Vulnerability Finding ID was not available to users (this field was [deprecated in 15.3](https://docs.gitlab.com/ee/update/deprecations.html#use-of-id-field-in-vulnerabilityfindingdismiss-mutation)). Users should instead use `VulnerabilityDismiss` to dismiss vulnerabilities in the Vulnerability Report or `SecurityFindingDismiss` for security findings in the CI Pipeline Security tab.
+    <description>The `VulnerabilityFindingDismiss` GraphQL mutation is being deprecated and will be removed in GitLab 16.0. This mutation was not used often as the Vulnerability Finding ID was not available to users (this field was <a href="https://docs.gitlab.com/ee/update/deprecations.html#use-of-id-field-in-vulnerabilityfindingdismiss-mutation">deprecated in 15.3</a>). Users should instead use `VulnerabilityDismiss` to dismiss vulnerabilities in the Vulnerability Report or `SecurityFindingDismiss` for security findings in the CI Pipeline Security tab.
 </description>
     <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
   </item>
@@ -66,7 +66,7 @@ This breaking change fixes this issue but could disrupt user workflows that work
     <title>Vulnerability confidence field</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#vulnerability-confidence-field</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#vulnerability-confidence-field</link> 
-    <description>In GitLab 15.3, [security report schemas below version 15 were deprecated](https://docs.gitlab.com/ee/update/deprecations.html#security-report-schemas-version-14xx).
+    <description>In GitLab 15.3, <a href="https://docs.gitlab.com/ee/update/deprecations.html#security-report-schemas-version-14xx">security report schemas below version 15 were deprecated</a>.
 The `confidence` attribute on vulnerability findings exists only in schema versions before `15-0-0`, and therefore is effectively deprecated since GitLab 15.4 supports schema version `15-0-0`. To maintain consistency
 between the reports and our public APIs, the `confidence` attribute on any vulnerability-related components of our GraphQL API is now deprecated and will be
 removed in 16.0.
@@ -89,11 +89,11 @@ removed in 16.0.
     <link>https://docs.gitlab.com/ee/update/deprecations.html#non-expiring-access-tokens</link> 
     <description>Access tokens that have no expiration date are valid indefinitely, which presents a security risk if the access token
 is divulged. Because access tokens that have an exipiration date are better, from GitLab 15.3 we
-[populate a default expiration date](https://gitlab.com/gitlab-org/gitlab/-/issues/348660).
+<a href="https://gitlab.com/gitlab-org/gitlab/-/issues/348660">populate a default expiration date</a>.
 
-In GitLab 16.0, any [personal](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html),
-[project](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html), or
-[group](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) access token that does not have an
+In GitLab 16.0, any <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">personal</a>,
+<a href="https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html">project</a>, or
+<a href="https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html">group</a> access token that does not have an
 expiration date will automatically have an expiration date set at one year.
 
 We recommend giving your access tokens an expiration date in line with your company's security policies before the
@@ -109,7 +109,7 @@ default is applied:
     <title>Container Scanning variables that reference Docker</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#container-scanning-variables-that-reference-docker</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#container-scanning-variables-that-reference-docker</link> 
-    <description>All Container Scanning variables that are prefixed by `DOCKER_` in variable name are deprecated. This includes the `DOCKER_IMAGE`, `DOCKER_PASSWORD`, `DOCKER_USER`, and `DOCKERFILE_PATH` variables. Support for these variables will be removed in the GitLab 16.0 release. Use the [new variable names](https://docs.gitlab.com/ee/user/application_security/container_scanning/#available-cicd-variables) `CS_IMAGE`, `CS_REGISTRY_PASSWORD`, `CS_REGISTRY_USER`, and `CS_DOCKERFILE_PATH` in place of the deprecated names.
+    <description>All Container Scanning variables that are prefixed by `DOCKER_` in variable name are deprecated. This includes the `DOCKER_IMAGE`, `DOCKER_PASSWORD`, `DOCKER_USER`, and `DOCKERFILE_PATH` variables. Support for these variables will be removed in the GitLab 16.0 release. Use the <a href="https://docs.gitlab.com/ee/user/application_security/container_scanning/#available-cicd-variables">new variable names</a> `CS_IMAGE`, `CS_REGISTRY_PASSWORD`, `CS_REGISTRY_USER`, and `CS_DOCKERFILE_PATH` in place of the deprecated names.
 </description>
     <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
   </item>
@@ -138,7 +138,7 @@ default is applied:
     <link>https://docs.gitlab.com/ee/update/deprecations.html#cas-omniauth-provider</link> 
     <description>The `omniauth-cas3` gem that provides GitLab with the CAS OmniAuth provider will be removed in our next major
 release, GitLab 16.0. This gem sees very little use and its lack of upstream maintenance is preventing GitLab's
-[upgrade to OmniAuth 2.0](https://gitlab.com/gitlab-org/gitlab/-/issues/30073).
+<a href="https://gitlab.com/gitlab-org/gitlab/-/issues/30073">upgrade to OmniAuth 2.0</a>.
 </description>
     <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
   </item>
@@ -147,7 +147,7 @@ release, GitLab 16.0. This gem sees very little use and its lack of upstream mai
     <title>Redis 5 deprecated</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#redis-5-deprecated</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#redis-5-deprecated</link> 
-    <description>With GitLab 13.9, in the Omnibus GitLab package and GitLab Helm chart 4.9, the Redis version [was updated to Redis 6](https://about.gitlab.com/releases/2021/02/22/gitlab-13-9-released/#omnibus-improvements).
+    <description>With GitLab 13.9, in the Omnibus GitLab package and GitLab Helm chart 4.9, the Redis version <a href="https://about.gitlab.com/releases/2021/02/22/gitlab-13-9-released/#omnibus-improvements">was updated to Redis 6</a>.
 Redis 5 has reached the end of life in April 2022 and will no longer be supported as of GitLab 15.6.
 If you are using your own Redis 5.0 instance, you should upgrade it to Redis 6.0 or higher before upgrading to GitLab 16.0 or higher.
 </description>
@@ -158,13 +158,13 @@ If you are using your own Redis 5.0 instance, you should upgrade it to Redis 6.0
     <title>Security report schemas version 14.x.x</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#security-report-schemas-version-14xx</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#security-report-schemas-version-14xx</link> 
-    <description>Version 14.x.x [security report schemas](https://gitlab.com/gitlab-org/security-products/security-report-schemas) are deprecated.
+    <description>Version 14.x.x <a href="https://gitlab.com/gitlab-org/security-products/security-report-schemas">security report schemas</a> are deprecated.
 
-In GitLab 15.8 and later, [security report scanner integrations](https://docs.gitlab.com/ee/development/integrations/secure.html) that use schema version 14.x.x will display a deprecation warning in the pipeline's **Security** tab.
+In GitLab 15.8 and later, <a href="https://docs.gitlab.com/ee/development/integrations/secure.html">security report scanner integrations</a> that use schema version 14.x.x will display a deprecation warning in the pipeline's **Security** tab.
 
 In GitLab 16.0 and later, the feature will be removed. Security reports that use schema version 14.x.x will cause an error in the pipeline's **Security** tab.
 
-For more information, refer to [security report validation](https://docs.gitlab.com/ee/user/application_security/#security-report-validation).
+For more information, refer to <a href="https://docs.gitlab.com/ee/user/application_security/#security-report-validation">security report validation</a>.
 </description>
     <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
   </item>
@@ -175,8 +175,8 @@ For more information, refer to [security report validation](https://docs.gitlab.
     <link>https://docs.gitlab.com/ee/update/deprecations.html#atlassian-crowd-omniauth-provider</link> 
     <description>The `omniauth_crowd` gem that provides GitLab with the Atlassian Crowd OmniAuth provider will be removed in our
 next major release, GitLab 16.0. This gem sees very little use and its
-[lack of compatibility](https://github.com/robdimarco/omniauth_crowd/issues/37) with OmniAuth 2.0 is
-[blocking our upgrade](https://gitlab.com/gitlab-org/gitlab/-/issues/30073).
+<a href="https://github.com/robdimarco/omniauth_crowd/issues/37">lack of compatibility</a> with OmniAuth 2.0 is
+<a href="https://gitlab.com/gitlab-org/gitlab/-/issues/30073">blocking our upgrade</a>.
 </description>
     <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
   </item>
@@ -196,7 +196,7 @@ This could be a breaking change for anyone that developed their own runner that 
     <title>PipelineSecurityReportFinding projectFingerprint GraphQL field</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#pipelinesecurityreportfinding-projectfingerprint-graphql-field</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#pipelinesecurityreportfinding-projectfingerprint-graphql-field</link> 
-    <description>The [`project_fingerprint`](https://gitlab.com/groups/gitlab-org/-/epics/2791) attribute of vulnerability findings is being deprecated in favor of a `uuid` attribute. By using UUIDv5 values to identify findings, we can easily associate any related entity with a finding. The `project_fingerprint` attribute is no longer being used to track findings, and will be removed in GitLab 16.0.
+    <description>The <a href="https://gitlab.com/groups/gitlab-org/-/epics/2791">`project_fingerprint`</a> attribute of vulnerability findings is being deprecated in favor of a `uuid` attribute. By using UUIDv5 values to identify findings, we can easily associate any related entity with a finding. The `project_fingerprint` attribute is no longer being used to track findings, and will be removed in GitLab 16.0.
 </description>
     <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
   </item>
@@ -205,7 +205,7 @@ This could be a breaking change for anyone that developed their own runner that 
     <title>PipelineSecurityReportFinding name GraphQL field</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#pipelinesecurityreportfinding-name-graphql-field</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#pipelinesecurityreportfinding-name-graphql-field</link> 
-    <description>Previously, the [PipelineSecurityReportFinding GraphQL type was updated](https://gitlab.com/gitlab-org/gitlab/-/issues/335372) to include a new `title` field. This field is an alias for the current `name` field, making the less specific `name` field redundant. The `name` field will be removed from the PipelineSecurityReportFinding type in GitLab 16.0.
+    <description>Previously, the <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/335372">PipelineSecurityReportFinding GraphQL type was updated</a> to include a new `title` field. This field is an alias for the current `name` field, making the less specific `name` field redundant. The `name` field will be removed from the PipelineSecurityReportFinding type in GitLab 16.0.
 </description>
     <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
   </item>
@@ -224,8 +224,8 @@ The `maintainer_note` argument will be removed in GitLab 16.0.
     <title>Jira GitHub Enterprise DVCS integration</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#jira-github-enterprise-dvcs-integration</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#jira-github-enterprise-dvcs-integration</link> 
-    <description>The [Jira DVCS Connector](https://docs.gitlab.com/ee/integration/jira/dvcs.html) (which enables the [Jira Development Panel](https://support.atlassian.com/jira-software-cloud/docs/view-development-information-for-an-issue/)), will no longer support Jira Cloud users starting with GitLab 16.0. The [GitLab for Jira App](https://docs.gitlab.com/ee/integration/jira/connect-app.html) has always been recommended for Jira Cloud users, and it will be required instead of the DVCS connector. If you are a Jira Cloud user, we recommended you begin migrating to the GitLab for Jira App.
-Any Jira Server and Jira Data Center users will need to confirm they are not using the GitHub Enterprise Connector to enable the GitLab DVCS integration, but they may continue to use the [native GitLab DVCS integration](https://docs.gitlab.com/ee/integration/jira/dvcs.html) (supported in Jira 8.14 and later).
+    <description>The <a href="https://docs.gitlab.com/ee/integration/jira/dvcs.html">Jira DVCS Connector</a> (which enables the <a href="https://support.atlassian.com/jira-software-cloud/docs/view-development-information-for-an-issue/">Jira Development Panel</a>), will no longer support Jira Cloud users starting with GitLab 16.0. The <a href="https://docs.gitlab.com/ee/integration/jira/connect-app.html">GitLab for Jira App</a> has always been recommended for Jira Cloud users, and it will be required instead of the DVCS connector. If you are a Jira Cloud user, we recommended you begin migrating to the GitLab for Jira App.
+Any Jira Server and Jira Data Center users will need to confirm they are not using the GitHub Enterprise Connector to enable the GitLab DVCS integration, but they may continue to use the <a href="https://docs.gitlab.com/ee/integration/jira/dvcs.html">native GitLab DVCS integration</a> (supported in Jira 8.14 and later).
 </description>
     <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
   </item>
@@ -234,7 +234,7 @@ Any Jira Server and Jira Data Center users will need to confirm they are not usi
     <title>project.pipeline.securityReportFindings GraphQL query</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#projectpipelinesecurityreportfindings-graphql-query</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#projectpipelinesecurityreportfindings-graphql-query</link> 
-    <description>Previous work helped [align the vulnerabilities calls for pipeline security tabs](https://gitlab.com/gitlab-org/gitlab/-/issues/343469) to match the vulnerabilities calls for project-level and group-level vulnerability reports. This helped the frontend have a more consistent interface. The old `project.pipeline.securityReportFindings` query was formatted differently than other vulnerability data calls. Now that it has been replaced with the new `project.pipeline.vulnerabilities` field, the old `project.pipeline.securityReportFindings` is being deprecated and will be removed in GitLab 16.0.
+    <description>Previous work helped <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/343469">align the vulnerabilities calls for pipeline security tabs</a> to match the vulnerabilities calls for project-level and group-level vulnerability reports. This helped the frontend have a more consistent interface. The old `project.pipeline.securityReportFindings` query was formatted differently than other vulnerability data calls. Now that it has been replaced with the new `project.pipeline.vulnerabilities` field, the old `project.pipeline.securityReportFindings` is being deprecated and will be removed in GitLab 16.0.
 </description>
     <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
   </item>
@@ -256,7 +256,7 @@ instead.
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#graphql-api-legacymode-argument-for-runner-status</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#graphql-api-legacymode-argument-for-runner-status</link> 
     <description>The `legacyMode` argument to the `status` field in `RunnerType` will be rendered non-functional in the 16.0 release
-as part of the deprecations details in the [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/351109).
+as part of the deprecations details in the <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/351109">issue</a>.
 
 In GitLab 16.0 and later, the `status` field will act as if `legacyMode` is null. The `legacyMode` argument will
 be present during the 16.x cycle to avoid breaking the API signature, and will be removed altogether in the
@@ -275,7 +275,7 @@ In GitLab 16.0, PostgreSQL 13 becomes the minimum required PostgreSQL version.
 PostgreSQL 12 will be supported for the full GitLab 15 release cycle.
 PostgreSQL 13 will also be supported for instances that want to upgrade prior to GitLab 16.0.
 
-Upgrading to PostgreSQL 13 is not yet supported for GitLab instances with Geo enabled. Geo support for PostgreSQL 13 will be announced in a minor release version of GitLab 15, after the process is fully supported and validated. For more information, read the Geo related verifications on the [support epic for PostgreSQL 13](https://gitlab.com/groups/gitlab-org/-/epics/3832).
+Upgrading to PostgreSQL 13 is not yet supported for GitLab instances with Geo enabled. Geo support for PostgreSQL 13 will be announced in a minor release version of GitLab 15, after the process is fully supported and validated. For more information, read the Geo related verifications on the <a href="https://gitlab.com/groups/gitlab-org/-/epics/3832">support epic for PostgreSQL 13</a>.
 </description>
     <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
   </item>
@@ -284,7 +284,7 @@ Upgrading to PostgreSQL 13 is not yet supported for GitLab instances with Geo en
     <title>Dependency Scanning default Java version changed to 17</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#dependency-scanning-default-java-version-changed-to-17</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#dependency-scanning-default-java-version-changed-to-17</link> 
-    <description>In GitLab 15.0, for Dependency Scanning, the default version of Java that the scanner expects will be updated from 11 to 17. Java 17 is [the most up-to-date Long Term Support (LTS) version](https://en.wikipedia.org/wiki/Java_version_history). Dependency scanning continues to support the same [range of versions (8, 11, 13, 14, 15, 16, 17)](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-package-managers), only the default version is changing. If your project uses the previous default of Java 11, be sure to [set the `DS_Java_Version` variable to match](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#configuring-specific-analyzers-used-by-dependency-scanning).
+    <description>In GitLab 15.0, for Dependency Scanning, the default version of Java that the scanner expects will be updated from 11 to 17. Java 17 is <a href="https://en.wikipedia.org/wiki/Java_version_history">the most up-to-date Long Term Support (LTS) version</a>. Dependency scanning continues to support the same <a href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-package-managers">range of versions (8, 11, 13, 14, 15, 16, 17)</a>, only the default version is changing. If your project uses the previous default of Java 11, be sure to <a href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#configuring-specific-analyzers-used-by-dependency-scanning">set the `DS_Java_Version` variable to match</a>.
 </description>
     <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
   </item>
@@ -293,7 +293,7 @@ Upgrading to PostgreSQL 13 is not yet supported for GitLab instances with Geo en
     <title>htpasswd Authentication for the Container Registry</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#htpasswd-authentication-for-the-container-registry</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#htpasswd-authentication-for-the-container-registry</link> 
-    <description>The Container Registry supports [authentication](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/configuration.md#auth) with `htpasswd`. It relies on an [Apache `htpasswd` file](https://httpd.apache.org/docs/2.4/programs/htpasswd.html), with passwords hashed using `bcrypt`.
+    <description>The Container Registry supports <a href="https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/configuration.md#auth">authentication</a> with `htpasswd`. It relies on an <a href="https://httpd.apache.org/docs/2.4/programs/htpasswd.html">Apache `htpasswd` file</a>, with passwords hashed using `bcrypt`.
 
 Since it isn't used in the context of GitLab (the product), `htpasswd` authentication will be deprecated in GitLab 14.9 and removed in GitLab 15.0.
 </description>
@@ -308,10 +308,10 @@ Since it isn't used in the context of GitLab (the product), `htpasswd` authentic
 
 The permissions model for GraphQL is being updated. After 15.0, users with the Guest, Reporter, and Developer role can no longer update these settings:
 
-- [Package Registry settings](https://docs.gitlab.com/ee/api/graphql/reference/#packagesettings)
-- [Container Registry cleanup policy](https://docs.gitlab.com/ee/api/graphql/reference/#containerexpirationpolicy)
-- [Dependency Proxy time-to-live policy](https://docs.gitlab.com/ee/api/graphql/reference/#dependencyproxyimagettlgrouppolicy)
-- [Enabling the Dependency Proxy for your group](https://docs.gitlab.com/ee/api/graphql/reference/#dependencyproxysetting)
+- <a href="https://docs.gitlab.com/ee/api/graphql/reference/#packagesettings">Package Registry settings</a>
+- <a href="https://docs.gitlab.com/ee/api/graphql/reference/#containerexpirationpolicy">Container Registry cleanup policy</a>
+- <a href="https://docs.gitlab.com/ee/api/graphql/reference/#dependencyproxyimagettlgrouppolicy">Dependency Proxy time-to-live policy</a>
+- <a href="https://docs.gitlab.com/ee/api/graphql/reference/#dependencyproxysetting">Enabling the Dependency Proxy for your group</a>
 </description>
     <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
   </item>
@@ -329,7 +329,7 @@ The permissions model for GraphQL is being updated. After 15.0, users with the G
     <title>Background upload for object storage</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#background-upload-for-object-storage</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#background-upload-for-object-storage</link> 
-    <description>To reduce the overall complexity and maintenance burden of GitLab's [object storage feature](https://docs.gitlab.com/ee/administration/object_storage.html), support for using `background_upload` to upload files is deprecated and will be fully removed in GitLab 15.0. Review the [15.0 specific changes](https://docs.gitlab.com/omnibus/update/gitlab_15_changes.html) for the [removed background uploads settings for object storage](https://docs.gitlab.com/omnibus/update/gitlab_15_changes.html#removed-background-uploads-settings-for-object-storage).
+    <description>To reduce the overall complexity and maintenance burden of GitLab's <a href="https://docs.gitlab.com/ee/administration/object_storage.html">object storage feature</a>, support for using `background_upload` to upload files is deprecated and will be fully removed in GitLab 15.0. Review the <a href="https://docs.gitlab.com/omnibus/update/gitlab_15_changes.html">15.0 specific changes</a> for the <a href="https://docs.gitlab.com/omnibus/update/gitlab_15_changes.html#removed-background-uploads-settings-for-object-storage">removed background uploads settings for object storage</a>.
 
 This impacts a small subset of object storage providers:
 
@@ -365,7 +365,7 @@ Downloading Composer dependencies without authentication is deprecated in GitLab
     <title>user_email_lookup_limit API field</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#user_email_lookup_limit-api-field</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#user_email_lookup_limit-api-field</link> 
-    <description>The `user_email_lookup_limit` [API field](https://docs.gitlab.com/ee/api/settings.html) is deprecated and will be removed in GitLab 15.0. Until GitLab 15.0, `user_email_lookup_limit` is aliased to `search_rate_limit` and existing workflows will continue to work.
+    <description>The `user_email_lookup_limit` <a href="https://docs.gitlab.com/ee/api/settings.html">API field</a> is deprecated and will be removed in GitLab 15.0. Until GitLab 15.0, `user_email_lookup_limit` is aliased to `search_rate_limit` and existing workflows will continue to work.
 
 Any API calls attempting to change the rate limits for `user_email_lookup_limit` should use `search_rate_limit` instead.
 </description>
@@ -380,7 +380,7 @@ Any API calls attempting to change the rate limits for `user_email_lookup_limit`
 had no expiration. In GitLab 15.0, an expiry will be automatically generated for any existing token that does not
 already have one.
 
-You should [opt in](https://docs.gitlab.com/ee/integration/oauth_provider.html#expiring-access-tokens) to expiring
+You should <a href="https://docs.gitlab.com/ee/integration/oauth_provider.html#expiring-access-tokens">opt in</a> to expiring
 tokens before GitLab 15.0 is released:
 
 1. Edit the application.
@@ -403,7 +403,7 @@ tokens before GitLab 15.0 is released:
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#test-coverage-project-cicd-setting</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#test-coverage-project-cicd-setting</link> 
     <description>To simplify setting a test coverage pattern, in GitLab 15.0 the
-[project setting for test coverage parsing](https://docs.gitlab.com/ee/ci/pipelines/settings.html#add-test-coverage-results-using-project-settings-removed)
+<a href="https://docs.gitlab.com/ee/ci/pipelines/settings.html#add-test-coverage-results-using-project-settings-removed">project setting for test coverage parsing</a>
 is being removed.
 
 Instead, using the project’s `.gitlab-ci.yml`, provide a regular expression with the `coverage` keyword to set
@@ -422,7 +422,7 @@ testing coverage results in merge requests.
 - Those released after May 22, 2022, which generate reports that _are_ subject to stringent schema validation.
 
 If you are not using the default inclusion templates, or have pinned your analyzer versions you will need to update your CI/CD job definition to either remove the pinned version or to update the latest major version.
-Users of GitLab 12.0-14.10 will continue to experience analyzer updates as normal until the release of GitLab 15.0, following which all newly fixed bugs and newly released features in the new major versions of the analyzers will not be available in the deprecated versions because we do not backport bugs and new features as per our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html). As required security patches will be backported within the latest 3 minor releases.
+Users of GitLab 12.0-14.10 will continue to experience analyzer updates as normal until the release of GitLab 15.0, following which all newly fixed bugs and newly released features in the new major versions of the analyzers will not be available in the deprecated versions because we do not backport bugs and new features as per our <a href="https://docs.gitlab.com/ee/policy/maintenance.html">maintenance policy</a>. As required security patches will be backported within the latest 3 minor releases.
 Specifically, the following are being deprecated and will no longer be updated after 15.0 GitLab release:
 
 - API Security: version 1
@@ -433,7 +433,7 @@ Specifically, the following are being deprecated and will no longer be updated a
 - Infrastructure as Code (IaC) Scanning: version 1
 - License Scanning: version 3
 - Secret Detection: version 3
-- Static Application Security Testing (SAST): version 2 of [all analyzers](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), except `gosec` which is currently at version 3
+- Static Application Security Testing (SAST): version 2 of <a href="https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks">all analyzers</a>, except `gosec` which is currently at version 3
   - `bandit`: version 2
   - `brakeman`: version 2
   - `eslint`: version 2
@@ -456,9 +456,9 @@ Specifically, the following are being deprecated and will no longer be updated a
     <title>Out-of-the-box SAST support for Java 8</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#out-of-the-box-sast-support-for-java-8</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#out-of-the-box-sast-support-for-java-8</link> 
-    <description>The [GitLab SAST SpotBugs analyzer](https://gitlab.com/gitlab-org/security-products/analyzers/spotbugs) scans [Java, Scala, Groovy, and Kotlin code](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks) for security vulnerabilities.
+    <description>The <a href="https://gitlab.com/gitlab-org/security-products/analyzers/spotbugs">GitLab SAST SpotBugs analyzer</a> scans <a href="https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks">Java, Scala, Groovy, and Kotlin code</a> for security vulnerabilities.
 For technical reasons, the analyzer must first compile the code before scanning.
-Unless you use the [pre-compilation strategy](https://docs.gitlab.com/ee/user/application_security/sast/#pre-compilation), the analyzer attempts to automatically compile your project's code.
+Unless you use the <a href="https://docs.gitlab.com/ee/user/application_security/sast/#pre-compilation">pre-compilation strategy</a>, the analyzer attempts to automatically compile your project's code.
 
 In GitLab versions prior to 15.0, the analyzer image includes Java 8 and Java 11 runtimes to facilitate compilation.
 
@@ -467,7 +467,7 @@ In GitLab 15.0, we will:
 - Remove Java 8 from the analyzer image to reduce the size of the image.
 - Add Java 17 to the analyzer image to make it easier to compile with Java 17.
 
-If you rely on Java 8 being present in the analyzer environment, you must take action as detailed in the [deprecation issue for this change](https://gitlab.com/gitlab-org/gitlab/-/issues/352549#breaking-change).
+If you rely on Java 8 being present in the analyzer environment, you must take action as detailed in the <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/352549#breaking-change">deprecation issue for this change</a>.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -476,21 +476,21 @@ If you rely on Java 8 being present in the analyzer environment, you must take a
     <title>Secure and Protect analyzer images published in new location</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#secure-and-protect-analyzer-images-published-in-new-location</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#secure-and-protect-analyzer-images-published-in-new-location</link> 
-    <description>GitLab uses various [analyzers](https://docs.gitlab.com/ee/user/application_security/terminology/#analyzer) to [scan for security vulnerabilities](https://docs.gitlab.com/ee/user/application_security/).
+    <description>GitLab uses various <a href="https://docs.gitlab.com/ee/user/application_security/terminology/#analyzer">analyzers</a> to <a href="https://docs.gitlab.com/ee/user/application_security/">scan for security vulnerabilities</a>.
 Each analyzer is distributed as a container image.
 
 Starting in GitLab 14.8, new versions of GitLab Secure and Protect analyzers are published to a new registry location under `registry.gitlab.com/security-products`.
 
-We will update the default value of [GitLab-managed CI/CD templates](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates/Security) to reflect this change:
+We will update the default value of <a href="https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates/Security">GitLab-managed CI/CD templates</a> to reflect this change:
 
 - For all analyzers except Container Scanning, we will update the variable `SECURE_ANALYZERS_PREFIX` to the new image registry location.
 - For Container Scanning, the default image address is already updated. There is no `SECURE_ANALYZERS_PREFIX` variable for Container Scanning.
 
 In a future release, we will stop publishing images to `registry.gitlab.com/gitlab-org/security-products/analyzers`.
-Once this happens, you must take action if you manually pull images and push them into a separate registry. This is commonly the case for [offline deployments](https://docs.gitlab.com/ee/user/application_security/offline_deployments/index.html).
+Once this happens, you must take action if you manually pull images and push them into a separate registry. This is commonly the case for <a href="https://docs.gitlab.com/ee/user/application_security/offline_deployments/index.html">offline deployments</a>.
 Otherwise, you won't receive further updates.
 
-See the [deprecation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/352564) for more details.
+See the <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/352564">deprecation issue</a> for more details.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -511,13 +511,13 @@ In GitLab versions prior to 15.0, the default analyzer image (version 2) include
 
 In GitLab 15.0, we will change the default major version for this analyzer from version 2 to version 3. This change:
 
-- Adds [severity values for vulnerabilities](https://gitlab.com/gitlab-org/gitlab/-/issues/350408) along with [other new features and improvements](https://gitlab.com/gitlab-org/security-products/analyzers/security-code-scan/-/blob/master/CHANGELOG.md).
+- Adds <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/350408">severity values for vulnerabilities</a> along with <a href="https://gitlab.com/gitlab-org/security-products/analyzers/security-code-scan/-/blob/master/CHANGELOG.md">other new features and improvements</a>.
 - Removes .NET 2.1 support.
 - Adds support for .NET 6.0, Visual Studio 2019, and Visual Studio 2022.
 
-Version 3 was [announced in GitLab 14.6](https://about.gitlab.com/releases/2021/12/22/gitlab-14-6-released/#sast-support-for-net-6) and made available as an optional upgrade.
+Version 3 was <a href="https://about.gitlab.com/releases/2021/12/22/gitlab-14-6-released/#sast-support-for-net-6">announced in GitLab 14.6</a> and made available as an optional upgrade.
 
-If you rely on .NET 2.1 support being present in the analyzer image by default, you must take action as detailed in the [deprecation issue for this change](https://gitlab.com/gitlab-org/gitlab/-/issues/352553#breaking-change).
+If you rely on .NET 2.1 support being present in the analyzer image by default, you must take action as detailed in the <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/352553#breaking-change">deprecation issue for this change</a>.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -526,36 +526,36 @@ If you rely on .NET 2.1 support being present in the analyzer image by default, 
     <title>SAST analyzer consolidation and CI/CD template changes</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#sast-analyzer-consolidation-and-cicd-template-changes</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#sast-analyzer-consolidation-and-cicd-template-changes</link> 
-    <description>GitLab SAST uses various [analyzers](https://docs.gitlab.com/ee/user/application_security/sast/analyzers/) to scan code for vulnerabilities.
+    <description>GitLab SAST uses various <a href="https://docs.gitlab.com/ee/user/application_security/sast/analyzers/">analyzers</a> to scan code for vulnerabilities.
 
 We are reducing the number of analyzers used in GitLab SAST as part of our long-term strategy to deliver a better and more consistent user experience.
-Streamlining the set of analyzers will also enable faster [iteration](https://about.gitlab.com/handbook/values/#iteration), better [results](https://about.gitlab.com/handbook/values/#results), and greater [efficiency](https://about.gitlab.com/handbook/values/#efficiency) (including a reduction in CI runner usage in most cases).
+Streamlining the set of analyzers will also enable faster <a href="https://about.gitlab.com/handbook/values/#iteration">iteration</a>, better <a href="https://about.gitlab.com/handbook/values/#results">results</a>, and greater <a href="https://about.gitlab.com/handbook/values/#efficiency">efficiency</a> (including a reduction in CI runner usage in most cases).
 
 In GitLab 15.4, GitLab SAST will no longer use the following analyzers:
 
-- [ESLint](https://gitlab.com/gitlab-org/security-products/analyzers/eslint) (JavaScript, TypeScript, React)
-- [Gosec](https://gitlab.com/gitlab-org/security-products/analyzers/gosec) (Go)
-- [Bandit](https://gitlab.com/gitlab-org/security-products/analyzers/bandit) (Python)
+- <a href="https://gitlab.com/gitlab-org/security-products/analyzers/eslint">ESLint</a> (JavaScript, TypeScript, React)
+- <a href="https://gitlab.com/gitlab-org/security-products/analyzers/gosec">Gosec</a> (Go)
+- <a href="https://gitlab.com/gitlab-org/security-products/analyzers/bandit">Bandit</a> (Python)
 
 NOTE:
 This change was originally planned for GitLab 15.0 and has been postponed.
 
-These analyzers will be removed from the [GitLab-managed SAST CI/CD template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Security/SAST.gitlab-ci.yml) and replaced with the [Semgrep-based analyzer](https://gitlab.com/gitlab-org/security-products/analyzers/semgrep).
+These analyzers will be removed from the <a href="https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Security/SAST.gitlab-ci.yml">GitLab-managed SAST CI/CD template</a> and replaced with the <a href="https://gitlab.com/gitlab-org/security-products/analyzers/semgrep">Semgrep-based analyzer</a>.
 They will no longer receive routine updates, except for security issues.
-We will not delete container images previously published for these analyzers; any such change would be announced as a [deprecation, removal, or breaking change announcement](https://about.gitlab.com/handbook/marketing/blog/release-posts/#deprecations-removals-and-breaking-changes).
+We will not delete container images previously published for these analyzers; any such change would be announced as a <a href="https://about.gitlab.com/handbook/marketing/blog/release-posts/#deprecations-removals-and-breaking-changes">deprecation, removal, or breaking change announcement</a>.
 
-We will also remove Java from the scope of the [SpotBugs](https://gitlab.com/gitlab-org/security-products/analyzers/spotbugs) analyzer and replace it with the [Semgrep-based analyzer](https://gitlab.com/gitlab-org/security-products/analyzers/semgrep).
+We will also remove Java from the scope of the <a href="https://gitlab.com/gitlab-org/security-products/analyzers/spotbugs">SpotBugs</a> analyzer and replace it with the <a href="https://gitlab.com/gitlab-org/security-products/analyzers/semgrep">Semgrep-based analyzer</a>.
 This change will make it simpler to scan Java code; compilation will no longer be required.
-This change will be reflected in the automatic language detection portion of the [GitLab-managed SAST CI/CD template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Security/SAST.gitlab-ci.yml). Note that the SpotBugs-based analyzer will continue to cover Groovy, Kotlin, and Scala.
+This change will be reflected in the automatic language detection portion of the <a href="https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Security/SAST.gitlab-ci.yml">GitLab-managed SAST CI/CD template</a>. Note that the SpotBugs-based analyzer will continue to cover Groovy, Kotlin, and Scala.
 
 If you've already dismissed a vulnerability finding from one of the deprecated analyzers, the replacement attempts to respect your previous dismissal. The system behavior depends on:
 
 - whether you’ve excluded the Semgrep-based analyzer from running in the past.
 - which analyzer first discovered the vulnerabilities shown in the project’s Vulnerability Report.
 
-See [Vulnerability translation documentation](https://docs.gitlab.com/ee/user/application_security/sast/analyzers.html#vulnerability-translation) for further details.
+See <a href="https://docs.gitlab.com/ee/user/application_security/sast/analyzers.html#vulnerability-translation">Vulnerability translation documentation</a> for further details.
 
-If you applied customizations to any of the affected analyzers or if you currently disable the Semgrep analyzer in your pipelines, you must take action as detailed in the [deprecation issue for this change](https://gitlab.com/gitlab-org/gitlab/-/issues/352554#breaking-change).
+If you applied customizations to any of the affected analyzers or if you currently disable the Semgrep analyzer in your pipelines, you must take action as detailed in the <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/352554#breaking-change">deprecation issue for this change</a>.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -608,13 +608,13 @@ The 16.0 release of GitLab Runner will start using the `paused` property when re
     <title>Request profiling</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#request-profiling</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#request-profiling</link> 
-    <description>[Request profiling](https://docs.gitlab.com/ee/administration/monitoring/performance/index.html) is deprecated in GitLab 14.8 and scheduled for removal in GitLab 15.0.
+    <description><a href="https://docs.gitlab.com/ee/administration/monitoring/performance/index.html">Request profiling</a> is deprecated in GitLab 14.8 and scheduled for removal in GitLab 15.0.
 
-We're working on [consolidating our profiling tools](https://gitlab.com/groups/gitlab-org/-/epics/7327) and making them more easily accessible.
-We [evaluated](https://gitlab.com/gitlab-org/gitlab/-/issues/350152) the use of this feature and we found that it is not widely used.
+We're working on <a href="https://gitlab.com/groups/gitlab-org/-/epics/7327">consolidating our profiling tools</a> and making them more easily accessible.
+We <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/350152">evaluated</a> the use of this feature and we found that it is not widely used.
 It also depends on a few third-party gems that are not actively maintained anymore, have not been updated for the latest version of Ruby, or crash frequently when profiling heavy page loads.
 
-For more information, check the [summary section of the deprecation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/352488#deprecation-summary).
+For more information, check the <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/352488#deprecation-summary">summary section of the deprecation issue</a>.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -648,7 +648,7 @@ The new security approvals feature is similar to vulnerability check. For exampl
     <title>Container Network and Host Security</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#container-network-and-host-security</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#container-network-and-host-security</link> 
-    <description>All functionality related to GitLab's Container Network Security and Container Host Security categories is deprecated in GitLab 14.8 and scheduled for removal in GitLab 15.0. Users who need a replacement for this functionality are encouraged to evaluate the following open source projects as potential solutions that can be installed and managed outside of GitLab: [AppArmor](https://gitlab.com/apparmor/apparmor), [Cilium](https://github.com/cilium/cilium), [Falco](https://github.com/falcosecurity/falco), [FluentD](https://github.com/fluent/fluentd), [Pod Security Admission](https://kubernetes.io/docs/concepts/security/pod-security-admission/). To integrate these technologies into GitLab, add the desired Helm charts into your copy of the [Cluster Management Project Template](https://docs.gitlab.com/ee/user/clusters/management_project_template.html). Deploy these Helm charts in production by calling commands through GitLab [CI/CD](https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html).
+    <description>All functionality related to GitLab's Container Network Security and Container Host Security categories is deprecated in GitLab 14.8 and scheduled for removal in GitLab 15.0. Users who need a replacement for this functionality are encouraged to evaluate the following open source projects as potential solutions that can be installed and managed outside of GitLab: <a href="https://gitlab.com/apparmor/apparmor">AppArmor</a>, <a href="https://github.com/cilium/cilium">Cilium</a>, <a href="https://github.com/falcosecurity/falco">Falco</a>, <a href="https://github.com/fluent/fluentd">FluentD</a>, <a href="https://kubernetes.io/docs/concepts/security/pod-security-admission/">Pod Security Admission</a>. To integrate these technologies into GitLab, add the desired Helm charts into your copy of the <a href="https://docs.gitlab.com/ee/user/clusters/management_project_template.html">Cluster Management Project Template</a>. Deploy these Helm charts in production by calling commands through GitLab <a href="https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html">CI/CD</a>.
 
 As part of this change, the following specific capabilities within GitLab are now deprecated, and are scheduled for removal in GitLab 15.0:
 
@@ -657,7 +657,7 @@ As part of this change, the following specific capabilities within GitLab are no
 - The ability to manage integrations with the following technologies through GitLab: AppArmor, Cilium, Falco, FluentD, and Pod Security Policies.
 - All APIs related to the above functionality.
 
-For additional context, or to provide feedback regarding this change, please reference our open [deprecation issue](https://gitlab.com/groups/gitlab-org/-/epics/7476).
+For additional context, or to provide feedback regarding this change, please reference our open <a href="https://gitlab.com/groups/gitlab-org/-/epics/7476">deprecation issue</a>.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -666,7 +666,7 @@ For additional context, or to provide feedback regarding this change, please ref
     <title>`started` iterations API field</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#started-iterations-api-field</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#started-iterations-api-field</link> 
-    <description>The `started` field in the [iterations API](https://docs.gitlab.com/ee/api/iterations.html#list-project-iterations) is being deprecated and will be removed in GitLab 15.0. This field is being replaced with the `current` field (already available) which aligns with the naming for other time-based entities, such as milestones.
+    <description>The `started` field in the <a href="https://docs.gitlab.com/ee/api/iterations.html#list-project-iterations">iterations API</a> is being deprecated and will be removed in GitLab 15.0. This field is being replaced with the `current` field (already available) which aligns with the naming for other time-based entities, such as milestones.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -677,7 +677,7 @@ For additional context, or to provide feedback regarding this change, please ref
     <link>https://docs.gitlab.com/ee/update/deprecations.html#support-for-grpc-aware-proxy-deployed-between-gitaly-and-rest-of-gitlab</link> 
     <description>Although not recommended or documented, it was possible to deploy a gRPC-aware proxy between Gitaly and
 the rest of GitLab. For example, NGINX and Envoy. The ability to deploy a gRPC-aware proxy is
-[deprecated](https://gitlab.com/gitlab-org/gitlab/-/issues/352517). If you currently use a gRPC-aware proxy for
+<a href="https://gitlab.com/gitlab-org/gitlab/-/issues/352517">deprecated</a>. If you currently use a gRPC-aware proxy for
 Gitaly connections, you should change your proxy configuration to use TCP or TLS proxying (OSI layer 4) instead.
 
 Gitaly Cluster became incompatible with gRPC-aware proxies in GitLab 13.12. Now all GitLab installations will be incompatible with
@@ -685,7 +685,7 @@ gRPC-aware proxies, even without Gitaly Cluster.
 
 By sending some of our internal RPC traffic through a custom protocol (instead of gRPC) we
 increase throughput and reduce Go garbage collection latency. For more information, see
-the [relevant epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/463).
+the <a href="https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/463">relevant epic</a>.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -705,7 +705,7 @@ Some field arguments still have the `ID` type. These are typically for
 IID values, or namespace paths. An example is `Query.project(fullPath: ID!)`.
 
 For a list of affected and unaffected field arguments,
-see the [deprecation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/352832).
+see the <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/352832">deprecation issue</a>.
 
 You can test if this change affects you by validating
 your queries locally, using schema data fetched from a GitLab server.
@@ -753,8 +753,8 @@ an inline argument expression).
     <title>Deprecate legacy Gitaly configuration methods</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#deprecate-legacy-gitaly-configuration-methods</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#deprecate-legacy-gitaly-configuration-methods</link> 
-    <description>Using environment variables `GIT_CONFIG_SYSTEM` and `GIT_CONFIG_GLOBAL` to configure Gitaly is [deprecated](https://gitlab.com/gitlab-org/gitlab/-/issues/352609).
-These variables are being replaced with standard [`config.toml` Gitaly configuration](https://docs.gitlab.com/ee/administration/gitaly/reference.html).
+    <description>Using environment variables `GIT_CONFIG_SYSTEM` and `GIT_CONFIG_GLOBAL` to configure Gitaly is <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/352609">deprecated</a>.
+These variables are being replaced with standard <a href="https://docs.gitlab.com/ee/administration/gitaly/reference.html">`config.toml` Gitaly configuration</a>.
 
 GitLab instances that use `GIT_CONFIG_SYSTEM` and `GIT_CONFIG_GLOBAL` to configure Gitaly should switch to configuring using
 `config.toml`.
@@ -799,7 +799,7 @@ If you have explicitly excluded retire.js using DS_EXCLUDED_ANALYZERS you will n
     <title>External status check API breaking changes</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#external-status-check-api-breaking-changes</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#external-status-check-api-breaking-changes</link> 
-    <description>The [external status check API](https://docs.gitlab.com/ee/api/status_checks.html) was originally implemented to
+    <description>The <a href="https://docs.gitlab.com/ee/api/status_checks.html">external status check API</a> was originally implemented to
 support pass-by-default requests to mark a status check as passing. Pass-by-default requests are now deprecated.
 Specifically, the following are deprecated:
 
@@ -809,8 +809,8 @@ Specifically, the following are deprecated:
 Beginning in GitLab 15.0, status checks will only be updated to a passing state if the `status` field is both present
 and set to `passed`. Requests that:
 
-- Do not contain the `status` field will be rejected with a `422` error. For more information, see [the relevant issue](https://gitlab.com/gitlab-org/gitlab/-/issues/338827).
-- Contain any value other than `passed` will cause the status check to fail. For more information, see [the relevant issue](https://gitlab.com/gitlab-org/gitlab/-/issues/339039).
+- Do not contain the `status` field will be rejected with a `422` error. For more information, see <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/338827">the relevant issue</a>.
+- Contain any value other than `passed` will cause the status check to fail. For more information, see <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/339039">the relevant issue</a>.
 
 To align with this change, API calls to list external status checks will also return the value of `passed` rather than
 `approved` for status checks that have passed.
@@ -822,12 +822,12 @@ To align with this change, API calls to list external status checks will also re
     <title>Required pipeline configurations in Premium tier</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#required-pipeline-configurations-in-premium-tier</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#required-pipeline-configurations-in-premium-tier</link> 
-    <description>The [required pipeline configuration](https://docs.gitlab.com/ee/user/admin_area/settings/continuous_integration.html#required-pipeline-configuration) feature is deprecated in GitLab 14.8 for Premium customers and is scheduled for removal in GitLab 15.0. This feature is not deprecated for GitLab Ultimate customers.
+    <description>The <a href="https://docs.gitlab.com/ee/user/admin_area/settings/continuous_integration.html#required-pipeline-configuration">required pipeline configuration</a> feature is deprecated in GitLab 14.8 for Premium customers and is scheduled for removal in GitLab 15.0. This feature is not deprecated for GitLab Ultimate customers.
 
-This change to move the feature to GitLab's Ultimate tier is intended to help our features better align with our [pricing philosophy](https://about.gitlab.com/company/pricing/#three-tiers) as we see demand for this feature originating primarily from executives.
+This change to move the feature to GitLab's Ultimate tier is intended to help our features better align with our <a href="https://about.gitlab.com/company/pricing/#three-tiers">pricing philosophy</a> as we see demand for this feature originating primarily from executives.
 
 This change will also help GitLab remain consistent in its tiering strategy with the other related Ultimate-tier features of:
-[Security policies](https://docs.gitlab.com/ee/user/application_security/policies/) and [compliance framework pipelines](https://docs.gitlab.com/ee/user/project/settings/index.html#compliance-pipeline-configuration).
+<a href="https://docs.gitlab.com/ee/user/application_security/policies/">Security policies</a> and <a href="https://docs.gitlab.com/ee/user/project/settings/index.html#compliance-pipeline-configuration">compliance framework pipelines</a>.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -836,7 +836,7 @@ This change will also help GitLab remain consistent in its tiering strategy with
     <title>`CI_BUILD_*` predefined variables</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#ci_build_-predefined-variables</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#ci_build_-predefined-variables</link> 
-    <description>The predefined CI/CD variables that start with `CI_BUILD_*` were deprecated in GitLab 9.0, and will be removed in GitLab 16.0. If you still use these variables, be sure to change to the replacement [predefined variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html) which are functionally identical:
+    <description>The predefined CI/CD variables that start with `CI_BUILD_*` were deprecated in GitLab 9.0, and will be removed in GitLab 16.0. If you still use these variables, be sure to change to the replacement <a href="https://docs.gitlab.com/ee/ci/variables/predefined_variables.html">predefined variables</a> which are functionally identical:
 
 | Removed variable      | Replacement variable    |
 | --------------------- |------------------------ |
@@ -864,7 +864,7 @@ This change will also help GitLab remain consistent in its tiering strategy with
 Customers using Elasticsearch 6.8 need to upgrade their Elasticsearch version to 7.x prior to upgrading to GitLab 15.0.
 We recommend using the latest version of Elasticsearch 7 to benefit from all Elasticsearch improvements.
 
-Elasticsearch 6.8 is also incompatible with Amazon OpenSearch, which we [plan to support in GitLab 15.0](https://gitlab.com/gitlab-org/gitlab/-/issues/327560).
+Elasticsearch 6.8 is also incompatible with Amazon OpenSearch, which we <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/327560">plan to support in GitLab 15.0</a>.
 </description>
     <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
   </item>
@@ -873,7 +873,7 @@ Elasticsearch 6.8 is also incompatible with Amazon OpenSearch, which we [plan to
     <title>`projectFingerprint` in `PipelineSecurityReportFinding` GraphQL</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#projectfingerprint-in-pipelinesecurityreportfinding-graphql</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#projectfingerprint-in-pipelinesecurityreportfinding-graphql</link> 
-    <description>The `projectFingerprint` field in the [PipelineSecurityReportFinding](https://docs.gitlab.com/ee/api/graphql/reference/index.html#pipelinesecurityreportfinding)
+    <description>The `projectFingerprint` field in the <a href="https://docs.gitlab.com/ee/api/graphql/reference/index.html#pipelinesecurityreportfinding">PipelineSecurityReportFinding</a>
 GraphQL object is being deprecated. This field contains a "fingerprint" of security findings used to determine uniqueness.
 The method for calculating fingerprints has changed, resulting in different values. Going forward, the new values will be
 exposed in the UUID field. Data previously available in the projectFingerprint field will eventually be removed entirely.
@@ -885,7 +885,7 @@ exposed in the UUID field. Data previously available in the projectFingerprint f
     <title>Tracing in GitLab</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#tracing-in-gitlab</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#tracing-in-gitlab</link> 
-    <description>Tracing in GitLab is an integration with Jaeger, an open-source end-to-end distributed tracing system. GitLab users can navigate to their Jaeger instance to gain insight into the performance of a deployed application, tracking each function or microservice that handles a given request. Tracing in GitLab is deprecated in GitLab 14.7, and scheduled for removal in 15.0. To track work on a possible replacement, see the issue for [Opstrace integration with GitLab](https://gitlab.com/groups/gitlab-org/-/epics/6976).
+    <description>Tracing in GitLab is an integration with Jaeger, an open-source end-to-end distributed tracing system. GitLab users can navigate to their Jaeger instance to gain insight into the performance of a deployed application, tracking each function or microservice that handles a given request. Tracing in GitLab is deprecated in GitLab 14.7, and scheduled for removal in 15.0. To track work on a possible replacement, see the issue for <a href="https://gitlab.com/groups/gitlab-org/-/epics/6976">Opstrace integration with GitLab</a>.
 </description>
     <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
   </item>
@@ -895,7 +895,7 @@ exposed in the UUID field. Data previously available in the projectFingerprint f
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#monitor-performance-metrics-through-prometheus</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#monitor-performance-metrics-through-prometheus</link> 
     <description>By displaying data stored in a Prometheus instance, GitLab allows users to view performance metrics. GitLab also displays visualizations of these metrics in dashboards. The user can connect to a previously-configured external Prometheus instance, or set up Prometheus as a GitLab Managed App.
-However, since certificate-based integration with Kubernetes clusters is deprecated in GitLab, the metrics functionality in GitLab that relies on Prometheus is also deprecated. This includes the metrics visualizations in dashboards. GitLab is working to develop a single user experience based on [Opstrace](https://about.gitlab.com/press/releases/2021-12-14-gitlab-acquires-opstrace-to-expand-its-devops-platform-with-open-source-observability-solution.html). An [issue exists](https://gitlab.com/groups/gitlab-org/-/epics/6976) for you to follow work on the Opstrace integration.
+However, since certificate-based integration with Kubernetes clusters is deprecated in GitLab, the metrics functionality in GitLab that relies on Prometheus is also deprecated. This includes the metrics visualizations in dashboards. GitLab is working to develop a single user experience based on <a href="https://about.gitlab.com/press/releases/2021-12-14-gitlab-acquires-opstrace-to-expand-its-devops-platform-with-open-source-observability-solution.html">Opstrace</a>. An <a href="https://gitlab.com/groups/gitlab-org/-/epics/6976">issue exists</a> for you to follow work on the Opstrace integration.
 </description>
     <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
   </item>
@@ -904,7 +904,7 @@ However, since certificate-based integration with Kubernetes clusters is depreca
     <title>merged_by API field</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#merged_by-api-field</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#merged_by-api-field</link> 
-    <description>The `merged_by` field in the [merge request API](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) has been deprecated in favor of the `merge_user` field which more correctly identifies who merged a merge request when performing actions (merge when pipeline succeeds, add to merge train) other than a simple merge. API users are encouraged to use the new `merge_user` field instead. The `merged_by` field will be removed in v5 of the GitLab REST API.
+    <description>The `merged_by` field in the <a href="https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests">merge request API</a> has been deprecated in favor of the `merge_user` field which more correctly identifies who merged a merge request when performing actions (merge when pipeline succeeds, add to merge train) other than a simple merge. API users are encouraged to use the new `merge_user` field instead. The `merged_by` field will be removed in v5 of the GitLab REST API.
 </description>
     <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
   </item>
@@ -915,7 +915,7 @@ However, since certificate-based integration with Kubernetes clusters is depreca
     <link>https://docs.gitlab.com/ee/update/deprecations.html#artifactsreportscobertura-keyword</link> 
     <description>Currently, test coverage visualizations in GitLab only support Cobertura reports. Starting 15.0, the
 `artifacts:reports:cobertura` keyword will be replaced by
-[`artifacts:reports:coverage_report`](https://gitlab.com/gitlab-org/gitlab/-/issues/344533). Cobertura will be the
+<a href="https://gitlab.com/gitlab-org/gitlab/-/issues/344533">`artifacts:reports:coverage_report`</a>. Cobertura will be the
 only supported report file in 15.0, but this is the first step towards GitLab supporting other report types.
 </description>
     <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
@@ -925,7 +925,7 @@ only supported report file in 15.0, but this is the first step towards GitLab su
     <title>Logging in GitLab</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#logging-in-gitlab</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#logging-in-gitlab</link> 
-    <description>The logging features in GitLab allow users to install the ELK stack (Elasticsearch, Logstash, and Kibana) to aggregate and manage application logs. Users can search for relevant logs in GitLab. However, since deprecating certificate-based integration with Kubernetes clusters and GitLab Managed Apps, we don't have a recommended solution for logging within GitLab. For more information, you can follow the issue for [integrating Opstrace with GitLab](https://gitlab.com/groups/gitlab-org/-/epics/6976).
+    <description>The logging features in GitLab allow users to install the ELK stack (Elasticsearch, Logstash, and Kibana) to aggregate and manage application logs. Users can search for relevant logs in GitLab. However, since deprecating certificate-based integration with Kubernetes clusters and GitLab Managed Apps, we don't have a recommended solution for logging within GitLab. For more information, you can follow the issue for <a href="https://gitlab.com/groups/gitlab-org/-/epics/6976">integrating Opstrace with GitLab</a>.
 </description>
     <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
   </item>
@@ -985,7 +985,7 @@ which isn't being used in GitLab anymore.
     <title>Support for SLES 12 SP2</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#support-for-sles-12-sp2</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#support-for-sles-12-sp2</link> 
-    <description>Long term service and support (LTSS) for SUSE Linux Enterprise Server (SLES) 12 SP2 [ended on March 31, 2021](https://www.suse.com/lifecycle/). The CA certificates on SP2 include the expired DST root certificate, and it's not getting new CA certificate package updates. We have implemented some [workarounds](https://gitlab.com/gitlab-org/gitlab-omnibus-builder/-/merge_requests/191), but we will not be able to continue to keep the build running properly.
+    <description>Long term service and support (LTSS) for SUSE Linux Enterprise Server (SLES) 12 SP2 <a href="https://www.suse.com/lifecycle/">ended on March 31, 2021</a>. The CA certificates on SP2 include the expired DST root certificate, and it's not getting new CA certificate package updates. We have implemented some <a href="https://gitlab.com/gitlab-org/gitlab-omnibus-builder/-/merge_requests/191">workarounds</a>, but we will not be able to continue to keep the build running properly.
 </description>
     <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
   </item>
@@ -994,7 +994,7 @@ which isn't being used in GitLab anymore.
     <title>`Versions` on base `PackageType`</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#versions-on-base-packagetype</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#versions-on-base-packagetype</link> 
-    <description>As part of the work to create a [Package Registry GraphQL API](https://gitlab.com/groups/gitlab-org/-/epics/6318), the Package group deprecated the `Version` type for the basic `PackageType` type and moved it to [`PackageDetailsType`](https://docs.gitlab.com/ee/api/graphql/reference/index.html#packagedetailstype).
+    <description>As part of the work to create a <a href="https://gitlab.com/groups/gitlab-org/-/epics/6318">Package Registry GraphQL API</a>, the Package group deprecated the `Version` type for the basic `PackageType` type and moved it to <a href="https://docs.gitlab.com/ee/api/graphql/reference/index.html#packagedetailstype">`PackageDetailsType`</a>.
 
 In milestone 15.0, we will completely remove `Version` from `PackageType`.
 </description>
@@ -1043,7 +1043,7 @@ When checking if a runner is `paused`, API users are advised to check the boolea
     <title>`pipelines` field from the `version` field</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#pipelines-field-from-the-version-field</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#pipelines-field-from-the-version-field</link> 
-    <description>In GraphQL, there are two `pipelines` fields that you can use in a [`PackageDetailsType`](https://docs.gitlab.com/ee/api/graphql/reference/#packagedetailstype) to get the pipelines for package versions:
+    <description>In GraphQL, there are two `pipelines` fields that you can use in a <a href="https://docs.gitlab.com/ee/api/graphql/reference/#packagedetailstype">`PackageDetailsType`</a> to get the pipelines for package versions:
 
 - The `versions` field's `pipelines` field. This returns all the pipelines associated with all the package's versions, which can pull an unbounded number of objects in memory and create performance concerns.
 - The `pipelines` field of a specific `version`. This returns only the pipelines associated with that single package version.
@@ -1068,7 +1068,7 @@ In milestone 16.0, we will remove the `pipelines` attribute from the API respons
     <title>`dependency_proxy_for_private_groups` feature flag</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#dependency_proxy_for_private_groups-feature-flag</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#dependency_proxy_for_private_groups-feature-flag</link> 
-    <description>We added a feature flag because [GitLab-#11582](https://gitlab.com/gitlab-org/gitlab/-/issues/11582) changed how public groups use the Dependency Proxy. Prior to this change, you could use the Dependency Proxy without authentication. The change requires authentication to use the Dependency Proxy.
+    <description>We added a feature flag because <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/11582">GitLab-#11582</a> changed how public groups use the Dependency Proxy. Prior to this change, you could use the Dependency Proxy without authentication. The change requires authentication to use the Dependency Proxy.
 
 In milestone 15.0, we will remove the feature flag entirely. Moving forward, you must authenticate when using the Dependency Proxy.
 </description>
@@ -1079,7 +1079,7 @@ In milestone 15.0, we will remove the feature flag entirely. Moving forward, you
     <title>Update to the Container Registry group-level API</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#update-to-the-container-registry-group-level-api</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#update-to-the-container-registry-group-level-api</link> 
-    <description>In milestone 15.0, support for the `tags` and `tags_count` parameters will be removed from the Container Registry API that [gets registry repositories from a group](../api/container_registry.md#within-a-group).
+    <description>In milestone 15.0, support for the `tags` and `tags_count` parameters will be removed from the Container Registry API that <a href="../api/container_registry.md#within-a-group">gets registry repositories from a group</a>.
 
 The `GET /groups/:id/registry/repositories` endpoint will remain, but won't return any info about tags. To get the info about tags, you can use the existing `GET /registry/repositories/:id` endpoint, which will continue to support the `tags` and `tag_count` options as it does today. The latter must be called once per image repository.
 </description>
@@ -1108,7 +1108,7 @@ The `GET /groups/:id/registry/repositories` endpoint will remain, but won't retu
     <title>Known host required for GitLab Runner SSH executor</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#known-host-required-for-gitlab-runner-ssh-executor</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#known-host-required-for-gitlab-runner-ssh-executor</link> 
-    <description>In [GitLab 14.3](https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/3074), we added a configuration setting in the GitLab Runner `config.toml` file. This setting, [`[runners.ssh.disable_strict_host_key_checking]`](https://docs.gitlab.com/runner/executors/ssh.html#security), controls whether or not to use strict host key checking with the SSH executor.
+    <description>In <a href="https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/3074">GitLab 14.3</a>, we added a configuration setting in the GitLab Runner `config.toml` file. This setting, <a href="https://docs.gitlab.com/runner/executors/ssh.html#security">`[runners.ssh.disable_strict_host_key_checking]`</a>, controls whether or not to use strict host key checking with the SSH executor.
 
 In GitLab 15.0 and later, the default value for this configuration option will change from `true` to `false`. This means that strict host key checking will be enforced when using the GitLab Runner SSH executor.
 </description>
@@ -1130,16 +1130,16 @@ If you monitor Value Stream Analytics metrics and rely on the date filter, to av
     <title>Self-managed certificate-based integration with Kubernetes</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#self-managed-certificate-based-integration-with-kubernetes</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#self-managed-certificate-based-integration-with-kubernetes</link> 
-    <description>The certificate-based integration with Kubernetes [will be deprecated and removed](https://about.gitlab.com/blog/2021/11/15/deprecating-the-cert-based-kubernetes-integration/).
+    <description>The certificate-based integration with Kubernetes <a href="https://about.gitlab.com/blog/2021/11/15/deprecating-the-cert-based-kubernetes-integration/">will be deprecated and removed</a>.
 
-As a self-managed customer, we are introducing the [feature flag](../administration/feature_flags.md#enable-or-disable-the-feature) `certificate_based_clusters` in GitLab 15.0 so you can keep your certificate-based integration enabled. However, the feature flag will be disabled by default, so this change is a **breaking change**.
+As a self-managed customer, we are introducing the <a href="../administration/feature_flags.md#enable-or-disable-the-feature">feature flag</a> `certificate_based_clusters` in GitLab 15.0 so you can keep your certificate-based integration enabled. However, the feature flag will be disabled by default, so this change is a **breaking change**.
 
 In GitLab 17.0 we will remove both the feature and its related code. Until the final removal in 17.0, features built on this integration will continue to work, if you enable the feature flag. Until the feature is removed, GitLab will continue to fix security and critical issues as they arise.
 
 For a more robust, secure, forthcoming, and reliable integration with Kubernetes, we recommend you use the
-[agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) to connect Kubernetes clusters with GitLab. [How do I migrate?](https://docs.gitlab.com/ee/user/infrastructure/clusters/migrate_to_gitlab_agent.html)
+<a href="https://docs.gitlab.com/ee/user/clusters/agent/">agent for Kubernetes</a> to connect Kubernetes clusters with GitLab. <a href="https://docs.gitlab.com/ee/user/infrastructure/clusters/migrate_to_gitlab_agent.html">How do I migrate?</a>
 
-For updates and details about this deprecation, follow [this epic](https://gitlab.com/groups/gitlab-org/configure/-/epics/8).
+For updates and details about this deprecation, follow <a href="https://gitlab.com/groups/gitlab-org/configure/-/epics/8">this epic</a>.
 </description>
     <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
   </item>
@@ -1148,14 +1148,14 @@ For updates and details about this deprecation, follow [this epic](https://gitla
     <title>SaaS certificate-based integration with Kubernetes</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#saas-certificate-based-integration-with-kubernetes</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#saas-certificate-based-integration-with-kubernetes</link> 
-    <description>The certificate-based integration with Kubernetes will be [deprecated and removed](https://about.gitlab.com/blog/2021/11/15/deprecating-the-cert-based-kubernetes-integration/). As a GitLab SaaS customer, on new namespaces, you will no longer be able to integrate GitLab and your cluster using the certificate-based approach as of GitLab 15.0. The integration for current users will be enabled per namespace.
+    <description>The certificate-based integration with Kubernetes will be <a href="https://about.gitlab.com/blog/2021/11/15/deprecating-the-cert-based-kubernetes-integration/">deprecated and removed</a>. As a GitLab SaaS customer, on new namespaces, you will no longer be able to integrate GitLab and your cluster using the certificate-based approach as of GitLab 15.0. The integration for current users will be enabled per namespace.
 
 For a more robust, secure, forthcoming, and reliable integration with Kubernetes, we recommend you use the
-[agent for Kubernetes](https://docs.gitlab.com/ee/user/clusters/agent/) to connect Kubernetes clusters with GitLab. [How do I migrate?](https://docs.gitlab.com/ee/user/infrastructure/clusters/migrate_to_gitlab_agent.html)
+<a href="https://docs.gitlab.com/ee/user/clusters/agent/">agent for Kubernetes</a> to connect Kubernetes clusters with GitLab. <a href="https://docs.gitlab.com/ee/user/infrastructure/clusters/migrate_to_gitlab_agent.html">How do I migrate?</a>
 
-For updates and details about this deprecation, follow [this epic](https://gitlab.com/groups/gitlab-org/configure/-/epics/8).
+For updates and details about this deprecation, follow <a href="https://gitlab.com/groups/gitlab-org/configure/-/epics/8">this epic</a>.
 
-GitLab self-managed customers can still use the feature [with a feature flag](https://docs.gitlab.com/ee/update/deprecations.html#self-managed-certificate-based-integration-with-kubernetes).
+GitLab self-managed customers can still use the feature <a href="https://docs.gitlab.com/ee/update/deprecations.html#self-managed-certificate-based-integration-with-kubernetes">with a feature flag</a>.
 </description>
     <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
   </item>
@@ -1164,7 +1164,7 @@ GitLab self-managed customers can still use the feature [with a feature flag](ht
     <title>Legacy database configuration</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#legacy-database-configuration</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#legacy-database-configuration</link> 
-    <description>The syntax of [GitLabs database](https://docs.gitlab.com/omnibus/settings/database.html)
+    <description>The syntax of <a href="https://docs.gitlab.com/omnibus/settings/database.html">GitLabs database</a>
 configuration located in `database.yml` is changing and the legacy format is deprecated. The legacy format
 supported using a single PostgreSQL adapter, whereas the new format is changing to support multiple databases. The `main:` database needs to be defined as a first configuration item.
 
@@ -1188,7 +1188,7 @@ We decided to remove the GitLab Serverless features as they never really resonat
     <title>Audit events for repository push events</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#audit-events-for-repository-push-events</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#audit-events-for-repository-push-events</link> 
-    <description>Audit events for [repository events](https://docs.gitlab.com/ee/administration/audit_events.html#removed-events) are now deprecated and will be removed in GitLab 15.0.
+    <description>Audit events for <a href="https://docs.gitlab.com/ee/administration/audit_events.html#removed-events">repository events</a> are now deprecated and will be removed in GitLab 15.0.
 
 These events have always been disabled by default and had to be manually enabled with a
 feature flag. Enabling them can cause too many events to be generated which can
@@ -1203,7 +1203,7 @@ dramatically slow down GitLab instances. For this reason, they are being removed
     <link>https://docs.gitlab.com/ee/update/deprecations.html#omniauth-kerberos-gem</link> 
     <description>The `omniauth-kerberos` gem will be removed in our next major release, GitLab 15.0.
 
-This gem has not been maintained and has very little usage. We therefore plan to remove support for this authentication method and recommend using the Kerberos [SPNEGO](https://en.wikipedia.org/wiki/SPNEGO) integration instead. You can follow the [upgrade instructions](https://docs.gitlab.com/ee/integration/kerberos.html#upgrading-from-password-based-to-ticket-based-kerberos-sign-ins) to upgrade from the `omniauth-kerberos` integration to the supported one.
+This gem has not been maintained and has very little usage. We therefore plan to remove support for this authentication method and recommend using the Kerberos <a href="https://en.wikipedia.org/wiki/SPNEGO">SPNEGO</a> integration instead. You can follow the <a href="https://docs.gitlab.com/ee/integration/kerberos.html#upgrading-from-password-based-to-ticket-based-kerberos-sign-ins">upgrade instructions</a> to upgrade from the `omniauth-kerberos` integration to the supported one.
 
 Note that we are not deprecating the Kerberos SPNEGO integration, only the old password-based Kerberos integration.
 </description>
@@ -1214,7 +1214,7 @@ Note that we are not deprecating the Kerberos SPNEGO integration, only the old p
     <title>OAuth implicit grant</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#oauth-implicit-grant</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#oauth-implicit-grant</link> 
-    <description>The OAuth implicit grant authorization flow will be removed in our next major release, GitLab 15.0. Any applications that use OAuth implicit grant should switch to alternative [supported OAuth flows](https://docs.gitlab.com/ee/api/oauth2.html).
+    <description>The OAuth implicit grant authorization flow will be removed in our next major release, GitLab 15.0. Any applications that use OAuth implicit grant should switch to alternative <a href="https://docs.gitlab.com/ee/api/oauth2.html">supported OAuth flows</a>.
 </description>
     <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
   </item>
@@ -1223,7 +1223,7 @@ Note that we are not deprecating the Kerberos SPNEGO integration, only the old p
     <title>Outdated indices of Advanced Search migrations</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#outdated-indices-of-advanced-search-migrations</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#outdated-indices-of-advanced-search-migrations</link> 
-    <description>As Advanced Search migrations usually require support multiple code paths for a long period of time, it’s important to clean those up when we safely can. We use GitLab major version upgrades as a safe time to remove backward compatibility for indices that have not been fully migrated. See the [upgrade documentation](https://docs.gitlab.com/ee/update/index.html#upgrading-to-a-new-major-version) for details.
+    <description>As Advanced Search migrations usually require support multiple code paths for a long period of time, it’s important to clean those up when we safely can. We use GitLab major version upgrades as a safe time to remove backward compatibility for indices that have not been fully migrated. See the <a href="https://docs.gitlab.com/ee/update/index.html#upgrading-to-a-new-major-version">upgrade documentation</a> for details.
 </description>
     <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
   </item>
@@ -1232,7 +1232,7 @@ Note that we are not deprecating the Kerberos SPNEGO integration, only the old p
     <title>Dependency Scanning Python 3.9 and 3.6 image deprecation</title> 
     <guid>https://docs.gitlab.com/ee/update/deprecations.html#dependency-scanning-python-39-and-36-image-deprecation</guid> 
     <link>https://docs.gitlab.com/ee/update/deprecations.html#dependency-scanning-python-39-and-36-image-deprecation</link> 
-    <description>For those using Dependency Scanning for Python projects, we are deprecating the default `gemnasium-python:2` image which uses Python 3.6 as well as the custom `gemnasium-python:2-python-3.9` image which uses Python 3.9. The new default image as of GitLab 15.0 will be for Python 3.9 as it is a [supported version](https://endoflife.date/python) and 3.6 [is no longer supported](https://endoflife.date/python).
+    <description>For those using Dependency Scanning for Python projects, we are deprecating the default `gemnasium-python:2` image which uses Python 3.6 as well as the custom `gemnasium-python:2-python-3.9` image which uses Python 3.9. The new default image as of GitLab 15.0 will be for Python 3.9 as it is a <a href="https://endoflife.date/python">supported version</a> and 3.6 <a href="https://endoflife.date/python">is no longer supported</a>.
 
 For users using Python 3.9 or 3.9-compatible projects, you should not need to take action and dependency scanning should begin to work in GitLab 15.0. If you wish to test the new container now please run a test pipeline in your project with this container (which will be removed in 15.0). Use the Python 3.9 image:
 
@@ -1242,7 +1242,7 @@ gemnasium-python-dependency_scanning:
     name: registry.gitlab.com/gitlab-org/security-products/analyzers/gemnasium-python:2-python-3.9
 ```
 
-For users using Python 3.6, as of GitLab 15.0 you will no longer be able to use the default template for dependency scanning. You will need to switch to use the deprecated `gemnasium-python:2` analyzer image. If you are impacted by this please comment in [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/351503) so we can extend the removal if needed.
+For users using Python 3.6, as of GitLab 15.0 you will no longer be able to use the default template for dependency scanning. You will need to switch to use the deprecated `gemnasium-python:2` analyzer image. If you are impacted by this please comment in <a href="https://gitlab.com/gitlab-org/gitlab/-/issues/351503">this issue</a> so we can extend the removal if needed.
 
 For users using the 3.9 special exception image, you must instead use the default value and no longer override your container. To verify if you are using the 3.9 special exception image, check your `.gitlab-ci.yml` file for the following reference:
 
@@ -1262,13 +1262,13 @@ gemnasium-python-dependency_scanning:
     <description>Exporting Sidekiq metrics and health checks using a single process and port is deprecated.
 Support will be removed in 15.0.
 
-We have updated Sidekiq to export [metrics and health checks from two separate processes](https://gitlab.com/groups/gitlab-org/-/epics/6409)
+We have updated Sidekiq to export <a href="https://gitlab.com/groups/gitlab-org/-/epics/6409">metrics and health checks from two separate processes</a>
 to improve stability and availability and prevent data loss in edge cases.
 As those are two separate servers, a configuration change will be required in 15.0
 to explicitly set separate ports for metrics and health-checks.
 The newly introduced settings for `sidekiq['health_checks_*']`
 should always be set in `gitlab.rb`.
-For more information, check the documentation for [configuring Sidekiq](https://docs.gitlab.com/ee/administration/sidekiq.html).
+For more information, check the documentation for <a href="https://docs.gitlab.com/ee/administration/sidekiq.html">configuring Sidekiq</a>.
 
 These changes also require updates in either Prometheus to scrape the new endpoint or k8s health-checks to target the new
 health-check port to work properly, otherwise either metrics or health-checks will disappear.
