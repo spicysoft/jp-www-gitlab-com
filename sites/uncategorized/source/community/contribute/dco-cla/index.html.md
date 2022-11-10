@@ -21,6 +21,18 @@ By contributing to GitLab, you are deemed to have accepted the agreement (DCO, o
 #### Need a Corporate CLA covering all contributors on behalf of your organization?
 To enter into an overarching Corporate CLA that covers all contributions made on behalf of a corporate contributor, reach out to `cla_managers@gitlab.com`.
 
+## Frequently asked questions
 
+#### Are my contributions to GitLab attributed to me?
+A record of contributions to GitLab and their respective contributors is maintained indefinitely in the Git commit history, in recognition of our [commitment to contributor recognition](https://about.gitlab.com/handbook/engineering/open-source/growth-strategy.html#contributor-recognition).
 
+However, in line with the practice of many other open source software projects, and [The Linux Foundation’s guidance](https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects), GitLab asks that contributor copyright notices are not added to contributions. To date there are approximately 3611 unique contributors to the GitLab project - maintaining copyright notices for all these contributors places a significant burden on maintainers and downstream distributors for little tangible benefit, and in almost all countries a copyright notice is not required for a contributor to retain ownership of their contribution.
 
+#### Do I retain rights in my contributions?
+Yes. You retain all rights in, and remain the owner of, your contributions. By accepting the terms of the GitLab CLA or DCO, you are granting GitLab broad permissions to use your contribution, but doing so does not undermine your right to use your contributions for any other purpose.
+
+#### Can I withdraw permission to use my contributions at a later date?
+No. The permissions you grant to GitLab are perpetual and cannot be withdrawn. 
+
+#### What is the difference between the Corporate CLA and the Individual CLA?
+The Individual CLA is used when a contribution is made by an individual person, on their own behalf. The Corporate CLA is used when a contribution is made on behalf of an organization. If you are in doubt of which CLA is appropriate for a contribution, we recommend discussing this with your employer.
