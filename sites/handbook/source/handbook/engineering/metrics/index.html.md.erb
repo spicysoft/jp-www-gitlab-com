@@ -56,8 +56,6 @@ The links below take you to a handbook dashboard page which covers metrics from 
     * [Security Policies Group Dashboards](/handbook/engineering/metrics/sec/govern/security-policies)
     * [Threat Insights Group Dashboards](/handbook/engineering/metrics/sec/govern/threat-insights)
     * [Compliance Group Dashboards](/handbook/engineering/metrics/sec/govern/compliance)
-  * [Anti-Abuse Stage Dashboards](/handbook/engineering/metrics/sec/anti-abuse/)
-    * [Anti-Abuse Group Dashboards](/handbook/engineering/metrics/sec/anti-abuse/anti-abuse)
 * [Analytics Section Dashboards](/handbook/engineering/metrics/analytics)
   * [Product Intelligence Group Dashboards](/handbook/engineering/metrics/analytics/product-intelligence)
 * [Growth Section Dashboards](/handbook/engineering/metrics/growth)
@@ -76,10 +74,13 @@ The links below take you to a handbook dashboard page which covers metrics from 
     * [Global Search Group Dashboards](/handbook/engineering/metrics/enablement/global-search)
     * [Database Group Dashboards](/handbook/engineering/metrics/enablement/database)
     * [Sharding Group Dashboards](/handbook/engineering/metrics/enablement/sharding)
-* [ModelOps Section Dashboards](/handbook/engineering/metrics/modelops/)
-  * [Applied Machine Learning Group Dashboards](/handbook/engineering/metrics/modelops/applied-ml)
-  * [MLOps Group Dashboards](/handbook/engineering/metrics/modelops/mlops)
-  * [DataOps Group Dashboards](/handbook/engineering/metrics/modelops/dataops)
+* [Data Science Section Dashboards](/handbook/engineering/metrics/data-science/)
+  * [Anti-Abuse Stage Dashboards](/handbook/engineering/metrics/data-science/anti-abuse/)
+    * [Anti-Abuse Group Dashboards](/handbook/engineering/metrics/data-science/anti-abuse/anti-abuse)
+  * [Applied Machine Learning Group Dashboards](/handbook/engineering/metrics/data-science/modelops/applied-ml)
+  * [Applied Machine Learning Group Dashboards](/handbook/engineering/metrics/data-science/modelops/applied-ml)
+  * [MLOps Group Dashboards](/handbook/engineering/metrics/data-science/modelops/mlops)
+  * [DataOps Group Dashboards](/handbook/engineering/metrics/data-science/modelops/dataops)
 
 These handbook dashboard pages are populated from the following filterable Sisense dashboards.
 * [Top Engineering Metrics Dashboard](https://app.periscopedata.com/app/gitlab/1000952/Top-Engineering-Metrics-Dashboard)
@@ -139,7 +140,7 @@ The Engineering Analytics team reserves the urgency for these dashboards to prov
 
 #### Security indicators
 
-* [Average Age of currently open bug vulnerabilities](https://about.gitlab.com/handbook/engineering/security/performance-indicators/#average-age-of-open-vulnerabilities-by-severity)
+* [Average Age of currently open bug vulnerabilities](https://about.gitlab.com/handbook/security/performance-indicators/#average-age-of-open-vulnerabilities-by-severity)
 
 ### Helpful pointers
 
@@ -188,7 +189,6 @@ The 3 types (Bug, Feature & Maintenance) is key to our report to industry analys
 1. `~"type::maintenance"`: Upkeeping efforts & catch-up corrective improvements that are not Features nor Bugs. This includes restructuring for long-term maintainability, stability, reducing technical debt, improving the contributor experience, or upgrading dependencies. For example: [Refactoring the CI YAML config parser](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/15060), [Updating software versions in our tech stack](https://gitlab.com/gitlab-org/ci-cd/codequality/-/issues/22), [Recalculating UUIDs for vulnerabilities using UUIDv5](https://gitlab.com/gitlab-org/gitlab/-/issues/212322)
   - `~"maintenance::refactor"`: Simplifying or restructuring existing code or documentation
   - `~"maintenance::dependency"`: Dependency updates and their version upgrades
-  - `~"maintenance::performance"`: Non-defect performance improvements such as load time for a specific page or component, or run time for a specific process.
   - `~"maintenance::scalability"`: Modification to improve the scalability of GitLab that is not a user facing change or performance improvement. For example changing a column from INT to BIGINT. 
   - `~"maintenance::usability"`: General improvements to product usability that are unrelated to feature prioritization. For example, [UI component](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80903) and [UI text](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80457) updates for consistency with Pajamas and [usability improvements](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/79888).
   - `~"maintenance::test-gap"`: Test coverage improvements that were not included in feature prioritization.

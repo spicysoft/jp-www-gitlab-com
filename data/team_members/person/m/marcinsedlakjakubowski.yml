@@ -2,8 +2,7 @@
 name: Marcin Sędłak-Jakubowski
 locality:
 country: Remote
-role: <a href="/job-families/product/technical-writer/">Technical Writer</a>,
-  Plan
+role: <a href="/job-families/product/technical-writer/">Technical Writer</a>, Plan
 reports_to: dianalogan
 picture: msedlakjakubowski.png
 twitter: manualcookie
@@ -11,10 +10,9 @@ gitlab: msedlakjakubowski
 pronouns: he/him
 pronunciation: MAR-chin SEND-whack ya-koo-BOV-ski
 departments:
-- Engineering Function
+- Product Team
 - UX Department
 - Technical Writing
-- Merge Request Buddy
 projects:
   gitlab: maintainer docs
   gitlab-docs: maintainer

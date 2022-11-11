@@ -1,8 +1,10 @@
+---
 name: Thomas Hutterer
-locality: 
+locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer</a>, Manage:Foundations
-reports_to: leipert
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
+  Engineer</a>, Manage:Foundations
+reports_to: sam-beckham
 picture: thutterer.png
 pronouns:
 pronunciation:
@@ -10,18 +12,18 @@ twitter:
 linkedin: thomas-hutterer-b82156101
 gitlab: thutterer
 departments:
-  - Engineering Function
-  - Development Department
-  - Dev Section
-  - Manage:Foundations Team
-  - Manage:Foundations FE Team
-  - Frontend
+- Engineering Function
+- Development Department
+- Dev Section
+- Manage:Foundations Team
+- Manage:Foundations FE Team
+- Frontend
 projects:
   gitlab: reviewer backend
 specialty:
-  - 'Manage: Foundations'
-  - " Ecosystem"
+- 'Manage: Foundations'
 expertise:
 domain_expertise:
-  - view_component
+- view_component
 story:
+

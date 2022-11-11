@@ -617,8 +617,8 @@ cta:
   - title: "Join us for an upcoming event"
     link: '/events/'
 
-upgrade:
-    reporter: fzimmer
+upgrades:
+  - reporter: fzimmer
     description: |
       - GitLab 12.0 merges the database changes made by Enterprise Edition over the years into Community Edition.
         As part of this work, we have also removed various old migrations. Users upgrading to their GitLab installation

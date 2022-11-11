@@ -1,17 +1,18 @@
 name: Tiffany McAtee
 locality: 
 country: Remote
-role: <a href="">Manager, Customer Success Managers</a>
+role: <a href="/job-families/sales/customer-success-management/">Manager, Customer Success Managers</a>
 reports_to: christiaanconover
-picture: ../gitlab-logo-extra-whitespace.png
-pronouns:
+picture: tiffanymcatee.png
+pronouns: she/her
 pronunciation:
 twitter:
-linkedin:
+linkedin: https://www.linkedin.com/in/tiffany-mcatee-a73334a/
 gitlab: tiffanymcatee.gitlab
 departments:
-  - TAM
-specialty: ""
+  - Customer Success
+  - Customer Success Managers
+specialty: 
 expertise:
 story:
 

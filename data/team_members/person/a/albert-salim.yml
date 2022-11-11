@@ -19,7 +19,7 @@ projects:
   gitlab:
   - maintainer backend
   gitlab-styles: reviewer
-  gitlab-dangerfiles: maintainer
+  gitlab-cli: reviewer
 expertise: '<li><a href="/job-families/expert/merge-request-coach/">Merge Request
   Coach</a></li>
 

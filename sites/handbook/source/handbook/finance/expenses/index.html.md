@@ -17,7 +17,7 @@ title: Expenses
 {: .panel-heading}
 <div class="panel-body">
 
-Inline with GitLab's regulatory obligations, changes to [controlled documents](https://about.gitlab.com/handbook/engineering/security/controlled-document-procedure.html) must be approved or merged by the AP team, as our Expense policy is a formal policy. All contributions are welcome and encouraged.
+Inline with GitLab's regulatory obligations, changes to [controlled documents](https://about.gitlab.com/handbook/security/controlled-document-procedure.html) must be approved or merged by the AP team, as our Expense policy is a formal policy. All contributions are welcome and encouraged.
 
 </div>
 </div>
@@ -72,7 +72,7 @@ When possible and if not impacting your finances, we suggest that all expenses i
 
 | Expense Category  | Policy | 
 | ------ | ------ |
-| AirFare | All airfares which are not submitted through TripActions can be reimbursed. Employees must purchase economy tickets, unless the employee has physical limitations and the upgrade is approved by their manager. More details on upgrades are available in the [travel FAQ](/handbook/travel/#faq-about-travel). GitLab does not cover expenses for significant others or family members. We desire team members to book with TripActions. In this way it helps us with discounts and drives prices lower. It also allows GitLab when emergencies arise to locate team members faster. While we will not deny reimbursement of flights booked outside TripActions, we desire you to book with them. This also helps with hotels, as it is bundled. |
+| AirFare | All airfares which are not submitted through TripActions can be reimbursed. Employees must purchase economy tickets, unless the employee has a reasonable accommodation which has been approved by the leaves team.  Team members in need of an accommodation can should reach out to leaves@gitlab.com. More details on upgrades are available in the [travel FAQ](/handbook/travel/#faq-about-travel). GitLab does not cover expenses for significant others or family members. We desire team members to book with TripActions. In this way it helps us with discounts and drives prices lower. It also allows GitLab when emergencies arise to locate team members faster. While we will not deny reimbursement of flights booked outside TripActions, we desire you to book with them. This also helps with hotels, as it is bundled. |
 | Books (Audio /E-Books included) | All books are reimbursable if used to optimize your job position. |
 | Business Cards | Business cards are ordered from Moo as per the [instructions](https://about.gitlab.com/handbook/people-group/frequent-requests/#business-cards) Moo offers a 3 to 4 Day Express Service for urgent shipping needs.
 | Car Rental | All car rentals can be reimbursed. Up to full sized car allowable.<br><br>A. Third Party Liability<br><br>Purchase the liability insurance that is excess of the standard inclusion of State minimum coverage in the rental agreement at the rental agency. GitLab’s insurance policy provides liability insurance for rental cars while conducting company business, but it may be excess over any underlying liability coverage through the driver or credit card company used to purchase the rental.<br>Purchase the liability offered at the rental counter if there are foreign employees renting autos in the US or Canada. While workers' compensation would protect an injured US employee, other passengers may have the right to sue. To ensure that GitLab has protection when a foreign employee invites another person into the car we recommend the purchase of this insurance when offered at the rental counter.<br><br>B. Physical Damage - Collision Damage Waiver<br><br>Do not purchase the Collision Damage Waiver offered at the rental counter. GitLab purchases coverage for damage to rented vehicles. If travel to Mexico is required, purchase the liability insurance for Mexico offered at the rental counter. You should verify that the rental agreement clearly states that the vehicle may be driven into Mexico and liability coverage will apply.<br><br><br>**Countries other than the US and Canada**<br><br>A. Third Party Liability<br><br>Purchase the liability insurance offered at the rental counter when traveling outside the US and Canada. Automobile Bodily Injury and Property Damage Liability insurance are required by law in almost every country. Please verify this coverage is included with the rental agreement.<br><br>B. Physical Damage - Collision Damage Waiver<br><br>Purchase the Collision Damage Waiver or Physical Damage Coverage offered by the rental agency when traveling outside the US and Canada.<br><br>In the event of an accident resulting in damage to the rental car, the foreign rental agency will charge the credit card used to make the reservation with an estimated amount of repair costs if insurance is not purchased. If this happens, GitLab does not purchase Foreign Corporate Hired Auto Physical Damage Coverage to reimburse for damages. |
@@ -100,6 +100,7 @@ When possible and if not impacting your finances, we suggest that all expenses i
 | Transportation/Parking | Parking, Tolls, Taxi, Uber pertaining to travel to/from GitLab events, clients, or conferences is acceptable. |
 | Travel (Other) | Please refer to our [Travel Handbook Page](https://about.gitlab.com/handbook/travel/). |
 | VPN Subscription | Please read [Why We Don't Have A Corporate VPN](https://about.gitlab.com/handbook/security/#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN page](https://about.gitlab.com/handbook/tools-and-tips/personal-vpn/) regarding usage at GitLab. |
+| Wire fees (Equity compensation) | Team members **outside of the USA** where there is no option to disburse equity funds from E*TRADE without incurring wire fees may expense those fees. |
 
 ## Redacting Personal Information from Receipts - A Caution
 
@@ -139,11 +140,21 @@ If you are able to find hidden gems in these markets, please go ahead and make t
 
 ### Team Building Budget
 
-In FY23, each eGroup member has been allocated $50 per team member per quarter for FY23-Q1 to FY23-Q3 for team building events. For FY23-Q3 each eGroup member may determine if they wish to use their team building allocation at Contribute or for a different team building event. There is no additional team building budget for Contribute above the $50 per team member. In FY23-Q4 there is an additional budget of $100 per team member. More to come in the section below as we get closer to FY23-Q4.
+In FY23, each eGroup member has been allocated $50 per team member per quarter for FY23-Q1 to FY23-Q3 for team building events. For FY23-Q3 each eGroup member may determine if they wish to use their team building allocation at Contribute or for a different team building event. There is no additional team building budget for Contribute above the $50 per team member. In FY23-Q4 there is an additional budget of $100 per team member. 
 
 ### <i class="fas fa-bullseye" id="biz-tech-icons"></i> Year-end Holiday Party Budget
 
-GitLab has allocated [$100 USD](https://www1.oanda.com/currency/converter/) per GitLab team member for a holiday event in December. More guidance to come as we get closer to FY23-Q4.
+GitLab has allocated [$100 USD](https://www1.oanda.com/currency/converter/) per GitLab team member for a holiday event in December. 
+
+Guidance on the year-end holiday budget:
+    - Each Egroup member will coordinate for their respective organizations or appoint a designee for the organization
+    - The budget can be used for in person or virtual events
+    - The budget is [$100 USD](https://www1.oanda.com/currency/converter/) per GitLab team member and funds cannot be pooled or re allocated if there is under spend
+    - The money cannot be used for charitable donations or gifts
+    - If you are hosting an event and asked to attend another event, the budget is for all events and not per event
+    - The budget can be spent anytime in 4Q, please make sure you promptly submit your expense report prior to the end of 4Q
+
+If you have any questions, please reach out to your manager for guidance.
 
 ### Get Together/Virtual Meal with GitLab Team member(s)
 
@@ -170,9 +181,9 @@ Please refer to our [Incentives at Gitlab Handbook Page](https://about.gitlab.co
 
 ### Reimbursement Payout Timelines:
 
-#### Global Upside & Remote.com
+#### Global Upside, Remote.com & Papaya Global
 
-The list of Global Upside & Remote countries can be found [here](https://about.gitlab.com/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity)
+The list of Global Upside, Remote & Papaya countries can be found [here](https://about.gitlab.com/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity)
 * Team members must submit their expenses through Expensify. 
 * All expense reports must be submitted and approved by manager and the Accounts Payable team by the 7th of the month to include in the current month payment.
 
@@ -236,6 +247,8 @@ Sometimes expenses get rejected by our third party accounting team (Montpac). Pl
 The handbook [uses USD when describing budgets](/handbook/handbook-usage/#fine-points). When budgeting and submitting expenses in other currencies, team members should use live currency conversion rates (exchange rates). These can be looked up online using a site such as [OANDA](https://www.oanda.com/currency-converter/en/).
 
 **Example:** a team event has a meal budget of USD25 per person. A team member notes that this is $50 in local currency, at current exchange rates. The team member can purchase a meal in their local currency up to $50, and expense it in their local currency.
+
+**Example:** when visiting other countries - you should convert the currency to your local currency when submitting the expense. Currency rate should be done using rates on the day the expense occurred (these can be looked up online using a site such as  [OANDA](https://www.oanda.com/currency-converter/en/)). i.e. if you spent EUR50 whilst visiting Germany but you live in the UK, you should convert the EUR50 to GBP43.66 (your local Currency) and submit the expense with the valid receipt.
 
 Note: live exchange rates do not apply to compensation, which [uses fixed exchange rates](/handbook/total-rewards/compensation/#exchange-rates).
 

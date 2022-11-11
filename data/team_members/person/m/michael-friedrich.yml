@@ -1,0 +1,18 @@
+---
+name: Michael Friedrich
+locality:
+country: Remote
+role: <a href="/job-families/marketing/developer-evangelist/#senior-developer-evangelist">Senior Developer Evangelist</a>
+reports_to: john-coghlan
+picture: michaelfriedrich.jpg
+twitter: dnsmichi
+linkedin: dnsmichi
+gitlab: dnsmichi
+pronouns: he/him
+departments:
+- Marketing
+- Corporate Marketing
+- Community Relations
+projects:
+  gitlab-cli: reviewer
+story: 'Michael focusses on Observability, SRE, and Ops. He studied Hardware/Software Systems Engineering and moved into DNS and monitoring development at the University of Vienna and ACO.net. Michael was a maintainer of an OSS monitoring software for 11 years before joining GitLab. He loves to help educate everyone and regularly speaks at events and meetups. Michael co-founded the #EveryoneCanContribute cafe meetup group to learn cloud-native & DevOps. Michael is a Polynaut advisor at Polywork, created o11y.love as a learning platform for Observability, and shares insights in the opsindev.news newsletter.'

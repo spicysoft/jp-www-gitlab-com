@@ -988,36 +988,36 @@ cta:
 
 # UPGRADE WARNING (optional)
 # https://about.gitlab.com/handbook/marketing/blog/release-posts/#important-notes-on-upgrading
-upgrade:
-  reporter: multiple
-  description: |
-    The Redis version packaged with Omnibus GitLab has been updated to Redis
-    5.0.7. When upgrading your instance of GitLab, you **will need to restart**
-    Redis after the upgrade so that the new version will be active. To restart
-    Redis, run `sudo gitlab-ctl restart redis`. If your instance has [Redis HA
-    using
-    Sentinel](https://docs.gitlab.com/ee/administration/redis/index.html),
-    you will need to follow specific upgrade steps that are documented in
-    [Updating GitLab installed with the Omnibus GitLab
-    package](https://docs.gitlab.com/omnibus/update/README.html#using-redis-ha-using-sentinel)
-    to avoid downtime.
+upgrades:
+  - reporter: multiple
+    description: |
+      The Redis version packaged with Omnibus GitLab has been updated to Redis
+      5.0.7. When upgrading your instance of GitLab, you **will need to restart**
+      Redis after the upgrade so that the new version will be active. To restart
+      Redis, run `sudo gitlab-ctl restart redis`. If your instance has [Redis HA
+      using
+      Sentinel](https://docs.gitlab.com/ee/administration/redis/index.html),
+      you will need to follow specific upgrade steps that are documented in
+      [Updating GitLab installed with the Omnibus GitLab
+      package](https://docs.gitlab.com/omnibus/update/README.html#using-redis-ha-using-sentinel)
+      to avoid downtime.
 
-    GitLab 12.7 works towards implementing a more performant diff view. As part
-    of this work, we have changed how diffs are stored in the Redis cache. Users
-    upgrading their GitLab installation may see a temporary increase in Gitaly
-    load as the cache begins receiving traffic. If this severely impacts
-    availability, please disable the `hset_redis_diff_caching` feature flag.
+      GitLab 12.7 works towards implementing a more performant diff view. As part
+      of this work, we have changed how diffs are stored in the Redis cache. Users
+      upgrading their GitLab installation may see a temporary increase in Gitaly
+      load as the cache begins receiving traffic. If this severely impacts
+      availability, please disable the `hset_redis_diff_caching` feature flag.
 
-    This release of GitLab maps to a major release of the GitLab Chart, GitLab
-    Chart 3.0. If you have installed GitLab using the Helm Chart, you will need
-    to take some manual steps to upgrade from a previous version to GitLab Chart
-    3.0. For step-by-step instructions, refer to [the upgrade
-    documentation](https://docs.gitlab.com/charts/installation/upgrade.html).
+      This release of GitLab maps to a major release of the GitLab Chart, GitLab
+      Chart 3.0. If you have installed GitLab using the Helm Chart, you will need
+      to take some manual steps to upgrade from a previous version to GitLab Chart
+      3.0. For step-by-step instructions, refer to [the upgrade
+      documentation](https://docs.gitlab.com/charts/installation/upgrade.html).
 
-    Helm 2.15.x contains bugs that affect the use of the GitLab helm chart. Do
-    not use Helm 2.15.x with GitLab Chart. For supported versions of Helm, refer
-    to the [install
-    documentation](https://docs.gitlab.com/charts/installation/tools.html#helm).
+      Helm 2.15.x contains bugs that affect the use of the GitLab helm chart. Do
+      not use Helm 2.15.x with GitLab Chart. For supported versions of Helm, refer
+      to the [install
+      documentation](https://docs.gitlab.com/charts/installation/tools.html#helm).
 
 # DEPRECATIONS (optional)
 # include as many deprecation blocks as necessary

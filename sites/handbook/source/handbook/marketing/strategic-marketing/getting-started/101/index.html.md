@@ -177,7 +177,7 @@ Other common templated use cases include:
 
 ##### Account Support and Access
 
-For common licensing, customer access, and technical support issues, please visit the handbook's [Internal Support page](/handbook/support/internal-support/#common-internal-requests---sales-team--technical-account-managers--accounts-receivable) for access to the appropriate issue templates.
+For common licensing, customer access, and technical support issues, please visit the handbook's [Internal Support page](/handbook/support/internal-support/#common-internal-requests---sales-team--customer-success-managers--accounts-receivable) for access to the appropriate issue templates.
 
 
 #### Boards

@@ -19,25 +19,26 @@ projects:
     - trainee_maintainer ci_template
   gitlab-technical-interviews-backend: maintainer
   secure-analyzers: reviewer go
-  secure-common-command: maintainer backend
-  secure-common-report: maintainer backend
-  secure-common-ruleset: maintainer backend
-  secure-SAST-bandit: maintainer backend
-  secure-SAST-brakeman: maintainer backend
-  secure-SAST-eslint: maintainer backend
-  secure-SAST-flawfinder: maintainer backend
-  secure-SAST-gosec: maintainer backend
-  secure-SAST-kics: maintainer backend
-  secure-SAST-kubesec: maintainer backend
-  secure-SAST-mobsf: maintainer backend
-  secure-SAST-pmd-apex: maintainer backend
-  secure-SAST-semgrep: maintainer backend
-  secure-SAST-sobelow: maintainer backend
-  secure-SAST-spotbugs: maintainer backend
-  secure-SAST-tracking-calculator: maintainer backend
-  secure-SD-secrets: maintainer backend
-  sec-danger-bot: maintainer backend
-  security-report-schemas: maintainer backend
+  secure-common-command: maintainer
+  secure-common-report: maintainer
+  secure-common-ruleset: maintainer
+  secure-SAST-bandit: maintainer
+  secure-SAST-brakeman: maintainer
+  secure-SAST-codequality: maintainer
+  secure-SAST-eslint: maintainer
+  secure-SAST-flawfinder: maintainer
+  secure-SAST-gosec: maintainer
+  secure-SAST-kics: maintainer
+  secure-SAST-kubesec: maintainer
+  secure-SAST-mobsf: maintainer
+  secure-SAST-pmd-apex: maintainer
+  secure-SAST-semgrep: maintainer
+  secure-SAST-sobelow: maintainer
+  secure-SAST-spotbugs: maintainer
+  secure-SAST-tracking-calculator: maintainer
+  secure-SD-secrets: maintainer
+  sec-danger-bot: maintainer
+  security-report-schemas: maintainer
 pronouns: he/him
 pronunciation: <a href="http://ipa-reader.xyz/?text=%CB%88lu.k%C9%90s%20t%CA%83%C9%91%C9%B9lz">/ˈlu.kɐs
   tʃɑɹlz/ (audio link)</a>

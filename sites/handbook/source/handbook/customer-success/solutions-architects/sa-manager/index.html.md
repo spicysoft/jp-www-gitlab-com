@@ -34,7 +34,7 @@ It increases efficiecies towards the achievement of regional goals and objective
 Deliberate practice allows the team to sharpen their skills and continue delivering deal-winning engagements. The SA Manager needs to support ongoing role play exercises and dry-runs for key accounts. This includes facilitating sessions, helping the team make this a priority, and ensure the team is adhering to key delivery methodologies, including MEDDPPICC and Demo2Win. Important tools include Google Slides, Role Plays, and the [wheel of Names](http://weelofnames.com/).
 
 ### Regular Syncs with ASM  
-Meeting regularly with your ASM counterpart provides time to discuss SAL/ SA/ TAM Team health, review strategic territory deals, and review opportunity close analysis and regional data. It is recommended to use a combination of SFDC Opportunity Records, Sisense Dashboard Data, and to take notes in Google Docs. Every meeting should have an agenda. 
+Meeting regularly with your ASM counterpart provides time to discuss SAL/ SA/ CSM Team health, review strategic territory deals, and review opportunity close analysis and regional data. It is recommended to use a combination of SFDC Opportunity Records, Sisense Dashboard Data, and to take notes in Google Docs. Every meeting should have an agenda. 
 
 ### Quarterly Business Reviews
 The SA Manager is responsible for developing and delivering a [Quarterly Business Review](/handbook/sales/qbrs/) for their team each quarter.
@@ -96,6 +96,16 @@ Each section is to be used to capture what the Direct Report and the Manager hav
 At the conclusion of the Quarterly Sit Down, it is valuable to review the gaps between each list and then share the document out in a read-only format with each other.
 
 At the next Quarterly Sit Down, it is important to review the goals section from the previous Quarterly Sit Down.
+
+**Why the team does QSDs at the end of Q3 during Talent Assessments are taking place**
+
+The goal of the Quarterly Sit Down (QSD) is to ensure that two-way goal alignnment is taking place every quarter, which is why the QSD takes place every quarter.
+
+At the end of Q3 of each year, individuals are asked to perform their own Talent Assessment for the year. The Talent Assessment is very similar to the QSD format.  
+
+Similarly, at the end of Q4, results from the Talent Assessment are shared out from the manager to the direct report. 
+
+We do both the QSD at the end of Q3 and Q4 because the Talent Assessment is filled out at the end of Q3 and not made visible to the direct report until the end of Q4.  Additionally, the results are a culmination of the entire year, not specific to the quarter. 
 
 ### Team Assessment
 Twice a year, SA Managers should conduct a team assessment to: 

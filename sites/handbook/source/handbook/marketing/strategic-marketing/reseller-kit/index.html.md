@@ -14,7 +14,7 @@ The information contained in this section will provide you with solid understand
     *  [Value of selling GitLab Ultimate](/pricing/ultimate/)
 * [GitLab product vision/roadmap](/direction/)
 * [GitLab personas](/handbook/product/personas/)
-* [GitLab competitive analysis](/devops-tools/)
+* [GitLab competitive analysis](/competition/)
 * [Customer success stories](/customers/)
 
 Join GitLab’s Slack Reseller channel by emailing vgoetz@gitlab.com to keep current on new content assets, upcoming sales and technical training sessions and more.

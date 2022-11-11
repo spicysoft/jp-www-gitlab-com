@@ -1,7 +1,7 @@
 name: Derek Turner
 locality: 
 country: Remote
-role: <a href="">Technical Account Manager</a>
+role: <a href="">Customer Success Manager</a>
 reports_to: john-woods
 picture: derekturner.jpg
 pronouns: he/him
@@ -10,7 +10,8 @@ twitter:
 linkedin:
 gitlab: dturner
 departments:
-  - TAM
+  - Customer Success
+  - Customer Success Managers
 specialty: ""
 expertise:
 story:

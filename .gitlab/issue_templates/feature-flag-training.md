@@ -1,31 +1,48 @@
-# Feature Flag Training
+# Feature Flag And Monitoring Training
 
 [Feature Flags](https://docs.gitlab.com/ee/development/feature_flags/) are used by GitLab engineers in order to roll out changes while
-monitoring the impact. They are **not the same** as the [**Operations > Feature Flag**](https://docs.gitlab.com/ee/operations/feature_flags.html) feature inside of GitLab. This template is intended to help understand
+monitoring the impact.
+
+They are **not the same** as the [**Operations > Feature Flag**](https://docs.gitlab.com/ee/operations/feature_flags.html) feature inside of GitLab.
+
+This template is intended to help understand
 how and when to use this tool in development.
+ 
+Currently as part of the feature flag process [there is an expectation](https://docs.gitlab.com/ee/development/feature_flags/controls.html#process) that GitLab engineers will monitor their changes with our monitoring tools. 
 
-Currently as part of the feature flag process [there is an expectation](https://docs.gitlab.com/ee/development/feature_flags/controls.html#process) that GitLab engineers will monitor their changes with our monitoring tools. When the changes are low risk and do not require the [change management process](https://about.gitlab.com/handbook/engineering/infrastructure/change-management/#feature-flags-and-the-change-management-process) the expectation is that the engineer conducting the rollout will monitor their change themselves. This training is also designed to allow GitLab engineers to become aware of and comfortable with the [monitoring](https://about.gitlab.com/handbook/engineering/monitoring/) that is provided by the [Infrastructure department](https://about.gitlab.com/handbook/engineering/infrastructure/).
+When the changes are low risk and do not require the [change management process](https://about.gitlab.com/handbook/engineering/infrastructure/change-management/#feature-flags-and-the-change-management-process) the expectation is that the engineer conducting the rollout will monitor their change themselves. This training is also designed to allow GitLab engineers to become aware of and comfortable with the [monitoring](https://about.gitlab.com/handbook/engineering/monitoring/) that is provided by the [Infrastructure department](https://about.gitlab.com/handbook/engineering/infrastructure/).
 
-Regardless of risk assessment, it is expected[^1] that the engineer responsible will follow up with the change in production when the flag is flipped. Doing so can lower the likelihood of a production issue and if a production issue does occur we can lower the time they last and impact they have.
+Regardless of risk assessment, **it is expected that the engineer responsible will follow up with the change in production when the flag is flipped**.
+
+Doing so can lower the likelihood of a production issue and if a production issue does occur we can lower the time they last and impact they have.
+
+
 
 ## Steps
 
 - [ ] Assign this issue to yourself with the title of Feature Flag Training - First Name Last Name - Q#YYYY
 - [ ] [Get access](https://docs.gitlab.com/ee/development/feature_flags/controls.html#access) to control feature flags
 
-## Read
+## Feature flag
+
+### Read
 
 - [ ] [Starting with Feature Flags in Development](https://docs.gitlab.com/ee/development/feature_flags/#feature-flags-in-gitlab-development)
 - [ ] [Controlling feature flags](https://docs.gitlab.com/ee/development/feature_flags/controls.html)
 - [ ] [Pete Hodgson & Martin Fowler on Feature Flags](https://martinfowler.com/articles/feature-toggles.html)
 - [ ] [Including a feature behind a feature flag in the final release](https://about.gitlab.com/handbook/product-development-flow/feature-flag-lifecycle/#including-a-feature-behind-feature-flag-in-the-final-release)
+
+
+## Monitoring and Debugging
+
+### Read
 - [ ] [GitLab Engineering Monitoring](https://about.gitlab.com/handbook/engineering/monitoring/)
 - [ ] [Performance at GitLab](https://docs.gitlab.com/ee/development/performance.html)
 - [ ] [GitLab metrics currently being monitored](https://docs.gitlab.com/ee/administration/monitoring/prometheus/gitlab_metrics.html)
 - [ ] [Adding Prometheus metrics](https://docs.gitlab.com/ee/development/prometheus_metrics.html)
 - [ ] [Logging at GitLab](https://docs.gitlab.com/ee/development/logging.html)
 
-## Watch
+### Watch
 
 ### _(Approximately 3 hours)_
 
@@ -40,4 +57,10 @@ Regardless of risk assessment, it is expected[^1] that the engineer responsible 
 - [ ] [Performance bar demo](https://www.youtube.com/watch?v=WSVHXmh_Guk&list=PL05JrBw4t0KpQMEbnXjeQUA22SZtz7J0e)
 - [ ] [How to create Kibana visualizations for checking performance](https://www.youtube.com/watch?v=5oF2rJPAZ-M&list=PL05JrBw4t0KpQMEbnXjeQUA22SZtz7J0e)
 
-[^1]: As we increase the use of feature flags, engineers have an opportunity/expectation to use our monitoring that they did not have previously. The [DORA research program](http://services.google.com/fh/files/misc/dora_research_program.pdf) specifically calls out observability and monitoring as being one of 38 key factors driving effective continuous delivery. The more comfortable we are using the monitoring and observability tools for our systems, the better our outcomes will be in terms of mean-time-to-recovery, individual contributor awareness of infrastructure and scalability concerns, usage of infrastructure engineers' time, and teams' psychological safety.
+**Notes**:
+
+As we increase the use of feature flags, engineers have an opportunity/expectation to use our monitoring that they did not have previously.
+
+The [DORA research program](http://services.google.com/fh/files/misc/dora_research_program.pdf) specifically calls out observability and monitoring as being one of 38 key factors driving effective continuous delivery.
+
+The more comfortable we are using the monitoring and observability tools for our systems, the better our outcomes will be in terms of mean-time-to-recovery, individual contributor awareness of infrastructure and scalability concerns, usage of infrastructure engineers' time, and teams' psychological safety.

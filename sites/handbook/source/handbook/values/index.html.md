@@ -118,7 +118,8 @@ GitLabで今働いていない人も含めて、誰でもどんなことでも�
 ##### お互いを知る {#get-to-know-each-other}
 {:.no_toc}
 [テキストベースのコミュニケーション](/company/culture/all-remote/effective-communication/)を活用しています。文章の背後にいる人のことを知っていることで、衝突を防ぎやすくなります。
-だから例えば、[テイクアブレイク・コール](/handbook/communication/#take-a-break-call)とか、バーチャル[コーヒーチャット](/company/culture/all-remote/informal-communication/#coffee-chats)とか、[GitLab Contribute](/events/gitlab-contribute/) を通じて、[インフォーマル・コミュニケーション](/company/culture/all-remote/informal-communication/)を活用して、個人的なことも含めてお互いのことを知ることを奨励しています。
+
+だから例えば、[ソーシャル・コール](/handbook/communication/#social-call)とか、バーチャル[コーヒーチャット](/company/culture/all-remote/informal-communication/#coffee-chats)とか、[GitLab Contribute](/events/gitlab-contribute/) を通じて、[インフォーマル・コミュニケーション](/company/culture/all-remote/informal-communication/)を活用して、個人的なことも含めてお互いのことを知ることを奨励しています。
 
 ##### 社内各部署の垣根を越えた取り組み {#reach-across-company-departments}
 {:.no_toc}
@@ -400,11 +401,11 @@ GitLabでは、利用者に最も価値を提供をできるプラットフォ�
   1. 現状に満足せず、より高い目標を設定すること
       1. 野心的な [ミッション](/company/mission/#mission) と [ビジョン](/company/vision/)
       1. [野心的な OKR](/company/okrs/#okrs-are-stretch-goals-by-default)
-      1. KPIを設定し目標値を設定して[公開](/company/kpis/#what-are-kpis) する
+      1. [KPI](/company/kpis/#what-are-kpis) を設定し目標値を設定して公開する
   1. 自分たちの仕事のやり方を他人にも採用してもらう
       1. [ハンドブック](/handbook/)
       1. [資格](/learn/certifications/public/)
-      1. プロセスの推進
+      1. プロモーションする
           1. [ブログ](/blog/)
           1. [動画配信](/webcast/)
           1. [イベント](/events/)
@@ -419,7 +420,7 @@ GitLabでは、利用者に最も価値を提供をできるプラットフォ�
      1. [資格](/learn/certifications/public/)
      1. [サーベイ](/developer-survey/)
   1. [低いパフォーマンスを許さない](/handbook/leadership/underperformance/#introduction)
-  1. [リスク回避](/handbook/values/#low-level-of-shame)を許さない
+  1. [リスク回避](/handbook/values/#low-level-of-shame)を防ぐ
 
 ##### 忍耐力 {#perseverance}
 {:.no_toc}
@@ -458,7 +459,9 @@ GitLabは、様々な難易度や複雑な状況に向き合う必要がある�
 上司と部下という関係では、通常、部下がDRIです。
 上司はDRIの決定に異論を唱えることはできます。しかしDRIの決定を支持するべきです。
 
-グループで話し合いをしていると、参加者は提案に反対であっても、何らかの理由で自分の意見を明確にしないことがあります。その結果、全員が意見を言う機会を失ってしまうのです。[ディセント - 異論を唱える](https://en.wikipedia.org/wiki/Dissent)とは、反対意見を口にだすことです。もちろん、それは困難であり、人間関係にトラブルが起きる可能性があります。
+グループで話し合いをしていると、[参加者は提案に反対であっても、何らかの理由で自分の意見を明確にしない](https://en.wikipedia.org/wiki/Abilene_paradox)ことがあります。
+その結果、全員が意見を言う機会を失ってしまうのです。
+[ディセント - 異論を唱える](https://en.wikipedia.org/wiki/Dissent)とは、反対意見を口にだすことです。もちろん、それは困難であり、人間関係にトラブルが起きる可能性があります。
 フィードバックをすることは、みなが成長し学ぶための手段であり、[意見ではなく事実に基づく](https://hbr.org/tip/2018/04/good-feedback-is-based-on-facts-not-your-opinion)ものでもあります。対立を避けたり周りに同調をするために、同意したふりをするのはやめましょう。自分の視点を共有しましょう。
 
 過去の議論を再開したいときは、以前の議論をふまえて論点を提示してください。[過去の決定が最善の意図でなされたと尊重](/handbook/values/#assume-positive-intent)してください。
@@ -1708,4 +1711,4 @@ Another example is people being promoted based on others liking them or having a
 
 ## GitLab バリュー ナレッジ診断 {#gitlab-values-knowledge-assessment}
 
-どなたでもGitLabのバリューの理解度を診断することができます。バッジを取得するには、GitLab ラーニングでこの[ラーニング・コース](https://gitlab.edcast.com/pathways/ECL-19a443fa-73d2-4084-92a3-4ad84fd57989)を完了し、80%以上のスコアを獲得する必要があります。テストに合格すると、GitLab ラーニングのプロフィールにバッジが付与されます。また、このバッジを個人のLinkedInページで共有することもできます。ご質問のある方は、L&Dチーム（`learning@gitlab.com`）までご連絡ください。
+どなたでもGitLabのバリューの理解度を診断することができます。バッジを取得するには、GitLab ラーニングでこの[ラーニング・コース](https://levelup.gitlab.com/courses/gitlab-values)を完了し、80%以上のスコアを獲得する必要があります。テストに合格すると、GitLab ラーニングのプロフィールにバッジが付与されます。また、このバッジを個人のLinkedInページで共有することもできます。ご質問のある方は、L&Dチーム（`learning@gitlab.com`）までご連絡ください。

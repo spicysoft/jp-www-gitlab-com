@@ -1,0 +1,37 @@
+---
+name: Matt Kasa
+pronouns: he/him
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Database</a>
+reports_to: alexives
+picture: mattkasa.png
+twitter: matthewkasa
+gitlab: mattkasa
+departments:
+- Engineering Function
+- Development Department
+- Enablement Section
+- Database BE Team
+projects:
+  gitlab:
+    - maintainer database
+    - reviewer backend
+story: |
+  Matt started working on open source projects in 2004, and is an
+  advocate for DevOps and software development best practices. Matt
+  spends weekdays working, with a dog named Myka, and on the weekends
+  enjoys making espresso, going to the dog park, hiking, or to the
+  lake, working on house repairs, making furniture, and tinkering with
+  electronics and home automation projects.
+domain_expertise:
+- rails
+- cicd
+- kubernetes
+- postgresql
+- redis
+- elasticsearch
+specialty:
+- 'Enablement: Database'
+

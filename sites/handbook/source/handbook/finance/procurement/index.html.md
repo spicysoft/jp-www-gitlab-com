@@ -26,7 +26,7 @@ Anytime a purchase is being made on behalf of GitLab that does not qualify as a 
 
 
 
-#### Shared Goals
+### Shared Goals
 Procurement is a cross-functional team that supports GitLab as a public company. We have four key objectives monitored in the following ways:
 1. Risk Management and Compliance
     - Reported and monitored via internal and external audit which gets reported to our shareholders. 
@@ -36,6 +36,27 @@ Procurement is a cross-functional team that supports GitLab as a public company.
     - Reported through the twice annual NPS survey
 1. Responsible Sourcing and Diversity
     - Monitored via Coupa Supplier Onboarding
+
+### Metrics
+
+#### Vendor cost avoidance
+
+Monitor the cost avoidance achieved through the procure to pay process. Cost Avoidance is the savings achieved off of the initial vendor proposal price. Note this is not directly tied to budget.
+
+**Aligns with the following core business objectives**:
+
+- Control spend and build a culture of long-term savings on procurement costs.
+- Streamline the purchasing process.
+- Minimize financial risk.
+
+#### Percent (%) of vendor spend on Purchase Order
+
+Percentage of all vendor spend for any department that is purchased via PO.
+
+**Aligns with the following core business objectives**:
+
+- SOX Compliance.
+- Streamline the purchasing process.
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> When do I start the Procurement Process?
 - Before agreeing to any business, legal and/or pricing terms with a supplier, whether in conversation or email
@@ -116,7 +137,7 @@ Please note, it takes several hours for Coupa to activate the supplier and be ab
 <div class="panel-body">
 To help expedite the review and approval of your purchase request, be prepared to provide the following information in your Coupa Requisition. If you don't know all of this information yet or are wanting support to negotiate that's ok!
 - Whether or not the supplier will have access to red and/or orange data
-    - If yes, a [Vendor Security Review](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-risk/third-party-risk-management.html) will be completed. The vendor will receive an email communication from ZenGRC requesting information regarding their security protocols.
+    - If yes, a [Vendor Security Review](https://about.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management.html) will be completed. The vendor will receive an email communication from ZenGRC requesting information regarding their security protocols.
     - If yes, the Vendor will need to sign our [DPA](https://drive.google.com/file/d/12HC2BEuXwxRFiUGAki7-CjmHclHRGwHK/view) and [SCC’s](https://drive.google.com/file/d/1oOgETU0YZrp_JhM88oI57DsLEh1qpvFV/view) as directed by federal and global requirements.
 - **TIP:** To increase speed of approval send your supplier contact the [DPA](https://drive.google.com/file/d/12HC2BEuXwxRFiUGAki7-CjmHclHRGwHK/view) and [SCC’s](https://drive.google.com/file/d/1oOgETU0YZrp_JhM88oI57DsLEh1qpvFV/view) for signature right away. Also alert them the request from ZenGRC for security completion. Let them know review and approval can't begin without these pieces.
 - All data and systems the vendor will have access to
@@ -164,7 +185,7 @@ Congratulations and thank you for following this process to support GitLab as a 
 ## <i class="far fa-paper-plane" id="biz-tech-icons"></i> How long does it take to approve my Coupa Purchase Request?
 As a general rule, plan on **5 Business Days** to approve your Purchase Request for an **existing supplier with standard terms, conditions, and low risk.**
 
-If your request [requires negotiation](https://about.gitlab.com/handbook/finance/procurement/#-when-does-procurement-negotiate-my-contract-and-how-long-does-that-take), a [vendor security review](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-risk/third-party-risk-management.html), and/or legal revisions, this will take longer as noted below. 
+If your request [requires negotiation](https://about.gitlab.com/handbook/finance/procurement/#-when-does-procurement-negotiate-my-contract-and-how-long-does-that-take), a [vendor security review](https://about.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management.html), and/or legal revisions, this will take longer as noted below. 
 
 Please plan accordingly and open your Coupa Purchase Request allowing the cross-functional teams enough time to complete the review
 
@@ -185,7 +206,7 @@ If your request meets any of the below criteria, add the additional time noted f
 ### Vendor Security Review (VSR): 4-14 Days 
 - This activity cannot begin until **after** the supplier completes the security/privacy questionnaire and supplies their security documentation. Oftentimes, it can take a week for the supplier to respond and complete the requested materials. The SLA begins once that is completed.
 - Time before this activity can begin, is entirely dependent upon the suppliers response time and maturity of security protocols.
-- A [VSR](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-risk/third-party-risk-management.html) is required for: All SaaS purchases, and other purchase types where the supplier will have access to orange and/or red data (excluding field marketing events).
+- A [VSR](https://about.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management.html) is required for: All SaaS purchases, and other purchase types where the supplier will have access to orange and/or red data (excluding field marketing events).
 - **TIP:** To increase speed of approval, upload any security compliance documentation (such as the SOC-2 report) to the Coupa Request and notify your supplier contact they will be receiving a request from  ZenGRC for completion ASAP.
 
 ### Legal Review: 3 Days - 3+ Weeks  

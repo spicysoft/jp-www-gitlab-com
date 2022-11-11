@@ -1,0 +1,62 @@
+description: Want better code quality and happier developers? Developer-first
+  security puts vulnerability discovery and remediation in an existing IDE. Your
+  security mind blown.
+canonical_path: /topics/devsecops/what-is-developer-first-security/
+parent_topic: devsecops
+file_name: what-is-developer-first-security
+twitter_image: /images/opengraph/gitlab-blog-cover.png
+title: What is developer-first security?
+header_body: >+
+  DevSecOps is a software development methodology designed to bring development, security, and operations together on a single unified team. Application security has long been an afterthought in the software development process, and a core vision of DevSecOps is to shift security left — that is, much closer to development — than ever before. Developer-first security is a relatively new concept that could represent the ultimate security shift-left: putting security tools in the hands of a developer so that a large portion of security scanning, testing, and remediation actually happen within a dev’s integrated development environment (IDE).
+
+body: >-
+  ## Why application security matters
+
+
+  A recent Forrester Research survey, Breaches By The Numbers: Adapting To Regional Challenges Is Imperative, April 12, 2022, found that [63% of organizations were breached in the past year](https://www.forrester.com/blogs/breaches-by-the-numbers-adapting-to-regional-challenges-is-imperative/), 4% more than the year before. And it’s important to realize[ the code is now the primary target](https://about.gitlab.com/blog/2020/10/14/why-security-champions/), rather than the infrastructure. Making things even trickier, some estimates suggest close to[ 60% of applications are made up of open source code](https://www.helpnetsecurity.com/2018/05/22/open-source-code-security-risk/) — and others put those estimates as high as 80% or 90%. Open source code is inherently more likely to contain vulnerabilities and malicious code than code generated from scratch, but it’s an understandable choice for busy developers trying to deliver quality code under ever-tightening deadlines.
+
+
+  ## The traditional approach to security
+
+
+  For years, security was part of a separate organization known to swoop in after the code was committed, find security issues, and demand changes from (perhaps not surprisingly) reluctant developers who’d already moved on to the next project. Security was not just an afterthought; it was a top-down experience delivered by people who were far removed from the challenges of development. It’s not hard to understand why this approach was a major source of frustration for everyone involved.
+
+
+  ## Enter DevSecOps
+
+
+  The goal of[ DevSecOps](https://about.gitlab.com/solutions/dev-sec-ops/) was to build on the silo-busting that happened when DevOps was implemented —[ now dev, ops, and security all work together](https://about.gitlab.com/topics/devsecops/). It’s still early days, but our 2022[ Global DevSecOps Survey](https://about.gitlab.com/developer-survey/) showed promising signs: almost 29% of security professionals said they’re now part of a cross-functional security team, and 57% of security team members said their organizations have either shifted security left or are planning to this year.
+
+
+  Friction remains between developers and security, but there are signs that relations are improving. In 2022, fewer security professionals complained about vulnerabilities being identified late in the software development lifecycle or about difficulty getting developers to address security risks.
+
+
+  From the developer side, over half of developers said they are “fully responsible” for security in their organizations, while another 39% said they feel responsible for security as part of a larger team.
+
+
+  ## Developer-first (or in-context) security
+
+
+  To break what feels like a very vicious cycle, experts say it’s time to start thinking about in-context or developer-first security. In a nutshell, developer-first security gives a coder a “developer-friendly” security tool that lives in the IDE and empowers developers to find and fix security issues in a painless manner. Ideally these security controls are automated, allowing a busy developer not to have to think about security requirements to build secure code — the process just happens naturally as part of the coding process.
+
+
+  Key to the success of developer-first security is a change in perspectives on both sides. Security professionals need to remember developers wear a lot of hats (coding, testing, security, and even some operations functions). Given that, it’s vital that security pros spend time understanding what developers are asked to do — and perhaps learn to code — in order to provide the necessary training, encouragement, and empathy. At the same time developers have to be open to a process change and excited about the opportunity to contribute to code security in a meaningful way.
+
+
+  Moving security in with the development team, ensuring teams have the right mix of skills, and creating a collegial environment will go a long way toward a successful developer-first security effort.
+cta_banner:
+  - title: DevSecOps with GitLab
+    cta:
+      - url: https://about.gitlab.com/solutions/dev-sec-ops/
+        text: Learn More
+    body: With GitLab, security is built into the CI pipeline, out of the box. Every
+      code commit is automatically scanned for security vulnerabilities in your
+      code and its dependencies.
+resources_title: Learn more about DevSecOps
+resources:
+  - title: Best Practices for a DoD DevSecOps Culture
+    url: https://page.gitlab.com/resources-article-RightPlatformDoD.html
+    type: Articles
+  - title: Citizen-Centric Resiliency In Challenging Times
+    url: https://page.gitlab.com/webcast-citizen-centric-resiliency.html
+    type: Webcast

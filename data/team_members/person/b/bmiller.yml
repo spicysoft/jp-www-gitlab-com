@@ -2,7 +2,7 @@
 name: Bryan Miller
 locality:
 country: Remote
-role: <a href="/job-families/sales/customer-success-management/">Technical Account Manager
+role: <a href="/job-families/sales/customer-success-management/">Customer Success Manager
   (Enterprise)</a>
 reports_to: john-woods
 picture: bmiller.png
@@ -10,7 +10,7 @@ twitter:
 gitlab: bmiller1
 departments:
 - Customer Success
-- Technical Account Managers
+- Customer Success Managers
 - Static Analysis Group CS Stable Counterpart
 - Dynamic Analysis Group CS Stable Counterpart
 - Composition Analysis Group CS Stable Counterpart

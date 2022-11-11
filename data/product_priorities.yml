@@ -1,0 +1,98 @@
+security_policies:
+  priorities:
+  - name: "Support Scan Result Policies at the Group Level"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/7622"
+    be_dri: zmartins
+    fe_dri: zmartins
+    estimated_size: "L"
+    target_release: "15.6"
+  - name: "Make Security Approval Policies more Robust"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/9102"
+    be_dri: zmartins
+    fe_dri: zmartins
+    estimated_size: "M"
+    target_release: "15.6"
+  - name: "Support Role Based Approvers"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/8018"
+    be_dri: sashi_kumar
+    fe_dri: aturinske
+    estimated_size: "M"
+    target_release: "15.7"
+  - name: "Add Support for Dependency Scanning"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/7669"
+    be_dri: bauerdominic
+    estimated_size: "S"
+    target_release: "15.6"
+  - name: "License Approval Policies"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/8092"
+    be_dri: "mparuszewski"
+    fe_dri: farias-gl
+    estimated_size: "M"
+    target_release: "15.8"
+  - name: "Support Additional Filtering for Scan Result Policies"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/6826"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Follow-up UX enhancements for scan execution policy rule mode"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/8695"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Refine Policy Application Limits"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/8084"
+    be_dri: ""
+  - name: "Allow Users to Define Tags for Scan Execution Policies"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/9176"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Limit Group/Workspace Policies to only Projects with Specified Compliance Framework Labels"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/5510"
+    be_dri: mparuszewski
+    fe_dri: aturinske
+    estimated_size: "M"
+  - name: "Custom SAST/Secret Detection Ruleset Support for Scan Execution Policies"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/7671"
+    be_dri: sashi_kumar
+    fe_dri: aturinske
+  - name: "Allow Scan Execution Policies to Create Pipelines"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/6880"
+    be_dri: ""
+  - name: "Fix Security Approval Policy Notifications"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/8314"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Granular per-rule controls for scanners used in Scan Result Policies"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/8432"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Add support for Compliance Pipelines"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/7312"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Approval group members are not visible to MR creator"
+    url: "https://gitlab.com/gitlab-org/gitlab/-/issues/368487"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Provide a UI-based Policy Approval Workflow"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/5447"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Add support for Workspace Level Policies"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/6881"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Allow Users to View Policy History in the Policy UI"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/5448"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Hide the Security Policy Project and Automate Permissions"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/5446"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: "Display Security Policy Errors"
+    url: "https://gitlab.com/groups/gitlab-org/-/epics/6770"
+    be_dri: ""
+    fe_dri: aturinske
+  - name: 'Change "Scan result policy" to "Security approval policy"'
+    url: "https://gitlab.com/gitlab-org/gitlab/-/issues/370731"
+    be_dri: ""
+    fe_dri: aturinske

@@ -45,7 +45,7 @@ For GitLab team member prospective shadows:
 For non-GitLab prospective shadows:
 1. You must be willing to sign a [non-disclosure agreement](/handbook/legal/NDA/) - this is required so that we can protect confidential information.
 1. You must describe why you want to participate in this program, including what you would like to learn.
-1. You must be an exceptional [community open-source contributor](/community/contribute/) or a member of an [under represented group](/company/culture/inclusion/#examples-of-select-underrepresented-groups)
+1. You must be the in top 10% of merged [GitLab community open-source contributions](/community/contribute/) which translates to >=3 in the last 12 months or a member of an [under represented group](/company/culture/inclusion/#examples-of-select-underrepresented-groups)
 
 ## Process for requesting to be a shadow
 
@@ -57,7 +57,7 @@ For GitLab team member prospective shadows:
 1. After your manager approves, assign the MR to me to review and merge.
 
 For non-GitLab prospective shadows:
-1. For non-GitLab team members, schedule time to discuss with me via my [calendly link](https://calendly.com/whabergitlab/30min).
+1. For non-GitLab team members, fill out this [form](https://forms.gle/EoHLLvdaVZLnFNuB7) to apply.
 
 ## How does the shadowing work?
 
@@ -74,12 +74,13 @@ The engineering director shadow will have a chance to work alongside engineering
 * Feel free to introduce yourself in a meeting when you feel this is appropriate (especially when there are only a few attendees). Tell participants who you are, what your non-shadow role is, and that you are a shadow in this meeting.
 * Even in meetings where you are unfamiliar with the subject matter, there is an opportunity to learn, document, and shape the evolution of GitLab's [values](/handbook/values/). 
 * Please let Wayne know if you notice him interrupting speakers, speaking too quickly, or not pausing often enough. These are things he is working on improving.
+* Remind Wayne periodically to use his standing desk.
+* Ask me questions via Slack in `#wayne_shadow_program`, after a meeting concludes, via scheduling a meeting with me, or via an ad-hoc Zoom discussion.  This slack channel will not include discussions of confidential topics because it will include non-Gitlab team members via adding them to slack as a "one channel participant".
 
 For GitLab team member shadows: 
 * Attend all of the scheduled meetings which are not marked as `private` that Wayne has accepted. You can attend 1-1s, group meetings, and much more.
 * Review documents linked to the meetings.
 * Take notes in the meeting documents in order to collect main points and outcomes. 
-* GitLab team members should feel free to ask me questions via Slack in `#wayne_shadow_program`, after a meeting concludes, via scheduling a meeting with me, or via an ad-hoc Zoom discussion.  Non-GitLab team members will do the same via a different method of async communication TBD.
 * Review Slack messages I have written in public channels.
 * Review Wayne's assigned [issues](https://gitlab.com/dashboard/issues?assignee_username=wayne), [assigned merge requests](https://gitlab.com/dashboard/merge_requests?assignee_username=wayne), and [merge requests for review](https://gitlab.com/dashboard/merge_requests?reviewer_username=wayne)  
 
@@ -105,10 +106,9 @@ For Gitlab team members, it is not a performance evaluation or a step for a futu
 1. Reduce your workload by at least 75% during the shadowing time period. Don't plan to do your normal amount of usual non-shadow work.
 1. Review my [readme](/handbook/engineering/readmes/wayne-haber/).
 1. Read GitLab's values prior to your shadow rotation, and be mindful of new and inventive ways that [CREDIT](/handbook/values/#credit) is lived out during the meetings you attend.
-
+1. Slack me in `#wayne_shadow_program` to let me know a couple of days before your first shadow
 
 For GitLab team member shadows: 
-1. Slack me in `#wayne_shadow_program` to let me know a couple of days before your first shadow
 1. Schedule these coffee chats a couple of days before your first shadow:
     1. With me (Wayne), especially if we have not met previously
     1. With one of the previous shadows (See list below)
@@ -147,3 +147,17 @@ A given week should be considered open for shadowing unless it is listed below.
 | 4/25/2022 | [@sam.figueroa](https://gitlab.com/sam.figueroa )| Development |
 | 7/18/2022 | [@bradleylee](https://gitlab.com/bradleylee) | Customer Success |
 | 9/12/2022 | [@fjdiaz](https://gitlab.com/fjdiaz) | Marketing |
+| 10/31/2022| [Rafa Carrasco](https://linkedin.com/in/rafael-carrasco) | Non-GitLab shadow - Developer from [Astronomer.io](https://www.astronomer.io/) |
+| 11/7/2022 | Available | |
+| 11/14/2022 | [@edith007](https://gitlab.com/edith007) | GitLab community contributor |
+| 11/21/2022 | Shadowing not available this week | N/A |
+| 11/28/2022 | Shadowing not available this week | N/A |
+| 12/5/2022 | [Sladyn Nunes](https://www.linkedin.com/in/sladyn-nunes) | Non-Gitlab shadow - Student from [USC](https://www.usc.edu/) | 
+| 12/12/2022 | [Toni Lovejoy](https://linkedin.com/in/tonilovejoy) | Non-GitLab shadow - Developer from [Circulo Health](https://www.circulohealth.com/) |
+| 12/19/2022 | Shadowing not available this week | N/A |
+| 12/26/2022 | Shadowing not available this week | N/A |
+| 1/2/2023 | Available | |
+| 1/9/2023 | Available | |
+| 1/16/2023 | [George Tsiolis](https://gitlab.com/gtsiolis) | [GitLab Core Team Community Contributor](https://about.gitlab.com/company/team/?department=core-team) |
+| 1/30/2023 | Available | |
+

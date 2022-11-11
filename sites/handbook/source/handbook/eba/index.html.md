@@ -16,11 +16,11 @@ This page details processes and general guidelines specific to the Executive Bus
 ## Executive Business Administrator Team
 
 ### E-Group Member EBAs
+* Stella Treas (CoS) interim support for Sid Sijbrandij (CEO) 
 * Alexa Schrauth (Sr. EBA) supporting Michael McBride (CRO)
 * Jeanette McCarthy (Sr. EBA) supporting Ashley Kramer (CMSO) 
 * Darci Tadich (Sr. EBA) supporting Brian Robins (CFO) 
 * Stephanie Kusmirek (Sr. EBA) supporting Wendy Barnes (CPO), Pattie Egan (VP of People Operations, Technology and Analytics), Rob Allen (VP, Talent Acquisition), Sherida McMullan (VP, Diversity, Inclusion and Belonging) 
-* Aimee David supporting Sid Sijbrandij (CEO) and Stella Treas (CoS)
 * Marisa Carlson (Sr. EBA) supporting Eric Johnson (CTO), and Johnathan Hunt (VP of Security)
 * Sharlene Seemungal (Sr. EBA) supporting Robin Schulman (CLO)
 * Gena Schwam (Sr. EBA) supporting David DeSanto (VP of Product)
@@ -28,12 +28,14 @@ This page details processes and general guidelines specific to the Executive Bus
 
 
 ### All-Directs EBAs 
-* Dana Pelton (Sr. EBA) supporting David Hong (VP of Field Operations), David Helfer (Interim, VP of Worldwide Channels), and Nima Badiey (VP of Alliances)
-* Victoria Reinhardt (Sr. EBA) supporting Ryan O’Nell (VP of Commercial Sales), Mike Pyle (VP of Enterprise Sales), and David Sakamoto (VP of Customer Success)
+* Dana Pelton (Sr. EBA) supporting David Hong (VP of Field Operations) & David Helfer (Interim, VP of Worldwide Channels)
+* Victoria Reinhardt (Sr. EBA) supporting Ryan O’Nell (VP of Commercial Sales) & Mike Pyle (VP of Enterprise Sales)
+* Rebecca Piccone (Sr. EBA) supporting David Sakamoto (VP of Customer Success) & Nima Badiey (VP of Alliances)
+* Cindy King (Sr. EBA) supporting Dale Brown (Principal Accounting Officer), Jim Gladen (VP Tax), and Brijen Joshi (VP on Internal Audit)
 * Lauren Lopez (EBA) supporting Eliran Mesika (Sr. Director of Corporate Development), Emily Plotkin (Sr. Director - Legal, Employment), Lynsey Sayers (Sr. Director - Legal, Privacy & Product), Matt Taylor (Director - Legal, Commercial), Rashmi Chachra (Sr. Director - Legal & Corporate Affairs, Corporate), Robert Nalen (Sr. Director, Contracts & Legal Operations), and Stacy Cline (Sr. Director, ESG)
-* Anita Mall (EBA) supporting Craig Mestel (VP Finance and Business Technology), Jack Andrews (VP of Investor Relations), Jim Gladen (VP Tax) 
-* Blaire Sullivan (EBA) supporting Dave Steer (VP of Product Marketing), Carrie Maynard (VP of Integrated Marketing), Ray Leihe (VP Marketing Strategy & Platforms), Jean-Baptiste Larramendy (AVP of Sales Development) and Christina Lee (Sr. Director - Marketing Strategy & Platforms)
-* Cindy King (Sr. EBA) Dale Brown (Principal Accounting Officer) and Brijen Joshi (VP on Internal Audit)
+* Anita Mall (EBA) supporting Craig Mestel (VP Finance and Business Technology), Jack Andrews (VP of Investor Relations)
+* Blaire Sullivan (EBA) supporting Dave Steer (VP of Product Marketing), Carrie Maynard (VP of Integrated Marketing), Jean-Baptiste Larramendy (VP of Sales Development), and Christine Lee (Sr. Director - Marketing Strategy & Platforms)
+* Jennifer Garcia (EBA) supporting Justin Farris (Sr Director of Product Monetization)
 
 
 
@@ -260,15 +262,19 @@ Sample Questions:
 * [Speakeasy VIRTUAL Team Building Events](https://www.thespeakeasysf.com/) ---> Brochure: https://drive.google.com/file/d/13qtyaplMP3t_zawqvPw4a4ROB4Xib168/view?usp=sharing - recommended by David Sakamoto
 * [Teambonding](https://www.teambonding.com/virtual-events/) - Quickfire Olympics - FieldOps team did this event (wasn’t as good as Survey Says!) 
 * [Teambuilding](https://teambuilding.com/) - Trivia - FieldOps team enjoyed Trivia, hosts were high energy.
+* [Watson Adventures](https://watsonadventures.com/) - Museum Scavenger Hunt, Murder Mystery, etc.  Really well thought out and engaging.
+* [Avital](https://avitaltours.com/virtual-events/) - Bartending, cooking classes, etc.
 
 ### Not Hosted
 * [Online Team Building Bingo (free!)](https://teambuilding.com/blog/online-team-building-bingo)
 * [Virtual Time Capsule (free!)](https://teambuilding.com/blog/virtual-team-building-activities#virtual-time-capsule) 
+* [Virtual Pictionary (free!)](https://www.drawasaurus.org/)
+* Bob Ross Painting Tutorial - Watch a Bob Ross video while your team paints in a computer based arts program.  Share as you go, see who is a true digital artist.
 
 ### Escape Rooms 
 * [The Escape Room](https://theescapegame.com/remote-adventures/)
 * [Reason](https://www.tryreason.com/)
-* [Mystery Escape Room](https://www.mysteryescaperoom.com/) - the TAM and FieldOps teams did this one
+* [Mystery Escape Room](https://www.mysteryescaperoom.com/) - the CSM and FieldOps teams did this one
 
 ### Murder Mysteries 
 * [Whudunnit](https://www.eventbrite.com/e/virtual-mystery-for-private-events-tickets-106555751120)
@@ -318,6 +324,11 @@ Sample Questions:
 
 
 ### In-person team events and activities (by location)
+* Seattle, WA
+  * [Reinhaus](https://www.rheinhausseattle.com/) - Bocce Ball/Food
+  * [Chihuly Glass Museum](https://www.chihulygardenandglass.com/) - reception space
+  * [Sail Seattle](https://sailingseattle.com/) - Sailing... 
+  
 * Scottsdale, AZ
   * [Escape the Room](https://www.google.com/url?q=https://escapetheroom.com/phoenix/?utm_source%3DGMBlisting%26utm_medium%3Dorganic&sa=D&source=calendar&ust=1659284723638928&usg=AOvVaw16YFkD7VjhRbQ7jWRFszmZ)
   * [Octane Racing - Velocity VR Experience](https://zerolatencyvr.com/experience/)

@@ -108,7 +108,7 @@ There is a free and premium version.
 {: .panel-heading}
 <div class="panel-body">
 
-Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/native/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/engineering/security/data-classification-standard.html) for additional details on how data is classified across the organization.
+Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/native/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/security/data-classification-standard.html) for additional details on how data is classified across the organization.
 
 </div>
 </div>
@@ -116,19 +116,15 @@ Grammarly browser extensions are discouraged, Grammarly will have access to ever
 ### LanguageTool
 
 As an alternative to [Grammarly](#grammarly), we can combine LanguageTool in the browser
-with a LanguageTool server [run locally with Docker](https://github.com/languagetool-org/languagetool#docker).
+with a local LanguageTool server .
 This ensures that spell and grammar checking remains both convenient and confidential:
 
 1. Install the [LanguageTool browser extension](https://www.languagetool.org/#firefox_chrome).
-1. Install [docker engine](/handbook/tools-and-tips/mac/#docker-desktop)
-1. Follow the setup instructions at [Erikvl87/docker-languagetool](https://github.com/Erikvl87/docker-languagetool).
+1. Either install [LanguageTool as a Homebrew service](https://formulae.brew.sh/formula/languagetool),
+   or install [a Docker engine](/handbook/tools-and-tips/mac/#docker-desktop)
+   and follow the setup instructions of any
+   [LanguageTool Docker image provider](https://github.com/languagetool-org/languagetool#docker).
 1. Configure the browser extension under `Experimental settings > Local server`.
-
-Note: The instructions on GitHub have some extra things you won't need. Really, all you need to do is open Terminal and run 
-
-`docker pull erikvl87/languagetool` 
-
-`docker run -d --restart unless-stopped -p 8010:8010 erikvl87/languagetool`
 
 ### Simplenote
 
@@ -167,6 +163,9 @@ Make sure to use with headphones, and give it 10-15 minutes for your brain to ge
 
 ### Calendly
 
+**Note**: Google Calendar has added support to [create appointment schedules](https://support.google.com/calendar/answer/10729749?hl=en),
+which are similar to the functionality provided by Calendly.
+
 [Calendly](https://calendly.com/) connects to your Google Calendar so people outside GitLab can easily book a time with you.
 If you are scheduling a meeting with a GitLab team-member, please use Google Calendar and follow handbook guidance when [scheduling a meeting](/handbook/communication/#scheduling-meetings).
 
@@ -202,7 +201,7 @@ If an event needs to be cancelled or modified, make sure to use Calendly to do s
 {: .panel-heading}
 <div class="panel-body">
 
-Clockwise requires specific permissions which allow it to read all calendar invitation data. Team Members who opt to utilize Clockwise should be cognizant about the meeting details (i.e. subject and meeting invite body) included in meetings that are sent from your calendar. Confidential data such as customer names, security specific information like discussion of incidents or bugs should not be included in a calendar title or body, and  instead be kept in a linked agenda, which Clockwise will not be able to read or download. Any data considered non-confidential per [GitLab's Data Classification Standard](/handbook/engineering/security/data-classification-standard.html) can be safely included in meeting invites.
+Clockwise requires specific permissions which allow it to read all calendar invitation data. Team Members who opt to utilize Clockwise should be cognizant about the meeting details (i.e. subject and meeting invite body) included in meetings that are sent from your calendar. Confidential data such as customer names, security specific information like discussion of incidents or bugs should not be included in a calendar title or body, and  instead be kept in a linked agenda, which Clockwise will not be able to read or download. Any data considered non-confidential per [GitLab's Data Classification Standard](/handbook/security/data-classification-standard.html) can be safely included in meeting invites.
 
 Team Members should also note that by utilizing Clockwise, you inherently agree to providing Clockwise with the ability to view and download your Google Contacts saved to your gitlab.com email account. This will be limited to viewing and downloading information for contacts with an @gitlab.com email alias.
 

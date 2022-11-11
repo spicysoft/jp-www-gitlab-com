@@ -10,7 +10,7 @@ canonical_path: "/direction/supply-chain/"
 
 We would appreciate your feedback on this direction page. Please [email Sam White](mailto:swhite@gitlab.com) or [propose an MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/edit/master/source/direction/supply-chain/index.html.md.erb) to this page!
 
-The Sec Section maintains GitLab&apos;s vision for Software Supply Chain Security (SSCS) and leads coordination across the many stages that are involved in delivering a comprehensive, quality secure supply chain experience at GitLab. These include, but are not necessarily limited to the following:
+The Sec Section maintains GitLab&apos;s vision for [Software Supply Chain Security (SSCS)](/solutions/supply-chain/) and leads coordination across the many stages that are involved in delivering a comprehensive, quality secure supply chain experience at GitLab. These include, but are not necessarily limited to the following:
 
 - [Manage](/direction/dev/#manage)
 - [Create](/direction/dev/#create)
@@ -20,7 +20,7 @@ The Sec Section maintains GitLab&apos;s vision for Software Supply Chain Securit
 - [Configure](/direction/configure/)
 - [Secure](/direction/secure/)
 - [Govern](/direction/govern/)
- 
+
 This direction page is intended to help facilitate cross-stage collaboration as well as to provide a single reference describing our vision for the product capabilities that comprise our SSCS solution. The end goal is to deliver a single tool that gives users confidence in the integrity and security of their software supply chain.
 
 Because this page represents our long-term vision, it extends beyond our current product roadmap to describe the ideal future state of GitLab.  Please reference the individual epics/issues in GitLab to track progress toward accomplishing this vision.
@@ -126,7 +126,7 @@ The approach for protecting code sources can be subdivided by thinking about pro
 | ------ | ------ | ------ | ------ | ------ |
 | Reporting on adherence to compliance standards | 🔨 | `Govern:Compliance` | Some [compliance reports](https://docs.gitlab.com/ee/user/compliance/compliance_report) are available natively in GitLab and other data can be collected through the API. | Work on a centralized dashboard showing compliance with [SLSA](https://slsa.dev/) and other similar standards is part of GitLab&apos;s vision. |
 | Enforcement of secure settings | 🔨 | `Govern:Security Policies` | Security and compliance teams can currently enforce a wide variety of controls, including requiring scans to be run, enforcing security-related configuration settings, and maintaining requirements related to merge request approvals. | The vision is for Security and Compliance teams to be able to enforce **all** aspects of SSCS in a way that other users are unable to disable or change those settings. |
-| Credential management | 🔨 | `Manage:Authentication & Authorization` | Self managed users are currently able to enforce requirements related to [SSH keys](https://docs.gitlab.com/ee/security/ssh_keys_restrictions.html), [SSH access](https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html#limit-the-lifetime-of-ssh-keys), and [Personal Access Tokens (PAT)](https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html#limit-the-lifetime-of-personal-access-tokens). | The vision is to provide SaaS users with feature parity for managing SSH keys, SSH access, and PAT access policies. |
+| Credential management | 🔨 | `Manage:Authentication and Authorization` | Self managed users are currently able to enforce requirements related to [SSH keys](https://docs.gitlab.com/ee/security/ssh_keys_restrictions.html), [SSH access](https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html#limit-the-lifetime-of-ssh-keys), and [Personal Access Tokens (PAT)](https://docs.gitlab.com/ee/user/admin_area/settings/account_and_limit_settings.html#limit-the-lifetime-of-personal-access-tokens). | The vision is to provide SaaS users with feature parity for managing SSH keys, SSH access, and PAT access policies. |
 
 ### Tool Security
 
@@ -162,13 +162,13 @@ We plan to expand on this by [signing](https://gitlab.com/gitlab-org/gitlab-runn
 
 Alongside this effort, GitLab now supports creating [JSON CycloneDX-formatted Software Bill of Materials (SBOM) artifact files](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#cyclonedx-software-bill-of-materials).  We plan to further extend on this by [ingesting these artifact files into our database](https://gitlab.com/groups/gitlab-org/-/epics/7886) and then allowing users to download a single SBOM file for their project.  Eventually we plan to include the information from the SBOM in the attestation file that is produced by the GitLab Runner.
 
-## Competitive landscape 
+## Competitive landscape
 
-There have been indications that Tekton and Sigstore are tools representing a leader in software supply chain security. One example of how this has been used in practice can be found in this [blog](https://dlorenc.medium.com/zero-trust-supply-chain-security-e3fb8b6973b8). 
+There have been indications that Tekton and Sigstore are tools representing a leader in software supply chain security. One example of how this has been used in practice can be found in this [blog](https://dlorenc.medium.com/zero-trust-supply-chain-security-e3fb8b6973b8).
 
 [CoSign](https://github.com/sigstore/cosign#registry-support) is an open source tool that can be used for container signing.
 
-[Grafeas](https://grafeas.io/) is an open-source artifact metadata datastore tool which offers flexible, universal artifact metadata storage - a key foundation for software supply chain security. 
+[Grafeas](https://grafeas.io/) is an open-source artifact metadata datastore tool which offers flexible, universal artifact metadata storage - a key foundation for software supply chain security.
 
 ## Frameworks
 
@@ -182,7 +182,7 @@ The [SLSA framework](https://slsa.dev/) is an open source specification that is 
 
 ## North Stars
 
-A FY23 theme for the [Verify Stage](/direction/verify/verify) is to support pipeline safety throughout the software development lifecycle to automatically ensure compliance and security. This is complimented by Software Composition Analysis Group&apos;s [Dependency Scanning direction](/direction/secure/composition-analysis/dependency-scanning/) on SBOM. 
+A FY23 theme for the [Verify Stage](/direction/verify/verify) is to support pipeline safety throughout the software development lifecycle to automatically ensure compliance and security. This is complimented by Software Composition Analysis Group&apos;s [Dependency Scanning direction](/direction/secure/composition-analysis/dependency-scanning/) on SBOM.
 
 We aim to make a seamless experience for verifying trust at every step in the software chain.
 

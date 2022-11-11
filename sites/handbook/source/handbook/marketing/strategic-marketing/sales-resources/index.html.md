@@ -84,7 +84,7 @@ Visit the [Solutions GTM handbook page](/handbook/marketing/strategic-marketing/
 ## Help with RFPs
 
 - [RFP Archive](https://drive.google.com/drive/u/0/folders/0B0JubjRNovkvNVJTVmNJdXJNZEk)
-- [Request for SOC2 Type 2 Compliance Report](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/certifications.html#requesting-a-copy-of-the-gitlab-soc2-type-2-report)
+- [Request for SOC2 Type 2 Compliance Report](https://about.gitlab.com/handbook/security/security-assurance/security-compliance/certifications.html#requesting-a-copy-of-the-gitlab-soc2-type-2-report)
 - [GitLab's publicly available SOC 3 report](https://about.gitlab.com/security/cap/)
 
 ## GitLab by the Stages
@@ -197,7 +197,7 @@ Key Whitepapers:
 - **[ALL Customer Case Studies](/customers/)**
 - [Overall Customer Reference Program](/handbook/marketing/strategic-marketing/customer-reference-program/)
 
-## [Comparisons](/devops-tools/)
+## [Comparisons](/competition/)
 
 Here are links to a few **KEY comparisons** and then a link to main comparison page where over 50 comparisons are available.
 
@@ -207,7 +207,7 @@ Here are links to a few **KEY comparisons** and then a link to main comparison p
 - [Jenkins](/devops-tools/jenkins-vs-gitlab.html)
 - [Azure](/devops-tools/azure-devops-vs-gitlab.html)
 - [Jira](/devops-tools/jira-vs-gitlab.html)
-- [ALL Comparisons](/devops-tools/)
+- [ALL Comparisons](/competition/)
 
 ## Alliance Partnerships
 

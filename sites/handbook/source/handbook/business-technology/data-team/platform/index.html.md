@@ -19,7 +19,7 @@ description: "GitLab Data Team Platform"
 {: .panel-heading}
 <div class="panel-body">
 
-Inline with GitLab's regulatory obligations, changes to [controlled documents](https://about.gitlab.com/handbook/engineering/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged. 
+Inline with GitLab's regulatory obligations, changes to [controlled documents](/handbook/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged. 
 
 </div>
 </div>
@@ -99,7 +99,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 |                                                                                                        Gitlab Container Registry Logs |                                            [Airflow](https://airflow.gitlabdata.com/home)                                             |       `Container Registry`        |     `Container Registry`      |            Engineering            |      x      |  No  | Tier 2 |
 |                                                                                                 [Google Ads](https://ads.google.com/) |                                                   [Fivetran](https://fivetran.com/)                                                   |           `google_ads`            |         `google_ads`          |             Marketing             |  24h / 48h  |  No  | Tier 2 |
 |                                                     [Google Analytics 360](https://marketingplatform.google.com/about/analytics-360/) |                                                   [Fivetran](https://fivetran.com/)                                                   |  `google_analytics_360_fivetran`  |    `google_analytics_360`     |             Marketing             |  6h / 32h   |  No  | Tier 2 |
-|                                                       [Google Cloud Billing](https://cloud.google.com/support/billing) |                                                                   [Airflow](https://airflow.gitlabdata.com/home)                                                                   |           `gcp_billing`           |         `gcp_billing`         |            Engineering            |   24h / x   |  No  | Tier 3 |
+|                                                       [Google Cloud Billing](https://cloud.google.com/support/billing)                |                                            [Airflow](https://airflow.gitlabdata.com/home)                                             |           `gcp_billing`           |         `gcp_billing`         |            Engineering            |   24h / x   |  No  | Tier 3 |
 |                                                                        [Graphite API](https://graphite-api.readthedocs.io/en/latest/) |                                            [Airflow](https://airflow.gitlabdata.com/home)                                             |      `engineering_extracts`       |               x               |            Engineering            |  24h / 48h  |  No  | Tier 3 |
 |                                                                                              [Greenhouse](https://www.greenhouse.io/) |                          [Sheetload](https://gitlab.com/gitlab-data/analytics/tree/master/extract/sheetload)                          |           `greenhouse`            |         `greenhouse`          |              People               |  24h / 48h  |  No  | Tier 2 |
 |                                [Handbook YAML Files](https://gitlab.com/gitlab-data/analytics/-/tree/master/extract/gitlab_data_yaml) |                                            [Airflow](https://airflow.gitlabdata.com/home)                                             |        `gitlab_data_yaml`         |      `gitlab_data_yaml`       |             Multiple              |  8h / 24h   |  No  | Tier 2 |
@@ -434,14 +434,21 @@ The source of truth for this is in the [`dbt_project.yml` configuration file](ht
 | Folder in snowflake-dbt/models/ | db.schema | Details | Queryable in Sisense |
 |-|-|-|:-:|
 | common/ | prod.common | Top-level folder for facts and dimensions. Do not put models here. | Yes |
-| common/prep/ | prep.preparation | Prep models used to create facts/dims. | No |
+| common/bridge | prod.common | Sub-folder for creating many-to-many mappings between data that come from different sources. | Yes |
+| common/dimensions_local | prod.common | Sub-folder with directories containing dimensions for each analysis area. | Yes |
+| common/dimensions_shared | prod.common | Sub-folder with dimensions that relate to every analysis area. | Yes |
+| common/facts_financial | prod.common | Sub-folder with facts for the financial analysis area. | Yes |
+| common/facts_product_and_engineering | prod.common | Sub-folder with facts for the product and engineering analysis area. | Yes |
+| common/facts_sales_and_marketing | prod.common | Sub-folder with facts for the sales and marketing analysis area. | Yes |
 | common/sensitive/ | prep.sensitive | Facts/dims that contain sensitive data. | No |
-| common/curate/ | prod.curate |  | Yes |
-| common/prod/ | prod.common | Production fact/dim tables. | Yes |
-| common_mapping/ | prod.common_mapping | Contains mapping, bridge, or look-up tables | Yes |
-| common_mapping/prep/ | prod.common_mapping | Preparation tables for mapping, bridge, and look-up tables | Yes |
-| marts/ | prod.`marts` | Contains mart-level data. | Yes |
-| prep/ | prep.preparation | General preparation models for production. | No. |
+| common_mapping/ | prod.common_mapping | Used for creating one-to-one mappings between data that come from different sources. | Yes |
+| common_mart/ | prod.common_mart | Joined dims and facts that are relevant to all analysis areas. | Yes |
+| common_mart_finance/ | prod.common_mart | Joined dims and facts that are relevant to finance.  | Yes |
+| common_mart_marketing/ | prod.common_mart | Joined dims and facts that are relevant to marketing. | Yes |
+| common_mart_product/ | prod.common_mart | Joined dims and facts that are relevant to product. | Yes |
+| common_mart_sales/ | prod.common_mart | Joined dims and facts that are relevant to sales. | Yes |
+| common_prep/ | prod.common_prep | Preparation tables for mapping, bridge, dims, and facts. | Yes |
+| marts/ | varies | Contains mart-level data and data pumps that send data to third party sources. | Yes |
 | legacy/ | prod.legacy | Contains models built in a non-dimensional manner | Yes |
 | sources/ | prep.`source` | Contains source models. Schema is based on data source | No |
 | workspaces/ | prod.workspace_`workspace` | Contains workspace models that aren't subject to SQL or dbt standards.  | Yes |
@@ -502,7 +509,43 @@ The extracts we do for some [yaml files](https://gitlab.com/gitlab-data/analytic
 
 ### Backups
 
-For an extra layer of robustness, we backup data from the warehouse into GCS (Google Cloud Storage). We execute the jobs using dbt's [`run-operation`](https://docs.getdbt.com/docs/using-operations) capabilities. Currently, we backup all of our snapshots daily and retain them for a period of 1 month. We implemented the basic instructions outlined in [this Calogica blog post](https://calogica.com/sql/snowflake/dbt/2019/09/09/snowflake-backup-s3.html).
+The scope of data backups at Data Platform level is to ensure data continuity and availability for reporting and analytics purposes. In case of an unforeseen circumstance happening with our data in Snowflake or with our Snowflake platform, the GitLab data team is able to recover and restore data to the desired state. In our backup policy we tried to find a balance between the risk of an unforeseen event and the impact of the mitigated solution.
+
+Note: the (Snowflake) Data Platform doesn't act as a data archival solution for upstream source systems i.e. for compliance reasons. The Data Platform relies on data that was and is made available in upstream source systems.
+
+#### Unforeseen circumstances
+We've identified currently 2 types of unforeseen circumstances:
+
+- Incorrect events happening inside the data platform.
+- Unavailability of the Snowflake environment.
+
+##### Incorrect events happening inside the data platform
+
+This can be data manipulation action done by a GitLab Team member or by services with access to the data in Snowflake. Some examples are accidentally dropping/truncating a table or running incorrect logic in a transformation.
+
+The vast majority of data in snowflake is copied or derived from copies of our [data sources](/handbook/business-technology/data-team/platform/#data-sources), which is all managed [idempotently](https://docs.getdbt.com/terms/idempotent) with **dbt** and so the most common procedure for data restoration or recovery is through recreating or refreshing objects using [dbt Full Refresh](/handbook/business-technology/data-team/platform/infrastructure/#dbt-full-refresh). For data in the `RAW` database, which comes from our extraction [pipelines](/handbook/business-technology/data-team/platform/pipelines/) we follow the appropriate [Data refresh procedure](https://about.gitlab.com/handbook/business-technology/data-team/platform/infrastructure/#data-refresh).
+
+However, there are some exceptions to this. Any data in snowflake which is not a result of idempotent processes or that cannot be refreshed in a practical amount of time should be backed up. For this we use Snowflake Time travel. Which includes:
+1. Storage in permanent (not transient) tables. 
+1. [A data retention period](https://docs.snowflake.com/en/user-guide/data-time-travel.html#specifying-the-data-retention-period-for-an-object) of 30 days. 
+
+The data retention period is set via dbt This should be implemented in code via a dbt post-hook [example](https://gitlab.com/gitlab-data/analytics/-/blob/b898087672bfeb3e6329d76696de220fc4b9b2a9/transform/snowflake-dbt/dbt_project.yml#L658).
+
+The following set of rules and guidelines applies to backing up data/using time travel:
+- **It is the responsibility of the [CODEOWNER](https://gitlab.com/gitlab-data/analytics/-/blob/master/CODEOWNERS) to ensure that the the backup processes has been correctly implemented for the data that their code builds or maintains.**
+- Backups (via Time Travel)  need not be applied on dbt models by [default](https://docs.getdbt.com/reference/resource-configs/snowflake-configs#transient-tables) since these are idempotent **and** this would result in a huge increase of the storage costs in Snowflake. 
+- The retention period is set to 30 days. 
+
+At the moment the following snowflake objects are considered in scope for Time Travel recovery:
+- `RAW.SNAPSHOTS.*`
+
+
+Once a table is permanent with a retention period we are able to use [Time Travel (internal runbook)](https://gitlab.com/gitlab-data/runbooks/-/blob/main/data_restoration/time_travel.md) in the event we need to recover one of these tables. 
+
+
+##### Unavailability of the Snowflake environment
+
+For the unlikely event that Snowflake becomes unavailable for an undetermined amount of time, we additionally backup the any business critical data, where Snowflake is the primary source, to Google Cloud Storage (GCS). We execute these backup jobs using dbt's [`run-operation`](https://docs.getdbt.com/docs/using-operations) capabilities. Currently, we backup all of our **snapshots** daily and retain them for a period of 60 days (per GCS retention policy). If a table should be added to this GCS backup procedure it should be added via the [backup manifest](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/backup_manifest.yaml).
 
 ### Admin
 
@@ -607,7 +650,7 @@ The implementation details of these tests are documented in our [dbt guide](/han
 
 #### Trusted Data Dashboard
 
-The Trusted Data Dashboard in Sisense can be found [here](https://app.periscopedata.com/app/gitlab/756199/Trusted-Data-Dashboard)
+The [Trusted Data Dashboard](https://app.periscopedata.com/app/gitlab/756199/Trusted-Data-Dashboard) as available in Sisense.
 
 #### Test Run
 
@@ -651,7 +694,7 @@ This is all orchestrated in the Data Pump [Airflow DAG](https://airflow.gitlabda
 
 ### Adding a Data Pump
 
-**Step 1:** Create a data model [using dbt](/handbook/business-ops/data-team/platform/dbt-guide/#using-dbt) in `/marts/pumps` (or `/marts/pumps_sensitive` if the model contains [RED or ORANGE Data](/handbook/engineering/security/data-classification-standard.html#data-classification-levels)), following our [SQL](/handbook/business-ops/data-team/platform/sql-style-guide/) and [dbt](/handbook/business-ops/data-team/platform/dbt-guide/#style-and-usage-guide) style and documentation standards. Create an MR using dbt model changes template. Once this is merged and appears in Snowflake in `PROD.PUMPS` or `PROD.PUMPS_SENSITIVE` you are ready for steps two and three.
+**Step 1:** Create a data model [using dbt](/handbook/business-ops/data-team/platform/dbt-guide/#using-dbt) in `/marts/pumps` (or `/marts/pumps_sensitive` if the model contains [RED or ORANGE Data](/handbook/security/data-classification-standard.html#data-classification-levels)), following our [SQL](/handbook/business-ops/data-team/platform/sql-style-guide/) and [dbt](/handbook/business-ops/data-team/platform/dbt-guide/#style-and-usage-guide) style and documentation standards. Create an MR using dbt model changes template. Once this is merged and appears in Snowflake in `PROD.PUMPS` or `PROD.PUMPS_SENSITIVE` you are ready for steps two and three.
 
 **Step 2:** Add Model to [`pumps.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/pump/pumps.yml) using the 'Pump Changes' MR template with the following attributes:
 * model - the name of the model in dbt and snowflake
@@ -754,7 +797,7 @@ For other tools, add users via the UI and in the appropriate [Google Group](http
 ## Google Data Studio
 
 Much like Google Drive all GitLab team members have access to Google's [Data Studio](https://datastudio.google.com/) which can be used to build dashboards with data from Google Sheets or other Google data sources. Hence there is no access request needed to get access provisioned to Google Data Studio.
-Google Data Studio is especially popular with Marketing with their use of Google Analytics. Though this resides outside of the platform described above, any data managed within Google's Data Studio must adhere to the same [Data Categorization and Management Policies](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html) as we do in the rest of our platform.
+Google Data Studio is especially popular with Marketing with their use of Google Analytics. Though this resides outside of the platform described above, any data managed within Google's Data Studio must adhere to the same [Data Categorization and Management Policies](/handbook/security/data-classification-standard.html) as we do in the rest of our platform.
  
 There are 3 types of objects available in Google Data Studio:
 - Data Sources
@@ -764,9 +807,9 @@ There are 3 types of objects available in Google Data Studio:
 - Explorer
   - This is a tool to quickly explore data sets and find detailed insights.
  
-The sharing and access process in Data Studio is comparable to sharing in Google Drive / Google Docs. Google Studio Objects can be shared with individuals in our GitLab organization account or with the Organization as a whole. There are no group or role level permissions available. Given the decentralized quality of managing dashboards and data sources in Data studio it is advised that business critical data and reporting be eventually migrated to Snowflake and Sisense. This is made easy with the use of [sheetload](https://about.gitlab.com/handbook/business-technology/data-team/platform/pipelines/#sheetload) or FiveTran, which has a BigQuery connector.
+The sharing and access process in Data Studio is comparable to sharing in Google Drive / Google Docs. Google Studio Objects can be shared with individuals in our GitLab organization account or with the Organization as a whole. There are no group or role level permissions available. Given the decentralized quality of managing dashboards and data sources in Data studio it is advised that business critical data and reporting be eventually migrated to Snowflake and Sisense. This is made easy with the use of [sheetload](/handbook/business-technology/data-team/platform/pipelines/#sheetload) or FiveTran, which has a BigQuery connector.
  
-A GitLab Team Member that creates any artifacts in Google Studio owns the owner permissions of that particular object. With the ownership the GitLab Team Member holds responsibility to keep data [SAFE](https://about.gitlab.com/handbook/legal/safe-framework/) within GitLab and outside the organization. Google Data Studio currently doesn't provide an admin interface that can take over the ownership. Upon off-boarding any ownership of existing objects should be carried over to ensure business continuity by the respective object owner.
+A GitLab Team Member that creates any artifacts in Google Studio owns the owner permissions of that particular object. With the ownership the GitLab Team Member holds responsibility to keep data [SAFE](/handbook/legal/safe-framework/) within GitLab and outside the organization. Google Data Studio currently doesn't provide an admin interface that can take over the ownership. Upon off-boarding any ownership of existing objects should be carried over to ensure business continuity by the respective object owner. Note that [Red Data](/handbook/security/data-classification-standard.html#red) should never be stored or transmitted within Google Data Studio.
 
 
 

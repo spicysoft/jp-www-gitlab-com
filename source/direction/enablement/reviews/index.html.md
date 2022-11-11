@@ -20,6 +20,6 @@ This page contains the bi-weekly Enablement & SaaS Platforms section direction r
 | [Gitaly](https://about.gitlab.com/direction/gitaly/) | 2022-08-17 | [Mark Wood](https://gitlab.com/mjwood) | N/A |
 | [Application Performance](https://about.gitlab.com/direction/application_performance/) | 2022-09-07 | [Gabe Weaver](https://gitlab.com/gweaver) | N/A |
 | [Database](https://about.gitlab.com/direction/database/) | 2022-10-12 | [Gabe Weaver](https://gitlab.com/gweaver) | N/A |
-| [Sharding] | 2022-10-26 | [Fabian Zimmer](https://gitlab.com/fzimmer) | N/A |
-| [GitLab Dedicated](https://about.gitlab.com/direction/saas-platforms/dedicated) | 2022-10-26 | [Andrew Thomas](https://gitlab.com/awthomas) | N/A |
-| [Code Search Category](https://about.gitlab.com/direction/global-search/code-search/) | TBD | [John McGuire](https://gitlab.com/johnmcguire) | N/A |
+| [Pods] | 2022-11-09 | [Fabian Zimmer](https://gitlab.com/fzimmer) | N/A |
+| [GitLab Dedicated](https://about.gitlab.com/direction/saas-platforms/dedicated) | 2022-11-23 | [Andrew Thomas](https://gitlab.com/awthomas) | N/A |
+| [Code Search Category](https://about.gitlab.com/direction/global-search/code-search/) | TBD | TBD | N/A |

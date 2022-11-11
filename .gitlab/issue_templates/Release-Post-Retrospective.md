@@ -56,7 +56,7 @@ It is the responsibility of the release post manager to track and close this iss
 - After this retro issue is closed, close the `#X-Y-release-post-prep` Slack channel
 
 /assign @release_post_manager
-/assign @release_post_manager_shadow
+/assign @rpm_shadow
 /assign @tw_lead
 /assign @tech_advisor
 /assign @brhea

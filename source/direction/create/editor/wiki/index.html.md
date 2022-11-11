@@ -14,7 +14,7 @@ canonical_path: "/direction/create/editor/wiki/"
 | --- | --- |
 | Stage | [Create](/direction/create/) |
 | Maturity | [Viable](/direction/maturity/) |
-| Content Last Reviewed | `2022-08-03` |
+| Content Last Reviewed | `2022-10-27` |
 
 ### Introduction and how you can help
 <!-- Introduce yourself and the category. Use this as an opportunity to point users to the right places for contributing and collaborating with you as the PM -->

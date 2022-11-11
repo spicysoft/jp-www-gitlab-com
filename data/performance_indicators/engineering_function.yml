@@ -122,7 +122,7 @@
     shared_dashboard: d3780bfb-15f6-4cd2-9505-9d943ba02814?
 - name: Merge Requests Types
   base_path: "/handbook/engineering/performance-indicators/"
-  definition: Distribution of monthly Merge Requests that are categorized into types of feature work. Includes work on; new features, enhancements, maintenance and bug fixes <a href="/handbook/engineering/merge-request-rate/#projects-that-are-part-of-the-product">projects that are part of the product</a>.
+  definition: Distribution of monthly Merge Requests that are categorized into types of feature work. Includes work on; new features, enhancements, maintenance and bug fixes <a href="/handbook/engineering/metrics/#projects-that-are-part-of-the-product">projects that are part of the product</a>.
   org: Engineering Function
   is_key: false
   health:

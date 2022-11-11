@@ -24,6 +24,7 @@ projects:
   gitlab-qa: maintainer
   gitlab-styles: maintainer
   gitlab-triage: maintainer
+  gitlab-rspec-profiling-stats: maintainer
   quality-pipeline-common: maintainer
   release-tools: maintainer
   triage-ops: maintainer

@@ -14,11 +14,11 @@ description: "Available development paths and resources for Customer Success Man
 As a Customer Success Manager, it is essential to understand what resources are available for your personal and professional development.   This page strives to be a place for leadership and CSMs to contribute to resources available for the progression and development of the CSM team.
 
 ## Key handbook sections, roadmaps and L&D platforms for enablement:
-1. [CSM Planned Enablement Roadmap for H1 FY23](https://docs.google.com/presentation/d/1HCoPkdjucC7nUaJl5eNzj3VNCWFdQ3nWvUNiMv2tcDU/edit#slide=id.g1117eedd645_0_172)
+1. [CSM Planned Enablement Roadmap for Q4 FY23](https://docs.google.com/presentation/d/1HCoPkdjucC7nUaJl5eNzj3VNCWFdQ3nWvUNiMv2tcDU/edit#slide=id.g16fc16e7b48_0_0)
 1. [CSM Enablement Corner](https://docs.google.com/document/d/1xyaxc37iCDtfeabo2NXCRV31pNOdvieXoVDxJw_aXoM/edit) (updated Quarterly with Key Dates and CSM required actions)
 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfxhniPy9BWx7I4e9VZrZmWlYLAijmVP5whTGYbCOBCVE5aQk9Bh9sZcI3zlN8pCmQmTNRhpFLNxSq/embed?start=false&loop=false&delayms=3000&slide=id.g1261b75bbf6_1_2" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfxhniPy9BWx7I4e9VZrZmWlYLAijmVP5whTGYbCOBCVE5aQk9Bh9sZcI3zlN8pCmQmTNRhpFLNxSq/embed?start=false&loop=false&delayms=3000&slide=id.g16fc16e7b48_0_0" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 1. [Customer Success Education & Enablement (All-CS)](/handbook/customer-success/education-enablement/)
@@ -57,17 +57,19 @@ These are videos of actual 8-hour courses given live to customers by GitLab's Ed
 
 > The Education Services team is working on shorter, edited versions of these class videos. They'll replace these links with the edited versions when they're available. For now just fast-forward through labs and breaks in these unedited class recordings.
 
+Access codes and recording links can be found in this [internal doc](https://docs.google.com/document/d/1WNwz_2TbavLgEVG86eENu4Mf_StjYt77h-d-364l3bM/edit?usp=sharing). 
+
 - GitLab with Git Basics - presented by Chris Cowell
-  - [Part 1](https://drive.google.com/file/d/1HHjUVuDNVal2Mg2-1CYga7rH5466UF2P/view?usp=sharing)
-  - [Part 2](https://drive.google.com/file/d/1koyQSyfZkCJzLKLkwi1anzrdaquEmH2s/view?usp=sharing)
+  - Part 1 
+  - Part 2
 - CI/CD - presented by Nick Lotz
-  - [Part 1](https://gitlab.zoom.us/rec/share/NtTQqjbpgj8w5ZiIMZ5mAKGpQydWPRrT6E4TBgo0RFAb7BkE3kDOlRHX5CpYRNT8.ny2ZlrustZRHrZU-) use access code `3Qc@@JGl` 
-  - [Part 2](https://gitlab.zoom.us/rec/share/ijqTagykCcWkdrIPptzoTQSykGRqa-vjfV68Fb36tkNssUTPHKTZndzUyzpdJPlq.uMhWsdWCkt05J4nu?startTime=1638294587000) use access code `1&v0^X?8`
+  - Part 1
+  - Part 2
 - Security Essentials - presented by Chris Cowell
-  - [Part 1](https://drive.google.com/file/d/1uwC_QgZxLaCg4bWZ_DhzeT_dgS-ncgFF/view?usp=sharing)
-  - [Part 2](https://drive.google.com/file/d/1hZ9CScv-U2GgDRykMHRbh_3N-g5BVR-K/view?usp=sharing)
+  - Part 1
+  - Part 2
 - GitLab for Project Managers - presented by Nick Lotz and Chris Cowell
-  - [Part 1 and Part 2](https://gitlab.zoom.us/rec/share/r4IPil5j2ASi0-HMTjHJpZwlBFrPvbWU49CbcxML0OGTmvmqJrsBdFI3h5VBmi3N.LHCFoHc4a8pOqVWE) use access code `!LUr$3zD`
+  - Part 1 and Part 2 
   
 ### Soft skills
 - [Developing your Emotional Intelligence](https://www.linkedin.com/learning/developing-your-emotional-intelligence/benefits-of-building-emotional-intelligence)

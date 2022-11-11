@@ -23,7 +23,7 @@ title: "Team Member Enablement"
 
 #### Access Requests
 
-- For information about the access request policies and security guidelines, please refer to the Security Team's [access request handbook page section](/handbook/engineering/security/#access-management-process).
+- For information about the access request policies and security guidelines, please refer to the Security Team's [access request handbook page section](/handbook/security/#access-management-process).
 
 - For links to role based access request templates, system access templates, and other general instructions and FAQs, please refer to the [Access Requests page](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
 
@@ -48,6 +48,10 @@ To read more about Okta, please visit the [**Okta**](/handbook/business-technolo
 #### Jamf (Endpoint Management)
 
 To read more about our Jamf deployment please visit the [**Endpoint Management**](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/endpoint-management/) page of the handbook
+
+#### Laptop Delivery Metrics
+
+To view laptop delivery metrics and statistic please visit the [Laptop Metrics Handbook Page](https://about.gitlab.com/handbook/business-technology/team-member-enablement/laptop-metrics/)
 
 #### GitLab Onboarding and machine management
 
@@ -144,8 +148,8 @@ New to Gitlab and looking for some IT tips and tricks? This is the spot for you,
 
 - Jenny Wong - [appointment schedule](https://calendar.app.google/HJoCYkbf4XnApqSU6) - AMER
 
-- Paul Laurinavicius - [appointment schedule](https://calendly.com/plaurinavicius) - EMEA
+- Paul Laurinavicius - [appointment schedule](https://calendar.app.google/k89MSDJKPb9fZtwW6) - EMEA
 
 - Ian Forde - [appointment schedule](https://calendar.app.google/T5Tu4M6UbDXPQ1kLA) - EMEA 
 
-- Steve Ladgrove - currently away - APAC
+- Steve Ladgrove - [appointment schedule](https://calendar.app.google/sno1aJBB9YhQUHXh8) - APAC

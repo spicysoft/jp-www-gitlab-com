@@ -7,6 +7,8 @@ reports_to: nklick
 picture: "../gitlab-logo-extra-whitespace.png"
 pronouns:
 pronunciation:
+projects:
+  gitlab-observability-ui: maintainer
 twitter:
 linkedin:
 gitlab: drosse

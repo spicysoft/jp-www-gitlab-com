@@ -1,7 +1,7 @@
 name: Conley Rogers
 locality:
 country: Remote
-role: <a href="/job-families/sales/customer-success-management/">Technical Account Manager</a>
+role: <a href="/job-families/sales/customer-success-management/">Customer Success Manager</a>
 reports_to: sophie-pouliquen
 picture: conleyrogers.png
 pronouns: He/Him
@@ -10,14 +10,14 @@ linkedin: conleyrogers
 gitlab: conleyr
 departments:
 - Customer Success
-- Technical Account Managers
+- Customer Success Managers
 - Source Code Group CS Stable Counterpart
 - Code Review Group CS Stable Counterpart
 - Editor Group CS Stable Counterpart
 - Gitaly Group CS Stable Counterpart
-story: 'As a TAM, Conley brings his expertise in large scale DevSecOps transformations 
+story: 'As a CSM, Conley brings his expertise in large scale DevSecOps transformations 
   to Enterprise Gitlab customers. He specializes in SDLC metrics, like the DORA 4, 
-  and lets the data tell the story. Outside of TAM-ing, Conley likes to hike the 
+  and lets the data tell the story. Outside of CSM-ing, Conley likes to hike the 
   foothills of the Appalachian, push himself with a good WOD, and explore different breweries.
   
 ' 

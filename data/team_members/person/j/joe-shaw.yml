@@ -8,6 +8,8 @@ reports_to: nklick
 picture: joeshaw.jpeg
 pronouns: he/his
 pronunciation:
+projects:
+  gitlab-observability: maintainer
 twitter:
 linkedin:
 gitlab: joe-shaw

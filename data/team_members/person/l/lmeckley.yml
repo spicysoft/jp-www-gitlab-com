@@ -22,6 +22,7 @@ departments:
 projects:
   customers-app: reviewer frontend
   gitlab: reviewer frontend
+  gitlab-cli: reviewer
 specialty: Billing and Subscription Management
 expertise:
 story: Laura is a software engineer who loves building accessible products with the

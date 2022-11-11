@@ -19,7 +19,7 @@ See our [direction page](/handbook/content-websites-responsibility/direction/) f
 
 ## Team Structure
 
-The maintainer of this page (as indicated in the sidebar) is considered the [DRI](/handbook/people-group/directly-responsible-individual/) for GitLab's "content websites". At present this team falls under the [Chief of Staff Team to the CEO](/job-families/chief-executive-officer/strategy-and-operations/) and the job family for engineers working on these projects is [defined as a specialty](/job-families/engineering/development/fullstack/#specialties).
+The maintainer of this page (as indicated in the sidebar) is considered the [DRI](/handbook/people-group/directly-responsible-individuals/) for GitLab's "content websites". At present this team falls under the [Chief of Staff Team to the CEO](/job-families/chief-executive-officer/strategy-and-operations/) and the job family for engineers working on these projects is [defined as a specialty](/job-families/engineering/development/fullstack/#specialties).
 
 This page further documents the scope and responsibilies of the DRI and their engineering reports.
 

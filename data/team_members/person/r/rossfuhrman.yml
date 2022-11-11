@@ -6,7 +6,7 @@ role: <a href="/job-families/engineering/development/backend/#secure">Senior Bac
   Secure:Static Analysis</a>
 reports_to: amarpatel
 picture: rossfuhrman.jpeg
-twitter: rossfuhrman
+linkedin: rossfuhrman
 gitlab: rossfuhrman
 departments:
 - Engineering Function
@@ -17,14 +17,13 @@ projects:
   gitlab:
     - reviewer backend
     - reviewer ci_template
-  secure-analyzers: reviewer backend
-  secure-SAST-brakeman: trainee_maintainer backend
-  secure-SAST-phpcs-security-audit: trainee_maintainer backend
-  secure-SAST-security-code-scan: trainee_maintainer backend
+  secure-analyzers: reviewer
+  secure-SAST-brakeman: maintainer
+  secure-SAST-codequality: maintainer
+  secure-SAST-phpcs-security-audit: maintainer
+  secure-SAST-security-code-scan: maintainer
 pronouns: he/him
-story: 'Ross loves ruby. He is the organizer of the Kansas City Ruby User Group and
-  also helps run Rails Girls Kansas City.
-
+story: 'Ross loves ruby. He is the organizer of the Kansas City Ruby User Group. Some of his <a href="https://about.gitlab.com/handbook/communication/chat/#social-groups">favorite internal Slack channels</a> include #all-caps, #postcrossing, and #gardening. 
   '
 domain_expertise:
 - secure

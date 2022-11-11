@@ -353,6 +353,7 @@ graph LR
   - The `workflow::ready for review` label was added
   - The MR has the `Community contribution` label set
   - The MR is not opened in a distribution project listed at <https://gitlab.com/gitlab-org/distribution/monitoring/-/raw/master/lib/data_sources/projects.yaml>
+  - The MR is not opened in a project which has an external review process (as defined in the processor).
 * Automation actions:
   - If the MR already has reviewers, nudge them to perform a review, reassign or set the `workflow::in dev` label
   - If the MR has no reviewers, nudge and assign (as reviewer) a coach based on the MR's group (or a random coach otherwise), to review, reassign or set the `workflow::in dev` label
@@ -465,6 +466,18 @@ graph LR
   - Posts a note mentioning the Hackathon
   - Adds the `Hackathon` label
 * Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/community/hackathon_label.rb>
+
+#### Spam detector
+
+* Automation conditions:
+  - MR has the `Community contribution` label set
+  - MR not currently labelled as `Spam`
+  - MR content matches phrases associated with inappropriate and abusive activity (More information can be found in the Processor implementation)
+* Automation actions:
+  - Posts a note linking to [GitLab Website Terms of Use](https://about.gitlab.com/handbook/legal/policies/website-terms-of-use/)
+  - Relabels (removes all other labels) as `Spam`
+  - Closes the MR
+* Processor: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/community/detect_and_flag_spam.rb>
 
 ### Engineering workflow automation
 

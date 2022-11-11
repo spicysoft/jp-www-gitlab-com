@@ -11,7 +11,7 @@
   description:
   - "/job-families/finance/accounting-operations-manager/"
   - "/job-families/finance/corporate-controller/accounting-operations/"
-- title: Manager, Technical Accounting
+- title: Technical Accounting
   description: "/job-families/finance/technical-accounting/"
 - title: General Ledger Accounting
   description: "/job-families/finance/general-ledger-accounting/"
@@ -65,6 +65,8 @@
   description: "/job-families/marketing/community-programs/"
 - title: Contract Manager
   description: "/job-families/legal/contract-manager/"
+- title: Creative Operations
+  description: "/job-families/marketing/creative-operations/"
 - title: Program Manager, Customer Programs
   description: "/job-families/sales/program-manager-customer-programs/"
 - title: All Remote Marketing
@@ -143,6 +145,7 @@
   - "/job-families/people-ops/people-ops-fullstack-engineer/"
   - "/job-families/engineering/development/management/fullstack-manager/"
   - "/job-families/marketing/fullstack-engineer-marketing/"
+  - "/job-families/product/ux-fullstack-engineer/"
 - title: Contributor Success
   description: "/job-families/engineering/quality/contributor-success/"
 - title: Go-to Market Planning and Operations
@@ -159,8 +162,6 @@
   description: "/job-families/engineering/incubation-engineer/"
 - title: Integrations Engineer
   description: "/job-families/finance/integrations-engineer/"
-- title: Partner Integration Engineer
-  description: "/job-families/product/partner-integration-engineering/"
 - title: Internal Audit
   description: "/job-families/finance/internal-audit/"
 - title: Instructional Design (L&D)
@@ -169,8 +170,8 @@
   description: "/job-families/finance/investor-relations/"
 - title: Corporate Communications
   description: "/job-families/marketing/corporate-communications-manager/"
-- title: Internal Communication
-  description: "/job-families/marketing/internal-communications/"
+- title: People Communications & Engagement
+  description: "/job-families/people-ops/people-communications-engagement/"
 - title: Strategy and Operations
   description: "/job-families/chief-executive-officer/strategy-and-operations/"
 - title: IT Operations
@@ -220,13 +221,15 @@
   - "/job-families/marketing/digital-experience/"
 - title: Digital Marketing Programs
   description: "/job-families/marketing/digital-marketing-programs-manager/"
-- title: Online Sales and Self Service
+- title: Online Sales and Self Service Data
   description:
   - "/job-families/sales/senior-manager-online-sales-self-service-product-data-analytics/"
 - title: Online Sales and Self Service (Growth)
   description:
   - "/job-families/sales/Director-online-sales-and-self-service-growth/"
   - "/job-families/sales/self-service-online-sales-growth/"
+- title: Online Sales and Self Service Operations/Product GTM
+  description: "/job-families/sales/online-sales-operations/"
 - title: Open Source Program Manager
   description: "/job-families/marketing/open-source-program-manager/"
 - title: Order Management
@@ -393,8 +396,8 @@
   description: "/job-families/marketing/technical-marketing-manager"
 - title: Technical Writer
   description:
-  - "/job-families/engineering/technical-writer/"
-  - "/job-families/engineering/technical-writing-manager/"
+  - "/job-families/product/technical-writer/"
+  - "/job-families/product/technical-writing-manager/"
 - title: Technical Writer, Customer Programs
   description: "/job-families/sales/technical-writer-customer-programs/"
 - title: Technology Partner Manager
@@ -403,14 +406,15 @@
   description: "/job-families/engineering/threat-intelligence-engineer/"
 - title: Product Designer
   description:
-  - "/job-families/engineering/product-designer/"
+  - "/job-families/product/product-designer/"
+  - "/job-families/product/product-design-management/"
   - "/job-families/marketing/product-designer-ux-marketing/"
 - title: Engineering Leadership (UX)
   description: "/job-families/engineering/ux-management/"
 - title: UX Research
   description:
-  - "/job-families/engineering/ux-researcher/"
-  - "/job-families/engineering/ux-research-manager/"
+  - "/job-families/product/ux-researcher/"
+  - "/job-families/product/ux-research-manager/"
 - title: UX Research Operations Coordinator
   description: "/job-families/engineering/ux-research-coordinator/"
 - title: Director, Marketing Operations

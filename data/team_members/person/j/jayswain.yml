@@ -15,15 +15,7 @@ departments:
 - Data Science Section
 - Anti-Abuse Team
 projects:
-  gitlab:
-  - reviewer backend
-  - reviewer frontend
-  version-gitlab-com:
-  - reviewer backend
-  - reviewer frontend
-  customers-app:
-  - trainee_maintainer backend
-  - reviewer frontend
+  pipeline-validation-service: maintainer
 story: 'Jay has served as a Software Engineer for SaaS-based startups for over 10
   years. He’s no stranger to the freelance world, and has co-founded a few ideas as
   well. When not on the keys he enjoys all things outdoors, including but not limited to: Disc Golf, Surfing, Mountain Biking, Rock Climbing and Snowboarding.'

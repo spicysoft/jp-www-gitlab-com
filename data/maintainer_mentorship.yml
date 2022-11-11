@@ -3,9 +3,7 @@
   domains:
     - database
   max_trainees: 2
-  trainees:
-    - Michał Zając (@Quintasan)
-    - Matthew Kasa (@mattkasa)
+  trainees: []
 - mentor: Paul Slaughter
   gitlab: pslaughter
   domains:
@@ -83,6 +81,8 @@
   max_trainees: 3
   trainees:
     - Juliet Wanjohi (@jwanjohi)
+    - Carla Drago (@carlad-gl)
+    - Drew Stachon (@drew)
 - mentor: Dmitry Gruzd
   gitlab: dgruzd
   domains:
@@ -133,11 +133,12 @@
     - backend
   max_trainees: 2
   trainees:
-    - Drew Blessing (@dblessing)
+    - Pedro Pombeiro
 - mentor: Zack Cuddy
   gitlab: zcuddy
   domains:
     - frontend
   max_trainees: 2
-  trainees: []
+  trainees:
+    - Fernando Arias (@farias-gl)
 

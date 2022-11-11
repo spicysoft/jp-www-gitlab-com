@@ -14,5 +14,7 @@ departments:
   - Quality Department
   - Dev QE Team
 specialty: "Create: Editor"
-expertise:
+projects:
+  gitlab: review qa
+  gitlab-qa: reviewer
 story: Jason is a quality engineer with a passion for technology and the people who use it. His strengths include breaking things, developing test infrastructure, automation and tooling, and bringing people together. Outside of work, Jason obsesses over media (games, movies, shows), sports (badminton, volleyball, tennis) and just spending time with good company. 

@@ -24,7 +24,7 @@ canonical_path: "/company/team/structure/working-groups/maintainership/"
 
 ## Business Goal
 
-We have seen overall inconsistent results with maintainership in the last quarter. Examples: A subset of maintainers are taking the burden of reviews which can lead to serious problems in job satisfaction issues and burnout. We are growing (both in headcount as well as community contributions), but the number of maintainers has stabilized. The number of repos which need maintainer support is increasing while coverage of them has decreased. We want transparency that seniors who are maintainers are having a positive impact in the multiple areas listed here, which leads to more career opportunities for them than it does non-maintainers. 
+We have seen overall inconsistent results with maintainership in the last quarter. Examples: A subset of maintainers are taking the burden of reviews which can lead to serious problems in job satisfaction issues and burnout. We are growing (both in headcount as well as community contributions), but the number of maintainers has stabilized. The number of repos which need maintainer support is increasing while coverage of them has decreased. We want transparency that seniors who are maintainers are having a positive impact in the multiple areas listed here, which leads to more career opportunities for them than it does non-maintainers.
 
 Our objective is to change our processes and culture to have an organization which we know can sustain maintainership for the next 5 years that meets the demand of both the company and the open core project. This includes, but is not limited to:
 * Increasing current maintainers and having a forecasting to know we will increase in the future.
@@ -39,24 +39,24 @@ Our objective is to change our processes and culture to have an organization whi
 
 Progress will be tracked on the Working Group [issue board](https://gitlab.com/groups/gitlab-com/-/boards/4208478?label_name[]=WorkingGroup%3A%3AMaintainership) using the following labels:
 
-- ~"workflow::In dev" 
+- ~"workflow::In dev"
    - The issue is currently in progress and actively being worked on
-- ~"workflow::In review" 
+- ~"workflow::In review"
    - The issue is currently being reviewed by broader Engineering Team
-- ~"workflow::blocked" 
+- ~"workflow::blocked"
    - The issue is blocked by another issue.  Please refer to the blocking issue.
-- ~"workflow::production" 
+- ~"workflow::production"
    - The issue has been completed and should be closed.
 
-### Exit Criteria (75% completed)
+### Exit Criteria (99% completed)
 
 
 | #  | Start Date | Target Completion Date | Completed Date | DRI        | Criteria |
 | -- | ------     | ------ | ------         | ------     | ------   |
-| 1  |  2022-06-01       | 2022-07-22 | TBD            | @nhxnguyen | [Create an implementation plan to remedy gaps in Maintainership coverage](https://gitlab.com/groups/gitlab-com/-/epics/1817)| 
+| 1  |  2022-06-01       | 2022-07-22 | 2022-10-28            | @nhxnguyen | [Create an implementation plan to remedy gaps in Maintainership coverage](https://gitlab.com/groups/gitlab-com/-/epics/1817)|
 | 2  |  2022-04-26       | 2022-07-22 | 2022-07-18      | @mwoolf | [Develop metrics to provide more transparency into the health of the Maintainership program](https://gitlab.com/groups/gitlab-com/-/epics/1816) |
-| 3  |  2022-05-04       | 2022-08-05 | TBD            | @robotmay_gitlab | [Update expected behaviors and responsibilities for Engineers and Maintainers](https://gitlab.com/groups/gitlab-com/-/epics/1815) |
-| 4  |  2022-05-18       | 2022-08-05 | TBD            | @oregand | [Improve the Trainee Maintainer process to make the process more efficient](https://gitlab.com/groups/gitlab-com/-/epics/1814) |
+| 3  |  2022-05-04       | 2022-08-05 | 2022-10-04            | @robotmay_gitlab | [Update expected behaviors and responsibilities for Engineers and Maintainers](https://gitlab.com/groups/gitlab-com/-/epics/1815) |
+| 4  |  2022-05-18       | 2022-08-05 | 2022-10-04            | @oregand | [Improve the Trainee Maintainer process to make the process more efficient](https://gitlab.com/groups/gitlab-com/-/epics/1814) |
 | 5  |  2022-06-01       | 2022-08-05 | TBD            | @sabrams | [Develop and implement a communication plan for Maintainership changes](https://gitlab.com/groups/gitlab-com/-/epics/1813) |
 
 ### Data and dashboards
@@ -76,7 +76,7 @@ Progress will be tracked on the Working Group [issue board](https://gitlab.com/g
 | Functional Lead (Fulfillment)      		| Jerome Ng                              | Senior Manager of Fulfillment |
 | Functional Lead (Ops)      				| Sam Goldstein                          | Director of Ops |
 | Functional Lead (Dev)      				| Max Woolf                              | Senior Backend Engineer, Govern:Compliance |
-| Functional Lead (Sec, ModelOps, Growth)   | Thomas Woodham                         | Sr. Engineering Manager, Secure Analyzers | 
+| Functional Lead (Sec, Data Science, Growth)   | Thomas Woodham                         | Sr. Engineering Manager, Secure Analyzers |
 | Functional Lead (Maintainer - Frontend)         | Natalia Tepluhina | Staff Frontend Engineer |
 | Functional Lead (Non-Maintainer - Backend)      | Manoj M J | Senior Backend Engineer |
 | Functional Lead (Trainee - Registry DB)		  | Steve Abrams | Intermediate Backend Engineer |
@@ -146,7 +146,7 @@ There are generally three types of announcements that could apply to any update:
 
   Example: requesting survey feedback or communicating a behavior change that needs to be adopted within a certain time frame.
 
-  Depending on the priority and urgency of the action needed, additional reminders are appropriate. For surveys, reposting a few times within the time frame before the survey closes is appropriate. 
+  Depending on the priority and urgency of the action needed, additional reminders are appropriate. For surveys, reposting a few times within the time frame before the survey closes is appropriate.
 
 #### Making an announcement
 
@@ -159,7 +159,7 @@ Consider the following questions when making an announcement:
 - **Is the change large enough that we may have a large number of questions?** Consider opening an FAQ file or scheduling an AMA (`@sabrams` can also facilitate these items).
 
 - [ ] Include links to the most relevant piece of information. Do not overcrowd the announcement with non-primary links.
-- [ ] If the announcement is for **awareness**: 
+- [ ] If the announcement is for **awareness**:
   - [ ] Communicate it to the most [relevant slack channel](#communication-channels) and cross-post to other relevant channels
   - [ ] Add it to eng-week-in-review
 - [ ] If the announcement is for **action**
@@ -174,7 +174,7 @@ Sometimes changes are controvertial or involve subjects where people might have 
 - Why the change was made
 - Where they can give feedback
 
-An FAQ or AMA can be helpful in supplying much of this information. 
+An FAQ or AMA can be helpful in supplying much of this information.
 
 Ideally, we want people to embrace a change, but at the least, we need to start with adoption. To help guide embracement, the "why" behind the change has to be strongly defined, optimally with strong data backing it.
 
@@ -199,22 +199,22 @@ Here are a few different categorizations of changes that can help you decide whi
 
 ##### By exit criteria
 
-Exit Criteria | Relevant Channels
------------ | -----------------
-[Create an implementation plan to remedy gaps in Maintainership coverage](https://gitlab.com/groups/gitlab-com/-/epics/1817) | Channels for the projects directly effected by the changes.
-[Develop metrics to provide more transparency into the health of the Maintainership program](https://gitlab.com/groups/gitlab-com/-/epics/1816) | <ul><li>`#eng_managers`</li><li>Engineering staff meetings</li></ul>
-[Update expected behaviors and responsibilities for Engineers and Maintainers](https://gitlab.com/groups/gitlab-com/-/epics/1815) | <ul><li>`#trainee_maintainers`</li><li>`#backend_maintainers`</li><li>`#frontend_maintainers`</li><li>`#database_maintainers`</li><li>`#eng_managers`</li><li>Engineering staff meetings</li></ul>
-[Improve the Trainee Maintainer process to make the process more efficient](https://gitlab.com/groups/gitlab-com/-/epics/1814) | <ul><li>`#trainee_maintainers`</li><li>`#backend_maintainers`</li><li>`#frontend_maintainers`</li><li>`#database_maintainers`</li><li>`#eng_managers`</li><li>Engineering staff meetings</li></ul>
+| Exit Criteria | Relevant Channels |
+| ----------- | ----------------- |
+| [Create an implementation plan to remedy gaps in Maintainership coverage](https://gitlab.com/groups/gitlab-com/-/epics/1817) | Channels for the projects directly effected by the changes. |
+| [Develop metrics to provide more transparency into the health of the Maintainership program](https://gitlab.com/groups/gitlab-com/-/epics/1816) | `#eng_managers`<br />Engineering staff meetings |
+| [Update expected behaviors and responsibilities for Engineers and Maintainers](https://gitlab.com/groups/gitlab-com/-/epics/1815) | `#trainee_maintainers`<br />`#backend_maintainers`<br />`#frontend_maintainers`<br />`#database_maintainers`<br />`#eng_managers`<br />Engineering staff meetings |
+| [Improve the Trainee Maintainer process to make the process more efficient](https://gitlab.com/groups/gitlab-com/-/epics/1814) | `#trainee_maintainers`<br />`#backend_maintainers`<br />`#frontend_maintainers`<br />`#database_maintainers`<br />`#eng_managers`<br />Engineering staff meetings |
 
 ##### For `gitlab-org/gitlab` (GitLab Rails)
 
-Topic | Relevant Channels
------ | -----------------
-Backend | <ul><li>`#backend`</li><li>`#backend_maintainers`</li></ul>
-Frontend | <ul><li>`#frontend`</li><li>`#frontend_maintainers`</li></ul>
-Database | <ul><li>`#database`</li><li>`#database_maintainers`</li></ul>
-Trainee updates | <ul><li>`#backend_maintainers`</li><li>`#frontend_maintainers`</li><li>`#trainee_maintainers`</li></ul>
-Responsibility/process updates | Any of the above channels and `#eng_managers`
+| Topic | Relevant Channels |
+| ----- | ----------------- |
+| Backend | `#backend`<br />`#backend_maintainers` |
+| Frontend | `#frontend`<br />`#frontend_maintainers` |
+| Database | `#database`<br />`#database_maintainers` |
+| Trainee updates | `#backend_maintainers`<br />`#frontend_maintainers`<br />`#trainee_maintainers` |
+| Responsibility/process updates | Any of the above channels and `#eng_managers` |
 
 ##### Other projects
 

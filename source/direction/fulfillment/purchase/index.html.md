@@ -13,77 +13,86 @@ canonical_path: "/direction/fulfillment/purchase/"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-Last reviewed: 2022-09
+Last reviewed: 2022-11
 
 ## Fulfillment: Purchase Overview
 
 Purchase, a [Fulfillment](https://about.gitlab.com/direction/fulfillment/) subgroup, is responsible for our primary e-commerce experience, with the goal of increasing the number of first-orders we receive through our self-service purchase flow and in turn, reducing the need for a GitLab team member to manually intervene.
 
-## Performance Indicators
+## Vision, Mission, Strategy, and Outcomes
 
-- Find our performance indicators [here](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/fulfillment-section/).
+|   | **What does it mean?** | **What does it look like for Purchase?** |
+| :--------------- | :----------------- | :----------------- | 
+| **Mission** | Our problem space: what is the mountain we're trying to climb? | Purchasing GitLab online should be flexible, asynchronous enabled, and transparent. |
+| **Vision** | Our solution concept: what will it look like at the top of the mountain? | Provide a simple, easy-to-use, and reliable purchase experience: we get out of customers' way and get them back to quickly adopting GitLab. |
+| **Strategy** | How we'll do it: what is the route we'll take up the mountain? | 1. **Improve Existing Opportunities**: What have customers, sales, and support told us are the problems with our existing experience? <br> 2. **Become a Human**: What are the gaps between our online purchasing experience and our direct channel? What features bring us to parity? <br> 3. **Best in Class**: What features are we used to seeing in the B2C experience? What are our competitors doing?  |
+| **Outcomes** | How we'll know we've achieved our vision: what signs tell us we've reached the top of the mountain? | Find our performance indicators [here](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/fulfillment-section/).  |
 
-## Strategic Fit, User Value, and Business Value
+## Company Positioning
 
-### Strategic Fit: What is the business context of self-service purchasing?
+_How does the Purchase mission align to GitLab's broader mission, vision, and strategy?_
 
-How the purchase mission aligns to GitLab's broader strategy:
-
-- **GitLab Mission & Vision**: [GitLab's mission](https://about.gitlab.com/company/mission/#mission) to make it so that everyone can contribute. [GitLab's vision](https://about.gitlab.com/company/vision/#vision) is to **develop great open source software** to enable people to collaborate in this way. GitLab is a single application based on convention over configuration that everyone should be able to afford and adapt.
-- **Company Strategy**: [Our strategic goal](https://about.gitlab.com/company/strategy/) is to be known as the leading complete DevOps Platform. By using a DevOps platform to replace multiple point solutions, GitLab customers can achieve cost saving and efficiency gain. Therefore, when **GitLab develops more features to improve the product maturity**, it becomes easier to replace point solutions and GitLab will attract more users.
+- **GitLab Mission & Vision**: [GitLab's mission](https://about.gitlab.com/company/mission/#mission) to make it so that everyone can contribute. The first phase of [GitLab's vision](https://about.gitlab.com/company/vision/#vision) is: DevSecOps Platform. Move market from best-in-class / do-it-yourself solutions to the DevSecOps Platform. **Platforms are the majority of DevOps tooling revenue.**
+- **Company Strategy**: [Our strategic goal](https://about.gitlab.com/company/strategy/) is to be the leading complete DevSecOps Platform. **We help our customers build better software faster** including developing cloud native applications, building mobile applications, and incorporating machine learning and artificial intelligence into their products and solutions. 
 - **[Product Strategy](https://about.gitlab.com/direction/#product-strategy)**:
    - Focus on increasing Stages per Organization: There is a **strong correlation between the number of stages customers use and their propensity to upgrade to a paid package**. In fact, adding a stage triples conversion!
    - Harness the unique power of a single application
    - Increase wider-community contributions
    - Make our core journey categories lovable
    - GitLab-hosted first
-- **Fulfillment Mission**: Our goal is to **make it easy for customers to purchase**, activate, and manage their GitLab subscriptions. By making it easier for customers to transact and manage their subscriptions, we increase customer satisfaction and improve our go-to-market (GTM) efficiency.
-- **Purchase Mission**: Improving GitLab's self-service purchasing allows customers to engage with us on their terms: interacting with us should be flexible, asynchronous enabled, and transparent.
+- **Fulfillment Mission**: Provide customers with a consistently great experience by **making it easy for them to purchase GitLab paid subscriptions**, provision the features they pay for, and manage any subscription changes needed such as increasing seat count, purchasing consumables, and renewing their subscription.
+- **Purchase Mission**: Purchasing GitLab online should be flexible, asynchronous enabled, and transparent.
 
-### User Value: What is the hypothesis around the user problem and opportunity?
+## Principles and Illustrative Outputs
 
-still need to validate the following via research:
+_What are [the principles](https://about.gitlab.com/handbook/product/fulfillment-guide/#principles) that describe how we build and guide us through choices and trade-offs?_ 
 
-User persona: [buyer](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/buyer-persona/)
-
-- **Buyer**: Having an easy, reliable way to purchase from GitLab is a factor that influences my buying decision.
-
-### Business Value: What is the hypothesis around the business impact of self-service purchasing?
-
-still need to validate the following via research:
-
-- **Engineering**: If we have a vendor, we will have less custom code to maintain. We will get to take advantage of e-commerce best practices.
-- **Executive**: If we have a vendor, we will be able to accelerate time to features that will help us increase first-orders.
-- **Finance**: If we have a vendor, it will cost us less than a home grown solution over time.
-- **Account Executive / Support**: If we have a vendor, I expect my customers not to have issues with common self-service functionality -- renewals, licensing, QSR, buying, and account management.
+| **Principle** | **What are some illustrative Purchase outputs that align to this principle?** |
+| :--------------- | :----------------- |
+| Make conducting business with GitLab seamless | **Becoming a Human**: creating a centralized, singular experience (as opposed to 2 – CDot and GitLab.com) will be like having 1 AE to go to for account and subscription management questions  |
+| Build a strong foundation so GitLab can scale | **Best in Class**: consider leveraging a vendor for core e-comm functionality like shopping carts  |
+| Iterate, especially when the impact of a change is sizeable | **Becoming a Human**: add additional payment methods.  |
+| Minimize and remove business logic from the GitLab application code | **Improve Existing Opportunities**: purchasing/subscription management code should not live in gitlab.com  application code  |
 
 ## 1-year Plan
 
-### Timeline
+_Where are we focused over the next 12 months to make meaningful steps towards achieving our vision?_
 
-- FY'23-Q3: Validate user and business problems. Make [vendor no-go / go decision](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service). Conduct proof of concept via testing handful of use cases in Sandbox environment. Define MVP. Note: this work could slip into Q4.
-- FY'23-Q4: Assuming we pick a vendor, execute upon MVP.
-- FY'24-Q1: Vendor integration, build & launch.
+### Roadmap
+
+_What are we building?_
+
+
+- Find our roadmap [here](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&label_name%5B%5D=group%3A%3Apurchase&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP).
+- We also have [Fulfillment Roadmap](https://docs.google.com/presentation/d/1eTH09QZqnazJ4jh-jVGTEYEFA3m6R2jwWuhY5_EtPL4/edit?usp=sharing) by Group (Not Public), that internal team members can reference for executive reviews.
+
+### Vendor Eval: Overview
+_What are we considering [leveraging a vendor](/direction/fulfillment/#increase-new-customer-acquisition-via-self-service) for?_
+
+  > In FY23, we began an effort to evaluate, procure, and integrate a vendor solution for subscription commerce and management. This will enable GitLab to provide internal teams and our customers with the benefits of typical e-commerce functionality, without building and maintaining standard e-commerce and subscription management functionality that a vendor solution can provide. We will focus our team's e-commerce efforts on differentiated functionality that enhances what the vendor solution can provide. We will also enable other teams, such as Growth, to contribute more to our webstore experience.
+
+#### Vendor Eval: Criteria for Vendor Selection
+
+_What criteria are we using to evaluate a vendor?_
+
+1. **Direction**: What are the attributes associated with our north star buying experience? Can a vendor seamlessly fit into that end state? What are the user/business e-commerce problems?
+2. **Usability**: What is the experience like for the user across vendors and current experience?
+3. **Feature Set**: Does a vendor provide the necessary features to solve our user/business e-commerce problems? Does the vendor have our show-stopping features built?
+4. **Systems Mapping**: What is our systems/data current state architecture map? What would it look like with a vendor? Zuora Audit: Is Zuora in a state that “plays well” with these vendors? Technical Feasibility: can we technically implement basic and GitLab specific e-commerce test use cases?
+5. **Time to Value**: With/without a vendor, when will we be able to unlock business requirements? What is the opportunity cost (excess capacity) we get for each option?
+6. **Financial Cost**: What is the cost of a vendor v. the cost to build & maintain ourselves?
+7. **Risk Tolerance**: What is the risk with each pathway?
+
+
+#### Vendor Eval: Timeline 
+
+- FY'23-Q4: Continue to work through proof of concept sandbox use cases. Make [vendor no-go / go decision](https://about.gitlab.com/direction/fulfillment/#increase-new-customer-acquisition-via-self-service) by Nov 17th. Define MVP. 
+- FY'24-Q1: Assuming we pick a vendor, execute upon MVP. Vendor integration, build & launch.
 - FY'24-Q2: Vendor integration, build & launch.
+- FY'24-Q3: Vendor integration, build & launch.
 
-### Vendor Overview
-From our [fulfillment direction](/direction/fulfillment/#increase-new-customer-acquisition-via-self-service) page:
-  > In FY23, we began an effort to evaluate, procure, and integrate a vendor solution for subscription commerce and management. This will enable GitLab to provide internal teams and our customers with the benefits of typical e-commerce functionality, without building and and maintaining standard e-commerce and subscription management functionality that a vendor solution can provide. We will focus our team's e-commerce efforts on differentiated functionality that enhances what the vendor solution can provide. We will also enable other teams, such as Growth, to contribute more to our webstore experience. As part of our efforts we also aim to provide more options at checkout and improve cohesion in our GTM self-service funnel. As one example: we want to enable promotions with discounts from a marketing campaign, making that experience seamless. This will help improve conversion and lead to a better overall experience transacting with GitLab.
 
-### Ranked Criteria for Vendor Selection
+## Key Links
 
-1. **Severity of problem / size of opportunity** - How often is the persona encountering their problem? Are there any workarounds today? Does a vendor solve that problem? Does a vendor provide new opportunities we don't have today?
-3. **Time to market** - When might we be able to unlock business requirements; both paths (vendor, no vendor) are similar in time to execute, save more in outyears vs initial build out.
-5. **Scope / opportunity cost** - Engineering capacity can be reapplied to other critical initiatives; offload compliance and operational support to a vendor; How much does it cost to maintain x,y,z? What is the boring solution? Will a vendor scale with us in the future?
-6. **Costs** - Additional hires to deliver necessary e-commerce functionality, while maintaining momentum on other initiatives.
-7. **Risk** - Is either pathway (vendor v. no vendor) more or less risky?
-
-## Vision for Self-Service Purchasing Experience
-
-### Attributes
-This section is meant to highlight the key attributes that we want as part of our north star, self-service purchasing experience. This list will be added to and can change over time
-
-|  **Attribute** | **Possible Solutions** | **Solution Details** | **Reasoning** |
-| :--------------- | :----------------- | :----------------- | :----------------- |
-| User can purchase and manage their subscription in 1 place | 1. Build purchase and management UI into GitLab instance <br> 2. Standalone portal <br> 3. iFrame in GitLab instance to standalone portal <br> | **#3 - iFrame in GitLab instance to standalone portal**<br>- Customers access the experience via 1 login associated with gitlab.com. [SSO work](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1868) to aid this effort. This means that customers would be able to access their subscriptions via SSO login using GitLab.com and if already logged into GitLab.com, customers wouldn't have to do any additional login to access their subscription <br> - The experience, although easy to find on gitlab.com, will have a code base maintained outside of gitlab.com and can be accessed via iFrame within gitlab.com or on portal site for SM/re-seller customers (eg similiar to how it feels to go to Slack > Analytics) | **#3 - iFrame in GitLab instance to standalone portal**<br>- Allows us to to be more agile with code working outside of gitlab.com code base <br>- Although this only happens less than 5% of the time: by not having the experience integrated within gitlab.com, this likely allows for easier management across GitLab instances for customers who have multiple GitLab instances (eg customer could see renewal dates across their 3 GitLab paid instances) |
-| Payment Methods Beyond Credit Card | We need to be able to support alternative payment types beyond credit cards | Still need to determine what those payment methods are | 1. Need to be able to support [globalization](https://about.gitlab.com/company/team/structure/working-groups/globalization/) |
+- [Performance Indicators](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/fulfillment-section/)
+- [Internal Handbook Page](https://internal-handbook.gitlab.io/handbook/product/fulfillment/self-service-purchase/)

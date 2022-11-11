@@ -208,6 +208,9 @@ spam_fighting:
 suggested_reviewers:
   display_name: Suggested Reviewers
   link: https://about.gitlab.com/direction/modelops/applied_ml/#smarter-code-reviewer-suggestions
+zuora:
+  display_name: Subscriptions Management (Zuora integration)
+  link: https://about.gitlab.com/handbook/business-technology/enterprise-applications/guides/zuora/
 tooling_pipelines:
   display_name: Pipelines configuration of `gitlab-org` projects
   link: https://docs.gitlab.com/ee/development/pipelines.html
@@ -225,7 +228,7 @@ view_component:
   link: https://docs.gitlab.com/ee/development/fe_guide/view_component.html#viewcomponent
 vscode_extension_development:
   display_name: VS Code Extension Development
-  link:  https://code.visualstudio.com/api
+  link: https://code.visualstudio.com/api
 vulnerability_management:
   display_name: Vulnerability Management
   link: https://about.gitlab.com/direction/secure/vulnerability_management/
@@ -244,3 +247,6 @@ webpack:
 wiki:
   display_name: Wiki
   link: https://docs.gitlab.com/ee/user/project/wiki/
+mergeability:
+  display_name: Mergeability
+  link: https://gitlab.com/groups/gitlab-org/-/epics/5598

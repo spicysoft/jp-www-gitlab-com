@@ -15,11 +15,11 @@ description: "Guidelines and process for use of Publicity Waiver and Release agr
 ### Is a Publicity Waiver and Release agreement required?
 
 Subject to the exceptions listed below, a Release is required when:  
-- The name, image, likeness and appearance, voice, and professional biographical information (the "**Likeness**") of any team member or non-team member is used in [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) materials such that the individual is identifiable.
+- The name, image, likeness and appearance, voice, and professional biographical information (the "**Likeness**") of any team member, former team member, or non-team member is used in [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) materials such that the individual is identifiable.
 - Photography or videography by or on behalf of GitLab will take place at an internal or external event, such as a conference. 
 
 A Release is **not** required when:
-- Using a team member's name, job title, or photo taken from the [Meet Our Team page](about.gitlab.com/company/team/) in [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) materials.
+- Using a current team member's name, job title, or photo taken from the [Meet Our Team page](about.gitlab.com/company/team/) in [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) materials. This does not include the use of a former team member's photo taken from that page. 
 - Using screenshots of GitLab.com which include a team member's public GitLab profile information, including their name, GitLab username, and avatar.
 - Streaming or publishing [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/key-review/) meetings, and [Group Conversations](/handbook/group-conversations/) containing the Likeness of team members [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered.   
 
@@ -82,6 +82,8 @@ Use the Material- and Purpose-specific Publicity Waiver and Release template for
 ### Event Photography and Videography Likeness Release
 When capturing photos or video at events, don't capture attendee name badges, or blur them where they appear.
 
-For internal and external events at which photography or videography by or on behalf of GitLab will be captured, include the [Event Photography and Videography Likeness Release](https://docs.google.com/document/d/11ihdyShiPngTZg9gtl2LvoU6Uixp2ohEE5mVQEv18NM/edit) as a provision in the event registration terms and conditions, ensuring you have first completed the yellow-highlighted fields.
+For internal and external events at which photography or videography by or on behalf of GitLab will be captured, include the [Event Photography and Videography Likeness Release](https://docs.google.com/document/d/11ihdyShiPngTZg9gtl2LvoU6Uixp2ohEE5mVQEv18NM/edit) Registration form language as a provision in the event registration terms and conditions, ensuring you have first completed the yellow-highlighted fields. 
+
+In addition, place [Notice of Photography and Filming posters](https://docs.google.com/document/d/11ihdyShiPngTZg9gtl2LvoU6Uixp2ohEE5mVQEv18NM/edit#bookmark=id.9bgkjm7gij8e) throughout the event space, or at the GitLab booth as appropriate, to notify attendees that photography and filming are taking place.
 
 {::options parse_block_html="false" /}

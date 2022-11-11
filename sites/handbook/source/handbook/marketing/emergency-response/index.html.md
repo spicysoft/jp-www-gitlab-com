@@ -23,7 +23,7 @@ At times GitLab needs to communicate a "breaking" change or details related to a
 1. Review the S1 coverage matrix below and assign the issue and tag the coverage owner closest available per their timezone hin the  #mktgops Slack channel.
 1. If there is not a timely response in Slack, please review the coverage owners' Slack profile and send them a quick call or text. If no timely response, tag @mktg-ops within the  #mktgops Slack channel or use escalation path below.
 1. In the template the requesting team will include details including CTA, email body, send date and **provide link to Google sheet containing list**. 
-1. If security, make sure to follow [instructions](/handbook/engineering/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident)
+1. If security, make sure to follow [instructions](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident)
 
 ### Coverage Matrix
 
@@ -33,9 +33,9 @@ Please review the coverage owner closest available per their timezone when decid
 |---------------------------------------------|-------------------------------|---------------------------|-------------------------|-------------------|
 | UTC (Emea Working)                          | 11pm - 3am PT / 2am - 6am ET  | Mihai Conteanu            | Gillian Murphy          | 9am - 1pm EET     |
 | UTC (EMEA Working)                          | 3am - 7am PT / 6am - 10am ET  | Gillian Murphy            | Mihai Conteanu          | 11am - 3pm UK     |
-| UTC (Amer-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Jameson Burton            | Nikki Silverberg        | 10am - 2pm ET     |
-| UTC (Amer-Afternoon)                        | 11am - 3pm PT / 2pm - 6pm ET  | Nikki Silverberg           | Jenny Tiemann        | 11am - 3pm PT     |
-| UTC (Amer-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Jenny Tiemann              | Amy Waller        | 3pm - 6pm PT      |
+| UTC (Amer-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Jameson Burton            | Bryce Weatherford        | 10am - 2pm ET     |
+| UTC (Amer-Afternoon)                        | 11am - 3pm PT / 2pm - 6pm ET  | Bryce Weatherford           | Jenny Tiemann        | 11am - 3pm PT     |
+| UTC (Amer-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Bryce Weatherford              | Amy Waller        | 3pm - 6pm PT      |
 
 
 **Typical Team Timezones:**
@@ -43,6 +43,7 @@ Please review the coverage owner closest available per their timezone when decid
 * David: PST Pacific Standard Time UTC:-8:00
 * Jenny: PST Pacific Standard Time UTC:-8:00
 * Nikki: MST Mountain Time UTC:-7:00
+* Bryce: MST Mountain Time UTC:-7:00
 * Jameson: EST Eastern Standard Time UTC: -5:00
 * Gillian: GMT Greenwich Mean Time UTC: +1:00
 * Mihai: EET Eastern European Time UTC: +2:00
@@ -51,7 +52,6 @@ Please review the coverage owner closest available per their timezone when decid
 
 **Escalation Path:**
 * Manager (Amy Waller)
-* Manager (Beth Peterson)
 * Director (David Brown)
 * If still no response, #marketing-campaigns team can help
 
@@ -72,7 +72,7 @@ For Marketing Operations - When OOO/PTO please add this to the backup team membe
       * Creating [Landing Page request issue (if necessary)](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=marketo_landing_page_request)
 * Providing approval list and who signs off on the email
     * Legal, Customer Service VP and VP of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure) are required to sign off
-* [Notifying affected field teams](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/security-incident-communication-plan.html#communicating-internally) (Customer Success, TAM, SAL/AE, SA, Professional Services)
+* [Notifying affected field teams](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#communicating-internally) (Customer Success, CSM, SAL/AE, SA, Professional Services)
    * Also make sure to notify #sales and #customer-success before email is set to go out
 * Approving test email 
 * Providing any edits to the test email
@@ -122,7 +122,7 @@ The following approvers are needed for the copy and list size:
  - Vice President of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure)
  - Legal (copy only)
  - Marketing Operations Manager
- - Appropriate field teams driven by the scope of customers receiving the communication (SAL/AE, SA, TAM, Professional Services)
+ - Appropriate field teams driven by the scope of customers receiving the communication (SAL/AE, SA, CSM, Professional Services)
  - Support, if there is any call to action in the communication to contact support
 
 
@@ -215,6 +215,7 @@ The email should answer the following questions in the following order:
 1.  What is your call to action? What should you do?
 1.  Where should you go if you need support? If applicable, where do you provide feedback (e.g., forum, issue, other)? If additional updates will be provided, when and how will that information be shared? 
 
+To request an email, follow directions on [this page](handbook/marketing/marketing-operations/email-management/#request-non-demand-generation-emails)
 
 #### Sample email 
 
@@ -236,7 +237,7 @@ We recommend the following actions to identify and resolve this issue:
 - If you use {GitLab Feature}, please review the [scenarios] and avoid them.
 - If you have not migrated to {GitLab Feature}, please know that we [provided additional support] to all affected releases.
 
-We're working to reduce the conditions that can cause {specific issue} and will update the [{cases}] when we do so. If you are using {GitLab Feature} and require additional guidance, please contact your support representative or your TAM.
+We're working to reduce the conditions that can cause {specific issue} and will update the [{cases}] when we do so. If you are using {GitLab Feature} and require additional guidance, please contact your support representative or your CSM.
 
 Kind regards,
 {Sender}
@@ -247,7 +248,7 @@ Kind regards,
 {: #customer-comms-epic-issues .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-The requestor (Security, TAM, etc.) will follow the process below to create the epic, which will have quick links to the appropriate issues to open.
+The requestor (Security, CSM, etc.) will follow the process below to create the epic, which will have quick links to the appropriate issues to open.
 
 * Create epic here and input code below: [https://gitlab.com/groups/gitlab-com/-/epics/new](https://gitlab.com/groups/gitlab-com/-/epics/new)
 
@@ -283,6 +284,6 @@ The requestor (Security, TAM, etc.) will follow the process below to create the 
 * Requestor is responsible for approving test email and providing send time and date
 
 /confidential
-/label ~"MktgOps-Urgency::P1" ~"MktgOps-Priority::High Priority" ~"Customer Success" ~TAM 
+/label ~"MktgOps-Urgency::P1" ~"MktgOps-Priority::High Priority" ~"Customer Success" ~CSM 
 /cc @amy.waller
 ```

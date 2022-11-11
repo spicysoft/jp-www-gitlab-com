@@ -34,6 +34,7 @@ domain_expertise:
 - vuex
 - merge_requests
 - repository
+- mergeability
 expertise: |
   <li><a href="https://docs.gitlab.com/ee/development/fe_guide/architecture.html">Frontend Architectural</a> <a href="/company/team/structure/#expert">expert</a></li>
   <li><a href="https://docs.gitlab.com/ee/user/project/issue_board.html">Issue Boards</a> <a href="/company/team/structure/#expert">expert</a></li>

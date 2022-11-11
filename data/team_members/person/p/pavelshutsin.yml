@@ -14,6 +14,7 @@ departments:
 - Development Department
 - Dev Section
 - Plan:Optimize BE Team
+- Merge Request Coach
 projects:
   gitlab:
   - maintainer backend
@@ -26,7 +27,7 @@ story: 'Pavel is a Ruby developer with strong thirst of making fast, stable, sec
   '
 specialty:
 - 'Manage: Optimize'
-domain_experise:
+domain_expertise:
 - ruby
 - rails
 - rest_api

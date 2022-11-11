@@ -1,8 +1,9 @@
+---
 name: Kacie Rahimi
-locality: 
+locality:
 country: Remote
 role: <a href="">Senior Public Sector Strategic Account Leader</a>
-reports_to: jks
+reports_to: bstevens1
 picture: kacierahimi.jpeg
 pronouns:
 pronunciation:
@@ -10,8 +11,8 @@ twitter:
 linkedin:
 gitlab: krahimi
 departments:
-  - PubSec
-specialty: "Public Sector, Civilian"
+- PubSec
+specialty: Public Sector, Civilian
 expertise:
 story:
 

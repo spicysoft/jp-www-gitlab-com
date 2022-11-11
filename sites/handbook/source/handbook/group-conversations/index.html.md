@@ -235,7 +235,7 @@ Additional links which may be useful when preparing to moderate a call include:
 1. Post notes within the Zoom chat at both five and two minutes remaining mark - this will ensure everyone is aware of the time left within the call and encourage team members to keep the conversation on track.
 1. At time notify the Host that the meeting should be concluded allowing time for all participants to wrap up the active discussion and thanking them for their time and collaboration.
 1. End the Group Conversation by clicking `End Meeting` and then `End Meeting for All` within Zoom - making this selection should end both the call and the stream - should this not be the case it is more than likely because an outdated version of Zoom is being used and the moderator will need to log directly into YouTube Studio and manually end the stream.
-1. Once the call ended, audit the YouTube video for any issues such as another stream on the video or errant transcript in the description. If you identify any issues with the video, immediately reach out to [Security](/handbook/engineering/security/security-operations/sirt/engaging-security-on-call.html) for support.
+1. Once the call ended, audit the YouTube video for any issues such as another stream on the video or errant transcript in the description. If you identify any issues with the video, immediately reach out to [Security](/handbook/security/security-operations/sirt/engaging-security-on-call.html) for support.
 1. Once the stream has ended, copy and paste the YouTube link to the Group Conversation agenda. This will allow easy access to the stream without having to search for it in the GitLab Unfiltered channel.
 1. If livestreaming was not possible manually upload the video to YouTube using these [guidelines](https://about.gitlab.com/handbook/marketing/marketing-operations/youtube/#uploading-conversations-to-youtube).
 
@@ -288,12 +288,13 @@ If your GC is optional and you need to move the date, please work with your depa
 | [Product](/handbook/product/) | [Month PLT Leader Rotation](https://about.gitlab.com/handbook/product/product-leadership/#product-group-conversation-leader-rotation) | Yes | Twice per quarter | | EBA to VP, Product | 
 | [Infrastructure](/handbook/engineering/infrastructure/) | Steve Loyd | Yes | Twice per quarter | | EBA to Engineering | 
 | [Support](/handbook/support/) | Tom Cooney | Yes | Twice per quarter | @lbot @lyle @vparsons| EBA to Engineering | 
-| [Security](/handbook/engineering/security/) | Johnathan Hunt | Yes | Every other month| | EBA to Engineering | 
+| [Security](/handbook/security/) | Johnathan Hunt | Yes | Every other month| | EBA to Engineering | 
 | [UX](/handbook/product/ux/) | Christie Lenneville | Yes | Every other month | | EBA to Engineering | 
 | [Development](/handbook/engineering/development/) | Christopher Lefelhocz | Yes | Every other month | | EBA to Engineering | 
 | [Quality](/handbook/engineering/quality/) | Mek Stittri | Yes | Every other month | | EBA to Engineering | 
 | [General](/handbook/ceo/) | Sid Sijbrandij | No | Every other month | | EBA to CEO|
 | [Alliances](/handbook/alliances/) | Nima Badiey | No | Quarterly | | EBA to VP of Alliances |
+| [IT](/handbook/business-technology/it) | Craig Mestel | Yes | Quarterly | | EBA to VP of Business Technology |
 
 | AMAs | DRI |  AMA Frequency | Alternate Hosts | Scheduling DRI |
 | ------------------ | --- | ------------ | --------------- | -------------- |
@@ -354,26 +355,26 @@ If your GC is optional and you need to move the date, please work with your depa
 | Thursday Oct 20 | People | People Leadership | Oct 12 |
 | Tuesday October 25 | **Available** | **Available** | Key Review Date? |
 | Wednesday October 26  | Alliances | Nima Badiey | N/A |
-| Thursday October 27 | Marketing | Marketing Leadership | October 13 |
-| Tuesday November 1 | **Available** | | Key Review Date? |
+| Thursday October 27 | **Available** | **Available** | Key Review Date? |
+| Tuesday November 1 | IT | Craig Mestel | October 20 |
 | Wednesday November 2 | Remote Development | Eric Schurter | N/A |
-| Thursday November 3 | Security | Johnathan Hunt | October 25 |
+| Thursday November 3 | Security | Robin Schulman | October 25 |
 | Tuesday November 8 | Infrastructure | Steve Loyd | October 27 |
 | Wednesday November 9 | Support | Tom Cooney | October 26 |
 | Thursday November 10 | Product | Product Leadership | October 13 |
-| Tuesday November 15 | UX | Christie Lenneville | October 13 |
+| Tuesday November 15 |  |  |  |
 | Wednesday November 16  | **Available** | | Key Review Date? |
-| Thursday November 17 | **Available** | | Key Review Date? |
+| Thursday November 17 | UX | Christie Lenneville | October 13 |
 | Tuesday November 22 | **Available** | | Key Review Date? |
 | Wednesday November 23 | **Available** | | Key Review Date? |
 | Thursday November 24 | **Available** | | Key Review Date? |
 | Wednesday November 30 | People | People Leadership | Nov 10 |
-| Tuesday December 6 | Development | Christopher Lefelhocz | November 23 |
+| Tuesday December 6 | Development | Christopher Lefelhocz | November 17 |
 | Wednesday December 7 | **Available** | | Key Review Date? |
-| Thursday December 8 | **Available** | | Key Review Date? |
-| Tuesday December 13 | Quality | Mek Stittri | December 1 |
+| Thursday December 8 | Finance| Brian Robins | November 28 |
+| Tuesday December 13 | General (CEO) | Sid Sijbrandij | N/A  |
 | Wednesday December 14 | Product | Product Leadership | TBD |
-| Thursday December 15 | **Available** | | Key Review Date? |
+| Thursday December 15 | Quality | Mek Stittri | December 1 |
 | Tuesday December 20 | Infrastructure | Steve Loyd | December 8 |
 | Wednesday December 21 | Support | Tom Cooney | December 7 |
 | Thursday December 22 | **Available** | | Key Review Date? |

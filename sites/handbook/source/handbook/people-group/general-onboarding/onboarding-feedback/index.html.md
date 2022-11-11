@@ -30,6 +30,14 @@ Wondering if you are doing okay with your onboarding? Need some suggestions or g
 </figure>
 <!-- blank line -->
 
+### Michael Balzer
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UYDI-2lAHQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+<!-- blank line -->
+
 
 ## Team Member Video Process
 
@@ -40,7 +48,7 @@ Did you have a blast during your onboarding? Or just want to share some helpful 
 - General onboarding experience (from the tasks, to the people, to your feelings)
 - What went well
 - What didn't go as well (if you want to)
-- General tips to any new team members watching the video's
+- General tips to any new team members watching the videos
 - Really anything you want to mention about the onboarding experience
 
 ### Timing
@@ -49,5 +57,5 @@ It's great that you are wanting to share your experience, anything up to 10 minu
 
 ### Notes
 
-- All video's shared will be uploaded to the GitLab Unfiltered Channel and to this Handbook page. 
+- All videos shared will be uploaded to the GitLab Unfiltered Channel and to this Handbook page. 
 - Once you have recorded your video, please reach out to the People Connect team in the [#people-connect Slack channel](https://gitlab.slack.com/archives/C02360SQQFR) or by email: `people-connect@gitlab.com`. 

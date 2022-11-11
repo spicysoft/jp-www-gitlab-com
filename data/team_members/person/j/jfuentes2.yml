@@ -1,17 +1,18 @@
+---
 name: Joaquin Fuentes
-locality: 
+locality:
 country: Remote
 role: <a href="">Director, Security Operations</a>
-reports_to: johnathan-h
-picture: ../gitlab-logo-extra-whitespace.png
+reports_to: akramer
+picture: "../gitlab-logo-extra-whitespace.png"
 pronouns: he/him/his
 pronunciation: Hwa-Keen
 twitter: hackerbyhobby
 linkedin:
 gitlab: jfuentes2
 departments:
-  - Security
-specialty: ""
+- Security
+specialty: ''
 expertise:
 story:
 

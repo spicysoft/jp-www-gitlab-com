@@ -27,7 +27,7 @@ Check out a Chorus recording of the [H-E-B POV Retro call](https://chorus.ai/con
 Have a deal you'd like to nominate? Fill out the [nomination form](https://forms.gle/7AYwzgFStrai5D2F7).
 
 ### New and Noteworthy Resources 📓
-The GitLab vs. GitHub decision kit has been updated to include [GitLab SAST vs. GitHub Code Scanning](https://about.gitlab.com/devops-tools/github-vs-gitlab/devsecops-missing-github-capabilities/) and [GitLab vs. GitHub Container Registry](https://about.gitlab.com/devops-tools/github-vs-gitlab/ci-missing-github-capabilities/#gitlab-vs-github-container-registry-comparison) comparison tables. Also, the CircleCI Decision Kit now includes CircleCI product gaps identified by their user community. [See all Competitive Content -->](https://about.gitlab.com/devops-tools/)
+The GitLab vs. GitHub decision kit has been updated to include [GitLab SAST vs. GitHub Code Scanning](https://about.gitlab.com/devops-tools/github-vs-gitlab/devsecops-missing-github-capabilities/) and [GitLab vs. GitHub Container Registry](https://about.gitlab.com/devops-tools/github-vs-gitlab/ci-missing-github-capabilities/#gitlab-vs-github-container-registry-comparison) comparison tables. Also, the CircleCI Decision Kit now includes CircleCI product gaps identified by their user community. [See all Competitive Content -->](https://about.gitlab.com/competition/)
 
 Developer-led (consumed, influenced, purchased) products account for $40B in annual revenues, and the market is growing at 19%. Check out more meaningful insights in this full analysis of the developer-led landscape. [Read More -->](https://tylerjewell.substack.com/p/c7c150f4-1f04-453f-a97f-0902ee782416)
 
@@ -39,7 +39,7 @@ Learn how digital product dev studio Potato reduced toolchain complexity and imp
 **On 2020-11-01, GitLab released the first MVC of allowing users to purchase additional storage**. When additional storage is purchased and applied to a GitLab.com namespace, the system will automatically apply the storage to blocked project and open them for use. Additional unused storage will remain available for use dynamically as projects near the 10GB limit. The Fulfillment team is still working on customer-facing docs, but you can [get a sense for how it works on the subscription FAQs page](https://about.gitlab.com/pricing/licensing-faq/#can-i-buy-more-storage).
 
 ----
-The CS team is **deprecating the old TAM customer tracking process and incorporating Stage Technology Tracking into Gainsight** with a bi-directional sync. This will help closer align the Sales and CS orgs and make the customer tracking process more collaborative for TAMs, SAs, and SALs/AEs.
+The CS team is **deprecating the old CSM customer tracking process and incorporating Stage Technology Tracking into Gainsight** with a bi-directional sync. This will help closer align the Sales and CS orgs and make the customer tracking process more collaborative for CSMs, SAs, and SALs/AEs.
 
 [Check out this video overview](https://www.youtube.com/watch?v=9OBFEHs4D_8&feature=youtu.be) for more information and reach out to #sales-support with any questions. 
 

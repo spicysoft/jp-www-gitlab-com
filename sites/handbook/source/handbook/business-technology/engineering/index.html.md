@@ -24,10 +24,8 @@ The Business Technology Engineering team focuses on three primary competencies:
 ### Engineering Team
 
 | Name                                                                        | Role                              | Focus Areas (Specialties)                                    |
-|-----------------------------------------------------------------------------|-----------------------------------|--------------------------------------------------------------|
-| [Daniel Parker](https://about.gitlab.com/company/team/#dparker)             | Senior Integrations Engineer      | Enterprise Applications and Integrations                     |
+|-----------------------------------------------------------------------------|-----------------------------------|--------------------------------------------------------------|                    
 | [Karuna Singh](https://about.gitlab.com/company/team/#Karuna16)             | Integrations Engineer             | Enterprise Applications and Integrations                     |
-| [Dominic Roy-Stang](https://about.gitlab.com/company/team/#droystang)       | Integrations Engineer             | Enterprise Applications and Integrations                     |
 | [Jeff Martin](https://about.gitlab.com/company/team/#jeffersonmartin)       | Senior IT Systems Engineer        | Access Manager, Infrastructure, Demo Systems, Training Labs  |
 | [Dillon Wheeler](https://about.gitlab.com/company/team/#dillonwheeler)      | IT Systems Engineer               | Access Manager, Infrastructure, Operations                   |
 | [Marcus Whitaker](https://about.gitlab.com/company/team/#mwhitaker)         | Senior IT Systems Engineer        | Okta Integrations, Operations                                |
@@ -37,10 +35,9 @@ The Business Technology Engineering team focuses on three primary competencies:
 
 | Name                                                                  | Role                                     | Business Engagement Focus Areas                                     |
 |-----------------------------------------------------------------------|------------------------------------------|---------------------------------------------------------------------|
-| [Bryan Wise](https://about.gitlab.com/company/team/#bryanwise)        | VP, Business Technology                  | VP+ level requests, new programs, infrastructure managed services   |
-| [Christopher Nelson](https://about.gitlab.com/company/team/#ccnelson) | Senior Director, Enterprise Applications | Enterprise Applications and Integrations Engineering                |
+| [Craig Mestel](https://about.gitlab.com/company/team/#cmestel)        | VP, Finance and Business Technology                  | VP+ level requests, new programs, infrastructure managed services   |
 | [Rob Rea](https://about.gitlab.com/company/team/#rrea1)              | Senior Director, IT Operations           | Security, Tech Stack Vendors, Compliance, Helpdesk, etc.                                                                 |
-| [Peter Kaldis](https://about.gitlab.com/company/team/#pkaldis)        | Manager, IT Engineering                  | Access Manager, Okta, Google, IT Engineering       |
+| [Peter Kaldis](https://about.gitlab.com/company/team/#pkaldis)        | Senior Manager, IT Engineering                  | Access Manager, Okta, Google, IT Engineering       |
 
 ## How We Work
 
@@ -120,14 +117,14 @@ You can learn more about Platypus and our capabilities and offerings on our [han
 * [Related - Demo Systems and Training Systems](https://about.gitlab.com/handbook/customer-success/demo-systems/)
 * [Related - Sandbox Cloud](https://about.gitlab.com/handbook/infrastructure-standards/realms/sandbox/)
 * [Related - Infrastructure Standards](https://about.gitlab.com/handbook/infrastructure-standards/)
-* [Related - Infrastructure Security Handbook Page](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/infrastructure-security/)
+* [Related - Infrastructure Security Handbook Page](https://about.gitlab.com/handbook/security/security-engineering-and-research/infrastructure-security/)
 * [Related - Infrastructure Security Wiki](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/wikis/home)
 
 The Business Technology Infrastructure Engineering team ("BT Infrastructure") focuses on the architecture, access management, cost labels and tags, naming conventions, and organizational hierarchy for AWS and GCP infrastructure across the organization, except for the GitLab SaaS realm (where GitLab.com is hosted) that is managed by the [Engineering Infrastructure department](https://about.gitlab.com/handbook/engineering/infrastructure/).
 
-We collaborate closely with the [Infrastructure Security ("InfraSec") team](https://about.gitlab.com/handbook/engineering/security/security-engineering-and-research/infrastructure-security/) that is responsible for best practices and implementing security policies to mitigate risk.
+We collaborate closely with the [Infrastructure Security ("InfraSec") team](https://about.gitlab.com/handbook/security/security-engineering-and-research/infrastructure-security/) that is responsible for best practices and implementing security policies to mitigate risk.
 
-We also provide escalation engineering and triage support for the [Security Incident Response Team ("SIRT")](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/) and [Security Red Team](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/) when security anomalies, events, or incidents require AWS/GCP subject matter expertise.
+We also provide escalation engineering and triage support for the [Security Incident Response Team ("SIRT")](https://about.gitlab.com/handbook/security/security-operations/sirt/) and [Security Red Team](https://about.gitlab.com/handbook/security/threat-management/red-team/) when security anomalies, events, or incidents require AWS/GCP subject matter expertise.
 
 In FY20-Q4, we launched the Demo Systems for the Customer Success department to have a shared sandbox environment for demonstration and training class purposes. You can learn more on the [demo systems handbook page](https://about.gitlab.com/handbook/customer-success/demo-systems/).
 

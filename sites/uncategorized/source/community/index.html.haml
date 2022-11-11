@@ -50,6 +50,11 @@ extra_css:
       .tile-content
         %h4 GitLab Community Forum
         %p Join the conversation, and connect with peers about all things DevOps.
+    = link_to "https://discord.gg/gitlab", class: "tile tile-animated grid-item" do
+      = image_tag "/images/community/community-forum.svg", class: "icon-small", alt: "GitLab community forum svg"
+      .tile-content
+        %h4 Discord
+        %p Chat with the GitLab team and community.
     = link_to "/resources/", class: "tile tile-animated grid-item" do
       = image_tag "/images/community/community-resources.svg", class: "icon-small", alt: "GitLab community resources svg"
       .tile-content
@@ -135,8 +140,3 @@ extra_css:
       .tile-content
         %h4 Sweepstakes
         %p Contests where you can win cool stuff.
-    = link_to "/community/issue-bash/", class: "tile tile-animated grid-item" do
-      = image_tag "/images/community/community-issue-bash.svg", class: "icon-small", alt: "GitLab community issue bash svg"
-      .tile-content
-        %h4 Issue Bash
-        %p Join our quarterly community event and meet other contributors.

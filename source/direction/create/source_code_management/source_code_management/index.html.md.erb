@@ -10,7 +10,7 @@ canonical_path: "/direction/create/source_code_management/source_code_management
 
 ## Source Code Management 
 
-**Last updated**: 2022-09-27
+**Last updated**: 2022-10-21
 
 | Section | Stage | Maturity |  
 | --- | --- | --- |  
@@ -32,6 +32,12 @@ To achieve this, teams need to protect production while making it easy for every
 - Who owns the code and is responsible for it and thus has the right to approve changes to it ([codeowners](https://docs.gitlab.com/ee/user/project/code_owners.html); [merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/index.html)) 
 - Which quality tests must be passed before changes can be applied ([coverage checks](https://docs.gitlab.com/ee/ci/pipelines/settings.html#coverage-check-approval-rule); [security checks](https://docs.gitlab.com/ee/user/application_security/policies/scan-result-policies.html)) 
 - Which branches need to be protected because they influence production ([default branch](https://docs.gitlab.com/ee/user/project/repository/branches/default.html); [protected branches](https://docs.gitlab.com/ee/user/project/protected_branches.html); [push rules](https://docs.gitlab.com/ee/user/project/repository/push_rules.html)) 
+
+### Snippets
+
+GitLab Snippets allows users to share small bits of code and text by directly linking, downloading, or embedding them in web apps within an HTML tag. Each snippet is essentially a lightweight Git repository, meaning they are versioned and even support multiple files.
+
+Commonly Snippets are often used for smaller pieces of code that are reused among several projects, additional documentation for specific one-off scripts/functions and instructions for using the main project.
 
 ### Challenges  
 While the principles have been around for half a century, SCM is not without challenges. SCM needs to address a large set of requirements that are partly contradicting:  
@@ -108,9 +114,13 @@ Here are some of the features that we recently shipped:
 
 - [FIPS 140-2 Compliant](https://gitlab.com/groups/gitlab-org/-/epics/6476) - FIPS compliance is a requirement for the US Govt to utilize a piece of software. It is required for any FISMA or FedRAMP system and cannot be waived. For GitLab to be directly usable within the US Govt, we need to be compliant. To contribute to GitLab's goal to meet these demands, the Source Code group contributed their share of work.  
 
+- GitLab is working on [making GitLab.com FedRamp compliant](https://about.gitlab.com/solutions/public-sector/fedramp/) and the source code team has contribut their share of work ([internal link](https://gitlab.com/groups/gitlab-org/-/epics/7987)).  
+
 - [Ability to enforce IP address restrictions for Git over SSH](https://gitlab.com/groups/gitlab-org/-/epics/6296) - Limiting access to requests from a trusted set of IP addresses may improve security. Until now, only the API and UI supported such access restrictions; SSH access was blocked entirely. SSH now also adheres to this restriction, and grants access only to requests coming from IP addresses in your list. 
 
 - [Improved and faster file browsing and syntax highlighting](https://gitlab.com/gitlab-org/gitlab/-/issues/346257) - We made multiple changes to improve the experience of browsing a repository and viewing source files. Rather than reloading the full page when moving from folder to folder, we now display repository files and folders with a single VUE application. Our repository tree view is more performant and stable now and working with files is faster. We have also switched from server-side transformations for files to client-side syntax highlighting. The rendering time for large files is now up to 66% faster. 
+
+- We have missed our group's availability targets of 99.95% every month from April to July. (Worst month was in June with 99.87%.) The [root cause was identified](https://gitlab.com/gitlab-org/gitlab/-/issues/360578) to be a recurring CPU saturation at peak times in underlying infrastructure. It needed to be fixed on multiple levels by the source code team, the code review team and the scalability team. The work was finalized around 15.4. Since then availability is within the target again. 
 
 Here are some of the customer/user issues that we recently addressed: 
 
@@ -124,11 +134,9 @@ Here are some of the customer/user issues that we recently addressed:
 
 - [MVC: view source code rules organized by branches](https://gitlab.com/groups/gitlab-org/-/epics/8578) - We are bringing the settings for protected branches and merge request approvals conveniently in one single place under Settings > Repository > Branch rules. Moreover, as the name suggests, they will be viewed through the lens of a branch as they naturally relate to such. While no functionality will be changed this significantly improves discoverability and intelligibility of your settings. Previously, these settings were in far apart places making them hard to understand as we learned from user feedback including a recent SUS study. This is the first iteration of this work and will allow viewing only. To change the settings you will need to use the existing settings as you know them. Next, we intend to allow the editing of rules in this single place that organizes the rules by branches.  
 
-- GitLab is working on [making GitLab.com FedRamp compliant](https://about.gitlab.com/solutions/public-sector/fedramp/) and the source code team it contributing its share of work ([internal link](https://gitlab.com/groups/gitlab-org/-/epics/7987)).  
-
-- We have missed our group's availability targets of 99.95% every month since April. (Worst case was in June with 99.87%.) The [root cause has been identified](https://gitlab.com/gitlab-org/gitlab/-/issues/360578.) to be a recurring CPU saturation at peak times in underlying infrastructure. It needs to be fixed on multiple levels by the source code team, the code review team and the scalability team. The work is expected to finalize around 15.4. By then it is expected that the availability hits the targets again. 
-
 - Next to such bigger efforts, we also spend capacity on smaller [issues raised by customers](https://gitlab.com/groups/gitlab-org/-/issues/?sort=closed_desc&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=customer&label_name%5B%5D=Deliverable&milestone_title=Upcoming&first_page_size=20) as we have a long list of such and want to start burning these downs after having focused on GitLab.com stability and security for a long time. 
+
+- An example is [Ability to update access levels from Protected Branch API](https://gitlab.com/gitlab-org/gitlab/-/issues/20229). So far, it was only possible to update access levels of protected branches via the UI. To do this via the API you had to first unprotect the branch and then protect it again with the new setting. With this improvement that we are working on currently, you will be able to programmatically change which users or groups are allowed_to_push, allowed_to_merge, and allowed_to_unprotect and change more settings. This way it is much less likely that bots that change such settings accidentally leave branches unprotected.
 
 - As mentioned above, we also continue to spend a significant portion of our capacity on [scalability of GitLab.com](https://gitlab.com/groups/gitlab-org/-/issues/?sort=closed_desc&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=infradev&label_name%5B%5D=Deliverable&milestone_title=Upcoming&first_page_size=20), [performance](https://gitlab.com/groups/gitlab-org/-/issues/?sort=closed_desc&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=bug%3A%3Aperformance&label_name%5B%5D=Deliverable&milestone_title=Upcoming&first_page_size=20) and [security](https://gitlab.com/groups/gitlab-org/-/issues/?sort=closed_desc&state=opened&label_name%5B%5D=group%3A%3Asource%20code&label_name%5B%5D=security&label_name%5B%5D=Deliverable&milestone_title=Upcoming&first_page_size=20) to keep up the good level that we have achieved after massive work in 2021 and early 2022 in these domains.  
 
@@ -146,6 +154,12 @@ In our [milestone planning issues under our prioritization & Planning epic](http
 
    Long-term we will consider also moving settings under per-branch view that currently don't relate to branches but might benefit from attaching them to branches such as status checks or merge checks.  
 
+- Improvements to the list of commits 
+
+   - [Better display of tags in commits list view](https://gitlab.com/gitlab-org/gitlab/-/issues/18795)
+   
+   - [Better display of tags and branches in commit view](https://gitlab.com/gitlab-org/gitlab/-/issues/325871)  
+
 - [Reorganize merge strategies](https://gitlab.com/groups/gitlab-org/-/epics/7705) 
 
    There are different ways for development teams to set up merge strategies depending on their software development, code review, and compliance practices. While we encourage customers practice [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html), we also need to support different strategies as there is no one right way for our customers. This effort streamlines the settings that allow users to create different flows and adds the option.  
@@ -159,12 +173,6 @@ In our [milestone planning issues under our prioritization & Planning epic](http
    - [Make it easy to get started with CODEOWNERS](https://gitlab.com/groups/gitlab-org/-/epics/5888) 
 
    - [Allow multiple approvals per CODEOWNER or CODEOWNER section](https://gitlab.com/gitlab-org/gitlab/-/issues/335451) 
-
-- Improvements to the list of commits 
-
-   - [Better display of tags in commits list view](https://gitlab.com/gitlab-org/gitlab/-/issues/18795)
-   
-   - [Better display of tags and branches in commit view](https://gitlab.com/gitlab-org/gitlab/-/issues/325871)  
 
 ### What is Not Planned Right Now 
 The Source Code group is not investing in the following opportunities in the immediate future: 

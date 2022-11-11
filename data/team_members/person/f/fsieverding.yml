@@ -1,7 +1,7 @@
 name: Falko Sieverding
 locality: 
 country: Remote
-role: <a href="">Technical Account Manager</a>
+role: <a href="">Customer Success Manager</a>
 reports_to: tammgr-michael-le
 picture: falkosieverding.jpg
 pronouns: he/him
@@ -11,6 +11,7 @@ linkedin: falko-sieverding-universalamateur
 gitlab: fsieverding
 departments:
   - Customer Success
+  - Customer Success Managers
 specialty: "Customer Success"
 expertise:
 story:

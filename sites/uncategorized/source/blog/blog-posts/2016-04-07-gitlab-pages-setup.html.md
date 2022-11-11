@@ -69,9 +69,9 @@ A group has its own **namespace**, which is unique for each group (and for each 
 
 The important matter is, when you create your account on GitLab, it's better to choose a username for
 yourself as a person, not as a company. You can create your "company username" later, as a group
-namespace. For example, let's say your name is "John Doe" and your company is called "Foo Master".
-First, register yourself as `johndoe` and later create a group called Foo Master within the namespace of
-`foomaster`. This will allow you to separate your personal projects from your company ones.
+namespace. For example, let's say your name is "John Doe" and your company is called "Foo Main".
+First, register yourself as `johndoe` and later create a group called Foo Main within the namespace of
+`foomain`. This will allow you to separate your personal projects from your company ones.
 
 If you follow this tip, you will be able to access your personal site under `https://username.gitlab.io`
 and your company site under `https://groupname.gitlab.io`.
@@ -97,9 +97,9 @@ you can require any `gem` you need in your `Gemfile`, run `npm`, run `bundle` an
 Bottom line, it's as handy as having your own command line on your GitLab UI.
 
 Additionally, you can have a distinct `.gitlab-ci.yml` for each repository - even for each branch.
-This means you can test your script in parallel branches before pushing to your `master` branch.
+This means you can test your script in parallel branches before pushing to your `main` branch.
 If the build succeeds, you merge. If it doesn't, you can make adjustments and try building
-again without messing up your `master` branch.
+again without messing up your `main` branch.
 
 Before you push any `.gitlab-ci.yml` to your project, you can
 validate its syntax with the tool called [CI Lint][ci-lint].
@@ -165,13 +165,13 @@ pages:
     paths:
     - public
   only:
-  - master
+  - main
 ```
 
 What this code is doing is creating a _[job][doc-jobs]_ called _[pages][doc-contents-ciconfig]_
 telling the _[Runner][doc-shared-runners]_ to _[deploy][doc-stages]_ the website _[artifacts][doc-artifacts]_
 to a _[public path][doc-contents-ciconfig]_,
-whenever a commit is pushed _[only][doc-only]_ to the `master` branch.
+whenever a commit is pushed _[only][doc-only]_ to the `main` branch.
 
 All pages are created after the build completes successfully
 and the artifacts for the pages job are uploaded to GitLab.
@@ -206,14 +206,14 @@ pages:
     paths:
     - public
   only:
-  - master
+  - main
 ```
 
 This code requires the _[script][doc-script]_ to run on
 the _[environment][doc-images]_ of [Ruby] 2.1.x,
 installs the Jekyll gem, and builds the site
 to the _[public path][doc-contents-ciconfig]_.
-The result affects _[only][doc-only]_ the master branch.
+The result affects _[only][doc-only]_ the main branch.
 For building a regular Jekyll site, you can just
 copy this code and paste it into your `.gitlab-ci.yml`.
 
@@ -248,13 +248,13 @@ pages:
     paths:
     - public
   only:
-    - master
+    - main
 ```
 
 Note that the [Docker image][node-422] we require is `node:4.2.2`.
 We are archiving `npm` modules into the `cache`, installing `hexo-cli` and deploying
 our `hexo` site to the default `public` directory, uploaded to GitLab as `artifacts`.
-The `pages` job is `only` affecting the `master` branch.
+The `pages` job is `only` affecting the `main` branch.
 
 On the [Pages][ci-examples] group you will find a default [Hexo site][pages-hexo]
 deployed with GitLab Pages, and on [this group][themes-templates], another [example][hexo-proj]

@@ -54,7 +54,7 @@ Using data from version.gitlab.com and the [Metrics Dictionary](https://docs.git
 
 Usage Discovery Questions:
 
-1. Where do you manage you code base?
+1. Where do you manage your code base?
 1. What processes do you follow for code reviews?
 
 ## Verify
@@ -153,7 +153,7 @@ Usage Discovery Questions:
 - [Dependency List](https://docs.gitlab.com/ee/user/application_security/dependency_list/)
 - [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/)
 - Making use of [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) at the instance level as part of managing GitLab.
-- Using [Compliance Management](https://about.gitlab.com/direction/manage/compliance-management/) within GitLab.
+- Using [Compliance Management](https://about.gitlab.com/direction/govern/compliance/compliance-management/) within GitLab.
 
 
 Usage Discovery Questions:

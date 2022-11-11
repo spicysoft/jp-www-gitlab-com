@@ -2,7 +2,7 @@
 name: Vladimir Shushlin
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer, Release</a>
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Acting Fullstack Engineering Manager, Release</a> 
 reports_to: nicole-williams
 picture: vladimirshushlin.jpeg
 twitter:
@@ -11,7 +11,7 @@ departments:
 - Engineering Function
 - Development Department
 - Ops Sub-department
-- Release BE Team
+- Fullstack
 - Release Group
 projects:
   gitlab: trainee_maintainer backend

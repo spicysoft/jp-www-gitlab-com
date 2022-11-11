@@ -32,7 +32,7 @@ Requirements include:
 
 ## Why apply to the GitLab for Open Source Program?
 
-The GitLab for Open Source Program gives access to unlimited seats per license of GitLab Ultimate (SaaS or Self-Managed), including 50,000 CI/CD minutes. GitLab Ultimate includes features that allow organization-wide security, compliance and planning. Some key features include:
+The GitLab for Open Source Program gives access to unlimited seats per license to features of [GitLab Ultimate](/pricing/ultimate/) (SaaS or Self-Managed), including 50,000 CI/CD minutes, for free to qualifying open source projects. GitLab Ultimate includes features that allow organization-wide security, compliance and planning. Some key features include:
 
 - [Multi-level Epics](https://docs.gitlab.com/ee/user/group/epics/)
 - [Portfolio-level Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/)

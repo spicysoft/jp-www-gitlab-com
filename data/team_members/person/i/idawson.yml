@@ -7,6 +7,10 @@ picture: isaacdawson.jpeg
 gitlab: idawson
 twitter: _wirepair
 pronouns: he/him
+projects:
+  secure-DS-gemnasium-db: maintainer
+  secure-dast: maintainer
+  secure-browser-based-dast: maintainer
 departments:
 - Engineering Function
 - Development Department

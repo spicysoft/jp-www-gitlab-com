@@ -101,7 +101,7 @@ DevOps Engineers have a deep understanding of their organization's SDLC and prov
 
 ## Adoption Guide
 
-The following section provides resources to help TAMs lead capabilities adoption, but can also be used for prospects or customers interested in adopting GitLab stages and categories.
+The following section provides resources to help CSMs lead capabilities adoption, but can also be used for prospects or customers interested in adopting GitLab stages and categories.
 
 ### Playbook Steps
 

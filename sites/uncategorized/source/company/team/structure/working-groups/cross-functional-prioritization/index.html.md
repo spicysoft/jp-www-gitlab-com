@@ -78,7 +78,7 @@ Note: This does not preclude other stages beyond create to complete the exit cri
 
 | Working Group Role    | Person                                               | Title                                                      |
 |-----------------------|------------------------------------------------------|------------------------------------------------------------|
-| Executive Sponsor     | Ashely Kramer                                        | Acting CTO                                                 |
+| Executive Sponsor     | Ashley Kramer                                        | Acting CTO                                                 |
 | Facilitator           | Justin Farris                                        | Senior Director of Product Management |
 | Functional Lead       | Wayne Haber                                          | Director of Engineering |
 | Functional Lead       | Christopher Lefelhocz                                | VP of Development                                          |
@@ -106,7 +106,7 @@ The process is [documented](/handbook/engineering/cross-functional-prioritizatio
 * Tag (at minimum) all potentially interested working group functional leads and when there is impact to product `gl-product-leadership` in all merge requests to solicit feedback.
 * Wait two business days to gather and respond to feedback before submitting merge requests to the codeowners for review and merge.
 * Announce all merge requests in the working group slack channel and/or in the standup meeting for working group awareness.
-* Announce all big changes and status updates in the `#product` `#vp-development` `#ux_managers` `#quality-managers` `#eng-managers`  `#development` slack channels, and in the weekly engineering work in review document.
+* Announce all big changes and status updates in the `#product` `#vp-development` `#ux_leadership` `#quality-managers` `#eng-managers`  `#development` slack channels, and in the weekly engineering work in review document.
 * Add the `wg-cross-functional-prioritization` label to all issues and merge requests so they can be tracked
 * Add milestone so PM operations can serve up a filter by label/milestone
 * Summarize changes for PM and other quad groups (sourced using the label search and/or milestone) every ~two weeks.

@@ -29,7 +29,8 @@ The Support team is not allowed to make changes to the contact information in th
 To forward or resend a license:
 
 - Find the license by following steps 1 and 2 mentioned in the [above section](#overview). 
-- To resend the license to the same user, click the `Resend to customer via email` button on the right. (Looks like an envelope icon)
+- To resend the license to the same user, click the `Resend to customer via email` button on the right. (Looks like an envelope icon). 
+    - **Note:** For Cloud Activation codes, follow the process to [update the `Sold To` contact in Zuora](https://about.gitlab.com/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.html#zuora-contact-change) before resending. ([Reference](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/app/models/subscription.rb#L589)).
 - To forward the license to a different address using the `Forward license email` function. 
     1. Navigate to the `Forward license email` tab. 
     1. Enter the `Destination email address`. **NOTE** It is currently not possible to copy (cc) or send to multiple contacts at once.

@@ -16,8 +16,8 @@ canonical_path: "/company/okrs/"
 ## Most recent OKRs
 
 All our OKRs are public and listed on the pages below.
-- [FY23-Q3 Active](/company/okrs/fy23-q3/){:data-ga-name="fy23-q3"}{:data-ga-location="body"}
-- [FY23-Q4 Future](/company/okrs/fy23-q4/){:data-ga-name="fy23-q3"}{:data-ga-location="body"}
+- [FY23-Q4 Active](/company/okrs/fy23-q4/){:data-ga-name="fy23-q4"}{:data-ga-location="body"}
+- [FY24-Q1 Future](/company/okrs/fy24-q1/){:data-ga-name="fy24-q1"}{:data-ga-location="body"}
 - [Previous OKRs](#okr-archive){:data-ga-name="okr archive"}{:data-ga-location="body"}
 
 ## What are OKRs?
@@ -64,7 +64,7 @@ Objectives should be:
       1. Be recognized as an industry leader in a category
 1. **Meaningful** - A top priority that advances GitLab’s strategy and greater mission; provides direction to departments, teams, and individuals about where we are going and how we are getting there. 
 1. **Inspirational** - By providing an aspirational yet meaningful target, empower teams to reprioritize work to focus on what makes the most progress against an objective; to accomplish this, objective should also be easy to remember.
-1. **Align Teams & Individuals** - Need to be broad enough broad enough to be relevant to at least more than one department, team, or individual one level down, but also specific enough that the objective can be measurable by up to three key results; if associated Key Results are satisfied, Objective should be achieved.
+1. **Align Teams & Individuals** - Need to be broad enough to be relevant to at least more than one department, team, or individual one level down, but also specific enough that the objective can be measurable by up to three key results; if associated Key Results are satisfied, Objective should be achieved.
    1. For example, a product-related OKR at CEO level such as increase users by 100% would have the Product leader as the DRI but every other function would also need to contribute to achieve that KR.
 1. **Clear, Responsible Party** - While aspirational objectives will often require collaboration and teamwork, they should have one DRI responsible for ensuring the completion the objective. This prevents [diffusion of responsbility](https://www.britannica.com/topic/bystander-effect/Diffusion-of-responsibility).
 1. **Focused** - A person or team should have no more than 3 Objectives in order to focus on only the highest priority items; this also provides clarity on **what we will not do** in order to remain focused. 
@@ -367,6 +367,7 @@ To update please make a merge request and post a link to the MR in the #okrs cha
 * [A Modern Guide to Lean OKRs](https://worldpositive.com/a-modern-guide-to-lean-okrs-part-i-c4a30dba5fa1)
 
 ## OKR Archive
+- [FY23-Q3 Active](/company/okrs/fy23-q3/){:data-ga-name="fy23-q3"}{:data-ga-location="body"}
 - [FY23-Q2](/company/okrs/fy23-q2/){:data-ga-name="fy23-q2"}{:data-ga-location="body"}
 - [FY23-Q1](/company/okrs/fy23-q1/){:data-ga-name="fy23-q1"}{:data-ga-location="body"}
 - [FY22-Q4](/company/okrs/fy22-q4/){:data-ga-name="fy22-q4"}{:data-ga-location="body"}

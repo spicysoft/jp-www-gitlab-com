@@ -4,7 +4,7 @@ locality:
 country: Remote
 role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
   Manage:Foundations
-reports_to: leipert
+reports_to: sam-beckham
 picture: markrian.jpg
 twitter: mdflorian
 gitlab: markrian
@@ -36,6 +36,5 @@ domain_expertise:
 - frontend_security
 - foundations_buddy
 specialty:
-- 'Ecosystem: Foundations'
-- " Ecosystem"
+- 'Manage: Foundations'
 

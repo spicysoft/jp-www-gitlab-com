@@ -8,22 +8,23 @@ regions:
   - Oceania
 
 topics:
-  - Remote Work
-  - 'Diversity, Inclusion, and Belonging'
   - CI/CD
-  - Git
-  - Security
+  - Cloud Native
+  - Data Science
   - DevOps
-  - Open Source
+  - 'Diversity, Inclusion, and Belonging'
+  - Documentation
   - Education
   - Engineering
-  - SRE / Operations
-  - Kubernetes
-  - Monitoring & Observability
-  - UX Design
-  - Documentation
-  - Cloud Native
+  - Git
   - GitOps
-  - MLOps
-  - Data Science
+  - Kubernetes
   - Machine Learning
+  - MLOps
+  - Monitoring & Observability
+  - Open Source
+  - Project Planning
+  - Remote Work
+  - Security
+  - SRE / Operations
+  - UX Design

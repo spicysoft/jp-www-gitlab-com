@@ -79,7 +79,7 @@ The Senior UX Researcher is a [grade 7](/handbook/total-rewards/compensation/com
 
 * Drive a company-wide research-based measure: design or improve upon a methodology (if needed), collect and report out findings.
 
-* Demonstrate thought leadership by delivering 2 [strategic research](/handbook/product/ux/ux-research-training/strategic-research-at-gitlab/) projects per year.
+* Demonstrate thought leadership by delivering 2 [strategic research](/handbook/product/ux/ux-research/strategic-research-at-gitlab/) projects per year.
 
 * Communicate, advocate for, and socialize actionable insights in a clear and compelling way
 
@@ -109,9 +109,6 @@ The Staff UX Researcher reports to the Director of User Experience Research.
 
 The Staff UX Researcher is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-**Market Justification for Staff Level:** 
-At GitLab, engineering has a formal [dual career track](/handbook/engineering/career-development/#individual-contribution-vs-management) to be able to continue to grow and develop as a manager of people or an individual contributor. 
-
 #### Staff Responsibilities
 * Through your research, build a knowledge base that positions yourself as a thought leader within GitLab.
 
@@ -127,7 +124,7 @@ At GitLab, engineering has a formal [dual career track](/handbook/engineering/ca
 
 * Develop and maintain the GitLab strategic research program. Educate and mentor others on strategic research while demonstrating the value of strategic research.
 
-* Demonstrate thought leadership by delivering six [strategic research](/handbook/product/ux/ux-research-training/strategic-research-at-gitlab/) projects per year to showcase.
+* Demonstrate thought leadership by delivering six [strategic research](/handbook/product/ux/ux-research/strategic-research-at-gitlab/) projects per year to showcase.
 
 * Deliver impactful research that informs decisions across our product lifecycle.
 
@@ -154,9 +151,6 @@ The Principal UX Researcher reports to the Director of User Experience Research.
 #### Principal Job Grade
 
 The Principal UX Researcher is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-**Market Justification for Principal Level:** 
-At GitLab, engineering has a formal [dual career track](/handbook/engineering/career-development/#individual-contribution-vs-management) to be able to continue to grow and develop as a manager of people or an individual contributor. 
 
 #### Principal Responsibilities
 - Through your research, build a knowledge base that positions yourself as a thought leader and subject matter expert within GitLab.
@@ -190,10 +184,6 @@ At GitLab, engineering has a formal [dual career track](/handbook/engineering/ca
 - Lead and mentor other Researchers.
 
 - **Impact:** Provide positive influence on [Perception of System Usability](/handbook/product/ux/performance-indicators/#perception-of-system-usability) through deeper understanding of the "why" behind usability complaints and [UX Research Velocity](/handbook/product/ux/performance-indicators/#ux-research-velocity) through guidance that enables other functions (like Product Management and Product Design) to conduct their own research.
-
-## Career Ladder
-
-For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/career-development/#roles) handbook page.
 
 ## Hiring Process
 

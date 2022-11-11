@@ -32,7 +32,6 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
 * {:.trans-20}[コミュニケーション](/handbook/communication/)
   * {:.trans-10}[YouTube](/handbook/marketing/marketing-operations/youtube/)
   * {:.trans-10}[Zoom ウェビナー](/handbook/communication/zoom/webinars/)
-  * {:trans-21}[ドキュメンテーション](/handbook/documentation/)
 * {:.trans-10}[カルチャー](/company/culture/)
   * {:.trans-10}[オールリモート](/company/culture/all-remote/guide/)
     * おすすめ
@@ -140,8 +139,7 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
     * {:.trans-10}[性別・性的指向の定義とFAQ](/handbook/people-group/orientation-identity/)
     * {:.trans-10}[無意識の偏見](/company/culture/inclusion/unconscious-bias/)
   * {:.trans-10}[労働・雇用に関するお知らせ](/handbook/labor-and-employment-notices/)
-  * {:.trans-30}[直接責任者 DRI](/handbook/people-group/directly-responsible-individuals/)
-  * {:.trans-10}[リーダーシップ](/handbook/leadership/)
+   * {:.trans-10}[リーダーシップ](/handbook/leadership/)
   * {:.trans-10}[ラーニング＆デベロップメント](/handbook/people-group/learning-and-development/)
   * {:.trans-10}[オフボーディング](/handbook/people-group/offboarding/)
   * {:.trans-10}[オンボーディング](/handbook/people-group/general-onboarding/)
@@ -173,16 +171,18 @@ GitLabチームハンドブックは、会社を運営の仕方を集めた場�
   * {:.trans-00}[インキュベーション・エンジニアリング部](/handbook/engineering/incubation/)
   * {:.trans-00}[インフラ部門](/handbook/engineering/infrastructure/)
   * {:.trans-00}[品質部](/handbook/engineering/quality/)
-  * {:.trans-00}[セキュリティー部](/handbook/engineering/security/)
-      * {:.trans-00}[セキュリティ・エンジニアリング](/handbook/engineering/security/#secure-the-product--security-engineering)
-      * {:.trans-00}[セキュリティ運用](/handbook/engineering/security/security-operations/)
-      * {:.trans-00}[脅威のマネジメント](/handbook/engineering/security/threat-management/)
-      * {:.trans-00}[セキュリティ保証](/handbook/engineering/security/security-assurance/)
   * {:.trans-10}[UX部](/handbook/product/ux/)
     * {:.trans-10}[テクニカル・ライティング](/handbook/product/ux/technical-writing/)
     * {:.trans-10}[UXリサーチ](/handbook/product/ux/ux-research/)
   * {:.trans-00}[セキュリティ対策](/handbook/security/)
   * {:.trans-00}[オープンソース](/handbook/engineering/open-source/)
+
+## セキュリティー
+* {:.trans-00}[セキュリティー部](/handbook/engineering/security/)
+  * {:.trans-00}[セキュリティ・エンジニアリング](/handbook/security/#secure-the-product--security-engineering)
+  * {:.trans-00}[セキュリティ運用](/handbook/security/security-operations/)
+  * {:.trans-00}[脅威のマネジメント](/handbook/security/threat-management/)
+  * {:.trans-00}[セキュリティ保証](/handbook/security/security-assurance/)
 
 ## マーケティング {#marketing}
 

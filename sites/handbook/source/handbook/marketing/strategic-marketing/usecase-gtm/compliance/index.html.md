@@ -93,7 +93,7 @@ GitLab Software Compliance solution overview
 
 | Market Requirements | How GitLab Delivers | GitLab Category | Demos |
 | ------ | ------ | ------ | ------ |
-| Common compliance controls |  GitLab provides [many common controls](https://docs.gitlab.com/ee/administration/compliance.html) throughtout the SDLC, [Audit events](https://docs.gitlab.com/ee/administration/audit_events.html) [Compliance Management](https://about.gitlab.com/direction/manage/compliance-management/) | Access and Compliance within the Manage stage | |
+| Common compliance controls |  GitLab provides [many common controls](https://docs.gitlab.com/ee/administration/compliance.html) throughtout the SDLC, [Audit events](https://docs.gitlab.com/ee/administration/audit_events.html) [Compliance Management](https://about.gitlab.com/direction/govern/compliance/compliance-management/) | Access and Compliance within the Manage stage | |
 | Automated policy enforcement | [Security policies](https://docs.gitlab.com/ee/user/application_security/policies/#policy-management) can be managed in one place while [compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation) helps admins easily apply compliance policies across projects. | Govern | [![Compliance pipelines](../../images/youtube_social_icon_red-32x23.png) Compliance pipelines](https://www.youtube.com/watch?v=jKA_e_jimoI) |
 | Audit reporting | GitLab tracks [audit events](https://docs.gitlab.com/ee/api/audit_events.html) across the entire SDLC and [report them](https://docs.gitlab.com/ee/administration/audit_reports.html) | Access and Compliance within the Manage stage |
 | Security Governance | Security Policy Automation, [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation), [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) and [Vulnerability Reports](https://docs.gitlab.com/ee/user/application_security/vulnerability_report/), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), [License compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) | Govern, Secure |
@@ -341,9 +341,9 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 
 ### Additional Documentation Links
 
-- [GitLab Security Compliance Controls](/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html)
+- [GitLab Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls.html)
 - [GitLab Security Practices](/handbook/security/)
-- [Security Planning](/handbook/engineering/security/planning/)
+- [Security Planning](/handbook/security/planning/)
 
 ### Enablement and Training
 

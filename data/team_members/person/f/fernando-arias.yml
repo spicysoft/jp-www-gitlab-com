@@ -1,0 +1,24 @@
+---
+name: Fernando Arias
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer,
+  Secure:Composition Analysis</a>
+reports_to: olivier-g
+picture: fernandoarias.png
+gitlab: farias-gl
+departments:
+- Engineering Function
+- Development Department
+- Sec Section
+- Secure:Composition Analysis FE Team
+- Frontend
+projects:
+  gitlab: trainee_maintainer frontend
+story: |
+  Fernando is a web developer who loves contributing to open source projects. Having entered web development in 2011, he has worked building
+  UI/UX for IT Management/InfoSec products like Spiceworks and Metasploit Pro. On his free time he enjoys competitive paintball, photography,
+  and drone flying.
+specialty:
+- 'Secure: Composition Analysis'
+

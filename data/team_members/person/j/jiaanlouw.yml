@@ -4,8 +4,8 @@ locality:
 country: Remote
 pronunciation: Yee-ahn Low
 role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
-  Govern:Compliance
-reports_to: nrosandich
+  Analyze:Product Analytics
+reports_to: dennis
 picture: jiaan.png
 twitter:
 gitlab: jiaan
@@ -14,9 +14,8 @@ departments:
 - Engineering Function
 - Development Department
 - Dev Section
-- Govern:Compliance FE Team
+- Analyze:Product Analytics FE Team
 - Frontend
-- Govern:Compliance Fullstack Team
 story: |
   Jiaan has a backgorund in fullstack and game development.
   He is passionate about building automated solutions and great
@@ -25,6 +24,5 @@ story: |
 projects:
   gitlab: maintainer frontend
   gitlab-ui: reviewer frontend
-specialty:
-- 'Manage: Compliance'
+specialty: Analytics
 

@@ -32,7 +32,7 @@ Use the **Earnings Toolkit** to perform outreach, get customer legal permissions
  - **[Enablement Video for Nomination Process](https://www.youtube.com/watch?v=8Le_Ovglnq8&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=63)**
  
    1. Sales team member nominates champion by pushing the [**Nominate a Reference** button on the **individual champion's name** in SFDC.](https://gitlab.my.salesforce.com/home/home.jsp) 
-   2. Sales team member works with the Technical Account Manager (TAM) to fill out the details for used stages, product purchased, and referenceable activities.
+   2. Sales team member works with the Customer Success Manager (CSM) to fill out the details for used stages, product purchased, and referenceable activities.
    3. CRM team is notified of nomination in SFDC, CRM creates a GitLab issue to manage the reference process
    4. If additional information is needed, CRM team will outreach to Account owner.
         - Account Owner may need to connect champion with customer reference team
@@ -52,7 +52,7 @@ Please access the resources below to search for suitable references to send to y
    1. [Case Reference Board](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=✓&state=opened)
    2. [Metrics Reference Board](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1794898)
    3. Quote Reference Board - **Coming Soon**
-If you have specific reference needs that are not addressed in the resources above; please advise us on our slack channel (Customer_References) and also in the customer facing slack channels (SA/TAM/Customer Success) so we can collaborate to support you.
+If you have specific reference needs that are not addressed in the resources above; please advise us on our slack channel (Customer_References) and also in the customer facing slack channels (SA/CSM/Customer Success) so we can collaborate to support you.
 
 
 ### Requesting a Reference Customer to support a sales call
@@ -62,7 +62,7 @@ If you have specific reference needs that are not addressed in the resources abo
    3. Fill out required information and include any customer forms that may be required.
    4. Hit submit and wait for the approval for the call from the champion's account owner
    5. [Sales enablement video on GitLab Unfiltered with this process](https://www.youtube.com/watch?v=8Le_Ovglnq8&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=63)
-   6. If the sales member is unable to find the correct reference customer from within ReferenceEdge, they should post their needs in the various slack  channels (Customer success/TAM etc) to request support from customer facing teams to identify the correct customer.
+   6. If the sales member is unable to find the correct reference customer from within ReferenceEdge, they should post their needs in the various slack  channels (Customer success/CSM etc) to request support from customer facing teams to identify the correct customer.
    7. Please tag your regional CRM in this sourcing activity so that it can be supported and tracked.
 
  [Reference Edge Intro Video](https://www.point-of-reference.com/wp-content/uploads/2020/07/WhyWouldntYou-Video.mp4).

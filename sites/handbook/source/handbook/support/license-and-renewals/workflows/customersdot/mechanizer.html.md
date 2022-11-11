@@ -61,7 +61,7 @@ Please note that in order to extend or renew a trial, the customer **MUST** have
 
 These two  fields are mandatory:
 
-- **Namespace**: The customer's namespace as it appears in the URL.  For example, if the customer namespace is located at http://gitlab.com/gitlab-com then the namespace would be `gitlab-com`. Please confirm through your own observation and through communication with Sales, the TAM, or the customer that the namespace is the one with the subscription or trial to be updated.
+- **Namespace**: The customer's namespace as it appears in the URL.  For example, if the customer namespace is located at http://gitlab.com/gitlab-com then the namespace would be `gitlab-com`. Please confirm through your own observation and through communication with Sales, the CSM, or the customer that the namespace is the one with the subscription or trial to be updated.
 - **Plan**: The subscription plan that you would like applied for the customer's group.  If the `free` option is selected, the customer's namespace will immediately be downgraded and the trial or subscription ended.
 
 These two fields are optional:
@@ -89,10 +89,14 @@ Uses the `unlink_customer` function.
 ### Emergency license generation
 
 Generates a legacy Ultimate trial license valid for 10 days and emails it to the customer email specified in the form.
-The use of this feature should be limited for any emergency license request during the weekends. 
+The use of this feature should be limited for any emergency license requests when L&R is unavailable, such as during the weekends. 
 
-- **Customer email:** The email where the license will be sent.
-- **User count:** Total number of users in the license.
+- **Customer email:** The email where the license will be sent. We recommend sending the license to the ticket requester's email, unless specified otherwise.
+- **User count:** Total number of users in the license. 
+
+A note on **User Count**:
+
+For Self-Managed licences, GitLab will refuse to install a license key with less than the current number of billable users. Therefore, **User Count** for a trial license should _at least_ be the same number as the current number of billable users plus any true-ups owed (if any).  For example, if 25 current billable users, and 5 true-ups owed, set **User Count** to at least 30.
 
 ### Add storage to a namespace
 
@@ -103,10 +107,10 @@ Sets additional storage for a namespace to the value specified in the `Extra sto
 
 ### Set max seats
 
-Modifies the total number of seats in a SaaS subscription.
+Modifies the highest number of seats used on the namespace during the current subscription term.  
 
 #### Note
-This will change the total seats in the GitLab.com subscription, but the existing order will have the original value. Before using this option check with a support manager.
+This will change the total seats owed in the GitLab.com subscription. Before using this option check with a support manager.
 
 - **Namespace:** The customer namespace as it appears in the URL.
 - **Max Seats number:** New value for max seats.

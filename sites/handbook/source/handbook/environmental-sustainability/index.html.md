@@ -1,7 +1,7 @@
 ---
 layout: markdown_page
-title: GitLab Environmental Sustainability
-description: "An overview of sustainability at GitLab."
+title: GitLab Corporate Sustainability
+description: "An overview of corporate sustainability at GitLab."
 canonical_path: "/handbook/environmental-sustainability/"
 ---
 
@@ -37,7 +37,7 @@ While reducing GitLab's emissions is one lever for managing our carbon footprint
 | Carbon Removal | when one metric ton of CO2 is emitted, one metric ton is removed completely from the atmosphere | High | Medium |
 | Social Offset | the [total cost to society](https://impactlab.org/research/updating-the-united-states-governments-social-cost-of-carbon/) from the release of a ton of CO2 emissions | Highest | Highest ([$125](https://impactlab.org/research/updating-the-united-states-governments-social-cost-of-carbon/)) |
 
-In 2021, GitLab purchased carbon offsets. We may choose to focus on carbon removal or social offsets in future iterations.
+Since 2021, GitLab has purchased carbon offsets. We may choose to focus on carbon removal or social offsets in future iterations.
 
 ### Quantifying carbon emissions and offsets for 2021
 
@@ -76,8 +76,8 @@ We can use our assumptions to calculate estimated emission for 2021 assuming no 
 
 ### Carbon Credits Purchased 
 
-In 2020, GitLab offset 1,379 tonnes of CO2 emissions via carbon credits for [Contribute](/events/gitlab-contribute/) travel for an estimate of 1,000 employees who would travel for the event. The Contribute event was cancelled because of the Covid-19 pandemic. In the second quarter of calendar year 2021, GitLab offset 19,182 tonnes of CO2 emissions via carbon credits. In total, GitLab has offset 20,507 tonnes of CO2 emissions via carbon credits.
-##### CY2021 carbon offset projects supported
+In 2020, GitLab offset 1,379 tonnes of CO2 emissions via carbon credits for [Contribute](/events/gitlab-contribute/) travel for an estimate of 1,000 employees who would travel for the event. The Contribute event was cancelled because of the Covid-19 pandemic. In the second quarter of calendar year 2021, GitLab offset 19,182 tonnes of CO2 emissions via carbon credits. To date, GitLab has offset 23,223 tonnes of CO2 emissions via carbon credits.
+##### Select carbon offset projects supported
 
 | Name | Region | Focus | Quantity Purchased (metric tonnes) |
 | ------ | ------ | ------ | ------ |
@@ -93,17 +93,9 @@ In 2020, GitLab offset 1,379 tonnes of CO2 emissions via carbon credits for [Con
 
 GitLab's historical team member numbers are [limited access](/handbook/communication/confidentiality-levels/#limited-access), but we have internally estimated emissions and cost since GitLab's incorporation in 2014. Our 2021 emission estimates for a non-pandemic year serve as a baseline that we can scale by the average number of employees in a given year. 
 
-We'll continue to increase our sophistication of calculation and explore opportunities for future investment.
+### Future iterations
 
-### Future iterations for sustainability quantification
+GitLab will conduct a formal Greenhouse Gas Inventory in calendar year 2023 as part of the creation of the company's corporate sustainability program.
 
-Our calculations are rough estimates and there is more that we can do to refine our calcuation in future iterations. For example:
 
-1. Consider vendor emissions (e.g. swag vendors)
-1. Include travel in addition to plane travel
-1. Consider non-field team member travel beyond [Contribute](/events/gitlab-contribute/)
-1. Include service providers in addition to main cloud provider service
-1. Update for future years as travel picks up post-pandemic
-1. Support team members in reducing their emissions at home
-1. Encourage team members to volunteer with climate action organizations in their local areas
 

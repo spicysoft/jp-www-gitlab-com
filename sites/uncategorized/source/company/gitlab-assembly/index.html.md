@@ -107,7 +107,7 @@ There were a number of problems that presented themselves. Below is a list of th
 | People were locked out of the doc. |* We have 1-5 people designated as "typers" and everyone else gets view-only access of the doc. Questions are submitted via the Zoom chat.<br>* Could use a slack channel and threaded responses.<br> * GitLab Issues|
 | People were locked out of the slides. | Share a PDF of the slides in #companyannouncements before the call, so that people who are locked out can still follow along. |
 | Because this was a last minute idea that we executed on, we were only able to coordinate for one time. | We should have this at least twice, once in EMEA friendly time zones and one in APAC friendly time zones. Earlier scheduling will make this possible. |
-| There were a lot of acronyms and concepts where it would be helpful to have a primer ahead of time so I could track better — things like ARR or TAM come to mind. | Make sure all acronyms are defined upfront. |
+| There were a lot of acronyms and concepts where it would be helpful to have a primer ahead of time so I could track better — things like ARR or CSM come to mind. | Make sure all acronyms are defined upfront. |
 | The slide presenter dance | The "next slide please" dance? Something else? |
 | Kickoff felt a bit like an extended GC and not visionary enough | Tailor content more appropriately to inspirational/visionary, especially at the beginning |
 

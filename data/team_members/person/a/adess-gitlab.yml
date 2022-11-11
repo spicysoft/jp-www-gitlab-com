@@ -1,0 +1,22 @@
+name: Alexander Dess
+locality: 
+country: Remote
+role: <a href="">Senior Solutions Architect</a>
+reports_to: drelli
+picture: adess.jpg
+pronouns:
+pronunciation:
+twitter: https://twitter.com/dessCloud
+linkedin: https://www.linkedin.com/in/adess/
+gitlab: adess-gitlab
+departments:
+  - SA
+specialty: "Customer Success"
+domain_expertise:
+- Kubernetes
+- Prometheus
+- Linux
+- AWS Infrastrucutre (Certified)
+- VMware
+story:
+

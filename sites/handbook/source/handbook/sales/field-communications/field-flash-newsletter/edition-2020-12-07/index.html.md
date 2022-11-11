@@ -34,7 +34,7 @@ Ian Chiang and Jonathan Lim highlight their $349K+ Expand deal with a large APAC
 Have a deal you'd like to nominate? Fill out the [nomination form](https://forms.gle/7AYwzgFStrai5D2F7).
 
 ### New and Noteworthy Resources 📓
-The Risk and Field Security team has launched [GitLab AnswerBase](/handbook/engineering/security/security-assurance/field-security/answerbase.html) – a one-stop-shop for Customer-ready security questions and answers designed to help reduce bottlenecks and provide you with a self-serve tool to sell better and faster. [Watch this 6-minute demo video](https://youtu.be/X05JKei53H8) to learn more about how to use the tool. [Check it out -->](https://gitlab.com/gitlab-private/sec-compliance/field_security/security-standard-answers-rfp/-/issues?scope=all&utf8=%E2%9C%93&state=closed)
+The Risk and Field Security team has launched [GitLab AnswerBase](/handbook/security/security-assurance/field-security/answerbase.html) – a one-stop-shop for Customer-ready security questions and answers designed to help reduce bottlenecks and provide you with a self-serve tool to sell better and faster. [Watch this 6-minute demo video](https://youtu.be/X05JKei53H8) to learn more about how to use the tool. [Check it out -->](https://gitlab.com/gitlab-private/sec-compliance/field_security/security-standard-answers-rfp/-/issues?scope=all&utf8=%E2%9C%93&state=closed)
 
 GitLab was ranked 162 on the 2020 Deloitte Technology Fast 500 list, which ranks the fastest-growing technology, media, telecommunication, life sciences, and energy tech companies (both public and private) in North America. Also, GitLab's 13.0 release recently won a [2020 CRN Tech Innovator Award for IT/Application Automation](https://www.crn.com/slide-shows/cloud/the-2020-tech-innovator-awards/17). [Read More and Share -->](https://www2.deloitte.com/us/en/pages/technology-media-and-telecommunications/articles/fast500-winners.html)
 
@@ -58,7 +58,7 @@ GitLab is running **multiple integrated campaigns meant to highlight our CI, sec
 1. [GitHub Competitive Campaign](https://gitlab.com/groups/gitlab-com/-/epics/1031) - Dec. 1
 1. [Jenkins Competitive Campaign](https://gitlab.com/groups/gitlab-com/-/epics/1029) - Nov. 16
 
-Find more information and supporting resources in the epic links above. Remember that you can add a prospect to a nurture campaign [using this issue template](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-add-nurture), and you can access all of our competitive content, including detailed Decision Kits, from the [DevOps Tools Landscape page](https://about.gitlab.com/devops-tools/). 
+Find more information and supporting resources in the epic links above. Remember that you can add a prospect to a nurture campaign [using this issue template](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-add-nurture), and you can access all of our competitive content, including detailed Decision Kits, from the [DevOps Tools Landscape page](https://about.gitlab.com/competition/). 
 
 ----
 There are **only 2 months left to secure your spot at President’s Club 2021 at the Ritz Carlton in Maui, Hawaii from May 11-14, 2021**! Check out the leaderboard across roles in the [President’s Club Dashboard](https://app.periscopedata.com/app/gitlab/670929/FY21-President's-Club-Dashboard) and refresh your memory on President's Club selection criteria and FAQs on the [President's Club Handbook page](/handbook/sales/club/).
@@ -111,7 +111,7 @@ For a full list of virtual events, see a convenient [calendar view in the Market
 - [GitLab Partner Tech Chat: Running Sprint Meetings (Scrum) using Boards and Iterations](https://gitlab.zoom.us/meeting/register/tJAqceisqjooGdB2yRBTpBdmPTYdCHW2gWtd) - Dec. 10
 
 ### Enablement Corner 🧠
-Throughout December, the Field Enablement team will launch the first [Field Certification Program](/handbook/sales/training/field-certification/) courses for SALs, AEs, SAs & TAMs. This program will help us achieve predictability as a business and recognize individual mastery of the skills and knowledge you need to thrive in your role. Look out for more information coming very soon about the first course for your role!
+Throughout December, the Field Enablement team will launch the first [Field Certification Program](/handbook/sales/training/field-certification/) courses for SALs, AEs, SAs & CSMs. This program will help us achieve predictability as a business and recognize individual mastery of the skills and knowledge you need to thrive in your role. Look out for more information coming very soon about the first course for your role!
 
 ----
 YOUR input is needed so Field Enablement can make it easier to find valuable content when you need it to support your customer engagements. [Please complete this survey](https://gitlab.fra1.qualtrics.com/jfe/form/SV_d51m0MuwRnpJ6Xb) (10 minutes or less) to help us better understand how you currently find and create content.

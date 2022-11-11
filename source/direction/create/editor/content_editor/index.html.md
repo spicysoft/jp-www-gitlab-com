@@ -10,7 +10,7 @@ canonical_path: "/direction/create/editor/content_editor/"
 
 ## Content Editor
 
-**Content last reviewed on 2022-08-03**
+**Content last reviewed on 2022-10-27**
 
 Thanks for visiting the direction page for the Content Editor, a what-you-see-is-what-you-get (WYSIWYG) editor for Markdown content maintained by the [Editor](/handbook/product/categories/#editor-group) group. While not a singular feature or official category in itself, the Content Editor is a critical component and cornerstone of the Editor group's strategy. More information about the Editor group's priorities and direction can be found on the [Editor group direction page](/direction/create/editor/) and additional questions can be directed to Eric Schurter ([E-Mail](mailto:eschurter@gitlab.com)).
 
@@ -48,3 +48,7 @@ We have written [comprehensive development guidelines](https://docs.gitlab.com/e
 ### Just Markdown?
 
 We have to start somewhere. The beauty of the Content Editor architecture is that it can be extended to support other flavors of Markdown and even entirely separate formats like AsciiDoc or RDoc.
+
+### What's next? 
+
+Our current focus is on building out [support for the many extensions available in GitLab Flavored Markdown](https://gitlab.com/groups/gitlab-org/-/epics/5438) and achieving feature parity with the raw Markdown editor available when editing issue, epic, and MR descriptions and comments. We are also focused on building a front-end deserializer for Markdown to limit the need for a call to the backend service and providing more source mapping data to the editor. The primary benefit that comes from parsing Markdown on the front-end is that we can more [granularly identify which parts of the content are being edited](https://gitlab.com/groups/gitlab-org/-/epics/7256) and limit the amount of reformatting that happens during the round-trip from Markdown to HTML and back to Markdown. In the end, what we get here is less noisy page diffs, which will then allow us to work on integrating the Content Editor elsewhere across Gitlab. 

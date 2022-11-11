@@ -273,7 +273,7 @@ Request reference calls by pressing the "Find Reference Accounts" button at the 
 
 ## Adoption Guide
 
-The following section provides resources to help TAMs lead capabilities adoption, but can also be used for prospects or customers interested in adopting GitLab stages and categories.
+The following section provides resources to help CSMs lead capabilities adoption, but can also be used for prospects or customers interested in adopting GitLab stages and categories.
 
 ### Playbook Steps
 
@@ -342,7 +342,7 @@ We are committed to lowering the barriers for organizations embarking on their C
 
 ### Premium
 **Why choose GitLab Premium for CD?**
-Premium  is ideal for scaling organizations for multi team usage, enabling organizations scale their DevOps delivery with advanced configuration, consistent standards and compliance. Take advantage of enterprise level priority support, including 24/7 uptime support, a named Technical Account Manager (TAM), and upgrade assistance.
+Premium  is ideal for scaling organizations for multi team usage, enabling organizations scale their DevOps delivery with advanced configuration, consistent standards and compliance. Take advantage of enterprise level priority support, including 24/7 uptime support, a named Customer Success Manager (CSM), and upgrade assistance.
 
 **Key features with Premium:**
 * [Dependency Proxy](https://docs.gitlab.com/ee/user/packages/dependency_proxy) - local proxy for packages

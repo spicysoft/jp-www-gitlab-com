@@ -45,7 +45,7 @@ Ordered alphabetically to avoid the perception that any TMRG is more important t
 | [GitLab API - Asia Pacific Islander](/company/culture/inclusion/tmrg-gitlab-api/) | [Christopher Wang](https://gitlab.com/cs.wang) [Steve Xu](https://gitlab.com/steve_xu) [Sheela Viswanathan](https://gitlab.com/sheelaviswanathan) | #api-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/api-tmrg) | [API Agenda](https://docs.google.com/document/d/17zJuZlWVg40mPjcybnGlj_mK2f4SEpRdrjq3s3Cseow/edit?usp=sharing) | David Hong and David Sakamoto |
 | [GitLab DiversABILITY](https://about.gitlab.com/company/culture/inclusion/erg-gitlab-diversability/) | [Kaitlyn Chappell](https://gitlab.com/kchappell) [Wil Spillane](https://gitlab.com/wspillane) | #diverse_ability | [Sign up for future meetings (google form)](https://forms.gle/5g2wVB577Lr7M3CH7) | [DiversABILITY Agenda](https://docs.google.com/document/d/130LH9QPewms025z4OFxNNUYnjcQ53D1049EZOL2WdWc/edit?usp=sharing) | TBC |
 | [Early Career Professionals](https://groups.google.com/a/gitlab.com/g/earlycareertmdg) | [Kristi Piechnik](https://gitlab.com/kpdoespr) and [Amruta Kulkarni](https://gitlab.com/akulks) | #early-career-tmdg | [Sign up for future meetings with Google Group](https://groups.google.com/a/gitlab.com/g/earlycareertmdg) | TBD | Craig Mestel |
-| [GitLab Generational Understanding](/company/culture/inclusion/tmrg-gitlab-generational-understanding/) | [Wayne Haber](https://gitlab.com/whaber) |#generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | Eric Johnson
+| [GitLab Generational Understanding](/company/culture/inclusion/tmrg-gitlab-generational-understanding/) | Miles Russell, Terri Chu, Darwin Sanoy | #generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | TBC
 | [Global Voices](/company/culture/inclusion/tmrg-global-voices) | [Eliran Mesika](https://gitlab.com/eliran.mesika) | #global-voices-tmrg | |  | 
 | [GitLab Latinx](/company/culture/inclusion/tmrg-gitlab-latinx/) | [Pilar Mejia](https://gitlab.com/pmejia) [Hugo Azevedo](https://gitlab.com/hugoazevedo) [Romer Gonzalez](https://gitlab.com/romerg) [Chris Cruz](https://gitlab.com/chriscruz) | #latinx | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/latinxtmrg) | [Latinx Agenda](https://docs.google.com/document/d/15I-Lp9BO1FgnSCxANPiTemrvbcSLppf_xp8I0vIUbPY/edit?usp=sharing) | Wendy Barnes |
 | Black @ GitLab | @aprilmarks @marcusbriancarter | #black-at-gitlab |  [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/black-tmrg) | [Black @ GitLab Agenda](https://docs.google.com/document/d/1G9Be3e3hjj3gexLmrmR1bqzaEErP-4BfDgJR4q_jUTw/edit#heading=h.vf9sdppkn4e0) | David DeSanto |
@@ -449,6 +449,37 @@ We have provided a number of optional resources for TMRGs to use that assist in 
 * [New TMRG Roadmap Template](https://docs.google.com/spreadsheets/d/19Qa6xLIaoxOBbPIoMjYTcL87lx1y1exGGB6z4iD64tY/edit?usp=sharing): This template gives some examples of a Roadmap for new or developing TMRGs
 * [Estabished TMRG Roadmap Template](https://docs.google.com/spreadsheets/d/19Qa6xLIaoxOBbPIoMjYTcL87lx1y1exGGB6z4iD64tY/edit?usp=sharing): This template gives some examples of a yearly roadmap for established or mature stage TMRGs
 * [Budget Tracker](https://docs.google.com/spreadsheets/d/1-BZrH1KsRBYl9r0EYEy6VXlKyvGGf585mwoj9Vz5rgA/edit?usp=sharing): This is a simple budget tracker for Lead or a treasurer of a TMRG to plan and keep a track of the annual budget given to TMRGs.
+
+### TMRG Goal Setting 
+
+Having short terms and long term goals for the TMRG is extremely important in developing and the continued success of the TMRG. Goals are vital to helping GitLab as a whole move to a more inclusive environment for your under-represented or at risk group.
+
+**Three advantages of setting goals:**
+
+- **Action orientated** - it is easy to get bogged down in a problems, issues or complaints. Having goals for issues will allow you to move from frustration to action
+- **Visibility** - Goals will allow you to talk to and broadcast goals to a wider audience including executive sponsor, GitLab leadership and wider team member population
+- **Make GitLab more Inclusive** - by setting goals for the TMRG you are ensuring that we bring in inclusive practices and move the needle for your TMRG 
+
+**How to set goals for the TMRG**
+
+- Work with the wider TMRG on the TMRGs priorities
+    - Leadership should distill these down into a manageable number of goals 
+- Utilise a goal setting methodology such as [OKRs](https://about.gitlab.com/company/okrs/) or [SMART](https://www.mindtools.com/pages/article/smart-goals.htm) to set the goals in a practical way
+- Add these goals to your quarterly strategy issue for the TMRG 
+- Assign a working group or DRI/s to the goal 
+- Share the goals with your executive sponsor and the wider GitLab team through the Monthly Initiatives Call 
+- Engage with key stakeholders, i.e. Talent Acquisition if the goal relates to hiring
+- Prepare for goal obstacles and push back. What are the values you are implementing with this goal?
+- Importantly! Define how the goal would be beneficial for the at-risk group and GitLab as a whole. This will help gain buy in from key stakeholders
+
+**Goal Setting Activities** 
+
+To help develop goals you may want to utilise goal setting activities to assist in identifying the right goals. 
+
+- Backward Goal Setting: This is where you start with a large goal or objective. Then distilling this down to smaller goals & objectives to achieve the larger goal. 
+
+- Success Goal Setting: Similar to the above, but you will define what success looks like, either with a measurable or an outlook. The set goals and objectives that will help get to that end state. 
+
 
 ### Finance & Budgets for TMRGs
 

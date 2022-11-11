@@ -19,7 +19,7 @@ description: "Frequently asked questions for GitLab team members regarding 2FA, 
 {: .panel-heading}
 <div class="panel-body">
 
-Inline with GitLab's regulatory obligations, changes to [controlled documents](https://about.gitlab.com/handbook/engineering/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged. 
+Inline with GitLab's regulatory obligations, changes to [controlled documents](https://about.gitlab.com/handbook/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged. 
 
 </div>
 </div>
@@ -51,17 +51,17 @@ Follow these steps to successfully set up 2FA for your [Google account](https://
 
 Follow these steps to reset your 2fa for [Okta](https://about.gitlab.com/handbook/business-technology/okta/#i-changed-my-phone-and-now-cant-do-mfa-what-do-i-do)
 
-When you get a new device, before you get rid of the old one, make sure to set up your authenticator app on the new device.
-You will need to log into your accounts with the old device and disable 2FA for your accounts.
-Then delete the accounts off the old device and re-enable the 2FA on your accounts on the authenticator app on the new device.
-If you still need a 2FA reset, please reach out to #it_help on slack with the system that needs it and the issue you are encountering.
+When you get a new device, before you get rid of the old one, make sure to install an authenticator app on the new device
+
+You will need to log into your Okta and GitLab related accounts on your laptop and authenticate with the 2FA appplication old device. Disable the 2FA for your accounts, then enable the 2FA on your accounts with the authenticator app on the new device.
+
+If you are unable to move 2FA from your old to the new device, please reach out to #it_help on Slack with which system you can't log into. 
+
+An IT Analyst will need to verify that it is you over a Zoom before doing a 2FA reset or any password resets, this is required for security purposes.
 
 ### Forgot my password
 
-We understand sometimes life happens and passwords get forgotten or deleted.
-If it is for a system that requires immediate access, please reach out on the slack #it_help channel.
-Provide as much information as possible.
-Password resets to sensitive systems such as your Google Workspace account and Okta require a zoom call to verify.
+If you require IT to reset your password and it requires immediate access, please reach out on the slack #it_help channel and provide as much information as possible. Password resets to sensitive systems such as your Google Workspace account and Okta. They require a Zoom call with an IT Analyst to verify that it is you before doing the reset, this is required for security purposes.
 
 ### Using GMail app on phone with Okta log in
 
@@ -82,7 +82,7 @@ A lot of people coming onboard to GitLab have had some sort of exposure to macOS
 
 - [Mac tips for Windows switchers](https://support.apple.com/en-us/HT204216)
 - [Mac Keyboard Shortcuts](https://support.apple.com/en-us/HT201236) - great to help your productivity!
-- [macOS : Catalina New Features](https://www.apple.com/au/macos/catalina/features/) - Apple's newest OS features
+- [macOS : Monterey New Features](https://www.apple.com/au/macos/monterey/features/) - Apple's newest OS features
 - [Got an iPad? - Check out Sidecar!](https://support.apple.com/en-afri/HT210380) - Apple iPad Sidecar
 - [How to use multiple workspaces on Mac](https://support.apple.com/guide/mac-help/work-in-multiple-spaces-mh14112/mac)
 
@@ -197,6 +197,62 @@ Check out the GitLab Tools and Tips pages for recommended software and applicati
 
 Our security team also did an amazing write-up for Linux installations - [Linux Setup](/handbook/tools-and-tips/linux/)
 
+### Installing OS Ventura
+
+**Pre-requisites**
+
+Before you install, please be sure to have the following:
+25 GBs of HD space
+The latest version of SentinelOne (22.2.3 or higher)
+
+**Download and Installation**
+
+The entire process will take a minimum of an hour depending on your internet speed. Please give yourself sufficient time to download and install the upgrade, avoid doing this upgrade before meetings. Once you are greeted with the login screen, the upgrade is complete. Be sure that you reboot a couple of times after the installation is complete.
+
+There's 2 ways to upgrade to Ventura
+
+**Self Service**
+
+1. Head to Finder on your Mac and select Applications
+2. Click on Self Service
+3. On the left hand side you'll see OS Updates, click on that
+4. From here you'll see the newest version of MacOS Big Ventura. Click on it to install. This will redirect you to the Apple Store where you can install the OS. 
+5. This can take upwards of an hour, so please factor in that time when you are updating
+
+**Check for Updates**
+
+1. Click on the Apple in the top left hand corner of your mac and then click on System Preferences
+2. Click on the general tab and then Software Updates > Check for updates
+3. You'll then have the chance to install either Ventura or the next update that is needed to then install OS Ventura
+
+
+### FAQ for issues with a new macOS update
+
+**How can I tell if my MacBook is using an Intel or an Apple M1/M2 chip?**
+
+Please refer to this [guide](https://support.apple.com/en-ca/HT211814#:~:text=To%20open%20About%20This%20Mac,as%20an%20Intel%2Dbased%20Mac)
+
+**My external monitor is not working properly?**
+
+Power cycle your [monitor](https://edu.gcfglobal.org/en/basic-computer-skills/how-to-power-cycle-a-device/1/)
+
+Try the troubleshooting steps from macOS User [guide](https://support.apple.com/en-nz/guide/mac-help/mchl7c7ebe08/mac)
+
+Reset your SMC if you’re using an Intel (i5, i7) [MacBook.](https://www.youtube.com/watch?v=wlkGh2flbvI)
+
+Reset your NVRAM and PRAM if you’re using an Apple M1/M2 [MacBook](https://www.youtube.com/watch?v=LoUO1RwMg1w)
+
+Replace your USB C hub for a Satechi Multi-Port Adapter, replace the cable that is connected from your monitor to your MacBook HDMI cable (higher end version)
+
+**Zoom is not working after I updated to Ventura** 
+
+You will need to uninstall and install Zoom again. Please follow this [guide:](https://support.zoom.us/hc/en-us/articles/201362983-Uninstalling-and-reinstalling-the-Zoom-application) 
+
+**Some of my applications are not working properly, what can I do?***
+
+Reinstall your specific applications that are not working properly.
+
+
 ### What is JAMF Self Service
 
 With the installation of JAMF comes Self Service which can be found in Applications. Jamf Self Service for macOS allows users to browse and install applications, configuration profiles and update your OS easily. 
@@ -212,7 +268,7 @@ Update to the newest OS
 1. Head to Finder on your Mac and select Applications
 2. Click on Self Service
 3. On the left hand side you'll see OS Updates, click on that
-4. From here you'll see the newest version of MacOS Big Sur. Click on it to install. This will redirect you to the Apple Store where you can install the OS. 
+4. From here you'll see the newest version of MacOS Big Ventura. Click on it to install. This will redirect you to the Apple Store where you can install the OS. 
 5. This can take upwards of an hour, so please factor in that time when you are updating
 
 Update your existing OS to the most recent version
@@ -303,7 +359,7 @@ Escalated issues should be made through the #it_help slack channel.
 All other request should have an issue created.
 
 ## Exceptions
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/engineering/security/#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
 
 ## References
-* Parent Policy: [Information Security Policy](/handbook/engineering/security/)
+* Parent Policy: [Information Security Policy](/handbook/security/)

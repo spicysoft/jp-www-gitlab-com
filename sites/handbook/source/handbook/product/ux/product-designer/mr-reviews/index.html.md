@@ -67,7 +67,9 @@ Always review the MR in a live environment, so that you can experience the chang
 
 #### Specific review requirements
 Some MRs have additional set up requirements. 
-- SaaS-only features: For testing SaaS-only features you'll need to run the GDK as a SaaS version. [Instructions for simulating SaaS version in the GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#how-to-test-features-only-available-on-saas-gitlabcom)
+- SaaS-only features: For testing SaaS-only features you'll need to run the GDK as a SaaS version. [Instructions for simulating SaaS version in the GDK](https://docs.gitlab.com/ee/development/ee_features.html#simulate-a-saas-instance)
+- Paid features: You'll need a license for these. Request a license via and [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new), using the GitLab_Team_Member_License_Request template. [Instructions for adding the license to your instance](https://docs.gitlab.com/ee/user/admin_area/license_file.html#add-your-license-file-during-installation).
+- You can also switch between CE and EE editions: [How to simulate a CE instance](https://docs.gitlab.com/ee/development/ee_features.html#simulate-a-ce-instance-when-unlicensed)
 - Pipeline-related features: You'll need to enable a runner to run a pipeline. Review apps have runners available by default. Instructions for enabling a runner in [Gitpod](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#enable-runners) or [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/runner.md).
 - Compliance: To test [audit event streaming](https://docs.gitlab.com/ee/administration/audit_event_streaming.html) MRs you might need to set a stream destination URL. You can use [Pipedream](https://pipedream.com/) to generate a temporary destination.
 - Fulfillment: Because of the complicated setup required for CustomersDot, only Fulfillment Product Designers should review CustomersDot MRs and GitLab MRs that require connection to CustomersDot (e.g., the GitLab.com purchase flow).
@@ -114,6 +116,7 @@ If you find yourself struggling to get your environment set up, try reaching out
 - When there are concerns with an MR consider the following actions to help progress the review:
    - Iterate instead of revert. Consider coaching and guiding the author of the MR towards an ideal solution.
    - Educate to collaborate. You may have more context of the problem than the author. Express your concerns and thoughts, and ask them how might they adapt their solution to accomodate the concerns.
+   - Get a second opinion. When you are uncertain about a change feel free to involve a [quad member](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) from your product group, your product design manager, and/or other designers. This can be done directly in the MR or in Slack channels.
    - Consider creating a follow up issue. The UX reviewer could create a follow up issue to address the concerns of the MR and inform the design DRI of it.
 
 ### Handoff the MR

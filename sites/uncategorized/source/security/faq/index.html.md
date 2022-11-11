@@ -25,15 +25,15 @@ To learn more, begin by downloading our [Community Customer Assurance Package](h
 
 **Does GitLab have an Information Security Program?**
 
-Yes. GitLab, Inc maintains a documented Information Security program that includes [policies and procedures](https://about.gitlab.com/handbook/engineering/security/#resources) including but not limited to Access Management, Data Classification and Protection, and Incident Response. Links to these documents are available on the [Customer Assurance Package](https://about.gitlab.com/security/cap/) site.
+Yes. GitLab, Inc maintains a documented Information Security program that includes [policies and procedures](https://about.gitlab.com/handbook/security/#resources) including but not limited to Access Management, Data Classification and Protection, and Incident Response. Links to these documents are available on the [Customer Assurance Package](https://about.gitlab.com/security/cap/) site.
 
 **Is GitLab's Security Program aligned with industry standards?**
 
-Yes. GitLab, Inc maintains a formal Security Assurance department responsible for monitoring and reporting on GitLab's compliance with various security frameworks. For the most up to date list of current security frameworks and certifications, roadmapped certifications, and instructions on obtaining assurance documentation, please reference [GitLab's Security Certifications and Attestations handbook page](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/certifications.html). GitLab has documented [Security Controls](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html) that meet common industry standards. 
+Yes. GitLab, Inc maintains a formal Security Assurance department responsible for monitoring and reporting on GitLab's compliance with various security frameworks. For the most up to date list of current security frameworks and certifications, roadmapped certifications, and instructions on obtaining assurance documentation, please reference [GitLab's Security Certifications and Attestations handbook page](https://about.gitlab.com/handbook/security/security-assurance/security-compliance/certifications.html). GitLab has documented [Security Controls](https://about.gitlab.com/handbook/security/security-assurance/security-compliance/sec-controls.html) that meet common industry standards. 
 
 **Does GitLab hold any 3rd Party Compliance Attestations?**
 
-Yes. GitLab, Inc currently has a SOC2 Type 2 Report, ISO 27001 certification, and several industry self-attestations that [can be provided under NDA](https://about.gitlab.com/security/cap/). For the most up to date list please review [GitLab's Security Certifications and Attestations handbook page](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/certifications.html).
+Yes. GitLab, Inc currently has a SOC2 Type 2 Report, ISO 27001 certification, and several industry self-attestations that [can be provided under NDA](https://about.gitlab.com/security/cap/). For the most up to date list please review [GitLab's Security Certifications and Attestations handbook page](https://about.gitlab.com/handbook/security/security-assurance/security-compliance/certifications.html).
 
 
 ### Cloud Security
@@ -49,7 +49,7 @@ As part of GitLab Inc's contracting process, GitLab provides all [terms and cond
 
 ### GitLab Control Framework
 
-In the spirit of GitLab Inc's [core value efficiency](https://about.gitlab.com/handbook/values/#efficiency), our Security Compliance team maintains [a set of security controls](https://about.gitlab.com/handbook/engineering/security/security-assurance/security-compliance/sec-controls.html) that address multiple underlying requirements. Some common controls are noted below. 
+In the spirit of GitLab Inc's [core value efficiency](https://about.gitlab.com/handbook/values/#efficiency), our Security Compliance team maintains [a set of security controls](https://about.gitlab.com/handbook/security/security-assurance/security-compliance/sec-controls.html) that address multiple underlying requirements. Some common controls are noted below. 
 
 **Does GitLab encrypt my data in transit and at rest?**
 
@@ -57,7 +57,7 @@ Yes. GitLab, Inc utilizes TLS Strict, HTTPS, and Universal SSL to encrypt data i
 
 **Does GitLab have an incident response plan?**
 
-Yes. GitLab, Inc has a dedicated [Security Incident Response team](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/sec-incident-response.html) and a documented [Incident Management Plan](https://about.gitlab.com/handbook/engineering/security/security-operations/sirt/#-incident-management-and-review) that  includes identification, containment, remediation and communication throughout the lifecycle of an incident. 
+Yes. GitLab, Inc has a dedicated [Security Incident Response team](https://about.gitlab.com/handbook/security/security-operations/sirt/sec-incident-response.html) and a documented [Incident Management Plan](https://about.gitlab.com/handbook/security/security-operations/sirt/#-incident-management-and-review) that  includes identification, containment, remediation and communication throughout the lifecycle of an incident. 
 
 **Does GitLab regularly undergo penetration testing by a 3rd party firm?**
 
@@ -114,7 +114,7 @@ We do not offer customers advance notice of security releases. We have two princ
 
 * We often perform critical security releases ad-hoc, especially in cases involving a great deal of urgency. In these scenarios, providing a pre-announcement is difficult and could even delay a critical fix, putting our customers at risk. Instead, we typically release as soon as we have a fix and notify via our [security notices mailing list](/company/contact/).
 
-We understand security releases and critical fixes aren’t always convenient for our users. We’re continuing to review and refine our communications processes surrounding critical security incidents and have set a goal of a [6 hour window for turnaround on customer communications related to an S1 severity vulnerability](/handbook/engineering/security/security-operations/sirt/security-incident-communication-plan.html#turnaround-on-customer-messaging) to get critical information into users’ hands as soon as possible.
+We understand security releases and critical fixes aren’t always convenient for our users. We’re continuing to review and refine our communications processes surrounding critical security incidents and have set a goal of a [6 hour window for turnaround on customer communications related to an S1 severity vulnerability](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#turnaround-on-customer-messaging) to get critical information into users’ hands as soon as possible.
 
 **The best way to stay on top of security releases and critical fixes is to subscribe to our [security notices mailing list](/company/contact/).**
 

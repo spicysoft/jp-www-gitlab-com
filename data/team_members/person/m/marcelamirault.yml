@@ -9,7 +9,7 @@ picture: marcelamirault.jpg
 twitter: ravlen1
 gitlab: marcel.amirault
 departments:
-- Engineering Function
+- Product Team
 - UX Department
 - Technical Writing
 projects:
@@ -32,5 +32,5 @@ story: |
 specialty:
 - 'Verify: Continuous Integration'
 - 'Verify: Pipeline Authoring'
-- Verify:Pipeline Insights
+- 'Verify: Pipeline Insights'
 

@@ -34,14 +34,14 @@ stages:
       - "secure"
       - "govern"
     section: dev
-    pm: Orit Golowinski
+    pm: Urvi Chetta
     em:
       - Michelle Gill
     groups:
       authentication_and_authorization:
-        name: Authentication & Authorization
+        name: Authentication and Authorization
         pm: Hannah Sutor
-        focus: Manage Authentication & Authorization Paid GMAU
+        focus: Manage Authentication and Authorization Paid GMAU
         pmm: Aathira Nair
         cm: Suri Patel
         backend_engineering_manager: Adil Farrukh
@@ -49,6 +49,8 @@ stages:
         be_team_tag: Manage:Authentication and Authorization BE Team
         fe_team_tag: Manage:Authentication and Authorization FE Team
         support:
+          - Alejandro Guerrero de Alba
+          - Gerardo Gutierrez
           - Cynthia Ng
         sets:
           - Sanad Liaquat
@@ -58,9 +60,9 @@ stages:
           - Daniel Mora
         uxr:
           - Anne Lasch
-        tech_writer: Evan Read
+        tech_writer: Jon Glassman
         appsec_engineer: Rohit Shambhuni
-        cs_team_tag: Authentication & Authorization Group CS Stable Counterpart
+        cs_team_tag: Authentication and Authorization Group CS Stable Counterpart
         internal_customers:
           - department: Customer Support Department
             dri: TBD
@@ -90,6 +92,7 @@ stages:
         be_team_tag: Manage:Workspace BE Team
         fe_team_tag: Manage:Workspace FE Team
         support:
+          - Asmaa Hassan
           - Cynthia Ng
         sets:
           - Valerie Burton
@@ -99,7 +102,7 @@ stages:
           - Mike Nichols
         uxr:
           - Anne Lasch
-        tech_writer: Fiona Neill
+        tech_writer: Lorena Ciutacu
         appsec_engineer: Rohit Shambhuni
         cs_team_tag: Access Group CS Stable Counterpart
         internal_customers:
@@ -201,8 +204,8 @@ stages:
       foundations:
         name: Foundations
         pm: Christen Dybenko
+        em: Sam Beckham
         focus: Driving Pajamas adoption
-        frontend_engineering_manager: Lukas Eipert
         fe_team_tag: Manage:Foundations FE Team
         support: TBD
         pdm:
@@ -530,7 +533,7 @@ stages:
         uxr:
           - Ben Leduc-Mills
         tech_writer: Amy Qualls
-        appsec_engineer: TBD
+        appsec_engineer: Greg Alfaro
         cs_team_tag: TBD
         internal_customers:
           - department: Engineering Department
@@ -571,7 +574,7 @@ stages:
         uxr:
           - Ben Leduc-Mills
         tech_writer: Ashraf Khamis
-        appsec_engineer: TBD
+        appsec_engineer: Greg Alfaro
         cs_team_tag: Editor Group CS Stable Counterpart
         internal_customers:
           - department: Marketing Department
@@ -586,7 +589,6 @@ stages:
             dri: TBD
         categories:
           - web_ide
-          - snippets
           - wiki
           - pages
           - remote_development
@@ -730,7 +732,7 @@ stages:
         fe_team_tag: Verify:Runner FE Team
         support:
           - Alexander Tanayno
-          - Nourdin el Bacha
+          - TBD
         qm: Joanna Shih
         sets:
           - Zeff Morgan
@@ -741,7 +743,7 @@ stages:
           - Erika Feldman
         ux:
           - Gina Doyle
-        tech_writer: Suzanne Selhorn
+        tech_writer: Fiona Neill
         appsec_engineer: Dominic Couture
         cs_team_tag: Runner Group CS Stable Counterpart
         infra_reliability_team_tag: Runner Group Reliability Stable Counterpart
@@ -761,6 +763,38 @@ stages:
         pi_gmau: https://app.periscopedata.com/app/gitlab/800667/GitLab-Runner-performance-indicator-metrics?widget=11518294&udv=1297938
         pi_pgmau: https://app.periscopedata.com/app/gitlab/800667/GitLab-Runner-performance-indicator-metrics?widget=11518294&udv=1297938
         analyst_reports: https://drive.google.com/drive/search?q=continuous%20integration%20parent:0B4LeL42bnImlbmZwcmhrTEthdkE
+
+      runner_saas:
+        name: "Runner SaaS"
+        pm: "Darren Eastman"
+        focus: Verify & Runner SaaS SMAU
+        cm: Chrissie Buchanan
+        pmm: Heather Simpson
+        fullstack_engineering_manager: Elliot Rushton
+        be_team_tag: Runner SaaS BE Team
+        support:
+          - tbd
+          - tbd
+        qm: Joanna Shih
+        sets:
+          - Zeff Morgan
+          - Aleksandr Lyubenkov
+        tech_writer: Fiona Neill
+        appsec_engineer: Dominic Couture
+        cs_team_tag: Runner SaaS Group CS Stable Counterpart
+        infra_reliability_team_tag: Runner Group Reliability Stable Counterpart
+        internal_customers:
+          - department: Infrastructure Department
+            dri: TBD
+          - department: Engineering Department
+            dri: TBD
+        categories:
+          - runner_saas
+        usage_driver_score: 5
+        asp_driver_score: 3
+        sam_driver_score: 2
+        group_link: product/categories/#runner-saas
+        pi_gmau: https://app.periscopedata.com/app/gitlab/1074396/Verify-Performance-Indicator-Dashboard?widget=15423299&udv=0
 
       pipeline_insights:
         name: "Pipeline Insights"
@@ -828,32 +862,72 @@ stages:
     section: ops
     slack:
       channel: s_package
-    handbook: product/categories/#package-stage
+    handbook: engineering/development/ops/package
     groups:
-      package:
-        name: Package
+      package_registry:
+        name: Package Registry
         pm: Tim Rizzi
-        focus: Package GMAU
+        focus: Package Registry GMAU
+        cm: Chrissie Buchanan
+        pmm: Heather Simpson
+        backend_engineering_manager: Carrie Kroutil
+        frontend_engineering_manager: Carrie Kroutil
+        be_team_tag: Package:Package Registry BE Team
+        fe_team_tag: Package:Package Registry FE Team
+        support:
+          - TBD
+        qm: Joanna Shih
+        sets:
+          - TBD
+        pdm:
+          - Rayana Verissimo
+        uxr:
+          - Erika Feldman
+        tech_writer: Clayton Cornell
+        appsec_engineer: TBD
+        cs_team_tag: Package Registry Group CS Stable Counterpart
+        internal_customers:
+          - department: Distribution Team
+            dri: TBD
+          - department: Infrastructure Department
+            dri: TBD
+        categories:
+          - package_registry
+          - helm_chart_registry
+        usage_driver_score: 3
+        asp_driver_score: 2
+        sam_driver_score: 4
+        group_link: product/categories/#package-group
+        slack:
+          channel: g_package-registry
+          alias: package-registry-group
+        gitlab_group: "gitlab-org/ci-cd/package-stage/package-registry-group"
+        handbook: engineering/development/ops/package/package-registry
+        google_group: "package-stage@gitlab.com"
+      container_registry:
+        name: Container Registry
+        pm: Tim Rizzi
+        focus: Container Registry GMAU
         cm: Chrissie Buchanan
         pmm: Heather Simpson
         backend_engineering_manager: Michelle Torres
         frontend_engineering_manager: Michelle Torres
-        be_team_tag: Package BE Team
-        fe_team_tag: Package FE Team
+        be_team_tag: Package:Container Registry BE Team
+        fe_team_tag: Package:Container Registry FE Team
         support:
-          - Nourdin el Bacha
+          - TBD
         qm: Joanna Shih
         sets:
           - Sofia Vistas
         pdm:
           - Rayana Verissimo
         ux:
-          - Katie Macoy
+          - TBD
         uxr:
           - Erika Feldman
         tech_writer: Clayton Cornell
-        appsec_engineer: Vitor Meireles De Sousa
-        cs_team_tag: Package Group CS Stable Counterpart
+        appsec_engineer: TBD
+        cs_team_tag: Container Registry Group CS Stable Counterpart
         internal_customers:
           - department: Distribution Team
             dri: TBD
@@ -861,8 +935,6 @@ stages:
             dri: TBD
         categories:
           - container_registry
-          - package_registry
-          - helm_chart_registry
           - dependency_proxy
           - dependency_firewall
         usage_driver_score: 3
@@ -870,10 +942,10 @@ stages:
         sam_driver_score: 4
         group_link: product/categories/#package-group
         slack:
-          channel: s_package
-          alias: package-group
-        gitlab_group: "gitlab-org/ci-cd/package-stage"
-        handbook: engineering/development/ops/package/
+          channel: g_container-registry
+          alias: container-registry-group
+        gitlab_group: "gitlab-org/ci-cd/package-stage/container-registry-group"
+        handbook: engineering/development/ops/package/container-registry
         google_group: "package-stage@gitlab.com"
 
   secure:
@@ -1068,6 +1140,8 @@ stages:
     pm: Jensen Stava
     em:
       - Phil Calder
+    pdm:
+      - Taurie Davis
     groups:
       anti-abuse:
         name: Anti-Abuse
@@ -1083,8 +1157,9 @@ stages:
         em: Jay Swain
         appsec_engineer: Nick Malcolm
         tech_writer: Phillip Wells
+        ux:
+          - Katie Macoy
         be_team_tag: Anti-Abuse Fullstack Team
-
 
   release:
     display_name: "Release"
@@ -1218,7 +1293,7 @@ stages:
           - Will Leidheiser
         qm: Joanna Shih
         tech_writer: Phillip Wells
-        appsec_engineer: Vitor Meireles De Sousa
+        appsec_engineer: TBD
         cs_team_tag: Configure Group CS Stable Counterpart
         internal_customers:
           - department: Quality Department
@@ -1295,7 +1370,7 @@ stages:
           - Will Leidheiser
         qm: Joanna Shih
         tech_writer: Marcin Sędłak-Jakubowski
-        appsec_engineer: Vitor Meireles De Sousa
+        appsec_engineer: TBD
         slack:
           channel: g_respond
           alias: respond-group
@@ -1337,7 +1412,7 @@ stages:
           - Will Leidheiser
         qm: TBD
         tech_writer: Marcin Sędłak-Jakubowski
-        appsec_engineer: Vitor Meireles De Sousa
+        appsec_engineer: TBD
         slack:
           channel: g_observability
           alias: observability-group
@@ -1449,6 +1524,7 @@ stages:
         categories:
           - vulnerability_management
           - dependency_management
+          - sbom
         usage_driver_score: 4
         asp_driver_score: 5
         sam_driver_score: 5
@@ -1514,10 +1590,10 @@ stages:
         name: Product Intelligence
         direction: /direction/product-intelligence/
         handbook: engineering/development/analytics/product-intelligence
-        pm: Amanda Rueda
+        pm: Sam Kerr (Acting)
         pmm: Saumya Upadhyaya
         cm: Suri Patel
-        backend_engineering_manager: Dennis Tang
+        backend_engineering_manager: Sebastian Rehm
         support: TBD
         be_team_tag: Product Intelligence Team
         appsec_engineer: Greg Alfaro
@@ -1542,7 +1618,6 @@ stages:
             dri: TBD
         categories:
             - service_ping
-            - privacy_control_center
             - application_instrumentation
       product_analytics:
         name: Product Analytics
@@ -1561,7 +1636,7 @@ stages:
           - TBD
         sets:
           - Carlo Catimbang
-        tech_writer: Clayton Cornell
+        tech_writer: Lorena Ciutacu
         cs_team_tag: Product Intelligence Group CS Stable Counterpart
         internal_customers:
           - department: Sales Department
@@ -1593,7 +1668,7 @@ stages:
         description: "Focused on first-order purchase experiences, including SM Web-Direct First Order, SaaS Web-Direct First Order, Purchase CI Minutes, Purchase Storage, and Community Programs - sign up."
         slack:
           channel: g_purchase
-        pm: Tatyana Golubeva
+        pm: Alex Martin
         pmm: Saumya Upadhyaya
         cm: Suri Patel
         backend_engineering_manager: Ragnar Hardarson
@@ -1661,7 +1736,7 @@ stages:
       utilization:
         name: Utilization
         description: "Responsible for all consumables management, usage reporting, and usage notifications (excluding license utilization). Systems - GitLab."
-        pm: Donique Smit
+        pm: Donique Smit (Acting)
         pmm: Saumya Upadhyaya
         slack:
           channel: g_utilization
@@ -1697,7 +1772,7 @@ stages:
       fulfillment_platform:
         name: Fulfillment Platform
         description: "Responsible for all consumables management, usage reporting, and usage notifications (excluding license utilization). Systems - GitLab."
-        pm: Tatyana Golubeva
+        pm: Manuel Gass
         pmm: Saumya Upadhyaya
         slack:
           channel: g_fulfillment_platform
@@ -1707,6 +1782,7 @@ stages:
         support: TBD
         be_team_tag: TBD
         fe_team_tag: TBD
+        infra_reliability_team_tag: Fulfillment Group Reliability Stable Counterpart
         appsec_engineer: TBD
         pdm:
           - Jacki Bauer
@@ -1741,7 +1817,7 @@ stages:
         cm: Suri Patel
         backend_engineering_manager: Ragnar Hardarson
         frontend_engineering_manager: Ragnar Hardarson
-        support: TBD
+        support: Firdaws Farukh
         be_team_tag: TBD
         fe_team_tag: TBD
         appsec_engineer: TBD
@@ -1769,8 +1845,8 @@ stages:
             dri: TBD
       commerce_integrations:
         name: Commerce Integrations
-        description: "RResponsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
-        pm: Isabel Sandin
+        description: "Responsible for the channel partner experience, compliance for partner sourced customers, and CDot integration with SFDC and Platypus."
+        pm: Courtney Meddaugh (Acting)
         pmm: Saumya Upadhyaya
         slack:
           channel: g_commerce_integrations
@@ -1909,7 +1985,7 @@ stages:
         slack:
           channel: g_activation
         handbook: engineering/development/growth/
-        pm: Sam Awezec
+        pm: Paige Cordero
         pmm: Saumya Upadhyaya
         em: Kamil Niechajewicz
         be_team_tag: Activation Fullstack Team
@@ -2016,7 +2092,7 @@ stages:
         roadmap: "https://gitlab.com/groups/gitlab-org/-/roadmap?label_name[]=devops%3Adistribution&scope=all&sort=end_date_asc&state=opened&layout=QUARTERS"
         pm: Dilan Orrino
         pmm: Saumya Upadhyaya
-        backend_engineering_manager: DJ Mountney (Interim)
+        backend_engineering_manager: Peter Lu
         be_team_tag: Distribution Deploy BE Team
         fe_team_tag:
         support:
@@ -2062,6 +2138,9 @@ stages:
         focus: Gitaly GMAU
         pmm: Saumya Upadhyaya
         image: "/images/solutions/solutions-gitaly.png"
+        handbook: /engineering/development/enablement/systems/gitaly/
+        slack:
+          channel: g_gitaly
         description: |
           Scalable, resilient Git storage layer accessible via RPC.
         body: |
@@ -2098,6 +2177,9 @@ stages:
         focus: Gitaly GMAU
         pmm: Saumya Upadhyaya
         image: "/images/solutions/solutions-gitaly.png"
+        handbook: /engineering/development/enablement/systems/gitaly/
+        slack:
+          channel: g_gitaly
         description: |
           Open-source Git development and integration.
         body: |
@@ -2210,7 +2292,7 @@ stages:
           - Marcel van Remmerden
         uxr:
           - Will Leidheiser
-        tech_writer: Suzanne Selhorn
+        tech_writer: Jon Glassman
         slack:
           channel: g_application_performance
         gitlab_group: gitlab-org/memory-team
@@ -2229,6 +2311,7 @@ stages:
         categories:
           - application_performance
           - redis
+          - rate_limiting
         # usage_driver_score: 5
         #asp_driver_score: 1
         # sam_driver_score:
@@ -2246,7 +2329,9 @@ stages:
         frontend_engineering_manager: Changzheng Liu (Interim)
         be_team_tag: Global Search BE Team
         fe_team_tag: Global Search FE Team
-        support: Vlad Stoianovici
+        support: 
+          - Vlad Stoianovici
+          - Cleveland Bledsoe Jr
         appsec_engineer: Kevin Morrison
         pdm:
           - Marcel van Remmerden
@@ -2327,7 +2412,7 @@ stages:
           - Marcel van Remmerden
         uxr:
           - Will Leidheiser
-        tech_writer: Suzanne Selhorn
+        tech_writer: Jon Glassman
         slack:
           channel: g_pods
         gitlab_group: TBD
@@ -2371,7 +2456,7 @@ stages:
       delivery:
         name: "Delivery"
         description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
-        direction: /handbook/engineering/infrastructure/team/delivery/
+        direction: /engineering/infrastructure/team/delivery/
         pm: Andrew Thomas (Life Support)
         pmm: Saumya Upadhyaya
         uxr:
@@ -2381,14 +2466,14 @@ stages:
         slack:
           channel: g_delivery
         gitlab_group: gitlab-org/delivery
-        handbook: /handbook/engineering/infrastructure/team/delivery/
+        handbook: /engineering/infrastructure/team/delivery/
         categories:
           - delivery
 
       scalability:
         name: "Scalability"
         description: "The Scalability team is responsible for GitLab and GitLab.com at scale, working on the highest priority scaling items related to the application and GitLab.com."
-        direction: /handbook/engineering/infrastructure/team/scalability/
+        direction: /engineering/infrastructure/team/scalability/
         pm: Andrew Thomas (Life Support)
         pmm: Saumya Upadhyaya
         appsec_engineer: Rohit Shambhuni
@@ -2396,7 +2481,7 @@ stages:
         slack:
           channel: g_scalability
         gitlab_group: gitlab-org/scalability
-        handbook: /handbook/engineering/infrastructure/team/scalability/
+        handbook: /engineering/infrastructure/team/scalability/
         categories:
           - scalability
           - error_budgets
@@ -2410,7 +2495,7 @@ stages:
           Single-tenant SaaS service currently in Limited Availability
         direction: /direction/horse/
         pm: Andrew Thomas
-        pmm: Saumya Upadhyaya
+        pmm: Saumya Upadhyaya & Heather Simpson
         uxr:
           - Will Leidheiser
         backend_engineering_manager: TBH
@@ -2420,7 +2505,7 @@ stages:
         appsec_engineer: Greg Alfaro
         tech_writer: "#docs Slack channel"
         slack:
-          channel: TBD
+          channel: #f_gitlab_dedicated
           alias: TBD
         handbook: engineering/development/platforms/horse/
         gitlab_group: TBD
@@ -2470,7 +2555,7 @@ stages:
       - Wayne Haber
     pdm:
         - Taurie Davis
-    handbook: /handbook/engineering/development/modelops/
+    handbook: /engineering/development/modelops/
     marketing: false
     tw: true
     slack:
@@ -2484,6 +2569,8 @@ stages:
         em: Monmayuri Ray
         be_team_tag: ModelOps:Applied ML
         tech_writer: "#docs Slack channel"
+        ux:
+          - Katie Macoy
         sets:
           - Mark Lapierre
         appsec_engineer: Nick Malcolm

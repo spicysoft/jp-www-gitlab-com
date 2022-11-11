@@ -12,7 +12,7 @@ description: >-
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-<%= devops_diagram(["Secure","Govern"]) %>
+<%= devops_diagram(%w(Secure Govern)) %>
 
 ## Teams and Handbook Pages
 
@@ -21,6 +21,7 @@ The following teams comprise the sub-department:
 - Govern stage - [handbook](/handbook/engineering/development/sec/govern/)
   - Security Policies group - [handbook](/handbook/engineering/development/sec/govern/security-policies/)
   - Threat Insights group - [handbook](/handbook/engineering/development/sec/govern/threat-insights/)
+  - Compliance group - [handbook](govern/compliance/)
 - Secure stage - [handbook](/handbook/engineering/development/sec/secure/)
   - Composition Analysis group - [handbook](/handbook/engineering/development/sec/secure/composition-analysis/)
   - Dynamic Analysis group - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/)
@@ -34,26 +35,26 @@ Product direction can be found on the [Sec Section Product Direction](/direction
 
 ## Project Setup
 
-Keeping our projects organized is very important for productivity and maintainability. 
-- To setup a new project we follow the [company-wide Engineering guidelines](https://about.gitlab.com/handbook/engineering/gitlab-repositories/). 
+Keeping our projects organized is very important for productivity and maintainability.
+- To setup a new project we follow the [company-wide Engineering guidelines](https://about.gitlab.com/handbook/engineering/gitlab-repositories/).
 - All Sec projects should be organized into either
   - https://gitlab.com/gitlab-org/secure
   - https://gitlab.com/gitlab-org/govern
   - https://gitlab.com/gitlab-org/security-products
 
-In general, we want to keep as few projects in `security-products` as necessary. 
+In general, we want to keep as few projects in `security-products` as necessary.
 
 `security-products` should only contain :
 - Source code for applications that will run as part of a customer install
 - Demos
-- Historical projects that are difficult to move. 
+- Historical projects that are difficult to move.
 
-`secure` and `govern` should have projects for: 
+`secure` and `govern` should have projects for:
 - End-to-end testing
-- Benchmarks / Stats 
+- Benchmarks / Stats
 - Tooling
 
-There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.   
+There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.
 
 ### Other settings
 
@@ -77,8 +78,8 @@ issues:
 ## Slack channels
 
 - [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V) - Sec Section discussions spanning the Govern, and Secure stages.
-- [#sec-growth-modelops-people-leaders](https://gitlab.slack.com/archives/C033F69CQCB) - Engineering people leaders in Sec, Growth, and ModelOps.
-- [🔒sec-growth-modelops-leadership-confidential](https://gitlab.slack.com/archives/GKWF00Y3E) - Private channel for engineering people leaders in Sec, Growth, and ModelOps.
+- [#sec-growth-datascience-people-leaders](https://gitlab.slack.com/archives/C033F69CQCB) - Engineering people leaders in Sec, Growth, and ModelOps.
+- [🔒sec-growth-datascience-leadership-confidential](https://gitlab.slack.com/archives/GKWF00Y3E) - Private channel for engineering people leaders in Sec, Growth, and ModelOps.
 
 ## Calendars
 
@@ -91,7 +92,23 @@ We have two stage level calendars, [Secure Stage Calendar](https://calendar.goog
 
 Each group also has a calendar for team-based discussions, such as the our weekly group syncs.
 
-We encourage utilizing our available [Google Groups](https://groups.google.com/my-groups) instead of including inviduals as attendees when possible. Along with ensuring the event is represented on individual's calendars for visibility, new team members are automatically added to events (as well as removed when someone departs from a team). 
+We encourage utilizing our available [Google Groups](https://groups.google.com/my-groups) instead of including individuals as attendees when possible. Along with ensuring the event is represented on individual's calendars for visibility, new team members are automatically added to events (as well as removed when someone departs from a team).
+
+### Google Groups
+
+Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues/246) and are structured as:
+  - sec-section
+  - sec-govern
+  - sec-secure
+  - sec-govern-threat-insights
+  - sec-govern-security-policies
+  - sec-govern-compliance
+  - sec-secure-static-analysis
+  - sec-secure-dynamic-analysis
+  - sec-secure-composition-analysis
+
+The members of each google group consists of stable counterparts and the correct `eng-dev-[sub-department]-[team]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated. 
+
 
 ## Staying Informed and Informing Team Members
 
@@ -187,15 +204,15 @@ GitLab’s Stance for Architectural issues: https://about.gitlab.com/handbook/en
 
 #### Team Representatives
 
-| Team                                                 | Representative                                                                   |
-|------------------------------------------------------|----------------------------------------------------------------------------------|
-| [Composition Analysis](secure/composition-analysis/) | <%= link_to_team_member('fcatteau') %>                                           |
-| [Security Policies](govern/security-policies/)       | <%= link_to_team_member('mparuszewski') %>                                       |
-| [Dynamic Analysis](secure/dynamic-analysis/)         | <%= link_to_team_member('cam_swords') %>                                         |
-| [Static Analysis](secure/static-analysis/)           | <%= link_to_team_member('theoretick') %>                                         |
-| [Threat Insights](govern/threat-insights/) BE        | <%= link_to_team_member('minac') %>                                              |
-| [Threat Insights](govern/threat-insights/) FE        | <%= link_to_team_member('svedova') %>                                            |
-| [Vulnerability Research](secure/vulnerability-research/)    | <%= link_to_team_member('idawson') %>, <%= link_to_team_member('julianthome') %> |
+| Team                                                     | Representative                                                                   |
+|----------------------------------------------------------|----------------------------------------------------------------------------------|
+| [Composition Analysis](secure/composition-analysis/)     | <%= link_to_team_member('fcatteau') %>                                           |
+| [Security Policies](govern/security-policies/)           | <%= link_to_team_member('mparuszewski') %>                                       |
+| [Dynamic Analysis](secure/dynamic-analysis/)             | <%= link_to_team_member('cam_swords') %>                                         |
+| [Static Analysis](secure/static-analysis/)               | <%= link_to_team_member('theoretick') %>                                         |
+| [Threat Insights](govern/threat-insights/) BE            | <%= link_to_team_member('minac') %>                                              |
+| [Threat Insights](govern/threat-insights/) FE            | <%= link_to_team_member('svedova') %>                                            |
+| [Vulnerability Research](secure/vulnerability-research/) | <%= link_to_team_member('idawson') %>, <%= link_to_team_member('julianthome') %> |
 
 ### Frontend Chapter (Slack [#secure-frontend-chapter](https://gitlab.slack.com/archives/C031RSQ72S2))
 
@@ -253,6 +270,10 @@ Our team monitors [LCP](https://about.gitlab.com/handbook/engineering/developmen
 [LCP Dashboard for Secure owned pages](https://dashboards.gitlab.net/d/sftijGFMz/sitespeed-lcp-leaderboard?from=now-90d&orgId=1&to=now&refresh=30s&var-namespace=sitespeed_io&var-path=desktop&var-testname=gitlab&var-domains=gitlab_com&var-pages=API_Fuzzing_Config_UI&var-pages=DAST_Profiles&var-pages=On_Demand_Scans&var-pages=SAST_Config_UI&var-pages=Secure_Dependency_List&var-pages=Secure_License_Compliance&var-pages=Secure_Security_Configuration&var-pages=DAST_Config_UI&var-browser=chrome&var-function=median&var-connectivity=cable)
 
 #### How to work with the Quality team
+
+#### Working with Customer Support
+
+The Sec engineering teams do not provide support directly to customers. Instead engineers collaborate with our Customer Support Engineers via the [process on the Sec Sub-department support project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/). 
 
 #### Frontend Responsibilities
 

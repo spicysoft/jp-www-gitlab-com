@@ -1,4 +1,12 @@
 ---
+- name: Rocco
+  picture: rocco.jpg
+  human: Gaby Berkman
+  story: Rocco is a chihuahua-rat terrier mix, rescued from Last Hope K9. Originally
+    from Little Rock Arkansas (hence his name) , Rocco finds he hates the cold Boston
+    winters, but loves wearing his coats and sweaters, and of course, snuggling with
+    his humans. His other hobbies include eating carrots, visiting his neighborhood
+    dog friends, chasing small(er than him) creatures, napping and giving kisses.
 - name: Turk Turk
   picture: turkturk.png
   human: Lauren Barker
@@ -7,6 +15,24 @@
     the apple tree when your snagging the forbidden avocados in a flying waddle with
     talons out. It''s moments like these you question the decisions that got you here.
     You''ve been warned. Don''t mess with Turk Turk or his avocados on E st.
+
+    '
+- name: Lady Pug
+  picture: ladypug.png
+  human: Davis Bickford
+  story: 'Lady Pug is a sweet girl who loves treats, naps and cuddles. She''s a world-class
+    sprinter, and was <a href="https://www.reddit.com/r/aww/comments/3pjmox/pugs_first_time_at_the_dog_park/">
+    famous for a day</a> because she''s such a fast pug. She will sit on your lap,
+    you really don''t have a choice in this.
+
+    '
+- name: Idgie
+  picture: idgiepug.png
+  human: Davis Bickford
+  story: 'Idgie is a pug / american bulldog mix who loves playing with toys, eating
+    leaves, and cuddling on laps. She''s especially skillful at spinning in circles,
+    annoying her sister pug, Lady, and scaring away squirrels who didn''t do anything
+    remotely deserving of her sassy ''tude.
 
     '
 - name: Vega
@@ -770,23 +796,12 @@
 - name: Squishventures
   picture: squishventures.jpg
   human: cynthia
-  story: 'These adorable Squishables and friends love to have adventures in and out
+  story: "These adorable Squishables and friends love to have adventures in and out
     of the house. They all have their own personalities including the chicken loving
     Big Fox, mini size Chibifox, and micro size Chibibifox; climbing expert micro
     red panda Maokun; guard and RTS-loving Mozilla dinosaur Gaokun; and gluttenous
     mini flying pig Gucchan. Follow their adventures near home and around the world
-    on their <a href="https://twitter.com/Squishventures/">Twitter account</a>!
-
-    '
-- name: Lexa
-  picture: lexawaters.jpg
-  human: Adrian Waters
-  story: 'Lexa is a rescue, having been found abandoned when a few months old. She
-    also needed major surgery on both back legs, so had a tough start to life, but
-    is now through that and is an adorable, affectionate and energetic part of the
-    family.
-
-    '
+    on their <a href=\"https://twitter.com/Squishventures/\">Twitter account</a>!\n\n"
 - name: Sadie
   picture: sadieu.jpg
   human: Jeff Burrows
@@ -1334,12 +1349,12 @@
     dog. I love to bite the sleeve, play with Callie, and snuggle with my mom!
 
     '
-- name: Thor
-  picture: thor_nnguyen.png
+- name: Buddy
+  picture: buddy_nnguyen.png
   human: Nick Nguyen
-  story: 'Thor is a sweet and somewhat awkward Norwegian Elkhound. He enjoys treats,
-    rolling in the snow, and making sure we know whenever a visitor arrives to the
-    farm.
+  story: 'Buddy is a mix of beagle, spaniel, and who knows what else. He spends
+    his days following his humans around, snuggling, rolling around in gross things
+    on the farm, and going off on side quests into the woods.
 
     '
 - name: Mia
@@ -2023,17 +2038,6 @@
     on command. He is a very smart cat!
 
     '
-- name: Beauregard and Cleopatra
-  picture: beauregardandcleopatra.jpg
-  human: Tyler Williams
-  story: 'Beauregard (left) and his "big" sister Cleo (right). Beauregard is a very
-    gentle dog with two modes: overflowing with puppy energy or snuggling between
-    his family. Cleo is a troublemaker with plenty of attitude, but deep down she''s
-    a softy and loves her family. She spends the day making sure we know she''s aloof,
-    but by the evening, she also wants to be snuggling with the family as well. We''re
-    so proud of our troublesome children.
-
-    '
 - name: Duke Oliver
   picture: duke-fee.jpg
   human: Izzy Fee
@@ -2540,14 +2544,6 @@
   human: Alice Crosbie
   story: " Chico loves to sleep, he sleeps about 22 hours a day and fills his awake
     moments with eating "
-- name: Mochi
-  picture: MochiSawtelle.png
-  human: Jon Sawtelle
-  story: " Mochi is an extremely goofy Ragdoll. Mochi was a rescue kitty that became
-    the perfect addition to our home. He loves hanging out in high places and frequents
-    meetings usually from the top of a media cabinet. Other than that, Mochi also
-    loves spending time in boxes, cabinets, or wherever else he feels like he is winning
-    at hide and seek "
 - name: Jack the Red Dog
   picture: jackthereddog.png
   human: Peter Jones
@@ -2713,9 +2709,40 @@
 - name: Bruce and Betty
   picture: BruceBetty.png
   human: Ashley Kramer
-  story: |-
-    Bruce is a laid back yellow lab with the world’s biggest heart. He loves chasing his ball, swimming and looks forward to three square meals a day. Betty is an athletic, outgoing yellow lab who is curious about everything in the world. She loves following her big brother everywhere, cuddling and swimming.
-    '
+  story: Bruce is a laid back yellow lab with the world’s biggest heart. He loves
+    chasing his ball, swimming and looks forward to three square meals a day. Betty
+    is an athletic, outgoing yellow lab who is curious about everything in the world.
+    She loves following her big brother everywhere, cuddling and swimming.
+- name: Ricci
+  picture: Ricci_Tosin.png
+  human: Tosin Falade
+  story: 'Ricci is an energetic and extremely social Pomeranian living in Arizona
+    who keep me quite busy (daily). She loves going to the dog park to interact with
+    other dogs & humans.     '
+- name: Oscar
+  picture: oscarma.jpg
+  human: Leaminn Ma
+  story: Oscar was adopted from an animal shelter when he was 5 years-old. He's now
+    11 years-old (as of August 2022) and has established himself as the head of the
+    household. His parents might be a little biased, but Oscar is incredibly handsome
+    and they often tell him he's the "cutest boy in the whole world."  His morning
+    routine consists of tapping on his mom's face to serve him breakfast and getting
+    some fresh air in the yard. He also enjoys purring on his mom's lap while perched
+    on her right arm as she types. Oscar has been getting a bit chubbier lately but
+    he insists it's only because he's in dire need of snacks all the time. One of
+    his favourite pastimes is helping with jigsaw puzzles by lying down on top of
+    the pieces you're working on. Overall, he's a very friendly and cuddly cat, and
+    is very much loved to bits.
+- name: Humphry
+  picture: humphry.png
+  human: Catherine Pope
+  story: Humph enjoys eating, sleeping, and nibbling bipeds. He's named after a Victorian novelist called Mrs Humphry Ward (we only use his full name when he's disgraced himself).
+- name: Lua
+  picture: lrosa-lua.jpg
+  human: Leonardo da Rosa
+  story: Lua is a 12 years-old Beagle passionate for food and treats! 
+    She's a very sweet girl that likes adventures and sleeping in the afternoon.
+    On her free time, she enjoys watching movies with her mommy and daddy.
 - name: You?
   picture: "../../gitlab-logo-extra-whitespace.png"
   human:

@@ -15,12 +15,11 @@ This handbook page is meant to support both learners and administrators in Level
 
 ![Level Up Dashboard](dashboard-2.jpg){: .medium.center}
 
-
 # Contribute to Level Up
 <!-- blank line -->
 At GitLab, [everyone can contribute](/company/mission/#mission). Read below about how to contribute to Level Up.
 
-### Why contribute?
+## Why contribute?
 
 Contributing to Level Up democratizes learning and enables our team members, customers, and community members to contribute to the growth of learning opportunities at GitLab. Some benefits for contributors include:
 
@@ -42,16 +41,12 @@ For questions not answered below, reach out in the #learninganddevelopment Slack
 **I'm a GitLab team member and I have a question or problem related to Level Up.**
      - Please reach out to the #learninganddevelopment Slack channel for support. 
 
-**I was told my completion history would be transferred from the old learning system, but they aren't showing in my learning history.**
-     - Don’t worry, we’re working on transferring learning completion but it will take a couple of weeks for the transfer to be fully completed. You can follow updates in the #learninganddevelopment Slack channel.
-
 **I have a question about how to use the Level Up platform.**
      - When you're logged into Level Up, click the drop down menu next to your profile photo and select `Support`. Here, you'll see both general and Gitlab-specific help resources related to using Level Up. See screenshots below.
 
      ![Adding custom content field in Thought Industries](support.jpg){: .medium.center}
 
      ![Adding custom content field in Thought Industries](support-page.jpg){: .medium.center}
-
 
 # Administrator Resources
 
@@ -156,9 +151,13 @@ Please review the **application rules** and **best practices** below:
 1. Wherever possible, use existing custom content fields and sub fields as opposed to creating new ones
 1. Review [TI support docs](https://support.thoughtindustries.com/hc/en-us/articles/360046307213-Using-Custom-Fields-vs-Curated-Categories) when questions arise
 
-### Share a course link externally
+### Share a course link with team members
 
 1. Add `https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=` immediately before a course link to direct users to the course page after signing in via SSO.
+
+### Share a course link with users external to GitLab
+
+1. Add `https://levelup.gitlab.com/access/openid/login/?returnTo=`immediately before a course link to direct users to the course page after signing in via SSO.
 
 ## Roles
 
@@ -220,4 +219,35 @@ To create a new content type:
 1. In the top right hand corner, click, `Add Content Type`.
 1. Fill in the details for your new content type, and choose a template based off one of the existing content types in the platform. When you've added all relevant information, click `Save`.
 1. Now, when you go to add a new item of content, you will be able to select your new content type as an option from which to start building.
+
+## Admin actions
+
+### Manually assigning completion to a user
+
+1. Go to Users > Learners and search for the relevant user
+1. Click their name to enter their profile
+1. Click `Access` and in the `Search for Content to Add` box, search for the content you want to add completion for.
+1. The content should appear under the `Has access to the following content`.
+1. Once the content has appeared (or if it was already there), select `Completed` from the dropdown and click `Save`
+1. If the course had an associated certificate, this can also be manually attributed. Go to the `Activity` tab in the user profile after following the above steps, find the relevant Certificate then click `Issue Certificate`. This will trigger an email being sent to the user to notify them of the certificate being awarded.
+
+## Reporting
+
+### Using Google Sheets to share completion reporting with the business
+
+Here is an [example](https://docs.google.com/spreadsheets/d/1ZmRT-9XzN0WBXZ2p6kzMIuhjuRVNhM73h7QFi-qOZC4/edit#gid=1860209145) of a pivot chart that breaks down completions by division. Make a copy of [this template](https://docs.google.com/spreadsheets/d/1caRFWpLEts0Hs3zk8LgEEltQwmL519ijj50_x20N4gY/edit#gid=1965851534) and follow the steps below to build your own.
+
+1. Submit an access request for a Wokrday report that includes manager name, division, department, and manager name. Add this data into the first tab in a Google sheet. Title it `User Workday Data`
+1. Pull a completion report from Level Up for any course or content item. Download this completion data into the second tab in the same Google sheet. Title it as `[Course Name]`
+1. To combine the `User Workday Data` shee and the `[Course Name]` sheet:
+     1. Ensure there is a column in the `[Course Name]` sheet that is titled `Completed` and has a `1` value for each user who has completed the course.
+     1. Create a new column in the `User Workday Data` tab called `Completions`.
+     1. Apply the formula `=IF(ISNUMBER(MATCH(X10,Course Name!A:A,0)),1,0)` to the column, where `X` is the column letter for `Completed` from the `[Course Name]` sheet, and `Course Name` is the exact title of the `[Course Name]` tab.
+     1. Drag the formula to apply to all rows in the `User Workday Data` sheet.
+     1. Add one new column in the `User Workday Data` sheet called `Division Total` and populate every row with a `1` value.
+1. To create the pivot chart
+     1. Open a 3rd tab in the same sheet titled `Completions by X` depending on how you plan to sort the data.
+     1. Go to `Insert` then select `Pivot Table` and add it to the existing sheet
+     1. Apply `Division` as your `Rows` value
+     1. Apply your choice of values for each column. Most common will be `Completions` and `Division Total`
 

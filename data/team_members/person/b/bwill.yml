@@ -42,10 +42,9 @@ projects:
   - reviewer backend
   - reviewer go
   - reviewer database local
-  - trainee_maintainer ci_template
+  - maintainer ci_template
   gitlab-pages: reviewer
   gitlab-runner: reviewer
-  secure-container-scanning: maintainer backend
-  sec-danger-bot: maintainer backend
-  security-report-schemas: reviewer backend
+  sec-danger-bot: maintainer
+  security-report-schemas: reviewer
 

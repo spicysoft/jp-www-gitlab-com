@@ -140,7 +140,7 @@ Deploying features can be very costly on production. We aim to make it simpler f
 
 - [Delivery](/handbook/engineering/infrastructure/team/delivery/)
 - [Scalability](/handbook/engineering/infrastructure/team/scalability/)
-- GitLab Dedicated
+- [GitLab Dedicated](https://about.gitlab.com/direction/saas-platforms/dedicated/)
 
 ## What's Next
 

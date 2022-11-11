@@ -422,8 +422,8 @@ Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePA
      - If a lookup field is changed from User A to User B then ALL splits for that User Role on the Opportunity are deleted and a split for 100% is assigned to User B
      - If a lookup field is changed from a User to Null/Empty then ALL splits for that User Role on the Opportunity are deleted, and there will be not splits for that Team Role on the Opportunity
      - If a split is needed for any of these roles the split needs to be created manually by an approved user
-  - `Technical Account Manager` Special Use Cases
-     - This is handeled through the TAM Stamping process for some teams and are aligned with the SA Team for other TAM Teams. Splits aren't relevant for Technical Account Managers and Compensation. Please see [TAM Team Stamping](#tam-team-stamping) on this page for more details
+  - `Customer Success Manager` Special Use Cases
+     - This is handeled through the CSM Stamping process for some teams and are aligned with the SA Team for other CSM Teams. Splits aren't relevant for Customer Success Managers and Compensation. Please see [CSM Team Stamping](#csm-team-stamping) on this page for more details
   - `Channel Manager` Special Use Cases
      - This is handeled through several matrixes that either stamp channel managers on the Opportunity and difffernt opportunity splits depending on a nuber of layers of criteria. 
      More detail coming soon to the handbook. Refernce this [Epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/87) and related Issues in the meantime
@@ -532,21 +532,21 @@ Once this is complete, a validation rule will prohibit anyone other than the abo
  
 Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePAU1RxtGSVb-BujdKiPVoepevrRh8q5bvbBg/edit#heading=h.327gn0f9tf3c) for details.
 
-## TAM Team Stamping
+## CSM Team Stamping
 
-**Business Process this supports:** This process supports our TAM Team Tracking Alignment and Compensation. See the business handbook section [Coming Soon](#) 
+**Business Process this supports:** This process supports our CSM Team Tracking Alignment and Compensation. See the business handbook section [Coming Soon](#) 
 
 **Relevant fields**
 - User Object:
-   - `[Comp] TAM Team` (`TAM_Team__c`)
+   - `[Comp] CSM Team` (`TAM_Team__c`)
 - Account Object:
-   - `Technical Account Manager` (`Technical_Account_Manager_LU__c`)
+   - `Customer Success Manager` (`Technical_Account_Manager_LU__c`)
 - Opportunity Object:
-   - `[Comp] TAM Team` (`Comp_TAM_Team__c`)
+   - `[Comp] CSM Team` (`Comp_TAM_Team__c`)
 
 **Overview:** 
-- On Opportunity creation and closure the TAM Team of the user in the Technical Account Manager on the Opportunities related account is stamped onto the Opportunity in either of the following cases
-   - If the TAM Team of the user in the lookup field is `Scale`
+- On Opportunity creation and closure the CSM Team of the user in the Customer Success Manager on the Opportunities related account is stamped onto the Opportunity in either of the following cases
+   - If the CSM Team of the user in the lookup field is `Scale`
    - If the Order Type on the Opportunity is one of the following: `2. New - Connected`, `3. Growth`, `4. Contraction`, `5. Churn - Partial`, `6. Churn - Final`
 
 **Logic Locations:**
@@ -693,3 +693,34 @@ Here is the config table for the automation logic for reference:
   * `determinePubSecType`
 * [AccountClassTest.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountClassTest.cls)
   * `determinePubSecType`
+
+### Set Lead Address on Account on Lead Conversion
+**Business Process this supports:** This is a part of the process of how the Billing Address is determined on an Account - by stamping the lead address on the account. The Lead address is one of the layers of the data hierarchy that is used in determining where the account is. 
+**Overview:** This process catches the lead on a lead conversion and uses the lead address to stamp either a blank lead address field on the account or to populate missing informaiton on the lead address on the account. 
+   * If the Lead address on the account is blank and there is any info in the lead address on the conversion the lead address will be stamped into the lead address fields on the account
+   * If there is a partial address in the lead address fields on the account when the lead is converted and ALL of the information on the account matches the corressponding info on the lead - any additional new address information will be stamped into the currently blank field on the account. If the overlapping infromation between the account and lead is different then no new information is stamped onto the account even if their is a partial match (Example same state but different Zip Code)
+
+**Related Issues:** 
+  * [Address Waterfall](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/3139)
+
+**Logic Locations:**
+* [LeadTrigger.trigger](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/triggers/LeadTrigger.trigger)
+* [LeadClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/LeadClass.cls)
+  * `stampConvertedLeadAddressData`
+* [LeadClassTest.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/LeadClassTest.cls)
+  * `stampConvertedLeadAddressDataTest`
+
+### Set Billing Address on Account
+**Business Process this supports:** This is the process of how the Billing Address is determined on an Account. 
+**Overview:** The Billing Address fields on the account is determined through a hierarchy of data that is brought in from several sources. Going through the hierachy (from first to last), if there is any field in the set of fields that has any data in it then it is used to automatically set the Billing Address on the account, otherwise we look at the next set of field. Many of the fields used in the hierarchy are only visibile to admins only to avoid confusion with the field. 
+
+**Related Issues:** 
+  * [Address Waterfall](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/3139)
+
+**Logic Locations:**
+* [AccountTrigger.trigger](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/triggers/AccountTrigger.trigger)
+* [AccountClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountClass.cls)
+  * `SetBillingAddressOnAccounts`
+* [AccountClassTest.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountClassTest.cls)
+  * All tests that start with `setBillingAddressOnAccounts_`
+  * `validateBillingAddress` (Helper Functions)

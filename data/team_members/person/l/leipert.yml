@@ -2,9 +2,9 @@
 name: Lukas Eipert
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/frontend/manager/">Engineering
-  Manager</a>, Manage:Foundations
-reports_to: tim-z
+role: <a href="/job-families/engineering/development/frontend/">Senior Frontend Engineer</a>,
+  Manage:Foundations
+reports_to: sam-beckham
 picture: leipert.jpg
 twitter: leipert_io
 gitlab: leipert
@@ -30,4 +30,6 @@ story: |
   online shop with PHP, the path to becoming a Frontend Engineer seemed
   quite clear. He likes building software for other developers. In his
   spare time Lukas enjoys cooking, brewing beer and playing "Skat".
-specialty: Foundations
+specialty:
+- 'Manage: Foundations'
+

@@ -25,19 +25,18 @@ early feedback to [iterate](/handbook/values/#iteration) on the strategy.
 
 ### Latest video
 <figure class="video_container">
-    <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0KoQ2a8sLO059BdU4F5c-jGE" frameborder="0" allowfullscreen></iframe>
+    <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=1&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0KoQ2a8sLO059BdU4F5c-jGE" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 ### Previous 5 videos
 
-| Date       | Tl;DW;                                                                                      | Video                                                                          | 
-|------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| 2022-09-28 | Lots of work on the GitLab Workflow VS Code extension                                       | [https://youtu.be/YPROwTbyxig](https://youtu.be/YPROwTbyxig){:target="_blank"} |
-| 2022-09-15 | Shows a first working prototype in VS Code using FauxPilot backend                          | [https://youtu.be/FfhLyxAlUho](https://youtu.be/FfhLyxAlUho){:target="_blank"}                   |
-| 2022-09-06 | Describes pivoting to real-time / predictive tooling                                        | [https://youtu.be/YfBPIi24tSs](https://youtu.be/YfBPIi24tSs){:target="_blank"} |
-| 2022-08-19 | Describe future plans for Dokter, in which stages it fits and community feedback            | [https://youtu.be/1KCSHrJnjSk](https://youtu.be/1KCSHrJnjSk){:target="_blank"} |
-| 2022-08-09 | Explanation on what Dokter does and how it helps developers write secure code               | [https://youtu.be/8aKScUQjMWY](https://youtu.be/8aKScUQjMWY){:target="_blank"} |
-
+| Date       | Tl;DW;                                                                        | Video                                                                          | 
+|------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 2022-11-02 | Add support for stop sequences, reduced number of calls to API by roughly 95% | [https://youtu.be/hhBIAC8-j7I](https://youtu.be/hhBIAC8-j7I){:target="_blank"} |
+| 2022-10-25 | Authentication MR's 2/3 finished, 1 in review. Worked on FauxPilot            | [https://youtu.be/JNLkmZk0iB8](https://youtu.be/JNLkmZk0iB8){:target="_blank"} |
+| 2022-10-13 | First release of VS Code extension, work on authentication                    | [https://youtu.be/VYl0dg8xyeE](https://youtu.be/VYl0dg8xyeE){:target="_blank"} |
+| 2022-09-28 | Lots of work on the GitLab Workflow VS Code extension                         | [https://youtu.be/YPROwTbyxig](https://youtu.be/YPROwTbyxig){:target="_blank"} |
+| 2022-09-15 | Shows a first working prototype in VS Code using FauxPilot backend            | [https://youtu.be/FfhLyxAlUho](https://youtu.be/FfhLyxAlUho){:target="_blank"} |
 
 ## What is AI?
 According to the Oxford dictionary, AI is:
@@ -113,20 +112,10 @@ With all the above AI features, there are a few assumptions that need to be vali
 Ultimately the AI part will be a self learning application. However, this takes a lot of time and is not in line with 
 iteration and efficiency. Besides, we first need to validate the underlying assumptions, so to keep it simple and 
 efficient, it's broken down into the following roadmap:
-1. Use off the shelf products (collect feedback on the approach). No new ML models will be involved at this point.
-2. Seamlessly integrate the output of step 1 into the UI 
-3. Figure out what the shortcomings / gaps are of step 1 and explore alternatives to fill the gaps
-4. The first two steps will probably create a lot of irrelevant warnings, train a model to determine relevancy
-5. Determine the most effective suggestions
-6. Create a GitLab owned linter based on the learnings and feedback
-7. Integrate the GitLab linter into IDEs for realtime suggestions
-8. Evolve into GitLab Assist
-
-## Sub-projects
-
-AI Assist is broken down in subsets:
-- [Docker](/handbook/engineering/incubation/ai-assist/docker) (Current focus)  
-- GitLab CI (Next)
+1. Build a PoC with off the shelf products. No new ML models will be involved at this point.
+2. Integrate with the official GitLab IDE extensions for realtime suggestions
+3. Start dogfooding the PoC
+4. Determine shortcomings and explore options to improve
 
 ## GitLab Assist
 For years developers have been exposed to code completion tools such as IntelliSense and recently there are developments
@@ -156,6 +145,14 @@ which will be similar to the core functionality of a code completion product but
 - Adhere to company coding guidelines
 - Be aware of licencing
 - Incorporate all learnings from the roadmap
+
+
+## Sub-projects
+
+AI Assist SEG is also involved in the following projects:
+- [FauxPilot](https://github.com/moyix/fauxpilot)
+- [GitLab VS Code extension](https://gitlab.com/gitlab-org/gitlab-vscode-extension)
+- [Dokter](https://gitlab.com/gitlab-org/incubation-engineering/ai-assist/dokter)
 
 
 ## External reads

@@ -7,112 +7,73 @@ title: "Group Direction - Integrations"
 {:toc}
 
 | ------ | ------ |
-| **Stage** | [Ecosystem](/direction/ecosystem/) |
+| **Stage** | [Manage](/direction/manage/) |
 | **Maturity** | [Viable](/direction/maturity/) |
 | **Last reviewed** | 2022-05-06 |
 
 - [Issue List](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&label_name[]=group%3A%3Aintegrations)
 - [Epic List](https://gitlab.com/groups/gitlab-org/-/epics/1515)
-- [Overall Ecosystem Direction](/direction/ecosystem/)
+- [Overall Manage Direction](/direction/manage/)
 
 
 ## Manage:Integrations Vision
 
-GitLab's vision is to be the best [single application for every part of the DevOps toolchain](/handbook/product/single-application/).
+GitLab's vision is to be the best [single application for every part of the DevOps toolchain](/handbook/product/single-application/). However, we acknowledge that to achieve this, there are many workflows, custom scripts, and nuanced integrations that customers require and GitLab may not be able to prioritize. To make the most impact towards that vision, we've identified a narrower vision for the Manage:Integrations group:
 
-As we expand on how our team can make the most significant impact towards that vision, we've identified a narrower vision for the Manage:Integrations Group:
+**We will drive GitLab to enable [intuitive collaboration with tools our customers rely on](https://about.gitlab.com/handbook/product/gitlab-the-product/#plays-well-with-others) so they can capture the most value possible from the GitLab product and its many features.**
 
-**We want GitLab to enable [intuitive collaboration with tools our customers rely on](https://about.gitlab.com/handbook/product/gitlab-the-product/#plays-well-with-others) so they can capture the most value possible from the GitLab product and its many features.**
+GitLab will have a robust catalog of lovable, feature-complete integrations that serve customers across all key industries and functions that utilize GitLab. Our customers will enjoy learning about and using our APIs and webhooks to design creative solutions and intelligent workflows, and they'll share GitLab as an example of an incredible third-party developer experience. Partners will have diverse but straightforward paths for contributing or coordinating integrations that expand the GitLab ecosystem and the larger developer ecosystem in ways that provide tremendous value to the developer community. And we'll do this all in ways that align with GitLab's culture and values, by promoting transparency, focusing on iteration, and incentivizing collaboration/contribution throughout the community.
 
-GitLab will have a robust catalog of lovable, feature-complete integrations that serve customers across all key Industries and Functions that utilize GitLab. Our customers will enjoy learning about and using our APIs and webhooks to design creative solutions and intelligent workflows, and they'll share GitLab as an example of incredible Third-party developer experience. Partners will have diverse but straightforward paths for contributing or coordinating integrations that expand our Ecosystem and the larger Developer Ecosystem in ways that provide tremendous value to the Developer Community. And we'll do this all in ways that align with GitLab's Culture and Values, by promoting transparency, focusing on iteration, and incentivizing collaboration/contribution throughout the community.
+The following GitLab objectives driven by our [product strategy](https://about.gitlab.com/direction/#product-strategy) will guide our prioritization:
+
+  - [Focus on increasing Stages per Organization](https://about.gitlab.com/direction/#product-strategy) - We'll be guiding GitLab in implementing integrations that make it easier to expand and adopt their 3rd and 4th GitLab Stages, to compare features, and to replace/reduce costs of existing tools by utilizing a single DevOps platform.
+  - [Harness the unique power of a single application](https://about.gitlab.com/direction/#product-strategy) - By surfacing data from external tools into GitLab, we'll be able to showcase the power of GitLab as a single application. As an example, we'll want to make it easier to aggregate data from external tools and surface it in Value Stream Reporting and Analytics within GitLab.
+  - [Increase wider-community contributions](https://about.gitlab.com/direction/#product-strategy) - Our focus on the Integrations Static Domain Specific Language and additional tools/abstractions for building and contributing integrations will help drive community contributions while also expanding our Ecosystem.
+  - [DevOps for more personas](https://about.gitlab.com/direction/dev/#devops-for-more-personas) - Integrations will help us solve for personas like Product Managers and Executives by making it easier to use tools they are familiar with, while expanding to use GitLab more closely with those tools.
+
+To learn more about the most recent changes in our Direction and how we will be approaching the challenge of expanding our ecosystem moving forward, here's an overview:
+
+<figure class="video_container">
+    <iframe src="https://www.youtube.com/embed/U6-QChGoDaI" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Strategy
 
-Given unlimited resources and time, we'd love to prioritize and support all possible integrations, but our Strategy will provide the guiding rules and logic for how we want to focus our team's efforts. 
+Given unlimited resources and time, we'd love to prioritize and support all possible integrations, but our strategy will provide the guiding rules and logic for how we want to focus our group's efforts. 
 
-Our Strategy for the upcoming 2-3 years is based on three pillars: 
+Our strategy for the upcoming 2-3 years is based on three pillars: 
 
-1. `Strategic Enterprise Partnerships` 
-1. `API Strategy` 
-1. `Integration Experience`
+- API & webhook strategy
+- Integration platform tooling
+- Drive strategic enterprise integrations
 
-These 3 categories organize the workstreams that we believe will help us to best execute on our Vision for the GitLab Ecosystem, leveraging the resources and competencies we have at our disposal.
+### Guide, facilitate, and lead implementation of an API strategy
 
-The following statements further highlight how we'll execute in these areas.
+The Manage:Integrations group is facilitating the discussion around our APIs with a key objective of improving usability, reliability, and performance for customers and partners in our ecosystem. To identify the key areas of focus, we feel this particular topic will require significant cross-functional support. We've established a [working group](https://about.gitlab.com/company/team/structure/working-groups/api-vision/) to drive these topics forward, and will update this section based on the exit criteria below:
 
-**To achieve our Vision, we feel it's important to focus first on solving the pain of our Key Enterprise customers.**
-- Enterprise customers have more complex tools, some of which they are committed to using and motivated to make work with other tools in their toolchain.
-- Enterprise customers have many users/seats which means issues they raise, if solved, could benefit a large number of users at once.
-- Enterprise customers represent a larger amount of potential revenue to be gained or lost.
-- By [reducing the cost of products that are complements](https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/) of GitLab (cost being the cost of using other complementary products _with_ GitLab), we can increase the value of GitLab and the share of wallet for Enterprise customers to spend more with GitLab. This is a strategic leverage point for the Manage:Integrations team in particular.
-- Key Enterprise Customers within this strategy will be defined as [Large Accounts (2,000+ Employees) as per our MQL Scoring](https://about.gitlab.com/handbook/sales/field-operations/gtm-resources/#mql-definition-and-scoring).
+- Define the vision of the GitLab API for the future years
+- Set the foundation of a cohesive development strategy going forward
+- Iterate with a next generation API
+- Clarify the lifecycle of our APIs
+- Improve the documentation of our APIs
+- Create learning paths and content to contribute to our APIs
+- Define minimum levels of performance and stability, with appropriate checks and monitoring
+- Refresh personas to account for users of our APIs
 
-**We will identify the top 20 `Strategic Enterprise Partnerships` to focus on for the next 2-3 years between the Manage:Integrations team & Alliance team and identify cross-functional teams that will help us achieve a Solution Complete Enterprise Toolchain, pairing with the top ISVs.**
+For our webhooks, we'll increase the robustness of our webhook offering and align with other teams on how best to achieve an event-driven architecture. This includes making it easier to configure and maintain webhooks, as well as troubleshooting issues, easily redelivering events, and coordinating webhooks into usable workflows.
 
-When evaluating `Strategic Enterprise Partnerships`, we want to design a robust and opinionated Ecosystem comprised of the most heavily used complementary and competitive Enterprise tools our customers leverage. This Ecosystem should provide customers with a complete solution that covers each GitLab Stage, while driving adoption and usage across more stages. Our strategy here will be to choose one or two top partners in each Product Stage or Industry Category and prioritize based on our resourcing and GitLab's greatest gaps/needs (e.g. Slack for Chat/Communications, Jira for Project Management, DataDog for Monitoring/Observability, ServiceNow for Customer Service, and CircleCI as a CI alternative). We'd like to have a "complete" Ecosystem that gives our customers first-class Integration options in each category before expanding to add other tools.
+### Guide, facilitate, and lead the implementation of a standard, scalable integration experience including discovery, configuration management, and contribution of new integrations
 
-Key Categories include:
-- Communication Tools (Slack, Google Chat, Teams)
-- Customer Service / ITSM (ServiceNow)
-- Collaboration Tools (Figma, Miro, Mural)
-- Security
-- Observability & Monitoring
-- Compliance
-- Data & Analytics
-- Project Management
-- CI/CD
+We will be improving the process of contributing and maintaining first-class integrations, with as little overhead as possible, whether you're a GitLab team member building a new integration, a customer, a partner, or a contributor. This may include:
 
-We're actively building/iterating on our [Top 20 Strategic Enterprise Partnerships [Internal]](https://docs.google.com/spreadsheets/d/1npb2SFl8STh4Oj8EF8JwZ3Az_H1EOXPoclBfC6VmuaQ/edit?usp=sharing).
-
-To achieve this, we plan on leveraging our GitLab expertise and resources as follows:
-
-- Manage:Integrations will begin to gradually shift our focus from building/maintaining Strategic Integrations to building Self-Service Tools, Documentation, Guides, Best Practices, and Standards that support our Product teams, Partners, and Contributors to scale the growth of our Ecosystem. By positioning our team in the role of a platform team, we believe we can accelerate the process of building and maintaining integrations.
-
-- Moving forward, Manage:Integrations will not be adding support for new integrations that pertain to other product domains/groups. In the short-term, we will continue to support those where we currently own and will continue to prioritize and support integrations that are core to our business, including Jira, Slack (and other Chat tools), and ServiceNow. 
-
-- Over time, Product Managers in other stages will become owners for integrations that are particular to their domain, giving them full visibility and ownership in serving customers in their domain based on their strategy, as has been the case for many integrations to date (such as SAST/DAST Scanners in Security). Many times, individual groups will have more in-depth knowledge of customer pain points and how integrations should work within their product stage. 
-
-- The Alliance team will support in establishing relationships and facilitating the Ecosystem expansion, and work more hands-on with Product teams in each of the domain areas. The Manage:Integrations team will establish tools and processes to help Product teams in building integrations, such as:
-
-    - Expanding our Integrations Domain-Specific Language (DSL)
-    - Establishing a Review Bot for integration activities
-    - Providing Best Practices for Authentication, Authorization, Security (with support of the Security team), Rate Limiting, and other common challenges encountered in Integrations
-    - Supporting where needed on code reviews
+    - Expanding our [Integrations Static DSL](https://gitlab.com/groups/gitlab-org/-/epics/7652), to make it more straightforward for developers to enable new integrations, surface them into our `Project>Settings` UI
+    - Establishing a Review Bot for integration activities and supporting where needed on code reviews
+    - Providing best practices for authentication, authorization, security (with the support of the security team), rate limiting, and other common challenges encountered in integrations
     - Developing common UI/UX patterns and components 
-    - Facilitating cross-functional discussions to drive our overall Product strategy and build an effective Ecosystem
-    - Providing support for core API and Webhook functionality that integrations depend on.
+    - Facilitating cross-functional discussions to drive our overall Product strategy and build an effective ecosystem
+    - Providing support for core API and Webhook functionality that integrations depend on
 
-- The Ecosystems Integrations team's focus will be to establish processes and build tools for teams to efficiently build and maintain their own integrations, rather than building and maintaining all GitLab integrations.
-
-- The Alliance Partner Integration Engineering team (PIE) - which is being newly assembled - will serve a solutions engineering role in guiding and supporting Community Contributors. The PIE team will guide any other potential partners in how to establish integrations. This team can and should scale based on the needs and impact of Community Contributions.
-
-- When it comes to the design of our opinionated Ecosystem, we want to prioritize relationships that pair well with Google Cloud and AWS over Microsoft Azure, so we may focus first on building a robust ecosystem that supports businesses that are not as tightly integrated into Azure. This should give us a differentiator by building deeper/tighter integrations, while Microsoft is likely to focus first on making their Ecosystem more closed and locked-in to their cloud.
-
-- We'll have a strong emphasis on partnerships/tools that fill gaps for our product, complement our product, and add value for Enterprise customers. For example, Security & Observability capabilities drive higher value for Enterprise customers.
-
-- As we work to expand our strategic partnerships, we'll prioritize achieving a Lovable state for each integration, with a focus on stability, reliability, performance, and usability, before we prioritize new integrations. This will provide a stable foundation for our Ecosystem and allow us to move more quickly on new integrations.
-
-**In alignment with GitLab's values, we want to encourage and make it easier for users to contribute. To do so, we want to prioritize workflows, tools, and processes that make it possible for contributors to more easily self-serve.**
-
-Beyond `Strategic Enterprise Partnerships`, our other two pillars of the Manage:Integrations team will support this strategic objective:
-
-**1. Guide, facilitate, and lead implementation of an `API Strategy`. This will be executed on first through an API Working Group.**
-
-The Manage:Integrations team will drive and facilitate discussion around our APIs with a key objective of improving usability, reliability, and performance for customers and partners in our Ecosystem. To identify the key areas of focus, we feel this particular topic will require significant cross-functional support. We've established a [working group](https://about.gitlab.com/company/team/structure/working-groups/api-vision/) to drive these topics forward, and will update this section based on the exit criteria below:
-
-- Define the vision of the GitLab API for the future years.
-- Set the foundation of a cohesive development strategy going forward.
-- Improve the API or capture the work needed to have a world-class API.
-- Clarify the lifecycle of the API.
-- Improve the documentation of the API.
-- Create learning paths and content to contribute to the API.
-- Define minimum levels of performance and stability, with appropriate checks and monitoring.
-
-
-**2. Guide, facilitate, and lead the implementation of a standard, scalable `Integration Experience` including Discovery, Configuration Management, and Contribution of New Integrations.**
-
-
-This initiative will focus on building a searchable category of integrations that contains useful metadata, making it easier for customers to identify which of their tools they can connect to GitLab. This will help users understand how an integration is maintained/supported, learn how to contribute, and learn about the features/capabilities of an integration.
+Customers will be able to search across our catalog of integrations that contains useful metadata, making it easier for customers to identify which of their tools they can connect to GitLab. This will help users understand how an integration is maintained, how it's supported, learn how to contribute, and learn about the features and capabilities of an integration.
 
 Once enabled, we intend to make it smoother for users to interact with integrations from the navigation, to enable and manage settings, and by ensuring optimal UX for managing integrations across projects whether using GitLab.com or Self-Managed GitLab.
 
@@ -123,22 +84,92 @@ Areas of configuration we'll want to iterate/improve on are:
 - Establishing Generic UX Settings/Configuration for both Integration Users and Administrators - [Issue 1](https://gitlab.com/gitlab-org/gitlab/-/issues/360001), [Issue 2](https://gitlab.com/groups/gitlab-org/-/epics/6094)
 - [Project vs Group Level Configuration](https://gitlab.com/groups/gitlab-org/-/epics/2137)
 
-Beyond the discovery of integrations, we'll want to improve the process of contributing/maintaining first-class integrations, with as little overhead to GitLab as possible, whether you're a GitLab team member building a new integration, or a wider community contributor.
+### Supporting and collaborating with GitLab product teams, partners, customers, and contributors to achieve the top 20 most strategic integrations
 
-  - What are the required inputs?
-  - What are the standard UX patterns/flows?
-  - What are the recommended Authentication patterns? How can I use this securely?
-  - How do integrations work with Groups, Projects, and various User roles?
-  - What documentation is required?
-  - What are the performance/uptime requirements?
-  - Have proper tests been established before release?
+During Q4 2022 / Q1 2023, Manage:Integrations will work to shift responsibilities as DRIs of most integrations to individual product teams within the domain areas across GitLab. This will empower product teams to own the comprehensive strategy in their domain, and allow us to best scale to support the need so of our customers.
 
-  **Alignment with GitLab Objectives**
+We will instead redirect our focus to building self-service tools, documentation, guides, best practices, and standards that support our product teams, partners, and contributors to scale the growth of our ecosystem. By positioning our team in the role of a platform team, we believe we can accelerate the process of building and maintaining integrations. We'll also work in a collaboration model to support product teams, help them define their strategy, and execute in a way that best solves for customers and for the business. We'll provide guidance and work to scale that support across product teams so we can achieve our goal of expanding the ecosystem.
 
-  - [Focus on increasing Stages per Organization](https://about.gitlab.com/direction/#product-strategy) - We'll be guiding GitLab in implementing integrations that make it easier to expand and adopt their 3rd and 4th GitLab Stages, to try and compare features, and replace/reduce costs of existing tools by utilizing a single DevOps platform.
-  - [Harness the unique power of a single application](https://about.gitlab.com/direction/#product-strategy) - By surfacing data from external tools into GitLab, we'll be able to showcase the power of GitLab as a single application. As an example, we'll want to make it easier to aggregate data from external tools and surface it in Value Stream Reporting and Analytics within GitLab.
-  - [Increase wider-community contributions](https://about.gitlab.com/direction/#product-strategy) - Our focus on the Integrations Static Domain Specific Language and additional tools/abstractions for building and contributing integrations will help drive community contributions while also expanding our Ecosystem.
-  - [DevOps for More Personas](https://about.gitlab.com/direction/dev/#devops-for-more-personas) - Integrations will help us solve for personas like Product Managers and Executives by making it easier to use tools they are familiar with, while expanding to use GitLab more closely with those tools.
+Over time, Product Managers in other stages will become owners for integrations that are particular to their domain, giving them full visibility and ownership in serving customers in their domain based on their strategy, as has been the case for many integrations to date (such as SAST/DAST Scanners in Security). Many times, individual groups will have more in-depth knowledge of customer pain points and how integrations should work within their product stage. 
+
+The Alliance team will support in establishing relationships and facilitating the ecosystem expansion with technology partners as owners of those relationships and work more hands-on with product teams in each of the domain areas. The Alliance Partner Integration Engineering (PIE) team, which is being newly assembled, will serve a solutions engineering role in guiding and supporting community contributors. The PIE team will guide any other potential partners in how to establish integrations. This team can and should scale based on the needs and impact of community contributions.
+
+A few guidelines for prioritizing integrations across GitLab:
+- We'll have a strong emphasis on partnerships/tools that fill gaps for our product, complement our product, and add value for Enterprise customers. For example, Security & Observability capabilities drive higher value for Enterprise customers.
+- As we work to expand our strategic partnerships, we'll prioritize achieving a Lovable state for each integration, with a focus on stability, reliability, performance, and usability, before we prioritize new integrations. This will provide a stable foundation for our ecosystem and allow us to move more quickly on new integrations.
+
+## Integration Ownership (DRAFT)
+
+As we work to better define ownership of integrations across GitLab, this table (in draft) will make it clearer for teams who is responsible for maintenance, security, and new feature development. It will also make it clearer for customers who owns each integration and how deeply it's supported or how much it's being prioritized.
+
+|                                                   Integration                                                   |        Category         |              Owner (Group)              |   Author (Contributor/Maintainer)    |
+| --------------------------------------------------------------------------------------------------------------- | ----------------------- | --------------------------------------- | ------------------------------------ |
+| [Akismet](https://docs.gitlab.com/ee/integration/akismet.html)                                                  | Spam Protection         | Anti-Abuse:Anti-Abuse                   | GitLab                               |
+| [Anchore](https://docs.anchore.com/current/docs/using/integration/ci_cd/gitlab/)                                | Security                | Anti-Abuse:Anti-Abuse                   | Anchore                              |
+| [Arkose Protect](https://docs.gitlab.com/ee/integration/arkose.html)                                            | Security                | Anti-Abuse:Anti-Abuse                   | Arkose Protect                       |
+| [Asana](https://docs.gitlab.com/ee/user/project/integrations/asana.html)                                        | Project Management      | Plan:Project Management                 | GitLab                               |
+| [Assembla]()                                                                                                    | Code Intelligence       | Create:Source Code                      | N/A                                  |
+| [Bamboo CI](https://docs.gitlab.com/ee/user/project/integrations/bamboo.html)                                   | CI/CD                   | Verify:Pipeline Execution               | GitLab                               |
+| [Bridgecrew](https://docs.bridgecrew.io/docs/integrate-with-gitlab-self-managed)                                | Security                | Secure:Static Analysis                  | GitLab                               |
+| [Bugzilla ](https://docs.gitlab.com/ee/user/project/integrations/bugzilla.html)                                 | Project Management      | Plan:Project Management                 | GitLab                               |
+| [Buildkite ]()                                                                                                  | CI/CD                   | Verify:Pipeline Execution               | N/A                                  |
+| [Campfire]()                                                                                                    | Chat                    | Manage:Integrations                     | N/A                                  |
+| [Cloudrail (previously Indeni)](https://docs.cloudrail.app/#/integrations/gitlab)                               | Security                | Secure:Static Analysis                  | GitLab                               |
+| [Confluence Workspace](https://docs.gitlab.com/ee/api/integrations.html#confluence-integration)                 | Wiki                    | Create:Editor                           | GitLab                               |
+| [Checkmarx ](https://checkmarx.com/why-checkmarx/checkmarx-and-gitlab/)                                         | Security                | Secure:Static Analysis                  | Checkmarx                            |
+| [Custom issue tracker](https://docs.gitlab.com/ee/user/project/integrations/custom_issue_tracker.html)          | Project Management      | Plan:Project Management                 | GitLab                               |
+| [Datadog](https://docs.gitlab.com/ee/integration/datadog.html)                                                  | Monitoring              | Monitor:Respond                         | DataDog                              |
+| [Deepfactor](https://docs.deepfactor.io/hc/en-us/articles/1500008981941)                                        | Security                | Secure:Static Analysis                  | Deepfactor                           |
+| [Discord](https://docs.gitlab.com/ee/user/project/integrations/discord_notifications.html)                      | Chat                    | Manage:Integrations                     | GitLab                               |
+| [Drone CI]()                                                                                                    | Chat                    | Verify:Pipeline Execution               | GitLab                               |
+| [Emails on Push](https://docs.gitlab.com/ee/user/project/integrations/emails_on_push.html)                      | Email                   | Manage:Integrations                     | GitLab                               |
+| [Elasticsearch  ](https://docs.gitlab.com/ee/integration/elasticsearch.html)                                    | Data Warehouse & Search | Data Stores:Global Search               | GitLab                               |
+| [External Wiki  ]()                                                                                             | Wiki                    | Create:Editor                           | GitLab                               |
+| [Flowdock (CA Technologies) ]()                                                                                 | Chat                    | Manage:Integrations                     | GitLab                               |
+| [GitHub ](https://docs.gitlab.com/ee/user/project/integrations/github.html)                                     | SCM                     | Create:Source Code                      | GitLab                               |
+| [GitPod  ](https://docs.gitlab.com/ee/integration/gitpod.html)                                                  | IDE                     | Create:Editor                           | GitLab                               |
+| [Google Chat ](https://docs.gitlab.com/ee/user/project/integrations/hangouts_chat.html)                         | Chat                    | Manage:Integrations                     | GitLab                               |
+| [Gmail Actions Buttons](https://docs.gitlab.com/ee/integration/gmail_action_buttons_for_gitlab.html)            | Email                   | Manage:Integrations                     | GitLab                               |
+| [GrammaTech](https://www.grammatech.com/codesonar-gitlab-integration)                                           | Security                | Secure:Static Analysis                  | GrammaTech                           |
+| [Harbor](https://docs.gitlab.com/ee/user/project/integrations/harbor.html)                                      | Package Management      | Package:Package                         | JiHu                                 |
+| [IBM Engineering Workflow Management (EWM)](https://docs.gitlab.com/ee/user/project/integrations/ewm.html)      | Project Management      | Plan:Project Management                 | Community contribution (open source) |
+| [Irker](https://docs.gitlab.com/ee/user/project/integrations/irker.html)                                        | Chat                    | Manage:Integrations                     | GitLab                               |
+| [Jenkins ](https://docs.gitlab.com/ee/integration/jenkins.html)                                                 | CI/CD                   | Verify:Pipeline Execution               | GitLab                               |
+| [JetBrains TeamCity CI ]()                                                                                      | CI/CD                   | Verify:Pipeline Execution               | GitLab                               |
+| [Jira ](https://docs.gitlab.com/ee/integration/jira/)                                                           | Project Management      | Plan:Project Management (temporarily supported by Manage:Integrations)                | GitLab                               |
+| [JScrambler](https://docs.jscrambler.com/code-integrity/documentation/gitlab-ci-integration)                    | CI/CD                   | Verify:Pipeline Execution               | GitLab                               |
+| [Kroki diagrams ](https://docs.gitlab.com/ee/administration/integration/kroki.html)                             | Diagramming             | Plan:Project Management                 | GitLab                               |
+| [Mailgun](https://docs.gitlab.com/ee/administration/integration/mailgun.html)                                   | Email                   | Plan:Project Management                 | GitLab                               |
+| [Mattermost notifications](https://docs.gitlab.com/ee/user/project/integrations/mattermost.html)                | Chat                    | Manage:Integrations                     | GitLab                               |
+| [Mattermost slash commands  ](https://docs.gitlab.com/ee/user/project/integrations/mattermost.html)             | Chat                    | Manage:Integrations                     | GitLab                               |
+| [Mend (previously Whitesource)](https://docs.mend.io/bundle/integrations/page/mend_for_gitlab.html)             | Security                | Secure:Static Analysis                  | Mend                                 |
+| [Microsoft Teams](https://docs.gitlab.com/ee/user/project/integrations/microsoft_teams.html)                    | Chat                    | Manage:Integrations                     | GitLab                               |
+| [Mock CI ](https://docs.gitlab.com/ee/user/project/integrations/mock_ci.html)                                   | CI/CD                   | Verify:Pipeline Execution               | GitLab                               |
+| [Packagist]()                                                                                                   | CI/CD                   | Package:Package                         | GitLab                               |
+| [Pipeline status emails](https://docs.gitlab.com/ee/user/project/integrations/pipeline_status_emails.html)      | Email                   | Manage:Integrations                     | GitLab                               |
+| [Pivotal Tracker  ](https://docs.gitlab.com/ee/user/project/integrations/pivotal_tracker.html)                  | Project Management      | Plan:Project Management                 | GitLab                               |
+| [PlantUML](https://docs.gitlab.com/ee/administration/integration/plantuml.html)                                 | Diagramming             | Plan:Project Management                 | GitLab                               |
+| [Prometheus](https://docs.gitlab.com/ee/user/project/integrations/prometheus.html)                              | Monitoring              | Monitor:Respond                         | GitLab                               |
+| [Pumble](https://docs.gitlab.com/ee/user/project/integrations/pumble.html)                                      | Chat                    | Manage:Integrations                     | Community contribution (open source) |
+| [Redmine ](https://docs.gitlab.com/ee/user/project/integrations/redmine.html)                                   | Project Management      | Plan:Project Management                 | Community contribution (open source) |
+| [reCAPTCHA ](https://docs.gitlab.com/ee/integration/recaptcha.html)                                             | Spam Protection         | Manage:Authentication and Authorization | GitLab                               |
+| [ServiceNow - DevOps / Change Management](https://docs.gitlab.com/ee/user/project/integrations/servicenow.html) | Change Management       | Manage:Integrations                     | ServiceNow                               |
+| [Semgrep ](https://semgrep.dev/for/gitlab)                                                                      | Security                | Secure:Static Analysis                  | Semgrep                              |
+| [Slack notifications ](https://docs.gitlab.com/ee/user/project/integrations/slack.html)                         | Chat                    | Manage:Integrations                     | GitLab                               |
+| [Slack slash commands ](https://docs.gitlab.com/ee/user/project/integrations/slack.html)                        | Chat                    | Manage:Integrations                     | GitLab                               |
+| [Slack application ](https://docs.gitlab.com/ee/user/project/integrations/slack.html)                           | Chat                    | Manage:Integrations                     | GitLab                               |
+| [Sourcegraph](https://docs.gitlab.com/ee/integration/sourcegraph.html)                                          | Code Intelligence       | Create:Code Review                      | GitLab                               |
+| [StackHawk ](https://docs.stackhawk.com/continuous-integration/gitlab.html)                                     | Security                | Secure:Static Analysis                  | StackHawk                            |
+| [Tenable](https://docs.tenable.com/tenableio/Content/ContainerSecurity/GetStarted.htm)                          | Security                | Secure:Static Analysis                  | Tenable                              |
+| [Trello  ](https://docs.gitlab.com/ee/integration/trello_power_up.html)                                         | Project Management      | Plan:Project Management                 | GitLab                               |
+| [Unify Circuit ](https://docs.gitlab.com/ee/user/project/integrations/unify_circuit.html)                       | Chat                    | Manage:Integrations                     | Community contribution (open source) |
+| [Venafi ](https://marketplace.venafi.com/details/gitlab-ci-cd/)                                                 | Security                | Secure:Static Analysis                  | Venafi                               |
+| [Veracode ](https://community.veracode.com/s/knowledgeitem/gitlab-ci-MCEKSYPRWL35BRTGOVI55SK5RI4A)              | Security                | Secure:Static Analysis                  | Veracode                             |
+| [Visual Studio Code extension  ](https://docs.gitlab.com/ee/user/project/repository/vscode.html)                | IDE                     | Create:Code Review                      | GitLab                               |
+| [Webex Teams](https://docs.gitlab.com/ee/user/project/integrations/webex_teams.html)                            | Chat                    | Manage:Integrations                     | Community contribution (open source) |
+| [Youtrack ](https://docs.gitlab.com/ee/user/project/integrations/youtrack.html)                                 | Project Management      | Plan:Project Management                 | Community contribution (open source) |
+| [ZenTao ](https://docs.gitlab.com/ee/user/project/integrations/zentao.html)                                     | Project Management      | Plan:Project Management                 | JiHu                                 |
+
 
 ## Insights 
 
@@ -148,40 +179,26 @@ Beyond the discovery of integrations, we'll want to improve the process of contr
 
 ### Partner/Ecosystem Insights
 
-- Consider our integration efforts so far. What integrations have been most successful up to this point? [Jira, Slack, Prometheus](https://app.periscopedata.com/app/gitlab/577690/Integrations-Usage-Dashboard). 
-Why? Our hypothesis is that they serve larger Enterprises with real, complex challenges that would be valuable to solve. These Enterprises have many users that are trying to follow standard processes, using standard tools chosen by their org.
-- Secondarily, these partners (Atlassian, Slack) have large TAMs - they work with mutual customers and prospects that could gain value from pairing their products with GitLab.
+- Consider our integration efforts so far. What integrations have been most successful up to this point? [Jira, Slack, Prometheus](https://app.periscopedata.com/app/gitlab/577690/Integrations-Usage-Dashboard). Why? Our hypothesis is that they serve larger Enterprises with real, complex challenges that would be valuable to solve. These Enterprises have many users that are trying to follow standard processes, using standard tools chosen by their org.
+- Secondarily, these partners (Atlassian, Slack) have large CSMs - they work with mutual customers and prospects that could gain value from pairing their products with GitLab.
 
 ### GitLab Values & Product Principles
 
-- [Prioritize relentlessly.](https://about.gitlab.com/handbook/product/product-principles/#our-product-principles) It is better to do a few things well than many things poorly. We should focus first on what we're best at and what our customers need most, with a preference for simplicity. Customers will tell us when we're missing something they need, but they’re unlikely to tell us when we're overwhelming them with unwanted features.
-
-### Resourcing & Capabilities Insights
-
-There's a limit to the number of integrations we can prioritize and complete in a given period. We can explore the [number of customer impacting releases](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features&selectedCategories=Integrations&selectedStages=create&selectedStages=ecosystem) here to see that the Integrations team has primarily focused on two key integrations since 13.0: Jira and Slack, in addition to critical core changes to allow for enabling integrations across a project, group, or instance. At a high level, we might estimate no more than 4 new integrations or major integration updates could be developed within a single fiscal year by the Manage:Integrations team. Keeping in mind as well that our team has other responsibilities for supporting our API Strategy and any technical improvements we plan for the Integration Experience.
-
-## Why are we wanting to update/refresh our Vision & Strategy?
-
-To set up a foundation for success, it's critical for our team to have a clear understanding of where we're trying to go, how we want to get there with the people/expertise we have, and how we plan to achieve real business objectives, while providing real customer value.
-
-This is an extension of GitLab's overall Vision/Goals and how the Manage:Integrations team can make the most impact, and our strategy should explain why we made the decisions we did to create the most possible focus for our team. We'd like to reassess regularly and if we are not achieving our objectives, we'll want to adjust our strategy.
-
-See below for more background: 
-
-- [Product Strategy: The Missing Link - Marty Cagan](https://www.youtube.com/watch?v=x4H_gluZI10)
-
-- [The Mile 3 Marker Says GTLB - Sid](https://gitlab.edcast.com/insights/mile-3-presentation)
+- [Prioritize relentlessly](https://about.gitlab.com/handbook/product/product-principles/#our-product-principles). It is better to do a few things well than many things poorly. We should focus first on what we're best at and what our customers need most, with a preference for simplicity. Customers will tell us when we're missing something they need, but they’re unlikely to tell us when we're overwhelming them with unwanted features.
+- By defining a concrete [product strategy](https://www.youtube.com/watch?v=x4H_gluZI10) for our team, we can narrow down the opportunities we choose to invest in and make the most impact. Once the strategy is well defined, prioritization becomes much more straightforward.
 
 ## Key Objectives
 
 Based on our Vision/Strategy, we will follow and track the following key objectives to identify if our Strategy is effective:
 
+* Total API/webhook usage
+* \# of community contributions (based on improvements to our API strategy and integration experience), especially new integrations or integration features contributed
+* \# of total lovable integrations
 * ARR / # of Integrations
 * Total CMAU
 * Deal Blockers - Track Opportunities Won where an Integration is cited by customer as a key requirement
 * [Customer Churn](https://www.crossbeam.com/blog/tech-ecosystem-maturity-track-churn-and-youre-3-6x-more-likely-to-have-dedicated-budget-for-integrations/) - Overall Customer Churn should decrease as we increase the stickiness of our product via our Ecosystem
 * New Revenue through Partnerships
-* \# of Community Contributions (based on improvements to our API Strategy and Integration Experience)
 
 ## Maturity
 
@@ -240,7 +257,6 @@ Special considerations apply to integrations that don't apply to building native
 We're inspired by other companies with rich, developer-friendly experiences like [Salesforce](https://developer.salesforce.com/), [Shopify](https://help.shopify.com/en/api/getting-started), [Twilio](https://www.twilio.com/docs/), [Stripe](https://stripe.com/docs/development), and [GitHub](https://developer.github.com/).
 
 A large part of the success of these companies comes from their enthusiasm around enabling developers to integrate, extend, and interact with their services in new and novel ways, creating a spirit of [collaboration](https://about.gitlab.com/handbook/values/#collaboration) and [diversity](https://about.gitlab.com/handbook/values/#diversity-inclusion) that simply can't exist any other way.
-
 
 ## Feedback & Requests
 

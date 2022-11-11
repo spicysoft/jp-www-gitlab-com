@@ -56,7 +56,7 @@ Product Designer Tools
 * [UX Issue Triage](/handbook/engineering/quality/issue-triage/#ux)
 * [Heuristics](/handbook/product/ux/heuristics/)
 * [Competitor Evaluation](https://gitlab.com/gitlab-org/competitor-evaluations) (GitLab Team Member access only)
-* [UX Cloud Sandbox](/handbook/product/ux/ux-research-training/ux-cloud-sandbox/)
+* [UX Cloud Sandbox](/handbook/product/ux/ux-research/ux-cloud-sandbox/)
 
 Are you a new GitLab Product Designer? If so, welcome! Make sure you see the [Product Designer Workflow](/handbook/product/ux/product-designer/) handbook page that will help you get started.
 
@@ -96,10 +96,10 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 | [15.0 (2022-04-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/356703) | Annabel Gray | Phil Hughes |
 | [15.1 (2022-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/361641) | Sascha Eggenberger | Robert Hunt |
 | [15.2 (2022-06-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/362122) | Emily Bauman     | Jannik Lehmann |
-| 15.3 (2022-07-18) | Matthew Nearents | Tom Quirk |
+| 15.3 (2022-07-18) | - | - |
 | [15.4 (2022-08-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/370364) | Nadia Sotnikova | Alex Kalderimis |
 | [15.5 (2022-09-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/374580) | Katie Macoy | Anna Vovchenko |
-| 15.6 (2022-10-18) | Matej Latin | Deepika Guliani |
+| [15.6 (2022-10-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/378259) | Matej Latin | Deepika Guliani |
 
 ### How do I volunteer?
 

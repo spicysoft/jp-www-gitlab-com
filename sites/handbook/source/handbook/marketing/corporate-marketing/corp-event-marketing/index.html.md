@@ -42,81 +42,9 @@ twitter_creator: gitlab
 
 
 ## Meet the Corporate Events Team and How to Reach Us
-
-
-<table>
-  <tr>
-   <td><strong>Team Member</strong>
-   </td>
-   <td><strong>TItle</strong>
-   </td>
-   <td><strong>GitLab Handle</strong>
-   </td>
-   <td><strong>Slack Handle</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong><a href="https://about.gitlab.com/company/team/#khartline">Karen Hartline</a></strong>
-   </td>
-   <td>Director, Corporate Events
-   </td>
-   <td>@khartline
-   </td>
-   <td>Karen Hartline
-   </td>
-  </tr>
-  <tr>
-   <td><strong><a href="https://about.gitlab.com/company/team/#Lconway">Lauren Conway</a></strong>
-   </td>
-   <td>Sr. Global Events and Brand Manager
-   </td>
-   <td>@lconway
-   </td>
-   <td>Lauren Conway
-   </td>
-  </tr>
-  <tr>
-   <td><strong><a href="https://about.gitlab.com/company/team/?department=brand-activation#eparker9086">Erica Parker</a></strong>
-   </td>
-   <td>Senior Corporate Events Manager
-   </td>
-   <td>@eparker9086
-   </td>
-   <td>EParker
-   </td>
-  </tr>
-  <tr>
-   <td><strong><a href="https://about.gitlab.com/company/team/#eelellehcimebi">Michelle Lee</a></strong>
-   </td>
-   <td>Corporate Events Manager
-   </td>
-   <td>@eelellehcimebi
-   </td>
-   <td>Michelle Lee
-   </td>
-  </tr>
-  <tr>
-   <td><strong><a href="https://about.gitlab.com/company/team/#sstuelp">Suli Stuelpnagel</a></strong>
-   </td>
-   <td>Corporate Events Content Manager
-   </td>
-   <td>@sstuelp
-   </td>
-   <td>Suli Stuelpnagel
-   </td>
-  </tr>
-  <tr>
-   <td><strong><a href="https://about.gitlab.com/company/team/?department=corporate-marketing#amandawshen">Amanda Shen</a></strong>
-   </td>
-   <td>Corporate Events Coordinator
-   </td>
-   <td>@amandawshen
-   </td>
-   <td>Amanda Shen
-   </td>
-  </tr>
-</table>
-
+* Michelle Lee - @eelellehcimebi - Corporate Events Manager
+* Suli Stuelpnagel Corporate Events Content Manager - @sstuelp 
+* Amanda Shen - Corporate Events Coordinator - @amandawshen
 
 
 ### Current Slack Corporate Event Channels
@@ -166,8 +94,6 @@ Commit Sponsorship Questions: [sponsorcommit at gitlab dot com](mailto:sponsorco
 
 All GitLab events must check at least  three or more of the goals of our events below to be considered.
 
-
-
 1. Brand awareness- we want to be a household name!
 2. Build community
 3. Evangelize a remote-first culture
@@ -192,8 +118,6 @@ All GitLab events must check at least  three or more of the goals of our events 
 
 ## Questions we ask ourselves when assessing an event:
 
-
-
 * How and where will this event position us as a brand?
 * Does this event drive business goals forward in the next quarter? Year?
 * How does this event drive business goals forward in the new quarter? Year?
@@ -212,7 +136,6 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 ### Corporate Events Strategy / Goals / OKRs
 
 
-
 * **Brand**
     * For Sponsored Events: Get the GitLab brand in front of 15% of the event audience. 40,000 person event we would hope to get 4,000+ leads (10%) and 5% general awareness and visibility with additional branding and activities surrounding participation.
     * Human touches- Tracked by leads collected, social interactions, number of opportunities created, referrals, current customers met, and quality time spent on each interaction.
@@ -227,8 +150,6 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 
 
 ## GitLab Commit User Conferences
-
-
 
 * Commit 2022- [Planning Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2534)
 * Goal Call for proposals (CFP) and agenda-setting process:
@@ -416,6 +337,9 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
   </tr>
   <tr>
    <td><a href="https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_Post-Event_Video_Upload">Post Event Video Upload Issue Template</a>
+   </td>
+  </tr>
+   <td><a href="https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-corp-conference-email">Pre & Post event outbound email Issue Template</a>
    </td>
   </tr>
 </table>

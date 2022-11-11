@@ -1,46 +1,47 @@
 ---
 layout: handbook-page-toc
-title: "Channel Program Guide"
+title: "GitLab Channel Program Guide"
+description: "GitLab Channel partner program guide."
 ---
-
 ## On this page
-GitLab Channel Partners are the primary audience for this Handbook page.
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
 
 **We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
 
-### INTRODUCTION
+## Introduction
 
-The GitLab Channel Partner Program offers market-leading training, tools, and support to help accelerate sales opportunities and grow your business with GitLab. The sections that follow will provide you with details on the rules of engagement around program requirements, benefits, and guidelines. For additional information, see these other channel partner program pages. 
-* [Channel Partner Program Overview](https://about.gitlab.com/handbook/resellers/)
-* [Channel Services Catalog](/handbook/resellers/services/services-catalog/)
-* [Channel Partner Training and Certifications](/handbook/resellers/training/)
-* [Channel Partners: Working with GitLab](https://about.gitlab.com/handbook/resellers/channel-working-with-GitLab)
-* [Channel Tools and Resources](https://about.gitlab.com/handbook/resellers/channel-tools-resources)
+The GitLab Channel Partner Program offers market-leading training, tools, and support to help accelerate sales opportunities and grow your business with GitLab. The following information is intended to help our partners understand our program.
 
-### Program Requirements, Benefits, and Guidelines
+## Program Requirements, Benefits, and Guidelines
 
 The GitLab Partner Program consists of two tracks that support the different ways our partners go to market, Open and Select:
-** 1. Open –** The Open track is for all partners (resellers, integrators, sales, and services) in the DevOps space, IT as a service (ITaaS) and other adjacent spaces that are committed to investing in their DevOps practice buildout. The Open track is also for partners seeking to develop customers or that just want to learn about GitLab and participate in the GitLab partner community. Partners may or may not be transacting partners, and qualifying partners can earn product discounts, referral fees and partner services incentives. We provide:
-    * Broad Sales and Services Enablement
-    * Discounts and Referral Fees
-    * GitLab Badges
-    * Field Support
+
+**1. Open –** The Open track is for all partners (resellers, integrators, sales, and services) in the DevOps space, IT as a service (ITaaS) and other adjacent spaces that are committed to investing in their DevOps practice buildout. The Open track is also for partners seeking to develop customers or that just want to learn about GitLab and participate in the GitLab partner community. 
+
+Partners may or may not be transacting partners, and qualifying partners can earn product discounts, referral fees and partner services incentives. We provide:
+* Broad Sales and Services Enablement
+* Discounts and Referral Fees
+* GitLab Badges   
+* Field Support
 
 Open partners must meet the minimum requirements outlined in the section Program Requirements and Benefits below to earn program benefits, including:
-* Completion of GitLab Sales Core (Verification) in the region specified in your GitLab Partner Contract.
+* Completion of GitLab Sales Professional certification in the region specified in your GitLab Partner Contract.
 * Technical Sales certifications in the region specified in your GitLab Partner Contract. Both the GitLab Sales Architect Core and Professional Services Engineering courses meet this requirement.
 
 **2. Select –** In this track, partners make a greater investment in expertise, develop services practices around GitLab, and are expected to drive greater product recurring revenues. In return, Select partners have a dedicated Channel Sales Manager and greater investment. Participation in the Select track is by invitation only. We provide:
-    * Focused Strategic Relationships (Channel Account Manager, Solution Architect, Executives)
-    * Discounts and Referral Fees, including limited-time Select-partner-only incentive programs
-    * Targeted Sales and Services Enablement
-    * Badges and Certifications
-    * Access to Proposal-Based MDF
-    * Lead-Sharing Opportunities
-    * Ultimate-Level Technical Support
-    * Business Planning and Quarterly Business Reviews (QBRs)
-    * Priority Help Desk Support
-    * Priority Position in the GitLab Partner Locator
+* Focused Strategic Relationships (Channel Account Manager, Solution Architect, Executives)
+* Discounts and Referral Fees, including limited-time Select-partner-only incentive programs
+* Targeted Sales and Services Enablement
+* Badges and Certifications
+* Access to Proposal-Based MDF
+* Lead-Sharing Opportunities
+* Ultimate-Level Technical Support
+* Business Planning and Quarterly Business Reviews (QBRs)
+* Priority Help Desk Support
+* Priority Position in the GitLab Partner Locator
 
 Since participation in the Select track is by invitation only, partners are not automatically upgraded. To be considered, they must meet the requirements outlined in Program Requirements and Benefits below, including:
 * Verifications (completion of GitLab Sales Core) and certification (Sales Core plus Advanced Use Case Training) in the region specified in your GitLab Partner Contract.
@@ -51,16 +52,16 @@ Since participation in the Select track is by invitation only, partners are not 
 * Dedicated DevOps sales and/or services practice.
 * Minimum of one GitLab demand-generation activity per quarter.
 
-#### Program Requirements and Benefits
+## Program Requirements and Benefits
 
 |   |**GitLab Open** | **GitLab Select** <br> **(Invitation only)** |
 |------------------|:---------------------------:|:---:|
 | **Overall Program Requirements** |  |  |
 | GitLab Partner Agreement | X | X |
-| # of Sales Verified (Sales Core) resources | 2 | 4 |
-| # of GitLab Sales Professional Certificatied resources |   | 1 |
-| # of Solution Architect Verified resources | 1 | 2 |
-| # of Professional Services Certified resources |   | 1 |
+| # of Verified Sales Associate (Sales Core) resources | 2 | 4 |
+| # of Accredited Sales Professional resources |   | 1 |
+| # of Solution Architect Verified Associate resources | 1 | 2 |
+| # of Certified Professional Services Engineer resources (2021 certification) |   | 1 |
 | Exec Sponsored Joint Business Plan |  | X |
 | Program Rev Targets Min - BusPlan Committed |  | $300K |
 |  |  |  |
@@ -94,9 +95,30 @@ Since participation in the Select track is by invitation only, partners are not 
 | Managed Services certification | X | X |
 | Managed Services Discount | X | X |
 
+## The Services Program
+GitLab has created a Services program that enables, trains, certifies and provides incentives to partners that deliver services to GitLab customers. The GitLab Channel Services program is designed to help new or existing partners design service portfolios around the DevOps Lifecycle, helping customers transition to a single DevOps Platform with GitLab.
 
-#### Contact Us
+To learn more about the GitLab Services Program requirements and available services opportunities, visit:
 
-All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. channel allows you to reach out to our sales and marketing team in a timely manner, as well as other resellers.
+* [Channel Services Program](/handbook/resellers/services/)
+* [Channel Services Catalog](/handbook/resellers/services/services-catalog/)
 
-Additionally, you can reach the GitLab channel team at partnersupport@gitlab.com. 
+## Training Accreditation, and  Certification Program and Requirements
+GitLab has developed core training, accreditation and certification for sales, solution architects (pre-sales engineers), and post sales engineers and consultants.  The GitLab Partner Enablement Program is designed to provide our partners with similar training as GitLab employees themselves.  For details on available training resources visit the [Channel Training, Certifications and Enablement](https://about.gitlab.com/handbook/resellers/training/) page.
+
+## Deal Registration, Discounts and Referral Fees, NFR
+The GitLab Partner Program helps develop your practice to best fit your business model. To learn more about key topics like deal registration, discounts and referral fees, NFRs and more, go to [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-GitLab/).
+
+## More Channel Partner Program Information
+If you are looking for additional information on the GitLab Partner program see the following handbook pages.
+* [Channel Partner Program Overview](https://about.gitlab.com/handbook/resellers/) 
+* [Channel Program Guide](https://about.gitlab.com/handbook/resellers/Channel-Program-Guide/)
+* [Channel Services Program](/handbook/resellers/services/)
+* [Channel Services Catalog](/handbook/resellers/services/services-catalog/)
+* [Channel Partner Training and Certifications](/handbook/resellers/training/)
+* [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-GitLab/)
+* [Channel Tools and Resources](/handbook/resellers/channel-tools-resources/)
+* [Alliance Program](https://about.gitlab.com/partners/technology-partners/)
+ 
+## Contact Us
+All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. This Slack channel allows you to reach out to our sales and marketing team in a timely manner, as well as other resellers. Additionally, you can reach the GitLab Channel Team at partnersupport@gitlab.com and the GitLab marketing team at partner-marketing@gitlab.com.

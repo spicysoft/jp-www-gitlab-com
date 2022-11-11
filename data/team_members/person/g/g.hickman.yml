@@ -1,7 +1,9 @@
+---
 name: Grant Hickman
 locality:
 country: Remote
-role: <a href="/job-families/product/product-manager/">Senior Product Manager</a>, Manage:Integrations
+role: <a href="/job-families/product/product-manager/">Senior Product Manager</a>,
+  Manage:Integrations
 reports_to: melissaushakov
 picture: granthickman.png
 pronouns: He/Him
@@ -10,10 +12,18 @@ twitter:
 linkedin: granthickman33
 gitlab: g.hickman
 departments:
-  - Product Management
-  - Dev PM Team
-specialty: Manage:Integrations
+- Product Management
+- Dev PM Team
+specialty:
+- 'Manage: Integrations'
 expertise:
-story:
-  I'm a gritty, product-minded individual with a passion for data and my heart set on making an impact. I see customer problems as well as the vast capability that technology and design offer to solve problems elegantly. I have a background in marketing, website development, cloud technologies, and APIs -- this gives me confidence in working with customers, stakeholders, and engineers to innovate and implement products/features that solve for real customer and business outcomes.
-  When out of the office, I like to escape to the mountains with my girlfriend and two hound dogs for snowboarding, hiking, fly fishing, mountain biking, off-roading or other activities.
+story: I'm a gritty, product-minded individual with a passion for data and my heart
+  set on making an impact. I see customer problems as well as the vast capability
+  that technology and design offer to solve problems elegantly. I have a background
+  in marketing, website development, cloud technologies, and APIs -- this gives me
+  confidence in working with customers, stakeholders, and engineers to innovate and
+  implement products/features that solve for real customer and business outcomes.
+  When out of the office, I like to escape to the mountains with my girlfriend and
+  two hound dogs for snowboarding, hiking, fly fishing, mountain biking, off-roading
+  or other activities.
+

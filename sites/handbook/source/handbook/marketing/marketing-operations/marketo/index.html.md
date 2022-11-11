@@ -23,26 +23,15 @@ description: "Marketo is our marketing automation platform used for email market
 
 ## Marketo Tech Stack Guide
 
-> **Note:** Refer to the **[Tech Stack Index](/handbook/business-technology/tech-stack/)** to browse Apps and **[Tech Stack Applications](/handbook/business-technology/tech-stack-applications/)** to manage Apps.
-
-<% data.tech_stack.each do |stack| %>
-<% if stack.title == "Marketo" %>
-- **Description:** <%= stack.description %>
-- **Provisioner:** <%= stack.provisioner %>
-- **Deprovisioner:** <%= stack.deprovisioner %>
-- **Okta Enabled:** <%= stack.need_move_to_okta %>
-- **Critical Systems Tier:** <%= stack.critical_systems_tier %>
-<% end %>
-<% end %>
+Visit the [Marketo Tech Stack Guide](/handbook/marketing/marketing-operations/marketo/tech-stack-guide-marketo/#integrations) for more information around provisioning, integrations and system diagrams.
 
 
-### Integrations
 
-To see the different systems that are connected to Marketo, please visit the [Marketo System Infrastructure Mapping Mural](https://app.mural.co/t/gitlab2474/m/gitlab2474/1604947309706/7aec5684a2fa4671823c5acd352348b04562950f).
+### Marketo <> Salesforce.com Connection
 
-#### Marketo <> Salesforce.com Connection
+When any lead/contact is created in SFDC, it will automatically sync and create in Marketo - nothing is held back. Likewise, when a lead/contact is deleted in SFDC, it will delete in Marketo as well. 
 
-When any lead/contact is created in SFDC, it will automatically sync and create in Marketo - nothing is held back. Likewise, when a lead/contact is deleted in SFDC, it will delete in Marketo as well. Alternatively, Marketo does not automatically push all records to SFDC and a deleted record in Marketo will not delete in SFDC unless specifically told to. 
+Alternatively, Marketo does not automatically push all records to SFDC and a deleted record in Marketo will not delete in SFDC unless specifically told to. 
 
 A lead will sync from Marketo to SFDC in these scenarios:
 1. Member of Program that is synced to SFDC
@@ -58,12 +47,14 @@ Data is shared between the two via the Marketo User Permission Set with either `
 
 Marketo also can create and edit SFDC campaigns. The `Active` checkbox must be checked in order for Marketo to be able to map to that campaign. [Go here for campaign set up directions](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up).
 
-When large updates are made to SFDC, they could cause a sync backlog back to Marketo. To check the backlog, go to [this page](https://app-ab13.marketo.com/supportTools/sfdcSyncStats) and select the object you want to review and click `Get Stats`. Marketo>SFDC is a push count, while SFDC>Marketo is considered Pull. You must be logged in to Marketo to view this information. Backlogs clear automatically, they are slower during working hours due to system usage (Marketo's user base, not just GitLab), but the sync speeds up off-hours and on weekends.
+When large updates are made to an SFDC field value, they could cause a sync backlog back to Marketo. To check the backlog, go to [this page](https://app-ab13.marketo.com/supportTools/sfdcSyncStats) and select the object you want to review and click `Get Stats`. Marketo>SFDC is a push count, while SFDC>Marketo is considered Pull. You must be logged in to Marketo to view this information. Backlogs clear automatically, they are slower during working hours due to system usage (Marketo's user base, not just GitLab), but the sync speeds up off-hours and on weekends.
 
-#### Custom Sync Rules with Salesforce
+### Custom Sync Rules with Salesforce
 Because certain processes create records with a blank email address in SFDC we want to avoid having those records flowing into Marketo since they are not actionable and the database has increasing costs per the number of records.
 
 Together with Sales Systems, we implemented a custom formula field called `Block_Marketo_Sync__c`. When the field is checked, records will be blocked from syncing by the custom sync rule. Likewise, when the field is unchecked, it will flow to Marketo.
+
+For the sandbox, we have a different set of [syncing rules](/handbook/marketing/marketing-operations/marketo/#sandbox).
 
 
 ### Multi-thread Sync
@@ -94,6 +85,11 @@ To enable, you must [create an issue](https://gitlab.com/gitlab-com/marketing/ma
 We do have a sandbox to work in for Marketo. The sandbox is used for training, creation of API links and overall testing before we move to production. There is not a way to `promote` a program from the sandbox to Prod, so building programs in the sandbox first is not always required. Guidelines for when to build in the sandbox is TBD, but for custom API and webhook integrations, it is highly recommended.
 
 If you'd like access to the sandbox, please fill out an [AR](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/frequently-asked-questions/).
+
+To limit the number of leads that pass from SFDC staging to Marketo Sandbox, we have instituted a custom rule that will only allow leads to sync from SFDC Staging to Marketo Sandbox IF `Marketo Sync` = TRUE. This is opposite logic than what we have for production.
+
+#### Reconnecting Sandbox to SFDC Staging
+Sales Systems refreshes the [SFDC staging environment](/handbook/sales/field-operations/sales-systems/#sandbox-refreshes) periodically. When this occurs, there are several steps to take to reconnect it to the Marketo sandbox outlined on that page.
 
 
 ## Forms   
@@ -151,6 +147,10 @@ dataLayer.push(
   {}, 'eventTimeout' : 3000
 });
 ```
+### Program Asset Expiration
+
+Starting in November 2022, teams within Marketo will transition to utilizing the [asset expiration feature](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date) added to the product in early 2022 as a way to declutter our expired landing pages and no longer relevant smart campaigns. Detailed instructions on this process can be found in our handbook on the [Campaigns and Programs](handbook/marketing/marketing-operations/campaigns-and-programs/) page.
+
 ### Product data in Marketo
 
 Data and engineering teams have developed integrations to bring data related to in-product customer and trial usage to Marketo. 
@@ -235,8 +235,8 @@ Behavior scoring is based on the actions that person has taken. The cadence of h
 |Registered |Registered, <br> Conference > Meeting Requested|	+10	|{{my.Registered}}|	Trigger	| Everytime|
 |Follow Up Requested| Follow Up Requested <br> Conference > Meeting Attended|	+100	|{{my.Follow Up Requested}}	|Trigger	| Everytime|
 |* Program High|Workshop, <br> Self-Service Virtual Event, <br> Webcast, <br> Executive Roundtables |	+30	|{{my.Online - High}} |Trigger| Everytime|
-|* Program Med|Sponsored Webcast, <br>Speaking Session,<br> Owned Event,<br> Conference	|+20	|{{my.Online - Med}}|Trigger|Everytime|
-|* Program Low |Vendor Arranged Meetings,<br> Conference	|+10|	{{my.Online - Low}}		|Trigger|Everytime|
+|* Program Med|Sponsored Webcast, <br>Speaking Session,<br> Owned Event,<br> Conference > Visited Booth	|+20	|{{my.Online - Med}}|Trigger|Everytime|
+|* Program Low |Vendor Arranged Meetings,<br> Conference > Attended	|+10|	{{my.Online - Low}}		|Trigger|Everytime|
 |* Content - High|None Defined| +30|	{{my.Content - High}}	|Trigger  |Everytime|
 |* Content - Med|Gated Content|+15|	{{my.Content - Med}}	|Trigger  |Everytime|
 |* Content -  Low|Content Syndication|+5|	{{my.Content - Low}}	|Trigger  |Everytime|
@@ -254,7 +254,7 @@ Behavior scoring is based on the actions that person has taken. The cadence of h
 |Visits Mult Webpages|7 pages in 1 day	|+5	|{{my.Visits Mult. Webpages}}	|Trigger	|1/ 3 days|
 |Web: No activity in 30 days|No web activity, not created in last 30|	-10	|{{my.No Web Activity}}|	Trigger|	1/month|
 |Web: Visits Low Value|`/jobs`|	-10	|{{my.Visits Low Value Webpage}}|	Trigger	|1/day|
-|Email: Unsubscribed|Unsubscribed from Email|	Score Reset	|{{my.Unsubscribed}}|	Trigger	|1/month
+|Email: Unsubscribed|Unsubscribed from Email|	Score Reset	|{{my.Unsubscribed}}|	Trigger	|1/month|
 |Email:  Bounce	|Email Hard Bounces|	-20|	{{my.Bounce}}|	Trigger|1/month|
 
 
@@ -294,8 +294,8 @@ For Job role/function and seniority descriptions can be found [here](https://doc
 |Function - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|+15|	{{my.Function - Med}}|	Trigger on creation or Update to Title|	Once|
 |Function - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|	+10|	{{my.Function - Low}}	|	Trigger on creation or Update to Title|	Once|
 |Function - Negative|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|	-20	|{{my.Function - Negative}}		|Trigger on creation or Update to Title|	Once|
-
-|Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](https://about.gitlab.com/handbook/marketing/localization/#priority-countries)|	+5	|{{my. Country - P0, P1}}|	Trigger on creation or Update 	|Once|
+|Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](https://about.gitlab.com/handbook/marketing/localization/#priority-countries)|	+5	|{{my.Country - P0, P1}}|	Trigger on creation or Update 	|Once|
+| Key Account | Key Account = True |	+20	|{{my.Focus Account}}|	Trigger on creation or Update 	|Once|
 
 ## Lists and Segmentation
 
@@ -427,6 +427,32 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 
 - Currently available for US Public Sector only
 - List of available segments can be found in [this doc](https://docs.google.com/spreadsheets/d/1UAD3JKqe5y-NJBPB5CbjmN5Wq1OObzh_vsLqbuGk9dk/edit#gid=0)
+
+</details>
+
+<details>
+<summary markdown='span'>
+[Order Type](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1028A1)
+</summary>
+
+- First Order
+- Growth
+- Default
+
+</details>
+
+<details>
+<summary markdown='span'>
+[Product](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1027A1)
+</summary>
+
+- Ultimate
+- Premium
+- Bronze 
+- SM Trial
+- SaaS Trial
+- Free User
+- Default
 
 </details>
 

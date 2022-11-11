@@ -1,7 +1,7 @@
 - id: training_sessions_basics
   name:     GitLab with Git Basics Training
   sow_name: Basic Training
-  desc_url: /services/education/gitlab-basics/
+  desc_url: https://about.gitlab.com/services/education/gitlab-basics/
   short_desc: GitLab training on using GitLab for source control management, as well as an overview of basic Git concepts and command-line instructions.
   long_desc: |
     This class provides users with an introduction to GitLab and Git. It starts with an overview of GitLab so you can learn the basics about what GitLab does and why DevOps teams use it. Then it dives into Git, the version control system used by GitLab for source code management. You'll learn and practice fundamental Git concepts and commands. Throughout the course we'll provide demos and hands-on practice with many of the foundational processes and tasks that DevOps teams use in GitLab: committing changes, creating branches and merge requests, using a CI/CD pipeline, and accessing security scanning.<br/>
@@ -40,7 +40,7 @@
 - id: training_sessions_basics_remote
   name:     GitLab with Git Basics Training - Remote Delivery
   sow_name: Basic Training - Remote SOW
-  desc_url: /services/education/gitlab-basics/
+  desc_url: https://about.gitlab.com/services/education/gitlab-basics/
   description2:
     This is GL-BAS delivered remotely using video conferencing in two 3- to 4-hour sessions
   target_audience: Any team member new to Git and GitLab
@@ -61,7 +61,7 @@
 - id: training_sessions_security_essentials_remote
   name:     GitLab Security Essentials
   sow_name: Security Essentials Training - Remote SOW
-  desc_url: /services/education/security-essentials/
+  desc_url: https://about.gitlab.com/services/education/security-essentials/
   short_desc: Live security training for Gold/Ultimate customers
   long_desc: |
     This course covers all of the essential security capabilities of GitLab, including Static Application Security Testing, secret detection, Dynamic Application Security Testing, dependency scanning, container scanning, license compliance, and fuzz testing.<br/><br/>Since most of these features are only available for customers with an Ultimate license, <strong>this course is intended for Ultimate customers only.</strong>
@@ -98,7 +98,7 @@
 - id: training_sessions_pm
   name:     GitLab for Project Managers Training
   sow_name:     GitLab for Project Managers Training
-  desc_url: /services/education/pm/
+  desc_url: https://about.gitlab.com/services/education/pm/
   short_desc: GitLab training on using GitLab issues, epics, and other project management tools to manage projects using different workflows.
   long_desc: |
     This class introduces users to GitLab's Plan stage, where they can manage software products or other projects. It focuses on the various tools available, including issues, epics, milestones, iterations, labels, roadmaps, burndown charts, and boards.
@@ -134,7 +134,7 @@
 - id: training_sessions_pm_remote
   name:     GitLab for Project Managers Training - Remote Delivery
   sow_name:     Project Management Training - Remote SOW
-  desc_url: /services/education/pm/
+  desc_url: https://about.gitlab.com/services/education/pm/
   description2:
     This is GL-PM delivered remotely using video conferencing in two 3- to 4-hour sessions
   target_audience: Anyone who will be performing project management tasks using GitLab, including project managers, program managers, product owners, and scrum masters
@@ -155,7 +155,7 @@
 - id: training_sessions_cicd
   name:     GitLab CI/CD Training
   sow_name: GitLab CI CD Training
-  desc_url: /services/education/gitlab-ci/
+  desc_url: https://about.gitlab.com/services/education/gitlab-ci/
   short_desc: GitLab training on using the Verify, Package, and Release stages to support your team's CI/CD efforts.
   long_desc: |
     This class explains what Continuous Integration/Continuous Deployment (CI/CD) pipelines are and what value they bring to the software development lifecycle. It also outlines the architecture behind GitLab's CI/CD pipelines and explains how to set up basic CI/CD pipelines in your own projects. Finally, it touches on a handful of specific CI/CD pipeline use cases, including pushing your app to a Docker Container registry and using one of GitLab's security scanners.
@@ -194,7 +194,7 @@
 - id: training_sessions_cicd_remote
   name:     GitLab CI/CD Training - Remote Delivery
   sow_name: CI CD Training - Remote SOW
-  desc_url: /services/education/gitlab-ci/
+  desc_url: https://about.gitlab.com/services/education/gitlab-ci/
   description2:
     This is GL-CICD delivered remotely using video conferencing in two 3- to 4-hour sessions
   target_audience: Technical Project Leads
@@ -215,7 +215,7 @@
 - id: training_sessions_admin
   name:     GitLab System Administration Training
   sow_name: Custom
-  desc_url: /services/education/admin/
+  desc_url: https://about.gitlab.com/services/education/admin/
   short_desc: GitLab training on how to set up and maintain self-managed GitLab instance.
   long_desc: |
     This course covers installation, configuration and maintenance tasks for a GitLab self-managed instance. <b>This course is not intended for gitlab.com (SaaS) customers.</b>
@@ -253,7 +253,7 @@
 - id: training_sessions_seat_add-on
   name:     GitLab Training Per-Seat Add-on
   sow_name:     GitLab Training Per-Seat Add-on
-  desc_url: /services/education/ILT-Seat-Add-On/
+  desc_url: https://about.gitlab.com/services/education/ILT-Seat-Add-On/
   short_desc: Adds on additional seats to the 12-person limit for standard training sessions.
   long_desc: |
     This offering provides a way for a customer ordering a private instructor-led training session for their organization to add on additional seats to the 12-person limit for a standard live training session. For example, to order a live training session for 15 attendees, a customer can order 1 standard training session for 12 attendees plus 3 add-on seats.
@@ -276,7 +276,7 @@
 - id: training_sessions_devops
   name:     GitLab DevOps Fundamentals Training
   sow_name:     DevOps Fundamentals Training
-  desc_url: /services/education/devops-fundamentals/
+  desc_url: https://about.gitlab.com/services/education/devops-fundamentals/
   long_desc: |
     Concurrent DevOps is a new way of thinking about how to create and ship software. Rather than organizing work in a sequence of steps and handoffs, the power of working concurrently is in unleashing collaboration across the organization. Throughout the <b>four courses</b> in this learning offering (GitLab with Git Basics, CI/CD, Project Management, and Security Essentials), we’ll walk your team members through the fundamentals of using GitLab as a complete DevOps platform. Attendees will gain hands-on experience using GitLab throughout the lifecycle stages of Manage, Plan, Create, Verify, Package, Secure, and Release.
     <br/><br/>
@@ -321,7 +321,7 @@
 
 - id: integration_jira
   name:     JIRA Integration
-  desc_url: /services/integration/
+  desc_url: https://about.gitlab.com/services/implementation/integration/
   level:    1 - Product
   category: Integration
   maturity: Viable
@@ -337,7 +337,7 @@
 
 - id: integration_jenkins
   name:     Jenkins Integration
-  desc_url: /services/integration/
+  desc_url: https://about.gitlab.com/services/implementation/integration/
   level:    1 - Product
   category: Integration
   maturity: Viable
@@ -353,7 +353,7 @@
 
 - id: integration_ldap
   name:     LDAP Integration
-  desc_url: /services/integration/
+  desc_url: https://about.gitlab.com/services/implementation/integration/
   level:    1 - Product
   category: Integration
   maturity: Viable
@@ -369,7 +369,7 @@
 
 #- id: migration_jenkins
 #  name: Jenkins Migration
-#  desc_url: /services/migration/jenkins
+#  desc_url: https://about.gitlab.com/services/migration/jenkins
 #  level: 1 - Product
 #  category: Migration
 #  maturity: Minimal
@@ -381,7 +381,7 @@
 - id: training_sessions_is
   name:     GitLab InnerSourcing Training
   sow_name:     GitLab InnerSourcing Training
-  desc_url: /services/education/innersourcing-course/
+  desc_url: https://about.gitlab.com/services/education/innersourcing-course/
   short_desc: GitLab training  on benefits and best practices for adopting an InnerSourcing approach across development teams.
   long_desc: |
     This hands-on workshop covers what InnerSourcing is, the key components needed for InnerSourcing to be successful, and how it will benefit you and your company. Attendees will learn how GitLab can help drive collaboration and consistency throughout the organization, and begin to apply best practices used by GitLab's own teams.
@@ -418,7 +418,7 @@
 - id: training_sessions_is_remote
   name:     GitLab InnerSourcing Training - Remote Delivery
   sow_name:     GitLab InnerSourcing Training - Remote
-  desc_url: /services/education/innersourcing-course/
+  desc_url: https://about.gitlab.com/services/education/innersourcing-course/
   short_desc: GitLab training  on benefits and best practices for adopting an InnerSourcing approach across development teams.
   long_desc: |
     This hands-on workshop covers what InnerSourcing is, the key components needed for InnerSourcing to be successful, and how it will benefit you and your company. Attendees will learn how GitLab can help drive collaboration and consistency throughout the organization, and begin to apply best practices used by GitLab's own teams.
@@ -445,7 +445,7 @@
 
 - id: implementation-rapid-results-sm
   name: Rapid Results - Self Managed
-  desc_url: /services/rapid-results/
+  desc_url: https://about.gitlab.com/services/rapid-results/
   short_desc: Rapid results helps you quickly get users to be productive using gitlab.
   long_desc: The GitLab Rapid Results Consulting package helps you quickly implement your GitLab solution (install, configure for disaster recovery) and enable your organization to take advantage of your GitLab purchase quickly. Our Professional Services Engineers aid in installing and configuring your GitLab solution so that it runs as smoothly as possible. The Professional Services Engineer will be dedicated to working with your team to architect and advise on best practices for getting the most value possible from your GitLab purchase.
   description2: Deploy and configure a secure, stable, HA, performant GitLab self managed instance. Educate your end users. With this combination of services, get the most value from your investment in GitLab
@@ -464,7 +464,7 @@
 
 - id: implementation-rapid-results-com
   name: Rapid Results - Gitlab.com
-  desc_url: /services/rapid-results/
+  desc_url: https://about.gitlab.com/services/rapid-results/
   short_desc: Rapid results helps you quickly get users to be productive using gitlab.
   long_desc: The GitLab Rapid Results Consulting package helps you quickly implement your GitLab solution and enable your organization to take advantage of your GitLab purchase quickly. Our Professional Services Engineers aid in installing and configuring your GitLab solution so that it runs as smoothly as possible. The Professional Services Engineer will be dedicated to working with your team to architect and advise on best practices for getting the most value possible from your GitLab purchase.
   description2: Configure, secure and integrate your gitlab.com group. Educate your end users. With this combination of services, get the most value from your investment in GitLab
@@ -483,7 +483,7 @@
 
 - id: migration-plus
   name: Migration+
-  desc_url: /services/migration/migration-plus/
+  desc_url: https://about.gitlab.com/services/migration/migration-plus/
   short_desc: Migration+ packages our most popular migration and education services together.
   long_desc: Migration+ provides source code migration from a single source system and adds 3 standard education services to help users and administrators to level up quickly on the gitlab application and workflows.
   description2: Migraiton+ provides source code migration from a single source system and adds 3 standard education services to help users and administrators to level up quickly on the gitlab application and workflows.
@@ -506,7 +506,7 @@
   short_desc: Let's evaluate your deployment architecture to provide recommendations on how to optimize for performance, stability, and availability.
   long_desc: health check long description
   description2: Evaluates your GitLab deployment architecture to provide recommendations on how to optimize for performance, stability, and availability.
-  desc_url: /services/implementation/health-check/
+  desc_url: https://about.gitlab.com/services/implementation/health-check/
   summary: Are you planning for additional capacity or system load? Are you starting to experience less than optimal performance? The GitLab professional services team can help. We will leverage the <a href="/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/">GitLab Performance Tool</a> to determine opportunities for improvement in your current deployment. We will provide a report recommending updates to the deployment architecture to achieve the goals you've established.
   whos-this-for: Customers who are planning for additional capacity or system load in the near future? Customers who are starting to experience less than optimal performance in their GitLab self managed deployments.
   target_audience: Customers who are planning for additional capacity or system load in the near future

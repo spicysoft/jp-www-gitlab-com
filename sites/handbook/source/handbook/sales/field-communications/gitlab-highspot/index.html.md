@@ -35,10 +35,10 @@ GitLab ultimately chose to onboard Highspot as a sales enablement solution / sal
 1. **Lists & List Groups** - Lists work as filters, and make it easier to find the content you need. Lists can then be collected under list groups for further organization.
 1. **Role: Field User** - Field users, or Contributors, have the ability to pitch items to prospects and customers, view pitch performance analytics, and submit content to Highspot Spot Owners for reivew and publishing. This is the access level that most GitLab GTM team members will have. 
 1. **Role: Content Owners** - Content owners, or Publishers, have the ability to add and manage content, design and build SmartPages, and create and manage lists and Spots. Content Owners are responsible for the management of content in Highspot in one or more spots. They can also make high-level changes to the search structure as needed.
-1. **Role: Spot Owner** - Spot Owners are the DRI for a Spot, and oversee content governance and usage performance for the Spot and its users.
+1. **Role: Spot Owner** - Spot Owners are the Directly Responsible Individual (DRI) for a Spot, and oversee content governance and usage performance for the Spot and its users.
    1. The key difference between Owners/Co-Owners and Editors is that Owners/Co-Owners can delete a spot while Editors cannot.
 1. **Role: Analyst** - Analysts have the ability to create reports within the Analytics section of Highspot and view reports in the Analytics Spot.
-1. **Contribution Status: Locked** - Only Content Owners can contribute content to these spots. All can view. 
+1. **Contribution Status: Locked** - Only Spot Editors (i.e. Content Owners) can contribute content to these spots. All can view. 
 1. **Contribution Status: Open - Review Required** – GitLab team members can contribute to these spots but review and approval will be required from a designated content reviewer before the content is viewable by all users.
 1. **Contribution Status: Open** - GitLab team members can contribute content to these spots without the need for review.
 1. **Internal & External Content** - All content in Highspot will be marked as either internal or external: 
@@ -51,10 +51,9 @@ GitLab ultimately chose to onboard Highspot as a sales enablement solution / sal
 | ------ | ------ | ------ | ------ |
 | **Channel & Alliances** | Channel marketing material to share with Partners and internal GitLab team members. | All internal team members | Locked | 
 | **Competitive Intelligence** | All internal competitive matters; to be used for self-education about our competitors. | All internal team members | Locked | 
-| **Customer Success** | CS Operations, Gainsight, Professional Services, Solutions Architects, Technical Account Management. | All internal team members | Open - Review Required |
+| **Customer Success** | CS Operations, Gainsight, Professional Services, Solutions Architects, Technical Account Management. | All internal team members | Locked |
 | **Customer Outreach** | Resources and insights to support customer collaboration, including case studies, industry research, personas, value drivers, analyst reports, marketing campaigns, and events. | All internal team members | Locked |
 | **Field Strategy and Enablement** | Training, onboarding, organization-wide changes or large projects. | All internal team members | Locked |
-| **Sales Plays** | All active and past GitLab [Sales Plays](/handbook/marketing/sales-plays/). | All internal team members | Locked |
 | **Field Contributed Content** | Collateral that Field team members have created for customers and prospects – examples of "what good looks like." | All internal team members | Open - Review Required |
 | **Personal Spot** | Each team member with a Highspot account will have their own personal spot that they can use to upload content of their own. Naming convention is `[Your Account First Name] Spot`. | Account holder only | Open |
 
@@ -121,7 +120,7 @@ Here is an overview of each sort:
 
 #### Search for Content
 
-One of the quickest and easiest ways to find content in Highspot is through search. You can run a quick search across the entire site by entering your query and clicking return:
+One of the quickest and easiest ways to find content in Highspot is through search. You can run a quick search across the entire site by entering your query and clicking return. When you type in a search term, individual items will appear at the top of the list. Different types of items in the search results are divided by lines. You can use the icons to quickly identify results by type: a target for Spot, a headshot outline for person, three heads for Group, etc.
 
 ![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_SearchforContent.png)
 
@@ -325,11 +324,11 @@ Each spot has a handful of designated “Content Owners” who are DRIs in their
 
 **Can all team members upload content into Highspot?** 
 
-There are two spots in which all team members can upload content in Highspot that all users can access: the Sales Contributed Spot (for Sales, Channel, Alliances and Operations-related submissions) and Customer Success (for CS-related sumissions). Content submitted to these spots require review before it is visible to all users. Each team member can upload content to their Personal Spot without the need for review. Keep in mind that content uploaded to your personal spot will *only* be viewable by that user.
+There is one spot in which all team members can upload content in Highspot that all users can access: the Sales Contributed Spot (for Sales, Channel, Alliances and Operations-related submissions). Content submitted to this spot requires review before it is visible to all users. Each team member can upload content to their Personal Spot without the need for review. Keep in mind that content uploaded to your personal spot will *only* be viewable by that user.
 
 **How do I request to become a content owner?** 
 
-Please request access from the manager of Field Communications & Content.
+Please request access from the owner of the spot where you would like to gain access.
 
 **How do I determine the owner(s) of a spot?**
 
@@ -369,9 +368,9 @@ Generally, no. To help us maintain GitLab’s [SAFE framework](/handbook/legal/s
 
 The Handbook is still our SSOT at GitLab. If you’re a content creator and wanting to document information, processes, etc., you should still use the GitLab Handbook as the place to do this. The added benefit is that you can then add a link to that Handbook page within Highspot and add it to the appropriate Spot/lists so that the Handbook page is more easily discoverable by the Field team. A great way to think of Highspot is like a search engine across the documents/resources that the Field uses often.
 
-**What is the difference between Highspot and EdCast?** 
+**What is the difference between Highspot and Thought Industries (LevelUp)?** 
 
-EdCast is the main hub for all training content, courses, etc. Think of Highspot like a search engine put across all of the tools and platforms we use - Google Drive, YouTube, Handbook, EdCast, etc. So, we might upload a link to a training course or a video recording that's housed in EdCast so that it's more discoverable and served up with related content within Highspot.
+Thought Industries (LevelUp) is the main hub for all training content, courses, etc. Think of Highspot like a search engine put across all of the tools and platforms we use - Google Drive, YouTube, Handbook, etc. So, we might upload a link to a training course or a video recording that's housed in another location so that it's more discoverable and served up with related content within Highspot.
 
 **Can teams have an area where they can post content specific to their team?**
 
@@ -502,11 +501,12 @@ Learn more about designing and building [SmartPages](https://help.highspot.com/h
 #### Creating pitch templates 
 Highspot offers what they call pitch templates, which are email templates that can be created by GitLab and sent to prospects and customers with pre-written messages and pre-selected content attached. These templates include built-in tracking and analytics capabilities, and are intended for 1-to-1 or 1-to-few communications.
 
-Once a pitch template is created, currently anyone with access to the Pitch Template Spot can access that template, customize it as/if they see fit, send the template to a prospect or customer, and view all tracked activities.
+Once a pitch template is created, currently anyone with access to the Company Pitch Template Spot can access that template, customize it as/if they see fit, send the template to a prospect or customer, and view all tracked activities.
 
 The Highspot Help Center provides instructions on how to create pitch templates, which you can read [here](https://help.highspot.com/hc/en-us/articles/214982823-Create-a-Pitch-Template). In addition, follow these steps to help keep GitLab's pitch templates organized and consistent:  
 
-   * Create new pitch templates in the Pitch Templates Spot. Users can bookmark templates to their own Spot, and Spot Owners can bookmark or filter pitch templates in SmartPages to quickly surface these items.
+   * Create new pitch templates in the Company Pitch Templates Spot. Users can bookmark templates to their own Spot, and Spot Owners can bookmark or filter pitch templates in SmartPages to quickly surface these items.
+      * If you do not already have Editor access to the Company Pitch Templates Spot, you will not be able to add a new template. You can gain access by creating an Issue using [this Template] (https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=highspot-spot-permissions-request).
    * Add a descriptive title and description. These fields are internal to Highspot and should help users know when/how/why to use the template. Titles should be consistent, such as when adding a sequence of templates.  
    * Add a message using text and dynamic fields (i.e. Customer name, Company), which will auto-fill for the user when pitching. Users can edit the message when pitching. This will not affect the template. However, the user's edits will show clearly in their own Pitches Spot, as well as in SFDC.
    * Attach an item. All pitch templates must include at least one piece of content from within Highspot. If no content is selected when creating the pitch template, users must add an item when pitching.

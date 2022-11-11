@@ -66,6 +66,8 @@ Our 1 year plan is to:
 - Phase 3 - **Enable general availability of Product Analytics capabilities** - Ensure Product Analytics capabilities are available by default, backed by GitLab's Clickhouse cluster enabling users to submit their own Product Analytics events. 
 - Phase 4 - **Increase investment in the Analytics section** - Pursue MVCs of next [use cases](#use-cases) and [categories](#categories) after Product Analytics instrumentation such as Experimentation and Session Recording.
 
+We are tracking next steps for the overall section in this [issue](https://gitlab.com/gitlab-com/Product/-/issues/3785)
+
 # Why we do it
 
 ## Impact

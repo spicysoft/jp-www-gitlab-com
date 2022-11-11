@@ -57,6 +57,13 @@ gitlab-workhorse:
     requests such as file downloads, file uploads, Git push/pull and Git archive
     downloads.
 
+project-templates:
+  name: GitLab Project Templates
+  path: gitlab-org/project-templates
+  link: https://gitlab.com/gitlab-org/project-templates
+  description: |
+    GitLab project-templates are a collection of language-specific starter templates.
+
 omnibus-gitlab:
   name: Omnibus GitLab
   path: gitlab-org/omnibus-gitlab
@@ -676,6 +683,13 @@ secure-SAST-brakeman:
   description: |
     Brakeman analyzer providing scanning capabilities for our Static Analysis category.
 
+secure-SAST-codequality:
+  name: Code Quality
+  path: gitlab-org/ci-cd/codequality
+  link: https://gitlab.com/gitlab-org/ci-cd/codequality
+  description: |
+    Code Quality Analysis tool for GitLab CI
+
 secure-SAST-eslint:
   name: Static Analysis - Eslint analyzer
   path: gitlab-org/security-products/analyzers/eslint
@@ -823,19 +837,12 @@ verify-accessibility:
   description: |
     Accessibility tool for GitLab CI
 
-verify-codequality:
-  name: Code Quality
-  path: gitlab-org/ci-cd/codequality
-  link: https://gitlab.com/gitlab-org/ci-cd/codequality
-  description: |
-    Code Quality Analysis tool for GitLab CI
-
 container-registry:
   name: Container Registry
   path: gitlab-org/container-registry
   link: https://gitlab.com/gitlab-org/container-registry
   description: |
-    With the Docker Container Registry integrated into GitLab, every project can have its own space to store its Docker images.
+    With the Container Registry in GitLab, every project can have its own space to store its images.
 
 iglu:
   name: Iglu
@@ -1131,9 +1138,9 @@ gitlab-cli:
   path: gitlab-org/cli
   link: https://gitlab.com/gitlab-org/cli
   description: |
-    GLab is an open source GitLab CLI tool bringing GitLab to your terminal next 
-    to where you are already working with git and your code without switching 
-    between windows and browser tabs. Work with issues, merge requests, watch 
+    GLab is an open source GitLab CLI tool bringing GitLab to your terminal next
+    to where you are already working with git and your code without switching
+    between windows and browser tabs. Work with issues, merge requests, watch
     running pipelines directly from your CLI among other features.
 
 discoto:
@@ -1144,3 +1151,22 @@ discoto:
     Discoto (A mix of "DISCussion" and "AUTOmation") is a discussion-automation
     tool. It automatically creates and propagates discussion summaries and helps
     keep discussions organized.
+
+pipeline-validation-service:
+  name: pipeline-validation-service
+  path: gitlab-org/modelops/anti-abuse/pipeline-validation-service
+  link: https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service
+  description: |
+    Implements https://docs.gitlab.com/ee/administration/external_pipeline_validation.html
+
+gitlab-observability:
+  name: GitLab Observability backend
+  path: gitlab-org/opstrace/opstrace
+  link: https://gitlab.com/gitlab-org/opstrace/opstrace
+  description: Gitlab Observability Platform is a secure, horizontally-scalable, open source observability platform installed in your cloud account.
+
+gitlab-observability-ui:
+  name: GitLab Observability UI
+  path: gitlab-org/opstrace/opstrace-ui
+  link: https://gitlab.com/gitlab-org/opstrace/opstrace-ui
+  description: The GitLab Observability UI provides a solid base to build upon and create a place where we can rapidly iterate on new use cases and ways to query and display data regardless of the type.

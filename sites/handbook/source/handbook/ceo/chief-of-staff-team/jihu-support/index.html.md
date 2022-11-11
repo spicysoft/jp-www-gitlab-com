@@ -187,7 +187,7 @@ To notify JiHu of an upcoming security release, please simply post a comment in:
 
 GitLab Inc will follow the [documented vulnerability disclosure process](https://about.gitlab.com/security/disclosure/#vulnerability-disclosure) and will not provide detailed information about vulnerabilities directly to JiHu. No information will be shared prior to or during an in-progress security release.
 
-Only after a GitLab [security release](https://about.gitlab.com/handbook/engineering/security/#security-releases), GitLab Inc may provide JiHu with:
+Only after a GitLab [security release](https://about.gitlab.com/handbook/security/#security-releases), GitLab Inc may provide JiHu with:
 
 * A link to the public security release blog post
 * A link to the GitLab issue describing the vulnerability, which will remain confidential until 30 days after the release in which the vulnerability was patched
@@ -223,7 +223,7 @@ The [Product DRI](#rd-roles) has the following responsibilities:
   * Provide regular updates and raise awareness of GitLab investment themes and roadmap
   * Disseminate JiHu plans and roadmap with the appropriate party
 * Liaise with JiHu CTO on product data
-* Be the DRI for cross-company development efforts. For example - this [confidential issue](https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues/186)
+* Work with stage groups to implement solutions that pertains to JiHu or China related requirements
 * Partner with Engineering DRI and Engineering Facilitators to define and maintain processes that ensures the smooth functioning between GitLab and JiHu
 
 ### Product Manager responsibilities

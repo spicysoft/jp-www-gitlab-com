@@ -25,7 +25,7 @@ One of the main objectives for the Security team at GitLab is to protect data, r
 
 ### Dealing with data classification
 
-We’ve established a [classification of data policy](/handbook/engineering/security/data-classification-standard.html) at GitLab, so we understand the protections necessary. The emphasis of the data classification policy is to define mapping between access controls and data, where the level of sensitivity of the data can appropriately be protected. To help with the understanding and to allow for quicker identification, the four data classification levels are mapped to a color coding. The color codings are `RED`, `ORANGE`, `YELLOW`, and `GREEN` – with `RED` being the most sensitive data, down to `GREEN` being public data.
+We’ve established a [classification of data policy](/handbook/security/data-classification-standard.html) at GitLab, so we understand the protections necessary. The emphasis of the data classification policy is to define mapping between access controls and data, where the level of sensitivity of the data can appropriately be protected. To help with the understanding and to allow for quicker identification, the four data classification levels are mapped to a color coding. The color codings are `RED`, `ORANGE`, `YELLOW`, and `GREEN` – with `RED` being the most sensitive data, down to `GREEN` being public data.
 
 This classification of data is a huge step in the right direction when it comes to handling ZTN. That being said, when it comes to data classification there are a few areas where we anticipate challenges with regards to ZTN:
 
@@ -60,7 +60,7 @@ Simply put, our infrastructure poses some unique challenges:
 * **Who controls what?** This is not as bad as it sounds, but it is often not 100% clear who has administrative access to different systems. I’d say it is a symptom of a rapidly growing company, but after having experienced the same thing in most companies I’ve worked at, this is a fairly common phenomenon. The problem at GitLab stems from the amount of growth and our own rather unique history: When the company was very small, a single team member might be in control of a piece of infrastructure that slowly scaled up and became huge. Then, if that team member leaves the company, most likely the team member’s department assumes control. Does anyone or everyone have that control now? Does each team member understand all of the data residing in that system? Do they understand that data in relationship to the data classification?
 * **The enforcement of SaaS application privileges.** For systems where we do not have control over the underlying components, enforcing privileges becomes tricky. If a SaaS app has a regular user authentication and the main screen has an “Admin” button to escalate privileges, does our authentication system handle this programmatically?
 
-Fortunately we can leverage a number of the [compliance](/handbook/engineering/security/security-assurance/security-compliance/) efforts within the company to gain insight into what levels of control we can impose onto each system.
+Fortunately we can leverage a number of the [compliance](/handbook/security/security-assurance/security-compliance/) efforts within the company to gain insight into what levels of control we can impose onto each system.
 
 ### What's next
 

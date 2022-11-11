@@ -189,4 +189,5 @@ In Forrester's methodology, the four main elements of the TEI are:
   - Listed below are areas of responsibility within the analyst relations team:
 
     - [Ryan](https://about.gitlab.com/company/team/#rragozzine), Analyst Relations Manager
+    - [Gaby](https://about.gitlab.com/company/team/#gberkman), Analyst Relations Manager
     - [Laura](https://about.gitlab.com/company/team/#lclymer), Director of Market Strategy & Insights

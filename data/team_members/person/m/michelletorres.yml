@@ -1,7 +1,9 @@
+---
 name: Michelle Torres
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering Manager, Package</a>
+role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack
+  Engineering Manager, Package:Container Registry</a>
 reports_to: samgoldstein
 picture: michelletorres.jpg
 pronouns: she/her
@@ -10,10 +12,11 @@ twitter: nmicht
 linkedin: michelletorresv
 gitlab: michelletorres
 departments:
-  - Engineering Function
-  - Development Department
-  - Ops Section
-  - Package Group
+- Engineering Function
+- Development Department
+- Ops Section
+- Package Stage
+- Package:Container Registry Group
 specialty: Package
 mentor: true
 expertise:
@@ -22,6 +25,4 @@ story: |
   She worked for several years as an IC and Tech lead. Before moving to Germany, she was a lecturer for 10 years at the University of Guadalajara in Mexico.
   She speaks at conferences and likes sharing her experience and knowledge in any possible way, mostly talking about open-source, free software, communities, women+ in tech, career development, and collaboration.
   Michelle considers herself a foodie, enjoys traveling, a good book, and cooking.
-
-
 

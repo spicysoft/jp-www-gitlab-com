@@ -1,8 +1,8 @@
 name: Jess Perry
 locality: 
 country: Remote
-role: <a href="">Technical Account Manager</a>
-reports_to: patrick-h
+role: <a href="">Customer Success Manager</a>
+reports_to: lhan
 picture: jessperry.jpg
 pronouns:
 pronunciation:
@@ -10,7 +10,8 @@ twitter:
 linkedin: jess-perry
 gitlab: jess_perry
 departments:
-  - TAM
+  - Customer Success
+  - Customer Success Managers
 specialty: ""
 expertise:
 story: |

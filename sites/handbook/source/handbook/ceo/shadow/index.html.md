@@ -234,44 +234,21 @@ Exceptional community members may be able to participate, as well.
 
 | Start date | End date | See one | Teach one |
 | ---------- | -------- | ------- | --------- |
-| 2022-04-04 | 2022-04-08 | E-GROUP OFFSITE - NO SHADOWS | E-GROUP OFFSITE - NO SHADOWS |
-| 2022-04-11 | 2022-04-15 | [Nikki Roth Silverberg](https://gitlab.com/nikkiroth) - Sr. Marketing Operations Manager  | AVAILABLE - REMOTE |
-| 2022-04-18 | 2022-04-22 | [David Egan](https://gitlab.com/degan) - Sr. Marketing Data Analyst| [Nikki Roth Silverberg](https://gitlab.com/nikkiroth) - Sr. Marketing Operations Manager |
-| 2022-04-25 | 2022-04-29 | [Janis Altherr](https://gitlab.com/janis) - Fullstack Engineer | [David Egan](https://gitlab.com/degan)- Sr. Marketing Data Analyst |
-| 2022-05-02 | 2022-05-06 | AVAILABLE - REMOTE | [Janis Altherr](https://gitlab.com/janis) - Fullstack Engineer |
-| 2022-05-09 | 2022-05-13 | NO SHADOWS| NO SHADOWS|
-| 2022-05-16 | 2022-05-20 | NO SHADOWS | NO SHADOWS|
-| 2022-05-23 | 2022-05-27 | AVAILABLE - REMOTE |AVAILABLE - REMOTE 
-| 2022-05-30 | 2022-06-03 | [Victor Brew](https://gitlab.com/Vbrew) - Pub Sec ISR  | AVAILABLE - REMOTE |
-| 2022-06-06 | 2022-06-10 | [Alexander Turinske](https://gitlab.com/aturinske) - Sr. Frontend Engineer | [Victor Brew](https://gitlab.com/Vbrew) - Pub Sec ISR  |
-| 2022-06-13 | 2022-06-17 | NO SHADOWS| NO SHADOWS |
-| 2022-06-20 | 2022-06-24 | NO SHADOWS| NO SHADOWS|
-| 2022-06-27 | 2022-07-01 | [Tiffany Rea](https://gitlab.com/treagitlab) - SET Verify:Pipeline Authoring | [Alexander Turinske](https://gitlab.com/aturinske) - Sr. Frontend Engineer |
-| 2022-07-04 | 2022-07-08 | NO SHADOWS | NO SHADOWS|
-| 2022-07-11 | 2022-07-15 | NO SHADOWS | [Tiffany Rea](https://gitlab.com/treagitlab) - SET Verify:Pipeline Authoring |
-| 2022-07-18 | 2022-07-22 | NO SHADOWS  | NO SHADOWS  |
-| 2022-07-25 | 2022-07-29 | NO SHADOWS  | NO SHADOWS  |
-| 2022-08-01 | 2022-08-05 | NO SHADOWS  | NO SHADOWS  |
-| 2022-08-08 | 2022-08-12 | NO SHADOWS  | NO SHADOWS  |
-| 2022-08-15 | 2022-08-19 | NO SHADOWS | NO SHADOWS |
-| 2022-08-22 | 2022-08-26 | NO SHADOWS | NO SHADOWS |
-| 2022-08-29 | 2022-09-02 | NO SHADOWS | NO SHADOWS |
-| 2022-09-05 | 2022-09-09 | NO SHADOWS | NO SHADOWS |
-| 2022-09-12 | 2022-09-16 | NO SHADOWS | NO SHADOWS |
-| 2022-09-19 | 2022-09-23 | NO SHADOWS | NO SHADOWS |
-| 2022-09-27 | 2022-09-30 |  [Ed Bao](https://gitlab.com/ebao2) - Assoc Sales Dev Operations Manager  | [Ellie Bertani](https://www.linkedin.com/in/ellie-bertani-1000/) |
-| 2022-10-03 | 2022-10-07 | NO SHADOWS | NO SHADOWS |
-| 2022-10-10 | 2022-10-14 | NO SHADOWS | NO SHADOWS |
-| 2022-10-17 | 2022-10-21 | NO SHADOWS | NO SHADOWS |
-| 2022-10-24 | 2022-10-28 | [Kristine Setschin](https://gitlab.com/KSetschin) - Manager, Field Marketing, EMEA  | AVAILABLE - REMOTE FOR SHADOW ALUMNI |
-| 2022-10-31 | 2022-11-04 | AVAILABLE - REMOTE | [Kristine Setschin](https://gitlab.com/KSetschin) - Manager, Field Marketing, EMEA | 
+| 2022-10-24 | 2022-10-28 | NO SHADOWS | NO SHADOWS |
+| 2022-10-31 | 2022-11-04 | NO SHADOWS | NO SHADOWS |
 | 2022-11-07 | 2022-11-11 | [Jacki Bauer](https://gitlab.com/jackib) - Product Design Manager | Adrienne Rimmer (https://gitlab.com/arimmer) - Manager, Executive Communications |
 | 2022-11-14 | 2022-11-18 | Adrienne Rimmer (https://gitlab.com/arimmer) - Manager, Executive Communications | [Jacki Bauer](https://gitlab.com/jackib) - Product Design Manager |
 | 2022-11-21 | 2022-11-25 | NO SHADOWS | NO SHADOWS |
 | 2022-11-28 | 2022-12-02 | NO SHADOWS | NO SHADOWS |
-| 2022-12-05 | 2022-12-09 | [Omar Eduardo Fernandez](https://gitlab.com/ofernandez2) - Director of Product, Fulfillment | [Liz Petoskey](https://gitlab.com/epetoskey), Director, Strategy and Operations |
-| 2022-12-12 | 2022-12-16 | [Liz Petoskey](https://gitlab.com/epetoskey), Director, Strategy and Operations | [Omar Eduardo Fernandez](https://gitlab.com/ofernandez2) - Director of Product, Fulfillment |
-
+| 2022-12-05 | 2022-12-09 | [Kurt Dusek](https://gitlab.com/kdusek) - Alliances Solutions Architect | [Liz Petoskey](https://gitlab.com/epetoskey), Director, Strategy and Operations |
+| 2022-12-12 | 2022-12-16 | Elicia Wilson - GitLab Foundation | [Kurt Dusek](https://gitlab.com/kdusek) - Alliances Solutions Architect |
+| 2022-12-19 | 2022-12-23 | NO SHADOWS | NO SHADOWS |
+| 2022-12-26 | 2022-12-30 | NO SHADOWS | NO SHADOWS |
+| 2023-01-02 | 2023-01-06 | [Aaron Burgess](https://gitlab.com/GitLabAaron) - IBM Alliance Business Development Manager | [Liz Petoskey](https://gitlab.com/epetoskey), Director, Strategy and Operations | 
+| 2022-01-09 | 2023-01-13 | NO SHADOWS | NO SHADOWS |
+| 2023-01-16 | 2023-01-20 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Aaron Burgess](https://gitlab.com/GitLabAaron) - IBM Alliance Business Development Manager  | 
+| 2022-01-23 | 2023-01-27 | NO SHADOWS | NO SHADOWS |
+| 2023-01-30 | 2023-02-02 | AVAILABLE - REMOTE | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | 
 
 If you have questions regarding the planned rotation schedule, please ping the [Staff Executive Business Admin to the CEO](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO](https://about.gitlab.com/job-families/chief-executive-officer/chief-of-staff/). The EBA to the CEO manages the rotation schedule, please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -383,8 +360,8 @@ If you're not familiar with some of the business acronyms, take a bit of time to
 
 - [KPI (Key Performance Indicator)](/company/kpis/#what-are-kpis)
 - [OKRs (Objectives and Key Results)](/company/okrs/#what-are-okrs)
-- Product performance indicators such as [xMAU (Monthly Active User)](/handbook/product/performance-indicators/#three-versions-of-xmau) and [SpU (Stages per User)](/handbook/product/performance-indicators/#stages-per-user-spu)
-- [Revenue definitions](/handbook/sales/sales-term-glossary/#revenue-definitions) such as [ARR (Annual Recurring Revenue)](/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr)
+- Product performance indicators such as [CMAU (Combined Monthly Active User)(Internal link)](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/#estimated-combined-monthly-active-users-cmau) and [SpU (Stages per User )(Internal link)](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/product/#stages-per-user-spu)
+- [Revenue definitions (Internal link)](https://internal-handbook.gitlab.io/handbook/sales/sales-glossary/) such as [ARR (Annual Recurring Revenue)(Internal link)](https://internal-handbook.gitlab.io/handbook/sales/annual-recurring-revenue-arr/)
 - Other business terminology may come up. [Wall Street Oasis Finance Dictionary](https://www.wallstreetoasis.com/finance-dictionary#DicT) is a handy guide.
 
 **Note:** This list is not meant to be exhaustive and [should not become a glossary](/handbook/handbook-usage/#single-source-of-truth). While we strive to be handbook first, you may find that we are using acronyms without a clear handbook definition. If you can't find it in the handbook or find a standard definition on Google, ask someone what the acronym means. Not being able to find it could be a sign that we need to do a better job with documentation.
@@ -898,7 +875,7 @@ We have six monitors at Mission Control. They show the following content:
 | **Top Right** | [Why GitLab](/why-gitlab/) |
 
 | **Bottom Left** | [Category Maturity](/direction/maturity/) |
-| **Bottom Middle** | [Who we replace](/devops-tools/) |
+| **Bottom Middle** | [Who we replace](/competition/) |
 | **Bottom Right** | [Remote Manifesto](/company/culture/all-remote/) on how to work remotely |
 
 ##### Configuring the Monitors
@@ -1179,28 +1156,28 @@ CEO Shadow program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2019-10 | 2019-11 | [Clement Ho](https://gitlab.com/ClemMakesApps) | Frontend Engineering Manager, Monitor:Health |  |
 | 2019-11 | 2019-11 | [Brendan O'Leary](https://gitlab.com/brendan) | Sr. Solutions Manager |  |
 | 2019-11 | 2019-11 | [Gabe Weaver](https://gitlab.com/gweaver) | Sr. Product Manager, Plan: Project Management |  |
-| 2019-11 | 2020-01 | [Chenje Katanda](https://gitlab.com/ckatanda) | Technical Account Manager |  |
+| 2019-11 | 2020-01 | [Chenje Katanda](https://gitlab.com/ckatanda) | Customer Success Manager |  |
 | 2020-01 | 2020-01 | [Dov Hershkovitch](https://gitlab.com/dhershkovitch) | Senior Product Manager, Monitor |  |
 | 2020-01 | 2020-01 | [Keanon O'Keefe](https://gitlab.com/kokeefe) | Senior Product Manager, Plan : Portfolio Management |  |
 | 2020-01 | 2020-01 | [Dylan Griffith](https://gitlab.com/DylanGriffith) | Staff Backend Engineer, Search |  |
 | 2020-01 | 2020-02 | [Brittany Rohde](https://gitlab.com/brittanyr) | Manager, Compensation & Benefits | [How the CEO Shadow Program boosted my individual productivity during the COVID-19 Crisis](/blog/2020/05/29/how-the-ceo-shadow-program-boosted-my-individual-productivity-during-the-covid-19-crisis/) |
 | 2020-01 | 2020-02 | [Nadia Vatalidis](https://gitlab.com/Vatalidis) | Senior Manager, People Operations |  |
 | 2020-02 | 2020-02 | [Diana Stanley](https://gitlab.com/dstanley) | Senior Support Engineer |  |
-| 2020-02 | 2020-02 | [Chloe Whitestone](https://gitlab.com/chloe) | Technical Account Manager |  |
+| 2020-02 | 2020-02 | [Chloe Whitestone](https://gitlab.com/chloe) | Customer Success Manager |  |
 | 2020-02 | 2020-02 | [Sarah Waldner](https://gitlab.com/sarahwaldner) | Senior Product Manager - Monitor: Health |  |
 | 2020-02 | 2020-03 | [Shaun McCann](https://gitlab.com/shaunmccann) | Support Engineering Manager | [CEO Shadow AMA with Support Engineering](https://www.youtube.com/watch?v=A80HKDBRaNE) |
 | 2020-03 | 2020-03 | [Lien Van Den Steen](https://gitlab.com/lienvdsteen) | People Ops Fullstack Engineer |  |
-| 2020-03 | 2020-03 | [Michael Terhar](https://gitlab.com/mterhar) | Technical Account Manager | [The HyperGrowth Calendar](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/44584) |
+| 2020-03 | 2020-03 | [Michael Terhar](https://gitlab.com/mterhar) | Customer Success Manager | [The HyperGrowth Calendar](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/44584) |
 | 2020-03 | 2020-04 | [Christen Dybenko](https://gitlab.com/cdybenko) | Sr Product Manager |  |
 | 2020-04 | 2020-04 | [Scott Stern](https://gitlab.com/sstern) | Frontend Engineer |  |
 | 2020-04 | 2020-04 | [Stella Treas](https://gitlab.com/streas) | Chief of Staff to the CEO |  |
-| 2020-04 | 2020-04 | [Bradley Andersen](https://gitlab.com/elohmrow) | Technical Account Manager |  |
+| 2020-04 | 2020-04 | [Bradley Andersen](https://gitlab.com/elohmrow) | Customer Success Manager |  |
 | 2020-04 | 2020-04 | [Cassiana Gudgenov](https://gitlab.com/cgudgenov) | People Operations Specialist |  |
 | 2020-04-28 | 2020-05-08 | [Betsy Church](https://gitlab.com/bchurch) | Senior Talent Brand Manager | [Reflecting on the CEO Shadow Program at GitLab](https://youtu.be/DGJCuMVp6FM) |
 | 2020-05-04 | 2020-05-15 | [Darren Murph](https://gitlab.com/dmurph) | Head of Remote | [GitLab CEO Shadow recap — key takeaways and lessons learned from a remote rotation](/blog/2020/05/22/gitlab-remote-ceo-shadow-takeaways/) |
 | 2020-05-11 | 2020-05-22 | [Emily Kyle](https://gitlab.com/emily) | Manager, Corporate Events |  |
 | 2020-05-11 | 2020-05-22 | [Candace Williams](https://gitlab.com/cwilliams3) | Diversity, Inclusion & Belonging Manager |  |
-| 2020-05-25 | 2020-06-05 | [Sophie Pouliquen](https://gitlab.com/spouliquen1) | Senior Technical Account Manager |  |
+| 2020-05-25 | 2020-06-05 | [Sophie Pouliquen](https://gitlab.com/spouliquen1) | Senior Customer Success Manager |  |
 | 2020-06-01 | 2020-06-19 | [Jackie Meshell](https://gitlab.com/jmeshell) | Senior Product Manager, Release Management | [Recording 📹: Four things I learned as a CEO Shadow](https://youtu.be/iAiYAnkdQLQ) |
 | 2020-06-15 | 2020-06-26 | [Wayne Haber](https://gitlab.com/whaber) | Director Engineering, Defend | [Video](https://www.youtube.com/watch?v=JVaPRtY6wMQ) and [Blog](/blog/2020/07/08/ceo-shadow-impressions-takeaways/): What is the GitLab CEO shadow program? Why should you apply to participate? How did I see the GitLab values in action? |
 | 2020-06-22 | 2020-07-03 | [Jim Riley](https://gitlab.com/jrileyinva) | Area Sales Manager - Public Sector |  |
@@ -1279,4 +1256,5 @@ CEO Shadow program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2022-05-30 | 2022-06-10 | [Victor Brew](https://gitlab.com/Vbrew) | Pub Sec ISR | |
 | 2022-06-06 | 2022-07-01 | [Alexander Turinske](https://gitlab.com/aturinske) | Sr. Frontend Engineer | |
 | 2022-06-27 | 2022-07-15 | [Tiffany Rea](https://gitlab.com/treagitlab) | SET - Verify::Pipeline Authoring | |
+| 2022-09-27 | 2022-09-30 | [Ellie Bertani](https://www.linkedin.com/in/ellie-bertani-1000/) | CEO, GitLab Foundation | |
 | 2022-10-27 | 2022-10-30 | [Ed Bao](https://gitlab.com/ebao2) | Assoc Sales Dev Operations Manager | |

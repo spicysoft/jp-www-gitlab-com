@@ -1,0 +1,41 @@
+---
+name: Tomasz Maczukin
+locality:
+country: Remote
+role: <a href="/job-families/engineering/development/backend/">Senior Backend Engineer,
+  Verify:Runner SaaS</a>
+reports_to: elliot-rushton
+picture: tomasz.jpg
+twitter: TomaszMaczukin
+gitlab: tmaczukin
+specialty: Runner
+departments:
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Verify Stage
+- Verify:Runner SaaS Group
+- Backend
+projects:
+  gitlab-runner: maintainer
+  autoscaler: maintainer
+  orka: maintainer
+expertise: |
+  <li><a href="/handbook/on-call/">On-call</a> champion!</li>
+  <li>DevOps interest</li>
+  <li>CI <a href="/job-families/expert/reliability/">Reliability expert</a></li>
+domain_expertise:
+- cicd
+- kubernetes
+- runner
+story: |
+  Tomasz is a software developer, a devop beginner and a big linux enthusiast.
+  After a few years of working in different corporations he said 'Enough!' and
+  decided to switch to start-up and open source environment. In his work, he
+  appreciates a clean code and clean architecture.
+
+  After hacking hours, he becomes a family man, who loves to read a good book,
+  watch a nice movie and go for a long walk. If there is a time and opportunity
+  he enjoys hiking and cycling - especially in mountains.
+
+  Cat lover.

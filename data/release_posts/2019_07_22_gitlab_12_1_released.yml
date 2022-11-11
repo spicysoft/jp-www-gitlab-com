@@ -477,18 +477,18 @@ cta:
     link: '/events/'
 
 # UPGRADE WARNING
-upgrade:
-  reporter: fzimmer
-  description: |
-    - GitLab 12.1 includes a Rails upgrade to 5.2, this may cause issues with [zero-downtime upgrades](https://docs.gitlab.com/ee/update/#upgrading-without-downtime).
-      If zero downtime is required, we recommend using a load balancer and taking nodes out gradually to upgrade.
-    - Similar to GitLab 12.0, GitLab 12.1 will
-      [automatically upgrade the PostgreSQL version to 10.7](https://docs.gitlab.com/omnibus/settings/database.html#upgrade-packaged-postgresql-server).
-    - Ability to skip the auto-upgrade of PostreSQL 10.7
-      creating `/etc/gitlab/disable-postgresql-upgrade`.
-    - In contrast to GitLab 12.0, GitLab 12.1 supports
-      [updating GitLab Geo](https://docs.gitlab.com/ee/administration/geo/replication/updating_the_geo_nodes.html)
-      on both the `primary` and all `secondary` nodes.
+upgrades:
+  - reporter: fzimmer
+    description: |
+      - GitLab 12.1 includes a Rails upgrade to 5.2, this may cause issues with [zero-downtime upgrades](https://docs.gitlab.com/ee/update/#upgrading-without-downtime).
+        If zero downtime is required, we recommend using a load balancer and taking nodes out gradually to upgrade.
+      - Similar to GitLab 12.0, GitLab 12.1 will
+        [automatically upgrade the PostgreSQL version to 10.7](https://docs.gitlab.com/omnibus/settings/database.html#upgrade-packaged-postgresql-server).
+      - Ability to skip the auto-upgrade of PostreSQL 10.7
+        creating `/etc/gitlab/disable-postgresql-upgrade`.
+      - In contrast to GitLab 12.0, GitLab 12.1 supports
+        [updating GitLab Geo](https://docs.gitlab.com/ee/administration/geo/replication/updating_the_geo_nodes.html)
+        on both the `primary` and all `secondary` nodes.
 
 # DEPRECATIONS
 deprecations:

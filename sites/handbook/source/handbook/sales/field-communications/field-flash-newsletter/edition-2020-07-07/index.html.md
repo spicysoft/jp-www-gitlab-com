@@ -18,7 +18,7 @@ In this month's [Field Flash](/handbook/sales/field-communications/field-flash-n
 ### Your Latest Competitive Resources
 There are multiple **new Competitive Intelligence resources** available to aid you in customer conversations. For the latest-and-greatest, make sure you've checked out:
 1. GitLab's new [Compete Page](https://about.gitlab.com/compete) - This will take the place of Crayon as your SSOT for competitive sales resources. For more information, watch the latest [Competitive Intelligence Sales Enablement Webinar](https://youtu.be/S_z_hgf3ASc).
-   - Heads up - GitLab will continue to maintain the [DevOps Tool Landscape](https://about.gitlab.com/devops-tools/) page.
+   - Heads up - GitLab will continue to maintain the [DevOps Tool Landscape](https://about.gitlab.com/competition/) page.
 1. [GitLab vs. BitBucket Comparison Guide](https://about.gitlab.com/devops-tools/bitbucket-vs-gitlab.html) - This page was created by an independent third party group, giving it increased credibility in customer conversations. It is aligned to the Use Case go-to-market and features an improved user experience and more engaging content.
 1. [Hear Sid's POV on GitHub](https://www.youtube.com/watch?v=ZpJany2-mts&feature=youtu.be) - Listen as Sid highlights key differentiators between GitLab and GitHub and how well-positioned we are in the DevOps market.
 
@@ -31,7 +31,7 @@ Steve Challis, Strategic Account Leader UK, is joined by Brandon Jung, VP Allian
   <iframe src="https://www.youtube.com/embed/H1jG--VYrFc" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-You can find the pre-written security questionnaire and SOC Compliance reports that Steve mentioned in GitLab's [Customer Assurance Package](/handbook/engineering/security/security-assurance/field-security/customer-assurance-package.html).
+You can find the pre-written security questionnaire and SOC Compliance reports that Steve mentioned in GitLab's [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package.html).
 
 Have a deal you'd like to nominate? Fill out the [nomination form](https://forms.gle/7AYwzgFStrai5D2F7).
 
@@ -47,7 +47,7 @@ We recently added a Cross-Culture Collaboration Guide to the Handbook to help Gi
 The Field team is piloting Focus Fridays through the Summer. Consider adopting Focus Fridays in your schedule to allow time for focused work and reduce potential burnout. [See the Handbook for Details -->](/handbook/sales/sales-meetings)
 
 ### Did You Know? 🔢
-Effective immediately, we will follow **a revised SPIFF payout for GitLab-delivered and partner-delivered services**. Highlights include larger deal size support, more opportunities for SPIFF, and added availability for TAMs for growth service opportunities over $25k. Plus, we have lowered the minimum engagement amounts for our Partner Services incentive to drive greater partner interest in delivering services around GitLab deployments.
+Effective immediately, we will follow **a revised SPIFF payout for GitLab-delivered and partner-delivered services**. Highlights include larger deal size support, more opportunities for SPIFF, and added availability for CSMs for growth service opportunities over $25k. Plus, we have lowered the minimum engagement amounts for our Partner Services incentive to drive greater partner interest in delivering services around GitLab deployments.
 
 For the full details, please see the [updated compensation deck](https://docs.google.com/presentation/d/1lPZAmdHPPJwhJ4felwsgDXopIt7Usn3UnK5siOpQMlY/edit#slide=id.g88c7cba71f_10_1) and [updated Channel Partner Handbook page](/handbook/resellers/#definitions-and-qualifications). 
 

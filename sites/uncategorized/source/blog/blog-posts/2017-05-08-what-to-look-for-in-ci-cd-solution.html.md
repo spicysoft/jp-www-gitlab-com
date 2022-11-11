@@ -45,7 +45,7 @@ You can **visualize your release process** in all versions of GitLab with GitLab
 GitLab Enterprise Premium comes with [Deploy Boards](https://docs.gitlab.com/ee/user/project/deploy_boards.html) and
 [Canary Deployments](/blog/2017/04/22/gitlab-9-1-released/#canary-deployments-eep) for even more advanced control over deployments.
 
-Visit our [Product page](/stages-devops-lifecycle/) and [DevOps tools page](/devops-tools/) to see how GitLab measures against other tools.
+Visit our [Product page](/stages-devops-lifecycle/) and [DevOps tools page](/competition/) to see how GitLab measures against other tools.
 
 To learn more about CI/CD and how it can help you release earlier and more often, watch our webcast, "[From Continuous Integration to Continuous Everything](https://page.gitlab.com/20170301_continuouseverything.html)" on demand.
 {: .alert .alert-gitlab-orange}  

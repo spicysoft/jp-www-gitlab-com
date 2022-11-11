@@ -78,9 +78,52 @@ This will require a lot of research, but one way this experience could look may 
 automatically instrument the newly added portions of code.
 
 ## What's Next
-- [Analytics Section Next Steps](https://gitlab.com/gitlab-com/Product/-/issues/3785)
+We have a plan to [iteratively](https://about.gitlab.com/handbook/values/#iteration)
+develop Product Analytics. We will start small
+and incrementally add new capabilities. Each iteration will let us learn more
+and solicit feedback to improve, before we start our next iteration.
+Our first iterations will be primarily internally focused and later we will focus on
+customer-facing releases.
 
-### Competitors
+The list below is in rough priority order, but is by no means final. We will update
+it as we learn more and add or remove items. If you have feedback, please share it,
+we'd love to hear it!
+
+* Our first iteration will be focused on an [internal preview](https://gitlab.com/groups/gitlab-org/-/epics/8462)
+of Product Analytics that we can [dogfood](https://about.gitlab.com/handbook/product/product-processes/#dogfood-everything).
+This will let us work through the technical questions about how to best develop
+Product Analytics, how to host and maintain relevant infrastructure, as well
+as how to use it like an end-user would. This will culminate with us adding
+Product Analytics to the internal handbook for dogfooding.
+* We will next focus on adding [schema-driven dashboards](https://gitlab.com/groups/gitlab-org/-/epics/8574)
+as a way to visualize and consume information from Analytics. Our first iteration will have had
+hardcoded, pre-configured dashboards, so this epic will allow for more customization. Additionally,
+other groups within GitLab are interested in using this dashboarding approach, so we expect to
+collaborate with them so they can benefit from this initiative as well.
+* We will next focus on creating the
+[first user-facing release](https://gitlab.com/groups/gitlab-org/-/epics/8525)
+of Product Analytics. This release will involve having a stable environment
+for analytics collection, storage, and retrieval. It will also include several
+pre-configured ways to interact and consume the data, primarily through charts
+and dashboards. The goal of this release is to create something that the
+community can begin looking at so we can gather feedback.
+
+Once our first user-facing release is available, we will respond to feedback
+on where to next focus our efforts. We have several ideas for follow-on iterations
+after this release, which include:
+
+* Providing [data export capabilities](https://gitlab.com/groups/gitlab-org/-/epics/8981)
+* Enabling users to [bring their own Product Analytics cluster](https://gitlab.com/groups/gitlab-org/-/epics/8921)
+* Introducing [funnel analysis](https://gitlab.com/groups/gitlab-org/-/epics/9016)
+* Defining a more specific [event taxonomy](https://gitlab.com/groups/gitlab-org/-/epics/8645)
+* Enriching results with data from other GitLab features, like [releases](https://docs.gitlab.com/ee/user/project/releases/) or [feature flags](https://docs.gitlab.com/ee/operations/feature_flags.html)
+* Allowing [dashboards to be embedded in external applications](https://gitlab.com/groups/gitlab-org/-/epics/8940)
+* Providing built-in [pseudonymization](https://gitlab.com/groups/gitlab-org/-/epics/8709)
+* Supporting [product experiments](https://gitlab.com/groups/gitlab-org/-/epics/8445)
+* Improving speed of analytics to be near real-time
+
+
+## Competitors
 The market is divided between big tech entrants building on top of complete Marketing Automation platforms marketed towards enterprise marketing orgs and stand-alone tools user engagement tools that are marketed towards Product (and occasionally Development) teams.
 
 * **Enterprise Marketing Automation** - Some examples of these are Adobe’s [RT CDP](https://business.adobe.com/products/real-time-customer-data-platform/RTCDP.html), Oracle’s [Unity](https://www.oracle.com/cx/customer-data-platform/), Twilio’s [Segment](https://segment.com/) and Microsofts [Dynamic 365 CDP](https://dynamics.microsoft.com/en-us/customer-data-platform/). This class of products all focus on customer data collection for the purposes of marketing automation with limited direct customer engagement tools. The primary buyer for this class of tools is a CMO. Interestingly, **many of these tools focus their attention on developer-enabled data management** as that is a critical stepping stone to enabling Marketing and Product teams ([mParticle](https://www.mparticle.com/?)). 
@@ -113,7 +156,7 @@ Some nuance can be added to our personas and how we approach them. Nearly all an
 As part of considering these personas, consider what personas we are _not_ including in this initial list. Specifically, we are not targeting executive personas or Directors with the initial offering. Sasha and Parker are individual contributors and have unique needs different than Directors or executives. They are focused mainly on specific applications and the analytics related to them, whereas executives and Directors will be concerned about multiple, or a "fleet", of applications. We intend to go after these personas eventually and will not intentionally create capabilities that exclude them, but they are not our primary focus at this point.
 
 ## Pricing
-Our tiering plan will leverage our buyer-based model. The Analytics section, as a bridge from Ops to Dev (Plan) is an inherently collaborative stage. As a result, there are significant Paid Tier possibilities. Core will be seen primarily as a developer on-ramp.
+Our tiering plan will leverage our buyer-based model. The Analytics section, as a bridge from Ops to Dev (Plan) is an inherently collaborative stage. As a result, there are significant Paid Tier possibilities. Core will be seen primarily as a developer on-ramp. This section is subject to change without notice.
 - **Core - Developer Buyer**
     - Instrumentation
     - Collection

@@ -61,8 +61,8 @@ Currently, the following methods create feedback issues for review:
 1. [Automatic email survey](/handbook/support/support-ops/responsibilities.html#support-satisfaction-survey-ssat) -- sent to customers when tickets are closed.
 1. Mid-ticket feedback link -- each Public Comment from a GitLab Support Engineer or Manager has a link to a form where a customer can provide feedback or request contact from a manager while the ticket is open (introduced in issue [2913](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/2913)).
    1. This feedback form creates issues in the customer feedback project, with a subject format of **Positive/Negative/Neutral feedback for ticket nnnnnn**, and is automatically assigned to the **SSAT reviewing manager**. 
-   1. If the feedback is negative, there is an option to request manager contact (within 48hrs Mon-Fri). If this option is chosen, a Slack notification is sent to the `#support_escalations` channel. The **SSAT reviewing manager** should follow the guidance in [If there is action to be taken](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/handbook/support/workflows/how-to-respond-to-feedback.html.md#if-there-is-action-to-be-taken) and [If the customer should be contacted](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/handbook/support/workflows/how-to-respond-to-feedback.html.md#if-the-customer-should-be-contacted).
-1. GitLab team members (such as TAMs and Sales team) can open an [Indirect Feedback](https://gitlab.com/gitlab-com/support/feedback/-/issues/new?issuable_template=Indirect+Feedback) issue with details they received from the customer.
+   1. If the feedback is negative, there is an option to request manager contact (within 48hrs Mon-Fri). If this option is chosen, a Slack notification is sent to the `#support_ticket-attention-requests` channel. The **SSAT reviewing manager** should follow the guidance in [If there is action to be taken](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/handbook/support/workflows/how-to-respond-to-feedback.html.md#if-there-is-action-to-be-taken) and [If the customer should be contacted](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/handbook/support/workflows/how-to-respond-to-feedback.html.md#if-the-customer-should-be-contacted).
+1. GitLab team members (such as CSMs and Sales team) can open an [Indirect Feedback](https://gitlab.com/gitlab-com/support/feedback/-/issues/new?issuable_template=Indirect+Feedback) issue with details they received from the customer.
 1. Any issue requiring contact can also be identified by applying the `SSAT::Contact` label. In the Description or in a Comment, specify that manager contact was requested. 
 
 
@@ -103,7 +103,7 @@ For each feedback issue labeled "satisfaction::good":
 To share positive feedback in the Support Week in Review, each week an issue will be created in the [Support Week In Review Tracker](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues) and tagged with `~"SWIR::SSAT"`.
 If you're the SSAT Reviewing manager it should be assigned to you automatically, but you can also [search for the label](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues?label_name%5B%5D=SWIR%3A%3ASSAT).
 
-Anything you add to the body of this issue will be included in the SWIR digest for the week.
+Anything you add to the body of this issue will be included in the SWIR digest for the week. No further action is required other than having the body of the issue updated. Please do be aware of some considerations in [formatting feedback in the SWIR issue](#formatting-feedback-in-swir-issue).
 
 **Due Date**: the cut off for content for the SWIR is close of business on your Thursday. Plan to add any ticket feedback before this time. Anything you want to add after this time needs to be added to the content for the following week, to ensure it is included in the audio recording. 
 
@@ -123,6 +123,14 @@ When adding the comment to the SSAT issue in the `support-week-in-review` tracke
 
 Generally, include the ticket number with a link to the ticket, the comment from the customer, and where applicable @ mention the person (or people) who primarily worked the ticket. 
 
+#### Automatically collectin positive feedback
+
+The [`populate_ssat` job](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/#populate_ssat) in the `support-week-in-review` tracker will automatically collect open issues labeled with `~"satisfaction::good"`. To run this job:
+1. Create a new pipeline by going to CI/CD -> Pipelines -> Run Pipeline
+2. Click the "Play" button on the manual `populate_ssat` job
+
+You can safely re-run this task as many times as you'd like as it will append to the issue.
+
 ### Handling "Bad" Reviews
 
 For feedback issues labeled "satisfaction::bad", click through to the ticket, and review it to determine the following:
@@ -130,7 +138,7 @@ For feedback issues labeled "satisfaction::bad", click through to the ticket, an
 1. Why the feedback was given
 1. If further [action needs to be taken](#if-there-is-action-to-be-taken)
 1. If the customer should be contacted to discuss the feedback given
-1. If the feedback should be discussed with a TAM
+1. If the feedback should be discussed with a CSM
 
 You should document your finding and any follow-up actions taken in the issue.
 You may use the following template to add a comment to the feedback issue (NOT the
@@ -140,7 +148,7 @@ ticket!):
 * **Summary of ticket/feedback:**
 * **Action to be taken:**
 * **Contact customer to discuss feedback? (Y/N)**
-* **Make the TAM aware of this feedback? (Y/N)**
+* **Make the CSM aware of this feedback? (Y/N)**
 ```
 
 If no action needs to be taken, and the customer does not need to be contacted to discuss the ticket, `/close` the Feedback Issue.

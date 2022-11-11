@@ -17,6 +17,10 @@ departments:
 - Enablement Sub-department
 - Database BE Team
 specialty: Enablement
+projects:
+  gitlab:
+  - reviewer backend
+  - trainee_maintainer database
 expertise:
 story: |
   Jon has a passion for technology. He has been programming anything he can get his hands on from an early

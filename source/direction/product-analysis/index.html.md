@@ -10,7 +10,7 @@ canonical_path: "/direction/product-analysis/"
 - TOC
 {:toc}
 
-## Product Data Insights Group Overview
+## Product Data Insights Overview
 
 The Product Data Insights Group (formerally known as "Product Analysis") was created in October 
 2020 to provide dedicated, specialized analytics resources for the GitLab Product organization 
@@ -97,8 +97,8 @@ Here is a quick summary of the responsbilities of each of these 3 teams:
 
 | Team Name | DRI | Goal | Example Tasks |
 | --- | --- | --- | --- |
-|Product Data Insights|Carolyn Braza: Manager, Product Data Analysis|Perform analysis to unlock product insights when the data is available|Ad hoc product analysis, experiment analysis, Product KPI tracking, and creation and maintenance of standardized Product metric dashboards|
-|Product Intelligence|Amanda Rueda: Senior Product Manager, Product Intelligence|Define and improve capabilities of product data set|Ensure our product data set is comprehensive, available, and accurate, and that team members are enabled to create new instrumentation, charts, and dashboards in a self-service fashion|
+|Product Data Insights|Carolyn Braza: Manager, Product Data Insights|Perform analysis to unlock product insights when the data is available|Ad hoc product analysis, experiment analysis, Product KPI tracking, and creation and maintenance of standardized Product metric dashboards|
+|Product Intelligence|Sam Kerr: Group Manager, Product Analytics|Define and improve capabilities of product data set|Ensure our product data set is comprehensive, available, and accurate, and that team members are enabled to create new instrumentation, charts, and dashboards in a self-service fashion|
 |Data Team|Rob Parker: Senior Director, Data and Analytics|Build and maintain product data models and infrastructure to support data analysis|Create repeatable and reliable product data sets & models & related data pipelines/processes|
 
  

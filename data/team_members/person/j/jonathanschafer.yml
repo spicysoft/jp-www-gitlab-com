@@ -10,7 +10,7 @@ gitlab: jschafer
 pronouns: he/him
 projects:
   gitlab: reviewer backend
-  security-report-schemas: trainee_maintainer backend
+  security-report-schemas: trainee_maintainer
 expertise: '<li><a href="/job-families/expert/merge-request-coach/">Merge Request
   Coach</a></li>
 

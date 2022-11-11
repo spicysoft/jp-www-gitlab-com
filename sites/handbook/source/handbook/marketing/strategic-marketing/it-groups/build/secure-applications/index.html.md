@@ -90,4 +90,4 @@ Shipping applications at high speed must not introduce new security risks or vul
       1. [Ungated](/resources/downloads/gitlab-seismic-shift-in-application-security-whitepaper.pdf)( internal use)     
       1. [Gated](/resources/whitepaper-seismic-shift-application-security/)
       1. Blog - [How can teams secure applications at DevOps speed? Security Dashboards are here to help.](/blog/2018/09/14/inside-gitlab-security-dashboards/)
-      1. [Comparisons](/devops-tools/)
+      1. [Comparisons](/competition/)

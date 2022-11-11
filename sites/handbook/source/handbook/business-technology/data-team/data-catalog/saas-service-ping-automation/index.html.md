@@ -126,6 +126,28 @@ C --> D[3: Store metrics results in Snowflake RAW GITLAB_DOTCOM_NAMESPACE]
 end
 ```
 
+###### Namespace backfill
+
+This action can be done (primarily) by `AE` and `DE` can support it as well, if needed. The main idea is to have a simple and flexible way to backfill namespace data in a cost-effective fashion.
+
+In order to backfill a `namespace` particular metric (or more of them), you need to properly configure `NAMESPACE_BACKFILL_VAR` in the `Airflow Admin -> Variables` tab.
+
+The example how variable `NAMESPACE_BACKFILL_VAR` should look like:
+```json
+{
+ "start_date": "2022-10-01",
+ "end_date": "2022-11-25",
+ "metrics_backfill": "['usage_activity_by_stage_monthly.manage.project_imports.git','usage_activity_by_stage_monthly.manage.groups_with_event_streaming_destinations','usage_activity_by_stage_monthly.manage.audit_event_destinations','counts.boards']"
+}
+```
+
+**Note:** this backfill `DAG` will not load **all-time** metrics even if you define it _(will be skipped)_, as it will not produce an accurate result.
+
+The `saas_usage_ping_backfill` `DAG` will backfill data for the metrics where the following conditions are applied: 
+* For the defined period - `start_date` and `end_date` value from `NAMESPACE_BACKFILL_VAR` variable
+* `"time_window_query": true`
+* Metrics is in the value `metrics_backfill` in the variable `NAMESPACE_BACKFILL_VAR`
+
 #### Metrics Gathering and Generation Process Pseudo-code
 
 1. Assume the `GitLab.com` `Postgres` source data pipelines are running and fresh up-to-date data is available in Snowflake in `RAW.SAAS_USAGE_PING` and `PREP.SAAS_USAGE_PING` schemas, respectively
@@ -228,6 +250,42 @@ For any error appeared, data is saved into `RAW.SAAS_USAGE_PING.INSTANCE_SQL_ERR
 ##### Error handling for SQL based service ping
 
 For error handling solution, refer to [runnbooks Automated Service Ping](https://gitlab.com/gitlab-data/runbooks/-/tree/main/automated_service_ping/triage_issue_troubleshoot.md) article. 
+
+##### New metrics checks
+
+The `Data team` created an app and delivered it to the PI team as they are able to autonomically use it when any of the metrics are changed (SELECT statement) or added. This will prevent the issue with failing the pipeline in production, the common error is related to executing SQL on a non-existing object in the Snowflake database. The example issue should be found in the issue [2022-09-28 dbt-test Failure in test instance_sql_error_rowcount](https://gitlab.com/gitlab-data/analytics/-/issues/14316). Here is the idea of how it is working:
+
+
+```mermaid
+graph TD
+  C_API --> API
+  F_R --API Response--> F_RES["{code: 200, body: '...'}"]
+  IF--No-->PING_DT
+  
+  F_RES--Send response--> IF
+  subgraph "Product intelligence team" 
+      NM[New metric introduced]--Generate query-->PI[Postgres query]
+      PI--Put query/ies as a parameter-->C_API[Call RESTful API]
+      IF{IF response_code==200}
+      RD[Ready to deploy metrics change] 
+  end
+
+  subgraph "Data team application"
+
+      API{{Accept request}}--Transform query-->Q_T[Postgres->Snowflake SQL transformation]
+      Q_T[Execute query]--Snowflake syntax-->SF_E[(Snowflake)]
+      SF_E-->G_R{Accept and check result}
+      G_R--Success-->G_R_Y["{code: 200, body: '...'}"]
+      G_R--Error-->G_R_N["{code: 400, body: '...'}"]
+      G_R_Y-->F_R[Send response to client];
+      G_R_N-->F_R;
+      IF--Yes-->RD
+      PING_DT[Ping Data Team to analyze the error and add an object into Snowflake] 
+  end
+
+```
+
+More details on app with the source code should be found in the [service-ping-metrics-check](https://gitlab.com/gitlab-data/service-ping-metrics-check/-/blob/main/README.md) repo.
 
 #### Redis Metrics Implementation
 

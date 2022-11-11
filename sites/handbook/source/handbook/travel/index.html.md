@@ -244,12 +244,12 @@ If you feel that your travel frequency may expose your data please keep in mind 
 - Speaking in crowded places - Ensure that when you are talking about restricted data you are in a secure place and no-one can hear you.
 - 1Password travel mode - If you are approaching travel in a risky country or you have to leave your devices in an insecure place, please use [Travel Mode](https://support.1password.com/travel-mode/) in 1Password to ensure that your vaults will be safe if your device is compromised.
 
-When traveling, there is the possibility that customs, border control, or other law enforcement agents demand that you provide the password to your laptop or mobile device. If this happens to you in regards to a company-owned account or device, GitLab recommends that you comply with any such requests without protesting. If you do end up providing a password to any device or account that has access to GitLab resources (including your personal devices), you should follow [the process to engage Security on-call](/handbook/engineering/security/security-operations/sirt/engaging-security-on-call.html) as soon as you can safely do so. Even if you do not provide a password, if any of your devices are permanently seized or even temporarily removed from sight, you should also engage the Security on-call.
+When traveling, there is the possibility that customs, border control, or other law enforcement agents demand that you provide the password to your laptop or mobile device. If this happens to you in regards to a company-owned account or device, GitLab recommends that you comply with any such requests without protesting. If you do end up providing a password to any device or account that has access to GitLab resources (including your personal devices), you should follow [the process to engage Security on-call](/handbook/security/security-operations/sirt/engaging-security-on-call.html) as soon as you can safely do so. Even if you do not provide a password, if any of your devices are permanently seized or even temporarily removed from sight, you should also engage the Security on-call.
 
 For additional security specifically when traveling through an airport, the following advice is provided:
 
 - Completely power-off laptops and mobile devices before any security checkpoints. This reduces the risk of attacks that may be conducted against machines in a sleep mode, where the disk encryption is not being actively enforced.
-- Prior to the trip, remove any sensitive data from your local machine that is not absolutely required. Refer to the [Data Classification Standards](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html#data-classification-standards) for more information.
+- Prior to the trip, remove any sensitive data from your local machine that is not absolutely required. Refer to the [Data Classification Standards](https://about.gitlab.com/handbook/security/data-classification-standard.html#data-classification-standards) for more information.
 - If you are travelling through an [embargoed country](https://about.gitlab.com/handbook/sales/#export-control-classification-and-countries-we-do-not-do-business-in), do not bring any company-owned devices with you. If you must bring one, contact the legal department to discuss.
 - If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to speciality conferences like Defcon), you may request advice in the `#security-department` Slack channel.
 
@@ -259,19 +259,16 @@ Our top priority is the health and safety of our team members.
 
 ### Covid-19 Travel Working Group
 
-The COVID-19 Travel Working Group is comprised of the Covid Response Committee that was formed in 2020. Members are: Chief People Officer, Chief Legal Officer, Chief Marketing Officer and Chief Revenue Officer with additional support by the Staff EBA and Principal Internal Communications Manager. This group meets once monthly for 25min to review the current travel guidance around COVID-19. The meeting generally occurs on the second Thursday of every month which began on 2021-03-11
+The COVID-19 Travel Working Group is comprised of the Covid Response Committee that was formed in 2020. Members are: Chief People Officer, Chief Legal Officer, Chief Marketing Officer and Chief Revenue Officer with additional support by Legal and People Operations. This group meets once monthly for 25min to review the current travel guidance around COVID-19. The meeting generally occurs on the second Thursday of every month which began on 2021-03-11
 
 Meeting Schedule:
 
-1. 2022-06-16
-1. 2022-07-21
-1. 2022-08-18
 1. 2022-09-15
-1. 2022-10-20
+1. 2022-10-27
 1. 2022-11-17
 1. 2022-12-15
 
-These meetings are subject to change and we will continue to evaluate the frequency of them. The Principal Internal Communications manager is responsible for drafting any shareable updates as a result of the meeting, which include MRs and messaging around changes to the travel guidance on this page.
+These meetings are subject to change and we will continue to evaluate the frequency of them. The People Operations support is responsible for drafting any shareable updates as a result of the meeting, which include MRs and messaging around changes to the travel guidance on this page.
 
 If you have a question or feedback related to the working group, please post in the slack channel: #covid19-response-committee
 
@@ -283,7 +280,7 @@ Where can GitLab Team Members Travel? While some areas of the world have decreas
 
 This section has been updated as of 2022-07-29
 
-Fully vaccinated and boosted team members (as defined by [CDC Guidance](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/stay-up-to-date.html)) who want to travel for any business reason can do so without seeking prior approval from the COVID-19 Travel Working Group.  With COVID-19 cases decreasing around the world, we've made the data-driven decision to re-open team member travel.   
+Fully vaccinated and boosted team members (as defined by [CDC Guidance](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/stay-up-to-date.html)) who want to travel for any business reason can do so without seeking prior approval from the COVID-19 Travel Working Group.  With COVID-19 cases decreasing around the world, we've made the data-driven decision to re-open team member travel with the vaccine requirement.  
  
 
 While obtaining COVID-19-specific approval before travel is no longer needed, you will still need to get manager approval. As with every case, always coordinate with your manager to ensure alignment with the required travel, and please follow the [Travel and expense guidelines](https://about.gitlab.com/handbook/finance/expenses/#-travel-and-expense-guidelines). 
@@ -298,7 +295,7 @@ There may be some roles that require travel.  If travel is required for your rol
 
 At this time, all business travel requires pre-approval by your manager, and only fully vaccinated and boosted team members may travel for business if their request is approved. By making a request to travel, you are confirming that you are authorized to travel based on your vaccination status. GitLab is not requiring vaccination confirmation at this time to travel.
 
-Vaccinated team members must wear a mask that meets CDC or WHO guidelines during travel to their destination(s), and must continue to follow mask requirements meeting CDC/WHO guidelines or local, venue or client requirements, whichever is most strict.
+Team members must wear a mask that meets CDC or WHO guidelines during travel to their destination(s), and must continue to follow mask requirements meeting CDC/WHO guidelines or local, venue or client requirements, whichever is most strict.
 
 Business travel requests should be made for any mode of travel (including personal vehicles for local travel and local public transportation) where team members will be meeting co-workers, customers and/or partners in person.
 
@@ -345,3 +342,13 @@ You must make your own decision about what is right for you regarding travel. Pl
 - [CDC Guidance](https://www.cdc.gov/coronavirus/2019-ncov/travelers/index.html)
 - [Government of Canada Guidance](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html)
 - TripActions Application found via Okta - TripActions has information regarding [Travel Restrictions](https://app.tripactions.com/app/user2/travel-restrictions)
+
+## Sustainable travel considerations
+
+Even as an all-remote company, GitLab recognizes that some travel is necessary. These considerations aim to reduce the environmental impact of travel:
+
+- Prefer virtual meetings and attendance over personal meetings, except when the event's objective is enhanced by meeting in real life.
+- For short-distance travel, consider ground travel over air travel for information on short distance travel recommendations visit these examples from the [University of Bern](https://www.klimaneutral.unibe.ch/mobility/business_trips/travel_policy/index_eng.html), [University of Lund](https://www.lucsus.lu.se/sites/lucsus.lu.se/files/lucsus_travel_policy.pdf).
+- Select trips with lower carbon emissions. When [booking travel though Tripactions](https://about.gitlab.com/handbook/travel/#booking-travel-through-tripactions-) you can view the total CO2 footprint for at the checkout screen. 
+- If you organize an in-person meeting, aim for a location that allows as many people as possible to travel in a sustainable way.
+- Carbon offsets [offered by airlines have dubious value](https://www.nationalgeographic.com/travel/article/should-you-buy-carbon-offsets-for-your-air-travel), so aim to avoid air travel where it makes sense.

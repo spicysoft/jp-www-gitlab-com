@@ -15,7 +15,7 @@ departments:
 - Create:Code Review BE Team
 - Create:Code Review
 projects:
-  gitlab: trainee_maintainer backend
+  gitlab: maintainer backend
   gitlab-development-kit: trainee_maintainer
   gitlab-cli: maintainer
 story: |

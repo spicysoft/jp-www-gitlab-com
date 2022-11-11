@@ -18,10 +18,10 @@ twitter_creator: "@gitlab"
 
 The GitLab Strategy and Operations (Workplace) Team evolved from the All-Remote Marketing team. It is responsible for:
 1. The creation, curation, and continued iteration of [GitLab's guide to all-remote](/company/culture/all-remote/guide/), a deep library of guides that covers every facet of how GitLab functions as a remote team.
-2. Stewarding, iterating, and evangelizing GitLab's management philosophy, [MECC (Managing so Everyone Can Contribute)](/handbook/mecc/). 
-3. Building an overarching methodology for the modern workplace throughout FY23 and FY24.
+2. Stewarding, iterating, and evangelizing GitLab's management philosophy and people practice, [TeamOps](/teamops/).
+3. Building an overarching methodology for the modern workplace.
 
-**This page is the single source of truth for all-remote positioning, evangelism, approvals, vision, and strategy**.
+**This page is the single source of truth for TeamOps and all-remote positioning, evangelism, approvals, vision, and strategy**.
 
 ### Mission Statement
 
@@ -31,7 +31,7 @@ The GitLab Strategy and Operations (Workplace) Team evolved from the All-Remote 
 </figure>
 <!-- blank line -->
 
-The mission of GitLab’s Strategy and Operations (Workplace) team is to champion the company’s [all-remote culture](/company/culture/all-remote/) and associated initiatives.
+The mission of GitLab's Strategy and Operations (Workplace) team is to define, evolve, and scale [TeamOps](/teamops/). We also evolve and champion the company's [all-remote culture](/company/culture/all-remote/).
 
 This involves close collaboration with [GitLab's CEO](/handbook/ceo/) and [Chief of Staff](/handbook/ceo/chief-of-staff-team/); Corporate Marketing (PR, corporate events); People Group ([employment branding](/handbook/people-group/employment-branding/)) and [Diversity, Inclusion & Belonging ](/company/culture/inclusion/).
 
@@ -54,9 +54,24 @@ graph BT;
 
 ### Vision
 
-GitLab is an influencer and educator in remote work. It serves the community by creating valuable content that furthers the proliferation and ubiquity of [remote-first](/company/culture/all-remote/how-to-work-remote-first/) and [all-remote](/company/culture/all-remote/terminology/) organizations, while enhancing the operations of colocated and [hybid-remote](/company/culture/all-remote/hybrid-remote/) companies by sharing implementable remote-first practices.
+GitLab is an influencer and educator in remote work and people operations. It serves the community by creating valuable content that furthers the proliferation and ubiquity of [remote-first](/company/culture/all-remote/how-to-work-remote-first/) and [all-remote](/company/culture/all-remote/terminology/) organizations, while enhancing the operations of colocated and [hybid-remote](/company/culture/all-remote/hybrid-remote/) companies by sharing implementable remote-first practices.
 
-We believe that the [management philosophy](h/handbook/mecc/) and [operating principles](/handbook/values/#operating-principles) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/company/culture/all-remote/asynchronous/) and [informal communication](/company/culture/all-remote/informal-communication/) can benefit all organizations.
+We believe that the [people practice](/teamops/) and [operating principles](/handbook/values/#operating-principles) relied on by GitLab are applicable even to colocated companies, and educating on pillars such as [asynchronous workflows](/company/culture/all-remote/asynchronous/) and [informal communication](/company/culture/all-remote/informal-communication/) can benefit all organizations.
+
+## Goals (OKR)
+
+Follow our work and collaborate in the [TeamOps Q4-FY23 Epic](https://gitlab.com/groups/gitlab-com/-/epics/1978).
+
+The team's KR is defined within [GitLab CEO's OKR](/company/okrs/fy23-q4/#okrs). 
+
+In Q4-FY23, our KR is: **Certify at least 100 GitLab team members and 1 person in each department as TeamOps Trainer: Level 1**
+
+Requirements for TeamOps Trainer: Level 1
+1. Complete the [TeamOps practitioner course](https://levelup.gitlab.com/learn/course/teamops)
+1. Be able to answer questions (interview by existing trainer)
+1. Enthusiastic presentation of about 3-5 minutes on advantages of TeamOps on YouTube (GitLab Unfiltered)
+1. Contribute proposals to the materials (3 MRs including one graphic) on iterating TeamOps content to be market-ready (e.g. more applicable to your specific team or function)
+1. One blog post (or similar) published on GitLab, LinkedIn, Medium, Twitter thread, etc.
 
 ## Evangelism Materials
 
@@ -81,17 +96,8 @@ GitLab's overview video on its [all-remote culture](/company/culture/all-remote/
 
 ### Presentations (slide deck)
 
-{::options parse_block_html="true" /}
 
-<div class="panel panel-gitlab-orange">
-**Updates incoming for MECC**
-{: .panel-heading}
-<div class="panel-body">
-
-We plan to refresh the below content in Q3-FY23 to reflect GitLab's brand refresh and the creation of [MECC](https://about.gitlab.com/handbook/mecc/).
-
-</div>
-</div>
+GitLab's Workplace team collaborated with Brand and Corporate Communications to create a **TeamOps Presentation Template** on Google Slides, entitled [Making Teamwork an Objective Discipline](https://docs.google.com/presentation/d/1jYsr0rFOEUdZlbULmM25qvLOxP7QL5A2tnhio4x3ymw/edit?usp=sharing). Please *make a copy* of this presentation to edit photos and names, personalizing it to your specific need. 
 
 You may be asked to give a presentation on how GitLab works as an all-remote team, including requests that are specific to your role (sales, engineering, finance, people, etc.).
 
@@ -231,7 +237,9 @@ The course, titled "[How to Manage a Remote Team](https://www.coursera.org/learn
 
 ### GitLab Remote Work Foundation Certification
 
-Anyone in the world (yes, this includes those who are not employed by GitLab) may take the [GitLab Remote Work Foundation Certification](/company/culture/all-remote/remote-certification/) to improve their remote fluency. (*Note: We are refreshing this page and building a public certification for [MECC](/handbook/mecc/). This section will update once those are live.*)
+Anyone in the world (yes, this includes those who are not employed by GitLab) may take the [GitLab Remote Work Foundation Certification](/company/culture/all-remote/remote-certification/) and [TeamOps practitioner certification](https://levelup.gitlab.com/learn/course/teamops) to improve their remote fluency. 
+
+
 
 
 ### Social media assets and guidelines
@@ -284,7 +292,7 @@ An example of these details in an issue can be found [here](https://gitlab.com/g
 
 Please be sure to wait for approval before you confirm, if possible. Review this [guidance on speaking about GitLab](https://docs.google.com/document/d/e/2PACX-1vRNsgwGb7uNxZs9EbA8eyIAdVifThEid-Wz8p62eJRi1JtIGlLrNREdOV2WQM0ASfK0TzGLY5qVnrGm/pub) before your engagement, and ask the Corporate Communications team if you have questions. (*This document is only viewable by GitLab team members.*)
 
-Once you have done this, please tag `@jessicareeder` in a comment with a note that includes `Seeking Approval`.
+Once you have done this, please share in the `#teamops` Slack channel.
 
 The team will be available to help direct if you feel unprepared, or pair the creator of the issue with someone else on the GitLab team if there's opportunity to add another layer of expertise (e.g. a DevOps expert, an HR expert, a Finance expert) depending on the company that's requesting.
 
@@ -302,7 +310,7 @@ For example, 86% of respondents believe remote work is the future and 62% of res
 
 ### Work-from-Home Field Guide
 
-The [Work-from-Home Field Guide](/company/culture/all-remote/work-from-home-field-guide/) was co-created by GitLab and Herman Miller. It combines GitLab's expertise on [remote work](https://learn.gitlab.com/allremote/remote-playbook) and [management philosophy](/handbook/mecc/) with Herman Miller's deep understanding of workspaces and design. 
+The [Work-from-Home Field Guide](/company/culture/all-remote/work-from-home-field-guide/) was co-created by GitLab and Herman Miller. It combines GitLab's expertise on [remote work](https://learn.gitlab.com/allremote/remote-playbook) and [management philosophy](/teamops/) with Herman Miller's deep understanding of workspaces and design. 
 
 ### Remote Work playlist on GitLab Unfiltered
 
@@ -393,7 +401,7 @@ Field Marketing will look up account ownership in SFDC (Salesforce.com) and make
 
 ### Web
 
-The team's primary home for publishing informational guides and content is the [all-remote section of GitLab's handbook](/company/culture/all-remote/). This will be the preeminent home to all-remote content, positioned for consumption by media, investors, prospective customers and candidates. This links readers to the guides that make up [The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook), as well as [Managing so Everyone Can Contribute (MECC)](/handbook/mecc/). Future web experiences are being evaluated.
+The team's primary home for publishing informational guides and content is the [all-remote section of GitLab's handbook](/company/culture/all-remote/). This will be the preeminent home to all-remote content, positioned for consumption by media, investors, prospective customers and candidates. This links readers to the guides that make up [The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook), as well as [TeamOps](/teamops/). Future web experiences are being evaluated.
 
 ### Video
 
@@ -482,23 +490,22 @@ Our scheduled asynchronous weeks in 2022 are:
 
 ### Meet the Strategy and Operations (Workplace) team
 
-[**Darren Murph**](/handbook/marketing/readmes/dmurph/)
+[**Darren Murph**](h/handbook/ceo/chief-of-staff-team/readmes/dmurph/)
 
 * Title: Head of Remote
 * GitLab handle: `dmurph`
 * Slack handle: `dmurph`
 
-[**Jessica Reeder**](/company/team/?department=marketing#jessicareeder)
+[**Laurel Farrer**](/handbook/ceo/chief-of-staff-team/readmes/lfarrer/)
 
-* Title: Senior Strategy and Operations Manager, Workplace
-* GitLab handle: `jessicareeder`
-* Slack handle: `jessicareeder`
+* Title: Principle Strategy and Operations: Workplace
+* GitLab handle: `lfarrer`
+* Slack handle: `lfarrer`
 
 
 ### Contact us
 
-- Slack: Find us in `#remote`, `#mecc`, and `#ceo-chief-of-staff-team`
-
+- Slack: Find us in `#remote`, `#teamops`, and `#ceo-chief-of-staff-team`
 
 ----
 

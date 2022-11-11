@@ -14,7 +14,7 @@ departments:
 - Dev Section
 - Manage:Workspace BE Team
 projects:
-  gitlab: trainee_maintainer backend
+  gitlab: maintainer backend
 story: 'Hailing from Kerala, India, popularly known as "God''s Own Country", Manoj
   is a hardcore Ruby and Rails enthusiast. He loves contributing to open source and
   is a big fan of boring solutions. When not writing code, he loves to read, take

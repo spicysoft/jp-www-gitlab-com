@@ -35,7 +35,7 @@ We take employee concerns very seriously and encourage all GitLab Team Members t
 
 #### [Commercial](https://about.gitlab.com/handbook/legal/commercial/)
 
-The Commercial Legal Team works with our Sales and Partnership Team Members to deliver GitLab software and services. In addition, this team is responsible for reviewing and approving all agreements with regards to the procurement of goods and services. Resources include the [Sales Guide: Collaborating with GitLab Legal] (https://about.gitlab.com/handbook/legal/customer-negotiations/), Procurement Guide, and other resources which provide how best to engage the Commercial Team, as well as assist in efficiently reaching terms with our vendors, customers and partners, including negotiating terms and providing business and legal recommendations.
+The Commercial Legal Team works with our Sales and Partnership Team Members to deliver GitLab software and services. In addition, this team is responsible for reviewing and approving all agreements with regards to the procurement of goods and services. Resources include the [Sales Guide: Collaborating with GitLab Legal](https://about.gitlab.com/handbook/legal/customer-negotiations/), Procurement Guide, and other resources which provide how best to engage the Commercial Team, as well as assist in efficiently reaching terms with our vendors, customers and partners, including negotiating terms and providing business and legal recommendations.
 
 
 #### [Corporate](https://about.gitlab.com/handbook/legal/publiccompanyresources/)
@@ -134,11 +134,11 @@ Do not copy anyone outside the circle of trust on emails with the attorney.
 
 For more questions and answers about Attorney-Client Privilege in the corporate setting, search “AC Priv tests” in Drive.
 
-## Litigation Holds
+## Legal Holds
 
 <details>
- <summary markdown="span">What is a litigation hold?</summary>
-A litigation hold is the process GitLab uses to preserve all forms of relevant evidence, whether it be emails, instant messages, physical documents, handwritten or typed notes, voicemails, raw data, backup tapes, and any other type of information that could be relevant to pending or imminent litigation or when litigation is reasonably anticipated. Litigation holds are imperative in preventing spoliation (destruction, deletion, or alteration) of evidence which can have a severely negative impact on a company's case, including leading to sanctions. Once GitLab becomes aware of potential litigation, a GitLab attorney will provide notice to the impacted team members, instructing them not to delete or destroy any information relating to the subject matter of the litigation. The litigation hold applies to paper and electronic documents. During a litigation hold, all retention policies must be overridden.
+ <summary markdown="span">What is a legal hold?</summary>
+A legal hold is the process GitLab uses to preserve all forms of relevant evidence, whether it be emails, instant messages, physical documents, handwritten or typed notes, voicemails, raw data, backup tapes, and any other type of information that could be relevant to an investigation, pending or imminent litigation or when litigation is reasonably anticipated. Legal holds are imperative in preventing spoliation (destruction, deletion, or alteration) of evidence which can have a severely negative impact on a company's case, including leading to sanctions. Once GitLab becomes aware of an investigation or potential litigation, a GitLab attorney will provide notice to the impacted team members, instructing them not to delete or destroy any information relating to the subject matter of the investigation or potential litigation. The legal hold applies to paper and electronic documents. During a legal hold, all retention policies must be overridden.
 </details>
 
 ## Freedom of Information Act Requests

@@ -42,6 +42,8 @@ The GitLab Corporate Communications team is responsibility for the following act
 - We are invested in one another’s growth and development
 - We are committed to producing high quality work, being stewards of the GitLab values and sharing our expertise
 - We get stuff done!
+  - We are in a highly visible role, managing high stakes opportunities that impact the GitLab brand. While there are "glass balls" vs "rubber balls," most of the opportunities we oversee are "glass" and will break if dropped. 
+
 
 ## Objectives and Goals
 
@@ -266,7 +268,7 @@ Please ensure that the vendor meets the below criteria before proceeding with th
 
 - GitLab team and/or team member(s) need to have been using the product, service and/or technology for at LEAST 6 months prior to the reference request.
 - The product, service, and/or technology has met or exceeded your expectations.
-- E-group member approval for providing reference (E-group member will be for the specific organization using the vendor. For example, if it is a tool the security team uses, Eric Johnson will be the approver for e-group.)
+- E-group member approval for all reference requests except logo use. (E-group member will be for the specific organization using the vendor. For example, if it is a tool the Product team uses, David DeSanto will be the approver for e-group.)
 - If the request involves GitLab logo/brand use, please ensure the vendor follows the below:
     1. [Trademark Guidelines](/handbook/marketing/corporate-marketing/brand-activation/trademark-guidelines/)
     1. [Brand Standards](/handbook/marketing/corporate-marketing/brand-activation/brand-guidelines/#brand-standards)
@@ -290,7 +292,8 @@ If the vendor has met the above criteria, please [submit an issue](https://gitla
 
 - [ ] Vendor DRI
 - [ ] Corporate Communications
-- [ ] E-group member for organization using the vendor
+- [ ] Brand
+- [ ] E-group member for organization using the vendor (all reference requests except logo use)
 - [ ] Legal ([Legal Materials Review Process](https://about.gitlab.com/handbook/legal/materials-legal-review-process/))
 
 ### GitLab Press Releases

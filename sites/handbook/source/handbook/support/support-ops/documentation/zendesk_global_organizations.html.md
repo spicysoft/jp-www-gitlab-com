@@ -40,7 +40,7 @@ what fields are populated with information from Zendesk in the
 | Sales Segmentation | sales_segmentation | Text | * |
 | Account Owner | account_owner | Text | * |
 | Account Type | account_type | Dropdown | Authorized Reseller, Customer, Former Customer, Integrator, Partner, Prospect, Unofficial Reseller, Reseller |
-| Technical Account Manager | technical_account_manager | Text     | * |
+| Customer Success Manager | technical_account_manager | Text     | * |
 | AM Project ID | am_project_id | Text | * |
 | Number of Seats | seats_decimal | Decimal | * |
 | Manual Support Upgrade | manual_support_upgrade | Checkbox | True, False |
@@ -73,7 +73,7 @@ other organization informaiton) as soon as the ticket has an organization
 present. This is done via the
 [`Ticket::Internal Comment::Organization Info` trigger](https://gitlab.com/search?utf8=%E2%9C%93&search=id%3A+360015531940&group_id=2573624&project_id=20010334&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar).
 
-To add, edit or remove the organization notes, you can use [Zendesk Organization Issue template](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) to make the appropriate changes.
+To add, edit or remove the organization notes, you can use [Zendesk Organization Issue template](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) to make the appropriate changes. If you are part of the Support Team and want to edit an organization note, you can also [create Merge Request](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/tree/master/organizations) with Organization ID.
 
 ## How does SLA factor in?
 

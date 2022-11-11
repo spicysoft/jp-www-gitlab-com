@@ -1,19 +1,8 @@
-- name: Infrastructure Budget Plan vs Actuals
-  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
-  parent: "/handbook/engineering/performance-indicators/#engineering-budget-plan-vs-actuals"
-  definition: We need to spend our investors' money wisely. We also need to run a responsible business to be successful. <a href="https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11464">Latest data is in Adaptive, data team importing to Sisense in FY22Q2</a>
-  target: Identified in Sisense Chart
-  org: Infrastructure Department
-  is_key: false
-  health:
-    level: 0
-    reasons:
-    - There is currently a data lag to resolve
 - name: Infrastructure Handbook MR Rate
   base_path: "/handbook/engineering/infrastructure/performance-indicators/index.html#infrastructure-handbook-update-frequency"
   parent: "/handbook/engineering/performance-indicators/#engineering-handbook-mr-rate"
   definition: The handbook is essential to working remote successfully, to keeping up our transparency, and to recruiting successfully. Our processes are constantly evolving and we need a way to make sure the handbook is being updated at a regular cadence. This data is retrieved by querying the API with a python script for merge requests that have files matching `/source/handbook/engineering/**` or `/source/handbook/support/**` over time.
-  target: .55
+  target: .25
   org: Infrastructure Department
   is_key: false
   health:
@@ -78,9 +67,9 @@
   health:
     level: 3
     reasons:
+    - October 2022 Availability 100
     - September 2022 Availability 99.98
     - August 2022 Availability 99.92
-    - July 2022 Availability 99.95
     - Historical Availability is available on the <a href="https://about.gitlab.com/handbook/engineering/monitoring/#historical-service-level-availability">Service Level Availability page</a>
   sisense_data:
     chart: 12179074
@@ -99,7 +88,6 @@
     level: 3
     reasons:
     - This metric is equivalent to the <i>Lead Time for Changes</i> metric in the <a href="https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance">Four Keys Project from the DevOps Research and Assessment</a>. Additionally, the data for this metric also shows <i>Deployment Frequency</i>, another of the Four Keys metrics.
-    - MTTP is higher than recent months due to Production Change Locks for maintenance work as well as reduced deployments during APAC-hours due to team member PTO.  
     - The next step for this metric is to move from Continuous Delivery to Continuous Deployment for GitLab.com. Work is tracked in <a href="https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/280"> epic 280 </a>.
     - MTTP breakdown can be visualized on the <a href="/handbook/engineering/infrastructure/team/delivery/metrics.html"> Delivery Metrics page </a>.
   sisense_data:
@@ -123,19 +111,6 @@
     chart: 10056392
     dashboard: 764913
     embed: v2
-- name: GitLab.com Hosting Cost per GitLab.com Unique Monthly Active Users
-  base_path: "/handbook/engineering/infrastructure/performance-indicators/"
-  definition: This metric reflects an estimate of the dollar cost necessary to support one user in GitLab.com. It is an important metric because it allows us to estimate infrastructure costs as our user base grows. GitLab.com Hosting Cost comes from Netsuite; it is a sum of actual amounts within GitLab.com:Marketing and GitLab.com departments, with account numbers of 5026 or 6026. This cost is divided by <a href="/handbook/product/performance-indicators/#unique-monthly-active-users-umau">UMAU</a>. In the same dashboard is the free & paid breakdown of this metric. Free Hosting Cost include costs from the GitLab.com:Marketing department, while Paid cost is from the GitLab.com department. Paid Cost is divided by total paid licensed users, rather than UMAU.
-  target: less than .80
-  public: false
-  org: Infrastructure Department
-  is_key: true
-  urls:
-  - https://app.periscopedata.com/app/gitlab:safe-dashboard/919250/GitLab.com-Hosting-Cost-UMAU-KPI
-  health:
-    level: -1
-    reasons:
-    - Confidential metric - See notes in Key Review agenda.
 - name: Infrastructure Team Member Retention
   base_path: "/handbook/engineering/infrastructure/performance-indicators/"
   parent: "/handbook/engineering/performance-indicators/#engineering-team-member-retention"
@@ -172,7 +147,6 @@
             value: Engineering
           - name: Department
             value: Infrastructure
-
 - name: GitLab.com individual service maturity
   base_path: "/handbook/engineering/infrastructure/performance-indicators/"
   definition: This metric aims to show the level of confidence we have of our insight into the significant GitLab services on GitLab.com. We are looking to capture the maturity on the scale of "manual check is necessary" to "the system informs us of an upcoming scaling need". 
@@ -238,7 +212,7 @@
   definition: The Corrective Actions (CAs) SLO focuses on the number of open severity::1/severity::2 Corrective Action Issues past their due date. Corrective Actions and their due dates are defined in our <a href="/handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership">Incident Review process</a>.
   target: below 0
   org: Infrastructure Department
-  is_key: true
+  is_key: false
   health:
     level: 3
     reasons:
@@ -273,7 +247,7 @@
   definition: <a href="https://cloud.google.com/resource-manager/docs/creating-managing-labels">GCP Labels</a> & AWS Tags allow us to segment our cloud spend into more meaningful buckets that align with our business units. This PI tracks our progress towards adopting our <a href="https://about.gitlab.com/handbook/infrastructure-standards/labels-tags">Labeling Standards</a> which is very important for improved understanding of cloud spend. Currently, the metric only tracks adoption of gl_env_name label to replace currently used pet_name label for services, but eventually will grow to encompass all the required standard labels.
   target: at or above 80%
   org: Infrastructure Department
-  is_key: false
+  is_key: true
   health:
     level: 2
     reasons:

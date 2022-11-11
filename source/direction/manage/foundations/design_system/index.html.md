@@ -7,17 +7,17 @@ title: "Category Direction - Design System"
 {:toc}
 
 | ------ | ------ |
-| **Stage** | [Ecosystem](/direction/ecosystem/) |
+| **Stage** | [Manage](/direction/manage/) |
 | **Maturity** | [Viable](/handbook/product/categories/maturity/) |
-| **Last reviewed** | 2022-08-06 |
+| **Last reviewed** | 2022-10-25 |
 
 - [GitLab UI Project](https://gitlab.com/gitlab-org/gitlab-ui/)
 - [Pajamas Project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
 - [Issue list](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&label_name[]=Category%3AFoundations)
 - [Epic list](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&state=opened&label_name[]=Category%3AFoundations)
-- [Overall direction](/direction/ecosystem/)
+- [Overall direction](/direction/manage/)
 
-Thanks for visiting this direction page on the Design System category in GitLab. This page belongs to the [Foundations Group](https://about.gitlab.com/handbook/product/categories/#foundations-group) within the Ecosystem Stage and is maintained by [Christen Dybenko](mailto:cdybenko@gitlab.com).
+Thanks for visiting this direction page on the Design System category in GitLab. This page belongs to the [Foundations Group](https://about.gitlab.com/handbook/product/categories/#foundations-group) within the Manage Stage and is maintained by [Christen Dybenko](mailto:cdybenko@gitlab.com).
 
 This direction is constantly evolving and everyone can contribute:
 
@@ -122,6 +122,7 @@ We also aim to improve the community contributor experience by streamlining the 
 
 ### In progress
 
+* Scale our ability to track pajamas health with a [code scanner](https://gitlab-org.gitlab.io/frontend/pajamas-adoption-scanner/)
 * [Enable Development to integrate Pajamas components](https://gitlab.com/groups/gitlab-org/-/epics/3107) by performing [accessibility audits](https://gitlab.com/groups/gitlab-org/-/epics/5387), completing blocking accessibility issues, creating issues for all component instances, and writing necessary migration guides.
 * [Building comprehensive accessibility standards into our workflows.](https://gitlab.com/groups/gitlab-org/-/epics/5053) As GitLab continues to grow in unique monthly active users, so does our users who would benefit from increased accessibility testing and enhancements. In order to support this work, we are creating accessibility audit guides and best practices documentation.
 * [Pajamas evaluation](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/issues/1373) to begin adding more structure to the design system and refine the GitLab design language.
@@ -173,8 +174,7 @@ Foundations work covers a wide range of issues when it comes to our Design Syste
 Historically we had a Working Group for GitLab UI, but the work on our Design System
 is a continuous effort.
 
-We invite Frontend Engineers from other Teams and Community Contributors to pick up
-frontend-related issues if they have an interest in the UX/FE Foundation work.
+We invite Frontend Engineers from other Teams and Community Contributors to pick up frontend-related issues if they have an interest in the UX/FE Foundation work.
 Issues that are ready to be picked up are labeled with the
 [`ux-foundations-needs-fe`](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=ux-foundations-needs-fe)
 label.

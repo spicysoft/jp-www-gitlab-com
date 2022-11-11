@@ -12,7 +12,7 @@ projects:
   - reviewer backend
   - reviewer database
   security-report-schemas:
-  - trainee_maintainer backend
+  - trainee_maintainer
 pronunciation:
 twitter:
 gitlab: subashis

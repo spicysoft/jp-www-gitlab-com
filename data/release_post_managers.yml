@@ -10,7 +10,7 @@ releases:
   manager: tbd
   manager-name: tbd
   manager-shadow: tbd
-  structural_check: tbd
+  structural_check: lciutacu
   messaging: tbd
   messaging-shadow: tbd
   social: --
@@ -21,7 +21,7 @@ releases:
   manager: hsutor
   manager-name: Hannah Sutor
   manager-shadow: tbd
-  structural_check: tbd
+  structural_check: msedlakjakubowski
   messaging: BrianMason
   messaging-shadow: tbd
   social: --
@@ -32,7 +32,7 @@ releases:
   manager: dorrino
   manager-name: Dilan Orrino
   manager-shadow: hsutor
-  structural_check: tbd
+  structural_check: ashrafkhamis
   messaging: supadhyaya
   messaging-shadow: tbd
   social: --
@@ -43,7 +43,7 @@ releases:
   manager: abellucci
   manager-name: Alana Bellucci
   manager-shadow: dorrino
-  structural_check: tbd
+  structural_check: phillipwells
   messaging: anair5
   messaging-shadow: tbd
   social: --

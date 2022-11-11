@@ -2,7 +2,8 @@
 name: Nicole Williams
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/management/fullstack-manager/">Fullstack Engineering Manager, Release</a> and <a href="/job-families/engineering/development/management/senior-manager/">Acting Senior Engineering Manager, Continuous Delivery</a>
+role: <a href="/job-families/engineering/development/management/senior-manager/">Interim
+  Senior Engineering Manager, Monitor & Runner</a>
 reports_to: samgoldstein
 picture: nicolewilliams.jpg
 twitter: nicolemw
@@ -10,9 +11,9 @@ gitlab: nicolewilliams
 departments:
 - Engineering Function
 - Development Department
-- Fullstack
-- Ops Sub-department
-- Release Group
+- Ops Section
+- Monitor Stage
+- Runner Stage
 story: |
   Nicole has many years of experience building large scale web applications and leading
   high performing engineering teams. Outside of work she can usually be found reading a book,

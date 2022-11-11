@@ -1,5 +1,6 @@
 ---
 layout: handbook-page-toc
+description: "This page covers the factors to consider for customer health, guidelines for selecting the appropriate rating, communication guidelines, CSM responsibilities and instructions for the account triage issue creation."
 title: "Customer Health Assessment and Management"
 ---
 
@@ -8,6 +9,8 @@ title: "Customer Health Assessment and Management"
 
 - TOC
 {:toc .hidden-md .hidden-lg}
+
+{::options parse_block_html="true" /}
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -60,6 +63,7 @@ To view Timeline entires where the CSM Sentiment was updated:
 Customer is very likely to renew and/or expand with no known or assumed risk of downsell or churn. Customer's experience: engagement, adoption and experiences are as expected or better than expected, delivering value and outcomes as appropriate the customer's stage in their journey. Examples:
 
 - Progressive adoption of GitLab use cases as defined by their success plan, considering their stage in their journey
+- Alignment with stakeholders who can drive desired outcomes
 - Regular communication and engagement in meetings
 - Positive feedback on the product and experience and/or high scores on NPS surveys
 - Leveraging support services as defined by creation of tickets (1-5 tickets per month)
@@ -73,7 +77,7 @@ Potential risk or significant lack of information leading to uncertainty. Indica
 - Customer lacks definition of goals or success criteria
 - High number of support cases, critical / blocker product issue(s), or poor experience based on the customer's expectations
 - Lack of engagement, responsiveness or participation in meetings and/or events
-- Changes of roles (e.g., sponsor or champion), organizational change or acquisition
+- Loss of sponsor or champion due to change of role or organization or acquisition
 - Lack of adoption of releases (self-managed only) where they are more than a major release behind the current release
 - Not leveraging technical support services or has a large number of cases and/or high severity cases (6-15 tickets per month, or no ticket(s) opened after being advised by the CSM that Support is the best path to resolution for an issue(s))
 - Poor experiences with Support, Professional Services or another part of GitLab
@@ -86,28 +90,35 @@ There might be well understood reasons within the account team why a customer is
 Specific, known risks to account retention or upcoming opportunity, or overwhelming lack of information, such as unresponsiveness leading up to renewal. Customer's experience: engagement, adoption and/or experiences are significantly lower than expected where issues are blocking GitLab's ability to deliver expected value, outcomes, or positive experiences as defined by the customer.
 Examples:
 
+- Lack of alignment with stakeholders who can drive outcomes... 
+   - [Economic Buyer](https://about.gitlab.com/handbook/sales/meddppicc/#economic-buyer) 
+   - [Champion](https://about.gitlab.com/handbook/sales/meddppicc/#champion)
+   - Key [Personas](https://about.gitlab.com/handbook/product/personas/) 
+      - [Cameron (Compliance Manager)](https://about.gitlab.com/handbook/product/personas/#cameron-compliance-manager)
+      - [Delaney (Development Team Lead)](https://about.gitlab.com/handbook/product/personas/#delaney-development-team-lead)
 - Product does not deliver expected value or outcomes as defined by success plan
 - No or low product adoption with no progression
 - Communication of poor sentiment
 - Lack of any engagement
-- Loss of sponsor or champion due to change of role or organization or acquisition
 - Significantly poor experiences with Support or Professional Services
 - Significant number of support tickets (16+ per month)
 
 
 ### Will Churn (Grey)
 
-Very rarely, a customer reaches a point at which it is accepted by the account team and leadership that a customer will churn. As Gainsight does not support a 'grey' color (or any color outside of the standard green to red health scoring), the 'will churn' lifecycle stage can be applied in 360º Attributes.  Applying this stage will remove the customer from health scoring reporting, so that at-risk reviews are spent productively.
+Very rarely, a customer reaches a point at which it is accepted by the account team and leadership that a customer will churn. As Gainsight does not support a 'grey' color (or any color outside of the standard green to red health scoring), the `will churn` lifecycle stage can be applied in 360º Attributes.  Applying this stage will remove the customer from health scoring reporting, so that at-risk reviews are spent productively.
 
-In order for a customer to move to the 'will churn' stage, the following must be completed:
+In order for a customer to move to the `will churn` stage, the following must be completed:
 
 - [ ] All options discussed in the triage issue and in at-risk reviews have been exhausted
-- [ ] Customer Success Manager opens a `Will Churn` issue
-  - [``Will Churn`` Enterprise issue template](https://gitlab.com/gitlab-com/customer-success/account-triage/-/issues/new?issuable_template=Will%20Churn%20-%20ENT)
-- [ ] Customer Success Manager links from the triage issue to the newly created "Will Churn" issue, and closes the triage issue
-- [ ] Listed personas in the "Will Churn" issue provide feedback and approval
-- [ ] SAL/AE has marked the opportunity as 'Will Churn'
-- [ ] CSM updates the Lifecycle Stage in Gainsight C360 > Attributes > Lifecycle Stage to "Will Churn"
+- [ ] CSM discusses it with their manager and gets agreement on moving to `will churn`
+- [ ] CSM opens a `Will Churn` issue ([`Will Churn` issue template](https://gitlab.com/gitlab-com/customer-success/account-triage/-/issues/new?issuable_template=Will%20Churn%20-%20ENT))
+- [ ] CSM links from the triage issue to the newly created `Will Churn` issue and closes the triage issue
+- [ ] Listed personas in the `Will Churn` issue provide feedback and approval
+- [ ] SAL/AE marks the opportunity as `Will Churn`
+- [ ] CSM updates the Lifecycle Stage in Gainsight C360 > Attributes > Lifecycle Stage to `Will Churn`
+
+In line with GitLab's approach to blameless root cause analysis in both [Professional Services](/handbook/customer-success/professional-services-engineering/workflows/internal/root-cause-analysis.html) and [Engineering](/handbook/engineering/root-cause-analysis/), we follow a similar methodology in the form of a retrospective in the `Will Churn` issue to identify learnings from what went well and what didn't, what we could have done better to avoid this churn, and how we can change our approach in order to avoid future churn. This information is important and required to be included the issue in order to provide context to leadership prior to them approving. This retrospective and lessons learned should also be discussed in the next 1:1 between the CSM and their manager, as well as potentially lead to a handbook or process update shared with the broader team.
 
 ## Communication Guidelines
 
@@ -148,6 +159,9 @@ There are a number of [enablement videos](/handbook/customer-success/csm/gainsig
 
 #### Clearing Stale Health Measures
 
+**Product**
+If usage data stops being received into Gainsight, the health measures will move to "NA" after 60 days. This is to prevent analysis and actions based on outdated data. In this case, we prefer to show nothing ("NA") over outdated data.
+
 **CSM Sentiment**
 `CSM Sentiment` health scores become stale after 90 days of not being updated; this will be reflected on your health score dashboard by an exclamation point next to the score. If an account is marked as stale, but you've updated the `CSM Sentiment` within 90 days, please reach out in [gainsight-users](https://gitlab.slack.com/archives/C011ACG9MJB). Accounts with a stale `CSM Sentiment` will also be monitored via the CSM Burn-Down Dashboard in Gainsight and discussed in account planning meetings. Sentiment scores will be set to NA if they have not been updated in more than 120 days to remove outdated values.
 
@@ -165,22 +179,23 @@ Health score criteria is either manually or automatically applied to determine t
    * Example 2: If we're receiving Product Usage Statistics but Continuous Delivery (CD) is NULL, that will be reallocated among Product Usage stats measures. So CI health would go from, say, 5% to 7%.
 
 
-| Group (PROVE)             | Measure                                                      | Description                                                  | Method           | Calculation                                                  | Measure Weight | Group Weighting |
-| ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ | -------------- | --------------- |
-| **Product**               |                                                              | Scores the customer based on their depth and breadth of adoption, if Operational Metrics are available.    | Automatic        | See [Customer Use Case Adoption](/handbook/customer-success/product-usage-data/use-case-adoption/) |                | 25%             |
-|                           | License Utilization                                          |                                                              |                  |                                                              | 40%            |                 |
-|                           | SCM Adoption                                                 |                                                              |                  |                                                              | 15%            |                 |
-|                           | CI Adoption                                                  |                                                              |                  |                                                              | 15%            |                 |
-|                           | DevSecOps Adoption                                           |                                                              |                  |                                                              | 15%            |                 |
-|                           | CD Adoption                                                  |                                                              |                  |                                                              | 15%            |                 |
-| **Risk**                  | [CSM Sentiment](/handbook/customer-success/csm/health-score-triage/#gainsight) | Qualitative measure that the CSM updates to indicate their perceived sentiment of the customer. | Manual/Automatic | For all `CSM-owned` accounts:<br> CSM manually determines red/yellow/green | 100%           | 50%             |
-| **Outcomes**              | ROI                                                          | Does the customer have a Success Plan that has objectives and notes? | Automatic        | For All `CSM Prioritization = 1` accounts AND all CSM-owned accounts that have an open Success Plan:<br> - Green: Active Success Plan with 1+ objective and Strategy/Highlights <br>- Yellow: Draft Success Plan OR Active Success Plan with 1+ objectives and no Strategy/Highlight information <br>- Red: No Success Plan or no objectives | 100%           | 10%             |
-| **Voice of the Customer** |                                                              |                                                              |                  |                                                              |                | 5%              |
-|                           | Support Issues                                               | Assess the health of our support interactions. Current version is MVC with [v2 coming](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/1202). | Automatic        | - Green: 1-5 tickets/month <br>- Yellow: 5-15 tickets/month <br>- Red: \>15 tickets/month | 100%           |                 |
-|                           | Support Emergency Tickets                                    | Based on the number of open/closed Priority:Urgent tickets   | Automatic        | - Yellow: 1+ closed Emergency ticket in the last 7 days<br> - Red: 1+ open Emergency ticket | 0%             |                 |
-| **Engagement**            |                                                              |                                                              |                  |                                                              |                | 10%             |
-|                           | Meeting Cadence                                              | Based on recency of last call/meeting with the customer      | Automatic        | For `CSM Prioritization = 1` accounts:<br> - Green: <= 35 days <br>- Yellow: > 35 days and <= 60 days <br>- Red: > 60 days <br><br>For `CSM Prioritization = 2` accounts:<br> - Green: <= 65 days <br>- Yellow: > 65 days and <= 90 days <br>- Red: > 90 days | 50%            |                 |
-|                           | [Persona Engagement](/handbook/customer-success/csm/engagement/#customer-personas) | Are we meeting with the correct personas in the Account?     | Automatic        | Persona Engagement is based on the roles of External Attendees added on timeline entries. - Green: both Dev Lead and Security Lead are listed as external attendees on a timeline entry in the past three months <br> - Yellow: one of the two personas attend <br> Red: neither personas are listed as having attended a meeting | 50%            |                 |
+| Group (PROVE) | Measure | Description | Method | Calculation | Measure Weight | Group Weighting | Segmentation |
+|---|---|---|---|---|---|---|---|
+| **Product** |  | Scores the customer based on their depth and breadth of adoption, if Operational Metrics are available | Automatic | [See Customer Use Case Adoption](https://rgorbanescu-master-patch-65934.about.gitlab-review.app/handbook/customer-success/product-usage-data/use-case-adoption/) |  | 50% |  |
+|  | License utilization |  |  |  | 30% |  | All |
+|  | User Engagement |  |  |  | 10% |  | All |
+|  | SCM adoption |  |  |  | 15% |  | All |
+|  | CI adoption |  |  |  | 15% |  | All |
+|  | DevSecOps adoption |  |  |  | 15% |  | All |
+|  | CD adoption |  |  |  | 15% |  | All |
+| **Risk** | [CSM sentiment](/handbook/customer-success/csm/health-score-triage/#gainsight) | Qualitative measure the CSM updates to indicate their perceived sentiment of the customer | Manual/Automatic | For all `CSM-owned` accounts, CSM manually determines red/yellow/green | 100% | 50% | N/A for Tech Touch |
+| **Outcomes** | ROI | Does the customer have a Success Plan that has objectives and notes? | Automatic | For All `CSM Prioritization = 1` accounts AND all CSM-owned accounts that have an open Success Plan:<br>- Green: Active Success Plan with 1 or more objectives and no Strategy/Highlight information<br>- Yellow: Draft Success Plan OR Active Success Plan with 1 or more objectives and no Strategy/Highlight information<br>- Red: No Success Plan or no objectives | 100% | 10% | N/A for Scale and Tech Touch |
+| **Voice of the customer** |  |  |  |  | 5% |  |  |
+|  | Support issues | Assess the health of our support interactions. Current version is MVC with [v2 coming](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/1202). | Automatic | - Green: 1-5 tickets/month<br>- Yellow: 5-15 tickets/month<br>- Red: More than 15 tickets/month | 100% |  | All |
+|  | Support emergency tickets | Based on the number of open/closed tickets.<br>**Priority**: urgent tickets | Automatic | - Yellow: 1+ closed emergency ticket in the last 7 days<br>- Red: 1+ open emergency ticket | 0% |  | All |
+| **Engagement** |  |  |  |  | 10% |  |  |
+|  | Meeting cadence | Based on recency of last call or meeting with the customer | Automatic | For `CSM Prioritization = 1` accounts:<br>- Green: <= 35 days<br><br>- Yellow: > 35 days and <= 60 days<br><br>- Red: > 60 days<br><br><br>For `CSM Prioritization = 2` accounts:<br>- Green: <= 65 days<br><br>- Yellow: > 65 days and <= 90 days<br><br>- Red: > 90 days | 50% |  | N/A for Scale and Tech Touch |
+|  | **Persona engagement** | Are we meeting with the correct personas in the account? | Automatic | Persona Engagement is based on the roles of External Attendees added on timeline entries<br>- Green: both Dev Lead and Security Lead are listed as external attendees on a timeline entry in the past three months<br>- Yellow: one of the two personas attend<br><br>- Red: neither personas are listed as having attended a meeting | 50% |  | N/A for Growth, Scale and Tech Touch |
 
 
 ##### License Usage health table

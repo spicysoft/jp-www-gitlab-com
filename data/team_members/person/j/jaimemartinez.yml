@@ -2,7 +2,8 @@
 name: Jaime Martínez
 locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend Engineer, Package</a>
+role: <a href="/job-families/engineering/development/backend/senior/">Senior Backend
+  Engineer, Package:Container Registry</a>
 reports_to: michelletorres
 picture: jaimemartinez.jpg
 twitter: jimbart098
@@ -14,17 +15,19 @@ departments:
 - Engineering Function
 - Development Department
 - Ops Sub-department
-- Package Group
-- Package BE Team
+- Package Stage
+- Package:Container Registry Group
+- Package:Container Registry BE Team
 projects:
   release-cli: maintainer
   gitlab-pages: maintainer
-  gitlab: 
-    - reviewer go
-    - reviewer workhorse
+  gitlab:
+  - reviewer go
+  - reviewer workhorse
   go-mimedb: reviewer
-  container-registry: reviewer
+  container-registry: trainee_maintainer
   labkit: reviewer
+  gitlab-cli: reviewer
 story: |
   Jaime is a software engineer who has been working with Go writing backend applications for the last few years. He enjoys mentoring others and spreading the Go love.
   In his spare time, he can be seen playing video games, walking his dog and going to concerts with his partner!

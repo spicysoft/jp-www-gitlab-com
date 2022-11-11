@@ -29,10 +29,10 @@ story: |
   probably be walking and reading at the same time.
 projects:
   gitlab:
-  - trainee_maintainer database
-  - trainee_maintainer backend
+  - reviewer database
+  - reviewer backend
   security-report-schemas:
-  - trainee_maintainer backend
+  - trainee_maintainer
 domain_expertise:
 - rails
 - govern

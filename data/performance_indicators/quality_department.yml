@@ -231,6 +231,28 @@
 # Engineering Productivity
 ############################
 
+- name: Time to First Failure - 80th percentile
+  base_path: "/handbook/engineering/quality/performance-indicators/"
+  definition: TtFF (pronounced "teuf") measures the 80th percentile time from pipeline creation until the first actionable failed build is completed for the GitLab monorepo project.
+    We want to run the tests that are likely to fail first and shorten the feedback cycle to R&D teams.
+  target: Below 20 minutes
+  org: Quality Department
+  is_key: false
+  dri: <a href="https://gitlab.com/jennli">Jennifer Li</a>
+  health:
+    level: 2
+    reasons:
+      - Track this metric in addition to average starting FY23Q4
+      - Plan to optimize selective tests in place for backend and frontend tests
+  urls:
+    - https://gitlab.com/groups/gitlab-org/-/epics/8584
+    - https://gitlab.com/gitlab-org/gitlab/-/issues/361665
+  sisense_data:
+    chart: 15682666
+    dashboard: 878780
+    shared_dashboard: 9e320ebb-43f6-4b30-9f72-7f02636ae410
+    embed: v2
+
 - name: Merge request pipeline duration
   base_path: "/handbook/engineering/quality/performance-indicators/"
   definition: Measures the average successful duration for the GitLab project merge request pipelines. Key building block to improve

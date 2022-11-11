@@ -1,21 +1,27 @@
-name: Suleimi Ahmed 
-locality: 
+---
+name: Suleimi Ahmed
+locality:
 country: Remote
-role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Package</a>
+role: <a href="/job-families/engineering/development/backend/">Backend Engineer, Package:Container
+  Registry</a>
 reports_to: michelletorres
 picture: sahmed.jpg
 pronouns: he/him
+projects:
+  container-registry:
+    - reviewer
 pronunciation: suw-lay-me
 twitter:
 linkedin:
 gitlab: suleimiahmed
 departments:
-  - Engineering Function
-  - Development Department
-  - Ops Sub-department
-  - Package Group
-  - Package BE Team
-specialty: "Package"
+- Engineering Function
+- Development Department
+- Ops Sub-department
+- Package Stage
+- Package:Container Registry Group
+- Package:Container Registry BE Team
+specialty: Package
 expertise:
 story:
 

@@ -17,16 +17,17 @@ While downtime avoidance is preferable, downtime is not avoidable. As such, it i
 The majority of investment and focus of the DevOps industry (including GitLab) to date has been on downtime avoidance. There are some entrenched competitors approaching incident management from the perspective of workflows (ServiceNow), or incident notification (Pager Duty, OpsGenie). Despite this, holistic incident management products are lacking resulting in many organizations stitching together point solutions mixed with a healthy dose of DIY. We believe that many organizations are looking for ways to avoid reinventing the wheel on incident management
 
 ### Demo
-Check out this short demo that highlights GitLab Incidents as the single source of truth (SSOT).
+Check out this short video that highlights important incident metrics and what we're building to measure these metrics in GitLab Incidents.
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="https://www.youtube-nocookie.com/embed/ResCq5DsjME" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/l2Larebm1Ic" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
 
 To see past demos take a look at the [Respond Group playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoO5WmppV5TduOD9D-IP2p0) or click the link(s) below.
 - [August 2022](https://www.youtube.com/watch?v=MIjGyoTh7hQ) - What we've built so far; on-call schedules, escalation policies, alerts, and incidents.
+- [September 2022](https://www.youtube.com/watch?v=ResCq5DsjME) - GitLab Incidents as the single source of truth (SSOT).
 
 ### Vision
 
@@ -63,50 +64,53 @@ We are uniquely positioned to take advantage of the following opportunities:
 
 Our current Incident Management tools have been built for users who align with our [Allison (Application Ops)](https://about.gitlab.com/handbook/product/personas/#allison-application-ops) and [Ingrid (Infrastructure Operator)](https://about.gitlab.com/handbook/product/personas/#ingrid-infrastructure-operator) personas. The experience targets DevOps teams at smaller companies where it is common for the engineers to be on-call and responding to alerts for the software that they also write code for. As we mature this category, we will evolve the experience to appeal to and serve the enterprise customer.
 
-## Strategy and Roadmap
+# Roadmap
  
-### Now - (FY23Q3)
- 
-#### GitLab Incidents are the single source of truth (SSOT)
- 
+### Now - (next 1-3 milestones)
+`GitLab Incidents are the single source of truth (SSOT)`
+
+**_Prioritized Development Work_**
 - We are continuing to build more incident management features, and working to enable our internal Infrastructure and Reliability Teams to adopt GitLab [Incidents](https://docs.gitlab.com/ee/operations/incident_management/incidents.html#incidents).
-- Our current focus is [ensuring the most relevant information is visible so stakeholders can track progress during an on-going incident](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1767).
- 
-**_How are we tracking success?_**
- 
-- We are focused on dogfooding, and we are measuring the number of [Incident Management features the Infrastructure team is currently Dogfooding](https://about.gitlab.com/direction/monitor/debugging_and_health/incident_management/#dogfooding-plan).
- 
- 
-### Next (6 months - 1 year, ~ FY23Q4 - FY24Q1)
- 
-#### _Empower team collaboration_
- 
+- We are working on [ensuring the most relevant information is visible so stakeholders can track progress during an on-going incident](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1767).  
 - The vast majority of do it yourself (DIY) users use Slack or similar apps as the main collaboration tool during an incident. We want to make it easy for incident response teams to use Slack _and_ GitLab incident management, ensuring [Slack-to-GitLab workflows are seamless to minimize repetitive, manual work for incident response teams](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1944). For our internal team, we plan to replace [woodhouse](https://gitlab.com/gitlab-com/gl-infra/woodhouse) with a productized Slack integration.
-- [Introduce a post-incident review process so teams can learn from past incidents and better prepare for future, similar events](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1945) so users can improve their incident response posture.
+
+**_Exploratory work to inform future priorities_**
+- We're currently working on designs to [introduce a post-incident review process so teams can learn from past incidents and better prepare for future, similar events](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1945) so users can improve their incident response posture.
  
 **_How are we tracking success?_**
- 
+- We are focused on dogfooding, and we are measuring the number of [Incident Management features the Infrastructure team is currently Dogfooding](https://about.gitlab.com/direction/monitor/debugging_and_health/incident_management/#dogfooding-plan).
 - Ship [Slack App for Incident Management](https://gitlab.com/groups/gitlab-org/-/epics/8545); measure the number of integrations setup and work on a [go to market (GTM) effort directly with Slack](https://gitlab.com/groups/gitlab-org/-/epics/8545#note_1084388282).
-- Ship [Incident Review](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1945). We will track usage, particularly percentage of incident reviews conducted relative to the number of severity one incidents created.
+- Ship [Incident Review](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1945). We will track usage, particularly percentage of incident reviews conducted relative to the number of ~"severity::1"  incidents created.
 - [Incident response teams can track timestamps in incidents](https://gitlab.com/groups/gitlab-org/-/epics/7013#:~:text=Ensure-,incident%20response%20teams%20can%20track%20timestamps%20in%20incidents,-workflow) to start measuring important incident metrics.
+
  
-### Future (1-2 years, ~ FY24)
+### Next (next 4-6 milestones)
+`Alerts can be easily triaged`
+
+**_Prioritized Development Work_**
+- We will continue to build more incident management features, making GitLab [alerts](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alerts) [more robust so teams can quickly and effectively triage them](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1820).
+- We will work across stages, ensuring GitLab events that warrant and alert, [like a failed pipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/217770), are surfaced in the [alert list](https://docs.gitlab.com/ee/operations/incident_management/alerts.html#alert-list).
+
+**_Exploratory work to inform future priorities_**
+- Explore [incident roles so it's immediately visible who-is-responsible-for-what during an incident.](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1975)
+- Determine [how users find out who can help when there is an incident?](https://gitlab.com/gitlab-org/ux-research/-/issues/2156)
+
+**_How are we tracking success?_**
+- Through cross stage adoption we see an increase in our Group Monthly Active Users (GMAU).
  
-#### _Customers are interested in replacing expensive incident tools with GitLab._
- 
+
+### Future (next 7-9 milestones)
+`Customers are interested in replacing expensive incident tools with GitLab`
 - GitLab Incident Management reaches [complete maturity](https://gitlab.com/groups/gitlab-org/-/epics/1494)!
  
-### Long Term (3+ years, FY25 and beyond)
- 
-#### _Customers come to GitLab for their incident management solution._
- 
-- Strengthen bi-directional product tie-in to other GitLab stages and Monitor categories including, Error Tracking, Tracing, Logging, Metric and Runbooks.
+### Long Term (2+ years, FY25 and beyond)
+`Customers come to GitLab for their incident management solution`
+- Strong bi-directional product tie-in to other GitLab stages and Monitor categories including, Error Tracking, Tracing, Logging, Metrics, Continuous Verification, Service Catalog and Runbooks.
 - A sound integration strategy has been identified and validated for Monitor tools that will allow users to more quickly communicate and resolve incidents.
-- Customers can quantify and show a decrease in MTTR.
- 
+- Customers can quantify and show a decrease in mean time to resolve (MTTR).
 
 
-### Workflow
+## Workflow
 
 Incident Management is a broad category. The following diagram explains all functionality that is currently within scope for our vision of the category.
 

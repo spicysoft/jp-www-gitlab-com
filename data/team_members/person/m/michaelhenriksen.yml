@@ -7,6 +7,8 @@ role: <a href="/job-families/engineering/vulnerability-research-engineer/">Senio
 reports_to: mark-art
 picture: michaelhenriksen.png
 pronouns: he/him
+projects:
+  secure-DS-gemnasium-db: maintainer
 pronunciation:
 twitter: michenriksen
 gitlab: mhenriksen
